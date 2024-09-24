@@ -231,92 +231,94 @@ $(function(){initNavTree('MRRibbonSchema_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSchemaLoader.html#a21064610abab0a6524a91349d54a0470">  113</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSchemaLoader.html#a21064610abab0a6524a91349d54a0470">sortFilesByOrder_</a>( std::vector&lt;std::filesystem::path&gt;&amp; files ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="comment">// appends one menu items json info</span></div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSchemaLoader.html#ab7e8563a297450e4086c93062470453b">  115</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSchemaLoader.html#ab7e8563a297450e4086c93062470453b">readItemsJson_</a>( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="comment">// appends one ui json info</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e">  117</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e">readUIJson_</a>( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>};</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSchemaLoader.html#a8922f80db8dd50ace1d0414338bc9a90">  116</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSchemaLoader.html#a8922f80db8dd50ace1d0414338bc9a90">readItemsJson_</a>( <span class="keyword">const</span> Json::Value&amp; root ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="comment">// appends one ui json info</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e">  118</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e">readUIJson_</a>( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSchemaLoader.html#ae18febd5f891538a94cd80c617a2c7f0">  119</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSchemaLoader.html#ae18febd5f891538a94cd80c617a2c7f0">readUIJson_</a>( <span class="keyword">const</span> Json::Value&amp; root ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>};</div>
 </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00122" data-start="{" data-end="};">
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemAdder.html">  122</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1RibbonMenuItemAdder.html">RibbonMenuItemAdder</a></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>{</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span>... Args&gt;</div>
-<div class="foldopen" id="foldopen00128" data-start="{" data-end="}">
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">  128</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">RibbonMenuItemAdder</a>( Args&amp;&amp;... args ) : item_( std::make_shared&lt;T&gt;( std::forward&lt;Args&gt;( args )... ) )</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    {</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a28d7c0a6ed492a3e6678588c499d5a29">RibbonSchemaHolder::addItem</a>( item_ );</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    }</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00124" data-start="{" data-end="};">
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemAdder.html">  124</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1RibbonMenuItemAdder.html">RibbonMenuItemAdder</a></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>{</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span>... Args&gt;</div>
+<div class="foldopen" id="foldopen00130" data-start="{" data-end="}">
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">  130</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">RibbonMenuItemAdder</a>( Args&amp;&amp;... args ) : item_( std::make_shared&lt;T&gt;( std::forward&lt;Args&gt;( args )... ) )</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    {</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a28d7c0a6ed492a3e6678588c499d5a29">RibbonSchemaHolder::addItem</a>( item_ );</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    }</div>
 </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="foldopen" id="foldopen00133" data-start="{" data-end="}">
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66">  133</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66">~RibbonMenuItemAdder</a>()</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    {</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a091aa7fdc2342488f7e268ef28a578d7">RibbonSchemaHolder::delItem</a>( item_ );</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    }</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="foldopen" id="foldopen00135" data-start="{" data-end="}">
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66">  135</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66">~RibbonMenuItemAdder</a>()</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    {</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a091aa7fdc2342488f7e268ef28a578d7">RibbonSchemaHolder::delItem</a>( item_ );</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    }</div>
 </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    std::shared_ptr&lt;T&gt; item_;</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>};</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    std::shared_ptr&lt;T&gt; item_;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>};</div>
 </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00143" data-start="{" data-end="};">
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemCall.html">  143</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1RibbonMenuItemCall.html">RibbonMenuItemCall</a></div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>{</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> F&gt;</div>
-<div class="foldopen" id="foldopen00148" data-start="{" data-end="}">
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemCall.html#a8b802da7db541f512179ff3c432ac662">  148</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemCall.html#a8b802da7db541f512179ff3c432ac662">RibbonMenuItemCall</a>( F f, std::function&lt;<span class="keywordtype">void</span>(std::shared_ptr&lt;T&gt;)&gt; g ) : g_( std::move( g ) )</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    {</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; items = <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a07e8558bf86dd569ca7acedfbce55d9a">RibbonSchemaHolder::schema</a>().<a class="code hl_variable" href="structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1">items</a>;</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; item : items )</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        {</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>            <span class="keyword">auto</span> plugin = std::dynamic_pointer_cast&lt; T &gt;( item.second.item );</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>            <span class="keywordflow">if</span> ( !plugin )</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>            f( plugin_ = std::move( plugin ) );</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        }</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    }</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00145" data-start="{" data-end="};">
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemCall.html">  145</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1RibbonMenuItemCall.html">RibbonMenuItemCall</a></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>{</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> F&gt;</div>
+<div class="foldopen" id="foldopen00150" data-start="{" data-end="}">
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemCall.html#a8b802da7db541f512179ff3c432ac662">  150</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemCall.html#a8b802da7db541f512179ff3c432ac662">RibbonMenuItemCall</a>( F f, std::function&lt;<span class="keywordtype">void</span>(std::shared_ptr&lt;T&gt;)&gt; g ) : g_( std::move( g ) )</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    {</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; items = <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a07e8558bf86dd569ca7acedfbce55d9a">RibbonSchemaHolder::schema</a>().<a class="code hl_variable" href="structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1">items</a>;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; item : items )</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>        {</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>            <span class="keyword">auto</span> plugin = std::dynamic_pointer_cast&lt; T &gt;( item.second.item );</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>            <span class="keywordflow">if</span> ( !plugin )</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>            f( plugin_ = std::move( plugin ) );</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        }</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00160" data-start="{" data-end="}">
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemCall.html#aab9fa332237b77530d49e4712f168e4f">  160</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemCall.html#aab9fa332237b77530d49e4712f168e4f">~RibbonMenuItemCall</a>()</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    {</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        <span class="keywordflow">if</span> ( g_ &amp;&amp; plugin_ )</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            g_( plugin_ );</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    }</div>
+<div class="foldopen" id="foldopen00162" data-start="{" data-end="}">
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenuItemCall.html#aab9fa332237b77530d49e4712f168e4f">  162</a></span>    <a class="code hl_function" href="classMR_1_1RibbonMenuItemCall.html#aab9fa332237b77530d49e4712f168e4f">~RibbonMenuItemCall</a>()</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    {</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>        <span class="keywordflow">if</span> ( g_ &amp;&amp; plugin_ )</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>            g_( plugin_ );</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    }</div>
 </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    std::shared_ptr&lt;T&gt; plugin_;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    std::function&lt;void(std::shared_ptr&lt;T&gt;)&gt; g_;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>};</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    std::shared_ptr&lt;T&gt; plugin_;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    std::function&lt;void(std::shared_ptr&lt;T&gt;)&gt; g_;</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>};</div>
 </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
-<div class="foldopen" id="foldopen00171" data-start="" data-end="">
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="MRRibbonSchema_8h.html#ad1709955819b9d2eb38aa06ebd34272c">  171</a></span><span class="preprocessor">#define MR_REGISTER_RIBBON_ITEM(pluginType) \</span></div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="preprocessor">    static MR::RibbonMenuItemAdder&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="foldopen" id="foldopen00173" data-start="" data-end="">
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="MRRibbonSchema_8h.html#ad1709955819b9d2eb38aa06ebd34272c">  173</a></span><span class="preprocessor">#define MR_REGISTER_RIBBON_ITEM(pluginType) \</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="preprocessor">    static MR::RibbonMenuItemAdder&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</span></div>
 </div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
-<div class="foldopen" id="foldopen00175" data-start="" data-end="">
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="MRRibbonSchema_8h.html#a6ab153d81501eb8ea4a0bb964864eaef">  175</a></span><span class="preprocessor">#define MR_RIBBON_ITEM_CALL(pluginType,f,g) \</span></div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="preprocessor">    static MR::RibbonMenuItemCall&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( f, g );</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="foldopen" id="foldopen00177" data-start="" data-end="">
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="MRRibbonSchema_8h.html#a6ab153d81501eb8ea4a0bb964864eaef">  177</a></span><span class="preprocessor">#define MR_RIBBON_ITEM_CALL(pluginType,f,g) \</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="preprocessor">    static MR::RibbonMenuItemCall&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( f, g );</span></div>
 </div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>}</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>}</div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1RibbonMenuItemAdder_html"><div class="ttname"><a href="classMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:123</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonMenuItemAdder_html_ac9c55c92d3f09cbbac3e248c4bd96b44"><div class="ttname"><a href="classMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">MR::RibbonMenuItemAdder::RibbonMenuItemAdder</a></div><div class="ttdeci">RibbonMenuItemAdder(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:128</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonMenuItemAdder_html_acf3e4b922524d3b2afc9e0cf6241ea66"><div class="ttname"><a href="classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66">MR::RibbonMenuItemAdder::~RibbonMenuItemAdder</a></div><div class="ttdeci">~RibbonMenuItemAdder()</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:133</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonMenuItemCall_html"><div class="ttname"><a href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:144</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonMenuItemCall_html_a8b802da7db541f512179ff3c432ac662"><div class="ttname"><a href="classMR_1_1RibbonMenuItemCall.html#a8b802da7db541f512179ff3c432ac662">MR::RibbonMenuItemCall::RibbonMenuItemCall</a></div><div class="ttdeci">RibbonMenuItemCall(F f, std::function&lt; void(std::shared_ptr&lt; T &gt;)&gt; g)</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:148</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonMenuItemCall_html_aab9fa332237b77530d49e4712f168e4f"><div class="ttname"><a href="classMR_1_1RibbonMenuItemCall.html#aab9fa332237b77530d49e4712f168e4f">MR::RibbonMenuItemCall::~RibbonMenuItemCall</a></div><div class="ttdeci">~RibbonMenuItemCall()</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:160</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenuItemAdder_html"><div class="ttname"><a href="classMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:125</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenuItemAdder_html_ac9c55c92d3f09cbbac3e248c4bd96b44"><div class="ttname"><a href="classMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">MR::RibbonMenuItemAdder::RibbonMenuItemAdder</a></div><div class="ttdeci">RibbonMenuItemAdder(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:130</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenuItemAdder_html_acf3e4b922524d3b2afc9e0cf6241ea66"><div class="ttname"><a href="classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66">MR::RibbonMenuItemAdder::~RibbonMenuItemAdder</a></div><div class="ttdeci">~RibbonMenuItemAdder()</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:135</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenuItemCall_html"><div class="ttname"><a href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:146</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenuItemCall_html_a8b802da7db541f512179ff3c432ac662"><div class="ttname"><a href="classMR_1_1RibbonMenuItemCall.html#a8b802da7db541f512179ff3c432ac662">MR::RibbonMenuItemCall::RibbonMenuItemCall</a></div><div class="ttdeci">RibbonMenuItemCall(F f, std::function&lt; void(std::shared_ptr&lt; T &gt;)&gt; g)</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:150</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenuItemCall_html_aab9fa332237b77530d49e4712f168e4f"><div class="ttname"><a href="classMR_1_1RibbonMenuItemCall.html#aab9fa332237b77530d49e4712f168e4f">MR::RibbonMenuItemCall::~RibbonMenuItemCall</a></div><div class="ttdeci">~RibbonMenuItemCall()</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:162</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaHolder_html"><div class="ttname"><a href="classMR_1_1RibbonSchemaHolder.html">MR::RibbonSchemaHolder</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:59</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaHolder_html_a07e8558bf86dd569ca7acedfbce55d9a"><div class="ttname"><a href="classMR_1_1RibbonSchemaHolder.html#a07e8558bf86dd569ca7acedfbce55d9a">MR::RibbonSchemaHolder::schema</a></div><div class="ttdeci">static MRVIEWER_API RibbonSchema &amp; schema()</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaHolder_html_a091aa7fdc2342488f7e268ef28a578d7"><div class="ttname"><a href="classMR_1_1RibbonSchemaHolder.html#a091aa7fdc2342488f7e268ef28a578d7">MR::RibbonSchemaHolder::delItem</a></div><div class="ttdeci">static MRVIEWER_API bool delItem(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item)</div></div>
@@ -328,8 +330,10 @@ $(function(){initNavTree('MRRibbonSchema_8h_source.html',''); initResizable(true
 <div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_a41b33cc8ea85e93c4afed1e130fbd709"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#a41b33cc8ea85e93c4afed1e130fbd709">MR::RibbonSchemaLoader::recalcItemSizes</a></div><div class="ttdeci">static MRVIEWER_API void recalcItemSizes()</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_a691ceda2aee5d313445759892065cfa6"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#a691ceda2aee5d313445759892065cfa6">MR::RibbonSchemaLoader::getStructureFiles_</a></div><div class="ttdeci">virtual MRVIEWER_API std::vector&lt; std::filesystem::path &gt; getStructureFiles_(const std::string &amp;fileExtension) const</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_a6ab581434c5e1a94a44c8d1307a9ba5e"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e">MR::RibbonSchemaLoader::readUIJson_</a></div><div class="ttdeci">MRVIEWER_API void readUIJson_(const std::filesystem::path &amp;path) const</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_a8922f80db8dd50ace1d0414338bc9a90"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#a8922f80db8dd50ace1d0414338bc9a90">MR::RibbonSchemaLoader::readItemsJson_</a></div><div class="ttdeci">MRVIEWER_API void readItemsJson_(const Json::Value &amp;root) const</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_ab7e8563a297450e4086c93062470453b"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#ab7e8563a297450e4086c93062470453b">MR::RibbonSchemaLoader::readItemsJson_</a></div><div class="ttdeci">MRVIEWER_API void readItemsJson_(const std::filesystem::path &amp;path) const</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_ad9dde65427b1793ba6f4fa13663a5ec5"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5">MR::RibbonSchemaLoader::loadSchema</a></div><div class="ttdeci">virtual MRVIEWER_API void loadSchema() const</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_ae18febd5f891538a94cd80c617a2c7f0"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#ae18febd5f891538a94cd80c617a2c7f0">MR::RibbonSchemaLoader::readUIJson_</a></div><div class="ttdeci">MRVIEWER_API void readUIJson_(const Json::Value &amp;root) const</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_ae1fb56f73fe32143e7af41b9a6ef2a78"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#ae1fb56f73fe32143e7af41b9a6ef2a78">MR::RibbonSchemaLoader::readMenuItemsList</a></div><div class="ttdeci">static MRVIEWER_API void readMenuItemsList(const Json::Value &amp;root, MenuItemsList &amp;list)</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSchemaLoader_html_ae9f61f9ad1a6e1cfbcdb30e93799a046"><div class="ttname"><a href="classMR_1_1RibbonSchemaLoader.html#ae9f61f9ad1a6e1cfbcdb30e93799a046">MR::RibbonSchemaLoader::RibbonSchemaLoader</a></div><div class="ttdeci">RibbonSchemaLoader()=default</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>

@@ -4,7 +4,7 @@ var searchData=
   ['icon_1',['icon',['../structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a47d1b2e37c17fef7a422edd931130303',1,'MR::ImGuiMeasurementIndicators::StringWithIcon::icon'],['../structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb',1,'MR::MenuItemInfo::icon']]],
   ['iconnectable_2',['IConnectable',['../structMR_1_1IConnectable.html',1,'MR']]],
   ['iconpos_3',['iconPos',['../structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a8d5ce30b3d371105c0f8fbd06892d19e',1,'MR::ImGuiMeasurementIndicators::StringWithIcon']]],
-  ['icons_4',['Icons',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8',1,'MR::RibbonFontManager']]],
+  ['icons_4',['Icons',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8',1,'MR::RibbonFontManager::Icons'],['../classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccba8f67973007158337346584551b093be8',1,'MR::RibbonFontManager::Icons']]],
   ['iconsize_5',['iconSize',['../structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34',1,'MR::DrawButtonParams']]],
   ['icontype_6',['IconType',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931',1,'MR::RibbonIcons']]],
   ['icontype_7',['iconType',['../structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb',1,'MR::CustomButtonParameters']]],

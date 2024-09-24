@@ -418,7 +418,7 @@ var searchData=
   ['moduledata_415',['ModuleData',['../structMR_1_1PythonExport_1_1ModuleData.html',1,'MR::PythonExport']]],
   ['modules_416',['modules',['../classMR_1_1PythonExport.html#a67924d9cb7f431bc9894a456c513156f',1,'MR::PythonExport']]],
   ['mono_417',['Mono',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086',1,'MR::RibbonButtonDrawer::Mono'],['../namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086',1,'MR::UI::Mono']]],
-  ['monospace_418',['Monospace',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384',1,'MR::RibbonFontManager']]],
+  ['monospace_418',['Monospace',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384',1,'MR::RibbonFontManager::Monospace'],['../classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccbaa3fd27e2bbcda0c7be0037ee70829384',1,'MR::RibbonFontManager::Monospace']]],
   ['mouseandmodtokey_419',['mouseAndModToKey',['../classMR_1_1MouseController.html#a2affe8f585571c7d0426962af908ffe1',1,'MR::MouseController']]],
   ['mousebutton_420',['MouseButton',['../classMR_1_1Viewer.html#acbb855ef51e627a2fd2b111d9d65277e',1,'MR::Viewer::MouseButton'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d',1,'MR::MouseButton']]],
   ['mouseclick_421',['mouseClick',['../classMR_1_1Viewer.html#a24fb1377eaabe916c15e03c1c11b83c7',1,'MR::Viewer']]],

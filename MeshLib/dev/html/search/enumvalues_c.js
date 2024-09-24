@@ -22,7 +22,7 @@ var searchData=
   ['mmpersecond_19',['mmPerSecond',['../namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a5f5f1dc2b81a48152d2a92c6cb7d8552',1,'MR']]],
   ['modalbackground_20',['ModalBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc',1,'MR::ColorTheme']]],
   ['mono_21',['Mono',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086',1,'MR::RibbonButtonDrawer::Mono'],['../namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086',1,'MR::UI::Mono']]],
-  ['monospace_22',['Monospace',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384',1,'MR::RibbonFontManager']]],
+  ['monospace_22',['Monospace',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384',1,'MR::RibbonFontManager::Monospace'],['../classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccbaa3fd27e2bbcda0c7be0037ee70829384',1,'MR::RibbonFontManager::Monospace']]],
   ['mousedown_23',['MouseDown',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0abf90db242043990aa80fde01f233665d',1,'MR::Viewer']]],
   ['mousehover_24',['mouseHover',['../structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5',1,'MR::BasicUiRenderTask']]],
   ['mousemove_25',['MouseMove',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0afd060c0c157323f1e43e0704d4f3ffc8',1,'MR::Viewer']]],

@@ -5054,8 +5054,8 @@ Functions</h2></td></tr>
 <tr class="separator:a24b7ac695d3053bcef08895e25b552fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef70778faa5587efd51d899e5e425e1" id="r_a1ef70778faa5587efd51d899e5e425e1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef70778faa5587efd51d899e5e425e1">getMeshVerticesShader</a> ()</td></tr>
 <tr class="separator:a1ef70778faa5587efd51d899e5e425e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad8c793eb4b653e92231eced9a53a41e" id="r_aad8c793eb4b653e92231eced9a53a41e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad8c793eb4b653e92231eced9a53a41e">getMeshFragmentShader</a> (bool gl4, bool alphaSort)</td></tr>
-<tr class="separator:aad8c793eb4b653e92231eced9a53a41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b7369e50f9ced96eeab9d590413970" id="r_a39b7369e50f9ced96eeab9d590413970"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39b7369e50f9ced96eeab9d590413970">getMeshFragmentShader</a> (bool gl4, bool alphaSort, bool msaaEnabled)</td></tr>
+<tr class="separator:a39b7369e50f9ced96eeab9d590413970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf0c9f368d580d753d6be5949cb9aeb5" id="r_adf0c9f368d580d753d6be5949cb9aeb5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf0c9f368d580d753d6be5949cb9aeb5">getMeshFragmentShaderArgumetsBlock</a> ()</td></tr>
 <tr class="separator:adf0c9f368d580d753d6be5949cb9aeb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a983223b5a1d14a48822c74d9b77cbd96" id="r_a983223b5a1d14a48822c74d9b77cbd96"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983223b5a1d14a48822c74d9b77cbd96">getMeshFragmentShaderColoringBlock</a> ()</td></tr>
@@ -17089,8 +17089,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="aad8c793eb4b653e92231eced9a53a41e" name="aad8c793eb4b653e92231eced9a53a41e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad8c793eb4b653e92231eced9a53a41e">&#9670;&#160;</a></span>getMeshFragmentShader()</h2>
+<a id="a39b7369e50f9ced96eeab9d590413970" name="a39b7369e50f9ced96eeab9d590413970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b7369e50f9ced96eeab9d590413970">&#9670;&#160;</a></span>getMeshFragmentShader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -17103,7 +17103,12 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>msaaEnabled</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

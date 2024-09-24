@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['icons_0',['Icons',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8',1,'MR::RibbonFontManager']]],
+  ['icons_0',['Icons',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8',1,'MR::RibbonFontManager::Icons'],['../classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccba8f67973007158337346584551b093be8',1,'MR::RibbonFontManager::Icons']]],
   ['implementation_1',['Implementation',['../classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689',1,'MR::PythonExport']]],
   ['inches_2',['inches',['../namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba3e1b00c196db969aa22cdc50c6e966c4',1,'MR']]],
   ['inches2_3',['inches2',['../namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a608b1a160478ad4e93188c1968110978',1,'MR']]],
