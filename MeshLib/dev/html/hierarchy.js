@@ -1051,6 +1051,9 @@ var hierarchy =
     ] ],
     [ "MR::PrecipitationSimulator::SimulationStep", "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html", null ],
     [ "MR::SkyPatch", "structMR_1_1SkyPatch.html", null ],
+    [ "MR::SliceInfoBase", "structMR_1_1SliceInfoBase.html", [
+      [ "MR::SliceInfo", "structMR_1_1SliceInfo.html", null ]
+    ] ],
     [ "MR::SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],

@@ -245,7 +245,7 @@ var searchData=
   ['createmesh_242',['createMesh',['../classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499',1,'MR::RegularMapMesher']]],
   ['createmeshfromsegmentation_243',['createMeshFromSegmentation',['../classMR_1_1VolumeSegmenter.html#a1afe2c227ee25b71b24c84a7697afdf6',1,'MR::VolumeSegmenter']]],
   ['createobject_244',['createObject',['../group__DataModelGroup.html#ga085d7d3412f6d94799496d313c33276f',1,'MR']]],
-  ['createobjectvoxels_245',['createObjectVoxels',['../group__VoxelsLoadGroup.html#gab6d9efd801d4414102bbe289c3906326',1,'MR::VoxelsLoad']]],
+  ['createobjectvoxels_245',['createObjectVoxels',['../namespaceMR_1_1VoxelsLoad.html#aa851b1268dc07e2f1e505d01132ef259',1,'MR::VoxelsLoad']]],
   ['createrect_246',['createRect',['../classMR_1_1UI_1_1LabelRectAllocator.html#a3b90eb278b5e53756c88dc2464876ed0',1,'MR::UI::LabelRectAllocator']]],
   ['createrenderobject_247',['createRenderObject',['../namespaceMR.html#ae9b93b3c4303349145b5e0cfc37ec7ff',1,'MR::createRenderObject(const VisualObject &amp;visObj, const std::type_index &amp;type)'],['../namespaceMR.html#af018240f68014eb87767e7f67a9064f7',1,'MR::createRenderObject(const VisualObject &amp;visObj)']]],
   ['createrootformobject_248',['createRootFormObject',['../namespaceMR.html#a4a16b61709f08cfac2280d5b1167bb24',1,'MR']]],

@@ -1445,6 +1445,10 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SkyPatch.html">SkyPatch</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this class represents a portion of the sky, and its radiation  <a href="structMR_1_1SkyPatch.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SliceInfo.html">SliceInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SliceInfoBase.html">SliceInfoBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SomeLocalTriangulations.html">SomeLocalTriangulations</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes a number of local triangulations of some points (e.g. assigned to a thread)  <a href="structMR_1_1SomeLocalTriangulations.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2600,6 +2604,27 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d">degreesMinutesSeconds</a>
  }</td></tr>
 <tr class="separator:aa6b11352e59ca716da2c9d8bf2371424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d528348b4d27cfa92a1b565755099c8" id="r_a5d528348b4d27cfa92a1b565755099c8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> { <br />
+&#160;&#160;<a class="el" href="#a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a">UInt8</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539">Int8</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf">UInt16</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208">Int16</a>
+, <br />
+&#160;&#160;<a class="el" href="#a5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd">UInt32</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31">Int32</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a">UInt64</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487">Int64</a>
+, <br />
+&#160;&#160;<a class="el" href="#a5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204">Float32</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0">Float64</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142">Float32_4</a>
+, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a>
+, <br />
+&#160;&#160;<a class="el" href="#a5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a5d528348b4d27cfa92a1b565755099c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">scalar value's binary format type  <a href="#a5d528348b4d27cfa92a1b565755099c8">More...</a><br /></td></tr>
+<tr class="separator:a5d528348b4d27cfa92a1b565755099c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a496117b22a6f09546f0037fb4b5d43aa" id="r_a496117b22a6f09546f0037fb4b5d43aa"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a496117b22a6f09546f0037fb4b5d43aa">BypassDirection</a> { <a class="el" href="#a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8">Clockwise</a>
 , <a class="el" href="#a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79">CounterClockwise</a>
  }</td></tr>
@@ -5320,6 +5345,17 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:abbc1adfce73c26127f80973b21afcbf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3f5900ab5832382ad11410977098452" id="r_ae3f5900ab5832382ad11410977098452"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3f5900ab5832382ad11410977098452">rebuildMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1RebuildMeshSettings.html">RebuildMeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:ae3f5900ab5832382ad11410977098452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0230f1515e422e1010078d5ffd15f11f" id="r_a0230f1515e422e1010078d5ffd15f11f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::function&lt; float(const char *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0230f1515e422e1010078d5ffd15f11f">getTypeConverter</a> (<a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType, uint64_t range, int64_t min)</td></tr>
+<tr class="separator:a0230f1515e422e1010078d5ffd15f11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f5f81ba8aa5012048922f0bd323851" id="r_a58f5f81ba8aa5012048922f0bd323851"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58f5f81ba8aa5012048922f0bd323851">sortScansByOrder</a> (std::vector&lt; std::filesystem::path &gt; &amp;scans, std::vector&lt; <a class="el" href="structMR_1_1SliceInfo.html">SliceInfo</a> &gt; &amp;zOrder)</td></tr>
+<tr class="memdesc:a58f5f81ba8aa5012048922f0bd323851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort scan files in given vector by given slice information.  <br /></td></tr>
+<tr class="separator:a58f5f81ba8aa5012048922f0bd323851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9229ab4444b58ce99c132c6509d0e6e" id="r_ab9229ab4444b58ce99c132c6509d0e6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9229ab4444b58ce99c132c6509d0e6e">putScanFileNameInZ</a> (const std::vector&lt; std::filesystem::path &gt; &amp;scans, std::vector&lt; <a class="el" href="structMR_1_1SliceInfo.html">SliceInfo</a> &gt; &amp;zOrder)</td></tr>
+<tr class="memdesc:ab9229ab4444b58ce99c132c6509d0e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read layer heights from given scan file names.  <br /></td></tr>
+<tr class="separator:ab9229ab4444b58ce99c132c6509d0e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f2711691fd38c7824e19ec119dd53c5" id="r_a5f2711691fd38c7824e19ec119dd53c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f2711691fd38c7824e19ec119dd53c5">sortScanFilesByName</a> (std::vector&lt; std::filesystem::path &gt; &amp;scans)</td></tr>
+<tr class="memdesc:a5f2711691fd38c7824e19ec119dd53c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort scan files in given vector by names (respect numbers in it)  <br /></td></tr>
+<tr class="separator:a5f2711691fd38c7824e19ec119dd53c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60b64c60400c783d65cff22715afab1e" id="r_a60b64c60400c783d65cff22715afab1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::array&lt; SimpleVolumeMinMax, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b64c60400c783d65cff22715afab1e">teethMaskToDirectionVolume</a> (const VdbVolume &amp;volume, const std::vector&lt; int &gt; &amp;additionalIds={})</td></tr>
 <tr class="memdesc:a60b64c60400c783d65cff22715afab1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A shortcut for <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a89983e40e7eb6539ae2adb1b772a2129">TeethMaskToDirectionVolumeConvertor::create</a> and <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a73d08553d48acf30d322b43f3de7d4a3">TeethMaskToDirectionVolumeConvertor::convertAll</a>.  <br /></td></tr>
 <tr class="separator:a60b64c60400c783d65cff22715afab1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5419,8 +5455,8 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a771ff6491d2acec943253070393ce902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d9403beb37d9dc82330f74b626cf888" id="r_a1d9403beb37d9dc82330f74b626cf888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d9403beb37d9dc82330f74b626cf888">makeObjectFromVoxelsFile</a> (const std::filesystem::path &amp;file, std::string *warnings=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="separator:a1d9403beb37d9dc82330f74b626cf888"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82619baf9dab1528ce7b54b1c07f0653" id="r_a82619baf9dab1528ce7b54b1c07f0653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82619baf9dab1528ce7b54b1c07f0653">saveObjectVoxelsToFile</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:a82619baf9dab1528ce7b54b1c07f0653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab286ce43034d0b20bdc4c0e5e210ab" id="r_abab286ce43034d0b20bdc4c0e5e210ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abab286ce43034d0b20bdc4c0e5e210ab">saveObjectVoxelsToFile</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="separator:abab286ce43034d0b20bdc4c0e5e210ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b17a3df087eb45c2679db67da9c672f" id="r_a5b17a3df087eb45c2679db67da9c672f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b17a3df087eb45c2679db67da9c672f">functionVolumeToSimpleVolume</a> (const FunctionVolume &amp;volume, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="memdesc:a5b17a3df087eb45c2679db67da9c672f"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts function volume into simple volume  <br /></td></tr>
 <tr class="separator:a5b17a3df087eb45c2679db67da9c672f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -9000,6 +9036,46 @@ template&lt;typename Volume &gt; </div>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0" name="a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0"></a>Button&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4" name="a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4"></a>ButtonWithDrop&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a5d528348b4d27cfa92a1b565755099c8" name="a5d528348b4d27cfa92a1b565755099c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d528348b4d27cfa92a1b565755099c8">&#9670;&#160;</a></span>ScalarType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">MR::ScalarType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>scalar value's binary format type </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" name="a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a"></a>UInt8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" name="a5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539"></a>Int8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" name="a5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf"></a>UInt16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" name="a5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208"></a>Int16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" name="a5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd"></a>UInt32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" name="a5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31"></a>Int32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" name="a5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a"></a>UInt64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" name="a5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487"></a>Int64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" name="a5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204"></a>Float32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" name="a5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0"></a>Float64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" name="a5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142"></a>Float32_4&#160;</td><td class="fielddoc"><p>the last value from float[4] </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" name="a5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" name="a5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -17724,6 +17800,40 @@ template&lt;typename ObjectT &gt; </div>
 
 </div>
 </div>
+<a id="a0230f1515e422e1010078d5ffd15f11f" name="a0230f1515e422e1010078d5ffd15f11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0230f1515e422e1010078d5ffd15f11f">&#9670;&#160;</a></span>getTypeConverter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::function&lt; float(const char *)&gt; MR::getTypeConverter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a></td>          <td class="paramname"><span class="paramname"><em>scalarType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>range</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>min</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get a function to convert binary data of specified format type to a scalar value </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scalarType</td><td>- binary format type </td></tr>
+    <tr><td class="paramname">range</td><td>- (for integer types only) the range of possible values </td></tr>
+    <tr><td class="paramname">min</td><td>- (for integer types only) the minimal value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a6443d7b50482979e4b2287d29423ee25" name="a6443d7b50482979e4b2287d29423ee25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6443d7b50482979e4b2287d29423ee25">&#9670;&#160;</a></span>getUnitInfo()</h2>
 
@@ -24860,6 +24970,29 @@ template&lt;typename F &gt; </div>
 
 </div>
 </div>
+<a id="ab9229ab4444b58ce99c132c6509d0e6e" name="ab9229ab4444b58ce99c132c6509d0e6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9229ab4444b58ce99c132c6509d0e6e">&#9670;&#160;</a></span>putScanFileNameInZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::putScanFileNameInZ </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::filesystem::path &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scans</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1SliceInfo.html">SliceInfo</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>zOrder</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read layer heights from given scan file names. </p>
+
+</div>
+</div>
 <a id="af07768b4409c36a0b8cc9b9849f82691" name="af07768b4409c36a0b8cc9b9849f82691"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af07768b4409c36a0b8cc9b9849f82691">&#9670;&#160;</a></span>pythonAppendOrRun()</h2>
 
@@ -26104,8 +26237,8 @@ template&lt;typename Accessor &gt; </div>
 
 </div>
 </div>
-<a id="a82619baf9dab1528ce7b54b1c07f0653" name="a82619baf9dab1528ce7b54b1c07f0653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82619baf9dab1528ce7b54b1c07f0653">&#9670;&#160;</a></span>saveObjectVoxelsToFile()</h2>
+<a id="abab286ce43034d0b20bdc4c0e5e210ab" name="abab286ce43034d0b20bdc4c0e5e210ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab286ce43034d0b20bdc4c0e5e210ab">&#9670;&#160;</a></span>saveObjectVoxelsToFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -26123,7 +26256,7 @@ template&lt;typename Accessor &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -26883,6 +27016,48 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f2711691fd38c7824e19ec119dd53c5" name="a5f2711691fd38c7824e19ec119dd53c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f2711691fd38c7824e19ec119dd53c5">&#9670;&#160;</a></span>sortScanFilesByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::sortScanFilesByName </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::filesystem::path &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scans</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sort scan files in given vector by names (respect numbers in it) </p>
+
+</div>
+</div>
+<a id="a58f5f81ba8aa5012048922f0bd323851" name="a58f5f81ba8aa5012048922f0bd323851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f5f81ba8aa5012048922f0bd323851">&#9670;&#160;</a></span>sortScansByOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::sortScansByOrder </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::filesystem::path &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scans</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1SliceInfo.html">SliceInfo</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>zOrder</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sort scan files in given vector by given slice information. </p>
 
 </div>
 </div>
