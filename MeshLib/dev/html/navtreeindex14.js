@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"classIntersectionContour.html":[12,0,18],
+"classMR_1_1AABBTree.html":[9,1,1],
 "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb":[9,1,1,0],
 "classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191":[9,1,1,1],
 "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7":[9,1,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[10,0,10,71,1],
 "classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[12,0,1,57,1],
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[10,0,10,71,0],
-"classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[12,0,1,57,0],
-"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[10,0,10,71,2],
-"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[12,0,1,57,2]
+"classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[12,0,1,57,0]
 };

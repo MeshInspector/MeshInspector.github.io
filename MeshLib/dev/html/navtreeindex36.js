@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1RingIterator.html#a2ecba1d3bf80da5ada6460e97e3cc5f5":[12,0,1,534,6],
+"classMR_1_1RingIterator.html#a32bbf998350ceb82ee238640a29ad585":[10,0,10,548,1],
 "classMR_1_1RingIterator.html#a32bbf998350ceb82ee238640a29ad585":[12,0,1,534,1],
 "classMR_1_1RingIterator.html#a63558101e2ac4ecae79ac6fc9cca48bb":[10,0,10,548,5],
 "classMR_1_1RingIterator.html#a63558101e2ac4ecae79ac6fc9cca48bb":[12,0,1,534,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1SeparationPointStorage.html#a99db5fa322a3860d51db5e4292a83786":[12,0,1,566,5],
 "classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[10,0,10,580,6],
 "classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[12,0,1,566,6],
-"classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[10,0,10,580,2],
-"classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[12,0,1,566,2],
-"classMR_1_1SetBitIteratorT.html":[9,3,4]
+"classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[10,0,10,580,2]
 };

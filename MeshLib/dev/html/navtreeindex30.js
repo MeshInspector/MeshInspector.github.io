@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1OpenFilesMenuItem.html#acd1d0b203f477e1a2f307be78c9c6eb8":[10,0,10,417,2],
+"classMR_1_1OpenFilesMenuItem.html#acd1d0b203f477e1a2f307be78c9c6eb8":[12,0,1,403,2],
 "classMR_1_1OpenRawVoxelsPlugin.html":[10,0,10,418],
 "classMR_1_1OpenRawVoxelsPlugin.html":[12,0,1,404],
 "classMR_1_1OpenRawVoxelsPlugin.html#a579c7536deedc6bdbd3cb924c92b968e":[10,0,10,418,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1PointObject.html#a90ac7dc66e574c76684190d07a5dff5e":[9,11,0,5,13],
 "classMR_1_1PointObject.html#a9e2e061a111ddbe853c098d2fd55f750":[9,11,0,5,7],
 "classMR_1_1PointObject.html#aa1416c2623e409a547b0c62aa7eb37cc":[9,11,0,5,1],
-"classMR_1_1PointObject.html#ab2817019fd4767a9959a629537d5eb3c":[9,11,0,5,15],
-"classMR_1_1PointObject.html#ab448b50f4d5f7e6e83479ce7652393b3":[9,11,0,5,2],
-"classMR_1_1PointObject.html#abd93c3847c57f54eb014c6742abe50b8":[9,11,0,5,0]
+"classMR_1_1PointObject.html#ab2817019fd4767a9959a629537d5eb3c":[9,11,0,5,15]
 };
