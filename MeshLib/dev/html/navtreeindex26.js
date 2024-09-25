@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e":[9,0,8,0,6],
+"classMR_1_1MultiwayAligningTransform.html#ae9a3702a5e0dc2a2a5f9665fd886be0a":[9,0,8,0,2],
 "classMR_1_1MultiwayAligningTransform.html#aff88b77e742b2e4c2aad5013dfa2c4c2":[9,0,8,0,12],
 "classMR_1_1MultiwayICP.html":[10,0,10,367],
 "classMR_1_1MultiwayICP.html":[12,0,1,353],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1ObjectImGuiLabel.html#a36e5ab56ab7eccc1b81fb3acff771764":[12,0,1,374,5],
 "classMR_1_1ObjectImGuiLabel.html#a374ae05761f1cc1baaa0aefae2e3ab18":[10,0,10,388,12],
 "classMR_1_1ObjectImGuiLabel.html#a374ae05761f1cc1baaa0aefae2e3ab18":[12,0,1,374,12],
-"classMR_1_1ObjectImGuiLabel.html#a37942a1ac8acb313c33f8b29ee289ae2":[10,0,10,388,9],
-"classMR_1_1ObjectImGuiLabel.html#a37942a1ac8acb313c33f8b29ee289ae2":[12,0,1,374,9],
-"classMR_1_1ObjectImGuiLabel.html#a633284d262f92c81c91042d0d7afa510":[10,0,10,388,1]
+"classMR_1_1ObjectImGuiLabel.html#a37942a1ac8acb313c33f8b29ee289ae2":[10,0,10,388,9]
 };

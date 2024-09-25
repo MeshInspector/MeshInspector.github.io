@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1Config.html#af88a45374cdd7fba22942c053afb27e5":[10,0,10,143,1],
+"classMR_1_1Config.html#af88a45374cdd7fba22942c053afb27e5":[12,0,1,129,1],
 "classMR_1_1CudaAccessor.html":[10,0,10,151],
 "classMR_1_1CudaAccessor.html":[12,0,1,137],
 "classMR_1_1CudaAccessor.html#a29c59af2c526ce1b2b126dd201c3a7fb":[10,0,10,151,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e":[12,0,1,166,8],
 "classMR_1_1DistanceMeasurementObject.html#afee53f116445c2f14e15413ad6913d6b":[10,0,10,180,10],
 "classMR_1_1DistanceMeasurementObject.html#afee53f116445c2f14e15413ad6913d6b":[12,0,1,166,10],
-"classMR_1_1EdgePathsAStarBuilder.html":[10,0,10,193],
-"classMR_1_1EdgePathsAStarBuilder.html":[12,0,1,179],
-"classMR_1_1EdgePathsAStarBuilder.html#a4e018ac01b06bc74b3f4de5e064041a0":[10,0,10,193,0]
+"classMR_1_1EdgePathsAStarBuilder.html":[10,0,10,193]
 };

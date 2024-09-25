@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6ad07052c5ba42bf2717dea0c37df102bc":[13,0,0,2,11,95,1,4],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6ad3672908346dd06a39a9a0d1f47e92a9":[13,0,0,2,11,95,1,17],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6adde7ed1f4150bd279742a964ed597458":[13,0,0,2,11,95,1,30],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6adeb44395ab44dfea5b559f4bf2a44665":[13,0,0,2,11,95,1,27],
@@ -72,6 +73,7 @@ var NAVTREEINDEX11 =
 "MRStringConvert_8h.html#a55241f8b5264ed4854873f6fedc3cee3":[13,0,0,2,4,320,12],
 "MRStringConvert_8h.html#a58401eef2addb5c0fef7e5dd90a17ddf":[13,0,0,2,4,320,8],
 "MRStringConvert_8h.html#a5a6d09d98985d45fdd40a23f1df854c2":[13,0,0,2,4,320,0],
+"MRStringConvert_8h.html#a5a70c8c1a8a14604554c8a19a86984dc":[13,0,0,2,4,320,15],
 "MRStringConvert_8h.html#a893bffc80e40fe77684c61377cd58705":[13,0,0,2,4,320,11],
 "MRStringConvert_8h_source.html":[13,0,0,2,4,320],
 "MRSubfeatures_8h.html":[13,0,0,2,4,321],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "MRTupleBindings_8h.html#a7aa397b5ed81246a0465fb3bdc4f5599":[13,0,0,2,4,343,13],
 "MRTupleBindings_8h.html#a8adef0dcb5a67d508801a46f29deb81f":[13,0,0,2,4,343,7],
 "MRTupleBindings_8h.html#a8c1f285288de8cd4487966109876601b":[13,0,0,2,4,343,0],
-"MRTupleBindings_8h.html#aac529af9159db98123ad959d1708a303":[13,0,0,2,4,343,2],
-"MRTupleBindings_8h.html#aae733878440cead52d3fc2fd6c4429b9":[13,0,0,2,4,343,1],
-"MRTupleBindings_8h.html#ab1cf2ee509740a5f5564fce176ac6b05":[13,0,0,2,4,343,8]
+"MRTupleBindings_8h.html#aac529af9159db98123ad959d1708a303":[13,0,0,2,4,343,2]
 };

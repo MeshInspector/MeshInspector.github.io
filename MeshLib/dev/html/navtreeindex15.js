@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[10,0,10,71,3],
+"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[12,0,1,57,3],
 "classMR_1_1BitSet.html":[9,3,2],
 "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9":[9,3,2,1],
 "classMR_1_1BitSet.html#a1f947bfd0ac71d4db95bbf1402d27ddf":[9,3,2,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeMeshFaceSelectionAction.html":[9,4,23],
 "classMR_1_1ChangeMeshFaceSelectionAction.html#a064f2f6dcad2b8ed0b16957b9bbb248f":[9,4,23,4],
 "classMR_1_1ChangeMeshFaceSelectionAction.html#a23a80d1bebee446d006fb1adf2ef2700":[9,4,23,6],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a405ed8f3e1f0ec969dffa0d31f26119b":[9,4,23,0],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a5bbadadc5288e79bcd993ee992afaf84":[9,4,23,3],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a628000e800befb0ec5c91ee98032c3d1":[9,4,23,5]
+"classMR_1_1ChangeMeshFaceSelectionAction.html#a405ed8f3e1f0ec969dffa0d31f26119b":[9,4,23,0]
 };

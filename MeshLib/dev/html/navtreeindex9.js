@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"MRPointCloudTriangulationHelpers_8h_source.html":[13,0,0,2,4,253],
 "MRPointCloudTriangulation_8h.html":[13,0,0,2,4,252],
 "MRPointCloudTriangulation_8h_source.html":[13,0,0,2,4,252],
 "MRPointInAllSpaces_8h.html":[13,0,0,2,11,52],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "MRRibbonConstants_8h.html#a1bee00a475fada33c76a0bb71f8cbadd":[13,0,0,2,11,72,9],
 "MRRibbonConstants_8h.html#a1cb547836ab1506cf81cab06b24a9532":[13,0,0,2,11,72,46],
 "MRRibbonConstants_8h.html#a211bab9b03c29b67594f01a79be6b4b9":[13,0,0,2,11,72,12],
-"MRRibbonConstants_8h.html#a24400b0c1a9e56cafb8abf4c9725633d":[13,0,0,2,11,72,44],
-"MRRibbonConstants_8h.html#a27ab0aa461b99e7829305e508180f40c":[13,0,0,2,11,72,34]
+"MRRibbonConstants_8h.html#a24400b0c1a9e56cafb8abf4c9725633d":[13,0,0,2,11,72,44]
 };

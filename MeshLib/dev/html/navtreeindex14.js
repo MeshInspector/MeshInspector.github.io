@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb":[9,1,1,0],
+"classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191":[9,1,1,1],
 "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7":[9,1,1,2],
 "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5":[9,1,1,3],
 "classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf":[9,1,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[10,0,10,71,0],
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[12,0,1,57,0],
 "classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[10,0,10,71,2],
-"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[12,0,1,57,2],
-"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[10,0,10,71,3],
-"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[12,0,1,57,3]
+"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[12,0,1,57,2]
 };

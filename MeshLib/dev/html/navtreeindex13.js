@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"MRViewerSettingsPlugin_8h_source.html":[13,0,0,2,11,128],
+"MRViewer_2MRVectorTraits_8h.html":[13,0,0,2,11,119],
 "MRViewer_2MRVectorTraits_8h_source.html":[13,0,0,2,11,119],
 "MRViewer_2config_8h.html":[13,0,0,2,11,0],
 "MRViewer_2config_8h_source.html":[13,0,0,2,11,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "classICP.html#ac9285b3675dee20f12ef1e6b23b84b2b":[12,0,16,6],
 "classICP.html#ad3b600f504ebb04403995530406c6c13":[12,0,16,10],
 "classIntersectionContour.html":[12,0,18],
-"classMR_1_1AABBTree.html":[9,1,1],
-"classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb":[9,1,1,0],
-"classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191":[9,1,1,1]
+"classMR_1_1AABBTree.html":[9,1,1]
 };

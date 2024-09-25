@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classVector3f.html#aa45fc8af3f3f12ee55aa2fa43d01ad13":[12,0,73,7],
+"classVector3f.html#ad400dc2a99a7486333ef5c95b07960ee":[12,0,73,8],
 "classabstract.html":[12,0,2],
 "classabstract.html#a2ec8eb0ec848bf4d7f218c8d6cfc870d":[12,0,2,9],
 "classabstract.html#a35fcfbc86a105ae7b27edd8c2f5a08d5":[12,0,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f":[9,1,105],
 "group__AABBTreeGroup.html#ga5e71a300face382a26ba8596d9b19820":[9,1,70],
 "group__AABBTreeGroup.html#ga5ed53546770d894ff3f4ea75bd760afa":[9,1,101],
-"group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a":[9,1,110],
-"group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb":[9,1,80],
-"group__AABBTreeGroup.html#ga64c37b9a7a04aa567390955a50891b57":[9,1,67]
+"group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a":[9,1,110]
 };

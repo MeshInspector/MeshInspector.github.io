@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"MRTupleBindings_8h.html#aae733878440cead52d3fc2fd6c4429b9":[13,0,0,2,4,343,1],
+"MRTupleBindings_8h.html#ab1cf2ee509740a5f5564fce176ac6b05":[13,0,0,2,4,343,8],
 "MRTupleBindings_8h.html#ac87e12b44af38ae6f625b3bc7749aec7":[13,0,0,2,4,343,3],
 "MRTupleBindings_8h.html#ada36a4ce0d1d0bf666e421ec3cb00f39":[13,0,0,2,4,343,4],
 "MRTupleBindings_8h.html#adb3a21b01f96eab713fd525c22ba5569":[13,0,0,2,4,343,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "MRViewerPlugin_8h_source.html":[13,0,0,2,11,126],
 "MRViewerSettingsManager_8h.html":[13,0,0,2,11,127],
 "MRViewerSettingsManager_8h_source.html":[13,0,0,2,11,127],
-"MRViewerSettingsPlugin_8h.html":[13,0,0,2,11,128],
-"MRViewerSettingsPlugin_8h_source.html":[13,0,0,2,11,128],
-"MRViewer_2MRVectorTraits_8h.html":[13,0,0,2,11,119]
+"MRViewerSettingsPlugin_8h.html":[13,0,0,2,11,128]
 };

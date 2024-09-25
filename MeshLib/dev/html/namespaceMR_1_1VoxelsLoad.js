@@ -18,6 +18,7 @@ var namespaceMR_1_1VoxelsLoad =
     [ "fromRaw", "group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb", null ],
     [ "fromRaw", "group__VoxelsLoadGroup.html#ga603131e52dfc2ce8aa33d3a0d0028878", null ],
     [ "fromVdb", "group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d", null ],
+    [ "isDicomFile", "namespaceMR_1_1VoxelsLoad.html#a9e69e0cbf065c4b7256ef839c9a0855c", null ],
     [ "loadDCMFolder", "namespaceMR_1_1VoxelsLoad.html#a3f8eca6078fe5dee842e9a1aa87bf7c2", null ],
     [ "loadDCMFolderTree", "namespaceMR_1_1VoxelsLoad.html#a84b78eb6d6ebd1796717c06e022b6793", null ],
     [ "loadDCMsFolder", "namespaceMR_1_1VoxelsLoad.html#a9f49aad4e8e4b528d8ae439d7a54a7ae", null ],
