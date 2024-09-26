@@ -56,7 +56,7 @@ var namespaceMR_1_1UI =
     [ "getDefaultLabelRectAllocator", "namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c", null ],
     [ "getDefaultWindowRectAllocator", "namespaceMR_1_1UI.html#a5caf1537f165f3557d3f718bfb47a032", null ],
     [ "getTexture", "namespaceMR_1_1UI.html#a0d337a1adf7e16aaa08b683a6b65e886", null ],
-    [ "highlightWindowBottom", "namespaceMR_1_1UI.html#a40821cba3a3f573b1db96b53b039facd", null ],
+    [ "highlightWindowArea", "namespaceMR_1_1UI.html#a0e2d922d2332948836f35b41d188e912", null ],
     [ "init", "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110", null ],
     [ "inputText", "namespaceMR_1_1UI.html#af81d056e2ca2afaceec0e67e12ed9afb", null ],
     [ "inputTextCentered", "namespaceMR_1_1UI.html#afc1009af05439b78707e8372d21f9a87", null ],

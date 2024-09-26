@@ -311,8 +311,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a605669bcd9083165a2323a01d16b62ac" id="r_a605669bcd9083165a2323a01d16b62ac"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a605669bcd9083165a2323a01d16b62ac">alignTextToButton</a> (float scaling)</td></tr>
 <tr class="memdesc:a605669bcd9083165a2323a01d16b62ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> for <a class="el" href="#ae14306471133180f84a3a02650ced599">UI::button</a> with default height.  <br /></td></tr>
 <tr class="separator:a605669bcd9083165a2323a01d16b62ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40821cba3a3f573b1db96b53b039facd" id="r_a40821cba3a3f573b1db96b53b039facd"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40821cba3a3f573b1db96b53b039facd">highlightWindowBottom</a> (float scaling)</td></tr>
-<tr class="separator:a40821cba3a3f573b1db96b53b039facd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e2d922d2332948836f35b41d188e912" id="r_a0e2d922d2332948836f35b41d188e912"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e2d922d2332948836f35b41d188e912">highlightWindowArea</a> (float scaling, const ImVec2 &amp;min={-1.0f, -1.0f}, const ImVec2 &amp;max={ -1.0f, -1.0f })</td></tr>
+<tr class="separator:a0e2d922d2332948836f35b41d188e912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -1366,21 +1366,30 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
 
 </div>
 </div>
-<a id="a40821cba3a3f573b1db96b53b039facd" name="a40821cba3a3f573b1db96b53b039facd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40821cba3a3f573b1db96b53b039facd">&#9670;&#160;</a></span>highlightWindowBottom()</h2>
+<a id="a0e2d922d2332948836f35b41d188e912" name="a0e2d922d2332948836f35b41d188e912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e2d922d2332948836f35b41d188e912">&#9670;&#160;</a></span>highlightWindowArea()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::UI::highlightWindowBottom </td>
+          <td class="memname">MRVIEWER_API void MR::UI::highlightWindowArea </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span></td><td>)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>min</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{-1.0f,&#160;-1.0f}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>max</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{&#160;-1.0f,&#160;-1.0f&#160;}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Highlight the background of current window's bottom part, starting from current position Some padding is added </p>
+<p>Select the background of the part of the current window from min to max. If the min is not set, then the current position is taken.If max is not set, then the end of the window is taken. Added some indentation if min or max is not set. </p>
 
 </div>
 </div>

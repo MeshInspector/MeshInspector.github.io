@@ -54,7 +54,7 @@ var searchData=
   ['high_20precision_51',['High Precision',['../group__HighPrecisionGroup.html',1,'']]],
   ['highlightblocking_5f_52',['highlightBlocking_',['../classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070',1,'MR::RibbonMenu']]],
   ['highlightlastpoint_53',['highlightLastPoint',['../classMR_1_1SurfaceContoursWidget.html#a790f3abb45ba38635f0e33cea92f17e0',1,'MR::SurfaceContoursWidget']]],
-  ['highlightwindowbottom_54',['highlightWindowBottom',['../namespaceMR_1_1UI.html#a40821cba3a3f573b1db96b53b039facd',1,'MR::UI']]],
+  ['highlightwindowarea_54',['highlightWindowArea',['../namespaceMR_1_1UI.html#a0e2d922d2332948836f35b41d188e912',1,'MR::UI']]],
   ['highprecisionint_55',['HighPrecisionInt',['../group__HighPrecisionGroup.html#ga7972aa1a25bcfa69347cd04ffc919722',1,'MR']]],
   ['hintdirection_56',['hintDirection',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
   ['histogram_57',['Histogram',['../classMR_1_1Histogram.html',1,'MR::Histogram'],['../classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819',1,'MR::Histogram::Histogram()=default'],['../classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7',1,'MR::Histogram::Histogram(float min, float max, size_t size)']]],
