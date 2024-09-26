@@ -133,6 +133,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aac4ecae12eb97ad05b204ac14de42cb8" id="r_aac4ecae12eb97ad05b204ac14de42cb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac4ecae12eb97ad05b204ac14de42cb8">smoothCurvature</a> = true</td></tr>
 <tr class="memdesc:aac4ecae12eb97ad05b204ac14de42cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to make patch over the hole smooth both inside and on its boundary with existed surface.  <br /></td></tr>
 <tr class="separator:aac4ecae12eb97ad05b204ac14de42cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba46fa5a5269e9ffb23176c985a2c2b7" id="r_aba46fa5a5269e9ffb23176c985a2c2b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba46fa5a5269e9ffb23176c985a2c2b7">naturalSmooth</a> = false</td></tr>
+<tr class="memdesc:aba46fa5a5269e9ffb23176c985a2c2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole.  <br /></td></tr>
+<tr class="separator:aba46fa5a5269e9ffb23176c985a2c2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a033b24c89dfe82d1d7ebadc8b24f1a79" id="r_a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033b24c89dfe82d1d7ebadc8b24f1a79">edgeWeights</a> = <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
 <tr class="memdesc:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge weighting scheme for smoothCurvature mode  <br /></td></tr>
 <tr class="separator:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +224,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maximum number of edge splits allowed during subdivision. </p>
+
+</div>
+</div>
+<a id="aba46fa5a5269e9ffb23176c985a2c2b7" name="aba46fa5a5269e9ffb23176c985a2c2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba46fa5a5269e9ffb23176c985a2c2b7">&#9670;&#160;</a></span>naturalSmooth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FillHoleNicelySettings::naturalSmooth = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole. </p>
 
 </div>
 </div>

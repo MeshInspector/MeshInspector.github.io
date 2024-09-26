@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1SeparationPointStorage_1_1Block.html":[10,0,10,580,0],
+"structMR_1_1SeparationPointStorage_1_1Block.html":[12,0,1,566,0],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[10,0,10,580,0,4],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[12,0,1,566,0,4],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[10,0,10,580,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a":[12,0,1,603,0,9],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#aa080474e426f7c4a981c49839ab20261":[10,0,10,617,0,8],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#aa080474e426f7c4a981c49839ab20261":[12,0,1,603,0,8],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ab89f19149e719236ee820e917e1ee882":[10,0,10,617,0,3],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ab89f19149e719236ee820e917e1ee882":[12,0,1,603,0,3],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af26c10e919650426fe7e171b7b4b65ac":[10,0,10,617,0,4]
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ab89f19149e719236ee820e917e1ee882":[10,0,10,617,0,3]
 };
