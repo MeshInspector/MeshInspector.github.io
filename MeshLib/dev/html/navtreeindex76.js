@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1TrimOptionalOutput.html#ad716fbc89b71f32103375687ec684177":[12,0,1,646,4],
 "structMR_1_1TrimWithPlaneParams.html":[10,0,10,661],
 "structMR_1_1TrimWithPlaneParams.html":[12,0,1,647],
 "structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35":[10,0,10,661,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc":[12,0,1,659,5],
 "structMR_1_1UniteManyMeshesParams.html#a87d0c6c71297df5ccba6efb599d35f57":[10,0,10,673,1],
 "structMR_1_1UniteManyMeshesParams.html#a87d0c6c71297df5ccba6efb599d35f57":[12,0,1,659,1],
-"structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1":[10,0,10,673,4],
-"structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1":[12,0,1,659,4]
+"structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1":[10,0,10,673,4]
 };

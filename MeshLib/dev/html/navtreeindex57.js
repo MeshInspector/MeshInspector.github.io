@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"structMRICPProperties.html#ae0d73485e14b9caf033279eb35df4670":[12,0,42,9],
 "structMRICPProperties.html#af361f47102e347876690d8afb088ed69":[12,0,42,3],
 "structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de":[12,0,42,2],
 "structMRMakeCylinderAdvancedParameters.html":[12,0,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[12,0,1,51,3],
 "structMR_1_1BaseShellParameters.html":[10,0,10,66],
 "structMR_1_1BaseShellParameters.html":[12,0,1,52],
-"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[10,0,10,66,1],
-"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[12,0,1,52,1]
+"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[10,0,10,66,1]
 };

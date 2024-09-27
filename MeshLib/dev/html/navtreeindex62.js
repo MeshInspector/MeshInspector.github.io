@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[10,0,10,6,3,1],
 "structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[12,0,1,2,3,1],
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[10,0,10,6,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[12,0,1,2,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[10,0,10,245,0],
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[12,0,1,231,0],
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012":[10,0,10,245,0,1],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012":[12,0,1,231,0,1],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0abdd515b2294ff6174a1894240f02e08e":[10,0,10,245,0,3]
+"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012":[12,0,1,231,0,1]
 };
