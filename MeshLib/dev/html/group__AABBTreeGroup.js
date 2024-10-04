@@ -160,6 +160,13 @@ var group__AABBTreeGroup =
       [ "mtp", "structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2", null ],
       [ "proj", "structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1", null ]
     ] ],
+    [ "MR::MultiRayMeshIntersectResult", "structMR_1_1MultiRayMeshIntersectResult.html", [
+      [ "intersectingRays", "structMR_1_1MultiRayMeshIntersectResult.html#a71a0fa75e778ec8d7c6e2a3f6b0a8090", null ],
+      [ "isectBary", "structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15", null ],
+      [ "isectFaces", "structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc", null ],
+      [ "isectPts", "structMR_1_1MultiRayMeshIntersectResult.html#a7455a93722a7e3da39f0baacdfb67c00", null ],
+      [ "rayParams", "structMR_1_1MultiRayMeshIntersectResult.html#a30ea67fa78a1fc789771c27d5d7d4868", null ]
+    ] ],
     [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", [
       [ "mesh", "structMR_1_1MultiMeshIntersectionResult.html#af09308818e602f745c2bfb1144b73980", null ]
     ] ],
@@ -279,6 +286,7 @@ var group__AABBTreeGroup =
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga30d53ebf69ce150861f17e4695543778", null ],
     [ "MR::isPointInsidePolyline", "group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524", null ],
     [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
+    [ "MR::multiRayMeshIntersect", "group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045", null ],
     [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],
     [ "MR::processCloseTriangles", "group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151", null ],

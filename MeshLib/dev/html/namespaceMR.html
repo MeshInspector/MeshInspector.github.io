@@ -949,6 +949,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiRayMeshIntersectResult.html">MultiRayMeshIntersectResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MultiwayAligningTransform.html">MultiwayAligningTransform</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MultiwayICP.html">MultiwayICP</a></td></tr>
@@ -3103,15 +3105,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ae10a86deae3557a2d54360cfdb691313" id="r_ae10a86deae3557a2d54360cfdb691313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae10a86deae3557a2d54360cfdb691313">getBoundaryFaces</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &amp;region)</td></tr>
 <tr class="memdesc:ae10a86deae3557a2d54360cfdb691313"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns faces from given region that have at least one neighbor face with shared edge not from the region  <br /></td></tr>
 <tr class="separator:ae10a86deae3557a2d54360cfdb691313"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5aaee1e91b2d9f23b64187f4e125321" id="r_ab5aaee1e91b2d9f23b64187f4e125321"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
-<tr class="memitem:ab5aaee1e91b2d9f23b64187f4e125321"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab5aaee1e91b2d9f23b64187f4e125321">unexpected</a> (E &amp;&amp;e)</td></tr>
-<tr class="separator:ab5aaee1e91b2d9f23b64187f4e125321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a495049b3b06ee96752f92ac2e75f3e2c" id="r_a495049b3b06ee96752f92ac2e75f3e2c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a495049b3b06ee96752f92ac2e75f3e2c">stringOperationCanceled</a> ()</td></tr>
-<tr class="memdesc:a495049b3b06ee96752f92ac2e75f3e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common operation canceled line for all.  <br /></td></tr>
-<tr class="separator:a495049b3b06ee96752f92ac2e75f3e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae65ba4d092b89360f8dff3c458aec88b" id="r_ae65ba4d092b89360f8dff3c458aec88b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65ba4d092b89360f8dff3c458aec88b">unexpectedOperationCanceled</a> ()</td></tr>
-<tr class="memdesc:ae65ba4d092b89360f8dff3c458aec88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Expected error with <code><a class="el" href="#a495049b3b06ee96752f92ac2e75f3e2c" title="Common operation canceled line for all.">stringOperationCanceled()</a></code>  <br /></td></tr>
-<tr class="separator:ae65ba4d092b89360f8dff3c458aec88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35384d6fca989aa5fd419f6c6d730022" id="r_a35384d6fca989aa5fd419f6c6d730022"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a35384d6fca989aa5fd419f6c6d730022"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a35384d6fca989aa5fd419f6c6d730022">unexpected</a> (E &amp;&amp;e)</td></tr>
+<tr class="separator:a35384d6fca989aa5fd419f6c6d730022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaeda128e3a2e131a28e25934de4203c" id="r_adaeda128e3a2e131a28e25934de4203c"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaeda128e3a2e131a28e25934de4203c">stringOperationCanceled</a> ()</td></tr>
+<tr class="memdesc:adaeda128e3a2e131a28e25934de4203c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common operation canceled line for all.  <br /></td></tr>
+<tr class="separator:adaeda128e3a2e131a28e25934de4203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78cf002f660ab73123553df1f3ab3bc1" id="r_a78cf002f660ab73123553df1f3ab3bc1"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78cf002f660ab73123553df1f3ab3bc1">unexpectedOperationCanceled</a> ()</td></tr>
+<tr class="memdesc:a78cf002f660ab73123553df1f3ab3bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Expected error with <code><a class="el" href="#adaeda128e3a2e131a28e25934de4203c" title="Common operation canceled line for all.">stringOperationCanceled()</a></code>  <br /></td></tr>
+<tr class="separator:a78cf002f660ab73123553df1f3ab3bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0af750bc6c8661a8942e40aa5889bee9" id="r_a0af750bc6c8661a8942e40aa5889bee9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac6a876169f42e604d166b3309044b89d">IsoLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0af750bc6c8661a8942e40aa5889bee9">extractIsolines</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#a036c60a88f141a437ffed0bc572fce6d">VertMetric</a> &amp;vertValues, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *region=nullptr)</td></tr>
 <tr class="memdesc:a0af750bc6c8661a8942e40aa5889bee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">extracts all iso-lines from given scalar field and iso-value=0  <br /></td></tr>
 <tr class="separator:a0af750bc6c8661a8942e40aa5889bee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3814,6 +3816,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga4a4bcd2a0d206e01852cba4f6e0c2a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga987d32cc52268b780f26e3733f7d0151" id="r_ga987d32cc52268b780f26e3733f7d0151"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151">rayMeshIntersect</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const Line3d &amp;line, double rayStart=0.0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; *prec=nullptr, bool closestIntersect=true, const <a class="el" href="#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
 <tr class="separator:ga987d32cc52268b780f26e3733f7d0151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga041f851064ebbb5159343f98539fc045" id="r_ga041f851064ebbb5159343f98539fc045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045">multiRayMeshIntersect</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;origins, const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;dirs, const <a class="el" href="structMR_1_1MultiRayMeshIntersectResult.html">MultiRayMeshIntersectResult</a> &amp;result, float rayStart=0.0f, float rayEnd=FLT_MAX, bool closestIntersect=true, const <a class="el" href="#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
+<tr class="separator:ga041f851064ebbb5159343f98539fc045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5ed53546770d894ff3f4ea75bd760afa" id="r_ga5ed53546770d894ff3f4ea75bd760afa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5ed53546770d894ff3f4ea75bd760afa">rayMultiMeshAnyIntersect</a> (const std::vector&lt; <a class="el" href="group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6">Line3fMesh</a> &gt; &amp;lineMeshes, float rayStart=0.0f, float rayEnd=FLT_MAX)</td></tr>
 <tr class="separator:ga5ed53546770d894ff3f4ea75bd760afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaca3917c935c4b071cac785463beaa5f2" id="r_gaca3917c935c4b071cac785463beaa5f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaca3917c935c4b071cac785463beaa5f2">rayMultiMeshAnyIntersect</a> (const std::vector&lt; <a class="el" href="group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283">Line3dMesh</a> &gt; &amp;lineMeshes, double rayStart=0.0, double rayEnd=DBL_MAX)</td></tr>
@@ -5413,17 +5417,17 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a2e9c3848fbd07711227f4576b05e6f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928996b8ccf0ededf4666de67cedde79" id="r_a928996b8ccf0ededf4666de67cedde79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a928996b8ccf0ededf4666de67cedde79">doubleOffsetVdb</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1DoubleOffsetSettings.html">DoubleOffsetSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a928996b8ccf0ededf4666de67cedde79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga246979333d5c270926967fe27cf98e61" id="r_ga246979333d5c270926967fe27cf98e61"><td class="memItemLeft" align="right" valign="top">openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga246979333d5c270926967fe27cf98e61">ovdb</a> (<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
-<tr class="separator:ga246979333d5c270926967fe27cf98e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7605330c27d603a37009cbe6ed253cf9" id="r_ga7605330c27d603a37009cbe6ed253cf9"><td class="memItemLeft" align="right" valign="top">const openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga7605330c27d603a37009cbe6ed253cf9">ovdb</a> (const <a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
-<tr class="separator:ga7605330c27d603a37009cbe6ed253cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae84dac6352423cd123a4f2aba32c3250" id="r_gae84dac6352423cd123a4f2aba32c3250"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#gae84dac6352423cd123a4f2aba32c3250">MakeFloatGrid</a> (openvdb::FloatGrid::Ptr &amp;&amp;p)</td></tr>
-<tr class="memdesc:gae84dac6352423cd123a4f2aba32c3250"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes <a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a> shared pointer taking the contents of the input pointer  <br /></td></tr>
-<tr class="separator:gae84dac6352423cd123a4f2aba32c3250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacb5df1852aebff4993113e66bf830d74" id="r_gacb5df1852aebff4993113e66bf830d74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#gacb5df1852aebff4993113e66bf830d74">fromVdb</a> (const openvdb::Coord &amp;v)</td></tr>
-<tr class="separator:gacb5df1852aebff4993113e66bf830d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3688d13b069aa87ec153b375d36cee83" id="r_ga3688d13b069aa87ec153b375d36cee83"><td class="memItemLeft" align="right" valign="top">openvdb::Coord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga3688d13b069aa87ec153b375d36cee83">toVdb</a> (const <a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;v)</td></tr>
-<tr class="separator:ga3688d13b069aa87ec153b375d36cee83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12f92e71b639968eb7a4ffb4cbe51291" id="r_ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga12f92e71b639968eb7a4ffb4cbe51291">ovdb</a> (<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
+<tr class="separator:ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c6031335bfc2515993437f951485ad1" id="r_ga7c6031335bfc2515993437f951485ad1"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE const openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga7c6031335bfc2515993437f951485ad1">ovdb</a> (const <a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
+<tr class="separator:ga7c6031335bfc2515993437f951485ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00a487924b8ec452f4a8b75891d68fc3" id="r_ga00a487924b8ec452f4a8b75891d68fc3"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga00a487924b8ec452f4a8b75891d68fc3">MakeFloatGrid</a> (openvdb::FloatGrid::Ptr &amp;&amp;p)</td></tr>
+<tr class="memdesc:ga00a487924b8ec452f4a8b75891d68fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes <a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a> shared pointer taking the contents of the input pointer  <br /></td></tr>
+<tr class="separator:ga00a487924b8ec452f4a8b75891d68fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga218b14201bd57ed729188c171faf44b4" id="r_ga218b14201bd57ed729188c171faf44b4"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4">fromVdb</a> (const openvdb::Coord &amp;v)</td></tr>
+<tr class="separator:ga218b14201bd57ed729188c171faf44b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab75a6a1d7c95c635ac4101c7a3d25eab" id="r_gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE openvdb::Coord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a> (const <a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;v)</td></tr>
+<tr class="separator:gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1f6e889fadd4d30603c3cffcf9a930" id="r_aca1f6e889fadd4d30603c3cffcf9a930"><td class="memTemplParams" colspan="2">template&lt;typename Accessor &gt; </td></tr>
 <tr class="memitem:aca1f6e889fadd4d30603c3cffcf9a930"><td class="memTemplItemLeft" align="right" valign="top">SimpleVolumeMinMax&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aca1f6e889fadd4d30603c3cffcf9a930">resampleVolumeByInterpolation</a> (const typename Accessor::VolumeType &amp;volume, const Accessor &amp;accessor, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;newVoxelSize)</td></tr>
 <tr class="memdesc:aca1f6e889fadd4d30603c3cffcf9a930"><td class="mdescLeft">&#160;</td><td class="mdescRight">sample function that resamples the voxel volume using interpolating accessor  <br /></td></tr>
@@ -27208,8 +27212,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a495049b3b06ee96752f92ac2e75f3e2c" name="a495049b3b06ee96752f92ac2e75f3e2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a495049b3b06ee96752f92ac2e75f3e2c">&#9670;&#160;</a></span>stringOperationCanceled()</h2>
+<a id="adaeda128e3a2e131a28e25934de4203c" name="adaeda128e3a2e131a28e25934de4203c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaeda128e3a2e131a28e25934de4203c">&#9670;&#160;</a></span>stringOperationCanceled()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -27218,7 +27222,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MR::stringOperationCanceled </td>
+          <td class="memname">MR_BIND_IGNORE std::string MR::stringOperationCanceled </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -28293,8 +28297,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ab5aaee1e91b2d9f23b64187f4e125321" name="ab5aaee1e91b2d9f23b64187f4e125321"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5aaee1e91b2d9f23b64187f4e125321">&#9670;&#160;</a></span>unexpected()</h2>
+<a id="a35384d6fca989aa5fd419f6c6d730022" name="a35384d6fca989aa5fd419f6c6d730022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35384d6fca989aa5fd419f6c6d730022">&#9670;&#160;</a></span>unexpected()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -28305,7 +28309,7 @@ template&lt;class E &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto MR::unexpected </td>
+          <td class="memname">MR_BIND_IGNORE auto MR::unexpected </td>
           <td>(</td>
           <td class="paramtype">E &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -28320,8 +28324,8 @@ template&lt;class E &gt; </div>
 
 </div>
 </div>
-<a id="ae65ba4d092b89360f8dff3c458aec88b" name="ae65ba4d092b89360f8dff3c458aec88b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae65ba4d092b89360f8dff3c458aec88b">&#9670;&#160;</a></span>unexpectedOperationCanceled()</h2>
+<a id="a78cf002f660ab73123553df1f3ab3bc1" name="a78cf002f660ab73123553df1f3ab3bc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78cf002f660ab73123553df1f3ab3bc1">&#9670;&#160;</a></span>unexpectedOperationCanceled()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -28330,7 +28334,7 @@ template&lt;class E &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto MR::unexpectedOperationCanceled </td>
+          <td class="memname">MR_BIND_IGNORE auto MR::unexpectedOperationCanceled </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -28343,7 +28347,7 @@ template&lt;class E &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns Expected error with <code><a class="el" href="#a495049b3b06ee96752f92ac2e75f3e2c" title="Common operation canceled line for all.">stringOperationCanceled()</a></code> </p>
+<p>Returns Expected error with <code><a class="el" href="#adaeda128e3a2e131a28e25934de4203c" title="Common operation canceled line for all.">stringOperationCanceled()</a></code> </p>
 
 </div>
 </div>

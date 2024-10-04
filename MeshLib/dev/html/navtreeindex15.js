@@ -1,5 +1,11 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1BestFitPolynomial.html":[10,0,10,71],
+"classMR_1_1BestFitPolynomial.html":[12,0,1,57],
+"classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[10,0,10,71,1],
+"classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[12,0,1,57,1],
+"classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[10,0,10,71,0],
+"classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[12,0,1,57,0],
 "classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[10,0,10,71,2],
 "classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[12,0,1,57,2],
 "classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[10,0,10,71,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeMeshEdgeSelectionAction.html":[9,4,24],
 "classMR_1_1ChangeMeshEdgeSelectionAction.html#a0943bda0fc9bda571b5de449d3bca979":[9,4,24,4],
 "classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a":[9,4,24,1],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a59d389a6910ddd51ea9d3a05db2dfcee":[9,4,24,5],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a6abc89d21736995bdf8972c00def1b26":[9,4,24,0],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a83696bf7e473dc7c1a58d55fc055d246":[9,4,24,6],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a9cce7322e651ade9e044f62b3de92ff6":[9,4,24,2],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#ac9c2e37493f65f8185015b96da5497a2":[9,4,24,3],
-"classMR_1_1ChangeMeshFaceSelectionAction.html":[9,4,23],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a064f2f6dcad2b8ed0b16957b9bbb248f":[9,4,23,4]
+"classMR_1_1ChangeMeshEdgeSelectionAction.html#a59d389a6910ddd51ea9d3a05db2dfcee":[9,4,24,5]
 };

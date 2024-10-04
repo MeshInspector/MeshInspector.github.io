@@ -144,6 +144,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5195a0027b8c080936de4c66cef131a6" id="r_a5195a0027b8c080936de4c66cef131a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5195a0027b8c080936de4c66cef131a6">PackOptimally</a> ()</td></tr>
 <tr class="memdesc:a5195a0027b8c080936de4c66cef131a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices  <br /></td></tr>
 <tr class="separator:a5195a0027b8c080936de4c66cef131a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34883ea16e2ac1bfa352a8daf82e7161" id="r_a34883ea16e2ac1bfa352a8daf82e7161"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34883ea16e2ac1bfa352a8daf82e7161">Volume</a> ()</td></tr>
+<tr class="memdesc:a34883ea16e2ac1bfa352a8daf82e7161"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns volume of whole mesh  <br /></td></tr>
+<tr class="separator:a34883ea16e2ac1bfa352a8daf82e7161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47fa32950cef6b9a5b677c850b4a25ad" id="r_a47fa32950cef6b9a5b677c850b4a25ad"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47fa32950cef6b9a5b677c850b4a25ad">Volume</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>^ region)</td></tr>
+<tr class="memdesc:a47fa32950cef6b9a5b677c850b4a25ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns volume of closed mesh region, if region is not closed DBL_MAX is returned  <br /></td></tr>
+<tr class="separator:a47fa32950cef6b9a5b677c850b4a25ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -903,6 +909,44 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>transforms all points in the region </p>
+
+</div>
+</div>
+<a id="a34883ea16e2ac1bfa352a8daf82e7161" name="a34883ea16e2ac1bfa352a8daf82e7161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34883ea16e2ac1bfa352a8daf82e7161">&#9670;&#160;</a></span>Volume() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Mesh::Volume </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns volume of whole mesh </p>
+
+</div>
+</div>
+<a id="a47fa32950cef6b9a5b677c850b4a25ad" name="a47fa32950cef6b9a5b677c850b4a25ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47fa32950cef6b9a5b677c850b4a25ad">&#9670;&#160;</a></span>Volume() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Mesh::Volume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>^</td>          <td class="paramname"><span class="paramname"><em>region</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns volume of closed mesh region, if region is not closed DBL_MAX is returned </p>
 
 </div>
 </div>

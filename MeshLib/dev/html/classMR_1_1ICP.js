@@ -23,7 +23,9 @@ var classMR_1_1ICP =
     [ "setDistanceLimit", "classMR_1_1ICP.html#af226a6c2f4724b14d1427eac21236263", null ],
     [ "setFarDistFactor", "classMR_1_1ICP.html#af7075821af276952c330c5171ffc772c", null ],
     [ "setFloatXf", "classMR_1_1ICP.html#a648f51132c41c3a5914156ba001be0b0", null ],
+    [ "setFltSamples", "classMR_1_1ICP.html#a4f146d207e9738307404735d50df2c02", null ],
     [ "setParams", "classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da", null ],
+    [ "setRefSamples", "classMR_1_1ICP.html#a71d2c3ad12814f1fc80c984f56f97ab5", null ],
     [ "setXfs", "classMR_1_1ICP.html#ab88edcca6724a83490260b5136044e36", null ],
     [ "updatePointPairs", "classMR_1_1ICP.html#ab1c8fb3d4bbd3f143c7af4c10fd3cefa", null ]
 ];

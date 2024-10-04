@@ -24,7 +24,7 @@ var searchData=
   ['initfontmanagerinstance_21',['initFontManagerInstance',['../classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8',1,'MR::RibbonFontManager']]],
   ['initgradienttexture_22',['InitGradientTexture',['../classMR_1_1RibbonButtonDrawer.html#aaf522f84deade12174104cfd9ab2c384',1,'MR::RibbonButtonDrawer']]],
   ['initialize_23',['initialize',['../classMR_1_1SpaceMouseHandler.html#a5c2a0f9ed6b49950d604726d8ff4b31e',1,'MR::SpaceMouseHandler::initialize()'],['../classMR_1_1SpaceMouseHandlerHidapi.html#adf220c93efe5a91704da349086edcf46',1,'MR::SpaceMouseHandlerHidapi::initialize()'],['../classMR_1_1TouchpadController.html#a7f99ad050f7c266930af4bf9ffc13c37',1,'MR::TouchpadController::initialize()']]],
-  ['initribbonmenu_24',['initRibbonMenu',['../classMR_1_1RibbonSceneObjectsListDrawer.html#a04abc3de8e718d6580a97c614043ea6f',1,'MR::RibbonSceneObjectsListDrawer']]],
+  ['initribbonmenu_24',['initRibbonMenu',['../classMR_1_1RibbonSceneObjectsListDrawer.html#a6fccd91d7785e8df8425ed250c606137',1,'MR::RibbonSceneObjectsListDrawer']]],
   ['inputintbitset_25',['InputIntBitSet',['../namespaceImGui.html#acd8cc938250148aa8872b289ee37a885',1,'ImGui']]],
   ['inputintvalid_26',['InputIntValid',['../namespaceImGui.html#a4e3833bf7761da4ac20ca9397fbdbc16',1,'ImGui']]],
   ['inputs_27',['inputs',['../structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151',1,'MR::ConeFittingFunctor']]],

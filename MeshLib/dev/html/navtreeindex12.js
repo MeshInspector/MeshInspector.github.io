@@ -1,5 +1,10 @@
 var NAVTREEINDEX12 =
 {
+"MRTupleBindings_8h.html#a4bc6e978265e037bdca77110eae89d64":[13,0,0,2,4,343,14],
+"MRTupleBindings_8h.html#a4e767d46dd23fb8b21130cc65ef9eb61":[13,0,0,2,4,343,12],
+"MRTupleBindings_8h.html#a4f46e33f779ccbcf3bbee75323347837":[13,0,0,2,4,343,17],
+"MRTupleBindings_8h.html#a7aa397b5ed81246a0465fb3bdc4f5599":[13,0,0,2,4,343,13],
+"MRTupleBindings_8h.html#a8adef0dcb5a67d508801a46f29deb81f":[13,0,0,2,4,343,7],
 "MRTupleBindings_8h.html#a8c1f285288de8cd4487966109876601b":[13,0,0,2,4,343,0],
 "MRTupleBindings_8h.html#aac529af9159db98123ad959d1708a303":[13,0,0,2,4,343,2],
 "MRTupleBindings_8h.html#aae733878440cead52d3fc2fd6c4429b9":[13,0,0,2,4,343,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX12 =
 "MRViewerIO_8h.html":[13,0,0,2,11,125],
 "MRViewerIO_8h.html#a49676245858cf7114c59cd1b6b772755":[13,0,0,2,11,125,1],
 "MRViewerIO_8h_source.html":[13,0,0,2,11,125],
-"MRViewerInstance_8h.html":[13,0,0,2,11,124],
-"MRViewerInstance_8h.html#a3e7c908172571071d6796d054d25a4f4":[13,0,0,2,11,124,0],
-"MRViewerInstance_8h_source.html":[13,0,0,2,11,124],
-"MRViewerPlugin_8h.html":[13,0,0,2,11,126],
-"MRViewerPlugin_8h_source.html":[13,0,0,2,11,126],
-"MRViewerSettingsManager_8h.html":[13,0,0,2,11,127]
+"MRViewerInstance_8h.html":[13,0,0,2,11,124]
 };

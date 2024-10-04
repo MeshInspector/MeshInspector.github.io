@@ -164,6 +164,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiRayMeshIntersectResult.html">MR::MultiRayMeshIntersectResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MR::MultiMeshIntersectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Line3Mesh.html">MR::Line3Mesh&lt; T &gt;</a></td></tr>
@@ -295,6 +297,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga4a4bcd2a0d206e01852cba4f6e0c2a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga987d32cc52268b780f26e3733f7d0151" id="r_ga987d32cc52268b780f26e3733f7d0151"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga987d32cc52268b780f26e3733f7d0151">MR::rayMeshIntersect</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const Line3d &amp;line, double rayStart=0.0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; *prec=nullptr, bool closestIntersect=true, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
 <tr class="separator:ga987d32cc52268b780f26e3733f7d0151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga041f851064ebbb5159343f98539fc045" id="r_ga041f851064ebbb5159343f98539fc045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga041f851064ebbb5159343f98539fc045">MR::multiRayMeshIntersect</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;origins, const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;dirs, const <a class="el" href="structMR_1_1MultiRayMeshIntersectResult.html">MultiRayMeshIntersectResult</a> &amp;result, float rayStart=0.0f, float rayEnd=FLT_MAX, bool closestIntersect=true, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
+<tr class="separator:ga041f851064ebbb5159343f98539fc045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5ed53546770d894ff3f4ea75bd760afa" id="r_ga5ed53546770d894ff3f4ea75bd760afa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ed53546770d894ff3f4ea75bd760afa">MR::rayMultiMeshAnyIntersect</a> (const std::vector&lt; <a class="el" href="#ga9222ec2d954badb7ee5874321a084eb6">Line3fMesh</a> &gt; &amp;lineMeshes, float rayStart=0.0f, float rayEnd=FLT_MAX)</td></tr>
 <tr class="separator:ga5ed53546770d894ff3f4ea75bd760afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaca3917c935c4b071cac785463beaa5f2" id="r_gaca3917c935c4b071cac785463beaa5f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca3917c935c4b071cac785463beaa5f2">MR::rayMultiMeshAnyIntersect</a> (const std::vector&lt; <a class="el" href="#ga8ba650839d7806773bb542b986ac4283">Line3dMesh</a> &gt; &amp;lineMeshes, double rayStart=0.0, double rayEnd=DBL_MAX)</td></tr>
@@ -2660,6 +2664,69 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga041f851064ebbb5159343f98539fc045" name="ga041f851064ebbb5159343f98539fc045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga041f851064ebbb5159343f98539fc045">&#9670;&#160;</a></span>multiRayMeshIntersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::multiRayMeshIntersect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>origins</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>dirs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MultiRayMeshIntersectResult.html">MultiRayMeshIntersectResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.0f</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FLT_MAX</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>closestIntersect</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>validFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds intersections between a mesh and multiple rays in parallel (in float-precision). <code>rayStart</code> and <code>rayEnd</code> define the interval on all rays to detect an intersection. <code>vadidFaces</code> if given then all faces for which false is returned will be skipped </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">meshPart</td><td>mesh (or its part) to find intersections with  </td></tr>
+    <tr><td class="paramname">origins</td><td>origin point of every ray  </td></tr>
+    <tr><td class="paramname">dirs</td><td>direction of every ray  </td></tr>
+    <tr><td class="paramname">result</td><td>output data for every ray  </td></tr>
+    <tr><td class="paramname">closestIntersect</td><td>finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>)  </td></tr>
+    <tr><td class="paramname">validFaces</td><td>if given then all faces for which false is returned will be skipped </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

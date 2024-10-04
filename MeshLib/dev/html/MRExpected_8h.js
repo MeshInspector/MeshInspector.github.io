@@ -1,8 +1,9 @@
 var MRExpected_8h =
 [
+    [ "MR_USE_STD_EXPECTED", "MRExpected_8h.html#a33356cd4adf5eec2753897c64caf3f54", null ],
     [ "Expected", "MRExpected_8h.html#a6d7483b6adbc485e9c9b52eb09cb7735", null ],
     [ "VoidOrErrStr", "MRExpected_8h.html#aff6352909bd9c9bb61e99aa3260f213e", null ],
-    [ "stringOperationCanceled", "MRExpected_8h.html#a495049b3b06ee96752f92ac2e75f3e2c", null ],
-    [ "unexpected", "MRExpected_8h.html#ab5aaee1e91b2d9f23b64187f4e125321", null ],
-    [ "unexpectedOperationCanceled", "MRExpected_8h.html#ae65ba4d092b89360f8dff3c458aec88b", null ]
+    [ "stringOperationCanceled", "MRExpected_8h.html#adaeda128e3a2e131a28e25934de4203c", null ],
+    [ "unexpected", "MRExpected_8h.html#a35384d6fca989aa5fd419f6c6d730022", null ],
+    [ "unexpectedOperationCanceled", "MRExpected_8h.html#a78cf002f660ab73123553df1f3ab3bc1", null ]
 ];
