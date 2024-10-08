@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,1,8,0],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,1,9],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,1,9,0],
+"structMR_1_1Polynomial.html":[10,0,10,470],
 "structMR_1_1Polynomial.html":[12,0,1,456],
 "structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[10,0,10,470,2],
 "structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[12,0,1,456,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[10,0,10,504,3],
 "structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[12,0,1,490,3],
 "structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[10,0,10,504,2],
-"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[12,0,1,490,2],
-"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[10,0,10,504,1],
-"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[12,0,1,490,1],
-"structMR_1_1RemeshSettings.html":[10,0,10,505],
-"structMR_1_1RemeshSettings.html":[12,0,1,491]
+"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[12,0,1,490,2]
 };

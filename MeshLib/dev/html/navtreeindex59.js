@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc":[9,0,2,0,16],
+"structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[9,0,2,0,6],
+"structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[9,0,2,0,15],
+"structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[9,0,2,0,4],
 "structMR_1_1Box.html#ae74992c32e34243852ae9a27ce2c9554":[9,0,2,0,2],
 "structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[9,0,2,0,23],
 "structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[9,0,2,0,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111":[9,10,0,29],
 "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4":[9,10,0,24],
 "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644":[9,10,0,21],
-"structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd":[9,10,0,1],
-"structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de":[9,10,0,20],
-"structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa":[9,10,0,22],
-"structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0":[9,10,0,11],
-"structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e":[9,10,0,9]
+"structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd":[9,10,0,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1Plane3.html#a3c50c85a67a6ef9fa20e8e11efbd2ac2":[9,0,18,7],
+"structMR_1_1Plane3.html#a4f9977f7a0aeb3eaba36bc94e95143a9":[9,0,18,3],
+"structMR_1_1Plane3.html#a6a3380250b17c409373c0969b61f8fe5":[9,0,18,5],
+"structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63":[9,0,18,11],
 "structMR_1_1Plane3.html#a739d4610cb98552feee7c78ca3d30878":[9,0,18,2],
 "structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04":[9,0,18,10],
 "structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177":[9,0,18,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[9,15,0,5],
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,15,0,1],
 "structMR_1_1PolylineTraits.html":[9,1,7],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,1,8,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,1,9],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,1,9,0],
-"structMR_1_1Polynomial.html":[10,0,10,470]
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,1,8]
 };

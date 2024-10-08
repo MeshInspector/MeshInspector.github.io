@@ -13,5 +13,9 @@ var namespaceMR_1_1PointsSave =
     [ "toCtm", "namespaceMR_1_1PointsSave.html#a1bd7dc099d87633294f8fedd2ae4afdc", null ],
     [ "toCtm", "namespaceMR_1_1PointsSave.html#a9ab3fd1768f54de6a385c258cb52f5f8", null ],
     [ "toPly", "group__PointsSaveGroup.html#ga8888fda1d863df9298b87ca47d8f9dff", null ],
-    [ "toPly", "group__PointsSaveGroup.html#gaaa4b89ab02641d9ec8c2bb9283d8ab4a", null ]
+    [ "toPly", "group__PointsSaveGroup.html#gaaa4b89ab02641d9ec8c2bb9283d8ab4a", null ],
+    [ "toXyz", "group__PointsSaveGroup.html#gac7b7288ddef3e28cd5f32c0b09266907", null ],
+    [ "toXyz", "group__PointsSaveGroup.html#gac0043e6699ad6a9cfd4cbea581c2dd1b", null ],
+    [ "toXyzn", "group__PointsSaveGroup.html#ga6d8636bc112df6b4c9b74aa8e80d67d5", null ],
+    [ "toXyzn", "group__PointsSaveGroup.html#ga0590e8cbcb1c06c98ff5c12c9d322ed6", null ]
 ];
