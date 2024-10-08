@@ -654,6 +654,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FitSelectedPrimitivesMenuItem.html">FitSelectedPrimitivesMenuItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FlatTree.html">FlatTree</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FlowAggregator.html">FlowAggregator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this class can track multiple flows and find in each mesh vertex the amount of water reached it  <a href="classMR_1_1FlowAggregator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1618,6 +1620,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TrivialMetricToPenalty.html">TrivialMetricToPenalty</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertices in the queue are ordered by their metric from a start location  <a href="structMR_1_1TrivialMetricToPenalty.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TypedFlatTree.html">TypedFlatTree</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UiRenderManager.html">UiRenderManager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4591,8 +4595,8 @@ Functions</h2></td></tr>
 <tr class="separator:a316cb7e7134f8eb88680011380af2871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga245584b85505ab9157d346bb3d8caf53" id="r_ga245584b85505ab9157d346bb3d8caf53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">findSubstringCaseInsensitive</a> (const std::string &amp;string, const std::string &amp;substring)</td></tr>
 <tr class="separator:ga245584b85505ab9157d346bb3d8caf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6847ba96188840cbc3f036b1f47fbbbd" id="r_ga6847ba96188840cbc3f036b1f47fbbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga6847ba96188840cbc3f036b1f47fbbbd">calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true)</td></tr>
-<tr class="separator:ga6847ba96188840cbc3f036b1f47fbbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb9d497f4e19d60a460324a964581ebb" id="r_gadb9d497f4e19d60a460324a964581ebb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gadb9d497f4e19d60a460324a964581ebb">calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</td></tr>
+<tr class="separator:gadb9d497f4e19d60a460324a964581ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4a32fd3117efa96b71c220bfc13c359b" id="r_ga4a32fd3117efa96b71c220bfc13c359b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga4a32fd3117efa96b71c220bfc13c359b">split</a> (const std::string &amp;string, const std::string &amp;delimiter)</td></tr>
 <tr class="separator:ga4a32fd3117efa96b71c220bfc13c359b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad02dff14ccec10b269b5073bb74ca63" id="r_aad02dff14ccec10b269b5073bb74ca63"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
@@ -5166,6 +5170,13 @@ Functions</h2></td></tr>
 <tr class="separator:aaf818ad78dcf1287b09182b71c21927c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8943649eb4ec189757d628d6b1f9779f" id="r_a8943649eb4ec189757d628d6b1f9779f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8943649eb4ec189757d628d6b1f9779f">pushNotification</a> (const <a class="el" href="structMR_1_1RibbonNotification.html">RibbonNotification</a> &amp;notification)</td></tr>
 <tr class="separator:a8943649eb4ec189757d628d6b1f9779f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ea6745bd58e6920f07df18cea29367" id="r_a47ea6745bd58e6920f07df18cea29367"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1FlatTree.html">FlatTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ea6745bd58e6920f07df18cea29367">getFlatSubtrees</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objs)</td></tr>
+<tr class="separator:a47ea6745bd58e6920f07df18cea29367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a850708cbef07e47bb30e4f35224bdd1e" id="r_a850708cbef07e47bb30e4f35224bdd1e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a850708cbef07e47bb30e4f35224bdd1e">mergeSubtree</a> (<a class="el" href="structMR_1_1TypedFlatTree.html">TypedFlatTree</a> subtree)</td></tr>
+<tr class="memdesc:a850708cbef07e47bb30e4f35224bdd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">merge objects of same type in the object tree  <br /></td></tr>
+<tr class="separator:a850708cbef07e47bb30e4f35224bdd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3e4c11dba2ebd6027cd0ba604232d7" id="r_a7d3e4c11dba2ebd6027cd0ba604232d7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3e4c11dba2ebd6027cd0ba604232d7">mergeSubtree</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; rootObj)</td></tr>
+<tr class="separator:a7d3e4c11dba2ebd6027cd0ba604232d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa52aa577955c12272d65be2a25bf5e" id="r_a1aa52aa577955c12272d65be2a25bf5e"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT &gt; </td></tr>
 <tr class="memitem:a1aa52aa577955c12272d65be2a25bf5e"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1aa52aa577955c12272d65be2a25bf5e">getNObjectsLine</a> (unsigned n)</td></tr>
 <tr class="separator:a1aa52aa577955c12272d65be2a25bf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -16390,6 +16401,27 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
+<a id="a47ea6745bd58e6920f07df18cea29367" name="a47ea6745bd58e6920f07df18cea29367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ea6745bd58e6920f07df18cea29367">&#9670;&#160;</a></span>getFlatSubtrees()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1FlatTree.html">FlatTree</a> &gt; MR::getFlatSubtrees </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get list of subtrees satisfying any of the following rules:</p><ul>
+<li>all the subtree elements are present in the given object list</li>
+<li>only the subtree's root element is present in the given object list TODO: optional predicate to ignore insignificant objects (non-visual objects, ancillary objects, etc.) </li>
+</ul>
+
+</div>
+</div>
 <a id="a8412e0e0223cb8986e09d785220f0aed" name="a8412e0e0223cb8986e09d785220f0aed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8412e0e0223cb8986e09d785220f0aed">&#9670;&#160;</a></span>GetFontsDirectory()</h2>
 
@@ -20804,6 +20836,42 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 </div><div class="memdoc">
 
 <p>constructs new <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> containing the union of valid points from all input objects </p>
+
+</div>
+</div>
+<a id="a7d3e4c11dba2ebd6027cd0ba604232d7" name="a7d3e4c11dba2ebd6027cd0ba604232d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d3e4c11dba2ebd6027cd0ba604232d7">&#9670;&#160;</a></span>mergeSubtree() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::mergeSubtree </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>rootObj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a850708cbef07e47bb30e4f35224bdd1e" name="a850708cbef07e47bb30e4f35224bdd1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a850708cbef07e47bb30e4f35224bdd1e">&#9670;&#160;</a></span>mergeSubtree() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::mergeSubtree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TypedFlatTree.html">TypedFlatTree</a></td>          <td class="paramname"><span class="paramname"><em>subtree</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>merge objects of same type in the object tree </p>
 
 </div>
 </div>

@@ -1,5 +1,10 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[12,0,1,56,1],
+"classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[10,0,10,70,2],
+"classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[12,0,1,56,2],
+"classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[10,0,10,70,0],
+"classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[12,0,1,56,0],
 "classMR_1_1BestFitPolynomial.html":[10,0,10,71],
 "classMR_1_1BestFitPolynomial.html":[12,0,1,57],
 "classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[10,0,10,71,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeMeshCreasesAction.html#a222e4ff1e014646782819abea4d1a92d":[9,4,25,0],
 "classMR_1_1ChangeMeshCreasesAction.html#a35abf0006f1f9dde31def6af394af1ae":[9,4,25,1],
 "classMR_1_1ChangeMeshCreasesAction.html#a850dbf46650c86a5fe37b4b876fe5e43":[9,4,25,4],
-"classMR_1_1ChangeMeshCreasesAction.html#a8e94b4602cd0f65cfe61ec32c75659db":[9,4,25,3],
-"classMR_1_1ChangeMeshCreasesAction.html#abaa4073cae3371c003ef86720b945c86":[9,4,25,5],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html":[9,4,24],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a0943bda0fc9bda571b5de449d3bca979":[9,4,24,4],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a":[9,4,24,1],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a59d389a6910ddd51ea9d3a05db2dfcee":[9,4,24,5]
+"classMR_1_1ChangeMeshCreasesAction.html#a8e94b4602cd0f65cfe61ec32c75659db":[9,4,25,3]
 };

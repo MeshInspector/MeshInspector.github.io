@@ -1,5 +1,17 @@
 var NAVTREEINDEX55 =
 {
+"namespaceMR_1_1BitSetParallel.html#a8d363b4768efba11f60c43928c542bf1":[10,0,10,1,3],
+"namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307":[10,0,10,1,2],
+"namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[10,0,10,1,1],
+"namespaceMR_1_1Cuda.html":[10,0,10,2],
+"namespaceMR_1_1Cuda.html#a049377206c74eb42b8d99eb0f9475876":[10,0,10,2,10],
+"namespaceMR_1_1Cuda.html#a481800f210dd09851992846af357b7e2":[10,0,10,2,9],
+"namespaceMR_1_1Cuda.html#a68b9636194d2ea1b09c74b6f11829c02":[10,0,10,2,2],
+"namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9":[10,0,10,2,11],
+"namespaceMR_1_1Cuda.html#ab5f9490f820c7e7eb708e516e58d6e5a":[10,0,10,2,4],
+"namespaceMR_1_1Cuda.html#ad257bedcdc1831b1df160989c3047f7d":[10,0,10,2,5],
+"namespaceMR_1_1Cuda.html#ad3d0d14aae4ad5f5ded80460d993d68d":[10,0,10,2,6],
+"namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838":[10,0,10,2,8],
 "namespaceMR_1_1Cuda.html#af438ea6400ea4dd6e587a9208a7ab4af":[10,0,10,2,3],
 "namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231":[10,0,10,2,7],
 "namespaceMR_1_1DistanceMapLoad.html":[10,0,10,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX55 =
 "namespaceMR_1_1UI.html#a53a8b0ecd1302a3bda2f1df01ef818a8":[10,0,10,37,30],
 "namespaceMR_1_1UI.html#a5caf1537f165f3557d3f718bfb47a032":[10,0,10,37,47],
 "namespaceMR_1_1UI.html#a5e2ab9c1b7ae397ac4ef58403551d17c":[10,0,10,37,53],
-"namespaceMR_1_1UI.html#a5e2b43c7fc21e6665c27724211ffb039":[10,0,10,37,56],
-"namespaceMR_1_1UI.html#a605669bcd9083165a2323a01d16b62ac":[10,0,10,37,13],
-"namespaceMR_1_1UI.html#a624bcecd8d08c2dc6fd574cd643c4b1a":[10,0,10,37,14],
-"namespaceMR_1_1UI.html#a63e011139a97a30e31e34d070e0f0e11":[10,0,10,37,66],
-"namespaceMR_1_1UI.html#a66dc61c68cc74e41c52ec9552380924e":[10,0,10,37,15],
-"namespaceMR_1_1UI.html#a6960ed24f5176be45d3dae21bae38d42":[10,0,10,37,41],
-"namespaceMR_1_1UI.html#a6d6f8139e24eb7840d9711fbe7e00a76":[10,0,10,37,42],
-"namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501":[10,0,10,37,18],
-"namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e":[10,0,10,37,25],
-"namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[10,0,10,37,73],
-"namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[10,0,10,37,70],
-"namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[10,0,10,37,39],
-"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[10,0,10,37,61]
+"namespaceMR_1_1UI.html#a5e2b43c7fc21e6665c27724211ffb039":[10,0,10,37,56]
 };

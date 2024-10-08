@@ -1,5 +1,17 @@
 var NAVTREEINDEX57 =
 {
+"structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09":[12,0,37,3],
+"structMRDecimateResult.html#a3c065962d7b37882d764de946b664201":[12,0,37,1],
+"structMRDecimateResult.html#a55c9f57cd3723046a5c7113b5fb0da2b":[12,0,37,2],
+"structMRDecimateResult.html#aba3cacd7b3b56eb6f30232625328d026":[12,0,37,0],
+"structMRDecimateSettings.html":[12,0,38],
+"structMRDecimateSettings.html#a0ba243d3dc1eb29fedfedf12821f808b":[12,0,38,8],
+"structMRDecimateSettings.html#a1059a2ea3dd3750396c012134de9ad56":[12,0,38,0],
+"structMRDecimateSettings.html#a1d0329e1a12b385130c9098ca1cde327":[12,0,38,6],
+"structMRDecimateSettings.html#a2c349e24d60412eb6b16ab1d98e8074e":[12,0,38,7],
+"structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628":[12,0,38,2],
+"structMRDecimateSettings.html#a3c31da100d3cc2b0dc612fe3342cebb6":[12,0,38,5],
+"structMRDecimateSettings.html#a4e04ee54a67240824fcf155e24e679b6":[12,0,38,12],
 "structMRDecimateSettings.html#a6752b8883770f758f44fc5956c8238c4":[12,0,38,9],
 "structMRDecimateSettings.html#a679658d2e5a069713519041347304233":[12,0,38,16],
 "structMRDecimateSettings.html#a6b5b07423ef64eadeec3662a51a57bba":[12,0,38,18],
@@ -237,17 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1AncillaryMesh.html#adbf02a47e5a8e457c68acbf971e2a32e":[12,0,1,42,7],
 "structMR_1_1AncillaryPoints.html":[10,0,10,57],
 "structMR_1_1AncillaryPoints.html":[12,0,1,43],
-"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[10,0,10,57,5],
-"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[12,0,1,43,5],
-"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[10,0,10,57,2],
-"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[12,0,1,43,2],
-"structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[10,0,10,57,7],
-"structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[12,0,1,43,7],
-"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[10,0,10,57,10],
-"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[12,0,1,43,10],
-"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[10,0,10,57,3],
-"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[12,0,1,43,3],
-"structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[10,0,10,57,1],
-"structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[12,0,1,43,1],
-"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[10,0,10,57,6]
+"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[10,0,10,57,5]
 };

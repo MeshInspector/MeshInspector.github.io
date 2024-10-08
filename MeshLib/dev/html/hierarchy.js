@@ -367,6 +367,7 @@ var hierarchy =
     [ "MR::FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", null ],
     [ "MR::FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", null ],
     [ "MR::FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", null ],
+    [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
     ] ],
@@ -1143,6 +1144,7 @@ var hierarchy =
     [ "Ts...", null, [
       [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ]
     ] ],
+    [ "MR::TypedFlatTree", "structMR_1_1TypedFlatTree.html", null ],
     [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", [
       [ "MR::ImGuiMenu::UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", null ]
     ] ],

@@ -43,11 +43,12 @@ var searchData=
   ['rigidb2a_40',['rigidB2A',['../structBooleanParameters.html#ab9d32d1318381741a63641329cf7df4c',1,'BooleanParameters::rigidB2A'],['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData::rigidB2A'],['../structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92',1,'MR::BooleanParameters::rigidB2A'],['../structMRBooleanParameters.html#ae2061a98ee78884351c0cd88e485f32a',1,'MRBooleanParameters::rigidB2A']]],
   ['rigidscalexf3_41',['RigidScaleXf3',['../namespaceMR.html#aefb0e71ff0b54f3b21e3e841c23186f2',1,'MR']]],
   ['rigidscalexf3f_42',['RigidScaleXf3f',['../namespaceMR.html#a888dc5ae2b3292aed4702899b2a6cdea',1,'MR']]],
-  ['rot_43',['rot',['../structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136',1,'MR::MultiwayAligningTransform::Stabilizer']]],
-  ['rotatescale_44',['rotateScale',['../structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3',1,'MR::SpaceMouseParameters']]],
-  ['rotationcolors_45',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
-  ['rotationsphere_46',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
-  ['round_47',['Round',['../structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc',1,'MR::OffsetContoursParams::Round']]],
-  ['rounding_48',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
-  ['rr_49',['rr',['../structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584',1,'MR::Dipole']]]
+  ['root_43',['root',['../structMR_1_1FlatTree.html#a91ce578b57c3afcd001373ff561404a9',1,'MR::FlatTree::root'],['../structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250',1,'MR::TypedFlatTree::root']]],
+  ['rot_44',['rot',['../structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136',1,'MR::MultiwayAligningTransform::Stabilizer']]],
+  ['rotatescale_45',['rotateScale',['../structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3',1,'MR::SpaceMouseParameters']]],
+  ['rotationcolors_46',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
+  ['rotationsphere_47',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
+  ['round_48',['Round',['../structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc',1,'MR::OffsetContoursParams::Round']]],
+  ['rounding_49',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
+  ['rr_50',['rr',['../structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584',1,'MR::Dipole']]]
 ];

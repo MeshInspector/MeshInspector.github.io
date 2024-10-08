@@ -15,7 +15,7 @@ var searchData=
   ['calcavgcolors_12',['calcAvgColors',['../namespaceMR.html#a1746d757b12ddb4f1527a3c3b361ec4c',1,'MR']]],
   ['calcbestcoefficients_13',['calcBestCoefficients',['../classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3',1,'MR::QuadricApprox']]],
   ['calccombinedfillmetric_14',['calcCombinedFillMetric',['../group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e',1,'MR']]],
-  ['calcdameraulevenshteindistance_15',['calcDamerauLevenshteinDistance',['../group__BasicGroup.html#ga6847ba96188840cbc3f036b1f47fbbbd',1,'MR']]],
+  ['calcdameraulevenshteindistance_15',['calcDamerauLevenshteinDistance',['../group__BasicGroup.html#gadb9d497f4e19d60a460324a964581ebb',1,'MR']]],
   ['calcdipoles_16',['calcDipoles',['../namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260',1,'MR::calcDipoles(Dipoles &amp;dipoles, const AABBTree &amp;tree, const Mesh &amp;mesh)'],['../namespaceMR.html#a0b97af3090cdd24b2080c19142252e80',1,'MR::calcDipoles(const AABBTree &amp;tree, const Mesh &amp;mesh)']]],
   ['calcfacedistances_17',['calcFaceDistances',['../namespaceMR.html#a8dc548516d8db27eba38a5a8bf158a02',1,'MR']]],
   ['calcfastwindingnumber_18',['calcFastWindingNumber',['../structMR_1_1Mesh.html#a0ddf4af17627f59df39990e32ea87c04',1,'MR::Mesh::calcFastWindingNumber()'],['../namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0',1,'MR::calcFastWindingNumber()']]],

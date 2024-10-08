@@ -326,8 +326,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga52d34a9bbe60f99085e9aab32040499f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga245584b85505ab9157d346bb3d8caf53" id="r_ga245584b85505ab9157d346bb3d8caf53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a> (const std::string &amp;string, const std::string &amp;substring)</td></tr>
 <tr class="separator:ga245584b85505ab9157d346bb3d8caf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6847ba96188840cbc3f036b1f47fbbbd" id="r_ga6847ba96188840cbc3f036b1f47fbbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6847ba96188840cbc3f036b1f47fbbbd">MR::calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true)</td></tr>
-<tr class="separator:ga6847ba96188840cbc3f036b1f47fbbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb9d497f4e19d60a460324a964581ebb" id="r_gadb9d497f4e19d60a460324a964581ebb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb9d497f4e19d60a460324a964581ebb">MR::calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</td></tr>
+<tr class="separator:gadb9d497f4e19d60a460324a964581ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4a32fd3117efa96b71c220bfc13c359b" id="r_ga4a32fd3117efa96b71c220bfc13c359b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a32fd3117efa96b71c220bfc13c359b">MR::split</a> (const std::string &amp;string, const std::string &amp;delimiter)</td></tr>
 <tr class="separator:ga4a32fd3117efa96b71c220bfc13c359b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga543d43a804760961ac67ad3689330c1d" id="r_ga543d43a804760961ac67ad3689330c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga543d43a804760961ac67ad3689330c1d">MR::utf8ToWide</a> (const char *utf8)</td></tr>
@@ -775,8 +775,8 @@ template&lt;typename BS , typename L , typename ... F&gt; </div>
 
 </div>
 </div>
-<a id="ga6847ba96188840cbc3f036b1f47fbbbd" name="ga6847ba96188840cbc3f036b1f47fbbbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6847ba96188840cbc3f036b1f47fbbbd">&#9670;&#160;</a></span>calcDamerauLevenshteinDistance()</h2>
+<a id="gadb9d497f4e19d60a460324a964581ebb" name="gadb9d497f4e19d60a460324a964581ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb9d497f4e19d60a460324a964581ebb">&#9670;&#160;</a></span>calcDamerauLevenshteinDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -797,7 +797,12 @@ template&lt;typename BS , typename L , typename ... F&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>caseSensitive</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>caseSensitive</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>outLeftRightAddition</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -806,7 +811,12 @@ template&lt;typename BS , typename L , typename ... F&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculates Damerau-Levenshtein distance between to strings </p>
+<p>Calculates Damerau-Levenshtein distance between to strings </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outLeftRightAddition</td><td>if provided return amount of insertions to the left and to the right </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

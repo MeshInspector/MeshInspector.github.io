@@ -248,7 +248,7 @@ var group__BasicGroup =
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#ga473b8a238072b360e13c47d4c255d66f", null ],
     [ "MR::BitSetParallelForAllRanged", "group__BasicGroup.html#ga33e26ce0b4711944b757408b0ab339a5", null ],
     [ "MR::BitSetParallelForAllRanged", "group__BasicGroup.html#ga82bab0dac0d1604747ecff512e8a091a", null ],
-    [ "MR::calcDamerauLevenshteinDistance", "group__BasicGroup.html#ga6847ba96188840cbc3f036b1f47fbbbd", null ],
+    [ "MR::calcDamerauLevenshteinDistance", "group__BasicGroup.html#gadb9d497f4e19d60a460324a964581ebb", null ],
     [ "MR::contains", "group__BasicGroup.html#gaae680d00c7b1337cc8ad166eb5089694", null ],
     [ "MR::contains", "group__BasicGroup.html#gaf22d770b767eff4d37bc4be52ef5032f", null ],
     [ "MR::edgeMapsComposition", "group__BasicGroup.html#gaa8261f1d45e6d92532c31f3e4ca98614", null ],

@@ -1,6 +1,6 @@
 var MRMesh_2MRString_8h =
 [
-    [ "calcDamerauLevenshteinDistance", "MRMesh_2MRString_8h.html#ga6847ba96188840cbc3f036b1f47fbbbd", null ],
+    [ "calcDamerauLevenshteinDistance", "MRMesh_2MRString_8h.html#gadb9d497f4e19d60a460324a964581ebb", null ],
     [ "findSubstringCaseInsensitive", "MRMesh_2MRString_8h.html#ga245584b85505ab9157d346bb3d8caf53", null ],
     [ "replace", "MRMesh_2MRString_8h.html#a2584c6bf8d14b42355582e7b634bb1ee", null ],
     [ "replaceInplace", "MRMesh_2MRString_8h.html#afc584d61fd54ca2a86dec086736fdfd4", null ],
