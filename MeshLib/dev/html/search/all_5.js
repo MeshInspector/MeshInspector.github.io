@@ -2,7 +2,7 @@ var searchData=
 [
   ['c_0',['C',['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257',1,'MR::CNCMachineSettings']]],
   ['c_1',['c',['../structMR_1_1Parabola.html#a87d6da7f3dba1aa3504784c26b407da3',1,'MR::Parabola::c'],['../structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463',1,'MR::QuadraticForm::c'],['../structMR_1_1Quaternion.html#a3408cac17b0213d5213b299ad98f12c3',1,'MR::Quaternion::c'],['../structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542',1,'MR::Viewport::TriCornerColors::c']]],
-  ['c_20basic_20examples_2',['C Basic Examples',['../CCodeExamples.html',1,'C Basic Examples'],['../CSharpCodeExamples.html',1,'C# Basic Examples'],['../CppCodeExamples.html',1,'C++ Basic Examples']]],
+  ['c_20samples_2',['C Samples',['../CCodeExamples.html',1,'C Samples'],['../CSharpCodeExamples.html',1,'C# Samples'],['../CppCodeExamples.html',1,'C++ Samples']]],
   ['c_2d_2dsharp_2dexample_2fexamples_2edox_3',['Examples.dox',['../c--sharp-example_2Examples_8dox.html',1,'']]],
   ['c_2dexamples_2fexamples_2edox_4',['Examples.dox',['../c-examples_2Examples_8dox.html',1,'']]],
   ['cacheaabbtree_5',['cacheAABBTree',['../classMR_1_1MeshOrPoints.html#aec797ad241ba4410f73274ba5e52c51e',1,'MR::MeshOrPoints']]],

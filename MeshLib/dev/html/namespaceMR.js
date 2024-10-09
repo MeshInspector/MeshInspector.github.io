@@ -1286,6 +1286,11 @@ var namespaceMR =
       [ "Button", "namespaceMR.html#a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0", null ],
       [ "ButtonWithDrop", "namespaceMR.html#a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4", null ]
     ] ],
+    [ "RibbonLayoutMode", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73", [
+      [ "None", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "SceneTree", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73a8b8b49402e8184fd0a7168766602cb83", null ],
+      [ "All", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+    ] ],
     [ "ScalarType", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8", [
       [ "UInt8", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a", null ],
       [ "Int8", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539", null ],

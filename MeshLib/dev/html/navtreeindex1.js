@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"MRBuffer_8h.html#a78839ede3780b97bcce02af755e7e577":[13,0,0,2,4,31,8],
+"MRBuffer_8h.html#ab5fd6e1a390fa8c05a8ad7006709dbf2":[13,0,0,2,4,31,7],
+"MRBuffer_8h.html#aff3156c83a0cd4f80c755c47b577c1c9":[13,0,0,2,4,31,5],
+"MRBuffer_8h_source.html":[13,0,0,2,4,31],
 "MRCNCMachineSettings_8h.html":[13,0,0,2,4,52],
 "MRCNCMachineSettings_8h_source.html":[13,0,0,2,4,52],
 "MRCalcDims_8h.html":[13,0,0,2,12,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "MRDotNet_2MRConvexHull_8h.html":[13,0,0,2,2,5],
 "MRDotNet_2MRConvexHull_8h_source.html":[13,0,0,2,2,5],
 "MRDotNet_2MRICP_8h.html":[13,0,0,2,2,7],
-"MRDotNet_2MRICP_8h_source.html":[13,0,0,2,2,7],
-"MRDotNet_2MRIntersectionContour_8h.html":[13,0,0,2,2,8],
-"MRDotNet_2MRIntersectionContour_8h_source.html":[13,0,0,2,2,8],
-"MRDotNet_2MRMatrix3_8h.html":[13,0,0,2,2,9],
-"MRDotNet_2MRMatrix3_8h_source.html":[13,0,0,2,2,9]
+"MRDotNet_2MRICP_8h_source.html":[13,0,0,2,2,7]
 };

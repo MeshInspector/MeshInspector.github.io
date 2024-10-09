@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['triangulation_0',['Triangulation',['../namespaceTriangulation.html',1,'']]]
+  ['plotly_0',['Plotly',['../namespacePlotly.html',1,'']]]
 ];
