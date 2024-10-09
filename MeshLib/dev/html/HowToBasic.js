@@ -1,8 +1,8 @@
 var HowToBasic =
 [
     [ "Basing your application on MeshLib", "MRBasedMainFunc.html", null ],
-    [ "C++ Samples", "CppCodeExamples.html", "CppCodeExamples" ],
-    [ "C# Samples", "CSharpCodeExamples.html", "CSharpCodeExamples" ],
-    [ "Python Samples", "PythonCodeExamples.html", "PythonCodeExamples" ],
-    [ "C Samples", "CCodeExamples.html", "CCodeExamples" ]
+    [ "C++ Basic Examples", "CppCodeExamples.html", "CppCodeExamples" ],
+    [ "C# Basic Examples", "CSharpCodeExamples.html", "CSharpCodeExamples" ],
+    [ "Python Basic Examples", "PythonCodeExamples.html", "PythonCodeExamples" ],
+    [ "C Basic Examples", "CCodeExamples.html", "CCodeExamples" ]
 ];

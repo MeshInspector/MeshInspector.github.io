@@ -1,9 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"MRMesh_2MRVector_8h.html#ad4d72fd2721a090560c9d14e0c558e4a":[13,0,0,2,4,352,0],
-"MRMesh_2MRVector_8h.html#ae13069a5d38e71a0e84d4fda64bd1d4b":[13,0,0,2,4,352,3],
-"MRMesh_2MRVector_8h_source.html":[13,0,0,2,4,352],
-"MRMesh_2config_8h.html":[13,0,0,2,4,0],
 "MRMesh_2config_8h_source.html":[13,0,0,2,4,0],
 "MRMeta_8h.html":[13,0,0,2,4,212],
 "MRMeta_8h_source.html":[13,0,0,2,4,212],
@@ -249,5 +245,9 @@ var NAVTREEINDEX8 =
 "MRPointCloudMakeNormals_8h_source.html":[13,0,0,2,4,248],
 "MRPointCloudRadius_8h.html":[13,0,0,2,4,249],
 "MRPointCloudRadius_8h.html#a1366441a63d8da63b7db115a4fe66c31":[13,0,0,2,4,249,0],
-"MRPointCloudRadius_8h.html#a3531ebf5781cbdc7f3a5bc36fd936d5e":[13,0,0,2,4,249,1]
+"MRPointCloudRadius_8h.html#a3531ebf5781cbdc7f3a5bc36fd936d5e":[13,0,0,2,4,249,1],
+"MRPointCloudRadius_8h_source.html":[13,0,0,2,4,249],
+"MRPointCloudRelax_8h.html":[13,0,0,2,4,250],
+"MRPointCloudRelax_8h_source.html":[13,0,0,2,4,250],
+"MRPointCloudTriangulationHelpers_8h.html":[13,0,0,2,4,252]
 };
