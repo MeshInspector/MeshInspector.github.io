@@ -140,7 +140,10 @@ $(function(){initNavTree('ExamplePythonViewer.html',''); initResizable(true); })
 <div class="line">mv.launch() <span class="comment"># a window will be opened</span></div>
 <div class="line">mv.addMeshToScene(mesh, <span class="stringliteral">&quot;Mesh 1&quot;</span>) <span class="comment"># show initial mesh</span></div>
 <div class="line">mv.Viewer().preciseFitDataViewport() <span class="comment"># fit viewer to the mesh</span></div>
+<div class="line">mv.selectByName(<span class="stringliteral">&quot;Mesh 1&quot;</span>)</div>
 <div class="line"> </div>
+<div class="line">mv.Viewer().preciseFitDataViewport() <span class="comment"># fit viewer to the mesh</span></div>
+<div class="line">mv.Viewer().showSceneTree(<span class="keyword">True</span>) <span class="comment"># enables Scene Tree in Viewer window</span></div>
 <div class="line"><span class="comment"># user can manipulate with viewer window while this python is on pause</span></div>
 <div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
 <div class="line"> </div>
@@ -149,12 +152,24 @@ $(function(){initNavTree('ExamplePythonViewer.html',''); initResizable(true); })
 <div class="line"> </div>
 <div class="line"><span class="comment"># add offset mesh to scene</span></div>
 <div class="line">mv.addMeshToScene(result_mesh, <span class="stringliteral">&quot;Mesh Offset&quot;</span>)</div>
+<div class="line">mv.selectByName(<span class="stringliteral">&quot;Mesh Offset&quot;</span>)</div>
+<div class="line">mv.Viewer().showSceneTree(<span class="keyword">False</span>) <span class="comment"># disables Scene Tree in Viewer window</span></div>
 <div class="line"><span class="comment"># user can manipulate with viewer window while this python is on pause</span></div>
 <div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># close viewer window nicely</span></div>
 <div class="line">mv.Viewer().shutdown()</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
+</div><!-- fragment --><p><br  />
+ <a class="el" href="namespaceViewer.html">Viewer</a> with scene tree </p><div class="image">
+<img src="Viewer_with_scene_tree.png" alt=""/>
+</div>
+<p> <br  />
+ <a class="el" href="namespaceViewer.html">Viewer</a> without scene tree </p><div class="image">
+<img src="Viewer_without_scene_tree.png" alt=""/>
+</div>
+ <dl class="section note"><dt>Note</dt><dd>Unfortunately viewer now does not work on macOS </dd></dl>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
