@@ -468,6 +468,7 @@ var annotated_dup =
       [ "LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", "classMR_1_1LoggingStreambuf" ],
       [ "MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", "structMR_1_1MakeDegenerateBandAroundRegionParams" ],
       [ "MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", "structMR_1_1MakeSignedByWindingNumberSettings" ],
+      [ "MarchingCubesByParts", "classMR_1_1MarchingCubesByParts.html", "classMR_1_1MarchingCubesByParts" ],
       [ "MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", "structMR_1_1MarchingCubesParams" ],
       [ "MarkedVoxelSlice", "classMR_1_1MarkedVoxelSlice.html", "classMR_1_1MarkedVoxelSlice" ],
       [ "Matrix", "structMR_1_1Matrix.html", "structMR_1_1Matrix" ],

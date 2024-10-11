@@ -680,6 +680,7 @@ var hierarchy =
     [ "MR::detail::MakeScopeGuard< T >", "structMR_1_1detail_1_1MakeScopeGuard.html", null ],
     [ "MR::MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", null ],
     [ "MR::BooleanResultMapper::Maps", "structMR_1_1BooleanResultMapper_1_1Maps.html", null ],
+    [ "MR::MarchingCubesByParts", "classMR_1_1MarchingCubesByParts.html", null ],
     [ "MR::MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", null ],
     [ "MR::MarkedVoxelSlice::Mark", "structMR_1_1MarkedVoxelSlice_1_1Mark.html", null ],
     [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", null ],
