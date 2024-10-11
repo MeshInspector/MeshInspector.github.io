@@ -1,6 +1,7 @@
 var dir_bbfddee67f87d773c26bdbd3fa405d80 =
 [
     [ "FreeFormDeformation.dox.py", "FreeFormDeformation_8dox_8py.html", null ],
+    [ "LaplacianExample.dox.py", "LaplacianExample_8dox_8py.html", null ],
     [ "MeshBoolean.dox.py", "MeshBoolean_8dox_8py.html", null ],
     [ "MeshDecimate.dox.py", "MeshDecimate_8dox_8py.html", null ],
     [ "MeshExtrude.dox.py", "MeshExtrude_8dox_8py.html", null ],
@@ -10,6 +11,7 @@ var dir_bbfddee67f87d773c26bdbd3fa405d80 =
     [ "MeshModification.dox.py", "MeshModification_8dox_8py.html", null ],
     [ "MeshOffset.dox.py", "MeshOffset_8dox_8py.html", null ],
     [ "MeshStitchHole.dox.py", "MeshStitchHole_8dox_8py.html", null ],
+    [ "NoiseDenoiseExample.dox.py", "NoiseDenoiseExample_8dox_8py.html", null ],
     [ "Numpy.dox.py", "Numpy_8dox_8py.html", null ],
     [ "NumpyTriangulation.dox.py", "NumpyTriangulation_8dox_8py.html", null ],
     [ "Plotly.dox.py", "Plotly_8dox_8py.html", null ],

@@ -12,7 +12,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Python Samples</title>
+<title>MeshLib: Laplacian deformation Example</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,7 +89,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('PythonCodeExamples.html',''); initResizable(true); });
+$(function(){initNavTree('ExamplePythonLaplacian.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -115,34 +115,46 @@ $(function(){initNavTree('PythonCodeExamples.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Python Samples</div></div>
+  <div class="headertitle"><div class="title">Laplacian deformation Example</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>In this section we provide the same samples with python code</p>
-<h1><a class="anchor" id="PythonV2"></a>
-Python Modules (prior to version 3)</h1>
-<p><a class="el" href="ExamplePythonMeshLoadSave.html">Loading and saving mesh files</a></p>
-<p><a class="el" href="ExamplePythonNumpy.html">Numpy support</a></p>
-<p><a class="el" href="ExamplePythonMeshModification.html">Mesh modification</a></p>
-<p>Please note that this sample has differences in V2 and V3 <a class="el" href="ExamplePythonTriangulationV2.html">Simple triangulation V2</a></p>
-<p><a class="el" href="ExamplePythonNumpyTriangulation.html">Triangulation of a regular Numpy grid</a></p>
-<p><a class="el" href="ExamplePythonPlotly.html">Plotly visualization</a></p>
-<p><a class="el" href="ExamplePythonMeshDecimate.html">Mesh decimate</a></p>
-<p><a class="el" href="ExamplePythonMeshBoolean.html">Mesh boolean</a></p>
-<p><a class="el" href="ExamplePythonMeshOffset.html">Mesh offset</a></p>
-<p><a class="el" href="ExamplePythonMeshICP.html">Mesh ICP</a></p>
-<p><a class="el" href="ExamplePythonMeshFillHole.html">Filling holes</a></p>
-<p><a class="el" href="ExamplePythonMeshStitchHole.html">Stitching holes</a></p>
-<p><a class="el" href="ExamplePythonMeshExtrude.html">Mesh extrude</a></p>
-<h1><a class="anchor" id="PythonV3"></a>
-Python Modules (version 3 and later)</h1>
-<p><a class="el" href="ExamplePythonTriangulationV3.html">Simple triangulation V3</a></p>
-<p><a class="el" href="ExamplePythonFreeForm.html">FreeFormDeformer Example</a></p>
-<p><a class="el" href="ExamplePythonLaplacian.html">Laplacian deformation Example</a></p>
-<p><a class="el" href="ExamplePythonNoiseDenoise.html">Adding and removing noise Example</a></p>
-<p><a class="el" href="ExamplePythonViewer.html">Viewer Example</a></p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="EmbeddedPythonOverview.html">Python overview</a> </dd></dl>
-</div></div><!-- contents -->
+<div class="textblock"><p>Example of using Laplacian deformer</p>
+<div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Load mesh</span></div>
+<div class="line">mesh = mm.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Construct deformer on mesh vertices</span></div>
+<div class="line">lDeformer = mm.Laplacian(mesh)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Find area for deformation anchor points</span></div>
+<div class="line">ancV0 = mesh.topology.getValidVerts().find_first()</div>
+<div class="line">ancV1 = mesh.topology.getValidVerts().find_last()</div>
+<div class="line"><span class="comment"># Mark anchor points in free area</span></div>
+<div class="line">freeVerts = mm.VertBitSet()</div>
+<div class="line">freeVerts.resize(mesh.topology.getValidVerts().size())</div>
+<div class="line">freeVerts.set( ancV0, <span class="keyword">True</span> )</div>
+<div class="line">freeVerts.set( ancV1, <span class="keyword">True</span> )</div>
+<div class="line"><span class="comment"># Expand free area</span></div>
+<div class="line">mm.expand(mesh.topology,freeVerts,5)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Initialize laplacian</span></div>
+<div class="line">lDeformer.init(freeVerts,mm.EdgeWeights.CotanWithAreaEqWeight)</div>
+<div class="line"> </div>
+<div class="line">shiftAmount = mesh.computeBoundingBox().diagonal()*0.01</div>
+<div class="line"><span class="comment"># Fix anchor vertices in required position</span></div>
+<div class="line">lDeformer.fixVertex( ancV0, mesh.points.vec[ancV0.get()] + mesh.normal(ancV0) * shiftAmount )</div>
+<div class="line">lDeformer.fixVertex( ancV1, mesh.points.vec[ancV1.get()] + mesh.normal(ancV1) * shiftAmount )</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Move free vertices according to anchor ones</span></div>
+<div class="line">lDeformer.apply()</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Invalidate mesh because of external vertices changes</span></div>
+<div class="line">mesh.invalidateCaches()</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Save deformed mesh</span></div>
+<div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>)</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
