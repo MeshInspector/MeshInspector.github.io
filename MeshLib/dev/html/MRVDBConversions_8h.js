@@ -9,7 +9,7 @@ var MRVDBConversions_8h =
     [ "floatGridToVdbVolume", "MRVDBConversions_8h.html#a3e69c30624a2430bc2e6027320d1f6a0", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#ad8e49582fe849014967a8baf003fd27b", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#a1ad03b5a42934e43debc76695507a680", null ],
-    [ "makeSignedByWindingNumber", "MRVDBConversions_8h.html#a2e9c3848fbd07711227f4576b05e6f49", null ],
+    [ "makeSignedByWindingNumber", "MRVDBConversions_8h.html#aeb145c323941c5fd06c513bc640d05b1", null ],
     [ "meshToDistanceField", "MRVDBConversions_8h.html#a3327e8bcfee1e492daeb80b3500c2ca2", null ],
     [ "meshToLevelSet", "MRVDBConversions_8h.html#adc86f37e5a8bb2c7c0b30dfc636d8e90", null ],
     [ "meshToVolume", "MRVDBConversions_8h.html#ab26a3095c2f054ad6f7ecab11ff7b7ff", null ],

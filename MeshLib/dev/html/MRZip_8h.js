@@ -1,6 +1,6 @@
 var MRZip_8h =
 [
-    [ "compressZip", "MRZip_8h.html#ga02e4f1770ef424d638e95a3e26512c19", null ],
-    [ "decompressZip", "MRZip_8h.html#ga93370e8f0bb7db437558a96f16c32fbd", null ],
-    [ "decompressZip", "MRZip_8h.html#ga6d8ef8273465ccaed58c0b0bcac27de7", null ]
+    [ "compressZip", "MRZip_8h.html#ga5b20b87f58909c05202f8eebdbbcdd1e", null ],
+    [ "decompressZip", "MRZip_8h.html#ga60ea0861186c3cd722eaed269571bc6d", null ],
+    [ "decompressZip", "MRZip_8h.html#ga2e076375162aa8d5f3665a95f10e3710", null ]
 ];

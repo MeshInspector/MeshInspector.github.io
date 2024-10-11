@@ -1,7 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1IPointPairs.html#abb689ad7795aaeb7236800bec89a0cab":[12,0,1,267,4],
-"structMR_1_1IPointPairs.html#adbe70eca8faa13ce9fa22e4f15cb2d5a":[10,0,12,281,0],
 "structMR_1_1IPointPairs.html#adbe70eca8faa13ce9fa22e4f15cb2d5a":[12,0,1,267,0],
 "structMR_1_1IPointPairs.html#ae584abe0ef15be5d6f3fc244f176751b":[10,0,12,281,3],
 "structMR_1_1IPointPairs.html#ae584abe0ef15be5d6f3fc244f176751b":[12,0,1,267,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX64 =
 "structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[10,0,12,275,3],
 "structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[12,0,1,261,3],
 "structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[10,0,12,275,2],
-"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[12,0,1,261,2]
+"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[12,0,1,261,2],
+"structMR_1_1IntersectionPrecomputes.html":[9,1,14],
+"structMR_1_1IntersectionPrecomputes2.html":[9,1,15]
 };

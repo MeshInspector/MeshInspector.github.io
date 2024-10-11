@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"MRMesh_2MRVector_8h.html#a23170b94fc8499f60180fce99a9fa755":[13,0,0,2,4,352,1],
 "MRMesh_2MRVector_8h.html#a9572520eab3647b710d3a85b88eac583":[13,0,0,2,4,352,2],
 "MRMesh_2MRVector_8h.html#acc5ecd2826659aa256d0bb1b168cc3bc":[13,0,0,2,4,352,4],
 "MRMesh_2MRVector_8h.html#ad4d72fd2721a090560c9d14e0c558e4a":[13,0,0,2,4,352,0],
@@ -52,8 +51,8 @@ var NAVTREEINDEX8 =
 "MRNormalDenoising_8h.html":[13,0,0,2,4,219],
 "MRNormalDenoising_8h.html#a40847df1ce412c4c7085dd392037e050":[13,0,0,2,4,219,4],
 "MRNormalDenoising_8h.html#a4a2815eda5e04a1da7ec615027b52c86":[13,0,0,2,4,219,1],
+"MRNormalDenoising_8h.html#a6bddd9d63512f9dfffb0fa869f249a4d":[13,0,0,2,4,219,2],
 "MRNormalDenoising_8h.html#a786dcca1baeb53c3472aeec3c347aaf0":[13,0,0,2,4,219,3],
-"MRNormalDenoising_8h.html#a7c53182e73b6f36d30de68c43223dc44":[13,0,0,2,4,219,2],
 "MRNormalDenoising_8h_source.html":[13,0,0,2,4,219],
 "MRNormalsToPoints_8h.html":[13,0,0,2,4,220],
 "MRNormalsToPoints_8h_source.html":[13,0,0,2,4,220],
@@ -149,10 +148,10 @@ var NAVTREEINDEX8 =
 "MRObjectPoints_8h.html#a86837deb8b4177b9b719b1faf4d2d0e8":[13,0,0,2,4,231,0],
 "MRObjectPoints_8h_source.html":[13,0,0,2,4,231],
 "MRObjectSave_8h.html":[13,0,0,2,4,234],
-"MRObjectSave_8h.html#a447ae572d44f1006666d0d760d72476a":[13,0,0,2,4,234,0],
 "MRObjectSave_8h.html#a54a3a511e827b1db27f3a67e02c92c08":[13,0,0,2,4,234,2],
-"MRObjectSave_8h.html#a72bd922670bf12b80b32826bdb72b687":[13,0,0,2,4,234,1],
+"MRObjectSave_8h.html#aa5186cb23f32bc2d4c503ccec9da5319":[13,0,0,2,4,234,0],
 "MRObjectSave_8h.html#aacb67adec04e843d7b476835acc3b2b2":[13,0,0,2,4,234,3],
+"MRObjectSave_8h.html#ae1e8b4194bf387abeb01e1aab7ca1cdb":[13,0,0,2,4,234,1],
 "MRObjectSave_8h_source.html":[13,0,0,2,4,234],
 "MRObjectTransformWidget_8h.html":[13,0,0,2,11,48],
 "MRObjectTransformWidget_8h.html#a424dfa22186e052b06c55ce2655c2e26":[13,0,0,2,11,48,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "MRPointCloudDivideWithPlane_8h.html#a7560e3b49fd5d050ccb7bcdff6a04b75":[13,0,0,2,4,247,1],
 "MRPointCloudDivideWithPlane_8h_source.html":[13,0,0,2,4,247],
 "MRPointCloudMakeNormals_8h.html":[13,0,0,2,4,248],
-"MRPointCloudMakeNormals_8h_source.html":[13,0,0,2,4,248]
+"MRPointCloudMakeNormals_8h_source.html":[13,0,0,2,4,248],
+"MRPointCloudRadius_8h.html":[13,0,0,2,4,249]
 };

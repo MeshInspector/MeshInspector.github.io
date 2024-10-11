@@ -162,7 +162,7 @@ $(function(){initNavTree('MRExpected_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#if MR_USE_STD_EXPECTED || defined(MR_DOT_NET_BUILD)</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> E = std::<span class="keywordtype">string</span>&gt;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a> = std::expected&lt;T, E&gt;;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">using </span>Expected = std::expected&lt;T, E&gt;;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> E&gt;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>MR_BIND_IGNORE <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">unexpected</a>( E &amp;&amp;e )</div>
@@ -185,7 +185,7 @@ $(function(){initNavTree('MRExpected_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">   69</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> = <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">using </span>VoidOrErrStr [[deprecated]] = Expected&lt;void&gt;;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">   72</a></span>MR_BIND_IGNORE <span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">stringOperationCanceled</a>()</div>
@@ -208,7 +208,6 @@ $(function(){initNavTree('MRExpected_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
 <div class="ttc" id="anamespaceMR_html_a78cf002f660ab73123553df1f3ab3bc1"><div class="ttname"><a href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">MR::unexpectedOperationCanceled</a></div><div class="ttdeci">MR_BIND_IGNORE auto unexpectedOperationCanceled()</div><div class="ttdoc">Returns Expected error with stringOperationCanceled()</div><div class="ttdef"><b>Definition</b> MRExpected.h:78</div></div>
 <div class="ttc" id="anamespaceMR_html_adaeda128e3a2e131a28e25934de4203c"><div class="ttname"><a href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">MR::stringOperationCanceled</a></div><div class="ttdeci">MR_BIND_IGNORE std::string stringOperationCanceled()</div><div class="ttdoc">Common operation canceled line for all.</div><div class="ttdef"><b>Definition</b> MRExpected.h:72</div></div>
-<div class="ttc" id="anamespaceMR_html_aff6352909bd9c9bb61e99aa3260f213e"><div class="ttname"><a href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">MR::VoidOrErrStr</a></div><div class="ttdeci">Expected&lt; void &gt; VoidOrErrStr</div><div class="ttdoc">return type for a void function that can produce an error string</div><div class="ttdef"><b>Definition</b> MRExpected.h:69</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

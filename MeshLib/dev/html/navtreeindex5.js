@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"MRMeshC_2MRGridSampling_8h_source.html":[13,0,0,2,5,6],
 "MRMeshC_2MRICP_8h.html":[13,0,0,2,5,7],
 "MRMeshC_2MRICP_8h.html#a1a3ebcef4e3087ca1a2eb61dc20d1122":[13,0,0,2,5,7,6],
 "MRMeshC_2MRICP_8h.html#a2589eee29e9726ae601f37690dad5840":[13,0,0,2,5,7,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba6ec84d8b4cacadd6f0792a256f2a5334":[13,0,0,2,5,28,1,1],
 "MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba7b16e049b70ba2182ffeb9409fed9b89":[13,0,0,2,5,28,1,4],
 "MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bbab2d61e92660aa7290002aabaa740b54a":[13,0,0,2,5,28,1,2],
-"MRMeshC_2MRSignDetectionMode_8h_source.html":[13,0,0,2,5,28]
+"MRMeshC_2MRSignDetectionMode_8h_source.html":[13,0,0,2,5,28],
+"MRMeshC_2MRString_8h.html":[13,0,0,2,5,29]
 };

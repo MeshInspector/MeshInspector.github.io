@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002":[12,0,1,48,0],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002a056fa3d840f48b7bfbbd68c19a4797b3":[10,0,12,62,0,1],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002a056fa3d840f48b7bfbbd68c19a4797b3":[12,0,1,48,0,1],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a":[10,0,12,62,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[12,0,1,82,1],
 "classMR_1_1ChangeLinesColorMapAction.html":[9,4,2],
 "classMR_1_1ChangeLinesColorMapAction.html#a55aeaa9aea474f11f11d8cd2d9410499":[9,4,2,0],
-"classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741":[9,4,2,4]
+"classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741":[9,4,2,4],
+"classMR_1_1ChangeLinesColorMapAction.html#a5c000b7f2ed38d70be031166c9529327":[9,4,2,3]
 };

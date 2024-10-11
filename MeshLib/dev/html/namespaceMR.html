@@ -868,7 +868,7 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MergeVolumePartSettings.html">MergeVolumePartSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters' structure for <a class="el" href="#ae89954146fbd39699570a0d5c8a579dd" title="Merge one mesh with another generated from a voxel volume part.">MR::mergeVolumePart</a>.  <a href="structMR_1_1MergeVolumePartSettings.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters' structure for <a class="el" href="#a9145e1b055b88e54edf784e6f3b050fc" title="Merge one mesh with another generated from a voxel volume part.">MR::mergeVolumePart</a>.  <a href="structMR_1_1MergeVolumePartSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html">Mesh</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1849,9 +1849,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a6d7483b6adbc485e9c9b52eb09cb7735" id="r_a6d7483b6adbc485e9c9b52eb09cb7735"><td class="memTemplParams" colspan="2">template&lt;class T , class E  = std::string&gt; </td></tr>
 <tr class="memitem:a6d7483b6adbc485e9c9b52eb09cb7735"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a> = tl::expected&lt;T, E&gt;</td></tr>
 <tr class="separator:a6d7483b6adbc485e9c9b52eb09cb7735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6352909bd9c9bb61e99aa3260f213e" id="r_aff6352909bd9c9bb61e99aa3260f213e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> = <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;</td></tr>
-<tr class="memdesc:aff6352909bd9c9bb61e99aa3260f213e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return type for a void function that can produce an error string  <br /></td></tr>
-<tr class="separator:aff6352909bd9c9bb61e99aa3260f213e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45cb1332fad43a5a921294d643411ba0" id="r_a45cb1332fad43a5a921294d643411ba0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45cb1332fad43a5a921294d643411ba0">FeaturesPropertyTypesVariant</a> = std::variant&lt;float, <a class="el" href="classVector3f.html">Vector3f</a>&gt;</td></tr>
 <tr class="separator:a45cb1332fad43a5a921294d643411ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6ac9cd0268793575ae31767169ad0e" id="r_aad6ac9cd0268793575ae31767169ad0e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad6ac9cd0268793575ae31767169ad0e">MultiObjsSamples</a> = std::vector&lt;<a class="el" href="structMR_1_1ObjVertId.html">ObjVertId</a>&gt;</td></tr>
@@ -2695,15 +2692,15 @@ Functions</h2></td></tr>
 <tr class="separator:a732467f671d6e09f6a1fc0f3747a8bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9533f8301be7833fd9eb7dea4a8dc4a9" id="r_a9533f8301be7833fd9eb7dea4a8dc4a9"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9533f8301be7833fd9eb7dea4a8dc4a9">deserializeObjectTreeFromGltf</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="separator:a9533f8301be7833fd9eb7dea4a8dc4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ad43ebb4fa110e5d758896f3d52c24e" id="r_a9ad43ebb4fa110e5d758896f3d52c24e"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad43ebb4fa110e5d758896f3d52c24e">serializeObjectTreeToGltf</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;root, const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:a9ad43ebb4fa110e5d758896f3d52c24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef06e3fecff51a8e9e63ec35086822ee" id="r_aef06e3fecff51a8e9e63ec35086822ee"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef06e3fecff51a8e9e63ec35086822ee">serializeObjectTreeToGltf</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;root, const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:aef06e3fecff51a8e9e63ec35086822ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a751784f805f40929323bdfaa12fe10ac" id="r_a751784f805f40929323bdfaa12fe10ac"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a751784f805f40929323bdfaa12fe10ac">loadIOExtras</a> ()</td></tr>
 <tr class="separator:a751784f805f40929323bdfaa12fe10ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c18a1975398e2345a14b9e68416b40e" id="r_a5c18a1975398e2345a14b9e68416b40e"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c18a1975398e2345a14b9e68416b40e">zlibCompressStream</a> (std::istream &amp;in, std::ostream &amp;out, int level=-1)</td></tr>
-<tr class="memdesc:a5c18a1975398e2345a14b9e68416b40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">compress the input data using the Deflate algorithm  <br /></td></tr>
-<tr class="separator:a5c18a1975398e2345a14b9e68416b40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7eb64793e4ce0f01fdeeed86398843b" id="r_aa7eb64793e4ce0f01fdeeed86398843b"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7eb64793e4ce0f01fdeeed86398843b">zlibDecompressStream</a> (std::istream &amp;in, std::ostream &amp;out)</td></tr>
-<tr class="separator:aa7eb64793e4ce0f01fdeeed86398843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade26a1cffee8e1e012f32d8d7bcc6637" id="r_ade26a1cffee8e1e012f32d8d7bcc6637"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade26a1cffee8e1e012f32d8d7bcc6637">zlibCompressStream</a> (std::istream &amp;in, std::ostream &amp;out, int level=-1)</td></tr>
+<tr class="memdesc:ade26a1cffee8e1e012f32d8d7bcc6637"><td class="mdescLeft">&#160;</td><td class="mdescRight">compress the input data using the Deflate algorithm  <br /></td></tr>
+<tr class="separator:ade26a1cffee8e1e012f32d8d7bcc6637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c93ff1b38318770dd195fbdbe3dc45c" id="r_a3c93ff1b38318770dd195fbdbe3dc45c"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c93ff1b38318770dd195fbdbe3dc45c">zlibDecompressStream</a> (std::istream &amp;in, std::ostream &amp;out)</td></tr>
+<tr class="separator:a3c93ff1b38318770dd195fbdbe3dc45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga47acaecbfd1288841aacaed1dc8aaebe" id="r_ga47acaecbfd1288841aacaed1dc8aaebe"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga47acaecbfd1288841aacaed1dc8aaebe"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ConversionBetween2and3dimGroup.html#ga47acaecbfd1288841aacaed1dc8aaebe">to3dim</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;v)</td></tr>
 <tr class="separator:ga47acaecbfd1288841aacaed1dc8aaebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2728,8 +2725,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0" id="r_ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0">makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves)</td></tr>
 <tr class="separator:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af407f311b61f155ed8c3a94fd8ea31b3" id="r_af407f311b61f155ed8c3a94fd8ea31b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af407f311b61f155ed8c3a94fd8ea31b3">addNoise</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> &amp;points, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;validVerts, <a class="el" href="structMR_1_1NoiseSettings.html">NoiseSettings</a> settings)</td></tr>
-<tr class="separator:af407f311b61f155ed8c3a94fd8ea31b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac87c8628100309ba212e32c882cb85e0" id="r_ac87c8628100309ba212e32c882cb85e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac87c8628100309ba212e32c882cb85e0">addNoise</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> &amp;points, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;validVerts, <a class="el" href="structMR_1_1NoiseSettings.html">NoiseSettings</a> settings)</td></tr>
+<tr class="separator:ac87c8628100309ba212e32c882cb85e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da" id="r_ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">lookAt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;center, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eye, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;up)</td></tr>
 <tr class="memdesc:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes rigid transformation xf  <br /></td></tr>
@@ -3210,9 +3207,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga94134d6a12381a36151563fe8472f818" id="r_ga94134d6a12381a36151563fe8472f818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSegmentationGroup.html#ga94134d6a12381a36151563fe8472f818">segmentByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &amp;source, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &amp;sink, const <a class="el" href="#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
 <tr class="memdesc:ga94134d6a12381a36151563fe8472f818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary.  <br /></td></tr>
 <tr class="separator:ga94134d6a12381a36151563fe8472f818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add2e95f21c4e812705659326b48763fe" id="r_add2e95f21c4e812705659326b48763fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add2e95f21c4e812705659326b48763fe">fillContours2D</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> &gt; &amp;holeRepresentativeEdges)</td></tr>
-<tr class="memdesc:add2e95f21c4e812705659326b48763fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill holes with border in same plane (i.e. after cut by plane)  <br /></td></tr>
-<tr class="separator:add2e95f21c4e812705659326b48763fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ee28c6f311e7e768c49bebcd796703" id="r_aa3ee28c6f311e7e768c49bebcd796703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3ee28c6f311e7e768c49bebcd796703">fillContours2D</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> &gt; &amp;holeRepresentativeEdges)</td></tr>
+<tr class="memdesc:aa3ee28c6f311e7e768c49bebcd796703"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill holes with border in same plane (i.e. after cut by plane)  <br /></td></tr>
+<tr class="separator:aa3ee28c6f311e7e768c49bebcd796703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af020d4cf8cd8147487627fe82c03a9a1" id="r_af020d4cf8cd8147487627fe82c03a9a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af020d4cf8cd8147487627fe82c03a9a1">getXfFromOxyPlane</a> (const <a class="el" href="#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> &amp;contours)</td></tr>
 <tr class="separator:af020d4cf8cd8147487627fe82c03a9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a1dbdb9aedd7fadc599adb576b16da" id="r_af4a1dbdb9aedd7fadc599adb576b16da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4a1dbdb9aedd7fadc599adb576b16da">getXfFromOxyPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;paths)</td></tr>
@@ -3393,25 +3390,25 @@ Functions</h2></td></tr>
 <tr class="separator:a4c58f7437a40fe2c4502a7f7ef5c7d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd9aedc47d92977b6eb431f1d6fcf4a0" id="r_acd9aedc47d92977b6eb431f1d6fcf4a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd9aedc47d92977b6eb431f1d6fcf4a0">readCharBuffer</a> (std::istream &amp;in)</td></tr>
 <tr class="separator:acd9aedc47d92977b6eb431f1d6fcf4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a986c310d70dddff9153e687a8b1951ac" id="r_a986c310d70dddff9153e687a8b1951ac"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a986c310d70dddff9153e687a8b1951ac"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a986c310d70dddff9153e687a8b1951ac">parseTextCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *n=nullptr, <a class="el" href="structMR_1_1Color.html">Color</a> *c=nullptr)</td></tr>
-<tr class="separator:a986c310d70dddff9153e687a8b1951ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8b96598e40171aeb32bfc2cb10da9c8" id="r_aa8b96598e40171aeb32bfc2cb10da9c8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa8b96598e40171aeb32bfc2cb10da9c8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa8b96598e40171aeb32bfc2cb10da9c8">parseObjCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *c=nullptr)</td></tr>
-<tr class="separator:aa8b96598e40171aeb32bfc2cb10da9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e220b7df80af915a31160f365cf2312" id="r_a2e220b7df80af915a31160f365cf2312"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2e220b7df80af915a31160f365cf2312"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2e220b7df80af915a31160f365cf2312">parsePtsCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Color.html">Color</a> &amp;c)</td></tr>
-<tr class="separator:a2e220b7df80af915a31160f365cf2312"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cf81d26521474215b19e6616e1af95f" id="r_a6cf81d26521474215b19e6616e1af95f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf81d26521474215b19e6616e1af95f">parseFirstNum</a> (const std::string_view &amp;str, int &amp;num)</td></tr>
-<tr class="separator:a6cf81d26521474215b19e6616e1af95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d9eaf817febf59dfc93d5c99192c5a" id="r_aa6d9eaf817febf59dfc93d5c99192c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d9eaf817febf59dfc93d5c99192c5a">parsePolygon</a> (const std::string_view &amp;str, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> *vertId, int *numPoints)</td></tr>
-<tr class="separator:aa6d9eaf817febf59dfc93d5c99192c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82d75d6348beb6b722fd5647fedf9581" id="r_a82d75d6348beb6b722fd5647fedf9581"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a82d75d6348beb6b722fd5647fedf9581"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a82d75d6348beb6b722fd5647fedf9581">parseAscCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *n=nullptr, <a class="el" href="structMR_1_1Color.html">Color</a> *c=nullptr)</td></tr>
-<tr class="separator:a82d75d6348beb6b722fd5647fedf9581"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a244bce71d70bc820f7e0b9093715953a" id="r_a244bce71d70bc820f7e0b9093715953a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a244bce71d70bc820f7e0b9093715953a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a244bce71d70bc820f7e0b9093715953a">parseSingleNumber</a> (const std::string_view &amp;str, T &amp;num)</td></tr>
-<tr class="separator:a244bce71d70bc820f7e0b9093715953a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70ae04aee26ad876f1080bdea061d86" id="r_ab70ae04aee26ad876f1080bdea061d86"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab70ae04aee26ad876f1080bdea061d86"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab70ae04aee26ad876f1080bdea061d86">parseTextCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *n=nullptr, <a class="el" href="structMR_1_1Color.html">Color</a> *c=nullptr)</td></tr>
+<tr class="separator:ab70ae04aee26ad876f1080bdea061d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c4deb2569e6bc78bcb6210851b70a9" id="r_ac7c4deb2569e6bc78bcb6210851b70a9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac7c4deb2569e6bc78bcb6210851b70a9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac7c4deb2569e6bc78bcb6210851b70a9">parseObjCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *c=nullptr)</td></tr>
+<tr class="separator:ac7c4deb2569e6bc78bcb6210851b70a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6305342b0ad612816558b312b777ea4" id="r_ae6305342b0ad612816558b312b777ea4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae6305342b0ad612816558b312b777ea4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae6305342b0ad612816558b312b777ea4">parsePtsCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Color.html">Color</a> &amp;c)</td></tr>
+<tr class="separator:ae6305342b0ad612816558b312b777ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31683380e84bd274a20968c64c5f40a" id="r_ac31683380e84bd274a20968c64c5f40a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac31683380e84bd274a20968c64c5f40a">parseFirstNum</a> (const std::string_view &amp;str, int &amp;num)</td></tr>
+<tr class="separator:ac31683380e84bd274a20968c64c5f40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1fa5e1ea4cfb0aa1699c742597effe7" id="r_ac1fa5e1ea4cfb0aa1699c742597effe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1fa5e1ea4cfb0aa1699c742597effe7">parsePolygon</a> (const std::string_view &amp;str, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> *vertId, int *numPoints)</td></tr>
+<tr class="separator:ac1fa5e1ea4cfb0aa1699c742597effe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb031d90c2eaeddbeac77675cec10847" id="r_afb031d90c2eaeddbeac77675cec10847"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afb031d90c2eaeddbeac77675cec10847"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afb031d90c2eaeddbeac77675cec10847">parseAscCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *n=nullptr, <a class="el" href="structMR_1_1Color.html">Color</a> *c=nullptr)</td></tr>
+<tr class="separator:afb031d90c2eaeddbeac77675cec10847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2360c210c6fa64143e978b1f2a1b6bff" id="r_a2360c210c6fa64143e978b1f2a1b6bff"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2360c210c6fa64143e978b1f2a1b6bff"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2360c210c6fa64143e978b1f2a1b6bff">parseSingleNumber</a> (const std::string_view &amp;str, T &amp;num)</td></tr>
+<tr class="separator:a2360c210c6fa64143e978b1f2a1b6bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9b93b3c4303349145b5e0cfc37ec7ff" id="r_ae9b93b3c4303349145b5e0cfc37ec7ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::unique_ptr&lt; <a class="el" href="classMR_1_1IRenderObject.html">IRenderObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9b93b3c4303349145b5e0cfc37ec7ff">createRenderObject</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;visObj, const std::type_index &amp;type)</td></tr>
 <tr class="separator:ae9b93b3c4303349145b5e0cfc37ec7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af018240f68014eb87767e7f67a9064f7" id="r_af018240f68014eb87767e7f67a9064f7"><td class="memTemplParams" colspan="2">template&lt;typename ObjectType &gt; </td></tr>
@@ -4006,8 +4003,8 @@ Functions</h2></td></tr>
 <tr class="separator:a786dcca1baeb53c3472aeec3c347aaf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40847df1ce412c4c7085dd392037e050" id="r_a40847df1ce412c4c7085dd392037e050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40847df1ce412c4c7085dd392037e050">updateIndicatorFast</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aaa26318e65cc98892f9b832efbbc3965">FaceNormals</a> &amp;normals, float beta, float gamma)</td></tr>
 <tr class="separator:a40847df1ce412c4c7085dd392037e050"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c53182e73b6f36d30de68c43223dc44" id="r_a7c53182e73b6f36d30de68c43223dc44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c53182e73b6f36d30de68c43223dc44">meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
-<tr class="separator:a7c53182e73b6f36d30de68c43223dc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bddd9d63512f9dfffb0fa869f249a4d" id="r_a6bddd9d63512f9dfffb0fa869f249a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bddd9d63512f9dfffb0fa869f249a4d">meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:a6bddd9d63512f9dfffb0fa869f249a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae471951bdf73171ae96368056485fe84" id="r_ae471951bdf73171ae96368056485fe84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae471951bdf73171ae96368056485fe84">toString</a> (DimensionsVisualizePropertyType value)</td></tr>
 <tr class="separator:ae471951bdf73171ae96368056485fe84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8bfcdd27aa7037f5d7fa7b17f725c21" id="r_ad8bfcdd27aa7037f5d7fa7b17f725c21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8bfcdd27aa7037f5d7fa7b17f725c21">merge</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &gt; &amp;objsLines)</td></tr>
@@ -4025,11 +4022,11 @@ Functions</h2></td></tr>
 <tr class="separator:a86837deb8b4177b9b719b1faf4d2d0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e83df3805927f1f6c006f596809d97a" id="r_a8e83df3805927f1f6c006f596809d97a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e83df3805927f1f6c006f596809d97a">objectHasSelectableChildren</a> (const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;object)</td></tr>
 <tr class="separator:a8e83df3805927f1f6c006f596809d97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a447ae572d44f1006666d0d760d72476a" id="r_a447ae572d44f1006666d0d760d72476a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a447ae572d44f1006666d0d760d72476a">serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress, <a class="el" href="#a3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> preCompress)</td></tr>
-<tr class="memdesc:a447ae572d44f1006666d0d760d72476a"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves object subtree in given scene file (zip/mru)  <br /></td></tr>
-<tr class="separator:a447ae572d44f1006666d0d760d72476a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72bd922670bf12b80b32826bdb72b687" id="r_a72bd922670bf12b80b32826bdb72b687"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72bd922670bf12b80b32826bdb72b687">serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress={})</td></tr>
-<tr class="separator:a72bd922670bf12b80b32826bdb72b687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5186cb23f32bc2d4c503ccec9da5319" id="r_aa5186cb23f32bc2d4c503ccec9da5319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress, <a class="el" href="#a3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> preCompress)</td></tr>
+<tr class="memdesc:aa5186cb23f32bc2d4c503ccec9da5319"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves object subtree in given scene file (zip/mru)  <br /></td></tr>
+<tr class="separator:aa5186cb23f32bc2d4c503ccec9da5319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e8b4194bf387abeb01e1aab7ca1cdb" id="r_ae1e8b4194bf387abeb01e1aab7ca1cdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1e8b4194bf387abeb01e1aab7ca1cdb">serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress={})</td></tr>
+<tr class="separator:ae1e8b4194bf387abeb01e1aab7ca1cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acedbfb27bdded9e3c9322ce1e29e0781" id="r_acedbfb27bdded9e3c9322ce1e29e0781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a> (const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, float offset, const <a class="el" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:acedbfb27bdded9e3c9322ce1e29e0781"><td class="mdescLeft">&#160;</td><td class="mdescRight">offsets 2d contours in plane  <br /></td></tr>
 <tr class="separator:acedbfb27bdded9e3c9322ce1e29e0781"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4771,10 +4768,10 @@ Functions</h2></td></tr>
 <tr class="separator:a30561e9335c9081843e4c982a0553366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c49de97d655fd498b5741311c3c1bcf" id="r_a7c49de97d655fd498b5741311c3c1bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TiffParameters.html">TiffParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c49de97d655fd498b5741311c3c1bcf">readTiffParameters</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="separator:a7c49de97d655fd498b5741311c3c1bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b3e22054f156440562ae98740d5656" id="r_a60b3e22054f156440562ae98740d5656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b3e22054f156440562ae98740d5656">readRawTiff</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1RawTiffOutput.html">RawTiffOutput</a> &amp;output)</td></tr>
-<tr class="separator:a60b3e22054f156440562ae98740d5656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c8cd9060fcf837bea6a2cda3d33a957" id="r_a5c8cd9060fcf837bea6a2cda3d33a957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c8cd9060fcf837bea6a2cda3d33a957">writeRawTiff</a> (const uint8_t *bytes, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1BaseTiffParameters.html">BaseTiffParameters</a> &amp;params)</td></tr>
-<tr class="separator:a5c8cd9060fcf837bea6a2cda3d33a957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16911b1d8c2b28200b6a2cb7d97f4bf8" id="r_a16911b1d8c2b28200b6a2cb7d97f4bf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16911b1d8c2b28200b6a2cb7d97f4bf8">readRawTiff</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1RawTiffOutput.html">RawTiffOutput</a> &amp;output)</td></tr>
+<tr class="separator:a16911b1d8c2b28200b6a2cb7d97f4bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdcd54b6004b70d5f63cf0695fc0a285" id="r_abdcd54b6004b70d5f63cf0695fc0a285"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdcd54b6004b70d5f63cf0695fc0a285">writeRawTiff</a> (const uint8_t *bytes, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1BaseTiffParameters.html">BaseTiffParameters</a> &amp;params)</td></tr>
+<tr class="separator:abdcd54b6004b70d5f63cf0695fc0a285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga52ef6e1208fe1f50e79f683d8f04fd15" id="r_ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15">printTimingTreeAtEnd</a> (bool on, double minTimeSec=0.1)</td></tr>
 <tr class="separator:ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92715abafbf0ac9f1aef87f2cff3088a" id="r_ga92715abafbf0ac9f1aef87f2cff3088a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a">printCurrentTimerBranch</a> ()</td></tr>
@@ -5022,15 +5019,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaae181e34db4d5ebb6f2cc68194b69c18" id="r_gaae181e34db4d5ebb6f2cc68194b69c18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeIndexerGroup.html#gaae181e34db4d5ebb6f2cc68194b69c18">shrinkVoxelsMask</a> (VoxelBitSet &amp;mask, const <a class="el" href="classMR_1_1VolumeIndexer.html">VolumeIndexer</a> &amp;indexer, int shrinkage=1)</td></tr>
 <tr class="memdesc:gaae181e34db4d5ebb6f2cc68194b69c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks VoxelBitSet with given number of steps  <br /></td></tr>
 <tr class="separator:gaae181e34db4d5ebb6f2cc68194b69c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga93370e8f0bb7db437558a96f16c32fbd" id="r_ga93370e8f0bb7db437558a96f16c32fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd">decompressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</td></tr>
-<tr class="memdesc:ga93370e8f0bb7db437558a96f16c32fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given zip-file into given folder  <br /></td></tr>
-<tr class="separator:ga93370e8f0bb7db437558a96f16c32fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d8ef8273465ccaed58c0b0bcac27de7" id="r_ga6d8ef8273465ccaed58c0b0bcac27de7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga6d8ef8273465ccaed58c0b0bcac27de7">decompressZip</a> (std::istream &amp;zipStream, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</td></tr>
-<tr class="memdesc:ga6d8ef8273465ccaed58c0b0bcac27de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) into given folder  <br /></td></tr>
-<tr class="separator:ga6d8ef8273465ccaed58c0b0bcac27de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga02e4f1770ef424d638e95a3e26512c19" id="r_ga02e4f1770ef424d638e95a3e26512c19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga02e4f1770ef424d638e95a3e26512c19">compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles={}, const char *password=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:ga02e4f1770ef424d638e95a3e26512c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
-<tr class="separator:ga02e4f1770ef424d638e95a3e26512c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60ea0861186c3cd722eaed269571bc6d" id="r_ga60ea0861186c3cd722eaed269571bc6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga60ea0861186c3cd722eaed269571bc6d">decompressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</td></tr>
+<tr class="memdesc:ga60ea0861186c3cd722eaed269571bc6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given zip-file into given folder  <br /></td></tr>
+<tr class="separator:ga60ea0861186c3cd722eaed269571bc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e076375162aa8d5f3665a95f10e3710" id="r_ga2e076375162aa8d5f3665a95f10e3710"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga2e076375162aa8d5f3665a95f10e3710">decompressZip</a> (std::istream &amp;zipStream, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</td></tr>
+<tr class="memdesc:ga2e076375162aa8d5f3665a95f10e3710"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) into given folder  <br /></td></tr>
+<tr class="separator:ga2e076375162aa8d5f3665a95f10e3710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5b20b87f58909c05202f8eebdbbcdd1e" id="r_ga5b20b87f58909c05202f8eebdbbcdd1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e">compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles={}, const char *password=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga5b20b87f58909c05202f8eebdbbcdd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
+<tr class="separator:ga5b20b87f58909c05202f8eebdbbcdd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36770d341a5bb9b31cbc30d136c0e2e9" id="r_a36770d341a5bb9b31cbc30d136c0e2e9"><td class="memItemLeft" align="right" valign="top">MRMESHPY_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36770d341a5bb9b31cbc30d136c0e2e9">loadMRMeshPyModule</a> ()</td></tr>
 <tr class="separator:a36770d341a5bb9b31cbc30d136c0e2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5" id="r_a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
@@ -5262,9 +5259,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a03d769eae4675e20e6b50c3fddaf8eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e7c908172571071d6796d054d25a4f4" id="r_a3e7c908172571071d6796d054d25a4f4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1Viewer.html">Viewer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e7c908172571071d6796d054d25a4f4">getViewerInstance</a> ()</td></tr>
 <tr class="separator:a3e7c908172571071d6796d054d25a4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49676245858cf7114c59cd1b6b772755" id="r_a49676245858cf7114c59cd1b6b772755"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49676245858cf7114c59cd1b6b772755">saveObjectToFile</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj, const std::filesystem::path &amp;filename, const <a class="el" href="structMR_1_1SaveObjectSettings.html">SaveObjectSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:a49676245858cf7114c59cd1b6b772755"><td class="mdescLeft">&#160;</td><td class="mdescRight">save visual object (mesh, lines, points or voxels) to file  <br /></td></tr>
-<tr class="separator:a49676245858cf7114c59cd1b6b772755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8660a1f4655b61b91a481a072409fa5" id="r_aa8660a1f4655b61b91a481a072409fa5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8660a1f4655b61b91a481a072409fa5">saveObjectToFile</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj, const std::filesystem::path &amp;filename, const <a class="el" href="structMR_1_1SaveObjectSettings.html">SaveObjectSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:aa8660a1f4655b61b91a481a072409fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">save visual object (mesh, lines, points or voxels) to file  <br /></td></tr>
+<tr class="separator:aa8660a1f4655b61b91a481a072409fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ca61d3fae40bcd7a9e8ce848bf0362d" id="r_a0ca61d3fae40bcd7a9e8ce848bf0362d"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a> (const <a class="el" href="#ae679240dc1c3cb46bbffe4002f1f48e5">ViewportRectangle</a> &amp;rect)</td></tr>
 <tr class="separator:a0ca61d3fae40bcd7a9e8ce848bf0362d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a306ff1f62992b3eb33c446913b64188a" id="r_a306ff1f62992b3eb33c446913b64188a"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a306ff1f62992b3eb33c446913b64188a">size</a> (const <a class="el" href="#ae679240dc1c3cb46bbffe4002f1f48e5">ViewportRectangle</a> &amp;rect)</td></tr>
@@ -5410,10 +5407,10 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a05e67fe513dddb7486b86a59420ff5da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9808eb4889c505cb2dc513fa536a42" id="r_a5b9808eb4889c505cb2dc513fa536a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectGcode.html">ObjectGcode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b9808eb4889c505cb2dc513fa536a42">exportToolPathToGCode</a> (const std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands)</td></tr>
 <tr class="separator:a5b9808eb4889c505cb2dc513fa536a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe6adc0159ef8f3989c320a6d8f5f35c" id="r_abe6adc0159ef8f3989c320a6d8f5f35c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe6adc0159ef8f3989c320a6d8f5f35c">interpolateLines</a> (std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands, const <a class="el" href="structMR_1_1LineInterpolationParams.html">LineInterpolationParams</a> &amp;params, <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> axis)</td></tr>
-<tr class="separator:abe6adc0159ef8f3989c320a6d8f5f35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89d927a6679c84cbfa1e0faa685db257" id="r_a89d927a6679c84cbfa1e0faa685db257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89d927a6679c84cbfa1e0faa685db257">interpolateArcs</a> (std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands, const <a class="el" href="structMR_1_1ArcInterpolationParams.html">ArcInterpolationParams</a> &amp;params, <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> axis)</td></tr>
-<tr class="separator:a89d927a6679c84cbfa1e0faa685db257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9593b2fda01d494d4edc7665267d2b53" id="r_a9593b2fda01d494d4edc7665267d2b53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9593b2fda01d494d4edc7665267d2b53">interpolateLines</a> (std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands, const <a class="el" href="structMR_1_1LineInterpolationParams.html">LineInterpolationParams</a> &amp;params, <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> axis)</td></tr>
+<tr class="separator:a9593b2fda01d494d4edc7665267d2b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa967680d27bd6d7fc8a2c64f856ec1aa" id="r_aa967680d27bd6d7fc8a2c64f856ec1aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa967680d27bd6d7fc8a2c64f856ec1aa">interpolateArcs</a> (std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands, const <a class="el" href="structMR_1_1ArcInterpolationParams.html">ArcInterpolationParams</a> &amp;params, <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> axis)</td></tr>
+<tr class="separator:aa967680d27bd6d7fc8a2c64f856ec1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf321df1ea6a0a718144b06b477bb154" id="r_abf321df1ea6a0a718144b06b477bb154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf321df1ea6a0a718144b06b477bb154">smoothSelection</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &amp;region, float expandOffset, float shrinkOffset)</td></tr>
 <tr class="separator:abf321df1ea6a0a718144b06b477bb154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc86f37e5a8bb2c7c0b30dfc636d8e90" id="r_adc86f37e5a8bb2c7c0b30dfc636d8e90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc86f37e5a8bb2c7c0b30dfc636d8e90">meshToLevelSet</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;xf, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, float surfaceOffset=3, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
@@ -5441,9 +5438,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:ad8e49582fe849014967a8baf003fd27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad03b5a42934e43debc76695507a680" id="r_a1ad03b5a42934e43debc76695507a680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad03b5a42934e43debc76695507a680">gridToMesh</a> (<a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;&amp;grid, const <a class="el" href="structMR_1_1GridToMeshSettings.html">GridToMeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a1ad03b5a42934e43debc76695507a680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e9c3848fbd07711227f4576b05e6f49" id="r_a2e9c3848fbd07711227f4576b05e6f49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9c3848fbd07711227f4576b05e6f49">makeSignedByWindingNumber</a> (<a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1MakeSignedByWindingNumberSettings.html">MakeSignedByWindingNumberSettings</a> &amp;settings)</td></tr>
-<tr class="memdesc:a2e9c3848fbd07711227f4576b05e6f49"><td class="mdescLeft">&#160;</td><td class="mdescRight">set signs for unsigned distance field grid using generalized winding number computed at voxel grid point from refMesh  <br /></td></tr>
-<tr class="separator:a2e9c3848fbd07711227f4576b05e6f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb145c323941c5fd06c513bc640d05b1" id="r_aeb145c323941c5fd06c513bc640d05b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb145c323941c5fd06c513bc640d05b1">makeSignedByWindingNumber</a> (<a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1MakeSignedByWindingNumberSettings.html">MakeSignedByWindingNumberSettings</a> &amp;settings)</td></tr>
+<tr class="memdesc:aeb145c323941c5fd06c513bc640d05b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set signs for unsigned distance field grid using generalized winding number computed at voxel grid point from refMesh  <br /></td></tr>
+<tr class="separator:aeb145c323941c5fd06c513bc640d05b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928996b8ccf0ededf4666de67cedde79" id="r_a928996b8ccf0ededf4666de67cedde79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a928996b8ccf0ededf4666de67cedde79">doubleOffsetVdb</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1DoubleOffsetSettings.html">DoubleOffsetSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a928996b8ccf0ededf4666de67cedde79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga12f92e71b639968eb7a4ffb4cbe51291" id="r_ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga12f92e71b639968eb7a4ffb4cbe51291">ovdb</a> (<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
@@ -5483,10 +5480,10 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:acf24dcb8aba2b34c7bdfc9460edff091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20f0b2205cdb76cd4affa5aa0a580155" id="r_a20f0b2205cdb76cd4affa5aa0a580155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20f0b2205cdb76cd4affa5aa0a580155">voxelsApplyTransform</a> (<a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;obj, const <a class="el" href="#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;xf, bool fixBox)</td></tr>
 <tr class="separator:a20f0b2205cdb76cd4affa5aa0a580155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae89954146fbd39699570a0d5c8a579dd" id="r_ae89954146fbd39699570a0d5c8a579dd"><td class="memTemplParams" colspan="2">template&lt;typename Volume &gt; </td></tr>
-<tr class="memitem:ae89954146fbd39699570a0d5c8a579dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae89954146fbd39699570a0d5c8a579dd">mergeVolumePart</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; <a class="el" href="#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutContours, Volume &amp;&amp;volume, float leftCutPosition, float rightCutPosition, const <a class="el" href="structMR_1_1MergeVolumePartSettings.html">MergeVolumePartSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:ae89954146fbd39699570a0d5c8a579dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge one mesh with another generated from a voxel volume part.  <br /></td></tr>
-<tr class="separator:ae89954146fbd39699570a0d5c8a579dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9145e1b055b88e54edf784e6f3b050fc" id="r_a9145e1b055b88e54edf784e6f3b050fc"><td class="memTemplParams" colspan="2">template&lt;typename Volume &gt; </td></tr>
+<tr class="memitem:a9145e1b055b88e54edf784e6f3b050fc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9145e1b055b88e54edf784e6f3b050fc">mergeVolumePart</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; <a class="el" href="#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutContours, Volume &amp;&amp;volume, float leftCutPosition, float rightCutPosition, const <a class="el" href="structMR_1_1MergeVolumePartSettings.html">MergeVolumePartSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:a9145e1b055b88e54edf784e6f3b050fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge one mesh with another generated from a voxel volume part.  <br /></td></tr>
+<tr class="separator:a9145e1b055b88e54edf784e6f3b050fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7cf10a1862176d00de13d2fa27371b9" id="r_ae7cf10a1862176d00de13d2fa27371b9"><td class="memTemplParams" colspan="2">template&lt;typename Volume &gt; </td></tr>
 <tr class="memitem:ae7cf10a1862176d00de13d2fa27371b9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae7cf10a1862176d00de13d2fa27371b9">volumeToMeshByParts</a> (const <a class="el" href="#ae2ab4a032a665ccb4ca24d60577679ef">VolumePartBuilder</a>&lt; Volume &gt; &amp;builder, const <a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;dimensions, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1VolumeToMeshByPartsSettings.html">VolumeToMeshByPartsSettings</a> &amp;settings={}, const <a class="el" href="structMR_1_1MergeVolumePartSettings.html">MergeVolumePartSettings</a> &amp;mergeSettings={})</td></tr>
 <tr class="memdesc:ae7cf10a1862176d00de13d2fa27371b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a voxel volume into a mesh without full memory loading  <br /></td></tr>
@@ -7887,22 +7884,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aff6352909bd9c9bb61e99aa3260f213e" name="aff6352909bd9c9bb61e99aa3260f213e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff6352909bd9c9bb61e99aa3260f213e">&#9670;&#160;</a></span>VoidOrErrStr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">MR::VoidOrErrStr</a> = <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>return type for a void function that can produce an error string </p>
-
-</div>
-</div>
 <a id="ae2ab4a032a665ccb4ca24d60577679ef" name="ae2ab4a032a665ccb4ca24d60577679ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2ab4a032a665ccb4ca24d60577679ef">&#9670;&#160;</a></span>VolumePartBuilder</h2>
 
@@ -9544,14 +9525,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="af407f311b61f155ed8c3a94fd8ea31b3" name="af407f311b61f155ed8c3a94fd8ea31b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af407f311b61f155ed8c3a94fd8ea31b3">&#9670;&#160;</a></span>addNoise()</h2>
+<a id="ac87c8628100309ba212e32c882cb85e0" name="ac87c8628100309ba212e32c882cb85e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac87c8628100309ba212e32c882cb85e0">&#9670;&#160;</a></span>addNoise()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::addNoise </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::addNoise </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -12195,7 +12176,7 @@ template&lt;typename R , typename E , typename... Args&gt; </div>
 
 <p>loads objects tree from given scene file (zip/mru) </p>
 <p>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</p>
-<p>if postDecompress is set, it is called after decompression loading is controlled with <a class="el" href="classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e" title="Reads model from file.">Object::deserializeModel_</a> and <a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">Object::deserializeFields_</a> </p>
+<p>if postDecompress is set, it is called after decompression loading is controlled with <a class="el" href="classMR_1_1Object.html#a694bf2e911f3079c872f0dc9c13370c9" title="Reads model from file.">Object::deserializeModel_</a> and <a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">Object::deserializeFields_</a> </p>
 
 </div>
 </div>
@@ -12246,7 +12227,7 @@ template&lt;typename R , typename E , typename... Args&gt; </div>
 
 <p>loads objects tree from given scene folder </p>
 <p>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</p>
-<p>loading is controlled with <a class="el" href="classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e" title="Reads model from file.">Object::deserializeModel_</a> and <a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">Object::deserializeFields_</a> </p>
+<p>loading is controlled with <a class="el" href="classMR_1_1Object.html#a694bf2e911f3079c872f0dc9c13370c9" title="Reads model from file.">Object::deserializeModel_</a> and <a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">Object::deserializeFields_</a> </p>
 
 </div>
 </div>
@@ -13307,14 +13288,14 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
 
 </div>
 </div>
-<a id="add2e95f21c4e812705659326b48763fe" name="add2e95f21c4e812705659326b48763fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add2e95f21c4e812705659326b48763fe">&#9670;&#160;</a></span>fillContours2D()</h2>
+<a id="aa3ee28c6f311e7e768c49bebcd796703" name="aa3ee28c6f311e7e768c49bebcd796703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3ee28c6f311e7e768c49bebcd796703">&#9670;&#160;</a></span>fillContours2D()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::fillContours2D </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::fillContours2D </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -18497,14 +18478,14 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 
 </div>
 </div>
-<a id="a89d927a6679c84cbfa1e0faa685db257" name="a89d927a6679c84cbfa1e0faa685db257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89d927a6679c84cbfa1e0faa685db257">&#9670;&#160;</a></span>interpolateArcs()</h2>
+<a id="aa967680d27bd6d7fc8a2c64f856ec1aa" name="aa967680d27bd6d7fc8a2c64f856ec1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa967680d27bd6d7fc8a2c64f856ec1aa">&#9670;&#160;</a></span>interpolateArcs()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::interpolateArcs </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::interpolateArcs </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>commands</em></span>, </td>
         </tr>
@@ -18523,14 +18504,14 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 
 </div>
 </div>
-<a id="abe6adc0159ef8f3989c320a6d8f5f35c" name="abe6adc0159ef8f3989c320a6d8f5f35c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe6adc0159ef8f3989c320a6d8f5f35c">&#9670;&#160;</a></span>interpolateLines()</h2>
+<a id="a9593b2fda01d494d4edc7665267d2b53" name="a9593b2fda01d494d4edc7665267d2b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9593b2fda01d494d4edc7665267d2b53">&#9670;&#160;</a></span>interpolateLines()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::interpolateLines </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::interpolateLines </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>commands</em></span>, </td>
         </tr>
@@ -19876,14 +19857,14 @@ template&lt;typename RenderObjType &gt; </div>
 
 </div>
 </div>
-<a id="a2e9c3848fbd07711227f4576b05e6f49" name="a2e9c3848fbd07711227f4576b05e6f49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e9c3848fbd07711227f4576b05e6f49">&#9670;&#160;</a></span>makeSignedByWindingNumber()</h2>
+<a id="aeb145c323941c5fd06c513bc640d05b1" name="aeb145c323941c5fd06c513bc640d05b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb145c323941c5fd06c513bc640d05b1">&#9670;&#160;</a></span>makeSignedByWindingNumber()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::makeSignedByWindingNumber </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::makeSignedByWindingNumber </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
@@ -20909,8 +20890,8 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 
 </div>
 </div>
-<a id="ae89954146fbd39699570a0d5c8a579dd" name="ae89954146fbd39699570a0d5c8a579dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae89954146fbd39699570a0d5c8a579dd">&#9670;&#160;</a></span>mergeVolumePart()</h2>
+<a id="a9145e1b055b88e54edf784e6f3b050fc" name="a9145e1b055b88e54edf784e6f3b050fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9145e1b055b88e54edf784e6f3b050fc">&#9670;&#160;</a></span>mergeVolumePart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20918,7 +20899,7 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 template&lt;typename Volume &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::mergeVolumePart </td>
+          <td class="memname"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::mergeVolumePart </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -20974,14 +20955,14 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="a7c53182e73b6f36d30de68c43223dc44" name="a7c53182e73b6f36d30de68c43223dc44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c53182e73b6f36d30de68c43223dc44">&#9670;&#160;</a></span>meshDenoiseViaNormals()</h2>
+<a id="a6bddd9d63512f9dfffb0fa869f249a4d" name="a6bddd9d63512f9dfffb0fa869f249a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bddd9d63512f9dfffb0fa869f249a4d">&#9670;&#160;</a></span>meshDenoiseViaNormals()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::meshDenoiseViaNormals </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::meshDenoiseViaNormals </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -24264,8 +24245,8 @@ template&lt;class... Ts&gt; </div>
 
 </div>
 </div>
-<a id="a82d75d6348beb6b722fd5647fedf9581" name="a82d75d6348beb6b722fd5647fedf9581"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82d75d6348beb6b722fd5647fedf9581">&#9670;&#160;</a></span>parseAscCoordinate()</h2>
+<a id="afb031d90c2eaeddbeac77675cec10847" name="afb031d90c2eaeddbeac77675cec10847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb031d90c2eaeddbeac77675cec10847">&#9670;&#160;</a></span>parseAscCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24273,7 +24254,7 @@ template&lt;class... Ts&gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::parseAscCoordinate </td>
+          <td class="memname"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::parseAscCoordinate </td>
           <td>(</td>
           <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -24297,14 +24278,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a6cf81d26521474215b19e6616e1af95f" name="a6cf81d26521474215b19e6616e1af95f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cf81d26521474215b19e6616e1af95f">&#9670;&#160;</a></span>parseFirstNum()</h2>
+<a id="ac31683380e84bd274a20968c64c5f40a" name="ac31683380e84bd274a20968c64c5f40a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac31683380e84bd274a20968c64c5f40a">&#9670;&#160;</a></span>parseFirstNum()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::parseFirstNum </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::parseFirstNum </td>
           <td>(</td>
           <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -24318,8 +24299,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa8b96598e40171aeb32bfc2cb10da9c8" name="aa8b96598e40171aeb32bfc2cb10da9c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8b96598e40171aeb32bfc2cb10da9c8">&#9670;&#160;</a></span>parseObjCoordinate()</h2>
+<a id="ac7c4deb2569e6bc78bcb6210851b70a9" name="ac7c4deb2569e6bc78bcb6210851b70a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c4deb2569e6bc78bcb6210851b70a9">&#9670;&#160;</a></span>parseObjCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24327,7 +24308,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::parseObjCoordinate </td>
+          <td class="memname"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::parseObjCoordinate </td>
           <td>(</td>
           <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -24346,14 +24327,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa6d9eaf817febf59dfc93d5c99192c5a" name="aa6d9eaf817febf59dfc93d5c99192c5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6d9eaf817febf59dfc93d5c99192c5a">&#9670;&#160;</a></span>parsePolygon()</h2>
+<a id="ac1fa5e1ea4cfb0aa1699c742597effe7" name="ac1fa5e1ea4cfb0aa1699c742597effe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1fa5e1ea4cfb0aa1699c742597effe7">&#9670;&#160;</a></span>parsePolygon()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::parsePolygon </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::parsePolygon </td>
           <td>(</td>
           <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -24372,8 +24353,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a2e220b7df80af915a31160f365cf2312" name="a2e220b7df80af915a31160f365cf2312"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e220b7df80af915a31160f365cf2312">&#9670;&#160;</a></span>parsePtsCoordinate()</h2>
+<a id="ae6305342b0ad612816558b312b777ea4" name="ae6305342b0ad612816558b312b777ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6305342b0ad612816558b312b777ea4">&#9670;&#160;</a></span>parsePtsCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24381,7 +24362,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::parsePtsCoordinate </td>
+          <td class="memname"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::parsePtsCoordinate </td>
           <td>(</td>
           <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -24417,8 +24398,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a244bce71d70bc820f7e0b9093715953a" name="a244bce71d70bc820f7e0b9093715953a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a244bce71d70bc820f7e0b9093715953a">&#9670;&#160;</a></span>parseSingleNumber()</h2>
+<a id="a2360c210c6fa64143e978b1f2a1b6bff" name="a2360c210c6fa64143e978b1f2a1b6bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2360c210c6fa64143e978b1f2a1b6bff">&#9670;&#160;</a></span>parseSingleNumber()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24426,7 +24407,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::parseSingleNumber </td>
+          <td class="memname"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::parseSingleNumber </td>
           <td>(</td>
           <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -24440,8 +24421,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a986c310d70dddff9153e687a8b1951ac" name="a986c310d70dddff9153e687a8b1951ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a986c310d70dddff9153e687a8b1951ac">&#9670;&#160;</a></span>parseTextCoordinate()</h2>
+<a id="ab70ae04aee26ad876f1080bdea061d86" name="ab70ae04aee26ad876f1080bdea061d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70ae04aee26ad876f1080bdea061d86">&#9670;&#160;</a></span>parseTextCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24449,7 +24430,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::parseTextCoordinate </td>
+          <td class="memname"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::parseTextCoordinate </td>
           <td>(</td>
           <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -25578,14 +25559,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a60b3e22054f156440562ae98740d5656" name="a60b3e22054f156440562ae98740d5656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60b3e22054f156440562ae98740d5656">&#9670;&#160;</a></span>readRawTiff()</h2>
+<a id="a16911b1d8c2b28200b6a2cb7d97f4bf8" name="a16911b1d8c2b28200b6a2cb7d97f4bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16911b1d8c2b28200b6a2cb7d97f4bf8">&#9670;&#160;</a></span>readRawTiff()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::readRawTiff </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::readRawTiff </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -26369,14 +26350,14 @@ template&lt;typename Accessor &gt; </div>
 
 </div>
 </div>
-<a id="a49676245858cf7114c59cd1b6b772755" name="a49676245858cf7114c59cd1b6b772755"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49676245858cf7114c59cd1b6b772755">&#9670;&#160;</a></span>saveObjectToFile()</h2>
+<a id="aa8660a1f4655b61b91a481a072409fa5" name="aa8660a1f4655b61b91a481a072409fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8660a1f4655b61b91a481a072409fa5">&#9670;&#160;</a></span>saveObjectToFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::saveObjectToFile </td>
+          <td class="memname">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::saveObjectToFile </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
@@ -26571,14 +26552,14 @@ template&lt;typename ObjectT , bool visualRepresentationCheck, bool modelCheck&g
 
 </div>
 </div>
-<a id="a447ae572d44f1006666d0d760d72476a" name="a447ae572d44f1006666d0d760d72476a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a447ae572d44f1006666d0d760d72476a">&#9670;&#160;</a></span>serializeObjectTree() <span class="overload">[1/2]</span></h2>
+<a id="aa5186cb23f32bc2d4c503ccec9da5319" name="aa5186cb23f32bc2d4c503ccec9da5319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5186cb23f32bc2d4c503ccec9da5319">&#9670;&#160;</a></span>serializeObjectTree() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::serializeObjectTree </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::serializeObjectTree </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
         </tr>
@@ -26602,18 +26583,18 @@ template&lt;typename ObjectT , bool visualRepresentationCheck, bool modelCheck&g
 
 <p>saves object subtree in given scene file (zip/mru) </p>
 <p>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</p>
-<p>if preCompress is set, it is called before compression saving is controlled with <a class="el" href="classMR_1_1Object.html#a2c16491fb528d34d20539c75d611557f">Object::serializeModel_</a> and <a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">Object::serializeFields_</a> </p>
+<p>if preCompress is set, it is called before compression saving is controlled with <a class="el" href="classMR_1_1Object.html#a7bf17e9cdecb511570759169e86bf0e2">Object::serializeModel_</a> and <a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">Object::serializeFields_</a> </p>
 
 </div>
 </div>
-<a id="a72bd922670bf12b80b32826bdb72b687" name="a72bd922670bf12b80b32826bdb72b687"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72bd922670bf12b80b32826bdb72b687">&#9670;&#160;</a></span>serializeObjectTree() <span class="overload">[2/2]</span></h2>
+<a id="ae1e8b4194bf387abeb01e1aab7ca1cdb" name="ae1e8b4194bf387abeb01e1aab7ca1cdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1e8b4194bf387abeb01e1aab7ca1cdb">&#9670;&#160;</a></span>serializeObjectTree() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::serializeObjectTree </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::serializeObjectTree </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
         </tr>
@@ -26632,14 +26613,14 @@ template&lt;typename ObjectT , bool visualRepresentationCheck, bool modelCheck&g
 
 </div>
 </div>
-<a id="a9ad43ebb4fa110e5d758896f3d52c24e" name="a9ad43ebb4fa110e5d758896f3d52c24e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ad43ebb4fa110e5d758896f3d52c24e">&#9670;&#160;</a></span>serializeObjectTreeToGltf()</h2>
+<a id="aef06e3fecff51a8e9e63ec35086822ee" name="aef06e3fecff51a8e9e63ec35086822ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef06e3fecff51a8e9e63ec35086822ee">&#9670;&#160;</a></span>serializeObjectTreeToGltf()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRIOEXTRAS_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::serializeObjectTreeToGltf </td>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::serializeObjectTreeToGltf </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
         </tr>
@@ -29057,7 +29038,7 @@ template&lt;typename Volume &gt; </div>
 </div><div class="memdoc">
 
 <p>converts a voxel volume into a mesh without full memory loading </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="#ae89954146fbd39699570a0d5c8a579dd">mergeVolumePart</a></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a9145e1b055b88e54edf784e6f3b050fc">mergeVolumePart</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">builder</td><td>- functor returning a voxel volume part within the specified range </td></tr>
@@ -29164,14 +29145,14 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="a5c8cd9060fcf837bea6a2cda3d33a957" name="a5c8cd9060fcf837bea6a2cda3d33a957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c8cd9060fcf837bea6a2cda3d33a957">&#9670;&#160;</a></span>writeRawTiff()</h2>
+<a id="abdcd54b6004b70d5f63cf0695fc0a285" name="abdcd54b6004b70d5f63cf0695fc0a285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdcd54b6004b70d5f63cf0695fc0a285">&#9670;&#160;</a></span>writeRawTiff()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::writeRawTiff </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::writeRawTiff </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span>, </td>
         </tr>
@@ -29190,14 +29171,14 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="a5c18a1975398e2345a14b9e68416b40e" name="a5c18a1975398e2345a14b9e68416b40e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c18a1975398e2345a14b9e68416b40e">&#9670;&#160;</a></span>zlibCompressStream()</h2>
+<a id="ade26a1cffee8e1e012f32d8d7bcc6637" name="ade26a1cffee8e1e012f32d8d7bcc6637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade26a1cffee8e1e012f32d8d7bcc6637">&#9670;&#160;</a></span>zlibCompressStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRIOEXTRAS_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::zlibCompressStream </td>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::zlibCompressStream </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
@@ -29227,14 +29208,14 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="aa7eb64793e4ce0f01fdeeed86398843b" name="aa7eb64793e4ce0f01fdeeed86398843b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7eb64793e4ce0f01fdeeed86398843b">&#9670;&#160;</a></span>zlibDecompressStream()</h2>
+<a id="a3c93ff1b38318770dd195fbdbe3dc45c" name="a3c93ff1b38318770dd195fbdbe3dc45c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c93ff1b38318770dd195fbdbe3dc45c">&#9670;&#160;</a></span>zlibDecompressStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRIOEXTRAS_API <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::zlibDecompressStream </td>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::zlibDecompressStream </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"namespaceMR_1_1StyleConsts_1_1Modal.html":[10,0,12,35,1],
-"namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[10,0,12,35,1,0],
 "namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe":[10,0,12,35,1,1],
 "namespaceMR_1_1StyleConsts_1_1Notification.html":[10,0,12,35,2],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a40b832fe75f008db0d06d0ce99d54600":[10,0,12,35,2,6],
@@ -125,8 +123,8 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[10,0,12,38,4],
 "namespaceMR_1_1VoxelsSave.html":[10,0,12,39],
 "namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[10,0,12,39,1],
-"namespaceMR_1_1VoxelsSave.html#a54bea530a769fcbe15b6e7773b1af298":[10,0,12,39,6],
-"namespaceMR_1_1VoxelsSave.html#ad28f0021add384177a2435d8f60b63b9":[10,0,12,39,5],
+"namespaceMR_1_1VoxelsSave.html#aa83a208321660dcd58dba3293c1ffcca":[10,0,12,39,5],
+"namespaceMR_1_1VoxelsSave.html#acc51fa915211cf7d481cd368367c34f6":[10,0,12,39,6],
 "namespaceMR_1_1detail.html":[10,0,12,3],
 "namespaceMR_1_1detail_1_1Units.html":[10,0,12,3,0],
 "namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[10,0,12,3,0,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX56 =
 "structICPProperties.html#aba0a60e0dd7a350d95f3d6a45a848fb1":[12,0,18,5],
 "structICPProperties.html#acb64007a3da8386169a98ce66b13e42c":[12,0,18,9],
 "structICPProperties.html#ae9e4864f60f525e8c551c95a529ddac9":[12,0,18,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[10,0,1,0]
+"structImGui_1_1CustomStatePluginWindowParameters.html":[10,0,1,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html":[12,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[10,0,1,0,6]
 };

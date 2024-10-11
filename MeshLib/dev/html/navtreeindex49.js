@@ -1,24 +1,24 @@
 var NAVTREEINDEX49 =
 {
-"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[9,0,9,2],
 "group__SerializerGroup.html":[9,2,15],
 "group__SerializerGroup.html#ga008566c571e968e28ac38c4317a9fbbe":[9,2,15,17],
 "group__SerializerGroup.html#ga01084ea4b91576f192aeb68017e8e45e":[9,2,15,44],
 "group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659":[9,2,15,28],
-"group__SerializerGroup.html#ga02e4f1770ef424d638e95a3e26512c19":[9,2,15,0],
 "group__SerializerGroup.html#ga07c35f4efe0f243d11910aee401766ef":[9,2,15,20],
 "group__SerializerGroup.html#ga1155079bf2d53ebd19e08f2223fee2a8":[9,2,15,21],
 "group__SerializerGroup.html#ga2460b57ac19911dbba07d61927a47ece":[9,2,15,46],
 "group__SerializerGroup.html#ga27c3983bb6c56873da1fcfa8ce4044d8":[9,2,15,30],
 "group__SerializerGroup.html#ga2991c05216d6e89d4d73f2eb053cd283":[9,2,15,42],
+"group__SerializerGroup.html#ga2e076375162aa8d5f3665a95f10e3710":[9,2,15,2],
 "group__SerializerGroup.html#ga332fb7d3339d515c107f05a5f3e4d251":[9,2,15,35],
 "group__SerializerGroup.html#ga337dbc4391f7f93340ae0d57d9992358":[9,2,15,32],
 "group__SerializerGroup.html#ga4c0c62354556511936a0e90a2d4c586e":[9,2,15,5],
 "group__SerializerGroup.html#ga4cabdbc3ab0e26dfe5f3f9541c696fc7":[9,2,15,24],
 "group__SerializerGroup.html#ga5a10f75cc5e4d7e14e17a21e9e8ddb0f":[9,2,15,37],
+"group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e":[9,2,15,0],
+"group__SerializerGroup.html#ga60ea0861186c3cd722eaed269571bc6d":[9,2,15,1],
 "group__SerializerGroup.html#ga61a7230e0fffb1f10c81a359762186d2":[9,2,15,18],
 "group__SerializerGroup.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad":[9,2,15,31],
-"group__SerializerGroup.html#ga6d8ef8273465ccaed58c0b0bcac27de7":[9,2,15,2],
 "group__SerializerGroup.html#ga72e078f3acb1fe95234144b3f7d2aced":[9,2,15,16],
 "group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef":[9,2,15,45],
 "group__SerializerGroup.html#ga790b6ef6dd31f1a82bf42d810c4c1f44":[9,2,15,22],
@@ -31,7 +31,6 @@ var NAVTREEINDEX49 =
 "group__SerializerGroup.html#ga88cac564b83aea9e1d7a37332fa81d50":[9,2,15,15],
 "group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28":[9,2,15,47],
 "group__SerializerGroup.html#ga8ba498d211b2a813befa63f55a7446cd":[9,2,15,7],
-"group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd":[9,2,15,1],
 "group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25":[9,2,15,3],
 "group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138":[9,2,15,4],
 "group__SerializerGroup.html#gaa945fd69c2b9a828d6f34e7bc34b9df3":[9,2,15,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX49 =
 "group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a338f1941aaeb45ceefaa84416d2aaddb":[9,17,2,2,3],
 "group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a84f58e01676ac59dfa39f05ab0e4fdaf":[9,17,2,2,2],
 "group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4":[9,17,2,2,1],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a":[9,17,2,2,0]
+"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a":[9,17,2,2,0],
+"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680":[9,17,2,2,4]
 };

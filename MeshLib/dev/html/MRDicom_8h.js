@@ -10,6 +10,6 @@ var MRDicom_8h =
     [ "loadDicomFile", "MRDicom_8h.html#a3622b66edae8dfd63c281b78441dd22f", null ],
     [ "loadDicomFolder", "MRDicom_8h.html#a5af203b157c0742a80e06812bab4d73f", null ],
     [ "loadDicomsFolder", "MRDicom_8h.html#a191bfc170e935b4d3114da44095f93f5", null ],
-    [ "toDCM", "MRDicom_8h.html#ad28f0021add384177a2435d8f60b63b9", null ],
-    [ "toDCM", "MRDicom_8h.html#a54bea530a769fcbe15b6e7773b1af298", null ]
+    [ "toDCM", "MRDicom_8h.html#aa83a208321660dcd58dba3293c1ffcca", null ],
+    [ "toDCM", "MRDicom_8h.html#acc51fa915211cf7d481cd368367c34f6", null ]
 ];

@@ -38,7 +38,7 @@ var searchData=
   ['additem_35',['addItem',['../classMR_1_1RibbonSchemaHolder.html#a28d7c0a6ed492a3e6678588c499d5a29',1,'MR::RibbonSchemaHolder']]],
   ['addleftband_36',['addLeftBand',['../group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d',1,'MR']]],
   ['addmenufontranges_5f_37',['addMenuFontRanges_',['../classMR_1_1ImGuiMenu.html#a70f2fa3ee77474175c40b532311996cd',1,'MR::ImGuiMenu']]],
-  ['addnoise_38',['addNoise',['../namespaceMR.html#af407f311b61f155ed8c3a94fd8ea31b3',1,'MR']]],
+  ['addnoise_38',['addNoise',['../namespaceMR.html#ac87c8628100309ba212e32c882cb85e0',1,'MR']]],
   ['addorgringsteps_39',['addOrgRingSteps',['../classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52',1,'MR::EdgePathsBuilderT']]],
   ['addother_40',['addOther',['../classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1',1,'MR::FreeFormBestFit']]],
   ['addpackedpart_41',['addPackedPart',['../classMR_1_1MeshTopology.html#aa2eb901ee1810c11a63762618f27d854',1,'MR::MeshTopology']]],

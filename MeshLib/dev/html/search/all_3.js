@@ -71,7 +71,7 @@ var searchData=
   ['additionalwidth_68',['additionalWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf',1,'MR::RibbonButtonDrawer::ButtonItemWidth']]],
   ['addleftband_69',['addLeftBand',['../group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d',1,'MR']]],
   ['addmenufontranges_5f_70',['addMenuFontRanges_',['../classMR_1_1ImGuiMenu.html#a70f2fa3ee77474175c40b532311996cd',1,'MR::ImGuiMenu']]],
-  ['addnoise_71',['addNoise',['../namespaceMR.html#af407f311b61f155ed8c3a94fd8ea31b3',1,'MR']]],
+  ['addnoise_71',['addNoise',['../namespaceMR.html#ac87c8628100309ba212e32c882cb85e0',1,'MR']]],
   ['addobject_72',['AddObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846',1,'MR::ChangeSceneAction']]],
   ['addorgringsteps_73',['addOrgRingSteps',['../classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52',1,'MR::EdgePathsBuilderT']]],
   ['addother_74',['addOther',['../classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1',1,'MR::FreeFormBestFit']]],

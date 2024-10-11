@@ -153,7 +153,7 @@ var searchData=
   ['loaddicomfile_150',['loadDicomFile',['../namespaceMR_1_1VoxelsLoad.html#a3622b66edae8dfd63c281b78441dd22f',1,'MR::VoxelsLoad']]],
   ['loaddicomfolder_151',['loadDicomFolder',['../namespaceMR_1_1VoxelsLoad.html#a5af203b157c0742a80e06812bab4d73f',1,'MR::VoxelsLoad']]],
   ['loaddicomsfolder_152',['loadDicomsFolder',['../namespaceMR_1_1VoxelsLoad.html#a191bfc170e935b4d3114da44095f93f5',1,'MR::VoxelsLoad']]],
-  ['loaddistances_153',['loadDistances',['../classMR_1_1RegularMapMesher.html#abcaf63824e1d2e6950436bb64b0ed238',1,'MR::RegularMapMesher']]],
+  ['loaddistances_153',['loadDistances',['../classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa',1,'MR::RegularMapMesher']]],
   ['loadedfiles_154',['loadedFiles',['../structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f',1,'MR::SceneLoad::SceneLoadResult']]],
   ['loadfaceindicesbuffer_5f_155',['loadFaceIndicesBuffer_',['../classMR_1_1RenderMeshObject.html#a1f273db5bf7f2439e36be583f8892f98',1,'MR::RenderMeshObject']]],
   ['loadfacenormalstexturebuffer_5f_156',['loadFaceNormalsTextureBuffer_',['../classMR_1_1RenderMeshObject.html#a0b296b577bfee513d40bc073e4609f55',1,'MR::RenderMeshObject']]],

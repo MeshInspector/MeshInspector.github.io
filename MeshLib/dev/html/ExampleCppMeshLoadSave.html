@@ -132,7 +132,7 @@ $(function(){initNavTree('ExampleCppMeshLoadSave.html',''); initResizable(true);
 <div class="line">    <span class="keywordflow">if</span> ( loadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::filesystem::path outFilePath = <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
-<div class="line">        <span class="keyword">auto</span> saveRes = <a class="code hl_function" href="group__MeshSaveGroup.html#gab2c92511c1f2455a998dd7ea22f70bd6">MR::MeshSave::toAnySupportedFormat</a>( loadRes.value(), outFilePath );</div>
+<div class="line">        <span class="keyword">auto</span> saveRes = <a class="code hl_function" href="group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( loadRes.value(), outFilePath );</div>
 <div class="line">        <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">            std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
 <div class="line">    }</div>
@@ -144,7 +144,7 @@ $(function(){initNavTree('ExampleCppMeshLoadSave.html',''); initResizable(true);
 <div class="ttc" id="aMRMesh_2MRMeshSave_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and loads mesh from it</div></div>
-<div class="ttc" id="agroup__MeshSaveGroup_html_gab2c92511c1f2455a998dd7ea22f70bd6"><div class="ttname"><a href="group__MeshSaveGroup.html#gab2c92511c1f2455a998dd7ea22f70bd6">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API VoidOrErrStr toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and save mesh to it</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and save mesh to it</div></div>
 </div><!-- fragment --><p>Further examples won't check return values for sake of clarity</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a> </dd>
 <dd>

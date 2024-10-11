@@ -1,13 +1,13 @@
 var MRVoxelsSave_8h =
 [
     [ "VoxelsSaver", "MRVoxelsSave_8h.html#a5289196c605171ac3410bbe845a26176", null ],
-    [ "saveAllSlicesToImage", "MRVoxelsSave_8h.html#gaf1783a7501a99d41a1fff81362e4156f", null ],
+    [ "saveAllSlicesToImage", "MRVoxelsSave_8h.html#ga369d03f6b945767a7f3fff153969a695", null ],
     [ "saveObjectVoxelsToFile", "MRVoxelsSave_8h.html#abab286ce43034d0b20bdc4c0e5e210ab", null ],
-    [ "saveSliceToImage", "MRVoxelsSave_8h.html#gaad04846cf9a1827961061cad6584b257", null ],
-    [ "toAnySupportedFormat", "MRVoxelsSave_8h.html#ga54a523f1de4e87fa350387e42a1d532c", null ],
-    [ "toGav", "MRVoxelsSave_8h.html#gaa2dcaa0924a21995bd2d0d575c0cdd44", null ],
-    [ "toGav", "MRVoxelsSave_8h.html#gaccd8877a5b6ca37e3149cfd8d8e854d9", null ],
-    [ "toRawAutoname", "MRVoxelsSave_8h.html#gae174614a84fb3e272ab10bd1142653a5", null ],
-    [ "toRawFloat", "MRVoxelsSave_8h.html#ga3558715d8291f17725f223bc5d35aa6e", null ],
-    [ "toVdb", "MRVoxelsSave_8h.html#gaf616420faf96186a23c314b86dd74e6b", null ]
+    [ "saveSliceToImage", "MRVoxelsSave_8h.html#ga71f97bec2215ef7c561b5de6d82dfe53", null ],
+    [ "toAnySupportedFormat", "MRVoxelsSave_8h.html#ga479f7166483b9a6ae878a9eaaaf3b2c2", null ],
+    [ "toGav", "MRVoxelsSave_8h.html#ga07fcb9dbce1e084feea3f4bc9a997d05", null ],
+    [ "toGav", "MRVoxelsSave_8h.html#ga2be8d94b307086a5911150897b696e80", null ],
+    [ "toRawAutoname", "MRVoxelsSave_8h.html#gaba5fa9d2b1947f916a3629cde580c30f", null ],
+    [ "toRawFloat", "MRVoxelsSave_8h.html#ga12d518250bd2612433a450a1a4d1edca", null ],
+    [ "toVdb", "MRVoxelsSave_8h.html#gae7e67df258eb2d97e1ddf1d1cb4917f5", null ]
 ];

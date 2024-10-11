@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classMR_1_1DistanceMeasurementObject.html#a9c2d64d2d770e4e0881049ea34edd33e":[10,0,12,180,22],
 "classMR_1_1DistanceMeasurementObject.html#a9c2d64d2d770e4e0881049ea34edd33e":[12,0,1,166,22],
 "classMR_1_1DistanceMeasurementObject.html#a9cb473b073de0d9d702218c1acb619f4":[10,0,12,180,9],
 "classMR_1_1DistanceMeasurementObject.html#a9cb473b073de0d9d702218c1acb619f4":[12,0,1,166,9],
@@ -69,12 +68,12 @@ var NAVTREEINDEX19 =
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[10,0,12,202,0],
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[12,0,1,188,0],
 "classMR_1_1FastWindingNumber.html":[9,1,13],
+"classMR_1_1FastWindingNumber.html#a19f0d9ad10214d87ac4fddc12fc56714":[9,1,13,2],
 "classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01":[9,1,13,5],
-"classMR_1_1FastWindingNumber.html#a5c5cfefc8fc0cd8e6a4ced7bdccb19ce":[9,1,13,2],
 "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07":[9,1,13,0],
 "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998":[9,1,13,4],
 "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841":[9,1,13,3],
-"classMR_1_1FastWindingNumber.html#adf39f3740ff84ed5d367174f1cd8f8a8":[9,1,13,1],
+"classMR_1_1FastWindingNumber.html#a9223c831603c90299781783593ae4d75":[9,1,13,1],
 "classMR_1_1FeatureObject.html":[10,0,12,208],
 "classMR_1_1FeatureObject.html":[12,0,1,194],
 "classMR_1_1FeatureObject.html#a023edd409ca58f579708564c89b70ac4":[10,0,12,208,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "classMR_1_1FitSelectedPrimitivesMenuItem.html#aeafd0bc4ba15b7678811bfccf87b02fa":[12,0,1,211,1],
 "classMR_1_1FlowAggregator.html":[10,0,12,227],
 "classMR_1_1FlowAggregator.html":[12,0,1,213],
-"classMR_1_1FlowAggregator.html#a2384bcaaf2bbf8e865fb2a1e4df9c443":[10,0,12,227,2]
+"classMR_1_1FlowAggregator.html#a2384bcaaf2bbf8e865fb2a1e4df9c443":[10,0,12,227,2],
+"classMR_1_1FlowAggregator.html#a2384bcaaf2bbf8e865fb2a1e4df9c443":[12,0,1,213,2]
 };

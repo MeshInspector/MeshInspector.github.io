@@ -1,8 +1,8 @@
 var group__SerializerGroup =
 [
-    [ "MR::compressZip", "group__SerializerGroup.html#ga02e4f1770ef424d638e95a3e26512c19", null ],
-    [ "MR::decompressZip", "group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd", null ],
-    [ "MR::decompressZip", "group__SerializerGroup.html#ga6d8ef8273465ccaed58c0b0bcac27de7", null ],
+    [ "MR::compressZip", "group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#ga60ea0861186c3cd722eaed269571bc6d", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#ga2e076375162aa8d5f3665a95f10e3710", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga4c0c62354556511936a0e90a2d4c586e", null ],
