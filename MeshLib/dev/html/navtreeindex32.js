@@ -1,8 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1RadiusMeasurementObject.html#abb52ce1741bbea13111e16aae84dbde5":[10,0,12,491,5],
-"classMR_1_1RadiusMeasurementObject.html#abb52ce1741bbea13111e16aae84dbde5":[12,0,1,477,5],
-"classMR_1_1RadiusMeasurementObject.html#abf829a28a78153a2114e13a36a46f092":[10,0,12,491,4],
 "classMR_1_1RadiusMeasurementObject.html#abf829a28a78153a2114e13a36a46f092":[12,0,1,477,4],
 "classMR_1_1RadiusMeasurementObject.html#ac21964aa2c3fa5b24daf6659c6abe091":[10,0,12,491,6],
 "classMR_1_1RadiusMeasurementObject.html#ac21964aa2c3fa5b24daf6659c6abe091":[12,0,1,477,6],
@@ -249,5 +246,8 @@ var NAVTREEINDEX32 =
 "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html":[10,0,12,30,6],
 "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html":[12,0,1,18,6],
 "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html#a8082ee9bd4f7d6aa6c8caa39ac0d2e2e":[10,0,12,30,6,0],
-"classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html#a8082ee9bd4f7d6aa6c8caa39ac0d2e2e":[12,0,1,18,6,0]
+"classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html#a8082ee9bd4f7d6aa6c8caa39ac0d2e2e":[12,0,1,18,6,0],
+"classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html":[10,0,12,30,7],
+"classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html":[12,0,1,18,7],
+"classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html#a142237d698d085d466a1d8c2177ddafe":[10,0,12,30,7,0]
 };

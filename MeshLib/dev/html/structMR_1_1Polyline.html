@@ -181,6 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3de745fc249ab0b56e00796cf740f97" id="r_ab3de745fc249ab0b56e00796cf740f97"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3de745fc249ab0b56e00796cf740f97">edgeLengthSq</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
 <tr class="memdesc:ab3de745fc249ab0b56e00796cf740f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared Euclidean length of the edge (faster to compute than length)  <br /></td></tr>
 <tr class="separator:ab3de745fc249ab0b56e00796cf740f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd9babfa09e9b253e4e80937c08fa6f" id="r_adcd9babfa09e9b253e4e80937c08fa6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd9babfa09e9b253e4e80937c08fa6f">loopDirArea</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="separator:adcd9babfa09e9b253e4e80937c08fa6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a9c58f07401349f8113bfc5e5e03619" id="r_a2a9c58f07401349f8113bfc5e5e03619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a9c58f07401349f8113bfc5e5e03619">totalLength</a> () const</td></tr>
 <tr class="memdesc:a2a9c58f07401349f8113bfc5e5e03619"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns total length of the polyline  <br /></td></tr>
 <tr class="separator:a2a9c58f07401349f8113bfc5e5e03619"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1049,6 +1051,34 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>Invalidates caches (e.g. aabb-tree) after a change in polyline. </p>
+
+</div>
+</div>
+<a id="adcd9babfa09e9b253e4e80937c08fa6f" name="adcd9babfa09e9b253e4e80937c08fa6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcd9babfa09e9b253e4e80937c08fa6f">&#9670;&#160;</a></span>loopDirArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::loopDirArea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>calculates directed loop area if iterating in <code>e</code> direction .z = FLT_MAX if <code>e</code> does not represent a loop </p>
 
 </div>
 </div>

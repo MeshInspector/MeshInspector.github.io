@@ -1,7 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe":[10,0,12,35,1,1],
-"namespaceMR_1_1StyleConsts_1_1Notification.html":[10,0,12,35,2],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a40b832fe75f008db0d06d0ce99d54600":[10,0,12,35,2,6],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a4c0e53ab35221788afdf9df8298f8e3b":[10,0,12,35,2,5],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a85ff61268fac639e5871b152b1834e4d":[10,0,12,35,2,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX56 =
 "structICPProperties.html#ae9e4864f60f525e8c551c95a529ddac9":[12,0,18,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[10,0,1,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[12,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[10,0,1,0,6]
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[10,0,1,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[12,0,0,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[10,0,1,0,10]
 };

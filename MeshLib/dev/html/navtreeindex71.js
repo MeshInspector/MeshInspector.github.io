@@ -1,10 +1,9 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[9,14,0,34],
 "structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b":[9,14,0,23],
 "structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12":[9,14,0,20],
-"structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65":[9,14,0,28],
-"structMR_1_1Polyline.html#aee0339a19861aa52dd86eceea3e805b8":[9,14,0,31],
+"structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65":[9,14,0,29],
+"structMR_1_1Polyline.html#aee0339a19861aa52dd86eceea3e805b8":[9,14,0,32],
 "structMR_1_1Polyline.html#af1debf021b9bc68d02c2905e0527ab11":[9,14,0,11],
 "structMR_1_1Polyline.html#af26b4e6a0cf3287f52bdf51f2eeebd02":[9,14,0,5],
 "structMR_1_1Polyline.html#af6304c2e704e188b2072b3bfc74d4a9a":[9,14,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a":[10,0,12,497,2],
 "structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a":[12,0,1,483,2],
 "structMR_1_1RawTiffOutput.html#aee37c2713f2e293aaf18d6ff35a3ef2f":[10,0,12,497,6],
-"structMR_1_1RawTiffOutput.html#aee37c2713f2e293aaf18d6ff35a3ef2f":[12,0,1,483,6]
+"structMR_1_1RawTiffOutput.html#aee37c2713f2e293aaf18d6ff35a3ef2f":[12,0,1,483,6],
+"structMR_1_1RayOrigin.html":[9,0,9,0]
 };

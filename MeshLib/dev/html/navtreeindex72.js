@@ -1,6 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1RayOrigin.html":[9,0,9,0],
 "structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7":[9,0,9,0,0],
 "structMR_1_1RayOrigin.html#aa0427aa4f82a36dda692826d18df40c9":[9,0,9,0,1],
 "structMR_1_1RebuildMeshSettings.html":[10,0,12,499],
@@ -39,16 +38,18 @@ var NAVTREEINDEX72 =
 "structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[12,0,1,488,2],
 "structMR_1_1RelaxParams.html":[10,0,12,505],
 "structMR_1_1RelaxParams.html":[12,0,1,491],
-"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[10,0,12,505,0],
-"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[12,0,1,491,0],
-"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[10,0,12,505,4],
-"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[12,0,1,491,4],
-"structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[10,0,12,505,3],
-"structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[12,0,1,491,3],
-"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[10,0,12,505,2],
-"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[12,0,1,491,2],
-"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[10,0,12,505,1],
-"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[12,0,1,491,1],
+"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[10,0,12,505,0],
+"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[12,0,1,491,0],
+"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[10,0,12,505,1],
+"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[12,0,1,491,1],
+"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[10,0,12,505,5],
+"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[12,0,1,491,5],
+"structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[10,0,12,505,4],
+"structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[12,0,1,491,4],
+"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[10,0,12,505,3],
+"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[12,0,1,491,3],
+"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[10,0,12,505,2],
+"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[12,0,1,491,2],
 "structMR_1_1RemeshSettings.html":[10,0,12,506],
 "structMR_1_1RemeshSettings.html":[12,0,1,492],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[10,0,12,506,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1RigidXf3.html":[10,0,12,550],
 "structMR_1_1RigidXf3.html":[12,0,1,536],
 "structMR_1_1RigidXf3.html#a1c18eb2cefaafa045ec3e26dc9948f71":[10,0,12,550,7],
-"structMR_1_1RigidXf3.html#a1c18eb2cefaafa045ec3e26dc9948f71":[12,0,1,536,7],
-"structMR_1_1RigidXf3.html#a56b789bccaa90a67f3bae243ba05810e":[10,0,12,550,3]
+"structMR_1_1RigidXf3.html#a1c18eb2cefaafa045ec3e26dc9948f71":[12,0,1,536,7]
 };
