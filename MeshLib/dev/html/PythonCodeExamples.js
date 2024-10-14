@@ -16,7 +16,7 @@ var PythonCodeExamples =
     [ "Stitching holes", "ExamplePythonMeshStitchHole.html", null ],
     [ "Mesh extrude", "ExamplePythonMeshExtrude.html", null ],
     [ "Simple triangulation V3", "ExamplePythonTriangulationV3.html", null ],
-    [ "FreeFormDeformer Example", "ExamplePythonFreeForm.html", null ],
+    [ "Free Form Deformation Example", "ExamplePythonFreeForm.html", null ],
     [ "Laplacian deformation Example", "ExamplePythonLaplacian.html", null ],
     [ "Adding and removing noise Example", "ExamplePythonNoiseDenoise.html", null ],
     [ "Viewer Example", "ExamplePythonViewer.html", null ]
