@@ -1,14 +1,14 @@
 var searchData=
 [
   ['f_0',['f',['../structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a',1,'MR::PackMapping::f'],['../structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b',1,'MR::MeshBuilder::Triangle::f'],['../structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d',1,'MR::Dirty::f']]],
-  ['face_1',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face'],['../structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c',1,'MR::PointOnObject::face']]],
+  ['face_1',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face'],['../structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c',1,'MR::PointOnObject::face'],['../structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b',1,'MROneMeshIntersection::face'],['../structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252',1,'MRPointOnFace::face']]],
   ['facecolors_2',['faceColors',['../structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363',1,'MR::MeshAttributesToUpdate']]],
   ['facecolorstex_5f_3',['faceColorsTex_',['../classMR_1_1RenderMeshObject.html#af99f6b1103fb8791d9d8a2fbd0275213',1,'MR::RenderMeshObject']]],
   ['faceid_4',['faceId',['../structPointOnFace.html#aec20dab73255656325b87834a24237f6',1,'PointOnFace']]],
   ['faceids_5',['faceIds',['../structMR_1_1GridSettings.html#a790adf53fc23a7b8fe0be9674ebb70af',1,'MR::GridSettings']]],
   ['faceindicessize_5f_6',['faceIndicesSize_',['../classMR_1_1RenderMeshObject.html#a7c197e5a47c0adda4d0e19fe67bc8ad6',1,'MR::RenderMeshObject']]],
   ['facemap_7',['faceMap',['../structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e',1,'MR::SeparationPointStorage::Block']]],
-  ['facenormals_8',['faceNormals',['../structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5',1,'MR::MeshNormals']]],
+  ['facenormals_8',['faceNormals',['../structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5',1,'MR::MeshNormals::faceNormals'],['../structMRMeshNormals.html#a7339fd6fc019ca383d4fdf329519ccc4',1,'MRMeshNormals::faceNormals']]],
   ['facenormalstexturesize_5f_9',['faceNormalsTextureSize_',['../classMR_1_1RenderMeshObject.html#af277e985bb5c295945722ce8b6dbef7f',1,'MR::RenderMeshObject']]],
   ['faceregion_10',['faceRegion',['../structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e',1,'MR::RefineParameters']]],
   ['faces_11',['Faces',['../MRObjectMeshHolder_8h.html#a157b3a6855654482f9a6ab32e8698fae',1,'MRObjectMeshHolder.h']]],

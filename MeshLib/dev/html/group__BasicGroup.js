@@ -197,6 +197,7 @@ var group__BasicGroup =
       [ "const_reference", "classMR_1_1Vector.html#aaa0ee5d98cd26c7e6232195bcda2b459", null ],
       [ "iterator", "classMR_1_1Vector.html#a23a39a0e101ba40e7369b90045cb930d", null ],
       [ "reference", "classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff", null ],
+      [ "value_type", "classMR_1_1Vector.html#abd41445fa91a71145e3d65599d21e191", null ],
       [ "Vector", "classMR_1_1Vector.html#a0c68875da8e1de13eb3033e6dcb33bf3", null ],
       [ "Vector", "classMR_1_1Vector.html#a21221590bfd97a156317965b0d24fe28", null ],
       [ "Vector", "classMR_1_1Vector.html#ac68e153a1cf7d72f90f9af6be0555d6e", null ],

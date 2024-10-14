@@ -130,10 +130,11 @@ var searchData=
   ['_7euniquetemporaryfolder_127',['~UniqueTemporaryFolder',['../classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256',1,'MR::UniqueTemporaryFolder']]],
   ['_7euniquethreadsafeowner_128',['~UniqueThreadSafeOwner',['../classMR_1_1UniqueThreadSafeOwner.html#a3d73291f1f47c3b4d4a33166f8d09a6a',1,'MR::UniqueThreadSafeOwner']]],
   ['_7evector3f_129',['~Vector3f',['../classVector3f.html#a8a54f2fb1e8cce30fe073310c727f55d',1,'Vector3f']]],
-  ['_7eviewerplugin_130',['~ViewerPlugin',['../classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab',1,'MR::ViewerPlugin']]],
-  ['_7eviewersetup_131',['~ViewerSetup',['../classMR_1_1ViewerSetup.html#a91f189592dac535dae6d91f80c911e1f',1,'MR::ViewerSetup']]],
-  ['_7eviewport_132',['~Viewport',['../classMR_1_1Viewport.html#a1d65bf318796ffdc96002b5d70d984a7',1,'MR::Viewport']]],
-  ['_7eviewportgl_133',['~ViewportGL',['../classMR_1_1ViewportGL.html#a33a67bdad47aeacb17a644f0c65f53ec',1,'MR::ViewportGL']]],
-  ['_7evisualobject_134',['~VisualObject',['../classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058',1,'MR::VisualObject']]],
-  ['_7ewriter_135',['~Writer',['../structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6',1,'MR::Writer']]]
+  ['_7evector_5fwrapper_130',['~vector_wrapper',['../structvector__wrapper.html#af984a19eaf27a81800c8c3a7d0561355',1,'vector_wrapper']]],
+  ['_7eviewerplugin_131',['~ViewerPlugin',['../classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab',1,'MR::ViewerPlugin']]],
+  ['_7eviewersetup_132',['~ViewerSetup',['../classMR_1_1ViewerSetup.html#a91f189592dac535dae6d91f80c911e1f',1,'MR::ViewerSetup']]],
+  ['_7eviewport_133',['~Viewport',['../classMR_1_1Viewport.html#a1d65bf318796ffdc96002b5d70d984a7',1,'MR::Viewport']]],
+  ['_7eviewportgl_134',['~ViewportGL',['../classMR_1_1ViewportGL.html#a33a67bdad47aeacb17a644f0c65f53ec',1,'MR::ViewportGL']]],
+  ['_7evisualobject_135',['~VisualObject',['../classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058',1,'MR::VisualObject']]],
+  ['_7ewriter_136',['~Writer',['../structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6',1,'MR::Writer']]]
 ];

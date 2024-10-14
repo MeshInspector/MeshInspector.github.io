@@ -2,7 +2,7 @@ var searchData=
 [
   ['f_0',['f',['../structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a',1,'MR::PackMapping::f'],['../structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b',1,'MR::MeshBuilder::Triangle::f'],['../structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d',1,'MR::Dirty::f']]],
   ['face_1',['Face',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a94b51ce1acd528ad113406c334425167',1,'MR::OneMeshIntersection::Face'],['../MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181a8af5861002f3c157f9ba842bba10aa3f',1,'Face:&#160;MRContoursCut.h']]],
-  ['face_2',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face'],['../structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c',1,'MR::PointOnObject::face']]],
+  ['face_2',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face'],['../structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c',1,'MR::PointOnObject::face'],['../structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b',1,'MROneMeshIntersection::face'],['../structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252',1,'MRPointOnFace::face']]],
   ['facebitset_3',['FaceBitSet',['../MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172',1,'MRMeshFwd.h']]],
   ['facebitsetreadonly_4',['FaceBitSetReadOnly',['../MRDotNet_2MRMeshFwd_8h.html#af0c25997d2154db43044e5b99b5ef5d5',1,'MRMeshFwd.h']]],
   ['facecapacity_5',['faceCapacity',['../classMR_1_1MeshTopology.html#a061c9ff212341377b260f4fc4881f378',1,'MR::MeshTopology']]],
@@ -24,7 +24,7 @@ var searchData=
   ['facemapscomposition_21',['faceMapsComposition',['../group__BasicGroup.html#gae15f0e77aea97c2194995913d9b8acfa',1,'MR::faceMapsComposition(FaceMap &amp;a2b, const FaceMap &amp;b2c)'],['../group__BasicGroup.html#gab49400ae6dafb3acc3d4f328d6658e75',1,'MR::faceMapsComposition(const FaceMap &amp;a2b, const FaceMap &amp;b2c)']]],
   ['facemetric_22',['FaceMetric',['../namespaceMR.html#a964a181b4bf9b03b222d6e2ad3529487',1,'MR']]],
   ['facenormals_23',['FaceNormals',['../MRDotNet_2MRMeshFwd_8h.html#aaa26318e65cc98892f9b832efbbc3965',1,'MRMeshFwd.h']]],
-  ['facenormals_24',['faceNormals',['../structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5',1,'MR::MeshNormals']]],
+  ['facenormals_24',['faceNormals',['../structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5',1,'MR::MeshNormals::faceNormals'],['../structMRMeshNormals.html#a7339fd6fc019ca383d4fdf329519ccc4',1,'MRMeshNormals::faceNormals']]],
   ['facenormalsreadonly_25',['FaceNormalsReadOnly',['../MRDotNet_2MRMeshFwd_8h.html#ae656de4ef8318026cc624eb4d297a395',1,'MRMeshFwd.h']]],
   ['facenormalstexturesize_5f_26',['faceNormalsTextureSize_',['../classMR_1_1RenderMeshObject.html#af277e985bb5c295945722ce8b6dbef7f',1,'MR::RenderMeshObject']]],
   ['facepair_27',['FacePair',['../namespaceMR.html#aaa1b9cb8e04334b38aa70434301df035',1,'MR']]],

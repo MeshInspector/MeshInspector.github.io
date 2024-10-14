@@ -1,7 +1,5 @@
 var MRMeshC_2MRVector_8h =
 [
-    [ "MRVectorAffineXf3f", "MRMeshC_2MRVector_8h.html#a91df831116f8cdefa045d03191d5c198", null ],
-    [ "mrVectorAffineXf3fData", "MRMeshC_2MRVector_8h.html#a2a277a2a23fb4c147f093ae8aa230ff7", null ],
-    [ "mrVectorAffineXf3fFree", "MRMeshC_2MRVector_8h.html#a22ff9fe4fab07c02b4988282c02e3baa", null ],
-    [ "mrVectorAffineXf3fSize", "MRMeshC_2MRVector_8h.html#aacdd1903687ff9268ad11f552f6239c4", null ]
+    [ "MR_VECTOR_DECL", "MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d", null ],
+    [ "MR_VECTOR_LIKE_DECL", "MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c", null ]
 ];

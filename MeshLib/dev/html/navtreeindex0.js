@@ -6,6 +6,10 @@ var NAVTREEINDEX0 =
 "CodingStyleHelp.html#BracesLocation":[1,1],
 "CodingStyleHelp.html#CodeStatenebts":[1,2],
 "CodingStyleHelp.html#TabsSpaces":[1,0],
+"Concat_8h.html":[13,0,0,2,5,0,0],
+"Concat_8h.html#a4cb6de717e0b06df733796fec2da272a":[13,0,0,2,5,0,0,0],
+"Concat_8h.html#ac35e66533e158a4bf53982a2c109bd09":[13,0,0,2,5,0,0,1],
+"Concat_8h_source.html":[13,0,0,2,5,0,0],
 "CppCodeExamples.html":[4,1],
 "DataModel.html":[2],
 "DataModel.html#DataModelInheritance":[2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29":[13,0,0,2,2,2,2,0],
 "MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571":[13,0,0,2,2,2,2,1],
 "MRBooleanResultMapper_8h_source.html":[13,0,0,2,2,2],
-"MRBoolean_8h.html":[13,0,0,2,11,1],
-"MRBoolean_8h_source.html":[13,0,0,2,11,1],
-"MRBox3_8h.html":[13,0,0,2,2,3],
-"MRBox3_8h_source.html":[13,0,0,2,2,3],
-"MRBuffer_8h.html":[13,0,0,2,4,31]
+"MRBoolean_8h.html":[13,0,0,2,11,1]
 };

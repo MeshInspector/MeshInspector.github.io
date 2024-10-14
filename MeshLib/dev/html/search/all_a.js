@@ -85,11 +85,12 @@ var searchData=
   ['homepage_2edox_82',['HomePage.dox',['../HomePage_8dox.html',1,'']]],
   ['hops_83',['hops',['../structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b',1,'MR::FindOverhangsSettings']]],
   ['horizontal_84',['Horizontal',['../classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217aac4ef274f96fe2180181b165f1a20f43',1,'MR::ImGuiMenu::Horizontal'],['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::SetViewportConfigPresetMenuItem::Horizontal'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::GridSettings::Horizontal']]],
-  ['hover_85',['hover',['../classMR_1_1ITransformControls.html#a18436dfbd4ff243fc8bd07d0a3f36b73',1,'MR::ITransformControls']]],
-  ['hover_5f_86',['hover_',['../classMR_1_1ITransformControls.html#a866a780325d0337774ee4fc21b430da4',1,'MR::ITransformControls']]],
-  ['hoveredcolor_87',['hoveredColor',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters::hoveredColor']]],
-  ['hoveredlinewidth_88',['hoveredLineWidth',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams']]],
-  ['how_20to_89',['How To',['../group__MeshSegmentationGroup.html#MeshSegmentationGroup_HowTo',1,'']]],
-  ['how_20to_20make_20your_20first_20plugin_90',['How to make your first plugin',['../StatePluginsHelp.html#PluginCreation',1,'']]],
-  ['howtoexamples_2edox_91',['HowToExamples.dox',['../HowToExamples_8dox.html',1,'']]]
+  ['horizontalresolution_85',['horizontalResolution',['../structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750',1,'MRMakeUVSphereParameters']]],
+  ['hover_86',['hover',['../classMR_1_1ITransformControls.html#a18436dfbd4ff243fc8bd07d0a3f36b73',1,'MR::ITransformControls']]],
+  ['hover_5f_87',['hover_',['../classMR_1_1ITransformControls.html#a866a780325d0337774ee4fc21b430da4',1,'MR::ITransformControls']]],
+  ['hoveredcolor_88',['hoveredColor',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters::hoveredColor']]],
+  ['hoveredlinewidth_89',['hoveredLineWidth',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams']]],
+  ['how_20to_90',['How To',['../group__MeshSegmentationGroup.html#MeshSegmentationGroup_HowTo',1,'']]],
+  ['how_20to_20make_20your_20first_20plugin_91',['How to make your first plugin',['../StatePluginsHelp.html#PluginCreation',1,'']]],
+  ['howtoexamples_2edox_92',['HowToExamples.dox',['../HowToExamples_8dox.html',1,'']]]
 ];

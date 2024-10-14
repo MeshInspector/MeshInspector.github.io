@@ -47,10 +47,11 @@ var searchData=
   ['listcache_5f_44',['listCache_',['../classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301',1,'MR::ShortcutManager']]],
   ['loadedfiles_45',['loadedFiles',['../structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f',1,'MR::SceneLoad::SceneLoadResult']]],
   ['locked_5f_46',['locked_',['../classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]],
-  ['loggerhandle_47',['loggerHandle',['../structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]],
-  ['lorg_48',['lOrg',['../structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6',1,'MR::PlanarTriangulation::IntersectionInfo::lOrg'],['../structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72',1,'MR::OffsetContoursOrigins::lOrg']]],
-  ['lowestbdlevel_49',['lowestBdLevel',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a',1,'MR::WatershedGraph::BasinInfo']]],
-  ['lowestlevel_50',['lowestLevel',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#ab2cb4ea433e1e7448b0b1d3bafa8c2f2',1,'MR::WatershedGraph::BasinInfo']]],
-  ['lowestvert_51',['lowestVert',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240',1,'MR::WatershedGraph::BasinInfo::lowestVert'],['../structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac',1,'MR::WatershedGraph::BdInfo::lowestVert']]],
-  ['lratio_52',['lRatio',['../structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a71da63d690481e338c26321212fbdb4b',1,'MR::PlanarTriangulation::IntersectionInfo::lRatio'],['../structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab',1,'MR::OffsetContoursOrigins::lRatio']]]
+  ['lodistlimitsq_47',['loDistLimitSq',['../structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74',1,'MRFindProjectionParameters']]],
+  ['loggerhandle_48',['loggerHandle',['../structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]],
+  ['lorg_49',['lOrg',['../structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6',1,'MR::PlanarTriangulation::IntersectionInfo::lOrg'],['../structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72',1,'MR::OffsetContoursOrigins::lOrg']]],
+  ['lowestbdlevel_50',['lowestBdLevel',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a',1,'MR::WatershedGraph::BasinInfo']]],
+  ['lowestlevel_51',['lowestLevel',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#ab2cb4ea433e1e7448b0b1d3bafa8c2f2',1,'MR::WatershedGraph::BasinInfo']]],
+  ['lowestvert_52',['lowestVert',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240',1,'MR::WatershedGraph::BasinInfo::lowestVert'],['../structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac',1,'MR::WatershedGraph::BdInfo::lowestVert']]],
+  ['lratio_53',['lRatio',['../structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a71da63d690481e338c26321212fbdb4b',1,'MR::PlanarTriangulation::IntersectionInfo::lRatio'],['../structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab',1,'MR::OffsetContoursOrigins::lRatio']]]
 ];

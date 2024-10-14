@@ -162,9 +162,9 @@ $(function(){initNavTree('ExampleCMeshLoadSave.html',''); initResizable(true); }
 <div class="line">    memcpy( vertexData, vertices, <span class="keyword">sizeof</span>( <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a> ) * verticesNum );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// extract faces</span></div>
-<div class="line">    <a class="code hl_typedef" href="MRMeshC_2MRMeshFwd_8h.html#add66f676ccf8cf242c5fdd22ada0ec21">MRTriangulation</a>* t = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a10e7ae1cb0bed2d9259b7d9d91d92d58">mrMeshGetTriangulation</a>( mesh1 );</div>
-<div class="line">    <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a>* faces = <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#afc3b6e0a49f09ba4c3af9f03fc2fdfc2">mrTriangulationData</a>( t );</div>
-<div class="line">    <span class="keywordtype">size_t</span> facesNum = <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#a494196a49fa513257e15e1b9d4509c76">mrTriangulationSize</a>( t );</div>
+<div class="line">    MRTriangulation* t = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a10e7ae1cb0bed2d9259b7d9d91d92d58">mrMeshGetTriangulation</a>( mesh1 );</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a>* faces = mrTriangulationData( t );</div>
+<div class="line">    <span class="keywordtype">size_t</span> facesNum = mrTriangulationSize( t );</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( facesNum &gt; 0 )</div>
 <div class="line">        printf( <span class="stringliteral">&quot;The first face&#39;s vertex ids: %d, %d, %d&quot;</span>, faces[0][0].<span class="keywordtype">id</span>, faces[0][1].<span class="keywordtype">id</span>, faces[0][2].<span class="keywordtype">id</span> );</div>
@@ -189,7 +189,7 @@ $(function(){initNavTree('ExampleCMeshLoadSave.html',''); initResizable(true); }
 <div class="line">out_faceData:</div>
 <div class="line">    free( faceData );</div>
 <div class="line">out_t:</div>
-<div class="line">    <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#ac9a6f553a4b718a38ea7b48e4e51fb33">mrTriangulationFree</a>( t );</div>
+<div class="line">    mrTriangulationFree( t );</div>
 <div class="line">out_vertexData:</div>
 <div class="line">    free( vertexData );</div>
 <div class="line">out_mesh1:</div>
@@ -197,16 +197,12 @@ $(function(){initNavTree('ExampleCMeshLoadSave.html',''); initResizable(true); }
 <div class="line">out:</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRMeshC_2MRId_8h_html_a967d742119c0049bd062c2386998d6c0"><div class="ttname"><a href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a></div><div class="ttdeci">MRVertId MRThreeVertIds[3]</div><div class="ttdoc">a set of 3 vertices; useful for representing a face via its vertex indices</div><div class="ttdef"><b>Definition</b> MRMeshC/MRId.h:17</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:42</div></div>
+<div class="ttc" id="aMRMeshC_2MRId_8h_html_a967d742119c0049bd062c2386998d6c0"><div class="ttname"><a href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a></div><div class="ttdeci">MRVertId MRThreeVertIds[3]</div><div class="ttdoc">a set of 3 vertices; useful for representing a face via its vertex indices</div><div class="ttdef"><b>Definition</b> MRMeshC/MRId.h:19</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:43</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a89b45a4728b7f2a3281d78d9164162fe"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a></div><div class="ttdeci">typedefMR_EXTERN_C_BEGIN struct MRString MRString</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:32</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_add66f676ccf8cf242c5fdd22ada0ec21"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#add66f676ccf8cf242c5fdd22ada0ec21">MRTriangulation</a></div><div class="ttdeci">struct MRTriangulation MRTriangulation</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:44</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshLoad_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshSave_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html_a494196a49fa513257e15e1b9d4509c76"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html#a494196a49fa513257e15e1b9d4509c76">mrTriangulationSize</a></div><div class="ttdeci">MRMESHC_API size_t mrTriangulationSize(const MRTriangulation *tris)</div><div class="ttdoc">gets total count of the vertex triples of the triangulation</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html_ac9a6f553a4b718a38ea7b48e4e51fb33"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html#ac9a6f553a4b718a38ea7b48e4e51fb33">mrTriangulationFree</a></div><div class="ttdeci">MRMESHC_API void mrTriangulationFree(MRTriangulation *tris)</div><div class="ttdoc">deallocates the Triangulation object</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html_afc3b6e0a49f09ba4c3af9f03fc2fdfc2"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html#afc3b6e0a49f09ba4c3af9f03fc2fdfc2">mrTriangulationData</a></div><div class="ttdeci">MRMESHC_API const MRThreeVertIds * mrTriangulationData(const MRTriangulation *tris)</div><div class="ttdoc">gets read-only access to the vertex triples of the triangulation</div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html"><div class="ttname"><a href="MRMeshC_2MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html_a0cbc8ad8eff5369f50992cfa67668819"><div class="ttname"><a href="MRMeshC_2MRMesh_8h.html#a0cbc8ad8eff5369f50992cfa67668819">mrMeshPoints</a></div><div class="ttdeci">MRMESHC_API const MRVector3f * mrMeshPoints(const MRMesh *mesh)</div><div class="ttdoc">gets read-only access to the mesh vertex coordinates</div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html_a10e7ae1cb0bed2d9259b7d9d91d92d58"><div class="ttname"><a href="MRMeshC_2MRMesh_8h.html#a10e7ae1cb0bed2d9259b7d9d91d92d58">mrMeshGetTriangulation</a></div><div class="ttdeci">MRMESHC_API MRTriangulation * mrMeshGetTriangulation(const MRMesh *mesh)</div></div>

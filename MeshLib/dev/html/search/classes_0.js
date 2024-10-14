@@ -34,5 +34,6 @@ var searchData=
   ['anyvisualizemaskenum_31',['AnyVisualizeMaskEnum',['../classMR_1_1AnyVisualizeMaskEnum.html',1,'MR']]],
   ['arcinterpolationparams_32',['ArcInterpolationParams',['../structMR_1_1ArcInterpolationParams.html',1,'MR']]],
   ['asyncrequest_33',['AsyncRequest',['../classMR_1_1AsyncRequest.html',1,'MR']]],
-  ['asynctimer_34',['AsyncTimer',['../classMR_1_1AsyncTimer.html',1,'MR']]]
+  ['asynctimer_34',['AsyncTimer',['../classMR_1_1AsyncTimer.html',1,'MR']]],
+  ['auto_5fcast_5ftrait_35',['auto_cast_trait',['../structauto__cast__trait.html',1,'']]]
 ];

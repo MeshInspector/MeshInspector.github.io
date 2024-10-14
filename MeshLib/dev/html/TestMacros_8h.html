@@ -127,7 +127,7 @@ $(function(){initNavTree('TestMacros_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a18e67aa9bbe430effc874d3dde1bc7e1" id="r_a18e67aa9bbe430effc874d3dde1bc7e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e67aa9bbe430effc874d3dde1bc7e1">TEST_ASSERT</a>(...)</td></tr>
+<tr class="memitem:a18e67aa9bbe430effc874d3dde1bc7e1" id="r_a18e67aa9bbe430effc874d3dde1bc7e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e67aa9bbe430effc874d3dde1bc7e1">TEST_ASSERT</a>(...)&#160;&#160;&#160;if ( !( __VA_ARGS__ ) ) { fprintf( stderr, &quot;%s:%d: check failed: %s\n&quot;, __func__, __LINE__, ( #__VA_ARGS__ ) ); abort(); }</td></tr>
 <tr class="separator:a18e67aa9bbe430effc874d3dde1bc7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -141,16 +141,11 @@ Macros</h2></td></tr>
           <td class="memname">#define TEST_ASSERT</td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
-          <td></td>
+          <td>&#160;&#160;&#160;if ( !( __VA_ARGS__ ) ) { fprintf( stderr, &quot;%s:%d: check failed: %s\n&quot;, __func__, __LINE__, ( #__VA_ARGS__ ) ); abort(); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> ( !( __VA_ARGS__ ) ) \</div>
-<div class="line">    {                 \</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;%s: check failed: %s\n&quot;</span>, __func__, ( #__VA_ARGS__ ) ); \</div>
-<div class="line">        abort();      \</div>
-<div class="line">    }</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 </div><!-- contents -->
