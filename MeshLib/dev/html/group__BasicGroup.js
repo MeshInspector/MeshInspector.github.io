@@ -57,7 +57,7 @@ var group__BasicGroup =
       [ "nthSetBit", "classMR_1_1TaggedBitSet.html#ae58c03dca7d40527d687e1d315539731", null ],
       [ "operator&=", "classMR_1_1TaggedBitSet.html#a9524451c92f6f4ed3ff71898ec79c411", null ],
       [ "operator-=", "classMR_1_1TaggedBitSet.html#a1c8aee25bccee66a0c7e707d6f9a05c6", null ],
-      [ "operator[]", "classMR_1_1TaggedBitSet.html#a4b62eed7c6e381e492b2010bfc81ed7b", null ],
+      [ "operator[]", "classMR_1_1TaggedBitSet.html#a4e7bb097431a6fb63cf7c1b81ad11d55", null ],
       [ "operator[]", "classMR_1_1TaggedBitSet.html#acd2a612e7324d56a05716e8b63eacd36", null ],
       [ "operator^=", "classMR_1_1TaggedBitSet.html#a073ac7340b8d2a44161e18ed93ef435d", null ],
       [ "operator|=", "classMR_1_1TaggedBitSet.html#a2aab8e5476aab380895dad35d479c316", null ],
