@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1SelectScreenLasso.html#aca121a3040e13577002feb80ef7f9456":[12,0,1,568,3],
+"classMR_1_1SeparationPointStorage.html":[10,0,12,583],
 "classMR_1_1SeparationPointStorage.html":[12,0,1,569],
 "classMR_1_1SeparationPointStorage.html#a3ad8f87539f118ca7419849b7029208b":[10,0,12,583,4],
 "classMR_1_1SeparationPointStorage.html#a3ad8f87539f118ca7419849b7029208b":[12,0,1,569,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1StateBasePlugin.html#a31980ff25e0e7e77cf8ace037ddd9f68":[10,0,12,615,13],
 "classMR_1_1StateBasePlugin.html#a31980ff25e0e7e77cf8ace037ddd9f68":[12,0,1,601,13],
 "classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[10,0,12,615,0],
-"classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[12,0,1,601,0],
-"classMR_1_1StateBasePlugin.html#a3e096e6d2e0ecf98e399691bd99c82f7":[10,0,12,615,2],
-"classMR_1_1StateBasePlugin.html#a3e096e6d2e0ecf98e399691bd99c82f7":[12,0,1,601,2]
+"classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[12,0,1,601,0]
 };

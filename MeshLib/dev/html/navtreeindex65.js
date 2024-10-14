@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1IPointPairs.html#ae584abe0ef15be5d6f3fc244f176751b":[12,0,1,267,3],
+"structMR_1_1IPointPairs.html#afcac114c6d43447ea0cae96eb9270de8":[10,0,12,281,7],
 "structMR_1_1IPointPairs.html#afcac114c6d43447ea0cae96eb9270de8":[12,0,1,267,7],
 "structMR_1_1IdRange.html":[9,3,5],
 "structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a":[9,3,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1IntersectionPrecomputes.html":[9,1,14],
 "structMR_1_1IntersectionPrecomputes2.html":[9,1,15],
 "structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[9,1,15,2],
-"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[9,1,15,7],
-"structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b":[9,1,15,1],
-"structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f":[9,1,15,6]
+"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[9,1,15,7]
 };

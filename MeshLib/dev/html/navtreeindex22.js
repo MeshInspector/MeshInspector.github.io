@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca":[9,0,16,9],
+"classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3":[9,0,16,8],
 "classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3":[9,0,16,6],
 "classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c":[9,0,16,5],
 "classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8":[9,0,16,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1IViewerSettingsManager.html#af168e749a6c59588feb5c727fbe61f5e":[10,0,12,296,4],
 "classMR_1_1IViewerSettingsManager.html#af168e749a6c59588feb5c727fbe61f5e":[12,0,1,282,4],
 "classMR_1_1Id.html":[10,0,12,262],
-"classMR_1_1Id.html":[12,0,1,248],
-"classMR_1_1Id.html#a3422cab9a3b559a5d3866a1a054bb317":[10,0,12,262,2],
-"classMR_1_1Id.html#a3422cab9a3b559a5d3866a1a054bb317":[12,0,1,248,2]
+"classMR_1_1Id.html":[12,0,1,248]
 };

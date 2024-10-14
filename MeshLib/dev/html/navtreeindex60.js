@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[9,8,0,0,1],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#abb0760c2ba75ba32b9fcf2d5e36fe803":[9,8,0,0,2],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[9,8,0,0,4],
 "structMR_1_1BooleanResultPoints.html":[10,0,12,80],
 "structMR_1_1BooleanResultPoints.html":[12,0,1,66],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DecimateParallelSettings.html#a719fd646bf50bc2582fbf39d3f3a6ac4":[9,10,2,14],
 "structMR_1_1DecimateParallelSettings.html#a737db1b3e50fc4961a8416f00bf3f49e":[9,10,2,11],
 "structMR_1_1DecimateParallelSettings.html#a7d9257bfeb394f132782017fc4dc632c":[9,10,2,7],
-"structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc":[9,10,2,13],
-"structMR_1_1DecimateParallelSettings.html#ad90b28eea121f1eb8d2153a5c87b69a6":[9,10,2,5],
-"structMR_1_1DecimateParallelSettings.html#adf44961ff5f36ea0d89953fc0eb9b889":[9,10,2,8]
+"structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc":[9,10,2,13]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Matrix.html#a969b7d6345630cad2fa560cfc8f69965":[9,0,7,0,0],
+"structMR_1_1Matrix.html#a9732eb2252ae08face0de86a534e7102":[9,0,7,0,12],
 "structMR_1_1Matrix.html#a9eb1e62339fab559b2cdea38de18d03a":[9,0,7,0,3],
 "structMR_1_1Matrix.html#aa5793f31905b29875d11cc1de6d948d5":[9,0,7,0,6],
 "structMR_1_1Matrix.html#aaf278a69da3b6609b3a56d61f89f989e":[9,0,7,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1MeshAttributesToUpdate.html":[10,0,12,326],
 "structMR_1_1MeshAttributesToUpdate.html":[12,0,1,312],
 "structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7":[10,0,12,326,0],
-"structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7":[12,0,1,312,0],
-"structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363":[10,0,12,326,1],
-"structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363":[12,0,1,312,1]
+"structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7":[12,0,1,312,0]
 };
