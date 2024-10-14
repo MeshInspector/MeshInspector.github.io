@@ -231,7 +231,7 @@ $(function(){initNavTree('ExampleCGlobalRegistration.html',''); initResizable(tr
 <div class="line">    <a class="code hl_typedef" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a>* output = <a class="code hl_function" href="MRMeshC_2MRPointCloud_8h.html#a83b780a11d00fe741ecf46699920debf">mrPointCloudNew</a>();</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; inputNum; i++ )</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keyword">const</span> <a class="code hl_struct" href="structMRAffineXf3f.html">MRAffineXf3f</a>* xf = mrVectorAffineXf3fData( xfs ) + i;</div>
+<div class="line">        <span class="keyword">const</span> <a class="code hl_struct" href="structMRAffineXf3f.html">MRAffineXf3f</a>* xf = xfs-&gt;data + i;</div>
 <div class="line">        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> j = 0; j &lt; <a class="code hl_function" href="MRMeshC_2MRPointCloud_8h.html#a7f96795562f933949126c2a97f4b1271">mrPointCloudPointsNum</a>( inputs[i] ); j++ )</div>
 <div class="line">        {</div>
 <div class="line">            <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a>* <a class="code hl_function" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd">point</a> = <a class="code hl_function" href="MRMeshC_2MRPointCloud_8h.html#acc1dc0b47754967aeed02fcdc0bb6272">mrPointCloudPointsRef</a>( inputs[i] ) + j;</div>

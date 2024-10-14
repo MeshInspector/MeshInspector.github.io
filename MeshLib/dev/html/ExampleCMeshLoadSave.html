@@ -163,8 +163,8 @@ $(function(){initNavTree('ExampleCMeshLoadSave.html',''); initResizable(true); }
 <div class="line"> </div>
 <div class="line">    <span class="comment">// extract faces</span></div>
 <div class="line">    MRTriangulation* t = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a10e7ae1cb0bed2d9259b7d9d91d92d58">mrMeshGetTriangulation</a>( mesh1 );</div>
-<div class="line">    <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a>* faces = mrTriangulationData( t );</div>
-<div class="line">    <span class="keywordtype">size_t</span> facesNum = mrTriangulationSize( t );</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a>* faces = t-&gt;data;</div>
+<div class="line">    <span class="keywordtype">size_t</span> facesNum = t-&gt;size;</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( facesNum &gt; 0 )</div>
 <div class="line">        printf( <span class="stringliteral">&quot;The first face&#39;s vertex ids: %d, %d, %d&quot;</span>, faces[0][0].<span class="keywordtype">id</span>, faces[0][1].<span class="keywordtype">id</span>, faces[0][2].<span class="keywordtype">id</span> );</div>
