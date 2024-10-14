@@ -14,7 +14,7 @@ var MRVoxelPath_8h =
       [ "XY", "MRVoxelPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9", null ],
       [ "None", "MRVoxelPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4", null ]
     ] ],
-    [ "buildSmallestMetricPath", "MRVoxelPath_8h.html#ga4861d9b71a36e6d4cf625471751c5dfb", null ],
-    [ "voxelsExponentMetric", "MRVoxelPath_8h.html#ga5807f72a84c52af1fd50c83bceef9e63", null ],
-    [ "voxelsSumDiffsMetric", "MRVoxelPath_8h.html#gac6f3fb235421b043711103935866d07c", null ]
+    [ "buildSmallestMetricPath", "MRVoxelPath_8h.html#gad1772070c201609ff1aac3958e6b9005", null ],
+    [ "voxelsExponentMetric", "MRVoxelPath_8h.html#ga149abd6a892e1284e051e285396c94c6", null ],
+    [ "voxelsSumDiffsMetric", "MRVoxelPath_8h.html#gaffc0e3988ac89d7c4ed030de11be4b80", null ]
 ];

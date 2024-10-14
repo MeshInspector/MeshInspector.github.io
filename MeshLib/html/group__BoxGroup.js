@@ -9,6 +9,7 @@ var group__BoxGroup =
       [ "center", "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e", null ],
       [ "contains", "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598", null ],
       [ "diagonal", "structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144", null ],
+      [ "expanded", "structMR_1_1Box.html#a3f06adfa8006bd6000537a4d96e4f66e", null ],
       [ "getBoxClosestPointTo", "structMR_1_1Box.html#a1af67d1761b8fd15fa204b39d5f9bd46", null ],
       [ "getDistanceSq", "structMR_1_1Box.html#a25efa79c9a3710f2c59fac06fb39ad12", null ],
       [ "getDistanceSq", "structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8", null ],

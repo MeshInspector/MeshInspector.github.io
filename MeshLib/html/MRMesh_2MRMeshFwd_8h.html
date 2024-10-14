@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -115,7 +126,7 @@ $(function(){initNavTree('MRMesh_2MRMeshFwd_8h.html',''); initResizable(true); }
   <div class="headertitle"><div class="title">MRMeshFwd.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="config_8h_source.html">config.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2config_8h_source.html">config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRCanonicalTypedefs_8h_source.html">MRMesh/MRCanonicalTypedefs.h</a>&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -146,8 +157,6 @@ Macros</h2></td></tr>
 <tr class="separator:a08ff09fd7e75c029b08cc255b0734300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ed33a118705bfd4aac6d294495276a" id="r_a45ed33a118705bfd4aac6d294495276a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;&#160;&#160;__attribute__((visibility(&quot;default&quot;)))</td></tr>
 <tr class="separator:a45ed33a118705bfd4aac6d294495276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad84dd3c0651fdf1cdeb201d1b3af8a36" id="r_ad84dd3c0651fdf1cdeb201d1b3af8a36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84dd3c0651fdf1cdeb201d1b3af8a36">MRMESH_IF_HAVE_OPENVDB</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
-<tr class="separator:ad84dd3c0651fdf1cdeb201d1b3af8a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa2c9e5a899e212852b81dbb084d081c" id="r_aaa2c9e5a899e212852b81dbb084d081c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa2c9e5a899e212852b81dbb084d081c">MR_UNREACHABLE</a>&#160;&#160;&#160;{ assert( false ); return {}; }</td></tr>
 <tr class="separator:aaa2c9e5a899e212852b81dbb084d081c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf3c82902530739f161963e298ca8dc0" id="r_adf3c82902530739f161963e298ca8dc0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf3c82902530739f161963e298ca8dc0">MR_UNREACHABLE_NO_RETURN</a>&#160;&#160;&#160;assert( false );</td></tr>
@@ -287,8 +296,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:a7a097c2851c9c54eef96a938f84750a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cc9f139078c5c5597f9bb7465fd7fda" id="r_a0cc9f139078c5c5597f9bb7465fd7fda"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0cc9f139078c5c5597f9bb7465fd7fda">MR::GcodeSource</a> = std::vector&lt;std::string&gt;</td></tr>
 <tr class="separator:a0cc9f139078c5c5597f9bb7465fd7fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b6d3fd83a0b2acf2d6e9bfc41f5ee82" id="r_a4b6d3fd83a0b2acf2d6e9bfc41f5ee82"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a> = std::shared_ptr&lt;<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a>&gt;</td></tr>
-<tr class="separator:a4b6d3fd83a0b2acf2d6e9bfc41f5ee82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga51ff94746a41880cd06d3272b5bcf710" id="r_ga51ff94746a41880cd06d3272b5bcf710"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; bool(float)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></td></tr>
 <tr class="separator:ga51ff94746a41880cd06d3272b5bcf710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -368,8 +375,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab08e303630da101533700786067d562b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04c9a5f04585aa8c5818315dfbf0fe8e" id="r_a04c9a5f04585aa8c5818315dfbf0fe8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a04c9a5f04585aa8c5818315dfbf0fe8e">MR::Cone3&lt; float &gt;</a> (Cone3d, <a class="el" href="classMR_1_1Cone3.html">Cone3</a>&lt; double &gt;)) template&lt; typename V &gt; using <a class="el" href="MRObjectLabel_8h.html#a1671b043728dec2b5c7e5446f1b8c97e">Contour</a></td></tr>
 <tr class="separator:a04c9a5f04585aa8c5818315dfbf0fe8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77c29f8e887c961e73d91b1354fe22da" id="r_a77c29f8e887c961e73d91b1354fe22da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a77c29f8e887c961e73d91b1354fe22da">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="structMR_1_1Plane3.html">Plane3</a>,(Plane3f, <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; float &gt;)(Plane3d, <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; double &gt;)) MR_CANONICAL_TYPEDEFS((template&lt; typename V &gt; struct)</td></tr>
-<tr class="separator:a77c29f8e887c961e73d91b1354fe22da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8cf7e6195b87a53df9967a570f99a38" id="r_aa8cf7e6195b87a53df9967a570f99a38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa8cf7e6195b87a53df9967a570f99a38">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="structMR_1_1Plane3.html">Plane3</a>,(Plane3f, <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; float &gt;)(Plane3d, <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; double &gt;)) MR_CANONICAL_TYPEDEFS((template&lt; typename V &gt; struct <a class="el" href="#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>)</td></tr>
+<tr class="separator:aa8cf7e6195b87a53df9967a570f99a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff76859ec61fe11d899abce20bc135eb" id="r_aff76859ec61fe11d899abce20bc135eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aff76859ec61fe11d899abce20bc135eb">MR::Box&lt; Vector2&lt; int &gt; &gt;</a> (Box2ll, <a class="el" href="structMR_1_1Box.html">Box</a>&lt; <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; long long &gt; &gt;)(Box2f</td></tr>
 <tr class="separator:aff76859ec61fe11d899abce20bc135eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2351e1c366ac092fae5c5cd12dbde19" id="r_af2351e1c366ac092fae5c5cd12dbde19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af2351e1c366ac092fae5c5cd12dbde19">MR::Box&lt; Vector2&lt; float &gt; &gt;</a> (Box2d, <a class="el" href="structMR_1_1Box.html">Box</a>&lt; <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; double &gt; &gt;)(Box3i</td></tr>
@@ -401,10 +408,6 @@ Functions</h2></td></tr>
 <tr class="separator:aacc22ee783b806e9b493cf46cf84c13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e70bdb857b2a4beb1d18fc4bfc9f3a2" id="r_a4e70bdb857b2a4beb1d18fc4bfc9f3a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4e70bdb857b2a4beb1d18fc4bfc9f3a2">MR::PolylineProjectionWithOffsetResult&lt; Vector2f &gt;</a> (PolylineProjectionWithOffsetResult3, <a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html">PolylineProjectionWithOffsetResult</a>&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt;)) class <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a></td></tr>
 <tr class="separator:a4e70bdb857b2a4beb1d18fc4bfc9f3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cae187aa278dcc3a1f90d73381fdf64" id="r_a0cae187aa278dcc3a1f90d73381fdf64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0cae187aa278dcc3a1f90d73381fdf64">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>,(SimpleVolume, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; std::vector&lt; float &gt; &gt;)(SimpleVolumeU16, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; std::vector&lt; uint16_t &gt; &gt;) <a class="el" href="#ad84dd3c0651fdf1cdeb201d1b3af8a36">MRMESH_IF_HAVE_OPENVDB</a>((VdbVolume, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &gt;))) template&lt; typename T &gt; using VoxelValueGetter</td></tr>
-<tr class="separator:a0cae187aa278dcc3a1f90d73381fdf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a483d41bec08f9aef04122fd7315984e7" id="r_a483d41bec08f9aef04122fd7315984e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a483d41bec08f9aef04122fd7315984e7">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>,(FunctionVolume, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; VoxelValueGetter&lt; float &gt; &gt;)(FunctionVolumeU8, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; VoxelValueGetter&lt; uint8_t &gt; &gt;)) class <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a></td></tr>
-<tr class="separator:a483d41bec08f9aef04122fd7315984e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25b8519c51156d97c8e543749b003fb1" id="r_a25b8519c51156d97c8e543749b003fb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a25b8519c51156d97c8e543749b003fb1">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename Tag &gt; class <a class="el" href="#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>), <a class="el" href="classMR_1_1ColorMapAggregator.html">ColorMapAggregator</a>,(VertColorMapAggregator, <a class="el" href="classMR_1_1ColorMapAggregator.html">ColorMapAggregator</a>&lt; <a class="el" href="namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e">VertTag</a> &gt;)(UndirEdgeColorMapAggregator, <a class="el" href="classMR_1_1ColorMapAggregator.html">ColorMapAggregator</a>&lt; <a class="el" href="namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b">UndirectedEdgeTag</a> &gt;)(FaceColorMapAggregator, <a class="el" href="classMR_1_1ColorMapAggregator.html">ColorMapAggregator</a>&lt; <a class="el" href="namespaceMR.html#a7a4a96848eb4b1524be699a7adcd8017">FaceTag</a> &gt;)) template&lt; typename T &gt; class <a class="el" href="classMR_1_1FewSmallest.html">FewSmallest</a></td></tr>
 <tr class="separator:a25b8519c51156d97c8e543749b003fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bdf9f3c718616502649bc34a80ac976" id="r_a1bdf9f3c718616502649bc34a80ac976"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -587,23 +590,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MRMESH_CLASS&#160;&#160;&#160;__attribute__((visibility(&quot;default&quot;)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad84dd3c0651fdf1cdeb201d1b3af8a36" name="ad84dd3c0651fdf1cdeb201d1b3af8a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad84dd3c0651fdf1cdeb201d1b3af8a36">&#9670;&#160;</a></span>MRMESH_IF_HAVE_OPENVDB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MRMESH_IF_HAVE_OPENVDB</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
-          <td>&#160;&#160;&#160;__VA_ARGS__</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -7,8 +7,6 @@ var topics =
     [ "History group", "group__HistoryGroup.html", "group__HistoryGroup" ],
     [ "Distance Map group", "group__DistanceMapGroup.html", "group__DistanceMapGroup" ],
     [ "Mesh Segmentation overwiev", "group__MeshSegmentationGroup.html", "group__MeshSegmentationGroup" ],
-    [ "Basic Structures", "group__BasicStructuresGroup.html", "group__BasicStructuresGroup" ],
-    [ "Components", "group__ComponentsGroup.html", "group__ComponentsGroup" ],
     [ "Mesh", "group__MeshGroup.html", "group__MeshGroup" ],
     [ "Surface Boolean overview", "group__BooleanGroup.html", "group__BooleanGroup" ],
     [ "Mesh Algorithm", "group__MeshAlgorithmGroup.html", "group__MeshAlgorithmGroup" ],
@@ -20,5 +18,7 @@ var topics =
     [ "Polyline Subdivide", "group__PolylineSubdivideGroup.html", "group__PolylineSubdivideGroup" ],
     [ "Surface Paths", "group__SurfacePathGroup.html", "group__SurfacePathGroup" ],
     [ "Voxel", "group__VoxelGroup.html", "group__VoxelGroup" ],
+    [ "Basic Structures", "group__BasicStructuresGroup.html", "group__BasicStructuresGroup" ],
+    [ "Components", "group__ComponentsGroup.html", "group__ComponentsGroup" ],
     [ "Points Load", "group__PointsLoadGroup.html", null ]
 ];

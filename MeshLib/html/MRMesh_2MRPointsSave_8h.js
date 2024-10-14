@@ -1,12 +1,13 @@
 var MRMesh_2MRPointsSave_8h =
 [
-    [ "toAnySupportedFormat", "MRMesh_2MRPointsSave_8h.html#ga4661fee21d729fcd4f240982d4a9c4a4", null ],
-    [ "toAnySupportedFormat", "MRMesh_2MRPointsSave_8h.html#ga900d2a67aae77bfeeaecc804573b0d8b", null ],
-    [ "toAsc", "MRMesh_2MRPointsSave_8h.html#ga164575d6c8576236bc0c167239208541", null ],
-    [ "toAsc", "MRMesh_2MRPointsSave_8h.html#gae66f401f5377e8995c69cfe270e688fa", null ],
-    [ "toCtm", "MRMesh_2MRPointsSave_8h.html#ga30ea6359fbf19427eb51c13625de9502", null ],
-    [ "toCtm", "MRMesh_2MRPointsSave_8h.html#ga0140aed2f45754c56c4cff2dd4c8a765", null ],
-    [ "toPly", "MRMesh_2MRPointsSave_8h.html#ga8888fda1d863df9298b87ca47d8f9dff", null ],
-    [ "toPly", "MRMesh_2MRPointsSave_8h.html#gaaa4b89ab02641d9ec8c2bb9283d8ab4a", null ],
-    [ "Filters", "MRMesh_2MRPointsSave_8h.html#gadca4e7a5056bb39e229f8bf6bd43ea41", null ]
+    [ "toAnySupportedFormat", "MRMesh_2MRPointsSave_8h.html#ga3c8f83fa34faa244672c9f70f436659d", null ],
+    [ "toAnySupportedFormat", "MRMesh_2MRPointsSave_8h.html#gaf483fe48c6b9e28ef2cd22358d099b82", null ],
+    [ "toAsc", "MRMesh_2MRPointsSave_8h.html#gaac66378aea59c039d4d6f10abc88e0c7", null ],
+    [ "toAsc", "MRMesh_2MRPointsSave_8h.html#ga58b1b79208930b911c4953c1cd70bf48", null ],
+    [ "toPly", "MRMesh_2MRPointsSave_8h.html#gaf05b1fb23e1b89b10750e721301bd4e8", null ],
+    [ "toPly", "MRMesh_2MRPointsSave_8h.html#ga74463b5ee9c7ec9c927c775ea3d5abe7", null ],
+    [ "toXyz", "MRMesh_2MRPointsSave_8h.html#ga94002b7226a354d4ed16c373abe30200", null ],
+    [ "toXyz", "MRMesh_2MRPointsSave_8h.html#ga1cda44c459bb9985cbe588c06eaf5b32", null ],
+    [ "toXyzn", "MRMesh_2MRPointsSave_8h.html#gaef7fbffead1d7db6959ce064667d0644", null ],
+    [ "toXyzn", "MRMesh_2MRPointsSave_8h.html#gac312a015d428306e9cd7f0d7f35598ed", null ]
 ];

@@ -37,6 +37,6 @@ var searchData=
   ['cudafreememoryfunc_34',['CudaFreeMemoryFunc',['../classMR_1_1CudaAccessor.html#aa67f49b71c900e67a603dc5a6960d567',1,'MR::CudaAccessor']]],
   ['cudafwnconstructor_35',['CudaFwnConstructor',['../classMR_1_1CudaAccessor.html#a29c59af2c526ce1b2b126dd201c3a7fb',1,'MR::CudaAccessor']]],
   ['cudameshprojectorconstructor_36',['CudaMeshProjectorConstructor',['../classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9',1,'MR::CudaAccessor']]],
-  ['cudapointstodistancevolumecallback_37',['CudaPointsToDistanceVolumeCallback',['../classMR_1_1CudaAccessor.html#a093594ce011867252af1cb9b9b47db9a',1,'MR::CudaAccessor']]],
+  ['cudapointstodistancevolumecallback_37',['CudaPointsToDistanceVolumeCallback',['../classMR_1_1CudaAccessor.html#a7acccf65074e9ea99f88143c0ba0816a',1,'MR::CudaAccessor']]],
   ['cursorentrancesignal_38',['CursorEntranceSignal',['../classMR_1_1Viewer.html#a2af4faf6f3c5c1c112b74670726a060f',1,'MR::Viewer']]]
 ];

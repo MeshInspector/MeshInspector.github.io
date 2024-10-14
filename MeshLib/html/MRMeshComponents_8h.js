@@ -4,6 +4,7 @@ var MRMeshComponents_8h =
       [ "PerEdge", "MRMeshComponents_8h.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],
       [ "PerVertex", "MRMeshComponents_8h.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ]
     ] ],
+    [ "excludeFullySelectedComponents", "MRMeshComponents_8h.html#gad556a5b5ed5f6001f378455d5b5a822c", null ],
     [ "getAllComponents", "MRMeshComponents_8h.html#gafde425f262b1f15428664fd79a1f0735", null ],
     [ "getAllComponents", "MRMeshComponents_8h.html#gab7b32c390e4839b252de2944886916f9", null ],
     [ "getAllComponents", "MRMeshComponents_8h.html#ga4cf74d4564ff134bb6415bbcfe4feb42", null ],

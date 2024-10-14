@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['numpy_0',['Numpy',['../namespaceNumpy.html',1,'']]],
-  ['numpytriangulation_1',['NumpyTriangulation',['../namespaceNumpyTriangulation.html',1,'']]]
+  ['laplacianexample_0',['LaplacianExample',['../namespaceLaplacianExample.html',1,'']]]
 ];

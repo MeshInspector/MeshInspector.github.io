@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -146,15 +157,15 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga5807f72a84c52af1fd50c83bceef9e63" id="r_ga5807f72a84c52af1fd50c83bceef9e63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5807f72a84c52af1fd50c83bceef9e63">MR::voxelsExponentMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
-<tr class="memdesc:ga5807f72a84c52af1fd50c83bceef9e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">e^(modifier*(dens1+dens2))  <br /></td></tr>
-<tr class="separator:ga5807f72a84c52af1fd50c83bceef9e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac6f3fb235421b043711103935866d07c" id="r_gac6f3fb235421b043711103935866d07c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac6f3fb235421b043711103935866d07c">MR::voxelsSumDiffsMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
-<tr class="memdesc:gac6f3fb235421b043711103935866d07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <br /></td></tr>
-<tr class="separator:gac6f3fb235421b043711103935866d07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4861d9b71a36e6d4cf625471751c5dfb" id="r_ga4861d9b71a36e6d4cf625471751c5dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4861d9b71a36e6d4cf625471751c5dfb">MR::buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> &amp;metric, size_t start, size_t finish, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:ga4861d9b71a36e6d4cf625471751c5dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <br /></td></tr>
-<tr class="separator:ga4861d9b71a36e6d4cf625471751c5dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga149abd6a892e1284e051e285396c94c6" id="r_ga149abd6a892e1284e051e285396c94c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga149abd6a892e1284e051e285396c94c6">MR::voxelsExponentMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
+<tr class="memdesc:ga149abd6a892e1284e051e285396c94c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">e^(modifier*(dens1+dens2))  <br /></td></tr>
+<tr class="separator:ga149abd6a892e1284e051e285396c94c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaffc0e3988ac89d7c4ed030de11be4b80" id="r_gaffc0e3988ac89d7c4ed030de11be4b80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffc0e3988ac89d7c4ed030de11be4b80">MR::voxelsSumDiffsMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
+<tr class="memdesc:gaffc0e3988ac89d7c4ed030de11be4b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <br /></td></tr>
+<tr class="separator:gaffc0e3988ac89d7c4ed030de11be4b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1772070c201609ff1aac3958e6b9005" id="r_gad1772070c201609ff1aac3958e6b9005"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> &amp;metric, size_t start, size_t finish, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:gad1772070c201609ff1aac3958e6b9005"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <br /></td></tr>
+<tr class="separator:gad1772070c201609ff1aac3958e6b9005"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -229,8 +240,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga4861d9b71a36e6d4cf625471751c5dfb" name="ga4861d9b71a36e6d4cf625471751c5dfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4861d9b71a36e6d4cf625471751c5dfb">&#9670;&#160;</a></span>buildSmallestMetricPath()</h2>
+<a id="gad1772070c201609ff1aac3958e6b9005" name="gad1772070c201609ff1aac3958e6b9005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1772070c201609ff1aac3958e6b9005">&#9670;&#160;</a></span>buildSmallestMetricPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +250,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; size_t &gt; MR::buildSmallestMetricPath </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; size_t &gt; MR::buildSmallestMetricPath </td>
           <td>(</td>
           <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>
@@ -275,8 +286,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga5807f72a84c52af1fd50c83bceef9e63" name="ga5807f72a84c52af1fd50c83bceef9e63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5807f72a84c52af1fd50c83bceef9e63">&#9670;&#160;</a></span>voxelsExponentMetric()</h2>
+<a id="ga149abd6a892e1284e051e285396c94c6" name="ga149abd6a892e1284e051e285396c94c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga149abd6a892e1284e051e285396c94c6">&#9670;&#160;</a></span>voxelsExponentMetric()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,7 +296,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsExponentMetric </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsExponentMetric </td>
           <td>(</td>
           <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>
@@ -311,8 +322,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gac6f3fb235421b043711103935866d07c" name="gac6f3fb235421b043711103935866d07c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac6f3fb235421b043711103935866d07c">&#9670;&#160;</a></span>voxelsSumDiffsMetric()</h2>
+<a id="gaffc0e3988ac89d7c4ed030de11be4b80" name="gaffc0e3988ac89d7c4ed030de11be4b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaffc0e3988ac89d7c4ed030de11be4b80">&#9670;&#160;</a></span>voxelsSumDiffsMetric()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,7 +332,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsSumDiffsMetric </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsSumDiffsMetric </td>
           <td>(</td>
           <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>

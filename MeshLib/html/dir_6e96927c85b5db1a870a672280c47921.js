@@ -1,5 +1,6 @@
 var dir_6e96927c85b5db1a870a672280c47921 =
 [
+    [ "config.h", "MRViewer_2config_8h.html", null ],
     [ "ImGuiHelpers.h", "ImGuiHelpers_8h.html", "ImGuiHelpers_8h" ],
     [ "ImGuiMenu.h", "ImGuiMenu_8h.html", "ImGuiMenu_8h" ],
     [ "MRAlphaSortGL.h", "MRAlphaSortGL_8h.html", "MRAlphaSortGL_8h" ],
@@ -83,6 +84,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRSaveOnClose.h", "MRSaveOnClose_8h.html", "MRSaveOnClose_8h" ],
     [ "MRSceneCache.h", "MRSceneCache_8h.html", "MRSceneCache_8h" ],
     [ "MRSceneObjectsListDrawer.h", "MRSceneObjectsListDrawer_8h.html", "MRSceneObjectsListDrawer_8h" ],
+    [ "MRSceneOperations.h", "MRSceneOperations_8h.html", "MRSceneOperations_8h" ],
     [ "MRSceneSelectionChange.h", "MRSceneSelectionChange_8h.html", "MRSceneSelectionChange_8h" ],
     [ "MRSceneStateCheck.h", "MRSceneStateCheck_8h.html", "MRSceneStateCheck_8h" ],
     [ "MRSceneTextureGL.h", "MRSceneTextureGL_8h.html", "MRSceneTextureGL_8h" ],

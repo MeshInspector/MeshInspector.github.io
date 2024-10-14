@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -133,6 +144,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aac4ecae12eb97ad05b204ac14de42cb8" id="r_aac4ecae12eb97ad05b204ac14de42cb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac4ecae12eb97ad05b204ac14de42cb8">smoothCurvature</a> = true</td></tr>
 <tr class="memdesc:aac4ecae12eb97ad05b204ac14de42cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to make patch over the hole smooth both inside and on its boundary with existed surface.  <br /></td></tr>
 <tr class="separator:aac4ecae12eb97ad05b204ac14de42cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba46fa5a5269e9ffb23176c985a2c2b7" id="r_aba46fa5a5269e9ffb23176c985a2c2b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba46fa5a5269e9ffb23176c985a2c2b7">naturalSmooth</a> = false</td></tr>
+<tr class="memdesc:aba46fa5a5269e9ffb23176c985a2c2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole.  <br /></td></tr>
+<tr class="separator:aba46fa5a5269e9ffb23176c985a2c2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a033b24c89dfe82d1d7ebadc8b24f1a79" id="r_a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033b24c89dfe82d1d7ebadc8b24f1a79">edgeWeights</a> = <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
 <tr class="memdesc:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge weighting scheme for smoothCurvature mode  <br /></td></tr>
 <tr class="separator:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +235,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maximum number of edge splits allowed during subdivision. </p>
+
+</div>
+</div>
+<a id="aba46fa5a5269e9ffb23176c985a2c2b7" name="aba46fa5a5269e9ffb23176c985a2c2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba46fa5a5269e9ffb23176c985a2c2b7">&#9670;&#160;</a></span>naturalSmooth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FillHoleNicelySettings::naturalSmooth = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole. </p>
 
 </div>
 </div>

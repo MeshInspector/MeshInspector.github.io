@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -112,6 +123,8 @@ $(function(){initNavTree('MRObjectSave_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRUniqueTemporaryFolder_8h_source.html">MRUniqueTemporaryFolder.h</a>&quot;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 </div>
 <p><a href="MRObjectSave_8h_source.html">Go to the source code of this file.</a></p>
@@ -129,6 +142,11 @@ Functions</h2></td></tr>
 <tr class="separator:aacb67adec04e843d7b476835acc3b2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a3a511e827b1db27f3a67e02c92c08" id="r_a54a3a511e827b1db27f3a67e02c92c08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ObjectSave.html#a54a3a511e827b1db27f3a67e02c92c08">MR::ObjectSave::toAnySupportedFormat</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="separator:a54a3a511e827b1db27f3a67e02c92c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5186cb23f32bc2d4c503ccec9da5319" id="r_aa5186cb23f32bc2d4c503ccec9da5319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">MR::serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress, <a class="el" href="namespaceMR.html#a3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> preCompress)</td></tr>
+<tr class="memdesc:aa5186cb23f32bc2d4c503ccec9da5319"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves object subtree in given scene file (zip/mru)  <br /></td></tr>
+<tr class="separator:aa5186cb23f32bc2d4c503ccec9da5319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e8b4194bf387abeb01e1aab7ca1cdb" id="r_ae1e8b4194bf387abeb01e1aab7ca1cdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae1e8b4194bf387abeb01e1aab7ca1cdb">MR::serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress={})</td></tr>
+<tr class="separator:ae1e8b4194bf387abeb01e1aab7ca1cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

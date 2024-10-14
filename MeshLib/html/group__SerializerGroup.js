@@ -1,15 +1,8 @@
 var group__SerializerGroup =
 [
-    [ "MR::UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", [
-      [ "UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html#a927d3044de46cf4f92b9067312edf48b", null ],
-      [ "~UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256", null ],
-      [ "operator bool", "classMR_1_1UniqueTemporaryFolder.html#a8ec198312afe50720d7c5ab8ef8cfc46", null ],
-      [ "operator/", "classMR_1_1UniqueTemporaryFolder.html#a990b724a34e3cff31ff265fee8ab84b5", null ]
-    ] ],
-    [ "MR::FolderCallback", "group__SerializerGroup.html#ga3f12c695d99ddb646e5d824fa7257413", null ],
-    [ "MR::compressZip", "group__SerializerGroup.html#ga02e4f1770ef424d638e95a3e26512c19", null ],
-    [ "MR::decompressZip", "group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd", null ],
-    [ "MR::decompressZip", "group__SerializerGroup.html#ga6d8ef8273465ccaed58c0b0bcac27de7", null ],
+    [ "MR::compressZip", "group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#ga60ea0861186c3cd722eaed269571bc6d", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#ga2e076375162aa8d5f3665a95f10e3710", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga4c0c62354556511936a0e90a2d4c586e", null ],
@@ -33,11 +26,8 @@ var group__SerializerGroup =
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga790b6ef6dd31f1a82bf42d810c4c1f44", null ],
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga84a27be875063a2ab0d174fa1f9e7771", null ],
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga4cabdbc3ab0e26dfe5f3f9541c696fc7", null ],
-    [ "MR::deserializeObjectTree", "group__SerializerGroup.html#ga4043b5c1dadd14c81e7aa228d8dcdb62", null ],
-    [ "MR::deserializeObjectTreeFromFolder", "group__SerializerGroup.html#ga687c1818acf6f0e7b43997d04a94eddf", null ],
     [ "MR::deserializeViaVerticesFromJson", "group__SerializerGroup.html#gab74247c70d34bac9da9d1e8c421b0703", null ],
-    [ "MR::serializeMesh", "group__SerializerGroup.html#gaceafcc544da777d00267253c9a4894aa", null ],
-    [ "MR::serializeObjectTree", "group__SerializerGroup.html#gaca961a714f0192aaf552be5f4cd5556e", null ],
+    [ "MR::serializeMesh", "group__SerializerGroup.html#ga808a7911fef76e6fef660071c41e3da8", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],
@@ -46,7 +36,7 @@ var group__SerializerGroup =
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga337dbc4391f7f93340ae0d57d9992358", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gadbd20d4ea1f7a2145ec9cea92d0c6d21", null ],
-    [ "MR::serializeToJson", "group__SerializerGroup.html#ga0e4cb5b845a808cc7438777b42bffb69", null ],
+    [ "MR::serializeToJson", "group__SerializerGroup.html#ga180759b8329e6976e4084837bf87bdb2", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gacd39b6a2edca023ff58233e8a5938a10", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga332fb7d3339d515c107f05a5f3e4d251", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gabf5d52bb9f6c77c69a8e8897c42fce28", null ],
@@ -60,7 +50,5 @@ var group__SerializerGroup =
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga01084ea4b91576f192aeb68017e8e45e", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga2460b57ac19911dbba07d61927a47ece", null ],
-    [ "MR::serializeViaVerticesToJson", "group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28", null ],
-    [ "MR::SceneFileFilters", "group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb", null ],
-    [ "MR::SceneFileWriteFilters", "group__SerializerGroup.html#ga4d85510ea6cd8863229ae69ea4b7d051", null ]
+    [ "MR::serializeViaVerticesToJson", "group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28", null ]
 ];

@@ -2,8 +2,8 @@ var group__AABBTreeGroup =
 [
     [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63", null ],
-      [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#a86d3189a5d71a05df142f08397fef76e", null ],
-      [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#a8a173eb3f05713100a901eba45cafcc9", null ],
+      [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#a8f0d5ef5f204a398a7f22887435a0176", null ],
+      [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#a0ac02a471d83eacb27b8cd1d8ba4df62", null ],
       [ "calcFromVector", "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418", null ],
       [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e", null ],
       [ "calcWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#a607e556ab03bf24b121ec271b21166ce", null ]
@@ -106,8 +106,8 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
-      [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#adf39f3740ff84ed5d367174f1cd8f8a8", null ],
-      [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a5c5cfefc8fc0cd8e6a4ced7bdccb19ce", null ],
+      [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#a9223c831603c90299781783593ae4d75", null ],
+      [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a19f0d9ad10214d87ac4fddc12fc56714", null ],
       [ "calcFromVector", "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841", null ],
       [ "calcSelfIntersections", "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998", null ],
       [ "calcWithDistances", "classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01", null ]
@@ -159,6 +159,13 @@ var group__AABBTreeGroup =
       [ "distanceAlongLine", "structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61", null ],
       [ "mtp", "structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2", null ],
       [ "proj", "structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1", null ]
+    ] ],
+    [ "MR::MultiRayMeshIntersectResult", "structMR_1_1MultiRayMeshIntersectResult.html", [
+      [ "intersectingRays", "structMR_1_1MultiRayMeshIntersectResult.html#a71a0fa75e778ec8d7c6e2a3f6b0a8090", null ],
+      [ "isectBary", "structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15", null ],
+      [ "isectFaces", "structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc", null ],
+      [ "isectPts", "structMR_1_1MultiRayMeshIntersectResult.html#a7455a93722a7e3da39f0baacdfb67c00", null ],
+      [ "rayParams", "structMR_1_1MultiRayMeshIntersectResult.html#a30ea67fa78a1fc789771c27d5d7d4868", null ]
     ] ],
     [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", [
       [ "mesh", "structMR_1_1MultiMeshIntersectionResult.html#af09308818e602f745c2bfb1144b73980", null ]
@@ -279,6 +286,7 @@ var group__AABBTreeGroup =
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga30d53ebf69ce150861f17e4695543778", null ],
     [ "MR::isPointInsidePolyline", "group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524", null ],
     [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
+    [ "MR::multiRayMeshIntersect", "group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045", null ],
     [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],
     [ "MR::processCloseTriangles", "group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151", null ],

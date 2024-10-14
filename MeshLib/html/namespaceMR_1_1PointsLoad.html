@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -106,8 +117,8 @@ $(function(){initNavTree('namespaceMR_1_1PointsLoad.html',''); initResizable(tru
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::PointsLoad Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -119,73 +130,238 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads scene from e57 file  <a href="structMR_1_1PointsLoad_1_1NamedCloud.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsLoad_1_1PointsLoader.html">PointsLoader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:acaeabf1d4cced15a0961b626a6e9b868" id="r_acaeabf1d4cced15a0961b626a6e9b868"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaeabf1d4cced15a0961b626a6e9b868">PointsFileLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; )</td></tr>
+<tr class="separator:acaeabf1d4cced15a0961b626a6e9b868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f81139db68679c906d09ff033071478" id="r_a0f81139db68679c906d09ff033071478"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f81139db68679c906d09ff033071478">PointsStreamLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&gt;( * )( std::istream&amp;, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; )</td></tr>
+<tr class="separator:a0f81139db68679c906d09ff033071478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga926d8926c53e6187023c42a9cd851738" id="r_ga926d8926c53e6187023c42a9cd851738"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga926d8926c53e6187023c42a9cd851738">fromText</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings)</td></tr>
-<tr class="memdesc:ga926d8926c53e6187023c42a9cd851738"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .csv, .asc, .xyz, .txt file  <br /></td></tr>
-<tr class="separator:ga926d8926c53e6187023c42a9cd851738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4860ebfa068e9f812ad2055da100071b" id="r_ga4860ebfa068e9f812ad2055da100071b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga4860ebfa068e9f812ad2055da100071b">fromText</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings)</td></tr>
-<tr class="separator:ga4860ebfa068e9f812ad2055da100071b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2849d22b8e8686e00030f4edfc983eaf" id="r_ga2849d22b8e8686e00030f4edfc983eaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga2849d22b8e8686e00030f4edfc983eaf">fromText</a> (const std::filesystem::path &amp;file, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:ga2849d22b8e8686e00030f4edfc983eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2b201a610ac6d9966a990c73a9a6bbf" id="r_gab2b201a610ac6d9966a990c73a9a6bbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gab2b201a610ac6d9966a990c73a9a6bbf">fromText</a> (std::istream &amp;in, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:gab2b201a610ac6d9966a990c73a9a6bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f8398c2ce6718096a2e972a18df4642" id="r_ga1f8398c2ce6718096a2e972a18df4642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga1f8398c2ce6718096a2e972a18df4642">fromPts</a> (const std::filesystem::path &amp;file, VertColors *colors=nullptr, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:ga1f8398c2ce6718096a2e972a18df4642"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from Laser scan plain data format (.pts) file  <br /></td></tr>
-<tr class="separator:ga1f8398c2ce6718096a2e972a18df4642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga970253dab15b22771caef0797a1c3966" id="r_ga970253dab15b22771caef0797a1c3966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga970253dab15b22771caef0797a1c3966">fromPts</a> (std::istream &amp;in, VertColors *colors=nullptr, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:ga970253dab15b22771caef0797a1c3966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga204a67384f92f298b6a75e542a330433" id="r_ga204a67384f92f298b6a75e542a330433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga204a67384f92f298b6a75e542a330433">fromCtm</a> (const std::filesystem::path &amp;file, VertColors *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:ga204a67384f92f298b6a75e542a330433"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ctm file  <br /></td></tr>
-<tr class="separator:ga204a67384f92f298b6a75e542a330433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae52cef3a63333385fa89edee1545beb4" id="r_gae52cef3a63333385fa89edee1545beb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gae52cef3a63333385fa89edee1545beb4">fromCtm</a> (std::istream &amp;in, VertColors *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:gae52cef3a63333385fa89edee1545beb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga039c8285b2e5935dcfb8fc43486ca781" id="r_ga039c8285b2e5935dcfb8fc43486ca781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga039c8285b2e5935dcfb8fc43486ca781">fromPly</a> (const std::filesystem::path &amp;file, VertColors *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:ga039c8285b2e5935dcfb8fc43486ca781"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ply file  <br /></td></tr>
-<tr class="separator:ga039c8285b2e5935dcfb8fc43486ca781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga970fb1eb1d9dd08f950889a4702ae8ab" id="r_ga970fb1eb1d9dd08f950889a4702ae8ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga970fb1eb1d9dd08f950889a4702ae8ab">fromPly</a> (std::istream &amp;in, VertColors *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:ga970fb1eb1d9dd08f950889a4702ae8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2909b44f13f690c51bbfd1e4f35e478" id="r_gad2909b44f13f690c51bbfd1e4f35e478"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gad2909b44f13f690c51bbfd1e4f35e478">fromObj</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:gad2909b44f13f690c51bbfd1e4f35e478"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .obj file  <br /></td></tr>
-<tr class="separator:gad2909b44f13f690c51bbfd1e4f35e478"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0668c8f0da81356097aeae119e76b12b" id="r_ga0668c8f0da81356097aeae119e76b12b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga0668c8f0da81356097aeae119e76b12b">fromObj</a> (std::istream &amp;in, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:ga0668c8f0da81356097aeae119e76b12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2e3992d088d0c4e2a6d3aa126838bd5" id="r_gab2e3992d088d0c4e2a6d3aa126838bd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gab2e3992d088d0c4e2a6d3aa126838bd5">fromE57</a> (const std::filesystem::path &amp;file, VertColors *colors=nullptr, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:gab2e3992d088d0c4e2a6d3aa126838bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .e57 file  <br /></td></tr>
-<tr class="separator:gab2e3992d088d0c4e2a6d3aa126838bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3600d768af34a6771d6bef679e1e4a6e" id="r_ga3600d768af34a6771d6bef679e1e4a6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga3600d768af34a6771d6bef679e1e4a6e">fromLas</a> (const std::filesystem::path &amp;file, VertColors *colors=nullptr, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:ga3600d768af34a6771d6bef679e1e4a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .las file  <br /></td></tr>
-<tr class="separator:ga3600d768af34a6771d6bef679e1e4a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd62e44a13dc83756295dd1167a11055" id="r_gabd62e44a13dc83756295dd1167a11055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gabd62e44a13dc83756295dd1167a11055">fromLas</a> (std::istream &amp;in, VertColors *colors=nullptr, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:gabd62e44a13dc83756295dd1167a11055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga279c0e5230754b22ce280fc1fe2b1870" id="r_ga279c0e5230754b22ce280fc1fe2b1870"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga279c0e5230754b22ce280fc1fe2b1870">fromDxf</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:ga279c0e5230754b22ce280fc1fe2b1870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga95dd4bfd9119be47109d23210a65f748" id="r_ga95dd4bfd9119be47109d23210a65f748"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga95dd4bfd9119be47109d23210a65f748">fromDxf</a> (std::istream &amp;in, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:ga95dd4bfd9119be47109d23210a65f748"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad823c8bb877bbd945536e2e827b610ef" id="r_gad823c8bb877bbd945536e2e827b610ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gad823c8bb877bbd945536e2e827b610ef">fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, VertColors *colors=nullptr, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:gad823c8bb877bbd945536e2e827b610ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads points from it  <br /></td></tr>
-<tr class="separator:gad823c8bb877bbd945536e2e827b610ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga16cb7df4432e4c4d8777d9c53400a45e" id="r_ga16cb7df4432e4c4d8777d9c53400a45e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga16cb7df4432e4c4d8777d9c53400a45e">fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, VertColors *colors=nullptr, <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:ga16cb7df4432e4c4d8777d9c53400a45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
-<tr class="separator:ga16cb7df4432e4c4d8777d9c53400a45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad81fe9fd9600672db0823a97400342d2" id="r_ad81fe9fd9600672db0823a97400342d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad81fe9fd9600672db0823a97400342d2">fromSceneE57File</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoad_1_1E57LoadSettings.html">E57LoadSettings</a> &amp;settings={})</td></tr>
-<tr class="separator:ad81fe9fd9600672db0823a97400342d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga78bba5f59da26b22b8f18e15440cfccd" id="r_ga78bba5f59da26b22b8f18e15440cfccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd">Filters</a></td></tr>
-<tr class="separator:ga78bba5f59da26b22b8f18e15440cfccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b59aa67ceb07a2c286623b602b0df14" id="r_a9b59aa67ceb07a2c286623b602b0df14"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b59aa67ceb07a2c286623b602b0df14">fromCtm</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:a9b59aa67ceb07a2c286623b602b0df14"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ctm file  <br /></td></tr>
+<tr class="separator:a9b59aa67ceb07a2c286623b602b0df14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0030f09e2896b2052ba028b90a6fbb7" id="r_ad0030f09e2896b2052ba028b90a6fbb7"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0030f09e2896b2052ba028b90a6fbb7">fromCtm</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ad0030f09e2896b2052ba028b90a6fbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e9f8e6672cc948a2e5206a91b2b261" id="r_ad5e9f8e6672cc948a2e5206a91b2b261"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5e9f8e6672cc948a2e5206a91b2b261">fromSceneE57File</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoad_1_1E57LoadSettings.html">E57LoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ad5e9f8e6672cc948a2e5206a91b2b261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd37d2ce03a3b80ed6007282794d1232" id="r_abd37d2ce03a3b80ed6007282794d1232"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd37d2ce03a3b80ed6007282794d1232">fromE57</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:abd37d2ce03a3b80ed6007282794d1232"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .e57 file  <br /></td></tr>
+<tr class="separator:abd37d2ce03a3b80ed6007282794d1232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017223f665d17204885688a9f3e0d66a" id="r_a017223f665d17204885688a9f3e0d66a"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a017223f665d17204885688a9f3e0d66a">fromE57</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:a017223f665d17204885688a9f3e0d66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad77d60f87ff1535bd8e75da4db8f860c" id="r_ad77d60f87ff1535bd8e75da4db8f860c"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad77d60f87ff1535bd8e75da4db8f860c">loadObjectFromE57</a> (const std::filesystem::path &amp;path, std::string *warnings=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ad77d60f87ff1535bd8e75da4db8f860c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39953df84a0deacd37f047884a37372" id="r_ab39953df84a0deacd37f047884a37372"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab39953df84a0deacd37f047884a37372">fromLas</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ab39953df84a0deacd37f047884a37372"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .las file  <br /></td></tr>
+<tr class="separator:ab39953df84a0deacd37f047884a37372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4cbf7590e7b73675bbbdaa9fb468ac2" id="r_ae4cbf7590e7b73675bbbdaa9fb468ac2"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4cbf7590e7b73675bbbdaa9fb468ac2">fromLas</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ae4cbf7590e7b73675bbbdaa9fb468ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff1fcad8c4a57da6a7dc90d9fb1f2a56" id="r_gaff1fcad8c4a57da6a7dc90d9fb1f2a56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56">fromText</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:gaff1fcad8c4a57da6a7dc90d9fb1f2a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .csv, .asc, .xyz, .txt file  <br /></td></tr>
+<tr class="separator:gaff1fcad8c4a57da6a7dc90d9fb1f2a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab1a6e8a21cedba988c7ecaea8eda8d2c" id="r_gab1a6e8a21cedba988c7ecaea8eda8d2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gab1a6e8a21cedba988c7ecaea8eda8d2c">fromText</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:gab1a6e8a21cedba988c7ecaea8eda8d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga365add9d0f24601d5f6b167a7401409c" id="r_ga365add9d0f24601d5f6b167a7401409c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga365add9d0f24601d5f6b167a7401409c">fromPts</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga365add9d0f24601d5f6b167a7401409c"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from Laser scan plain data format (.pts) file  <br /></td></tr>
+<tr class="separator:ga365add9d0f24601d5f6b167a7401409c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76499883ce907d382fed5d9522aadaa8" id="r_ga76499883ce907d382fed5d9522aadaa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga76499883ce907d382fed5d9522aadaa8">fromPts</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga76499883ce907d382fed5d9522aadaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga64740729d79ac47a437b07ade4cdd263" id="r_ga64740729d79ac47a437b07ade4cdd263"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga64740729d79ac47a437b07ade4cdd263">fromPly</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga64740729d79ac47a437b07ade4cdd263"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ply file  <br /></td></tr>
+<tr class="separator:ga64740729d79ac47a437b07ade4cdd263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabcb84700ed6a15a625e0033b4b70004b" id="r_gabcb84700ed6a15a625e0033b4b70004b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gabcb84700ed6a15a625e0033b4b70004b">fromPly</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:gabcb84700ed6a15a625e0033b4b70004b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga397a19d78a3050dda279565c1962c330" id="r_ga397a19d78a3050dda279565c1962c330"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga397a19d78a3050dda279565c1962c330">fromObj</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga397a19d78a3050dda279565c1962c330"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .obj file  <br /></td></tr>
+<tr class="separator:ga397a19d78a3050dda279565c1962c330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4657017f48af1fe3829844adc135bf0" id="r_gad4657017f48af1fe3829844adc135bf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gad4657017f48af1fe3829844adc135bf0">fromObj</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:gad4657017f48af1fe3829844adc135bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20c9e8324f81247ee337a60745ad7c8c" id="r_ga20c9e8324f81247ee337a60745ad7c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga20c9e8324f81247ee337a60745ad7c8c">fromDxf</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga20c9e8324f81247ee337a60745ad7c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga750d0574c9ee2875720273d1f4c73e62" id="r_ga750d0574c9ee2875720273d1f4c73e62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga750d0574c9ee2875720273d1f4c73e62">fromDxf</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga750d0574c9ee2875720273d1f4c73e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0f629849bb97f655fcf29a1b3afd9fa" id="r_gab0f629849bb97f655fcf29a1b3afd9fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:gab0f629849bb97f655fcf29a1b3afd9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads points from it  <br /></td></tr>
+<tr class="separator:gab0f629849bb97f655fcf29a1b3afd9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a63511b8cba2da2a8c8373fefc0a384" id="r_ga9a63511b8cba2da2a8c8373fefc0a384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga9a63511b8cba2da2a8c8373fefc0a384">fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga9a63511b8cba2da2a8c8373fefc0a384"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
+<tr class="separator:ga9a63511b8cba2da2a8c8373fefc0a384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ad81fe9fd9600672db0823a97400342d2" name="ad81fe9fd9600672db0823a97400342d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad81fe9fd9600672db0823a97400342d2">&#9670;&#160;</a></span>fromSceneE57File()</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="acaeabf1d4cced15a0961b626a6e9b868" name="acaeabf1d4cced15a0961b626a6e9b868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaeabf1d4cced15a0961b626a6e9b868">&#9670;&#160;</a></span>PointsFileLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a> &gt; &gt; MR::PointsLoad::fromSceneE57File </td>
+          <td class="memname">using <a class="el" href="#acaeabf1d4cced15a0961b626a6e9b868">MR::PointsLoad::PointsFileLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f81139db68679c906d09ff033071478" name="a0f81139db68679c906d09ff033071478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f81139db68679c906d09ff033071478">&#9670;&#160;</a></span>PointsStreamLoader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a0f81139db68679c906d09ff033071478">MR::PointsLoad::PointsStreamLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&gt;( * )( std::istream&amp;, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a9b59aa67ceb07a2c286623b602b0df14" name="a9b59aa67ceb07a2c286623b602b0df14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b59aa67ceb07a2c286623b602b0df14">&#9670;&#160;</a></span>fromCtm() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromCtm </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>loads from .ctm file </p>
+
+</div>
+</div>
+<a id="ad0030f09e2896b2052ba028b90a6fbb7" name="ad0030f09e2896b2052ba028b90a6fbb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0030f09e2896b2052ba028b90a6fbb7">&#9670;&#160;</a></span>fromCtm() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromCtm </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd37d2ce03a3b80ed6007282794d1232" name="abd37d2ce03a3b80ed6007282794d1232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd37d2ce03a3b80ed6007282794d1232">&#9670;&#160;</a></span>fromE57() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromE57 </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>loads from .e57 file </p>
+
+</div>
+</div>
+<a id="a017223f665d17204885688a9f3e0d66a" name="a017223f665d17204885688a9f3e0d66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a017223f665d17204885688a9f3e0d66a">&#9670;&#160;</a></span>fromE57() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromE57 </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab39953df84a0deacd37f047884a37372" name="ab39953df84a0deacd37f047884a37372"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab39953df84a0deacd37f047884a37372">&#9670;&#160;</a></span>fromLas() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromLas </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>loads from .las file </p>
+
+</div>
+</div>
+<a id="ae4cbf7590e7b73675bbbdaa9fb468ac2" name="ae4cbf7590e7b73675bbbdaa9fb468ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4cbf7590e7b73675bbbdaa9fb468ac2">&#9670;&#160;</a></span>fromLas() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromLas </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5e9f8e6672cc948a2e5206a91b2b261" name="ad5e9f8e6672cc948a2e5206a91b2b261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e9f8e6672cc948a2e5206a91b2b261">&#9670;&#160;</a></span>fromSceneE57File()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a> &gt; &gt; MR::PointsLoad::fromSceneE57File </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
         </tr>
@@ -193,6 +369,32 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoad_1_1E57LoadSettings.html">E57LoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad77d60f87ff1535bd8e75da4db8f860c" name="ad77d60f87ff1535bd8e75da4db8f860c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad77d60f87ff1535bd8e75da4db8f860c">&#9670;&#160;</a></span>loadObjectFromE57()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &gt; MR::PointsLoad::loadObjectFromE57 </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *</td>          <td class="paramname"><span class="paramname"><em>warnings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

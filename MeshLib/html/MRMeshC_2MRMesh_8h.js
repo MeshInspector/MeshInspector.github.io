@@ -19,5 +19,6 @@ var MRMeshC_2MRMesh_8h =
     [ "mrMeshPointsRef", "MRMeshC_2MRMesh_8h.html#abbd1a9c366f2fd8fbb39374056143b91", null ],
     [ "mrMeshTopology", "MRMeshC_2MRMesh_8h.html#a2f5d81f940456a9ae80511fb12f71669", null ],
     [ "mrMeshTopologyRef", "MRMeshC_2MRMesh_8h.html#aa3d016c217ed1d760c0e0085a4a3629b", null ],
-    [ "mrMeshTransform", "MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb", null ]
+    [ "mrMeshTransform", "MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb", null ],
+    [ "mrMeshVolume", "MRMeshC_2MRMesh_8h.html#a9831a689157c78cdf1083cd9d8c0287e", null ]
 ];

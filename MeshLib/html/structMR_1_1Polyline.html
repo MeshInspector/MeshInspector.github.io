@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -170,6 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3de745fc249ab0b56e00796cf740f97" id="r_ab3de745fc249ab0b56e00796cf740f97"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3de745fc249ab0b56e00796cf740f97">edgeLengthSq</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
 <tr class="memdesc:ab3de745fc249ab0b56e00796cf740f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared Euclidean length of the edge (faster to compute than length)  <br /></td></tr>
 <tr class="separator:ab3de745fc249ab0b56e00796cf740f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd9babfa09e9b253e4e80937c08fa6f" id="r_adcd9babfa09e9b253e4e80937c08fa6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd9babfa09e9b253e4e80937c08fa6f">loopDirArea</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="separator:adcd9babfa09e9b253e4e80937c08fa6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a9c58f07401349f8113bfc5e5e03619" id="r_a2a9c58f07401349f8113bfc5e5e03619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a9c58f07401349f8113bfc5e5e03619">totalLength</a> () const</td></tr>
 <tr class="memdesc:a2a9c58f07401349f8113bfc5e5e03619"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns total length of the polyline  <br /></td></tr>
 <tr class="separator:a2a9c58f07401349f8113bfc5e5e03619"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1038,6 +1051,34 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>Invalidates caches (e.g. aabb-tree) after a change in polyline. </p>
+
+</div>
+</div>
+<a id="adcd9babfa09e9b253e4e80937c08fa6f" name="adcd9babfa09e9b253e4e80937c08fa6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcd9babfa09e9b253e4e80937c08fa6f">&#9670;&#160;</a></span>loopDirArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::loopDirArea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>calculates directed loop area if iterating in <code>e</code> direction .z = FLT_MAX if <code>e</code> does not represent a loop </p>
 
 </div>
 </div>

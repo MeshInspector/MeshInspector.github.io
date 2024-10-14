@@ -1,8 +1,8 @@
 var searchData=
 [
   ['namedcloud_0',['NamedCloud',['../structMR_1_1PointsLoad_1_1NamedCloud.html',1,'MR::PointsLoad']]],
-  ['namedmesh_1',['NamedMesh',['../structMR_1_1MeshLoad_1_1NamedMesh.html',1,'MR::MeshLoad']]],
-  ['namedmeshloader_2',['NamedMeshLoader',['../structMR_1_1MeshLoad_1_1NamedMeshLoader.html',1,'MR::MeshLoad']]],
+  ['namedmesh_1',['NamedMesh',['../structMR_1_1MeshLoad_1_1NamedMesh.html',1,'MR::MeshLoad::NamedMesh'],['../structNamedMesh.html',1,'NamedMesh']]],
+  ['namedmeshxf_2',['NamedMeshXf',['../structNamedMeshXf.html',1,'']]],
   ['namedxfmesh_3',['NamedXfMesh',['../structMR_1_1MeshSave_1_1NamedXfMesh.html',1,'MR::MeshSave']]],
   ['nametagclicklistener_4',['NameTagClickListener',['../structMR_1_1NameTagClickListener.html',1,'MR']]],
   ['nextedgesameleft_5',['NextEdgeSameLeft',['../classMR_1_1NextEdgeSameLeft.html',1,'MR']]],

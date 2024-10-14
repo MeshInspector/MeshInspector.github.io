@@ -8,8 +8,6 @@ var group__MeshLoadGroup =
     [ "MR::MeshLoad::fromASCIIStl", "group__MeshLoadGroup.html#ga48e8ba7fe63a7dd81cac9f267a869133", null ],
     [ "MR::MeshLoad::fromBinaryStl", "group__MeshLoadGroup.html#ga800a25cbcfacd411f62b7c5f66035242", null ],
     [ "MR::MeshLoad::fromBinaryStl", "group__MeshLoadGroup.html#ga08e50aacade413e567cd3bc388b51163", null ],
-    [ "MR::MeshLoad::fromCtm", "group__MeshLoadGroup.html#gad1abe6936a08dddc898c6dd69299f2a4", null ],
-    [ "MR::MeshLoad::fromCtm", "group__MeshLoadGroup.html#ga34e51a7b27f5301a325014d43a02c4be", null ],
     [ "MR::MeshLoad::fromDxf", "group__MeshLoadGroup.html#ga1335c7ebd417b7e14d4a7fbec71b1e16", null ],
     [ "MR::MeshLoad::fromDxf", "group__MeshLoadGroup.html#ga6c226ac764bb215351691358c90e3eef", null ],
     [ "MR::MeshLoad::fromMrmesh", "group__MeshLoadGroup.html#ga0230084d7f2168e0171883198494ca0a", null ],

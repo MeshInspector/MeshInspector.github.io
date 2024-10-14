@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -134,19 +145,19 @@ Serialization</h1>
 <div class="line"><span class="comment">//  all objects parameters are saved in one JSON file in the root folder</span></div>
 <div class="line"><span class="comment">//  </span></div>
 <div class="line"><span class="comment">// saving is controlled with Object::serializeModel_ and Object::serializeFields_</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;void, std::string&gt; <a class="code hl_function" href="group__SerializerGroup.html#gaca961a714f0192aaf552be5f4cd5556e">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, </div>
+<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;void, std::string&gt; <a class="code hl_function" href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, </div>
 <div class="line">    <span class="keyword">const</span> std::filesystem::path&amp; path, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress = {} );</div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:589</div></div>
-<div class="ttc" id="agroup__SerializerGroup_html_gaca961a714f0192aaf552be5f4cd5556e"><div class="ttname"><a href="group__SerializerGroup.html#gaca961a714f0192aaf552be5f4cd5556e">MR::serializeObjectTree</a></div><div class="ttdeci">MRMESH_API VoidOrErrStr serializeObjectTree(const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress={}, FolderCallback preCompress={})</div><div class="ttdoc">saves object subtree in given scene file (zip/mru)</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
+<div class="ttc" id="anamespaceMR_html_aa5186cb23f32bc2d4c503ccec9da5319"><div class="ttname"><a href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">MR::serializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; serializeObjectTree(const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress, FolderCallback preCompress)</div><div class="ttdoc">saves object subtree in given scene file (zip/mru)</div></div>
 </div><!-- fragment --><p>And to deserialize object tree: </p><div class="fragment"><div class="line"><span class="comment">// loads objects tree from given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
 <div class="line"><span class="comment">//  children are saved under folder with name of their parent object</span></div>
 <div class="line"><span class="comment">//  all objects parameters are saved in one JSON file in the root folder</span></div>
 <div class="line"><span class="comment">//  </span></div>
 <div class="line"><span class="comment">// loading is controlled with Object::deserializeModel_ and Object::deserializeFields_</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;Object, std::string&gt; <a class="code hl_function" href="group__SerializerGroup.html#ga4043b5c1dadd14c81e7aa228d8dcdb62">deserializeObjectTree</a>(<span class="keyword">const</span> std::filesystem::path&amp; path);</div>
-<div class="ttc" id="agroup__SerializerGroup_html_ga4043b5c1dadd14c81e7aa228d8dcdb62"><div class="ttname"><a href="group__SerializerGroup.html#ga4043b5c1dadd14c81e7aa228d8dcdb62">MR::deserializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; std::shared_ptr&lt; Object &gt; &gt; deserializeObjectTree(const std::filesystem::path &amp;path, FolderCallback postDecompress={}, ProgressCallback progressCb={})</div><div class="ttdoc">loads objects tree from given scene file (zip/mru)</div></div>
+<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;Object, std::string&gt; <a class="code hl_function" href="namespaceMR.html#a4043b5c1dadd14c81e7aa228d8dcdb62">deserializeObjectTree</a>(<span class="keyword">const</span> std::filesystem::path&amp; path);</div>
+<div class="ttc" id="anamespaceMR_html_a4043b5c1dadd14c81e7aa228d8dcdb62"><div class="ttname"><a href="namespaceMR.html#a4043b5c1dadd14c81e7aa228d8dcdb62">MR::deserializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; std::shared_ptr&lt; Object &gt; &gt; deserializeObjectTree(const std::filesystem::path &amp;path, FolderCallback postDecompress={}, ProgressCallback progressCb={})</div><div class="ttdoc">loads objects tree from given scene file (zip/mru)</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="DataModelInheritance"></a>
 Inheritance</h1>
 <p>To create your own object type you need to make class derived from one of base class:</p><ol type="1">

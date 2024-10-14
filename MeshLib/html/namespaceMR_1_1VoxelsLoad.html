@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -106,9 +117,9 @@ $(function(){initNavTree('namespaceMR_1_1VoxelsLoad.html',''); initResizable(tru
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::VoxelsLoad Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -124,6 +135,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ac95950f875729ac15c011d99d4624d96" id="r_ac95950f875729ac15c011d99d4624d96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac95950f875729ac15c011d99d4624d96">VoxelsLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )</td></tr>
+<tr class="separator:ac95950f875729ac15c011d99d4624d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a5a3e4b96e9ddb9678f554fe8a8d56a19" id="r_a5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">GridType</a> { <a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7">DenseGrid</a> = 0
@@ -133,57 +149,70 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga9dea5760f438e7cd068a17cd2fba73d3" id="r_ga9dea5760f438e7cd068a17cd2fba73d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3">sortFilesByName</a> (std::vector&lt; std::filesystem::path &gt; &amp;scans)</td></tr>
-<tr class="separator:ga9dea5760f438e7cd068a17cd2fba73d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga50518b64e41eba976ef0a7506079ec8a" id="r_ga50518b64e41eba976ef0a7506079ec8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga50518b64e41eba976ef0a7506079ec8a">loadDCMsFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga50518b64e41eba976ef0a7506079ec8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D all volumetric data from DICOM files in a folder.  <br /></td></tr>
-<tr class="separator:ga50518b64e41eba976ef0a7506079ec8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87e7febbd233017a007fdb51f9440f4f" id="r_ga87e7febbd233017a007fdb51f9440f4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga87e7febbd233017a007fdb51f9440f4f">loadDCMFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga87e7febbd233017a007fdb51f9440f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D first volumetric data from DICOM files in a folder.  <br /></td></tr>
-<tr class="separator:ga87e7febbd233017a007fdb51f9440f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga058d883315a4af25784fefb62138d3bd" id="r_ga058d883315a4af25784fefb62138d3bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga058d883315a4af25784fefb62138d3bd">loadDicomsFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga058d883315a4af25784fefb62138d3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D all volumetric data from DICOM files in a folder.  <br /></td></tr>
-<tr class="separator:ga058d883315a4af25784fefb62138d3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d1328d15f7ddda227fc82a53bb3c770" id="r_ga6d1328d15f7ddda227fc82a53bb3c770"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga6d1328d15f7ddda227fc82a53bb3c770">loadDicomFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga6d1328d15f7ddda227fc82a53bb3c770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D first volumetric data from DICOM files in a folder.  <br /></td></tr>
-<tr class="separator:ga6d1328d15f7ddda227fc82a53bb3c770"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga88289ace3a896945a36c7780c35b439a" id="r_ga88289ace3a896945a36c7780c35b439a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga88289ace3a896945a36c7780c35b439a">loadDCMFolderTree</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga88289ace3a896945a36c7780c35b439a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads every subfolder with DICOM volume as new object.  <br /></td></tr>
-<tr class="separator:ga88289ace3a896945a36c7780c35b439a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d0974d79299a028dfd015537b16c3fc" id="r_ga7d0974d79299a028dfd015537b16c3fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga7d0974d79299a028dfd015537b16c3fc">loadDicomFile</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga7d0974d79299a028dfd015537b16c3fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D volumetric data from a single DICOM file.  <br /></td></tr>
-<tr class="separator:ga7d0974d79299a028dfd015537b16c3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2dfa76ef07c626fc16580265e726bb49" id="r_ga2dfa76ef07c626fc16580265e726bb49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga2dfa76ef07c626fc16580265e726bb49">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga2dfa76ef07c626fc16580265e726bb49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters.  <br /></td></tr>
-<tr class="separator:ga2dfa76ef07c626fc16580265e726bb49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4a03760a591e3a8c8b4c2379828e04a9" id="r_ga4a03760a591e3a8c8b4c2379828e04a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga4a03760a591e3a8c8b4c2379828e04a9">fromRaw</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="separator:ga4a03760a591e3a8c8b4c2379828e04a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacefb4b9aef5b4a5948fc76afa6d2d952" id="r_gacefb4b9aef5b4a5948fc76afa6d2d952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gacefb4b9aef5b4a5948fc76afa6d2d952">findRawParameters</a> (std::filesystem::path &amp;file)</td></tr>
-<tr class="separator:gacefb4b9aef5b4a5948fc76afa6d2d952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f0864ad63e4ce5d44718a1e84bf8978" id="r_ga4f0864ad63e4ce5d44718a1e84bf8978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga4f0864ad63e4ce5d44718a1e84bf8978">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga4f0864ad63e4ce5d44718a1e84bf8978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <br /></td></tr>
-<tr class="separator:ga4f0864ad63e4ce5d44718a1e84bf8978"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga11d5c2433d0d4742f87b91c71db94f06" id="r_ga11d5c2433d0d4742f87b91c71db94f06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga11d5c2433d0d4742f87b91c71db94f06">fromVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga11d5c2433d0d4742f87b91c71db94f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all voxel volumes from OpenVDB file.  <br /></td></tr>
-<tr class="separator:ga11d5c2433d0d4742f87b91c71db94f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5bc8fefc2b5097175ad88ff6b93b4f3a" id="r_ga5bc8fefc2b5097175ad88ff6b93b4f3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga5bc8fefc2b5097175ad88ff6b93b4f3a">fromGav</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga5bc8fefc2b5097175ad88ff6b93b4f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-file with micro CT reconstruction.  <br /></td></tr>
-<tr class="separator:ga5bc8fefc2b5097175ad88ff6b93b4f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f67678811c6af5dc14123952407f9bb" id="r_ga2f67678811c6af5dc14123952407f9bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga2f67678811c6af5dc14123952407f9bb">fromGav</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga2f67678811c6af5dc14123952407f9bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-stream with micro CT reconstruction.  <br /></td></tr>
-<tr class="separator:ga2f67678811c6af5dc14123952407f9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b9b670395d4b426beb965e04fd7d6e6" id="r_ga0b9b670395d4b426beb965e04fd7d6e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga0b9b670395d4b426beb965e04fd7d6e6">fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:ga0b9b670395d4b426beb965e04fd7d6e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it.  <br /></td></tr>
-<tr class="separator:ga0b9b670395d4b426beb965e04fd7d6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2719ea417fd64c5e39a58822e9c4c76" id="r_ad2719ea417fd64c5e39a58822e9c4c76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2719ea417fd64c5e39a58822e9c4c76">loadTiffDir</a> (const <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">LoadingTiffSettings</a> &amp;settings)</td></tr>
-<tr class="memdesc:ad2719ea417fd64c5e39a58822e9c4c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxels from a set of TIFF files.  <br /></td></tr>
-<tr class="separator:ad2719ea417fd64c5e39a58822e9c4c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:gaf1ddae6fda30ae38508797dc691653d3" id="r_gaf1ddae6fda30ae38508797dc691653d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaf1ddae6fda30ae38508797dc691653d3">Filters</a></td></tr>
-<tr class="separator:gaf1ddae6fda30ae38508797dc691653d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e69e0cbf065c4b7256ef839c9a0855c" id="r_a9e69e0cbf065c4b7256ef839c9a0855c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e69e0cbf065c4b7256ef839c9a0855c">isDicomFile</a> (const std::filesystem::path &amp;path, std::string *seriesUid=nullptr)</td></tr>
+<tr class="separator:a9e69e0cbf065c4b7256ef839c9a0855c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f49aad4e8e4b528d8ae439d7a54a7ae" id="r_a9f49aad4e8e4b528d8ae439d7a54a7ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f49aad4e8e4b528d8ae439d7a54a7ae">loadDCMsFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a9f49aad4e8e4b528d8ae439d7a54a7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D all volumetric data from DICOM files in a folder.  <br /></td></tr>
+<tr class="separator:a9f49aad4e8e4b528d8ae439d7a54a7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8eca6078fe5dee842e9a1aa87bf7c2" id="r_a3f8eca6078fe5dee842e9a1aa87bf7c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f8eca6078fe5dee842e9a1aa87bf7c2">loadDCMFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a3f8eca6078fe5dee842e9a1aa87bf7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D first volumetric data from DICOM files in a folder.  <br /></td></tr>
+<tr class="separator:a3f8eca6078fe5dee842e9a1aa87bf7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191bfc170e935b4d3114da44095f93f5" id="r_a191bfc170e935b4d3114da44095f93f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a191bfc170e935b4d3114da44095f93f5">loadDicomsFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a191bfc170e935b4d3114da44095f93f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D all volumetric data from DICOM files in a folder.  <br /></td></tr>
+<tr class="separator:a191bfc170e935b4d3114da44095f93f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5af203b157c0742a80e06812bab4d73f" id="r_a5af203b157c0742a80e06812bab4d73f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5af203b157c0742a80e06812bab4d73f">loadDicomFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a5af203b157c0742a80e06812bab4d73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D first volumetric data from DICOM files in a folder.  <br /></td></tr>
+<tr class="separator:a5af203b157c0742a80e06812bab4d73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b78eb6d6ebd1796717c06e022b6793" id="r_a84b78eb6d6ebd1796717c06e022b6793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84b78eb6d6ebd1796717c06e022b6793">loadDCMFolderTree</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a84b78eb6d6ebd1796717c06e022b6793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads every subfolder with DICOM volume as new object.  <br /></td></tr>
+<tr class="separator:a84b78eb6d6ebd1796717c06e022b6793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa851b1268dc07e2f1e505d01132ef259" id="r_aa851b1268dc07e2f1e505d01132ef259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa851b1268dc07e2f1e505d01132ef259">createObjectVoxels</a> (const <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &amp;dcm, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:aa851b1268dc07e2f1e505d01132ef259"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> in <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>  <br /></td></tr>
+<tr class="separator:aa851b1268dc07e2f1e505d01132ef259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3622b66edae8dfd63c281b78441dd22f" id="r_a3622b66edae8dfd63c281b78441dd22f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3622b66edae8dfd63c281b78441dd22f">loadDicomFile</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a3622b66edae8dfd63c281b78441dd22f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D volumetric data from a single DICOM file.  <br /></td></tr>
+<tr class="separator:a3622b66edae8dfd63c281b78441dd22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3e3783e957919006d682b65886541bb" id="r_gad3e3783e957919006d682b65886541bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:gad3e3783e957919006d682b65886541bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters.  <br /></td></tr>
+<tr class="separator:gad3e3783e957919006d682b65886541bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga603131e52dfc2ce8aa33d3a0d0028878" id="r_ga603131e52dfc2ce8aa33d3a0d0028878"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga603131e52dfc2ce8aa33d3a0d0028878">fromRaw</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga603131e52dfc2ce8aa33d3a0d0028878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36e0b89b1624754a51c853b7254c9223" id="r_ga36e0b89b1624754a51c853b7254c9223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga36e0b89b1624754a51c853b7254c9223">findRawParameters</a> (std::filesystem::path &amp;file)</td></tr>
+<tr class="separator:ga36e0b89b1624754a51c853b7254c9223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5b34db6cedd5a6c229f738a4b953212" id="r_gaa5b34db6cedd5a6c229f738a4b953212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaa5b34db6cedd5a6c229f738a4b953212">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:gaa5b34db6cedd5a6c229f738a4b953212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <br /></td></tr>
+<tr class="separator:gaa5b34db6cedd5a6c229f738a4b953212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae5828d9a431d4b30b9d90a66a7fa0e9d" id="r_gae5828d9a431d4b30b9d90a66a7fa0e9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d">fromVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:gae5828d9a431d4b30b9d90a66a7fa0e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all voxel volumes from OpenVDB file.  <br /></td></tr>
+<tr class="separator:gae5828d9a431d4b30b9d90a66a7fa0e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a4b1b8a761fbb02df49c120adf8a866" id="r_ga3a4b1b8a761fbb02df49c120adf8a866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga3a4b1b8a761fbb02df49c120adf8a866">fromGav</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ga3a4b1b8a761fbb02df49c120adf8a866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-file with micro CT reconstruction.  <br /></td></tr>
+<tr class="separator:ga3a4b1b8a761fbb02df49c120adf8a866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4eb40aeebde5d9880345caadb3a0ae7" id="r_gab4eb40aeebde5d9880345caadb3a0ae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gab4eb40aeebde5d9880345caadb3a0ae7">fromGav</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:gab4eb40aeebde5d9880345caadb3a0ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-stream with micro CT reconstruction.  <br /></td></tr>
+<tr class="separator:gab4eb40aeebde5d9880345caadb3a0ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga112e15838444077291559cd2320baedb" id="r_ga112e15838444077291559cd2320baedb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga112e15838444077291559cd2320baedb">fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ga112e15838444077291559cd2320baedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it.  <br /></td></tr>
+<tr class="separator:ga112e15838444077291559cd2320baedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44442bb9fb78ce9c9668e928460258b9" id="r_a44442bb9fb78ce9c9668e928460258b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44442bb9fb78ce9c9668e928460258b9">loadTiffDir</a> (const <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">LoadingTiffSettings</a> &amp;settings)</td></tr>
+<tr class="memdesc:a44442bb9fb78ce9c9668e928460258b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxels from a set of TIFF files.  <br /></td></tr>
+<tr class="separator:a44442bb9fb78ce9c9668e928460258b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ac95950f875729ac15c011d99d4624d96" name="ac95950f875729ac15c011d99d4624d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac95950f875729ac15c011d99d4624d96">&#9670;&#160;</a></span>VoxelsLoader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ac95950f875729ac15c011d99d4624d96">MR::VoxelsLoad::VoxelsLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a5a3e4b96e9ddb9678f554fe8a8d56a19" name="a5a3e4b96e9ddb9678f554fe8a8d56a19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">&#9670;&#160;</a></span>GridType</h2>
@@ -212,14 +241,227 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ad2719ea417fd64c5e39a58822e9c4c76" name="ad2719ea417fd64c5e39a58822e9c4c76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2719ea417fd64c5e39a58822e9c4c76">&#9670;&#160;</a></span>loadTiffDir()</h2>
+<a id="aa851b1268dc07e2f1e505d01132ef259" name="aa851b1268dc07e2f1e505d01132ef259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa851b1268dc07e2f1e505d01132ef259">&#9670;&#160;</a></span>createObjectVoxels()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &gt; &gt; MR::VoxelsLoad::createObjectVoxels </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dcm</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>converts <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> in <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> </p>
+
+</div>
+</div>
+<a id="a9e69e0cbf065c4b7256ef839c9a0855c" name="a9e69e0cbf065c4b7256ef839c9a0855c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e69e0cbf065c4b7256ef839c9a0855c">&#9670;&#160;</a></span>isDicomFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool MR::VoxelsLoad::isDicomFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *</td>          <td class="paramname"><span class="paramname"><em>seriesUid</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>check if file is a valid DICOM dataset file </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seriesUid</td><td>- if set, the extracted series instance UID is copied to the variable </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3f8eca6078fe5dee842e9a1aa87bf7c2" name="a3f8eca6078fe5dee842e9a1aa87bf7c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8eca6078fe5dee842e9a1aa87bf7c2">&#9670;&#160;</a></span>loadDCMFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt; MR::VoxelsLoad::loadDCMFolder </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>maxNumThreads</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads 3D first volumetric data from DICOM files in a folder. </p>
+
+</div>
+</div>
+<a id="a84b78eb6d6ebd1796717c06e022b6793" name="a84b78eb6d6ebd1796717c06e022b6793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b78eb6d6ebd1796717c06e022b6793">&#9670;&#160;</a></span>loadDCMFolderTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt; &gt; MR::VoxelsLoad::loadDCMFolderTree </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>maxNumThreads</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads every subfolder with DICOM volume as new object. </p>
+
+</div>
+</div>
+<a id="a9f49aad4e8e4b528d8ae439d7a54a7ae" name="a9f49aad4e8e4b528d8ae439d7a54a7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f49aad4e8e4b528d8ae439d7a54a7ae">&#9670;&#160;</a></span>loadDCMsFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html">LoadDCMResult</a> &gt; &gt; MR::VoxelsLoad::loadDCMsFolder </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>maxNumThreads</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads 3D all volumetric data from DICOM files in a folder. </p>
+
+</div>
+</div>
+<a id="a3622b66edae8dfd63c281b78441dd22f" name="a3622b66edae8dfd63c281b78441dd22f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3622b66edae8dfd63c281b78441dd22f">&#9670;&#160;</a></span>loadDicomFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt; MR::VoxelsLoad::loadDicomFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads 3D volumetric data from a single DICOM file. </p>
+
+</div>
+</div>
+<a id="a5af203b157c0742a80e06812bab4d73f" name="a5af203b157c0742a80e06812bab4d73f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5af203b157c0742a80e06812bab4d73f">&#9670;&#160;</a></span>loadDicomFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt; MR::VoxelsLoad::loadDicomFolder </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>maxNumThreads</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads 3D first volumetric data from DICOM files in a folder. </p>
+
+</div>
+</div>
+<a id="a191bfc170e935b4d3114da44095f93f5" name="a191bfc170e935b4d3114da44095f93f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191bfc170e935b4d3114da44095f93f5">&#9670;&#160;</a></span>loadDicomsFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">DicomVolume</a> &gt; &gt; MR::VoxelsLoad::loadDicomsFolder </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>maxNumThreads</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads 3D all volumetric data from DICOM files in a folder. </p>
+
+</div>
+</div>
+<a id="a44442bb9fb78ce9c9668e928460258b9" name="a44442bb9fb78ce9c9668e928460258b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44442bb9fb78ce9c9668e928460258b9">&#9670;&#160;</a></span>loadTiffDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">LoadingTiffSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
           <td></td>

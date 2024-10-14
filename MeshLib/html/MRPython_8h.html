@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -114,12 +125,9 @@ $(function(){initNavTree('MRPython_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRPython.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
-<code>#include &lt;pybind11/pybind11.h&gt;</code><br />
-<code>#include &lt;pybind11/operators.h&gt;</code><br />
-<code>#include &lt;pybind11/stl_bind.h&gt;</code><br />
-<code>#include &lt;pybind11/numpy.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRPybind11_8h_source.html">MRPybind11.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRMesh/MRExpected.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
@@ -246,7 +254,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a>( moduleName, name, __VA_ARGS__ ) \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_INST( moduleName, name )</div>
-<div class="ttc" id="aMRPython_8h_html_a01602e407a8f74fb432a16769481688c"><div class="ttname"><a href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS_DECL(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:54</div></div>
+<div class="ttc" id="aMRPython_8h_html_a01602e407a8f74fb432a16769481688c"><div class="ttname"><a href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS_DECL(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:50</div></div>
 </div><!-- fragment --><p>For the proper stub file generation, a class must be defined prior to its depending methods. To achieve it, declare the class <em>before</em> the <a class="el" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a> block:</p><ul>
 <li>for simple cases use <a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> macro;</li>
 <li>to customize class declaration or instantiation (custom holder, custom container binding, etc.), use <a class="el" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a> and <a class="el" href="#a8a0f3d850562d301fdc69b7f7831f572">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</a> macros Finally replace the former class declaration within the <a class="el" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a> with the MR_PYTHON_CUSTOM_CLASS( class-name ) construction. <div class="fragment"><div class="line"><a class="code hl_define" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a>( moduleName, pythonTypeName, cppTypeName )</div>
@@ -257,9 +265,9 @@ Functions</h2></td></tr>
 <div class="line">    <a class="code hl_define" href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a>( pythonTypeName )</div>
 <div class="line">        .def( pybind11::init&lt;&gt;() );</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRPython_8h_html_a061fb85f30303ae23e36fbe5fd7b687c"><div class="ttname"><a href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:96</div></div>
-<div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:39</div></div>
-<div class="ttc" id="aMRPython_8h_html_ae6956a35fce75d18a07941e975ae07cc"><div class="ttname"><a href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_PYTHON_CUSTOM_CLASS(name)</div><div class="ttdef"><b>Definition</b> MRPython.h:50</div></div>
+<div class="ttc" id="aMRPython_8h_html_a061fb85f30303ae23e36fbe5fd7b687c"><div class="ttname"><a href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:92</div></div>
+<div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:35</div></div>
+<div class="ttc" id="aMRPython_8h_html_ae6956a35fce75d18a07941e975ae07cc"><div class="ttname"><a href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_PYTHON_CUSTOM_CLASS(name)</div><div class="ttdef"><b>Definition</b> MRPython.h:46</div></div>
 </div><!-- fragment --> See also <a class="el" href="#a970813ca4d787c0bbe1ca6b1bd231cf9">MR_ADD_PYTHON_VEC</a> and <a class="el" href="#a432ac9a0f3f5aca7d9f0b9741d3b37c5">MR_ADD_PYTHON_MAP</a> macros for customized class definition examples. </li>
 </ul>
 
@@ -381,7 +389,7 @@ Functions</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:222</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:218</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -434,7 +442,7 @@ Functions</h2></td></tr>
 <div class="line">            return ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )const&amp; )&amp; expectedType::error; \</div>
 <div class="line">        } );\</div>
 <div class="line">} )</div>
-<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:49</div></div>
+<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -558,6 +566,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>NOTE: Include this header AFTER any OpenVDB header; otherwise it will break MSVC debug builds.</p>
+<p>External links:</p><ul>
+<li><a href="https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161">https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161</a></li>
+<li><a href="https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105">https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105</a> </li>
+</ul>
 
 </div>
 </div>
@@ -582,14 +595,14 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">PYBIND11_MODULE( moduleName, m )\</div>
 <div class="line">{\</div>
 <div class="line">    precall();\</div>
-<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a>().<a class="code hl_function" href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">functions</a>( #moduleName );\</div>
+<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="classMR_1_1PythonExport.html#abfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a>().<a class="code hl_function" href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">functions</a>( #moduleName );\</div>
 <div class="line">    for ( <span class="keyword">auto</span>&amp; fs : adders )\</div>
 <div class="line">        for ( auto&amp; f : fs )\</div>
 <div class="line">            f( m );\</div>
 <div class="line">}\</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a1ae0ff73c0d87a6c897bf89610cabb81"><div class="ttname"><a href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">MR::PythonExport::functions</a></div><div class="ttdeci">const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:201</div></div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_ab58dad33304df0cdee3c53d47d161ade"><div class="ttname"><a href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a></div><div class="ttdeci">static MRMESH_API PythonExport &amp; instance()</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_a1ae0ff73c0d87a6c897bf89610cabb81"><div class="ttname"><a href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">MR::PythonExport::functions</a></div><div class="ttdeci">const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:197</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_abfb182152c405649c53c0c632868b0c2"><div class="ttname"><a href="classMR_1_1PythonExport.html#abfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a></div><div class="ttdeci">static MRPYTHON_API PythonExport &amp; instance()</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -664,7 +677,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRPython_8h.html">MRPython.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_c97642f483605d674dddd451db5b5449.html">MRPython</a></li><li class="navelem"><a class="el" href="MRPython_8h.html">MRPython.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

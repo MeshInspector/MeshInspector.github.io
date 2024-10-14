@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['base_0',['base',['../classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853',1,'MR::BitSet']]],
+  ['base_0',['base',['../classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853',1,'MR::BitSet::base'],['../structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd',1,'vector_wrapper::base'],['../structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708',1,'vector_ref_wrapper::base']]],
   ['baseaction2f_1',['BaseAction2f',['../classMR_1_1GcodeProcessor.html#a02000ae4305a16e7aca1e6e09bb7e25a',1,'MR::GcodeProcessor']]],
   ['baseaction3f_2',['BaseAction3f',['../classMR_1_1GcodeProcessor.html#a88ffeb0a2dcab67b585df870268d537d',1,'MR::GcodeProcessor']]],
   ['basefitparams_3',['BaseFitParams',['../classMR_1_1Viewport.html#a14d9ce8dba0a41d18ce159115c94cef4',1,'MR::Viewport']]],

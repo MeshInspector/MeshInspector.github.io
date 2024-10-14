@@ -1,7 +1,7 @@
 var searchData=
 [
   ['sampletype_0',['SampleType',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f',1,'MR::BaseTiffParameters']]],
-  ['scalartype_1',['ScalarType',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529b',1,'MR::VoxelsLoad::RawParameters']]],
+  ['scalartype_1',['ScalarType',['../namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8',1,'MR']]],
   ['seedtype_2',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
   ['selectedtypesmask_3',['SelectedTypesMask',['../namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0',1,'MR']]],
   ['shadertype_4',['ShaderType',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748',1,'MR::GLStaticHolder']]],

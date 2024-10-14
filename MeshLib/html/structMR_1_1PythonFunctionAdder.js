@@ -1,5 +1,5 @@
 var structMR_1_1PythonFunctionAdder =
 [
-    [ "PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html#aaed74a628afefa8eedeb5d9b9c5e6976", null ],
-    [ "PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c", null ]
+    [ "PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29", null ],
+    [ "PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f", null ]
 ];

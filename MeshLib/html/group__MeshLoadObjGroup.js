@@ -20,6 +20,7 @@ var group__MeshLoadObjGroup =
     [ "MR::MeshLoad::fromSceneObjFile", "group__MeshLoadObjGroup.html#ga11ad7be5532b39f13f4f6df8f2b49fe7", null ],
     [ "MR::MeshLoad::fromSceneObjFile", "group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02", null ],
     [ "MR::MeshLoad::fromSceneObjFile", "group__MeshLoadObjGroup.html#ga0a0e35247ea58005627d346e49a5de82", null ],
+    [ "MR::MeshLoad::loadObjectFromObj", "group__MeshLoadObjGroup.html#ga8e008bfae184fe362412c719d4883aa2", null ],
     [ "MR::MeshLoad::ObjLoadSettings::callback", "group__MeshLoadObjGroup.html#gaeda2f2f6435f3ba3f78394fb87ed0b35", null ],
     [ "MR::MeshLoad::NamedMesh::colors", "group__MeshLoadObjGroup.html#gacad26bb0f966762a6201f66dbe3e0f03", null ],
     [ "MR::MeshLoad::ObjLoadSettings::countSkippedFaces", "group__MeshLoadObjGroup.html#gaa88281fa5522b4dfb24b0d60f21ad3c7", null ],

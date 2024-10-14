@@ -3,6 +3,7 @@ var classMR_1_1MultiwayICP =
     [ "PairsPerLayer", "classMR_1_1MultiwayICP.html#a37a8e0d52c2729455ea42255f7d90942", null ],
     [ "MultiwayICP", "classMR_1_1MultiwayICP.html#a4fc483cb7fd8b04e2e37761a891b6a15", null ],
     [ "calculateTransformations", "classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739", null ],
+    [ "calculateTransformationsFixFirst", "classMR_1_1MultiwayICP.html#a35f4c37c46a21c889beb5aaf745935bb", null ],
     [ "devEnableIndependentEquationsMode", "classMR_1_1MultiwayICP.html#a44f6380f606dbdbaf88e1bf6357735dc", null ],
     [ "devIndependentEquationsModeEnabled", "classMR_1_1MultiwayICP.html#ae4d25815f9e27aeb558a76b1268fb602", null ],
     [ "getCascadeIndexer", "classMR_1_1MultiwayICP.html#ae32c804d4589f4cbb0cd5821bace1d83", null ],

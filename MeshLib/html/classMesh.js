@@ -5,6 +5,8 @@ var classMesh =
     [ "PackOptimally", "classMesh.html#a5195a0027b8c080936de4c66cef131a6", null ],
     [ "Transform", "classMesh.html#a282809dc092878ceb37e7b00633a0c07", null ],
     [ "Transform", "classMesh.html#a4432fa9ff1f55f209275a1a91cb3cc0c", null ],
+    [ "Volume", "classMesh.html#a34883ea16e2ac1bfa352a8daf82e7161", null ],
+    [ "Volume", "classMesh.html#a47fa32950cef6b9a5b677c850b4a25ad", null ],
     [ "__pad0__", "classMesh.html#a2e067e02f3e3e381882eb8eb8e05022e", null ],
     [ "BoundingBox", "classMesh.html#acb4240bde16fa7e0d103fc19456362ec", null ],
     [ "HoleRepresentiveEdges", "classMesh.html#a38344f7839edade15b54ebf40da394e7", null ],

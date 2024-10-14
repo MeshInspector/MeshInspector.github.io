@@ -4,5 +4,7 @@ var searchData=
   ['decimate_1',['Mesh decimate',['../ExamplePythonMeshDecimate.html',1,'PythonCodeExamples']]],
   ['decimation_2',['Mesh Decimation',['../ExampleCSharpMeshDecimate.html',1,'CSharpCodeExamples']]],
   ['decimation_3',['decimation',['../ExampleCMeshDecimate.html',1,'Mesh decimation'],['../ExampleCppMeshDecimate.html',1,'Mesh decimation']]],
-  ['degeneration_4',['Resolving mesh degeneration',['../ExampleCMeshResolveDegenerations.html',1,'CCodeExamples']]]
+  ['deformation_20example_4',['Free Form Deformation Example',['../ExamplePythonFreeForm.html',1,'PythonCodeExamples']]],
+  ['deformation_20example_5',['Laplacian deformation Example',['../ExamplePythonLaplacian.html',1,'PythonCodeExamples']]],
+  ['degeneration_6',['Resolving mesh degeneration',['../ExampleCMeshResolveDegenerations.html',1,'CCodeExamples']]]
 ];

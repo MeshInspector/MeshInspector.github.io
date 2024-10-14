@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -145,8 +156,8 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// get list of existing holes; each hole is represented by a single edge lying on the hole&#39;s border</span></div>
-<div class="line">    <a class="code hl_typedef" href="MRMeshC_2MRMeshFwd_8h.html#ac9e6f123229c4f8b19f73e50aa22c8da">MREdgePath</a>* holes = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a3eea3ee36aaf0646624e9d8a1bb32356">mrMeshFindHoleRepresentiveEdges</a>( mesh );</div>
-<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#ad1f92f1ff041bf1bdb57375f593fd828">mrEdgePathSize</a>( holes ) == 0 )</div>
+<div class="line">    MREdgePath* holes = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a3eea3ee36aaf0646624e9d8a1bb32356">mrMeshFindHoleRepresentiveEdges</a>( mesh );</div>
+<div class="line">    <span class="keywordflow">if</span> ( holes-&gt;size == 0 )</div>
 <div class="line">    {</div>
 <div class="line">        printf( <span class="stringliteral">&quot;Mesh doesn&#39;t have any holes&quot;</span> );</div>
 <div class="line">        <span class="keywordflow">goto</span> out_holes;</div>
@@ -159,7 +170,7 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="line">    <a class="code hl_struct" href="structMRFillHoleMetric.html">MRFillHoleMetric</a>* metric = <a class="code hl_function" href="MRMeshC_2MRMeshMetrics_8h.html#a039ab12cbc75ca2813c259f9724b5136">mrGetUniversalMetric</a>( mesh );</div>
 <div class="line">    params.<a class="code hl_variable" href="structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286">metric</a> = metric;</div>
 <div class="line">    <span class="comment">// optionally get the bitset of created faces</span></div>
-<div class="line">    <a class="code hl_typedef" href="MRMeshC_2MRMeshFwd_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a>* newFaces = <a class="code hl_function" href="MRMeshC_2MRBitSet_8h.html#a584b640e52637ab066167ab72471fbe5">mrFaceBitSetNew</a>();</div>
+<div class="line">    <a class="code hl_typedef" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a>* newFaces = <a class="code hl_function" href="MRMeshC_2MRBitSet_8h.html#a6c463de59771e69b448f9a5db732aa28">mrFaceBitSetNew</a>( 0, <span class="keyword">false</span> );</div>
 <div class="line">    params.<a class="code hl_variable" href="structMRFillHoleParams.html#abd5e444fda2adcc30b7ff392177db86c">outNewFaces</a> = newFaces;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// you can either fill all holes at once or one by one</span></div>
@@ -167,12 +178,12 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="line">    <span class="keywordtype">size_t</span> newFaceCount = 0;</div>
 <div class="line"><span class="preprocessor">#define FILL_ALL_HOLES 1</span></div>
 <div class="line"><span class="preprocessor">#if FILL_ALL_HOLES</span></div>
-<div class="line">    <a class="code hl_function" href="MRMeshC_2MRMeshFillHole_8h.html#a89abb469600c6558a22078f5aca74177">mrFillHoles</a>( mesh, <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#ab9de02b81370c81369ac47ae03541bfa">mrEdgePathData</a>( holes ), <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#ad1f92f1ff041bf1bdb57375f593fd828">mrEdgePathSize</a>( holes ), &amp;params );</div>
+<div class="line">    <a class="code hl_function" href="MRMeshC_2MRMeshFillHole_8h.html#a89abb469600c6558a22078f5aca74177">mrFillHoles</a>( mesh, holes-&gt;data, holes-&gt;size, &amp;params );</div>
 <div class="line">    newFaceCount = <a class="code hl_function" href="MRMeshC_2MRBitSet_8h.html#a1d870f446bfdcfb125cabc3aeca8672c">mrBitSetCount</a>( newFaces );</div>
 <div class="line"><span class="preprocessor">#else</span></div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#ad1f92f1ff041bf1bdb57375f593fd828">mrEdgePathSize</a>( holes ); i++ )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; mrEdgePathSize( holes ); i++ )</div>
 <div class="line">    {</div>
-<div class="line">        <a class="code hl_struct" href="structMREdgeId.html">MREdgeId</a> e = <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#ab9de02b81370c81369ac47ae03541bfa">mrEdgePathData</a>( holes )[i];</div>
+<div class="line">        <a class="code hl_struct" href="structMREdgeId.html">MREdgeId</a> e = mrEdgePathData( holes )[i];</div>
 <div class="line">        <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a> holeDirArea = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a>( mesh, e );</div>
 <div class="line">        <span class="keywordflow">if</span> ( <a class="code hl_function" href="MRMeshC_2MRVector3_8h.html#a72415dbe3b4fbdcb809e6bec744f710e">mrVector3Length</a>( &amp;holeDirArea ) &gt;= MIN_HOLE_AREA )</div>
 <div class="line">        {</div>
@@ -198,7 +209,7 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="line">out_metric:</div>
 <div class="line">    <a class="code hl_function" href="MRMeshC_2MRMeshMetrics_8h.html#a6882ccc857733c7a6fe9feb52ae94c93">mrFillHoleMetricFree</a>( metric );</div>
 <div class="line">out_holes:</div>
-<div class="line">    <a class="code hl_function" href="MRMeshC_2MRMeshTopology_8h.html#a8e9efcf564e8990146fa66d7c12e1d11">mrEdgePathFree</a>( holes );</div>
+<div class="line">    mrEdgePathFree( holes );</div>
 <div class="line">out_mesh:</div>
 <div class="line">    <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( mesh );</div>
 <div class="line">out:</div>
@@ -207,23 +218,19 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="ttc" id="aMRMeshC_2MRBitSet_8h_html"><div class="ttname"><a href="MRMeshC_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRBitSet_8h_html_a1d870f446bfdcfb125cabc3aeca8672c"><div class="ttname"><a href="MRMeshC_2MRBitSet_8h.html#a1d870f446bfdcfb125cabc3aeca8672c">mrBitSetCount</a></div><div class="ttdeci">MRMESHC_API size_t mrBitSetCount(const MRBitSet *bs)</div><div class="ttdoc">returns the number of bits in this bitset that are set</div></div>
 <div class="ttc" id="aMRMeshC_2MRBitSet_8h_html_a2372aa7f8cb4d5dff3e71bc29ac620bf"><div class="ttname"><a href="MRMeshC_2MRBitSet_8h.html#a2372aa7f8cb4d5dff3e71bc29ac620bf">mrFaceBitSetFree</a></div><div class="ttdeci">MRMESHC_API void mrFaceBitSetFree(MRFaceBitSet *fbs)</div><div class="ttdoc">deallocates a FaceBitSet object</div></div>
-<div class="ttc" id="aMRMeshC_2MRBitSet_8h_html_a584b640e52637ab066167ab72471fbe5"><div class="ttname"><a href="MRMeshC_2MRBitSet_8h.html#a584b640e52637ab066167ab72471fbe5">mrFaceBitSetNew</a></div><div class="ttdeci">MRMESHC_API MRFaceBitSet * mrFaceBitSetNew(void)</div><div class="ttdoc">creates a new FaceBitSet object</div></div>
+<div class="ttc" id="aMRMeshC_2MRBitSet_8h_html_a6c463de59771e69b448f9a5db732aa28"><div class="ttname"><a href="MRMeshC_2MRBitSet_8h.html#a6c463de59771e69b448f9a5db732aa28">mrFaceBitSetNew</a></div><div class="ttdeci">MRMESHC_API MRFaceBitSet * mrFaceBitSetNew(size_t numBits, bool fillValue)</div><div class="ttdoc">creates a new FaceBitSet object</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFillHole_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshFillHole_8h.html">MRMeshFillHole.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFillHole_8h_html_a62a9b8cdd8c95f17540656917d3cf7f6"><div class="ttname"><a href="MRMeshC_2MRMeshFillHole_8h.html#a62a9b8cdd8c95f17540656917d3cf7f6">mrFillHole</a></div><div class="ttdeci">MRMESHC_API void mrFillHole(MRMesh *mesh, MREdgeId a, const MRFillHoleParams *params)</div><div class="ttdoc">Fills hole in mesh .</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFillHole_8h_html_a89abb469600c6558a22078f5aca74177"><div class="ttname"><a href="MRMeshC_2MRMeshFillHole_8h.html#a89abb469600c6558a22078f5aca74177">mrFillHoles</a></div><div class="ttdeci">MRMESHC_API void mrFillHoles(MRMesh *mesh, const MREdgeId *as, size_t asNum, const MRFillHoleParams *params)</div><div class="ttdoc">fill all holes given by their representative edges in</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFillHole_8h_html_a8f29e8032924303cb8ee20195ec00170"><div class="ttname"><a href="MRMeshC_2MRMeshFillHole_8h.html#a8f29e8032924303cb8ee20195ec00170">mrFillHoleParamsNew</a></div><div class="ttdeci">MRMESHC_API MRFillHoleParams mrFillHoleParamsNew(void)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:42</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a883a57a19c513b9ecb905cfa47a9a222"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a></div><div class="ttdeci">MRBitSet MRFaceBitSet</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:36</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:43</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a87ea817dc8204ed7e311d55fd9252cfc"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a></div><div class="ttdeci">struct MRFaceBitSet MRFaceBitSet</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:37</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a89b45a4728b7f2a3281d78d9164162fe"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a></div><div class="ttdeci">typedefMR_EXTERN_C_BEGIN struct MRString MRString</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:32</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_ac9e6f123229c4f8b19f73e50aa22c8da"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#ac9e6f123229c4f8b19f73e50aa22c8da">MREdgePath</a></div><div class="ttdeci">struct MREdgePath MREdgePath</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshLoad_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshMetrics_8h_html_a039ab12cbc75ca2813c259f9724b5136"><div class="ttname"><a href="MRMeshC_2MRMeshMetrics_8h.html#a039ab12cbc75ca2813c259f9724b5136">mrGetUniversalMetric</a></div><div class="ttdeci">MRMESHC_API MRFillHoleMetric * mrGetUniversalMetric(const MRMesh *mesh)</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshMetrics_8h_html_a6882ccc857733c7a6fe9feb52ae94c93"><div class="ttname"><a href="MRMeshC_2MRMeshMetrics_8h.html#a6882ccc857733c7a6fe9feb52ae94c93">mrFillHoleMetricFree</a></div><div class="ttdeci">MRMESHC_API void mrFillHoleMetricFree(MRFillHoleMetric *metric)</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshSave_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html_a8e9efcf564e8990146fa66d7c12e1d11"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html#a8e9efcf564e8990146fa66d7c12e1d11">mrEdgePathFree</a></div><div class="ttdeci">MRMESHC_API void mrEdgePathFree(MREdgePath *ep)</div><div class="ttdoc">deallocates the EdgePath object</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html_ab9de02b81370c81369ac47ae03541bfa"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html#ab9de02b81370c81369ac47ae03541bfa">mrEdgePathData</a></div><div class="ttdeci">MRMESHC_API const MREdgeId * mrEdgePathData(const MREdgePath *ep)</div><div class="ttdoc">gets read-only access to the edges of the edge path</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshTopology_8h_html_ad1f92f1ff041bf1bdb57375f593fd828"><div class="ttname"><a href="MRMeshC_2MRMeshTopology_8h.html#ad1f92f1ff041bf1bdb57375f593fd828">mrEdgePathSize</a></div><div class="ttdeci">MRMESHC_API size_t mrEdgePathSize(const MREdgePath *ep)</div><div class="ttdoc">gets total count of the edges of the edge path</div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html"><div class="ttname"><a href="MRMeshC_2MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html_a2b4e8d0e742af7ef37b537d0f0ba8cb4"><div class="ttname"><a href="MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a></div><div class="ttdeci">MRMESHC_API MRVector3f mrMeshHoleDirArea(const MRMesh *mesh, MREdgeId e)</div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html_a3eea3ee36aaf0646624e9d8a1bb32356"><div class="ttname"><a href="MRMeshC_2MRMesh_8h.html#a3eea3ee36aaf0646624e9d8a1bb32356">mrMeshFindHoleRepresentiveEdges</a></div><div class="ttdeci">MRMESHC_API MREdgePath * mrMeshFindHoleRepresentiveEdges(const MRMesh *mesh)</div></div>

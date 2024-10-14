@@ -12,6 +12,7 @@ var group__MeshComponentsGroup =
     ] ],
     [ "MR::MeshComponents::PerEdge", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],
     [ "MR::MeshComponents::PerVertex", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ],
+    [ "MR::MeshComponents::excludeFullySelectedComponents", "group__MeshComponentsGroup.html#gad556a5b5ed5f6001f378455d5b5a822c", null ],
     [ "MR::MeshComponents::getAllComponents", "group__MeshComponentsGroup.html#gafde425f262b1f15428664fd79a1f0735", null ],
     [ "MR::MeshComponents::getAllComponents", "group__MeshComponentsGroup.html#gab7b32c390e4839b252de2944886916f9", null ],
     [ "MR::MeshComponents::getAllComponents", "group__MeshComponentsGroup.html#ga4cf74d4564ff134bb6415bbcfe4feb42", null ],

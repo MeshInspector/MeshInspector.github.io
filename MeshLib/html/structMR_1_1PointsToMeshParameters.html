@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -131,24 +142,24 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1f8072d5242c289b8aa4c442285102e2" id="r_a1f8072d5242c289b8aa4c442285102e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8072d5242c289b8aa4c442285102e2">progress</a></td></tr>
 <tr class="memdesc:a1f8072d5242c289b8aa4c442285102e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
 <tr class="separator:a1f8072d5242c289b8aa4c442285102e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e104d19ec2046012c1ec8846562afae" id="r_a8e104d19ec2046012c1ec8846562afae"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolume &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e104d19ec2046012c1ec8846562afae">createVolumeCallback</a></td></tr>
-<tr class="memdesc:a8e104d19ec2046012c1ec8846562afae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation. If null - volume will be created with default pointsToDistanceVolume function.  <br /></td></tr>
-<tr class="separator:a8e104d19ec2046012c1ec8846562afae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ea998979bc61c402e801d6a82b292d" id="r_a79ea998979bc61c402e801d6a82b292d"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79ea998979bc61c402e801d6a82b292d">createVolumeCallback</a></td></tr>
+<tr class="memdesc:a79ea998979bc61c402e801d6a82b292d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation. If null - volume will be created with memory efficient pointsToDistanceFunctionVolume function.  <br /></td></tr>
+<tr class="separator:a79ea998979bc61c402e801d6a82b292d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8e104d19ec2046012c1ec8846562afae" name="a8e104d19ec2046012c1ec8846562afae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e104d19ec2046012c1ec8846562afae">&#9670;&#160;</a></span>createVolumeCallback</h2>
+<a id="a79ea998979bc61c402e801d6a82b292d" name="a79ea998979bc61c402e801d6a82b292d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79ea998979bc61c402e801d6a82b292d">&#9670;&#160;</a></span>createVolumeCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolume&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::createVolumeCallback</td>
+          <td class="memname">std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolumeMinMax&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::createVolumeCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Callback for volume creation. If null - volume will be created with default pointsToDistanceVolume function. </p>
+<p>Callback for volume creation. If null - volume will be created with memory efficient pointsToDistanceFunctionVolume function. </p>
 
 </div>
 </div>

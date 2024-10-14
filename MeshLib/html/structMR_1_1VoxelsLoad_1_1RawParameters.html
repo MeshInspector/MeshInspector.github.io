@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -105,7 +116,6 @@ $(function(){initNavTree('structMR_1_1VoxelsLoad_1_1RawParameters.html',''); ini
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1VoxelsLoad_1_1RawParameters-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::VoxelsLoad::RawParameters Struct Reference<div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a> &raquo; <a class="el" href="group__VoxelsLoadGroup.html">Voxels Load</a></div></div></div>
@@ -114,29 +124,6 @@ $(function(){initNavTree('structMR_1_1VoxelsLoad_1_1RawParameters.html',''); ini
 
 <p><code>#include &lt;<a class="el" href="MRVoxelsLoad_8h_source.html">MRVoxelsLoad.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:afda731006a0170d6ba0a3e56353a529b" id="r_afda731006a0170d6ba0a3e56353a529b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afda731006a0170d6ba0a3e56353a529b">ScalarType</a> { <br />
-&#160;&#160;<a class="el" href="#afda731006a0170d6ba0a3e56353a529bab31df9c476d20e85ff898121efe11b5a">UInt8</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529ba7d839b2c12bfd40ac121b4cc9e81c539">Int8</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529ba8bd950a9d7779b83f5c30046c9aaf1cf">UInt16</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529ba39bc2ae44b184207f560ff8619823208">Int16</a>
-, <br />
-&#160;&#160;<a class="el" href="#afda731006a0170d6ba0a3e56353a529bae7956ed7be1c5025a27ed3cb42a396bd">UInt32</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529bac06129f6e6e15c09328365e553f1dc31">Int32</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529baaf71234725f0470ccf993e263a8b820a">UInt64</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487">Int64</a>
-, <br />
-&#160;&#160;<a class="el" href="#afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204">Float32</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0">Float64</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529ba3dced80f38319c510aa418c1dee5e142">Float32_4</a>
-, <a class="el" href="#afda731006a0170d6ba0a3e56353a529ba88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a>
-, <br />
-&#160;&#160;<a class="el" href="#afda731006a0170d6ba0a3e56353a529bae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
-<br />
- }</td></tr>
-<tr class="separator:afda731006a0170d6ba0a3e56353a529b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab1db96ec60477ec788bfe5aeb3596da2" id="r_ab1db96ec60477ec788bfe5aeb3596da2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1db96ec60477ec788bfe5aeb3596da2">dimensions</a></td></tr>
@@ -146,48 +133,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5d28afdbdf8874a171bdaa3da9a77db7" id="r_a5d28afdbdf8874a171bdaa3da9a77db7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d28afdbdf8874a171bdaa3da9a77db7">gridLevelSet</a> { false }</td></tr>
 <tr class="memdesc:a5d28afdbdf8874a171bdaa3da9a77db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction)  <br /></td></tr>
 <tr class="separator:a5d28afdbdf8874a171bdaa3da9a77db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e312b72c2d2fcc457ece979ad10093d" id="r_a9e312b72c2d2fcc457ece979ad10093d"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#afda731006a0170d6ba0a3e56353a529b">MR::VoxelsLoad::RawParameters::ScalarType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e312b72c2d2fcc457ece979ad10093d">Float32</a></td></tr>
-<tr class="separator:a9e312b72c2d2fcc457ece979ad10093d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69214b3d1697f4864e145aa2b9802cea" id="r_a69214b3d1697f4864e145aa2b9802cea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69214b3d1697f4864e145aa2b9802cea">scalarType</a> { <a class="el" href="namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204">ScalarType::Float32</a> }</td></tr>
+<tr class="separator:a69214b3d1697f4864e145aa2b9802cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="afda731006a0170d6ba0a3e56353a529b" name="afda731006a0170d6ba0a3e56353a529b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afda731006a0170d6ba0a3e56353a529b">&#9670;&#160;</a></span>ScalarType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#afda731006a0170d6ba0a3e56353a529b">MR::VoxelsLoad::RawParameters::ScalarType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529bab31df9c476d20e85ff898121efe11b5a" name="afda731006a0170d6ba0a3e56353a529bab31df9c476d20e85ff898121efe11b5a"></a>UInt8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529ba7d839b2c12bfd40ac121b4cc9e81c539" name="afda731006a0170d6ba0a3e56353a529ba7d839b2c12bfd40ac121b4cc9e81c539"></a>Int8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529ba8bd950a9d7779b83f5c30046c9aaf1cf" name="afda731006a0170d6ba0a3e56353a529ba8bd950a9d7779b83f5c30046c9aaf1cf"></a>UInt16&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529ba39bc2ae44b184207f560ff8619823208" name="afda731006a0170d6ba0a3e56353a529ba39bc2ae44b184207f560ff8619823208"></a>Int16&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529bae7956ed7be1c5025a27ed3cb42a396bd" name="afda731006a0170d6ba0a3e56353a529bae7956ed7be1c5025a27ed3cb42a396bd"></a>UInt32&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529bac06129f6e6e15c09328365e553f1dc31" name="afda731006a0170d6ba0a3e56353a529bac06129f6e6e15c09328365e553f1dc31"></a>Int32&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529baaf71234725f0470ccf993e263a8b820a" name="afda731006a0170d6ba0a3e56353a529baaf71234725f0470ccf993e263a8b820a"></a>UInt64&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487" name="afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487"></a>Int64&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204" name="afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204"></a>Float32&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0" name="afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0"></a>Float64&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529ba3dced80f38319c510aa418c1dee5e142" name="afda731006a0170d6ba0a3e56353a529ba3dced80f38319c510aa418c1dee5e142"></a>Float32_4&#160;</td><td class="fielddoc"><p>the last value from float[4] </p>
-</td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529ba88183b946cc5f0e8c96b2e66e1c74a7e" name="afda731006a0170d6ba0a3e56353a529ba88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afda731006a0170d6ba0a3e56353a529bae93f994f01c537c4e2f7d8528c3eb5e9" name="afda731006a0170d6ba0a3e56353a529bae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="ab1db96ec60477ec788bfe5aeb3596da2" name="ab1db96ec60477ec788bfe5aeb3596da2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1db96ec60477ec788bfe5aeb3596da2">&#9670;&#160;</a></span>dimensions</h2>
@@ -197,20 +145,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> MR::VoxelsLoad::RawParameters::dimensions</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9e312b72c2d2fcc457ece979ad10093d" name="a9e312b72c2d2fcc457ece979ad10093d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e312b72c2d2fcc457ece979ad10093d">&#9670;&#160;</a></span>Float32</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#afda731006a0170d6ba0a3e56353a529b">MR::VoxelsLoad::RawParameters::ScalarType</a> MR::VoxelsLoad::RawParameters::Float32</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -230,6 +164,20 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction) </p>
+
+</div>
+</div>
+<a id="a69214b3d1697f4864e145aa2b9802cea" name="a69214b3d1697f4864e145aa2b9802cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69214b3d1697f4864e145aa2b9802cea">&#9670;&#160;</a></span>scalarType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> MR::VoxelsLoad::RawParameters::scalarType { <a class="el" href="namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204">ScalarType::Float32</a> }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

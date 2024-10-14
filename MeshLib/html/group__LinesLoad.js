@@ -5,6 +5,5 @@ var group__LinesLoad =
     [ "MR::LinesLoad::fromMrLines", "group__LinesLoad.html#gae01343ba1b9e20a819096ff99f5d8cb7", null ],
     [ "MR::LinesLoad::fromMrLines", "group__LinesLoad.html#ga1b6abd0497977292cdaf35eedd5c9689", null ],
     [ "MR::LinesLoad::fromPts", "group__LinesLoad.html#ga237c4eab016d887ef8f536c0a9720ccc", null ],
-    [ "MR::LinesLoad::fromPts", "group__LinesLoad.html#gade658ed2767d5682e579eac7882bbdbe", null ],
-    [ "MR::LinesLoad::Filters", "group__LinesLoad.html#gaeea2e209749c64d8d439e9706acabde6", null ]
+    [ "MR::LinesLoad::fromPts", "group__LinesLoad.html#gade658ed2767d5682e579eac7882bbdbe", null ]
 ];

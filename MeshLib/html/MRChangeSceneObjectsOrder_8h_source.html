@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -156,7 +167,7 @@ $(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.html',''); initRes
 <div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50">   45</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50">heapBytes</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a>( childrenOrder_ )</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a>( childrenOrder_ )</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            + name_.capacity();</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
 </div>
@@ -179,8 +190,8 @@ $(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.html',''); initRes
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_ae5412f501f79caacfb257cd392119c50"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50">MR::ChangeSceneObjectsOrder::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeSceneObjectsOrder.h:45</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:19</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_gaed038f421518710e518a218a55c19621"><div class="ttname"><a href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a></div><div class="ttdeci">MRMESH_API size_t heapBytes(const FloatGrid &amp;grid)</div><div class="ttdoc">returns the amount of heap memory occupied by grid</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_ga2442ef2afa7012af6ca21ebcb6604536"><div class="ttname"><a href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const std::vector&lt; T &gt; &amp;vec)</div><div class="ttdoc">returns the amount of memory given vector occupies on heap</div><div class="ttdef"><b>Definition</b> MRHeapBytes.h:15</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

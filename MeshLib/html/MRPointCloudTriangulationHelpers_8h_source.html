@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -236,7 +247,7 @@ $(function(){initNavTree('MRPointCloudTriangulationHelpers_8h_source.html',''); 
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aMRPointsProject_8h_html"><div class="ttname"><a href="MRPointsProject_8h.html">MRPointsProject.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1FewSmallest_html"><div class="ttname"><a href="classMR_1_1FewSmallest.html">MR::FewSmallest</a></div><div class="ttdoc">the class stores some number of smallest elements from a larger number of candidates</div><div class="ttdef"><b>Definition</b> MRFewSmallest.h:14</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:589</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
 <div class="ttc" id="agroup__TriangulationHelpersGroup_html_ga1b730fbcddd0678ad119e9abc6d797c0"><div class="ttname"><a href="group__TriangulationHelpersGroup.html#ga1b730fbcddd0678ad119e9abc6d797c0">MR::TriangulationHelpers::findNeighborsInBall</a></div><div class="ttdeci">MRMESH_API void findNeighborsInBall(const PointCloud &amp;pointCloud, VertId v, float radius, std::vector&lt; VertId &gt; &amp;neighbors)</div><div class="ttdoc">Finds all neighbors of v in given radius (v excluded)</div></div>
 <div class="ttc" id="agroup__TriangulationHelpersGroup_html_ga239d61601b826c9241ca50d59821b545"><div class="ttname"><a href="group__TriangulationHelpersGroup.html#ga239d61601b826c9241ca50d59821b545">MR::TriangulationHelpers::updateNeighborsRadius</a></div><div class="ttdeci">MRMESH_API float updateNeighborsRadius(const VertCoords &amp;points, VertId v, VertId boundaryV, const std::vector&lt; VertId &gt; &amp;fan, float baseRadius)</div><div class="ttdoc">Finds max radius of neighbors search, for possible better local triangulation.</div></div>
 <div class="ttc" id="agroup__TriangulationHelpersGroup_html_gad0f4036eebdcc507b1d8314ee455eef9"><div class="ttname"><a href="group__TriangulationHelpersGroup.html#gad0f4036eebdcc507b1d8314ee455eef9">MR::TriangulationHelpers::isBoundaryPoint</a></div><div class="ttdeci">MRMESH_API bool isBoundaryPoint(const PointCloud &amp;cloud, VertId v, const Settings &amp;settings, TriangulatedFanData &amp;fanData)</div><div class="ttdoc">Checks if given vertex is on boundary of the point cloud, by constructing local triangulation around ...</div></div>
@@ -246,7 +257,7 @@ $(function(){initNavTree('MRPointCloudTriangulationHelpers_8h_source.html',''); 
 <div class="ttc" id="anamespaceMR_1_1TriangulationHelpers_html_a691dadc49fb6346b701545653e8e1dcf"><div class="ttname"><a href="namespaceMR_1_1TriangulationHelpers.html#a691dadc49fb6346b701545653e8e1dcf">MR::TriangulationHelpers::findBoundaryPoints</a></div><div class="ttdeci">MRMESH_API std::optional&lt; VertBitSet &gt; findBoundaryPoints(const PointCloud &amp;pointCloud, const Settings &amp;settings, ProgressCallback cb={})</div><div class="ttdoc">Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each.</div></div>
 <div class="ttc" id="anamespaceMR_1_1TriangulationHelpers_html_a7bac13257412606ce60799f214894488"><div class="ttname"><a href="namespaceMR_1_1TriangulationHelpers.html#a7bac13257412606ce60799f214894488">MR::TriangulationHelpers::buildLocalTriangulation</a></div><div class="ttdeci">MRMESH_API void buildLocalTriangulation(const PointCloud &amp;cloud, VertId v, const Settings &amp;settings, TriangulatedFanData &amp;fanData)</div><div class="ttdoc">constructs local triangulation around given point</div></div>
 <div class="ttc" id="anamespaceMR_1_1TriangulationHelpers_html_aaaaea439dd161b8d9bb9fa504ec2c384"><div class="ttname"><a href="namespaceMR_1_1TriangulationHelpers.html#aaaaea439dd161b8d9bb9fa504ec2c384">MR::TriangulationHelpers::buildUnitedLocalTriangulations</a></div><div class="ttdeci">MRMESH_API std::optional&lt; AllLocalTriangulations &gt; buildUnitedLocalTriangulations(const PointCloud &amp;cloud, const Settings &amp;settings, const ProgressCallback &amp;progress={})</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:16</div></div>
 <div class="ttc" id="astructMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_html"><div class="ttname"><a href="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html">MR::TriangulationHelpers::FanOptimizerQueueElement</a></div><div class="ttdef"><b>Definition</b> MRPointCloudTriangulationHelpers.h:54</div></div>

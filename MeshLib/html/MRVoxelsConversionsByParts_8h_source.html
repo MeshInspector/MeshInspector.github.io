@@ -1,6 +1,13 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -27,6 +34,10 @@
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -108,10 +119,10 @@ $(function(){initNavTree('MRVoxelsConversionsByParts_8h_source.html',''); initRe
 </div><!--header-->
 <div class="contents">
 <a href="MRVoxelsConversionsByParts_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef MRMESH_NO_OPENVDB</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRExpected.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRPartMapping_8h.html">MRPartMapping.h</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRPartMapping_8h.html">MRMesh/MRPartMapping.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
@@ -129,8 +140,8 @@ $(function(){initNavTree('MRVoxelsConversionsByParts_8h_source.html',''); initRe
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Volume&gt;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><a class="code hl_typedef" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="namespaceMR.html#ae89954146fbd39699570a0d5c8a579dd">   59</a></span><a class="code hl_function" href="namespaceMR.html#ae89954146fbd39699570a0d5c8a579dd">mergeVolumePart</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, std::vector&lt;EdgePath&gt;&amp; cutContours, Volume&amp;&amp; volume, <span class="keywordtype">float</span> leftCutPosition, <span class="keywordtype">float</span> rightCutPosition,</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>Expected&lt;void&gt;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="namespaceMR.html#a9145e1b055b88e54edf784e6f3b050fc">   59</a></span><a class="code hl_function" href="namespaceMR.html#a9145e1b055b88e54edf784e6f3b050fc">mergeVolumePart</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, std::vector&lt;EdgePath&gt;&amp; cutContours, Volume&amp;&amp; volume, <span class="keywordtype">float</span> leftCutPosition, <span class="keywordtype">float</span> rightCutPosition,</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                 <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MergeVolumePartSettings.html">MergeVolumePartSettings</a>&amp; settings = {} );</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Volume&gt;</div>
@@ -148,19 +159,17 @@ $(function(){initNavTree('MRVoxelsConversionsByParts_8h_source.html',''); initRe
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                     <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1VolumeToMeshByPartsSettings.html">VolumeToMeshByPartsSettings</a>&amp; settings = {}, <span class="keyword">const</span> MergeVolumePartSettings&amp; mergeSettings = {} );</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>}</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRPartMapping_8h_html"><div class="ttname"><a href="MRPartMapping_8h.html">MRPartMapping.h</a></div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga25c73b1f9e5d5df34b153869e3cb5515"><div class="ttname"><a href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">MR::begin</a></div><div class="ttdeci">auto begin(const BitSet &amp;a)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:263</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga3e268aab2816870aa045f278c6bd6ecd"><div class="ttname"><a href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">MR::end</a></div><div class="ttdeci">auto end(const BitSet &amp;)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:265</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:49</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
+<div class="ttc" id="anamespaceMR_html_a9145e1b055b88e54edf784e6f3b050fc"><div class="ttname"><a href="namespaceMR.html#a9145e1b055b88e54edf784e6f3b050fc">MR::mergeVolumePart</a></div><div class="ttdeci">Expected&lt; void &gt; mergeVolumePart(Mesh &amp;mesh, std::vector&lt; EdgePath &gt; &amp;cutContours, Volume &amp;&amp;volume, float leftCutPosition, float rightCutPosition, const MergeVolumePartSettings &amp;settings={})</div><div class="ttdoc">Merge one mesh with another generated from a voxel volume part.</div></div>
 <div class="ttc" id="anamespaceMR_html_ae2ab4a032a665ccb4ca24d60577679ef"><div class="ttname"><a href="namespaceMR.html#ae2ab4a032a665ccb4ca24d60577679ef">MR::VolumePartBuilder</a></div><div class="ttdeci">std::function&lt; Expected&lt; Volume &gt;(int begin, int end, std::optional&lt; Vector3i &gt; &amp;offset)&gt; VolumePartBuilder</div><div class="ttdef"><b>Definition</b> MRVoxelsConversionsByParts.h:65</div></div>
 <div class="ttc" id="anamespaceMR_html_ae7cf10a1862176d00de13d2fa27371b9"><div class="ttname"><a href="namespaceMR.html#ae7cf10a1862176d00de13d2fa27371b9">MR::volumeToMeshByParts</a></div><div class="ttdeci">Expected&lt; Mesh &gt; volumeToMeshByParts(const VolumePartBuilder&lt; Volume &gt; &amp;builder, const Vector3i &amp;dimensions, const Vector3f &amp;voxelSize, const VolumeToMeshByPartsSettings &amp;settings={}, const MergeVolumePartSettings &amp;mergeSettings={})</div><div class="ttdoc">converts a voxel volume into a mesh without full memory loading</div></div>
-<div class="ttc" id="anamespaceMR_html_ae89954146fbd39699570a0d5c8a579dd"><div class="ttname"><a href="namespaceMR.html#ae89954146fbd39699570a0d5c8a579dd">MR::mergeVolumePart</a></div><div class="ttdeci">VoidOrErrStr mergeVolumePart(Mesh &amp;mesh, std::vector&lt; EdgePath &gt; &amp;cutContours, Volume &amp;&amp;volume, float leftCutPosition, float rightCutPosition, const MergeVolumePartSettings &amp;settings={})</div><div class="ttdoc">Merge one mesh with another generated from a voxel volume part.</div></div>
-<div class="ttc" id="anamespaceMR_html_aff6352909bd9c9bb61e99aa3260f213e"><div class="ttname"><a href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">MR::VoidOrErrStr</a></div><div class="ttdeci">Expected&lt; void &gt; VoidOrErrStr</div><div class="ttdoc">return type for a void function that can produce an error string</div><div class="ttdef"><b>Definition</b> MRExpected.h:60</div></div>
 <div class="ttc" id="astructMR_1_1MergeVolumePartSettings_html"><div class="ttname"><a href="structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></div><div class="ttdoc">Parameters' structure for MR::mergeVolumePart.</div></div>
 <div class="ttc" id="astructMR_1_1MergeVolumePartSettings_html_a196c2f60b539ef9d242a51bcd49833d3"><div class="ttname"><a href="structMR_1_1MergeVolumePartSettings.html#a196c2f60b539ef9d242a51bcd49833d3">MR::MergeVolumePartSettings::mapping</a></div><div class="ttdeci">PartMapping mapping</div><div class="ttdoc">mapping with initialized maps required for the postMerge callback</div><div class="ttdef"><b>Definition</b> MRVoxelsConversionsByParts.h:31</div></div>
 <div class="ttc" id="astructMR_1_1MergeVolumePartSettings_html_a31e09c078de0ae4f9b5512e3b099e29b"><div class="ttname"><a href="structMR_1_1MergeVolumePartSettings.html#a31e09c078de0ae4f9b5512e3b099e29b">MR::MergeVolumePartSettings::postCut</a></div><div class="ttdeci">PostCutCallback postCut</div><div class="ttdef"><b>Definition</b> MRVoxelsConversionsByParts.h:24</div></div>
@@ -181,7 +190,7 @@ $(function(){initNavTree('MRVoxelsConversionsByParts_8h_source.html',''); initRe
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRVoxelsConversionsByParts_8h.html">MRVoxelsConversionsByParts.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><a class="el" href="MRVoxelsConversionsByParts_8h.html">MRVoxelsConversionsByParts.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

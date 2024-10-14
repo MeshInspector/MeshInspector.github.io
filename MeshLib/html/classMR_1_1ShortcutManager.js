@@ -11,6 +11,7 @@ var classMR_1_1ShortcutManager =
       [ "KeyRepeat", "classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1ba4a18f6017ff7015424784e907c933572", null ]
     ] ],
     [ "~ShortcutManager", "classMR_1_1ShortcutManager.html#ac5d35f9b0ea4c909a2e0e182b46ca18b", null ],
+    [ "clear", "classMR_1_1ShortcutManager.html#a608ab9e3afbb9351ea419a3ae0215ab2", null ],
     [ "enable", "classMR_1_1ShortcutManager.html#a5e5ccda452d5473a8328af4b7003e4f3", null ],
     [ "findShortcutByName", "classMR_1_1ShortcutManager.html#adf200a338401cd7994a122ba61bfce47", null ],
     [ "getShortcutList", "classMR_1_1ShortcutManager.html#a0d5470fbe42101af3a425b0108338a10", null ],

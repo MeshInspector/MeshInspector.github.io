@@ -24,7 +24,7 @@ var searchData=
   ['objkindtraits_3c_20featuresobjectkind_3a_3aplane_20_3e_21',['ObjKindTraits&lt; FeaturesObjectKind::Plane &gt;',['../structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html',1,'MR']]],
   ['objkindtraits_3c_20featuresobjectkind_3a_3apoint_20_3e_22',['ObjKindTraits&lt; FeaturesObjectKind::Point &gt;',['../structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html',1,'MR']]],
   ['objkindtraits_3c_20featuresobjectkind_3a_3asphere_20_3e_23',['ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;',['../structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html',1,'MR']]],
-  ['objloadsettings_24',['ObjLoadSettings',['../structMR_1_1MeshLoad_1_1ObjLoadSettings.html',1,'MR::MeshLoad']]],
+  ['objloadsettings_24',['ObjLoadSettings',['../structMR_1_1MeshLoad_1_1ObjLoadSettings.html',1,'MR::MeshLoad::ObjLoadSettings'],['../structObjLoadSettings.html',1,'ObjLoadSettings']]],
   ['objtreetraits_25',['ObjTreeTraits',['../structMR_1_1ObjTreeTraits.html',1,'MR']]],
   ['objvertid_26',['ObjVertId',['../structMR_1_1ObjVertId.html',1,'MR']]],
   ['offset_27',['Offset',['../classOffset.html',1,'']]],
@@ -40,7 +40,8 @@ var searchData=
   ['openfilesmenuitem_37',['OpenFilesMenuItem',['../classMR_1_1OpenFilesMenuItem.html',1,'MR']]],
   ['openrawvoxelsplugin_38',['OpenRawVoxelsPlugin',['../classMR_1_1OpenRawVoxelsPlugin.html',1,'MR']]],
   ['openvdbfloatgrid_39',['OpenVdbFloatGrid',['../structMR_1_1OpenVdbFloatGrid.html',1,'MR']]],
-  ['outputflows_40',['OutputFlows',['../structMR_1_1OutputFlows.html',1,'MR']]],
-  ['overflowpoint_41',['OverflowPoint',['../structMR_1_1WatershedGraph_1_1OverflowPoint.html',1,'MR::WatershedGraph']]],
-  ['overloaded_42',['overloaded',['../structMR_1_1overloaded.html',1,'MR']]]
+  ['originanddimensions_40',['OriginAndDimensions',['../structMR_1_1OriginAndDimensions.html',1,'MR']]],
+  ['outputflows_41',['OutputFlows',['../structMR_1_1OutputFlows.html',1,'MR']]],
+  ['overflowpoint_42',['OverflowPoint',['../structMR_1_1WatershedGraph_1_1OverflowPoint.html',1,'MR::WatershedGraph']]],
+  ['overloaded_43',['overloaded',['../structMR_1_1overloaded.html',1,'MR']]]
 ];
