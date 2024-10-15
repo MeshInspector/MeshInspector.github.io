@@ -67,7 +67,7 @@ var searchData=
   ['unitemanymeshes_64',['uniteManyMeshes',['../namespaceMR.html#a6d49af12748cc8c14c417a9938a57ab7',1,'MR']]],
   ['unitemanymeshesparams_65',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR']]],
   ['unitinfo_66',['UnitInfo',['../structMR_1_1UnitInfo.html',1,'MR']]],
-  ['unitsareequivalent_67',['unitsAreEquivalent',['../namespaceMR.html#a7223f0b55060f4ce1f1e6f9c37ff0867',1,'MR']]],
+  ['unitsareequivalent_67',['unitsAreEquivalent',['../namespaceMR.html#a7223f0b55060f4ce1f1e6f9c37ff0867',1,'MR::unitsAreEquivalent(E a, E b)'],['../namespaceMR.html#a0c2948849a79593059ba5c880d5ae050',1,'MR::unitsAreEquivalent(const std::optional&lt; E &gt; &amp;a, const std::optional&lt; E &gt; &amp;b)']]],
   ['unitsuffix_68',['unitSuffix',['../structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f',1,'MR::UnitInfo::unitSuffix'],['../structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c',1,'MR::UnitToStringParams::unitSuffix']]],
   ['unittostringparams_69',['UnitToStringParams',['../structMR_1_1UnitToStringParams.html',1,'MR']]],
   ['unitvector3_70',['unitVector3',['../structMR_1_1Vector3.html#a14f7f0adb55e73e84d46a542b9b91186',1,'MR::Vector3']]],

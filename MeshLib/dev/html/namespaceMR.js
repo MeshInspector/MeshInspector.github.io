@@ -106,6 +106,20 @@ var namespaceMR =
     [ "StyleConsts", "namespaceMR_1_1StyleConsts.html", "namespaceMR_1_1StyleConsts" ],
     [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", "namespaceMR_1_1TriangulationHelpers" ],
     [ "UI", "namespaceMR_1_1UI.html", "namespaceMR_1_1UI" ],
+    [ "UnitSettings", "namespaceMR_1_1UnitSettings.html", [
+      [ "getDegreesMode", "namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5", null ],
+      [ "getShowLeadingZero", "namespaceMR_1_1UnitSettings.html#aa107ba449e9a30d426079db1abc6f9e8", null ],
+      [ "getThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a57a081feec9edcca2fbd616809dd3e3e", null ],
+      [ "getUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#aefbc07263247d17b42b9b520c287901c", null ],
+      [ "getUiLengthPrecision", "namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee", null ],
+      [ "getUiLengthUnit", "namespaceMR_1_1UnitSettings.html#a3828878d9371fdeec0058499a90a773c", null ],
+      [ "setDegreesMode", "namespaceMR_1_1UnitSettings.html#a8023d3ce4f4b956c48485e288b1956a1", null ],
+      [ "setShowLeadingZero", "namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414", null ],
+      [ "setThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a78d6c4b6173060a51fc5fa7ee1dc164d", null ],
+      [ "setUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#a17f256d60a5bca751f33412395fcfa86", null ],
+      [ "setUiLengthPrecision", "namespaceMR_1_1UnitSettings.html#a6c2457148f4800dfc82a654d0d9f3592", null ],
+      [ "setUiLengthUnit", "namespaceMR_1_1UnitSettings.html#a032b01bcd61f28112e477ef4fc210f5b", null ]
+    ] ],
     [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", "namespaceMR_1_1VoxelsLoad" ],
     [ "VoxelsSave", "namespaceMR_1_1VoxelsSave.html", "namespaceMR_1_1VoxelsSave" ],
     [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ],
@@ -987,6 +1001,7 @@ var namespaceMR =
     ] ],
     [ "AreaUnit", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4", [
       [ "mm2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a15c50e18fe41a4c178d13f28ce36173f", null ],
+      [ "meters2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4ae534910aa7824f3c5aeb82fe2ad2a839", null ],
       [ "inches2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a608b1a160478ad4e93188c1968110978", null ],
       [ "_count", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
@@ -1141,11 +1156,13 @@ var namespaceMR =
     ] ],
     [ "InvLengthUnit", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5", [
       [ "inv_mm", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22", null ],
+      [ "inv_meters", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a3ea45d8602a5aa192465cbbc8980376c", null ],
       [ "inv_inches", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989", null ],
       [ "_count", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "LengthUnit", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab", [
       [ "mm", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabab3cd915d758008bd19d0f2428fbb354a", null ],
+      [ "meters", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba07d9e3aefc4093a49121c91ef65e708b", null ],
       [ "inches", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba3e1b00c196db969aa22cdc50c6e966c4", null ],
       [ "_count", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
@@ -1165,6 +1182,7 @@ var namespaceMR =
     ] ],
     [ "MovementSpeedUnit", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60", [
       [ "mmPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a5f5f1dc2b81a48152d2a92c6cb7d8552", null ],
+      [ "metersPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a5b1a9bad5dab15ff59ec1908fce8b06f", null ],
       [ "inchesPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a9ac9f9af0dc2f497b1df27b8d757c7c1", null ],
       [ "_count", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
@@ -1403,6 +1421,7 @@ var namespaceMR =
     ] ],
     [ "VolumeUnit", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29a", [
       [ "mm3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa205056288e7f71c459183d3cb8d46edb", null ],
+      [ "meters3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa4f752f80e660d3b1df1b9d0a26f74145", null ],
       [ "inches3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69", null ],
       [ "_count", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
@@ -1574,6 +1593,7 @@ var namespaceMR =
     [ "convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga75a5ecaa0b71ec23ac7d519651848ee9", null ],
     [ "convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245", null ],
+    [ "convertUnits", "namespaceMR.html#ab07c2e27cb1322b5471e253ff9e52a0d", null ],
     [ "convertUnits", "namespaceMR.html#abc1dac35ba49a323ad136b896517b3b3", null ],
     [ "copyContour", "group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6", null ],
     [ "copyContours", "group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369", null ],
@@ -2583,6 +2603,7 @@ var namespaceMR =
     [ "unfoldOnPlane", "group__PlanarPathGroup.html#gafc3a801f48da79fea27b2c5a60579ddb", null ],
     [ "uniteLocalTriangulations", "namespaceMR.html#a0ed6bf3b7f4f98f684d5c85bb4356b62", null ],
     [ "uniteManyMeshes", "namespaceMR.html#a6d49af12748cc8c14c417a9938a57ab7", null ],
+    [ "unitsAreEquivalent", "namespaceMR.html#a0c2948849a79593059ba5c880d5ae050", null ],
     [ "unitsAreEquivalent", "namespaceMR.html#a7223f0b55060f4ce1f1e6f9c37ff0867", null ],
     [ "unregisterThreadRootTimeRecord", "group__BasicGroup.html#gac017b35cedae37be54b10e3302c6c71d", null ],
     [ "updateGroupPairs", "namespaceMR.html#a74691005c823c40bb2293118aa854d32", null ],

@@ -229,7 +229,7 @@ var searchData=
   ['convertsurfacepathstomeshcontours_226',['convertSurfacePathsToMeshContours',['../group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74',1,'MR']]],
   ['convertsurfacepathwithendstomeshcontour_227',['convertSurfacePathWithEndsToMeshContour',['../group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245',1,'MR']]],
   ['converttocontours_228',['convertToContours',['../classMR_1_1PolylineTopology.html#adc8d16b6b6bf938f6dbe4f96fc768825',1,'MR::PolylineTopology']]],
-  ['convertunits_229',['convertUnits',['../namespaceMR.html#abc1dac35ba49a323ad136b896517b3b3',1,'MR']]],
+  ['convertunits_229',['convertUnits',['../namespaceMR.html#abc1dac35ba49a323ad136b896517b3b3',1,'MR::convertUnits(E from, E to, const T &amp;value)'],['../namespaceMR.html#ab07c2e27cb1322b5471e253ff9e52a0d',1,'MR::convertUnits(const std::optional&lt; E &gt; &amp;from, const std::optional&lt; E &gt; &amp;to, const T &amp;value)']]],
   ['coordinateconverters_230',['CoordinateConverters',['../classCoordinateConverters.html#a86a7f26c009d1f8d9d1ce3cb2195c32f',1,'CoordinateConverters']]],
   ['copycolors_231',['copyColors',['../classMR_1_1ObjectMeshHolder.html#aae036da63fcfe13431ca8b19a43b6dfa',1,'MR::ObjectMeshHolder::copyColors()'],['../classMR_1_1VisualObject.html#a9529179a8a5c9b9fed190357942e1ba7',1,'MR::VisualObject::copyColors()']]],
   ['copycontour_232',['copyContour',['../group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6',1,'MR']]],

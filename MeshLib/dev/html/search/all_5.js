@@ -427,7 +427,7 @@ var searchData=
   ['converttofloatvector2_424',['ConvertToFloatVector2',['../namespaceMR.html#a99bc296c2e6fee9ad9798298d3e942ab',1,'MR']]],
   ['converttointvector_425',['ConvertToIntVector',['../namespaceMR.html#ae641d5d13654d894de287d0b3a6ae921',1,'MR']]],
   ['converttointvector2_426',['ConvertToIntVector2',['../namespaceMR.html#a9966302a175074e0eccc6f6af09819e3',1,'MR']]],
-  ['convertunits_427',['convertUnits',['../namespaceMR.html#abc1dac35ba49a323ad136b896517b3b3',1,'MR']]],
+  ['convertunits_427',['convertUnits',['../namespaceMR.html#abc1dac35ba49a323ad136b896517b3b3',1,'MR::convertUnits(E from, E to, const T &amp;value)'],['../namespaceMR.html#ab07c2e27cb1322b5471e253ff9e52a0d',1,'MR::convertUnits(const std::optional&lt; E &gt; &amp;from, const std::optional&lt; E &gt; &amp;to, const T &amp;value)']]],
   ['convex_428',['Convex',['../namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3',1,'MR']]],
   ['convexhull_429',['ConvexHull',['../classConvexHull.html',1,'']]],
   ['coord_430',['coord',['../structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be',1,'MR::AABBTreePoints::Point']]],

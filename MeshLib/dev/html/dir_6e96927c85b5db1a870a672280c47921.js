@@ -120,6 +120,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
     [ "MRUITestEngine.h", "MRUITestEngine_8h.html", "MRUITestEngine_8h" ],
     [ "MRUnits.h", "MRUnits_8h.html", "MRUnits_8h" ],
+    [ "MRUnitSettings.h", "MRUnitSettings_8h.html", "MRUnitSettings_8h" ],
     [ "MRVectorTraits.h", "MRViewer_2MRVectorTraits_8h.html", "MRViewer_2MRVectorTraits_8h" ],
     [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],
     [ "MRViewerEventQueue.h", "MRViewerEventQueue_8h.html", "MRViewerEventQueue_8h" ],

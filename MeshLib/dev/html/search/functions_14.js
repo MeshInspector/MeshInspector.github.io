@@ -23,7 +23,7 @@ var searchData=
   ['united_20',['united',['../classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc',1,'MR::UnionFind']]],
   ['unitelocaltriangulations_21',['uniteLocalTriangulations',['../namespaceMR.html#a0ed6bf3b7f4f98f684d5c85bb4356b62',1,'MR']]],
   ['unitemanymeshes_22',['uniteManyMeshes',['../namespaceMR.html#a6d49af12748cc8c14c417a9938a57ab7',1,'MR']]],
-  ['unitsareequivalent_23',['unitsAreEquivalent',['../namespaceMR.html#a7223f0b55060f4ce1f1e6f9c37ff0867',1,'MR']]],
+  ['unitsareequivalent_23',['unitsAreEquivalent',['../namespaceMR.html#a7223f0b55060f4ce1f1e6f9c37ff0867',1,'MR::unitsAreEquivalent(E a, E b)'],['../namespaceMR.html#a0c2948849a79593059ba5c880d5ae050',1,'MR::unitsAreEquivalent(const std::optional&lt; E &gt; &amp;a, const std::optional&lt; E &gt; &amp;b)']]],
   ['unitvector3_24',['unitVector3',['../structMR_1_1Vector3.html#a14f7f0adb55e73e84d46a542b9b91186',1,'MR::Vector3']]],
   ['unitwidget_25',['unitWidget',['../namespaceMR_1_1UI_1_1detail.html#ab56fe865a416552aa6f504ce57514ae3',1,'MR::UI::detail']]],
   ['unloadextendedlibraries_26',['unloadExtendedLibraries',['../classMR_1_1ViewerSetup.html#ac2596418ab8194fb9b1818ef2f1f5b31',1,'MR::ViewerSetup']]],
