@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"group__SurfacePathGroup.html#ga0fe533dcbd844a89077b18ebd4dda8fe":[9,16,37],
+"group__SurfacePathGroup.html#ga171493fcbadfb73a4d6a78c595e3bf3f":[9,16,23],
+"group__SurfacePathGroup.html#ga1792643322d571922601c7286a802f51":[9,16,18],
+"group__SurfacePathGroup.html#ga215f966d7ad4e48210e0de178cb43a06":[9,16,26],
 "group__SurfacePathGroup.html#ga31d65cbf03d734606eecb79ae37c605c":[9,16,16],
 "group__SurfacePathGroup.html#ga3692c19cc12b5dbfb793357c24f48a3c":[9,16,21],
 "group__SurfacePathGroup.html#ga406af44e44bb84c41cc380a6ecedc6af":[9,16,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "namespaceImGui.html#ad58fef2244057ff2ad7eb1877f3b813a":[10,0,1,9],
 "namespaceImGui.html#aed7e188bef741b7dadcd0903a2453748":[10,0,1,16],
 "namespaceImGui.html#af082cf53c058ecd0adf21f0115b11121":[10,0,1,33],
-"namespaceImGui.html#af6cde4f0c7ce90fbd8f1e25123620cca":[10,0,1,12],
-"namespaceLaplacianExample.html":[10,0,2],
-"namespaceMR.html":[9,0,11,0],
-"namespaceMR.html":[9,2,16,0],
-"namespaceMR.html#a00473b872f5242451db75ba1ba87b378":[10,0,12,1530]
+"namespaceImGui.html#af6cde4f0c7ce90fbd8f1e25123620cca":[10,0,1,12]
 };

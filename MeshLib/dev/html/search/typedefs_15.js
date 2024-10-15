@@ -34,5 +34,6 @@ var searchData=
   ['voxelpointpositioner_31',['VoxelPointPositioner',['../namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2',1,'MR']]],
   ['voxelsloader_32',['VoxelsLoader',['../namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96',1,'MR::VoxelsLoad']]],
   ['voxelsmetric_33',['VoxelsMetric',['../group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR']]],
-  ['voxelssaver_34',['VoxelsSaver',['../namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176',1,'MR::VoxelsSave']]]
+  ['voxelssaver_34',['VoxelsSaver',['../namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176',1,'MR::VoxelsSave']]],
+  ['vtraits_35',['VTraits',['../structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box']]]
 ];

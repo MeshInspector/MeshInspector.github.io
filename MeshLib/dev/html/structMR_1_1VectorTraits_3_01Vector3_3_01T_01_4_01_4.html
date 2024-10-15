@@ -139,11 +139,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a53bfba3dbc2422546af20c14e030026e" id="r_a53bfba3dbc2422546af20c14e030026e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a53bfba3dbc2422546af20c14e030026e"><td class="memTemplItemLeft" align="right" valign="top">static auto &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a53bfba3dbc2422546af20c14e030026e">getElem</a> (int i, U &amp;&amp;value)</td></tr>
 <tr class="separator:a53bfba3dbc2422546af20c14e030026e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97ece5f2ffc4c21403d6a03bf20d3fae" id="r_a97ece5f2ffc4c21403d6a03bf20d3fae"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97ece5f2ffc4c21403d6a03bf20d3fae">diagonal</a> (T v)</td></tr>
+<tr class="separator:a97ece5f2ffc4c21403d6a03bf20d3fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:aac6c9fc8dc257789128914ff81511f6b" id="r_aac6c9fc8dc257789128914ff81511f6b"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac6c9fc8dc257789128914ff81511f6b">size</a> = 3</td></tr>
 <tr class="separator:aac6c9fc8dc257789128914ff81511f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fbddd45ce4b19b1875b5ee1222dbac3" id="r_a2fbddd45ce4b19b1875b5ee1222dbac3"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fbddd45ce4b19b1875b5ee1222dbac3">supportNoInit</a> = true</td></tr>
+<tr class="separator:a2fbddd45ce4b19b1875b5ee1222dbac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a1e5f44968abe54db23651f259feba506" name="a1e5f44968abe54db23651f259feba506"></a>
@@ -181,6 +185,33 @@ template&lt;typename U &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a97ece5f2ffc4c21403d6a03bf20d3fae" name="a97ece5f2ffc4c21403d6a03bf20d3fae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97ece5f2ffc4c21403d6a03bf20d3fae">&#9670;&#160;</a></span>diagonal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr auto <a class="el" href="structMR_1_1VectorTraits.html">MR::VectorTraits</a>&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;::diagonal </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a53bfba3dbc2422546af20c14e030026e" name="a53bfba3dbc2422546af20c14e030026e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53bfba3dbc2422546af20c14e030026e">&#9670;&#160;</a></span>getElem()</h2>
 
@@ -228,6 +259,30 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">int <a class="el" href="structMR_1_1VectorTraits.html">MR::VectorTraits</a>&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;::size = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fbddd45ce4b19b1875b5ee1222dbac3" name="a2fbddd45ce4b19b1875b5ee1222dbac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fbddd45ce4b19b1875b5ee1222dbac3">&#9670;&#160;</a></span>supportNoInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1VectorTraits.html">MR::VectorTraits</a>&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;::supportNoInit = true</td>
         </tr>
       </table>
   </td>

@@ -270,5 +270,6 @@ var searchData=
   ['voxeltraits_3c_20voxelvaluegetter_3c_20t_20_3e_20_3e_267',['VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;',['../structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html',1,'MR']]],
   ['vs_20spaces_268',['Tabs vs Spaces',['../CodingStyleHelp.html#TabsSpaces',1,'']]],
   ['vs2019_20or_20vs2022_20on_20windows_269',['Build with VS2019 or VS2022 on Windows',['../index.html#HomePageBuildWin',1,'']]],
-  ['vs2022_20on_20windows_270',['Build with VS2019 or VS2022 on Windows',['../index.html#HomePageBuildWin',1,'']]]
+  ['vs2022_20on_20windows_270',['Build with VS2019 or VS2022 on Windows',['../index.html#HomePageBuildWin',1,'']]],
+  ['vtraits_271',['VTraits',['../structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box']]]
 ];

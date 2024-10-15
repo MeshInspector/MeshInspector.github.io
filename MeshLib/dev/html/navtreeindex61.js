@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1DecimateParallelSettings.html#a1931fb41807309978aa700f1634da3c4":[9,10,2,9],
+"structMR_1_1DecimateParallelSettings.html#a1c7ecd000b4f7cffca0e5f0312073ae4":[9,10,2,4],
+"structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214":[9,10,2,1],
+"structMR_1_1DecimateParallelSettings.html#a3c23bc0e06e4658789c9a372752be560":[9,10,2,6],
+"structMR_1_1DecimateParallelSettings.html#a418e0b7d779396eecd0743677811e459":[9,10,2,3],
+"structMR_1_1DecimateParallelSettings.html#a6e41465250059b31e3c4806da1d55fea":[9,10,2,10],
+"structMR_1_1DecimateParallelSettings.html#a719fd646bf50bc2582fbf39d3f3a6ac4":[9,10,2,14],
+"structMR_1_1DecimateParallelSettings.html#a737db1b3e50fc4961a8416f00bf3f49e":[9,10,2,11],
+"structMR_1_1DecimateParallelSettings.html#a7d9257bfeb394f132782017fc4dc632c":[9,10,2,7],
+"structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc":[9,10,2,13],
 "structMR_1_1DecimateParallelSettings.html#ad90b28eea121f1eb8d2153a5c87b69a6":[9,10,2,5],
 "structMR_1_1DecimateParallelSettings.html#adf44961ff5f36ea0d89953fc0eb9b889":[9,10,2,8],
 "structMR_1_1DecimateParallelSettings.html#af75f33318f6dbbd19e4e3c0005feaa39":[9,10,2,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[12,0,1,171,6],
 "structMR_1_1DragDropListener.html":[10,0,12,186],
 "structMR_1_1DragDropListener.html":[12,0,1,172],
-"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[10,0,12,186,2],
-"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[12,0,1,172,2],
-"structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[10,0,12,186,1],
-"structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[12,0,1,172,1],
-"structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[10,0,12,186,0],
-"structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[12,0,1,172,0],
-"structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[10,0,12,186,3],
-"structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[12,0,1,172,3],
-"structMR_1_1DragEndListener.html":[10,0,12,187],
-"structMR_1_1DragEndListener.html":[12,0,1,173],
-"structMR_1_1DragEndListener.html#a2768a8c22456638cfdef0c641b35167f":[10,0,12,187,0]
+"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[10,0,12,186,2]
 };

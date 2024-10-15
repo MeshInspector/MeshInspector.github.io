@@ -52,7 +52,7 @@ var searchData=
   ['boundingbox_49',['BoundingBox',['../classMesh.html#acb4240bde16fa7e0d103fc19456362ec',1,'Mesh::BoundingBox'],['../interfaceMeshOrPoints.html#a34450bdc2efa2659a3a4aa51eaeb758e',1,'MeshOrPoints::BoundingBox'],['../classPointCloud.html#a5e3646632964e02134eb3fcb7bcb99c2',1,'PointCloud::BoundingBox']]],
   ['box_50',['Box',['../namespaceMR.html#a28ad0ea821b120682bcfbd322884af64',1,'MR']]],
   ['box_51',['box',['../structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5',1,'MR::BoxedLeaf::box'],['../structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0',1,'MR::AABBTreeNode::box'],['../structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3',1,'MR::AABBTreePoints::Node::box']]],
-  ['box2i_52',['Box2i',['../namespaceMR.html#aadf5920c24a8f2cd7f46a8450751b714',1,'MR']]],
+  ['box1i_52',['Box1i',['../namespaceMR.html#a994fe861eeeeb1b6054e654e62de2a96',1,'MR']]],
   ['bs_5f_53',['bs_',['../classabstract.html#a614296dd03e2f8e73429928e0237d70c',1,'abstract']]],
   ['btn_54',['btn',['../structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6',1,'MR::MouseController::MouseControlKey']]],
   ['btndrawer_55',['btnDrawer',['../structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a',1,'MR::RibbonMenuSearch::Parameters']]],

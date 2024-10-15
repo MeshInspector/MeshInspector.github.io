@@ -1,9 +1,11 @@
 var structMR_1_1Box =
 [
-    [ "T", "structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb", null ],
+    [ "T", "structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd", null ],
+    [ "VTraits", "structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0", null ],
     [ "Box", "structMR_1_1Box.html#ab72759c3d199697fa09474bba5c5284c", null ],
-    [ "Box", "structMR_1_1Box.html#ae74992c32e34243852ae9a27ce2c9554", null ],
     [ "Box", "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987", null ],
+    [ "Box", "structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8", null ],
+    [ "Box", "structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8", null ],
     [ "Box", "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35", null ],
     [ "center", "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e", null ],
     [ "contains", "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598", null ],

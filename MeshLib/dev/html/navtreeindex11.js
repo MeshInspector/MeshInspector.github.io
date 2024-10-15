@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"MRSaveSettings_8h.html#aaaf0654d94eb8f4d35be77facbbf5acc":[13,0,0,2,4,302,6],
+"MRSaveSettings_8h.html#abd32e37d07e3aaa58297c5f0168825a4":[13,0,0,2,4,302,7],
+"MRSaveSettings_8h.html#acc1d104ed2e275977cf878d68073c9b2":[13,0,0,2,4,302,5],
+"MRSaveSettings_8h_source.html":[13,0,0,2,4,302],
 "MRScalarConvert_8h.html":[13,0,0,2,11,22],
 "MRScalarConvert_8h.html#a0230f1515e422e1010078d5ffd15f11f":[13,0,0,2,11,22,1],
 "MRScalarConvert_8h.html#a5d528348b4d27cfa92a1b565755099c8":[13,0,0,2,11,22,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX11 =
 "MRSurfaceManipulationWidget_8h_source.html":[13,0,0,2,10,105],
 "MRSurfacePath_8h.html":[13,0,0,2,4,324],
 "MRSurfacePath_8h_source.html":[13,0,0,2,4,324],
-"MRSurfacePointPicker_8h.html":[13,0,0,2,10,106],
-"MRSurfacePointPicker_8h_source.html":[13,0,0,2,10,106],
-"MRSurroundingContour_8h.html":[13,0,0,2,4,325],
-"MRSurroundingContour_8h_source.html":[13,0,0,2,4,325],
-"MRSwapRootAction_8h.html":[13,0,0,2,10,107]
+"MRSurfacePointPicker_8h.html":[13,0,0,2,10,106]
 };

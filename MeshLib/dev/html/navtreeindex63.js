@@ -1,5 +1,15 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Features_1_1MeasureResult.html":[10,0,12,6,2],
+"structMR_1_1Features_1_1MeasureResult.html":[12,0,1,2,2],
+"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[10,0,12,6,2,4],
+"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[12,0,1,2,2,4],
+"structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[10,0,12,6,2,6],
+"structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[12,0,1,2,2,6],
+"structMR_1_1Features_1_1MeasureResult.html#a598c9f6b07a702e3e849bf9b0e6ec040":[10,0,12,6,2,5],
+"structMR_1_1Features_1_1MeasureResult.html#a598c9f6b07a702e3e849bf9b0e6ec040":[12,0,1,2,2,5],
+"structMR_1_1Features_1_1MeasureResult.html#a618a5c8cc475ae385a15f69aa6316d10":[10,0,12,6,2,7],
+"structMR_1_1Features_1_1MeasureResult.html#a618a5c8cc475ae385a15f69aa6316d10":[12,0,1,2,2,7],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e":[10,0,12,6,2,3],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e":[12,0,1,2,2,3],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f":[10,0,12,6,2,3,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FitBoxParams.html":[10,0,12,221],
 "structMR_1_1FitBoxParams.html":[12,0,1,207],
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[10,0,12,221,1],
-"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[12,0,1,207,1],
-"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[10,0,12,221,0],
-"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[12,0,1,207,0],
-"structMR_1_1FitDataParams.html":[10,0,12,223],
-"structMR_1_1FitDataParams.html":[12,0,1,209],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[10,0,12,223,1],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[12,0,1,209,1],
-"structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[10,0,12,223,0],
-"structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[12,0,1,209,0],
-"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[10,0,12,223,2],
-"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[12,0,1,209,2]
+"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[12,0,1,207,1]
 };
