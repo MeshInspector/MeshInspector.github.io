@@ -1,5 +1,8 @@
 var NAVTREEINDEX46 =
 {
+"classMultiwayICP.html#a016b940794480a725ee2cd84bb48ccf3":[12,0,79,6],
+"classMultiwayICP.html#a26a6d95af9366675c2ee7747d06833c9":[12,0,79,7],
+"classMultiwayICP.html#a32a34e6e6ee9afd81242addd6fc7d181":[12,0,79,0],
 "classMultiwayICP.html#a3daeb9abda4dcf910c93a16c93d47ec1":[12,0,79,4],
 "classMultiwayICP.html#a55ccd1305f597ac2c6648413caaf435b":[12,0,79,5],
 "classMultiwayICP.html#a670eed75ebda4c9c1ed8556e60a49c3f":[12,0,79,2],
@@ -68,9 +71,9 @@ var NAVTREEINDEX46 =
 "conceptMR_1_1Features_1_1MeasureSupported.html":[11,0,1,1],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[10,0,12,6,1,11],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[11,0,1,0,0],
-"conceptMR_1_1HasGetDirectionMethod.html":[10,0,12,736],
+"conceptMR_1_1HasGetDirectionMethod.html":[10,0,12,737],
 "conceptMR_1_1HasGetDirectionMethod.html":[11,0,6],
-"conceptMR_1_1HasGetNormalMethod.html":[10,0,12,735],
+"conceptMR_1_1HasGetNormalMethod.html":[10,0,12,736],
 "conceptMR_1_1HasGetNormalMethod.html":[11,0,5],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[10,0,12,12,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[11,0,2,0,0],
@@ -82,7 +85,7 @@ var NAVTREEINDEX46 =
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[11,0,2,0,2],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[10,0,12,12,0,11],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[11,0,2,0,3],
-"conceptMR_1_1Trivial.html":[10,0,12,734],
+"conceptMR_1_1Trivial.html":[10,0,12,735],
 "conceptMR_1_1Trivial.html":[11,0,4],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[10,0,12,37,1,5],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[11,0,3,1,0],
@@ -94,7 +97,7 @@ var NAVTREEINDEX46 =
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[11,0,3,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[10,0,12,37,0,1],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[11,0,3,0,1],
-"conceptMR_1_1UnitEnum.html":[10,0,12,738],
+"conceptMR_1_1UnitEnum.html":[10,0,12,739],
 "conceptMR_1_1UnitEnum.html":[11,0,8],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[10,0,12,3,0,1],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[11,0,0,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX46 =
 "globals_eval.html":[13,1,5],
 "globals_f.html":[13,1,0,6],
 "globals_func.html":[13,1,1],
-"globals_func.html":[13,1,1,0],
-"globals_func_b.html":[13,1,1,1],
-"globals_func_c.html":[13,1,1,2],
-"globals_func_m.html":[13,1,1,3]
+"globals_func.html":[13,1,1,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRUIStyle_8h.html#afadef8b878371dc0bc9aa07df5dec003":[13,0,0,2,10,117,14],
 "MRUIStyle_8h.html#afbf63021d04e94c878b093fd86fef43f":[13,0,0,2,10,117,18],
 "MRUIStyle_8h.html#afc1009af05439b78707e8372d21f9a87":[13,0,0,2,10,117,51],
 "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f":[13,0,0,2,10,117,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRVolumeShader_8h.html#af2d7af993188c7b28f07b6273c7fa6ec":[13,0,0,2,10,135,2],
 "MRVolumeShader_8h_source.html":[13,0,0,2,10,135],
 "MRVoxelGraphCut_8h.html":[13,0,0,2,11,31],
-"MRVoxelGraphCut_8h_source.html":[13,0,0,2,11,31],
-"MRVoxelPath_8h.html":[13,0,0,2,11,32]
+"MRVoxelGraphCut_8h_source.html":[13,0,0,2,11,31]
 };

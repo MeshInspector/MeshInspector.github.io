@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRSurfacePath_8h.html":[13,0,0,2,4,324],
 "MRSurfacePath_8h_source.html":[13,0,0,2,4,324],
 "MRSurfacePointPicker_8h.html":[13,0,0,2,10,106],
 "MRSurfacePointPicker_8h_source.html":[13,0,0,2,10,106],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd":[13,0,0,2,10,117,20],
 "MRUIStyle_8h.html#ae14306471133180f84a3a02650ced599":[13,0,0,2,10,117,19],
 "MRUIStyle_8h.html#af6f24e8f5454ee5851179f720cd07eb4":[13,0,0,2,10,117,60],
-"MRUIStyle_8h.html#af81d056e2ca2afaceec0e67e12ed9afb":[13,0,0,2,10,117,50],
-"MRUIStyle_8h.html#afadef8b878371dc0bc9aa07df5dec003":[13,0,0,2,10,117,14]
+"MRUIStyle_8h.html#af81d056e2ca2afaceec0e67e12ed9afb":[13,0,0,2,10,117,50]
 };

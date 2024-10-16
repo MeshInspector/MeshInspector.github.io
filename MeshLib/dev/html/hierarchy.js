@@ -814,6 +814,7 @@ var hierarchy =
     [ "MR::NoiseSettings", "structMR_1_1NoiseSettings.html", null ],
     [ "MR::NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
     [ "MR::NormalsToPoints", "classMR_1_1NormalsToPoints.html", null ],
+    [ "MR::NotificationTags", "structMR_1_1NotificationTags.html", null ],
     [ "MR::NoVisualRepresentationCheck", "structMR_1_1NoVisualRepresentationCheck.html", null ],
     [ "openvdb::util::NullInterrupter", null, [
       [ "MR::ProgressInterrupter", "structMR_1_1ProgressInterrupter.html", null ]

@@ -539,6 +539,7 @@ var annotated_dup =
       [ "NoiseSettings", "structMR_1_1NoiseSettings.html", "structMR_1_1NoiseSettings" ],
       [ "NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
       [ "NormalsToPoints", "classMR_1_1NormalsToPoints.html", "classMR_1_1NormalsToPoints" ],
+      [ "NotificationTags", "structMR_1_1NotificationTags.html", "structMR_1_1NotificationTags" ],
       [ "NoVisualRepresentationCheck", "structMR_1_1NoVisualRepresentationCheck.html", null ],
       [ "NumSum", "structMR_1_1NumSum.html", "structMR_1_1NumSum" ],
       [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],

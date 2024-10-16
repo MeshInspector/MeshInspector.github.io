@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1DistanceVolumeParams.html#a920081c5dce988d2f087b470ea72803a":[10,0,12,183,0],
+"structMR_1_1DistanceVolumeParams.html#a920081c5dce988d2f087b470ea72803a":[12,0,1,168,0],
+"structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2":[10,0,12,183,1],
+"structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2":[12,0,1,168,1],
 "structMR_1_1DividePointCloudOptionalOutput.html":[10,0,12,184],
 "structMR_1_1DividePointCloudOptionalOutput.html":[12,0,1,169],
 "structMR_1_1DividePointCloudOptionalOutput.html#a8b9684f693bcbb8c4f778a2250ab9b5a":[10,0,12,184,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[12,0,1,189,1],
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[10,0,12,204,2],
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[12,0,1,189,2],
-"structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[10,0,12,204,3],
-"structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[12,0,1,189,3],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[10,0,12,204,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[12,0,1,189,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[10,0,12,204,0,1]
+"structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[10,0,12,204,3]
 };

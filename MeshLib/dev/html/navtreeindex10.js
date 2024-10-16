@@ -219,6 +219,7 @@ var NAVTREEINDEX10 =
 "MRRibbonMenu_8h.html#a8943649eb4ec189757d628d6b1f9779f":[13,0,0,2,10,75,4],
 "MRRibbonMenu_8h_source.html":[13,0,0,2,10,75],
 "MRRibbonNotification_8h.html":[13,0,0,2,10,78],
+"MRRibbonNotification_8h.html#a6c80d0a515c43e830301ff170377a44e":[13,0,0,2,10,78,3],
 "MRRibbonNotification_8h_source.html":[13,0,0,2,10,78],
 "MRRibbonSceneButtons_8h.html":[13,0,0,2,0,2,2],
 "MRRibbonSceneButtons_8h_source.html":[13,0,0,2,0,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRRingIterator_8h_source.html":[13,0,0,2,4,301],
 "MRSaveOnClose_8h.html":[13,0,0,2,10,81],
 "MRSaveOnClose_8h_source.html":[13,0,0,2,10,81],
-"MRSaveSettings_8h.html":[13,0,0,2,4,302],
-"MRSaveSettings_8h.html#a423dfbb3e8fe2d355d3569c58f27881f":[13,0,0,2,4,302,4]
+"MRSaveSettings_8h.html":[13,0,0,2,4,302]
 };

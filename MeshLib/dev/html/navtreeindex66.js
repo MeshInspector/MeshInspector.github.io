@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ImproveSamplingSettings.html":[12,0,1,257],
+"structMR_1_1ImproveSamplingSettings.html#a16a300ede2680b4bc68e81aeb8130903":[10,0,12,272,3],
+"structMR_1_1ImproveSamplingSettings.html#a16a300ede2680b4bc68e81aeb8130903":[12,0,1,257,3],
+"structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5":[10,0,12,272,2],
 "structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5":[12,0,1,257,2],
 "structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba":[10,0,12,272,4],
 "structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba":[12,0,1,257,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[12,0,1,297,3],
 "structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[10,0,12,312,1],
 "structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[12,0,1,297,1],
-"structMR_1_1MarchingCubesParams.html":[10,0,12,314],
-"structMR_1_1MarchingCubesParams.html":[12,0,1,299],
-"structMR_1_1MarchingCubesParams.html#a0013d7ada21c45455c0bcddddde6e242":[10,0,12,314,3],
-"structMR_1_1MarchingCubesParams.html#a0013d7ada21c45455c0bcddddde6e242":[12,0,1,299,3],
-"structMR_1_1MarchingCubesParams.html#a0c0cb7da0bce61553dc890c0ae4e44fd":[10,0,12,314,7]
+"structMR_1_1MarchingCubesParams.html":[10,0,12,314]
 };
