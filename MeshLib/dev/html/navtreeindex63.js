@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[12,0,1,189,0,1],
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[10,0,12,204,0,0],
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[12,0,1,189,0,0],
+"structMR_1_1FaceFace.html":[9,1,11],
 "structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[9,1,11,1],
 "structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,1,11,0],
 "structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[9,1,11,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a":[9,9,3,0,5],
 "structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9":[9,9,3,0,2],
 "structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a":[9,9,3,0,1],
-"structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e":[9,9,3,0,6],
-"structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d":[9,9,3,0,3],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[9,9,3,0,0],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780":[9,9,3,0,0,1],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754":[9,9,3,0,0,0]
+"structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e":[9,9,3,0,6]
 };
