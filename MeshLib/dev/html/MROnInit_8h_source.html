@@ -124,7 +124,7 @@ $(function(){initNavTree('MROnInit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="foldopen" id="foldopen00005" data-start="" data-end="">
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">    5</a></span><span class="preprocessor">#define MR_ON_INIT \</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">auto MR_CONCAT( __mrOnInit_, __LINE__ ) = ::MR::detail::FuncCallHelper{} -&gt;* [] () -&gt; void</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">static auto MR_CONCAT( __mrOnInit_, __LINE__ ) = ::MR::detail::FuncCallHelper{} -&gt;* [] () -&gt; void</span></div>
 </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1detail.html">MR::detail</a></div>
