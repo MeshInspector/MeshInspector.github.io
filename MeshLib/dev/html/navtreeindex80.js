@@ -1,5 +1,15 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1VolumeToMeshByPartsSettings.html":[9,17,4],
+"structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[9,17,4,1],
+"structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[9,17,4,0],
+"structMR_1_1VoxelLocation.html":[9,17,0,0],
+"structMR_1_1VoxelMetricParameters.html":[9,17,2,0],
+"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[9,17,2,0,0],
+"structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438":[9,17,2,0,2],
+"structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e":[9,17,2,0,1],
+"structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[9,17,2,0,4],
+"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[9,17,2,0,3],
 "structMR_1_1VoxelTraits.html":[10,0,12,726],
 "structMR_1_1VoxelTraits.html":[12,0,1,711],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[10,0,12,727],
@@ -239,15 +249,5 @@ var NAVTREEINDEX80 =
 "structVariableEdgeTri.html#a8483ff74e641b4b65352f205c0a6abac":[12,0,97,0],
 "structVariableEdgeTri.html#acda16d55b7d7cb7c7a12d6bc6853bd99":[12,0,97,1],
 "structVariableEdgeTri.html#ad1db77c33e002591aa2f30425c2c878e":[12,0,97,2],
-"structauto__cast__trait.html":[12,0,4],
-"structvector__ref__wrapper.html":[12,0,99],
-"structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708":[12,0,99,0],
-"structvector__ref__wrapper.html#a1171b92d956a034f4456ac8d0633fc9a":[12,0,99,2],
-"structvector__ref__wrapper.html#a53eedbc09ac9a565faf3ad5f048daea9":[12,0,99,1],
-"structvector__wrapper.html":[12,0,100],
-"structvector__wrapper.html#a53fb301d5d0304c9b925026a7de3d286":[12,0,100,1],
-"structvector__wrapper.html#a8f12f1295cb810051b9f955966cc690d":[12,0,100,2],
-"structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd":[12,0,100,0],
-"structvector__wrapper.html#af984a19eaf27a81800c8c3a7d0561355":[12,0,100,3],
-"structvector__wrapper__base.html":[12,0,101]
+"structauto__cast__trait.html":[12,0,4]
 };

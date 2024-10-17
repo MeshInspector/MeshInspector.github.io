@@ -1,5 +1,15 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[10,0,12,312],
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[12,0,1,297],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[10,0,12,312,2],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[12,0,1,297,2],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[10,0,12,312,4],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[12,0,1,297,4],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[10,0,12,312,0],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[12,0,1,297,0],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[10,0,12,312,3],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[12,0,1,297,3],
 "structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[10,0,12,312,1],
 "structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[12,0,1,297,1],
 "structMR_1_1MarchingCubesParams.html":[10,0,12,314],
@@ -239,15 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Mesh.html#a5fab8c28312fa8c3ac69c2f63d345f20":[9,7,1,77],
 "structMR_1_1Mesh.html#a6241859f835aa7cd22f26c1e40b9791a":[9,7,1,23],
 "structMR_1_1Mesh.html#a63974f1e9e91aec82c60fc776f51ea7b":[9,7,1,45],
-"structMR_1_1Mesh.html#a6410490732e1756a5716df6539c55d45":[9,7,1,80],
-"structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a":[9,7,1,50],
-"structMR_1_1Mesh.html#a6d8e2d55d67e606f0129377d0d14aa4a":[9,7,1,78],
-"structMR_1_1Mesh.html#a7173fafd19150c40259003561a02162a":[9,7,1,57],
-"structMR_1_1Mesh.html#a726a27c8dbdef71902d1031424bea5cf":[9,7,1,84],
-"structMR_1_1Mesh.html#a739c01f192fc474add3f5341ade42018":[9,7,1,15],
-"structMR_1_1Mesh.html#a7444cb052e8855eb1ea69b34d2796f3a":[9,7,1,94],
-"structMR_1_1Mesh.html#a797623a41864029eb93103c262fa70d4":[9,7,1,71],
-"structMR_1_1Mesh.html#a7d51b4057ba3a41c5ef11fba53fa8a3c":[9,7,1,58],
-"structMR_1_1Mesh.html#a7ef2784fa43035776fad3e85ac252642":[9,7,1,41],
-"structMR_1_1Mesh.html#a8121a87b4511118c273836888eb18ab8":[9,7,1,67]
+"structMR_1_1Mesh.html#a6410490732e1756a5716df6539c55d45":[9,7,1,80]
 };

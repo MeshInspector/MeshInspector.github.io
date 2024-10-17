@@ -1,5 +1,15 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a0e136117cf759046ebb381d8b7f51f23":[10,0,12,35,3,0],
+"namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca":[10,0,12,35,3,1],
+"namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a941b167d61d8a5ba4ff489d0ddac477e":[10,0,12,35,3,2],
+"namespaceMR_1_1TriangulationHelpers.html":[10,0,12,36],
+"namespaceMR_1_1TriangulationHelpers.html#a0e54822d80eff541695984d7a72a2ac9":[10,0,12,36,4],
+"namespaceMR_1_1TriangulationHelpers.html#a691dadc49fb6346b701545653e8e1dcf":[10,0,12,36,7],
+"namespaceMR_1_1TriangulationHelpers.html#a7bac13257412606ce60799f214894488":[10,0,12,36,3],
+"namespaceMR_1_1TriangulationHelpers.html#aaaaea439dd161b8d9bb9fa504ec2c384":[10,0,12,36,5],
+"namespaceMR_1_1UI.html":[10,0,12,37],
+"namespaceMR_1_1UI.html#a012d7558b98063f22c4bb9a28299837b":[10,0,12,37,24],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6":[10,0,12,37,12],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086":[10,0,12,37,12,0],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a":[10,0,12,37,12,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX57 =
 "structICPProperties.html#aa9ad694f6a9dcc367edb5426f4a5112e":[12,0,19,4],
 "structICPProperties.html#aba0a60e0dd7a350d95f3d6a45a848fb1":[12,0,19,5],
 "structICPProperties.html#acb64007a3da8386169a98ce66b13e42c":[12,0,19,9],
-"structICPProperties.html#ae9e4864f60f525e8c551c95a529ddac9":[12,0,19,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[10,0,1,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[12,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[10,0,1,0,6],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[12,0,0,0,6],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[10,0,1,0,10],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[12,0,0,0,10],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[10,0,1,0,5],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[12,0,0,0,5],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[10,0,1,0,7],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[12,0,0,0,7]
+"structICPProperties.html#ae9e4864f60f525e8c551c95a529ddac9":[12,0,19,0]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ImGuiMenu_1_1PluginsCache.html#a5b6ec1646cacd3bbf47ccb76bb65b353":[12,0,1,256,1,1],
+"structMR_1_1ImGuiMenu_1_1PluginsCache.html#ae87376afb2e50882e1b00a339a92bc62":[10,0,12,271,1,0],
+"structMR_1_1ImGuiMenu_1_1PluginsCache.html#ae87376afb2e50882e1b00a339a92bc62":[12,0,1,256,1,0],
+"structMR_1_1Image.html":[9,18,0],
+"structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8":[9,18,0,4],
+"structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151":[9,18,0,7],
+"structMR_1_1Image.html#a3b6b9b5bd10ab0b951b4049866cb22fb":[9,18,0,1],
+"structMR_1_1Image.html#a6ea7fda3271b8069b31c64acfa61c5d4":[9,18,0,2],
+"structMR_1_1Image.html#a872aae100ad383474afd5c9c8468b3d5":[9,18,0,5],
+"structMR_1_1Image.html#ac507525682328e3e5fec0b85c131c224":[9,18,0,6],
 "structMR_1_1Image.html#aed3087256e14a389e2e32449eb1233d1":[9,18,0,0],
 "structMR_1_1Image.html#af6176f7d0a558084bda1ff8e2f3f6237":[9,18,0,3],
 "structMR_1_1ImproveSamplingSettings.html":[10,0,12,272],
@@ -239,15 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#a9a43bd53420bdfcd8981d9dc16830775":[10,0,12,311,2],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#a9a43bd53420bdfcd8981d9dc16830775":[12,0,1,296,2],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[10,0,12,311,0],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[12,0,1,296,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[10,0,12,312],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[12,0,1,297],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[10,0,12,312,2],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[12,0,1,297,2],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[10,0,12,312,4],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[12,0,1,297,4],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[10,0,12,312,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[12,0,1,297,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[10,0,12,312,3],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[12,0,1,297,3]
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[12,0,1,296,0]
 };

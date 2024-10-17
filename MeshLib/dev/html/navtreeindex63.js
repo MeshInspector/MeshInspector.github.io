@@ -1,5 +1,15 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[10,0,12,201,1],
+"structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[12,0,1,186,1],
+"structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[10,0,12,201,2],
+"structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[12,0,1,186,2],
+"structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[10,0,12,201,4],
+"structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[12,0,1,186,4],
+"structMR_1_1FaceDistancesSettings.html":[10,0,12,204],
+"structMR_1_1FaceDistancesSettings.html":[12,0,1,189],
+"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[10,0,12,204,1],
+"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[12,0,1,189,1],
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[10,0,12,204,2],
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[12,0,1,189,2],
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[10,0,12,204,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FillHoleNicelySettings.html#a2ead937ed1df084dc6a43160e17df2c2":[12,0,1,202,8],
 "structMR_1_1FillHoleNicelySettings.html#a62e34964b014489a6f1d3f2e324759ff":[10,0,12,217,7],
 "structMR_1_1FillHoleNicelySettings.html#a62e34964b014489a6f1d3f2e324759ff":[12,0,1,202,7],
-"structMR_1_1FillHoleNicelySettings.html#a6dab8822d5eac719a15e99f44c4a3407":[10,0,12,217,4],
-"structMR_1_1FillHoleNicelySettings.html#a6dab8822d5eac719a15e99f44c4a3407":[12,0,1,202,4],
-"structMR_1_1FillHoleNicelySettings.html#a8e1fac34058b267d696714994b158ce2":[10,0,12,217,9],
-"structMR_1_1FillHoleNicelySettings.html#a8e1fac34058b267d696714994b158ce2":[12,0,1,202,9],
-"structMR_1_1FillHoleNicelySettings.html#aac4ecae12eb97ad05b204ac14de42cb8":[10,0,12,217,6],
-"structMR_1_1FillHoleNicelySettings.html#aac4ecae12eb97ad05b204ac14de42cb8":[12,0,1,202,6],
-"structMR_1_1FillHoleNicelySettings.html#aba46fa5a5269e9ffb23176c985a2c2b7":[10,0,12,217,5],
-"structMR_1_1FillHoleNicelySettings.html#aba46fa5a5269e9ffb23176c985a2c2b7":[12,0,1,202,5],
-"structMR_1_1FillHoleNicelySettings.html#adebcc27b0bdbb4fa55baa8eae16a0dfb":[10,0,12,217,3],
-"structMR_1_1FillHoleNicelySettings.html#adebcc27b0bdbb4fa55baa8eae16a0dfb":[12,0,1,202,3],
-"structMR_1_1FillHoleNicelySettings.html#af9530ece1e8bd0354145a59d4d603bf9":[10,0,12,217,0]
+"structMR_1_1FillHoleNicelySettings.html#a6dab8822d5eac719a15e99f44c4a3407":[10,0,12,217,4]
 };

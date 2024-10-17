@@ -1,5 +1,15 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[12,0,1,15,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[10,0,12,26,1,3],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[12,0,1,15,1,3],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[10,0,12,26,1,2],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[12,0,1,15,1,2],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[10,0,12,26,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[12,0,1,15,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[10,0,12,26,1,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[12,0,1,15,1,1],
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[10,0,12,26,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[12,0,1,15,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[10,0,12,26,2,0],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[12,0,1,15,2,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1PreciseVertCoords2.html":[10,0,12,483],
 "structMR_1_1PreciseVertCoords2.html":[12,0,1,468],
 "structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[10,0,12,483,1],
-"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[12,0,1,468,1],
-"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[10,0,12,483,0],
-"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[12,0,1,468,0],
-"structMR_1_1ProgressInterrupter.html":[10,0,12,486],
-"structMR_1_1ProgressInterrupter.html":[12,0,1,471],
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[10,0,12,486,1],
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[12,0,1,471,1],
-"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[10,0,12,486,2],
-"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[12,0,1,471,2],
-"structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[10,0,12,486,0],
-"structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[12,0,1,471,0]
+"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[12,0,1,468,1]
 };

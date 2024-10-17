@@ -1,5 +1,15 @@
 var NAVTREEINDEX58 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html":[10,0,1,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html":[12,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[10,0,1,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[12,0,0,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[10,0,1,0,10],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[12,0,0,0,10],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[10,0,1,0,5],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[12,0,0,0,5],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[10,0,1,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[12,0,0,0,7],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[10,0,1,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[12,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[10,0,1,0,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX58 =
 "structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df":[12,0,76,2],
 "structMRVariableEdgeTri.html#afdb5363f5103bfde2cc6a6507f3f97f6":[12,0,76,1],
 "structMRVector3f.html":[12,0,77],
-"structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[12,0,77,1],
-"structMRVector3f.html#a5c5342e25c41c46694167c41774234bd":[12,0,77,0],
-"structMRVector3f.html#a9fbd6e9840c8d988a628ec3519c05a0c":[12,0,77,2],
-"structMRVertId.html":[12,0,78],
-"structMRVertId.html#a81465bbd9b0f213d4daad78a79e07c87":[12,0,78,0],
-"structMR_1_1AABBTreeNode.html":[9,1,4],
-"structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0":[9,1,4,1],
-"structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e":[9,1,4,7],
-"structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9":[9,1,4,6],
-"structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6":[9,1,4,2],
-"structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0":[9,1,4,5]
+"structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[12,0,77,1]
 };

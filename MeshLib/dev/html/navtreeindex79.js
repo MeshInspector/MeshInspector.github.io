@@ -1,5 +1,15 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[10,0,12,682,0],
+"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[12,0,1,667,0],
+"structMR_1_1VariableEdgeTri.html":[10,0,12,683],
+"structMR_1_1VariableEdgeTri.html":[12,0,1,668],
+"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[10,0,12,683,0],
+"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[12,0,1,668,0],
+"structMR_1_1Vector2.html":[9,0,12,0],
+"structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[9,0,12,0,27],
+"structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[9,0,12,0,4],
+"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[9,0,12,0,23],
 "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff":[9,0,12,0,22],
 "structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b":[9,0,12,0,7],
 "structMR_1_1Vector2.html#a22a30fa24fb87ce9794b8008a976b937":[9,0,12,0,13],
@@ -239,15 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1VolumeSegmentationParameters.html":[9,17,1,0],
 "structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[9,17,1,0,2],
 "structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[9,17,1,0,1],
-"structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[9,17,1,0,0],
-"structMR_1_1VolumeToMeshByPartsSettings.html":[9,17,4],
-"structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[9,17,4,1],
-"structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[9,17,4,0],
-"structMR_1_1VoxelLocation.html":[9,17,0,0],
-"structMR_1_1VoxelMetricParameters.html":[9,17,2,0],
-"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[9,17,2,0,0],
-"structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438":[9,17,2,0,2],
-"structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e":[9,17,2,0,1],
-"structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[9,17,2,0,4],
-"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[9,17,2,0,3]
+"structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[9,17,1,0,0]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX81 =
 {
+"structvector__ref__wrapper.html":[12,0,99],
+"structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708":[12,0,99,0],
+"structvector__ref__wrapper.html#a1171b92d956a034f4456ac8d0633fc9a":[12,0,99,2],
+"structvector__ref__wrapper.html#a53eedbc09ac9a565faf3ad5f048daea9":[12,0,99,1],
+"structvector__wrapper.html":[12,0,100],
+"structvector__wrapper.html#a53fb301d5d0304c9b925026a7de3d286":[12,0,100,1],
+"structvector__wrapper.html#a8f12f1295cb810051b9f955966cc690d":[12,0,100,2],
+"structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd":[12,0,100,0],
+"structvector__wrapper.html#af984a19eaf27a81800c8c3a7d0561355":[12,0,100,3],
+"structvector__wrapper__base.html":[12,0,101],
 "structvector__wrapper__base.html#a16068ea8159df175c3e6627bd753d3a9":[12,0,101,3],
 "structvector__wrapper__base.html#a1e4fa20924d9c035f933daacb80443ae":[12,0,101,0],
 "structvector__wrapper__base.html#a94ee8960370fa51b6ebca2cd521469e0":[12,0,101,1],
