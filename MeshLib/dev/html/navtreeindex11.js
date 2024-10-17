@@ -1,5 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"MRSaveOnClose_8h.html":[13,0,0,2,10,81],
+"MRSaveOnClose_8h_source.html":[13,0,0,2,10,81],
+"MRSaveSettings_8h.html":[13,0,0,2,4,302],
 "MRSaveSettings_8h.html#a423dfbb3e8fe2d355d3569c58f27881f":[13,0,0,2,4,302,4],
 "MRSaveSettings_8h.html#a7aba106487b0adfd357e9232e18a922f":[13,0,0,2,4,302,2],
 "MRSaveSettings_8h.html#a7b5f265567104240be13bb0adc6d84f7":[13,0,0,2,4,302,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "MRSurfaceContoursWidget_8h_source.html":[13,0,0,2,10,104],
 "MRSurfaceDistanceBuilder_8h.html":[13,0,0,2,4,323],
 "MRSurfaceDistanceBuilder_8h_source.html":[13,0,0,2,4,323],
-"MRSurfaceDistance_8h.html":[13,0,0,2,4,322],
-"MRSurfaceDistance_8h_source.html":[13,0,0,2,4,322],
-"MRSurfaceManipulationWidget_8h.html":[13,0,0,2,10,105],
-"MRSurfaceManipulationWidget_8h_source.html":[13,0,0,2,10,105]
+"MRSurfaceDistance_8h.html":[13,0,0,2,4,322]
 };

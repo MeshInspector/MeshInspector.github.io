@@ -1,5 +1,8 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b":[10,0,12,967,0],
+"namespaceMR.html#afc584d61fd54ca2a86dec086736fdfd4":[10,0,12,1975],
+"namespaceMR.html#afc9f574268d072e85d31e140353743df":[10,0,12,2133],
 "namespaceMR.html#afcac7cfa63a119745d66e8d1de48b084":[10,0,12,889],
 "namespaceMR.html#afd74f9f75fe9d97b4aa208e3fa498301":[10,0,12,1339],
 "namespaceMR.html#afddcd5cd9466d41302c0ec4d1ee83c96":[10,0,12,1544],
@@ -246,8 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1TriangulationHelpers.html#a7bac13257412606ce60799f214894488":[10,0,12,36,3],
 "namespaceMR_1_1TriangulationHelpers.html#aaaaea439dd161b8d9bb9fa504ec2c384":[10,0,12,36,5],
 "namespaceMR_1_1UI.html":[10,0,12,37],
-"namespaceMR_1_1UI.html#a012d7558b98063f22c4bb9a28299837b":[10,0,12,37,24],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6":[10,0,12,37,12],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086":[10,0,12,37,12,0],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a":[10,0,12,37,12,1]
+"namespaceMR_1_1UI.html#a012d7558b98063f22c4bb9a28299837b":[10,0,12,37,24]
 };

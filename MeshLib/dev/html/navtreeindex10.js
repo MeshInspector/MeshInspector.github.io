@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"MRPrimitiveMapsComposition_8h.html":[13,0,0,2,4,282],
+"MRPrimitiveMapsComposition_8h_source.html":[13,0,0,2,4,282],
+"MRPrism_8h.html":[13,0,0,2,4,283],
 "MRPrism_8h.html#afef3937755aede5ca15af7158e3dcf46":[13,0,0,2,4,283,0],
 "MRPrism_8h_source.html":[13,0,0,2,4,283],
 "MRProgressBar_8h.html":[13,0,0,2,10,54],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "MRRingIterator_8h.html#ab302d013b154c9d7f02b52fa128806af":[13,0,0,2,4,301,9],
 "MRRingIterator_8h.html#ac0fbbb1a0891fb178057f88b2bb392ff":[13,0,0,2,4,301,10],
 "MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3":[13,0,0,2,4,301,3],
-"MRRingIterator_8h_source.html":[13,0,0,2,4,301],
-"MRSaveOnClose_8h.html":[13,0,0,2,10,81],
-"MRSaveOnClose_8h_source.html":[13,0,0,2,10,81],
-"MRSaveSettings_8h.html":[13,0,0,2,4,302]
+"MRRingIterator_8h_source.html":[13,0,0,2,4,301]
 };

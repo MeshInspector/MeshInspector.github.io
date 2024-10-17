@@ -1,5 +1,8 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[10,0,12,591,0],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[12,0,1,576,0],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[10,0,12,591,1],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[12,0,1,576,1],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[10,0,12,591,6],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[12,0,1,576,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0":[12,0,1,611,0,4],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#ac072b93be7d076a5ecab7a5447632d0b":[10,0,12,626,0,7],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#ac072b93be7d076a5ecab7a5447632d0b":[12,0,1,611,0,7],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1":[10,0,12,626,0,1],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1":[12,0,1,611,0,1],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[10,0,12,626,0,6],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[12,0,1,611,0,6]
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1":[10,0,12,626,0,1]
 };

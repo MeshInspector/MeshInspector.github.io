@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1VoxelTraits.html":[10,0,12,726],
+"structMR_1_1VoxelTraits.html":[12,0,1,711],
+"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[10,0,12,727],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[12,0,1,712],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[10,0,12,727,0],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[12,0,1,712,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "structvector__wrapper.html#a8f12f1295cb810051b9f955966cc690d":[12,0,100,2],
 "structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd":[12,0,100,0],
 "structvector__wrapper.html#af984a19eaf27a81800c8c3a7d0561355":[12,0,100,3],
-"structvector__wrapper__base.html":[12,0,101],
-"structvector__wrapper__base.html#a16068ea8159df175c3e6627bd753d3a9":[12,0,101,3],
-"structvector__wrapper__base.html#a1e4fa20924d9c035f933daacb80443ae":[12,0,101,0],
-"structvector__wrapper__base.html#a94ee8960370fa51b6ebca2cd521469e0":[12,0,101,1]
+"structvector__wrapper__base.html":[12,0,101]
 };

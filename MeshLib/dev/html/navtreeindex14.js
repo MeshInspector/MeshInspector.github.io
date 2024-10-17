@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"MRVolumeShader_8h_source.html":[13,0,0,2,10,135],
+"MRVoxelGraphCut_8h.html":[13,0,0,2,11,31],
+"MRVoxelGraphCut_8h_source.html":[13,0,0,2,11,31],
 "MRVoxelPath_8h.html":[13,0,0,2,11,32],
 "MRVoxelPath_8h_source.html":[13,0,0,2,11,32],
 "MRVoxelsApplyTransform_8h.html":[13,0,0,2,11,33],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[12,0,1,27,5],
 "classMR_1_1AABBTreeBase.html#a58f8dd538965bde14c46c2ed60aac1f9":[10,0,12,42,15],
 "classMR_1_1AABBTreeBase.html#a58f8dd538965bde14c46c2ed60aac1f9":[12,0,1,27,15],
-"classMR_1_1AABBTreeBase.html#a66e27ff8d7cb865904647479f715a7f3":[10,0,12,42,7],
-"classMR_1_1AABBTreeBase.html#a66e27ff8d7cb865904647479f715a7f3":[12,0,1,27,7],
-"classMR_1_1AABBTreeBase.html#a6fd4a54abb1c4fe946e503bcb14d15c4":[10,0,12,42,2],
-"classMR_1_1AABBTreeBase.html#a6fd4a54abb1c4fe946e503bcb14d15c4":[12,0,1,27,2]
+"classMR_1_1AABBTreeBase.html#a66e27ff8d7cb865904647479f715a7f3":[10,0,12,42,7]
 };

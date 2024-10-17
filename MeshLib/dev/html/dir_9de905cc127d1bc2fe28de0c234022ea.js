@@ -13,6 +13,7 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRICP.h", "MRMeshC_2MRICP_8h.html", "MRMeshC_2MRICP_8h" ],
     [ "MRId.h", "MRMeshC_2MRId_8h.html", "MRMeshC_2MRId_8h" ],
     [ "MRIntersectionContour.h", "MRMeshC_2MRIntersectionContour_8h.html", "MRMeshC_2MRIntersectionContour_8h" ],
+    [ "MRIOExtras.h", "MRMeshC_2MRIOExtras_8h.html", "MRMeshC_2MRIOExtras_8h" ],
     [ "MRMakeSphereMesh.h", "MRMeshC_2MRMakeSphereMesh_8h.html", "MRMeshC_2MRMakeSphereMesh_8h" ],
     [ "MRMatrix3.h", "MRMeshC_2MRMatrix3_8h.html", "MRMeshC_2MRMatrix3_8h" ],
     [ "MRMesh.h", "MRMeshC_2MRMesh_8h.html", "MRMeshC_2MRMesh_8h" ],

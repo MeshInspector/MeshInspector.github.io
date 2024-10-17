@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff":[9,0,12,0,22],
+"structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b":[9,0,12,0,7],
+"structMR_1_1Vector2.html#a22a30fa24fb87ce9794b8008a976b937":[9,0,12,0,13],
 "structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[9,0,12,0,2],
 "structMR_1_1Vector2.html#a44dfcdae04d14aa3a278511982e1eed5":[9,0,12,0,20],
 "structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8":[9,0,12,0,28],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438":[9,17,2,0,2],
 "structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e":[9,17,2,0,1],
 "structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[9,17,2,0,4],
-"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[9,17,2,0,3],
-"structMR_1_1VoxelTraits.html":[10,0,12,726],
-"structMR_1_1VoxelTraits.html":[12,0,1,711],
-"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[10,0,12,727]
+"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[9,17,2,0,3]
 };
