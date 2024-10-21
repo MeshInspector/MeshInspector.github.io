@@ -19,5 +19,6 @@ var searchData=
   ['status_16',['Status',['../structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e',1,'MR::Features::MeasureResult']]],
   ['streamtype_17',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]],
   ['stringicon_18',['StringIcon',['../namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73de',1,'MR::ImGuiMeasurementIndicators']]],
-  ['swipemode_19',['SwipeMode',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce',1,'MR::TouchpadParameters']]]
+  ['swipemode_19',['SwipeMode',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce',1,'MR::TouchpadParameters']]],
+  ['systemfonttype_20',['SystemFontType',['../classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8',1,'MR::SystemPath']]]
 ];
