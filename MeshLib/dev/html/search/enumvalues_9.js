@@ -24,6 +24,5 @@ var searchData=
   ['inv_5fmeters_21',['inv_meters',['../namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a3ea45d8602a5aa192465cbbc8980376c',1,'MR']]],
   ['inv_5fmm_22',['inv_mm',['../namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22',1,'MR']]],
   ['invalid_23',['Invalid',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid']]],
-  ['isometric_24',['Isometric',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc',1,'MR::SetViewPresetMenuItem']]],
-  ['italic_25',['Italic',['../classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a1d874710ccdcd46b95397049d2e7500c',1,'MR::SystemPath']]]
+  ['isometric_24',['Isometric',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc',1,'MR::SetViewPresetMenuItem']]]
 ];
