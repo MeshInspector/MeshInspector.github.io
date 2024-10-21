@@ -97,7 +97,7 @@ var searchData=
   ['registration_94',['Global Registration',['../ExampleCSharpGlobalRegistration.html',1,'CSharpCodeExamples']]],
   ['registration_95',['Global registration',['../ExampleCGlobalRegistration.html',1,'CCodeExamples']]],
   ['registry_96',['IO Formats Registry',['../group__IOFormatsRegistryGroup.html',1,'']]],
-  ['regular_97',['Regular',['../classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345',1,'MR::RibbonFontManager']]],
+  ['regular_97',['Regular',['../classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8ad2203cb1237cb6460cbad94564e39345',1,'MR::SystemPath::Regular'],['../classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345',1,'MR::RibbonFontManager::Regular']]],
   ['regular_20numpy_20grid_98',['Triangulation of a regular Numpy grid',['../ExamplePythonNumpyTriangulation.html',1,'PythonCodeExamples']]],
   ['regulargridlatticepositioner_99',['RegularGridLatticePositioner',['../namespaceMR.html#a4d79ee45f0088d8ef788b1d7dabc72a6',1,'MR']]],
   ['regulargridlatticevalidator_100',['RegularGridLatticeValidator',['../namespaceMR.html#a1c3671ae104a3e05c4c521d25a4bab13',1,'MR']]],
