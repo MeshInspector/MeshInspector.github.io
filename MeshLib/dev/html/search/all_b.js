@@ -288,7 +288,7 @@ var searchData=
   ['issharedptr_285',['isSharedPtr',['../structMR_1_1Meta_1_1SharedPtrTraits.html#a7f680c0ebb2fa786b5db17323abd010b',1,'MR::Meta::SharedPtrTraits']]],
   ['isspherical_286',['isSpherical',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a1b1c56e527cabfa9b554697eaf7b6e8d',1,'MR::RenderDimensions::RadiusParams']]],
   ['isstart_287',['isStart',['../structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940',1,'MR::VertPathInfo']]],
-  ['issupportedextension_288',['isSupportedExtension',['../structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b',1,'MR::IOFilter']]],
+  ['issupportedextension_288',['isSupportedExtension',['../structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765',1,'MR::IOFilter']]],
   ['issupportedfileinsubfolders_289',['isSupportedFileInSubfolders',['../namespaceMR.html#aa2082792bceb5a2dd3b18ff5693f0441',1,'MR']]],
   ['issupportedformat_290',['isSupportedFormat',['../classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853',1,'MR::Viewer']]],
   ['issurfacenormala_291',['isSurfaceNormalA',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9',1,'MR::Features::MeasureResult::Angle']]],
