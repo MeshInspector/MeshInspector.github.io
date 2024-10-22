@@ -389,8 +389,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aad7ae2b261b453a9a3f957579f27c381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12df9cd9111455d38ad32806075bfec7" id="r_a12df9cd9111455d38ad32806075bfec7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12df9cd9111455d38ad32806075bfec7">setViewportSettingsManager</a> (std::unique_ptr&lt; <a class="el" href="classMR_1_1IViewerSettingsManager.html">IViewerSettingsManager</a> &gt; mng)</td></tr>
 <tr class="separator:a12df9cd9111455d38ad32806075bfec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a449fc8ffcd4da3a50e4ce7d6cf7c4a41" id="r_a449fc8ffcd4da3a50e4ce7d6cf7c4a41"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::unique_ptr&lt; <a class="el" href="classMR_1_1IViewerSettingsManager.html">IViewerSettingsManager</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a449fc8ffcd4da3a50e4ce7d6cf7c4a41">getViewportSettingsManager</a> () const</td></tr>
-<tr class="separator:a449fc8ffcd4da3a50e4ce7d6cf7c4a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba07276bca1b1841a90fa8d9fc800507" id="r_aba07276bca1b1841a90fa8d9fc800507"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::unique_ptr&lt; <a class="el" href="classMR_1_1IViewerSettingsManager.html">IViewerSettingsManager</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba07276bca1b1841a90fa8d9fc800507">getViewerSettingsManager</a> () const</td></tr>
+<tr class="separator:aba07276bca1b1841a90fa8d9fc800507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7198c8ad9225c7320c177e932c2ba158" id="r_a7198c8ad9225c7320c177e932c2ba158"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#ae11f6202a72dd7403332a471e5aced7e">PointInAllSpaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7198c8ad9225c7320c177e932c2ba158">getPixelPointInfo</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;screenPoint) const</td></tr>
 <tr class="separator:a7198c8ad9225c7320c177e932c2ba158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c6d6007f6c14032798d4baa7af0099c" id="r_a1c6d6007f6c14032798d4baa7af0099c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#ae11f6202a72dd7403332a471e5aced7e">PointInAllSpaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6d6007f6c14032798d4baa7af0099c">getMousePointInfo</a> () const</td></tr>
@@ -1918,6 +1918,31 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="aba07276bca1b1841a90fa8d9fc800507" name="aba07276bca1b1841a90fa8d9fc800507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba07276bca1b1841a90fa8d9fc800507">&#9670;&#160;</a></span>getViewerSettingsManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API const std::unique_ptr&lt; <a class="el" href="classMR_1_1IViewerSettingsManager.html">IViewerSettingsManager</a> &gt; &amp; MR::Viewer::getViewerSettingsManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a19148d138b8620a75f9b3e73441b7955" name="a19148d138b8620a75f9b3e73441b7955"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19148d138b8620a75f9b3e73441b7955">&#9670;&#160;</a></span>getViewports()</h2>
 
@@ -1948,31 +1973,6 @@ template&lt;typename PluginType &gt; </div>
           <td> const</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a449fc8ffcd4da3a50e4ce7d6cf7c4a41" name="a449fc8ffcd4da3a50e4ce7d6cf7c4a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a449fc8ffcd4da3a50e4ce7d6cf7c4a41">&#9670;&#160;</a></span>getViewportSettingsManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API const std::unique_ptr&lt; <a class="el" href="classMR_1_1IViewerSettingsManager.html">IViewerSettingsManager</a> &gt; &amp; MR::Viewer::getViewportSettingsManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

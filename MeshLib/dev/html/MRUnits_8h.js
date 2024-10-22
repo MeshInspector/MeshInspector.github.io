@@ -37,7 +37,8 @@ var MRUnits_8h =
     [ "DegreesMode", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424", [
       [ "degrees", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d", null ],
       [ "degreesMinutes", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b", null ],
-      [ "degreesMinutesSeconds", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d", null ]
+      [ "degreesMinutesSeconds", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d", null ],
+      [ "_count", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "InvLengthUnit", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5", [
       [ "inv_mm", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22", null ],
@@ -95,6 +96,7 @@ var MRUnits_8h =
     [ "guessPrecision", "MRUnits_8h.html#a33468b27fcfb4e39e7bcbc65162f5dce", null ],
     [ "guessPrecision", "MRUnits_8h.html#a6304170dd60424bc3b95da334cc55e6b", null ],
     [ "setDefaultUnitParams", "MRUnits_8h.html#a822feec21d0c267d63b63429392323c9", null ],
+    [ "toString", "MRUnits_8h.html#a2345d0a738c6f4f2a8fb95b5fb2504a8", null ],
     [ "unitsAreEquivalent", "MRUnits_8h.html#a0c2948849a79593059ba5c880d5ae050", null ],
     [ "unitsAreEquivalent", "MRUnits_8h.html#a7223f0b55060f4ce1f1e6f9c37ff0867", null ],
     [ "valueToImGuiFormatString", "MRUnits_8h.html#a888aed091b9c64c5a26d9490cd820f89", null ],

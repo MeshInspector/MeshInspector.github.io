@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1ChangeMeshTexturePerFaceAction.html#ab6aa5335ed7975682a4f23ccfbd8d5f2":[9,4,9,2],
+"classMR_1_1ChangeMeshTopologyAction.html":[9,4,8],
+"classMR_1_1ChangeMeshTopologyAction.html#a390c7099109f9817a3502210630fa228":[9,4,8,2],
 "classMR_1_1ChangeMeshTopologyAction.html#a94b059bce32bf0568d4e0b3fa861479c":[9,4,8,4],
 "classMR_1_1ChangeMeshTopologyAction.html#aa8d94a8b87ac3a73dc720cb294e1553e":[9,4,8,1],
 "classMR_1_1ChangeMeshTopologyAction.html#ac1782bd01a600b949c2bd731b603918b":[9,4,8,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33":[12,0,1,120,1,31],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d":[10,0,12,135,1,28],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d":[12,0,1,120,1,28],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776":[10,0,12,135,1,53],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776":[12,0,1,120,1,53],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162":[10,0,12,135,1,55],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162":[12,0,1,120,1,55]
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776":[10,0,12,135,1,53]
 };

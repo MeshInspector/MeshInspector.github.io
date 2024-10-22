@@ -109,16 +109,17 @@ var namespaceMR =
     [ "UnitSettings", "namespaceMR_1_1UnitSettings.html", [
       [ "getDegreesMode", "namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5", null ],
       [ "getShowLeadingZero", "namespaceMR_1_1UnitSettings.html#aa107ba449e9a30d426079db1abc6f9e8", null ],
-      [ "getThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a57a081feec9edcca2fbd616809dd3e3e", null ],
+      [ "getThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a0325434bfffb878393212fbdbca5aa8e", null ],
       [ "getUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#aefbc07263247d17b42b9b520c287901c", null ],
       [ "getUiLengthPrecision", "namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee", null ],
       [ "getUiLengthUnit", "namespaceMR_1_1UnitSettings.html#a3828878d9371fdeec0058499a90a773c", null ],
-      [ "setDegreesMode", "namespaceMR_1_1UnitSettings.html#a8023d3ce4f4b956c48485e288b1956a1", null ],
+      [ "resetToDefaults", "namespaceMR_1_1UnitSettings.html#ae406c519ab41f7cbc08d65a9c83d2bcf", null ],
+      [ "setDegreesMode", "namespaceMR_1_1UnitSettings.html#a095d298e864fff2df5d9ec05315d6d8b", null ],
       [ "setShowLeadingZero", "namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414", null ],
-      [ "setThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a78d6c4b6173060a51fc5fa7ee1dc164d", null ],
+      [ "setThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2", null ],
       [ "setUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#a17f256d60a5bca751f33412395fcfa86", null ],
       [ "setUiLengthPrecision", "namespaceMR_1_1UnitSettings.html#a6c2457148f4800dfc82a654d0d9f3592", null ],
-      [ "setUiLengthUnit", "namespaceMR_1_1UnitSettings.html#a032b01bcd61f28112e477ef4fc210f5b", null ]
+      [ "setUiLengthUnit", "namespaceMR_1_1UnitSettings.html#ad8d6be62abf0d99eeb86139fd7939da1", null ]
     ] ],
     [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", "namespaceMR_1_1VoxelsLoad" ],
     [ "VoxelsSave", "namespaceMR_1_1VoxelsSave.html", "namespaceMR_1_1VoxelsSave" ],
@@ -1061,7 +1062,8 @@ var namespaceMR =
     [ "DegreesMode", "namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424", [
       [ "degrees", "namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d", null ],
       [ "degreesMinutes", "namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b", null ],
-      [ "degreesMinutesSeconds", "namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d", null ]
+      [ "degreesMinutesSeconds", "namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d", null ],
+      [ "_count", "namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "DepthFunction", "namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93", [
       [ "Never", "namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a6e7b34fa59e1bd229b207892956dc41c", null ],
@@ -2578,6 +2580,7 @@ var namespaceMR =
     [ "toLower", "namespaceMR.html#a5a70c8c1a8a14604554c8a19a86984dc", null ],
     [ "topologyFromEigen", "group__MeshEigenGroup.html#gaabdd001b6cc3f8d3b1f259c52b8f6dca", null ],
     [ "topologyToEigen", "group__MeshEigenGroup.html#ga727db2d8f5e385de0f96721bfca39790", null ],
+    [ "toString", "namespaceMR.html#a2345d0a738c6f4f2a8fb95b5fb2504a8", null ],
     [ "toString", "namespaceMR.html#ae471951bdf73171ae96368056485fe84", null ],
     [ "toString", "group__SurfacePathSubgroup.html#gac84bc08e1e95706c67d413f315fcf9d7", null ],
     [ "toVdb", "group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab", null ],

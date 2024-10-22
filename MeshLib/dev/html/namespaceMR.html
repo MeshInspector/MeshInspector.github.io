@@ -2644,6 +2644,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:aa6b11352e59ca716da2c9d8bf2371424" id="r_aa6b11352e59ca716da2c9d8bf2371424"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424">DegreesMode</a> { <a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d">degrees</a>
 , <a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b">degreesMinutes</a>
 , <a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d">degreesMinutesSeconds</a>
+, <a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55">_count</a>
  }</td></tr>
 <tr class="separator:aa6b11352e59ca716da2c9d8bf2371424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d528348b4d27cfa92a1b565755099c8" id="r_a5d528348b4d27cfa92a1b565755099c8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> { <br />
@@ -5262,6 +5263,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a822feec21d0c267d63b63429392323c9" id="r_a822feec21d0c267d63b63429392323c9"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
 <tr class="memitem:a822feec21d0c267d63b63429392323c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a822feec21d0c267d63b63429392323c9">setDefaultUnitParams</a> (const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;newParams)</td></tr>
 <tr class="separator:a822feec21d0c267d63b63429392323c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2345d0a738c6f4f2a8fb95b5fb2504a8" id="r_a2345d0a738c6f4f2a8fb95b5fb2504a8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2345d0a738c6f4f2a8fb95b5fb2504a8">toString</a> (<a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424">DegreesMode</a> mode)</td></tr>
+<tr class="separator:a2345d0a738c6f4f2a8fb95b5fb2504a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d3f8a6d1d7a0498aa353e88c7456182" id="r_a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4d3f8a6d1d7a0498aa353e88c7456182">valueToString</a> (T value, const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;params=<a class="el" href="#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt; E &gt;())</td></tr>
 <tr class="separator:a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -8301,6 +8304,7 @@ template&lt;typename Volume &gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d" name="aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d"></a>degrees&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b" name="aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b"></a>degreesMinutes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d" name="aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d"></a>degreesMinutesSeconds&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55" name="aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55"></a>_count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -27936,8 +27940,33 @@ template&lt;typename E &gt; </div>
 
 </div>
 </div>
+<a id="a2345d0a738c6f4f2a8fb95b5fb2504a8" name="a2345d0a738c6f4f2a8fb95b5fb2504a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2345d0a738c6f4f2a8fb95b5fb2504a8">&#9670;&#160;</a></span>toString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::string_view MR::toString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424">DegreesMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae471951bdf73171ae96368056485fe84" name="ae471951bdf73171ae96368056485fe84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae471951bdf73171ae96368056485fe84">&#9670;&#160;</a></span>toString()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae471951bdf73171ae96368056485fe84">&#9670;&#160;</a></span>toString() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
