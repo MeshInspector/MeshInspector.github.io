@@ -700,7 +700,6 @@ var hierarchy =
     [ "MeshCollidePrecise", "classMeshCollidePrecise.html", null ],
     [ "MeshDecimate", "classMeshDecimate.html", null ],
     [ "MR::MeshDiff", "classMR_1_1MeshDiff.html", null ],
-    [ "MR::MeshDistanceResult", "structMR_1_1MeshDistanceResult.html", null ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
@@ -709,6 +708,8 @@ var hierarchy =
     [ "MR::MeshLoadInfo", "structMR_1_1MeshLoadInfo.html", null ],
     [ "MR::MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", null ],
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
+    [ "MR::MeshMeshDistanceResult", "structMR_1_1MeshMeshDistanceResult.html", null ],
+    [ "MR::MeshMeshSignedDistanceResult", "structMR_1_1MeshMeshSignedDistanceResult.html", null ],
     [ "MeshNormals", "classMeshNormals.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
     [ "MR::MeshOnVoxelsT< MeshType >", "classMR_1_1MeshOnVoxelsT.html", null ],
@@ -727,7 +728,6 @@ var hierarchy =
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MeshSave", "classMeshSave.html", null ],
     [ "MR::MeshSave::MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", null ],
-    [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
     [ "MR::MeshToDirectionVolumeParams", "structMR_1_1MeshToDirectionVolumeParams.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ],

@@ -169,9 +169,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PreciseCollisionResult.html">MR::PreciseCollisionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshDistanceResult.html">MR::MeshDistanceResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSignedDistanceResult.html">MR::MeshSignedDistanceResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,12 +290,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga125d7b99c7b4840e87a3470ef0c64b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf49d29fe114a45e7ba44769ed23e07a7" id="r_gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf49d29fe114a45e7ba44769ed23e07a7">MR::findDirMax</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;dir, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
 <tr class="separator:gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae8acc67c54f5f060c954bb3528a0c581" id="r_gae8acc67c54f5f060c954bb3528a0c581"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshDistanceResult.html">MeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8acc67c54f5f060c954bb3528a0c581">MR::findDistance</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</td></tr>
-<tr class="memdesc:gae8acc67c54f5f060c954bb3528a0c581"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes minimal distance between two meshes or two mesh regions  <br /></td></tr>
-<tr class="separator:gae8acc67c54f5f060c954bb3528a0c581"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga66ee7b0ec534fcfe70ef96f8f3d3b545" id="r_ga66ee7b0ec534fcfe70ef96f8f3d3b545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshSignedDistanceResult.html">MeshSignedDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga66ee7b0ec534fcfe70ef96f8f3d3b545">MR::findSignedDistance</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</td></tr>
-<tr class="memdesc:ga66ee7b0ec534fcfe70ef96f8f3d3b545"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes minimal distance between two meshes  <br /></td></tr>
-<tr class="separator:ga66ee7b0ec534fcfe70ef96f8f3d3b545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga307aef2fadf0a7f062b4fab1daabe6e0" id="r_ga307aef2fadf0a7f062b4fab1daabe6e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshMeshDistanceResult.html">MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga307aef2fadf0a7f062b4fab1daabe6e0">MR::findDistance</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</td></tr>
+<tr class="memdesc:ga307aef2fadf0a7f062b4fab1daabe6e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes minimal distance between two meshes or two mesh regions  <br /></td></tr>
+<tr class="separator:ga307aef2fadf0a7f062b4fab1daabe6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23c1ed1442e2de62ef49a64b7179d809" id="r_ga23c1ed1442e2de62ef49a64b7179d809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshMeshSignedDistanceResult.html">MeshMeshSignedDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga23c1ed1442e2de62ef49a64b7179d809">MR::findSignedDistance</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</td></tr>
+<tr class="memdesc:ga23c1ed1442e2de62ef49a64b7179d809"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes minimal distance between two meshes  <br /></td></tr>
+<tr class="separator:ga23c1ed1442e2de62ef49a64b7179d809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga375d9c9dcfb1fd7d9a254a73370d71ba" id="r_ga375d9c9dcfb1fd7d9a254a73370d71ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga375d9c9dcfb1fd7d9a254a73370d71ba">MR::findMaxDistanceSqOneWay</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</td></tr>
 <tr class="memdesc:ga375d9c9dcfb1fd7d9a254a73370d71ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
 <tr class="separator:ga375d9c9dcfb1fd7d9a254a73370d71ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -973,14 +973,14 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="gae8acc67c54f5f060c954bb3528a0c581" name="gae8acc67c54f5f060c954bb3528a0c581"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae8acc67c54f5f060c954bb3528a0c581">&#9670;&#160;</a></span>findDistance()</h2>
+<a id="ga307aef2fadf0a7f062b4fab1daabe6e0" name="ga307aef2fadf0a7f062b4fab1daabe6e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga307aef2fadf0a7f062b4fab1daabe6e0">&#9670;&#160;</a></span>findDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshDistanceResult.html">MeshDistanceResult</a> MR::findDistance </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshMeshDistanceResult.html">MeshMeshDistanceResult</a> MR::findDistance </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2237,14 +2237,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga66ee7b0ec534fcfe70ef96f8f3d3b545" name="ga66ee7b0ec534fcfe70ef96f8f3d3b545"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga66ee7b0ec534fcfe70ef96f8f3d3b545">&#9670;&#160;</a></span>findSignedDistance() <span class="overload">[1/2]</span></h2>
+<a id="ga23c1ed1442e2de62ef49a64b7179d809" name="ga23c1ed1442e2de62ef49a64b7179d809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23c1ed1442e2de62ef49a64b7179d809">&#9670;&#160;</a></span>findSignedDistance() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshSignedDistanceResult.html">MeshSignedDistanceResult</a> MR::findSignedDistance </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshMeshSignedDistanceResult.html">MeshMeshSignedDistanceResult</a> MR::findSignedDistance </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>

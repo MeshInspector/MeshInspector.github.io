@@ -144,15 +144,15 @@ var group__AABBTreeGroup =
       [ "edgesAtrisB", "structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2", null ],
       [ "edgesBtrisA", "structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f", null ]
     ] ],
-    [ "MR::MeshDistanceResult", "structMR_1_1MeshDistanceResult.html", [
-      [ "a", "structMR_1_1MeshDistanceResult.html#a9e2c27f75cc9e5a7b2bdca70bef1e7db", null ],
-      [ "b", "structMR_1_1MeshDistanceResult.html#a70f797f8444d6eb6f1c80155729379ef", null ],
-      [ "distSq", "structMR_1_1MeshDistanceResult.html#a944ef6a7b3e48c9fc07f0d5a70a56bf3", null ]
+    [ "MR::MeshMeshDistanceResult", "structMR_1_1MeshMeshDistanceResult.html", [
+      [ "a", "structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4", null ],
+      [ "b", "structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9", null ],
+      [ "distSq", "structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9", null ]
     ] ],
-    [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", [
-      [ "a", "structMR_1_1MeshSignedDistanceResult.html#a2729ca0eb5dbcf66477c17547ff78146", null ],
-      [ "b", "structMR_1_1MeshSignedDistanceResult.html#abe0b16c30aa4025bbe11104b5f6873b4", null ],
-      [ "signedDist", "structMR_1_1MeshSignedDistanceResult.html#af52a779c7b5cddf4d738350edb3012b5", null ]
+    [ "MR::MeshMeshSignedDistanceResult", "structMR_1_1MeshMeshSignedDistanceResult.html", [
+      [ "a", "structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb", null ],
+      [ "b", "structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09", null ],
+      [ "signedDist", "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410", null ]
     ] ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "operator bool", "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903", null ],
@@ -244,7 +244,7 @@ var group__AABBTreeGroup =
     [ "MR::findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23", null ],
     [ "MR::findCollidingTriangles", "group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6", null ],
     [ "MR::findDirMax", "group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7", null ],
-    [ "MR::findDistance", "group__AABBTreeGroup.html#gae8acc67c54f5f060c954bb3528a0c581", null ],
+    [ "MR::findDistance", "group__AABBTreeGroup.html#ga307aef2fadf0a7f062b4fab1daabe6e0", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
     [ "MR::findFewClosestPoints", "group__AABBTreeGroup.html#ga5b2c2b50e8b1835a53ac746d5da87b54", null ],
@@ -273,7 +273,7 @@ var group__AABBTreeGroup =
     [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaa8d353c49376729ab03f26747726d3b3", null ],
     [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaf39d8d5357405a2ab417897d0abb7a8a", null ],
     [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb", null ],
-    [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga66ee7b0ec534fcfe70ef96f8f3d3b545", null ],
+    [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc", null ],
     [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga70230ded2f43f2eb597df4e2848a8b5e", null ],
     [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
