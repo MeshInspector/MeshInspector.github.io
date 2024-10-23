@@ -1,12 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"structNamedMesh.html#a1f22215ebcab86fd2ab2a65df27a299e":[12,0,81,2],
-"structNamedMesh.html#a22e924c972188c9e2d7aed85b55abecf":[12,0,81,3],
-"structNamedMesh.html#a7de5bc3c636e1e304315590ff554bef1":[12,0,81,1],
-"structNamedMesh.html#aaa584a168d855590dc16eb3ea25a9f1e":[12,0,81,0],
-"structNamedMesh.html#adeb919aa5dd5828a988b1ff77658b82f":[12,0,81,4],
-"structNamedMeshXf.html":[12,0,82],
-"structNamedMeshXf.html#a2d43df4ada74093125abca5e51caa843":[12,0,82,2],
 "structNamedMeshXf.html#a66e649e73f5ed4242d8993d73ed07c7b":[12,0,82,0],
 "structNamedMeshXf.html#a97efa5b2daac3ced34e9bc6a83d3686a":[12,0,82,1],
 "structObjLoadSettings.html":[12,0,83],

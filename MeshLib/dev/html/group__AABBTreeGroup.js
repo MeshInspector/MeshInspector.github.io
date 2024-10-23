@@ -144,6 +144,13 @@ var group__AABBTreeGroup =
       [ "edgesAtrisB", "structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2", null ],
       [ "edgesBtrisA", "structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f", null ]
     ] ],
+    [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [
+      [ "maxDistSq", "structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580", null ],
+      [ "minDistSq", "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f", null ],
+      [ "signMode", "structMR_1_1DistanceToMeshOptions.html#aa80ccd95dc4e56a5b16d71becf8f937f", null ],
+      [ "windingNumberBeta", "structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5", null ],
+      [ "windingNumberThreshold", "structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9", null ]
+    ] ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "operator bool", "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903", null ],
       [ "distanceAlongLine", "structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61", null ],
@@ -295,6 +302,7 @@ var group__AABBTreeGroup =
     [ "MR::rayMeshIntersectAll", "group__AABBTreeGroup.html#gac978c520f500c1e3dad2ddaff7a333f0", null ],
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#gaca3917c935c4b071cac785463beaa5f2", null ],
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#ga5ed53546770d894ff3f4ea75bd760afa", null ],
+    [ "MR::signedDistanceToMesh", "group__AABBTreeGroup.html#ga26d696113738ced8105da17d906092b2", null ],
     [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga881bc4cb6ab7f415bf85d9235e2ca740", null ],
     [ "MR::IntersectionPrecomputes::idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
     [ "MR::IntersectionPrecomputes::idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],

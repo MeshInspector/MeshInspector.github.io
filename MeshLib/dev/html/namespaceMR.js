@@ -2521,7 +2521,7 @@ var namespaceMR =
     [ "shrinkFaces", "namespaceMR.html#ae45bc0307c08b61de1db862894b9affd", null ],
     [ "shrinkPixelMask", "group__DistanceMapGroup.html#gacbedf1abc59aa1401992cc4d1e1ed306", null ],
     [ "shrinkVoxelsMask", "group__VolumeIndexerGroup.html#gaae181e34db4d5ebb6f2cc68194b69c18", null ],
-    [ "signedDistanceToMesh", "namespaceMR.html#a015f66374f3ac5fc14877983f1f92dc0", null ],
+    [ "signedDistanceToMesh", "group__AABBTreeGroup.html#ga26d696113738ced8105da17d906092b2", null ],
     [ "simpleVolumeToDenseGrid", "namespaceMR.html#af2da9d310d84ddf678a6c52386f0c1ae", null ],
     [ "simpleVolumeToVdbVolume", "namespaceMR.html#a4ad0e96439eebbb67a8dbd2aa0f3ca49", null ],
     [ "size", "namespaceMR.html#a306ff1f62992b3eb33c446913b64188a", null ],

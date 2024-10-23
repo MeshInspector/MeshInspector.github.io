@@ -1,6 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"namespaceMR_1_1PointsLoad.html#ae4cbf7590e7b73675bbbdaa9fb468ac2":[10,0,12,26,14],
 "namespaceMR_1_1PointsSave.html":[10,0,12,27],
 "namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[10,0,12,27,3],
 "namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[10,0,12,27,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX57 =
 "structBooleanParameters.html#ab9d32d1318381741a63641329cf7df4c":[12,0,7,2],
 "structBooleanParameters.html#acc0b01e5939a2701601ff4cf027a1dd2":[12,0,7,1],
 "structBooleanResult.html":[12,0,8],
-"structBooleanResult.html#ae879a1dea0f5f145c6801d39e8f85dc3":[12,0,8,0]
+"structBooleanResult.html#ae879a1dea0f5f145c6801d39e8f85dc3":[12,0,8,0],
+"structDecimateParameters.html":[12,0,14]
 };

@@ -116,6 +116,7 @@ $(function(){initNavTree('MRMeshDistance_8h.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
@@ -124,10 +125,18 @@ $(function(){initNavTree('MRMeshDistance_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMesh_2MRSignDetectionMode_8h_source.html">MRSignDetectionMode.h</a>&quot;</code><br />
+<code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRMeshDistance_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DistanceToMeshOptions.html">MR::DistanceToMeshOptions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -149,6 +158,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:gadb20234daa82631954c44c1676424e5f" id="r_gadb20234daa82631954c44c1676424e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f">MR::processCloseTriangles</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;t, float rangeSq, const <a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">TriangleCallback</a> &amp;call)</td></tr>
 <tr class="separator:gadb20234daa82631954c44c1676424e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26d696113738ced8105da17d906092b2" id="r_ga26d696113738ced8105da17d906092b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga26d696113738ced8105da17d906092b2">MR::signedDistanceToMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;p, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;op)</td></tr>
+<tr class="separator:ga26d696113738ced8105da17d906092b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

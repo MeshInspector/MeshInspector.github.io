@@ -1,6 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"classMR_1_1XfBasedCache.html#a4cb9593831740a31e6a6933644435799":[9,11,13,0],
 "classMR_1_1XfBasedCache.html#a6341f3c9b4f6ccb5bcf18cc28ccf5efc":[9,11,13,1],
 "classMR_1_1detail_1_1FuncCallHelper.html":[10,0,12,3,1],
 "classMR_1_1detail_1_1FuncCallHelper.html":[12,0,1,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX46 =
 "functions_type_p.html":[12,3,3,14],
 "functions_type_r.html":[12,3,3,15],
 "functions_type_s.html":[12,3,3,16],
-"functions_type_t.html":[12,3,3,17]
+"functions_type_t.html":[12,3,3,17],
+"functions_type_u.html":[12,3,3,18]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"structMRPointOnFace.html":[12,0,69],
 "structMRPointOnFace.html#a66cda0445567e55abe967015c38dd8ff":[12,0,69,1],
 "structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252":[12,0,69,0],
 "structMRPointPair.html":[12,0,70],
@@ -200,9 +199,9 @@ var NAVTREEINDEX59 =
 "structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[12,0,1,60,0],
 "structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[10,0,12,75,1],
 "structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[12,0,1,60,1],
-"structMR_1_1Ball.html":[9,1,25],
-"structMR_1_1Ball.html#aa7f96dff1ff19edb48b34440972856c1":[9,1,25,0],
-"structMR_1_1Ball.html#ac3fa51acd301bd91b76700d008cb7838":[9,1,25,1],
+"structMR_1_1Ball.html":[9,1,26],
+"structMR_1_1Ball.html#aa7f96dff1ff19edb48b34440972856c1":[9,1,26,0],
+"structMR_1_1Ball.html#ac3fa51acd301bd91b76700d008cb7838":[9,1,26,1],
 "structMR_1_1BaseFitParams.html":[10,0,12,65],
 "structMR_1_1BaseFitParams.html":[12,0,1,50],
 "structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab":[10,0,12,65,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[12,0,1,53,0,2],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[10,0,12,68,0,3],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[12,0,1,53,0,3],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[10,0,12,68,0,0]
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[10,0,12,68,0,0],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[12,0,1,53,0,0]
 };

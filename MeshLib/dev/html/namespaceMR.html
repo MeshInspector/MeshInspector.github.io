@@ -3640,6 +3640,8 @@ Functions</h2></td></tr>
 <tr class="separator:gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb20234daa82631954c44c1676424e5f" id="r_gadb20234daa82631954c44c1676424e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f">processCloseTriangles</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;t, float rangeSq, const <a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">TriangleCallback</a> &amp;call)</td></tr>
 <tr class="separator:gadb20234daa82631954c44c1676424e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26d696113738ced8105da17d906092b2" id="r_ga26d696113738ced8105da17d906092b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga26d696113738ced8105da17d906092b2">signedDistanceToMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;p, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;op)</td></tr>
+<tr class="separator:ga26d696113738ced8105da17d906092b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaabdd001b6cc3f8d3b1f259c52b8f6dca" id="r_gaabdd001b6cc3f8d3b1f259c52b8f6dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshEigenGroup.html#gaabdd001b6cc3f8d3b1f259c52b8f6dca">topologyFromEigen</a> (const Eigen::MatrixXi &amp;F)</td></tr>
 <tr class="memdesc:gaabdd001b6cc3f8d3b1f259c52b8f6dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs mesh topology from N*3 matrix of vertex indices  <br /></td></tr>
 <tr class="separator:gaabdd001b6cc3f8d3b1f259c52b8f6dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5369,9 +5371,6 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:aa01d4f27a309940dabb85acd544839bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9031d3d4090f68984e4f83eb360090" id="r_a6b9031d3d4090f68984e4f83eb360090"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9031d3d4090f68984e4f83eb360090">marchingCubesAsTriMesh</a> (const FunctionVolume &amp;volume, const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;params={})</td></tr>
 <tr class="separator:a6b9031d3d4090f68984e4f83eb360090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a015f66374f3ac5fc14877983f1f92dc0" id="r_a015f66374f3ac5fc14877983f1f92dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a015f66374f3ac5fc14877983f1f92dc0">signedDistanceToMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;p, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;op)</td></tr>
-<tr class="memdesc:a015f66374f3ac5fc14877983f1f92dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes signed distance from point (p) to mesh part (mp) following options (op)  <br /></td></tr>
-<tr class="separator:a015f66374f3ac5fc14877983f1f92dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8588d03e436a418a22bb66f0f389f1ad" id="r_a8588d03e436a418a22bb66f0f389f1ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8588d03e436a418a22bb66f0f389f1ad">meshToDistanceVolume</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:a8588d03e436a418a22bb66f0f389f1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with (signed or unsigned) distances from <a class="el" href="structMR_1_1Mesh.html">Mesh</a> with given settings  <br /></td></tr>
 <tr class="separator:a8588d03e436a418a22bb66f0f389f1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -27204,42 +27203,6 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a015f66374f3ac5fc14877983f1f92dc0" name="a015f66374f3ac5fc14877983f1f92dc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a015f66374f3ac5fc14877983f1f92dc0">&#9670;&#160;</a></span>signedDistanceToMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::optional&lt; float &gt; MR::signedDistanceToMesh </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>op</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes signed distance from point (p) to mesh part (mp) following options (op) </p>
 
 </div>
 </div>

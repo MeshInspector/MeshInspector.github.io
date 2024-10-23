@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"MRRingIterator_8h.html#ab302d013b154c9d7f02b52fa128806af":[13,0,0,2,4,302,9],
 "MRRingIterator_8h.html#ac0fbbb1a0891fb178057f88b2bb392ff":[13,0,0,2,4,302,10],
 "MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3":[13,0,0,2,4,302,3],
 "MRRingIterator_8h_source.html":[13,0,0,2,4,302],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "MRSubfeatures_8h.html#a2f919d193c35478d40f28668b8d2d209":[13,0,0,2,4,322,1],
 "MRSubfeatures_8h.html#a97570d41ec01a7111b742503bdc2c5dc":[13,0,0,2,4,322,2],
 "MRSubfeatures_8h_source.html":[13,0,0,2,4,322],
-"MRSurfaceContoursWidget_8h.html":[13,0,0,2,10,104]
+"MRSurfaceContoursWidget_8h.html":[13,0,0,2,10,104],
+"MRSurfaceContoursWidget_8h_source.html":[13,0,0,2,10,104]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"MRSurfaceContoursWidget_8h_source.html":[13,0,0,2,10,104],
 "MRSurfaceDistanceBuilder_8h.html":[13,0,0,2,4,324],
 "MRSurfaceDistanceBuilder_8h_source.html":[13,0,0,2,4,324],
 "MRSurfaceDistance_8h.html":[13,0,0,2,4,323],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "MRUIStyle_8h.html#ab4909c09a4671c9b042825346cf6f637":[13,0,0,2,10,117,31],
 "MRUIStyle_8h.html#ab53314e24f68de52f675b6881591b212":[13,0,0,2,10,117,25],
 "MRUIStyle_8h.html#ab56fe865a416552aa6f504ce57514ae3":[13,0,0,2,10,117,71],
-"MRUIStyle_8h.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f":[13,0,0,2,10,117,17]
+"MRUIStyle_8h.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f":[13,0,0,2,10,117,17],
+"MRUIStyle_8h.html#aba6c7c72b70351ba42eae4e3a2e0df4b":[13,0,0,2,10,117,30]
 };

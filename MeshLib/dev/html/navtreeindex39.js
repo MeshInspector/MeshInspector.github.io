@@ -1,6 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"classMR_1_1SphereObject.html#a6c0aeca2da2dadcdb0d53868a712fd4a":[9,11,0,6,15],
 "classMR_1_1SphereObject.html#a763e668b75bc85716242eb33adb6f5c8":[9,11,0,6,8],
 "classMR_1_1SphereObject.html#aad300c4270da25b21556235725b4b8c3":[9,11,0,6,13],
 "classMR_1_1SphereObject.html#ab073c7dd40fc01a69a3484338c65f9e0":[9,11,0,6,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX39 =
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8":[12,0,1,611,1,4],
 "classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[10,0,12,626,12],
 "classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[12,0,1,611,12],
-"classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[10,0,12,626,7]
+"classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[10,0,12,626,7],
+"classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[12,0,1,611,7]
 };

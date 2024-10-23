@@ -1,12 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[10,0,12,581,2],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[12,0,1,566,2],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[10,0,12,581,1],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[12,0,1,566,1],
-"structMR_1_1SelfIntersections_1_1Settings.html":[10,0,12,34,0],
-"structMR_1_1SelfIntersections_1_1Settings.html":[12,0,1,21,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[10,0,12,34,0,5],
 "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[12,0,1,21,0,5],
 "structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[10,0,12,34,0,2],
 "structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[12,0,1,21,0,2],
@@ -112,10 +105,10 @@ var NAVTREEINDEX75 =
 "structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa":[12,0,1,582,2],
 "structMR_1_1Signal.html#aea174e0acc86ab90ebe3d0b222305838":[10,0,12,597,3],
 "structMR_1_1Signal.html#aea174e0acc86ab90ebe3d0b222305838":[12,0,1,582,3],
-"structMR_1_1SignedDistanceToMeshResult.html":[9,1,26],
-"structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[9,1,26,0],
-"structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec":[9,1,26,2],
-"structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41":[9,1,26,1],
+"structMR_1_1SignedDistanceToMeshResult.html":[9,1,27],
+"structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[9,1,27,0],
+"structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec":[9,1,27,2],
+"structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41":[9,1,27,1],
 "structMR_1_1SimpleTimeRecord.html":[9,3,12],
 "structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca":[9,3,12,1],
 "structMR_1_1SimpleTimeRecord.html#a5bc2244721bb50d4a1d54c4d3cedd459":[9,3,12,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX75 =
 "structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30":[9,9,7,0,1],
 "structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc":[9,9,7,0,17],
 "structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111":[9,9,7,0,12],
-"structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce":[9,9,7,0,2]
+"structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce":[9,9,7,0,2],
+"structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5":[9,9,7,0,10],
+"structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce":[9,9,7,0,13],
+"structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[9,9,7,0,6],
+"structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[9,9,7,0,3],
+"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[9,9,7,0,9],
+"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[9,9,7,0,11],
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,9,7,0,5]
 };

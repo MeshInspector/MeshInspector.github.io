@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[12,0,1,53,0,0],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[10,0,12,68,0,1],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[12,0,1,53,0,1],
 "structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701":[10,0,12,68,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[10,0,12,141,0],
 "structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[12,0,1,126,0],
 "structMR_1_1ConeFittingFunctor.html":[10,0,12,142],
-"structMR_1_1ConeFittingFunctor.html":[12,0,1,127]
+"structMR_1_1ConeFittingFunctor.html":[12,0,1,127],
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[10,0,12,142,8]
 };
