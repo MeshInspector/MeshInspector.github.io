@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html#a8ac3d0b7578fb9467f5051f55862c10f":[10,0,12,30,12,0],
+"classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html#a8ac3d0b7578fb9467f5051f55862c10f":[12,0,1,18,12,0],
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html":[10,0,12,30,13],
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html":[12,0,1,18,13],
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#a4f7e8040992675f602ced6970bfd58f9":[10,0,12,30,13,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1RenderObjectBuffer.html#ab02cd1ea0027d6d6976037b84fbbbe33":[10,0,12,518,0],
 "classMR_1_1RenderObjectBuffer.html#ab02cd1ea0027d6d6976037b84fbbbe33":[12,0,1,503,0],
 "classMR_1_1RenderObjectBuffer.html#aecb1aa9a47f7fb1520033ea260ec7b8b":[10,0,12,518,1],
-"classMR_1_1RenderObjectBuffer.html#aecb1aa9a47f7fb1520033ea260ec7b8b":[12,0,1,503,1],
-"classMR_1_1RenderObjectCombinator.html":[10,0,12,519],
-"classMR_1_1RenderObjectCombinator.html":[12,0,1,504]
+"classMR_1_1RenderObjectBuffer.html#aecb1aa9a47f7fb1520033ea260ec7b8b":[12,0,1,503,1]
 };

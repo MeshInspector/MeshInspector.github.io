@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"MRPrecisePredicates2_8h.html#adebe37534b9bb6c1ccc995df1839c432":[13,0,0,2,4,280,6],
+"MRPrecisePredicates2_8h_source.html":[13,0,0,2,4,280],
 "MRPrimitiveMapsComposition_8h.html":[13,0,0,2,4,282],
 "MRPrimitiveMapsComposition_8h_source.html":[13,0,0,2,4,282],
 "MRPrism_8h.html":[13,0,0,2,4,283],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "MRRingIterator_8h.html#aa6d03a2d0be4704d9f9287c613a63811":[13,0,0,2,4,301,7],
 "MRRingIterator_8h.html#ab1ba9bf4b9468525f62bc98e2160eb1f":[13,0,0,2,4,301,5],
 "MRRingIterator_8h.html#ab302d013b154c9d7f02b52fa128806af":[13,0,0,2,4,301,9],
-"MRRingIterator_8h.html#ac0fbbb1a0891fb178057f88b2bb392ff":[13,0,0,2,4,301,10],
-"MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3":[13,0,0,2,4,301,3],
-"MRRingIterator_8h_source.html":[13,0,0,2,4,301]
+"MRRingIterator_8h.html#ac0fbbb1a0891fb178057f88b2bb392ff":[13,0,0,2,4,301,10]
 };

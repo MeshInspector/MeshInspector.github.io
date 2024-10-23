@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"MRSurfaceDistanceBuilder_8h_source.html":[13,0,0,2,4,323],
+"MRSurfaceDistance_8h.html":[13,0,0,2,4,322],
 "MRSurfaceDistance_8h_source.html":[13,0,0,2,4,322],
 "MRSurfaceManipulationWidget_8h.html":[13,0,0,2,10,105],
 "MRSurfaceManipulationWidget_8h_source.html":[13,0,0,2,10,105],
@@ -23,11 +25,11 @@ var NAVTREEINDEX12 =
 "MRSymbolMeshFwd_8h_source.html":[13,0,0,2,8,4],
 "MRSymbolMesh_8h.html":[13,0,0,2,8,3],
 "MRSymbolMesh_8h.html#a32402204da19d3e70a57443f237fb242":[13,0,0,2,8,3,4],
+"MRSymbolMesh_8h.html#a3864227e969c9b436c4ee8357ec33d20":[13,0,0,2,8,3,3],
 "MRSymbolMesh_8h.html#a78218d9e8bdad31c92f563f91f5d470a":[13,0,0,2,8,3,1],
 "MRSymbolMesh_8h.html#a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde":[13,0,0,2,8,3,1,2],
 "MRSymbolMesh_8h.html#a78218d9e8bdad31c92f563f91f5d470aa5b265d7896353384ff9b6e3c69467563":[13,0,0,2,8,3,1,1],
 "MRSymbolMesh_8h.html#a78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf":[13,0,0,2,8,3,1,0],
-"MRSymbolMesh_8h.html#a90333565dd0cf8b49d60da82894aed07":[13,0,0,2,8,3,3],
 "MRSymbolMesh_8h.html#a9713657234eaa19879bd336d10911d0b":[13,0,0,2,8,3,2],
 "MRSymbolMesh_8h_source.html":[13,0,0,2,8,3],
 "MRSystemPath_8h.html":[13,0,0,2,4,330],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "MRUIStyle_8h.html#ab56fe865a416552aa6f504ce57514ae3":[13,0,0,2,10,117,71],
 "MRUIStyle_8h.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f":[13,0,0,2,10,117,17],
 "MRUIStyle_8h.html#aba6c7c72b70351ba42eae4e3a2e0df4b":[13,0,0,2,10,117,30],
-"MRUIStyle_8h.html#aca27e412cdac5850b5894de3b19321b9":[13,0,0,2,10,117,27],
-"MRUIStyle_8h.html#acb0c4c1be185e69b6f58108b3471f882":[13,0,0,2,10,117,35],
-"MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd":[13,0,0,2,10,117,20]
+"MRUIStyle_8h.html#aca27e412cdac5850b5894de3b19321b9":[13,0,0,2,10,117,27]
 };

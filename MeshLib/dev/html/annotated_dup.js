@@ -105,8 +105,10 @@ var annotated_dup =
         [ "CallWithTLSMaker", "structMR_1_1Parallel_1_1CallWithTLSMaker.html", "structMR_1_1Parallel_1_1CallWithTLSMaker" ]
       ] ],
       [ "PlanarTriangulation", "namespaceMR_1_1PlanarTriangulation.html", [
+        [ "BaseOutlineParameters", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" ],
         [ "IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo" ],
-        [ "IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ]
+        [ "IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ],
+        [ "OutlineParameters", "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html", "structMR_1_1PlanarTriangulation_1_1OutlineParameters" ]
       ] ],
       [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", [
         [ "E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", "structMR_1_1PointsLoad_1_1E57LoadSettings" ],

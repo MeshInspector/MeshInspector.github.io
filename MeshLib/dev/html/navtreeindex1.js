@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRBooleanResultMapper_8h_source.html":[13,0,0,2,2,2],
+"MRBoolean_8h.html":[13,0,0,2,11,1],
 "MRBoolean_8h_source.html":[13,0,0,2,11,1],
 "MRBox3_8h.html":[13,0,0,2,2,3],
 "MRBox3_8h_source.html":[13,0,0,2,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRDotNet_2MRBitSet_8h.html":[13,0,0,2,2,1],
 "MRDotNet_2MRBitSet_8h_source.html":[13,0,0,2,2,1],
 "MRDotNet_2MRContoursCut_8h.html":[13,0,0,2,2,4],
-"MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181":[13,0,0,2,2,4,4],
-"MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181a8af5861002f3c157f9ba842bba10aa3f":[13,0,0,2,2,4,4,0],
-"MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181ab22b929ba52471a02d18bb3a4e4472e6":[13,0,0,2,2,4,4,2]
+"MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181":[13,0,0,2,2,4,4]
 };

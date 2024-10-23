@@ -49,6 +49,7 @@ var hierarchy =
         [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ]
       ] ]
     ] ],
+    [ "MR::PlanarTriangulation::BaseOutlineParameters", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html", null ],
     [ "MR::ViewportGL::BasePickResult", "structMR_1_1ViewportGL_1_1BasePickResult.html", [
       [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ]
     ] ],
@@ -897,6 +898,7 @@ var hierarchy =
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "OneMeshIntersection", "structOneMeshIntersection.html", null ],
     [ "MR::OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", null ],
+    [ "MR::PlanarTriangulation::OutlineParameters", "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html", null ],
     [ "MR::OutputFlows", "structMR_1_1OutputFlows.html", null ],
     [ "MR::WatershedGraph::OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", null ],
     [ "MR::PackMapping", "structMR_1_1PackMapping.html", null ],

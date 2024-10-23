@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1MoveObjectByMouseImpl.html#aa3df927c144669a86b1cbaba22fa36ac":[10,0,12,366,12],
+"classMR_1_1MoveObjectByMouseImpl.html#aa3df927c144669a86b1cbaba22fa36ac":[12,0,1,351,12],
 "classMR_1_1MoveObjectByMouseImpl.html#aad8cb7773d35560f8b4469f293cbd169":[10,0,12,366,3],
 "classMR_1_1MoveObjectByMouseImpl.html#aad8cb7773d35560f8b4469f293cbd169":[12,0,1,351,3],
 "classMR_1_1MoveObjectByMouseImpl.html#ab6d3e7b0abe5c50bba244801249e7ed5":[10,0,12,366,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1ObjectGcode.html#ae2ed923e558fd3193c040fc672e7e537":[9,11,6,0],
 "classMR_1_1ObjectGcode.html#af7ac54e95de2f8914777e833e1a83678":[9,11,6,29],
 "classMR_1_1ObjectGcode.html#afb1505e4eeef2688ab210b77314480ea":[9,11,6,7],
-"classMR_1_1ObjectImGuiLabel.html":[10,0,12,393],
-"classMR_1_1ObjectImGuiLabel.html":[12,0,1,378],
-"classMR_1_1ObjectImGuiLabel.html#a0e9dc3b13cbd0cb09a69c514d5291c09":[10,0,12,393,8]
+"classMR_1_1ObjectImGuiLabel.html":[10,0,12,393]
 };

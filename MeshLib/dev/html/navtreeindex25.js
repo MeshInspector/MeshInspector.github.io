@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1ImGuiMenu.html#afea5ae3d33013ab15abbe5747b71e139":[10,0,12,271,116],
+"classMR_1_1ImGuiMenu.html#afea5ae3d33013ab15abbe5747b71e139":[12,0,1,256,116],
 "classMR_1_1ImGuiMenu.html#aff463379fb884a74986f40aff951fb64":[10,0,12,271,95],
 "classMR_1_1ImGuiMenu.html#aff463379fb884a74986f40aff951fb64":[12,0,1,256,95],
 "classMR_1_1ImGuiMenu.html#aff46cdf1806900d19d9806e28d325659":[10,0,12,271,77],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1MeshOnVoxelsT.html#aa2fe1c40a7b19c32bf9d626c7697d785":[10,0,12,337,10],
 "classMR_1_1MeshOnVoxelsT.html#aa2fe1c40a7b19c32bf9d626c7697d785":[12,0,1,322,10],
 "classMR_1_1MeshOnVoxelsT.html#ab8d0aef18b5168c435af44b39e4824c1":[10,0,12,337,0],
-"classMR_1_1MeshOnVoxelsT.html#ab8d0aef18b5168c435af44b39e4824c1":[12,0,1,322,0],
-"classMR_1_1MeshOnVoxelsT.html#aba84f55c5dc1a3d94f34e99c92e5c7a0":[10,0,12,337,12],
-"classMR_1_1MeshOnVoxelsT.html#aba84f55c5dc1a3d94f34e99c92e5c7a0":[12,0,1,322,12]
+"classMR_1_1MeshOnVoxelsT.html#ab8d0aef18b5168c435af44b39e4824c1":[12,0,1,322,0]
 };

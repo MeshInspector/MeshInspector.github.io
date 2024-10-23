@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"structDecimateParameters.html#a16efddd8725a528d74ff2fda5cf4f053":[12,0,14,5],
+"structDecimateParameters.html#a25468add72e48c64b6075006461fa6c4":[12,0,14,2],
+"structDecimateParameters.html#a2bb09c0392ac3a2c6ac76988c6b66c0e":[12,0,14,4],
+"structDecimateParameters.html#a2c1b8485a768f1922bb63babff0df51e":[12,0,14,7],
 "structDecimateParameters.html#a43d765e052a8d5ed9f7bb1d5f09a0fe0":[12,0,14,19],
 "structDecimateParameters.html#a47d5748c33a65c887fe688386243a154":[12,0,14,14],
 "structDecimateParameters.html#a49da7cd6bef26cf47a537937cb47f2c3":[12,0,14,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMROneMeshIntersection.html#aaa85b1822adbb2d4b7fd61b44f2ec80a":[12,0,68,5],
 "structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b":[12,0,68,2],
 "structMRPointOnFace.html":[12,0,69],
-"structMRPointOnFace.html#a66cda0445567e55abe967015c38dd8ff":[12,0,69,1],
-"structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252":[12,0,69,0],
-"structMRPointPair.html":[12,0,70],
-"structMRPointPair.html#a3a1c36eeeff22faca6d6749a8630cff5":[12,0,70,4],
-"structMRPointPair.html#a3a57febe50fbfa87ec9506c23214c723":[12,0,70,0]
+"structMRPointOnFace.html#a66cda0445567e55abe967015c38dd8ff":[12,0,69,1]
 };

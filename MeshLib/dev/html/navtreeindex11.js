@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3":[13,0,0,2,4,301,3],
+"MRRingIterator_8h_source.html":[13,0,0,2,4,301],
 "MRSaveOnClose_8h.html":[13,0,0,2,10,81],
 "MRSaveOnClose_8h_source.html":[13,0,0,2,10,81],
 "MRSaveSettings_8h.html":[13,0,0,2,4,302],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "MRSubfeatures_8h_source.html":[13,0,0,2,4,321],
 "MRSurfaceContoursWidget_8h.html":[13,0,0,2,10,104],
 "MRSurfaceContoursWidget_8h_source.html":[13,0,0,2,10,104],
-"MRSurfaceDistanceBuilder_8h.html":[13,0,0,2,4,323],
-"MRSurfaceDistanceBuilder_8h_source.html":[13,0,0,2,4,323],
-"MRSurfaceDistance_8h.html":[13,0,0,2,4,322]
+"MRSurfaceDistanceBuilder_8h.html":[13,0,0,2,4,323]
 };

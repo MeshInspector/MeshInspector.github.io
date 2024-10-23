@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[10,0,12,27,3],
+"namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[10,0,12,27,2],
+"namespaceMR_1_1PointsSave.html#a98e902c9b3693ad0e13b4cea99cf4930":[10,0,12,27,10],
+"namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0":[10,0,12,27,8],
 "namespaceMR_1_1PointsSave.html#aa0c93c027a52951a40337f323f2860de":[10,0,12,27,11],
 "namespaceMR_1_1PointsSave.html#ae23866fe66a802c4ea607cb75f014d9d":[10,0,12,27,9],
 "namespaceMR_1_1PolylineComponents.html":[10,0,12,28],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "structBooleanResult.html":[12,0,8],
 "structBooleanResult.html#ae879a1dea0f5f145c6801d39e8f85dc3":[12,0,8,0],
 "structDecimateParameters.html":[12,0,14],
-"structDecimateParameters.html#a090f1a688a077d9fe1e6b354cf5c9394":[12,0,14,1],
-"structDecimateParameters.html#a16efddd8725a528d74ff2fda5cf4f053":[12,0,14,5],
-"structDecimateParameters.html#a25468add72e48c64b6075006461fa6c4":[12,0,14,2],
-"structDecimateParameters.html#a2bb09c0392ac3a2c6ac76988c6b66c0e":[12,0,14,4],
-"structDecimateParameters.html#a2c1b8485a768f1922bb63babff0df51e":[12,0,14,7]
+"structDecimateParameters.html#a090f1a688a077d9fe1e6b354cf5c9394":[12,0,14,1]
 };
