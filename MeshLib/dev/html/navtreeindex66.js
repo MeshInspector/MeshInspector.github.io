@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[12,0,1,5,5,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[10,0,12,13,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[12,0,1,5,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[10,0,12,13,5,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[12,0,1,5,5,0],
@@ -232,12 +234,12 @@ var NAVTREEINDEX66 =
 "structMR_1_1Line.html#ac585c978cc27553cbfeb69676516a853":[9,0,17,5],
 "structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a":[9,0,17,12],
 "structMR_1_1Line.html#ad80390a7c278a694e5d5be75f7679025":[9,0,17,9],
-"structMR_1_1Line3Mesh.html":[9,1,23],
-"structMR_1_1Line3Mesh.html#a0de1e3305b0aa64219ac2de3c2abb2f3":[9,1,23,0],
-"structMR_1_1Line3Mesh.html#a13bcc7a7757286de5b44e0d5157828d2":[9,1,23,1],
-"structMR_1_1Line3Mesh.html#a2324f26e0f3e5d41d2b5c9ab95f50fca":[9,1,23,3],
-"structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e":[9,1,23,4],
-"structMR_1_1Line3Mesh.html#aa5ec1978556ce126db464bc744212937":[9,1,23,2],
+"structMR_1_1Line3Mesh.html":[9,1,21],
+"structMR_1_1Line3Mesh.html#a0de1e3305b0aa64219ac2de3c2abb2f3":[9,1,21,0],
+"structMR_1_1Line3Mesh.html#a13bcc7a7757286de5b44e0d5157828d2":[9,1,21,1],
+"structMR_1_1Line3Mesh.html#a2324f26e0f3e5d41d2b5c9ab95f50fca":[9,1,21,3],
+"structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e":[9,1,21,4],
+"structMR_1_1Line3Mesh.html#aa5ec1978556ce126db464bc744212937":[9,1,21,2],
 "structMR_1_1LineInterpolationParams.html":[10,0,12,306],
 "structMR_1_1LineInterpolationParams.html":[12,0,1,291],
 "structMR_1_1LineInterpolationParams.html#a00b2d591ecca68af7d6e8cbd8d119b05":[10,0,12,306,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1LineInterpolationParams.html#a588b14865af06878e86ac78f0f16a5e2":[10,0,12,306,2],
 "structMR_1_1LineInterpolationParams.html#a588b14865af06878e86ac78f0f16a5e2":[12,0,1,291,2],
 "structMR_1_1LineSegm.html":[10,0,12,308],
-"structMR_1_1LineSegm.html":[12,0,1,293],
-"structMR_1_1LineSegm.html#a012f7dcffa0f21fdd89da4726c09fef7":[10,0,12,308,1],
-"structMR_1_1LineSegm.html#a012f7dcffa0f21fdd89da4726c09fef7":[12,0,1,293,1]
+"structMR_1_1LineSegm.html":[12,0,1,293]
 };

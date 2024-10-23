@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a1b1c56e527cabfa9b554697eaf7b6e8d":[10,0,12,29,4,2],
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a1b1c56e527cabfa9b554697eaf7b6e8d":[12,0,1,17,4,2],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e":[10,0,12,29,4,5],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e":[12,0,1,17,4,5],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[10,0,12,29,4,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1SegmentSegmentIntersectResult.html":[10,0,12,581],
 "structMR_1_1SegmentSegmentIntersectResult.html":[12,0,1,566],
 "structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[10,0,12,581,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[12,0,1,566,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[10,0,12,581,2],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[12,0,1,566,2]
+"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[12,0,1,566,0]
 };

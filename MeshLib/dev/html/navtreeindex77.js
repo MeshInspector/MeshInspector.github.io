@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[10,0,12,643,1],
+"structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[12,0,1,628,1],
 "structMR_1_1TouchEndListener.html":[10,0,12,644],
 "structMR_1_1TouchEndListener.html":[12,0,1,629],
 "structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2":[10,0,12,644,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b":[9,13,0,0,2],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19":[9,13,0,0,0],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a80c3874decf9d019fab965c28d7a767b":[9,13,0,0,1],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ae773b54dc10496afde5414733e1c8d6a":[9,13,0,0,3],
-"structMR_1_1TriangulationParameters.html":[9,13,1],
-"structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046":[9,13,1,6]
+"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ae773b54dc10496afde5414733e1c8d6a":[9,13,0,0,3]
 };

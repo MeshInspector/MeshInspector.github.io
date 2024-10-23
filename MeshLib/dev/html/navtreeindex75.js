@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[10,0,12,581,2],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[12,0,1,566,2],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[10,0,12,581,1],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[12,0,1,566,1],
 "structMR_1_1SelfIntersections_1_1Settings.html":[10,0,12,34,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30":[9,9,7,0,1],
 "structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc":[9,9,7,0,17],
 "structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111":[9,9,7,0,12],
-"structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce":[9,9,7,0,2],
-"structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5":[9,9,7,0,10],
-"structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce":[9,9,7,0,13]
+"structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce":[9,9,7,0,2]
 };

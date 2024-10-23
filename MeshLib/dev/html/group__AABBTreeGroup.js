@@ -144,16 +144,6 @@ var group__AABBTreeGroup =
       [ "edgesAtrisB", "structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2", null ],
       [ "edgesBtrisA", "structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f", null ]
     ] ],
-    [ "MR::MeshMeshDistanceResult", "structMR_1_1MeshMeshDistanceResult.html", [
-      [ "a", "structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4", null ],
-      [ "b", "structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9", null ],
-      [ "distSq", "structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9", null ]
-    ] ],
-    [ "MR::MeshMeshSignedDistanceResult", "structMR_1_1MeshMeshSignedDistanceResult.html", [
-      [ "a", "structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb", null ],
-      [ "b", "structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09", null ],
-      [ "signedDist", "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410", null ]
-    ] ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "operator bool", "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903", null ],
       [ "distanceAlongLine", "structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61", null ],
@@ -176,6 +166,16 @@ var group__AABBTreeGroup =
       [ "prec", "structMR_1_1Line3Mesh.html#aa5ec1978556ce126db464bc744212937", null ],
       [ "region", "structMR_1_1Line3Mesh.html#a2324f26e0f3e5d41d2b5c9ab95f50fca", null ],
       [ "tree", "structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e", null ]
+    ] ],
+    [ "MR::MeshMeshDistanceResult", "structMR_1_1MeshMeshDistanceResult.html", [
+      [ "a", "structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4", null ],
+      [ "b", "structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9", null ],
+      [ "distSq", "structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9", null ]
+    ] ],
+    [ "MR::MeshMeshSignedDistanceResult", "structMR_1_1MeshMeshSignedDistanceResult.html", [
+      [ "a", "structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb", null ],
+      [ "b", "structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09", null ],
+      [ "signedDist", "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410", null ]
     ] ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", [
       [ "distSq", "structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29", null ],
