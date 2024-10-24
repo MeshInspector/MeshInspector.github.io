@@ -459,7 +459,7 @@ var searchData=
   ['showglobalbasis_456',['showGlobalBasis',['../classMR_1_1Viewport.html#a2da00f8d67bdd913870c371eab44dc24',1,'MR::Viewport']]],
   ['showlabels_457',['showLabels',['../classMR_1_1VisualObject.html#a8c23bff1d3de131d6cb6acbd7565afeb',1,'MR::VisualObject::showLabels(bool on)'],['../classMR_1_1VisualObject.html#a56170d27cd5040e560dd3fa00056e732',1,'MR::VisualObject::showLabels() const']]],
   ['showmodal_458',['showModal',['../namespaceMR.html#a042f3414ad34f25080f423078a3ad327',1,'MR']]],
-  ['showmodalmessage_459',['showModalMessage',['../classMR_1_1ImGuiMenu.html#ae4965c1d15a42da53f31d8aff5524db9',1,'MR::ImGuiMenu']]],
+  ['showmodalmessage_459',['showModalMessage',['../classMR_1_1ImGuiMenu.html#a2a048091853e02ff674893add9adf7e3',1,'MR::ImGuiMenu']]],
   ['showname_460',['showName',['../classMR_1_1VisualObject.html#aa23cd40dfdaaebc073129fb1ba57dce7',1,'MR::VisualObject::showName(bool on)'],['../classMR_1_1VisualObject.html#a6f691bb814bb6837382b81f60eff14c5',1,'MR::VisualObject::showName() const']]],
   ['showrotationcenter_461',['showRotationCenter',['../classMR_1_1Viewport.html#a069049d89298e103d7c82e1454532734',1,'MR::Viewport']]],
   ['shrink_462',['shrink',['../namespaceMR.html#a2193258ddab048b2b194a3ccb5a9f450',1,'MR']]],
