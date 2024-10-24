@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[10,0,12,42,16],
 "classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[12,0,1,27,16],
 "classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[10,0,12,42,5],
 "classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[12,0,1,27,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1BitSet.html#a274cea4a76458910a418ec9e8e3e3edf":[9,3,2,13],
 "classMR_1_1BitSet.html#a2a50b06c0c6ba58204d191f3b900439c":[9,3,2,25],
 "classMR_1_1BitSet.html#a2b67ad8030f22aa236b64a04fb2459dc":[9,3,2,15],
-"classMR_1_1BitSet.html#a597ed58dd86315f71c893994b7bb46c4":[9,3,2,24],
-"classMR_1_1BitSet.html#a6847dbe94d82cde085f4440c58980759":[9,3,2,22]
+"classMR_1_1BitSet.html#a597ed58dd86315f71c893994b7bb46c4":[9,3,2,24]
 };

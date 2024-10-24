@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33":[12,0,1,120,1,31],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d":[10,0,12,135,1,28],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d":[12,0,1,120,1,28],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776":[10,0,12,135,1,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1CudaAccessor.html#aa67f49b71c900e67a603dc5a6960d567":[10,0,12,152,0],
 "classMR_1_1CudaAccessor.html#aa67f49b71c900e67a603dc5a6960d567":[12,0,1,137,0],
 "classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9":[10,0,12,152,2],
-"classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9":[12,0,1,137,2],
-"classMR_1_1Cuda_1_1FastWindingNumber.html":[9,1,0]
+"classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9":[12,0,1,137,2]
 };

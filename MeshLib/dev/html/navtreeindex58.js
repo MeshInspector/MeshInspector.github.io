@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structBooleanResult.html#ae879a1dea0f5f145c6801d39e8f85dc3":[12,0,8,0],
+"structDecimateParameters.html":[12,0,14],
 "structDecimateParameters.html#a090f1a688a077d9fe1e6b354cf5c9394":[12,0,14,1],
 "structDecimateParameters.html#a16efddd8725a528d74ff2fda5cf4f053":[12,0,14,5],
 "structDecimateParameters.html#a25468add72e48c64b6075006461fa6c4":[12,0,14,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMROneMeshIntersection.html#a6e62865d21cb51955f11765ead59f236":[12,0,68,1],
 "structMROneMeshIntersection.html#a86ad70e404dab3e9f08ef1b625dbf9e0":[12,0,68,0],
 "structMROneMeshIntersection.html#a923782c49f31492a9688d4648d061272":[12,0,68,3],
-"structMROneMeshIntersection.html#aaa85b1822adbb2d4b7fd61b44f2ec80a":[12,0,68,5],
-"structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b":[12,0,68,2],
-"structMRPointOnFace.html":[12,0,69]
+"structMROneMeshIntersection.html#aaa85b1822adbb2d4b7fd61b44f2ec80a":[12,0,68,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[12,0,1,2,1,8],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[10,0,12,6,1,8,0],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[12,0,1,2,1,8,0],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[10,0,12,6,1,9],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[12,0,1,2,1,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[12,0,1,233,5],
 "structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[10,0,12,248,0],
 "structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[12,0,1,233,0],
-"structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[10,0,12,248,4],
-"structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[12,0,1,233,4],
-"structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[10,0,12,248,3]
+"structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[10,0,12,248,4]
 };
