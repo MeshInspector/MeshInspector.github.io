@@ -139,10 +139,6 @@ var NAVTREEINDEX80 =
 "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html#af8a829af89a52b2fc7092ffa6f36f3e0":[12,0,1,708,0,0],
 "structMR_1_1VoxelsVolumeMinMax.html":[10,0,12,725],
 "structMR_1_1VoxelsVolumeMinMax.html":[12,0,1,710],
-"structMR_1_1VoxelsVolumeMinMax.html#a1c34f973de3f4a13345a48e819a914db":[10,0,12,725,0],
-"structMR_1_1VoxelsVolumeMinMax.html#a1c34f973de3f4a13345a48e819a914db":[12,0,1,710,0],
-"structMR_1_1VoxelsVolumeMinMax.html#a5cbd57272c7b859e6d81303b092f06c6":[10,0,12,725,1],
-"structMR_1_1VoxelsVolumeMinMax.html#a5cbd57272c7b859e6d81303b092f06c6":[12,0,1,710,1],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html":[10,0,12,729,0],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html":[12,0,1,714,0],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a":[10,0,12,729,0,9],
@@ -249,5 +245,9 @@ var NAVTREEINDEX80 =
 "structMeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2":[9,7,0,1],
 "structMeshTriPoint.html#a5db8f4dc1ce5f4ba05c9754ab6e2c4e4":[9,7,0,0],
 "structMeshTriPoint.html#a5e30ee410f643504d047a385148dc305":[9,7,0,6],
-"structMeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9":[9,7,0,3]
+"structMeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9":[9,7,0,3],
+"structMeshTriPoint.html#a99f6b57a79938db1c601698948926581":[9,7,0,4],
+"structMeshTriPoint.html#ae9c4fb13aca66944d37538e7bc537e3a":[9,7,0,7],
+"structMeshTriPoint.html#af4f555478c7dbf062510991fc51d055c":[9,7,0,5],
+"structMultiwayICPSamplingParameters.html":[12,0,80]
 };

@@ -737,6 +737,9 @@ var hierarchy =
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
     [ "MR::MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", null ],
+    [ "MinMax", null, [
+      [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]
+    ] ],
     [ "MR::ModelPointsData", "structMR_1_1ModelPointsData.html", null ],
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MouseController::MouseControlKey", "structMR_1_1MouseController_1_1MouseControlKey.html", null ],

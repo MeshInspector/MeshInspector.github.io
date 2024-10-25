@@ -882,7 +882,7 @@ var annotated_dup =
       [ "VoxelsVolumeAccessor< VoxelsVolume< VoxelValueGetter< T > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4" ],
       [ "VoxelsVolumeCachingAccessor", "classMR_1_1VoxelsVolumeCachingAccessor.html", "classMR_1_1VoxelsVolumeCachingAccessor" ],
       [ "VoxelsVolumeInterpolatedAccessor", "classMR_1_1VoxelsVolumeInterpolatedAccessor.html", "classMR_1_1VoxelsVolumeInterpolatedAccessor" ],
-      [ "VoxelsVolumeMinMax", "structMR_1_1VoxelsVolumeMinMax.html", "structMR_1_1VoxelsVolumeMinMax" ],
+      [ "VoxelsVolumeMinMax", "structMR_1_1VoxelsVolumeMinMax.html", null ],
       [ "VoxelTraits", "structMR_1_1VoxelTraits.html", null ],
       [ "VoxelTraits< FloatGrid >", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4" ],
       [ "VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" ],
