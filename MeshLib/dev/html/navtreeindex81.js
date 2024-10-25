@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMeshTriPoint.html#af4f555478c7dbf062510991fc51d055c":[9,7,0,5],
+"structMultiwayICPSamplingParameters.html":[12,0,80],
 "structMultiwayICPSamplingParameters.html#a26e4d953ace34b03f77f57f13cc32b56":[12,0,80,3],
 "structMultiwayICPSamplingParameters.html#a6a898018e0f66e857cec9c8999a3351f":[12,0,80,0],
 "structMultiwayICPSamplingParameters.html#a6a898018e0f66e857cec9c8999a3351fa2f3d2e7b83aab89388906ca92d0ca505":[12,0,80,0,1],

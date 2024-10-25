@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"group__IntersectionGroup.html#gad9c4f2546d1a40da39bccf700c70ee49":[9,0,6,6],
 "group__IteratorRange.html":[9,3,0],
 "group__IteratorRange.html#ga4035c09c88ba3b16f5e55b24c25768f5":[9,3,0,2],
 "group__IteratorRange.html#ga8b70134f3c4bc824a8b88800d5eb4c9c":[9,3,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "group__PointCloudGroup.html#ga6ba9ffdcab693b6baea21220474723b3":[9,12,17],
 "group__PointCloudGroup.html#ga6d1b190105546ec214cc4ab692ece60e":[9,12,6],
 "group__PointCloudGroup.html#ga7448439cf7b5f0ec6ed3d9488bef703a":[9,12,10],
-"group__PointCloudGroup.html#gaa8f205918af032263bddf663cd5e03f0":[9,12,13],
-"group__PointCloudGroup.html#gab197779cd5dda18a937f178ef98ceb27":[9,12,7]
+"group__PointCloudGroup.html#gaa8f205918af032263bddf663cd5e03f0":[9,12,13]
 };

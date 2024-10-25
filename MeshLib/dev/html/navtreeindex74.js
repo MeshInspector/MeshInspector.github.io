@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1RenderDimensions_1_1LengthParams.html":[12,0,1,17,2],
+"structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[10,0,12,29,2,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[12,0,1,17,2,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a5723344bcea6403b4760e40c2e890f69":[10,0,12,29,2,3],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a5723344bcea6403b4760e40c2e890f69":[12,0,1,17,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1SegmEndColors.html#a34ba656028d463bdd70196ca015bdeab":[10,0,12,580,1],
 "structMR_1_1SegmEndColors.html#a34ba656028d463bdd70196ca015bdeab":[12,0,1,565,1],
 "structMR_1_1SegmPoint.html":[9,0,21],
-"structMR_1_1SegmPoint.html#a4d16443dbd1634455999b2b461f8a720":[9,0,21,3],
-"structMR_1_1SegmPoint.html#a5473b25338c8b8b27c9d38f2b6bb8f89":[9,0,21,9],
-"structMR_1_1SegmPoint.html#a58b2183bd06afd657f4427bec04ded35":[9,0,21,6]
+"structMR_1_1SegmPoint.html#a4d16443dbd1634455999b2b461f8a720":[9,0,21,3]
 };

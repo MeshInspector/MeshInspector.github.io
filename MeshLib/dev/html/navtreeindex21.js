@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1FrameRedrawRequest.html#a27be825efa89c1f49d55d88cee285d38":[12,0,1,218,0],
 "classMR_1_1FramebufferData.html":[10,0,12,231],
 "classMR_1_1FramebufferData.html":[12,0,1,216],
 "classMR_1_1FramebufferData.html#a32347402456cb0f76070a32c159d4e8e":[10,0,12,231,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce":[12,0,1,231,3],
 "classMR_1_1Graph.html#a46ac2204a29916d4c70d8902b0a21868":[10,0,12,246,17],
 "classMR_1_1Graph.html#a46ac2204a29916d4c70d8902b0a21868":[12,0,1,231,17],
-"classMR_1_1Graph.html#a5091e905ddd17f80fb7c3996ce095e58":[10,0,12,246,16],
-"classMR_1_1Graph.html#a5091e905ddd17f80fb7c3996ce095e58":[12,0,1,231,16]
+"classMR_1_1Graph.html#a5091e905ddd17f80fb7c3996ce095e58":[10,0,12,246,16]
 };

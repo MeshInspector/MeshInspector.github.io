@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SegmPoint.html#a5473b25338c8b8b27c9d38f2b6bb8f89":[9,0,21,9],
+"structMR_1_1SegmPoint.html#a58b2183bd06afd657f4427bec04ded35":[9,0,21,6],
 "structMR_1_1SegmPoint.html#a61b1906606755d16e699a890189ff3f8":[9,0,21,2],
 "structMR_1_1SegmPoint.html#a6dd9ffde5068ad5458d52af3e1c33617":[9,0,21,7],
 "structMR_1_1SegmPoint.html#a852616535cc51c188a52c77b3f324a6e":[9,0,21,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1StopOnTrueCombiner.html":[12,0,1,605],
 "structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[10,0,12,620,1],
 "structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[12,0,1,605,1],
-"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[10,0,12,620,0],
-"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[12,0,1,605,0],
-"structMR_1_1SubdivideSettings.html":[9,9,7,0]
+"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[10,0,12,620,0]
 };

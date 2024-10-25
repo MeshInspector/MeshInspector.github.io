@@ -5474,6 +5474,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:af2da9d310d84ddf678a6c52386f0c1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ad0e96439eebbb67a8dbd2aa0f3ca49" id="r_a4ad0e96439eebbb67a8dbd2aa0f3ca49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad0e96439eebbb67a8dbd2aa0f3ca49">simpleVolumeToVdbVolume</a> (const SimpleVolumeMinMax &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a4ad0e96439eebbb67a8dbd2aa0f3ca49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba29bf5baab2e1924aeb45b624a3c821" id="r_aba29bf5baab2e1924aeb45b624a3c821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba29bf5baab2e1924aeb45b624a3c821">putSimpleVolumeInDenseGrid</a> (<a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const <a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;minCoord, const SimpleVolume &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:aba29bf5baab2e1924aeb45b624a3c821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy given <code>simpleVolume</code> into the <code>grid</code>, starting at <code>minCoord</code>.  <br /></td></tr>
+<tr class="separator:aba29bf5baab2e1924aeb45b624a3c821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8e39754438588fbde8b091279db752" id="r_a0d8e39754438588fbde8b091279db752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d8e39754438588fbde8b091279db752">vdbVolumeToSimpleVolume</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a0d8e39754438588fbde8b091279db752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6e921b59b28810967128b1e54c4a51" id="r_a7c6e921b59b28810967128b1e54c4a51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6e921b59b28810967128b1e54c4a51">vdbVolumeToSimpleVolumeNorm</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), std::optional&lt; <a class="el" href="#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &gt; sourceScale={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
@@ -25321,6 +25324,39 @@ template&lt;typename F &gt; </div>
 </div><div class="memdoc">
 
 <p>Read layer heights from given scan file names. </p>
+
+</div>
+</div>
+<a id="aba29bf5baab2e1924aeb45b624a3c821" name="aba29bf5baab2e1924aeb45b624a3c821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba29bf5baab2e1924aeb45b624a3c821">&#9670;&#160;</a></span>putSimpleVolumeInDenseGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::putSimpleVolumeInDenseGrid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>minCoord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SimpleVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy given <code>simpleVolume</code> into the <code>grid</code>, starting at <code>minCoord</code>. </p>
 
 </div>
 </div>

@@ -2394,6 +2394,7 @@ var namespaceMR =
     [ "projectVertAttribute", "namespaceMR.html#a934a65c3acb8dcbb3730765c7cd9019c", null ],
     [ "pushNotification", "namespaceMR.html#a8943649eb4ec189757d628d6b1f9779f", null ],
     [ "putScanFileNameInZ", "namespaceMR.html#ab9229ab4444b58ce99c132c6509d0e6e", null ],
+    [ "putSimpleVolumeInDenseGrid", "namespaceMR.html#aba29bf5baab2e1924aeb45b624a3c821", null ],
     [ "pythonAppendOrRun", "namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691", null ],
     [ "pythonRunFromGUIThread", "namespaceMR.html#a98815b53a5018d4a910654f696d65b57", null ],
     [ "pythonRunFromGUIThread", "namespaceMR.html#a01c442c33cfa7f1e68e1261ab49b71b5", null ],
