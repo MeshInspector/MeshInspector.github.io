@@ -74,5 +74,6 @@ var classMR_1_1RibbonMenu =
     [ "activeNonBlockingItems_", "classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4", null ],
     [ "layoutMode_", "classMR_1_1RibbonMenu.html#a736cd1b64ec1e6b8d3207df3f9fcf431", null ],
     [ "prevFrameSelectedObjectsCache_", "classMR_1_1RibbonMenu.html#a8d13b702d7c6dad7794328080b6562e0", null ],
+    [ "searcher_", "classMR_1_1RibbonMenu.html#ac86c4630adf085f601be813f0d81b827", null ],
     [ "tabChangedSignal", "classMR_1_1RibbonMenu.html#afd52ffe86f76c1dcae019262f3722fd3", null ]
 ];
