@@ -1,5 +1,9 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458":[12,0,1,22,1,1],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[10,0,12,36,1,8],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[12,0,1,22,1,8],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f":[10,0,12,36,1,9],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f":[12,0,1,22,1,9],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[10,0,12,36,1,0],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[12,0,1,22,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1UniquePtr.html#a69356ad900f65842bc6e4bff6e88a8e0":[12,0,1,661,2],
 "structMR_1_1UniquePtr.html#aab2ceb1171b2a26773ddd20b58e22a85":[10,0,12,676,3],
 "structMR_1_1UniquePtr.html#aab2ceb1171b2a26773ddd20b58e22a85":[12,0,1,661,3],
-"structMR_1_1UniquePtr.html#aaf1504c1a8adb3c65e6501508c18f9ad":[10,0,12,676,0],
-"structMR_1_1UniquePtr.html#aaf1504c1a8adb3c65e6501508c18f9ad":[12,0,1,661,0],
-"structMR_1_1UnitInfo.html":[10,0,12,680],
-"structMR_1_1UnitInfo.html":[12,0,1,665],
-"structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f":[10,0,12,680,2]
+"structMR_1_1UniquePtr.html#aaf1504c1a8adb3c65e6501508c18f9ad":[10,0,12,676,0]
 };

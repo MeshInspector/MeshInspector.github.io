@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[12,0,1,2,1,2],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html#a385a1aa67d30c28d96c3b353b2301288":[10,0,12,6,1,2,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html#a385a1aa67d30c28d96c3b353b2301288":[12,0,1,2,1,2,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[10,0,12,6,1,3],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[12,0,1,2,1,3],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[10,0,12,6,1,3,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[12,0,1,2,1,3,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012":[12,0,1,232,0,1],
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0abdd515b2294ff6174a1894240f02e08e":[10,0,12,247,0,3],
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0abdd515b2294ff6174a1894240f02e08e":[12,0,1,232,0,3],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f":[10,0,12,247,0,0],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f":[12,0,1,232,0,0],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0af14de12b788d5fd679e1e5d2875b95f4":[10,0,12,247,0,2],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0af14de12b788d5fd679e1e5d2875b95f4":[12,0,1,232,0,2],
-"structMR_1_1GridSettings.html#a790adf53fc23a7b8fe0be9674ebb70af":[10,0,12,247,3]
+"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f":[10,0,12,247,0,0]
 };

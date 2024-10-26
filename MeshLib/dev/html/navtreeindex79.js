@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1UniquePtr.html#aaf1504c1a8adb3c65e6501508c18f9ad":[12,0,1,661,0],
+"structMR_1_1UnitInfo.html":[10,0,12,680],
+"structMR_1_1UnitInfo.html":[12,0,1,665],
+"structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f":[10,0,12,680,2],
 "structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f":[12,0,1,665,2],
 "structMR_1_1UnitInfo.html#a531dd608ed4d751acebfe96a4ce966ef":[10,0,12,680,1],
 "structMR_1_1UnitInfo.html#a531dd608ed4d751acebfe96a4ce966ef":[12,0,1,665,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[12,0,1,695,0],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[10,0,12,703,0],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[12,0,1,688,0],
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[10,0,12,703,0,0],
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[12,0,1,688,0,0],
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[10,0,12,703,0,1],
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[12,0,1,688,0,1],
-"structMR_1_1Viewport_1_1Parameters.html":[10,0,12,703,1]
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[10,0,12,703,0,0]
 };

@@ -13,7 +13,7 @@ var searchData=
   ['improvesampling_10',['improveSampling',['../group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08',1,'MR']]],
   ['include_11',['include',['../structMR_1_1Box.html#a14ec2de1def8e99ce267fe830e9caa51',1,'MR::Box::include(const V &amp;pt)'],['../structMR_1_1Box.html#a2d9fecc0393e456242b1409f8a6a79f9',1,'MR::Box::include(const Box &amp;b)']]],
   ['increasevalue_12',['increaseValue',['../classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d',1,'MR::Heap']]],
-  ['incrementforceredrawframes_13',['incrementForceRedrawFrames',['../classMR_1_1Viewer.html#a790440df3478329e0d2f47f2a8f6462d',1,'MR::Viewer']]],
+  ['incrementforceredrawframes_13',['incrementForceRedrawFrames',['../classMR_1_1Viewer.html#a790440df3478329e0d2f47f2a8f6462d',1,'MR::Viewer::incrementForceRedrawFrames()'],['../namespaceMR.html#a7cd4d3f28d6da21baab77b862d8d763a',1,'MR::incrementForceRedrawFrames()']]],
   ['incrementthisframeglprimitivescount_14',['incrementThisFrameGLPrimitivesCount',['../classMR_1_1Viewer.html#aa9e4f61cb952eb939ba8a95d97b5d961',1,'MR::Viewer']]],
   ['indexfrompseudoindex_15',['indexFromPseudoIndex',['../classMR_1_1MeshOnVoxelsT.html#ab1c07d16562b426106b09c51b2aaf831',1,'MR::MeshOnVoxelsT']]],
   ['inflate_16',['inflate',['../namespaceMR.html#a3d881ee7943c5019e5a61768489f064e',1,'MR']]],

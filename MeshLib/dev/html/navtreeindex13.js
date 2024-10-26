@@ -196,6 +196,8 @@ var NAVTREEINDEX13 =
 "MRViewerIO_8h_source.html":[13,0,0,2,10,127],
 "MRViewerInstance_8h.html":[13,0,0,2,10,126],
 "MRViewerInstance_8h.html#a3e7c908172571071d6796d054d25a4f4":[13,0,0,2,10,126,0],
+"MRViewerInstance_8h.html#a741c0532a33f30bb5c16469be9686d07":[13,0,0,2,10,126,2],
+"MRViewerInstance_8h.html#a7cd4d3f28d6da21baab77b862d8d763a":[13,0,0,2,10,126,1],
 "MRViewerInstance_8h_source.html":[13,0,0,2,10,126],
 "MRViewerPlugin_8h.html":[13,0,0,2,10,128],
 "MRViewerPlugin_8h_source.html":[13,0,0,2,10,128],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "MRVisualSubfeatures_8h.html":[13,0,0,2,10,134],
 "MRVisualSubfeatures_8h.html#a5d8f9dc8288a74b574ebe08113e9f6cf":[13,0,0,2,10,134,0],
 "MRVisualSubfeatures_8h_source.html":[13,0,0,2,10,134],
-"MRVolumeIndexer_8h.html":[13,0,0,2,4,362],
-"MRVolumeIndexer_8h_source.html":[13,0,0,2,4,362],
-"MRVolumeInterpolation_8h.html":[13,0,0,2,11,29]
+"MRVolumeIndexer_8h.html":[13,0,0,2,4,362]
 };
