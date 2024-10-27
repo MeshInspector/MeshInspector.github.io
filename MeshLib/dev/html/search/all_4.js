@@ -124,7 +124,7 @@ var searchData=
   ['bindpoints_5f_121',['bindPoints_',['../classMR_1_1RenderMeshObject.html#a060150c0005da78ec80639e5076b3aa0',1,'MR::RenderMeshObject']]],
   ['bindscenetexture_122',['bindSceneTexture',['../classMR_1_1Viewer.html#aad7ae2b261b453a9a3f957579f27c381',1,'MR::Viewer']]],
   ['bindselectededges_5f_123',['bindSelectedEdges_',['../classMR_1_1RenderMeshObject.html#a1e66ff524e4e671f0111c13050f9b827',1,'MR::RenderMeshObject']]],
-  ['bindslotcallback_124',['bindSlotCallback',['../MRViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc',1,'MRViewer.h']]],
+  ['bindslotcallback_124',['bindSlotCallback',['../MRMakeSlot_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc',1,'MRMakeSlot.h']]],
   ['bindtexture_125',['bindTexture',['../classMR_1_1FramebufferData.html#add94b9fac7f1c8a7432205fe148aff5b',1,'MR::FramebufferData']]],
   ['bindvertexattribarray_126',['bindVertexAttribArray',['../namespaceMR.html#a079f28d3be3f3a62901df8df69f1dc9c',1,'MR::bindVertexAttribArray(const BindVertexAttribArraySettings &amp;settings)'],['../namespaceMR.html#a96c0afdf384671d181d6111113d5bf35',1,'MR::bindVertexAttribArray(const GLuint program_shader, const char *name, GlBuffer &amp;buf, const C&lt; T, args... &gt; &amp;V, int baseTypeElementsNumber, bool refresh, bool forceUse=false)'],['../namespaceMR.html#a44858c7093ecce05e414dad5e83ea270',1,'MR::bindVertexAttribArray(const GLuint program_shader, const char *name, GlBuffer &amp;buf, const std::array&lt; T, N &gt; &amp;V, int baseTypeElementsNumber, bool refresh, bool forceUse=false)']]],
   ['bindvertexattribarraysettings_127',['BindVertexAttribArraySettings',['../structMR_1_1BindVertexAttribArraySettings.html',1,'MR']]],

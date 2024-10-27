@@ -2,7 +2,7 @@ var searchData=
 [
   ['m_5fpi_0',['M_PI',['../MROpenVDB_8h.html#ae71449b1cc6e6250b91f539153a7a0d3',1,'MROpenVDB.h']]],
   ['m_5fpi_5f2_1',['M_PI_2',['../MROpenVDB_8h.html#a958e4508ed28ee5cc04249144312c15f',1,'MROpenVDB.h']]],
-  ['make_5fslot_2',['MAKE_SLOT',['../MRViewer_8h.html#a2c688df55bdadf35189e97880b6dc592',1,'MRViewer.h']]],
+  ['make_5fslot_2',['MAKE_SLOT',['../MRMakeSlot_8h.html#a2c688df55bdadf35189e97880b6dc592',1,'MRMakeSlot.h']]],
   ['mr_5fadd_5fclass_5ffactory_3',['MR_ADD_CLASS_FACTORY',['../MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0',1,'MRObjectFactory.h']]],
   ['mr_5fadd_5fctor_5fdelete_5fmove_4',['MR_ADD_CTOR_DELETE_MOVE',['../MRViewerFwd_8h.html#ad67c8b227ede6f3cf9dda3c8b2232c32',1,'MRViewerFwd.h']]],
   ['mr_5fadd_5fimage_5floader_5',['MR_ADD_IMAGE_LOADER',['../MRIOFormatsRegistry_8h.html#a6c227a5fd0daac1b6c0476a487456a29',1,'MRIOFormatsRegistry.h']]],

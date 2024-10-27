@@ -123,13 +123,14 @@ $(function(){initNavTree('MRViewer_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRViewer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRRenderModelParameters_8h_source.html">MRMesh/MRRenderModelParameters.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRViewerInstance_8h_source.html">MRViewerInstance.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRViewerInstance_8h_source.html">MRViewerInstance.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMouse_8h_source.html">MRMouse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRSignalCombiners_8h_source.html">MRSignalCombiners.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMakeSlot_8h_source.html">MRMakeSlot.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRViewportId_8h_source.html">MRMesh/MRViewportId.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="MRSignal_8h_source.html">MRMesh/MRSignal.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRSignalCombiners_8h_source.html">MRViewer/MRSignalCombiners.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRRenderModelParameters_8h_source.html">MRMesh/MRRenderModelParameters.h</a>&quot;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 </div>
@@ -149,8 +150,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2c688df55bdadf35189e97880b6dc592" id="r_a2c688df55bdadf35189e97880b6dc592"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c688df55bdadf35189e97880b6dc592">MAKE_SLOT</a>(func)&#160;&#160;&#160;<a class="el" href="#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a>(this,func)</td></tr>
-<tr class="separator:a2c688df55bdadf35189e97880b6dc592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5148a6d21d216f28a3c1da0055472db" id="r_ab5148a6d21d216f28a3c1da0055472db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5148a6d21d216f28a3c1da0055472db">ENQUEUE_VIEWER_METHOD</a>(NAME,  METHOD)</td></tr>
 <tr class="memdesc:ab5148a6d21d216f28a3c1da0055472db"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper macros to add an <code><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></code> method call to the event queue  <br /></td></tr>
 <tr class="separator:ab5148a6d21d216f28a3c1da0055472db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,9 +160,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4e10ab3e9579ce8ffbd2209497603cbc" id="r_a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memTemplParams" colspan="2">template&lt;typename MemberFuncPtr , typename BaseClass &gt; </td></tr>
-<tr class="memitem:a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a> (BaseClass *base, MemberFuncPtr func)</td></tr>
-<tr class="separator:a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf0f4c580a56e4a7e297faa1b6de7378" id="r_abf0f4c580a56e4a7e297faa1b6de7378"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a> (const <a class="el" href="classMR_1_1Viewer.html#a18c86b40dc97e73d26be6d5f21f65093">Viewer::LaunchParams</a> &amp;params, const <a class="el" href="classMR_1_1ViewerSetup.html">ViewerSetup</a> &amp;setup)</td></tr>
 <tr class="separator:abf0f4c580a56e4a7e297faa1b6de7378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03d769eae4675e20e6b50c3fddaf8eba" id="r_a03d769eae4675e20e6b50c3fddaf8eba"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a03d769eae4675e20e6b50c3fddaf8eba">MR::loadMRViewerDll</a> ()</td></tr>
@@ -254,47 +250,6 @@ Functions</h2></td></tr>
 <div class="line">    MR::getViewerInstance() . METHOD ( __VA_ARGS__ ); \</div>
 <div class="line">}, true )</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a2c688df55bdadf35189e97880b6dc592" name="a2c688df55bdadf35189e97880b6dc592"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c688df55bdadf35189e97880b6dc592">&#9670;&#160;</a></span>MAKE_SLOT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAKE_SLOT</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a>(this,func)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a4e10ab3e9579ce8ffbd2209497603cbc" name="a4e10ab3e9579ce8ffbd2209497603cbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e10ab3e9579ce8ffbd2209497603cbc">&#9670;&#160;</a></span>bindSlotCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename MemberFuncPtr , typename BaseClass &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bindSlotCallback </td>
-          <td>(</td>
-          <td class="paramtype">BaseClass *</td>          <td class="paramname"><span class="paramname"><em>base</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MemberFuncPtr</td>          <td class="paramname"><span class="paramname"><em>func</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->

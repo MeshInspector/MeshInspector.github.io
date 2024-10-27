@@ -79,6 +79,7 @@ var classMR_1_1Viewer =
     [ "getPluginInstance", "classMR_1_1Viewer.html#a85ad500aab48ce2471d2715030ff667a", null ],
     [ "getPresentViewports", "classMR_1_1Viewer.html#a31d6494e00e43d9afe0c2ca0c089c075", null ],
     [ "getPrevFrameDrawTimeMillisec", "classMR_1_1Viewer.html#a5a94c92795c6e1b10dd5318f021deaf5", null ],
+    [ "getRibbonMenu", "classMR_1_1Viewer.html#ab99774ac83e35b2f47669cc2b8b88afb", null ],
     [ "getSpaceMouseHandler", "classMR_1_1Viewer.html#a7fa9e45768d4ede2c36f43231fcd9bb4", null ],
     [ "getSpaceMouseParameters", "classMR_1_1Viewer.html#a3323fa00fa7181b6d967e15efde6f017", null ],
     [ "getStaticGLBufferSize", "classMR_1_1Viewer.html#aca894260269798e399369b529d7ba3b0", null ],

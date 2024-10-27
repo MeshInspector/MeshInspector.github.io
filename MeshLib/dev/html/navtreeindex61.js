@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Color.html#ad69a83b856320cef2a9d1f2ef968dbfd":[12,0,1,118,16],
+"structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[10,0,12,133,1],
+"structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[12,0,1,118,1],
+"structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[10,0,12,133,5],
 "structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[12,0,1,118,5],
 "structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[10,0,12,133,8],
 "structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[12,0,1,118,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[9,16,4,0,2],
 "structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[9,16,4,0,0],
 "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[9,16,4,0,1],
-"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,16,4,0,3],
-"structMR_1_1Dipole.html":[10,0,12,172],
-"structMR_1_1Dipole.html":[12,0,1,157],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[10,0,12,172,4],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[12,0,1,157,4]
+"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,16,4,0,3]
 };
