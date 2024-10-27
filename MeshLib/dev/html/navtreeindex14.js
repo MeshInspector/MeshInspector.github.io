@@ -1,6 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"MRVisualSubfeatures_8h.html":[13,0,0,2,10,136],
 "MRVisualSubfeatures_8h.html#a5d8f9dc8288a74b574ebe08113e9f6cf":[13,0,0,2,10,136,0],
 "MRVisualSubfeatures_8h_source.html":[13,0,0,2,10,136],
 "MRVolumeIndexer_8h.html":[13,0,0,2,4,362],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191":[9,1,1,1],
 "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7":[9,1,1,2],
 "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5":[9,1,1,3],
-"classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf":[9,1,1,5]
+"classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf":[9,1,1,5],
+"classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0":[9,1,1,4]
 };

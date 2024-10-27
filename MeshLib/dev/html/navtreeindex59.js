@@ -1,7 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"structMRMeshSaveNamedXfMesh.html#afffb4a4f6c7bfdb6e40d412b60500177":[12,0,61,1],
-"structMRMeshTriPoint.html":[12,0,62],
 "structMRMeshTriPoint.html#a54959a13027627d8dd832a55dd6ffe53":[12,0,62,0],
 "structMRMeshTriPoint.html#aaedb582c9f945501bf8d5f37d70cd46b":[12,0,62,1],
 "structMRMultiwayICPSamplingParameters.html":[12,0,63],
@@ -249,5 +247,7 @@ var NAVTREEINDEX59 =
 "structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[10,0,12,66,3],
 "structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[12,0,1,51,3],
 "structMR_1_1BaseShellParameters.html":[10,0,12,67],
-"structMR_1_1BaseShellParameters.html":[12,0,1,52]
+"structMR_1_1BaseShellParameters.html":[12,0,1,52],
+"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[10,0,12,67,1],
+"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[12,0,1,52,1]
 };

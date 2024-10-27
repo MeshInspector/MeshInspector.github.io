@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1PointAccumulator.html#a3bbfe3a2dafb965a1e58b1ebede9744f":[9,0,1,0,7],
 "classMR_1_1PointAccumulator.html#a629602337391d01befbec1b5ee3fa00c":[9,0,1,0,2],
 "classMR_1_1PointAccumulator.html#a7514ac6107ebe4077c548746882a7d2d":[9,0,1,0,14],
 "classMR_1_1PointAccumulator.html#a76177fec5a1a4e3d0af890a84f1df551":[9,0,1,0,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "classMR_1_1RangeCounter.html#a6348660687ee746c78a3e76ef7565eb8":[12,0,1,479,2],
 "classMR_1_1RangeCounter.html#a75a111eb51abd100715ed2283d094687":[10,0,12,494,7],
 "classMR_1_1RangeCounter.html#a75a111eb51abd100715ed2283d094687":[12,0,1,479,7],
-"classMR_1_1RangeCounter.html#a9dc75f4140f86f912151eb28d6ed87c1":[10,0,12,494,4]
+"classMR_1_1RangeCounter.html#a9dc75f4140f86f912151eb28d6ed87c1":[10,0,12,494,4],
+"classMR_1_1RangeCounter.html#a9dc75f4140f86f912151eb28d6ed87c1":[12,0,1,479,4]
 };

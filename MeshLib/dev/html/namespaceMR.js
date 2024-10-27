@@ -2639,7 +2639,6 @@ var namespaceMR =
     [ "verticesGridSampling", "namespaceMR.html#a1f09dea53bc42dd20b0c49da65f93de4", null ],
     [ "vertMapsComposition", "group__BasicGroup.html#gad522c5e76d8252c0c5a3bc55818ce589", null ],
     [ "vertMapsComposition", "group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733", null ],
-    [ "viewport", "namespaceMR.html#a741c0532a33f30bb5c16469be9686d07", null ],
     [ "volumeToMeshByParts", "namespaceMR.html#ae7cf10a1862176d00de13d2fa27371b9", null ],
     [ "voxelizeAndComputeVolume", "namespaceMR.html#ac8ef400cadc6cad51471380469977449", null ],
     [ "voxelsApplyTransform", "namespaceMR.html#a20f0b2205cdb76cd4affa5aa0a580155", null ],

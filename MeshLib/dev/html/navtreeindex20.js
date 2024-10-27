@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"classMR_1_1EdgePathsBuilderT.html":[10,0,12,195],
 "classMR_1_1EdgePathsBuilderT.html":[12,0,1,180],
 "classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e":[10,0,12,195,8],
 "classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e":[12,0,1,180,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c":[12,0,1,217,3],
 "classMR_1_1FrameCounter.html#ad31cb34958177047b45d91d3bde14b0b":[10,0,12,232,7],
 "classMR_1_1FrameCounter.html#ad31cb34958177047b45d91d3bde14b0b":[12,0,1,217,7],
-"classMR_1_1FrameCounter.html#aea5d0a29f0eeb7d5301f5761259fbb71":[10,0,12,232,5]
+"classMR_1_1FrameCounter.html#aea5d0a29f0eeb7d5301f5761259fbb71":[10,0,12,232,5],
+"classMR_1_1FrameCounter.html#aea5d0a29f0eeb7d5301f5761259fbb71":[12,0,1,217,5]
 };
