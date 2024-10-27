@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[10,0,12,29,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[12,0,1,17,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[10,0,12,29,0,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[12,0,1,17,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1SearchPathSettings.html":[12,0,1,564],
 "structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[10,0,12,579,0],
 "structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[12,0,1,564,0],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[10,0,12,579,1],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[12,0,1,564,1]
+"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[10,0,12,579,1]
 };

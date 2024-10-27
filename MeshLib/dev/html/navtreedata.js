@@ -162,19 +162,19 @@ var NAVTREEINDEX =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9",
 "structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b",
 "structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e",
-"structMR_1_1MeshOrPoints_1_1ProjectionResult.html",
+"structMR_1_1MeshOrPointsXf.html#afea52861c699700de59ff6307740c6b7",
 "structMR_1_1MouseUpListener.html",
-"structMR_1_1OffsetContoursParams.html#a52ea8121bcdb1c1f7d2c638a77f9b9d9",
-"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12",
-"structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0",
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7",
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9",
+"structMR_1_1PositionedText.html#acc622ad7b3847f83e8d5d6f92dd0ed0a",
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0",
-"structMR_1_1SegmEndColors.html",
-"structMR_1_1StitchHolesParams.html",
+"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3",
+"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51",
 "structMR_1_1ToolPathParams.html#a7e16eeb5e2862d7ee09d5314b784cd4a",
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7",
 "structMR_1_1UniquePtr.html#a69356ad900f65842bc6e4bff6e88a8e0",
 "structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268",
-"structMeshTriPoint.html"
+"structMeshProjectionResult.html#a8269d17eda81dad2a3769dc847c35f42"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

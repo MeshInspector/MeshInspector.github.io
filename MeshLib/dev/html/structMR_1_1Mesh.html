@@ -382,6 +382,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d8e2d55d67e606f0129377d0d14aa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac790be9d7fbcbf9f765ebdd90f761c71" id="r_ac790be9d7fbcbf9f765ebdd90f761c71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac790be9d7fbcbf9f765ebdd90f761c71">packOptimally</a> (bool preserveAABBTree=true)</td></tr>
 <tr class="separator:ac790be9d7fbcbf9f765ebdd90f761c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6e569587fbe83e40119a29f7ea276f" id="r_abd6e569587fbe83e40119a29f7ea276f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd6e569587fbe83e40119a29f7ea276f">packOptimally</a> (bool preserveAABBTree, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb)</td></tr>
+<tr class="separator:abd6e569587fbe83e40119a29f7ea276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21bb3faf52ec585da5606ce879ab3c4b" id="r_a21bb3faf52ec585da5606ce879ab3c4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21bb3faf52ec585da5606ce879ab3c4b">deleteFaces</a> (const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
 <tr class="memdesc:a21bb3faf52ec585da5606ce879ab3c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces ant not in  <br /></td></tr>
 <tr class="separator:a21bb3faf52ec585da5606ce879ab3c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2874,8 +2876,29 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
+<a id="abd6e569587fbe83e40119a29f7ea276f" name="abd6e569587fbe83e40119a29f7ea276f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd6e569587fbe83e40119a29f7ea276f">&#9670;&#160;</a></span>packOptimally() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &gt; MR::Mesh::packOptimally </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preserveAABBTree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac790be9d7fbcbf9f765ebdd90f761c71" name="ac790be9d7fbcbf9f765ebdd90f761c71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac790be9d7fbcbf9f765ebdd90f761c71">&#9670;&#160;</a></span>packOptimally()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac790be9d7fbcbf9f765ebdd90f761c71">&#9670;&#160;</a></span>packOptimally() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

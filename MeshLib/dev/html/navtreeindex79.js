@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1UniquePtr.html#a69356ad900f65842bc6e4bff6e88a8e0":[10,0,12,676,2],
 "structMR_1_1UniquePtr.html#a69356ad900f65842bc6e4bff6e88a8e0":[12,0,1,661,2],
 "structMR_1_1UniquePtr.html#aab2ceb1171b2a26773ddd20b58e22a85":[10,0,12,676,3],
 "structMR_1_1UniquePtr.html#aab2ceb1171b2a26773ddd20b58e22a85":[12,0,1,661,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1ViewportPointsWithColors.html":[10,0,12,710],
 "structMR_1_1ViewportPointsWithColors.html":[12,0,1,695],
 "structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[10,0,12,710,1],
-"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[12,0,1,695,1],
-"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[10,0,12,710,0]
+"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[12,0,1,695,1]
 };
