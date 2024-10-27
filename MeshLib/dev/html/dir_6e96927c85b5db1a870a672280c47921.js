@@ -94,6 +94,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRShaderBlocks.h", "MRShaderBlocks_8h.html", "MRShaderBlocks_8h" ],
     [ "MRShadowsGL.h", "MRShadowsGL_8h.html", "MRShadowsGL_8h" ],
     [ "MRShortcutManager.h", "MRShortcutManager_8h.html", "MRShortcutManager_8h" ],
+    [ "MRShowModal.h", "MRShowModal_8h.html", "MRShowModal_8h" ],
     [ "MRSignalCombiners.h", "MRSignalCombiners_8h.html", "MRSignalCombiners_8h" ],
     [ "MRSpaceMouseController.h", "MRSpaceMouseController_8h.html", "MRSpaceMouseController_8h" ],
     [ "MRSpaceMouseHandler.h", "MRSpaceMouseHandler_8h.html", "MRSpaceMouseHandler_8h" ],

@@ -12,7 +12,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: ImGuiMenu.h File Reference</title>
+<title>MeshLib: MRShowModal.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,7 +89,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('ImGuiMenu_8h.html',''); initResizable(true); });
+$(function(){initNavTree('MRShowModal_8h_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -115,70 +115,39 @@ $(function(){initNavTree('ImGuiMenu_8h.html',''); initResizable(true); });
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ImGuiMenu.h File Reference</div></div>
+  <div class="headertitle"><div class="title">MRShowModal.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRViewerPlugin_8h_source.html">MRViewerPlugin.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRViewerEventsListener_8h_source.html">MRViewerEventsListener.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRStatePlugin_8h_source.html">MRStatePlugin.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRNotificationType_8h_source.html">MRNotificationType.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRSignalCombiners_8h_source.html">MRSignalCombiners.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRShowModal_8h_source.html">MRShowModal.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRIRenderObject_8h_source.html">MRMesh/MRIRenderObject.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRFlagOperators_8h_source.html">MRMesh/MRFlagOperators.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRBox_8h_source.html">MRMesh/MRBox.h</a>&quot;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<a href="MRShowModal_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRViewerFwd_8h.html">MRViewerFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRNotificationType_8h.html">MRNotificationType.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespaceMR.html#a042f3414ad34f25080f423078a3ad327">   10</a></span>MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a042f3414ad34f25080f423078a3ad327">showModal</a>( <span class="keyword">const</span> std::string&amp; error, <a class="code hl_enumeration" href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a> type );</div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="}">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespaceMR.html#a81804b582b588b4a894660b307a92cc2">   11</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a81804b582b588b4a894660b307a92cc2">showError</a>( <span class="keyword">const</span> std::string&amp; error )</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_function" href="namespaceMR.html#a042f3414ad34f25080f423078a3ad327">showModal</a>( error, <a class="code hl_enumvalue" href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd">NotificationType::Error</a> );</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
 </div>
-<p><a href="ImGuiMenu_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1LabelParams.html">MR::ImGuiMenu::LabelParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1PluginsCache.html">MR::ImGuiMenu::PluginsCache</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html">MR::ImGuiMenu::UiRenderManagerImpl</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a08fcff6c599b446c2e39ef49b4f62fc0" id="r_a08fcff6c599b446c2e39ef49b4f62fc0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0">MR::SelectedTypesMask</a> { <br />
-&#160;&#160;<a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0aa94357afae21f7758d58202764951f87">MR::ObjectBit</a> = 1 &lt;&lt; 0
-, <a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0ac104128a468562f5e9c96509dfed3d53">MR::ObjectPointsHolderBit</a> = 1 &lt;&lt; 1
-, <a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0a6932590a89f5363b603e5035f641be49">MR::ObjectLinesHolderBit</a> = 1 &lt;&lt; 2
-, <a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0a509d0de27f296414b54b96664b8e3d38">MR::ObjectMeshHolderBit</a> = 1 &lt;&lt; 3
-, <br />
-&#160;&#160;<a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0a499a32ada14a1e07f67bcf13de40b5b4">MR::ObjectLabelBit</a> = 1 &lt;&lt; 4
-, <a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0a3ec12a8f243c0de23bd9000894f4f50f">MR::ObjectMeshBit</a> = 1 &lt;&lt; 5
-, <a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0a840710b56e2f7b2a23389dc4690ad6a5">MR::ObjectFeatureBit</a> = 1 &lt;&lt; 6
-, <a class="el" href="namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0a16f25ad8602ca99aa2f2efac374523d7">MR::ObjectMeasurementBit</a> = 1 &lt;&lt; 7
-<br />
- }</td></tr>
-<tr class="separator:a08fcff6c599b446c2e39ef49b4f62fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9cab0079b5bdf8b5ebb5ba774cd76b62" id="r_a9cab0079b5bdf8b5ebb5ba774cd76b62"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9cab0079b5bdf8b5ebb5ba774cd76b62">MR::reserveKeyEvent</a> (ImGuiKey key)</td></tr>
-<tr class="separator:a9cab0079b5bdf8b5ebb5ba774cd76b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-</div><!-- contents -->
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRNotificationType_8h_html"><div class="ttname"><a href="MRNotificationType_8h.html">MRNotificationType.h</a></div></div>
+<div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a042f3414ad34f25080f423078a3ad327"><div class="ttname"><a href="namespaceMR.html#a042f3414ad34f25080f423078a3ad327">MR::showModal</a></div><div class="ttdeci">MRVIEWER_API void showModal(const std::string &amp;error, NotificationType type)</div><div class="ttdoc">Check if menu is available and if it is, shows modal window.</div></div>
+<div class="ttc" id="anamespaceMR_html_a3ccf27858d11d72a88bdbaf6e9d2b05d"><div class="ttname"><a href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">MR::NotificationType</a></div><div class="ttdeci">NotificationType</div><div class="ttdef"><b>Definition</b> MRNotificationType.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html_a3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd"><div class="ttname"><a href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd">MR::NotificationType::Error</a></div><div class="ttdeci">@ Error</div></div>
+<div class="ttc" id="anamespaceMR_html_a81804b582b588b4a894660b307a92cc2"><div class="ttname"><a href="namespaceMR.html#a81804b582b588b4a894660b307a92cc2">MR::showError</a></div><div class="ttdeci">void showError(const std::string &amp;error)</div><div class="ttdef"><b>Definition</b> MRShowModal.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="ImGuiMenu_8h.html">ImGuiMenu.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRShowModal_8h.html">MRShowModal.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

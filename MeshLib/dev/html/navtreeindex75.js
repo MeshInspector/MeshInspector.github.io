@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[10,0,12,580,0],
+"structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[12,0,1,565,0],
 "structMR_1_1SegmEndColors.html#a34ba656028d463bdd70196ca015bdeab":[10,0,12,580,1],
 "structMR_1_1SegmEndColors.html#a34ba656028d463bdd70196ca015bdeab":[12,0,1,565,1],
 "structMR_1_1SegmPoint.html":[9,0,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[10,0,12,615,1],
 "structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[12,0,1,600,1],
 "structMR_1_1StitchHolesParams.html":[9,9,3,1],
-"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,9,3,1,1],
-"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[9,9,3,1,0],
-"structMR_1_1StopOnTrueCombiner.html":[10,0,12,620]
+"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,9,3,1,1]
 };

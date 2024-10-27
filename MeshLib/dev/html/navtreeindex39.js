@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1SpaceMouseHandlerHidapi.html#ae76882db7c2042147f95e35d15b93371":[12,0,1,593,3],
+"classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[10,0,12,608,1],
 "classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[12,0,1,593,1],
 "classMR_1_1SphereObject.html":[9,11,0,6],
 "classMR_1_1SphereObject.html#a0756a482bc3f5e18d1e16940c05b1545":[9,11,0,6,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1SurfacePointWidget.html#ac576ca6d2ee3f2e66a4f10dea86ebe4e":[10,0,12,626,3],
 "classMR_1_1SurfacePointWidget.html#ac576ca6d2ee3f2e66a4f10dea86ebe4e":[12,0,1,611,3],
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2":[10,0,12,626,1],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2":[12,0,1,611,1],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9":[10,0,12,626,1,2],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9":[12,0,1,611,1,2]
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2":[12,0,1,611,1]
 };

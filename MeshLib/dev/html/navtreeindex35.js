@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593":[12,0,1,502,5],
+"classMR_1_1RenderObjectBuffer.html":[10,0,12,518],
 "classMR_1_1RenderObjectBuffer.html":[12,0,1,503],
 "classMR_1_1RenderObjectBuffer.html#ab02cd1ea0027d6d6976037b84fbbbe33":[10,0,12,518,0],
 "classMR_1_1RenderObjectBuffer.html#ab02cd1ea0027d6d6976037b84fbbbe33":[12,0,1,503,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1RibbonMenu.html#a49282539dbdead7ced3a92ce1409d0c3":[10,0,12,530,11],
 "classMR_1_1RibbonMenu.html#a49282539dbdead7ced3a92ce1409d0c3":[12,0,1,515,11],
 "classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070":[10,0,12,530,43],
-"classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070":[12,0,1,515,43],
-"classMR_1_1RibbonMenu.html#a4cce1421ecc6e05c9d0f5dc3d5a8c74f":[10,0,12,530,30],
-"classMR_1_1RibbonMenu.html#a4cce1421ecc6e05c9d0f5dc3d5a8c74f":[12,0,1,515,30]
+"classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070":[12,0,1,515,43]
 };

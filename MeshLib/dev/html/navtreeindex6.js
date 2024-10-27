@@ -1,7 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"MRMeshC_2MRMeshProject_8h.html#a8c09e5d7075abe705e20247facc454a9":[13,0,0,2,5,29,5],
-"MRMeshC_2MRMeshProject_8h.html#a9d54ddde2d375dc9570d1d11b79ea3fb":[13,0,0,2,5,29,2],
 "MRMeshC_2MRMeshProject_8h.html#ad46087f5e063a5a6591732687ecf063f":[13,0,0,2,5,29,4],
 "MRMeshC_2MRMeshProject_8h_source.html":[13,0,0,2,5,29],
 "MRMeshC_2MRMeshSaveObj_8h.html":[13,0,0,2,5,31],
@@ -249,5 +247,7 @@ var NAVTREEINDEX6 =
 "MRMeshThickness_8h.html#a7b7d6d6c842d2b1470c87e1a28ee7b07":[13,0,0,2,4,208,8],
 "MRMeshThickness_8h.html#afd74f9f75fe9d97b4aa208e3fa498301":[13,0,0,2,4,208,7],
 "MRMeshThickness_8h_source.html":[13,0,0,2,4,208],
-"MRMeshToDistanceVolume_8h.html":[13,0,0,2,11,12]
+"MRMeshToDistanceVolume_8h.html":[13,0,0,2,11,12],
+"MRMeshToDistanceVolume_8h.html#a150c8492a3dc820bde5db5249c54ba5d":[13,0,0,2,11,12,2],
+"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[13,0,0,2,11,12,4]
 };
