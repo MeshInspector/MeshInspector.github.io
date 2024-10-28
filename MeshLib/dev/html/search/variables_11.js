@@ -47,7 +47,7 @@ var searchData=
   ['rot_44',['rot',['../structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136',1,'MR::MultiwayAligningTransform::Stabilizer']]],
   ['rotatescale_45',['rotateScale',['../structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3',1,'MR::SpaceMouseParameters']]],
   ['rotationcolors_46',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
-  ['rotationsphere_47',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
+  ['rotationsphere_47',['rotationSphere',['../classMR_1_1Viewer.html#a4c175c5eee2d6f8367e9fcfe26eee6a5',1,'MR::Viewer']]],
   ['round_48',['Round',['../structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc',1,'MR::OffsetContoursParams::Round']]],
   ['rounding_49',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
   ['rr_50',['rr',['../structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584',1,'MR::Dipole']]]

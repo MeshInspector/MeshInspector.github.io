@@ -319,7 +319,7 @@ var searchData=
   ['rotationcentermode_316',['rotationCenterMode',['../classMR_1_1Viewport.html#af9e6c144fff12c1d75af0be0b6ed5650',1,'MR::Viewport']]],
   ['rotationcolors_317',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
   ['rotationlimits_318',['RotationLimits',['../classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8',1,'MR::CNCMachineSettings']]],
-  ['rotationsphere_319',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
+  ['rotationsphere_319',['rotationSphere',['../classMR_1_1Viewer.html#a4c175c5eee2d6f8367e9fcfe26eee6a5',1,'MR::Viewer']]],
   ['rotmask_320',['RotMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a6428aea23660f83dac6edbd258b67a02',1,'MR']]],
   ['rotx_321',['RotX',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350',1,'MR']]],
   ['roty_322',['RotY',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6',1,'MR']]],

@@ -26,7 +26,7 @@ var searchData=
   ['basevalue_23',['baseValue',['../structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a',1,'MR::UI::CheckboxOrModifierState']]],
   ['basewidth_24',['baseWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71',1,'MR::RibbonButtonDrawer::ButtonItemWidth']]],
   ['basin_25',['basin',['../structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429',1,'MR::PrecipitationSimulator::SimulationStep']]],
-  ['basisaxes_26',['basisAxes',['../classMR_1_1Viewer.html#ad7916e778c6607d7a46962ca46ec02df',1,'MR::Viewer']]],
+  ['basisaxes_26',['basisAxes',['../classMR_1_1Viewer.html#aabff40e9f5b2102161db747f1d36c787',1,'MR::Viewer']]],
   ['bastards_5f_27',['bastards_',['../classMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918',1,'MR::ObjectChildrenHolder']]],
   ['bdverts_28',['bdVerts',['../structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd',1,'MR::DecimateSettings']]],
   ['beforeedgesplit_29',['beforeEdgeSplit',['../structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8',1,'MR::SubdivideSettings']]],

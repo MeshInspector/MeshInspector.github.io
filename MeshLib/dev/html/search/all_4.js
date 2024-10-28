@@ -69,7 +69,7 @@ var searchData=
   ['basininfo_66',['BasinInfo',['../structMR_1_1WatershedGraph_1_1BasinInfo.html',1,'MR::WatershedGraph::BasinInfo'],['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a6505f36f6b37f2d51d0564a3de4b98e0',1,'MR::WatershedGraph::BasinInfo::BasinInfo()']]],
   ['basininfo_67',['basinInfo',['../classMR_1_1WatershedGraph.html#aaded095af3e5c37cf3299086f255480d',1,'MR::WatershedGraph::basinInfo(Graph::VertId v) const'],['../classMR_1_1WatershedGraph.html#a9af63cdf457000d537668057705b684c',1,'MR::WatershedGraph::basinInfo(Graph::VertId v)']]],
   ['basinvolumecalculator_68',['BasinVolumeCalculator',['../classMR_1_1BasinVolumeCalculator.html',1,'MR']]],
-  ['basisaxes_69',['basisAxes',['../classMR_1_1Viewer.html#ad7916e778c6607d7a46962ca46ec02df',1,'MR::Viewer']]],
+  ['basisaxes_69',['basisAxes',['../classMR_1_1Viewer.html#aabff40e9f5b2102161db747f1d36c787',1,'MR::Viewer']]],
   ['basisxf_70',['basisXf',['../structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9',1,'MR::DenseBox']]],
   ['basisxfinv_71',['basisXfInv',['../structMR_1_1DenseBox.html#a1d968d6262ca4a19b4f5610ef49dfdee',1,'MR::DenseBox']]],
   ['bastards_5f_72',['bastards_',['../classMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918',1,'MR::ObjectChildrenHolder']]],

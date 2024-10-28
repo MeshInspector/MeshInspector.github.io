@@ -669,24 +669,25 @@ $(function(){initNavTree('MRViewport_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00552" name="l00552"></a><span class="lineno">  552</span>    <span class="comment">// fit view and proj matrices to match the screen size with boxes returned by getBoxFn</span></div>
 <div class="line"><a id="l00553" name="l00553"></a><span class="lineno">  553</span>    <span class="comment">// getBoxFn( true ) - always camera space (respecting projection)</span></div>
 <div class="line"><a id="l00554" name="l00554"></a><span class="lineno">  554</span>    <span class="comment">// getBoxFn( false ) - if orthographic - camera space, otherwise - world space</span></div>
-<div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span>    <span class="keywordtype">void</span> preciseFitToScreenBorder_( std::function&lt;Box3f( <span class="keywordtype">bool</span> zoomFOV )&gt; getBoxFn, <span class="keyword">const</span> <a class="code hl_typedef" href="classMR_1_1Viewport.html#a14d9ce8dba0a41d18ce159115c94cef4">BaseFitParams</a>&amp; params );</div>
-<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span> </div>
-<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span>    <span class="keywordtype">bool</span> rotation_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>    Vector3f rotationPivot_;</div>
-<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span>    Vector3f static_point_;</div>
-<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>    Vector2f static_viewport_point;</div>
-<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>    <span class="keywordtype">float</span> distToSceneCenter_;</div>
-<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span> </div>
-<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>    <span class="keywordtype">bool</span> needRedraw_{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span> </div>
-<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>    <span class="comment">// world bounding box of scene objects visible in this viewport</span></div>
-<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>    Box3f sceneBox_;</div>
-<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span> </div>
-<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>    Parameters params_;</div>
-<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>};</div>
+<div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span>    <span class="comment">// getBoxFn/globalBasis - if true then getBoxFn should return box of global basis object (separetely, not to interfere with actual scene size)</span></div>
+<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span>    <span class="keywordtype">void</span> preciseFitToScreenBorder_( std::function&lt;Box3f( <span class="keywordtype">bool</span> zoomFOV, <span class="keywordtype">bool</span> globalBasis )&gt; getBoxFn, <span class="keyword">const</span> <a class="code hl_typedef" href="classMR_1_1Viewport.html#a14d9ce8dba0a41d18ce159115c94cef4">BaseFitParams</a>&amp; params );</div>
+<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span> </div>
+<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>    <span class="keywordtype">bool</span> rotation_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span>    Vector3f rotationPivot_;</div>
+<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>    Vector3f static_point_;</div>
+<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>    Vector2f static_viewport_point;</div>
+<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>    <span class="keywordtype">float</span> distToSceneCenter_;</div>
+<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span> </div>
+<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>    <span class="keywordtype">bool</span> needRedraw_{<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span> </div>
+<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>    <span class="comment">// world bounding box of scene objects visible in this viewport</span></div>
+<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>    Box3f sceneBox_;</div>
+<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span> </div>
+<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>    Parameters params_;</div>
+<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>};</div>
 </div>
-<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span> </div>
-<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span> </div>
+<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRFitData_8h_html"><div class="ttname"><a href="MRFitData_8h.html">MRFitData.h</a></div></div>
 <div class="ttc" id="aMRIRenderObject_8h_html"><div class="ttname"><a href="MRIRenderObject_8h.html">MRIRenderObject.h</a></div></div>
