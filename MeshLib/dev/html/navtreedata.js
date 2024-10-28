@@ -174,7 +174,7 @@ var NAVTREEINDEX =
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7",
 "structMR_1_1UniquePtr.html#a69356ad900f65842bc6e4bff6e88a8e0",
 "structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268",
-"structMeshProjectionResult.html#a8269d17eda81dad2a3769dc847c35f42"
+"structMeshPart.html#a42ddaf4a34ddce0745b0f4d2aca0ea83"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

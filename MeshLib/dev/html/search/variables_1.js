@@ -59,7 +59,8 @@ var searchData=
   ['arrowtipbackwardoffset_56',['arrowTipBackwardOffset',['../structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a6649a0eb2b642371baa9647ad499ecae',1,'MR::ImGuiMeasurementIndicators::Params']]],
   ['arrsize_57',['arrSize',['../structMR_1_1BindVertexAttribArraySettings.html#a65f898d899c6fff2f308bfd6fd24a129',1,'MR::BindVertexAttribArraySettings']]],
   ['aundiredge_58',['aUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a',1,'MR::UndirectedEdgeUndirectedEdge']]],
-  ['automaticradiusincrease_59',['automaticRadiusIncrease',['../structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a',1,'MR::TriangulationParameters::automaticRadiusIncrease'],['../structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d',1,'MR::TriangulationHelpers::Settings::automaticRadiusIncrease']]],
-  ['avgedgelen_5f_60',['avgEdgeLen_',['../classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410',1,'MR::ObjectMeshHolder']]],
-  ['axis_61',['axis',['../classMR_1_1Cone3.html#a18ef80872ba6b6384ae2944f85f8b214',1,'MR::Cone3::axis'],['../structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad',1,'MR::FindOverhangsSettings::axis']]]
+  ['auto_59',['Auto',['../structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6',1,'MR::Viewport::Parameters']]],
+  ['automaticradiusincrease_60',['automaticRadiusIncrease',['../structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a',1,'MR::TriangulationParameters::automaticRadiusIncrease'],['../structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d',1,'MR::TriangulationHelpers::Settings::automaticRadiusIncrease']]],
+  ['avgedgelen_5f_61',['avgEdgeLen_',['../classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410',1,'MR::ObjectMeshHolder']]],
+  ['axis_62',['axis',['../classMR_1_1Cone3.html#a18ef80872ba6b6384ae2944f85f8b214',1,'MR::Cone3::axis'],['../structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad',1,'MR::FindOverhangsSettings::axis']]]
 ];

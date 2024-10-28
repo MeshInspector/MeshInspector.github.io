@@ -674,7 +674,7 @@ var searchData=
   ['global_20registration_671',['Global registration',['../ExampleCGlobalRegistration.html',1,'CCodeExamples']]],
   ['globalalpha_5f_672',['globalAlpha_',['../classMR_1_1VisualObject.html#a96232055c664463cca20dda327b1c30f',1,'MR::VisualObject']]],
   ['globalbasisaxes_673',['globalBasisAxes',['../classMR_1_1Viewer.html#a001f35f7fc983544a5af14e38a07a450',1,'MR::Viewer']]],
-  ['globalbasisaxesxf_674',['globalBasisAxesXf',['../structMR_1_1Viewport_1_1Parameters.html#a5fd1d3f231f288b36c5434caa7238472',1,'MR::Viewport::Parameters']]],
+  ['globalbasisscalemode_674',['GlobalBasisScaleMode',['../structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126f',1,'MR::Viewport::Parameters']]],
   ['globalhistoryredo_675',['globalHistoryRedo',['../classMR_1_1Viewer.html#ae36f89734b1c96d9a03e4957f38f7b6a',1,'MR::Viewer']]],
   ['globalhistoryundo_676',['globalHistoryUndo',['../classMR_1_1Viewer.html#ab8b98e5129d643d9a893c28e17ebe388',1,'MR::Viewer']]],
   ['globalregistration_2edox_2ec_677',['GlobalRegistration.dox.c',['../GlobalRegistration_8dox_8c.html',1,'']]],
