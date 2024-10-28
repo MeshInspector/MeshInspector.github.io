@@ -209,6 +209,7 @@ var NAVTREEINDEX8 =
 "MRObjectPoints_8h.html":[13,0,0,2,3,232],
 "MRObjectPoints_8h.html#a0bc9f97aed9da24cf8d3c368ec4ffd0b":[13,0,0,2,3,232,1],
 "MRObjectPoints_8h.html#a86837deb8b4177b9b719b1faf4d2d0e8":[13,0,0,2,3,232,0],
+"MRObjectPoints_8h.html#ac3547f635ac7e47bf1cb714faf3cc1cb":[13,0,0,2,3,232,2],
 "MRObjectPoints_8h_source.html":[13,0,0,2,3,232],
 "MRObjectSave_8h.html":[13,0,0,2,3,235],
 "MRObjectSave_8h.html#a54a3a511e827b1db27f3a67e02c92c08":[13,0,0,2,3,235,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MROffsetContours_8h_source.html":[13,0,0,2,3,236],
 "MROnInit_8h.html":[13,0,0,2,3,237],
 "MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227":[13,0,0,2,3,237,1],
-"MROnInit_8h_source.html":[13,0,0,2,3,237],
-"MROpenRawVoxelsPlugin_8h.html":[13,0,0,2,0,3,0]
+"MROnInit_8h_source.html":[13,0,0,2,3,237]
 };

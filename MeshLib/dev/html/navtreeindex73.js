@@ -1,5 +1,9 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[10,0,12,525,6],
+"structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[12,0,1,510,6],
+"structMR_1_1ResolveMeshDegenSettings.html#abc665fb972e64aa14c3aaed55f8254b6":[10,0,12,525,3],
+"structMR_1_1ResolveMeshDegenSettings.html#abc665fb972e64aa14c3aaed55f8254b6":[12,0,1,510,3],
 "structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[10,0,12,525,5],
 "structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[12,0,1,510,5],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[10,0,12,527,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[10,0,12,34,0,3],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[12,0,1,21,0,3],
 "structMR_1_1SeparationPointStorage_1_1Block.html":[10,0,12,585,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[12,0,1,570,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[10,0,12,585,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[12,0,1,570,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[10,0,12,585,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[12,0,1,570,0,0]
+"structMR_1_1SeparationPointStorage_1_1Block.html":[12,0,1,570,0]
 };

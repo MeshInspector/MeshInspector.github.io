@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc":[9,1,20,2],
+"structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15":[9,1,20,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html":[9,0,8,0,0],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[9,0,8,0,0,1],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[9,0,8,0,0,0],
 "structMR_1_1MultiwayICPSamplingParameters.html":[10,0,12,372],
 "structMR_1_1MultiwayICPSamplingParameters.html":[12,0,1,357],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1OneMeshContour.html":[12,0,1,403],
 "structMR_1_1OneMeshContour.html#a6e1a28642564323f19cdf9f04319d5ef":[10,0,12,418,1],
 "structMR_1_1OneMeshContour.html#a6e1a28642564323f19cdf9f04319d5ef":[12,0,1,403,1],
-"structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320":[10,0,12,418,0],
-"structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320":[12,0,1,403,0],
-"structMR_1_1OneMeshIntersection.html":[10,0,12,419],
-"structMR_1_1OneMeshIntersection.html":[12,0,1,404],
-"structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82":[10,0,12,419,0]
+"structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320":[10,0,12,418,0]
 };

@@ -4057,6 +4057,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0bc9f97aed9da24cf8d3c368ec4ffd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86837deb8b4177b9b719b1faf4d2d0e8" id="r_a86837deb8b4177b9b719b1faf4d2d0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86837deb8b4177b9b719b1faf4d2d0e8">cloneRegion</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints, const VertBitSet &amp;region)</td></tr>
 <tr class="separator:a86837deb8b4177b9b719b1faf4d2d0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3547f635ac7e47bf1cb714faf3cc1cb" id="r_ac3547f635ac7e47bf1cb714faf3cc1cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3547f635ac7e47bf1cb714faf3cc1cb">pack</a> (const <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;pts, <a class="el" href="#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reorder, VertBitSet *newValidVerts=nullptr, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ac3547f635ac7e47bf1cb714faf3cc1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e83df3805927f1f6c006f596809d97a" id="r_a8e83df3805927f1f6c006f596809d97a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e83df3805927f1f6c006f596809d97a">objectHasSelectableChildren</a> (const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;object)</td></tr>
 <tr class="separator:a8e83df3805927f1f6c006f596809d97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5186cb23f32bc2d4c503ccec9da5319" id="r_aa5186cb23f32bc2d4c503ccec9da5319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress, <a class="el" href="#a3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> preCompress)</td></tr>
@@ -24726,6 +24728,52 @@ template&lt;class... Ts&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3547f635ac7e47bf1cb714faf3cc1cb" name="ac3547f635ac7e47bf1cb714faf3cc1cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3547f635ac7e47bf1cb714faf3cc1cb">&#9670;&#160;</a></span>pack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; MR::pack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a></td>          <td class="paramname"><span class="paramname"><em>reorder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>newValidVerts</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>constructs new <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> containing the packed version of input points, </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newValidVerts</td><td>if given, then use them instead of valid points from pts </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>nullptr if the operation was cancelled </dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1ConstantCuspParams.html":[12,0,1,131],
+"structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[10,0,12,146,0],
+"structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[12,0,1,131,0],
+"structMR_1_1ContourToDistanceMapParams.html":[9,5,4],
 "structMR_1_1ContourToDistanceMapParams.html#a2259024cb221dfbdaa806a2a0a213bbc":[9,5,4,1],
 "structMR_1_1ContourToDistanceMapParams.html#a35d5b9755c07b5533beef9aa20da8127":[9,5,4,4],
 "structMR_1_1ContourToDistanceMapParams.html#a3f4630f18505db408fdc2d6b9417d9e6":[9,5,4,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DistanceMapToWorld.html":[9,5,5],
 "structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e":[9,5,5,6],
 "structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[9,5,5,0],
-"structMR_1_1DistanceMapToWorld.html#a32e6a45804b42ebcebd70500b984bc2a":[9,5,5,8],
-"structMR_1_1DistanceMapToWorld.html#a45d71d4ab5dd33dbd4ef7b7b6eb16468":[9,5,5,2],
-"structMR_1_1DistanceMapToWorld.html#a58ecb87a75e584402ddd3420513d89df":[9,5,5,3],
-"structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c":[9,5,5,9],
-"structMR_1_1DistanceMapToWorld.html#a74d96fa90a47e012874bf6708e586545":[9,5,5,4]
+"structMR_1_1DistanceMapToWorld.html#a32e6a45804b42ebcebd70500b984bc2a":[9,5,5,8]
 };

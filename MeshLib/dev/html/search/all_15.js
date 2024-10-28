@@ -170,7 +170,7 @@ var searchData=
   ['selectionworldbox_5f_167',['selectionWorldBox_',['../classMR_1_1ImGuiMenu.html#ac8a4b5b373c2e5ab3e633a34fd148f12',1,'MR::ImGuiMenu']]],
   ['selectobjectbyclick_168',['SelectObjectByClick',['../classMR_1_1SelectObjectByClick.html',1,'MR::SelectObjectByClick'],['../classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676',1,'MR::SelectObjectByClick::SelectObjectByClick()']]],
   ['selectone_169',['selectOne',['../classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c',1,'MR::ImGuiMenu']]],
-  ['selectpoints_170',['selectPoints',['../classMR_1_1ObjectPointsHolder.html#a4dae33afc2ec7656f6e722ed48b01608',1,'MR::ObjectPointsHolder']]],
+  ['selectpoints_170',['selectPoints',['../classMR_1_1ObjectPointsHolder.html#ab4590c20e3453fd49b62915f266c4c79',1,'MR::ObjectPointsHolder']]],
   ['selectscreenlasso_171',['SelectScreenLasso',['../classMR_1_1SelectScreenLasso.html',1,'MR']]],
   ['selectvoxels_172',['selectVoxels',['../classMR_1_1ObjectVoxels.html#a4333c77a23030251df09a35b3432fdd6',1,'MR::ObjectVoxels']]],
   ['seledgesize_5f_173',['selEdgeSize_',['../classMR_1_1RenderMeshObject.html#ab2808bb9f682b7671b601fa9ba3348c4',1,'MR::RenderMeshObject']]],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[12,0,42,1],
+"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[12,0,42,0],
+"structMRTriPointf.html":[12,0,43],
+"structMRTriPointf.html#ac507405aca1d7923df0844c93a909cbc":[12,0,43,1],
 "structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55":[12,0,43,0],
 "structMRUndirectedEdgeId.html":[12,0,44],
 "structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[12,0,44,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[10,0,12,69,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[12,0,1,54,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[10,0,12,69,1,1],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[12,0,1,54,1,1],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[10,0,12,69,1,0],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[12,0,1,54,1,0],
-"structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[10,0,12,69,7],
-"structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[12,0,1,54,7]
+"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[12,0,1,54,1,1]
 };

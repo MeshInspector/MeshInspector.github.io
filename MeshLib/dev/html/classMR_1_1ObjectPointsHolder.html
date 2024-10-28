@@ -182,9 +182,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29d230eab5ae9ef093a8d9f9878ecb6a" id="r_a29d230eab5ae9ef093a8d9f9878ecb6a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d230eab5ae9ef093a8d9f9878ecb6a">setDirtyFlags</a> (uint32_t mask, bool invalidateCaches=true) override</td></tr>
 <tr class="separator:a29d230eab5ae9ef093a8d9f9878ecb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8bde1f8aa5e5c2b7abd5eaa069f4cba" id="r_ad8bde1f8aa5e5c2b7abd5eaa069f4cba"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8bde1f8aa5e5c2b7abd5eaa069f4cba">getSelectedPoints</a> () const</td></tr>
+<tr class="memdesc:ad8bde1f8aa5e5c2b7abd5eaa069f4cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets current selected points  <br /></td></tr>
 <tr class="separator:ad8bde1f8aa5e5c2b7abd5eaa069f4cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dae33afc2ec7656f6e722ed48b01608" id="r_a4dae33afc2ec7656f6e722ed48b01608"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dae33afc2ec7656f6e722ed48b01608">selectPoints</a> (VertBitSet newSelection)</td></tr>
-<tr class="separator:a4dae33afc2ec7656f6e722ed48b01608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4590c20e3453fd49b62915f266c4c79" id="r_ab4590c20e3453fd49b62915f266c4c79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4590c20e3453fd49b62915f266c4c79">selectPoints</a> (VertBitSet newSelection)</td></tr>
+<tr class="memdesc:ab4590c20e3453fd49b62915f266c4c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets current selected points  <br /></td></tr>
+<tr class="separator:ab4590c20e3453fd49b62915f266c4c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887e143b291be915ac30c0325781824f" id="r_a887e143b291be915ac30c0325781824f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a887e143b291be915ac30c0325781824f">updateSelectedPoints</a> (VertBitSet &amp;selection)</td></tr>
+<tr class="memdesc:a887e143b291be915ac30c0325781824f"><td class="mdescLeft">&#160;</td><td class="mdescRight">swaps current selected points with the argument  <br /></td></tr>
+<tr class="separator:a887e143b291be915ac30c0325781824f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59f6f730af5ab18d05ad3792be57b210" id="r_a59f6f730af5ab18d05ad3792be57b210"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59f6f730af5ab18d05ad3792be57b210">getSelectedPointsOrAll</a> () const</td></tr>
 <tr class="memdesc:a59f6f730af5ab18d05ad3792be57b210"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns selected points if any, otherwise returns all valid points  <br /></td></tr>
 <tr class="separator:a59f6f730af5ab18d05ad3792be57b210"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1134,6 +1139,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>gets current selected points </p>
+
 </div>
 </div>
 <a id="a59f6f730af5ab18d05ad3792be57b210" name="a59f6f730af5ab18d05ad3792be57b210"></a>
@@ -1476,8 +1483,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4dae33afc2ec7656f6e722ed48b01608" name="a4dae33afc2ec7656f6e722ed48b01608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dae33afc2ec7656f6e722ed48b01608">&#9670;&#160;</a></span>selectPoints()</h2>
+<a id="ab4590c20e3453fd49b62915f266c4c79" name="ab4590c20e3453fd49b62915f266c4c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4590c20e3453fd49b62915f266c4c79">&#9670;&#160;</a></span>selectPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1486,7 +1493,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectPointsHolder::selectPoints </td>
+          <td class="memname">void MR::ObjectPointsHolder::selectPoints </td>
           <td>(</td>
           <td class="paramtype">VertBitSet</td>          <td class="paramname"><span class="paramname"><em>newSelection</em></span></td><td>)</td>
           <td></td>
@@ -1494,10 +1501,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>sets current selected points </p>
 
 </div>
 </div>
@@ -1951,6 +1960,33 @@ Protected Attributes</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a6f629cc6822b206ab9232648fa19dcb6">MR::VisualObject</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d">MR::ObjectPoints</a>.</p>
+
+</div>
+</div>
+<a id="a887e143b291be915ac30c0325781824f" name="a887e143b291be915ac30c0325781824f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887e143b291be915ac30c0325781824f">&#9670;&#160;</a></span>updateSelectedPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectPointsHolder::updateSelectedPoints </td>
+          <td>(</td>
+          <td class="paramtype">VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>selection</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>swaps current selected points with the argument </p>
 
 </div>
 </div>
