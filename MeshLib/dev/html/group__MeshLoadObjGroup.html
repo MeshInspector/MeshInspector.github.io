@@ -163,11 +163,11 @@ Variables</h2></td></tr>
 <tr class="separator:gacad26bb0f966762a6201f66dbe3e0f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae14992ee2961e93c9690326874a825e4" id="r_gae14992ee2961e93c9690326874a825e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; std::filesystem::path, TextureId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae14992ee2961e93c9690326874a825e4">MR::MeshLoad::NamedMesh::textureFiles</a></td></tr>
 <tr class="separator:gae14992ee2961e93c9690326874a825e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga311db5316a105349238e8f439b00d599" id="r_ga311db5316a105349238e8f439b00d599"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; TextureId, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga311db5316a105349238e8f439b00d599">MR::MeshLoad::NamedMesh::texturePerFace</a></td></tr>
+<tr class="memitem:ga311db5316a105349238e8f439b00d599" id="r_ga311db5316a105349238e8f439b00d599"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; TextureId, FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga311db5316a105349238e8f439b00d599">MR::MeshLoad::NamedMesh::texturePerFace</a></td></tr>
 <tr class="separator:ga311db5316a105349238e8f439b00d599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga24c0d1fb11f0d559f180bff7fc3fc188" id="r_ga24c0d1fb11f0d559f180bff7fc3fc188"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24c0d1fb11f0d559f180bff7fc3fc188">MR::MeshLoad::NamedMesh::diffuseColor</a></td></tr>
 <tr class="separator:ga24c0d1fb11f0d559f180bff7fc3fc188"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga62b08df84e9ae3aa8d59b93d284d02d7" id="r_ga62b08df84e9ae3aa8d59b93d284d02d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga62b08df84e9ae3aa8d59b93d284d02d7">MR::MeshLoad::NamedMesh::xf</a></td></tr>
+<tr class="memitem:ga62b08df84e9ae3aa8d59b93d284d02d7" id="r_ga62b08df84e9ae3aa8d59b93d284d02d7"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga62b08df84e9ae3aa8d59b93d284d02d7">MR::MeshLoad::NamedMesh::xf</a></td></tr>
 <tr class="memdesc:ga62b08df84e9ae3aa8d59b93d284d02d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">transform of the loaded mesh, not identity only if <a class="el" href="#gace2b31e89c8b25c9b8475eacea73c38a" title="if true then vertices will be returned relative to some transformation to avoid precision loss">ObjLoadSettings.customXf</a>  <br /></td></tr>
 <tr class="separator:ga62b08df84e9ae3aa8d59b93d284d02d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7655251160688728be82b103fa220dd3" id="r_ga7655251160688728be82b103fa220dd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7655251160688728be82b103fa220dd3">MR::MeshLoad::NamedMesh::skippedFaceCount</a> = 0</td></tr>
@@ -470,7 +470,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;TextureId, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>&gt; MR::MeshLoad::NamedMesh::texturePerFace</td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;TextureId, FaceId&gt; MR::MeshLoad::NamedMesh::texturePerFace</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -498,7 +498,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::MeshLoad::NamedMesh::xf</td>
+          <td class="memname">AffineXf3f MR::MeshLoad::NamedMesh::xf</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -175,14 +175,13 @@ $(function(){initNavTree('MRMesh_2MRAffineXf_8h_source.html',''); initResizable(
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">inline</span> <span class="keyword">constexpr</span> <a class="code hl_variable" href="namespaceMR.html#aba55748ce74bb048bfb84500d7095678">AffineXf&lt;V&gt;</a> AffineXf&lt;V&gt;::inverse() const noexcept <a class="code hl_define" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( !std::is_integral_v&lt;T&gt; )</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_variable" href="namespaceMR.html#aba55748ce74bb048bfb84500d7095678">AffineXf&lt;V&gt;</a> res;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    res.A = <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>.inverse();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    res.A = A.inverse();</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    res.b = -( res.A * b );</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordflow">return</span> res;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>}</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">MapObject::A</a></div><div class="ttdeci">@ A</div></div>
 <div class="ttc" id="aMRMacros_8h_html"><div class="ttname"><a href="MRMacros_8h.html">MRMacros.h</a></div></div>
 <div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:29</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>

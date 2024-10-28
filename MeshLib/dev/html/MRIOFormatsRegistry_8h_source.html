@@ -255,7 +255,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>};</div>
 </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keyword">namespace </span><a class="code hl_class" href="classMeshLoad.html">MeshLoad</a></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keyword">namespace </span>MeshLoad</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>{</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
@@ -286,7 +286,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>} <span class="comment">// namespace MeshLoad</span></div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="keyword">namespace </span><a class="code hl_class" href="classMeshSave.html">MeshSave</a></div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="keyword">namespace </span>MeshSave</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>{</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0">  164</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0">MeshFileSaver</a> = <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a>( * )( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp;, <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
@@ -563,8 +563,6 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1FormatRegistry_html_ab9c42820935e63cda9a431676c136280"><div class="ttname"><a href="classMR_1_1FormatRegistry.html#ab9c42820935e63cda9a431676c136280">MR::FormatRegistry::getProcessor</a></div><div class="ttdeci">static Processor getProcessor(const IOFilter &amp;filter)</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:59</div></div>
 <div class="ttc" id="aclassMR_1_1FormatRegistry_html_acb208068d64ed77ba4bbe8aa96275480"><div class="ttname"><a href="classMR_1_1FormatRegistry.html#acb208068d64ed77ba4bbe8aa96275480">MR::FormatRegistry::getProcessor</a></div><div class="ttdeci">static Processor getProcessor(const std::string &amp;extension)</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:70</div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:60</div></div>
-<div class="ttc" id="aclassMeshLoad_html"><div class="ttname"><a href="classMeshLoad.html">MeshLoad</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshLoad.h:28</div></div>
-<div class="ttc" id="aclassMeshSave_html"><div class="ttname"><a href="classMeshSave.html">MeshSave</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshSave.h:14</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
 <div class="ttc" id="agroup__IOFiltersGroup_html_ga6e5e24c14d4909fcad8aa5fab54d047b"><div class="ttname"><a href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:32</div></div>
 <div class="ttc" id="agroup__IOFormatsRegistryGroup_html_ga485ea6956850ab0f801b945739a8a9d3"><div class="ttname"><a href="group__IOFormatsRegistryGroup.html#ga485ea6956850ab0f801b945739a8a9d3">MR::MeshLoad::MeshStreamLoader</a></div><div class="ttdeci">Expected&lt; MR::Mesh &gt;(*)(std::istream &amp;, const MeshLoadSettings &amp;) MeshStreamLoader</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:135</div></div>

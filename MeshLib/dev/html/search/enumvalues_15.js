@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valuegradient_0',['ValueGradient',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
-  ['vertex_1',['Vertex',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a807d0c11c8a7da0fb426f9e34901f485',1,'MR::OneMeshIntersection::Vertex'],['../MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181ab22b929ba52471a02d18bb3a4e4472e6',1,'Vertex:&#160;MRContoursCut.h']]],
+  ['vertex_1',['Vertex',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a807d0c11c8a7da0fb426f9e34901f485',1,'MR::OneMeshIntersection']]],
   ['vertical_2',['Vertical',['../classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217a2ab058d39efcb9723ff4e31b061058b0',1,'MR::ImGuiMenu::Vertical'],['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012',1,'MR::SetViewportConfigPresetMenuItem::Vertical'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012',1,'MR::GridSettings::Vertical']]],
   ['verts_3',['Verts',['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8',1,'MR::SurfacePointWidget']]],
   ['vertscolormap_4',['VertsColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd',1,'MR']]],

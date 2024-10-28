@@ -286,7 +286,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to voxels and back two times only closed meshes allowed (only <a class="el" href="classOffset.html">Offset</a> mode) typically offsetA and offsetB have distinct signs if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>Offsets mesh by converting it to voxels and back two times only closed meshes allowed (only Offset mode) typically offsetA and offsetB have distinct signs if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to distance field in voxels (using OpenVDB library if <a class="el" href="MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode::OpenVDB</a> or our implementation otherwise) and back using standard Marching Cubes, as opposed to Dual Marching Cubes in offsetMesh(...) if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>Offsets mesh by converting it to distance field in voxels (using OpenVDB library if SignDetectionMode::OpenVDB or our implementation otherwise) and back using standard Marching Cubes, as opposed to Dual Marching Cubes in offsetMesh(...) if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>
@@ -446,7 +446,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to distance field in voxels using OpenVDB library, signDetectionMode = <a class="el" href="MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aeaa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">Unsigned(from OpenVDB)</a> | OpenVDB | HoleWindingRule, and then converts back using OpenVDB library (dual marching cubes), so result mesh is always closed if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>Offsets mesh by converting it to distance field in voxels using OpenVDB library, signDetectionMode = Unsigned(from OpenVDB) | OpenVDB | HoleWindingRule, and then converts back using OpenVDB library (dual marching cubes), so result mesh is always closed if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>
@@ -562,7 +562,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in case of positive offset, returns the mesh consisting of offset mesh merged with inversed original mesh (thickening mode); in case of negative offset, returns the mesh consisting of inversed offset mesh merged with original mesh (hollowing mode); if your input mesh is open then please specify params.signDetectionMode = <a class="el" href="MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aeaa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">SignDetectionMode::Unsigned</a>, and you will get open mesh (with several components) on output if your input mesh is closed then please specify another sign detection mode, and you will get closed mesh (with several components) on output; if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>in case of positive offset, returns the mesh consisting of offset mesh merged with inversed original mesh (thickening mode); in case of negative offset, returns the mesh consisting of inversed offset mesh merged with original mesh (hollowing mode); if your input mesh is open then please specify params.signDetectionMode = SignDetectionMode::Unsigned, and you will get open mesh (with several components) on output if your input mesh is closed then please specify another sign detection mode, and you will get closed mesh (with several components) on output; if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>

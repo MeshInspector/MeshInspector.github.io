@@ -142,10 +142,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acbb29b2acc410b0a58645c023d793842" id="r_acbb29b2acc410b0a58645c023d793842"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbb29b2acc410b0a58645c023d793842">WatershedGraph</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt; &amp;face2basin, int <a class="el" href="#a75dfd7892ea152c119be891a63d24d0e">numBasins</a>)</td></tr>
+<tr class="memitem:acbb29b2acc410b0a58645c023d793842" id="r_acbb29b2acc410b0a58645c023d793842"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbb29b2acc410b0a58645c023d793842">WatershedGraph</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, FaceId &gt; &amp;face2basin, int <a class="el" href="#a75dfd7892ea152c119be891a63d24d0e">numBasins</a>)</td></tr>
 <tr class="memdesc:acbb29b2acc410b0a58645c023d793842"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs the graph from given mesh, heights in z-coordinate, and initial subdivision on basins  <br /></td></tr>
 <tr class="separator:acbb29b2acc410b0a58645c023d793842"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef299dd01113f7319f2969d20c2115a5" id="r_aef299dd01113f7319f2969d20c2115a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef299dd01113f7319f2969d20c2115a5">getHeightAt</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v) const</td></tr>
+<tr class="memitem:aef299dd01113f7319f2969d20c2115a5" id="r_aef299dd01113f7319f2969d20c2115a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef299dd01113f7319f2969d20c2115a5">getHeightAt</a> (VertId v) const</td></tr>
 <tr class="memdesc:aef299dd01113f7319f2969d20c2115a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns height at given vertex or FLT_MAX if the vertex is invalid  <br /></td></tr>
 <tr class="separator:aef299dd01113f7319f2969d20c2115a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52950e2fbd6e18253951cd1a837102dc" id="r_a52950e2fbd6e18253951cd1a837102dc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52950e2fbd6e18253951cd1a837102dc">graph</a> () const</td></tr>
@@ -188,12 +188,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab729c10829c758b62d6563fffa61d48e" id="r_ab729c10829c758b62d6563fffa61d48e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab729c10829c758b62d6563fffa61d48e">mergeViaBd</a> (<a class="el" href="classMR_1_1Graph.html#ab7466409c32ef6a047fedfe19ed28c1b">Graph::EdgeId</a> bd)</td></tr>
 <tr class="memdesc:ab729c10829c758b62d6563fffa61d48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">merges two basins sharing given boundary, returns remaining basin  <br /></td></tr>
 <tr class="separator:ab729c10829c758b62d6563fffa61d48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b1df8bb29c7135286e8e6b59b036e27" id="r_a2b1df8bb29c7135286e8e6b59b036e27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b1df8bb29c7135286e8e6b59b036e27">getBasinFaces</a> (<a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> basin) const</td></tr>
+<tr class="memitem:a2b1df8bb29c7135286e8e6b59b036e27" id="r_a2b1df8bb29c7135286e8e6b59b036e27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b1df8bb29c7135286e8e6b59b036e27">getBasinFaces</a> (<a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> basin) const</td></tr>
 <tr class="memdesc:a2b1df8bb29c7135286e8e6b59b036e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh faces of given basin  <br /></td></tr>
 <tr class="separator:a2b1df8bb29c7135286e8e6b59b036e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6bda4b2c59aa5d9d7dad25244ecc7cd" id="r_ae6bda4b2c59aa5d9d7dad25244ecc7cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>, <a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6bda4b2c59aa5d9d7dad25244ecc7cd">getAllBasinFaces</a> (bool joinOverflowBasins=false) const</td></tr>
+<tr class="memitem:ae6bda4b2c59aa5d9d7dad25244ecc7cd" id="r_ae6bda4b2c59aa5d9d7dad25244ecc7cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; FaceBitSet, <a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6bda4b2c59aa5d9d7dad25244ecc7cd">getAllBasinFaces</a> (bool joinOverflowBasins=false) const</td></tr>
 <tr class="separator:ae6bda4b2c59aa5d9d7dad25244ecc7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a02b4b9dff2548231f6154119e3de65" id="r_a8a02b4b9dff2548231f6154119e3de65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a02b4b9dff2548231f6154119e3de65">getBasinFacesBelowLevel</a> (<a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> basin, float waterLevel) const</td></tr>
+<tr class="memitem:a8a02b4b9dff2548231f6154119e3de65" id="r_a8a02b4b9dff2548231f6154119e3de65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a02b4b9dff2548231f6154119e3de65">getBasinFacesBelowLevel</a> (<a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> basin, float waterLevel) const</td></tr>
 <tr class="memdesc:a8a02b4b9dff2548231f6154119e3de65"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh faces of given basin with at least one vertex below given level  <br /></td></tr>
 <tr class="separator:a8a02b4b9dff2548231f6154119e3de65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a154c7de06138c1644c08aacc3176192b" id="r_a154c7de06138c1644c08aacc3176192b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a154c7de06138c1644c08aacc3176192b">computeBasinVolume</a> (<a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> basin, float waterLevel) const</td></tr>
@@ -223,7 +223,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>face2basin</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, FaceId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>face2basin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -470,7 +470,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>, <a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> &gt; MR::WatershedGraph::getAllBasinFaces </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; FaceBitSet, <a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a> &gt; MR::WatershedGraph::getAllBasinFaces </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>joinOverflowBasins</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
           <td> const</td>
@@ -501,7 +501,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> MR::WatershedGraph::getBasinFaces </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet MR::WatershedGraph::getBasinFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a></td>          <td class="paramname"><span class="paramname"><em>basin</em></span></td><td>)</td>
           <td> const</td>
@@ -528,7 +528,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> MR::WatershedGraph::getBasinFacesBelowLevel </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet MR::WatershedGraph::getBasinFacesBelowLevel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">Graph::VertId</a></td>          <td class="paramname"><span class="paramname"><em>basin</em></span>, </td>
         </tr>
@@ -561,7 +561,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::WatershedGraph::getHeightAt </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

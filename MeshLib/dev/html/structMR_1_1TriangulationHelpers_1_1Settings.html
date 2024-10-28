@@ -136,7 +136,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a341b31c3cef2ea814252e40a6dfbc8aa" id="r_a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a341b31c3cef2ea814252e40a6dfbc8aa">boundaryAngle</a> = 0.9f * PI_F</td></tr>
 <tr class="memdesc:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
 <tr class="separator:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe33d444027e0033891d8d9d75e52e1f" id="r_abe33d444027e0033891d8d9d75e52e1f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe33d444027e0033891d8d9d75e52e1f">trustedNormals</a> = nullptr</td></tr>
+<tr class="memitem:abe33d444027e0033891d8d9d75e52e1f" id="r_abe33d444027e0033891d8d9d75e52e1f"><td class="memItemLeft" align="right" valign="top">const VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe33d444027e0033891d8d9d75e52e1f">trustedNormals</a> = nullptr</td></tr>
 <tr class="memdesc:abe33d444027e0033891d8d9d75e52e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if oriented normals are known, they will be used for neighbor points selection  <br /></td></tr>
 <tr class="separator:abe33d444027e0033891d8d9d75e52e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49d74151d155a2c96be9eb811e05757d" id="r_a49d74151d155a2c96be9eb811e05757d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d74151d155a2c96be9eb811e05757d">automaticRadiusIncrease</a> = true</td></tr>
@@ -145,7 +145,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a04d78b046a3cb5a0456ca15052617648" id="r_a04d78b046a3cb5a0456ca15052617648"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d78b046a3cb5a0456ca15052617648">maxRemoves</a> = INT_MAX</td></tr>
 <tr class="memdesc:a04d78b046a3cb5a0456ca15052617648"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum number of optimization steps (removals) in local triangulation  <br /></td></tr>
 <tr class="separator:a04d78b046a3cb5a0456ca15052617648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f5bf92c6fb3063c2d70ea917ba4a458" id="r_a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5bf92c6fb3063c2d70ea917ba4a458">allNeighbors</a> = nullptr</td></tr>
+<tr class="memitem:a6f5bf92c6fb3063c2d70ea917ba4a458" id="r_a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5bf92c6fb3063c2d70ea917ba4a458">allNeighbors</a> = nullptr</td></tr>
 <tr class="memdesc:a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output of considered neighbor points after filtering but before triangulation/optimization  <br /></td></tr>
 <tr class="separator:a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5edcde965a734c44ce7cb176b8784c2" id="r_ad5edcde965a734c44ce7cb176b8784c2"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5edcde965a734c44ce7cb176b8784c2">actualRadius</a> = nullptr</td></tr>
@@ -179,7 +179,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;* MR::TriangulationHelpers::Settings::allNeighbors = nullptr</td>
+          <td class="memname">std::vector&lt;VertId&gt;* MR::TriangulationHelpers::Settings::allNeighbors = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -305,7 +305,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a>* MR::TriangulationHelpers::Settings::trustedNormals = nullptr</td>
+          <td class="memname">const VertCoords* MR::TriangulationHelpers::Settings::trustedNormals = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

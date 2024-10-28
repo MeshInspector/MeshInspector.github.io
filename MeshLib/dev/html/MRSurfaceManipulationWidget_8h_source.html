@@ -204,26 +204,26 @@ $(function(){initNavTree('MRSurfaceManipulationWidget_8h_source.html',''); initR
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> updateVizualizeSelection_( <span class="keyword">const</span> <a class="code hl_typedef" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&amp; objAndPick );</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> updateRegionUVs_( <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">VertBitSet</a>&amp; region );</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> updateValueChanges_( <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">VertBitSet</a>&amp; region );</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span> updateValueChangesByDistance_( <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">VertBitSet</a>&amp; region );</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> updateRegionUVs_( <span class="keyword">const</span> VertBitSet&amp; region );</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> updateValueChanges_( <span class="keyword">const</span> VertBitSet&amp; region );</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span> updateValueChangesByDistance_( <span class="keyword">const</span> VertBitSet&amp; region );</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    Settings settings_;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">float</span> minRadius_ = 1.f;</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    Vector2f mousePos_; </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <a class="code hl_class" href="classBitSet.html">VertBitSet</a> singleEditingRegion_;  </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <a class="code hl_class" href="classBitSet.html">VertBitSet</a> visualizationRegion_;  </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <a class="code hl_class" href="classBitSet.html">VertBitSet</a> generalEditingRegion_; </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    VertBitSet singleEditingRegion_;  </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    VertBitSet visualizationRegion_;  </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    VertBitSet generalEditingRegion_; </div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    VertScalars pointsShift_;</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    VertScalars editingDistanceMap_;</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    VertScalars visualizationDistanceMap_;</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <a class="code hl_class" href="classBitSet.html">VertBitSet</a> changedRegion_;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    VertBitSet changedRegion_;</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    VertScalars valueChanges_;</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    VertScalars lastStableValueChanges_;</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    std::shared_ptr&lt;Mesh&gt; originalMesh_; </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <a class="code hl_class" href="classBitSet.html">VertBitSet</a> unknownSign_; </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    VertBitSet unknownSign_; </div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    std::shared_ptr&lt;ObjectMesh&gt; lastStableObjMesh_;</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">bool</span> firstInit_ = <span class="keyword">true</span>; <span class="comment">// need to save settings in re-initial</span></div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">bool</span> badRegion_ = <span class="keyword">false</span>; <span class="comment">// in selected region less than 3 points</span></div>
@@ -237,8 +237,8 @@ $(function(){initNavTree('MRSurfaceManipulationWidget_8h_source.html',''); initR
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keywordtype">bool</span> connectionsInitialized_ = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="comment">// Laplacian</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> touchVertId_; <span class="comment">// we fix this vertex in Laplacian and move it manually</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> touchVertIniPos_; <span class="comment">// initial position of fixed vertex</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    VertId touchVertId_; <span class="comment">// we fix this vertex in Laplacian and move it manually</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    Vector3f touchVertIniPos_; <span class="comment">// initial position of fixed vertex</span></div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    Vector2i storedDown_;</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    std::unique_ptr&lt;Laplacian&gt; laplacian_;</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    std::shared_ptr&lt;HistoryAction&gt; historyAction_; <span class="comment">// this action is prepared beforehand for better responsiveness, but pushed only on mouse move</span></div>
@@ -253,14 +253,12 @@ $(function(){initNavTree('MRSurfaceManipulationWidget_8h_source.html',''); initR
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>}</div>
 <div class="ttc" id="aMRChangeMeshAction_8h_html"><div class="ttname"><a href="MRChangeMeshAction_8h.html">MRChangeMeshAction.h</a></div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a97d91fcf1566198a2abf87966d056a9f"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></div><div class="ttdeci">int VertId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:51</div></div>
 <div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRViewerEventsListener_8h_html"><div class="ttname"><a href="MRViewerEventsListener_8h.html">MRViewerEventsListener.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aMRViewport_8h_html"><div class="ttname"><a href="MRViewport_8h.html">MRViewport.h</a></div></div>
 <div class="ttc" id="aMRViewport_8h_html_af3c0d5e71a46bda98d8fd895def98a22"><div class="ttname"><a href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a></div><div class="ttdeci">std::pair&lt; std::shared_ptr&lt; MR::VisualObject &gt;, MR::PointOnObject &gt; ObjAndPick</div><div class="ttdef"><b>Definition</b> MRViewport.h:21</div></div>
-<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html"><div class="ttname"><a href="classMR_1_1Laplacian.html">MR::Laplacian</a></div><div class="ttdef"><b>Definition</b> MRLaplacian.h:32</div></div>
 <div class="ttc" id="aclassMR_1_1Palette_html"><div class="ttname"><a href="classMR_1_1Palette.html">MR::Palette</a></div><div class="ttdoc">Class to hold one dimension texture with value to UV mapping.</div><div class="ttdef"><b>Definition</b> MRPalette.h:25</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceManipulationWidget_html"><div class="ttname"><a href="classMR_1_1SurfaceManipulationWidget.html">MR::SurfaceManipulationWidget</a></div><div class="ttdoc">widget for surface modifying @detail available 3 modes: add (move surface region in direction of norm...</div><div class="ttdef"><b>Definition</b> MRSurfaceManipulationWidget.h:21</div></div>
@@ -277,7 +275,6 @@ $(function(){initNavTree('MRSurfaceManipulationWidget_8h_source.html',''); initR
 <div class="ttc" id="aclassMR_1_1SurfaceManipulationWidget_html_adfd4d3e29bc38873330fb5027d094047"><div class="ttname"><a href="classMR_1_1SurfaceManipulationWidget.html#adfd4d3e29bc38873330fb5027d094047">MR::SurfaceManipulationWidget::enableDeviationVisualization</a></div><div class="ttdeci">MRVIEWER_API void enableDeviationVisualization(bool enable)</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceManipulationWidget_html_ae60bdd11677d2000b6deeb48ddfe3d6f"><div class="ttname"><a href="classMR_1_1SurfaceManipulationWidget.html#ae60bdd11677d2000b6deeb48ddfe3d6f">MR::SurfaceManipulationWidget::updateTexture</a></div><div class="ttdeci">MRVIEWER_API void updateTexture()</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceManipulationWidget_html_af5a9e8b4fd61a438f8ba559e9743b5ac"><div class="ttname"><a href="classMR_1_1SurfaceManipulationWidget.html#af5a9e8b4fd61a438f8ba559e9743b5ac">MR::SurfaceManipulationWidget::getMinMax</a></div><div class="ttdeci">Vector2f getMinMax()</div><div class="ttdef"><b>Definition</b> MRSurfaceManipulationWidget.h:70</div></div>
-<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition</b> MRMouse.h:9</div></div>
 <div class="ttc" id="anamespaceMR_html_a58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717"><div class="ttname"><a href="namespaceMR.html#a58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717">MR::NestedComponenetsMode::Remove</a></div><div class="ttdeci">@ Remove</div></div>

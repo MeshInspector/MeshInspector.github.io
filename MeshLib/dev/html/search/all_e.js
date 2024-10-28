@@ -63,7 +63,7 @@ var searchData=
   ['leftnormal_60',['leftNormal',['../structMR_1_1Mesh.html#a797623a41864029eb93103c262fa70d4',1,'MR::Mesh']]],
   ['leftorfirst_61',['leftOrFirst',['../structMR_1_1AABBTreePoints_1_1Node.html#a8421156508934dc148c12b4ca83f9eec',1,'MR::AABBTreePoints::Node']]],
   ['leftright_62',['LeftRight',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4',1,'MR']]],
-  ['leftring_63',['leftRing',['../namespaceMR.html#ab1ba9bf4b9468525f62bc98e2160eb1f',1,'MR']]],
+  ['leftring_63',['leftRing',['../namespaceMR.html#ab1ba9bf4b9468525f62bc98e2160eb1f',1,'MR::leftRing(const MeshTopology &amp;topology, EdgeId edge)'],['../namespaceMR.html#aa10e8c70214e043065a204ed41c35dd3',1,'MR::leftRing(const MeshTopology &amp;topology, FaceId f)']]],
   ['leftring0_64',['leftRing0',['../namespaceMR.html#a649c474104e7af19340b277ad9328dfb',1,'MR']]],
   ['leftringiterator_65',['LeftRingIterator',['../namespaceMR.html#ad2baece747803d447531075a0e80a2c3',1,'MR']]],
   ['lendash_66',['lenDash',['../structMR_1_1UI_1_1PlotAxis.html#a4f5a326eb4b1bad75896698c5db7bca8',1,'MR::UI::PlotAxis']]],

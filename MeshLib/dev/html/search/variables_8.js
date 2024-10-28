@@ -15,11 +15,10 @@ var searchData=
   ['hintdirection_12',['hintDirection',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
   ['historyspecification_13',['historySpecification',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#afd1f153be026ccd44397454e0d221cab',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
   ['holeidx_14',['holeIdx',['../structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d',1,'MR::HoleEdgePoint']]],
-  ['holerepresentiveedges_15',['HoleRepresentiveEdges',['../classMesh.html#a38344f7839edade15b54ebf40da394e7',1,'Mesh']]],
-  ['hollow_16',['hollow',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf',1,'MR::Features::Primitives::ConeSegment']]],
-  ['home_17',['home',['../structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5',1,'MR::EmbeddedPython::Config']]],
-  ['hops_18',['hops',['../structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b',1,'MR::FindOverhangsSettings']]],
-  ['horizontalresolution_19',['horizontalResolution',['../structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750',1,'MRMakeUVSphereParameters']]],
-  ['hoveredcolor_20',['hoveredColor',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters::hoveredColor']]],
-  ['hoveredlinewidth_21',['hoveredLineWidth',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams']]]
+  ['hollow_15',['hollow',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf',1,'MR::Features::Primitives::ConeSegment']]],
+  ['home_16',['home',['../structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5',1,'MR::EmbeddedPython::Config']]],
+  ['hops_17',['hops',['../structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b',1,'MR::FindOverhangsSettings']]],
+  ['horizontalresolution_18',['horizontalResolution',['../structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750',1,'MRMakeUVSphereParameters']]],
+  ['hoveredcolor_19',['hoveredColor',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters::hoveredColor']]],
+  ['hoveredlinewidth_20',['hoveredLineWidth',['../structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams']]]
 ];

@@ -9,7 +9,7 @@ var searchData=
   ['shadingtype_6',['ShadingType',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cf',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['shortcutcategory_7',['ShortcutCategory',['../namespaceMR.html#abeff4ec21e8ee2ea544cdb4ce4d55d6b',1,'MR']]],
   ['side_8',['Side',['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48',1,'MR']]],
-  ['signdetectionmode_9',['SignDetectionMode',['../MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085ae',1,'SignDetectionMode:&#160;MROffset.h'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309',1,'MR::SignDetectionMode']]],
+  ['signdetectionmode_9',['SignDetectionMode',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309',1,'MR']]],
   ['signeddetectionmethod_10',['SignedDetectionMethod',['../structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6',1,'MR::ContoursDistanceMapOptions']]],
   ['sizetype_11',['SizeType',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae',1,'MR::DrawButtonParams']]],
   ['sliceplane_12',['SlicePlane',['../group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab',1,'MR']]],

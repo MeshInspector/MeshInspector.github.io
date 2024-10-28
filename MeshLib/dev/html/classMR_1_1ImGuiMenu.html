@@ -195,7 +195,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0e5fbe43cf10672413ba99ee734efbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ea86b2c687799e1fa4fe4ca51fca1c0" id="r_a2ea86b2c687799e1fa4fe4ca51fca1c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ea86b2c687799e1fa4fe4ca51fca1c0">draw_labels</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)</td></tr>
 <tr class="separator:a2ea86b2c687799e1fa4fe4ca51fca1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8816c5eec0cd0dbf6a48ffb892cacb8e" id="r_a8816c5eec0cd0dbf6a48ffb892cacb8e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8816c5eec0cd0dbf6a48ffb892cacb8e">draw_text</a> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;viewport, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pos, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;<a class="el" href="namespaceMR.html#a668bccb3edee9cdfebdbdc80a502dde5">normal</a>, const std::string &amp;text, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color, bool clipByViewport)</td></tr>
+<tr class="memitem:a8816c5eec0cd0dbf6a48ffb892cacb8e" id="r_a8816c5eec0cd0dbf6a48ffb892cacb8e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8816c5eec0cd0dbf6a48ffb892cacb8e">draw_text</a> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;viewport, const Vector3f &amp;pos, const Vector3f &amp;<a class="el" href="namespaceMR.html#a668bccb3edee9cdfebdbdc80a502dde5">normal</a>, const std::string &amp;text, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color, bool clipByViewport)</td></tr>
 <tr class="separator:a8816c5eec0cd0dbf6a48ffb892cacb8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68decea45636d9cf3ddd402a7ed91222" id="r_a68decea45636d9cf3ddd402a7ed91222"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68decea45636d9cf3ddd402a7ed91222">pixel_ratio</a> ()</td></tr>
 <tr class="separator:a68decea45636d9cf3ddd402a7ed91222"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,7 +359,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a16a6844acf0cd5b7f1b4dfe41979e796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff46cdf1806900d19d9806e28d325659" id="r_aff46cdf1806900d19d9806e28d325659"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff46cdf1806900d19d9806e28d325659">postRescale_</a> (float x, float y) override</td></tr>
 <tr class="separator:aff46cdf1806900d19d9806e28d325659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad16e3a9ef41b44123e96565a98582cda" id="r_ad16e3a9ef41b44123e96565a98582cda"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad16e3a9ef41b44123e96565a98582cda">spaceMouseMove_</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;translate, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;rotate) override</td></tr>
+<tr class="memitem:ad16e3a9ef41b44123e96565a98582cda" id="r_ad16e3a9ef41b44123e96565a98582cda"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad16e3a9ef41b44123e96565a98582cda">spaceMouseMove_</a> (const Vector3f &amp;translate, const Vector3f &amp;rotate) override</td></tr>
 <tr class="separator:ad16e3a9ef41b44123e96565a98582cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4060b3a583e77e5b681d7fb9ecc49846" id="r_a4060b3a583e77e5b681d7fb9ecc49846"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4060b3a583e77e5b681d7fb9ecc49846">spaceMouseDown_</a> (int key) override</td></tr>
 <tr class="separator:a4060b3a583e77e5b681d7fb9ecc49846"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -450,9 +450,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a69ba22274265966f6ddc7eabf3eb78a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae809764ef8ca8203ef9f26e34abb2c2f" id="r_ae809764ef8ca8203ef9f26e34abb2c2f"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae809764ef8ca8203ef9f26e34abb2c2f">lastRenameObj_</a></td></tr>
 <tr class="separator:ae809764ef8ca8203ef9f26e34abb2c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5bbfd506bfd0a58e4e0a08765d5129" id="r_adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5bbfd506bfd0a58e4e0a08765d5129">selectionBbox_</a></td></tr>
+<tr class="memitem:adc5bbfd506bfd0a58e4e0a08765d5129" id="r_adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5bbfd506bfd0a58e4e0a08765d5129">selectionBbox_</a></td></tr>
 <tr class="separator:adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a4b5b373c2e5ab3e633a34fd148f12" id="r_ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8a4b5b373c2e5ab3e633a34fd148f12">selectionWorldBox_</a></td></tr>
+<tr class="memitem:ac8a4b5b373c2e5ab3e633a34fd148f12" id="r_ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8a4b5b373c2e5ab3e633a34fd148f12">selectionWorldBox_</a></td></tr>
 <tr class="separator:ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabb7d476614f65f1d63a7135ffb63a18" id="r_aabb7d476614f65f1d63a7135ffb63a18"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structMR_1_1ImGuiMenu_1_1LabelParams.html">MR::ImGuiMenu::LabelParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb7d476614f65f1d63a7135ffb63a18">oldLabelParams_</a></td></tr>
 <tr class="separator:aabb7d476614f65f1d63a7135ffb63a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -480,7 +480,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a25d70db427b76e61497c7fe1c62ac778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9603f5d80ca9f918df4d86d0a40a94ab" id="r_a9603f5d80ca9f918df4d86d0a40a94ab"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9603f5d80ca9f918df4d86d0a40a94ab">editedFeatureObject_</a></td></tr>
 <tr class="separator:a9603f5d80ca9f918df4d86d0a40a94ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6afa105ae1f7116d82db1d5068aef0ef" id="r_a6afa105ae1f7116d82db1d5068aef0ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6afa105ae1f7116d82db1d5068aef0ef">editedFeatureObjectOldXf_</a></td></tr>
+<tr class="memitem:a6afa105ae1f7116d82db1d5068aef0ef" id="r_a6afa105ae1f7116d82db1d5068aef0ef"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6afa105ae1f7116d82db1d5068aef0ef">editedFeatureObjectOldXf_</a></td></tr>
 <tr class="separator:a6afa105ae1f7116d82db1d5068aef0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70e1b99ed1657729d0a89c8c8bd00e59" id="r_a70e1b99ed1657729d0a89c8c8bd00e59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70e1b99ed1657729d0a89c8c8bd00e59">capturedMouse_</a> { false }</td></tr>
 <tr class="separator:a70e1b99ed1657729d0a89c8c8bd00e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1066,12 +1066,12 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2615,12 +2615,12 @@ template&lt;typename ObjType &gt; </div>
         <tr>
           <td class="memname">virtual MRVIEWER_API bool MR::ImGuiMenu::spaceMouseMove_ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>translate</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>translate</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rotate</em></span>&#160;)</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>rotate</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -3067,7 +3067,7 @@ template&lt;typename ObjType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::ImGuiMenu::editedFeatureObjectOldXf_</td>
+          <td class="memname">AffineXf3f MR::ImGuiMenu::editedFeatureObjectOldXf_</td>
         </tr>
       </table>
   </td>
@@ -3587,7 +3587,7 @@ template&lt;typename ObjType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> MR::ImGuiMenu::selectionBbox_</td>
+          <td class="memname">Box3f MR::ImGuiMenu::selectionBbox_</td>
         </tr>
       </table>
   </td>
@@ -3631,7 +3631,7 @@ template&lt;typename ObjType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> MR::ImGuiMenu::selectionWorldBox_</td>
+          <td class="memname">Box3f MR::ImGuiMenu::selectionWorldBox_</td>
         </tr>
       </table>
   </td>

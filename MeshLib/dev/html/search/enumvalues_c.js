@@ -15,7 +15,7 @@ var searchData=
   ['metrical_12',['Metrical',['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969',1,'MR::SurfacePointWidget::Parameters']]],
   ['middle_13',['Middle',['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dab1ca34f82e83c52b010f86955f264e05',1,'MR']]],
   ['milliseconds_14',['milliseconds',['../namespaceMR.html#af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9',1,'MR']]],
-  ['minimizeerror_15',['MinimizeError',['../namespaceMR.html#a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098',1,'MR::MinimizeError'],['../MRDotNet_2MRMeshDecimate_8h.html#aae3b7ed557d4233548d7966f0951e8fba67b5bfba24e72d549786f512b318c243',1,'MinimizeError:&#160;MRMeshDecimate.h']]],
+  ['minimizeerror_15',['MinimizeError',['../namespaceMR.html#a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098',1,'MR']]],
   ['minusx_16',['MinusX',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454',1,'MR::MinusX'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454',1,'MR::MinusX']]],
   ['minusy_17',['MinusY',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565',1,'MR::MinusY'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565',1,'MR::MinusY']]],
   ['minusz_18',['MinusZ',['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb',1,'MR']]],

@@ -8,6 +8,6 @@ var searchData=
   ['hex_5',['Hex',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da92640bd72988395b326c888614f8937a',1,'MR::SetViewportConfigPresetMenuItem']]],
   ['hide_6',['Hide',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da76e966b8305fa338f9273824d39d2a3d',1,'MR::LaunchParams']]],
   ['hideinit_7',['HideInit',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da2a8313f2f3ab507d4c85c1be27dc0516',1,'MR::LaunchParams']]],
-  ['holewindingrule_8',['HoleWindingRule',['../MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea3065abc09e5d4edae66468fee91282e4',1,'HoleWindingRule:&#160;MROffset.h'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4',1,'MR::HoleWindingRule']]],
+  ['holewindingrule_8',['HoleWindingRule',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4',1,'MR']]],
   ['horizontal_9',['Horizontal',['../classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217aac4ef274f96fe2180181b165f1a20f43',1,'MR::ImGuiMenu::Horizontal'],['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::SetViewportConfigPresetMenuItem::Horizontal'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::GridSettings::Horizontal']]]
 ];

@@ -247,6 +247,7 @@ var group__AABBTreeGroup =
     [ "MR::findCollidingEdges", "group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b", null ],
     [ "MR::findCollidingEdgesBitsets", "group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a", null ],
     [ "MR::findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga8c7d357b072699f62023d97ea1c81f45", null ],
+    [ "MR::findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga939afe34134c1d66c9ca5f19e33dc323", null ],
     [ "MR::findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga11d4ca955f1a62e15ebea578ffa83454", null ],
     [ "MR::findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23", null ],
     [ "MR::findCollidingTriangles", "group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6", null ],

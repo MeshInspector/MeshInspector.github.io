@@ -147,7 +147,7 @@ $(function(){initNavTree('ExampleCppMeshExtrude.html',''); initResizable(true); 
 <div class="line">    <a class="code hl_function" href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a>( vertsForMove, [&amp;] ( MR::VertId v )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// Move each vertex</span></div>
-<div class="line">        mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">points</a>[v] += <a class="code hl_function" href="structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910">MR::Vector3f::plusZ</a>();</div>
+<div class="line">        mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">points</a>[v] += MR::Vector3f::plusZ();</div>
 <div class="line">    } );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Invalidate internal caches after manual changing</span></div>
@@ -173,7 +173,6 @@ $(function(){initNavTree('ExampleCppMeshExtrude.html',''); initResizable(true); 
 <div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html_a9c8ead50efe2f8a111848b488f0a6aca"><div class="ttname"><a href="structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">MR::Mesh::points</a></div><div class="ttdeci">VertCoords points</div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:25</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html_ac4cfa4d1a1f01bbcf883f4e96079e505"><div class="ttname"><a href="structMR_1_1Mesh.html#ac4cfa4d1a1f01bbcf883f4e96079e505">MR::Mesh::invalidateCaches</a></div><div class="ttdeci">MRMESH_API void invalidateCaches(bool pointsChanged=true)</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_aba68004d56f0100e523093390f939910"><div class="ttname"><a href="structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910">MR::Vector3&lt; float &gt;::plusZ</a></div><div class="ttdeci">static constexpr Vector3 plusZ() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:35</div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

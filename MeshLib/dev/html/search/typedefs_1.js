@@ -13,6 +13,5 @@ var searchData=
   ['box1_10',['Box1',['../namespaceMR.html#a8ffc5536358ba7ed6b7e398ebbfbb8b1',1,'MR']]],
   ['box2_11',['Box2',['../namespaceMR.html#a8aa6bbb8558c560ab4f03392ca30721b',1,'MR']]],
   ['box3_12',['Box3',['../namespaceMR.html#a37d1429bcc1cfa30af36ca6313eb4a5d',1,'MR']]],
-  ['box3f_13',['Box3f',['../namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c',1,'MR']]],
-  ['boxt_14',['BoxT',['../classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2',1,'MR::AABBTreeBase::BoxT'],['../structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e',1,'MR::AABBTreeTraits::BoxT'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT'],['../structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e',1,'MR::ObjTreeTraits::BoxT']]]
+  ['boxt_13',['BoxT',['../classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2',1,'MR::AABBTreeBase::BoxT'],['../structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e',1,'MR::AABBTreeTraits::BoxT'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT'],['../structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e',1,'MR::ObjTreeTraits::BoxT']]]
 ];

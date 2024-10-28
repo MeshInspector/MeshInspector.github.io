@@ -142,17 +142,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a58d4128740b065b31e9b4d1b637bc0c7" id="r_a58d4128740b065b31e9b4d1b637bc0c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58d4128740b065b31e9b4d1b637bc0c7">maxDeletedVertices</a> = INT_MAX</td></tr>
 <tr class="memdesc:a58d4128740b065b31e9b4d1b637bc0c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit on the number of deleted vertices.  <br /></td></tr>
 <tr class="separator:a58d4128740b065b31e9b4d1b637bc0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adce38a07b8b04db0fe998e792e4a6e34" id="r_adce38a07b8b04db0fe998e792e4a6e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adce38a07b8b04db0fe998e792e4a6e34">region</a> = nullptr</td></tr>
+<tr class="memitem:adce38a07b8b04db0fe998e792e4a6e34" id="r_adce38a07b8b04db0fe998e792e4a6e34"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adce38a07b8b04db0fe998e792e4a6e34">region</a> = nullptr</td></tr>
 <tr class="separator:adce38a07b8b04db0fe998e792e4a6e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5825891f4645db66db82c3b6aa2cffe" id="r_af5825891f4645db66db82c3b6aa2cffe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5825891f4645db66db82c3b6aa2cffe">touchBdVertices</a> = true</td></tr>
 <tr class="separator:af5825891f4645db66db82c3b6aa2cffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae829d8045ed74bf373bd86f2d835151a" id="r_ae829d8045ed74bf373bd86f2d835151a"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> edgeToCollapse, const V &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae829d8045ed74bf373bd86f2d835151a">preCollapse</a></td></tr>
+<tr class="memitem:ae829d8045ed74bf373bd86f2d835151a" id="r_ae829d8045ed74bf373bd86f2d835151a"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(EdgeId edgeToCollapse, const V &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae829d8045ed74bf373bd86f2d835151a">preCollapse</a></td></tr>
 <tr class="memdesc:ae829d8045ed74bf373bd86f2d835151a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
 <tr class="separator:ae829d8045ed74bf373bd86f2d835151a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad58496f8458d8d5a517ba34926cb0c61" id="r_ad58496f8458d8d5a517ba34926cb0c61"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, V &amp;collapsePos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad58496f8458d8d5a517ba34926cb0c61">adjustCollapse</a></td></tr>
 <tr class="memdesc:ad58496f8458d8d5a517ba34926cb0c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position.  <br /></td></tr>
 <tr class="separator:ad58496f8458d8d5a517ba34926cb0c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b25e672e4446e2af56927c0cf0237db" id="r_a3b25e672e4446e2af56927c0cf0237db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt;, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b25e672e4446e2af56927c0cf0237db">vertForms</a> = nullptr</td></tr>
+<tr class="memitem:a3b25e672e4446e2af56927c0cf0237db" id="r_a3b25e672e4446e2af56927c0cf0237db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt;, VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b25e672e4446e2af56927c0cf0237db">vertForms</a> = nullptr</td></tr>
 <tr class="memdesc:a3b25e672e4446e2af56927c0cf0237db"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not null, then on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there.  <br /></td></tr>
 <tr class="separator:a3b25e672e4446e2af56927c0cf0237db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -260,7 +260,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool( <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> edgeToCollapse, const V &amp; newEdgeOrgPos )&gt; <a class="el" href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings</a>&lt; V &gt;::preCollapse</td>
+          <td class="memname">std::function&lt;bool( EdgeId edgeToCollapse, const V &amp; newEdgeOrgPos )&gt; <a class="el" href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings</a>&lt; V &gt;::preCollapse</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -279,7 +279,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a>* <a class="el" href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings</a>&lt; V &gt;::region = nullptr</td>
+          <td class="memname">VertBitSet* <a class="el" href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings</a>&lt; V &gt;::region = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -330,7 +330,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt;V&gt;, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;* <a class="el" href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings</a>&lt; V &gt;::vertForms = nullptr</td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt;V&gt;, VertId&gt;* <a class="el" href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings</a>&lt; V &gt;::vertForms = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
