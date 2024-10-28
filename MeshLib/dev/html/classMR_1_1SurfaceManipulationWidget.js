@@ -11,7 +11,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html#a5e42cf09e263f1d12221d3ac465d7d1e", null ],
     [ "~SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html#a309f5b2581529ed58185dcd9718169ba", null ],
     [ "enableDeviationVisualization", "classMR_1_1SurfaceManipulationWidget.html#adfd4d3e29bc38873330fb5027d094047", null ],
-    [ "getMinMax", "classMR_1_1SurfaceManipulationWidget.html#af5a9e8b4fd61a438f8ba559e9743b5ac", null ],
+    [ "getMinMax", "classMR_1_1SurfaceManipulationWidget.html#ac635419fd9d47ae6f1f285cec8699a52", null ],
     [ "getMinRadius", "classMR_1_1SurfaceManipulationWidget.html#ad230b880c3a56720a1b95832f33ad364", null ],
     [ "getSettings", "classMR_1_1SurfaceManipulationWidget.html#a81c3f5f93d6cfba31ce7a84815bebb22", null ],
     [ "init", "classMR_1_1SurfaceManipulationWidget.html#a3aed52f4737f381cd25e1431f64076b9", null ],

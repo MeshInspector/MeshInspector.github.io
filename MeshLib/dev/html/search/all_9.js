@@ -346,7 +346,7 @@ var searchData=
   ['getmin_343',['getMin',['../classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3',1,'MR::Histogram::getMin()'],['../classMR_1_1MarkedVoxelSlice.html#ace084b7a6961ec8f31f9a9f4ebb9bb05',1,'MR::MarkedVoxelSlice::getMin()']]],
   ['getminareametric_344',['getMinAreaMetric',['../group__FillHoleGroup.html#gac98959b47ab6fdfe548671b1416e6043',1,'MR']]],
   ['getminindex_345',['getMinIndex',['../classMR_1_1DistanceMap.html#ab2d9f40322b479e2ab1ff5a49627027b',1,'MR::DistanceMap']]],
-  ['getminmax_346',['getMinMax',['../classMR_1_1SurfaceManipulationWidget.html#af5a9e8b4fd61a438f8ba559e9743b5ac',1,'MR::SurfaceManipulationWidget']]],
+  ['getminmax_346',['getMinMax',['../classMR_1_1SurfaceManipulationWidget.html#ac635419fd9d47ae6f1f285cec8699a52',1,'MR::SurfaceManipulationWidget']]],
   ['getminmaxvalues_347',['getMinMaxValues',['../classMR_1_1DistanceMap.html#a7f84b034f7b522fa041c24de79c0fec3',1,'MR::DistanceMap']]],
   ['getminradius_348',['getMinRadius',['../classMR_1_1SurfaceManipulationWidget.html#ad230b880c3a56720a1b95832f33ad364',1,'MR::SurfaceManipulationWidget']]],
   ['getmintrianglemetric_349',['getMinTriAngleMetric',['../group__FillHoleGroup.html#ga338fbef1b80c5730fcdc31a93c980781',1,'MR']]],
