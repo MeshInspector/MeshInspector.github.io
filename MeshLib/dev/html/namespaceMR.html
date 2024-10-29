@@ -9642,7 +9642,7 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -10669,6 +10669,9 @@ template&lt;typename T , std::size_t N&gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::bytesString </td>
@@ -10677,6 +10680,11 @@ template&lt;typename T , std::size_t N&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>converts given size in string: [0,1024) -&gt; nnn bytes [1024,1024*1024) -&gt; nnn.nn Kb [1024*1024,1024*1024*1024) -&gt; nnn.nn Mb ... </p>
 
@@ -11361,6 +11369,9 @@ template&lt;typename V &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::commonFilesName </td>
@@ -11369,6 +11380,11 @@ template&lt;typename V &gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>in case of empty vector, returns "Empty" in case of single input file.ext, returns ".EXT" in case of multiple files with same extension, returns ".EXTs" otherwise returns "Files" </p>
 
@@ -16437,7 +16453,7 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -18896,6 +18912,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::hasProhibitedChars </td>
@@ -18904,6 +18923,11 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>returns true if line contains any of OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') </p>
@@ -26562,6 +26586,9 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::replaceProhibitedChars </td>
@@ -26574,6 +26601,11 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
           <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>replacement</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'_'</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>replace OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') with <code>replacement</code> char </p>
@@ -26882,6 +26914,9 @@ template&lt;typename Accessor &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::roundToPrecision </td>
@@ -26894,6 +26929,11 @@ template&lt;typename Accessor &gt; </div>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>precision</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>returns given value rounded to given number of decimal digits </p>
@@ -26922,7 +26962,7 @@ template&lt;typename Accessor &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -28422,6 +28462,9 @@ template&lt;typename E &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::toLower </td>
@@ -28430,6 +28473,11 @@ template&lt;typename E &gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>return a copy of the string with all alphabetic characters replaced with upper-case variants </p>
