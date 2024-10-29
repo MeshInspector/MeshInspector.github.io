@@ -2343,6 +2343,12 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a03fba1fe0e5d6fe3c22dc41c9d57d309"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh  <a href="#a03fba1fe0e5d6fe3c22dc41c9d57d309">More...</a><br /></td></tr>
 <tr class="separator:a03fba1fe0e5d6fe3c22dc41c9d57d309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07048ed78d40b323183d7f5479f821d0" id="r_a07048ed78d40b323183d7f5479f821d0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07048ed78d40b323183d7f5479f821d0">SignDetectionModeShort</a> { <a class="el" href="#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb">Auto</a>
+, <a class="el" href="#a07048ed78d40b323183d7f5479f821d0a748273fc30eaf6ab0c262df0bfb86f68">HoleWindingNumber</a>
+, <a class="el" href="#a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9">ProjectionNormal</a>
+ }</td></tr>
+<tr class="memdesc:a07048ed78d40b323183d7f5479f821d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh, short version including auto-detection  <a href="#a07048ed78d40b323183d7f5479f821d0">More...</a><br /></td></tr>
+<tr class="separator:a07048ed78d40b323183d7f5479f821d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf2c93aa0da8a9748d23340f32349a8b8" id="r_gaf2c93aa0da8a9748d23340f32349a8b8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> { <a class="el" href="group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f">PathError::StartEndNotConnected</a>
 , <a class="el" href="group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5">PathError::InternalError</a>
  }</td></tr>
@@ -4573,6 +4579,9 @@ Functions</h2></td></tr>
 <tr class="separator:gabb77b8518b98c3dde34206e1c8bbc5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0adbc499dc9ddb3d23854c708bccc3f" id="r_ae0adbc499dc9ddb3d23854c708bccc3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0adbc499dc9ddb3d23854c708bccc3f">sharpenMarchingCubesMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;ref, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;vox, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; &amp;face2voxel, const <a class="el" href="structMR_1_1SharpenMarchingCubesMeshSettings.html">SharpenMarchingCubesMeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:ae0adbc499dc9ddb3d23854c708bccc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef43100b8549538f5eac0fb7a9a0107" id="r_adef43100b8549538f5eac0fb7a9a0107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adef43100b8549538f5eac0fb7a9a0107">asString</a> (<a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> m)</td></tr>
+<tr class="memdesc:adef43100b8549538f5eac0fb7a9a0107"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns string representation of enum values  <br /></td></tr>
+<tr class="separator:adef43100b8549538f5eac0fb7a9a0107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ce9a564212b2e113997ca6007a5fdfb" id="r_a9ce9a564212b2e113997ca6007a5fdfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce9a564212b2e113997ca6007a5fdfb">sampleHalfSphere</a> ()</td></tr>
 <tr class="memdesc:a9ce9a564212b2e113997ca6007a5fdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns quasi-uniform 145 samples on unit half-sphere z&gt;0  <br /></td></tr>
 <tr class="separator:a9ce9a564212b2e113997ca6007a5fdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -9340,6 +9349,38 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
+<a id="a07048ed78d40b323183d7f5479f821d0" name="a07048ed78d40b323183d7f5479f821d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07048ed78d40b323183d7f5479f821d0">&#9670;&#160;</a></span>SignDetectionModeShort</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a07048ed78d40b323183d7f5479f821d0">MR::SignDetectionModeShort</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>how to determine the sign of distances from a mesh, short version including auto-detection </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb" name="a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb"></a>Auto&#160;</td><td class="fielddoc"><p>automatic selection of the fastest method among safe options for the current mesh </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a07048ed78d40b323183d7f5479f821d0a748273fc30eaf6ab0c262df0bfb86f68" name="a07048ed78d40b323183d7f5479f821d0a748273fc30eaf6ab0c262df0bfb86f68"></a>HoleWindingNumber&#160;</td><td class="fielddoc"><p>detects sign from the winding number generalization with support for holes and self-intersections in mesh </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9" name="a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9"></a>ProjectionNormal&#160;</td><td class="fielddoc"><p>detects sign from the pseudonormal in closest mesh point, which is fast but unsafe in the presence of holes and self-intersections in mesh </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="acad54447072489545d11f4ee251429e6" name="acad54447072489545d11f4ee251429e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acad54447072489545d11f4ee251429e6">&#9670;&#160;</a></span>SpaceMouseButtons</h2>
 
@@ -9979,6 +10020,33 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>computes twice the area of given triangle </p>
+
+</div>
+</div>
+<a id="adef43100b8549538f5eac0fb7a9a0107" name="adef43100b8549538f5eac0fb7a9a0107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef43100b8549538f5eac0fb7a9a0107">&#9670;&#160;</a></span>asString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const char * MR::asString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns string representation of enum values </p>
 
 </div>
 </div>

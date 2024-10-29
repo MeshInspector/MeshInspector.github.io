@@ -1,5 +1,15 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[12,0,1,127,2],
+"structMR_1_1ConnectionHolder.html":[10,0,12,145],
+"structMR_1_1ConnectionHolder.html":[12,0,1,130],
+"structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[10,0,12,145,2],
+"structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[12,0,1,130,2],
+"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[10,0,12,145,0],
+"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[12,0,1,130,0],
+"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[10,0,12,145,1],
+"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[12,0,1,130,1],
+"structMR_1_1ConstantCuspParams.html":[10,0,12,146],
 "structMR_1_1ConstantCuspParams.html":[12,0,1,131],
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[10,0,12,146,0],
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[12,0,1,131,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Dirty.html":[9,11,2,4],
 "structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[9,11,2,4,0],
 "structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d":[9,11,2,4,8],
-"structMR_1_1Dirty.html#a3b3cf2d1593909573673d3d7a1d0d17c":[9,11,2,4,7],
-"structMR_1_1Dirty.html#a4b00ee48141fd2ae03df7ace8df5ac78":[9,11,2,4,5],
-"structMR_1_1Dirty.html#a5a46ea8b1d3e585f29a5761d2f2fc21a":[9,11,2,4,2],
-"structMR_1_1Dirty.html#a6413c49d02f7cf2203142d292b55f311":[9,11,2,4,3],
-"structMR_1_1Dirty.html#a71af917001468a850a824a320316bee5":[9,11,2,4,4],
-"structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5":[9,11,2,4,6],
-"structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6":[9,11,2,4,1],
-"structMR_1_1DistanceMapToWorld.html":[9,5,5],
-"structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e":[9,5,5,6],
-"structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[9,5,5,0],
-"structMR_1_1DistanceMapToWorld.html#a32e6a45804b42ebcebd70500b984bc2a":[9,5,5,8]
+"structMR_1_1Dirty.html#a3b3cf2d1593909573673d3d7a1d0d17c":[9,11,2,4,7]
 };

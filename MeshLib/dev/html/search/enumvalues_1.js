@@ -30,7 +30,7 @@ var searchData=
   ['arcccw_27',['ArcCCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4',1,'MR']]],
   ['arccw_28',['ArcCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea',1,'MR']]],
   ['arrow_29',['arrow',['../structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea9022a153e6190f10d9b57aa4232b8aea',1,'MR::ImGuiMeasurementIndicators::LineCap']]],
-  ['auto_30',['Auto',['../structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb',1,'MR::Viewport::Parameters']]],
+  ['auto_30',['Auto',['../structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb',1,'MR::Viewport::Parameters::Auto'],['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb',1,'MR::Auto']]],
   ['autodetect_31',['AutoDetect',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf',1,'MR::SceneSettings']]],
   ['automatic_32',['Automatic',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d',1,'MR::MarchingCubesParams']]],
   ['awayfromorigin_33',['AwayFromOrigin',['../namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7',1,'MR']]],

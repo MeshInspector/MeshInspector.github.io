@@ -25,7 +25,7 @@ var searchData=
   ['post_22',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
   ['primitivescolormap_23',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
   ['progressbarbackground_24',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
-  ['projectionnormal_25',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR']]],
+  ['projectionnormal_25',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal'],['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal']]],
   ['put_26',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]],
   ['pythonmodules_27',['PythonModules',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baa9b9ad9b15630bfc857db491ee781e53',1,'MR::SystemPath']]]
 ];

@@ -1,5 +1,10 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1ShadowsGL.html#af9db8ab9dcc3eb53d435f5c2da5425f0":[12,0,1,575,9],
+"classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95":[10,0,12,590,6],
+"classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95":[12,0,1,575,6],
+"classMR_1_1ShiftTransformer.html":[10,0,12,594],
+"classMR_1_1ShiftTransformer.html":[12,0,1,579],
 "classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[10,0,12,594,1],
 "classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[12,0,1,579,1],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[10,0,12,594,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1SurfaceContoursWidgetClearAction.html":[12,0,1,608],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#a8e76441a7d1c29f20821dea349d98cce":[10,0,12,623,2],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#a8e76441a7d1c29f20821dea349d98cce":[12,0,1,608,2],
-"classMR_1_1SurfaceContoursWidgetClearAction.html#acf79643fbbf8a308570fa54dfd4f5524":[10,0,12,623,3],
-"classMR_1_1SurfaceContoursWidgetClearAction.html#acf79643fbbf8a308570fa54dfd4f5524":[12,0,1,608,3],
-"classMR_1_1SurfaceContoursWidgetClearAction.html#aea7a76685894f4c174752784a2a66bfa":[10,0,12,623,1],
-"classMR_1_1SurfaceContoursWidgetClearAction.html#aea7a76685894f4c174752784a2a66bfa":[12,0,1,608,1],
-"classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[10,0,12,623,0],
-"classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[12,0,1,608,0]
+"classMR_1_1SurfaceContoursWidgetClearAction.html#acf79643fbbf8a308570fa54dfd4f5524":[10,0,12,623,3]
 };

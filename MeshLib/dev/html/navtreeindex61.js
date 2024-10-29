@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Dirty.html#a4b00ee48141fd2ae03df7ace8df5ac78":[9,11,2,4,5],
+"structMR_1_1Dirty.html#a5a46ea8b1d3e585f29a5761d2f2fc21a":[9,11,2,4,2],
+"structMR_1_1Dirty.html#a6413c49d02f7cf2203142d292b55f311":[9,11,2,4,3],
+"structMR_1_1Dirty.html#a71af917001468a850a824a320316bee5":[9,11,2,4,4],
+"structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5":[9,11,2,4,6],
+"structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6":[9,11,2,4,1],
+"structMR_1_1DistanceMapToWorld.html":[9,5,5],
+"structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e":[9,5,5,6],
+"structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[9,5,5,0],
+"structMR_1_1DistanceMapToWorld.html#a32e6a45804b42ebcebd70500b984bc2a":[9,5,5,8],
 "structMR_1_1DistanceMapToWorld.html#a45d71d4ab5dd33dbd4ef7b7b6eb16468":[9,5,5,2],
 "structMR_1_1DistanceMapToWorld.html#a58ecb87a75e584402ddd3420513d89df":[9,5,5,3],
 "structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c":[9,5,5,9],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1EdgeTri.html":[9,1,16],
 "structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[9,1,16,1],
 "structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[9,1,16,2],
-"structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[9,1,16,0],
-"structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[9,1,16,3],
-"structMR_1_1EmbeddedPython_1_1Config.html":[10,0,12,200,0],
-"structMR_1_1EmbeddedPython_1_1Config.html":[12,0,1,185,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[10,0,12,200,0,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[12,0,1,185,0,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[10,0,12,200,0,1],
-"structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[12,0,1,185,0,1],
-"structMR_1_1EmbeddedStructureParameters.html":[10,0,12,201],
-"structMR_1_1EmbeddedStructureParameters.html":[12,0,1,186],
-"structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[10,0,12,201,0]
+"structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[9,1,16,0]
 };

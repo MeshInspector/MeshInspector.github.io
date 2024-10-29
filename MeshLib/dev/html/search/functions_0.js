@@ -117,7 +117,7 @@ var searchData=
   ['asmeshpart_114',['asMeshPart',['../classMR_1_1MeshOrPoints.html#a058b67c8a42bd8837a6bbe4be06bd4cf',1,'MR::MeshOrPoints']]],
   ['aspointcloud_115',['asPointCloud',['../classMR_1_1MeshOrPoints.html#a8169033d56790de959d2fbb3bbf15da0',1,'MR::MeshOrPoints']]],
   ['asselectivitytype_116',['asSelectivityType',['../group__DataModelGroup.html#ga63769cf93cfa3d68cbf331f305c195d8',1,'MR']]],
-  ['asstring_117',['asString',['../group__BasicGroup.html#ga772133dc76f16920332b4b0074da394e',1,'MR::asString(const std::string &amp;s)'],['../group__BasicGroup.html#gae19e95b1a9a0a6b0a74848dc36d9f863',1,'MR::asString(std::string &amp;&amp;s)']]],
+  ['asstring_117',['asString',['../namespaceMR.html#adef43100b8549538f5eac0fb7a9a0107',1,'MR::asString(SignDetectionMode m)'],['../group__BasicGroup.html#ga772133dc76f16920332b4b0074da394e',1,'MR::asString(const std::string &amp;s)'],['../group__BasicGroup.html#gae19e95b1a9a0a6b0a74848dc36d9f863',1,'MR::asString(std::string &amp;&amp;s)']]],
   ['astype_118',['asType',['../classMR_1_1Object.html#a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3',1,'MR::Object::asType()'],['../classMR_1_1Object.html#a64cc87b1de99f84bb49d9e0b0f24d9ea',1,'MR::Object::asType() const']]],
   ['asu8string_119',['asU8String',['../group__BasicGroup.html#ga37f4340272986dcbde4f0fb5503a0912',1,'MR::asU8String(const std::string &amp;s)'],['../group__BasicGroup.html#gaa010d1f339c974fa6ff486c6cad89c7d',1,'MR::asU8String(std::string &amp;&amp;s)']]],
   ['asyncfromanysupportedformat_120',['asyncFromAnySupportedFormat',['../namespaceMR_1_1SceneLoad.html#a70619566d4d89dbf29aaa2a7a3b4833e',1,'MR::SceneLoad']]],

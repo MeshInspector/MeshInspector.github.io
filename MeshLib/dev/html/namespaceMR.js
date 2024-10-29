@@ -1357,6 +1357,11 @@ var namespaceMR =
       [ "WindingRule", "namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a103a84d91e18de34821243d0495258ed", null ],
       [ "HoleWindingRule", "namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4", null ]
     ] ],
+    [ "SignDetectionModeShort", "namespaceMR.html#a07048ed78d40b323183d7f5479f821d0", [
+      [ "Auto", "namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb", null ],
+      [ "HoleWindingNumber", "namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a748273fc30eaf6ab0c262df0bfb86f68", null ],
+      [ "ProjectionNormal", "namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9", null ]
+    ] ],
     [ "SlicePlane", "group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab", [
       [ "YZ", "group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74", null ],
       [ "ZX", "group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9", null ],
@@ -1455,6 +1460,7 @@ var namespaceMR =
     [ "area", "namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03", null ],
     [ "asSelectivityType", "group__DataModelGroup.html#ga63769cf93cfa3d68cbf331f305c195d8", null ],
     [ "asString", "group__BasicGroup.html#ga772133dc76f16920332b4b0074da394e", null ],
+    [ "asString", "namespaceMR.html#adef43100b8549538f5eac0fb7a9a0107", null ],
     [ "asString", "group__BasicGroup.html#gae19e95b1a9a0a6b0a74848dc36d9f863", null ],
     [ "asU8String", "group__BasicGroup.html#ga37f4340272986dcbde4f0fb5503a0912", null ],
     [ "asU8String", "group__BasicGroup.html#gaa010d1f339c974fa6ff486c6cad89c7d", null ],

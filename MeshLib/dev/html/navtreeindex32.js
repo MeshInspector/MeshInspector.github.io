@@ -1,5 +1,10 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1PythonExport.html#a595ac26b1d2a27a14a95bbc5a1963532":[12,0,1,472,3],
+"classMR_1_1PythonExport.html#a67924d9cb7f431bc9894a456c513156f":[10,0,12,487,5],
+"classMR_1_1PythonExport.html#a67924d9cb7f431bc9894a456c513156f":[12,0,1,472,5],
+"classMR_1_1QuadTextureVertexObject.html":[10,0,12,491],
+"classMR_1_1QuadTextureVertexObject.html":[12,0,1,476],
 "classMR_1_1QuadTextureVertexObject.html#a091185a94f7c1bd1bf1bfac2f6bbcee9":[10,0,12,491,2],
 "classMR_1_1QuadTextureVertexObject.html#a091185a94f7c1bd1bf1bfac2f6bbcee9":[12,0,1,476,2],
 "classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[10,0,12,491,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1RenderBufferRef.html#acebacbff1abf583d126240b1b7ccf6ea":[12,0,1,496,4],
 "classMR_1_1RenderBufferRef.html#af2f9934c38612f16da90a865122e6119":[10,0,12,511,3],
 "classMR_1_1RenderBufferRef.html#af2f9934c38612f16da90a865122e6119":[12,0,1,496,3],
-"classMR_1_1RenderBufferRef.html#afd6a6d54cfc1f72dc7ecca75f9897146":[10,0,12,511,5],
-"classMR_1_1RenderBufferRef.html#afd6a6d54cfc1f72dc7ecca75f9897146":[12,0,1,496,5],
-"classMR_1_1RenderDimensions_1_1AngleTask.html":[10,0,12,29,1],
-"classMR_1_1RenderDimensions_1_1AngleTask.html":[12,0,1,17,1],
-"classMR_1_1RenderDimensions_1_1AngleTask.html#a3e9fcf7dd7831ccbfdf02ee161bae0da":[10,0,12,29,1,0],
-"classMR_1_1RenderDimensions_1_1AngleTask.html#a3e9fcf7dd7831ccbfdf02ee161bae0da":[12,0,1,17,1,0]
+"classMR_1_1RenderBufferRef.html#afd6a6d54cfc1f72dc7ecca75f9897146":[10,0,12,511,5]
 };
