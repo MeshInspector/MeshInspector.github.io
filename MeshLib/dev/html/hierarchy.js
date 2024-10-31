@@ -1002,7 +1002,6 @@ var hierarchy =
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
     [ "MR::SegmPoint< T >", "structMR_1_1SegmPoint.html", null ],
-    [ "MR::SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", null ],
     [ "MR::SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],

@@ -1427,8 +1427,6 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectObjectByClick.html">SelectObjectByClick</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html">SelectScreenLasso</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SeparationPointStorage.html">SeparationPointStorage</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">storage for points on voxel edges used in Marching Cubes algorithms  <a href="classMR_1_1SeparationPointStorage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5252,6 +5250,10 @@ Functions</h2></td></tr>
 <tr class="separator:ac7eb465c1b7cbbcb8daa25703edc931d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6a703f529a05e3f2fa59d68fd266627" id="r_ae6a703f529a05e3f2fa59d68fd266627"><td class="memItemLeft" align="right" valign="top">float MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6a703f529a05e3f2fa59d68fd266627">SelectCurvaturePreference</a> (<a class="el" href="#ad7e1f7039c3adef672abd4150bc4786c">PathPreference</a> *pp, float menuScaling)</td></tr>
 <tr class="separator:ae6a703f529a05e3f2fa59d68fd266627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e8e573c0aec9b5d59ac648be980eff" id="r_a42e8e573c0aec9b5d59ac648be980eff"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42e8e573c0aec9b5d59ac648be980eff">calculateSelectedPixelsInsidePolygon</a> (const <a class="el" href="#a411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;screenPoints)</td></tr>
+<tr class="separator:a42e8e573c0aec9b5d59ac648be980eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbec46cb811f57b258ac04ea3fcf64a" id="r_a7dbec46cb811f57b258ac04ea3fcf64a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dbec46cb811f57b258ac04ea3fcf64a">calculateSelectedPixelsNearPolygon</a> (const <a class="el" href="#a411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;screenPoints, float radiusPix)</td></tr>
+<tr class="separator:a7dbec46cb811f57b258ac04ea3fcf64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b6abcd794dd6dfbb8d197b6d944685" id="r_a29b6abcd794dd6dfbb8d197b6d944685"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b6abcd794dd6dfbb8d197b6d944685">findIncidentFaces</a> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;viewport, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;pixBs, const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, bool onlyVisible=false, bool includeBackfaces=true, const std::vector&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> * &gt; *occludingMeshes=nullptr)</td></tr>
 <tr class="separator:a29b6abcd794dd6dfbb8d197b6d944685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a576eea4c4f274e1c943476be2be2394e" id="r_a576eea4c4f274e1c943476be2be2394e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a576eea4c4f274e1c943476be2be2394e">appendGPUVisibleFaces</a> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;viewport, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;pixBs, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &gt; &amp;objects, std::vector&lt; FaceBitSet &gt; &amp;visibleFaces, bool includeBackfaces=true)</td></tr>
@@ -10979,6 +10981,48 @@ template&lt;typename GridT &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42e8e573c0aec9b5d59ac648be980eff" name="a42e8e573c0aec9b5d59ac648be980eff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e8e573c0aec9b5d59ac648be980eff">&#9670;&#160;</a></span>calculateSelectedPixelsInsidePolygon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::calculateSelectedPixelsInsidePolygon </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>screenPoints</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>calculate area on screen that is inside of closed contour given by screen points.</p>
+<p>return the matrix of pixels (in local space of active viewport) belonging selected area </p>
+
+</div>
+</div>
+<a id="a7dbec46cb811f57b258ac04ea3fcf64a" name="a7dbec46cb811f57b258ac04ea3fcf64a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbec46cb811f57b258ac04ea3fcf64a">&#9670;&#160;</a></span>calculateSelectedPixelsNearPolygon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::calculateSelectedPixelsNearPolygon </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>screenPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radiusPix</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>calculate area on screen that is near to open contour given by screen points.</p>
+<p>return the matrix of pixels (in local space of active viewport) belonging selected area </p>
 
 </div>
 </div>

@@ -741,7 +741,6 @@ var annotated_dup =
       [ "SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", "structMR_1_1SegmentSegmentIntersectResult" ],
       [ "SegmPoint", "structMR_1_1SegmPoint.html", "structMR_1_1SegmPoint" ],
       [ "SelectObjectByClick", "classMR_1_1SelectObjectByClick.html", "classMR_1_1SelectObjectByClick" ],
-      [ "SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", "classMR_1_1SelectScreenLasso" ],
       [ "SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", "classMR_1_1SeparationPointStorage" ],
       [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html", "classMR_1_1SetBitIteratorT" ],
       [ "SetViewportConfigPresetMenuItem", "classMR_1_1SetViewportConfigPresetMenuItem.html", "classMR_1_1SetViewportConfigPresetMenuItem" ],

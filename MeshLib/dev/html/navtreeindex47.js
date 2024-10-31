@@ -1,15 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4":[9,18,7],
-"group__BasicStructuresGroup.html#ga245aead53191a5ec52138336c54c109c":[9,18,11],
-"group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861":[9,18,8],
-"group__BasicStructuresGroup.html#ga51db44b0c21307d6fcfccd9616c037f2":[9,18,13],
-"group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710":[9,18,5],
-"group__BasicStructuresGroup.html#ga7c6031335bfc2515993437f951485ad1":[9,18,14],
-"group__BasicStructuresGroup.html#ga7d757a1fbd48e0e4c6268f3637ba631c":[9,18,16],
-"group__BasicStructuresGroup.html#ga87e6e60c5605c5450f4bd815128674c9":[9,18,18],
-"group__BasicStructuresGroup.html#gaa47a1ff80bfc2c9f180c4983cf67bdfc":[9,18,12],
-"group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915":[9,18,6],
 "group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab":[9,18,20],
 "group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862":[9,18,19],
 "group__BestFitGroup.html":[9,0,1],
@@ -249,5 +239,15 @@ var NAVTREEINDEX47 =
 "group__IntersectionGroup.html#ga5aa33ccde105060c1f523292e81dfcbf":[9,0,6,9],
 "group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4":[9,0,6,5],
 "group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190":[9,0,6,4],
-"group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4":[9,0,6,1]
+"group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4":[9,0,6,1],
+"group__IntersectionGroup.html#gad9c4f2546d1a40da39bccf700c70ee49":[9,0,6,6],
+"group__IteratorRange.html":[9,3,0],
+"group__IteratorRange.html#ga4035c09c88ba3b16f5e55b24c25768f5":[9,3,0,2],
+"group__IteratorRange.html#ga8b70134f3c4bc824a8b88800d5eb4c9c":[9,3,0,1],
+"group__LinesLoad.html":[9,2,8],
+"group__LinesLoad.html#ga1b6abd0497977292cdaf35eedd5c9689":[9,2,8,3],
+"group__LinesLoad.html#ga237c4eab016d887ef8f536c0a9720ccc":[9,2,8,4],
+"group__LinesLoad.html#ga946bd34cb3bb149965670c6e8c7fb242":[9,2,8,1],
+"group__LinesLoad.html#ga9dbd2c49c9126ad00299679c1901797a":[9,2,8,0],
+"group__LinesLoad.html#gade658ed2767d5682e579eac7882bbdbe":[9,2,8,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"MRZip_8h.html":[13,0,0,2,3,366],
+"MRZip_8h_source.html":[13,0,0,2,3,366],
 "MRZlib_8h.html":[13,0,0,2,2,11],
 "MRZlib_8h.html#a3c93ff1b38318770dd195fbdbe3dc45c":[13,0,0,2,2,11,1],
 "MRZlib_8h.html#ade26a1cffee8e1e012f32d8d7bcc6637":[13,0,0,2,2,11,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[10,0,12,59,14],
 "classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[12,0,1,44,14],
 "classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[10,0,12,59,1],
-"classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[12,0,1,44,1],
-"classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[10,0,12,59,8],
-"classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[12,0,1,44,8]
+"classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[12,0,1,44,1]
 };
