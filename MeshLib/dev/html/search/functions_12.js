@@ -468,7 +468,7 @@ var searchData=
   ['signeddistance_465',['signedDistance',['../structMR_1_1Mesh.html#a0095216b1fbe49128eb4b14d6c9f8a42',1,'MR::Mesh::signedDistance(const Vector3f &amp;pt, const MeshProjectionResult &amp;proj, const FaceBitSet *region=nullptr) const'],['../structMR_1_1Mesh.html#a24304bcd9afe5cdb84be4ee761a8fb2f',1,'MR::Mesh::signedDistance(const Vector3f &amp;pt, const MeshTriPoint &amp;proj, const FaceBitSet *region=nullptr) const'],['../structMR_1_1Mesh.html#a879abd4325e74e6c17acebe255877c83',1,'MR::Mesh::signedDistance(const Vector3f &amp;pt) const'],['../structMR_1_1Mesh.html#a4048484ac2e78090960bc9bbc60cd6b6',1,'MR::Mesh::signedDistance(const Vector3f &amp;pt, float maxDistSq, const FaceBitSet *region=nullptr) const']]],
   ['signeddistancetomesh_466',['signedDistanceToMesh',['../group__AABBTreeGroup.html#ga26d696113738ced8105da17d906092b2',1,'MR']]],
   ['simplecallbacksetprogress_467',['simpleCallBackSetProgress',['../classMR_1_1ProgressBar.html#a7ae6de6dbe5eb8f419bbd30806db0477',1,'MR::ProgressBar']]],
-  ['simplevolumetodensegrid_468',['simpleVolumeToDenseGrid',['../namespaceMR.html#af2da9d310d84ddf678a6c52386f0c1ae',1,'MR']]],
+  ['simplevolumetodensegrid_468',['simpleVolumeToDenseGrid',['../namespaceMR.html#a8c3054d7ec46286f79367b0f93ffddb0',1,'MR']]],
   ['simplevolumetovdbvolume_469',['simpleVolumeToVdbVolume',['../namespaceMR.html#a4ad0e96439eebbb67a8dbd2aa0f3ca49',1,'MR']]],
   ['simulatenametagclick_470',['simulateNameTagClick',['../classMR_1_1ImGuiMenu.html#a95c82c0734872d0f3d937e4653c60574',1,'MR::ImGuiMenu']]],
   ['simulateone_471',['simulateOne',['../classMR_1_1PrecipitationSimulator.html#a0ae04f850be8f1baf7203566c8071eee',1,'MR::PrecipitationSimulator']]],
