@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -124,8 +134,10 @@ $(function(){initNavTree('structMR_1_1RebuildMeshSettings.html',''); initResizab
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453">decimate</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#aea6b7ba0f04e938fe48d66bb6f336a79">fwn</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#a0cc5cd91097f6d671c3a9ad73a09ac14">offsetMode</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#ab3fd176a4586472f781779fd1126f50c">outSharpEdges</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e">progress</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#aef34909f1adee996217b09204c89d4ec">onSignDetectionModeSelected</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#ab3fd176a4586472f781779fd1126f50c">outSharpEdges</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e">progress</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#a0a73a19f4845bdec3e2e59c9d1dfd4b8">signMode</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#ac305c46895a7bfd2a0af7ccfe1b5cb2e">tinyEdgeLength</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418">voxelSize</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html#a0181b2c8cfb6a6a1788807fd5b6a5d1c">windingNumberBeta</a></td><td class="entry"><a class="el" href="structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></td><td class="entry"></td></tr>

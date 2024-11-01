@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -126,7 +136,7 @@ $(function(){initNavTree('structMR_1_1MakeSignedByWindingNumberSettings.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab01c8a645415c29410190fe405773c8a" id="r_ab01c8a645415c29410190fe405773c8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab01c8a645415c29410190fe405773c8a">meshToGridXf</a></td></tr>
+<tr class="memitem:ab01c8a645415c29410190fe405773c8a" id="r_ab01c8a645415c29410190fe405773c8a"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab01c8a645415c29410190fe405773c8a">meshToGridXf</a></td></tr>
 <tr class="memdesc:ab01c8a645415c29410190fe405773c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines the mapping from mesh reference from to grid reference frame  <br /></td></tr>
 <tr class="separator:ab01c8a645415c29410190fe405773c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94b1baa91b7a7f5cc08e84e5505680c2" id="r_a94b1baa91b7a7f5cc08e84e5505680c2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94b1baa91b7a7f5cc08e84e5505680c2">fwn</a></td></tr>
@@ -165,7 +175,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::MakeSignedByWindingNumberSettings::meshToGridXf</td>
+          <td class="memname">AffineXf3f MR::MakeSignedByWindingNumberSettings::meshToGridXf</td>
         </tr>
       </table>
 </div><div class="memdoc">

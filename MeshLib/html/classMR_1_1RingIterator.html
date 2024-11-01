@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -137,18 +147,18 @@ $(function(){initNavTree('classMR_1_1RingIterator.html',''); initResizable(true)
 Public Types</h2></td></tr>
 <tr class="memitem:a32bbf998350ceb82ee238640a29ad585" id="r_a32bbf998350ceb82ee238640a29ad585"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32bbf998350ceb82ee238640a29ad585">iterator_category</a> = std::forward_iterator_tag</td></tr>
 <tr class="separator:a32bbf998350ceb82ee238640a29ad585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaccd4999a06a4556d2a8728ed4ae5b15" id="r_aaccd4999a06a4556d2a8728ed4ae5b15"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaccd4999a06a4556d2a8728ed4ae5b15">value_type</a> = <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td></tr>
+<tr class="memitem:aaccd4999a06a4556d2a8728ed4ae5b15" id="r_aaccd4999a06a4556d2a8728ed4ae5b15"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaccd4999a06a4556d2a8728ed4ae5b15">value_type</a> = EdgeId</td></tr>
 <tr class="separator:aaccd4999a06a4556d2a8728ed4ae5b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a1ef2de2a1f13787a3b231f9ce3b4a4" id="r_a6a1ef2de2a1f13787a3b231f9ce3b4a4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a1ef2de2a1f13787a3b231f9ce3b4a4">difference_type</a> = std::ptrdiff_t</td></tr>
 <tr class="separator:a6a1ef2de2a1f13787a3b231f9ce3b4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afd5883037f52daf8dec8e4a1dcfd6c41" id="r_afd5883037f52daf8dec8e4a1dcfd6c41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd5883037f52daf8dec8e4a1dcfd6c41">RingIterator</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> edge, bool <a class="el" href="#add7fd5a21509ef4dc57c7943b3da9920">first</a>)</td></tr>
+<tr class="memitem:afd5883037f52daf8dec8e4a1dcfd6c41" id="r_afd5883037f52daf8dec8e4a1dcfd6c41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd5883037f52daf8dec8e4a1dcfd6c41">RingIterator</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId edge, bool <a class="el" href="#add7fd5a21509ef4dc57c7943b3da9920">first</a>)</td></tr>
 <tr class="separator:afd5883037f52daf8dec8e4a1dcfd6c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ecba1d3bf80da5ada6460e97e3cc5f5" id="r_a2ecba1d3bf80da5ada6460e97e3cc5f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1RingIterator.html">RingIterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ecba1d3bf80da5ada6460e97e3cc5f5">operator++</a> ()</td></tr>
 <tr class="separator:a2ecba1d3bf80da5ada6460e97e3cc5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63558101e2ac4ecae79ac6fc9cca48bb" id="r_a63558101e2ac4ecae79ac6fc9cca48bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63558101e2ac4ecae79ac6fc9cca48bb">operator*</a> () const</td></tr>
+<tr class="memitem:a63558101e2ac4ecae79ac6fc9cca48bb" id="r_a63558101e2ac4ecae79ac6fc9cca48bb"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63558101e2ac4ecae79ac6fc9cca48bb">operator*</a> () const</td></tr>
 <tr class="separator:a63558101e2ac4ecae79ac6fc9cca48bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add7fd5a21509ef4dc57c7943b3da9920" id="r_add7fd5a21509ef4dc57c7943b3da9920"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add7fd5a21509ef4dc57c7943b3da9920">first</a> () const</td></tr>
 <tr class="separator:add7fd5a21509ef4dc57c7943b3da9920"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,7 +205,7 @@ template&lt;typename N &gt; </div>
 template&lt;typename N &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1RingIterator.html">MR::RingIterator</a>&lt; N &gt;::value_type = <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>
+          <td class="memname">using <a class="el" href="classMR_1_1RingIterator.html">MR::RingIterator</a>&lt; N &gt;::value_type = EdgeId</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -222,7 +232,7 @@ template&lt;typename N &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>edge</em></span>, </td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>edge</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -279,7 +289,7 @@ template&lt;typename N &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="classMR_1_1RingIterator.html">MR::RingIterator</a>&lt; N &gt;::operator* </td>
+          <td class="memname">EdgeId <a class="el" href="classMR_1_1RingIterator.html">MR::RingIterator</a>&lt; N &gt;::operator* </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

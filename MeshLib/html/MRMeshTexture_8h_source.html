@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -140,9 +150,9 @@ $(function(){initNavTree('MRMeshTexture_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aMRImage_8h_html"><div class="ttname"><a href="MRImage_8h.html">MRImage.h</a></div></div>
 <div class="ttc" id="aMRVector4_8h_html"><div class="ttname"><a href="MRVector4_8h.html">MRVector4.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a0e519d6a7c053c5d86dac33ecd0fa00c"><div class="ttname"><a href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c">MR::WrapType</a></div><div class="ttdeci">WrapType</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
+<div class="ttc" id="anamespaceMR_html_a0e519d6a7c053c5d86dac33ecd0fa00c"><div class="ttname"><a href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c">MR::WrapType</a></div><div class="ttdeci">WrapType</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:580</div></div>
 <div class="ttc" id="anamespaceMR_html_a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c"><div class="ttname"><a href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c">MR::WrapType::Clamp</a></div><div class="ttdeci">@ Clamp</div></div>
-<div class="ttc" id="anamespaceMR_html_a6b6dd7eadc1056fc5ffd8af1810d925a"><div class="ttname"><a href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">MR::FilterType</a></div><div class="ttdeci">FilterType</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:565</div></div>
+<div class="ttc" id="anamespaceMR_html_a6b6dd7eadc1056fc5ffd8af1810d925a"><div class="ttname"><a href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">MR::FilterType</a></div><div class="ttdeci">FilterType</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:574</div></div>
 <div class="ttc" id="anamespaceMR_html_a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553"><div class="ttname"><a href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553">MR::FilterType::Discrete</a></div><div class="ttdeci">@ Discrete</div></div>
 <div class="ttc" id="astructMR_1_1Image_html"><div class="ttname"><a href="structMR_1_1Image.html">MR::Image</a></div><div class="ttdef"><b>Definition</b> MRImage.h:15</div></div>
 <div class="ttc" id="astructMR_1_1MeshTexture_html"><div class="ttname"><a href="structMR_1_1MeshTexture.html">MR::MeshTexture</a></div><div class="ttdef"><b>Definition</b> MRMeshTexture.h:13</div></div>

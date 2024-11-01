@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -155,7 +165,7 @@ $(function(){initNavTree('MRAABBTreeMaker_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aMRAABBTreeNode_8h_html"><div class="ttname"><a href="MRAABBTreeNode_8h.html">MRAABBTreeNode.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Buffer_html"><div class="ttname"><a href="classMR_1_1Buffer.html">MR::Buffer</a></div><div class="ttdoc">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:54</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:19</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:20</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga364302ddaf673e7f00c6745f4172d6c0"><div class="ttname"><a href="group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0">MR::makeAABBTreeNodeVec</a></div><div class="ttdeci">AABBTreeNodeVec&lt; T &gt; makeAABBTreeNodeVec(Buffer&lt; BoxedLeaf&lt; T &gt; &gt; boxedLeaves)</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga3c1bb6417aaa769fa4156f2edac91749"><div class="ttname"><a href="group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749">MR::getNumNodes</a></div><div class="ttdeci">int getNumNodes(int numLeaves)</div><div class="ttdoc">returns the number of nodes in the binary tree with given number of leaves</div><div class="ttdef"><b>Definition</b> MRAABBTreeMaker.h:23</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>

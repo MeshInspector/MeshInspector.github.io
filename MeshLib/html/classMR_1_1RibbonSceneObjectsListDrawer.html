@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -117,6 +127,7 @@ $(function(){initNavTree('classMR_1_1RibbonSceneObjectsListDrawer.html',''); ini
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classMR_1_1RibbonSceneObjectsListDrawer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::RibbonSceneObjectsListDrawer Class Reference</div></div>
@@ -183,6 +194,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64272e1877c967ecf67cf291b518aa25 inherit pub_methods_classMR_1_1SceneObjectsListDrawer" id="r_a64272e1877c967ecf67cf291b518aa25"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneObjectsListDrawer.html#a64272e1877c967ecf67cf291b518aa25">setNextFrameFixScroll</a> ()</td></tr>
 <tr class="memdesc:a64272e1877c967ecf67cf291b518aa25 inherit pub_methods_classMR_1_1SceneObjectsListDrawer"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper method for fix scroll position after change available height  <br /></td></tr>
 <tr class="separator:a64272e1877c967ecf67cf291b518aa25 inherit pub_methods_classMR_1_1SceneObjectsListDrawer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa3fac069d87e7b77317f8987e5a591f0" id="r_aa3fac069d87e7b77317f8987e5a591f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Signal.html">Signal</a>&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fac069d87e7b77317f8987e5a591f0">onDrawContextSignal</a></td></tr>
+<tr class="memdesc:aa3fac069d87e7b77317f8987e5a591f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">this signal is emitted each frame inside scene context window  <br /></td></tr>
+<tr class="separator:aa3fac069d87e7b77317f8987e5a591f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -543,6 +560,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set closing scene context menu on any change </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa3fac069d87e7b77317f8987e5a591f0" name="aa3fac069d87e7b77317f8987e5a591f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3fac069d87e7b77317f8987e5a591f0">&#9670;&#160;</a></span>onDrawContextSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt; MR::RibbonSceneObjectsListDrawer::onDrawContextSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this signal is emitted each frame inside scene context window </p>
 
 </div>
 </div>

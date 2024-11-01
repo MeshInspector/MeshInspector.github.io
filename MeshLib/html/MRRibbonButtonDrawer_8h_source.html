@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -183,7 +193,7 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        Mono,</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        Gradient,</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        RainbowRect,</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    };</div>
 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonButtonDrawer.html#a83dd3384388f9328b4a90cf1a166a111">   59</a></span>    MRVIEWER_API <span class="keyword">static</span> std::unique_ptr&lt;ImGuiImage&gt;&amp; <a class="code hl_function" href="classMR_1_1RibbonButtonDrawer.html#a83dd3384388f9328b4a90cf1a166a111">GetTexture</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368">TextureType</a> type );</div>
@@ -242,7 +252,6 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 </div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>}</div>
-<div class="ttc" id="aMRDotNet_2MRMeshBoolean_8h_html_a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">BooleanOperation::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="aMRRibbonIcons_8h_html"><div class="ttname"><a href="MRRibbonIcons_8h.html">MRRibbonIcons.h</a></div></div>
 <div class="ttc" id="aMRRibbonMenuItem_8h_html"><div class="ttname"><a href="MRRibbonMenuItem_8h.html">MRRibbonMenuItem.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html">MR::RibbonButtonDrawer</a></div><div class="ttdoc">class for drawing ribbon menu buttons</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:48</div></div>
@@ -266,6 +275,7 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html"><div class="ttname"><a href="classMR_1_1RibbonMenu.html">MR::RibbonMenu</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:32</div></div>
 <div class="ttc" id="aclassMR_1_1ShortcutManager_html"><div class="ttname"><a href="classMR_1_1ShortcutManager.html">MR::ShortcutManager</a></div><div class="ttdef"><b>Definition</b> MRShortcutManager.h:44</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="astructMR_1_1CustomButtonParameters_html"><div class="ttname"><a href="structMR_1_1CustomButtonParameters.html">MR::CustomButtonParameters</a></div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:40</div></div>
 <div class="ttc" id="astructMR_1_1CustomButtonParameters_html_ac4659ddd4f1cc193ad87ef0c017e00eb"><div class="ttname"><a href="structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb">MR::CustomButtonParameters::iconType</a></div><div class="ttdeci">RibbonIcons::IconType iconType</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:43</div></div>
 <div class="ttc" id="astructMR_1_1CustomButtonParameters_html_ad01797d49f38c7175a5ca759d5064866"><div class="ttname"><a href="structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866">MR::CustomButtonParameters::pushColorsCb</a></div><div class="ttdeci">std::function&lt; int(bool, bool)&gt; pushColorsCb</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:42</div></div>

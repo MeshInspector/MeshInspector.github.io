@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -143,14 +153,14 @@ $(function(){initNavTree('structMR_1_1EdgeTri.html',''); initResizable(true); })
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abc6f03d4ca7344789c80a99a10605739" id="r_abc6f03d4ca7344789c80a99a10605739"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc6f03d4ca7344789c80a99a10605739">EdgeTri</a> ()=default</td></tr>
 <tr class="separator:abc6f03d4ca7344789c80a99a10605739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45de5d714a586bda433f476169bb81ef" id="r_a45de5d714a586bda433f476169bb81ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45de5d714a586bda433f476169bb81ef">EdgeTri</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> t)</td></tr>
+<tr class="memitem:a45de5d714a586bda433f476169bb81ef" id="r_a45de5d714a586bda433f476169bb81ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45de5d714a586bda433f476169bb81ef">EdgeTri</a> (EdgeId e, FaceId t)</td></tr>
 <tr class="separator:a45de5d714a586bda433f476169bb81ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a75d3cbfc185bb135fa0ecacfa0eea64e" id="r_a75d3cbfc185bb135fa0ecacfa0eea64e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d3cbfc185bb135fa0ecacfa0eea64e">edge</a></td></tr>
+<tr class="memitem:a75d3cbfc185bb135fa0ecacfa0eea64e" id="r_a75d3cbfc185bb135fa0ecacfa0eea64e"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d3cbfc185bb135fa0ecacfa0eea64e">edge</a></td></tr>
 <tr class="separator:a75d3cbfc185bb135fa0ecacfa0eea64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad73baa8260912b59b30536da0cb50318" id="r_ad73baa8260912b59b30536da0cb50318"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad73baa8260912b59b30536da0cb50318">tri</a></td></tr>
+<tr class="memitem:ad73baa8260912b59b30536da0cb50318" id="r_ad73baa8260912b59b30536da0cb50318"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad73baa8260912b59b30536da0cb50318">tri</a></td></tr>
 <tr class="separator:ad73baa8260912b59b30536da0cb50318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -193,12 +203,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MR::EdgeTri::EdgeTri </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -218,7 +228,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> MR::EdgeTri::edge</td>
+          <td class="memname">EdgeId MR::EdgeTri::edge</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -232,7 +242,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> MR::EdgeTri::tri</td>
+          <td class="memname">FaceId MR::EdgeTri::tri</td>
         </tr>
       </table>
 </div><div class="memdoc">

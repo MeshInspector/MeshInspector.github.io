@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -298,7 +308,7 @@ $(function(){initNavTree('MRIOFilesMenuItems_8h_source.html',''); initResizable(
 <div class="ttc" id="aclassMR_1_1SaveSelectedMenuItem_html_ad064ea5ca7d0f438dae71e8a7ec7446c"><div class="ttname"><a href="classMR_1_1SaveSelectedMenuItem.html#ad064ea5ca7d0f438dae71e8a7ec7446c">MR::SaveSelectedMenuItem::action</a></div><div class="ttdeci">virtual bool action() override</div></div>
 <div class="ttc" id="aclassMR_1_1SceneStateAtLeastCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateAtLeastCheck.html">MR::SceneStateAtLeastCheck</a></div><div class="ttdef"><b>Definition</b> MRSceneStateCheck.h:140</div></div>
 <div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:60</div></div>
-<div class="ttc" id="agroup__IOFiltersGroup_html_ga6e5e24c14d4909fcad8aa5fab54d047b"><div class="ttname"><a href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:35</div></div>
+<div class="ttc" id="agroup__IOFiltersGroup_html_ga6e5e24c14d4909fcad8aa5fab54d047b"><div class="ttname"><a href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:32</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_abf9e7451b5087b4485b6207161438dc3"><div class="ttname"><a href="namespaceMR.html#abf9e7451b5087b4485b6207161438dc3">MR::FileNamesStack</a></div><div class="ttdeci">std::vector&lt; std::filesystem::path &gt; FileNamesStack</div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:14</div></div>
 <div class="ttc" id="astructMR_1_1MultiListener_html"><div class="ttname"><a href="structMR_1_1MultiListener.html">MR::MultiListener</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:29</div></div>

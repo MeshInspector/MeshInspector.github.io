@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -133,22 +143,22 @@ $(function(){initNavTree('structMR_1_1EdgePoint.html',''); initResizable(true); 
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aad45e724729c2566d956c24d4b0f62ad" id="r_aad45e724729c2566d956c24d4b0f62ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad45e724729c2566d956c24d4b0f62ad">EdgePoint</a> ()=default</td></tr>
 <tr class="separator:aad45e724729c2566d956c24d4b0f62ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a823872832981f7242927eb2725053bea" id="r_a823872832981f7242927eb2725053bea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823872832981f7242927eb2725053bea">EdgePoint</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="#aa0fb43077718779351b94f5a803498a6">e</a>, float <a class="el" href="#aa0e9261e0dcf014db57e19ce882ddcfb">a</a>)</td></tr>
+<tr class="memitem:a823872832981f7242927eb2725053bea" id="r_a823872832981f7242927eb2725053bea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823872832981f7242927eb2725053bea">EdgePoint</a> (EdgeId <a class="el" href="#aa0fb43077718779351b94f5a803498a6">e</a>, float <a class="el" href="#aa0e9261e0dcf014db57e19ce882ddcfb">a</a>)</td></tr>
 <tr class="separator:a823872832981f7242927eb2725053bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78a1e20c8433641c96ee2a30d603a137" id="r_a78a1e20c8433641c96ee2a30d603a137"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78a1e20c8433641c96ee2a30d603a137">EdgePoint</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v)</td></tr>
+<tr class="memitem:a78a1e20c8433641c96ee2a30d603a137" id="r_a78a1e20c8433641c96ee2a30d603a137"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78a1e20c8433641c96ee2a30d603a137">EdgePoint</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertId v)</td></tr>
 <tr class="separator:a78a1e20c8433641c96ee2a30d603a137"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab81774167430d41253fb9bb448ae120d" id="r_ab81774167430d41253fb9bb448ae120d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab81774167430d41253fb9bb448ae120d">EdgePoint</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v)</td></tr>
+<tr class="memitem:ab81774167430d41253fb9bb448ae120d" id="r_ab81774167430d41253fb9bb448ae120d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab81774167430d41253fb9bb448ae120d">EdgePoint</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology, VertId v)</td></tr>
 <tr class="separator:ab81774167430d41253fb9bb448ae120d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a564ab78e8cb9ad078dc7f1b009c594c4" id="r_a564ab78e8cb9ad078dc7f1b009c594c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a564ab78e8cb9ad078dc7f1b009c594c4">inVertex</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
+<tr class="memitem:a564ab78e8cb9ad078dc7f1b009c594c4" id="r_a564ab78e8cb9ad078dc7f1b009c594c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a564ab78e8cb9ad078dc7f1b009c594c4">inVertex</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:a564ab78e8cb9ad078dc7f1b009c594c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns valid vertex id if the point is in vertex, otherwise returns invalid id  <br /></td></tr>
 <tr class="separator:a564ab78e8cb9ad078dc7f1b009c594c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8af6e44f3bf41c0895fbef7ae838a263" id="r_a8af6e44f3bf41c0895fbef7ae838a263"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8af6e44f3bf41c0895fbef7ae838a263">inVertex</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology) const</td></tr>
+<tr class="memitem:a8af6e44f3bf41c0895fbef7ae838a263" id="r_a8af6e44f3bf41c0895fbef7ae838a263"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8af6e44f3bf41c0895fbef7ae838a263">inVertex</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:a8af6e44f3bf41c0895fbef7ae838a263"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns valid vertex id if the point is in vertex, otherwise returns invalid id  <br /></td></tr>
 <tr class="separator:a8af6e44f3bf41c0895fbef7ae838a263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28488f2c0e7f4adcdc3726f65d573682" id="r_a28488f2c0e7f4adcdc3726f65d573682"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28488f2c0e7f4adcdc3726f65d573682">getClosestVertex</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
+<tr class="memitem:a28488f2c0e7f4adcdc3726f65d573682" id="r_a28488f2c0e7f4adcdc3726f65d573682"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28488f2c0e7f4adcdc3726f65d573682">getClosestVertex</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:a28488f2c0e7f4adcdc3726f65d573682"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of two edge vertices, closest to this point  <br /></td></tr>
 <tr class="separator:a28488f2c0e7f4adcdc3726f65d573682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d2be6b280e0a7eeb76615b7a1b368d6" id="r_a4d2be6b280e0a7eeb76615b7a1b368d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d2be6b280e0a7eeb76615b7a1b368d6">getClosestVertex</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology) const</td></tr>
+<tr class="memitem:a4d2be6b280e0a7eeb76615b7a1b368d6" id="r_a4d2be6b280e0a7eeb76615b7a1b368d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d2be6b280e0a7eeb76615b7a1b368d6">getClosestVertex</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:a4d2be6b280e0a7eeb76615b7a1b368d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of two edge vertices, closest to this point  <br /></td></tr>
 <tr class="separator:a4d2be6b280e0a7eeb76615b7a1b368d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25f0e8422ec2c8591279616e4f81709a" id="r_a25f0e8422ec2c8591279616e4f81709a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25f0e8422ec2c8591279616e4f81709a">inVertex</a> () const</td></tr>
@@ -157,7 +167,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd27d6b536b5412853a94133280b6802" id="r_acd27d6b536b5412853a94133280b6802"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd27d6b536b5412853a94133280b6802">moveToClosestVertex</a> ()</td></tr>
 <tr class="memdesc:acd27d6b536b5412853a94133280b6802"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets this to the closest end of the edge  <br /></td></tr>
 <tr class="separator:acd27d6b536b5412853a94133280b6802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91ab20425879cb337a77e130ad484350" id="r_a91ab20425879cb337a77e130ad484350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ab20425879cb337a77e130ad484350">isBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *region=nullptr) const</td></tr>
+<tr class="memitem:a91ab20425879cb337a77e130ad484350" id="r_a91ab20425879cb337a77e130ad484350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ab20425879cb337a77e130ad484350">isBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="memdesc:a91ab20425879cb337a77e130ad484350"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the point is on the boundary of the region (or for whole mesh if region is nullptr)  <br /></td></tr>
 <tr class="separator:a91ab20425879cb337a77e130ad484350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acea7869523473243ff95a916aa64a7d6" id="r_acea7869523473243ff95a916aa64a7d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acea7869523473243ff95a916aa64a7d6">valid</a> () const</td></tr>
@@ -174,7 +184,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa0fb43077718779351b94f5a803498a6" id="r_aa0fb43077718779351b94f5a803498a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0fb43077718779351b94f5a803498a6">e</a></td></tr>
+<tr class="memitem:aa0fb43077718779351b94f5a803498a6" id="r_aa0fb43077718779351b94f5a803498a6"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0fb43077718779351b94f5a803498a6">e</a></td></tr>
 <tr class="separator:aa0fb43077718779351b94f5a803498a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0e9261e0dcf014db57e19ce882ddcfb" id="r_aa0e9261e0dcf014db57e19ce882ddcfb"><td class="memItemLeft" align="right" valign="top">SegmPointf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e9261e0dcf014db57e19ce882ddcfb">a</a></td></tr>
 <tr class="memdesc:aa0e9261e0dcf014db57e19ce882ddcfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">a in [0,1], a=0 =&gt; point is in org( e ), a=1 =&gt; point is in dest( e )  <br /></td></tr>
@@ -229,7 +239,7 @@ Related Symbols</h2></td></tr>
         <tr>
           <td class="memname">MR::EdgePoint::EdgePoint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -263,7 +273,7 @@ Related Symbols</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -292,7 +302,7 @@ Related Symbols</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -315,7 +325,7 @@ Related Symbols</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::EdgePoint::getClosestVertex </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::EdgePoint::getClosestVertex </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td> const</td>
@@ -342,7 +352,7 @@ Related Symbols</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::EdgePoint::getClosestVertex </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::EdgePoint::getClosestVertex </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td> const</td>
@@ -396,7 +406,7 @@ Related Symbols</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::EdgePoint::inVertex </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::EdgePoint::inVertex </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td> const</td>
@@ -423,7 +433,7 @@ Related Symbols</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::EdgePoint::inVertex </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::EdgePoint::inVertex </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td> const</td>
@@ -457,7 +467,7 @@ Related Symbols</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -693,7 +703,7 @@ Related Symbols</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> MR::EdgePoint::e</td>
+          <td class="memname">EdgeId MR::EdgePoint::e</td>
         </tr>
       </table>
 </div><div class="memdoc">

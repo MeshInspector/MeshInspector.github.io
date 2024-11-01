@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -185,7 +195,7 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="line">    {</div>
 <div class="line">        <a class="code hl_struct" href="structMREdgeId.html">MREdgeId</a> e = mrEdgePathData( holes )[i];</div>
 <div class="line">        <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a> holeDirArea = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a>( mesh, e );</div>
-<div class="line">        <span class="keywordflow">if</span> ( <a class="code hl_function" href="MRMeshC_2MRVector3_8h.html#a72415dbe3b4fbdcb809e6bec744f710e">mrVector3Length</a>( &amp;holeDirArea ) &gt;= MIN_HOLE_AREA )</div>
+<div class="line">        <span class="keywordflow">if</span> ( mrVector3Length( &amp;holeDirArea ) &gt;= MIN_HOLE_AREA )</div>
 <div class="line">        {</div>
 <div class="line">            <a class="code hl_function" href="MRMeshC_2MRMeshFillHole_8h.html#a62a9b8cdd8c95f17540656917d3cf7f6">mrFillHole</a>( mesh, e, &amp;params );</div>
 <div class="line">            newFaceCount += <a class="code hl_function" href="MRMeshC_2MRBitSet_8h.html#a1d870f446bfdcfb125cabc3aeca8672c">mrBitSetCount</a>( newFaces );</div>
@@ -238,7 +248,6 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="ttc" id="aMRMeshC_2MRString_8h_html"><div class="ttname"><a href="MRMeshC_2MRString_8h.html">MRString.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a6c06174923fa27502a2633fd5791047d"><div class="ttname"><a href="MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a></div><div class="ttdeci">MRMESHC_API void mrStringFree(MRString *str)</div><div class="ttdoc">deallocates the string object</div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div><div class="ttdoc">gets read-only access to the string data</div></div>
-<div class="ttc" id="aMRMeshC_2MRVector3_8h_html_a72415dbe3b4fbdcb809e6bec744f710e"><div class="ttname"><a href="MRMeshC_2MRVector3_8h.html#a72415dbe3b4fbdcb809e6bec744f710e">mrVector3Length</a></div><div class="ttdeci">MRMESHC_API float mrVector3Length(const MRVector3f *v)</div><div class="ttdoc">length of the vector</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a0dca33ba529acd17941975d795f14ad8"><div class="ttname"><a href="MRMeshC_8h.html#a0dca33ba529acd17941975d795f14ad8">mrMeshLoadFromAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrMeshLoadFromAnySupportedFormat(const char *file, MRString **errorStr)</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a60c1ce9ed772eb0a4326776c021b33dd"><div class="ttname"><a href="MRMeshC_8h.html#a60c1ce9ed772eb0a4326776c021b33dd">mrMeshSaveToAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API void mrMeshSaveToAnySupportedFormat(const MRMesh *mesh, const char *file, MRString **errorStr)</div></div>
 <div class="ttc" id="astructMREdgeId_html"><div class="ttname"><a href="structMREdgeId.html">MREdgeId</a></div><div class="ttdoc">edge index</div><div class="ttdef"><b>Definition</b> MRMeshC/MRId.h:8</div></div>

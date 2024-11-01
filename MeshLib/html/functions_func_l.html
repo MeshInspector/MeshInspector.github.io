@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -150,6 +160,7 @@ $(function(){initNavTree('functions_func_l.html',''); initResizable(true); });
 <li>load()&#160;:&#160;<a class="el" href="classMR_1_1RibbonIcons.html#a9719cda5e63b461becae03d081f6c564">MR::RibbonIcons</a></li>
 <li>load_font()&#160;:&#160;<a class="el" href="classMR_1_1ImGuiMenu.html#a423490d7e386f490c25a410dba86479e">MR::ImGuiMenu</a>, <a class="el" href="classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3">MR::RibbonMenu</a></li>
 <li>loadAllFonts()&#160;:&#160;<a class="el" href="classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0">MR::RibbonFontManager</a></li>
+<li>loadBool()&#160;:&#160;<a class="el" href="classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0">MR::IViewerSettingsManager</a>, <a class="el" href="classMR_1_1ViewerSettingsManager.html#a75e0d8257f6b959f21a0572a5cad981a">MR::ViewerSettingsManager</a></li>
 <li>loadData()&#160;:&#160;<a class="el" href="classMR_1_1GlBuffer.html#a206827c171c7856ea4a9095be1c2297c">MR::GlBuffer</a>, <a class="el" href="classMR_1_1GlTexture.html#a9ba560fc0c6f4da706a9249b33cc51d4">MR::GlTexture</a></li>
 <li>loadDataOpt()&#160;:&#160;<a class="el" href="classMR_1_1GlBuffer.html#af5b5385945cbb49634fc1d8110d92f37">MR::GlBuffer</a>, <a class="el" href="classMR_1_1GlTexture.html#a5a0c8eb224d884d8a585e73ef2c4ca2f">MR::GlTexture</a></li>
 <li>loadDistances()&#160;:&#160;<a class="el" href="classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa">MR::RegularMapMesher</a></li>
@@ -163,6 +174,7 @@ $(function(){initNavTree('functions_func_l.html',''); initResizable(true); });
 <li>loadPreset()&#160;:&#160;<a class="el" href="classMR_1_1PalettePresets.html#abfc0b877261efaf989795949936003df">MR::PalettePresets</a></li>
 <li>loadSchema()&#160;:&#160;<a class="el" href="classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5">MR::RibbonSchemaLoader</a></li>
 <li>loadSettings()&#160;:&#160;<a class="el" href="classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84">MR::IViewerSettingsManager</a>, <a class="el" href="classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880">MR::ViewerSettingsManager</a></li>
+<li>loadString()&#160;:&#160;<a class="el" href="classMR_1_1IViewerSettingsManager.html#ac98d55ecfa50e04e63dfedf7493bb801">MR::IViewerSettingsManager</a>, <a class="el" href="classMR_1_1ViewerSettingsManager.html#a9ca002ebe5eebbe8133cc6bce3264b1f">MR::ViewerSettingsManager</a></li>
 <li>loadTexturePerFaceTextureBuffer_()&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#a0cec65e255a2fa58862a5f0d41fca6db">MR::RenderMeshObject</a></li>
 <li>loadVertColorsBuffer_()&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#a7b5e256ed1542191675f8be677499aef">MR::RenderMeshObject</a></li>
 <li>loadVertNormalsBuffer_()&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#a2b96a7f804774902c41e8f23526c8f64">MR::RenderMeshObject</a></li>

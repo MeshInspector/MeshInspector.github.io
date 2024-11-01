@@ -8,5 +8,6 @@ var structMR_1_1IPointPairs =
     [ "operator=", "structMR_1_1IPointPairs.html#ab45a73b14fac3dc080a3e99e4070de26", null ],
     [ "operator[]", "structMR_1_1IPointPairs.html#a3dd0343a154cad09f33735a106dcc64b", null ],
     [ "operator[]", "structMR_1_1IPointPairs.html#afcac114c6d43447ea0cae96eb9270de8", null ],
+    [ "size", "structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8", null ],
     [ "active", "structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032", null ]
 ];

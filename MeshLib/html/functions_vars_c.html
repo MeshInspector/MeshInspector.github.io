@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -159,12 +169,12 @@ $(function(){initNavTree('functions_vars_c.html',''); initResizable(true); });
 <li>cIsLeftFromAB&#160;:&#160;<a class="el" href="structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824">MR::SegmentSegmentIntersectResult</a></li>
 <li>clipByPlane_&#160;:&#160;<a class="el" href="classMR_1_1VisualObject.html#ab87c9fab3f92c38aba589584b5466a98">MR::VisualObject</a></li>
 <li>clippingPlane&#160;:&#160;<a class="el" href="structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94">MR::Viewport::Parameters</a>, <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html#aff5495af1f46be635d2ffa5c0da47d24">MR::ViewportGL::PickParameters</a></li>
-<li>clippingPlaneObject&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ac51259408b6d7317405a7362d7d8a0e4">MR::Viewer</a></li>
+<li>clippingPlaneObject&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a97b86b8de173c41ecb9d6b4c2abe7b65">MR::Viewer</a></li>
 <li>clipPlane&#160;:&#160;<a class="el" href="structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8">MR::ModelBaseRenderParams</a></li>
 <li>clipSpace&#160;:&#160;<a class="el" href="structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973">MR::PointInAllSpaces</a></li>
 <li>close&#160;:&#160;<a class="el" href="structMR_1_1LaunchParams.html#a79e98fc0f869a338e1adbd9d61c767a4">MR::LaunchParams</a></li>
 <li>closeContourPointColor&#160;:&#160;<a class="el" href="structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae">MR::SurfaceContoursWidget::SurfaceContoursWidgetParams</a></li>
-<li>closed&#160;:&#160;<a class="el" href="structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320">MR::OneMeshContour</a>, <a class="el" href="structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a">MROneMeshContour</a>, <a class="el" href="structOneMeshContour.html#a54b094126765afedf75a8833d215ee55">OneMeshContour</a></li>
+<li>closed&#160;:&#160;<a class="el" href="structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320">MR::OneMeshContour</a>, <a class="el" href="structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a">MROneMeshContour</a></li>
 <li>closestPointA&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc">MR::Features::MeasureResult::Distance</a></li>
 <li>closestPointB&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b">MR::Features::MeasureResult::Distance</a></li>
 <li>closestVert&#160;:&#160;<a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html#acd151f3c2558f8dc870aa2172d32a00e">MR::MeshOrPoints::ProjectionResult</a></li>
@@ -172,7 +182,7 @@ $(function(){initNavTree('functions_vars_c.html',''); initResizable(true); });
 <li>cloud&#160;:&#160;<a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2">MR::PointsLoad::NamedCloud</a></li>
 <li>cloudOfSamples&#160;:&#160;<a class="el" href="structMR_1_1ImproveSamplingSettings.html#a59eb791fd7a6937434c6378dbf627296">MR::ImproveSamplingSettings</a></li>
 <li>collapsed&#160;:&#160;<a class="el" href="structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62">ImGui::CustomStatePluginWindowParameters</a></li>
-<li>collapseNearNotFlippable&#160;:&#160;<a class="el" href="structDecimateParameters.html#a54359a733c9a7cd8dbe22614f3480793">DecimateParameters</a>, <a class="el" href="structMR_1_1DecimateSettings.html#a1ec65ab68109bf48005d935a85a08713">MR::DecimateSettings</a>, <a class="el" href="structMRDecimateSettings.html#a1059a2ea3dd3750396c012134de9ad56">MRDecimateSettings</a></li>
+<li>collapseNearNotFlippable&#160;:&#160;<a class="el" href="structMR_1_1DecimateSettings.html#a1ec65ab68109bf48005d935a85a08713">MR::DecimateSettings</a>, <a class="el" href="structMRDecimateSettings.html#a1059a2ea3dd3750396c012134de9ad56">MRDecimateSettings</a></li>
 <li>color&#160;:&#160;<a class="el" href="structMR_1_1MarkedVoxelSlice_1_1Mark.html#aa5bbaf41ee00c68fce4b46c405457cda">MR::MarkedVoxelSlice::Mark</a></li>
 <li>coloringType_&#160;:&#160;<a class="el" href="classMR_1_1VisualObject.html#a21eb2d0c923e3ca0544e4cf90782e6b1">MR::VisualObject</a></li>
 <li>colorMain&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a703f1cacbe40720cc5c75886cf2d20e3">MR::ImGuiMeasurementIndicators::Params</a></li>
@@ -205,12 +215,12 @@ $(function(){initNavTree('functions_vars_c.html',''); initResizable(true); });
 <li>converter&#160;:&#160;<a class="el" href="structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4">MR::SortIntersectionsData</a></li>
 <li>convertToFloat&#160;:&#160;<a class="el" href="structMR_1_1RawTiffOutput.html#a678bc6694cc6bc3d60c264d18d97e243">MR::RawTiffOutput</a></li>
 <li>coord&#160;:&#160;<a class="el" href="structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be">MR::AABBTreePoints::Point</a></li>
-<li>coordinate&#160;:&#160;<a class="el" href="structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d">MR::OneMeshIntersection</a>, <a class="el" href="structMROneMeshIntersection.html#a86ad70e404dab3e9f08ef1b625dbf9e0">MROneMeshIntersection</a>, <a class="el" href="structOneMeshIntersection.html#ab23011215a07e096cf5f83ad2a13ecb7">OneMeshIntersection</a></li>
+<li>coordinate&#160;:&#160;<a class="el" href="structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d">MR::OneMeshIntersection</a>, <a class="el" href="structMROneMeshIntersection.html#a86ad70e404dab3e9f08ef1b625dbf9e0">MROneMeshIntersection</a></li>
 <li>coords&#160;:&#160;<a class="el" href="structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27">MR::SeparationPointStorage::Block</a></li>
 <li>cornerMode&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#afd5c5688fbd6d8c41b11f9295ba8d5ca">MR::RenderMeshObject</a></li>
-<li>cosThreshold&#160;:&#160;<a class="el" href="structICPProperties.html#a22fb83214a6966402a24e1d80e0ebfc0">ICPProperties</a>, <a class="el" href="structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500">MR::ICPProperties</a>, <a class="el" href="structMRICPProperties.html#a01533b26bf04f650af9c2628b8804258">MRICPProperties</a></li>
+<li>cosThreshold&#160;:&#160;<a class="el" href="structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500">MR::ICPProperties</a>, <a class="el" href="structMRICPProperties.html#a01533b26bf04f650af9c2628b8804258">MRICPProperties</a></li>
 <li>count&#160;:&#160;<a class="el" href="structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca">MR::SimpleTimeRecord</a></li>
-<li>countSkippedFaces&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#gaa88281fa5522b4dfb24b0d60f21ad3c7">MR::MeshLoad::ObjLoadSettings</a>, <a class="el" href="structMRMeshLoadObjLoadSettings.html#a5d70d7a10b411473bd24ea2dd4e725fb">MRMeshLoadObjLoadSettings</a>, <a class="el" href="structObjLoadSettings.html#a2a18cf0efdc06b61dfef2629210dc496">ObjLoadSettings</a></li>
+<li>countSkippedFaces&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#gaa88281fa5522b4dfb24b0d60f21ad3c7">MR::MeshLoad::ObjLoadSettings</a>, <a class="el" href="structMRMeshLoadObjLoadSettings.html#a5d70d7a10b411473bd24ea2dd4e725fb">MRMeshLoadObjLoadSettings</a></li>
 <li>creases_&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a826739f1401b2e3d3016aeb68c30f59f">MR::ObjectMeshHolder</a></li>
 <li>creasesChangedSignal&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#af852a5542908bb08f0eecec630ba0ef8">MR::ObjectMeshHolder</a></li>
 <li>create&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1SubfeatureInfo.html#acd121ce53278633a7477e30db35ac13b">MR::Features::SubfeatureInfo</a></li>
@@ -219,7 +229,7 @@ $(function(){initNavTree('functions_vars_c.html',''); initResizable(true); });
 <li>critHoleLength&#160;:&#160;<a class="el" href="structMR_1_1TriangulationParameters.html#a18b9e4beb720ba7134c197142243b529">MR::TriangulationParameters</a></li>
 <li>criticalAspectRatio&#160;:&#160;<a class="el" href="structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6">MR::ResolveMeshDegenSettings</a>, <a class="el" href="structMRResolveMeshDegenSettings.html#a40b2f63f667fbab16bbd7d3496b7f8af">MRResolveMeshDegenSettings</a></li>
 <li>criticalAspectRatioFlip&#160;:&#160;<a class="el" href="structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30">MR::SubdivideSettings</a></li>
-<li>criticalTriAspectRatio&#160;:&#160;<a class="el" href="structDecimateParameters.html#a090f1a688a077d9fe1e6b354cf5c9394">DecimateParameters</a>, <a class="el" href="structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214">MR::DecimateParallelSettings</a>, <a class="el" href="structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5">MR::DecimateSettings</a>, <a class="el" href="structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2">MR::DeloneSettings</a>, <a class="el" href="structMRDecimateSettings.html#a868cd45481f4a69102b4ca7467320dde">MRDecimateSettings</a></li>
+<li>criticalTriAspectRatio&#160;:&#160;<a class="el" href="structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214">MR::DecimateParallelSettings</a>, <a class="el" href="structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5">MR::DecimateSettings</a>, <a class="el" href="structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2">MR::DeloneSettings</a>, <a class="el" href="structMRDecimateSettings.html#a868cd45481f4a69102b4ca7467320dde">MRDecimateSettings</a></li>
 <li>critTransitionLength&#160;:&#160;<a class="el" href="structMR_1_1ToolPathParams.html#a24c0b4801961990c4c8e6b4003bf2bb2">MR::ToolPathParams</a></li>
 <li>cropLabels_&#160;:&#160;<a class="el" href="classMR_1_1VisualObject.html#a00c87dfb674938a5d27218e746079782">MR::VisualObject</a></li>
 <li>cur&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html#accca92e50668bde227d217a934a2c1ae">MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</a></li>
@@ -228,10 +238,8 @@ $(function(){initNavTree('functions_vars_c.html',''); initResizable(true); });
 <li>customForegroundMarks&#160;:&#160;<a class="el" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f">MR::MarkedVoxelSlice::Parameters</a></li>
 <li>customModifiers&#160;:&#160;<a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html#afd51ac7c79f68590c9471e56a8e29890">MR::SurfacePointWidget::Parameters</a></li>
 <li>customTexture&#160;:&#160;<a class="el" href="structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc">MR::UI::ButtonCustomizationParams</a></li>
-<li>customXf&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#gace2b31e89c8b25c9b8475eacea73c38a">MR::MeshLoad::ObjLoadSettings</a>, <a class="el" href="structMRMeshLoadObjLoadSettings.html#a9ceea9e8fa9427e7abef4a490a9aa7ee">MRMeshLoadObjLoadSettings</a>, <a class="el" href="structObjLoadSettings.html#acd0a2c37d5b9ab3ff601f588ec4fabe2">ObjLoadSettings</a></li>
-<li>Cut2NewFaces&#160;:&#160;<a class="el" href="classBooleanMaps.html#a1d5a34fb5f65a60d63482558c924b354">BooleanMaps</a></li>
+<li>customXf&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#gace2b31e89c8b25c9b8475eacea73c38a">MR::MeshLoad::ObjLoadSettings</a>, <a class="el" href="structMRMeshLoadObjLoadSettings.html#a9ceea9e8fa9427e7abef4a490a9aa7ee">MRMeshLoadObjLoadSettings</a></li>
 <li>cut2newFaces&#160;:&#160;<a class="el" href="structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c">MR::BooleanResultMapper::Maps</a></li>
-<li>Cut2Origin&#160;:&#160;<a class="el" href="classBooleanMaps.html#a07f0cbc44d3977709796e19a937093b5">BooleanMaps</a></li>
 <li>cut2origin&#160;:&#160;<a class="el" href="structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9">MR::BooleanResultMapper::Maps</a></li>
 <li>cutAngle&#160;:&#160;<a class="el" href="structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462">MR::EmbeddedStructureParameters</a></li>
 </ul>

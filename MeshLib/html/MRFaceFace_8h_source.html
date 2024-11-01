@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -129,9 +139,9 @@ $(function(){initNavTree('MRFaceFace_8h_source.html',''); initResizable(true); }
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html">   11</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FaceFace.html">FaceFace</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d">   13</a></span>    <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> <a class="code hl_variable" href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d">aFace</a>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc">   14</a></span>    <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> <a class="code hl_variable" href="structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc">bFace</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3">   15</a></span>    <a class="code hl_function" href="structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3">FaceFace</a>( <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> a, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> b ) : <a class="code hl_variable" href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d">aFace</a>( a ), <a class="code hl_variable" href="structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc">bFace</a>( b ) { }</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d">   13</a></span>    FaceId <a class="code hl_variable" href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d">aFace</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc">   14</a></span>    FaceId <a class="code hl_variable" href="structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc">bFace</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3">   15</a></span>    <a class="code hl_function" href="structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3">FaceFace</a>( FaceId a, FaceId b ) : <a class="code hl_variable" href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d">aFace</a>( a ), <a class="code hl_variable" href="structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc">bFace</a>( b ) { }</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc">   16</a></span>    <a class="code hl_function" href="structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc">FaceFace</a>() { };</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf">   17</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf">operator==</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1FaceFace.html">FaceFace</a>&amp; rhs ) <span class="keyword">const</span> = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
@@ -156,7 +166,6 @@ $(function(){initNavTree('MRFaceFace_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_ab7fe032dc814ab0521ff517f8c238aa9"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a></div><div class="ttdeci">int FaceId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:53</div></div>
 <div class="ttc" id="aMRMesh_2MRId_8h_html"><div class="ttname"><a href="MRMesh_2MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1FaceFace_html"><div class="ttname"><a href="structMR_1_1FaceFace.html">MR::FaceFace</a></div><div class="ttdef"><b>Definition</b> MRFaceFace.h:12</div></div>

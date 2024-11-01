@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -128,7 +138,7 @@ $(function(){initNavTree('structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',''
 Public Attributes</h2></td></tr>
 <tr class="memitem:aafca990d1d688a3f2f9ce8ba0a67a3c5" id="r_aafca990d1d688a3f2f9ce8ba0a67a3c5"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafca990d1d688a3f2f9ce8ba0a67a3c5">dir</a></td></tr>
 <tr class="separator:aafca990d1d688a3f2f9ce8ba0a67a3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c8477a2a590bcaef5179d861b7f1de" id="r_a39c8477a2a590bcaef5179d861b7f1de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c8477a2a590bcaef5179d861b7f1de">voxelSize</a> = { 1.0f, 1.0f, 1.0f }</td></tr>
+<tr class="memitem:a39c8477a2a590bcaef5179d861b7f1de" id="r_a39c8477a2a590bcaef5179d861b7f1de"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c8477a2a590bcaef5179d861b7f1de">voxelSize</a> = { 1.0f, 1.0f, 1.0f }</td></tr>
 <tr class="separator:a39c8477a2a590bcaef5179d861b7f1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a162c946b965977a5048ed85b3b7d1293" id="r_a162c946b965977a5048ed85b3b7d1293"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19">GridType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a162c946b965977a5048ed85b3b7d1293">gridType</a> = <a class="el" href="namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7">GridType::DenseGrid</a></td></tr>
 <tr class="separator:a162c946b965977a5048ed85b3b7d1293"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,7 +195,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::VoxelsLoad::LoadingTiffSettings::voxelSize = { 1.0f, 1.0f, 1.0f }</td>
+          <td class="memname">Vector3f MR::VoxelsLoad::LoadingTiffSettings::voxelSize = { 1.0f, 1.0f, 1.0f }</td>
         </tr>
       </table>
 </div><div class="memdoc">

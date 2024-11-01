@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -286,7 +296,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to voxels and back two times only closed meshes allowed (only <a class="el" href="classOffset.html">Offset</a> mode) typically offsetA and offsetB have distinct signs if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>Offsets mesh by converting it to voxels and back two times only closed meshes allowed (only Offset mode) typically offsetA and offsetB have distinct signs if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>
@@ -374,7 +384,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to distance field in voxels (using OpenVDB library if <a class="el" href="MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode::OpenVDB</a> or our implementation otherwise) and back using standard Marching Cubes, as opposed to Dual Marching Cubes in offsetMesh(...) if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>Offsets mesh by converting it to distance field in voxels (using OpenVDB library if SignDetectionMode::OpenVDB or our implementation otherwise) and back using standard Marching Cubes, as opposed to Dual Marching Cubes in offsetMesh(...) if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>
@@ -446,7 +456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to distance field in voxels using OpenVDB library, signDetectionMode = <a class="el" href="MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aeaa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">Unsigned(from OpenVDB)</a> | OpenVDB | HoleWindingRule, and then converts back using OpenVDB library (dual marching cubes), so result mesh is always closed if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>Offsets mesh by converting it to distance field in voxels using OpenVDB library, signDetectionMode = Unsigned(from OpenVDB) | OpenVDB | HoleWindingRule, and then converts back using OpenVDB library (dual marching cubes), so result mesh is always closed if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>
@@ -562,7 +572,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in case of positive offset, returns the mesh consisting of offset mesh merged with inversed original mesh (thickening mode); in case of negative offset, returns the mesh consisting of inversed offset mesh merged with original mesh (hollowing mode); if your input mesh is open then please specify params.signDetectionMode = <a class="el" href="MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aeaa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">SignDetectionMode::Unsigned</a>, and you will get open mesh (with several components) on output if your input mesh is closed then please specify another sign detection mode, and you will get closed mesh (with several components) on output; if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+<p>in case of positive offset, returns the mesh consisting of offset mesh merged with inversed original mesh (thickening mode); in case of negative offset, returns the mesh consisting of inversed offset mesh merged with original mesh (hollowing mode); if your input mesh is open then please specify params.signDetectionMode = SignDetectionMode::Unsigned, and you will get open mesh (with several components) on output if your input mesh is closed then please specify another sign detection mode, and you will get closed mesh (with several components) on output; if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
 
 </div>
 </div>

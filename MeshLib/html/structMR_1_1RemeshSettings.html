@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -144,7 +154,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a193b9ba70e3770ddb3e240625ebb00f9" id="r_a193b9ba70e3770ddb3e240625ebb00f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a193b9ba70e3770ddb3e240625ebb00f9">finalRelaxNoShrinkage</a> = false</td></tr>
 <tr class="memdesc:a193b9ba70e3770ddb3e240625ebb00f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true prevents the surface from shrinkage after many iterations  <br /></td></tr>
 <tr class="separator:a193b9ba70e3770ddb3e240625ebb00f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba67372080b3650ca0d9a939e8b5526a" id="r_aba67372080b3650ca0d9a939e8b5526a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba67372080b3650ca0d9a939e8b5526a">region</a> = nullptr</td></tr>
+<tr class="memitem:aba67372080b3650ca0d9a939e8b5526a" id="r_aba67372080b3650ca0d9a939e8b5526a"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba67372080b3650ca0d9a939e8b5526a">region</a> = nullptr</td></tr>
 <tr class="memdesc:aba67372080b3650ca0d9a939e8b5526a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be changed, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:aba67372080b3650ca0d9a939e8b5526a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af94f082b1d13804c4460f447afcda26a" id="r_af94f082b1d13804c4460f447afcda26a"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af94f082b1d13804c4460f447afcda26a">notFlippable</a> = nullptr</td></tr>
@@ -154,13 +164,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aed5e02a684c4323c9ad3143c3dfdb24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a29eef43f96e620bbdc1a55778d04b4" id="r_a6a29eef43f96e620bbdc1a55778d04b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a29eef43f96e620bbdc1a55778d04b4">projectOnOriginalMesh</a> = false</td></tr>
 <tr class="separator:a6a29eef43f96e620bbdc1a55778d04b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2302742bd2200fd6a5f9e078015705c1" id="r_a2302742bd2200fd6a5f9e078015705c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2302742bd2200fd6a5f9e078015705c1">onEdgeSplit</a></td></tr>
+<tr class="memitem:a2302742bd2200fd6a5f9e078015705c1" id="r_a2302742bd2200fd6a5f9e078015705c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId e1, EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2302742bd2200fd6a5f9e078015705c1">onEdgeSplit</a></td></tr>
 <tr class="memdesc:a2302742bd2200fd6a5f9e078015705c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a2302742bd2200fd6a5f9e078015705c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22c46bdff64005e21bccd666e13e7f01" id="r_a22c46bdff64005e21bccd666e13e7f01"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c46bdff64005e21bccd666e13e7f01">onEdgeDel</a></td></tr>
+<tr class="memitem:a22c46bdff64005e21bccd666e13e7f01" id="r_a22c46bdff64005e21bccd666e13e7f01"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId e, EdgeId e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c46bdff64005e21bccd666e13e7f01">onEdgeDel</a></td></tr>
 <tr class="memdesc:a22c46bdff64005e21bccd666e13e7f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e  <br /></td></tr>
 <tr class="separator:a22c46bdff64005e21bccd666e13e7f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae47bb1dc61a019d8b23cdfd9d0343018" id="r_ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> edgeToCollapse, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae47bb1dc61a019d8b23cdfd9d0343018">preCollapse</a></td></tr>
+<tr class="memitem:ae47bb1dc61a019d8b23cdfd9d0343018" id="r_ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(EdgeId edgeToCollapse, const Vector3f &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae47bb1dc61a019d8b23cdfd9d0343018">preCollapse</a></td></tr>
 <tr class="memdesc:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
 <tr class="separator:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac65eb4c2e1f090a756362df72b272d6e" id="r_ac65eb4c2e1f090a756362df72b272d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac65eb4c2e1f090a756362df72b272d6e">progressCallback</a></td></tr>
@@ -269,7 +279,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1)&gt; MR::RemeshSettings::onEdgeDel</td>
+          <td class="memname">std::function&lt;void(EdgeId e, EdgeId e1)&gt; MR::RemeshSettings::onEdgeDel</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,7 +295,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt; MR::RemeshSettings::onEdgeSplit</td>
+          <td class="memname">std::function&lt;void(EdgeId e1, EdgeId e)&gt; MR::RemeshSettings::onEdgeSplit</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -317,7 +327,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool( <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> edgeToCollapse, const <a class="el" href="classVector3f.html">Vector3f</a>&amp; newEdgeOrgPos )&gt; MR::RemeshSettings::preCollapse</td>
+          <td class="memname">std::function&lt;bool( EdgeId edgeToCollapse, const Vector3f&amp; newEdgeOrgPos )&gt; MR::RemeshSettings::preCollapse</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -365,7 +375,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>* MR::RemeshSettings::region = nullptr</td>
+          <td class="memname">FaceBitSet* MR::RemeshSettings::region = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

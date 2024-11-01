@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -154,11 +164,11 @@ $(function(){initNavTree('MRBasedMainFunc.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a918f69117bd46f408fda277cad5fde2d"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">MR::ViewerSetup::setupConfiguration</a></div><div class="ttdeci">virtual MRVIEWER_API void setupConfiguration(Viewer *viewer) const</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a9ba29b362190cbfc386b59d8051f8b06"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">MR::ViewerSetup::setupSettingsManager</a></div><div class="ttdeci">virtual MRVIEWER_API void setupSettingsManager(Viewer *viewer, const std::string &amp;appName) const</div><div class="ttdoc">Sets custom viewer settings manager to viewer.</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a26632c3fff60e6f927d932d86503aa8f"><div class="ttname"><a href="classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a></div><div class="ttdeci">static MRVIEWER_API void parseLaunchParams(LaunchParams &amp;params)</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a827107af544bf966370dc8de607ed59c"><div class="ttname"><a href="classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a></div><div class="ttdeci">static Viewer * instance()</div><div class="ttdef"><b>Definition</b> MRViewer.h:103</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a827107af544bf966370dc8de607ed59c"><div class="ttname"><a href="classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a></div><div class="ttdeci">static Viewer * instance()</div><div class="ttdef"><b>Definition</b> MRViewer.h:90</div></div>
 <div class="ttc" id="anamespaceMR_html_a6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
 <div class="ttc" id="anamespaceMR_html_abf0f4c580a56e4a7e297faa1b6de7378"><div class="ttname"><a href="namespaceMR.html#abf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a></div><div class="ttdeci">MRVIEWER_API int launchDefaultViewer(const Viewer::LaunchParams &amp;params, const ViewerSetup &amp;setup)</div></div>
-<div class="ttc" id="astructMR_1_1LaunchParams_html"><div class="ttname"><a href="structMR_1_1LaunchParams.html">MR::LaunchParams</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:47</div></div>
-<div class="ttc" id="astructMR_1_1LaunchParams_html_a25346cad277e065c937a564b8b5f003d"><div class="ttname"><a href="structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">MR::LaunchParams::argc</a></div><div class="ttdeci">int argc</div><div class="ttdef"><b>Definition</b> MRViewer.h:67</div></div>
+<div class="ttc" id="astructMR_1_1LaunchParams_html"><div class="ttname"><a href="structMR_1_1LaunchParams.html">MR::LaunchParams</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:34</div></div>
+<div class="ttc" id="astructMR_1_1LaunchParams_html_a25346cad277e065c937a564b8b5f003d"><div class="ttname"><a href="structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">MR::LaunchParams::argc</a></div><div class="ttdeci">int argc</div><div class="ttdef"><b>Definition</b> MRViewer.h:54</div></div>
 </div><!-- fragment --><p>Then you should make your plugins, to find how have a look at <a class="el" href="StatePluginsHelp.html">State Plugins overview</a> page </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

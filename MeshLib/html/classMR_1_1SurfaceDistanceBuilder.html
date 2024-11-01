@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -129,14 +139,14 @@ $(function(){initNavTree('classMR_1_1SurfaceDistanceBuilder.html',''); initResiz
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af3d50b55a0c2af75bdba0d4eb7dc2e34" id="r_af3d50b55a0c2af75bdba0d4eb7dc2e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d50b55a0c2af75bdba0d4eb7dc2e34">SurfaceDistanceBuilder</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *region)</td></tr>
+<tr class="memitem:af3d50b55a0c2af75bdba0d4eb7dc2e34" id="r_af3d50b55a0c2af75bdba0d4eb7dc2e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d50b55a0c2af75bdba0d4eb7dc2e34">SurfaceDistanceBuilder</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *region)</td></tr>
 <tr class="separator:af3d50b55a0c2af75bdba0d4eb7dc2e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5aba85dbb1efdefdea87c31c4c4a624" id="r_ae5aba85dbb1efdefdea87c31c4c4a624"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5aba85dbb1efdefdea87c31c4c4a624">SurfaceDistanceBuilder</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;target, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *region)</td></tr>
+<tr class="memitem:ae5aba85dbb1efdefdea87c31c4c4a624" id="r_ae5aba85dbb1efdefdea87c31c4c4a624"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5aba85dbb1efdefdea87c31c4c4a624">SurfaceDistanceBuilder</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;target, const VertBitSet *region)</td></tr>
 <tr class="separator:ae5aba85dbb1efdefdea87c31c4c4a624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e5bc477a09b77b99e2ad82ac95adc91" id="r_a1e5bc477a09b77b99e2ad82ac95adc91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e5bc477a09b77b99e2ad82ac95adc91">addStartRegion</a> (const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;region, float startDistance)</td></tr>
+<tr class="memitem:a1e5bc477a09b77b99e2ad82ac95adc91" id="r_a1e5bc477a09b77b99e2ad82ac95adc91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e5bc477a09b77b99e2ad82ac95adc91">addStartRegion</a> (const VertBitSet &amp;region, float startDistance)</td></tr>
 <tr class="memdesc:a1e5bc477a09b77b99e2ad82ac95adc91"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne)  <br /></td></tr>
 <tr class="separator:a1e5bc477a09b77b99e2ad82ac95adc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a370f90033c096568d58a18d399102064" id="r_a370f90033c096568d58a18d399102064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370f90033c096568d58a18d399102064">addStartVertices</a> (const <a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>, float &gt; &amp;startVertices)</td></tr>
+<tr class="memitem:a370f90033c096568d58a18d399102064" id="r_a370f90033c096568d58a18d399102064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370f90033c096568d58a18d399102064">addStartVertices</a> (const <a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; VertId, float &gt; &amp;startVertices)</td></tr>
 <tr class="memdesc:a370f90033c096568d58a18d399102064"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased)  <br /></td></tr>
 <tr class="separator:a370f90033c096568d58a18d399102064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35fe09c0ed56d9b10178d9099cef9204" id="r_a35fe09c0ed56d9b10178d9099cef9204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35fe09c0ed56d9b10178d9099cef9204">addStart</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start)</td></tr>
@@ -144,7 +154,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a35fe09c0ed56d9b10178d9099cef9204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b1547c200aedacf976a12ff582e729a" id="r_a9b1547c200aedacf976a12ff582e729a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b1547c200aedacf976a12ff582e729a">setMaxVertUpdates</a> (int v)</td></tr>
 <tr class="separator:a9b1547c200aedacf976a12ff582e729a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c536dc87c144291b79132239fe4d967" id="r_a2c536dc87c144291b79132239fe4d967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c536dc87c144291b79132239fe4d967">growOne</a> ()</td></tr>
+<tr class="memitem:a2c536dc87c144291b79132239fe4d967" id="r_a2c536dc87c144291b79132239fe4d967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c536dc87c144291b79132239fe4d967">growOne</a> ()</td></tr>
 <tr class="memdesc:a2c536dc87c144291b79132239fe4d967"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes one more candidate vertex, which is returned  <br /></td></tr>
 <tr class="separator:a2c536dc87c144291b79132239fe4d967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5c104e6de91cb67a4df448454913a0d" id="r_aa5c104e6de91cb67a4df448454913a0d"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c104e6de91cb67a4df448454913a0d">takeDistanceMap</a> ()</td></tr>
@@ -174,7 +184,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -198,12 +208,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -244,7 +254,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SurfaceDistanceBuilder::addStartRegion </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -267,7 +277,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SurfaceDistanceBuilder::addStartVertices </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>, float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>startVertices</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; VertId, float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>startVertices</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -338,7 +348,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::SurfaceDistanceBuilder::growOne </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::SurfaceDistanceBuilder::growOne </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>

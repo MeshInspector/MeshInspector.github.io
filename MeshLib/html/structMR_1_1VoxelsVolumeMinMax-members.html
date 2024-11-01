@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -124,8 +134,6 @@ $(function(){initNavTree('structMR_1_1VoxelsVolumeMinMax.html',''); initResizabl
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a></td><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701">dims</a></td><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html#a6098927f3eb1a5ae05be948dd3ddf6ea">heapBytes</a>() const</td><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VoxelsVolumeMinMax.html#a1c34f973de3f4a13345a48e819a914db">max</a></td><td class="entry"><a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">MR::VoxelsVolumeMinMax&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VoxelsVolumeMinMax.html#a5cbd57272c7b859e6d81303b092f06c6">min</a></td><td class="entry"><a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">MR::VoxelsVolumeMinMax&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0">voxelSize</a></td><td class="entry"><a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->

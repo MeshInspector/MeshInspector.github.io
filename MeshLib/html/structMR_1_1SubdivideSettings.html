@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -140,13 +150,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac22dd26860cd94e68e46004cd88fc7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a772aa28ef31f33140c7b3f6bfbc36d30" id="r_a772aa28ef31f33140c7b3f6bfbc36d30"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772aa28ef31f33140c7b3f6bfbc36d30">criticalAspectRatioFlip</a> = 1000.0f</td></tr>
 <tr class="separator:a772aa28ef31f33140c7b3f6bfbc36d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e24bf5e1bf140cdfac3cc68b9a693fa" id="r_a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = nullptr</td></tr>
+<tr class="memitem:a5e24bf5e1bf140cdfac3cc68b9a693fa" id="r_a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = nullptr</td></tr>
 <tr class="memdesc:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be subdivided, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb648b35ff705d5ee52cdae10e7cb9b5" id="r_acb648b35ff705d5ee52cdae10e7cb9b5"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb648b35ff705d5ee52cdae10e7cb9b5">notFlippable</a> = nullptr</td></tr>
 <tr class="memdesc:acb648b35ff705d5ee52cdae10e7cb9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation.  <br /></td></tr>
 <tr class="separator:acb648b35ff705d5ee52cdae10e7cb9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4c50e1143edfb7886c734be3226ff9d" id="r_af4c50e1143edfb7886c734be3226ff9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = nullptr</td></tr>
+<tr class="memitem:af4c50e1143edfb7886c734be3226ff9d" id="r_af4c50e1143edfb7886c734be3226ff9d"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = nullptr</td></tr>
 <tr class="memdesc:af4c50e1143edfb7886c734be3226ff9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">New vertices appeared during subdivision will be added here.  <br /></td></tr>
 <tr class="separator:af4c50e1143edfb7886c734be3226ff9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9288f9c5670484c0f76b53be1311b3cc" id="r_a9288f9c5670484c0f76b53be1311b3cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9288f9c5670484c0f76b53be1311b3cc">subdivideBorder</a> = true</td></tr>
@@ -163,13 +173,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a52aa2a88771ab9ca39f096cae8256c7d" id="r_a52aa2a88771ab9ca39f096cae8256c7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52aa2a88771ab9ca39f096cae8256c7d">projectOnOriginalMesh</a> = false</td></tr>
 <tr class="memdesc:a52aa2a88771ab9ca39f096cae8256c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then every new vertex will be projected on the original mesh (before smoothing)  <br /></td></tr>
 <tr class="separator:a52aa2a88771ab9ca39f096cae8256c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e8653d42d8358f40dca297f675d4111" id="r_a9e8653d42d8358f40dca297f675d4111"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a></td></tr>
+<tr class="memitem:a9e8653d42d8358f40dca297f675d4111" id="r_a9e8653d42d8358f40dca297f675d4111"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(VertId)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a></td></tr>
 <tr class="memdesc:a9e8653d42d8358f40dca297f675d4111"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created, but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a9e8653d42d8358f40dca297f675d4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcfc1a9eeddefe49c96b100fce1be413" id="r_afcfc1a9eeddefe49c96b100fce1be413"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcfc1a9eeddefe49c96b100fce1be413">onEdgeSplit</a></td></tr>
+<tr class="memitem:afcfc1a9eeddefe49c96b100fce1be413" id="r_afcfc1a9eeddefe49c96b100fce1be413"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId e1, EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcfc1a9eeddefe49c96b100fce1be413">onEdgeSplit</a></td></tr>
 <tr class="memdesc:afcfc1a9eeddefe49c96b100fce1be413"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:afcfc1a9eeddefe49c96b100fce1be413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47209d51dfa333bfbaecd311df98c6b8" id="r_a47209d51dfa333bfbaecd311df98c6b8"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47209d51dfa333bfbaecd311df98c6b8">beforeEdgeSplit</a></td></tr>
+<tr class="memitem:a47209d51dfa333bfbaecd311df98c6b8" id="r_a47209d51dfa333bfbaecd311df98c6b8"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47209d51dfa333bfbaecd311df98c6b8">beforeEdgeSplit</a></td></tr>
 <tr class="memdesc:a47209d51dfa333bfbaecd311df98c6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is going to split, if it returns false then this split will be skipped  <br /></td></tr>
 <tr class="separator:a47209d51dfa333bfbaecd311df98c6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad044782ba14d1d93d9140190393d28ce" id="r_ad044782ba14d1d93d9140190393d28ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad044782ba14d1d93d9140190393d28ce">progressCallback</a> = {}</td></tr>
@@ -184,7 +194,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt; MR::SubdivideSettings::beforeEdgeSplit</td>
+          <td class="memname">std::function&lt;bool(EdgeId e)&gt; MR::SubdivideSettings::beforeEdgeSplit</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -325,7 +335,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a>* MR::SubdivideSettings::newVerts = nullptr</td>
+          <td class="memname">VertBitSet* MR::SubdivideSettings::newVerts = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -357,7 +367,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt; MR::SubdivideSettings::onEdgeSplit</td>
+          <td class="memname">std::function&lt;void(EdgeId e1, EdgeId e)&gt; MR::SubdivideSettings::onEdgeSplit</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -373,7 +383,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>)&gt; MR::SubdivideSettings::onVertCreated</td>
+          <td class="memname">std::function&lt;void(VertId)&gt; MR::SubdivideSettings::onVertCreated</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -421,7 +431,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>* MR::SubdivideSettings::region = nullptr</td>
+          <td class="memname">FaceBitSet* MR::SubdivideSettings::region = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

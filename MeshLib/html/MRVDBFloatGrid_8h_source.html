@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -151,16 +161,16 @@ $(function(){initNavTree('MRVDBFloatGrid_8h_source.html',''); initResizable(true
 </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4">   37</a></span>MR_BIND_IGNORE <span class="keyword">inline</span> <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a> <a class="code hl_function" href="group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4">fromVdb</a>( <span class="keyword">const</span> openvdb::Coord &amp; v )</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4">   37</a></span>MR_BIND_IGNORE <span class="keyword">inline</span> Vector3i <a class="code hl_function" href="group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4">fromVdb</a>( <span class="keyword">const</span> openvdb::Coord &amp; v )</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> <a class="code hl_typedef" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>( v.x(), v.y(), v.z() );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> Vector3i( v.x(), v.y(), v.z() );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
 </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">   42</a></span>MR_BIND_IGNORE <span class="keyword">inline</span> openvdb::Coord <a class="code hl_function" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a>( <span class="keyword">const</span> <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a> &amp; v )</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">   42</a></span>MR_BIND_IGNORE <span class="keyword">inline</span> openvdb::Coord <a class="code hl_function" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a>( <span class="keyword">const</span> Vector3i &amp; v )</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> openvdb::Coord( v.<a class="code hl_variable" href="structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c">x</a>, v.<a class="code hl_variable" href="structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953">y</a>, v.<a class="code hl_variable" href="structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455">z</a> );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> openvdb::Coord( v.x, v.y, v.z );</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
 </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
@@ -174,15 +184,10 @@ $(function(){initNavTree('MRVDBFloatGrid_8h_source.html',''); initResizable(true
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga218b14201bd57ed729188c171faf44b4"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4">MR::fromVdb</a></div><div class="ttdeci">MR_BIND_IGNORE Vector3i fromVdb(const openvdb::Coord &amp;v)</div><div class="ttdef"><b>Definition</b> MRVDBFloatGrid.h:37</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gab75a6a1d7c95c635ac4101c7a3d25eab"><div class="ttname"><a href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">MR::toVdb</a></div><div class="ttdeci">MR_BIND_IGNORE openvdb::Coord toVdb(const Vector3i &amp;v)</div><div class="ttdef"><b>Definition</b> MRVDBFloatGrid.h:42</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a38d7d5119d68ba78dff0e5a6e29a3f61"><div class="ttname"><a href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">MR::Vector3i</a></div><div class="ttdeci">Vector3&lt; int &gt; Vector3i</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:9</div></div>
 <div class="ttc" id="anamespaceMR_html_a4b6d3fd83a0b2acf2d6e9bfc41f5ee82"><div class="ttname"><a href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a></div><div class="ttdeci">std::shared_ptr&lt; OpenVdbFloatGrid &gt; FloatGrid</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:25</div></div>
 <div class="ttc" id="astructMR_1_1OpenVdbFloatGrid_html"><div class="ttname"><a href="structMR_1_1OpenVdbFloatGrid.html">MR::OpenVdbFloatGrid</a></div><div class="ttdoc">this class just hides very complex type of typedef openvdb::FloatGrid</div><div class="ttdef"><b>Definition</b> MRVDBFloatGrid.h:20</div></div>
 <div class="ttc" id="astructMR_1_1OpenVdbFloatGrid_html_a15a4c9bbd3ab390705854e71ea808687"><div class="ttname"><a href="structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687">MR::OpenVdbFloatGrid::OpenVdbFloatGrid</a></div><div class="ttdeci">OpenVdbFloatGrid() noexcept=default</div></div>
 <div class="ttc" id="astructMR_1_1OpenVdbFloatGrid_html_adb689224a478708a8f7813b0f13ba5a8"><div class="ttname"><a href="structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8">MR::OpenVdbFloatGrid::heapBytes</a></div><div class="ttdeci">size_t heapBytes() const</div><div class="ttdef"><b>Definition</b> MRVDBFloatGrid.h:23</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; int &gt;</a></div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_a3d6f56ed3c525a928116d6c095997c5c"><div class="ttname"><a href="structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c">MR::Vector3::x</a></div><div class="ttdeci">T x</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:25</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_a4cbb29e67931176028f57f29b2bd6953"><div class="ttname"><a href="structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953">MR::Vector3::y</a></div><div class="ttdeci">T y</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:25</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_ae596ea6de55c00124d84150eadecd455"><div class="ttname"><a href="structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455">MR::Vector3::z</a></div><div class="ttdeci">T z</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

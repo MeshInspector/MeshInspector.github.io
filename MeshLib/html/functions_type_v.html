@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -128,6 +138,7 @@ $(function(){initNavTree('functions_type_v.html',''); initResizable(true); });
 <li>VertId&#160;:&#160;<a class="el" href="classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105">MR::Graph</a></li>
 <li>ViewportRectangle&#160;:&#160;<a class="el" href="classMR_1_1Viewport.html#a4ffdd066d297db0b871f78fa572166a3">MR::Viewport</a></li>
 <li>VolumeType&#160;:&#160;<a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a4f55b3b83d93fcd3c8bcfeb48d2e7545">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a>, <a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html#afa5d356ca19a2b095ffff01785c40ca7">MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</a>, <a class="el" href="classMR_1_1VoxelsVolumeCachingAccessor.html#a1f89107f2c482a6e0468ab1cceb602c0">MR::VoxelsVolumeCachingAccessor&lt; V &gt;</a>, <a class="el" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#ab8d79139c35fd5b34335c70d5386092b">MR::VoxelsVolumeInterpolatedAccessor&lt; Accessor &gt;</a></li>
+<li>VTraits&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0">MR::Box&lt; V &gt;</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

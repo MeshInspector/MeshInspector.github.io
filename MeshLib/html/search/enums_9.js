@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mapobject_0',['MapObject',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587',1,'MR::BooleanResultMapper::MapObject'],['../MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246',1,'MapObject:&#160;MRBooleanResultMapper.h']]],
+  ['mapobject_0',['MapObject',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587',1,'MR::BooleanResultMapper']]],
   ['masktype_1',['MaskType',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457',1,'MR::MarkedVoxelSlice']]],
   ['meshcompression_2',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
   ['method_3',['Method',['../structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5',1,'MR::SelfIntersections::Settings::Method'],['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c',1,'MR::WebRequest::Method']]],

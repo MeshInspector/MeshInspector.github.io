@@ -7,5 +7,7 @@ var classMR_1_1RibbonMenuSearch =
     [ "getWidthMenuUI", "classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7", null ],
     [ "pushRecentItem", "classMR_1_1RibbonMenuSearch.html#ac74ec292a21908372b2925b5aa868cf8", null ],
     [ "setSmallUI", "classMR_1_1RibbonMenuSearch.html#ac091dc76627f29a6d704646a477f55c5", null ],
-    [ "windowName", "classMR_1_1RibbonMenuSearch.html#a9e21069323068b3d3e37691e3e2bdb09", null ]
+    [ "windowName", "classMR_1_1RibbonMenuSearch.html#a9e21069323068b3d3e37691e3e2bdb09", null ],
+    [ "onFocusSignal", "classMR_1_1RibbonMenuSearch.html#aebc64b96bc8c8dbcf6ef65641e9a5e4d", null ],
+    [ "onToolActivateSignal", "classMR_1_1RibbonMenuSearch.html#a9f8e00b4931028438808d8fc56c7a367", null ]
 ];

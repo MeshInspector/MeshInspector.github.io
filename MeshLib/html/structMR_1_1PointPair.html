@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -141,10 +151,10 @@ $(function(){initNavTree('structMR_1_1PointPair.html',''); initResizable(true); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0be978719b10258123e31ffe3413c532" id="r_a0be978719b10258123e31ffe3413c532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be978719b10258123e31ffe3413c532">srcVertId</a></td></tr>
+<tr class="memitem:a0be978719b10258123e31ffe3413c532" id="r_a0be978719b10258123e31ffe3413c532"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be978719b10258123e31ffe3413c532">srcVertId</a></td></tr>
 <tr class="memdesc:a0be978719b10258123e31ffe3413c532"><td class="mdescLeft">&#160;</td><td class="mdescRight">id of the source point  <br /></td></tr>
 <tr class="separator:a0be978719b10258123e31ffe3413c532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e96779ac71de15fae84c9c1dee17cb7" id="r_a6e96779ac71de15fae84c9c1dee17cb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e96779ac71de15fae84c9c1dee17cb7">tgtCloseVert</a></td></tr>
+<tr class="memitem:a6e96779ac71de15fae84c9c1dee17cb7" id="r_a6e96779ac71de15fae84c9c1dee17cb7"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e96779ac71de15fae84c9c1dee17cb7">tgtCloseVert</a></td></tr>
 <tr class="separator:a6e96779ac71de15fae84c9c1dee17cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a087147661647b219169ee6e63da113fd" id="r_a087147661647b219169ee6e63da113fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087147661647b219169ee6e63da113fd">normalsAngleCos</a> = 1.f</td></tr>
 <tr class="memdesc:a087147661647b219169ee6e63da113fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">cosine between normals in source and target points  <br /></td></tr>
@@ -153,16 +163,16 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ae8d7edf5f01746179a2eb12b3e66b1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if if the closest point on target is located on the boundary (only for meshes)  <br /></td></tr>
 <tr class="separator:ae8d7edf5f01746179a2eb12b3e66b1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structMR_1_1ICPPairData"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structMR_1_1ICPPairData')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1ICPPairData.html">MR::ICPPairData</a></td></tr>
-<tr class="memitem:af30195d74b2a6994fdfadd8768407c38 inherit pub_attribs_structMR_1_1ICPPairData" id="r_af30195d74b2a6994fdfadd8768407c38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#af30195d74b2a6994fdfadd8768407c38">srcPoint</a></td></tr>
+<tr class="memitem:af30195d74b2a6994fdfadd8768407c38 inherit pub_attribs_structMR_1_1ICPPairData" id="r_af30195d74b2a6994fdfadd8768407c38"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#af30195d74b2a6994fdfadd8768407c38">srcPoint</a></td></tr>
 <tr class="memdesc:af30195d74b2a6994fdfadd8768407c38 inherit pub_attribs_structMR_1_1ICPPairData"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of the source point after transforming in world space  <br /></td></tr>
 <tr class="separator:af30195d74b2a6994fdfadd8768407c38 inherit pub_attribs_structMR_1_1ICPPairData"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26326a83f053dc2e5ea6f564143ac410 inherit pub_attribs_structMR_1_1ICPPairData" id="r_a26326a83f053dc2e5ea6f564143ac410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#a26326a83f053dc2e5ea6f564143ac410">srcNorm</a></td></tr>
+<tr class="memitem:a26326a83f053dc2e5ea6f564143ac410 inherit pub_attribs_structMR_1_1ICPPairData" id="r_a26326a83f053dc2e5ea6f564143ac410"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#a26326a83f053dc2e5ea6f564143ac410">srcNorm</a></td></tr>
 <tr class="memdesc:a26326a83f053dc2e5ea6f564143ac410 inherit pub_attribs_structMR_1_1ICPPairData"><td class="mdescLeft">&#160;</td><td class="mdescRight">normal in source point after transforming in world space  <br /></td></tr>
 <tr class="separator:a26326a83f053dc2e5ea6f564143ac410 inherit pub_attribs_structMR_1_1ICPPairData"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a8aa18bdc6d6ceb392dafa06cbf3ba7 inherit pub_attribs_structMR_1_1ICPPairData" id="r_a5a8aa18bdc6d6ceb392dafa06cbf3ba7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#a5a8aa18bdc6d6ceb392dafa06cbf3ba7">tgtPoint</a></td></tr>
+<tr class="memitem:a5a8aa18bdc6d6ceb392dafa06cbf3ba7 inherit pub_attribs_structMR_1_1ICPPairData" id="r_a5a8aa18bdc6d6ceb392dafa06cbf3ba7"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#a5a8aa18bdc6d6ceb392dafa06cbf3ba7">tgtPoint</a></td></tr>
 <tr class="memdesc:a5a8aa18bdc6d6ceb392dafa06cbf3ba7 inherit pub_attribs_structMR_1_1ICPPairData"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of the closest point on target after transforming in world space  <br /></td></tr>
 <tr class="separator:a5a8aa18bdc6d6ceb392dafa06cbf3ba7 inherit pub_attribs_structMR_1_1ICPPairData"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f615835e680ec678113e7e2367e3a09 inherit pub_attribs_structMR_1_1ICPPairData" id="r_a7f615835e680ec678113e7e2367e3a09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#a7f615835e680ec678113e7e2367e3a09">tgtNorm</a></td></tr>
+<tr class="memitem:a7f615835e680ec678113e7e2367e3a09 inherit pub_attribs_structMR_1_1ICPPairData" id="r_a7f615835e680ec678113e7e2367e3a09"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#a7f615835e680ec678113e7e2367e3a09">tgtNorm</a></td></tr>
 <tr class="memdesc:a7f615835e680ec678113e7e2367e3a09 inherit pub_attribs_structMR_1_1ICPPairData"><td class="mdescLeft">&#160;</td><td class="mdescRight">normal in the target point after transforming in world space  <br /></td></tr>
 <tr class="separator:a7f615835e680ec678113e7e2367e3a09 inherit pub_attribs_structMR_1_1ICPPairData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe05b997a712f074a3053f11dab0a7eb inherit pub_attribs_structMR_1_1ICPPairData" id="r_afe05b997a712f074a3053f11dab0a7eb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb">distSq</a> = 0.f</td></tr>
@@ -233,7 +243,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::PointPair::srcVertId</td>
+          <td class="memname">VertId MR::PointPair::srcVertId</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -249,7 +259,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::PointPair::tgtCloseVert</td>
+          <td class="memname">VertId MR::PointPair::tgtCloseVert</td>
         </tr>
       </table>
 </div><div class="memdoc">

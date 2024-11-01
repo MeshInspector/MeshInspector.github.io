@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -120,7 +130,7 @@ $(function(){initNavTree('MRIOFilters_8h_source.html',''); initResizable(true); 
 <div class="contents">
 <a href="MRIOFilters_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;compare&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
@@ -146,57 +156,28 @@ $(function(){initNavTree('MRIOFilters_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a">   27</a></span>    std::partial_ordering <a class="code hl_function" href="structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a">operator &lt;=&gt;</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; ) <span class="keyword">const</span> = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b">   29</a></span>    [[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b">isSupportedExtension</a>( <span class="keyword">const</span> std::string&amp; ext )<span class="keyword"> const</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223">extensions</a>.find( ext ) != std::string::npos;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765">   29</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765">isSupportedExtension</a>( <span class="keyword">const</span> std::string&amp; ext ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
-</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">   35</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> = std::vector&lt;IOFilter&gt;;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">   32</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> = std::vector&lt;IOFilter&gt;;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#ga92c17e5c77b16529d727a2fe2b1c1148">   35</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> <a class="code hl_function" href="group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314">operator | </a>( <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&amp; a, <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&amp; b );</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#gae94abfb9874900b0fa66d3383ea8489b">   37</a></span><span class="keyword">inline</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> <a class="code hl_function" href="group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314">operator | </a>( <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&amp; a, <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&amp; b )</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> copy = a;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; bElem : b )</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">if</span> ( std::find_if( a.begin(), a.end(), [&amp;] ( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; aF )</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        {</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            return aF.extensions == bElem.extensions;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        } ) == a.end() )</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            copy.push_back( bElem );</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordflow">return</span> copy;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>}</div>
-</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#ga785198f857650c3631e4bce518e9518f">   52</a></span><span class="keyword">inline</span> std::optional&lt;IOFilter&gt; <a class="code hl_function" href="group__IOFiltersGroup.html#ga785198f857650c3631e4bce518e9518f">findFilter</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&amp; filters, <span class="keyword">const</span> std::string&amp; extension )</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">const</span> <span class="keyword">auto</span> it = std::find_if( filters.begin(), filters.end(), [&amp;extension] ( <span class="keyword">auto</span>&amp;&amp; filter )</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        return filter.isSupportedExtension( extension );</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    } );</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordflow">if</span> ( it != filters.end() )</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">return</span> *it;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
-</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#gadd9420cabaaa71b707111e6213f0fdc6">   38</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt;IOFilter&gt; <a class="code hl_function" href="group__IOFiltersGroup.html#gadd9420cabaaa71b707111e6213f0fdc6">findFilter</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&amp; filters, <span class="keyword">const</span> std::string&amp; extension );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga8e5910c21dd8d185e8c21a9691826314"><div class="ttname"><a href="group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314">MR::operator|</a></div><div class="ttdeci">BitSet operator|(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:323</div></div>
-<div class="ttc" id="agroup__IOFiltersGroup_html_ga6e5e24c14d4909fcad8aa5fab54d047b"><div class="ttname"><a href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:35</div></div>
-<div class="ttc" id="agroup__IOFiltersGroup_html_ga785198f857650c3631e4bce518e9518f"><div class="ttname"><a href="group__IOFiltersGroup.html#ga785198f857650c3631e4bce518e9518f">MR::findFilter</a></div><div class="ttdeci">std::optional&lt; IOFilter &gt; findFilter(const IOFilters &amp;filters, const std::string &amp;extension)</div><div class="ttdoc">find a corresponding filter for a given extension</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:52</div></div>
+<div class="ttc" id="agroup__IOFiltersGroup_html_ga6e5e24c14d4909fcad8aa5fab54d047b"><div class="ttname"><a href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:32</div></div>
+<div class="ttc" id="agroup__IOFiltersGroup_html_gadd9420cabaaa71b707111e6213f0fdc6"><div class="ttname"><a href="group__IOFiltersGroup.html#gadd9420cabaaa71b707111e6213f0fdc6">MR::findFilter</a></div><div class="ttdeci">MRMESH_API std::optional&lt; IOFilter &gt; findFilter(const IOFilters &amp;filters, const std::string &amp;extension)</div><div class="ttdoc">find a corresponding filter for a given extension</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html"><div class="ttname"><a href="structMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition</b> MRIOFilters.h:17</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html_a18838c79f9c4e0c3b96c9c294f66b83b"><div class="ttname"><a href="structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b">MR::IOFilter::isSupportedExtension</a></div><div class="ttdeci">bool isSupportedExtension(const std::string &amp;ext) const</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:29</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_a54c41ce2b24a4ff3c52cb1bc4b87094a"><div class="ttname"><a href="structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a">MR::IOFilter::IOFilter</a></div><div class="ttdeci">IOFilter(std::string _name, std::string _ext)</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:19</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_a5f6f14f66f3758e05a9ca414470b17e3"><div class="ttname"><a href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">MR::IOFilter::IOFilter</a></div><div class="ttdeci">IOFilter()=default</div></div>
+<div class="ttc" id="astructMR_1_1IOFilter_html_a608730d6a06e28828607af1531f9a765"><div class="ttname"><a href="structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765">MR::IOFilter::isSupportedExtension</a></div><div class="ttdeci">MRMESH_API bool isSupportedExtension(const std::string &amp;ext) const</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_a80dd32b51dbd9885a56ae8cf65001c7a"><div class="ttname"><a href="structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a">MR::IOFilter::operator&lt;=&gt;</a></div><div class="ttdeci">std::partial_ordering operator&lt;=&gt;(const IOFilter &amp;) const =default</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_a8806427d8212780dc5b20506b24b1223"><div class="ttname"><a href="structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223">MR::IOFilter::extensions</a></div><div class="ttdeci">std::string extensions</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:25</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_ad4426ebb26f3474b6d69ca07c8e35980"><div class="ttname"><a href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">MR::IOFilter::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:24</div></div>

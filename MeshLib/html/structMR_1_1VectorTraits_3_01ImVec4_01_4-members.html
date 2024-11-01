@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -123,8 +133,9 @@ $(function(){initNavTree('structMR_1_1VectorTraits_3_01ImVec4_01_4.html',''); in
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a5d100100570da05384e44a635325aa79">BaseType</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html">MR::VectorTraits&lt; ImVec4 &gt;</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a7a34fb83d68aa2fcc53694b08e464479">ChangeBaseType</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html">MR::VectorTraits&lt; ImVec4 &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a0839a20ba41ede82519909991540b836">getElem</a>(int i, U &amp;&amp;value)</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html">MR::VectorTraits&lt; ImVec4 &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a7484396f1c808f2bbfaa197fdaddb7ab">size</a></td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html">MR::VectorTraits&lt; ImVec4 &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#ad2c8ef31c89b8f6ac98ea4468e6ca19d">diagonal</a>(float v)</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html">MR::VectorTraits&lt; ImVec4 &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a0839a20ba41ede82519909991540b836">getElem</a>(int i, U &amp;&amp;value)</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html">MR::VectorTraits&lt; ImVec4 &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a7484396f1c808f2bbfaa197fdaddb7ab">size</a></td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html">MR::VectorTraits&lt; ImVec4 &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

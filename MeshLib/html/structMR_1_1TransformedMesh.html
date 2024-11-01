@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -132,14 +142,14 @@ $(function(){initNavTree('structMR_1_1TransformedMesh.html',''); initResizable(t
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7e32b37b30b047ad8af5555d3fe6b36" id="r_ad7e32b37b30b047ad8af5555d3fe6b36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7e32b37b30b047ad8af5555d3fe6b36">TransformedMesh</a> ()=default</td></tr>
 <tr class="separator:ad7e32b37b30b047ad8af5555d3fe6b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f79ea52914dc78ad341dade85cee49b" id="r_a4f79ea52914dc78ad341dade85cee49b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f79ea52914dc78ad341dade85cee49b">TransformedMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> <a class="el" href="#a335c5766297cd37d2bc6d54e7f0867da">mesh</a>, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;<a class="el" href="#a643b404d35e9496c6ee8d3382c80ee18">xf</a>={})</td></tr>
+<tr class="memitem:a4f79ea52914dc78ad341dade85cee49b" id="r_a4f79ea52914dc78ad341dade85cee49b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f79ea52914dc78ad341dade85cee49b">TransformedMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> <a class="el" href="#a335c5766297cd37d2bc6d54e7f0867da">mesh</a>, const AffineXf3f &amp;<a class="el" href="#a643b404d35e9496c6ee8d3382c80ee18">xf</a>={})</td></tr>
 <tr class="separator:a4f79ea52914dc78ad341dade85cee49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a335c5766297cd37d2bc6d54e7f0867da" id="r_a335c5766297cd37d2bc6d54e7f0867da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a335c5766297cd37d2bc6d54e7f0867da">mesh</a></td></tr>
 <tr class="separator:a335c5766297cd37d2bc6d54e7f0867da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643b404d35e9496c6ee8d3382c80ee18" id="r_a643b404d35e9496c6ee8d3382c80ee18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a643b404d35e9496c6ee8d3382c80ee18">xf</a></td></tr>
+<tr class="memitem:a643b404d35e9496c6ee8d3382c80ee18" id="r_a643b404d35e9496c6ee8d3382c80ee18"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a643b404d35e9496c6ee8d3382c80ee18">xf</a></td></tr>
 <tr class="separator:a643b404d35e9496c6ee8d3382c80ee18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -187,7 +197,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -221,7 +231,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::TransformedMesh::xf</td>
+          <td class="memname">AffineXf3f MR::TransformedMesh::xf</td>
         </tr>
       </table>
 </div><div class="memdoc">

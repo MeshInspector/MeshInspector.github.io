@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -128,6 +138,10 @@ $(function(){initNavTree('structMR_1_1Viewport_1_1Parameters.html',''); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:ab498d9b4852811b8095a89935081126f" id="r_ab498d9b4852811b8095a89935081126f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab498d9b4852811b8095a89935081126f">GlobalBasisScaleMode</a> { <a class="el" href="#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb">Auto</a>
+, <a class="el" href="#ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61">Fixed</a>
+ }</td></tr>
+<tr class="separator:ab498d9b4852811b8095a89935081126f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a021c10bdda5a71cfdc88b0e7142e780b" id="r_a021c10bdda5a71cfdc88b0e7142e780b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a021c10bdda5a71cfdc88b0e7142e780b">RotationCenterMode</a> { <a class="el" href="#a021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16">Static</a>
 , <a class="el" href="#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e">DynamicStatic</a>
 , <a class="el" href="#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c">Dynamic</a>
@@ -136,20 +150,18 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5fd1d3f231f288b36c5434caa7238472" id="r_a5fd1d3f231f288b36c5434caa7238472"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fd1d3f231f288b36c5434caa7238472">globalBasisAxesXf</a> () const</td></tr>
-<tr class="separator:a5fd1d3f231f288b36c5434caa7238472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6737571299351aa58e69d5490ed3e7de" id="r_a6737571299351aa58e69d5490ed3e7de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6737571299351aa58e69d5490ed3e7de">operator==</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Viewport::Parameters</a> &amp;<a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
-<tr class="separator:a6737571299351aa58e69d5490ed3e7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe736bf771f335d8d782c1037715fd75" id="r_abe736bf771f335d8d782c1037715fd75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe736bf771f335d8d782c1037715fd75">operator==</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Viewport::Parameters</a> &amp;<a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const =default</td></tr>
+<tr class="separator:abe736bf771f335d8d782c1037715fd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a22334f5bd9465a4b836b6ca117f39068" id="r_a22334f5bd9465a4b836b6ca117f39068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22334f5bd9465a4b836b6ca117f39068">backgroundColor</a> = <a class="el" href="structMR_1_1Color.html">Color</a>( <a class="el" href="classVector3f.html">Vector3f</a>{0.3f, 0.3f, 0.5f} )</td></tr>
+<tr class="memitem:a22334f5bd9465a4b836b6ca117f39068" id="r_a22334f5bd9465a4b836b6ca117f39068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22334f5bd9465a4b836b6ca117f39068">backgroundColor</a> = <a class="el" href="structMR_1_1Color.html">Color</a>( Vector3f{0.3f, 0.3f, 0.5f} )</td></tr>
 <tr class="separator:a22334f5bd9465a4b836b6ca117f39068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f5b4aad145854c698416a4ac59ae0f1" id="r_a8f5b4aad145854c698416a4ac59ae0f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f5b4aad145854c698416a4ac59ae0f1">lightPosition</a> {0.0f, 0.3f, 0.0f}</td></tr>
+<tr class="memitem:a8f5b4aad145854c698416a4ac59ae0f1" id="r_a8f5b4aad145854c698416a4ac59ae0f1"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f5b4aad145854c698416a4ac59ae0f1">lightPosition</a> {0.0f, 0.3f, 0.0f}</td></tr>
 <tr class="separator:a8f5b4aad145854c698416a4ac59ae0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eb6827f455ef93e1175b0364c9cbc40" id="r_a8eb6827f455ef93e1175b0364c9cbc40"><td class="memItemLeft" align="right" valign="top">Quaternionf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eb6827f455ef93e1175b0364c9cbc40">cameraTrackballAngle</a></td></tr>
 <tr class="separator:a8eb6827f455ef93e1175b0364c9cbc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1df762dce4c2e6b6f250ab0220bf3429" id="r_a1df762dce4c2e6b6f250ab0220bf3429"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1df762dce4c2e6b6f250ab0220bf3429">cameraTranslation</a></td></tr>
+<tr class="memitem:a1df762dce4c2e6b6f250ab0220bf3429" id="r_a1df762dce4c2e6b6f250ab0220bf3429"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1df762dce4c2e6b6f250ab0220bf3429">cameraTranslation</a></td></tr>
 <tr class="separator:a1df762dce4c2e6b6f250ab0220bf3429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a899380f5e0c8dac5d5d3f4045a1b9790" id="r_a899380f5e0c8dac5d5d3f4045a1b9790"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a899380f5e0c8dac5d5d3f4045a1b9790">cameraZoom</a> {1.0f}</td></tr>
 <tr class="separator:a899380f5e0c8dac5d5d3f4045a1b9790"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,13 +175,15 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6f3e434ffe08b1fe1a3d982a052f7f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a331a42d9b0fd61e7260642f7ce040342" id="r_a331a42d9b0fd61e7260642f7ce040342"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331a42d9b0fd61e7260642f7ce040342">orthographic</a> {true}</td></tr>
 <tr class="separator:a331a42d9b0fd61e7260642f7ce040342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0449b17fbc4c4ecf681446e0fb638d6" id="r_aa0449b17fbc4c4ecf681446e0fb638d6"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#ab498d9b4852811b8095a89935081126f">MR::Viewport::Parameters::GlobalBasisScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0449b17fbc4c4ecf681446e0fb638d6">Auto</a></td></tr>
+<tr class="separator:aa0449b17fbc4c4ecf681446e0fb638d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af702c49c5d0e216669074795ef81a796" id="r_af702c49c5d0e216669074795ef81a796"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af702c49c5d0e216669074795ef81a796">objectScale</a> {1.0f}</td></tr>
 <tr class="separator:af702c49c5d0e216669074795ef81a796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5812db13d35cbe2ad6ad5bd87c2d30eb" id="r_a5812db13d35cbe2ad6ad5bd87c2d30eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5812db13d35cbe2ad6ad5bd87c2d30eb">borderColor</a></td></tr>
 <tr class="separator:a5812db13d35cbe2ad6ad5bd87c2d30eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79a816e2ea798ee49a1d02cd65fc53a9" id="r_a79a816e2ea798ee49a1d02cd65fc53a9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79a816e2ea798ee49a1d02cd65fc53a9">label</a></td></tr>
 <tr class="separator:a79a816e2ea798ee49a1d02cd65fc53a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a784d7971f07e64aba46caec551eeae94" id="r_a784d7971f07e64aba46caec551eeae94"><td class="memItemLeft" align="right" valign="top">Plane3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a784d7971f07e64aba46caec551eeae94">clippingPlane</a> {<a class="el" href="structMR_1_1Vector3.html#a048dcca2da540bf2d429cbca37e41092">Vector3f::plusX</a>(), 0.0f}</td></tr>
+<tr class="memitem:a784d7971f07e64aba46caec551eeae94" id="r_a784d7971f07e64aba46caec551eeae94"><td class="memItemLeft" align="right" valign="top">Plane3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a784d7971f07e64aba46caec551eeae94">clippingPlane</a> {Vector3f::plusX(), 0.0f}</td></tr>
 <tr class="separator:a784d7971f07e64aba46caec551eeae94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab86532888b668d97ffd4c158c84ad63d" id="r_ab86532888b668d97ffd4c158c84ad63d"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#a021c10bdda5a71cfdc88b0e7142e780b">MR::Viewport::Parameters::RotationCenterMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab86532888b668d97ffd4c158c84ad63d">Dynamic</a></td></tr>
 <tr class="separator:ab86532888b668d97ffd4c158c84ad63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +191,32 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab1f95c9313aac4dc9276cd0a0a4071d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ab498d9b4852811b8095a89935081126f" name="ab498d9b4852811b8095a89935081126f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab498d9b4852811b8095a89935081126f">&#9670;&#160;</a></span>GlobalBasisScaleMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ab498d9b4852811b8095a89935081126f">MR::Viewport::Parameters::GlobalBasisScaleMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb" name="ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb"></a>Auto&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61" name="ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61"></a>Fixed&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a021c10bdda5a71cfdc88b0e7142e780b" name="a021c10bdda5a71cfdc88b0e7142e780b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a021c10bdda5a71cfdc88b0e7142e780b">&#9670;&#160;</a></span>RotationCenterMode</h2>
 
@@ -205,8 +245,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5fd1d3f231f288b36c5434caa7238472" name="a5fd1d3f231f288b36c5434caa7238472"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fd1d3f231f288b36c5434caa7238472">&#9670;&#160;</a></span>globalBasisAxesXf()</h2>
+<a id="abe736bf771f335d8d782c1037715fd75" name="abe736bf771f335d8d782c1037715fd75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe736bf771f335d8d782c1037715fd75">&#9670;&#160;</a></span>operator==()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,39 +255,36 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::Viewport::Parameters::globalBasisAxesXf </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6737571299351aa58e69d5490ed3e7de" name="a6737571299351aa58e69d5490ed3e7de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6737571299351aa58e69d5490ed3e7de">&#9670;&#160;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
           <td class="memname">bool MR::Viewport::Parameters::operator== </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Viewport::Parameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa0449b17fbc4c4ecf681446e0fb638d6" name="aa0449b17fbc4c4ecf681446e0fb638d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0449b17fbc4c4ecf681446e0fb638d6">&#9670;&#160;</a></span>Auto</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ab498d9b4852811b8095a89935081126f">MR::Viewport::Parameters::GlobalBasisScaleMode</a> MR::Viewport::Parameters::Auto</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a22334f5bd9465a4b836b6ca117f39068" name="a22334f5bd9465a4b836b6ca117f39068"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22334f5bd9465a4b836b6ca117f39068">&#9670;&#160;</a></span>backgroundColor</h2>
 
@@ -255,7 +292,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Color.html">Color</a> MR::Viewport::Parameters::backgroundColor = <a class="el" href="structMR_1_1Color.html">Color</a>( <a class="el" href="classVector3f.html">Vector3f</a>{0.3f, 0.3f, 0.5f} )</td>
+          <td class="memname"><a class="el" href="structMR_1_1Color.html">Color</a> MR::Viewport::Parameters::backgroundColor = <a class="el" href="structMR_1_1Color.html">Color</a>( Vector3f{0.3f, 0.3f, 0.5f} )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -325,7 +362,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::Viewport::Parameters::cameraTranslation</td>
+          <td class="memname">Vector3f MR::Viewport::Parameters::cameraTranslation</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -367,7 +404,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Plane3f MR::Viewport::Parameters::clippingPlane {<a class="el" href="structMR_1_1Vector3.html#a048dcca2da540bf2d429cbca37e41092">Vector3f::plusX</a>(), 0.0f}</td>
+          <td class="memname">Plane3f MR::Viewport::Parameters::clippingPlane {Vector3f::plusX(), 0.0f}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -423,7 +460,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::Viewport::Parameters::lightPosition {0.0f, 0.3f, 0.0f}</td>
+          <td class="memname">Vector3f MR::Viewport::Parameters::lightPosition {0.0f, 0.3f, 0.0f}</td>
         </tr>
       </table>
 </div><div class="memdoc">

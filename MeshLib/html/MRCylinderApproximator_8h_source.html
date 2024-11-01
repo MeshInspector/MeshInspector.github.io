@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -401,9 +411,9 @@ $(function(){initNavTree('MRCylinderApproximator_8h_source.html',''); initResiza
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>            W[2], 0, -W[0],</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>            -W[1], W[0], 0;</div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        Eigen::Matrix&lt;T, 3, 3&gt; <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> = P * precomputedF0_ * P;</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatA = -( S * <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> * S );</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatAA = hatA * <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>;</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        Eigen::Matrix&lt;T, 3, 3&gt; A = P * precomputedF0_ * P;</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatA = -( S * A * S );</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatAA = hatA * A;</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        T trace = hatAA.trace();</div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        Eigen::Matrix&lt;T, 3, 3&gt; Q = hatA / trace;</div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        Eigen::Vector&lt;T, 6&gt; pVec{ P( 0, 0 ), P( 0, 1 ), P( 0, 2 ), P( 1, 1 ), P( 1, 2 ), P( 2, 2 ) };</div>
@@ -534,7 +544,6 @@ $(function(){initNavTree('MRCylinderApproximator_8h_source.html',''); initResiza
 </div>
 <div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span> </div>
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>}</div>
-<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">MapObject::A</a></div><div class="ttdeci">@ A</div></div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
 <div class="ttc" id="aMRCylinder3_8h_html"><div class="ttname"><a href="MRCylinder3_8h.html">MRCylinder3.h</a></div></div>
 <div class="ttc" id="aMRMatrix_8h_html"><div class="ttname"><a href="MRMatrix_8h.html">MRMatrix.h</a></div></div>

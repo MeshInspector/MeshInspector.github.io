@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -147,7 +157,7 @@ $(function(){initNavTree('MRRibbonIcons_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        ObjectTypeIcon,   <span class="comment">// have two sizes</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        IndependentIcons, <span class="comment">// have two sizes</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        Logos,            <span class="comment">// have two sizes</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>,</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>,</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    };</div>
 </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// this should be called once on start of program (called in RibbonMenu::init)</span></div>
@@ -175,7 +185,7 @@ $(function(){initNavTree('MRRibbonIcons_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        X0_75,</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        X1,</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        X3,</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>,</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    };</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keyword">using </span>SizedIcons = std::array&lt;Icons, size_t( Sizes::Count )&gt;;</div>
@@ -207,7 +217,6 @@ $(function(){initNavTree('MRRibbonIcons_8h_source.html',''); initResizable(true)
 </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
-<div class="ttc" id="aMRDotNet_2MRMeshBoolean_8h_html_a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">BooleanOperation::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="aMRFlagOperators_8h_html"><div class="ttname"><a href="MRFlagOperators_8h.html">MRFlagOperators.h</a></div></div>
 <div class="ttc" id="aMRFlagOperators_8h_html_a9f6a28b80b13e71ba9ae42246c99ba1e"><div class="ttname"><a href="MRFlagOperators_8h.html#a9f6a28b80b13e71ba9ae42246c99ba1e">MR_MAKE_FLAG_OPERATORS_IN_CLASS</a></div><div class="ttdeci">#define MR_MAKE_FLAG_OPERATORS_IN_CLASS(T)</div><div class="ttdef"><b>Definition</b> MRFlagOperators.h:9</div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
@@ -219,6 +228,7 @@ $(function(){initNavTree('MRRibbonIcons_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aclassMR_1_1RibbonIcons_html_acd06ecfde8f0637bb01c0d36d8605bef"><div class="ttname"><a href="classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605bef">MR::RibbonIcons::ColorType</a></div><div class="ttdeci">ColorType</div><div class="ttdef"><b>Definition</b> MRRibbonIcons.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonIcons_html_af834f6c83c9f7dd9c55a0a6aa20a8e45"><div class="ttname"><a href="classMR_1_1RibbonIcons.html#af834f6c83c9f7dd9c55a0a6aa20a8e45">MR::RibbonIcons::free</a></div><div class="ttdeci">static MRVIEWER_API void free()</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

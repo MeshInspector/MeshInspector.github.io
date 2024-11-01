@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -128,9 +138,9 @@ $(function(){initNavTree('MRMapEdge_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="}">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df">   11</a></span>[[nodiscard]] <span class="keyword">inline</span> <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="code hl_function" href="namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df">mapEdge</a>( <span class="keyword">const</span> WholeEdgeMap &amp; map, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> src )</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df">   11</a></span>[[nodiscard]] <span class="keyword">inline</span> EdgeId <a class="code hl_function" href="namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df">mapEdge</a>( <span class="keyword">const</span> WholeEdgeMap &amp; map, EdgeId src )</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> res = map[ src.undirected() ];</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    EdgeId res = map[ src.undirected() ];</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordflow">if</span> ( res &amp;&amp; src.odd() )</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        res = res.sym();</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordflow">return</span> res;</div>
@@ -138,9 +148,9 @@ $(function(){initNavTree('MRMapEdge_8h_source.html',''); initResizable(true); })
 </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespaceMR.html#a41ced3058fe68e59ccd27b7b81bf5e3c">   20</a></span>[[nodiscard]] <span class="keyword">inline</span> <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="code hl_function" href="namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df">mapEdge</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a7a097c2851c9c54eef96a938f84750a4">WholeEdgeHashMap</a> &amp; map, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> src )</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespaceMR.html#a41ced3058fe68e59ccd27b7b81bf5e3c">   20</a></span>[[nodiscard]] <span class="keyword">inline</span> EdgeId <a class="code hl_function" href="namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df">mapEdge</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a7a097c2851c9c54eef96a938f84750a4">WholeEdgeHashMap</a> &amp; map, EdgeId src )</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> res;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    EdgeId res;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">auto</span> it = map.find( src.undirected() );</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">if</span> ( it != map.end() )</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
@@ -167,12 +177,11 @@ $(function(){initNavTree('MRMapEdge_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRBuffer_8h_html"><div class="ttname"><a href="MRBuffer_8h.html">MRBuffer.h</a></div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_add62b8bcfb58fedb4bcb251ed3e5f5c8"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></div><div class="ttdeci">int EdgeId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:52</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6210dabfb050a70351fc28943644e0ec"><div class="ttname"><a href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">MR::getAt</a></div><div class="ttdeci">T getAt(const Buffer&lt; T, I &gt; &amp;bmap, I key)</div><div class="ttdoc">given some buffer map and a key, returns the value associated with the key, or default value if key i...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:119</div></div>
-<div class="ttc" id="anamespaceMR_html_a7a097c2851c9c54eef96a938f84750a4"><div class="ttname"><a href="namespaceMR.html#a7a097c2851c9c54eef96a938f84750a4">MR::WholeEdgeHashMap</a></div><div class="ttdeci">HashMap&lt; UndirectedEdgeId, EdgeId &gt; WholeEdgeHashMap</div><div class="ttdoc">mapping of whole edges: map[e]-&gt;f, map[e.sym()]-&gt;f.sym(), where only map[e] for even edges is stored</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:459</div></div>
+<div class="ttc" id="anamespaceMR_html_a7a097c2851c9c54eef96a938f84750a4"><div class="ttname"><a href="namespaceMR.html#a7a097c2851c9c54eef96a938f84750a4">MR::WholeEdgeHashMap</a></div><div class="ttdeci">HashMap&lt; UndirectedEdgeId, EdgeId &gt; WholeEdgeHashMap</div><div class="ttdoc">mapping of whole edges: map[e]-&gt;f, map[e.sym()]-&gt;f.sym(), where only map[e] for even edges is stored</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:468</div></div>
 <div class="ttc" id="anamespaceMR_html_ab1d2f80b1c61df595390f0a811296879"><div class="ttname"><a href="namespaceMR.html#ab1d2f80b1c61df595390f0a811296879">MR::mapEdges</a></div><div class="ttdeci">MRMESH_API UndirectedEdgeBitSet mapEdges(const WholeEdgeMap &amp;map, const UndirectedEdgeBitSet &amp;src)</div><div class="ttdoc">given input bit-set (src), converts each id corresponding to set bit using given map,...</div></div>
 <div class="ttc" id="anamespaceMR_html_afea1c6e74e1a6a4ed14dc7fcf09b24df"><div class="ttname"><a href="namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df">MR::mapEdge</a></div><div class="ttdeci">EdgeId mapEdge(const WholeEdgeMap &amp;map, EdgeId src)</div><div class="ttdoc">given input edge (src), converts its id using given map</div><div class="ttdef"><b>Definition</b> MRMapEdge.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->

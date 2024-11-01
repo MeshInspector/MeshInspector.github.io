@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -137,20 +147,20 @@ $(function(){initNavTree('classMR_1_1ObjectFactoryBase.html',''); initResizable(
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac30bc00a9e2ead7239d84bcb113ebbda" id="r_ac30bc00a9e2ead7239d84bcb113ebbda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac30bc00a9e2ead7239d84bcb113ebbda">ObjectFactoryBase</a> (std::string className, <a class="el" href="namespaceMR.html#a748899906b8ac8f5f125c7f913e38007">ObjectMakerFunc</a> *creator)</td></tr>
-<tr class="separator:ac30bc00a9e2ead7239d84bcb113ebbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa58c04997252d38070201583bd163e4b" id="r_aa58c04997252d38070201583bd163e4b"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58c04997252d38070201583bd163e4b">ObjectFactoryBase</a> (std::string className, <a class="el" href="namespaceMR.html#a748899906b8ac8f5f125c7f913e38007">ObjectMakerFunc</a> *creator)</td></tr>
+<tr class="separator:aa58c04997252d38070201583bd163e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93cb60b621c8a8657c9e22d6eb464369" id="r_a93cb60b621c8a8657c9e22d6eb464369"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93cb60b621c8a8657c9e22d6eb464369">~ObjectFactoryBase</a> ()</td></tr>
 <tr class="separator:a93cb60b621c8a8657c9e22d6eb464369"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac30bc00a9e2ead7239d84bcb113ebbda" name="ac30bc00a9e2ead7239d84bcb113ebbda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac30bc00a9e2ead7239d84bcb113ebbda">&#9670;&#160;</a></span>ObjectFactoryBase()</h2>
+<a id="aa58c04997252d38070201583bd163e4b" name="aa58c04997252d38070201583bd163e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa58c04997252d38070201583bd163e4b">&#9670;&#160;</a></span>ObjectFactoryBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::ObjectFactoryBase::ObjectFactoryBase </td>
+          <td class="memname">MR_BIND_IGNORE <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::ObjectFactoryBase::ObjectFactoryBase </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>className</em></span>, </td>
         </tr>

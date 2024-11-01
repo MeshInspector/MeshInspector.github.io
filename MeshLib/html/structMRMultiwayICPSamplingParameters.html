@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -122,7 +132,7 @@ $(function(){initNavTree('structMRMultiwayICPSamplingParameters.html',''); initR
 </div><!--header-->
 <div class="contents">
 
-<p>Parameters that are used for sampling of the <a class="el" href="classMultiwayICP.html">MultiwayICP</a> objects.  
+<p>Parameters that are used for sampling of the MultiwayICP objects.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRMeshC_2MRMultiwayICP_8h_source.html">MRMultiwayICP.h</a>&gt;</code></p>
@@ -141,7 +151,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6ffd4ae5961126337fd51c62cf9ac751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Parameters that are used for sampling of the <a class="el" href="classMultiwayICP.html">MultiwayICP</a> objects. </p>
+<div class="textblock"><p>Parameters that are used for sampling of the MultiwayICP objects. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="afb1ffc02db827893fcb9639724311b4b" name="afb1ffc02db827893fcb9639724311b4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb1ffc02db827893fcb9639724311b4b">&#9670;&#160;</a></span>cascadeMode</h2>

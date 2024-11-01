@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -125,8 +135,8 @@ $(function(){initNavTree('MRMesh_2MRIntersectionContour_8h_source.html',''); ini
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">struct </span><a class="code hl_struct" href="structOneMeshContour.html">OneMeshContour</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using </span><a class="code hl_typedef" href="MRDotNet_2MRContoursCut_8h.html#a72ae7b20ffe992235ef11864393665b2">OneMeshContours</a> = std::vector&lt;OneMeshContour&gt;;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">struct </span>OneMeshContour;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using </span><a class="code hl_typedef" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> = std::vector&lt;OneMeshContour&gt;;</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structMR_1_1VariableEdgeTri.html">   11</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1VariableEdgeTri.html">VariableEdgeTri</a> : <a class="code hl_struct" href="structMR_1_1EdgeTri.html">EdgeTri</a></div>
@@ -159,7 +169,6 @@ $(function(){initNavTree('MRMesh_2MRIntersectionContour_8h_source.html',''); ini
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="namespaceMR.html#a63f651410ecabb9d18ecefb9abf54753">   37</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a63f651410ecabb9d18ecefb9abf54753">removeLoneContours</a>( <a class="code hl_typedef" href="namespaceMR.html#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a>&amp; contours );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
-<div class="ttc" id="aMRDotNet_2MRContoursCut_8h_html_a72ae7b20ffe992235ef11864393665b2"><div class="ttname"><a href="MRDotNet_2MRContoursCut_8h.html#a72ae7b20ffe992235ef11864393665b2">OneMeshContours</a></div><div class="ttdeci">List&lt; OneMeshContour &gt; OneMeshContours</div><div class="ttdoc">list of contours on mesh</div><div class="ttdef"><b>Definition</b> MRDotNet/MRContoursCut.h:26</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshCollidePrecise_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshCollidePrecise_8h.html">MRMeshCollidePrecise.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:18</div></div>
@@ -175,7 +184,6 @@ $(function(){initNavTree('MRMesh_2MRIntersectionContour_8h_source.html',''); ini
 <div class="ttc" id="astructMR_1_1PreciseCollisionResult_html"><div class="ttname"><a href="structMR_1_1PreciseCollisionResult.html">MR::PreciseCollisionResult</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshCollidePrecise.h:30</div></div>
 <div class="ttc" id="astructMR_1_1VariableEdgeTri_html"><div class="ttname"><a href="structMR_1_1VariableEdgeTri.html">MR::VariableEdgeTri</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRIntersectionContour.h:12</div></div>
 <div class="ttc" id="astructMR_1_1VariableEdgeTri_html_aaf806bd6bbc163135641f8a5ca2a6f5f"><div class="ttname"><a href="structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f">MR::VariableEdgeTri::isEdgeATriB</a></div><div class="ttdeci">bool isEdgeATriB</div><div class="ttdef"><b>Definition</b> MRMesh/MRIntersectionContour.h:13</div></div>
-<div class="ttc" id="astructOneMeshContour_html"><div class="ttname"><a href="structOneMeshContour.html">OneMeshContour</a></div><div class="ttdoc">one contour on mesh</div><div class="ttdef"><b>Definition</b> MRDotNet/MRContoursCut.h:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -160,9 +170,9 @@ $(function(){initNavTree('MRMoveObjectByMouseImpl_8h_source.html',''); initResiz
 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#ab6d3e7b0abe5c50bba244801249e7ed5">   66</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <a class="code hl_enumeration" href="classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> <a class="code hl_function" href="classMR_1_1MoveObjectByMouseImpl.html#ab6d3e7b0abe5c50bba244801249e7ed5">pick_</a>( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifiers,</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects, <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; centerPoint, <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; startPoint );</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects, Vector3f&amp; centerPoint, Vector3f&amp; startPoint );</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#a3b9a12600f13df92315c665178457113">   71</a></span>    MRVIEWER_API <a class="code hl_class" href="structMR_1_1Box.html">Box3f</a> <a class="code hl_function" href="classMR_1_1MoveObjectByMouseImpl.html#a3b9a12600f13df92315c665178457113">getBbox_</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects );</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#a3b9a12600f13df92315c665178457113">   71</a></span>    MRVIEWER_API Box3f <a class="code hl_function" href="classMR_1_1MoveObjectByMouseImpl.html#a3b9a12600f13df92315c665178457113">getBbox_</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects );</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> minDistance_ = 0;</div>
@@ -179,12 +189,12 @@ $(function(){initNavTree('MRMoveObjectByMouseImpl_8h_source.html',''); initResiz
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <a class="code hl_enumeration" href="classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> transformMode_ = TransformMode::None;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    Vector2i screenStartPoint_; <span class="comment">// cNoPoint when moving actually started, {} when inactive</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <a class="code hl_class" href="structMR_1_1AffineXf.html">AffineXf3f</a> currentXf_;      <span class="comment">// Transform currently applied to objects</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    AffineXf3f currentXf_;      <span class="comment">// Transform currently applied to objects</span></div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> currentButton_ = MouseButton::NoButton;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="comment">// Data used to calculate transform</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> worldStartPoint_;  <span class="comment">// World point corresponding to cursor, for transform calculation</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> xfCenterPoint_;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    Vector3f worldStartPoint_;  <span class="comment">// World point corresponding to cursor, for transform calculation</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    Vector3f xfCenterPoint_;</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">float</span> viewportStartPointZ_;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    Plane3f referencePlane_;</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">float</span> angle_ = 0.f;</div>
@@ -214,14 +224,11 @@ $(function(){initNavTree('MRMoveObjectByMouseImpl_8h_source.html',''); initResiz
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_aa3df927c144669a86b1cbaba22fa36ac"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#aa3df927c144669a86b1cbaba22fa36ac">MR::MoveObjectByMouseImpl::setMinDistance</a></div><div class="ttdeci">void setMinDistance(int minDistance)</div><div class="ttdef"><b>Definition</b> MRMoveObjectByMouseImpl.h:25</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_aad8cb7773d35560f8b4469f293cbd169"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#aad8cb7773d35560f8b4469f293cbd169">MR::MoveObjectByMouseImpl::cancel</a></div><div class="ttdeci">MRVIEWER_API void cancel()</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_ab6d3e7b0abe5c50bba244801249e7ed5"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#ab6d3e7b0abe5c50bba244801249e7ed5">MR::MoveObjectByMouseImpl::pick_</a></div><div class="ttdeci">virtual MRVIEWER_API TransformMode pick_(MouseButton button, int modifiers, std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects, Vector3f &amp;centerPoint, Vector3f &amp;startPoint)</div></div>
-<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="agroup__VoxelPathGroup_html_gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4"><div class="ttname"><a href="group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4">MR::None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">special value not to limit path in one slice</div><div class="ttdef"><b>Definition</b> MRVoxelPath.h:33</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c"><div class="ttname"><a href="namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c">MR::MouseMode::Translation</a></div><div class="ttdeci">@ Translation</div></div>
 <div class="ttc" id="anamespaceMR_html_a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a"><div class="ttname"><a href="namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a">MR::MouseMode::Rotation</a></div><div class="ttdeci">@ Rotation</div></div>
 <div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition</b> MRMouse.h:9</div></div>
-<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf&lt; Vector3f &gt;</a></div></div>
-<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box&lt; Vector3f &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

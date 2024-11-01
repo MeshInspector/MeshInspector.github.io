@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -130,7 +140,7 @@ $(function(){initNavTree('MRMeshC_2MRPointCloud_8h.html',''); initResizable(true
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a83b780a11d00fe741ecf46699920debf" id="r_a83b780a11d00fe741ecf46699920debf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83b780a11d00fe741ecf46699920debf">mrPointCloudNew</a> (void)</td></tr>
-<tr class="memdesc:a83b780a11d00fe741ecf46699920debf"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a new <a class="el" href="classPointCloud.html" title="represents a point cloud">PointCloud</a> object  <br /></td></tr>
+<tr class="memdesc:a83b780a11d00fe741ecf46699920debf"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a new PointCloud object  <br /></td></tr>
 <tr class="separator:a83b780a11d00fe741ecf46699920debf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88b4aa69ad48bdea4d15724f942e7ff5" id="r_a88b4aa69ad48bdea4d15724f942e7ff5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b4aa69ad48bdea4d15724f942e7ff5">mrPointCloudFromPoints</a> (const <a class="el" href="structMRVector3f.html">MRVector3f</a> *points, size_t pointsNum)</td></tr>
 <tr class="memdesc:a88b4aa69ad48bdea4d15724f942e7ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a new point cloud from existing points  <br /></td></tr>
@@ -155,8 +165,10 @@ Functions</h2></td></tr>
 <tr class="memitem:acd0b83abac0a5e1f4ef2d2d63878d20b" id="r_acd0b83abac0a5e1f4ef2d2d63878d20b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVertId.html">MRVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd0b83abac0a5e1f4ef2d2d63878d20b">mrPointCloudAddPoint</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a> *pc, const <a class="el" href="structMRVector3f.html">MRVector3f</a> *point_)</td></tr>
 <tr class="memdesc:acd0b83abac0a5e1f4ef2d2d63878d20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point and returns its VertId  <br /></td></tr>
 <tr class="separator:acd0b83abac0a5e1f4ef2d2d63878d20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d6eb6f89a83fed6e78c079df80b9914" id="r_a3d6eb6f89a83fed6e78c079df80b9914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVertId.html">MRVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d6eb6f89a83fed6e78c079df80b9914">mrPointCloudAddPointWithNormal</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a> *pc, const <a class="el" href="structMRVector3f.html">MRVector3f</a> *point_, const <a class="el" href="structMRVector3f.html">MRVector3f</a> *normal_)</td></tr>
+<tr class="separator:a3d6eb6f89a83fed6e78c079df80b9914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf0e7a0bb881a2b870dbd3612347864c" id="r_aaf0e7a0bb881a2b870dbd3612347864c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0e7a0bb881a2b870dbd3612347864c">mrPointCloudFree</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a> *pc)</td></tr>
-<tr class="memdesc:aaf0e7a0bb881a2b870dbd3612347864c"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates a <a class="el" href="classPointCloud.html" title="represents a point cloud">PointCloud</a> object  <br /></td></tr>
+<tr class="memdesc:aaf0e7a0bb881a2b870dbd3612347864c"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates a PointCloud object  <br /></td></tr>
 <tr class="separator:aaf0e7a0bb881a2b870dbd3612347864c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -180,6 +192,32 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>appends a point and returns its VertId </p>
+
+</div>
+</div>
+<a id="a3d6eb6f89a83fed6e78c079df80b9914" name="a3d6eb6f89a83fed6e78c079df80b9914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d6eb6f89a83fed6e78c079df80b9914">&#9670;&#160;</a></span>mrPointCloudAddPointWithNormal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVertId.html">MRVertId</a> mrPointCloudAddPointWithNormal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMRVector3f.html">MRVector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>point_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMRVector3f.html">MRVector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>normal_</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -220,7 +258,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>deallocates a <a class="el" href="classPointCloud.html" title="represents a point cloud">PointCloud</a> object </p>
+<p>deallocates a PointCloud object </p>
 
 </div>
 </div>
@@ -262,7 +300,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>creates a new <a class="el" href="classPointCloud.html" title="represents a point cloud">PointCloud</a> object </p>
+<p>creates a new PointCloud object </p>
 
 </div>
 </div>

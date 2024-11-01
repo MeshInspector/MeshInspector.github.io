@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -187,7 +197,7 @@ $(function(){initNavTree('MRRenderLinesObject_8h_source.html',''); initResizable
 <div class="ttc" id="aMRRenderGLHelpers_8h_html"><div class="ttname"><a href="MRRenderGLHelpers_8h.html">MRRenderGLHelpers.h</a></div></div>
 <div class="ttc" id="aMRRenderHelpers_8h_html"><div class="ttname"><a href="MRRenderHelpers_8h.html">MRRenderHelpers.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1GLStaticHolder_html_a00a040d6d7d04967fe9f892d8cb76748"><div class="ttname"><a href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748">MR::GLStaticHolder::ShaderType</a></div><div class="ttdeci">ShaderType</div><div class="ttdef"><b>Definition</b> MRGLStaticHolder.h:16</div></div>
-<div class="ttc" id="aclassMR_1_1IRenderObject_html"><div class="ttname"><a href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:133</div></div>
+<div class="ttc" id="aclassMR_1_1IRenderObject_html"><div class="ttname"><a href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:134</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectLinesHolder_html"><div class="ttname"><a href="classMR_1_1ObjectLinesHolder.html">MR::ObjectLinesHolder</a></div><div class="ttdef"><b>Definition</b> MRObjectLinesHolder.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLinesObject_html"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html">MR::RenderLinesObject</a></div><div class="ttdef"><b>Definition</b> MRRenderLinesObject.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLinesObject_html_a25db5445ddf1fea48fe51be05daa5605"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#a25db5445ddf1fea48fe51be05daa5605">MR::RenderLinesObject::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
@@ -200,8 +210,8 @@ $(function(){initNavTree('MRRenderLinesObject_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdoc">Visual Object.</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:131</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_aaf818ad78dcf1287b09182b71c21927c"><div class="ttname"><a href="namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c">MR::GetAvailableLineWidthRange</a></div><div class="ttdeci">MRVIEWER_API const Vector2f &amp; GetAvailableLineWidthRange()</div></div>
-<div class="ttc" id="astructMR_1_1ModelBaseRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelBaseRenderParams.html">MR::ModelBaseRenderParams</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:42</div></div>
-<div class="ttc" id="astructMR_1_1ModelRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></div><div class="ttdoc">Mesh rendering parameters for primary rendering (as opposed to the picker).</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:50</div></div>
+<div class="ttc" id="astructMR_1_1ModelBaseRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelBaseRenderParams.html">MR::ModelBaseRenderParams</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:43</div></div>
+<div class="ttc" id="astructMR_1_1ModelRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></div><div class="ttdoc">Mesh rendering parameters for primary rendering (as opposed to the picker).</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

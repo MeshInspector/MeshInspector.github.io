@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -127,33 +137,33 @@ $(function(){initNavTree('structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abdaba674868a5f1afc3921361820ff63" id="r_abdaba674868a5f1afc3921361820ff63"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdaba674868a5f1afc3921361820ff63">BasicVectorCompareHelper</a> (<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> <a class="el" href="#aa8ef4870c84aaafe8b7bfa68fcc35c36">value</a>)</td></tr>
+<tr class="memitem:abdaba674868a5f1afc3921361820ff63" id="r_abdaba674868a5f1afc3921361820ff63"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdaba674868a5f1afc3921361820ff63">BasicVectorCompareHelper</a> (A <a class="el" href="#aa8ef4870c84aaafe8b7bfa68fcc35c36">value</a>)</td></tr>
 <tr class="separator:abdaba674868a5f1afc3921361820ff63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45f2a7a4631ecb502475eeddcf0947e8" id="r_a45f2a7a4631ecb502475eeddcf0947e8"><td class="memTemplParams" colspan="2">template&lt;typename F , detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </td></tr>
-<tr class="memitem:a45f2a7a4631ecb502475eeddcf0947e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a45f2a7a4631ecb502475eeddcf0947e8">compare</a> (F &amp;&amp;func, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memitem:a45f2a7a4631ecb502475eeddcf0947e8" id="r_a45f2a7a4631ecb502475eeddcf0947e8"><td class="memTemplParams" colspan="2">template&lt;typename F , detail::ValidOperands&lt; A &gt; B&gt; </td></tr>
+<tr class="memitem:a45f2a7a4631ecb502475eeddcf0947e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a45f2a7a4631ecb502475eeddcf0947e8">compare</a> (F &amp;&amp;func, B <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
 <tr class="separator:a45f2a7a4631ecb502475eeddcf0947e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad90dcc9ff00b5b5d146e090b2052a11a" id="r_ad90dcc9ff00b5b5d146e090b2052a11a"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </td></tr>
-<tr class="memitem:ad90dcc9ff00b5b5d146e090b2052a11a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad90dcc9ff00b5b5d146e090b2052a11a">operator==</a> (<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memitem:ad90dcc9ff00b5b5d146e090b2052a11a" id="r_ad90dcc9ff00b5b5d146e090b2052a11a"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; A &gt; B&gt; </td></tr>
+<tr class="memitem:ad90dcc9ff00b5b5d146e090b2052a11a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad90dcc9ff00b5b5d146e090b2052a11a">operator==</a> (B <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
 <tr class="separator:ad90dcc9ff00b5b5d146e090b2052a11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49e819d8fd52f135a5f61dcf9bdd1159" id="r_a49e819d8fd52f135a5f61dcf9bdd1159"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </td></tr>
-<tr class="memitem:a49e819d8fd52f135a5f61dcf9bdd1159"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a49e819d8fd52f135a5f61dcf9bdd1159">operator!=</a> (<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memitem:a49e819d8fd52f135a5f61dcf9bdd1159" id="r_a49e819d8fd52f135a5f61dcf9bdd1159"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; A &gt; B&gt; </td></tr>
+<tr class="memitem:a49e819d8fd52f135a5f61dcf9bdd1159"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a49e819d8fd52f135a5f61dcf9bdd1159">operator!=</a> (B <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
 <tr class="separator:a49e819d8fd52f135a5f61dcf9bdd1159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec7d8146daad69362b5227401e520802" id="r_aec7d8146daad69362b5227401e520802"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </td></tr>
-<tr class="memitem:aec7d8146daad69362b5227401e520802"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aec7d8146daad69362b5227401e520802">operator&lt;</a> (<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memitem:aec7d8146daad69362b5227401e520802" id="r_aec7d8146daad69362b5227401e520802"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; A &gt; B&gt; </td></tr>
+<tr class="memitem:aec7d8146daad69362b5227401e520802"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aec7d8146daad69362b5227401e520802">operator&lt;</a> (B <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
 <tr class="separator:aec7d8146daad69362b5227401e520802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fe49ac9fca25ec3a2b2ea42bd5084c1" id="r_a7fe49ac9fca25ec3a2b2ea42bd5084c1"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </td></tr>
-<tr class="memitem:a7fe49ac9fca25ec3a2b2ea42bd5084c1"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7fe49ac9fca25ec3a2b2ea42bd5084c1">operator&gt;</a> (<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memitem:a7fe49ac9fca25ec3a2b2ea42bd5084c1" id="r_a7fe49ac9fca25ec3a2b2ea42bd5084c1"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; A &gt; B&gt; </td></tr>
+<tr class="memitem:a7fe49ac9fca25ec3a2b2ea42bd5084c1"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7fe49ac9fca25ec3a2b2ea42bd5084c1">operator&gt;</a> (B <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
 <tr class="separator:a7fe49ac9fca25ec3a2b2ea42bd5084c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afea42796d1fcb6ca7fe5c89f11710287" id="r_afea42796d1fcb6ca7fe5c89f11710287"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </td></tr>
-<tr class="memitem:afea42796d1fcb6ca7fe5c89f11710287"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afea42796d1fcb6ca7fe5c89f11710287">operator&lt;=</a> (<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memitem:afea42796d1fcb6ca7fe5c89f11710287" id="r_afea42796d1fcb6ca7fe5c89f11710287"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; A &gt; B&gt; </td></tr>
+<tr class="memitem:afea42796d1fcb6ca7fe5c89f11710287"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afea42796d1fcb6ca7fe5c89f11710287">operator&lt;=</a> (B <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
 <tr class="separator:afea42796d1fcb6ca7fe5c89f11710287"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c450d64b652cb7ba2f84995e30c41d9" id="r_a1c450d64b652cb7ba2f84995e30c41d9"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </td></tr>
-<tr class="memitem:a1c450d64b652cb7ba2f84995e30c41d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1c450d64b652cb7ba2f84995e30c41d9">operator&gt;=</a> (<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memitem:a1c450d64b652cb7ba2f84995e30c41d9" id="r_a1c450d64b652cb7ba2f84995e30c41d9"><td class="memTemplParams" colspan="2">template&lt;detail::ValidOperands&lt; A &gt; B&gt; </td></tr>
+<tr class="memitem:a1c450d64b652cb7ba2f84995e30c41d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1c450d64b652cb7ba2f84995e30c41d9">operator&gt;=</a> (B <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
 <tr class="separator:a1c450d64b652cb7ba2f84995e30c41d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa8ef4870c84aaafe8b7bfa68fcc35c36" id="r_aa8ef4870c84aaafe8b7bfa68fcc35c36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8ef4870c84aaafe8b7bfa68fcc35c36">value</a></td></tr>
+<tr class="memitem:aa8ef4870c84aaafe8b7bfa68fcc35c36" id="r_aa8ef4870c84aaafe8b7bfa68fcc35c36"><td class="memItemLeft" align="right" valign="top">A&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8ef4870c84aaafe8b7bfa68fcc35c36">value</a></td></tr>
 <tr class="separator:aa8ef4870c84aaafe8b7bfa68fcc35c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -169,9 +179,9 @@ template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::BasicVectorCompareHelper </td>
+          <td class="memname"><a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::BasicVectorCompareHelper </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -193,20 +203,20 @@ template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
-template&lt;typename F , detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </div>
+template&lt;typename F , detail::ValidOperands&lt; A &gt; B&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::compare </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::compare </td>
           <td>(</td>
           <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;) const</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -226,15 +236,15 @@ template&lt;typename F , detail::ValidOperands&lt; <a class="el" href="MRBoolean
 <div class="memtemplate">
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
-template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </div>
+template&lt;detail::ValidOperands&lt; A &gt; B&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator!= </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator!= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -255,15 +265,15 @@ template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_
 <div class="memtemplate">
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
-template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </div>
+template&lt;detail::ValidOperands&lt; A &gt; B&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&lt; </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -284,15 +294,15 @@ template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_
 <div class="memtemplate">
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
-template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </div>
+template&lt;detail::ValidOperands&lt; A &gt; B&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&lt;= </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -313,15 +323,15 @@ template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_
 <div class="memtemplate">
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
-template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </div>
+template&lt;detail::ValidOperands&lt; A &gt; B&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator== </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator== </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -342,15 +352,15 @@ template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_
 <div class="memtemplate">
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
-template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </div>
+template&lt;detail::ValidOperands&lt; A &gt; B&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&gt; </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -371,15 +381,15 @@ template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_
 <div class="memtemplate">
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
 <div class="memtemplate">
-template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> &gt; B&gt; </div>
+template&lt;detail::ValidOperands&lt; A &gt; B&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&gt;= </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -402,7 +412,7 @@ template&lt;detail::ValidOperands&lt; <a class="el" href="MRBooleanResultMapper_
 template&lt;typename Derived , detail::VectorOrScalar A, bool All&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, <a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::value</td>
+          <td class="memname">A <a class="el" href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html">MR::ImGuiMath::BasicVectorCompareHelper</a>&lt; Derived, A, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a> &gt;::value</td>
         </tr>
       </table>
 </div><div class="memdoc">

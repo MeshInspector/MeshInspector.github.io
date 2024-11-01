@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -148,7 +158,7 @@ Serialization</h1>
 <div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;void, std::string&gt; <a class="code hl_function" href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, </div>
 <div class="line">    <span class="keyword">const</span> std::filesystem::path&amp; path, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress = {} );</div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
 <div class="ttc" id="anamespaceMR_html_aa5186cb23f32bc2d4c503ccec9da5319"><div class="ttname"><a href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">MR::serializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; serializeObjectTree(const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress, FolderCallback preCompress)</div><div class="ttdoc">saves object subtree in given scene file (zip/mru)</div></div>
 </div><!-- fragment --><p>And to deserialize object tree: </p><div class="fragment"><div class="line"><span class="comment">// loads objects tree from given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
@@ -168,7 +178,7 @@ Inheritance</h1>
 </ol>
 <p>To be able to use serialization and deserialization you have to do:</p><ol type="1">
 <li>Register new data model unit in class factory by adding <div class="fragment"><div class="line"><a class="code hl_define" href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a>( MyCustomObject );</div>
-<div class="ttc" id="aMRObjectFactory_8h_html_a24de4e89ad2309dac978ce2ca22604e0"><div class="ttname"><a href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a></div><div class="ttdeci">#define MR_ADD_CLASS_FACTORY(className)</div><div class="ttdoc">use this macro to register a class in the factory before calling createObject</div><div class="ttdef"><b>Definition</b> MRObjectFactory.h:17</div></div>
+<div class="ttc" id="aMRObjectFactory_8h_html_a24de4e89ad2309dac978ce2ca22604e0"><div class="ttname"><a href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a></div><div class="ttdeci">#define MR_ADD_CLASS_FACTORY(className)</div><div class="ttdoc">use this macro to register a class in the factory before calling createObject</div><div class="ttdef"><b>Definition</b> MRObjectFactory.h:18</div></div>
 </div><!-- fragment --></li>
 <li>Override following functions <div class="fragment"><div class="line"><span class="comment">// Creates future to save object model (e.g. mesh) in given file</span></div>
 <div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> tl::expected&lt;std::future&lt;void&gt;, std::string&gt; serializeModel_( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const</span>;</div>

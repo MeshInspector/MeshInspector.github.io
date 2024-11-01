@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -164,7 +174,7 @@ $(function(){initNavTree('MRGLStaticHolder_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676">   43</a></span>        <a class="code hl_enumvalue" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676">Volume</a>,</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce">   44</a></span>        <a class="code hl_enumvalue" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce">VolumePicker</a>,</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3">   46</a></span>    };</div>
 </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
@@ -184,7 +194,7 @@ $(function(){initNavTree('MRGLStaticHolder_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> createShader_( <a class="code hl_enumeration" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> type );</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    std::array&lt;<a class="code hl_typedef" href="classMR_1_1GLStaticHolder.html#a51ef10d476eb1492c1b758ef79a42482">GLuint</a>, size_t( <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a> )&gt; shadersIds_;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    std::array&lt;<a class="code hl_typedef" href="classMR_1_1GLStaticHolder.html#a51ef10d476eb1492c1b758ef79a42482">GLuint</a>, size_t( Count )&gt; shadersIds_;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="comment">// it is stored here to prolong its life till this destructor</span></div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    std::shared_ptr&lt;spdlog::logger&gt; logger_;</div>
@@ -193,7 +203,6 @@ $(function(){initNavTree('MRGLStaticHolder_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>};</div>
 </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
-<div class="ttc" id="aMRDotNet_2MRMeshBoolean_8h_html_a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">BooleanOperation::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="aMRLog_8h_html"><div class="ttname"><a href="MRLog_8h.html">MRLog.h</a></div></div>
 <div class="ttc" id="aMRRenderHelpers_8h_html"><div class="ttname"><a href="MRRenderHelpers_8h.html">MRRenderHelpers.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1GLStaticHolder_html"><div class="ttname"><a href="classMR_1_1GLStaticHolder.html">MR::GLStaticHolder</a></div><div class="ttdef"><b>Definition</b> MRGLStaticHolder.h:12</div></div>
@@ -227,6 +236,7 @@ $(function(){initNavTree('MRGLStaticHolder_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aclassMR_1_1GLStaticHolder_html_aec292ddb5c9a8585fba9bf8b4d89cca9"><div class="ttname"><a href="classMR_1_1GLStaticHolder.html#aec292ddb5c9a8585fba9bf8b4d89cca9">MR::GLStaticHolder::getShaderId</a></div><div class="ttdeci">static MRVIEWER_API GLuint getShaderId(ShaderType type)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderObjectBuffer_html"><div class="ttname"><a href="classMR_1_1RenderObjectBuffer.html">MR::RenderObjectBuffer</a></div><div class="ttdef"><b>Definition</b> MRRenderHelpers.h:64</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

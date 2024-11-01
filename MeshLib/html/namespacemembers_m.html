@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -160,7 +170,7 @@ $(function(){initNavTree('namespacemembers_m.html',''); initResizable(true); });
 <li>makePredicate()&#160;:&#160;<a class="el" href="group__BasicGroup.html#ga88c10cdc1bac1ea496801bc6381969da">MR</a></li>
 <li>makePrism()&#160;:&#160;<a class="el" href="namespaceMR.html#afef3937755aede5ca15af7158e3dcf46">MR</a></li>
 <li>makeRegularGridMesh()&#160;:&#160;<a class="el" href="namespaceMR.html#a30be8e08775b25a5be92f136b2e4c1c3">MR</a></li>
-<li>makeRenderObjectConstructor()&#160;:&#160;<a class="el" href="namespaceMR.html#a328bb54e142966b09b529c5ed868e453">MR</a></li>
+<li>makeRenderObjectConstructor()&#160;:&#160;<a class="el" href="namespaceMR.html#a914fb714c0f1a8f97d100a16c3d33af1">MR</a></li>
 <li>makeRigidXf()&#160;:&#160;<a class="el" href="group__MathGroup.html#gaf420bd1285dda4239d2ac0fac2eff1f9">MR</a></li>
 <li>makeSignedByWindingNumber()&#160;:&#160;<a class="el" href="namespaceMR.html#aeb145c323941c5fd06c513bc640d05b1">MR</a></li>
 <li>makeSphere()&#160;:&#160;<a class="el" href="namespaceMR.html#a63679b306dbff600a8f7c5008a489d9d">MR</a></li>
@@ -184,7 +194,6 @@ $(function(){initNavTree('namespacemembers_m.html',''); initResizable(true); });
 <li>Matrix2&lt; bool &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#a9c32f29e20d5fafc7aca92f5c1bb16c9">MR</a></li>
 <li>Matrix2&lt; long long &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#ac773a059629abc5f2872f613c9bdef64">MR</a></li>
 <li>Matrix2b&#160;:&#160;<a class="el" href="namespaceMR.html#ad70a4d339831eb87ba91424b88e37f4b">MR</a></li>
-<li>Matrix3f&#160;:&#160;<a class="el" href="namespaceMR.html#a96fea3c72cade7f727424783b6b3fa95">MR</a></li>
 <li>Matrix3hp&#160;:&#160;<a class="el" href="group__HighPrecisionGroup.html#ga0922e5b4a25a3ad2c71f656da459b58c">MR</a></li>
 <li>Matrix4&#160;:&#160;<a class="el" href="namespaceMR.html#aa202ef723e851a5c73fe6084f64a744b">MR</a></li>
 <li>Matrix4&lt; bool &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#a450ae4b2d186582761e1351ce75c8ee0">MR</a></li>
@@ -206,7 +215,7 @@ $(function(){initNavTree('namespacemembers_m.html',''); initResizable(true); });
 <li>MeshEdgePoint&#160;:&#160;<a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MR</a></li>
 <li>MeshFileLoader&#160;:&#160;<a class="el" href="group__IOFormatsRegistryGroup.html#gaf573976800f135f2ae1cc5430be86fb0">MR::MeshLoad</a></li>
 <li>MeshFileSaver&#160;:&#160;<a class="el" href="namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0">MR::MeshSave</a></li>
-<li>meshFromEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#gab8efd9089cec3f7e69653a49cf7b2712">MR</a></li>
+<li>meshFromEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#ga542e18e6f7d00b4661a728248b89f2e3">MR</a></li>
 <li>meshFromVoxelsMask()&#160;:&#160;<a class="el" href="group__VolumeSegmentationGroup.html#ga67be2b8fd2ef849261f668ee98abfcc5">MR</a></li>
 <li>MeshIntersectionCallback&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517">MR</a></li>
 <li>meshOnEdgeSplitAttribute()&#160;:&#160;<a class="el" href="namespaceMR.html#af16a9bdba708bf6168f9834f841a6d92">MR</a></li>
@@ -224,13 +233,15 @@ $(function(){initNavTree('namespacemembers_m.html',''); initResizable(true); });
 <li>meshToDistanceField()&#160;:&#160;<a class="el" href="namespaceMR.html#a3327e8bcfee1e492daeb80b3500c2ca2">MR</a></li>
 <li>meshToDistanceFunctionVolume()&#160;:&#160;<a class="el" href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">MR</a></li>
 <li>meshToDistanceVolume()&#160;:&#160;<a class="el" href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">MR</a></li>
-<li>meshToEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#ga21140ca66741eeb8fa5928a5b874eedc">MR</a></li>
+<li>meshToEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#gab3cf8a8259f3c725b9f74817803c8ee5">MR</a></li>
 <li>meshToLevelSet()&#160;:&#160;<a class="el" href="namespaceMR.html#adc86f37e5a8bb2c7c0b30dfc636d8e90">MR</a></li>
 <li>meshToPointCloud()&#160;:&#160;<a class="el" href="group__MeshAlgorithmGroup.html#gac05a6a40f6f3f078e9ceb0870a399516">MR</a></li>
 <li>MeshTopology&#160;:&#160;<a class="el" href="namespaceMR.html#a70998e19114b7179469682c1c31c77ae">MR</a></li>
 <li>meshToVolume()&#160;:&#160;<a class="el" href="namespaceMR.html#ab26a3095c2f054ad6f7ecab11ff7b7ff">MR</a></li>
 <li>min()&#160;:&#160;<a class="el" href="namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283">MR::ImGuiMath</a></li>
 <li>MinimizeError&#160;:&#160;<a class="el" href="namespaceMR.html#a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098">MR</a></li>
+<li>MinMaxd&#160;:&#160;<a class="el" href="namespaceMR.html#a8a502bbb7355b197a80a998945d1a885">MR</a></li>
+<li>MinMaxf&#160;:&#160;<a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MR</a></li>
 <li>minTriangleAngle()&#160;:&#160;<a class="el" href="namespaceMR.html#ac317aae7fbe013869599d57c76389e8b">MR</a></li>
 <li>minTriangleAngleSin()&#160;:&#160;<a class="el" href="group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826">MR</a></li>
 <li>mix()&#160;:&#160;<a class="el" href="namespaceMR_1_1ImGuiMath.html#a1b10073d5f904b51b53263f742597596">MR::ImGuiMath</a></li>
@@ -239,7 +250,7 @@ $(function(){initNavTree('namespacemembers_m.html',''); initResizable(true); });
 <li>MouseButton&#160;:&#160;<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR</a></li>
 <li>MouseMode&#160;:&#160;<a class="el" href="namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75">MR</a></li>
 <li>MovementSpeedUnit&#160;:&#160;<a class="el" href="namespaceMR.html#ab6428d5776a040cbc748843edbedfa60">MR</a></li>
-<li>moveMeshToVoxelMaxDeriv()&#160;:&#160;<a class="el" href="namespaceMR.html#a141fe1d035b954329f83b878aebbec33">MR</a></li>
+<li>moveMeshToVoxelMaxDeriv()&#160;:&#160;<a class="el" href="namespaceMR.html#add963001b21876433757b659c99a0818">MR</a></li>
 <li>MoveType&#160;:&#160;<a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601">MR</a></li>
 <li>MR_CANONICAL_TYPEDEFS()&#160;:&#160;<a class="el" href="namespaceMR.html#a7af24c49371748ab1e9eb196bc7d8a6e">MR</a></li>
 <li>multiModelGridSampling()&#160;:&#160;<a class="el" href="namespaceMR.html#a329c2a88771e4750d1a363a45246add3">MR</a></li>

@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -427,7 +437,7 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="ttc" id="agroup__MathGroup_html_gaf5af7058ce54bba6fc77a344d28b9826"><div class="ttname"><a href="group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826">MR::minTriangleAngleSin</a></div><div class="ttdeci">T minTriangleAngleSin(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdef"><b>Definition</b> MRTriMath.h:90</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555"><div class="ttname"><a href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555">MR::NumberStyle::normal</a></div><div class="ttdeci">@ normal</div></div>
-<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:586</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:595</div></div>
 <div class="ttc" id="anamespaceMR_html_a3c69736e96e47e3a27bc8f47ba40c448"><div class="ttname"><a href="namespaceMR.html#a3c69736e96e47e3a27bc8f47ba40c448">MR::circumcircleCenter</a></div><div class="ttdeci">Vector3&lt; T &gt; circumcircleCenter(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</div><div class="ttdoc">Computes the center of the the triangle's 0AB circumcircle.</div><div class="ttdef"><b>Definition</b> MRTriMath.h:43</div></div>
 <div class="ttc" id="anamespaceMR_html_a5297fdab91151bf439ef0099926fc204"><div class="ttname"><a href="namespaceMR.html#a5297fdab91151bf439ef0099926fc204">MR::quadrangleOtherDiagonal</a></div><div class="ttdeci">std::optional&lt; T &gt; quadrangleOtherDiagonal(T a, T b, T c, T a1, T b1)</div><div class="ttdef"><b>Definition</b> MRTriMath.h:280</div></div>
 <div class="ttc" id="anamespaceMR_html_a57ff21b97318676241102c87bc9fe9b3"><div class="ttname"><a href="namespaceMR.html#a57ff21b97318676241102c87bc9fe9b3">MR::makeDegenerate</a></div><div class="ttdeci">Triangle3&lt; T &gt; makeDegenerate(const Triangle3&lt; T &gt; &amp;t)</div><div class="ttdoc">make degenerate triangle (all 3 points on a line) that maximally resembles the input one and has the ...</div><div class="ttdef"><b>Definition</b> MRTriMath.h:181</div></div>

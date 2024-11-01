@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -118,7 +128,7 @@ $(function(){initNavTree('functions_type_t.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all typedefs with links to the classes they belong to:</div>
 
 <h3><a id="index_t" name="index_t"></a>- t -</h3><ul>
-<li>T&#160;:&#160;<a class="el" href="structMR_1_1AffineXf.html#a122798f44f02f88d6fceeddd3f296c0c">MR::AffineXf&lt; V &gt;</a>, <a class="el" href="structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb">MR::Box&lt; V &gt;</a>, <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">MR::Buffer&lt; V, I &gt;</a>, <a class="el" href="structMR_1_1Line.html#a1fe712212ce4ea1421578c647f2fe8be">MR::Line&lt; V &gt;</a>, <a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">MR::LineSegm&lt; V &gt;</a>, <a class="el" href="structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a">MR::QuadraticForm&lt; V &gt;</a>, <a class="el" href="structMR_1_1Sphere.html#ab3dcbfdadbd1e9018e22a979ea25c6f9">MR::Sphere&lt; V &gt;</a></li>
+<li>T&#160;:&#160;<a class="el" href="structMR_1_1AffineXf.html#a122798f44f02f88d6fceeddd3f296c0c">MR::AffineXf&lt; V &gt;</a>, <a class="el" href="structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd">MR::Box&lt; V &gt;</a>, <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">MR::Buffer&lt; V, I &gt;</a>, <a class="el" href="structMR_1_1Line.html#a1fe712212ce4ea1421578c647f2fe8be">MR::Line&lt; V &gt;</a>, <a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">MR::LineSegm&lt; V &gt;</a>, <a class="el" href="structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a">MR::QuadraticForm&lt; V &gt;</a>, <a class="el" href="structMR_1_1Sphere.html#ab3dcbfdadbd1e9018e22a979ea25c6f9">MR::Sphere&lt; V &gt;</a></li>
 <li>TabChangedSignal&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenu.html#ad03e656d4344c5a4266fa1ae56827d6c">MR::RibbonMenu</a></li>
 <li>TaskWithMainThreadPostProcessing&#160;:&#160;<a class="el" href="classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">MR::ProgressBar</a></li>
 <li>TileIterT&#160;:&#160;<a class="el" href="classMR_1_1RangeCounter.html#a310cccaba672fdf60cd4fd64f7718b2e">MR::RangeCounter&lt; TreeT &gt;</a>, <a class="el" href="classMR_1_1RangeProcessor.html#a992a8a190daef18cd5ee2c4fe6ecb004">MR::RangeProcessor&lt; TreeT, Transformer &gt;</a>, <a class="el" href="classMR_1_1RangeProcessorSingle.html#a96c2bef18796f6c8b109f9104a29b2dc">MR::RangeProcessorSingle&lt; TreeT, Proc &gt;</a></li>

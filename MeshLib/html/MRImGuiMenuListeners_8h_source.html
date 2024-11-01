@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -154,7 +164,7 @@ $(function(){initNavTree('MRImGuiMenuListeners_8h_source.html',''); initResizabl
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
 <div class="ttc" id="aImGuiMenu_8h_html"><div class="ttname"><a href="ImGuiMenu_8h.html">ImGuiMenu.h</a></div></div>
 <div class="ttc" id="aMRViewerEventsListener_8h_html"><div class="ttname"><a href="MRViewerEventsListener_8h.html">MRViewerEventsListener.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1ImGuiMenu_html_acf12d9bbd08c5c2a1b528461e7294587"><div class="ttname"><a href="classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587">MR::ImGuiMenu::NameTagSelectionMode</a></div><div class="ttdeci">NameTagSelectionMode</div><div class="ttdef"><b>Definition</b> ImGuiMenu.h:294</div></div>
+<div class="ttc" id="aclassMR_1_1ImGuiMenu_html_acf12d9bbd08c5c2a1b528461e7294587"><div class="ttname"><a href="classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587">MR::ImGuiMenu::NameTagSelectionMode</a></div><div class="ttdeci">NameTagSelectionMode</div><div class="ttdef"><b>Definition</b> ImGuiMenu.h:295</div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:60</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportId_html"><div class="ttname"><a href="classMR_1_1ViewportId.html">MR::ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:16</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
@@ -170,7 +180,7 @@ $(function(){initNavTree('MRImGuiMenuListeners_8h_source.html',''); initResizabl
 <div class="ttc" id="astructMR_1_1NameTagClickListener_html_a4a8c57e5f08a369097b9f8d66a0cb097"><div class="ttname"><a href="structMR_1_1NameTagClickListener.html#a4a8c57e5f08a369097b9f8d66a0cb097">MR::NameTagClickListener::~NameTagClickListener</a></div><div class="ttdeci">virtual ~NameTagClickListener()=default</div></div>
 <div class="ttc" id="astructMR_1_1NameTagClickListener_html_a4c87ad9f9d5bde9a4037d25bdc190cba"><div class="ttname"><a href="structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba">MR::NameTagClickListener::connect</a></div><div class="ttdeci">virtual MRVIEWER_API void connect(Viewer *viewer, int group, boost::signals2::connect_position pos) override</div></div>
 <div class="ttc" id="astructMR_1_1NameTagClickListener_html_aa3cab6f28416e27d7628154e93009e31"><div class="ttname"><a href="structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31">MR::NameTagClickListener::MR_ADD_CTOR_DELETE_MOVE</a></div><div class="ttdeci">MR_ADD_CTOR_DELETE_MOVE(NameTagClickListener)</div></div>
-<div class="ttc" id="astructMR_1_1UiRenderParams_html_a7db0595bba979c4028be5875ef3e067d"><div class="ttname"><a href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">MR::UiRenderParams::UiTaskList</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; BasicUiRenderTask &gt; &gt; UiTaskList</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:110</div></div>
+<div class="ttc" id="astructMR_1_1UiRenderParams_html_a7db0595bba979c4028be5875ef3e067d"><div class="ttname"><a href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">MR::UiRenderParams::UiTaskList</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; BasicUiRenderTask &gt; &gt; UiTaskList</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:111</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

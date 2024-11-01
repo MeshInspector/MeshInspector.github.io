@@ -42,10 +42,12 @@ var MRMeshC_2MRICP_8h =
     [ "mrICPGetRef2FltPairs", "MRMeshC_2MRICP_8h.html#a4eac86c842b04d1eb8fe9c450811b45b", null ],
     [ "mrICPGetStatusInfo", "MRMeshC_2MRICP_8h.html#ace0593a443f3c2094e9706b7f5985e8e", null ],
     [ "mrICPNew", "MRMeshC_2MRICP_8h.html#ae00bfaafa2a5cd791ec1206c17fc151f", null ],
+    [ "mrICPNewFromSamples", "MRMeshC_2MRICP_8h.html#a854e635d53e45015b77660eb04b57c8a", null ],
     [ "mrICPPropertiesNew", "MRMeshC_2MRICP_8h.html#ad6572e9fd51800d785882fab5dc53502", null ],
     [ "mrICPSamplePoints", "MRMeshC_2MRICP_8h.html#a8302124626b7e2ad2e3fdafa3a1be27f", null ],
     [ "mrICPSetParams", "MRMeshC_2MRICP_8h.html#aa0deba5552214cfbbef4d811d610dca7", null ],
     [ "mrICPUpdatePointPairs", "MRMeshC_2MRICP_8h.html#a51b744c2181e12a4d943dac98d4078e8", null ],
     [ "mrIPointPairsGet", "MRMeshC_2MRICP_8h.html#a7a7e1b4b917587e9342b15b8dc457fec", null ],
-    [ "mrIPointPairsGetRef", "MRMeshC_2MRICP_8h.html#abd53dc27a52ca64a9b6dbcf194a2f844", null ]
+    [ "mrIPointPairsGetRef", "MRMeshC_2MRICP_8h.html#abd53dc27a52ca64a9b6dbcf194a2f844", null ],
+    [ "mrIPointPairsSize", "MRMeshC_2MRICP_8h.html#ad041c7d6accf6325f43a084b6522221f", null ]
 ];

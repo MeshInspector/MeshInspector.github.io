@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -255,7 +265,7 @@ $(function(){initNavTree('Vector_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="Vector_8h.html#a68288b42d42706ee6499578a9d7f6a48">  111</a></span><span class="preprocessor">#define RETURN_NEW_VECTOR( ... ) return auto_cast( NEW_VECTOR( __VA_ARGS__ ) )</span></div>
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aTypeCast_8h_html"><div class="ttname"><a href="TypeCast_8h.html">TypeCast.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:19</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:20</div></div>
 <div class="ttc" id="astructvector__ref__wrapper_html"><div class="ttname"><a href="structvector__ref__wrapper.html">vector_ref_wrapper</a></div><div class="ttdef"><b>Definition</b> Vector.h:66</div></div>
 <div class="ttc" id="astructvector__ref__wrapper_html_a1171b92d956a034f4456ac8d0633fc9a"><div class="ttname"><a href="structvector__ref__wrapper.html#a1171b92d956a034f4456ac8d0633fc9a">vector_ref_wrapper::vector_ref_wrapper</a></div><div class="ttdeci">vector_ref_wrapper(const MR::Vector&lt; T, I &gt; &amp;vec)</div><div class="ttdef"><b>Definition</b> Vector.h:74</div></div>
 <div class="ttc" id="astructvector__ref__wrapper_html_a53eedbc09ac9a565faf3ad5f048daea9"><div class="ttname"><a href="structvector__ref__wrapper.html#a53eedbc09ac9a565faf3ad5f048daea9">vector_ref_wrapper::vector_ref_wrapper</a></div><div class="ttdeci">vector_ref_wrapper(const std::vector&lt; T &gt; &amp;vec)</div><div class="ttdef"><b>Definition</b> Vector.h:69</div></div>

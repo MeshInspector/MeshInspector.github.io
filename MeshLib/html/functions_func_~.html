@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -118,7 +128,6 @@ $(function(){initNavTree('functions_func_~.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
 
 <h3><a id="index__7E" name="index__7E"></a>- ~ -</h3><ul>
-<li>~AffineXf3f()&#160;:&#160;<a class="el" href="classAffineXf3f.html#a27737f9d3b7cc6546f6f0954ddf4314d">AffineXf3f</a></li>
 <li>~AlphaSortGL()&#160;:&#160;<a class="el" href="classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742">MR::AlphaSortGL</a></li>
 <li>~AncillaryLabel()&#160;:&#160;<a class="el" href="structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d">MR::AncillaryLabel</a></li>
 <li>~AncillaryLines()&#160;:&#160;<a class="el" href="structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc">MR::AncillaryLines</a></li>
@@ -128,13 +137,8 @@ $(function(){initNavTree('functions_func_~.html',''); initResizable(true); });
 <li>~BasicUiRenderTask()&#160;:&#160;<a class="el" href="structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4">MR::BasicUiRenderTask</a></li>
 <li>~BasicWrapperTarget()&#160;:&#160;<a class="el" href="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget.html#aef895bcd79874b03bc852acf63bda8c2">MR::RenderWrapObject::BasicWrapperTarget&lt; ObjectType &gt;</a></li>
 <li>~BasicWrapperTargetUntyped()&#160;:&#160;<a class="el" href="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped.html#accd812ab77a105a8bee866ccd51d0d9d">MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</a></li>
-<li>~BitSetReadOnly()&#160;:&#160;<a class="el" href="classabstract.html#a8fe2879ae97bef8e87e5e4160c10a8a2">abstract</a></li>
-<li>~BooleanMaps()&#160;:&#160;<a class="el" href="classBooleanMaps.html#a62c410a953f7015ccec7ee8f3e9af3bc">BooleanMaps</a></li>
-<li>~BooleanResultMapper()&#160;:&#160;<a class="el" href="classBooleanResultMapper.html#a3c5b86bb868d3e1383a225519c89425d">BooleanResultMapper</a></li>
-<li>~Box3f()&#160;:&#160;<a class="el" href="classBox3f.html#a1936fdaa2f8eaa6a4e57eed37b5b7357">Box3f</a></li>
 <li>~CharPressedListener()&#160;:&#160;<a class="el" href="structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde">MR::CharPressedListener</a></li>
 <li>~ConnectionHolder()&#160;:&#160;<a class="el" href="structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf">MR::ConnectionHolder</a></li>
-<li>~CoordinateConverters()&#160;:&#160;<a class="el" href="classCoordinateConverters.html#ae68d20dafcd894e952494222e4ea4693">CoordinateConverters</a></li>
 <li>~CursorEntranceListener()&#160;:&#160;<a class="el" href="structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54">MR::CursorEntranceListener</a></li>
 <li>~DragDropListener()&#160;:&#160;<a class="el" href="structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7">MR::DragDropListener</a></li>
 <li>~DragEndListener()&#160;:&#160;<a class="el" href="structMR_1_1DragEndListener.html#a2768a8c22456638cfdef0c641b35167f">MR::DragEndListener</a></li>
@@ -152,7 +156,6 @@ $(function(){initNavTree('functions_func_~.html',''); initResizable(true); });
 <li>~HistoryAction()&#160;:&#160;<a class="el" href="classMR_1_1HistoryAction.html#a97370459d3645a1169ed426ef4896e5c">MR::HistoryAction</a></li>
 <li>~HistoryStore()&#160;:&#160;<a class="el" href="classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614">MR::HistoryStore</a></li>
 <li>~IConnectable()&#160;:&#160;<a class="el" href="structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c">MR::IConnectable</a></li>
-<li>~ICP()&#160;:&#160;<a class="el" href="classICP.html#a744eea059d43f0794b50d15ed056746a">ICP</a></li>
 <li>~IFastWindingNumber()&#160;:&#160;<a class="el" href="classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547">MR::IFastWindingNumber</a></li>
 <li>~IICPTreeIndexer()&#160;:&#160;<a class="el" href="classMR_1_1IICPTreeIndexer.html#a68616944ac0168797fb2fece7d28f477">MR::IICPTreeIndexer</a></li>
 <li>~ImGuiImage()&#160;:&#160;<a class="el" href="classMR_1_1ImGuiImage.html#a1d77e3e4c4aee3fb4502181c14bc89a7">MR::ImGuiImage</a></li>
@@ -170,10 +173,7 @@ $(function(){initNavTree('functions_func_~.html',''); initResizable(true); });
 <li>~KeyRepeatListener()&#160;:&#160;<a class="el" href="structMR_1_1KeyRepeatListener.html#afd65fe47b0dc9436298e754ae7033eba">MR::KeyRepeatListener</a></li>
 <li>~KeyUpListener()&#160;:&#160;<a class="el" href="structMR_1_1KeyUpListener.html#a07cd66972e7837c59e9d7e0db46c988b">MR::KeyUpListener</a></li>
 <li>~MarchingCubesByParts()&#160;:&#160;<a class="el" href="classMR_1_1MarchingCubesByParts.html#a848441e254b88cedf1b9ec6340d013b7">MR::MarchingCubesByParts</a></li>
-<li>~Matrix3f()&#160;:&#160;<a class="el" href="classMatrix3f.html#a664b8e5a96d2318f182898f116b2d602">Matrix3f</a></li>
-<li>~Mesh()&#160;:&#160;<a class="el" href="classMesh.html#a5efe4da1a4c0971cfb037bd70304c303">Mesh</a></li>
 <li>~MeshModifier()&#160;:&#160;<a class="el" href="classMR_1_1MeshModifier.html#a78b84722bd2aef0d182ee5eb2fa81686">MR::MeshModifier</a></li>
-<li>~MeshTriPoint()&#160;:&#160;<a class="el" href="structMeshTriPoint.html#a5db8f4dc1ce5f4ba05c9754ab6e2c4e4">MeshTriPoint</a></li>
 <li>~MouseClickListener()&#160;:&#160;<a class="el" href="structMR_1_1MouseClickListener.html#a69a367cc3c52ae54f5e24ae6a0f168dc">MR::MouseClickListener</a></li>
 <li>~MouseDownListener()&#160;:&#160;<a class="el" href="structMR_1_1MouseDownListener.html#a7c212533545dc388366cf1b6f34d43d4">MR::MouseDownListener</a></li>
 <li>~MouseMoveListener()&#160;:&#160;<a class="el" href="structMR_1_1MouseMoveListener.html#a0b7f30726a8c465bca8afc299118b1e4">MR::MouseMoveListener</a></li>
@@ -183,7 +183,6 @@ $(function(){initNavTree('functions_func_~.html',''); initResizable(true); });
 <li>~MoveObjectByMouseImpl()&#160;:&#160;<a class="el" href="classMR_1_1MoveObjectByMouseImpl.html#a1efc181844c96d8927ff6e49ea0139bf">MR::MoveObjectByMouseImpl</a></li>
 <li>~MultiListener()&#160;:&#160;<a class="el" href="structMR_1_1MultiListener.html#a726f5e2601b7f25e31824a0cac630fb2">MR::MultiListener&lt; Connectables &gt;</a></li>
 <li>~MultiwayAligningTransform()&#160;:&#160;<a class="el" href="classMR_1_1MultiwayAligningTransform.html#a75f76046bba7a35ce1c2396c72b47aa8">MR::MultiwayAligningTransform</a></li>
-<li>~MultiwayICP()&#160;:&#160;<a class="el" href="classMultiwayICP.html#a84322d118866f5d33c9309ba508e0f85">MultiwayICP</a></li>
 <li>~NameTagClickListener()&#160;:&#160;<a class="el" href="structMR_1_1NameTagClickListener.html#a4a8c57e5f08a369097b9f8d66a0cb097">MR::NameTagClickListener</a></li>
 <li>~Object()&#160;:&#160;<a class="el" href="classMR_1_1Object.html#a89c09f7a1ec5ba173cd21879e3f9953e">MR::Object</a></li>
 <li>~ObjectChildrenHolder()&#160;:&#160;<a class="el" href="classMR_1_1ObjectChildrenHolder.html#a0d547b2ea371b35b7f6aeb91b0a31ef8">MR::ObjectChildrenHolder</a></li>
@@ -192,12 +191,10 @@ $(function(){initNavTree('functions_func_~.html',''); initResizable(true); });
 <li>~ObjectVoxels()&#160;:&#160;<a class="el" href="classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f">MR::ObjectVoxels</a></li>
 <li>~OpenFilesMenuItem()&#160;:&#160;<a class="el" href="classMR_1_1OpenFilesMenuItem.html#a207d475cc669e1d40ec03027582df564">MR::OpenFilesMenuItem</a></li>
 <li>~Pdf()&#160;:&#160;<a class="el" href="classMR_1_1Pdf.html#ae6fd1a7d1d29456ea75c56e4266869b6">MR::Pdf</a></li>
-<li>~PointCloud()&#160;:&#160;<a class="el" href="classPointCloud.html#a92a83712cd5d3f732effd530ff9fe67c">PointCloud</a></li>
 <li>~PostDrawListener()&#160;:&#160;<a class="el" href="structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24">MR::PostDrawListener</a></li>
 <li>~PostFocusListener()&#160;:&#160;<a class="el" href="structMR_1_1PostFocusListener.html#ac88ae46c3a44734665f38071133b6260">MR::PostFocusListener</a></li>
 <li>~PostRescaleListener()&#160;:&#160;<a class="el" href="structMR_1_1PostRescaleListener.html#a774a0276db498e8c1a194a69eaa2bf61">MR::PostRescaleListener</a></li>
 <li>~PostResizeListener()&#160;:&#160;<a class="el" href="structMR_1_1PostResizeListener.html#a5dccbda80d641a38306f4510feca9418">MR::PostResizeListener</a></li>
-<li>~PreciseCollisionResult()&#160;:&#160;<a class="el" href="classPreciseCollisionResult.html#a34ff0e3f18450d29d0f8500cc4390baf">PreciseCollisionResult</a></li>
 <li>~PreDrawListener()&#160;:&#160;<a class="el" href="structMR_1_1PreDrawListener.html#a315d3fdaaa28ec7d64ac68a04c1a8429">MR::PreDrawListener</a></li>
 <li>~RangeProcessor()&#160;:&#160;<a class="el" href="classMR_1_1RangeProcessor.html#aa1b6af30870ebe7291f172482a42b7b5">MR::RangeProcessor&lt; TreeT, Transformer &gt;</a></li>
 <li>~RenderLabelObject()&#160;:&#160;<a class="el" href="classMR_1_1RenderLabelObject.html#a3b10286cdce57b0d311f6922b18105d6">MR::RenderLabelObject</a></li>
@@ -247,7 +244,6 @@ $(function(){initNavTree('functions_func_~.html',''); initResizable(true); });
 <li>~UiRenderManager()&#160;:&#160;<a class="el" href="structMR_1_1UiRenderManager.html#a068f0178b855d81e92b613b5872c99ee">MR::UiRenderManager</a></li>
 <li>~UniqueTemporaryFolder()&#160;:&#160;<a class="el" href="classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256">MR::UniqueTemporaryFolder</a></li>
 <li>~UniqueThreadSafeOwner()&#160;:&#160;<a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a3d73291f1f47c3b4d4a33166f8d09a6a">MR::UniqueThreadSafeOwner&lt; T &gt;</a></li>
-<li>~Vector3f()&#160;:&#160;<a class="el" href="classVector3f.html#a8a54f2fb1e8cce30fe073310c727f55d">Vector3f</a></li>
 <li>~vector_wrapper()&#160;:&#160;<a class="el" href="structvector__wrapper.html#af984a19eaf27a81800c8c3a7d0561355">vector_wrapper&lt; T &gt;</a></li>
 <li>~ViewerPlugin()&#160;:&#160;<a class="el" href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">MR::ViewerPlugin</a></li>
 <li>~ViewerSetup()&#160;:&#160;<a class="el" href="classMR_1_1ViewerSetup.html#a91f189592dac535dae6d91f80c911e1f">MR::ViewerSetup</a></li>

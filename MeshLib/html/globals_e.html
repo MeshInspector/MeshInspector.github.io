@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -118,9 +128,6 @@ $(function(){initNavTree('globals_e.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
 
 <h3><a id="index_e" name="index_e"></a>- e -</h3><ul>
-<li>EdgeId&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">MRDotNet/MRMeshFwd.h</a></li>
-<li>EdgePath&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a8d1d4f2ab1d8ab663e892d4f03f1f704">MRDotNet/MRMeshFwd.h</a></li>
-<li>EdgePathReadOnly&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a814165b4f9376ee12eecff9ade63c012">MRDotNet/MRMeshFwd.h</a></li>
 <li>Edges&#160;:&#160;<a class="el" href="MRObjectMeshHolder_8h.html#a29d14b75d26970bc256e90bf11c3f0e5">MRObjectMeshHolder.h</a></li>
 <li>EnableShading&#160;:&#160;<a class="el" href="MRObjectMeshHolder_8h.html#a2da488fcdb3a28435745efe40498b0bb">MRObjectMeshHolder.h</a></li>
 <li>ENQUEUE_VIEWER_METHOD&#160;:&#160;<a class="el" href="MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db">MRViewer.h</a></li>

@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -303,7 +313,7 @@ $(function(){initNavTree('MRStreamOperators_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    {</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>        <span class="keywordtype">int</span> a;</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        s &gt;&gt; a &gt;&gt; pof.<a class="code hl_variable" href="structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad">point</a>;</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        pof.<a class="code hl_variable" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">face</a> = <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>( a );</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        pof.<a class="code hl_variable" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">face</a> = FaceId( a );</div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        <span class="keywordflow">return</span> s;</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    }</div>
 </div>
@@ -329,7 +339,6 @@ $(function(){initNavTree('MRStreamOperators_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>}</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
 <div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_ab7fe032dc814ab0521ff517f8c238aa9"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a></div><div class="ttdeci">int FaceId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:53</div></div>
 <div class="ttc" id="aMRMatrix4_8h_html"><div class="ttname"><a href="MRMatrix4_8h.html">MRMatrix4.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMatrix3_8h_html"><div class="ttname"><a href="MRMesh_2MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
@@ -346,9 +355,9 @@ $(function(){initNavTree('MRStreamOperators_8h_source.html',''); initResizable(t
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:14</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html_abc589d85e328480de8c5972558bd7b3c"><div class="ttname"><a href="structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c">MR::AffineXf::b</a></div><div class="ttdeci">V b</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:19</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html_ac50d0dfa0b11a916ac644165073713ca"><div class="ttname"><a href="structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca">MR::AffineXf::A</a></div><div class="ttdeci">M A</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:18</div></div>
-<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:23</div></div>
-<div class="ttc" id="astructMR_1_1Box_html_a493e21ced874aa010247428e109d524d"><div class="ttname"><a href="structMR_1_1Box.html#a493e21ced874aa010247428e109d524d">MR::Box::max</a></div><div class="ttdeci">V max</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:27</div></div>
-<div class="ttc" id="astructMR_1_1Box_html_acc1e8e06848f35838481ee10e0308cda"><div class="ttname"><a href="structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda">MR::Box::min</a></div><div class="ttdeci">V min</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:27</div></div>
+<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:25</div></div>
+<div class="ttc" id="astructMR_1_1Box_html_a493e21ced874aa010247428e109d524d"><div class="ttname"><a href="structMR_1_1Box.html#a493e21ced874aa010247428e109d524d">MR::Box::max</a></div><div class="ttdeci">V max</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:31</div></div>
+<div class="ttc" id="astructMR_1_1Box_html_acc1e8e06848f35838481ee10e0308cda"><div class="ttname"><a href="structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda">MR::Box::min</a></div><div class="ttdeci">V min</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:31</div></div>
 <div class="ttc" id="astructMR_1_1Line_html"><div class="ttname"><a href="structMR_1_1Line.html">MR::Line</a></div><div class="ttdef"><b>Definition</b> MRLine.h:12</div></div>
 <div class="ttc" id="astructMR_1_1Line_html_a8b3c7d000e9148d5f14f3c7d0325c95b"><div class="ttname"><a href="structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b">MR::Line::d</a></div><div class="ttdeci">V d</div><div class="ttdef"><b>Definition</b> MRLine.h:15</div></div>
 <div class="ttc" id="astructMR_1_1Line_html_aca04c91be84f9b11da19a3e455b5a28a"><div class="ttname"><a href="structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a">MR::Line::p</a></div><div class="ttdeci">V p</div><div class="ttdef"><b>Definition</b> MRLine.h:15</div></div>

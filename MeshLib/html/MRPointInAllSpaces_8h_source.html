@@ -2,6 +2,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    if (currentHost === 'meshinspector.github.io') {
+      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
   analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
@@ -134,23 +144,23 @@ $(function(){initNavTree('MRPointInAllSpaces_8h_source.html',''); initResizable(
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="comment">// Screen space: window x[0, window.width] y[0, window.height]. [0,0] top-left corner of the window</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="comment">// Z [0,1] - 0 is Dnear, 1 is Dfar</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9">   16</a></span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9">screenSpace</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9">   16</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9">screenSpace</a>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="comment">// Viewport space: viewport x[0, viewport.width] y[0, viewport.height]. [0,0] top-left corner of the viewport with that Id</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// Z [0,1] - 0 is Dnear, 1 is Dfar</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51">   20</a></span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51">viewportSpace</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51">   20</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51">viewportSpace</a>;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2">   21</a></span>    <a class="code hl_class" href="classMR_1_1ViewportId.html">ViewportId</a> <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2">viewportId</a>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// Clip space: viewport xyz[-1.f, 1.f]. [0, 0, -1] middle point of the viewport on Dnear. [0, 0, 1] middle point of the viewport on Dfar.</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="comment">// [-1, -1, -1] is lower left Dnear corner; [1, 1, 1] is upper right Dfar corner</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973">   25</a></span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973">clipSpace</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973">   25</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973">clipSpace</a>;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">// Camera space: applied view affine transform to world points xyz[-inf, inf]. [0, 0, 0] middle point of the viewport on Dnear.</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// X axis goes on the right. Y axis goes up. Z axis goes backward.</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f">   29</a></span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f">cameraSpace</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f">   29</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f">cameraSpace</a>;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">// World space: applied model transform to Mesh(Point Cloud) vertices xyz[-inf, inf].</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12">   32</a></span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12">worldSpace</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12">   32</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12">worldSpace</a>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="comment">// Model space: coordinates as they stored in the model of VisualObject</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22">   35</a></span>    std::shared_ptr&lt;VisualObject&gt; <a class="code hl_variable" href="structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22">obj</a>;</div>
@@ -164,7 +174,6 @@ $(function(){initNavTree('MRPointInAllSpaces_8h_source.html',''); initResizable(
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aMRViewportId_8h_html"><div class="ttname"><a href="MRViewportId_8h.html">MRViewportId.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ViewportId_html"><div class="ttname"><a href="classMR_1_1ViewportId.html">MR::ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:16</div></div>
-<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1PointInAllSpaces_html"><div class="ttname"><a href="structMR_1_1PointInAllSpaces.html">MR::PointInAllSpaces</a></div><div class="ttdef"><b>Definition</b> MRPointInAllSpaces.h:13</div></div>
 <div class="ttc" id="astructMR_1_1PointInAllSpaces_html_a0faf89a2289bed4bb23a92601e2a6cd9"><div class="ttname"><a href="structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9">MR::PointInAllSpaces::screenSpace</a></div><div class="ttdeci">Vector3f screenSpace</div><div class="ttdef"><b>Definition</b> MRPointInAllSpaces.h:16</div></div>
