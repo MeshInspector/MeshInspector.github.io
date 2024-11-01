@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[10,0,12,525,1],
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[12,0,1,510,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[10,0,12,525,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[12,0,1,510,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[10,0,12,525,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[10,0,12,34,0,0,1],
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[12,0,1,21,0,0,1],
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[10,0,12,34,0,0,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[12,0,1,21,0,0,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[10,0,12,34,0,4],
-"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[12,0,1,21,0,4]
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[12,0,1,21,0,0,0]
 };

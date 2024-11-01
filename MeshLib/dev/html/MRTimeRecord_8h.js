@@ -1,5 +1,5 @@
 var MRTimeRecord_8h =
 [
-    [ "registerThreadRootTimeRecord", "MRTimeRecord_8h.html#ga3d791692d52c8b5cf77a9c5e6002cef1", null ],
-    [ "unregisterThreadRootTimeRecord", "MRTimeRecord_8h.html#gac017b35cedae37be54b10e3302c6c71d", null ]
+    [ "registerThreadRootTimeRecord", "MRTimeRecord_8h.html#ga73f1c5c9fb6ffeff44c6f14fb15a30ca", null ],
+    [ "unregisterThreadRootTimeRecord", "MRTimeRecord_8h.html#gad352239f809241e329ff312b293854bd", null ]
 ];

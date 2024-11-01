@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PointPair.html#a0be978719b10258123e31ffe3413c532":[12,0,1,438,2],
+"structMR_1_1PointPair.html#a5f761c6549a8d74c43a943993e9f7426":[10,0,12,453,0],
 "structMR_1_1PointPair.html#a5f761c6549a8d74c43a943993e9f7426":[12,0,1,438,0],
 "structMR_1_1PointPair.html#a6e96779ac71de15fae84c9c1dee17cb7":[10,0,12,453,3],
 "structMR_1_1PointPair.html#a6e96779ac71de15fae84c9c1dee17cb7":[12,0,1,438,3],
@@ -173,6 +175,8 @@ var NAVTREEINDEX71 =
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,1,9,0],
 "structMR_1_1Polynomial.html":[10,0,12,473],
 "structMR_1_1Polynomial.html":[12,0,1,458],
+"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[10,0,12,473,5],
+"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[12,0,1,458,5],
 "structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[10,0,12,473,2],
 "structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[12,0,1,458,2],
 "structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[10,0,12,473,3],
@@ -181,8 +185,6 @@ var NAVTREEINDEX71 =
 "structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[12,0,1,458,0],
 "structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[10,0,12,473,1],
 "structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[12,0,1,458,1],
-"structMR_1_1Polynomial.html#ad1c492e9ade30990c714083f0317bdf6":[10,0,12,473,5],
-"structMR_1_1Polynomial.html#ad1c492e9ade30990c714083f0317bdf6":[12,0,1,458,5],
 "structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[10,0,12,473,4],
 "structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[12,0,1,458,4],
 "structMR_1_1PolynomialWrapper.html":[10,0,12,474],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1PostResizeListener.html#a45e82319810a797b3b8b082236849a32":[12,0,1,464,2],
 "structMR_1_1PostResizeListener.html#a5dccbda80d641a38306f4510feca9418":[10,0,12,479,0],
 "structMR_1_1PostResizeListener.html#a5dccbda80d641a38306f4510feca9418":[12,0,1,464,0],
-"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[10,0,12,479,3],
-"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[12,0,1,464,3],
-"structMR_1_1PreDrawListener.html":[10,0,12,484]
+"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[10,0,12,479,3]
 };

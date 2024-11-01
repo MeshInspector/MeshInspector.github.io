@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[10,0,12,645,2],
+"structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[12,0,1,630,2],
 "structMR_1_1TouchMoveListener.html#a75befbf816c33fde5c01cfa9967acca0":[10,0,12,645,1],
 "structMR_1_1TouchMoveListener.html#a75befbf816c33fde5c01cfa9967acca0":[12,0,1,630,1],
 "structMR_1_1TouchMoveListener.html#aeb673042a283a2decd342315c9357a27":[10,0,12,645,0],
@@ -227,10 +229,10 @@ var NAVTREEINDEX76 =
 "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[10,0,12,36,1,7],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[12,0,1,22,1,7],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[9,13,0,0],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a1f3d70f2e7f419c37867994b06e7cb37":[9,13,0,0,4],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b":[9,13,0,0,2],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19":[9,13,0,0,0],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a80c3874decf9d019fab965c28d7a767b":[9,13,0,0,1],
+"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95":[9,13,0,0,4],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ae773b54dc10496afde5414733e1c8d6a":[9,13,0,0,3],
 "structMR_1_1TriangulationParameters.html":[9,13,1],
 "structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046":[9,13,1,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[10,0,12,664,0],
 "structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[12,0,1,649,0],
 "structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[10,0,12,664,2],
-"structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[12,0,1,649,2],
-"structMR_1_1TrimOptionalOutput.html#ab2764c07e0136d9d3309b44b8bf8eca7":[10,0,12,664,5],
-"structMR_1_1TrimOptionalOutput.html#ab2764c07e0136d9d3309b44b8bf8eca7":[12,0,1,649,5]
+"structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[12,0,1,649,2]
 };

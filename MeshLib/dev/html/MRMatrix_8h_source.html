@@ -170,7 +170,7 @@ $(function(){initNavTree('MRMatrix_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        {</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> c = 0; c &lt; <a class="code hl_variable" href="classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052">dims_</a>.x; c++ )</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            {</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                res(c, r) = data_[r][c];</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                res(c, r) = (*this)(r, c);</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            }</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        }</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">return</span> res;</div>
