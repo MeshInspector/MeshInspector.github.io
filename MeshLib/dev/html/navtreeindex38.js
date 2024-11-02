@@ -1,5 +1,8 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[10,0,12,593,3],
+"classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[12,0,1,578,3],
+"classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961":[10,0,12,593,4],
 "classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961":[12,0,1,578,4],
 "classMR_1_1ShiftTransformer.html#a25779f4d269609b5b8a197c243b7a19c":[10,0,12,593,0],
 "classMR_1_1ShiftTransformer.html#a25779f4d269609b5b8a197c243b7a19c":[12,0,1,578,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[10,0,12,622,0],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[12,0,1,607,0],
 "classMR_1_1SurfaceDistanceBuilder.html":[9,16,2,1],
-"classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91":[9,16,2,1,3],
-"classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967":[9,16,2,1,7],
-"classMR_1_1SurfaceDistanceBuilder.html#a35fe09c0ed56d9b10178d9099cef9204":[9,16,2,1,2],
-"classMR_1_1SurfaceDistanceBuilder.html#a370f90033c096568d58a18d399102064":[9,16,2,1,4]
+"classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91":[9,16,2,1,3]
 };

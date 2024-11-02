@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[9,4,36,2],
+"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[9,4,36,0],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html":[10,0,12,91],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html":[12,0,1,76],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[10,0,12,91,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeVisualizePropertyAction.html#addf5e30e5eb678a766bb9b02bbfd996b":[9,4,12,0],
 "classMR_1_1ChangeXfAction.html":[9,4,29],
 "classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc":[9,4,29,3],
-"classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24":[9,4,29,2],
-"classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b":[9,4,29,0],
-"classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2":[9,4,29,1]
+"classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24":[9,4,29,2]
 };

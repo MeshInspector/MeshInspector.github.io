@@ -10,6 +10,7 @@ var group__BasicGroup =
       [ "autoResizeSet", "classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24", null ],
       [ "autoResizeTestSet", "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95", null ],
       [ "backId", "classMR_1_1BitSet.html#abd624eb57fa1932e782bf7eb418f7d1d", null ],
+      [ "bits", "classMR_1_1BitSet.html#ae109ea3b45a9d42a26687dadfc85f936", null ],
       [ "endId", "classMR_1_1BitSet.html#a1f947bfd0ac71d4db95bbf1402d27ddf", null ],
       [ "find_last", "classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3", null ],
       [ "flip", "classMR_1_1BitSet.html#aac44f8d71b297c1ae62c6d8966ac986c", null ],
@@ -34,6 +35,8 @@ var group__BasicGroup =
     ] ],
     [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", [
       [ "IndexType", "classMR_1_1TaggedBitSet.html#aee1dc472d197dae5a76f707615ccf080", null ],
+      [ "TaggedBitSet", "classMR_1_1TaggedBitSet.html#a9a42d8f01ffc7d0932a2dd34dee93c30", null ],
+      [ "TaggedBitSet", "classMR_1_1TaggedBitSet.html#a11f6ea19fe4baf68d5e1e97539233490", null ],
       [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#ae8f61c2407c0cf96df45149fb1f549b4", null ],
       [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#a549d518b018f126420c7403ef5633a1c", null ],
       [ "autoResizeTestSet", "classMR_1_1TaggedBitSet.html#a462014129d5cd9d3812890a783da6bc9", null ],

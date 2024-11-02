@@ -181,6 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a57af4bd5bfad76fc5291e84032111b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08c1dc2c9e7f3a29a2b313cf8886bff4" id="r_a08c1dc2c9e7f3a29a2b313cf8886bff4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08c1dc2c9e7f3a29a2b313cf8886bff4">splice</a> (EdgeId a, EdgeId b)</td></tr>
 <tr class="separator:a08c1dc2c9e7f3a29a2b313cf8886bff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39b72c5c1c1394f957eafdbf92abfe3" id="r_ad39b72c5c1c1394f957eafdbf92abfe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39b72c5c1c1394f957eafdbf92abfe3">collapseEdge</a> (EdgeId e, const std::function&lt; void(EdgeId del, EdgeId rem)&gt; &amp;onEdgeDel)</td></tr>
+<tr class="separator:ad39b72c5c1c1394f957eafdbf92abfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dad4d8d3af9888d8bd8303195aad3b9" id="r_a2dad4d8d3af9888d8bd8303195aad3b9"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dad4d8d3af9888d8bd8303195aad3b9">next</a> (EdgeId he) const</td></tr>
 <tr class="memdesc:a2dad4d8d3af9888d8bd8303195aad3b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">next (counter clock wise) half-edge in the origin ring  <br /></td></tr>
 <tr class="separator:a2dad4d8d3af9888d8bd8303195aad3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -981,6 +983,28 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
 </div><div class="memdoc">
 <p>verifies that all internal data structures are valid; if allVerts=true then checks in addition that all not-lone edges have valid vertices on both ends </p>
+
+</div>
+</div>
+<a id="ad39b72c5c1c1394f957eafdbf92abfe3" name="ad39b72c5c1c1394f957eafdbf92abfe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39b72c5c1c1394f957eafdbf92abfe3">&#9670;&#160;</a></span>collapseEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId MR::MeshTopology::collapseEdge </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; void(EdgeId del, EdgeId rem)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>onEdgeDel</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </p><dl class="section return"><dt>Returns</dt><dd>prev( e ) if it is still valid </dd></dl>
 
 </div>
 </div>

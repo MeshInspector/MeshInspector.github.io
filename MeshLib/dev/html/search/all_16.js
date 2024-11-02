@@ -19,7 +19,7 @@ var searchData=
   ['tabtext_16',['TabText',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796',1,'MR::ColorTheme']]],
   ['tabtype_17',['TabType',['../classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552b',1,'MR::ViewerSettingsPlugin']]],
   ['tag_18',['Tag',['../structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7',1,'MR::NotificationTags']]],
-  ['taggedbitset_19',['TaggedBitSet',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['taggedbitset_19',['TaggedBitSet',['../classMR_1_1TaggedBitSet.html',1,'MR::TaggedBitSet&lt; T &gt;'],['../classMR_1_1TaggedBitSet.html#a9a42d8f01ffc7d0932a2dd34dee93c30',1,'MR::TaggedBitSet::TaggedBitSet(const BitSet &amp;src)'],['../classMR_1_1TaggedBitSet.html#a11f6ea19fe4baf68d5e1e97539233490',1,'MR::TaggedBitSet::TaggedBitSet(BitSet &amp;&amp;src)']]],
   ['taggedbitset_3c_20tag_20_3e_20',['TaggedBitSet&lt; Tag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
   ['tags_21',['tags',['../structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49',1,'MR::RibbonNotification']]],
   ['takedistancemap_22',['takeDistanceMap',['../classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d',1,'MR::SurfaceDistanceBuilder']]],

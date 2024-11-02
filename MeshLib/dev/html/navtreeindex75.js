@@ -1,5 +1,11 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[12,0,1,606,0,1],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[10,0,12,621,0,7],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[12,0,1,606,0,7],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[10,0,12,621,0,6],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[12,0,1,606,0,6],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9":[10,0,12,621,0,5],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9":[12,0,1,606,0,5],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a":[10,0,12,621,0,9],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a":[12,0,1,606,0,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[10,0,12,643,0],
 "structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[12,0,1,628,0],
 "structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[10,0,12,643,1],
-"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[12,0,1,628,1],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[10,0,12,643,2],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[12,0,1,628,2],
-"structMR_1_1TouchMoveListener.html":[10,0,12,645],
-"structMR_1_1TouchMoveListener.html":[12,0,1,630],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[10,0,12,645,3],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[12,0,1,630,3]
+"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[12,0,1,628,1]
 };

@@ -37,6 +37,7 @@ var namespaceMR_1_1UI =
     [ "buttonIconEx", "namespaceMR_1_1UI.html#ab53314e24f68de52f675b6881591b212", null ],
     [ "buttonIconFlatBG", "namespaceMR_1_1UI.html#a192d3148a5ed3177660fcb7c2e758f1f", null ],
     [ "buttonUnique", "namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9", null ],
+    [ "buttonUniqueIcon", "namespaceMR_1_1UI.html#a41964cdf183e28e570d11115b3a1ef58", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222", null ],
     [ "checkboxFlags", "namespaceMR_1_1UI.html#aba6c7c72b70351ba42eae4e3a2e0df4b", null ],

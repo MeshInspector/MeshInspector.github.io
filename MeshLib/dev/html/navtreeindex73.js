@@ -1,5 +1,11 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[10,0,12,31,0,1],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[12,0,1,19,0,1],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[10,0,12,31,0,1,0],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[12,0,1,19,0,1,0],
+"structMR_1_1ResolveMeshDegenSettings.html":[10,0,12,525],
+"structMR_1_1ResolveMeshDegenSettings.html":[12,0,1,510],
 "structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[10,0,12,525,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[12,0,1,510,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[10,0,12,525,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[10,0,12,34,0,5],
 "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[12,0,1,21,0,5],
 "structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[10,0,12,34,0,2],
-"structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[12,0,1,21,0,2],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5":[10,0,12,34,0,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5":[12,0,1,21,0,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[10,0,12,34,0,0,1],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[12,0,1,21,0,0,1],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[10,0,12,34,0,0,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[12,0,1,21,0,0,0]
+"structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[12,0,1,21,0,2]
 };

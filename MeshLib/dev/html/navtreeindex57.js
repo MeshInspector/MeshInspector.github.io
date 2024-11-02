@@ -1,5 +1,11 @@
 var NAVTREEINDEX57 =
 {
+"namespacemembers_h.html":[10,1,0,7],
+"namespacemembers_i.html":[10,1,0,8],
+"namespacemembers_l.html":[10,1,0,9],
+"namespacemembers_m.html":[10,1,0,10],
+"namespacemembers_n.html":[10,1,0,11],
+"namespacemembers_o.html":[10,1,0,12],
 "namespacemembers_p.html":[10,1,0,13],
 "namespacemembers_q.html":[10,1,0,14],
 "namespacemembers_r.html":[10,1,0,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX57 =
 "structMRRemeshSettings.html#ab58b49a00c7efe6fe7b4a2f423bfbab3":[12,0,40,8],
 "structMRRemeshSettings.html#abbafe7fdf1d4baf1a12add0274a6a7db":[12,0,40,5],
 "structMRRemeshSettings.html#ac8e31341ae62a21b0a026dd78bcb2a12":[12,0,40,2],
-"structMRRemeshSettings.html#ae1948ca96b6e8e0a5c7777ec08e18a3f":[12,0,40,0],
-"structMRResolveMeshDegenSettings.html":[12,0,41],
-"structMRResolveMeshDegenSettings.html#a40805f081847f33445b8c25f2288f1ca":[12,0,41,4],
-"structMRResolveMeshDegenSettings.html#a40b2f63f667fbab16bbd7d3496b7f8af":[12,0,41,0],
-"structMRResolveMeshDegenSettings.html#a8ae976fcf6c01ae956769a1e25746315":[12,0,41,1],
-"structMRResolveMeshDegenSettings.html#a9b77421321a8654f8bc72f883429a070":[12,0,41,2],
-"structMRResolveMeshDegenSettings.html#aaca7eab20af75f05a9c80d319d272697":[12,0,41,3]
+"structMRRemeshSettings.html#ae1948ca96b6e8e0a5c7777ec08e18a3f":[12,0,40,0]
 };

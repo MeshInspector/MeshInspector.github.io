@@ -1,5 +1,11 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5":[10,0,12,34,0,0],
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5":[12,0,1,21,0,0],
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[10,0,12,34,0,0,1],
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[12,0,1,21,0,0,1],
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[10,0,12,34,0,0,0],
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[12,0,1,21,0,0,0],
 "structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[10,0,12,34,0,4],
 "structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[12,0,1,21,0,4],
 "structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[10,0,12,34,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,9,7,0,5],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[10,0,12,621,0],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[12,0,1,606,0],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[10,0,12,621,0,1],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[12,0,1,606,0,1],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[10,0,12,621,0,7],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[12,0,1,606,0,7],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[10,0,12,621,0,6],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[12,0,1,606,0,6],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9":[10,0,12,621,0,5]
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[10,0,12,621,0,1]
 };

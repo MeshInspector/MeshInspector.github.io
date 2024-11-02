@@ -175,9 +175,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a0731477e770d3880ed47726b66c43479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ec65ab68109bf48005d935a85a08713" id="r_a1ec65ab68109bf48005d935a85a08713"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec65ab68109bf48005d935a85a08713">collapseNearNotFlippable</a> = false</td></tr>
 <tr class="separator:a1ec65ab68109bf48005d935a85a08713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e2b45d957cafc32245b3ee812ed80d0" id="r_a4e2b45d957cafc32245b3ee812ed80d0"><td class="memItemLeft" align="right" valign="top">const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e2b45d957cafc32245b3ee812ed80d0">edgesToCollapse</a> = nullptr</td></tr>
-<tr class="memdesc:a4e2b45d957cafc32245b3ee812ed80d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear)  <br /></td></tr>
-<tr class="separator:a4e2b45d957cafc32245b3ee812ed80d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc8d3606bda7323ca4c7b6f6866df2c" id="r_adcc8d3606bda7323ca4c7b6f6866df2c"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcc8d3606bda7323ca4c7b6f6866df2c">edgesToCollapse</a> = nullptr</td></tr>
+<tr class="separator:adcc8d3606bda7323ca4c7b6f6866df2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c38997b3f0df2d9e534bf87f530cdd7" id="r_a5c38997b3f0df2d9e534bf87f530cdd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ae4c04995449710309dc72ed533991d7f">UndirectedEdgeHashMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c38997b3f0df2d9e534bf87f530cdd7">twinMap</a> = nullptr</td></tr>
 <tr class="separator:a5c38997b3f0df2d9e534bf87f530cdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae341a50784372571b1b5bb3e6948981e" id="r_ae341a50784372571b1b5bb3e6948981e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae341a50784372571b1b5bb3e6948981e">touchNearBdEdges</a> = true</td></tr>
@@ -195,8 +194,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a21d7c6d9122286b4edf7bd531d38b72b" id="r_a21d7c6d9122286b4edf7bd531d38b72b"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, Vector3f &amp;collapsePos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d7c6d9122286b4edf7bd531d38b72b">adjustCollapse</a></td></tr>
 <tr class="memdesc:a21d7c6d9122286b4edf7bd531d38b72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position.  <br /></td></tr>
 <tr class="separator:a21d7c6d9122286b4edf7bd531d38b72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4777d8a943b9bf55a68858260f62abd4" id="r_a4777d8a943b9bf55a68858260f62abd4"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId e, EdgeId e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4777d8a943b9bf55a68858260f62abd4">onEdgeDel</a></td></tr>
-<tr class="separator:a4777d8a943b9bf55a68858260f62abd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc72ed6f7c868487d053596c86220d6f" id="r_afc72ed6f7c868487d053596c86220d6f"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId del, EdgeId rem)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc72ed6f7c868487d053596c86220d6f">onEdgeDel</a></td></tr>
+<tr class="separator:afc72ed6f7c868487d053596c86220d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a682d43b723098485a748e97bd12111" id="r_a8a682d43b723098485a748e97bd12111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; QuadraticForm3f, VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a682d43b723098485a748e97bd12111">vertForms</a> = nullptr</td></tr>
 <tr class="memdesc:a8a682d43b723098485a748e97bd12111"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there.  <br /></td></tr>
 <tr class="separator:a8a682d43b723098485a748e97bd12111"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,19 +296,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e2b45d957cafc32245b3ee812ed80d0" name="a4e2b45d957cafc32245b3ee812ed80d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e2b45d957cafc32245b3ee812ed80d0">&#9670;&#160;</a></span>edgesToCollapse</h2>
+<a id="adcc8d3606bda7323ca4c7b6f6866df2c" name="adcc8d3606bda7323ca4c7b6f6866df2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc8d3606bda7323ca4c7b6f6866df2c">&#9670;&#160;</a></span>edgesToCollapse</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const UndirectedEdgeBitSet* MR::DecimateSettings::edgesToCollapse = nullptr</td>
+          <td class="memname">UndirectedEdgeBitSet* MR::DecimateSettings::edgesToCollapse = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear) </p>
+<p>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear); the algorithm updates this map during collapses, removing or replacing elements </p>
 
 </div>
 </div>
@@ -455,18 +453,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4777d8a943b9bf55a68858260f62abd4" name="a4777d8a943b9bf55a68858260f62abd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4777d8a943b9bf55a68858260f62abd4">&#9670;&#160;</a></span>onEdgeDel</h2>
+<a id="afc72ed6f7c868487d053596c86220d6f" name="afc72ed6f7c868487d053596c86220d6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc72ed6f7c868487d053596c86220d6f">&#9670;&#160;</a></span>onEdgeDel</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(EdgeId e, EdgeId e1)&gt; MR::DecimateSettings::onEdgeDel</td>
+          <td class="memname">std::function&lt;void( EdgeId del, EdgeId rem )&gt; MR::DecimateSettings::onEdgeDel</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is deleted; if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e </p>
+<p>this function is called each time edge (del) is deleted; if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </p>
 
 </div>
 </div>

@@ -51,7 +51,7 @@ var searchData=
   ['edgesize_48',['edgeSize',['../classMR_1_1Graph.html#a0c5f4eae690cb57f429c9656db0e2dad',1,'MR::Graph::edgeSize()'],['../classMR_1_1MeshTopology.html#a59e61393e26970b19791a726b212a1b8',1,'MR::MeshTopology::edgeSize()'],['../classMR_1_1PolylineTopology.html#a7308421016a4a943460946176b524bc8',1,'MR::PolylineTopology::edgeSize()']]],
   ['edgesize_5f_49',['edgeSize_',['../classMR_1_1RenderMeshObject.html#a888fbd0e8bad27a4ff46ec6c1e1680e5',1,'MR::RenderMeshObject']]],
   ['edgestexture_5f_50',['edgesTexture_',['../classMR_1_1RenderMeshObject.html#adec18a7be82779db2756036737e2119e',1,'MR::RenderMeshObject']]],
-  ['edgestocollapse_51',['edgesToCollapse',['../structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0',1,'MR::DecimateSettings']]],
+  ['edgestocollapse_51',['edgesToCollapse',['../structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c',1,'MR::DecimateSettings']]],
   ['edgetablemetric_52',['edgeTableMetric',['../group__SurfacePathGroup.html#gaca57e01c0ade3ec65621f646bba9822c',1,'MR']]],
   ['edgetablesymmetric_53',['edgeTableSymMetric',['../group__SurfacePathGroup.html#ga04e5ae2dd9a34149d37b4c31364b4b68',1,'MR']]],
   ['edgetag_54',['EdgeTag',['../namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c',1,'MR']]],

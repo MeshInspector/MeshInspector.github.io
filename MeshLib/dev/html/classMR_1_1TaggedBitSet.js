@@ -1,6 +1,8 @@
 var classMR_1_1TaggedBitSet =
 [
     [ "IndexType", "classMR_1_1TaggedBitSet.html#aee1dc472d197dae5a76f707615ccf080", null ],
+    [ "TaggedBitSet", "classMR_1_1TaggedBitSet.html#a9a42d8f01ffc7d0932a2dd34dee93c30", null ],
+    [ "TaggedBitSet", "classMR_1_1TaggedBitSet.html#a11f6ea19fe4baf68d5e1e97539233490", null ],
     [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#ae8f61c2407c0cf96df45149fb1f549b4", null ],
     [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#a549d518b018f126420c7403ef5633a1c", null ],
     [ "autoResizeTestSet", "classMR_1_1TaggedBitSet.html#a462014129d5cd9d3812890a783da6bc9", null ],

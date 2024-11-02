@@ -16,7 +16,7 @@ var searchData=
   ['edgeselectioncolor_5f_13',['edgeSelectionColor_',['../classMR_1_1ObjectMeshHolder.html#a219bb50dadde8e1916311120d3a9a6c4',1,'MR::ObjectMeshHolder']]],
   ['edgesize_5f_14',['edgeSize_',['../classMR_1_1RenderMeshObject.html#a888fbd0e8bad27a4ff46ec6c1e1680e5',1,'MR::RenderMeshObject']]],
   ['edgestexture_5f_15',['edgesTexture_',['../classMR_1_1RenderMeshObject.html#adec18a7be82779db2756036737e2119e',1,'MR::RenderMeshObject']]],
-  ['edgestocollapse_16',['edgesToCollapse',['../structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0',1,'MR::DecimateSettings']]],
+  ['edgestocollapse_16',['edgesToCollapse',['../structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c',1,'MR::DecimateSettings']]],
   ['edgetag_17',['EdgeTag',['../namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c',1,'MR']]],
   ['edgeweights_18',['edgeWeights',['../structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79',1,'MR::FillHoleNicelySettings::edgeWeights'],['../structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b',1,'MR::SurfaceManipulationWidget::Settings::edgeWeights']]],
   ['edgewidth_5f_19',['edgeWidth_',['../classMR_1_1ObjectMeshHolder.html#aa1769e8d7559173dc663c5b67a445a07',1,'MR::ObjectMeshHolder']]],
