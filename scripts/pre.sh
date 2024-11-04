@@ -10,6 +10,14 @@ sed \
     -e "/<body>/r scripts/analytics/html_body.html" \
     -i html_header.html
 
+# add doxygen-awesome scripts
+sed -e "/<\/head>/q" html_header.html > html_header.html.tmp
+sed -e "/<\/head>/d" -i html_header.html.tmp
+cat scripts/doxygen-awesome-scripts.html >> html_header.html.tmp
+sed -n -e "/<\/head>/,$ p" html_header.html >> html_header.html.tmp
+rm html_header.html
+mv html_header.html.tmp html_header.html
+
 # force Doxygen to use the custom HTML header
 sed \
     -e "s/HTML_HEADER\s*=.*/HTML_HEADER = html_header.html/" \
