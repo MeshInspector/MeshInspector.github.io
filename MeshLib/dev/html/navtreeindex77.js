@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1TrimOptionalOutput.html":[10,0,12,664],
+"structMR_1_1TrimOptionalOutput.html":[12,0,1,649],
 "structMR_1_1TrimOptionalOutput.html#a913d446d93ee465bae6bc24cdfcb9287":[10,0,12,664,3],
 "structMR_1_1TrimOptionalOutput.html#a913d446d93ee465bae6bc24cdfcb9287":[12,0,1,649,3],
 "structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[10,0,12,664,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db":[10,0,12,680,2],
 "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db":[12,0,1,665,2],
 "structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[10,0,12,680,10],
-"structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[12,0,1,665,10],
-"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[10,0,12,680,13],
-"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[12,0,1,665,13]
+"structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[12,0,1,665,10]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMRRemeshSettings.html#ac8e31341ae62a21b0a026dd78bcb2a12":[12,0,40,2],
+"structMRRemeshSettings.html#ae1948ca96b6e8e0a5c7777ec08e18a3f":[12,0,40,0],
 "structMRResolveMeshDegenSettings.html":[12,0,41],
 "structMRResolveMeshDegenSettings.html#a40805f081847f33445b8c25f2288f1ca":[12,0,41,4],
 "structMRResolveMeshDegenSettings.html#a40b2f63f667fbab16bbd7d3496b7f8af":[12,0,41,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BasicUiRenderTask.html#a25c71025ea06023cb9d2007b8d3908a3":[10,0,12,69,4],
 "structMR_1_1BasicUiRenderTask.html#a25c71025ea06023cb9d2007b8d3908a3":[12,0,1,54,4],
 "structMR_1_1BasicUiRenderTask.html#a269508abb07dd29213d99aada7db6d5e":[10,0,12,69,6],
-"structMR_1_1BasicUiRenderTask.html#a269508abb07dd29213d99aada7db6d5e":[12,0,1,54,6],
-"structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538":[10,0,12,69,10],
-"structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538":[12,0,1,54,10]
+"structMR_1_1BasicUiRenderTask.html#a269508abb07dd29213d99aada7db6d5e":[12,0,1,54,6]
 };

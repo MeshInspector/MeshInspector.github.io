@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[12,0,1,578,1],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[10,0,12,593,3],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[12,0,1,578,3],
 "classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961":[10,0,12,593,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1SurfaceContoursWidgetClearAction.html#aea7a76685894f4c174752784a2a66bfa":[12,0,1,607,1],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[10,0,12,622,0],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[12,0,1,607,0],
-"classMR_1_1SurfaceDistanceBuilder.html":[9,16,2,1],
-"classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91":[9,16,2,1,3]
+"classMR_1_1SurfaceDistanceBuilder.html":[9,16,2,1]
 };

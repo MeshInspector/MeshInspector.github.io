@@ -5,8 +5,9 @@
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
-    if (currentHost === 'meshinspector.github.io') {
-      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
     }
@@ -5454,6 +5455,8 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a5edbfcffae3bcdb000d83b7c6cf9e050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4786362a7faf5309ddb05c773cf3b513" id="r_a4786362a7faf5309ddb05c773cf3b513"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4786362a7faf5309ddb05c773cf3b513">thickenMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float offset, const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a4786362a7faf5309ddb05c773cf3b513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec48e1b0c1c9a1cca3e8368175b857e" id="r_a9ec48e1b0c1c9a1cca3e8368175b857e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ec48e1b0c1c9a1cca3e8368175b857e">offsetOneDirection</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;params={})</td></tr>
+<tr class="separator:a9ec48e1b0c1c9a1cca3e8368175b857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6f9ce8f2f7a4b39c759f54fbfede167" id="r_aa6f9ce8f2f7a4b39c759f54fbfede167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6f9ce8f2f7a4b39c759f54fbfede167">offsetPolyline</a> (const Polyline3 &amp;polyline, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:aa6f9ce8f2f7a4b39c759f54fbfede167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5ce4a97d4de7ca01323b9b78bf7e4df" id="r_ad5ce4a97d4de7ca01323b9b78bf7e4df"><td class="memTemplParams" colspan="2">template&lt;typename GredT &gt; </td></tr>
@@ -22799,6 +22802,41 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Offsets mesh by converting it to distance field in voxels using OpenVDB library, signDetectionMode = <a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">Unsigned(from OpenVDB)</a> | OpenVDB | HoleWindingRule, and then converts back using OpenVDB library (dual marching cubes), so result mesh is always closed </p>
+
+</div>
+</div>
+<a id="a9ec48e1b0c1c9a1cca3e8368175b857e" name="a9ec48e1b0c1c9a1cca3e8368175b857e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec48e1b0c1c9a1cca3e8368175b857e">&#9670;&#160;</a></span>offsetOneDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::offsetOneDirection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>offsets given <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> in one direction only (positive or negative) if your input mesh is open then please specify params.signDetectionMode = <a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">SignDetectionMode::Unsigned</a> if your input mesh is closed this function is equivalent to <code>generalOffsetMesh</code>, but in <a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">SignDetectionMode::Unsigned</a> mode it will only keep one side (just like for open mesh) unlike <code>thickenMesh</code> this functions does not keep original mesh in result </p>
 
 </div>
 </div>

@@ -2253,6 +2253,7 @@ var namespaceMR =
     [ "offsetContours", "namespaceMR.html#aade58963fb6a70bd69db550185bd5af7", null ],
     [ "offsetContours", "namespaceMR.html#a5603e7e0bf45735134643ec3745b0573", null ],
     [ "offsetMesh", "namespaceMR.html#aa8cff093ce429503e9b5c0e33d5b9080", null ],
+    [ "offsetOneDirection", "namespaceMR.html#a9ec48e1b0c1c9a1cca3e8368175b857e", null ],
     [ "offsetPolyline", "namespaceMR.html#aa6f9ce8f2f7a4b39c759f54fbfede167", null ],
     [ "onEdgeSplitFaceAttribute", "namespaceMR.html#a858bd56c47ccd2af4b01a5bfa189ff64", null ],
     [ "onEdgeSplitVertAttribute", "namespaceMR.html#a834d4370af921a7bc3c36d95b47f25d5", null ],

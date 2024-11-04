@@ -5,8 +5,9 @@
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
-    if (currentHost === 'meshinspector.github.io') {
-      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
     }
@@ -137,6 +138,7 @@ $(function(){initNavTree('namespacemembers_func_o.html',''); initResizable(true)
 <li>objectHasSelectableChildren()&#160;:&#160;<a class="el" href="namespaceMR.html#a8e83df3805927f1f6c006f596809d97a">MR</a></li>
 <li>offsetContours()&#160;:&#160;<a class="el" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">MR</a></li>
 <li>offsetMesh()&#160;:&#160;<a class="el" href="namespaceMR.html#aa8cff093ce429503e9b5c0e33d5b9080">MR</a></li>
+<li>offsetOneDirection()&#160;:&#160;<a class="el" href="namespaceMR.html#a9ec48e1b0c1c9a1cca3e8368175b857e">MR</a></li>
 <li>offsetPolyline()&#160;:&#160;<a class="el" href="namespaceMR.html#aa6f9ce8f2f7a4b39c759f54fbfede167">MR</a></li>
 <li>onEdgeSplitFaceAttribute()&#160;:&#160;<a class="el" href="namespaceMR.html#a858bd56c47ccd2af4b01a5bfa189ff64">MR</a></li>
 <li>onEdgeSplitVertAttribute()&#160;:&#160;<a class="el" href="namespaceMR.html#a834d4370af921a7bc3c36d95b47f25d5">MR</a></li>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[12,0,1,127,2],
+"structMR_1_1ConnectionHolder.html":[10,0,12,145],
 "structMR_1_1ConnectionHolder.html":[12,0,1,130],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[10,0,12,145,2],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[12,0,1,130,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Dirty.html":[9,11,2,4],
 "structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[9,11,2,4,0],
 "structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d":[9,11,2,4,8],
-"structMR_1_1Dirty.html#a3b3cf2d1593909573673d3d7a1d0d17c":[9,11,2,4,7],
-"structMR_1_1Dirty.html#a4b00ee48141fd2ae03df7ace8df5ac78":[9,11,2,4,5],
-"structMR_1_1Dirty.html#a5a46ea8b1d3e585f29a5761d2f2fc21a":[9,11,2,4,2]
+"structMR_1_1Dirty.html#a3b3cf2d1593909573673d3d7a1d0d17c":[9,11,2,4,7]
 };

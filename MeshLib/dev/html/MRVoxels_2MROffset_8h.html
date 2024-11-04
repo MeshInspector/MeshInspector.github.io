@@ -5,8 +5,9 @@
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
-    if (currentHost === 'meshinspector.github.io') {
-      var newPath = window.location.pathname.replace('/MeshLib/html', '/documentation');
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
     }
@@ -186,6 +187,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5edbfcffae3bcdb000d83b7c6cf9e050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4786362a7faf5309ddb05c773cf3b513" id="r_a4786362a7faf5309ddb05c773cf3b513"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4786362a7faf5309ddb05c773cf3b513">MR::thickenMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float offset, const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a4786362a7faf5309ddb05c773cf3b513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec48e1b0c1c9a1cca3e8368175b857e" id="r_a9ec48e1b0c1c9a1cca3e8368175b857e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9ec48e1b0c1c9a1cca3e8368175b857e">MR::offsetOneDirection</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;params={})</td></tr>
+<tr class="separator:a9ec48e1b0c1c9a1cca3e8368175b857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6f9ce8f2f7a4b39c759f54fbfede167" id="r_aa6f9ce8f2f7a4b39c759f54fbfede167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6f9ce8f2f7a4b39c759f54fbfede167">MR::offsetPolyline</a> (const Polyline3 &amp;polyline, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:aa6f9ce8f2f7a4b39c759f54fbfede167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
