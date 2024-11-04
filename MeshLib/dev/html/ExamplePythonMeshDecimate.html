@@ -134,9 +134,19 @@ $(function(){initNavTree('ExamplePythonMeshDecimate.html',''); initResizable(tru
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
+<div class="line"><span class="comment"># Repack mesh optimally.</span></div>
+<div class="line"><span class="comment"># It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
+<div class="line">mesh.packOptimally()</div>
+<div class="line"> </div>
 <div class="line"><span class="comment"># Setup decimate parameters</span></div>
 <div class="line">settings = mrmeshpy.DecimateSettings()</div>
-<div class="line">settings.maxError = 0.05</div>
+<div class="line"><span class="comment"># Decimation stop thresholds, you may specify one or both</span></div>
+<div class="line">settings.maxDeletedFaces = 1000 <span class="comment"># Number of faces to be deleted</span></div>
+<div class="line">settings.maxError = 0.05 <span class="comment"># Maximum error when decimation stops</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
+<div class="line"><span class="comment"># Recommended to set to number of CPU cores or more available for the best performance</span></div>
+<div class="line">settings.subdivideParts = 64</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Decimate mesh</span></div>
 <div class="line">mrmeshpy.decimateMesh(mesh, settings)</div>
