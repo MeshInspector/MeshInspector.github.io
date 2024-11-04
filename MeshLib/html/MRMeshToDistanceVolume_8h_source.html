@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -131,67 +137,96 @@ $(function(){initNavTree('MRMeshToDistanceVolume_8h_source.html',''); initResiza
 <a href="MRMeshToDistanceVolume_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRDistanceVolumeParams_8h.html">MRDistanceVolumeParams.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshDistance_8h.html">MRMesh/MRMeshDistance.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html">   12</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed">   14</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a> <a class="code hl_variable" href="structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed">vol</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html#a5f985261c614ada76ab3a1b6a4ea22d1">   16</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> <a class="code hl_variable" href="structMR_1_1MeshToDistanceVolumeParams.html#a5f985261c614ada76ab3a1b6a4ea22d1">dist</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef">   18</a></span>    std::shared_ptr&lt;IFastWindingNumber&gt; <a class="code hl_variable" href="structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef">fwn</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRSignDetectionMode_8h.html">MRMesh/MRSignDetectionMode.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;cfloat&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1DistanceToMeshOptions.html">   14</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f">   17</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f">minDistSq</a>{ 0 };</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580">   20</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580">maxDistSq</a>{ FLT_MAX };</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structMR_1_1DistanceToMeshOptions.html#aa80ccd95dc4e56a5b16d71becf8f937f">   23</a></span>    <a class="code hl_enumeration" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> <a class="code hl_variable" href="structMR_1_1DistanceToMeshOptions.html#aa80ccd95dc4e56a5b16d71becf8f937f">signMode</a>{ <a class="code hl_enumvalue" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9">SignDetectionMode::ProjectionNormal</a> };</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9">   28</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9">windingNumberThreshold</a> = 0.5f;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5">   32</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5">windingNumberBeta</a> = 2;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
 </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">   22</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;SimpleVolumeMinMax&gt;</a> <a class="code hl_function" href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">meshToDistanceVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a>&amp; params = {} );</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">   25</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume <a class="code hl_function" href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">meshToDistanceFunctionVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a>&amp; params = {} );</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">   29</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;SimpleVolumeMinMax&gt;</a> <a class="code hl_function" href="namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">meshRegionToIndicatorVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> FaceBitSet&amp; region,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">float</span> offset, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a>&amp; params );</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html">   33</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1MeshToDirectionVolumeParams.html">MeshToDirectionVolumeParams</a></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882">   35</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a> <a class="code hl_variable" href="structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882">vol</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html#ae40d1d140cfa8187507172fe40598193">   36</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> <a class="code hl_variable" href="structMR_1_1MeshToDirectionVolumeParams.html#ae40d1d140cfa8187507172fe40598193">dist</a>; <span class="comment">// note that signMode is ignored in this algorithm</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767">   37</a></span>    std::shared_ptr&lt;IPointsToMeshProjector&gt; <a class="code hl_variable" href="structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767">projector</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="namespaceMR.html#a015f66374f3ac5fc14877983f1f92dc0">   36</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::optional&lt;float&gt; <a class="code hl_function" href="namespaceMR.html#a015f66374f3ac5fc14877983f1f92dc0">signedDistanceToMesh</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; p, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a>&amp; op );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="foldopen" id="foldopen00038" data-start="{" data-end="};">
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html">   38</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed">   40</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a> <a class="code hl_variable" href="structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed">vol</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html#a5f985261c614ada76ab3a1b6a4ea22d1">   42</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> <a class="code hl_variable" href="structMR_1_1MeshToDistanceVolumeParams.html#a5f985261c614ada76ab3a1b6a4ea22d1">dist</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef">   44</a></span>    std::shared_ptr&lt;IFastWindingNumber&gt; <a class="code hl_variable" href="structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef">fwn</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
 </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">   43</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;std::array&lt;SimpleVolumeMinMax, 3&gt;</a>&gt; <a class="code hl_function" href="namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">meshToDirectionVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshToDirectionVolumeParams.html">MeshToDirectionVolumeParams</a>&amp; params );</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">   48</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;SimpleVolumeMinMax&gt;</a> <a class="code hl_function" href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">meshToDistanceVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a>&amp; params = {} );</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">   51</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume <a class="code hl_function" href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">meshToDistanceFunctionVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a>&amp; params = {} );</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">   55</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;SimpleVolumeMinMax&gt;</a> <a class="code hl_function" href="namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">meshRegionToIndicatorVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">FaceBitSet</a>&amp; region,</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">float</span> offset, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a>&amp; params );</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="foldopen" id="foldopen00059" data-start="{" data-end="};">
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html">   59</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1MeshToDirectionVolumeParams.html">MeshToDirectionVolumeParams</a></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>{</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882">   61</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a> <a class="code hl_variable" href="structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882">vol</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html#ae40d1d140cfa8187507172fe40598193">   62</a></span>    <a class="code hl_struct" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> <a class="code hl_variable" href="structMR_1_1MeshToDirectionVolumeParams.html#ae40d1d140cfa8187507172fe40598193">dist</a>; <span class="comment">// note that signMode is ignored in this algorithm</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767">   63</a></span>    std::shared_ptr&lt;IPointsToMeshProjector&gt; <a class="code hl_variable" href="structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767">projector</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
+</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">   69</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;std::array&lt;SimpleVolumeMinMax, 3&gt;</a>&gt; <a class="code hl_function" href="namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">meshToDirectionVolume</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshToDirectionVolumeParams.html">MeshToDirectionVolumeParams</a>&amp; params );</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRDistanceVolumeParams_8h_html"><div class="ttname"><a href="MRDistanceVolumeParams_8h.html">MRDistanceVolumeParams.h</a></div></div>
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
-<div class="ttc" id="aMRMeshDistance_8h_html"><div class="ttname"><a href="MRMeshDistance_8h.html">MRMeshDistance.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRSignDetectionMode_8h_html"><div class="ttname"><a href="MRMesh_2MRSignDetectionMode_8h.html">MRSignDetectionMode.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:13</div></div>
 <div class="ttc" id="aMRVoxelsVolume_8h_html"><div class="ttname"><a href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a></div></div>
+<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
+<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a015f66374f3ac5fc14877983f1f92dc0"><div class="ttname"><a href="namespaceMR.html#a015f66374f3ac5fc14877983f1f92dc0">MR::signedDistanceToMesh</a></div><div class="ttdeci">MRVOXELS_API std::optional&lt; float &gt; signedDistanceToMesh(const MeshPart &amp;mp, const Vector3f &amp;p, const DistanceToMeshOptions &amp;op)</div><div class="ttdoc">computes signed distance from point (p) to mesh part (mp) following options (op)</div></div>
+<div class="ttc" id="anamespaceMR_html_a03fba1fe0e5d6fe3c22dc41c9d57d309"><div class="ttname"><a href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">MR::SignDetectionMode</a></div><div class="ttdeci">SignDetectionMode</div><div class="ttdoc">how to determine the sign of distances from a mesh</div><div class="ttdef"><b>Definition</b> MRMesh/MRSignDetectionMode.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9"><div class="ttname"><a href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9">MR::SignDetectionMode::ProjectionNormal</a></div><div class="ttdeci">@ ProjectionNormal</div><div class="ttdoc">the sign is determined based on pseudonormal in closest mesh point (unsafe in case of self-intersecti...</div></div>
 <div class="ttc" id="anamespaceMR_html_a150c8492a3dc820bde5db5249c54ba5d"><div class="ttname"><a href="namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">MR::meshRegionToIndicatorVolume</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; SimpleVolumeMinMax &gt; meshRegionToIndicatorVolume(const Mesh &amp;mesh, const FaceBitSet &amp;region, float offset, const DistanceVolumeParams &amp;params)</div></div>
 <div class="ttc" id="anamespaceMR_html_a6c156388dac5c49acedd469aa1f5cc6e"><div class="ttname"><a href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">MR::meshToDistanceFunctionVolume</a></div><div class="ttdeci">MRVOXELS_API FunctionVolume meshToDistanceFunctionVolume(const MeshPart &amp;mp, const MeshToDistanceVolumeParams &amp;params={})</div><div class="ttdoc">makes FunctionVolume representing (signed or unsigned) distances from Mesh with given settings</div></div>
 <div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
 <div class="ttc" id="anamespaceMR_html_a7cfd6d2c7fdde75ec5577e2e10511787"><div class="ttname"><a href="namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">MR::meshToDirectionVolume</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; std::array&lt; SimpleVolumeMinMax, 3 &gt; &gt; meshToDirectionVolume(const MeshToDirectionVolumeParams &amp;params)</div></div>
 <div class="ttc" id="anamespaceMR_html_a8588d03e436a418a22bb66f0f389f1ad"><div class="ttname"><a href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">MR::meshToDistanceVolume</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; SimpleVolumeMinMax &gt; meshToDistanceVolume(const MeshPart &amp;mp, const MeshToDistanceVolumeParams &amp;params={})</div><div class="ttdoc">makes SimpleVolume filled with (signed or unsigned) distances from Mesh with given settings</div></div>
-<div class="ttc" id="astructMR_1_1DistanceToMeshOptions_html"><div class="ttname"><a href="structMR_1_1DistanceToMeshOptions.html">MR::DistanceToMeshOptions</a></div><div class="ttdef"><b>Definition</b> MRMeshDistance.h:36</div></div>
+<div class="ttc" id="astructMR_1_1DistanceToMeshOptions_html"><div class="ttname"><a href="structMR_1_1DistanceToMeshOptions.html">MR::DistanceToMeshOptions</a></div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:15</div></div>
+<div class="ttc" id="astructMR_1_1DistanceToMeshOptions_html_a32a5670750d3aecf21776f2fe2ad28d9"><div class="ttname"><a href="structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9">MR::DistanceToMeshOptions::windingNumberThreshold</a></div><div class="ttdeci">float windingNumberThreshold</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:28</div></div>
+<div class="ttc" id="astructMR_1_1DistanceToMeshOptions_html_a760f0917e02d32cbd6a708966ef922a5"><div class="ttname"><a href="structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5">MR::DistanceToMeshOptions::windingNumberBeta</a></div><div class="ttdeci">float windingNumberBeta</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:32</div></div>
+<div class="ttc" id="astructMR_1_1DistanceToMeshOptions_html_aa80ccd95dc4e56a5b16d71becf8f937f"><div class="ttname"><a href="structMR_1_1DistanceToMeshOptions.html#aa80ccd95dc4e56a5b16d71becf8f937f">MR::DistanceToMeshOptions::signMode</a></div><div class="ttdeci">SignDetectionMode signMode</div><div class="ttdoc">the method to compute distance sign</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:23</div></div>
+<div class="ttc" id="astructMR_1_1DistanceToMeshOptions_html_ae2fa63f37be78f78cc9c0146c30c913f"><div class="ttname"><a href="structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f">MR::DistanceToMeshOptions::minDistSq</a></div><div class="ttdeci">float minDistSq</div><div class="ttdoc">minimum squared distance from a point to mesh</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:17</div></div>
+<div class="ttc" id="astructMR_1_1DistanceToMeshOptions_html_af424f0c5bd2d65e33086d7e590836580"><div class="ttname"><a href="structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580">MR::DistanceToMeshOptions::maxDistSq</a></div><div class="ttdeci">float maxDistSq</div><div class="ttdoc">maximum squared distance from a point to mesh</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:20</div></div>
 <div class="ttc" id="astructMR_1_1DistanceVolumeParams_html"><div class="ttname"><a href="structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></div><div class="ttdef"><b>Definition</b> MRDistanceVolumeParams.h:10</div></div>
 <div class="ttc" id="astructMR_1_1MeshPart_html"><div class="ttname"><a href="structMR_1_1MeshPart.html">MR::MeshPart</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshPart.h:11</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:34</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html_abc2ad86ead41f3e878ed25f71acf4882"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882">MR::MeshToDirectionVolumeParams::vol</a></div><div class="ttdeci">DistanceVolumeParams vol</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:35</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html_abe274cb37fde7b021b46a400ec6ce767"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767">MR::MeshToDirectionVolumeParams::projector</a></div><div class="ttdeci">std::shared_ptr&lt; IPointsToMeshProjector &gt; projector</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:37</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html_ae40d1d140cfa8187507172fe40598193"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html#ae40d1d140cfa8187507172fe40598193">MR::MeshToDirectionVolumeParams::dist</a></div><div class="ttdeci">DistanceToMeshOptions dist</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:36</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:13</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html_a360d1bd15bac22e4e7e287a986e68bed"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed">MR::MeshToDistanceVolumeParams::vol</a></div><div class="ttdeci">DistanceVolumeParams vol</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:14</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html_a5f985261c614ada76ab3a1b6a4ea22d1"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html#a5f985261c614ada76ab3a1b6a4ea22d1">MR::MeshToDistanceVolumeParams::dist</a></div><div class="ttdeci">DistanceToMeshOptions dist</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:16</div></div>
-<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html_a740cc5d8bb375f88ea00678baa716cef"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef">MR::MeshToDistanceVolumeParams::fwn</a></div><div class="ttdeci">std::shared_ptr&lt; IFastWindingNumber &gt; fwn</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:18</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:60</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html_abc2ad86ead41f3e878ed25f71acf4882"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882">MR::MeshToDirectionVolumeParams::vol</a></div><div class="ttdeci">DistanceVolumeParams vol</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:61</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html_abe274cb37fde7b021b46a400ec6ce767"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767">MR::MeshToDirectionVolumeParams::projector</a></div><div class="ttdeci">std::shared_ptr&lt; IPointsToMeshProjector &gt; projector</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:63</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDirectionVolumeParams_html_ae40d1d140cfa8187507172fe40598193"><div class="ttname"><a href="structMR_1_1MeshToDirectionVolumeParams.html#ae40d1d140cfa8187507172fe40598193">MR::MeshToDirectionVolumeParams::dist</a></div><div class="ttdeci">DistanceToMeshOptions dist</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:62</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:39</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html_a360d1bd15bac22e4e7e287a986e68bed"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed">MR::MeshToDistanceVolumeParams::vol</a></div><div class="ttdeci">DistanceVolumeParams vol</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:40</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html_a5f985261c614ada76ab3a1b6a4ea22d1"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html#a5f985261c614ada76ab3a1b6a4ea22d1">MR::MeshToDistanceVolumeParams::dist</a></div><div class="ttdeci">DistanceToMeshOptions dist</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:42</div></div>
+<div class="ttc" id="astructMR_1_1MeshToDistanceVolumeParams_html_a740cc5d8bb375f88ea00678baa716cef"><div class="ttname"><a href="structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef">MR::MeshToDistanceVolumeParams::fwn</a></div><div class="ttdeci">std::shared_ptr&lt; IFastWindingNumber &gt; fwn</div><div class="ttdef"><b>Definition</b> MRMeshToDistanceVolume.h:44</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

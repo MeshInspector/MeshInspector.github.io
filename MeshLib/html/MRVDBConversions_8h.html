@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -140,7 +146,6 @@ $(function(){initNavTree('MRVDBConversions_8h.html',''); initResizable(true); })
 <code>#include &quot;<a class="el" href="MRMesh_2MRBox_8h_source.html">MRMesh/MRBox.h</a>&quot;</code><br />
 <code>#include &lt;climits&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRVDBConversions_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -163,9 +168,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adc86f37e5a8bb2c7c0b30dfc636d8e90" id="r_adc86f37e5a8bb2c7c0b30dfc636d8e90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#adc86f37e5a8bb2c7c0b30dfc636d8e90">MR::meshToLevelSet</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const AffineXf3f &amp;xf, const Vector3f &amp;voxelSize, float surfaceOffset=3, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:adc86f37e5a8bb2c7c0b30dfc636d8e90" id="r_adc86f37e5a8bb2c7c0b30dfc636d8e90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#adc86f37e5a8bb2c7c0b30dfc636d8e90">MR::meshToLevelSet</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;xf, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, float surfaceOffset=3, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:adc86f37e5a8bb2c7c0b30dfc636d8e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3327e8bcfee1e492daeb80b3500c2ca2" id="r_a3327e8bcfee1e492daeb80b3500c2ca2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3327e8bcfee1e492daeb80b3500c2ca2">MR::meshToDistanceField</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const AffineXf3f &amp;xf, const Vector3f &amp;voxelSize, float surfaceOffset=3, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:a3327e8bcfee1e492daeb80b3500c2ca2" id="r_a3327e8bcfee1e492daeb80b3500c2ca2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3327e8bcfee1e492daeb80b3500c2ca2">MR::meshToDistanceField</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;xf, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, float surfaceOffset=3, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a3327e8bcfee1e492daeb80b3500c2ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72186b88a4bd5e19146aae7b0faa4bf4" id="r_a72186b88a4bd5e19146aae7b0faa4bf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a72186b88a4bd5e19146aae7b0faa4bf4">MR::evalGridMinMax</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, float &amp;min, float &amp;max)</td></tr>
 <tr class="separator:a72186b88a4bd5e19146aae7b0faa4bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,25 +178,22 @@ Functions</h2></td></tr>
 <tr class="separator:ab26a3095c2f054ad6f7ecab11ff7b7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e69c30624a2430bc2e6027320d1f6a0" id="r_a3e69c30624a2430bc2e6027320d1f6a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3e69c30624a2430bc2e6027320d1f6a0">MR::floatGridToVdbVolume</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> grid)</td></tr>
 <tr class="separator:a3e69c30624a2430bc2e6027320d1f6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c3054d7ec46286f79367b0f93ffddb0" id="r_a8c3054d7ec46286f79367b0f93ffddb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8c3054d7ec46286f79367b0f93ffddb0">MR::simpleVolumeToDenseGrid</a> (const SimpleVolume &amp;simpleVolume, float background=0.0f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="separator:a8c3054d7ec46286f79367b0f93ffddb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2da9d310d84ddf678a6c52386f0c1ae" id="r_af2da9d310d84ddf678a6c52386f0c1ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af2da9d310d84ddf678a6c52386f0c1ae">MR::simpleVolumeToDenseGrid</a> (const SimpleVolume &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:af2da9d310d84ddf678a6c52386f0c1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ad0e96439eebbb67a8dbd2aa0f3ca49" id="r_a4ad0e96439eebbb67a8dbd2aa0f3ca49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4ad0e96439eebbb67a8dbd2aa0f3ca49">MR::simpleVolumeToVdbVolume</a> (const SimpleVolumeMinMax &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a4ad0e96439eebbb67a8dbd2aa0f3ca49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba29bf5baab2e1924aeb45b624a3c821" id="r_aba29bf5baab2e1924aeb45b624a3c821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aba29bf5baab2e1924aeb45b624a3c821">MR::putSimpleVolumeInDenseGrid</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3i &amp;minCoord, const SimpleVolume &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:aba29bf5baab2e1924aeb45b624a3c821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy given <code>simpleVolume</code> into the <code>grid</code>, starting at <code>minCoord</code>.  <br /></td></tr>
-<tr class="separator:aba29bf5baab2e1924aeb45b624a3c821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8e39754438588fbde8b091279db752" id="r_a0d8e39754438588fbde8b091279db752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0d8e39754438588fbde8b091279db752">MR::vdbVolumeToSimpleVolume</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a0d8e39754438588fbde8b091279db752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c6e921b59b28810967128b1e54c4a51" id="r_a7c6e921b59b28810967128b1e54c4a51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7c6e921b59b28810967128b1e54c4a51">MR::vdbVolumeToSimpleVolumeNorm</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), std::optional&lt; <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &gt; sourceScale={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="separator:a7c6e921b59b28810967128b1e54c4a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d250c00f768edc4ac0ae283ac571ba4" id="r_a2d250c00f768edc4ac0ae283ac571ba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMaxU16 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2d250c00f768edc4ac0ae283ac571ba4">MR::vdbVolumeToSimpleVolumeU16</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), std::optional&lt; <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &gt; sourceScale={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="separator:a2d250c00f768edc4ac0ae283ac571ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13064dba7bd11b38300ad6cba345323" id="r_ac13064dba7bd11b38300ad6cba345323"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac13064dba7bd11b38300ad6cba345323">MR::vdbVolumeToSimpleVolumeNorm</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ac13064dba7bd11b38300ad6cba345323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd73bfe15e1122611561bc6d72511542" id="r_acd73bfe15e1122611561bc6d72511542"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMaxU16 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acd73bfe15e1122611561bc6d72511542">MR::vdbVolumeToSimpleVolumeU16</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:acd73bfe15e1122611561bc6d72511542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e49582fe849014967a8baf003fd27b" id="r_ad8e49582fe849014967a8baf003fd27b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad8e49582fe849014967a8baf003fd27b">MR::gridToMesh</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const <a class="el" href="structMR_1_1GridToMeshSettings.html">GridToMeshSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:ad8e49582fe849014967a8baf003fd27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts OpenVDB Grid into mesh using Dual Marching Cubes algorithm  <br /></td></tr>
 <tr class="separator:ad8e49582fe849014967a8baf003fd27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad03b5a42934e43debc76695507a680" id="r_a1ad03b5a42934e43debc76695507a680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1ad03b5a42934e43debc76695507a680">MR::gridToMesh</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;&amp;grid, const <a class="el" href="structMR_1_1GridToMeshSettings.html">GridToMeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a1ad03b5a42934e43debc76695507a680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb145c323941c5fd06c513bc640d05b1" id="r_aeb145c323941c5fd06c513bc640d05b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aeb145c323941c5fd06c513bc640d05b1">MR::makeSignedByWindingNumber</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3f &amp;voxelSize, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1MakeSignedByWindingNumberSettings.html">MakeSignedByWindingNumberSettings</a> &amp;settings)</td></tr>
+<tr class="memitem:aeb145c323941c5fd06c513bc640d05b1" id="r_aeb145c323941c5fd06c513bc640d05b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aeb145c323941c5fd06c513bc640d05b1">MR::makeSignedByWindingNumber</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1MakeSignedByWindingNumberSettings.html">MakeSignedByWindingNumberSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:aeb145c323941c5fd06c513bc640d05b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set signs for unsigned distance field grid using generalized winding number computed at voxel grid point from refMesh  <br /></td></tr>
 <tr class="separator:aeb145c323941c5fd06c513bc640d05b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928996b8ccf0ededf4666de67cedde79" id="r_a928996b8ccf0ededf4666de67cedde79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a928996b8ccf0ededf4666de67cedde79">MR::doubleOffsetVdb</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1DoubleOffsetSettings.html">DoubleOffsetSettings</a> &amp;settings)</td></tr>

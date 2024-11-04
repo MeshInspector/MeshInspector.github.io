@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -155,9 +161,9 @@ $(function(){initNavTree('MRAncillaryPoints_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e">   31</a></span>    <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e">~AncillaryPoints</a>() { reset(); }</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402">   34</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402">addPoint</a>( <span class="keyword">const</span> Vector3f&amp; point );</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402">   34</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402">addPoint</a>( <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; point );</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc">   37</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc">addPoint</a>( <span class="keyword">const</span> Vector3f&amp; point, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Color.html">Color</a>&amp; color );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc">   37</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc">addPoint</a>( <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; point, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Color.html">Color</a>&amp; color );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8">   40</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8">addPoints</a>( <span class="keyword">const</span> std::vector&lt;Vector3f&gt;&amp; points );</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
@@ -170,6 +176,7 @@ $(function(){initNavTree('MRAncillaryPoints_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:60</div></div>
+<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html">MR::AncillaryPoints</a></div><div class="ttdoc">Helper class to manage ancillary visual points used by plugins.</div><div class="ttdef"><b>Definition</b> MRAncillaryPoints.h:12</div></div>
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html_a0cdf55740b5048f21da661679c6deddc"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc">MR::AncillaryPoints::addPoint</a></div><div class="ttdeci">MRVIEWER_API void addPoint(const Vector3f &amp;point, const Color &amp;color)</div><div class="ttdoc">add ancillary point with color</div></div>

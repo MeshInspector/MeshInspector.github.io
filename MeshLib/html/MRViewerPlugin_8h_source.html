@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -202,7 +208,7 @@ $(function(){initNavTree('MRViewerPlugin_8h_source.html',''); initResizable(true
 <div class="ttc" id="aclassMR_1_1ViewerPlugin_html_ad7fd0e80e15b5c45837fc005c71c9eab"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">MR::ViewerPlugin::~ViewerPlugin</a></div><div class="ttdeci">virtual ~ViewerPlugin()</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:34</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerPlugin_html_aea3243e52b3ddd4094ee9f25accf6912"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912">MR::ViewerPlugin::plugin_name</a></div><div class="ttdeci">std::string plugin_name</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:49</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div><div class="ttdoc">returns global instance of Viewer class</div></div>
+<div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div></div>
 <div class="ttc" id="anamespaceViewer_html"><div class="ttname"><a href="namespaceViewer.html">Viewer</a></div><div class="ttdef"><b>Definition</b> Viewer.dox.py:1</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['edge_0',['Edge',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a2f7402dedcbccbb66d152940301cab25',1,'MR::OneMeshIntersection']]],
+  ['edge_0',['Edge',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a2f7402dedcbccbb66d152940301cab25',1,'MR::OneMeshIntersection::Edge'],['../MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181ae4a297a0f76119a442c2595ac040673e',1,'Edge:&#160;MRContoursCut.h']]],
   ['edgeceneters_1',['EdgeCeneters',['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5',1,'MR::SurfacePointWidget']]],
   ['edges_2',['Edges',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7',1,'MR::SceneColors::Edges'],['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9',1,'MR::SurfacePointWidget::Edges']]],
   ['edit_3',['Edit',['../namespaceMR.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35',1,'MR']]],

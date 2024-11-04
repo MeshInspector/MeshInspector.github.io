@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -128,6 +134,7 @@ $(function(){initNavTree('functions.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index__5F" name="index__5F"></a>- _ -</h3><ul>
+<li>__pad0__&#160;:&#160;<a class="el" href="classabstract.html#a2ec8eb0ec848bf4d7f218c8d6cfc870d">abstract</a>, <a class="el" href="classBitSet.html#aaf82ae5c7eef2b4af4b1f53cea2eca80">BitSet</a>, <a class="el" href="classBooleanMaps.html#a9709a05f7f5224cd375b58bed2e59f82">BooleanMaps</a>, <a class="el" href="classBooleanResultMapper.html#a125cec280c769cc593b9f6d0126fce81">BooleanResultMapper</a>, <a class="el" href="classCoordinateConverters.html#a2cb1b2486b02f8710b148face10fea02">CoordinateConverters</a>, <a class="el" href="classGeneralOffsetParameters.html#a802c2c1e9401560dc2f939a5c408f516">GeneralOffsetParameters</a>, <a class="el" href="classMatrix3f.html#a22383cf0e88800ace5cf0d05358d295a">Matrix3f</a>, <a class="el" href="classMesh.html#a2e067e02f3e3e381882eb8eb8e05022e">Mesh</a>, <a class="el" href="structMeshTriPoint.html#af4f555478c7dbf062510991fc51d055c">MeshTriPoint</a>, <a class="el" href="classOffsetParameters.html#a9ec98ba31e69c894fbb7582e75be2c7c">OffsetParameters</a>, <a class="el" href="classPointCloud.html#a3b68619796791f10e1cd155e2fe512f1">PointCloud</a>, <a class="el" href="classPreciseCollisionResult.html#a14ef162d63e0a75e4a2bacd137fa276e">PreciseCollisionResult</a>, <a class="el" href="classSharpOffsetParameters.html#a16d765a3990478794f9d5ea26bfe3411">SharpOffsetParameters</a></li>
 <li>_padding&#160;:&#160;<a class="el" href="structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc">MR::RelaxParams</a></li>
 </ul>
 </div><!-- contents -->

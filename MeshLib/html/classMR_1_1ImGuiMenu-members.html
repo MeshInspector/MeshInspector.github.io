@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -255,7 +261,7 @@ $(function(){initNavTree('classMR_1_1ImGuiMenu.html',''); initResizable(true); }
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#a133e9d1bc1eaddc62bc3607ef1c16dc1">setupShortcuts_</a>()</td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#af12f28cc32062db2ff2e65a8abeab3ca">shortcutManager_</a></td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#a9d77cd28320ae4333fc7e5b9c5a4d38b">showInfoModal_</a></td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#a2a048091853e02ff674893add9adf7e3">showModalMessage</a>(const std::string &amp;msg, NotificationType msgType)</td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#ae4965c1d15a42da53f31d8aff5524db9">showModalMessage</a>(const std::string &amp;msg, NotificationType msgType)</td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#a09e144807f360fa5ae2c48aa130a940d">showRenameModal_</a></td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#a02f96b228edc61b7c42ab06b759d6f5d">showShortcuts_</a></td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html#ab14610cb6f67cd8617dd1750924c854f">showStatistics_</a></td><td class="entry"><a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>

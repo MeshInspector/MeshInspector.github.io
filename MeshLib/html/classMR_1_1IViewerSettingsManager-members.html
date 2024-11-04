@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -131,15 +137,11 @@ $(function(){initNavTree('classMR_1_1IViewerSettingsManager.html',''); initResiz
 
 <p>This is the complete list of members for <a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0">loadBool</a>(const std::string &amp;name, bool def=false)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ab9f733189fccd3f42fdaf8a567be0b21">loadInt</a>(const std::string &amp;name, int def=0)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84">loadSettings</a>(Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ac98d55ecfa50e04e63dfedf7493bb801">loadString</a>(const std::string &amp;name, const std::string &amp;def=&quot;&quot;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ab9f733189fccd3f42fdaf8a567be0b21">loadInt</a>(const std::string &amp;name, int def=0)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84">loadSettings</a>(Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#aa9efd64388f302d29af0b3f52e02e1b9">resetSettings</a>(Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#aa41a37036651e7f0cb04a0d4b65d106d">saveBool</a>(const std::string &amp;name, bool value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#af168e749a6c59588feb5c727fbe61f5e">saveInt</a>(const std::string &amp;name, int value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ae67af1a0e658385f3cdc6e77271e8a4d">saveSettings</a>(const Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a9102818977eba48ae6d32a50ec265530">saveString</a>(const std::string &amp;name, const std::string &amp;value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#af168e749a6c59588feb5c727fbe61f5e">saveInt</a>(const std::string &amp;name, int value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ae67af1a0e658385f3cdc6e77271e8a4d">saveSettings</a>(const Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665">~IViewerSettingsManager</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

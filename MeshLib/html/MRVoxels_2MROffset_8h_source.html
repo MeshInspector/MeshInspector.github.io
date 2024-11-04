@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -185,7 +191,7 @@ $(function(){initNavTree('MRVoxels_2MROffset_8h_source.html',''); initResizable(
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="namespaceMR.html#a2feac3a50eec5b2f2d371d843f869f27">   82</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Mesh&gt;</a> <a class="code hl_function" href="namespaceMR.html#a2feac3a50eec5b2f2d371d843f869f27">mcOffsetMesh</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keywordtype">float</span> offset,</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetParameters.html">OffsetParameters</a>&amp; params = {}, Vector&lt;VoxelId, FaceId&gt;* outMap = nullptr );</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="namespaceMR.html#a26c58403810ae559f5aa4b2e7e0dd80d">   88</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Mesh&gt;</a> <a class="code hl_function" href="namespaceMR.html#a26c58403810ae559f5aa4b2e7e0dd80d">mcShellMeshRegion</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> FaceBitSet&amp; region, <span class="keywordtype">float</span> offset,</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="namespaceMR.html#a26c58403810ae559f5aa4b2e7e0dd80d">   88</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Mesh&gt;</a> <a class="code hl_function" href="namespaceMR.html#a26c58403810ae559f5aa4b2e7e0dd80d">mcShellMeshRegion</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">FaceBitSet</a>&amp; region, <span class="keywordtype">float</span> offset,</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BaseShellParameters.html">BaseShellParameters</a>&amp; params, <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;VoxelId, FaceId&gt;</a> * outMap = <span class="keyword">nullptr</span> );</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="namespaceMR.html#ac1a0e7e32c8d591b83f66462ad4f89ef">   93</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Mesh&gt;</a> <a class="code hl_function" href="namespaceMR.html#ac1a0e7e32c8d591b83f66462ad4f89ef">sharpOffsetMesh</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keywordtype">float</span> offset, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SharpOffsetParameters.html">SharpOffsetParameters</a>&amp; params = {} );</div>
@@ -212,10 +218,11 @@ $(function(){initNavTree('MRVoxels_2MROffset_8h_source.html',''); initResizable(
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:13</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:20</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
+<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:19</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a03fba1fe0e5d6fe3c22dc41c9d57d309"><div class="ttname"><a href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">MR::SignDetectionMode</a></div><div class="ttdeci">SignDetectionMode</div><div class="ttdoc">how to determine the sign of distances from a mesh</div><div class="ttdef"><b>Definition</b> MRMesh/MRSignDetectionMode.h:10</div></div>
+<div class="ttc" id="anamespaceMR_html_a03fba1fe0e5d6fe3c22dc41c9d57d309"><div class="ttname"><a href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">MR::SignDetectionMode</a></div><div class="ttdeci">SignDetectionMode</div><div class="ttdoc">how to determine the sign of distances from a mesh</div><div class="ttdef"><b>Definition</b> MRMesh/MRSignDetectionMode.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9"><div class="ttname"><a href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9">MR::SignDetectionMode::OpenVDB</a></div><div class="ttdeci">@ OpenVDB</div><div class="ttdoc">sign detection from OpenVDB library, which is good and fast if input geometry is closed</div></div>
 <div class="ttc" id="anamespaceMR_html_a26c58403810ae559f5aa4b2e7e0dd80d"><div class="ttname"><a href="namespaceMR.html#a26c58403810ae559f5aa4b2e7e0dd80d">MR::mcShellMeshRegion</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; mcShellMeshRegion(const Mesh &amp;mesh, const FaceBitSet &amp;region, float offset, const BaseShellParameters &amp;params, Vector&lt; VoxelId, FaceId &gt; *outMap=nullptr)</div></div>
 <div class="ttc" id="anamespaceMR_html_a2feac3a50eec5b2f2d371d843f869f27"><div class="ttname"><a href="namespaceMR.html#a2feac3a50eec5b2f2d371d843f869f27">MR::mcOffsetMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; mcOffsetMesh(const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={}, Vector&lt; VoxelId, FaceId &gt; *outMap=nullptr)</div></div>

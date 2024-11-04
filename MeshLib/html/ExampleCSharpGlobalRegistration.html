@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -138,20 +144,20 @@ $(function(){initNavTree('ExampleCSharpGlobalRegistration.html',''); initResizab
 <div class="line">{</div>
 <div class="line">    <span class="keyword">internal</span> <span class="keyword">class </span>Program</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats( MultiwayICP icp )</div>
+<div class="line">        <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats( <a class="code hl_class" href="classMultiwayICP.html">MultiwayICP</a> icp )</div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordtype">int</span> numActivePairs = icp.GetNumActivePairs();</div>
+<div class="line">            <span class="keywordtype">int</span> numActivePairs = icp.<a class="code hl_function" href="classMultiwayICP.html#a26a6d95af9366675c2ee7747d06833c9">GetNumActivePairs</a>();</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;Number of samples: {icp.GetNumSamples()}&quot;</span>);</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;Number of active pairs: {numActivePairs}&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="keywordflow">if</span> ( numActivePairs &gt; 0 )</div>
 <div class="line">            {</div>
-<div class="line">                <span class="keywordtype">double</span> p2ptMetric = icp.GetMeanSqDistToPoint();</div>
-<div class="line">                <span class="keywordtype">double</span> p2ptInaccuracy = icp.GetMeanSqDistToPoint(p2ptMetric);</div>
+<div class="line">                <span class="keywordtype">double</span> p2ptMetric = icp.<a class="code hl_function" href="classMultiwayICP.html#a55ccd1305f597ac2c6648413caaf435b">GetMeanSqDistToPoint</a>();</div>
+<div class="line">                <span class="keywordtype">double</span> p2ptInaccuracy = icp.<a class="code hl_function" href="classMultiwayICP.html#a55ccd1305f597ac2c6648413caaf435b">GetMeanSqDistToPoint</a>(p2ptMetric);</div>
 <div class="line">                Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-point distance: {p2ptMetric} ± {p2ptInaccuracy}&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">                <span class="keywordtype">double</span> p2plMetric = icp.GetMeanSqDistToPlane();</div>
-<div class="line">                <span class="keywordtype">double</span> p2plInaccuracy = icp.GetMeanSqDistToPlane(p2ptMetric);</div>
+<div class="line">                <span class="keywordtype">double</span> p2plMetric = icp.<a class="code hl_function" href="classMultiwayICP.html#afed751f284dc6e681eb47821a98cfedc">GetMeanSqDistToPlane</a>();</div>
+<div class="line">                <span class="keywordtype">double</span> p2plInaccuracy = icp.<a class="code hl_function" href="classMultiwayICP.html#afed751f284dc6e681eb47821a98cfedc">GetMeanSqDistToPlane</a>(p2ptMetric);</div>
 <div class="line">                Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-plane distance: {p2plMetric} ± {p2plInaccuracy}&quot;</span>);</div>
 <div class="line">            }</div>
 <div class="line">        }</div>
@@ -167,39 +173,39 @@ $(function(){initNavTree('ExampleCSharpGlobalRegistration.html',''); initResizab
 <div class="line">            {</div>
 <div class="line">                <span class="keywordtype">int</span> inputNum = args.Length - 1;</div>
 <div class="line">                List&lt;MeshOrPointsXf&gt; inputs = <span class="keyword">new</span> List&lt;MeshOrPointsXf&gt;(inputNum);</div>
-<div class="line">                Box3f maxBBox = <span class="keyword">new</span> Box3f();</div>
+<div class="line">                <a class="code hl_class" href="classBox3f.html">Box3f</a> maxBBox = <span class="keyword">new</span> <a class="code hl_class" href="classBox3f.html">Box3f</a>();</div>
 <div class="line">                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">                {</div>
-<div class="line">                    MeshOrPointsXf obj = <span class="keyword">new</span> MeshOrPointsXf();</div>
-<div class="line">                    obj.obj = PointCloud.FromAnySupportedFormat(args[i]);</div>
-<div class="line">                    obj.xf = <span class="keyword">new</span> AffineXf3f();</div>
+<div class="line">                    <a class="code hl_struct" href="structMeshOrPointsXf.html">MeshOrPointsXf</a> obj = <span class="keyword">new</span> <a class="code hl_struct" href="structMeshOrPointsXf.html">MeshOrPointsXf</a>();</div>
+<div class="line">                    obj.obj = <a class="code hl_class" href="classPointCloud.html">PointCloud</a>.<a class="code hl_function" href="classPointCloud.html#a256529a741812da95d329f0bf2273083">FromAnySupportedFormat</a>(args[i]);</div>
+<div class="line">                    obj.xf = <span class="keyword">new</span> <a class="code hl_class" href="classAffineXf3f.html">AffineXf3f</a>();</div>
 <div class="line">                    inputs.Add(obj);</div>
-<div class="line">                    Box3f bbox = obj.obj.BoundingBox;</div>
-<div class="line">                    <span class="keywordflow">if</span> ( !maxBBox.Valid() || bbox.Volume() &gt; maxBBox.Volume() )</div>
+<div class="line">                    <a class="code hl_class" href="classBox3f.html">Box3f</a> bbox = obj.<a class="code hl_variable" href="structMeshOrPointsXf.html#ac3fff5bc2518b43696222c01c794ff44">obj</a>.<a class="code hl_variable" href="interfaceMeshOrPoints.html#a34450bdc2efa2659a3a4aa51eaeb758e">BoundingBox</a>;</div>
+<div class="line">                    <span class="keywordflow">if</span> ( !maxBBox.<a class="code hl_function" href="classBox3f.html#a48325be7e956b89e2a742eeeed0f24c5">Valid</a>() || bbox.<a class="code hl_function" href="classBox3f.html#a95db6e3ce4c8cbaf3edd03cfbb4ec89c">Volume</a>() &gt; maxBBox.<a class="code hl_function" href="classBox3f.html#a95db6e3ce4c8cbaf3edd03cfbb4ec89c">Volume</a>() )</div>
 <div class="line">                        maxBBox = bbox;</div>
 <div class="line">                }</div>
 <div class="line"> </div>
-<div class="line">                MultiwayICPSamplingParameters samplingParams = <span class="keyword">new</span> MultiwayICPSamplingParameters();</div>
-<div class="line">                samplingParams.samplingVoxelSize = maxBBox.Diagonal() * 0.03f;</div>
+<div class="line">                <a class="code hl_struct" href="structMultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a> samplingParams = <span class="keyword">new</span> <a class="code hl_struct" href="structMultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a>();</div>
+<div class="line">                samplingParams.samplingVoxelSize = maxBBox.<a class="code hl_function" href="classBox3f.html#aea72530e728125fee6c28f6ff0dff041">Diagonal</a>() * 0.03f;</div>
 <div class="line">                </div>
-<div class="line">                MultiwayICP icp = <span class="keyword">new</span> MultiwayICP(inputs, samplingParams );</div>
-<div class="line">                ICPProperties iCPProperties = <span class="keyword">new</span> ICPProperties();</div>
-<div class="line">                icp.SetParams( iCPProperties );</div>
-<div class="line">                icp.UpdateAllPointPairs();</div>
+<div class="line">                <a class="code hl_class" href="classMultiwayICP.html">MultiwayICP</a> icp = <span class="keyword">new</span> <a class="code hl_class" href="classMultiwayICP.html">MultiwayICP</a>(inputs, samplingParams );</div>
+<div class="line">                <a class="code hl_struct" href="structICPProperties.html">ICPProperties</a> iCPProperties = <span class="keyword">new</span> <a class="code hl_struct" href="structICPProperties.html">ICPProperties</a>();</div>
+<div class="line">                icp.<a class="code hl_function" href="classMultiwayICP.html#abbc65cf2a161cdbdf7335dbfb9568a62">SetParams</a>( iCPProperties );</div>
+<div class="line">                icp.<a class="code hl_function" href="classMultiwayICP.html#ac15a80770ec41daa16718766a269090e">UpdateAllPointPairs</a>();</div>
 <div class="line">                PrintStats(icp);</div>
 <div class="line"> </div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Calculating transformations...&quot;</span>);</div>
-<div class="line">                var xfs = icp.CalculateTransformations();</div>
+<div class="line">                var xfs = icp.<a class="code hl_function" href="classMultiwayICP.html#a670eed75ebda4c9c1ed8556e60a49c3f">CalculateTransformations</a>();</div>
 <div class="line">                PrintStats(icp);</div>
-<div class="line">                <a class="code hl_variable" href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a> output = <span class="keyword">new</span> <a class="code hl_variable" href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a>();</div>
+<div class="line">                <a class="code hl_class" href="classPointCloud.html">PointCloud</a> output = <span class="keyword">new</span> <a class="code hl_class" href="classPointCloud.html">PointCloud</a>();</div>
 <div class="line">                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">                {</div>
 <div class="line">                    var xf = xfs[i];</div>
 <div class="line">                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; inputs[i].obj.Points.Count; j++)</div>
-<div class="line">                        output.AddPoint( xf.Apply( inputs[i].obj.Points[j]) );</div>
+<div class="line">                        output.<a class="code hl_function" href="classPointCloud.html#a5ae826fbcddf4cdbe08d56dba8a60f89">AddPoint</a>( xf.Apply( inputs[i].obj.Points[j]) );</div>
 <div class="line">                }</div>
 <div class="line"> </div>
-<div class="line">                <a class="code hl_variable" href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a>.ToAnySupportedFormat( output , args[args.Length - 1] );</div>
+<div class="line">                <a class="code hl_class" href="classPointCloud.html">PointCloud</a>.<a class="code hl_function" href="classPointCloud.html#a700e40fe44376778976078d728ddab7f">ToAnySupportedFormat</a>( output , args[args.Length - 1] );</div>
 <div class="line">            }</div>
 <div class="line">            <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">            {</div>
@@ -208,13 +214,34 @@ $(function(){initNavTree('ExampleCSharpGlobalRegistration.html',''); initResizab
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="anamespaceMR_html_a1bfc73c4801d5127d8be21699dc9f590"><div class="ttname"><a href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">MR::PointCloud</a></div><div class="ttdeci">struct MRMESH_CLASS PointCloud</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:477</div></div>
+<div class="ttc" id="aclassAffineXf3f_html"><div class="ttname"><a href="classAffineXf3f.html">AffineXf3f</a></div><div class="ttdoc">affine transformation: y = A*x + b, where A in VxV, and b in V</div><div class="ttdef"><b>Definition</b> MRDotNet/MRAffineXf.h:8</div></div>
+<div class="ttc" id="aclassBox3f_html"><div class="ttname"><a href="classBox3f.html">Box3f</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRBox3.h:8</div></div>
+<div class="ttc" id="aclassBox3f_html_a48325be7e956b89e2a742eeeed0f24c5"><div class="ttname"><a href="classBox3f.html#a48325be7e956b89e2a742eeeed0f24c5">Box3f::Valid</a></div><div class="ttdeci">bool Valid()</div><div class="ttdoc">true if the box contains at least one point</div></div>
+<div class="ttc" id="aclassBox3f_html_a95db6e3ce4c8cbaf3edd03cfbb4ec89c"><div class="ttname"><a href="classBox3f.html#a95db6e3ce4c8cbaf3edd03cfbb4ec89c">Box3f::Volume</a></div><div class="ttdeci">float Volume()</div><div class="ttdoc">computes the volume of this box</div></div>
+<div class="ttc" id="aclassBox3f_html_aea72530e728125fee6c28f6ff0dff041"><div class="ttname"><a href="classBox3f.html#aea72530e728125fee6c28f6ff0dff041">Box3f::Diagonal</a></div><div class="ttdeci">float Diagonal()</div><div class="ttdoc">computes length from min to max</div></div>
+<div class="ttc" id="aclassMultiwayICP_html"><div class="ttname"><a href="classMultiwayICP.html">MultiwayICP</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRMultiwayICP.h:28</div></div>
+<div class="ttc" id="aclassMultiwayICP_html_a26a6d95af9366675c2ee7747d06833c9"><div class="ttname"><a href="classMultiwayICP.html#a26a6d95af9366675c2ee7747d06833c9">MultiwayICP::GetNumActivePairs</a></div><div class="ttdeci">int GetNumActivePairs()</div><div class="ttdoc">computes the number of active point pairs</div></div>
+<div class="ttc" id="aclassMultiwayICP_html_a55ccd1305f597ac2c6648413caaf435b"><div class="ttname"><a href="classMultiwayICP.html#a55ccd1305f597ac2c6648413caaf435b">MultiwayICP::GetMeanSqDistToPoint</a></div><div class="ttdeci">float GetMeanSqDistToPoint()</div><div class="ttdoc">computes root-mean-square deviation between points</div></div>
+<div class="ttc" id="aclassMultiwayICP_html_a670eed75ebda4c9c1ed8556e60a49c3f"><div class="ttname"><a href="classMultiwayICP.html#a670eed75ebda4c9c1ed8556e60a49c3f">MultiwayICP::CalculateTransformations</a></div><div class="ttdeci">List&lt; AffineXf3f^&gt; CalculateTransformations()</div></div>
+<div class="ttc" id="aclassMultiwayICP_html_abbc65cf2a161cdbdf7335dbfb9568a62"><div class="ttname"><a href="classMultiwayICP.html#abbc65cf2a161cdbdf7335dbfb9568a62">MultiwayICP::SetParams</a></div><div class="ttdeci">void SetParams(ICPProperties^ props)</div><div class="ttdoc">tune algorithm params before run calculateTransformations()</div></div>
+<div class="ttc" id="aclassMultiwayICP_html_ac15a80770ec41daa16718766a269090e"><div class="ttname"><a href="classMultiwayICP.html#ac15a80770ec41daa16718766a269090e">MultiwayICP::UpdateAllPointPairs</a></div><div class="ttdeci">bool UpdateAllPointPairs()</div></div>
+<div class="ttc" id="aclassMultiwayICP_html_afed751f284dc6e681eb47821a98cfedc"><div class="ttname"><a href="classMultiwayICP.html#afed751f284dc6e681eb47821a98cfedc">MultiwayICP::GetMeanSqDistToPlane</a></div><div class="ttdeci">float GetMeanSqDistToPlane()</div><div class="ttdoc">computes root-mean-square deviation from points to target planes</div></div>
+<div class="ttc" id="aclassPointCloud_html"><div class="ttname"><a href="classPointCloud.html">PointCloud</a></div><div class="ttdoc">represents a point cloud</div><div class="ttdef"><b>Definition</b> MRDotNet/MRPointCloud.h:7</div></div>
+<div class="ttc" id="aclassPointCloud_html_a256529a741812da95d329f0bf2273083"><div class="ttname"><a href="classPointCloud.html#a256529a741812da95d329f0bf2273083">PointCloud::FromAnySupportedFormat</a></div><div class="ttdeci">static PointCloud FromAnySupportedFormat(System::String^ path)</div><div class="ttdoc">loads point cloud from file of any supported format</div></div>
+<div class="ttc" id="aclassPointCloud_html_a5ae826fbcddf4cdbe08d56dba8a60f89"><div class="ttname"><a href="classPointCloud.html#a5ae826fbcddf4cdbe08d56dba8a60f89">PointCloud::AddPoint</a></div><div class="ttdeci">void AddPoint(Vector3f^ point)</div><div class="ttdoc">adds a point</div></div>
+<div class="ttc" id="aclassPointCloud_html_a700e40fe44376778976078d728ddab7f"><div class="ttname"><a href="classPointCloud.html#a700e40fe44376778976078d728ddab7f">PointCloud::ToAnySupportedFormat</a></div><div class="ttdeci">static void ToAnySupportedFormat(PointCloud^ mesh, System::String^ path)</div><div class="ttdoc">saves point cloud to file of any supported format</div></div>
+<div class="ttc" id="ainterfaceMeshOrPoints_html_a34450bdc2efa2659a3a4aa51eaeb758e"><div class="ttname"><a href="interfaceMeshOrPoints.html#a34450bdc2efa2659a3a4aa51eaeb758e">MeshOrPoints::BoundingBox</a></div><div class="ttdeci">property Box3f BoundingBox</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshOrPoints.h:16</div></div>
+<div class="ttc" id="astructICPProperties_html"><div class="ttname"><a href="structICPProperties.html">ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRICP.h:55</div></div>
+<div class="ttc" id="astructMeshOrPointsXf_html"><div class="ttname"><a href="structMeshOrPointsXf.html">MeshOrPointsXf</a></div><div class="ttdoc">holds together mesh/point cloud and its transformation</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshOrPoints.h:21</div></div>
+<div class="ttc" id="astructMeshOrPointsXf_html_ac3fff5bc2518b43696222c01c794ff44"><div class="ttname"><a href="structMeshOrPointsXf.html#ac3fff5bc2518b43696222c01c794ff44">MeshOrPointsXf::obj</a></div><div class="ttdeci">MeshOrPoints obj</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshOrPoints.h:22</div></div>
+<div class="ttc" id="astructMultiwayICPSamplingParameters_html"><div class="ttname"><a href="structMultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a></div><div class="ttdoc">Parameters that are used for sampling of the MultiwayICP objects.</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMultiwayICP.h:9</div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="HowToBasic.html">Examples</a></li><li class="navelem"><a class="el" href="CSharpCodeExamples.html">C# Samples</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

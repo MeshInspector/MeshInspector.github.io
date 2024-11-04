@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -177,9 +183,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8cb5d6b26c335c32fdc14df9907b6367" id="r_ga8cb5d6b26c335c32fdc14df9907b6367"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga8cb5d6b26c335c32fdc14df9907b6367"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1TriIntersectResult.html">TriIntersectResult</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#ga8cb5d6b26c335c32fdc14df9907b6367">MR::rayTriangleIntersect_</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;oriA, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;oriB, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;oriC, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; T &gt; &amp;prec)</td></tr>
 <tr class="separator:ga8cb5d6b26c335c32fdc14df9907b6367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d0fb992f1b478ab6245e6d6a5b47e9f" id="r_ga6d0fb992f1b478ab6245e6d6a5b47e9f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1TriIntersectResult.html">TriIntersectResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#ga6d0fb992f1b478ab6245e6d6a5b47e9f">MR::rayTriangleIntersect</a> (const Vector3f &amp;oriA, const Vector3f &amp;oriB, const Vector3f &amp;oriC, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; float &gt; &amp;prec)</td></tr>
+<tr class="memitem:ga6d0fb992f1b478ab6245e6d6a5b47e9f" id="r_ga6d0fb992f1b478ab6245e6d6a5b47e9f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1TriIntersectResult.html">TriIntersectResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#ga6d0fb992f1b478ab6245e6d6a5b47e9f">MR::rayTriangleIntersect</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;oriA, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;oriB, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;oriC, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; float &gt; &amp;prec)</td></tr>
 <tr class="separator:ga6d0fb992f1b478ab6245e6d6a5b47e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaff70eb7ab1db8fd3d414cc2e6e9d4d67" id="r_gaff70eb7ab1db8fd3d414cc2e6e9d4d67"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1TriIntersectResult.html">TriIntersectResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#gaff70eb7ab1db8fd3d414cc2e6e9d4d67">MR::rayTriangleIntersect</a> (const Vector3f &amp;oriA, const Vector3f &amp;oriB, const Vector3f &amp;oriC, const Vector3f &amp;dir)</td></tr>
+<tr class="memitem:gaff70eb7ab1db8fd3d414cc2e6e9d4d67" id="r_gaff70eb7ab1db8fd3d414cc2e6e9d4d67"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1TriIntersectResult.html">TriIntersectResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#gaff70eb7ab1db8fd3d414cc2e6e9d4d67">MR::rayTriangleIntersect</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;oriA, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;oriB, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;oriC, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;dir)</td></tr>
 <tr class="separator:gaff70eb7ab1db8fd3d414cc2e6e9d4d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga00441b942b256034993915378272cc37" id="r_ga00441b942b256034993915378272cc37"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1TriIntersectResult.html">TriIntersectResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#ga00441b942b256034993915378272cc37">MR::rayTriangleIntersect</a> (const Vector3d &amp;oriA, const Vector3d &amp;oriB, const Vector3d &amp;oriC, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; &amp;prec)</td></tr>
 <tr class="separator:ga00441b942b256034993915378272cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>

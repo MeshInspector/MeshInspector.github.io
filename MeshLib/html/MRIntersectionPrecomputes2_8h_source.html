@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -185,7 +191,7 @@ $(function(){initNavTree('MRIntersectionPrecomputes2_8h_source.html',''); initRe
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
-<div class="ttc" id="agroup__AABBTreeGroup_html_ga7fcb33a674ea8b57ac858e40d42e26e3"><div class="ttname"><a href="group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a></div><div class="ttdeci">void findMaxVectorDim(int &amp;dimX, int &amp;dimY, int &amp;dimZ, const Vector3&lt; T &gt; &amp;dir)</div><div class="ttdoc">finds index of maximum axis and stores it into dimZ</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:25</div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_ga7fcb33a674ea8b57ac858e40d42e26e3"><div class="ttname"><a href="group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a></div><div class="ttdeci">void findMaxVectorDim(int &amp;dimX, int &amp;dimY, int &amp;dimZ, const Vector3&lt; T &gt; &amp;dir)</div><div class="ttdoc">finds index of maximum axis and stores it into dimZ</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:24</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1IntersectionPrecomputes2_html_a4570f366fea168e1a0346c51fe5108c8"><div class="ttname"><a href="structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8">MR::IntersectionPrecomputes2::idxX</a></div><div class="ttdeci">int idxX</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes2.h:41</div></div>
 <div class="ttc" id="astructMR_1_1IntersectionPrecomputes2_html_a48da57b1568b50155d61042128d457de"><div class="ttname"><a href="structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de">MR::IntersectionPrecomputes2::Sy</a></div><div class="ttdeci">T Sy</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes2.h:47</div></div>

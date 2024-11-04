@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -212,12 +218,12 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>};</div>
 </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">   80</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">   80</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours2f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">   84</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">ContoursVariableOffset</a> = std::function&lt;float( <span class="keywordtype">int</span>, <span class="keywordtype">int</span> )&gt;;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="namespaceMR.html#a27899d08f51f8b1106ec145d7a116f9f">   86</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="namespaceMR.html#a5db06f36d945bf1145dd23e57d58c4ee">   86</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours2f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, </div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <a class="code hl_typedef" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">ContoursVariableOffset</a> offset, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="foldopen" id="foldopen00090" data-start="{" data-end="};">
@@ -229,10 +235,10 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>};</div>
 </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="namespaceMR.html#a5603e7e0bf45735134643ec3745b0573">  101</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3db56ef37e17985dae9627acb5e6c70a">  101</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours3f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="namespaceMR.html#aade58963fb6a70bd69db550185bd5af7">  105</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours,</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="namespaceMR.html#a346a111ee66dc3f9a932e32ca3e15e57">  105</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours3f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours,</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <a class="code hl_typedef" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">ContoursVariableOffset</a> offset, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>}</div>
@@ -241,12 +247,13 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a13fd7f6f4c21ca10264a68af45c700bd"><div class="ttname"><a href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">MR::offsetContours</a></div><div class="ttdeci">MRMESH_API Contours2f offsetContours(const Contours2f &amp;contours, float offset, const OffsetContoursParams &amp;params={})</div><div class="ttdoc">offsets 2d contours in plane</div></div>
 <div class="ttc" id="anamespaceMR_html_a19cb89c4b7c5582f2215200a5b0755af"><div class="ttname"><a href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">MR::ContoursVariableOffset</a></div><div class="ttdeci">std::function&lt; float(int, int)&gt; ContoursVariableOffset</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:84</div></div>
 <div class="ttc" id="anamespaceMR_html_a3f87a9abf93ab132bc1ea3f939459b37"><div class="ttname"><a href="namespaceMR.html#a3f87a9abf93ab132bc1ea3f939459b37">MR::OffsetContoursVertMaps</a></div><div class="ttdeci">std::vector&lt; OffsetContoursVertMap &gt; OffsetContoursVertMaps</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:45</div></div>
+<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
 <div class="ttc" id="anamespaceMR_html_a8746fbb8e09652c686ff0dcf8c01804c"><div class="ttname"><a href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">MR::Contours2f</a></div><div class="ttdeci">Contours2&lt; float &gt; Contours2f</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:282</div></div>
 <div class="ttc" id="anamespaceMR_html_abbeb6c9515d4865378050cb9687fd180"><div class="ttname"><a href="namespaceMR.html#abbeb6c9515d4865378050cb9687fd180">MR::OffsetContoursVertMap</a></div><div class="ttdeci">std::vector&lt; OffsetContoursOrigins &gt; OffsetContoursVertMap</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:44</div></div>
 <div class="ttc" id="anamespaceMR_html_ac93791b17f5bb1ff4a6a7e7f51a7abc9"><div class="ttname"><a href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">MR::Contours3f</a></div><div class="ttdeci">Contours3&lt; float &gt; Contours3f</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:284</div></div>
+<div class="ttc" id="anamespaceMR_html_acedbfb27bdded9e3c9322ce1e29e0781"><div class="ttname"><a href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">MR::offsetContours</a></div><div class="ttdeci">MRMESH_API Expected&lt; Contours2f &gt; offsetContours(const Contours2f &amp;contours, float offset, const OffsetContoursParams &amp;params={})</div><div class="ttdoc">offsets 2d contours in plane</div></div>
 <div class="ttc" id="astructMR_1_1OffsetContourIndex_html"><div class="ttname"><a href="structMR_1_1OffsetContourIndex.html">MR::OffsetContourIndex</a></div><div class="ttdef"><b>Definition</b> MROffsetContours.h:12</div></div>
 <div class="ttc" id="astructMR_1_1OffsetContourIndex_html_a54bdd66c3fff31476178a447886820e7"><div class="ttname"><a href="structMR_1_1OffsetContourIndex.html#a54bdd66c3fff31476178a447886820e7">MR::OffsetContourIndex::vertId</a></div><div class="ttdeci">int vertId</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:16</div></div>
 <div class="ttc" id="astructMR_1_1OffsetContourIndex_html_ae382efff2f4e2a54df6db8e72d4c7420"><div class="ttname"><a href="structMR_1_1OffsetContourIndex.html#ae382efff2f4e2a54df6db8e72d4c7420">MR::OffsetContourIndex::valid</a></div><div class="ttdeci">bool valid() const</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:17</div></div>

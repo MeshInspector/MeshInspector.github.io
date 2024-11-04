@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -131,13 +137,13 @@ $(function(){initNavTree('functions_d.html',''); initResizable(true); });
 <li>d&#160;:&#160;<a class="el" href="structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b">MR::Line&lt; V &gt;</a>, <a class="el" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">MR::Plane3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303">MR::Quaternion&lt; T &gt;</a></li>
 <li>data()&#160;:&#160;<a class="el" href="classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a">MR::Buffer&lt; V, I &gt;</a>, <a class="el" href="classMR_1_1DistanceMap.html#a38e9ddb4a58e01a2fee45968358c5098">MR::DistanceMap</a>, <a class="el" href="structMR_1_1Matrix4.html#a2968fcaeb275c69d69adefdaec46f32c">MR::Matrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix.html#a72f839037b43011a56b0f8624c2df0dd">MR::Matrix&lt; T &gt;</a>, <a class="el" href="classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927">MR::RenderBufferRef&lt; T &gt;</a>, <a class="el" href="classMR_1_1Vector.html#a52816f431d630dedbc20620deacb5b47">MR::Vector&lt; T, I &gt;</a>, <a class="el" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">MR::VoxelsVolume&lt; T &gt;</a>, <a class="el" href="structvector__wrapper__base.html#a16068ea8159df175c3e6627bd753d3a9">vector_wrapper_base&lt; T &gt;</a></li>
 <li>dblArea()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349">MR::Mesh</a></li>
+<li>Decimate()&#160;:&#160;<a class="el" href="classMeshDecimate.html#a2596262aac1230b382eb8cb4d3f1db58">MeshDecimate</a></li>
 <li>decimate&#160;:&#160;<a class="el" href="structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453">MR::RebuildMeshSettings</a></li>
-<li>decimateBetweenParts&#160;:&#160;<a class="el" href="structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe">MR::DecimateSettings</a>, <a class="el" href="structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628">MRDecimateSettings</a></li>
+<li>decimateBetweenParts&#160;:&#160;<a class="el" href="structDecimateParameters.html#a25468add72e48c64b6075006461fa6c4">DecimateParameters</a>, <a class="el" href="structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe">MR::DecimateSettings</a>, <a class="el" href="structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628">MRDecimateSettings</a></li>
 <li>Decoration&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850ae">MR::ImGuiMeasurementIndicators::LineCap</a></li>
 <li>decoration&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9">MR::ImGuiMeasurementIndicators::LineCap</a></li>
 <li>decorationFormatString&#160;:&#160;<a class="el" href="structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db">MR::UnitToStringParams&lt; E &gt;</a></li>
 <li>decorationsColor_&#160;:&#160;<a class="el" href="classMR_1_1FeatureObject.html#a1c8e2cd4e02b32ce6329d8a44ab727c6">MR::FeatureObject</a></li>
-<li>Default&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d">MR::NotificationTags</a></li>
 <li>DefaultColors&#160;:&#160;<a class="el" href="classMR_1_1Palette.html#aaa660bef4a51b8a0247fa7eafccfcfba">MR::Palette</a></li>
 <li>defaultNotificationLifeTimeSeconds&#160;:&#160;<a class="el" href="classMR_1_1RibbonNotifier.html#ab63838c73f526f97b5d11fd8d3c7237d">MR::RibbonNotifier</a></li>
 <li>defaultQuickAccessList&#160;:&#160;<a class="el" href="structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b">MR::RibbonSchema</a></li>
@@ -175,7 +181,8 @@ $(function(){initNavTree('functions_d.html',''); initResizable(true); });
 <li>devEnableIndependentEquationsMode()&#160;:&#160;<a class="el" href="classMR_1_1MultiwayICP.html#a44f6380f606dbdbaf88e1bf6357735dc">MR::MultiwayICP</a></li>
 <li>devIndependentEquationsModeEnabled()&#160;:&#160;<a class="el" href="classMR_1_1MultiwayICP.html#ae4d25815f9e27aeb558a76b1268fb602">MR::MultiwayICP</a></li>
 <li>df()&#160;:&#160;<a class="el" href="structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d">MR::ConeFittingFunctor&lt; T &gt;</a></li>
-<li>diagonal()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144">MR::Box&lt; V &gt;</a>, <a class="el" href="structMR_1_1SymMatrix2.html#a364466ea8c305b40ce349b90f040c873">MR::SymMatrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix3.html#ad9dcf1d38df199d9b286299f52b8ea18">MR::SymMatrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix4.html#a4035197926d1c7b4e776a8384343771a">MR::SymMatrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector2.html#a7728a269ca682095e8e0f7d667bb727a">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#af3522428d5137f019a3da623a19222ab">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#aae32c22644b25c26b237f41ac439da53">MR::Vector4&lt; T &gt;</a>, <a class="el" href="structMR_1_1VectorTraits.html#a077d473eb75ceae296f9149573954110">MR::VectorTraits&lt; T &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01ImVec2_01_4.html#af5dfb9ea2bc4002ab08e62e3e2924967">MR::VectorTraits&lt; ImVec2 &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#ad2c8ef31c89b8f6ac98ea4468e6ca19d">MR::VectorTraits&lt; ImVec4 &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#a95e871fcd38042340c9b01267d6d6f8a">MR::VectorTraits&lt; Vector2&lt; T &gt; &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html#a97ece5f2ffc4c21403d6a03bf20d3fae">MR::VectorTraits&lt; Vector3&lt; T &gt; &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a501487ea3ef4e972885a0771ca6b2948">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></li>
+<li>Diagonal()&#160;:&#160;<a class="el" href="classBox3f.html#aea72530e728125fee6c28f6ff0dff041">Box3f</a>, <a class="el" href="classVector3f.html#a93f993fbcf5b4011397dbf6886d56747">Vector3f</a></li>
+<li>diagonal()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144">MR::Box&lt; V &gt;</a>, <a class="el" href="structMR_1_1SymMatrix2.html#a364466ea8c305b40ce349b90f040c873">MR::SymMatrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix3.html#ad9dcf1d38df199d9b286299f52b8ea18">MR::SymMatrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix4.html#a4035197926d1c7b4e776a8384343771a">MR::SymMatrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector2.html#a7728a269ca682095e8e0f7d667bb727a">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#af3522428d5137f019a3da623a19222ab">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#aae32c22644b25c26b237f41ac439da53">MR::Vector4&lt; T &gt;</a></li>
 <li>dialogIsCollapsed_&#160;:&#160;<a class="el" href="classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4">MR::StateBasePlugin</a></li>
 <li>dialogIsOpen()&#160;:&#160;<a class="el" href="classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d">MR::StateBasePlugin</a></li>
 <li>dialogIsOpen_&#160;:&#160;<a class="el" href="classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204">MR::StateBasePlugin</a></li>
@@ -217,13 +224,15 @@ $(function(){initNavTree('functions_d.html',''); initResizable(true); });
 <li>DistanceMapToWorld()&#160;:&#160;<a class="el" href="structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591">MR::DistanceMapToWorld</a></li>
 <li>DistanceMeasurementObject()&#160;:&#160;<a class="el" href="classMR_1_1DistanceMeasurementObject.html#a5fa3455ad516872987f4c9195c8cb8be">MR::DistanceMeasurementObject</a></li>
 <li>distanceSq()&#160;:&#160;<a class="el" href="structMR_1_1Line.html#a33b2b7a0c2b8520be3e29171461a15d4">MR::Line&lt; V &gt;</a>, <a class="el" href="structMR_1_1Sphere.html#ac6fe7dcb9fbe192141cde72e7f9a3551">MR::Sphere&lt; V &gt;</a></li>
-<li>distSq&#160;:&#160;<a class="el" href="structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb">MR::ICPPairData</a>, <a class="el" href="structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9">MR::MeshMeshDistanceResult</a>, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ab04e26fe4503fb08898aaeccad548f71">MR::MeshOrPoints::ProjectionResult</a>, <a class="el" href="structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29">MR::MeshProjectionResult</a>, <a class="el" href="structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340">MR::PointsProjectionResult</a>, <a class="el" href="structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8">MR::PolylineProjectionResult&lt; V &gt;</a>, <a class="el" href="structMRICPPairData.html#a378a97d5205f2e9f3da4234898bce466">MRICPPairData</a>, <a class="el" href="structMRMeshProjectionResult.html#afcfe8d54bd9348a46319d15bd7094f9a">MRMeshProjectionResult</a></li>
-<li>distThresholdSq&#160;:&#160;<a class="el" href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties</a>, <a class="el" href="structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de">MRICPProperties</a></li>
+<li>distanceSquared&#160;:&#160;<a class="el" href="structMeshProjectionResult.html#a0be34e354bc92bfd4e7a6b96c4c4c6d5">MeshProjectionResult</a></li>
+<li>distSq&#160;:&#160;<a class="el" href="structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb">MR::ICPPairData</a>, <a class="el" href="structMR_1_1MeshDistanceResult.html#a944ef6a7b3e48c9fc07f0d5a70a56bf3">MR::MeshDistanceResult</a>, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ab04e26fe4503fb08898aaeccad548f71">MR::MeshOrPoints::ProjectionResult</a>, <a class="el" href="structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29">MR::MeshProjectionResult</a>, <a class="el" href="structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340">MR::PointsProjectionResult</a>, <a class="el" href="structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8">MR::PolylineProjectionResult&lt; V &gt;</a>, <a class="el" href="structMRICPPairData.html#a378a97d5205f2e9f3da4234898bce466">MRICPPairData</a>, <a class="el" href="structMRMeshProjectionResult.html#afcfe8d54bd9348a46319d15bd7094f9a">MRMeshProjectionResult</a>, <a class="el" href="structPointPair.html#a46b790985a95246076efb38ac2f54760">PointPair</a></li>
+<li>distThresholdSq&#160;:&#160;<a class="el" href="structICPProperties.html#a82be6b474341645a6c1bffaf3f13e13c">ICPProperties</a>, <a class="el" href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties</a>, <a class="el" href="structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de">MRICPProperties</a></li>
 <li>div()&#160;:&#160;<a class="el" href="structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#a3032e40b08150686195023c67dd9b749">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#a5bb00471e4228b49442d8c7e717e31e7">MR::Vector4&lt; T &gt;</a></li>
 <li>doIntersect&#160;:&#160;<a class="el" href="structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5">MR::SegmentSegmentIntersectResult</a>, <a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8">MR::TriangleSegmentIntersectResult</a></li>
 <li>done()&#160;:&#160;<a class="el" href="classMR_1_1EdgePathsBuilderT.html#a336db542a3c1e1aafb7a7e132ee4a508">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</a>, <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23">MR::SurfaceDistanceBuilder</a></li>
 <li>doneDistance()&#160;:&#160;<a class="el" href="classMR_1_1EdgePathsBuilderT.html#a6121aae22b66ff8e123f4f1d2d21528d">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</a>, <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7">MR::SurfaceDistanceBuilder</a></li>
 <li>dot()&#160;:&#160;<a class="el" href="structMR_1_1Matrix2.html#ab5e6f6852dd0368af40b425791b091f6">MR::Matrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix3.html#ab4a3e6558d044290a3821b5981c124f5">MR::Matrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix4.html#a2480220828af2a453a7cf767ecfe462f">MR::Matrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Quaternion.html#a24a478c9463275d440061899c3630a32">MR::Quaternion&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector2.html#a6c8408d5ef7e501f160602528912a167">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#a3856ec6f677ed2b0849cc35ffb0c22d8">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#ae2d0b2ad856fb4877d2deccd98f6651c">MR::Vector4&lt; T &gt;</a></li>
+<li>DoubleOffsetMesh()&#160;:&#160;<a class="el" href="classOffset.html#ae028d3be0526fabd4efe80ec56c48d2d">Offset</a></li>
 <li>drag()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ae08c5961fdb9631a768a60406145226a">MR::Viewer</a></li>
 <li>dragDrop()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a69116527e6d1bb79a5231d928ccf9bb9">MR::Viewer</a></li>
 <li>dragDrop_()&#160;:&#160;<a class="el" href="structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252">MR::DragDropListener</a></li>
@@ -319,7 +328,7 @@ $(function(){initNavTree('functions_d.html',''); initResizable(true); });
 <li>DropItemsList&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenuItem.html#a4799011be3410f46444164d6d00b966e">MR::RibbonMenuItem</a></li>
 <li>dropList_&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5">MR::RibbonMenuItem</a></li>
 <li>dropOldEventsOnNew()&#160;:&#160;<a class="el" href="classMR_1_1MouseController.html#abb21421c9f8c663d90c93fc87982a797">MR::MouseController</a></li>
-<li>duplicatedVertexCount&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc">MR::MeshLoad::NamedMesh</a>, <a class="el" href="structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7">MR::MeshLoadSettings</a>, <a class="el" href="structMRMeshLoadNamedMesh.html#a065f44c0ac8915b00dc7a73732840b71">MRMeshLoadNamedMesh</a></li>
+<li>duplicatedVertexCount&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc">MR::MeshLoad::NamedMesh</a>, <a class="el" href="structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7">MR::MeshLoadSettings</a>, <a class="el" href="structMRMeshLoadNamedMesh.html#a065f44c0ac8915b00dc7a73732840b71">MRMeshLoadNamedMesh</a>, <a class="el" href="structNamedMesh.html#aaa584a168d855590dc16eb3ea25a9f1e">NamedMesh</a></li>
 <li>dupVert&#160;:&#160;<a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c">MR::MeshBuilder::VertDuplication</a></li>
 <li>Dynamic&#160;:&#160;<a class="el" href="structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d">MR::Viewport::Parameters</a></li>
 </ul>

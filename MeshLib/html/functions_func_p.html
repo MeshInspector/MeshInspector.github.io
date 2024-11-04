@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -130,9 +136,9 @@ $(function(){initNavTree('functions_func_p.html',''); initResizable(true); });
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
 <li>pack()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a6d8e2d55d67e606f0129377d0d14aa4a">MR::Mesh</a>, <a class="el" href="classMR_1_1MeshTopology.html#a2b4f0faeeea52693e21242d4cab6751b">MR::MeshTopology</a>, <a class="el" href="structMR_1_1PointCloud.html#ac0910605ccb60ed6a5dbc543e9e98fe2">MR::PointCloud</a>, <a class="el" href="structMR_1_1Polyline.html#a8d063b261d3c64f8a2882f0b2eaf77ed">MR::Polyline&lt; V &gt;</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a6c67e7b3c6e1ae6967dc7b66a6c5ab6d">MR::PolylineTopology</a></li>
 <li>packMinMem()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#ac8be845ea58450ba890fa66f29f7d587">MR::MeshTopology</a></li>
+<li>PackOptimally()&#160;:&#160;<a class="el" href="classMesh.html#a5195a0027b8c080936de4c66cef131a6">Mesh</a></li>
 <li>packOptimally()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#ac790be9d7fbcbf9f765ebdd90f761c71">MR::Mesh</a></li>
 <li>Palette()&#160;:&#160;<a class="el" href="classMR_1_1Palette.html#a16b8a71ea5f75f665b1fa1c24368dba3">MR::Palette</a></li>
-<li>palette()&#160;:&#160;<a class="el" href="classMR_1_1SurfaceManipulationWidget.html#ac630e539a99b5bafb846ed70cae75f35">MR::SurfaceManipulationWidget</a></li>
 <li>Parabola()&#160;:&#160;<a class="el" href="structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793">MR::Parabola&lt; T &gt;</a></li>
 <li>Params()&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1c17acc07cc2fb3c28fb03c5dc38a9fc">MR::ImGuiMeasurementIndicators::Params</a></li>
 <li>parent()&#160;:&#160;<a class="el" href="classMR_1_1Object.html#a68500213a1d6e4f3b7f9fc3806fcacd1">MR::Object</a></li>
@@ -150,14 +156,19 @@ $(function(){initNavTree('functions_func_p.html',''); initResizable(true); });
 <li>pixel_ratio()&#160;:&#160;<a class="el" href="classMR_1_1ImGuiMenu.html#a68decea45636d9cf3ddd402a7ed91222">MR::ImGuiMenu</a></li>
 <li>Plane3()&#160;:&#160;<a class="el" href="structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad">MR::Plane3&lt; T &gt;</a></li>
 <li>PlaneObject()&#160;:&#160;<a class="el" href="classMR_1_1PlaneObject.html#acaba4d01a7b19fff94a965213ff2f18d">MR::PlaneObject</a></li>
+<li>PlusX()&#160;:&#160;<a class="el" href="classVector3f.html#aa9e002674e1d04d727d7d71f70ae7989">Vector3f</a></li>
 <li>plusX()&#160;:&#160;<a class="el" href="structMR_1_1Vector2.html#aa539f9e8253f087d0cd5f38388000a28">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#a048dcca2da540bf2d429cbca37e41092">MR::Vector3&lt; T &gt;</a></li>
+<li>PlusY()&#160;:&#160;<a class="el" href="classVector3f.html#a53b88b2131ebdb4eac1d276022e8d2a9">Vector3f</a></li>
 <li>plusY()&#160;:&#160;<a class="el" href="structMR_1_1Vector2.html#a15b1c265bfbd5b70193e766a274ca1d5">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#aedf66abcd7c315536ba2e512839885d0">MR::Vector3&lt; T &gt;</a></li>
+<li>PlusZ()&#160;:&#160;<a class="el" href="classVector3f.html#a6e7de090cb0ff0e235493fcf3ebb1522">Vector3f</a></li>
 <li>plusZ()&#160;:&#160;<a class="el" href="structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910">MR::Vector3&lt; T &gt;</a></li>
 <li>point()&#160;:&#160;<a class="el" href="classMR_1_1MeshOnVoxelsT.html#a2d7d3c588a4878226b760e57f0aceb0a">MR::MeshOnVoxelsT&lt; MeshType &gt;</a></li>
+<li>PointCloud()&#160;:&#160;<a class="el" href="classPointCloud.html#a7d6f79928b0877770cd1af2238a7d62e">PointCloud</a></li>
 <li>pointCloud()&#160;:&#160;<a class="el" href="classMR_1_1ObjectPointsHolder.html#a1e4577ab2bb24e7600c98bc550668b06">MR::ObjectPointsHolder</a></li>
 <li>pointFor()&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635">MR::Features::MeasureResult::Angle</a></li>
 <li>PointObject()&#160;:&#160;<a class="el" href="classMR_1_1PointObject.html#abd93c3847c57f54eb014c6742abe50b8">MR::PointObject</a></li>
 <li>PointOnObject()&#160;:&#160;<a class="el" href="structMR_1_1PointOnObject.html#ae6ddf1f922426da0befb0c18020f6682">MR::PointOnObject</a></li>
+<li>PointPairs()&#160;:&#160;<a class="el" href="structPointPairs.html#ae36dfd1d65bd0a4bcbded403825bad28">PointPairs</a></li>
 <li>points()&#160;:&#160;<a class="el" href="classMR_1_1MeshOrPoints.html#a6c2fe1dcde2dbadeef24818952755317">MR::MeshOrPoints</a></li>
 <li>pointsGridSampling()&#160;:&#160;<a class="el" href="classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21">MR::MeshOrPoints</a></li>
 <li>PointsToMeshProjector()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95">MR::Cuda::PointsToMeshProjector</a></li>
@@ -224,7 +235,7 @@ $(function(){initNavTree('functions_func_p.html',''); initResizable(true); });
 <li>push()&#160;:&#160;<a class="el" href="classMR_1_1FewSmallest.html#a0efd17527f2b41be96da3c50f8837c38">MR::FewSmallest&lt; T &gt;</a></li>
 <li>push_back()&#160;:&#160;<a class="el" href="classMR_1_1Vector.html#a78fa1b6365aa64b3aec65883530dc735">MR::Vector&lt; T, I &gt;</a></li>
 <li>pushBack()&#160;:&#160;<a class="el" href="classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50">MR::ColorMapAggregator&lt; Tag &gt;</a></li>
-<li>pushNotification()&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenu.html#aed6ba0bf1f0630bcf43a1a070149b088">MR::RibbonMenu</a>, <a class="el" href="classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4">MR::RibbonNotifier</a></li>
+<li>pushNotification()&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenu.html#a7f8710e42ebc3f17afd26e3094fe76b4">MR::RibbonMenu</a>, <a class="el" href="classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4">MR::RibbonNotifier</a></li>
 <li>pushRecentItem()&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenuSearch.html#ac74ec292a21908372b2925b5aa868cf8">MR::RibbonMenuSearch</a></li>
 <li>PythonFunctionAdder()&#160;:&#160;<a class="el" href="structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29">MR::PythonFunctionAdder</a></li>
 </ul>

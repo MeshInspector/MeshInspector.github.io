@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -133,10 +139,8 @@ $(function(){initNavTree('structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.h
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0182044b0d0e90bd265ddd66d56c87be">BaseType</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48">ChangeBaseType</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a501487ea3ef4e972885a0771ca6b2948">diagonal</a>(T v)</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0adc38f8906305a42c923b4a588b32eb">getElem</a>(int i, U &amp;&amp;value)</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#aaaffc834ba62ace086ab656b966346a1">size</a></td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a9d401ae300d6e4f4c58afca31ebcb5ba">supportNoInit</a></td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0adc38f8906305a42c923b4a588b32eb">getElem</a>(int i, U &amp;&amp;value)</td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#aaaffc834ba62ace086ab656b966346a1">size</a></td><td class="entry"><a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

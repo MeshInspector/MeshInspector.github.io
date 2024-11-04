@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -142,11 +148,11 @@ $(function(){initNavTree('MRFloatGrid_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53">   21</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> <a class="code hl_function" href="group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53">resampled</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&amp; grid, <span class="keywordtype">float</span> voxelScale, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb = {} );</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#ga7d757a1fbd48e0e4c6268f3637ba631c">   24</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> <a class="code hl_function" href="group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53">resampled</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&amp; grid, <span class="keyword">const</span> Vector3f&amp; voxelScale, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb = {} );</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#ga7d757a1fbd48e0e4c6268f3637ba631c">   24</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> <a class="code hl_function" href="group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53">resampled</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&amp; grid, <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; voxelScale, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb = {} );</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915">   27</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> <a class="code hl_function" href="group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915">cropped</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&amp; grid, <span class="keyword">const</span> Box3i&amp; box, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb = {} );</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861">   30</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <span class="keywordtype">float</span> <a class="code hl_function" href="group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861">getValue</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp; grid, <span class="keyword">const</span> Vector3i &amp; p );</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861">   30</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <span class="keywordtype">float</span> <a class="code hl_function" href="group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861">getValue</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp; grid, <span class="keyword">const</span> <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a> &amp; p );</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862">   34</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862">setValue</a>( <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp; grid, <span class="keyword">const</span> VoxelBitSet&amp; region, <span class="keywordtype">float</span> value );</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
@@ -166,10 +172,11 @@ $(function(){initNavTree('MRFloatGrid_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:13</div></div>
+<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga2442ef2afa7012af6ca21ebcb6604536"><div class="ttname"><a href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const std::vector&lt; T &gt; &amp;vec)</div><div class="ttdoc">returns the amount of memory given vector occupies on heap</div><div class="ttdef"><b>Definition</b> MRHeapBytes.h:15</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga1ca037d5840cb55f43edc7af7164ee53"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53">MR::resampled</a></div><div class="ttdeci">MRVOXELS_API FloatGrid resampled(const FloatGrid &amp;grid, float voxelScale, ProgressCallback cb={})</div><div class="ttdoc">resample this grid to fit voxelScale</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga4de97d8976ba9d3103b0d84d94214861"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861">MR::getValue</a></div><div class="ttdeci">MRVOXELS_API float getValue(const FloatGrid &amp;grid, const Vector3i &amp;p)</div><div class="ttdoc">returns the value at given voxel</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga87e6e60c5605c5450f4bd815128674c9"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga87e6e60c5605c5450f4bd815128674c9">MR::setLevelSetType</a></div><div class="ttdeci">MRVOXELS_API void setLevelSetType(FloatGrid &amp;grid)</div><div class="ttdoc">sets type of this grid as LEVEL SET (for normal flipping)</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gaaa65eb4d7a6f3cf6b9682a32de1e0915"><div class="ttname"><a href="group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915">MR::cropped</a></div><div class="ttdeci">MRVOXELS_API FloatGrid cropped(const FloatGrid &amp;grid, const Box3i &amp;box, ProgressCallback cb={})</div><div class="ttdoc">returns cropped grid</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gac5781724903abd08d021ac04b898a862"><div class="ttname"><a href="group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862">MR::setValue</a></div><div class="ttdeci">MRVOXELS_API void setValue(FloatGrid &amp;grid, const VoxelBitSet &amp;region, float value)</div></div>
@@ -178,6 +185,7 @@ $(function(){initNavTree('MRFloatGrid_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="anamespaceMR_html_a4b6d3fd83a0b2acf2d6e9bfc41f5ee82"><div class="ttname"><a href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a></div><div class="ttdeci">std::shared_ptr&lt; OpenVdbFloatGrid &gt; FloatGrid</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:25</div></div>
 <div class="ttc" id="anamespaceMR_html_a816a1c0aec6d5b2d8994b750a9ecfb9f"><div class="ttname"><a href="namespaceMR.html#a816a1c0aec6d5b2d8994b750a9ecfb9f">MR::operator-=</a></div><div class="ttdeci">MRMESH_API TransformedMesh &amp; operator-=(TransformedMesh &amp;a, const TransformedMesh &amp;b)</div><div class="ttdoc">difference operation on two meshes</div></div>
 <div class="ttc" id="anamespaceMR_html_ab3166f1ae304a5ff0106e7c88b67960e"><div class="ttname"><a href="namespaceMR.html#ab3166f1ae304a5ff0106e7c88b67960e">MR::operator*=</a></div><div class="ttdeci">MRMESH_API TransformedMesh &amp; operator*=(TransformedMesh &amp;a, const TransformedMesh &amp;b)</div><div class="ttdoc">intersection operation on two meshes</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; int &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -148,16 +154,16 @@ $(function(){initNavTree('ExampleCSharpMeshDecimate.html',''); initResizable(tru
 <div class="line">            <span class="keywordtype">string</span> input = args[0];</div>
 <div class="line">            <span class="keywordtype">string</span> output = args.Length == 2 ? args[1] : args[0];</div>
 <div class="line"> </div>
-<div class="line">            var mesh = Mesh.FromAnySupportedFormat( input );</div>
+<div class="line">            var mesh = <a class="code hl_class" href="classMesh.html">Mesh</a>.<a class="code hl_function" href="classMesh.html#ae698dd222af59b3e1bb5b1d834fea739">FromAnySupportedFormat</a>( input );</div>
 <div class="line"> </div>
-<div class="line">            DecimateParameters dp = <span class="keyword">new</span> DecimateParameters();</div>
-<div class="line">            dp.strategy = DecimateStrategy.MinimizeError;</div>
+<div class="line">            <a class="code hl_struct" href="structDecimateParameters.html">DecimateParameters</a> dp = <span class="keyword">new</span> <a class="code hl_struct" href="structDecimateParameters.html">DecimateParameters</a>();</div>
+<div class="line">            dp.strategy = <a class="code hl_enumeration" href="MRDotNet_2MRMeshDecimate_8h.html#aae3b7ed557d4233548d7966f0951e8fb">DecimateStrategy</a>.MinimizeError;</div>
 <div class="line">            dp.maxError = 1e-5f * mesh.BoundingBox.Diagonal();</div>
 <div class="line">            dp.tinyEdgeLength = 1e-3f;</div>
 <div class="line">            dp.packMesh = <span class="keyword">true</span>;</div>
 <div class="line"> </div>
 <div class="line">            var result = <a class="code hl_namespace" href="namespaceMeshDecimate.html">MeshDecimate</a>.Decimate(mesh, dp);</div>
-<div class="line">            Mesh.ToAnySupportedFormat(mesh, output);</div>
+<div class="line">            <a class="code hl_class" href="classMesh.html">Mesh</a>.<a class="code hl_function" href="classMesh.html#a1a49b3acd22e717da861209f6bedc89e">ToAnySupportedFormat</a>(mesh, output);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -165,13 +171,19 @@ $(function(){initNavTree('ExampleCSharpMeshDecimate.html',''); initResizable(tru
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="aMRDotNet_2MRMeshDecimate_8h_html_aae3b7ed557d4233548d7966f0951e8fb"><div class="ttname"><a href="MRDotNet_2MRMeshDecimate_8h.html#aae3b7ed557d4233548d7966f0951e8fb">DecimateStrategy</a></div><div class="ttdeci">DecimateStrategy</div><div class="ttdoc">Defines the order of edge collapses inside Decimate algorithm.</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshDecimate.h:13</div></div>
+<div class="ttc" id="aclassMesh_html"><div class="ttname"><a href="classMesh.html">Mesh</a></div><div class="ttdoc">represents a mesh, including topology (connectivity) information and point coordinates,</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMesh.h:30</div></div>
+<div class="ttc" id="aclassMesh_html_a1a49b3acd22e717da861209f6bedc89e"><div class="ttname"><a href="classMesh.html#a1a49b3acd22e717da861209f6bedc89e">Mesh::ToAnySupportedFormat</a></div><div class="ttdeci">static void ToAnySupportedFormat(Mesh^ mesh, System::String^ path)</div><div class="ttdoc">saves mesh to file of any supported format</div></div>
+<div class="ttc" id="aclassMesh_html_ae698dd222af59b3e1bb5b1d834fea739"><div class="ttname"><a href="classMesh.html#ae698dd222af59b3e1bb5b1d834fea739">Mesh::FromAnySupportedFormat</a></div><div class="ttdeci">static Mesh FromAnySupportedFormat(System::String^ path)</div><div class="ttdoc">loads mesh from file of any supported format</div></div>
 <div class="ttc" id="anamespaceMeshDecimate_html"><div class="ttname"><a href="namespaceMeshDecimate.html">MeshDecimate</a></div><div class="ttdef"><b>Definition</b> MeshDecimate.dox.py:1</div></div>
+<div class="ttc" id="astructDecimateParameters_html"><div class="ttname"><a href="structDecimateParameters.html">DecimateParameters</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshDecimate.h:21</div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="HowToBasic.html">Examples</a></li><li class="navelem"><a class="el" href="CSharpCodeExamples.html">C# Samples</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -126,6 +132,7 @@ $(function(){initNavTree('structMR_1_1VoxelsVolumeMinMax.html',''); initResizabl
 
 <div class="header">
   <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1VoxelsVolumeMinMax-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::VoxelsVolumeMinMax&lt; T &gt; Struct Template Reference</div></div>
 </div><!--header-->
@@ -140,10 +147,24 @@ $(function(){initNavTree('structMR_1_1VoxelsVolumeMinMax.html',''); initResizabl
  <div class="center">
   <img src="structMR_1_1VoxelsVolumeMinMax.png" usemap="#MR::VoxelsVolumeMinMax_3C_20T_20_3E_map" alt=""/>
   <map id="MR::VoxelsVolumeMinMax_3C_20T_20_3E_map" name="MR::VoxelsVolumeMinMax_3C_20T_20_3E_map">
-<area href="structMR_1_1VoxelsVolume.html" title="represents a box in 3D space subdivided on voxels stored in T" alt="MR::VoxelsVolume&lt; T &gt;" shape="rect" coords="0,0,259,24"/>
+<area href="structMR_1_1VoxelsVolume.html" title="represents a box in 3D space subdivided on voxels stored in T" alt="MR::VoxelsVolume&lt; T &gt;" shape="rect" coords="0,0,193,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5cbd57272c7b859e6d81303b092f06c6" id="r_a5cbd57272c7b859e6d81303b092f06c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cbd57272c7b859e6d81303b092f06c6">min</a> = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;<a class="el" href="#a1c34f973de3f4a13345a48e819a914db">::max</a>()</td></tr>
+<tr class="separator:a5cbd57272c7b859e6d81303b092f06c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c34f973de3f4a13345a48e819a914db" id="r_a1c34f973de3f4a13345a48e819a914db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c34f973de3f4a13345a48e819a914db">max</a> = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;::lowest()</td></tr>
+<tr class="separator:a1c34f973de3f4a13345a48e819a914db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_structMR_1_1VoxelsVolume"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structMR_1_1VoxelsVolume')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td></tr>
+<tr class="memitem:a6ea81e0ad21fc888dfa262fb957f3c2e inherit pub_attribs_structMR_1_1VoxelsVolume" id="r_a6ea81e0ad21fc888dfa262fb957f3c2e"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a></td></tr>
+<tr class="separator:a6ea81e0ad21fc888dfa262fb957f3c2e inherit pub_attribs_structMR_1_1VoxelsVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec69290a92637368e463e39fadfea701 inherit pub_attribs_structMR_1_1VoxelsVolume" id="r_aec69290a92637368e463e39fadfea701"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701">dims</a></td></tr>
+<tr class="separator:aec69290a92637368e463e39fadfea701 inherit pub_attribs_structMR_1_1VoxelsVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d40ff5d6e909a58566b67d177842ba0 inherit pub_attribs_structMR_1_1VoxelsVolume" id="r_a3d40ff5d6e909a58566b67d177842ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0">voxelSize</a> { 1.f, 1.f, 1.f }</td></tr>
+<tr class="separator:a3d40ff5d6e909a58566b67d177842ba0 inherit pub_attribs_structMR_1_1VoxelsVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_structMR_1_1VoxelsVolume"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_structMR_1_1VoxelsVolume')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td></tr>
@@ -152,18 +173,44 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_methods_structMR_1_1VoxelsVolume"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_structMR_1_1VoxelsVolume')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td></tr>
 <tr class="memitem:a6098927f3eb1a5ae05be948dd3ddf6ea inherit pub_methods_structMR_1_1VoxelsVolume" id="r_a6098927f3eb1a5ae05be948dd3ddf6ea"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a6098927f3eb1a5ae05be948dd3ddf6ea">heapBytes</a> () const</td></tr>
 <tr class="separator:a6098927f3eb1a5ae05be948dd3ddf6ea inherit pub_methods_structMR_1_1VoxelsVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_structMR_1_1VoxelsVolume"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structMR_1_1VoxelsVolume')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; T &gt;</a></td></tr>
-<tr class="memitem:a6ea81e0ad21fc888dfa262fb957f3c2e inherit pub_attribs_structMR_1_1VoxelsVolume" id="r_a6ea81e0ad21fc888dfa262fb957f3c2e"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a></td></tr>
-<tr class="separator:a6ea81e0ad21fc888dfa262fb957f3c2e inherit pub_attribs_structMR_1_1VoxelsVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec69290a92637368e463e39fadfea701 inherit pub_attribs_structMR_1_1VoxelsVolume" id="r_aec69290a92637368e463e39fadfea701"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701">dims</a></td></tr>
-<tr class="separator:aec69290a92637368e463e39fadfea701 inherit pub_attribs_structMR_1_1VoxelsVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d40ff5d6e909a58566b67d177842ba0 inherit pub_attribs_structMR_1_1VoxelsVolume" id="r_a3d40ff5d6e909a58566b67d177842ba0"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0">voxelSize</a> { 1.f, 1.f, 1.f }</td></tr>
-<tr class="separator:a3d40ff5d6e909a58566b67d177842ba0 inherit pub_attribs_structMR_1_1VoxelsVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
 struct MR::VoxelsVolumeMinMax&lt; T &gt;</div><p>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1c34f973de3f4a13345a48e819a914db" name="a1c34f973de3f4a13345a48e819a914db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c34f973de3f4a13345a48e819a914db">&#9670;&#160;</a></span>max</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">MR::VoxelsVolumeMinMax</a>&lt; T &gt;::max = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;::lowest()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cbd57272c7b859e6d81303b092f06c6" name="a5cbd57272c7b859e6d81303b092f06c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cbd57272c7b859e6d81303b092f06c6">&#9670;&#160;</a></span>min</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">MR::VoxelsVolumeMinMax</a>&lt; T &gt;::min = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;<a class="el" href="#a1c34f973de3f4a13345a48e819a914db">::max</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRVoxelsVolume_8h_source.html">MRVoxelsVolume.h</a></li>
 </ul>
 </div><!-- contents -->

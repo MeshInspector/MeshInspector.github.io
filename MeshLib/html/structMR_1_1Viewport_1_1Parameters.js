@@ -1,16 +1,12 @@
 var structMR_1_1Viewport_1_1Parameters =
 [
-    [ "GlobalBasisScaleMode", "structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126f", [
-      [ "Auto", "structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb", null ],
-      [ "Fixed", "structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61", null ]
-    ] ],
     [ "RotationCenterMode", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b", [
       [ "Static", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16", null ],
       [ "DynamicStatic", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e", null ],
       [ "Dynamic", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c", null ]
     ] ],
-    [ "operator==", "structMR_1_1Viewport_1_1Parameters.html#abe736bf771f335d8d782c1037715fd75", null ],
-    [ "Auto", "structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6", null ],
+    [ "globalBasisAxesXf", "structMR_1_1Viewport_1_1Parameters.html#a5fd1d3f231f288b36c5434caa7238472", null ],
+    [ "operator==", "structMR_1_1Viewport_1_1Parameters.html#a6737571299351aa58e69d5490ed3e7de", null ],
     [ "backgroundColor", "structMR_1_1Viewport_1_1Parameters.html#a22334f5bd9465a4b836b6ca117f39068", null ],
     [ "borderColor", "structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb", null ],
     [ "cameraDfar", "structMR_1_1Viewport_1_1Parameters.html#a4e04005c46ed161365c6df1748e23b07", null ],

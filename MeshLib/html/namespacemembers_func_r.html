@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -140,7 +146,7 @@ $(function(){initNavTree('namespacemembers_func_r.html',''); initResizable(true)
 <li>rayTriangleIntersect()&#160;:&#160;<a class="el" href="group__TriangleIntersectionGroup.html#ga6d0fb992f1b478ab6245e6d6a5b47e9f">MR</a></li>
 <li>rayTriangleIntersect_()&#160;:&#160;<a class="el" href="group__TriangleIntersectionGroup.html#ga8cb5d6b26c335c32fdc14df9907b6367">MR</a></li>
 <li>readByBlocks()&#160;:&#160;<a class="el" href="namespaceMR.html#a43da20cc5f0077147d57b1af6226aa53">MR</a></li>
-<li>readCharBuffer()&#160;:&#160;<a class="el" href="namespaceMR.html#a5b208f3c8d4bde1db961aa1b5f79458f">MR</a></li>
+<li>readCharBuffer()&#160;:&#160;<a class="el" href="namespaceMR.html#acd9aedc47d92977b6eb431f1d6fcf4a0">MR</a></li>
 <li>readOnlyValue()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI.html#aa1fd1e704f1ff98b82cc4c98e452f57a">MR::UI</a></li>
 <li>readRawTiff()&#160;:&#160;<a class="el" href="namespaceMR.html#a16911b1d8c2b28200b6a2cb7d97f4bf8">MR</a></li>
 <li>readString()&#160;:&#160;<a class="el" href="namespaceMR.html#a4c58f7437a40fe2c4502a7f7ef5c7d25">MR</a></li>
@@ -152,7 +158,7 @@ $(function(){initNavTree('namespacemembers_func_r.html',''); initResizable(true)
 <li>reducePath()&#160;:&#160;<a class="el" href="group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe">MR</a></li>
 <li>reducePathViaVertex()&#160;:&#160;<a class="el" href="group__PlanarPathGroup.html#ga64d6263ac2b571832be0c1a3e8114cfb">MR</a></li>
 <li>refineFeatureObject()&#160;:&#160;<a class="el" href="namespaceMR.html#a16a67b9795647403f6d88310ec5b9399">MR</a></li>
-<li>registerThreadRootTimeRecord()&#160;:&#160;<a class="el" href="group__BasicGroup.html#ga73f1c5c9fb6ffeff44c6f14fb15a30ca">MR</a></li>
+<li>registerThreadRootTimeRecord()&#160;:&#160;<a class="el" href="group__BasicGroup.html#ga3d791692d52c8b5cf77a9c5e6002cef1">MR</a></li>
 <li>relax()&#160;:&#160;<a class="el" href="group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">MR</a></li>
 <li>relaxApprox()&#160;:&#160;<a class="el" href="group__MeshRelaxGroup.html#ga973c1a5f054f13ea87971be793ecf341">MR</a></li>
 <li>relaxKeepArea()&#160;:&#160;<a class="el" href="group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c">MR</a></li>
@@ -169,7 +175,6 @@ $(function(){initNavTree('namespacemembers_func_r.html',''); initResizable(true)
 <li>resampled()&#160;:&#160;<a class="el" href="group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53">MR</a></li>
 <li>resampleVolumeByInterpolation()&#160;:&#160;<a class="el" href="namespaceMR.html#aca1f6e889fadd4d30603c3cffcf9a930">MR</a></li>
 <li>reserveKeyEvent()&#160;:&#160;<a class="el" href="namespaceMR.html#a9cab0079b5bdf8b5ebb5ba774cd76b62">MR</a></li>
-<li>resetToDefaults()&#160;:&#160;<a class="el" href="namespaceMR_1_1UnitSettings.html#ae406c519ab41f7cbc08d65a9c83d2bcf">MR::UnitSettings</a></li>
 <li>resolveMeshDegenerations()&#160;:&#160;<a class="el" href="group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637">MR</a></li>
 <li>reverse()&#160;:&#160;<a class="el" href="group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0">MR</a></li>
 <li>RigidScaleXf3&lt; float &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#abdd8336870c2a5643e70e2946261c057">MR</a></li>

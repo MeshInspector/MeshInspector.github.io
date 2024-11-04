@@ -30,31 +30,26 @@ var MRUnits_8h =
     ] ],
     [ "AreaUnit", "MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4", [
       [ "mm2", "MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4a15c50e18fe41a4c178d13f28ce36173f", null ],
-      [ "meters2", "MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4ae534910aa7824f3c5aeb82fe2ad2a839", null ],
       [ "inches2", "MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4a608b1a160478ad4e93188c1968110978", null ],
       [ "_count", "MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "DegreesMode", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424", [
       [ "degrees", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d", null ],
       [ "degreesMinutes", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b", null ],
-      [ "degreesMinutesSeconds", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d", null ],
-      [ "_count", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55", null ]
+      [ "degreesMinutesSeconds", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d", null ]
     ] ],
     [ "InvLengthUnit", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5", [
       [ "inv_mm", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22", null ],
-      [ "inv_meters", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5a3ea45d8602a5aa192465cbbc8980376c", null ],
       [ "inv_inches", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989", null ],
       [ "_count", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "LengthUnit", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cab", [
       [ "mm", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cabab3cd915d758008bd19d0f2428fbb354a", null ],
-      [ "meters", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5caba07d9e3aefc4093a49121c91ef65e708b", null ],
       [ "inches", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5caba3e1b00c196db969aa22cdc50c6e966c4", null ],
       [ "_count", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cabad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "MovementSpeedUnit", "MRUnits_8h.html#ab6428d5776a040cbc748843edbedfa60", [
       [ "mmPerSecond", "MRUnits_8h.html#ab6428d5776a040cbc748843edbedfa60a5f5f1dc2b81a48152d2a92c6cb7d8552", null ],
-      [ "metersPerSecond", "MRUnits_8h.html#ab6428d5776a040cbc748843edbedfa60a5b1a9bad5dab15ff59ec1908fce8b06f", null ],
       [ "inchesPerSecond", "MRUnits_8h.html#ab6428d5776a040cbc748843edbedfa60a9ac9f9af0dc2f497b1df27b8d757c7c1", null ],
       [ "_count", "MRUnits_8h.html#ab6428d5776a040cbc748843edbedfa60ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
@@ -83,11 +78,9 @@ var MRUnits_8h =
     ] ],
     [ "VolumeUnit", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29a", [
       [ "mm3", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aa205056288e7f71c459183d3cb8d46edb", null ],
-      [ "meters3", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aa4f752f80e660d3b1df1b9d0a26f74145", null ],
       [ "inches3", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69", null ],
       [ "_count", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
-    [ "convertUnits", "MRUnits_8h.html#ab07c2e27cb1322b5471e253ff9e52a0d", null ],
     [ "convertUnits", "MRUnits_8h.html#abc1dac35ba49a323ad136b896517b3b3", null ],
     [ "getDefaultUnitParams", "MRUnits_8h.html#a80607090259b7b45b4ea7809158a48a2", null ],
     [ "getUnitInfo", "MRUnits_8h.html#a6443d7b50482979e4b2287d29423ee25", null ],
@@ -96,8 +89,6 @@ var MRUnits_8h =
     [ "guessPrecision", "MRUnits_8h.html#a33468b27fcfb4e39e7bcbc65162f5dce", null ],
     [ "guessPrecision", "MRUnits_8h.html#a6304170dd60424bc3b95da334cc55e6b", null ],
     [ "setDefaultUnitParams", "MRUnits_8h.html#a822feec21d0c267d63b63429392323c9", null ],
-    [ "toString", "MRUnits_8h.html#a2345d0a738c6f4f2a8fb95b5fb2504a8", null ],
-    [ "unitsAreEquivalent", "MRUnits_8h.html#a0c2948849a79593059ba5c880d5ae050", null ],
     [ "unitsAreEquivalent", "MRUnits_8h.html#a7223f0b55060f4ce1f1e6f9c37ff0867", null ],
     [ "valueToImGuiFormatString", "MRUnits_8h.html#a888aed091b9c64c5a26d9490cd820f89", null ],
     [ "valueToImGuiFormatString", "MRUnits_8h.html#ac3733c3924551342afaddf9b84564e21", null ],

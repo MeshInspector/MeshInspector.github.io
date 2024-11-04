@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -137,9 +143,9 @@ $(function(){initNavTree('classMR_1_1VolumeIndexer.html',''); initResizable(true
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:gad64c0feac5a4c85334c9de7dda628dfb" id="r_gad64c0feac5a4c85334c9de7dda628dfb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb">VolumeIndexer</a> (const Vector3i &amp;<a class="el" href="group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>)</td></tr>
+<tr class="memitem:gad64c0feac5a4c85334c9de7dda628dfb" id="r_gad64c0feac5a4c85334c9de7dda628dfb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb">VolumeIndexer</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;<a class="el" href="group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>)</td></tr>
 <tr class="separator:gad64c0feac5a4c85334c9de7dda628dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga242530ea0c7771c807c769bcb292f37f" id="r_ga242530ea0c7771c807c769bcb292f37f"><td class="memItemLeft" align="right" valign="top">const Vector3i &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a> () const</td></tr>
+<tr class="memitem:ga242530ea0c7771c807c769bcb292f37f" id="r_ga242530ea0c7771c807c769bcb292f37f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a> () const</td></tr>
 <tr class="separator:ga242530ea0c7771c807c769bcb292f37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1a728fc2d1e7dd47e0f137af620f6985" id="r_ga1a728fc2d1e7dd47e0f137af620f6985"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> () const</td></tr>
 <tr class="memdesc:ga1a728fc2d1e7dd47e0f137af620f6985"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the total number of voxels  <br /></td></tr>
@@ -149,44 +155,44 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ga926edbe131f216c52d55d31a98f33aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0d94fe95fbc290e175743a06ad3d1c6" id="r_gaf0d94fe95fbc290e175743a06ad3d1c6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6">sizeXY</a> () const</td></tr>
 <tr class="separator:gaf0d94fe95fbc290e175743a06ad3d1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf972ceaa48b72a552781412be0e49eb6" id="r_gaf972ceaa48b72a552781412be0e49eb6"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gaf972ceaa48b72a552781412be0e49eb6">toPos</a> (VoxelId id) const</td></tr>
+<tr class="memitem:gaf972ceaa48b72a552781412be0e49eb6" id="r_gaf972ceaa48b72a552781412be0e49eb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gaf972ceaa48b72a552781412be0e49eb6">toPos</a> (VoxelId id) const</td></tr>
 <tr class="separator:gaf972ceaa48b72a552781412be0e49eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1e9ca6412f80a5ce4751fb16cad4ce2c" id="r_ga1e9ca6412f80a5ce4751fb16cad4ce2c"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c">toVoxelId</a> (const Vector3i &amp;pos) const</td></tr>
+<tr class="memitem:ga1e9ca6412f80a5ce4751fb16cad4ce2c" id="r_ga1e9ca6412f80a5ce4751fb16cad4ce2c"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c">toVoxelId</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
 <tr class="separator:ga1e9ca6412f80a5ce4751fb16cad4ce2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga381737dfbef1fd95586ae4f44b63b468" id="r_ga381737dfbef1fd95586ae4f44b63b468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga381737dfbef1fd95586ae4f44b63b468">toLoc</a> (VoxelId id) const</td></tr>
 <tr class="separator:ga381737dfbef1fd95586ae4f44b63b468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5bad9caa6f1298325759d64a72cca3b9" id="r_ga5bad9caa6f1298325759d64a72cca3b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga5bad9caa6f1298325759d64a72cca3b9">toLoc</a> (const Vector3i &amp;pos) const</td></tr>
+<tr class="memitem:ga5bad9caa6f1298325759d64a72cca3b9" id="r_ga5bad9caa6f1298325759d64a72cca3b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga5bad9caa6f1298325759d64a72cca3b9">toLoc</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
 <tr class="separator:ga5bad9caa6f1298325759d64a72cca3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d7ef8146c7e01018cfd181e0967ac35" id="r_ga1d7ef8146c7e01018cfd181e0967ac35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35">isInDims</a> (const Vector3i &amp;pos) const</td></tr>
+<tr class="memitem:ga1d7ef8146c7e01018cfd181e0967ac35" id="r_ga1d7ef8146c7e01018cfd181e0967ac35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35">isInDims</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
 <tr class="memdesc:ga1d7ef8146c7e01018cfd181e0967ac35"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if this voxel is within dimensions  <br /></td></tr>
 <tr class="separator:ga1d7ef8146c7e01018cfd181e0967ac35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e3749e3a300fa4eda0a5dc1eb875a4a" id="r_ga6e3749e3a300fa4eda0a5dc1eb875a4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a">isBdVoxel</a> (const Vector3i &amp;pos) const</td></tr>
+<tr class="memitem:ga6e3749e3a300fa4eda0a5dc1eb875a4a" id="r_ga6e3749e3a300fa4eda0a5dc1eb875a4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a">isBdVoxel</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
 <tr class="memdesc:ga6e3749e3a300fa4eda0a5dc1eb875a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if this voxel is on the boundary of the volume  <br /></td></tr>
 <tr class="separator:ga6e3749e3a300fa4eda0a5dc1eb875a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad83baf7155c4c4be0ffa42c4de418e6b" id="r_gad83baf7155c4c4be0ffa42c4de418e6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b">areNeigbors</a> (VoxelId v0, VoxelId v1) const</td></tr>
 <tr class="memdesc:gad83baf7155c4c4be0ffa42c4de418e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if v1 is within at most 6 neighbors of v0  <br /></td></tr>
 <tr class="separator:gad83baf7155c4c4be0ffa42c4de418e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga991a1f3d21cb03e21402be655ba7c06c" id="r_ga991a1f3d21cb03e21402be655ba7c06c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c">areNeigbors</a> (const Vector3i &amp;pos0, const Vector3i &amp;pos1) const</td></tr>
+<tr class="memitem:ga991a1f3d21cb03e21402be655ba7c06c" id="r_ga991a1f3d21cb03e21402be655ba7c06c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c">areNeigbors</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos0, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos1) const</td></tr>
 <tr class="separator:ga991a1f3d21cb03e21402be655ba7c06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae847dbed512fd911819dbc766c0dc9bf" id="r_gae847dbed512fd911819dbc766c0dc9bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf">hasNeighbour</a> (const Vector3i &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="memitem:gae847dbed512fd911819dbc766c0dc9bf" id="r_gae847dbed512fd911819dbc766c0dc9bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf">hasNeighbour</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="memdesc:gae847dbed512fd911819dbc766c0dc9bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">given existing voxel at (pos), returns whether it has valid neighbor specified by the edge (toNei)  <br /></td></tr>
 <tr class="separator:gae847dbed512fd911819dbc766c0dc9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga70480624af713d6c33abe8a12d5fa6ef" id="r_ga70480624af713d6c33abe8a12d5fa6ef"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga70480624af713d6c33abe8a12d5fa6ef">getNeighbor</a> (VoxelId v, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="memdesc:ga70480624af713d6c33abe8a12d5fa6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id of v's neighbor specified by the edge  <br /></td></tr>
 <tr class="separator:ga70480624af713d6c33abe8a12d5fa6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafe8987c6754acf0b39a5d12c2a7d0da9" id="r_gafe8987c6754acf0b39a5d12c2a7d0da9"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gafe8987c6754acf0b39a5d12c2a7d0da9">getNeighbor</a> (VoxelId v, const Vector3i &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="memitem:gafe8987c6754acf0b39a5d12c2a7d0da9" id="r_gafe8987c6754acf0b39a5d12c2a7d0da9"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gafe8987c6754acf0b39a5d12c2a7d0da9">getNeighbor</a> (VoxelId v, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="separator:gafe8987c6754acf0b39a5d12c2a7d0da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafa9df4ffd5452e505b8a11ca3d01f7b4" id="r_gafa9df4ffd5452e505b8a11ca3d01f7b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gafa9df4ffd5452e505b8a11ca3d01f7b4">getNeighbor</a> (const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;loc, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="separator:gafa9df4ffd5452e505b8a11ca3d01f7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9278508392604ed5b02779e63a573555" id="r_ga9278508392604ed5b02779e63a573555"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555">getExistingNeighbor</a> (VoxelId v, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="memdesc:ga9278508392604ed5b02779e63a573555"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id of v's neighbor specified by the edge, which is known to exist (so skipping a lot of checks)  <br /></td></tr>
 <tr class="separator:ga9278508392604ed5b02779e63a573555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacc3f28e9566b6b9fb9fe666e09034075" id="r_gacc3f28e9566b6b9fb9fe666e09034075"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075">getNeighbor</a> (VoxelId v, const Vector3i &amp;pos, bool bdPos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="memitem:gacc3f28e9566b6b9fb9fe666e09034075" id="r_gacc3f28e9566b6b9fb9fe666e09034075"><td class="memItemLeft" align="right" valign="top">VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075">getNeighbor</a> (VoxelId v, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos, bool bdPos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="separator:gacc3f28e9566b6b9fb9fe666e09034075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:gaa1c0e0f0f1418ecbd002c094e0d42e13" id="r_gaa1c0e0f0f1418ecbd002c094e0d42e13"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13">dims_</a></td></tr>
+<tr class="memitem:gaa1c0e0f0f1418ecbd002c094e0d42e13" id="r_gaa1c0e0f0f1418ecbd002c094e0d42e13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13">dims_</a></td></tr>
 <tr class="separator:gaa1c0e0f0f1418ecbd002c094e0d42e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4640c0c164372ff567a458ce590c241b" id="r_ga4640c0c164372ff567a458ce590c241b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga4640c0c164372ff567a458ce590c241b">sizeXY_</a> = 0</td></tr>
 <tr class="memdesc:ga4640c0c164372ff567a458ce590c241b"><td class="mdescLeft">&#160;</td><td class="mdescRight">= dims_.x * dims_.y  <br /></td></tr>

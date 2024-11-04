@@ -10,14 +10,9 @@ var classMR_1_1SurfaceManipulationWidget =
     ] ],
     [ "SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html#a5e42cf09e263f1d12221d3ac465d7d1e", null ],
     [ "~SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html#a309f5b2581529ed58185dcd9718169ba", null ],
-    [ "enableDeviationVisualization", "classMR_1_1SurfaceManipulationWidget.html#adfd4d3e29bc38873330fb5027d094047", null ],
-    [ "getMinMax", "classMR_1_1SurfaceManipulationWidget.html#ac635419fd9d47ae6f1f285cec8699a52", null ],
     [ "getMinRadius", "classMR_1_1SurfaceManipulationWidget.html#ad230b880c3a56720a1b95832f33ad364", null ],
     [ "getSettings", "classMR_1_1SurfaceManipulationWidget.html#a81c3f5f93d6cfba31ce7a84815bebb22", null ],
     [ "init", "classMR_1_1SurfaceManipulationWidget.html#a3aed52f4737f381cd25e1431f64076b9", null ],
-    [ "palette", "classMR_1_1SurfaceManipulationWidget.html#ac630e539a99b5bafb846ed70cae75f35", null ],
     [ "reset", "classMR_1_1SurfaceManipulationWidget.html#a5cb57f3a962333b146ea7b607f88fc8e", null ],
-    [ "setSettings", "classMR_1_1SurfaceManipulationWidget.html#a080d25b56fe008a5917ca1d4ccc0b4d3", null ],
-    [ "updateTexture", "classMR_1_1SurfaceManipulationWidget.html#ae60bdd11677d2000b6deeb48ddfe3d6f", null ],
-    [ "updateUVs", "classMR_1_1SurfaceManipulationWidget.html#ac926b09e4e210e422759de45d1bf1524", null ]
+    [ "setSettings", "classMR_1_1SurfaceManipulationWidget.html#a080d25b56fe008a5917ca1d4ccc0b4d3", null ]
 ];

@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -146,7 +152,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a341b31c3cef2ea814252e40a6dfbc8aa" id="r_a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a341b31c3cef2ea814252e40a6dfbc8aa">boundaryAngle</a> = 0.9f * PI_F</td></tr>
 <tr class="memdesc:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
 <tr class="separator:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe33d444027e0033891d8d9d75e52e1f" id="r_abe33d444027e0033891d8d9d75e52e1f"><td class="memItemLeft" align="right" valign="top">const VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe33d444027e0033891d8d9d75e52e1f">trustedNormals</a> = nullptr</td></tr>
+<tr class="memitem:abe33d444027e0033891d8d9d75e52e1f" id="r_abe33d444027e0033891d8d9d75e52e1f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe33d444027e0033891d8d9d75e52e1f">trustedNormals</a> = nullptr</td></tr>
 <tr class="memdesc:abe33d444027e0033891d8d9d75e52e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if oriented normals are known, they will be used for neighbor points selection  <br /></td></tr>
 <tr class="separator:abe33d444027e0033891d8d9d75e52e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49d74151d155a2c96be9eb811e05757d" id="r_a49d74151d155a2c96be9eb811e05757d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d74151d155a2c96be9eb811e05757d">automaticRadiusIncrease</a> = true</td></tr>
@@ -155,7 +161,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a04d78b046a3cb5a0456ca15052617648" id="r_a04d78b046a3cb5a0456ca15052617648"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d78b046a3cb5a0456ca15052617648">maxRemoves</a> = INT_MAX</td></tr>
 <tr class="memdesc:a04d78b046a3cb5a0456ca15052617648"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum number of optimization steps (removals) in local triangulation  <br /></td></tr>
 <tr class="separator:a04d78b046a3cb5a0456ca15052617648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f5bf92c6fb3063c2d70ea917ba4a458" id="r_a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5bf92c6fb3063c2d70ea917ba4a458">allNeighbors</a> = nullptr</td></tr>
+<tr class="memitem:a6f5bf92c6fb3063c2d70ea917ba4a458" id="r_a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5bf92c6fb3063c2d70ea917ba4a458">allNeighbors</a> = nullptr</td></tr>
 <tr class="memdesc:a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output of considered neighbor points after filtering but before triangulation/optimization  <br /></td></tr>
 <tr class="separator:a6f5bf92c6fb3063c2d70ea917ba4a458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5edcde965a734c44ce7cb176b8784c2" id="r_ad5edcde965a734c44ce7cb176b8784c2"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5edcde965a734c44ce7cb176b8784c2">actualRadius</a> = nullptr</td></tr>
@@ -189,7 +195,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;VertId&gt;* MR::TriangulationHelpers::Settings::allNeighbors = nullptr</td>
+          <td class="memname">std::vector&lt;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;* MR::TriangulationHelpers::Settings::allNeighbors = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -315,7 +321,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const VertCoords* MR::TriangulationHelpers::Settings::trustedNormals = nullptr</td>
+          <td class="memname">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a>* MR::TriangulationHelpers::Settings::trustedNormals = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

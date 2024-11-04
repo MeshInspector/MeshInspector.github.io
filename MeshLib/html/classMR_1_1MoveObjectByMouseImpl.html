@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -171,9 +177,9 @@ Protected Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab6d3e7b0abe5c50bba244801249e7ed5" id="r_ab6d3e7b0abe5c50bba244801249e7ed5"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d3e7b0abe5c50bba244801249e7ed5">pick_</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifiers, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, Vector3f &amp;centerPoint, Vector3f &amp;startPoint)</td></tr>
+<tr class="memitem:ab6d3e7b0abe5c50bba244801249e7ed5" id="r_ab6d3e7b0abe5c50bba244801249e7ed5"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d3e7b0abe5c50bba244801249e7ed5">pick_</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifiers, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, <a class="el" href="classVector3f.html">Vector3f</a> &amp;centerPoint, <a class="el" href="classVector3f.html">Vector3f</a> &amp;startPoint)</td></tr>
 <tr class="separator:ab6d3e7b0abe5c50bba244801249e7ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b9a12600f13df92315c665178457113" id="r_a3b9a12600f13df92315c665178457113"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9a12600f13df92315c665178457113">getBbox_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects)</td></tr>
+<tr class="memitem:a3b9a12600f13df92315c665178457113" id="r_a3b9a12600f13df92315c665178457113"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9a12600f13df92315c665178457113">getBbox_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects)</td></tr>
 <tr class="separator:a3b9a12600f13df92315c665178457113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -289,7 +295,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API Box3f MR::MoveObjectByMouseImpl::getBbox_ </td>
+          <td class="memname">MRVIEWER_API <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> MR::MoveObjectByMouseImpl::getBbox_ </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span></td><td>)</td>
           <td></td>
@@ -458,12 +464,12 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>centerPoint</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>centerPoint</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>startPoint</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>startPoint</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

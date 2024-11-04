@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -145,10 +151,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0550c06323ac687236b8994cbdef837c" id="r_a0550c06323ac687236b8994cbdef837c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0550c06323ac687236b8994cbdef837c">normalTolerance</a> { 30.f }</td></tr>
 <tr class="memdesc:a0550c06323ac687236b8994cbdef837c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum angle between the source model's normal and the feature's normal.  <br /></td></tr>
 <tr class="separator:a0550c06323ac687236b8994cbdef837c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac994e7450108ddf9d7a3e4a5973de92e" id="r_ac994e7450108ddf9d7a3e4a5973de92e"><td class="memItemLeft" align="right" valign="top">const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac994e7450108ddf9d7a3e4a5973de92e">faceRegion</a></td></tr>
+<tr class="memitem:ac994e7450108ddf9d7a3e4a5973de92e" id="r_ac994e7450108ddf9d7a3e4a5973de92e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac994e7450108ddf9d7a3e4a5973de92e">faceRegion</a></td></tr>
 <tr class="memdesc:ac994e7450108ddf9d7a3e4a5973de92e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(for meshes only) Reference faces used for filtering intermediate results that are too far from it  <br /></td></tr>
 <tr class="separator:ac994e7450108ddf9d7a3e4a5973de92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a528671040882a5d5982efd35a695f752" id="r_a528671040882a5d5982efd35a695f752"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528671040882a5d5982efd35a695f752">vertRegion</a></td></tr>
+<tr class="memitem:a528671040882a5d5982efd35a695f752" id="r_a528671040882a5d5982efd35a695f752"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528671040882a5d5982efd35a695f752">vertRegion</a></td></tr>
 <tr class="memdesc:a528671040882a5d5982efd35a695f752"><td class="mdescLeft">&#160;</td><td class="mdescRight">(for meshes only) Reference vertices used for filtering intermediate results that are too far from it  <br /></td></tr>
 <tr class="separator:a528671040882a5d5982efd35a695f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a808c9f463fc7c33c8d774a3638ebca29" id="r_a808c9f463fc7c33c8d774a3638ebca29"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a808c9f463fc7c33c8d774a3638ebca29">maxIterations</a> { 10 }</td></tr>
@@ -200,7 +206,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const FaceBitSet* MR::RefineParameters::faceRegion</td>
+          <td class="memname">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>* MR::RefineParameters::faceRegion</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,7 +254,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const VertBitSet* MR::RefineParameters::vertRegion</td>
+          <td class="memname">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a>* MR::RefineParameters::vertRegion</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -130,7 +136,8 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <h3><a id="index_m" name="index_m"></a>- m -</h3><ul>
 <li>M_PI&#160;:&#160;<a class="el" href="MROpenVDB_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">MROpenVDB.h</a></li>
 <li>M_PI_2&#160;:&#160;<a class="el" href="MROpenVDB_8h.html#a958e4508ed28ee5cc04249144312c15f">MROpenVDB.h</a></li>
-<li>MAKE_SLOT&#160;:&#160;<a class="el" href="MRMakeSlot_8h.html#a2c688df55bdadf35189e97880b6dc592">MRMakeSlot.h</a></li>
+<li>MAKE_SLOT&#160;:&#160;<a class="el" href="MRViewer_8h.html#a2c688df55bdadf35189e97880b6dc592">MRViewer.h</a></li>
+<li>MapObject&#160;:&#160;<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246">MRBooleanResultMapper.h</a></li>
 <li>MR_ADD_CLASS_FACTORY&#160;:&#160;<a class="el" href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MRObjectFactory.h</a></li>
 <li>MR_ADD_CTOR_DELETE_MOVE&#160;:&#160;<a class="el" href="MRViewerFwd_8h.html#ad67c8b227ede6f3cf9dda3c8b2232c32">MRViewerFwd.h</a></li>
 <li>MR_ADD_IMAGE_LOADER&#160;:&#160;<a class="el" href="MRIOFormatsRegistry_8h.html#a6c227a5fd0daac1b6c0476a487456a29">MRIOFormatsRegistry.h</a></li>
@@ -166,6 +173,8 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>MR_CONCAT&#160;:&#160;<a class="el" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MRMacros.h</a>, <a class="el" href="Concat_8h.html#a4cb6de717e0b06df733796fec2da272a">Concat.h</a></li>
 <li>MR_CONCAT_&#160;:&#160;<a class="el" href="MRMacros_8h.html#ac35e66533e158a4bf53982a2c109bd09">MRMacros.h</a>, <a class="el" href="Concat_8h.html#ac35e66533e158a4bf53982a2c109bd09">Concat.h</a></li>
 <li>MR_DELETE_MOVE&#160;:&#160;<a class="el" href="MRViewerFwd_8h.html#a13de6dbfcc4586d8d224d8ff0dd2deed">MRViewerFwd.h</a></li>
+<li>MR_DOTNET_NAMESPACE_BEGIN&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a1a1e383669c7572f716d6e069738f2e4">MRDotNet/MRMeshFwd.h</a></li>
+<li>MR_DOTNET_NAMESPACE_END&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a9bfa62af9f50d9b1a7144a5dbd466f68">MRDotNet/MRMeshFwd.h</a></li>
 <li>MR_END&#160;:&#160;<a class="el" href="MRMacros_8h.html#a0fd290c4738dc2f265b144020d97b290">MRMacros.h</a></li>
 <li>MR_EXTERN_C_BEGIN&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MRMeshC/MRMeshFwd.h</a></li>
 <li>MR_EXTERN_C_END&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MRMeshC/MRMeshFwd.h</a></li>
@@ -219,13 +228,12 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>mrBitSetAutoResizeSet()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a601f9fb0815d2c1a417a4b81860ff403">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetBlocks()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a07d5abf04d031ab3357d2873a182bbd5">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetBlocksNum()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a189723518a8ac8efdf244a47dfe332cf">MRMeshC/MRBitSet.h</a></li>
-<li>mrBitSetCopy()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a81bd73519fd2dbe4f23aeed80ac691e6">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetCount()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a1d870f446bfdcfb125cabc3aeca8672c">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetEq()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a0f1d3b5f5d74371a64bc920d409e0249">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetFindFirst()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#ac72de3399902ca30827fcc386fe67adc">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetFindLast()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a2a47abfebe136b105972388fc544686c">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetFree()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a656e54750dfafbbcd341b61802a2cb53">MRMeshC/MRBitSet.h</a></li>
-<li>mrBitSetNew()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a8098ee08450e87398ee7b6b86596869f">MRMeshC/MRBitSet.h</a></li>
+<li>mrBitSetNew()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a245528c132908d4eb852b3de8a663df9">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetNpos()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#aec8b684bbb35f17091fbf9c3aabc8115">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetResize()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a6db3376608213607ac878648b90deb1d">MRMeshC/MRBitSet.h</a></li>
 <li>mrBitSetSet()&#160;:&#160;<a class="el" href="MRMeshC_2MRBitSet_8h.html#a1582e683e5a8a308978ccd2acccb7d3b">MRMeshC/MRBitSet.h</a></li>
@@ -374,7 +382,6 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>MRICPModeRigidScale&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#a557dd31f8dfe045d460e3563dd42b5d1a6b1b62a91a8f6d8be4f15fbacf281da8">MRMeshC/MRICP.h</a></li>
 <li>MRICPModeTranslationOnly&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#a557dd31f8dfe045d460e3563dd42b5d1a0216ef0ef59709efd98a0b19a29b79fb">MRMeshC/MRICP.h</a></li>
 <li>mrICPNew()&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#ae00bfaafa2a5cd791ec1206c17fc151f">MRMeshC/MRICP.h</a></li>
-<li>mrICPNewFromSamples()&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#a854e635d53e45015b77660eb04b57c8a">MRMeshC/MRICP.h</a></li>
 <li>MRICPPairData&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#ab9fe7131e91ae734c0f8d9b2322b24b5">MRMeshC/MRICP.h</a></li>
 <li>MRICPProperties&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#aadd3889ebdb61bcdddc57a96cf3b0a55">MRMeshC/MRICP.h</a></li>
 <li>mrICPPropertiesNew()&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#ad6572e9fd51800d785882fab5dc53502">MRMeshC/MRICP.h</a></li>
@@ -384,8 +391,6 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>MRIPointPairs&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#a570f9e0f14adc60a3268c6312c7a81e6">MRMeshC/MRICP.h</a></li>
 <li>mrIPointPairsGet()&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#a7a7e1b4b917587e9342b15b8dc457fec">MRMeshC/MRICP.h</a></li>
 <li>mrIPointPairsGetRef()&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#abd53dc27a52ca64a9b6dbcf194a2f844">MRMeshC/MRICP.h</a></li>
-<li>mrIPointPairsSize()&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#ad041c7d6accf6325f43a084b6522221f">MRMeshC/MRICP.h</a></li>
-<li>mrLoadIOExtras()&#160;:&#160;<a class="el" href="MRMeshC_2MRIOExtras_8h.html#a4be818936308dd68595ba017e8655ba1">MRMeshC/MRIOExtras.h</a></li>
 <li>mrMakeConvexHullFromMesh()&#160;:&#160;<a class="el" href="MRMeshC_2MRConvexHull_8h.html#a259f834937c866ec4175448f0e256608">MRMeshC/MRConvexHull.h</a></li>
 <li>mrMakeConvexHullFromPointCloud()&#160;:&#160;<a class="el" href="MRMeshC_2MRConvexHull_8h.html#a0a80934042ec2d8f46a163138e1fb3a8">MRMeshC/MRConvexHull.h</a></li>
 <li>mrMakeCube()&#160;:&#160;<a class="el" href="MRMeshC_2MRCube_8h.html#a5b607aff065c9b9095904bfcaff6a134">MRMeshC/MRCube.h</a></li>
@@ -400,14 +405,10 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>MRMakeUVSphereParameters&#160;:&#160;<a class="el" href="MRMeshC_2MRMakeSphereMesh_8h.html#a41c0d7764dfcf6146b1fd10215d17d66">MRMeshC/MRMakeSphereMesh.h</a></li>
 <li>mrMakeUvSphereParametersNew()&#160;:&#160;<a class="el" href="MRMeshC_2MRMakeSphereMesh_8h.html#aa5376c56e30df5e92308fc374ce57228">MRMeshC/MRMakeSphereMesh.h</a></li>
 <li>MRMatrix3f&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#aa8bc8adc10a50303a3f926de02dbd355">MRMeshC/MRMatrix3.h</a></li>
-<li>mrMatrix3fAdd()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#a4db0d207746411f28d04656d4558f553">MRMeshC/MRMatrix3.h</a></li>
-<li>mrMatrix3fEqual()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#add9facc1448d11a637e72a606526be0c">MRMeshC/MRMatrix3.h</a></li>
 <li>mrMatrix3fIdentity()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#af89caadb02e5bb1d32b94c92b7b104d5">MRMeshC/MRMatrix3.h</a></li>
 <li>mrMatrix3fMul()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#a6225b61060a01e070bfd28848be08037">MRMeshC/MRMatrix3.h</a></li>
-<li>mrMatrix3fMulVector()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#a11cf7e2444bea875abd31fa0c30607bc">MRMeshC/MRMatrix3.h</a></li>
 <li>mrMatrix3fRotationScalar()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#a3e9f35e4f4a68b535fe47f1dc1f85e36">MRMeshC/MRMatrix3.h</a></li>
 <li>mrMatrix3fRotationVector()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#a3100bf8d7c848b8710002e6ed136a627">MRMeshC/MRMatrix3.h</a></li>
-<li>mrMatrix3fSub()&#160;:&#160;<a class="el" href="MRMeshC_2MRMatrix3_8h.html#a2fd8b13f2803b4506c74a3d9e1232079">MRMeshC/MRMatrix3.h</a></li>
 <li>mrMcOffsetMesh()&#160;:&#160;<a class="el" href="MRMeshC_2MROffset_8h.html#a6c2edf878c38fb1033deae07ea94d45e">MRMeshC/MROffset.h</a></li>
 <li>mrMcShellMeshRegion()&#160;:&#160;<a class="el" href="MRMeshC_2MROffset_8h.html#af70da9adcbba35b3a117eed9dce486a0">MRMeshC/MROffset.h</a></li>
 <li>MRMesh&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMeshC/MRMeshFwd.h</a></li>
@@ -472,7 +473,7 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>mrMultiWayICPGetMeanSqDistToPoint()&#160;:&#160;<a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#a8ef4ac830ddb4ca18e64bf4bf176ff8e">MRMeshC/MRMultiwayICP.h</a></li>
 <li>mrMultiWayICPGetNumActivePairs()&#160;:&#160;<a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#afc3b00fe6656a7dd41120669e44cc98d">MRMeshC/MRMultiwayICP.h</a></li>
 <li>mrMultiWayICPGetNumSamples()&#160;:&#160;<a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#a8c74b1a33e19cc9f3bf1b3db8d360dda">MRMeshC/MRMultiwayICP.h</a></li>
-<li>mrMultiwayICPNew()&#160;:&#160;<a class="el" href="MRMeshC_8h.html#a3734599d808ed4116719ece0cc1fb568">MRMeshC.h</a>, <a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#a648c03fc537414e24305e6c1e096f7f9">MRMeshC/MRMultiwayICP.h</a></li>
+<li>mrMultiwayICPNew()&#160;:&#160;<a class="el" href="MRMeshC_8h.html#a3734599d808ed4116719ece0cc1fb568">MRMeshC.h</a>, <a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#a3734599d808ed4116719ece0cc1fb568">MRMeshC/MRMultiwayICP.h</a></li>
 <li>mrMultiwayICPResamplePoints()&#160;:&#160;<a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#a370728b4ff1bad3f7c023f41d3bf6e8e">MRMeshC/MRMultiwayICP.h</a></li>
 <li>MRMultiwayICPSamplingParameters&#160;:&#160;<a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#add07b860008e3c607384273d6a31366b">MRMeshC/MRMultiwayICP.h</a></li>
 <li>MRMultiwayICPSamplingParametersCascadeMode&#160;:&#160;<a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6">MRMeshC/MRMultiwayICP.h</a></li>
@@ -499,7 +500,6 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>mrOrderIntersectionContours()&#160;:&#160;<a class="el" href="MRMeshC_2MRIntersectionContour_8h.html#a7da47cb6bf9f2e0c507e5c636707cc22">MRMeshC/MRIntersectionContour.h</a></li>
 <li>MRPointCloud&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRMeshC/MRMeshFwd.h</a></li>
 <li>mrPointCloudAddPoint()&#160;:&#160;<a class="el" href="MRMeshC_2MRPointCloud_8h.html#acd0b83abac0a5e1f4ef2d2d63878d20b">MRMeshC/MRPointCloud.h</a></li>
-<li>mrPointCloudAddPointWithNormal()&#160;:&#160;<a class="el" href="MRMeshC_2MRPointCloud_8h.html#a3d6eb6f89a83fed6e78c079df80b9914">MRMeshC/MRPointCloud.h</a></li>
 <li>mrPointCloudComputeBoundingBox()&#160;:&#160;<a class="el" href="MRMeshC_2MRPointCloud_8h.html#a8ab439f4039ec8d144c1ed593c7d5f59">MRMeshC/MRPointCloud.h</a></li>
 <li>mrPointCloudFree()&#160;:&#160;<a class="el" href="MRMeshC_2MRPointCloud_8h.html#aaf0e7a0bb881a2b870dbd3612347864c">MRMeshC/MRPointCloud.h</a></li>
 <li>mrPointCloudFromPoints()&#160;:&#160;<a class="el" href="MRMeshC_8h.html#a88b4aa69ad48bdea4d15724f942e7ff5">MRMeshC.h</a>, <a class="el" href="MRMeshC_2MRPointCloud_8h.html#a88b4aa69ad48bdea4d15724f942e7ff5">MRMeshC/MRPointCloud.h</a></li>
@@ -558,13 +558,12 @@ $(function(){initNavTree('globals_m.html',''); initResizable(true); });
 <li>MRVector3f&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a469f0a5727d73054f9f7acba1c1193a7">MRMeshC/MRMeshFwd.h</a>, <a class="el" href="MRMeshC_2MRVector3_8h.html#ad180dcf04db8bfb6d619ea0293e6c4ee">MRMeshC/MRVector3.h</a></li>
 <li>mrVector3fAdd()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a249854d0f317c4bfbb5b3976bcd8d0b7">MRMeshC/MRVector3.h</a></li>
 <li>mrVector3fDiagonal()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">MRMeshC/MRVector3.h</a></li>
-<li>mrVector3fLength()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a736de1cb45838c50f6aace44a231c88d">MRMeshC/MRVector3.h</a></li>
-<li>mrVector3fLengthSq()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a5df99a2abe5f7650f1557c2f07bbb79f">MRMeshC/MRVector3.h</a></li>
 <li>mrVector3fMulScalar()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#abba9fcee4e7b1202eb35fc2e2fb2144f">MRMeshC/MRVector3.h</a></li>
 <li>mrVector3fPlusX()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a7d63e588765e2f6f0dbb0875f7dde7f7">MRMeshC/MRVector3.h</a></li>
 <li>mrVector3fPlusY()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#aaafd4b7ca13bba9c5e7dd3486ea059e6">MRMeshC/MRVector3.h</a></li>
 <li>mrVector3fPlusZ()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a7b48c0138214953e3422885c1c8afb90">MRMeshC/MRVector3.h</a></li>
-<li>mrVector3fSub()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a439a3eecd4c074ac5dc6ce82d4453fd8">MRMeshC/MRVector3.h</a></li>
+<li>mrVector3Length()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a72415dbe3b4fbdcb809e6bec744f710e">MRMeshC/MRVector3.h</a></li>
+<li>mrVector3LengthSq()&#160;:&#160;<a class="el" href="MRMeshC_2MRVector3_8h.html#a0533960e63c63ae3bd7cfaa3acfb2d71">MRMeshC/MRVector3.h</a></li>
 <li>MRVectorMeshLoadNamedMesh&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshLoadObj_8h.html#a0f4a080f767ffda215d6c597d26a8750">MRMeshC/MRMeshLoadObj.h</a></li>
 <li>mrVectorMeshLoadNamedMeshFree()&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshLoadObj_8h.html#a62ffc4abbfce63f9417cb45c987c0416">MRMeshC/MRMeshLoadObj.h</a></li>
 <li>mrVectorMeshLoadNamedMeshGet()&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshLoadObj_8h.html#afd58315edf000cb0500edb083810a980">MRMeshC/MRMeshLoadObj.h</a></li>

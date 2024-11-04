@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -132,7 +138,6 @@ $(function(){initNavTree('functions_eval.html',''); initResizable(true); });
 <li>AdditionalPoints&#160;:&#160;<a class="el" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255">MR::GLStaticHolder</a></li>
 <li>AdditionalPointsNoOffset&#160;:&#160;<a class="el" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9">MR::GLStaticHolder</a></li>
 <li>AdditionalQuad&#160;:&#160;<a class="el" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8">MR::GLStaticHolder</a></li>
-<li>All&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3">MR::NotificationTags</a></li>
 <li>AxisScaling&#160;:&#160;<a class="el" href="classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935">MR::ObjectTransformWidget</a></li>
 <li>AxisTranslation&#160;:&#160;<a class="el" href="classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510">MR::ObjectTransformWidget</a></li>
 </ul>
@@ -146,11 +151,6 @@ $(function(){initNavTree('functions_eval.html',''); initResizable(true); });
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>ContourOrientation&#160;:&#160;<a class="el" href="structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727">MR::ContoursDistanceMapOptions</a></li>
 <li>Count&#160;:&#160;<a class="el" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3">MR::GLStaticHolder</a>, <a class="el" href="classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c">MR::MarkedVoxelSlice</a>, <a class="el" href="structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483">MR::SceneColors</a>, <a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750">MR::VolumeSegmenter</a></li>
-</ul>
-
-
-<h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
-<li>Default&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d">MR::NotificationTags</a></li>
 </ul>
 
 
@@ -175,8 +175,6 @@ $(function(){initNavTree('functions_eval.html',''); initResizable(true); });
 
 
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
-<li>ImplicitChanges&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f">MR::NotificationTags</a></li>
-<li>Important&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a58bca33d6ad2854d29c6ff020e8b0851">MR::NotificationTags</a></li>
 <li>Inside&#160;:&#160;<a class="el" href="classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef">MR::MarkedVoxelSlice</a>, <a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be">MR::VolumeSegmenter</a></li>
 </ul>
 
@@ -197,7 +195,6 @@ $(function(){initNavTree('functions_eval.html',''); initResizable(true); });
 
 
 <h3><a id="index_n" name="index_n"></a>- n -</h3><ul>
-<li>None&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7aa53c19a5992ea9b4c35b429f300a57e3">MR::NotificationTags</a></li>
 <li>NoWindow&#160;:&#160;<a class="el" href="structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da5af8ae97e3ef8bd78ef2091cbde8ed2e">MR::LaunchParams</a></li>
 </ul>
 
@@ -219,8 +216,6 @@ $(function(){initNavTree('functions_eval.html',''); initResizable(true); });
 
 
 <h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
-<li>Recommendation&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502">MR::NotificationTags</a></li>
-<li>Report&#160;:&#160;<a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da">MR::NotificationTags</a></li>
 <li>Ribbon&#160;:&#160;<a class="el" href="structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3">MR::DrawButtonParams</a></li>
 </ul>
 

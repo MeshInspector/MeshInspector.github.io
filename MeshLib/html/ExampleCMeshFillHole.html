@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -195,7 +201,7 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="line">    {</div>
 <div class="line">        <a class="code hl_struct" href="structMREdgeId.html">MREdgeId</a> e = mrEdgePathData( holes )[i];</div>
 <div class="line">        <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a> holeDirArea = <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a>( mesh, e );</div>
-<div class="line">        <span class="keywordflow">if</span> ( mrVector3Length( &amp;holeDirArea ) &gt;= MIN_HOLE_AREA )</div>
+<div class="line">        <span class="keywordflow">if</span> ( <a class="code hl_function" href="MRMeshC_2MRVector3_8h.html#a72415dbe3b4fbdcb809e6bec744f710e">mrVector3Length</a>( &amp;holeDirArea ) &gt;= MIN_HOLE_AREA )</div>
 <div class="line">        {</div>
 <div class="line">            <a class="code hl_function" href="MRMeshC_2MRMeshFillHole_8h.html#a62a9b8cdd8c95f17540656917d3cf7f6">mrFillHole</a>( mesh, e, &amp;params );</div>
 <div class="line">            newFaceCount += <a class="code hl_function" href="MRMeshC_2MRBitSet_8h.html#a1d870f446bfdcfb125cabc3aeca8672c">mrBitSetCount</a>( newFaces );</div>
@@ -248,6 +254,7 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <div class="ttc" id="aMRMeshC_2MRString_8h_html"><div class="ttname"><a href="MRMeshC_2MRString_8h.html">MRString.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a6c06174923fa27502a2633fd5791047d"><div class="ttname"><a href="MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a></div><div class="ttdeci">MRMESHC_API void mrStringFree(MRString *str)</div><div class="ttdoc">deallocates the string object</div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div><div class="ttdoc">gets read-only access to the string data</div></div>
+<div class="ttc" id="aMRMeshC_2MRVector3_8h_html_a72415dbe3b4fbdcb809e6bec744f710e"><div class="ttname"><a href="MRMeshC_2MRVector3_8h.html#a72415dbe3b4fbdcb809e6bec744f710e">mrVector3Length</a></div><div class="ttdeci">MRMESHC_API float mrVector3Length(const MRVector3f *v)</div><div class="ttdoc">length of the vector</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a0dca33ba529acd17941975d795f14ad8"><div class="ttname"><a href="MRMeshC_8h.html#a0dca33ba529acd17941975d795f14ad8">mrMeshLoadFromAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrMeshLoadFromAnySupportedFormat(const char *file, MRString **errorStr)</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a60c1ce9ed772eb0a4326776c021b33dd"><div class="ttname"><a href="MRMeshC_8h.html#a60c1ce9ed772eb0a4326776c021b33dd">mrMeshSaveToAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API void mrMeshSaveToAnySupportedFormat(const MRMesh *mesh, const char *file, MRString **errorStr)</div></div>
 <div class="ttc" id="astructMREdgeId_html"><div class="ttname"><a href="structMREdgeId.html">MREdgeId</a></div><div class="ttdoc">edge index</div><div class="ttdef"><b>Definition</b> MRMeshC/MRId.h:8</div></div>
@@ -262,6 +269,7 @@ $(function(){initNavTree('ExampleCMeshFillHole.html',''); initResizable(true); }
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="HowToBasic.html">Examples</a></li><li class="navelem"><a class="el" href="CCodeExamples.html">C Samples</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

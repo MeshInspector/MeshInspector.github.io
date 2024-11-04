@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -134,7 +140,6 @@ $(function(){initNavTree('MRIOParsing_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRBuffer_8h_source.html">MRBuffer.h</a>&quot;</code><br />
-<code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
 <code>#include &lt;istream&gt;</code><br />
 </div>
 <p><a href="MRIOParsing_8h_source.html">Go to the source code of this file.</a></p>
@@ -152,8 +157,8 @@ Functions</h2></td></tr>
 <tr class="separator:afddcd5cd9466d41302c0ec4d1ee83c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c58f7437a40fe2c4502a7f7ef5c7d25" id="r_a4c58f7437a40fe2c4502a7f7ef5c7d25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4c58f7437a40fe2c4502a7f7ef5c7d25">MR::readString</a> (std::istream &amp;in)</td></tr>
 <tr class="separator:a4c58f7437a40fe2c4502a7f7ef5c7d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b208f3c8d4bde1db961aa1b5f79458f" id="r_a5b208f3c8d4bde1db961aa1b5f79458f"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5b208f3c8d4bde1db961aa1b5f79458f">MR::readCharBuffer</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:a5b208f3c8d4bde1db961aa1b5f79458f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9aedc47d92977b6eb431f1d6fcf4a0" id="r_acd9aedc47d92977b6eb431f1d6fcf4a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acd9aedc47d92977b6eb431f1d6fcf4a0">MR::readCharBuffer</a> (std::istream &amp;in)</td></tr>
+<tr class="separator:acd9aedc47d92977b6eb431f1d6fcf4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab70ae04aee26ad876f1080bdea061d86" id="r_ab70ae04aee26ad876f1080bdea061d86"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ab70ae04aee26ad876f1080bdea061d86"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab70ae04aee26ad876f1080bdea061d86">MR::parseTextCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *n=nullptr, <a class="el" href="structMR_1_1Color.html">Color</a> *c=nullptr)</td></tr>
 <tr class="separator:ab70ae04aee26ad876f1080bdea061d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,7 +170,7 @@ Functions</h2></td></tr>
 <tr class="separator:ae6305342b0ad612816558b312b777ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac31683380e84bd274a20968c64c5f40a" id="r_ac31683380e84bd274a20968c64c5f40a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac31683380e84bd274a20968c64c5f40a">MR::parseFirstNum</a> (const std::string_view &amp;str, int &amp;num)</td></tr>
 <tr class="separator:ac31683380e84bd274a20968c64c5f40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1fa5e1ea4cfb0aa1699c742597effe7" id="r_ac1fa5e1ea4cfb0aa1699c742597effe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac1fa5e1ea4cfb0aa1699c742597effe7">MR::parsePolygon</a> (const std::string_view &amp;str, VertId *vertId, int *numPoints)</td></tr>
+<tr class="memitem:ac1fa5e1ea4cfb0aa1699c742597effe7" id="r_ac1fa5e1ea4cfb0aa1699c742597effe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac1fa5e1ea4cfb0aa1699c742597effe7">MR::parsePolygon</a> (const std::string_view &amp;str, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> *vertId, int *numPoints)</td></tr>
 <tr class="separator:ac1fa5e1ea4cfb0aa1699c742597effe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb031d90c2eaeddbeac77675cec10847" id="r_afb031d90c2eaeddbeac77675cec10847"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:afb031d90c2eaeddbeac77675cec10847"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afb031d90c2eaeddbeac77675cec10847">MR::parseAscCoordinate</a> (const std::string_view &amp;str, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *n=nullptr, <a class="el" href="structMR_1_1Color.html">Color</a> *c=nullptr)</td></tr>

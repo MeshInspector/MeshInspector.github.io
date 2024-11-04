@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -153,7 +159,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#ab0d713dfdc07778bd4ebd556a1a13c83">   24</a></span>    SimpleVolumeMinMax <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#ab0d713dfdc07778bd4ebd556a1a13c83">vol</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a50c8b2679d713bd1910bef6966d5b76d">   25</a></span>    std::string <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a50c8b2679d713bd1910bef6966d5b76d">name</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a6b27eb6cff8e0c4c55aa1a4a48736bda">   26</a></span>    AffineXf3f <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a6b27eb6cff8e0c4c55aa1a4a48736bda">xf</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a6b27eb6cff8e0c4c55aa1a4a48736bda">   26</a></span>    <a class="code hl_class" href="structMR_1_1AffineXf.html">AffineXf3f</a> <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a6b27eb6cff8e0c4c55aa1a4a48736bda">xf</a>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
 </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
@@ -162,7 +168,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e">   31</a></span>    VdbVolume <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e">vdbVolume</a>;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a02d9679ab2619756de63d60f776f5576">   32</a></span>    std::string <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a02d9679ab2619756de63d60f776f5576">name</a>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a2584a9413c0faa88812fa6bd8c1f78ce">   33</a></span>    AffineXf3f <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a2584a9413c0faa88812fa6bd8c1f78ce">xf</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a2584a9413c0faa88812fa6bd8c1f78ce">   33</a></span>    <a class="code hl_class" href="structMR_1_1AffineXf.html">AffineXf3f</a> <a class="code hl_variable" href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a2584a9413c0faa88812fa6bd8c1f78ce">xf</a>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
@@ -204,7 +210,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:13</div></div>
 <div class="ttc" id="aMRVoxelsVolume_8h_html"><div class="ttname"><a href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a></div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
 <div class="ttc" id="anamespaceMR_1_1VoxelsLoad_html_a191bfc170e935b4d3114da44095f93f5"><div class="ttname"><a href="namespaceMR_1_1VoxelsLoad.html#a191bfc170e935b4d3114da44095f93f5">MR::VoxelsLoad::loadDicomsFolder</a></div><div class="ttdeci">MRVOXELS_API std::vector&lt; Expected&lt; DicomVolume &gt; &gt; loadDicomsFolder(const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const ProgressCallback &amp;cb={})</div><div class="ttdoc">Loads 3D all volumetric data from DICOM files in a folder.</div></div>
 <div class="ttc" id="anamespaceMR_1_1VoxelsLoad_html_a3622b66edae8dfd63c281b78441dd22f"><div class="ttname"><a href="namespaceMR_1_1VoxelsLoad.html#a3622b66edae8dfd63c281b78441dd22f">MR::VoxelsLoad::loadDicomFile</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; DicomVolume &gt; loadDicomFile(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})</div><div class="ttdoc">Loads 3D volumetric data from a single DICOM file.</div></div>
 <div class="ttc" id="anamespaceMR_1_1VoxelsLoad_html_a3f8eca6078fe5dee842e9a1aa87bf7c2"><div class="ttname"><a href="namespaceMR_1_1VoxelsLoad.html#a3f8eca6078fe5dee842e9a1aa87bf7c2">MR::VoxelsLoad::loadDCMFolder</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; LoadDCMResult &gt; loadDCMFolder(const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const ProgressCallback &amp;cb={})</div><div class="ttdoc">Loads 3D first volumetric data from DICOM files in a folder.</div></div>
@@ -216,6 +222,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_1_1VoxelsSave_html_aa83a208321660dcd58dba3293c1ffcca"><div class="ttname"><a href="namespaceMR_1_1VoxelsSave.html#aa83a208321660dcd58dba3293c1ffcca">MR::VoxelsSave::toDCM</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; void &gt; toDCM(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;path, ProgressCallback cb={})</div><div class="ttdoc">Save voxels objet to a single 3d DICOM file.</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf&lt; Vector3f &gt;</a></div></div>
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1DicomVolume_html"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1DicomVolume.html">MR::VoxelsLoad::DicomVolume</a></div><div class="ttdef"><b>Definition</b> MRDicom.h:23</div></div>
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1DicomVolume_html_a50c8b2679d713bd1910bef6966d5b76d"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a50c8b2679d713bd1910bef6966d5b76d">MR::VoxelsLoad::DicomVolume::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> MRDicom.h:25</div></div>
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1DicomVolume_html_a6b27eb6cff8e0c4c55aa1a4a48736bda"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1DicomVolume.html#a6b27eb6cff8e0c4c55aa1a4a48736bda">MR::VoxelsLoad::DicomVolume::xf</a></div><div class="ttdeci">AffineXf3f xf</div><div class="ttdef"><b>Definition</b> MRDicom.h:26</div></div>
@@ -224,7 +231,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1LoadDCMResult_html_a02d9679ab2619756de63d60f776f5576"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a02d9679ab2619756de63d60f776f5576">MR::VoxelsLoad::LoadDCMResult::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> MRDicom.h:32</div></div>
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1LoadDCMResult_html_a2584a9413c0faa88812fa6bd8c1f78ce"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a2584a9413c0faa88812fa6bd8c1f78ce">MR::VoxelsLoad::LoadDCMResult::xf</a></div><div class="ttdeci">AffineXf3f xf</div><div class="ttdef"><b>Definition</b> MRDicom.h:33</div></div>
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1LoadDCMResult_html_ad251cc090b7e2a1f78c463d1222e2d2e"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e">MR::VoxelsLoad::LoadDCMResult::vdbVolume</a></div><div class="ttdeci">VdbVolume vdbVolume</div><div class="ttdef"><b>Definition</b> MRDicom.h:31</div></div>
-<div class="ttc" id="astructMR_1_1VoxelsVolume_html"><div class="ttname"><a href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a></div><div class="ttdoc">represents a box in 3D space subdivided on voxels stored in T</div><div class="ttdef"><b>Definition</b> MRVoxelsVolume.h:39</div></div>
+<div class="ttc" id="astructMR_1_1VoxelsVolume_html"><div class="ttname"><a href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a></div><div class="ttdoc">represents a box in 3D space subdivided on voxels stored in T</div><div class="ttdef"><b>Definition</b> MRVoxelsVolume.h:38</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

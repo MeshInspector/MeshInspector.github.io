@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -169,9 +175,9 @@ Functions</h2></td></tr>
 <tr class="separator:aa8cff093ce429503e9b5c0e33d5b9080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc11e2c793b76a5cae9e076283d14a41" id="r_acc11e2c793b76a5cae9e076283d14a41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acc11e2c793b76a5cae9e076283d14a41">MR::doubleOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offsetA, float offsetB, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:acc11e2c793b76a5cae9e076283d14a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2feac3a50eec5b2f2d371d843f869f27" id="r_a2feac3a50eec5b2f2d371d843f869f27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2feac3a50eec5b2f2d371d843f869f27">MR::mcOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={}, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *outMap=nullptr)</td></tr>
+<tr class="memitem:a2feac3a50eec5b2f2d371d843f869f27" id="r_a2feac3a50eec5b2f2d371d843f869f27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2feac3a50eec5b2f2d371d843f869f27">MR::mcOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={}, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt; *outMap=nullptr)</td></tr>
 <tr class="separator:a2feac3a50eec5b2f2d371d843f869f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26c58403810ae559f5aa4b2e7e0dd80d" id="r_a26c58403810ae559f5aa4b2e7e0dd80d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a26c58403810ae559f5aa4b2e7e0dd80d">MR::mcShellMeshRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;region, float offset, const <a class="el" href="structMR_1_1BaseShellParameters.html">BaseShellParameters</a> &amp;params, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *outMap=nullptr)</td></tr>
+<tr class="memitem:a26c58403810ae559f5aa4b2e7e0dd80d" id="r_a26c58403810ae559f5aa4b2e7e0dd80d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a26c58403810ae559f5aa4b2e7e0dd80d">MR::mcShellMeshRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &amp;region, float offset, const <a class="el" href="structMR_1_1BaseShellParameters.html">BaseShellParameters</a> &amp;params, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt; *outMap=nullptr)</td></tr>
 <tr class="separator:a26c58403810ae559f5aa4b2e7e0dd80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1a0e7e32c8d591b83f66462ad4f89ef" id="r_ac1a0e7e32c8d591b83f66462ad4f89ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac1a0e7e32c8d591b83f66462ad4f89ef">MR::sharpOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1SharpOffsetParameters.html">SharpOffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:ac1a0e7e32c8d591b83f66462ad4f89ef"><td class="memSeparator" colspan="2">&#160;</td></tr>

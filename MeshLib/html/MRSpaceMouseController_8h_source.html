@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -148,7 +154,7 @@ $(function(){initNavTree('MRSpaceMouseController_8h_source.html',''); initResiza
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouseController.html#ae6ef32600ff176a278cfdda7acd6d46d">   17</a></span>    MRVIEWER_API <a class="code hl_struct" href="structMR_1_1SpaceMouseParameters.html">SpaceMouseParameters</a> <a class="code hl_function" href="classMR_1_1SpaceMouseController.html#ae6ef32600ff176a278cfdda7acd6d46d">getParameters</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> spaceMouseMove_( <span class="keyword">const</span> Vector3f&amp; translate, <span class="keyword">const</span> Vector3f&amp; rotate );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> spaceMouseMove_( <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; translate, <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; rotate );</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">bool</span> spaceMouseDown_( <span class="keywordtype">int</span> key );</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">bool</span> lockRotate_{ <span class="keyword">false</span> };</div>
@@ -166,6 +172,7 @@ $(function(){initNavTree('MRSpaceMouseController_8h_source.html',''); initResiza
 <div class="ttc" id="aclassMR_1_1SpaceMouseController_html_abeb719b76a7f6eab11a03225b18aebd0"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0">MR::SpaceMouseController::connect</a></div><div class="ttdeci">void connect()</div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouseController_html_ae0a59b5372dca473cd6f7c21eb280c69"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html#ae0a59b5372dca473cd6f7c21eb280c69">MR::SpaceMouseController::MR_ADD_CTOR_DELETE_MOVE</a></div><div class="ttdeci">MR_ADD_CTOR_DELETE_MOVE(SpaceMouseController)</div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouseController_html_ae6ef32600ff176a278cfdda7acd6d46d"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html#ae6ef32600ff176a278cfdda7acd6d46d">MR::SpaceMouseController::getParameters</a></div><div class="ttdeci">MRVIEWER_API SpaceMouseParameters getParameters() const</div></div>
+<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1SpaceMouseParameters_html"><div class="ttname"><a href="structMR_1_1SpaceMouseParameters.html">MR::SpaceMouseParameters</a></div><div class="ttdef"><b>Definition</b> MRSpaceMouseParameters.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->

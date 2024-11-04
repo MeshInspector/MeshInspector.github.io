@@ -35,13 +35,20 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,18 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div id="projectname">MeshLib
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -86,6 +81,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -158,6 +164,7 @@ $(function(){initNavTree('functions_func_u.html',''); initResizable(true); });
 <li>update()&#160;:&#160;<a class="el" href="classMR_1_1ImGuiImage.html#aa1bd137d3093a9f7422dc445457b692f">MR::ImGuiImage</a>, <a class="el" href="classMR_1_1ITransformControls.html#a786c7692ef96e6c97a0da7ae332b5597">MR::ITransformControls</a>, <a class="el" href="classMR_1_1TransformControls.html#aa465cae8f8f64791763879ce0edb9f5b">MR::TransformControls</a>, <a class="el" href="structMR_1_1TransformControls_1_1VisualParams.html#a4d1df5643f784225a03cc558c03d81cf">MR::TransformControls::VisualParams</a>, <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a116e9e31af9a5c5fb15cf8d9278226b1">MR::UniqueThreadSafeOwner&lt; T &gt;</a></li>
 <li>update_()&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#abe7b4ee6ee91312d898e283b022cf5e0">MR::RenderMeshObject</a></li>
 <li>updateAccVolume()&#160;:&#160;<a class="el" href="structMR_1_1WatershedGraph_1_1BasinInfo.html#a0b1a50cc94b8a8eb3779ca22881e63d3">MR::WatershedGraph::BasinInfo</a></li>
+<li>UpdateAllPointPairs()&#160;:&#160;<a class="el" href="classMultiwayICP.html#ac15a80770ec41daa16718766a269090e">MultiwayICP</a></li>
 <li>updateAllPointPairs()&#160;:&#160;<a class="el" href="classMR_1_1MultiwayICP.html#ac693705b4903e76f00b8e11f568c3397">MR::MultiwayICP</a></li>
 <li>updateAncillaryUVCoords()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a663d9471a16c9490dadae17913e17742">MR::ObjectMeshHolder</a></li>
 <li>updateArrow()&#160;:&#160;<a class="el" href="classMR_1_1DirectionWidget.html#ac5eee310348d931ae6105ec16b3e43f3">MR::DirectionWidget</a></li>
@@ -178,13 +185,13 @@ $(function(){initNavTree('functions_func_u.html',''); initResizable(true); });
 <li>updateMeshData()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#adf5e78de5901539edc597f320a512547">MR::Cuda::PointsToMeshProjector</a>, <a class="el" href="classMR_1_1IPointsToMeshProjector.html#a8386d444f8e600bb3fe67a31fc2c04f3">MR::IPointsToMeshProjector</a>, <a class="el" href="classMR_1_1PointsToMeshProjector.html#afed176c7dbfe208569b144bdc9098406">MR::PointsToMeshProjector</a></li>
 <li>updateParameters()&#160;:&#160;<a class="el" href="classMR_1_1SurfacePointWidget.html#a8d61ebacdd506518179659bb8b8c449b">MR::SurfacePointWidget</a></li>
 <li>updatePlane()&#160;:&#160;<a class="el" href="classMR_1_1PlaneWidget.html#a2d610de7f459407dbb91a6bab7e7e3ba">MR::PlaneWidget</a></li>
+<li>UpdatePointPairs()&#160;:&#160;<a class="el" href="classICP.html#a1cdd23ae064d7b3579e835eea7e3d885">ICP</a></li>
 <li>updatePointPairs()&#160;:&#160;<a class="el" href="classMR_1_1ICP.html#ab1c8fb3d4bbd3f143c7af4c10fd3cefa">MR::ICP</a></li>
 <li>updatePolyline()&#160;:&#160;<a class="el" href="classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1">MR::ObjectLines</a></li>
 <li>updateRotation()&#160;:&#160;<a class="el" href="classMR_1_1ITransformControls.html#a28b44509443b10410b017d0621bc90ae">MR::ITransformControls</a>, <a class="el" href="classMR_1_1TransformControls.html#aabdd9554a91963f82be2b0f4f3935e6a">MR::TransformControls</a></li>
-<li>updateSelectedPoints()&#160;:&#160;<a class="el" href="classMR_1_1ObjectPointsHolder.html#a887e143b291be915ac30c0325781824f">MR::ObjectPointsHolder</a></li>
 <li>updateSelection()&#160;:&#160;<a class="el" href="classMR_1_1ISceneSelectionChange.html#a0e5a18c4e15ba23a7536d1511cb823b6">MR::ISceneSelectionChange</a>, <a class="el" href="classMR_1_1SceneSelectionChangeClose.html#accb011d3020704157238d133e6ac990d">MR::SceneSelectionChangeClose</a>, <a class="el" href="classMR_1_1SceneSelectionChangeRestart.html#ae03b497a188281988804ecd125fd8f7c">MR::SceneSelectionChangeRestart</a></li>
 <li>updateSolver()&#160;:&#160;<a class="el" href="classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226">MR::Laplacian</a></li>
-<li>updateTexture()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a9c5c7b4fe6fd1293c104abbcef5dee72">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1SurfaceManipulationWidget.html#ae60bdd11677d2000b6deeb48ddfe3d6f">MR::SurfaceManipulationWidget</a></li>
+<li>updateTexture()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a9c5c7b4fe6fd1293c104abbcef5dee72">MR::ObjectMeshHolder</a></li>
 <li>updateTexturePerFace()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a01587efe8374921bfb24c7f40d3e48ea">MR::ObjectMeshHolder</a></li>
 <li>updateTextures()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a0834f40134c75b693c4475dc2ccbd4a0">MR::ObjectMeshHolder</a></li>
 <li>updateThemes()&#160;:&#160;<a class="el" href="classMR_1_1ViewerSettingsPlugin.html#ae579b363d0283ded6914225b425efd99">MR::ViewerSettingsPlugin</a></li>
@@ -192,7 +199,6 @@ $(function(){initNavTree('functions_func_u.html',''); initResizable(true); });
 <li>updateTransparencyTexturesSize()&#160;:&#160;<a class="el" href="classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9">MR::AlphaSortGL</a></li>
 <li>updateUserThemesList()&#160;:&#160;<a class="el" href="classMR_1_1ColorTheme.html#a0bcb053091eb10e1e15d24b17d15d379">MR::ColorTheme</a></li>
 <li>updateUVCoords()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a47088bf32314b542fdbe1975b00d6759">MR::ObjectMeshHolder</a></li>
-<li>updateUVs()&#160;:&#160;<a class="el" href="classMR_1_1SurfaceManipulationWidget.html#ac926b09e4e210e422759de45d1bf1524">MR::SurfaceManipulationWidget</a></li>
 <li>updateVdbVolume()&#160;:&#160;<a class="el" href="classMR_1_1ObjectVoxels.html#a90c1f592f11b44bf17a0306d54872421">MR::ObjectVoxels</a></li>
 <li>updateVertsColorMap()&#160;:&#160;<a class="el" href="classMR_1_1VisualObject.html#a4c44ad8ebd43db1ccbc850ec3c809591">MR::VisualObject</a></li>
 <li>updateVisualTransformMode()&#160;:&#160;<a class="el" href="classMR_1_1ITransformControls.html#a62f6fd6ec96955e73fecfa08474af010">MR::ITransformControls</a></li>
