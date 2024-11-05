@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[10,0,12,643,1],
-"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[12,0,1,628,1],
 "structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[10,0,12,643,2],
 "structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[12,0,1,628,2],
 "structMR_1_1TouchMoveListener.html":[10,0,12,645],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "structMR_1_1TriangulationParameters.html#a474b58f25243d6fbbaee08808d91e4cd":[9,13,1,5],
 "structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a":[9,13,1,0],
 "structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[9,13,1,2],
-"structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[9,13,1,4]
+"structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[9,13,1,4],
+"structMR_1_1TrimOptionalOutput.html":[10,0,12,664],
+"structMR_1_1TrimOptionalOutput.html":[12,0,1,649]
 };

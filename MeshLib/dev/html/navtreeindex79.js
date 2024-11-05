@@ -1,7 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21":[10,0,12,702,1,13],
-"structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21":[12,0,1,687,1,13],
 "structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94":[10,0,12,702,1,12],
 "structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94":[12,0,1,687,1,12],
 "structMR_1_1Viewport_1_1Parameters.html#a79a816e2ea798ee49a1d02cd65fc53a9":[10,0,12,702,1,15],
