@@ -387,7 +387,6 @@ var hierarchy =
     [ "ImGui::HistogramGridLine", "structImGui_1_1HistogramGridLine.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
-      [ "MR::AddPointActionPickerPoint", "classMR_1_1AddPointActionPickerPoint.html", null ],
       [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", null ],
       [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", null ],
       [ "MR::ChangeBoundarySelectionHistoryAction", "classMR_1_1ChangeBoundarySelectionHistoryAction.html", null ],
@@ -411,7 +410,6 @@ var hierarchy =
       [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", null ],
       [ "MR::ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", null ],
       [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", null ],
-      [ "MR::ChangePointActionPickerPoint", "classMR_1_1ChangePointActionPickerPoint.html", null ],
       [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", null ],
       [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", null ],
       [ "MR::ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html", null ],
@@ -432,8 +430,7 @@ var hierarchy =
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
-      [ "MR::RemovePointActionPickerPoint", "classMR_1_1RemovePointActionPickerPoint.html", null ],
-      [ "MR::SurfaceContoursWidgetClearAction", "classMR_1_1SurfaceContoursWidgetClearAction.html", null ],
+      [ "MR::SurfaceContoursWidget::WidgetHistoryAction", "structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ],
       [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", null ]
     ] ],

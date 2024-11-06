@@ -13,7 +13,7 @@ var searchData=
   ['hideinit_10',['HideInit',['../structMR_1_1LaunchParams.html#adf7ca51c8109714e1b6bbe600ab207fe',1,'MR::LaunchParams']]],
   ['hidpi_5fscaling_5f_11',['hidpi_scaling_',['../classMR_1_1ImGuiMenu.html#a56862fe69e7b443b52c3ec99d13981a0',1,'MR::ImGuiMenu']]],
   ['hintdirection_12',['hintDirection',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
-  ['historyspecification_13',['historySpecification',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#afd1f153be026ccd44397454e0d221cab',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
+  ['historynamesuffix_13',['historyNameSuffix',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ae497e46b3f35233ca235b4786f883540',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
   ['holeidx_14',['holeIdx',['../structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d',1,'MR::HoleEdgePoint']]],
   ['hollow_15',['hollow',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf',1,'MR::Features::Primitives::ConeSegment']]],
   ['home_16',['home',['../structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5',1,'MR::EmbeddedPython::Config']]],
