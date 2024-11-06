@@ -112,7 +112,7 @@ var classMR_1_1Viewer =
     [ "launch", "classMR_1_1Viewer.html#a5c5505e0b7ec40651dc41ce35b964c32", null ],
     [ "launchEventLoop", "classMR_1_1Viewer.html#ab149079b6cfab119f1d82274c7e54ac6", null ],
     [ "launchShut", "classMR_1_1Viewer.html#ab85b7bf9ec873e3253b2e214ced07544", null ],
-    [ "loadFiles", "classMR_1_1Viewer.html#ad31742000517e1bfa864d9b557eca6f4", null ],
+    [ "loadFiles", "classMR_1_1Viewer.html#aefae4dfaab33aca71884e929121c230a", null ],
     [ "makeTitleFromSceneRootPath", "classMR_1_1Viewer.html#ae46fc463954326092580c6471226d371", null ],
     [ "mouseClick", "classMR_1_1Viewer.html#a24fb1377eaabe916c15e03c1c11b83c7", null ],
     [ "mouseController", "classMR_1_1Viewer.html#aeacb3259b74669514d1c901f9ed2acfe", null ],

@@ -1,6 +1,7 @@
 var MRViewer_8h =
 [
     [ "MR::LaunchParams", "structMR_1_1LaunchParams.html", "structMR_1_1LaunchParams" ],
+    [ "MR::FileLoadOptions", "structMR_1_1FileLoadOptions.html", "structMR_1_1FileLoadOptions" ],
     [ "MR::Viewer", "classMR_1_1Viewer.html", "classMR_1_1Viewer" ],
     [ "ENQUEUE_VIEWER_METHOD", "MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db", null ],
     [ "ENQUEUE_VIEWER_METHOD_ARGS", "MRViewer_8h.html#a1a1151cfe48505fed9bdf9d94af7cbde", null ],
