@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -eo pipefail
 
 # generate customizable HTML parts
@@ -22,3 +22,9 @@ mv html_header.html.tmp html_header.html
 sed \
     -e "s/HTML_HEADER\s*=.*/HTML_HEADER = html_header.html/" \
     -i.bak Doxyfile
+
+# force Doxygen to use the custom output directory
+if [ $1 ] 
+then
+sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1|" -i Doxyfile
+fi

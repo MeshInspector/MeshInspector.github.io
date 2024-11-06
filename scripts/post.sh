@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # remove temporary files
 rm html_header.html html_footer.html html_stylesheet.css
