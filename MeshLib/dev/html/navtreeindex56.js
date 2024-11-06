@@ -1,7 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"namespaceMR_1_1SelfIntersections.html":[10,0,12,34],
-"namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[10,0,12,34,1],
 "namespaceMR_1_1SelfIntersections.html#aea449a398c4999edebba068358686684":[10,0,12,34,2],
 "namespaceMR_1_1StyleConsts.html":[10,0,12,35],
 "namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[10,0,12,35,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX56 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[12,0,0,0,3],
 "structImGui_1_1HistogramGridLine.html":[10,0,1,1],
 "structImGui_1_1HistogramGridLine.html":[12,0,0,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[10,0,1,1,1]
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[10,0,1,1,1],
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[12,0,0,1,1],
+"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[10,0,1,1,0]
 };

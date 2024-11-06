@@ -1,7 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1ProgressInterrupter.html":[10,0,12,485],
-"structMR_1_1ProgressInterrupter.html":[12,0,1,470],
 "structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[10,0,12,485,1],
 "structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[12,0,1,470,1],
 "structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[10,0,12,485,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX72 =
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[10,0,12,528,0,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[12,0,1,513,0,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[10,0,12,528,0,1],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[12,0,1,513,0,1]
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[12,0,1,513,0,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[10,0,12,528,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[12,0,1,513,1]
 };

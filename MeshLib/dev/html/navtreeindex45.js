@@ -1,7 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"classMR_1_1WatershedGraph.html#aef299dd01113f7319f2969d20c2115a5":[12,0,1,710,15],
-"classMR_1_1WebRequest.html":[10,0,12,726],
 "classMR_1_1WebRequest.html":[12,0,1,711],
 "classMR_1_1WebRequest.html#a0c2440df6c9d9b3806dc3b0158a7df02":[10,0,12,726,16],
 "classMR_1_1WebRequest.html#a0c2440df6c9d9b3806dc3b0158a7df02":[12,0,1,711,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX45 =
 "globals_b.html":[13,1,0,2],
 "globals_c.html":[13,1,0,3],
 "globals_d.html":[13,1,0,4],
-"globals_defs.html":[13,1,6]
+"globals_defs.html":[13,1,6],
+"globals_e.html":[13,1,0,5],
+"globals_enum.html":[13,1,4]
 };

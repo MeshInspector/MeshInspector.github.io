@@ -1,7 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a42b9955e23ce28c95ebdc5c3c78dae7f":[12,0,1,607,0,2],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3":[10,0,12,622,0,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3":[12,0,1,607,0,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[10,0,12,622,0,0,1],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[12,0,1,607,0,0,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX75 =
 "structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[10,0,12,644,1],
 "structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[12,0,1,629,1],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[10,0,12,645],
-"structMR_1_1TouchpadRotateGestureBeginListener.html":[12,0,1,630]
+"structMR_1_1TouchpadRotateGestureBeginListener.html":[12,0,1,630],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[10,0,12,645,1],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[12,0,1,630,1]
 };

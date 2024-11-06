@@ -91,7 +91,7 @@ var searchData=
   ['on_20windows_88',['Build with VS2019 or VS2022 on Windows',['../index.html#HomePageBuildWin',1,'']]],
   ['onbuttonclick_89',['OnButtonClick',['../structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a',1,'MR::RibbonNotification']]],
   ['onbuttonclick_90',['onButtonClick',['../structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e',1,'MR::RibbonNotification']]],
-  ['onchanged_91',['onChanged',['../classMR_1_1ColorTheme.html#a28c414812bc41e73acda130004569a41',1,'MR::ColorTheme']]],
+  ['onchanged_91',['onChanged',['../classMR_1_1ColorTheme.html#a1b86b0353c7e246e58746a652441cbda',1,'MR::ColorTheme']]],
   ['oncharpressed_5f_92',['onCharPressed_',['../classMR_1_1ImGuiMenu.html#a7906a1932a537af9cea6a47dcc68a00d',1,'MR::ImGuiMenu::onCharPressed_()'],['../structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87',1,'MR::CharPressedListener::onCharPressed_()']]],
   ['ondirectionchangedcallback_93',['OnDirectionChangedCallback',['../classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275',1,'MR::DirectionWidget']]],
   ['ondisable_5f_94',['onDisable_',['../classMR_1_1MoveObjectByMouse.html#a71368bcc18bdc5ca465c55ffc7f9681e',1,'MR::MoveObjectByMouse::onDisable_()'],['../classMR_1_1StateBasePlugin.html#a31980ff25e0e7e77cf8ace037ddd9f68',1,'MR::StateBasePlugin::onDisable_()']]],

@@ -1,7 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classMR_1_1PlaneWidget.html#a5e5888ffe0449bd3506d380684a6d9d2":[12,0,1,422,10],
-"classMR_1_1PlaneWidget.html#a7d294182208228c5d470252b4f032dc7":[10,0,12,437,5],
 "classMR_1_1PlaneWidget.html#a7d294182208228c5d470252b4f032dc7":[12,0,1,422,5],
 "classMR_1_1PlaneWidget.html#a834649aad5bbd6ae1247ffa8a4afecce":[10,0,12,437,7],
 "classMR_1_1PlaneWidget.html#a834649aad5bbd6ae1247ffa8a4afecce":[12,0,1,422,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX31 =
 "classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[12,0,1,475,0],
 "classMR_1_1QuadricApprox.html":[9,0,14],
 "classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3":[9,0,14,2],
-"classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[9,0,14,1]
+"classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[9,0,14,1],
+"classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51":[9,0,14,0],
+"classMR_1_1RadiusMeasurementObject.html":[10,0,12,492]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8":[10,0,12,678,7],
-"structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8":[12,0,1,663,7],
 "structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e":[10,0,12,678,1],
 "structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e":[12,0,1,663,1],
 "structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[10,0,12,678,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX78 =
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911":[10,0,12,699,2,2],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911":[12,0,1,684,2,2],
 "structMR_1_1Viewport_1_1TriCornerColors.html":[10,0,12,699,3],
-"structMR_1_1Viewport_1_1TriCornerColors.html":[12,0,1,684,3]
+"structMR_1_1Viewport_1_1TriCornerColors.html":[12,0,1,684,3],
+"structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542":[10,0,12,699,3,2],
+"structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542":[12,0,1,684,3,2]
 };

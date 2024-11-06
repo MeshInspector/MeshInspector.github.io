@@ -1,7 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[10,0,12,528,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[12,0,1,513,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[10,0,12,528,1,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[12,0,1,513,1,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[10,0,12,528,1,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX73 =
 "structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[10,0,12,589,4],
 "structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[12,0,1,574,4],
 "structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[10,0,12,589,3],
-"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[12,0,1,574,3]
+"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[12,0,1,574,3],
+"structMR_1_1SharpOffsetParameters.html#afb1d63d46e98d00f4c3560f3eb55b99b":[10,0,12,589,2],
+"structMR_1_1SharpOffsetParameters.html#afb1d63d46e98d00f4c3560f3eb55b99b":[12,0,1,574,2]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0":[10,0,12,526,7],
-"classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0":[12,0,1,511,7],
 "classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a":[10,0,12,526,6],
 "classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a":[12,0,1,511,6],
 "classMR_1_1RibbonIcons.html":[10,0,12,527],
@@ -249,5 +247,7 @@ var NAVTREEINDEX35 =
 "classMR_1_1RibbonNotifier.html#ab63838c73f526f97b5d11fd8d3c7237d":[10,0,12,534,3],
 "classMR_1_1RibbonNotifier.html#ab63838c73f526f97b5d11fd8d3c7237d":[12,0,1,519,3],
 "classMR_1_1RibbonSceneHideAll.html":[10,0,12,535],
-"classMR_1_1RibbonSceneHideAll.html":[12,0,1,520]
+"classMR_1_1RibbonSceneHideAll.html":[12,0,1,520],
+"classMR_1_1RibbonSceneHideAll.html#a0def4f1bcd0f4172df41c9b8b2858f40":[10,0,12,535,2],
+"classMR_1_1RibbonSceneHideAll.html#a0def4f1bcd0f4172df41c9b8b2858f40":[12,0,1,520,2]
 };

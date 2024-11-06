@@ -73,6 +73,5 @@ var classMR_1_1ColorTheme =
       [ "Background", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcaa9ded1e5ce5d75814730bb4caaf49419", null ],
       [ "Borders", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476", null ],
       [ "Count", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9", null ]
-    ] ],
-    [ "onChanged", "classMR_1_1ColorTheme.html#a28c414812bc41e73acda130004569a41", null ]
+    ] ]
 ];

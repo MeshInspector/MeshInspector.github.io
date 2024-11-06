@@ -137,7 +137,6 @@ $(function(){initNavTree('classMR_1_1ColorTheme.html',''); initResizable(true); 
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1ColorTheme-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ColorTheme Class Reference</div></div>
@@ -239,12 +238,6 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:a91b6b928ca7f490fdd396c347347bcdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a28c414812bc41e73acda130004569a41" id="r_a28c414812bc41e73acda130004569a41"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c414812bc41e73acda130004569a41">onChanged</a> (const boost::function&lt; void()&gt; &amp;slot, boost::signals2::connect_position <a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a>=boost::signals2::at_back)</td></tr>
-<tr class="memdesc:a28c414812bc41e73acda130004569a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply.  <br /></td></tr>
-<tr class="separator:a28c414812bc41e73acda130004569a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a15699e42dc7a6e8fc8c45c6adbe410cb" id="r_a15699e42dc7a6e8fc8c45c6adbe410cb"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1ColorTheme.html">ColorTheme</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15699e42dc7a6e8fc8c45c6adbe410cb">instance</a> ()</td></tr>
@@ -297,6 +290,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a569785effc8f8f3c1c78f9ea3ab25c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af27347c90aa80168a890bdb58f2d0423" id="r_af27347c90aa80168a890bdb58f2d0423"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af27347c90aa80168a890bdb58f2d0423">resetImGuiStyle</a> ()</td></tr>
 <tr class="separator:af27347c90aa80168a890bdb58f2d0423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b86b0353c7e246e58746a652441cbda" id="r_a1b86b0353c7e246e58746a652441cbda"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b86b0353c7e246e58746a652441cbda">onChanged</a> (const std::function&lt; void()&gt; &amp;slot, boost::signals2::connect_position <a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a>=boost::signals2::at_back)</td></tr>
+<tr class="memdesc:a1b86b0353c7e246e58746a652441cbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply.  <br /></td></tr>
+<tr class="separator:a1b86b0353c7e246e58746a652441cbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="abbecc6afa53db91ada45757b845b5514" name="abbecc6afa53db91ada45757b845b5514"></a>
@@ -787,16 +783,19 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a28c414812bc41e73acda130004569a41" name="a28c414812bc41e73acda130004569a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28c414812bc41e73acda130004569a41">&#9670;&#160;</a></span>onChanged()</h2>
+<a id="a1b86b0353c7e246e58746a652441cbda" name="a1b86b0353c7e246e58746a652441cbda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b86b0353c7e246e58746a652441cbda">&#9670;&#160;</a></span>onChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API boost::signals2::connection MR::ColorTheme::onChanged </td>
+          <td class="memname">static MRVIEWER_API boost::signals2::connection MR::ColorTheme::onChanged </td>
           <td>(</td>
-          <td class="paramtype">const boost::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
+          <td class="paramtype">const std::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -804,6 +803,11 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramtype">boost::signals2::connect_position</td>          <td class="paramname"><span class="paramname"><em>position</em></span><span class="paramdefsep"> = </span><span class="paramdefval">boost::signals2::at_back</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply. </p>

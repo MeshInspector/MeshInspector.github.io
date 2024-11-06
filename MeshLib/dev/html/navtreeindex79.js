@@ -1,7 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542":[10,0,12,699,3,2],
-"structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542":[12,0,1,684,3,2],
 "structMR_1_1Viewport_1_1TriCornerColors.html#a4bb6813b4c01f5510e20837676efa7ae":[10,0,12,699,3,1],
 "structMR_1_1Viewport_1_1TriCornerColors.html#a4bb6813b4c01f5510e20837676efa7ae":[12,0,1,684,3,1],
 "structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[10,0,12,699,3,0],
