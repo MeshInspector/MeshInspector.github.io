@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0":[10,0,12,525,7],
 "classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0":[12,0,1,510,7],
 "classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a":[10,0,12,525,6],
 "classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a":[12,0,1,510,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1RibbonNotifier.html#ab63838c73f526f97b5d11fd8d3c7237d":[10,0,12,533,3],
 "classMR_1_1RibbonNotifier.html#ab63838c73f526f97b5d11fd8d3c7237d":[12,0,1,518,3],
 "classMR_1_1RibbonSceneHideAll.html":[10,0,12,534],
-"classMR_1_1RibbonSceneHideAll.html":[12,0,1,519],
-"classMR_1_1RibbonSceneHideAll.html#a0def4f1bcd0f4172df41c9b8b2858f40":[10,0,12,534,2]
+"classMR_1_1RibbonSceneHideAll.html":[12,0,1,519]
 };

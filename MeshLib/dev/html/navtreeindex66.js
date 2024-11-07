@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MarchingCubesParams.html#af89d2fd3445045a9e4e4387b69f8d786":[12,0,1,297,8],
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html":[10,0,12,313,0],
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html":[12,0,1,298,0],
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html#aa5bbaf41ee00c68fce4b46c405457cda":[10,0,12,313,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Mesh.html#ab6d39814aa495e12ba8e388c22a6f12e":[9,7,0,21],
 "structMR_1_1Mesh.html#abab2d759266b7e751ef91845d21afd98":[9,7,0,11],
 "structMR_1_1Mesh.html#abd6e569587fbe83e40119a29f7ea276f":[9,7,0,79],
-"structMR_1_1Mesh.html#abd8119f3200435e62435f6ec375d98c1":[9,7,0,6],
-"structMR_1_1Mesh.html#abdbd41edd56e7e2c65589e9d7b0687fa":[9,7,0,37]
+"structMR_1_1Mesh.html#abd8119f3200435e62435f6ec375d98c1":[9,7,0,6]
 };

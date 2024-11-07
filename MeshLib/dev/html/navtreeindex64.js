@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1IConnectable.html":[12,0,1,240],
 "structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[10,0,12,255,1],
 "structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[12,0,1,240,1],
 "structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[10,0,12,255,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[12,0,1,257,1],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[10,0,12,272,0],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[12,0,1,257,0],
-"structMR_1_1InSphereSearchSettings.html":[10,0,12,273],
-"structMR_1_1InSphereSearchSettings.html":[12,0,1,258]
+"structMR_1_1InSphereSearchSettings.html":[10,0,12,273]
 };

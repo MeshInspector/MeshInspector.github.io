@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d":[12,0,1,639,10],
 "classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45":[10,0,12,654,4],
 "classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45":[12,0,1,639,4],
 "classMR_1_1UI_1_1LabelRectAllocator.html":[10,0,12,37,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1Viewer.html#a35db98c7c205589452ad91374c79186d":[12,0,1,677,182],
 "classMR_1_1Viewer.html#a37ee4eadfecfb1fcbfa53f28f4adc284":[10,0,12,692,125],
 "classMR_1_1Viewer.html#a37ee4eadfecfb1fcbfa53f28f4adc284":[12,0,1,677,125],
-"classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[10,0,12,692,48],
-"classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[12,0,1,677,48]
+"classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[10,0,12,692,48]
 };

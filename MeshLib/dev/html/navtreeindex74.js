@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[10,0,12,587,6],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[12,0,1,572,6],
 "structMR_1_1ShellVertexInfo.html":[10,0,12,589],
 "structMR_1_1ShellVertexInfo.html":[12,0,1,574],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#ac072b93be7d076a5ecab7a5447632d0b":[12,0,1,606,0,7],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1":[10,0,12,621,0,1],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1":[12,0,1,606,0,1],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[10,0,12,621,0,6],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[12,0,1,606,0,6]
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[10,0,12,621,0,6]
 };

@@ -253,6 +253,7 @@ var group__HistoryGroup =
         [ "Undo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119", null ],
         [ "Redo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6", null ],
         [ "Clear", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2", null ],
+        [ "PopAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f", null ],
         [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]
       ] ],
       [ "~HistoryStore", "classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614", null ],
