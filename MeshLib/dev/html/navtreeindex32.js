@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1RadiusMeasurementObject.html":[10,0,12,491],
+"classMR_1_1RadiusMeasurementObject.html":[12,0,1,476],
+"classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67":[10,0,12,491,28],
 "classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67":[12,0,1,476,28],
 "classMR_1_1RadiusMeasurementObject.html#a0be49754a007bf700b3ce5e94f689de0":[10,0,12,491,16],
 "classMR_1_1RadiusMeasurementObject.html#a0be49754a007bf700b3ce5e94f689de0":[12,0,1,476,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a427bb02d4a2886310fa5784e637f8ba6":[10,0,12,29,5,2],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a427bb02d4a2886310fa5784e637f8ba6":[12,0,1,17,5,2],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a44b4da055074668472c0c6167666a668":[10,0,12,29,5,0],
-"classMR_1_1RenderDimensions_1_1RadiusTask.html#a44b4da055074668472c0c6167666a668":[12,0,1,17,5,0],
-"classMR_1_1RenderDistanceObject.html":[10,0,12,509],
-"classMR_1_1RenderDistanceObject.html":[12,0,1,494],
-"classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[10,0,12,509,0]
+"classMR_1_1RenderDimensions_1_1RadiusTask.html#a44b4da055074668472c0c6167666a668":[12,0,1,17,5,0]
 };

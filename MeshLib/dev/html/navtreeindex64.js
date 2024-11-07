@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[10,0,12,255,1],
+"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[12,0,1,240,1],
+"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[10,0,12,255,0],
+"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[12,0,1,240,0],
 "structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[10,0,12,255,2],
 "structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[12,0,1,240,2],
 "structMR_1_1IOFilter.html":[9,2,6,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[10,0,12,272,0],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[12,0,1,257,0],
 "structMR_1_1InSphereSearchSettings.html":[10,0,12,273],
-"structMR_1_1InSphereSearchSettings.html":[12,0,1,258],
-"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[10,0,12,273,0],
-"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[12,0,1,258,0],
-"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[10,0,12,273,1],
-"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[12,0,1,258,1]
+"structMR_1_1InSphereSearchSettings.html":[12,0,1,258]
 };

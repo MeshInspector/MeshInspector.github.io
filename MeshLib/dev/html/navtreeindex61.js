@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1DoubleOffsetSettings.html#a6efd8487cfb1467ad4247b7cea3fc74c":[12,0,1,168,7],
+"structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[10,0,12,183,4],
+"structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[12,0,1,168,4],
+"structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[10,0,12,183,0],
 "structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[12,0,1,168,0],
 "structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[10,0,12,183,2],
 "structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[12,0,1,168,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1FeatureObjectProjectPointResult.html#a3d380768a51a070f1546207b51956121":[10,0,12,207,0],
 "structMR_1_1FeatureObjectProjectPointResult.html#a3d380768a51a070f1546207b51956121":[12,0,1,192,0],
 "structMR_1_1FeatureObjectProjectPointResult.html#aaadfbfcace0b2432aceeaf49637c711f":[10,0,12,207,1],
-"structMR_1_1FeatureObjectProjectPointResult.html#aaadfbfcace0b2432aceeaf49637c711f":[12,0,1,192,1],
-"structMR_1_1FeatureObjectSharedProperty.html":[10,0,12,208],
-"structMR_1_1FeatureObjectSharedProperty.html":[12,0,1,193],
-"structMR_1_1FeatureObjectSharedProperty.html#a6180b92925783a60e6236c09f9967409":[10,0,12,208,1],
-"structMR_1_1FeatureObjectSharedProperty.html#a6180b92925783a60e6236c09f9967409":[12,0,1,193,1]
+"structMR_1_1FeatureObjectProjectPointResult.html#aaadfbfcace0b2432aceeaf49637c711f":[12,0,1,192,1]
 };

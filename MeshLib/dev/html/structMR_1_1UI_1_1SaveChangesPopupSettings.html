@@ -23,7 +23,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::QuadricApprox Class Reference</title>
+<title>MeshLib: MR::UI::SaveChangesPopupSettings Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,7 +109,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('classMR_1_1QuadricApprox.html',''); initResizable(true); });
+$(function(){initNavTree('structMR_1_1UI_1_1SaveChangesPopupSettings.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -136,128 +136,155 @@ $(function(){initNavTree('classMR_1_1QuadricApprox.html',''); initResizable(true
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="classMR_1_1QuadricApprox-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::QuadricApprox Class Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structMR_1_1UI_1_1SaveChangesPopupSettings-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::UI::SaveChangesPopupSettings Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRBestFitQuadric_8h_source.html">MRBestFitQuadric.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRUISaveChangesPopup_8h_source.html">MRUISaveChangesPopup.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ae270ffda4cb41173e3c68cdc4f52ad51" id="r_ae270ffda4cb41173e3c68cdc4f52ad51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae270ffda4cb41173e3c68cdc4f52ad51">QuadricApprox</a> ()</td></tr>
-<tr class="separator:ae270ffda4cb41173e3c68cdc4f52ad51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a342756aa48e8673901de34a1d494a186" id="r_a342756aa48e8673901de34a1d494a186"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a342756aa48e8673901de34a1d494a186">addPoint</a> (const Vector3d &amp;point, double weight=1.0)</td></tr>
-<tr class="memdesc:a342756aa48e8673901de34a1d494a186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds point to accumulation with weight.  <br /></td></tr>
-<tr class="separator:a342756aa48e8673901de34a1d494a186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cea7a7005e02a997a52d3b6cb12c0e3" id="r_a0cea7a7005e02a997a52d3b6cb12c0e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Eigen::Matrix&lt; double, 6, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cea7a7005e02a997a52d3b6cb12c0e3">calcBestCoefficients</a> () const</td></tr>
-<tr class="separator:a0cea7a7005e02a997a52d3b6cb12c0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3b30fafd105b242617b7b762edfad5e6" id="r_a3b30fafd105b242617b7b762edfad5e6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b30fafd105b242617b7b762edfad5e6">findZeroProjection</a> (const Eigen::Matrix&lt; double, 6, 1 &gt; &amp;coefs)</td></tr>
-<tr class="separator:a3b30fafd105b242617b7b762edfad5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:afe88334f75c2605ce27940f67c1a5448" id="r_afe88334f75c2605ce27940f67c1a5448"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe88334f75c2605ce27940f67c1a5448">scaling</a> = 1.0f</td></tr>
+<tr class="separator:afe88334f75c2605ce27940f67c1a5448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cd2f6a77d991bb28d74320269e1c849" id="r_a6cd2f6a77d991bb28d74320269e1c849"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cd2f6a77d991bb28d74320269e1c849">shortCloseText</a> = &quot;Close&quot;</td></tr>
+<tr class="separator:a6cd2f6a77d991bb28d74320269e1c849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ddd1fee272b8d5ab0de85e419cc5c9c" id="r_a1ddd1fee272b8d5ab0de85e419cc5c9c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ddd1fee272b8d5ab0de85e419cc5c9c">dontSaveText</a> = &quot;Don't Save&quot;</td></tr>
+<tr class="separator:a1ddd1fee272b8d5ab0de85e419cc5c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb9895320349dc61434ad43c17fd24a" id="r_a5fb9895320349dc61434ad43c17fd24a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fb9895320349dc61434ad43c17fd24a">saveTooltip</a> = &quot;Save current scene&quot;</td></tr>
+<tr class="separator:a5fb9895320349dc61434ad43c17fd24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a970fa69e216b42f681e9af3c57aee477" id="r_a970fa69e216b42f681e9af3c57aee477"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a970fa69e216b42f681e9af3c57aee477">dontSaveTooltip</a> = &quot;Donh't save current scene&quot;</td></tr>
+<tr class="separator:a970fa69e216b42f681e9af3c57aee477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf35d4bb097cddcc6c3ecb5bb79c1398" id="r_abf35d4bb097cddcc6c3ecb5bb79c1398"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf35d4bb097cddcc6c3ecb5bb79c1398">cancelTooltip</a> = &quot;Cansel&quot;</td></tr>
+<tr class="separator:abf35d4bb097cddcc6c3ecb5bb79c1398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229fd015ed069a04dae134c45b2ed91d" id="r_a229fd015ed069a04dae134c45b2ed91d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a229fd015ed069a04dae134c45b2ed91d">header</a></td></tr>
+<tr class="separator:a229fd015ed069a04dae134c45b2ed91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad890dd1aa255baed72ae0c64e0006c66" id="r_ad890dd1aa255baed72ae0c64e0006c66"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad890dd1aa255baed72ae0c64e0006c66">onOk</a> = {}</td></tr>
+<tr class="separator:ad890dd1aa255baed72ae0c64e0006c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Accumulate points and make best quadric approximation</p>
-<p><img class="formulaInl" alt="$ a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z $" src="form_1.png"/> </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae270ffda4cb41173e3c68cdc4f52ad51" name="ae270ffda4cb41173e3c68cdc4f52ad51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae270ffda4cb41173e3c68cdc4f52ad51">&#9670;&#160;</a></span>QuadricApprox()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abf35d4bb097cddcc6c3ecb5bb79c1398" name="abf35d4bb097cddcc6c3ecb5bb79c1398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf35d4bb097cddcc6c3ecb5bb79c1398">&#9670;&#160;</a></span>cancelTooltip</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::QuadricApprox::QuadricApprox </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td class="memname">std::string MR::UI::SaveChangesPopupSettings::cancelTooltip = &quot;Cansel&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a342756aa48e8673901de34a1d494a186" name="a342756aa48e8673901de34a1d494a186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a342756aa48e8673901de34a1d494a186">&#9670;&#160;</a></span>addPoint()</h2>
+<a id="a1ddd1fee272b8d5ab0de85e419cc5c9c" name="a1ddd1fee272b8d5ab0de85e419cc5c9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ddd1fee272b8d5ab0de85e419cc5c9c">&#9670;&#160;</a></span>dontSaveText</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::QuadricApprox::addPoint </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3d &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>weight</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0</span>&#160;)</td>
+          <td class="memname">std::string MR::UI::SaveChangesPopupSettings::dontSaveText = &quot;Don't Save&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds point to accumulation with weight. </p>
-
 </div>
 </div>
-<a id="a0cea7a7005e02a997a52d3b6cb12c0e3" name="a0cea7a7005e02a997a52d3b6cb12c0e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cea7a7005e02a997a52d3b6cb12c0e3">&#9670;&#160;</a></span>calcBestCoefficients()</h2>
+<a id="a970fa69e216b42f681e9af3c57aee477" name="a970fa69e216b42f681e9af3c57aee477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a970fa69e216b42f681e9af3c57aee477">&#9670;&#160;</a></span>dontSaveTooltip</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Eigen::Matrix&lt; double, 6, 1 &gt; MR::QuadricApprox::calcBestCoefficients </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td class="memname">std::string MR::UI::SaveChangesPopupSettings::dontSaveTooltip = &quot;Donh't save current scene&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Calculates best coefficients a, b, c, d a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z </p>
 
 </div>
 </div>
-<a id="a3b30fafd105b242617b7b762edfad5e6" name="a3b30fafd105b242617b7b762edfad5e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b30fafd105b242617b7b762edfad5e6">&#9670;&#160;</a></span>findZeroProjection()</h2>
+<a id="a229fd015ed069a04dae134c45b2ed91d" name="a229fd015ed069a04dae134c45b2ed91d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229fd015ed069a04dae134c45b2ed91d">&#9670;&#160;</a></span>header</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3d MR::QuadricApprox::findZeroProjection </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; double, 6, 1 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>coefs</em></span></td><td>)</td>
-          <td></td>
+          <td class="memname">std::string MR::UI::SaveChangesPopupSettings::header</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Finds projection of zero point to surface given by coefs: a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z </p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="MRBestFitQuadric_8h_source.html">MRBestFitQuadric.h</a></li>
+<a id="ad890dd1aa255baed72ae0c64e0006c66" name="ad890dd1aa255baed72ae0c64e0006c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad890dd1aa255baed72ae0c64e0006c66">&#9670;&#160;</a></span>onOk</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void()&gt; MR::UI::SaveChangesPopupSettings::onOk = {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fb9895320349dc61434ad43c17fd24a" name="a5fb9895320349dc61434ad43c17fd24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb9895320349dc61434ad43c17fd24a">&#9670;&#160;</a></span>saveTooltip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::UI::SaveChangesPopupSettings::saveTooltip = &quot;Save current scene&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe88334f75c2605ce27940f67c1a5448" name="afe88334f75c2605ce27940f67c1a5448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe88334f75c2605ce27940f67c1a5448">&#9670;&#160;</a></span>scaling</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::UI::SaveChangesPopupSettings::scaling = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6cd2f6a77d991bb28d74320269e1c849" name="a6cd2f6a77d991bb28d74320269e1c849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cd2f6a77d991bb28d74320269e1c849">&#9670;&#160;</a></span>shortCloseText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::UI::SaveChangesPopupSettings::shortCloseText = &quot;Close&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="MRUISaveChangesPopup_8h_source.html">MRUISaveChangesPopup.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1QuadricApprox.html">QuadricApprox</a></li>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1UI.html">UI</a></li><li class="navelem"><a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

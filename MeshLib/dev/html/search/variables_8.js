@@ -2,7 +2,7 @@ var searchData=
 [
   ['hardsmoothtetrahedrons_0',['hardSmoothTetrahedrons',['../structMR_1_1MeshRelaxParams.html#aeb8c3fee03385430c013562e6fafb17e',1,'MR::MeshRelaxParams']]],
   ['hash_1',['Hash',['../namespaceMR.html#a3e65b1f56010b420ea87dd02dfa0ec19',1,'MR']]],
-  ['header_2',['header',['../structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2',1,'MR::RibbonNotification']]],
+  ['header_2',['header',['../structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2',1,'MR::RibbonNotification::header'],['../structMR_1_1UI_1_1SaveChangesPopupSettings.html#a229fd015ed069a04dae134c45b2ed91d',1,'MR::UI::SaveChangesPopupSettings::header']]],
   ['headerquickaccesslist_3',['headerQuickAccessList',['../structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9',1,'MR::RibbonSchema']]],
   ['height_4',['height',['../classMR_1_1Cone3.html#a1837f049b2e30d91b8cc20a4109d7e87',1,'MR::Cone3::height'],['../structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0',1,'ImGui::CustomStatePluginWindowParameters::height'],['../structMR_1_1LaunchParams.html#aa761ccae3c2bc953581b4731e0ed39e4',1,'MR::LaunchParams::height']]],
   ['helpbtnfn_5',['helpBtnFn',['../structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98',1,'ImGui::CustomStatePluginWindowParameters']]],

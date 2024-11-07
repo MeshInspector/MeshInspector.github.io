@@ -1,5 +1,8 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1PlaneWidget.html#a7d294182208228c5d470252b4f032dc7":[10,0,12,436,5],
+"classMR_1_1PlaneWidget.html#a7d294182208228c5d470252b4f032dc7":[12,0,1,421,5],
+"classMR_1_1PlaneWidget.html#a834649aad5bbd6ae1247ffa8a4afecce":[10,0,12,436,7],
 "classMR_1_1PlaneWidget.html#a834649aad5bbd6ae1247ffa8a4afecce":[12,0,1,421,7],
 "classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d":[10,0,12,436,14],
 "classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d":[12,0,1,421,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1QuadricApprox.html":[9,0,14],
 "classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3":[9,0,14,2],
 "classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[9,0,14,1],
-"classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51":[9,0,14,0],
-"classMR_1_1RadiusMeasurementObject.html":[10,0,12,491],
-"classMR_1_1RadiusMeasurementObject.html":[12,0,1,476],
-"classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67":[10,0,12,491,28]
+"classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51":[9,0,14,0]
 };

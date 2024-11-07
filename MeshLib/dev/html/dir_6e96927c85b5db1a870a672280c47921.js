@@ -119,6 +119,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRTouchpadWin32Handler.h", "MRTouchpadWin32Handler_8h.html", null ],
     [ "MRUINonOverlappingLabels.h", "MRUINonOverlappingLabels_8h.html", "MRUINonOverlappingLabels_8h" ],
     [ "MRUIRectAllocator.h", "MRUIRectAllocator_8h.html", "MRUIRectAllocator_8h" ],
+    [ "MRUISaveChangesPopup.h", "MRUISaveChangesPopup_8h.html", "MRUISaveChangesPopup_8h" ],
     [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
     [ "MRUITestEngine.h", "MRUITestEngine_8h.html", "MRUITestEngine_8h" ],
     [ "MRUnits.h", "MRUnits_8h.html", "MRUnits_8h" ],

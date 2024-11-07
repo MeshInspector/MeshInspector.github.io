@@ -173,6 +173,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1RectAllocator.html">RectAllocator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1WindowRectAllocator.html">WindowRectAllocator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -198,6 +200,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5caf1537f165f3557d3f718bfb47a032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8782e9cded23844b3ae2138d6287b99c" id="r_a8782e9cded23844b3ae2138d6287b99c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1UI_1_1LabelRectAllocator.html">LabelRectAllocator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8782e9cded23844b3ae2138d6287b99c">getDefaultLabelRectAllocator</a> ()</td></tr>
 <tr class="separator:a8782e9cded23844b3ae2138d6287b99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1937d08c3cb699681eeb7fd4dde005e" id="r_af1937d08c3cb699681eeb7fd4dde005e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1937d08c3cb699681eeb7fd4dde005e">saveChangesPopup</a> (const char *str_id, const <a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:af1937d08c3cb699681eeb7fd4dde005e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d337a1adf7e16aaa08b683a6b65e886" id="r_a0d337a1adf7e16aaa08b683a6b65e886"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d337a1adf7e16aaa08b683a6b65e886">getTexture</a> (<a class="el" href="#a0a816a5d6ff63a4668d7a9b26bb0aaf6">TextureType</a> type)</td></tr>
 <tr class="separator:a0d337a1adf7e16aaa08b683a6b65e886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a986e400ed59dea0ae3e54284d9b8d110" id="r_a986e400ed59dea0ae3e54284d9b8d110"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a986e400ed59dea0ae3e54284d9b8d110">init</a> ()</td></tr>
@@ -2018,6 +2022,27 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::optional&lt; ImVec4 &gt;</td>          <td class="paramname"><span class="paramname"><em>labelColor</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1937d08c3cb699681eeb7fd4dde005e" name="af1937d08c3cb699681eeb7fd4dde005e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1937d08c3cb699681eeb7fd4dde005e">&#9670;&#160;</a></span>saveChangesPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::saveChangesPopup </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str_id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

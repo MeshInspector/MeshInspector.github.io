@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45":[10,0,12,654,4],
+"classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45":[12,0,1,639,4],
+"classMR_1_1UI_1_1LabelRectAllocator.html":[10,0,12,37,6],
 "classMR_1_1UI_1_1LabelRectAllocator.html":[12,0,1,23,5],
 "classMR_1_1UI_1_1LabelRectAllocator.html#a3b90eb278b5e53756c88dc2464876ed0":[10,0,12,37,6,0],
 "classMR_1_1UI_1_1LabelRectAllocator.html#a3b90eb278b5e53756c88dc2464876ed0":[12,0,1,23,5,0],
@@ -21,10 +24,10 @@ var NAVTREEINDEX40 =
 "classMR_1_1UI_1_1RectAllocator.html#a82d78572d266d3a2f29eadf99dd00f9e":[12,0,1,23,9,2],
 "classMR_1_1UI_1_1RectAllocator.html#ae453c167334b49a2d08f4bffa76c0fe2":[10,0,12,37,10,3],
 "classMR_1_1UI_1_1RectAllocator.html#ae453c167334b49a2d08f4bffa76c0fe2":[12,0,1,23,9,3],
-"classMR_1_1UI_1_1WindowRectAllocator.html":[10,0,12,37,11],
-"classMR_1_1UI_1_1WindowRectAllocator.html":[12,0,1,23,10],
-"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[10,0,12,37,11,0],
-"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[12,0,1,23,10,0],
+"classMR_1_1UI_1_1WindowRectAllocator.html":[10,0,12,37,12],
+"classMR_1_1UI_1_1WindowRectAllocator.html":[12,0,1,23,11],
+"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[10,0,12,37,12,0],
+"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[12,0,1,23,11,0],
 "classMR_1_1UndirectedEdgeIterator.html":[10,0,12,667],
 "classMR_1_1UndirectedEdgeIterator.html":[12,0,1,652],
 "classMR_1_1UndirectedEdgeIterator.html#a14b6e326990c49dd287dac693682485e":[10,0,12,667,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1Viewer.html#a37ee4eadfecfb1fcbfa53f28f4adc284":[10,0,12,692,125],
 "classMR_1_1Viewer.html#a37ee4eadfecfb1fcbfa53f28f4adc284":[12,0,1,677,125],
 "classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[10,0,12,692,48],
-"classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[12,0,1,677,48],
-"classMR_1_1Viewer.html#a4406c60c0ac846daf643a74003a00266":[10,0,12,692,173],
-"classMR_1_1Viewer.html#a4406c60c0ac846daf643a74003a00266":[12,0,1,677,173],
-"classMR_1_1Viewer.html#a442f3e2a28e10e8233b334037730020e":[10,0,12,692,16]
+"classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[12,0,1,677,48]
 };

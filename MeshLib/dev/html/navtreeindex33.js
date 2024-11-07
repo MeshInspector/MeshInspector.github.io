@@ -1,5 +1,8 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1RenderDistanceObject.html":[10,0,12,509],
+"classMR_1_1RenderDistanceObject.html":[12,0,1,494],
+"classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[10,0,12,509,0],
 "classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[12,0,1,494,0],
 "classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[10,0,12,509,1],
 "classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[12,0,1,494,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1RenderMeshObject.html#a8e4c0f111508fd26331871247ad7e055":[10,0,12,513,69],
 "classMR_1_1RenderMeshObject.html#a8e4c0f111508fd26331871247ad7e055":[12,0,1,498,69],
 "classMR_1_1RenderMeshObject.html#a8e555c261681a7483119dde9a5b3df25":[10,0,12,513,14],
-"classMR_1_1RenderMeshObject.html#a8e555c261681a7483119dde9a5b3df25":[12,0,1,498,14],
-"classMR_1_1RenderMeshObject.html#a8ec8db305432a9bd896e3ab72cfcd302":[10,0,12,513,18],
-"classMR_1_1RenderMeshObject.html#a8ec8db305432a9bd896e3ab72cfcd302":[12,0,1,498,18],
-"classMR_1_1RenderMeshObject.html#a8f3dc8d13b36124134b86d4e81519767":[10,0,12,513,70]
+"classMR_1_1RenderMeshObject.html#a8e555c261681a7483119dde9a5b3df25":[12,0,1,498,14]
 };
