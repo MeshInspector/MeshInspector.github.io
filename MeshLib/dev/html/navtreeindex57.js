@@ -1,8 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[12,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[10,0,1,1,2],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[12,0,0,1,2],
 "structImGui_1_1MultiDragRes.html":[10,0,1,2],
 "structImGui_1_1MultiDragRes.html":[12,0,0,2],
 "structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[10,0,1,2,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX57 =
 "structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[9,1,3,1],
 "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[9,1,3,0],
 "structMR_1_1AffineXf.html":[9,0,13],
-"structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595":[9,0,13,8]
+"structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595":[9,0,13,8],
+"structMR_1_1AffineXf.html#a122798f44f02f88d6fceeddd3f296c0c":[9,0,13,1],
+"structMR_1_1AffineXf.html#a186afe85bf17b3cb6a52b55f5af080bc":[9,0,13,7],
+"structMR_1_1AffineXf.html#a4f40e964b7034f2c0121f71a30bdf36e":[9,0,13,3]
 };

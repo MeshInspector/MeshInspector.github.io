@@ -613,7 +613,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); unlike <a class="el" href="group__DecimateGroup.html#gab0b1827b05aa2ba71b50b8793f989e03">decimateParallelMesh</a> it does not create copies of mesh regions, so may take less memory to operate; IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
 
 </div>
 </div>

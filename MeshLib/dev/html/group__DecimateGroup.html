@@ -153,9 +153,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateResult.html">MR::DecimateResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="#ga16a994862b0ba8f6a68c61463be0ed4e" title="Collapse edges in mesh region according to the settings.">MR::decimateMesh</a>.  <a href="structMR_1_1DecimateResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html">MR::DecimateParallelSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="#gab0b1827b05aa2ba71b50b8793f989e03" title="Collapse edges in mesh region according to the settings.">MR::decimateParallelMesh</a>.  <a href="structMR_1_1DecimateParallelSettings.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings&lt; V &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="#gaf0964e80dba508fbc0d34272d3192cb8" title="Collapse edges in the polyline according to the settings.">MR::decimatePolyline</a>.  <a href="structMR_1_1DecimatePolylineSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,9 +174,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga881bb2eecb81e65b51d1cb8a52340637" id="r_ga881bb2eecb81e65b51d1cb8a52340637"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga881bb2eecb81e65b51d1cb8a52340637">MR::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:ga881bb2eecb81e65b51d1cb8a52340637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <br /></td></tr>
 <tr class="separator:ga881bb2eecb81e65b51d1cb8a52340637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab0b1827b05aa2ba71b50b8793f989e03" id="r_gab0b1827b05aa2ba71b50b8793f989e03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab0b1827b05aa2ba71b50b8793f989e03">MR::decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:gab0b1827b05aa2ba71b50b8793f989e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in mesh region according to the settings.  <br /></td></tr>
-<tr class="separator:gab0b1827b05aa2ba71b50b8793f989e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0964e80dba508fbc0d34272d3192cb8" id="r_gaf0964e80dba508fbc0d34272d3192cb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0964e80dba508fbc0d34272d3192cb8">MR::decimatePolyline</a> (Polyline2 &amp;polyline, const <a class="el" href="namespaceMR.html#a6e7bbd2938192cd9a3d3616faa293ed9">DecimatePolylineSettings2</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gaf0964e80dba508fbc0d34272d3192cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the polyline according to the settings.  <br /></td></tr>
 <tr class="separator:gaf0964e80dba508fbc0d34272d3192cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,7 +304,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Collapse edges in mesh region according to the settings. </p>
-<p>Have version for parallel computing - <a class="el" href="#gab0b1827b05aa2ba71b50b8793f989e03">decimateParallelMesh</a></p>
+<p>Have version for parallel computing - decimateParallelMesh</p>
 <div class="image">
 <img src="decimate_before.png" alt="" width="350cm"/>
 <div class="caption">
@@ -319,34 +313,9 @@ Before</div></div>
 <img src="decimate_after.png" alt="" width="350cm"/>
 <div class="caption">
 After</div></div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="#gab0b1827b05aa2ba71b50b8793f989e03">decimateParallelMesh</a> </dd>
+<dl class="section see"><dt>See also</dt><dd>decimateParallelMesh </dd>
 <dd>
 <a class="el" href="#ga881bb2eecb81e65b51d1cb8a52340637">resolveMeshDegenerations</a> </dd></dl>
-
-</div>
-</div>
-<a id="gab0b1827b05aa2ba71b50b8793f989e03" name="gab0b1827b05aa2ba71b50b8793f989e03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab0b1827b05aa2ba71b50b8793f989e03">&#9670;&#160;</a></span>decimateParallelMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a> MR::decimateParallelMesh </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Collapse edges in mesh region according to the settings. </p>
-<p>Analog of decimateMesh for parallel computing. If accuracy is preferable to speed, use <a class="el" href="#ga16a994862b0ba8f6a68c61463be0ed4e">decimateMesh</a>. Limitations: 1) original FaceIds and EdgeIds are not preserved; 2) multiple edges are not supported.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="#ga16a994862b0ba8f6a68c61463be0ed4e">decimateMesh</a> </dd></dl>
 
 </div>
 </div>

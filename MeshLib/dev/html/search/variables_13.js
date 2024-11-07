@@ -71,7 +71,7 @@ var searchData=
   ['touchbdverts_68',['touchBdVerts',['../structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e',1,'MR::DecimateSettings::touchBdVerts'],['../structMRDecimateSettings.html#a9b4ec1883fa5a1aa043899f0151b85ea',1,'MRDecimateSettings::touchBdVerts']]],
   ['touchendsignal_69',['touchEndSignal',['../classMR_1_1Viewer.html#a60764bea45c4611d5503e08c56343884',1,'MR::Viewer']]],
   ['touchmovesignal_70',['touchMoveSignal',['../classMR_1_1Viewer.html#af7ea8952ac1b288e433a45fab542197f',1,'MR::Viewer']]],
-  ['touchnearbdedges_71',['touchNearBdEdges',['../structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e',1,'MR::DecimateSettings::touchNearBdEdges'],['../structMR_1_1DecimateParallelSettings.html#a719fd646bf50bc2582fbf39d3f3a6ac4',1,'MR::DecimateParallelSettings::touchNearBdEdges'],['../structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a',1,'MRDecimateSettings::touchNearBdEdges']]],
+  ['touchnearbdedges_71',['touchNearBdEdges',['../structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e',1,'MR::DecimateSettings::touchNearBdEdges'],['../structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a',1,'MRDecimateSettings::touchNearBdEdges']]],
   ['touchpadrotategesturebeginsignal_72',['touchpadRotateGestureBeginSignal',['../classMR_1_1Viewer.html#a099f25f5c01c7dab623de4213fc3f537',1,'MR::Viewer']]],
   ['touchpadrotategestureendsignal_73',['touchpadRotateGestureEndSignal',['../classMR_1_1Viewer.html#a8ccb109914abd8045ab1b63aa01f96ca',1,'MR::Viewer']]],
   ['touchpadrotategestureupdatesignal_74',['touchpadRotateGestureUpdateSignal',['../classMR_1_1Viewer.html#a1664fe6806ea8c61b2e41b536c6f504c',1,'MR::Viewer']]],

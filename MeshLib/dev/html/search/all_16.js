@@ -195,7 +195,7 @@ var searchData=
   ['touchmove_192',['touchMove',['../classMR_1_1Viewer.html#a618fa955d63e2e54e7d36d0b5488fe79',1,'MR::Viewer']]],
   ['touchmovelistener_193',['TouchMoveListener',['../structMR_1_1TouchMoveListener.html',1,'MR']]],
   ['touchmovesignal_194',['touchMoveSignal',['../classMR_1_1Viewer.html#af7ea8952ac1b288e433a45fab542197f',1,'MR::Viewer']]],
-  ['touchnearbdedges_195',['touchNearBdEdges',['../structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e',1,'MR::DecimateSettings::touchNearBdEdges'],['../structMR_1_1DecimateParallelSettings.html#a719fd646bf50bc2582fbf39d3f3a6ac4',1,'MR::DecimateParallelSettings::touchNearBdEdges'],['../structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a',1,'MRDecimateSettings::touchNearBdEdges']]],
+  ['touchnearbdedges_195',['touchNearBdEdges',['../structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e',1,'MR::DecimateSettings::touchNearBdEdges'],['../structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a',1,'MRDecimateSettings::touchNearBdEdges']]],
   ['touchpadcontroller_196',['TouchpadController',['../classMR_1_1TouchpadController.html',1,'MR']]],
   ['touchpadgesturebeginsignal_197',['TouchpadGestureBeginSignal',['../classMR_1_1Viewer.html#a46f94e450b4fb564b98d42a724da2323',1,'MR::Viewer']]],
   ['touchpadgestureendsignal_198',['TouchpadGestureEndSignal',['../classMR_1_1Viewer.html#aba9607310839692ff2fa39f1461c0798',1,'MR::Viewer']]],

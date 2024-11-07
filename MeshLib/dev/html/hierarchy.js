@@ -272,7 +272,6 @@ var hierarchy =
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", null ],
     [ "MR::Cylinder3< T >", "classMR_1_1Cylinder3.html", null ],
     [ "MR::Cylinder3Approximation< T >", "classMR_1_1Cylinder3Approximation.html", null ],
-    [ "MR::DecimateParallelSettings", "structMR_1_1DecimateParallelSettings.html", null ],
     [ "MR::DecimatePolylineResult", "structMR_1_1DecimatePolylineResult.html", null ],
     [ "MR::DecimatePolylineSettings< V >", "structMR_1_1DecimatePolylineSettings.html", null ],
     [ "MR::DecimateResult", "structMR_1_1DecimateResult.html", null ],

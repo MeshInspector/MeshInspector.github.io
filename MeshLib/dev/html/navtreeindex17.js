@@ -1,7 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"classMR_1_1CircleObject.html#a96496ee95759ab735c258bd759a95719":[9,11,0,0,7],
-"classMR_1_1CircleObject.html#ababfe6f501a0f05c1a79a789d2d53781":[9,11,0,0,18],
 "classMR_1_1CircleObject.html#abec5f0f71f858d015c3d3f59b521962e":[9,11,0,0,3],
 "classMR_1_1CircleObject.html#abf3f59a6892bcb043c2d8c478365293f":[9,11,0,0,1],
 "classMR_1_1CircleObject.html#ae7df056fbd3aea6277637d8a1e9f6a01":[9,11,0,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX17 =
 "classMR_1_1ConeObject.html#a522ae3f23c5e5d57e85a58e5518145eb":[9,11,0,1,4],
 "classMR_1_1ConeObject.html#a52991f3f7e3f80d675e98736f33e1e23":[9,11,0,1,13],
 "classMR_1_1ConeObject.html#a576b9eda88516f812a400bea81f5fb17":[9,11,0,1,26],
-"classMR_1_1ConeObject.html#a58e25e035e9759982d74478c83f688b9":[9,11,0,1,24]
+"classMR_1_1ConeObject.html#a58e25e035e9759982d74478c83f688b9":[9,11,0,1,24],
+"classMR_1_1ConeObject.html#a615d94d3d0d7edc5f0572b37b99a2a3c":[9,11,0,1,6],
+"classMR_1_1ConeObject.html#a7562b1accb4c2fb95e6bc3fcb69d4370":[9,11,0,1,23]
 };

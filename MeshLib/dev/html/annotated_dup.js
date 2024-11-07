@@ -315,7 +315,6 @@ var annotated_dup =
       [ "Cylinder3", "classMR_1_1Cylinder3.html", "classMR_1_1Cylinder3" ],
       [ "Cylinder3Approximation", "classMR_1_1Cylinder3Approximation.html", "classMR_1_1Cylinder3Approximation" ],
       [ "CylinderObject", "classMR_1_1CylinderObject.html", "classMR_1_1CylinderObject" ],
-      [ "DecimateParallelSettings", "structMR_1_1DecimateParallelSettings.html", "structMR_1_1DecimateParallelSettings" ],
       [ "DecimatePolylineResult", "structMR_1_1DecimatePolylineResult.html", "structMR_1_1DecimatePolylineResult" ],
       [ "DecimatePolylineSettings", "structMR_1_1DecimatePolylineSettings.html", "structMR_1_1DecimatePolylineSettings" ],
       [ "DecimateResult", "structMR_1_1DecimateResult.html", "structMR_1_1DecimateResult" ],

@@ -179,7 +179,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshComponents.h", "MRMeshComponents_8h.html", "MRMeshComponents_8h" ],
     [ "MRMeshDecimate.h", "MRMesh_2MRMeshDecimate_8h.html", "MRMesh_2MRMeshDecimate_8h" ],
     [ "MRMeshDecimateCallbacks.h", "MRMeshDecimateCallbacks_8h.html", "MRMeshDecimateCallbacks_8h" ],
-    [ "MRMeshDecimateParallel.h", "MRMeshDecimateParallel_8h.html", "MRMeshDecimateParallel_8h" ],
     [ "MRMeshDelete.h", "MRMeshDelete_8h.html", "MRMeshDelete_8h" ],
     [ "MRMeshDelone.h", "MRMeshDelone_8h.html", "MRMeshDelone_8h" ],
     [ "MRMeshDiff.h", "MRMeshDiff_8h.html", null ],
