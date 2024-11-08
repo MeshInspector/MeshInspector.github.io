@@ -159,25 +159,26 @@ $(function(){initNavTree('MRMeshC_2MRVector_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">    void* reserved1;                             \</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">} MR_VECTOR_CONCAT( MR, ClassName );             \</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">MRMESHC_API void MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), Invalidate )( MR_VECTOR_CONCAT( MR, ClassName )* ); \</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">MRMESHC_API void MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), Free )( MR_VECTOR_CONCAT( MR, ClassName )* );</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">MRMESHC_API void MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), Free )( MR_VECTOR_CONCAT( MR, ClassName )* ); \</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">MRMESHC_API MR_VECTOR_CONCAT( MR, ClassName )* MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), New )(void);</span></div>
 </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">   29</a></span><span class="preprocessor">#define MR_VECTOR_DECL( Type ) MR_VECTOR_LIKE_DECL( MR_VECTOR_CONCAT( Vector, Type ), Type )</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( AffineXf3f )</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( Vector3f )</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( FaceMap, FaceId )</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( WholeEdgeMap, EdgeId )</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( VertMap, VertId )</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MR_EXTERN_C_END</a></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">   30</a></span><span class="preprocessor">#define MR_VECTOR_DECL( Type ) MR_VECTOR_LIKE_DECL( MR_VECTOR_CONCAT( Vector, Type ), Type )</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( AffineXf3f )</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( Vector3f )</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( FaceMap, FaceId )</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( WholeEdgeMap, EdgeId )</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( VertMap, VertId )</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MR_EXTERN_C_END</a></div>
 <div class="ttc" id="aMRMeshC_2MRAffineXf_8h_html"><div class="ttname"><a href="MRMeshC_2MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRId_8h_html"><div class="ttname"><a href="MRMeshC_2MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a07cb85df391b65224a89339236e03c2e"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a></div><div class="ttdeci">#define MR_EXTERN_C_BEGIN</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:26</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a4c0dd57de0c70036b4a1e14f71d2fe11"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MR_EXTERN_C_END</a></div><div class="ttdeci">#define MR_EXTERN_C_END</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:27</div></div>
-<div class="ttc" id="aMRMeshC_2MRVector_8h_html_a3bffcd943d26953930bf9399b7da112d"><div class="ttname"><a href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a></div><div class="ttdeci">#define MR_VECTOR_DECL(Type)</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector.h:29</div></div>
+<div class="ttc" id="aMRMeshC_2MRVector_8h_html_a3bffcd943d26953930bf9399b7da112d"><div class="ttname"><a href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a></div><div class="ttdeci">#define MR_VECTOR_DECL(Type)</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector.h:30</div></div>
 <div class="ttc" id="aMRMeshC_2MRVector_8h_html_af14f0ba8d8f1501f0349bd464c23225c"><div class="ttname"><a href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a></div><div class="ttdeci">#define MR_VECTOR_LIKE_DECL(ClassName, Type)</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
