@@ -197,7 +197,7 @@ var searchData=
   ['visible_194',['Visible',['../namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192',1,'MR']]],
   ['visitedonthisframe_195',['visitedOnThisFrame',['../structMR_1_1UI_1_1TestEngine_1_1Entry.html#af1c045de66225bb1643e95fe69e9c370',1,'MR::UI::TestEngine::Entry']]],
   ['visual_20object_20group_196',['Visual Object group',['../group__VisualObjectGroup.html',1,'']]],
-  ['visualization_197',['visualization',['../ExamplePlotly.html',1,'Plotly visualization'],['../ExamplePythonPlotly.html',1,'Plotly visualization']]],
+  ['visualization_197',['Plotly visualization',['../ExamplePythonPlotly.html',1,'PythonCodeExamples']]],
   ['visuallengthmultiplier_198',['visualLengthMultiplier',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e',1,'MR::RenderDimensions::RadiusParams']]],
   ['visualobject_199',['VisualObject',['../classMR_1_1VisualObject.html',1,'MR::VisualObject'],['../classMR_1_1VisualObject.html#a248a0efabc82874bd29ca605c2fb7481',1,'MR::VisualObject::VisualObject()'],['../classMR_1_1VisualObject.html#a95016bb1aefebfa8952ac3457cc57ee4',1,'MR::VisualObject::VisualObject(VisualObject &amp;&amp;)=default'],['../classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763',1,'MR::VisualObject::VisualObject(ProtectedStruct, const VisualObject &amp;obj)'],['../classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee',1,'MR::VisualObject::VisualObject(const VisualObject &amp;obj)=default']]],
   ['visualparams_200',['VisualParams',['../structMR_1_1TransformControls_1_1VisualParams.html',1,'MR::TransformControls']]],

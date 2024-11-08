@@ -369,6 +369,7 @@ var annotated_dup =
       [ "FeatureObjectSharedProperty", "structMR_1_1FeatureObjectSharedProperty.html", "structMR_1_1FeatureObjectSharedProperty" ],
       [ "FewSmallest", "classMR_1_1FewSmallest.html", "classMR_1_1FewSmallest" ],
       [ "File", "classMR_1_1File.html", "classMR_1_1File" ],
+      [ "FileDialogSignals", "structMR_1_1FileDialogSignals.html", "structMR_1_1FileDialogSignals" ],
       [ "FileLoadOptions", "structMR_1_1FileLoadOptions.html", "structMR_1_1FileLoadOptions" ],
       [ "FileParameters", "structMR_1_1FileParameters.html", "structMR_1_1FileParameters" ],
       [ "FillHoleItem", "structMR_1_1FillHoleItem.html", "structMR_1_1FillHoleItem" ],

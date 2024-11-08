@@ -341,6 +341,7 @@ var hierarchy =
     [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", null ],
     [ "MR::FewSmallest< MR::PointsProjectionResult >", "classMR_1_1FewSmallest.html", null ],
     [ "MR::File", "classMR_1_1File.html", null ],
+    [ "MR::FileDialogSignals", "structMR_1_1FileDialogSignals.html", null ],
     [ "MR::FileLoadOptions", "structMR_1_1FileLoadOptions.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
