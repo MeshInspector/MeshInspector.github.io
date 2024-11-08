@@ -5,7 +5,7 @@ var searchData=
   ['yellow_2',['yellow',['../structMR_1_1Color.html#a7a15e2053da20914d242d21eb1486f30',1,'MR::Color']]],
   ['yes_3',['Yes',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435',1,'MR::Laplacian::Yes'],['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435',1,'MR::Yes']]],
   ['yesifalreadyconstructed_4',['YesIfAlreadyConstructed',['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83',1,'MR']]],
-  ['your_20application_20on_20meshlib_5',['Basing your application on MeshLib',['../MRBasedMainFunc.html',1,'HowToBasic']]],
+  ['your_20application_20on_20meshlib_5',['your application on MeshLib',['../BasedApplication.html',1,'Basing your application on MeshLib'],['../MRBasedMainFunc.html',1,'Basing your application on MeshLib']]],
   ['your_20first_20plugin_6',['How to make your first plugin',['../StatePluginsHelp.html#PluginCreation',1,'']]],
   ['yrange_7',['yRange',['../structMR_1_1MeshToDistanceMapParams.html#a3273bae2c4c112688b441a6aa4d0e811',1,'MR::MeshToDistanceMapParams']]],
   ['yw_8',['yw',['../structMR_1_1SymMatrix4.html#afb5ebef84a840cfde0e7c3faa69da4ab',1,'MR::SymMatrix4']]],
