@@ -35,7 +35,7 @@ var searchData=
   ['pixelxvec_32',['pixelXVec',['../structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c',1,'MR::DistanceMapToWorld']]],
   ['pixelyvec_33',['pixelYVec',['../structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc',1,'MR::DistanceMapToWorld']]],
   ['plane_34',['plane',['../structMR_1_1TrimWithPlaneParams.html#ac31ec54e79c7c73e956dd8f91eb4e37c',1,'MR::TrimWithPlaneParams::plane'],['../structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e',1,'MR::VoxelMetricParameters::plane']]],
-  ['plugin_5fname_35',['plugin_name',['../classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912',1,'MR::ViewerPlugin']]],
+  ['plugin_5fname_35',['plugin_name',['../classMR_1_1StateBasePlugin.html#a3e0c7bd65afe7b25c1f4be31e13ea0c5',1,'MR::StateBasePlugin']]],
   ['pluginitemspacing_36',['pluginItemSpacing',['../namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d',1,'MR::StyleConsts']]],
   ['plugins_37',['plugins',['../classMR_1_1Viewer.html#a25d26ec62da3276a69b3f8c516c98887',1,'MR::Viewer']]],
   ['pluginscache_5f_38',['pluginsCache_',['../classMR_1_1ImGuiMenu.html#a1692b4dceebf6d4a68e5bdfe0d553573',1,'MR::ImGuiMenu']]],
