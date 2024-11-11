@@ -186,7 +186,9 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">triangulated_pc = mm.triangulatePointCloud(pc)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Fix possible issues</span></div>
-<div class="line">triangulated_pc = mm.offsetMesh(triangulated_pc, 0.0)</div>
+<div class="line">offsetParams = mm.OffsetParameters()</div>
+<div class="line">offsetParams.voxelSize = mm.suggestVoxelSize( triangulated_pc, 5e6 )</div>
+<div class="line">triangulated_pc = mm.offsetMesh(triangulated_pc, 0.0, params=offsetParams)</div>
 </div><!-- fragment --></dd></dl>
 </li>
 </ul>
