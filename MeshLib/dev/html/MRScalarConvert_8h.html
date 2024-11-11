@@ -137,6 +137,7 @@ $(function(){initNavTree('MRScalarConvert_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRScalarConvert.h File Reference</div></div>
@@ -150,6 +151,11 @@ $(function(){initNavTree('MRScalarConvert_8h.html',''); initResizable(true); });
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ae65bae37c04df532c86990892b7a43b9" id="r_ae65bae37c04df532c86990892b7a43b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65bae37c04df532c86990892b7a43b9">M</a>(T)&#160;&#160;&#160;return f( *( const T* )( c ) );</td></tr>
+<tr class="separator:ae65bae37c04df532c86990892b7a43b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -179,7 +185,29 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a0230f1515e422e1010078d5ffd15f11f" id="r_a0230f1515e422e1010078d5ffd15f11f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::function&lt; float(const char *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0230f1515e422e1010078d5ffd15f11f">MR::getTypeConverter</a> (<a class="el" href="namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType, uint64_t range, int64_t min)</td></tr>
 <tr class="separator:a0230f1515e422e1010078d5ffd15f11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86505f58081c90fd8f92538bff1673b" id="r_ae86505f58081c90fd8f92538bff1673b"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:ae86505f58081c90fd8f92538bff1673b"><td class="memTemplItemLeft" align="right" valign="top">std::invoke_result_t&lt; F, int &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae86505f58081c90fd8f92538bff1673b">MR::visitScalarType</a> (F &amp;&amp;f, <a class="el" href="namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType, const char *c)</td></tr>
+<tr class="memdesc:ae86505f58081c90fd8f92538bff1673b"><td class="mdescLeft">&#160;</td><td class="mdescRight">More general template to pass a single value of specified format <code>scalarType</code> to a generic function <code>f</code>.  <br /></td></tr>
+<tr class="separator:ae86505f58081c90fd8f92538bff1673b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae65bae37c04df532c86990892b7a43b9" name="ae65bae37c04df532c86990892b7a43b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae65bae37c04df532c86990892b7a43b9">&#9670;&#160;</a></span>M</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define M</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>T</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;return f( *( const T* )( c ) );</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

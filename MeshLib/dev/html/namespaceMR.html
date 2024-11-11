@@ -5475,6 +5475,10 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:ae3f5900ab5832382ad11410977098452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0230f1515e422e1010078d5ffd15f11f" id="r_a0230f1515e422e1010078d5ffd15f11f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::function&lt; float(const char *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0230f1515e422e1010078d5ffd15f11f">getTypeConverter</a> (<a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType, uint64_t range, int64_t min)</td></tr>
 <tr class="separator:a0230f1515e422e1010078d5ffd15f11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86505f58081c90fd8f92538bff1673b" id="r_ae86505f58081c90fd8f92538bff1673b"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:ae86505f58081c90fd8f92538bff1673b"><td class="memTemplItemLeft" align="right" valign="top">std::invoke_result_t&lt; F, int &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae86505f58081c90fd8f92538bff1673b">visitScalarType</a> (F &amp;&amp;f, <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType, const char *c)</td></tr>
+<tr class="memdesc:ae86505f58081c90fd8f92538bff1673b"><td class="mdescLeft">&#160;</td><td class="mdescRight">More general template to pass a single value of specified format <code>scalarType</code> to a generic function <code>f</code>.  <br /></td></tr>
+<tr class="separator:ae86505f58081c90fd8f92538bff1673b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f5f81ba8aa5012048922f0bd323851" id="r_a58f5f81ba8aa5012048922f0bd323851"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58f5f81ba8aa5012048922f0bd323851">sortScansByOrder</a> (std::vector&lt; std::filesystem::path &gt; &amp;scans, std::vector&lt; <a class="el" href="structMR_1_1SliceInfo.html">SliceInfo</a> &gt; &amp;zOrder)</td></tr>
 <tr class="memdesc:a58f5f81ba8aa5012048922f0bd323851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort scan files in given vector by given slice information.  <br /></td></tr>
 <tr class="separator:a58f5f81ba8aa5012048922f0bd323851"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -29898,6 +29902,36 @@ template&lt;detail::Units::Scalar T&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>performs sampling of mesh vertices; subdivides mesh bounding box on voxels of approximately given size and returns at most one vertex per voxel; returns std::nullopt if it was terminated by the callback </p>
+
+</div>
+</div>
+<a id="ae86505f58081c90fd8f92538bff1673b" name="ae86505f58081c90fd8f92538bff1673b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86505f58081c90fd8f92538bff1673b">&#9670;&#160;</a></span>visitScalarType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::invoke_result_t&lt; F, int &gt; MR::visitScalarType </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a></td>          <td class="paramname"><span class="paramname"><em>scalarType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>More general template to pass a single value of specified format <code>scalarType</code> to a generic function <code>f</code>. </p>
 
 </div>
 </div>

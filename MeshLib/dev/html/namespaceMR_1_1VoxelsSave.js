@@ -6,7 +6,7 @@ var namespaceMR_1_1VoxelsSave =
     [ "saveSliceToImage", "group__IOGroup.html#ga71f97bec2215ef7c561b5de6d82dfe53", null ],
     [ "toAnySupportedFormat", "group__IOGroup.html#ga479f7166483b9a6ae878a9eaaaf3b2c2", null ],
     [ "toDCM", "namespaceMR_1_1VoxelsSave.html#aa83a208321660dcd58dba3293c1ffcca", null ],
-    [ "toDCM", "namespaceMR_1_1VoxelsSave.html#acc51fa915211cf7d481cd368367c34f6", null ],
+    [ "toDCM", "namespaceMR_1_1VoxelsSave.html#ade2513e672fcd5673f708b6c35e86e89", null ],
     [ "toGav", "group__IOGroup.html#gad119eb5a04825967c784f81d0add0afe", null ],
     [ "toGav", "group__IOGroup.html#ga3fc609b9748c17d4d66dba1569809141", null ],
     [ "toGav", "group__IOGroup.html#ga83684442a0c8442dd692b127a40080a0", null ],

@@ -11,5 +11,5 @@ var MRDicom_8h =
     [ "loadDicomFolder", "MRDicom_8h.html#a5af203b157c0742a80e06812bab4d73f", null ],
     [ "loadDicomsFolder", "MRDicom_8h.html#a191bfc170e935b4d3114da44095f93f5", null ],
     [ "toDCM", "MRDicom_8h.html#aa83a208321660dcd58dba3293c1ffcca", null ],
-    [ "toDCM", "MRDicom_8h.html#acc51fa915211cf7d481cd368367c34f6", null ]
+    [ "toDCM", "MRDicom_8h.html#ade2513e672fcd5673f708b6c35e86e89", null ]
 ];

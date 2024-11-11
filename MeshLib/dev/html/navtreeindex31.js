@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1PlaneWidget.html#a5af9b5613a5158a835792759b5058f58":[12,0,1,422,1],
+"classMR_1_1PlaneWidget.html#a5cf8968515531c2adac47a2f1b342235":[10,0,12,437,2],
 "classMR_1_1PlaneWidget.html#a5cf8968515531c2adac47a2f1b342235":[12,0,1,422,2],
 "classMR_1_1PlaneWidget.html#a5e5888ffe0449bd3506d380684a6d9d2":[10,0,12,437,10],
 "classMR_1_1PlaneWidget.html#a5e5888ffe0449bd3506d380684a6d9d2":[12,0,1,422,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1QuadTextureVertexObject.html#a091185a94f7c1bd1bf1bfac2f6bbcee9":[12,0,1,475,2],
 "classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[10,0,12,490,1],
 "classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[12,0,1,475,1],
-"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[10,0,12,490,0],
-"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[12,0,1,475,0],
-"classMR_1_1QuadricApprox.html":[9,0,14]
+"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[10,0,12,490,0]
 };
