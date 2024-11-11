@@ -1,6 +1,7 @@
 var dir_ae78f784ae402f48d875196e46319a59 =
 [
     [ "MRBitSet.h", "MRTestC_2MRBitSet_8h.html", "MRTestC_2MRBitSet_8h" ],
+    [ "MRFixSelfIntersections.h", "MRTestC_2MRFixSelfIntersections_8h.html", "MRTestC_2MRFixSelfIntersections_8h" ],
     [ "MRMeshBoolean.h", "MRTestC_2MRMeshBoolean_8h.html", "MRTestC_2MRMeshBoolean_8h" ],
     [ "MRMeshBuilder.h", "MRTestC_2MRMeshBuilder_8h.html", "MRTestC_2MRMeshBuilder_8h" ],
     [ "MRMeshCollidePrecise.h", "MRTestC_2MRMeshCollidePrecise_8h.html", "MRTestC_2MRMeshCollidePrecise_8h" ],

@@ -151,10 +151,6 @@ var NAVTREEINDEX2 =
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070":[13,0,0,2,9,19,3,3],
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192":[13,0,0,2,9,19,3,0],
 "MRFitData_8h_source.html":[13,0,0,2,9,19],
-"MRFixSelfIntersections_8h.html":[13,0,0,2,3,107],
-"MRFixSelfIntersections_8h.html#a31221cba193e98804d912de6685cd94a":[13,0,0,2,3,107,1],
-"MRFixSelfIntersections_8h.html#aea449a398c4999edebba068358686684":[13,0,0,2,3,107,2],
-"MRFixSelfIntersections_8h_source.html":[13,0,0,2,3,107],
 "MRFixUndercuts_8h.html":[13,0,0,2,10,8],
 "MRFixUndercuts_8h.html#a1533cdae8a0918d9ee6e83cf92f56280":[13,0,0,2,10,8,12],
 "MRFixUndercuts_8h.html#a17b22007ca26335c67c6c939668c8186":[13,0,0,2,10,8,8],
@@ -249,5 +245,9 @@ var NAVTREEINDEX2 =
 "MRICPEnums_8h.html#ac977096020e15e4b699043b2c550bf83afa7be7845bc42b3491d9d0377958be94":[13,0,0,2,3,124,0,0],
 "MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80ec":[13,0,0,2,3,124,1],
 "MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80eca55f4b4a94111759e08b3acb1acd12b8c":[13,0,0,2,3,124,1,0],
-"MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed":[13,0,0,2,3,124,1,2]
+"MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed":[13,0,0,2,3,124,1,2],
+"MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9":[13,0,0,2,3,124,1,1],
+"MRICPEnums_8h_source.html":[13,0,0,2,3,124],
+"MRIOExtras_2MRIOExtras_8h.html":[13,0,0,2,2,5],
+"MRIOExtras_2MRIOExtras_8h.html#a751784f805f40929323bdfaa12fe10ac":[13,0,0,2,2,5,0]
 };

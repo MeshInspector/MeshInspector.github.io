@@ -23,7 +23,7 @@ var searchData=
   ['relaxdisorientedtriangles_20',['relaxDisorientedTriangles',['../structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43',1,'MR::GridToMeshSettings']]],
   ['relaxforce_21',['relaxForce',['../structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2d31568cac0bf19969e4cc51dc854a14',1,'MR::SurfaceManipulationWidget::Settings']]],
   ['relaxforceafteredit_22',['relaxForceAfterEdit',['../structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a',1,'MR::SurfaceManipulationWidget::Settings']]],
-  ['relaxiterations_23',['relaxIterations',['../structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6',1,'MR::SelfIntersections::Settings::relaxIterations'],['../structMR_1_1OffsetContoursRestoreZParams.html#ad56a82055a6779969941251b8ad56f97',1,'MR::OffsetContoursRestoreZParams::relaxIterations']]],
+  ['relaxiterations_23',['relaxIterations',['../structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6',1,'MR::SelfIntersections::Settings::relaxIterations'],['../structMR_1_1OffsetContoursRestoreZParams.html#ad56a82055a6779969941251b8ad56f97',1,'MR::OffsetContoursRestoreZParams::relaxIterations'],['../structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1',1,'MRFixSelfIntersectionsSettings::relaxIterations']]],
   ['rem_24',['rem',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#ae9d0ca02e23513325ee4fb19d39b6948',1,'MR::MeshBuilder::MeshPiece']]],
   ['renamebuffer_5f_25',['renameBuffer_',['../classMR_1_1ImGuiMenu.html#ae9bb69c3589e2a7be927ce74e0b1f2ac',1,'MR::ImGuiMenu']]],
   ['render3dsceneintexture_26',['render3dSceneInTexture',['../structMR_1_1LaunchParams.html#a05b72c90683749a3c0a7b1c0994af432',1,'MR::LaunchParams']]],

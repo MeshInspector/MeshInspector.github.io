@@ -905,6 +905,7 @@ var annotated_dup =
     [ "MRFillHoleMetric", "structMRFillHoleMetric.html", null ],
     [ "MRFillHoleParams", "structMRFillHoleParams.html", "structMRFillHoleParams" ],
     [ "MRFindProjectionParameters", "structMRFindProjectionParameters.html", "structMRFindProjectionParameters" ],
+    [ "MRFixSelfIntersectionsSettings", "structMRFixSelfIntersectionsSettings.html", "structMRFixSelfIntersectionsSettings" ],
     [ "MRGeneralOffsetParameters", "structMRGeneralOffsetParameters.html", "structMRGeneralOffsetParameters" ],
     [ "MRICPPairData", "structMRICPPairData.html", "structMRICPPairData" ],
     [ "MRICPProperties", "structMRICPProperties.html", "structMRICPProperties" ],

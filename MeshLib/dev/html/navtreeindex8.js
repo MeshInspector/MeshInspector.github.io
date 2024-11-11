@@ -1,5 +1,16 @@
 var NAVTREEINDEX8 =
 {
+"MRMesh_2MRPrecisePredicates3_8h.html#a6f4d593d1b9ff1f262a583bf72f384f8":[13,0,0,2,3,281,6],
+"MRMesh_2MRPrecisePredicates3_8h.html#a9736a434a7f001c05b9a7d23675ca257":[13,0,0,2,3,281,8],
+"MRMesh_2MRPrecisePredicates3_8h.html#ab81d3ad87ff9cd57deee77336ddf83e1":[13,0,0,2,3,281,4],
+"MRMesh_2MRPrecisePredicates3_8h_source.html":[13,0,0,2,3,281],
+"MRMesh_2MRRegionBoundary_8h.html":[13,0,0,2,3,293],
+"MRMesh_2MRRegionBoundary_8h.html#a00473b872f5242451db75ba1ba87b378":[13,0,0,2,3,293,25],
+"MRMesh_2MRRegionBoundary_8h.html#a00ee2b5e6f616aab6620d650848ce002":[13,0,0,2,3,293,1],
+"MRMesh_2MRRegionBoundary_8h.html#a0deb53e0a4ba2c6305e86e1874919f11":[13,0,0,2,3,293,28],
+"MRMesh_2MRRegionBoundary_8h.html#a0e07c37da72aba07d9f560de8e27f8a2":[13,0,0,2,3,293,7],
+"MRMesh_2MRRegionBoundary_8h.html#a10723dc5e9c17648ce207691c6c0f547":[13,0,0,2,3,293,30],
+"MRMesh_2MRRegionBoundary_8h.html#a13360861c202508981bf30771a8d6560":[13,0,0,2,3,293,21],
 "MRMesh_2MRRegionBoundary_8h.html#a14819584da09eac6df2cab459ab80626":[13,0,0,2,3,293,6],
 "MRMesh_2MRRegionBoundary_8h.html#a1c01820370782b8d802d74ce6d038985":[13,0,0,2,3,293,13],
 "MRMesh_2MRRegionBoundary_8h.html#a1ef0e2bf47e966acc6a32e33beeb9fe7":[13,0,0,2,3,293,15],
@@ -238,16 +249,5 @@ var NAVTREEINDEX8 =
 "MRObjectsAccess_8h_source.html":[13,0,0,2,3,233],
 "MROffsetContours_8h.html":[13,0,0,2,3,235],
 "MROffsetContours_8h.html#a13fd7f6f4c21ca10264a68af45c700bd":[13,0,0,2,3,235,8],
-"MROffsetContours_8h.html#a19cb89c4b7c5582f2215200a5b0755af":[13,0,0,2,3,235,4],
-"MROffsetContours_8h.html#a27899d08f51f8b1106ec145d7a116f9f":[13,0,0,2,3,235,7],
-"MROffsetContours_8h.html#a3f87a9abf93ab132bc1ea3f939459b37":[13,0,0,2,3,235,6],
-"MROffsetContours_8h.html#a5603e7e0bf45735134643ec3745b0573":[13,0,0,2,3,235,10],
-"MROffsetContours_8h.html#aade58963fb6a70bd69db550185bd5af7":[13,0,0,2,3,235,9],
-"MROffsetContours_8h.html#abbeb6c9515d4865378050cb9687fd180":[13,0,0,2,3,235,5],
-"MROffsetContours_8h_source.html":[13,0,0,2,3,235],
-"MROnInit_8h.html":[13,0,0,2,3,236],
-"MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227":[13,0,0,2,3,236,1],
-"MROnInit_8h_source.html":[13,0,0,2,3,236],
-"MROpenRawVoxelsPlugin_8h.html":[13,0,0,2,0,3,0],
-"MROpenRawVoxelsPlugin_8h_source.html":[13,0,0,2,0,3,0]
+"MROffsetContours_8h.html#a19cb89c4b7c5582f2215200a5b0755af":[13,0,0,2,3,235,4]
 };

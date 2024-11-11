@@ -151,7 +151,7 @@ var searchData=
   ['subalphamesh_5f_148',['subAlphaMesh_',['../classMR_1_1FeatureObject.html#aee2b783554996a1934193cd74d782dbf',1,'MR::FeatureObject']]],
   ['subalphapoints_5f_149',['subAlphaPoints_',['../classMR_1_1FeatureObject.html#ad7fbf06bb7ae7e9d6d048ae16629ccc3',1,'MR::FeatureObject']]],
   ['subdivideborder_150',['subdivideBorder',['../structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc',1,'MR::SubdivideSettings']]],
-  ['subdivideedgelen_151',['subdivideEdgeLen',['../structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224',1,'MR::SelfIntersections::Settings']]],
+  ['subdivideedgelen_151',['subdivideEdgeLen',['../structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224',1,'MR::SelfIntersections::Settings::subdivideEdgeLen'],['../structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640',1,'MRFixSelfIntersectionsSettings::subdivideEdgeLen']]],
   ['subdivideparts_152',['subdivideParts',['../structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4',1,'MR::DecimateSettings::subdivideParts'],['../structMRDecimateSettings.html#af30ab932574161654a545582168d7f23',1,'MRDecimateSettings::subdivideParts']]],
   ['subdivisionsteppixels_153',['subdivisionStepPixels',['../structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23',1,'MR::ImGuiMeasurementIndicators::CurveParams']]],
   ['subfeatures_154',['Subfeatures',['../MRFeatureObject_8h.html#a8c52a38cab104b53c714ff2ce176546f',1,'MRFeatureObject.h']]],

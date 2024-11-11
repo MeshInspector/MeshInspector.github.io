@@ -723,6 +723,7 @@ var hierarchy =
     [ "MRFillHoleMetric", "structMRFillHoleMetric.html", null ],
     [ "MRFillHoleParams", "structMRFillHoleParams.html", null ],
     [ "MRFindProjectionParameters", "structMRFindProjectionParameters.html", null ],
+    [ "MRFixSelfIntersectionsSettings", "structMRFixSelfIntersectionsSettings.html", null ],
     [ "MRGeneralOffsetParameters", "structMRGeneralOffsetParameters.html", null ],
     [ "MRICPPairData", "structMRICPPairData.html", null ],
     [ "MRICPProperties", "structMRICPProperties.html", null ],

@@ -9,6 +9,7 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRConvexHull.h", "MRMeshC_2MRConvexHull_8h.html", "MRMeshC_2MRConvexHull_8h" ],
     [ "MRCube.h", "MRMeshC_2MRCube_8h.html", "MRMeshC_2MRCube_8h" ],
     [ "MRCylinder.h", "MRMeshC_2MRCylinder_8h.html", "MRMeshC_2MRCylinder_8h" ],
+    [ "MRFixSelfIntersections.h", "MRMeshC_2MRFixSelfIntersections_8h.html", "MRMeshC_2MRFixSelfIntersections_8h" ],
     [ "MRGridSampling.h", "MRMeshC_2MRGridSampling_8h.html", "MRMeshC_2MRGridSampling_8h" ],
     [ "MRICP.h", "MRMeshC_2MRICP_8h.html", "MRMeshC_2MRICP_8h" ],
     [ "MRId.h", "MRMeshC_2MRId_8h.html", "MRMeshC_2MRId_8h" ],
