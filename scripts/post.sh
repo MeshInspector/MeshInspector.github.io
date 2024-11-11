@@ -10,7 +10,9 @@ rm html_header.html html_footer.html html_stylesheet.css
 TARGET_DIR="${1:-MeshLib}"
 URL_PREFIX="${2:-https://meshlib.io/documentation}"
 
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
+
 # Conditionally run update_canonical.sh if TARGET_DIR is not "MeshLib/dev"
 if [ "$TARGET_DIR" != "MeshLib/dev" ]; then
-  ./scripts/update_canonical.sh "$TARGET_DIR/html" "$URL_PREFIX"
+  "$BASE_DIR"/update_canonical.sh "$TARGET_DIR/html" "$URL_PREFIX"
 fi
