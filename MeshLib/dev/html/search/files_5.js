@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['globalregistration_2edox_0',['GlobalRegistration.dox',['../GlobalRegistration_8dox.html',1,'']]],
-  ['globalregistration_2edox_2ec_1',['GlobalRegistration.dox.c',['../GlobalRegistration_8dox_8c.html',1,'']]],
-  ['globalregistration_2edox_2ecs_2',['GlobalRegistration.dox.cs',['../GlobalRegistration_8dox_8cs.html',1,'']]]
+  ['firstplugintutorial_2edox_0',['FirstPluginTutorial.dox',['../FirstPluginTutorial_8dox.html',1,'']]],
+  ['freeformdeformation_2edox_1',['FreeFormDeformation.dox',['../FreeFormDeformation_8dox.html',1,'']]],
+  ['freeformdeformation_2edox_2epy_2',['FreeFormDeformation.dox.py',['../FreeFormDeformation_8dox_8py.html',1,'']]]
 ];

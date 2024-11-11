@@ -23,10 +23,45 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Main Page",url:"index.html"},
-{text:"Related Pages",url:"pages.html"},
+{text:"About",url:"index.html"},
+{text:"Getting Started",url:"InstallationGuide.html",children:[
+{text:"Python",url:"MeshLibPythonSetupGuide.html"},
+{text:"C++",url:"MeshLibCppSetupGuide.html"},
+{text:"C#",url:"MeshLibCSharpSetupGuide.html"}]},
+{text:"License",url:"License.html"},
+{text:"Tutorials",url:"Tutorials.html",children:[
+{text:"How to make your first plugin C++ Windows",url:"FirstPluginTutorial.html"}]},
+{text:"Examples",url:"Examples.html",children:[
+{text:"General Samples",url:"usergroup0.html",children:[
+{text:"Application Based on MeshLib",url:"BasedApplication.html#BasedApplication"},
+{text:"Mesh Load and Save",url:"ExampleMeshLoadSave.html#ExampleMeshLoadSave"},
+{text:"Export Raw Triangles",url:"ExampleMeshExport.html#ExampleMeshExport"},
+{text:"Mesh Modification",url:"ExampleMeshModification.html#ExampleMeshModification"},
+{text:"Mesh Boolean",url:"ExampleMeshBoolean.html#ExampleMeshBoolean"},
+{text:"Mesh Decimate",url:"ExampleMeshDecimate.html#ExampleMeshDecimate"},
+{text:"Mesh Offset",url:"ExampleMeshOffset.html#ExampleMeshOffset"},
+{text:"Mesh Fill Hole",url:"ExampleMeshFillHole.html#ExampleMeshFillHole"},
+{text:"Mesh Stitch Holes",url:"ExampleMeshStitchHole.html#ExampleMeshStitchHole"},
+{text:"Mesh Resolve Degenerations",url:"ExampleMeshResolveDegenerations.html#ExampleMeshResolveDegenerations"},
+{text:"Global Registration",url:"ExampleGlobalRegistration.html#ExampleGlobalRegistration"},
+{text:"Mesh ICP",url:"ExampleMeshICP.html#ExampleMeshICP"},
+{text:"Mesh Extrude",url:"ExampleMeshExtrude.html#ExampleMeshExtrude"},
+{text:"Mesh Free Form Deformation",url:"ExampleFreeForm.html#ExampleFreeForm"},
+{text:"Mesh Laplacian Deformation",url:"ExampleLaplacian.html#ExampleLaplacian"},
+{text:"Mesh Denoise",url:"ExampleNoiseDenoise.html#ExampleNoiseDenoise"},
+{text:"Triangulation",url:"ExampleTriangulation.html#ExampleTriangulation"}]},
+{text:"Python Specific Samples",url:"usergroup1.html",children:[
+{text:"Plotly Visualization",url:"ExamplePlotly.html#ExamplePlotly"},
+{text:"Using Numpy",url:"ExampleNumpy.html#ExampleNumpy"},
+{text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html#ExampleNumpyTriangulation"}]}]},
+{text:"Package Overview",url:"usergroup2.html",children:[
+{text:"Data Model Class Hierarchy",url:"DataModel.html"},
+{text:"Spaces and Transformations",url:"SpacesHelp.html"},
+{text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
+{text:"API",url:"usergroup3.html",children:[
+{text:"C++",url:"usergroup4.html",children:[
 {text:"Topics",url:"topics.html"},
-{text:"Namespaces",url:"namespaces.html",children:[
+{text:"Namespace List",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
@@ -152,8 +187,7 @@ var menudata={children:[
 {text:"x",url:"namespacemembers_eval.html#index_x"},
 {text:"y",url:"namespacemembers_eval.html#index_y"},
 {text:"z",url:"namespacemembers_eval.html#index_z"}]}]}]},
-{text:"Concepts",url:"concepts.html"},
-{text:"Classes",url:"annotated.html",children:[
+{text:"Class List",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
 {text:"Class Hierarchy",url:"hierarchy.html"},
@@ -305,7 +339,7 @@ var menudata={children:[
 {text:"v",url:"functions_eval.html#index_v"},
 {text:"w",url:"functions_eval.html#index_w"}]},
 {text:"Related Symbols",url:"functions_rela.html"}]}]},
-{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
@@ -374,4 +408,5 @@ var menudata={children:[
 {text:"r",url:"globals_defs.html#index_r"},
 {text:"s",url:"globals_defs.html#index_s"},
 {text:"t",url:"globals_defs.html#index_t"},
-{text:"v",url:"globals_defs.html#index_v"}]}]}]}]}
+{text:"v",url:"globals_defs.html#index_v"}]}]}]}]}]},
+{text:"Thirdparty List",url:"ThirdParty.html"}]}

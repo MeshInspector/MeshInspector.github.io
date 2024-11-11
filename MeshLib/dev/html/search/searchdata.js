@@ -3,7 +3,7 @@ var indexSectionsWithContent =
   0: "123_abcdefghijklmnopqrstuvwxyz~",
   1: "abcdefghiklmnopqrstuvwxz",
   2: "filmnptv",
-  3: "bcdefghilmnopstv",
+  3: "abcdefgilmnopstv",
   4: "abcdefghijklmnopqrstuvwxyz~",
   5: "_abcdefghiklmnopqrstuvwxyz",
   6: "abcdefghijklmnopqrstuvwx",
@@ -12,7 +12,7 @@ var indexSectionsWithContent =
   9: "cgmou",
   10: "_abdegimnrstv",
   11: "23abcdefghilmnoprstv",
-  12: "abcdefghilmnoprstvy",
+  12: "abcdefghilmnoprstuvwy",
   13: "m"
 };
 

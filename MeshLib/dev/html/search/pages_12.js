@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['your_20application_20on_20meshlib_0',['Basing your application on MeshLib',['../BasedApplication.html',1,'HowToBasic']]]
+  ['visualization_0',['Plotly visualization',['../ExamplePlotly.html',1,'Examples']]]
 ];

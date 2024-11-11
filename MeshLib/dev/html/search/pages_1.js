@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['basing_20your_20application_20on_20meshlib_0',['Basing your application on MeshLib',['../BasedApplication.html',1,'HowToBasic']]],
-  ['boolean_1',['Mesh Boolean',['../ExampleMeshBoolean.html',1,'HowToBasic']]]
+  ['basing_20your_20application_20on_20meshlib_0',['Basing your application on MeshLib',['../BasedApplication.html',1,'Examples']]],
+  ['boolean_1',['Mesh Boolean',['../ExampleMeshBoolean.html',1,'Examples']]]
 ];
