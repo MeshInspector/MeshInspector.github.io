@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Configuration variables
 HTML_DIR="$1"
@@ -12,9 +12,9 @@ fi
 
 # Function to update <link rel="canonical"> tag
 update_canonical() {
-  local file_path="$1"
-  local relative_path="${file_path#$HTML_DIR/}"
-  local canonical_url="${URL_PREFIX}/${relative_path}"
+  file_path="$1"
+  relative_path="${file_path#$HTML_DIR/}"
+  canonical_url="${URL_PREFIX}/${relative_path}"
 
   # Use sed to update the canonical link tag
   sed -i -E "s|<link rel=\"canonical\" href=\"[^\"]*\" />|<link rel=\"canonical\" href=\"$canonical_url\" />|" "$file_path"
