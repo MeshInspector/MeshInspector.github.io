@@ -30,7 +30,7 @@ var menudata={children:[
 {text:"C#",url:"MeshLibCSharpSetupGuide.html"}]},
 {text:"License",url:"License.html"},
 {text:"Tutorials",url:"Tutorials.html",children:[
-{text:"How to make your first plugin C++ Windows",url:"FirstPluginTutorial.html"}]},
+{text:"First plugin C++ Windows",url:"FirstPluginTutorial.html"}]},
 {text:"Examples",url:"Examples.html",children:[
 {text:"General Samples",url:"usergroup0.html",children:[
 {text:"Application Based on MeshLib",url:"BasedApplication.html#BasedApplication"},

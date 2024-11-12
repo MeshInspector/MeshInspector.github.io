@@ -5,5 +5,5 @@ var structMR_1_1Polynomial =
     [ "intervalMin", "structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849", null ],
     [ "operator()", "structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3", null ],
     [ "solve", "structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2", null ],
-    [ "a", "structMR_1_1Polynomial.html#ad1c492e9ade30990c714083f0317bdf6", null ]
+    [ "a", "structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839", null ]
 ];

@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/MRMarkedVoxelSlice_8h_source.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -209,8 +177,8 @@ $(function(){initNavTree('MRMarkedVoxelSlice_8h_source.html',''); initResizable(
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classMR_1_1MarkedVoxelSlice.html#a21bf4ef527270ad0d69f992c4378f606">   69</a></span>    <a class="code hl_enumeration" href="group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab">SlicePlane</a> <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a21bf4ef527270ad0d69f992c4378f606">getActivePlane</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> params_.<a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32">activePlane</a>; }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classMR_1_1MarkedVoxelSlice.html#a05fc56e95ac8301cb2924ddec31eb109">   70</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a05fc56e95ac8301cb2924ddec31eb109">setActivePlane</a>( <a class="code hl_enumeration" href="group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab">SlicePlane</a> plane ) { params_.<a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32">activePlane</a> = plane; <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a8cfc8efe67bed7ab6770d8952e75c6b6">forceUpdate</a>(); }</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classMR_1_1MarkedVoxelSlice.html#a64f919f38e1712b774646be9eb857f99">   72</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a>&amp; <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a64f919f38e1712b774646be9eb857f99">getActiveVoxel</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> params_.<a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">activeVoxel</a>; }</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classMR_1_1MarkedVoxelSlice.html#a6c9a848bfdf1495e5b72648aee211a87">   73</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a6c9a848bfdf1495e5b72648aee211a87">setActiveVoxel</a>( <span class="keyword">const</span> <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a>&amp; voxel ) { params_.<a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">activeVoxel</a> = voxel; <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a8cfc8efe67bed7ab6770d8952e75c6b6">forceUpdate</a>(); }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classMR_1_1MarkedVoxelSlice.html#a64f919f38e1712b774646be9eb857f99">   72</a></span>    <span class="keyword">const</span> Vector3i&amp; <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a64f919f38e1712b774646be9eb857f99">getActiveVoxel</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> params_.<a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">activeVoxel</a>; }</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classMR_1_1MarkedVoxelSlice.html#a6c9a848bfdf1495e5b72648aee211a87">   73</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a6c9a848bfdf1495e5b72648aee211a87">setActiveVoxel</a>( <span class="keyword">const</span> Vector3i&amp; voxel ) { params_.<a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">activeVoxel</a> = voxel; <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#a8cfc8efe67bed7ab6770d8952e75c6b6">forceUpdate</a>(); }</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="comment">// Slice normalization parameters, setters update texture</span></div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classMR_1_1MarkedVoxelSlice.html#ace084b7a6961ec8f31f9a9f4ebb9bb05">   76</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classMR_1_1MarkedVoxelSlice.html#ace084b7a6961ec8f31f9a9f4ebb9bb05">getMin</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> params_.<a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa1adf8bb92d44c2f71e211d90450d693">min</a>; }</div>
@@ -232,7 +200,7 @@ $(function(){initNavTree('MRMarkedVoxelSlice_8h_source.html',''); initResizable(
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21">   91</a></span>        std::vector&lt;Mark&gt; <a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21">customBackgroundMarks</a>;</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f">   92</a></span>        std::vector&lt;Mark&gt; <a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f">customForegroundMarks</a>;</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="comment">// Current voxel </span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">   94</a></span>        <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a> <a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">activeVoxel</a>;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">   94</a></span>        Vector3i <a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0">activeVoxel</a>;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="comment">// Active box, set as ObjectVoxels active box in constructor</span></div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf">   96</a></span>        Box3i <a class="code hl_variable" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf">activeBox</a>;</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="comment">// Minimum dense to show black</span></div>
@@ -256,7 +224,7 @@ $(function(){initNavTree('MRMarkedVoxelSlice_8h_source.html',''); initResizable(
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <a class="code hl_typedef" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> grid_;</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a> dims_;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    Vector3i dims_;</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <a class="code hl_struct" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html">Parameters</a> params_;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
@@ -330,7 +298,6 @@ $(function(){initNavTree('MRMarkedVoxelSlice_8h_source.html',''); initResizable(
 <div class="ttc" id="astructMR_1_1MarkedVoxelSlice_1_1Parameters_html_aa6c82acf94b57d6ad1303565db222dba"><div class="ttname"><a href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa6c82acf94b57d6ad1303565db222dba">MR::MarkedVoxelSlice::Parameters::max</a></div><div class="ttdeci">float max</div><div class="ttdef"><b>Definition</b> MRMarkedVoxelSlice.h:100</div></div>
 <div class="ttc" id="astructMR_1_1MarkedVoxelSlice_1_1Parameters_html_ab01dc48d4adf11728ae3fe0802e1e0dd"><div class="ttname"><a href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd">MR::MarkedVoxelSlice::Parameters::marks</a></div><div class="ttdeci">std::array&lt; Mark, size_t(MaskType::Count)&gt; marks</div><div class="ttdef"><b>Definition</b> MRMarkedVoxelSlice.h:90</div></div>
 <div class="ttc" id="astructMR_1_1MarkedVoxelSlice_1_1Parameters_html_ada8d178143f6e08583ce6661e7e48c21"><div class="ttname"><a href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21">MR::MarkedVoxelSlice::Parameters::customBackgroundMarks</a></div><div class="ttdeci">std::vector&lt; Mark &gt; customBackgroundMarks</div><div class="ttdef"><b>Definition</b> MRMarkedVoxelSlice.h:91</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; int &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

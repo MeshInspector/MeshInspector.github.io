@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['laplacianexample_2edox_2epy_0',['LaplacianExample.dox.py',['../LaplacianExample_8dox_8py.html',1,'']]]
+  ['imguihelpers_2eh_0',['ImGuiHelpers.h',['../ImGuiHelpers_8h.html',1,'']]],
+  ['imguimenu_2eh_1',['ImGuiMenu.h',['../ImGuiMenu_8h.html',1,'']]],
+  ['integration_2edox_2',['Integration.dox',['../Integration_8dox.html',1,'']]]
 ];

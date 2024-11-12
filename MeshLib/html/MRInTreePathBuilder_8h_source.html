@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/MRInTreePathBuilder_8h_source.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -149,10 +117,10 @@ $(function(){initNavTree('MRInTreePathBuilder_8h_source.html',''); initResizable
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1InTreePathBuilder.html#af25102bdd3972974bc827e8e7eb0b666">   13</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_function" href="classMR_1_1InTreePathBuilder.html#af25102bdd3972974bc827e8e7eb0b666">InTreePathBuilder</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, <span class="keyword">const</span> UndirectedEdgeBitSet &amp; treeEdges );</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1InTreePathBuilder.html#a298a5dffe72dcebf92ad6ede0dbf9bd3">   16</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> <a class="code hl_function" href="classMR_1_1InTreePathBuilder.html#a298a5dffe72dcebf92ad6ede0dbf9bd3">build</a>( <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> start, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> finish ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1InTreePathBuilder.html#a298a5dffe72dcebf92ad6ede0dbf9bd3">   16</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> <a class="code hl_function" href="classMR_1_1InTreePathBuilder.html#a298a5dffe72dcebf92ad6ede0dbf9bd3">build</a>( VertId start, VertId finish ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    [[nodiscard]] <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> getEdgeBack_( <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    [[nodiscard]] EdgeId getEdgeBack_( VertId v ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology_;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">const</span> UndirectedEdgeBitSet &amp; treeEdges_;</div>
@@ -161,15 +129,13 @@ $(function(){initNavTree('MRInTreePathBuilder_8h_source.html',''); initResizable
 </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a97d91fcf1566198a2abf87966d056a9f"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></div><div class="ttdeci">int VertId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:51</div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_add62b8bcfb58fedb4bcb251ed3e5f5c8"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></div><div class="ttdeci">int EdgeId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:52</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1InTreePathBuilder_html"><div class="ttname"><a href="classMR_1_1InTreePathBuilder.html">MR::InTreePathBuilder</a></div><div class="ttdef"><b>Definition</b> MRInTreePathBuilder.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1InTreePathBuilder_html_a298a5dffe72dcebf92ad6ede0dbf9bd3"><div class="ttname"><a href="classMR_1_1InTreePathBuilder.html#a298a5dffe72dcebf92ad6ede0dbf9bd3">MR::InTreePathBuilder::build</a></div><div class="ttdeci">MRMESH_API EdgePath build(VertId start, VertId finish) const</div><div class="ttdoc">finds the path in tree from start vertex to finish vertex</div></div>
 <div class="ttc" id="aclassMR_1_1InTreePathBuilder_html_af25102bdd3972974bc827e8e7eb0b666"><div class="ttname"><a href="classMR_1_1InTreePathBuilder.html#af25102bdd3972974bc827e8e7eb0b666">MR::InTreePathBuilder::InTreePathBuilder</a></div><div class="ttdeci">MRMESH_API InTreePathBuilder(const MeshTopology &amp;topology, const UndirectedEdgeBitSet &amp;treeEdges)</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:18</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:19</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:20</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a9f6c1e614e45e332d4cecfc5e77bc07e"><div class="ttname"><a href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">MR::EdgePath</a></div><div class="ttdeci">std::vector&lt; EdgeId &gt; EdgePath</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:98</div></div>
 </div><!-- fragment --></div><!-- contents -->

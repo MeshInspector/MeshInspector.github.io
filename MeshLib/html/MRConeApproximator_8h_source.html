@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/MRConeApproximator_8h_source.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -518,7 +486,7 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 <div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>        center = computeCenter_( points );</div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span> </div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>        <span class="comment">// The cone axis is estimated from ZZTZ (see the https://www.geometrictools.com/Documentation/LeastSquaresFitting.pdf, formula 120).</span></div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>        U = <a class="code hl_typedef" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>();  <span class="comment">// U in pdf</span></div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>        U = Vector3f();  <span class="comment">// U in pdf</span></div>
 <div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>        <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = 0; i &lt; points.size(); ++i )</div>
 <div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>        {</div>
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>            <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">Z</a> = points[i] - center;</div>
@@ -597,13 +565,13 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 <div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>    <span class="keywordtype">void</span> findBestFitLine_( <span class="keyword">const</span> std::vector&lt;<a class="code hl_struct" href="structMR_1_1Vector2.html">MR::Vector2&lt;T&gt;</a>&gt;&amp; xyPairs, T&amp; lineA, T&amp; lineB, <a class="code hl_struct" href="structMR_1_1Vector2.html">MR::Vector2&lt;T&gt;</a>* avg = <span class="keyword">nullptr</span> )</div>
 <div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>    {</div>
 <div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>        <span class="keyword">auto</span> numPoints = xyPairs.size();</div>
-<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>        Eigen::Matrix&lt;T, Eigen::Dynamic, Eigen::Dynamic&gt; <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>( numPoints, 2 );</div>
+<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>        Eigen::Matrix&lt;T, Eigen::Dynamic, Eigen::Dynamic&gt; A( numPoints, 2 );</div>
 <div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span>        Eigen::Vector&lt;T, Eigen::Dynamic&gt;  b( numPoints );</div>
 <div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span> </div>
 <div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>        <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = 0; i &lt; numPoints; ++i )</div>
 <div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>        {</div>
-<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>            <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>( i, 0 ) = xyPairs[i].x;  <span class="comment">// x-coordinate of the i-th point</span></div>
-<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>            <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>( i, 1 ) = 1.0;           <span class="comment">// constant 1.0 for dummy term b</span></div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>            A( i, 0 ) = xyPairs[i].x;  <span class="comment">// x-coordinate of the i-th point</span></div>
+<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>            A( i, 1 ) = 1.0;           <span class="comment">// constant 1.0 for dummy term b</span></div>
 <div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>            b( i ) = xyPairs[i].y;     <span class="comment">// y-coordinate of the i-th point</span></div>
 <div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>            <span class="keywordflow">if</span> ( avg )</div>
 <div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>                *avg = *avg + xyPairs[i];</div>
@@ -613,7 +581,7 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 <div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span>            *avg = *avg / <span class="keyword">static_cast &lt;</span> T <span class="keyword">&gt;</span> ( xyPairs.size() );</div>
 <div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span>        }</div>
 <div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>        <span class="comment">// Solve the system of equations Ax = b using the least squares method</span></div>
-<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>        Eigen::Matrix&lt;T, Eigen::Dynamic, 1&gt; x = <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>.bdcSvd( Eigen::ComputeThinU | Eigen::ComputeThinV ).solve( b );</div>
+<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>        Eigen::Matrix&lt;T, Eigen::Dynamic, 1&gt; x = A.bdcSvd( Eigen::ComputeThinU | Eigen::ComputeThinV ).solve( b );</div>
 <div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span> </div>
 <div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>        lineA = x( 0 );</div>
 <div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span>        lineB = x( 1 );</div>
@@ -657,7 +625,6 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 </div>
 <div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span> </div>
 <div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span>}</div>
-<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">MapObject::A</a></div><div class="ttdeci">@ A</div></div>
 <div class="ttc" id="aMRCone3_8h_html"><div class="ttname"><a href="MRCone3_8h.html">MRCone3.h</a></div></div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
@@ -675,7 +642,6 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 <div class="ttc" id="anamespaceMR_html_a0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b"><div class="ttname"><a href="namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b">MR::ConeFitterType::HemisphereSearchFit</a></div><div class="ttdeci">@ HemisphereSearchFit</div></div>
 <div class="ttc" id="anamespaceMR_html_a0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384"><div class="ttname"><a href="namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384">MR::ConeFitterType::SpecificAxisFit</a></div><div class="ttdeci">@ SpecificAxisFit</div></div>
 <div class="ttc" id="anamespaceMR_html_a0ec93e9fcfd4b11654579d65e255bb7da966805730aa004c013d26ce8985852a7"><div class="ttname"><a href="namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7da966805730aa004c013d26ce8985852a7">MR::ConeFitterType::ApproximationPCM</a></div><div class="ttdeci">@ ApproximationPCM</div></div>
-<div class="ttc" id="anamespaceMR_html_a62d3af552ee301e04c5fe9bc8ea7be47"><div class="ttname"><a href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_abcf951f0c16ac74004bf7cab1c0ddc51"><div class="ttname"><a href="namespaceMR.html#abcf951f0c16ac74004bf7cab1c0ddc51">MR::Cone3</a></div><div class="ttdeci">Cone3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:264</div></div>
 <div class="ttc" id="anamespaceMR_html_ac878ba63f3f91f5ab032a38cd3a2c206"><div class="ttname"><a href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">MR::Vector3</a></div><div class="ttdeci">MRMESH_CLASS Vector3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:136</div></div>
 <div class="ttc" id="astructMR_1_1Cone3ApproximationParams_html"><div class="ttname"><a href="structMR_1_1Cone3ApproximationParams.html">MR::Cone3ApproximationParams</a></div><div class="ttdef"><b>Definition</b> MRConeApproximator.h:144</div></div>

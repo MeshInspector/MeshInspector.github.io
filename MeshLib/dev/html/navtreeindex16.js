@@ -1,5 +1,10 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,1,72,2],
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,12,88],
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,1,73],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,12,88,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,1,73,0],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,12,88,1],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,73,1],
 "classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,39],
@@ -244,10 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeVisualizePropertyAction.html#a6aed09dd3eb8747f16d7d1b3f4c016ec":[6,0,0,4,12,3],
 "classMR_1_1ChangeVisualizePropertyAction.html#a82fbcde1a6b6a67ddd9f760b0c43cf87":[6,0,0,4,12,4],
 "classMR_1_1ChangeVisualizePropertyAction.html#ab47bdfa15ccc0341044bdf265413933d":[6,0,0,4,12,5],
-"classMR_1_1ChangeVisualizePropertyAction.html#addf5e30e5eb678a766bb9b02bbfd996b":[6,0,0,4,12,0],
-"classMR_1_1ChangeXfAction.html":[6,0,0,4,29],
-"classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc":[6,0,0,4,29,3],
-"classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24":[6,0,0,4,29,2],
-"classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b":[6,0,0,4,29,0],
-"classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2":[6,0,0,4,29,1]
+"classMR_1_1ChangeVisualizePropertyAction.html#addf5e30e5eb678a766bb9b02bbfd996b":[6,0,0,4,12,0]
 };

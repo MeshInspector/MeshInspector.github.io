@@ -14,7 +14,5 @@ var ImGuiMenu_8h =
       [ "ObjectFeatureBit", "ImGuiMenu_8h.html#a08fcff6c599b446c2e39ef49b4f62fc0a840710b56e2f7b2a23389dc4690ad6a5", null ],
       [ "ObjectMeasurementBit", "ImGuiMenu_8h.html#a08fcff6c599b446c2e39ef49b4f62fc0a16f25ad8602ca99aa2f2efac374523d7", null ]
     ] ],
-    [ "reserveKeyEvent", "ImGuiMenu_8h.html#a9cab0079b5bdf8b5ebb5ba774cd76b62", null ],
-    [ "showError", "ImGuiMenu_8h.html#a81804b582b588b4a894660b307a92cc2", null ],
-    [ "showModal", "ImGuiMenu_8h.html#a042f3414ad34f25080f423078a3ad327", null ]
+    [ "reserveKeyEvent", "ImGuiMenu_8h.html#a9cab0079b5bdf8b5ebb5ba774cd76b62", null ]
 ];

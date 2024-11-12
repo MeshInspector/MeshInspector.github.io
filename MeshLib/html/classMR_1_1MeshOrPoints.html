@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/classMR_1_1MeshOrPoints.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -151,7 +119,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac587906713a870b8bb50c2b06375a28c" id="r_ac587906713a870b8bb50c2b06375a28c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a> = std::function&lt;void( const <a class="el" href="classVector3f.html">Vector3f</a>&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td></tr>
+<tr class="memitem:ac587906713a870b8bb50c2b06375a28c" id="r_ac587906713a870b8bb50c2b06375a28c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a> = std::function&lt;void( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td></tr>
 <tr class="separator:ac587906713a870b8bb50c2b06375a28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -162,36 +130,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b19905136ab6d31a445cc3884ab0c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe1af15504d425b2e6633291ccae6828" id="r_abe1af15504d425b2e6633291ccae6828"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe1af15504d425b2e6633291ccae6828">MeshOrPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc)</td></tr>
 <tr class="separator:abe1af15504d425b2e6633291ccae6828"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e66b47e60faefe7542df1a0db23b01" id="r_ae4e66b47e60faefe7542df1a0db23b01"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4e66b47e60faefe7542df1a0db23b01">asMeshPart</a> () const</td></tr>
-<tr class="memdesc:ae4e66b47e60faefe7542df1a0db23b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a mesh part then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
-<tr class="separator:ae4e66b47e60faefe7542df1a0db23b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45e224f362e76257c61b1e2fe790dc65" id="r_a45e224f362e76257c61b1e2fe790dc65"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45e224f362e76257c61b1e2fe790dc65">asPointCloud</a> () const</td></tr>
-<tr class="memdesc:a45e224f362e76257c61b1e2fe790dc65"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a point cloud then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
-<tr class="separator:a45e224f362e76257c61b1e2fe790dc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a735838d295350004f02283f8429fa620" id="r_a735838d295350004f02283f8429fa620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735838d295350004f02283f8429fa620">getObjBoundingBox</a> () const</td></tr>
+<tr class="memitem:a058b67c8a42bd8837a6bbe4be06bd4cf" id="r_a058b67c8a42bd8837a6bbe4be06bd4cf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a058b67c8a42bd8837a6bbe4be06bd4cf">asMeshPart</a> () const</td></tr>
+<tr class="memdesc:a058b67c8a42bd8837a6bbe4be06bd4cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a mesh part then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
+<tr class="separator:a058b67c8a42bd8837a6bbe4be06bd4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8169033d56790de959d2fbb3bbf15da0" id="r_a8169033d56790de959d2fbb3bbf15da0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8169033d56790de959d2fbb3bbf15da0">asPointCloud</a> () const</td></tr>
+<tr class="memdesc:a8169033d56790de959d2fbb3bbf15da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a point cloud then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
+<tr class="separator:a8169033d56790de959d2fbb3bbf15da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735838d295350004f02283f8429fa620" id="r_a735838d295350004f02283f8429fa620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735838d295350004f02283f8429fa620">getObjBoundingBox</a> () const</td></tr>
 <tr class="separator:a735838d295350004f02283f8429fa620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec797ad241ba4410f73274ba5e52c51e" id="r_aec797ad241ba4410f73274ba5e52c51e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec797ad241ba4410f73274ba5e52c51e">cacheAABBTree</a> () const</td></tr>
 <tr class="memdesc:aec797ad241ba4410f73274ba5e52c51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> is already built does nothing otherwise builds and caches it  <br /></td></tr>
 <tr class="separator:aec797ad241ba4410f73274ba5e52c51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af68f336dca5c1cbf834ab0c65fc38036" id="r_af68f336dca5c1cbf834ab0c65fc38036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af68f336dca5c1cbf834ab0c65fc38036">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
+<tr class="memitem:af68f336dca5c1cbf834ab0c65fc38036" id="r_af68f336dca5c1cbf834ab0c65fc38036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af68f336dca5c1cbf834ab0c65fc38036">computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
 <tr class="separator:af68f336dca5c1cbf834ab0c65fc38036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbcab0078d3323160184019e7850bceb" id="r_abbcab0078d3323160184019e7850bceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbcab0078d3323160184019e7850bceb">accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *xf=nullptr) const</td></tr>
+<tr class="memitem:abbcab0078d3323160184019e7850bceb" id="r_abbcab0078d3323160184019e7850bceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbcab0078d3323160184019e7850bceb">accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const AffineXf3f *xf=nullptr) const</td></tr>
 <tr class="memdesc:abbcab0078d3323160184019e7850bceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> the elements of the contained object.  <br /></td></tr>
 <tr class="separator:abbcab0078d3323160184019e7850bceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0eded9546a4d5a192d0222adb7ebc21" id="r_aa0eded9546a4d5a192d0222adb7ebc21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0eded9546a4d5a192d0222adb7ebc21">pointsGridSampling</a> (float voxelSize, size_t maxVoxels=500000, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}) const</td></tr>
+<tr class="memitem:aa0eded9546a4d5a192d0222adb7ebc21" id="r_aa0eded9546a4d5a192d0222adb7ebc21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0eded9546a4d5a192d0222adb7ebc21">pointsGridSampling</a> (float voxelSize, size_t maxVoxels=500000, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}) const</td></tr>
 <tr class="separator:aa0eded9546a4d5a192d0222adb7ebc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c2fe1dcde2dbadeef24818952755317" id="r_a6c2fe1dcde2dbadeef24818952755317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2fe1dcde2dbadeef24818952755317">points</a> () const</td></tr>
+<tr class="memitem:a6c2fe1dcde2dbadeef24818952755317" id="r_a6c2fe1dcde2dbadeef24818952755317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const VertCoords &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2fe1dcde2dbadeef24818952755317">points</a> () const</td></tr>
 <tr class="memdesc:a6c2fe1dcde2dbadeef24818952755317"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives access to points-vector (which can include invalid points as well)  <br /></td></tr>
 <tr class="separator:a6c2fe1dcde2dbadeef24818952755317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a825ff27e36144d02b12f1880d863e32b" id="r_a825ff27e36144d02b12f1880d863e32b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a825ff27e36144d02b12f1880d863e32b">validPoints</a> () const</td></tr>
+<tr class="memitem:a825ff27e36144d02b12f1880d863e32b" id="r_a825ff27e36144d02b12f1880d863e32b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a825ff27e36144d02b12f1880d863e32b">validPoints</a> () const</td></tr>
 <tr class="memdesc:a825ff27e36144d02b12f1880d863e32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives access to bit set of valid points  <br /></td></tr>
 <tr class="separator:a825ff27e36144d02b12f1880d863e32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a864d2d2aec501a7ccac038912909bef9" id="r_a864d2d2aec501a7ccac038912909bef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="classVector3f.html">Vector3f</a>(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a864d2d2aec501a7ccac038912909bef9">normals</a> () const</td></tr>
+<tr class="memitem:a864d2d2aec501a7ccac038912909bef9" id="r_a864d2d2aec501a7ccac038912909bef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; Vector3f(VertId)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a864d2d2aec501a7ccac038912909bef9">normals</a> () const</td></tr>
 <tr class="memdesc:a864d2d2aec501a7ccac038912909bef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns normals generating function: VertId-&gt;normal (or empty for point cloud without normals)  <br /></td></tr>
 <tr class="separator:a864d2d2aec501a7ccac038912909bef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e980c7ce8ce348fcb921d6e1feb63c6" id="r_a1e980c7ce8ce348fcb921d6e1feb63c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; float(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e980c7ce8ce348fcb921d6e1feb63c6">weights</a> () const</td></tr>
+<tr class="memitem:a1e980c7ce8ce348fcb921d6e1feb63c6" id="r_a1e980c7ce8ce348fcb921d6e1feb63c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; float(VertId)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e980c7ce8ce348fcb921d6e1feb63c6">weights</a> () const</td></tr>
 <tr class="separator:a1e980c7ce8ce348fcb921d6e1feb63c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0281d9d51c1ee7b1b2dbd57c5e97414c" id="r_a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const <a class="el" href="classVector3f.html">Vector3f</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0281d9d51c1ee7b1b2dbd57c5e97414c">projector</a> () const</td></tr>
+<tr class="memitem:a0281d9d51c1ee7b1b2dbd57c5e97414c" id="r_a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const Vector3f &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0281d9d51c1ee7b1b2dbd57c5e97414c">projector</a> () const</td></tr>
 <tr class="memdesc:a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a function that finds projection (closest) points on this: Vector3f-&gt;<a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>  <br /></td></tr>
 <tr class="separator:a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbd1b394a6735a416ceeb13ef4ac86eb" id="r_adbd1b394a6735a416ceeb13ef4ac86eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbd1b394a6735a416ceeb13ef4ac86eb">limitedProjector</a> () const</td></tr>
@@ -207,7 +175,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">MR::MeshOrPoints::LimitedProjectorFunc</a> = std::function&lt;void( const <a class="el" href="classVector3f.html">Vector3f</a>&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td>
+          <td class="memname">using <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">MR::MeshOrPoints::LimitedProjectorFunc</a> = std::function&lt;void( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -305,7 +273,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -314,8 +282,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae4e66b47e60faefe7542df1a0db23b01" name="ae4e66b47e60faefe7542df1a0db23b01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4e66b47e60faefe7542df1a0db23b01">&#9670;&#160;</a></span>asMeshPart()</h2>
+<a id="a058b67c8a42bd8837a6bbe4be06bd4cf" name="a058b67c8a42bd8837a6bbe4be06bd4cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a058b67c8a42bd8837a6bbe4be06bd4cf">&#9670;&#160;</a></span>asMeshPart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +292,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> * MeshOrPoints::asMeshPart </td>
+          <td class="memname">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> * MR::MeshOrPoints::asMeshPart </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -341,8 +309,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a45e224f362e76257c61b1e2fe790dc65" name="a45e224f362e76257c61b1e2fe790dc65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45e224f362e76257c61b1e2fe790dc65">&#9670;&#160;</a></span>asPointCloud()</h2>
+<a id="a8169033d56790de959d2fbb3bbf15da0" name="a8169033d56790de959d2fbb3bbf15da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8169033d56790de959d2fbb3bbf15da0">&#9670;&#160;</a></span>asPointCloud()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,7 +319,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> * MeshOrPoints::asPointCloud </td>
+          <td class="memname">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> * MR::MeshOrPoints::asPointCloud </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -397,9 +365,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> MR::MeshOrPoints::computeBoundingBox </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::MeshOrPoints::computeBoundingBox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -423,7 +391,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> MR::MeshOrPoints::getObjBoundingBox </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::MeshOrPoints::getObjBoundingBox </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -475,7 +443,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="classVector3f.html">Vector3f</a>(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>)&gt; MR::MeshOrPoints::normals </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; Vector3f(VertId)&gt; MR::MeshOrPoints::normals </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -502,7 +470,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> &amp; MR::MeshOrPoints::points </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const VertCoords &amp; MR::MeshOrPoints::points </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -529,7 +497,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &gt; MR::MeshOrPoints::pointsGridSampling </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertBitSet &gt; MR::MeshOrPoints::pointsGridSampling </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
         </tr>
@@ -569,7 +537,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const <a class="el" href="classVector3f.html">Vector3f</a> &amp;)&gt; MR::MeshOrPoints::projector </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const Vector3f &amp;)&gt; MR::MeshOrPoints::projector </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -596,7 +564,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp; MR::MeshOrPoints::validPoints </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const VertBitSet &amp; MR::MeshOrPoints::validPoints </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -623,7 +591,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; float(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>)&gt; MR::MeshOrPoints::weights </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; float(VertId)&gt; MR::MeshOrPoints::weights </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

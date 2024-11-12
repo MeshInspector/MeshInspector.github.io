@@ -46,14 +46,13 @@ var classMR_1_1RibbonMenu =
     [ "highlightBlocking_", "classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070", null ],
     [ "init", "classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57", null ],
     [ "isTopPannelPinned", "classMR_1_1RibbonMenu.html#a44506d22fa2c6befeaf375791931282e", null ],
-    [ "itemPressed_", "classMR_1_1RibbonMenu.html#a644e42efc4fd8f8bfa421f02bd847805", null ],
+    [ "itemPressed_", "classMR_1_1RibbonMenu.html#a981b9e4f52d4679a09fbbca4dab08573", null ],
     [ "load_font", "classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3", null ],
-    [ "onItemActivated_", "classMR_1_1RibbonMenu.html#a5fe2c99820940051403b88f7f511c769", null ],
     [ "openToolbarCustomize", "classMR_1_1RibbonMenu.html#aeb9475e92afc11246ebbc3f39dadebf9", null ],
     [ "pinTopPanel", "classMR_1_1RibbonMenu.html#ab638723ae879c04abcf7677c3975e255", null ],
     [ "postRescale_", "classMR_1_1RibbonMenu.html#ad3c1eb063654b601259d343d6644e863", null ],
     [ "postResize_", "classMR_1_1RibbonMenu.html#a9435ce4367ec159b1b5746aaafcc5652", null ],
-    [ "pushNotification", "classMR_1_1RibbonMenu.html#a7f8710e42ebc3f17afd26e3094fe76b4", null ],
+    [ "pushNotification", "classMR_1_1RibbonMenu.html#aed6ba0bf1f0630bcf43a1a070149b088", null ],
     [ "readMenuItemsStructure_", "classMR_1_1RibbonMenu.html#a566e74703b12f0c2cd8873fe0ca33e50", null ],
     [ "readQuickAccessList", "classMR_1_1RibbonMenu.html#ac80823b6e10ba2e99fca77006ffb7dc4", null ],
     [ "resetQuickAccessList", "classMR_1_1RibbonMenu.html#aa074446a9a5446cd760d9246633c5045", null ],
@@ -74,5 +73,6 @@ var classMR_1_1RibbonMenu =
     [ "activeNonBlockingItems_", "classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4", null ],
     [ "layoutMode_", "classMR_1_1RibbonMenu.html#a736cd1b64ec1e6b8d3207df3f9fcf431", null ],
     [ "prevFrameSelectedObjectsCache_", "classMR_1_1RibbonMenu.html#a8d13b702d7c6dad7794328080b6562e0", null ],
+    [ "searcher_", "classMR_1_1RibbonMenu.html#ac86c4630adf085f601be813f0d81b827", null ],
     [ "tabChangedSignal", "classMR_1_1RibbonMenu.html#afd52ffe86f76c1dcae019262f3722fd3", null ]
 ];

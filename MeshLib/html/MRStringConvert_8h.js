@@ -6,6 +6,7 @@ var MRStringConvert_8h =
     [ "asU8String", "MRStringConvert_8h.html#ga37f4340272986dcbde4f0fb5503a0912", null ],
     [ "asU8String", "MRStringConvert_8h.html#gaa010d1f339c974fa6ff486c6cad89c7d", null ],
     [ "bytesString", "MRStringConvert_8h.html#a3dac1179ee1b7a147e78045a27c4e13d", null ],
+    [ "commonFilesName", "MRStringConvert_8h.html#aa07a9eebcb6084b3728efa81a3ea4e43", null ],
     [ "formatNoTrailingZeros", "MRStringConvert_8h.html#a4484d46c4a911faa227d4f39727367a2", null ],
     [ "getCancelMessage", "MRStringConvert_8h.html#a0f9f82f9571d4a67b586f1e38d93afe9", null ],
     [ "hasProhibitedChars", "MRStringConvert_8h.html#a58401eef2addb5c0fef7e5dd90a17ddf", null ],

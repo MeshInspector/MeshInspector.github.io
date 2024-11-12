@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/MRCylinderApproximator_8h_source.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -419,140 +387,145 @@ $(function(){initNavTree('MRCylinderApproximator_8h_source.html',''); initResiza
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>            W[2], 0, -W[0],</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>            -W[1], W[0], 0;</div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        Eigen::Matrix&lt;T, 3, 3&gt; <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> = P * precomputedF0_ * P;</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatA = -( S * <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> * S );</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatAA = hatA * <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>;</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        Eigen::Matrix&lt;T, 3, 3&gt; A = P * precomputedF0_ * P;</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatA = -( S * A * S );</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatAA = hatA * A;</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        T trace = hatAA.trace();</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        Eigen::Matrix&lt;T, 3, 3&gt; Q = hatA / trace;</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        Eigen::Vector&lt;T, 6&gt; pVec{ P( 0, 0 ), P( 0, 1 ), P( 0, 2 ), P( 1, 1 ), P( 1, 2 ), P( 2, 2 ) };</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        Eigen::Vector&lt;T, 3&gt; alpha = precomputedF1_ * pVec;</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        Eigen::Vector&lt;T, 3&gt; beta = Q * alpha;</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>        T error = ( pVec.dot( precomputedF2_ * pVec ) - 4 * alpha.dot( beta ) + 4 * beta.dot( precomputedF0_ * beta ) ) / <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( normalizedPoints_.size() );</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>        <span class="comment">// some times appears floating points calculation errors. Error is a non negative value by default, so, make it positive.</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        <span class="comment">// absolute value (instead of error=0) is used to avoid collisions for near-null values and subsequent ambiguous work, since this code can be used in parallel algorithms</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        <span class="keywordflow">if</span> ( error &lt; 0 )</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>            error = std::abs( error );</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span> </div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>        PC = beta;</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        rsqr = pVec.dot( precomputedMu_ ) + beta.dot( beta );</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span> </div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        <span class="keywordflow">return</span> error;</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    }</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        <span class="keywordflow">if</span> ( trace == 0 )</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        {</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>            <span class="comment">// cannot divide on zero, return maximum error</span></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>            PC.setZero();</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>            <span class="keywordflow">return</span> std::numeric_limits&lt;T&gt;::max();</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        }</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>        Eigen::Matrix&lt;T, 3, 3&gt; Q = hatA / trace;</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        Eigen::Vector&lt;T, 6&gt; pVec{ P( 0, 0 ), P( 0, 1 ), P( 0, 2 ), P( 1, 1 ), P( 1, 2 ), P( 2, 2 ) };</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        Eigen::Vector&lt;T, 3&gt; alpha = precomputedF1_ * pVec;</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        Eigen::Vector&lt;T, 3&gt; beta = Q * alpha;</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        T error = ( pVec.dot( precomputedF2_ * pVec ) - 4 * alpha.dot( beta ) + 4 * beta.dot( precomputedF0_ * beta ) ) / <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( normalizedPoints_.size() );</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        <span class="comment">// some times appears floating points calculation errors. Error is a non negative value by default, so, make it positive.</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>        <span class="comment">// absolute value (instead of error=0) is used to avoid collisions for near-null values and subsequent ambiguous work, since this code can be used in parallel algorithms</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        <span class="keywordflow">if</span> ( error &lt; 0 )</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>            error = std::abs( error );</div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    T fitCylindeHemisphereSingleThreaded( Eigen::Vector&lt;T, 3&gt;&amp; PC, Eigen::Vector&lt;T, 3&gt;&amp; W, T&amp; resultedRootSquare )<span class="keyword"> const</span></div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        T <span class="keyword">const</span> theraStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( 2 * PI ) / thetaResolution_;</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        T <span class="keyword">const</span> phiStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( PI2 ) / phiResolution_;</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span> </div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>        <span class="comment">// problem in list. 16. =&gt; start from pole.</span></div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        W = { 0, 0, 1 };</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>        T minError = G( W, PC, resultedRootSquare );</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> j = 1; j &lt;= phiResolution_; ++j )</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>        {</div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>            T phi = phiStep * j; <span class="comment">//  [0 .. pi/2]</span></div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>            T cosPhi = std::cos( phi );</div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>            T sinPhi = std::sin( phi );</div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>            <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; thetaResolution_; ++i )</div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>            {</div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>                T theta = theraStep * i; <span class="comment">//  [0 .. 2*pi)</span></div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>                T cosTheta = std::cos( theta );</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>                T sinTheta = std::sin( theta );</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>                Eigen::Vector&lt;T, 3&gt; currW{ cosTheta * sinPhi, sinTheta * sinPhi, cosPhi };</div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>                Eigen::Vector&lt;T, 3&gt; currPC{};</div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>                T rsqr;</div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>                T error = G( currW, currPC, rsqr );</div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>                <span class="keywordflow">if</span> ( error &lt; minError )</div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>                {</div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>                    minError = error;</div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>                    resultedRootSquare = rsqr;</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>                    W = currW;</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>                    PC = currPC;</div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>                }</div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>            }</div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>        }</div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span> </div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        <span class="keywordflow">return</span> minError;</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>    }</div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span> </div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    <span class="keyword">class </span>BestHemisphereStoredData</div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>    {</div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>        T error = std::numeric_limits&lt;T&gt;::max();</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>        T rootSquare = std::numeric_limits&lt;T&gt;::max();</div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>        Eigen::Vector&lt;T, 3&gt; W;</div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>        Eigen::Vector&lt;T, 3&gt; PC;</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    };</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span> </div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    T fitCylindeHemisphereMultiThreaded( Eigen::Vector&lt;T, 3&gt;&amp; PC, Eigen::Vector&lt;T, 3&gt;&amp; W, T&amp; resultedRootSquare )<span class="keyword"> const</span></div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>        T <span class="keyword">const</span> theraStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( 2 * PI ) / thetaResolution_;</div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>        T <span class="keyword">const</span> phiStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( PI2 ) / phiResolution_;</div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>        <span class="comment">// problem in list. 16. =&gt; start from pole.</span></div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>        W = { 0, 0, 1 };</div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>        T minError = G( W, PC, resultedRootSquare );</div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span> </div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        std::vector&lt;BestHemisphereStoredData&gt; storedData;</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>        storedData.resize( phiResolution_ + 1 ); <span class="comment">//  [0 .. pi/2] +1 for include upper bound</span></div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span> </div>
-<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>        tbb::parallel_for( tbb::blocked_range&lt;size_t&gt;( <span class="keywordtype">size_t</span>( 0 ), phiResolution_ + 1 ),</div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>                           [&amp;] ( <span class="keyword">const</span> tbb::blocked_range&lt;size_t&gt;&amp; range )</div>
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>        {</div>
-<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>            <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> j = range.begin(); j &lt; range.end(); ++j )</div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>            {</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>        PC = beta;</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>        rsqr = std::max( T(0), pVec.dot( precomputedMu_ ) + beta.dot( beta ) ); <span class="comment">// the value can slightly below zero due to rounding-errors</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        <span class="keywordflow">return</span> error;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    }</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span> </div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    T fitCylindeHemisphereSingleThreaded( Eigen::Vector&lt;T, 3&gt;&amp; PC, Eigen::Vector&lt;T, 3&gt;&amp; W, T&amp; resultedRootSquare )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>        T <span class="keyword">const</span> theraStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( 2 * PI ) / thetaResolution_;</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>        T <span class="keyword">const</span> phiStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( PI2 ) / phiResolution_;</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        <span class="comment">// problem in list. 16. =&gt; start from pole.</span></div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>        W = { 0, 0, 1 };</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>        T minError = G( W, PC, resultedRootSquare );</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span> </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> j = 1; j &lt;= phiResolution_; ++j )</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>        {</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>            T phi = phiStep * j; <span class="comment">//  [0 .. pi/2]</span></div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>            T cosPhi = std::cos( phi );</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>            T sinPhi = std::sin( phi );</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>            <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; thetaResolution_; ++i )</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>            {</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>                T theta = theraStep * i; <span class="comment">//  [0 .. 2*pi)</span></div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>                T cosTheta = std::cos( theta );</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>                T sinTheta = std::sin( theta );</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>                Eigen::Vector&lt;T, 3&gt; currW{ cosTheta * sinPhi, sinTheta * sinPhi, cosPhi };</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>                Eigen::Vector&lt;T, 3&gt; currPC{};</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>                T rsqr;</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>                T error = G( currW, currPC, rsqr );</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>                <span class="keywordflow">if</span> ( error &lt; minError )</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>                {</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>                    minError = error;</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>                    resultedRootSquare = rsqr;</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>                    W = currW;</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>                    PC = currPC;</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>                }</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>            }</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        }</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>        <span class="keywordflow">return</span> minError;</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>    }</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    <span class="keyword">class </span>BestHemisphereStoredData</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    {</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>        T error = std::numeric_limits&lt;T&gt;::max();</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>        T rootSquare = std::numeric_limits&lt;T&gt;::max();</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>        Eigen::Vector&lt;T, 3&gt; W;</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>        Eigen::Vector&lt;T, 3&gt; PC;</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>    };</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span> </div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    T fitCylindeHemisphereMultiThreaded( Eigen::Vector&lt;T, 3&gt;&amp; PC, Eigen::Vector&lt;T, 3&gt;&amp; W, T&amp; resultedRootSquare )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>        T <span class="keyword">const</span> theraStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( 2 * PI ) / thetaResolution_;</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        T <span class="keyword">const</span> phiStep = <span class="keyword">static_cast&lt;</span> T <span class="keyword">&gt;</span>( PI2 ) / phiResolution_;</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span> </div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>        <span class="comment">// problem in list. 16. =&gt; start from pole.</span></div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>        W = { 0, 0, 1 };</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>        T minError = G( W, PC, resultedRootSquare );</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span> </div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>        std::vector&lt;BestHemisphereStoredData&gt; storedData;</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>        storedData.resize( phiResolution_ + 1 ); <span class="comment">//  [0 .. pi/2] +1 for include upper bound</span></div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>                T phi = phiStep * j; <span class="comment">// [0 .. pi/2]</span></div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                T cosPhi = std::cos( phi );</div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>                T sinPhi = std::sin( phi );</div>
-<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>                <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; thetaResolution_; ++i )</div>
-<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>                {</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>        tbb::parallel_for( tbb::blocked_range&lt;size_t&gt;( <span class="keywordtype">size_t</span>( 0 ), phiResolution_ + 1 ),</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                           [&amp;] ( <span class="keyword">const</span> tbb::blocked_range&lt;size_t&gt;&amp; range )</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>        {</div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>            <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> j = range.begin(); j &lt; range.end(); ++j )</div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>            {</div>
 <div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span> </div>
-<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>                    T theta = theraStep * i; <span class="comment">// [0 .. 2*pi)</span></div>
-<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>                    T cosTheta = std::cos( theta );</div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>                    T sinTheta = std::sin( theta );</div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>                    Eigen::Vector&lt;T, 3&gt; currW{ cosTheta * sinPhi, sinTheta * sinPhi, cosPhi };</div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>                    Eigen::Vector&lt;T, 3&gt; currPC{};</div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>                    T rsqr;</div>
-<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>                    T error = G( currW, currPC, rsqr );</div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
-<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>                    <span class="keywordflow">if</span> ( error &lt; storedData[j].error )</div>
-<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>                    {</div>
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>                        storedData[j].error = error;</div>
-<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>                        storedData[j].rootSquare = rsqr;</div>
-<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>                        storedData[j].W = currW;</div>
-<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>                        storedData[j].PC = currPC;</div>
-<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>                    }</div>
-<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>                }</div>
-<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>            }</div>
-<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>        }</div>
-<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>        );</div>
-<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span> </div>
-<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt;= phiResolution_; ++i )</div>
-<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>        {</div>
-<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>            <span class="keywordflow">if</span> ( storedData[i].error &lt; minError )</div>
-<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>            {</div>
-<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>                minError = storedData[i].error;</div>
-<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>                resultedRootSquare = storedData[i].rootSquare;</div>
-<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>                W = storedData[i].W;</div>
-<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>                PC = storedData[i].PC;</div>
-<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>            }</div>
-<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>        }</div>
-<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span> </div>
-<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>        <span class="keywordflow">return</span> minError;</div>
-<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>    };</div>
-<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span> </div>
-<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>    T SpecificAxisFit( Eigen::Vector&lt;T, 3&gt;&amp; PC, Eigen::Vector&lt;T, 3&gt;&amp; W, T&amp; resultedRootSquare )</div>
-<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>    {</div>
-<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>        W = baseCylinderAxis_;</div>
-<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>        <span class="keywordflow">return</span> G( W, PC, resultedRootSquare );</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>                T phi = phiStep * j; <span class="comment">// [0 .. pi/2]</span></div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>                T cosPhi = std::cos( phi );</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>                T sinPhi = std::sin( phi );</div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>                <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; thetaResolution_; ++i )</div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>                {</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span> </div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>                    T theta = theraStep * i; <span class="comment">// [0 .. 2*pi)</span></div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>                    T cosTheta = std::cos( theta );</div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>                    T sinTheta = std::sin( theta );</div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>                    Eigen::Vector&lt;T, 3&gt; currW{ cosTheta * sinPhi, sinTheta * sinPhi, cosPhi };</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>                    Eigen::Vector&lt;T, 3&gt; currPC{};</div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>                    T rsqr;</div>
+<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>                    T error = G( currW, currPC, rsqr );</div>
+<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span> </div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>                    <span class="keywordflow">if</span> ( error &lt; storedData[j].error )</div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>                    {</div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>                        storedData[j].error = error;</div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>                        storedData[j].rootSquare = rsqr;</div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>                        storedData[j].W = currW;</div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>                        storedData[j].PC = currPC;</div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>                    }</div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>                }</div>
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>            }</div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>        }</div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>        );</div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span> </div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt;= phiResolution_; ++i )</div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>        {</div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>            <span class="keywordflow">if</span> ( storedData[i].error &lt; minError )</div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>            {</div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>                minError = storedData[i].error;</div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>                resultedRootSquare = storedData[i].rootSquare;</div>
+<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>                W = storedData[i].W;</div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>                PC = storedData[i].PC;</div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>            }</div>
+<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>        }</div>
+<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span> </div>
+<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>        <span class="keywordflow">return</span> minError;</div>
 <div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>    };</div>
-<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>};</div>
+<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span> </div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>    T SpecificAxisFit( Eigen::Vector&lt;T, 3&gt;&amp; PC, Eigen::Vector&lt;T, 3&gt;&amp; W, T&amp; resultedRootSquare )</div>
+<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>    {</div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>        W = baseCylinderAxis_;</div>
+<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>        <span class="keywordflow">return</span> G( W, PC, resultedRootSquare );</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>    };</div>
+<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>};</div>
 </div>
-<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span> </div>
-<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>}</div>
-<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">MapObject::A</a></div><div class="ttdeci">@ A</div></div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span> </div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>}</div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
 <div class="ttc" id="aMRCylinder3_8h_html"><div class="ttname"><a href="MRCylinder3_8h.html">MRCylinder3.h</a></div></div>
 <div class="ttc" id="aMRMatrix_8h_html"><div class="ttname"><a href="MRMatrix_8h.html">MRMatrix.h</a></div></div>

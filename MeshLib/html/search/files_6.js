@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['imguihelpers_2eh_0',['ImGuiHelpers.h',['../ImGuiHelpers_8h.html',1,'']]],
-  ['imguimenu_2eh_1',['ImGuiMenu.h',['../ImGuiMenu_8h.html',1,'']]],
-  ['integration_2edox_2',['Integration.dox',['../Integration_8dox.html',1,'']]]
+  ['gettingstarted_2edox_0',['GettingStarted.dox',['../GettingStarted_8dox.html',1,'']]],
+  ['globalregistration_2edox_1',['GlobalRegistration.dox',['../GlobalRegistration_8dox.html',1,'']]],
+  ['globalregistration_2edox_2ec_2',['GlobalRegistration.dox.c',['../GlobalRegistration_8dox_8c.html',1,'']]],
+  ['globalregistration_2edox_2ecs_3',['GlobalRegistration.dox.cs',['../GlobalRegistration_8dox_8cs.html',1,'']]]
 ];

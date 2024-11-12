@@ -1,5 +1,12 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054":[6,0,0,5,2,4],
+"structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6":[6,0,0,5,2,0],
+"structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727":[6,0,0,5,2,0,0],
+"structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6af3521ec7c51139960b7e21cef6b936df":[6,0,0,5,2,0,1],
+"structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae":[6,0,0,5,2,5],
+"structMR_1_1ContoursDistanceMapOptions.html#abaa6a767d5ebd7c04e839e485898634f":[6,0,0,5,2,3],
+"structMR_1_1ContoursDistanceMapOptions.html#ad970162a0cd7b031b6f1394f856f5ba0":[6,0,0,5,2,6],
 "structMR_1_1ContoursDistanceMapOptions.html#ada938644fd6754f567016b529b5f7340":[6,0,0,5,2,1],
 "structMR_1_1CoordinateConverters.html":[6,0,1,0,12,148],
 "structMR_1_1CoordinateConverters.html":[6,0,2,0,1,133],
@@ -242,12 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,2,0,1,167,2],
 "structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[6,0,1,0,12,182,0],
 "structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[6,0,2,0,1,167,0],
-"structMR_1_1DividePolylineParameters.html#a78d5c2ea44136f73fe510d5950043a30":[6,0,1,0,12,182,5],
-"structMR_1_1DividePolylineParameters.html#a78d5c2ea44136f73fe510d5950043a30":[6,0,2,0,1,167,5],
-"structMR_1_1DividePolylineParameters.html#a980edf71338a26044da6655e80f5d8bd":[6,0,1,0,12,182,1],
-"structMR_1_1DividePolylineParameters.html#a980edf71338a26044da6655e80f5d8bd":[6,0,2,0,1,167,1],
-"structMR_1_1DividePolylineParameters.html#ac9aa163bbc5ba58ba30ce0dc8ba7a644":[6,0,1,0,12,182,3],
-"structMR_1_1DividePolylineParameters.html#ac9aa163bbc5ba58ba30ce0dc8ba7a644":[6,0,2,0,1,167,3],
-"structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,1,0,12,182,4],
-"structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,2,0,1,167,4]
+"structMR_1_1DividePolylineParameters.html#a78d5c2ea44136f73fe510d5950043a30":[6,0,1,0,12,182,5]
 };

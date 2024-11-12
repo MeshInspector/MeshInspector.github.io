@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mapobject_0',['MapObject',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587',1,'MR::BooleanResultMapper::MapObject'],['../MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246',1,'MapObject:&#160;MRBooleanResultMapper.h']]],
+  ['mapobject_0',['MapObject',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587',1,'MR::BooleanResultMapper']]],
   ['masktype_1',['MaskType',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457',1,'MR::MarkedVoxelSlice']]],
   ['meshcompression_2',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
   ['method_3',['Method',['../structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5',1,'MR::SelfIntersections::Settings::Method'],['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c',1,'MR::WebRequest::Method']]],
@@ -13,13 +13,15 @@ var searchData=
   ['mrbooleanoperation_10',['MRBooleanOperation',['../MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1a',1,'MRBooleanOperation.h']]],
   ['mrbooleanresultmappermapobject_11',['MRBooleanResultMapperMapObject',['../MRMeshC_2MRBooleanOperation_8h.html#a755f2ee37b0f54fb24695f20ff3baca1',1,'MRBooleanOperation.h']]],
   ['mrdecimatestrategy_12',['MRDecimateStrategy',['../MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1a',1,'MRMeshDecimate.h']]],
-  ['mrfillholemetricmultipleedgesresolvemode_13',['MRFillHoleMetricMultipleEdgesResolveMode',['../MRMeshC_2MRMeshFillHole_8h.html#a9bee3913133f05793398b65bee60be62',1,'MRMeshFillHole.h']]],
-  ['mrgeneraloffsetparametersmode_14',['MRGeneralOffsetParametersMode',['../MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119',1,'MROffset.h']]],
-  ['mricpexittype_15',['MRICPExitType',['../MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71',1,'MRICP.h']]],
-  ['mricpmethod_16',['MRICPMethod',['../MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4ed',1,'MRICP.h']]],
-  ['mricpmode_17',['MRICPMode',['../MRMeshC_2MRICP_8h.html#a557dd31f8dfe045d460e3563dd42b5d1',1,'MRICP.h']]],
-  ['mrmultiwayicpsamplingparameterscascademode_18',['MRMultiwayICPSamplingParametersCascadeMode',['../MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6',1,'MRMultiwayICP.h']]],
-  ['mronemeshintersectionvariantindex_19',['MROneMeshIntersectionVariantIndex',['../MRMeshC_2MRContoursCut_8h.html#abc5593afc3027ed39a928fa8f391417a',1,'MRContoursCut.h']]],
-  ['mrsigndetectionmode_20',['MRSignDetectionMode',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode.h']]],
-  ['multipleedgesresolvemode_21',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
+  ['mrfaceincidence_13',['MRFaceIncidence',['../MRMeshC_2MRMeshComponents_8h.html#a29eb97fb3eea56b72bf531ae7bce8dfd',1,'MRMeshComponents.h']]],
+  ['mrfillholemetricmultipleedgesresolvemode_14',['MRFillHoleMetricMultipleEdgesResolveMode',['../MRMeshC_2MRMeshFillHole_8h.html#a9bee3913133f05793398b65bee60be62',1,'MRMeshFillHole.h']]],
+  ['mrfixselfintersectionsmethod_15',['MRFixSelfIntersectionsMethod',['../MRMeshC_2MRFixSelfIntersections_8h.html#a5515261b4a58169e786ef301e51d02fe',1,'MRFixSelfIntersections.h']]],
+  ['mrgeneraloffsetparametersmode_16',['MRGeneralOffsetParametersMode',['../MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119',1,'MROffset.h']]],
+  ['mricpexittype_17',['MRICPExitType',['../MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71',1,'MRICP.h']]],
+  ['mricpmethod_18',['MRICPMethod',['../MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4ed',1,'MRICP.h']]],
+  ['mricpmode_19',['MRICPMode',['../MRMeshC_2MRICP_8h.html#a557dd31f8dfe045d460e3563dd42b5d1',1,'MRICP.h']]],
+  ['mrmultiwayicpsamplingparameterscascademode_20',['MRMultiwayICPSamplingParametersCascadeMode',['../MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6',1,'MRMultiwayICP.h']]],
+  ['mronemeshintersectionvariantindex_21',['MROneMeshIntersectionVariantIndex',['../MRMeshC_2MRContoursCut_8h.html#abc5593afc3027ed39a928fa8f391417a',1,'MRContoursCut.h']]],
+  ['mrsigndetectionmode_22',['MRSignDetectionMode',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode.h']]],
+  ['multipleedgesresolvemode_23',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
 ];

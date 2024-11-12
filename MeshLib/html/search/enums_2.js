@@ -1,7 +1,7 @@
 var searchData=
 [
   ['cachingmode_0',['CachingMode',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770d',1,'MR::MarchingCubesParams']]],
-  ['cascademode_1',['CascadeMode',['../structMultiwayICPSamplingParameters.html#a6a898018e0f66e857cec9c8999a3351f',1,'MultiwayICPSamplingParameters::CascadeMode'],['../structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58',1,'MR::MultiwayICPSamplingParameters::CascadeMode']]],
+  ['cascademode_1',['CascadeMode',['../structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58',1,'MR::MultiwayICPSamplingParameters']]],
   ['changetype_2',['ChangeType',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4',1,'MR::HistoryStore']]],
   ['coloringtype_3',['ColoringType',['../group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f',1,'MR']]],
   ['colortype_4',['ColorType',['../classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605bef',1,'MR::RibbonIcons']]],

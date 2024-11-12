@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/MRHistoryStore_8h_source.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -186,23 +154,26 @@ $(function(){initNavTree('MRHistoryStore_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <a class="code hl_enumvalue" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119">Undo</a>,</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <a class="code hl_enumvalue" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6">Redo</a>,</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_enumvalue" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2">Clear</a>,</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_enumvalue" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a">Filter</a></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    };</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_enumvalue" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f">PopAction</a>, </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_enumvalue" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a">Filter</a></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    };</div>
 </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">   70</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">HistoryStoreChangedSignal</a> = boost::signals2::signal&lt;void( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1HistoryStore.html">HistoryStore</a>&amp; store, <a class="code hl_enumeration" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4">ChangeType</a> )&gt;;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee">   71</a></span>    <a class="code hl_typedef" href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">HistoryStoreChangedSignal</a> <a class="code hl_variable" href="classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee">changedSignal</a>;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <a class="code hl_typedef" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a>* scopedBlock_{ <span class="keyword">nullptr</span> };</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <a class="code hl_typedef" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> stack_;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">size_t</span> firstRedoIndex_{ 0 };</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">size_t</span> savedSceneIndex_{ 0 };</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">size_t</span> storageLimit_{ size_t( ~0 ) };</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
-</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">   71</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">HistoryStoreChangedSignal</a> = boost::signals2::signal&lt;void( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1HistoryStore.html">HistoryStore</a>&amp; store, <a class="code hl_enumeration" href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4">ChangeType</a> )&gt;;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee">   72</a></span>    <a class="code hl_typedef" href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">HistoryStoreChangedSignal</a> <a class="code hl_variable" href="classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee">changedSignal</a>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <a class="code hl_typedef" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a>* scopedBlock_{ <span class="keyword">nullptr</span> };</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <a class="code hl_typedef" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> stack_;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">size_t</span> firstRedoIndex_{ 0 };</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">size_t</span> savedSceneIndex_{ 0 };</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">size_t</span> storageLimit_{ size_t( ~0 ) };</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>}</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">void</span> filterByMemoryLimit_();</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>};</div>
+</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>}</div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRSignal_8h_html"><div class="ttname"><a href="MRSignal_8h.html">MRSignal.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
@@ -211,7 +182,7 @@ $(function(){initNavTree('MRHistoryStore_8h_source.html',''); initResizable(true
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_a0bce5005471a434712469838de3edcd7"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a0bce5005471a434712469838de3edcd7">MR::HistoryStore::undo</a></div><div class="ttdeci">virtual MRVIEWER_API bool undo()</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_a1d11982a306bc53b5ccaddff114cd614"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614">MR::HistoryStore::~HistoryStore</a></div><div class="ttdeci">virtual MRVIEWER_API ~HistoryStore()</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_a34a9d69ae6d37fc5a5b4155b63d3c100"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a34a9d69ae6d37fc5a5b4155b63d3c100">MR::HistoryStore::filterStack</a></div><div class="ttdeci">MRVIEWER_API void filterStack(HistoryStackFilter filteringCondition, bool deepFiltering=true)</div><div class="ttdoc">remove some actions according to condition</div></div>
-<div class="ttc" id="aclassMR_1_1HistoryStore_html_a440531fdee4c587daae1e792a6c62410"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">MR::HistoryStore::HistoryStoreChangedSignal</a></div><div class="ttdeci">boost::signals2::signal&lt; void(const HistoryStore &amp;store, ChangeType)&gt; HistoryStoreChangedSignal</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:70</div></div>
+<div class="ttc" id="aclassMR_1_1HistoryStore_html_a440531fdee4c587daae1e792a6c62410"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410">MR::HistoryStore::HistoryStoreChangedSignal</a></div><div class="ttdeci">boost::signals2::signal&lt; void(const HistoryStore &amp;store, ChangeType)&gt; HistoryStoreChangedSignal</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:71</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_a44c0ab7153a1b5967525c1cea2fe4e67"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a44c0ab7153a1b5967525c1cea2fe4e67">MR::HistoryStore::getScopeBlockPtr</a></div><div class="ttdeci">HistoryActionsVector * getScopeBlockPtr() const</div><div class="ttdoc">Returns current scope ptr.</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:28</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_a45b3529c2a011c9abd585452550ac145"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145">MR::HistoryStore::getMemoryLimit</a></div><div class="ttdeci">size_t getMemoryLimit() const</div><div class="ttdoc">Returns current memory limit for this store (by default uint64 max)</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:43</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_a48c223a0850725e085ef49953af02cd1"><div class="ttname"><a href="classMR_1_1HistoryStore.html#a48c223a0850725e085ef49953af02cd1">MR::HistoryStore::setMemoryLimit</a></div><div class="ttdeci">void setMemoryLimit(size_t limit)</div><div class="ttdoc">Set memory limit for this store, if history stack exceed it - old actions are removed.</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:41</div></div>
@@ -224,6 +195,7 @@ $(function(){initNavTree('MRHistoryStore_8h_source.html',''); initResizable(true
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119"><div class="ttname"><a href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119">MR::HistoryStore::ChangeType::Undo</a></div><div class="ttdeci">@ Undo</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6"><div class="ttname"><a href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6">MR::HistoryStore::ChangeType::Redo</a></div><div class="ttdeci">@ Redo</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727"><div class="ttname"><a href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727">MR::HistoryStore::ChangeType::AppendAction</a></div><div class="ttdeci">@ AppendAction</div><div class="ttdoc">additions in scoped block does not provide signal</div></div>
+<div class="ttc" id="aclassMR_1_1HistoryStore_html_abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f"><div class="ttname"><a href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f">MR::HistoryStore::ChangeType::PopAction</a></div><div class="ttdeci">@ PopAction</div><div class="ttdoc">called after removing action that exceeds memory limit</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a"><div class="ttname"><a href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a">MR::HistoryStore::ChangeType::Filter</a></div><div class="ttdeci">@ Filter</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2"><div class="ttname"><a href="classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2">MR::HistoryStore::ChangeType::Clear</a></div><div class="ttdeci">@ Clear</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_ad29229f07b377f386fa783f9f178a3ba"><div class="ttname"><a href="classMR_1_1HistoryStore.html#ad29229f07b377f386fa783f9f178a3ba">MR::HistoryStore::appendAction</a></div><div class="ttdeci">virtual MRVIEWER_API void appendAction(const std::shared_ptr&lt; HistoryAction &gt; &amp;action)</div></div>
@@ -231,7 +203,7 @@ $(function(){initNavTree('MRHistoryStore_8h_source.html',''); initResizable(true
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_ae95320267281820e0d4bdb60d052085e"><div class="ttname"><a href="classMR_1_1HistoryStore.html#ae95320267281820e0d4bdb60d052085e">MR::HistoryStore::getLastActionName</a></div><div class="ttdeci">MRVIEWER_API std::string getLastActionName(HistoryAction::Type type) const</div><div class="ttdoc">Returns the name of last undo or redo action (or empty string if there is no such action)</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_aeaca3b28f85fa63c443235a4539cfa25"><div class="ttname"><a href="classMR_1_1HistoryStore.html#aeaca3b28f85fa63c443235a4539cfa25">MR::HistoryStore::clear</a></div><div class="ttdeci">MRVIEWER_API void clear()</div><div class="ttdoc">Clears this HistoryStore.</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_af2142010702571f062becfaf361b015c"><div class="ttname"><a href="classMR_1_1HistoryStore.html#af2142010702571f062becfaf361b015c">MR::HistoryStore::isSceneModified</a></div><div class="ttdeci">bool isSceneModified() const</div><div class="ttdoc">Returns true if the current scene state does not match the saved state.</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:33</div></div>
-<div class="ttc" id="aclassMR_1_1HistoryStore_html_afcedddcbe7c972d3a5b239e53a0f17ee"><div class="ttname"><a href="classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee">MR::HistoryStore::changedSignal</a></div><div class="ttdeci">HistoryStoreChangedSignal changedSignal</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:71</div></div>
+<div class="ttc" id="aclassMR_1_1HistoryStore_html_afcedddcbe7c972d3a5b239e53a0f17ee"><div class="ttname"><a href="classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee">MR::HistoryStore::changedSignal</a></div><div class="ttdeci">HistoryStoreChangedSignal changedSignal</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:72</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html_afd26beea23b71e238921b37d2baa32ad"><div class="ttname"><a href="classMR_1_1HistoryStore.html#afd26beea23b71e238921b37d2baa32ad">MR::HistoryStore::setScopeBlockPtr</a></div><div class="ttdeci">void setScopeBlockPtr(HistoryActionsVector *scopedBlock)</div><div class="ttdoc">Sets pointer to current scope block.</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:30</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a85276508657eac277a84365d3e41c118"><div class="ttname"><a href="namespaceMR.html#a85276508657eac277a84365d3e41c118">MR::HistoryStackFilter</a></div><div class="ttdeci">std::function&lt; bool(const std::shared_ptr&lt; HistoryAction &gt; &amp;)&gt; HistoryStackFilter</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:30</div></div>

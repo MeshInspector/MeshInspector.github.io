@@ -1,5 +1,6 @@
 var MRScalarConvert_8h =
 [
+    [ "M", "MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9", null ],
     [ "ScalarType", "MRScalarConvert_8h.html#a5d528348b4d27cfa92a1b565755099c8", [
       [ "UInt8", "MRScalarConvert_8h.html#a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a", null ],
       [ "Int8", "MRScalarConvert_8h.html#a5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539", null ],
@@ -15,5 +16,6 @@ var MRScalarConvert_8h =
       [ "Unknown", "MRScalarConvert_8h.html#a5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "Count", "MRScalarConvert_8h.html#a5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "getTypeConverter", "MRScalarConvert_8h.html#a0230f1515e422e1010078d5ffd15f11f", null ]
+    [ "getTypeConverter", "MRScalarConvert_8h.html#a0230f1515e422e1010078d5ffd15f11f", null ],
+    [ "visitScalarType", "MRScalarConvert_8h.html#ae86505f58081c90fd8f92538bff1673b", null ]
 ];

@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['registration_0',['Global Registration',['../ExampleCSharpGlobalRegistration.html',1,'CSharpCodeExamples']]],
-  ['registration_1',['Global registration',['../ExampleCGlobalRegistration.html',1,'CCodeExamples']]],
-  ['regular_20numpy_20grid_2',['Triangulation of a regular Numpy grid',['../ExamplePythonNumpyTriangulation.html',1,'PythonCodeExamples']]],
-  ['removing_20noise_20example_3',['Adding and removing noise Example',['../ExamplePythonNoiseDenoise.html',1,'PythonCodeExamples']]],
-  ['resolving_20mesh_20degeneration_4',['Resolving mesh degeneration',['../ExampleCMeshResolveDegenerations.html',1,'CCodeExamples']]]
+  ['registration_0',['Global Registration',['../ExampleGlobalRegistration.html',1,'Examples']]],
+  ['regular_20numpy_20grid_1',['Triangulation of a regular Numpy grid',['../ExampleNumpyTriangulation.html',1,'Examples']]],
+  ['removing_20noise_20example_2',['Adding and removing noise Example',['../ExampleNoiseDenoise.html',1,'Examples']]],
+  ['resolving_20mesh_20degeneration_3',['Resolving Mesh Degeneration',['../ExampleMeshResolveDegenerations.html',1,'Examples']]]
 ];

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['v2_0',['Simple triangulation V2',['../ExamplePythonTriangulationV2.html',1,'PythonCodeExamples']]],
-  ['v3_1',['Simple triangulation V3',['../ExamplePythonTriangulationV3.html',1,'PythonCodeExamples']]],
-  ['viewer_20example_2',['Viewer Example',['../ExamplePythonViewer.html',1,'PythonCodeExamples']]],
-  ['visualization_3',['Plotly visualization',['../ExamplePythonPlotly.html',1,'PythonCodeExamples']]]
+  ['using_20meshlib_20c_20on_20windows_0',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
+  ['using_20meshlib_20with_20c_1',['Using MeshLib with C#',['../MeshLibCSharpSetupGuide.html',1,'']]]
 ];

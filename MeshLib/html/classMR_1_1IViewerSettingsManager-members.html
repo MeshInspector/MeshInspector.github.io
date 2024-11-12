@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/classMR_1_1IViewerSettingsManager-members.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -139,11 +107,15 @@ $(function(){initNavTree('classMR_1_1IViewerSettingsManager.html',''); initResiz
 
 <p>This is the complete list of members for <a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ab9f733189fccd3f42fdaf8a567be0b21">loadInt</a>(const std::string &amp;name, int def=0)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84">loadSettings</a>(Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0">loadBool</a>(const std::string &amp;name, bool def=false)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ab9f733189fccd3f42fdaf8a567be0b21">loadInt</a>(const std::string &amp;name, int def=0)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84">loadSettings</a>(Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ac98d55ecfa50e04e63dfedf7493bb801">loadString</a>(const std::string &amp;name, const std::string &amp;def=&quot;&quot;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#aa9efd64388f302d29af0b3f52e02e1b9">resetSettings</a>(Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#af168e749a6c59588feb5c727fbe61f5e">saveInt</a>(const std::string &amp;name, int value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ae67af1a0e658385f3cdc6e77271e8a4d">saveSettings</a>(const Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#aa41a37036651e7f0cb04a0d4b65d106d">saveBool</a>(const std::string &amp;name, bool value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#af168e749a6c59588feb5c727fbe61f5e">saveInt</a>(const std::string &amp;name, int value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#ae67af1a0e658385f3cdc6e77271e8a4d">saveSettings</a>(const Viewer &amp;)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a9102818977eba48ae6d32a50ec265530">saveString</a>(const std::string &amp;name, const std::string &amp;value)=0</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665">~IViewerSettingsManager</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

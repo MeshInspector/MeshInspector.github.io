@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['datamodel_2edox_0',['DataModel.dox',['../DataModel_8dox.html',1,'']]]
+  ['basedapplication_2edox_0',['BasedApplication.dox',['../BasedApplication_8dox.html',1,'']]]
 ];

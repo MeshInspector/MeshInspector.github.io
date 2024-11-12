@@ -1,5 +1,12 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af26c10e919650426fe7e171b7b4b65ac":[6,0,1,0,12,620,0,4],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af26c10e919650426fe7e171b7b4b65ac":[6,0,2,0,1,605,0,4],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae":[6,0,1,0,12,620,0,0],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae":[6,0,2,0,1,605,0,0],
+"structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,1,0,12,620,1],
+"structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,2,0,1,605,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,1,0,12,622,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,2,0,1,607,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,1,0,12,622,0,6],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,2,0,1,607,0,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1TouchMoveListener.html#a75befbf816c33fde5c01cfa9967acca0":[6,0,2,0,1,628,1],
 "structMR_1_1TouchMoveListener.html#aeb673042a283a2decd342315c9357a27":[6,0,1,0,12,643,0],
 "structMR_1_1TouchMoveListener.html#aeb673042a283a2decd342315c9357a27":[6,0,2,0,1,628,0],
-"structMR_1_1TouchStartListener.html":[6,0,1,0,12,655],
-"structMR_1_1TouchStartListener.html":[6,0,2,0,1,640],
-"structMR_1_1TouchStartListener.html#a191e15a2a2e35b86e7ecc1bb205b07ed":[6,0,1,0,12,655,1],
-"structMR_1_1TouchStartListener.html#a191e15a2a2e35b86e7ecc1bb205b07ed":[6,0,2,0,1,640,1],
-"structMR_1_1TouchStartListener.html#abd9d0182569d3b60cf636495e4543172":[6,0,1,0,12,655,3],
-"structMR_1_1TouchStartListener.html#abd9d0182569d3b60cf636495e4543172":[6,0,2,0,1,640,3],
-"structMR_1_1TouchStartListener.html#acb10de50f86851cd66315029260e731b":[6,0,1,0,12,655,2],
-"structMR_1_1TouchStartListener.html#acb10de50f86851cd66315029260e731b":[6,0,2,0,1,640,2]
+"structMR_1_1TouchStartListener.html":[6,0,1,0,12,655]
 };

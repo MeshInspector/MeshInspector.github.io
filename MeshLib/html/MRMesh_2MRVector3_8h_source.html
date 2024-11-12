@@ -1,25 +1,6 @@
-<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/MRMesh_2MRVector3_8h_source.html" />
-<script type="text/javascript">
-  !function () {
-    var currentHost = window.location.hostname;
-    var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
-      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
-      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
-      window.location.replace(newURL);
-    }
-  }();
-</script>
-<script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
-  analytics.page();
-  }}();
-</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -39,24 +20,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeDarkModeToggle.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeInteractiveToc.init()
-</script>
-<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
-<script type="text/javascript">
-    DoxygenAwesomeTabs.init()
-</script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -206,7 +174,7 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    std::pair&lt;<a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a>, <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a>&gt; perpendicular() const <a class="code hl_define" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( std::floating_point&lt;T&gt; );</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="structMR_1_1Vector3.html#a94ed930d3cd00558703e397ba86c8483">   71</a></span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a> <a class="code hl_function" href="structMR_1_1Vector3.html#a94ed930d3cd00558703e397ba86c8483">transformed</a>( const <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3</a>&lt;T&gt;* xf ) const <a class="code hl_define" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( !std::same_as&lt;T, <span class="keywordtype">bool</span>&gt; )</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="structMR_1_1Vector3.html#ad5adf54cf9f87c667322de5350de9779">   71</a></span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a> <a class="code hl_function" href="structMR_1_1Vector3.html#ad5adf54cf9f87c667322de5350de9779">transformed</a>( const <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3</a>&lt;T&gt;* xf ) const <a class="code hl_define" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( std::floating_point&lt;T&gt; )</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <span class="keywordflow">return</span> xf ? ( *xf )( *this ) : *<span class="keyword">this</span>;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
@@ -398,11 +366,11 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:29</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRObjectDimensionsEnum_8h_html_af9d495c1655d813d553030485d00fea7"><div class="ttname"><a href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a></div><div class="ttdeci">length</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:14</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga042aeb0c2011b3bc175a13e96a447a5f"><div class="ttname"><a href="group__BasicGroup.html#ga042aeb0c2011b3bc175a13e96a447a5f">MR::operator-</a></div><div class="ttdeci">BitSet operator-(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:325</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga25c73b1f9e5d5df34b153869e3cb5515"><div class="ttname"><a href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">MR::begin</a></div><div class="ttdeci">auto begin(const BitSet &amp;a)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:263</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_ga042aeb0c2011b3bc175a13e96a447a5f"><div class="ttname"><a href="group__BasicGroup.html#ga042aeb0c2011b3bc175a13e96a447a5f">MR::operator-</a></div><div class="ttdeci">BitSet operator-(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:342</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_ga25c73b1f9e5d5df34b153869e3cb5515"><div class="ttname"><a href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">MR::begin</a></div><div class="ttdeci">auto begin(const BitSet &amp;a)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:280</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga300a438da6440ee7d2e92933bcfa6018"><div class="ttname"><a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a></div><div class="ttdeci">MRMESH_API bool operator==(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdoc">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but la...</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga3e268aab2816870aa045f278c6bd6ecd"><div class="ttname"><a href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">MR::end</a></div><div class="ttdeci">auto end(const BitSet &amp;)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:265</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_gafac0380481de66cc94765087e17be65d"><div class="ttname"><a href="group__BasicGroup.html#gafac0380481de66cc94765087e17be65d">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const SetBitIteratorT&lt; T &gt; &amp;a, const SetBitIteratorT&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:259</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_ga3e268aab2816870aa045f278c6bd6ecd"><div class="ttname"><a href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">MR::end</a></div><div class="ttdeci">auto end(const BitSet &amp;)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:282</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_gafac0380481de66cc94765087e17be65d"><div class="ttname"><a href="group__BasicGroup.html#gafac0380481de66cc94765087e17be65d">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const SetBitIteratorT&lt; T &gt; &amp;a, const SetBitIteratorT&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:276</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a37a45fe3367e0420cb18c30593415498"><div class="ttname"><a href="namespaceMR.html#a37a45fe3367e0420cb18c30593415498">MR::operator+=</a></div><div class="ttdeci">MRMESH_API TransformedMesh &amp; operator+=(TransformedMesh &amp;a, const TransformedMesh &amp;b)</div><div class="ttdoc">union operation on two meshes</div></div>
 <div class="ttc" id="anamespaceMR_html_a653c6d940d9780dba354cf0820ade180"><div class="ttname"><a href="namespaceMR.html#a653c6d940d9780dba354cf0820ade180">MR::operator/</a></div><div class="ttdeci">Color operator/(const Color &amp;b, float a)</div><div class="ttdef"><b>Definition</b> MRColor.h:128</div></div>
@@ -430,7 +398,6 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="ttc" id="astructMR_1_1Vector3_html_a8d2060921c3ecd7d080f93c50e1bec51"><div class="ttname"><a href="structMR_1_1Vector3.html#a8d2060921c3ecd7d080f93c50e1bec51">MR::Vector3::Vector3</a></div><div class="ttdeci">Vector3(NoInit) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:28</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_a8ecb748650561c957b8b73afd24288cb"><div class="ttname"><a href="structMR_1_1Vector3.html#a8ecb748650561c957b8b73afd24288cb">MR::Vector3::ValueType</a></div><div class="ttdeci">T ValueType</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:20</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_a91b0398c10d527ac2433b92451a3dfb8"><div class="ttname"><a href="structMR_1_1Vector3.html#a91b0398c10d527ac2433b92451a3dfb8">MR::Vector3::operator[]</a></div><div class="ttdeci">constexpr const T &amp; operator[](int e) const noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:43</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_a94ed930d3cd00558703e397ba86c8483"><div class="ttname"><a href="structMR_1_1Vector3.html#a94ed930d3cd00558703e397ba86c8483">MR::Vector3::transformed</a></div><div class="ttdeci">Vector3 furthestBasisVector() const MR_REQUIRES_IF_SUPPORTED(!std std::pair&lt; Vector3, Vector3 &gt; perpendicular() const MR_REQUIRES_IF_SUPPORTED(std Vector3 transformed(const AffineXf3&lt; T &gt; *xf) const MR_REQUIRES_IF_SUPPORTED(!std</div><div class="ttdoc">returns one of 3 basis unit vector that makes the biggest angle with the direction specified by this</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:71</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_a9b44af3c8a7c918cf88dac1811950e66"><div class="ttname"><a href="structMR_1_1Vector3.html#a9b44af3c8a7c918cf88dac1811950e66">MR::Vector3::length</a></div><div class="ttdeci">auto length() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:47</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_aa1b7f648b920d3afcfd29032b79ed8af"><div class="ttname"><a href="structMR_1_1Vector3.html#aa1b7f648b920d3afcfd29032b79ed8af">MR::Vector3::Vector3</a></div><div class="ttdeci">constexpr Vector3(T x, T y, T z) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:29</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_aa80c4d71ef5b56a6aaa251f91e636873"><div class="ttname"><a href="structMR_1_1Vector3.html#aa80c4d71ef5b56a6aaa251f91e636873">MR::Vector3::mixed</a></div><div class="ttdeci">T mixed(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdoc">mixed product</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:144</div></div>
@@ -439,6 +406,7 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="ttc" id="astructMR_1_1Vector3_html_ac519c0badafc5dd614c0c6f8b8b28994"><div class="ttname"><a href="structMR_1_1Vector3.html#ac519c0badafc5dd614c0c6f8b8b28994">MR::Vector3::sqr</a></div><div class="ttdeci">T sqr(const Vector3&lt; T &gt; &amp;a)</div><div class="ttdoc">squared length</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:137</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_ac91a0462b62bab22f973bb517dc805ca"><div class="ttname"><a href="structMR_1_1Vector3.html#ac91a0462b62bab22f973bb517dc805ca">MR::Vector3::angle</a></div><div class="ttdeci">T angle(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:167</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_accacc05b5f2af477f9cbf09f9d8f48f8"><div class="ttname"><a href="structMR_1_1Vector3.html#accacc05b5f2af477f9cbf09f9d8f48f8">MR::Vector3::Vector3</a></div><div class="ttdeci">constexpr Vector3(const Vector2&lt; T &gt; &amp;v) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:30</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_ad5adf54cf9f87c667322de5350de9779"><div class="ttname"><a href="structMR_1_1Vector3.html#ad5adf54cf9f87c667322de5350de9779">MR::Vector3::transformed</a></div><div class="ttdeci">Vector3 furthestBasisVector() const MR_REQUIRES_IF_SUPPORTED(!std std::pair&lt; Vector3, Vector3 &gt; perpendicular() const MR_REQUIRES_IF_SUPPORTED(std Vector3 transformed(const AffineXf3&lt; T &gt; *xf) const MR_REQUIRES_IF_SUPPORTED(std</div><div class="ttdoc">returns one of 3 basis unit vector that makes the biggest angle with the direction specified by this</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:71</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_ad61b88bc9db8f4f19652d6fe5f3f6b09"><div class="ttname"><a href="structMR_1_1Vector3.html#ad61b88bc9db8f4f19652d6fe5f3f6b09">MR::Vector3::Vector3</a></div><div class="ttdeci">constexpr Vector3(const Vector3&lt; U &gt; &amp;v) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:41</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_ad8b62d7466c2f210d9618cc9c3fe555f"><div class="ttname"><a href="structMR_1_1Vector3.html#ad8b62d7466c2f210d9618cc9c3fe555f">MR::Vector3::Vector3</a></div><div class="ttdeci">constexpr Vector3() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:27</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_ad98e6c5a5a1105c363500ee42693e0d3"><div class="ttname"><a href="structMR_1_1Vector3.html#ad98e6c5a5a1105c363500ee42693e0d3">MR::Vector3::minusZ</a></div><div class="ttdeci">static constexpr Vector3 minusZ() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:38</div></div>

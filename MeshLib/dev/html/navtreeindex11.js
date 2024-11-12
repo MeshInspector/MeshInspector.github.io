@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"MRSelectCurvaturePreference_8h_source.html":[6,0,3,0,0,2,9,89],
+"MRSelectObjectByClick_8h.html":[6,0,3,0,0,2,0,1,0],
 "MRSelectObjectByClick_8h_source.html":[6,0,3,0,0,2,0,1,0],
 "MRSelectScreenLasso_8h.html":[6,0,3,0,0,2,9,90],
 "MRSelectScreenLasso_8h.html#a29b6abcd794dd6dfbb8d197b6d944685":[6,0,3,0,0,2,9,90,3],
@@ -245,9 +247,7 @@ var NAVTREEINDEX11 =
 "MRTestC_2MRFixSelfIntersections_8h.html":[6,0,3,0,0,2,8,1],
 "MRTestC_2MRFixSelfIntersections_8h.html#adfe33d8ad7ee0d0670f1da8e8149ccd5":[6,0,3,0,0,2,8,1,0],
 "MRTestC_2MRFixSelfIntersections_8h_source.html":[6,0,3,0,0,2,8,1],
-"MRTestC_2MRMeshBoolean_8h.html":[6,0,3,0,0,2,8,2],
-"MRTestC_2MRMeshBoolean_8h.html#a2f41caf40648cfb10b4e577f6c28eb67":[6,0,3,0,0,2,8,2,0],
-"MRTestC_2MRMeshBoolean_8h.html#a63a04945e713022000deaecea1568ffb":[6,0,3,0,0,2,8,2,2],
-"MRTestC_2MRMeshBoolean_8h.html#a9ab986369092d07d398bb40c630acc47":[6,0,3,0,0,2,8,2,1],
-"MRTestC_2MRMeshBoolean_8h_source.html":[6,0,3,0,0,2,8,2]
+"MRTestC_2MRMeshBoolean_8h.html":[6,0,3,0,0,2,8,3],
+"MRTestC_2MRMeshBoolean_8h.html#a2f41caf40648cfb10b4e577f6c28eb67":[6,0,3,0,0,2,8,3,0],
+"MRTestC_2MRMeshBoolean_8h.html#a63a04945e713022000deaecea1568ffb":[6,0,3,0,0,2,8,3,2]
 };

@@ -13,9 +13,10 @@ var MRVDBConversions_8h =
     [ "meshToDistanceField", "MRVDBConversions_8h.html#a3327e8bcfee1e492daeb80b3500c2ca2", null ],
     [ "meshToLevelSet", "MRVDBConversions_8h.html#adc86f37e5a8bb2c7c0b30dfc636d8e90", null ],
     [ "meshToVolume", "MRVDBConversions_8h.html#ab26a3095c2f054ad6f7ecab11ff7b7ff", null ],
-    [ "simpleVolumeToDenseGrid", "MRVDBConversions_8h.html#af2da9d310d84ddf678a6c52386f0c1ae", null ],
+    [ "putSimpleVolumeInDenseGrid", "MRVDBConversions_8h.html#aba29bf5baab2e1924aeb45b624a3c821", null ],
+    [ "simpleVolumeToDenseGrid", "MRVDBConversions_8h.html#a8c3054d7ec46286f79367b0f93ffddb0", null ],
     [ "simpleVolumeToVdbVolume", "MRVDBConversions_8h.html#a4ad0e96439eebbb67a8dbd2aa0f3ca49", null ],
     [ "vdbVolumeToSimpleVolume", "MRVDBConversions_8h.html#a0d8e39754438588fbde8b091279db752", null ],
-    [ "vdbVolumeToSimpleVolumeNorm", "MRVDBConversions_8h.html#ac13064dba7bd11b38300ad6cba345323", null ],
-    [ "vdbVolumeToSimpleVolumeU16", "MRVDBConversions_8h.html#acd73bfe15e1122611561bc6d72511542", null ]
+    [ "vdbVolumeToSimpleVolumeNorm", "MRVDBConversions_8h.html#a7c6e921b59b28810967128b1e54c4a51", null ],
+    [ "vdbVolumeToSimpleVolumeU16", "MRVDBConversions_8h.html#a2d250c00f768edc4ac0ae283ac571ba4", null ]
 ];

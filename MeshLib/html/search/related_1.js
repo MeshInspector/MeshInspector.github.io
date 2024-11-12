@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['changeboundaryselectionhistoryaction_0',['ChangeBoundarySelectionHistoryAction',['../classMR_1_1BoundarySelectionWidget.html#a14ed83528f3fdbb996f9d5cf5d86fa55',1,'MR::BoundarySelectionWidget']]],
-  ['changepointactionpickerpoint_1',['ChangePointActionPickerPoint',['../classMR_1_1SurfaceContoursWidget.html#a04b939afb7bf8b265a3860c30df1d80d',1,'MR::SurfaceContoursWidget']]]
+  ['getviewerinstance_0',['getViewerInstance',['../classMR_1_1Viewer.html#a6d89aa105ff76f0ef98adf92b5e6afb4',1,'MR::Viewer']]]
 ];

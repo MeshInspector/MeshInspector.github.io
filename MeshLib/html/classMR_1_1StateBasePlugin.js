@@ -22,5 +22,6 @@ var classMR_1_1StateBasePlugin =
     [ "dialogIsCollapsed_", "classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4", null ],
     [ "dialogIsOpen_", "classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204", null ],
     [ "isEnabled_", "classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c", null ],
+    [ "plugin_name", "classMR_1_1StateBasePlugin.html#a3e0c7bd65afe7b25c1f4be31e13ea0c5", null ],
     [ "tab_", "classMR_1_1StateBasePlugin.html#ac3e8d3db81bf9d8a316c46e82f369980", null ]
 ];
