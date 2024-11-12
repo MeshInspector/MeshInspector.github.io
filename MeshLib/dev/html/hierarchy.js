@@ -994,7 +994,6 @@ var hierarchy =
     [ "MR::SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", [
       [ "MR::RibbonSceneObjectsListDrawer", "classMR_1_1RibbonSceneObjectsListDrawer.html", null ]
     ] ],
-    [ "MR::SceneReorder", "structMR_1_1SceneReorder.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],
     [ "MR::SceneTextureGL", "classMR_1_1SceneTextureGL.html", null ],

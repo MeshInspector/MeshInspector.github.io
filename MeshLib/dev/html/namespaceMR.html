@@ -1400,8 +1400,6 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneObjectsListDrawer.html">SceneObjectsListDrawer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class for drawing a list of scene objects (and handling interaction with it)  <a href="classMR_1_1SceneObjectsListDrawer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SceneReorder.html">SceneReorder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneRoot.html">SceneRoot</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneRootObject.html">SceneRootObject</a></td></tr>
@@ -5374,8 +5372,6 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:af2d7af993188c7b28f07b6273c7fa6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad78e1df5c571e394b7846979126d6ade" id="r_ad78e1df5c571e394b7846979126d6ade"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; Json::Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad78e1df5c571e394b7846979126d6ade">parseResponse</a> (const Json::Value &amp;response)</td></tr>
 <tr class="separator:ad78e1df5c571e394b7846979126d6ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7b59424fe3d8f4942cfc555758c294a" id="r_af7b59424fe3d8f4942cfc555758c294a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7b59424fe3d8f4942cfc555758c294a">sceneReorderWithUndo</a> (const <a class="el" href="structMR_1_1SceneReorder.html">SceneReorder</a> &amp;task)</td></tr>
-<tr class="separator:af7b59424fe3d8f4942cfc555758c294a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1eec874d8d4e923bb36851ae2456eff" id="r_af1eec874d8d4e923bb36851ae2456eff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OriginAndDimensions.html">OriginAndDimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1eec874d8d4e923bb36851ae2456eff">calcOriginAndDimensions</a> (const Box3f &amp;box, float voxelSize)</td></tr>
 <tr class="memdesc:af1eec874d8d4e923bb36851ae2456eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes origin and dimensions of voxel-grid to cover given 3D box with given spacing (voxelSize)  <br /></td></tr>
 <tr class="separator:af1eec874d8d4e923bb36851ae2456eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -27224,24 +27220,6 @@ template&lt;typename Accessor &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="af7b59424fe3d8f4942cfc555758c294a" name="af7b59424fe3d8f4942cfc555758c294a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7b59424fe3d8f4942cfc555758c294a">&#9670;&#160;</a></span>sceneReorderWithUndo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::sceneReorderWithUndo </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SceneReorder.html">SceneReorder</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>task</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>moves objects in scene as prescribed by (task), preserving world location of each object; </p><dl class="section return"><dt>Returns</dt><dd>false if the move failed </dd></dl>
 
 </div>
 </div>

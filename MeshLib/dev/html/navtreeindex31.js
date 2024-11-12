@@ -1,8 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classMR_1_1PlaneWidget.html":[6,0,2,0,1,422],
-"classMR_1_1PlaneWidget.html#a02b1ad4d4554be85b3e272be50cd7095":[6,0,1,0,12,437,3],
-"classMR_1_1PlaneWidget.html#a02b1ad4d4554be85b3e272be50cd7095":[6,0,2,0,1,422,3],
 "classMR_1_1PlaneWidget.html#a1734d155421e7bea066ad89085f451af":[6,0,1,0,12,437,8],
 "classMR_1_1PlaneWidget.html#a1734d155421e7bea066ad89085f451af":[6,0,2,0,1,422,8],
 "classMR_1_1PlaneWidget.html#a2d610de7f459407dbb91a6bab7e7e3ba":[6,0,1,0,12,437,15],
@@ -249,5 +246,8 @@ var NAVTREEINDEX31 =
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a":[6,0,2,0,1,471,2,0],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689":[6,0,1,0,12,486,2,1],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689":[6,0,2,0,1,471,2,1],
-"classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,12,486,2,2]
+"classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,12,486,2,2],
+"classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,471,2,2],
+"classMR_1_1PythonExport.html#a595ac26b1d2a27a14a95bbc5a1963532":[6,0,1,0,12,486,3],
+"classMR_1_1PythonExport.html#a595ac26b1d2a27a14a95bbc5a1963532":[6,0,2,0,1,471,3]
 };
