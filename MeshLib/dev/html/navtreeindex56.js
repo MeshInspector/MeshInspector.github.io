@@ -1,5 +1,9 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,12,35,1],
+"namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,1,0,12,35,1,0],
+"namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe":[6,0,1,0,12,35,1,1],
+"namespaceMR_1_1StyleConsts_1_1Notification.html":[6,0,1,0,12,35,2],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a40b832fe75f008db0d06d0ce99d54600":[6,0,1,0,12,35,2,6],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a4c0e53ab35221788afdf9df8298f8e3b":[6,0,1,0,12,35,2,5],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a85ff61268fac639e5871b152b1834e4d":[6,0,1,0,12,35,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX56 =
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,1,1,2],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
-"structImGui_1_1MultiDragRes.html":[6,0,1,0,1,2],
-"structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2],
-"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,1,2,0],
-"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,2,0,0,2,0],
-"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,1,0,1,2,1]
+"structImGui_1_1MultiDragRes.html":[6,0,1,0,1,2]
 };

@@ -720,6 +720,7 @@ var annotated_dup =
       [ "SceneCache", "classMR_1_1SceneCache.html", "classMR_1_1SceneCache" ],
       [ "SceneColors", "structMR_1_1SceneColors.html", "structMR_1_1SceneColors" ],
       [ "SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", "classMR_1_1SceneObjectsListDrawer" ],
+      [ "SceneReorder", "structMR_1_1SceneReorder.html", "structMR_1_1SceneReorder" ],
       [ "SceneRoot", "classMR_1_1SceneRoot.html", null ],
       [ "SceneRootObject", "classMR_1_1SceneRootObject.html", "classMR_1_1SceneRootObject" ],
       [ "SceneSelectionChangeClose", "classMR_1_1SceneSelectionChangeClose.html", "classMR_1_1SceneSelectionChangeClose" ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,12,88,1],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,73,1],
+"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,39],
 "classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,36],
 "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,36,4],
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,36,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc":[6,0,0,4,29,3],
 "classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24":[6,0,0,4,29,2],
 "classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b":[6,0,0,4,29,0],
-"classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2":[6,0,0,4,29,1],
-"classMR_1_1CircleObject.html":[6,0,0,11,0,0],
-"classMR_1_1CircleObject.html#a04d619d722a2253079706d64e5c9ef70":[6,0,0,11,0,0,13],
-"classMR_1_1CircleObject.html#a1736c81bbbed02bdefb9e95d8b991724":[6,0,0,11,0,0,15]
+"classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2":[6,0,0,4,29,1]
 };
