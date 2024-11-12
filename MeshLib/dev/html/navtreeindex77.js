@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,1,0,12,665,3],
 "structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,2,0,1,650,3],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,1,0,12,37,2],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,2,0,1,23,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1UnitToStringParams.html#af5c03b75a184cdc31e4591f61fddedf9":[6,0,1,0,12,677,12],
 "structMR_1_1UnitToStringParams.html#af5c03b75a184cdc31e4591f61fddedf9":[6,0,2,0,1,662,12],
 "structMR_1_1UniteManyMeshesParams.html":[6,0,1,0,12,675],
-"structMR_1_1UniteManyMeshesParams.html":[6,0,2,0,1,660],
-"structMR_1_1UniteManyMeshesParams.html#a28505f79efacbde9b70d5d98148c26e4":[6,0,1,0,12,675,0]
+"structMR_1_1UniteManyMeshesParams.html":[6,0,2,0,1,660]
 };

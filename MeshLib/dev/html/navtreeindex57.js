@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,2,0,0,2,1],
 "structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,1,0,1,2,2],
 "structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,2,0,0,2,2],
 "structMRAffineXf3f.html":[6,0,2,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1AABBTreePoints_1_1Node.html#a8421156508934dc148c12b4ca83f9eec":[6,0,0,1,6,0,4],
 "structMR_1_1AABBTreePoints_1_1Point.html":[6,0,0,1,6,1],
 "structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be":[6,0,0,1,6,1,0],
-"structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077":[6,0,0,1,6,1,1],
-"structMR_1_1AABBTreeTraits.html":[6,0,0,1,3]
+"structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077":[6,0,0,1,6,1,1]
 };

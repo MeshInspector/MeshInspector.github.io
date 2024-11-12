@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,1,0,12,532,0,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,2,0,1,517,0,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,12,528,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,1,513,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,1,0,12,586,1],
 "structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,2,0,1,571,1],
 "structMR_1_1SharpOffsetParameters.html":[6,0,1,0,12,589],
-"structMR_1_1SharpOffsetParameters.html":[6,0,2,0,1,574],
-"structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,1,0,12,589,0]
+"structMR_1_1SharpOffsetParameters.html":[6,0,2,0,1,574]
 };

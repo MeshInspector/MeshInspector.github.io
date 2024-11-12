@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,2,0,1,133,0],
 "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,1,0,12,148,1],
 "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,2,0,1,133,1],
 "structMR_1_1CoordinateConverters2.html":[6,0,1,0,12,149],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DoubleOffsetSettings.html":[6,0,1,0,12,183],
 "structMR_1_1DoubleOffsetSettings.html":[6,0,2,0,1,168],
 "structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,1,0,12,183,1],
-"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,2,0,1,168,1],
-"structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,1,0,12,183,5]
+"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,2,0,1,168,1]
 };

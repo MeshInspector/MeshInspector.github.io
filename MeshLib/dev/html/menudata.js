@@ -51,6 +51,7 @@ var menudata={children:[
 {text:"Mesh Denoise",url:"ExampleNoiseDenoise.html#ExampleNoiseDenoise"},
 {text:"Triangulation",url:"ExampleTriangulation.html#ExampleTriangulation"}]},
 {text:"Python Specific Samples",url:"usergroup1.html",children:[
+{text:"Viewer",url:"ExampleViewer.html#ExampleViewer"},
 {text:"Plotly Visualization",url:"ExamplePlotly.html#ExamplePlotly"},
 {text:"Using Numpy",url:"ExampleNumpy.html#ExampleNumpy"},
 {text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html#ExampleNumpyTriangulation"}]}]},

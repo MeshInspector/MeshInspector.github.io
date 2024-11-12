@@ -23,7 +23,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Examples</title>
+<title>MeshLib: Viewer Example</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,7 +109,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('Examples.html',''); initResizable(true); });
+$(function(){initNavTree('ExampleViewer.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -135,41 +135,69 @@ $(function(){initNavTree('Examples.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Examples</div></div>
+  <div class="headertitle"><div class="title">Viewer Example</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This page contains some examples of using MeshLib</p>
-<h2><a class="anchor" id="GeneralExamples"></a>
-General Samples</h2>
-<p><a class="el" href="BasedApplication.html">Basing your application on MeshLib</a></p>
-<p><a class="el" href="ExampleMeshLoadSave.html">Loading and saving mesh files</a></p>
-<p><a class="el" href="ExampleMeshExport.html">Mesh export</a></p>
-<p><a class="el" href="ExampleMeshModification.html">Mesh modification</a></p>
-<p><a class="el" href="ExampleMeshBoolean.html">Mesh Boolean</a></p>
-<p><a class="el" href="ExampleMeshDecimate.html">Mesh Decimation</a></p>
-<p><a class="el" href="ExampleMeshOffset.html">Mesh Offset</a></p>
-<p><a class="el" href="ExampleMeshFillHole.html">Filling Holes</a></p>
-<p><a class="el" href="ExampleMeshStitchHole.html">Stitching holes</a></p>
-<p><a class="el" href="ExampleMeshResolveDegenerations.html">Resolving Mesh Degeneration</a></p>
-<p><a class="el" href="ExampleGlobalRegistration.html">Global Registration</a></p>
-<p><a class="el" href="ExampleMeshICP.html">Mesh ICP</a></p>
-<p><a class="el" href="ExampleMeshExtrude.html">Mesh extrude</a></p>
-<p><a class="el" href="ExampleFreeForm.html">Free Form Deformation Example</a></p>
-<p><a class="el" href="ExampleLaplacian.html">Laplacian deformation Example</a></p>
-<p><a class="el" href="ExampleNoiseDenoise.html">Adding and removing noise Example</a></p>
-<p><a class="el" href="ExampleTriangulation.html">Simple triangulation</a></p>
-<h2><a class="anchor" id="PythonSpecificExamples"></a>
-Python Specific Samples</h2>
-<p><a class="el" href="ExampleViewer.html">Viewer Example</a></p>
-<p><a class="el" href="ExamplePlotly.html">Plotly visualization</a></p>
-<p><a class="el" href="ExampleNumpy.html">Numpy support</a></p>
-<p><a class="el" href="ExampleNumpyTriangulation.html">Triangulation of a regular Numpy grid</a> </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>Example of using <a class="el" href="namespaceViewer.html">Viewer</a></p>
+<div class="tabbed"></div><div class="tabbed"><ul>
+<li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python version 3 and later</dd></dl>
+<div class="fragment"><div class="line"><span class="keyword">import</span> os</div>
+<div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
+<div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrviewerpy <span class="keyword">as</span> mv</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Load mesh</span></div>
+<div class="line">mesh = mm.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Setup parameters</span></div>
+<div class="line">params = mm.OffsetParameters()</div>
+<div class="line">params.voxelSize = mesh.computeBoundingBox().diagonal() * 5e-3  <span class="comment"># offset grid precision (algorithm is voxel based)</span></div>
+<div class="line"><span class="keywordflow">if</span> mm.findRightBoundary(mesh.topology).empty():</div>
+<div class="line">    params.signDetectionMode = mm.SignDetectionMode.HoleWindingRule  <span class="comment"># use if you have holes in mesh</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Make offset mesh</span></div>
+<div class="line">offset = mesh.computeBoundingBox().diagonal() * 0.05</div>
+<div class="line">result_mesh = mm.offsetMesh(mesh, offset, params)</div>
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line">mv.launch() <span class="comment"># a window will be opened</span></div>
+<div class="line">mv.addMeshToScene(mesh, <span class="stringliteral">&quot;Mesh 1&quot;</span>) <span class="comment"># show initial mesh</span></div>
+<div class="line">mv.Viewer().preciseFitDataViewport() <span class="comment"># fit viewer to the mesh</span></div>
+<div class="line">mv.selectByName(<span class="stringliteral">&quot;Mesh 1&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line">mv.Viewer().preciseFitDataViewport() <span class="comment"># fit viewer to the mesh</span></div>
+<div class="line">mv.Viewer().showSceneTree(<span class="keyword">True</span>) <span class="comment"># enables Scene Tree in Viewer window</span></div>
+<div class="line"><span class="comment"># user can manipulate with viewer window while this python is on pause</span></div>
+<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># remove all objects from scene</span></div>
+<div class="line">mv.clearScene()</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># add offset mesh to scene</span></div>
+<div class="line">mv.addMeshToScene(result_mesh, <span class="stringliteral">&quot;Mesh Offset&quot;</span>)</div>
+<div class="line">mv.selectByName(<span class="stringliteral">&quot;Mesh Offset&quot;</span>)</div>
+<div class="line">mv.Viewer().showSceneTree(<span class="keyword">False</span>) <span class="comment"># disables Scene Tree in Viewer window</span></div>
+<div class="line"><span class="comment"># user can manipulate with viewer window while this python is on pause</span></div>
+<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># close viewer window nicely</span></div>
+<div class="line">mv.Viewer().shutdown()</div>
+<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
+</div><!-- fragment --> <a class="el" href="namespaceViewer.html">Viewer</a> with scene tree <div class="image">
+<img src="Viewer_with_scene_tree.png" alt=""/>
+</div>
+ <a class="el" href="namespaceViewer.html">Viewer</a> without scene tree <div class="image">
+<img src="Viewer_without_scene_tree.png" alt=""/>
+</div>
+ <dl class="section note"><dt>Note</dt><dd>Unfortunately viewer now does not work on macOS</dd></dl>
+</li>
+</ul>
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="Examples.html">Examples</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

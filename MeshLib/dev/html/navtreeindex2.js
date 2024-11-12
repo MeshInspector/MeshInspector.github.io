@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MREnums_8h_source.html":[6,0,3,0,0,2,3,87],
 "MRExpandShrink_8h.html":[6,0,3,0,0,2,3,88],
 "MRExpandShrink_8h.html#a2193258ddab048b2b194a3ccb5a9f450":[6,0,3,0,0,2,3,88,6],
 "MRExpandShrink_8h.html#a2d87795b56c83f35a83349cc59d42982":[6,0,3,0,0,2,3,88,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRIOFilesMenuItems_8h.html#abf9e7451b5087b4485b6207161438dc3":[6,0,3,0,0,2,0,2,1,10],
 "MRIOFilesMenuItems_8h_source.html":[6,0,3,0,0,2,0,2,1],
 "MRIOFilters_8h.html":[6,0,3,0,0,2,3,137],
-"MRIOFilters_8h_source.html":[6,0,3,0,0,2,3,137],
-"MRIOFormatsRegistry_8h.html":[6,0,3,0,0,2,3,138]
+"MRIOFilters_8h_source.html":[6,0,3,0,0,2,3,137]
 };

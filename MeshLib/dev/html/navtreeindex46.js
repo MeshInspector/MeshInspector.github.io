@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"globals_func_b.html":[6,0,3,1,1,1],
 "globals_func_c.html":[6,0,3,1,1,2],
 "globals_func_m.html":[6,0,3,1,1,3],
 "globals_func_n.html":[6,0,3,1,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "group__ConstantsGroup.html":[6,0,0,0,3],
 "group__ContourGroup.html":[6,0,0,0,4],
 "group__ContourGroup.html#ga26c30f9854727f0939ed682d6715fb95":[6,0,0,0,4,1],
-"group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369":[6,0,0,0,4,3],
-"group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3":[6,0,0,0,4,0]
+"group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369":[6,0,0,0,4,3]
 };

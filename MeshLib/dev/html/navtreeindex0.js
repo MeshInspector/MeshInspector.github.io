@@ -21,10 +21,11 @@ var NAVTREEINDEX0 =
 "ExampleMeshResolveDegenerations.html#ExampleMeshResolveDegenerations":[4,0,9],
 "ExampleMeshStitchHole.html#ExampleMeshStitchHole":[4,0,8],
 "ExampleNoiseDenoise.html#ExampleNoiseDenoise":[4,0,15],
-"ExampleNumpy.html#ExampleNumpy":[4,1,1],
-"ExampleNumpyTriangulation.html#ExampleNumpyTriangulation":[4,1,2],
-"ExamplePlotly.html#ExamplePlotly":[4,1,0],
+"ExampleNumpy.html#ExampleNumpy":[4,1,2],
+"ExampleNumpyTriangulation.html#ExampleNumpyTriangulation":[4,1,3],
+"ExamplePlotly.html#ExamplePlotly":[4,1,1],
 "ExampleTriangulation.html#ExampleTriangulation":[4,0,16],
+"ExampleViewer.html#ExampleViewer":[4,1,0],
 "Examples.html":[4],
 "FirstPluginTutorial.html":[3,0],
 "FreeFormDeformation_8dox_8py.html":[6,0,3,0,0,1,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRChangeMeshAction_8h_source.html":[6,0,3,0,0,2,3,35],
 "MRChangeNameAction_8h.html":[6,0,3,0,0,2,3,36],
 "MRChangeNameAction_8h_source.html":[6,0,3,0,0,2,3,36],
-"MRChangeObjectAction_8h.html":[6,0,3,0,0,2,3,37],
-"MRChangeObjectAction_8h_source.html":[6,0,3,0,0,2,3,37]
+"MRChangeObjectAction_8h.html":[6,0,3,0,0,2,3,37]
 };
