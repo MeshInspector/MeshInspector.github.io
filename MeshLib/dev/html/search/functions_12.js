@@ -302,7 +302,7 @@ var searchData=
   ['setprogressholder_299',['setProgressHolder',['../classMR_1_1RangeProcessorSingle.html#a3f5ff3966e98c9b5929ff84cabf90fb0',1,'MR::RangeProcessorSingle']]],
   ['setquality_300',['setQuality',['../classMR_1_1ShadowsGL.html#af9db8ab9dcc3eb53d435f5c2da5425f0',1,'MR::ShadowsGL']]],
   ['setquickaccesslistversion_301',['setQuickAccessListVersion',['../classMR_1_1RibbonMenu.html#a97c470b0974a29e162afe5b7393113e3',1,'MR::RibbonMenu']]],
-  ['setradius_302',['setRadius',['../classMR_1_1CircleObject.html#ababfe6f501a0f05c1a79a789d2d53781',1,'MR::CircleObject::setRadius()'],['../classMR_1_1CylinderObject.html#a4ff9a75c7180439cdf58a904814890af',1,'MR::CylinderObject::setRadius()'],['../classMR_1_1SphereObject.html#a4a1be24cee773621f3f68630079dce06',1,'MR::SphereObject::setRadius()'],['../classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b',1,'MR::TransformControls::setRadius()']]],
+  ['setradius_302',['setRadius',['../classMR_1_1CircleObject.html#ababfe6f501a0f05c1a79a789d2d53781',1,'MR::CircleObject::setRadius()'],['../classMR_1_1CylinderObject.html#a4ff9a75c7180439cdf58a904814890af',1,'MR::CylinderObject::setRadius()'],['../classMR_1_1SphereObject.html#a4a1be24cee773621f3f68630079dce06',1,'MR::SphereObject::setRadius()']]],
   ['setrangeminmax_303',['setRangeMinMax',['../classMR_1_1Palette.html#a7d6dd19e47f31c6e502113f4b413ff77',1,'MR::Palette']]],
   ['setrangeminmaxnegpos_304',['setRangeMinMaxNegPos',['../classMR_1_1Palette.html#aa4516e9a134ac39f12c28ba08bc1b7e8',1,'MR::Palette']]],
   ['setrefgridpointposition_305',['setRefGridPointPosition',['../classMR_1_1FreeFormDeformer.html#a2a9d732a3f8a4e282739319c0a79eb95',1,'MR::FreeFormDeformer']]],
