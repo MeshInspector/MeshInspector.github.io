@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1AABBTreePoints_1_1Node.html#a8421156508934dc148c12b4ca83f9eec":[6,0,0,1,6,0,4],
+"structMR_1_1AABBTreePoints_1_1Point.html":[6,0,0,1,6,1],
+"structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be":[6,0,0,1,6,1,0],
+"structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077":[6,0,0,1,6,1,1],
 "structMR_1_1AABBTreeTraits.html":[6,0,0,1,3],
 "structMR_1_1AABBTreeTraits.html#a0a4c21a59ab274d8edaf4ecf3702bb7a":[6,0,0,1,3,2],
 "structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[6,0,0,1,3,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BindVertexAttribArraySettings.html#ae5e71ac65ba00245ac2ee44f35f33168":[6,0,1,0,12,72,4],
 "structMR_1_1BindVertexAttribArraySettings.html#ae5e71ac65ba00245ac2ee44f35f33168":[6,0,2,0,1,57,4],
 "structMR_1_1BooleanInternalParameters.html":[6,0,0,8,1],
-"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,1],
-"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,0],
-"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,2],
-"structMR_1_1BooleanParameters.html":[6,0,1,0,12,76],
-"structMR_1_1BooleanParameters.html":[6,0,2,0,1,61]
+"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,1]
 };
