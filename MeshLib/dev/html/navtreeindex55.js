@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"namespaceMR.html#af70abcbee5fc303daa9a2cbbea864ac8":[6,0,1,0,12,1888],
+"namespaceMR.html#af72956816e655beb855e0c6a777d9be1":[6,0,1,0,12,2296],
 "namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2":[6,0,1,0,12,895],
 "namespaceMR.html#af7b59424fe3d8f4942cfc555758c294a":[6,0,1,0,12,2011],
 "namespaceMR.html#af7bd0e42ef0d3a181e0af57d15d8bf0a":[6,0,1,0,12,860],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[6,0,1,0,12,34,1],
 "namespaceMR_1_1SelfIntersections.html#aea449a398c4999edebba068358686684":[6,0,1,0,12,34,2],
 "namespaceMR_1_1StyleConsts.html":[6,0,1,0,12,35],
-"namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[6,0,1,0,12,35,4],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,12,35,0],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[6,0,1,0,12,35,0,0]
+"namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[6,0,1,0,12,35,4]
 };
