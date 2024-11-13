@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMenu_1_1PluginsCache.html#ae87376afb2e50882e1b00a339a92bc62":[6,0,2,0,1,255,1,0],
+"structMR_1_1Image.html":[6,0,0,18,0],
 "structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8":[6,0,0,18,0,4],
 "structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151":[6,0,0,18,0,7],
 "structMR_1_1Image.html#a3b6b9b5bd10ab0b951b4049866cb22fb":[6,0,0,18,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,1,0,12,310,0],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,2,0,1,295,0],
 "structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,1,0,12,311],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,2,0,1,296],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,1,0,12,311,2],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,2,0,1,296,2]
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,2,0,1,296]
 };

@@ -218,18 +218,29 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">   79</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string <a class="code hl_function" href="namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">getCurrentStacktrace</a>();</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">struct </span>ProccessMemoryInfo</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>{</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">size_t</span> currVirtual = 0, maxVirtual = 0;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">size_t</span> currPhysical = 0, maxPhysical = 0;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ProccessMemoryInfo getProccessMemoryInfo();</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif </span><span class="comment">//_WIN32</span></div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="};">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="structMR_1_1SystemMemory.html">   82</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1SystemMemory.html">SystemMemory</a></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040">   85</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040">physicalTotal</a> = 0;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351">   88</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351">physicalAvailable</a> = 0;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>};</div>
+</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">   97</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a>();</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">   92</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_struct" href="structMR_1_1SystemMemory.html">SystemMemory</a> <a class="code hl_function" href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">getSystemMemory</a>();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="keyword">struct </span>ProccessMemoryInfo</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>{</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">size_t</span> currVirtual = 0, maxVirtual = 0;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">size_t</span> currPhysical = 0, maxPhysical = 0;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>};</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ProccessMemoryInfo getProccessMemoryInfo();</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#endif </span><span class="comment">//_WIN32</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">  109</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a>();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
@@ -237,6 +248,7 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_a1d6fd316711783f671ffebc9eac9042a"><div class="ttname"><a href="namespaceMR.html#a1d6fd316711783f671ffebc9eac9042a">MR::GetResourcesDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetResourcesDirectory()</div></div>
 <div class="ttc" id="anamespaceMR_html_a2d2055c8154d0075f8388ca7579fd794"><div class="ttname"><a href="namespaceMR.html#a2d2055c8154d0075f8388ca7579fd794">MR::OpenDocument</a></div><div class="ttdeci">MRMESH_API bool OpenDocument(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="anamespaceMR_html_a2ddb2bd9b31853c37146f070b0b472c1"><div class="ttname"><a href="namespaceMR.html#a2ddb2bd9b31853c37146f070b0b472c1">MR::GetHomeDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetHomeDirectory()</div></div>
+<div class="ttc" id="anamespaceMR_html_a3ba2aca05f28a3dd3c05cb49fbf09b66"><div class="ttname"><a href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">MR::getSystemMemory</a></div><div class="ttdeci">MRMESH_API SystemMemory getSystemMemory()</div><div class="ttdoc">return information about memory available in the system</div></div>
 <div class="ttc" id="anamespaceMR_html_a4495a70f291d11bdf905106b2a3856b5"><div class="ttname"><a href="namespaceMR.html#a4495a70f291d11bdf905106b2a3856b5">MR::getOSNoSpaces</a></div><div class="ttdeci">MRMESH_API std::string getOSNoSpaces()</div></div>
 <div class="ttc" id="anamespaceMR_html_a4ba1f8b8dda149d741c79f6ca5c6f2ba"><div class="ttname"><a href="namespaceMR.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba">MR::GetTempDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetTempDirectory()</div></div>
 <div class="ttc" id="anamespaceMR_html_a5d1ca6e9b05136afa1017b1c60906789"><div class="ttname"><a href="namespaceMR.html#a5d1ca6e9b05136afa1017b1c60906789">MR::GetExeDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetExeDirectory()</div></div>
@@ -254,6 +266,9 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_ac6f40535c1b612f6ce24e70b7ee28a36"><div class="ttname"><a href="namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36">MR::GetMRVersionString</a></div><div class="ttdeci">MRMESH_API std::string GetMRVersionString()</div></div>
 <div class="ttc" id="anamespaceMR_html_ac8ef1e5eb550d8cb502e7a5a5ac8c038"><div class="ttname"><a href="namespaceMR.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038">MR::getUserConfigDir</a></div><div class="ttdeci">MRMESH_API std::filesystem::path getUserConfigDir()</div></div>
 <div class="ttc" id="anamespaceMR_html_aec820d50ac448217d66131a079fce39a"><div class="ttname"><a href="namespaceMR.html#aec820d50ac448217d66131a079fce39a">MR::OpenLink</a></div><div class="ttdeci">MRMESH_API void OpenLink(const std::string &amp;url)</div></div>
+<div class="ttc" id="astructMR_1_1SystemMemory_html"><div class="ttname"><a href="structMR_1_1SystemMemory.html">MR::SystemMemory</a></div><div class="ttdef"><b>Definition</b> MRSystem.h:83</div></div>
+<div class="ttc" id="astructMR_1_1SystemMemory_html_a3087e60be22adc17e00bcb62da97a040"><div class="ttname"><a href="structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040">MR::SystemMemory::physicalTotal</a></div><div class="ttdeci">size_t physicalTotal</div><div class="ttdoc">total amount of physical memory in the system, in bytes (0 if no info)</div><div class="ttdef"><b>Definition</b> MRSystem.h:85</div></div>
+<div class="ttc" id="astructMR_1_1SystemMemory_html_a76875970bb84c9474cc9e582162fe351"><div class="ttname"><a href="structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351">MR::SystemMemory::physicalAvailable</a></div><div class="ttdeci">size_t physicalAvailable</div><div class="ttdoc">available amount of physical memory in the system, in bytes (0 if no info)</div><div class="ttdef"><b>Definition</b> MRSystem.h:88</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

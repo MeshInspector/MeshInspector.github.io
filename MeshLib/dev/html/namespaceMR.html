@@ -1551,6 +1551,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SystemMemory.html">SystemMemory</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SystemPath.html">SystemPath</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">system directory path manager  <a href="classMR_1_1SystemPath.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4837,6 +4839,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a69dd7a0499b29eb5608d05713b8feb72" id="r_a69dd7a0499b29eb5608d05713b8feb72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dd7a0499b29eb5608d05713b8feb72">getCurrentStacktrace</a> ()</td></tr>
 <tr class="memdesc:a69dd7a0499b29eb5608d05713b8feb72"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns string representation of the current stacktrace  <br /></td></tr>
 <tr class="separator:a69dd7a0499b29eb5608d05713b8feb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ba2aca05f28a3dd3c05cb49fbf09b66" id="r_a3ba2aca05f28a3dd3c05cb49fbf09b66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1SystemMemory.html">SystemMemory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ba2aca05f28a3dd3c05cb49fbf09b66">getSystemMemory</a> ()</td></tr>
+<tr class="memdesc:a3ba2aca05f28a3dd3c05cb49fbf09b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">return information about memory available in the system  <br /></td></tr>
+<tr class="separator:a3ba2aca05f28a3dd3c05cb49fbf09b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6804a7415d5f018fa64bf1b533af3d4f" id="r_a6804a7415d5f018fa64bf1b533af3d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a> ()</td></tr>
 <tr class="separator:a6804a7415d5f018fa64bf1b533af3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abebe86de5d47fc21de1ad73e06bdbc3d" id="r_abebe86de5d47fc21de1ad73e06bdbc3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abebe86de5d47fc21de1ad73e06bdbc3d">terrainTriangulation</a> (std::vector&lt; Vector3f &gt; points, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
@@ -18341,6 +18346,33 @@ template&lt;typename ObjectT &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ba2aca05f28a3dd3c05cb49fbf09b66" name="a3ba2aca05f28a3dd3c05cb49fbf09b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ba2aca05f28a3dd3c05cb49fbf09b66">&#9670;&#160;</a></span>getSystemMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1SystemMemory.html">SystemMemory</a> MR::getSystemMemory </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return information about memory available in the system </p>
 
 </div>
 </div>

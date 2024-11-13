@@ -107,5 +107,6 @@ var searchData=
   ['symmatrix2_104',['SymMatrix2',['../structMR_1_1SymMatrix2.html',1,'MR']]],
   ['symmatrix3_105',['SymMatrix3',['../structMR_1_1SymMatrix3.html',1,'MR']]],
   ['symmatrix4_106',['SymMatrix4',['../structMR_1_1SymMatrix4.html',1,'MR']]],
-  ['systempath_107',['SystemPath',['../classMR_1_1SystemPath.html',1,'MR']]]
+  ['systemmemory_107',['SystemMemory',['../structMR_1_1SystemMemory.html',1,'MR']]],
+  ['systempath_108',['SystemPath',['../classMR_1_1SystemPath.html',1,'MR']]]
 ];

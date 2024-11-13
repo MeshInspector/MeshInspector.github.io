@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a10ebea8e9815247e884f1ad9a35ef32c":[6,0,1,0,12,526,2,5],
 "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a10ebea8e9815247e884f1ad9a35ef32c":[6,0,2,0,1,511,2,5],
 "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592":[6,0,1,0,12,526,2,1],
 "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592":[6,0,2,0,1,511,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1RibbonMenuSearch.html#ab0a9a0a890de308d579a6b1226cdbc6b":[6,0,1,0,12,532,1],
 "classMR_1_1RibbonMenuSearch.html#ab0a9a0a890de308d579a6b1226cdbc6b":[6,0,2,0,1,517,1],
 "classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7":[6,0,1,0,12,532,4],
-"classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7":[6,0,2,0,1,517,4],
-"classMR_1_1RibbonMenuSearch.html#ac091dc76627f29a6d704646a477f55c5":[6,0,1,0,12,532,6]
+"classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7":[6,0,2,0,1,517,4]
 };

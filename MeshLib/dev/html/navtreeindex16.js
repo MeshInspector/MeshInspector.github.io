@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,1,0,12,87,2],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,1,72,2],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,12,88],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,1,73],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeVisualizePropertyAction.html#a577d817010b8c025c743ede618924232":[6,0,0,4,12,1],
 "classMR_1_1ChangeVisualizePropertyAction.html#a6aed09dd3eb8747f16d7d1b3f4c016ec":[6,0,0,4,12,3],
 "classMR_1_1ChangeVisualizePropertyAction.html#a82fbcde1a6b6a67ddd9f760b0c43cf87":[6,0,0,4,12,4],
-"classMR_1_1ChangeVisualizePropertyAction.html#ab47bdfa15ccc0341044bdf265413933d":[6,0,0,4,12,5],
-"classMR_1_1ChangeVisualizePropertyAction.html#addf5e30e5eb678a766bb9b02bbfd996b":[6,0,0,4,12,0]
+"classMR_1_1ChangeVisualizePropertyAction.html#ab47bdfa15ccc0341044bdf265413933d":[6,0,0,4,12,5]
 };
