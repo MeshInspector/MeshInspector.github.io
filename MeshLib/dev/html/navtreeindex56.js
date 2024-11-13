@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0":[6,0,1,0,12,27,8],
 "namespaceMR_1_1PointsSave.html#aa0c93c027a52951a40337f323f2860de":[6,0,1,0,12,27,11],
 "namespaceMR_1_1PointsSave.html#ae23866fe66a802c4ea607cb75f014d9d":[6,0,1,0,12,27,9],
 "namespaceMR_1_1PolylineComponents.html":[6,0,1,0,12,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,1,0,1,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,0,0,5],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,1,0,1,0,7],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,2,0,0,0,7]
+"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,1,0,1,0,7]
 };

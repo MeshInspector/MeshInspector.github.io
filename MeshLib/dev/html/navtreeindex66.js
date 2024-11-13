@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,2,0,1,7,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,1,0,12,15,0,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,2,0,1,7,0,0],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,1,0,12,310],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Mesh.html#a4237bb2ee8edbc72aa4189bc2307a544":[6,0,0,7,0,30],
 "structMR_1_1Mesh.html#a43237a5df3be3b980a3147ceb8710a22":[6,0,0,7,0,55],
 "structMR_1_1Mesh.html#a45cc8a4868a2671492e010d86cb408cd":[6,0,0,7,0,9],
-"structMR_1_1Mesh.html#a4678592f5a58aba37a0994f895ff7804":[6,0,0,7,0,97],
-"structMR_1_1Mesh.html#a49f7db0c7ecd59955478746c13609ff6":[6,0,0,7,0,106]
+"structMR_1_1Mesh.html#a4678592f5a58aba37a0994f895ff7804":[6,0,0,7,0,97]
 };

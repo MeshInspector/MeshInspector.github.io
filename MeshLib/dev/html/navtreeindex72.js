@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[6,0,2,0,1,463,3],
 "structMR_1_1PreDrawListener.html":[6,0,1,0,12,483],
 "structMR_1_1PreDrawListener.html":[6,0,2,0,1,468],
 "structMR_1_1PreDrawListener.html#a315d3fdaaa28ec7d64ac68a04c1a8429":[6,0,1,0,12,483,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,12,31,0,1,0],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,1,19,0,1,0],
 "structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,12,523],
-"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,508],
-"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,1,0,12,523,1]
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,508]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1SceneObjectsListDrawer.html#ae4b604976357cb2d74fa5396c448061d":[6,0,2,0,1,546,11],
 "classMR_1_1SceneObjectsListDrawer.html#aed66b9726e14eb7c5c105c7d088198f4":[6,0,1,0,12,561,7],
 "classMR_1_1SceneObjectsListDrawer.html#aed66b9726e14eb7c5c105c7d088198f4":[6,0,2,0,1,546,7],
 "classMR_1_1SceneObjectsListDrawer.html#af36935c34390d23a46d4c38f182071c9":[6,0,1,0,12,561,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[6,0,1,0,12,592,1],
 "classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[6,0,2,0,1,577,1],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,1,0,12,592,3],
-"classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,2,0,1,577,3],
-"classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961":[6,0,1,0,12,592,4]
+"classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,2,0,1,577,3]
 };

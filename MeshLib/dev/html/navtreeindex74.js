@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[6,0,1,0,12,34,0,2],
 "structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[6,0,2,0,1,21,0,2],
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5":[6,0,1,0,12,34,0,0],
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5":[6,0,2,0,1,21,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[6,0,0,9,7,0,9],
 "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,11],
 "structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,5],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[6,0,1,0,12,620,0],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[6,0,2,0,1,605,0]
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[6,0,1,0,12,620,0]
 };

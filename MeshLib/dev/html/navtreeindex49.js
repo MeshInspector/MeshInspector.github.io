@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"group__SerializerGroup.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad":[6,0,0,2,15,33],
 "group__SerializerGroup.html#ga72e078f3acb1fe95234144b3f7d2aced":[6,0,0,2,15,16],
 "group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef":[6,0,0,2,15,48],
 "group__SerializerGroup.html#ga790b6ef6dd31f1a82bf42d810c4c1f44":[6,0,0,2,15,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "hierarchy.html":[6,0,2,2],
 "index.html":[],
 "index.html":[0],
-"index.html#autotoc_md0":[0,0],
-"index.html#autotoc_md1":[0,0,0]
+"index.html#autotoc_md0":[0,0]
 };
