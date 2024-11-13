@@ -138,7 +138,115 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html',''); initResizable(true)
   <div class="headertitle"><div class="title">Using MeshLib with C#</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>TODO: add content </p>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#autotoc_md16">Prerequisites</a><ul><li class="level2"><a href="#autotoc_md17">.NET SDK</a></li>
+<li class="level2"><a href="#autotoc_md18">Visual Studio</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md19">Installation via NuGet</a><ul><li class="level2"><a href="#autotoc_md20">Using Visual Studio on Windows</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md21">Installation from a Downloaded NuGet Package</a></li>
+<li class="level1"><a href="#autotoc_md22">Installation via .NET Command-Line Interface</a></li>
+</ul>
+</div>
+<div class="textblock"><p>This instruction will guide you through integrating MeshLib into your C# project using NuGet or .NET Command-Line Interface.</p>
+<dl class="section note"><dt>Note</dt><dd><b>Important:</b> MeshLib currently supports x64 builds only, so ensure your project configuration aligns to avoid compatibility issues. While .NET and NuGet offer support for macOS and Linux, the MeshLib package lacks native libraries for these platforms. As of now, MeshLib operates exclusively on Windows when used with C#.</dd></dl>
+<h1><a class="anchor" id="autotoc_md16"></a>
+Prerequisites</h1>
+<p>Before installing MeshLib, ensure you have the following tools installed:</p>
+<h2><a class="anchor" id="autotoc_md17"></a>
+.NET SDK</h2>
+<ul>
+<li>Install the latest version of the <a href="https://dotnet.microsoft.com/download">.NET SDK</a> from the .NET website. MeshLib is compatible with .NET Framework 4.7 and higher, as well as .NET 5.0, 6.0, 7.0, 8.0, and additional versions outlined below.</li>
+<li>Verify your installation by running: <div class="fragment"><div class="line">dotnet --version</div>
+</div><!-- fragment --></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md18"></a>
+Visual Studio</h2>
+<p>For a more integrated development experience, you can use Visual Studio 2019 or later. Make sure to install the **.NET desktop development** workload.</p>
+<h1><a class="anchor" id="autotoc_md19"></a>
+Installation via NuGet</h1>
+<p>Depending on your development environment and workflow preferences, you can choose from the following installation methods</p>
+<h2><a class="anchor" id="autotoc_md20"></a>
+Using Visual Studio on Windows</h2>
+<p>To install MeshLib via Visual Studio, follow these steps:</p><ol type="1">
+<li><b>Open Your Project in Visual Studio</b>:<ul>
+<li>If you don’t have a project yet, create a new C# Console App (.NET Core) or another suitable project type.</li>
+</ul>
+</li>
+<li><b>Open the NuGet Package Manager</b>:<ul>
+<li>Right-click on your project in the Solution Explorer.</li>
+<li>Select "Manage NuGet Packages."</li>
+</ul>
+</li>
+<li><b>Search for MeshLib</b>:<ul>
+<li>In the NuGet Package Manager, switch to the "Browse" tab.</li>
+<li>Enter "MeshLib" in the search box.</li>
+</ul>
+</li>
+<li><b>Install the Package</b>:<ul>
+<li>Select the MeshLib package from the search results.</li>
+<li>Click "Install" and follow any prompts to complete the installation.</li>
+</ul>
+</li>
+<li><b>Start Using MeshLib</b>:<ul>
+<li>Add <code>using MR.DotNet;</code> at the top of your C# files to start using MeshLib features.</li>
+</ul>
+</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md21"></a>
+Installation from a Downloaded NuGet Package</h1>
+<p>If you prefer to download the MeshLib package directly from the NuGet website, follow these steps:</p>
+<ol type="1">
+<li><b>Download the MeshLib Package</b>:<ul>
+<li>Go to the <a href="https://www.nuget.org/packages/MeshLib/">MeshLib NuGet page</a>.</li>
+<li>Click "Download Package" to get the <code>.nupkg</code> file.</li>
+</ul>
+</li>
+<li><b>Create a Local Directory for NuGet Packages</b>:<ul>
+<li>Choose or create a directory on your system where you will store the <code>.nupkg</code> file. For example: <div class="fragment"><div class="line">mkdir ~/LocalNuGetPackages</div>
+</div><!-- fragment --></li>
+<li>Move the downloaded <code>MeshLib.nupkg</code> file to this directory.</li>
+</ul>
+</li>
+<li><b>Install the MeshLib Package Locally</b>:<ul>
+<li>Use the command below to install the package: <div class="fragment"><div class="line">dotnet add package MeshLib --source /path/to/LocalNuGetPackages</div>
+</div><!-- fragment --></li>
+</ul>
+</li>
+<li><b>Alternative: Configure Local Source Globally</b>:<ul>
+<li>Add the local directory as a source using: <div class="fragment"><div class="line">dotnet nuget add source \path\to\LocalNuGetPackages --name LocalPackages</div>
+</div><!-- fragment --></li>
+<li>After this, you can install the package normally without specifying <code>-source</code>.</li>
+</ul>
+</li>
+<li><b>Build and Run Your Project</b>: <div class="fragment"><div class="line">dotnet build</div>
+<div class="line">dotnet run</div>
+</div><!-- fragment --></li>
+</ol>
+<h1><a class="anchor" id="autotoc_md22"></a>
+Installation via .NET Command-Line Interface</h1>
+<p>To install MeshLib via the .NET CLI, follow these steps:</p><ol type="1">
+<li><b>Open a Terminal or Command Prompt</b>:<ul>
+<li><b>On Windows</b>, use Command Prompt, PowerShell, or the Windows Terminal.</li>
+</ul>
+</li>
+<li><b>Create a New Project Directory</b>: <br  />
+ Run the following commands to create a new directory for your project and navigate into it: <div class="fragment"><div class="line">mkdir TestProject</div>
+<div class="line">cd TestProject</div>
+</div><!-- fragment --></li>
+<li><b>Create a New .NET Console Project</b>: <br  />
+ Inside the new directory, initialize a .NET console project by running: <div class="fragment"><div class="line">dotnet new console</div>
+</div><!-- fragment --></li>
+<li><b>Install the MeshLib Package</b>: <br  />
+ Use the following command to add MeshLib to your project: <div class="fragment"><div class="line">dotnet add package MeshLib</div>
+</div><!-- fragment --></li>
+<li><b>Build and Run Your Project</b>: <br  />
+ After installing MeshLib, you can build and run your project using: <div class="fragment"><div class="line">dotnet run</div>
+</div><!-- fragment --></li>
+</ol>
+<p>By following these steps, you can integrate MeshLib into your project, giving you more control over the setup process. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
