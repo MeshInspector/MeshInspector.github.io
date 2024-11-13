@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bf":[6,0,1,0,12,486,2],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bf":[6,0,2,0,1,471,2],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a":[6,0,1,0,12,486,2,0],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a":[6,0,2,0,1,471,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1RenderBufferRef.html#af2f9934c38612f16da90a865122e6119":[6,0,1,0,12,509,3],
 "classMR_1_1RenderBufferRef.html#af2f9934c38612f16da90a865122e6119":[6,0,2,0,1,494,3],
 "classMR_1_1RenderBufferRef.html#afd6a6d54cfc1f72dc7ecca75f9897146":[6,0,1,0,12,509,5],
-"classMR_1_1RenderBufferRef.html#afd6a6d54cfc1f72dc7ecca75f9897146":[6,0,2,0,1,494,5],
-"classMR_1_1RenderDimensions_1_1AngleTask.html":[6,0,1,0,12,29,1]
+"classMR_1_1RenderBufferRef.html#afd6a6d54cfc1f72dc7ecca75f9897146":[6,0,2,0,1,494,5]
 };

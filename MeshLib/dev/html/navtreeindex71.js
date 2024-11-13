@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PointPairs.html#ab99f3e132fe375fd87cd27dafb991537":[6,0,2,0,1,438,0],
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,1,0,12,453,1],
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,2,0,1,438,1],
 "structMR_1_1PointsLoadSettings.html":[6,0,1,0,12,454],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,2,0,1,468,2],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[6,0,1,0,12,479,0],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[6,0,2,0,1,464,0],
-"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31":[6,0,1,0,12,479,0,2],
-"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31":[6,0,2,0,1,464,0,2]
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31":[6,0,1,0,12,479,0,2]
 };

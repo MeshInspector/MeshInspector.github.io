@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,1,0,12,525,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,2,0,1,510,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,1,0,12,525,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,1,510,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,1,0,12,34,0,1],
 "structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,2,0,1,21,0,1],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,1,0,12,34,0,3],
-"structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,2,0,1,21,0,3],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,1,0,12,583,0]
+"structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,2,0,1,21,0,3]
 };

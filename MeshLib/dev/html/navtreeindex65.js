@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMenu_1_1PluginsCache.html#ae87376afb2e50882e1b00a339a92bc62":[6,0,1,0,12,270,1,0],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html#ae87376afb2e50882e1b00a339a92bc62":[6,0,2,0,1,255,1,0],
 "structMR_1_1Image.html":[6,0,0,18,0],
 "structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8":[6,0,0,18,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#a9a43bd53420bdfcd8981d9dc16830775":[6,0,2,0,1,295,2],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,1,0,12,310,0],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,2,0,1,295,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,1,0,12,311],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,2,0,1,296]
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,1,0,12,311]
 };

@@ -194,6 +194,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45b3529c2a011c9abd585452550ac145" id="r_a45b3529c2a011c9abd585452550ac145"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45b3529c2a011c9abd585452550ac145">getMemoryLimit</a> () const</td></tr>
 <tr class="memdesc:a45b3529c2a011c9abd585452550ac145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current memory limit for this store (by default uint64 max)  <br /></td></tr>
 <tr class="separator:a45b3529c2a011c9abd585452550ac145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5153ad77359e03f6105aa8db1293b14" id="r_ae5153ad77359e03f6105aa8db1293b14"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5153ad77359e03f6105aa8db1293b14">calcUsedMemory</a> () const</td></tr>
+<tr class="memdesc:ae5153ad77359e03f6105aa8db1293b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute amount of memory occupied by all actions in this store.  <br /></td></tr>
+<tr class="separator:ae5153ad77359e03f6105aa8db1293b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c72ca2143023fcef93b3e221d010c6d" id="r_a6c72ca2143023fcef93b3e221d010c6d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c72ca2143023fcef93b3e221d010c6d">getHistoryStack</a> () const</td></tr>
 <tr class="memdesc:a6c72ca2143023fcef93b3e221d010c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns full history stack.  <br /></td></tr>
 <tr class="separator:a6c72ca2143023fcef93b3e221d010c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,6 +333,33 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae5153ad77359e03f6105aa8db1293b14" name="ae5153ad77359e03f6105aa8db1293b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5153ad77359e03f6105aa8db1293b14">&#9670;&#160;</a></span>calcUsedMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API size_t MR::HistoryStore::calcUsedMemory </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute amount of memory occupied by all actions in this store. </p>
+
+</div>
+</div>
 <a id="aeaca3b28f85fa63c443235a4539cfa25" name="aeaca3b28f85fa63c443235a4539cfa25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeaca3b28f85fa63c443235a4539cfa25">&#9670;&#160;</a></span>clear()</h2>
 
@@ -390,7 +420,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -404,6 +434,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MRVIEWER_API std::string MR::HistoryStore::getLastActionName </td>
@@ -412,6 +445,11 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the name of last undo or redo action (or empty string if there is no such action) </p>
@@ -436,7 +474,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -450,6 +488,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MRVIEWER_API std::vector&lt; std::string &gt; MR::HistoryStore::getNActions </td>
@@ -462,6 +503,11 @@ Public Attributes</h2></td></tr>
           <td class="paramtype"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;) const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns names of last N undo actions or first N redo actions. </p>
@@ -486,7 +532,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -513,7 +559,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -540,7 +586,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -567,7 +613,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

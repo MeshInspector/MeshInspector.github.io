@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
 "structImGui_1_1HistogramGridLine.html":[6,0,1,0,1,1],
 "structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,1,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0":[6,0,0,1,4,1],
 "structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e":[6,0,0,1,4,7],
 "structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9":[6,0,0,1,4,6],
-"structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6":[6,0,0,1,4,2],
-"structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0":[6,0,0,1,4,5]
+"structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6":[6,0,0,1,4,2]
 };

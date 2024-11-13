@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[6,0,0,5,1,0,1],
 "structMR_1_1ContoursDistanceMapOptions.html":[6,0,0,5,2],
 "structMR_1_1ContoursDistanceMapOptions.html#a37e6ab24d4bd5bee82c4ff4cfded2aec":[6,0,0,5,2,2],
 "structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054":[6,0,0,5,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,1,0,12,182,6],
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,2,0,1,167,6],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,1,0,12,182,2],
-"structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,2,0,1,167,2],
-"structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[6,0,1,0,12,182,0]
+"structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,2,0,1,167,2]
 };

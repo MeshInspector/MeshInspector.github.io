@@ -11,6 +11,7 @@ var classMR_1_1HistoryStore =
     ] ],
     [ "~HistoryStore", "classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614", null ],
     [ "appendAction", "classMR_1_1HistoryStore.html#ad29229f07b377f386fa783f9f178a3ba", null ],
+    [ "calcUsedMemory", "classMR_1_1HistoryStore.html#ae5153ad77359e03f6105aa8db1293b14", null ],
     [ "clear", "classMR_1_1HistoryStore.html#aeaca3b28f85fa63c443235a4539cfa25", null ],
     [ "filterStack", "classMR_1_1HistoryStore.html#a34a9d69ae6d37fc5a5b4155b63d3c100", null ],
     [ "getHistoryStack", "classMR_1_1HistoryStore.html#a6c72ca2143023fcef93b3e221d010c6d", null ],
