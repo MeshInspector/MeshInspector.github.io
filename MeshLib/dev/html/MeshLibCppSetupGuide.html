@@ -14,16 +14,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MeshLib C++ Setup Guide</title>
+<title>MeshLib Documentation: MeshLib C++ Setup Guide</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,17 +63,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -139,33 +146,37 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html',''); initResizable(true); }
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md0">Windows</a><ul><li class="level2"><a href="#autotoc_md1">Prerequisites</a></li>
-<li class="level2"><a href="#autotoc_md2">Installing the local build</a></li>
-<li class="level2"><a href="#autotoc_md3">Installing the release build</a></li>
+<ul><li class="level1"><a href="#autotoc_md8">Setting Up MeshLib for C++ Development</a><ul><li class="level2"><a href="#autotoc_md9">Windows</a><ul><li class="level3"><a href="#autotoc_md10">Prerequisites</a></li>
+<li class="level3"><a href="#autotoc_md11">Installing the local build</a></li>
+<li class="level3"><a href="#autotoc_md12">Installing the release build</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md4">Linux (Ubuntu/Fedora)</a><ul><li class="level2"><a href="#autotoc_md5">Prerequisites</a></li>
-<li class="level2"><a href="#autotoc_md6">Installing the local build</a></li>
-<li class="level2"><a href="#autotoc_md7">Installing the release build</a></li>
+<li class="level2"><a href="#autotoc_md13">Linux (Ubuntu/Fedora)</a><ul><li class="level3"><a href="#autotoc_md14">Prerequisites</a></li>
+<li class="level3"><a href="#autotoc_md15">Installing the local build</a></li>
+<li class="level3"><a href="#autotoc_md16">Installing the release build</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md8">macOS</a><ul><li class="level2"><a href="#autotoc_md9">Prerequisites</a></li>
-<li class="level2"><a href="#autotoc_md10">Installing the local build</a></li>
-<li class="level2"><a href="#autotoc_md11">Installing the release build</a></li>
+<li class="level2"><a href="#autotoc_md17">macOS</a><ul><li class="level3"><a href="#autotoc_md18">Prerequisites</a></li>
+<li class="level3"><a href="#autotoc_md19">Installing the local build</a></li>
+<li class="level3"><a href="#autotoc_md20">Installing the release build</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md12">Building WebAssembly with MeshLib Using Emscripten</a><ul><li class="level2"><a href="#autotoc_md13">Install Emscripten</a></li>
-<li class="level2"><a href="#autotoc_md14">Building MeshLib</a></li>
-<li class="level2"><a href="#autotoc_md15">Running the WebAssembly Build</a></li>
+<li class="level2"><a href="#autotoc_md21">Building WebAssembly with MeshLib Using Emscripten</a><ul><li class="level3"><a href="#autotoc_md22">Install Emscripten</a></li>
+<li class="level3"><a href="#autotoc_md23">Building MeshLib</a></li>
+<li class="level3"><a href="#autotoc_md24">Running the WebAssembly Build</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><p>This guide provides detailed instructions for setting up MeshLib for C++ development across Windows, Linux, and macOS. It covers all prerequisites as well as specific setup steps for each platform.</p>
-<h1><a class="anchor" id="autotoc_md0"></a>
-Windows</h1>
-<h2><a class="anchor" id="autotoc_md1"></a>
-Prerequisites</h2>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md8"></a>
+Setting Up MeshLib for C++ Development</h1>
+<p>This guide provides detailed instructions for setting up MeshLib for C++ development across Windows, Linux, and macOS. It covers all prerequisites as well as specific setup steps for each platform.</p>
+<h2><a class="anchor" id="autotoc_md9"></a>
+Windows</h2>
+<h3><a class="anchor" id="autotoc_md10"></a>
+Prerequisites</h3>
 <ol type="1">
 <li><b>Git</b><ul>
 <li><a href="https://git-scm.com/">Install Git</a> to manage repositories and submodules, which is also required to install <code>vcpkg</code>.</li>
@@ -206,8 +217,8 @@ Prerequisites</h2>
 </li>
 </ol>
 <p><a href="https://github.com/Microsoft/vcpkg">Learn more about</a> <code>vcpkg</code></p>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Installing the local build</h2>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Installing the local build</h3>
 <dl class="section note"><dt>Note</dt><dd>The following steps will require approximately 40 GB of disk space.</dd></dl>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
@@ -229,8 +240,8 @@ Installing the local build</h2>
 </ul>
 </li>
 </ol>
-<h2><a class="anchor" id="autotoc_md3"></a>
-Installing the release build</h2>
+<h3><a class="anchor" id="autotoc_md12"></a>
+Installing the release build</h3>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
 <li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
@@ -259,10 +270,10 @@ Installing the release build</h2>
 </ul>
 </li>
 </ol>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Linux (Ubuntu/Fedora)</h1>
-<h2><a class="anchor" id="autotoc_md5"></a>
-Prerequisites</h2>
+<h2><a class="anchor" id="autotoc_md13"></a>
+Linux (Ubuntu/Fedora)</h2>
+<h3><a class="anchor" id="autotoc_md14"></a>
+Prerequisites</h3>
 <ol type="1">
 <li><b>Git</b><ul>
 <li><a href="https://git-scm.com/">Install Git</a> to manage repositories and submodules.</li>
@@ -277,8 +288,8 @@ Prerequisites</h2>
 </ul>
 </li>
 </ol>
-<h2><a class="anchor" id="autotoc_md6"></a>
-Installing the local build</h2>
+<h3><a class="anchor" id="autotoc_md15"></a>
+Installing the local build</h3>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
 <div class="line">cd MeshLib</div>
@@ -304,8 +315,8 @@ Installing the local build</h2>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md7"></a>
-Installing the release build</h2>
+<h3><a class="anchor" id="autotoc_md16"></a>
+Installing the release build</h3>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
 <li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
@@ -325,10 +336,10 @@ Installing the release build</h2>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md8"></a>
-macOS</h1>
-<h2><a class="anchor" id="autotoc_md9"></a>
-Prerequisites</h2>
+<h2><a class="anchor" id="autotoc_md17"></a>
+macOS</h2>
+<h3><a class="anchor" id="autotoc_md18"></a>
+Prerequisites</h3>
 <ol type="1">
 <li><b>Install Homebrew</b><ul>
 <li>Run the following command in your terminal to install Homebrew: <div class="fragment"><div class="line">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</div>
@@ -348,8 +359,8 @@ Prerequisites</h2>
 </ul>
 </li>
 </ol>
-<h2><a class="anchor" id="autotoc_md10"></a>
-Installing the local build</h2>
+<h3><a class="anchor" id="autotoc_md19"></a>
+Installing the local build</h3>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
 <div class="line">cd MeshLib</div>
@@ -362,8 +373,8 @@ Installing the local build</h2>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md11"></a>
-Installing the release build</h2>
+<h3><a class="anchor" id="autotoc_md20"></a>
+Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Built Version</b> <br  />
  Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> and download the latest macOS built version.</li>
@@ -377,11 +388,11 @@ Installing the release build</h2>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md12"></a>
-Building WebAssembly with MeshLib Using Emscripten</h1>
+<h2><a class="anchor" id="autotoc_md21"></a>
+Building WebAssembly with MeshLib Using Emscripten</h2>
 <p>This guide will help you build WebAssembly (WASM) using MeshLib and Emscripten. Please follow the instructions step by step.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
-Install Emscripten</h2>
+<h3><a class="anchor" id="autotoc_md22"></a>
+Install Emscripten</h3>
 <p>Emscripten is required to compile C++ code into WebAssembly. You can install Emscripten by following the steps below. For more details, refer to the <a href="https://emscripten.org/docs/getting_started/downloads.html">Emscripten official page</a>.</p><ul>
 <li>Clone the Emscripten SDK Repository <br  />
  Run the following command on <b>all platforms</b>: <div class="fragment"><div class="line">git clone https://github.com/emscripten-core/emsdk.git</div>
@@ -403,8 +414,8 @@ Install Emscripten</h2>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  Make sure you are using Git Bash, WSL, or another Unix-like environment if you want to follow the exact same steps as on Linux/macOS.</dd></dl>
-<h2><a class="anchor" id="autotoc_md14"></a>
-Building MeshLib</h2>
+<h3><a class="anchor" id="autotoc_md23"></a>
+Building MeshLib</h3>
 <p>Now that Emscripten is set up, you can proceed to build MeshLib for WebAssembly.</p><ul>
 <li>Navigate to the MeshLib directory: <div class="fragment"><div class="line">cd ~/MeshLib</div>
 </div><!-- fragment --></li>
@@ -418,8 +429,8 @@ Building MeshLib</h2>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  You may encounter compatibility issues if building directly on Windows. Consider using WSL (Windows Subsystem for Linux) to follow Linux-like instructions.</dd></dl>
-<h2><a class="anchor" id="autotoc_md15"></a>
-Running the WebAssembly Build</h2>
+<h3><a class="anchor" id="autotoc_md24"></a>
+Running the WebAssembly Build</h3>
 <p>After building MeshLib for WebAssembly, follow these steps to run it:</p><ul>
 <li>Setting Up a Local HTTP Server</li>
 <li>Navigate to the build directory: <div class="fragment"><div class="line">cd ~/MeshLib/build</div>

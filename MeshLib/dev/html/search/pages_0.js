@@ -6,6 +6,7 @@ var searchData=
   ['adding_20and_20removing_20noise_20example_3',['Adding and removing noise Example',['../ExampleNoiseDenoise.html',1,'Examples']]],
   ['and_20removing_20noise_20example_4',['Adding and removing noise Example',['../ExampleNoiseDenoise.html',1,'Examples']]],
   ['and_20saving_20mesh_20files_5',['Loading and saving mesh files',['../ExampleMeshLoadSave.html',1,'Examples']]],
-  ['and_20transformations_6',['Spaces and Transformations',['../SpacesHelp.html',1,'']]],
-  ['application_20on_20meshlib_7',['Basing your application on MeshLib',['../BasedApplication.html',1,'Examples']]]
+  ['and_20transformations_6',['Spaces and Transformations',['../SpacesHelp.html',1,'PackageOverview']]],
+  ['api_7',['API',['../APIPage.html',1,'']]],
+  ['application_20on_20meshlib_8',['Basing your application on MeshLib',['../BasedApplication.html',1,'Examples']]]
 ];

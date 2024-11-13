@@ -30,9 +30,9 @@ var menudata={children:[
 {text:"C#",url:"MeshLibCSharpSetupGuide.html"}]},
 {text:"License",url:"License.html"},
 {text:"Tutorials",url:"Tutorials.html",children:[
-{text:"First plugin C++ Windows",url:"FirstPluginTutorial.html"}]},
+{text:"Create First Plugin using C++",url:"FirstPluginTutorial.html"}]},
 {text:"Examples",url:"Examples.html",children:[
-{text:"General Samples",url:"usergroup0.html",children:[
+{text:"General Samples",url:"@ref GeneralExamples",children:[
 {text:"Application Based on MeshLib",url:"BasedApplication.html#BasedApplication"},
 {text:"Mesh Load and Save",url:"ExampleMeshLoadSave.html#ExampleMeshLoadSave"},
 {text:"Export Raw Triangles",url:"ExampleMeshExport.html#ExampleMeshExport"},
@@ -50,17 +50,17 @@ var menudata={children:[
 {text:"Mesh Laplacian Deformation",url:"ExampleLaplacian.html#ExampleLaplacian"},
 {text:"Mesh Denoise",url:"ExampleNoiseDenoise.html#ExampleNoiseDenoise"},
 {text:"Triangulation",url:"ExampleTriangulation.html#ExampleTriangulation"}]},
-{text:"Python Specific Samples",url:"usergroup1.html",children:[
+{text:"Python Specific Samples",url:"@ref PythonSpecificExamples",children:[
 {text:"Viewer",url:"ExampleViewer.html#ExampleViewer"},
 {text:"Plotly Visualization",url:"ExamplePlotly.html#ExamplePlotly"},
 {text:"Using Numpy",url:"ExampleNumpy.html#ExampleNumpy"},
 {text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html#ExampleNumpyTriangulation"}]}]},
-{text:"Package Overview",url:"usergroup2.html",children:[
-{text:"Data Model Class Hierarchy",url:"DataModel.html"},
-{text:"Spaces and Transformations",url:"SpacesHelp.html"},
-{text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
-{text:"API",url:"usergroup3.html",children:[
-{text:"C++",url:"usergroup4.html",children:[
+{text:"Package Overview",url:"PackageOverview.html",children:[
+{text:"Data Model Class Hierarchy",url:"DataModel.html#DataModel"},
+{text:"Spaces and Transformations",url:"SpacesHelp.html#SpacesHelp"},
+{text:"State Plugins Overview",url:"StatePluginsHelp.html#StatePluginsHelp"}]},
+{text:"API",url:"APIPage.html",children:[
+{text:"C++",url:"APICppPage.html#APICppPage",children:[
 {text:"Topics",url:"topics.html"},
 {text:"Namespace List",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},

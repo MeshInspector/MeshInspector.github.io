@@ -1,11 +1,15 @@
 var NAVTREEINDEX0 =
 {
+"@ref GeneralExamples":[4,0],
+"@ref PythonSpecificExamples":[4,1],
+"APICppPage.html#APICppPage":[6,0],
+"APIPage.html":[6],
 "BasedApplication.html#BasedApplication":[4,0,0],
 "Concat_8h.html":[6,0,3,0,0,2,4,0,0],
 "Concat_8h.html#a4cb6de717e0b06df733796fec2da272a":[6,0,3,0,0,2,4,0,0,0],
 "Concat_8h.html#ac35e66533e158a4bf53982a2c109bd09":[6,0,3,0,0,2,4,0,0,1],
 "Concat_8h_source.html":[6,0,3,0,0,2,4,0,0],
-"DataModel.html":[5,0],
+"DataModel.html#DataModel":[5,0],
 "ExampleFreeForm.html#ExampleFreeForm":[4,0,13],
 "ExampleGlobalRegistration.html#ExampleGlobalRegistration":[4,0,10],
 "ExampleLaplacian.html#ExampleLaplacian":[4,0,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "MRChangeColoringType_8h_source.html":[6,0,3,0,0,2,3,34],
 "MRChangeLabelAction_8h.html":[6,0,3,0,0,2,7,1],
 "MRChangeLabelAction_8h_source.html":[6,0,3,0,0,2,7,1],
-"MRChangeMeshAction_8h.html":[6,0,3,0,0,2,3,35],
-"MRChangeMeshAction_8h_source.html":[6,0,3,0,0,2,3,35],
-"MRChangeNameAction_8h.html":[6,0,3,0,0,2,3,36],
-"MRChangeNameAction_8h_source.html":[6,0,3,0,0,2,3,36],
-"MRChangeObjectAction_8h.html":[6,0,3,0,0,2,3,37]
+"MRChangeMeshAction_8h.html":[6,0,3,0,0,2,3,35]
 };

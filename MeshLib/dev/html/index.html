@@ -14,16 +14,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: About</title>
+<title>MeshLib Documentation: About</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,17 +63,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -139,21 +146,24 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#Introduction">Introduction</a></li>
-<li class="level2"><a href="#KeyFeatures">Key Features</a></li>
-<li class="level2"><a href="#ModernApplications">Modern Applications</a></li>
-<li class="level2"><a href="#GettingStarted">Getting Started</a></li>
-<li class="level2"><a href="#TutorialsLink">Tutorials</a></li>
-<li class="level2"><a href="#LicenseLink">License</a></li>
-<li class="level2"><a href="#JoinTheCommunity">Join the Community</a></li>
+<ul><li class="level1"><a href="#autotoc_md0">Welcome to MeshLib’s documentation!</a><ul><li class="level2"><a href="#autotoc_md1">Introduction Introduction</a></li>
+<li class="level2"><a href="#autotoc_md2">KeyFeatures Key Features</a></li>
+<li class="level2"><a href="#autotoc_md3">ModernApplications Modern Applications</a></li>
+<li class="level2"><a href="#autotoc_md4">GettingStarted Getting Started</a></li>
+<li class="level2"><a href="#autotoc_md5">TutorialsLink Tutorials</a></li>
+<li class="level2"><a href="#autotoc_md6">LicenseLink License</a></li>
+<li class="level2"><a href="#autotoc_md7">JoinTheCommunity Join the Community</a></li>
 </ul>
+</li>
 </ul>
 </div>
-<div class="textblock"><h2><a class="anchor" id="Introduction"></a>
-Introduction</h2>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md0"></a>
+Welcome to MeshLib’s documentation!</h1>
+<h2><a class="anchor" id="autotoc_md1"></a>
+Introduction Introduction</h2>
 <p>Welcome to the MeshLib SDK — an open-source 3D geometry processing library designed to provide developers with a comprehensive toolkit for building robust 3D applications. Whether you are working in C++, Python, or C#, MeshLib offers a versatile, cross-platform solution available on Windows, macOS, and Linux, enabling the creation of cutting-edge solutions for various industries.</p>
-<h2><a class="anchor" id="KeyFeatures"></a>
-Key Features</h2>
+<h2><a class="anchor" id="autotoc_md2"></a>
+KeyFeatures Key Features</h2>
 <ul>
 <li><b>3D</b> <b>Data</b> <b>Handling:</b> Supports meshes, voxels, and point clouds for creation, modification, and conversion.</li>
 <li><b>Boolean</b> <b>Operations:</b> Fast, highly optimized mesh and voxel-based approaches.</li>
@@ -167,8 +177,8 @@ Key Features</h2>
 <li><b>Distance</b> <b>Maps</b> <b>&amp;</b> <b>Polylines:</b> Generate distance maps, iso-lines, and perform projection and intersection.</li>
 </ul>
 <p>Features illustration is available in <a href="https://meshlib.io/features/">the features section</a> or in the sections of this documentation.</p>
-<h2><a class="anchor" id="ModernApplications"></a>
-Modern Applications</h2>
+<h2><a class="anchor" id="autotoc_md3"></a>
+ModernApplications Modern Applications</h2>
 <ul>
 <li><b>Automation</b>, <b>AI</b>, <b>and</b> <b>Robotics</b>. Essential for 3D scanning in robotics, AI, and autonomous systems, MeshLib enables real-time mesh processing for environment mapping, object detection, and path planning. Mesh repair tools prepare models by fixing holes and intersections, ideal for automated systems handling large datasets.</li>
 <li><b>Manufacturing</b> <b>and</b> <b>3D</b> <b>Printing</b>. MeshLib's Boolean operations and mesh offsetting ensure accuracy and manufacturability for 3D prints, optimizing models with decimation for industrial-scale applications.</li>
@@ -177,21 +187,21 @@ Modern Applications</h2>
 <li><b>Scientific</b> <b>Visualization</b> <b>and</b> <b>Medical</b> <b>Imaging</b>. MeshLib supports large datasets, crucial for scientific and medical visualization, with mesh repair and simplification for detailed, real-time models in fields like geophysics and medical planning.</li>
 </ul>
 <p>See more <a href="https://meshlib.io/applications/">application examples</a>.</p>
-<h2><a class="anchor" id="GettingStarted"></a>
-Getting Started</h2>
+<h2><a class="anchor" id="autotoc_md4"></a>
+GettingStarted Getting Started</h2>
 <p>MeshLib SDK offers a simple installation process and extensive documentation to get you up and running quickly. Choose your preferred language, explore the available tutorials, and start creating with MeshLib!</p>
 <p>For Python users, install MeshLib via pip: </p><div class="fragment"><div class="line">pip install meshlib</div>
 </div><!-- fragment --><p>For C++ and C# developers, head to our <a class="el" href="InstallationGuide.html">Installation Guide</a> for more details on integrating MeshLib into your environment.</p>
-<h2><a class="anchor" id="TutorialsLink"></a>
-Tutorials</h2>
-<p>Explore <a class="el" href="Tutorials.html">MeshLib's tutorials and code samples</a> to get started quickly and master advanced features.</p>
-<h2><a class="anchor" id="LicenseLink"></a>
-License</h2>
+<h2><a class="anchor" id="autotoc_md5"></a>
+TutorialsLink Tutorials</h2>
+<p>Explore <a class="el" href="Tutorials.html">MeshLib's tutorials</a> and <a class="el" href="Examples.html">code samples</a> to get started quickly and master advanced features.</p>
+<h2><a class="anchor" id="autotoc_md6"></a>
+LicenseLink License</h2>
 <p>MeshLib offers Non-Commercial Free License with a Commercial License Requirement. Learn more on <a href="https://meshlib.io/license">the MeshLib License page</a>.</p>
-<h2><a class="anchor" id="JoinTheCommunity"></a>
-Join the Community</h2>
+<h2><a class="anchor" id="autotoc_md7"></a>
+JoinTheCommunity Join the Community</h2>
 <p>MeshLib thrives on contributions from developers like you! Explore our GitHub repository, submit pull requests, and be a part of shaping the future of 3D geometry development.</p>
-<p><a href="https://github.com/MeshInspector/MeshLib/discussions">https://github.com/MeshInspector/MeshLib/discussions</a> </p>
+<p><a href="https://github.com/MeshInspector/MeshLib/discussions">Visit GitHub</a> </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"/>
 </div><!-- contents -->

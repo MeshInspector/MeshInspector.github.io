@@ -14,16 +14,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: General Samples</title>
+<title>MeshLib Documentation: Package Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,17 +63,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -109,7 +116,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('usergroup0.html',''); initResizable(true); });
+$(function(){initNavTree('PackageOverview.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -134,30 +141,17 @@ $(function(){initNavTree('usergroup0.html',''); initResizable(true); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">General Samples</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Package Overview</div></div>
 </div><!--header-->
 <div class="contents">
-<ul>
-<li><a href="BasedApplication.html#BasedApplication"><span>Application&#160;Based&#160;on&#160;MeshLib</span></a></li>
-<li><a href="ExampleMeshLoadSave.html#ExampleMeshLoadSave"><span>Mesh&#160;Load&#160;and&#160;Save</span></a></li>
-<li><a href="ExampleMeshExport.html#ExampleMeshExport"><span>Export&#160;Raw&#160;Triangles</span></a></li>
-<li><a href="ExampleMeshModification.html#ExampleMeshModification"><span>Mesh&#160;Modification</span></a></li>
-<li><a href="ExampleMeshBoolean.html#ExampleMeshBoolean"><span>Mesh&#160;Boolean</span></a></li>
-<li><a href="ExampleMeshDecimate.html#ExampleMeshDecimate"><span>Mesh&#160;Decimate</span></a></li>
-<li><a href="ExampleMeshOffset.html#ExampleMeshOffset"><span>Mesh&#160;Offset</span></a></li>
-<li><a href="ExampleMeshFillHole.html#ExampleMeshFillHole"><span>Mesh&#160;Fill&#160;Hole</span></a></li>
-<li><a href="ExampleMeshStitchHole.html#ExampleMeshStitchHole"><span>Mesh&#160;Stitch&#160;Holes</span></a></li>
-<li><a href="ExampleMeshResolveDegenerations.html#ExampleMeshResolveDegenerations"><span>Mesh&#160;Resolve&#160;Degenerations</span></a></li>
-<li><a href="ExampleGlobalRegistration.html#ExampleGlobalRegistration"><span>Global&#160;Registration</span></a></li>
-<li><a href="ExampleMeshICP.html#ExampleMeshICP"><span>Mesh&#160;ICP</span></a></li>
-<li><a href="ExampleMeshExtrude.html#ExampleMeshExtrude"><span>Mesh&#160;Extrude</span></a></li>
-<li><a href="ExampleFreeForm.html#ExampleFreeForm"><span>Mesh&#160;Free&#160;Form&#160;Deformation</span></a></li>
-<li><a href="ExampleLaplacian.html#ExampleLaplacian"><span>Mesh&#160;Laplacian&#160;Deformation</span></a></li>
-<li><a href="ExampleNoiseDenoise.html#ExampleNoiseDenoise"><span>Mesh&#160;Denoise</span></a></li>
-<li><a href="ExampleTriangulation.html#ExampleTriangulation"><span>Triangulation</span></a></li>
+<div class="textblock"><ul>
+<li><a class="el" href="DataModel.html">Data Model Class Hierarchy</a></li>
+<li><a class="el" href="SpacesHelp.html">Spaces and Transformations</a></li>
+<li><a class="el" href="StatePluginsHelp.html">State Plugins Overview</a> </li>
 </ul>
-</div><!-- contents -->
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

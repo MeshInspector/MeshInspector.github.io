@@ -12,10 +12,11 @@ var searchData=
   ['meshlib_9',['Basing your application on MeshLib',['../BasedApplication.html',1,'Examples']]],
   ['meshlib_20c_20on_20windows_10',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
   ['meshlib_20c_20setup_20guide_11',['MeshLib C++ Setup Guide',['../MeshLibCppSetupGuide.html',1,'']]],
-  ['meshlib_20sdk_12',['Getting Started with MeshLib SDK',['../InstallationGuide.html',1,'']]],
-  ['meshlib_20sdk_20for_20python_13',['Installing MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],
-  ['meshlib_20sdk_20tutorials_14',['MeshLib SDK Tutorials',['../Tutorials.html',1,'']]],
-  ['meshlib_20with_20c_15',['Using MeshLib with C#',['../MeshLibCSharpSetupGuide.html',1,'']]],
-  ['model_20class_20hierarchy_16',['Data Model Class Hierarchy',['../DataModel.html',1,'']]],
-  ['modification_17',['Mesh modification',['../ExampleMeshModification.html',1,'Examples']]]
+  ['meshlib_20code_20samples_12',['MeshLib Code Samples',['../Examples.html',1,'']]],
+  ['meshlib_20sdk_13',['Getting Started with MeshLib SDK',['../InstallationGuide.html',1,'']]],
+  ['meshlib_20sdk_20for_20python_14',['How to Install MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],
+  ['meshlib_20sdk_20tutorials_15',['MeshLib SDK Tutorials',['../Tutorials.html',1,'']]],
+  ['meshlib_20with_20c_16',['Integrating MeshLib with C#',['../MeshLibCSharpSetupGuide.html',1,'']]],
+  ['model_20class_20hierarchy_17',['Data Model Class Hierarchy',['../DataModel.html',1,'PackageOverview']]],
+  ['modification_18',['Mesh modification',['../ExampleMeshModification.html',1,'Examples']]]
 ];

@@ -1,5 +1,10 @@
 var NAVTREEINDEX49 =
 {
+"group__SerializerGroup.html#ga72e078f3acb1fe95234144b3f7d2aced":[6,0,0,2,15,16],
+"group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef":[6,0,0,2,15,48],
+"group__SerializerGroup.html#ga790b6ef6dd31f1a82bf42d810c4c1f44":[6,0,0,2,15,23],
+"group__SerializerGroup.html#ga79617de343668de49d25a0ec996110e4":[6,0,0,2,15,43],
+"group__SerializerGroup.html#ga79f82dccdb83d2653639d4bc89f77507":[6,0,0,2,15,42],
 "group__SerializerGroup.html#ga808a7911fef76e6fef660071c41e3da8":[6,0,0,2,15,27],
 "group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c":[6,0,0,2,15,29],
 "group__SerializerGroup.html#ga828f3a1487f57601504c8818f38d0f9e":[6,0,0,2,15,44],
@@ -243,11 +248,6 @@ var NAVTREEINDEX49 =
 "hierarchy.html":[6,0,2,2],
 "index.html":[],
 "index.html":[0],
-"namespaceFreeFormDeformation.html":[6,0,1,0,0],
-"namespaceImGui.html":[6,0,1,0,1],
-"namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48":[6,0,1,0,1,8],
-"namespaceImGui.html#a023d8107acf5b52a1594c2b935b824f0":[6,0,1,0,1,10],
-"namespaceImGui.html#a05c747c1c3e6b5e5f9435452360a521f":[6,0,1,0,1,17],
-"namespaceImGui.html#a1518948fa064c73b105776a73da476dc":[6,0,1,0,1,13],
-"namespaceImGui.html#a1fb7653d1377ce1f2dd7a8f9d1057615":[6,0,1,0,1,21]
+"index.html#autotoc_md0":[0,0],
+"index.html#autotoc_md1":[0,0,0]
 };
