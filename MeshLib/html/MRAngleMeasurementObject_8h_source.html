@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRAngleMeasurementObject_8h_source.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -134,21 +166,21 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html',''); initResi
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a9e20a99d9cfb02b91a653aefadbbb391">   27</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt;Object&gt; <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a9e20a99d9cfb02b91a653aefadbbb391">shallowClone</a>() <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">// Get the angle point in world coordinates.</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f">   30</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f">getWorldPoint</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f">   30</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f">getWorldPoint</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">// Get the angle point in local coordinates.</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7">   32</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7">getLocalPoint</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7">   32</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7">getLocalPoint</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="comment">// One of the two rays representing the angle, relative to the starting point.</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="comment">// They can have length != 1 for visualization purposes, it&#39;s probably a good idea to take the smaller of the two lengths.</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b">   36</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b">getWorldRay</a>( <span class="keywordtype">bool</span> second ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b">   36</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b">getWorldRay</a>( <span class="keywordtype">bool</span> second ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// Same, but in local coordinates.</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f">   38</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f">getLocalRay</a>( <span class="keywordtype">bool</span> second ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f">   38</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f">getLocalRay</a>( <span class="keywordtype">bool</span> second ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// Set the angle point in the local coordinates.</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9">   41</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9">setLocalPoint</a>( <span class="keyword">const</span> MR::Vector3f&amp; point );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9">   41</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9">setLocalPoint</a>( <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">MR::Vector3f</a>&amp; point );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="comment">// Set the two rays representing the angle in the local coordinates.</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="comment">// The lengths are preserved.</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30">   44</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30">setLocalRays</a>( <span class="keyword">const</span> MR::Vector3f&amp; a, <span class="keyword">const</span> MR::Vector3f&amp; b );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30">   44</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30">setLocalRays</a>( <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">MR::Vector3f</a>&amp; a, <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">MR::Vector3f</a>&amp; b );</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// Whether this is a conical angle. The middle line between the rays is preserved, but the rays themselves can be rotated.</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7">   47</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7">getIsConical</a>() <span class="keyword">const</span>;</div>
@@ -221,6 +253,7 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html',''); initResi
 <div class="ttc" id="aclassMR_1_1AngleMeasurementObject_html_ae9cceecc44b56c37d2a10067bdaa9e20"><div class="ttname"><a href="classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20">MR::AngleMeasurementObject::setupRenderObject_</a></div><div class="ttdeci">MRMESH_API void setupRenderObject_() const override</div></div>
 <div class="ttc" id="aclassMR_1_1MeasurementObject_html"><div class="ttname"><a href="classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></div><div class="ttdef"><b>Definition</b> MRMeasurementObject.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:60</div></div>
+<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html">MR::Object::ProtectedStruct</a></div><div class="ttdef"><b>Definition</b> MRObject.h:246</div></div>
 </div><!-- fragment --></div><!-- contents -->

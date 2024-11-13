@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/classMR_1_1ICP.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -112,11 +144,11 @@ $(function(){initNavTree('classMR_1_1ICP.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abf8abfc1336998ff9b7f0baff945f17f" id="r_abf8abfc1336998ff9b7f0baff945f17f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf8abfc1336998ff9b7f0baff945f17f">ICP</a> (const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;flt, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</td></tr>
+<tr class="memitem:abf8abfc1336998ff9b7f0baff945f17f" id="r_abf8abfc1336998ff9b7f0baff945f17f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf8abfc1336998ff9b7f0baff945f17f">ICP</a> (const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;flt, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;ref, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;fltXf, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;refXf, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;fltSamples={}, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;refSamples={})</td></tr>
 <tr class="separator:abf8abfc1336998ff9b7f0baff945f17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca4490fa0871ec586b8cdb403a73cba7" id="r_aca4490fa0871ec586b8cdb403a73cba7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4490fa0871ec586b8cdb403a73cba7">ICP</a> (const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;flt, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;ref, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</td></tr>
+<tr class="memitem:aca4490fa0871ec586b8cdb403a73cba7" id="r_aca4490fa0871ec586b8cdb403a73cba7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4490fa0871ec586b8cdb403a73cba7">ICP</a> (const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;flt, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;ref, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;fltSamples={}, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;refSamples={})</td></tr>
 <tr class="separator:aca4490fa0871ec586b8cdb403a73cba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeebad873ae2a9669d93fc0063a7d823" id="r_aeeebad873ae2a9669d93fc0063a7d823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeebad873ae2a9669d93fc0063a7d823">ICP</a> (const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;flt, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, float samplingVoxelSize)</td></tr>
+<tr class="memitem:aeeebad873ae2a9669d93fc0063a7d823" id="r_aeeebad873ae2a9669d93fc0063a7d823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeebad873ae2a9669d93fc0063a7d823">ICP</a> (const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;flt, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;ref, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;fltXf, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;refXf, float samplingVoxelSize)</td></tr>
 <tr class="separator:aeeebad873ae2a9669d93fc0063a7d823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae577ff855840dbf373087da916d01fc5" id="r_ae577ff855840dbf373087da916d01fc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae577ff855840dbf373087da916d01fc5">ICP</a> (const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;flt, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;ref, float samplingVoxelSize)</td></tr>
 <tr class="separator:ae577ff855840dbf373087da916d01fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,12 +163,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a82d109dc700457986de7a786d6000429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7075821af276952c330c5171ffc772c" id="r_af7075821af276952c330c5171ffc772c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7075821af276952c330c5171ffc772c">setFarDistFactor</a> (const float <a class="el" href="namespaceMR.html#aa2579613f677dcb6e5d4112ae3f95f4ca742f32c65ffd18b766fa307f8de2d47d">factor</a>)</td></tr>
 <tr class="separator:af7075821af276952c330c5171ffc772c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f146d207e9738307404735d50df2c02" id="r_a4f146d207e9738307404735d50df2c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f146d207e9738307404735d50df2c02">setFltSamples</a> (const VertBitSet &amp;fltSamples)</td></tr>
+<tr class="memitem:a4f146d207e9738307404735d50df2c02" id="r_a4f146d207e9738307404735d50df2c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f146d207e9738307404735d50df2c02">setFltSamples</a> (const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;fltSamples)</td></tr>
 <tr class="memdesc:a4f146d207e9738307404735d50df2c02"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on floating object  <br /></td></tr>
 <tr class="separator:a4f146d207e9738307404735d50df2c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7306dd698567c8bfa4b7c01a5eb5881f" id="r_a7306dd698567c8bfa4b7c01a5eb5881f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7306dd698567c8bfa4b7c01a5eb5881f">sampleFltPoints</a> (float samplingVoxelSize)</td></tr>
 <tr class="separator:a7306dd698567c8bfa4b7c01a5eb5881f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d2c3ad12814f1fc80c984f56f97ab5" id="r_a71d2c3ad12814f1fc80c984f56f97ab5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71d2c3ad12814f1fc80c984f56f97ab5">setRefSamples</a> (const VertBitSet &amp;refSamples)</td></tr>
+<tr class="memitem:a71d2c3ad12814f1fc80c984f56f97ab5" id="r_a71d2c3ad12814f1fc80c984f56f97ab5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71d2c3ad12814f1fc80c984f56f97ab5">setRefSamples</a> (const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;refSamples)</td></tr>
 <tr class="memdesc:a71d2c3ad12814f1fc80c984f56f97ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on reference object  <br /></td></tr>
 <tr class="separator:a71d2c3ad12814f1fc80c984f56f97ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b29e7fe70c13a2bc3b83971e92b564" id="r_a46b29e7fe70c13a2bc3b83971e92b564"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b29e7fe70c13a2bc3b83971e92b564">sampleRefPoints</a> (float samplingVoxelSize)</td></tr>
@@ -146,13 +178,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a56cde0df43df6f53274400daea013890"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8aae96208cb7024a262cd09b2412455" id="r_af8aae96208cb7024a262cd09b2412455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8aae96208cb7024a262cd09b2412455">recomputeBitSet</a> (float fltSamplingVoxelSize)</td></tr>
 <tr class="separator:af8aae96208cb7024a262cd09b2412455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab88edcca6724a83490260b5136044e36" id="r_ab88edcca6724a83490260b5136044e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab88edcca6724a83490260b5136044e36">setXfs</a> (const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf)</td></tr>
+<tr class="memitem:ab88edcca6724a83490260b5136044e36" id="r_ab88edcca6724a83490260b5136044e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab88edcca6724a83490260b5136044e36">setXfs</a> (const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;fltXf, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;refXf)</td></tr>
 <tr class="memdesc:ab88edcca6724a83490260b5136044e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets to-world transformations both for floating and reference objects  <br /></td></tr>
 <tr class="separator:ab88edcca6724a83490260b5136044e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a648f51132c41c3a5914156ba001be0b0" id="r_a648f51132c41c3a5914156ba001be0b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648f51132c41c3a5914156ba001be0b0">setFloatXf</a> (const AffineXf3f &amp;fltXf)</td></tr>
+<tr class="memitem:a648f51132c41c3a5914156ba001be0b0" id="r_a648f51132c41c3a5914156ba001be0b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648f51132c41c3a5914156ba001be0b0">setFloatXf</a> (const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;fltXf)</td></tr>
 <tr class="memdesc:a648f51132c41c3a5914156ba001be0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets to-world transformation for the floating object  <br /></td></tr>
 <tr class="separator:a648f51132c41c3a5914156ba001be0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af17a6cc396cbd9fef3d4f6b0d57646be" id="r_af17a6cc396cbd9fef3d4f6b0d57646be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af17a6cc396cbd9fef3d4f6b0d57646be">autoSelectFloatXf</a> ()</td></tr>
+<tr class="memitem:af17a6cc396cbd9fef3d4f6b0d57646be" id="r_af17a6cc396cbd9fef3d4f6b0d57646be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af17a6cc396cbd9fef3d4f6b0d57646be">autoSelectFloatXf</a> ()</td></tr>
 <tr class="separator:af17a6cc396cbd9fef3d4f6b0d57646be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1c8fb3d4bbd3f143c7af4c10fd3cefa" id="r_ab1c8fb3d4bbd3f143c7af4c10fd3cefa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c8fb3d4bbd3f143c7af4c10fd3cefa">updatePointPairs</a> ()</td></tr>
 <tr class="memdesc:ab1c8fb3d4bbd3f143c7af4c10fd3cefa"><td class="mdescLeft">&#160;</td><td class="mdescRight">recompute point pairs after manual change of transformations or parameters  <br /></td></tr>
@@ -179,7 +211,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ae6b714ad76474375e6365bb6a882a6" id="r_a5ae6b714ad76474375e6365bb6a882a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ae6b714ad76474375e6365bb6a882a6">getRef2FltPairs</a> () const</td></tr>
 <tr class="memdesc:a5ae6b714ad76474375e6365bb6a882a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current pairs formed from samples on reference object and projections on floating object  <br /></td></tr>
 <tr class="separator:a5ae6b714ad76474375e6365bb6a882a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f40555a05bfe2e6e231d81811b6baa7" id="r_a3f40555a05bfe2e6e231d81811b6baa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f40555a05bfe2e6e231d81811b6baa7">calculateTransformation</a> ()</td></tr>
+<tr class="memitem:a3f40555a05bfe2e6e231d81811b6baa7" id="r_a3f40555a05bfe2e6e231d81811b6baa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f40555a05bfe2e6e231d81811b6baa7">calculateTransformation</a> ()</td></tr>
 <tr class="separator:a3f40555a05bfe2e6e231d81811b6baa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -207,22 +239,22 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -264,12 +296,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -298,12 +330,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -364,7 +396,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3f MR::ICP::autoSelectFloatXf </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::ICP::autoSelectFloatXf </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -385,7 +417,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3f MR::ICP::calculateTransformation </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::ICP::calculateTransformation </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -776,7 +808,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ICP::setFloatXf </td>
           <td>(</td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -795,7 +827,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ICP::setFltSamples </td>
           <td>(</td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -841,7 +873,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ICP::setRefSamples </td>
           <td>(</td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -860,12 +892,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ICP::setXfs </td>
           <td>(</td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

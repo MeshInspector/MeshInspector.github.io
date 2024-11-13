@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/group__BooleanGroup.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -156,7 +188,13 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga3f74a4803a385d6714d3711d05b747dc" id="r_ga3f74a4803a385d6714d3711d05b747dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f74a4803a385d6714d3711d05b747dc">MR::doBooleanOperation</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshACut, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const AffineXf3f *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr, bool mergeAllNonIntersectingComponents=false, const <a class="el" href="structMR_1_1BooleanInternalParameters.html">BooleanInternalParameters</a> &amp;intParams={})</td></tr>
+<tr class="memitem:gaaf373a6387d1b68644dec415c708ecfc" id="r_gaaf373a6387d1b68644dec415c708ecfc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structBooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaf373a6387d1b68644dec415c708ecfc">MeshBoolean::Boolean</a> (<a class="el" href="classMesh.html">Mesh</a>^ meshA, <a class="el" href="classMesh.html">Mesh</a>^ meshB, <a class="el" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a> op)</td></tr>
+<tr class="memdesc:gaaf373a6387d1b68644dec415c708ecfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <br /></td></tr>
+<tr class="separator:gaaf373a6387d1b68644dec415c708ecfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5f5f402055d09597e8c79dba99ebf95" id="r_gad5f5f402055d09597e8c79dba99ebf95"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structBooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5f5f402055d09597e8c79dba99ebf95">MeshBoolean::Boolean</a> (<a class="el" href="classMesh.html">Mesh</a>^ meshA, <a class="el" href="classMesh.html">Mesh</a>^ meshB, <a class="el" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a> op, <a class="el" href="structBooleanParameters.html">BooleanParameters</a> params)</td></tr>
+<tr class="memdesc:gad5f5f402055d09597e8c79dba99ebf95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <br /></td></tr>
+<tr class="separator:gad5f5f402055d09597e8c79dba99ebf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3f74a4803a385d6714d3711d05b747dc" id="r_ga3f74a4803a385d6714d3711d05b747dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f74a4803a385d6714d3711d05b747dc">MR::doBooleanOperation</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshACut, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr, bool mergeAllNonIntersectingComponents=false, const <a class="el" href="structMR_1_1BooleanInternalParameters.html">BooleanInternalParameters</a> &amp;intParams={})</td></tr>
 <tr class="separator:ga3f74a4803a385d6714d3711d05b747dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga75a5ecaa0b71ec23ac7d519651848ee9" id="r_ga75a5ecaa0b71ec23ac7d519651848ee9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75a5ecaa0b71ec23ac7d519651848ee9">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;meshTriPoints, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
 <tr class="memdesc:ga75a5ecaa0b71ec23ac7d519651848ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
@@ -173,13 +211,13 @@ Functions</h2></td></tr>
 <tr class="memitem:gafb1acfb7ea34c1828a3f0e9b415c6dcc" id="r_gafb1acfb7ea34c1828a3f0e9b415c6dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1CutMeshResult.html">CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &amp;contours, const <a class="el" href="structMR_1_1CutMeshParameters.html">CutMeshParameters</a> &amp;params={})</td></tr>
 <tr class="memdesc:gafb1acfb7ea34c1828a3f0e9b415c6dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts mesh by given contours.  <br /></td></tr>
 <tr class="separator:gafb1acfb7ea34c1828a3f0e9b415c6dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae70921f8b670333f08291597996a1dbf" id="r_gae70921f8b670333f08291597996a1dbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae70921f8b670333f08291597996a1dbf">MR::cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Plane3f &amp;plane, FaceMap *mapNew2Old=nullptr)</td></tr>
+<tr class="memitem:gae70921f8b670333f08291597996a1dbf" id="r_gae70921f8b670333f08291597996a1dbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae70921f8b670333f08291597996a1dbf">MR::cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Plane3f &amp;plane, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#afa5e3b3136272a072cba72e1aa163040">FaceMap</a> *mapNew2Old=nullptr)</td></tr>
 <tr class="memdesc:gae70921f8b670333f08291597996a1dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple cut mesh by plane.  <br /></td></tr>
 <tr class="separator:gae70921f8b670333f08291597996a1dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5dc229b89588f1a3416aca4910e460d9" id="r_ga5dc229b89588f1a3416aca4910e460d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const AffineXf3f *rigidB2A, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:ga5dc229b89588f1a3416aca4910e460d9" id="r_ga5dc229b89588f1a3416aca4910e460d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga5dc229b89588f1a3416aca4910e460d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <br /></td></tr>
 <tr class="separator:ga5dc229b89588f1a3416aca4910e460d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabcddc5448fa2c146bca47925a093d3c2" id="r_gabcddc5448fa2c146bca47925a093d3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcddc5448fa2c146bca47925a093d3c2">MR::getBooleanPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const AffineXf3f *rigidB2A=nullptr)</td></tr>
+<tr class="memitem:gabcddc5448fa2c146bca47925a093d3c2" id="r_gabcddc5448fa2c146bca47925a093d3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcddc5448fa2c146bca47925a093d3c2">MR::getBooleanPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:gabcddc5448fa2c146bca47925a093d3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh boolean's result mesh.  <br /></td></tr>
 <tr class="separator:gabcddc5448fa2c146bca47925a093d3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -278,6 +316,106 @@ Difference A-B</div></div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gaaf373a6387d1b68644dec415c708ecfc" name="gaaf373a6387d1b68644dec415c708ecfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf373a6387d1b68644dec415c708ecfc">&#9670;&#160;</a></span>Boolean() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structBooleanResult.html">BooleanResult</a> MeshBoolean::Boolean </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMesh.html">Mesh</a>^</td>          <td class="paramname"><span class="paramname"><em>meshA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMesh.html">Mesh</a>^</td>          <td class="paramname"><span class="paramname"><em>meshB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs CSG operation on two meshes. </p>
+<p>Makes new mesh - result of boolean operation on mesh <code>A</code> and mesh <code>B</code> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">meshA</td><td>Input mesh <code>A</code> </td></tr>
+    <tr><td class="paramname">meshB</td><td>Input mesh <code>B</code> </td></tr>
+    <tr><td class="paramname">op</td><td>CSG operation to perform</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Input meshes should have no self-intersections in intersecting zone </dd>
+<dd>
+If meshes are not closed in intersecting zone some boolean operations are not allowed (as far as input meshes interior and exterior cannot be determined) </dd></dl>
+
+</div>
+</div>
+<a id="gad5f5f402055d09597e8c79dba99ebf95" name="gad5f5f402055d09597e8c79dba99ebf95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5f5f402055d09597e8c79dba99ebf95">&#9670;&#160;</a></span>Boolean() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structBooleanResult.html">BooleanResult</a> MeshBoolean::Boolean </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMesh.html">Mesh</a>^</td>          <td class="paramname"><span class="paramname"><em>meshA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMesh.html">Mesh</a>^</td>          <td class="paramname"><span class="paramname"><em>meshB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBooleanParameters.html">BooleanParameters</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs CSG operation on two meshes. </p>
+<p>Makes new mesh - result of boolean operation on mesh <code>A</code> and mesh <code>B</code> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">meshA</td><td>Input mesh <code>A</code> </td></tr>
+    <tr><td class="paramname">meshB</td><td>Input mesh <code>B</code> </td></tr>
+    <tr><td class="paramname">op</td><td>CSG operation to perform </td></tr>
+    <tr><td class="paramname">params</td><td>optional parameters</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Input meshes should have no self-intersections in intersecting zone </dd>
+<dd>
+If meshes are not closed in intersecting zone some boolean operations are not allowed (as far as input meshes interior and exterior cannot be determined) </dd></dl>
+
+</div>
+</div>
 <a id="ga5dc229b89588f1a3416aca4910e460d9" name="ga5dc229b89588f1a3416aca4910e460d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga5dc229b89588f1a3416aca4910e460d9">&#9670;&#160;</a></span>boolean()</h2>
 
@@ -302,7 +440,7 @@ Difference A-B</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -565,7 +703,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FaceMap *</td>          <td class="paramname"><span class="paramname"><em>mapNew2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#afa5e3b3136272a072cba72e1aa163040">FaceMap</a> *</td>          <td class="paramname"><span class="paramname"><em>mapNew2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -618,7 +756,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -666,7 +804,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

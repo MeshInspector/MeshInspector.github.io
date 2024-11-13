@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRComputeBoundingBox_8h_source.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -113,11 +145,11 @@ $(function(){initNavTree('MRComputeBoundingBox_8h_source.html',''); initResizabl
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> V&gt;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">   16</a></span><a class="code hl_struct" href="structMR_1_1Box.html">Box&lt;V&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;V, VertId&gt;</a> &amp; points, VertId firstVert, VertId lastVert, <span class="keyword">const</span> VertBitSet* region = <span class="keyword">nullptr</span>, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf&lt;V&gt;</a>* toWorld = <span class="keyword">nullptr</span> );</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">   16</a></span><a class="code hl_struct" href="structMR_1_1Box.html">Box&lt;V&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;V, VertId&gt;</a> &amp; points, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> firstVert, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> lastVert, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">VertBitSet</a>* region = <span class="keyword">nullptr</span>, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf&lt;V&gt;</a>* toWorld = <span class="keyword">nullptr</span> );</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> V&gt;</div>
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga560ffd3d317d3bb18df9db6aae8c2d02">   23</a></span><span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1Box.html">Box&lt;V&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;V, VertId&gt;</a> &amp; points, <span class="keyword">const</span> VertBitSet* region = <span class="keyword">nullptr</span>, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf&lt;V&gt;</a>* toWorld = <span class="keyword">nullptr</span> )</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga560ffd3d317d3bb18df9db6aae8c2d02">   23</a></span><span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1Box.html">Box&lt;V&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;V, VertId&gt;</a> &amp; points, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">VertBitSet</a>* region = <span class="keyword">nullptr</span>, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf&lt;V&gt;</a>* toWorld = <span class="keyword">nullptr</span> )</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( points, points.<a class="code hl_function" href="classMR_1_1Vector.html#a77de89f2d4e174400377d487cb85aa88">beginId</a>(), points.<a class="code hl_function" href="classMR_1_1Vector.html#affe4aad8fd23742b0de456abb1921fc0">endId</a>(), region, toWorld );</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
@@ -125,22 +157,24 @@ $(function(){initNavTree('MRComputeBoundingBox_8h_source.html',''); initResizabl
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> V&gt;</div>
 <div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef">   33</a></span><span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1Box.html">Box&lt;V&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;V, VertId&gt;</a> &amp; points, <span class="keyword">const</span> VertBitSet &amp; region, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf&lt;V&gt;</a> * toWorld = <span class="keyword">nullptr</span> )</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef">   33</a></span><span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1Box.html">Box&lt;V&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;V, VertId&gt;</a> &amp; points, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">VertBitSet</a> &amp; region, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf&lt;V&gt;</a> * toWorld = <span class="keyword">nullptr</span> )</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>( points, points.<a class="code hl_function" href="classMR_1_1Vector.html#a77de89f2d4e174400377d487cb85aa88">beginId</a>(), points.<a class="code hl_function" href="classMR_1_1Vector.html#affe4aad8fd23742b0de456abb1921fc0">endId</a>(), &amp;region, toWorld );</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}</div>
 </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a97d91fcf1566198a2abf87966d056a9f"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></div><div class="ttdeci">int VertId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:51</div></div>
 <div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:20</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_a77de89f2d4e174400377d487cb85aa88"><div class="ttname"><a href="classMR_1_1Vector.html#a77de89f2d4e174400377d487cb85aa88">MR::Vector::beginId</a></div><div class="ttdeci">I beginId() const</div><div class="ttdoc">returns the identifier of the first element</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:123</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_affe4aad8fd23742b0de456abb1921fc0"><div class="ttname"><a href="classMR_1_1Vector.html#affe4aad8fd23742b0de456abb1921fc0">MR::Vector::endId</a></div><div class="ttdeci">I endId() const</div><div class="ttdoc">returns backId() + 1</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:127</div></div>
+<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:19</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html_a77de89f2d4e174400377d487cb85aa88"><div class="ttname"><a href="classMR_1_1Vector.html#a77de89f2d4e174400377d487cb85aa88">MR::Vector::beginId</a></div><div class="ttdeci">I beginId() const</div><div class="ttdoc">returns the identifier of the first element</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:122</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html_affe4aad8fd23742b0de456abb1921fc0"><div class="ttname"><a href="classMR_1_1Vector.html#affe4aad8fd23742b0de456abb1921fc0">MR::Vector::endId</a></div><div class="ttdeci">I endId() const</div><div class="ttdoc">returns backId() + 1</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:126</div></div>
 <div class="ttc" id="agroup__MathGroup_html_ga3b002e846a245cb69384c1d444ea65a0"><div class="ttname"><a href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">MR::computeBoundingBox</a></div><div class="ttdeci">Box&lt; V &gt; computeBoundingBox(const Vector&lt; V, VertId &gt; &amp;points, VertId firstVert, VertId lastVert, const VertBitSet *region=nullptr, const AffineXf&lt; V &gt; *toWorld=nullptr)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:14</div></div>
-<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:25</div></div>
+<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

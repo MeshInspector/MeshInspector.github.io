@@ -1,12 +1,10 @@
 var group__BoxGroup =
 [
     [ "MR::Box< V >", "structMR_1_1Box.html", [
-      [ "T", "structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd", null ],
-      [ "VTraits", "structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0", null ],
+      [ "T", "structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb", null ],
       [ "Box", "structMR_1_1Box.html#ab72759c3d199697fa09474bba5c5284c", null ],
+      [ "Box", "structMR_1_1Box.html#ae74992c32e34243852ae9a27ce2c9554", null ],
       [ "Box", "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987", null ],
-      [ "Box", "structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8", null ],
-      [ "Box", "structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8", null ],
       [ "Box", "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35", null ],
       [ "center", "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e", null ],
       [ "contains", "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598", null ],
@@ -32,8 +30,6 @@ var group__BoxGroup =
       [ "min", "structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda", null ]
     ] ],
     [ "MR::depth", "group__BoxGroup.html#ga7f9739369c171b50d576ee7cc726996f", null ],
-    [ "MR::get", "group__BoxGroup.html#ga76c5563a8f378f26e9e7cd06542fc0bf", null ],
-    [ "MR::get", "group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e", null ],
     [ "MR::getCorners", "group__BoxGroup.html#ga29381aa0a95542624d22842711d672f9", null ],
     [ "MR::getCorners", "group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8", null ],
     [ "MR::height", "group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae", null ],

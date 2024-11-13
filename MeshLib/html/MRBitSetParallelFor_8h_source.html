@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRBitSetParallelFor_8h_source.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -317,7 +349,7 @@ $(function(){initNavTree('MRBitSetParallelFor_8h_source.html',''); initResizable
 <div class="ttc" id="agroup__BasicGroup_html_ga13c3e24dbe2feef1f9d56ea427ef4107"><div class="ttname"><a href="group__BasicGroup.html#ga13c3e24dbe2feef1f9d56ea427ef4107">MR::BitSetParallelForAll</a></div><div class="ttdeci">auto BitSetParallelForAll(const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</div><div class="ttdef"><b>Definition</b> MRBitSetParallelFor.h:168</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga33e26ce0b4711944b757408b0ab339a5"><div class="ttname"><a href="group__BasicGroup.html#ga33e26ce0b4711944b757408b0ab339a5">MR::BitSetParallelForAllRanged</a></div><div class="ttdeci">auto BitSetParallelForAllRanged(const BS &amp;bs, F &amp;&amp;... f)</div><div class="ttdef"><b>Definition</b> MRBitSetParallelFor.h:146</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga6f038e999890735ffdb5f8119eb5650e"><div class="ttname"><a href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a></div><div class="ttdeci">auto BitSetParallelFor(const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</div><div class="ttdef"><b>Definition</b> MRBitSetParallelFor.h:189</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
 <div class="ttc" id="anamespaceMR_1_1BitSetParallel_html_a3bd79eee90fc2c0edb4ad601a2405b3c"><div class="ttname"><a href="namespaceMR_1_1BitSetParallel.html#a3bd79eee90fc2c0edb4ad601a2405b3c">MR::BitSetParallel::ForAllRanged</a></div><div class="ttdeci">void ForAllRanged(const IdRange&lt; IndexType &gt; &amp;bitRange, const CM &amp;callMaker, F &amp;&amp;f)</div><div class="ttdef"><b>Definition</b> MRBitSetParallelFor.h:59</div></div>
 <div class="ttc" id="anamespaceMR_1_1BitSetParallel_html_a8c54ac4b7f59d210bf4835cfa5d86a8c"><div class="ttname"><a href="namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c">MR::BitSetParallel::bitRange</a></div><div class="ttdeci">auto bitRange(const BS &amp;bs)</div><div class="ttdef"><b>Definition</b> MRBitSetParallelFor.h:43</div></div>
 <div class="ttc" id="anamespaceMR_1_1BitSetParallel_html_a8d363b4768efba11f60c43928c542bf1"><div class="ttname"><a href="namespaceMR_1_1BitSetParallel.html#a8d363b4768efba11f60c43928c542bf1">MR::BitSetParallel::blockRange</a></div><div class="ttdeci">auto blockRange(const IdRange&lt; IndexType &gt; &amp;bitRange)</div><div class="ttdef"><b>Definition</b> MRBitSetParallelFor.h:28</div></div>

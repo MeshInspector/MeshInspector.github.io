@@ -11,7 +11,6 @@ var namespaceMR_1_1UI =
     [ "PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
     [ "RadioButtonOrModifierState", "structMR_1_1UI_1_1RadioButtonOrModifierState.html", "structMR_1_1UI_1_1RadioButtonOrModifierState" ],
     [ "RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", "classMR_1_1UI_1_1RectAllocator" ],
-    [ "SaveChangesPopupSettings", "structMR_1_1UI_1_1SaveChangesPopupSettings.html", "structMR_1_1UI_1_1SaveChangesPopupSettings" ],
     [ "WindowRectAllocator", "classMR_1_1UI_1_1WindowRectAllocator.html", "classMR_1_1UI_1_1WindowRectAllocator" ],
     [ "TextureType", "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6", [
       [ "Mono", "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086", null ],
@@ -38,7 +37,6 @@ var namespaceMR_1_1UI =
     [ "buttonIconEx", "namespaceMR_1_1UI.html#ab53314e24f68de52f675b6881591b212", null ],
     [ "buttonIconFlatBG", "namespaceMR_1_1UI.html#a192d3148a5ed3177660fcb7c2e758f1f", null ],
     [ "buttonUnique", "namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9", null ],
-    [ "buttonUniqueIcon", "namespaceMR_1_1UI.html#a41964cdf183e28e570d11115b3a1ef58", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222", null ],
     [ "checkboxFlags", "namespaceMR_1_1UI.html#aba6c7c72b70351ba42eae4e3a2e0df4b", null ],
@@ -74,7 +72,6 @@ var namespaceMR_1_1UI =
     [ "radioButtonOrFixedValue", "namespaceMR_1_1UI.html#af6f24e8f5454ee5851179f720cd07eb4", null ],
     [ "radioButtonOrModifier", "namespaceMR_1_1UI.html#a106b8bc31fb0bf822e4d25da72a41ead", null ],
     [ "readOnlyValue", "namespaceMR_1_1UI.html#aa1fd1e704f1ff98b82cc4c98e452f57a", null ],
-    [ "saveChangesPopup", "namespaceMR_1_1UI.html#af1937d08c3cb699681eeb7fd4dde005e", null ],
     [ "separator", "namespaceMR_1_1UI.html#a44947bf84615148fe9afb91d1895d231", null ],
     [ "separator", "namespaceMR_1_1UI.html#a63e011139a97a30e31e34d070e0f0e11", null ],
     [ "separator", "namespaceMR_1_1UI.html#a18b9183fbf887e8e6930c577d92fa409", null ],

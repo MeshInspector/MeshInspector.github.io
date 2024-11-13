@@ -62,7 +62,6 @@ var group__HistoryGroup =
     [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshPointsAction.html#a340cefe2c61d0fb443d69100d5373a74", null ],
       [ "ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html#a085ebc78393d430d040423cca12c98f7", null ],
-      [ "ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html#a4d01985472f7bf85151b606e14c271db", null ],
       [ "action", "classMR_1_1ChangeMeshPointsAction.html#a6e16c0785949b651b455323c1eb41b87", null ],
       [ "heapBytes", "classMR_1_1ChangeMeshPointsAction.html#ad7423777ecd9e793cc148677e49e5e4d", null ],
       [ "name", "classMR_1_1ChangeMeshPointsAction.html#a5094eae088c0883a835d21da8c59f78c", null ]
@@ -254,7 +253,6 @@ var group__HistoryGroup =
         [ "Undo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119", null ],
         [ "Redo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6", null ],
         [ "Clear", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2", null ],
-        [ "PopAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f", null ],
         [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]
       ] ],
       [ "~HistoryStore", "classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614", null ],

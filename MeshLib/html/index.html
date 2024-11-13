@@ -1,11 +1,30 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/index.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: About</title>
+<title>MeshLib: Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -101,63 +133,89 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">About </div></div>
+  <div class="headertitle"><div class="title">Overview </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#Introduction">Introduction</a></li>
-<li class="level2"><a href="#KeyFeatures">Key Features</a></li>
-<li class="level2"><a href="#ModernApplications">Modern Applications</a></li>
-<li class="level2"><a href="#GettingStarted">Getting Started</a></li>
-<li class="level2"><a href="#TutorialsLink">Tutorials</a></li>
-<li class="level2"><a href="#LicenseLink">License</a></li>
-<li class="level2"><a href="#JoinTheCommunity">Join the Community</a></li>
+<div class="textblock"><h1><a class="anchor" id="WhatAreMeshLib"></a>
+MeshLib</h1>
+<p>MeshLib is 3D geometry library that allows you to make your applications based on it or perform some 3D operations using it as application or library with c++ or python</p>
+<h1><a class="anchor" id="HomePageBuildWin"></a>
+Build with VS2019 or VS2022 on Windows</h1>
+<div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/MeshInspector/MeshLib.git</span></div>
+<div class="line">$ cd MeshLib</div>
+<div class="line">$ git submodule update --init --recursive</div>
+<div class="line">$ cd ..</div>
+</div><!-- fragment --><p>Note: following below steps will take about 40Gb of your disk space.</p>
+<p><b>Preparing</b> <b>Third</b> <b>Parties</b> <br  />
+Some third parties are taken from vcpkg, while others (missing in vcpkg) are configured as git submodules. <br  />
+ <br  />
+ <b><a class="el" href="namespaceMR_1_1Cuda.html">Cuda</a>:</b> Please install CUDA (v12.0|v11.4)(Visual Studio 2022|2019) from <a href="https://developer.nvidia.com/cuda-toolkit-archive">official site</a></p>
+<p><b>Vcpkg:</b> </p><ol type="1">
+<li>Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requires English language pack in Visual Studio, and vcpkg cannot be installed on FAT volumes, only on NTFS): <div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/Microsoft/vcpkg.git</span></div>
+<div class="line">$ cd vcpkg</div>
+<div class="line">$ git checkout 2024.07.12</div>
+<div class="line">$ .\bootstrap-vcpkg.bat</div>
+<div class="line">$ .\vcpkg integrate install (with admin rights)</div>
+<div class="line">$ cd ..</div>
+</div><!-- fragment --> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></li>
+<li>Execute install.bat <div class="fragment"><div class="line">$ cd MeshLib/thirdparty</div>
+<div class="line">$ install.bat</div>
+</div><!-- fragment --></li>
+<li>Open solution file MeshInspector/source/MeshLib.sln in Visual Studio. Build it and run.</li>
+</ol>
+<h1><a class="anchor" id="HomePageBuildLin"></a>
+Build with CMake on Linux</h1>
+<p>This installation was checked on Ubuntu 20.04.4 with cmake 3.19.3 and gcc 9.3.0.<br  />
+Installation process is automated, but takes ~40 minutes if no required packages are already installed.. <br  />
+<b>Install/Build</b> <b>dependencies</b>. <b>Build</b> <b>project</b>. <b>Run</b> <b>Test</b> <b>Application</b> Run the following in terminal: </p><div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/MeshInspector/MeshLib.git</span></div>
+<div class="line">$ cd MeshLib</div>
+<div class="line">$ ./scripts/install_requirements.sh</div>
+<div class="line">$ ./scripts/build.sh</div>
+<div class="line">$ ./scripts/install_MR.sh #optional</div>
+<div class="line">$ ./build/Release/bin/MRTest</div>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>./scripts/install*.sh scripts required root access sometimes during installation. However, it's not recommended to run the whole script with sudo. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You could specify build type to Debug by <code>export</code> <code>MESHLIB_BUILD_TYPE=Debug</code> , <em>Release</em> is default. </dd></dl>
+<h1><a class="anchor" id="HomePageBuildWasm"></a>
+Build with Emscripten on Linux</h1>
+<p>This installation was checked on Ubuntu 20.04.4 with emscripten 3.1.23.</p>
+<ol type="1">
+<li>Install Emscripten (find more on <a href="https://emscripten.org/docs/getting_started/downloads.html">emscripten official page</a>) <div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/emscripten-core/emsdk.git</span></div>
+<div class="line">$ cd emsdk</div>
+<div class="line">$ git pull # optional</div>
+<div class="line">$ ./emsdk install 3.1.23 # (or enother version / latest)</div>
+<div class="line">$ ./emsdk activate 3.1.23</div>
+<div class="line">$ source ./emsdk_env.sh</div>
+</div><!-- fragment --></li>
+<li>Build <div class="fragment"><div class="line">cd ~/MeshInspectorCode</div>
+<div class="line">$ ./scripts/build_thirdparty.sh # select emscripten in the corresponding question</div>
+<div class="line">$ ./scripts/build_sorces.sh # select emscripten in the corresponding question</div>
+</div><!-- fragment --></li>
+<li>Run <div class="fragment"><div class="line">$ python3 ./scripts/local_server.py</div>
+<div class="line">$ open in browser 127.0.0.1:8000</div>
+</div><!-- fragment --></li>
+</ol>
+<h1><a class="anchor" id="PythonIntegration"></a>
+Python integration</h1>
+<p>Although MeshLib is written in C++, all functions are exposed to Python as well. Python code can be executed both from within a MeshLib-based C++ application (embedded mode) and from python interpreter directly, which imports MeshLib modules.<br  />
+Moreover, MeshLib can be easily installed as a Python 3.8 - 3.12 package using <code>pip install</code>:<br  />
+</p><ul>
+<li>On Windows via <div class="fragment"><div class="line">py -3 -m pip install --upgrade pip</div>
+<div class="line">py -3 -m pip install --upgrade meshlib</div>
+</div><!-- fragment --></li>
+<li>On Linuxes supporting <a href="https://github.com/mayeut/pep600_compliance#distro-compatibility">manylinux_2_31+</a>, including Ubuntu 20+ and Fedora 32+ via <div class="fragment"><div class="line">sudo apt install python3-pip</div>
+<div class="line">python3 -m pip install --upgrade pip</div>
+<div class="line">python3 -m pip install --upgrade meshlib</div>
+</div><!-- fragment --></li>
+<li>On macOS 12.0+ via <div class="fragment"><div class="line">pip install --upgrade pip</div>
+<div class="line">pip install --upgrade meshlib</div>
+</div><!-- fragment --></li>
 </ul>
+<p>Find more:</p><ul>
+<li><a class="el" href="DataModel.html">Data model overview </a></li>
+<li><a class="el" href="EmbeddedPythonOverview.html">Python overview </a></li>
+<li><a class="el" href="group__FillHoleGroup.html">Fill Hole overview </a></li>
+<li><a class="el" href="namespaceMR_1_1MeshBuilder.html">Mesh Building </a> </li>
 </ul>
-</div>
-<div class="textblock"><h2><a class="anchor" id="Introduction"></a>
-Introduction</h2>
-<p>Welcome to the MeshLib SDK — an open-source 3D geometry processing library designed to provide developers with a comprehensive toolkit for building robust 3D applications. Whether you are working in C++, Python, or C#, MeshLib offers a versatile, cross-platform solution available on Windows, macOS, and Linux, enabling the creation of cutting-edge solutions for various industries.</p>
-<h2><a class="anchor" id="KeyFeatures"></a>
-Key Features</h2>
-<ul>
-<li><b>3D</b> <b>Data</b> <b>Handling:</b> Supports meshes, voxels, and point clouds for creation, modification, and conversion.</li>
-<li><b>Boolean</b> <b>Operations:</b> Fast, highly optimized mesh and voxel-based approaches.</li>
-<li><b>Mesh</b> <b>Fixing:</b> Includes removing self-intersections, filling holes, and component separation.</li>
-<li><b>Simplification</b> <b>&amp;</b> <b>Subdivision:</b> Optimize mesh complexity with decimation, remeshing, and subdivision.</li>
-<li><b>Offsets:</b> Multiple modes for precise surface thickness control, ideal for 3D printing and machining.</li>
-<li><b>Triangulation:</b> Accurate, fast conversion of point clouds to meshes with normal creation.</li>
-<li><b>ICP:</b> Precise mesh alignment using point-to-point and point-to-plane transformations.</li>
-<li><b>Segmentation:</b> Semi-automatic segmentation based on curvature for meshes and voxels.</li>
-<li><b>Deformations:</b> Supports Laplacian, freeform, and relax smoothing for fine mesh adjustments.</li>
-<li><b>Distance</b> <b>Maps</b> <b>&amp;</b> <b>Polylines:</b> Generate distance maps, iso-lines, and perform projection and intersection.</li>
-</ul>
-<p>Features illustration is available in <a href="https://meshlib.io/features/">the features section</a> or in the sections of this documentation.</p>
-<h2><a class="anchor" id="ModernApplications"></a>
-Modern Applications</h2>
-<ul>
-<li><b>Automation</b>, <b>AI</b>, <b>and</b> <b>Robotics</b>. Essential for 3D scanning in robotics, AI, and autonomous systems, MeshLib enables real-time mesh processing for environment mapping, object detection, and path planning. Mesh repair tools prepare models by fixing holes and intersections, ideal for automated systems handling large datasets.</li>
-<li><b>Manufacturing</b> <b>and</b> <b>3D</b> <b>Printing</b>. MeshLib's Boolean operations and mesh offsetting ensure accuracy and manufacturability for 3D prints, optimizing models with decimation for industrial-scale applications.</li>
-<li><b>CAD</b>, <b>Dental</b>, <b>and</b> <b>Design</b>. MeshLib's precision tools support CAD and dental applications, providing mesh repair, offsetting, and thickening for accurate, manufacturable designs.</li>
-<li><b>Game</b> <b>Development</b> <b>and</b> <b>VR</b>. Optimized for real-time rendering, MeshLib's simplification tools maintain visual quality, and Boolean operations allow dynamic model manipulation.</li>
-<li><b>Scientific</b> <b>Visualization</b> <b>and</b> <b>Medical</b> <b>Imaging</b>. MeshLib supports large datasets, crucial for scientific and medical visualization, with mesh repair and simplification for detailed, real-time models in fields like geophysics and medical planning.</li>
-</ul>
-<p>See more <a href="https://meshlib.io/applications/">application examples</a>.</p>
-<h2><a class="anchor" id="GettingStarted"></a>
-Getting Started</h2>
-<p>MeshLib SDK offers a simple installation process and extensive documentation to get you up and running quickly. Choose your preferred language, explore the available tutorials, and start creating with MeshLib!</p>
-<p>For Python users, install MeshLib via pip: </p><div class="fragment"><div class="line">pip install meshlib</div>
-</div><!-- fragment --><p>For C++ and C# developers, head to our <a class="el" href="InstallationGuide.html">Installation Guide</a> for more details on integrating MeshLib into your environment.</p>
-<h2><a class="anchor" id="TutorialsLink"></a>
-Tutorials</h2>
-<p>Explore <a class="el" href="Tutorials.html">MeshLib's tutorials and code samples</a> to get started quickly and master advanced features.</p>
-<h2><a class="anchor" id="LicenseLink"></a>
-License</h2>
-<p>MeshLib offers Non-Commercial Free License with a Commercial License Requirement. Learn more on <a href="https://meshlib.io/license">the MeshLib License page</a>.</p>
-<h2><a class="anchor" id="JoinTheCommunity"></a>
-Join the Community</h2>
-<p>MeshLib thrives on contributions from developers like you! Explore our GitHub repository, submit pull requests, and be a part of shaping the future of 3D geometry development.</p>
-<p><a href="https://github.com/MeshInspector/MeshLib/discussions">https://github.com/MeshInspector/MeshLib/discussions</a> </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"/>
 </div><!-- contents -->

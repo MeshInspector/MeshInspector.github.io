@@ -1,6 +1,5 @@
 var MRFileDialog_8h =
 [
-    [ "MR::FileDialogSignals", "structMR_1_1FileDialogSignals.html", "structMR_1_1FileDialogSignals" ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", "structMR_1_1FileParameters" ],
     [ "openFileDialog", "MRFileDialog_8h.html#a0a4bcce4daa4d3b3423c31dff3a881bb", null ],
     [ "openFileDialogAsync", "MRFileDialog_8h.html#a5cb1fd46b50301553853ea480cee32b3", null ],

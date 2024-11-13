@@ -65,6 +65,8 @@ var group__BooleanGroup =
       [ "MR::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
+    [ "MeshBoolean::Boolean", "group__BooleanGroup.html#gaaf373a6387d1b68644dec415c708ecfc", null ],
+    [ "MeshBoolean::Boolean", "group__BooleanGroup.html#gad5f5f402055d09597e8c79dba99ebf95", null ],
     [ "MR::boolean", "group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9", null ],
     [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#gab0f50227954ad79a6c446aea3c81c869", null ],
     [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga75a5ecaa0b71ec23ac7d519651848ee9", null ],

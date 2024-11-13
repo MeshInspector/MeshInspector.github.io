@@ -1,11 +1,30 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/DataModel.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Data Model Class Hierarchy</title>
+<title>MeshLib: Data model class hierarchy</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -101,7 +133,7 @@ $(function(){initNavTree('DataModel.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Data Model Class Hierarchy</div></div>
+  <div class="headertitle"><div class="title">Data model class hierarchy</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>All data in MeshLib are stored in objects. Each object can have it own type derived from <a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a>: </p><pre class="fragment">           Object (Simple object can be selected or hidden)
@@ -134,7 +166,7 @@ Serialization</h1>
 <div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;void, std::string&gt; <a class="code hl_function" href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, </div>
 <div class="line">    <span class="keyword">const</span> std::filesystem::path&amp; path, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress = {} );</div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
 <div class="ttc" id="anamespaceMR_html_aa5186cb23f32bc2d4c503ccec9da5319"><div class="ttname"><a href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">MR::serializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; serializeObjectTree(const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress, FolderCallback preCompress)</div><div class="ttdoc">saves object subtree in given scene file (zip/mru)</div></div>
 </div><!-- fragment --><p>And to deserialize object tree: </p><div class="fragment"><div class="line"><span class="comment">// loads objects tree from given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
@@ -154,7 +186,7 @@ Inheritance</h1>
 </ol>
 <p>To be able to use serialization and deserialization you have to do:</p><ol type="1">
 <li>Register new data model unit in class factory by adding <div class="fragment"><div class="line"><a class="code hl_define" href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a>( MyCustomObject );</div>
-<div class="ttc" id="aMRObjectFactory_8h_html_a24de4e89ad2309dac978ce2ca22604e0"><div class="ttname"><a href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a></div><div class="ttdeci">#define MR_ADD_CLASS_FACTORY(className)</div><div class="ttdoc">use this macro to register a class in the factory before calling createObject</div><div class="ttdef"><b>Definition</b> MRObjectFactory.h:18</div></div>
+<div class="ttc" id="aMRObjectFactory_8h_html_a24de4e89ad2309dac978ce2ca22604e0"><div class="ttname"><a href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a></div><div class="ttdeci">#define MR_ADD_CLASS_FACTORY(className)</div><div class="ttdoc">use this macro to register a class in the factory before calling createObject</div><div class="ttdef"><b>Definition</b> MRObjectFactory.h:17</div></div>
 </div><!-- fragment --></li>
 <li>Override following functions <div class="fragment"><div class="line"><span class="comment">// Creates future to save object model (e.g. mesh) in given file</span></div>
 <div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> tl::expected&lt;std::future&lt;void&gt;, std::string&gt; serializeModel_( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const</span>;</div>

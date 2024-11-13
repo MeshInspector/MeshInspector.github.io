@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRViewer_8h.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -109,14 +141,13 @@ $(function(){initNavTree('MRViewer_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRViewer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRViewerInstance_8h_source.html">MRViewerInstance.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRRenderModelParameters_8h_source.html">MRMesh/MRRenderModelParameters.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRViewerInstance_8h_source.html">MRViewerInstance.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMouse_8h_source.html">MRMouse.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRSignalCombiners_8h_source.html">MRSignalCombiners.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMakeSlot_8h_source.html">MRMakeSlot.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRViewportId_8h_source.html">MRMesh/MRViewportId.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="MRSignal_8h_source.html">MRMesh/MRSignal.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRRenderModelParameters_8h_source.html">MRMesh/MRRenderModelParameters.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRSignalCombiners_8h_source.html">MRViewer/MRSignalCombiners.h</a>&quot;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 </div>
@@ -125,8 +156,6 @@ $(function(){initNavTree('MRViewer_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LaunchParams.html">MR::LaunchParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FileLoadOptions.html">MR::FileLoadOptions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +167,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a2c688df55bdadf35189e97880b6dc592" id="r_a2c688df55bdadf35189e97880b6dc592"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c688df55bdadf35189e97880b6dc592">MAKE_SLOT</a>(func)&#160;&#160;&#160;<a class="el" href="#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a>(this,func)</td></tr>
+<tr class="separator:a2c688df55bdadf35189e97880b6dc592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5148a6d21d216f28a3c1da0055472db" id="r_ab5148a6d21d216f28a3c1da0055472db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5148a6d21d216f28a3c1da0055472db">ENQUEUE_VIEWER_METHOD</a>(NAME,  METHOD)</td></tr>
 <tr class="memdesc:ab5148a6d21d216f28a3c1da0055472db"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper macros to add an <code><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></code> method call to the event queue  <br /></td></tr>
 <tr class="separator:ab5148a6d21d216f28a3c1da0055472db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,6 +179,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a4e10ab3e9579ce8ffbd2209497603cbc" id="r_a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memTemplParams" colspan="2">template&lt;typename MemberFuncPtr , typename BaseClass &gt; </td></tr>
+<tr class="memitem:a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a> (BaseClass *base, MemberFuncPtr func)</td></tr>
+<tr class="separator:a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf0f4c580a56e4a7e297faa1b6de7378" id="r_abf0f4c580a56e4a7e297faa1b6de7378"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a> (const <a class="el" href="classMR_1_1Viewer.html#a18c86b40dc97e73d26be6d5f21f65093">Viewer::LaunchParams</a> &amp;params, const <a class="el" href="classMR_1_1ViewerSetup.html">ViewerSetup</a> &amp;setup)</td></tr>
 <tr class="separator:abf0f4c580a56e4a7e297faa1b6de7378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03d769eae4675e20e6b50c3fddaf8eba" id="r_a03d769eae4675e20e6b50c3fddaf8eba"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a03d769eae4675e20e6b50c3fddaf8eba">MR::loadMRViewerDll</a> ()</td></tr>
@@ -176,7 +210,7 @@ Functions</h2></td></tr>
 <div class="line">    MR::getViewerInstance() . METHOD (); \</div>
 <div class="line">} )</div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a7491e8da28f4f91c65a046245af2b38a"><div class="ttname"><a href="classMR_1_1Viewer.html#a7491e8da28f4f91c65a046245af2b38a">MR::Viewer::emplaceEvent</a></div><div class="ttdeci">MRVIEWER_API void emplaceEvent(std::string name, ViewerEventCallback cb, bool skipable=false)</div></div>
-<div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div><div class="ttdoc">returns global instance of Viewer class</div></div>
+<div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div></div>
 </div><!-- fragment -->
 <p>helper macros to add an <code><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></code> method call to the event queue </p>
 
@@ -238,6 +272,47 @@ Functions</h2></td></tr>
 <div class="line">    MR::getViewerInstance() . METHOD ( __VA_ARGS__ ); \</div>
 <div class="line">}, true )</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a2c688df55bdadf35189e97880b6dc592" name="a2c688df55bdadf35189e97880b6dc592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c688df55bdadf35189e97880b6dc592">&#9670;&#160;</a></span>MAKE_SLOT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAKE_SLOT</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a>(this,func)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a4e10ab3e9579ce8ffbd2209497603cbc" name="a4e10ab3e9579ce8ffbd2209497603cbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e10ab3e9579ce8ffbd2209497603cbc">&#9670;&#160;</a></span>bindSlotCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MemberFuncPtr , typename BaseClass &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bindSlotCallback </td>
+          <td>(</td>
+          <td class="paramtype">BaseClass *</td>          <td class="paramname"><span class="paramname"><em>base</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MemberFuncPtr</td>          <td class="paramname"><span class="paramname"><em>func</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->

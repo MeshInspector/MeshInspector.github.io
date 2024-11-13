@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRToolPath_8h_source.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -151,7 +183,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="comment">// which direction isolines or sections should be passed in</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7">   43</a></span>    <a class="code hl_enumeration" href="namespaceMR.html#a496117b22a6f09546f0037fb4b5d43aa">BypassDirection</a> <a class="code hl_variable" href="structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7">bypassDir</a> = <a class="code hl_enumvalue" href="namespaceMR.html#a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8">BypassDirection::Clockwise</a>;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// mesh can be transformed using xf parameter</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492">   45</a></span>    <span class="keyword">const</span> AffineXf3f* <a class="code hl_variable" href="structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492">xf</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492">   45</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="structMR_1_1AffineXf.html">AffineXf3f</a>* <a class="code hl_variable" href="structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492">xf</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// if true then a tool path for a flat milling tool will be generated</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead">   47</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead">flatTool</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">// callback for reporting on progress</span></div>
@@ -235,7 +267,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="structMR_1_1GCommand.html#a153e73394a743e67aaeaeefb04deac21">  114</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1GCommand.html#a153e73394a743e67aaeaeefb04deac21">y</a> = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="structMR_1_1GCommand.html#aec5c0f6069885854d6838a98f1bacae3">  115</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1GCommand.html#aec5c0f6069885854d6838a98f1bacae3">z</a> = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="comment">// if moveType is ArcCW or ArcCCW center of the arc shoult be specified</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="structMR_1_1GCommand.html#acaf374ee91304204bb3990d59a7d32fc">  117</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1GCommand.html#acaf374ee91304204bb3990d59a7d32fc">arcCenter</a> = Vector3f::diagonal( std::numeric_limits&lt;float&gt;::quiet_NaN() );</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="structMR_1_1GCommand.html#acaf374ee91304204bb3990d59a7d32fc">  117</a></span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> <a class="code hl_variable" href="structMR_1_1GCommand.html#acaf374ee91304204bb3990d59a7d32fc">arcCenter</a> = <a class="code hl_function" href="structMR_1_1Vector3.html#af3522428d5137f019a3da623a19222ab">Vector3f::diagonal</a>( std::numeric_limits&lt;float&gt;::quiet_NaN() );</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>};</div>
 </div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
@@ -245,7 +277,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// mesh after fixing undercuts and offset</span></div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e">  123</a></span>    <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> <a class="code hl_variable" href="structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e">modifiedMesh</a>;</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="comment">// selected region projected from the original mesh to the offset</span></div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44">  125</a></span>    FaceBitSet <a class="code hl_variable" href="structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44">modifiedRegion</a>;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44">  125</a></span>    <a class="code hl_class" href="classBitSet.html">FaceBitSet</a> <a class="code hl_variable" href="structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44">modifiedRegion</a>;</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="comment">// constains type of movement and its feed</span></div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35">  127</a></span>    std::vector&lt;GCommand&gt; <a class="code hl_variable" href="structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35">commands</a>;</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>};</div>
@@ -280,7 +312,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="comment">// makes the given selection more smooth with shifthing a boundary of the selection outside and back. Input mesh is changed because we have to cut new edges along the new boundaries</span></div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span><span class="comment">// \param expandOffset defines how much the boundary is expanded</span></div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="comment">// \param expandOffset defines how much the boundary is shrinked after that</span></div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="namespaceMR.html#abf321df1ea6a0a718144b06b477bb154">  159</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FaceBitSet <a class="code hl_function" href="namespaceMR.html#abf321df1ea6a0a718144b06b477bb154">smoothSelection</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> FaceBitSet&amp; region, <span class="keywordtype">float</span> expandOffset, <span class="keywordtype">float</span> shrinkOffset );</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="namespaceMR.html#abf321df1ea6a0a718144b06b477bb154">  159</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_class" href="classBitSet.html">FaceBitSet</a> <a class="code hl_function" href="namespaceMR.html#abf321df1ea6a0a718144b06b477bb154">smoothSelection</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">FaceBitSet</a>&amp; region, <span class="keywordtype">float</span> expandOffset, <span class="keywordtype">float</span> shrinkOffset );</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>}</div>
 <div class="ttc" id="aMRAxis_8h_html"><div class="ttname"><a href="MRAxis_8h.html">MRAxis.h</a></div></div>
@@ -290,7 +322,9 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:13</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:571</div></div>
+<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
+<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
 <div class="ttc" id="agroup__VoxelPathGroup_html_gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9"><div class="ttname"><a href="group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9">MR::XY</a></div><div class="ttdeci">@ XY</div><div class="ttdoc">= 2 cause main axis is z - [2]</div><div class="ttdef"><b>Definition</b> MRVoxelPath.h:32</div></div>
 <div class="ttc" id="agroup__VoxelPathGroup_html_gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74"><div class="ttname"><a href="group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74">MR::YZ</a></div><div class="ttdeci">@ YZ</div><div class="ttdoc">= 0 cause main axis is x - [0]</div><div class="ttdef"><b>Definition</b> MRVoxelPath.h:30</div></div>
 <div class="ttc" id="agroup__VoxelPathGroup_html_gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4"><div class="ttname"><a href="group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4">MR::None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">special value not to limit path in one slice</div><div class="ttdef"><b>Definition</b> MRVoxelPath.h:33</div></div>
@@ -317,6 +351,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="anamespaceMR_html_ae1af7aec8f28c8e85182ca94f5802435a6adf97f83acf6453d4a6a4b1070f3754"><div class="ttname"><a href="namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435a6adf97f83acf6453d4a6a4b1070f3754">MR::ArcPlane::None</a></div><div class="ttdeci">@ None</div></div>
 <div class="ttc" id="anamespaceMR_html_aeb9f9f581e8c2c883585a7e337eac7c4"><div class="ttname"><a href="namespaceMR.html#aeb9f9f581e8c2c883585a7e337eac7c4">MR::constantZToolPath</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; ToolPathResult &gt; constantZToolPath(const MeshPart &amp;mp, const ToolPathParams &amp;params)</div></div>
 <div class="ttc" id="anamespaceMR_html_aefc71807ee4990cf5c50e20c7b8b3e82"><div class="ttname"><a href="namespaceMR.html#aefc71807ee4990cf5c50e20c7b8b3e82">MR::lacingToolPath</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; ToolPathResult &gt; lacingToolPath(const MeshPart &amp;mp, const ToolPathParams &amp;params, Axis cutDirection)</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf&lt; Vector3f &gt;</a></div></div>
 <div class="ttc" id="astructMR_1_1ArcInterpolationParams_html"><div class="ttname"><a href="structMR_1_1ArcInterpolationParams.html">MR::ArcInterpolationParams</a></div><div class="ttdef"><b>Definition</b> MRToolPath.h:78</div></div>
 <div class="ttc" id="astructMR_1_1ArcInterpolationParams_html_a527c4937cd106bad1847ff7adc254bea"><div class="ttname"><a href="structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea">MR::ArcInterpolationParams::maxRadius</a></div><div class="ttdeci">float maxRadius</div><div class="ttdef"><b>Definition</b> MRToolPath.h:82</div></div>
 <div class="ttc" id="astructMR_1_1ArcInterpolationParams_html_a6f075ab660c32eec4c036340e2b88f1c"><div class="ttname"><a href="structMR_1_1ArcInterpolationParams.html#a6f075ab660c32eec4c036340e2b88f1c">MR::ArcInterpolationParams::eps</a></div><div class="ttdeci">float eps</div><div class="ttdef"><b>Definition</b> MRToolPath.h:80</div></div>
@@ -360,6 +395,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="astructMR_1_1ToolPathResult_html_a327bcaceb046cef6859ddc1293a47e35"><div class="ttname"><a href="structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35">MR::ToolPathResult::commands</a></div><div class="ttdeci">std::vector&lt; GCommand &gt; commands</div><div class="ttdef"><b>Definition</b> MRToolPath.h:127</div></div>
 <div class="ttc" id="astructMR_1_1ToolPathResult_html_a98b818ec1b422fbe35f5efd57ff37a44"><div class="ttname"><a href="structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44">MR::ToolPathResult::modifiedRegion</a></div><div class="ttdeci">FaceBitSet modifiedRegion</div><div class="ttdef"><b>Definition</b> MRToolPath.h:125</div></div>
 <div class="ttc" id="astructMR_1_1ToolPathResult_html_ae495a5fc24540b7eaf1210872ac5fb3e"><div class="ttname"><a href="structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e">MR::ToolPathResult::modifiedMesh</a></div><div class="ttdeci">Mesh modifiedMesh</div><div class="ttdef"><b>Definition</b> MRToolPath.h:123</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_af3522428d5137f019a3da623a19222ab"><div class="ttname"><a href="structMR_1_1Vector3.html#af3522428d5137f019a3da623a19222ab">MR::Vector3&lt; float &gt;::diagonal</a></div><div class="ttdeci">static constexpr Vector3 diagonal(float a) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

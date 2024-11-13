@@ -20,13 +20,12 @@ var searchData=
   ['points_17',['Points',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaa3d1106c4606956fa8bf8f24f9db1486',1,'MR::SceneColors::Points'],['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8',1,'MR::GLStaticHolder::Points'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3',1,'MR::ViewerSettingsManager::Points']]],
   ['pointtoplane_18',['PointToPlane',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed',1,'MR']]],
   ['pointtopoint_19',['PointToPoint',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9',1,'MR']]],
-  ['popaction_20',['PopAction',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f',1,'MR::HistoryStore']]],
-  ['position_21',['position',['../namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e',1,'MR']]],
-  ['positive_22',['Positive',['../namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147',1,'MR::PlanarTriangulation::Positive'],['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147',1,'MR::Positive']]],
-  ['post_23',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
-  ['primitivescolormap_24',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
-  ['progressbarbackground_25',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
-  ['projectionnormal_26',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal'],['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal']]],
-  ['put_27',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]],
-  ['pythonmodules_28',['PythonModules',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baa9b9ad9b15630bfc857db491ee781e53',1,'MR::SystemPath']]]
+  ['position_20',['position',['../namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e',1,'MR']]],
+  ['positive_21',['Positive',['../namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147',1,'MR::PlanarTriangulation::Positive'],['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147',1,'MR::Positive']]],
+  ['post_22',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
+  ['primitivescolormap_23',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
+  ['progressbarbackground_24',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
+  ['projectionnormal_25',['ProjectionNormal',['../MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea17670c4544b47c1acf63b776209440a9',1,'ProjectionNormal:&#160;MROffset.h'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal']]],
+  ['put_26',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]],
+  ['pythonmodules_27',['PythonModules',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baa9b9ad9b15630bfc857db491ee781e53',1,'MR::SystemPath']]]
 ];

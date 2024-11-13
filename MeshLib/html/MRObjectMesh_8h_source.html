@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRObjectMesh_8h_source.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -138,7 +170,7 @@ $(function(){initNavTree('MRObjectMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#ae38a2d1f95513ca3dff2fe6f1b1d00fc">   39</a></span>    <a class="code hl_function" href="classMR_1_1ObjectMesh.html#ae38a2d1f95513ca3dff2fe6f1b1d00fc">ObjectMesh</a>( <a class="code hl_struct" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>&amp; obj ) : <a class="code hl_class" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>( obj ) {}</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7">   44</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_struct" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> <a class="code hl_function" href="classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7">worldRayIntersection</a>( <span class="keyword">const</span> Line3f&amp; worldRay, <span class="keyword">const</span> FaceBitSet* region = <span class="keyword">nullptr</span> ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7">   44</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_struct" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> <a class="code hl_function" href="classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7">worldRayIntersection</a>( <span class="keyword">const</span> Line3f&amp; worldRay, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">FaceBitSet</a>* region = <span class="keyword">nullptr</span> ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#a9d86b40da25331f20375e342d1e6abdd">   47</a></span>    <span class="keyword">using </span><a class="code hl_class" href="structMR_1_1Signal.html">MeshChangedSignal</a> = <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&lt;void( uint32_t mask )&gt;;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#a9f1c4827307564a1c13839a4cde2868d">   48</a></span>    <a class="code hl_class" href="structMR_1_1Signal.html">MeshChangedSignal</a> <a class="code hl_variable" href="classMR_1_1ObjectMesh.html#a9f1c4827307564a1c13839a4cde2868d">meshChangedSignal</a>;</div>
@@ -155,12 +187,13 @@ $(function(){initNavTree('MRObjectMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="namespaceMR.html#af864b9246bf8c972ba65a4ef698384f9">   63</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt;ObjectMesh&gt; <a class="code hl_function" href="namespaceMR.html#ad8bfcdd27aa7037f5d7fa7b17f725c21">merge</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;ObjectMesh&gt;&gt;&amp; objsMesh );</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0">   67</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt;ObjectMesh&gt; <a class="code hl_function" href="namespaceMR.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0">cloneRegion</a>( <span class="keyword">const</span> std::shared_ptr&lt;ObjectMesh&gt;&amp; objMesh, <span class="keyword">const</span> FaceBitSet&amp; region, <span class="keywordtype">bool</span> copyTexture = <span class="keyword">true</span> );</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0">   67</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt;ObjectMesh&gt; <a class="code hl_function" href="namespaceMR.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0">cloneRegion</a>( <span class="keyword">const</span> std::shared_ptr&lt;ObjectMesh&gt;&amp; objMesh, <span class="keyword">const</span> <a class="code hl_class" href="classBitSet.html">FaceBitSet</a>&amp; region, <span class="keywordtype">bool</span> copyTexture = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>} </div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:50</div></div>
 <div class="ttc" id="aMRObjectMeshHolder_8h_html"><div class="ttname"><a href="MRObjectMeshHolder_8h.html">MRObjectMeshHolder.h</a></div></div>
+<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMeshHolder_html"><div class="ttname"><a href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></div><div class="ttdef"><b>Definition</b> MRObjectMeshHolder.h:30</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMesh_html"><div class="ttname"><a href="classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></div><div class="ttdef"><b>Definition</b> MRObjectMesh.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMesh_html_a03d1a17fadf84a8ad3ec4850334cef11"><div class="ttname"><a href="classMR_1_1ObjectMesh.html#a03d1a17fadf84a8ad3ec4850334cef11">MR::ObjectMesh::serializeFields_</a></div><div class="ttdeci">virtual MRMESH_API void serializeFields_(Json::Value &amp;root) const override</div></div>

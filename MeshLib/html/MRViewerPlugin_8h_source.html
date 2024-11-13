@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRViewerPlugin_8h_source.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -134,41 +166,51 @@ $(function(){initNavTree('MRViewerPlugin_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">   29</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">~ViewerPlugin</a>()</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#a636d02d4388ea712a7e5e60ce572fabc">   29</a></span>    <a class="code hl_function" href="classMR_1_1ViewerPlugin.html#a636d02d4388ea712a7e5e60ce572fabc">ViewerPlugin</a>()</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_variable" href="classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912">plugin_name</a> = <span class="stringliteral">&quot;dummy&quot;</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
 </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="comment">// This function is called when the viewer is initialized (no mesh will be loaded at this stage)</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">   34</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">init</a>( <a class="code hl_namespace" href="namespaceViewer.html">Viewer</a> *_viewer )</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">   34</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">~ViewerPlugin</a>()</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <a class="code hl_variable" href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">viewer</a> = _viewer;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">// This function is called before shutdown</span></div>
-<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f">   40</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f">shutdown</a>()</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// This function is called when the viewer is initialized (no mesh will be loaded at this stage)</span></div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">   39</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">init</a>( <a class="code hl_namespace" href="namespaceViewer.html">Viewer</a> *_viewer )</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <a class="code hl_variable" href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">viewer</a> = _viewer;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
 </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">// Pointer to the main Viewer class</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">   46</a></span>    <a class="code hl_namespace" href="namespaceViewer.html">Viewer</a> *<a class="code hl_variable" href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">viewer</a> = &amp;<a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">getViewerInstance</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// This function is called before shutdown</span></div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f">   45</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f">shutdown</a>()</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
 </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912">   49</a></span>    std::string <a class="code hl_variable" href="classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912">plugin_name</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// Pointer to the main Viewer class</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">   52</a></span>    <a class="code hl_namespace" href="namespaceViewer.html">Viewer</a> *<a class="code hl_variable" href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">viewer</a> = &amp;<a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">getViewerInstance</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
+</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
 <div class="ttc" id="aMRViewerInstance_8h_html"><div class="ttname"><a href="MRViewerInstance_8h.html">MRViewerInstance.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ViewerPlugin_html"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html">MR::ViewerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:27</div></div>
-<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_a67916b512e8d54ee7cdb8ef1cb4f6794"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">MR::ViewerPlugin::init</a></div><div class="ttdeci">virtual void init(Viewer *_viewer)</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:34</div></div>
-<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_a764e7d792fea63f8186ed87f2560578f"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f">MR::ViewerPlugin::shutdown</a></div><div class="ttdeci">virtual void shutdown()</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:40</div></div>
-<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_ad12538d77ebcf356c03469cbce40abae"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">MR::ViewerPlugin::viewer</a></div><div class="ttdeci">Viewer * viewer</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:46</div></div>
-<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_ad7fd0e80e15b5c45837fc005c71c9eab"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">MR::ViewerPlugin::~ViewerPlugin</a></div><div class="ttdeci">virtual ~ViewerPlugin()</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:29</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_a636d02d4388ea712a7e5e60ce572fabc"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#a636d02d4388ea712a7e5e60ce572fabc">MR::ViewerPlugin::ViewerPlugin</a></div><div class="ttdeci">ViewerPlugin()</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:29</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_a67916b512e8d54ee7cdb8ef1cb4f6794"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">MR::ViewerPlugin::init</a></div><div class="ttdeci">virtual void init(Viewer *_viewer)</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:39</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_a764e7d792fea63f8186ed87f2560578f"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f">MR::ViewerPlugin::shutdown</a></div><div class="ttdeci">virtual void shutdown()</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:45</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_ad12538d77ebcf356c03469cbce40abae"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae">MR::ViewerPlugin::viewer</a></div><div class="ttdeci">Viewer * viewer</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:52</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_ad7fd0e80e15b5c45837fc005c71c9eab"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab">MR::ViewerPlugin::~ViewerPlugin</a></div><div class="ttdeci">virtual ~ViewerPlugin()</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:34</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerPlugin_html_aea3243e52b3ddd4094ee9f25accf6912"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912">MR::ViewerPlugin::plugin_name</a></div><div class="ttdeci">std::string plugin_name</div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:49</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div><div class="ttdoc">returns global instance of Viewer class</div></div>
+<div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div></div>
 <div class="ttc" id="anamespaceViewer_html"><div class="ttname"><a href="namespaceViewer.html">Viewer</a></div><div class="ttdef"><b>Definition</b> Viewer.dox.py:1</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

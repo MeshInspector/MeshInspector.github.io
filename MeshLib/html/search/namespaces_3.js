@@ -61,7 +61,6 @@ var searchData=
   ['mr_3a_3aui_3a_3adetail_58',['detail',['../namespaceMR_1_1UI_1_1detail.html',1,'MR::UI']]],
   ['mr_3a_3aui_3a_3atestengine_59',['TestEngine',['../namespaceMR_1_1UI_1_1TestEngine.html',1,'MR::UI']]],
   ['mr_3a_3aui_3a_3atestengine_3a_3adetail_60',['detail',['../namespaceMR_1_1UI_1_1TestEngine_1_1detail.html',1,'MR::UI::TestEngine']]],
-  ['mr_3a_3aunitsettings_61',['UnitSettings',['../namespaceMR_1_1UnitSettings.html',1,'MR']]],
-  ['mr_3a_3avoxelsload_62',['VoxelsLoad',['../namespaceMR_1_1VoxelsLoad.html',1,'MR']]],
-  ['mr_3a_3avoxelssave_63',['VoxelsSave',['../namespaceMR_1_1VoxelsSave.html',1,'MR']]]
+  ['mr_3a_3avoxelsload_61',['VoxelsLoad',['../namespaceMR_1_1VoxelsLoad.html',1,'MR']]],
+  ['mr_3a_3avoxelssave_62',['VoxelsSave',['../namespaceMR_1_1VoxelsSave.html',1,'MR']]]
 ];

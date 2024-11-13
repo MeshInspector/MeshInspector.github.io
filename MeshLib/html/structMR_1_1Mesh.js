@@ -79,7 +79,6 @@ var structMR_1_1Mesh =
     [ "operator==", "structMR_1_1Mesh.html#a994943959e77b3bc34449639c1dfcb6f", null ],
     [ "orgPnt", "structMR_1_1Mesh.html#a5fab8c28312fa8c3ac69c2f63d345f20", null ],
     [ "pack", "structMR_1_1Mesh.html#a6d8e2d55d67e606f0129377d0d14aa4a", null ],
-    [ "packOptimally", "structMR_1_1Mesh.html#abd6e569587fbe83e40119a29f7ea276f", null ],
     [ "packOptimally", "structMR_1_1Mesh.html#ac790be9d7fbcbf9f765ebdd90f761c71", null ],
     [ "projArea", "structMR_1_1Mesh.html#a6410490732e1756a5716df6539c55d45", null ],
     [ "projArea", "structMR_1_1Mesh.html#af4a7cadb50ed558293082e1da4bb24f2", null ],

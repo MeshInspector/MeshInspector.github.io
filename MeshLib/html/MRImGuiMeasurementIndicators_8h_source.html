@@ -1,6 +1,25 @@
+<!-- HTML header for doxygen 1.11.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<link rel="canonical" href="https://meshlib.io/documentation/MRImGuiMeasurementIndicators_8h_source.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  analytics.page();
+  }}();
+</script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
@@ -20,11 +39,24 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -323,7 +355,7 @@ $(function(){initNavTree('MRImGuiMeasurementIndicators_8h_source.html',''); init
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="comment">//     prepareCurve( params, buf, 0, PI*2, [](float x){return std::sin(x);}, [](float a, float b, int /*depth*/){return (a+b)/2;} )</span></div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> A, <span class="keyword">typename</span> B, <span class="keyword">typename</span> F, <span class="keyword">typename</span> G, <span class="keyword">typename</span> H = std::<span class="keywordtype">nullptr</span>_t&gt;</div>
 <div class="foldopen" id="foldopen00194" data-start="{" data-end="}">
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9">  194</a></span>[[nodiscard]] <a class="code hl_struct" href="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html">PreparedCurve</a> <a class="code hl_function" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9">prepareCurve</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html">CurveParams</a>&amp; curveParams, std::vector&lt;ImVec2&gt;&amp; pointBuffer, <span class="keyword">const</span> A&amp; stateA, <span class="keyword">const</span> B&amp; stateB,</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9">  194</a></span>[[nodiscard]] <a class="code hl_struct" href="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html">PreparedCurve</a> <a class="code hl_function" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9">prepareCurve</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html">CurveParams</a>&amp; curveParams, std::vector&lt;ImVec2&gt;&amp; pointBuffer, <span class="keyword">const</span> <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>&amp; stateA, <span class="keyword">const</span> <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a>&amp; stateB,</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    F&amp;&amp; stateToPoint, G&amp;&amp; bisectState, H&amp;&amp; onInsertPoint = <span class="keyword">nullptr</span></div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>)</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>{</div>
@@ -365,10 +397,12 @@ $(function(){initNavTree('MRImGuiMeasurementIndicators_8h_source.html',''); init
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>} <span class="comment">// namespace MR::ImGuiMeasurementIndicators</span></div>
 </div>
+<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">MapObject::A</a></div><div class="ttdeci">@ A</div></div>
+<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">MapObject::B</a></div><div class="ttdeci">@ B</div></div>
 <div class="ttc" id="aMRFlagOperators_8h_html"><div class="ttname"><a href="MRFlagOperators_8h.html">MRFlagOperators.h</a></div></div>
 <div class="ttc" id="aMRFlagOperators_8h_html_afbd9348d27fb58bbb0befb3db34fab6a"><div class="ttname"><a href="MRFlagOperators_8h.html#afbd9348d27fb58bbb0befb3db34fab6a">MR_MAKE_FLAG_OPERATORS</a></div><div class="ttdeci">#define MR_MAKE_FLAG_OPERATORS(T)</div><div class="ttdef"><b>Definition</b> MRFlagOperators.h:6</div></div>
 <div class="ttc" id="aMRImGuiVectorOperators_8h_html"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html">MRImGuiVectorOperators.h</a></div></div>
-<div class="ttc" id="agroup__BoxGroup_html_ga7f9739369c171b50d576ee7cc726996f"><div class="ttname"><a href="group__BoxGroup.html#ga7f9739369c171b50d576ee7cc726996f">MR::depth</a></div><div class="ttdeci">auto depth(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along z axis</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:261</div></div>
+<div class="ttc" id="agroup__BoxGroup_html_ga7f9739369c171b50d576ee7cc726996f"><div class="ttname"><a href="group__BoxGroup.html#ga7f9739369c171b50d576ee7cc726996f">MR::depth</a></div><div class="ttdeci">auto depth(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along z axis</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:251</div></div>
 <div class="ttc" id="anamespaceMR_1_1ImGuiMath_html_a9b787db1b3551a333f5fae1addb214bd"><div class="ttname"><a href="namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd">MR::ImGuiMath::lengthSq</a></div><div class="ttdeci">constexpr auto lengthSq(A a)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:131</div></div>
 <div class="ttc" id="anamespaceMR_1_1ImGuiMeasurementIndicators_html"><div class="ttname"><a href="namespaceMR_1_1ImGuiMeasurementIndicators.html">MR::ImGuiMeasurementIndicators</a></div><div class="ttdef"><b>Definition</b> MRImGuiMeasurementIndicators.h:13</div></div>
 <div class="ttc" id="anamespaceMR_1_1ImGuiMeasurementIndicators_html_a332cd23bae44470d3c2076a7d5a5d0ef"><div class="ttname"><a href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a332cd23bae44470d3c2076a7d5a5d0ef">MR::ImGuiMeasurementIndicators::text</a></div><div class="ttdeci">MRVIEWER_API void text(Element elem, float menuScaling, const Params &amp;params, ImVec2 pos, StringWithIcon string, ImVec2 push={}, ImVec2 pivot={ 0.5f, 0.5f })</div></div>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['viewer_20example_0',['Viewer Example',['../ExampleViewer.html',1,'Examples']]],
-  ['visualization_1',['Plotly visualization',['../ExamplePlotly.html',1,'Examples']]]
+  ['your_20application_20on_20meshlib_0',['Basing your application on MeshLib',['../MRBasedMainFunc.html',1,'HowToBasic']]]
 ];
