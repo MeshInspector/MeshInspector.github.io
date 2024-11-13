@@ -1,7 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"@ref GeneralExamples":[4,0],
-"@ref PythonSpecificExamples":[4,1],
 "APICppPage.html#APICppPage":[6,0],
 "APIPage.html":[6],
 "BasedApplication.html#BasedApplication":[4,0,0],
@@ -31,6 +29,8 @@ var NAVTREEINDEX0 =
 "ExampleTriangulation.html#ExampleTriangulation":[4,0,16],
 "ExampleViewer.html#ExampleViewer":[4,1,0],
 "Examples.html":[4],
+"Examples.html#GeneralExamples":[4,0],
+"Examples.html#PythonSpecificExamples":[4,1],
 "FirstPluginTutorial.html":[3,0],
 "FreeFormDeformation_8dox_8py.html":[6,0,3,0,0,1,3,0],
 "GlobalRegistration_8dox_8c.html":[6,0,3,0,0,1,1,0],

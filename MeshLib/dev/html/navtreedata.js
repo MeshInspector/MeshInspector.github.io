@@ -36,7 +36,7 @@ var NAVTREE =
       [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ]
     ] ],
     [ "Examples", "Examples.html", [
-      [ "General Samples", "@ref GeneralExamples", [
+      [ "General Samples", "Examples.html#GeneralExamples", [
         [ "Application Based on MeshLib", "BasedApplication.html#BasedApplication", null ],
         [ "Mesh Load and Save", "ExampleMeshLoadSave.html#ExampleMeshLoadSave", null ],
         [ "Export Raw Triangles", "ExampleMeshExport.html#ExampleMeshExport", null ],
@@ -55,7 +55,7 @@ var NAVTREE =
         [ "Mesh Denoise", "ExampleNoiseDenoise.html#ExampleNoiseDenoise", null ],
         [ "Triangulation", "ExampleTriangulation.html#ExampleTriangulation", null ]
       ] ],
-      [ "Python Specific Samples", "@ref PythonSpecificExamples", [
+      [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
         [ "Viewer", "ExampleViewer.html#ExampleViewer", null ],
         [ "Plotly Visualization", "ExamplePlotly.html#ExamplePlotly", null ],
         [ "Using Numpy", "ExampleNumpy.html#ExampleNumpy", null ],
@@ -115,7 +115,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"@ref GeneralExamples",
+"APICppPage.html#APICppPage",
 "MRChangeMeshAction_8h_source.html",
 "MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8b",
 "MRIOFilesMenuItems_8h.html#abf9e7451b5087b4485b6207161438dc3",

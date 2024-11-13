@@ -32,7 +32,7 @@ var menudata={children:[
 {text:"Tutorials",url:"Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"FirstPluginTutorial.html"}]},
 {text:"Examples",url:"Examples.html",children:[
-{text:"General Samples",url:"@ref GeneralExamples",children:[
+{text:"General Samples",url:"Examples.html#GeneralExamples",children:[
 {text:"Application Based on MeshLib",url:"BasedApplication.html#BasedApplication"},
 {text:"Mesh Load and Save",url:"ExampleMeshLoadSave.html#ExampleMeshLoadSave"},
 {text:"Export Raw Triangles",url:"ExampleMeshExport.html#ExampleMeshExport"},
@@ -50,7 +50,7 @@ var menudata={children:[
 {text:"Mesh Laplacian Deformation",url:"ExampleLaplacian.html#ExampleLaplacian"},
 {text:"Mesh Denoise",url:"ExampleNoiseDenoise.html#ExampleNoiseDenoise"},
 {text:"Triangulation",url:"ExampleTriangulation.html#ExampleTriangulation"}]},
-{text:"Python Specific Samples",url:"@ref PythonSpecificExamples",children:[
+{text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"ExampleViewer.html#ExampleViewer"},
 {text:"Plotly Visualization",url:"ExamplePlotly.html#ExamplePlotly"},
 {text:"Using Numpy",url:"ExampleNumpy.html#ExampleNumpy"},
