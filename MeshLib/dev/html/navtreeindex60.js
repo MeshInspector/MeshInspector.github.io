@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,1,0,12,144,0],
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,2,0,1,129,0],
 "structMR_1_1ContourToDistanceMapParams.html":[6,0,0,5,4],
 "structMR_1_1ContourToDistanceMapParams.html#a2259024cb221dfbdaa806a2a0a213bbc":[6,0,0,5,4,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,0,1,18,0],
 "structMR_1_1DistanceVolumeParams.html":[6,0,1,0,12,180],
 "structMR_1_1DistanceVolumeParams.html":[6,0,2,0,1,165],
-"structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,1,0,12,180,3]
+"structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,1,0,12,180,3],
+"structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,2,0,1,165,3]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,1,0,1,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,2,0,0,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,1,0,1,0,10],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX57 =
 "structMRResolveMeshDegenSettings.html#aaca7eab20af75f05a9c80d319d272697":[6,0,2,0,45,3],
 "structMRResolveMeshDegenSettings.html#ac7f4eb8239025008cd8575b29ac69bce":[6,0,2,0,45,5],
 "structMRSphereParams.html":[6,0,2,0,46],
-"structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,46,1]
+"structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,46,1],
+"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,46,0]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,2,0,1,70,0],
 "classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[6,0,1,0,12,85,2],
 "classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[6,0,2,0,1,70,2],
 "classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[6,0,1,0,12,85,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c":[6,0,0,4,6,0],
 "classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e":[6,0,0,4,6,2],
 "classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[6,0,0,4,6,3],
-"classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152":[6,0,0,4,6,1]
+"classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152":[6,0,0,4,6,1],
+"classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874":[6,0,0,4,6,5]
 };

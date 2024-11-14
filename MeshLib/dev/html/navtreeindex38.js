@@ -1,6 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classMR_1_1ShadowsGL.html#aa49107de3327a7c3585b3d42b97fbfb1":[6,0,1,0,12,588,1],
 "classMR_1_1ShadowsGL.html#aa49107de3327a7c3585b3d42b97fbfb1":[6,0,2,0,1,573,1],
 "classMR_1_1ShadowsGL.html#aab09524b5ecb1b890bfb298e7ce253ab":[6,0,1,0,12,588,2],
 "classMR_1_1ShadowsGL.html#aab09524b5ecb1b890bfb298e7ce253ab":[6,0,2,0,1,573,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX38 =
 "classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967":[6,0,0,16,2,1,7],
 "classMR_1_1SurfaceDistanceBuilder.html#a35fe09c0ed56d9b10178d9099cef9204":[6,0,0,16,2,1,2],
 "classMR_1_1SurfaceDistanceBuilder.html#a370f90033c096568d58a18d399102064":[6,0,0,16,2,1,4],
-"classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7":[6,0,0,16,2,1,6]
+"classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7":[6,0,0,16,2,1,6],
+"classMR_1_1SurfaceDistanceBuilder.html#a9b1547c200aedacf976a12ff582e729a":[6,0,0,16,2,1,8]
 };

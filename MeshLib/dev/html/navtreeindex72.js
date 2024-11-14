@@ -1,6 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1PostResizeListener.html#a2eea5fda2f64fd6b6ac4affb6a8c3028":[6,0,1,0,12,478,1],
 "structMR_1_1PostResizeListener.html#a2eea5fda2f64fd6b6ac4affb6a8c3028":[6,0,2,0,1,463,1],
 "structMR_1_1PostResizeListener.html#a45e82319810a797b3b8b082236849a32":[6,0,1,0,12,478,2],
 "structMR_1_1PostResizeListener.html#a45e82319810a797b3b8b082236849a32":[6,0,2,0,1,463,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX72 =
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,2,0,1,17,4,4],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,1,0,12,29,4,3],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,2,0,1,17,4,3],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,1,0,12,29,4,0]
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,1,0,12,29,4,0],
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,2,0,1,17,4,0]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,1,0,12,201,2],
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,2,0,1,186,2],
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[6,0,1,0,12,201,3],
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[6,0,2,0,1,186,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,1,0,12,213,2],
 "structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,2,0,1,198,2],
 "structMR_1_1FillHoleItem.html":[6,0,0,9,3,2],
-"structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1]
+"structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1],
+"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0]
 };
