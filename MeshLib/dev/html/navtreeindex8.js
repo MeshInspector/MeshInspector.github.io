@@ -1,5 +1,16 @@
 var NAVTREEINDEX8 =
 {
+"MRMesh_2MRPointsSave_8h.html":[6,0,3,0,0,2,3,261],
+"MRMesh_2MRPointsSave_8h_source.html":[6,0,3,0,0,2,3,261],
+"MRMesh_2MRPrecisePredicates3_8h.html":[6,0,3,0,0,2,3,281],
+"MRMesh_2MRPrecisePredicates3_8h.html#a1786b102734c05b43aec639689904eba":[6,0,3,0,0,2,3,281,5],
+"MRMesh_2MRPrecisePredicates3_8h.html#a2096ace9292b40c55421517434fd8bd8":[6,0,3,0,0,2,3,281,7],
+"MRMesh_2MRPrecisePredicates3_8h.html#a24ef393e1380f77979d9cfa6f7e0e88e":[6,0,3,0,0,2,3,281,12],
+"MRMesh_2MRPrecisePredicates3_8h.html#a529a69e762c0747c64c93926a897862b":[6,0,3,0,0,2,3,281,9],
+"MRMesh_2MRPrecisePredicates3_8h.html#a55867f88ac3e3a329e67a208b4634d96":[6,0,3,0,0,2,3,281,3],
+"MRMesh_2MRPrecisePredicates3_8h.html#a5bd54d5a4565669fb45c78db08bc403e":[6,0,3,0,0,2,3,281,10],
+"MRMesh_2MRPrecisePredicates3_8h.html#a6f4d593d1b9ff1f262a583bf72f384f8":[6,0,3,0,0,2,3,281,6],
+"MRMesh_2MRPrecisePredicates3_8h.html#a9736a434a7f001c05b9a7d23675ca257":[6,0,3,0,0,2,3,281,8],
 "MRMesh_2MRPrecisePredicates3_8h.html#ab81d3ad87ff9cd57deee77336ddf83e1":[6,0,3,0,0,2,3,281,4],
 "MRMesh_2MRPrecisePredicates3_8h_source.html":[6,0,3,0,0,2,3,281],
 "MRMesh_2MRRegionBoundary_8h.html":[6,0,3,0,0,2,3,293],
@@ -238,16 +249,5 @@ var NAVTREEINDEX8 =
 "MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6abe0f0f147335df20b0c09a6192ecf447":[6,0,3,0,0,2,9,49,7,6],
 "MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350":[6,0,3,0,0,2,9,49,7,1],
 "MRObjectTransformWidget_8h_source.html":[6,0,3,0,0,2,9,49],
-"MRObjectVoxels_8h.html":[6,0,3,0,0,2,10,14],
-"MRObjectVoxels_8h_source.html":[6,0,3,0,0,2,10,14],
-"MRObject_8h.html":[6,0,3,0,0,2,3,221],
-"MRObject_8h_source.html":[6,0,3,0,0,2,3,221],
-"MRObjectsAccess_8h.html":[6,0,3,0,0,2,3,233],
-"MRObjectsAccess_8h.html#a8e83df3805927f1f6c006f596809d97a":[6,0,3,0,0,2,3,233,8],
-"MRObjectsAccess_8h_source.html":[6,0,3,0,0,2,3,233],
-"MROffsetContours_8h.html":[6,0,3,0,0,2,3,235],
-"MROffsetContours_8h.html#a13fd7f6f4c21ca10264a68af45c700bd":[6,0,3,0,0,2,3,235,8],
-"MROffsetContours_8h.html#a19cb89c4b7c5582f2215200a5b0755af":[6,0,3,0,0,2,3,235,4],
-"MROffsetContours_8h.html#a27899d08f51f8b1106ec145d7a116f9f":[6,0,3,0,0,2,3,235,7],
-"MROffsetContours_8h.html#a3f87a9abf93ab132bc1ea3f939459b37":[6,0,3,0,0,2,3,235,6]
+"MRObjectVoxels_8h.html":[6,0,3,0,0,2,10,14]
 };

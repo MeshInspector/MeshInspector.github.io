@@ -25,6 +25,7 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRMeshComponents.h", "MRMeshC_2MRMeshComponents_8h.html", "MRMeshC_2MRMeshComponents_8h" ],
     [ "MRMeshDecimate.h", "MRMeshC_2MRMeshDecimate_8h.html", "MRMeshC_2MRMeshDecimate_8h" ],
     [ "MRMeshFillHole.h", "MRMeshC_2MRMeshFillHole_8h.html", "MRMeshC_2MRMeshFillHole_8h" ],
+    [ "MRMeshFixer.h", "MRMeshC_2MRMeshFixer_8h.html", "MRMeshC_2MRMeshFixer_8h" ],
     [ "MRMeshFwd.h", "MRMeshC_2MRMeshFwd_8h.html", "MRMeshC_2MRMeshFwd_8h" ],
     [ "MRMeshLoad.h", "MRMeshC_2MRMeshLoad_8h.html", "MRMeshC_2MRMeshLoad_8h" ],
     [ "MRMeshLoadObj.h", "MRMeshC_2MRMeshLoadObj_8h.html", "MRMeshC_2MRMeshLoadObj_8h" ],

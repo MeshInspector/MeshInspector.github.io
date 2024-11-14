@@ -26,6 +26,7 @@ var MRMesh_2MRMeshFwd_8h =
     [ "EdgeHashMap", "MRMesh_2MRMeshFwd_8h.html#acf12278406a871d48023f839544d29e8", null ],
     [ "EdgeHashSet", "MRMesh_2MRMeshFwd_8h.html#aab2dff43553ca83a7047da7cf31b3c1b", null ],
     [ "EdgeLoop", "MRMesh_2MRMeshFwd_8h.html#a099da1b4cb4b8348ee3fed0588b01aa3", null ],
+    [ "EdgeLoops", "MRMesh_2MRMeshFwd_8h.html#a1964726fd495b12be5c3bce9a751f898", null ],
     [ "EdgeMetric", "MRMesh_2MRMeshFwd_8h.html#a89c45ed75d3ee7e49964d4afe5a64651", null ],
     [ "EdgePair", "MRMesh_2MRMeshFwd_8h.html#ab355986e338097e97435c68b33987055", null ],
     [ "EdgePath", "MRMesh_2MRMeshFwd_8h.html#a9f6c1e614e45e332d4cecfc5e77bc07e", null ],

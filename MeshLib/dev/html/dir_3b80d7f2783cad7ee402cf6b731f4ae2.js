@@ -187,7 +187,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshEigen.h", "MRMeshEigen_8h.html", "MRMeshEigen_8h" ],
     [ "MRMeshExtrude.h", "MRMeshExtrude_8h.html", "MRMeshExtrude_8h" ],
     [ "MRMeshFillHole.h", "MRMesh_2MRMeshFillHole_8h.html", "MRMesh_2MRMeshFillHole_8h" ],
-    [ "MRMeshFixer.h", "MRMeshFixer_8h.html", "MRMeshFixer_8h" ],
+    [ "MRMeshFixer.h", "MRMesh_2MRMeshFixer_8h.html", "MRMesh_2MRMeshFixer_8h" ],
     [ "MRMeshFwd.h", "MRMesh_2MRMeshFwd_8h.html", "MRMesh_2MRMeshFwd_8h" ],
     [ "MRMeshIntersect.h", "MRMeshIntersect_8h.html", "MRMeshIntersect_8h" ],
     [ "MRMeshLoad.h", "MRMesh_2MRMeshLoad_8h.html", "MRMesh_2MRMeshLoad_8h" ],

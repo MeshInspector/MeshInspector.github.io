@@ -7,6 +7,8 @@ var MRMeshC_2MRMesh_8h =
     [ "mrMeshComputeBoundingBox", "MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034", null ],
     [ "mrMeshCopy", "MRMeshC_2MRMesh_8h.html#ada39c7dfb3c3d6beb27986f974e4c4e1", null ],
     [ "mrMeshDeleteFaces", "MRMeshC_2MRMesh_8h.html#ac6a237edf1543be7ca5b9e9dd1c77a18", null ],
+    [ "mrMeshEdgeLength", "MRMeshC_2MRMesh_8h.html#a3519ea13219f2dfc5498f7b750584d92", null ],
+    [ "mrMeshEdgeLengthSq", "MRMeshC_2MRMesh_8h.html#a671dd90ca80f4bc34ce8205a57fe1b3d", null ],
     [ "mrMeshFindHoleRepresentiveEdges", "MRMeshC_2MRMesh_8h.html#a3eea3ee36aaf0646624e9d8a1bb32356", null ],
     [ "mrMeshFree", "MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d", null ],
     [ "mrMeshFromTriangles", "MRMeshC_2MRMesh_8h.html#a66876c0d684c51318803ae141caeb384", null ],
