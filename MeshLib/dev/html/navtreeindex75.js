@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce":[6,0,0,9,7,0,13],
 "structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[6,0,0,9,7,0,6],
 "structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[6,0,0,9,7,0,3],
 "structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[6,0,0,9,7,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead":[6,0,2,0,1,625,4],
 "structMR_1_1ToolPathParams.html#adf1fc52d9134c621ba9630531ee2c99d":[6,0,1,0,12,640,15],
 "structMR_1_1ToolPathParams.html#adf1fc52d9134c621ba9630531ee2c99d":[6,0,2,0,1,625,15],
-"structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492":[6,0,1,0,12,640,17],
-"structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492":[6,0,2,0,1,625,17]
+"structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492":[6,0,1,0,12,640,17]
 };

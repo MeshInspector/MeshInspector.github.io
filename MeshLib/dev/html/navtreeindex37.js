@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1SceneObjectsListDrawer.html#aaa3af2c0a1a9e4b9486f42a71e2e82d5":[6,0,2,0,1,546,15],
 "classMR_1_1SceneObjectsListDrawer.html#ab6fb0dc306afc3a0c5f97c7b17389d22":[6,0,1,0,12,561,17],
 "classMR_1_1SceneObjectsListDrawer.html#ab6fb0dc306afc3a0c5f97c7b17389d22":[6,0,2,0,1,546,17],
 "classMR_1_1SceneObjectsListDrawer.html#abed3811d369081a14d0878bfdaa7b0bb":[6,0,1,0,12,561,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1ShadowsGL.html#a48bc9b48164b58c3865f8c4b80dfea15":[6,0,1,0,12,588,8],
 "classMR_1_1ShadowsGL.html#a48bc9b48164b58c3865f8c4b80dfea15":[6,0,2,0,1,573,8],
 "classMR_1_1ShadowsGL.html#a9d6d931d3b779b456540569abbceb962":[6,0,1,0,12,588,10],
-"classMR_1_1ShadowsGL.html#a9d6d931d3b779b456540569abbceb962":[6,0,2,0,1,573,10],
-"classMR_1_1ShadowsGL.html#aa49107de3327a7c3585b3d42b97fbfb1":[6,0,1,0,12,588,1]
+"classMR_1_1ShadowsGL.html#a9d6d931d3b779b456540569abbceb962":[6,0,2,0,1,573,10]
 };

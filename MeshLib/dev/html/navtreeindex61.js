@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,2,0,1,165,3],
 "structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30":[6,0,1,0,12,180,2],
 "structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30":[6,0,2,0,1,165,2],
 "structMR_1_1DistanceVolumeParams.html#a920081c5dce988d2f087b470ea72803a":[6,0,1,0,12,180,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1FaceDistancesSettings.html":[6,0,1,0,12,201],
 "structMR_1_1FaceDistancesSettings.html":[6,0,2,0,1,186],
 "structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,1,0,12,201,1],
-"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,2,0,1,186,1],
-"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,1,0,12,201,2]
+"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,2,0,1,186,1]
 };

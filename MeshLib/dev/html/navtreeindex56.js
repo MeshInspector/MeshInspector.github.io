@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261":[6,0,1,0,12,26,21],
 "namespaceMR_1_1PointsLoad.html#ad77d60f87ff1535bd8e75da4db8f860c":[6,0,1,0,12,26,24],
 "namespaceMR_1_1PointsLoad.html#ae4cbf7590e7b73675bbbdaa9fb468ac2":[6,0,1,0,12,26,14],
 "namespaceMR_1_1PointsSave.html":[6,0,1,0,12,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "namespaces.html":[6,0,1,0],
 "pages.html":[],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,1,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,1,0,1,0,6]
+"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0]
 };

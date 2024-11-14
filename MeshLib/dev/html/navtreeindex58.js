@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,46,0],
 "structMRTriPointf.html":[6,0,2,0,47],
 "structMRTriPointf.html#ac507405aca1d7923df0844c93a909cbc":[6,0,2,0,47,1],
 "structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55":[6,0,2,0,47,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[6,0,2,0,1,53,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[6,0,1,0,12,68,1,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[6,0,2,0,1,53,1,1],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[6,0,1,0,12,68,1,0],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[6,0,2,0,1,53,1,0]
+"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[6,0,1,0,12,68,1,0]
 };

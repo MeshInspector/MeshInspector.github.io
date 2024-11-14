@@ -77,7 +77,7 @@ var searchData=
   ['holeidx_74',['holeIdx',['../structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d',1,'MR::HoleEdgePoint']]],
   ['holeperimiter_75',['holePerimiter',['../structMR_1_1Mesh.html#af3fca747ad4dc619010b3f7dbb857f86',1,'MR::Mesh']]],
   ['holes_76',['Filling Holes',['../ExampleMeshFillHole.html',1,'']]],
-  ['holes_77',['holes',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshStitchHole.dox.py#autotoc_md104',1,'Connect two holes'],['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshStitchHole.dox.py#autotoc_md103',1,'Find holes'],['../ExampleMeshStitchHole.html',1,'Stitching holes']]],
+  ['holes_77',['holes',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshStitchHole.dox.py#autotoc_md107',1,'Connect two holes'],['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshStitchHole.dox.py#autotoc_md106',1,'Find holes'],['../ExampleMeshStitchHole.html',1,'Stitching holes']]],
   ['holes_20overview_78',['Fill/Stitch Holes overview',['../group__FillHoleGroup.html',1,'']]],
   ['holesonobject_79',['HolesOnObject',['../classMR_1_1BoundarySelectionWidget.html#a9e3aafe476e30d362b2b0070a6ce21c6',1,'MR::BoundarySelectionWidget']]],
   ['holesvertids_80',['HolesVertIds',['../namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9',1,'MR::PlanarTriangulation']]],
@@ -99,5 +99,5 @@ var searchData=
   ['how_20to_20install_20meshlib_20sdk_20for_20python_96',['How to Install MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],
   ['how_20to_20make_20your_20first_20plugin_97',['How to make your first plugin',['../StatePluginsHelp.html#autotoc_md45',1,'']]],
   ['how_20to_20use_20meshlib_20python_20modules_98',['How to use MeshLib Python Modules',['../MeshLibPythonSetupGuide.html#autotoc_md41',1,'']]],
-  ['however_20you_20could_20also_20use_20float64_99',['however, you could also use float64',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/Numpy.dox.py#autotoc_md114',1,'']]]
+  ['however_20you_20could_20also_20use_20float64_99',['however, you could also use float64',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/Numpy.dox.py#autotoc_md117',1,'']]]
 ];
