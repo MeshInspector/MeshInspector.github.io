@@ -1,13 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0":[6,0,1,0,12,27,8],
-"namespaceMR_1_1PointsSave.html#aa0c93c027a52951a40337f323f2860de":[6,0,1,0,12,27,11],
-"namespaceMR_1_1PointsSave.html#ae23866fe66a802c4ea607cb75f014d9d":[6,0,1,0,12,27,9],
-"namespaceMR_1_1PolylineComponents.html":[6,0,1,0,12,28],
-"namespaceMR_1_1PolylineComponents.html#a7b49dea5ec0f482893a31e642b0118b6":[6,0,1,0,12,28,4],
-"namespaceMR_1_1RenderDimensions.html":[6,0,1,0,12,29],
-"namespaceMR_1_1RenderFeatures.html":[6,0,1,0,12,30],
-"namespaceMR_1_1RenderFeatures_1_1detail.html":[6,0,1,0,12,30,0],
 "namespaceMR_1_1RenderWrapObject.html":[6,0,1,0,12,31],
 "namespaceMR_1_1RenderWrapObject_1_1detail.html":[6,0,1,0,12,31,0],
 "namespaceMR_1_1SceneLoad.html":[6,0,1,0,12,32],
@@ -249,5 +241,13 @@ var NAVTREEINDEX56 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,1,0,1,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,0,0,5],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,1,0,1,0,7]
+"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,1,0,1,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,2,0,0,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,1,0,1,0,4],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,2,0,0,0,4],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,1,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,1,0,1,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,2,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,1,0,1,0,2]
 };

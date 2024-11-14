@@ -1,13 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1DividePointCloudOptionalOutput.html":[6,0,1,0,12,181],
-"structMR_1_1DividePointCloudOptionalOutput.html":[6,0,2,0,1,166],
-"structMR_1_1DividePointCloudOptionalOutput.html#a8b9684f693bcbb8c4f778a2250ab9b5a":[6,0,1,0,12,181,0],
-"structMR_1_1DividePointCloudOptionalOutput.html#a8b9684f693bcbb8c4f778a2250ab9b5a":[6,0,2,0,1,166,0],
-"structMR_1_1DividePointCloudOptionalOutput.html#a8f57623cee5e4db20049f8d9d6dff9cf":[6,0,1,0,12,181,2],
-"structMR_1_1DividePointCloudOptionalOutput.html#a8f57623cee5e4db20049f8d9d6dff9cf":[6,0,2,0,1,166,2],
-"structMR_1_1DividePointCloudOptionalOutput.html#abf7d2f349e450a24bc74e71d1de3d1bc":[6,0,1,0,12,181,1],
-"structMR_1_1DividePointCloudOptionalOutput.html#abf7d2f349e450a24bc74e71d1de3d1bc":[6,0,2,0,1,166,1],
 "structMR_1_1DividePolylineParameters.html":[6,0,1,0,12,182],
 "structMR_1_1DividePolylineParameters.html":[6,0,2,0,1,167],
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,1,0,12,182,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX61 =
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[6,0,2,0,1,186,3],
 "structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[6,0,1,0,12,201,0],
 "structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[6,0,2,0,1,186,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,1,0,12,201,0,1]
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,1,0,12,201,0,1],
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,2,0,1,186,0,1],
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[6,0,1,0,12,201,0,0],
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[6,0,2,0,1,186,0,0],
+"structMR_1_1FaceFace.html":[6,0,0,1,11],
+"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[6,0,0,1,11,1],
+"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[6,0,0,1,11,0],
+"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[6,0,0,1,11,2],
+"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[6,0,0,1,11,3]
 };

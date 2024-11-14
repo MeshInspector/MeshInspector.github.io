@@ -1,13 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,2,0,1,186,0,1],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[6,0,1,0,12,201,0,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[6,0,2,0,1,186,0,0],
-"structMR_1_1FaceFace.html":[6,0,0,1,11],
-"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[6,0,0,1,11,1],
-"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[6,0,0,1,11,0],
-"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[6,0,0,1,11,2],
-"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[6,0,0,1,11,3],
 "structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc":[6,0,0,1,11,4],
 "structMR_1_1FanRecord.html":[6,0,1,0,12,203],
 "structMR_1_1FanRecord.html":[6,0,2,0,1,188],
@@ -249,5 +241,13 @@ var NAVTREEINDEX62 =
 "structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[6,0,0,9,3,4,0],
 "structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22":[6,0,0,9,3,4,2],
 "structMR_1_1FillHoleNicelySettings.html":[6,0,1,0,12,216],
-"structMR_1_1FillHoleNicelySettings.html":[6,0,2,0,1,201]
+"structMR_1_1FillHoleNicelySettings.html":[6,0,2,0,1,201],
+"structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79":[6,0,1,0,12,216,1],
+"structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79":[6,0,2,0,1,201,1],
+"structMR_1_1FillHoleNicelySettings.html#a0e811b431fee7fca37d8a2ea46bf916c":[6,0,1,0,12,216,2],
+"structMR_1_1FillHoleNicelySettings.html#a0e811b431fee7fca37d8a2ea46bf916c":[6,0,2,0,1,201,2],
+"structMR_1_1FillHoleNicelySettings.html#a2ead937ed1df084dc6a43160e17df2c2":[6,0,1,0,12,216,8],
+"structMR_1_1FillHoleNicelySettings.html#a2ead937ed1df084dc6a43160e17df2c2":[6,0,2,0,1,201,8],
+"structMR_1_1FillHoleNicelySettings.html#a62e34964b014489a6f1d3f2e324759ff":[6,0,1,0,12,216,7],
+"structMR_1_1FillHoleNicelySettings.html#a62e34964b014489a6f1d3f2e324759ff":[6,0,2,0,1,201,7]
 };

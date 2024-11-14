@@ -1,13 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,2,0,0,0,7],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,1,0,1,0,4],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,2,0,0,0,4],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,1,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,1,0,1,0,9],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,2,0,0,0,9],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,1,0,1,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,1,0,1,0,1],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,2,0,0,0,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX57 =
 "structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55":[6,0,2,0,47,0],
 "structMRUndirectedEdgeId.html":[6,0,2,0,48],
 "structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,48,0],
-"structMRVariableEdgeTri.html":[6,0,2,0,49]
+"structMRVariableEdgeTri.html":[6,0,2,0,49],
+"structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a":[6,0,2,0,49,0],
+"structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df":[6,0,2,0,49,2],
+"structMRVariableEdgeTri.html#afdb5363f5103bfde2cc6a6507f3f97f6":[6,0,2,0,49,1],
+"structMRVector3f.html":[6,0,2,0,50],
+"structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[6,0,2,0,50,1],
+"structMRVector3f.html#a5c5342e25c41c46694167c41774234bd":[6,0,2,0,50,0],
+"structMRVector3f.html#a9fbd6e9840c8d988a628ec3519c05a0c":[6,0,2,0,50,2],
+"structMRVertId.html":[6,0,2,0,51]
 };

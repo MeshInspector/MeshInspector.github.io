@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "MeshLib Documentation", "index.html", [
-    [ "About", "index.html", "index" ],
+    [ "About", "index.html", null ],
     [ "Getting Started", "InstallationGuide.html", [
       [ "Python", "MeshLibPythonSetupGuide.html", null ],
       [ "C++", "MeshLibCppSetupGuide.html", null ],
@@ -37,38 +37,38 @@ var NAVTREE =
     ] ],
     [ "Examples", "Examples.html", [
       [ "General Samples", "Examples.html#GeneralExamples", [
-        [ "Application Based on MeshLib", "BasedApplication.html#BasedApplication", null ],
-        [ "Mesh Load and Save", "ExampleMeshLoadSave.html#ExampleMeshLoadSave", null ],
-        [ "Export Raw Triangles", "ExampleMeshExport.html#ExampleMeshExport", null ],
-        [ "Mesh Modification", "ExampleMeshModification.html#ExampleMeshModification", null ],
-        [ "Mesh Boolean", "ExampleMeshBoolean.html#ExampleMeshBoolean", null ],
-        [ "Mesh Decimate", "ExampleMeshDecimate.html#ExampleMeshDecimate", null ],
-        [ "Mesh Offset", "ExampleMeshOffset.html#ExampleMeshOffset", null ],
-        [ "Mesh Fill Hole", "ExampleMeshFillHole.html#ExampleMeshFillHole", null ],
-        [ "Mesh Stitch Holes", "ExampleMeshStitchHole.html#ExampleMeshStitchHole", null ],
-        [ "Mesh Resolve Degenerations", "ExampleMeshResolveDegenerations.html#ExampleMeshResolveDegenerations", null ],
-        [ "Global Registration", "ExampleGlobalRegistration.html#ExampleGlobalRegistration", null ],
-        [ "Mesh ICP", "ExampleMeshICP.html#ExampleMeshICP", null ],
-        [ "Mesh Extrude", "ExampleMeshExtrude.html#ExampleMeshExtrude", null ],
-        [ "Mesh Free Form Deformation", "ExampleFreeForm.html#ExampleFreeForm", null ],
-        [ "Mesh Laplacian Deformation", "ExampleLaplacian.html#ExampleLaplacian", null ],
-        [ "Mesh Denoise", "ExampleNoiseDenoise.html#ExampleNoiseDenoise", null ],
-        [ "Triangulation", "ExampleTriangulation.html#ExampleTriangulation", null ]
+        [ "Application Based on MeshLib", "BasedApplication.html", null ],
+        [ "Mesh Load and Save", "ExampleMeshLoadSave.html", null ],
+        [ "Export Raw Triangles", "ExampleMeshExport.html", null ],
+        [ "Mesh Modification", "ExampleMeshModification.html", null ],
+        [ "Mesh Boolean", "ExampleMeshBoolean.html", null ],
+        [ "Mesh Decimate", "ExampleMeshDecimate.html", null ],
+        [ "Mesh Offset", "ExampleMeshOffset.html", null ],
+        [ "Mesh Fill Hole", "ExampleMeshFillHole.html", null ],
+        [ "Mesh Stitch Holes", "ExampleMeshStitchHole.html", null ],
+        [ "Mesh Resolve Degenerations", "ExampleMeshResolveDegenerations.html", null ],
+        [ "Global Registration", "ExampleGlobalRegistration.html", null ],
+        [ "Mesh ICP", "ExampleMeshICP.html", null ],
+        [ "Mesh Extrude", "ExampleMeshExtrude.html", null ],
+        [ "Mesh Free Form Deformation", "ExampleFreeForm.html", null ],
+        [ "Mesh Laplacian Deformation", "ExampleLaplacian.html", null ],
+        [ "Mesh Denoise", "ExampleNoiseDenoise.html", null ],
+        [ "Triangulation", "ExampleTriangulation.html", null ]
       ] ],
       [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
-        [ "Viewer", "ExampleViewer.html#ExampleViewer", null ],
-        [ "Plotly Visualization", "ExamplePlotly.html#ExamplePlotly", null ],
-        [ "Using Numpy", "ExampleNumpy.html#ExampleNumpy", null ],
-        [ "Numpy Triangulation", "ExampleNumpyTriangulation.html#ExampleNumpyTriangulation", null ]
+        [ "Viewer", "ExampleViewer.html", null ],
+        [ "Plotly Visualization", "ExamplePlotly.html", null ],
+        [ "Using Numpy", "ExampleNumpy.html", null ],
+        [ "Numpy Triangulation", "ExampleNumpyTriangulation.html", null ]
       ] ]
     ] ],
     [ "Package Overview", "PackageOverview.html", [
-      [ "Data Model Class Hierarchy", "DataModel.html#DataModel", null ],
-      [ "Spaces and Transformations", "SpacesHelp.html#SpacesHelp", null ],
-      [ "State Plugins Overview", "StatePluginsHelp.html#StatePluginsHelp", null ]
+      [ "Data Model Class Hierarchy", "DataModel.html", null ],
+      [ "Spaces and Transformations", "SpacesHelp.html", null ],
+      [ "State Plugins Overview", "StatePluginsHelp.html", null ]
     ] ],
     [ "API", "APIPage.html", [
-      [ "C++", "APICppPage.html#APICppPage", [
+      [ "C++", "APICppPage.html", [
         [ "Topics", "topics.html", "topics" ],
         [ "Namespace List", "namespaces.html", [
           [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -115,7 +115,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"APICppPage.html#APICppPage",
+"APICppPage.html",
 "MRChangeMeshAction_8h_source.html",
 "MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8b",
 "MRIOFilesMenuItems_8h.html#abf9e7451b5087b4485b6207161438dc3",
@@ -165,37 +165,36 @@ var NAVTREEINDEX =
 "group__BoxGroup.html#ga29381aa0a95542624d22842711d672f9",
 "group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae",
 "group__SerializerGroup.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad",
-"index.html#autotoc_md1",
-"namespaceMR.html#a2360c210c6fa64143e978b1f2a1b6bff",
-"namespaceMR.html#a5cffe69ffefbd14e44b874dc53b6209e",
-"namespaceMR.html#a8dc548516d8db27eba38a5a8bf158a02",
-"namespaceMR.html#abf106ad4f6e3e81079b7698a30f31e20",
-"namespaceMR.html#af380c745631672883c31b1875697b2e5",
-"namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0",
-"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819",
-"structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a",
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a7664329c16a19590708d5686044a648a",
-"structMR_1_1ContourToDistanceMapParams.html#a7a018eb39177bd2bf920601b6a61d8b6",
-"structMR_1_1DividePointCloudOptionalOutput.html",
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527",
-"structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79",
-"structMR_1_1ICPGroupPairs.html",
-"structMR_1_1ImGuiMenu_1_1LabelParams.html",
-"structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054",
-"structMR_1_1Mesh.html#a49f7db0c7ecd59955478746c13609ff6",
-"structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754",
-"structMR_1_1MultiRayMeshIntersectResult.html#a71a0fa75e778ec8d7c6e2a3f6b0a8090",
-"structMR_1_1OneMeshContour.html",
-"structMR_1_1PointPair.html#a0be978719b10258123e31ffe3413c532",
-"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130",
-"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645",
-"structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8",
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html",
-"structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e",
-"structMR_1_1TriangulationParameters.html",
-"structMR_1_1UniquePtr.html#aaf1504c1a8adb3c65e6501508c18f9ad",
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d",
-"structvector__wrapper__base.html"
+"namespaceImGui.html",
+"namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e",
+"namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf",
+"namespaceMR.html#a8fee31db406cce1480e3c5c7a9ff7d0f",
+"namespaceMR.html#ac19d6db4200945b6861959bd421a41e1",
+"namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55",
+"namespaceMR_1_1RenderWrapObject.html",
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03",
+"structMRVertId.html#a81465bbd9b0f213d4daad78a79e07c87",
+"structMR_1_1BindVertexAttribArraySettings.html#a58b9782177e88d4d24c156ba056867bb",
+"structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce",
+"structMR_1_1DividePolylineParameters.html",
+"structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc",
+"structMR_1_1FillHoleNicelySettings.html#a6dab8822d5eac719a15e99f44c4a3407",
+"structMR_1_1ICPGroupPairs.html#af65b16a9e3eb716ade27a46bde4dac29",
+"structMR_1_1ImGuiMenu_1_1PluginsCache.html",
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a89ef3c78f83d43c17a9dc7939b7d90e7",
+"structMR_1_1Mesh.html#a584a6ede1ccbc7e9568e03eb8abd4ed5",
+"structMR_1_1MeshSave_1_1MeshSaver.html#a42c3b3942648bbdf04a63ea09d084621",
+"structMR_1_1MultiwayICPSamplingParameters.html",
+"structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82",
+"structMR_1_1PointPairs.html",
+"structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180",
+"structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96",
+"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6",
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9",
+"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314",
+"structMR_1_1TrimOptionalOutput.html",
+"structMR_1_1UnitInfo.html#a817300ad70b64d411504a08283c57df8",
+"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

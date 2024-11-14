@@ -1,13 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[6,0,2,0,1,463,3],
-"structMR_1_1PreDrawListener.html":[6,0,1,0,12,483],
-"structMR_1_1PreDrawListener.html":[6,0,2,0,1,468],
-"structMR_1_1PreDrawListener.html#a315d3fdaaa28ec7d64ac68a04c1a8429":[6,0,1,0,12,483,0],
-"structMR_1_1PreDrawListener.html#a315d3fdaaa28ec7d64ac68a04c1a8429":[6,0,2,0,1,468,0],
-"structMR_1_1PreDrawListener.html#a4e0adfc848772aeae37ad04a7d61d787":[6,0,1,0,12,483,3],
-"structMR_1_1PreDrawListener.html#a4e0adfc848772aeae37ad04a7d61d787":[6,0,2,0,1,468,3],
-"structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180":[6,0,1,0,12,483,1],
 "structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180":[6,0,2,0,1,468,1],
 "structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,1,0,12,483,2],
 "structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,2,0,1,468,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX72 =
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,12,31,0,1,0],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,1,19,0,1,0],
 "structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,12,523],
-"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,508]
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,508],
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,1,0,12,523,1],
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,2,0,1,508,1],
+"structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,1,0,12,523,2],
+"structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,2,0,1,508,2],
+"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,1,0,12,523,4],
+"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,2,0,1,508,4],
+"structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,1,0,12,523,0],
+"structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,2,0,1,508,0]
 };

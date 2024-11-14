@@ -1,13 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1ImGuiMenu_1_1LabelParams.html":[6,0,1,0,12,270,0],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html":[6,0,2,0,1,255,0],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,1,0,12,270,0,2],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,2,0,1,255,0,2],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,1,0,12,270,0,0],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,2,0,1,255,0,0],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,1,0,12,270,0,1],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,2,0,1,255,0,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html":[6,0,1,0,12,270,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html":[6,0,2,0,1,255,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html#a45a67d011a2849b95f0531f732a0df8c":[6,0,1,0,12,270,1,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX65 =
 "structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,2,0,1,6,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,1,0,12,15,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,2,0,1,7,0],
-"structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,1,0,12,15,0,1]
+"structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,1,0,12,15,0,1],
+"structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,2,0,1,7,0,1],
+"structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,1,0,12,15,0,0],
+"structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,2,0,1,7,0,0],
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,1,0,12,310],
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,2,0,1,295],
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a7d6c4b4b9c582144c01aad1b8bf29605":[6,0,1,0,12,310,3],
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a7d6c4b4b9c582144c01aad1b8bf29605":[6,0,2,0,1,295,3],
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a89ef3c78f83d43c17a9dc7939b7d90e7":[6,0,1,0,12,310,1]
 };

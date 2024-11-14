@@ -1,13 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"namespaceMR.html#af380c745631672883c31b1875697b2e5":[6,0,1,0,12,960],
-"namespaceMR.html#af380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f":[6,0,1,0,12,960,0],
-"namespaceMR.html#af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9":[6,0,1,0,12,960,1],
-"namespaceMR.html#af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55":[6,0,1,0,12,960,2],
-"namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5":[6,0,1,0,12,923],
-"namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a3ea45d8602a5aa192465cbbc8980376c":[6,0,1,0,12,923,1],
-"namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989":[6,0,1,0,12,923,2],
-"namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22":[6,0,1,0,12,923,0],
 "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55":[6,0,1,0,12,923,3],
 "namespaceMR.html#af4556fd56cc32c8b7e8e343664cba8ad":[6,0,1,0,12,1054],
 "namespaceMR.html#af4a1dbdb9aedd7fadc599adb576b16da":[6,0,1,0,12,1578],
@@ -249,5 +241,13 @@ var NAVTREEINDEX55 =
 "namespaceMR_1_1PointsSave.html":[6,0,1,0,12,27],
 "namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[6,0,1,0,12,27,3],
 "namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[6,0,1,0,12,27,2],
-"namespaceMR_1_1PointsSave.html#a98e902c9b3693ad0e13b4cea99cf4930":[6,0,1,0,12,27,10]
+"namespaceMR_1_1PointsSave.html#a98e902c9b3693ad0e13b4cea99cf4930":[6,0,1,0,12,27,10],
+"namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0":[6,0,1,0,12,27,8],
+"namespaceMR_1_1PointsSave.html#aa0c93c027a52951a40337f323f2860de":[6,0,1,0,12,27,11],
+"namespaceMR_1_1PointsSave.html#ae23866fe66a802c4ea607cb75f014d9d":[6,0,1,0,12,27,9],
+"namespaceMR_1_1PolylineComponents.html":[6,0,1,0,12,28],
+"namespaceMR_1_1PolylineComponents.html#a7b49dea5ec0f482893a31e642b0118b6":[6,0,1,0,12,28,4],
+"namespaceMR_1_1RenderDimensions.html":[6,0,1,0,12,29],
+"namespaceMR_1_1RenderFeatures.html":[6,0,1,0,12,30],
+"namespaceMR_1_1RenderFeatures_1_1detail.html":[6,0,1,0,12,30,0]
 };
