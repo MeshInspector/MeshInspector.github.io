@@ -1,5 +1,8 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Dirty.html#a71af917001468a850a824a320316bee5":[6,0,0,11,2,4,4],
+"structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5":[6,0,0,11,2,4,6],
+"structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6":[6,0,0,11,2,4,1],
 "structMR_1_1DistanceMapToWorld.html":[6,0,0,5,5],
 "structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e":[6,0,0,5,5,6],
 "structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[6,0,0,5,5,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[6,0,0,1,16,0],
 "structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[6,0,0,1,16,3],
 "structMR_1_1EmbeddedPython_1_1Config.html":[6,0,1,0,12,197,0],
-"structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,1,182,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[6,0,1,0,12,197,0,1],
-"structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[6,0,2,0,1,182,0,1],
-"structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,1,0,12,197,0,0]
+"structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,1,182,0]
 };

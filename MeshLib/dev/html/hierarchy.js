@@ -1129,7 +1129,7 @@ var hierarchy =
     [ "MR::Features::Traits::Unary< Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", null ],
     [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", null ],
-    [ "UnifiedPythonStream", "classUnifiedPythonStream.html", null ],
+    [ "MR::UnifiedPythonStream", "classMR_1_1UnifiedPythonStream.html", null ],
     [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", null ],
     [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ],
     [ "std::unique_ptr", null, [

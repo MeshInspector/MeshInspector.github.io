@@ -1,5 +1,8 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1RenderDimensions_1_1AngleParams.html#aaace7c14d6dc2100d4e3e7555158c162":[6,0,2,0,1,17,0,3],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[6,0,1,0,12,29,0,1],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[6,0,2,0,1,17,0,1],
 "structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,1,0,12,29,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,2,0,1,17,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[6,0,1,0,12,29,2,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,1,0,12,562,2],
 "structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,2,0,1,547,2],
 "structMR_1_1SearchPathSettings.html":[6,0,1,0,12,578],
-"structMR_1_1SearchPathSettings.html":[6,0,2,0,1,563],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,1,0,12,578,0],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,2,0,1,563,0],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,1,0,12,578,1]
+"structMR_1_1SearchPathSettings.html":[6,0,2,0,1,563]
 };

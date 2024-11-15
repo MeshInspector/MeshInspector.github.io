@@ -43,7 +43,7 @@ var searchData=
   ['unexpectedoperationcanceled_40',['unexpectedOperationCanceled',['../namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1',1,'MR']]],
   ['unfoldonplane_41',['unfoldOnPlane',['../group__PlanarPathGroup.html#gafc3a801f48da79fea27b2c5a60579ddb',1,'MR']]],
   ['unicodeminussign_42',['unicodeMinusSign',['../structMR_1_1UnitToStringParams.html#af5c03b75a184cdc31e4591f61fddedf9',1,'MR::UnitToStringParams']]],
-  ['unifiedpythonstream_43',['UnifiedPythonStream',['../classUnifiedPythonStream.html',1,'']]],
+  ['unifiedpythonstream_43',['UnifiedPythonStream',['../classMR_1_1UnifiedPythonStream.html',1,'MR']]],
   ['uniformsamplingsettings_44',['UniformSamplingSettings',['../structMR_1_1UniformSamplingSettings.html',1,'MR']]],
   ['uniformscale_5f_45',['uniformScale_',['../classMR_1_1ImGuiMenu.html#afd9b841be73749d7e6b9ccbd81ba5afd',1,'MR::ImGuiMenu']]],
   ['uniformscaling_46',['UniformScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454',1,'MR::ObjectTransformWidget']]],

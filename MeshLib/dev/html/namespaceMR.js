@@ -754,6 +754,7 @@ var namespaceMR =
     [ "UiRenderParams", "structMR_1_1UiRenderParams.html", "structMR_1_1UiRenderParams" ],
     [ "UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", "classMR_1_1UndirectedEdgeIterator" ],
     [ "UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", "structMR_1_1UndirectedEdgeUndirectedEdge" ],
+    [ "UnifiedPythonStream", "classMR_1_1UnifiedPythonStream.html", null ],
     [ "UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", "structMR_1_1UniformSamplingSettings" ],
     [ "UnionFind", "classMR_1_1UnionFind.html", "classMR_1_1UnionFind" ],
     [ "UniquePtr", "structMR_1_1UniquePtr.html", "structMR_1_1UniquePtr" ],

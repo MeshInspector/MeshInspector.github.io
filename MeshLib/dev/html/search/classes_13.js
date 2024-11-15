@@ -9,7 +9,7 @@ var searchData=
   ['unary_3c_20primitives_3a_3asphere_20_3e_6',['Unary&lt; Primitives::Sphere &gt;',['../structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html',1,'MR::Features::Traits']]],
   ['undirectededgeiterator_7',['UndirectedEdgeIterator',['../classMR_1_1UndirectedEdgeIterator.html',1,'MR']]],
   ['undirectededgeundirectededge_8',['UndirectedEdgeUndirectedEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html',1,'MR']]],
-  ['unifiedpythonstream_9',['UnifiedPythonStream',['../classUnifiedPythonStream.html',1,'']]],
+  ['unifiedpythonstream_9',['UnifiedPythonStream',['../classMR_1_1UnifiedPythonStream.html',1,'MR']]],
   ['uniformsamplingsettings_10',['UniformSamplingSettings',['../structMR_1_1UniformSamplingSettings.html',1,'MR']]],
   ['unionfind_11',['UnionFind',['../classMR_1_1UnionFind.html',1,'MR']]],
   ['uniqueptr_12',['UniquePtr',['../structMR_1_1UniquePtr.html',1,'MR']]],

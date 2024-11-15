@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,43,2],
+"structMRRegionId.html":[6,0,2,0,44],
+"structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,44,0],
 "structMRRemeshSettings.html":[6,0,2,0,45],
 "structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9":[6,0,2,0,45,7],
 "structMRRemeshSettings.html#a2926173237cdf60eb4ba2053493933c2":[6,0,2,0,45,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[6,0,2,0,1,52,0,1],
 "structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701":[6,0,1,0,12,67,4],
 "structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701":[6,0,2,0,1,52,4],
-"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,1,0,12,67,6],
-"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,2,0,1,52,6],
-"structMR_1_1BasicUiRenderTask.html":[6,0,1,0,12,68],
-"structMR_1_1BasicUiRenderTask.html":[6,0,2,0,1,53]
+"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,1,0,12,67,6]
 };
