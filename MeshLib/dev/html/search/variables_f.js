@@ -127,5 +127,6 @@ var searchData=
   ['ptcolors_124',['ptColors',['../structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5',1,'MR::ImproveSamplingSettings::ptColors'],['../structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3',1,'MR::PointsToMeshParameters::ptColors']]],
   ['ptnormals_125',['ptNormals',['../structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b',1,'MR::PointsToDistanceVolumeParams']]],
   ['ptsinsm_126',['ptsInSm',['../structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24',1,'MR::ImproveSamplingSettings']]],
-  ['pushcolorscb_127',['pushColorsCb',['../structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866',1,'MR::CustomButtonParameters']]]
+  ['pushcolorscb_127',['pushColorsCb',['../structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866',1,'MR::CustomButtonParameters']]],
+  ['pythonconfig_128',['pythonConfig',['../classMR_1_1EmbeddedPython.html#af625103143c735b8c67563d7f0a30f30',1,'MR::EmbeddedPython']]]
 ];

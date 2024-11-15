@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a8e7aa7e5a8d5ad0d936565bfac19539e":[6,0,2,0,1,348,3],
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b0d4d2ec2b2868f18da16624979032f":[6,0,1,0,12,363,2],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b0d4d2ec2b2868f18da16624979032f":[6,0,2,0,1,348,2],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b3c5026793485f6071bb44a681e1461":[6,0,1,0,12,363,5],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b3c5026793485f6071bb44a681e1461":[6,0,2,0,1,348,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1OffsetContoursParams.html#a8f22257eec663355f415c139933b24e3":[6,0,1,0,12,414,3],
 "structMR_1_1OffsetContoursParams.html#a8f22257eec663355f415c139933b24e3":[6,0,2,0,1,399,3],
 "structMR_1_1OffsetContoursParams.html#aaa59d5575d36ccf9d5237292d79740c8":[6,0,1,0,12,414,6],
-"structMR_1_1OffsetContoursParams.html#aaa59d5575d36ccf9d5237292d79740c8":[6,0,2,0,1,399,6],
-"structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49":[6,0,1,0,12,414,7],
-"structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49":[6,0,2,0,1,399,7]
+"structMR_1_1OffsetContoursParams.html#aaa59d5575d36ccf9d5237292d79740c8":[6,0,2,0,1,399,6]
 };

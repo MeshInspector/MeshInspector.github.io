@@ -446,11 +446,12 @@ var searchData=
   ['python_20modules_443',['How to use MeshLib Python Modules',['../MeshLibPythonSetupGuide.html#autotoc_md41',1,'']]],
   ['python_20specific_20samples_444',['Python Specific Samples',['../Examples.html#PythonSpecificExamples',1,'']]],
   ['pythonappendorrun_445',['pythonAppendOrRun',['../namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691',1,'MR']]],
-  ['pythonexport_446',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
-  ['pythonfunctionadder_447',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR::PythonFunctionAdder'],['../structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29',1,'MR::PythonFunctionAdder::PythonFunctionAdder(const std::string &amp;moduleName, std::function&lt; void(pybind11::module_ &amp;m)&gt; func, PythonExport::Priority priority=PythonExport::Priority::Implementation)'],['../structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f',1,'MR::PythonFunctionAdder::PythonFunctionAdder(const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))']]],
-  ['pythonmodules_448',['PythonModules',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baa9b9ad9b15630bfc857db491ee781e53',1,'MR::SystemPath']]],
-  ['pythonregisterfuncton_449',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]],
-  ['pythonrunfromguithread_450',['pythonRunFromGUIThread',['../namespaceMR.html#a0f61ad5fbd50836547b99cd10c78763f',1,'MR::pythonRunFromGUIThread(std::function&lt; R(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; void(Args...)&gt;'],['../namespaceMR.html#a98815b53a5018d4a910654f696d65b57',1,'MR::pythonRunFromGUIThread(F &amp;&amp;f)'],['../namespaceMR.html#a01c442c33cfa7f1e68e1261ab49b71b5',1,'MR::pythonRunFromGUIThread(R(T::*memFunction)(Args...))']]],
-  ['pythonsetupguide_2edox_451',['PythonSetupGuide.dox',['../PythonSetupGuide_8dox.html',1,'']]],
-  ['pythonstreamredirector_452',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
+  ['pythonconfig_446',['pythonConfig',['../classMR_1_1EmbeddedPython.html#af625103143c735b8c67563d7f0a30f30',1,'MR::EmbeddedPython']]],
+  ['pythonexport_447',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
+  ['pythonfunctionadder_448',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR::PythonFunctionAdder'],['../structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29',1,'MR::PythonFunctionAdder::PythonFunctionAdder(const std::string &amp;moduleName, std::function&lt; void(pybind11::module_ &amp;m)&gt; func, PythonExport::Priority priority=PythonExport::Priority::Implementation)'],['../structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f',1,'MR::PythonFunctionAdder::PythonFunctionAdder(const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))']]],
+  ['pythonmodules_449',['PythonModules',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baa9b9ad9b15630bfc857db491ee781e53',1,'MR::SystemPath']]],
+  ['pythonregisterfuncton_450',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]],
+  ['pythonrunfromguithread_451',['pythonRunFromGUIThread',['../namespaceMR.html#a0f61ad5fbd50836547b99cd10c78763f',1,'MR::pythonRunFromGUIThread(std::function&lt; R(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; void(Args...)&gt;'],['../namespaceMR.html#a98815b53a5018d4a910654f696d65b57',1,'MR::pythonRunFromGUIThread(F &amp;&amp;f)'],['../namespaceMR.html#a01c442c33cfa7f1e68e1261ab49b71b5',1,'MR::pythonRunFromGUIThread(R(T::*memFunction)(Args...))']]],
+  ['pythonsetupguide_2edox_452',['PythonSetupGuide.dox',['../PythonSetupGuide_8dox.html',1,'']]],
+  ['pythonstreamredirector_453',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
 ];
