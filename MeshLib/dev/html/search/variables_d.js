@@ -10,7 +10,7 @@ var searchData=
   ['nameuirotatelocaloffset90degrees_7',['nameUiRotateLocalOffset90Degrees',['../classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593',1,'MR::RenderNameObject']]],
   ['nameuirotatetoscreenplanearoundspherecenter_8',['nameUiRotateToScreenPlaneAroundSphereCenter',['../classMR_1_1RenderNameObject.html#a87c105fe46b83ebce420bcf4f520cb6b',1,'MR::RenderNameObject']]],
   ['nameuiscreenoffset_9',['nameUiScreenOffset',['../classMR_1_1RenderNameObject.html#a0c88ac2a39d537e7131ef5ab4fe061d0',1,'MR::RenderNameObject']]],
-  ['naturalsmooth_10',['naturalSmooth',['../structMR_1_1FillHoleNicelySettings.html#aba46fa5a5269e9ffb23176c985a2c2b7',1,'MR::FillHoleNicelySettings']]],
+  ['naturalsmooth_10',['naturalSmooth',['../structMR_1_1FillHoleNicelySettings.html#aba46fa5a5269e9ffb23176c985a2c2b7',1,'MR::FillHoleNicelySettings::naturalSmooth'],['../structMRFillHoleNicelyParams.html#a22d1689535c4fb329d317ae2895d24fc',1,'MRFillHoleNicelyParams::naturalSmooth']]],
   ['nearesetpoints_11',['nearesetPoints',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b',1,'MR::TriangulationHelpers::TriangulatedFanData']]],
   ['needmodalbgchange_5f_12',['needModalBgChange_',['../classMR_1_1ImGuiMenu.html#a4e9570d57a509d6e4a02c3893c617fe4',1,'MR::ImGuiMenu']]],
   ['needredraw_5f_13',['needRedraw_',['../classMR_1_1Object.html#a92a390dc7570098981912529e341433d',1,'MR::Object']]],

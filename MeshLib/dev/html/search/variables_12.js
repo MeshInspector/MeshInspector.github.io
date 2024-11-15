@@ -100,7 +100,7 @@ var searchData=
   ['smcolors_97',['smColors',['../structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437',1,'MR::ImproveSamplingSettings']]],
   ['smooth_98',['Smooth',['../MRObjectLinesHolder_8h.html#a97f9630458efd2e8cfccca5356bd847a',1,'MRObjectLinesHolder.h']]],
   ['smoothconnections_5f_99',['smoothConnections_',['../classMR_1_1ObjectLinesHolder.html#a5e2decefeb68afc04d745403e70da92f',1,'MR::ObjectLinesHolder']]],
-  ['smoothcurvature_100',['smoothCurvature',['../structMR_1_1FillHoleNicelySettings.html#aac4ecae12eb97ad05b204ac14de42cb8',1,'MR::FillHoleNicelySettings']]],
+  ['smoothcurvature_100',['smoothCurvature',['../structMR_1_1FillHoleNicelySettings.html#aac4ecae12eb97ad05b204ac14de42cb8',1,'MR::FillHoleNicelySettings::smoothCurvature'],['../structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9',1,'MRFillHoleNicelyParams::smoothCurvature']]],
   ['smoothmode_101',['smoothMode',['../structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0',1,'MR::SubdivideSettings']]],
   ['snapview_102',['snapView',['../structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab',1,'MR::BaseFitParams']]],
   ['sortdata_103',['sortData',['../structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f',1,'MR::CutMeshParameters']]],

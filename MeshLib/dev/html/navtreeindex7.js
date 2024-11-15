@@ -1,5 +1,16 @@
 var NAVTREEINDEX7 =
 {
+"MRMesh_2MRMeshBoolean_8h.html#a340e1cf21c250e9c7df4ebdf3c460ac3":[6,0,3,0,0,2,3,169,6],
+"MRMesh_2MRMeshBoolean_8h.html#a66f38e4f3f841eb185f26586e964da0d":[6,0,3,0,0,2,3,169,4],
+"MRMesh_2MRMeshBoolean_8h.html#af4cc0a870f29d514b767b1038b980a59":[6,0,3,0,0,2,3,169,5],
+"MRMesh_2MRMeshBoolean_8h_source.html":[6,0,3,0,0,2,3,169],
+"MRMesh_2MRMeshBuilder_8h.html":[6,0,3,0,0,2,3,172],
+"MRMesh_2MRMeshBuilder_8h.html#a338de61ac0a911470d50fe0f14af05d5":[6,0,3,0,0,2,3,172,2],
+"MRMesh_2MRMeshBuilder_8h.html#a490e7688bd91a7df375c29f2bd7633a4":[6,0,3,0,0,2,3,172,4],
+"MRMesh_2MRMeshBuilder_8h.html#a787b6d63581b071cba69cde55f211cdf":[6,0,3,0,0,2,3,172,7],
+"MRMesh_2MRMeshBuilder_8h.html#aa308a697fa44ab178932733fdab79f16":[6,0,3,0,0,2,3,172,9],
+"MRMesh_2MRMeshBuilder_8h.html#ab4643e01cde45551cee54cc59f539e61":[6,0,3,0,0,2,3,172,6],
+"MRMesh_2MRMeshBuilder_8h.html#ac89608a8862a7f497172398df6ccaf30":[6,0,3,0,0,2,3,172,5],
 "MRMesh_2MRMeshBuilder_8h.html#ad94b16318381f04c306f214d07b59c3d":[6,0,3,0,0,2,3,172,8],
 "MRMesh_2MRMeshBuilder_8h.html#adbca7caa523fcdb27f944a48e8ed220a":[6,0,3,0,0,2,3,172,10],
 "MRMesh_2MRMeshBuilder_8h.html#affd71ea7a77ed4c02be34778c0923804":[6,0,3,0,0,2,3,172,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRMultiwayICP_8h.html":[6,0,3,0,0,2,3,216],
 "MRMesh_2MRMultiwayICP_8h.html#a331d6b27226046972c32b7d946f0624b":[6,0,3,0,0,2,3,216,7],
 "MRMesh_2MRMultiwayICP_8h.html#a3d0081672e0ccdc9545b8df2b84c3663":[6,0,3,0,0,2,3,216,10],
-"MRMesh_2MRMultiwayICP_8h.html#a74691005c823c40bb2293118aa854d32":[6,0,3,0,0,2,3,216,11],
-"MRMesh_2MRMultiwayICP_8h.html#ab448f2e256aabf3e97eaaef010380fb1":[6,0,3,0,0,2,3,216,6],
-"MRMesh_2MRMultiwayICP_8h.html#acc39cd0582abbbb48612bd904fe74210":[6,0,3,0,0,2,3,216,9],
-"MRMesh_2MRMultiwayICP_8h.html#add4fa046bbf16a56e7eae86658185885":[6,0,3,0,0,2,3,216,8],
-"MRMesh_2MRMultiwayICP_8h.html#ae9eff2bf5026577153e17f3ff0ae801c":[6,0,3,0,0,2,3,216,5],
-"MRMesh_2MRMultiwayICP_8h_source.html":[6,0,3,0,0,2,3,216],
-"MRMesh_2MRPointCloud_8h.html":[6,0,3,0,0,2,3,245],
-"MRMesh_2MRPointCloud_8h_source.html":[6,0,3,0,0,2,3,245],
-"MRMesh_2MRPointOnFace_8h.html":[6,0,3,0,0,2,3,254],
-"MRMesh_2MRPointOnFace_8h_source.html":[6,0,3,0,0,2,3,254],
-"MRMesh_2MRPointsLoad_8h.html":[6,0,3,0,0,2,3,258],
-"MRMesh_2MRPointsLoad_8h_source.html":[6,0,3,0,0,2,3,258]
+"MRMesh_2MRMultiwayICP_8h.html#a74691005c823c40bb2293118aa854d32":[6,0,3,0,0,2,3,216,11]
 };

@@ -104,7 +104,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRFillContour.h", "MRFillContour_8h.html", "MRFillContour_8h" ],
     [ "MRFillContourByGraphCut.h", "MRFillContourByGraphCut_8h.html", "MRFillContourByGraphCut_8h" ],
     [ "MRFillContours2D.h", "MRFillContours2D_8h.html", "MRFillContours2D_8h" ],
-    [ "MRFillHoleNicely.h", "MRFillHoleNicely_8h.html", "MRFillHoleNicely_8h" ],
+    [ "MRFillHoleNicely.h", "MRMesh_2MRFillHoleNicely_8h.html", "MRMesh_2MRFillHoleNicely_8h" ],
     [ "MRFilterCreaseEdges.h", "MRFilterCreaseEdges_8h.html", "MRFilterCreaseEdges_8h" ],
     [ "MRFinally.h", "MRFinally_8h.html", "MRFinally_8h" ],
     [ "MRFixSelfIntersections.h", "MRMesh_2MRFixSelfIntersections_8h.html", "MRMesh_2MRFixSelfIntersections_8h" ],

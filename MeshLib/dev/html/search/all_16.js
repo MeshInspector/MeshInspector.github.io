@@ -763,7 +763,7 @@ var searchData=
   ['smcolors_760',['smColors',['../structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437',1,'MR::ImproveSamplingSettings']]],
   ['smooth_761',['Smooth',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4',1,'MR::SceneSettings::Smooth'],['../MRObjectLinesHolder_8h.html#a97f9630458efd2e8cfccca5356bd847a',1,'Smooth:&#160;MRObjectLinesHolder.h'],['../namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4',1,'MR::Smooth']]],
   ['smoothconnections_5f_762',['smoothConnections_',['../classMR_1_1ObjectLinesHolder.html#a5e2decefeb68afc04d745403e70da92f',1,'MR::ObjectLinesHolder']]],
-  ['smoothcurvature_763',['smoothCurvature',['../structMR_1_1FillHoleNicelySettings.html#aac4ecae12eb97ad05b204ac14de42cb8',1,'MR::FillHoleNicelySettings']]],
+  ['smoothcurvature_763',['smoothCurvature',['../structMR_1_1FillHoleNicelySettings.html#aac4ecae12eb97ad05b204ac14de42cb8',1,'MR::FillHoleNicelySettings::smoothCurvature'],['../structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9',1,'MRFillHoleNicelyParams::smoothCurvature']]],
   ['smoothmode_764',['smoothMode',['../structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0',1,'MR::SubdivideSettings']]],
   ['smoothregionboundary_765',['smoothRegionBoundary',['../group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf',1,'MR']]],
   ['smoothselection_766',['smoothSelection',['../namespaceMR.html#abf321df1ea6a0a718144b06b477bb154',1,'MR']]],

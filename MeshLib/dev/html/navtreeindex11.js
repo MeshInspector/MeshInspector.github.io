@@ -1,5 +1,16 @@
 var NAVTREEINDEX11 =
 {
+"MRSceneOperations_8h_source.html":[6,0,3,0,0,2,9,85],
+"MRSceneRoot_8h.html":[6,0,3,0,0,2,3,305],
+"MRSceneRoot_8h.html#a4a16b61709f08cfac2280d5b1167bb24":[6,0,3,0,0,2,3,305,1],
+"MRSceneRoot_8h_source.html":[6,0,3,0,0,2,3,305],
+"MRSceneSelectionChange_8h.html":[6,0,3,0,0,2,9,86],
+"MRSceneSelectionChange_8h_source.html":[6,0,3,0,0,2,9,86],
+"MRSceneSettings_8h.html":[6,0,3,0,0,2,3,306],
+"MRSceneSettings_8h_source.html":[6,0,3,0,0,2,3,306],
+"MRSceneStateCheck_8h.html":[6,0,3,0,0,2,9,87],
+"MRSceneStateCheck_8h.html#a1aa52aa577955c12272d65be2a25bf5e":[6,0,3,0,0,2,9,87,10],
+"MRSceneStateCheck_8h.html#ac60866be39596654019ff3af45b501c5":[6,0,3,0,0,2,9,87,12],
 "MRSceneStateCheck_8h.html#ac7eb465c1b7cbbcb8daa25703edc931d":[6,0,3,0,0,2,9,87,11],
 "MRSceneStateCheck_8h_source.html":[6,0,3,0,0,2,9,87],
 "MRSceneTextureGL_8h.html":[6,0,3,0,0,2,9,88],
@@ -238,16 +249,5 @@ var NAVTREEINDEX11 =
 "MRSystem_8h.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba":[6,0,3,0,0,2,3,329,13],
 "MRSystem_8h.html#a5d1ca6e9b05136afa1017b1c60906789":[6,0,3,0,0,2,3,329,5],
 "MRSystem_8h.html#a6804a7415d5f018fa64bf1b533af3d4f":[6,0,3,0,0,2,3,329,20],
-"MRSystem_8h.html#a69dd7a0499b29eb5608d05713b8feb72":[6,0,3,0,0,2,3,329,2],
-"MRSystem_8h.html#a76050fa0c0831ae2d21d1a20914f530d":[6,0,3,0,0,2,3,329,19],
-"MRSystem_8h.html#a77dbe991d4f1d8a2b0ffd3ed1e1320bb":[6,0,3,0,0,2,3,329,15],
-"MRSystem_8h.html#a7b5e5990972490ea4d3803ccca1b3757":[6,0,3,0,0,2,3,329,1],
-"MRSystem_8h.html#a7d7ea607c1d62759b1a6d09f3b68c78f":[6,0,3,0,0,2,3,329,3],
-"MRSystem_8h.html#a8412e0e0223cb8986e09d785220f0aed":[6,0,3,0,0,2,3,329,6],
-"MRSystem_8h.html#a9f6ba5cc665b972c4cec59f7eab2c13e":[6,0,3,0,0,2,3,329,8],
-"MRSystem_8h.html#ab73c3b56aedac827d4d37ceb984ae9e1":[6,0,3,0,0,2,3,329,4],
-"MRSystem_8h.html#abc117ae5bf8ce3683d73b2fc8e37cde1":[6,0,3,0,0,2,3,329,18],
-"MRSystem_8h.html#ac6f40535c1b612f6ce24e70b7ee28a36":[6,0,3,0,0,2,3,329,9],
-"MRSystem_8h.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038":[6,0,3,0,0,2,3,329,14],
-"MRSystem_8h.html#aec820d50ac448217d66131a079fce39a":[6,0,3,0,0,2,3,329,17]
+"MRSystem_8h.html#a69dd7a0499b29eb5608d05713b8feb72":[6,0,3,0,0,2,3,329,2]
 };

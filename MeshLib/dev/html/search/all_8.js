@@ -65,7 +65,7 @@ var searchData=
   ['edgetype_62',['EdgeType',['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0',1,'MR::GridSettings']]],
   ['edgevector_63',['edgeVector',['../structMR_1_1Mesh.html#a19223c76e1742c8cf6a56fd51b5c2c68',1,'MR::Mesh::edgeVector()'],['../structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f',1,'MR::Polyline::edgeVector()']]],
   ['edgeweights_64',['EdgeWeights',['../namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8',1,'MR']]],
-  ['edgeweights_65',['edgeWeights',['../structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79',1,'MR::FillHoleNicelySettings::edgeWeights'],['../structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b',1,'MR::SurfaceManipulationWidget::Settings::edgeWeights']]],
+  ['edgeweights_65',['edgeWeights',['../structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79',1,'MR::FillHoleNicelySettings::edgeWeights'],['../structMRFillHoleNicelyParams.html#af7f128fdb0b8ea8d308549a2112b4a02',1,'MRFillHoleNicelyParams::edgeWeights'],['../structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b',1,'MR::SurfaceManipulationWidget::Settings::edgeWeights']]],
   ['edgewidth_5f_66',['edgeWidth_',['../classMR_1_1ObjectMeshHolder.html#aa1769e8d7559173dc663c5b67a445a07',1,'MR::ObjectMeshHolder']]],
   ['edgewithleft_67',['edgeWithLeft',['../classMR_1_1MeshTopology.html#a75ce403909333e95eca530fcf3d62e2b',1,'MR::MeshTopology']]],
   ['edgewithorg_68',['edgeWithOrg',['../classMR_1_1MeshTopology.html#a9b3a2bd65395c6f2d0aff6bb16c8a3b6',1,'MR::MeshTopology::edgeWithOrg()'],['../classMR_1_1PolylineTopology.html#a2ebdc3893e2fbb0963c302c1361dfe3b',1,'MR::PolylineTopology::edgeWithOrg()']]],

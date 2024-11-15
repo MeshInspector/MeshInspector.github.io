@@ -1,5 +1,17 @@
 var NAVTREEINDEX49 =
 {
+"group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58":[6,0,0,15,1],
+"group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9":[6,0,0,15,2],
+"group__RayBoxIntersectionGroup.html":[6,0,0,0,9],
+"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,1],
+"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,2],
+"group__SerializerGroup.html":[6,0,0,2,15],
+"group__SerializerGroup.html#ga008566c571e968e28ac38c4317a9fbbe":[6,0,0,2,15,17],
+"group__SerializerGroup.html#ga01084ea4b91576f192aeb68017e8e45e":[6,0,0,2,15,47],
+"group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659":[6,0,0,2,15,30],
+"group__SerializerGroup.html#ga07c35f4efe0f243d11910aee401766ef":[6,0,0,2,15,20],
+"group__SerializerGroup.html#ga1155079bf2d53ebd19e08f2223fee2a8":[6,0,0,2,15,21],
+"group__SerializerGroup.html#ga180759b8329e6976e4084837bf87bdb2":[6,0,0,2,15,36],
 "group__SerializerGroup.html#ga2460b57ac19911dbba07d61927a47ece":[6,0,0,2,15,49],
 "group__SerializerGroup.html#ga27c3983bb6c56873da1fcfa8ce4044d8":[6,0,0,2,15,32],
 "group__SerializerGroup.html#ga2991c05216d6e89d4d73f2eb053cd283":[6,0,0,2,15,45],
@@ -237,17 +249,5 @@ var NAVTREEINDEX49 =
 "group__VoxelPathGroup.html":[6,0,0,17,2],
 "group__VoxelPathGroup.html#ga149abd6a892e1284e051e285396c94c6":[6,0,0,17,2,5],
 "group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab":[6,0,0,17,2,3],
-"group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce":[6,0,0,17,2,1],
-"group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79":[6,0,0,17,2,2],
-"group__VoxelPathGroup.html#gad1772070c201609ff1aac3958e6b9005":[6,0,0,17,2,4],
-"group__VoxelPathGroup.html#gaffc0e3988ac89d7c4ed030de11be4b80":[6,0,0,17,2,6],
-"group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9":[6,0,0,17,2,3,1],
-"group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9":[6,0,0,17,2,3,2],
-"group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74":[6,0,0,17,2,3,0],
-"group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4":[6,0,0,17,2,3,3],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a338f1941aaeb45ceefaa84416d2aaddb":[6,0,0,17,2,2,3],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a84f58e01676ac59dfa39f05ab0e4fdaf":[6,0,0,17,2,2,2],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4":[6,0,0,17,2,2,1],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a":[6,0,0,17,2,2,0],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,0,17,2,2,4]
+"group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce":[6,0,0,17,2,1]
 };

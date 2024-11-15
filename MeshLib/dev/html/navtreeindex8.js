@@ -1,5 +1,16 @@
 var NAVTREEINDEX8 =
 {
+"MRMesh_2MRMultiwayICP_8h.html#ab448f2e256aabf3e97eaaef010380fb1":[6,0,3,0,0,2,3,216,6],
+"MRMesh_2MRMultiwayICP_8h.html#acc39cd0582abbbb48612bd904fe74210":[6,0,3,0,0,2,3,216,9],
+"MRMesh_2MRMultiwayICP_8h.html#add4fa046bbf16a56e7eae86658185885":[6,0,3,0,0,2,3,216,8],
+"MRMesh_2MRMultiwayICP_8h.html#ae9eff2bf5026577153e17f3ff0ae801c":[6,0,3,0,0,2,3,216,5],
+"MRMesh_2MRMultiwayICP_8h_source.html":[6,0,3,0,0,2,3,216],
+"MRMesh_2MRPointCloud_8h.html":[6,0,3,0,0,2,3,245],
+"MRMesh_2MRPointCloud_8h_source.html":[6,0,3,0,0,2,3,245],
+"MRMesh_2MRPointOnFace_8h.html":[6,0,3,0,0,2,3,254],
+"MRMesh_2MRPointOnFace_8h_source.html":[6,0,3,0,0,2,3,254],
+"MRMesh_2MRPointsLoad_8h.html":[6,0,3,0,0,2,3,258],
+"MRMesh_2MRPointsLoad_8h_source.html":[6,0,3,0,0,2,3,258],
 "MRMesh_2MRPointsSave_8h.html":[6,0,3,0,0,2,3,261],
 "MRMesh_2MRPointsSave_8h_source.html":[6,0,3,0,0,2,3,261],
 "MRMesh_2MRPrecisePredicates3_8h.html":[6,0,3,0,0,2,3,281],
@@ -238,16 +249,5 @@ var NAVTREEINDEX8 =
 "MRObjectTransformWidget_8h.html":[6,0,3,0,0,2,9,49],
 "MRObjectTransformWidget_8h.html#a424dfa22186e052b06c55ce2655c2e26":[6,0,3,0,0,2,9,49,6],
 "MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6":[6,0,3,0,0,2,9,49,7],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907":[6,0,3,0,0,2,9,49,7,3],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378":[6,0,3,0,0,2,9,49,7,9],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6":[6,0,3,0,0,2,9,49,7,2],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a60ed328e715f75a67c41f2ea5ce48323":[6,0,3,0,0,2,9,49,7,5],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a6428aea23660f83dac6edbd258b67a02":[6,0,3,0,0,2,9,49,7,4],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a6adf97f83acf6453d4a6a4b1070f3754":[6,0,3,0,0,2,9,49,7,0],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a8be92a6218369ec32a9571768fbdf314":[6,0,3,0,0,2,9,49,7,7],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6abbcb0741ee54183dd91df77caff007ec":[6,0,3,0,0,2,9,49,7,8],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6abe0f0f147335df20b0c09a6192ecf447":[6,0,3,0,0,2,9,49,7,6],
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350":[6,0,3,0,0,2,9,49,7,1],
-"MRObjectTransformWidget_8h_source.html":[6,0,3,0,0,2,9,49],
-"MRObjectVoxels_8h.html":[6,0,3,0,0,2,10,14]
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907":[6,0,3,0,0,2,9,49,7,3]
 };

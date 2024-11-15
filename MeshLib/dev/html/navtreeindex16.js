@@ -1,5 +1,17 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1CNCMachineSettings.html#aeec12ba988b385f03ee2ab59df0bdd18":[6,0,1,0,12,130,13],
+"classMR_1_1CNCMachineSettings.html#aeec12ba988b385f03ee2ab59df0bdd18":[6,0,2,0,1,115,13],
+"classMR_1_1CNCMachineSettings.html#aefee9fbee599870c51626aa983b8a978":[6,0,1,0,12,130,11],
+"classMR_1_1CNCMachineSettings.html#aefee9fbee599870c51626aa983b8a978":[6,0,2,0,1,115,11],
+"classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8":[6,0,1,0,12,130,1],
+"classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8":[6,0,2,0,1,115,1],
+"classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,1,0,12,130,14],
+"classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,2,0,1,115,14],
+"classMR_1_1CameraOrientation.html":[6,0,1,0,12,85],
+"classMR_1_1CameraOrientation.html":[6,0,2,0,1,70],
+"classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,1,0,12,85,0],
+"classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,2,0,1,70,0],
 "classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[6,0,1,0,12,85,2],
 "classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[6,0,2,0,1,70,2],
 "classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[6,0,1,0,12,85,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11":[6,0,0,4,22,1],
 "classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542":[6,0,0,4,22,0],
 "classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d":[6,0,0,4,22,3],
-"classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50":[6,0,0,4,22,2],
-"classMR_1_1ChangeSurfaceAction.html":[6,0,0,4,37],
-"classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54":[6,0,0,4,37,4],
-"classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249":[6,0,0,4,37,1],
-"classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d":[6,0,0,4,37,3],
-"classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5":[6,0,0,4,37,2],
-"classMR_1_1ChangeSurfaceAction.html#aea6aeaec06fc16a8b7114feb5bbe7ca0":[6,0,0,4,37,0],
-"classMR_1_1ChangeTextureAction.html":[6,0,0,4,6],
-"classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c":[6,0,0,4,6,0],
-"classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e":[6,0,0,4,6,2],
-"classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[6,0,0,4,6,3],
-"classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152":[6,0,0,4,6,1],
-"classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874":[6,0,0,4,6,5]
+"classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50":[6,0,0,4,22,2]
 };

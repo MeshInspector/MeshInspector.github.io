@@ -721,6 +721,7 @@ var hierarchy =
     [ "MREdgeTri", "structMREdgeTri.html", null ],
     [ "MRFaceId", "structMRFaceId.html", null ],
     [ "MRFillHoleMetric", "structMRFillHoleMetric.html", null ],
+    [ "MRFillHoleNicelyParams", "structMRFillHoleNicelyParams.html", null ],
     [ "MRFillHoleParams", "structMRFillHoleParams.html", null ],
     [ "MRFindProjectionParameters", "structMRFindProjectionParameters.html", null ],
     [ "MRFixSelfIntersectionsSettings", "structMRFixSelfIntersectionsSettings.html", null ],

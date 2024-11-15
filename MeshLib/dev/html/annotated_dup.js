@@ -905,6 +905,7 @@ var annotated_dup =
     [ "MREdgeTri", "structMREdgeTri.html", "structMREdgeTri" ],
     [ "MRFaceId", "structMRFaceId.html", "structMRFaceId" ],
     [ "MRFillHoleMetric", "structMRFillHoleMetric.html", null ],
+    [ "MRFillHoleNicelyParams", "structMRFillHoleNicelyParams.html", "structMRFillHoleNicelyParams" ],
     [ "MRFillHoleParams", "structMRFillHoleParams.html", "structMRFillHoleParams" ],
     [ "MRFindProjectionParameters", "structMRFindProjectionParameters.html", "structMRFindProjectionParameters" ],
     [ "MRFixSelfIntersectionsSettings", "structMRFixSelfIntersectionsSettings.html", "structMRFixSelfIntersectionsSettings" ],

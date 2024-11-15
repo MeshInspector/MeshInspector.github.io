@@ -1,5 +1,16 @@
 var NAVTREEINDEX9 =
 {
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378":[6,0,3,0,0,2,9,49,7,9],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6":[6,0,3,0,0,2,9,49,7,2],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a60ed328e715f75a67c41f2ea5ce48323":[6,0,3,0,0,2,9,49,7,5],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a6428aea23660f83dac6edbd258b67a02":[6,0,3,0,0,2,9,49,7,4],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a6adf97f83acf6453d4a6a4b1070f3754":[6,0,3,0,0,2,9,49,7,0],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a8be92a6218369ec32a9571768fbdf314":[6,0,3,0,0,2,9,49,7,7],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6abbcb0741ee54183dd91df77caff007ec":[6,0,3,0,0,2,9,49,7,8],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6abe0f0f147335df20b0c09a6192ecf447":[6,0,3,0,0,2,9,49,7,6],
+"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350":[6,0,3,0,0,2,9,49,7,1],
+"MRObjectTransformWidget_8h_source.html":[6,0,3,0,0,2,9,49],
+"MRObjectVoxels_8h.html":[6,0,3,0,0,2,10,14],
 "MRObjectVoxels_8h_source.html":[6,0,3,0,0,2,10,14],
 "MRObject_8h.html":[6,0,3,0,0,2,3,221],
 "MRObject_8h_source.html":[6,0,3,0,0,2,3,221],
@@ -238,16 +249,5 @@ var NAVTREEINDEX9 =
 "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af":[6,0,3,0,0,2,6,2,19,1],
 "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101":[6,0,3,0,0,2,6,2,19,0],
 "MRPython_8h.html#a970813ca4d787c0bbe1ca6b1bd231cf9":[6,0,3,0,0,2,6,2,13],
-"MRPython_8h.html#aa16f7f41d780ad6feaed2d9115a5d5fc":[6,0,3,0,0,2,6,2,7],
-"MRPython_8h.html#aa60c1177452c69cf5b8cdab61296d1ce":[6,0,3,0,0,2,6,2,22],
-"MRPython_8h.html#abf106ad4f6e3e81079b7698a30f31e20":[6,0,3,0,0,2,6,2,21],
-"MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae":[6,0,3,0,0,2,6,2,11],
-"MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429":[6,0,3,0,0,2,6,2,14],
-"MRPython_8h.html#ae6956a35fce75d18a07941e975ae07cc":[6,0,3,0,0,2,6,2,16],
-"MRPython_8h_source.html":[6,0,3,0,0,2,6,2],
-"MRQuadraticForm_8h.html":[6,0,3,0,0,2,3,287],
-"MRQuadraticForm_8h_source.html":[6,0,3,0,0,2,3,287],
-"MRQuaternion_8h.html":[6,0,3,0,0,2,3,288],
-"MRQuaternion_8h_source.html":[6,0,3,0,0,2,3,288],
-"MRRadiusMeasurementObject_8h.html":[6,0,3,0,0,2,3,289]
+"MRPython_8h.html#aa16f7f41d780ad6feaed2d9115a5d5fc":[6,0,3,0,0,2,6,2,7]
 };
