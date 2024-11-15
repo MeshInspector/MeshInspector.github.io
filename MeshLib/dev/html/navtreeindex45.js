@@ -126,6 +126,7 @@ var NAVTREEINDEX45 =
 "classPythonStreamRedirector.html":[6,0,2,0,53],
 "classPythonStreamRedirector.html#a63f9cef709a73596fe385023ffa5a91a":[6,0,2,0,53,0],
 "classPythonStreamRedirector.html#aed4fdb47ff4d02fe070e63c1df8af487":[6,0,2,0,53,1],
+"classUnifiedPythonStream.html":[6,0,2,0,54],
 "classes.html":[6,0,2,1],
 "conceptMR_1_1AnyVisualizeMaskEnumType.html":[6,0,0,11,2,0],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[6,0,1,0,12,6,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "functions_type_x.html":[6,0,2,3,3,20],
 "functions_u.html":[6,0,2,3,0,21],
 "functions_v.html":[6,0,2,3,0,22],
-"functions_vars.html":[6,0,2,3,2],
-"functions_vars.html":[6,0,2,3,2,0]
+"functions_vars.html":[6,0,2,3,2]
 };

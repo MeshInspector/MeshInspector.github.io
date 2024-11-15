@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1PlanarTriangulation.html#aaae55b5f79adbd80cfe0f6f147069953":[6,0,1,0,12,24,10],
 "namespaceMR_1_1PlanarTriangulation.html#ad078fde77ddac53c2c051b56888617e1":[6,0,1,0,12,24,17],
 "namespaceMR_1_1PlanarTriangulation.html#adeb4ce509fc66338b9d870c64aefde19":[6,0,1,0,12,24,15],
 "namespaceMR_1_1PointCloudComponents.html":[6,0,1,0,12,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "namespacemembers_q.html":[6,0,1,1,0,14],
 "namespacemembers_r.html":[6,0,1,1,0,15],
 "namespacemembers_s.html":[6,0,1,1,0,16],
-"namespacemembers_t.html":[6,0,1,1,0,17],
-"namespacemembers_type.html":[6,0,1,1,3]
+"namespacemembers_t.html":[6,0,1,1,0,17]
 };

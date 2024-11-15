@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structMRRemeshSettings.html":[6,0,2,0,45],
 "structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9":[6,0,2,0,45,7],
 "structMRRemeshSettings.html#a2926173237cdf60eb4ba2053493933c2":[6,0,2,0,45,6],
 "structMRRemeshSettings.html#a2b2343d629b9543f0524ef893cd59aee":[6,0,2,0,45,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,1,0,12,67,6],
 "structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,2,0,1,52,6],
 "structMR_1_1BasicUiRenderTask.html":[6,0,1,0,12,68],
-"structMR_1_1BasicUiRenderTask.html":[6,0,2,0,1,53],
-"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[6,0,1,0,12,68,3]
+"structMR_1_1BasicUiRenderTask.html":[6,0,2,0,1,53]
 };

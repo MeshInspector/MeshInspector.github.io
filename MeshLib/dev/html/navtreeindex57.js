@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespacemembers_type.html":[6,0,1,1,3],
 "namespacemembers_u.html":[6,0,1,1,0,18],
 "namespacemembers_v.html":[6,0,1,1,0,19],
 "namespacemembers_vars.html":[6,0,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMRPointPair.html#aaf071fe8e6ec54c8e173d7c49c968b10":[6,0,2,0,43,3],
 "structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,43,2],
 "structMRRegionId.html":[6,0,2,0,44],
-"structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,44,0],
-"structMRRemeshSettings.html":[6,0,2,0,45]
+"structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,44,0]
 };

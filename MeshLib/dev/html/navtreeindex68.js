@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MeshPoint.html":[6,0,2,0,1,326],
 "structMR_1_1MeshPoint.html#a33ee706b3bfff045b2ba04b21a5c7f5a":[6,0,1,0,12,341,0],
 "structMR_1_1MeshPoint.html#a33ee706b3bfff045b2ba04b21a5c7f5a":[6,0,2,0,1,326,0],
 "structMR_1_1MeshPoint.html#a3a24b45014eebfd444ca4f0e15a72c3d":[6,0,1,0,12,341,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a13090f3a2bfe03345bd7100d2c634d7f":[6,0,1,0,12,363,1],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a13090f3a2bfe03345bd7100d2c634d7f":[6,0,2,0,1,348,1],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a33ab7a3bb2d0ed46b1856e4ba276357c":[6,0,1,0,12,363,4],
-"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a33ab7a3bb2d0ed46b1856e4ba276357c":[6,0,2,0,1,348,4],
-"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a8e7aa7e5a8d5ad0d936565bfac19539e":[6,0,1,0,12,363,3]
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a33ab7a3bb2d0ed46b1856e4ba276357c":[6,0,2,0,1,348,4]
 };

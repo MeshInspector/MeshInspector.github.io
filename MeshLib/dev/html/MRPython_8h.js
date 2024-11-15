@@ -1,5 +1,6 @@
 var MRPython_8h =
 [
+    [ "UnifiedPythonStream", "classUnifiedPythonStream.html", null ],
     [ "PythonStreamRedirector< T >", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ],
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", "classMR_1_1PythonExport" ],
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", "structMR_1_1PythonExport_1_1ModuleData" ],

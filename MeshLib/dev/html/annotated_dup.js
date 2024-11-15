@@ -944,6 +944,7 @@ var annotated_dup =
     [ "MRVector3f", "structMRVector3f.html", "structMRVector3f" ],
     [ "MRVertId", "structMRVertId.html", "structMRVertId" ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ],
+    [ "UnifiedPythonStream", "classUnifiedPythonStream.html", null ],
     [ "vector_ref_wrapper", "structvector__ref__wrapper.html", "structvector__ref__wrapper" ],
     [ "vector_wrapper", "structvector__wrapper.html", "structvector__wrapper" ],
     [ "vector_wrapper_base", "structvector__wrapper__base.html", "structvector__wrapper__base" ]
