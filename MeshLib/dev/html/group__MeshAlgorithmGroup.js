@@ -13,12 +13,12 @@ var group__MeshAlgorithmGroup =
       [ "any", "classMR_1_1MeshDiff.html#a75b8d7d561c4183ee307a3c1f1d85ba1", null ],
       [ "applyAndSwap", "classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145", null ]
     ] ],
-    [ "MR::MeshPart", "structMR_1_1MeshPart.html", [
-      [ "MeshPart", "structMR_1_1MeshPart.html#ac49fe73418dd67b25cae5a1275ca8e0f", null ],
-      [ "MeshPart", "structMR_1_1MeshPart.html#a266e2df23b3c4a8bc85fed8cfcb78456", null ],
-      [ "operator=", "structMR_1_1MeshPart.html#a15667966e932e10f8c9dddd1fd9d3fdd", null ],
-      [ "mesh", "structMR_1_1MeshPart.html#a8d29c7abb0e545a268787b394006ac29", null ],
-      [ "region", "structMR_1_1MeshPart.html#a36c49e6f3b4a9fe3204d6e253d9aead0", null ]
+    [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", [
+      [ "MeshRegion", "structMR_1_1MeshRegion.html#a35b39c1790f734aa2ed34e68281a8a04", null ],
+      [ "MeshRegion", "structMR_1_1MeshRegion.html#ae376220ccfe757dc78e7edd18501521e", null ],
+      [ "operator=", "structMR_1_1MeshRegion.html#a8fbe26bcbe7891c7be47fb330920e3b4", null ],
+      [ "mesh", "structMR_1_1MeshRegion.html#ad1bf8f740e649b73d3a93bd0eba5e609", null ],
+      [ "region", "structMR_1_1MeshRegion.html#a020e8c1bd5c2c3c5186ff4680d8004b0", null ]
     ] ],
     [ "MR::meshToPointCloud", "group__MeshAlgorithmGroup.html#gac05a6a40f6f3f078e9ceb0870a399516", null ],
     [ "MR::straightenBoundary", "group__MeshAlgorithmGroup.html#gabd2f9988108fabef913d835c6c1385cc", null ]

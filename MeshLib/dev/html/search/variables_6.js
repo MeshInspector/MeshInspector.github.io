@@ -2,7 +2,7 @@ var searchData=
 [
   ['f_0',['f',['../structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a',1,'MR::PackMapping::f'],['../structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b',1,'MR::MeshBuilder::Triangle::f'],['../structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d',1,'MR::Dirty::f']]],
   ['face_1',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face'],['../structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c',1,'MR::PointOnObject::face'],['../structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b',1,'MROneMeshIntersection::face'],['../structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252',1,'MRPointOnFace::face']]],
-  ['facecolors_2',['faceColors',['../structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363',1,'MR::MeshAttributesToUpdate']]],
+  ['facecolors_2',['faceColors',['../structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363',1,'MR::MeshAttributesToUpdate::faceColors'],['../structMR_1_1MeshAttributes.html#a65ddf234b3cccc7bd0a94ad71b794e86',1,'MR::MeshAttributes::faceColors']]],
   ['facecolorstex_5f_3',['faceColorsTex_',['../classMR_1_1RenderMeshObject.html#af99f6b1103fb8791d9d8a2fbd0275213',1,'MR::RenderMeshObject']]],
   ['faceids_4',['faceIds',['../structMR_1_1GridSettings.html#a790adf53fc23a7b8fe0be9674ebb70af',1,'MR::GridSettings']]],
   ['faceindicessize_5f_5',['faceIndicesSize_',['../classMR_1_1RenderMeshObject.html#a7c197e5a47c0adda4d0e19fe67bc8ad6',1,'MR::RenderMeshObject']]],

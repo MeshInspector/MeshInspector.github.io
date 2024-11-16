@@ -5,7 +5,7 @@ var searchData=
   ['face_2',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face'],['../structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c',1,'MR::PointOnObject::face'],['../structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b',1,'MROneMeshIntersection::face'],['../structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252',1,'MRPointOnFace::face']]],
   ['facecapacity_3',['faceCapacity',['../classMR_1_1MeshTopology.html#a061c9ff212341377b260f4fc4881f378',1,'MR::MeshTopology']]],
   ['facecenters_4',['FaceCenters',['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff',1,'MR::SurfacePointWidget']]],
-  ['facecolors_5',['faceColors',['../structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363',1,'MR::MeshAttributesToUpdate']]],
+  ['facecolors_5',['faceColors',['../structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363',1,'MR::MeshAttributesToUpdate::faceColors'],['../structMR_1_1MeshAttributes.html#a65ddf234b3cccc7bd0a94ad71b794e86',1,'MR::MeshAttributes::faceColors']]],
   ['facecolorstex_5f_6',['faceColorsTex_',['../classMR_1_1RenderMeshObject.html#af99f6b1103fb8791d9d8a2fbd0275213',1,'MR::RenderMeshObject']]],
   ['facedistancessettings_7',['FaceDistancesSettings',['../structMR_1_1FaceDistancesSettings.html',1,'MR']]],
   ['faceface_8',['FaceFace',['../structMR_1_1FaceFace.html',1,'MR::FaceFace'],['../structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3',1,'MR::FaceFace::FaceFace(FaceId a, FaceId b)'],['../structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc',1,'MR::FaceFace::FaceFace()']]],

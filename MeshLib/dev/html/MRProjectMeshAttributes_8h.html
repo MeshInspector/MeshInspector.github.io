@@ -30,7 +30,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib Documentation: Member List</title>
+<title>MeshLib Documentation: MRProjectMeshAttributes.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -116,7 +116,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('structMR_1_1MeshPart.html',''); initResizable(true); });
+$(function(){initNavTree('MRProjectMeshAttributes_8h.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -142,22 +142,44 @@ $(function(){initNavTree('structMR_1_1MeshPart.html',''); initResizable(true); }
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MR::MeshPart Member List</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRProjectMeshAttributes.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1MeshPart.html#a8d29c7abb0e545a268787b394006ac29">mesh</a></td><td class="entry"><a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1MeshPart.html#ac49fe73418dd67b25cae5a1275ca8e0f">MeshPart</a>(const Mesh &amp;m, const FaceBitSet *bs=nullptr) noexcept</td><td class="entry"><a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1MeshPart.html#a266e2df23b3c4a8bc85fed8cfcb78456">MeshPart</a>(const MeshPart &amp;other) noexcept=default</td><td class="entry"><a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMR_1_1MeshPart.html#a15667966e932e10f8c9dddd1fd9d3fdd">operator=</a>(const MeshPart &amp;other) noexcept</td><td class="entry"><a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMR_1_1MeshPart.html#a36c49e6f3b4a9fe3204d6e253d9aead0">region</a></td><td class="entry"><a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="textblock"><code>#include &quot;<a class="el" href="MRViewerFwd_8h_source.html">MRViewerFwd.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="MRMesh_2MRVector_8h_source.html">MRMesh/MRVector.h</a>&quot;</code><br />
+<code>#include &lt;optional&gt;</code><br />
+</div>
+<p><a href="MRProjectMeshAttributes_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshAttributes.html">MR::MeshAttributes</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afa9b03e8b298ae2f3795db19abdbbcec" id="r_afa9b03e8b298ae2f3795db19abdbbcec"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1MeshAttributes.html">MeshAttributes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afa9b03e8b298ae2f3795db19abdbbcec">MR::projectMeshAttributes</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;oldMeshObj, const MeshPart &amp;newMeshPart, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:afa9b03e8b298ae2f3795db19abdbbcec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63afe360ace1d4556b647e6069a02502" id="r_a63afe360ace1d4556b647e6069a02502"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a63afe360ace1d4556b647e6069a02502">MR::emplaceMeshAttributes</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; objectMesh, <a class="el" href="structMR_1_1MeshAttributes.html">MeshAttributes</a> &amp;&amp;newAttribute)</td></tr>
+<tr class="memdesc:a63afe360ace1d4556b647e6069a02502"><td class="mdescLeft">&#160;</td><td class="mdescRight">set new mesh attributes and saving the history of changing mesh attributes  <br /></td></tr>
+<tr class="separator:a63afe360ace1d4556b647e6069a02502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRProjectMeshAttributes_8h.html">MRProjectMeshAttributes.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

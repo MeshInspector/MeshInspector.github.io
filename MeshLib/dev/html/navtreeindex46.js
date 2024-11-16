@@ -1,5 +1,9 @@
 var NAVTREEINDEX46 =
 {
+"functions_type_t.html":[6,0,2,3,3,17],
+"functions_type_u.html":[6,0,2,3,3,18],
+"functions_type_v.html":[6,0,2,3,3,19],
+"functions_type_x.html":[6,0,2,3,3,20],
 "functions_u.html":[6,0,2,3,0,21],
 "functions_v.html":[6,0,2,3,0,22],
 "functions_vars.html":[6,0,2,3,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX46 =
 "group__BasicStructuresGroup.html#ga7c6031335bfc2515993437f951485ad1":[6,0,0,18,14],
 "group__BasicStructuresGroup.html#ga7d757a1fbd48e0e4c6268f3637ba631c":[6,0,0,18,16],
 "group__BasicStructuresGroup.html#ga87e6e60c5605c5450f4bd815128674c9":[6,0,0,18,18],
-"group__BasicStructuresGroup.html#gaa47a1ff80bfc2c9f180c4983cf67bdfc":[6,0,0,18,12],
-"group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915":[6,0,0,18,6],
-"group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab":[6,0,0,18,20],
-"group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862":[6,0,0,18,19],
-"group__BestFitGroup.html":[6,0,0,0,1]
+"group__BasicStructuresGroup.html#gaa47a1ff80bfc2c9f180c4983cf67bdfc":[6,0,0,18,12]
 };
