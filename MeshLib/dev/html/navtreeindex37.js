@@ -1,5 +1,12 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1SceneObjectsListDrawer.html#a4f267cedf9004a7e433f5c5c04665172":[6,0,2,0,1,547,19],
+"classMR_1_1SceneObjectsListDrawer.html#a5e3149bb263fd382fd8bf09589dfb149":[6,0,1,0,12,562,23],
+"classMR_1_1SceneObjectsListDrawer.html#a5e3149bb263fd382fd8bf09589dfb149":[6,0,2,0,1,547,23],
+"classMR_1_1SceneObjectsListDrawer.html#a64272e1877c967ecf67cf291b518aa25":[6,0,1,0,12,562,24],
+"classMR_1_1SceneObjectsListDrawer.html#a64272e1877c967ecf67cf291b518aa25":[6,0,2,0,1,547,24],
+"classMR_1_1SceneObjectsListDrawer.html#a79c0a6de81ce6010a62df31b12a203c7":[6,0,1,0,12,562,16],
+"classMR_1_1SceneObjectsListDrawer.html#a79c0a6de81ce6010a62df31b12a203c7":[6,0,2,0,1,547,16],
 "classMR_1_1SceneObjectsListDrawer.html#a7d2bd6811f26a83ed152c93732753238":[6,0,1,0,12,562,13],
 "classMR_1_1SceneObjectsListDrawer.html#a7d2bd6811f26a83ed152c93732753238":[6,0,2,0,1,547,13],
 "classMR_1_1SceneObjectsListDrawer.html#a87100a0f8079f7712cae2c150a6a9ed9":[6,0,1,0,12,562,26],
@@ -242,12 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae9017664588010860a92ceb5f8fcb824":[6,0,1,0,12,586,0,3],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae9017664588010860a92ceb5f8fcb824":[6,0,2,0,1,571,0,3],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,12,586,0,5],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,571,0,5],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aa5f3104ebb87b4497658882eaf9511cc":[6,0,1,0,12,586,1],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aa5f3104ebb87b4497658882eaf9511cc":[6,0,2,0,1,571,1],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aab1e4ca9d8717e7092bf07b4ff40434a":[6,0,1,0,12,586,2],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aab1e4ca9d8717e7092bf07b4ff40434a":[6,0,2,0,1,571,2],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aab89c7210fc7948e5599a21d6d9eb5a2":[6,0,1,0,12,586,3],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aab89c7210fc7948e5599a21d6d9eb5a2":[6,0,2,0,1,571,3],
-"classMR_1_1ShadowsGL.html":[6,0,1,0,12,589]
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,571,0,5]
 };

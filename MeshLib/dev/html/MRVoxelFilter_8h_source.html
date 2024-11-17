@@ -30,7 +30,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib Documentation: Namespace Members</title>
+<title>MeshLib Documentation: MRVoxelFilter.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -116,7 +116,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('namespacemembers_func_v.html',''); initResizable(true); });
+$(function(){initNavTree('MRVoxelFilter_8h_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -141,34 +141,45 @@ $(function(){initNavTree('namespacemembers_func_v.html',''); initResizable(true)
 </div>
 </div>
 
+<div class="header">
+  <div class="headertitle"><div class="title">MRVoxelFilter.h</div></div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all namespace functions with links to the namespace documentation for each function:</div>
-
-<h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
-<li>valueToImGuiFormatString()&#160;:&#160;<a class="el" href="namespaceMR.html#a888aed091b9c64c5a26d9490cd820f89">MR</a></li>
-<li>valueToString()&#160;:&#160;<a class="el" href="namespaceMR.html#a4d3f8a6d1d7a0498aa353e88c7456182">MR</a></li>
-<li>vdbVolumeToSimpleVolume()&#160;:&#160;<a class="el" href="namespaceMR.html#a0d8e39754438588fbde8b091279db752">MR</a></li>
-<li>vdbVolumeToSimpleVolumeNorm()&#160;:&#160;<a class="el" href="namespaceMR.html#a7c6e921b59b28810967128b1e54c4a51">MR</a></li>
-<li>vdbVolumeToSimpleVolumeU16()&#160;:&#160;<a class="el" href="namespaceMR.html#a2d250c00f768edc4ac0ae283ac571ba4">MR</a></li>
-<li>Vector3&lt; bool &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#afa84284f3a9ac1e8655a99b2ec657a92">MR</a></li>
-<li>Vector3&lt; long long &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#a134ccd7729d32b2a19d5ec49fe0db32c">MR</a></li>
-<li>vertexAttributeGradient()&#160;:&#160;<a class="el" href="namespaceMR.html#a293cd8e2736e78af90cf61be0eb867e6">MR</a></li>
-<li>vertexPosEqualNeiAreas()&#160;:&#160;<a class="el" href="group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR</a></li>
-<li>verticesGridSampling()&#160;:&#160;<a class="el" href="namespaceMR.html#a1f09dea53bc42dd20b0c49da65f93de4">MR</a></li>
-<li>vertMapsComposition()&#160;:&#160;<a class="el" href="group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733">MR</a></li>
-<li>visitScalarType()&#160;:&#160;<a class="el" href="namespaceMR.html#ae86505f58081c90fd8f92538bff1673b">MR</a></li>
-<li>volumeToMeshByParts()&#160;:&#160;<a class="el" href="namespaceMR.html#ae7cf10a1862176d00de13d2fa27371b9">MR</a></li>
-<li>voxelFilter()&#160;:&#160;<a class="el" href="namespaceMR.html#ac3bf4206e91056f1ca94f4185776c8d1">MR</a></li>
-<li>voxelizeAndComputeVolume()&#160;:&#160;<a class="el" href="namespaceMR.html#ac8ef400cadc6cad51471380469977449">MR</a></li>
-<li>voxelsApplyTransform()&#160;:&#160;<a class="el" href="namespaceMR.html#a20f0b2205cdb76cd4affa5aa0a580155">MR</a></li>
-<li>voxelsExponentMetric()&#160;:&#160;<a class="el" href="group__VoxelPathGroup.html#ga149abd6a892e1284e051e285396c94c6">MR</a></li>
-<li>voxelsSumDiffsMetric()&#160;:&#160;<a class="el" href="group__VoxelPathGroup.html#gaffc0e3988ac89d7c4ed030de11be4b80">MR</a></li>
-</ul>
-</div><!-- contents -->
+<a href="MRVoxelFilter_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730a">    9</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730a">VoxelFilterType</a> : <span class="keywordtype">int</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_enumvalue" href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2">Median</a>,</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_enumvalue" href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d">Mean</a>,</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_enumvalue" href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d">Gaussian</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>};</div>
+</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespaceMR.html#ac3bf4206e91056f1ca94f4185776c8d1">   19</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume <a class="code hl_function" href="namespaceMR.html#ac3bf4206e91056f1ca94f4185776c8d1">voxelFilter</a>( <span class="keyword">const</span> VdbVolume&amp; volume, <a class="code hl_enumeration" href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730a">VoxelFilterType</a> type, <span class="keywordtype">int</span> <a class="code hl_function" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a> );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:13</div></div>
+<div class="ttc" id="agroup__BoxGroup_html_ga03ccb991cf0d9c433fd5a054a5d026af"><div class="ttname"><a href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">MR::width</a></div><div class="ttdeci">auto width(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along x axis</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:247</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a8e520c62ea91e9695f96c3e9340d730a"><div class="ttname"><a href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730a">MR::VoxelFilterType</a></div><div class="ttdeci">VoxelFilterType</div><div class="ttdef"><b>Definition</b> MRVoxelFilter.h:10</div></div>
+<div class="ttc" id="anamespaceMR_html_a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d"><div class="ttname"><a href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d">MR::VoxelFilterType::Mean</a></div><div class="ttdeci">@ Mean</div></div>
+<div class="ttc" id="anamespaceMR_html_a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2"><div class="ttname"><a href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2">MR::VoxelFilterType::Median</a></div><div class="ttdeci">@ Median</div></div>
+<div class="ttc" id="anamespaceMR_html_a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d"><div class="ttname"><a href="namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d">MR::VoxelFilterType::Gaussian</a></div><div class="ttdeci">@ Gaussian</div></div>
+<div class="ttc" id="anamespaceMR_html_ac3bf4206e91056f1ca94f4185776c8d1"><div class="ttname"><a href="namespaceMR.html#ac3bf4206e91056f1ca94f4185776c8d1">MR::voxelFilter</a></div><div class="ttdeci">MRVOXELS_API VdbVolume voxelFilter(const VdbVolume &amp;volume, VoxelFilterType type, int width)</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><a class="el" href="MRVoxelFilter_8h.html">MRVoxelFilter.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

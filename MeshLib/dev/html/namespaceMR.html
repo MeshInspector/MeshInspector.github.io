@@ -2713,6 +2713,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512">YZ</a> = 19
  }</td></tr>
 <tr class="separator:ae1af7aec8f28c8e85182ca94f5802435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e520c62ea91e9695f96c3e9340d730a" id="r_a8e520c62ea91e9695f96c3e9340d730a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e520c62ea91e9695f96c3e9340d730a">VoxelFilterType</a> : int { <a class="el" href="#a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2">Median</a>
+, <a class="el" href="#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d">Mean</a>
+, <a class="el" href="#a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d">Gaussian</a>
+ }</td></tr>
+<tr class="separator:a8e520c62ea91e9695f96c3e9340d730a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga85e60c553cc81b298c4bfeac4a623b79" id="r_ga85e60c553cc81b298c4bfeac4a623b79"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79">QuarterBit</a> : char { <br />
 &#160;&#160;<a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a">QuarterBit::LeftLeft</a> = 0b1
 , <a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4">QuarterBit::LeftRight</a> = 0b10
@@ -5588,6 +5593,8 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:gad44e7dfa9a22ec4a0c94232c1791b7d2" id="r_gad44e7dfa9a22ec4a0c94232c1791b7d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html#gad44e7dfa9a22ec4a0c94232c1791b7d2">segmentVolume</a> (const VdbVolume &amp;volume, const std::vector&lt; std::pair&lt; Vector3f, Vector3f &gt; &gt; &amp;pairs, const <a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a> &amp;params=<a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a>())</td></tr>
 <tr class="memdesc:gad44e7dfa9a22ec4a0c94232c1791b7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple segment volume.  <br /></td></tr>
 <tr class="separator:gad44e7dfa9a22ec4a0c94232c1791b7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bf4206e91056f1ca94f4185776c8d1" id="r_ac3bf4206e91056f1ca94f4185776c8d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3bf4206e91056f1ca94f4185776c8d1">voxelFilter</a> (const VdbVolume &amp;volume, <a class="el" href="#a8e520c62ea91e9695f96c3e9340d730a">VoxelFilterType</a> type, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>)</td></tr>
+<tr class="separator:ac3bf4206e91056f1ca94f4185776c8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaaebc49a422252db86351ce55dc91bef" id="r_gaaaebc49a422252db86351ce55dc91bef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VoxelBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef">segmentVolumeByGraphCut</a> (const SimpleVolume &amp;densityVolume, float k, const VoxelBitSet &amp;sourceSeeds, const VoxelBitSet &amp;sinkSeeds, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:gaaaebc49a422252db86351ce55dc91bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment voxels of given volume on two sets using graph-cut, returning source set.  <br /></td></tr>
 <tr class="separator:gaaaebc49a422252db86351ce55dc91bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -9604,6 +9611,33 @@ template&lt;typename Volume &gt; </div>
 <tr><td class="fieldname"><a id="ad9e7a49998c5eecad26ffc58feb2a29aa4f752f80e660d3b1df1b9d0a26f74145" name="ad9e7a49998c5eecad26ffc58feb2a29aa4f752f80e660d3b1df1b9d0a26f74145"></a>meters3&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69" name="ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69"></a>inches3&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55" name="ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55"></a>_count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a8e520c62ea91e9695f96c3e9340d730a" name="a8e520c62ea91e9695f96c3e9340d730a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e520c62ea91e9695f96c3e9340d730a">&#9670;&#160;</a></span>VoxelFilterType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a8e520c62ea91e9695f96c3e9340d730a">MR::VoxelFilterType</a> : int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2" name="a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2"></a>Median&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d" name="a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d"></a>Mean&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d" name="a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d"></a>Gaussian&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -30154,6 +30188,39 @@ template&lt;typename Volume &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a generated mesh or an error string </dd></dl>
+
+</div>
+</div>
+<a id="ac3bf4206e91056f1ca94f4185776c8d1" name="ac3bf4206e91056f1ca94f4185776c8d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3bf4206e91056f1ca94f4185776c8d1">&#9670;&#160;</a></span>voxelFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume MR::voxelFilter </td>
+          <td>(</td>
+          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a8e520c62ea91e9695f96c3e9340d730a">VoxelFilterType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Performs voxels filtering. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type of fitler </td></tr>
+    <tr><td class="paramname">width</td><td>Width of the filtering window, must be an odd number greater or equal to 1. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -1432,6 +1432,11 @@ var namespaceMR =
       [ "inches3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69", null ],
       [ "_count", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
+    [ "VoxelFilterType", "namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730a", [
+      [ "Median", "namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2", null ],
+      [ "Mean", "namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d", null ],
+      [ "Gaussian", "namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d", null ]
+    ] ],
     [ "WrapType", "namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c", [
       [ "Repeat", "namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8", null ],
       [ "Mirror", "namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
@@ -2663,6 +2668,7 @@ var namespaceMR =
     [ "vertMapsComposition", "group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733", null ],
     [ "visitScalarType", "namespaceMR.html#ae86505f58081c90fd8f92538bff1673b", null ],
     [ "volumeToMeshByParts", "namespaceMR.html#ae7cf10a1862176d00de13d2fa27371b9", null ],
+    [ "voxelFilter", "namespaceMR.html#ac3bf4206e91056f1ca94f4185776c8d1", null ],
     [ "voxelizeAndComputeVolume", "namespaceMR.html#ac8ef400cadc6cad51471380469977449", null ],
     [ "voxelsApplyTransform", "namespaceMR.html#a20f0b2205cdb76cd4affa5aa0a580155", null ],
     [ "voxelsExponentMetric", "group__VoxelPathGroup.html#ga149abd6a892e1284e051e285396c94c6", null ],

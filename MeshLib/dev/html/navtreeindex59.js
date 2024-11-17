@@ -1,5 +1,17 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[6,0,2,0,1,52,3],
+"structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[6,0,1,0,12,67,5],
+"structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[6,0,2,0,1,52,5],
+"structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[6,0,1,0,12,67,2],
+"structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[6,0,2,0,1,52,2],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,1,0,12,67,0],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,2,0,1,52,0],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,1,0,12,67,0,2],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,2,0,1,52,0,2],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[6,0,1,0,12,67,0,3],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[6,0,2,0,1,52,0,3],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,12,67,0,0],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,2,0,1,52,0,0],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[6,0,1,0,12,67,0,1],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[6,0,2,0,1,52,0,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[6,0,0,16,3,0,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[6,0,0,16,3,0,0],
-"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,0,2],
-"structMR_1_1Cone3ApproximationParams.html":[6,0,1,0,12,139],
-"structMR_1_1Cone3ApproximationParams.html":[6,0,2,0,1,124],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,1,0,12,139,2],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,2,0,1,124,2],
-"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,1,0,12,139,1],
-"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,2,0,1,124,1],
-"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,1,0,12,139,3],
-"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,2,0,1,124,3],
-"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,1,0,12,139,0],
-"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,2,0,1,124,0],
-"structMR_1_1ConeFittingFunctor.html":[6,0,1,0,12,140],
-"structMR_1_1ConeFittingFunctor.html":[6,0,2,0,1,125]
+"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,0,2]
 };
