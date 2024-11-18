@@ -163,10 +163,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga94134d6a12381a36151563fe8472f818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary.  <br /></td></tr>
 <tr class="separator:ga94134d6a12381a36151563fe8472f818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92dbf357e425dd6e8d7f76ab544250c5" id="r_ga92dbf357e425dd6e8d7f76ab544250c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92dbf357e425dd6e8d7f76ab544250c5">MR::surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; EdgeId &gt; includeEdges, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;edgeMetric, const Vector3f &amp;dir)</td></tr>
-<tr class="memdesc:ga92dbf357e425dd6e8d7f76ab544250c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric.  <br /></td></tr>
+<tr class="memdesc:ga92dbf357e425dd6e8d7f76ab544250c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric. The algorithm assumes that input edges can be projected on the plane orthogonal to given direction, then the center point of all input edges is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input edges.  <br /></td></tr>
 <tr class="separator:ga92dbf357e425dd6e8d7f76ab544250c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0f96f1d3fde9a79a2d6925cf6ba77f8d" id="r_ga0f96f1d3fde9a79a2d6925cf6ba77f8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f96f1d3fde9a79a2d6925cf6ba77f8d">MR::surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; VertId &gt; keyVertices, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;edgeMetric, const Vector3f &amp;dir)</td></tr>
-<tr class="memdesc:ga0f96f1d3fde9a79a2d6925cf6ba77f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric.  <br /></td></tr>
+<tr class="memdesc:ga0f96f1d3fde9a79a2d6925cf6ba77f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric. The algorithm assumes that input vertices can be projected on the plane orthogonal to given direction, then the center point of all input vertices is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input vertices.  <br /></td></tr>
 <tr class="separator:ga0f96f1d3fde9a79a2d6925cf6ba77f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -321,10 +321,10 @@ After</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric. </p>
+<p>Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric. The algorithm assumes that input edges can be projected on the plane orthogonal to given direction, then the center point of all input edges is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input edges. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">includeEdges</td><td>contain all edges that must be present in the returned loop, probably with reversed direction (should have at least 2 elements) </td></tr>
+    <tr><td class="paramname">includeEdges</td><td>contain all edges in arbitrary order that must be present in the returned loop, probably with reversed direction (should have at least 2 elements) </td></tr>
     <tr><td class="paramname">edgeMetric</td><td>returned loop will minimize the sum of this metric </td></tr>
     <tr><td class="paramname">dir</td><td>direction approximately orthogonal to the loop </td></tr>
   </table>
@@ -370,10 +370,10 @@ After</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric. </p>
+<p>Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric. The algorithm assumes that input vertices can be projected on the plane orthogonal to given direction, then the center point of all input vertices is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input vertices. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keyVertices</td><td>contain all vertices that returned loop must pass (should have at least 2 elements) </td></tr>
+    <tr><td class="paramname">keyVertices</td><td>contain all vertices in arbitrary order that returned loop must pass (should have at least 2 elements) </td></tr>
     <tr><td class="paramname">edgeMetric</td><td>returned loop will minimize the sum of this metric </td></tr>
     <tr><td class="paramname">dir</td><td>direction approximately orthogonal to the loop </td></tr>
   </table>
