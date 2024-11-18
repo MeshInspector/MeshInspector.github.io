@@ -14,7 +14,7 @@ var MRMeshC_2MRMultiwayICP_8h =
     [ "mrMultiWayICPGetMeanSqDistToPoint", "MRMeshC_2MRMultiwayICP_8h.html#a8ef4ac830ddb4ca18e64bf4bf176ff8e", null ],
     [ "mrMultiWayICPGetNumActivePairs", "MRMeshC_2MRMultiwayICP_8h.html#afc3b00fe6656a7dd41120669e44cc98d", null ],
     [ "mrMultiWayICPGetNumSamples", "MRMeshC_2MRMultiwayICP_8h.html#a8c74b1a33e19cc9f3bf1b3db8d360dda", null ],
-    [ "mrMultiwayICPNew", "MRMeshC_2MRMultiwayICP_8h.html#a3734599d808ed4116719ece0cc1fb568", null ],
+    [ "mrMultiwayICPNew", "MRMeshC_2MRMultiwayICP_8h.html#a648c03fc537414e24305e6c1e096f7f9", null ],
     [ "mrMultiwayICPResamplePoints", "MRMeshC_2MRMultiwayICP_8h.html#a370728b4ff1bad3f7c023f41d3bf6e8e", null ],
     [ "mrMultiwayIcpSamplingParametersNew", "MRMeshC_2MRMultiwayICP_8h.html#a7eff8121b14945da58553ee4b570f7cd", null ],
     [ "mrMultiwayICPSetParams", "MRMeshC_2MRMultiwayICP_8h.html#a98f1d2972eb9f1c59fa786e91fada290", null ],

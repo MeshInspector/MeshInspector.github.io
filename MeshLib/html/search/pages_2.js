@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['c_20samples_0',['C Samples',['../CCodeExamples.html',1,'C Samples'],['../CSharpCodeExamples.html',1,'C# Samples'],['../CppCodeExamples.html',1,'C++ Samples']]],
-  ['class_20hierarchy_1',['Data model class hierarchy',['../DataModel.html',1,'']]],
-  ['coding_20style_2',['Coding style',['../CodingStyleHelp.html',1,'']]]
+  ['c_0',['C',['../APICppPage.html',1,'C++'],['../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#']]],
+  ['c_20on_20windows_1',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
+  ['c_20setup_20guide_2',['MeshLib C++ Setup Guide',['../MeshLibCppSetupGuide.html',1,'']]],
+  ['class_20hierarchy_3',['Data Model Class Hierarchy',['../DataModel.html',1,'']]],
+  ['code_20samples_4',['MeshLib Code Samples',['../Examples.html',1,'']]],
+  ['create_20a_20first_20plugin_20using_20meshlib_20c_20on_20windows_5',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]]
 ];

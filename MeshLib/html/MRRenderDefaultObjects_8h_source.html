@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRRenderDefaultObjects.h Source File</title>
+<title>MeshLib Documentation: MRRenderDefaultObjects.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -166,8 +176,8 @@ $(function(){initNavTree('MRRenderDefaultObjects_8h_source.html',''); initResiza
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
 <div class="ttc" id="aMRRenderNameObject_8h_html"><div class="ttname"><a href="MRRenderNameObject_8h.html">MRRenderNameObject.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1IRenderObject_html"><div class="ttname"><a href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:133</div></div>
-<div class="ttc" id="aclassMR_1_1RenderObjectCombinator_html"><div class="ttname"><a href="classMR_1_1RenderObjectCombinator.html">MR::RenderObjectCombinator</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:169</div></div>
+<div class="ttc" id="aclassMR_1_1IRenderObject_html"><div class="ttname"><a href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:134</div></div>
+<div class="ttc" id="aclassMR_1_1RenderObjectCombinator_html"><div class="ttname"><a href="classMR_1_1RenderObjectCombinator.html">MR::RenderObjectCombinator</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:170</div></div>
 <div class="ttc" id="aclassMR_1_1RenderResetDirtyComponent_html"><div class="ttname"><a href="classMR_1_1RenderResetDirtyComponent.html">MR::RenderResetDirtyComponent</a></div><div class="ttdef"><b>Definition</b> MRRenderDefaultObjects.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1RenderResetDirtyComponent_html_a3379cb1c7250f753a25223627e4badd6"><div class="ttname"><a href="classMR_1_1RenderResetDirtyComponent.html#a3379cb1c7250f753a25223627e4badd6">MR::RenderResetDirtyComponent::RenderResetDirtyComponent</a></div><div class="ttdeci">MRVIEWER_API RenderResetDirtyComponent(const VisualObject &amp;object)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderResetDirtyComponent_html_a8ca1ddd65d7766ffffa225d6e58b3ad5"><div class="ttname"><a href="classMR_1_1RenderResetDirtyComponent.html#a8ca1ddd65d7766ffffa225d6e58b3ad5">MR::RenderResetDirtyComponent::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRRenderDefaultObjects.h:21</div></div>
@@ -176,8 +186,8 @@ $(function(){initNavTree('MRRenderDefaultObjects_8h_source.html',''); initResiza
 <div class="ttc" id="aclassMR_1_1RenderResetDirtyComponent_html_af0236040c67db7f3a0fdacadf85875e9"><div class="ttname"><a href="classMR_1_1RenderResetDirtyComponent.html#af0236040c67db7f3a0fdacadf85875e9">MR::RenderResetDirtyComponent::renderPicker</a></div><div class="ttdeci">virtual MRVIEWER_API void renderPicker(const ModelBaseRenderParams &amp;, unsigned)</div></div>
 <div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdoc">Visual Object.</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:131</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="astructMR_1_1ModelBaseRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelBaseRenderParams.html">MR::ModelBaseRenderParams</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:42</div></div>
-<div class="ttc" id="astructMR_1_1ModelRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></div><div class="ttdoc">Mesh rendering parameters for primary rendering (as opposed to the picker).</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:50</div></div>
+<div class="ttc" id="astructMR_1_1ModelBaseRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelBaseRenderParams.html">MR::ModelBaseRenderParams</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:43</div></div>
+<div class="ttc" id="astructMR_1_1ModelRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></div><div class="ttdoc">Mesh rendering parameters for primary rendering (as opposed to the picker).</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

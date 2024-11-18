@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Class Members - Functions</title>
+<title>MeshLib Documentation: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -136,7 +146,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
 
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
-<li>ICP()&#160;:&#160;<a class="el" href="classICP.html#a3e1991776564742c70624f1e82853e55">ICP</a>, <a class="el" href="classMR_1_1ICP.html#abf8abfc1336998ff9b7f0baff945f17f">MR::ICP</a></li>
+<li>ICP()&#160;:&#160;<a class="el" href="classMR_1_1ICP.html#abf8abfc1336998ff9b7f0baff945f17f">MR::ICP</a></li>
 <li>Id()&#160;:&#160;<a class="el" href="classMR_1_1Id.html#ab0e4ef6dbed8084af5b947ea4f8152e4">MR::Id&lt; T &gt;</a>, <a class="el" href="classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ad5716389b9581ad0d14b34ccc055a1f0">MR::Id&lt; MR::EdgeTag &gt;</a>, <a class="el" href="classMR_1_1Id_3_01VoxelTag_01_4.html#a3c7dc9263d4fa1895f1bdc1568b408e4">MR::Id&lt; VoxelTag &gt;</a></li>
 <li>identity()&#160;:&#160;<a class="el" href="structMR_1_1Matrix2.html#a603c6402f4e2b5d6035b58f1b2e1338a">MR::Matrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix3.html#a0e1934aed79e8fdf58697daa0947a64e">MR::Matrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix4.html#ae767c7c8330c9975a54782e273f28a7e">MR::Matrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix2.html#a4bfb70d898e1d782b1743ab3bf6c9068">MR::SymMatrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix3.html#a01e5aad44da8c62ba4d2044075380fdb">MR::SymMatrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix4.html#afbcf116c4a2ef5bb375df7b99a4f00e5">MR::SymMatrix4&lt; T &gt;</a></li>
 <li>im()&#160;:&#160;<a class="el" href="structMR_1_1Quaternion.html#aad473c0a9b108bfc4963dc7f279ff9e8">MR::Quaternion&lt; T &gt;</a></li>
@@ -149,7 +159,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>incrementThisFrameGLPrimitivesCount()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#aa9e4f61cb952eb939ba8a95d97b5d961">MR::Viewer</a></li>
 <li>indexFromPseudoIndex()&#160;:&#160;<a class="el" href="classMR_1_1MeshOnVoxelsT.html#ab1c07d16562b426106b09c51b2aaf831">MR::MeshOnVoxelsT&lt; MeshType &gt;</a></li>
 <li>iniBasin2Tgt()&#160;:&#160;<a class="el" href="classMR_1_1WatershedGraph.html#a281a2a110ab44b33441d649c8461982b">MR::WatershedGraph</a></li>
-<li>init()&#160;:&#160;<a class="el" href="classMR_1_1AlphaSortGL.html#aba382f76f34a17ef1f0536debd4b6683">MR::AlphaSortGL</a>, <a class="el" href="classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe">MR::DemoPlugin</a>, <a class="el" href="classMR_1_1EmbeddedPython.html#a73500f38807baa5e3af97e9cbff223d4">MR::EmbeddedPython</a>, <a class="el" href="classMR_1_1FreeFormDeformer.html#a923952b8a6e2cd1a6a57ca40d2913189">MR::FreeFormDeformer</a>, <a class="el" href="classMR_1_1ImGuiMenu.html#acf26f479a1c27455aadd05900f3832bd">MR::ImGuiMenu</a>, <a class="el" href="classMR_1_1ITransformControls.html#a907d92df55bd4c1c24eb99b0ac884d77">MR::ITransformControls</a>, <a class="el" href="classMR_1_1Laplacian.html#a4583a70ee721c1a0e5daa7ee3d607039">MR::Laplacian</a>, <a class="el" href="classMR_1_1Menu.html#a9294389b0cf7ab9d43fe4bd9eefcac19">MR::Menu</a>, <a class="el" href="classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57">MR::RibbonMenu</a>, <a class="el" href="classMR_1_1SaveOnClosePlugin.html#acd23d814e2dac0931459aee0b97440b3">MR::SaveOnClosePlugin</a>, <a class="el" href="classMR_1_1SurfaceManipulationWidget.html#a3aed52f4737f381cd25e1431f64076b9">MR::SurfaceManipulationWidget</a>, <a class="el" href="classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c">MR::TransformControls</a>, <a class="el" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">MR::ViewerPlugin</a>, <a class="el" href="classMR_1_1Viewport.html#a46c4638cf48b92aebc19e3212ec421ec">MR::Viewport</a>, <a class="el" href="classMR_1_1ViewportGL.html#ac2b114c03f1a2659e1e2eba7421c5aad">MR::ViewportGL</a></li>
+<li>init()&#160;:&#160;<a class="el" href="classMR_1_1AlphaSortGL.html#aba382f76f34a17ef1f0536debd4b6683">MR::AlphaSortGL</a>, <a class="el" href="classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe">MR::DemoPlugin</a>, <a class="el" href="classMR_1_1FreeFormDeformer.html#a923952b8a6e2cd1a6a57ca40d2913189">MR::FreeFormDeformer</a>, <a class="el" href="classMR_1_1ImGuiMenu.html#acf26f479a1c27455aadd05900f3832bd">MR::ImGuiMenu</a>, <a class="el" href="classMR_1_1ITransformControls.html#a907d92df55bd4c1c24eb99b0ac884d77">MR::ITransformControls</a>, <a class="el" href="classMR_1_1Laplacian.html#a4583a70ee721c1a0e5daa7ee3d607039">MR::Laplacian</a>, <a class="el" href="classMR_1_1Menu.html#a9294389b0cf7ab9d43fe4bd9eefcac19">MR::Menu</a>, <a class="el" href="classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57">MR::RibbonMenu</a>, <a class="el" href="classMR_1_1SaveOnClosePlugin.html#acd23d814e2dac0931459aee0b97440b3">MR::SaveOnClosePlugin</a>, <a class="el" href="classMR_1_1SurfaceManipulationWidget.html#a3aed52f4737f381cd25e1431f64076b9">MR::SurfaceManipulationWidget</a>, <a class="el" href="classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c">MR::TransformControls</a>, <a class="el" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">MR::ViewerPlugin</a>, <a class="el" href="classMR_1_1Viewport.html#a46c4638cf48b92aebc19e3212ec421ec">MR::Viewport</a>, <a class="el" href="classMR_1_1ViewportGL.html#ac2b114c03f1a2659e1e2eba7421c5aad">MR::ViewportGL</a></li>
 <li>initBackend()&#160;:&#160;<a class="el" href="classMR_1_1ImGuiMenu.html#a3425b4fd87149a0b1038c2caf99fb4ab">MR::ImGuiMenu</a></li>
 <li>initBuffers_()&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#a25ce65cf24e73a9b094c4ea775ab9710">MR::RenderMeshObject</a></li>
 <li>initFontManagerInstance()&#160;:&#160;<a class="el" href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">MR::RibbonFontManager</a></li>
@@ -159,9 +169,8 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>inputs()&#160;:&#160;<a class="el" href="structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151">MR::ConeFittingFunctor&lt; T &gt;</a></li>
 <li>insert()&#160;:&#160;<a class="el" href="classMR_1_1ColorMapAggregator.html#ab824efbaafb7860d9d22e8166bb84a80">MR::ColorMapAggregator&lt; Tag &gt;</a></li>
 <li>insignificantlyExpanded()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a5221795da9f2f569a0ac9fd9a1a5cba4">MR::Box&lt; V &gt;</a></li>
-<li>instance()&#160;:&#160;<a class="el" href="classMR_1_1ColorTheme.html#a15699e42dc7a6e8fc8c45c6adbe410cb">MR::ColorTheme</a>, <a class="el" href="classMR_1_1Config.html#ad5421174f9875d5c3a6b9ac23aa96313">MR::Config</a>, <a class="el" href="classMR_1_1ImGuiMenu.html#a941afb045218d28ebad9b6325161891c">MR::ImGuiMenu</a>, <a class="el" href="classMR_1_1Logger.html#aac7549309d09f2c9a41818a18c1b0e50">MR::Logger</a>, <a class="el" href="classMR_1_1MoveObjectByMouse.html#abd0033249a4d6e6f7bd5d156eedfd3ee">MR::MoveObjectByMouse</a>, <a class="el" href="classMR_1_1PythonExport.html#abfb182152c405649c53c0c632868b0c2">MR::PythonExport</a>, <a class="el" href="classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer</a>, <a class="el" href="classMR_1_1ViewerSettingsPlugin.html#af0e9b4bd0c8a80ad3d40a02b51c16523">MR::ViewerSettingsPlugin</a></li>
+<li>instance()&#160;:&#160;<a class="el" href="classMR_1_1ColorTheme.html#a15699e42dc7a6e8fc8c45c6adbe410cb">MR::ColorTheme</a>, <a class="el" href="classMR_1_1Config.html#ad5421174f9875d5c3a6b9ac23aa96313">MR::Config</a>, <a class="el" href="structMR_1_1FileDialogSignals.html#a1a30fb542ec7c05f719192ea93f542e6">MR::FileDialogSignals</a>, <a class="el" href="classMR_1_1ImGuiMenu.html#a941afb045218d28ebad9b6325161891c">MR::ImGuiMenu</a>, <a class="el" href="classMR_1_1Logger.html#aac7549309d09f2c9a41818a18c1b0e50">MR::Logger</a>, <a class="el" href="classMR_1_1MoveObjectByMouse.html#abd0033249a4d6e6f7bd5d156eedfd3ee">MR::MoveObjectByMouse</a>, <a class="el" href="classMR_1_1PythonExport.html#abfb182152c405649c53c0c632868b0c2">MR::PythonExport</a>, <a class="el" href="classMR_1_1RibbonMenu.html#a46a9c1a6ee76ad876cce3d279b8a825f">MR::RibbonMenu</a>, <a class="el" href="classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer</a>, <a class="el" href="classMR_1_1ViewerSettingsPlugin.html#af0e9b4bd0c8a80ad3d40a02b51c16523">MR::ViewerSettingsPlugin</a></li>
 <li>instanceRef()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#aab103f5088bda1288b59fb83c0635ef5">MR::Viewer</a></li>
-<li>Interpolate()&#160;:&#160;<a class="el" href="structTriPoint.html#aef26f10a8771076bf88a553c8891001b">TriPoint</a></li>
 <li>interpolate()&#160;:&#160;<a class="el" href="structMR_1_1SegmPoint.html#a61b1906606755d16e699a890189ff3f8">MR::SegmPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1TriPoint.html#a443eb1cdffa8cf6269dce8d4f7712a3b">MR::TriPoint&lt; T &gt;</a></li>
 <li>interruptClose_()&#160;:&#160;<a class="el" href="structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6">MR::InterruptCloseListener</a></li>
 <li>interruptWindowClose()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#af2b6e2aad9eb5d9f49145edf383690f7">MR::Viewer</a></li>
@@ -179,7 +188,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>invalidateAll()&#160;:&#160;<a class="el" href="classMR_1_1DistanceMap.html#ad5b12268ebb7ac7c56982566845c0e08">MR::DistanceMap</a>, <a class="el" href="classMR_1_1SceneCache.html#aba6c0d17104f37a1b2af8967dab219e5">MR::SceneCache</a></li>
 <li>invalidateCaches()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#ac4cfa4d1a1f01bbcf883f4e96079e505">MR::Mesh</a>, <a class="el" href="structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">MR::PointCloud</a>, <a class="el" href="structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57">MR::Polyline&lt; V &gt;</a></li>
 <li>inverse()&#160;:&#160;<a class="el" href="structMR_1_1Matrix4.html#ae7db341476ea39c09db9484ee3516d8a">MR::Matrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Quaternion.html#a238423391f644b566ecdb0f0623998b5">MR::Quaternion&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232">MR::SymMatrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix3.html#ae429d9d10243a2e9b7e1446ed7235c36">MR::SymMatrix3&lt; T &gt;</a></li>
-<li>inVertex()&#160;:&#160;<a class="el" href="structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4">MR::EdgePoint</a>, <a class="el" href="structMR_1_1MeshTriPoint.html#aa951af6819fd0e1934e6e33e8b29af4a">MR::MeshTriPoint</a>, <a class="el" href="structMR_1_1SegmPoint.html#a4d16443dbd1634455999b2b461f8a720">MR::SegmPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1TriPoint.html#a4d5a222417a7c162c44bb932b91cdd7a">MR::TriPoint&lt; T &gt;</a>, <a class="el" href="structTriPoint.html#a86c9b621f580a065ef8c8f313d87acc2">TriPoint</a></li>
+<li>inVertex()&#160;:&#160;<a class="el" href="structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4">MR::EdgePoint</a>, <a class="el" href="structMR_1_1MeshTriPoint.html#aa951af6819fd0e1934e6e33e8b29af4a">MR::MeshTriPoint</a>, <a class="el" href="structMR_1_1SegmPoint.html#a4d16443dbd1634455999b2b461f8a720">MR::SegmPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1TriPoint.html#a4d5a222417a7c162c44bb932b91cdd7a">MR::TriPoint&lt; T &gt;</a></li>
 <li>invTransformed()&#160;:&#160;<a class="el" href="structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177">MR::Plane3&lt; T &gt;</a></li>
 <li>IOFilter()&#160;:&#160;<a class="el" href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">MR::IOFilter</a></li>
 <li>IPointPairs()&#160;:&#160;<a class="el" href="structMR_1_1IPointPairs.html#adbe70eca8faa13ce9fa22e4f15cb2d5a">MR::IPointPairs</a></li>
@@ -208,7 +217,6 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>isDropOldEventOnNewActive()&#160;:&#160;<a class="el" href="classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b">MR::MouseController</a></li>
 <li>isEmpty()&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a8d4eed742bef0a93aca4e910744a6aea">MR::ImGuiMeasurementIndicators::StringWithIcon</a></li>
 <li>isEnabled()&#160;:&#160;<a class="el" href="classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95">MR::ShadowsGL</a>, <a class="el" href="classMR_1_1ShortcutManager.html#aaf51fc21fb54cb1e8d7b1734c0d4c0e9">MR::ShortcutManager</a>, <a class="el" href="classMR_1_1StateBasePlugin.html#ae7da0ed13a069a29ec8fac496e7aa065">MR::StateBasePlugin</a></li>
-<li>IsEqualTo()&#160;:&#160;<a class="el" href="classabstract.html#a39e48098366dfcc70a2c35540ea843a6">abstract</a>, <a class="el" href="classBitSet.html#a19eb3d0d20f7e33444c5b734bd5f9370">BitSet</a></li>
 <li>isFeedrateGradient()&#160;:&#160;<a class="el" href="classMR_1_1ObjectGcode.html#a568418ed1668faab8c6b702065fdf81b">MR::ObjectGcode</a></li>
 <li>isFinished()&#160;:&#160;<a class="el" href="classMR_1_1ProgressBar.html#a009d09c70beb26bb2764e8ba9b7f0a0b">MR::ProgressBar</a></li>
 <li>isFinite()&#160;:&#160;<a class="el" href="structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#af10fc7b8e96744a5bf22924d7bb263ad">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#abd30ce902168b47bc8aaee4415d19b03">MR::Vector4&lt; T &gt;</a></li>
@@ -216,7 +224,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>isGlobalHistoryEnabled()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#af783e511fab48488cefa29c151e6dca4">MR::Viewer</a></li>
 <li>isInBounds()&#160;:&#160;<a class="el" href="classMR_1_1DistanceMap.html#ac569825ceb48710f525dde089d566e82">MR::DistanceMap</a></li>
 <li>isInDims()&#160;:&#160;<a class="el" href="group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35">MR::VolumeIndexer</a></li>
-<li>isInitialized()&#160;:&#160;<a class="el" href="classMR_1_1ColorTheme.html#a1506f82ec73be1eb299f6c390dce1fd0">MR::ColorTheme</a>, <a class="el" href="classMR_1_1EmbeddedPython.html#a042dc64f14f3698de70323d72e40062c">MR::EmbeddedPython</a></li>
+<li>isInitialized()&#160;:&#160;<a class="el" href="classMR_1_1ColorTheme.html#a1506f82ec73be1eb299f6c390dce1fd0">MR::ColorTheme</a></li>
 <li>isInLocalMode()&#160;:&#160;<a class="el" href="classMR_1_1PlaneWidget.html#a834649aad5bbd6ae1247ffa8a4afecce">MR::PlaneWidget</a></li>
 <li>isInnerEdge()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a9149621788f57af5be92126cf7e5f24e">MR::MeshTopology</a></li>
 <li>isInnerOrBdEdge()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a68d4b2d56fbb76bfc31e2d8a2672fc1c">MR::MeshTopology</a></li>
@@ -248,7 +256,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>isSceneTextureBound()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#aeb78cc316a414e397c55a35a9e0fa39d">MR::Viewer</a></li>
 <li>isSelected()&#160;:&#160;<a class="el" href="classMR_1_1Object.html#a3f649834561a9f246e1d840a0f3080c8">MR::Object</a>, <a class="el" href="classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#ad9861b60290335a8b1b6b1730a9874e4">MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, BaseObjectType &gt;</a>, <a class="el" href="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html#a3a10c5e3ca1170e0ef45257015543cbe">MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</a></li>
 <li>isStart()&#160;:&#160;<a class="el" href="structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940">MR::VertPathInfo</a></li>
-<li>isSupportedExtension()&#160;:&#160;<a class="el" href="structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b">MR::IOFilter</a></li>
+<li>isSupportedExtension()&#160;:&#160;<a class="el" href="structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765">MR::IOFilter</a></li>
 <li>isSupportedFormat()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853">MR::Viewer</a></li>
 <li>isSurfaceNormalFor()&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c">MR::Features::MeasureResult::Angle</a></li>
 <li>isTopPannelPinned()&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenu.html#a44506d22fa2c6befeaf375791931282e">MR::RibbonMenu</a></li>
@@ -256,7 +264,7 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>isVisible()&#160;:&#160;<a class="el" href="classMR_1_1Object.html#a98c9e0d07b736d2b86c4d3d340b77844">MR::Object</a></li>
 <li>isVolumeRenderingEnabled()&#160;:&#160;<a class="el" href="classMR_1_1ObjectVoxels.html#a1e13873d4779acb7a43e40d9b78cce31">MR::ObjectVoxels</a></li>
 <li>isZeroRadius()&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ad0e22f8a9ddce47d6aab63cfe35ab6bd">MR::Features::Primitives::ConeSegment</a></li>
-<li>itemPressed_()&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenu.html#a644e42efc4fd8f8bfa421f02bd847805">MR::RibbonMenu</a></li>
+<li>itemPressed_()&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenu.html#a981b9e4f52d4679a09fbbca4dab08573">MR::RibbonMenu</a></li>
 <li>IteratorRange()&#160;:&#160;<a class="el" href="structMR_1_1IteratorRange.html#ac08ae5922c624c9f08c65c8ecbb4bd61">MR::IteratorRange&lt; I &gt;</a></li>
 </ul>
 </div><!-- contents -->

@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRMeshC.h Source File</title>
+<title>MeshLib Documentation: MRMeshC.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -183,7 +193,7 @@ $(function(){initNavTree('MRMeshC_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MR_EXTERN_C_END</a></div>
 <div class="ttc" id="aMRMeshC_2MRBooleanOperation_8h_html_a23023d1e8bdd5c8deebba6a109008b1a"><div class="ttname"><a href="MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1a">MRBooleanOperation</a></div><div class="ttdeci">MRBooleanOperation</div><div class="ttdoc">Available CSG operations.</div><div class="ttdef"><b>Definition</b> MRMeshC/MRBooleanOperation.h:10</div></div>
-<div class="ttc" id="aMRMeshC_2MRId_8h_html_a967d742119c0049bd062c2386998d6c0"><div class="ttname"><a href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a></div><div class="ttdeci">MRVertId MRThreeVertIds[3]</div><div class="ttdoc">a set of 3 vertices; useful for representing a face via its vertex indices</div><div class="ttdef"><b>Definition</b> MRMeshC/MRId.h:19</div></div>
+<div class="ttc" id="aMRMeshC_2MRId_8h_html_a967d742119c0049bd062c2386998d6c0"><div class="ttname"><a href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a></div><div class="ttdeci">MRVertId MRThreeVertIds[3]</div><div class="ttdoc">a set of 3 vertices; useful for representing a face via its vertex indices</div><div class="ttdef"><b>Definition</b> MRMeshC/MRId.h:21</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshBoolean_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshBoolean_8h.html">MRMeshBoolean.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshDecimate_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshDecimate_8h.html">MRMeshDecimate.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a07cb85df391b65224a89339236e03c2e"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a></div><div class="ttdeci">#define MR_EXTERN_C_BEGIN</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:26</div></div>
@@ -203,7 +213,7 @@ $(function(){initNavTree('MRMeshC_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aMRMeshC_2MRPointCloud_8h_html"><div class="ttname"><a href="MRMeshC_2MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRPointsLoad_8h_html"><div class="ttname"><a href="MRMeshC_2MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRPointsSave_8h_html"><div class="ttname"><a href="MRMeshC_2MRPointsSave_8h.html">MRPointsSave.h</a></div></div>
-<div class="ttc" id="aMRMeshC_2MRVector3_8h_html_ac68580b5805320c5e5bcb4f5df38aad1"><div class="ttname"><a href="MRMeshC_2MRVector3_8h.html#ac68580b5805320c5e5bcb4f5df38aad1">MRTriangle3f</a></div><div class="ttdeci">MRVector3f MRTriangle3f[3]</div><div class="ttdoc">a set of 3 vectors; useful for representing a face via its vertex coordinates</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector3.h:40</div></div>
+<div class="ttc" id="aMRMeshC_2MRVector3_8h_html_ac68580b5805320c5e5bcb4f5df38aad1"><div class="ttname"><a href="MRMeshC_2MRVector3_8h.html#ac68580b5805320c5e5bcb4f5df38aad1">MRTriangle3f</a></div><div class="ttdeci">MRVector3f MRTriangle3f[3]</div><div class="ttdoc">a set of 3 vectors; useful for representing a face via its vertex coordinates</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector3.h:42</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a0dca33ba529acd17941975d795f14ad8"><div class="ttname"><a href="MRMeshC_8h.html#a0dca33ba529acd17941975d795f14ad8">mrMeshLoadFromAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrMeshLoadFromAnySupportedFormat(const char *file, MRString **errorStr)</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a1859276a8081a400e55df4eba2dffce7"><div class="ttname"><a href="MRMeshC_8h.html#a1859276a8081a400e55df4eba2dffce7">mrBoolean</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API MRBooleanResult mrBoolean(const MRMesh *meshA, const MRMesh *meshB, MRBooleanOperation operation, const MRBooleanParameters *params)</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a3734599d808ed4116719ece0cc1fb568"><div class="ttname"><a href="MRMeshC_8h.html#a3734599d808ed4116719ece0cc1fb568">mrMultiwayICPNew</a></div><div class="ttdeci">MRMESHC_API MRMultiwayICP * mrMultiwayICPNew(const MRMeshOrPointsXf *objects, size_t objectsNum, const MRMultiwayICPSamplingParameters *samplingParams)</div></div>
@@ -223,7 +233,7 @@ $(function(){initNavTree('MRMeshC_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="astructMRBooleanResult_html"><div class="ttname"><a href="structMRBooleanResult.html">MRBooleanResult</a></div><div class="ttdoc">This structure store result mesh of mrBoolean or some error info.</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshBoolean.h:31</div></div>
 <div class="ttc" id="astructMRDecimateResult_html"><div class="ttname"><a href="structMRDecimateResult.html">MRDecimateResult</a></div><div class="ttdoc">results of mrDecimateMesh</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshDecimate.h:89</div></div>
 <div class="ttc" id="astructMRDecimateSettings_html"><div class="ttname"><a href="structMRDecimateSettings.html">MRDecimateSettings</a></div><div class="ttdoc">parameters for mrDecimateMesh</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshDecimate.h:18</div></div>
-<div class="ttc" id="astructMRICPProperties_html"><div class="ttname"><a href="structMRICPProperties.html">MRICPProperties</a></div><div class="ttdef"><b>Definition</b> MRMeshC/MRICP.h:95</div></div>
+<div class="ttc" id="astructMRICPProperties_html"><div class="ttname"><a href="structMRICPProperties.html">MRICPProperties</a></div><div class="ttdef"><b>Definition</b> MRMeshC/MRICP.h:97</div></div>
 <div class="ttc" id="astructMRMeshPart_html"><div class="ttname"><a href="structMRMeshPart.html">MRMeshPart</a></div><div class="ttdoc">stores reference on whole mesh (if region is NULL) or on its part (if region pointer is valid)</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshPart.h:9</div></div>
 <div class="ttc" id="astructMRMultiwayICPSamplingParameters_html"><div class="ttname"><a href="structMRMultiwayICPSamplingParameters.html">MRMultiwayICPSamplingParameters</a></div><div class="ttdoc">Parameters that are used for sampling of the MultiwayICP objects.</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMultiwayICP.h:20</div></div>
 <div class="ttc" id="astructMROffsetParameters_html"><div class="ttname"><a href="structMROffsetParameters.html">MROffsetParameters</a></div><div class="ttdef"><b>Definition</b> MRMeshC/MROffset.h:12</div></div>

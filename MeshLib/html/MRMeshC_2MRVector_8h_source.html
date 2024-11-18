@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRVector.h Source File</title>
+<title>MeshLib Documentation: MRVector.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -157,33 +167,27 @@ $(function(){initNavTree('MRMeshC_2MRVector_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">    void* reserved1;                             \</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">} MR_VECTOR_CONCAT( MR, ClassName );             \</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">MRMESHC_API void MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), Invalidate )( MR_VECTOR_CONCAT( MR, ClassName )* ); \</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">MRMESHC_API void MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), Free )( MR_VECTOR_CONCAT( MR, ClassName )* );</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">MRMESHC_API void MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), Free )( MR_VECTOR_CONCAT( MR, ClassName )* ); \</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">MRMESHC_API MR_VECTOR_CONCAT( MR, ClassName )* MR_VECTOR_CONCAT( MR_VECTOR_CONCAT( mr, ClassName ), New )(void);</span></div>
 </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">   29</a></span><span class="preprocessor">#define MR_VECTOR_DECL( Type ) MR_VECTOR_LIKE_DECL( MR_VECTOR_CONCAT( Vector, Type ), Type )</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( <a class="code hl_class" href="classAffineXf3f.html">AffineXf3f</a> )</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( <a class="code hl_class" href="classVector3f.html">Vector3f</a> )</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#afa5e3b3136272a072cba72e1aa163040">FaceMap</a>, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> )</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( WholeEdgeMap, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> )</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a>, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> )</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MR_EXTERN_C_END</a></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a97d91fcf1566198a2abf87966d056a9f"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></div><div class="ttdeci">int VertId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:51</div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a9a1af35620eb034ce3eb01a5467523da"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a></div><div class="ttdeci">List&lt; VertId &gt; VertMap</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:84</div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_ab7fe032dc814ab0521ff517f8c238aa9"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a></div><div class="ttdeci">int FaceId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:53</div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_add62b8bcfb58fedb4bcb251ed3e5f5c8"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></div><div class="ttdeci">int EdgeId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:52</div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_afa5e3b3136272a072cba72e1aa163040"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#afa5e3b3136272a072cba72e1aa163040">FaceMap</a></div><div class="ttdeci">List&lt; FaceId &gt; FaceMap</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:87</div></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">   30</a></span><span class="preprocessor">#define MR_VECTOR_DECL( Type ) MR_VECTOR_LIKE_DECL( MR_VECTOR_CONCAT( Vector, Type ), Type )</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( AffineXf3f )</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>( Vector3f )</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( FaceMap, FaceId )</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( WholeEdgeMap, EdgeId )</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( VertMap, VertId )</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MR_EXTERN_C_END</a></div>
 <div class="ttc" id="aMRMeshC_2MRAffineXf_8h_html"><div class="ttname"><a href="MRMeshC_2MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRId_8h_html"><div class="ttname"><a href="MRMeshC_2MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a07cb85df391b65224a89339236e03c2e"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a></div><div class="ttdeci">#define MR_EXTERN_C_BEGIN</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:26</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a4c0dd57de0c70036b4a1e14f71d2fe11"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11">MR_EXTERN_C_END</a></div><div class="ttdeci">#define MR_EXTERN_C_END</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:27</div></div>
-<div class="ttc" id="aMRMeshC_2MRVector_8h_html_a3bffcd943d26953930bf9399b7da112d"><div class="ttname"><a href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a></div><div class="ttdeci">#define MR_VECTOR_DECL(Type)</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector.h:29</div></div>
+<div class="ttc" id="aMRMeshC_2MRVector_8h_html_a3bffcd943d26953930bf9399b7da112d"><div class="ttname"><a href="MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a></div><div class="ttdeci">#define MR_VECTOR_DECL(Type)</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector.h:30</div></div>
 <div class="ttc" id="aMRMeshC_2MRVector_8h_html_af14f0ba8d8f1501f0349bd464c23225c"><div class="ttname"><a href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a></div><div class="ttdeci">#define MR_VECTOR_LIKE_DECL(ClassName, Type)</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector.h:19</div></div>
-<div class="ttc" id="aclassAffineXf3f_html"><div class="ttname"><a href="classAffineXf3f.html">AffineXf3f</a></div><div class="ttdoc">affine transformation: y = A*x + b, where A in VxV, and b in V</div><div class="ttdef"><b>Definition</b> MRDotNet/MRAffineXf.h:8</div></div>
-<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

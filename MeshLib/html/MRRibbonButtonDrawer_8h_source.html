@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRRibbonButtonDrawer.h Source File</title>
+<title>MeshLib Documentation: MRRibbonButtonDrawer.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -201,7 +211,7 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        Mono,</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        Gradient,</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        RainbowRect,</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    };</div>
 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonButtonDrawer.html#a83dd3384388f9328b4a90cf1a166a111">   59</a></span>    MRVIEWER_API <span class="keyword">static</span> std::unique_ptr&lt;ImGuiImage&gt;&amp; <a class="code hl_function" href="classMR_1_1RibbonButtonDrawer.html#a83dd3384388f9328b4a90cf1a166a111">GetTexture</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368">TextureType</a> type );</div>
@@ -232,7 +242,7 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonButtonDrawer.html#a176f5a0226543fa3cfcb61d2a040de9b">   91</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonButtonDrawer.html#a176f5a0226543fa3cfcb61d2a040de9b">setMonochrome</a>( <span class="keyword">const</span> std::optional&lt;Color&gt;&amp; color );</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonButtonDrawer.html#a9b9ab4c945c116aadb3e31b11a68d765">   94</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonButtonDrawer.html#a9b9ab4c945c116aadb3e31b11a68d765">setOnPressAction</a>( std::function&lt;<span class="keywordtype">void</span>( std::shared_ptr&lt;RibbonMenuItem&gt;, <span class="keywordtype">bool</span> )&gt; action ) { onPressAction_ = action; };</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonButtonDrawer.html#a746679f0d740ce76f1180b8e1c572570">   94</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonButtonDrawer.html#a746679f0d740ce76f1180b8e1c572570">setOnPressAction</a>( std::function&lt;<span class="keywordtype">void</span>( std::shared_ptr&lt;RibbonMenuItem&gt;, <span class="keyword">const</span> std::string&amp; )&gt; action ) { onPressAction_ = action; };</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonButtonDrawer.html#a5b4dc1d1236d8173cf3d4d5d54a2ef77">   96</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonButtonDrawer.html#a5b4dc1d1236d8173cf3d4d5d54a2ef77">setGetterRequirements</a>( std::function&lt;std::string( std::shared_ptr&lt;RibbonMenuItem&gt; )&gt; getterRequirements ) { getRequirements_ = getterRequirements; };</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonButtonDrawer.html#a9e8e2cf8f70aa2833fcb03ec85ca1dc5">   98</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonButtonDrawer.html#a9e8e2cf8f70aa2833fcb03ec85ca1dc5">setMenu</a>( <a class="code hl_class" href="classMR_1_1RibbonMenu.html">RibbonMenu</a>* menu ) { menu_ = menu; };</div>
@@ -247,7 +257,7 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="comment">// returns num of pushed colors</span></div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">int</span> pushRibbonButtonColors_( <span class="keywordtype">bool</span> enabled, <span class="keywordtype">bool</span> active, <span class="keywordtype">bool</span> forceHovered, <a class="code hl_enumeration" href="structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae">DrawButtonParams::RootType</a> rootType ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    std::function&lt;void( std::shared_ptr&lt;RibbonMenuItem&gt;, <span class="keywordtype">bool</span> )&gt; onPressAction_ = []( std::shared_ptr&lt;RibbonMenuItem&gt;, bool ) {};</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    std::function&lt;void( std::shared_ptr&lt;RibbonMenuItem&gt;, <span class="keyword">const</span> std::string&amp; )&gt; onPressAction_ = []( std::shared_ptr&lt;RibbonMenuItem&gt;, <span class="keyword">const</span> std::string&amp; ) {};</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    std::function&lt;std::string( std::shared_ptr&lt;RibbonMenuItem&gt; )&gt; getRequirements_ = []( std::shared_ptr&lt;RibbonMenuItem&gt; ) { <span class="keywordflow">return</span> std::string(); };</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    RibbonMenu* menu_ = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keyword">const</span> ShortcutManager* shortcutManager_ = <span class="keyword">nullptr</span>;</div>
@@ -260,7 +270,6 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 </div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>}</div>
-<div class="ttc" id="aMRDotNet_2MRMeshBoolean_8h_html_a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">BooleanOperation::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="aMRRibbonIcons_8h_html"><div class="ttname"><a href="MRRibbonIcons_8h.html">MRRibbonIcons.h</a></div></div>
 <div class="ttc" id="aMRRibbonMenuItem_8h_html"><div class="ttname"><a href="MRRibbonMenuItem_8h.html">MRRibbonMenuItem.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html">MR::RibbonButtonDrawer</a></div><div class="ttdoc">class for drawing ribbon menu buttons</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:48</div></div>
@@ -269,13 +278,13 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a275b5c4945909aa90cefef471b77991d"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a275b5c4945909aa90cefef471b77991d">MR::RibbonButtonDrawer::setScaling</a></div><div class="ttdeci">void setScaling(float scaling)</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:100</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a32b4290ad470a7d955b0f93bce2918bb"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a32b4290ad470a7d955b0f93bce2918bb">MR::RibbonButtonDrawer::drawCustomButtonItem</a></div><div class="ttdeci">MRVIEWER_API void drawCustomButtonItem(const MenuItemInfo &amp;item, const CustomButtonParameters &amp;customParam, const DrawButtonParams &amp;params) const</div><div class="ttdoc">draw item button</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a5b4dc1d1236d8173cf3d4d5d54a2ef77"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a5b4dc1d1236d8173cf3d4d5d54a2ef77">MR::RibbonButtonDrawer::setGetterRequirements</a></div><div class="ttdeci">void setGetterRequirements(std::function&lt; std::string(std::shared_ptr&lt; RibbonMenuItem &gt;)&gt; getterRequirements)</div><div class="ttdoc">set function to get requirements for activate item</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:96</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a746679f0d740ce76f1180b8e1c572570"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a746679f0d740ce76f1180b8e1c572570">MR::RibbonButtonDrawer::setOnPressAction</a></div><div class="ttdeci">void setOnPressAction(std::function&lt; void(std::shared_ptr&lt; RibbonMenuItem &gt;, const std::string &amp;)&gt; action)</div><div class="ttdoc">set reaction on press item button</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:94</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a787e77ac1e137bc2009adcb16e36b721"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a787e77ac1e137bc2009adcb16e36b721">MR::RibbonButtonDrawer::setShortcutManager</a></div><div class="ttdeci">void setShortcutManager(const ShortcutManager *shortcutManager)</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:99</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a83dd3384388f9328b4a90cf1a166a111"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a83dd3384388f9328b4a90cf1a166a111">MR::RibbonButtonDrawer::GetTexture</a></div><div class="ttdeci">static MRVIEWER_API std::unique_ptr&lt; ImGuiImage &gt; &amp; GetTexture(TextureType type)</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a873e857624709ee46ec0487169fd1e87"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a873e857624709ee46ec0487169fd1e87">MR::RibbonButtonDrawer::calcItemWidth</a></div><div class="ttdeci">MRVIEWER_API ButtonItemWidth calcItemWidth(const MenuItemInfo &amp;item, DrawButtonParams::SizeType sizeType) const</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a88e9dab920cc65df3ceeb3332d6508e3"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a88e9dab920cc65df3ceeb3332d6508e3">MR::RibbonButtonDrawer::drawButtonItem</a></div><div class="ttdeci">MRVIEWER_API void drawButtonItem(const MenuItemInfo &amp;item, const DrawButtonParams &amp;params) const</div><div class="ttdoc">draw item button</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a954e453eee79988e5bc9e09da649f469"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a954e453eee79988e5bc9e09da649f469">MR::RibbonButtonDrawer::GradientCheckboxItem</a></div><div class="ttdeci">MRVIEWER_API bool GradientCheckboxItem(const MenuItemInfo &amp;item, bool *value) const</div><div class="ttdoc">draw gradient checkbox with icon (for menu item)</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a9b54da453af494ce3c80120f8463f0ef"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a9b54da453af494ce3c80120f8463f0ef">MR::RibbonButtonDrawer::CustomCollapsingHeader</a></div><div class="ttdeci">static MRVIEWER_API bool CustomCollapsingHeader(const char *label, ImGuiTreeNodeFlags flags=0, int issueCount=0)</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a9b9ab4c945c116aadb3e31b11a68d765"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a9b9ab4c945c116aadb3e31b11a68d765">MR::RibbonButtonDrawer::setOnPressAction</a></div><div class="ttdeci">void setOnPressAction(std::function&lt; void(std::shared_ptr&lt; RibbonMenuItem &gt;, bool)&gt; action)</div><div class="ttdoc">set reaction on press item button</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:94</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_a9e8e2cf8f70aa2833fcb03ec85ca1dc5"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#a9e8e2cf8f70aa2833fcb03ec85ca1dc5">MR::RibbonButtonDrawer::setMenu</a></div><div class="ttdeci">void setMenu(RibbonMenu *menu)</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:98</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_aaf522f84deade12174104cfd9ab2c384"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#aaf522f84deade12174104cfd9ab2c384">MR::RibbonButtonDrawer::InitGradientTexture</a></div><div class="ttdeci">static MRVIEWER_API void InitGradientTexture()</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonButtonDrawer_html_ad76d42588ec2c9279d8695185fcd1f61"><div class="ttname"><a href="classMR_1_1RibbonButtonDrawer.html#ad76d42588ec2c9279d8695185fcd1f61">MR::RibbonButtonDrawer::drawButtonIcon</a></div><div class="ttdeci">MRVIEWER_API void drawButtonIcon(const MenuItemInfo &amp;item, const DrawButtonParams &amp;params) const</div><div class="ttdoc">draw item button icon</div></div>
@@ -284,6 +293,7 @@ $(function(){initNavTree('MRRibbonButtonDrawer_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html"><div class="ttname"><a href="classMR_1_1RibbonMenu.html">MR::RibbonMenu</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:32</div></div>
 <div class="ttc" id="aclassMR_1_1ShortcutManager_html"><div class="ttname"><a href="classMR_1_1ShortcutManager.html">MR::ShortcutManager</a></div><div class="ttdef"><b>Definition</b> MRShortcutManager.h:44</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="astructMR_1_1CustomButtonParameters_html"><div class="ttname"><a href="structMR_1_1CustomButtonParameters.html">MR::CustomButtonParameters</a></div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:40</div></div>
 <div class="ttc" id="astructMR_1_1CustomButtonParameters_html_ac4659ddd4f1cc193ad87ef0c017e00eb"><div class="ttname"><a href="structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb">MR::CustomButtonParameters::iconType</a></div><div class="ttdeci">RibbonIcons::IconType iconType</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:43</div></div>
 <div class="ttc" id="astructMR_1_1CustomButtonParameters_html_ad01797d49f38c7175a5ca759d5064866"><div class="ttname"><a href="structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866">MR::CustomButtonParameters::pushColorsCb</a></div><div class="ttdeci">std::function&lt; int(bool, bool)&gt; pushColorsCb</div><div class="ttdef"><b>Definition</b> MRRibbonButtonDrawer.h:42</div></div>

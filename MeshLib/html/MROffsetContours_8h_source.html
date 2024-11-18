@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MROffsetContours.h Source File</title>
+<title>MeshLib Documentation: MROffsetContours.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -220,12 +230,12 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>};</div>
 </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">   80</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours2f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">   80</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">   84</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">ContoursVariableOffset</a> = std::function&lt;float( <span class="keywordtype">int</span>, <span class="keywordtype">int</span> )&gt;;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="namespaceMR.html#a5db06f36d945bf1145dd23e57d58c4ee">   86</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours2f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="namespaceMR.html#a27899d08f51f8b1106ec145d7a116f9f">   86</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, </div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <a class="code hl_typedef" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">ContoursVariableOffset</a> offset, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="foldopen" id="foldopen00090" data-start="{" data-end="};">
@@ -237,10 +247,10 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>};</div>
 </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3db56ef37e17985dae9627acb5e6c70a">  101</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours3f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="namespaceMR.html#a5603e7e0bf45735134643ec3745b0573">  101</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours, <span class="keywordtype">float</span> offset,</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="namespaceMR.html#a346a111ee66dc3f9a932e32ca3e15e57">  105</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Contours3f&gt;</a> <a class="code hl_function" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours,</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="namespaceMR.html#aade58963fb6a70bd69db550185bd5af7">  105</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&amp; contours,</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <a class="code hl_typedef" href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">ContoursVariableOffset</a> offset, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>}</div>
@@ -249,13 +259,12 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a13fd7f6f4c21ca10264a68af45c700bd"><div class="ttname"><a href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">MR::offsetContours</a></div><div class="ttdeci">MRMESH_API Contours2f offsetContours(const Contours2f &amp;contours, float offset, const OffsetContoursParams &amp;params={})</div><div class="ttdoc">offsets 2d contours in plane</div></div>
 <div class="ttc" id="anamespaceMR_html_a19cb89c4b7c5582f2215200a5b0755af"><div class="ttname"><a href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af">MR::ContoursVariableOffset</a></div><div class="ttdeci">std::function&lt; float(int, int)&gt; ContoursVariableOffset</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:84</div></div>
 <div class="ttc" id="anamespaceMR_html_a3f87a9abf93ab132bc1ea3f939459b37"><div class="ttname"><a href="namespaceMR.html#a3f87a9abf93ab132bc1ea3f939459b37">MR::OffsetContoursVertMaps</a></div><div class="ttdeci">std::vector&lt; OffsetContoursVertMap &gt; OffsetContoursVertMaps</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:45</div></div>
-<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
-<div class="ttc" id="anamespaceMR_html_a8746fbb8e09652c686ff0dcf8c01804c"><div class="ttname"><a href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">MR::Contours2f</a></div><div class="ttdeci">Contours2&lt; float &gt; Contours2f</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:282</div></div>
+<div class="ttc" id="anamespaceMR_html_a8746fbb8e09652c686ff0dcf8c01804c"><div class="ttname"><a href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">MR::Contours2f</a></div><div class="ttdeci">Contours2&lt; float &gt; Contours2f</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:283</div></div>
 <div class="ttc" id="anamespaceMR_html_abbeb6c9515d4865378050cb9687fd180"><div class="ttname"><a href="namespaceMR.html#abbeb6c9515d4865378050cb9687fd180">MR::OffsetContoursVertMap</a></div><div class="ttdeci">std::vector&lt; OffsetContoursOrigins &gt; OffsetContoursVertMap</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:44</div></div>
-<div class="ttc" id="anamespaceMR_html_ac93791b17f5bb1ff4a6a7e7f51a7abc9"><div class="ttname"><a href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">MR::Contours3f</a></div><div class="ttdeci">Contours3&lt; float &gt; Contours3f</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:284</div></div>
-<div class="ttc" id="anamespaceMR_html_acedbfb27bdded9e3c9322ce1e29e0781"><div class="ttname"><a href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">MR::offsetContours</a></div><div class="ttdeci">MRMESH_API Expected&lt; Contours2f &gt; offsetContours(const Contours2f &amp;contours, float offset, const OffsetContoursParams &amp;params={})</div><div class="ttdoc">offsets 2d contours in plane</div></div>
+<div class="ttc" id="anamespaceMR_html_ac93791b17f5bb1ff4a6a7e7f51a7abc9"><div class="ttname"><a href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">MR::Contours3f</a></div><div class="ttdeci">Contours3&lt; float &gt; Contours3f</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:285</div></div>
 <div class="ttc" id="astructMR_1_1OffsetContourIndex_html"><div class="ttname"><a href="structMR_1_1OffsetContourIndex.html">MR::OffsetContourIndex</a></div><div class="ttdef"><b>Definition</b> MROffsetContours.h:12</div></div>
 <div class="ttc" id="astructMR_1_1OffsetContourIndex_html_a54bdd66c3fff31476178a447886820e7"><div class="ttname"><a href="structMR_1_1OffsetContourIndex.html#a54bdd66c3fff31476178a447886820e7">MR::OffsetContourIndex::vertId</a></div><div class="ttdeci">int vertId</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:16</div></div>
 <div class="ttc" id="astructMR_1_1OffsetContourIndex_html_ae382efff2f4e2a54df6db8e72d4c7420"><div class="ttname"><a href="structMR_1_1OffsetContourIndex.html#ae382efff2f4e2a54df6db8e72d4c7420">MR::OffsetContourIndex::valid</a></div><div class="ttdeci">bool valid() const</div><div class="ttdef"><b>Definition</b> MROffsetContours.h:17</div></div>

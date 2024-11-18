@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::Vector&lt; T, I &gt; Class Template Reference</title>
+<title>MeshLib Documentation: MR::Vector&lt; T, I &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -164,8 +174,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c68875da8e1de13eb3033e6dcb33bf3" id="r_a0c68875da8e1de13eb3033e6dcb33bf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c68875da8e1de13eb3033e6dcb33bf3">Vector</a> ()=default</td></tr>
 <tr class="separator:a0c68875da8e1de13eb3033e6dcb33bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21221590bfd97a156317965b0d24fe28" id="r_a21221590bfd97a156317965b0d24fe28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21221590bfd97a156317965b0d24fe28">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
-<tr class="separator:a21221590bfd97a156317965b0d24fe28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af899ea32ccf8bf49bb09d834c9d178dd" id="r_af899ea32ccf8bf49bb09d834c9d178dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af899ea32ccf8bf49bb09d834c9d178dd">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:af899ea32ccf8bf49bb09d834c9d178dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac68e153a1cf7d72f90f9af6be0555d6e" id="r_ac68e153a1cf7d72f90f9af6be0555d6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac68e153a1cf7d72f90f9af6be0555d6e">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>, const T &amp;val)</td></tr>
 <tr class="separator:ac68e153a1cf7d72f90f9af6be0555d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68a6c5f7f0cebdd11e11ced071dad1bd" id="r_a68a6c5f7f0cebdd11e11ced071dad1bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68a6c5f7f0cebdd11e11ced071dad1bd">Vector</a> (std::vector&lt; T &gt; &amp;&amp;vec)</td></tr>
@@ -175,22 +185,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a677df0d98b9a3abfc0733796f1c56c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f77e1876cab4b371446e7913cb25121" id="r_a8f77e1876cab4b371446e7913cb25121"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f77e1876cab4b371446e7913cb25121">Vector</a> (std::initializer_list&lt; T &gt; init)</td></tr>
 <tr class="separator:a8f77e1876cab4b371446e7913cb25121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9049d63c5d01599e8ec617775f170924" id="r_a9049d63c5d01599e8ec617775f170924"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9049d63c5d01599e8ec617775f170924">operator==</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
-<tr class="separator:a9049d63c5d01599e8ec617775f170924"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50131caa06ed075d77ec040499398fd2" id="r_a50131caa06ed075d77ec040499398fd2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50131caa06ed075d77ec040499398fd2">operator!=</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
-<tr class="separator:a50131caa06ed075d77ec040499398fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac23bc97fbd4484f943e6ff60af745e75" id="r_ac23bc97fbd4484f943e6ff60af745e75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23bc97fbd4484f943e6ff60af745e75">operator==</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:ac23bc97fbd4484f943e6ff60af745e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7dbbc00d422b6370dc679c663c5331" id="r_a9e7dbbc00d422b6370dc679c663c5331"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7dbbc00d422b6370dc679c663c5331">operator!=</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:a9e7dbbc00d422b6370dc679c663c5331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e593b171d655e35f554674f88083c76" id="r_a0e593b171d655e35f554674f88083c76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e593b171d655e35f554674f88083c76">clear</a> ()</td></tr>
 <tr class="separator:a0e593b171d655e35f554674f88083c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b153c69fb7b5e1466b10723dd2f35b" id="r_ac4b153c69fb7b5e1466b10723dd2f35b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4b153c69fb7b5e1466b10723dd2f35b">empty</a> () const</td></tr>
 <tr class="separator:ac4b153c69fb7b5e1466b10723dd2f35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2816ffd002bac70ab04d1bd18e2c5cfd" id="r_a2816ffd002bac70ab04d1bd18e2c5cfd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a> () const</td></tr>
 <tr class="separator:a2816ffd002bac70ab04d1bd18e2c5cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b5dff5e1fcf49ed6a53eadf25ac77eb" id="r_a2b5dff5e1fcf49ed6a53eadf25ac77eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b5dff5e1fcf49ed6a53eadf25ac77eb">resize</a> (size_t newSize) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
-<tr class="separator:a2b5dff5e1fcf49ed6a53eadf25ac77eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc58d3ae0c8aa9091c74d633a8cfae0e" id="r_abc58d3ae0c8aa9091c74d633a8cfae0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc58d3ae0c8aa9091c74d633a8cfae0e">resize</a> (size_t newSize, const T &amp;t) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
-<tr class="separator:abc58d3ae0c8aa9091c74d633a8cfae0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25f83af64720d2ff9454fea85b130d6d" id="r_a25f83af64720d2ff9454fea85b130d6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25f83af64720d2ff9454fea85b130d6d">resizeNoInit</a> (size_t targetSize) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
-<tr class="separator:a25f83af64720d2ff9454fea85b130d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c8202f5b1a09ebf0bd5a5a3dc2936fd" id="r_a2c8202f5b1a09ebf0bd5a5a3dc2936fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c8202f5b1a09ebf0bd5a5a3dc2936fd">resize</a> (size_t newSize) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:a2c8202f5b1a09ebf0bd5a5a3dc2936fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae081234bbf4fef169d61159d617cf5c6" id="r_ae081234bbf4fef169d61159d617cf5c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae081234bbf4fef169d61159d617cf5c6">resize</a> (size_t newSize, const T &amp;t) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:ae081234bbf4fef169d61159d617cf5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a23a61e0e9734a4a33ad686080db6b0" id="r_a8a23a61e0e9734a4a33ad686080db6b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a23a61e0e9734a4a33ad686080db6b0">resizeNoInit</a> (size_t targetSize) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:a8a23a61e0e9734a4a33ad686080db6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291f08448069b69e4286d064907e6fdd" id="r_a291f08448069b69e4286d064907e6fdd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291f08448069b69e4286d064907e6fdd">capacity</a> () const</td></tr>
 <tr class="separator:a291f08448069b69e4286d064907e6fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f2d276465f6183ec4068d124cbb596" id="r_a74f2d276465f6183ec4068d124cbb596"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f2d276465f6183ec4068d124cbb596">reserve</a> (size_t <a class="el" href="#a291f08448069b69e4286d064907e6fdd">capacity</a>)</td></tr>
@@ -207,9 +217,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23ebf45bd6eb2c59e3f8ac7c4aa70dad" id="r_a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23ebf45bd6eb2c59e3f8ac7c4aa70dad">autoResizeSet</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i, T val)</td></tr>
 <tr class="separator:a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f4d0c5da892042aead3cffe1845a1b" id="r_a80f4d0c5da892042aead3cffe1845a1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f4d0c5da892042aead3cffe1845a1b">autoResizeAt</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
-<tr class="memdesc:a80f4d0c5da892042aead3cffe1845a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector  <br /></td></tr>
-<tr class="separator:a80f4d0c5da892042aead3cffe1845a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34cbfbd253ebde3284a83172a4443540" id="r_a34cbfbd253ebde3284a83172a4443540"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34cbfbd253ebde3284a83172a4443540">autoResizeAt</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:a34cbfbd253ebde3284a83172a4443540"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector  <br /></td></tr>
+<tr class="separator:a34cbfbd253ebde3284a83172a4443540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78fa1b6365aa64b3aec65883530dc735" id="r_a78fa1b6365aa64b3aec65883530dc735"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78fa1b6365aa64b3aec65883530dc735">push_back</a> (const T &amp;t)</td></tr>
 <tr class="separator:a78fa1b6365aa64b3aec65883530dc735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc885715482436dc55e4e61a60ef05dc" id="r_afc885715482436dc55e4e61a60ef05dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc885715482436dc55e4e61a60ef05dc">push_back</a> (T &amp;&amp;t)</td></tr>
@@ -371,8 +381,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a21221590bfd97a156317965b0d24fe28" name="a21221590bfd97a156317965b0d24fe28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21221590bfd97a156317965b0d24fe28">&#9670;&#160;</a></span>Vector() <span class="overload">[2/6]</span></h2>
+<a id="af899ea32ccf8bf49bb09d834c9d178dd" name="af899ea32ccf8bf49bb09d834c9d178dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af899ea32ccf8bf49bb09d834c9d178dd">&#9670;&#160;</a></span>Vector() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,7 +396,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -517,8 +527,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a80f4d0c5da892042aead3cffe1845a1b" name="a80f4d0c5da892042aead3cffe1845a1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80f4d0c5da892042aead3cffe1845a1b">&#9670;&#160;</a></span>autoResizeAt()</h2>
+<a id="a34cbfbd253ebde3284a83172a4443540" name="a34cbfbd253ebde3284a83172a4443540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34cbfbd253ebde3284a83172a4443540">&#9670;&#160;</a></span>autoResizeAt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -532,7 +542,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::autoResizeAt </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1003,8 +1013,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a50131caa06ed075d77ec040499398fd2" name="a50131caa06ed075d77ec040499398fd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50131caa06ed075d77ec040499398fd2">&#9670;&#160;</a></span>operator!=()</h2>
+<a id="a9e7dbbc00d422b6370dc679c663c5331" name="a9e7dbbc00d422b6370dc679c663c5331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7dbbc00d422b6370dc679c663c5331">&#9670;&#160;</a></span>operator!=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1018,7 +1028,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator!= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
+          <td> const &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1030,8 +1040,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a9049d63c5d01599e8ec617775f170924" name="a9049d63c5d01599e8ec617775f170924"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9049d63c5d01599e8ec617775f170924">&#9670;&#160;</a></span>operator==()</h2>
+<a id="ac23bc97fbd4484f943e6ff60af745e75" name="ac23bc97fbd4484f943e6ff60af745e75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23bc97fbd4484f943e6ff60af745e75">&#9670;&#160;</a></span>operator==()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1045,7 +1055,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator== </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
+          <td> const &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1219,8 +1229,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a2b5dff5e1fcf49ed6a53eadf25ac77eb" name="a2b5dff5e1fcf49ed6a53eadf25ac77eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b5dff5e1fcf49ed6a53eadf25ac77eb">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+<a id="a2c8202f5b1a09ebf0bd5a5a3dc2936fd" name="a2c8202f5b1a09ebf0bd5a5a3dc2936fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8202f5b1a09ebf0bd5a5a3dc2936fd">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1234,7 +1244,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1246,8 +1256,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="abc58d3ae0c8aa9091c74d633a8cfae0e" name="abc58d3ae0c8aa9091c74d633a8cfae0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc58d3ae0c8aa9091c74d633a8cfae0e">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+<a id="ae081234bbf4fef169d61159d617cf5c6" name="ae081234bbf4fef169d61159d617cf5c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae081234bbf4fef169d61159d617cf5c6">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1265,7 +1275,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;) &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1277,8 +1287,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a25f83af64720d2ff9454fea85b130d6d" name="a25f83af64720d2ff9454fea85b130d6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25f83af64720d2ff9454fea85b130d6d">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="a8a23a61e0e9734a4a33ad686080db6b0" name="a8a23a61e0e9734a4a33ad686080db6b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a23a61e0e9734a4a33ad686080db6b0">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1292,7 +1302,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeNoInit </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>

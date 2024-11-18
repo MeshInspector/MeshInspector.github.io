@@ -16,7 +16,7 @@ var classMR_1_1RibbonButtonDrawer =
     [ "setGetterRequirements", "classMR_1_1RibbonButtonDrawer.html#a5b4dc1d1236d8173cf3d4d5d54a2ef77", null ],
     [ "setMenu", "classMR_1_1RibbonButtonDrawer.html#a9e8e2cf8f70aa2833fcb03ec85ca1dc5", null ],
     [ "setMonochrome", "classMR_1_1RibbonButtonDrawer.html#a176f5a0226543fa3cfcb61d2a040de9b", null ],
-    [ "setOnPressAction", "classMR_1_1RibbonButtonDrawer.html#a9b9ab4c945c116aadb3e31b11a68d765", null ],
+    [ "setOnPressAction", "classMR_1_1RibbonButtonDrawer.html#a746679f0d740ce76f1180b8e1c572570", null ],
     [ "setScaling", "classMR_1_1RibbonButtonDrawer.html#a275b5c4945909aa90cefef471b77991d", null ],
     [ "setShortcutManager", "classMR_1_1RibbonButtonDrawer.html#a787e77ac1e137bc2009adcb16e36b721", null ]
 ];

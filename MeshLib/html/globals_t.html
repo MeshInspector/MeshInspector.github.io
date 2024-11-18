@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: File Members</title>
+<title>MeshLib Documentation: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -137,17 +147,26 @@ $(function(){initNavTree('globals_t.html',''); initResizable(true); });
 
 <h3><a id="index_t" name="index_t"></a>- t -</h3><ul>
 <li>TEST_ASSERT&#160;:&#160;<a class="el" href="TestMacros_8h.html#a18e67aa9bbe430effc874d3dde1bc7e1">TestMacros.h</a></li>
+<li>testArea()&#160;:&#160;<a class="el" href="MRTestC_2MRMesh_8h.html#a619064914aa7a810e5ae52c83654070a">MRTestC/MRMesh.h</a></li>
 <li>testBitSet()&#160;:&#160;<a class="el" href="MRTestC_2MRBitSet_8h.html#af179eb8d5293c389d6c39fa71812f0b2">MRTestC/MRBitSet.h</a></li>
 <li>testBooleanMapper()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshBoolean_8h.html#a2f41caf40648cfb10b4e577f6c28eb67">MRTestC/MRMeshBoolean.h</a></li>
 <li>testBooleanMultipleEdgePropogationSort()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshBoolean_8h.html#a9ab986369092d07d398bb40c630acc47">MRTestC/MRMeshBoolean.h</a></li>
+<li>testComponentsMap()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshComponents_8h.html#a72a3108d9d52be91889ae3df703c94f5">MRTestC/MRMeshComponents.h</a></li>
+<li>testFindHoleComplicatingFaces()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshFillHole_8h.html#a33e0002d8ab2a82344e20c284223bc34">MRTestC/MRMeshFillHole.h</a></li>
+<li>testFixSelfIntersections()&#160;:&#160;<a class="el" href="MRTestC_2MRFixSelfIntersections_8h.html#adfe33d8ad7ee0d0670f1da8e8149ccd5">MRTestC/MRFixSelfIntersections.h</a></li>
+<li>testGetComponent()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshComponents_8h.html#abed2c9018c30c5bfe9ffd28baab4c088">MRTestC/MRMeshComponents.h</a></li>
+<li>testLargeComponents()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshComponents_8h.html#ab694d944aca6fd737cab0f92098a1617">MRTestC/MRMeshComponents.h</a></li>
+<li>testLargeRegions()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshComponents_8h.html#a71bd541c005f8adae6f62770243c4500">MRTestC/MRMeshComponents.h</a></li>
+<li>testLargestComponent()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshComponents_8h.html#ab64669c05598e2a20bc81de041f81728">MRTestC/MRMeshComponents.h</a></li>
 <li>testMeshBoolean()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshBoolean_8h.html#a63a04945e713022000deaecea1568ffb">MRTestC/MRMeshBoolean.h</a></li>
 <li>testMeshCollidePrecise()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshCollidePrecise_8h.html#a6af7826934076893b444ac26afe33921">MRTestC/MRMeshCollidePrecise.h</a></li>
 <li>testMeshDecimate()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshDecimate_8h.html#a81107b4bd951d271a0c2d4fcc7bce9a0">MRTestC/MRMeshDecimate.h</a></li>
 <li>testMeshFillHole()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshFillHole_8h.html#aedda2afc2d5cbabd09102856a790ad56">MRTestC/MRMeshFillHole.h</a></li>
+<li>testMeshFillHoleNicely()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshFillHole_8h.html#ace8a1f6d98b2aed5fda890df9ac2ffbb">MRTestC/MRMeshFillHole.h</a></li>
 <li>testMeshNormals()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshNormals_8h.html#ae6892f2461a34db40df2fc825bdbe540">MRTestC/MRMeshNormals.h</a></li>
+<li>testRightBoundary()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshFillHole_8h.html#a94380a37b85299d43747b31282fa98c2">MRTestC/MRMeshFillHole.h</a></li>
+<li>testUniteCloseVertices()&#160;:&#160;<a class="el" href="MRTestC_2MRMeshBuilder_8h.html#a07f79f2f20198372a91cd869af7df7c2">MRTestC/MRMeshBuilder.h</a></li>
 <li>Texture&#160;:&#160;<a class="el" href="MRObjectMeshHolder_8h.html#ab6054f2db641cd66812772eedda2d205">MRObjectMeshHolder.h</a></li>
-<li>Triangulation&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7cabda7c9e7b44a896423e4567a9fd27">MRDotNet/MRMeshFwd.h</a></li>
-<li>TriangulationReadOnly&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a80ddfc528145d63349a904920c2d1860">MRDotNet/MRMeshFwd.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

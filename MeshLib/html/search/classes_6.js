@@ -3,7 +3,7 @@ var searchData=
   ['gcodeprocessor_0',['GcodeProcessor',['../classMR_1_1GcodeProcessor.html',1,'MR']]],
   ['gcodetoolslibrary_1',['GcodeToolsLibrary',['../classMR_1_1GcodeToolsLibrary.html',1,'MR']]],
   ['gcommand_2',['GCommand',['../structMR_1_1GCommand.html',1,'MR']]],
-  ['generaloffsetparameters_3',['GeneralOffsetParameters',['../classGeneralOffsetParameters.html',1,'GeneralOffsetParameters'],['../structMR_1_1GeneralOffsetParameters.html',1,'MR::GeneralOffsetParameters']]],
+  ['generaloffsetparameters_3',['GeneralOffsetParameters',['../structMR_1_1GeneralOffsetParameters.html',1,'MR']]],
   ['glbuffer_4',['GlBuffer',['../classMR_1_1GlBuffer.html',1,'MR']]],
   ['glstaticholder_5',['GLStaticHolder',['../classMR_1_1GLStaticHolder.html',1,'MR']]],
   ['gltexture_6',['GlTexture',['../classMR_1_1GlTexture.html',1,'MR']]],

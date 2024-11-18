@@ -6,6 +6,7 @@ var MRFixUndercuts_8h =
     [ "distMapImproveDirection", "MRFixUndercuts_8h.html#a4ce77d6cc1b654cd81c517870a1c840f", null ],
     [ "findUndercuts", "MRFixUndercuts_8h.html#a548e7d2578676101f39955b17a6cd7eb", null ],
     [ "findUndercuts", "MRFixUndercuts_8h.html#a770b64a7fb5b4a0d469efea3f736ab7c", null ],
+    [ "findUndercuts", "MRFixUndercuts_8h.html#af9e483356d616e2e73d144d845938851", null ],
     [ "fixUndercuts", "MRFixUndercuts_8h.html#af9d879c376da4d6ebd30cc77fa915376", null ],
     [ "fixUndercuts", "MRFixUndercuts_8h.html#a17b22007ca26335c67c6c939668c8186", null ],
     [ "getUndercutAreaMetric", "MRFixUndercuts_8h.html#a6103a164b0037795960a4ecc185199cc", null ],

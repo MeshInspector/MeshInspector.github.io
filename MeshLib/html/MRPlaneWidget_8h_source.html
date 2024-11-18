@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRPlaneWidget.h Source File</title>
+<title>MeshLib Documentation: MRPlaneWidget.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -141,7 +151,7 @@ $(function(){initNavTree('MRPlaneWidget_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRViewerEventsListener_8h.html">MRViewerEventsListener.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBox_8h.html">MRMesh/MRBox.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRPlane3_8h.html">MRMesh/MRPlane3.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector2_8h.html">MRMesh/MRVector2.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
@@ -152,8 +162,8 @@ $(function(){initNavTree('MRPlaneWidget_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    std::shared_ptr&lt;ObjectMesh&gt; planeObj_;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    Plane3f plane_;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="structMR_1_1Box.html">Box3f</a> box_;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_class" href="classVector3f.html">Vector3f</a> cameraUp3Old_;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    Box3f box_;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    Vector3f cameraUp3Old_;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// if in this mode - newly setup plane always has 0.0 shift</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> localMode_{ <span class="keyword">false</span> };</div>
@@ -177,7 +187,7 @@ $(function(){initNavTree('MRPlaneWidget_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#a2d610de7f459407dbb91a6bab7e7e3ba">   38</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1PlaneWidget.html#a2d610de7f459407dbb91a6bab7e7e3ba">updatePlane</a>( <span class="keyword">const</span> Plane3f&amp; plane, <span class="keywordtype">bool</span> updateCameraRotation = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">// updates box which is used to calculate size and position of the visualized plane part</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// if updateCameraRotation is true, plane transform will be updated with respect of camera up direction</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d">   41</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d">updateBox</a>( <span class="keyword">const</span> <a class="code hl_class" href="structMR_1_1Box.html">Box3f</a>&amp; box, <span class="keywordtype">bool</span> updateCameraRotation = <span class="keyword">true</span> );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d">   41</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d">updateBox</a>( <span class="keyword">const</span> Box3f&amp; box, <span class="keywordtype">bool</span> updateCameraRotation = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="comment">// defines plane, adds plane object to scene</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#a5af9b5613a5158a835792759b5058f58">   43</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1PlaneWidget.html#a5af9b5613a5158a835792759b5058f58">definePlane</a>();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// undefines plane, removes PlaneObject from scene</span></div>
@@ -199,7 +209,7 @@ $(function(){initNavTree('MRPlaneWidget_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#a443d496fd75a4f4f959365ea6c167d31">   60</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1PlaneWidget.html#a443d496fd75a4f4f959365ea6c167d31">setOnPlaneUpdateCallback</a>( OnPlaneUpdateCallback  callback );</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">// returns box which is used to calculate size and position of the visualized plane part</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71">   63</a></span>    MRVIEWER_API <span class="keyword">const</span> <a class="code hl_class" href="structMR_1_1Box.html">Box3f</a>&amp; <a class="code hl_function" href="classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71">box</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71">   63</a></span>    MRVIEWER_API <span class="keyword">const</span> Box3f&amp; <a class="code hl_function" href="classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71">box</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">// returns the flag importPlaneMode_, if it is true you can use a plain object from the scene</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d">   65</a></span>    MRVIEWER_API <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d">importPlaneMode</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="comment">// sets the flag importPlaneMode_, if it is true you can use a plain object from the scene</span></div>
@@ -213,16 +223,16 @@ $(function(){initNavTree('MRPlaneWidget_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    MRVIEWER_API <span class="keywordtype">void</span> updateWidget_( <span class="keywordtype">bool</span> updateCameraRotation = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
 </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>}</div>
 <div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRPlane3_8h_html"><div class="ttname"><a href="MRPlane3_8h.html">MRPlane3.h</a></div></div>
+<div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aMRViewerEventsListener_8h_html"><div class="ttname"><a href="MRViewerEventsListener_8h.html">MRViewerEventsListener.h</a></div></div>
-<div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1PlaneWidget_html"><div class="ttname"><a href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a></div><div class="ttdef"><b>Definition</b> MRPlaneWidget.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1PlaneWidget_html_a02b1ad4d4554be85b3e272be50cd7095"><div class="ttname"><a href="classMR_1_1PlaneWidget.html#a02b1ad4d4554be85b3e272be50cd7095">MR::PlaneWidget::getPlane</a></div><div class="ttdeci">MRVIEWER_API const Plane3f &amp; getPlane() const</div></div>
 <div class="ttc" id="aclassMR_1_1PlaneWidget_html_a1734d155421e7bea066ad89085f451af"><div class="ttname"><a href="classMR_1_1PlaneWidget.html#a1734d155421e7bea066ad89085f451af">MR::PlaneWidget::setImportPlaneMode</a></div><div class="ttdeci">MRVIEWER_API void setImportPlaneMode(bool val)</div></div>
@@ -240,10 +250,8 @@ $(function(){initNavTree('MRPlaneWidget_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aclassMR_1_1PlaneWidget_html_ade4245fe1a8605fb5f9b563ea03d5f71"><div class="ttname"><a href="classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71">MR::PlaneWidget::box</a></div><div class="ttdeci">MRVIEWER_API const Box3f &amp; box() const</div></div>
 <div class="ttc" id="aclassMR_1_1PlaneWidget_html_adf199dcf2c914f0c5584c3703355e7ae"><div class="ttname"><a href="classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae">MR::PlaneWidget::setLocalMode</a></div><div class="ttdeci">MRVIEWER_API void setLocalMode(bool on)</div></div>
 <div class="ttc" id="aclassMR_1_1PlaneWidget_html_adf904937d1dcfe1bd338c31cd4e45a2d"><div class="ttname"><a href="classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d">MR::PlaneWidget::importPlaneMode</a></div><div class="ttdeci">MRVIEWER_API bool importPlaneMode() const</div></div>
-<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition</b> MRMouse.h:9</div></div>
-<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box&lt; Vector3f &gt;</a></div></div>
 <div class="ttc" id="astructMR_1_1MultiListener_html"><div class="ttname"><a href="structMR_1_1MultiListener.html">MR::MultiListener</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,6 +1,9 @@
 var classMR_1_1DirectionWidget =
 [
+    [ "ChangeBaseAction", "classMR_1_1DirectionWidget_1_1ChangeBaseAction.html", "classMR_1_1DirectionWidget_1_1ChangeBaseAction" ],
     [ "ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", "classMR_1_1DirectionWidget_1_1ChangeDirAction" ],
+    [ "ChangeLengthAction", "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html", "classMR_1_1DirectionWidget_1_1ChangeLengthAction" ],
+    [ "ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction" ],
     [ "OnDirectionChangedCallback", "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275", null ],
     [ "create", "classMR_1_1DirectionWidget.html#afcaf7c69225293dcce6ae1d2bb12c2f9", null ],
     [ "getBase", "classMR_1_1DirectionWidget.html#ac698fed7416ed6492d2dea7ca16a4274", null ],

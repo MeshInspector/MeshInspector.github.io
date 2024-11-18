@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRMultiwayAligningTransform.h Source File</title>
+<title>MeshLib Documentation: MRMultiwayAligningTransform.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -161,11 +171,11 @@ $(function(){initNavTree('MRMultiwayAligningTransform_8h_source.html',''); initR
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">   33</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">add</a>( <span class="keywordtype">int</span> objA, const Vector3d&amp; pA, <span class="keywordtype">int</span> objB, const Vector3d&amp; pB, <span class="keywordtype">double</span> w = 1 );</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0">   37</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">add</a>( <span class="keywordtype">int</span> objA, const <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; pA, <span class="keywordtype">int</span> objB, const <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; pB, <span class="keywordtype">float</span> w = 1 ) { <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0">add</a>( objA, Vector3d( pA ), objB, Vector3d( pB ), w ); }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0">   37</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">add</a>( <span class="keywordtype">int</span> objA, const Vector3f&amp; pA, <span class="keywordtype">int</span> objB, const Vector3f&amp; pB, <span class="keywordtype">float</span> w = 1 ) { <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0">add</a>( objA, Vector3d( pA ), objB, Vector3d( pB ), w ); }</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classMR_1_1MultiwayAligningTransform.html#a3e485b9e92d58d482847c3dc90afcc8d">   42</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#a3e485b9e92d58d482847c3dc90afcc8d">add</a>( <span class="keywordtype">int</span> objA, <span class="keyword">const</span> Vector3d&amp; pA, <span class="keywordtype">int</span> objB, <span class="keyword">const</span> Vector3d&amp; pB, <span class="keyword">const</span> Vector3d&amp; n, <span class="keywordtype">double</span> w = 1 );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4">   47</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4">add</a>( <span class="keywordtype">int</span> objA, <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; pA, <span class="keywordtype">int</span> objB, <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; pB, <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a>&amp; n, <span class="keywordtype">float</span> w = 1 ) { <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4">add</a>( objA, Vector3d( pA ), objB, Vector3d( pB ), Vector3d( n ), w ); }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4">   47</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4">add</a>( <span class="keywordtype">int</span> objA, <span class="keyword">const</span> Vector3f&amp; pA, <span class="keywordtype">int</span> objB, <span class="keyword">const</span> Vector3f&amp; pB, <span class="keyword">const</span> Vector3f&amp; n, <span class="keywordtype">float</span> w = 1 ) { <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4">add</a>( objA, Vector3d( pA ), objB, Vector3d( pB ), Vector3d( n ), w ); }</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1MultiwayAligningTransform.html#a339777c7114ede92149acc8c703508d0">   50</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MultiwayAligningTransform.html#a339777c7114ede92149acc8c703508d0">add</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MultiwayAligningTransform.html">MultiwayAligningTransform</a> &amp; r );</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
@@ -203,7 +213,6 @@ $(function(){initNavTree('MRMultiwayAligningTransform_8h_source.html',''); initR
 <div class="ttc" id="aclassMR_1_1MultiwayAligningTransform_html_ae6740604d1fa635862343a99d6cb5d7e"><div class="ttname"><a href="classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">MR::MultiwayAligningTransform::add</a></div><div class="ttdeci">MRMESH_API void add(int objA, const Vector3d &amp;pA, int objB, const Vector3d &amp;pB, double w=1)</div></div>
 <div class="ttc" id="aclassMR_1_1MultiwayAligningTransform_html_ae9a3702a5e0dc2a2a5f9665fd886be0a"><div class="ttname"><a href="classMR_1_1MultiwayAligningTransform.html#ae9a3702a5e0dc2a2a5f9665fd886be0a">MR::MultiwayAligningTransform::MultiwayAligningTransform</a></div><div class="ttdeci">MRMESH_API MultiwayAligningTransform(MultiwayAligningTransform &amp;&amp;) noexcept</div></div>
 <div class="ttc" id="aclassMR_1_1MultiwayAligningTransform_html_aff88b77e742b2e4c2aad5013dfa2c4c2"><div class="ttname"><a href="classMR_1_1MultiwayAligningTransform.html#aff88b77e742b2e4c2aad5013dfa2c4c2">MR::MultiwayAligningTransform::solve</a></div><div class="ttdeci">MRMESH_API std::vector&lt; RigidXf3d &gt; solve(const Stabilizer &amp;stab) const</div></div>
-<div class="ttc" id="aclassVector3f_html"><div class="ttname"><a href="classVector3f.html">Vector3f</a></div><div class="ttdoc">represents a 3-dimentional float-typed vector</div><div class="ttdef"><b>Definition</b> MRDotNet/MRVector3.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1MultiwayAligningTransform_1_1Stabilizer_html"><div class="ttname"><a href="structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html">MR::MultiwayAligningTransform::Stabilizer</a></div><div class="ttdef"><b>Definition</b> MRMultiwayAligningTransform.h:55</div></div>
 <div class="ttc" id="astructMR_1_1MultiwayAligningTransform_1_1Stabilizer_html_a7145307fcfb6ab1a4ad9426e6d2ac36b"><div class="ttname"><a href="structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b">MR::MultiwayAligningTransform::Stabilizer::shift</a></div><div class="ttdeci">double shift</div><div class="ttdoc">any not-zero number stabilizes solution for translation</div><div class="ttdef"><b>Definition</b> MRMultiwayAligningTransform.h:60</div></div>

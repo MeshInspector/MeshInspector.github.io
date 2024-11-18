@@ -1,12 +1,12 @@
 var searchData=
 [
   ['taggedbitset_0',['TaggedBitSet',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
-  ['taggedbitset_3c_20tag_20_3e_1',['TaggedBitSet&lt; Tag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
-  ['teethmasktodirectionvolumeconvertor_2',['TeethMaskToDirectionVolumeConvertor',['../classMR_1_1TeethMaskToDirectionVolumeConvertor.html',1,'MR']]],
-  ['terminalvertex_3',['TerminalVertex',['../structMR_1_1TerminalVertex.html',1,'MR']]],
-  ['textmeshalignparams_4',['TextMeshAlignParams',['../structMR_1_1TextMeshAlignParams.html',1,'MR']]],
-  ['threadroottimerecord_5',['ThreadRootTimeRecord',['../structMR_1_1ThreadRootTimeRecord.html',1,'MR']]],
-  ['threevertids_6',['ThreeVertIds',['../structThreeVertIds.html',1,'']]],
+  ['taggedbitset_3c_20regiontag_20_3e_1',['TaggedBitSet&lt; RegionTag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['taggedbitset_3c_20tag_20_3e_2',['TaggedBitSet&lt; Tag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['teethmasktodirectionvolumeconvertor_3',['TeethMaskToDirectionVolumeConvertor',['../classMR_1_1TeethMaskToDirectionVolumeConvertor.html',1,'MR']]],
+  ['terminalvertex_4',['TerminalVertex',['../structMR_1_1TerminalVertex.html',1,'MR']]],
+  ['textmeshalignparams_5',['TextMeshAlignParams',['../structMR_1_1TextMeshAlignParams.html',1,'MR']]],
+  ['threadroottimerecord_6',['ThreadRootTimeRecord',['../structMR_1_1ThreadRootTimeRecord.html',1,'MR']]],
   ['tiffparameters_7',['TiffParameters',['../structMR_1_1TiffParameters.html',1,'MR']]],
   ['timer_8',['Timer',['../classMR_1_1Timer.html',1,'MR']]],
   ['timerecord_9',['TimeRecord',['../structMR_1_1TimeRecord.html',1,'MR']]],
@@ -39,7 +39,7 @@ var searchData=
   ['trimesh_36',['TriMesh',['../structMR_1_1TriMesh.html',1,'MR']]],
   ['trimoptionaloutput_37',['TrimOptionalOutput',['../structMR_1_1TrimOptionalOutput.html',1,'MR']]],
   ['trimwithplaneparams_38',['TrimWithPlaneParams',['../structMR_1_1TrimWithPlaneParams.html',1,'MR']]],
-  ['tripoint_39',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR::TriPoint&lt; T &gt;'],['../structTriPoint.html',1,'TriPoint']]],
+  ['tripoint_39',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR']]],
   ['trivialmetrictopenalty_40',['TrivialMetricToPenalty',['../structMR_1_1TrivialMetricToPenalty.html',1,'MR']]],
   ['typedflattree_41',['TypedFlatTree',['../structMR_1_1TypedFlatTree.html',1,'MR']]]
 ];

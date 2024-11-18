@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Math group</title>
+<title>MeshLib Documentation: Math group</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -204,15 +214,15 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes rigid transformation xf  <br /></td></tr>
 <tr class="separator:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b002e846a245cb69384c1d444ea65a0" id="r_ga3b002e846a245cb69384c1d444ea65a0"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ga3b002e846a245cb69384c1d444ea65a0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3b002e846a245cb69384c1d444ea65a0">MR::computeBoundingBox</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;points, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> firstVert, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> lastVert, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *region=nullptr, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr)</td></tr>
+<tr class="memitem:ga3b002e846a245cb69384c1d444ea65a0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3b002e846a245cb69384c1d444ea65a0">MR::computeBoundingBox</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; &amp;points, VertId firstVert, VertId lastVert, const VertBitSet *region=nullptr, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr)</td></tr>
 <tr class="separator:ga3b002e846a245cb69384c1d444ea65a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga560ffd3d317d3bb18df9db6aae8c2d02" id="r_ga560ffd3d317d3bb18df9db6aae8c2d02"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ga560ffd3d317d3bb18df9db6aae8c2d02"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga560ffd3d317d3bb18df9db6aae8c2d02">MR::computeBoundingBox</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;points, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *region=nullptr, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr)</td></tr>
+<tr class="memitem:ga560ffd3d317d3bb18df9db6aae8c2d02"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga560ffd3d317d3bb18df9db6aae8c2d02">MR::computeBoundingBox</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; &amp;points, const VertBitSet *region=nullptr, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr)</td></tr>
 <tr class="separator:ga560ffd3d317d3bb18df9db6aae8c2d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac591d793fa5ee868f8255a94350e1aef" id="r_gac591d793fa5ee868f8255a94350e1aef"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:gac591d793fa5ee868f8255a94350e1aef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac591d793fa5ee868f8255a94350e1aef">MR::computeBoundingBox</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;points, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;region, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr)</td></tr>
+<tr class="memitem:gac591d793fa5ee868f8255a94350e1aef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac591d793fa5ee868f8255a94350e1aef">MR::computeBoundingBox</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; &amp;points, const VertBitSet &amp;region, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr)</td></tr>
 <tr class="separator:gac591d793fa5ee868f8255a94350e1aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf420bd1285dda4239d2ac0fac2eff1f9" id="r_gaf420bd1285dda4239d2ac0fac2eff1f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf420bd1285dda4239d2ac0fac2eff1f9">MR::makeRigidXf</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const AffineXf3d &amp;meshXf)</td></tr>
+<tr class="memitem:gaf420bd1285dda4239d2ac0fac2eff1f9" id="r_gaf420bd1285dda4239d2ac0fac2eff1f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf420bd1285dda4239d2ac0fac2eff1f9">MR::makeRigidXf</a> (const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)</td></tr>
 <tr class="separator:gaf420bd1285dda4239d2ac0fac2eff1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97b0c226492f4561c1a2c13831433bed" id="r_ga97b0c226492f4561c1a2c13831433bed"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga97b0c226492f4561c1a2c13831433bed"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga97b0c226492f4561c1a2c13831433bed">MR::circumcircleDiameterSq</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
@@ -237,25 +247,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga04b9e51953d898cf85e76c05d426366a" id="r_ga04b9e51953d898cf85e76c05d426366a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga04b9e51953d898cf85e76c05d426366a">MR::ccw</a> (const Vector2i &amp;a, const Vector2i &amp;b)</td></tr>
 <tr class="separator:ga04b9e51953d898cf85e76c05d426366a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf33aff000dfb310f8d4e2b79698c3373" id="r_gaf33aff000dfb310f8d4e2b79698c3373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf33aff000dfb310f8d4e2b79698c3373">MR::orient3d</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;a, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;b, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;c)</td></tr>
+<tr class="memitem:gaf33aff000dfb310f8d4e2b79698c3373" id="r_gaf33aff000dfb310f8d4e2b79698c3373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf33aff000dfb310f8d4e2b79698c3373">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
 <tr class="separator:gaf33aff000dfb310f8d4e2b79698c3373"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga24ef393e1380f77979d9cfa6f7e0e88e" id="r_ga24ef393e1380f77979d9cfa6f7e0e88e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24ef393e1380f77979d9cfa6f7e0e88e">MR::orient3d</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;a, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;b, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;c, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;d)</td></tr>
-<tr class="separator:ga24ef393e1380f77979d9cfa6f7e0e88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5bd54d5a4565669fb45c78db08bc403e" id="r_ga5bd54d5a4565669fb45c78db08bc403e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5bd54d5a4565669fb45c78db08bc403e">MR::orient3d</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;vs)</td></tr>
-<tr class="memdesc:ga5bd54d5a4565669fb45c78db08bc403e"><td class="mdescLeft">&#160;</td><td class="mdescRight">first sorts the indices in ascending order, then calls the predicate for sorted points  <br /></td></tr>
-<tr class="separator:ga5bd54d5a4565669fb45c78db08bc403e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga529a69e762c0747c64c93926a897862b" id="r_ga529a69e762c0747c64c93926a897862b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga529a69e762c0747c64c93926a897862b">MR::orient3d</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs)</td></tr>
-<tr class="separator:ga529a69e762c0747c64c93926a897862b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1786b102734c05b43aec639689904eba" id="r_ga1786b102734c05b43aec639689904eba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1786b102734c05b43aec639689904eba">MR::doTriangleSegmentIntersect</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
-<tr class="separator:ga1786b102734c05b43aec639689904eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9736a434a7f001c05b9a7d23675ca257" id="r_ga9736a434a7f001c05b9a7d23675ca257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae641d5d13654d894de287d0b3a6ae921">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9736a434a7f001c05b9a7d23675ca257">MR::getToIntConverter</a> (const Box3d &amp;box)</td></tr>
-<tr class="memdesc:ga9736a434a7f001c05b9a7d23675ca257"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from <a class="el" href="classVector3f.html" title="represents a 3-dimentional float-typed vector">Vector3f</a> to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
-<tr class="separator:ga9736a434a7f001c05b9a7d23675ca257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2096ace9292b40c55421517434fd8bd8" id="r_ga2096ace9292b40c55421517434fd8bd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a849a8f3dfb1be7b9c3c9f4b9920d7b20">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2096ace9292b40c55421517434fd8bd8">MR::getToFloatConverter</a> (const Box3d &amp;box)</td></tr>
-<tr class="memdesc:ga2096ace9292b40c55421517434fd8bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3i to <a class="el" href="classVector3f.html" title="represents a 3-dimentional float-typed vector">Vector3f</a> in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
-<tr class="separator:ga2096ace9292b40c55421517434fd8bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6f4d593d1b9ff1f262a583bf72f384f8" id="r_ga6f4d593d1b9ff1f262a583bf72f384f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6f4d593d1b9ff1f262a583bf72f384f8">MR::findTriangleSegmentIntersectionPrecise</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;a, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;b, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;c, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;d, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
-<tr class="separator:ga6f4d593d1b9ff1f262a583bf72f384f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68" id="r_ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3f97fcf1b362e9c60d8a596aa8d1de68">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;ev)</td></tr>
 <tr class="separator:ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -423,12 +416,12 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt; MR::computeBoundingBox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -460,12 +453,12 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt; MR::computeBoundingBox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -494,22 +487,22 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt; MR::computeBoundingBox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>firstVert</em></span>, </td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>firstVert</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>lastVert</em></span>, </td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>lastVert</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -625,82 +618,6 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>given an edge direction between two faces with given normals, computes sine of dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface </p>
-
-</div>
-</div>
-<a id="ga1786b102734c05b43aec639689904eba" name="ga1786b102734c05b43aec639689904eba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1786b102734c05b43aec639689904eba">&#9670;&#160;</a></span>doTriangleSegmentIntersect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a> MR::doTriangleSegmentIntersect </td>
-          <td>(</td>
-          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity </p>
-
-</div>
-</div>
-<a id="ga6f4d593d1b9ff1f262a583bf72f384f8" name="ga6f4d593d1b9ff1f262a583bf72f384f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f4d593d1b9ff1f262a583bf72f384f8">&#9670;&#160;</a></span>findTriangleSegmentIntersectionPrecise()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a> MR::findTriangleSegmentIntersectionPrecise </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a></td>          <td class="paramname"><span class="paramname"><em>converters</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>finds intersection precise, using high precision int inside this function input should have intersection </p>
 
 </div>
 </div>
@@ -893,44 +810,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga2096ace9292b40c55421517434fd8bd8" name="ga2096ace9292b40c55421517434fd8bd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2096ace9292b40c55421517434fd8bd8">&#9670;&#160;</a></span>getToFloatConverter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a849a8f3dfb1be7b9c3c9f4b9920d7b20">ConvertToFloatVector</a> MR::getToFloatConverter </td>
-          <td>(</td>
-          <td class="paramtype">const Box3d &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>creates converter from Vector3i to <a class="el" href="classVector3f.html" title="represents a 3-dimentional float-typed vector">Vector3f</a> in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range) </p>
-
-</div>
-</div>
-<a id="ga9736a434a7f001c05b9a7d23675ca257" name="ga9736a434a7f001c05b9a7d23675ca257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9736a434a7f001c05b9a7d23675ca257">&#9670;&#160;</a></span>getToIntConverter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae641d5d13654d894de287d0b3a6ae921">ConvertToIntVector</a> MR::getToIntConverter </td>
-          <td>(</td>
-          <td class="paramtype">const Box3d &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>creates converter from <a class="el" href="classVector3f.html" title="represents a 3-dimentional float-typed vector">Vector3f</a> to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range) </p>
-
-</div>
-</div>
 <a id="ga9ae923a2855ed035b5d5f74b3162c0da" name="ga9ae923a2855ed035b5d5f74b3162c0da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9ae923a2855ed035b5d5f74b3162c0da">&#9670;&#160;</a></span>lookAt()</h2>
 
@@ -977,7 +856,7 @@ xf(eye) = 0 </p>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3d MR::makeRigidXf </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1032,44 +911,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga529a69e762c0747c64c93926a897862b" name="ga529a69e762c0747c64c93926a897862b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga529a69e762c0747c64c93926a897862b">&#9670;&#160;</a></span>orient3d() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orient3d </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga5bd54d5a4565669fb45c78db08bc403e" name="ga5bd54d5a4565669fb45c78db08bc403e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5bd54d5a4565669fb45c78db08bc403e">&#9670;&#160;</a></span>orient3d() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orient3d </td>
-          <td>(</td>
-          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>first sorts the indices in ascending order, then calls the predicate for sorted points </p>
-
-</div>
-</div>
 <a id="gaf33aff000dfb310f8d4e2b79698c3373" name="gaf33aff000dfb310f8d4e2b79698c3373"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf33aff000dfb310f8d4e2b79698c3373">&#9670;&#160;</a></span>orient3d() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf33aff000dfb310f8d4e2b79698c3373">&#9670;&#160;</a></span>orient3d()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1077,61 +920,21 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orient3d </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid "0 is exactly on plane" </p>
-
-</div>
-</div>
-<a id="ga24ef393e1380f77979d9cfa6f7e0e88e" name="ga24ef393e1380f77979d9cfa6f7e0e88e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga24ef393e1380f77979d9cfa6f7e0e88e">&#9670;&#160;</a></span>orient3d() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::orient3d </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid "D is exactly on plane" </p>
 
 </div>
 </div>

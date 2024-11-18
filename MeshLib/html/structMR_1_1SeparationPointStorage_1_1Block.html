@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::SeparationPointStorage::Block Struct Reference</title>
+<title>MeshLib Documentation: MR::SeparationPointStorage::Block Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -145,7 +155,7 @@ $(function(){initNavTree('structMR_1_1SeparationPointStorage_1_1Block.html','');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2ef8d933c08326819afd1d2681a5446c" id="r_a2ef8d933c08326819afd1d2681a5446c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ef8d933c08326819afd1d2681a5446c">nextVid</a> () const</td></tr>
+<tr class="memitem:a2ef8d933c08326819afd1d2681a5446c" id="r_a2ef8d933c08326819afd1d2681a5446c"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ef8d933c08326819afd1d2681a5446c">nextVid</a> () const</td></tr>
 <tr class="memdesc:a2ef8d933c08326819afd1d2681a5446c"><td class="mdescLeft">&#160;</td><td class="mdescRight">during filling, it is the id of next valid point;  <br /></td></tr>
 <tr class="separator:a2ef8d933c08326819afd1d2681a5446c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -153,14 +163,14 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a171fe956486e01cdfdddedaedd905ca4" id="r_a171fe956486e01cdfdddedaedd905ca4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#abe4fc717ac175a150ec372e71e5d0ba1">SeparationPointMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a171fe956486e01cdfdddedaedd905ca4">smap</a></td></tr>
 <tr class="separator:a171fe956486e01cdfdddedaedd905ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58df13a2b6e26ec0a73b3883451f7c27" id="r_a58df13a2b6e26ec0a73b3883451f7c27"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58df13a2b6e26ec0a73b3883451f7c27">coords</a></td></tr>
+<tr class="memitem:a58df13a2b6e26ec0a73b3883451f7c27" id="r_a58df13a2b6e26ec0a73b3883451f7c27"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58df13a2b6e26ec0a73b3883451f7c27">coords</a></td></tr>
 <tr class="separator:a58df13a2b6e26ec0a73b3883451f7c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e39467c0dd89a73144f53515aaeedb" id="r_ab2e39467c0dd89a73144f53515aaeedb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2e39467c0dd89a73144f53515aaeedb">shift</a></td></tr>
+<tr class="memitem:ab2e39467c0dd89a73144f53515aaeedb" id="r_ab2e39467c0dd89a73144f53515aaeedb"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2e39467c0dd89a73144f53515aaeedb">shift</a></td></tr>
 <tr class="memdesc:ab2e39467c0dd89a73144f53515aaeedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">after <a class="el" href="classMR_1_1SeparationPointStorage.html#a99db5fa322a3860d51db5e4292a83786">makeUniqueVids()</a>, it is the unique id of first point in coords  <br /></td></tr>
 <tr class="separator:ab2e39467c0dd89a73144f53515aaeedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a846d3bc158a03f5fd24580dc8b40e085" id="r_a846d3bc158a03f5fd24580dc8b40e085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7cabda7c9e7b44a896423e4567a9fd27">Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a846d3bc158a03f5fd24580dc8b40e085">tris</a></td></tr>
+<tr class="memitem:a846d3bc158a03f5fd24580dc8b40e085" id="r_a846d3bc158a03f5fd24580dc8b40e085"><td class="memItemLeft" align="right" valign="top">Triangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a846d3bc158a03f5fd24580dc8b40e085">tris</a></td></tr>
 <tr class="separator:a846d3bc158a03f5fd24580dc8b40e085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bb9eb5b60d6dcb38389506da2cb6a0e" id="r_a3bb9eb5b60d6dcb38389506da2cb6a0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bb9eb5b60d6dcb38389506da2cb6a0e">faceMap</a></td></tr>
+<tr class="memitem:a3bb9eb5b60d6dcb38389506da2cb6a0e" id="r_a3bb9eb5b60d6dcb38389506da2cb6a0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bb9eb5b60d6dcb38389506da2cb6a0e">faceMap</a></td></tr>
 <tr class="separator:a3bb9eb5b60d6dcb38389506da2cb6a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -174,7 +184,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::SeparationPointStorage::Block::nextVid </td>
+          <td class="memname">VertId MR::SeparationPointStorage::Block::nextVid </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -199,7 +209,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classVector3f.html">Vector3f</a>&gt; MR::SeparationPointStorage::Block::coords</td>
+          <td class="memname">std::vector&lt;Vector3f&gt; MR::SeparationPointStorage::Block::coords</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -213,7 +223,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;VoxelId, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>&gt; MR::SeparationPointStorage::Block::faceMap</td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;VoxelId, FaceId&gt; MR::SeparationPointStorage::Block::faceMap</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -227,7 +237,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::SeparationPointStorage::Block::shift</td>
+          <td class="memname">VertId MR::SeparationPointStorage::Block::shift</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -257,7 +267,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7cabda7c9e7b44a896423e4567a9fd27">Triangulation</a> MR::SeparationPointStorage::Block::tris</td>
+          <td class="memname">Triangulation MR::SeparationPointStorage::Block::tris</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['addpointactionpickerpoint_0',['AddPointActionPickerPoint',['../classMR_1_1SurfaceContoursWidget.html#a17351932f521bcc8680a5cd409ff6a83',1,'MR::SurfaceContoursWidget']]]
+  ['changeboundaryselectionhistoryaction_0',['ChangeBoundarySelectionHistoryAction',['../classMR_1_1BoundarySelectionWidget.html#a14ed83528f3fdbb996f9d5cf5d86fa55',1,'MR::BoundarySelectionWidget']]]
 ];

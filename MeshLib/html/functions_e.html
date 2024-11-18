@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Class Members</title>
+<title>MeshLib Documentation: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -136,11 +146,11 @@ $(function(){initNavTree('functions_e.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_e" name="index_e"></a>- e -</h3><ul>
-<li>e&#160;:&#160;<a class="el" href="structMeshTriPoint.html#ae9c4fb13aca66944d37538e7bc537e3a">MeshTriPoint</a>, <a class="el" href="structMR_1_1EdgePoint.html#aa0fb43077718779351b94f5a803498a6">MR::EdgePoint</a>, <a class="el" href="structMR_1_1EdgeSegment.html#ac984995bf16ae26205209c4da35c2f63">MR::EdgeSegment</a>, <a class="el" href="structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc">MR::MeshTriPoint</a>, <a class="el" href="structMR_1_1PackMapping.html#a064cdbdc31f7c5de6f7cb77f75c1a962">MR::PackMapping</a>, <a class="el" href="structMR_1_1Parallel_1_1CallWithTLSMaker.html#a77e7c8ccdc79a06bb1e632af0df93c57">MR::Parallel::CallWithTLSMaker&lt; L &gt;</a>, <a class="el" href="structMRMeshTriPoint.html#aaedb582c9f945501bf8d5f37d70cd46b">MRMeshTriPoint</a></li>
+<li>e&#160;:&#160;<a class="el" href="structMR_1_1EdgePoint.html#aa0fb43077718779351b94f5a803498a6">MR::EdgePoint</a>, <a class="el" href="structMR_1_1EdgeSegment.html#ac984995bf16ae26205209c4da35c2f63">MR::EdgeSegment</a>, <a class="el" href="structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc">MR::MeshTriPoint</a>, <a class="el" href="structMR_1_1PackMapping.html#a064cdbdc31f7c5de6f7cb77f75c1a962">MR::PackMapping</a>, <a class="el" href="structMR_1_1Parallel_1_1CallWithTLSMaker.html#a77e7c8ccdc79a06bb1e632af0df93c57">MR::Parallel::CallWithTLSMaker&lt; L &gt;</a>, <a class="el" href="structMRMeshTriPoint.html#aaedb582c9f945501bf8d5f37d70cd46b">MRMeshTriPoint</a></li>
 <li>earlyBackwardPass()&#160;:&#160;<a class="el" href="structMR_1_1BasicUiRenderTask.html#a269508abb07dd29213d99aada7db6d5e">MR::BasicUiRenderTask</a>, <a class="el" href="classMR_1_1UI_1_1NonOverlappingLabelTask.html#a63aa78da589b7f78e8aa0077dc5f1102">MR::UI::NonOverlappingLabelTask</a></li>
 <li>ec&#160;:&#160;<a class="el" href="structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d">MR::Directory</a>, <a class="el" href="structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d">MR::DirectoryIterator</a>, <a class="el" href="structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e">MR::DirectoryRecursive</a>, <a class="el" href="structMR_1_1DirectoryRecursiveIterator.html#a1d7ccfb4cee663b44ee8386962c7898d">MR::DirectoryRecursiveIterator</a></li>
 <li>Edge&#160;:&#160;<a class="el" href="structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a2f7402dedcbccbb66d152940301cab25">MR::OneMeshIntersection</a></li>
-<li>edge&#160;:&#160;<a class="el" href="structEdgeTri.html#abaae98abd35212fc0e230eac31fec15f">EdgeTri</a>, <a class="el" href="structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e">MR::EdgeTri</a>, <a class="el" href="structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea">MREdgeTri</a>, <a class="el" href="structMROneMeshIntersection.html#a6e62865d21cb51955f11765ead59f236">MROneMeshIntersection</a>, <a class="el" href="structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a">MRVariableEdgeTri</a>, <a class="el" href="structVariableEdgeTri.html#a8483ff74e641b4b65352f205c0a6abac">VariableEdgeTri</a></li>
+<li>edge&#160;:&#160;<a class="el" href="structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e">MR::EdgeTri</a>, <a class="el" href="structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea">MREdgeTri</a>, <a class="el" href="structMROneMeshIntersection.html#a6e62865d21cb51955f11765ead59f236">MROneMeshIntersection</a>, <a class="el" href="structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a">MRVariableEdgeTri</a></li>
 <li>EdgeBitSet&#160;:&#160;<a class="el" href="classMR_1_1Graph.html#a8479c33a6ee26f007a35cab71ba0f2b5">MR::Graph</a></li>
 <li>edgeCapacity()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a93a7e7526986ddd2fe8f517c9dffc577">MR::MeshTopology</a></li>
 <li>edgeCenter()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#ad45947ba454ab92f4c8bacbcd94b17f4">MR::Mesh</a>, <a class="el" href="structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641">MR::Polyline&lt; V &gt;</a></li>
@@ -162,9 +172,7 @@ $(function(){initNavTree('functions_e.html',''); initResizable(true); });
 <li>edgeReserve()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a9f51a101a9532359e94df8a25560980b">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#aa5cb50f06372f350dcdd3dbc747a0615">MR::PolylineTopology</a></li>
 <li>Edges&#160;:&#160;<a class="el" href="structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7">MR::SceneColors</a></li>
 <li>edgesArrayObjId_&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#a12b1a94d2b98548e47229d4213609b1f">MR::RenderMeshObject</a></li>
-<li>EdgesAtrisB&#160;:&#160;<a class="el" href="classPreciseCollisionResult.html#a6a06fdf00dc302f1583ecdac30315098">PreciseCollisionResult</a></li>
 <li>edgesAtrisB&#160;:&#160;<a class="el" href="structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2">MR::PreciseCollisionResult</a></li>
-<li>EdgesBtrisA&#160;:&#160;<a class="el" href="classPreciseCollisionResult.html#ace63e6f94b7fe68ae6945faa7499b2c0">PreciseCollisionResult</a></li>
 <li>edgesBtrisA&#160;:&#160;<a class="el" href="structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f">MR::PreciseCollisionResult</a></li>
 <li>edgesColor_&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#afae46ed97209f2812a1d201e7005e7ba">MR::ObjectMeshHolder</a></li>
 <li>EdgeSegment()&#160;:&#160;<a class="el" href="structMR_1_1EdgeSegment.html#adbe97beb7bc790ab2d46f0863a5bbacf">MR::EdgeSegment</a></li>
@@ -174,11 +182,11 @@ $(function(){initNavTree('functions_e.html',''); initResizable(true); });
 <li>edgeSize()&#160;:&#160;<a class="el" href="classMR_1_1Graph.html#a0c5f4eae690cb57f429c9656db0e2dad">MR::Graph</a>, <a class="el" href="classMR_1_1MeshTopology.html#a59e61393e26970b19791a726b212a1b8">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a7308421016a4a943460946176b524bc8">MR::PolylineTopology</a></li>
 <li>edgeSize_&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#a888fbd0e8bad27a4ff46ec6c1e1680e5">MR::RenderMeshObject</a></li>
 <li>edgesTexture_&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#adec18a7be82779db2756036737e2119e">MR::RenderMeshObject</a></li>
-<li>edgesToCollapse&#160;:&#160;<a class="el" href="structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0">MR::DecimateSettings</a></li>
+<li>edgesToCollapse&#160;:&#160;<a class="el" href="structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c">MR::DecimateSettings</a></li>
 <li>EdgeTri()&#160;:&#160;<a class="el" href="structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739">MR::EdgeTri</a></li>
 <li>EdgeType&#160;:&#160;<a class="el" href="structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0">MR::GridSettings</a></li>
 <li>edgeVector()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a19223c76e1742c8cf6a56fd51b5c2c68">MR::Mesh</a>, <a class="el" href="structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f">MR::Polyline&lt; V &gt;</a></li>
-<li>edgeWeights&#160;:&#160;<a class="el" href="structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79">MR::FillHoleNicelySettings</a>, <a class="el" href="structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b">MR::SurfaceManipulationWidget::Settings</a></li>
+<li>edgeWeights&#160;:&#160;<a class="el" href="structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79">MR::FillHoleNicelySettings</a>, <a class="el" href="structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b">MR::SurfaceManipulationWidget::Settings</a>, <a class="el" href="structMRFillHoleNicelyParams.html#af7f128fdb0b8ea8d308549a2112b4a02">MRFillHoleNicelyParams</a></li>
 <li>edgeWidth_&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#aa1769e8d7559173dc663c5b67a445a07">MR::ObjectMeshHolder</a></li>
 <li>edgeWithLeft()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a75ce403909333e95eca530fcf3d62e2b">MR::MeshTopology</a></li>
 <li>edgeWithOrg()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a9b3a2bd65395c6f2d0aff6bb16c8a3b6">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a2ebdc3893e2fbb0963c302c1361dfe3b">MR::PolylineTopology</a></li>
@@ -187,7 +195,7 @@ $(function(){initNavTree('functions_e.html',''); initResizable(true); });
 <li>editForce&#160;:&#160;<a class="el" href="structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176">MR::SurfaceManipulationWidget::Settings</a></li>
 <li>effectiveValue&#160;:&#160;<a class="el" href="structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e">MR::UI::RadioButtonOrModifierState</a></li>
 <li>ElementBitSet&#160;:&#160;<a class="el" href="classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df">MR::ColorMapAggregator&lt; Tag &gt;</a></li>
-<li>elements&#160;:&#160;<a class="el" href="structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a">MR::ColorMapAggregator&lt; Tag &gt;::PartialColorMap</a>, <a class="el" href="structMR_1_1Vector2.html#a9f88eafa576421903103bdccad9ed23f">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#a5f40bccc013c893ac7558c2262a6eff1">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#ad2688016c72fa4b8f105895bd2532e7c">MR::Vector4&lt; T &gt;</a></li>
+<li>elements&#160;:&#160;<a class="el" href="structMR_1_1Box.html#aad57eed448ea8dc0bd7b331055005b4f">MR::Box&lt; V &gt;</a>, <a class="el" href="structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a">MR::ColorMapAggregator&lt; Tag &gt;::PartialColorMap</a>, <a class="el" href="structMR_1_1Vector2.html#a9f88eafa576421903103bdccad9ed23f">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#a5f40bccc013c893ac7558c2262a6eff1">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#ad2688016c72fa4b8f105895bd2532e7c">MR::Vector4&lt; T &gt;</a></li>
 <li>elems&#160;:&#160;<a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html#ae5c1521ca92b3ee6b97084822165a34a">MR::UI::TestEngine::GroupEntry</a></li>
 <li>elemType&#160;:&#160;<a class="el" href="structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617">MR::Meta::SharedPtrTraits&lt; T &gt;</a></li>
 <li>emplace()&#160;:&#160;<a class="el" href="classMR_1_1ViewerEventQueue.html#a0ac964ec690237b3791e95a800bfff16">MR::ViewerEventQueue</a></li>
@@ -199,6 +207,7 @@ $(function(){initNavTree('functions_e.html',''); initResizable(true); });
 <li>enable()&#160;:&#160;<a class="el" href="classMR_1_1BoundarySelectionWidget.html#a15ba8e860be003475b60a8eedc0dc9e9">MR::BoundarySelectionWidget</a>, <a class="el" href="classMR_1_1ShadowsGL.html#aa49107de3327a7c3585b3d42b97fbfb1">MR::ShadowsGL</a>, <a class="el" href="classMR_1_1ShortcutManager.html#a5e5ccda452d5473a8328af4b7003e4f3">MR::ShortcutManager</a>, <a class="el" href="classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457">MR::StateBasePlugin</a>, <a class="el" href="classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255">MR::StateListenerPlugin&lt; Connectables &gt;</a>, <a class="el" href="classMR_1_1SurfaceContoursWidget.html#ab191d1ca8300489b71ef591d0e549395">MR::SurfaceContoursWidget</a></li>
 <li>enableAlphaSort()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a8487684b5cd02ab06da1de9e06c8744f">MR::Viewer</a></li>
 <li>enabled_&#160;:&#160;<a class="el" href="classMR_1_1ShortcutManager.html#af0dd4d072b92bf237ce72e80f357d475">MR::ShortcutManager</a></li>
+<li>enableDeviationVisualization()&#160;:&#160;<a class="el" href="classMR_1_1SurfaceManipulationWidget.html#adfd4d3e29bc38873330fb5027d094047">MR::SurfaceManipulationWidget</a></li>
 <li>enableGlobalHistory()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a5acf533169d66d16a01d49084d887c51">MR::Viewer</a></li>
 <li>enableSavedDialogPositions()&#160;:&#160;<a class="el" href="classMR_1_1ImGuiMenu.html#aa2d17638d5eae8d84052a441927c8e2e">MR::ImGuiMenu</a></li>
 <li>enableTestEngine&#160;:&#160;<a class="el" href="structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5">MR::UI::ButtonCustomizationParams</a></li>
@@ -216,7 +225,7 @@ $(function(){initNavTree('functions_e.html',''); initResizable(true); });
 <li>eps&#160;:&#160;<a class="el" href="structMR_1_1ArcInterpolationParams.html#a6f075ab660c32eec4c036340e2b88f1c">MR::ArcInterpolationParams</a>, <a class="el" href="structMR_1_1LineInterpolationParams.html#a00b2d591ecca68af7d6e8cbd8d119b05">MR::LineInterpolationParams</a>, <a class="el" href="structMR_1_1SegmPoint.html#a1cd8a648f7ab27b5d40ff1c7b036ba2e">MR::SegmPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35">MR::TrimWithPlaneParams</a>, <a class="el" href="structMR_1_1TriPoint.html#a6ade05d6ba59ed946b54c792822949e4">MR::TriPoint&lt; T &gt;</a></li>
 <li>erase()&#160;:&#160;<a class="el" href="classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194">MR::ColorMapAggregator&lt; Tag &gt;</a></li>
 <li>erase_viewport()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a66f3490ce4cf18ff57b57146ceb8a68a">MR::Viewer</a></li>
-<li>errorIntroduced&#160;:&#160;<a class="el" href="structDecimateResult.html#a414e07a8d79b117bf0778a59d4df0546">DecimateResult</a>, <a class="el" href="structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5">MR::DecimatePolylineResult</a>, <a class="el" href="structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8">MR::DecimateResult</a>, <a class="el" href="structMRDecimateResult.html#a3c065962d7b37882d764de946b664201">MRDecimateResult</a></li>
+<li>errorIntroduced&#160;:&#160;<a class="el" href="structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5">MR::DecimatePolylineResult</a>, <a class="el" href="structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8">MR::DecimateResult</a>, <a class="el" href="structMRDecimateResult.html#a3c065962d7b37882d764de946b664201">MRDecimateResult</a></li>
 <li>errorString&#160;:&#160;<a class="el" href="structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">MR::BooleanResult</a>, <a class="el" href="structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7">MRBooleanResult</a></li>
 <li>errorSummary&#160;:&#160;<a class="el" href="structMR_1_1SceneLoad_1_1SceneLoadResult.html#a153339b0418a9f66dcd46058e4f30dc8">MR::SceneLoad::SceneLoadResult</a></li>
 <li>eval()&#160;:&#160;<a class="el" href="structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2">MR::QuadraticForm&lt; V &gt;</a></li>
@@ -227,7 +236,7 @@ $(function(){initNavTree('functions_e.html',''); initResizable(true); });
 <li>exactPickFirst&#160;:&#160;<a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0c05a407695c3bccd5b990b26ecdde96">MR::Viewport::PickRenderObjectParams</a></li>
 <li>excludeLoneEdges()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#addcf4c5e6460cd0ef1247b87c0a080a5">MR::MeshTopology</a></li>
 <li>execute()&#160;:&#160;<a class="el" href="classMR_1_1ViewerEventQueue.html#a7786b393619359bbf34f212c51d10847">MR::ViewerEventQueue</a></li>
-<li>exitVal&#160;:&#160;<a class="el" href="structICPProperties.html#aa9ad694f6a9dcc367edb5426f4a5112e">ICPProperties</a>, <a class="el" href="structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7">MR::ICPProperties</a>, <a class="el" href="structMRICPProperties.html#af361f47102e347876690d8afb088ed69">MRICPProperties</a></li>
+<li>exitVal&#160;:&#160;<a class="el" href="structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7">MR::ICPProperties</a>, <a class="el" href="structMRICPProperties.html#af361f47102e347876690d8afb088ed69">MRICPProperties</a></li>
 <li>expanded()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a3f06adfa8006bd6000537a4d96e4f66e">MR::Box&lt; V &gt;</a></li>
 <li>experimental&#160;:&#160;<a class="el" href="structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0">MR::RibbonTab</a></li>
 <li>experimentalFeatures&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a79903d8243abfd135d4c770623022ef3">MR::Viewer</a></li>

@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::TriangulationHelpers::TriangulatedFanData Struct Reference</title>
+<title>MeshLib Documentation: MR::TriangulationHelpers::TriangulatedFanData Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -147,19 +157,18 @@ $(function(){initNavTree('structMR_1_1TriangulationHelpers_1_1TriangulatedFanDat
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae773b54dc10496afde5414733e1c8d6a" id="r_ae773b54dc10496afde5414733e1c8d6a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae773b54dc10496afde5414733e1c8d6a">neighbors</a></td></tr>
+<tr class="memitem:ae773b54dc10496afde5414733e1c8d6a" id="r_ae773b54dc10496afde5414733e1c8d6a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae773b54dc10496afde5414733e1c8d6a">neighbors</a></td></tr>
 <tr class="separator:ae773b54dc10496afde5414733e1c8d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80c3874decf9d019fab965c28d7a767b" id="r_a80c3874decf9d019fab965c28d7a767b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; double, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80c3874decf9d019fab965c28d7a767b">cacheAngleOrder</a></td></tr>
 <tr class="memdesc:a80c3874decf9d019fab965c28d7a767b"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary reusable storage to avoid allocations for each point  <br /></td></tr>
 <tr class="separator:a80c3874decf9d019fab965c28d7a767b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a611f524a057ce6442f48a01faef5cc19" id="r_a611f524a057ce6442f48a01faef5cc19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a611f524a057ce6442f48a01faef5cc19">border</a></td></tr>
+<tr class="memitem:a611f524a057ce6442f48a01faef5cc19" id="r_a611f524a057ce6442f48a01faef5cc19"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a611f524a057ce6442f48a01faef5cc19">border</a></td></tr>
 <tr class="separator:a611f524a057ce6442f48a01faef5cc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5415b188e466c2295bb082600f25f64b" id="r_a5415b188e466c2295bb082600f25f64b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1FewSmallest.html">FewSmallest</a>&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5415b188e466c2295bb082600f25f64b">nearesetPoints</a></td></tr>
 <tr class="memdesc:a5415b188e466c2295bb082600f25f64b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the storage to collect n-nearest neighbours, here to avoid allocations for each point  <br /></td></tr>
 <tr class="separator:a5415b188e466c2295bb082600f25f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3d70f2e7f419c37867994b06e7cb37" id="r_a1f3d70f2e7f419c37867994b06e7cb37"><td class="memItemLeft" align="right" valign="top">std::priority_queue&lt; <a class="el" href="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html">FanOptimizerQueueElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f3d70f2e7f419c37867994b06e7cb37">queue</a></td></tr>
-<tr class="memdesc:a1f3d70f2e7f419c37867994b06e7cb37"><td class="mdescLeft">&#160;</td><td class="mdescRight">the queue to optimize local triangulation, here to avoid allocations for each point  <br /></td></tr>
-<tr class="separator:a1f3d70f2e7f419c37867994b06e7cb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92e70e1a5084a5ab9f62287e8041e95" id="r_ac92e70e1a5084a5ab9f62287e8041e95"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::priority_queue&lt; <a class="el" href="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html">FanOptimizerQueueElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac92e70e1a5084a5ab9f62287e8041e95">queue</a></td></tr>
+<tr class="separator:ac92e70e1a5084a5ab9f62287e8041e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data with caches for optimizing fan triangulation. </p>
@@ -171,7 +180,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> MR::TriangulationHelpers::TriangulatedFanData::border</td>
+          <td class="memname">VertId MR::TriangulationHelpers::TriangulatedFanData::border</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -218,7 +227,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt; MR::TriangulationHelpers::TriangulatedFanData::neighbors</td>
+          <td class="memname">std::vector&lt;VertId&gt; MR::TriangulationHelpers::TriangulatedFanData::neighbors</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -226,19 +235,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f3d70f2e7f419c37867994b06e7cb37" name="a1f3d70f2e7f419c37867994b06e7cb37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3d70f2e7f419c37867994b06e7cb37">&#9670;&#160;</a></span>queue</h2>
+<a id="ac92e70e1a5084a5ab9f62287e8041e95" name="ac92e70e1a5084a5ab9f62287e8041e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac92e70e1a5084a5ab9f62287e8041e95">&#9670;&#160;</a></span>queue</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::priority_queue&lt;<a class="el" href="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html">FanOptimizerQueueElement</a>&gt; MR::TriangulationHelpers::TriangulatedFanData::queue</td>
+          <td class="memname">MR_BIND_IGNORE std::priority_queue&lt;<a class="el" href="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html">FanOptimizerQueueElement</a>&gt; MR::TriangulationHelpers::TriangulatedFanData::queue</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>the queue to optimize local triangulation, here to avoid allocations for each point </p>
+<p>the queue to optimize local triangulation, here to avoid allocations for each point Removed from the bindings because we don't have bindings for <code>std::priority_queue</code> at the moment. </p>
 
 </div>
 </div>

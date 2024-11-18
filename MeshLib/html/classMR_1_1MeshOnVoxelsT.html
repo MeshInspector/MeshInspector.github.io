@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::MeshOnVoxelsT&lt; MeshType &gt; Class Template Reference</title>
+<title>MeshLib Documentation: MR::MeshOnVoxelsT&lt; MeshType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -145,7 +155,7 @@ $(function(){initNavTree('classMR_1_1MeshOnVoxelsT.html',''); initResizable(true
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab8d0aef18b5168c435af44b39e4824c1" id="r_ab8d0aef18b5168c435af44b39e4824c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d0aef18b5168c435af44b39e4824c1">MeshOnVoxelsT</a> (MeshType &amp;<a class="el" href="#a7160f9ea14f458a96be6e51abb4c5f91">mesh</a>, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;meshXf, const VdbVolume &amp;<a class="el" href="#a8ed2045eeb55e5251f6641af4cbad197">volume</a>, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;volumeXf)</td></tr>
+<tr class="memitem:ab8d0aef18b5168c435af44b39e4824c1" id="r_ab8d0aef18b5168c435af44b39e4824c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d0aef18b5168c435af44b39e4824c1">MeshOnVoxelsT</a> (MeshType &amp;<a class="el" href="#a7160f9ea14f458a96be6e51abb4c5f91">mesh</a>, const AffineXf3f &amp;meshXf, const VdbVolume &amp;<a class="el" href="#a8ed2045eeb55e5251f6641af4cbad197">volume</a>, const AffineXf3f &amp;volumeXf)</td></tr>
 <tr class="separator:ab8d0aef18b5168c435af44b39e4824c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed695aa1e4e1c3a92a7837285265015" id="r_abed695aa1e4e1c3a92a7837285265015"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed695aa1e4e1c3a92a7837285265015">MeshOnVoxelsT</a> (const <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a> &amp;<a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>)</td></tr>
 <tr class="separator:abed695aa1e4e1c3a92a7837285265015"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,23 +167,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3cf74023ebbdd4aeb20d52141503bba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2fe1c40a7b19c32bf9d626c7697d785" id="r_aa2fe1c40a7b19c32bf9d626c7697d785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2fe1c40a7b19c32bf9d626c7697d785">voxelSize</a> () const</td></tr>
 <tr class="separator:aa2fe1c40a7b19c32bf9d626c7697d785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a90d3e957dd9e690122095153d91831" id="r_a0a90d3e957dd9e690122095153d91831"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a90d3e957dd9e690122095153d91831">xf</a> () const</td></tr>
+<tr class="memitem:a0a90d3e957dd9e690122095153d91831" id="r_a0a90d3e957dd9e690122095153d91831"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a90d3e957dd9e690122095153d91831">xf</a> () const</td></tr>
 <tr class="separator:a0a90d3e957dd9e690122095153d91831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba84f55c5dc1a3d94f34e99c92e5c7a0" id="r_aba84f55c5dc1a3d94f34e99c92e5c7a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba84f55c5dc1a3d94f34e99c92e5c7a0">xf</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pt) const</td></tr>
+<tr class="memitem:aba84f55c5dc1a3d94f34e99c92e5c7a0" id="r_aba84f55c5dc1a3d94f34e99c92e5c7a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba84f55c5dc1a3d94f34e99c92e5c7a0">xf</a> (const Vector3f &amp;pt) const</td></tr>
 <tr class="separator:aba84f55c5dc1a3d94f34e99c92e5c7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec8835210f0d043dce515070cc2e4822" id="r_aec8835210f0d043dce515070cc2e4822"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8835210f0d043dce515070cc2e4822">xfInv</a> () const</td></tr>
+<tr class="memitem:aec8835210f0d043dce515070cc2e4822" id="r_aec8835210f0d043dce515070cc2e4822"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8835210f0d043dce515070cc2e4822">xfInv</a> () const</td></tr>
 <tr class="separator:aec8835210f0d043dce515070cc2e4822"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cacae7cb8243a1dd62cd89603177527" id="r_a9cacae7cb8243a1dd62cd89603177527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cacae7cb8243a1dd62cd89603177527">xfInv</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pt) const</td></tr>
+<tr class="memitem:a9cacae7cb8243a1dd62cd89603177527" id="r_a9cacae7cb8243a1dd62cd89603177527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cacae7cb8243a1dd62cd89603177527">xfInv</a> (const Vector3f &amp;pt) const</td></tr>
 <tr class="separator:a9cacae7cb8243a1dd62cd89603177527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d7d3c588a4878226b760e57f0aceb0a" id="r_a2d7d3c588a4878226b760e57f0aceb0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d7d3c588a4878226b760e57f0aceb0a">point</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v) const</td></tr>
+<tr class="memitem:a2d7d3c588a4878226b760e57f0aceb0a" id="r_a2d7d3c588a4878226b760e57f0aceb0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d7d3c588a4878226b760e57f0aceb0a">point</a> (VertId v) const</td></tr>
 <tr class="separator:a2d7d3c588a4878226b760e57f0aceb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d91843e610776b411673fff94a5f19c" id="r_a5d91843e610776b411673fff94a5f19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d91843e610776b411673fff94a5f19c">getValue</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pos) const</td></tr>
+<tr class="memitem:a5d91843e610776b411673fff94a5f19c" id="r_a5d91843e610776b411673fff94a5f19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d91843e610776b411673fff94a5f19c">getValue</a> (const Vector3f &amp;pos) const</td></tr>
 <tr class="separator:a5d91843e610776b411673fff94a5f19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a947517c6d2a3014a5e9564355a3066d7" id="r_a947517c6d2a3014a5e9564355a3066d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947517c6d2a3014a5e9564355a3066d7">getOffsetVector</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v) const</td></tr>
+<tr class="memitem:a947517c6d2a3014a5e9564355a3066d7" id="r_a947517c6d2a3014a5e9564355a3066d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947517c6d2a3014a5e9564355a3066d7">getOffsetVector</a> (VertId v) const</td></tr>
 <tr class="separator:a947517c6d2a3014a5e9564355a3066d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b14483e3ce5963a8761dcedbb032351" id="r_a0b14483e3ce5963a8761dcedbb032351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b14483e3ce5963a8761dcedbb032351">getPoints</a> (std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;result, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pos, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;offset) const</td></tr>
+<tr class="memitem:a0b14483e3ce5963a8761dcedbb032351" id="r_a0b14483e3ce5963a8761dcedbb032351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b14483e3ce5963a8761dcedbb032351">getPoints</a> (std::vector&lt; Vector3f &gt; &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</td></tr>
 <tr class="separator:a0b14483e3ce5963a8761dcedbb032351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a921110e0327627fc8f43d78e1450af15" id="r_a921110e0327627fc8f43d78e1450af15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a921110e0327627fc8f43d78e1450af15">getValues</a> (std::vector&lt; float &gt; &amp;result, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pos, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;offset) const</td></tr>
+<tr class="memitem:a921110e0327627fc8f43d78e1450af15" id="r_a921110e0327627fc8f43d78e1450af15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a921110e0327627fc8f43d78e1450af15">getValues</a> (std::vector&lt; float &gt; &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</td></tr>
 <tr class="separator:a921110e0327627fc8f43d78e1450af15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -211,7 +221,7 @@ template&lt;typename MeshType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>meshXf</em></span>, </td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>meshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -221,7 +231,7 @@ template&lt;typename MeshType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volumeXf</em></span>&#160;)</td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>volumeXf</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -379,9 +389,9 @@ template&lt;typename MeshType &gt; </div>
 template&lt;typename MeshType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::getOffsetVector </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::getOffsetVector </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -400,17 +410,17 @@ template&lt;typename MeshType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::getPoints </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+          <td class="paramtype">std::vector&lt; Vector3f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;) const</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -428,7 +438,7 @@ template&lt;typename MeshType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::getValue </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -452,12 +462,12 @@ template&lt;typename MeshType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;) const</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -542,9 +552,9 @@ template&lt;typename MeshType &gt; </div>
 template&lt;typename MeshType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::point </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::point </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -661,7 +671,7 @@ template&lt;typename MeshType &gt; </div>
 template&lt;typename MeshType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xf </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> AffineXf3f <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xf </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -680,9 +690,9 @@ template&lt;typename MeshType &gt; </div>
 template&lt;typename MeshType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xf </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xf </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -699,7 +709,7 @@ template&lt;typename MeshType &gt; </div>
 template&lt;typename MeshType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xfInv </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> AffineXf3f <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xfInv </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -718,9 +728,9 @@ template&lt;typename MeshType &gt; </div>
 template&lt;typename MeshType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xfInv </td>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType &gt;::xfInv </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::UnitToStringParams&lt; E &gt; Struct Template Reference</title>
+<title>MeshLib Documentation: MR::UnitToStringParams&lt; E &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -149,8 +159,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7154a0976d68f4cf955516bbd1e8c3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484658a85c5d115a7ced9935b886f6f6" id="r_a484658a85c5d115a7ced9935b886f6f6"><td class="memItemLeft" align="right" valign="top">std::optional&lt; E &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a484658a85c5d115a7ced9935b886f6f6">sourceUnit</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().sourceUnit</td></tr>
 <tr class="separator:a484658a85c5d115a7ced9935b886f6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab423d8d547cd52115330469fdee00202" id="r_ab423d8d547cd52115330469fdee00202"><td class="memItemLeft" align="right" valign="top">E&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab423d8d547cd52115330469fdee00202">targetUnit</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().targetUnit</td></tr>
-<tr class="separator:ab423d8d547cd52115330469fdee00202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1da9d705a2210ae748df1e41d865a2a" id="r_ac1da9d705a2210ae748df1e41d865a2a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; E &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1da9d705a2210ae748df1e41d865a2a">targetUnit</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().targetUnit</td></tr>
+<tr class="separator:ac1da9d705a2210ae748df1e41d865a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a946e3167ad791810a532295b6ac6ef8c" id="r_a946e3167ad791810a532295b6ac6ef8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a946e3167ad791810a532295b6ac6ef8c">unitSuffix</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().unitSuffix</td></tr>
 <tr class="separator:a946e3167ad791810a532295b6ac6ef8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df844b2da042b64d299fefa1b4dd1e9" id="r_a3df844b2da042b64d299fefa1b4dd1e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1">NumberStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df844b2da042b64d299fefa1b4dd1e9">style</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().style</td></tr>
@@ -338,8 +348,8 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
-<a id="ab423d8d547cd52115330469fdee00202" name="ab423d8d547cd52115330469fdee00202"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab423d8d547cd52115330469fdee00202">&#9670;&#160;</a></span>targetUnit</h2>
+<a id="ac1da9d705a2210ae748df1e41d865a2a" name="ac1da9d705a2210ae748df1e41d865a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1da9d705a2210ae748df1e41d865a2a">&#9670;&#160;</a></span>targetUnit</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,7 +357,7 @@ template&lt;UnitEnum E&gt; </div>
 template&lt;UnitEnum E&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">E <a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams</a>&lt; E &gt;::targetUnit = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().targetUnit</td>
+          <td class="memname">std::optional&lt;E&gt; <a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams</a>&lt; E &gt;::targetUnit = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().targetUnit</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRMeshToDistanceVolume.h File Reference</title>
+<title>MeshLib Documentation: MRMeshToDistanceVolume.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -141,19 +151,15 @@ $(function(){initNavTree('MRMeshToDistanceVolume_8h.html',''); initResizable(tru
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRDistanceVolumeParams_8h_source.html">MRDistanceVolumeParams.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRSignDetectionMode_8h_source.html">MRMesh/MRSignDetectionMode.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVoxelsVolume_8h_source.html">MRVoxelsVolume.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRMesh/MRExpected.h</a>&quot;</code><br />
-<code>#include &lt;cfloat&gt;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshDistance_8h_source.html">MRMesh/MRMeshDistance.h</a>&quot;</code><br />
 <code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRMeshToDistanceVolume_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DistanceToMeshOptions.html">MR::DistanceToMeshOptions</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></td></tr>
@@ -166,16 +172,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a015f66374f3ac5fc14877983f1f92dc0" id="r_a015f66374f3ac5fc14877983f1f92dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a015f66374f3ac5fc14877983f1f92dc0">MR::signedDistanceToMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;p, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;op)</td></tr>
-<tr class="memdesc:a015f66374f3ac5fc14877983f1f92dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes signed distance from point (p) to mesh part (mp) following options (op)  <br /></td></tr>
-<tr class="separator:a015f66374f3ac5fc14877983f1f92dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8588d03e436a418a22bb66f0f389f1ad" id="r_a8588d03e436a418a22bb66f0f389f1ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">MR::meshToDistanceVolume</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a> &amp;params={})</td></tr>
+<tr class="memitem:a8588d03e436a418a22bb66f0f389f1ad" id="r_a8588d03e436a418a22bb66f0f389f1ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">MR::meshToDistanceVolume</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:a8588d03e436a418a22bb66f0f389f1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with (signed or unsigned) distances from <a class="el" href="structMR_1_1Mesh.html">Mesh</a> with given settings  <br /></td></tr>
 <tr class="separator:a8588d03e436a418a22bb66f0f389f1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c156388dac5c49acedd469aa1f5cc6e" id="r_a6c156388dac5c49acedd469aa1f5cc6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">MR::meshToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a> &amp;params={})</td></tr>
+<tr class="memitem:a6c156388dac5c49acedd469aa1f5cc6e" id="r_a6c156388dac5c49acedd469aa1f5cc6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">MR::meshToDistanceFunctionVolume</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:a6c156388dac5c49acedd469aa1f5cc6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing (signed or unsigned) distances from <a class="el" href="structMR_1_1Mesh.html">Mesh</a> with given settings  <br /></td></tr>
 <tr class="separator:a6c156388dac5c49acedd469aa1f5cc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150c8492a3dc820bde5db5249c54ba5d" id="r_a150c8492a3dc820bde5db5249c54ba5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">MR::meshRegionToIndicatorVolume</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &amp;region, float offset, const <a class="el" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a> &amp;params)</td></tr>
+<tr class="memitem:a150c8492a3dc820bde5db5249c54ba5d" id="r_a150c8492a3dc820bde5db5249c54ba5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">MR::meshRegionToIndicatorVolume</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;region, float offset, const <a class="el" href="structMR_1_1DistanceVolumeParams.html">DistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="separator:a150c8492a3dc820bde5db5249c54ba5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cfd6d2c7fdde75ec5577e2e10511787" id="r_a7cfd6d2c7fdde75ec5577e2e10511787"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::array&lt; SimpleVolumeMinMax, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">MR::meshToDirectionVolume</a> (const <a class="el" href="structMR_1_1MeshToDirectionVolumeParams.html">MeshToDirectionVolumeParams</a> &amp;params)</td></tr>
 <tr class="separator:a7cfd6d2c7fdde75ec5577e2e10511787"><td class="memSeparator" colspan="2">&#160;</td></tr>

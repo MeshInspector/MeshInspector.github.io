@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRViewportGL.h Source File</title>
+<title>MeshLib Documentation: MRViewportGL.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -258,7 +268,7 @@ $(function(){initNavTree('MRViewportGL_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportGL.html#abc105ddae2f4b963448775271221ed8f">  101</a></span>    <a class="code hl_typedef" href="classMR_1_1ViewportGL.html#a79d22916ef4534d1503a4433e40d44c1">PickResults</a> <a class="code hl_function" href="classMR_1_1ViewportGL.html#abc105ddae2f4b963448775271221ed8f">pickObjects</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a>&amp; params, <span class="keyword">const</span> std::vector&lt;Vector2i&gt;&amp; picks ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="comment">// Find unique objects in given rect (return vector of ids of objects from params)</span></div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="comment">// if maxRenderResolutionSide less then current rect size, downscale rendering for better performance</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportGL.html#afd079aa214c396ca3db1f0cdc83fb5d0">  104</a></span>    std::vector&lt;unsigned&gt; <a class="code hl_function" href="classMR_1_1ViewportGL.html#afd079aa214c396ca3db1f0cdc83fb5d0">findUniqueObjectsInRect</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a>&amp; params, <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#aadf5920c24a8f2cd7f46a8450751b714">Box2i</a>&amp; rect,</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportGL.html#afd079aa214c396ca3db1f0cdc83fb5d0">  104</a></span>    std::vector&lt;unsigned&gt; <a class="code hl_function" href="classMR_1_1ViewportGL.html#afd079aa214c396ca3db1f0cdc83fb5d0">findUniqueObjectsInRect</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a>&amp; params, <span class="keyword">const</span> Box2i&amp; rect,</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>                                                   <span class="keywordtype">int</span> maxRenderResolutionSide ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportGL.html#a28aa3f7360b6d73987f11ccc02b6a51e">  107</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1ViewportGL.html#a28aa3f7360b6d73987f11ccc02b6a51e">BasePickResults</a> = std::vector&lt;BasePickResult&gt;;</div>
@@ -266,12 +276,12 @@ $(function(){initNavTree('MRViewportGL_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">  108</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a></div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    {</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html#a0b94f9fe3c3d5cc43e530789bbc8a327">  110</a></span>        <a class="code hl_typedef" href="classMR_1_1ViewportGL.html#a28aa3f7360b6d73987f11ccc02b6a51e">BasePickResults</a> <a class="code hl_variable" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html#a0b94f9fe3c3d5cc43e530789bbc8a327">pickRes</a>;</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516">  111</a></span>        <a class="code hl_variable" href="namespaceMR.html#aadf5920c24a8f2cd7f46a8450751b714">Box2i</a> <a class="code hl_variable" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516">updatedBox</a>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516">  111</a></span>        Box2i <a class="code hl_variable" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516">updatedBox</a>;</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    };</div>
 </div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="comment">// Pick all pixels in rect</span></div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="comment">// if maxRenderResolutionSide less then current rect size, downscale rendering for better performance</span></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportGL.html#afd238d185cc770e343e9fd80e4e1095a">  115</a></span>    <a class="code hl_struct" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a> <a class="code hl_function" href="classMR_1_1ViewportGL.html#afd238d185cc770e343e9fd80e4e1095a">pickObjectsInRect</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a>&amp; params, <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#aadf5920c24a8f2cd7f46a8450751b714">Box2i</a>&amp; rect,</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportGL.html#afd238d185cc770e343e9fd80e4e1095a">  115</a></span>    <a class="code hl_struct" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a> <a class="code hl_function" href="classMR_1_1ViewportGL.html#afd238d185cc770e343e9fd80e4e1095a">pickObjectsInRect</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a>&amp; params, <span class="keyword">const</span> Box2i&amp; rect,</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordtype">int</span> maxRenderResolutionSide ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keyword">private</span>:</div>
@@ -293,7 +303,7 @@ $(function(){initNavTree('MRViewportGL_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    };</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keyword">mutable</span> PickTextureFrameBuffer pickFBO_;</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    std::vector&lt;PickColor&gt; pickObjectsInRect_( <span class="keyword">const</span> PickParameters&amp; params, <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#aadf5920c24a8f2cd7f46a8450751b714">Box2i</a>&amp; rect ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    std::vector&lt;PickColor&gt; pickObjectsInRect_( <span class="keyword">const</span> PickParameters&amp; params, <span class="keyword">const</span> Box2i&amp; rect ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordtype">bool</span> inited_ = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
@@ -341,8 +351,7 @@ $(function(){initNavTree('MRViewportGL_8h_source.html',''); initResizable(true);
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div></div>
 <div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:32</div></div>
-<div class="ttc" id="anamespaceMR_html_aadf5920c24a8f2cd7f46a8450751b714"><div class="ttname"><a href="namespaceMR.html#aadf5920c24a8f2cd7f46a8450751b714">MR::Box2i</a></div><div class="ttdeci">Box2i</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:298</div></div>
-<div class="ttc" id="astructMR_1_1BaseRenderParams_html"><div class="ttname"><a href="structMR_1_1BaseRenderParams.html">MR::BaseRenderParams</a></div><div class="ttdoc">Common rendering parameters for meshes and UI.</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:32</div></div>
+<div class="ttc" id="astructMR_1_1BaseRenderParams_html"><div class="ttname"><a href="structMR_1_1BaseRenderParams.html">MR::BaseRenderParams</a></div><div class="ttdoc">Common rendering parameters for meshes and UI.</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:33</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRColor.h:9</div></div>
 <div class="ttc" id="astructMR_1_1SegmEndColors_html"><div class="ttname"><a href="structMR_1_1SegmEndColors.html">MR::SegmEndColors</a></div><div class="ttdef"><b>Definition</b> MRViewportGL.h:18</div></div>
 <div class="ttc" id="astructMR_1_1SegmEndColors_html_a074d144106e966fd84ea6ac76b9a172b"><div class="ttname"><a href="structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b">MR::SegmEndColors::a</a></div><div class="ttdeci">Vector4f a</div><div class="ttdef"><b>Definition</b> MRViewportGL.h:19</div></div>

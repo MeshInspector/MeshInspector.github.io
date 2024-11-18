@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::Matrix4&lt; T &gt; Struct Template Reference</title>
+<title>MeshLib Documentation: MR::Matrix4&lt; T &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -162,8 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a83e20de940378f00e19b33ac4375d7" id="r_a9a83e20de940378f00e19b33ac4375d7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a83e20de940378f00e19b33ac4375d7">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;r, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;t)</td></tr>
 <tr class="memdesc:a9a83e20de940378f00e19b33ac4375d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from rotation matrix and translation vector  <br /></td></tr>
 <tr class="separator:a9a83e20de940378f00e19b33ac4375d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8e791018f0a65338dfe67ed598875a" id="r_a1c8e791018f0a65338dfe67ed598875a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8e791018f0a65338dfe67ed598875a">Matrix4</a> (const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt; &amp;xf)</td></tr>
-<tr class="separator:a1c8e791018f0a65338dfe67ed598875a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a331a07e0bb923795198939f99f21b447" id="r_a331a07e0bb923795198939f99f21b447"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331a07e0bb923795198939f99f21b447">Matrix4</a> (const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt; &amp;xf) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
+<tr class="separator:a331a07e0bb923795198939f99f21b447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171" id="r_ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac6452ee6d44d0ef12ed6ea165680f171">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; U &gt; &amp;m)</td></tr>
 <tr class="separator:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -407,8 +417,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a1c8e791018f0a65338dfe67ed598875a" name="a1c8e791018f0a65338dfe67ed598875a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c8e791018f0a65338dfe67ed598875a">&#9670;&#160;</a></span>Matrix4() <span class="overload">[4/5]</span></h2>
+<a id="a331a07e0bb923795198939f99f21b447" name="a331a07e0bb923795198939f99f21b447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a331a07e0bb923795198939f99f21b447">&#9670;&#160;</a></span>Matrix4() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['files_0',['files',['../ExampleCMeshLoadSave.html',1,'Loading and saving mesh files'],['../ExampleCppMeshLoadSave.html',1,'Loading and saving mesh files'],['../ExamplePythonMeshLoadSave.html',1,'Loading and saving mesh files']]],
-  ['filling_20holes_1',['Filling holes',['../ExampleCMeshFillHole.html',1,'Filling holes'],['../ExampleCppMeshFillHole.html',1,'Filling holes'],['../ExamplePythonMeshFillHole.html',1,'Filling holes']]],
-  ['form_20deformation_20example_2',['Free Form Deformation Example',['../ExamplePythonFreeForm.html',1,'PythonCodeExamples']]],
-  ['free_20form_20deformation_20example_3',['Free Form Deformation Example',['../ExamplePythonFreeForm.html',1,'PythonCodeExamples']]]
+  ['files_0',['Loading and saving mesh files',['../ExampleMeshLoadSave.html',1,'']]],
+  ['filling_20holes_1',['Filling Holes',['../ExampleMeshFillHole.html',1,'']]],
+  ['first_20plugin_20using_20meshlib_20c_20on_20windows_2',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
+  ['for_20python_3',['How to Install MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],
+  ['form_20deformation_20example_4',['Free Form Deformation Example',['../ExampleFreeForm.html',1,'']]],
+  ['free_20form_20deformation_20example_5',['Free Form Deformation Example',['../ExampleFreeForm.html',1,'']]]
 ];

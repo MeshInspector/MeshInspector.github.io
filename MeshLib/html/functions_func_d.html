@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Class Members - Functions</title>
+<title>MeshLib Documentation: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -138,7 +148,6 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
 <li>data()&#160;:&#160;<a class="el" href="classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a">MR::Buffer&lt; V, I &gt;</a>, <a class="el" href="classMR_1_1DistanceMap.html#a38e9ddb4a58e01a2fee45968358c5098">MR::DistanceMap</a>, <a class="el" href="structMR_1_1Matrix4.html#a2968fcaeb275c69d69adefdaec46f32c">MR::Matrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix.html#a72f839037b43011a56b0f8624c2df0dd">MR::Matrix&lt; T &gt;</a>, <a class="el" href="classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927">MR::RenderBufferRef&lt; T &gt;</a>, <a class="el" href="classMR_1_1Vector.html#a52816f431d630dedbc20620deacb5b47">MR::Vector&lt; T, I &gt;</a></li>
 <li>dblArea()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349">MR::Mesh</a></li>
-<li>Decimate()&#160;:&#160;<a class="el" href="classMeshDecimate.html#a2596262aac1230b382eb8cb4d3f1db58">MeshDecimate</a></li>
 <li>defaults()&#160;:&#160;<a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">MR::Viewport::PickRenderObjectParams</a></li>
 <li>DefaultSplashWindow()&#160;:&#160;<a class="el" href="classMR_1_1DefaultSplashWindow.html#a1603070b83b67e1cb87b26b980e19cf6">MR::DefaultSplashWindow</a></li>
 <li>definePlane()&#160;:&#160;<a class="el" href="classMR_1_1PlaneWidget.html#a5af9b5613a5158a835792759b5058f58">MR::PlaneWidget</a></li>
@@ -163,8 +172,7 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <li>devEnableIndependentEquationsMode()&#160;:&#160;<a class="el" href="classMR_1_1MultiwayICP.html#a44f6380f606dbdbaf88e1bf6357735dc">MR::MultiwayICP</a></li>
 <li>devIndependentEquationsModeEnabled()&#160;:&#160;<a class="el" href="classMR_1_1MultiwayICP.html#ae4d25815f9e27aeb558a76b1268fb602">MR::MultiwayICP</a></li>
 <li>df()&#160;:&#160;<a class="el" href="structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d">MR::ConeFittingFunctor&lt; T &gt;</a></li>
-<li>Diagonal()&#160;:&#160;<a class="el" href="classBox3f.html#aea72530e728125fee6c28f6ff0dff041">Box3f</a>, <a class="el" href="classVector3f.html#a93f993fbcf5b4011397dbf6886d56747">Vector3f</a></li>
-<li>diagonal()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144">MR::Box&lt; V &gt;</a>, <a class="el" href="structMR_1_1SymMatrix2.html#a364466ea8c305b40ce349b90f040c873">MR::SymMatrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix3.html#ad9dcf1d38df199d9b286299f52b8ea18">MR::SymMatrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix4.html#a4035197926d1c7b4e776a8384343771a">MR::SymMatrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector2.html#a7728a269ca682095e8e0f7d667bb727a">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#af3522428d5137f019a3da623a19222ab">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#aae32c22644b25c26b237f41ac439da53">MR::Vector4&lt; T &gt;</a></li>
+<li>diagonal()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144">MR::Box&lt; V &gt;</a>, <a class="el" href="structMR_1_1SymMatrix2.html#a364466ea8c305b40ce349b90f040c873">MR::SymMatrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix3.html#ad9dcf1d38df199d9b286299f52b8ea18">MR::SymMatrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1SymMatrix4.html#a4035197926d1c7b4e776a8384343771a">MR::SymMatrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector2.html#a7728a269ca682095e8e0f7d667bb727a">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#af3522428d5137f019a3da623a19222ab">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#aae32c22644b25c26b237f41ac439da53">MR::Vector4&lt; T &gt;</a>, <a class="el" href="structMR_1_1VectorTraits.html#a077d473eb75ceae296f9149573954110">MR::VectorTraits&lt; T &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01ImVec2_01_4.html#af5dfb9ea2bc4002ab08e62e3e2924967">MR::VectorTraits&lt; ImVec2 &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01ImVec4_01_4.html#ad2c8ef31c89b8f6ac98ea4468e6ca19d">MR::VectorTraits&lt; ImVec4 &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#a95e871fcd38042340c9b01267d6d6f8a">MR::VectorTraits&lt; Vector2&lt; T &gt; &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html#a97ece5f2ffc4c21403d6a03bf20d3fae">MR::VectorTraits&lt; Vector3&lt; T &gt; &gt;</a>, <a class="el" href="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a501487ea3ef4e972885a0771ca6b2948">MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</a></li>
 <li>dialogIsOpen()&#160;:&#160;<a class="el" href="classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d">MR::StateBasePlugin</a></li>
 <li>dihedralAngle()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a938d6bd536f16b6f46394ceb91271053">MR::Mesh</a></li>
 <li>dihedralAngleCos()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#afbc9fe4f12054a0171667825056fe457">MR::Mesh</a></li>
@@ -190,7 +198,6 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <li>done()&#160;:&#160;<a class="el" href="classMR_1_1EdgePathsBuilderT.html#a336db542a3c1e1aafb7a7e132ee4a508">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</a>, <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23">MR::SurfaceDistanceBuilder</a></li>
 <li>doneDistance()&#160;:&#160;<a class="el" href="classMR_1_1EdgePathsBuilderT.html#a6121aae22b66ff8e123f4f1d2d21528d">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</a>, <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7">MR::SurfaceDistanceBuilder</a></li>
 <li>dot()&#160;:&#160;<a class="el" href="structMR_1_1Matrix2.html#ab5e6f6852dd0368af40b425791b091f6">MR::Matrix2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix3.html#ab4a3e6558d044290a3821b5981c124f5">MR::Matrix3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Matrix4.html#a2480220828af2a453a7cf767ecfe462f">MR::Matrix4&lt; T &gt;</a>, <a class="el" href="structMR_1_1Quaternion.html#a24a478c9463275d440061899c3630a32">MR::Quaternion&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector2.html#a6c8408d5ef7e501f160602528912a167">MR::Vector2&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector3.html#a3856ec6f677ed2b0849cc35ffb0c22d8">MR::Vector3&lt; T &gt;</a>, <a class="el" href="structMR_1_1Vector4.html#ae2d0b2ad856fb4877d2deccd98f6651c">MR::Vector4&lt; T &gt;</a></li>
-<li>DoubleOffsetMesh()&#160;:&#160;<a class="el" href="classOffset.html#ae028d3be0526fabd4efe80ec56c48d2d">Offset</a></li>
 <li>drag()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ae08c5961fdb9631a768a60406145226a">MR::Viewer</a></li>
 <li>dragDrop()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a69116527e6d1bb79a5231d928ccf9bb9">MR::Viewer</a></li>
 <li>dragDrop_()&#160;:&#160;<a class="el" href="structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252">MR::DragDropListener</a></li>

@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRSystem.h Source File</title>
+<title>MeshLib Documentation: MRSystem.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -216,18 +226,29 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">   79</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string <a class="code hl_function" href="namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">getCurrentStacktrace</a>();</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">struct </span>ProccessMemoryInfo</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>{</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">size_t</span> currVirtual = 0, maxVirtual = 0;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">size_t</span> currPhysical = 0, maxPhysical = 0;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ProccessMemoryInfo getProccessMemoryInfo();</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif </span><span class="comment">//_WIN32</span></div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="};">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="structMR_1_1SystemMemory.html">   82</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1SystemMemory.html">SystemMemory</a></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040">   85</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040">physicalTotal</a> = 0;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351">   88</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351">physicalAvailable</a> = 0;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>};</div>
+</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">   97</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a>();</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">   92</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_struct" href="structMR_1_1SystemMemory.html">SystemMemory</a> <a class="code hl_function" href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">getSystemMemory</a>();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="keyword">struct </span>ProccessMemoryInfo</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>{</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">size_t</span> currVirtual = 0, maxVirtual = 0;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">size_t</span> currPhysical = 0, maxPhysical = 0;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>};</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ProccessMemoryInfo getProccessMemoryInfo();</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#endif </span><span class="comment">//_WIN32</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">  109</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a>();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
@@ -235,6 +256,7 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_a1d6fd316711783f671ffebc9eac9042a"><div class="ttname"><a href="namespaceMR.html#a1d6fd316711783f671ffebc9eac9042a">MR::GetResourcesDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetResourcesDirectory()</div></div>
 <div class="ttc" id="anamespaceMR_html_a2d2055c8154d0075f8388ca7579fd794"><div class="ttname"><a href="namespaceMR.html#a2d2055c8154d0075f8388ca7579fd794">MR::OpenDocument</a></div><div class="ttdeci">MRMESH_API bool OpenDocument(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="anamespaceMR_html_a2ddb2bd9b31853c37146f070b0b472c1"><div class="ttname"><a href="namespaceMR.html#a2ddb2bd9b31853c37146f070b0b472c1">MR::GetHomeDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetHomeDirectory()</div></div>
+<div class="ttc" id="anamespaceMR_html_a3ba2aca05f28a3dd3c05cb49fbf09b66"><div class="ttname"><a href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">MR::getSystemMemory</a></div><div class="ttdeci">MRMESH_API SystemMemory getSystemMemory()</div><div class="ttdoc">return information about memory available in the system</div></div>
 <div class="ttc" id="anamespaceMR_html_a4495a70f291d11bdf905106b2a3856b5"><div class="ttname"><a href="namespaceMR.html#a4495a70f291d11bdf905106b2a3856b5">MR::getOSNoSpaces</a></div><div class="ttdeci">MRMESH_API std::string getOSNoSpaces()</div></div>
 <div class="ttc" id="anamespaceMR_html_a4ba1f8b8dda149d741c79f6ca5c6f2ba"><div class="ttname"><a href="namespaceMR.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba">MR::GetTempDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetTempDirectory()</div></div>
 <div class="ttc" id="anamespaceMR_html_a5d1ca6e9b05136afa1017b1c60906789"><div class="ttname"><a href="namespaceMR.html#a5d1ca6e9b05136afa1017b1c60906789">MR::GetExeDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetExeDirectory()</div></div>
@@ -252,6 +274,9 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_ac6f40535c1b612f6ce24e70b7ee28a36"><div class="ttname"><a href="namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36">MR::GetMRVersionString</a></div><div class="ttdeci">MRMESH_API std::string GetMRVersionString()</div></div>
 <div class="ttc" id="anamespaceMR_html_ac8ef1e5eb550d8cb502e7a5a5ac8c038"><div class="ttname"><a href="namespaceMR.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038">MR::getUserConfigDir</a></div><div class="ttdeci">MRMESH_API std::filesystem::path getUserConfigDir()</div></div>
 <div class="ttc" id="anamespaceMR_html_aec820d50ac448217d66131a079fce39a"><div class="ttname"><a href="namespaceMR.html#aec820d50ac448217d66131a079fce39a">MR::OpenLink</a></div><div class="ttdeci">MRMESH_API void OpenLink(const std::string &amp;url)</div></div>
+<div class="ttc" id="astructMR_1_1SystemMemory_html"><div class="ttname"><a href="structMR_1_1SystemMemory.html">MR::SystemMemory</a></div><div class="ttdef"><b>Definition</b> MRSystem.h:83</div></div>
+<div class="ttc" id="astructMR_1_1SystemMemory_html_a3087e60be22adc17e00bcb62da97a040"><div class="ttname"><a href="structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040">MR::SystemMemory::physicalTotal</a></div><div class="ttdeci">size_t physicalTotal</div><div class="ttdoc">total amount of physical memory in the system, in bytes (0 if no info)</div><div class="ttdef"><b>Definition</b> MRSystem.h:85</div></div>
+<div class="ttc" id="astructMR_1_1SystemMemory_html_a76875970bb84c9474cc9e582162fe351"><div class="ttname"><a href="structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351">MR::SystemMemory::physicalAvailable</a></div><div class="ttdeci">size_t physicalAvailable</div><div class="ttdoc">available amount of physical memory in the system, in bytes (0 if no info)</div><div class="ttdef"><b>Definition</b> MRSystem.h:88</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

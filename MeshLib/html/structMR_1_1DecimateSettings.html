@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::DecimateSettings Struct Reference</title>
+<title>MeshLib Documentation: MR::DecimateSettings Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -149,7 +159,7 @@ $(function(){initNavTree('structMR_1_1DecimateSettings.html',''); initResizable(
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7b024d2a905ecd6515a263ec20d35dc6" id="r_a7b024d2a905ecd6515a263ec20d35dc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a216960c15f7b00558ab28053967a9615">DecimateStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b024d2a905ecd6515a263ec20d35dc6">strategy</a> = <a class="el" href="namespaceMR.html#a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098">DecimateStrategy::MinimizeError</a></td></tr>
 <tr class="separator:a7b024d2a905ecd6515a263ec20d35dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab97888b6d597260226ade61b4e542ef0" id="r_ab97888b6d597260226ade61b4e542ef0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab97888b6d597260226ade61b4e542ef0">maxError</a> = 0.001f</td></tr>
+<tr class="memitem:ab97888b6d597260226ade61b4e542ef0" id="r_ab97888b6d597260226ade61b4e542ef0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab97888b6d597260226ade61b4e542ef0">maxError</a> = FLT_MAX</td></tr>
 <tr class="separator:ab97888b6d597260226ade61b4e542ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac98cbfa367475605fa88982f55dc9a61" id="r_ac98cbfa367475605fa88982f55dc9a61"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac98cbfa367475605fa88982f55dc9a61">maxEdgeLen</a> = FLT_MAX</td></tr>
 <tr class="memdesc:ac98cbfa367475605fa88982f55dc9a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible edge length created during decimation.  <br /></td></tr>
@@ -175,7 +185,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a38bbdf3c479e6edea3b93ca7a7b52084" id="r_a38bbdf3c479e6edea3b93ca7a7b52084"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38bbdf3c479e6edea3b93ca7a7b52084">maxDeletedFaces</a> = INT_MAX</td></tr>
 <tr class="memdesc:a38bbdf3c479e6edea3b93ca7a7b52084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit on the number of deleted faces.  <br /></td></tr>
 <tr class="separator:a38bbdf3c479e6edea3b93ca7a7b52084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9359f9da0b131c164d942b1361bd9644" id="r_a9359f9da0b131c164d942b1361bd9644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9359f9da0b131c164d942b1361bd9644">region</a> = nullptr</td></tr>
+<tr class="memitem:a9359f9da0b131c164d942b1361bd9644" id="r_a9359f9da0b131c164d942b1361bd9644"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9359f9da0b131c164d942b1361bd9644">region</a> = nullptr</td></tr>
 <tr class="memdesc:a9359f9da0b131c164d942b1361bd9644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be decimated, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a9359f9da0b131c164d942b1361bd9644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0731477e770d3880ed47726b66c43479" id="r_a0731477e770d3880ed47726b66c43479"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0731477e770d3880ed47726b66c43479">notFlippable</a> = nullptr</td></tr>
@@ -183,9 +193,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a0731477e770d3880ed47726b66c43479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ec65ab68109bf48005d935a85a08713" id="r_a1ec65ab68109bf48005d935a85a08713"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec65ab68109bf48005d935a85a08713">collapseNearNotFlippable</a> = false</td></tr>
 <tr class="separator:a1ec65ab68109bf48005d935a85a08713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e2b45d957cafc32245b3ee812ed80d0" id="r_a4e2b45d957cafc32245b3ee812ed80d0"><td class="memItemLeft" align="right" valign="top">const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e2b45d957cafc32245b3ee812ed80d0">edgesToCollapse</a> = nullptr</td></tr>
-<tr class="memdesc:a4e2b45d957cafc32245b3ee812ed80d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear)  <br /></td></tr>
-<tr class="separator:a4e2b45d957cafc32245b3ee812ed80d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc8d3606bda7323ca4c7b6f6866df2c" id="r_adcc8d3606bda7323ca4c7b6f6866df2c"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcc8d3606bda7323ca4c7b6f6866df2c">edgesToCollapse</a> = nullptr</td></tr>
+<tr class="separator:adcc8d3606bda7323ca4c7b6f6866df2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c38997b3f0df2d9e534bf87f530cdd7" id="r_a5c38997b3f0df2d9e534bf87f530cdd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ae4c04995449710309dc72ed533991d7f">UndirectedEdgeHashMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c38997b3f0df2d9e534bf87f530cdd7">twinMap</a> = nullptr</td></tr>
 <tr class="separator:a5c38997b3f0df2d9e534bf87f530cdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae341a50784372571b1b5bb3e6948981e" id="r_ae341a50784372571b1b5bb3e6948981e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae341a50784372571b1b5bb3e6948981e">touchNearBdEdges</a> = true</td></tr>
@@ -193,19 +202,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae341a50784372571b1b5bb3e6948981e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee15c4faad0020190c28ac13da3e735e" id="r_aee15c4faad0020190c28ac13da3e735e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee15c4faad0020190c28ac13da3e735e">touchBdVerts</a> = true</td></tr>
 <tr class="separator:aee15c4faad0020190c28ac13da3e735e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bc3106034dd8abdbb3067c7868ca6dd" id="r_a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc3106034dd8abdbb3067c7868ca6dd">bdVerts</a> = nullptr</td></tr>
+<tr class="memitem:a9bc3106034dd8abdbb3067c7868ca6dd" id="r_a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc3106034dd8abdbb3067c7868ca6dd">bdVerts</a> = nullptr</td></tr>
 <tr class="separator:a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07" id="r_aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="separator:aebecde304889b67910dd05d032cb8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5901e72dc3fd85459f38318a894afbbd" id="r_a5901e72dc3fd85459f38318a894afbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5901e72dc3fd85459f38318a894afbbd">preCollapse</a></td></tr>
 <tr class="memdesc:a5901e72dc3fd85459f38318a894afbbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
 <tr class="separator:a5901e72dc3fd85459f38318a894afbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21d7c6d9122286b4edf7bd531d38b72b" id="r_a21d7c6d9122286b4edf7bd531d38b72b"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, <a class="el" href="classVector3f.html">Vector3f</a> &amp;collapsePos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d7c6d9122286b4edf7bd531d38b72b">adjustCollapse</a></td></tr>
+<tr class="memitem:a21d7c6d9122286b4edf7bd531d38b72b" id="r_a21d7c6d9122286b4edf7bd531d38b72b"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, Vector3f &amp;collapsePos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d7c6d9122286b4edf7bd531d38b72b">adjustCollapse</a></td></tr>
 <tr class="memdesc:a21d7c6d9122286b4edf7bd531d38b72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position.  <br /></td></tr>
 <tr class="separator:a21d7c6d9122286b4edf7bd531d38b72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4777d8a943b9bf55a68858260f62abd4" id="r_a4777d8a943b9bf55a68858260f62abd4"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4777d8a943b9bf55a68858260f62abd4">onEdgeDel</a></td></tr>
-<tr class="separator:a4777d8a943b9bf55a68858260f62abd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a682d43b723098485a748e97bd12111" id="r_a8a682d43b723098485a748e97bd12111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; QuadraticForm3f, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a682d43b723098485a748e97bd12111">vertForms</a> = nullptr</td></tr>
+<tr class="memitem:afc72ed6f7c868487d053596c86220d6f" id="r_afc72ed6f7c868487d053596c86220d6f"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId del, EdgeId rem)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc72ed6f7c868487d053596c86220d6f">onEdgeDel</a></td></tr>
+<tr class="separator:afc72ed6f7c868487d053596c86220d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a682d43b723098485a748e97bd12111" id="r_a8a682d43b723098485a748e97bd12111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; QuadraticForm3f, VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a682d43b723098485a748e97bd12111">vertForms</a> = nullptr</td></tr>
 <tr class="memdesc:a8a682d43b723098485a748e97bd12111"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there.  <br /></td></tr>
 <tr class="separator:a8a682d43b723098485a748e97bd12111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a320a08e8abf402aa6a0dae956ad9be0e" id="r_a320a08e8abf402aa6a0dae956ad9be0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a320a08e8abf402aa6a0dae956ad9be0e">packMesh</a> = false</td></tr>
@@ -218,7 +227,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8f97c534c28993195cc07d01e1721fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" id="r_a75b6f5ba5cb1ddac954f9ffd4fb9b7fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe">decimateBetweenParts</a> = true</td></tr>
 <tr class="separator:a75b6f5ba5cb1ddac954f9ffd4fb9b7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d69e19f2609b7330c6ac5d17a9ebfff" id="r_a7d69e19f2609b7330c6ac5d17a9ebfff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d69e19f2609b7330c6ac5d17a9ebfff">partFaces</a> = nullptr</td></tr>
+<tr class="memitem:a7d69e19f2609b7330c6ac5d17a9ebfff" id="r_a7d69e19f2609b7330c6ac5d17a9ebfff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d69e19f2609b7330c6ac5d17a9ebfff">partFaces</a> = nullptr</td></tr>
 <tr class="separator:a7d69e19f2609b7330c6ac5d17a9ebfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cc18ed533890cfc09a39ba3724b5f85" id="r_a7cc18ed533890cfc09a39ba3724b5f85"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc18ed533890cfc09a39ba3724b5f85">minFacesInPart</a> = 0</td></tr>
 <tr class="memdesc:a7cc18ed533890cfc09a39ba3724b5f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode  <br /></td></tr>
@@ -235,7 +244,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void( UndirectedEdgeId ue, float &amp; collapseErrorSq, <a class="el" href="classVector3f.html">Vector3f</a> &amp; collapsePos )&gt; MR::DecimateSettings::adjustCollapse</td>
+          <td class="memname">std::function&lt;void( UndirectedEdgeId ue, float &amp; collapseErrorSq, Vector3f &amp; collapsePos )&gt; MR::DecimateSettings::adjustCollapse</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -252,7 +261,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a>* MR::DecimateSettings::bdVerts = nullptr</td>
+          <td class="memname">const VertBitSet* MR::DecimateSettings::bdVerts = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -305,19 +314,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e2b45d957cafc32245b3ee812ed80d0" name="a4e2b45d957cafc32245b3ee812ed80d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e2b45d957cafc32245b3ee812ed80d0">&#9670;&#160;</a></span>edgesToCollapse</h2>
+<a id="adcc8d3606bda7323ca4c7b6f6866df2c" name="adcc8d3606bda7323ca4c7b6f6866df2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc8d3606bda7323ca4c7b6f6866df2c">&#9670;&#160;</a></span>edgesToCollapse</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const UndirectedEdgeBitSet* MR::DecimateSettings::edgesToCollapse = nullptr</td>
+          <td class="memname">UndirectedEdgeBitSet* MR::DecimateSettings::edgesToCollapse = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear) </p>
+<p>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear); the algorithm updates this map during collapses, removing or replacing elements </p>
 
 </div>
 </div>
@@ -407,7 +415,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::DecimateSettings::maxError = 0.001f</td>
+          <td class="memname">float MR::DecimateSettings::maxError = FLT_MAX</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -463,18 +471,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4777d8a943b9bf55a68858260f62abd4" name="a4777d8a943b9bf55a68858260f62abd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4777d8a943b9bf55a68858260f62abd4">&#9670;&#160;</a></span>onEdgeDel</h2>
+<a id="afc72ed6f7c868487d053596c86220d6f" name="afc72ed6f7c868487d053596c86220d6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc72ed6f7c868487d053596c86220d6f">&#9670;&#160;</a></span>onEdgeDel</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1)&gt; MR::DecimateSettings::onEdgeDel</td>
+          <td class="memname">std::function&lt;void( EdgeId del, EdgeId rem )&gt; MR::DecimateSettings::onEdgeDel</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is deleted; if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e </p>
+<p>this function is called each time edge (del) is deleted; if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </p>
 
 </div>
 </div>
@@ -516,7 +524,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>&gt;* MR::DecimateSettings::partFaces = nullptr</td>
+          <td class="memname">std::vector&lt;FaceBitSet&gt;* MR::DecimateSettings::partFaces = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -564,7 +572,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>* MR::DecimateSettings::region = nullptr</td>
+          <td class="memname">FaceBitSet* MR::DecimateSettings::region = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -613,7 +621,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); unlike <a class="el" href="group__DecimateGroup.html#gab0b1827b05aa2ba71b50b8793f989e03">decimateParallelMesh</a> it does not create copies of mesh regions, so may take less memory to operate; IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
 
 </div>
 </div>
@@ -686,7 +694,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;QuadraticForm3f, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;* MR::DecimateSettings::vertForms = nullptr</td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;QuadraticForm3f, VertId&gt;* MR::DecimateSettings::vertForms = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

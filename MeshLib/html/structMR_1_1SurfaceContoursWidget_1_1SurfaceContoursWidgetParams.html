@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::SurfaceContoursWidget::SurfaceContoursWidgetParams Struct Reference</title>
+<title>MeshLib Documentation: MR::SurfaceContoursWidget::SurfaceContoursWidgetParams Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -150,8 +160,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa080474e426f7c4a981c49839ab20261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9515abf4d7599eda7f5896681430883a" id="r_a9515abf4d7599eda7f5896681430883a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9515abf4d7599eda7f5896681430883a">writeHistory</a> = true</td></tr>
 <tr class="separator:a9515abf4d7599eda7f5896681430883a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd1f153be026ccd44397454e0d221cab" id="r_afd1f153be026ccd44397454e0d221cab"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1f153be026ccd44397454e0d221cab">historySpecification</a> = &quot;surface contours widget&quot;</td></tr>
-<tr class="separator:afd1f153be026ccd44397454e0d221cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae497e46b3f35233ca235b4786f883540" id="r_ae497e46b3f35233ca235b4786f883540"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae497e46b3f35233ca235b4786f883540">historyNameSuffix</a></td></tr>
+<tr class="separator:ae497e46b3f35233ca235b4786f883540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55df668c518b91fb548871e0ad0420e6" id="r_a55df668c518b91fb548871e0ad0420e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55df668c518b91fb548871e0ad0420e6">filterHistoryonReset</a> = true</td></tr>
 <tr class="separator:a55df668c518b91fb548871e0ad0420e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e1ca56125756c1a4bd6557ee7e0eee1" id="r_a7e1ca56125756c1a4bd6557ee7e0eee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html">SurfacePointWidget::Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e1ca56125756c1a4bd6557ee7e0eee1">surfacePointParams</a></td></tr>
@@ -194,14 +204,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afd1f153be026ccd44397454e0d221cab" name="afd1f153be026ccd44397454e0d221cab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd1f153be026ccd44397454e0d221cab">&#9670;&#160;</a></span>historySpecification</h2>
+<a id="ae497e46b3f35233ca235b4786f883540" name="ae497e46b3f35233ca235b4786f883540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae497e46b3f35233ca235b4786f883540">&#9670;&#160;</a></span>historyNameSuffix</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MR::SurfaceContoursWidget::SurfaceContoursWidgetParams::historySpecification = &quot;surface contours widget&quot;</td>
+          <td class="memname">std::string MR::SurfaceContoursWidget::SurfaceContoursWidgetParams::historyNameSuffix</td>
         </tr>
       </table>
 </div><div class="memdoc">

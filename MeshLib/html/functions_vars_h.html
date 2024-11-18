@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Class Members - Variables</title>
+<title>MeshLib Documentation: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -137,7 +147,7 @@ $(function(){initNavTree('functions_vars_h.html',''); initResizable(true); });
 
 <h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
 <li>hardSmoothTetrahedrons&#160;:&#160;<a class="el" href="structMR_1_1MeshRelaxParams.html#aeb8c3fee03385430c013562e6fafb17e">MR::MeshRelaxParams</a></li>
-<li>header&#160;:&#160;<a class="el" href="structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2">MR::RibbonNotification</a></li>
+<li>header&#160;:&#160;<a class="el" href="structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2">MR::RibbonNotification</a>, <a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html#a229fd015ed069a04dae134c45b2ed91d">MR::UI::SaveChangesPopupSettings</a></li>
 <li>headerQuickAccessList&#160;:&#160;<a class="el" href="structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9">MR::RibbonSchema</a></li>
 <li>height&#160;:&#160;<a class="el" href="structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0">ImGui::CustomStatePluginWindowParameters</a>, <a class="el" href="classMR_1_1Cone3.html#a1837f049b2e30d91b8cc20a4109d7e87">MR::Cone3&lt; T &gt;</a>, <a class="el" href="structMR_1_1LaunchParams.html#aa761ccae3c2bc953581b4731e0ed39e4">MR::LaunchParams</a></li>
 <li>helpBtnFn&#160;:&#160;<a class="el" href="structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98">ImGui::CustomStatePluginWindowParameters</a></li>
@@ -148,9 +158,8 @@ $(function(){initNavTree('functions_vars_h.html',''); initResizable(true); });
 <li>HideInit&#160;:&#160;<a class="el" href="structMR_1_1LaunchParams.html#adf7ca51c8109714e1b6bbe600ab207fe">MR::LaunchParams</a></li>
 <li>hidpi_scaling_&#160;:&#160;<a class="el" href="classMR_1_1ImGuiMenu.html#a56862fe69e7b443b52c3ec99d13981a0">MR::ImGuiMenu</a></li>
 <li>hintDirection&#160;:&#160;<a class="el" href="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2">MR::FixUndercuts::ImproveDirectionParameters</a></li>
-<li>historySpecification&#160;:&#160;<a class="el" href="structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#afd1f153be026ccd44397454e0d221cab">MR::SurfaceContoursWidget::SurfaceContoursWidgetParams</a></li>
+<li>historyNameSuffix&#160;:&#160;<a class="el" href="structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ae497e46b3f35233ca235b4786f883540">MR::SurfaceContoursWidget::SurfaceContoursWidgetParams</a></li>
 <li>holeIdx&#160;:&#160;<a class="el" href="structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d">MR::HoleEdgePoint</a></li>
-<li>HoleRepresentiveEdges&#160;:&#160;<a class="el" href="classMesh.html#a38344f7839edade15b54ebf40da394e7">Mesh</a></li>
 <li>hollow&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf">MR::Features::Primitives::ConeSegment</a></li>
 <li>home&#160;:&#160;<a class="el" href="structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5">MR::EmbeddedPython::Config</a></li>
 <li>hops&#160;:&#160;<a class="el" href="structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b">MR::FindOverhangsSettings</a></li>

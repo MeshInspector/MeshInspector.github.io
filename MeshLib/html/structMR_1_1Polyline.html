@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::Polyline&lt; V &gt; Struct Template Reference</title>
+<title>MeshLib Documentation: MR::Polyline&lt; V &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -153,53 +163,53 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45f4e47f567de8900614578bf0becc56" id="r_a45f4e47f567de8900614578bf0becc56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f4e47f567de8900614578bf0becc56">Polyline</a> (const <a class="el" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> &amp;<a class="el" href="#a91470a70289b04baf4e278a4b7c4702b">contours</a>)</td></tr>
 <tr class="memdesc:a45f4e47f567de8900614578bf0becc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates polyline from 3D contours, 2D polyline will lose z-component  <br /></td></tr>
 <tr class="separator:a45f4e47f567de8900614578bf0becc56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa95a33cc56a264a94edd7ef4c0f833bf" id="r_aa95a33cc56a264a94edd7ef4c0f833bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95a33cc56a264a94edd7ef4c0f833bf">Polyline</a> (const std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;comp2firstVert, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; ps)</td></tr>
+<tr class="memitem:aa95a33cc56a264a94edd7ef4c0f833bf" id="r_aa95a33cc56a264a94edd7ef4c0f833bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95a33cc56a264a94edd7ef4c0f833bf">Polyline</a> (const std::vector&lt; VertId &gt; &amp;comp2firstVert, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; ps)</td></tr>
 <tr class="separator:aa95a33cc56a264a94edd7ef4c0f833bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae40d1c6ba0e12c47a855747d44d40ea" id="r_aae40d1c6ba0e12c47a855747d44d40ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae40d1c6ba0e12c47a855747d44d40ea">addFromPoints</a> (const V *vs, size_t num, bool closed)</td></tr>
+<tr class="memitem:aae40d1c6ba0e12c47a855747d44d40ea" id="r_aae40d1c6ba0e12c47a855747d44d40ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae40d1c6ba0e12c47a855747d44d40ea">addFromPoints</a> (const V *vs, size_t num, bool closed)</td></tr>
 <tr class="separator:aae40d1c6ba0e12c47a855747d44d40ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f0bc764cd99c848a21add405261785" id="r_ad1f0bc764cd99c848a21add405261785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f0bc764cd99c848a21add405261785">addFromPoints</a> (const V *vs, size_t num)</td></tr>
+<tr class="memitem:ad1f0bc764cd99c848a21add405261785" id="r_ad1f0bc764cd99c848a21add405261785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f0bc764cd99c848a21add405261785">addFromPoints</a> (const V *vs, size_t num)</td></tr>
 <tr class="separator:ad1f0bc764cd99c848a21add405261785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51d38e177ee751404d7e836928dc4689" id="r_a51d38e177ee751404d7e836928dc4689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d38e177ee751404d7e836928dc4689">addPart</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;from, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</td></tr>
+<tr class="memitem:a51d38e177ee751404d7e836928dc4689" id="r_a51d38e177ee751404d7e836928dc4689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d38e177ee751404d7e836928dc4689">addPart</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;from, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</td></tr>
 <tr class="separator:a51d38e177ee751404d7e836928dc4689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c415d06f60c7ddc956d9c1f5b4b9609" id="r_a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c415d06f60c7ddc956d9c1f5b4b9609">addPartByMask</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;from, const UndirectedEdgeBitSet &amp;mask, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> *outVmap=nullptr, EdgeMap *outEmap=nullptr)</td></tr>
+<tr class="memitem:a3c415d06f60c7ddc956d9c1f5b4b9609" id="r_a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c415d06f60c7ddc956d9c1f5b4b9609">addPartByMask</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;from, const UndirectedEdgeBitSet &amp;mask, VertMap *outVmap=nullptr, EdgeMap *outEmap=nullptr)</td></tr>
 <tr class="memdesc:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends polyline (from) in addition to this polyline: creates new edges, verts and points  <br /></td></tr>
 <tr class="separator:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d063b261d3c64f8a2882f0b2eaf77ed" id="r_a8d063b261d3c64f8a2882f0b2eaf77ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d063b261d3c64f8a2882f0b2eaf77ed">pack</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</td></tr>
+<tr class="memitem:a8d063b261d3c64f8a2882f0b2eaf77ed" id="r_a8d063b261d3c64f8a2882f0b2eaf77ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d063b261d3c64f8a2882f0b2eaf77ed">pack</a> (VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</td></tr>
 <tr class="separator:a8d063b261d3c64f8a2882f0b2eaf77ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a403ab94ad27b1766b1ef3043546ee01d" id="r_a403ab94ad27b1766b1ef3043546ee01d"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a403ab94ad27b1766b1ef3043546ee01d">orgPnt</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:a403ab94ad27b1766b1ef3043546ee01d" id="r_a403ab94ad27b1766b1ef3043546ee01d"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a403ab94ad27b1766b1ef3043546ee01d">orgPnt</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:a403ab94ad27b1766b1ef3043546ee01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns coordinates of the edge origin  <br /></td></tr>
 <tr class="separator:a403ab94ad27b1766b1ef3043546ee01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29635bdcaade26236bf38e9044e1605a" id="r_a29635bdcaade26236bf38e9044e1605a"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29635bdcaade26236bf38e9044e1605a">destPnt</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:a29635bdcaade26236bf38e9044e1605a" id="r_a29635bdcaade26236bf38e9044e1605a"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29635bdcaade26236bf38e9044e1605a">destPnt</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:a29635bdcaade26236bf38e9044e1605a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns coordinates of the edge destination  <br /></td></tr>
 <tr class="separator:a29635bdcaade26236bf38e9044e1605a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09efa3e658e95b29f1dea8f362d18289" id="r_a09efa3e658e95b29f1dea8f362d18289"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09efa3e658e95b29f1dea8f362d18289">edgePoint</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, float f) const</td></tr>
+<tr class="memitem:a09efa3e658e95b29f1dea8f362d18289" id="r_a09efa3e658e95b29f1dea8f362d18289"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09efa3e658e95b29f1dea8f362d18289">edgePoint</a> (EdgeId e, float f) const</td></tr>
 <tr class="memdesc:a09efa3e658e95b29f1dea8f362d18289"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a point on the edge: origin point for f=0 and destination point for f=1  <br /></td></tr>
 <tr class="separator:a09efa3e658e95b29f1dea8f362d18289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0127bea8e352025d57d7b71fccf78b15" id="r_a0127bea8e352025d57d7b71fccf78b15"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0127bea8e352025d57d7b71fccf78b15">edgePoint</a> (const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp;ep) const</td></tr>
 <tr class="memdesc:a0127bea8e352025d57d7b71fccf78b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes coordinates of point given as edge and relative position on it  <br /></td></tr>
 <tr class="separator:a0127bea8e352025d57d7b71fccf78b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f0b9ea32808bf20f7aa8c85eb62641" id="r_ad1f0b9ea32808bf20f7aa8c85eb62641"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f0b9ea32808bf20f7aa8c85eb62641">edgeCenter</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:ad1f0b9ea32808bf20f7aa8c85eb62641" id="r_ad1f0b9ea32808bf20f7aa8c85eb62641"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f0b9ea32808bf20f7aa8c85eb62641">edgeCenter</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:ad1f0b9ea32808bf20f7aa8c85eb62641"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns edge's centroid  <br /></td></tr>
 <tr class="separator:ad1f0b9ea32808bf20f7aa8c85eb62641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9e9cb920eced56be83119d6d268691f" id="r_ab9e9cb920eced56be83119d6d268691f"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e9cb920eced56be83119d6d268691f">edgeVector</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:ab9e9cb920eced56be83119d6d268691f" id="r_ab9e9cb920eced56be83119d6d268691f"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e9cb920eced56be83119d6d268691f">edgeVector</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:ab9e9cb920eced56be83119d6d268691f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector equal to edge destination point minus edge origin point  <br /></td></tr>
 <tr class="separator:ab9e9cb920eced56be83119d6d268691f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6187af336b61283c5118d9aca6f0a12" id="r_ae6187af336b61283c5118d9aca6f0a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6187af336b61283c5118d9aca6f0a12">edgeSegment</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:ae6187af336b61283c5118d9aca6f0a12" id="r_ae6187af336b61283c5118d9aca6f0a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6187af336b61283c5118d9aca6f0a12">edgeSegment</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:ae6187af336b61283c5118d9aca6f0a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns line segment of given edge  <br /></td></tr>
 <tr class="separator:ae6187af336b61283c5118d9aca6f0a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcd14ead7b771006dcdc733950976288" id="r_adcd14ead7b771006dcdc733950976288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd14ead7b771006dcdc733950976288">toEdgePoint</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v) const</td></tr>
+<tr class="memitem:adcd14ead7b771006dcdc733950976288" id="r_adcd14ead7b771006dcdc733950976288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd14ead7b771006dcdc733950976288">toEdgePoint</a> (VertId v) const</td></tr>
 <tr class="memdesc:adcd14ead7b771006dcdc733950976288"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts vertex into edge-point representation  <br /></td></tr>
 <tr class="separator:adcd14ead7b771006dcdc733950976288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a036db71418e9c25f3d9fc51772ce4e6a" id="r_a036db71418e9c25f3d9fc51772ce4e6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036db71418e9c25f3d9fc51772ce4e6a">toEdgePoint</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, const V &amp;p) const</td></tr>
+<tr class="memitem:a036db71418e9c25f3d9fc51772ce4e6a" id="r_a036db71418e9c25f3d9fc51772ce4e6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036db71418e9c25f3d9fc51772ce4e6a">toEdgePoint</a> (EdgeId e, const V &amp;p) const</td></tr>
 <tr class="memdesc:a036db71418e9c25f3d9fc51772ce4e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts edge and point's coordinates into edge-point representation  <br /></td></tr>
 <tr class="separator:a036db71418e9c25f3d9fc51772ce4e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c547895888165d873db848b161cb5c0" id="r_a2c547895888165d873db848b161cb5c0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c547895888165d873db848b161cb5c0">edgeLength</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:a2c547895888165d873db848b161cb5c0" id="r_a2c547895888165d873db848b161cb5c0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c547895888165d873db848b161cb5c0">edgeLength</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:a2c547895888165d873db848b161cb5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Euclidean length of the edge  <br /></td></tr>
 <tr class="separator:a2c547895888165d873db848b161cb5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3de745fc249ab0b56e00796cf740f97" id="r_ab3de745fc249ab0b56e00796cf740f97"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3de745fc249ab0b56e00796cf740f97">edgeLengthSq</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:ab3de745fc249ab0b56e00796cf740f97" id="r_ab3de745fc249ab0b56e00796cf740f97"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3de745fc249ab0b56e00796cf740f97">edgeLengthSq</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:ab3de745fc249ab0b56e00796cf740f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared Euclidean length of the edge (faster to compute than length)  <br /></td></tr>
 <tr class="separator:ab3de745fc249ab0b56e00796cf740f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcd9babfa09e9b253e4e80937c08fa6f" id="r_adcd9babfa09e9b253e4e80937c08fa6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd9babfa09e9b253e4e80937c08fa6f">loopDirArea</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e) const</td></tr>
+<tr class="memitem:adcd9babfa09e9b253e4e80937c08fa6f" id="r_adcd9babfa09e9b253e4e80937c08fa6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd9babfa09e9b253e4e80937c08fa6f">loopDirArea</a> (EdgeId e) const</td></tr>
 <tr class="separator:adcd9babfa09e9b253e4e80937c08fa6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a9c58f07401349f8113bfc5e5e03619" id="r_a2a9c58f07401349f8113bfc5e5e03619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a9c58f07401349f8113bfc5e5e03619">totalLength</a> () const</td></tr>
 <tr class="memdesc:a2a9c58f07401349f8113bfc5e5e03619"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns total length of the polyline  <br /></td></tr>
@@ -220,32 +230,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a850c5acb1d7b21b7652c8b44f7e53965" id="r_a850c5acb1d7b21b7652c8b44f7e53965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a850c5acb1d7b21b7652c8b44f7e53965">transform</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;xf)</td></tr>
 <tr class="memdesc:a850c5acb1d7b21b7652c8b44f7e53965"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies given transformation to all valid polyline vertices  <br /></td></tr>
 <tr class="separator:a850c5acb1d7b21b7652c8b44f7e53965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17426532df4513648d6e3d0212e8f334" id="r_a17426532df4513648d6e3d0212e8f334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17426532df4513648d6e3d0212e8f334">splitEdge</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e, const V &amp;newVertPos)</td></tr>
+<tr class="memitem:a17426532df4513648d6e3d0212e8f334" id="r_a17426532df4513648d6e3d0212e8f334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17426532df4513648d6e3d0212e8f334">splitEdge</a> (EdgeId e, const V &amp;newVertPos)</td></tr>
 <tr class="separator:a17426532df4513648d6e3d0212e8f334"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0339a19861aa52dd86eceea3e805b8" id="r_aee0339a19861aa52dd86eceea3e805b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee0339a19861aa52dd86eceea3e805b8">splitEdge</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)</td></tr>
+<tr class="memitem:aee0339a19861aa52dd86eceea3e805b8" id="r_aee0339a19861aa52dd86eceea3e805b8"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee0339a19861aa52dd86eceea3e805b8">splitEdge</a> (EdgeId e)</td></tr>
 <tr class="separator:aee0339a19861aa52dd86eceea3e805b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31c2d8e3b6a9e6729084fbb4221d8d57" id="r_a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31c2d8e3b6a9e6729084fbb4221d8d57">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in polyline.  <br /></td></tr>
 <tr class="separator:a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91470a70289b04baf4e278a4b7c4702b" id="r_a91470a70289b04baf4e278a4b7c4702b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#acc92c2d7152d14f1cb59bb4c7187fed8">Contours</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91470a70289b04baf4e278a4b7c4702b">contours</a> (std::vector&lt; std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &gt; *vertMap=nullptr) const</td></tr>
+<tr class="memitem:a91470a70289b04baf4e278a4b7c4702b" id="r_a91470a70289b04baf4e278a4b7c4702b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#acc92c2d7152d14f1cb59bb4c7187fed8">Contours</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91470a70289b04baf4e278a4b7c4702b">contours</a> (std::vector&lt; std::vector&lt; VertId &gt; &gt; *vertMap=nullptr) const</td></tr>
 <tr class="separator:a91470a70289b04baf4e278a4b7c4702b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5ba9b1bd705b2eee1f6faa6e1a1ab29" id="r_ab5ba9b1bd705b2eee1f6faa6e1a1ab29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5ba9b1bd705b2eee1f6faa6e1a1ab29">contours2</a> (std::vector&lt; std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &gt; *vertMap=nullptr) const</td></tr>
+<tr class="memitem:ab5ba9b1bd705b2eee1f6faa6e1a1ab29" id="r_ab5ba9b1bd705b2eee1f6faa6e1a1ab29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5ba9b1bd705b2eee1f6faa6e1a1ab29">contours2</a> (std::vector&lt; std::vector&lt; VertId &gt; &gt; *vertMap=nullptr) const</td></tr>
 <tr class="separator:ab5ba9b1bd705b2eee1f6faa6e1a1ab29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4247ea43b01e686c29028046ad50fe6a" id="r_a4247ea43b01e686c29028046ad50fe6a"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a4247ea43b01e686c29028046ad50fe6a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4247ea43b01e686c29028046ad50fe6a">toPolyline</a> () const</td></tr>
 <tr class="memdesc:a4247ea43b01e686c29028046ad50fe6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert Polyline3 to Polyline2 or vice versa  <br /></td></tr>
 <tr class="separator:a4247ea43b01e686c29028046ad50fe6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21cfd60868c3fbabcfda71008f98cfa1" id="r_a21cfd60868c3fbabcfda71008f98cfa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21cfd60868c3fbabcfda71008f98cfa1">addFromEdgePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path)</td></tr>
+<tr class="memitem:a21cfd60868c3fbabcfda71008f98cfa1" id="r_a21cfd60868c3fbabcfda71008f98cfa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21cfd60868c3fbabcfda71008f98cfa1">addFromEdgePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path)</td></tr>
 <tr class="separator:a21cfd60868c3fbabcfda71008f98cfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97fea45a4170313a719a900d98a1ee7d" id="r_a97fea45a4170313a719a900d98a1ee7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fea45a4170313a719a900d98a1ee7d">addFromSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path)</td></tr>
+<tr class="memitem:a97fea45a4170313a719a900d98a1ee7d" id="r_a97fea45a4170313a719a900d98a1ee7d"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fea45a4170313a719a900d98a1ee7d">addFromSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path)</td></tr>
 <tr class="separator:a97fea45a4170313a719a900d98a1ee7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26b4e6a0cf3287f52bdf51f2eeebd02" id="r_af26b4e6a0cf3287f52bdf51f2eeebd02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af26b4e6a0cf3287f52bdf51f2eeebd02">addFromGeneralSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>)</td></tr>
+<tr class="memitem:af26b4e6a0cf3287f52bdf51f2eeebd02" id="r_af26b4e6a0cf3287f52bdf51f2eeebd02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af26b4e6a0cf3287f52bdf51f2eeebd02">addFromGeneralSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>)</td></tr>
 <tr class="separator:af26b4e6a0cf3287f52bdf51f2eeebd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb4149d3e094b89744f9831dac1103dd" id="r_adb4149d3e094b89744f9831dac1103dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4149d3e094b89744f9831dac1103dd">heapBytes</a> () const</td></tr>
 <tr class="memdesc:adb4149d3e094b89744f9831dac1103dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:adb4149d3e094b89744f9831dac1103dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaa90b34cd74ab76a35694d438baaf65" id="r_aeaa90b34cd74ab76a35694d438baaf65"><td class="memTemplParams" colspan="2">template&lt;class Q  = V&gt; </td></tr>
-<tr class="memitem:aeaa90b34cd74ab76a35694d438baaf65"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_same_v&lt; Q, <a class="el" href="classVector3f.html">Vector3f</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aeaa90b34cd74ab76a35694d438baaf65">mirror</a> (const Plane3f &amp;plane)</td></tr>
+<tr class="memitem:aeaa90b34cd74ab76a35694d438baaf65"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_same_v&lt; Q, Vector3f &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aeaa90b34cd74ab76a35694d438baaf65">mirror</a> (const Plane3f &amp;plane)</td></tr>
 <tr class="memdesc:aeaa90b34cd74ab76a35694d438baaf65"><td class="mdescLeft">&#160;</td><td class="mdescRight">reflects the polyline from a given plane. Enabled only for Polyline3f  <br /></td></tr>
 <tr class="separator:aeaa90b34cd74ab76a35694d438baaf65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -253,7 +263,7 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a92d855c680b2d29a825203463bd926fe" id="r_a92d855c680b2d29a825203463bd926fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92d855c680b2d29a825203463bd926fe">topology</a></td></tr>
 <tr class="separator:a92d855c680b2d29a825203463bd926fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e343d92cbb2ec14812dc38e4ba107fd" id="r_a8e343d92cbb2ec14812dc38e4ba107fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e343d92cbb2ec14812dc38e4ba107fd">points</a></td></tr>
+<tr class="memitem:a8e343d92cbb2ec14812dc38e4ba107fd" id="r_a8e343d92cbb2ec14812dc38e4ba107fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e343d92cbb2ec14812dc38e4ba107fd">points</a></td></tr>
 <tr class="separator:a8e343d92cbb2ec14812dc38e4ba107fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -340,12 +350,12 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::Polyline </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>comp2firstVert</em></span>, </td>
+          <td class="paramtype">const std::vector&lt; VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>comp2firstVert</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>ps</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt;</td>          <td class="paramname"><span class="paramname"><em>ps</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -369,7 +379,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromEdgePath </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromEdgePath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -393,7 +403,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromGeneralSurfacePath </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromGeneralSurfacePath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -427,7 +437,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromPoints </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromPoints </td>
           <td>(</td>
           <td class="paramtype">const V *</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>, </td>
         </tr>
@@ -452,7 +462,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromPoints </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromPoints </td>
           <td>(</td>
           <td class="paramtype">const V *</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>, </td>
         </tr>
@@ -486,7 +496,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromSurfacePath </td>
+          <td class="memname">EdgeId <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addFromSurfacePath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -522,7 +532,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> *</td>          <td class="paramname"><span class="paramname"><em>outVmap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">VertMap *</td>          <td class="paramname"><span class="paramname"><em>outVmap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -561,7 +571,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> *</td>          <td class="paramname"><span class="paramname"><em>outVmap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">VertMap *</td>          <td class="paramname"><span class="paramname"><em>outVmap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -618,7 +628,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#acc92c2d7152d14f1cb59bb4c7187fed8">Contours</a>&lt; V &gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::contours </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &gt; *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; VertId &gt; &gt; *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -652,7 +662,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::contours2 </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; &gt; *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; VertId &gt; &gt; *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -686,7 +696,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">V <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::destPnt </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -715,7 +725,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">V <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgeCenter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -744,7 +754,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">float <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgeLength </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -773,7 +783,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">float <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgeLengthSq </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -831,7 +841,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">V <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgePoint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -864,7 +874,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; V &gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgeSegment </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -893,7 +903,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">V <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgeVector </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1084,9 +1094,9 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::loopDirArea </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::loopDirArea </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1114,7 +1124,7 @@ template&lt;class Q  = V&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_same_v&lt; Q, <a class="el" href="classVector3f.html">Vector3f</a> &gt; &gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::mirror </td>
+          <td class="memname">std::enable_if_t&lt; std::is_same_v&lt; Q, Vector3f &gt; &gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::mirror </td>
           <td>(</td>
           <td class="paramtype">const Plane3f &amp;</td>          <td class="paramname"><span class="paramname"><em>plane</em></span></td><td>)</td>
           <td></td>
@@ -1145,7 +1155,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">V <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::orgPnt </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1171,7 +1181,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::pack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> *</td>          <td class="paramname"><span class="paramname"><em>outVmap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">VertMap *</td>          <td class="paramname"><span class="paramname"><em>outVmap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1196,9 +1206,9 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::splitEdge </td>
+          <td class="memname">EdgeId <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::splitEdge </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1220,9 +1230,9 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::splitEdge </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::splitEdge </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1249,7 +1259,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::toEdgePoint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1282,7 +1292,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::toEdgePoint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1388,7 +1398,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;V, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::points</td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;V, VertId&gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::points</td>
         </tr>
       </table>
 </div><div class="memdoc">

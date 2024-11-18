@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRIntersectionContour.h Source File</title>
+<title>MeshLib Documentation: MRIntersectionContour.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -155,7 +165,7 @@ $(function(){initNavTree('MRMeshC_2MRIntersectionContour_8h_source.html',''); in
 </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRMeshC_2MRIntersectionContour_8h.html#a588c8be2f4f1e7c937a2e5050f9a616e">   16</a></span><a class="code hl_typedef" href="MRMeshC_2MRIntersectionContour_8h.html#a588c8be2f4f1e7c937a2e5050f9a616e">MRVariableEdgeTri</a>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( ContinuousContour, <a class="code hl_struct" href="structVariableEdgeTri.html">VariableEdgeTri</a> )</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><a class="code hl_define" href="MRMeshC_2MRVector_8h.html#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>( ContinuousContour, VariableEdgeTri )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="MRMeshC_2MRIntersectionContour_8h.html#acb1797a1b6cbdbb4936b6a1140409938">   20</a></span>typedef struct <a class="code hl_typedef" href="MRMeshC_2MRIntersectionContour_8h.html#acb1797a1b6cbdbb4936b6a1140409938">MRContinuousContours</a> <a class="code hl_typedef" href="MRMeshC_2MRIntersectionContour_8h.html#acb1797a1b6cbdbb4936b6a1140409938">MRContinuousContours</a>;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
@@ -194,7 +204,6 @@ $(function(){initNavTree('MRMeshC_2MRIntersectionContour_8h_source.html',''); in
 <div class="ttc" id="astructMRVariableEdgeTri_html_a8be7f6e499d16c435443e7ae803e2a5a"><div class="ttname"><a href="structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a">MRVariableEdgeTri::edge</a></div><div class="ttdeci">MREdgeId edge</div><div class="ttdef"><b>Definition</b> MRMeshC/MRIntersectionContour.h:12</div></div>
 <div class="ttc" id="astructMRVariableEdgeTri_html_abb4c9c760349879b819c09e1149051df"><div class="ttname"><a href="structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df">MRVariableEdgeTri::tri</a></div><div class="ttdeci">MRFaceId tri</div><div class="ttdef"><b>Definition</b> MRMeshC/MRIntersectionContour.h:13</div></div>
 <div class="ttc" id="astructMRVariableEdgeTri_html_afdb5363f5103bfde2cc6a6507f3f97f6"><div class="ttname"><a href="structMRVariableEdgeTri.html#afdb5363f5103bfde2cc6a6507f3f97f6">MRVariableEdgeTri::isEdgeATriB</a></div><div class="ttdeci">bool isEdgeATriB</div><div class="ttdef"><b>Definition</b> MRMeshC/MRIntersectionContour.h:14</div></div>
-<div class="ttc" id="astructVariableEdgeTri_html"><div class="ttname"><a href="structVariableEdgeTri.html">VariableEdgeTri</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:118</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

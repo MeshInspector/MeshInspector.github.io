@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Mesh Normals</title>
+<title>MeshLib Documentation: Mesh Normals</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -148,27 +158,27 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga59217bfc441b57736e20fa4c8b136c1f" id="r_ga59217bfc441b57736e20fa4c8b136c1f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">MR::TriangleCornerNormals</a> = std::array&lt;<a class="el" href="classVector3f.html">Vector3f</a>, 3&gt;</td></tr>
+<tr class="memitem:ga59217bfc441b57736e20fa4c8b136c1f" id="r_ga59217bfc441b57736e20fa4c8b136c1f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">MR::TriangleCornerNormals</a> = std::array&lt;Vector3f, 3&gt;</td></tr>
 <tr class="memdesc:ga59217bfc441b57736e20fa4c8b136c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">normals in three corner of a triangle  <br /></td></tr>
 <tr class="separator:ga59217bfc441b57736e20fa4c8b136c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab8d9ad3d41ea00136ac9d8c59766ab0c" id="r_gab8d9ad3d41ea00136ac9d8c59766ab0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aaa26318e65cc98892f9b832efbbc3965">FaceNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8d9ad3d41ea00136ac9d8c59766ab0c">MR::computePerFaceNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:gab8d9ad3d41ea00136ac9d8c59766ab0c" id="r_gab8d9ad3d41ea00136ac9d8c59766ab0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceNormals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8d9ad3d41ea00136ac9d8c59766ab0c">MR::computePerFaceNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:gab8d9ad3d41ea00136ac9d8c59766ab0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a vector with face-normal in every element for valid mesh faces  <br /></td></tr>
 <tr class="separator:gab8d9ad3d41ea00136ac9d8c59766ab0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga855f28ca0270228f5a867c2f2fc42e37" id="r_ga855f28ca0270228f5a867c2f2fc42e37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga855f28ca0270228f5a867c2f2fc42e37">MR::computePerFaceNormals4</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, Vector4f *faceNormals, size_t <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
 <tr class="memdesc:ga855f28ca0270228f5a867c2f2fc42e37"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills buffer with face-normals as Vector4f for valid mesh faces  <br /></td></tr>
 <tr class="separator:ga855f28ca0270228f5a867c2f2fc42e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5cd4c5961165390a68a0b055b5befbfa" id="r_ga5cd4c5961165390a68a0b055b5befbfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a746df06ff050028a10347909ce06079a">VertNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5cd4c5961165390a68a0b055b5befbfa">MR::computePerVertNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:ga5cd4c5961165390a68a0b055b5befbfa" id="r_ga5cd4c5961165390a68a0b055b5befbfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertNormals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5cd4c5961165390a68a0b055b5befbfa">MR::computePerVertNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:ga5cd4c5961165390a68a0b055b5befbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a vector with vertex normals in every element for valid mesh vertices  <br /></td></tr>
 <tr class="separator:ga5cd4c5961165390a68a0b055b5befbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5f58b21ccaa06eb95ccacb6fdfa5f35c" id="r_ga5f58b21ccaa06eb95ccacb6fdfa5f35c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a746df06ff050028a10347909ce06079a">VertNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f58b21ccaa06eb95ccacb6fdfa5f35c">MR::computePerVertPseudoNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:ga5f58b21ccaa06eb95ccacb6fdfa5f35c" id="r_ga5f58b21ccaa06eb95ccacb6fdfa5f35c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertNormals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f58b21ccaa06eb95ccacb6fdfa5f35c">MR::computePerVertPseudoNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:ga5f58b21ccaa06eb95ccacb6fdfa5f35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9d74c5dbc254d3fdb328a8ac37ba7529" id="r_ga9d74c5dbc254d3fdb328a8ac37ba7529"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshNormals.html">MeshNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d74c5dbc254d3fdb328a8ac37ba7529">MR::computeMeshNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:ga9d74c5dbc254d3fdb328a8ac37ba7529"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes both per-face and per-vertex normals more efficiently then just calling both previous functions  <br /></td></tr>
 <tr class="separator:ga9d74c5dbc254d3fdb328a8ac37ba7529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaadd26fa2561ab2ec3b62b2dea079161c" id="r_gaadd26fa2561ab2ec3b62b2dea079161c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">TriangleCornerNormals</a>, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadd26fa2561ab2ec3b62b2dea079161c">MR::computePerCornerNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet *creases)</td></tr>
+<tr class="memitem:gaadd26fa2561ab2ec3b62b2dea079161c" id="r_gaadd26fa2561ab2ec3b62b2dea079161c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">TriangleCornerNormals</a>, FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadd26fa2561ab2ec3b62b2dea079161c">MR::computePerCornerNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet *creases)</td></tr>
 <tr class="separator:gaadd26fa2561ab2ec3b62b2dea079161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -180,7 +190,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">MR::TriangleCornerNormals</a> = std::array&lt;<a class="el" href="classVector3f.html">Vector3f</a>, 3&gt;</td>
+          <td class="memname">using <a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">MR::TriangleCornerNormals</a> = std::array&lt;Vector3f, 3&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -227,7 +237,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">TriangleCornerNormals</a>, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> &gt; MR::computePerCornerNormals </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga59217bfc441b57736e20fa4c8b136c1f">TriangleCornerNormals</a>, FaceId &gt; MR::computePerCornerNormals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -257,7 +267,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aaa26318e65cc98892f9b832efbbc3965">FaceNormals</a> MR::computePerFaceNormals </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceNormals MR::computePerFaceNormals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
@@ -312,7 +322,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a746df06ff050028a10347909ce06079a">VertNormals</a> MR::computePerVertNormals </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertNormals MR::computePerVertNormals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
@@ -339,7 +349,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a746df06ff050028a10347909ce06079a">VertNormals</a> MR::computePerVertPseudoNormals </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertNormals MR::computePerVertPseudoNormals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>

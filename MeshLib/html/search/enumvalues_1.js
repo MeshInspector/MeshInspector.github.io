@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['a_0',['A',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29',1,'MR::BooleanResultMapper::A'],['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29',1,'MR::CNCMachineSettings::A'],['../MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29',1,'A:&#160;MRBooleanResultMapper.h']]],
+  ['a_0',['A',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29',1,'MR::BooleanResultMapper::A'],['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29',1,'MR::CNCMachineSettings::A']]],
   ['aabbtree_1',['AABBTree',['../namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8',1,'MR']]],
-  ['aabbtreebased_2',['AABBTreeBased',['../structMultiwayICPSamplingParameters.html#a6a898018e0f66e857cec9c8999a3351fa2f3d2e7b83aab89388906ca92d0ca505',1,'MultiwayICPSamplingParameters::AABBTreeBased'],['../structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58a2f3d2e7b83aab89388906ca92d0ca505',1,'MR::MultiwayICPSamplingParameters::AABBTreeBased']]],
+  ['aabbtreebased_2',['AABBTreeBased',['../structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58a2f3d2e7b83aab89388906ca92d0ca505',1,'MR::MultiwayICPSamplingParameters']]],
   ['absolute_3',['absolute',['../classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532dadc4d53aa0d117d8b189b36d161af4e96',1,'MR::DistanceMeasurementObject']]],
   ['add_4',['Add',['../classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9',1,'MR::SurfaceManipulationWidget']]],
   ['additionallines_5',['AdditionalLines',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a',1,'MR::GLStaticHolder']]],
@@ -16,7 +16,7 @@ var searchData=
   ['afterwindowappear_13',['AfterWindowAppear',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a',1,'MR::CommandLoop']]],
   ['afterwindowinit_14',['AfterWindowInit',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c',1,'MR::CommandLoop']]],
   ['alerttimereached_15',['AlertTimeReached',['../classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a',1,'MR::AsyncTimer']]],
-  ['all_16',['All',['../structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::CutMeshParameters::All'],['../classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::TouchesController::All'],['../namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::All'],['../namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680',1,'ImGui::All'],['../namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::All'],['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::All']]],
+  ['all_16',['All',['../structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3',1,'MR::NotificationTags::All'],['../structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::CutMeshParameters::All'],['../classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::TouchesController::All'],['../namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::All'],['../namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680',1,'ImGui::All'],['../namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::All'],['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::All']]],
   ['alphagradient_17',['AlphaGradient',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['always_18',['Always',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a68eec46437c384d8dad18d5464ebc35c',1,'MR']]],
   ['ambientcoefselectedobj_19',['AmbientCoefSelectedObj',['../classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a',1,'MR::SceneSettings']]],
@@ -30,9 +30,10 @@ var searchData=
   ['arcccw_27',['ArcCCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4',1,'MR']]],
   ['arccw_28',['ArcCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea',1,'MR']]],
   ['arrow_29',['arrow',['../structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea9022a153e6190f10d9b57aa4232b8aea',1,'MR::ImGuiMeasurementIndicators::LineCap']]],
-  ['autodetect_30',['AutoDetect',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf',1,'MR::SceneSettings']]],
-  ['automatic_31',['Automatic',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d',1,'MR::MarchingCubesParams']]],
-  ['awayfromorigin_32',['AwayFromOrigin',['../namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7',1,'MR']]],
-  ['axisscaling_33',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
-  ['axistranslation_34',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
+  ['auto_30',['Auto',['../structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb',1,'MR::Viewport::Parameters::Auto'],['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb',1,'MR::Auto']]],
+  ['autodetect_31',['AutoDetect',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf',1,'MR::SceneSettings']]],
+  ['automatic_32',['Automatic',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d',1,'MR::MarchingCubesParams']]],
+  ['awayfromorigin_33',['AwayFromOrigin',['../namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7',1,'MR']]],
+  ['axisscaling_34',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
+  ['axistranslation_35',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
 ];

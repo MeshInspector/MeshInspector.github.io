@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: File Members</title>
+<title>MeshLib Documentation: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -134,14 +144,13 @@ $(function(){initNavTree('globals_enum.html',''); initResizable(true); });
 
 <div class="contents">
 <div class="textblock">Here is a list of all enums with links to the files they belong to:</div><ul>
-<li>BooleanOperation&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218">MRDotNet/MRMeshBoolean.h</a></li>
-<li>DecimateStrategy&#160;:&#160;<a class="el" href="MRDotNet_2MRMeshDecimate_8h.html#aae3b7ed557d4233548d7966f0951e8fb">MRDotNet/MRMeshDecimate.h</a></li>
-<li>GeneralOffsetMode&#160;:&#160;<a class="el" href="MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27c">MRDotNet/MROffset.h</a></li>
-<li>MapObject&#160;:&#160;<a class="el" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246">MRBooleanResultMapper.h</a></li>
 <li>MRBooleanOperation&#160;:&#160;<a class="el" href="MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1a">MRMeshC/MRBooleanOperation.h</a></li>
 <li>MRBooleanResultMapperMapObject&#160;:&#160;<a class="el" href="MRMeshC_2MRBooleanOperation_8h.html#a755f2ee37b0f54fb24695f20ff3baca1">MRMeshC/MRBooleanOperation.h</a></li>
 <li>MRDecimateStrategy&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1a">MRMeshC/MRMeshDecimate.h</a></li>
+<li>MREdgeWeights&#160;:&#160;<a class="el" href="MRMeshC_2MRFillHoleNicely_8h.html#adc9427c3876893e6ee1743bcd1c2fab9">MRMeshC/MRFillHoleNicely.h</a></li>
+<li>MRFaceIncidence&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshComponents_8h.html#a29eb97fb3eea56b72bf531ae7bce8dfd">MRMeshC/MRMeshComponents.h</a></li>
 <li>MRFillHoleMetricMultipleEdgesResolveMode&#160;:&#160;<a class="el" href="MRMeshC_2MRMeshFillHole_8h.html#a9bee3913133f05793398b65bee60be62">MRMeshC/MRMeshFillHole.h</a></li>
+<li>MRFixSelfIntersectionsMethod&#160;:&#160;<a class="el" href="MRMeshC_2MRFixSelfIntersections_8h.html#a5515261b4a58169e786ef301e51d02fe">MRMeshC/MRFixSelfIntersections.h</a></li>
 <li>MRGeneralOffsetParametersMode&#160;:&#160;<a class="el" href="MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119">MRMeshC/MROffset.h</a></li>
 <li>MRICPExitType&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71">MRMeshC/MRICP.h</a></li>
 <li>MRICPMethod&#160;:&#160;<a class="el" href="MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4ed">MRMeshC/MRICP.h</a></li>
@@ -149,9 +158,7 @@ $(function(){initNavTree('globals_enum.html',''); initResizable(true); });
 <li>MRMultiwayICPSamplingParametersCascadeMode&#160;:&#160;<a class="el" href="MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6">MRMeshC/MRMultiwayICP.h</a></li>
 <li>MROneMeshIntersectionVariantIndex&#160;:&#160;<a class="el" href="MRMeshC_2MRContoursCut_8h.html#abc5593afc3027ed39a928fa8f391417a">MRMeshC/MRContoursCut.h</a></li>
 <li>MRSignDetectionMode&#160;:&#160;<a class="el" href="MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb">MRMeshC/MRSignDetectionMode.h</a></li>
-<li>SignDetectionMode&#160;:&#160;<a class="el" href="MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085ae">MRDotNet/MROffset.h</a></li>
 <li>StreamType&#160;:&#160;<a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">MRPython.h</a></li>
-<li>VariantIndex&#160;:&#160;<a class="el" href="MRDotNet_2MRContoursCut_8h.html#a4a0ccf2a72d5801bbfd80f3554b87181">MRDotNet/MRContoursCut.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

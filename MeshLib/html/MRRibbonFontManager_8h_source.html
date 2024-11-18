@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRRibbonFontManager.h Source File</title>
+<title>MeshLib Documentation: MRRibbonFontManager.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -162,7 +172,7 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        BigSemiBold,</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        Headline,</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        Monospace,</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    };</div>
 </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
@@ -174,7 +184,7 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        SemiBold,</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        Monospace,</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        Icons,</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_enumvalue" href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    };</div>
 </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
@@ -223,7 +233,6 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>}</div>
-<div class="ttc" id="aMRDotNet_2MRMeshBoolean_8h_html_a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">BooleanOperation::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html">MR::RibbonFontManager</a></div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_a0d18d71db7c19b02d1b5ad1bfe8f2aa8"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">MR::RibbonFontManager::initFontManagerInstance</a></div><div class="ttdeci">static MRVIEWER_API void initFontManagerInstance(RibbonFontManager *ribbonFontManager)</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_a0d99ef9d5a6b87aaad1197070ab64af0"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#a0d99ef9d5a6b87aaad1197070ab64af0">MR::RibbonFontManager::getFontSizeByType</a></div><div class="ttdeci">static MRVIEWER_API float getFontSizeByType(FontType type)</div><div class="ttdoc">get font size by font type</div></div>
@@ -238,6 +247,7 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ae09d386249e4a713206d066697fe57b0"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0">MR::RibbonFontManager::loadAllFonts</a></div><div class="ttdeci">MRVIEWER_API void loadAllFonts(ImWchar *charRanges, float scaling)</div><div class="ttdoc">load all fonts using in ribbon menu</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_af67d4ecfff6fa832444a2a214a3f471a"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">MR::RibbonFontManager::getMenuFontPath</a></div><div class="ttdeci">MRVIEWER_API std::filesystem::path getMenuFontPath() const</div><div class="ttdoc">get ribbon menu font path</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="anamespaceMR_html_aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">MR::DepthFunction::Default</a></div><div class="ttdeci">@ Default</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

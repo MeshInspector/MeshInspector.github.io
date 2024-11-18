@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRMeshSubdivide.h Source File</title>
+<title>MeshLib Documentation: MRMeshSubdivide.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -156,18 +166,18 @@ $(function(){initNavTree('MRMeshSubdivide_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">   23</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">maxDeviationAfterFlip</a> = 1;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce">   25</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce">maxAngleChangeAfterFlip</a> = FLT_MAX;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30">   29</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30">criticalAspectRatioFlip</a> = 1000.0f;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">   31</a></span>    <a class="code hl_class" href="classBitSet.html">FaceBitSet</a> * <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">   31</a></span>    FaceBitSet * <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5">   33</a></span>    UndirectedEdgeBitSet* <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5">notFlippable</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">   35</a></span>    <a class="code hl_class" href="classBitSet.html">VertBitSet</a> * <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">   35</a></span>    VertBitSet * <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc">   38</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc">subdivideBorder</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1">   40</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1">maxTriAspectRatio</a> = 0;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f">   44</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f">maxSplittableTriAspectRatio</a> = FLT_MAX;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0">   47</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0">smoothMode</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5">   50</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5">minSharpDihedralAngle</a> = PI_F / 6; <span class="comment">// 30 degrees</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d">   52</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d">projectOnOriginalMesh</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">   54</a></span>    std::function&lt;void(<a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a>)&gt; <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a>;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413">   56</a></span>    std::function&lt;void(<a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e1, <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt; <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413">onEdgeSplit</a>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8">   58</a></span>    std::function&lt;bool(<a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)&gt; <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8">beforeEdgeSplit</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">   54</a></span>    std::function&lt;void(VertId)&gt; <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413">   56</a></span>    std::function&lt;void(EdgeId e1, EdgeId e)&gt; <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413">onEdgeSplit</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8">   58</a></span>    std::function&lt;bool(EdgeId e)&gt; <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8">beforeEdgeSplit</a>;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce">   60</a></span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce">progressCallback</a> = {};</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
 </div>
@@ -177,13 +187,10 @@ $(function(){initNavTree('MRMeshSubdivide_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a97d91fcf1566198a2abf87966d056a9f"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></div><div class="ttdeci">int VertId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:51</div></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_add62b8bcfb58fedb4bcb251ed3e5f5c8"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></div><div class="ttdeci">int EdgeId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:52</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
-<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:562</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:576</div></div>
 <div class="ttc" id="agroup__MeshSubdivideGroup_html_ga8e8a41112544b99ef8f20e3e6b61fab7"><div class="ttname"><a href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></div><div class="ttdeci">MRMESH_API int subdivideMesh(Mesh &amp;mesh, const SubdivideSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>

@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRAABBTree.h Source File</title>
+<title>MeshLib Documentation: MRAABBTree.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -147,13 +157,13 @@ $(function(){initNavTree('MRAABBTree_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1AABBTree.html">AABBTree</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1AABBTreeBase.html">AABBTreeBase</a>&lt;FaceTreeTraits3&gt;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb">   19</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">explicit</span> <a class="code hl_function" href="classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb">AABBTree</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshPart.html">MeshPart</a> &amp; mp );</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb">   19</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">explicit</span> <a class="code hl_function" href="classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb">AABBTree</a>( <span class="keyword">const</span> MeshPart &amp; mp );</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191">   21</a></span>    <a class="code hl_function" href="classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191">AABBTree</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7">   22</a></span>    <a class="code hl_function" href="classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7">AABBTree</a>( <a class="code hl_class" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp; ) noexcept = default;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5">   23</a></span>    <a class="code hl_class" href="classMR_1_1AABBTree.html">AABBTree</a> &amp; operator =( <a class="code hl_class" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp; ) noexcept = default;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0">   29</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0">refit</a>( const <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, const <a class="code hl_class" href="classBitSet.html">VertBitSet</a> &amp; changedVerts );</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0">   29</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0">refit</a>( const <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, const VertBitSet &amp; changedVerts );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>private:</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_class" href="classMR_1_1AABBTree.html">AABBTree</a>( const <a class="code hl_class" href="classMR_1_1AABBTree.html">AABBTree</a> &amp; ) = default;</div>
@@ -165,7 +175,6 @@ $(function(){initNavTree('MRAABBTree_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRAABBTreeBase_8h_html"><div class="ttname"><a href="MRAABBTreeBase_8h.html">MRAABBTreeBase.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
-<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
 <div class="ttc" id="aclassMR_1_1AABBTreeBase_html"><div class="ttname"><a href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a></div><div class="ttdoc">base class for most AABB-trees (except for AABBTreePoints)</div><div class="ttdef"><b>Definition</b> MRAABBTreeBase.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1AABBTree_html"><div class="ttname"><a href="classMR_1_1AABBTree.html">MR::AABBTree</a></div><div class="ttdef"><b>Definition</b> MRAABBTree.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1AABBTree_html_a0c762ebbd20c05c2219b1a348f22e0fb"><div class="ttname"><a href="classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb">MR::AABBTree::AABBTree</a></div><div class="ttdeci">MRMESH_API AABBTree(const MeshPart &amp;mp)</div><div class="ttdoc">creates tree for given mesh or its part</div></div>
@@ -174,7 +183,6 @@ $(function(){initNavTree('MRAABBTree_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aclassMR_1_1AABBTree_html_afa9d6951c5f6c0370a71ad917fb5cfb0"><div class="ttname"><a href="classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0">MR::AABBTree::refit</a></div><div class="ttdeci">MRMESH_API void refit(const Mesh &amp;mesh, const VertBitSet &amp;changedVerts)</div></div>
 <div class="ttc" id="aclassMR_1_1UniqueThreadSafeOwner_html"><div class="ttname"><a href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a></div><div class="ttdef"><b>Definition</b> MRUniqueThreadSafeOwner.h:20</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="astructMR_1_1MeshPart_html"><div class="ttname"><a href="structMR_1_1MeshPart.html">MR::MeshPart</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshPart.h:11</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

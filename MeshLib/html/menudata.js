@@ -23,10 +23,46 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Overview",url:"index.html"},
-{text:"Related Pages",url:"pages.html"},
+{text:"About",url:"index.html"},
+{text:"Getting Started",url:"InstallationGuide.html",children:[
+{text:"Python",url:"MeshLibPythonSetupGuide.html"},
+{text:"C++",url:"MeshLibCppSetupGuide.html"},
+{text:"C#",url:"MeshLibCSharpSetupGuide.html"}]},
+{text:"License",url:"License.html"},
+{text:"Tutorials",url:"Tutorials.html",children:[
+{text:"Create First Plugin using C++",url:"FirstPluginTutorial.html"}]},
+{text:"Examples",url:"Examples.html",children:[
+{text:"General Samples",url:"Examples.html#GeneralExamples",children:[
+{text:"Application Based on MeshLib",url:"BasedApplication.html"},
+{text:"Mesh Load and Save",url:"ExampleMeshLoadSave.html"},
+{text:"Export Raw Triangles",url:"ExampleMeshExport.html"},
+{text:"Mesh Modification",url:"ExampleMeshModification.html"},
+{text:"Mesh Boolean",url:"ExampleMeshBoolean.html"},
+{text:"Mesh Decimate",url:"ExampleMeshDecimate.html"},
+{text:"Mesh Offset",url:"ExampleMeshOffset.html"},
+{text:"Mesh Fill Hole",url:"ExampleMeshFillHole.html"},
+{text:"Mesh Stitch Holes",url:"ExampleMeshStitchHole.html"},
+{text:"Mesh Resolve Degenerations",url:"ExampleMeshResolveDegenerations.html"},
+{text:"Global Registration",url:"ExampleGlobalRegistration.html"},
+{text:"Mesh ICP",url:"ExampleMeshICP.html"},
+{text:"Mesh Extrude",url:"ExampleMeshExtrude.html"},
+{text:"Mesh Free Form Deformation",url:"ExampleFreeForm.html"},
+{text:"Mesh Laplacian Deformation",url:"ExampleLaplacian.html"},
+{text:"Mesh Denoise",url:"ExampleNoiseDenoise.html"},
+{text:"Triangulation",url:"ExampleTriangulation.html"}]},
+{text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
+{text:"Viewer",url:"ExampleViewer.html"},
+{text:"Plotly Visualization",url:"ExamplePlotly.html"},
+{text:"Using Numpy",url:"ExampleNumpy.html"},
+{text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html"}]}]},
+{text:"Package Overview",url:"PackageOverview.html",children:[
+{text:"Data Model Class Hierarchy",url:"DataModel.html"},
+{text:"Spaces and Transformations",url:"SpacesHelp.html"},
+{text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
+{text:"API",url:"APIPage.html",children:[
+{text:"C++",url:"APICppPage.html",children:[
 {text:"Topics",url:"topics.html"},
-{text:"Namespaces",url:"namespaces.html",children:[
+{text:"Namespace List",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
@@ -109,6 +145,7 @@ var menudata={children:[
 {text:"i",url:"namespacemembers_type.html#index_i"},
 {text:"l",url:"namespacemembers_type.html#index_l"},
 {text:"m",url:"namespacemembers_type.html#index_m"},
+{text:"n",url:"namespacemembers_type.html#index_n"},
 {text:"o",url:"namespacemembers_type.html#index_o"},
 {text:"p",url:"namespacemembers_type.html#index_p"},
 {text:"q",url:"namespacemembers_type.html#index_q"},
@@ -151,8 +188,7 @@ var menudata={children:[
 {text:"x",url:"namespacemembers_eval.html#index_x"},
 {text:"y",url:"namespacemembers_eval.html#index_y"},
 {text:"z",url:"namespacemembers_eval.html#index_z"}]}]}]},
-{text:"Concepts",url:"concepts.html"},
-{text:"Classes",url:"annotated.html",children:[
+{text:"Class List",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
 {text:"Class Hierarchy",url:"hierarchy.html"},
@@ -286,6 +322,7 @@ var menudata={children:[
 {text:"a",url:"functions_eval.html#index_a"},
 {text:"b",url:"functions_eval.html#index_b"},
 {text:"c",url:"functions_eval.html#index_c"},
+{text:"d",url:"functions_eval.html#index_d"},
 {text:"e",url:"functions_eval.html#index_e"},
 {text:"f",url:"functions_eval.html#index_f"},
 {text:"h",url:"functions_eval.html#index_h"},
@@ -303,7 +340,7 @@ var menudata={children:[
 {text:"v",url:"functions_eval.html#index_v"},
 {text:"w",url:"functions_eval.html#index_w"}]},
 {text:"Related Symbols",url:"functions_rela.html"}]}]},
-{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
@@ -352,13 +389,9 @@ var menudata={children:[
 {text:"v",url:"globals_vars.html#index_v"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
 {text:"c",url:"globals_type.html#index_c"},
-{text:"e",url:"globals_type.html#index_e"},
-{text:"f",url:"globals_type.html#index_f"},
 {text:"m",url:"globals_type.html#index_m"},
 {text:"o",url:"globals_type.html#index_o"},
-{text:"s",url:"globals_type.html#index_s"},
-{text:"t",url:"globals_type.html#index_t"},
-{text:"v",url:"globals_type.html#index_v"}]},
+{text:"s",url:"globals_type.html#index_s"}]},
 {text:"Enumerations",url:"globals_enum.html"},
 {text:"Enumerator",url:"globals_eval.html",children:[
 {text:"m",url:"globals_eval.html#index_m"},
@@ -376,4 +409,5 @@ var menudata={children:[
 {text:"r",url:"globals_defs.html#index_r"},
 {text:"s",url:"globals_defs.html#index_s"},
 {text:"t",url:"globals_defs.html#index_t"},
-{text:"v",url:"globals_defs.html#index_v"}]}]}]}]}
+{text:"v",url:"globals_defs.html#index_v"}]}]}]}]}]},
+{text:"Thirdparty List",url:"ThirdParty.html"}]}

@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::PointAccumulator Class Reference</title>
+<title>MeshLib Documentation: MR::PointAccumulator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -151,9 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af304abbd279d3d26bfdfc095bf7f3eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13bcaab870ceaab70ec6b3b7d4470185" id="r_a13bcaab870ceaab70ec6b3b7d4470185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bcaab870ceaab70ec6b3b7d4470185">addPoint</a> (const Vector3d &amp;pt, double weight)</td></tr>
 <tr class="separator:a13bcaab870ceaab70ec6b3b7d4470185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629602337391d01befbec1b5ee3fa00c" id="r_a629602337391d01befbec1b5ee3fa00c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629602337391d01befbec1b5ee3fa00c">addPoint</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pt)</td></tr>
+<tr class="memitem:a629602337391d01befbec1b5ee3fa00c" id="r_a629602337391d01befbec1b5ee3fa00c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629602337391d01befbec1b5ee3fa00c">addPoint</a> (const Vector3f &amp;pt)</td></tr>
 <tr class="separator:a629602337391d01befbec1b5ee3fa00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33e732c4dbfd1cb17c360cbc838f461c" id="r_a33e732c4dbfd1cb17c360cbc838f461c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33e732c4dbfd1cb17c360cbc838f461c">addPoint</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;pt, float weight)</td></tr>
+<tr class="memitem:a33e732c4dbfd1cb17c360cbc838f461c" id="r_a33e732c4dbfd1cb17c360cbc838f461c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33e732c4dbfd1cb17c360cbc838f461c">addPoint</a> (const Vector3f &amp;pt, float weight)</td></tr>
 <tr class="separator:a33e732c4dbfd1cb17c360cbc838f461c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2101603a476d7949c907898b3513fc27" id="r_a2101603a476d7949c907898b3513fc27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Plane3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2101603a476d7949c907898b3513fc27">getBestPlane</a> () const</td></tr>
 <tr class="memdesc:a2101603a476d7949c907898b3513fc27"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the best approximating plane from the accumulated points  <br /></td></tr>
@@ -168,15 +178,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a8db7a86d2e4229d2ff0992aedf7b0f" id="r_a9a8db7a86d2e4229d2ff0992aedf7b0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a8db7a86d2e4229d2ff0992aedf7b0f">getCenteredCovarianceEigen</a> (Vector3d &amp;centroid, Matrix3d &amp;eigenvectors, Vector3d &amp;eigenvalues) const</td></tr>
 <tr class="memdesc:a9a8db7a86d2e4229d2ff0992aedf7b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes centroid and eigenvectors/eigenvalues of the covariance matrix of the accumulated points  <br /></td></tr>
 <tr class="separator:a9a8db7a86d2e4229d2ff0992aedf7b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af42457c6f466fbc3a6b45fbae732a846" id="r_af42457c6f466fbc3a6b45fbae732a846"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af42457c6f466fbc3a6b45fbae732a846">getCenteredCovarianceEigen</a> (<a class="el" href="classVector3f.html">Vector3f</a> &amp;centroid, <a class="el" href="namespaceMR.html#a96fea3c72cade7f727424783b6b3fa95">Matrix3f</a> &amp;eigenvectors, <a class="el" href="classVector3f.html">Vector3f</a> &amp;eigenvalues) const</td></tr>
+<tr class="memitem:af42457c6f466fbc3a6b45fbae732a846" id="r_af42457c6f466fbc3a6b45fbae732a846"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af42457c6f466fbc3a6b45fbae732a846">getCenteredCovarianceEigen</a> (Vector3f &amp;centroid, Matrix3f &amp;eigenvectors, Vector3f &amp;eigenvalues) const</td></tr>
 <tr class="separator:af42457c6f466fbc3a6b45fbae732a846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac25c8343c28176214d2be06601fe2fd" id="r_aac25c8343c28176214d2be06601fe2fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac25c8343c28176214d2be06601fe2fd">getBasicXf</a> () const</td></tr>
 <tr class="separator:aac25c8343c28176214d2be06601fe2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bbfe3a2dafb965a1e58b1ebede9744f" id="r_a3bbfe3a2dafb965a1e58b1ebede9744f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbfe3a2dafb965a1e58b1ebede9744f">getBasicXf3f</a> () const</td></tr>
+<tr class="memitem:a3bbfe3a2dafb965a1e58b1ebede9744f" id="r_a3bbfe3a2dafb965a1e58b1ebede9744f"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbfe3a2dafb965a1e58b1ebede9744f">getBasicXf3f</a> () const</td></tr>
 <tr class="separator:a3bbfe3a2dafb965a1e58b1ebede9744f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76177fec5a1a4e3d0af890a84f1df551" id="r_a76177fec5a1a4e3d0af890a84f1df551"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::array&lt; AffineXf3d, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76177fec5a1a4e3d0af890a84f1df551">get4BasicXfs</a> () const</td></tr>
 <tr class="separator:a76177fec5a1a4e3d0af890a84f1df551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed6620e82b0ba20e993f8230d9f2e383" id="r_aed6620e82b0ba20e993f8230d9f2e383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::array&lt; <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6620e82b0ba20e993f8230d9f2e383">get4BasicXfs3f</a> () const</td></tr>
+<tr class="memitem:aed6620e82b0ba20e993f8230d9f2e383" id="r_aed6620e82b0ba20e993f8230d9f2e383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::array&lt; AffineXf3f, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6620e82b0ba20e993f8230d9f2e383">get4BasicXfs3f</a> () const</td></tr>
 <tr class="separator:aed6620e82b0ba20e993f8230d9f2e383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7514ac6107ebe4077c548746882a7d2d" id="r_a7514ac6107ebe4077c548746882a7d2d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7514ac6107ebe4077c548746882a7d2d">valid</a> () const</td></tr>
 <tr class="separator:a7514ac6107ebe4077c548746882a7d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,7 +244,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void MR::PointAccumulator::addPoint </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -259,7 +269,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void MR::PointAccumulator::addPoint </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -301,7 +311,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::array&lt; <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>, 4 &gt; MR::PointAccumulator::get4BasicXfs3f </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::array&lt; AffineXf3f, 4 &gt; MR::PointAccumulator::get4BasicXfs3f </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -339,7 +349,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::PointAccumulator::getBasicXf3f </td>
+          <td class="memname">AffineXf3f MR::PointAccumulator::getBasicXf3f </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -479,17 +489,17 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::PointAccumulator::getCenteredCovarianceEigen </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>centroid</em></span>, </td>
+          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>centroid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a96fea3c72cade7f727424783b6b3fa95">Matrix3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span>, </td>
+          <td class="paramtype">Matrix3f &amp;</td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>eigenvalues</em></span>&#160;) const</td>
+          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>eigenvalues</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

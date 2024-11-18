@@ -6,6 +6,7 @@ var classMR_1_1TransformControls =
     [ "getVisualParams", "classMR_1_1TransformControls.html#a83e142fd9ad486f5f722ccb590064a7b", null ],
     [ "getWidth", "classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45", null ],
     [ "init", "classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c", null ],
+    [ "setRadius", "classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b", null ],
     [ "setVisualParams", "classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae", null ],
     [ "setWidth", "classMR_1_1TransformControls.html#aaf863f472ade960e2930c519a9576d1c", null ],
     [ "update", "classMR_1_1TransformControls.html#aa465cae8f8f64791763879ce0edb9f5b", null ],

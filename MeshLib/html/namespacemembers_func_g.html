@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Namespace Members</title>
+<title>MeshLib Documentation: Namespace Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -138,7 +148,7 @@ $(function(){initNavTree('namespacemembers_func_g.html',''); initResizable(true)
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
 <li>generalOffsetMesh()&#160;:&#160;<a class="el" href="namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050">MR</a></li>
 <li>genericSlider()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a94d9e7cba8a9ce853aeee7b29b563391">MR::UI::detail</a></li>
-<li>get()&#160;:&#160;<a class="el" href="namespaceMR.html#ab1cf2ee509740a5f5564fce176ac6b05">MR</a></li>
+<li>get()&#160;:&#160;<a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e">MR</a></li>
 <li>getAligningXf()&#160;:&#160;<a class="el" href="namespaceMR.html#acc8a29ff73cc1508e2e73782b91d0650">MR</a></li>
 <li>getAllComponents()&#160;:&#160;<a class="el" href="group__ComponentsGroup.html#gaf8cb6a4fb4e8de9236165ad0636b9ade">MR::FloatGridComponents</a>, <a class="el" href="group__MeshComponentsGroup.html#gafde425f262b1f15428664fd79a1f0735">MR::MeshComponents</a>, <a class="el" href="group__PointCloudComponentsGroup.html#gac22fef282be15fa19c019501c0b5e92b">MR::PointCloudComponents</a>, <a class="el" href="group__ComponentsGroup.html#ga80e95c2ddcd2a35b79f66a0540d4a152">MR::PolylineComponents</a></li>
 <li>getAllComponentsEdges()&#160;:&#160;<a class="el" href="group__MeshComponentsGroup.html#ga7becc9588891fae069b72605a081462e">MR::MeshComponents</a></li>
@@ -174,6 +184,7 @@ $(function(){initNavTree('namespacemembers_func_g.html',''); initResizable(true)
 <li>getDefaultStep()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">MR::UI::detail</a></li>
 <li>getDefaultUnitParams()&#160;:&#160;<a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">MR</a></li>
 <li>getDefaultWindowRectAllocator()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI.html#a5caf1537f165f3557d3f718bfb47a032">MR::UI</a></li>
+<li>getDegreesMode()&#160;:&#160;<a class="el" href="namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5">MR::UnitSettings</a></li>
 <li>getDepthFirstObject()&#160;:&#160;<a class="el" href="group__DataModelGroup.html#gafa3e42d954c50c383af5c20a059e34d2">MR</a></li>
 <li>getDepthFunctionLEqual()&#160;:&#160;<a class="el" href="namespaceMR.html#a6931409b16a2665d35204990c62611b3">MR</a></li>
 <li>getDepthFunctionLess()&#160;:&#160;<a class="el" href="namespaceMR.html#ac18f4f5a762acd94219012ec5d66db13">MR</a></li>
@@ -246,8 +257,8 @@ $(function(){initNavTree('namespacemembers_func_g.html',''); initResizable(true)
 <li>getOneMeshIntersectionContours()&#160;:&#160;<a class="el" href="namespaceMR.html#afb5aa7d969d789218ae67365158331cb">MR</a></li>
 <li>getOptimalFaceOrdering()&#160;:&#160;<a class="el" href="namespaceMR.html#a30f8a681dc92effd39120ba76d84daa5">MR</a></li>
 <li>getOSNoSpaces()&#160;:&#160;<a class="el" href="namespaceMR.html#a4495a70f291d11bdf905106b2a3856b5">MR</a></li>
-<li>getOutline()&#160;:&#160;<a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a664e29ee2d39dc799b93387d4b9a9185">MR::PlanarTriangulation</a></li>
-<li>getOutlineMesh()&#160;:&#160;<a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a901fef65581a41fd25371dee75fa5ab9">MR::PlanarTriangulation</a></li>
+<li>getOutline()&#160;:&#160;<a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a1e7584c601fc9192683046e5f769c068">MR::PlanarTriangulation</a></li>
+<li>getOutlineMesh()&#160;:&#160;<a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a83cb3ae007112f97a7019d02c16c2201">MR::PlanarTriangulation</a></li>
 <li>getParallelPlaneFillMetric()&#160;:&#160;<a class="el" href="group__FillHoleGroup.html#ga9a4b77571e011a0b74c0a419e76ef332">MR</a></li>
 <li>getPathEdgesInPlane()&#160;:&#160;<a class="el" href="group__SurfacePathGroup.html#ga0fe533dcbd844a89077b18ebd4dda8fe">MR</a></li>
 <li>getPathPlaneIntersections()&#160;:&#160;<a class="el" href="group__SurfacePathGroup.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd">MR</a></li>
@@ -263,20 +274,26 @@ $(function(){initNavTree('namespacemembers_func_g.html',''); initResizable(true)
 <li>GetResourcesDirectory()&#160;:&#160;<a class="el" href="namespaceMR.html#a1d6fd316711783f671ffebc9eac9042a">MR</a></li>
 <li>getRootEntry()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#abbf1d490037c289477160fdb25fb30f7">MR::UI::TestEngine</a></li>
 <li>getShaderMainBeginBlock()&#160;:&#160;<a class="el" href="namespaceMR.html#a3b2bfcc4be2f05b79166ea0772ffb262">MR</a></li>
+<li>getShowLeadingZero()&#160;:&#160;<a class="el" href="namespaceMR_1_1UnitSettings.html#aa107ba449e9a30d426079db1abc6f9e8">MR::UnitSettings</a></li>
 <li>getStreamSize()&#160;:&#160;<a class="el" href="namespaceMR.html#afddcd5cd9466d41302c0ec4d1ee83c96">MR</a></li>
 <li>getSubdividePart()&#160;:&#160;<a class="el" href="group__DecimateGroup.html#ga68a943035521cac62a80a1f864147c6e">MR</a></li>
 <li>getSumSqDistToPlane()&#160;:&#160;<a class="el" href="namespaceMR.html#ad1c7409a665a096abe1ea66df1c725d4">MR</a></li>
 <li>getSumSqDistToPoint()&#160;:&#160;<a class="el" href="namespaceMR.html#aee1e5b59ddc336affb5d8a48d53adddc">MR</a></li>
 <li>getSurfacePathsViaVertices()&#160;:&#160;<a class="el" href="group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360">MR</a></li>
 <li>GetSystemInfoJson()&#160;:&#160;<a class="el" href="namespaceMR.html#ace8b49286f2496a8e43901176b83780b">MR</a></li>
+<li>getSystemMemory()&#160;:&#160;<a class="el" href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">MR</a></li>
 <li>GetTempDirectory()&#160;:&#160;<a class="el" href="namespaceMR.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba">MR</a></li>
 <li>getTexture()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI.html#a0d337a1adf7e16aaa08b683a6b65e886">MR::UI</a></li>
+<li>getThousandsSeparator()&#160;:&#160;<a class="el" href="namespaceMR_1_1UnitSettings.html#a0325434bfffb878393212fbdbca5aa8e">MR::UnitSettings</a></li>
 <li>GetTitleBarHeght()&#160;:&#160;<a class="el" href="namespaceImGui.html#a660b386cc39248222a1d8dd3eec60024">ImGui</a></li>
-<li>getToFloatConverter()&#160;:&#160;<a class="el" href="group__MathGroup.html#ga2096ace9292b40c55421517434fd8bd8">MR</a></li>
-<li>getToIntConverter()&#160;:&#160;<a class="el" href="group__MathGroup.html#ga9736a434a7f001c05b9a7d23675ca257">MR</a></li>
+<li>getToFloatConverter()&#160;:&#160;<a class="el" href="namespaceMR.html#a2096ace9292b40c55421517434fd8bd8">MR</a></li>
+<li>getToIntConverter()&#160;:&#160;<a class="el" href="namespaceMR.html#a9736a434a7f001c05b9a7d23675ca257">MR</a></li>
 <li>getTopmostVisibleObjects()&#160;:&#160;<a class="el" href="group__DataModelGroup.html#ga7afd4c6187926b10b71f8631961165a0">MR</a></li>
 <li>getTrivialVertexShader()&#160;:&#160;<a class="el" href="namespaceMR.html#a3e9889db672284199460d483317d72a2">MR</a></li>
 <li>getTypeConverter()&#160;:&#160;<a class="el" href="namespaceMR.html#a0230f1515e422e1010078d5ffd15f11f">MR</a></li>
+<li>getUiAnglePrecision()&#160;:&#160;<a class="el" href="namespaceMR_1_1UnitSettings.html#aefbc07263247d17b42b9b520c287901c">MR::UnitSettings</a></li>
+<li>getUiLengthPrecision()&#160;:&#160;<a class="el" href="namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee">MR::UnitSettings</a></li>
+<li>getUiLengthUnit()&#160;:&#160;<a class="el" href="namespaceMR_1_1UnitSettings.html#a3828878d9371fdeec0058499a90a773c">MR::UnitSettings</a></li>
 <li>getUndercutAreaMetric()&#160;:&#160;<a class="el" href="namespaceMR_1_1FixUndercuts.html#a6103a164b0037795960a4ecc185199cc">MR::FixUndercuts</a></li>
 <li>getUndercutAreaProjectionMetric()&#160;:&#160;<a class="el" href="namespaceMR_1_1FixUndercuts.html#abe945577bbd648b8f5dfafd9ebd0361e">MR::FixUndercuts</a></li>
 <li>getUnionFindStructure()&#160;:&#160;<a class="el" href="group__ComponentsGroup.html#ga4e45c9f9a413927f7c08c3cd1062d8b3">MR::PolylineComponents</a></li>

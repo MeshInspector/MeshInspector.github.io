@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Class Members - Related Symbols</title>
+<title>MeshLib Documentation: Class Members - Related Symbols</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -134,17 +144,13 @@ $(function(){initNavTree('functions_rela.html',''); initResizable(true); });
 
 <div class="contents">
 <div class="textblock">Here is a list of all related symbols with links to the classes they belong to:</div><ul>
-<li>AddPointActionPickerPoint&#160;:&#160;<a class="el" href="classMR_1_1SurfaceContoursWidget.html#a17351932f521bcc8680a5cd409ff6a83">MR::SurfaceContoursWidget</a></li>
 <li>ChangeBoundarySelectionHistoryAction&#160;:&#160;<a class="el" href="classMR_1_1BoundarySelectionWidget.html#a14ed83528f3fdbb996f9d5cf5d86fa55">MR::BoundarySelectionWidget</a></li>
-<li>ChangePointActionPickerPoint&#160;:&#160;<a class="el" href="classMR_1_1SurfaceContoursWidget.html#a04b939afb7bf8b265a3860c30df1d80d">MR::SurfaceContoursWidget</a></li>
 <li>getViewerInstance&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a6d89aa105ff76f0ef98adf92b5e6afb4">MR::Viewer</a></li>
 <li>MeshDiff&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a1c34e0c1ceeb2e372c4976e27f8cb211">MR::MeshTopology</a></li>
 <li>operator!=&#160;:&#160;<a class="el" href="structMR_1_1AffineXf.html#a186afe85bf17b3cb6a52b55f5af080bc">MR::AffineXf&lt; V &gt;</a></li>
 <li>operator*&#160;:&#160;<a class="el" href="structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595">MR::AffineXf&lt; V &gt;</a></li>
 <li>operator+&#160;:&#160;<a class="el" href="structMR_1_1NumSum.html#a0fe6b707b49d42eb921bab61a351f02f">MR::NumSum</a></li>
-<li>operator==&#160;:&#160;<a class="el" href="structMR_1_1AffineXf.html#a55d01857e172a9cbf746957013009926">MR::AffineXf&lt; V &gt;</a>, <a class="el" href="structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1">MR::Features::Primitives::ConeSegment</a>, <a class="el" href="structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897">MR::Features::Primitives::Plane</a>, <a class="el" href="structMR_1_1ICPPairData.html#a0769d0c92668ab4c85a05584e5a73b24">MR::ICPPairData</a>, <a class="el" href="structMR_1_1PointPair.html#a5f761c6549a8d74c43a943993e9f7426">MR::PointPair</a>, <a class="el" href="structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf">MR::Sphere&lt; V &gt;</a>, <a class="el" href="structMR_1_1UnitToStringParams.html#ae183c6cb52762dc16f91e61c2be6df24">MR::UnitToStringParams&lt; E &gt;</a>, <a class="el" href="structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c">MR::UnorientedTriangle</a></li>
-<li>RemovePointActionPickerPoint&#160;:&#160;<a class="el" href="classMR_1_1SurfaceContoursWidget.html#afa281665f1a80c27506cb5b70bac3a9c">MR::SurfaceContoursWidget</a></li>
-<li>SurfaceContoursWidgetClearAction&#160;:&#160;<a class="el" href="classMR_1_1SurfaceContoursWidget.html#af2cdd3ac4ccfbba1371c9cc0b6bb6f04">MR::SurfaceContoursWidget</a></li>
+<li>operator==&#160;:&#160;<a class="el" href="structMR_1_1AffineXf.html#a55d01857e172a9cbf746957013009926">MR::AffineXf&lt; V &gt;</a>, <a class="el" href="structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1">MR::Features::Primitives::ConeSegment</a>, <a class="el" href="structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897">MR::Features::Primitives::Plane</a>, <a class="el" href="structMR_1_1ICPPairData.html#a0769d0c92668ab4c85a05584e5a73b24">MR::ICPPairData</a>, <a class="el" href="structMR_1_1ObjVertId.html#adfb5d0c55b1f0308b2b0c4fbac1a6d6b">MR::ObjVertId</a>, <a class="el" href="structMR_1_1PointPair.html#a5f761c6549a8d74c43a943993e9f7426">MR::PointPair</a>, <a class="el" href="structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf">MR::Sphere&lt; V &gt;</a>, <a class="el" href="structMR_1_1UnitToStringParams.html#ae183c6cb52762dc16f91e61c2be6df24">MR::UnitToStringParams&lt; E &gt;</a>, <a class="el" href="structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c">MR::UnorientedTriangle</a></li>
 <li>UniqueThreadSafeOwner&lt; AABBTree &gt;&#160;:&#160;<a class="el" href="classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf">MR::AABBTree</a></li>
 <li>UniqueThreadSafeOwner&lt; AABBTreePoints &gt;&#160;:&#160;<a class="el" href="classMR_1_1AABBTreePoints.html#ab727b425d862eaa2f2f61e6b1e287174">MR::AABBTreePoints</a></li>
 <li>UniqueThreadSafeOwner&lt; AABBTreePolyline &gt;&#160;:&#160;<a class="el" href="classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170">MR::AABBTreePolyline&lt; V &gt;</a></li>

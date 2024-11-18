@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::ColorTheme Class Reference</title>
+<title>MeshLib Documentation: MR::ColorTheme Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -135,7 +145,6 @@ $(function(){initNavTree('classMR_1_1ColorTheme.html',''); initResizable(true); 
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1ColorTheme-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ColorTheme Class Reference</div></div>
@@ -237,12 +246,6 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:a91b6b928ca7f490fdd396c347347bcdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a28c414812bc41e73acda130004569a41" id="r_a28c414812bc41e73acda130004569a41"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c414812bc41e73acda130004569a41">onChanged</a> (const boost::function&lt; void()&gt; &amp;slot, boost::signals2::connect_position <a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a>=boost::signals2::at_back)</td></tr>
-<tr class="memdesc:a28c414812bc41e73acda130004569a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply.  <br /></td></tr>
-<tr class="separator:a28c414812bc41e73acda130004569a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a15699e42dc7a6e8fc8c45c6adbe410cb" id="r_a15699e42dc7a6e8fc8c45c6adbe410cb"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1ColorTheme.html">ColorTheme</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15699e42dc7a6e8fc8c45c6adbe410cb">instance</a> ()</td></tr>
@@ -295,6 +298,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a569785effc8f8f3c1c78f9ea3ab25c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af27347c90aa80168a890bdb58f2d0423" id="r_af27347c90aa80168a890bdb58f2d0423"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af27347c90aa80168a890bdb58f2d0423">resetImGuiStyle</a> ()</td></tr>
 <tr class="separator:af27347c90aa80168a890bdb58f2d0423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b86b0353c7e246e58746a652441cbda" id="r_a1b86b0353c7e246e58746a652441cbda"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b86b0353c7e246e58746a652441cbda">onChanged</a> (const std::function&lt; void()&gt; &amp;slot, boost::signals2::connect_position <a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a>=boost::signals2::at_back)</td></tr>
+<tr class="memdesc:a1b86b0353c7e246e58746a652441cbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply.  <br /></td></tr>
+<tr class="separator:a1b86b0353c7e246e58746a652441cbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="abbecc6afa53db91ada45757b845b5514" name="abbecc6afa53db91ada45757b845b5514"></a>
@@ -785,16 +791,19 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a28c414812bc41e73acda130004569a41" name="a28c414812bc41e73acda130004569a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28c414812bc41e73acda130004569a41">&#9670;&#160;</a></span>onChanged()</h2>
+<a id="a1b86b0353c7e246e58746a652441cbda" name="a1b86b0353c7e246e58746a652441cbda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b86b0353c7e246e58746a652441cbda">&#9670;&#160;</a></span>onChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API boost::signals2::connection MR::ColorTheme::onChanged </td>
+          <td class="memname">static MRVIEWER_API boost::signals2::connection MR::ColorTheme::onChanged </td>
           <td>(</td>
-          <td class="paramtype">const boost::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
+          <td class="paramtype">const std::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -802,6 +811,11 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramtype">boost::signals2::connect_position</td>          <td class="paramname"><span class="paramname"><em>position</em></span><span class="paramdefsep"> = </span><span class="paramdefval">boost::signals2::at_back</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply. </p>

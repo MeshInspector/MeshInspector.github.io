@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Namespace Members</title>
+<title>MeshLib Documentation: Namespace Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -136,6 +146,7 @@ $(function(){initNavTree('namespacemembers_p.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all namespace members with links to the namespace documentation for each member:</div>
 
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
+<li>pack()&#160;:&#160;<a class="el" href="namespaceMR.html#ac3547f635ac7e47bf1cb714faf3cc1cb">MR</a></li>
 <li>packPointsWithHistory()&#160;:&#160;<a class="el" href="namespaceMR.html#af70abcbee5fc303daa9a2cbbea864ac8">MR</a></li>
 <li>Palette()&#160;:&#160;<a class="el" href="namespaceImGui.html#a57a1654a1953301d7dca389a0dba5215">ImGui</a></li>
 <li>PaletteChanges&#160;:&#160;<a class="el" href="namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682">ImGui</a></li>
@@ -179,7 +190,7 @@ $(function(){initNavTree('namespacemembers_p.html',''); initResizable(true); });
 <li>pointOnObjectToPickedPoint()&#160;:&#160;<a class="el" href="namespaceMR.html#a89a0d173f619c99ee93c0904af771995">MR</a></li>
 <li>PointsFileLoader&#160;:&#160;<a class="el" href="namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868">MR::PointsLoad</a></li>
 <li>PointsFileSaver&#160;:&#160;<a class="el" href="namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba">MR::PointsSave</a></li>
-<li>pointsFromEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#ga62bfd766666c0d5eeb73faa3bee1735d">MR</a></li>
+<li>pointsFromEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#gab318ba4dd28be5fa3500d2d01ca4f92c">MR</a></li>
 <li>PointsStreamLoader&#160;:&#160;<a class="el" href="namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478">MR::PointsLoad</a></li>
 <li>PointsStreamSaver&#160;:&#160;<a class="el" href="namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab">MR::PointsSave</a></li>
 <li>pointsToDistanceFunctionVolume()&#160;:&#160;<a class="el" href="namespaceMR.html#a2a68dc1cf487d20d55f20f536c2dedfc">MR</a></li>
@@ -219,13 +230,15 @@ $(function(){initNavTree('namespacemembers_p.html',''); initResizable(true); });
 <li>ProcessOneResult&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">MR</a></li>
 <li>progressBar()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI.html#aa49fc435b33d42412b5a43816ed40e52">MR::UI</a></li>
 <li>ProgressCallback&#160;:&#160;<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR</a></li>
-<li>projectFaceAttribute()&#160;:&#160;<a class="el" href="namespaceMR.html#a242a3c726f0dff1fff0bcef35348bfa6">MR</a></li>
+<li>projectFaceAttribute()&#160;:&#160;<a class="el" href="namespaceMR.html#a93b72484483edfe6fbd2d208c62baf3d">MR</a></li>
+<li>projectMeshAttributes()&#160;:&#160;<a class="el" href="namespaceMR.html#afa9b03e8b298ae2f3795db19abdbbcec">MR</a></li>
 <li>projectOnAll()&#160;:&#160;<a class="el" href="namespaceMR.html#a04b00a5eae1214cc2a21d439db0e9c94">MR</a></li>
 <li>ProjectOnAllCallback&#160;:&#160;<a class="el" href="namespaceMR.html#a51c5c9bdf012ab12e360b5e161bb378e">MR</a></li>
-<li>projectVertAttribute()&#160;:&#160;<a class="el" href="namespaceMR.html#a934a65c3acb8dcbb3730765c7cd9019c">MR</a></li>
+<li>projectVertAttribute()&#160;:&#160;<a class="el" href="namespaceMR.html#ae6835066f97373d8d25a66045dae3e28">MR</a></li>
 <li>pushNotification()&#160;:&#160;<a class="el" href="namespaceMR.html#a8943649eb4ec189757d628d6b1f9779f">MR</a></li>
 <li>pushTree()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#afac37f1a33604b207f8d30279b255ad2">MR::UI::TestEngine</a></li>
 <li>putScanFileNameInZ()&#160;:&#160;<a class="el" href="namespaceMR.html#ab9229ab4444b58ce99c132c6509d0e6e">MR</a></li>
+<li>putSimpleVolumeInDenseGrid()&#160;:&#160;<a class="el" href="namespaceMR.html#aba29bf5baab2e1924aeb45b624a3c821">MR</a></li>
 <li>pythonAppendOrRun()&#160;:&#160;<a class="el" href="namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691">MR</a></li>
 <li>pythonRunFromGUIThread()&#160;:&#160;<a class="el" href="namespaceMR.html#a0f61ad5fbd50836547b99cd10c78763f">MR</a></li>
 </ul>

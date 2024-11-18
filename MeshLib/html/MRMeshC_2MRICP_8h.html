@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MRICP.h File Reference</title>
+<title>MeshLib Documentation: MRICP.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -220,14 +230,19 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a7a7e1b4b917587e9342b15b8dc457fec" id="r_a7a7e1b4b917587e9342b15b8dc457fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="structMRICPPairData.html">MRICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a7e1b4b917587e9342b15b8dc457fec">mrIPointPairsGet</a> (const <a class="el" href="#a570f9e0f14adc60a3268c6312c7a81e6">MRIPointPairs</a> *pp, size_t idx)</td></tr>
 <tr class="separator:a7a7e1b4b917587e9342b15b8dc457fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad041c7d6accf6325f43a084b6522221f" id="r_ad041c7d6accf6325f43a084b6522221f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad041c7d6accf6325f43a084b6522221f">mrIPointPairsSize</a> (const <a class="el" href="#a570f9e0f14adc60a3268c6312c7a81e6">MRIPointPairs</a> *pp)</td></tr>
+<tr class="separator:ad041c7d6accf6325f43a084b6522221f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd53dc27a52ca64a9b6dbcf194a2f844" id="r_abd53dc27a52ca64a9b6dbcf194a2f844"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRICPPairData.html">MRICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd53dc27a52ca64a9b6dbcf194a2f844">mrIPointPairsGetRef</a> (<a class="el" href="#a570f9e0f14adc60a3268c6312c7a81e6">MRIPointPairs</a> *pp, size_t idx)</td></tr>
 <tr class="separator:abd53dc27a52ca64a9b6dbcf194a2f844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6572e9fd51800d785882fab5dc53502" id="r_ad6572e9fd51800d785882fab5dc53502"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRICPProperties.html">MRICPProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6572e9fd51800d785882fab5dc53502">mrICPPropertiesNew</a> (void)</td></tr>
 <tr class="memdesc:ad6572e9fd51800d785882fab5dc53502"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes a default instance  <br /></td></tr>
 <tr class="separator:ad6572e9fd51800d785882fab5dc53502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00bfaafa2a5cd791ec1206c17fc151f" id="r_ae00bfaafa2a5cd791ec1206c17fc151f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae00bfaafa2a5cd791ec1206c17fc151f">mrICPNew</a> (const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *flt, const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *ref, float samplingVoxelSize)</td></tr>
-<tr class="memdesc:ae00bfaafa2a5cd791ec1206c17fc151f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <a class="el" href="classICP.html">ICP</a> framework with automatic points sampling on both objects.  <br /></td></tr>
+<tr class="memdesc:ae00bfaafa2a5cd791ec1206c17fc151f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs ICP framework with automatic points sampling on both objects.  <br /></td></tr>
 <tr class="separator:ae00bfaafa2a5cd791ec1206c17fc151f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a854e635d53e45015b77660eb04b57c8a" id="r_a854e635d53e45015b77660eb04b57c8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a854e635d53e45015b77660eb04b57c8a">mrICPNewFromSamples</a> (const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *flt, const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *ref, const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44">MRVertBitSet</a> *fltSamples, const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44">MRVertBitSet</a> *refSamples)</td></tr>
+<tr class="memdesc:a854e635d53e45015b77660eb04b57c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs ICP framework with given sample points on both objects.  <br /></td></tr>
+<tr class="separator:a854e635d53e45015b77660eb04b57c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0deba5552214cfbbef4d811d610dca7" id="r_aa0deba5552214cfbbef4d811d610dca7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0deba5552214cfbbef4d811d610dca7">mrICPSetParams</a> (<a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *icp, const <a class="el" href="structMRICPProperties.html">MRICPProperties</a> *prop)</td></tr>
 <tr class="memdesc:aa0deba5552214cfbbef4d811d610dca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">tune algorithm params before run calculateTransformation()  <br /></td></tr>
 <tr class="separator:aa0deba5552214cfbbef4d811d610dca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,7 +278,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aafb393d5ef1b456624976f54488bcd71" id="r_aafb393d5ef1b456624976f54488bcd71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRAffineXf3f.html">MRAffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafb393d5ef1b456624976f54488bcd71">mrICPCalculateTransformation</a> (<a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *icp)</td></tr>
 <tr class="separator:aafb393d5ef1b456624976f54488bcd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1fbb8172fb51e68259611bf26579898" id="r_ab1fbb8172fb51e68259611bf26579898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1fbb8172fb51e68259611bf26579898">mrICPFree</a> (<a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *icp)</td></tr>
-<tr class="memdesc:ab1fbb8172fb51e68259611bf26579898"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates an <a class="el" href="classICP.html">ICP</a> object  <br /></td></tr>
+<tr class="memdesc:ab1fbb8172fb51e68259611bf26579898"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates an ICP object  <br /></td></tr>
 <tr class="separator:ab1fbb8172fb51e68259611bf26579898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -278,7 +293,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This class allows you to register two object with similar shape using Iterative Closest Points (<a class="el" href="classICP.html">ICP</a>) point-to-point or point-to-plane algorithms </p>
+<p>This class allows you to register two object with similar shape using Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms </p>
 
 </div>
 </div>
@@ -518,7 +533,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>runs <a class="el" href="classICP.html">ICP</a> algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformation of the floating object to match reference object </dd></dl>
+<p>runs ICP algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformation of the floating object to match reference object </dd></dl>
 
 </div>
 </div>
@@ -537,7 +552,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>deallocates an <a class="el" href="classICP.html">ICP</a> object </p>
+<p>deallocates an ICP object </p>
 
 </div>
 </div>
@@ -698,7 +713,40 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs <a class="el" href="classICP.html">ICP</a> framework with automatic points sampling on both objects. </p>
+<p>Constructs ICP framework with automatic points sampling on both objects. </p>
+
+</div>
+</div>
+<a id="a854e635d53e45015b77660eb04b57c8a" name="a854e635d53e45015b77660eb04b57c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a854e635d53e45015b77660eb04b57c8a">&#9670;&#160;</a></span>mrICPNewFromSamples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> * mrICPNewFromSamples </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44">MRVertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44">MRVertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs ICP framework with given sample points on both objects. </p>
 
 </div>
 </div>
@@ -822,6 +870,23 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad041c7d6accf6325f43a084b6522221f" name="ad041c7d6accf6325f43a084b6522221f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad041c7d6accf6325f43a084b6522221f">&#9670;&#160;</a></span>mrIPointPairsSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> size_t mrIPointPairsSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a570f9e0f14adc60a3268c6312c7a81e6">MRIPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>pp</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

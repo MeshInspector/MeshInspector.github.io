@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Class Members - Variables</title>
+<title>MeshLib Documentation: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -136,13 +146,13 @@ $(function(){initNavTree('functions_vars_a.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all variables with links to the classes they belong to:</div>
 
 <h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
-<li>A&#160;:&#160;<a class="el" href="classAffineXf3f.html#a7d5db76bf418584bfd670c9745ba41e9">AffineXf3f</a>, <a class="el" href="structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca">MR::AffineXf&lt; V &gt;</a>, <a class="el" href="structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda">MR::QuadraticForm&lt; V &gt;</a>, <a class="el" href="structMRAffineXf3f.html#ae6766689e5c077f26fcc13d6653842a7">MRAffineXf3f</a></li>
-<li>a&#160;:&#160;<a class="el" href="structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874">MR::Color</a>, <a class="el" href="structMR_1_1EdgePoint.html#aa0e9261e0dcf014db57e19ce882ddcfb">MR::EdgePoint</a>, <a class="el" href="structMR_1_1EdgePointPair.html#aca69f5d63615624473f947bb8b68d739">MR::EdgePointPair</a>, <a class="el" href="structMR_1_1EdgeSegment.html#aaa89099133adbadcd8e04016b7dfd5ef">MR::EdgeSegment</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9">MR::ImGuiMeasurementIndicators::PreparedCurve</a>, <a class="el" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">MR::LineSegm&lt; V &gt;</a>, <a class="el" href="structMR_1_1MeshDistanceResult.html#a9e2c27f75cc9e5a7b2bdca70bef1e7db">MR::MeshDistanceResult</a>, <a class="el" href="structMR_1_1MeshSignedDistanceResult.html#a2729ca0eb5dbcf66477c17547ff78146">MR::MeshSignedDistanceResult</a>, <a class="el" href="structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b">MR::Parabola&lt; T &gt;</a>, <a class="el" href="structMR_1_1Polynomial.html#ad1c492e9ade30990c714083f0317bdf6">MR::Polynomial&lt; T, degree &gt;</a>, <a class="el" href="structMR_1_1Quaternion.html#a99d6bff08a40df6a9873566e597b029e">MR::Quaternion&lt; T &gt;</a>, <a class="el" href="structMR_1_1RigidScaleXf3.html#ac7250fbdfd02baf9936e263ed527779e">MR::RigidScaleXf3&lt; T &gt;</a>, <a class="el" href="structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283">MR::RigidXf3&lt; T &gt;</a>, <a class="el" href="structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b">MR::SegmEndColors</a>, <a class="el" href="structMR_1_1SegmPoint.html#a5473b25338c8b8b27c9d38f2b6bb8f89">MR::SegmPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1TriPoint.html#a8b3c5d2f52bedd379a12737883685b69">MR::TriPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9">MR::Viewport::TriCornerColors</a>, <a class="el" href="structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55">MRTriPointf</a>, <a class="el" href="structTriPoint.html#a098fd8e276d13df8d957c66bc29c1385">TriPoint</a></li>
-<li>AABBTreeBased&#160;:&#160;<a class="el" href="structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30">MR::MultiwayICPSamplingParameters</a>, <a class="el" href="structMultiwayICPSamplingParameters.html#ae2fc1abd5e988b76acdf9a768f79e8e7">MultiwayICPSamplingParameters</a></li>
+<li>A&#160;:&#160;<a class="el" href="structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca">MR::AffineXf&lt; V &gt;</a>, <a class="el" href="structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda">MR::QuadraticForm&lt; V &gt;</a>, <a class="el" href="structMRAffineXf3f.html#ae6766689e5c077f26fcc13d6653842a7">MRAffineXf3f</a></li>
+<li>a&#160;:&#160;<a class="el" href="structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874">MR::Color</a>, <a class="el" href="structMR_1_1EdgePoint.html#aa0e9261e0dcf014db57e19ce882ddcfb">MR::EdgePoint</a>, <a class="el" href="structMR_1_1EdgePointPair.html#aca69f5d63615624473f947bb8b68d739">MR::EdgePointPair</a>, <a class="el" href="structMR_1_1EdgeSegment.html#aaa89099133adbadcd8e04016b7dfd5ef">MR::EdgeSegment</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9">MR::ImGuiMeasurementIndicators::PreparedCurve</a>, <a class="el" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">MR::LineSegm&lt; V &gt;</a>, <a class="el" href="structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4">MR::MeshMeshDistanceResult</a>, <a class="el" href="structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb">MR::MeshMeshSignedDistanceResult</a>, <a class="el" href="structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b">MR::Parabola&lt; T &gt;</a>, <a class="el" href="structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839">MR::Polynomial&lt; T, degree &gt;</a>, <a class="el" href="structMR_1_1Quaternion.html#a99d6bff08a40df6a9873566e597b029e">MR::Quaternion&lt; T &gt;</a>, <a class="el" href="structMR_1_1RigidScaleXf3.html#ac7250fbdfd02baf9936e263ed527779e">MR::RigidScaleXf3&lt; T &gt;</a>, <a class="el" href="structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283">MR::RigidXf3&lt; T &gt;</a>, <a class="el" href="structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b">MR::SegmEndColors</a>, <a class="el" href="structMR_1_1SegmPoint.html#a5473b25338c8b8b27c9d38f2b6bb8f89">MR::SegmPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1TriPoint.html#a8b3c5d2f52bedd379a12737883685b69">MR::TriPoint&lt; T &gt;</a>, <a class="el" href="structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9">MR::Viewport::TriCornerColors</a>, <a class="el" href="structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55">MRTriPointf</a></li>
+<li>AABBTreeBased&#160;:&#160;<a class="el" href="structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30">MR::MultiwayICPSamplingParameters</a></li>
 <li>AABBTreePolyline&#160;:&#160;<a class="el" href="classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef">MR::AABBTreePolyline&lt; V &gt;</a></li>
 <li>accVolume&#160;:&#160;<a class="el" href="structMR_1_1WatershedGraph_1_1BasinInfo.html#a5c26879d176c92192f673552c21b3ea9">MR::WatershedGraph::BasinInfo</a></li>
 <li>action&#160;:&#160;<a class="el" href="structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3">MR::GcodeProcessor::MoveAction</a>, <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutCommand.html#a74e7c30555d8435657c7465809b44a6a">MR::ShortcutManager::ShortcutCommand</a></li>
-<li>active&#160;:&#160;<a class="el" href="structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032">MR::IPointPairs</a>, <a class="el" href="structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3">MR::UI::ButtonIconCustomizationParams</a>, <a class="el" href="structPointPairs.html#af6a06163ea30f8d9aa9345f2eafe0f2a">PointPairs</a></li>
+<li>active&#160;:&#160;<a class="el" href="structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032">MR::IPointPairs</a>, <a class="el" href="structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3">MR::UI::ButtonIconCustomizationParams</a></li>
 <li>activeBlockingItem_&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e">MR::RibbonMenu</a></li>
 <li>activeBox&#160;:&#160;<a class="el" href="structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf">MR::MarkedVoxelSlice::Parameters</a></li>
 <li>activeColor&#160;:&#160;<a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1">MR::SurfacePointWidget::Parameters</a></li>
@@ -153,12 +163,14 @@ $(function(){initNavTree('functions_vars_a.html',''); initResizable(true); });
 <li>actualRadius&#160;:&#160;<a class="el" href="structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2">MR::TriangulationHelpers::Settings</a></li>
 <li>adaptivity&#160;:&#160;<a class="el" href="structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549">MR::DoubleOffsetSettings</a>, <a class="el" href="structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12">MR::GridToMeshSettings</a>, <a class="el" href="structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957">MR::MeshVoxelsConverter</a></li>
 <li>additionalWidth&#160;:&#160;<a class="el" href="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf">MR::RibbonButtonDrawer::ButtonItemWidth</a></li>
-<li>adjustCollapse&#160;:&#160;<a class="el" href="structMR_1_1DecimateParallelSettings.html#af75f33318f6dbbd19e4e3c0005feaa39">MR::DecimateParallelSettings</a>, <a class="el" href="structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61">MR::DecimatePolylineSettings&lt; V &gt;</a>, <a class="el" href="structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b">MR::DecimateSettings</a></li>
+<li>adjustCollapse&#160;:&#160;<a class="el" href="structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61">MR::DecimatePolylineSettings&lt; V &gt;</a>, <a class="el" href="structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b">MR::DecimateSettings</a></li>
 <li>aFace&#160;:&#160;<a class="el" href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d">MR::FaceFace</a></li>
 <li>align&#160;:&#160;<a class="el" href="structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b">MR::SymbolMeshParams</a></li>
 <li>allNeighbors&#160;:&#160;<a class="el" href="structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458">MR::TriangulationHelpers::Settings</a></li>
 <li>allowAlphaSort&#160;:&#160;<a class="el" href="structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3">MR::ModelRenderParams</a></li>
+<li>allowedTagMask&#160;:&#160;<a class="el" href="classMR_1_1RibbonNotifier.html#a548d212115b7460a9bf8f321f79d7029">MR::RibbonNotifier</a></li>
 <li>allowedValues&#160;:&#160;<a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#ae87e1750cabd4b10198e82ed353eb4f1">MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;</a></li>
+<li>allowMerge&#160;:&#160;<a class="el" href="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932">MR::PlanarTriangulation::BaseOutlineParameters</a></li>
 <li>allowNegativeValues&#160;:&#160;<a class="el" href="structMR_1_1MeshToDistanceMapParams.html#aa581e3154ca47d52f8cc418e27121f0f">MR::MeshToDistanceMapParams</a></li>
 <li>allowNegativeZero&#160;:&#160;<a class="el" href="structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19">MR::UnitToStringParams&lt; E &gt;</a></li>
 <li>allowNonManifoldEdge&#160;:&#160;<a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html#ae841fb8d6bd1c0807eb8dde2d6875c26">MR::MeshBuilder::BuildSettings</a></li>
@@ -179,13 +191,14 @@ $(function(){initNavTree('functions_vars_a.html',''); initResizable(true); });
 <li>arcSize&#160;:&#160;<a class="el" href="structMRMakeCylinderAdvancedParameters.html#a7f8a322e1238830f9e1cf8ac1468f7f4">MRMakeCylinderAdvancedParameters</a></li>
 <li>area&#160;:&#160;<a class="el" href="structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f">MR::Dipole</a>, <a class="el" href="structMR_1_1WatershedGraph_1_1BasinInfo.html#a890dc5714dfd53c95b4678e7afd830d0">MR::WatershedGraph::BasinInfo</a></li>
 <li>argc&#160;:&#160;<a class="el" href="structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">MR::LaunchParams</a></li>
-<li>argv&#160;:&#160;<a class="el" href="structMR_1_1LaunchParams.html#a110de818033b5fb6a7e1a6b507d8d21b">MR::LaunchParams</a></li>
+<li>argv&#160;:&#160;<a class="el" href="structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58">MR::EmbeddedPython::Config</a>, <a class="el" href="structMR_1_1LaunchParams.html#a110de818033b5fb6a7e1a6b507d8d21b">MR::LaunchParams</a></li>
 <li>arr&#160;:&#160;<a class="el" href="structMR_1_1BindVertexAttribArraySettings.html#a1e06765a94d24f632c968c4d04f8280a">MR::BindVertexAttribArraySettings</a></li>
 <li>arrowHalfWidth&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1de83d675e9cc8f326bca68a76eb52c3">MR::ImGuiMeasurementIndicators::Params</a></li>
 <li>arrowLen&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a21883ccd688b28487ed257c67162946e">MR::ImGuiMeasurementIndicators::Params</a></li>
 <li>arrowTipBackwardOffset&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a6649a0eb2b642371baa9647ad499ecae">MR::ImGuiMeasurementIndicators::Params</a></li>
 <li>arrSize&#160;:&#160;<a class="el" href="structMR_1_1BindVertexAttribArraySettings.html#a65f898d899c6fff2f308bfd6fd24a129">MR::BindVertexAttribArraySettings</a></li>
 <li>aUndirEdge&#160;:&#160;<a class="el" href="structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a">MR::UndirectedEdgeUndirectedEdge</a></li>
+<li>Auto&#160;:&#160;<a class="el" href="structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6">MR::Viewport::Parameters</a></li>
 <li>automaticRadiusIncrease&#160;:&#160;<a class="el" href="structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d">MR::TriangulationHelpers::Settings</a>, <a class="el" href="structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a">MR::TriangulationParameters</a></li>
 <li>avgEdgeLen_&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410">MR::ObjectMeshHolder</a></li>
 <li>axis&#160;:&#160;<a class="el" href="classMR_1_1Cone3.html#a18ef80872ba6b6384ae2944f85f8b214">MR::Cone3&lt; T &gt;</a>, <a class="el" href="structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad">MR::FindOverhangsSettings</a></li>

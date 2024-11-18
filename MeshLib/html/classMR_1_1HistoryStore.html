@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::HistoryStore Class Reference</title>
+<title>MeshLib Documentation: MR::HistoryStore Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -156,7 +166,8 @@ Public Types</h2></td></tr>
 , <a class="el" href="#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6">Redo</a>
 , <a class="el" href="#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2">Clear</a>
 , <br />
-&#160;&#160;<a class="el" href="#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a">Filter</a>
+&#160;&#160;<a class="el" href="#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f">PopAction</a>
+, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a">Filter</a>
 <br />
  }</td></tr>
 <tr class="memdesc:abfd9d90c02f0673577386845f1f608c4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structMR_1_1Signal.html">Signal</a> is called after this store changed.  <a href="#abfd9d90c02f0673577386845f1f608c4">More...</a><br /></td></tr>
@@ -191,6 +202,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45b3529c2a011c9abd585452550ac145" id="r_a45b3529c2a011c9abd585452550ac145"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45b3529c2a011c9abd585452550ac145">getMemoryLimit</a> () const</td></tr>
 <tr class="memdesc:a45b3529c2a011c9abd585452550ac145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current memory limit for this store (by default uint64 max)  <br /></td></tr>
 <tr class="separator:a45b3529c2a011c9abd585452550ac145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5153ad77359e03f6105aa8db1293b14" id="r_ae5153ad77359e03f6105aa8db1293b14"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5153ad77359e03f6105aa8db1293b14">calcUsedMemory</a> () const</td></tr>
+<tr class="memdesc:ae5153ad77359e03f6105aa8db1293b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute amount of memory occupied by all actions in this store.  <br /></td></tr>
+<tr class="separator:ae5153ad77359e03f6105aa8db1293b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c72ca2143023fcef93b3e221d010c6d" id="r_a6c72ca2143023fcef93b3e221d010c6d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c72ca2143023fcef93b3e221d010c6d">getHistoryStack</a> () const</td></tr>
 <tr class="memdesc:a6c72ca2143023fcef93b3e221d010c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns full history stack.  <br /></td></tr>
 <tr class="separator:a6c72ca2143023fcef93b3e221d010c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,6 +281,8 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119" name="abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119"></a>Undo&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6" name="abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6"></a>Redo&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" name="abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2"></a>Clear&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" name="abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f"></a>PopAction&#160;</td><td class="fielddoc"><p>called after removing action that exceeds memory limit </p>
+</td></tr>
 <tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" name="abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a"></a>Filter&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -322,6 +338,33 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Adds action in history stack (clears available redo actions) adds actions to scope block if scope mode is active (do not affect main stack) </p>
+
+</div>
+</div>
+<a id="ae5153ad77359e03f6105aa8db1293b14" name="ae5153ad77359e03f6105aa8db1293b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5153ad77359e03f6105aa8db1293b14">&#9670;&#160;</a></span>calcUsedMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API size_t MR::HistoryStore::calcUsedMemory </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute amount of memory occupied by all actions in this store. </p>
 
 </div>
 </div>
@@ -385,7 +428,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -399,6 +442,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MRVIEWER_API std::string MR::HistoryStore::getLastActionName </td>
@@ -407,6 +453,11 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the name of last undo or redo action (or empty string if there is no such action) </p>
@@ -431,7 +482,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -445,6 +496,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MRVIEWER_API std::vector&lt; std::string &gt; MR::HistoryStore::getNActions </td>
@@ -457,6 +511,11 @@ Public Attributes</h2></td></tr>
           <td class="paramtype"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;) const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns names of last N undo actions or first N redo actions. </p>
@@ -481,7 +540,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -508,7 +567,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -535,7 +594,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -562,7 +621,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

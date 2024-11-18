@@ -15,16 +15,23 @@
   }();
 </script>
 <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");i.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("ZF9MjldaHO0eHyd7POPgleKjsdnwA8Gw");
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
   analytics.page();
   }}();
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::ToolPathParams Struct Reference</title>
+<title>MeshLib Documentation: MR::ToolPathParams Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,6 +46,9 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
@@ -54,17 +64,17 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT53R4F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -177,7 +187,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a10f980ccd2fc81285a194503e2b669b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50c755eddaa84d57053b8b2ac05090c7" id="r_a50c755eddaa84d57053b8b2ac05090c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a496117b22a6f09546f0037fb4b5d43aa">BypassDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50c755eddaa84d57053b8b2ac05090c7">bypassDir</a> = <a class="el" href="namespaceMR.html#a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8">BypassDirection::Clockwise</a></td></tr>
 <tr class="separator:a50c755eddaa84d57053b8b2ac05090c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3436d805511bd0d9d2382154e99f492" id="r_af3436d805511bd0d9d2382154e99f492"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3436d805511bd0d9d2382154e99f492">xf</a> = nullptr</td></tr>
+<tr class="memitem:af3436d805511bd0d9d2382154e99f492" id="r_af3436d805511bd0d9d2382154e99f492"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3436d805511bd0d9d2382154e99f492">xf</a> = nullptr</td></tr>
 <tr class="separator:af3436d805511bd0d9d2382154e99f492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adacfd8b713ae1664619abcff9d04fead" id="r_adacfd8b713ae1664619abcff9d04fead"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adacfd8b713ae1664619abcff9d04fead">flatTool</a> = false</td></tr>
 <tr class="separator:adacfd8b713ae1664619abcff9d04fead"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,9 +197,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a13a70c0130eab38aeaf063f1f6d276d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58e0e695e11b0b6bd4c0ce7ecd0b0889" id="r_a58e0e695e11b0b6bd4c0ce7ecd0b0889"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58e0e695e11b0b6bd4c0ce7ecd0b0889">startContours</a> = nullptr</td></tr>
 <tr class="separator:a58e0e695e11b0b6bd4c0ce7ecd0b0889"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf1fc52d9134c621ba9630531ee2c99d" id="r_adf1fc52d9134c621ba9630531ee2c99d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf1fc52d9134c621ba9630531ee2c99d">startVertices</a> = nullptr</td></tr>
+<tr class="memitem:adf1fc52d9134c621ba9630531ee2c99d" id="r_adf1fc52d9134c621ba9630531ee2c99d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vector3f &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf1fc52d9134c621ba9630531ee2c99d">startVertices</a> = nullptr</td></tr>
 <tr class="separator:adf1fc52d9134c621ba9630531ee2c99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a290865e63260a699f02e17210427d220" id="r_a290865e63260a699f02e17210427d220"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290865e63260a699f02e17210427d220">offsetMesh</a> = nullptr</td></tr>
+<tr class="memitem:a290865e63260a699f02e17210427d220" id="r_a290865e63260a699f02e17210427d220"><td class="memItemLeft" align="right" valign="top">MeshPart *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290865e63260a699f02e17210427d220">offsetMesh</a> = nullptr</td></tr>
 <tr class="separator:a290865e63260a699f02e17210427d220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -298,7 +308,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1MeshPart.html">MeshPart</a>* MR::ToolPathParams::offsetMesh = nullptr</td>
+          <td class="memname">MeshPart* MR::ToolPathParams::offsetMesh = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -410,7 +420,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classVector3f.html">Vector3f</a>&gt;* MR::ToolPathParams::startVertices = nullptr</td>
+          <td class="memname">std::vector&lt;Vector3f&gt;* MR::ToolPathParams::startVertices = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -438,7 +448,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>* MR::ToolPathParams::xf = nullptr</td>
+          <td class="memname">const AffineXf3f* MR::ToolPathParams::xf = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
