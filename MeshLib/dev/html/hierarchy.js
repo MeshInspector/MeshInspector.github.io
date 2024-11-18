@@ -427,9 +427,12 @@ var hierarchy =
       [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
-        [ "MR::DirectionWidget::ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ]
+        [ "MR::DirectionWidget::ChangeBaseAction", "classMR_1_1DirectionWidget_1_1ChangeBaseAction.html", null ],
+        [ "MR::DirectionWidget::ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ],
+        [ "MR::DirectionWidget::ChangeLengthAction", "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html", null ]
       ] ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
+      [ "MR::DirectionWidget::ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", null ],
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
       [ "MR::SurfaceContoursWidget::WidgetHistoryAction", "structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html", null ],
