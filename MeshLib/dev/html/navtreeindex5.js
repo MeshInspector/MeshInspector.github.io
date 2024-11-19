@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"MRMeshC_2MRMakeSphereMesh_8h.html#a231e4781dee5f4f4a0a55d15cbf65e3e":[6,0,3,0,0,2,4,16,4],
 "MRMeshC_2MRMakeSphereMesh_8h.html#a41c0d7764dfcf6146b1fd10215d17d66":[6,0,3,0,0,2,4,16,2],
 "MRMeshC_2MRMakeSphereMesh_8h.html#a5c9ffdd8d709f51595e68919c613dd3d":[6,0,3,0,0,2,4,16,7],
 "MRMeshC_2MRMakeSphereMesh_8h.html#a70d7cdb50802dba4e98e7a604d503cd2":[6,0,3,0,0,2,4,16,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRPointCloud_8h.html#a8ab439f4039ec8d144c1ed593c7d5f59":[6,0,3,0,0,2,4,41,2],
 "MRMeshC_2MRPointCloud_8h.html#aaf0e7a0bb881a2b870dbd3612347864c":[6,0,3,0,0,2,4,41,3],
 "MRMeshC_2MRPointCloud_8h.html#ac66eee562b6c817093510de592dddd1a":[6,0,3,0,0,2,4,41,8],
-"MRMeshC_2MRPointCloud_8h.html#acc1dc0b47754967aeed02fcdc0bb6272":[6,0,3,0,0,2,4,41,10]
+"MRMeshC_2MRPointCloud_8h.html#acc1dc0b47754967aeed02fcdc0bb6272":[6,0,3,0,0,2,4,41,10],
+"MRMeshC_2MRPointCloud_8h.html#acd0b83abac0a5e1f4ef2d2d63878d20b":[6,0,3,0,0,2,4,41,0]
 };

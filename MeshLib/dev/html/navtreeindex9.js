@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907":[6,0,3,0,0,2,9,49,7,3],
 "MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378":[6,0,3,0,0,2,9,49,7,9],
 "MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6":[6,0,3,0,0,2,9,49,7,2],
 "MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6a60ed328e715f75a67c41f2ea5ce48323":[6,0,3,0,0,2,9,49,7,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1":[6,0,3,0,0,2,6,2,9],
 "MRPython_8h.html#a5fcb58debd182644f22e1ea6eac867b6":[6,0,3,0,0,2,6,2,20],
 "MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90":[6,0,3,0,0,2,6,2,17],
-"MRPython_8h.html#a8a0f3d850562d301fdc69b7f7831f572":[6,0,3,0,0,2,6,2,8]
+"MRPython_8h.html#a8a0f3d850562d301fdc69b7f7831f572":[6,0,3,0,0,2,6,2,8],
+"MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d":[6,0,3,0,0,2,6,2,19]
 };

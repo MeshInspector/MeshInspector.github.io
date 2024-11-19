@@ -16,7 +16,6 @@ var NAVTREEINDEX0 =
 "ExampleMeshExport.html":[4,0,2],
 "ExampleMeshExtrude.html":[4,0,12],
 "ExampleMeshFillHole.html":[4,0,7],
-"ExampleMeshFromText.html":[4,0,17],
 "ExampleMeshICP.html":[4,0,11],
 "ExampleMeshLoadSave.html":[4,0,1],
 "ExampleMeshModification.html":[4,0,3],
@@ -187,7 +186,7 @@ var NAVTREEINDEX0 =
 "MRAxis_8h_source.html":[6,0,3,0,0,2,3,20],
 "MRBase64_8h.html":[6,0,3,0,0,2,3,21],
 "MRBase64_8h_source.html":[6,0,3,0,0,2,3,21],
-"MRBasedMainFunc_8dox_8cpp.html":[6,0,3,0,0,1,2,11],
+"MRBasedMainFunc_8dox_8cpp.html":[6,0,3,0,0,1,2,10],
 "MRBasinVolume_8h.html":[6,0,3,0,0,2,3,22],
 "MRBasinVolume_8h.html#af2a8e4d15f275db7aee166a70fe3c11c":[6,0,3,0,0,2,3,22,1],
 "MRBasinVolume_8h_source.html":[6,0,3,0,0,2,3,22],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "MRChangeColoringType_8h.html":[6,0,3,0,0,2,3,34],
 "MRChangeColoringType_8h_source.html":[6,0,3,0,0,2,3,34],
 "MRChangeLabelAction_8h.html":[6,0,3,0,0,2,7,1],
-"MRChangeLabelAction_8h_source.html":[6,0,3,0,0,2,7,1]
+"MRChangeLabelAction_8h_source.html":[6,0,3,0,0,2,7,1],
+"MRChangeMeshAction_8h.html":[6,0,3,0,0,2,3,35]
 };

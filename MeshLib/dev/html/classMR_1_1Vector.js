@@ -39,7 +39,8 @@ var classMR_1_1Vector =
     [ "resize", "classMR_1_1Vector.html#a2c8202f5b1a09ebf0bd5a5a3dc2936fd", null ],
     [ "resize", "classMR_1_1Vector.html#ae081234bbf4fef169d61159d617cf5c6", null ],
     [ "resizeNoInit", "classMR_1_1Vector.html#a8a23a61e0e9734a4a33ad686080db6b0", null ],
-    [ "resizeWithReserve", "classMR_1_1Vector.html#a3b90b171523aff2d1bee95b1bccc3fd6", null ],
+    [ "resizeWithReserve", "classMR_1_1Vector.html#a291ed0f8042c268b0aa65b87497daca1", null ],
+    [ "resizeWithReserve", "classMR_1_1Vector.html#aad801c686b116f50bcacd26b96b12774", null ],
     [ "size", "classMR_1_1Vector.html#a2816ffd002bac70ab04d1bd18e2c5cfd", null ],
     [ "swap", "classMR_1_1Vector.html#ae03333f72ab69a79829ae5f0d6d426ef", null ],
     [ "vec_", "classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f", null ]

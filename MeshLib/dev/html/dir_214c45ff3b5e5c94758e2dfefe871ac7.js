@@ -5,7 +5,6 @@ var dir_214c45ff3b5e5c94758e2dfefe871ac7 =
     [ "MeshExport.dox.cpp", "MeshExport_8dox_8cpp.html", null ],
     [ "MeshExtrude.dox.cpp", "MeshExtrude_8dox_8cpp.html", null ],
     [ "MeshFillHole.dox.cpp", "MeshFillHole_8dox_8cpp.html", null ],
-    [ "MeshFromText.dox.cpp", "MeshFromText_8dox_8cpp.html", null ],
     [ "MeshICP.dox.cpp", "MeshICP_8dox_8cpp.html", null ],
     [ "MeshLoadSave.dox.cpp", "MeshLoadSave_8dox_8cpp.html", null ],
     [ "MeshModification.dox.cpp", "MeshModification_8dox_8cpp.html", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"MRMapEdge_8h.html#a8bc2c26fd2fc5169edc6c5b75559005d":[6,0,3,0,0,2,3,159,0],
 "MRMapEdge_8h.html#ab1d2f80b1c61df595390f0a811296879":[6,0,3,0,0,2,3,159,5],
 "MRMapEdge_8h.html#adf5f3f9dc915185233a22089c90665eb":[6,0,3,0,0,2,3,159,3],
 "MRMapEdge_8h.html#afea1c6e74e1a6a4ed14dc7fcf09b24df":[6,0,3,0,0,2,3,159,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRIntersectionContour_8h.html#a986cf3431315eea0dcda92c8e9109d01":[6,0,3,0,0,2,4,14,4],
 "MRMeshC_2MRIntersectionContour_8h.html#acb1797a1b6cbdbb4936b6a1140409938":[6,0,3,0,0,2,4,14,1],
 "MRMeshC_2MRIntersectionContour_8h_source.html":[6,0,3,0,0,2,4,14],
-"MRMeshC_2MRMakeSphereMesh_8h.html":[6,0,3,0,0,2,4,16]
+"MRMeshC_2MRMakeSphereMesh_8h.html":[6,0,3,0,0,2,4,16],
+"MRMeshC_2MRMakeSphereMesh_8h.html#a231e4781dee5f4f4a0a55d15cbf65e3e":[6,0,3,0,0,2,4,16,4]
 };

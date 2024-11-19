@@ -49,8 +49,7 @@ var menudata={children:[
 {text:"Mesh Free Form Deformation",url:"ExampleFreeForm.html"},
 {text:"Mesh Laplacian Deformation",url:"ExampleLaplacian.html"},
 {text:"Mesh Denoise",url:"ExampleNoiseDenoise.html"},
-{text:"Triangulation",url:"ExampleTriangulation.html"},
-{text:"Text to Mesh",url:"ExampleMeshFromText.html"}]},
+{text:"Triangulation",url:"ExampleTriangulation.html"}]},
 {text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"ExampleViewer.html"},
 {text:"Plotly Visualization",url:"ExamplePlotly.html"},

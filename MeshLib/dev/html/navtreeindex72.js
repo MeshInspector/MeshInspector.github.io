@@ -1,6 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[6,0,0,15,0,7],
 "structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[6,0,0,15,0,5],
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[6,0,0,15,0,1],
 "structMR_1_1PolylineTraits.html":[6,0,0,1,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX72 =
 "structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,2,0,1,489,3],
 "structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,1,0,12,504,2],
 "structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,2,0,1,489,2],
-"structMR_1_1RelaxParams.html":[6,0,1,0,12,507]
+"structMR_1_1RelaxParams.html":[6,0,1,0,12,507],
+"structMR_1_1RelaxParams.html":[6,0,2,0,1,492]
 };

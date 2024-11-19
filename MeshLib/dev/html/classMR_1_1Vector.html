@@ -208,9 +208,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8b3429bd5756af47e08186ebef6acd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a03ee463d5f6122ac940a592ac9ec88" id="r_a3a03ee463d5f6122ac940a592ac9ec88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a03ee463d5f6122ac940a592ac9ec88">operator[]</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i)</td></tr>
 <tr class="separator:a3a03ee463d5f6122ac940a592ac9ec88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b90b171523aff2d1bee95b1bccc3fd6" id="r_a3b90b171523aff2d1bee95b1bccc3fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b90b171523aff2d1bee95b1bccc3fd6">resizeWithReserve</a> (size_t newSize, const T &amp;value=T())</td></tr>
-<tr class="memdesc:a3b90b171523aff2d1bee95b1bccc3fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
-<tr class="separator:a3b90b171523aff2d1bee95b1bccc3fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291ed0f8042c268b0aa65b87497daca1" id="r_a291ed0f8042c268b0aa65b87497daca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291ed0f8042c268b0aa65b87497daca1">resizeWithReserve</a> (size_t newSize) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:a291ed0f8042c268b0aa65b87497daca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
+<tr class="separator:a291ed0f8042c268b0aa65b87497daca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad801c686b116f50bcacd26b96b12774" id="r_aad801c686b116f50bcacd26b96b12774"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad801c686b116f50bcacd26b96b12774">resizeWithReserve</a> (size_t newSize, const T &amp;value)</td></tr>
+<tr class="memdesc:aad801c686b116f50bcacd26b96b12774"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
+<tr class="separator:aad801c686b116f50bcacd26b96b12774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437a50cfbe5ad619bc23e94b1a6664ea" id="r_a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437a50cfbe5ad619bc23e94b1a6664ea">autoResizeSet</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> pos, size_t len, T val)</td></tr>
 <tr class="memdesc:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements  <br /></td></tr>
 <tr class="separator:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1313,8 +1316,37 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a3b90b171523aff2d1bee95b1bccc3fd6" name="a3b90b171523aff2d1bee95b1bccc3fd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b90b171523aff2d1bee95b1bccc3fd6">&#9670;&#160;</a></span>resizeWithReserve()</h2>
+<a id="a291ed0f8042c268b0aa65b87497daca1" name="a291ed0f8042c268b0aa65b87497daca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291ed0f8042c268b0aa65b87497daca1">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
+          <td> &amp;&amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>doubles reserved memory until resize(newSize) can be done without reallocation </p>
+
+</div>
+</div>
+<a id="aad801c686b116f50bcacd26b96b12774" name="aad801c686b116f50bcacd26b96b12774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad801c686b116f50bcacd26b96b12774">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1332,7 +1364,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span><span class="paramdefsep"> = </span><span class="paramdefval">T()</span>&#160;)</td>
+          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

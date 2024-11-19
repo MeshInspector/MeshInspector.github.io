@@ -1,7 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classMR_1_1PalettePresets.html":[6,0,1,0,12,430],
-"classMR_1_1PalettePresets.html":[6,0,2,0,1,415],
 "classMR_1_1Pdf.html":[6,0,1,0,12,433],
 "classMR_1_1Pdf.html":[6,0,2,0,1,418],
 "classMR_1_1Pdf.html#a0664af870ccab6786c23651b331270a2":[6,0,1,0,12,433,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX31 =
 "classMR_1_1PolylineTopology.html#a30f450b48cac26ab210e6fadc7f413f1":[6,0,0,14,2,42],
 "classMR_1_1PolylineTopology.html#a32341828b752c082736b7e19c7f80ce5":[6,0,0,14,2,7],
 "classMR_1_1PolylineTopology.html#a3a8e8e933ae69de8cd01c7f60a1e6e87":[6,0,0,14,2,26],
-"classMR_1_1PolylineTopology.html#a3ea5840c83dc66df34991a904b767843":[6,0,0,14,2,40]
+"classMR_1_1PolylineTopology.html#a3ea5840c83dc66df34991a904b767843":[6,0,0,14,2,40],
+"classMR_1_1PolylineTopology.html#a3ec7d95cc6120617767536b8705d3ee6":[6,0,0,14,2,19],
+"classMR_1_1PolylineTopology.html#a447fd988db6a06ad5dc3f52599bf4924":[6,0,0,14,2,46]
 };
