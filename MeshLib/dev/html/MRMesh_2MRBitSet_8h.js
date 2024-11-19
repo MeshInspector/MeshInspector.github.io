@@ -13,15 +13,11 @@ var MRMesh_2MRBitSet_8h =
     [ "makeVectorWithSeqNums", "MRMesh_2MRBitSet_8h.html#ga8b847c813a39d58ea927b252971f751a", null ],
     [ "operator!=", "MRMesh_2MRBitSet_8h.html#gafac0380481de66cc94765087e17be65d", null ],
     [ "operator&", "MRMesh_2MRBitSet_8h.html#ga4383c7ccfb257c9434fe3e9e0b59a27b", null ],
-    [ "operator&", "MRMesh_2MRBitSet_8h.html#gae70a557635a7762a3d3f277f854cde72", null ],
     [ "operator-", "MRMesh_2MRBitSet_8h.html#ga042aeb0c2011b3bc175a13e96a447a5f", null ],
-    [ "operator-", "MRMesh_2MRBitSet_8h.html#gac6d17c4184b537a5ae4eb116c1948fc7", null ],
     [ "operator==", "MRMesh_2MRBitSet_8h.html#ga300a438da6440ee7d2e92933bcfa6018", null ],
     [ "operator==", "MRMesh_2MRBitSet_8h.html#gad714f7ce87e9a75b5d3b24ebd830ff6d", null ],
     [ "operator==", "MRMesh_2MRBitSet_8h.html#ga3cb32d170d480a2efd86849814c074fb", null ],
     [ "operator==", "MRMesh_2MRBitSet_8h.html#ga1098f1bd4059de8fc518f620c7e556a7", null ],
     [ "operator^", "MRMesh_2MRBitSet_8h.html#gace45a71e6bdb315750cbd38f5e648a56", null ],
-    [ "operator^", "MRMesh_2MRBitSet_8h.html#gadf58bb243cd6e17497e47aaa656b8f71", null ],
-    [ "operator|", "MRMesh_2MRBitSet_8h.html#ga8e5910c21dd8d185e8c21a9691826314", null ],
-    [ "operator|", "MRMesh_2MRBitSet_8h.html#gae0d727033dc1084d9aec146a913cb3f4", null ]
+    [ "operator|", "MRMesh_2MRBitSet_8h.html#ga8e5910c21dd8d185e8c21a9691826314", null ]
 ];

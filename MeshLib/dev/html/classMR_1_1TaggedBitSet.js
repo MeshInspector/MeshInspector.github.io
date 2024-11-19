@@ -38,5 +38,9 @@ var classMR_1_1TaggedBitSet =
     [ "set", "classMR_1_1TaggedBitSet.html#a81fe4e5857f45ab2eddfb174450a8caf", null ],
     [ "subtract", "classMR_1_1TaggedBitSet.html#a87f51918d1a76daae1ca25f86c7857c2", null ],
     [ "test", "classMR_1_1TaggedBitSet.html#a1d9ad007c077a26b967a76773068474f", null ],
-    [ "test_set", "classMR_1_1TaggedBitSet.html#a0e2dd799849e2ded19245ed49b89be0d", null ]
+    [ "test_set", "classMR_1_1TaggedBitSet.html#a0e2dd799849e2ded19245ed49b89be0d", null ],
+    [ "operator&", "classMR_1_1TaggedBitSet.html#aec28625ced4ab0979262ef9b3695e065", null ],
+    [ "operator-", "classMR_1_1TaggedBitSet.html#a87a8f93824aeca0cb9678cb565030961", null ],
+    [ "operator^", "classMR_1_1TaggedBitSet.html#ac857a46177bae2644076376f437e5718", null ],
+    [ "operator|", "classMR_1_1TaggedBitSet.html#aed89dd1d5eac7b2b7730222ca2d237d6", null ]
 ];
