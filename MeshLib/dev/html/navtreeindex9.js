@@ -244,7 +244,7 @@ var NAVTREEINDEX9 =
 "MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13":[6,0,3,0,0,2,6,2,4],
 "MRPython_8h.html#a1b144f9ec840f941a158bc9256711732":[6,0,3,0,0,2,6,2,15],
 "MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef":[6,0,3,0,0,2,6,2,18],
-"MRPython_8h.html#a396596cb5cea6d2f8fec7b7838ae2bc5":[6,0,3,0,0,2,6,2,23],
+"MRPython_8h.html#a396596cb5cea6d2f8fec7b7838ae2bc5":[6,0,3,0,0,2,6,2,24],
 "MRPython_8h.html#a432ac9a0f3f5aca7d9f0b9741d3b37c5":[6,0,3,0,0,2,6,2,12],
 "MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1":[6,0,3,0,0,2,6,2,9],
 "MRPython_8h.html#a5fcb58debd182644f22e1ea6eac867b6":[6,0,3,0,0,2,6,2,20],

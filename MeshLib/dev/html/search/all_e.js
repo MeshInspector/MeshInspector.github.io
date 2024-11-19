@@ -18,5 +18,6 @@ var searchData=
   ['keyup_15',['keyUp',['../classMR_1_1Viewer.html#a01e1a7a3d56f5220649daa748f9d6449',1,'MR::Viewer']]],
   ['keyuplistener_16',['KeyUpListener',['../structMR_1_1KeyUpListener.html',1,'MR']]],
   ['keyupsignal_17',['keyUpSignal',['../classMR_1_1Viewer.html#a4406c60c0ac846daf643a74003a00266',1,'MR::Viewer']]],
-  ['kind_18',['kind',['../structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec',1,'MR::FeatureObjectSharedProperty']]]
+  ['kind_18',['kind',['../structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec',1,'MR::FeatureObjectSharedProperty']]],
+  ['kindname_19',['kindName',['../structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#ae266c30a230c916a84c4bc1704ab96d2',1,'MR::UI::TestEngine::ButtonEntry::kindName'],['../structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html#ae5bd95dc0fb048677f9f0316deb3ff6b',1,'MR::UI::TestEngine::ValueEntry::kindName'],['../structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html#a13d6e256e162d31ddf3c2806246f4ccb',1,'MR::UI::TestEngine::GroupEntry::kindName']]]
 ];

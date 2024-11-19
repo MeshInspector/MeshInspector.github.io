@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRVoxelFilter_8h_source.html":[6,0,3,0,0,2,10,31],
 "MRVoxelGraphCut_8h.html":[6,0,3,0,0,2,10,32],
 "MRVoxelGraphCut_8h_source.html":[6,0,3,0,0,2,10,32],
 "MRVoxelPath_8h.html":[6,0,3,0,0,2,10,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,1,0,12,49,4],
 "classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,2,0,1,34,4],
 "classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,1,0,12,49,0],
-"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,2,0,1,34,0],
-"classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,1,0,12,49,1]
+"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,2,0,1,34,0]
 };

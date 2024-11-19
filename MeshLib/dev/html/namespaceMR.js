@@ -1763,6 +1763,7 @@ var namespaceMR =
     [ "expandFaces", "namespaceMR.html#a89f76419473d96d06c32d80ddb69147c", null ],
     [ "expandPixelMask", "group__DistanceMapGroup.html#ga6c5838a3065551d1adbcde13e5cf895b", null ],
     [ "expandVoxelsMask", "group__VolumeIndexerGroup.html#ga2b294cbfdf1d13f5bb7babef620b361a", null ],
+    [ "expectedValueOrThrow", "namespaceMR.html#ac95039057559bedc6c5786b29e42d974", null ],
     [ "exportToolPathToGCode", "namespaceMR.html#a5b9808eb4889c505cb2dc513fa536a42", null ],
     [ "extendAllHoles", "group__FillHoleGroup.html#ga98bec93b947e8017b7443801e20bc79b", null ],
     [ "extendHole", "group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121", null ],

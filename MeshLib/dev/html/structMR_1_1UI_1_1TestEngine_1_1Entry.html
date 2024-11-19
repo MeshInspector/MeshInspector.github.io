@@ -143,6 +143,7 @@ $(function(){initNavTree('structMR_1_1UI_1_1TestEngine_1_1Entry.html',''); initR
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1UI_1_1TestEngine_1_1Entry-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::UI::TestEngine::Entry Struct Reference</div></div>
@@ -151,6 +152,17 @@ $(function(){initNavTree('structMR_1_1UI_1_1TestEngine_1_1Entry.html',''); initR
 
 <p><code>#include &lt;<a class="el" href="MRUITestEngine_8h_source.html">MRUITestEngine.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abb71bca53888829df56285ca657ddb72" id="r_abb71bca53888829df56285ca657ddb72"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb71bca53888829df56285ca657ddb72">getKindName</a> () const</td></tr>
+<tr class="separator:abb71bca53888829df56285ca657ddb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af990d8e37018eb62dd57a502b644717c" id="r_af990d8e37018eb62dd57a502b644717c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af990d8e37018eb62dd57a502b644717c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af990d8e37018eb62dd57a502b644717c">getAs</a> (std::string_view selfName={})</td></tr>
+<tr class="separator:af990d8e37018eb62dd57a502b644717c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab746b066f53a20f78e0fb97a552fb166" id="r_ab746b066f53a20f78e0fb97a552fb166"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab746b066f53a20f78e0fb97a552fb166"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; const T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab746b066f53a20f78e0fb97a552fb166">getAs</a> (std::string_view selfName={}) const</td></tr>
+<tr class="separator:ab746b066f53a20f78e0fb97a552fb166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3309a8b2efa0022bdc883adca847c9ae" id="r_a3309a8b2efa0022bdc883adca847c9ae"><td class="memItemLeft" align="right" valign="top">std::variant&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html">ButtonEntry</a>, <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html">ValueEntry</a>, <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3309a8b2efa0022bdc883adca847c9ae">value</a></td></tr>
@@ -158,6 +170,86 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af1c045de66225bb1643e95fe69e9c370" id="r_af1c045de66225bb1643e95fe69e9c370"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1c045de66225bb1643e95fe69e9c370">visitedOnThisFrame</a> = false</td></tr>
 <tr class="separator:af1c045de66225bb1643e95fe69e9c370"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af990d8e37018eb62dd57a502b644717c" name="af990d8e37018eb62dd57a502b644717c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af990d8e37018eb62dd57a502b644717c">&#9670;&#160;</a></span>getAs() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; T * &gt; MR::UI::TestEngine::Entry::getAs </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>selfName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab746b066f53a20f78e0fb97a552fb166" name="ab746b066f53a20f78e0fb97a552fb166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab746b066f53a20f78e0fb97a552fb166">&#9670;&#160;</a></span>getAs() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; const T * &gt; MR::UI::TestEngine::Entry::getAs </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>selfName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb71bca53888829df56285ca657ddb72" name="abb71bca53888829df56285ca657ddb72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb71bca53888829df56285ca657ddb72">&#9670;&#160;</a></span>getKindName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::string_view MR::UI::TestEngine::Entry::getKindName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a3309a8b2efa0022bdc883adca847c9ae" name="a3309a8b2efa0022bdc883adca847c9ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3309a8b2efa0022bdc883adca847c9ae">&#9670;&#160;</a></span>value</h2>

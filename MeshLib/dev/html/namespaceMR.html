@@ -5121,6 +5121,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5" id="r_a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a396596cb5cea6d2f8fec7b7838ae2bc5">throwExceptionFromExpected</a> (const E &amp;err)</td></tr>
 <tr class="separator:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95039057559bedc6c5786b29e42d974" id="r_ac95039057559bedc6c5786b29e42d974"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac95039057559bedc6c5786b29e42d974"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac95039057559bedc6c5786b29e42d974">expectedValueOrThrow</a> (T &amp;&amp;e)</td></tr>
+<tr class="separator:ac95039057559bedc6c5786b29e42d974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce" id="r_aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
 <tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa60c1177452c69cf5b8cdab61296d1ce">decorateExpected</a> (std::function&lt; <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
 <tr class="separator:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -13551,6 +13554,33 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac95039057559bedc6c5786b29e42d974" name="ac95039057559bedc6c5786b29e42d974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac95039057559bedc6c5786b29e42d974">&#9670;&#160;</a></span>expectedValueOrThrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">decltype(auto) MR::expectedValueOrThrow </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
