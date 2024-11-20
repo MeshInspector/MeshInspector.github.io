@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespacePlotly.html":[6,0,1,0,16],
 "namespaceTriangulation__v2.html":[6,0,1,0,17],
 "namespaceTriangulation__v3.html":[6,0,1,0,18],
 "namespaceViewer.html":[6,0,1,0,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMRMeshPart.html":[6,0,2,0,31],
 "structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[6,0,2,0,31,0],
 "structMRMeshPart.html#a5ce5edc6f84e9905919f9f558dc65922":[6,0,2,0,31,1],
-"structMRMeshProjectionResult.html":[6,0,2,0,32],
-"structMRMeshProjectionResult.html#ab689baa522fea7ce8e541444c1a4d1f7":[6,0,2,0,32,2]
+"structMRMeshProjectionResult.html":[6,0,2,0,32]
 };

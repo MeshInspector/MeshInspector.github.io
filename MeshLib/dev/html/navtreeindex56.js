@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1MeshBuilder.html#a338de61ac0a911470d50fe0f14af05d5":[6,0,1,0,12,16,7],
 "namespaceMR_1_1MeshBuilder.html#a490e7688bd91a7df375c29f2bd7633a4":[6,0,1,0,12,16,9],
 "namespaceMR_1_1MeshBuilder.html#a787b6d63581b071cba69cde55f211cdf":[6,0,1,0,12,16,12],
 "namespaceMR_1_1MeshBuilder.html#aa308a697fa44ab178932733fdab79f16":[6,0,1,0,12,16,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMeshStitchHole.html":[6,0,1,0,11],
 "namespaceNoiseDenoiseExample.html":[6,0,1,0,13],
 "namespaceNumpy.html":[6,0,1,0,14],
-"namespaceNumpyTriangulation.html":[6,0,1,0,15],
-"namespacePlotly.html":[6,0,1,0,16]
+"namespaceNumpyTriangulation.html":[6,0,1,0,15]
 };

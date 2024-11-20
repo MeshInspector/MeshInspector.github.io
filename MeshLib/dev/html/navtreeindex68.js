@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MeshLoadSettings.html#a6fdcf8fdd76f70d7403ea886ed944019":[6,0,1,0,12,332,4],
 "structMR_1_1MeshLoadSettings.html#a6fdcf8fdd76f70d7403ea886ed944019":[6,0,2,0,1,317,4],
 "structMR_1_1MeshLoadSettings.html#ae3778a9ff6574570228d2a4ae6b546c0":[6,0,1,0,12,332,7],
 "structMR_1_1MeshLoadSettings.html#ae3778a9ff6574570228d2a4ae6b546c0":[6,0,2,0,1,317,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,2,0,1,341,0],
 "structMR_1_1MouseClickListener.html":[6,0,1,0,12,357],
 "structMR_1_1MouseClickListener.html":[6,0,2,0,1,342],
-"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,1,0,12,357,2],
-"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,2,0,1,342,2]
+"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,1,0,12,357,2]
 };

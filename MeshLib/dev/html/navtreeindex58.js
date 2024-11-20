@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structMRMeshProjectionResult.html#ab689baa522fea7ce8e541444c1a4d1f7":[6,0,2,0,32,2],
 "structMRMeshProjectionResult.html#af8a095ae9a4ca92d739e8ab15ac46100":[6,0,2,0,32,1],
 "structMRMeshProjectionResult.html#afcfe8d54bd9348a46319d15bd7094f9a":[6,0,2,0,32,0],
 "structMRMeshRegions.html":[6,0,2,0,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab":[6,0,2,0,1,49,1],
 "structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,1,0,12,64,0],
 "structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,2,0,1,49,0],
-"structMR_1_1BaseRenderParams.html":[6,0,1,0,12,65],
-"structMR_1_1BaseRenderParams.html":[6,0,2,0,1,50]
+"structMR_1_1BaseRenderParams.html":[6,0,1,0,12,65]
 };

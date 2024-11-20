@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa":[6,0,0,11,15,0,1,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c":[6,0,0,11,15,0,1,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad8187266986121c9568f668fe785fbc5":[6,0,0,11,15,0,5],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9":[6,0,0,11,15,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html":[6,0,1,0,12,24,3],
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html":[6,0,2,0,1,14,3],
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a528577df88b99d1a7703da3953605d11":[6,0,1,0,12,24,3,0],
-"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a528577df88b99d1a7703da3953605d11":[6,0,2,0,1,14,3,0],
-"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,1,0,12,24,3,1]
+"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a528577df88b99d1a7703da3953605d11":[6,0,2,0,1,14,3,0]
 };

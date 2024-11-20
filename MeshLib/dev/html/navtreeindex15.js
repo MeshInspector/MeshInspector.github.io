@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,2,0,1,34,0],
 "classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,1,0,12,49,1],
 "classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,2,0,1,34,1],
 "classMR_1_1AlphaSortGL.html":[6,0,1,0,12,52],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[6,0,2,0,1,115,7],
 "classMR_1_1CNCMachineSettings.html#ac2d2ccfe7fd64c3498a251b0a0d33223":[6,0,1,0,12,130,16],
 "classMR_1_1CNCMachineSettings.html#ac2d2ccfe7fd64c3498a251b0a0d33223":[6,0,2,0,1,115,16],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a":[6,0,1,0,12,130,2],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a":[6,0,2,0,1,115,2]
+"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a":[6,0,1,0,12,130,2]
 };
