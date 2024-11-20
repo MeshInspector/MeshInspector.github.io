@@ -188,7 +188,13 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="ttc" id="astructMR_1_1BooleanResult_html_a78e59aeca9497a9c74d7512157fcf5df"><div class="ttname"><a href="structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">MR::BooleanResult::errorString</a></div><div class="ttdeci">std::string errorString</div><div class="ttdoc">Holds error message, empty if boolean succeed.</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshBoolean.h:35</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> Source meshes <div class="image">
+<img src="boolean_before.png" alt=""/>
+</div>
+ Boolean intersection <div class="image">
+<img src="boolean_after.png" alt=""/>
+</div>
+</li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># create first sphere with radius of 1 unit</span></div>
@@ -207,7 +213,13 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line"><span class="comment"># save result to STL file</span></div>
 <div class="line">mrmeshpy.saveMesh(result_mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>)</div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> Source meshes <div class="image">
+<img src="boolean_before.png" alt=""/>
+</div>
+ Boolean intersection <div class="image">
+<img src="boolean_after.png" alt=""/>
+</div>
+</li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMeshC_2MRMesh_8h.html">MRMeshC/MRMesh.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMeshC_2MRMakeSphereMesh_8h.html">MRMeshC/MRMakeSphereMesh.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMeshC_2MRVector3_8h.html">MRMeshC/MRVector3.h</a>&gt;</span></div>
@@ -301,7 +313,13 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="ttc" id="astructMRMakeUVSphereParameters_html_af470017e8fbca8a02433a21aea67d8c1"><div class="ttname"><a href="structMRMakeUVSphereParameters.html#af470017e8fbca8a02433a21aea67d8c1">MRMakeUVSphereParameters::verticalResolution</a></div><div class="ttdeci">int verticalResolution</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMakeSphereMesh.h:25</div></div>
 <div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="structMRVector3f.html">MRVector3f</a></div><div class="ttdoc">three-dimensional vector</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector3.h:9</div></div>
 <div class="ttc" id="astructMRVector3f_html_a5c5342e25c41c46694167c41774234bd"><div class="ttname"><a href="structMRVector3f.html#a5c5342e25c41c46694167c41774234bd">MRVector3f::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector3.h:10</div></div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> Source meshes <div class="image">
+<img src="boolean_before.png" alt=""/>
+</div>
+ Boolean intersection <div class="image">
+<img src="boolean_after.png" alt=""/>
+</div>
+</li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>MR.DotNet;</div>
 <div class="line"><span class="keyword">using </span>System;</div>
 <div class="line"><span class="keyword">using </span>System.Reflection;</div>
@@ -332,15 +350,15 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMeshBoolean_html"><div class="ttname"><a href="namespaceMeshBoolean.html">MeshBoolean</a></div><div class="ttdef"><b>Definition</b> MeshBoolean.dox.py:1</div></div>
-</div><!-- fragment --></li>
-</ul>
-</div><div class="tabbed"></div><p>Source meshes </p><div class="image">
+</div><!-- fragment --> Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>
 </div>
-<p>Boolean intersection </p><div class="image">
+ Boolean intersection <div class="image">
 <img src="boolean_after.png" alt=""/>
 </div>
- </div></div><!-- contents -->
+</li>
+</ul>
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
