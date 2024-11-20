@@ -928,6 +928,7 @@ var annotated_dup =
     [ "MRMeshRegions", "structMRMeshRegions.html", "structMRMeshRegions" ],
     [ "MRMeshSaveNamedXfMesh", "structMRMeshSaveNamedXfMesh.html", "structMRMeshSaveNamedXfMesh" ],
     [ "MRMeshTriPoint", "structMRMeshTriPoint.html", "structMRMeshTriPoint" ],
+    [ "MRMultipleEdge", "structMRMultipleEdge.html", "structMRMultipleEdge" ],
     [ "MRMultiwayICPSamplingParameters", "structMRMultiwayICPSamplingParameters.html", "structMRMultiwayICPSamplingParameters" ],
     [ "MRObjId", "structMRObjId.html", "structMRObjId" ],
     [ "MRObjVertId", "structMRObjVertId.html", "structMRObjVertId" ],

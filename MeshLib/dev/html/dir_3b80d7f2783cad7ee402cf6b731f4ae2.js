@@ -88,7 +88,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MREmbedTerrainStructure.h", "MREmbedTerrainStructure_8h.html", "MREmbedTerrainStructure_8h" ],
     [ "MREnumNeighbours.h", "MREnumNeighbours_8h.html", "MREnumNeighbours_8h" ],
     [ "MREnums.h", "MREnums_8h.html", "MREnums_8h" ],
-    [ "MRExpandShrink.h", "MRExpandShrink_8h.html", "MRExpandShrink_8h" ],
+    [ "MRExpandShrink.h", "MRMesh_2MRExpandShrink_8h.html", "MRMesh_2MRExpandShrink_8h" ],
     [ "MRExpected.h", "MRExpected_8h.html", "MRExpected_8h" ],
     [ "MRExtractIsolines.h", "MRExtractIsolines_8h.html", "MRExtractIsolines_8h" ],
     [ "MRFaceDistance.h", "MRFaceDistance_8h.html", "MRFaceDistance_8h" ],

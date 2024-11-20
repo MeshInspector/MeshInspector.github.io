@@ -143,28 +143,149 @@ $(function(){initNavTree('MRMeshC_2MRMeshFixer_8h.html',''); initResizable(true)
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMeshFixer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshC_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshC_2MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshC_2MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 </div>
 <p><a href="MRMeshC_2MRMeshFixer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRMultipleEdge.html">MRMultipleEdge</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af73df5e06e4231e61d2a17c0427b46af" id="r_af73df5e06e4231e61d2a17c0427b46af"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> struct MRMultipleEdge&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af73df5e06e4231e61d2a17c0427b46af">MRMultipleEdge</a></td></tr>
+<tr class="separator:af73df5e06e4231e61d2a17c0427b46af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:add46e538250aed4e0cdc75d1578a1cde" id="r_add46e538250aed4e0cdc75d1578a1cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add46e538250aed4e0cdc75d1578a1cde">mrFindHoleComplicatingFaces</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
-<tr class="separator:add46e538250aed4e0cdc75d1578a1cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbe79cda5c1b27e8b6611872a6bce03d" id="r_adbe79cda5c1b27e8b6611872a6bce03d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbe79cda5c1b27e8b6611872a6bce03d">mrFindHoleComplicatingFaces</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="separator:adbe79cda5c1b27e8b6611872a6bce03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cee47946660bc243974efdc6fd84e8e" id="r_a2cee47946660bc243974efdc6fd84e8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cee47946660bc243974efdc6fd84e8e">mrFindDegenerateFaces</a> (const <a class="el" href="structMRMeshPart.html">MRMeshPart</a> *mp, float criticalAspectRatio, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a466dd32565f9e71946208ad0428aa09d">MRProgressCallback</a> cb, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memdesc:a2cee47946660bc243974efdc6fd84e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces having aspect ratio &gt;= criticalAspectRatio  <br /></td></tr>
+<tr class="separator:a2cee47946660bc243974efdc6fd84e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f178f07d932485ab32a4bd5280eb03" id="r_a83f178f07d932485ab32a4bd5280eb03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a548f82a7483e7be9fc0e69623051cef9">MRUndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83f178f07d932485ab32a4bd5280eb03">mrFindShortEdges</a> (const <a class="el" href="structMRMeshPart.html">MRMeshPart</a> *mp, float criticalLength, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a466dd32565f9e71946208ad0428aa09d">MRProgressCallback</a> cb, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memdesc:a83f178f07d932485ab32a4bd5280eb03"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds edges having length &lt;= criticalLength  <br /></td></tr>
+<tr class="separator:a83f178f07d932485ab32a4bd5280eb03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8037d2af8338ede3c649596c0e314db9" id="r_a8037d2af8338ede3c649596c0e314db9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8037d2af8338ede3c649596c0e314db9">fixMultipleEdges</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="structMRMultipleEdge.html">MRMultipleEdge</a> *multipleEdges, size_t multipleEdgesNum)</td></tr>
+<tr class="memdesc:a8037d2af8338ede3c649596c0e314db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">resolves given multiple edges, but splitting all but one edge in each group  <br /></td></tr>
+<tr class="separator:a8037d2af8338ede3c649596c0e314db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab277c96dbcbb480f26f141382fdb07b9" id="r_ab277c96dbcbb480f26f141382fdb07b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab277c96dbcbb480f26f141382fdb07b9">findAndFixMultipleEdges</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memdesc:ab277c96dbcbb480f26f141382fdb07b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and resolves multiple edges  <br /></td></tr>
+<tr class="separator:ab277c96dbcbb480f26f141382fdb07b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="add46e538250aed4e0cdc75d1578a1cde" name="add46e538250aed4e0cdc75d1578a1cde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add46e538250aed4e0cdc75d1578a1cde">&#9670;&#160;</a></span>mrFindHoleComplicatingFaces()</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af73df5e06e4231e61d2a17c0427b46af" name="af73df5e06e4231e61d2a17c0427b46af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af73df5e06e4231e61d2a17c0427b46af">&#9670;&#160;</a></span>MRMultipleEdge</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a> * mrFindHoleComplicatingFaces </td>
+          <td class="memname">typedef <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> struct MRMultipleEdge MRMultipleEdge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab277c96dbcbb480f26f141382fdb07b9" name="ab277c96dbcbb480f26f141382fdb07b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab277c96dbcbb480f26f141382fdb07b9">&#9670;&#160;</a></span>findAndFixMultipleEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void findAndFixMultipleEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds and resolves multiple edges </p>
+
+</div>
+</div>
+<a id="a8037d2af8338ede3c649596c0e314db9" name="a8037d2af8338ede3c649596c0e314db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8037d2af8338ede3c649596c0e314db9">&#9670;&#160;</a></span>fixMultipleEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void fixMultipleEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMRMultipleEdge.html">MRMultipleEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>multipleEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>multipleEdgesNum</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>resolves given multiple edges, but splitting all but one edge in each group </p>
+
+</div>
+</div>
+<a id="a2cee47946660bc243974efdc6fd84e8e" name="a2cee47946660bc243974efdc6fd84e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cee47946660bc243974efdc6fd84e8e">&#9670;&#160;</a></span>mrFindDegenerateFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a> * mrFindDegenerateFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMRMeshPart.html">MRMeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>criticalAspectRatio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a466dd32565f9e71946208ad0428aa09d">MRProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds faces having aspect ratio &gt;= criticalAspectRatio </p>
+
+</div>
+</div>
+<a id="adbe79cda5c1b27e8b6611872a6bce03d" name="adbe79cda5c1b27e8b6611872a6bce03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbe79cda5c1b27e8b6611872a6bce03d">&#9670;&#160;</a></span>mrFindHoleComplicatingFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a> * mrFindHoleComplicatingFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
@@ -172,6 +293,39 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns all faces that complicate one of mesh holes; hole is complicated if it passes via one vertex more than once; deleting such faces simplifies the holes and makes them easier to fill </p>
+
+</div>
+</div>
+<a id="a83f178f07d932485ab32a4bd5280eb03" name="a83f178f07d932485ab32a4bd5280eb03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83f178f07d932485ab32a4bd5280eb03">&#9670;&#160;</a></span>mrFindShortEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a548f82a7483e7be9fc0e69623051cef9">MRUndirectedEdgeBitSet</a> * mrFindShortEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMRMeshPart.html">MRMeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>criticalLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a466dd32565f9e71946208ad0428aa09d">MRProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds edges having length &lt;= criticalLength </p>
 
 </div>
 </div>

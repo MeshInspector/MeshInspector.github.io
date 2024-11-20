@@ -747,6 +747,7 @@ var hierarchy =
     [ "MRMeshRegions", "structMRMeshRegions.html", null ],
     [ "MRMeshSaveNamedXfMesh", "structMRMeshSaveNamedXfMesh.html", null ],
     [ "MRMeshTriPoint", "structMRMeshTriPoint.html", null ],
+    [ "MRMultipleEdge", "structMRMultipleEdge.html", null ],
     [ "MRMultiwayICPSamplingParameters", "structMRMultiwayICPSamplingParameters.html", null ],
     [ "MRObjId", "structMRObjId.html", null ],
     [ "MRObjVertId", "structMRObjVertId.html", null ],
