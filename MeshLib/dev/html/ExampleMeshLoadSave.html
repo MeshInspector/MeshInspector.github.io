@@ -147,7 +147,8 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="contents">
 <div class="textblock"><p>Following code presents example of loading and saving mesh file</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRCtm_8h.html">MRIOExtras/MRCtm.h</a>&gt;</span></div>
 <div class="line"> </div>
@@ -186,6 +187,7 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="ttc" id="aMRCtm_8h_html"><div class="ttname"><a href="MRCtm_8h.html">MRCtm.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshLoad_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshSave_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and loads mesh from it</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and save mesh to it</div></div>
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html_a22395c6fe76cfa33bd45c5498865c20e"><div class="ttname"><a href="namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR::MeshSave::toCtm</a></div><div class="ttdeci">MRIOEXTRAS_API Expected&lt; void &gt; toCtm(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const CtmSaveOptions &amp;options)</div><div class="ttdoc">saves in .ctm file</div></div>
