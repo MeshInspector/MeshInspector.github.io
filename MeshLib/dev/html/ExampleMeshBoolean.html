@@ -251,7 +251,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a> xfTranslation = <a class="code hl_function" href="MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a>( 0.f );</div>
 <div class="line">    xfTranslation.<a class="code hl_variable" href="structMRVector3f.html#a5c5342e25c41c46694167c41774234bd">x</a> = 0.7f;</div>
 <div class="line">    <a class="code hl_struct" href="structMRAffineXf3f.html">MRAffineXf3f</a> xf = <a class="code hl_function" href="MRMeshC_2MRAffineXf_8h.html#a36b023b84b7dc8b710576376dd40971b">mrAffineXf3fTranslation</a>( &amp;xfTranslation );</div>
-<div class="line">    <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a>( &amp;sphere2, &amp;xf );</div>
+<div class="line">    <a class="code hl_function" href="MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a>( &amp;sphere2, &amp;xf, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// perform the boolean operation</span></div>
 <div class="line">    <a class="code hl_struct" href="structMRBooleanParameters.html">MRBooleanParameters</a> params = <a class="code hl_function" href="MRMeshC_2MRMeshBoolean_8h.html#a0ae14a8082684553cf1e53fb60437e75">mrBooleanParametersNew</a>();</div>
