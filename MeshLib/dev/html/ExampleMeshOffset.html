@@ -259,12 +259,12 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">    <span class="comment">// Create mesh</span></div>
 <div class="line">    <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a> size = <a class="code hl_function" href="MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a>( 1.f );</div>
 <div class="line">    <a class="code hl_struct" href="structMRVector3f.html">MRVector3f</a> base = <a class="code hl_function" href="MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a>( -0.5f );</div>
-<div class="line">    <a class="code hl_typedef" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* mesh = <a class="code hl_function" href="MRMeshC_2MRCube_8h.html#a5b607aff065c9b9095904bfcaff6a134">mrMakeCube</a>( &amp;size, &amp;base )</div>
+<div class="line">    <a class="code hl_typedef" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* mesh = <a class="code hl_function" href="MRMeshC_2MRCube_8h.html#a5b607aff065c9b9095904bfcaff6a134">mrMakeCube</a>( &amp;size, &amp;base );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// offset functions can also be applied to separate mesh components rather than to the whole mesh</span></div>
 <div class="line">    <span class="comment">// this is not our case, so the region is set to NULL</span></div>
 <div class="line">    <a class="code hl_struct" href="structMRMeshPart.html">MRMeshPart</a> inputMeshPart = (<a class="code hl_typedef" href="MRMeshC_2MRMeshPart_8h.html#a77f4c4045dff6d0c1c1440b1450b88b6">MRMeshPart</a>){</div>
-<div class="line">        .<a class="code hl_variable" href="structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0">mesh</a> = inputMesh,</div>
+<div class="line">        .<a class="code hl_variable" href="structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0">mesh</a> = mesh,</div>
 <div class="line">        .region = NULL,</div>
 <div class="line">    };</div>
 <div class="line"> </div>
