@@ -149,6 +149,9 @@ $(function(){initNavTree('structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html','')
 </div><!--header-->
 <div class="contents">
 
+<p>information about just reached vertex (with final metric value)  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MREdgePathsBuilder_8h_source.html">MREdgePathsBuilder.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -156,13 +159,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad5e8720a5c82f4ea7340efebb072d1cd" id="r_ad5e8720a5c82f4ea7340efebb072d1cd"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5e8720a5c82f4ea7340efebb072d1cd">v</a></td></tr>
 <tr class="separator:ad5e8720a5c82f4ea7340efebb072d1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c276cfcbefefc36c49ded5ed151d1f4" id="r_a4c276cfcbefefc36c49ded5ed151d1f4"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c276cfcbefefc36c49ded5ed151d1f4">backward</a></td></tr>
+<tr class="memdesc:a4c276cfcbefefc36c49ded5ed151d1f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge from this vertex to its predecessor in the forest (if this vertex is not start)  <br /></td></tr>
 <tr class="separator:a4c276cfcbefefc36c49ded5ed151d1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e59111b442fc3dcfc4cfc089a0972ec" id="r_a0e59111b442fc3dcfc4cfc089a0972ec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e59111b442fc3dcfc4cfc089a0972ec">penalty</a> = FLT_MAX</td></tr>
 <tr class="separator:a0e59111b442fc3dcfc4cfc089a0972ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86bbb1910bc530c8f88287ede3605c5f" id="r_a86bbb1910bc530c8f88287ede3605c5f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86bbb1910bc530c8f88287ede3605c5f">metric</a> = FLT_MAX</td></tr>
+<tr class="memdesc:a86bbb1910bc530c8f88287ede3605c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">summed metric to reach this vertex  <br /></td></tr>
 <tr class="separator:a86bbb1910bc530c8f88287ede3605c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class MetricToPenalty&gt;<br />
+struct MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::ReachedVert</div><p>information about just reached vertex (with final metric value) </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4c276cfcbefefc36c49ded5ed151d1f4" name="a4c276cfcbefefc36c49ded5ed151d1f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c276cfcbefefc36c49ded5ed151d1f4">&#9670;&#160;</a></span>backward</h2>
 
@@ -176,6 +184,8 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) </p>
 
 </div>
 </div>
@@ -193,6 +203,8 @@ template&lt;class MetricToPenalty &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>summed metric to reach this vertex </p>
+
 </div>
 </div>
 <a id="a0e59111b442fc3dcfc4cfc089a0972ec" name="a0e59111b442fc3dcfc4cfc089a0972ec"></a>
@@ -208,6 +220,7 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* </p>
 
 </div>
 </div>

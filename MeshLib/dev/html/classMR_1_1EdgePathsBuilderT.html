@@ -159,15 +159,19 @@ $(function(){initNavTree('classMR_1_1EdgePathsBuilderT.html',''); initResizable(
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">information about just reached vertex (with final metric value)  <a href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a336db542a3c1e1aafb7a7e132ee4a508" id="r_a336db542a3c1e1aafb7a7e132ee4a508"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336db542a3c1e1aafb7a7e132ee4a508">done</a> () const</td></tr>
+<tr class="memdesc:a336db542a3c1e1aafb7a7e132ee4a508"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if further edge forest growth is impossible  <br /></td></tr>
 <tr class="separator:a336db542a3c1e1aafb7a7e132ee4a508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6121aae22b66ff8e123f4f1d2d21528d" id="r_a6121aae22b66ff8e123f4f1d2d21528d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6121aae22b66ff8e123f4f1d2d21528d">doneDistance</a> () const</td></tr>
+<tr class="memdesc:a6121aae22b66ff8e123f4f1d2d21528d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns path length till the next candidate vertex or maximum float value if all vertices have been reached  <br /></td></tr>
 <tr class="separator:a6121aae22b66ff8e123f4f1d2d21528d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30700907c0223d6668cc9e5910765c3" id="r_ad30700907c0223d6668cc9e5910765c3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a8ef9d4ab57452b5bea4b72a90f4fc165">VertPathInfoMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad30700907c0223d6668cc9e5910765c3">vertPathInfoMap</a> () const</td></tr>
+<tr class="memdesc:ad30700907c0223d6668cc9e5910765c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives read access to the map from vertex to path to it  <br /></td></tr>
 <tr class="separator:ad30700907c0223d6668cc9e5910765c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -183,10 +187,13 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a7567736873ea92c6a2359d13bdf9ff52" id="r_a7567736873ea92c6a2359d13bdf9ff52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7567736873ea92c6a2359d13bdf9ff52">addOrgRingSteps</a> (const <a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a> &amp;rv)</td></tr>
 <tr class="separator:a7567736873ea92c6a2359d13bdf9ff52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a245a1aca92a23d5b494706916ea2554e" id="r_a245a1aca92a23d5b494706916ea2554e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a245a1aca92a23d5b494706916ea2554e">growOneEdge</a> ()</td></tr>
+<tr class="memdesc:a245a1aca92a23d5b494706916ea2554e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as <a class="el" href="#a42cf862c1663fc45765278e3617948ab">reachNext()</a> + <a class="el" href="#a7567736873ea92c6a2359d13bdf9ff52">addOrgRingSteps()</a>  <br /></td></tr>
 <tr class="separator:a245a1aca92a23d5b494706916ea2554e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae50a59bc1425eff2906ad0c18accbabc" id="r_ae50a59bc1425eff2906ad0c18accbabc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1VertPathInfo.html">VertPathInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50a59bc1425eff2906ad0c18accbabc">getVertInfo</a> (VertId v) const</td></tr>
+<tr class="memdesc:ae50a59bc1425eff2906ad0c18accbabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one element from the map (or nullptr if the element is missing)  <br /></td></tr>
 <tr class="separator:ae50a59bc1425eff2906ad0c18accbabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5a3f3206ed7ec78c89eef5860137181" id="r_aa5a3f3206ed7ec78c89eef5860137181"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5a3f3206ed7ec78c89eef5860137181">getPathBack</a> (VertId backpathStart) const</td></tr>
+<tr class="memdesc:aa5a3f3206ed7ec78c89eef5860137181"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the path in the forest from given vertex to one of start vertices  <br /></td></tr>
 <tr class="separator:aa5a3f3206ed7ec78c89eef5860137181"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -233,6 +240,7 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added </p>
 
 </div>
 </div>
@@ -256,6 +264,7 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true </p>
 
 </div>
 </div>
@@ -284,6 +293,8 @@ template&lt;class MetricToPenalty &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>returns true if further edge forest growth is impossible </p>
+
 </div>
 </div>
 <a id="a6121aae22b66ff8e123f4f1d2d21528d" name="a6121aae22b66ff8e123f4f1d2d21528d"></a>
@@ -311,6 +322,8 @@ template&lt;class MetricToPenalty &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>returns path length till the next candidate vertex or maximum float value if all vertices have been reached </p>
+
 </div>
 </div>
 <a id="aa5a3f3206ed7ec78c89eef5860137181" name="aa5a3f3206ed7ec78c89eef5860137181"></a>
@@ -329,6 +342,8 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>returns the path in the forest from given vertex to one of start vertices </p>
 
 </div>
 </div>
@@ -349,6 +364,8 @@ template&lt;class MetricToPenalty &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>returns one element from the map (or nullptr if the element is missing) </p>
+
 </div>
 </div>
 <a id="a245a1aca92a23d5b494706916ea2554e" name="a245a1aca92a23d5b494706916ea2554e"></a>
@@ -368,6 +385,8 @@ template&lt;class MetricToPenalty &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>the same as <a class="el" href="#a42cf862c1663fc45765278e3617948ab">reachNext()</a> + <a class="el" href="#a7567736873ea92c6a2359d13bdf9ff52">addOrgRingSteps()</a> </p>
+
 </div>
 </div>
 <a id="a42cf862c1663fc45765278e3617948ab" name="a42cf862c1663fc45765278e3617948ab"></a>
@@ -386,6 +405,7 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left </p>
 
 </div>
 </div>
@@ -413,6 +433,8 @@ template&lt;class MetricToPenalty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>gives read access to the map from vertex to path to it </p>
 
 </div>
 </div>
