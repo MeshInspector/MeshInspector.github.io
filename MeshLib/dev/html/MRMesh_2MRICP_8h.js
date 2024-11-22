@@ -14,7 +14,7 @@ var MRMesh_2MRICP_8h =
     [ "getMeanSqDistToPoint", "MRMesh_2MRICP_8h.html#a8fac39607138c4e9d594cffbdf5f28d7", null ],
     [ "getNumActivePairs", "MRMesh_2MRICP_8h.html#a5f3e72229b19af1e43886673711093af", null ],
     [ "getNumSamples", "MRMesh_2MRICP_8h.html#a6bc994c1ebf7a119332f7d7a212cdd5e", null ],
-    [ "getSumSqDistToPlane", "MRMesh_2MRICP_8h.html#ad1c7409a665a096abe1ea66df1c725d4", null ],
-    [ "getSumSqDistToPoint", "MRMesh_2MRICP_8h.html#aee1e5b59ddc336affb5d8a48d53adddc", null ],
+    [ "getSumSqDistToPlane", "MRMesh_2MRICP_8h.html#a35d3b6b2ab98a2f5c105722dca3a23dd", null ],
+    [ "getSumSqDistToPoint", "MRMesh_2MRICP_8h.html#a06aeabf6e11d59cffd728866af776927", null ],
     [ "updatePointPairs", "MRMesh_2MRICP_8h.html#ae1720596759ae985fe19f03af8b48c36", null ]
 ];
