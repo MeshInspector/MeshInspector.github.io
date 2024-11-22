@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1DecimateSettings.html#a5ec13d6be73db6e77b404aea2c0d3371":[6,0,0,10,0,7],
+"structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5":[6,0,0,10,0,3],
+"structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe":[6,0,0,10,0,4],
+"structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6":[6,0,0,10,0,23],
 "structMR_1_1DecimateSettings.html#a7cc18ed533890cfc09a39ba3724b5f85":[6,0,0,10,0,13],
 "structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff":[6,0,0,10,0,18],
 "structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111":[6,0,0,10,0,29],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[6,0,1,0,12,188,0,0],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[6,0,2,0,1,173,0,0],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[6,0,1,0,12,188,1],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[6,0,2,0,1,173,1],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[6,0,1,0,12,188,1,2],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[6,0,2,0,1,173,1,2],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff":[6,0,1,0,12,188,1,1],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff":[6,0,2,0,1,173,1,1]
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[6,0,2,0,1,173,1]
 };

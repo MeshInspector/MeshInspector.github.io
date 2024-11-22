@@ -183,13 +183,14 @@ var searchData=
   ['externalsettings_180',['ExternalSettings',['../classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html',1,'MR::ViewerSettingsPlugin']]],
   ['extract_20numpy_20arrays_181',['extract numpy arrays',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/Plotly.dox.py#autotoc_md119',1,'']]],
   ['extractclosedloops_182',['extractClosedLoops',['../group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c',1,'MR::extractClosedLoops(const MeshTopology &amp;topology, EdgeBitSet &amp;edges)'],['../group__SurfacePathGroup.html#gaa78455fdb147a0790b3838d7d30344f0',1,'MR::extractClosedLoops(const MeshTopology &amp;topology, const std::vector&lt; EdgeId &gt; &amp;inEdges, EdgeBitSet *outNotLoopEdges=nullptr)']]],
-  ['extractisolines_183',['extractIsolines',['../namespaceMR.html#a0af750bc6c8661a8942e40aa5889bee9',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertMetric &amp;vertValues, const FaceBitSet *region=nullptr)'],['../namespaceMR.html#a815c41bea1eb6b764772db436cfc8bd7',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertScalars &amp;vertValues, float isoValue, const FaceBitSet *region=nullptr)']]],
-  ['extractlongestclosedloop_184',['extractLongestClosedLoop',['../group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2',1,'MR']]],
-  ['extractplanesections_185',['extractPlaneSections',['../namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e',1,'MR']]],
-  ['extractsectionsfrompolyline_186',['extractSectionsFromPolyline',['../namespaceMR.html#ae61b22dea9c3ed4deb8de8c933fc6a3c',1,'MR']]],
-  ['extractxyplanesections_187',['extractXYPlaneSections',['../namespaceMR.html#a27a7fa634079190a11f77bd562e05d60',1,'MR']]],
-  ['extremarg_188',['extremArg',['../structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3',1,'MR::Parabola']]],
-  ['extremeedgetype_189',['ExtremeEdgeType',['../group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6',1,'MR']]],
-  ['extremval_190',['extremVal',['../structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d',1,'MR::Parabola']]],
-  ['extrude_191',['extrude',['../ExampleMeshExtrude.html',1,'Mesh extrude'],['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshExtrude.dox.py#autotoc_md80',1,'Prepare region to extrude']]]
+  ['extractintersectioncontours_183',['extractIntersectionContours',['../namespaceMR.html#a4d956c62b0c8514d3779ce5076b6b9ec',1,'MR']]],
+  ['extractisolines_184',['extractIsolines',['../namespaceMR.html#a0af750bc6c8661a8942e40aa5889bee9',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertMetric &amp;vertValues, const FaceBitSet *region=nullptr)'],['../namespaceMR.html#a815c41bea1eb6b764772db436cfc8bd7',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertScalars &amp;vertValues, float isoValue, const FaceBitSet *region=nullptr)']]],
+  ['extractlongestclosedloop_185',['extractLongestClosedLoop',['../group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2',1,'MR']]],
+  ['extractplanesections_186',['extractPlaneSections',['../namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e',1,'MR']]],
+  ['extractsectionsfrompolyline_187',['extractSectionsFromPolyline',['../namespaceMR.html#ae61b22dea9c3ed4deb8de8c933fc6a3c',1,'MR']]],
+  ['extractxyplanesections_188',['extractXYPlaneSections',['../namespaceMR.html#a27a7fa634079190a11f77bd562e05d60',1,'MR']]],
+  ['extremarg_189',['extremArg',['../structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3',1,'MR::Parabola']]],
+  ['extremeedgetype_190',['ExtremeEdgeType',['../group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6',1,'MR']]],
+  ['extremval_191',['extremVal',['../structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d',1,'MR::Parabola']]],
+  ['extrude_192',['extrude',['../ExampleMeshExtrude.html',1,'Mesh extrude'],['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshExtrude.dox.py#autotoc_md80',1,'Prepare region to extrude']]]
 ];

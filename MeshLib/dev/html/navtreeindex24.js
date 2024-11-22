@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26":[6,0,1,0,12,270,6,3],
+"classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26":[6,0,2,0,1,255,6,3],
 "classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a":[6,0,1,0,12,270,43],
 "classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a":[6,0,2,0,1,255,43],
 "classMR_1_1ImGuiMenu.html#a3425b4fd87149a0b1038c2caf99fb4ab":[6,0,1,0,12,270,58],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a810c0bc5c84d12f69dbbdd1510c7ea20":[6,0,1,0,12,270,2,5],
 "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a810c0bc5c84d12f69dbbdd1510c7ea20":[6,0,2,0,1,255,2,5],
 "classMR_1_1InTreePathBuilder.html":[6,0,1,0,12,278],
-"classMR_1_1InTreePathBuilder.html":[6,0,2,0,1,263],
-"classMR_1_1InTreePathBuilder.html#a298a5dffe72dcebf92ad6ede0dbf9bd3":[6,0,1,0,12,278,1],
-"classMR_1_1InTreePathBuilder.html#a298a5dffe72dcebf92ad6ede0dbf9bd3":[6,0,2,0,1,263,1]
+"classMR_1_1InTreePathBuilder.html":[6,0,2,0,1,263]
 };

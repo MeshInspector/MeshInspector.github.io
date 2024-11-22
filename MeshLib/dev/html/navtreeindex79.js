@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1VariableEdgeTri.html":[6,0,1,0,12,683],
+"structMR_1_1VariableEdgeTri.html":[6,0,2,0,1,668],
+"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[6,0,1,0,12,683,0],
+"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[6,0,2,0,1,668,0],
 "structMR_1_1Vector2.html":[6,0,0,0,12,0],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[6,0,0,0,12,0,27],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[6,0,0,0,12,0,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1Viewport_1_1TriCornerColors.html#a4bb6813b4c01f5510e20837676efa7ae":[6,0,1,0,12,703,3,1],
 "structMR_1_1Viewport_1_1TriCornerColors.html#a4bb6813b4c01f5510e20837676efa7ae":[6,0,2,0,1,688,3,1],
 "structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[6,0,1,0,12,703,3,0],
-"structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[6,0,2,0,1,688,3,0],
-"structMR_1_1VolumeSegmentationParameters.html":[6,0,0,17,1,0],
-"structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[6,0,0,17,1,0,2],
-"structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[6,0,0,17,1,0,1],
-"structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[6,0,0,17,1,0,0]
+"structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[6,0,2,0,1,688,3,0]
 };

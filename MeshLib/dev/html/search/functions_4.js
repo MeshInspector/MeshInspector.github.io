@@ -79,11 +79,12 @@ var searchData=
   ['extendhole_76',['extendHole',['../group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121',1,'MR::extendHole(Mesh &amp;mesh, EdgeId a, const Plane3f &amp;plane, FaceBitSet *outNewFaces=nullptr)'],['../group__FillHoleGroup.html#ga067cc1eda81ae410fdf9299ca802738a',1,'MR::extendHole(Mesh &amp;mesh, EdgeId a, std::function&lt; Vector3f(const Vector3f &amp;)&gt; getVertPos, FaceBitSet *outNewFaces=nullptr)']]],
   ['extendtoinfinity_77',['extendToInfinity',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044',1,'MR::Features::Primitives::ConeSegment::extendToInfinity(bool negative) const'],['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9',1,'MR::Features::Primitives::ConeSegment::extendToInfinity() const']]],
   ['extractclosedloops_78',['extractClosedLoops',['../group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c',1,'MR::extractClosedLoops(const MeshTopology &amp;topology, EdgeBitSet &amp;edges)'],['../group__SurfacePathGroup.html#gaa78455fdb147a0790b3838d7d30344f0',1,'MR::extractClosedLoops(const MeshTopology &amp;topology, const std::vector&lt; EdgeId &gt; &amp;inEdges, EdgeBitSet *outNotLoopEdges=nullptr)']]],
-  ['extractisolines_79',['extractIsolines',['../namespaceMR.html#a0af750bc6c8661a8942e40aa5889bee9',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertMetric &amp;vertValues, const FaceBitSet *region=nullptr)'],['../namespaceMR.html#a815c41bea1eb6b764772db436cfc8bd7',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertScalars &amp;vertValues, float isoValue, const FaceBitSet *region=nullptr)']]],
-  ['extractlongestclosedloop_80',['extractLongestClosedLoop',['../group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2',1,'MR']]],
-  ['extractplanesections_81',['extractPlaneSections',['../namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e',1,'MR']]],
-  ['extractsectionsfrompolyline_82',['extractSectionsFromPolyline',['../namespaceMR.html#ae61b22dea9c3ed4deb8de8c933fc6a3c',1,'MR']]],
-  ['extractxyplanesections_83',['extractXYPlaneSections',['../namespaceMR.html#a27a7fa634079190a11f77bd562e05d60',1,'MR']]],
-  ['extremarg_84',['extremArg',['../structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3',1,'MR::Parabola']]],
-  ['extremval_85',['extremVal',['../structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d',1,'MR::Parabola']]]
+  ['extractintersectioncontours_79',['extractIntersectionContours',['../namespaceMR.html#a4d956c62b0c8514d3779ce5076b6b9ec',1,'MR']]],
+  ['extractisolines_80',['extractIsolines',['../namespaceMR.html#a0af750bc6c8661a8942e40aa5889bee9',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertMetric &amp;vertValues, const FaceBitSet *region=nullptr)'],['../namespaceMR.html#a815c41bea1eb6b764772db436cfc8bd7',1,'MR::extractIsolines(const MeshTopology &amp;topology, const VertScalars &amp;vertValues, float isoValue, const FaceBitSet *region=nullptr)']]],
+  ['extractlongestclosedloop_81',['extractLongestClosedLoop',['../group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2',1,'MR']]],
+  ['extractplanesections_82',['extractPlaneSections',['../namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e',1,'MR']]],
+  ['extractsectionsfrompolyline_83',['extractSectionsFromPolyline',['../namespaceMR.html#ae61b22dea9c3ed4deb8de8c933fc6a3c',1,'MR']]],
+  ['extractxyplanesections_84',['extractXYPlaneSections',['../namespaceMR.html#a27a7fa634079190a11f77bd562e05d60',1,'MR']]],
+  ['extremarg_85',['extremArg',['../structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3',1,'MR::Parabola']]],
+  ['extremval_86',['extremVal',['../structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d',1,'MR::Parabola']]]
 ];

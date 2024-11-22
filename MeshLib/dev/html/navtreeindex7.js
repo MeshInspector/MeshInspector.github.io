@@ -15,10 +15,11 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRIntersectionContour_8h.html":[6,0,3,0,0,2,3,133],
 "MRMesh_2MRIntersectionContour_8h.html#a2b8ccb3570748a421671351b81855a84":[6,0,3,0,0,2,3,133,1],
 "MRMesh_2MRIntersectionContour_8h.html#a33db1bd44d8ce26ccf47409cf59ace33":[6,0,3,0,0,2,3,133,3],
-"MRMesh_2MRIntersectionContour_8h.html#a63f651410ecabb9d18ecefb9abf54753":[6,0,3,0,0,2,3,133,5],
-"MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[6,0,3,0,0,2,3,133,4],
+"MRMesh_2MRIntersectionContour_8h.html#a4d956c62b0c8514d3779ce5076b6b9ec":[6,0,3,0,0,2,3,133,4],
+"MRMesh_2MRIntersectionContour_8h.html#a63f651410ecabb9d18ecefb9abf54753":[6,0,3,0,0,2,3,133,6],
+"MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[6,0,3,0,0,2,3,133,5],
 "MRMesh_2MRIntersectionContour_8h.html#a9f26ad2470dbd62255be7fc1cab2b503":[6,0,3,0,0,2,3,133,2],
-"MRMesh_2MRIntersectionContour_8h.html#afac751f311b648116a3a4afcd06a10c7":[6,0,3,0,0,2,3,133,6],
+"MRMesh_2MRIntersectionContour_8h.html#afac751f311b648116a3a4afcd06a10c7":[6,0,3,0,0,2,3,133,7],
 "MRMesh_2MRIntersectionContour_8h_source.html":[6,0,3,0,0,2,3,133],
 "MRMesh_2MRMakeSphereMesh_8h.html":[6,0,3,0,0,2,3,158],
 "MRMesh_2MRMakeSphereMesh_8h.html#a63679b306dbff600a8f7c5008a489d9d":[6,0,3,0,0,2,3,158,1],
@@ -28,6 +29,7 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRMatrix3_8h_source.html":[6,0,3,0,0,2,3,163],
 "MRMesh_2MRMeshBoolean_8h.html":[6,0,3,0,0,2,3,169],
 "MRMesh_2MRMeshBoolean_8h.html#a340e1cf21c250e9c7df4ebdf3c460ac3":[6,0,3,0,0,2,3,169,6],
+"MRMesh_2MRMeshBoolean_8h.html#a586964a314be3f9a427a3e0c8467d38f":[6,0,3,0,0,2,3,169,7],
 "MRMesh_2MRMeshBoolean_8h.html#a66f38e4f3f841eb185f26586e964da0d":[6,0,3,0,0,2,3,169,4],
 "MRMesh_2MRMeshBoolean_8h.html#af4cc0a870f29d514b767b1038b980a59":[6,0,3,0,0,2,3,169,5],
 "MRMesh_2MRMeshBoolean_8h_source.html":[6,0,3,0,0,2,3,169],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRMeshLoadObj_8h.html":[6,0,3,0,0,2,3,191],
 "MRMesh_2MRMeshLoadObj_8h_source.html":[6,0,3,0,0,2,3,191],
 "MRMesh_2MRMeshLoad_8h.html":[6,0,3,0,0,2,3,190],
-"MRMesh_2MRMeshLoad_8h.html#a09b7d6190d7b1f760a8974de6ad4b5ee":[6,0,3,0,0,2,3,190,32],
-"MRMesh_2MRMeshLoad_8h.html#a1406872d778370e6e79e2e38e335d838":[6,0,3,0,0,2,3,190,22],
-"MRMesh_2MRMeshLoad_8h.html#a1b8ac24b57e11fa07184f27066c90345":[6,0,3,0,0,2,3,190,24]
+"MRMesh_2MRMeshLoad_8h.html#a09b7d6190d7b1f760a8974de6ad4b5ee":[6,0,3,0,0,2,3,190,32]
 };

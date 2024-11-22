@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[6,0,1,0,12,248,2],
+"classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[6,0,2,0,1,233,2],
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[6,0,1,0,12,248,0],
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[6,0,2,0,1,233,0],
 "classMR_1_1Heap.html":[6,0,0,3,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[6,0,1,0,12,295,0,1],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[6,0,2,0,1,280,0,1],
 "classMR_1_1IViewerSettingsManager.html":[6,0,1,0,12,296],
-"classMR_1_1IViewerSettingsManager.html":[6,0,2,0,1,281],
-"classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,1,0,12,296,1],
-"classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,2,0,1,281,1]
+"classMR_1_1IViewerSettingsManager.html":[6,0,2,0,1,281]
 };
