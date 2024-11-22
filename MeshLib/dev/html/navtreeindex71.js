@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,2,0,1,13,0,1],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,1,0,12,23,1],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,2,0,1,13,1],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,1,0,12,23,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1PointsToMeshParameters.html#a72818af22d20fbdc8695061a8dd48c85":[6,0,2,0,1,443,5],
 "structMR_1_1PointsToMeshParameters.html#a79ea998979bc61c402e801d6a82b292d":[6,0,1,0,12,458,0],
 "structMR_1_1PointsToMeshParameters.html#a79ea998979bc61c402e801d6a82b292d":[6,0,2,0,1,443,0],
-"structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[6,0,1,0,12,458,3],
-"structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[6,0,2,0,1,443,3]
+"structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[6,0,1,0,12,458,3]
 };

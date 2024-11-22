@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1UI.html#afbf63021d04e94c878b093fd86fef43f":[6,0,1,0,12,37,21],
 "namespaceMR_1_1UI.html#afc1009af05439b78707e8372d21f9a87":[6,0,1,0,12,37,54],
 "namespaceMR_1_1UI.html#affdd9ce8585853bc545f4f60bda2611f":[6,0,1,0,12,37,24],
 "namespaceMR_1_1UI_1_1TestEngine.html":[6,0,1,0,12,37,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[6,0,2,0,18,3],
 "structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[6,0,2,0,18,0],
 "structMRGeneralOffsetParameters.html":[6,0,2,0,19],
-"structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,19,0],
-"structMRGeneralOffsetParameters.html#a97c106a0d08d33bd2ff6e5d627c4a3dc":[6,0,2,0,19,3]
+"structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,19,0]
 };

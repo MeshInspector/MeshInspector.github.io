@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[6,0,2,0,1,563,1],
 "classMR_1_1SelectObjectByClick.html":[6,0,1,0,12,583],
 "classMR_1_1SelectObjectByClick.html":[6,0,2,0,1,568],
 "classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[6,0,1,0,12,583,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204":[6,0,1,0,12,616,20],
 "classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204":[6,0,2,0,1,601,20],
 "classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[6,0,1,0,12,616,11],
-"classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[6,0,2,0,1,601,11],
-"classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c":[6,0,1,0,12,616,21]
+"classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[6,0,2,0,1,601,11]
 };

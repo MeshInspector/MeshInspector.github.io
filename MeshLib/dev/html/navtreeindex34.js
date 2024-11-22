@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html":[6,0,1,0,12,30,0,3],
 "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html":[6,0,2,0,1,18,0,3],
 "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html#a25cd4c097cab3308a09d7bed882d916f":[6,0,1,0,12,30,0,3,0],
 "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html#a25cd4c097cab3308a09d7bed882d916f":[6,0,2,0,1,18,0,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1RenderPointsObject.html#ad39fc2c9b30695ac78272431c20efe9e":[6,0,1,0,12,519,5],
 "classMR_1_1RenderPointsObject.html#ad39fc2c9b30695ac78272431c20efe9e":[6,0,2,0,1,504,5],
 "classMR_1_1RenderPointsObject.html#ae58d2cc13f9eff9285ade09909b14ec7":[6,0,1,0,12,519,3],
-"classMR_1_1RenderPointsObject.html#ae58d2cc13f9eff9285ade09909b14ec7":[6,0,2,0,1,504,3],
-"classMR_1_1RenderRadiusObject.html":[6,0,1,0,12,520]
+"classMR_1_1RenderPointsObject.html#ae58d2cc13f9eff9285ade09909b14ec7":[6,0,2,0,1,504,3]
 };
