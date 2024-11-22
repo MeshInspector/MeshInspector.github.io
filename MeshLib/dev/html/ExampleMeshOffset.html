@@ -154,6 +154,8 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRRegionBoundary_8h.html">MRMesh/MRRegionBoundary.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRVoxels_2MROffset_8h.html">MRVoxels/MROffset.h</a>&gt;</span></div>
 <div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Create mesh</span></div>
@@ -171,7 +173,7 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">    <span class="keyword">auto</span> meshRes = <a class="code hl_function" href="namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050">MR::generalOffsetMesh</a>( mesh, offset, params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshRes.has_value() )</div>
 <div class="line">    {</div>
-<div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; std::endl;</div>
+<div class="line">        std::cerr &lt;&lt; meshRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
