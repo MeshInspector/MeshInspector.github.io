@@ -156,6 +156,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga26c30f9854727f0939ed682d6715fb95" id="r_ga26c30f9854727f0939ed682d6715fb95"><td class="memTemplParams" colspan="2">template&lt;typename T , typename R  = T&gt; </td></tr>
 <tr class="memitem:ga26c30f9854727f0939ed682d6715fb95"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; R &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga26c30f9854727f0939ed682d6715fb95">MR::calcOrientedArea</a> (const <a class="el" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3</a>&lt; T &gt; &amp;contour)</td></tr>
 <tr class="separator:ga26c30f9854727f0939ed682d6715fb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0642fc9f0cb1e856cf09d3920b1b36f1" id="r_ga0642fc9f0cb1e856cf09d3920b1b36f1"><td class="memTemplParams" colspan="2">template&lt;typename V , typename R  = typename V::ValueType&gt; </td></tr>
+<tr class="memitem:ga0642fc9f0cb1e856cf09d3920b1b36f1"><td class="memTemplItemLeft" align="right" valign="top">R&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga0642fc9f0cb1e856cf09d3920b1b36f1">MR::calcLength</a> (const <a class="el" href="MRObjectLabel_8h.html#a1671b043728dec2b5c7e5446f1b8c97e">Contour</a>&lt; V &gt; &amp;contour)</td></tr>
+<tr class="separator:ga0642fc9f0cb1e856cf09d3920b1b36f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac3b20971251afd6dda8e73368a50fcd6" id="r_gac3b20971251afd6dda8e73368a50fcd6"><td class="memTemplParams" colspan="2">template&lt;typename To , typename From &gt; </td></tr>
 <tr class="memitem:gac3b20971251afd6dda8e73368a50fcd6"><td class="memTemplItemLeft" align="right" valign="top">To&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac3b20971251afd6dda8e73368a50fcd6">MR::copyContour</a> (const From &amp;from)</td></tr>
 <tr class="memdesc:gac3b20971251afd6dda8e73368a50fcd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy double-contour to float-contour, or vice versa  <br /></td></tr>
@@ -167,6 +170,31 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga0642fc9f0cb1e856cf09d3920b1b36f1" name="ga0642fc9f0cb1e856cf09d3920b1b36f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0642fc9f0cb1e856cf09d3920b1b36f1">&#9670;&#160;</a></span>calcLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V , typename R  = typename V::ValueType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">R MR::calcLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObjectLabel_8h.html#a1671b043728dec2b5c7e5446f1b8c97e">Contour</a>&lt; V &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns sum length of the given contour </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga63c4064b2101e045fff282197ff239c3" name="ga63c4064b2101e045fff282197ff239c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga63c4064b2101e045fff282197ff239c3">&#9670;&#160;</a></span>calcOrientedArea() <span class="overload">[1/2]</span></h2>
 

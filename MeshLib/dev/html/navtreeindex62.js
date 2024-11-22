@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[6,0,2,0,1,177,0,0],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[6,0,1,0,12,192,0,1],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[6,0,2,0,1,177,0,1],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#ad5e8720a5c82f4ea7340efebb072d1cd":[6,0,1,0,12,192,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aadc4bfd4025c567372583450899716ae":[6,0,1,0,12,6,0,0,2],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aadc4bfd4025c567372583450899716ae":[6,0,2,0,1,2,0,0,2],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#abf9a80b6307631742a88be4930217ef9":[6,0,1,0,12,6,0,0,15],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#abf9a80b6307631742a88be4930217ef9":[6,0,2,0,1,2,0,0,15],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ac00c1b10d86e8726d41cd48ce17c9ebf":[6,0,1,0,12,6,0,0,0]
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#abf9a80b6307631742a88be4930217ef9":[6,0,2,0,1,2,0,0,15]
 };

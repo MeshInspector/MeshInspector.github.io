@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,1,0,12,409,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,2,0,1,394,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,1,0,12,410],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,2,0,1,395],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1PdfParameters.html":[6,0,1,0,12,434],
 "structMR_1_1PdfParameters.html":[6,0,2,0,1,419],
 "structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,1,0,12,434,1],
-"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,2,0,1,419,1],
-"structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[6,0,1,0,12,434,0]
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,2,0,1,419,1]
 };

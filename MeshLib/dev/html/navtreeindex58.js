@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750":[6,0,2,0,24,0],
 "structMRMakeUVSphereParameters.html#aedc7390bb236cdc9cf5301bbe25ece8e":[6,0,2,0,24,1],
 "structMRMakeUVSphereParameters.html#af470017e8fbca8a02433a21aea67d8c1":[6,0,2,0,24,2],
 "structMRMatrix3f.html":[6,0,2,0,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[6,0,1,0,12,57,1],
 "structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[6,0,2,0,1,42,1],
 "structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,1,0,12,57,6],
-"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,2,0,1,42,6],
-"structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,1,0,12,57,11]
+"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,2,0,1,42,6]
 };

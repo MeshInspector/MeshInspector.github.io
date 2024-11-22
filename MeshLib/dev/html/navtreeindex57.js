@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1VoxelsLoad.html":[6,0,1,0,12,39],
 "namespaceMR_1_1VoxelsLoad.html#a191bfc170e935b4d3114da44095f93f5":[6,0,1,0,12,39,21],
 "namespaceMR_1_1VoxelsLoad.html#a3622b66edae8dfd63c281b78441dd22f":[6,0,1,0,12,39,19],
 "namespaceMR_1_1VoxelsLoad.html#a3f8eca6078fe5dee842e9a1aa87bf7c2":[6,0,1,0,12,39,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,23,2],
 "structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[6,0,2,0,23,3],
 "structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[6,0,2,0,23,1],
-"structMRMakeUVSphereParameters.html":[6,0,2,0,24],
-"structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750":[6,0,2,0,24,0]
+"structMRMakeUVSphereParameters.html":[6,0,2,0,24]
 };

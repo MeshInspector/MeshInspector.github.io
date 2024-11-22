@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1RayOrigin.html#aa0427aa4f82a36dda692826d18df40c9":[6,0,0,0,9,0,1],
 "structMR_1_1RebuildMeshSettings.html":[6,0,1,0,12,501],
 "structMR_1_1RebuildMeshSettings.html":[6,0,2,0,1,486],
 "structMR_1_1RebuildMeshSettings.html#a0181b2c8cfb6a6a1788807fd5b6a5d1c":[6,0,1,0,12,501,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1RigidScaleXf3.html#ac7250fbdfd02baf9936e263ed527779e":[6,0,2,0,1,535,7],
 "structMR_1_1RigidScaleXf3.html#acd29039623f95b68b2c1cdce22cdba76":[6,0,1,0,12,550,3],
 "structMR_1_1RigidScaleXf3.html#acd29039623f95b68b2c1cdce22cdba76":[6,0,2,0,1,535,3],
-"structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[6,0,1,0,12,550,6],
-"structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[6,0,2,0,1,535,6]
+"structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[6,0,1,0,12,550,6]
 };

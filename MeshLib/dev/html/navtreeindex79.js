@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1Vector3.html#a8ecb748650561c957b8b73afd24288cb":[6,0,0,0,12,1,2],
 "structMR_1_1Vector3.html#a91b0398c10d527ac2433b92451a3dfb8":[6,0,0,0,12,1,12],
 "structMR_1_1Vector3.html#a9b44af3c8a7c918cf88dac1811950e66":[6,0,0,0,12,1,9],
 "structMR_1_1Vector3.html#aa1b7f648b920d3afcfd29032b79ed8af":[6,0,0,0,12,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,0,2,0,1,24,2],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293":[6,0,1,0,12,39,2,2],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293":[6,0,2,0,1,24,2,2],
-"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de":[6,0,1,0,12,39,2,3],
-"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de":[6,0,2,0,1,24,2,3]
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de":[6,0,1,0,12,39,2,3]
 };

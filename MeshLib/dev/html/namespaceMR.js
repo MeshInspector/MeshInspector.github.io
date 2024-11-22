@@ -1525,6 +1525,7 @@ var namespaceMR =
     [ "calcDipoles", "namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260", null ],
     [ "calcFaceDistances", "namespaceMR.html#a8dc548516d8db27eba38a5a8bf158a02", null ],
     [ "calcFastWindingNumber", "namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0", null ],
+    [ "calcLength", "group__ContourGroup.html#ga0642fc9f0cb1e856cf09d3920b1b36f1", null ],
     [ "calcOrientedArea", "group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3", null ],
     [ "calcOrientedArea", "group__ContourGroup.html#ga26c30f9854727f0939ed682d6715fb95", null ],
     [ "calcOrientedArea", "group__SurfacePathGroup.html#ga643c38e76bdce5259ec5ad2f58826699", null ],
