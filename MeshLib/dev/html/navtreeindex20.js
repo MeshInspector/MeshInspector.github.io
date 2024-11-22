@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1FastWindingNumber.html#a19f0d9ad10214d87ac4fddc12fc56714":[6,0,0,1,13,2],
 "classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01":[6,0,0,1,13,5],
 "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07":[6,0,0,1,13,0],
 "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998":[6,0,0,1,13,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[6,0,1,0,12,233,5],
 "classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[6,0,2,0,1,218,5],
 "classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[6,0,1,0,12,233,6],
-"classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[6,0,2,0,1,218,6],
-"classMR_1_1FreeFormBestFit.html#a8ba45d03a34b8ab81b1d6ecbc6893453":[6,0,1,0,12,233,4]
+"classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[6,0,2,0,1,218,6]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6":[6,0,1,0,12,595,0,1],
+"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6":[6,0,2,0,1,580,0,1],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[6,0,1,0,12,595,0,3],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[6,0,2,0,1,580,0,3],
 "structMR_1_1Signal.html":[6,0,1,0,12,596],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SymMatrix3.html":[6,0,0,0,7,5],
 "structMR_1_1SymMatrix3.html#a2e918619ba379fad0f391438ef143b82":[6,0,0,0,7,5,3],
 "structMR_1_1SymMatrix3.html#a338177889f057fdb4fe9ad0781e40582":[6,0,0,0,7,5,17],
-"structMR_1_1SymMatrix3.html#a3e599d3e372090b50badd690e36aa677":[6,0,0,0,7,5,2],
-"structMR_1_1SymMatrix3.html#a49b04ca33ea170c1047b150bbc712509":[6,0,0,0,7,5,0],
-"structMR_1_1SymMatrix3.html#a58d4310ad87b99b94d1bea2f1059484b":[6,0,0,0,7,5,12]
+"structMR_1_1SymMatrix3.html#a3e599d3e372090b50badd690e36aa677":[6,0,0,0,7,5,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[6,0,1,0,12,248,0],
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[6,0,2,0,1,233,0],
 "classMR_1_1Heap.html":[6,0,0,3,7],
 "classMR_1_1Heap.html#a1f246bfe3c0676ad56a521a5b696d195":[6,0,0,3,7,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1IViewerSettingsManager.html":[6,0,1,0,12,296],
 "classMR_1_1IViewerSettingsManager.html":[6,0,2,0,1,281],
 "classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,1,0,12,296,1],
-"classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,2,0,1,281,1],
-"classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665":[6,0,1,0,12,296,0]
+"classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,2,0,1,281,1]
 };

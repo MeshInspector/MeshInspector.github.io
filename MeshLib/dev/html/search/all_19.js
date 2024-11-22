@@ -33,7 +33,7 @@ var searchData=
   ['varunittostringparams_30',['VarUnitToStringParams',['../namespaceMR.html#afcac7cfa63a119745d66e8d1de48b084',1,'MR']]],
   ['varvdbvolume_31',['varVdbVolume',['../classMR_1_1ObjectVoxels.html#a10fd8457c5eafb626b75de39437e545a',1,'MR::ObjectVoxels']]],
   ['vcolors_32',['vColors',['../structMR_1_1PointsToMeshParameters.html#a72818af22d20fbdc8695061a8dd48c85',1,'MR::PointsToMeshParameters']]],
-  ['vdbvolume_33',['vdbVolume',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e',1,'MR::VoxelsLoad::LoadDCMResult::vdbVolume'],['../classMR_1_1ObjectVoxels.html#a40a8a10a59c84f407f0b8cbdec7bedb1',1,'MR::ObjectVoxels::vdbVolume()']]],
+  ['vdbvolume_33',['vdbVolume',['../structMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#a80f2234349d21b37518642c3b731a564',1,'MR::VoxelsLoad::DicomVolumeAsVdb::vdbVolume'],['../classMR_1_1ObjectVoxels.html#a40a8a10a59c84f407f0b8cbdec7bedb1',1,'MR::ObjectVoxels::vdbVolume()']]],
   ['vdbvolumetosimplevolume_34',['vdbVolumeToSimpleVolume',['../namespaceMR.html#a0d8e39754438588fbde8b091279db752',1,'MR']]],
   ['vdbvolumetosimplevolumenorm_35',['vdbVolumeToSimpleVolumeNorm',['../namespaceMR.html#a7c6e921b59b28810967128b1e54c4a51',1,'MR']]],
   ['vdbvolumetosimplevolumeu16_36',['vdbVolumeToSimpleVolumeU16',['../namespaceMR.html#a2d250c00f768edc4ac0ae283ac571ba4',1,'MR']]],

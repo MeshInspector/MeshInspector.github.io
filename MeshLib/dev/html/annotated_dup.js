@@ -192,7 +192,7 @@ var annotated_dup =
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
         [ "DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", "structMR_1_1VoxelsLoad_1_1DicomVolume" ],
-        [ "LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", "structMR_1_1VoxelsLoad_1_1LoadDCMResult" ],
+        [ "DicomVolumeAsVdb", "structMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" ],
         [ "LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
         [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ]
       ] ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMRGeneralOffsetParameters.html":[6,0,2,0,19],
+"structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,19,0],
 "structMRGeneralOffsetParameters.html#a97c106a0d08d33bd2ff6e5d627c4a3dc":[6,0,2,0,19,3],
 "structMRGeneralOffsetParameters.html#ad25e50ec04b42c4e5ad4082003a5c60f":[6,0,2,0,19,4],
 "structMRGeneralOffsetParameters.html#ad804797bf1bd45935796bb4ff70ea6b0":[6,0,2,0,19,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1AncillaryLines.html#a94079e1bc86fd3a8d3d88ef85a35e727":[6,0,2,0,1,40,7],
 "structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[6,0,1,0,12,55,2],
 "structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[6,0,2,0,1,40,2],
-"structMR_1_1AncillaryLines.html#a9c8cc96eaa02c4f366a99354fc621c6d":[6,0,1,0,12,55,9],
-"structMR_1_1AncillaryLines.html#a9c8cc96eaa02c4f366a99354fc621c6d":[6,0,2,0,1,40,9],
-"structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,1,0,12,55,4]
+"structMR_1_1AncillaryLines.html#a9c8cc96eaa02c4f366a99354fc621c6d":[6,0,1,0,12,55,9]
 };
