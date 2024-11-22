@@ -418,9 +418,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a726a27c8dbdef71902d1031424bea5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973baf90b80dc2696bc083577727d4fc" id="r_a973baf90b80dc2696bc083577727d4fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973baf90b80dc2696bc083577727d4fc">projectPoint</a> (const Vector3f &amp;point, <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
 <tr class="separator:a973baf90b80dc2696bc083577727d4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b35787713d43cba7a9e486296170bd1" id="r_a6b35787713d43cba7a9e486296170bd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b35787713d43cba7a9e486296170bd1">findClosestPoint</a> (const Vector3f &amp;point, <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
+<tr class="separator:a6b35787713d43cba7a9e486296170bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a481d355dcb64efa6d98bf8cf8fac6e" id="r_a1a481d355dcb64efa6d98bf8cf8fac6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a481d355dcb64efa6d98bf8cf8fac6e">projectPoint</a> (const Vector3f &amp;point, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
-<tr class="memdesc:a1a481d355dcb64efa6d98bf8cf8fac6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version returns optional without value instead of false  <br /></td></tr>
 <tr class="separator:a1a481d355dcb64efa6d98bf8cf8fac6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f5c45d387fbc95682d09935fb2893d" id="r_a87f5c45d387fbc95682d09935fb2893d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87f5c45d387fbc95682d09935fb2893d">findClosestPoint</a> (const Vector3f &amp;point, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
+<tr class="separator:a87f5c45d387fbc95682d09935fb2893d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1684c253364cffbe817aebd50bdf711f" id="r_a1684c253364cffbe817aebd50bdf711f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1684c253364cffbe817aebd50bdf711f">getAABBTree</a> () const</td></tr>
 <tr class="memdesc:a1684c253364cffbe817aebd50bdf711f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner  <br /></td></tr>
 <tr class="separator:a1684c253364cffbe817aebd50bdf711f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1729,6 +1732,89 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 </div><div class="memdoc">
 
 <p>computes average position of all valid mesh vertices </p>
+
+</div>
+</div>
+<a id="a87f5c45d387fbc95682d09935fb2893d" name="a87f5c45d387fbc95682d09935fb2893d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87f5c45d387fbc95682d09935fb2893d">&#9670;&#160;</a></span>findClosestPoint() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; MR::Mesh::findClosestPoint </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistSq</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FLT_MAX</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b35787713d43cba7a9e486296170bd1" name="a6b35787713d43cba7a9e486296170bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b35787713d43cba7a9e486296170bd1">&#9670;&#160;</a></span>findClosestPoint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Mesh::findClosestPoint </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistSq</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FLT_MAX</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3045,8 +3131,15 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>this version returns optional without value instead of false </p>
+<p>finds the closest mesh point on this mesh (or its region) to given point; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point</td><td>source location to look the closest to </td></tr>
+    <tr><td class="paramname">maxDistSq</td><td>search only in the ball with sqrt(maxDistSq) radius around given point, smaller value here increases performance </td></tr>
+    <tr><td class="paramname">xf</td><td>is mesh-to-point transformation, if not specified then identity transformation is assumed and works much faster; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>found closest point including Euclidean coordinates, barycentric coordinates, FaceId and squared distance to point or std::nullopt if no mesh point is found in the ball with sqrt(maxDistSq) radius around given point </dd></dl>
 
 </div>
 </div>
@@ -3091,7 +3184,16 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   </tr>
 </table>
 </div><div class="memdoc">
-<p>finds closest point on this mesh (or its region) to given point; xf is mesh-to-point transformation, if not specified then identity transformation is assumed </p>
+<p>finds the closest mesh point on this mesh (or its region) to given point; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point</td><td>source location to look the closest to </td></tr>
+    <tr><td class="paramname">res</td><td>found closest point including Euclidean coordinates, barycentric coordinates, FaceId and squared distance to point </td></tr>
+    <tr><td class="paramname">maxDistSq</td><td>search only in the ball with sqrt(maxDistSq) radius around given point, smaller value here increases performance </td></tr>
+    <tr><td class="paramname">xf</td><td>is mesh-to-point transformation, if not specified then identity transformation is assumed and works much faster; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if no mesh point is found in the ball with sqrt(maxDistSq) radius around given point </dd></dl>
 
 </div>
 </div>
@@ -3136,7 +3238,16 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   </tr>
 </table>
 </div><div class="memdoc">
-<p>finds closest point on this mesh (or its region) to given point; xf is mesh-to-point transformation, if not specified then identity transformation is assumed </p>
+<p>finds the closest mesh point on this mesh (or its region) to given point; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point</td><td>source location to look the closest to </td></tr>
+    <tr><td class="paramname">res</td><td>found closest point including Euclidean coordinates and FaceId </td></tr>
+    <tr><td class="paramname">maxDistSq</td><td>search only in the ball with sqrt(maxDistSq) radius around given point, smaller value here increases performance </td></tr>
+    <tr><td class="paramname">xf</td><td>is mesh-to-point transformation, if not specified then identity transformation is assumed and works much faster; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if no mesh point is found in the ball with sqrt(maxDistSq) radius around given point </dd></dl>
 
 </div>
 </div>

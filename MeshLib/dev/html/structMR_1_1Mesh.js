@@ -44,6 +44,8 @@ var structMR_1_1Mesh =
     [ "findCenterFromBBox", "structMR_1_1Mesh.html#a7ef2784fa43035776fad3e85ac252642", null ],
     [ "findCenterFromFaces", "structMR_1_1Mesh.html#a1576164a9505c9f8c28e16dc288bcca9", null ],
     [ "findCenterFromPoints", "structMR_1_1Mesh.html#a4cf526a36b567b3e072c3aa70d628ee2", null ],
+    [ "findClosestPoint", "structMR_1_1Mesh.html#a87f5c45d387fbc95682d09935fb2893d", null ],
+    [ "findClosestPoint", "structMR_1_1Mesh.html#a6b35787713d43cba7a9e486296170bd1", null ],
     [ "findCreaseEdges", "structMR_1_1Mesh.html#a3597555fee6f4964fe1689b0643f7f83", null ],
     [ "findSpikeVertices", "structMR_1_1Mesh.html#a63974f1e9e91aec82c60fc776f51ea7b", null ],
     [ "getAABBTree", "structMR_1_1Mesh.html#a1684c253364cffbe817aebd50bdf711f", null ],
