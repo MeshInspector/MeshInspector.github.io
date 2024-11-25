@@ -57,7 +57,7 @@ var classMR_1_1Object =
     [ "select", "classMR_1_1Object.html#a989bd3b98218be00c001e3ee8cb77334", null ],
     [ "serializeFields_", "classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35", null ],
     [ "serializeModel_", "classMR_1_1Object.html#a7bf17e9cdecb511570759169e86bf0e2", null ],
-    [ "serializeRecursive", "classMR_1_1Object.html#a733f8be0bd3945abc03bfba86b7f042f", null ],
+    [ "serializeRecursive", "classMR_1_1Object.html#a9585a709b1b7bd6d35276d099afd0079", null ],
     [ "setAncillary", "classMR_1_1Object.html#a3758df5e3fe75f83c0449e77770961b3", null ],
     [ "setGlobalVisibility", "classMR_1_1Object.html#af61964cafaa7f98e2b14f89fed277368", null ],
     [ "setLocked", "classMR_1_1Object.html#ac427b5b1a99a87eac1305683801fc850", null ],
