@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[6,0,2,0,1,173,1],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[6,0,1,0,12,188,1,2],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[6,0,2,0,1,173,1,2],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff":[6,0,1,0,12,188,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,1,0,12,6,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,2,0,1,2,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,1,0,12,6,2,0,7],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,2,0,1,2,2,0,7],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[6,0,1,0,12,6,2,1]
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,2,0,1,2,2,0,7]
 };

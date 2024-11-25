@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"group__TriangleIntersectionGroup.html#gaff70eb7ab1db8fd3d414cc2e6e9d4d67":[6,0,0,0,10,10],
 "group__TriangulationHelpersGroup.html":[6,0,0,13,0],
 "group__TriangulationHelpersGroup.html#ga1b730fbcddd0678ad119e9abc6d797c0":[6,0,0,13,0,2],
 "group__TriangulationHelpersGroup.html#ga239d61601b826c9241ca50d59821b545":[6,0,0,13,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "namespaceMR.html#a0cc9f139078c5c5597f9bb7465fd7fda":[6,0,1,0,12,799],
 "namespaceMR.html#a0ce9bf70afa23e6d6ac9a65c5bf19cf3":[6,0,1,0,12,827],
 "namespaceMR.html#a0d8e39754438588fbde8b091279db752":[6,0,1,0,12,2200],
-"namespaceMR.html#a0d986d210124a86a1e5a8a4b4b25e3da":[6,0,1,0,12,1120],
-"namespaceMR.html#a0d9e3b8996c4a924319accda1afc4afe":[6,0,1,0,12,1821]
+"namespaceMR.html#a0d986d210124a86a1e5a8a4b4b25e3da":[6,0,1,0,12,1120]
 };

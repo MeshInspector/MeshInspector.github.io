@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRProgressBar_8h.html":[6,0,3,0,0,2,9,55],
 "MRProgressBar_8h_source.html":[6,0,3,0,0,2,9,55],
 "MRProgressCallback_8h.html":[6,0,3,0,0,2,3,284],
 "MRProgressCallback_8h.html#a135674a0320e958c28f73bb6c608cd54":[6,0,3,0,0,2,3,284,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRRingIterator_8h.html#ab1ba9bf4b9468525f62bc98e2160eb1f":[6,0,3,0,0,2,3,301,5],
 "MRRingIterator_8h.html#ab302d013b154c9d7f02b52fa128806af":[6,0,3,0,0,2,3,301,10],
 "MRRingIterator_8h.html#ac0fbbb1a0891fb178057f88b2bb392ff":[6,0,3,0,0,2,3,301,12],
-"MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3":[6,0,3,0,0,2,3,301,3],
-"MRRingIterator_8h.html#aee44286b022aaaa8435db2725e448b38":[6,0,3,0,0,2,3,301,11]
+"MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3":[6,0,3,0,0,2,3,301,3]
 };

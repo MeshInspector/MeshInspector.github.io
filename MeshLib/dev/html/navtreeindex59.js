@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1AncillaryLines.html#a94079e1bc86fd3a8d3d88ef85a35e727":[6,0,1,0,12,55,7],
 "structMR_1_1AncillaryLines.html#a94079e1bc86fd3a8d3d88ef85a35e727":[6,0,2,0,1,40,7],
 "structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[6,0,1,0,12,55,2],
 "structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[6,0,2,0,1,40,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,2,0,1,66,0,3],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,1,0,12,81,0,0],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,2,0,1,66,0,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a7cc2969f192dc2c210907527c55accf7":[6,0,1,0,12,81,0,2],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a7cc2969f192dc2c210907527c55accf7":[6,0,2,0,1,66,0,2]
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a7cc2969f192dc2c210907527c55accf7":[6,0,1,0,12,81,0,2]
 };

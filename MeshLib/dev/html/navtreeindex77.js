@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,2,0,1,636],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,1,0,12,651,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,2,0,1,636,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,1,0,12,651,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,2,0,1,23,4,0],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,1,0,12,37,5,2],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,2,0,1,23,4,2],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,1,0,12,37,5,1],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,2,0,1,23,4,1]
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,1,0,12,37,5,1]
 };

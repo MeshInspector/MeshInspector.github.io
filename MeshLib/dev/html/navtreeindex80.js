@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[6,0,2,0,1,688,3,0],
 "structMR_1_1VolumeSegmentationParameters.html":[6,0,0,17,1,0],
 "structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[6,0,0,17,1,0,2],
 "structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[6,0,0,17,1,0,1],
