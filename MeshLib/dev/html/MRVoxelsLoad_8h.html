@@ -156,6 +156,7 @@ $(function(){initNavTree('MRVoxelsLoad_8h.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="MRVoxelsVolume_8h_source.html">MRVoxelsVolume.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFormatsRegistry_8h_source.html">MRMesh/MRIOFormatsRegistry.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRObject_8h_source.html">MRMesh/MRObject.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="MRLoadedObjects_8h_source.html">MRMesh/MRLoadedObjects.h</a>&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 </div>
 <p><a href="MRVoxelsLoad_8h_source.html">Go to the source code of this file.</a></p>
@@ -216,8 +217,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a771ff6491d2acec943253070393ce902" id="r_a771ff6491d2acec943253070393ce902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a771ff6491d2acec943253070393ce902">MR::makeObjectVoxelsFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:a771ff6491d2acec943253070393ce902"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads voxels from given file in new object  <br /></td></tr>
 <tr class="separator:a771ff6491d2acec943253070393ce902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d9403beb37d9dc82330f74b626cf888" id="r_a1d9403beb37d9dc82330f74b626cf888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1d9403beb37d9dc82330f74b626cf888">MR::makeObjectFromVoxelsFile</a> (const std::filesystem::path &amp;file, std::string *warnings=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:a1d9403beb37d9dc82330f74b626cf888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3312390052a5a2d862b167edc9e773b3" id="r_a3312390052a5a2d862b167edc9e773b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObjects.html">LoadedObjects</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3312390052a5a2d862b167edc9e773b3">MR::makeObjectFromVoxelsFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="separator:a3312390052a5a2d862b167edc9e773b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

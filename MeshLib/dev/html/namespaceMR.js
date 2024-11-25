@@ -1,8 +1,8 @@
 var namespaceMR =
 [
     [ "AsyncObjectLoad", "namespaceMR_1_1AsyncObjectLoad.html", [
-      [ "ObjectLoader", "namespaceMR_1_1AsyncObjectLoad.html#ad338a3fc854675170439571c2152b4ae", null ],
-      [ "PostLoadCallback", "namespaceMR_1_1AsyncObjectLoad.html#abfe756d68eeb3e7fadcfd946d864db91", null ]
+      [ "ObjectLoader", "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507", null ],
+      [ "PostLoadCallback", "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d", null ]
     ] ],
     [ "BitSetParallel", "namespaceMR_1_1BitSetParallel.html", [
       [ "bitRange", "namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c", null ],
@@ -69,7 +69,7 @@ var namespaceMR =
     [ "MeshSave", "namespaceMR_1_1MeshSave.html", "namespaceMR_1_1MeshSave" ],
     [ "Meta", "namespaceMR_1_1Meta.html", "namespaceMR_1_1Meta" ],
     [ "ObjectLoad", "namespaceMR_1_1ObjectLoad.html", [
-      [ "ObjectLoader", "namespaceMR_1_1ObjectLoad.html#a6e395df76667e65feb47ca27d6130b3c", null ]
+      [ "ObjectLoader", "namespaceMR_1_1ObjectLoad.html#a19c3bb2545005ca4c70a6243f3fd7a21", null ]
     ] ],
     [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
       [ "ObjectSaver", "namespaceMR_1_1ObjectSave.html#a101d2a9f563eb1680e3beb04c22908c6", null ],
@@ -390,6 +390,7 @@ var namespaceMR =
     [ "LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", "structMR_1_1LineInterpolationParams" ],
     [ "LineObject", "classMR_1_1LineObject.html", "classMR_1_1LineObject" ],
     [ "LineSegm", "structMR_1_1LineSegm.html", "structMR_1_1LineSegm" ],
+    [ "LoadedObjects", "structMR_1_1LoadedObjects.html", "structMR_1_1LoadedObjects" ],
     [ "Logger", "classMR_1_1Logger.html", "classMR_1_1Logger" ],
     [ "LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", "classMR_1_1LoggingStreambuf" ],
     [ "MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", "structMR_1_1MakeDegenerateBandAroundRegionParams" ],
@@ -2130,7 +2131,7 @@ var namespaceMR =
     [ "loadMRViewerDll", "namespaceMR.html#a03d769eae4675e20e6b50c3fddaf8eba", null ],
     [ "loadObj", "namespaceMR.html#aefa8cc72d40c3101924ef4334f38e04c", null ],
     [ "loadObj", "namespaceMR.html#aaa4284aee33e29c07b282ee973a90f76", null ],
-    [ "loadObjectFromFile", "namespaceMR.html#a241875d4b829c640b1806ea5bc3c9a62", null ],
+    [ "loadObjectFromFile", "namespaceMR.html#a01ad9a53501f3ed7609ba0a65b9ff422", null ],
     [ "loadOff", "namespaceMR.html#ab0e186408c8f133c0c8458decb6f2edb", null ],
     [ "loadOff", "namespaceMR.html#a33a202fa44283786103ea436b5804fe8", null ],
     [ "loadPly", "namespaceMR.html#a09b7d6190d7b1f760a8974de6ad4b5ee", null ],
@@ -2166,7 +2167,7 @@ var namespaceMR =
     [ "makeObjectFromClassName", "namespaceMR.html#ae69d6d886eeae936d8c70e983d245cd5", null ],
     [ "makeObjectFromEnum", "namespaceMR.html#aa21f89f30d57138088912b6cf0d2215e", null ],
     [ "makeObjectFromMeshFile", "namespaceMR.html#a7d0fbed195d4e1b92d7f9bd80f5f15d3", null ],
-    [ "makeObjectFromVoxelsFile", "namespaceMR.html#a1d9403beb37d9dc82330f74b626cf888", null ],
+    [ "makeObjectFromVoxelsFile", "namespaceMR.html#a3312390052a5a2d862b167edc9e773b3", null ],
     [ "makeObjectGcodeFromFile", "namespaceMR.html#a9e5093d4aabe18b3b177676bed2f1832", null ],
     [ "makeObjectLinesFromFile", "namespaceMR.html#a49f50b3f8a8b62d1de7af24264eac759", null ],
     [ "makeObjectMeshFromFile", "namespaceMR.html#aeecb856fc34ef6ac55743bccc94b41ce", null ],

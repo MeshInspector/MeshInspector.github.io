@@ -3,7 +3,7 @@ var MRObjectLoad_8h =
     [ "deserializeObjectTree", "MRObjectLoad_8h.html#a4043b5c1dadd14c81e7aa228d8dcdb62", null ],
     [ "deserializeObjectTreeFromFolder", "MRObjectLoad_8h.html#a687c1818acf6f0e7b43997d04a94eddf", null ],
     [ "isSupportedFileInSubfolders", "MRObjectLoad_8h.html#aa2082792bceb5a2dd3b18ff5693f0441", null ],
-    [ "loadObjectFromFile", "MRObjectLoad_8h.html#a241875d4b829c640b1806ea5bc3c9a62", null ],
+    [ "loadObjectFromFile", "MRObjectLoad_8h.html#a01ad9a53501f3ed7609ba0a65b9ff422", null ],
     [ "loadSceneFromAnySupportedFormat", "MRObjectLoad_8h.html#ae2cbd939f46f10489210e5b80b10b540", null ],
     [ "makeObjectDistanceMapFromFile", "MRObjectLoad_8h.html#a6db28aaf4d28c32688ee3fbe07c2cd69", null ],
     [ "makeObjectFromMeshFile", "MRObjectLoad_8h.html#a7d0fbed195d4e1b92d7f9bd80f5f15d3", null ],

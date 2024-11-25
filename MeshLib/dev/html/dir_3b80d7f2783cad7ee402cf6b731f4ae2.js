@@ -153,6 +153,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRLineSegm3.h", "MRLineSegm3_8h.html", null ],
     [ "MRLinesLoad.h", "MRLinesLoad_8h.html", "MRLinesLoad_8h" ],
     [ "MRLinesSave.h", "MRLinesSave_8h.html", "MRLinesSave_8h" ],
+    [ "MRLoadedObjects.h", "MRLoadedObjects_8h.html", "MRLoadedObjects_8h" ],
     [ "MRLocalTriangulations.h", "MRLocalTriangulations_8h.html", "MRLocalTriangulations_8h" ],
     [ "MRLog.h", "MRLog_8h.html", null ],
     [ "MRMacros.h", "MRMacros_8h.html", "MRMacros_8h" ],

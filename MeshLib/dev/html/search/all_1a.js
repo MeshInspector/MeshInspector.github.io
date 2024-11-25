@@ -4,7 +4,7 @@ var searchData=
   ['waitblocking_1',['waitBlocking',['../classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44',1,'MR::AsyncTimer']]],
   ['warning_2',['Warning',['../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'MR']]],
   ['warning_3',['warning',['../structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e',1,'MR::GcodeProcessor::BaseAction']]],
-  ['warnings_4',['warnings',['../structMR_1_1MeshLoadInfo.html#a256d5e1bb1c47b9f0c30d2d9ff67f363',1,'MR::MeshLoadInfo']]],
+  ['warnings_4',['warnings',['../structMR_1_1LoadedObjects.html#a4a78ecdda3d1b42586d0d6e6e6e6bd0e',1,'MR::LoadedObjects::warnings'],['../structMR_1_1MeshLoadInfo.html#a256d5e1bb1c47b9f0c30d2d9ff67f363',1,'MR::MeshLoadInfo::warnings']]],
   ['warningsummary_5',['warningSummary',['../structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49',1,'MR::SceneLoad::SceneLoadResult']]],
   ['wasinterrupted_6',['wasInterrupted',['../structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e',1,'MR::ProgressInterrupter']]],
   ['watershedgraph_7',['WatershedGraph',['../classMR_1_1WatershedGraph.html',1,'MR::WatershedGraph'],['../classMR_1_1WatershedGraph.html#acbb29b2acc410b0a58645c023d793842',1,'MR::WatershedGraph::WatershedGraph()']]],

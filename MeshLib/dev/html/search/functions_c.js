@@ -36,7 +36,7 @@ var searchData=
   ['makeobjectfromclassname_33',['makeObjectFromClassName',['../namespaceMR.html#ae69d6d886eeae936d8c70e983d245cd5',1,'MR']]],
   ['makeobjectfromenum_34',['makeObjectFromEnum',['../namespaceMR.html#aa21f89f30d57138088912b6cf0d2215e',1,'MR']]],
   ['makeobjectfrommeshfile_35',['makeObjectFromMeshFile',['../namespaceMR.html#a7d0fbed195d4e1b92d7f9bd80f5f15d3',1,'MR']]],
-  ['makeobjectfromvoxelsfile_36',['makeObjectFromVoxelsFile',['../namespaceMR.html#a1d9403beb37d9dc82330f74b626cf888',1,'MR']]],
+  ['makeobjectfromvoxelsfile_36',['makeObjectFromVoxelsFile',['../namespaceMR.html#a3312390052a5a2d862b167edc9e773b3',1,'MR']]],
   ['makeobjectgcodefromfile_37',['makeObjectGcodeFromFile',['../namespaceMR.html#a9e5093d4aabe18b3b177676bed2f1832',1,'MR']]],
   ['makeobjectlinesfromfile_38',['makeObjectLinesFromFile',['../namespaceMR.html#a49f50b3f8a8b62d1de7af24264eac759',1,'MR']]],
   ['makeobjectmeshfromfile_39',['makeObjectMeshFromFile',['../namespaceMR.html#aeecb856fc34ef6ac55743bccc94b41ce',1,'MR']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMRFillHoleNicelyParams.html#af7f128fdb0b8ea8d308549a2112b4a02":[6,0,2,0,15,0],
+"structMRFillHoleParams.html":[6,0,2,0,16],
 "structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[6,0,2,0,16,5],
 "structMRFillHoleParams.html#a9f8cc59be22f24be20c9418d76f985be":[6,0,2,0,16,1],
 "structMRFillHoleParams.html#ab744cac77f9f46540cf1d4ae89c098fe":[6,0,2,0,16,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,2,0,1,39,10],
 "structMR_1_1AncillaryLabel.html#ac560be709f4aefe2438e9ac458b9983b":[6,0,1,0,12,54,1],
 "structMR_1_1AncillaryLabel.html#ac560be709f4aefe2438e9ac458b9983b":[6,0,2,0,1,39,1],
-"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,1,0,12,54,3],
-"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,2,0,1,39,3],
-"structMR_1_1AncillaryLabel.html#adc7088401a069525f6737c1000f4dbfa":[6,0,1,0,12,54,7]
+"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,1,0,12,54,3]
 };

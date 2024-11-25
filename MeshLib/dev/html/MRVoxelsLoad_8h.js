@@ -15,6 +15,6 @@ var MRVoxelsLoad_8h =
     [ "fromRaw", "MRVoxelsLoad_8h.html#ga603131e52dfc2ce8aa33d3a0d0028878", null ],
     [ "fromVdb", "MRVoxelsLoad_8h.html#gae5828d9a431d4b30b9d90a66a7fa0e9d", null ],
     [ "loadTiffDir", "MRVoxelsLoad_8h.html#a44442bb9fb78ce9c9668e928460258b9", null ],
-    [ "makeObjectFromVoxelsFile", "MRVoxelsLoad_8h.html#a1d9403beb37d9dc82330f74b626cf888", null ],
+    [ "makeObjectFromVoxelsFile", "MRVoxelsLoad_8h.html#a3312390052a5a2d862b167edc9e773b3", null ],
     [ "makeObjectVoxelsFromFile", "MRVoxelsLoad_8h.html#a771ff6491d2acec943253070393ce902", null ]
 ];

@@ -466,6 +466,7 @@ var annotated_dup =
       [ "LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", "structMR_1_1LineInterpolationParams" ],
       [ "LineObject", "classMR_1_1LineObject.html", "classMR_1_1LineObject" ],
       [ "LineSegm", "structMR_1_1LineSegm.html", "structMR_1_1LineSegm" ],
+      [ "LoadedObjects", "structMR_1_1LoadedObjects.html", "structMR_1_1LoadedObjects" ],
       [ "Logger", "classMR_1_1Logger.html", "classMR_1_1Logger" ],
       [ "LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", "classMR_1_1LoggingStreambuf" ],
       [ "MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", "structMR_1_1MakeDegenerateBandAroundRegionParams" ],

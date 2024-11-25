@@ -155,6 +155,7 @@ $(function(){initNavTree('MRMesh_2MRMeshLoadObj_8h.html',''); initResizable(true
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshLoadSettings_8h_source.html">MRMeshLoadSettings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAffineXf3_8h_source.html">MRAffineXf3.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRLoadedObjects_8h_source.html">MRLoadedObjects.h</a>&quot;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;istream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -184,8 +185,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga0a0e35247ea58005627d346e49a5de82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga11ad7be5532b39f13f4f6df8f2b49fe7" id="r_ga11ad7be5532b39f13f4f6df8f2b49fe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1MeshLoad_1_1NamedMesh.html">NamedMesh</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshLoadObjGroup.html#ga11ad7be5532b39f13f4f6df8f2b49fe7">MR::MeshLoad::fromSceneObjFile</a> (const char *data, size_t <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool combineAllObjects, const std::filesystem::path &amp;dir, const <a class="el" href="structMR_1_1MeshLoad_1_1ObjLoadSettings.html">ObjLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:ga11ad7be5532b39f13f4f6df8f2b49fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8e008bfae184fe362412c719d4883aa2" id="r_ga8e008bfae184fe362412c719d4883aa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshLoadObjGroup.html#ga8e008bfae184fe362412c719d4883aa2">MR::MeshLoad::loadObjectFromObj</a> (const std::filesystem::path &amp;results, std::string *warnings=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="separator:ga8e008bfae184fe362412c719d4883aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae5d6ebb9bff1143f8f529031d34001f2" id="r_gae5d6ebb9bff1143f8f529031d34001f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObjects.html">LoadedObjects</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshLoadObjGroup.html#gae5d6ebb9bff1143f8f529031d34001f2">MR::MeshLoad::loadObjectFromObj</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:gae5d6ebb9bff1143f8f529031d34001f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads all objects from .OBJ file  <br /></td></tr>
+<tr class="separator:gae5d6ebb9bff1143f8f529031d34001f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
