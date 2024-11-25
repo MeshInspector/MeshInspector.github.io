@@ -57,7 +57,7 @@ var searchData=
   ['numholes_5f_54',['numHoles_',['../classMR_1_1ObjectMeshHolder.html#a1f8f8cc0499cdafeb2d13bf4cc596002',1,'MR::ObjectMeshHolder']]],
   ['numiters_55',['numIters',['../structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5',1,'MR::ImproveSamplingSettings::numIters'],['../structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5',1,'MR::SpacingSettings::numIters']]],
   ['nummeshvertices_56',['numMeshVertices',['../structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95',1,'MR::SphereParams::numMeshVertices'],['../structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739',1,'MRSphereParams::numMeshVertices']]],
-  ['numneighbours_57',['numNeighbours',['../structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707',1,'MR::TriangulationParameters']]],
+  ['numneighbours_57',['numNeighbours',['../structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707',1,'MR::TriangulationParameters::numNeighbours'],['../structMRTriangulationParameters.html#aabbfe3baa67992675fc7a023186160c3',1,'MRTriangulationParameters::numNeighbours']]],
   ['numneis_58',['numNeis',['../structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7',1,'MR::TriangulationHelpers::Settings']]],
   ['numregions_59',['numRegions',['../structMRMeshRegions.html#ae634ea8ef970367d02f610541c6556ad',1,'MRMeshRegions']]],
   ['numselectededges_5f_60',['numSelectedEdges_',['../classMR_1_1ObjectMeshHolder.html#a54b15a24e639bc505ad9080bd8128b4c',1,'MR::ObjectMeshHolder']]],

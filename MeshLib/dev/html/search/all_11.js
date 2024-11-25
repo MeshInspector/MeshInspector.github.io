@@ -145,7 +145,7 @@ var searchData=
   ['numiters_142',['numIters',['../structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5',1,'MR::ImproveSamplingSettings::numIters'],['../structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5',1,'MR::SpacingSettings::numIters']]],
   ['numleaves_143',['numLeaves',['../classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f',1,'MR::AABBTreeBase']]],
   ['nummeshvertices_144',['numMeshVertices',['../structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95',1,'MR::SphereParams::numMeshVertices'],['../structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739',1,'MRSphereParams::numMeshVertices']]],
-  ['numneighbours_145',['numNeighbours',['../structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707',1,'MR::TriangulationParameters']]],
+  ['numneighbours_145',['numNeighbours',['../structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707',1,'MR::TriangulationParameters::numNeighbours'],['../structMRTriangulationParameters.html#aabbfe3baa67992675fc7a023186160c3',1,'MRTriangulationParameters::numNeighbours']]],
   ['numneis_146',['numNeis',['../structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7',1,'MR::TriangulationHelpers::Settings']]],
   ['numpoints_147',['numPoints',['../classMR_1_1DistanceMap.html#af13b1ec7ff8d3cdc83fb66dc8ff4d97e',1,'MR::DistanceMap']]],
   ['numpy_148',['Numpy',['../namespaceNumpy.html',1,'']]],

@@ -1,5 +1,16 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1RibbonMenu.html#a842d003c447ddd1af577f4cb2ffb9021":[6,0,1,0,12,529,15],
+"classMR_1_1RibbonMenu.html#a842d003c447ddd1af577f4cb2ffb9021":[6,0,2,0,1,514,15],
+"classMR_1_1RibbonMenu.html#a8d13b702d7c6dad7794328080b6562e0":[6,0,1,0,12,529,72],
+"classMR_1_1RibbonMenu.html#a8d13b702d7c6dad7794328080b6562e0":[6,0,2,0,1,514,72],
+"classMR_1_1RibbonMenu.html#a9435ce4367ec159b1b5746aaafcc5652":[6,0,1,0,12,529,51],
+"classMR_1_1RibbonMenu.html#a9435ce4367ec159b1b5746aaafcc5652":[6,0,2,0,1,514,51],
+"classMR_1_1RibbonMenu.html#a97c470b0974a29e162afe5b7393113e3":[6,0,1,0,12,529,60],
+"classMR_1_1RibbonMenu.html#a97c470b0974a29e162afe5b7393113e3":[6,0,2,0,1,514,60],
+"classMR_1_1RibbonMenu.html#a981b9e4f52d4679a09fbbca4dab08573":[6,0,1,0,12,529,46],
+"classMR_1_1RibbonMenu.html#a981b9e4f52d4679a09fbbca4dab08573":[6,0,2,0,1,514,46],
+"classMR_1_1RibbonMenu.html#a99c15fc2adc0e0b9ec601cedaa53dc4b":[6,0,1,0,12,529,20],
 "classMR_1_1RibbonMenu.html#a99c15fc2adc0e0b9ec601cedaa53dc4b":[6,0,2,0,1,514,20],
 "classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3":[6,0,1,0,12,529,47],
 "classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3":[6,0,2,0,1,514,47],
@@ -238,16 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RibbonSceneUnselectAll.html#a7e09528a991f78af5a78c035395302ce":[6,0,1,0,12,545,1],
 "classMR_1_1RibbonSceneUnselectAll.html#a7e09528a991f78af5a78c035395302ce":[6,0,2,0,1,530,1],
 "classMR_1_1RibbonSchemaHolder.html":[6,0,1,0,12,547],
-"classMR_1_1RibbonSchemaHolder.html":[6,0,2,0,1,532],
-"classMR_1_1RibbonSchemaLoader.html":[6,0,1,0,12,548],
-"classMR_1_1RibbonSchemaLoader.html":[6,0,2,0,1,533],
-"classMR_1_1RibbonSchemaLoader.html#a0bdc0e74b5b855dc50f9d3ed83b7ecad":[6,0,1,0,12,548,1],
-"classMR_1_1RibbonSchemaLoader.html#a0bdc0e74b5b855dc50f9d3ed83b7ecad":[6,0,2,0,1,533,1],
-"classMR_1_1RibbonSchemaLoader.html#a21064610abab0a6524a91349d54a0470":[6,0,1,0,12,548,8],
-"classMR_1_1RibbonSchemaLoader.html#a21064610abab0a6524a91349d54a0470":[6,0,2,0,1,533,8],
-"classMR_1_1RibbonSchemaLoader.html#a691ceda2aee5d313445759892065cfa6":[6,0,1,0,12,548,2],
-"classMR_1_1RibbonSchemaLoader.html#a691ceda2aee5d313445759892065cfa6":[6,0,2,0,1,533,2],
-"classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e":[6,0,1,0,12,548,7],
-"classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e":[6,0,2,0,1,533,7],
-"classMR_1_1RibbonSchemaLoader.html#a8922f80db8dd50ace1d0414338bc9a90":[6,0,1,0,12,548,4]
+"classMR_1_1RibbonSchemaHolder.html":[6,0,2,0,1,532]
 };

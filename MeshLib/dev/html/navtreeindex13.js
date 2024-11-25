@@ -1,5 +1,16 @@
 var NAVTREEINDEX13 =
 {
+"MRUIStyle_8h.html#a0d337a1adf7e16aaa08b683a6b65e886":[6,0,3,0,0,2,9,121,48],
+"MRUIStyle_8h.html#a0dcca7e7ac30d2cfb193d8b8961fed3f":[6,0,3,0,0,2,9,121,15],
+"MRUIStyle_8h.html#a0e2d922d2332948836f35b41d188e912":[6,0,3,0,0,2,9,121,49],
+"MRUIStyle_8h.html#a0e4fcd89c72f4be1967ab7ba90d92c1b":[6,0,3,0,0,2,9,121,58],
+"MRUIStyle_8h.html#a106b8bc31fb0bf822e4d25da72a41ead":[6,0,3,0,0,2,9,121,62],
+"MRUIStyle_8h.html#a1527cab8abd6795f21baa9abcfec2804":[6,0,3,0,0,2,9,121,39],
+"MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f":[6,0,3,0,0,2,9,121,67],
+"MRUIStyle_8h.html#a18b9183fbf887e8e6930c577d92fa409":[6,0,3,0,0,2,9,121,66],
+"MRUIStyle_8h.html#a192d3148a5ed3177660fcb7c2e758f1f":[6,0,3,0,0,2,9,121,26],
+"MRUIStyle_8h.html#a1b2f7496c5cc2c04acdc85d6ad564a63":[6,0,3,0,0,2,9,121,43],
+"MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[6,0,3,0,0,2,9,121,71],
 "MRUIStyle_8h.html#a31bf75f2c49957b473bd51d2aeb25ec8":[6,0,3,0,0,2,9,121,55],
 "MRUIStyle_8h.html#a321f93b24c9b7d723ce8aec45fe75374":[6,0,3,0,0,2,9,121,44],
 "MRUIStyle_8h.html#a336fa6393e7abeefe2f5d4e8f29d75a6":[6,0,3,0,0,2,9,121,24],
@@ -238,16 +249,5 @@ var NAVTREEINDEX13 =
 "MRViewerInstance_8h.html#a3e7c908172571071d6796d054d25a4f4":[6,0,3,0,0,2,9,130,0],
 "MRViewerInstance_8h.html#a7cd4d3f28d6da21baab77b862d8d763a":[6,0,3,0,0,2,9,130,1],
 "MRViewerInstance_8h_source.html":[6,0,3,0,0,2,9,130],
-"MRViewerPlugin_8h.html":[6,0,3,0,0,2,9,132],
-"MRViewerPlugin_8h_source.html":[6,0,3,0,0,2,9,132],
-"MRViewerSettingsManager_8h.html":[6,0,3,0,0,2,9,133],
-"MRViewerSettingsManager_8h_source.html":[6,0,3,0,0,2,9,133],
-"MRViewerSettingsPlugin_8h.html":[6,0,3,0,0,2,9,134],
-"MRViewerSettingsPlugin_8h_source.html":[6,0,3,0,0,2,9,134],
-"MRViewer_2MRVectorTraits_8h.html":[6,0,3,0,0,2,9,125],
-"MRViewer_2MRVectorTraits_8h_source.html":[6,0,3,0,0,2,9,125],
-"MRViewer_2config_8h.html":[6,0,3,0,0,2,9,0],
-"MRViewer_2config_8h_source.html":[6,0,3,0,0,2,9,0],
-"MRViewer_8h.html":[6,0,3,0,0,2,9,126],
-"MRViewer_8h.html#a03d769eae4675e20e6b50c3fddaf8eba":[6,0,3,0,0,2,9,126,7]
+"MRViewerPlugin_8h.html":[6,0,3,0,0,2,9,132]
 };

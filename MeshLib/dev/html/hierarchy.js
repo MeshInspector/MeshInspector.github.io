@@ -760,6 +760,7 @@ var hierarchy =
     [ "MRRemeshSettings", "structMRRemeshSettings.html", null ],
     [ "MRResolveMeshDegenSettings", "structMRResolveMeshDegenSettings.html", null ],
     [ "MRSphereParams", "structMRSphereParams.html", null ],
+    [ "MRTriangulationParameters", "structMRTriangulationParameters.html", null ],
     [ "MRTriPointf", "structMRTriPointf.html", null ],
     [ "MRUndirectedEdgeId", "structMRUndirectedEdgeId.html", null ],
     [ "MRVariableEdgeTri", "structMRVariableEdgeTri.html", null ],

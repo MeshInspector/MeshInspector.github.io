@@ -1,5 +1,16 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[6,0,2,0,1,177,10],
+"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,1,0,12,192,7],
+"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,2,0,1,177,7],
+"classMR_1_1EmbeddedPython.html":[6,0,1,0,12,197],
+"classMR_1_1EmbeddedPython.html":[6,0,2,0,1,182],
+"classMR_1_1EnumNeihbourFaces.html":[6,0,1,0,12,199],
+"classMR_1_1EnumNeihbourFaces.html":[6,0,2,0,1,184],
+"classMR_1_1EnumNeihbourFaces.html#a85f07106265d0d9ea1a93a7fd8ba1973":[6,0,1,0,12,199,0],
+"classMR_1_1EnumNeihbourFaces.html#a85f07106265d0d9ea1a93a7fd8ba1973":[6,0,2,0,1,184,0],
+"classMR_1_1EnumNeihbourVertices.html":[6,0,1,0,12,200],
+"classMR_1_1EnumNeihbourVertices.html":[6,0,2,0,1,185],
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,1,0,12,200,0],
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,2,0,1,185,0],
 "classMR_1_1FastWindingNumber.html":[6,0,0,1,13],
@@ -238,16 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1FramebufferData.html#ab7ddd7db6e430959db457666b4d98201":[6,0,1,0,12,230,0],
 "classMR_1_1FramebufferData.html#ab7ddd7db6e430959db457666b4d98201":[6,0,2,0,1,215,0],
 "classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc":[6,0,1,0,12,230,7],
-"classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc":[6,0,2,0,1,215,7],
-"classMR_1_1FramebufferData.html#add94b9fac7f1c8a7432205fe148aff5b":[6,0,1,0,12,230,2],
-"classMR_1_1FramebufferData.html#add94b9fac7f1c8a7432205fe148aff5b":[6,0,2,0,1,215,2],
-"classMR_1_1FramebufferData.html#afd64093c7c72fb36807eaf3b9baa59e2":[6,0,1,0,12,230,4],
-"classMR_1_1FramebufferData.html#afd64093c7c72fb36807eaf3b9baa59e2":[6,0,2,0,1,215,4],
-"classMR_1_1FreeFormBestFit.html":[6,0,1,0,12,233],
-"classMR_1_1FreeFormBestFit.html":[6,0,2,0,1,218],
-"classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[6,0,1,0,12,233,2],
-"classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[6,0,2,0,1,218,2],
-"classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[6,0,1,0,12,233,3],
-"classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[6,0,2,0,1,218,3],
-"classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[6,0,1,0,12,233,5]
+"classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc":[6,0,2,0,1,215,7]
 };

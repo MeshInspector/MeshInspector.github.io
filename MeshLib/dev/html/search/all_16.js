@@ -114,7 +114,7 @@ var searchData=
   ['sdk_20tutorials_111',['MeshLib SDK Tutorials',['../Tutorials.html',1,'']]],
   ['search_112',['search',['../classMR_1_1RibbonSchemaHolder.html#a874605999408fc4576544edbbaa4793c',1,'MR::RibbonSchemaHolder']]],
   ['searcher_5f_113',['searcher_',['../classMR_1_1RibbonMenu.html#ac86c4630adf085f601be813f0d81b827',1,'MR::RibbonMenu']]],
-  ['searchneighbors_114',['searchNeighbors',['../structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046',1,'MR::TriangulationParameters::searchNeighbors'],['../structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6',1,'MR::TriangulationHelpers::Settings::searchNeighbors']]],
+  ['searchneighbors_114',['searchNeighbors',['../structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046',1,'MR::TriangulationParameters::searchNeighbors'],['../structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6',1,'MR::TriangulationHelpers::Settings::searchNeighbors'],['../structMRTriangulationParameters.html#ab85f0e5badf8970c30123cd74f679dd5',1,'MRTriangulationParameters::searchNeighbors']]],
   ['searchpathsettings_115',['SearchPathSettings',['../structMR_1_1SearchPathSettings.html',1,'MR']]],
   ['searchpluginsstring_5f_116',['searchPluginsString_',['../classMR_1_1ImGuiMenu.html#a493d46d4f1ecabb263dc5528086e2660',1,'MR::ImGuiMenu']]],
   ['searchresult_117',['SearchResult',['../structMR_1_1RibbonSchemaHolder_1_1SearchResult.html',1,'MR::RibbonSchemaHolder']]],

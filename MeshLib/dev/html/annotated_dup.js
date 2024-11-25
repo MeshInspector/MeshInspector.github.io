@@ -941,6 +941,7 @@ var annotated_dup =
     [ "MRRemeshSettings", "structMRRemeshSettings.html", "structMRRemeshSettings" ],
     [ "MRResolveMeshDegenSettings", "structMRResolveMeshDegenSettings.html", "structMRResolveMeshDegenSettings" ],
     [ "MRSphereParams", "structMRSphereParams.html", "structMRSphereParams" ],
+    [ "MRTriangulationParameters", "structMRTriangulationParameters.html", "structMRTriangulationParameters" ],
     [ "MRTriPointf", "structMRTriPointf.html", "structMRTriPointf" ],
     [ "MRUndirectedEdgeId", "structMRUndirectedEdgeId.html", "structMRUndirectedEdgeId" ],
     [ "MRVariableEdgeTri", "structMRVariableEdgeTri.html", "structMRVariableEdgeTri" ],

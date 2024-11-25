@@ -1,5 +1,13 @@
 var NAVTREEINDEX11 =
 {
+"MRRingIterator_8h.html#a649c474104e7af19340b277ad9328dfb":[6,0,3,0,0,2,3,301,7],
+"MRRingIterator_8h.html#a9490457d4ac8cdb219f99745b7f0c7c3":[6,0,3,0,0,2,3,301,9],
+"MRRingIterator_8h.html#aa10e8c70214e043065a204ed41c35dd3":[6,0,3,0,0,2,3,301,6],
+"MRRingIterator_8h.html#aa6d03a2d0be4704d9f9287c613a63811":[6,0,3,0,0,2,3,301,8],
+"MRRingIterator_8h.html#ab1ba9bf4b9468525f62bc98e2160eb1f":[6,0,3,0,0,2,3,301,5],
+"MRRingIterator_8h.html#ab302d013b154c9d7f02b52fa128806af":[6,0,3,0,0,2,3,301,10],
+"MRRingIterator_8h.html#ac0fbbb1a0891fb178057f88b2bb392ff":[6,0,3,0,0,2,3,301,12],
+"MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3":[6,0,3,0,0,2,3,301,3],
 "MRRingIterator_8h.html#aee44286b022aaaa8435db2725e448b38":[6,0,3,0,0,2,3,301,11],
 "MRRingIterator_8h_source.html":[6,0,3,0,0,2,3,301],
 "MRSaveOnClose_8h.html":[6,0,3,0,0,2,9,83],
@@ -241,13 +249,5 @@ var NAVTREEINDEX11 =
 "MRStreamOperators_8h.html#af6a847a4f04242c0d7469f73addb43a6":[6,0,3,0,0,2,3,318,9],
 "MRStreamOperators_8h_source.html":[6,0,3,0,0,2,3,318],
 "MRStringConvert_8h.html":[6,0,3,0,0,2,3,320],
-"MRStringConvert_8h.html#a0f9f82f9571d4a67b586f1e38d93afe9":[6,0,3,0,0,2,3,320,8],
-"MRStringConvert_8h.html#a13a3902f4af22aaa5fcd0817f8d925fd":[6,0,3,0,0,2,3,320,14],
-"MRStringConvert_8h.html#a3dac1179ee1b7a147e78045a27c4e13d":[6,0,3,0,0,2,3,320,5],
-"MRStringConvert_8h.html#a4484d46c4a911faa227d4f39727367a2":[6,0,3,0,0,2,3,320,7],
-"MRStringConvert_8h.html#a55241f8b5264ed4854873f6fedc3cee3":[6,0,3,0,0,2,3,320,13],
-"MRStringConvert_8h.html#a58401eef2addb5c0fef7e5dd90a17ddf":[6,0,3,0,0,2,3,320,9],
-"MRStringConvert_8h.html#a5a6d09d98985d45fdd40a23f1df854c2":[6,0,3,0,0,2,3,320,0],
-"MRStringConvert_8h.html#a5a70c8c1a8a14604554c8a19a86984dc":[6,0,3,0,0,2,3,320,16],
-"MRStringConvert_8h.html#a893bffc80e40fe77684c61377cd58705":[6,0,3,0,0,2,3,320,12]
+"MRStringConvert_8h.html#a0f9f82f9571d4a67b586f1e38d93afe9":[6,0,3,0,0,2,3,320,8]
 };

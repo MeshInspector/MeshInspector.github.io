@@ -1,5 +1,16 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1UI.html#a9b2e8bbfe90af034977fca967163a4d4":[6,0,1,0,12,37,36],
+"namespaceMR_1_1UI.html#aa1fd1e704f1ff98b82cc4c98e452f57a":[6,0,1,0,12,37,66],
+"namespaceMR_1_1UI.html#aa49fc435b33d42412b5a43816ed40e52":[6,0,1,0,12,37,62],
+"namespaceMR_1_1UI.html#aaa136c1366383c9c03db4f4b7520c2a6":[6,0,1,0,12,37,40],
+"namespaceMR_1_1UI.html#ab4275e67335731ec2250b16795f2e4a1":[6,0,1,0,12,37,59],
+"namespaceMR_1_1UI.html#ab4909c09a4671c9b042825346cf6f637":[6,0,1,0,12,37,35],
+"namespaceMR_1_1UI.html#ab53314e24f68de52f675b6881591b212":[6,0,1,0,12,37,28],
+"namespaceMR_1_1UI.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f":[6,0,1,0,12,37,20],
+"namespaceMR_1_1UI.html#aba6c7c72b70351ba42eae4e3a2e0df4b":[6,0,1,0,12,37,34],
+"namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9":[6,0,1,0,12,37,30],
+"namespaceMR_1_1UI.html#acb0c4c1be185e69b6f58108b3471f882":[6,0,1,0,12,37,39],
 "namespaceMR_1_1UI.html#ad13b9be4aa5cae65c61e91ac1ab04ecd":[6,0,1,0,12,37,23],
 "namespaceMR_1_1UI.html#ae14306471133180f84a3a02650ced599":[6,0,1,0,12,37,22],
 "namespaceMR_1_1UI.html#af1937d08c3cb699681eeb7fd4dde005e":[6,0,1,0,12,37,67],
@@ -238,16 +249,5 @@ var NAVTREEINDEX57 =
 "structMRFillHoleNicelyParams.html#a9537e7209de58668ea79cda8e514d5cf":[6,0,2,0,15,2],
 "structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0":[6,0,2,0,15,6],
 "structMRFillHoleNicelyParams.html#af7f128fdb0b8ea8d308549a2112b4a02":[6,0,2,0,15,0],
-"structMRFillHoleParams.html":[6,0,2,0,16],
-"structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[6,0,2,0,16,5],
-"structMRFillHoleParams.html#a9f8cc59be22f24be20c9418d76f985be":[6,0,2,0,16,1],
-"structMRFillHoleParams.html#ab744cac77f9f46540cf1d4ae89c098fe":[6,0,2,0,16,0],
-"structMRFillHoleParams.html#abd5e444fda2adcc30b7ff392177db86c":[6,0,2,0,16,4],
-"structMRFillHoleParams.html#ad6d00d886b5618cbcb8961f55f2e7aa5":[6,0,2,0,16,3],
-"structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286":[6,0,2,0,16,2],
-"structMRFindProjectionParameters.html":[6,0,2,0,17],
-"structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[6,0,2,0,17,2],
-"structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[6,0,2,0,17,1],
-"structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,17,0],
-"structMRFixSelfIntersectionsSettings.html":[6,0,2,0,18]
+"structMRFillHoleParams.html":[6,0,2,0,16]
 };
