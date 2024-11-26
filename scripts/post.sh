@@ -5,6 +5,9 @@ rm html_header.html html_footer.html html_stylesheet.css
 
 # Restore Doxyfile
 [[ -f Doxyfile.bak ]] && mv Doxyfile.bak Doxyfile
+[[ -f DoxyfileMain.bak ]] && mv DoxyfileMain.bak DoxyfileMain
+[[ -f DoxyfileCpp.bak ]] && mv DoxyfileCpp.bak DoxyfileCpp
+[[ -f DoxyfilePy.bak ]] && mv DoxyfilePy.bak DoxyfilePy
 
 # Define default values if arguments are not provided
 TARGET_DIR="${1:-MeshLib}"

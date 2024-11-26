@@ -40,4 +40,7 @@ sed \
 if [ $1 ] 
 then
 sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1|" -i Doxyfile
+sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/main|" -i.bak DoxyfileMain
+sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/cpp|" -i.bak DoxyfileCpp
+sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/py|" -i.bak DoxyfilePy
 fi
