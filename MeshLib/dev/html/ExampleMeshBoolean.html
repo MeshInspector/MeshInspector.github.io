@@ -320,16 +320,18 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System;</div>
-<div class="line"><span class="keyword">using </span>System.Reflection;</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
 <div class="line"><span class="keyword">using </span>static <a class="code hl_namespace" href="namespaceMR.html">MR</a>.DotNet;</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">class </span>Program</div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshBooleanExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">if</span> (args.Length != 2)</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT1 INPUT2&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
+<div class="line">        <span class="keywordflow">if</span> (args.Length != 3)</div>
+<div class="line">        {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} MeshBooleanExample INPUT1 INPUT2&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
+<div class="line">            <span class="keywordflow">return</span>;</div>
+<div class="line">        }</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
