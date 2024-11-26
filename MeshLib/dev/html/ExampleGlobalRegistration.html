@@ -345,18 +345,19 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System;</div>
 <div class="line"><span class="keyword">using </span>System.Reflection;</div>
 <div class="line"><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><span class="keyword">using </span>static <a class="code hl_namespace" href="namespaceMR.html">MR</a>.DotNet;</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">namespace </span>MR.DotNet.Sample</div>
+<div class="line"><span class="keyword">namespace </span>MR.Sample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">internal</span> <span class="keyword">class </span>Program</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats( MultiwayICP icp )</div>
+<div class="line">        <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats(MultiwayICP icp)</div>
 <div class="line">        {</div>
 <div class="line">            <span class="keywordtype">int</span> numActivePairs = icp.GetNumActivePairs();</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;Number of samples: {icp.GetNumSamples()}&quot;</span>);</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;Number of active pairs: {numActivePairs}&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordflow">if</span> ( numActivePairs &gt; 0 )</div>
+<div class="line">            <span class="keywordflow">if</span> (numActivePairs &gt; 0)</div>
 <div class="line">            {</div>
 <div class="line">                <span class="keywordtype">double</span> p2ptMetric = icp.GetMeanSqDistToPoint();</div>
 <div class="line">                <span class="keywordtype">double</span> p2ptInaccuracy = icp.GetMeanSqDistToPoint(p2ptMetric);</div>
@@ -382,21 +383,19 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">                Box3f maxBBox = <span class="keyword">new</span> Box3f();</div>
 <div class="line">                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">                {</div>
-<div class="line">                    MeshOrPointsXf obj = <span class="keyword">new</span> MeshOrPointsXf();</div>
-<div class="line">                    obj.obj = <a class="code hl_variable" href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a>.FromAnySupportedFormat(args[i]);</div>
-<div class="line">                    obj.xf = <span class="keyword">new</span> AffineXf3f();</div>
+<div class="line">                    MeshOrPointsXf obj = <span class="keyword">new</span> MeshOrPointsXf(<a class="code hl_variable" href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a>.FromAnySupportedFormat(args[i]), <span class="keyword">new</span> AffineXf3f());</div>
 <div class="line">                    inputs.Add(obj);</div>
 <div class="line">                    Box3f bbox = obj.obj.BoundingBox;</div>
-<div class="line">                    <span class="keywordflow">if</span> ( !maxBBox.Valid() || bbox.Volume() &gt; maxBBox.Volume() )</div>
+<div class="line">                    <span class="keywordflow">if</span> (!maxBBox.Valid() || bbox.Volume() &gt; maxBBox.Volume())</div>
 <div class="line">                        maxBBox = bbox;</div>
 <div class="line">                }</div>
 <div class="line"> </div>
 <div class="line">                MultiwayICPSamplingParameters samplingParams = <span class="keyword">new</span> MultiwayICPSamplingParameters();</div>
 <div class="line">                samplingParams.samplingVoxelSize = maxBBox.Diagonal() * 0.03f;</div>
-<div class="line">                </div>
-<div class="line">                MultiwayICP icp = <span class="keyword">new</span> MultiwayICP(inputs, samplingParams );</div>
+<div class="line"> </div>
+<div class="line">                MultiwayICP icp = <span class="keyword">new</span> MultiwayICP(inputs, samplingParams);</div>
 <div class="line">                ICPProperties iCPProperties = <span class="keyword">new</span> ICPProperties();</div>
-<div class="line">                icp.SetParams( iCPProperties );</div>
+<div class="line">                icp.SetParams(iCPProperties);</div>
 <div class="line">                icp.UpdateAllPointPairs();</div>
 <div class="line">                PrintStats(icp);</div>
 <div class="line"> </div>
@@ -408,10 +407,10 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">                {</div>
 <div class="line">                    var xf = xfs[i];</div>
 <div class="line">                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; inputs[i].obj.Points.Count; j++)</div>
-<div class="line">                        output.AddPoint( xf.Apply( inputs[i].obj.Points[j]) );</div>
+<div class="line">                        output.AddPoint(xf.Apply(inputs[i].obj.Points[j]));</div>
 <div class="line">                }</div>
 <div class="line"> </div>
-<div class="line">                <a class="code hl_variable" href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a>.ToAnySupportedFormat( output , args[args.Length - 1] );</div>
+<div class="line">                <a class="code hl_variable" href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a>.ToAnySupportedFormat(output, args[args.Length - 1]);</div>
 <div class="line">            }</div>
 <div class="line">            <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">            {</div>
@@ -420,6 +419,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a1bfc73c4801d5127d8be21699dc9f590"><div class="ttname"><a href="namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">MR::PointCloud</a></div><div class="ttdeci">struct MRMESH_CLASS PointCloud</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:498</div></div>
 </div><!-- fragment --></li>
 </ul>
