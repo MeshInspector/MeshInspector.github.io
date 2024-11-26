@@ -943,8 +943,9 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = ../../.venv/lib/python3.12/site-packages/meshlib/mrmeshpy.pyi \
-                         ../../.venv/lib/python3.12/site-packages/meshlib/mrviewerpy.pyi \
+INPUT                  = ../MeshLibWhl/meshlib/mrmeshpy.pyi \
+                         ../MeshLibWhl/meshlib/mrmeshnumpy.pyi \
+                         ../MeshLibWhl/meshlib/mrviewerpy.pyi \
                          ../MeshLib/doxygen/APICppPage.dox
 
 # This tag can be used to specify the character encoding of the source files
