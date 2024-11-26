@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1FindOverlappingSettings.html#a2fb083294a0bd854f423edd314775ad7":[6,0,2,0,1,205,3],
+"structMR_1_1FindOverlappingSettings.html#aabcdb20bd37c7191483848d201e24d53":[6,0,1,0,12,220,2],
+"structMR_1_1FindOverlappingSettings.html#aabcdb20bd37c7191483848d201e24d53":[6,0,2,0,1,205,2],
+"structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[6,0,1,0,12,220,0],
+"structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[6,0,2,0,1,205,0],
+"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[6,0,1,0,12,220,1],
+"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[6,0,2,0,1,205,1],
+"structMR_1_1FitBoxParams.html":[6,0,1,0,12,221],
+"structMR_1_1FitBoxParams.html":[6,0,2,0,1,206],
+"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,1,0,12,221,1],
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,2,0,1,206,1],
 "structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,1,0,12,221,0],
 "structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,2,0,1,206,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,2,0,1,241,0],
 "structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,1,0,12,256,2],
 "structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,2,0,1,241,2],
-"structMR_1_1IOFilter.html":[6,0,0,2,6,0],
-"structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
-"structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0],
-"structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765":[6,0,0,2,6,0,2],
-"structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a":[6,0,0,2,6,0,3],
-"structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223":[6,0,0,2,6,0,4],
-"structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980":[6,0,0,2,6,0,5],
-"structMR_1_1IPointPairs.html":[6,0,1,0,12,281],
-"structMR_1_1IPointPairs.html":[6,0,2,0,1,266],
-"structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,1,0,12,281,8],
-"structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,2,0,1,266,8]
+"structMR_1_1IOFilter.html":[6,0,0,2,6,0]
 };

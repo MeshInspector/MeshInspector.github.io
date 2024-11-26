@@ -11,7 +11,7 @@ var searchData=
   ['mapper_8',['mapper',['../structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802',1,'MR::BooleanParameters::mapper'],['../structMRBooleanParameters.html#a63e215e887ec4e0d7a5eb665d5e0d25d',1,'MRBooleanParameters::mapper']]],
   ['mapping_9',['mapping',['../structMR_1_1MergeVolumePartSettings.html#a196c2f60b539ef9d242a51bcd49833d3',1,'MR::MergeVolumePartSettings']]],
   ['maps_10',['maps',['../structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f',1,'MR::BooleanResultMapper']]],
-  ['marks_11',['marks',['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd',1,'MR::MarkedVoxelSlice::Parameters']]],
+  ['marks_11',['marks',['../structMR_1_1MarkedContour3f.html#af4a0eb3a1b2a34ed0c90d37d6e36baa2',1,'MR::MarkedContour3f::marks'],['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd',1,'MR::MarkedVoxelSlice::Parameters::marks']]],
   ['mask_12',['mask',['../structMR_1_1MarkedVoxelSlice_1_1Mark.html#afc0fa59f798e85b81397aba33a9e0ec6',1,'MR::MarkedVoxelSlice::Mark']]],
   ['materialname_13',['materialName',['../structMR_1_1SaveSettings.html#a3614a6ca71783b2dd64369d4f122ee69',1,'MR::SaveSettings']]],
   ['matrix2_14',['Matrix2',['../namespaceMR.html#a4f9c196c35507f7582ad9613fb61fbad',1,'MR']]],

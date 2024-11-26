@@ -1,12 +1,18 @@
 var NAVTREEINDEX46 =
 {
-"conceptMR_1_1Trivial.html":[6,0,1,0,12,736],
+"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,12,739],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,12,12,0,8],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,12,12,0,12],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,12,12,0,9],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,12,12,0,10],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,12,12,0,11],
+"conceptMR_1_1Trivial.html":[6,0,1,0,12,738],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,12,37,1,5],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,1,0,12,37,0,0],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,1,0,12,37,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,1,0,12,37,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,12,37,0,1],
-"conceptMR_1_1UnitEnum.html":[6,0,1,0,12,740],
+"conceptMR_1_1UnitEnum.html":[6,0,1,0,12,742],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[6,0,1,0,12,3,0,1],
 "dir_0548e20a3bcd59381bf0bdb32f67cd97.html":[6,0,3,0,0,2,10],
 "dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,2,0,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX46 =
 "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc":[6,0,0,1,87],
 "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92":[6,0,0,1,90],
 "group__AABBTreeGroup.html#gaa20d785f3f82fad58fb659bc0009563d":[6,0,0,1,68],
-"group__AABBTreeGroup.html#gaa484a0628a7ac3858cd590589687141c":[6,0,0,1,72],
-"group__AABBTreeGroup.html#gaa8d353c49376729ab03f26747726d3b3":[6,0,0,1,81],
-"group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d":[6,0,0,1,93],
-"group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6":[6,0,0,1,53],
-"group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517":[6,0,0,1,43],
-"group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c":[6,0,0,1,91],
-"group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470":[6,0,0,1,34]
+"group__AABBTreeGroup.html#gaa484a0628a7ac3858cd590589687141c":[6,0,0,1,72]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX58 =
 {
+"structMRFaceId.html#a204eb026775902b1b2437f81f085f6f9":[6,0,2,0,13,0],
+"structMRFillHoleMetric.html":[6,0,2,0,14],
+"structMRFillHoleNicelyParams.html":[6,0,2,0,15],
+"structMRFillHoleNicelyParams.html#a0e8d72a772875d6f09126098f2cd3e00":[6,0,2,0,15,7],
+"structMRFillHoleNicelyParams.html#a22d1689535c4fb329d317ae2895d24fc":[6,0,2,0,15,4],
+"structMRFillHoleNicelyParams.html#a2a722efc00dac0877b5747157757e2ee":[6,0,2,0,15,1],
+"structMRFillHoleNicelyParams.html#a5d6022e8555ac06a276d3b6bd7fdc4f2":[6,0,2,0,15,3],
+"structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9":[6,0,2,0,15,5],
+"structMRFillHoleNicelyParams.html#a9537e7209de58668ea79cda8e514d5cf":[6,0,2,0,15,2],
+"structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0":[6,0,2,0,15,6],
 "structMRFillHoleNicelyParams.html#af7f128fdb0b8ea8d308549a2112b4a02":[6,0,2,0,15,0],
 "structMRFillHoleParams.html":[6,0,2,0,16],
 "structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[6,0,2,0,16,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1AncillaryLabel.html#a4ad01ecea78683580f97a7bc98dee31b":[6,0,2,0,1,39,11],
 "structMR_1_1AncillaryLabel.html#a51b8369cf074b507bee217d38306c4b5":[6,0,1,0,12,54,4],
 "structMR_1_1AncillaryLabel.html#a51b8369cf074b507bee217d38306c4b5":[6,0,2,0,1,39,4],
-"structMR_1_1AncillaryLabel.html#a90d00ac352d1fa4ccc4cff63c8a887b6":[6,0,1,0,12,54,8],
-"structMR_1_1AncillaryLabel.html#a90d00ac352d1fa4ccc4cff63c8a887b6":[6,0,2,0,1,39,8],
-"structMR_1_1AncillaryLabel.html#a9f49573b059e019198ac431311d41dee":[6,0,1,0,12,54,0],
-"structMR_1_1AncillaryLabel.html#a9f49573b059e019198ac431311d41dee":[6,0,2,0,1,39,0],
-"structMR_1_1AncillaryLabel.html#aa817fb0fcef0118aa48198fc9fdff44a":[6,0,1,0,12,54,9],
-"structMR_1_1AncillaryLabel.html#aa817fb0fcef0118aa48198fc9fdff44a":[6,0,2,0,1,39,9],
-"structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,1,0,12,54,10],
-"structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,2,0,1,39,10],
-"structMR_1_1AncillaryLabel.html#ac560be709f4aefe2438e9ac458b9983b":[6,0,1,0,12,54,1],
-"structMR_1_1AncillaryLabel.html#ac560be709f4aefe2438e9ac458b9983b":[6,0,2,0,1,39,1],
-"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,1,0,12,54,3]
+"structMR_1_1AncillaryLabel.html#a90d00ac352d1fa4ccc4cff63c8a887b6":[6,0,1,0,12,54,8]
 };

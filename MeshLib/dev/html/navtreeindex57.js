@@ -1,5 +1,15 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[6,0,1,0,12,37,76],
+"namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[6,0,1,0,12,37,73],
+"namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[6,0,1,0,12,37,41],
+"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[6,0,1,0,12,37,63],
+"namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[6,0,1,0,12,37,72],
+"namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[6,0,1,0,12,37,38],
+"namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[6,0,1,0,12,37,48],
+"namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9":[6,0,1,0,12,37,45],
+"namespaceMR_1_1UI.html#a8e4c6b5d376e0b7733631a2901b86d4b":[6,0,1,0,12,37,56],
+"namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333":[6,0,1,0,12,37,74],
 "namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222":[6,0,1,0,12,37,33],
 "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110":[6,0,1,0,12,37,52],
 "namespaceMR_1_1UI.html#a9b2e8bbfe90af034977fca967163a4d4":[6,0,1,0,12,37,36],
@@ -239,15 +249,5 @@ var NAVTREEINDEX57 =
 "structMREdgeTri.html":[6,0,2,0,12],
 "structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,12,0],
 "structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9":[6,0,2,0,12,1],
-"structMRFaceId.html":[6,0,2,0,13],
-"structMRFaceId.html#a204eb026775902b1b2437f81f085f6f9":[6,0,2,0,13,0],
-"structMRFillHoleMetric.html":[6,0,2,0,14],
-"structMRFillHoleNicelyParams.html":[6,0,2,0,15],
-"structMRFillHoleNicelyParams.html#a0e8d72a772875d6f09126098f2cd3e00":[6,0,2,0,15,7],
-"structMRFillHoleNicelyParams.html#a22d1689535c4fb329d317ae2895d24fc":[6,0,2,0,15,4],
-"structMRFillHoleNicelyParams.html#a2a722efc00dac0877b5747157757e2ee":[6,0,2,0,15,1],
-"structMRFillHoleNicelyParams.html#a5d6022e8555ac06a276d3b6bd7fdc4f2":[6,0,2,0,15,3],
-"structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9":[6,0,2,0,15,5],
-"structMRFillHoleNicelyParams.html#a9537e7209de58668ea79cda8e514d5cf":[6,0,2,0,15,2],
-"structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0":[6,0,2,0,15,6]
+"structMRFaceId.html":[6,0,2,0,13]
 };

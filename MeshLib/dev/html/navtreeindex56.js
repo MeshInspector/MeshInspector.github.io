@@ -1,5 +1,15 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1Cuda.html#af438ea6400ea4dd6e587a9208a7ab4af":[6,0,1,0,12,2,3],
+"namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231":[6,0,1,0,12,2,7],
+"namespaceMR_1_1DistanceMapLoad.html":[6,0,1,0,12,4],
+"namespaceMR_1_1DistanceMapSave.html":[6,0,1,0,12,5],
+"namespaceMR_1_1Features.html":[6,0,1,0,12,6],
+"namespaceMR_1_1Features.html#a164e47d633f8939134d7f4f05960c4ac":[6,0,1,0,12,6,21],
+"namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2":[6,0,1,0,12,6,13],
+"namespaceMR_1_1Features.html#a2d7396ae23e2d25cae0b7fc52fd0700e":[6,0,1,0,12,6,16],
+"namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[6,0,1,0,12,6,5],
+"namespaceMR_1_1Features.html#a39b347d1c16a0e596d16c09cc7839ded":[6,0,1,0,12,6,8],
 "namespaceMR_1_1Features.html#a49fd9207c07aaf09dab5aa90ea742cbb":[6,0,1,0,12,6,18],
 "namespaceMR_1_1Features.html#a4b8fe8c172363793d31c8bbc29e9fdb2":[6,0,1,0,12,6,23],
 "namespaceMR_1_1Features.html#a5868f629eb5b33654ac9c296f89ab859":[6,0,1,0,12,6,14],
@@ -239,15 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1UI.html#a6960ed24f5176be45d3dae21bae38d42":[6,0,1,0,12,37,43],
 "namespaceMR_1_1UI.html#a6d6f8139e24eb7840d9711fbe7e00a76":[6,0,1,0,12,37,44],
 "namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501":[6,0,1,0,12,37,19],
-"namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e":[6,0,1,0,12,37,26],
-"namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[6,0,1,0,12,37,76],
-"namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[6,0,1,0,12,37,73],
-"namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[6,0,1,0,12,37,41],
-"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[6,0,1,0,12,37,63],
-"namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[6,0,1,0,12,37,72],
-"namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[6,0,1,0,12,37,38],
-"namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[6,0,1,0,12,37,48],
-"namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9":[6,0,1,0,12,37,45],
-"namespaceMR_1_1UI.html#a8e4c6b5d376e0b7733631a2901b86d4b":[6,0,1,0,12,37,56],
-"namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333":[6,0,1,0,12,37,74]
+"namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e":[6,0,1,0,12,37,26]
 };

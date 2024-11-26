@@ -1,5 +1,15 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b":[6,0,0,8,0,6],
+"structMR_1_1BooleanResultMapper.html#a90a7bf08cca602701e835565e3d516e7":[6,0,0,8,0,4],
+"structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4":[6,0,0,8,0,8],
+"structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd":[6,0,0,8,0,3],
+"structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914":[6,0,0,8,0,5],
+"structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c":[6,0,0,8,0,7],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587":[6,0,0,8,0,1],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29":[6,0,0,8,0,1,0],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571":[6,0,0,8,0,1,1],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,8,0,1,2],
 "structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[6,0,0,8,0,0,3],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[6,0,0,8,0,0,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc":[6,0,0,8,2,0,1],
 "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,8,2,0,0],
 "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,0,8,2,0,2],
-"structMR_1_1CutMeshResult.html":[6,0,0,8,3],
-"structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400":[6,0,0,8,3,1],
-"structMR_1_1CutMeshResult.html#acc676bb755e4af3c177664745a989954":[6,0,0,8,3,0],
-"structMR_1_1DecimatePolylineResult.html":[6,0,1,0,12,158],
-"structMR_1_1DecimatePolylineResult.html":[6,0,2,0,1,143],
-"structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5":[6,0,1,0,12,158,0],
-"structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5":[6,0,2,0,1,143,0],
-"structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6":[6,0,1,0,12,158,1],
-"structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6":[6,0,2,0,1,143,1],
-"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,2],
-"structMR_1_1DecimatePolylineSettings.html#a041fda2a9c1b5df5de8cb74bacbd7ff1":[6,0,0,10,2,4]
+"structMR_1_1CutMeshResult.html":[6,0,0,8,3]
 };

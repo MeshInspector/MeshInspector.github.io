@@ -667,6 +667,7 @@ var hierarchy =
     [ "MR::MarchingCubesByParts", "classMR_1_1MarchingCubesByParts.html", null ],
     [ "MR::MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", null ],
     [ "MR::MarkedVoxelSlice::Mark", "structMR_1_1MarkedVoxelSlice_1_1Mark.html", null ],
+    [ "MR::MarkedContour3f", "structMR_1_1MarkedContour3f.html", null ],
     [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", null ],
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
@@ -1059,6 +1060,7 @@ var hierarchy =
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [
       [ "MR::DefaultSplashWindow", "classMR_1_1DefaultSplashWindow.html", null ]
     ] ],
+    [ "MR::SplineSettings", "structMR_1_1SplineSettings.html", null ],
     [ "MR::MultiwayAligningTransform::Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", null ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
     [ "MR::StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", null ],

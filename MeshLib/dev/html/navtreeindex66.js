@@ -1,5 +1,15 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1InSphereSearchSettings.html#a5454ee36cf1aaf8137df2df59f4a4e53":[6,0,2,0,1,259,2],
+"structMR_1_1InflateSettings.html":[6,0,1,0,12,272],
+"structMR_1_1InflateSettings.html":[6,0,2,0,1,257],
+"structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[6,0,1,0,12,272,0],
+"structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[6,0,2,0,1,257,0],
+"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,1,0,12,272,2],
+"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,2,0,1,257,2],
+"structMR_1_1InflateSettings.html#a2b56de5e320c04500550d57d852fbb7b":[6,0,1,0,12,272,3],
+"structMR_1_1InflateSettings.html#a2b56de5e320c04500550d57d852fbb7b":[6,0,2,0,1,257,3],
+"structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50":[6,0,1,0,12,272,1],
 "structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50":[6,0,2,0,1,257,1],
 "structMR_1_1InterruptCloseListener.html":[6,0,1,0,12,275],
 "structMR_1_1InterruptCloseListener.html":[6,0,2,0,1,260],
@@ -239,15 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1MarchingCubesParams.html#af22e28b54f1377a8a75efda6cf460c62":[6,0,2,0,1,299,4],
 "structMR_1_1MarchingCubesParams.html#af89d2fd3445045a9e4e4387b69f8d786":[6,0,1,0,12,314,8],
 "structMR_1_1MarchingCubesParams.html#af89d2fd3445045a9e4e4387b69f8d786":[6,0,2,0,1,299,8],
-"structMR_1_1MarkedVoxelSlice_1_1Mark.html":[6,0,1,0,12,315,0],
-"structMR_1_1MarkedVoxelSlice_1_1Mark.html":[6,0,2,0,1,300,0],
-"structMR_1_1MarkedVoxelSlice_1_1Mark.html#aa5bbaf41ee00c68fce4b46c405457cda":[6,0,1,0,12,315,0,0],
-"structMR_1_1MarkedVoxelSlice_1_1Mark.html#aa5bbaf41ee00c68fce4b46c405457cda":[6,0,2,0,1,300,0,0],
-"structMR_1_1MarkedVoxelSlice_1_1Mark.html#afc0fa59f798e85b81397aba33a9e0ec6":[6,0,1,0,12,315,0,1],
-"structMR_1_1MarkedVoxelSlice_1_1Mark.html#afc0fa59f798e85b81397aba33a9e0ec6":[6,0,2,0,1,300,0,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,1,0,12,315,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,2,0,1,300,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,1,0,12,315,1,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,2,0,1,300,1,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[6,0,1,0,12,315,1,5]
+"structMR_1_1MarkedContour3f.html":[6,0,1,0,12,315]
 };
