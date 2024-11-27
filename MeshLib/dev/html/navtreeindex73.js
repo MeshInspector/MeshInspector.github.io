@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,1,0,13,485,1],
+"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,2,0,1,470,1],
 "structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,1,0,13,485,0],
 "structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,2,0,1,470,0],
 "structMR_1_1ProgressInterrupter.html":[6,0,1,0,13,488],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,1,0,13,535,0,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,2,0,1,520,0,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,13,531,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,1,516,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,1,0,13,531,0,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,2,0,1,516,0,0]
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,1,516,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,2,0,1,15,0,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,1,0,13,26,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,2,0,1,15,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[6,0,1,0,13,26,1,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[6,0,2,0,1,15,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,1,0,13,484,0],
 "structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,2,0,1,469,0],
 "structMR_1_1PreciseVertCoords2.html":[6,0,1,0,13,485],
-"structMR_1_1PreciseVertCoords2.html":[6,0,2,0,1,470],
-"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,1,0,13,485,1],
-"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,2,0,1,470,1]
+"structMR_1_1PreciseVertCoords2.html":[6,0,2,0,1,470]
 };

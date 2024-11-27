@@ -213,10 +213,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afd5f43e81c4b52948c3571465f625f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f6d3e6c0abc84f6533041c75ced9601" id="r_a5f6d3e6c0abc84f6533041c75ced9601"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6d3e6c0abc84f6533041c75ced9601">getCurrentPositionMeshTriPoint</a> () const</td></tr>
 <tr class="separator:a5f6d3e6c0abc84f6533041c75ced9601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac080d1db3d7eb21da1f39961a3885346" id="r_ac080d1db3d7eb21da1f39961a3885346"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac080d1db3d7eb21da1f39961a3885346">updateCurrentPosition</a> (const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
-<tr class="separator:ac080d1db3d7eb21da1f39961a3885346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5980a161e1b97525ae45fb0326ec4c66" id="r_a5980a161e1b97525ae45fb0326ec4c66"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5980a161e1b97525ae45fb0326ec4c66">updateCurrentPosition</a> (const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;pos)</td></tr>
-<tr class="separator:a5980a161e1b97525ae45fb0326ec4c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e2d9f33aba5dcb3e0d9c0dd6ea00e59" id="r_a1e2d9f33aba5dcb3e0d9c0dd6ea00e59"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59">setCurrentPosition</a> (const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
+<tr class="memdesc:a1e2d9f33aba5dcb3e0d9c0dd6ea00e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new position for the widget  <br /></td></tr>
+<tr class="separator:a1e2d9f33aba5dcb3e0d9c0dd6ea00e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1636e12784d40c8c0e9fd238fa08b998" id="r_a1636e12784d40c8c0e9fd238fa08b998"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1636e12784d40c8c0e9fd238fa08b998">setCurrentPosition</a> (const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;pos)</td></tr>
+<tr class="memdesc:a1636e12784d40c8c0e9fd238fa08b998"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new position for the widget  <br /></td></tr>
+<tr class="separator:a1636e12784d40c8c0e9fd238fa08b998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2035a5c0ceddd1f622ce5574dd8c12dc" id="r_a2035a5c0ceddd1f622ce5574dd8c12dc"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2035a5c0ceddd1f622ce5574dd8c12dc">swapCurrentPosition</a> (<a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;pos)</td></tr>
+<tr class="memdesc:a2035a5c0ceddd1f622ce5574dd8c12dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new position for the widget and returns previous position in the argument  <br /></td></tr>
+<tr class="separator:a2035a5c0ceddd1f622ce5574dd8c12dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72049964543b708dab047eb9523abe40" id="r_a72049964543b708dab047eb9523abe40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72049964543b708dab047eb9523abe40">setStartMoveCallback</a> (std::function&lt; void(const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;)&gt; startMove)</td></tr>
 <tr class="separator:a72049964543b708dab047eb9523abe40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0341eee533f52cbb36521015f7b839be" id="r_a0341eee533f52cbb36521015f7b839be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0341eee533f52cbb36521015f7b839be">setOnMoveCallback</a> (std::function&lt; void(const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;)&gt; onMove)</td></tr>
@@ -582,6 +587,44 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1636e12784d40c8c0e9fd238fa08b998" name="a1636e12784d40c8c0e9fd238fa08b998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1636e12784d40c8c0e9fd238fa08b998">&#9670;&#160;</a></span>setCurrentPosition() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::SurfacePointWidget::setCurrentPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets new position for the widget </p>
+
+</div>
+</div>
+<a id="a1e2d9f33aba5dcb3e0d9c0dd6ea00e59" name="a1e2d9f33aba5dcb3e0d9c0dd6ea00e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59">&#9670;&#160;</a></span>setCurrentPosition() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::SurfacePointWidget::setCurrentPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets new position for the widget </p>
+
+</div>
+</div>
 <a id="a4294ac970d404bd6a69dcad7641cc685" name="a4294ac970d404bd6a69dcad7641cc685"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4294ac970d404bd6a69dcad7641cc685">&#9670;&#160;</a></span>setEndMoveCallback()</h2>
 
@@ -691,6 +734,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2035a5c0ceddd1f622ce5574dd8c12dc" name="a2035a5c0ceddd1f622ce5574dd8c12dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2035a5c0ceddd1f622ce5574dd8c12dc">&#9670;&#160;</a></span>swapCurrentPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::SurfacePointWidget::swapCurrentPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets new position for the widget and returns previous position in the argument </p>
+
+</div>
+</div>
 <a id="afd5f43e81c4b52948c3571465f625f66" name="afd5f43e81c4b52948c3571465f625f66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd5f43e81c4b52948c3571465f625f66">&#9670;&#160;</a></span>toVector3f()</h2>
 
@@ -702,40 +764,6 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5980a161e1b97525ae45fb0326ec4c66" name="a5980a161e1b97525ae45fb0326ec4c66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5980a161e1b97525ae45fb0326ec4c66">&#9670;&#160;</a></span>updateCurrentPosition() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::SurfacePointWidget::updateCurrentPosition </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac080d1db3d7eb21da1f39961a3885346" name="ac080d1db3d7eb21da1f39961a3885346"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac080d1db3d7eb21da1f39961a3885346">&#9670;&#160;</a></span>updateCurrentPosition() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::SurfacePointWidget::updateCurrentPosition </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,1,0,13,590,1],
+"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,2,0,1,575,1],
 "structMR_1_1SharpOffsetParameters.html":[6,0,1,0,13,593],
 "structMR_1_1SharpOffsetParameters.html":[6,0,2,0,1,578],
 "structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,1,0,13,593,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,2,0,1,609,1],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,1,0,13,626,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,2,0,1,611,0],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,1,0,13,626,0,6],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,2,0,1,611,0,6],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[6,0,1,0,13,626,0,0]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,1,0,13,626,0,6]
 };
