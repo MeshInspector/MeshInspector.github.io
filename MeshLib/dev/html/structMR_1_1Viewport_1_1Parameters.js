@@ -20,6 +20,7 @@ var structMR_1_1Viewport_1_1Parameters =
     [ "cameraViewAngle", "structMR_1_1Viewport_1_1Parameters.html#a1c27a50a950c5531b7b4198a165971f4", null ],
     [ "cameraZoom", "structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790", null ],
     [ "clippingPlane", "structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94", null ],
+    [ "compensateRotation", "structMR_1_1Viewport_1_1Parameters.html#ad62b164cd614da4c2dcf2d2c45b82326", null ],
     [ "depthTest", "structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21", null ],
     [ "Dynamic", "structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d", null ],
     [ "label", "structMR_1_1Viewport_1_1Parameters.html#a79a816e2ea798ee49a1d02cd65fc53a9", null ],
