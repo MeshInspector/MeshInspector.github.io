@@ -61,6 +61,6 @@ var menudata={children:[
 {text:"Spaces and Transformations",url:"SpacesHelp.html"},
 {text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
 {text:"API",url:"APIPage.html",children:[
-{text:"C++",url:"https//meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html"},
-{text:"Python",url:"https//meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html"}]},
+{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html"},
+{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html"}]},
 {text:"Thirdparty List",url:"ThirdParty.html"}]}

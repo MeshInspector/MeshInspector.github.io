@@ -25,18 +25,18 @@
 var NAVTREE =
 [
   [ "MeshLib Python Docs", "index.html", [
-    [ "About", "https//meshinspector.github.io/MeshLib/dev/main/html/index.html", null ],
-    [ "Getting Started", "https//meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html", [
-      [ "Python", "https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html", null ],
-      [ "C++", "https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibMainSetupGuide.html", null ],
-      [ "C#", "https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html", null ]
+    [ "About", "^https://meshinspector.github.io/MeshLib/dev/main/html/index.html", null ],
+    [ "Getting Started", "^https://meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html", [
+      [ "Python", "^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html", null ],
+      [ "C++", "^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibMainSetupGuide.html", null ],
+      [ "C#", "^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html", null ]
     ] ],
-    [ "License", "https//meshinspector.github.io/MeshLib/dev/main/html/License.html", null ],
-    [ "Tutorials", "https//meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html", [
-      [ "Create First Plugin using C++", "https//meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html", null ]
+    [ "License", "^https://meshinspector.github.io/MeshLib/dev/main/html/License.html", null ],
+    [ "Tutorials", "^https://meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html", [
+      [ "Create First Plugin using C++", "^https://meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html", null ]
     ] ],
-    [ "Examples", "https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html", [
-      [ "General Samples", "https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples", [
+    [ "Examples", "^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html", [
+      [ "General Samples", "^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples", [
         [ "Application Based on MeshLib", "@ref BasedApplication", null ],
         [ "Mesh Load and Save", "@ref ExampleMeshLoadSave", null ],
         [ "Export Raw Triangles", "@ref ExampleMeshExport", null ],
@@ -56,20 +56,20 @@ var NAVTREE =
         [ "Triangulation", "@ref ExampleTriangulation", null ],
         [ "Text to Mesh", "@ref ExampleMeshFromText", null ]
       ] ],
-      [ "Python Specific Samples", "https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples", [
+      [ "Python Specific Samples", "^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples", [
         [ "Viewer", "@ref ExampleViewer", null ],
         [ "Plotly Visualization", "@ref ExamplePlotly", null ],
         [ "Using Numpy", "@ref ExampleNumpy", null ],
         [ "Numpy Triangulation", "@ref ExampleNumpyTriangulation", null ]
       ] ]
     ] ],
-    [ "Package Overview", "https//meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html", [
-      [ "Data Model Class Hierarchy", "https//meshinspector.github.io/MeshLib/dev/main/html/DataModel.html", null ],
-      [ "Spaces and Transformations", "https//meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html", null ],
-      [ "State Plugins Overview", "https//meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html", null ]
+    [ "Package Overview", "^https://meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html", [
+      [ "Data Model Class Hierarchy", "^https://meshinspector.github.io/MeshLib/dev/main/html/DataModel.html", null ],
+      [ "Spaces and Transformations", "^https://meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html", null ],
+      [ "State Plugins Overview", "^https://meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html", null ]
     ] ],
-    [ "API", "https//meshinspector.github.io/MeshLib/dev/main/html/APIPage.html", [
-      [ "C++", "https//meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html", null ],
+    [ "API", "^https://meshinspector.github.io/MeshLib/dev/main/html/APIPage.html", [
+      [ "C++", "^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html", null ],
       [ "Python", "@ref APIPyPage", [
         [ "Namespace List", "namespaces.html", [
           [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -94,7 +94,7 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
-    [ "Thirdparty List", "https//meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html", null ]
+    [ "Thirdparty List", "^https://meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html", null ]
   ] ]
 ];
 
@@ -243,21 +243,21 @@ var NAVTREEINDEX =
 "classmeshlib_1_1mrmeshpy_1_1std__vector__std__vector__Vector2__float.html#a26415a040d7c5f2974abe80f13646acf",
 "classmeshlib_1_1mrmeshpy_1_1std__vector__unsigned__long.html#a43c6653c53ee40ebc06352899caac554",
 "classmeshlib_1_1mrviewerpy_1_1Viewer.html#a7528e0243ce2afaa2ced3c5366ef171f",
-"mrmeshpy_8pyi.html#a0217506c4b41e813abbd7356ebac014c",
-"mrmeshpy_8pyi.html#a28c0d3aaa82b9bdced82e5710d919823",
-"mrmeshpy_8pyi.html#a4c6ddce2c1b91bb16097aa7c0f814b9d",
-"mrmeshpy_8pyi.html#a74ff1f558e360d8f093790629381f433",
-"mrmeshpy_8pyi.html#a9b637f9d3a09d3ec89d485f97e7e6d88",
-"mrmeshpy_8pyi.html#abf620dfb210f84df20139f12a3bbb80a",
-"mrmeshpy_8pyi.html#ae5c9c03720e95ffa1bb5fc97b959815c",
-"namespacemembers_func_w.html",
-"namespacemeshlib_1_1mrmeshpy.html#a1cf76ab161d832affb8a2bc5e890173e",
-"namespacemeshlib_1_1mrmeshpy.html#a4245bbc5676aa79c4f45697278fb7625",
-"namespacemeshlib_1_1mrmeshpy.html#a6c8d72f00bd579c7ba84e5bc1482c9f8",
-"namespacemeshlib_1_1mrmeshpy.html#a91426808aae0c9953748eb02bf920af0",
-"namespacemeshlib_1_1mrmeshpy.html#ab45857a0c3c4f38d2216e55b9198b565",
-"namespacemeshlib_1_1mrmeshpy.html#ada53fee12287a5c849494ff4330eedbe",
-"namespacemeshlib_1_1mrmeshpy.html#afe65bb66311f1ce9d30ba9fa528e12e5"
+"mrmeshpy_8pyi.html#a0477d14f7aba37d0c99b25d6302cbb25",
+"mrmeshpy_8pyi.html#a2b99ef7ae5daae4a8978efc18062698f",
+"mrmeshpy_8pyi.html#a4fca8be0785e0ff3fb576722f0dd5c74",
+"mrmeshpy_8pyi.html#a77757f93c072f6b6481efad3f18d3759",
+"mrmeshpy_8pyi.html#a9ce79af7e631a4cd24fdefdbd99453ea",
+"mrmeshpy_8pyi.html#ac14bb10e8f910b1238fe81b5a763a89a",
+"mrmeshpy_8pyi.html#ae7dcc0b0339084eeaa257f7429072953",
+"namespacemembers_vars_b.html",
+"namespacemeshlib_1_1mrmeshpy.html#a1f59b3362f15e4ce0bde99c9afe6155a",
+"namespacemeshlib_1_1mrmeshpy.html#a44be808b1efb7840127e2ed4230dddb9",
+"namespacemeshlib_1_1mrmeshpy.html#a6ebc55e5c5001d9734470f8f00557459",
+"namespacemeshlib_1_1mrmeshpy.html#a944701107c6acaece73abefa2be1345f",
+"namespacemeshlib_1_1mrmeshpy.html#ab6537fc92e0a0a33f2f5e9ba2228fafc",
+"namespacemeshlib_1_1mrmeshpy.html#addc4f684fdbcd16245ce79460c45ab56",
+"namespacemeshlib_1_1mrviewerpy.html#a254bf43f56f72f4699eaccc7375250cd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

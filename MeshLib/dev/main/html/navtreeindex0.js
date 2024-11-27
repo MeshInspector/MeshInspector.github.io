@@ -38,8 +38,6 @@ var NAVTREEINDEX0 =
 "StatePluginsHelp.html":[5,2],
 "ThirdParty.html":[7],
 "Tutorials.html":[3],
-"https//meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html":[6,0],
-"https//meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html":[6,1],
 "index.html":[],
 "index.html":[0],
 "pages.html":[]

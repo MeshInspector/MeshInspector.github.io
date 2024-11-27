@@ -24,16 +24,16 @@
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
-{text:"About",url:"https//meshinspector.github.io/MeshLib/dev/main/html/index.html"},
-{text:"Getting Started",url:"https//meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html",children:[
-{text:"Python",url:"https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html"},
-{text:"C++",url:"https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibSetupGuide.html"},
-{text:"C#",url:"https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html"}]},
-{text:"License",url:"https//meshinspector.github.io/MeshLib/dev/main/html/License.html"},
-{text:"Tutorials",url:"https//meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"https//meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html"}]},
-{text:"Examples",url:"https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html",children:[
-{text:"General Samples",url:"https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples",children:[
+{text:"About",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/index.html"},
+{text:"Getting Started",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html",children:[
+{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html"},
+{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibSetupGuide.html"},
+{text:"C#",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html"}]},
+{text:"License",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/License.html"},
+{text:"Tutorials",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html",children:[
+{text:"Create First Plugin using C++",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html"}]},
+{text:"Examples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html",children:[
+{text:"General Samples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples",children:[
 {text:"Application Based on MeshLib",url:"@ref BasedApplication"},
 {text:"Mesh Load and Save",url:"@ref ExampleMeshLoadSave"},
 {text:"Export Raw Triangles",url:"@ref ExampleMeshExport"},
@@ -52,16 +52,16 @@ var menudata={children:[
 {text:"Mesh Denoise",url:"@ref ExampleNoiseDenoise"},
 {text:"Triangulation",url:"@ref ExampleTriangulation"},
 {text:"Text to Mesh",url:"@ref ExampleMeshFromText"}]},
-{text:"Python Specific Samples",url:"https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples",children:[
+{text:"Python Specific Samples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"@ref ExampleViewer"},
 {text:"Plotly Visualization",url:"@ref ExamplePlotly"},
 {text:"Using Numpy",url:"@ref ExampleNumpy"},
 {text:"Numpy Triangulation",url:"@ref ExampleNumpyTriangulation"}]}]},
-{text:"Package Overview",url:"https//meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html",children:[
-{text:"Data Model Class Hierarchy",url:"https//meshinspector.github.io/MeshLib/dev/main/html/DataModel.html"},
-{text:"Spaces and Transformations",url:"https//meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html"},
-{text:"State Plugins Overview",url:"https//meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html"}]},
-{text:"API",url:"https//meshinspector.github.io/MeshLib/dev/cpp/html/APIPage.html",children:[
+{text:"Package Overview",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html",children:[
+{text:"Data Model Class Hierarchy",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/DataModel.html"},
+{text:"Spaces and Transformations",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html"},
+{text:"State Plugins Overview",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html"}]},
+{text:"API",url:"^https://meshinspector.github.io/MeshLib/dev/cpp/html/APIPage.html",children:[
 {text:"C++",url:"APICppPage.html",children:[
 {text:"Topics",url:"topics.html"},
 {text:"Namespace List",url:"namespaces.html",children:[
@@ -413,5 +413,5 @@ var menudata={children:[
 {text:"s",url:"globals_defs.html#index_s"},
 {text:"t",url:"globals_defs.html#index_t"},
 {text:"v",url:"globals_defs.html#index_v"}]}]}]}]},
-{text:"Python",url:"https//meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html"}]},
-{text:"Thirdparty List",url:"https//meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html"}]}
+{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html"}]},
+{text:"Thirdparty List",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html"}]}

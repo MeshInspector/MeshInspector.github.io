@@ -69,8 +69,8 @@ var NAVTREE =
       [ "State Plugins Overview", "StatePluginsHelp.html", null ]
     ] ],
     [ "API", "APIPage.html", [
-      [ "C++", "https//meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html", null ],
-      [ "Python", "https//meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html", null ]
+      [ "C++", "^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html", null ],
+      [ "Python", "^https://meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html", null ]
     ] ],
     [ "Thirdparty List", "ThirdParty.html", null ]
   ] ]

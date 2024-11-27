@@ -25,18 +25,18 @@
 var NAVTREE =
 [
   [ "MeshLib C++ Docs", "index.html", [
-    [ "About", "https//meshinspector.github.io/MeshLib/dev/main/html/index.html", null ],
-    [ "Getting Started", "https//meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html", [
-      [ "Python", "https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html", null ],
-      [ "C++", "https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibSetupGuide.html", null ],
-      [ "C#", "https//meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html", null ]
+    [ "About", "^https://meshinspector.github.io/MeshLib/dev/main/html/index.html", null ],
+    [ "Getting Started", "^https://meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html", [
+      [ "Python", "^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html", null ],
+      [ "C++", "^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibSetupGuide.html", null ],
+      [ "C#", "^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html", null ]
     ] ],
-    [ "License", "https//meshinspector.github.io/MeshLib/dev/main/html/License.html", null ],
-    [ "Tutorials", "https//meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html", [
-      [ "Create First Plugin using C++", "https//meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html", null ]
+    [ "License", "^https://meshinspector.github.io/MeshLib/dev/main/html/License.html", null ],
+    [ "Tutorials", "^https://meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html", [
+      [ "Create First Plugin using C++", "^https://meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html", null ]
     ] ],
-    [ "Examples", "https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html", [
-      [ "General Samples", "https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples", [
+    [ "Examples", "^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html", [
+      [ "General Samples", "^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples", [
         [ "Application Based on MeshLib", "@ref BasedApplication", null ],
         [ "Mesh Load and Save", "@ref ExampleMeshLoadSave", null ],
         [ "Export Raw Triangles", "@ref ExampleMeshExport", null ],
@@ -56,19 +56,19 @@ var NAVTREE =
         [ "Triangulation", "@ref ExampleTriangulation", null ],
         [ "Text to Mesh", "@ref ExampleMeshFromText", null ]
       ] ],
-      [ "Python Specific Samples", "https//meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples", [
+      [ "Python Specific Samples", "^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples", [
         [ "Viewer", "@ref ExampleViewer", null ],
         [ "Plotly Visualization", "@ref ExamplePlotly", null ],
         [ "Using Numpy", "@ref ExampleNumpy", null ],
         [ "Numpy Triangulation", "@ref ExampleNumpyTriangulation", null ]
       ] ]
     ] ],
-    [ "Package Overview", "https//meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html", [
-      [ "Data Model Class Hierarchy", "https//meshinspector.github.io/MeshLib/dev/main/html/DataModel.html", null ],
-      [ "Spaces and Transformations", "https//meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html", null ],
-      [ "State Plugins Overview", "https//meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html", null ]
+    [ "Package Overview", "^https://meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html", [
+      [ "Data Model Class Hierarchy", "^https://meshinspector.github.io/MeshLib/dev/main/html/DataModel.html", null ],
+      [ "Spaces and Transformations", "^https://meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html", null ],
+      [ "State Plugins Overview", "^https://meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html", null ]
     ] ],
-    [ "API", "https//meshinspector.github.io/MeshLib/dev/cpp/html/APIPage.html", [
+    [ "API", "^https://meshinspector.github.io/MeshLib/dev/cpp/html/APIPage.html", [
       [ "C++", "APICppPage.html", [
         [ "Topics", "topics.html", "topics" ],
         [ "Namespace List", "namespaces.html", [
@@ -109,9 +109,9 @@ var NAVTREE =
           ] ]
         ] ]
       ] ],
-      [ "Python", "https//meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html", null ]
+      [ "Python", "^https://meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html", null ]
     ] ],
-    [ "Thirdparty List", "https//meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html", null ]
+    [ "Thirdparty List", "^https://meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html", null ]
   ] ]
 ];
 
@@ -168,36 +168,36 @@ var NAVTREEINDEX =
 "group__IOGroup.html#ga479f7166483b9a6ae878a9eaaaf3b2c2",
 "group__MeshSegmentationGroup.html#ga6411ded50ca303d4fa4228137d695d43",
 "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd",
-"namespaceMR.html#a10729a0925102f48ab56d783b191699c",
-"namespaceMR.html#a431af2072742e04e253f3c9d62962f77",
-"namespaceMR.html#a78658d7e2559b2c2ecccd1003dc75e04",
-"namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355",
-"namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29a",
-"namespaceMR_1_1ImGuiMath.html#a3f909828dc97dd9d3ebcc2c534d94968",
-"namespaceMR_1_1UI_1_1detail.html#a797ee2107c897bf2d084fede574e062b",
-"structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935",
-"structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5",
-"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8",
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0",
-"structMR_1_1DrawSceneUiListener.html#a9ad4165746d1511ad8941854df82f3bd",
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4",
-"structMR_1_1GCommand.html#ad006b4b0a0cbf74a8cedc89dd7fc1df8",
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3",
-"structMR_1_1KeyRepeatListener.html#a6be3688ad96048847339a48e9af501ca",
-"structMR_1_1Matrix2.html#ad308c1b6193b630e55c344146c340bcc",
-"structMR_1_1MeshBuilder_1_1BuildSettings.html#ae841fb8d6bd1c0807eb8dde2d6875c26",
-"structMR_1_1MeshVoxelsConverter.html",
-"structMR_1_1ObjKindTraits.html",
-"structMR_1_1Parallel_1_1CallWithTLSMaker.html",
-"structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b",
-"structMR_1_1RangeSize.html",
-"structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c",
-"structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa",
-"structMR_1_1SymMatrix3.html#aa9505f6e76d70bf7bfdd33e9b0b49615",
-"structMR_1_1TouchpadSwipeGestureEndListener.html#ab4dd4cb2861d87a165c29539ada3aeda",
-"structMR_1_1UI_1_1PlotAxis.html",
-"structMR_1_1Vector2.html#a5d6364a368131508a540587a1b1428cf",
-"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf"
+"namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd",
+"namespaceMR.html#a4926258bf30d6156c19b0f6e042d77c7",
+"namespaceMR.html#a7c6e921b59b28810967128b1e54c4a51",
+"namespaceMR.html#aac5fb6c59ce62feddc3ac64b13643c67",
+"namespaceMR.html#add4fa046bbf16a56e7eae86658185885",
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8",
+"namespaceMR_1_1VoxelsLoad.html#a059dd5ad6dc1204fd73b1278bb1f49df",
+"structMRMeshLoadNamedMesh.html",
+"structMR_1_1AncillaryPoints.html#aecec1c034a47b9b7d102ba9bf6366869",
+"structMR_1_1CloudPartMapping.html",
+"structMR_1_1DenoiseViaNormalsSettings.html#ad6004983564c77dbe469d819de9b1100",
+"structMR_1_1EdgePoint.html#a1b897527d833919c4b3da5c84edd2d23",
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044",
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df",
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f",
+"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da2a8313f2f3ab507d4c85c1be27dc0516",
+"structMR_1_1Matrix3.html#a737e1857a45415abf682a6fd530caf44",
+"structMR_1_1MeshBuilder_1_1Triangle.html#ad3a0063941eb7c51389f4baeaae1d36f",
+"structMR_1_1Meta_1_1SharedPtrTraits.html",
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html",
+"structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8",
+"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641",
+"structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a",
+"structMR_1_1RigidScaleXf3.html#aab41cf4d5be1d1a224a24a5b484e3a1d",
+"structMR_1_1SliceInfo.html",
+"structMR_1_1SymMatrix4.html#a527abb0a49799714b14dac1889bcbc39",
+"structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c",
+"structMR_1_1UI_1_1PlotAxis.html#ae08c70c753317b1683bed91ac16e30dc",
+"structMR_1_1Vector2.html#aff0fc940c14dd8e86b4cdb80bf795a37",
+"structMR_1_1VoxelsLoad_1_1DicomVolume.html#ab0d713dfdc07778bd4ebd556a1a13c83"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
