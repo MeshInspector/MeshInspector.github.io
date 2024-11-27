@@ -31,7 +31,7 @@ var searchData=
   ['height_28',['height',['../group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae',1,'MR']]],
   ['hidpi_5fscaling_29',['hidpi_scaling',['../classMR_1_1ImGuiMenu.html#ac28c9493029fa946734f3ed3980b6a68',1,'MR::ImGuiMenu']]],
   ['highlightblocking_5f_30',['highlightBlocking_',['../classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070',1,'MR::RibbonMenu']]],
-  ['highlightlastpoint_31',['highlightLastPoint',['../classMR_1_1SurfaceContoursWidget.html#a790f3abb45ba38635f0e33cea92f17e0',1,'MR::SurfaceContoursWidget']]],
+  ['highlightlastpoint_31',['highlightLastPoint',['../classMR_1_1SurfaceContoursWidget.html#a536ee89ef92d271cecbde5bee3c2330e',1,'MR::SurfaceContoursWidget']]],
   ['highlightwindowarea_32',['highlightWindowArea',['../namespaceMR_1_1UI.html#a0e2d922d2332948836f35b41d188e912',1,'MR::UI']]],
   ['histogram_33',['Histogram',['../classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819',1,'MR::Histogram::Histogram()=default'],['../classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7',1,'MR::Histogram::Histogram(float min, float max, size_t size)']]],
   ['histogram_34',['histogram',['../classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868',1,'MR::ObjectVoxels']]],

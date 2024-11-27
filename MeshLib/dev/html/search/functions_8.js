@@ -82,7 +82,7 @@ var searchData=
   ['iscanceled_79',['isCanceled',['../classMR_1_1ProgressBar.html#a9c764e9adb7623456e991773ae726b8f',1,'MR::ProgressBar']]],
   ['iscircle_80',['isCircle',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a',1,'MR::Features::Primitives::ConeSegment']]],
   ['isclosed_81',['isClosed',['../classMR_1_1MeshTopology.html#ab5f2cd2b3dbdcb502edf741bee2bc7f1',1,'MR::MeshTopology::isClosed()'],['../classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8',1,'MR::PolylineTopology::isClosed()']]],
-  ['isclosedcountour_82',['isClosedCountour',['../classMR_1_1SurfaceContoursWidget.html#afbb78b5db04c9cc56ac23b99e0d81a9a',1,'MR::SurfaceContoursWidget']]],
+  ['isclosedcountour_82',['isClosedCountour',['../classMR_1_1SurfaceContoursWidget.html#adddcb0e5eeffb5c2cc80a3baf9955ad8',1,'MR::SurfaceContoursWidget']]],
   ['isconsistentlyoriented_83',['isConsistentlyOriented',['../classMR_1_1PolylineTopology.html#a3a8e8e933ae69de8cd01c7f60a1e6e87',1,'MR::PolylineTopology']]],
   ['iscudaavailable_84',['isCudaAvailable',['../classMR_1_1CudaAccessor.html#a8b3062a65de8df3b5336f6010328183b',1,'MR::CudaAccessor::isCudaAvailable()'],['../namespaceMR_1_1Cuda.html#a481800f210dd09851992846af357b7e2',1,'MR::Cuda::isCudaAvailable()']]],
   ['iscurrentframeswapping_85',['isCurrentFrameSwapping',['../classMR_1_1Viewer.html#a5a5979dba1caca6f934f1e351d649e4e',1,'MR::Viewer']]],

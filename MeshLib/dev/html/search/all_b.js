@@ -53,7 +53,7 @@ var searchData=
   ['hierarchy_50',['Data Model Class Hierarchy',['../DataModel.html',1,'']]],
   ['high_20precision_51',['High Precision',['../group__HighPrecisionGroup.html',1,'']]],
   ['highlightblocking_5f_52',['highlightBlocking_',['../classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070',1,'MR::RibbonMenu']]],
-  ['highlightlastpoint_53',['highlightLastPoint',['../classMR_1_1SurfaceContoursWidget.html#a790f3abb45ba38635f0e33cea92f17e0',1,'MR::SurfaceContoursWidget']]],
+  ['highlightlastpoint_53',['highlightLastPoint',['../classMR_1_1SurfaceContoursWidget.html#a536ee89ef92d271cecbde5bee3c2330e',1,'MR::SurfaceContoursWidget']]],
   ['highlightwindowarea_54',['highlightWindowArea',['../namespaceMR_1_1UI.html#a0e2d922d2332948836f35b41d188e912',1,'MR::UI']]],
   ['highly_20recommended_20to_20achieve_20the_20best_20performance_20in_20parallel_20processing_55',['It&apos;s not necessary but highly recommended to achieve the best performance in parallel processing',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshDecimate.dox.py#autotoc_md78',1,'']]],
   ['highprecisionint_56',['HighPrecisionInt',['../group__HighPrecisionGroup.html#ga7972aa1a25bcfa69347cd04ffc919722',1,'MR']]],
