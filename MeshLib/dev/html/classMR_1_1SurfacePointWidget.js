@@ -14,7 +14,7 @@ var classMR_1_1SurfacePointWidget =
     [ "getAutoHover", "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b", null ],
     [ "getBaseSurface", "classMR_1_1SurfacePointWidget.html#a97ca2957633a2a8f6425d4f36a8df687", null ],
     [ "getCurrentPosition", "classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07", null ],
-    [ "getCurrentPositionMeshTriPoint", "classMR_1_1SurfacePointWidget.html#a5f6d3e6c0abc84f6533041c75ced9601", null ],
+    [ "getCurrentPositionMeshTriPoint", "classMR_1_1SurfacePointWidget.html#a6beef790b7d769b9129087231ce6c11a", null ],
     [ "getParameters", "classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958", null ],
     [ "getPickSphere", "classMR_1_1SurfacePointWidget.html#aa8c6ffb5b20ff526434fba6f30176a10", null ],
     [ "isOnMove", "classMR_1_1SurfacePointWidget.html#a8dd6b1d6da44226abb2ebea02590229b", null ],

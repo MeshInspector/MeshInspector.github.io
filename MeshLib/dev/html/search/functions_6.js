@@ -128,7 +128,7 @@ var searchData=
   ['getcudaruntimeversion_125',['getCudaRuntimeVersion',['../classMR_1_1CudaAccessor.html#a22f2e3065225dbd1e7adab428312a568',1,'MR::CudaAccessor']]],
   ['getcurrentcontext_126',['getCurrentContext',['../classMR_1_1ImGuiMenu.html#ae5d94dd8a1dc073888a8e0424f6bdfa5',1,'MR::ImGuiMenu']]],
   ['getcurrentposition_127',['getCurrentPosition',['../classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07',1,'MR::SurfacePointWidget']]],
-  ['getcurrentpositionmeshtripoint_128',['getCurrentPositionMeshTriPoint',['../classMR_1_1SurfacePointWidget.html#a5f6d3e6c0abc84f6533041c75ced9601',1,'MR::SurfacePointWidget']]],
+  ['getcurrentpositionmeshtripoint_128',['getCurrentPositionMeshTriPoint',['../classMR_1_1SurfacePointWidget.html#a6beef790b7d769b9129087231ce6c11a',1,'MR::SurfacePointWidget']]],
   ['getcurrentstacktrace_129',['getCurrentStacktrace',['../namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72',1,'MR']]],
   ['getcurrentstacktraceinline_130',['getCurrentStacktraceInline',['../namespaceMR.html#a81f6f33a8bc09d719c3ccbc1141aea10',1,'MR']]],
   ['getcurrenttoolbarwidth_131',['getCurrentToolbarWidth',['../classMR_1_1Toolbar.html#aa2cd5db65529f0df909e6fbaed4df94d',1,'MR::Toolbar']]],

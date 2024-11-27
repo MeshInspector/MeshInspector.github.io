@@ -210,9 +210,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf37cc4ca96ed9fd71cd2578f8a46f07" id="r_adf37cc4ca96ed9fd71cd2578f8a46f07"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf37cc4ca96ed9fd71cd2578f8a46f07">getCurrentPosition</a> () const</td></tr>
 <tr class="separator:adf37cc4ca96ed9fd71cd2578f8a46f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd5f43e81c4b52948c3571465f625f66" id="r_afd5f43e81c4b52948c3571465f625f66"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd5f43e81c4b52948c3571465f625f66">toVector3f</a> () const</td></tr>
+<tr class="memdesc:afd5f43e81c4b52948c3571465f625f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">return current position transformed to Vector3f  <br /></td></tr>
 <tr class="separator:afd5f43e81c4b52948c3571465f625f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f6d3e6c0abc84f6533041c75ced9601" id="r_a5f6d3e6c0abc84f6533041c75ced9601"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6d3e6c0abc84f6533041c75ced9601">getCurrentPositionMeshTriPoint</a> () const</td></tr>
-<tr class="separator:a5f6d3e6c0abc84f6533041c75ced9601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6beef790b7d769b9129087231ce6c11a" id="r_a6beef790b7d769b9129087231ce6c11a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6beef790b7d769b9129087231ce6c11a">getCurrentPositionMeshTriPoint</a> () const</td></tr>
+<tr class="memdesc:a6beef790b7d769b9129087231ce6c11a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns stored position as <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, otherwise returns invalid (default) <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>  <br /></td></tr>
+<tr class="separator:a6beef790b7d769b9129087231ce6c11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e2d9f33aba5dcb3e0d9c0dd6ea00e59" id="r_a1e2d9f33aba5dcb3e0d9c0dd6ea00e59"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59">setCurrentPosition</a> (const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
 <tr class="memdesc:a1e2d9f33aba5dcb3e0d9c0dd6ea00e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new position for the widget  <br /></td></tr>
 <tr class="separator:a1e2d9f33aba5dcb3e0d9c0dd6ea00e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -411,8 +413,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f6d3e6c0abc84f6533041c75ced9601" name="a5f6d3e6c0abc84f6533041c75ced9601"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f6d3e6c0abc84f6533041c75ced9601">&#9670;&#160;</a></span>getCurrentPositionMeshTriPoint()</h2>
+<a id="a6beef790b7d769b9129087231ce6c11a" name="a6beef790b7d769b9129087231ce6c11a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6beef790b7d769b9129087231ce6c11a">&#9670;&#160;</a></span>getCurrentPositionMeshTriPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,7 +423,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; MR::SurfacePointWidget::getCurrentPositionMeshTriPoint </td>
+          <td class="memname"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> MR::SurfacePointWidget::getCurrentPositionMeshTriPoint </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -433,6 +435,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns stored position as <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, otherwise returns invalid (default) <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> </p>
 
 </div>
 </div>
@@ -767,6 +771,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>return current position transformed to Vector3f </p>
 
 </div>
 </div>
