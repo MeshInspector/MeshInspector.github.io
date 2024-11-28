@@ -217,6 +217,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0bce5005471a434712469838de3edcd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c5f420102ae277252e92dea8b27fa2f" id="r_a5c5f420102ae277252e92dea8b27fa2f"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c5f420102ae277252e92dea8b27fa2f">redo</a> ()</td></tr>
 <tr class="separator:a5c5f420102ae277252e92dea8b27fa2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759c9c7fe846fe0738cf8846bfb0cbad" id="r_a759c9c7fe846fe0738cf8846bfb0cbad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759c9c7fe846fe0738cf8846bfb0cbad">undoRedoInProgress</a> () const</td></tr>
+<tr class="memdesc:a759c9c7fe846fe0738cf8846bfb0cbad"><td class="mdescLeft">&#160;</td><td class="mdescRight">true only during Undo or Redo ongoing operation  <br /></td></tr>
+<tr class="separator:a759c9c7fe846fe0738cf8846bfb0cbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f09d582234535d00d32ca5ece30c992" id="r_a8f09d582234535d00d32ca5ece30c992"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f09d582234535d00d32ca5ece30c992">getNActions</a> (unsigned n, <a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
 <tr class="memdesc:a8f09d582234535d00d32ca5ece30c992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns names of last N undo actions or first N redo actions.  <br /></td></tr>
 <tr class="separator:a8f09d582234535d00d32ca5ece30c992"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -651,6 +654,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>performs redo of one action, must not be called during ongoing undo or redo, temporary sets <a class="el" href="#a759c9c7fe846fe0738cf8846bfb0cbad" title="true only during Undo or Redo ongoing operation">undoRedoInProgress()</a>=true </p><dl class="section return"><dt>Returns</dt><dd>false if nothing to redo or if <a class="el" href="#a759c9c7fe846fe0738cf8846bfb0cbad" title="true only during Undo or Redo ongoing operation">undoRedoInProgress()</a>=true </dd></dl>
 
 </div>
 </div>
@@ -757,6 +761,34 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>performs undo of one action, must not be called during ongoing undo or redo, temporary sets <a class="el" href="#a759c9c7fe846fe0738cf8846bfb0cbad" title="true only during Undo or Redo ongoing operation">undoRedoInProgress()</a>=true </p><dl class="section return"><dt>Returns</dt><dd>false if nothing to undo or if <a class="el" href="#a759c9c7fe846fe0738cf8846bfb0cbad" title="true only during Undo or Redo ongoing operation">undoRedoInProgress()</a>=true </dd></dl>
+
+</div>
+</div>
+<a id="a759c9c7fe846fe0738cf8846bfb0cbad" name="a759c9c7fe846fe0738cf8846bfb0cbad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759c9c7fe846fe0738cf8846bfb0cbad">&#9670;&#160;</a></span>undoRedoInProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::HistoryStore::undoRedoInProgress </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true only during Undo or Redo ongoing operation </p>
 
 </div>
 </div>
