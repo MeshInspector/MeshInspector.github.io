@@ -1,0 +1,704 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: mrmeshpy.MeshOnVoxelsT_const_Mesh Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">mrmeshpy.MeshOnVoxelsT_const_Mesh Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3a5b5643a277f6e04c7d4af3a4a8bb9e" id="r_a3a5b5643a277f6e04c7d4af3a4a8bb9e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a5b5643a277f6e04c7d4af3a4a8bb9e">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> <a class="el" href="#a6e7fa762be43d7e72601b0e570eb0c40">mesh</a>, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshXf, <a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a> <a class="el" href="#a094fd732b240133a484e0529ad492de8">volume</a>, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> volumeXf)</td></tr>
+<tr class="separator:a3a5b5643a277f6e04c7d4af3a4a8bb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe735f9b48e1df294109454565879255" id="r_abe735f9b48e1df294109454565879255"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe735f9b48e1df294109454565879255">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh.html">MeshOnVoxelsT_const_Mesh</a> other)</td></tr>
+<tr class="separator:abe735f9b48e1df294109454565879255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19dd8d14bf6cfa6889d513f7f4f8e221" id="r_a19dd8d14bf6cfa6889d513f7f4f8e221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19dd8d14bf6cfa6889d513f7f4f8e221">getOffsetVector</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
+<tr class="separator:a19dd8d14bf6cfa6889d513f7f4f8e221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb14267691fca737628c1ca0d79c5d08" id="r_afb14267691fca737628c1ca0d79c5d08"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb14267691fca737628c1ca0d79c5d08">getPoints</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> result, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> offset)</td></tr>
+<tr class="separator:afb14267691fca737628c1ca0d79c5d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adec38527cc95684d42471ca7c7478086" id="r_adec38527cc95684d42471ca7c7478086"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec38527cc95684d42471ca7c7478086">getValue</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos)</td></tr>
+<tr class="separator:adec38527cc95684d42471ca7c7478086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a83ba01069fdd9c5cd226f951046582" id="r_a7a83ba01069fdd9c5cd226f951046582"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a83ba01069fdd9c5cd226f951046582">getValues</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> result, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> offset)</td></tr>
+<tr class="separator:a7a83ba01069fdd9c5cd226f951046582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7fa762be43d7e72601b0e570eb0c40" id="r_a6e7fa762be43d7e72601b0e570eb0c40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e7fa762be43d7e72601b0e570eb0c40">mesh</a> (self)</td></tr>
+<tr class="separator:a6e7fa762be43d7e72601b0e570eb0c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5ba29915ef02ac7a6463c6e7c22c1b" id="r_a8c5ba29915ef02ac7a6463c6e7c22c1b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c5ba29915ef02ac7a6463c6e7c22c1b">numVerts</a> (self)</td></tr>
+<tr class="separator:a8c5ba29915ef02ac7a6463c6e7c22c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ea5f17cd5b5601d712583dc8a890d6" id="r_a17ea5f17cd5b5601d712583dc8a890d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17ea5f17cd5b5601d712583dc8a890d6">point</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
+<tr class="separator:a17ea5f17cd5b5601d712583dc8a890d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a094fd732b240133a484e0529ad492de8" id="r_a094fd732b240133a484e0529ad492de8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a094fd732b240133a484e0529ad492de8">volume</a> (self)</td></tr>
+<tr class="separator:a094fd732b240133a484e0529ad492de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180a47af957addeaf8b54dce3e197556" id="r_a180a47af957addeaf8b54dce3e197556"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180a47af957addeaf8b54dce3e197556">voxelSize</a> (self)</td></tr>
+<tr class="separator:a180a47af957addeaf8b54dce3e197556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed5b50c8f96995d33417dc6484fec06" id="r_afed5b50c8f96995d33417dc6484fec06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed5b50c8f96995d33417dc6484fec06">xf</a> (self)</td></tr>
+<tr class="separator:afed5b50c8f96995d33417dc6484fec06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a78a66a9abd60602493813bb0968e31" id="r_a4a78a66a9abd60602493813bb0968e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a78a66a9abd60602493813bb0968e31">xf</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pt)</td></tr>
+<tr class="separator:a4a78a66a9abd60602493813bb0968e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af89880b857d1c7bd9d93530311db5e87" id="r_af89880b857d1c7bd9d93530311db5e87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af89880b857d1c7bd9d93530311db5e87">xfInv</a> (self)</td></tr>
+<tr class="separator:af89880b857d1c7bd9d93530311db5e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08cfe9edfcd05105659bc97256ac5a20" id="r_a08cfe9edfcd05105659bc97256ac5a20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08cfe9edfcd05105659bc97256ac5a20">xfInv</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pt)</td></tr>
+<tr class="separator:a08cfe9edfcd05105659bc97256ac5a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1dd65a8734b3d74b85a45d43ec140aab" id="r_a1dd65a8734b3d74b85a45d43ec140aab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PolynomialWrapper__float.html">PolynomialWrapper_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd65a8734b3d74b85a45d43ec140aab">getBestPolynomial</a> (<a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> values, int degree)</td></tr>
+<tr class="separator:a1dd65a8734b3d74b85a45d43ec140aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2964396181af28bdd181b11f1846b8c2" id="r_a2964396181af28bdd181b11f1846b8c2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2964396181af28bdd181b11f1846b8c2">getDerivatives</a> (<a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> result, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> values)</td></tr>
+<tr class="separator:a2964396181af28bdd181b11f1846b8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7dfd9936ab36ff2dfe04ff1efa5f0ed" id="r_aa7dfd9936ab36ff2dfe04ff1efa5f0ed"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7dfd9936ab36ff2dfe04ff1efa5f0ed">indexFromPseudoIndex</a> (float <a class="el" href="#acbfa31e412d21bc94b33415f2892f5bd">pseudoIndex</a>, int count)</td></tr>
+<tr class="separator:aa7dfd9936ab36ff2dfe04ff1efa5f0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfa31e412d21bc94b33415f2892f5bd" id="r_acbfa31e412d21bc94b33415f2892f5bd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbfa31e412d21bc94b33415f2892f5bd">pseudoIndex</a> (float index, int count)</td></tr>
+<tr class="separator:acbfa31e412d21bc94b33415f2892f5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12bfebcec625b566c8220787c2a82ff" id="r_ad12bfebcec625b566c8220787c2a82ff"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad12bfebcec625b566c8220787c2a82ff">pseudoIndex</a> (int index, int count)</td></tr>
+<tr class="separator:ad12bfebcec625b566c8220787c2a82ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::MeshOnVoxelsT&lt;const MR::Mesh&gt;
+Aliases:  MeshOnVoxelsC
+
+Helper class to organize mesh and voxels volume access and build point sequences
+Note: this class is not thread-safe but accessing same volume from different instances is ok
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3a5b5643a277f6e04c7d4af3a4a8bb9e" name="a3a5b5643a277f6e04c7d4af3a4a8bb9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5b5643a277f6e04c7d4af3a4a8bb9e">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshOnVoxelsT_const_Mesh.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>meshXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>volumeXf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe735f9b48e1df294109454565879255" name="abe735f9b48e1df294109454565879255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe735f9b48e1df294109454565879255">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshOnVoxelsT_const_Mesh.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh.html">MeshOnVoxelsT_const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1dd65a8734b3d74b85a45d43ec140aab" name="a1dd65a8734b3d74b85a45d43ec140aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd65a8734b3d74b85a45d43ec140aab">&#9670;&#160;</a></span>getBestPolynomial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PolynomialWrapper__float.html">PolynomialWrapper_float</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.getBestPolynomial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>degree</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2964396181af28bdd181b11f1846b8c2" name="a2964396181af28bdd181b11f1846b8c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2964396181af28bdd181b11f1846b8c2">&#9670;&#160;</a></span>getDerivatives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshOnVoxelsT_const_Mesh.getDerivatives </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>values</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Get derivatives from result of `getValues`
+</pre> 
+</div>
+</div>
+<a id="a19dd8d14bf6cfa6889d513f7f4f8e221" name="a19dd8d14bf6cfa6889d513f7f4f8e221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19dd8d14bf6cfa6889d513f7f4f8e221">&#9670;&#160;</a></span>getOffsetVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.getOffsetVector </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Get offset vector (mesh normal for a vertex with `voxelSize` length)
+</pre> 
+</div>
+</div>
+<a id="afb14267691fca737628c1ca0d79c5d08" name="afb14267691fca737628c1ca0d79c5d08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb14267691fca737628c1ca0d79c5d08">&#9670;&#160;</a></span>getPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshOnVoxelsT_const_Mesh.getPoints </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Get row of points with `offset` stride
+</pre> 
+</div>
+</div>
+<a id="adec38527cc95684d42471ca7c7478086" name="adec38527cc95684d42471ca7c7478086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adec38527cc95684d42471ca7c7478086">&#9670;&#160;</a></span>getValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshOnVoxelsT_const_Mesh.getValue </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Volume value
+</pre> 
+</div>
+</div>
+<a id="a7a83ba01069fdd9c5cd226f951046582" name="a7a83ba01069fdd9c5cd226f951046582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a83ba01069fdd9c5cd226f951046582">&#9670;&#160;</a></span>getValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshOnVoxelsT_const_Mesh.getValues </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Get volume values for a row of points
+</pre> 
+</div>
+</div>
+<a id="aa7dfd9936ab36ff2dfe04ff1efa5f0ed" name="aa7dfd9936ab36ff2dfe04ff1efa5f0ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7dfd9936ab36ff2dfe04ff1efa5f0ed">&#9670;&#160;</a></span>indexFromPseudoIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshOnVoxelsT_const_Mesh.indexFromPseudoIndex </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pseudoIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e7fa762be43d7e72601b0e570eb0c40" name="a6e7fa762be43d7e72601b0e570eb0c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7fa762be43d7e72601b0e570eb0c40">&#9670;&#160;</a></span>mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.mesh </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Access to base data
+</pre> 
+</div>
+</div>
+<a id="a8c5ba29915ef02ac7a6463c6e7c22c1b" name="a8c5ba29915ef02ac7a6463c6e7c22c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c5ba29915ef02ac7a6463c6e7c22c1b">&#9670;&#160;</a></span>numVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.MeshOnVoxelsT_const_Mesh.numVerts </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Cached number of valid vertices
+</pre> 
+</div>
+</div>
+<a id="a17ea5f17cd5b5601d712583dc8a890d6" name="a17ea5f17cd5b5601d712583dc8a890d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ea5f17cd5b5601d712583dc8a890d6">&#9670;&#160;</a></span>point()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.point </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Vertex position
+</pre> 
+</div>
+</div>
+<a id="acbfa31e412d21bc94b33415f2892f5bd" name="acbfa31e412d21bc94b33415f2892f5bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbfa31e412d21bc94b33415f2892f5bd">&#9670;&#160;</a></span>pseudoIndex() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshOnVoxelsT_const_Mesh.pseudoIndex </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Get a pseudo-index for a zero-based point index in a zero-centered row of `count` points
+Pseudo-index is a signed number; for whole index, is is whole or half-whole
+</pre> 
+</div>
+</div>
+<a id="ad12bfebcec625b566c8220787c2a82ff" name="ad12bfebcec625b566c8220787c2a82ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad12bfebcec625b566c8220787c2a82ff">&#9670;&#160;</a></span>pseudoIndex() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshOnVoxelsT_const_Mesh.pseudoIndex </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a094fd732b240133a484e0529ad492de8" name="a094fd732b240133a484e0529ad492de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a094fd732b240133a484e0529ad492de8">&#9670;&#160;</a></span>volume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.volume </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a180a47af957addeaf8b54dce3e197556" name="a180a47af957addeaf8b54dce3e197556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a180a47af957addeaf8b54dce3e197556">&#9670;&#160;</a></span>voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshOnVoxelsT_const_Mesh.voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Voxel size as scalar
+</pre> 
+</div>
+</div>
+<a id="afed5b50c8f96995d33417dc6484fec06" name="afed5b50c8f96995d33417dc6484fec06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed5b50c8f96995d33417dc6484fec06">&#9670;&#160;</a></span>xf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.xf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Transformation mesh to volume
+All points are in voxels volume space, unless otherwise is implied
+</pre> 
+</div>
+</div>
+<a id="a4a78a66a9abd60602493813bb0968e31" name="a4a78a66a9abd60602493813bb0968e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a78a66a9abd60602493813bb0968e31">&#9670;&#160;</a></span>xf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.xf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af89880b857d1c7bd9d93530311db5e87" name="af89880b857d1c7bd9d93530311db5e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af89880b857d1c7bd9d93530311db5e87">&#9670;&#160;</a></span>xfInv() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.xfInv </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08cfe9edfcd05105659bc97256ac5a20" name="a08cfe9edfcd05105659bc97256ac5a20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08cfe9edfcd05105659bc97256ac5a20">&#9670;&#160;</a></span>xfInv() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.MeshOnVoxelsT_const_Mesh.xfInv </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh.html">MeshOnVoxelsT_const_Mesh</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>
