@@ -35,12 +35,15 @@ mv html_header.html.tmp html_header.html
 sed \
     -e "s/HTML_HEADER\s*=.*/HTML_HEADER = html_header.html/" \
     -i.bak Doxyfile
+sed -e "s/HTML_HEADER\s*=.*/HTML_HEADER = html_header.html/" -i.bak DoxyfileMain
+sed -e "s/HTML_HEADER\s*=.*/HTML_HEADER = html_header.html/" -i.bak DoxyfileCpp
+sed -e "s/HTML_HEADER\s*=.*/HTML_HEADER = html_header.html/" -i.bak DoxyfilePy
 
 # force Doxygen to use the custom output directory
 if [ $1 ] 
 then
 sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1|" -i Doxyfile
-sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/main|" -i.bak DoxyfileMain
-sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/cpp|" -i.bak DoxyfileCpp
-sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/py|" -i.bak DoxyfilePy
+sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/main|" DoxyfileMain
+sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/cpp|" DoxyfileCpp
+sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1/py|" DoxyfilePy
 fi
