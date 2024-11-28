@@ -6,5 +6,6 @@ var MRMeshCollide_8h =
     [ "findSelfCollidingTriangles", "MRMeshCollide_8h.html#gaf39d8d5357405a2ab417897d0abb7a8a", null ],
     [ "findSelfCollidingTrianglesBS", "MRMeshCollide_8h.html#ga622f29ce4129e85a4040668e267bffeb", null ],
     [ "isInside", "MRMeshCollide_8h.html#ga3c4d304b28fd4695d20dc454318f5660", null ],
+    [ "isNonIntersectingInside", "MRMeshCollide_8h.html#ga3358455877a4f3ab26bb581338d86cd4", null ],
     [ "isNonIntersectingInside", "MRMeshCollide_8h.html#ga30d53ebf69ce150861f17e4695543778", null ]
 ];

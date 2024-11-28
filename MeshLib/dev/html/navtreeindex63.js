@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,2,0,1,2,2,4],
 "structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[6,0,1,0,13,6,2,6],
 "structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[6,0,2,0,1,2,2,6],
 "structMR_1_1Features_1_1MeasureResult.html#a598c9f6b07a702e3e849bf9b0e6ec040":[6,0,1,0,13,6,2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FindOverhangsSettings.html":[6,0,2,0,1,204],
 "structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[6,0,1,0,13,219,0],
 "structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[6,0,2,0,1,204,0],
-"structMR_1_1FindOverhangsSettings.html#a0533f2a781c49812b0d5cbe4fbfbaa21":[6,0,1,0,13,219,4],
-"structMR_1_1FindOverhangsSettings.html#a0533f2a781c49812b0d5cbe4fbfbaa21":[6,0,2,0,1,204,4]
+"structMR_1_1FindOverhangsSettings.html#a0533f2a781c49812b0d5cbe4fbfbaa21":[6,0,1,0,13,219,4]
 };
