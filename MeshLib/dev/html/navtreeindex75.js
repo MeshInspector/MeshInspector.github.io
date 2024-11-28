@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ShaderWarning.html":[6,0,1,0,13,590],
 "structMR_1_1ShaderWarning.html":[6,0,2,0,1,575],
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,1,0,13,590,0],
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,2,0,1,575,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af26c10e919650426fe7e171b7b4b65ac":[6,0,2,0,1,609,0,4],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae":[6,0,1,0,13,624,0,0],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae":[6,0,2,0,1,609,0,0],
-"structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,1,0,13,624,1],
-"structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,2,0,1,609,1]
+"structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,1,0,13,624,1]
 };

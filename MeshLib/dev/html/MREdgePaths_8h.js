@@ -30,6 +30,7 @@ var MREdgePaths_8h =
     [ "extractClosedLoops", "MREdgePaths_8h.html#gaa78455fdb147a0790b3838d7d30344f0", null ],
     [ "extractClosedLoops", "MREdgePaths_8h.html#gad555d8d4c714e8afe8e6254a6a671f0c", null ],
     [ "extractLongestClosedLoop", "MREdgePaths_8h.html#gae2366000776e2dc3664a7940a93576b2", null ],
+    [ "getContourPlaneIntersections", "MREdgePaths_8h.html#ga1608a3645812bea05245447d9c392e4a", null ],
     [ "getPathEdgesInPlane", "MREdgePaths_8h.html#ga0fe533dcbd844a89077b18ebd4dda8fe", null ],
     [ "getPathPlaneIntersections", "MREdgePaths_8h.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd", null ],
     [ "getVertexOrdering", "MREdgePaths_8h.html#ga6fdee8dc184f919e5ad6ef399faf48ba", null ],

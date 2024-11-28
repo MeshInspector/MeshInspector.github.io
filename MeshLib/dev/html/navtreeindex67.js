@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1MarchingCubesParams.html#adaced6444a2abeec7b4469778f8ace75":[6,0,2,0,1,299,2],
 "structMR_1_1MarchingCubesParams.html#ae07876a5272040c1fd50016127294f07":[6,0,1,0,13,314,5],
 "structMR_1_1MarchingCubesParams.html#ae07876a5272040c1fd50016127294f07":[6,0,2,0,1,299,5],
 "structMR_1_1MarchingCubesParams.html#af22e28b54f1377a8a75efda6cf460c62":[6,0,1,0,13,314,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Mesh.html#a952176d5bcd16b91d26dc6fa2a0bdc6c":[6,0,0,7,0,112],
 "structMR_1_1Mesh.html#a973baf90b80dc2696bc083577727d4fc":[6,0,0,7,0,86],
 "structMR_1_1Mesh.html#a98ce30cba5543afc4736d287bfd3d3bc":[6,0,0,7,0,104],
-"structMR_1_1Mesh.html#a994943959e77b3bc34449639c1dfcb6f":[6,0,0,7,0,78],
-"structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca":[6,0,0,7,0,114]
+"structMR_1_1Mesh.html#a994943959e77b3bc34449639c1dfcb6f":[6,0,0,7,0,78]
 };

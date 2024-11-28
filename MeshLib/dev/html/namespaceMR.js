@@ -1952,6 +1952,7 @@ var namespaceMR =
     [ "GetClipboardText", "namespaceMR.html#a64ba59ae26faaa746ba815d967500996", null ],
     [ "getComplexFillMetric", "group__FillHoleGroup.html#gaa01960d0a269898638030197df262046", null ],
     [ "getComplexStitchMetric", "group__FillHoleGroup.html#ga254a08307d5300b9bc3843d7c8acf653", null ],
+    [ "getContourPlaneIntersections", "group__SurfacePathGroup.html#ga1608a3645812bea05245447d9c392e4a", null ],
     [ "getCorners", "group__BoxGroup.html#ga29381aa0a95542624d22842711d672f9", null ],
     [ "getCorners", "group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8", null ],
     [ "GetCpuId", "namespaceMR.html#a7b5e5990972490ea4d3803ccca1b3757", null ],

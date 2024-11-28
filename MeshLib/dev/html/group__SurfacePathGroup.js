@@ -45,6 +45,7 @@ var group__SurfacePathGroup =
     [ "MR::extractClosedLoops", "group__SurfacePathGroup.html#gaa78455fdb147a0790b3838d7d30344f0", null ],
     [ "MR::extractClosedLoops", "group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c", null ],
     [ "MR::extractLongestClosedLoop", "group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2", null ],
+    [ "MR::getContourPlaneIntersections", "group__SurfacePathGroup.html#ga1608a3645812bea05245447d9c392e4a", null ],
     [ "MR::getPathEdgesInPlane", "group__SurfacePathGroup.html#ga0fe533dcbd844a89077b18ebd4dda8fe", null ],
     [ "MR::getPathPlaneIntersections", "group__SurfacePathGroup.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd", null ],
     [ "MR::getVertexOrdering", "group__SurfacePathGroup.html#ga6fdee8dc184f919e5ad6ef399faf48ba", null ],
