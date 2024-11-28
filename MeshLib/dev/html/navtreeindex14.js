@@ -180,6 +180,7 @@ var NAVTREEINDEX14 =
 "MeshOffset_8dox_8cs.html":[6,0,3,0,0,1,1,6],
 "MeshOffset_8dox_8py.html":[6,0,3,0,0,1,3,10],
 "MeshResolveDegenerations_8dox_8c.html":[6,0,3,0,0,1,0,7],
+"MeshResolveDegenerations_8dox_8cs.html":[6,0,3,0,0,1,1,7],
 "MeshStitchHole_8dox_8cpp.html":[6,0,3,0,0,1,2,10],
 "MeshStitchHole_8dox_8py.html":[6,0,3,0,0,1,3,11],
 "NoiseDenoiseExample_8dox_8py.html":[6,0,3,0,0,1,3,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,1,0,13,42,16],
 "classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,2,0,1,27,16],
 "classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,1,0,13,42,5],
-"classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,2,0,1,27,5],
-"classMR_1_1AABBTreeBase.html#a58f8dd538965bde14c46c2ed60aac1f9":[6,0,1,0,13,42,15]
+"classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,2,0,1,27,5]
 };
