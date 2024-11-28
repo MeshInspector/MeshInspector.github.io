@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1ObjectPointsHolder.html":[6,0,1,0,13,402],
 "classMR_1_1ObjectPointsHolder.html":[6,0,2,0,1,387],
 "classMR_1_1ObjectPointsHolder.html#a045c0320f1489b9374254b9dd00aeb51":[6,0,1,0,13,402,54],
 "classMR_1_1ObjectPointsHolder.html#a045c0320f1489b9374254b9dd00aeb51":[6,0,2,0,1,387,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1ObjectVoxels.html#aff8794b9bd15a75ebc129b43162e181d":[6,0,0,11,15,12],
 "classMR_1_1OpenDICOMsMenuItem.html":[6,0,1,0,13,422],
 "classMR_1_1OpenDICOMsMenuItem.html":[6,0,2,0,1,407],
-"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,1,0,13,422,1],
-"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,2,0,1,407,1]
+"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,1,0,13,422,1]
 };

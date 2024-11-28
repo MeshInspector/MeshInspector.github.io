@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRStreamOperators_8h.html#ac3d2f2d86659c075b46b5e16dd7a1788":[6,0,3,0,0,2,3,320,21],
 "MRStreamOperators_8h.html#aca3c19b890aa7fc06a27b77bbd2166dd":[6,0,3,0,0,2,3,320,7],
 "MRStreamOperators_8h.html#ad85d26b0a95cdf398372e9564135b4ba":[6,0,3,0,0,2,3,320,18],
 "MRStreamOperators_8h.html#ad99ac1ebe76b35b655adb5b8f25c4378":[6,0,3,0,0,2,3,320,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRUISaveChangesPopup_8h.html":[6,0,3,0,0,2,9,120],
 "MRUISaveChangesPopup_8h.html#af1937d08c3cb699681eeb7fd4dde005e":[6,0,3,0,0,2,9,120,1],
 "MRUISaveChangesPopup_8h_source.html":[6,0,3,0,0,2,9,120],
-"MRUIStyle_8h.html":[6,0,3,0,0,2,9,121],
-"MRUIStyle_8h.html#a012d7558b98063f22c4bb9a28299837b":[6,0,3,0,0,2,9,121,22]
+"MRUIStyle_8h.html":[6,0,3,0,0,2,9,121]
 };

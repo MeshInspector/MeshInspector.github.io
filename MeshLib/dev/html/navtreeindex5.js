@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRIntersectionContour_8h.html":[6,0,3,0,0,2,4,15],
 "MRMeshC_2MRIntersectionContour_8h.html#a48a7c0cb1f6cf6cccb64e0ceb7a7f55e":[6,0,3,0,0,2,4,15,3],
 "MRMeshC_2MRIntersectionContour_8h.html#a588c8be2f4f1e7c937a2e5050f9a616e":[6,0,3,0,0,2,4,15,2],
 "MRMeshC_2MRIntersectionContour_8h.html#a61aad38335312fe96185e634ae071bcb":[6,0,3,0,0,2,4,15,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119aa70e26aed54b8955879575cbb3336c35":[6,0,3,0,0,2,4,42,5,0],
 "MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119aecec8fc6e216d60b81736c4957270a91":[6,0,3,0,0,2,4,42,5,2],
 "MRMeshC_2MROffset_8h.html#aadf4e0af42f9fdcd6f178290427e707a":[6,0,3,0,0,2,4,42,8],
-"MRMeshC_2MROffset_8h.html#ab0102fab24c464c71b05780276f26fbc":[6,0,3,0,0,2,4,42,15],
-"MRMeshC_2MROffset_8h.html#ab0bcbdc61697a510f5fe0bc636ac7a93":[6,0,3,0,0,2,4,42,12]
+"MRMeshC_2MROffset_8h.html#ab0102fab24c464c71b05780276f26fbc":[6,0,3,0,0,2,4,42,15]
 };

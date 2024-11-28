@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRPositionedText_8h_source.html":[6,0,3,0,0,2,3,279],
 "MRPrecipitationSimulator_8h.html":[6,0,3,0,0,2,3,281],
 "MRPrecipitationSimulator_8h_source.html":[6,0,3,0,0,2,3,281],
 "MRPrecisePredicates2_8h.html":[6,0,3,0,0,2,3,282],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRRibbonSchema_8h.html":[6,0,3,0,0,2,9,82],
 "MRRibbonSchema_8h.html#a0f8705ceb9b9ea512c947c5bdbcd3b5e":[6,0,3,0,0,2,9,82,14],
 "MRRibbonSchema_8h.html#a55efef56c0d2d0a5eabf81b134ec39c9":[6,0,3,0,0,2,9,82,13],
-"MRRibbonSchema_8h.html#a6ab153d81501eb8ea4a0bb964864eaef":[6,0,3,0,0,2,9,82,11],
-"MRRibbonSchema_8h.html#a9156ba38070249801207259b1b438e47":[6,0,3,0,0,2,9,82,15]
+"MRRibbonSchema_8h.html#a6ab153d81501eb8ea4a0bb964864eaef":[6,0,3,0,0,2,9,82,11]
 };

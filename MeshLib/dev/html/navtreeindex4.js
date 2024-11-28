@@ -14,10 +14,11 @@ var NAVTREEINDEX4 =
 "MRMarchingCubes_8h.html#af79e59969dc38af8f99d87b8d80385f2":[6,0,3,0,0,2,10,11,2],
 "MRMarchingCubes_8h_source.html":[6,0,3,0,0,2,10,11],
 "MRMarkedContour_8h.html":[6,0,3,0,0,2,3,162],
-"MRMarkedContour_8h.html#a043f1da2568088a7b489ea8632405c64":[6,0,3,0,0,2,3,162,5],
+"MRMarkedContour_8h.html#a043f1da2568088a7b489ea8632405c64":[6,0,3,0,0,2,3,162,6],
 "MRMarkedContour_8h.html#a209bfc652faa16c46df5315c189242b1":[6,0,3,0,0,2,3,162,4],
 "MRMarkedContour_8h.html#a2e5632fff2d66b50a1ed380ebc05183a":[6,0,3,0,0,2,3,162,3],
 "MRMarkedContour_8h.html#a7fdb7eb094811ed5d74ac5dbb128319f":[6,0,3,0,0,2,3,162,2],
+"MRMarkedContour_8h.html#abbe4ed3e93ef2ac23bd9eac49139758a":[6,0,3,0,0,2,3,162,5],
 "MRMarkedContour_8h_source.html":[6,0,3,0,0,2,3,162],
 "MRMarkedVoxelSlice_8h.html":[6,0,3,0,0,2,9,37],
 "MRMarkedVoxelSlice_8h_source.html":[6,0,3,0,0,2,9,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0":[6,0,3,0,0,2,4,14,10],
 "MRMeshC_2MRId_8h.html#a9ac012b0350b14e8b0fd50cfeb57beb6":[6,0,3,0,0,2,4,14,12],
 "MRMeshC_2MRId_8h.html#aef0fccc9d380528eb9e9d3e74c33ee94":[6,0,3,0,0,2,4,14,11],
-"MRMeshC_2MRId_8h_source.html":[6,0,3,0,0,2,4,14],
-"MRMeshC_2MRIntersectionContour_8h.html":[6,0,3,0,0,2,4,15]
+"MRMeshC_2MRId_8h_source.html":[6,0,3,0,0,2,4,14]
 };

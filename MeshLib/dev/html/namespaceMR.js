@@ -2227,6 +2227,7 @@ var namespaceMR =
     [ "marchingCubesAsTriMesh", "namespaceMR.html#a72700df47888a8a7053cbc8a0aaca324", null ],
     [ "marchingCubesAsTriMesh", "namespaceMR.html#ad192e9409dfbd10a25b76804397ec59c", null ],
     [ "markedContour", "namespaceMR.html#a209bfc652faa16c46df5315c189242b1", null ],
+    [ "markedFirstLast", "namespaceMR.html#abbe4ed3e93ef2ac23bd9eac49139758a", null ],
     [ "Matrix2< bool >", "namespaceMR.html#a9c32f29e20d5fafc7aca92f5c1bb16c9", null ],
     [ "Matrix2< long long >", "namespaceMR.html#ac773a059629abc5f2872f613c9bdef64", null ],
     [ "Matrix4< bool >", "namespaceMR.html#a450ae4b2d186582761e1351ce75c8ee0", null ],
