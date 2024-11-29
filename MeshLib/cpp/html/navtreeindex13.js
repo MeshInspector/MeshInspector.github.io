@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"MRUIStyle_8h.html#a106b8bc31fb0bf822e4d25da72a41ead":[6,0,3,0,0,1,9,121,62],
 "MRUIStyle_8h.html#a1527cab8abd6795f21baa9abcfec2804":[6,0,3,0,0,1,9,121,39],
 "MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f":[6,0,3,0,0,1,9,121,67],
 "MRUIStyle_8h.html#a18b9183fbf887e8e6930c577d92fa409":[6,0,3,0,0,1,9,121,66],
@@ -210,8 +209,8 @@ var NAVTREEINDEX13 =
 "MRVDBConversions_8h.html#a7c6e921b59b28810967128b1e54c4a51":[6,0,3,0,0,1,10,26,17],
 "MRVDBConversions_8h.html#a8c3054d7ec46286f79367b0f93ffddb0":[6,0,3,0,0,1,10,26,14],
 "MRVDBConversions_8h.html#a928996b8ccf0ededf4666de67cedde79":[6,0,3,0,0,1,10,26,4],
+"MRVDBConversions_8h.html#aa2303df423aaea1a91ce570293117d37":[6,0,3,0,0,1,10,26,13],
 "MRVDBConversions_8h.html#ab26a3095c2f054ad6f7ecab11ff7b7ff":[6,0,3,0,0,1,10,26,12],
-"MRVDBConversions_8h.html#aba29bf5baab2e1924aeb45b624a3c821":[6,0,3,0,0,1,10,26,13],
 "MRVDBConversions_8h.html#ad8e49582fe849014967a8baf003fd27b":[6,0,3,0,0,1,10,26,7],
 "MRVDBConversions_8h.html#adc86f37e5a8bb2c7c0b30dfc636d8e90":[6,0,3,0,0,1,10,26,11],
 "MRVDBConversions_8h.html#aeb145c323941c5fd06c513bc640d05b1":[6,0,3,0,0,1,10,26,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "MRViewerPlugin_8h_source.html":[6,0,3,0,0,1,9,132],
 "MRViewerSettingsManager_8h.html":[6,0,3,0,0,1,9,133],
 "MRViewerSettingsManager_8h_source.html":[6,0,3,0,0,1,9,133],
-"MRViewerSettingsPlugin_8h.html":[6,0,3,0,0,1,9,134]
+"MRViewerSettingsPlugin_8h.html":[6,0,3,0,0,1,9,134],
+"MRViewerSettingsPlugin_8h_source.html":[6,0,3,0,0,1,9,134]
 };

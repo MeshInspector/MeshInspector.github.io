@@ -1,6 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"@ref APIPyPage":[6,1],
 "@ref BasedApplication":[4,0,0],
 "@ref ExampleFreeForm":[4,0,13],
 "@ref ExampleGlobalRegistration":[4,0,10],
@@ -23,6 +22,7 @@ var NAVTREEINDEX0 =
 "@ref ExamplePlotly":[4,1,1],
 "@ref ExampleTriangulation":[4,0,16],
 "@ref ExampleViewer":[4,1,0],
+"APIPyPage.html":[6,1],
 "annotated.html":[6,1,1,0],
 "classes.html":[6,1,1,1],
 "classmrmeshpy_1_1AABBTree.html":[6,1,0,0,1,0],

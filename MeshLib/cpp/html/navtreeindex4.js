@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"MRMarkedContour_8h.html#a043f1da2568088a7b489ea8632405c64":[6,0,3,0,0,1,3,162,6],
 "MRMarkedContour_8h.html#a209bfc652faa16c46df5315c189242b1":[6,0,3,0,0,1,3,162,4],
 "MRMarkedContour_8h.html#a2e5632fff2d66b50a1ed380ebc05183a":[6,0,3,0,0,1,3,162,3],
 "MRMarkedContour_8h.html#a7fdb7eb094811ed5d74ac5dbb128319f":[6,0,3,0,0,1,3,162,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRMakeSphereMesh_8h.html#a41c0d7764dfcf6146b1fd10215d17d66":[6,0,3,0,0,1,4,17,2],
 "MRMeshC_2MRMakeSphereMesh_8h.html#a5c9ffdd8d709f51595e68919c613dd3d":[6,0,3,0,0,1,4,17,7],
 "MRMeshC_2MRMakeSphereMesh_8h.html#a70d7cdb50802dba4e98e7a604d503cd2":[6,0,3,0,0,1,4,17,3],
-"MRMeshC_2MRMakeSphereMesh_8h.html#aa5376c56e30df5e92308fc374ce57228":[6,0,3,0,0,1,4,17,6]
+"MRMeshC_2MRMakeSphereMesh_8h.html#aa5376c56e30df5e92308fc374ce57228":[6,0,3,0,0,1,4,17,6],
+"MRMeshC_2MRMakeSphereMesh_8h.html#aff3a5d40e4c9735457f46bb94fd6fefa":[6,0,3,0,0,1,4,17,5]
 };

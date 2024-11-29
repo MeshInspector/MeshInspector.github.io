@@ -191,8 +191,7 @@ var annotated_dup =
         [ "WindowRectAllocator", "classMR_1_1UI_1_1WindowRectAllocator.html", "classMR_1_1UI_1_1WindowRectAllocator" ]
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
-        [ "DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", "structMR_1_1VoxelsLoad_1_1DicomVolume" ],
-        [ "DicomVolumeAsVdb", "structMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" ],
+        [ "DicomVolumeT", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeT" ],
         [ "LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
         [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ]
       ] ],

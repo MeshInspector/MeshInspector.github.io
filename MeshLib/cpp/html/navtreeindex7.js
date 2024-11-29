@@ -1,6 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"MRMesh_2MRICP_8h_source.html":[6,0,3,0,0,1,3,123],
 "MRMesh_2MRId_8h.html":[6,0,3,0,0,1,3,125],
 "MRMesh_2MRId_8h.html#a0820efd8a0fb59fdacc1b48836994041":[6,0,3,0,0,1,3,125,5],
 "MRMesh_2MRId_8h.html#a1c14c4b422f53d6aed87261063ce34fb":[6,0,3,0,0,1,3,125,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754":[6,0,3,0,0,1,3,190,72,0],
 "MRMesh_2MRMeshFwd_8h.html#aff76859ec61fe11d899abce20bc135eb":[6,0,3,0,0,1,3,190,81],
 "MRMesh_2MRMeshFwd_8h_source.html":[6,0,3,0,0,1,3,190],
-"MRMesh_2MRMeshLoadObj_8h.html":[6,0,3,0,0,1,3,193]
+"MRMesh_2MRMeshLoadObj_8h.html":[6,0,3,0,0,1,3,193],
+"MRMesh_2MRMeshLoadObj_8h_source.html":[6,0,3,0,0,1,3,193]
 };

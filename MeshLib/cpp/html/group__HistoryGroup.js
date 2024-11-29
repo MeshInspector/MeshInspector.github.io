@@ -275,6 +275,7 @@ var group__HistoryGroup =
       [ "setSavedState", "classMR_1_1HistoryStore.html#ae49bd57fda5c9d3b6005f942e9ee7f45", null ],
       [ "setScopeBlockPtr", "classMR_1_1HistoryStore.html#afd26beea23b71e238921b37d2baa32ad", null ],
       [ "undo", "classMR_1_1HistoryStore.html#a0bce5005471a434712469838de3edcd7", null ],
+      [ "undoRedoInProgress", "classMR_1_1HistoryStore.html#a759c9c7fe846fe0738cf8846bfb0cbad", null ],
       [ "changedSignal", "classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee", null ]
     ] ],
     [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", [

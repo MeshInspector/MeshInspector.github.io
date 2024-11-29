@@ -70,7 +70,7 @@ var NAVTREE =
     ] ],
     [ "API", "^https://meshinspector.github.io/MeshLib/dev/main/html/APIPage.html", [
       [ "C++", "^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html", null ],
-      [ "Python", "@ref APIPyPage", [
+      [ "Python", "APIPyPage.html", [
         [ "Namespace List", "namespaces.html", [
           [ "Namespace List", "namespaces.html", "namespaces_dup" ],
           [ "Namespace Members", "namespacemembers.html", [
@@ -100,7 +100,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"@ref APIPyPage",
+"@ref BasedApplication",
 "classmrmeshpy_1_1AABBTreeObjects.html#a603d0639b01f81447e1f6047979e1822",
 "classmrmeshpy_1_1AffineXf3d.html#a2bbe5943006ac51a74a803edd4c001a0",
 "classmrmeshpy_1_1BMap__FaceId__unsigned__long.html#a11fdb40511305d8b53d7307f7e702d20",
@@ -240,26 +240,26 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLines.html#a2890caecd0800e676bcd135f64b0f5ad",
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a3b7335bda75ff9e2d1beb2882e7766d0",
 "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a5e16fc42043f59527cbf9c69bf7467c5",
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aa7385c862b598a52639b238e2b422ddb",
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html",
-"classmrmeshpy_1_1std__vector__std__vector__Vector2__double.html#aa0e337daa8055e6a39103a069f193ab3",
-"classmrmeshpy_1_1std__vector__unsigned__char.html#ae371825da33e34ba3a7c291b64b4eb0a",
-"classmrviewerpy_1_1UiValueUint.html",
-"mrmeshpy_8pyi.html#a006cb3f4bc6babd53627cdaf4b9f2d38",
-"mrmeshpy_8pyi.html#a239b5a7989baaa08f97deee1f144afa4",
-"mrmeshpy_8pyi.html#a43aef43c8a47d647618f82b3675c1601",
-"mrmeshpy_8pyi.html#a633aef29be86b03130139f7087052bb2",
-"mrmeshpy_8pyi.html#a8ab05584b969846e9a57cb5eb7b2fe55",
-"mrmeshpy_8pyi.html#ab1d01a70ffd09120c99010873516192e",
-"mrmeshpy_8pyi.html#ad76eeaf2d884eba9ead67324ddee7db1",
-"mrmeshpy_8pyi.html#aff12dffddacd779f6d4c94bcf64a9173",
-"namespacemrmeshpy.html#a105a82855c7d089692e39e81f5ca9570",
-"namespacemrmeshpy.html#a339eae13c7080bbc970e0d371745b981",
-"namespacemrmeshpy.html#a51f8a5d797839f50e210172161693085",
-"namespacemrmeshpy.html#a75b90c7b5b4e0a17ae0117e44df0cf34",
-"namespacemrmeshpy.html#a9e193dbaa30f2905bf720de0511d891d",
-"namespacemrmeshpy.html#ac3249512589d296f410c985016b92ed4",
-"namespacemrmeshpy.html#ae7471b00d5b4c5cd4b099e03bfce026f"
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a90bff038105dbbdfef27906cb68a8340",
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a11e32deb3f007509f7e34e1f8fca55bb",
+"classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html#a8f263db47fedfbeada1475a313ed2bd9",
+"classmrmeshpy_1_1std__vector__unsigned__long.html#afa3b95a6b0ccb8b6844ffa81b0f07439",
+"classmrviewerpy_1_1ViewerLaunchParamsMode.html#a3666b6d768161935380afd135a94a015",
+"mrmeshpy_8pyi.html#a09492ccdbb2e8c8d36e48af59dbd7dfd",
+"mrmeshpy_8pyi.html#a2b4a21851311a3aaaa29542f2615d45b",
+"mrmeshpy_8pyi.html#a4a9cf7263914c4e976add9073c18d185",
+"mrmeshpy_8pyi.html#a6d82737b94149e43cc65ae695d97300d",
+"mrmeshpy_8pyi.html#a94c66774f30576cf42943451573af3a6",
+"mrmeshpy_8pyi.html#aba437e675981dd8da5392709e8903104",
+"mrmeshpy_8pyi.html#ae050f34ed5d327883f0d8c5a13f8d482",
+"namespacemembers_func_p.html",
+"namespacemrmeshpy.html#a18a165035b2e0d2927db4a25849b9f23",
+"namespacemrmeshpy.html#a3afae112914c7d092507c1b1cdf225ac",
+"namespacemrmeshpy.html#a594163130487c21b865377d839621947",
+"namespacemrmeshpy.html#a7f87398560974b5c085ab08d2fe6f014",
+"namespacemrmeshpy.html#aa6d6a55e247fe40ffc1405e658056061",
+"namespacemrmeshpy.html#acbf8debb72e2962fa8c747fe59b481b1",
+"namespacemrmeshpy.html#af1304a431a579d04573de79f79f03485"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

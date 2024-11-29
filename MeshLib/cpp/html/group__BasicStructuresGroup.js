@@ -88,5 +88,7 @@ var group__BasicStructuresGroup =
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53", null ],
     [ "MR::setLevelSetType", "group__BasicStructuresGroup.html#ga87e6e60c5605c5450f4bd815128674c9", null ],
     [ "MR::setValue", "group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862", null ],
-    [ "MR::toVdb", "group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab", null ]
+    [ "MR::toVdb", "group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab", null ],
+    [ "MR::toVdbBox", "group__BasicStructuresGroup.html#gafaceca609bb25c112d03e61621d7df0c", null ],
+    [ "MR::toVdbBox", "group__BasicStructuresGroup.html#ga4638fcf62c2a9d1394b8d69425b9f993", null ]
 ];

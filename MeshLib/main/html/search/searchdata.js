@@ -3,7 +3,8 @@ var indexSectionsWithContent =
   0: "abcdefghijklmnoprstuvwy",
   1: "m",
   2: "abcdefglmnpstv",
-  3: "abcdefghilmnoprstuvwy"
+  3: "m",
+  4: "abcdefghilmnoprstuvwy"
 };
 
 var indexSectionNames =
@@ -11,7 +12,8 @@ var indexSectionNames =
   0: "all",
   1: "namespaces",
   2: "files",
-  3: "pages"
+  3: "functions",
+  4: "pages"
 };
 
 var indexSectionLabels =
@@ -19,6 +21,7 @@ var indexSectionLabels =
   0: "All",
   1: "Namespaces",
   2: "Files",
-  3: "Pages"
+  3: "Functions",
+  4: "Pages"
 };
 

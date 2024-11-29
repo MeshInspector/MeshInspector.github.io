@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1SkyPatch.html":[6,0,1,0,1,601],
 "structMR_1_1SkyPatch.html":[6,0,2,0,1,586],
 "structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,1,0,1,601,1],
 "structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,2,0,1,586,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SymMatrix3.html#af018697d9a39a22f02a3c3cbdfe3ba5c":[6,0,0,0,7,5,15],
 "structMR_1_1SymMatrix3.html#afb6ed3ffe4bdda5d6267cc44ef816e9c":[6,0,0,0,7,5,10],
 "structMR_1_1SymMatrix3.html#afc689ce07450f684b99051e555894ee7":[6,0,0,0,7,5,13],
-"structMR_1_1SymMatrix4.html":[6,0,0,0,7,6],
-"structMR_1_1SymMatrix4.html#a02636edb960785731936c618186131dd":[6,0,0,0,7,6,17]
+"structMR_1_1SymMatrix4.html":[6,0,0,0,7,6]
 };

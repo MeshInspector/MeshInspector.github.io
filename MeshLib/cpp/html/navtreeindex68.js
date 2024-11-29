@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MeshBuilder_1_1Triangle.html":[6,0,1,0,1,16,3],
 "structMR_1_1MeshBuilder_1_1Triangle.html":[6,0,2,0,1,8,3],
 "structMR_1_1MeshBuilder_1_1Triangle.html#a67c89067a48e2a3d29e24b6a36d57de7":[6,0,1,0,1,16,3,0],
 "structMR_1_1MeshBuilder_1_1Triangle.html#a67c89067a48e2a3d29e24b6a36d57de7":[6,0,2,0,1,8,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[6,0,1,0,1,354,3],
 "structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[6,0,2,0,1,339,3],
 "structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,1,0,1,354,5],
-"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,2,0,1,339,5],
-"structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,1,0,1,354,0]
+"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,2,0,1,339,5]
 };

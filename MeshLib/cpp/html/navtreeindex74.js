@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1RigidScaleXf3.html#a7a23e297ae39af803b4a249aed7ff8b5":[6,0,1,0,1,552,1],
 "structMR_1_1RigidScaleXf3.html#a7a23e297ae39af803b4a249aed7ff8b5":[6,0,2,0,1,537,1],
 "structMR_1_1RigidScaleXf3.html#a89ce25c6f6b3805955c04f054a2fb0a7":[6,0,1,0,1,552,9],
 "structMR_1_1RigidScaleXf3.html#a89ce25c6f6b3805955c04f054a2fb0a7":[6,0,2,0,1,537,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1SimpleTimeRecord.html":[6,0,0,3,12],
 "structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca":[6,0,0,3,12,1],
 "structMR_1_1SimpleTimeRecord.html#a5bc2244721bb50d4a1d54c4d3cedd459":[6,0,0,3,12,0],
-"structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[6,0,0,3,12,2],
-"structMR_1_1SkyPatch.html":[6,0,1,0,1,601]
+"structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[6,0,0,3,12,2]
 };

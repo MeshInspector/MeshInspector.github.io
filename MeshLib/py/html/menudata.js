@@ -63,7 +63,7 @@ var menudata={children:[
 {text:"State Plugins Overview",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html"}]},
 {text:"API",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/APIPage.html",children:[
 {text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html"},
-{text:"Python",url:"@ref APIPyPage",children:[
+{text:"Python",url:"APIPyPage.html",children:[
 {text:"Namespace List",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
