@@ -11,6 +11,8 @@ var classMR_1_1DirectionWidget =
     [ "getDirection", "classMR_1_1DirectionWidget.html#a8b4334c69d67fa5facc71f1981cab1d1", null ],
     [ "getParentPtr", "classMR_1_1DirectionWidget.html#a0dc17f76add5e8f606454f6c9fee4aad", null ],
     [ "isMouseBlocked", "classMR_1_1DirectionWidget.html#a11e755a24b227cd14672ec94bfcd5028", null ],
+    [ "isVisible", "classMR_1_1DirectionWidget.html#a46d8141ed9672c79a97e527372067a9d", null ],
+    [ "obj", "classMR_1_1DirectionWidget.html#a2696f8f533806a5db94c1af1ebf0200b", null ],
     [ "reset", "classMR_1_1DirectionWidget.html#a5a2acfb8fd29d43fee23934a66211193", null ],
     [ "setColor", "classMR_1_1DirectionWidget.html#a332d85c9b4078c99b321602470690461", null ],
     [ "setMouseBlocked", "classMR_1_1DirectionWidget.html#aaacce6a74f1585b599a10bda3b361f5e", null ],

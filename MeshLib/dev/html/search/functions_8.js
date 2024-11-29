@@ -150,7 +150,7 @@ var searchData=
   ['isunfoldquadrangleconvex_147',['isUnfoldQuadrangleConvex',['../group__PlanarPathGroup.html#gaf1dd390e537cb9342ced1b65ad2b29d6',1,'MR']]],
   ['isvalid_148',['isValid',['../classMR_1_1DistanceMap.html#a1eaf3f29a82b7eb2528f578d2f9e8f34',1,'MR::DistanceMap::isValid(size_t x, size_t y) const'],['../classMR_1_1DistanceMap.html#af1b7ab47803d2d2e93f40336ba1e06f7',1,'MR::DistanceMap::isValid(size_t i) const']]],
   ['isvertexrepeatedonholebd_149',['isVertexRepeatedOnHoleBd',['../group__MeshFixerGroup.html#ga9bde4ada16adc982fb6789ca9dabbc66',1,'MR']]],
-  ['isvisible_150',['isVisible',['../classMR_1_1Object.html#a98c9e0d07b736d2b86c4d3d340b77844',1,'MR::Object']]],
+  ['isvisible_150',['isVisible',['../classMR_1_1Object.html#a98c9e0d07b736d2b86c4d3d340b77844',1,'MR::Object::isVisible()'],['../classMR_1_1DirectionWidget.html#a46d8141ed9672c79a97e527372067a9d',1,'MR::DirectionWidget::isVisible()']]],
   ['isvolumerenderingenabled_151',['isVolumeRenderingEnabled',['../classMR_1_1ObjectVoxels.html#a1e13873d4779acb7a43e40d9b78cce31',1,'MR::ObjectVoxels']]],
   ['iszeroradius_152',['isZeroRadius',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ad0e22f8a9ddce47d6aab63cfe35ab6bd',1,'MR::Features::Primitives::ConeSegment']]],
   ['itempressed_5f_153',['itemPressed_',['../classMR_1_1RibbonMenu.html#a981b9e4f52d4679a09fbbca4dab08573',1,'MR::RibbonMenu']]],

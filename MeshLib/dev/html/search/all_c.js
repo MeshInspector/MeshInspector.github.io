@@ -321,7 +321,7 @@ var searchData=
   ['isunfoldquadrangleconvex_318',['isUnfoldQuadrangleConvex',['../group__PlanarPathGroup.html#gaf1dd390e537cb9342ced1b65ad2b29d6',1,'MR']]],
   ['isvalid_319',['isValid',['../classMR_1_1DistanceMap.html#a1eaf3f29a82b7eb2528f578d2f9e8f34',1,'MR::DistanceMap::isValid(size_t x, size_t y) const'],['../classMR_1_1DistanceMap.html#af1b7ab47803d2d2e93f40336ba1e06f7',1,'MR::DistanceMap::isValid(size_t i) const']]],
   ['isvertexrepeatedonholebd_320',['isVertexRepeatedOnHoleBd',['../group__MeshFixerGroup.html#ga9bde4ada16adc982fb6789ca9dabbc66',1,'MR']]],
-  ['isvisible_321',['isVisible',['../classMR_1_1Object.html#a98c9e0d07b736d2b86c4d3d340b77844',1,'MR::Object']]],
+  ['isvisible_321',['isVisible',['../classMR_1_1Object.html#a98c9e0d07b736d2b86c4d3d340b77844',1,'MR::Object::isVisible()'],['../classMR_1_1DirectionWidget.html#a46d8141ed9672c79a97e527372067a9d',1,'MR::DirectionWidget::isVisible()']]],
   ['isvisualizemaskenum_322',['IsVisualizeMaskEnum',['../structMR_1_1IsVisualizeMaskEnum.html',1,'MR']]],
   ['isvisualizemaskenum_3c_20dimensionsvisualizepropertytype_20_3e_323',['IsVisualizeMaskEnum&lt; DimensionsVisualizePropertyType &gt;',['../structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html',1,'MR']]],
   ['isvisualizemaskenum_3c_20featurevisualizepropertytype_20_3e_324',['IsVisualizeMaskEnum&lt; FeatureVisualizePropertyType &gt;',['../structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html',1,'MR']]],
