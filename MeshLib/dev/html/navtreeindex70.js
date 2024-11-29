@@ -1,7 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1MutexOwner.html":[6,0,1,0,13,375],
-"structMR_1_1MutexOwner.html":[6,0,2,0,1,360],
 "structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9":[6,0,1,0,13,375,0],
 "structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9":[6,0,2,0,1,360,0],
 "structMR_1_1MutexOwner.html#a14db8ca7d0c17638612e3c103c8418a9":[6,0,1,0,13,375,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX70 =
 "structMR_1_1OpenVdbFloatGrid.html":[6,0,0,18,4],
 "structMR_1_1OpenVdbFloatGrid.html#a0773dceddd3bc098112050126cf99f3c":[6,0,0,18,4,1],
 "structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687":[6,0,0,18,4,0],
-"structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8":[6,0,0,18,4,2]
+"structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8":[6,0,0,18,4,2],
+"structMR_1_1OriginAndDimensions.html":[6,0,1,0,13,427],
+"structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,412]
 };
