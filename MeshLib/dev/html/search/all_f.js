@@ -25,7 +25,7 @@ var searchData=
   ['lastmergelevel_22',['lastMergeLevel',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#ac517049cbab38022a0ae418971403ec9',1,'MR::WatershedGraph::BasinInfo']]],
   ['lastmergevolume_23',['lastMergeVolume',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a52315365a6d8090680080cd9e1d62360',1,'MR::WatershedGraph::BasinInfo']]],
   ['lastnotloneedge_24',['lastNotLoneEdge',['../classMR_1_1MeshTopology.html#a183e7f78dfae636f44de186d488f8a4b',1,'MR::MeshTopology::lastNotLoneEdge()'],['../classMR_1_1PolylineTopology.html#a546f277b57be687222c6443838e254d4',1,'MR::PolylineTopology::lastNotLoneEdge()']]],
-  ['lastpoitcolor_25',['lastPoitColor',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ab89f19149e719236ee820e917e1ee882',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
+  ['lastpointcolor_25',['lastPointColor',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a77475b84bdeb4537766c53a804a90e31',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
   ['lastrenameobj_5f_26',['lastRenameObj_',['../classMR_1_1ImGuiMenu.html#ae809764ef8ca8203ef9f26e34abb2c2f',1,'MR::ImGuiMenu']]],
   ['lastupdateamount_27',['lastUpdateAmount',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#af87b0b720148b1f8a07ced0557424191',1,'MR::WatershedGraph::BasinInfo']]],
   ['lastvalidface_28',['lastValidFace',['../classMR_1_1MeshTopology.html#a7d1e6c97c4dd059dac11e327116393a3',1,'MR::MeshTopology']]],

@@ -238,6 +238,8 @@ var NAVTREEINDEX75 =
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[6,0,2,0,1,609,0],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[6,0,1,0,13,624,0,1],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[6,0,2,0,1,609,0,1],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a77475b84bdeb4537766c53a804a90e31":[6,0,1,0,13,624,0,3],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a77475b84bdeb4537766c53a804a90e31":[6,0,2,0,1,609,0,3],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[6,0,1,0,13,624,0,7],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[6,0,2,0,1,609,0,7],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[6,0,1,0,13,624,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a":[6,0,1,0,13,624,0,9],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a":[6,0,2,0,1,609,0,9],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#aa080474e426f7c4a981c49839ab20261":[6,0,1,0,13,624,0,8],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#aa080474e426f7c4a981c49839ab20261":[6,0,2,0,1,609,0,8],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ab89f19149e719236ee820e917e1ee882":[6,0,1,0,13,624,0,3],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ab89f19149e719236ee820e917e1ee882":[6,0,2,0,1,609,0,3]
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#aa080474e426f7c4a981c49839ab20261":[6,0,2,0,1,609,0,8]
 };

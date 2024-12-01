@@ -20,6 +20,7 @@ var classMR_1_1SurfacePointWidget =
     [ "isOnMove", "classMR_1_1SurfacePointWidget.html#a8dd6b1d6da44226abb2ebea02590229b", null ],
     [ "reset", "classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e", null ],
     [ "setAutoHover", "classMR_1_1SurfacePointWidget.html#af0454cbea26d720ec55e0e993b62d01b", null ],
+    [ "setBaseColor", "classMR_1_1SurfacePointWidget.html#a67378b4ec7b94d338fe63c5d977dd35b", null ],
     [ "setCurrentPosition", "classMR_1_1SurfacePointWidget.html#a1636e12784d40c8c0e9fd238fa08b998", null ],
     [ "setCurrentPosition", "classMR_1_1SurfacePointWidget.html#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59", null ],
     [ "setEndMoveCallback", "classMR_1_1SurfacePointWidget.html#a13db908e8da8c97e871385cef92ef43d", null ],

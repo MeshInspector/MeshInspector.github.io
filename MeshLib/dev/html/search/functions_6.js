@@ -15,7 +15,7 @@ var searchData=
   ['getactivebounds_12',['getActiveBounds',['../classMR_1_1ObjectVoxels.html#ab2dd41586da53c1ff6c7310a1e2edfbc',1,'MR::ObjectVoxels']]],
   ['getactivebox_13',['getActiveBox',['../classMR_1_1MarkedVoxelSlice.html#a3eb57f66e35c3ad6e95531620e2e40fa',1,'MR::MarkedVoxelSlice']]],
   ['getactiveplane_14',['getActivePlane',['../classMR_1_1MarkedVoxelSlice.html#a21bf4ef527270ad0d69f992c4378f606',1,'MR::MarkedVoxelSlice']]],
-  ['getactivepoint_15',['getActivePoint',['../classMR_1_1SurfaceContoursWidget.html#a9c431d937f0bfefb8fb898b61dd6c099',1,'MR::SurfaceContoursWidget']]],
+  ['getactivepoint_15',['getActivePoint',['../classMR_1_1SurfaceContoursWidget.html#a41ed68580b48ada61e6a45439be5755d',1,'MR::SurfaceContoursWidget']]],
   ['getactivesurfacepoint_16',['getActiveSurfacePoint',['../classMR_1_1SurfaceContoursWidget.html#a26dae9e0f33bd3584d3389e4483b5bc5',1,'MR::SurfaceContoursWidget']]],
   ['getactivetabindex_17',['getActiveTabIndex',['../classMR_1_1RibbonMenu.html#af87aa13ddadb0bc96103d7ce892a88b9',1,'MR::RibbonMenu']]],
   ['getactivevoxel_18',['getActiveVoxel',['../classMR_1_1MarkedVoxelSlice.html#a64f919f38e1712b774646be9eb857f99',1,'MR::MarkedVoxelSlice']]],

@@ -197,10 +197,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a900db8dbc2d61b95c806576c489d9eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adddcb0e5eeffb5c2cc80a3baf9955ad8" id="r_adddcb0e5eeffb5c2cc80a3baf9955ad8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adddcb0e5eeffb5c2cc80a3baf9955ad8">isClosedCountour</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj) const</td></tr>
 <tr class="separator:adddcb0e5eeffb5c2cc80a3baf9955ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a536ee89ef92d271cecbde5bee3c2330e" id="r_a536ee89ef92d271cecbde5bee3c2330e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536ee89ef92d271cecbde5bee3c2330e">highlightLastPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj)</td></tr>
-<tr class="separator:a536ee89ef92d271cecbde5bee3c2330e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c431d937f0bfefb8fb898b61dd6c099" id="r_a9c431d937f0bfefb8fb898b61dd6c099"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c431d937f0bfefb8fb898b61dd6c099">getActivePoint</a> () const</td></tr>
-<tr class="separator:a9c431d937f0bfefb8fb898b61dd6c099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ed68580b48ada61e6a45439be5755d" id="r_a41ed68580b48ada61e6a45439be5755d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::pair&lt; const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt; &amp;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41ed68580b48ada61e6a45439be5755d">getActivePoint</a> () const</td></tr>
+<tr class="separator:a41ed68580b48ada61e6a45439be5755d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61e38f7fa8bf8e5786f36691c5a5b218" id="r_a61e38f7fa8bf8e5786f36691c5a5b218"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61e38f7fa8bf8e5786f36691c5a5b218">setActivePoint</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt; obj, int index)</td></tr>
 <tr class="separator:a61e38f7fa8bf8e5786f36691c5a5b218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26dae9e0f33bd3584d3389e4483b5bc5" id="r_a26dae9e0f33bd3584d3389e4483b5bc5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::shared_ptr&lt; <a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26dae9e0f33bd3584d3389e4483b5bc5">getActiveSurfacePoint</a> () const</td></tr>
@@ -402,8 +400,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c431d937f0bfefb8fb898b61dd6c099" name="a9c431d937f0bfefb8fb898b61dd6c099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c431d937f0bfefb8fb898b61dd6c099">&#9670;&#160;</a></span>getActivePoint()</h2>
+<a id="a41ed68580b48ada61e6a45439be5755d" name="a41ed68580b48ada61e6a45439be5755d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ed68580b48ada61e6a45439be5755d">&#9670;&#160;</a></span>getActivePoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +410,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, int &gt; MR::SurfaceContoursWidget::getActivePoint </td>
+          <td class="memname">MRVIEWER_API std::pair&lt; const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt; &amp;, int &gt; MR::SurfaceContoursWidget::getActivePoint </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -420,7 +418,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -500,23 +498,6 @@ Public Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a536ee89ef92d271cecbde5bee3c2330e" name="a536ee89ef92d271cecbde5bee3c2330e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a536ee89ef92d271cecbde5bee3c2330e">&#9670;&#160;</a></span>highlightLastPoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::SurfaceContoursWidget::highlightLastPoint </td>
-          <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
