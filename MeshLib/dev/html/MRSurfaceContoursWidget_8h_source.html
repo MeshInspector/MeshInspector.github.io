@@ -290,44 +290,46 @@ $(function(){initNavTree('MRSurfaceContoursWidget_8h_source.html',''); initResiz
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="comment">// SurfaceContoursWidget internal variables</span></div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="keywordtype">bool</span> moveClosedPoint_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keywordtype">bool</span> activeChange_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="comment">// active point</span></div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="keywordtype">int</span> activeIndex_{ 0 };</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    std::shared_ptr&lt;MR::VisualObject&gt; activeObject_ = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="comment">// data storage</span></div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    SurfaceContours pickedPoints_;</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="comment">// all objects created in createPickWidget_ to quickly differentiate them from other features</span></div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    HashSet&lt;const VisualObject*&gt; myPickWidgets_;</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="comment">// connection storage</span></div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="keyword">struct </span>SurfaceConnectionHolder</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    {</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        boost::signals2::scoped_connection onMeshChanged;</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        boost::signals2::scoped_connection onPointsChanged;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    };</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    std::unordered_map&lt;std::shared_ptr&lt;VisualObject&gt;, SurfaceConnectionHolder&gt; surfaceConnectionHolders_;</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="comment">// CallBack functions</span></div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    PickerPointCallBack onPointAdd_;</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    PickerPointCallBack onPointMove_;</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    PickerPointCallBack onPointMoveFinish_;</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    PickerPointCallBack onPointRemove_;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    PickerPointObjectChecker isObjectValidToPick_;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="comment">// undo/redo flag; used by the history action classes to force disable internal checks</span></div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordtype">bool</span> undoRedoMode_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="comment">// History classes:</span></div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    <span class="keyword">class </span>AddRemovePointHistoryAction;</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="keyword">class </span>ChangePointActionPickerPoint;</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="keyword">class </span>SurfaceContoursWidgetClearAction;</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>};</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="comment">// pick sphere currently dragged by mouse</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1VisualObject.html">VisualObject</a> * draggedPickSphere_ = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="comment">// active point</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keywordtype">int</span> activeIndex_{ 0 };</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    std::shared_ptr&lt;MR::VisualObject&gt; activeObject_ = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="comment">// data storage</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    SurfaceContours pickedPoints_;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="comment">// all spheres created in createPickWidget_ to quickly differentiate them from other features</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    HashSet&lt;const VisualObject*&gt; myPickSpheres_;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="comment">// connection storage</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="keyword">struct </span>SurfaceConnectionHolder</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    {</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        boost::signals2::scoped_connection onMeshChanged;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        boost::signals2::scoped_connection onPointsChanged;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    };</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    std::unordered_map&lt;std::shared_ptr&lt;VisualObject&gt;, SurfaceConnectionHolder&gt; surfaceConnectionHolders_;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="comment">// CallBack functions</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    PickerPointCallBack onPointAdd_;</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    PickerPointCallBack onPointMove_;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    PickerPointCallBack onPointMoveFinish_;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    PickerPointCallBack onPointRemove_;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    PickerPointObjectChecker isObjectValidToPick_;</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    <span class="comment">// undo/redo flag; used by the history action classes to force disable internal checks</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keywordtype">bool</span> undoRedoMode_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="comment">// History classes:</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="keyword">class </span>AddRemovePointHistoryAction;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keyword">class </span>ChangePointActionPickerPoint;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="keyword">class </span>SurfaceContoursWidgetClearAction;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>};</div>
 </div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRGladGlfw_8h_html"><div class="ttname"><a href="MRGladGlfw_8h.html">MRGladGlfw.h</a></div></div>
 <div class="ttc" id="aMRHistoryStore_8h_html"><div class="ttname"><a href="MRHistoryStore_8h.html">MRHistoryStore.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
@@ -357,6 +359,7 @@ $(function(){initNavTree('MRSurfaceContoursWidget_8h_source.html',''); initResiz
 <div class="ttc" id="aclassMR_1_1SurfaceContoursWidget_html_ab8d692547325ba27bcae04c25a9802fb"><div class="ttname"><a href="classMR_1_1SurfaceContoursWidget.html#ab8d692547325ba27bcae04c25a9802fb">MR::SurfaceContoursWidget::removePoint</a></div><div class="ttdeci">MRVIEWER_API bool removePoint(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, int pickedIndex)</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceContoursWidget_html_adddcb0e5eeffb5c2cc80a3baf9955ad8"><div class="ttname"><a href="classMR_1_1SurfaceContoursWidget.html#adddcb0e5eeffb5c2cc80a3baf9955ad8">MR::SurfaceContoursWidget::isClosedCountour</a></div><div class="ttdeci">MRVIEWER_API bool isClosedCountour(const std::shared_ptr&lt; VisualObject &gt; &amp;obj) const</div></div>
 <div class="ttc" id="aclassMR_1_1Viewport_html_a2ee75851f20f8798cdefa740b799b467"><div class="ttname"><a href="classMR_1_1Viewport.html#a2ee75851f20f8798cdefa740b799b467">MR::Viewport::PickRenderObjectPredicate</a></div><div class="ttdeci">std::function&lt; bool(const VisualObject *, ViewportMask)&gt; PickRenderObjectPredicate</div><div class="ttdef"><b>Definition</b> MRViewport.h:155</div></div>
+<div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdoc">Visual Object.</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:131</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition</b> MRMouse.h:9</div></div>
 <div class="ttc" id="anamespaceMR_html_adf0c24ba1b9e4f32fd04264018065447"><div class="ttname"><a href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">MR::PickedPoint</a></div><div class="ttdeci">std::variant&lt; MeshTriPoint, EdgePoint, VertId, int &gt; PickedPoint</div><div class="ttdef"><b>Definition</b> MRPointOnObject.h:40</div></div>

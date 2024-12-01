@@ -392,7 +392,7 @@ var searchData=
   ['getpathvertices_389',['getPathVertices',['../classMR_1_1MeshTopology.html#aacf6c1f096fab25e975527557e03119d',1,'MR::MeshTopology::getPathVertices()'],['../classMR_1_1PolylineTopology.html#ab361c486e12e092c48559ed3d5a079db',1,'MR::PolylineTopology::getPathVertices()']]],
   ['getpercoorddeltasmode_390',['getPerCoordDeltasMode',['../classMR_1_1DistanceMeasurementObject.html#accc65af7cd4321f7cb1abf0ae192dc7e',1,'MR::DistanceMeasurementObject']]],
   ['getpickerfragmentshader_391',['getPickerFragmentShader',['../namespaceMR.html#af91e57bae7626f4e18c5bc1726ab2581',1,'MR']]],
-  ['getpicksphere_392',['getPickSphere',['../classMR_1_1SurfacePointWidget.html#aa8c6ffb5b20ff526434fba6f30176a10',1,'MR::SurfacePointWidget']]],
+  ['getpicksphere_392',['getPickSphere',['../classMR_1_1SurfacePointWidget.html#a0bd720379a39e8c1c66edd479989a1da',1,'MR::SurfacePointWidget']]],
   ['getpickthrough_393',['getPickThrough',['../classMR_1_1ITransformControls.html#a6d367635679cf6aa063434e2c41c06cd',1,'MR::ITransformControls']]],
   ['getpivot_394',['getPivot',['../classMR_1_1AncillaryImGuiLabel.html#a683dd458c5757baf3ea50d2c409ad687',1,'MR::AncillaryImGuiLabel']]],
   ['getpivotpoint_395',['getPivotPoint',['../classMR_1_1ObjectLabel.html#a4749aa36f962e97efaaa445c260e36b8',1,'MR::ObjectLabel']]],
