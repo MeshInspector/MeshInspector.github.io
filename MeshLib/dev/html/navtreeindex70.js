@@ -1,7 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6":[6,0,1,0,13,374,4],
-"structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6":[6,0,2,0,1,359,4],
 "structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,1,0,13,374,1],
 "structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,2,0,1,359,1],
 "structMR_1_1MutexOwner.html":[6,0,1,0,13,375],
@@ -249,5 +247,7 @@ var NAVTREEINDEX70 =
 "structMR_1_1OneMeshIntersection.html#ab42f0bd750d88e66c17bce92a1fe733d":[6,0,1,0,13,421,2],
 "structMR_1_1OneMeshIntersection.html#ab42f0bd750d88e66c17bce92a1fe733d":[6,0,2,0,1,406,2],
 "structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,1,0,13,421,1],
-"structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,2,0,1,406,1]
+"structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,2,0,1,406,1],
+"structMR_1_1OpenVdbFloatGrid.html":[6,0,0,18,4],
+"structMR_1_1OpenVdbFloatGrid.html#a0773dceddd3bc098112050126cf99f3c":[6,0,0,18,4,1]
 };
