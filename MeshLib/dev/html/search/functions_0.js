@@ -99,7 +99,7 @@ var searchData=
   ['appendgpuvisiblefaces_96',['appendGPUVisibleFaces',['../namespaceMR.html#a576eea4c4f274e1c943476be2be2394e',1,'MR']]],
   ['appendhistory_97',['AppendHistory',['../namespaceMR.html#a16bb6fdbdb21a92b1fa0da2432cc699a',1,'MR::AppendHistory(Args &amp;&amp;... args)'],['../namespaceMR.html#a82568b5f11eaffabab107d98250d2edf',1,'MR::AppendHistory(std::shared_ptr&lt; HistoryActionType &gt; action)']]],
   ['appendhistoryaction_98',['appendHistoryAction',['../classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5',1,'MR::Viewer']]],
-  ['appendpoint_99',['appendPoint',['../classMR_1_1SurfaceContoursWidget.html#a6d9587049cfb6c78fa1a9ce9f28bb2b8',1,'MR::SurfaceContoursWidget']]],
+  ['appendpoint_99',['appendPoint',['../classMR_1_1PickPointManager.html#a718234a5f034161f8d44e4aade1cad20',1,'MR::PickPointManager']]],
   ['apply_100',['apply',['../classMR_1_1FreeFormDeformer.html#aa0fae4749fc94fb1b929424066c935c8',1,'MR::FreeFormDeformer::apply()'],['../classMR_1_1Laplacian.html#a1a99ff3fbda2af6c118c5bb00a99d5d1',1,'MR::Laplacian::apply()'],['../classMR_1_1ColorTheme.html#a9639e110366c54c073cc52580086e79a',1,'MR::ColorTheme::apply()']]],
   ['applyandswap_101',['applyAndSwap',['../classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145',1,'MR::MeshDiff']]],
   ['applydouble_102',['applyDouble',['../namespaceMR.html#a7aba106487b0adfd357e9232e18a922f',1,'MR::applyDouble(const AffineXf3d *xf, const Vector3f &amp;p)'],['../namespaceMR.html#a7b5f265567104240be13bb0adc6d84f7',1,'MR::applyDouble(const Matrix3d *m, const Vector3f &amp;n)']]],

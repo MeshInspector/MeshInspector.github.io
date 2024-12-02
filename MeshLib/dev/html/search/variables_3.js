@@ -65,7 +65,7 @@ var searchData=
   ['clipplane_62',['clipPlane',['../structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8',1,'MR::ModelBaseRenderParams']]],
   ['clipspace_63',['clipSpace',['../structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973',1,'MR::PointInAllSpaces']]],
   ['close_64',['close',['../structMR_1_1LaunchParams.html#a79e98fc0f869a338e1adbd9d61c767a4',1,'MR::LaunchParams']]],
-  ['closecontourpointcolor_65',['closeContourPointColor',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
+  ['closecontourpointcolor_65',['closeContourPointColor',['../structMR_1_1PickPointManager_1_1Params.html#a5b12b52a6b20ce602a12044db14a817a',1,'MR::PickPointManager::Params']]],
   ['closed_66',['closed',['../structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320',1,'MR::OneMeshContour::closed'],['../structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a',1,'MROneMeshContour::closed']]],
   ['closestpointa_67',['closestPointA',['../structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc',1,'MR::Features::MeasureResult::Distance']]],
   ['closestpointb_68',['closestPointB',['../structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b',1,'MR::Features::MeasureResult::Distance']]],

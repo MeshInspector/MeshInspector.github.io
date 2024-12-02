@@ -64,7 +64,7 @@ var searchData=
   ['history_20group_61',['History group',['../group__HistoryGroup.html',1,'']]],
   ['historyaction_62',['HistoryAction',['../classMR_1_1HistoryAction.html',1,'MR']]],
   ['historyactionsvector_63',['HistoryActionsVector',['../namespaceMR.html#a951264a40637210aff82d6b0e375446f',1,'MR']]],
-  ['historynamesuffix_64',['historyNameSuffix',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ae497e46b3f35233ca235b4786f883540',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
+  ['historynamesuffix_64',['historyNameSuffix',['../structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160',1,'MR::PickPointManager::Params']]],
   ['historystackfilter_65',['HistoryStackFilter',['../namespaceMR.html#a85276508657eac277a84365d3e41c118',1,'MR']]],
   ['historystore_66',['HistoryStore',['../classMR_1_1HistoryStore.html',1,'MR']]],
   ['historystorechangedsignal_67',['HistoryStoreChangedSignal',['../classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410',1,'MR::HistoryStore']]],

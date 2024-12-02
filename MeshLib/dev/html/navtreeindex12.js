@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"MRStreamOperators_8h.html#abeae10f00619d98a6b9bb7bf7a06b322":[6,0,3,0,0,2,3,320,8],
+"MRStreamOperators_8h.html#ac3d2f2d86659c075b46b5e16dd7a1788":[6,0,3,0,0,2,3,320,21],
 "MRStreamOperators_8h.html#aca3c19b890aa7fc06a27b77bbd2166dd":[6,0,3,0,0,2,3,320,7],
 "MRStreamOperators_8h.html#ad85d26b0a95cdf398372e9564135b4ba":[6,0,3,0,0,2,3,320,18],
 "MRStreamOperators_8h.html#ad99ac1ebe76b35b655adb5b8f25c4378":[6,0,3,0,0,2,3,320,20],
@@ -23,8 +25,6 @@ var NAVTREEINDEX12 =
 "MRSubfeatures_8h.html#a2f919d193c35478d40f28668b8d2d209":[6,0,3,0,0,2,3,323,1],
 "MRSubfeatures_8h.html#a97570d41ec01a7111b742503bdc2c5dc":[6,0,3,0,0,2,3,323,2],
 "MRSubfeatures_8h_source.html":[6,0,3,0,0,2,3,323],
-"MRSurfaceContoursWidget_8h.html":[6,0,3,0,0,2,9,107],
-"MRSurfaceContoursWidget_8h_source.html":[6,0,3,0,0,2,9,107],
 "MRSurfaceDistanceBuilder_8h.html":[6,0,3,0,0,2,3,325],
 "MRSurfaceDistanceBuilder_8h_source.html":[6,0,3,0,0,2,3,325],
 "MRSurfaceDistance_8h.html":[6,0,3,0,0,2,3,324],

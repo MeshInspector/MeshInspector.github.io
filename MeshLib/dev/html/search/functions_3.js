@@ -107,7 +107,7 @@ var searchData=
   ['dragfloatvalid2_104',['DragFloatValid2',['../namespaceImGui.html#af6cde4f0c7ce90fbd8f1e25123620cca',1,'ImGui']]],
   ['dragfloatvalid3_105',['DragFloatValid3',['../namespaceImGui.html#a1518948fa064c73b105776a73da476dc',1,'ImGui']]],
   ['dragfloatvalidlinewidth_106',['DragFloatValidLineWidth',['../namespaceImGui.html#a65c23b1e96e6b6498e84ce4cc36c8b0a',1,'ImGui']]],
-  ['draggedpointwidget_107',['draggedPointWidget',['../classMR_1_1SurfaceContoursWidget.html#a91ba8cd49b3007acec768f8f5ce0277e',1,'MR::SurfaceContoursWidget']]],
+  ['draggedpointwidget_107',['draggedPointWidget',['../classMR_1_1PickPointManager.html#a61baa844efa1ebb8a509db54e7fa814c',1,'MR::PickPointManager']]],
   ['draginputint_108',['DragInputInt',['../namespaceImGui.html#a2e673d54604370c06cb076d0449831a3',1,'ImGui']]],
   ['dragintvalid_109',['DragIntValid',['../namespaceImGui.html#aed7e188bef741b7dadcd0903a2453748',1,'ImGui']]],
   ['dragintvalid3_110',['DragIntValid3',['../namespaceImGui.html#a05c747c1c3e6b5e5f9435452360a521f',1,'ImGui']]],

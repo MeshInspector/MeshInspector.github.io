@@ -227,7 +227,7 @@ var searchData=
   ['iscenestatecheck_224',['ISceneStateCheck',['../classMR_1_1ISceneStateCheck.html',1,'MR']]],
   ['iscircle_225',['isCircle',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a',1,'MR::Features::Primitives::ConeSegment']]],
   ['isclosed_226',['isClosed',['../classMR_1_1MeshTopology.html#ab5f2cd2b3dbdcb502edf741bee2bc7f1',1,'MR::MeshTopology::isClosed()'],['../classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8',1,'MR::PolylineTopology::isClosed()']]],
-  ['isclosedcountour_227',['isClosedCountour',['../classMR_1_1SurfaceContoursWidget.html#adddcb0e5eeffb5c2cc80a3baf9955ad8',1,'MR::SurfaceContoursWidget']]],
+  ['isclosedcountour_227',['isClosedCountour',['../classMR_1_1PickPointManager.html#aead9be191022d11da51d4eb2f8127735',1,'MR::PickPointManager']]],
   ['iscolor_228',['isColor',['../structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d',1,'MR::BindVertexAttribArraySettings']]],
   ['iscompbd_229',['isCompBd',['../group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6',1,'MR::MeshComponents::LargeByAreaComponentsSettings']]],
   ['isconical_230',['isConical',['../structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270',1,'MR::RenderDimensions::AngleParams']]],

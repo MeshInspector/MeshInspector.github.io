@@ -133,7 +133,7 @@ var searchData=
   ['removelonecontours_130',['removeLoneContours',['../namespaceMR.html#a63f651410ecabb9d18ecefb9abf54753',1,'MR']]],
   ['removelonedegeneratedcontours_131',['removeLoneDegeneratedContours',['../namespaceMR.html#afac751f311b648116a3a4afcd06a10c7',1,'MR']]],
   ['removeobject_132',['RemoveObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9',1,'MR::ChangeSceneAction']]],
-  ['removepoint_133',['removePoint',['../classMR_1_1SurfaceContoursWidget.html#ab8d692547325ba27bcae04c25a9802fb',1,'MR::SurfaceContoursWidget']]],
+  ['removepoint_133',['removePoint',['../classMR_1_1PickPointManager.html#a9c4b283d6f473e8f7b894b329c3af11d',1,'MR::PickPointManager']]],
   ['removesink_134',['removeSink',['../classMR_1_1Logger.html#a49397b1c0308f3639e914775ba6d0b38',1,'MR::Logger']]],
   ['removespikes_135',['removeSpikes',['../group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349',1,'MR']]],
   ['removing_20noise_20example_136',['Adding and removing noise Example',['../ExampleNoiseDenoise.html',1,'']]],

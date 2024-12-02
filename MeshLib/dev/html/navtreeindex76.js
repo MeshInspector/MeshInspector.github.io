@@ -1,13 +1,11 @@
 var NAVTREEINDEX76 =
 {
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ae497e46b3f35233ca235b4786f883540":[6,0,1,0,13,624,0,2],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#ae497e46b3f35233ca235b4786f883540":[6,0,2,0,1,609,0,2],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af26c10e919650426fe7e171b7b4b65ac":[6,0,1,0,13,624,0,4],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af26c10e919650426fe7e171b7b4b65ac":[6,0,2,0,1,609,0,4],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae":[6,0,1,0,13,624,0,0],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#af6b9c92d6af7d447375b4bf01d60eeae":[6,0,2,0,1,609,0,0],
-"structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,1,0,13,624,1],
-"structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html":[6,0,2,0,1,609,1],
+"structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce":[6,0,0,9,7,0,13],
+"structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[6,0,0,9,7,0,6],
+"structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[6,0,0,9,7,0,3],
+"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[6,0,0,9,7,0,9],
+"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,11],
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,5],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,1,0,13,626,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,2,0,1,611,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,1,0,13,626,0,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[6,0,2,0,1,631,2],
 "structMR_1_1TouchMoveListener.html":[6,0,1,0,13,648],
 "structMR_1_1TouchMoveListener.html":[6,0,2,0,1,633],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,1,0,13,648,3]
+"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,1,0,13,648,3],
+"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,2,0,1,633,3],
+"structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[6,0,1,0,13,648,2]
 };

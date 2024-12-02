@@ -200,7 +200,7 @@ var hierarchy =
     [ "Connectables...", null, [
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener >", "structMR_1_1MultiListener.html", [
         [ "MR::BoundarySelectionWidget", "classMR_1_1BoundarySelectionWidget.html", null ],
-        [ "MR::SurfaceContoursWidget", "classMR_1_1SurfaceContoursWidget.html", null ]
+        [ "MR::PickPointManager", "classMR_1_1PickPointManager.html", null ]
       ] ],
       [ "MR::MultiListener< PreDrawListener, DrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::DemoPlugin", "classMR_1_1DemoPlugin.html", null ]
@@ -435,7 +435,7 @@ var hierarchy =
       [ "MR::DirectionWidget::ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", null ],
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
-      [ "MR::SurfaceContoursWidget::WidgetHistoryAction", "structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html", null ],
+      [ "MR::PickPointManager::WidgetHistoryAction", "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ],
       [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", null ]
     ] ],
@@ -876,6 +876,7 @@ var hierarchy =
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
     [ "MR::VoxelsVolumeCachingAccessor< V >::Parameters", "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
+    [ "MR::PickPointManager::Params", "structMR_1_1PickPointManager_1_1Params.html", null ],
     [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
@@ -1082,7 +1083,6 @@ var hierarchy =
     [ "MR::RenderWrapObject::detail::SubobjectStorage< WrappedModelSubobject< IsPrimary, ObjectPoints > >", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", [
       [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectPoints >, RenderPointsObject >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
     ] ],
-    [ "MR::SurfaceContoursWidget::SurfaceContoursWidgetParams", "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html", null ],
     [ "MR::SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", null ],
     [ "MR::SymbolMeshParams", "structMR_1_1SymbolMeshParams.html", [
       [ "MR::TextMeshAlignParams", "structMR_1_1TextMeshAlignParams.html", null ]
