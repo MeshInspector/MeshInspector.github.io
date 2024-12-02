@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1detail_1_1ScopeGuard.html#a80a080271e0af15a7e4244bcc72d35a4":[6,0,2,0,1,1,3,3],
 "classMR_1_1detail_1_1ScopeGuard.html#ab72f5f420a40ffb2fdeba77f9cfc3c6f":[6,0,1,0,13,3,3,1],
 "classMR_1_1detail_1_1ScopeGuard.html#ab72f5f420a40ffb2fdeba77f9cfc3c6f":[6,0,2,0,1,1,3,1],
 "classPythonStreamRedirector.html":[6,0,2,0,55],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "group__AABBTreeGroup.html#ga834d7e50b54b1b8c511990fc9d14c09c":[6,0,0,1,76],
 "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165":[6,0,0,1,80],
 "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19":[6,0,0,1,36],
-"group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[6,0,0,1,40],
-"group__AABBTreeGroup.html#ga881bc4cb6ab7f415bf85d9235e2ca740":[6,0,0,1,108]
+"group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[6,0,0,1,40]
 };

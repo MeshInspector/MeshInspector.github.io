@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1OpenVdbFloatGrid.html":[6,0,0,18,4],
+"structMR_1_1OpenVdbFloatGrid.html#a0773dceddd3bc098112050126cf99f3c":[6,0,0,18,4,1],
 "structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687":[6,0,0,18,4,0],
 "structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8":[6,0,0,18,4,2],
 "structMR_1_1OriginAndDimensions.html":[6,0,1,0,13,427],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,1,0,13,456,1],
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,2,0,1,441,1],
 "structMR_1_1PointsLoadSettings.html":[6,0,1,0,13,457],
-"structMR_1_1PointsLoadSettings.html":[6,0,2,0,1,442],
-"structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[6,0,1,0,13,457,1],
-"structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[6,0,2,0,1,442,1]
+"structMR_1_1PointsLoadSettings.html":[6,0,2,0,1,442]
 };

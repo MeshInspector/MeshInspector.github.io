@@ -5626,6 +5626,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:aa2303df423aaea1a91ce570293117d37"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa2303df423aaea1a91ce570293117d37">putSimpleVolumeInDenseGrid</a> (AccessorOrGrid &amp;gridAccessor, const Vector3i &amp;minCoord, const SimpleVolume &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:aa2303df423aaea1a91ce570293117d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy given <code>simpleVolume</code> into the <code>grid</code>, starting at <code>minCoord</code> Instantiated for AccessorOrGrid in { openvdb::FloatGrid::Accessor, FloatGrid, openvdb::FloatGrid }. The template is used to not include openvdb's mess into this header (forward declaring classes in openvdb is also non-trivial). When used with a Grid, multithreaded implementation of copying is used (so the function is not thread safe). When used with an Accessor, this function could be called from different threads on the same volume (provided that accessors are different, of course).  <br /></td></tr>
 <tr class="separator:aa2303df423aaea1a91ce570293117d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac371eca9452d0b5c58eafb9f21965a11" id="r_ac371eca9452d0b5c58eafb9f21965a11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac371eca9452d0b5c58eafb9f21965a11">makeVdbTopologyDense</a> (VdbVolume &amp;volume)</td></tr>
+<tr class="memdesc:ac371eca9452d0b5c58eafb9f21965a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make <code>volume</code> dense without setting any values.  <br /></td></tr>
+<tr class="separator:ac371eca9452d0b5c58eafb9f21965a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8e39754438588fbde8b091279db752" id="r_a0d8e39754438588fbde8b091279db752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d8e39754438588fbde8b091279db752">vdbVolumeToSimpleVolume</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a0d8e39754438588fbde8b091279db752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6e921b59b28810967128b1e54c4a51" id="r_a7c6e921b59b28810967128b1e54c4a51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6e921b59b28810967128b1e54c4a51">vdbVolumeToSimpleVolumeNorm</a> (const VdbVolume &amp;vdbVolume, const Box3i &amp;activeBox=Box3i(), std::optional&lt; <a class="el" href="#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &gt; sourceScale={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
@@ -21477,6 +21480,25 @@ template&lt;typename RenderObjType &gt; </div>
 </div><div class="memdoc">
 
 <p>creates a mesh of sphere with regular triangulation (parallels and meridians) </p>
+
+</div>
+</div>
+<a id="ac371eca9452d0b5c58eafb9f21965a11" name="ac371eca9452d0b5c58eafb9f21965a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac371eca9452d0b5c58eafb9f21965a11">&#9670;&#160;</a></span>makeVdbTopologyDense()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::makeVdbTopologyDense </td>
+          <td>(</td>
+          <td class="paramtype">VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make <code>volume</code> dense without setting any values. </p>
 
 </div>
 </div>
