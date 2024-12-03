@@ -6,7 +6,7 @@
   !function () {
     var currentHost = window.location.hostname;
     var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
       var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
@@ -147,42 +147,31 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><p>Some examples of mesh modification are presented here</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRAffineXf3_8h.html">MRMesh/MRAffineXf3.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMeshRelax_8h.html">MRMesh/MRMeshRelax.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMeshSubdivide_8h.html">MRMesh/MRMeshSubdivide.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRTorus_8h.html">MRMesh/MRTorus.h</a>&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRAffineXf3.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshRelax.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSubdivide.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRTorus.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="MeshBoolean_8dox_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> mesh = <a class="code hl_function" href="namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a>();</div>
+<div class="line">    MR::Mesh mesh = MR::makeTorus();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Relax mesh (5 iterations)</span></div>
-<div class="line">    <a class="code hl_function" href="group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">MR::relax</a>( mesh, {{5}} );</div>
+<div class="line">    MR::relax( mesh, {{5}} );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Subdivide mesh</span></div>
-<div class="line">    <a class="code hl_struct" href="structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a> props;</div>
-<div class="line">    props.<a class="code hl_variable" href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">maxDeviationAfterFlip</a> = 0.5f;</div>
-<div class="line">    <a class="code hl_function" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a>( mesh, props );</div>
+<div class="line">    MR::SubdivideSettings props;</div>
+<div class="line">    props.maxDeviationAfterFlip = 0.5f;</div>
+<div class="line">    MR::subdivideMesh( mesh, props );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Rotate mesh</span></div>
 <div class="line">    MR::AffineXf3f rotationXf = MR::AffineXf3f::linear( MR::Matrix3f::rotation( MR::Vector3f::plusZ(), MR::PI_F * 0.5f ) );</div>
-<div class="line">    mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( rotationXf );</div>
+<div class="line">    mesh.transform( rotationXf );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html"><div class="ttname"><a href="MRMeshRelax_8h.html">MRMeshRelax.h</a></div></div>
-<div class="ttc" id="aMRMeshSubdivide_8h_html"><div class="ttname"><a href="MRMeshSubdivide_8h.html">MRMeshSubdivide.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRTorus_8h_html"><div class="ttname"><a href="MRMesh_2MRTorus_8h.html">MRTorus.h</a></div></div>
-<div class="ttc" id="agroup__MeshRelaxGroup_html_ga82c8571f065eff9a7403c41093b44a53"><div class="ttname"><a href="group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">MR::relax</a></div><div class="ttdeci">MRMESH_API bool relax(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, ProgressCallback cb={})</div></div>
-<div class="ttc" id="agroup__MeshSubdivideGroup_html_ga8e8a41112544b99ef8f20e3e6b61fab7"><div class="ttname"><a href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></div><div class="ttdeci">MRMESH_API int subdivideMesh(Mesh &amp;mesh, const SubdivideSettings &amp;settings={})</div></div>
-<div class="ttc" id="anamespaceMR_html_a9c4abf9ec20745c55a6825637894668c"><div class="ttname"><a href="namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a></div><div class="ttdeci">MRMESH_API Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
-<div class="ttc" id="astructMR_1_1SubdivideSettings_html"><div class="ttname"><a href="structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></div><div class="ttdef"><b>Definition</b> MRMeshSubdivide.h:17</div></div>
-<div class="ttc" id="astructMR_1_1SubdivideSettings_html_adf497f2181525852eaeee09ce71fb476"><div class="ttname"><a href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">MR::SubdivideSettings::maxDeviationAfterFlip</a></div><div class="ttdeci">float maxDeviationAfterFlip</div><div class="ttdoc">Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation.</div><div class="ttdef"><b>Definition</b> MRMeshSubdivide.h:23</div></div>
+<div class="ttc" id="aMeshBoolean_8dox_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="MeshBoolean_8dox_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> MeshBoolean.dox.cpp:8</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> math</div>
 <div class="line"> </div>

@@ -68,7 +68,7 @@ PROJECT_LOGO           = favicon.ico
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY = MeshLib/dev
+OUTPUT_DIRECTORY       = MeshLib/Main
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
@@ -815,7 +815,7 @@ FILE_VERSION_FILTER    =
 # DoxygenLayout.xml, doxygen will parse it automatically even if the LAYOUT_FILE
 # tag is left empty.
 
-LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayout.xml
+LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutMain.xml
 
 # The CITE_BIB_FILES tag can be used to specify one or more bib files containing
 # the reference definitions. This must be a list of .bib files. The .bib
@@ -943,8 +943,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = ../MeshLib/source \
-                         ../MeshLib/doxygen \
+INPUT                  = ../MeshLib/doxygen \
                          ../MeshLib/examples
 
 # This tag can be used to specify the character encoding of the source files
@@ -985,12 +984,8 @@ INPUT_FILE_ENCODING    =
 # provided as doxygen C comment), *.py, *.pyw, *.f90, *.f95, *.f03, *.f08,
 # *.f18, *.f, *.for, *.vhd, *.vhdl, *.ucf, *.qsf and *.ice.
 
-FILE_PATTERNS          = *.h \
-                         *.dox \
-                         *.dox.cpp \
-                         *.dox.c \
-                         *.dox.cs \
-                         *.dox.py
+FILE_PATTERNS          = *.dox \
+                         *.cpp
 
 # The RECURSIVE tag can be used to specify whether or not subdirectories should
 # be searched for input files as well.
@@ -1007,7 +1002,9 @@ RECURSIVE              = YES
 
 EXCLUDE                = ../MeshLib/source/OpenCTM \
                          ../MeshLib/source/MRMesh/miniply.h \
-                         ../MeshLib/source/MRMesh/MRphmap.h
+                         ../MeshLib/source/MRMesh/MRphmap.h \
+                         ../MeshLib/doxygen/APICppPage.dox \
+                         ../MeshLib/doxygen/APIPyPage.dox
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
@@ -1101,10 +1098,7 @@ INPUT_FILTER           =
 # need to set EXTENSION_MAPPING for the extension otherwise the files are not
 # properly processed by doxygen.
 
-FILTER_PATTERNS        = *.dox.py=preprocessors/python.sed \
-                         *.dox.c=preprocessors/c.sed \
-                         *.dox.cpp=preprocessors/c.sed \
-                         *.dox.cs=preprocessors/c.sed
+FILTER_PATTERNS        =
 
 # If the FILTER_SOURCE_FILES tag is set to YES, the input filter (if set using
 # INPUT_FILTER) will also be used to filter the input files that are used for
@@ -1325,7 +1319,7 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER = html_header.html
+HTML_HEADER            =
 
 # The HTML_FOOTER tag can be used to specify a user-defined HTML footer for each
 # generated HTML page. If the tag is left blank doxygen will generate a standard
@@ -2443,7 +2437,8 @@ SKIP_FUNCTION_MACROS   = YES
 # the path). If a tag file is not located in the directory in which doxygen is
 # run, you must also specify the path to the tagfile here.
 
-TAGFILES               =
+TAGFILES               = MeshLibCpp/MeshLibCpp.tag=../../MeshLibCpp/html \
+                         MeshLibPy/MeshLibPy.tag=../../MeshLibPy/html
 
 # When a file name is specified after GENERATE_TAGFILE, doxygen will create a
 # tag file that is based on the input files it reads. See section "Linking to
@@ -2835,3 +2830,4 @@ MSCGEN_TOOL            =
 # command).
 
 MSCFILE_DIRS           =
+

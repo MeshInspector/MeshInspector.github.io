@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['imguihelpers_2eh_0',['ImGuiHelpers.h',['../ImGuiHelpers_8h.html',1,'']]],
-  ['imguimenu_2eh_1',['ImGuiMenu.h',['../ImGuiMenu_8h.html',1,'']]]
+  ['laplacianexample_2edox_0',['LaplacianExample.dox',['../LaplacianExample_8dox.html',1,'']]],
+  ['license_2edox_1',['License.dox',['../License_8dox.html',1,'']]]
 ];

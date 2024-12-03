@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['jacobiantype_0',['JacobianType',['../structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3',1,'MR::ConeFittingFunctor']]],
-  ['join_1',['join',['../classMR_1_1RangeProcessor.html#a6a0210e315715506b9c1ccfa4ad468c4',1,'MR::RangeProcessor::join()'],['../classMR_1_1RangeProcessorSingle.html#aaf47bdf40d75c45e729131d8e83d105c',1,'MR::RangeProcessorSingle::join()'],['../classMR_1_1RangeCounter.html#ad2fbbfb496bbf63f5db4608cd5c1ee61',1,'MR::RangeCounter::join()']]],
-  ['join_20the_20community_2',['Join the Community',['../index.html#autotoc_md6',1,'']]],
-  ['joystickupdateconnected_3',['joystickUpdateConnected',['../classMR_1_1Viewer.html#a76cf67a7300f775b7852b4749e7da446',1,'MR::Viewer']]]
+  ['net_20command_20line_20interface_0',['Installation via .NET Command-Line Interface',['../MeshLibCSharpSetupGuide.html#autotoc_md33',1,'']]],
+  ['net_20sdk_1',['.NET SDK',['../MeshLibCSharpSetupGuide.html#autotoc_md28',1,'']]],
+  ['noise_20example_2',['Adding and removing noise Example',['../ExampleNoiseDenoise.html',1,'']]],
+  ['noisedenoiseexample_2edox_3',['NoiseDenoiseExample.dox',['../NoiseDenoiseExample_8dox.html',1,'']]],
+  ['nuget_4',['Installation via NuGet',['../MeshLibCSharpSetupGuide.html#autotoc_md30',1,'']]],
+  ['nuget_20package_5',['Installation from a Downloaded NuGet Package',['../MeshLibCSharpSetupGuide.html#autotoc_md32',1,'']]],
+  ['numpy_20grid_6',['Triangulation of a regular Numpy grid',['../ExampleNumpyTriangulation.html',1,'']]],
+  ['numpy_20support_7',['Numpy support',['../ExampleNumpy.html',1,'']]],
+  ['numpy_2edox_8',['Numpy.dox',['../Numpy_8dox.html',1,'']]],
+  ['numpytriangulation_2edox_9',['NumpyTriangulation.dox',['../NumpyTriangulation_8dox.html',1,'']]]
 ];

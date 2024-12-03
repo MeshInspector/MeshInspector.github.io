@@ -6,7 +6,7 @@
   !function () {
     var currentHost = window.location.hostname;
     var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
       var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
@@ -145,7 +145,7 @@ $(function(){initNavTree('ExampleViewer.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Viewer Example</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of using <a class="el" href="namespaceViewer.html">Viewer</a></p>
+<div class="textblock"><p>Example of using Viewer</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">import</span> os</div>
@@ -189,10 +189,10 @@ $(function(){initNavTree('ExampleViewer.html',''); initResizable(true); });
 <div class="line"><span class="comment"># close viewer window nicely</span></div>
 <div class="line">mv.Viewer().shutdown()</div>
 <div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
-</div><!-- fragment --> <a class="el" href="namespaceViewer.html">Viewer</a> with scene tree <div class="image">
+</div><!-- fragment --> Viewer with scene tree <div class="image">
 <img src="Viewer_with_scene_tree.png" alt=""/>
 </div>
- <a class="el" href="namespaceViewer.html">Viewer</a> without scene tree <div class="image">
+ Viewer without scene tree <div class="image">
 <img src="Viewer_without_scene_tree.png" alt=""/>
 </div>
  <dl class="section note"><dt>Note</dt><dd>Unfortunately viewer now does not work on macOS</dd></dl>
