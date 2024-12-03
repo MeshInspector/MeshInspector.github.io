@@ -10,6 +10,7 @@ var MRVDBConversions_8h =
     [ "gridToMesh", "MRVDBConversions_8h.html#ad8e49582fe849014967a8baf003fd27b", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#a1ad03b5a42934e43debc76695507a680", null ],
     [ "makeSignedByWindingNumber", "MRVDBConversions_8h.html#aeb145c323941c5fd06c513bc640d05b1", null ],
+    [ "makeVdbTopologyDense", "MRVDBConversions_8h.html#ac371eca9452d0b5c58eafb9f21965a11", null ],
     [ "meshToDistanceField", "MRVDBConversions_8h.html#a3327e8bcfee1e492daeb80b3500c2ca2", null ],
     [ "meshToLevelSet", "MRVDBConversions_8h.html#adc86f37e5a8bb2c7c0b30dfc636d8e90", null ],
     [ "meshToVolume", "MRVDBConversions_8h.html#ab26a3095c2f054ad6f7ecab11ff7b7ff", null ],

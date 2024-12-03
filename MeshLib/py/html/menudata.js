@@ -24,47 +24,8 @@
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
-{text:"About",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/index.html"},
-{text:"Getting Started",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html",children:[
-{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html"},
-{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibMainSetupGuide.html"},
-{text:"C#",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html"}]},
-{text:"License",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/License.html"},
-{text:"Tutorials",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html"}]},
-{text:"Examples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html",children:[
-{text:"General Samples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples",children:[
-{text:"Application Based on MeshLib",url:"@ref BasedApplication"},
-{text:"Mesh Load and Save",url:"@ref ExampleMeshLoadSave"},
-{text:"Export Raw Triangles",url:"@ref ExampleMeshExport"},
-{text:"Mesh Modification",url:"@ref ExampleMeshModification"},
-{text:"Mesh Boolean",url:"@ref ExampleMeshBoolean"},
-{text:"Mesh Decimate",url:"@ref ExampleMeshDecimate"},
-{text:"Mesh Offset",url:"@ref ExampleMeshOffset"},
-{text:"Mesh Fill Hole",url:"@ref ExampleMeshFillHole"},
-{text:"Mesh Stitch Holes",url:"@ref ExampleMeshStitchHole"},
-{text:"Mesh Resolve Degenerations",url:"@ref ExampleMeshResolveDegenerations"},
-{text:"Global Registration",url:"@ref ExampleGlobalRegistration"},
-{text:"Mesh ICP",url:"@ref ExampleMeshICP"},
-{text:"Mesh Extrude",url:"@ref ExampleMeshExtrude"},
-{text:"Mesh Free Form Deformation",url:"@ref ExampleFreeForm"},
-{text:"Mesh Laplacian Deformation",url:"@ref ExampleLaplacian"},
-{text:"Mesh Denoise",url:"@ref ExampleNoiseDenoise"},
-{text:"Triangulation",url:"@ref ExampleTriangulation"},
-{text:"Text to Mesh",url:"@ref ExampleMeshFromText"}]},
-{text:"Python Specific Samples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples",children:[
-{text:"Viewer",url:"@ref ExampleViewer"},
-{text:"Plotly Visualization",url:"@ref ExamplePlotly"},
-{text:"Using Numpy",url:"@ref ExampleNumpy"},
-{text:"Numpy Triangulation",url:"@ref ExampleNumpyTriangulation"}]}]},
-{text:"Package Overview",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html",children:[
-{text:"Data Model Class Hierarchy",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/DataModel.html"},
-{text:"Spaces and Transformations",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html"},
-{text:"State Plugins Overview",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html"}]},
-{text:"API",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/APIPage.html",children:[
-{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html"},
-{text:"Python",url:"APIPyPage.html",children:[
-{text:"Namespace List",url:"namespaces.html",children:[
+{text:"Related Pages",url:"pages.html"},
+{text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
@@ -133,7 +94,7 @@ var menudata={children:[
 {text:"u",url:"namespacemembers_vars_u.html#index_u"},
 {text:"v",url:"namespacemembers_vars_v.html#index_v"},
 {text:"w",url:"namespacemembers_vars_w.html#index_w"}]}]}]},
-{text:"Class List",url:"annotated.html",children:[
+{text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
 {text:"Class Hierarchy",url:"hierarchy.html"},
@@ -218,6 +179,5 @@ var menudata={children:[
 {text:"x",url:"functions_vars_x.html#index_x"},
 {text:"y",url:"functions_vars_y.html#index_y"},
 {text:"z",url:"functions_vars_z.html#index_z"}]}]}]},
-{text:"File List",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}]},
-{text:"Thirdparty List",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html"}]}
+{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html"}]}]}

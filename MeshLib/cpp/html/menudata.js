@@ -24,47 +24,9 @@
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
-{text:"About",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/index.html"},
-{text:"Getting Started",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/InstallationGuide.html",children:[
-{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibPythonSetupGuide.html"},
-{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibSetupGuide.html"},
-{text:"C#",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/MeshLibCSharpSetupGuide.html"}]},
-{text:"License",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/License.html"},
-{text:"Tutorials",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/FirstPluginTutorial.html"}]},
-{text:"Examples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html",children:[
-{text:"General Samples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#GeneralExamples",children:[
-{text:"Application Based on MeshLib",url:"@ref BasedApplication"},
-{text:"Mesh Load and Save",url:"@ref ExampleMeshLoadSave"},
-{text:"Export Raw Triangles",url:"@ref ExampleMeshExport"},
-{text:"Mesh Modification",url:"@ref ExampleMeshModification"},
-{text:"Mesh Boolean",url:"@ref ExampleMeshBoolean"},
-{text:"Mesh Decimate",url:"@ref ExampleMeshDecimate"},
-{text:"Mesh Offset",url:"@ref ExampleMeshOffset"},
-{text:"Mesh Fill Hole",url:"@ref ExampleMeshFillHole"},
-{text:"Mesh Stitch Holes",url:"@ref ExampleMeshStitchHole"},
-{text:"Mesh Resolve Degenerations",url:"@ref ExampleMeshResolveDegenerations"},
-{text:"Global Registration",url:"@ref ExampleGlobalRegistration"},
-{text:"Mesh ICP",url:"@ref ExampleMeshICP"},
-{text:"Mesh Extrude",url:"@ref ExampleMeshExtrude"},
-{text:"Mesh Free Form Deformation",url:"@ref ExampleFreeForm"},
-{text:"Mesh Laplacian Deformation",url:"@ref ExampleLaplacian"},
-{text:"Mesh Denoise",url:"@ref ExampleNoiseDenoise"},
-{text:"Triangulation",url:"@ref ExampleTriangulation"},
-{text:"Text to Mesh",url:"@ref ExampleMeshFromText"}]},
-{text:"Python Specific Samples",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/Examples.html#PythonSpecificExamples",children:[
-{text:"Viewer",url:"@ref ExampleViewer"},
-{text:"Plotly Visualization",url:"@ref ExamplePlotly"},
-{text:"Using Numpy",url:"@ref ExampleNumpy"},
-{text:"Numpy Triangulation",url:"@ref ExampleNumpyTriangulation"}]}]},
-{text:"Package Overview",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/PackageOverview.html",children:[
-{text:"Data Model Class Hierarchy",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/DataModel.html"},
-{text:"Spaces and Transformations",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/SpacesHelp.html"},
-{text:"State Plugins Overview",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/StatePluginsHelp.html"}]},
-{text:"API",url:"^https://meshinspector.github.io/MeshLib/dev/cpp/html/APIPage.html",children:[
-{text:"C++",url:"APICppPage.html",children:[
+{text:"Related Pages",url:"pages.html"},
 {text:"Topics",url:"topics.html"},
-{text:"Namespace List",url:"namespaces.html",children:[
+{text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
@@ -190,7 +152,8 @@ var menudata={children:[
 {text:"x",url:"namespacemembers_eval.html#index_x"},
 {text:"y",url:"namespacemembers_eval.html#index_y"},
 {text:"z",url:"namespacemembers_eval.html#index_z"}]}]}]},
-{text:"Class List",url:"annotated.html",children:[
+{text:"Concepts",url:"concepts.html"},
+{text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
 {text:"Class Hierarchy",url:"hierarchy.html"},
@@ -342,7 +305,7 @@ var menudata={children:[
 {text:"v",url:"functions_eval.html#index_v"},
 {text:"w",url:"functions_eval.html#index_w"}]},
 {text:"Related Symbols",url:"functions_rela.html"}]}]},
-{text:"File List",url:"files.html",children:[
+{text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
@@ -412,6 +375,4 @@ var menudata={children:[
 {text:"r",url:"globals_defs.html#index_r"},
 {text:"s",url:"globals_defs.html#index_s"},
 {text:"t",url:"globals_defs.html#index_t"},
-{text:"v",url:"globals_defs.html#index_v"}]}]}]}]},
-{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html"}]},
-{text:"Thirdparty List",url:"^https://meshinspector.github.io/MeshLib/dev/main/html/ThirdParty.html"}]}
+{text:"v",url:"globals_defs.html#index_v"}]}]}]}]}

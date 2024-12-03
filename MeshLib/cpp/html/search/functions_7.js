@@ -31,13 +31,12 @@ var searchData=
   ['height_28',['height',['../group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae',1,'MR']]],
   ['hidpi_5fscaling_29',['hidpi_scaling',['../classMR_1_1ImGuiMenu.html#ac28c9493029fa946734f3ed3980b6a68',1,'MR::ImGuiMenu']]],
   ['highlightblocking_5f_30',['highlightBlocking_',['../classMR_1_1RibbonMenu.html#a49daca6118b0fa3460e5f9c85d2f8070',1,'MR::RibbonMenu']]],
-  ['highlightlastpoint_31',['highlightLastPoint',['../classMR_1_1SurfaceContoursWidget.html#a536ee89ef92d271cecbde5bee3c2330e',1,'MR::SurfaceContoursWidget']]],
-  ['highlightwindowarea_32',['highlightWindowArea',['../namespaceMR_1_1UI.html#a0e2d922d2332948836f35b41d188e912',1,'MR::UI']]],
-  ['histogram_33',['Histogram',['../classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819',1,'MR::Histogram::Histogram()=default'],['../classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7',1,'MR::Histogram::Histogram(float min, float max, size_t size)']]],
-  ['histogram_34',['histogram',['../classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868',1,'MR::ObjectVoxels']]],
-  ['historian_35',['Historian',['../classMR_1_1Historian.html#a7869ebc98ea62e7be5a19e2c4322b859',1,'MR::Historian']]],
-  ['holedirarea_36',['holeDirArea',['../structMR_1_1Mesh.html#addb26b3e42dbd2a5418b461add1d9f57',1,'MR::Mesh']]],
-  ['holeperimiter_37',['holePerimiter',['../structMR_1_1Mesh.html#af3fca747ad4dc619010b3f7dbb857f86',1,'MR::Mesh']]],
-  ['hover_38',['hover',['../classMR_1_1ITransformControls.html#a18436dfbd4ff243fc8bd07d0a3f36b73',1,'MR::ITransformControls']]],
-  ['hover_5f_39',['hover_',['../classMR_1_1ITransformControls.html#a866a780325d0337774ee4fc21b430da4',1,'MR::ITransformControls']]]
+  ['highlightwindowarea_31',['highlightWindowArea',['../namespaceMR_1_1UI.html#a0e2d922d2332948836f35b41d188e912',1,'MR::UI']]],
+  ['histogram_32',['Histogram',['../classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819',1,'MR::Histogram::Histogram()=default'],['../classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7',1,'MR::Histogram::Histogram(float min, float max, size_t size)']]],
+  ['histogram_33',['histogram',['../classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868',1,'MR::ObjectVoxels']]],
+  ['historian_34',['Historian',['../classMR_1_1Historian.html#a7869ebc98ea62e7be5a19e2c4322b859',1,'MR::Historian']]],
+  ['holedirarea_35',['holeDirArea',['../structMR_1_1Mesh.html#addb26b3e42dbd2a5418b461add1d9f57',1,'MR::Mesh']]],
+  ['holeperimiter_36',['holePerimiter',['../structMR_1_1Mesh.html#af3fca747ad4dc619010b3f7dbb857f86',1,'MR::Mesh']]],
+  ['hover_37',['hover',['../classMR_1_1ITransformControls.html#a18436dfbd4ff243fc8bd07d0a3f36b73',1,'MR::ITransformControls']]],
+  ['hover_5f_38',['hover_',['../classMR_1_1ITransformControls.html#a866a780325d0337774ee4fc21b430da4',1,'MR::ITransformControls']]]
 ];

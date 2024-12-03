@@ -26,53 +26,106 @@ var NAVTREE =
 [
   [ "MeshLib Documentation", "index.html", [
     [ "About", "index.html", null ],
-    [ "Getting Started", "InstallationGuide.html", [
-      [ "Python", "MeshLibPythonSetupGuide.html", null ],
-      [ "C++", "MeshLibCppSetupGuide.html", null ],
-      [ "C#", "MeshLibCSharpSetupGuide.html", null ]
-    ] ],
-    [ "License", "License.html", null ],
-    [ "Tutorials", "Tutorials.html", [
-      [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ]
-    ] ],
-    [ "Examples", "Examples.html", [
-      [ "General Samples", "Examples.html#GeneralExamples", [
-        [ "Application Based on MeshLib", "BasedApplication.html", null ],
-        [ "Mesh Load and Save", "ExampleMeshLoadSave.html", null ],
-        [ "Export Raw Triangles", "ExampleMeshExport.html", null ],
-        [ "Mesh Modification", "ExampleMeshModification.html", null ],
-        [ "Mesh Boolean", "ExampleMeshBoolean.html", null ],
-        [ "Mesh Decimate", "ExampleMeshDecimate.html", null ],
-        [ "Mesh Offset", "ExampleMeshOffset.html", null ],
-        [ "Mesh Fill Hole", "ExampleMeshFillHole.html", null ],
-        [ "Mesh Stitch Holes", "ExampleMeshStitchHole.html", null ],
-        [ "Mesh Resolve Degenerations", "ExampleMeshResolveDegenerations.html", null ],
-        [ "Global Registration", "ExampleGlobalRegistration.html", null ],
-        [ "Mesh ICP", "ExampleMeshICP.html", null ],
-        [ "Mesh Extrude", "ExampleMeshExtrude.html", null ],
-        [ "Mesh Free Form Deformation", "ExampleFreeForm.html", null ],
-        [ "Mesh Laplacian Deformation", "ExampleLaplacian.html", null ],
-        [ "Mesh Denoise", "ExampleNoiseDenoise.html", null ],
-        [ "Triangulation", "ExampleTriangulation.html", null ],
-        [ "Text to Mesh", "ExampleMeshFromText.html", null ]
-      ] ],
-      [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
-        [ "Viewer", "ExampleViewer.html", null ],
-        [ "Plotly Visualization", "ExamplePlotly.html", null ],
-        [ "Using Numpy", "ExampleNumpy.html", null ],
-        [ "Numpy Triangulation", "ExampleNumpyTriangulation.html", null ]
+    [ "API", "APIPage.html", null ],
+    [ "MeshLib C++ Setup Guide", "MeshLibCppSetupGuide.html", [
+      [ "Setting Up MeshLib for C++ Development", "MeshLibCppSetupGuide.html#autotoc_md7", [
+        [ "Windows", "MeshLibCppSetupGuide.html#autotoc_md8", [
+          [ "Installing the release build", "MeshLibCppSetupGuide.html#autotoc_md9", null ],
+          [ "Compile Locally", "MeshLibCppSetupGuide.html#autotoc_md10", [
+            [ "Prerequisites", "MeshLibCppSetupGuide.html#autotoc_md11", null ],
+            [ "Installing the local build", "MeshLibCppSetupGuide.html#autotoc_md12", null ]
+          ] ]
+        ] ],
+        [ "Linux (Ubuntu/Fedora)", "MeshLibCppSetupGuide.html#autotoc_md13", [
+          [ "Installing the release build", "MeshLibCppSetupGuide.html#autotoc_md14", null ],
+          [ "Compile Locally", "MeshLibCppSetupGuide.html#autotoc_md15", [
+            [ "Prerequisites", "MeshLibCppSetupGuide.html#autotoc_md16", null ],
+            [ "Installing the local build", "MeshLibCppSetupGuide.html#autotoc_md17", null ]
+          ] ]
+        ] ],
+        [ "macOS", "MeshLibCppSetupGuide.html#autotoc_md18", [
+          [ "Installing the release build", "MeshLibCppSetupGuide.html#autotoc_md19", null ],
+          [ "Compile Locally", "MeshLibCppSetupGuide.html#autotoc_md20", [
+            [ "Prerequisites", "MeshLibCppSetupGuide.html#autotoc_md21", null ],
+            [ "Installing the local build", "MeshLibCppSetupGuide.html#autotoc_md22", null ]
+          ] ]
+        ] ],
+        [ "Building WebAssembly with MeshLib Using Emscripten", "MeshLibCppSetupGuide.html#autotoc_md23", null ]
       ] ]
     ] ],
-    [ "Package Overview", "PackageOverview.html", [
-      [ "Data Model Class Hierarchy", "DataModel.html", null ],
-      [ "Spaces and Transformations", "SpacesHelp.html", null ],
-      [ "State Plugins Overview", "StatePluginsHelp.html", null ]
+    [ "Integrating MeshLib with C#", "MeshLibCSharpSetupGuide.html", [
+      [ "Using MeshLib with C#", "MeshLibCSharpSetupGuide.html#UsingMeshLibwithCSharp", [
+        [ "Prerequisites", "MeshLibCSharpSetupGuide.html#autotoc_md27", [
+          [ ".NET SDK", "MeshLibCSharpSetupGuide.html#autotoc_md28", null ],
+          [ "Visual Studio", "MeshLibCSharpSetupGuide.html#autotoc_md29", null ]
+        ] ],
+        [ "Installation via NuGet", "MeshLibCSharpSetupGuide.html#autotoc_md30", [
+          [ "Using Visual Studio on Windows", "MeshLibCSharpSetupGuide.html#autotoc_md31", null ]
+        ] ],
+        [ "Installation from a Downloaded NuGet Package", "MeshLibCSharpSetupGuide.html#autotoc_md32", null ],
+        [ "Installation via .NET Command-Line Interface", "MeshLibCSharpSetupGuide.html#autotoc_md33", null ]
+      ] ]
     ] ],
-    [ "API", "APIPage.html", [
-      [ "C++", "^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html", null ],
-      [ "Python", "^https://meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html", null ]
+    [ "Data Model Class Hierarchy", "DataModel.html", null ],
+    [ "Basing your application on MeshLib", "BasedApplication.html", null ],
+    [ "MeshLib Code Samples", "Examples.html", [
+      [ "Code Samples for MeshLib", "Examples.html#autotoc_md37", [
+        [ "General Samples", "Examples.html#GeneralExamples", null ],
+        [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", null ]
+      ] ]
     ] ],
-    [ "Thirdparty List", "ThirdParty.html", null ]
+    [ "Free Form Deformation Example", "ExampleFreeForm.html", null ],
+    [ "Global Registration", "ExampleGlobalRegistration.html", null ],
+    [ "Laplacian deformation Example", "ExampleLaplacian.html", null ],
+    [ "Mesh Boolean", "ExampleMeshBoolean.html", null ],
+    [ "Mesh Decimation", "ExampleMeshDecimate.html", null ],
+    [ "Mesh export", "ExampleMeshExport.html", null ],
+    [ "Mesh extrude", "ExampleMeshExtrude.html", null ],
+    [ "Filling Holes", "ExampleMeshFillHole.html", null ],
+    [ "Convert text to mesh", "ExampleMeshFromText.html", null ],
+    [ "Mesh ICP", "ExampleMeshICP.html", null ],
+    [ "Loading and saving mesh files", "ExampleMeshLoadSave.html", null ],
+    [ "Mesh modification", "ExampleMeshModification.html", null ],
+    [ "Mesh Offset", "ExampleMeshOffset.html", null ],
+    [ "Resolving Mesh Degeneration", "ExampleMeshResolveDegenerations.html", null ],
+    [ "Stitching holes", "ExampleMeshStitchHole.html", null ],
+    [ "Adding and removing noise Example", "ExampleNoiseDenoise.html", null ],
+    [ "Numpy support", "ExampleNumpy.html", null ],
+    [ "Triangulation of a regular Numpy grid", "ExampleNumpyTriangulation.html", null ],
+    [ "Plotly visualization", "ExamplePlotly.html", null ],
+    [ "Simple triangulation", "ExampleTriangulation.html", null ],
+    [ "Viewer Example", "ExampleViewer.html", null ],
+    [ "How to create a first plugin using MeshLib C++ on Windows", "FirstPluginTutorial.html", null ],
+    [ "Getting Started with MeshLib SDK", "InstallationGuide.html", null ],
+    [ "License", "License.html", null ],
+    [ "Package Overview", "PackageOverview.html", null ],
+    [ "How to Install MeshLib SDK for Python", "MeshLibPythonSetupGuide.html", [
+      [ "Installing MeshLib SDK for Python", "MeshLibPythonSetupGuide.html#autotoc_md39", [
+        [ "Prerequisites", "MeshLibPythonSetupGuide.html#autotoc_md40", [
+          [ "Python", "MeshLibPythonSetupGuide.html#autotoc_md41", null ],
+          [ "Code Editor", "MeshLibPythonSetupGuide.html#autotoc_md42", null ]
+        ] ],
+        [ "Installation Process", "MeshLibPythonSetupGuide.html#autotoc_md43", null ],
+        [ "How to use MeshLib Python Modules", "MeshLibPythonSetupGuide.html#autotoc_md44", [
+          [ "Predefined Functions and Example Scripts", "MeshLibPythonSetupGuide.html#autotoc_md45", null ],
+          [ "Example: Using the Viewer with MeshLib", "MeshLibPythonSetupGuide.html#autotoc_md46", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "Spaces and Transformations", "SpacesHelp.html", null ],
+    [ "State Plugins Overview", "StatePluginsHelp.html", null ],
+    [ "Thirdparty List", "ThirdParty.html", null ],
+    [ "MeshLib SDK Tutorials", "Tutorials.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
+    ] ]
   ] ]
 ];
 

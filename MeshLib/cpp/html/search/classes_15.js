@@ -3,7 +3,7 @@ var searchData=
   ['watershedgraph_0',['WatershedGraph',['../classMR_1_1WatershedGraph.html',1,'MR']]],
   ['webrequest_1',['WebRequest',['../classMR_1_1WebRequest.html',1,'MR']]],
   ['weightedvertex_2',['WeightedVertex',['../structMR_1_1WeightedVertex.html',1,'MR']]],
-  ['widgethistoryaction_3',['WidgetHistoryAction',['../structMR_1_1SurfaceContoursWidget_1_1WidgetHistoryAction.html',1,'MR::SurfaceContoursWidget']]],
+  ['widgethistoryaction_3',['WidgetHistoryAction',['../structMR_1_1PickPointManager_1_1WidgetHistoryAction.html',1,'MR::PickPointManager']]],
   ['windowrectallocator_4',['WindowRectAllocator',['../classMR_1_1UI_1_1WindowRectAllocator.html',1,'MR::UI']]],
   ['wrappedmodelsubobject_5',['WrappedModelSubobject',['../classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html',1,'MR::RenderFeatures']]],
   ['wrappedmodelsubobject_3c_20false_2c_20baseobjecttype_20_3e_6',['WrappedModelSubobject&lt; false, BaseObjectType &gt;',['../classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html',1,'MR::RenderFeatures']]],

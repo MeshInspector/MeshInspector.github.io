@@ -23,44 +23,12 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"About",url:"index.html"},
-{text:"Getting Started",url:"InstallationGuide.html",children:[
-{text:"Python",url:"MeshLibPythonSetupGuide.html"},
-{text:"C++",url:"MeshLibCppSetupGuide.html"},
-{text:"C#",url:"MeshLibCSharpSetupGuide.html"}]},
-{text:"License",url:"License.html"},
-{text:"Tutorials",url:"Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"FirstPluginTutorial.html"}]},
-{text:"Examples",url:"Examples.html",children:[
-{text:"General Samples",url:"Examples.html#GeneralExamples",children:[
-{text:"Application Based on MeshLib",url:"BasedApplication.html"},
-{text:"Mesh Load and Save",url:"ExampleMeshLoadSave.html"},
-{text:"Export Raw Triangles",url:"ExampleMeshExport.html"},
-{text:"Mesh Modification",url:"ExampleMeshModification.html"},
-{text:"Mesh Boolean",url:"ExampleMeshBoolean.html"},
-{text:"Mesh Decimate",url:"ExampleMeshDecimate.html"},
-{text:"Mesh Offset",url:"ExampleMeshOffset.html"},
-{text:"Mesh Fill Hole",url:"ExampleMeshFillHole.html"},
-{text:"Mesh Stitch Holes",url:"ExampleMeshStitchHole.html"},
-{text:"Mesh Resolve Degenerations",url:"ExampleMeshResolveDegenerations.html"},
-{text:"Global Registration",url:"ExampleGlobalRegistration.html"},
-{text:"Mesh ICP",url:"ExampleMeshICP.html"},
-{text:"Mesh Extrude",url:"ExampleMeshExtrude.html"},
-{text:"Mesh Free Form Deformation",url:"ExampleFreeForm.html"},
-{text:"Mesh Laplacian Deformation",url:"ExampleLaplacian.html"},
-{text:"Mesh Denoise",url:"ExampleNoiseDenoise.html"},
-{text:"Triangulation",url:"ExampleTriangulation.html"},
-{text:"Text to Mesh",url:"ExampleMeshFromText.html"}]},
-{text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
-{text:"Viewer",url:"ExampleViewer.html"},
-{text:"Plotly Visualization",url:"ExamplePlotly.html"},
-{text:"Using Numpy",url:"ExampleNumpy.html"},
-{text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html"}]}]},
-{text:"Package Overview",url:"PackageOverview.html",children:[
-{text:"Data Model Class Hierarchy",url:"DataModel.html"},
-{text:"Spaces and Transformations",url:"SpacesHelp.html"},
-{text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
-{text:"API",url:"APIPage.html",children:[
-{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/cpp/html/APICppPage.html"},
-{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/py/html/APIPyPage.html"}]},
-{text:"Thirdparty List",url:"ThirdParty.html"}]}
+{text:"Main Page",url:"index.html"},
+{text:"Related Pages",url:"pages.html"},
+{text:"Namespaces",url:"namespaces.html",children:[
+{text:"Namespace List",url:"namespaces.html"}]},
+{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html"},
+{text:"File Members",url:"globals.html",children:[
+{text:"All",url:"globals.html"},
+{text:"Functions",url:"globals_func.html"}]}]}]}

@@ -186,7 +186,7 @@ var searchData=
   ['appendgpuvisiblefaces_183',['appendGPUVisibleFaces',['../namespaceMR.html#a576eea4c4f274e1c943476be2be2394e',1,'MR']]],
   ['appendhistory_184',['AppendHistory',['../namespaceMR.html#a16bb6fdbdb21a92b1fa0da2432cc699a',1,'MR::AppendHistory(Args &amp;&amp;... args)'],['../namespaceMR.html#a82568b5f11eaffabab107d98250d2edf',1,'MR::AppendHistory(std::shared_ptr&lt; HistoryActionType &gt; action)']]],
   ['appendhistoryaction_185',['appendHistoryAction',['../classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5',1,'MR::Viewer']]],
-  ['appendpoint_186',['appendPoint',['../classMR_1_1SurfaceContoursWidget.html#a6d9587049cfb6c78fa1a9ce9f28bb2b8',1,'MR::SurfaceContoursWidget']]],
+  ['appendpoint_186',['appendPoint',['../classMR_1_1PickPointManager.html#a718234a5f034161f8d44e4aade1cad20',1,'MR::PickPointManager']]],
   ['application_187',['Application',['../classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988',1,'MR::ViewerSettingsPlugin']]],
   ['apply_188',['apply',['../classMR_1_1FreeFormDeformer.html#aa0fae4749fc94fb1b929424066c935c8',1,'MR::FreeFormDeformer::apply()'],['../classMR_1_1Laplacian.html#a1a99ff3fbda2af6c118c5bb00a99d5d1',1,'MR::Laplacian::apply()'],['../classMR_1_1ColorTheme.html#a9639e110366c54c073cc52580086e79a',1,'MR::ColorTheme::apply()']]],
   ['applyandswap_189',['applyAndSwap',['../classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145',1,'MR::MeshDiff']]],
