@@ -45,13 +45,15 @@ elif [ "$TARGET_DIR" == "MeshLib" ]; then
     URL="127.0.0.1:8000/$TARGET_DIR"
 fi
 
-MODULES=(Py Cpp Main)
-for MODULE in ${MODULES[*]}
-do
-    rm -rf ${TARGET_DIR}/${MODULE}/html
-    ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE $URL
-    # force Doxygen to use the custom HTML header
-    sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
-    # force Doxygen to use the custom output directory
-    sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}/${MODULE}|" -i Doxyfile${MODULE}
-done
+if [ -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
+    MODULES=(Py Cpp Main)
+    for MODULE in ${MODULES[*]}
+    do
+        rm -rf ${TARGET_DIR}/${MODULE}/html
+        ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE $URL
+        # force Doxygen to use the custom HTML header
+        sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
+        # force Doxygen to use the custom output directory
+        sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}/${MODULE}|" -i Doxyfile${MODULE}
+    done
+fi
