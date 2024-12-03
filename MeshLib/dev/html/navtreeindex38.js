@@ -1,7 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afc0611ad1874f59b7e47820b4cdd72e9":[6,0,0,18,3,1,7],
-"classMR_1_1SceneStateAndCheck.html":[6,0,1,0,13,572],
 "classMR_1_1SceneStateAndCheck.html":[6,0,2,0,1,557],
 "classMR_1_1SceneStateAndCheck.html#a24f4c50b741150585aac2dfc9451c763":[6,0,1,0,13,572,1],
 "classMR_1_1SceneStateAndCheck.html#a24f4c50b741150585aac2dfc9451c763":[6,0,2,0,1,557,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX38 =
 "classMR_1_1SpaceMouseHandler.html#a0fb38b595b3fad2af3d19817e2f77297":[6,0,1,0,13,609,3],
 "classMR_1_1SpaceMouseHandler.html#a0fb38b595b3fad2af3d19817e2f77297":[6,0,2,0,1,594,3],
 "classMR_1_1SpaceMouseHandler.html#a5c2a0f9ed6b49950d604726d8ff4b31e":[6,0,1,0,13,609,2],
-"classMR_1_1SpaceMouseHandler.html#a5c2a0f9ed6b49950d604726d8ff4b31e":[6,0,2,0,1,594,2]
+"classMR_1_1SpaceMouseHandler.html#a5c2a0f9ed6b49950d604726d8ff4b31e":[6,0,2,0,1,594,2],
+"classMR_1_1SpaceMouseHandler.html#a630d5cbabb8c95d6234cefa16fe25ac4":[6,0,1,0,13,609,1],
+"classMR_1_1SpaceMouseHandler.html#a630d5cbabb8c95d6234cefa16fe25ac4":[6,0,2,0,1,594,1]
 };

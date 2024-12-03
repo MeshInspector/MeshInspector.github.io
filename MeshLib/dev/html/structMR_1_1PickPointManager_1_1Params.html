@@ -154,12 +154,16 @@ $(function(){initNavTree('structMR_1_1PickPointManager_1_1Params.html',''); init
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5fea1d890a42ca21cec4e297bf2ae7ed" id="r_a5fea1d890a42ca21cec4e297bf2ae7ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fea1d890a42ca21cec4e297bf2ae7ed">widgetContourCloseMod</a> = GLFW_MOD_CONTROL</td></tr>
+<tr class="memdesc:a5fea1d890a42ca21cec4e297bf2ae7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifier key for closing a contour (ordered vector of points) using the widget.  <br /></td></tr>
 <tr class="separator:a5fea1d890a42ca21cec4e297bf2ae7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a190ae905fd433a574393eca3095af" id="r_a53a190ae905fd433a574393eca3095af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53a190ae905fd433a574393eca3095af">widgetDeletePointMod</a> = GLFW_MOD_SHIFT</td></tr>
+<tr class="memdesc:a53a190ae905fd433a574393eca3095af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifier key for deleting a point using the widget.  <br /></td></tr>
 <tr class="separator:a53a190ae905fd433a574393eca3095af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ecbe3e82d23360d9534372520dbb5d8" id="r_a2ecbe3e82d23360d9534372520dbb5d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ecbe3e82d23360d9534372520dbb5d8">writeHistory</a> = true</td></tr>
+<tr class="memdesc:a2ecbe3e82d23360d9534372520dbb5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether to write history of the contours.  <br /></td></tr>
 <tr class="separator:a2ecbe3e82d23360d9534372520dbb5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe6cd509f46b4a6314633f8438729160" id="r_afe6cd509f46b4a6314633f8438729160"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe6cd509f46b4a6314633f8438729160">historyNameSuffix</a></td></tr>
+<tr class="memdesc:afe6cd509f46b4a6314633f8438729160"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is appended to the names of all undo/redo actions.  <br /></td></tr>
 <tr class="separator:afe6cd509f46b4a6314633f8438729160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d35a20b9e47119564dff212d893abb7" id="r_a5d35a20b9e47119564dff212d893abb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html">SurfacePointWidget::Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d35a20b9e47119564dff212d893abb7">surfacePointParams</a></td></tr>
 <tr class="separator:a5d35a20b9e47119564dff212d893abb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,7 +174,20 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5b12b52a6b20ce602a12044db14a817a" id="r_a5b12b52a6b20ce602a12044db14a817a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">MR::Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b12b52a6b20ce602a12044db14a817a">closeContourPointColor</a> = <a class="el" href="structMR_1_1Color.html#a059a69f5238fa686b0c063d87ebecf40">Color::transparent</a>()</td></tr>
 <tr class="separator:a5b12b52a6b20ce602a12044db14a817a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acca15c3df6d4a2c610e3ecd95dbb1c71" id="r_acca15c3df6d4a2c610e3ecd95dbb1c71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewport.html#a2ee75851f20f8798cdefa740b799b467">Viewport::PickRenderObjectPredicate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca15c3df6d4a2c610e3ecd95dbb1c71">pickPredicate</a></td></tr>
+<tr class="memdesc:acca15c3df6d4a2c610e3ecd95dbb1c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predicate to additionally filter objects that should be treated as pickable.  <br /></td></tr>
 <tr class="separator:acca15c3df6d4a2c610e3ecd95dbb1c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a648a0ae70816ba38a53eb3e858578152" id="r_a648a0ae70816ba38a53eb3e858578152"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648a0ae70816ba38a53eb3e858578152">onPointAdd</a></td></tr>
+<tr class="memdesc:a648a0ae70816ba38a53eb3e858578152"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback is invoked after a point is added with its index.  <br /></td></tr>
+<tr class="separator:a648a0ae70816ba38a53eb3e858578152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc58a961497595f91a31e0ba17b453b" id="r_aecc58a961497595f91a31e0ba17b453b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc58a961497595f91a31e0ba17b453b">onPointMoveStart</a></td></tr>
+<tr class="memdesc:aecc58a961497595f91a31e0ba17b453b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback is invoked when a point starts being dragged.  <br /></td></tr>
+<tr class="separator:aecc58a961497595f91a31e0ba17b453b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239dfe513b8ad0546f097fe848b07926" id="r_a239dfe513b8ad0546f097fe848b07926"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a239dfe513b8ad0546f097fe848b07926">onPointMoveFinish</a></td></tr>
+<tr class="memdesc:a239dfe513b8ad0546f097fe848b07926"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback is invoked when point's dragging is completed.  <br /></td></tr>
+<tr class="separator:a239dfe513b8ad0546f097fe848b07926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29da52a2e4e00f22aa0e7206a5ca2819" id="r_a29da52a2e4e00f22aa0e7206a5ca2819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29da52a2e4e00f22aa0e7206a5ca2819">onPointRemove</a></td></tr>
+<tr class="memdesc:a29da52a2e4e00f22aa0e7206a5ca2819"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback is invoked when a point is removed with its index before deletion.  <br /></td></tr>
+<tr class="separator:a29da52a2e4e00f22aa0e7206a5ca2819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a5b12b52a6b20ce602a12044db14a817a" name="a5b12b52a6b20ce602a12044db14a817a"></a>
@@ -184,6 +201,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="structMR_1_1Color.html">Color</a> for the special point used to close a contour. Better do not change it. Parameters affect to future points only </p>
 
 </div>
 </div>
@@ -199,6 +217,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is appended to the names of all undo/redo actions. </p>
+
 </div>
 </div>
 <a id="a82b4fb463921c2a6bed5acca2172b335" name="a82b4fb463921c2a6bed5acca2172b335"></a>
@@ -212,6 +232,71 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="structMR_1_1Color.html">Color</a> for the last modified point in the contour Parameters affect to future points only </p>
+
+</div>
+</div>
+<a id="a648a0ae70816ba38a53eb3e858578152" name="a648a0ae70816ba38a53eb3e858578152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648a0ae70816ba38a53eb3e858578152">&#9670;&#160;</a></span>onPointAdd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a> MR::PickPointManager::Params::onPointAdd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This callback is invoked after a point is added with its index. </p>
+
+</div>
+</div>
+<a id="a239dfe513b8ad0546f097fe848b07926" name="a239dfe513b8ad0546f097fe848b07926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a239dfe513b8ad0546f097fe848b07926">&#9670;&#160;</a></span>onPointMoveFinish</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a> MR::PickPointManager::Params::onPointMoveFinish</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This callback is invoked when point's dragging is completed. </p>
+
+</div>
+</div>
+<a id="aecc58a961497595f91a31e0ba17b453b" name="aecc58a961497595f91a31e0ba17b453b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc58a961497595f91a31e0ba17b453b">&#9670;&#160;</a></span>onPointMoveStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a> MR::PickPointManager::Params::onPointMoveStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This callback is invoked when a point starts being dragged. </p>
+
+</div>
+</div>
+<a id="a29da52a2e4e00f22aa0e7206a5ca2819" name="a29da52a2e4e00f22aa0e7206a5ca2819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29da52a2e4e00f22aa0e7206a5ca2819">&#9670;&#160;</a></span>onPointRemove</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1PickPointManager.html#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a> MR::PickPointManager::Params::onPointRemove</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This callback is invoked when a point is removed with its index before deletion. </p>
 
 </div>
 </div>
@@ -226,6 +311,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="structMR_1_1Color.html">Color</a> for ordinary points in the contour Parameters affect to future points only </p>
 
 </div>
 </div>
@@ -241,6 +327,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Predicate to additionally filter objects that should be treated as pickable. </p>
+
 </div>
 </div>
 <a id="a5d35a20b9e47119564dff212d893abb7" name="a5d35a20b9e47119564dff212d893abb7"></a>
@@ -254,6 +342,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Parameters for configuring the surface point widget Parameters affect to future points only </p>
 
 </div>
 </div>
@@ -269,6 +358,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Modifier key for closing a contour (ordered vector of points) using the widget. </p>
+
 </div>
 </div>
 <a id="a53a190ae905fd433a574393eca3095af" name="a53a190ae905fd433a574393eca3095af"></a>
@@ -283,6 +374,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Modifier key for deleting a point using the widget. </p>
+
 </div>
 </div>
 <a id="a2ecbe3e82d23360d9534372520dbb5d8" name="a2ecbe3e82d23360d9534372520dbb5d8"></a>
@@ -296,6 +389,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Indicates whether to write history of the contours. </p>
 
 </div>
 </div>

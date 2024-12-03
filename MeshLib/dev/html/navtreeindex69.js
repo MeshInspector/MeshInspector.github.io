@@ -1,7 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882":[6,0,1,0,13,348,2],
-"structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882":[6,0,2,0,1,333,2],
 "structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767":[6,0,1,0,13,348,1],
 "structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767":[6,0,2,0,1,333,1],
 "structMR_1_1MeshToDirectionVolumeParams.html#ae40d1d140cfa8187507172fe40598193":[6,0,1,0,13,348,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1MultiwayICPSamplingParameters.html#a8c84a0ef595c5238df9112eb6c6f3e86":[6,0,1,0,13,374,3],
 "structMR_1_1MultiwayICPSamplingParameters.html#a8c84a0ef595c5238df9112eb6c6f3e86":[6,0,2,0,1,359,3],
 "structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6":[6,0,1,0,13,374,4],
-"structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6":[6,0,2,0,1,359,4]
+"structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6":[6,0,2,0,1,359,4],
+"structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,1,0,13,374,1],
+"structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,2,0,1,359,1]
 };

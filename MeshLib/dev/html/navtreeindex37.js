@@ -1,7 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"classMR_1_1RibbonSceneRename.html":[6,0,2,0,1,527],
-"classMR_1_1RibbonSceneRename.html#a0a3ceed28e10a93082b57b82d8488854":[6,0,1,0,13,542,1],
 "classMR_1_1RibbonSceneRename.html#a0a3ceed28e10a93082b57b82d8488854":[6,0,2,0,1,527,1],
 "classMR_1_1RibbonSceneRename.html#a4ef4cb4a806b31af47c4388ec9d1df95":[6,0,1,0,13,542,0],
 "classMR_1_1RibbonSceneRename.html#a4ef4cb4a806b31af47c4388ec9d1df95":[6,0,2,0,1,527,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX37 =
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261abaca4c96c2c2eb0beb55075d1dfb25ce":[6,0,0,18,3,1,8],
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261ae3241ff3a6a1c4e22348c34a6ef69904":[6,0,0,18,3,1,1],
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,18,3,1,11],
-"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afa71df10d1ecadd399ea1c886d42daf3":[6,0,0,18,3,1,5]
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afa71df10d1ecadd399ea1c886d42daf3":[6,0,0,18,3,1,5],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afc0611ad1874f59b7e47820b4cdd72e9":[6,0,0,18,3,1,7],
+"classMR_1_1SceneStateAndCheck.html":[6,0,1,0,13,572]
 };

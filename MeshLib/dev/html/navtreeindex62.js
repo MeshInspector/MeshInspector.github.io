@@ -1,7 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[6,0,2,0,1,169,1],
-"structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[6,0,1,0,13,184,0],
 "structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[6,0,2,0,1,169,0],
 "structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[6,0,1,0,13,184,3],
 "structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[6,0,2,0,1,169,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX62 =
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,1,0,13,208,0],
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,2,0,1,193,0],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,1,0,13,208,2],
-"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,2,0,1,193,2]
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,2,0,1,193,2],
+"structMR_1_1Features_1_1MeasureResult.html":[6,0,1,0,13,6,2],
+"structMR_1_1Features_1_1MeasureResult.html":[6,0,2,0,1,2,2]
 };
