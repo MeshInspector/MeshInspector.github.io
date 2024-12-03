@@ -442,7 +442,7 @@ var searchData=
   ['put_439',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]],
   ['putscanfilenameinz_440',['putScanFileNameInZ',['../namespaceMR.html#ab9229ab4444b58ce99c132c6509d0e6e',1,'MR']]],
   ['putsimplevolumeindensegrid_441',['putSimpleVolumeInDenseGrid',['../namespaceMR.html#aa2303df423aaea1a91ce570293117d37',1,'MR']]],
-  ['python_442',['Python',['../MeshLibPythonSetupGuide.html',1,'How to Install MeshLib SDK for Python'],['../MeshLibPythonSetupGuide.html#autotoc_md39',1,'Installing MeshLib SDK for Python'],['../MeshLibPythonSetupGuide.html#autotoc_md41',1,'Python']]],
+  ['python_442',['Python',['../MeshLibPythonSetupGuide.html',1,'How to Install MeshLib SDK for Python'],['../MeshLibPythonSetupGuide.html#autotoc_md39',1,'Installing MeshLib SDK for Python'],['../APIPyPage.html',1,'Python'],['../MeshLibPythonSetupGuide.html#autotoc_md41',1,'Python']]],
   ['python_20is_20on_20pause_443',['python is on pause',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/Viewer.dox.py#autotoc_md141',1,'user can manipulate with viewer window while this python is on pause'],['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/Viewer.dox.py#autotoc_md144',1,'user can manipulate with viewer window while this python is on pause']]],
   ['python_20modules_444',['How to use MeshLib Python Modules',['../MeshLibPythonSetupGuide.html#autotoc_md44',1,'']]],
   ['python_20specific_20samples_445',['Python Specific Samples',['../Examples.html#PythonSpecificExamples',1,'']]],
