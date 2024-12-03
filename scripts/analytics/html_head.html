@@ -3,7 +3,7 @@
     var currentHost = window.location.hostname;
     var currentPath = window.location.pathname;
 
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
       var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
