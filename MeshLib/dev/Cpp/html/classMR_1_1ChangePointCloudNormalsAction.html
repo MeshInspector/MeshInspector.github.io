@@ -177,8 +177,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3fc74b29ef4cc3ed08c0e8f0a5f342e" id="r_aa3fc74b29ef4cc3ed08c0e8f0a5f342e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fc74b29ef4cc3ed08c0e8f0a5f342e">ChangePointCloudNormalsAction</a> (std::string <a class="el" href="#aec6f4ff965e50adb3b9f2605fa2662a8">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:aa3fc74b29ef4cc3ed08c0e8f0a5f342e"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember point cloud's normals before making any changes in it  <br /></td></tr>
+<tr class="memdesc:aa3fc74b29ef4cc3ed08c0e8f0a5f342e"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember point cloud's normals before making any changes in them  <br /></td></tr>
 <tr class="separator:aa3fc74b29ef4cc3ed08c0e8f0a5f342e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763106472cb85bcb84e8b3a97ad638d6" id="r_a763106472cb85bcb84e8b3a97ad638d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a763106472cb85bcb84e8b3a97ad638d6">ChangePointCloudNormalsAction</a> (std::string <a class="el" href="#aec6f4ff965e50adb3b9f2605fa2662a8">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj, VertNormals &amp;&amp;newNormals)</td></tr>
+<tr class="memdesc:a763106472cb85bcb84e8b3a97ad638d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember point cloud's normals and immediate set new value  <br /></td></tr>
+<tr class="separator:a763106472cb85bcb84e8b3a97ad638d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec6f4ff965e50adb3b9f2605fa2662a8" id="r_aec6f4ff965e50adb3b9f2605fa2662a8"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec6f4ff965e50adb3b9f2605fa2662a8">name</a> () const override</td></tr>
 <tr class="separator:aec6f4ff965e50adb3b9f2605fa2662a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f4a62aa8bcd5d820f520ab6dea9a48d" id="r_a3f4a62aa8bcd5d820f520ab6dea9a48d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f4a62aa8bcd5d820f520ab6dea9a48d">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -215,7 +218,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa3fc74b29ef4cc3ed08c0e8f0a5f342e" name="aa3fc74b29ef4cc3ed08c0e8f0a5f342e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3fc74b29ef4cc3ed08c0e8f0a5f342e">&#9670;&#160;</a></span>ChangePointCloudNormalsAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3fc74b29ef4cc3ed08c0e8f0a5f342e">&#9670;&#160;</a></span>ChangePointCloudNormalsAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +244,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>use this constructor to remember point cloud's normals before making any changes in it </p>
+<p>use this constructor to remember point cloud's normals before making any changes in them </p>
+
+</div>
+</div>
+<a id="a763106472cb85bcb84e8b3a97ad638d6" name="a763106472cb85bcb84e8b3a97ad638d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a763106472cb85bcb84e8b3a97ad638d6">&#9670;&#160;</a></span>ChangePointCloudNormalsAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangePointCloudNormalsAction::ChangePointCloudNormalsAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertNormals &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newNormals</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember point cloud's normals and immediate set new value </p>
 
 </div>
 </div>

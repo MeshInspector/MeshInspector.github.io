@@ -1605,6 +1605,7 @@ var namespacemrmeshpy =
     [ "interpolateArcs", "namespacemrmeshpy.html#ae1031a3594a208de8eeb82e7295b8638", null ],
     [ "interpolateLines", "namespacemrmeshpy.html#a68e31268226515ddddf724fc783171a8", null ],
     [ "intersection", "namespacemrmeshpy.html#ab795144bcd22c107fefe69589b5171e4", null ],
+    [ "isClosed", "namespacemrmeshpy.html#aaa9a012e616c0f5d9934f66499627dc9", null ],
     [ "isDegree3Dest", "namespacemrmeshpy.html#af545c890f6c0198a370634cb27445071", null ],
     [ "isEdgeBetweenDoubleTris", "namespacemrmeshpy.html#ab1d01a70ffd09120c99010873516192e", null ],
     [ "isEdgeLoop", "namespacemrmeshpy.html#a44e72b12f4225b0ac6abd826cbd96572", null ],

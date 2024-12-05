@@ -2097,6 +2097,7 @@ var namespaceMR =
     [ "intersection", "group__IntersectionGroup.html#ga09243a2c7d047fea71d5b6ee805bb486", null ],
     [ "intersection", "group__IntersectionGroup.html#ga5aa33ccde105060c1f523292e81dfcbf", null ],
     [ "intersection", "group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3", null ],
+    [ "isClosed", "namespaceMR.html#acd259cc34db34b6aee3060c1baf8822d", null ],
     [ "isDegree3Dest", "group__MeshFixerGroup.html#ga4864464472d6d92da87a2501cb99db2b", null ],
     [ "isEdgeBetweenDoubleTris", "group__MeshFixerGroup.html#ga68b96907fdec5d90f6c4d1771ae0563e", null ],
     [ "isEdgeLoop", "group__SurfacePathGroup.html#gaf669cb8f71c0282ec6c839e2e481dc64", null ],

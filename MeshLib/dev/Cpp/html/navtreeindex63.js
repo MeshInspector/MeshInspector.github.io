@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[5,0,1,0,1,6,0,1,2],
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[5,0,2,0,1,2,0,1,2],
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[5,0,1,0,1,6,0,1,4],
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[5,0,2,0,1,2,0,1,4],
 "structMR_1_1Features_1_1SubfeatureInfo.html":[5,0,1,0,1,6,3],
 "structMR_1_1Features_1_1SubfeatureInfo.html":[5,0,2,0,1,2,3],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[5,0,1,0,1,6,3,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[5,0,1,0,1,235,2,1],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[5,0,2,0,1,220,2,1],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[5,0,1,0,1,235,2,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[5,0,2,0,1,220,2,2],
-"structMR_1_1GeneralOffsetParameters.html":[5,0,1,0,1,238],
-"structMR_1_1GeneralOffsetParameters.html":[5,0,2,0,1,223],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[5,0,1,0,1,238,1],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[5,0,2,0,1,223,1]
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[5,0,2,0,1,220,2,2]
 };

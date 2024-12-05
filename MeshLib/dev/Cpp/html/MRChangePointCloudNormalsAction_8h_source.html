@@ -175,60 +175,72 @@ $(function(){initNavTree('MRChangePointCloudNormalsAction_8h_source.html',''); i
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
 </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">   31</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">name</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> name_;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#a763106472cb85bcb84e8b3a97ad638d6">   32</a></span>    <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a763106472cb85bcb84e8b3a97ad638d6">ChangePointCloudNormalsAction</a>( std::string <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;ObjectPoints&gt;&amp; obj, VertNormals &amp;&amp; newNormals ) :</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        objPoints_{ obj },</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        backupNormals_{ std::move( newNormals ) },</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        name_{ std::move( <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">name</a> ) }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d">action</a>( <a class="code hl_enumvalue" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6">HistoryAction::Type::Redo</a> );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d">   36</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> )<span class="keyword"> override</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">if</span> ( !objPoints_ || !objPoints_-&gt;varPointCloud() )</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        std::swap( objPoints_-&gt;varPointCloud()-&gt;normals, backupNormals_ );</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">setObjectDirty</a>( objPoints_ );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">   40</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">name</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> name_;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
 </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">   45</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">setObjectDirty</a>( <span class="keyword">const</span> std::shared_ptr&lt;ObjectPoints&gt;&amp; obj )</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">if</span> ( obj )</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            obj-&gt;setDirtyFlags( <a class="code hl_enumvalue" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d">DIRTY_RENDER_NORMALS</a> );</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d">   45</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> )<span class="keyword"> override</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">if</span> ( !objPoints_ || !objPoints_-&gt;varPointCloud() )</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        std::swap( objPoints_-&gt;varPointCloud()-&gt;normals, backupNormals_ );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">setObjectDirty</a>( objPoints_ );</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
 </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e">   51</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e">heapBytes</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> name_.capacity() + backupNormals_.heapBytes();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">   54</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">setObjectDirty</a>( <span class="keyword">const</span> std::shared_ptr&lt;ObjectPoints&gt;&amp; obj )</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">if</span> ( obj )</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            obj-&gt;setDirtyFlags( <a class="code hl_enumvalue" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d">DIRTY_RENDER_NORMALS</a> );</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::shared_ptr&lt;ObjectPoints&gt; objPoints_;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    VertCoords backupNormals_;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::string name_;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e">   60</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e">heapBytes</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">return</span> name_.capacity() + backupNormals_.heapBytes();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
 </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    std::shared_ptr&lt;ObjectPoints&gt; objPoints_;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    VertNormals backupNormals_;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    std::string name_;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>};</div>
+</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
 <div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRPointCloud_8h_html"><div class="ttname"><a href="MRMesh_2MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
 <div class="ttc" id="aMRObjectPoints_8h_html"><div class="ttname"><a href="MRObjectPoints_8h.html">MRObjectPoints.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html">MR::ChangePointCloudNormalsAction</a></div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:15</div></div>
-<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_a2bcd7434c87c613e94dd6c3ea18b541e"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e">MR::ChangePointCloudNormalsAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:51</div></div>
-<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_a3f4a62aa8bcd5d820f520ab6dea9a48d"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d">MR::ChangePointCloudNormalsAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:36</div></div>
-<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_a868b166b721b17e855621bf815b7d555"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">MR::ChangePointCloudNormalsAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; ObjectPoints &gt; &amp;obj)</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:45</div></div>
-<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_aa3fc74b29ef4cc3ed08c0e8f0a5f342e"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#aa3fc74b29ef4cc3ed08c0e8f0a5f342e">MR::ChangePointCloudNormalsAction::ChangePointCloudNormalsAction</a></div><div class="ttdeci">ChangePointCloudNormalsAction(std::string name, const std::shared_ptr&lt; ObjectPoints &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember point cloud's normals before making any changes in it</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:20</div></div>
-<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_aec6f4ff965e50adb3b9f2605fa2662a8"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">MR::ChangePointCloudNormalsAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:31</div></div>
+<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_a2bcd7434c87c613e94dd6c3ea18b541e"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e">MR::ChangePointCloudNormalsAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:60</div></div>
+<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_a3f4a62aa8bcd5d820f520ab6dea9a48d"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d">MR::ChangePointCloudNormalsAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:45</div></div>
+<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_a763106472cb85bcb84e8b3a97ad638d6"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#a763106472cb85bcb84e8b3a97ad638d6">MR::ChangePointCloudNormalsAction::ChangePointCloudNormalsAction</a></div><div class="ttdeci">ChangePointCloudNormalsAction(std::string name, const std::shared_ptr&lt; ObjectPoints &gt; &amp;obj, VertNormals &amp;&amp;newNormals)</div><div class="ttdoc">use this constructor to remember point cloud's normals and immediate set new value</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:32</div></div>
+<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_a868b166b721b17e855621bf815b7d555"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555">MR::ChangePointCloudNormalsAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; ObjectPoints &gt; &amp;obj)</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:54</div></div>
+<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_aa3fc74b29ef4cc3ed08c0e8f0a5f342e"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#aa3fc74b29ef4cc3ed08c0e8f0a5f342e">MR::ChangePointCloudNormalsAction::ChangePointCloudNormalsAction</a></div><div class="ttdeci">ChangePointCloudNormalsAction(std::string name, const std::shared_ptr&lt; ObjectPoints &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember point cloud's normals before making any changes in them</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:20</div></div>
+<div class="ttc" id="aclassMR_1_1ChangePointCloudNormalsAction_html_aec6f4ff965e50adb3b9f2605fa2662a8"><div class="ttname"><a href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">MR::ChangePointCloudNormalsAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangePointCloudNormalsAction.h:40</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:19</div></div>
+<div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6">MR::HistoryAction::Type::Redo</a></div><div class="ttdeci">@ Redo</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectPoints_html"><div class="ttname"><a href="classMR_1_1ObjectPoints.html">MR::ObjectPoints</a></div><div class="ttdef"><b>Definition</b> MRObjectPoints.h:11</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d"><div class="ttname"><a href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d">MR::DIRTY_RENDER_NORMALS</a></div><div class="ttdeci">@ DIRTY_RENDER_NORMALS</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:95</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>

@@ -81,7 +81,7 @@ var searchData=
   ['isboundarypoint_78',['isBoundaryPoint',['../group__TriangulationHelpersGroup.html#gad0f4036eebdcc507b1d8314ee455eef9',1,'MR::TriangulationHelpers']]],
   ['iscanceled_79',['isCanceled',['../classMR_1_1ProgressBar.html#a9c764e9adb7623456e991773ae726b8f',1,'MR::ProgressBar']]],
   ['iscircle_80',['isCircle',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a',1,'MR::Features::Primitives::ConeSegment']]],
-  ['isclosed_81',['isClosed',['../classMR_1_1MeshTopology.html#ab5f2cd2b3dbdcb502edf741bee2bc7f1',1,'MR::MeshTopology::isClosed()'],['../classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8',1,'MR::PolylineTopology::isClosed()']]],
+  ['isclosed_81',['isClosed',['../classMR_1_1MeshTopology.html#ab5f2cd2b3dbdcb502edf741bee2bc7f1',1,'MR::MeshTopology::isClosed()'],['../classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8',1,'MR::PolylineTopology::isClosed()'],['../namespaceMR.html#acd259cc34db34b6aee3060c1baf8822d',1,'MR::isClosed()']]],
   ['isclosedcountour_82',['isClosedCountour',['../classMR_1_1PickPointManager.html#aead9be191022d11da51d4eb2f8127735',1,'MR::PickPointManager']]],
   ['isconsistentlyoriented_83',['isConsistentlyOriented',['../classMR_1_1PolylineTopology.html#a3a8e8e933ae69de8cd01c7f60a1e6e87',1,'MR::PolylineTopology']]],
   ['iscudaavailable_84',['isCudaAvailable',['../classMR_1_1CudaAccessor.html#a8b3062a65de8df3b5336f6010328183b',1,'MR::CudaAccessor::isCudaAvailable()'],['../namespaceMR_1_1Cuda.html#a481800f210dd09851992846af357b7e2',1,'MR::Cuda::isCudaAvailable()']]],

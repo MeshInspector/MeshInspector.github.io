@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRMeshCollidePrecise_8h.html#a14a2aaa1b7d15e2df267203c0c7e5fec":[5,0,3,0,0,1,4,23,3],
 "MRMeshC_2MRMeshCollidePrecise_8h.html#a3818032252e258c35323451c4aef96d9":[5,0,3,0,0,1,4,23,6],
 "MRMeshC_2MRMeshCollidePrecise_8h.html#a3fbb3fa9f8ef2cdfbab9007c4077671b":[5,0,3,0,0,1,4,23,2],
 "MRMeshC_2MRMeshCollidePrecise_8h.html#a7aa53acb22ab22418acee0d104a77f8f":[5,0,3,0,0,1,4,23,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRPointsSave_8h_source.html":[5,0,3,0,0,1,4,47],
 "MRMeshC_2MRPrecisePredicates3_8h.html":[5,0,3,0,0,1,4,48],
 "MRMeshC_2MRPrecisePredicates3_8h.html#a06dcff41bb1079e5d51bca9bd73d4591":[5,0,3,0,0,1,4,48,1],
-"MRMeshC_2MRPrecisePredicates3_8h.html#a193f4f21c0c0413955625429e159aedd":[5,0,3,0,0,1,4,48,5],
-"MRMeshC_2MRPrecisePredicates3_8h.html#a3b8fe2d95a1499db4a27e1494620e1d2":[5,0,3,0,0,1,4,48,2]
+"MRMeshC_2MRPrecisePredicates3_8h.html#a193f4f21c0c0413955625429e159aedd":[5,0,3,0,0,1,4,48,5]
 };

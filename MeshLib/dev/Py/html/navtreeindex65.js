@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#afcf8f45e2a9bb4c014ae6024ff219f8a":[5,1,0,0,1,683,0,0,4],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#afcf8f45e2a9bb4c014ae6024ff219f8a":[5,1,1,0,0,683,0,0,4],
+"classmrmeshpy_1_1SeparationPointStorage.html":[5,1,0,0,1,684],
+"classmrmeshpy_1_1SeparationPointStorage.html":[5,1,1,0,0,684],
 "classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350":[5,1,0,0,1,684,5],
 "classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350":[5,1,1,0,0,684,5],
 "classmrmeshpy_1_1SeparationPointStorage.html#a5f0d3d5f6a4e74e2f88ab3250c3d4695":[5,1,0,0,1,684,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd":[5,1,0,0,1,694,0],
 "classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd":[5,1,1,0,0,694,0],
 "classmrmeshpy_1_1SimpleVolumeMinMaxU16.html":[5,1,0,0,1,695],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html":[5,1,1,0,0,695],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html#a59d79b6b79229dcc1b9832ef5e13012c":[5,1,0,0,1,695,0],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html#a59d79b6b79229dcc1b9832ef5e13012c":[5,1,1,0,0,695,0],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html#aae1ceaf26cd3d0fa7d8f55c247e78ba7":[5,1,0,0,1,695,1],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html#aae1ceaf26cd3d0fa7d8f55c247e78ba7":[5,1,1,0,0,695,1]
+"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html":[5,1,1,0,0,695]
 };

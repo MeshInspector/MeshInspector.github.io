@@ -177,8 +177,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e99acd63b670299af8dc73a771d1ac3" id="r_a7e99acd63b670299af8dc73a771d1ac3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e99acd63b670299af8dc73a771d1ac3">ChangePointCloudPointsAction</a> (std::string <a class="el" href="#ab798c8b335a0610698bfa5fdc04b7ac9">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:a7e99acd63b670299af8dc73a771d1ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's point cloud before making any changes in it  <br /></td></tr>
+<tr class="memdesc:a7e99acd63b670299af8dc73a771d1ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's points field before making any changes in it  <br /></td></tr>
 <tr class="separator:a7e99acd63b670299af8dc73a771d1ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9d9d96a33fdd65bdd65f038977fb3a" id="r_a9e9d9d96a33fdd65bdd65f038977fb3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9d9d96a33fdd65bdd65f038977fb3a">ChangePointCloudPointsAction</a> (std::string <a class="el" href="#ab798c8b335a0610698bfa5fdc04b7ac9">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj, VertCoords &amp;&amp;newPoints)</td></tr>
+<tr class="memdesc:a9e9d9d96a33fdd65bdd65f038977fb3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's points field and immediate set new value  <br /></td></tr>
+<tr class="separator:a9e9d9d96a33fdd65bdd65f038977fb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab798c8b335a0610698bfa5fdc04b7ac9" id="r_ab798c8b335a0610698bfa5fdc04b7ac9"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab798c8b335a0610698bfa5fdc04b7ac9">name</a> () const override</td></tr>
 <tr class="separator:ab798c8b335a0610698bfa5fdc04b7ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8d1da6c3caadd31cd4053fa2924e372" id="r_ad8d1da6c3caadd31cd4053fa2924e372"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8d1da6c3caadd31cd4053fa2924e372">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -197,7 +200,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a090013e2855ce8b07f9847f7dfd752bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Undo action for <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> points pointCloude change </p>
+<div class="textblock"><p>Undo action for points field inside <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab09d7c2288e5c1fa211d28437420fe23" name="ab09d7c2288e5c1fa211d28437420fe23"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab09d7c2288e5c1fa211d28437420fe23">&#9670;&#160;</a></span>Obj</h2>
@@ -215,7 +218,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7e99acd63b670299af8dc73a771d1ac3" name="a7e99acd63b670299af8dc73a771d1ac3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e99acd63b670299af8dc73a771d1ac3">&#9670;&#160;</a></span>ChangePointCloudPointsAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e99acd63b670299af8dc73a771d1ac3">&#9670;&#160;</a></span>ChangePointCloudPointsAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +244,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>use this constructor to remember object's point cloud before making any changes in it </p>
+<p>use this constructor to remember object's points field before making any changes in it </p>
+
+</div>
+</div>
+<a id="a9e9d9d96a33fdd65bdd65f038977fb3a" name="a9e9d9d96a33fdd65bdd65f038977fb3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9d9d96a33fdd65bdd65f038977fb3a">&#9670;&#160;</a></span>ChangePointCloudPointsAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangePointCloudPointsAction::ChangePointCloudPointsAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertCoords &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newPoints</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's points field and immediate set new value </p>
 
 </div>
 </div>

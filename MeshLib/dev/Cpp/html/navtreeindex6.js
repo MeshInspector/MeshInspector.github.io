@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRPrecisePredicates3_8h.html#a3b8fe2d95a1499db4a27e1494620e1d2":[5,0,3,0,0,1,4,48,2],
 "MRMeshC_2MRPrecisePredicates3_8h.html#a582d7c3254b78e35e96b438c59428b8e":[5,0,3,0,0,1,4,48,3],
 "MRMeshC_2MRPrecisePredicates3_8h.html#ae642d0deb4c0c83bda27d6b7492bf6c4":[5,0,3,0,0,1,4,48,4],
 "MRMeshC_2MRPrecisePredicates3_8h_source.html":[5,0,3,0,0,1,4,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[5,0,3,0,0,1,3,133,5],
 "MRMesh_2MRIntersectionContour_8h.html#a9f26ad2470dbd62255be7fc1cab2b503":[5,0,3,0,0,1,3,133,2],
 "MRMesh_2MRIntersectionContour_8h.html#afac751f311b648116a3a4afcd06a10c7":[5,0,3,0,0,1,3,133,7],
-"MRMesh_2MRIntersectionContour_8h_source.html":[5,0,3,0,0,1,3,133],
-"MRMesh_2MRMakeSphereMesh_8h.html":[5,0,3,0,0,1,3,159]
+"MRMesh_2MRIntersectionContour_8h_source.html":[5,0,3,0,0,1,3,133]
 };

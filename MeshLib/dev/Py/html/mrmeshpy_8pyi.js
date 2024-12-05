@@ -1722,6 +1722,7 @@ var mrmeshpy_8pyi =
     [ "interpolateArcs", "mrmeshpy_8pyi.html#ae1031a3594a208de8eeb82e7295b8638", null ],
     [ "interpolateLines", "mrmeshpy_8pyi.html#a68e31268226515ddddf724fc783171a8", null ],
     [ "intersection", "mrmeshpy_8pyi.html#ab795144bcd22c107fefe69589b5171e4", null ],
+    [ "isClosed", "mrmeshpy_8pyi.html#aaa9a012e616c0f5d9934f66499627dc9", null ],
     [ "isDegree3Dest", "mrmeshpy_8pyi.html#af545c890f6c0198a370634cb27445071", null ],
     [ "isEdgeBetweenDoubleTris", "mrmeshpy_8pyi.html#ab1d01a70ffd09120c99010873516192e", null ],
     [ "isEdgeLoop", "mrmeshpy_8pyi.html#a44e72b12f4225b0ac6abd826cbd96572", null ],

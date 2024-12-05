@@ -20,8 +20,9 @@ var searchData=
   ['unselectedobjectmesh_17',['UnselectedObjectMesh',['../classmrmeshpy_1_1SceneColors_1_1Type.html#a4ab503d5a4cfcbdb25f3476dcf0e92dd',1,'mrmeshpy::SceneColors::Type']]],
   ['unselectedobjectpoints_18',['UnselectedObjectPoints',['../classmrmeshpy_1_1SceneColors_1_1Type.html#a4b7eaa19e86a8a295d48c3f308a85334',1,'mrmeshpy::SceneColors::Type']]],
   ['unselectedobjectvoxels_19',['UnselectedObjectVoxels',['../classmrmeshpy_1_1SceneColors_1_1Type.html#a2a4ff60d142a40f0f11b0190c5583662',1,'mrmeshpy::SceneColors::Type']]],
-  ['unsigned_20',['Unsigned',['../classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html#a7d7c8ea2cad7d0d234a86f46dd4d6a69',1,'mrmeshpy.MeshToVolumeParams.Type.Unsigned'],['../classmrmeshpy_1_1SignDetectionMode.html#af635190fc536189bcb4ca4355dabd4b0',1,'mrmeshpy.SignDetectionMode.Unsigned']]],
-  ['upper_21',['Upper',['../classmrmeshpy_1_1GridSettings_1_1TriType.html#a20ca69001a9822ca5d4f1860784159d8',1,'mrmeshpy::GridSettings::TriType']]],
-  ['usedefaultscenepropertiesondeserialization_22',['UseDefaultScenePropertiesOnDeserialization',['../classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a1bf8576bba84e11a6b50bad6e8b40af8',1,'mrmeshpy::SceneSettings::BoolType']]],
-  ['uvcoord_23',['UVCoord',['../namespacemrmeshpy.html#aa1c468d89e36aef34b0502ca81f2db4f',1,'mrmeshpy']]]
+  ['unselectedtemporarymeasurements_20',['UnselectedTemporaryMeasurements',['../classmrmeshpy_1_1SceneColors_1_1Type.html#a7bda9e747668a2aa5fe1857b8caeef13',1,'mrmeshpy::SceneColors::Type']]],
+  ['unsigned_21',['Unsigned',['../classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html#a7d7c8ea2cad7d0d234a86f46dd4d6a69',1,'mrmeshpy.MeshToVolumeParams.Type.Unsigned'],['../classmrmeshpy_1_1SignDetectionMode.html#af635190fc536189bcb4ca4355dabd4b0',1,'mrmeshpy.SignDetectionMode.Unsigned']]],
+  ['upper_22',['Upper',['../classmrmeshpy_1_1GridSettings_1_1TriType.html#a20ca69001a9822ca5d4f1860784159d8',1,'mrmeshpy::GridSettings::TriType']]],
+  ['usedefaultscenepropertiesondeserialization_23',['UseDefaultScenePropertiesOnDeserialization',['../classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a1bf8576bba84e11a6b50bad6e8b40af8',1,'mrmeshpy::SceneSettings::BoolType']]],
+  ['uvcoord_24',['UVCoord',['../namespacemrmeshpy.html#aa1c468d89e36aef34b0502ca81f2db4f',1,'mrmeshpy']]]
 ];

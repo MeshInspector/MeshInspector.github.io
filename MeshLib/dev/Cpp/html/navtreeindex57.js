@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1VoxelsLoad.html#ad79032cc6ef1a0e389097a70c1000de3":[5,0,1,0,1,39,20],
+"namespaceMR_1_1VoxelsLoad.html#aeeb3b38707e658a1939994a1f79d021e":[5,0,1,0,1,39,4],
+"namespaceMR_1_1VoxelsSave.html":[5,0,1,0,1,40],
+"namespaceMR_1_1VoxelsSave.html#a0f1cbd074f33c0c8f5dcda546829153b":[5,0,1,0,1,40,6],
 "namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[5,0,1,0,1,40,1],
 "namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[5,0,1,0,1,40,5],
 "namespaceMR_1_1detail.html":[5,0,1,0,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "structMRMeshLoadObjLoadSettings.html#a9ceea9e8fa9427e7abef4a490a9aa7ee":[5,0,2,0,29,2],
 "structMRMeshLoadObjLoadSettings.html#aa2d150d8bbb8bdf034c0b63da32133de":[5,0,2,0,29,0],
 "structMRMeshNormals.html":[5,0,2,0,30],
-"structMRMeshNormals.html#a58543953950bc092626df8324b68b436":[5,0,2,0,30,1],
-"structMRMeshNormals.html#a7339fd6fc019ca383d4fdf329519ccc4":[5,0,2,0,30,0],
-"structMRMeshPart.html":[5,0,2,0,31],
-"structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[5,0,2,0,31,0],
-"structMRMeshPart.html#a5ce5edc6f84e9905919f9f558dc65922":[5,0,2,0,31,1]
+"structMRMeshNormals.html#a58543953950bc092626df8324b68b436":[5,0,2,0,30,1]
 };

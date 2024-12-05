@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRMesh_2MRMeshNormals_8h.html":[5,0,3,0,0,1,3,197],
 "MRMesh_2MRMeshNormals_8h_source.html":[5,0,3,0,0,1,3,197],
 "MRMesh_2MRMeshOrPoints_8h.html":[5,0,3,0,0,1,3,198],
 "MRMesh_2MRMeshOrPoints_8h.html#a04b00a5eae1214cc2a21d439db0e9c94":[5,0,3,0,0,1,3,198,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRObjectMeshHolder_8h.html#a50ba2acfd483f395e71abb80f687463e":[5,0,3,0,0,1,3,232,9],
 "MRObjectMeshHolder_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[5,0,3,0,0,1,3,232,2],
 "MRObjectMeshHolder_8h.html#a9006d81306cdae254fe8190c93bd96cc":[5,0,3,0,0,1,3,232,10],
-"MRObjectMeshHolder_8h.html#aa8b7119d92d91910ac924bc65b00fbda":[5,0,3,0,0,1,3,232,7],
-"MRObjectMeshHolder_8h.html#aa93ffb62aca75747ad85cc36fb694363":[5,0,3,0,0,1,3,232,11]
+"MRObjectMeshHolder_8h.html#aa8b7119d92d91910ac924bc65b00fbda":[5,0,3,0,0,1,3,232,7]
 };

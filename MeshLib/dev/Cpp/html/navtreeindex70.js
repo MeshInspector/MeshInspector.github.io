@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ObjTreeTraits.html":[5,0,1,0,1,413],
+"structMR_1_1ObjTreeTraits.html":[5,0,2,0,1,398],
+"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[5,0,1,0,1,413,2],
+"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[5,0,2,0,1,398,2],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[5,0,1,0,1,413,1],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[5,0,2,0,1,398,1],
 "structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[5,0,1,0,1,413,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[5,0,1,0,1,436,2],
 "structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[5,0,2,0,1,421,2],
 "structMR_1_1PickPointManager_1_1Params.html":[5,0,1,0,1,437,0],
-"structMR_1_1PickPointManager_1_1Params.html":[5,0,2,0,1,422,0],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[5,0,1,0,1,437,0,4],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[5,0,2,0,1,422,0,4],
-"structMR_1_1PickPointManager_1_1Params.html#a29da52a2e4e00f22aa0e7206a5ca2819":[5,0,1,0,1,437,0,6],
-"structMR_1_1PickPointManager_1_1Params.html#a29da52a2e4e00f22aa0e7206a5ca2819":[5,0,2,0,1,422,0,6]
+"structMR_1_1PickPointManager_1_1Params.html":[5,0,2,0,1,422,0]
 };

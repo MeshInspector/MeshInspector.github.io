@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"MRMesh_2MRMakeSphereMesh_8h.html":[5,0,3,0,0,1,3,159],
 "MRMesh_2MRMakeSphereMesh_8h.html#a63679b306dbff600a8f7c5008a489d9d":[5,0,3,0,0,1,3,159,1],
 "MRMesh_2MRMakeSphereMesh_8h.html#a669b6772939a2427c2564e7a4a66b25e":[5,0,3,0,0,1,3,159,2],
 "MRMesh_2MRMakeSphereMesh_8h_source.html":[5,0,3,0,0,1,3,159],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRMeshLoad_8h.html#aefa8cc72d40c3101924ef4334f38e04c":[5,0,3,0,0,1,3,192,28],
 "MRMesh_2MRMeshLoad_8h_source.html":[5,0,3,0,0,1,3,192],
 "MRMesh_2MRMeshMetrics_8h.html":[5,0,3,0,0,1,3,196],
-"MRMesh_2MRMeshMetrics_8h_source.html":[5,0,3,0,0,1,3,196],
-"MRMesh_2MRMeshNormals_8h.html":[5,0,3,0,0,1,3,197]
+"MRMesh_2MRMeshMetrics_8h_source.html":[5,0,3,0,0,1,3,196]
 };

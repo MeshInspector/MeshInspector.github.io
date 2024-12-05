@@ -25,6 +25,8 @@ var structMR_1_1SceneColors =
       [ "UnselectedFeatureDecorations", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa86bffffe1afee0a5c1e6b7630965e06c", null ],
       [ "SelectedMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ce7a47f380884f1a5739c34299a2eb7", null ],
       [ "UnselectedMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aafa0d84b28915f0828c10e5f1abfcf1ac", null ],
+      [ "SelectedTemporaryMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa543c0ab476d5490df39cee5d7f8c8834", null ],
+      [ "UnselectedTemporaryMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326", null ],
       [ "Count", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483", null ]
     ] ]
 ];
