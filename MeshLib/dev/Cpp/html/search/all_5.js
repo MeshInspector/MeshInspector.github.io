@@ -49,7 +49,7 @@ var searchData=
   ['callback_5fdraw_5fcustom_5fwindow_46',['callback_draw_custom_window',['../classMR_1_1ImGuiMenu.html#af766771b374fc76627721e89e97b0573',1,'MR::ImGuiMenu']]],
   ['callback_5fdraw_5fviewer_5fmenu_47',['callback_draw_viewer_menu',['../classMR_1_1ImGuiMenu.html#a58d1777909c66022cb848ad4bfd08e6c',1,'MR::ImGuiMenu']]],
   ['callback_5fdraw_5fviewer_5fwindow_48',['callback_draw_viewer_window',['../classMR_1_1ImGuiMenu.html#a48361f3a545ce8d2eea45667c5e25775',1,'MR::ImGuiMenu']]],
-  ['callbacksetprogress_49',['callBackSetProgress',['../classMR_1_1ProgressBar.html#a7732ed3aa649adc99d237e5315f07d84',1,'MR::ProgressBar']]],
+  ['callbacksetprogress_49',['callBackSetProgress',['../namespaceMR_1_1ProgressBar.html#a2682696e53c15a5fbb804436938b94ef',1,'MR::ProgressBar']]],
   ['callsimply_50',['CallSimply',['../structMR_1_1Parallel_1_1CallSimply.html',1,'MR::Parallel']]],
   ['callsimplymaker_51',['CallSimplyMaker',['../structMR_1_1Parallel_1_1CallSimplyMaker.html',1,'MR::Parallel']]],
   ['callwithtls_52',['CallWithTLS',['../structMR_1_1Parallel_1_1CallWithTLS.html',1,'MR::Parallel']]],

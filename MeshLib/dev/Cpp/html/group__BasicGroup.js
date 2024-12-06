@@ -298,7 +298,7 @@ var group__BasicGroup =
     [ "MR::pathFromUtf8", "group__BasicGroup.html#gabe699ad65df9788d6c5c76856ddbf259", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#ga20dc9bc9caabc76a8ed03696488fbd2c", null ],
     [ "MR::printCurrentTimerBranch", "group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a", null ],
-    [ "MR::printTimingTreeAndStop", "group__BasicGroup.html#gab32915ca171bafe6752bb0a93f15a19f", null ],
+    [ "MR::printTimingTree", "group__BasicGroup.html#ga125565922a2357da0b9bcc8c1c8bb44a", null ],
     [ "MR::printTimingTreeAtEnd", "group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15", null ],
     [ "MR::redirectSTDStreamsToLogger", "group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f", null ],
     [ "MR::registerThreadRootTimeRecord", "group__BasicGroup.html#ga73f1c5c9fb6ffeff44c6f14fb15a30ca", null ],

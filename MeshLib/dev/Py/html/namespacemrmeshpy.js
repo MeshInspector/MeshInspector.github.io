@@ -1812,7 +1812,7 @@ var namespacemrmeshpy =
     [ "positionVertsWithSpacing", "namespacemrmeshpy.html#a63eb1efb649b159ed5261b1b0dc09061", null ],
     [ "printCurrentTimerBranch", "namespacemrmeshpy.html#a488c99dee4e28a88401f241d71c715f4", null ],
     [ "printStacktraceOnCrash", "namespacemrmeshpy.html#a42ba51e6618585f492f73140a7e11352", null ],
-    [ "printTimingTreeAndStop", "namespacemrmeshpy.html#a1011f1d778ddcbf417ed672c62a5120b", null ],
+    [ "printTimingTree", "namespacemrmeshpy.html#ad712e224759e4abea37cfb589eb0dc7d", null ],
     [ "printTimingTreeAtEnd", "namespacemrmeshpy.html#a7d533da540fa6fb48fc77f1055ee2cf2", null ],
     [ "processCloseTriangles", "namespacemrmeshpy.html#a86846c2e495e6c3a388d080aa0b25f11", null ],
     [ "projectAllMeshVertices", "namespacemrmeshpy.html#aa361f47b947e1825d7de5a3e83ef3956", null ],

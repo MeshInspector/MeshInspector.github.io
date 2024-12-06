@@ -125,7 +125,7 @@ var searchData=
   ['resetredrawflag_122',['resetRedrawFlag',['../classMR_1_1Object.html#a9dc77f3f61430395182e8402e6e6f410',1,'MR::Object::resetRedrawFlag()'],['../classMR_1_1Viewport.html#a48d0af17aa1142d78dcc98ee60bcde3e',1,'MR::Viewport::resetRedrawFlag()']]],
   ['resetscenemenuitem_123',['ResetSceneMenuItem',['../classMR_1_1ResetSceneMenuItem.html#a2c950de3ab65581e1305d27acdfae42e',1,'MR::ResetSceneMenuItem']]],
   ['resetsettings_124',['resetSettings',['../classMR_1_1IViewerSettingsManager.html#aa9efd64388f302d29af0b3f52e02e1b9',1,'MR::IViewerSettingsManager::resetSettings()'],['../classMR_1_1ViewerSettingsManager.html#a44434b6d527c61c052707e63cba1a32a',1,'MR::ViewerSettingsManager::resetSettings()']]],
-  ['resettaskname_125',['resetTaskName',['../classMR_1_1ProgressBar.html#a53263cd0f7893c5c1d9b8897ede3fe41',1,'MR::ProgressBar']]],
+  ['resettaskname_125',['resetTaskName',['../namespaceMR_1_1ProgressBar.html#aa2b9b5f5b7a526d0721702a144530d7f',1,'MR::ProgressBar']]],
   ['resettext_126',['resetText',['../structMR_1_1AncillaryLabel.html#adc7088401a069525f6737c1000f4dbfa',1,'MR::AncillaryLabel']]],
   ['resettime_127',['resetTime',['../classMR_1_1AsyncTimer.html#a6de5f55a304287df5371578c9fb8bfad',1,'MR::AsyncTimer']]],
   ['resettodefaults_128',['resetToDefaults',['../namespaceMR_1_1UnitSettings.html#ae406c519ab41f7cbc08d65a9c83d2bcf',1,'MR::UnitSettings']]],

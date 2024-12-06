@@ -645,7 +645,6 @@ var annotated_dup =
       [ "PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", "structMR_1_1PreciseVertCoords" ],
       [ "PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", "structMR_1_1PreciseVertCoords2" ],
       [ "PreDrawListener", "structMR_1_1PreDrawListener.html", "structMR_1_1PreDrawListener" ],
-      [ "ProgressBar", "classMR_1_1ProgressBar.html", "classMR_1_1ProgressBar" ],
       [ "ProgressInterrupter", "structMR_1_1ProgressInterrupter.html", "structMR_1_1ProgressInterrupter" ],
       [ "PythonExport", "classMR_1_1PythonExport.html", "classMR_1_1PythonExport" ],
       [ "PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", "structMR_1_1PythonFunctionAdder" ],

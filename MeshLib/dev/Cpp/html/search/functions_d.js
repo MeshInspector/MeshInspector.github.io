@@ -12,7 +12,7 @@ var searchData=
   ['nextedgesameleft_9',['NextEdgeSameLeft',['../classMR_1_1NextEdgeSameLeft.html#a7cd53c8ae9e36043c2dc5e9750efcce3',1,'MR::NextEdgeSameLeft']]],
   ['nextedgesameorigin_10',['NextEdgeSameOrigin',['../classMR_1_1NextEdgeSameOrigin.html#a473b57e8323241ba360af0221af56cff',1,'MR::NextEdgeSameOrigin']]],
   ['nextleftbd_11',['nextLeftBd',['../classMR_1_1MeshTopology.html#ac2acc2c945d672bad703119cf06ba3d3',1,'MR::MeshTopology']]],
-  ['nexttask_12',['nextTask',['../classMR_1_1ProgressBar.html#ac842c4a5f15afd31850fdc851607fb2d',1,'MR::ProgressBar::nextTask()'],['../classMR_1_1ProgressBar.html#a0834deaf9e33eb5ce6581bf52300683b',1,'MR::ProgressBar::nextTask(const char *s)']]],
+  ['nexttask_12',['nextTask',['../namespaceMR_1_1ProgressBar.html#aa2bbcde88ff779122f16150fa6de08eb',1,'MR::ProgressBar::nextTask()'],['../namespaceMR_1_1ProgressBar.html#a01e2c488a5c5dea28c7203cfbfbfd0f1',1,'MR::ProgressBar::nextTask(const char *s)']]],
   ['nextvid_13',['nextVid',['../structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c',1,'MR::SeparationPointStorage::Block']]],
   ['nextz_14',['nextZ',['../classMR_1_1MarchingCubesByParts.html#ad318fe7929b1263c84bdd7ca0fbc44b0',1,'MR::MarchingCubesByParts']]],
   ['nodefinit_15',['NoDefInit',['../structMR_1_1NoDefInit.html#aaa8735508a78c638055d6001174d206a',1,'MR::NoDefInit']]],

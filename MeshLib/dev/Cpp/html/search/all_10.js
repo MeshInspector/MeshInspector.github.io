@@ -53,7 +53,7 @@ var searchData=
   ['nextedgesameorigin_50',['NextEdgeSameOrigin',['../classMR_1_1NextEdgeSameOrigin.html',1,'MR::NextEdgeSameOrigin'],['../classMR_1_1NextEdgeSameOrigin.html#a473b57e8323241ba360af0221af56cff',1,'MR::NextEdgeSameOrigin::NextEdgeSameOrigin()']]],
   ['nextid_51',['nextId',['../structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6',1,'MR::TriangulationHelpers::FanOptimizerQueueElement']]],
   ['nextleftbd_52',['nextLeftBd',['../classMR_1_1MeshTopology.html#ac2acc2c945d672bad703119cf06ba3d3',1,'MR::MeshTopology']]],
-  ['nexttask_53',['nextTask',['../classMR_1_1ProgressBar.html#ac842c4a5f15afd31850fdc851607fb2d',1,'MR::ProgressBar::nextTask()'],['../classMR_1_1ProgressBar.html#a0834deaf9e33eb5ce6581bf52300683b',1,'MR::ProgressBar::nextTask(const char *s)']]],
+  ['nexttask_53',['nextTask',['../namespaceMR_1_1ProgressBar.html#aa2bbcde88ff779122f16150fa6de08eb',1,'MR::ProgressBar::nextTask()'],['../namespaceMR_1_1ProgressBar.html#a01e2c488a5c5dea28c7203cfbfbfd0f1',1,'MR::ProgressBar::nextTask(const char *s)']]],
   ['nextvid_54',['nextVid',['../structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c',1,'MR::SeparationPointStorage::Block']]],
   ['nextz_55',['nextZ',['../classMR_1_1MarchingCubesByParts.html#ad318fe7929b1263c84bdd7ca0fbc44b0',1,'MR::MarchingCubesByParts']]],
   ['no_56',['No',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b',1,'MR::Laplacian::No'],['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b',1,'MR::No']]],

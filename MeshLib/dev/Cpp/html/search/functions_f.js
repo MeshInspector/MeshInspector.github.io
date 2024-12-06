@@ -117,7 +117,7 @@ var searchData=
   ['primitivetoobject_114',['primitiveToObject',['../namespaceMR_1_1Features.html#a49fd9207c07aaf09dab5aa90ea742cbb',1,'MR::Features']]],
   ['printcurrenttimerbranch_115',['printCurrentTimerBranch',['../group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a',1,'MR']]],
   ['printstacktraceoncrash_116',['printStacktraceOnCrash',['../namespaceMR.html#a49107746ea2415c9c89d28a9e0f56112',1,'MR']]],
-  ['printtimingtreeandstop_117',['printTimingTreeAndStop',['../group__BasicGroup.html#gab32915ca171bafe6752bb0a93f15a19f',1,'MR']]],
+  ['printtimingtree_117',['printTimingTree',['../group__BasicGroup.html#ga125565922a2357da0b9bcc8c1c8bb44a',1,'MR::printTimingTree()'],['../namespaceMR_1_1ProgressBar.html#ae694b1e02bb163d667aaca266f472606',1,'MR::ProgressBar::printTimingTree()']]],
   ['printtimingtreeatend_118',['printTimingTreeAtEnd',['../group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15',1,'MR']]],
   ['printtree_119',['printTree',['../structMR_1_1ThreadRootTimeRecord.html#ab1a1265af16cac54bd16adf7e8c44c27',1,'MR::ThreadRootTimeRecord']]],
   ['proceed_120',['proceed',['../structMR_1_1PolylineMaker.html#abaa25d6997f93c9797a20cf3975b2eef',1,'MR::PolylineMaker']]],

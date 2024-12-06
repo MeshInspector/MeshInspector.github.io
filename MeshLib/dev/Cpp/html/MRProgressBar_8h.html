@@ -143,28 +143,84 @@ $(function(){initNavTree('MRProgressBar_8h.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRProgressBar.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRFrameRedrawRequest_8h_source.html">MRFrameRedrawRequest.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRImGui_8h_source.html">MRImGui.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
-<code>#include &lt;atomic&gt;</code><br />
-<code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MRProgressBar_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html">MR::ProgressBar</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html">MR::ProgressBar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a096de280a40715b2c4db2b4ccfeb821d" id="r_a096de280a40715b2c4db2b4ccfeb821d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">MR::ProgressBar::TaskWithMainThreadPostProcessing</a> = std::function&lt; std::function&lt;void()&gt;() &gt;</td></tr>
+<tr class="memdesc:a096de280a40715b2c4db2b4ccfeb821d"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that returns post-processing function to be called in main <a class="el" href="namespaceMR_1_1UI.html">UI</a> thread  <br /></td></tr>
+<tr class="separator:a096de280a40715b2c4db2b4ccfeb821d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:abd759374a06a6cb111abb5a5ad608ea1" id="r_abd759374a06a6cb111abb5a5ad608ea1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#abd759374a06a6cb111abb5a5ad608ea1">MR::ProgressBar::setup</a> (float scaling)</td></tr>
+<tr class="memdesc:abd759374a06a6cb111abb5a5ad608ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function should be called only once for each frame (it is called in <a class="el" href="classMR_1_1Menu.html">MR::Menu</a> (<a class="el" href="classMR_1_1RibbonMenu.html">MR::RibbonMenu</a>))  <br /></td></tr>
+<tr class="separator:abd759374a06a6cb111abb5a5ad608ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b821f82af9dc3569878e8352c4c333c" id="r_a3b821f82af9dc3569878e8352c4c333c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a3b821f82af9dc3569878e8352c4c333c">MR::ProgressBar::onFrameEnd</a> ()</td></tr>
+<tr class="memdesc:a3b821f82af9dc3569878e8352c4c333c"><td class="mdescLeft">&#160;</td><td class="mdescRight">call this function on frame end  <br /></td></tr>
+<tr class="separator:a3b821f82af9dc3569878e8352c4c333c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad694eb3ebaed27434a4adc6f85c929e6" id="r_ad694eb3ebaed27434a4adc6f85c929e6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#ad694eb3ebaed27434a4adc6f85c929e6">MR::ProgressBar::order</a> (const char *name, const std::function&lt; void()&gt; &amp;task, int taskCount=1)</td></tr>
+<tr class="separator:ad694eb3ebaed27434a4adc6f85c929e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0e6075106a9a6b38e64db60695d5e7" id="r_a7d0e6075106a9a6b38e64db60695d5e7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a7d0e6075106a9a6b38e64db60695d5e7">MR::ProgressBar::orderWithMainThreadPostProcessing</a> (const char *name, <a class="el" href="namespaceMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">TaskWithMainThreadPostProcessing</a> task, int taskCount=1)</td></tr>
+<tr class="separator:a7d0e6075106a9a6b38e64db60695d5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839e7d4663be090de8691580d7227c12" id="r_a839e7d4663be090de8691580d7227c12"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a839e7d4663be090de8691580d7227c12">MR::ProgressBar::orderWithManualFinish</a> (const char *name, std::function&lt; void()&gt; task, int taskCount=1)</td></tr>
+<tr class="separator:a839e7d4663be090de8691580d7227c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17865bb846061f43e17a0ad267ca598a" id="r_a17865bb846061f43e17a0ad267ca598a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a17865bb846061f43e17a0ad267ca598a">MR::ProgressBar::isCanceled</a> ()</td></tr>
+<tr class="separator:a17865bb846061f43e17a0ad267ca598a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6ace0900add6a59ee1539dffc5d961" id="r_abd6ace0900add6a59ee1539dffc5d961"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#abd6ace0900add6a59ee1539dffc5d961">MR::ProgressBar::isFinished</a> ()</td></tr>
+<tr class="separator:abd6ace0900add6a59ee1539dffc5d961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2128baeb61b280fe1a9fce7857599070" id="r_a2128baeb61b280fe1a9fce7857599070"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a2128baeb61b280fe1a9fce7857599070">MR::ProgressBar::getProgress</a> ()</td></tr>
+<tr class="separator:a2128baeb61b280fe1a9fce7857599070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e2f2d57df60a5d91c509ce0f4a65d4d" id="r_a5e2f2d57df60a5d91c509ce0f4a65d4d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a5e2f2d57df60a5d91c509ce0f4a65d4d">MR::ProgressBar::getLastOperationTime</a> ()</td></tr>
+<tr class="memdesc:a5e2f2d57df60a5d91c509ce0f4a65d4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns time of last operation in seconds, returns -1.0f if no operation was performed  <br /></td></tr>
+<tr class="separator:a5e2f2d57df60a5d91c509ce0f4a65d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66618d001f8cbce3e0a07b2b4dde0af" id="r_ab66618d001f8cbce3e0a07b2b4dde0af"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#ab66618d001f8cbce3e0a07b2b4dde0af">MR::ProgressBar::getLastOperationTitle</a> ()</td></tr>
+<tr class="memdesc:ab66618d001f8cbce3e0a07b2b4dde0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns title of the last operation  <br /></td></tr>
+<tr class="separator:ab66618d001f8cbce3e0a07b2b4dde0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1abb6f1a99317df23eca0b7dab5ca9d4" id="r_a1abb6f1a99317df23eca0b7dab5ca9d4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a1abb6f1a99317df23eca0b7dab5ca9d4">MR::ProgressBar::setProgress</a> (float p)</td></tr>
+<tr class="memdesc:a1abb6f1a99317df23eca0b7dab5ca9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the current progress and returns false if the user has pressed Cancel button  <br /></td></tr>
+<tr class="separator:a1abb6f1a99317df23eca0b7dab5ca9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2bbcde88ff779122f16150fa6de08eb" id="r_aa2bbcde88ff779122f16150fa6de08eb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#aa2bbcde88ff779122f16150fa6de08eb">MR::ProgressBar::nextTask</a> ()</td></tr>
+<tr class="separator:aa2bbcde88ff779122f16150fa6de08eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e2c488a5c5dea28c7203cfbfbfd0f1" id="r_a01e2c488a5c5dea28c7203cfbfbfd0f1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a01e2c488a5c5dea28c7203cfbfbfd0f1">MR::ProgressBar::nextTask</a> (const char *s)</td></tr>
+<tr class="separator:a01e2c488a5c5dea28c7203cfbfbfd0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae692760ee83b399be6653c81468172ea" id="r_ae692760ee83b399be6653c81468172ea"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#ae692760ee83b399be6653c81468172ea">MR::ProgressBar::setTaskCount</a> (int n)</td></tr>
+<tr class="separator:ae692760ee83b399be6653c81468172ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08670326b3d5427ad65c0583c83ff4ee" id="r_a08670326b3d5427ad65c0583c83ff4ee"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a08670326b3d5427ad65c0583c83ff4ee">MR::ProgressBar::forceSetTaskName</a> (std::string taskName)</td></tr>
+<tr class="memdesc:a08670326b3d5427ad65c0583c83ff4ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the current task's name without auto-updating progress value  <br /></td></tr>
+<tr class="separator:a08670326b3d5427ad65c0583c83ff4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2b9b5f5b7a526d0721702a144530d7f" id="r_aa2b9b5f5b7a526d0721702a144530d7f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#aa2b9b5f5b7a526d0721702a144530d7f">MR::ProgressBar::resetTaskName</a> ()</td></tr>
+<tr class="separator:aa2b9b5f5b7a526d0721702a144530d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af847e27a1f34b2b07a29272ef2fb9e88" id="r_af847e27a1f34b2b07a29272ef2fb9e88"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#af847e27a1f34b2b07a29272ef2fb9e88">MR::ProgressBar::finish</a> ()</td></tr>
+<tr class="separator:af847e27a1f34b2b07a29272ef2fb9e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88739d4c0d7055aa89a69172041cb925" id="r_a88739d4c0d7055aa89a69172041cb925"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a88739d4c0d7055aa89a69172041cb925">MR::ProgressBar::isOrdered</a> ()</td></tr>
+<tr class="memdesc:a88739d4c0d7055aa89a69172041cb925"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if progress bar was ordered and not finished  <br /></td></tr>
+<tr class="separator:a88739d4c0d7055aa89a69172041cb925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2682696e53c15a5fbb804436938b94ef" id="r_a2682696e53c15a5fbb804436938b94ef"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a2682696e53c15a5fbb804436938b94ef">MR::ProgressBar::callBackSetProgress</a> (float p)</td></tr>
+<tr class="memdesc:a2682696e53c15a5fbb804436938b94ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">these callbacks allow canceling  <br /></td></tr>
+<tr class="separator:a2682696e53c15a5fbb804436938b94ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481e32fa95706159e765a2da757f57c0" id="r_a481e32fa95706159e765a2da757f57c0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#a481e32fa95706159e765a2da757f57c0">MR::ProgressBar::simpleCallBackSetProgress</a> (float p)</td></tr>
+<tr class="memdesc:a481e32fa95706159e765a2da757f57c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">these callbacks do not allow canceling  <br /></td></tr>
+<tr class="separator:a481e32fa95706159e765a2da757f57c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae694b1e02bb163d667aaca266f472606" id="r_ae694b1e02bb163d667aaca266f472606"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html#ae694b1e02bb163d667aaca266f472606">MR::ProgressBar::printTimingTree</a> (double minTimeSec=0.1)</td></tr>
+<tr class="separator:ae694b1e02bb163d667aaca266f472606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -87,7 +87,7 @@ var searchData=
   ['primitivetoobject_84',['primitiveToObject',['../classmrmeshpy_1_1Features.html#aa4e170873bdc144b93f70130a34cf000',1,'mrmeshpy::Features']]],
   ['printcurrenttimerbranch_85',['printCurrentTimerBranch',['../namespacemrmeshpy.html#a488c99dee4e28a88401f241d71c715f4',1,'mrmeshpy']]],
   ['printstacktraceoncrash_86',['printStacktraceOnCrash',['../namespacemrmeshpy.html#a42ba51e6618585f492f73140a7e11352',1,'mrmeshpy']]],
-  ['printtimingtreeandstop_87',['printTimingTreeAndStop',['../namespacemrmeshpy.html#a1011f1d778ddcbf417ed672c62a5120b',1,'mrmeshpy']]],
+  ['printtimingtree_87',['printTimingTree',['../namespacemrmeshpy.html#ad712e224759e4abea37cfb589eb0dc7d',1,'mrmeshpy']]],
   ['printtimingtreeatend_88',['printTimingTreeAtEnd',['../namespacemrmeshpy.html#a7d533da540fa6fb48fc77f1055ee2cf2',1,'mrmeshpy']]],
   ['proceed_89',['proceed',['../classmrmeshpy_1_1PolylineMaker.html#aaebebb0acffcbc029cef63ac5940417a',1,'mrmeshpy::PolylineMaker']]],
   ['processclosetriangles_90',['processCloseTriangles',['../namespacemrmeshpy.html#a86846c2e495e6c3a388d080aa0b25f11',1,'mrmeshpy']]],

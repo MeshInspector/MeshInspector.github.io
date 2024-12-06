@@ -1929,7 +1929,7 @@ var mrmeshpy_8pyi =
     [ "positionVertsWithSpacing", "mrmeshpy_8pyi.html#a63eb1efb649b159ed5261b1b0dc09061", null ],
     [ "printCurrentTimerBranch", "mrmeshpy_8pyi.html#a488c99dee4e28a88401f241d71c715f4", null ],
     [ "printStacktraceOnCrash", "mrmeshpy_8pyi.html#a42ba51e6618585f492f73140a7e11352", null ],
-    [ "printTimingTreeAndStop", "mrmeshpy_8pyi.html#a1011f1d778ddcbf417ed672c62a5120b", null ],
+    [ "printTimingTree", "mrmeshpy_8pyi.html#ad712e224759e4abea37cfb589eb0dc7d", null ],
     [ "printTimingTreeAtEnd", "mrmeshpy_8pyi.html#a7d533da540fa6fb48fc77f1055ee2cf2", null ],
     [ "processCloseTriangles", "mrmeshpy_8pyi.html#a86846c2e495e6c3a388d080aa0b25f11", null ],
     [ "projectAllMeshVertices", "mrmeshpy_8pyi.html#aa361f47b947e1825d7de5a3e83ef3956", null ],
