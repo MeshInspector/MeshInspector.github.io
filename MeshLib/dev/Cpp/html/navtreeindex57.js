@@ -1,5 +1,17 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e":[5,0,1,0,1,38,26],
+"namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[5,0,1,0,1,38,76],
+"namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[5,0,1,0,1,38,73],
+"namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[5,0,1,0,1,38,41],
+"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[5,0,1,0,1,38,63],
+"namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[5,0,1,0,1,38,72],
+"namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[5,0,1,0,1,38,38],
+"namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[5,0,1,0,1,38,48],
+"namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9":[5,0,1,0,1,38,45],
+"namespaceMR_1_1UI.html#a8e4c6b5d376e0b7733631a2901b86d4b":[5,0,1,0,1,38,56],
+"namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333":[5,0,1,0,1,38,74],
+"namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222":[5,0,1,0,1,38,33],
 "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110":[5,0,1,0,1,38,52],
 "namespaceMR_1_1UI.html#a9b2e8bbfe90af034977fca967163a4d4":[5,0,1,0,1,38,36],
 "namespaceMR_1_1UI.html#aa1fd1e704f1ff98b82cc4c98e452f57a":[5,0,1,0,1,38,66],
@@ -237,17 +249,5 @@ var NAVTREEINDEX57 =
 "structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[5,0,2,0,16,5],
 "structMRFillHoleParams.html#a9f8cc59be22f24be20c9418d76f985be":[5,0,2,0,16,1],
 "structMRFillHoleParams.html#ab744cac77f9f46540cf1d4ae89c098fe":[5,0,2,0,16,0],
-"structMRFillHoleParams.html#abd5e444fda2adcc30b7ff392177db86c":[5,0,2,0,16,4],
-"structMRFillHoleParams.html#ad6d00d886b5618cbcb8961f55f2e7aa5":[5,0,2,0,16,3],
-"structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286":[5,0,2,0,16,2],
-"structMRFindProjectionParameters.html":[5,0,2,0,17],
-"structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[5,0,2,0,17,2],
-"structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[5,0,2,0,17,1],
-"structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[5,0,2,0,17,0],
-"structMRFixSelfIntersectionsSettings.html":[5,0,2,0,18],
-"structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[5,0,2,0,18,2],
-"structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[5,0,2,0,18,1],
-"structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[5,0,2,0,18,4],
-"structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[5,0,2,0,18,3],
-"structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[5,0,2,0,18,0]
+"structMRFillHoleParams.html#abd5e444fda2adcc30b7ff392177db86c":[5,0,2,0,16,4]
 };

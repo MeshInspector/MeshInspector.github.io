@@ -1,5 +1,17 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[5,0,2,0,1,443,2],
+"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[5,0,1,0,1,459,0],
+"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[5,0,2,0,1,443,0],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html":[5,0,1,0,1,26,0],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html":[5,0,2,0,1,15,0],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[5,0,1,0,1,26,0,0],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[5,0,2,0,1,15,0,0],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[5,0,1,0,1,26,0,2],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[5,0,2,0,1,15,0,2],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[5,0,1,0,1,26,0,1],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[5,0,2,0,1,15,0,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[5,0,1,0,1,26,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html":[5,0,2,0,1,15,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[5,0,1,0,1,26,1,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[5,0,2,0,1,15,1,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[5,0,2,0,1,468,0,0],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[5,0,1,0,1,484,0,1],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[5,0,2,0,1,468,0,1],
-"structMR_1_1PreciseCollisionResult.html":[5,0,0,1,17],
-"structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f":[5,0,0,1,17,1],
-"structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2":[5,0,0,1,17,0],
-"structMR_1_1PreciseVertCoords.html":[5,0,1,0,1,486],
-"structMR_1_1PreciseVertCoords.html":[5,0,2,0,1,470],
-"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[5,0,1,0,1,486,1],
-"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[5,0,2,0,1,470,1],
-"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[5,0,1,0,1,486,0],
-"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[5,0,2,0,1,470,0],
-"structMR_1_1PreciseVertCoords2.html":[5,0,1,0,1,487],
-"structMR_1_1PreciseVertCoords2.html":[5,0,2,0,1,471],
-"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[5,0,1,0,1,487,1],
-"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[5,0,2,0,1,471,1]
+"structMR_1_1PreciseCollisionResult.html":[5,0,0,1,17]
 };

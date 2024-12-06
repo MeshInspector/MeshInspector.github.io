@@ -8,6 +8,7 @@ var namespaceMR_1_1StyleConsts =
       [ "exitBtnSize", "namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe", null ]
     ] ],
     [ "Notification", "namespaceMR_1_1StyleConsts_1_1Notification.html", [
+      [ "cHistoryButtonSizeY", "namespaceMR_1_1StyleConsts_1_1Notification.html#a52e5057bbe55444050f29109e7fe6369", null ],
       [ "cNotificationWindowPaddingX", "namespaceMR_1_1StyleConsts_1_1Notification.html#afa5b42784cc74d768e33f84c3f8dbc37", null ],
       [ "cNotificationWindowPaddingY", "namespaceMR_1_1StyleConsts_1_1Notification.html#ab44fac23055a5f76fda2e5fbbcff8154", null ],
       [ "cWindowBorderWidth", "namespaceMR_1_1StyleConsts_1_1Notification.html#a85ff61268fac639e5871b152b1834e4d", null ],

@@ -26,5 +26,7 @@ var searchData=
   ['logos_23',['Logos',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9',1,'MR::RibbonIcons']]],
   ['lossless_24',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
   ['lossy_25',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['lower_26',['Lower',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93',1,'MR::GridSettings']]]
+  ['lower_26',['Lower',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93',1,'MR::GridSettings']]],
+  ['lowerleft_27',['LowerLeft',['../namespaceMR.html#ad2f3bc10761d952926925127eb80d902aa8594fd8be60c94e1a2607fa0fa50fae',1,'MR']]],
+  ['lowerright_28',['LowerRight',['../namespaceMR.html#ad2f3bc10761d952926925127eb80d902a5ef0d4d135d5f2814b07feaf13fda653',1,'MR']]]
 ];

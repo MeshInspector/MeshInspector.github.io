@@ -1,5 +1,17 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[5,0,2,0,1,416,0,0],
+"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[5,0,1,0,1,432,0,2],
+"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[5,0,2,0,1,416,0,2],
+"structMR_1_1Palette_1_1Parameters.html":[5,0,1,0,1,432,1],
+"structMR_1_1Palette_1_1Parameters.html":[5,0,2,0,1,416,1],
+"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[5,0,1,0,1,432,1,0],
+"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[5,0,2,0,1,416,1,0],
+"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[5,0,1,0,1,432,1,1],
+"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[5,0,2,0,1,416,1,1],
+"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[5,0,1,0,1,432,1,2],
+"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[5,0,2,0,1,416,1,2],
+"structMR_1_1Parabola.html":[5,0,1,0,1,434],
 "structMR_1_1Parabola.html":[5,0,2,0,1,418],
 "structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[5,0,1,0,1,434,0],
 "structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[5,0,2,0,1,418,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1PointsLoadSettings.html":[5,0,2,0,1,443],
 "structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[5,0,1,0,1,459,1],
 "structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[5,0,2,0,1,443,1],
-"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[5,0,1,0,1,459,2],
-"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[5,0,2,0,1,443,2],
-"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[5,0,1,0,1,459,0],
-"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[5,0,2,0,1,443,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html":[5,0,1,0,1,26,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html":[5,0,2,0,1,15,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[5,0,1,0,1,26,0,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[5,0,2,0,1,15,0,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[5,0,1,0,1,26,0,2],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[5,0,2,0,1,15,0,2],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[5,0,1,0,1,26,0,1],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[5,0,2,0,1,15,0,1],
-"structMR_1_1PointsLoad_1_1NamedCloud.html":[5,0,1,0,1,26,1]
+"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[5,0,1,0,1,459,2]
 };

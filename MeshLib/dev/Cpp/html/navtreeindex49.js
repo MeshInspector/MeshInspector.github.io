@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"group__MeshNormalsGroup.html#ga5cd4c5961165390a68a0b055b5befbfa":[5,0,0,9,5,6],
+"group__MeshNormalsGroup.html#ga5f58b21ccaa06eb95ccacb6fdfa5f35c":[5,0,0,9,5,7],
+"group__MeshNormalsGroup.html#ga855f28ca0270228f5a867c2f2fc42e37":[5,0,0,9,5,5],
+"group__MeshNormalsGroup.html#ga9d74c5dbc254d3fdb328a8ac37ba7529":[5,0,0,9,5,2],
+"group__MeshNormalsGroup.html#gaadd26fa2561ab2ec3b62b2dea079161c":[5,0,0,9,5,3],
+"group__MeshNormalsGroup.html#gab8d9ad3d41ea00136ac9d8c59766ab0c":[5,0,0,9,5,4],
+"group__MeshRelaxGroup.html":[5,0,0,9,6],
+"group__MeshRelaxGroup.html#ga0342e0ff739af1b23505a0faf855c65c":[5,0,0,9,6,7],
 "group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b":[5,0,0,9,6,4],
 "group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53":[5,0,0,9,6,5],
 "group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf":[5,0,0,9,6,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "group__TriangulationHelpersGroup.html#ga239d61601b826c9241ca50d59821b545":[5,0,0,13,0,5],
 "group__TriangulationHelpersGroup.html#gad0f4036eebdcc507b1d8314ee455eef9":[5,0,0,13,0,4],
 "group__TriangulationHelpersGroup.html#gaeeb43eb23ada74d95de7bed99be25c98":[5,0,0,13,0,1],
-"group__TriangulationHelpersGroup.html#gaf71ad211f7cae4bc648807774f9b3758":[5,0,0,13,0,3],
-"group__TunnelDetectorGroup.html":[5,0,0,16,4],
-"group__TunnelDetectorGroup.html#ga7dd035558540c3818d6d69afc731f953":[5,0,0,16,4,1],
-"group__TunnelDetectorGroup.html#gaecd871a653e3af47a39e7017288eb69c":[5,0,0,16,4,2],
-"group__TupleBindingsGroup.html":[5,0,0,0,11],
-"group__VectorGroup.html":[5,0,0,0,12],
-"group__ViewportGroup.html":[5,0,0,11,1],
-"group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660":[5,0,0,11,1,4],
-"group__ViewportGroup.html#gaab3f3280e9df3ad6b0ae88ee01f28286":[5,0,0,11,1,6]
+"group__TriangulationHelpersGroup.html#gaf71ad211f7cae4bc648807774f9b3758":[5,0,0,13,0,3]
 };

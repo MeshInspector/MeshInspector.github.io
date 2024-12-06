@@ -1,5 +1,17 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f":[5,0,0,1,17,1],
+"structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2":[5,0,0,1,17,0],
+"structMR_1_1PreciseVertCoords.html":[5,0,1,0,1,486],
+"structMR_1_1PreciseVertCoords.html":[5,0,2,0,1,470],
+"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[5,0,1,0,1,486,1],
+"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[5,0,2,0,1,470,1],
+"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[5,0,1,0,1,486,0],
+"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[5,0,2,0,1,470,0],
+"structMR_1_1PreciseVertCoords2.html":[5,0,1,0,1,487],
+"structMR_1_1PreciseVertCoords2.html":[5,0,2,0,1,471],
+"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[5,0,1,0,1,487,1],
+"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[5,0,2,0,1,471,1],
 "structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[5,0,1,0,1,487,0],
 "structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[5,0,2,0,1,471,0],
 "structMR_1_1ProgressInterrupter.html":[5,0,1,0,1,489],
@@ -237,17 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[5,0,1,0,1,529,0,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[5,0,2,0,1,513,0,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[5,0,1,0,1,536,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[5,0,2,0,1,520,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[5,0,1,0,1,536,0,2],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[5,0,2,0,1,520,0,2],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb":[5,0,1,0,1,536,0,3],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb":[5,0,2,0,1,520,0,3],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[5,0,1,0,1,536,0,1],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[5,0,2,0,1,520,0,1],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[5,0,1,0,1,536,0,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[5,0,2,0,1,520,0,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[5,0,1,0,1,532,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[5,0,2,0,1,516,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[5,0,1,0,1,532,0,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[5,0,2,0,1,516,0,0]
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[5,0,2,0,1,520,0]
 };

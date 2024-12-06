@@ -1,5 +1,9 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1PointObject.html#a3f2703413f04d8a050906c159caf02fc":[5,0,0,11,0,5,8],
+"classMR_1_1PointObject.html#a9e2e061a111ddbe853c098d2fd55f750":[5,0,0,11,0,5,7],
+"classMR_1_1PointObject.html#aa1416c2623e409a547b0c62aa7eb37cc":[5,0,0,11,0,5,1],
+"classMR_1_1PointObject.html#ab2817019fd4767a9959a629537d5eb3c":[5,0,0,11,0,5,15],
 "classMR_1_1PointObject.html#ab448b50f4d5f7e6e83479ce7652393b3":[5,0,0,11,0,5,2],
 "classMR_1_1PointObject.html#abd93c3847c57f54eb014c6742abe50b8":[5,0,0,11,0,5,0],
 "classMR_1_1PointObject.html#ac70ea9d5e70ab550d46f0f74d632f202":[5,0,0,11,0,5,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1RangeProcessor.html#a38d89572060f7a396489aa5de0d40b45":[5,0,2,0,1,482,7],
 "classMR_1_1RangeProcessor.html#a493cd8bd9cfcf270c2da05abca55a7c8":[5,0,1,0,1,498,14],
 "classMR_1_1RangeProcessor.html#a493cd8bd9cfcf270c2da05abca55a7c8":[5,0,2,0,1,482,14],
-"classMR_1_1RangeProcessor.html#a575e7717da2c9424f1c8e3c6bfcaf2e8":[5,0,1,0,1,498,11],
-"classMR_1_1RangeProcessor.html#a575e7717da2c9424f1c8e3c6bfcaf2e8":[5,0,2,0,1,482,11],
-"classMR_1_1RangeProcessor.html#a582a15e9341e8c6590b44125765256eb":[5,0,1,0,1,498,1],
-"classMR_1_1RangeProcessor.html#a582a15e9341e8c6590b44125765256eb":[5,0,2,0,1,482,1],
-"classMR_1_1RangeProcessor.html#a6a0210e315715506b9c1ccfa4ad468c4":[5,0,1,0,1,498,12]
+"classMR_1_1RangeProcessor.html#a575e7717da2c9424f1c8e3c6bfcaf2e8":[5,0,1,0,1,498,11]
 };

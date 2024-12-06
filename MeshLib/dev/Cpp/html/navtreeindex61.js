@@ -1,5 +1,17 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[5,0,0,10,2,6],
+"structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[5,0,0,10,2,5],
+"structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe":[5,0,0,10,2,8],
+"structMR_1_1DecimateResult.html":[5,0,0,10,1],
+"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[5,0,0,10,1,3],
+"structMR_1_1DecimateResult.html#a2c8b594ad2bac0e25760edeab9f76623":[5,0,0,10,1,2],
+"structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8":[5,0,0,10,1,1],
+"structMR_1_1DecimateResult.html#a957fcc3b175a446e3a20f7299cd9a1b6":[5,0,0,10,1,0],
+"structMR_1_1DecimateSettings.html":[5,0,0,10,0],
+"structMR_1_1DecimateSettings.html#a0731477e770d3880ed47726b66c43479":[5,0,0,10,0,14],
+"structMR_1_1DecimateSettings.html#a1ec65ab68109bf48005d935a85a08713":[5,0,0,10,0,2],
+"structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b":[5,0,0,10,0,0],
 "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e":[5,0,0,10,0,17],
 "structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084":[5,0,0,10,0,8],
 "structMR_1_1DecimateSettings.html#a5901e72dc3fd85459f38318a894afbbd":[5,0,0,10,0,19],
@@ -237,17 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[5,0,1,0,1,188,0],
 "structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[5,0,2,0,1,172,0],
 "structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[5,0,1,0,1,188,1],
-"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[5,0,2,0,1,172,1],
-"structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[5,0,1,0,1,188,2],
-"structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[5,0,2,0,1,172,2],
-"structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[5,0,1,0,1,188,3],
-"structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[5,0,2,0,1,172,3],
-"structMR_1_1DrawButtonParams.html":[5,0,1,0,1,189],
-"structMR_1_1DrawButtonParams.html":[5,0,2,0,1,173],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[5,0,1,0,1,189,0],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[5,0,2,0,1,173,0],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[5,0,1,0,1,189,0,2],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[5,0,2,0,1,173,0,2],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[5,0,1,0,1,189,0,1],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[5,0,2,0,1,173,0,1]
+"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[5,0,2,0,1,172,1]
 };

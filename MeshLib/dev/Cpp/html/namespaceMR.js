@@ -1340,6 +1340,10 @@ var namespaceMR =
       [ "SceneTree", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73a8b8b49402e8184fd0a7168766602cb83", null ],
       [ "All", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
     ] ],
+    [ "RibbonNotificationCorner", "namespaceMR.html#ad2f3bc10761d952926925127eb80d902", [
+      [ "LowerLeft", "namespaceMR.html#ad2f3bc10761d952926925127eb80d902aa8594fd8be60c94e1a2607fa0fa50fae", null ],
+      [ "LowerRight", "namespaceMR.html#ad2f3bc10761d952926925127eb80d902a5ef0d4d135d5f2814b07feaf13fda653", null ]
+    ] ],
     [ "ScalarType", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8", [
       [ "UInt8", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a", null ],
       [ "Int8", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539", null ],
