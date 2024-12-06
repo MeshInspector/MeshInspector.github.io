@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[5,0,2,0,1,8,4,1],
+"structMR_1_1MeshBuilder_1_1VertSpan.html":[5,0,1,0,1,16,6],
 "structMR_1_1MeshBuilder_1_1VertSpan.html":[5,0,2,0,1,8,6],
 "structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1":[5,0,1,0,1,16,6,1],
 "structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1":[5,0,2,0,1,8,6,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[5,0,2,0,1,340,2],
 "structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[5,0,1,0,1,355,0],
 "structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[5,0,2,0,1,340,0],
-"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[5,0,1,0,1,355,1],
-"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[5,0,2,0,1,340,1],
-"structMR_1_1ModelBaseRenderParams.html":[5,0,1,0,1,356]
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[5,0,1,0,1,355,1]
 };

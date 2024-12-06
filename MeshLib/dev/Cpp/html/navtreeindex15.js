@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1AlphaSortGL.html":[5,0,2,0,1,37],
+"classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[5,0,1,0,1,52,1],
 "classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[5,0,2,0,1,37,1],
 "classMR_1_1AlphaSortGL.html#a29e1a40f8ddae233dc49511e5daa9200":[5,0,1,0,1,52,0],
 "classMR_1_1AlphaSortGL.html#a29e1a40f8ddae233dc49511e5daa9200":[5,0,2,0,1,37,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a":[5,0,2,0,1,115,2],
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257":[5,0,1,0,1,130,2,2],
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257":[5,0,2,0,1,115,2,2],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[5,0,1,0,1,130,2,0],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[5,0,2,0,1,115,2,0],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571":[5,0,1,0,1,130,2,1]
+"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[5,0,1,0,1,130,2,0]
 };

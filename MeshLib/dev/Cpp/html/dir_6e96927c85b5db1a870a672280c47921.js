@@ -28,6 +28,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRGLStaticHolder.h", "MRGLStaticHolder_8h.html", "MRGLStaticHolder_8h" ],
     [ "MRGLTexture.h", "MRGLTexture_8h.html", "MRGLTexture_8h" ],
     [ "MRHistoryStore.h", "MRHistoryStore_8h.html", null ],
+    [ "MRImGui.h", "MRImGui_8h.html", null ],
     [ "MRImGuiImage.h", "MRImGuiImage_8h.html", "MRImGuiImage_8h" ],
     [ "MRImGuiMeasurementIndicators.h", "MRImGuiMeasurementIndicators_8h.html", "MRImGuiMeasurementIndicators_8h" ],
     [ "MRImGuiMenuListeners.h", "MRImGuiMenuListeners_8h.html", "MRImGuiMenuListeners_8h" ],

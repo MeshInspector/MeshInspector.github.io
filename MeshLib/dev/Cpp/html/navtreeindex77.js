@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[5,0,2,0,1,642,2],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[5,0,1,0,1,657,1],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[5,0,2,0,1,642,1],
 "structMR_1_1TouchpadZoomGestureEndListener.html":[5,0,1,0,1,658],
 "structMR_1_1TouchpadZoomGestureEndListener.html":[5,0,2,0,1,643],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1UI_1_1PlotAxis.html#ac57871303ee04628acb4f6e93f60fa53":[5,0,2,0,1,23,7,5],
 "structMR_1_1UI_1_1PlotAxis.html#ae08c70c753317b1683bed91ac16e30dc":[5,0,1,0,1,37,8,3],
 "structMR_1_1UI_1_1PlotAxis.html#ae08c70c753317b1683bed91ac16e30dc":[5,0,2,0,1,23,7,3],
-"structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[5,0,1,0,1,37,8,9],
-"structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[5,0,2,0,1,23,7,9],
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html":[5,0,1,0,1,37,9]
+"structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[5,0,1,0,1,37,8,9]
 };

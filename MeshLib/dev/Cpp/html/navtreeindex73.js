@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1Quaternion.html#adb5df4281ceff5b0f0e031a7102a9a9e":[5,0,0,0,20,25],
+"structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be":[5,0,0,0,20,16],
 "structMR_1_1RangeSize.html":[5,0,1,0,1,501],
 "structMR_1_1RangeSize.html":[5,0,2,0,1,486],
 "structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[5,0,1,0,1,501,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#af3c9cd76985b22daa5dc4df743a27f18":[5,0,2,0,1,535,1,1],
 "structMR_1_1RibbonTab.html":[5,0,1,0,1,552],
 "structMR_1_1RibbonTab.html":[5,0,2,0,1,537],
-"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[5,0,1,0,1,552,0],
-"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[5,0,2,0,1,537,0],
-"structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[5,0,1,0,1,552,2]
+"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[5,0,1,0,1,552,0]
 };

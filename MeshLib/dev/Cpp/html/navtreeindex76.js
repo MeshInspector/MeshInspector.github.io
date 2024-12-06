@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1SymMatrix4.html#a66114790de91e3bbd34e6ae1d04a97e5":[5,0,0,0,7,6,12],
+"structMR_1_1SymMatrix4.html#a73599b372bfd1917775d5b88bdd9bf19":[5,0,0,0,7,6,22],
 "structMR_1_1SymMatrix4.html#a81d260c4cff78ebfe4a0b6a1eeead433":[5,0,0,0,7,6,16],
 "structMR_1_1SymMatrix4.html#a8bba7cb7e8b42e2e84775e1f07217196":[5,0,0,0,7,6,1],
 "structMR_1_1SymMatrix4.html#a8d09737a54e0acef8b37f43c20c7dff5":[5,0,0,0,7,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[5,0,2,0,1,642,0],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[5,0,1,0,1,657,3],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[5,0,2,0,1,642,3],
-"structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[5,0,1,0,1,657,2],
-"structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[5,0,2,0,1,642,2],
-"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[5,0,1,0,1,657,1]
+"structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[5,0,1,0,1,657,2]
 };

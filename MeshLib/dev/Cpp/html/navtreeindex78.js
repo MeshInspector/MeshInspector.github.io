@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[5,0,2,0,1,23,7,9],
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html":[5,0,1,0,1,37,9],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html":[5,0,2,0,1,23,8],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c":[5,0,1,0,1,37,9,2],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c":[5,0,2,0,1,23,8,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e":[5,0,0,0,12,0,19],
 "structMR_1_1Vector2.html#ad798818540cd3ad9d2c98a4f978f8e5c":[5,0,0,0,12,0,10],
 "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621":[5,0,0,0,12,0,21],
-"structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3":[5,0,0,0,12,0,8],
-"structMR_1_1Vector2.html#aff0fc940c14dd8e86b4cdb80bf795a37":[5,0,0,0,12,0,14],
-"structMR_1_1Vector3.html":[5,0,0,0,12,1]
+"structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3":[5,0,0,0,12,0,8]
 };

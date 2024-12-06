@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1ArcInterpolationParams.html#ab7cd8db5e72fb6cad7702d8de23622fe":[5,0,1,0,1,60,0],
+"structMR_1_1ArcInterpolationParams.html#ab7cd8db5e72fb6cad7702d8de23622fe":[5,0,2,0,1,45,0],
 "structMR_1_1BMap.html":[5,0,1,0,1,74],
 "structMR_1_1BMap.html":[5,0,2,0,1,59],
 "structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[5,0,1,0,1,74,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1Color.html":[5,0,1,0,1,131],
 "structMR_1_1Color.html":[5,0,2,0,1,116],
 "structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[5,0,1,0,1,131,15],
-"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[5,0,2,0,1,116,15],
-"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[5,0,1,0,1,131,4],
-"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[5,0,2,0,1,116,4]
+"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[5,0,2,0,1,116,15]
 };

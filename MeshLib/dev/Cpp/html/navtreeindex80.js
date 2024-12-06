@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a9d975baef9f26c3a77c6769d4b760ac7":[5,0,2,0,1,24,0,1],
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[5,0,1,0,1,39,1],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[5,0,2,0,1,24,1],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293":[5,0,1,0,1,39,1,2],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293":[5,0,2,0,1,24,1,2],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[5,0,2,0,1,340,1],
+"structMR_1_1ModelBaseRenderParams.html":[5,0,1,0,1,356],
 "structMR_1_1ModelBaseRenderParams.html":[5,0,2,0,1,341],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[5,0,1,0,1,356,2],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[5,0,2,0,1,341,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[5,0,1,0,1,411,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[5,0,2,0,1,396,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[5,0,1,0,1,412],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[5,0,2,0,1,397],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[5,0,1,0,1,412,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[5,0,2,0,1,397,0]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[5,0,2,0,1,397]
 };
