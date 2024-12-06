@@ -120,8 +120,9 @@ var searchData=
   ['_7evector_5fwrapper_117',['~vector_wrapper',['../structvector__wrapper.html#af984a19eaf27a81800c8c3a7d0561355',1,'vector_wrapper']]],
   ['_7eviewerplugin_118',['~ViewerPlugin',['../classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab',1,'MR::ViewerPlugin']]],
   ['_7eviewersetup_119',['~ViewerSetup',['../classMR_1_1ViewerSetup.html#a91f189592dac535dae6d91f80c911e1f',1,'MR::ViewerSetup']]],
-  ['_7eviewport_120',['~Viewport',['../classMR_1_1Viewport.html#a1d65bf318796ffdc96002b5d70d984a7',1,'MR::Viewport']]],
-  ['_7eviewportgl_121',['~ViewportGL',['../classMR_1_1ViewportGL.html#a33a67bdad47aeacb17a644f0c65f53ec',1,'MR::ViewportGL']]],
-  ['_7evisualobject_122',['~VisualObject',['../classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058',1,'MR::VisualObject']]],
-  ['_7ewriter_123',['~Writer',['../structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6',1,'MR::Writer']]]
+  ['_7eviewertitle_120',['~ViewerTitle',['../classMR_1_1ViewerTitle.html#aa29c479d99220e31a1986d436f249327',1,'MR::ViewerTitle']]],
+  ['_7eviewport_121',['~Viewport',['../classMR_1_1Viewport.html#a1d65bf318796ffdc96002b5d70d984a7',1,'MR::Viewport']]],
+  ['_7eviewportgl_122',['~ViewportGL',['../classMR_1_1ViewportGL.html#a33a67bdad47aeacb17a644f0c65f53ec',1,'MR::ViewportGL']]],
+  ['_7evisualobject_123',['~VisualObject',['../classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058',1,'MR::VisualObject']]],
+  ['_7ewriter_124',['~Writer',['../structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6',1,'MR::Writer']]]
 ];

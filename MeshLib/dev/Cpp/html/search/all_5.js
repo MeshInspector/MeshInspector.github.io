@@ -285,7 +285,7 @@ var searchData=
   ['compareany_282',['CompareAny',['../structMR_1_1ImGuiMath_1_1CompareAny.html',1,'MR::ImGuiMath::CompareAny&lt; A &gt;'],['../namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a',1,'MR::ImGuiMath::CompareAny(A) -&gt; CompareAny&lt; A &gt;']]],
   ['compensaterotation_283',['compensateRotation',['../structMR_1_1Viewport_1_1Parameters.html#ad62b164cd614da4c2dcf2d2c45b82326',1,'MR::Viewport::Parameters']]],
   ['components_284',['Components',['../group__ComponentsGroup.html',1,'']]],
-  ['compose_285',['compose',['../namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2',1,'MR']]],
+  ['compose_285',['compose',['../classMR_1_1ViewerTitle.html#afbc10bd06d711100a2f465d070521a9e',1,'MR::ViewerTitle::compose()'],['../namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2',1,'MR::compose()']]],
   ['compressionlevel_286',['compressionLevel',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5',1,'MR::MeshSave::CtmSaveOptions::compressionLevel'],['../structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef',1,'MR::PointsSave::CtmSavePointsOptions::compressionLevel']]],
   ['compresszip_287',['compressZip',['../group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e',1,'MR']]],
   ['computeangle_288',['computeAngle',['../classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a',1,'MR::AngleMeasurementObject']]],

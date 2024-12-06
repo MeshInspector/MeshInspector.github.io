@@ -157,7 +157,7 @@ var searchData=
   ['compare_154',['compare',['../structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a45f2a7a4631ecb502475eeddcf0947e8',1,'MR::ImGuiMath::BasicVectorCompareHelper']]],
   ['compareall_155',['CompareAll',['../namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a',1,'MR::ImGuiMath']]],
   ['compareany_156',['CompareAny',['../namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a',1,'MR::ImGuiMath']]],
-  ['compose_157',['compose',['../namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2',1,'MR']]],
+  ['compose_157',['compose',['../classMR_1_1ViewerTitle.html#afbc10bd06d711100a2f465d070521a9e',1,'MR::ViewerTitle::compose()'],['../namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2',1,'MR::compose(const BMap&lt; T, T &gt; &amp;a, const BMap&lt; T, T &gt; &amp;b)']]],
   ['compresszip_158',['compressZip',['../group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e',1,'MR']]],
   ['computeangle_159',['computeAngle',['../classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a',1,'MR::AngleMeasurementObject']]],
   ['computeangleinradians_160',['computeAngleInRadians',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a3fe4c9665a94e2143038345808dc1586',1,'MR::Features::MeasureResult::Angle']]],

@@ -231,6 +231,8 @@ var NAVTREEINDEX13 =
 "MRViewerSettingsManager_8h_source.html":[5,0,3,0,0,1,9,134],
 "MRViewerSettingsPlugin_8h.html":[5,0,3,0,0,1,9,135],
 "MRViewerSettingsPlugin_8h_source.html":[5,0,3,0,0,1,9,135],
+"MRViewerTitle_8h.html":[5,0,3,0,0,1,9,136],
+"MRViewerTitle_8h_source.html":[5,0,3,0,0,1,9,136],
 "MRViewer_2MRVectorTraits_8h.html":[5,0,3,0,0,1,9,126],
 "MRViewer_2MRVectorTraits_8h_source.html":[5,0,3,0,0,1,9,126],
 "MRViewer_2config_8h.html":[5,0,3,0,0,1,9,0],
@@ -242,12 +244,10 @@ var NAVTREEINDEX13 =
 "MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db":[5,0,3,0,0,1,9,127,3],
 "MRViewer_8h.html#abf0f4c580a56e4a7e297faa1b6de7378":[5,0,3,0,0,1,9,127,6],
 "MRViewer_8h_source.html":[5,0,3,0,0,1,9,127],
-"MRViewportGL_8h.html":[5,0,3,0,0,1,9,137],
-"MRViewportGL_8h.html#a063c104022f7dee6a63efd4b129f4779":[5,0,3,0,0,1,9,137,10],
-"MRViewportGL_8h.html#a1d373c7805aa607ceab34f611207120c":[5,0,3,0,0,1,9,137,8],
-"MRViewportGL_8h.html#ad6132828de807e2a186015c0e53b45cf":[5,0,3,0,0,1,9,137,9],
-"MRViewportGL_8h_source.html":[5,0,3,0,0,1,9,137],
-"MRViewportId_8h.html":[5,0,3,0,0,1,3,360],
-"MRViewportId_8h_source.html":[5,0,3,0,0,1,3,360],
-"MRViewportParametersAction_8h.html":[5,0,3,0,0,1,9,138]
+"MRViewportGL_8h.html":[5,0,3,0,0,1,9,138],
+"MRViewportGL_8h.html#a063c104022f7dee6a63efd4b129f4779":[5,0,3,0,0,1,9,138,10],
+"MRViewportGL_8h.html#a1d373c7805aa607ceab34f611207120c":[5,0,3,0,0,1,9,138,8],
+"MRViewportGL_8h.html#ad6132828de807e2a186015c0e53b45cf":[5,0,3,0,0,1,9,138,9],
+"MRViewportGL_8h_source.html":[5,0,3,0,0,1,9,138],
+"MRViewportId_8h.html":[5,0,3,0,0,1,3,360]
 };

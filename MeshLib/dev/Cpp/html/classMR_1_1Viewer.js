@@ -176,7 +176,6 @@ var classMR_1_1Viewer =
     [ "clippingPlaneObject", "classMR_1_1Viewer.html#a97b86b8de173c41ecb9d6b4c2abe7b65", null ],
     [ "commandArgs", "classMR_1_1Viewer.html#a505493fbe72fd322c04cc7922826c5f8", null ],
     [ "cursorEntranceSignal", "classMR_1_1Viewer.html#abd3006129b57915bb8988a1afc0f095c", null ],
-    [ "defaultWindowTitle", "classMR_1_1Viewer.html#a481373fa05af6fadb754c33051a65c9b", null ],
     [ "dragDropSignal", "classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0", null ],
     [ "dragEndSignal", "classMR_1_1Viewer.html#a56a065b32c494e3d533b08a24249d20e", null ],
     [ "dragSignal", "classMR_1_1Viewer.html#ae61b533e58da105143ce2e702dadc789", null ],
@@ -232,5 +231,6 @@ var classMR_1_1Viewer =
     [ "windowMaximized", "classMR_1_1Viewer.html#a6d59e96ed0b5e74b104f0a94012c9185", null ],
     [ "windowOldPos", "classMR_1_1Viewer.html#a4cdddbaa5eba70fd3ab533a608991894", null ],
     [ "windowSavePos", "classMR_1_1Viewer.html#ace49ac281b241eab9e8e5f1aae4bcdbe", null ],
-    [ "windowSaveSize", "classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620", null ]
+    [ "windowSaveSize", "classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620", null ],
+    [ "windowTitle", "classMR_1_1Viewer.html#a1ab66cb836861acffdf2c1e4f3397846", null ]
 ];

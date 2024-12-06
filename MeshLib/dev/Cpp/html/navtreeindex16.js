@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257":[5,0,2,0,1,115,2,2],
+"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[5,0,1,0,1,130,2,0],
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[5,0,2,0,1,115,2,0],
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571":[5,0,1,0,1,130,2,1],
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571":[5,0,2,0,1,115,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24":[5,0,0,4,19,3],
 "classMR_1_1ChangePolylinePointsAction.html#ae04072e7453616bbbf69ed34589627f2":[5,0,0,4,19,4],
 "classMR_1_1ChangePolylineTopologyAction.html":[5,0,0,4,20],
-"classMR_1_1ChangePolylineTopologyAction.html#a02bda3639e986d6a99bd8f2f5cfa05ad":[5,0,0,4,20,2],
-"classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef":[5,0,0,4,20,3],
-"classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b":[5,0,0,4,20,4]
+"classMR_1_1ChangePolylineTopologyAction.html#a02bda3639e986d6a99bd8f2f5cfa05ad":[5,0,0,4,20,2]
 };

@@ -1223,6 +1223,7 @@ var hierarchy =
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ]
     ] ],
     [ "MR::ViewerSetup", "classMR_1_1ViewerSetup.html", null ],
+    [ "MR::ViewerTitle", "classMR_1_1ViewerTitle.html", null ],
     [ "MR::Viewport", "classMR_1_1Viewport.html", null ],
     [ "MR::ViewportGL", "classMR_1_1ViewportGL.html", null ],
     [ "MR::ViewportId", "classMR_1_1ViewportId.html", null ],
