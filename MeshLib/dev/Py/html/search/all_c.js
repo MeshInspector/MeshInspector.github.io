@@ -29,7 +29,7 @@ var searchData=
   ['makeobjectlinesfromfile_26',['makeObjectLinesFromFile',['../namespacemrmeshpy.html#a31d65d73b825db97d85943aed386d321',1,'mrmeshpy']]],
   ['makeobjectmeshfromfile_27',['makeObjectMeshFromFile',['../namespacemrmeshpy.html#a2813cc50c6a076185d58c9a3044ac1e7',1,'mrmeshpy']]],
   ['makeobjectpointsfromfile_28',['makeObjectPointsFromFile',['../namespacemrmeshpy.html#a86879e8fcdf6cec9a6ad7b5491d87597',1,'mrmeshpy']]],
-  ['makeobjecttreefromfolder_29',['makeObjectTreeFromFolder',['../namespacemrmeshpy.html#acfde92862ea887150398e54cae433437',1,'mrmeshpy']]],
+  ['makeobjecttreefromfolder_29',['makeObjectTreeFromFolder',['../namespacemrmeshpy.html#aae95dd93b389393a9a5e617cfd5460f9',1,'mrmeshpy']]],
   ['makeobjectvoxelsfromfile_30',['makeObjectVoxelsFromFile',['../namespacemrmeshpy.html#a67dfa42b06d3517dfbff068d12cd9e1f',1,'mrmeshpy']]],
   ['makeopencone_31',['makeOpenCone',['../namespacemrmeshpy.html#a4da5fdc2b4d7cd2bf04f81f82beaffe2',1,'mrmeshpy']]],
   ['makeopencylinder_32',['makeOpenCylinder',['../namespacemrmeshpy.html#aceef0306f3bf05e75c6dc932b21c21ab',1,'mrmeshpy']]],

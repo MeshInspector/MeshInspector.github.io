@@ -1,7 +1,7 @@
 var searchData=
 [
   ['scalar_0',['Scalar',['../structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005',1,'MR::ConeFittingFunctor']]],
-  ['sceneloader_1',['SceneLoader',['../namespaceMR_1_1SceneLoad.html#a1310075ecc1c53362d48f1984252e6a1',1,'MR::SceneLoad']]],
+  ['sceneloader_1',['SceneLoader',['../namespaceMR_1_1SceneLoad.html#a0b87b3918d63624f559f15d25ecb9c3a',1,'MR::SceneLoad']]],
   ['scenesaver_2',['SceneSaver',['../namespaceMR_1_1SceneSave.html#abae0b302d53c60953ecab7559619c2ea',1,'MR::SceneSave']]],
   ['selectfilesignal_3',['SelectFileSignal',['../structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf',1,'MR::FileDialogSignals']]],
   ['selectfilessignal_4',['SelectFilesSignal',['../structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449',1,'MR::FileDialogSignals']]],

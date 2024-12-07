@@ -656,6 +656,7 @@ var hierarchy =
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
     [ "MR::LinesLoad::LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", null ],
     [ "MR::LinesSave::LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", null ],
+    [ "MR::LoadedObject", "structMR_1_1LoadedObject.html", null ],
     [ "MR::LoadedObjects", "structMR_1_1LoadedObjects.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],

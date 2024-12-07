@@ -70,7 +70,7 @@ var searchData=
   ['loadply_67',['loadPly',['../namespaceMR.html#a09b7d6190d7b1f760a8974de6ad4b5ee',1,'MR::loadPly(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})'],['../namespaceMR.html#a610eed1a8340bc4c451947f0896d89ff',1,'MR::loadPly(std::istream &amp;in, const MeshLoadSettings &amp;settings={})']]],
   ['loadpointvalidindicesbuffer_5f_68',['loadPointValidIndicesBuffer_',['../classMR_1_1RenderMeshObject.html#a365f57737ec03550ffd6b0397dbfdefb',1,'MR::RenderMeshObject']]],
   ['loadpreset_69',['loadPreset',['../classMR_1_1PalettePresets.html#abfc0b877261efaf989795949936003df',1,'MR::PalettePresets']]],
-  ['loadscenefromanysupportedformat_70',['loadSceneFromAnySupportedFormat',['../namespaceMR.html#ae2cbd939f46f10489210e5b80b10b540',1,'MR']]],
+  ['loadscenefromanysupportedformat_70',['loadSceneFromAnySupportedFormat',['../namespaceMR.html#a873b67818008b890a9733f438d361235',1,'MR']]],
   ['loadschema_71',['loadSchema',['../classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5',1,'MR::RibbonSchemaLoader']]],
   ['loadsettings_72',['loadSettings',['../classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84',1,'MR::IViewerSettingsManager::loadSettings()'],['../classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880',1,'MR::ViewerSettingsManager::loadSettings()']]],
   ['loadstl_73',['loadStl',['../namespaceMR.html#ac6564112e23d53f7ffca39d6df6d10b0',1,'MR::loadStl(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})'],['../namespaceMR.html#a6ad5ce754cee93f2e689cc16272b7043',1,'MR::loadStl(std::istream &amp;in, const MeshLoadSettings &amp;settings={})']]],

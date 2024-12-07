@@ -399,6 +399,7 @@ var annotated_dup =
       [ "LinesLoad", "classmrmeshpy_1_1LinesLoad.html", null ],
       [ "LinesSave", "classmrmeshpy_1_1LinesSave.html", null ],
       [ "LinesVisualizePropertyType", "classmrmeshpy_1_1LinesVisualizePropertyType.html", "classmrmeshpy_1_1LinesVisualizePropertyType" ],
+      [ "LoadedObject", "classmrmeshpy_1_1LoadedObject.html", "classmrmeshpy_1_1LoadedObject" ],
       [ "LoadedObjects", "classmrmeshpy_1_1LoadedObjects.html", "classmrmeshpy_1_1LoadedObjects" ],
       [ "MakeDegenerateBandAroundRegionParams", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" ],
       [ "MakeSignedByWindingNumberSettings", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings" ],

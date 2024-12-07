@@ -47,7 +47,7 @@ var MRIOFormatsRegistry_8h =
     [ "PointsStreamLoader", "MRIOFormatsRegistry_8h.html#a0f81139db68679c906d09ff033071478", null ],
     [ "PointsStreamSaver", "MRIOFormatsRegistry_8h.html#a1c0d45a07ed1828ee0d1190c6ca69cab", null ],
     [ "PostLoadCallback", "MRIOFormatsRegistry_8h.html#a00566fda9bf4c9254ac5d2d9ffe7208d", null ],
-    [ "SceneLoader", "MRIOFormatsRegistry_8h.html#a1310075ecc1c53362d48f1984252e6a1", null ],
+    [ "SceneLoader", "MRIOFormatsRegistry_8h.html#a0b87b3918d63624f559f15d25ecb9c3a", null ],
     [ "SceneSaver", "MRIOFormatsRegistry_8h.html#abae0b302d53c60953ecab7559619c2ea", null ],
     [ "AllFilter", "MRIOFormatsRegistry_8h.html#aa6434e5b84b58ad6cdbaef2ab570f520", null ]
 ];

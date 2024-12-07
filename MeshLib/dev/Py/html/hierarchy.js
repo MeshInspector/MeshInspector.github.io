@@ -499,6 +499,7 @@ var hierarchy =
     [ "mrmeshpy.LinesLoad", "classmrmeshpy_1_1LinesLoad.html", null ],
     [ "mrmeshpy.LinesSave", "classmrmeshpy_1_1LinesSave.html", null ],
     [ "mrmeshpy.LinesVisualizePropertyType", "classmrmeshpy_1_1LinesVisualizePropertyType.html", null ],
+    [ "mrmeshpy.LoadedObject", "classmrmeshpy_1_1LoadedObject.html", null ],
     [ "mrmeshpy.LoadedObjects", "classmrmeshpy_1_1LoadedObjects.html", null ],
     [ "mrmeshpy.VoxelsLoad.LoadingTiffSettings", "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.LutType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html", null ],

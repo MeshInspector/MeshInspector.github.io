@@ -54,7 +54,7 @@ var searchData=
   ['makeobjectlinesfromfile_51',['makeObjectLinesFromFile',['../namespaceMR.html#a49f50b3f8a8b62d1de7af24264eac759',1,'MR']]],
   ['makeobjectmeshfromfile_52',['makeObjectMeshFromFile',['../namespaceMR.html#aeecb856fc34ef6ac55743bccc94b41ce',1,'MR']]],
   ['makeobjectpointsfromfile_53',['makeObjectPointsFromFile',['../namespaceMR.html#acd7dca15ed95f44fa82294bf8a85be2a',1,'MR']]],
-  ['makeobjecttreefromfolder_54',['makeObjectTreeFromFolder',['../namespaceMR.html#acf3fe56f6c84e15111a7d40381381e1a',1,'MR']]],
+  ['makeobjecttreefromfolder_54',['makeObjectTreeFromFolder',['../namespaceMR.html#a5d0bc0b88e82b7ce5e75546d50d41d64',1,'MR']]],
   ['makeobjectvoxelsfromfile_55',['makeObjectVoxelsFromFile',['../namespaceMR.html#a771ff6491d2acec943253070393ce902',1,'MR']]],
   ['makeopencone_56',['makeOpenCone',['../namespaceMR.html#aa5e46a8636c454de9d603fb028fa36cc',1,'MR']]],
   ['makeopencylinder_57',['makeOpenCylinder',['../namespaceMR.html#affe80f863df8e1fa8d1630eda6e55cdb',1,'MR']]],
