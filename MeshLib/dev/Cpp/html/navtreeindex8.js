@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRMesh_2MRMeshLoad_8h_source.html":[5,0,3,0,0,1,3,192],
 "MRMesh_2MRMeshMetrics_8h.html":[5,0,3,0,0,1,3,196],
 "MRMesh_2MRMeshMetrics_8h_source.html":[5,0,3,0,0,1,3,196],
 "MRMesh_2MRMeshNormals_8h.html":[5,0,3,0,0,1,3,197],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRObjectMesh_8h.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0":[5,0,3,0,0,1,3,231,0],
 "MRObjectMesh_8h.html#af864b9246bf8c972ba65a4ef698384f9":[5,0,3,0,0,1,3,231,1],
 "MRObjectMesh_8h_source.html":[5,0,3,0,0,1,3,231],
-"MRObjectPointsHistory_8h.html":[5,0,3,0,0,1,9,49],
-"MRObjectPointsHistory_8h.html#ac236381762735fee94cd52a902d87c67":[5,0,3,0,0,1,9,49,1]
+"MRObjectPointsHistory_8h.html":[5,0,3,0,0,1,9,49]
 };

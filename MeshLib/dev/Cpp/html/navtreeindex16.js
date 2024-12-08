@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[5,0,1,0,1,131,10],
 "classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[5,0,2,0,1,115,10],
 "classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[5,0,1,0,1,131,4],
 "classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[5,0,2,0,1,115,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9":[5,0,0,4,26,1],
 "classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8":[5,0,0,4,26,4],
 "classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c":[5,0,0,4,26,2],
-"classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b":[5,0,0,4,26,3],
-"classMR_1_1ChangePointPointSelectionAction.html#adf6db1de62ed6cf97b83d0a1c00a9999":[5,0,0,4,26,0]
+"classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b":[5,0,0,4,26,3]
 };

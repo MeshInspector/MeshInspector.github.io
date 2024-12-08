@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRViewer_2config_8h.html":[5,0,3,0,0,1,9,0],
 "MRViewer_2config_8h_source.html":[5,0,3,0,0,1,9,0],
 "MRViewer_8h.html":[5,0,3,0,0,1,9,127],
 "MRViewer_8h.html#a03d769eae4675e20e6b50c3fddaf8eba":[5,0,3,0,0,1,9,127,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1AddCustomThemePlugin.html":[5,0,1,0,1,49],
 "classMR_1_1AddCustomThemePlugin.html":[5,0,2,0,1,33],
 "classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[5,0,1,0,1,49,0],
-"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[5,0,2,0,1,33,0],
-"classMR_1_1AddCustomThemePlugin.html#a42feeea3eec96cb3a13ca752f83a03a5":[5,0,1,0,1,49,1]
+"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[5,0,2,0,1,33,0]
 };

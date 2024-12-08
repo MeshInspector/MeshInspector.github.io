@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[5,0,1,0,1,189,0,1],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[5,0,2,0,1,173,0,1],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[5,0,1,0,1,189,0,0],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[5,0,2,0,1,173,0,0],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[5,0,1,0,1,189,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9":[5,0,2,0,1,2,2,0,6],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[5,0,1,0,1,6,2,0,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[5,0,2,0,1,2,2,0,3],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[5,0,1,0,1,6,2,0,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[5,0,2,0,1,2,2,0,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[5,0,1,0,1,6,2,0,5]
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[5,0,1,0,1,6,2,0,2]
 };

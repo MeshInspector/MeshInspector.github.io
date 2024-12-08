@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222":[5,0,1,0,1,38,33],
 "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110":[5,0,1,0,1,38,52],
 "namespaceMR_1_1UI.html#a9b2e8bbfe90af034977fca967163a4d4":[5,0,1,0,1,38,36],
 "namespaceMR_1_1UI.html#aa1fd1e704f1ff98b82cc4c98e452f57a":[5,0,1,0,1,38,66],
@@ -56,18 +57,19 @@ var NAVTREEINDEX57 =
 "namespaceMR_1_1UnitSettings.html#aefbc07263247d17b42b9b520c287901c":[5,0,1,0,1,39,3],
 "namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee":[5,0,1,0,1,39,4],
 "namespaceMR_1_1VoxelsLoad.html":[5,0,1,0,1,40],
-"namespaceMR_1_1VoxelsLoad.html#a279dbe6e32c3f87cbc0d9a88edcdcbff":[5,0,1,0,1,40,17],
-"namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9":[5,0,1,0,1,40,21],
+"namespaceMR_1_1VoxelsLoad.html#a279dbe6e32c3f87cbc0d9a88edcdcbff":[5,0,1,0,1,40,18],
+"namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9":[5,0,1,0,1,40,22],
 "namespaceMR_1_1VoxelsLoad.html#a4461fa0856c7f24094e4b923f7ddd75f":[5,0,1,0,1,40,7],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[5,0,1,0,1,40,6],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[5,0,1,0,1,40,6,0],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e":[5,0,1,0,1,40,6,1],
-"namespaceMR_1_1VoxelsLoad.html#a657ee4e33406aee8e0c2697549cf163a":[5,0,1,0,1,40,18],
-"namespaceMR_1_1VoxelsLoad.html#a67103f019fb79e3fcbe01ef3b1fbc7a1":[5,0,1,0,1,40,19],
+"namespaceMR_1_1VoxelsLoad.html#a657ee4e33406aee8e0c2697549cf163a":[5,0,1,0,1,40,19],
+"namespaceMR_1_1VoxelsLoad.html#a67103f019fb79e3fcbe01ef3b1fbc7a1":[5,0,1,0,1,40,20],
 "namespaceMR_1_1VoxelsLoad.html#a9e69e0cbf065c4b7256ef839c9a0855c":[5,0,1,0,1,40,16],
 "namespaceMR_1_1VoxelsLoad.html#ac2a556763e76d5f4926d904685536552":[5,0,1,0,1,40,3],
 "namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[5,0,1,0,1,40,5],
-"namespaceMR_1_1VoxelsLoad.html#ad79032cc6ef1a0e389097a70c1000de3":[5,0,1,0,1,40,20],
+"namespaceMR_1_1VoxelsLoad.html#ad79032cc6ef1a0e389097a70c1000de3":[5,0,1,0,1,40,21],
+"namespaceMR_1_1VoxelsLoad.html#adbcdf154c89bce3f54684092bcc3f76e":[5,0,1,0,1,40,17],
 "namespaceMR_1_1VoxelsLoad.html#aeeb3b38707e658a1939994a1f79d021e":[5,0,1,0,1,40,4],
 "namespaceMR_1_1VoxelsSave.html":[5,0,1,0,1,41],
 "namespaceMR_1_1VoxelsSave.html#a0f1cbd074f33c0c8f5dcda546829153b":[5,0,1,0,1,41,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "structMRFixSelfIntersectionsSettings.html":[5,0,2,0,18],
 "structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[5,0,2,0,18,2],
 "structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[5,0,2,0,18,1],
-"structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[5,0,2,0,18,4],
-"structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[5,0,2,0,18,3],
-"structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[5,0,2,0,18,0]
+"structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[5,0,2,0,18,4]
 };

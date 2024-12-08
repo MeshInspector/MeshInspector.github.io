@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[5,0,2,0,1,2,2,0,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[5,0,1,0,1,6,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[5,0,2,0,1,2,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[5,0,1,0,1,6,2,0,7],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[5,0,2,0,1,2,2,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[5,0,2,0,1,3,0],
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[5,0,1,0,1,7,0,0],
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[5,0,2,0,1,3,0,0],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[5,0,1,0,1,7,1],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[5,0,2,0,1,3,1],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a6822b43f8eb010ed7b72c8159db3f7a6":[5,0,1,0,1,7,1,2]
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[5,0,1,0,1,7,1]
 };

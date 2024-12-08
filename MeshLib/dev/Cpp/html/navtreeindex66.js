@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f":[5,0,0,1,15,6],
+"structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60":[5,0,0,1,15,5],
 "structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b":[5,0,0,1,15,0],
 "structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f":[5,0,0,1,15,4],
 "structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[5,0,0,1,15,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html#afc0fa59f798e85b81397aba33a9e0ec6":[5,0,2,0,1,303,0,1],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[5,0,1,0,1,319,1],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[5,0,2,0,1,303,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[5,0,1,0,1,319,1,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[5,0,2,0,1,303,1,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[5,0,1,0,1,319,1,5]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[5,0,1,0,1,319,1,1]
 };

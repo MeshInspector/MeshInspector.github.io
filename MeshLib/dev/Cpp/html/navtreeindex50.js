@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"group__TriangulationHelpersGroup.html#gaf71ad211f7cae4bc648807774f9b3758":[5,0,0,13,0,3],
 "group__TunnelDetectorGroup.html":[5,0,0,16,4],
 "group__TunnelDetectorGroup.html#ga7dd035558540c3818d6d69afc731f953":[5,0,0,16,4,1],
 "group__TunnelDetectorGroup.html#gaecd871a653e3af47a39e7017288eb69c":[5,0,0,16,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0d":[5,0,1,0,1,924],
 "namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b":[5,0,1,0,1,924,2],
 "namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c":[5,0,1,0,1,924,0],
-"namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563":[5,0,1,0,1,924,5],
-"namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3":[5,0,1,0,1,924,3]
+"namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563":[5,0,1,0,1,924,5]
 };

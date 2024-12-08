@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"group__MeshNormalsGroup.html#ga59217bfc441b57736e20fa4c8b136c1f":[5,0,0,9,5,1],
 "group__MeshNormalsGroup.html#ga5cd4c5961165390a68a0b055b5befbfa":[5,0,0,9,5,6],
 "group__MeshNormalsGroup.html#ga5f58b21ccaa06eb95ccacb6fdfa5f35c":[5,0,0,9,5,7],
 "group__MeshNormalsGroup.html#ga855f28ca0270228f5a867c2f2fc42e37":[5,0,0,9,5,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "group__TriangulationHelpersGroup.html#ga1b730fbcddd0678ad119e9abc6d797c0":[5,0,0,13,0,2],
 "group__TriangulationHelpersGroup.html#ga239d61601b826c9241ca50d59821b545":[5,0,0,13,0,5],
 "group__TriangulationHelpersGroup.html#gad0f4036eebdcc507b1d8314ee455eef9":[5,0,0,13,0,4],
-"group__TriangulationHelpersGroup.html#gaeeb43eb23ada74d95de7bed99be25c98":[5,0,0,13,0,1],
-"group__TriangulationHelpersGroup.html#gaf71ad211f7cae4bc648807774f9b3758":[5,0,0,13,0,3]
+"group__TriangulationHelpersGroup.html#gaeeb43eb23ada74d95de7bed99be25c98":[5,0,0,13,0,1]
 };

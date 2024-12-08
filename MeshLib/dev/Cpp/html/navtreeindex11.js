@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRRingIterator_8h.html#aee44286b022aaaa8435db2725e448b38":[5,0,3,0,0,1,3,303,11],
 "MRRingIterator_8h_source.html":[5,0,3,0,0,1,3,303],
 "MRSaveOnClose_8h.html":[5,0,3,0,0,1,9,85],
 "MRSaveOnClose_8h_source.html":[5,0,3,0,0,1,9,85],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MRStringConvert_8h.html#a58401eef2addb5c0fef7e5dd90a17ddf":[5,0,3,0,0,1,3,322,9],
 "MRStringConvert_8h.html#a5a6d09d98985d45fdd40a23f1df854c2":[5,0,3,0,0,1,3,322,0],
 "MRStringConvert_8h.html#a5a70c8c1a8a14604554c8a19a86984dc":[5,0,3,0,0,1,3,322,16],
-"MRStringConvert_8h.html#a893bffc80e40fe77684c61377cd58705":[5,0,3,0,0,1,3,322,12],
-"MRStringConvert_8h.html#aa07a9eebcb6084b3728efa81a3ea4e43":[5,0,3,0,0,1,3,322,6]
+"MRStringConvert_8h.html#a893bffc80e40fe77684c61377cd58705":[5,0,3,0,0,1,3,322,12]
 };

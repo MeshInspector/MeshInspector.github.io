@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[5,0,2,0,18,3],
+"structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[5,0,2,0,18,0],
 "structMRGeneralOffsetParameters.html":[5,0,2,0,19],
 "structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[5,0,2,0,19,0],
 "structMRGeneralOffsetParameters.html#a97c106a0d08d33bd2ff6e5d627c4a3dc":[5,0,2,0,19,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1AncillaryLines.html#a1ea41e4dbf0c52232b619119eeb10ece":[5,0,2,0,1,40,3],
 "structMR_1_1AncillaryLines.html#a3521624c0384c6ad11a0c3bdf5f1c1ed":[5,0,1,0,1,56,11],
 "structMR_1_1AncillaryLines.html#a3521624c0384c6ad11a0c3bdf5f1c1ed":[5,0,2,0,1,40,11],
-"structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[5,0,1,0,1,56,6],
-"structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[5,0,2,0,1,40,6],
-"structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[5,0,1,0,1,56,10]
+"structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[5,0,1,0,1,56,6]
 };

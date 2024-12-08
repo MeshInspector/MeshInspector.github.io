@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1AddCustomThemePlugin.html#a42feeea3eec96cb3a13ca752f83a03a5":[5,0,1,0,1,49,1],
 "classMR_1_1AddCustomThemePlugin.html#a42feeea3eec96cb3a13ca752f83a03a5":[5,0,2,0,1,33,1],
 "classMR_1_1AddCustomThemePlugin.html#aecd13931098f53d9079f2db0d9375677":[5,0,1,0,1,49,2],
 "classMR_1_1AddCustomThemePlugin.html#aecd13931098f53d9079f2db0d9375677":[5,0,2,0,1,33,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1CNCMachineSettings.html":[5,0,1,0,1,131],
 "classMR_1_1CNCMachineSettings.html":[5,0,2,0,1,115],
 "classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[5,0,1,0,1,131,9],
-"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[5,0,2,0,1,115,9],
-"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[5,0,1,0,1,131,10]
+"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[5,0,2,0,1,115,9]
 };

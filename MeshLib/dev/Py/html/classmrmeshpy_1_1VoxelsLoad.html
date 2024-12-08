@@ -186,6 +186,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae38d60de502f1e3736be7ba44b58eafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03e2fb9b2ba255ca8f6c7c688c5c6769" id="r_a03e2fb9b2ba255ca8f6c7c688c5c6769"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03e2fb9b2ba255ca8f6c7c688c5c6769">isDicomFile</a> (os.PathLike path, <a class="el" href="classmrmeshpy_1_1std__string__output.html">std_string_output</a> seriesUid=None)</td></tr>
 <tr class="separator:a03e2fb9b2ba255ca8f6c7c688c5c6769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26934a2ebd5419d58e300e3e8179905f" id="r_a26934a2ebd5419d58e300e3e8179905f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26934a2ebd5419d58e300e3e8179905f">isDicomFolder</a> (os.PathLike dirPath)</td></tr>
+<tr class="separator:a26934a2ebd5419d58e300e3e8179905f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00658acda1888c2f3576bb10040947e6" id="r_a00658acda1888c2f3576bb10040947e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__st699c335944e4e547e4f6e8bb99c1326b.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00658acda1888c2f3576bb10040947e6">loadDicomsFolderTreeAsVdb</a> (os.PathLike path, int maxNumThreads=4, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='MR::ProgressCallback{}')</td></tr>
 <tr class="separator:a00658acda1888c2f3576bb10040947e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58d2fe49221905c90b8728f9a6ab247a" id="r_a58d2fe49221905c90b8728f9a6ab247a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58d2fe49221905c90b8728f9a6ab247a">loadTiffDir</a> (<a class="el" href="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html">VoxelsLoad.LoadingTiffSettings</a> settings)</td></tr>
@@ -508,6 +510,32 @@ important on Windows: in stream must be open in binary mode
 </div><div class="memdoc">
 <pre class="fragment">check if file is a valid DICOM dataset file
 \\param seriesUid - if set, the extracted series instance UID is copied to the variable
+</pre> 
+</div>
+</div>
+<a id="a26934a2ebd5419d58e300e3e8179905f" name="a26934a2ebd5419d58e300e3e8179905f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26934a2ebd5419d58e300e3e8179905f">&#9670;&#160;</a></span>isDicomFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.VoxelsLoad.isDicomFolder </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>dirPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">check if given folder contains at least one DICOM file
 </pre> 
 </div>
 </div>

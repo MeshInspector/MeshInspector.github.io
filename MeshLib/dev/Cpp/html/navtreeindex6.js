@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRPrecisePredicates3_8h.html":[5,0,3,0,0,1,4,48],
 "MRMeshC_2MRPrecisePredicates3_8h.html#a06dcff41bb1079e5d51bca9bd73d4591":[5,0,3,0,0,1,4,48,1],
 "MRMeshC_2MRPrecisePredicates3_8h.html#a193f4f21c0c0413955625429e159aedd":[5,0,3,0,0,1,4,48,5],
 "MRMeshC_2MRPrecisePredicates3_8h.html#a3b8fe2d95a1499db4a27e1494620e1d2":[5,0,3,0,0,1,4,48,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRIntersectionContour_8h.html#a33db1bd44d8ce26ccf47409cf59ace33":[5,0,3,0,0,1,3,133,3],
 "MRMesh_2MRIntersectionContour_8h.html#a4d956c62b0c8514d3779ce5076b6b9ec":[5,0,3,0,0,1,3,133,4],
 "MRMesh_2MRIntersectionContour_8h.html#a63f651410ecabb9d18ecefb9abf54753":[5,0,3,0,0,1,3,133,6],
-"MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[5,0,3,0,0,1,3,133,5],
-"MRMesh_2MRIntersectionContour_8h.html#a9f26ad2470dbd62255be7fc1cab2b503":[5,0,3,0,0,1,3,133,2]
+"MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[5,0,3,0,0,1,3,133,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2":[5,0,0,1,17,0],
+"structMR_1_1PreciseVertCoords.html":[5,0,1,0,1,487],
 "structMR_1_1PreciseVertCoords.html":[5,0,2,0,1,471],
 "structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[5,0,1,0,1,487,1],
 "structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[5,0,2,0,1,471,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[5,0,2,0,1,514,0,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[5,0,1,0,1,537,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[5,0,2,0,1,521,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[5,0,1,0,1,537,0,2],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[5,0,2,0,1,521,0,2],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb":[5,0,1,0,1,537,0,3]
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[5,0,1,0,1,537,0,2]
 };

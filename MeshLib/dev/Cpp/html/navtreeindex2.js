@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0d":[5,0,3,0,0,1,3,94,10],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b":[5,0,3,0,0,1,3,94,10,2],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c":[5,0,3,0,0,1,3,94,10,0],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563":[5,0,3,0,0,1,3,94,10,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRIOFormatsRegistry_8h.html#af9711c25db9d07dac939c6de4412620f":[5,0,3,0,0,1,3,138,31],
 "MRIOFormatsRegistry_8h_source.html":[5,0,3,0,0,1,3,138],
 "MRIOParsing_8h.html":[5,0,3,0,0,1,3,139],
-"MRIOParsing_8h.html#a2360c210c6fa64143e978b1f2a1b6bff":[5,0,3,0,0,1,3,139,6],
-"MRIOParsing_8h.html#a4098e75257c305b86fac1b2f71816e3f":[5,0,3,0,0,1,3,139,10]
+"MRIOParsing_8h.html#a2360c210c6fa64143e978b1f2a1b6bff":[5,0,3,0,0,1,3,139,6]
 };

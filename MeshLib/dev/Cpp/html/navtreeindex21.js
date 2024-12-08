@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748":[5,0,1,0,1,241,1],
 "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748":[5,0,2,0,1,225,1],
 "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394":[5,0,1,0,1,241,1,1],
 "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394":[5,0,2,0,1,225,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1Historian.html#ade9b001230ecaba7d2ae48e2dde4c811":[5,0,2,0,1,236,0],
 "classMR_1_1HistoryAction.html":[5,0,0,4,31],
 "classMR_1_1HistoryAction.html#a97370459d3645a1169ed426ef4896e5c":[5,0,0,4,31,1],
-"classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce":[5,0,0,4,31,4],
-"classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7":[5,0,0,4,31,0]
+"classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce":[5,0,0,4,31,4]
 };

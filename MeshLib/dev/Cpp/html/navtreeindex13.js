@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[5,0,3,0,0,1,9,122,71],
 "MRUIStyle_8h.html#a31bf75f2c49957b473bd51d2aeb25ec8":[5,0,3,0,0,1,9,122,55],
 "MRUIStyle_8h.html#a321f93b24c9b7d723ce8aec45fe75374":[5,0,3,0,0,1,9,122,44],
 "MRUIStyle_8h.html#a336fa6393e7abeefe2f5d4e8f29d75a6":[5,0,3,0,0,1,9,122,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRViewerTitle_8h.html":[5,0,3,0,0,1,9,136],
 "MRViewerTitle_8h_source.html":[5,0,3,0,0,1,9,136],
 "MRViewer_2MRVectorTraits_8h.html":[5,0,3,0,0,1,9,126],
-"MRViewer_2MRVectorTraits_8h_source.html":[5,0,3,0,0,1,9,126],
-"MRViewer_2config_8h.html":[5,0,3,0,0,1,9,0]
+"MRViewer_2MRVectorTraits_8h_source.html":[5,0,3,0,0,1,9,126]
 };

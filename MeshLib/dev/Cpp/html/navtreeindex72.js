@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[5,0,1,0,1,460,0],
+"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[5,0,2,0,1,444,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[5,0,1,0,1,26,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[5,0,2,0,1,15,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[5,0,1,0,1,26,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[5,0,1,0,1,485,0,1],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[5,0,2,0,1,469,0,1],
 "structMR_1_1PreciseCollisionResult.html":[5,0,0,1,17],
-"structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f":[5,0,0,1,17,1],
-"structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2":[5,0,0,1,17,0],
-"structMR_1_1PreciseVertCoords.html":[5,0,1,0,1,487]
+"structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f":[5,0,0,1,17,1]
 };

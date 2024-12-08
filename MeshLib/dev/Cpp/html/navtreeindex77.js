@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[5,0,2,0,1,635,0,1],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[5,0,1,0,1,651,0,0],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[5,0,2,0,1,635,0,0],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[5,0,1,0,1,651,0,2],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[5,0,2,0,1,635,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1TypedFlatTree.html":[5,0,2,0,1,656],
 "structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[5,0,1,0,1,672,1],
 "structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[5,0,2,0,1,656,1],
-"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[5,0,1,0,1,672,2],
-"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[5,0,2,0,1,656,2],
-"structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[5,0,1,0,1,672,0]
+"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[5,0,1,0,1,672,2]
 };
