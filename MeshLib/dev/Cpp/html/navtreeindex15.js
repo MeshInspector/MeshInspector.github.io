@@ -1,17 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"classMR_1_1AABBTreePoints.html#affd18b1fda8da3797dbcaa84425ab594":[5,0,0,1,6,7],
-"classMR_1_1AABBTreePolyline.html":[5,0,0,1,10],
-"classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef":[5,0,0,1,10,4],
-"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[5,0,0,1,10,3],
-"classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a":[5,0,0,1,10,0],
-"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[5,0,0,1,10,2],
-"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[5,0,0,1,10,1],
-"classMR_1_1AddCustomThemePlugin.html":[5,0,1,0,1,49],
-"classMR_1_1AddCustomThemePlugin.html":[5,0,2,0,1,33],
-"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[5,0,1,0,1,49,0],
-"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[5,0,2,0,1,33,0],
-"classMR_1_1AddCustomThemePlugin.html#a42feeea3eec96cb3a13ca752f83a03a5":[5,0,1,0,1,49,1],
 "classMR_1_1AddCustomThemePlugin.html#a42feeea3eec96cb3a13ca752f83a03a5":[5,0,2,0,1,33,1],
 "classMR_1_1AddCustomThemePlugin.html#aecd13931098f53d9079f2db0d9375677":[5,0,1,0,1,49,2],
 "classMR_1_1AddCustomThemePlugin.html#aecd13931098f53d9079f2db0d9375677":[5,0,2,0,1,33,2],
@@ -249,5 +237,17 @@ var NAVTREEINDEX15 =
 "classMR_1_1Buffer.html#a9db6d53dd2501eb585f56eb189af4340":[5,0,0,3,6,17],
 "classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e":[5,0,0,3,6,3],
 "classMR_1_1Buffer.html#ab1bc4a40918912e001d6da1bf1595d36":[5,0,0,3,6,18],
-"classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f":[5,0,0,3,6,14]
+"classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f":[5,0,0,3,6,14],
+"classMR_1_1Buffer.html#ac20d3e206804590699b1e944ebe0bb1d":[5,0,0,3,6,16],
+"classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052":[5,0,0,3,6,5],
+"classMR_1_1Buffer.html#ada2b50e2318e59c2eacdf962114ab3ce":[5,0,0,3,6,1],
+"classMR_1_1Buffer.html#ae59d432ebfdf2ba3aa9e626357dcc0a3":[5,0,0,3,6,0],
+"classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef":[5,0,0,3,6,9],
+"classMR_1_1Buffer.html#afa13cb6ef3db757db3c9c7e75957e061":[5,0,0,3,6,2],
+"classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18":[5,0,0,3,6,6],
+"classMR_1_1CNCMachineSettings.html":[5,0,1,0,1,131],
+"classMR_1_1CNCMachineSettings.html":[5,0,2,0,1,115],
+"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[5,0,1,0,1,131,9],
+"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[5,0,2,0,1,115,9],
+"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[5,0,1,0,1,131,10]
 };

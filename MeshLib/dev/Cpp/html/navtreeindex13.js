@@ -1,17 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"MRUIStyle_8h.html#a0c37be14d527eafdf4f327608985ab9e":[5,0,3,0,0,1,9,122,34],
-"MRUIStyle_8h.html#a0d337a1adf7e16aaa08b683a6b65e886":[5,0,3,0,0,1,9,122,48],
-"MRUIStyle_8h.html#a0dcca7e7ac30d2cfb193d8b8961fed3f":[5,0,3,0,0,1,9,122,15],
-"MRUIStyle_8h.html#a0e2d922d2332948836f35b41d188e912":[5,0,3,0,0,1,9,122,49],
-"MRUIStyle_8h.html#a0e4fcd89c72f4be1967ab7ba90d92c1b":[5,0,3,0,0,1,9,122,58],
-"MRUIStyle_8h.html#a106b8bc31fb0bf822e4d25da72a41ead":[5,0,3,0,0,1,9,122,62],
-"MRUIStyle_8h.html#a1527cab8abd6795f21baa9abcfec2804":[5,0,3,0,0,1,9,122,39],
-"MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f":[5,0,3,0,0,1,9,122,67],
-"MRUIStyle_8h.html#a18b9183fbf887e8e6930c577d92fa409":[5,0,3,0,0,1,9,122,66],
-"MRUIStyle_8h.html#a192d3148a5ed3177660fcb7c2e758f1f":[5,0,3,0,0,1,9,122,26],
-"MRUIStyle_8h.html#a1b2f7496c5cc2c04acdc85d6ad564a63":[5,0,3,0,0,1,9,122,43],
-"MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[5,0,3,0,0,1,9,122,71],
 "MRUIStyle_8h.html#a31bf75f2c49957b473bd51d2aeb25ec8":[5,0,3,0,0,1,9,122,55],
 "MRUIStyle_8h.html#a321f93b24c9b7d723ce8aec45fe75374":[5,0,3,0,0,1,9,122,44],
 "MRUIStyle_8h.html#a336fa6393e7abeefe2f5d4e8f29d75a6":[5,0,3,0,0,1,9,122,24],
@@ -249,5 +237,17 @@ var NAVTREEINDEX13 =
 "MRViewerIO_8h_source.html":[5,0,3,0,0,1,9,132],
 "MRViewerInstance_8h.html":[5,0,3,0,0,1,9,131],
 "MRViewerInstance_8h.html#a3e7c908172571071d6796d054d25a4f4":[5,0,3,0,0,1,9,131,0],
-"MRViewerInstance_8h.html#a7cd4d3f28d6da21baab77b862d8d763a":[5,0,3,0,0,1,9,131,1]
+"MRViewerInstance_8h.html#a7cd4d3f28d6da21baab77b862d8d763a":[5,0,3,0,0,1,9,131,1],
+"MRViewerInstance_8h_source.html":[5,0,3,0,0,1,9,131],
+"MRViewerPlugin_8h.html":[5,0,3,0,0,1,9,133],
+"MRViewerPlugin_8h_source.html":[5,0,3,0,0,1,9,133],
+"MRViewerSettingsManager_8h.html":[5,0,3,0,0,1,9,134],
+"MRViewerSettingsManager_8h_source.html":[5,0,3,0,0,1,9,134],
+"MRViewerSettingsPlugin_8h.html":[5,0,3,0,0,1,9,135],
+"MRViewerSettingsPlugin_8h_source.html":[5,0,3,0,0,1,9,135],
+"MRViewerTitle_8h.html":[5,0,3,0,0,1,9,136],
+"MRViewerTitle_8h_source.html":[5,0,3,0,0,1,9,136],
+"MRViewer_2MRVectorTraits_8h.html":[5,0,3,0,0,1,9,126],
+"MRViewer_2MRVectorTraits_8h_source.html":[5,0,3,0,0,1,9,126],
+"MRViewer_2config_8h.html":[5,0,3,0,0,1,9,0]
 };

@@ -500,6 +500,7 @@ var hierarchy =
     [ "mrmeshpy.LinesSave", "classmrmeshpy_1_1LinesSave.html", null ],
     [ "mrmeshpy.LinesVisualizePropertyType", "classmrmeshpy_1_1LinesVisualizePropertyType.html", null ],
     [ "mrmeshpy.LoadedObject", "classmrmeshpy_1_1LoadedObject.html", null ],
+    [ "mrmeshpy.LoadedObjectMesh", "classmrmeshpy_1_1LoadedObjectMesh.html", null ],
     [ "mrmeshpy.LoadedObjects", "classmrmeshpy_1_1LoadedObjects.html", null ],
     [ "mrmeshpy.VoxelsLoad.LoadingTiffSettings", "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.LutType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html", null ],
@@ -542,7 +543,6 @@ var hierarchy =
       [ "mrmeshpy.MultiMeshIntersectionResult", "classmrmeshpy_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
     [ "mrmeshpy.MeshLoad", "classmrmeshpy_1_1MeshLoad.html", null ],
-    [ "mrmeshpy.MeshLoadInfo", "classmrmeshpy_1_1MeshLoadInfo.html", null ],
     [ "mrmeshpy.MeshLoadSettings", "classmrmeshpy_1_1MeshLoadSettings.html", null ],
     [ "mrmeshpy.MeshMeshConverter", "classmrmeshpy_1_1MeshMeshConverter.html", null ],
     [ "mrmeshpy.MeshMeshDistanceResult", "classmrmeshpy_1_1MeshMeshDistanceResult.html", null ],

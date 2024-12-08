@@ -1,17 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"classMR_1_1Buffer.html#ac20d3e206804590699b1e944ebe0bb1d":[5,0,0,3,6,16],
-"classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052":[5,0,0,3,6,5],
-"classMR_1_1Buffer.html#ada2b50e2318e59c2eacdf962114ab3ce":[5,0,0,3,6,1],
-"classMR_1_1Buffer.html#ae59d432ebfdf2ba3aa9e626357dcc0a3":[5,0,0,3,6,0],
-"classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef":[5,0,0,3,6,9],
-"classMR_1_1Buffer.html#afa13cb6ef3db757db3c9c7e75957e061":[5,0,0,3,6,2],
-"classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18":[5,0,0,3,6,6],
-"classMR_1_1CNCMachineSettings.html":[5,0,1,0,1,131],
-"classMR_1_1CNCMachineSettings.html":[5,0,2,0,1,115],
-"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[5,0,1,0,1,131,9],
-"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[5,0,2,0,1,115,9],
-"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[5,0,1,0,1,131,10],
 "classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[5,0,2,0,1,115,10],
 "classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[5,0,1,0,1,131,4],
 "classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[5,0,2,0,1,115,4],
@@ -249,5 +237,17 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangePointCloudNormalsAction.html#ab1318bc8719ca89bb19cd901f204ad49":[5,0,0,4,17,0],
 "classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8":[5,0,0,4,17,5],
 "classMR_1_1ChangePointCloudPointsAction.html":[5,0,0,4,16],
-"classMR_1_1ChangePointCloudPointsAction.html#a7e99acd63b670299af8dc73a771d1ac3":[5,0,0,4,16,1]
+"classMR_1_1ChangePointCloudPointsAction.html#a7e99acd63b670299af8dc73a771d1ac3":[5,0,0,4,16,1],
+"classMR_1_1ChangePointCloudPointsAction.html#a9e9d9d96a33fdd65bdd65f038977fb3a":[5,0,0,4,16,2],
+"classMR_1_1ChangePointCloudPointsAction.html#ab09d7c2288e5c1fa211d28437420fe23":[5,0,0,4,16,0],
+"classMR_1_1ChangePointCloudPointsAction.html#ab798c8b335a0610698bfa5fdc04b7ac9":[5,0,0,4,16,5],
+"classMR_1_1ChangePointCloudPointsAction.html#ac066d3dab32b1ce9ab3d604be8a48afb":[5,0,0,4,16,4],
+"classMR_1_1ChangePointCloudPointsAction.html#ad8d1da6c3caadd31cd4053fa2924e372":[5,0,0,4,16,3],
+"classMR_1_1ChangePointPointSelectionAction.html":[5,0,0,4,26],
+"classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619":[5,0,0,4,26,5],
+"classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9":[5,0,0,4,26,1],
+"classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8":[5,0,0,4,26,4],
+"classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c":[5,0,0,4,26,2],
+"classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b":[5,0,0,4,26,3],
+"classMR_1_1ChangePointPointSelectionAction.html#adf6db1de62ed6cf97b83d0a1c00a9999":[5,0,0,4,26,0]
 };

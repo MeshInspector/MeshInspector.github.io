@@ -1,17 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"MRViewerInstance_8h_source.html":[5,0,3,0,0,1,9,131],
-"MRViewerPlugin_8h.html":[5,0,3,0,0,1,9,133],
-"MRViewerPlugin_8h_source.html":[5,0,3,0,0,1,9,133],
-"MRViewerSettingsManager_8h.html":[5,0,3,0,0,1,9,134],
-"MRViewerSettingsManager_8h_source.html":[5,0,3,0,0,1,9,134],
-"MRViewerSettingsPlugin_8h.html":[5,0,3,0,0,1,9,135],
-"MRViewerSettingsPlugin_8h_source.html":[5,0,3,0,0,1,9,135],
-"MRViewerTitle_8h.html":[5,0,3,0,0,1,9,136],
-"MRViewerTitle_8h_source.html":[5,0,3,0,0,1,9,136],
-"MRViewer_2MRVectorTraits_8h.html":[5,0,3,0,0,1,9,126],
-"MRViewer_2MRVectorTraits_8h_source.html":[5,0,3,0,0,1,9,126],
-"MRViewer_2config_8h.html":[5,0,3,0,0,1,9,0],
 "MRViewer_2config_8h_source.html":[5,0,3,0,0,1,9,0],
 "MRViewer_8h.html":[5,0,3,0,0,1,9,127],
 "MRViewer_8h.html#a03d769eae4675e20e6b50c3fddaf8eba":[5,0,3,0,0,1,9,127,7],
@@ -249,5 +237,17 @@ var NAVTREEINDEX14 =
 "classMR_1_1AABBTreePoints.html#ab5f64a7b70e62b9965109f36108247e0":[5,0,0,1,6,17],
 "classMR_1_1AABBTreePoints.html#ab727b425d862eaa2f2f61e6b1e287174":[5,0,0,1,6,18],
 "classMR_1_1AABBTreePoints.html#afda8c5fe845e055b0d3e838046ee1996":[5,0,0,1,6,10],
-"classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b":[5,0,0,1,6,4]
+"classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b":[5,0,0,1,6,4],
+"classMR_1_1AABBTreePoints.html#affd18b1fda8da3797dbcaa84425ab594":[5,0,0,1,6,7],
+"classMR_1_1AABBTreePolyline.html":[5,0,0,1,10],
+"classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef":[5,0,0,1,10,4],
+"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[5,0,0,1,10,3],
+"classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a":[5,0,0,1,10,0],
+"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[5,0,0,1,10,2],
+"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[5,0,0,1,10,1],
+"classMR_1_1AddCustomThemePlugin.html":[5,0,1,0,1,49],
+"classMR_1_1AddCustomThemePlugin.html":[5,0,2,0,1,33],
+"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[5,0,1,0,1,49,0],
+"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[5,0,2,0,1,33,0],
+"classMR_1_1AddCustomThemePlugin.html#a42feeea3eec96cb3a13ca752f83a03a5":[5,0,1,0,1,49,1]
 };

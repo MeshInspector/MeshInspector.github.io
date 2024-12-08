@@ -1,14 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[5,0,1,0,1,671,0],
-"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[5,0,2,0,1,655,0],
-"structMR_1_1TypedFlatTree.html":[5,0,1,0,1,672],
-"structMR_1_1TypedFlatTree.html":[5,0,2,0,1,656],
-"structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[5,0,1,0,1,672,1],
-"structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[5,0,2,0,1,656,1],
-"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[5,0,1,0,1,672,2],
-"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[5,0,2,0,1,656,2],
-"structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[5,0,1,0,1,672,0],
 "structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[5,0,2,0,1,656,0],
 "structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[5,0,1,0,1,672,3],
 "structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[5,0,2,0,1,656,3],
@@ -249,5 +240,14 @@ var NAVTREEINDEX78 =
 "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db":[5,0,1,0,1,685,2],
 "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db":[5,0,2,0,1,669,2],
 "structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[5,0,1,0,1,685,10],
-"structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[5,0,2,0,1,669,10]
+"structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[5,0,2,0,1,669,10],
+"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[5,0,1,0,1,685,13],
+"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[5,0,2,0,1,669,13],
+"structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19":[5,0,1,0,1,685,1],
+"structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19":[5,0,2,0,1,669,1],
+"structMR_1_1UnitToStringParams.html#ac05c469a00e9e986895d9f12d7ffd44b":[5,0,1,0,1,685,11],
+"structMR_1_1UnitToStringParams.html#ac05c469a00e9e986895d9f12d7ffd44b":[5,0,2,0,1,669,11],
+"structMR_1_1UnitToStringParams.html#ac1da9d705a2210ae748df1e41d865a2a":[5,0,1,0,1,685,9],
+"structMR_1_1UnitToStringParams.html#ac1da9d705a2210ae748df1e41d865a2a":[5,0,2,0,1,669,9],
+"structMR_1_1UnitToStringParams.html#ae183c6cb52762dc16f91e61c2be6df24":[5,0,1,0,1,685,0]
 };

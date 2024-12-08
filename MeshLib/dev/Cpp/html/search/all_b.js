@@ -281,7 +281,7 @@ var searchData=
   ['isspherical_278',['isSpherical',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a1b1c56e527cabfa9b554697eaf7b6e8d',1,'MR::RenderDimensions::RadiusParams']]],
   ['isstart_279',['isStart',['../structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940',1,'MR::VertPathInfo']]],
   ['issupportedextension_280',['isSupportedExtension',['../structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765',1,'MR::IOFilter']]],
-  ['issupportedfileinsubfolders_281',['isSupportedFileInSubfolders',['../namespaceMR.html#aa2082792bceb5a2dd3b18ff5693f0441',1,'MR']]],
+  ['issupportedfileinsubfolders_281',['isSupportedFileInSubfolders',['../group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441',1,'MR']]],
   ['issupportedformat_282',['isSupportedFormat',['../classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853',1,'MR::Viewer']]],
   ['issurfacenormala_283',['isSurfaceNormalA',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9',1,'MR::Features::MeasureResult::Angle']]],
   ['issurfacenormalb_284',['isSurfaceNormalB',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce',1,'MR::Features::MeasureResult::Angle']]],

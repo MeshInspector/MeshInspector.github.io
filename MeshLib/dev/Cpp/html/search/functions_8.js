@@ -142,7 +142,7 @@ var searchData=
   ['isselected_139',['isSelected',['../classMR_1_1Object.html#a3f649834561a9f246e1d840a0f3080c8',1,'MR::Object::isSelected()'],['../classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#ad9861b60290335a8b1b6b1730a9874e4',1,'MR::RenderFeatures::WrappedModelSubobject::isSelected()'],['../classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html#a3a10c5e3ca1170e0ef45257015543cbe',1,'MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;::isSelected()']]],
   ['isstart_140',['isStart',['../structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940',1,'MR::VertPathInfo']]],
   ['issupportedextension_141',['isSupportedExtension',['../structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765',1,'MR::IOFilter']]],
-  ['issupportedfileinsubfolders_142',['isSupportedFileInSubfolders',['../namespaceMR.html#aa2082792bceb5a2dd3b18ff5693f0441',1,'MR']]],
+  ['issupportedfileinsubfolders_142',['isSupportedFileInSubfolders',['../group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441',1,'MR']]],
   ['issupportedformat_143',['isSupportedFormat',['../classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853',1,'MR::Viewer']]],
   ['issurfacenormalfor_144',['isSurfaceNormalFor',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c',1,'MR::Features::MeasureResult::Angle']]],
   ['istifffile_145',['isTIFFFile',['../namespaceMR.html#a30561e9335c9081843e4c982a0553366',1,'MR']]],

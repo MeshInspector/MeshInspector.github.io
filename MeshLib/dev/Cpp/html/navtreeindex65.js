@@ -1,17 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1IPointPairs.html#ab45a73b14fac3dc080a3e99e4070de26":[5,0,1,0,1,282,5],
-"structMR_1_1IPointPairs.html#ab45a73b14fac3dc080a3e99e4070de26":[5,0,2,0,1,266,5],
-"structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032":[5,0,1,0,1,282,9],
-"structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032":[5,0,2,0,1,266,9],
-"structMR_1_1IPointPairs.html#abb689ad7795aaeb7236800bec89a0cab":[5,0,1,0,1,282,4],
-"structMR_1_1IPointPairs.html#abb689ad7795aaeb7236800bec89a0cab":[5,0,2,0,1,266,4],
-"structMR_1_1IPointPairs.html#adbe70eca8faa13ce9fa22e4f15cb2d5a":[5,0,1,0,1,282,0],
-"structMR_1_1IPointPairs.html#adbe70eca8faa13ce9fa22e4f15cb2d5a":[5,0,2,0,1,266,0],
-"structMR_1_1IPointPairs.html#ae584abe0ef15be5d6f3fc244f176751b":[5,0,1,0,1,282,3],
-"structMR_1_1IPointPairs.html#ae584abe0ef15be5d6f3fc244f176751b":[5,0,2,0,1,266,3],
-"structMR_1_1IPointPairs.html#afcac114c6d43447ea0cae96eb9270de8":[5,0,1,0,1,282,7],
-"structMR_1_1IPointPairs.html#afcac114c6d43447ea0cae96eb9270de8":[5,0,2,0,1,266,7],
 "structMR_1_1IdRange.html":[5,0,0,3,5],
 "structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a":[5,0,0,3,5,0],
 "structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0":[5,0,0,3,5,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX65 =
 "structMR_1_1InterruptCloseListener.html":[5,0,2,0,1,260],
 "structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[5,0,1,0,1,276,1],
 "structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[5,0,2,0,1,260,1],
-"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[5,0,1,0,1,276,0]
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[5,0,1,0,1,276,0],
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[5,0,2,0,1,260,0],
+"structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[5,0,1,0,1,276,3],
+"structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[5,0,2,0,1,260,3],
+"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[5,0,1,0,1,276,2],
+"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[5,0,2,0,1,260,2],
+"structMR_1_1IntersectionPrecomputes.html":[5,0,0,1,14],
+"structMR_1_1IntersectionPrecomputes2.html":[5,0,0,1,15],
+"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[5,0,0,1,15,2],
+"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[5,0,0,1,15,7],
+"structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b":[5,0,0,1,15,1],
+"structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f":[5,0,0,1,15,6],
+"structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60":[5,0,0,1,15,5]
 };

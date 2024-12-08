@@ -1,17 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"classMR_1_1RibbonMenu.html#a9435ce4367ec159b1b5746aaafcc5652":[5,0,1,0,1,533,52],
-"classMR_1_1RibbonMenu.html#a9435ce4367ec159b1b5746aaafcc5652":[5,0,2,0,1,517,52],
-"classMR_1_1RibbonMenu.html#a97c470b0974a29e162afe5b7393113e3":[5,0,1,0,1,533,61],
-"classMR_1_1RibbonMenu.html#a97c470b0974a29e162afe5b7393113e3":[5,0,2,0,1,517,61],
-"classMR_1_1RibbonMenu.html#a981b9e4f52d4679a09fbbca4dab08573":[5,0,1,0,1,533,47],
-"classMR_1_1RibbonMenu.html#a981b9e4f52d4679a09fbbca4dab08573":[5,0,2,0,1,517,47],
-"classMR_1_1RibbonMenu.html#a99c15fc2adc0e0b9ec601cedaa53dc4b":[5,0,1,0,1,533,21],
-"classMR_1_1RibbonMenu.html#a99c15fc2adc0e0b9ec601cedaa53dc4b":[5,0,2,0,1,517,21],
-"classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3":[5,0,1,0,1,533,48],
-"classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3":[5,0,2,0,1,517,48],
-"classMR_1_1RibbonMenu.html#aa074446a9a5446cd760d9246633c5045":[5,0,1,0,1,533,56],
-"classMR_1_1RibbonMenu.html#aa074446a9a5446cd760d9246633c5045":[5,0,2,0,1,517,56],
 "classMR_1_1RibbonMenu.html#aa3ac32b8dcb22a9dca4b5446599fd2a1":[5,0,1,0,1,533,64],
 "classMR_1_1RibbonMenu.html#aa3ac32b8dcb22a9dca4b5446599fd2a1":[5,0,2,0,1,517,64],
 "classMR_1_1RibbonMenu.html#aa55c3fbd9f75acc5b51ecba5402c8fb6":[5,0,1,0,1,533,16],
@@ -249,5 +237,17 @@ var NAVTREEINDEX36 =
 "classMR_1_1RibbonSchemaHolder.html":[5,0,1,0,1,551],
 "classMR_1_1RibbonSchemaHolder.html":[5,0,2,0,1,535],
 "classMR_1_1RibbonSchemaLoader.html":[5,0,1,0,1,552],
-"classMR_1_1RibbonSchemaLoader.html":[5,0,2,0,1,536]
+"classMR_1_1RibbonSchemaLoader.html":[5,0,2,0,1,536],
+"classMR_1_1RibbonSchemaLoader.html#a0bdc0e74b5b855dc50f9d3ed83b7ecad":[5,0,1,0,1,552,1],
+"classMR_1_1RibbonSchemaLoader.html#a0bdc0e74b5b855dc50f9d3ed83b7ecad":[5,0,2,0,1,536,1],
+"classMR_1_1RibbonSchemaLoader.html#a21064610abab0a6524a91349d54a0470":[5,0,1,0,1,552,8],
+"classMR_1_1RibbonSchemaLoader.html#a21064610abab0a6524a91349d54a0470":[5,0,2,0,1,536,8],
+"classMR_1_1RibbonSchemaLoader.html#a691ceda2aee5d313445759892065cfa6":[5,0,1,0,1,552,2],
+"classMR_1_1RibbonSchemaLoader.html#a691ceda2aee5d313445759892065cfa6":[5,0,2,0,1,536,2],
+"classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e":[5,0,1,0,1,552,7],
+"classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e":[5,0,2,0,1,536,7],
+"classMR_1_1RibbonSchemaLoader.html#a8922f80db8dd50ace1d0414338bc9a90":[5,0,1,0,1,552,4],
+"classMR_1_1RibbonSchemaLoader.html#a8922f80db8dd50ace1d0414338bc9a90":[5,0,2,0,1,536,4],
+"classMR_1_1RibbonSchemaLoader.html#ab7e8563a297450e4086c93062470453b":[5,0,1,0,1,552,5],
+"classMR_1_1RibbonSchemaLoader.html#ab7e8563a297450e4086c93062470453b":[5,0,2,0,1,536,5]
 };

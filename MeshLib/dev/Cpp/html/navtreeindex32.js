@@ -1,17 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1PointObject.html#a3f2703413f04d8a050906c159caf02fc":[5,0,0,11,0,5,8],
-"classMR_1_1PointObject.html#a9e2e061a111ddbe853c098d2fd55f750":[5,0,0,11,0,5,7],
-"classMR_1_1PointObject.html#aa1416c2623e409a547b0c62aa7eb37cc":[5,0,0,11,0,5,1],
-"classMR_1_1PointObject.html#ab2817019fd4767a9959a629537d5eb3c":[5,0,0,11,0,5,15],
-"classMR_1_1PointObject.html#ab448b50f4d5f7e6e83479ce7652393b3":[5,0,0,11,0,5,2],
-"classMR_1_1PointObject.html#abd93c3847c57f54eb014c6742abe50b8":[5,0,0,11,0,5,0],
-"classMR_1_1PointObject.html#ac70ea9d5e70ab550d46f0f74d632f202":[5,0,0,11,0,5,5],
-"classMR_1_1PointObject.html#ae0b89143bda253553841055632c8f8bd":[5,0,0,11,0,5,10],
-"classMR_1_1PointObject.html#aeb16ff07a3bf800cb981d3d78a999a0d":[5,0,0,11,0,5,12],
-"classMR_1_1PointObject.html#aed6f47b23720a4f19897185093cd86d4":[5,0,0,11,0,5,13],
-"classMR_1_1PointObject.html#aeee86049f51bee69c243963b0b63f7c4":[5,0,0,11,0,5,14],
-"classMR_1_1PointObject.html#af0d333f53e5214cef1fed176a67585a3":[5,0,0,11,0,5,18],
 "classMR_1_1PointObject.html#afdd7f6159c74701c90843b6632e7e75f":[5,0,0,11,0,5,17],
 "classMR_1_1PointToPlaneAligningTransform.html":[5,0,0,0,8,1],
 "classMR_1_1PointToPlaneAligningTransform.html#a08230ea255db679fb12588edc3ca5f2e":[5,0,0,0,8,1,0],
@@ -249,5 +237,17 @@ var NAVTREEINDEX32 =
 "classMR_1_1RangeProcessor.html#a38d89572060f7a396489aa5de0d40b45":[5,0,2,0,1,483,7],
 "classMR_1_1RangeProcessor.html#a493cd8bd9cfcf270c2da05abca55a7c8":[5,0,1,0,1,499,14],
 "classMR_1_1RangeProcessor.html#a493cd8bd9cfcf270c2da05abca55a7c8":[5,0,2,0,1,483,14],
-"classMR_1_1RangeProcessor.html#a575e7717da2c9424f1c8e3c6bfcaf2e8":[5,0,1,0,1,499,11]
+"classMR_1_1RangeProcessor.html#a575e7717da2c9424f1c8e3c6bfcaf2e8":[5,0,1,0,1,499,11],
+"classMR_1_1RangeProcessor.html#a575e7717da2c9424f1c8e3c6bfcaf2e8":[5,0,2,0,1,483,11],
+"classMR_1_1RangeProcessor.html#a582a15e9341e8c6590b44125765256eb":[5,0,1,0,1,499,1],
+"classMR_1_1RangeProcessor.html#a582a15e9341e8c6590b44125765256eb":[5,0,2,0,1,483,1],
+"classMR_1_1RangeProcessor.html#a6a0210e315715506b9c1ccfa4ad468c4":[5,0,1,0,1,499,12],
+"classMR_1_1RangeProcessor.html#a6a0210e315715506b9c1ccfa4ad468c4":[5,0,2,0,1,483,12],
+"classMR_1_1RangeProcessor.html#a905bd220d552b994aaa85fd00c4de321":[5,0,1,0,1,499,3],
+"classMR_1_1RangeProcessor.html#a905bd220d552b994aaa85fd00c4de321":[5,0,2,0,1,483,3],
+"classMR_1_1RangeProcessor.html#a992a8a190daef18cd5ee2c4fe6ecb004":[5,0,1,0,1,499,5],
+"classMR_1_1RangeProcessor.html#a992a8a190daef18cd5ee2c4fe6ecb004":[5,0,2,0,1,483,5],
+"classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb":[5,0,1,0,1,499,4],
+"classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb":[5,0,2,0,1,483,4],
+"classMR_1_1RangeProcessor.html#aa1b6af30870ebe7291f172482a42b7b5":[5,0,1,0,1,499,10]
 };

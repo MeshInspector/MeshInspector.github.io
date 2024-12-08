@@ -1,17 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a3fe4c9665a94e2143038345808dc1586":[5,0,2,0,1,2,2,0,0],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a625702bc7bbc1dc9e21bd6786bb901ad":[5,0,1,0,1,6,2,0,9],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a625702bc7bbc1dc9e21bd6786bb901ad":[5,0,2,0,1,2,2,0,9],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a6f5eba0221416eca918dea71f64ad70d":[5,0,1,0,1,6,2,0,4],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a6f5eba0221416eca918dea71f64ad70d":[5,0,2,0,1,2,2,0,4],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9":[5,0,1,0,1,6,2,0,6],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9":[5,0,2,0,1,2,2,0,6],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[5,0,1,0,1,6,2,0,3],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[5,0,2,0,1,2,2,0,3],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[5,0,1,0,1,6,2,0,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[5,0,2,0,1,2,2,0,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[5,0,1,0,1,6,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[5,0,2,0,1,2,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[5,0,1,0,1,6,2,0,7],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[5,0,2,0,1,2,2,0,7],
@@ -249,5 +237,17 @@ var NAVTREEINDEX63 =
 "structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[5,0,2,0,1,206,0],
 "structMR_1_1FitDataParams.html":[5,0,1,0,1,224],
 "structMR_1_1FitDataParams.html":[5,0,2,0,1,208],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[5,0,1,0,1,224,1]
+"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[5,0,1,0,1,224,1],
+"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[5,0,2,0,1,208,1],
+"structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[5,0,1,0,1,224,0],
+"structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[5,0,2,0,1,208,0],
+"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[5,0,1,0,1,224,2],
+"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[5,0,2,0,1,208,2],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[5,0,1,0,1,7,0],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[5,0,2,0,1,3,0],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[5,0,1,0,1,7,0,0],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[5,0,2,0,1,3,0,0],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[5,0,1,0,1,7,1],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[5,0,2,0,1,3,1],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a6822b43f8eb010ed7b72c8159db3f7a6":[5,0,1,0,1,7,1,2]
 };

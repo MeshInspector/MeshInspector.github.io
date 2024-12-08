@@ -1,14 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"structMR_1_1TouchpadParameters.html":[5,0,1,0,1,651],
-"structMR_1_1TouchpadParameters.html":[5,0,2,0,1,635],
-"structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[5,0,1,0,1,651,3],
-"structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[5,0,2,0,1,635,3],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[5,0,1,0,1,651,0],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[5,0,2,0,1,635,0],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[5,0,1,0,1,651,0,1],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[5,0,2,0,1,635,0,1],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[5,0,1,0,1,651,0,0],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[5,0,2,0,1,635,0,0],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[5,0,1,0,1,651,0,2],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[5,0,2,0,1,635,0,2],
@@ -249,5 +240,14 @@ var NAVTREEINDEX77 =
 "structMR_1_1TrimWithPlaneParams.html#ac31ec54e79c7c73e956dd8f91eb4e37c":[5,0,1,0,1,669,2],
 "structMR_1_1TrimWithPlaneParams.html#ac31ec54e79c7c73e956dd8f91eb4e37c":[5,0,2,0,1,653,2],
 "structMR_1_1TrivialMetricToPenalty.html":[5,0,1,0,1,671],
-"structMR_1_1TrivialMetricToPenalty.html":[5,0,2,0,1,655]
+"structMR_1_1TrivialMetricToPenalty.html":[5,0,2,0,1,655],
+"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[5,0,1,0,1,671,0],
+"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[5,0,2,0,1,655,0],
+"structMR_1_1TypedFlatTree.html":[5,0,1,0,1,672],
+"structMR_1_1TypedFlatTree.html":[5,0,2,0,1,656],
+"structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[5,0,1,0,1,672,1],
+"structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[5,0,2,0,1,656,1],
+"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[5,0,1,0,1,672,2],
+"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[5,0,2,0,1,656,2],
+"structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[5,0,1,0,1,672,0]
 };

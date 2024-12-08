@@ -1,14 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"structMR_1_1SeparationPointStorage_1_1Block.html":[5,0,1,0,1,588,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[5,0,2,0,1,572,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[5,0,1,0,1,588,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[5,0,2,0,1,572,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[5,0,1,0,1,588,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[5,0,2,0,1,572,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[5,0,1,0,1,588,0,2],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[5,0,2,0,1,572,0,2],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[5,0,1,0,1,588,0,1],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[5,0,2,0,1,572,0,1],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[5,0,1,0,1,588,0,5],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[5,0,2,0,1,572,0,5],
@@ -249,5 +240,14 @@ var NAVTREEINDEX75 =
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[5,0,2,0,1,611,0,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2d31568cac0bf19969e4cc51dc854a14":[5,0,1,0,1,627,0,3],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2d31568cac0bf19969e4cc51dc854a14":[5,0,2,0,1,611,0,3],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[5,0,1,0,1,627,0,2]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[5,0,1,0,1,627,0,2],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[5,0,2,0,1,611,0,2],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[5,0,1,0,1,627,0,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[5,0,2,0,1,611,0,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[5,0,1,0,1,627,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[5,0,2,0,1,611,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[5,0,1,0,1,627,0,5],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[5,0,2,0,1,611,0,5],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[5,0,1,0,1,628,0],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[5,0,2,0,1,612,0]
 };

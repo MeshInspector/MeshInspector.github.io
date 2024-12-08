@@ -657,6 +657,7 @@ var hierarchy =
     [ "MR::LinesLoad::LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", null ],
     [ "MR::LinesSave::LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", null ],
     [ "MR::LoadedObject", "structMR_1_1LoadedObject.html", null ],
+    [ "MR::LoadedObjectMesh", "structMR_1_1LoadedObjectMesh.html", null ],
     [ "MR::LoadedObjects", "structMR_1_1LoadedObjects.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
@@ -683,7 +684,6 @@ var hierarchy =
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
     [ "MR::MeshLoad::MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", null ],
-    [ "MR::MeshLoadInfo", "structMR_1_1MeshLoadInfo.html", null ],
     [ "MR::MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", null ],
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshMeshDistanceResult", "structMR_1_1MeshMeshDistanceResult.html", null ],

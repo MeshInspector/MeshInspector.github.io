@@ -1,17 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classMR_1_1SceneTextureGL.html#aa4fc9f3f3e519c2a98976b5a6df6664a":[5,0,1,0,1,581,4],
-"classMR_1_1SceneTextureGL.html#aa4fc9f3f3e519c2a98976b5a6df6664a":[5,0,2,0,1,565,4],
-"classMR_1_1SceneTextureGL.html#ad3c55cbc78f657dbba1f5ce06e0183b4":[5,0,1,0,1,581,2],
-"classMR_1_1SceneTextureGL.html#ad3c55cbc78f657dbba1f5ce06e0183b4":[5,0,2,0,1,565,2],
-"classMR_1_1SceneTextureGL.html#af29aa94c5d0f28fabf5baa5aeefd075e":[5,0,1,0,1,581,0],
-"classMR_1_1SceneTextureGL.html#af29aa94c5d0f28fabf5baa5aeefd075e":[5,0,2,0,1,565,0],
-"classMR_1_1SceneTextureGL.html#afada1d5c821061119918954bebf336b7":[5,0,1,0,1,581,3],
-"classMR_1_1SceneTextureGL.html#afada1d5c821061119918954bebf336b7":[5,0,2,0,1,565,3],
-"classMR_1_1ScopeHistory.html":[5,0,1,0,1,582],
-"classMR_1_1ScopeHistory.html":[5,0,2,0,1,566],
-"classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5":[5,0,1,0,1,582,0],
-"classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5":[5,0,2,0,1,566,0],
 "classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[5,0,1,0,1,582,1],
 "classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[5,0,2,0,1,566,1],
 "classMR_1_1SelectObjectByClick.html":[5,0,1,0,1,587],
@@ -249,5 +237,17 @@ var NAVTREEINDEX38 =
 "classMR_1_1SplashWindow.html#a4e6ed4ee9950dc53818813544070379e":[5,0,2,0,1,603,8],
 "classMR_1_1SplashWindow.html#a79107d23834b7d624c70558d9acfcd38":[5,0,1,0,1,619,6],
 "classMR_1_1SplashWindow.html#a79107d23834b7d624c70558d9acfcd38":[5,0,2,0,1,603,6],
-"classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb":[5,0,1,0,1,619,5]
+"classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb":[5,0,1,0,1,619,5],
+"classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb":[5,0,2,0,1,603,5],
+"classMR_1_1SplashWindow.html#aa8219c57ea7f0cab0fb236ab58fbcb5f":[5,0,1,0,1,619,1],
+"classMR_1_1SplashWindow.html#aa8219c57ea7f0cab0fb236ab58fbcb5f":[5,0,2,0,1,603,1],
+"classMR_1_1SplashWindow.html#af0ce424272b846ce5f6cf1f9116f1742":[5,0,1,0,1,619,3],
+"classMR_1_1SplashWindow.html#af0ce424272b846ce5f6cf1f9116f1742":[5,0,2,0,1,603,3],
+"classMR_1_1StateBasePlugin.html":[5,0,1,0,1,621],
+"classMR_1_1StateBasePlugin.html":[5,0,2,0,1,605],
+"classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457":[5,0,1,0,1,621,7],
+"classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457":[5,0,2,0,1,605,7],
+"classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204":[5,0,1,0,1,621,20],
+"classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204":[5,0,2,0,1,605,20],
+"classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[5,0,1,0,1,621,11]
 };
