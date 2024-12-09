@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"structMR_1_1TouchpadParameters.html":[5,0,2,0,1,635],
 "structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[5,0,1,0,1,651,3],
 "structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[5,0,2,0,1,635,3],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[5,0,1,0,1,651,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "structMR_1_1TrimOptionalOutput.html#ad716fbc89b71f32103375687ec684177":[5,0,2,0,1,652,4],
 "structMR_1_1TrimWithPlaneParams.html":[5,0,1,0,1,669],
 "structMR_1_1TrimWithPlaneParams.html":[5,0,2,0,1,653],
-"structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35":[5,0,1,0,1,669,0]
+"structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35":[5,0,1,0,1,669,0],
+"structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35":[5,0,2,0,1,653,0]
 };

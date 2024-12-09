@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[5,0,1,0,1,81,1],
 "structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[5,0,2,0,1,65,1],
 "structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[5,0,1,0,1,81,0],
 "structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[5,0,2,0,1,65,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[5,0,0,10,2,6],
 "structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[5,0,0,10,2,5],
 "structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe":[5,0,0,10,2,8],
-"structMR_1_1DecimateResult.html":[5,0,0,10,1]
+"structMR_1_1DecimateResult.html":[5,0,0,10,1],
+"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[5,0,0,10,1,3]
 };

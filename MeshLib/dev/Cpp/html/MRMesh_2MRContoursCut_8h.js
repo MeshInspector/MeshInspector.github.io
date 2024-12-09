@@ -10,7 +10,6 @@ var MRMesh_2MRContoursCut_8h =
     [ "convertSurfacePathsToMeshContours", "MRMesh_2MRContoursCut_8h.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "MRMesh_2MRContoursCut_8h.html#ga4415eacd7a732188919def7411ee0245", null ],
     [ "cutMesh", "MRMesh_2MRContoursCut_8h.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],
-    [ "cutMeshWithPlane", "MRMesh_2MRContoursCut_8h.html#gae70921f8b670333f08291597996a1dbf", null ],
     [ "getOneMeshIntersectionContours", "MRMesh_2MRContoursCut_8h.html#afb5aa7d969d789218ae67365158331cb", null ],
     [ "subdivideLoneContours", "MRMesh_2MRContoursCut_8h.html#a5b75641f945b0fb70278c9b7e0c9c418", null ]
 ];

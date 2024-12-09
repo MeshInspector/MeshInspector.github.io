@@ -1,6 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624":[5,0,1,0,1,6,0,3],
 "namespaceMR_1_1Features_1_1Traits.html":[5,0,1,0,1,6,1],
 "namespaceMR_1_1FixUndercuts.html":[5,0,1,0,1,7],
 "namespaceMR_1_1FixUndercuts.html#a1533cdae8a0918d9ee6e83cf92f56280":[5,0,1,0,1,7,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[5,0,1,0,1,38,76],
 "namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[5,0,1,0,1,38,73],
 "namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[5,0,1,0,1,38,41],
-"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[5,0,1,0,1,38,63]
+"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[5,0,1,0,1,38,63],
+"namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[5,0,1,0,1,38,72]
 };

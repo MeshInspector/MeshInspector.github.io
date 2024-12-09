@@ -1,6 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a6f5eba0221416eca918dea71f64ad70d":[5,0,2,0,1,2,2,0,4],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9":[5,0,1,0,1,6,2,0,6],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9":[5,0,2,0,1,2,2,0,6],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[5,0,1,0,1,6,2,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX63 =
 "structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[5,0,2,0,1,208,1],
 "structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[5,0,1,0,1,224,0],
 "structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[5,0,2,0,1,208,0],
-"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[5,0,1,0,1,224,2]
+"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[5,0,1,0,1,224,2],
+"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[5,0,2,0,1,208,2]
 };

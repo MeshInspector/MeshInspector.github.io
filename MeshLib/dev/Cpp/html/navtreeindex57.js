@@ -1,6 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[5,0,1,0,1,38,72],
 "namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[5,0,1,0,1,38,38],
 "namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[5,0,1,0,1,38,48],
 "namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9":[5,0,1,0,1,38,45],
@@ -249,5 +248,6 @@ var NAVTREEINDEX57 =
 "structMRFillHoleParams.html#ad6d00d886b5618cbcb8961f55f2e7aa5":[5,0,2,0,16,3],
 "structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286":[5,0,2,0,16,2],
 "structMRFindProjectionParameters.html":[5,0,2,0,17],
-"structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[5,0,2,0,17,2]
+"structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[5,0,2,0,17,2],
+"structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[5,0,2,0,17,1]
 };

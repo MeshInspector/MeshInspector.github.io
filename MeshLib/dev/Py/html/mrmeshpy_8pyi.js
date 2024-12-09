@@ -1358,7 +1358,6 @@ var mrmeshpy_8pyi =
     [ "cutAlongEdgeLoop", "mrmeshpy_8pyi.html#aed4aab72a9334f3c2ba907e96df0410f", null ],
     [ "cutAlongEdgeLoop", "mrmeshpy_8pyi.html#a335d39bee58418fcd2782a4055ee58ff", null ],
     [ "cutMesh", "mrmeshpy_8pyi.html#acc6545ddfc7135f00f617489e9d045c4", null ],
-    [ "cutMeshWithPlane", "mrmeshpy_8pyi.html#a9cf81d6f71977edec6c5c8bbb437b71b", null ],
     [ "deactivateFarPairs", "mrmeshpy_8pyi.html#ac6deef5f6c408f14756f837e25ffb5d5", null ],
     [ "decimateContour", "mrmeshpy_8pyi.html#afe66abe38b5f4ea4be6b45dc87688491", null ],
     [ "decimateContour", "mrmeshpy_8pyi.html#a4aff6035ecf4265937807e748aaa3d92", null ],
