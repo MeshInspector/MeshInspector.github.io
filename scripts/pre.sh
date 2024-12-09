@@ -41,7 +41,7 @@ if [ "$TARGET_DIR" == "MeshLib" ]; then
     URL="meshlib.io/$TARGET_DIR"
 elif [ "$TARGET_DIR" == "MeshLib/dev" ]; then
     URL="meshinspector.github.io/$TARGET_DIR"
-elif [ "$TARGET_DIR" == "MeshLib" ]; then
+elif [ "$TARGET_DIR" == "MeshLib/local" ]; then
     URL="127.0.0.1:8000/$TARGET_DIR"
 fi
 
