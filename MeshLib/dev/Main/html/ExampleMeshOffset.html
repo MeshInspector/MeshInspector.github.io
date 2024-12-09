@@ -159,18 +159,18 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="MeshBoolean_8dox_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Create mesh</span></div>
-<div class="line">    MR::Mesh mesh = MR::makeCube();</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html">MR::Mesh</a> mesh = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/namespaceMR.html#ac19d6db4200945b6861959bd421a41e1">MR::makeCube</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup parameters</span></div>
-<div class="line">    MR::GeneralOffsetParameters params;</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a> params;</div>
 <div class="line">    <span class="comment">// calculate voxel size depending on desired accuracy and/or memory consumption</span></div>
-<div class="line">    params.voxelSize = suggestVoxelSize( mesh, 10000000.f );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !MR::findRightBoundary( mesh.topology ).empty() )</div>
-<div class="line">        params.signDetectionMode = MR::SignDetectionMode::HoleWindingRule; <span class="comment">// use if you have holes in mesh</span></div>
+<div class="line">    params.<a class="code hl_variableRef" href="../../MeshLib/Cpp/html/structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48">voxelSize</a> = suggestVoxelSize( mesh, 10000000.f );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a>( mesh.<a class="code hl_variableRef" href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a> ).empty() )</div>
+<div class="line">        params.<a class="code hl_variableRef" href="../../MeshLib/Cpp/html/structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26">signDetectionMode</a> = MR::SignDetectionMode::HoleWindingRule; <span class="comment">// use if you have holes in mesh</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Make offset mesh</span></div>
-<div class="line">    <span class="keywordtype">float</span> offset = mesh.computeBoundingBox().diagonal() * 0.1f;</div>
-<div class="line">    <span class="keyword">auto</span> meshRes = MR::generalOffsetMesh( mesh, offset, params );</div>
+<div class="line">    <span class="keywordtype">float</span> offset = mesh.<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a>().diagonal() * 0.1f;</div>
+<div class="line">    <span class="keyword">auto</span> meshRes = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050">MR::generalOffsetMesh</a>( mesh, offset, params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; meshRes.error() &lt;&lt; std::endl;</div>
@@ -178,11 +178,21 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR::MeshSave::toAnySupportedFormat( *meshRes, <span class="stringliteral">&quot;mesh_offset.stl&quot;</span> );</div>
+<div class="line">    <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *meshRes, <span class="stringliteral">&quot;mesh_offset.stl&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aMeshBoolean_8dox_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="MeshBoolean_8dox_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> MeshBoolean.dox.cpp:8</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="../../MeshLib/Cpp/html/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_html_a25514d4f7efbcece3bf2daa5fa1bff62"><div class="ttname"><a href="../../MeshLib/Cpp/html/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a></div><div class="ttdeci">MRMESH_API std::vector&lt; EdgeLoop &gt; findRightBoundary(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr)</div></div>
+<div class="ttc" id="anamespaceMR_html_a5edbfcffae3bcdb000d83b7c6cf9e050"><div class="ttname"><a href="../../MeshLib/Cpp/html/namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050">MR::generalOffsetMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; generalOffsetMesh(const MeshPart &amp;mp, float offset, const GeneralOffsetParameters &amp;params)</div></div>
+<div class="ttc" id="anamespaceMR_html_ac19d6db4200945b6861959bd421a41e1"><div class="ttname"><a href="../../MeshLib/Cpp/html/namespaceMR.html#ac19d6db4200945b6861959bd421a41e1">MR::makeCube</a></div><div class="ttdeci">MRMESH_API Mesh makeCube(const Vector3f &amp;size=Vector3f::diagonal(1.0f), const Vector3f &amp;base=Vector3f::diagonal(-0.5f))</div></div>
+<div class="ttc" id="astructMR_1_1BaseShellParameters_html_a0496e82daf37476561be7bd450c6fb48"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48">MR::BaseShellParameters::voxelSize</a></div><div class="ttdeci">float voxelSize</div></div>
+<div class="ttc" id="astructMR_1_1GeneralOffsetParameters_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a></div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_a30783b277e8cd9daed4827c15daede28"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28">MR::Mesh::computeBoundingBox</a></div><div class="ttdeci">MRMESH_API Box3f computeBoundingBox(const AffineXf3f *toWorld=nullptr) const</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div></div>
+<div class="ttc" id="astructMR_1_1OffsetParameters_html_aa411170d1cc5cc475f3caeab0a525e26"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26">MR::OffsetParameters::signDetectionMode</a></div><div class="ttdeci">SignDetectionMode signDetectionMode</div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="offset_before.png" alt=""/>
 </div>
@@ -194,25 +204,30 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line"><span class="keyword">import</span> sys</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
-<div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = <a class="code hl_functionRef" href="../../MeshLib/Py/html/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Setup parameters</span></div>
-<div class="line">params = mrmeshpy.OffsetParameters()</div>
+<div class="line">params = <a class="code hl_classRef" href="../../MeshLib/Py/html/classmrmeshpy_1_1OffsetParameters.html">mrmeshpy.OffsetParameters</a>()</div>
 <div class="line">params.voxelSize = mesh.computeBoundingBox().diagonal() * 5e-3 <span class="comment"># offset grid precision (algorithm is voxel based)</span></div>
-<div class="line"><span class="keywordflow">if</span> mrmeshpy.findRightBoundary(mesh.topology).empty():</div>
+<div class="line"><span class="keywordflow">if</span> <a class="code hl_functionRef" href="../../MeshLib/Py/html/namespacemrmeshpy.html#a581568475c184614f799cd869e5c1803">mrmeshpy.findRightBoundary</a>(mesh.topology).empty():</div>
 <div class="line">    params.signDetectionMode = mrmeshpy.SignDetectionMode.HoleWindingRule  <span class="comment"># use if you have holes in mesh</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Make offset mesh</span></div>
 <div class="line">offset = mesh.computeBoundingBox().diagonal() * 0.05</div>
 <div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    result_mesh = mrmeshpy.offsetMesh(mesh, offset, params)</div>
+<div class="line">    result_mesh = <a class="code hl_functionRef" href="../../MeshLib/Py/html/namespacemrmeshpy.html#a217459ec74fc927775a24698edbebdc1">mrmeshpy.offsetMesh</a>(mesh, offset, params)</div>
 <div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
 <div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
-<div class="line">mrmeshpy.saveMesh(result_mesh, <span class="stringliteral">&quot;offsetMesh.stl&quot;</span>)</div>
+<div class="line"><a class="code hl_functionRef" href="../../MeshLib/Py/html/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy.saveMesh</a>(result_mesh, <span class="stringliteral">&quot;offsetMesh.stl&quot;</span>)</div>
+<div class="ttc" id="aclassmrmeshpy_1_1OffsetParameters_html"><div class="ttname"><a href="../../MeshLib/Py/html/classmrmeshpy_1_1OffsetParameters.html">mrmeshpy::OffsetParameters</a></div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a217459ec74fc927775a24698edbebdc1"><div class="ttname"><a href="../../MeshLib/Py/html/namespacemrmeshpy.html#a217459ec74fc927775a24698edbebdc1">mrmeshpy::offsetMesh</a></div><div class="ttdeci">Mesh offsetMesh(MeshPart mp, float offset, OffsetParameters params='MR::OffsetParameters{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a34254796865572bdb9d0ac8fe8b24854"><div class="ttname"><a href="../../MeshLib/Py/html/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='MR::MeshLoadSettings{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a581568475c184614f799cd869e5c1803"><div class="ttname"><a href="../../MeshLib/Py/html/namespacemrmeshpy.html#a581568475c184614f799cd869e5c1803">mrmeshpy::findRightBoundary</a></div><div class="ttdeci">std_vector_std_vector_Id_EdgeTag findRightBoundary(MeshTopology topology, FaceBitSet region=None)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a7d060e0695c7b9c53e265318c8c4b4c6"><div class="ttname"><a href="../../MeshLib/Py/html/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='MR::SaveSettings{}')</div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="offset_before.png" alt=""/>
 </div>
@@ -240,53 +255,75 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// error messages will be stored here</span></div>
-<div class="line">    MRString* errorString = NULL;</div>
+<div class="line">    <a class="code hl_typedefRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a>* errorString = NULL;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create mesh</span></div>
-<div class="line">    MRVector3f size = mrVector3fDiagonal( 1.f );</div>
-<div class="line">    MRVector3f base = mrVector3fDiagonal( -0.5f );</div>
-<div class="line">    MRMesh* mesh = mrMakeCube( &amp;size, &amp;base );</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMRVector3f.html">MRVector3f</a> <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a>( 1.f );</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMRVector3f.html">MRVector3f</a> base = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a>( -0.5f );</div>
+<div class="line">    <a class="code hl_typedefRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* mesh = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRCube_8h.html#a5b607aff065c9b9095904bfcaff6a134">mrMakeCube</a>( &amp;<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, &amp;base );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// offset functions can also be applied to separate mesh components rather than to the whole mesh</span></div>
 <div class="line">    <span class="comment">// this is not our case, so the region is set to NULL</span></div>
-<div class="line">    MRMeshPart inputMeshPart = (MRMeshPart){</div>
-<div class="line">        .mesh = mesh,</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMRMeshPart.html">MRMeshPart</a> inputMeshPart = (<a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMRMeshPart.html">MRMeshPart</a>){</div>
+<div class="line">        .<a class="code hl_variableRef" href="../../MeshLib/Cpp/html/structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0">mesh</a> = mesh,</div>
 <div class="line">        .region = NULL,</div>
 <div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup parameters</span></div>
-<div class="line">    MROffsetParameters params = mrOffsetParametersNew();</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMROffsetParameters.html">MROffsetParameters</a> params = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MROffset_8h.html#ab0bcbdc61697a510f5fe0bc636ac7a93">mrOffsetParametersNew</a>();</div>
 <div class="line">    <span class="comment">// calculate voxel size depending on desired accuracy and/or memory consumption</span></div>
-<div class="line">    params.voxelSize = mrSuggestVoxelSize( inputMeshPart, 10000000.f );</div>
-<div class="line">    MRAffineXf3f xf = mrAffineXf3fNew();</div>
-<div class="line">    MRBox3f bbox = mrMeshComputeBoundingBox( mesh, &amp;xf );</div>
-<div class="line">    <span class="keywordtype">float</span> offset = mrBox3fDiagonal( &amp;bbox ) * 0.1f;</div>
+<div class="line">    params.<a class="code hl_variableRef" href="../../MeshLib/Cpp/html/structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679">voxelSize</a> = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MROffset_8h.html#ad4c72f42f42761ee3fd77af2372ab83b">mrSuggestVoxelSize</a>( inputMeshPart, 10000000.f );</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMRAffineXf3f.html">MRAffineXf3f</a> xf = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRAffineXf_8h.html#a33f06d700e345db3f9c3409cc9bf810d">mrAffineXf3fNew</a>();</div>
+<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMRBox3f.html">MRBox3f</a> bbox = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034">mrMeshComputeBoundingBox</a>( mesh, &amp;xf );</div>
+<div class="line">    <span class="keywordtype">float</span> offset = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRBox_8h.html#a699388955b5907eea309e33d62a358d0">mrBox3fDiagonal</a>( &amp;bbox ) * 0.1f;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Make offset mesh</span></div>
-<div class="line">    MRMesh* outputMesh = mrOffsetMesh( inputMeshPart, offset, &amp;params, &amp;errorString );</div>
+<div class="line">    <a class="code hl_typedefRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* outputMesh = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_8h.html#ab0ecf41a93470d8d200a994dbe88332a">mrOffsetMesh</a>( inputMeshPart, offset, &amp;params, &amp;errorString );</div>
 <div class="line">    <span class="keywordflow">if</span> ( errorString )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform offset: %s&quot;</span>, mrStringData( errorString ) );</div>
-<div class="line">        mrStringFree( errorString );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform offset: %s&quot;</span>, <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a>( errorString ) );</div>
+<div class="line">        <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a>( errorString );</div>
 <div class="line">        <span class="keywordflow">goto</span> out;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    mrMeshSaveToAnySupportedFormat( outputMesh, <span class="stringliteral">&quot;mesh_offset.stl&quot;</span>, &amp;errorString );</div>
+<div class="line">    <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRMeshSave_8h.html#ad1fe0bd744483317678f0004fafa5831">mrMeshSaveToAnySupportedFormat</a>( outputMesh, <span class="stringliteral">&quot;mesh_offset.stl&quot;</span>, &amp;errorString );</div>
 <div class="line">    <span class="keywordflow">if</span> ( errorString )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save inputMesh: %s&quot;</span>, mrStringData( errorString ) );</div>
-<div class="line">        mrStringFree( errorString );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save inputMesh: %s&quot;</span>, <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a>( errorString ) );</div>
+<div class="line">        <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a>( errorString );</div>
 <div class="line">        <span class="keywordflow">goto</span> out_outputMesh;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line">out_outputMesh:</div>
-<div class="line">    mrMeshFree( outputMesh );</div>
+<div class="line">    <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( outputMesh );</div>
 <div class="line">out:</div>
-<div class="line">    mrMeshFree( mesh );</div>
+<div class="line">    <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( mesh );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="aMRMeshC_2MRAffineXf_8h_html_a33f06d700e345db3f9c3409cc9bf810d"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRAffineXf_8h.html#a33f06d700e345db3f9c3409cc9bf810d">mrAffineXf3fNew</a></div><div class="ttdeci">MRMESHC_API MRAffineXf3f mrAffineXf3fNew(void)</div></div>
+<div class="ttc" id="aMRMeshC_2MRBox_8h_html_a699388955b5907eea309e33d62a358d0"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRBox_8h.html#a699388955b5907eea309e33d62a358d0">mrBox3fDiagonal</a></div><div class="ttdeci">MRMESHC_API float mrBox3fDiagonal(const MRBox3f *box)</div></div>
+<div class="ttc" id="aMRMeshC_2MRCube_8h_html_a5b607aff065c9b9095904bfcaff6a134"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRCube_8h.html#a5b607aff065c9b9095904bfcaff6a134">mrMakeCube</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API MRMesh * mrMakeCube(const MRVector3f *size, const MRVector3f *base)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a89b45a4728b7f2a3281d78d9164162fe"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a></div><div class="ttdeci">typedefMR_EXTERN_C_BEGIN struct MRString MRString</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshSave_8h_html_ad1fe0bd744483317678f0004fafa5831"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRMeshSave_8h.html#ad1fe0bd744483317678f0004fafa5831">mrMeshSaveToAnySupportedFormat</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API void mrMeshSaveToAnySupportedFormat(const MRMesh *mesh, const char *file, MRString **errorStr)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_acb9cd8a62b754d8dfc405c983dbd5034"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034">mrMeshComputeBoundingBox</a></div><div class="ttdeci">MRMESHC_API MRBox3f mrMeshComputeBoundingBox(const MRMesh *mesh, const MRAffineXf3f *toWorld)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_ae5d22b5eec3af73293e031ea6346310d"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a></div><div class="ttdeci">MRMESHC_API void mrMeshFree(MRMesh *mesh)</div></div>
+<div class="ttc" id="aMRMeshC_2MROffset_8h_html_ab0bcbdc61697a510f5fe0bc636ac7a93"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MROffset_8h.html#ab0bcbdc61697a510f5fe0bc636ac7a93">mrOffsetParametersNew</a></div><div class="ttdeci">MRMESHC_API MROffsetParameters mrOffsetParametersNew(void)</div></div>
+<div class="ttc" id="aMRMeshC_2MROffset_8h_html_ad4c72f42f42761ee3fd77af2372ab83b"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MROffset_8h.html#ad4c72f42f42761ee3fd77af2372ab83b">mrSuggestVoxelSize</a></div><div class="ttdeci">MRMESHC_API float mrSuggestVoxelSize(MRMeshPart mp, float approxNumVoxels)</div></div>
+<div class="ttc" id="aMRMeshC_2MRString_8h_html_a6c06174923fa27502a2633fd5791047d"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a></div><div class="ttdeci">MRMESHC_API void mrStringFree(MRString *str)</div></div>
+<div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div></div>
+<div class="ttc" id="aMRMeshC_2MRVector3_8h_html_a1249240b3dcb10a7610731a0823dff7f"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a></div><div class="ttdeci">MRMESHC_API MRVector3f mrVector3fDiagonal(float a)</div></div>
+<div class="ttc" id="aMRMeshC_8h_html_ab0ecf41a93470d8d200a994dbe88332a"><div class="ttname"><a href="../../MeshLib/Cpp/html/MRMeshC_8h.html#ab0ecf41a93470d8d200a994dbe88332a">mrOffsetMesh</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrOffsetMesh(MRMeshPart mp, float offset, const MROffsetParameters *params, MRString **errorString)</div></div>
+<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="../../MeshLib/Cpp/html/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
+<div class="ttc" id="astructMRAffineXf3f_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMRAffineXf3f.html">MRAffineXf3f</a></div></div>
+<div class="ttc" id="astructMRBox3f_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMRBox3f.html">MRBox3f</a></div></div>
+<div class="ttc" id="astructMRMeshPart_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMRMeshPart.html">MRMeshPart</a></div></div>
+<div class="ttc" id="astructMRMeshPart_html_a58a6c4fd3c48e9285aae697c3fe43cf0"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0">MRMeshPart::mesh</a></div><div class="ttdeci">const MRMesh * mesh</div></div>
+<div class="ttc" id="astructMROffsetParameters_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMROffsetParameters.html">MROffsetParameters</a></div></div>
+<div class="ttc" id="astructMROffsetParameters_html_a101abd04d5b2643285510c4fa363b679"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679">MROffsetParameters::voxelSize</a></div><div class="ttdeci">float voxelSize</div></div>
+<div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMRVector3f.html">MRVector3f</a></div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="offset_before.png" alt=""/>
 </div>
