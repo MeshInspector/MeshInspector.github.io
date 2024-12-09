@@ -1,5 +1,10 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1DemoPlugin.html":[5,0,2,0,1,149],
+"classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[5,0,1,0,1,165,0],
+"classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[5,0,2,0,1,149,0],
+"classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[5,0,1,0,1,165,1],
+"classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[5,0,2,0,1,149,1],
 "classMR_1_1DentalId.html":[5,0,1,0,1,168],
 "classMR_1_1DentalId.html":[5,0,2,0,1,152],
 "classMR_1_1DentalId.html#a413835c53825417d3814e4320110741f":[5,0,1,0,1,168,1],
@@ -121,8 +126,8 @@ var NAVTREEINDEX19 =
 "classMR_1_1DistanceMeasurementObject.html#a030299d1892025402c3db3ce4d4c3adb":[5,0,2,0,1,163,20],
 "classMR_1_1DistanceMeasurementObject.html#a04d3bc9ed670217a53353f8603c6df76":[5,0,1,0,1,179,12],
 "classMR_1_1DistanceMeasurementObject.html#a04d3bc9ed670217a53353f8603c6df76":[5,0,2,0,1,163,12],
-"classMR_1_1DistanceMeasurementObject.html#a30e0967b694b072f61a810e93ccd63c6":[5,0,1,0,1,179,16],
-"classMR_1_1DistanceMeasurementObject.html#a30e0967b694b072f61a810e93ccd63c6":[5,0,2,0,1,163,16],
+"classMR_1_1DistanceMeasurementObject.html#a30e0967b694b072f61a810e93ccd63c6":[5,0,1,0,1,179,17],
+"classMR_1_1DistanceMeasurementObject.html#a30e0967b694b072f61a810e93ccd63c6":[5,0,2,0,1,163,17],
 "classMR_1_1DistanceMeasurementObject.html#a357d31af89f1f6cf9d893c1e17858d6c":[5,0,1,0,1,179,21],
 "classMR_1_1DistanceMeasurementObject.html#a357d31af89f1f6cf9d893c1e17858d6c":[5,0,2,0,1,163,21],
 "classMR_1_1DistanceMeasurementObject.html#a37ea36bb34908aae4365b021d51ec48e":[5,0,1,0,1,179,4],
@@ -163,6 +168,8 @@ var NAVTREEINDEX19 =
 "classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532dadc4d53aa0d117d8b189b36d161af4e96":[5,0,2,0,1,163,0,2],
 "classMR_1_1DistanceMeasurementObject.html#ab3242beb625340eefab997a3cd09f875":[5,0,1,0,1,179,14],
 "classMR_1_1DistanceMeasurementObject.html#ab3242beb625340eefab997a3cd09f875":[5,0,2,0,1,163,14],
+"classMR_1_1DistanceMeasurementObject.html#ab39801c71ba664fe01509d9a247c196d":[5,0,1,0,1,179,16],
+"classMR_1_1DistanceMeasurementObject.html#ab39801c71ba664fe01509d9a247c196d":[5,0,2,0,1,163,16],
 "classMR_1_1DistanceMeasurementObject.html#abc8e75e2c032185a15f15d542b20a9e0":[5,0,1,0,1,179,5],
 "classMR_1_1DistanceMeasurementObject.html#abc8e75e2c032185a15f15d542b20a9e0":[5,0,2,0,1,163,5],
 "classMR_1_1DistanceMeasurementObject.html#accc65af7cd4321f7cb1abf0ae192dc7e":[5,0,1,0,1,179,13],
@@ -171,8 +178,6 @@ var NAVTREEINDEX19 =
 "classMR_1_1DistanceMeasurementObject.html#ad0beb628b290bc6bb49cccb58a7c0a59":[5,0,2,0,1,163,19],
 "classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8":[5,0,1,0,1,179,25],
 "classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8":[5,0,2,0,1,163,25],
-"classMR_1_1DistanceMeasurementObject.html#af60815b514d53146bbdfcf7edd5efa72":[5,0,1,0,1,179,17],
-"classMR_1_1DistanceMeasurementObject.html#af60815b514d53146bbdfcf7edd5efa72":[5,0,2,0,1,163,17],
 "classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e":[5,0,1,0,1,179,8],
 "classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e":[5,0,2,0,1,163,8],
 "classMR_1_1DistanceMeasurementObject.html#afee53f116445c2f14e15413ad6913d6b":[5,0,1,0,1,179,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1FeatureObject.html#a2da9794b73ce4ddae136ccb8992cc690":[5,0,2,0,1,191,28],
 "classMR_1_1FeatureObject.html#a352152a4f6da671401876ef2e98e978d":[5,0,1,0,1,207,14],
 "classMR_1_1FeatureObject.html#a352152a4f6da671401876ef2e98e978d":[5,0,2,0,1,191,14],
-"classMR_1_1FeatureObject.html#a361a7ce85014e2c6232445612aa34c60":[5,0,1,0,1,207,47],
-"classMR_1_1FeatureObject.html#a361a7ce85014e2c6232445612aa34c60":[5,0,2,0,1,191,47],
-"classMR_1_1FeatureObject.html#a3866d143290905194a7c4e8da338c253":[5,0,1,0,1,207,17],
-"classMR_1_1FeatureObject.html#a3866d143290905194a7c4e8da338c253":[5,0,2,0,1,191,17],
-"classMR_1_1FeatureObject.html#a38e30bc9c390d73d9e302ef1e6f6238f":[5,0,1,0,1,207,6],
-"classMR_1_1FeatureObject.html#a38e30bc9c390d73d9e302ef1e6f6238f":[5,0,2,0,1,191,6]
+"classMR_1_1FeatureObject.html#a361a7ce85014e2c6232445612aa34c60":[5,0,1,0,1,207,47]
 };

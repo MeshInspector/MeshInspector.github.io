@@ -7,7 +7,7 @@ var searchData=
   ['xfaround_4',['xfAround',['../structMR_1_1AffineXf.html#a55cf315823a39d0647333ca27a0b8e98',1,'MR::AffineXf']]],
   ['xfbasedcache_5',['XfBasedCache',['../classMR_1_1XfBasedCache.html',1,'MR']]],
   ['xfbasedcache_3c_20box3f_20_3e_6',['XfBasedCache&lt; Box3f &gt;',['../classMR_1_1XfBasedCache.html',1,'MR']]],
-  ['xfchangedsignal_7',['XfChangedSignal',['../classMR_1_1Object.html#a10a84bc12112d8dd74450c7d360b5c06',1,'MR::Object']]],
+  ['xfchangedsignal_7',['XfChangedSignal',['../classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830',1,'MR::Object']]],
   ['xfhistupdated_5f_8',['xfHistUpdated_',['../classMR_1_1ImGuiMenu.html#a22b27718dfcaa0c7a6c683598c89b75d',1,'MR::ImGuiMenu']]],
   ['xfinv_9',['xfInv',['../classMR_1_1MeshOnVoxelsT.html#aec8835210f0d043dce515070cc2e4822',1,'MR::MeshOnVoxelsT::xfInv() const'],['../classMR_1_1MeshOnVoxelsT.html#a9cacae7cb8243a1dd62cd89603177527',1,'MR::MeshOnVoxelsT::xfInv(const Vector3f &amp;pt) const']]],
   ['xfsforallviewports_10',['xfsForAllViewports',['../classMR_1_1Object.html#a695ed8027820a6f982adf8a3e393503d',1,'MR::Object']]],

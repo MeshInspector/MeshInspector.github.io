@@ -1,5 +1,17 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1UI.html#a624bcecd8d08c2dc6fd574cd643c4b1a":[5,0,1,0,1,38,15],
+"namespaceMR_1_1UI.html#a63e011139a97a30e31e34d070e0f0e11":[5,0,1,0,1,38,69],
+"namespaceMR_1_1UI.html#a66dc61c68cc74e41c52ec9552380924e":[5,0,1,0,1,38,16],
+"namespaceMR_1_1UI.html#a6960ed24f5176be45d3dae21bae38d42":[5,0,1,0,1,38,43],
+"namespaceMR_1_1UI.html#a6d6f8139e24eb7840d9711fbe7e00a76":[5,0,1,0,1,38,44],
+"namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501":[5,0,1,0,1,38,19],
+"namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e":[5,0,1,0,1,38,26],
+"namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[5,0,1,0,1,38,76],
+"namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[5,0,1,0,1,38,73],
+"namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[5,0,1,0,1,38,41],
+"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[5,0,1,0,1,38,63],
+"namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[5,0,1,0,1,38,72],
 "namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[5,0,1,0,1,38,38],
 "namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[5,0,1,0,1,38,48],
 "namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9":[5,0,1,0,1,38,45],
@@ -237,17 +249,5 @@ var NAVTREEINDEX57 =
 "structMRFillHoleNicelyParams.html#a2a722efc00dac0877b5747157757e2ee":[5,0,2,0,15,1],
 "structMRFillHoleNicelyParams.html#a5d6022e8555ac06a276d3b6bd7fdc4f2":[5,0,2,0,15,3],
 "structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9":[5,0,2,0,15,5],
-"structMRFillHoleNicelyParams.html#a9537e7209de58668ea79cda8e514d5cf":[5,0,2,0,15,2],
-"structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0":[5,0,2,0,15,6],
-"structMRFillHoleNicelyParams.html#af7f128fdb0b8ea8d308549a2112b4a02":[5,0,2,0,15,0],
-"structMRFillHoleParams.html":[5,0,2,0,16],
-"structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[5,0,2,0,16,5],
-"structMRFillHoleParams.html#a9f8cc59be22f24be20c9418d76f985be":[5,0,2,0,16,1],
-"structMRFillHoleParams.html#ab744cac77f9f46540cf1d4ae89c098fe":[5,0,2,0,16,0],
-"structMRFillHoleParams.html#abd5e444fda2adcc30b7ff392177db86c":[5,0,2,0,16,4],
-"structMRFillHoleParams.html#ad6d00d886b5618cbcb8961f55f2e7aa5":[5,0,2,0,16,3],
-"structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286":[5,0,2,0,16,2],
-"structMRFindProjectionParameters.html":[5,0,2,0,17],
-"structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[5,0,2,0,17,2],
-"structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[5,0,2,0,17,1]
+"structMRFillHoleNicelyParams.html#a9537e7209de58668ea79cda8e514d5cf":[5,0,2,0,15,2]
 };

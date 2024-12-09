@@ -1,5 +1,10 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRPointsLoad_8h.html#a218d437d786bb998bd14971773658c32":[5,0,3,0,0,1,4,46,0],
+"MRMeshC_2MRPointsLoad_8h_source.html":[5,0,3,0,0,1,4,46],
+"MRMeshC_2MRPointsSave_8h.html":[5,0,3,0,0,1,4,47],
+"MRMeshC_2MRPointsSave_8h.html#aa7fcaa58d7e6459e02685bb17ce42b5d":[5,0,3,0,0,1,4,47,0],
+"MRMeshC_2MRPointsSave_8h_source.html":[5,0,3,0,0,1,4,47],
 "MRMeshC_2MRPrecisePredicates3_8h.html":[5,0,3,0,0,1,4,48],
 "MRMeshC_2MRPrecisePredicates3_8h.html#a06dcff41bb1079e5d51bca9bd73d4591":[5,0,3,0,0,1,4,48,1],
 "MRMeshC_2MRPrecisePredicates3_8h.html#a193f4f21c0c0413955625429e159aedd":[5,0,3,0,0,1,4,48,5],
@@ -176,8 +181,8 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRBox_8h.html":[5,0,3,0,0,1,3,30],
 "MRMesh_2MRBox_8h_source.html":[5,0,3,0,0,1,3,30],
 "MRMesh_2MRContoursCut_8h.html":[5,0,3,0,0,1,3,63],
-"MRMesh_2MRContoursCut_8h.html#a4123fa411b7305bb9172a398b8cc3c51":[5,0,3,0,0,1,3,63,11],
-"MRMesh_2MRContoursCut_8h.html#afb5aa7d969d789218ae67365158331cb":[5,0,3,0,0,1,3,63,10],
+"MRMesh_2MRContoursCut_8h.html#a4123fa411b7305bb9172a398b8cc3c51":[5,0,3,0,0,1,3,63,12],
+"MRMesh_2MRContoursCut_8h.html#afb5aa7d969d789218ae67365158331cb":[5,0,3,0,0,1,3,63,11],
 "MRMesh_2MRContoursCut_8h_source.html":[5,0,3,0,0,1,3,63],
 "MRMesh_2MRConvexHull_8h.html":[5,0,3,0,0,1,3,66],
 "MRMesh_2MRConvexHull_8h.html#a2b1ae8facc8f4e9e09073b91da0f9949":[5,0,3,0,0,1,3,66,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRId_8h.html#acfa3e3d061131b3efaefe97bea3c03ff":[5,0,3,0,0,1,3,125,6],
 "MRMesh_2MRId_8h.html#aebe0d51098b225270ab37ed57b329648":[5,0,3,0,0,1,3,125,13],
 "MRMesh_2MRId_8h_source.html":[5,0,3,0,0,1,3,125],
-"MRMesh_2MRIntersectionContour_8h.html":[5,0,3,0,0,1,3,133],
-"MRMesh_2MRIntersectionContour_8h.html#a2b8ccb3570748a421671351b81855a84":[5,0,3,0,0,1,3,133,1],
-"MRMesh_2MRIntersectionContour_8h.html#a33db1bd44d8ce26ccf47409cf59ace33":[5,0,3,0,0,1,3,133,3],
-"MRMesh_2MRIntersectionContour_8h.html#a4d956c62b0c8514d3779ce5076b6b9ec":[5,0,3,0,0,1,3,133,4],
-"MRMesh_2MRIntersectionContour_8h.html#a63f651410ecabb9d18ecefb9abf54753":[5,0,3,0,0,1,3,133,6],
-"MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[5,0,3,0,0,1,3,133,5]
+"MRMesh_2MRIntersectionContour_8h.html":[5,0,3,0,0,1,3,133]
 };

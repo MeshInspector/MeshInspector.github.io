@@ -27,12 +27,17 @@ var group__BooleanGroup =
       [ "originalMeshA", "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d", null ],
       [ "originalMeshB", "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5", null ]
     ] ],
+    [ "MR::NewEdgesMap", "structMR_1_1NewEdgesMap.html", [
+      [ "map", "structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa", null ],
+      [ "splitEdges", "structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa", null ]
+    ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
       [ "ForceFill", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33", [
         [ "None", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
         [ "Good", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
         [ "All", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
       ] ],
+      [ "new2oldEdgesMap", "structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
       [ "new2OldMap", "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9", null ],
       [ "None", "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
       [ "sortData", "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f", null ]
@@ -66,6 +71,7 @@ var group__BooleanGroup =
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MR::boolean", "group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9", null ],
+    [ "MR::convertMeshTriPointsIsoLineToMeshContour", "group__BooleanGroup.html#ga743be0ee0bc920c56b1f952de0cf304a", null ],
     [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#gab0f50227954ad79a6c446aea3c81c869", null ],
     [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga75a5ecaa0b71ec23ac7d519651848ee9", null ],
     [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],

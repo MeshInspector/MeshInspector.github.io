@@ -6,7 +6,7 @@ var searchData=
   ['mainwindowpos_5f_3',['mainWindowPos_',['../classMR_1_1ImGuiMenu.html#ad09d9b751f97c0d1e2ba46c849392a7c',1,'MR::ImGuiMenu']]],
   ['mainwindowsize_5f_4',['mainWindowSize_',['../classMR_1_1ImGuiMenu.html#a348b708be326f0e5f3a65a9be9f143b9',1,'MR::ImGuiMenu']]],
   ['makedegenerateband_5',['makeDegenerateBand',['../structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a',1,'MR::FillHoleParams::makeDegenerateBand'],['../structMRFillHoleParams.html#ab744cac77f9f46540cf1d4ae89c098fe',1,'MRFillHoleParams::makeDegenerateBand']]],
-  ['map_6',['map',['../structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0',1,'MR::PlanarTriangulation::IntersectionsMap']]],
+  ['map_6',['map',['../structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0',1,'MR::PlanarTriangulation::IntersectionsMap::map'],['../structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa',1,'MR::NewEdgesMap::map']]],
   ['map_5f_7',['map_',['../classMR_1_1ShortcutManager.html#aac7a5049ef27e6c01ce4352af5405141',1,'MR::ShortcutManager']]],
   ['mapper_8',['mapper',['../structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802',1,'MR::BooleanParameters::mapper'],['../structMRBooleanParameters.html#a63e215e887ec4e0d7a5eb665d5e0d25d',1,'MRBooleanParameters::mapper']]],
   ['mapping_9',['mapping',['../structMR_1_1MergeVolumePartSettings.html#a196c2f60b539ef9d242a51bcd49833d3',1,'MR::MergeVolumePartSettings']]],

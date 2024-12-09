@@ -18,6 +18,7 @@ var namespaceMR_1_1Features =
     [ "primitiveCone", "namespaceMR_1_1Features.html#a8d70d3465b40dfe88c3a3fb7210afee0", null ],
     [ "primitiveCylinder", "namespaceMR_1_1Features.html#a2d7396ae23e2d25cae0b7fc52fd0700e", null ],
     [ "primitiveFromObject", "namespaceMR_1_1Features.html#aeeb9d21a824a2dd94d682b54ab1862d2", null ],
+    [ "primitiveFromObjectWithWorldXf", "namespaceMR_1_1Features.html#ab8f22bea18d05dc887187f02a89188a6", null ],
     [ "primitiveToObject", "namespaceMR_1_1Features.html#a49fd9207c07aaf09dab5aa90ea742cbb", null ],
     [ "toPrimitive", "namespaceMR_1_1Features.html#aa06970e4aa6f9508425ab48758238239", null ],
     [ "toPrimitive", "namespaceMR_1_1Features.html#a8181371796e19bd3d28cc3300b6aa1bb", null ],
@@ -25,5 +26,9 @@ var namespaceMR_1_1Features =
     [ "toPrimitive", "namespaceMR_1_1Features.html#a9f2a352fa6ebdfaab6c6abbb609ebaf2", null ],
     [ "toPrimitive", "namespaceMR_1_1Features.html#a4b8fe8c172363793d31c8bbc29e9fdb2", null ],
     [ "toPrimitive", "namespaceMR_1_1Features.html#acbd075b92fa1a44ed1751506cecb9b3a", null ],
-    [ "toString", "namespaceMR_1_1Features.html#a6ef217cccdf314a4441a435f229650af", null ]
+    [ "toString", "namespaceMR_1_1Features.html#a6ef217cccdf314a4441a435f229650af", null ],
+    [ "transformPrimitive", "namespaceMR_1_1Features.html#ae44995ca46fc9d43471041459ff5b491", null ],
+    [ "transformPrimitive", "namespaceMR_1_1Features.html#a6bccfd9503d10be206552d1b68cafd59", null ],
+    [ "transformPrimitive", "namespaceMR_1_1Features.html#a786882f4d1d08a909e121d587762bc7d", null ],
+    [ "transformPrimitive", "namespaceMR_1_1Features.html#a65e870c3bf2b91e5fdaf05b63c27009a", null ]
 ];

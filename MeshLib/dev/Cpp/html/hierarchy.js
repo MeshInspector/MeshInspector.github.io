@@ -780,6 +780,7 @@ var hierarchy =
     [ "MR::PointsLoad::NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", null ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", null ],
     [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],
+    [ "MR::NewEdgesMap", "structMR_1_1NewEdgesMap.html", null ],
     [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", null ],
     [ "MR::NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", null ],
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor.html", null ],
@@ -1032,7 +1033,6 @@ var hierarchy =
     [ "MR::ShortcutKey", "structMR_1_1ShortcutKey.html", null ],
     [ "boost::signals2::signal", null, [
       [ "MR::Signal< void()>", "structMR_1_1Signal.html", null ],
-      [ "MR::Signal< void() >", "structMR_1_1Signal.html", null ],
       [ "MR::Signal< void(uint32_t mask)>", "structMR_1_1Signal.html", null ],
       [ "MR::Signal< T >", "structMR_1_1Signal.html", null ]
     ] ],

@@ -535,6 +535,7 @@ var annotated_dup =
       [ "MultiwayICPSamplingParameters", "structMR_1_1MultiwayICPSamplingParameters.html", "structMR_1_1MultiwayICPSamplingParameters" ],
       [ "MutexOwner", "structMR_1_1MutexOwner.html", "structMR_1_1MutexOwner" ],
       [ "NameTagClickListener", "structMR_1_1NameTagClickListener.html", "structMR_1_1NameTagClickListener" ],
+      [ "NewEdgesMap", "structMR_1_1NewEdgesMap.html", "structMR_1_1NewEdgesMap" ],
       [ "NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", "classMR_1_1NextEdgeSameLeft" ],
       [ "NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", "classMR_1_1NextEdgeSameOrigin" ],
       [ "NoCtor", "structMR_1_1NoCtor.html", null ],

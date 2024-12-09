@@ -316,7 +316,7 @@ var hierarchy =
     [ "mrmeshpy.func_Processing_from_MeshProjectionResult_Ball", "classmrmeshpy_1_1func__Processing__from__MeshProjectionResult__Ball.html", null ],
     [ "mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float", "classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html", null ],
     [ "mrmeshpy.func_std_variant_float_Vector3_float_from_FeatureObject_const_ViewportId", "classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ViewportId.html", null ],
-    [ "mrmeshpy.func_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html", null ],
+    [ "mrmeshpy.func_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane_from_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html", null ],
     [ "mrmeshpy.func_TaggedBitSet_FaceTag_const_from_unsigned_long", "classmrmeshpy_1_1func__TaggedBitSet__FaceTag__const__from__unsigned__long.html", null ],
     [ "mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_std_vector_float_std_string_from_PointCloud_PointsToDistanceVolumeParams", "classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__std__vector__float__std__string__from__4a2b23f7bd1b1b59fff0e7c22f222cb6.html", null ],
     [ "mrmeshpy.func_unsigned_char_from_Vector3_int", "classmrmeshpy_1_1func__unsigned__char__from__Vector3__int.html", null ],
@@ -585,6 +585,7 @@ var hierarchy =
     [ "mrmeshpy.MeshSave.NamedXfMesh", "classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html", null ],
     [ "mrmeshpy.NeighborDir", "classmrmeshpy_1_1NeighborDir.html", null ],
     [ "mrmeshpy.NestedComponenetsMode", "classmrmeshpy_1_1NestedComponenetsMode.html", null ],
+    [ "mrmeshpy.NewEdgesMap", "classmrmeshpy_1_1NewEdgesMap.html", null ],
     [ "mrmeshpy.NextEdgeSameLeft", "classmrmeshpy_1_1NextEdgeSameLeft.html", [
       [ "mrmeshpy.RingIterator_NextEdgeSameLeft", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html", null ]
     ] ],
@@ -709,6 +710,7 @@ var hierarchy =
     [ "mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__EdgeTag.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag.html", null ],
+    [ "mrmeshpy.phmap_flat_hash_map_Id_UndirectedEdgeTag_int", "classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__int.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_VertTag_float", "classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows", "classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag.html", null ],
