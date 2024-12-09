@@ -176,7 +176,7 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRBox_8h.html":[5,0,3,0,0,1,3,30],
 "MRMesh_2MRBox_8h_source.html":[5,0,3,0,0,1,3,30],
 "MRMesh_2MRContoursCut_8h.html":[5,0,3,0,0,1,3,63],
-"MRMesh_2MRContoursCut_8h.html#a5b75641f945b0fb70278c9b7e0c9c418":[5,0,3,0,0,1,3,63,11],
+"MRMesh_2MRContoursCut_8h.html#a4123fa411b7305bb9172a398b8cc3c51":[5,0,3,0,0,1,3,63,11],
 "MRMesh_2MRContoursCut_8h.html#afb5aa7d969d789218ae67365158331cb":[5,0,3,0,0,1,3,63,10],
 "MRMesh_2MRContoursCut_8h_source.html":[5,0,3,0,0,1,3,63],
 "MRMesh_2MRConvexHull_8h.html":[5,0,3,0,0,1,3,66],

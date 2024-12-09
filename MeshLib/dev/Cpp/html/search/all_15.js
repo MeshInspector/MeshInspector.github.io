@@ -881,7 +881,7 @@ var searchData=
   ['subdivide_878',['Subdivide',['../group__MeshSubdivideGroup.html',1,'Mesh Subdivide'],['../group__PolylineSubdivideGroup.html',1,'Polyline Subdivide']]],
   ['subdivideborder_879',['subdivideBorder',['../structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc',1,'MR::SubdivideSettings']]],
   ['subdivideedgelen_880',['subdivideEdgeLen',['../structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224',1,'MR::SelfIntersections::Settings::subdivideEdgeLen'],['../structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640',1,'MRFixSelfIntersectionsSettings::subdivideEdgeLen']]],
-  ['subdividelonecontours_881',['subdivideLoneContours',['../namespaceMR.html#a5b75641f945b0fb70278c9b7e0c9c418',1,'MR']]],
+  ['subdividelonecontours_881',['subdivideLoneContours',['../namespaceMR.html#a4123fa411b7305bb9172a398b8cc3c51',1,'MR']]],
   ['subdividemesh_882',['subdivideMesh',['../group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7',1,'MR']]],
   ['subdivideparts_883',['subdivideParts',['../structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4',1,'MR::DecimateSettings::subdivideParts'],['../structMRDecimateSettings.html#af30ab932574161654a545582168d7f23',1,'MRDecimateSettings::subdivideParts']]],
   ['subdividepolyline_884',['subdividePolyline',['../group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58',1,'MR::subdividePolyline(Polyline2 &amp;polyline, const PolylineSubdivideSettings &amp;settings={})'],['../group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9',1,'MR::subdividePolyline(Polyline3 &amp;polyline, const PolylineSubdivideSettings &amp;settings={})']]],

@@ -41,7 +41,7 @@ var searchData=
   ['getangle_38',['getAngle',['../classMR_1_1ConeObject.html#aee0cce82eb8d15e883bf0d50eaecfd27',1,'MR::ConeObject']]],
   ['getappname_39',['getAppName',['../classMR_1_1Config.html#a764b20b21302265b3e6dd60b2efdf035',1,'MR::Config']]],
   ['getas_40',['getAs',['../structMR_1_1UI_1_1TestEngine_1_1Entry.html#af990d8e37018eb62dd57a502b644717c',1,'MR::UI::TestEngine::Entry::getAs(std::string_view selfName={})'],['../structMR_1_1UI_1_1TestEngine_1_1Entry.html#ab746b066f53a20f78e0fb97a552fb166',1,'MR::UI::TestEngine::Entry::getAs(std::string_view selfName={}) const']]],
-  ['getat_41',['getAt',['../namespaceMR.html#a6210dabfb050a70351fc28943644e0ec',1,'MR::getAt(const Buffer&lt; T, I &gt; &amp;bmap, I key)'],['../namespaceMR.html#acc5ecd2826659aa256d0bb1b168cc3bc',1,'MR::getAt(const Vector&lt; T, I &gt; &amp;a, I id, T def={})']]],
+  ['getat_41',['getAt',['../namespaceMR.html#a43427e0d96ff10e6af29370a3b0d7c17',1,'MR::getAt(const Buffer&lt; T, I &gt; &amp;bmap, I key, T def={})'],['../namespaceMR.html#acc5ecd2826659aa256d0bb1b168cc3bc',1,'MR::getAt(const Vector&lt; T, I &gt; &amp;a, I id, T def={})']]],
   ['getautocloseblockingplugins_42',['getAutoCloseBlockingPlugins',['../classMR_1_1RibbonMenu.html#a4cce1421ecc6e05c9d0f5dc3d5a8c74f',1,'MR::RibbonMenu']]],
   ['getautohover_43',['getAutoHover',['../classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b',1,'MR::SurfacePointWidget']]],
   ['getavailablelinewidthrange_44',['GetAvailableLineWidthRange',['../namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c',1,'MR']]],
