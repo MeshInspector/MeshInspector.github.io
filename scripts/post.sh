@@ -9,6 +9,8 @@ rm html_header.html html_footer.html html_stylesheet.css
 [[ -f DoxyfileCpp.bak ]] && mv DoxyfileCpp.bak DoxyfileCpp
 [[ -f DoxyfilePy.bak ]] && mv DoxyfilePy.bak DoxyfilePy
 
+rm -f MeshLib/MeshLibCpp.tag MeshLib/MeshLibPy.tag
+
 # Define default values if arguments are not provided
 TARGET_DIR="${1:-MeshLib}"
 URL_PREFIX="${2:-https://meshlib.io/documentation}"
