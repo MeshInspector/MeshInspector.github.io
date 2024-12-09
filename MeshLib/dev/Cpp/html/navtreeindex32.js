@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1PointObject.html#aed6f47b23720a4f19897185093cd86d4":[5,0,0,11,0,5,13],
+"classMR_1_1PointObject.html#aeee86049f51bee69c243963b0b63f7c4":[5,0,0,11,0,5,14],
 "classMR_1_1PointObject.html#af0d333f53e5214cef1fed176a67585a3":[5,0,0,11,0,5,18],
 "classMR_1_1PointObject.html#afdd7f6159c74701c90843b6632e7e75f":[5,0,0,11,0,5,17],
 "classMR_1_1PointToPlaneAligningTransform.html":[5,0,0,0,8,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1RangeProcessor.html#a905bd220d552b994aaa85fd00c4de321":[5,0,1,0,1,499,3],
 "classMR_1_1RangeProcessor.html#a905bd220d552b994aaa85fd00c4de321":[5,0,2,0,1,483,3],
 "classMR_1_1RangeProcessor.html#a992a8a190daef18cd5ee2c4fe6ecb004":[5,0,1,0,1,499,5],
-"classMR_1_1RangeProcessor.html#a992a8a190daef18cd5ee2c4fe6ecb004":[5,0,2,0,1,483,5],
-"classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb":[5,0,1,0,1,499,4],
-"classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb":[5,0,2,0,1,483,4]
+"classMR_1_1RangeProcessor.html#a992a8a190daef18cd5ee2c4fe6ecb004":[5,0,2,0,1,483,5]
 };

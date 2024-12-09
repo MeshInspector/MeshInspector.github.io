@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['packageoverview_2edox_0',['PackageOverview.dox',['../PackageOverview_8dox.html',1,'']]],
-  ['plotly_2edox_1',['Plotly.dox',['../Plotly_8dox.html',1,'']]],
-  ['pythonsetupguide_2edox_2',['PythonSetupGuide.dox',['../PythonSetupGuide_8dox.html',1,'']]]
+  ['noisedenoiseexample_2edox_0',['NoiseDenoiseExample.dox',['../NoiseDenoiseExample_8dox.html',1,'']]],
+  ['numpy_2edox_1',['Numpy.dox',['../Numpy_8dox.html',1,'']]],
+  ['numpytriangulation_2edox_2',['NumpyTriangulation.dox',['../NumpyTriangulation_8dox.html',1,'']]]
 ];

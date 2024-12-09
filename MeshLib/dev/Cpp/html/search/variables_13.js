@@ -97,5 +97,6 @@ var searchData=
   ['tsize_94',['tsize',['../structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515',1,'MR::BMap']]],
   ['twinmap_95',['twinMap',['../structMR_1_1DecimateSettings.html#a5c38997b3f0df2d9e534bf87f530cdd7',1,'MR::DecimateSettings']]],
   ['type_96',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type'],['../structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4',1,'MR::GlTexture::Settings::type'],['../structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490',1,'MR::RibbonNotification::type'],['../structMR_1_1GCommand.html#aaf3da1692be265b849e66df425724a1b',1,'MR::GCommand::type']]],
-  ['type_5f_97',['type_',['../classMR_1_1GlTexture.html#a3b04ff9e583e09691f0a425bc68ea939',1,'MR::GlTexture::type_'],['../classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924',1,'MR::RibbonMenuItem::type_']]]
+  ['type_5f_97',['type_',['../classMR_1_1GlTexture.html#a3b04ff9e583e09691f0a425bc68ea939',1,'MR::GlTexture::type_'],['../classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924',1,'MR::RibbonMenuItem::type_']]],
+  ['typeradius_98',['typeRadius',['../structMR_1_1TransformControls_1_1VisualParams.html#a5af2b6534a1484c33990c1f311480f1b',1,'MR::TransformControls::VisualParams']]]
 ];

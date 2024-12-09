@@ -16,6 +16,7 @@ var classMR_1_1ITransformControls =
     [ "stopModify_", "classMR_1_1ITransformControls.html#a044830cadc17d1698a87fcdd9a6c699e", null ],
     [ "update", "classMR_1_1ITransformControls.html#a786c7692ef96e6c97a0da7ae332b5597", null ],
     [ "updateRotation", "classMR_1_1ITransformControls.html#a28b44509443b10410b017d0621bc90ae", null ],
+    [ "updateSizeInPixel", "classMR_1_1ITransformControls.html#ad18cade1f93573f1300cbdd29ea07518", null ],
     [ "updateTranslation", "classMR_1_1ITransformControls.html#a7a3eb7a0414b0af2e09d8be03d83ff6d", null ],
     [ "updateVisualTransformMode", "classMR_1_1ITransformControls.html#a62f6fd6ec96955e73fecfa08474af010", null ],
     [ "updateVisualTransformMode_", "classMR_1_1ITransformControls.html#a0d120f469e40e2447167300bc95c9d91", null ]

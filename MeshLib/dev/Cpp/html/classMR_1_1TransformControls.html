@@ -189,6 +189,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae1893daa3862766a61b29d129d73db45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf863f472ade960e2930c519a9576d1c" id="r_aaf863f472ade960e2930c519a9576d1c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf863f472ade960e2930c519a9576d1c">setWidth</a> (float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>)</td></tr>
 <tr class="separator:aaf863f472ade960e2930c519a9576d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25316c0462cb339fa92cbb855ee773d4" id="r_a25316c0462cb339fa92cbb855ee773d4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25316c0462cb339fa92cbb855ee773d4">setTypeRadius</a> (<a class="el" href="structMR_1_1TransformControls_1_1VisualParams.html#aeb6f300c32a5a0f979cd2725367c89bc">VisualParams::TypeRadius</a> type)</td></tr>
+<tr class="separator:a25316c0462cb339fa92cbb855ee773d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d26f5b660354ee7807cd3201bdc05a2" id="r_a9d26f5b660354ee7807cd3201bdc05a2"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d26f5b660354ee7807cd3201bdc05a2">updateSizeInPixel</a> () override</td></tr>
+<tr class="separator:a9d26f5b660354ee7807cd3201bdc05a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc66a1e46f1d46262c7d408d0003654d" id="r_acc66a1e46f1d46262c7d408d0003654d"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc66a1e46f1d46262c7d408d0003654d">updateTranslation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const Vector3f &amp;startMove, const Vector3f &amp;endMove) override</td></tr>
 <tr class="separator:acc66a1e46f1d46262c7d408d0003654d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabdd9554a91963f82be2b0f4f3935e6a" id="r_aabdd9554a91963f82be2b0f4f3935e6a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabdd9554a91963f82be2b0f4f3935e6a">updateRotation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const AffineXf3f &amp;xf, float startAngle, float endAngle) override</td></tr>
@@ -371,6 +375,23 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a25316c0462cb339fa92cbb855ee773d4" name="a25316c0462cb339fa92cbb855ee773d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25316c0462cb339fa92cbb855ee773d4">&#9670;&#160;</a></span>setTypeRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::TransformControls::setTypeRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TransformControls_1_1VisualParams.html#aeb6f300c32a5a0f979cd2725367c89bc">VisualParams::TypeRadius</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3a7df5875b5301404b9e5d70f327b3ae" name="a3a7df5875b5301404b9e5d70f327b3ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a7df5875b5301404b9e5d70f327b3ae">&#9670;&#160;</a></span>setVisualParams()</h2>
 
@@ -495,6 +516,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classMR_1_1ITransformControls.html#a28b44509443b10410b017d0621bc90ae">MR::ITransformControls</a>.</p>
+
+</div>
+</div>
+<a id="a9d26f5b660354ee7807cd3201bdc05a2" name="a9d26f5b660354ee7807cd3201bdc05a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d26f5b660354ee7807cd3201bdc05a2">&#9670;&#160;</a></span>updateSizeInPixel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::TransformControls::updateSizeInPixel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1ITransformControls.html#ad18cade1f93573f1300cbdd29ea07518">MR::ITransformControls</a>.</p>
 
 </div>
 </div>
