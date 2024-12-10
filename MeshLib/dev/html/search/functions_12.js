@@ -407,7 +407,7 @@ var searchData=
   ['setupextendedlibraries_404',['setupExtendedLibraries',['../classMR_1_1ViewerSetup.html#a189d84a7bbccaaa4f0936339d4e30b5e',1,'MR::ViewerSetup']]],
   ['setupfromfile_405',['setupFromFile',['../classMR_1_1ColorTheme.html#a31bee87bf2d160eb687a1d047770e390',1,'MR::ColorTheme']]],
   ['setupfromjson_406',['setupFromJson',['../classMR_1_1ColorTheme.html#a19709b0e383ad59e4f3913cfd8035d09',1,'MR::ColorTheme']]],
-  ['setupitemsgroup_5f_407',['setupItemsGroup_',['../classMR_1_1RibbonMenu.html#aa3ac32b8dcb22a9dca4b5446599fd2a1',1,'MR::RibbonMenu']]],
+  ['setupitemsgroup_5f_407',['setupItemsGroup_',['../classMR_1_1RibbonMenu.html#aabaa3a2750696ccfb5e18682b7c7638b',1,'MR::RibbonMenu']]],
   ['setupitemsgroupconfig_5f_408',['setupItemsGroupConfig_',['../classMR_1_1RibbonMenu.html#a3e0bbf51d01df0169ab4de593b8f3e95',1,'MR::RibbonMenu']]],
   ['setuploadprogresscallback_409',['setUploadProgressCallback',['../classMR_1_1WebRequest.html#a911c13b636af362593bd7afc91cefc85',1,'MR::WebRequest']]],
   ['setuploggerbydefault_410',['setupLoggerByDefault',['../namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f',1,'MR']]],

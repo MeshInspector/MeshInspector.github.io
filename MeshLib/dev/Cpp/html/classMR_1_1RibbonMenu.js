@@ -64,7 +64,7 @@ var classMR_1_1RibbonMenu =
     [ "setQuickAccessListVersion", "classMR_1_1RibbonMenu.html#a97c470b0974a29e162afe5b7393113e3", null ],
     [ "setSceneSize", "classMR_1_1RibbonMenu.html#afefdd706402e7ad5daf3433c54ae87dc", null ],
     [ "setTopPanelMaxOpenedTimer", "classMR_1_1RibbonMenu.html#a0b8580dee2b479f1b332f441905c330d", null ],
-    [ "setupItemsGroup_", "classMR_1_1RibbonMenu.html#aa3ac32b8dcb22a9dca4b5446599fd2a1", null ],
+    [ "setupItemsGroup_", "classMR_1_1RibbonMenu.html#aabaa3a2750696ccfb5e18682b7c7638b", null ],
     [ "setupItemsGroupConfig_", "classMR_1_1RibbonMenu.html#a3e0bbf51d01df0169ab4de593b8f3e95", null ],
     [ "setupShortcuts_", "classMR_1_1RibbonMenu.html#a1d80aef71da13b99c1360a4180110f25", null ],
     [ "showActiveList", "classMR_1_1RibbonMenu.html#a0fb26215796f94ee53da988ac6bf07e7", null ],
