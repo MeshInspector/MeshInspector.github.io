@@ -50,6 +50,7 @@ if [ -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
     for MODULE in ${MODULES[*]}
     do
         rm -rf ${TARGET_DIR}/${MODULE}/html
+        mkdir -p ${TARGET_DIR}/${MODULE}
         ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE $URL
         # force Doxygen to use the custom HTML header
         sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
@@ -57,3 +58,5 @@ if [ -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
         sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}/${MODULE}|" -i Doxyfile${MODULE}
     done
 fi
+
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibCpp.tag=../../${TARGET_DIR}/Cpp/html MeshLib/MeshLibPy.tag=../../${TARGET_DIR}/Py/html|" -i DoxyfileMain
