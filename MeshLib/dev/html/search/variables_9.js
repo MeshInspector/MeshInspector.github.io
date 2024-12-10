@@ -53,7 +53,7 @@ var searchData=
   ['isolines_50',['isolines',['../structMR_1_1ToolPathParams.html#a13a70c0130eab38aeaf063f1f6d276d7',1,'MR::ToolPathParams']]],
   ['isosurfacechangedsignal_51',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818',1,'MR::ObjectVoxels']]],
   ['isothera_52',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
-  ['isovalue_53',['isoValue',['../structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870',1,'MR::GridToMeshSettings']]],
+  ['isovalue_53',['isoValue',['../structMRGridToMeshSettings.html#ab19c87781b493e404967e9daca3e4593',1,'MRGridToMeshSettings::isoValue'],['../structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870',1,'MR::GridToMeshSettings::isoValue']]],
   ['issceneconstructed_54',['isSceneConstructed',['../structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe',1,'MR::SceneLoad::SceneLoadResult']]],
   ['issharedptr_55',['isSharedPtr',['../structMR_1_1Meta_1_1SharedPtrTraits.html#a7f680c0ebb2fa786b5db17323abd010b',1,'MR::Meta::SharedPtrTraits']]],
   ['isspherical_56',['isSpherical',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a1b1c56e527cabfa9b554697eaf7b6e8d',1,'MR::RenderDimensions::RadiusParams']]],

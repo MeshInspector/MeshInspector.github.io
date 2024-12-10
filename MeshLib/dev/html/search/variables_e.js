@@ -82,7 +82,7 @@ var searchData=
   ['outvertexreached_79',['outVertexReached',['../structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f',1,'MR::ComputeSteepestDescentPathSettings']]],
   ['outvmap_80',['outVmap',['../structMR_1_1DividePointCloudOptionalOutput.html#a8f57623cee5e4db20049f8d9d6dff9cf',1,'MR::DividePointCloudOptionalOutput::outVmap'],['../structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461',1,'MR::DividePolylineParameters::outVmap']]],
   ['outvoxelperfacemap_81',['outVoxelPerFaceMap',['../structMR_1_1MarchingCubesParams.html#af89d2fd3445045a9e4e4387b69f8d786',1,'MR::MarchingCubesParams']]],
-  ['outxf_82',['outXf',['../structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d',1,'MR::PointsLoadSettings::outXf'],['../structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c',1,'MR::MeshToVolumeParams::outXf']]],
+  ['outxf_82',['outXf',['../structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d',1,'MR::PointsLoadSettings::outXf'],['../structMRMeshToVolumeSettings.html#ab06378bf65d78b7323ceb4ace401d1f6',1,'MRMeshToVolumeSettings::outXf'],['../structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c',1,'MR::MeshToVolumeParams::outXf']]],
   ['overflowto_83',['overflowTo',['../structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619',1,'MR::WatershedGraph::OverflowPoint']]],
   ['overflowvia_84',['overflowVia',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#ad87c8f736d8d1dea1c3085b690ddbab3',1,'MR::WatershedGraph::BasinInfo']]]
 ];

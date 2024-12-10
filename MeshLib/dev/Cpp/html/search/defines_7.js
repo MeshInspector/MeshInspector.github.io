@@ -87,6 +87,6 @@ var searchData=
   ['mrmeshnumpy_5fparent_5fmodule_5fname_84',['MRMESHNUMPY_PARENT_MODULE_NAME',['../MRPythonNumpy_8h.html#ab135bb78166c0f59c9fe34366ab1786d',1,'MRPythonNumpy.h']]],
   ['mrsymbolmesh_5fapi_85',['MRSYMBOLMESH_API',['../MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b',1,'MRSymbolMeshFwd.h']]],
   ['mrsymbolmesh_5fclass_86',['MRSYMBOLMESH_CLASS',['../MRSymbolMeshFwd_8h.html#acd35d2ca8d20c30530e2d38a9295f009',1,'MRSymbolMeshFwd.h']]],
-  ['mrvoxels_5fapi_87',['MRVOXELS_API',['../MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad',1,'MRVoxelsFwd.h']]],
-  ['mrvoxels_5fclass_88',['MRVOXELS_CLASS',['../MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242',1,'MRVoxelsFwd.h']]]
+  ['mrvoxels_5fapi_87',['MRVOXELS_API',['../MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad',1,'MRVoxelsFwd.h']]],
+  ['mrvoxels_5fclass_88',['MRVOXELS_CLASS',['../MRVoxels_2MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242',1,'MRVoxelsFwd.h']]]
 ];

@@ -1012,6 +1012,7 @@ var namespaceMR =
     [ "VolumePartBuilder", "namespaceMR.html#ae2ab4a032a665ccb4ca24d60577679ef", null ],
     [ "VoxelPointPositioner", "namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2", null ],
     [ "VoxelsMetric", "group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce", null ],
+    [ "VoxelValueGetter", "namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f", null ],
     [ "WholeEdgeHashMap", "namespaceMR.html#a7a097c2851c9c54eef96a938f84750a4", null ],
     [ "AlignType", "namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470a", [
       [ "Left", "namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf", null ],
@@ -2307,7 +2308,7 @@ var namespaceMR =
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a8d5c0ea8f3607fd83a13da0934587710", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#af2d502ca1f977281be36281d4e1c6de6", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a0f4247d5407fb2c5b11f4c4268911362", null ],
-    [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a33064bf04ac0127d4ccef89283060739", null ],
+    [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a84544e669b3c9d797ad38f0ab8a9ee97", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a41a112b3a69975c9108ef8cc1ab480b2", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#ab0386e7028c5c28dc05374fef2b0717a", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a25b8519c51156d97c8e543749b003fb1", null ],

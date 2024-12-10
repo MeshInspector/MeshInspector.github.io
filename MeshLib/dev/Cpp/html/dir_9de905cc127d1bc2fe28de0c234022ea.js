@@ -54,6 +54,10 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRString.h", "MRMeshC_2MRString_8h.html", "MRMeshC_2MRString_8h" ],
     [ "MRTorus.h", "MRMeshC_2MRTorus_8h.html", "MRMeshC_2MRTorus_8h" ],
     [ "MRTriPoint.h", "MRMeshC_2MRTriPoint_8h.html", "MRMeshC_2MRTriPoint_8h" ],
+    [ "MRVDBConversions.h", "MRMeshC_2MRVDBConversions_8h.html", "MRMeshC_2MRVDBConversions_8h" ],
     [ "MRVector.h", "MRMeshC_2MRVector_8h.html", "MRMeshC_2MRVector_8h" ],
-    [ "MRVector3.h", "MRMeshC_2MRVector3_8h.html", "MRMeshC_2MRVector3_8h" ]
+    [ "MRVector3.h", "MRMeshC_2MRVector3_8h.html", "MRMeshC_2MRVector3_8h" ],
+    [ "MRVoxelsFwd.h", "MRMeshC_2MRVoxelsFwd_8h.html", "MRMeshC_2MRVoxelsFwd_8h" ],
+    [ "MRVoxelsLoad.h", "MRMeshC_2MRVoxelsLoad_8h.html", "MRMeshC_2MRVoxelsLoad_8h" ],
+    [ "MRVoxelsSave.h", "MRMeshC_2MRVoxelsSave_8h.html", "MRMeshC_2MRVoxelsSave_8h" ]
 ];

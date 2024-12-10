@@ -26,5 +26,6 @@ var searchData=
   ['voxelsloader_23',['VoxelsLoader',['../../../MeshLib/dev/Cpp/html/namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96',1,'MR::VoxelsLoad']]],
   ['voxelsmetric_24',['VoxelsMetric',['../../../MeshLib/dev/Cpp/html/group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR::VoxelsMetric'],['../../../MeshLib/dev/Cpp/html/group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR::VoxelsMetric']]],
   ['voxelssaver_25',['VoxelsSaver',['../../../MeshLib/dev/Cpp/html/namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176',1,'MR::VoxelsSave']]],
-  ['vtraits_26',['VTraits',['../../../MeshLib/dev/Cpp/html/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box']]]
+  ['voxelvaluegetter_26',['VoxelValueGetter',['../../../MeshLib/dev/Cpp/html/namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f',1,'MR']]],
+  ['vtraits_27',['VTraits',['../../../MeshLib/dev/Cpp/html/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box']]]
 ];

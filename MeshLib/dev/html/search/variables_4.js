@@ -1,7 +1,7 @@
 var searchData=
 [
   ['d_0',['d',['../structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b',1,'MR::Line::d'],['../structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04',1,'MR::Plane3::d'],['../structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303',1,'MR::Quaternion::d']]],
-  ['data_1',['data',['../structvector__wrapper__base.html#a16068ea8159df175c3e6627bd753d3a9',1,'vector_wrapper_base::data'],['../structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e',1,'MR::VoxelsVolume::data']]],
+  ['data_1',['data',['../structvector__wrapper__base.html#a16068ea8159df175c3e6627bd753d3a9',1,'vector_wrapper_base::data'],['../structMRVdbVolume.html#a848a2c12538a61e630304e97a1392252',1,'MRVdbVolume::data'],['../structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e',1,'MR::VoxelsVolume::data']]],
   ['decimate_2',['decimate',['../structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453',1,'MR::RebuildMeshSettings']]],
   ['decimatebetweenparts_3',['decimateBetweenParts',['../structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe',1,'MR::DecimateSettings::decimateBetweenParts'],['../structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628',1,'MRDecimateSettings::decimateBetweenParts']]],
   ['decoration_4',['decoration',['../structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9',1,'MR::ImGuiMeasurementIndicators::LineCap']]],
@@ -31,7 +31,7 @@ var searchData=
   ['diffusecolor_28',['diffuseColor',['../group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188',1,'MR::MeshLoad::NamedMesh']]],
   ['dim_29',['dim',['../structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa',1,'MR::GridSettings']]],
   ['dimensions_30',['dimensions',['../structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e',1,'MR::OriginAndDimensions::dimensions'],['../structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2',1,'MR::DistanceVolumeParams::dimensions'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters::dimensions']]],
-  ['dims_31',['dims',['../structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701',1,'MR::VoxelsVolume']]],
+  ['dims_31',['dims',['../structMRVdbVolume.html#adf293267a1855743bf3dcdae13763c5f',1,'MRVdbVolume::dims'],['../structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701',1,'MR::VoxelsVolume::dims']]],
   ['dims_5f_32',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_'],['../group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_']]],
   ['dipole_33',['Dipole',['../namespaceMR.html#ad199d60177879413c7ab7c1b24e30a54',1,'MR']]],
   ['dir_34',['dir',['../structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c',1,'MR::Directory::dir'],['../structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae',1,'MR::DirectoryRecursive::dir'],['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4',1,'MR::Features::Primitives::ConeSegment::dir'],['../structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a',1,'MR::SkyPatch::dir'],['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#aafca990d1d688a3f2f9ce8ba0a67a3c5',1,'MR::VoxelsLoad::LoadingTiffSettings::dir']]],
