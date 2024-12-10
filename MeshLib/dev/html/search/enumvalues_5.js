@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['insidea_0',['InsideA',['../../../MeshLib/Cpp/html/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29',1,'MR::InsideA'],['../../../MeshLib/Cpp/html/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29',1,'MR::InsideA']]],
-  ['insideb_1',['InsideB',['../../../MeshLib/Cpp/html/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d',1,'MR::InsideB'],['../../../MeshLib/Cpp/html/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d',1,'MR::InsideB']]],
-  ['internalerror_2',['InternalError',['../../../MeshLib/Cpp/html/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5',1,'MR::InternalError'],['../../../MeshLib/Cpp/html/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5',1,'MR::InternalError']]],
-  ['intersection_3',['Intersection',['../../../MeshLib/Cpp/html/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24',1,'MR::Intersection'],['../../../MeshLib/Cpp/html/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24',1,'MR::Intersection']]],
-  ['invalid_4',['Invalid',['../../../MeshLib/Cpp/html/group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid'],['../../../MeshLib/Cpp/html/group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid'],['../../../MeshLib/Cpp/html/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid'],['../../../MeshLib/Cpp/html/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid']]]
+  ['edge_0',['Edge',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a2f7402dedcbccbb66d152940301cab25',1,'MR::OneMeshIntersection']]],
+  ['edgeceneters_1',['EdgeCeneters',['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5',1,'MR::SurfacePointWidget']]],
+  ['edges_2',['Edges',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7',1,'MR::SceneColors::Edges'],['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9',1,'MR::SurfacePointWidget::Edges']]],
+  ['edit_3',['Edit',['../namespaceMR.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35',1,'MR']]],
+  ['end_4',['End',['../classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a87557f11575c0ad78e4e28abedc13b6e',1,'MR::TouchpadController::Handler']]],
+  ['equal_5',['Equal',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93af5f286e73bda105e538310b3190f75c5',1,'MR']]],
+  ['error_6',['Error',['../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd',1,'MR']]],
+  ['exponential_7',['exponential',['../namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1aab3b1598e0b02155373807025b067f9a',1,'MR']]]
 ];

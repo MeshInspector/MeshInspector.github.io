@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quarterbit_0',['QuarterBit',['../../../MeshLib/Cpp/html/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79',1,'MR::QuarterBit'],['../../../MeshLib/Cpp/html/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79',1,'MR::QuarterBit']]]
+  ['quarterbit_0',['QuarterBit',['../../../MeshLib/dev/Cpp/html/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79',1,'MR::QuarterBit'],['../../../MeshLib/dev/Cpp/html/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79',1,'MR::QuarterBit']]]
 ];

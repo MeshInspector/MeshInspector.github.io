@@ -147,76 +147,80 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><p>Example of mesh ICP (finding transformation to match objects)</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRICP.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="MeshBoolean_8dox_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
+<div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load meshes</span></div>
-<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html">MR::Mesh</a> meshFloating = *<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshA.stl&quot;</span> );</div>
-<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html">MR::Mesh</a> meshFixed = *<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshB.stl&quot;</span> );</div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> meshFloating = *<a class="code hl_function" href="group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshA.stl&quot;</span> );</div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> meshFixed = *<a class="code hl_function" href="group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshB.stl&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">    <span class="keywordtype">float</span> diagonal = meshFixed.<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a">getBoundingBox</a>().diagonal();</div>
+<div class="line">    <span class="keywordtype">float</span> diagonal = meshFixed.<a class="code hl_function" href="structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a">getBoundingBox</a>().diagonal();</div>
 <div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
-<div class="line">    <a class="code hl_structRef" href="../../MeshLib/Cpp/html/structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
-<div class="line">    icpParams.<a class="code hl_variableRef" href="../../MeshLib/Cpp/html/structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">distThresholdSq</a> = <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a>( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
-<div class="line">    icpParams.<a class="code hl_variableRef" href="../../MeshLib/Cpp/html/structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7">exitVal</a> = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
+<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">distThresholdSq</a> = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a>( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7">exitVal</a> = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
-<div class="line">    <a class="code hl_classRef" href="../../MeshLib/Cpp/html/classMR_1_1ICP.html">MR::ICP</a> icp(</div>
-<div class="line">        <a class="code hl_classRef" href="../../MeshLib/Cpp/html/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFloating } },</div>
-<div class="line">        <a class="code hl_classRef" href="../../MeshLib/Cpp/html/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFixed } },</div>
+<div class="line">    <a class="code hl_class" href="classMR_1_1ICP.html">MR::ICP</a> icp(</div>
+<div class="line">        <a class="code hl_class" href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFloating } },</div>
+<div class="line">        <a class="code hl_class" href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFixed } },</div>
 <div class="line">        MR::AffineXf3f(), MR::AffineXf3f(),</div>
 <div class="line">        icpSamplingVoxelSize );</div>
-<div class="line">    icp.<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">setParams</a>( icpParams );</div>
+<div class="line">    icp.<a class="code hl_function" href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">setParams</a>( icpParams );</div>
 <div class="line">    MR::AffineXf3f xf = icp.calculateTransformation();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Transform floating mesh</span></div>
-<div class="line">    meshFloating.<a class="code hl_functionRef" href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( xf );</div>
+<div class="line">    meshFloating.<a class="code hl_function" href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( xf );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Output information string</span></div>
 <div class="line">    std::string info = icp.getStatusInfo();</div>
 <div class="line">    std::cerr &lt;&lt; info &lt;&lt; std::endl;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    <a class="code hl_functionRef" href="../../MeshLib/Cpp/html/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span> );</div>
+<div class="line">    <a class="code hl_function" href="group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span> );</div>
 <div class="line">}</div>
-<div class="ttc" id="aMeshBoolean_8dox_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="MeshBoolean_8dox_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> MeshBoolean.dox.cpp:8</div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/classMR_1_1ICP.html">MR::ICP</a></div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="../../MeshLib/Cpp/html/classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div></div>
-<div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div></div>
-<div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="../../MeshLib/Cpp/html/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
-<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="../../MeshLib/Cpp/html/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
-<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="../../MeshLib/Cpp/html/namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1ICPProperties.html">MR::ICPProperties</a></div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html_a43460c0d16c0f302226c8e09b6b98811"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html_afe075e9e4944999f30c142f357d071d7"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7">MR::ICPProperties::exitVal</a></div><div class="ttdeci">float exitVal</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a6a9114dc0640fc079b18e83625c3464a"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a">MR::Mesh::getBoundingBox</a></div><div class="ttdeci">MRMESH_API Box3f getBoundingBox() const</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="../../MeshLib/Cpp/html/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
+<div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRICP_8h_html"><div class="ttname"><a href="MRMesh_2MRICP_8h.html">MRICP.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMeshLoad_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMeshSave_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRICP.h:171</div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algorithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRMesh/MRICP.h:195</div></div>
+<div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshOrPoints.h:17</div></div>
+<div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div><div class="ttdoc">loads mesh from file in the format detected from file extension</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and save mesh to it</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:624</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRICP.h:121</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html_a43460c0d16c0f302226c8e09b6b98811"><div class="ttname"><a href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div><div class="ttdoc">Points pair will be counted only if squared distance between points is lower than.</div><div class="ttdef"><b>Definition</b> MRMesh/MRICP.h:135</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html_afe075e9e4944999f30c142f357d071d7"><div class="ttname"><a href="structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7">MR::ICPProperties::exitVal</a></div><div class="ttdeci">float exitVal</div><div class="ttdoc">Algorithm target root-mean-square distance. As soon as it is reached, the algorithm stops.</div><div class="ttdef"><b>Definition</b> MRMesh/MRICP.h:154</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_a6a9114dc0640fc079b18e83625c3464a"><div class="ttname"><a href="structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a">MR::Mesh::getBoundingBox</a></div><div class="ttdeci">MRMESH_API Box3f getBoundingBox() const</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load meshes</span></div>
-<div class="line">meshFloating = <a class="code hl_functionRef" href="../../MeshLib/Py/html/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;meshA.stl&quot;</span>)</div>
-<div class="line">meshFixed = <a class="code hl_functionRef" href="../../MeshLib/Py/html/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;meshB.stl&quot;</span>)</div>
+<div class="line">meshFloating = mrmeshpy.loadMesh(<span class="stringliteral">&quot;meshA.stl&quot;</span>)</div>
+<div class="line">meshFixed = mrmeshpy.loadMesh(<span class="stringliteral">&quot;meshB.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Prepare ICP parameters</span></div>
 <div class="line">diagonal = meshFixed.getBoundingBox().diagonal()</div>
 <div class="line">icp_sampling_voxel_size = diagonal * 0.01  <span class="comment"># To sample points from object</span></div>
-<div class="line">icp_params = <a class="code hl_classRef" href="../../MeshLib/Py/html/classmrmeshpy_1_1ICPProperties.html">mrmeshpy.ICPProperties</a>()</div>
+<div class="line">icp_params = mrmeshpy.ICPProperties()</div>
 <div class="line">icp_params.distThresholdSq = (diagonal * 0.1) ** 2  <span class="comment"># Use points pairs with maximum distance specified</span></div>
 <div class="line">icp_params.exitVal = diagonal * 0.003  <span class="comment"># Stop when this distance reached</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Calculate transformation</span></div>
-<div class="line">icp = <a class="code hl_classRef" href="../../MeshLib/Py/html/classmrmeshpy_1_1ICP.html">mrmeshpy.ICP</a>(meshFloating, meshFixed,</div>
-<div class="line">                   <a class="code hl_classRef" href="../../MeshLib/Py/html/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy.AffineXf3f</a>(), <a class="code hl_classRef" href="../../MeshLib/Py/html/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy.AffineXf3f</a>(),</div>
+<div class="line">icp = mrmeshpy.ICP(meshFloating, meshFixed,</div>
+<div class="line">                   mrmeshpy.AffineXf3f(), mrmeshpy.AffineXf3f(),</div>
 <div class="line">                   icp_sampling_voxel_size)</div>
 <div class="line">icp.setParams(icp_params)</div>
 <div class="line">xf = icp.calculateTransformation()</div>
@@ -228,12 +232,7 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">print(icp.getLastICPInfo())</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
-<div class="line"><a class="code hl_functionRef" href="../../MeshLib/Py/html/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy.saveMesh</a>(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>)</div>
-<div class="ttc" id="aclassmrmeshpy_1_1AffineXf3f_html"><div class="ttname"><a href="../../MeshLib/Py/html/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy::AffineXf3f</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1ICPProperties_html"><div class="ttname"><a href="../../MeshLib/Py/html/classmrmeshpy_1_1ICPProperties.html">mrmeshpy::ICPProperties</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1ICP_html"><div class="ttname"><a href="../../MeshLib/Py/html/classmrmeshpy_1_1ICP.html">mrmeshpy::ICP</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a34254796865572bdb9d0ac8fe8b24854"><div class="ttname"><a href="../../MeshLib/Py/html/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='MR::MeshLoadSettings{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a7d060e0695c7b9c53e265318c8c4b4c6"><div class="ttname"><a href="../../MeshLib/Py/html/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='MR::SaveSettings{}')</div></div>
+<div class="line">mrmeshpy.saveMesh(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>)</div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

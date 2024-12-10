@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_0',['C',['../../../MeshLib/Cpp/html/APICppPage.html',1,'C++'],['../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#']]],
+  ['c_0',['C',['../../../MeshLib/dev/Cpp/html/APICppPage.html',1,'C++'],['../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#']]],
   ['c_20on_20windows_1',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
   ['c_20setup_20guide_2',['MeshLib C++ Setup Guide',['../MeshLibCppSetupGuide.html',1,'']]],
   ['class_20hierarchy_3',['Data Model Class Hierarchy',['../DataModel.html',1,'']]],
