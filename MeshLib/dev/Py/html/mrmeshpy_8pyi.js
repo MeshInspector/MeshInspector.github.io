@@ -1979,7 +1979,7 @@ var mrmeshpy_8pyi =
     [ "replicateZ", "mrmeshpy_8pyi.html#a4bae2dfb7a6063f9a5834371dc223427", null ],
     [ "reportProgress", "mrmeshpy_8pyi.html#a076b46be5d6702d268311c7da4f0b080", null ],
     [ "reportProgress", "mrmeshpy_8pyi.html#a5cfa15f95ca0699d3c9b96d2547a7d67", null ],
-    [ "resample", "mrmeshpy_8pyi.html#a14955bef93605bd36497dcf6fe5d5520", null ],
+    [ "resample", "mrmeshpy_8pyi.html#a0537d14124f882f7e4021943c044b62c", null ],
     [ "resampled", "mrmeshpy_8pyi.html#adba87953bd2a9e37e1a756845eef060b", null ],
     [ "resampled", "mrmeshpy_8pyi.html#aed07db49125ed46e732c03c4ac45dfdf", null ],
     [ "resolveMeshDegenerations", "mrmeshpy_8pyi.html#a38bdfcfc415e83a4f1770a0e502e431f", null ],

@@ -3885,8 +3885,8 @@ Functions</h2></td></tr>
 <tr class="separator:a076b46be5d6702d268311c7da4f0b080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cfa15f95ca0699d3c9b96d2547a7d67" id="r_a5cfa15f95ca0699d3c9b96d2547a7d67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cfa15f95ca0699d3c9b96d2547a7d67">reportProgress</a> (<a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb, float v, int counter, int divider)</td></tr>
 <tr class="separator:a5cfa15f95ca0699d3c9b96d2547a7d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14955bef93605bd36497dcf6fe5d5520" id="r_a14955bef93605bd36497dcf6fe5d5520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MarkedContour3f.html">MarkedContour3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14955bef93605bd36497dcf6fe5d5520">resample</a> (<a class="el" href="classmrmeshpy_1_1MarkedContour3f.html">MarkedContour3f</a> in_, float maxStep)</td></tr>
-<tr class="separator:a14955bef93605bd36497dcf6fe5d5520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0537d14124f882f7e4021943c044b62c" id="r_a0537d14124f882f7e4021943c044b62c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MarkedContour3f.html">MarkedContour3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0537d14124f882f7e4021943c044b62c">resample</a> (<a class="el" href="classmrmeshpy_1_1MarkedContour3f.html">MarkedContour3f</a> in_, float minStep, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> normals=None)</td></tr>
+<tr class="separator:a0537d14124f882f7e4021943c044b62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adba87953bd2a9e37e1a756845eef060b" id="r_adba87953bd2a9e37e1a756845eef060b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adba87953bd2a9e37e1a756845eef060b">resampled</a> (<a class="el" href="classmrmeshpy_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> grid, float voxelScale, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='MR::ProgressCallback{}')</td></tr>
 <tr class="separator:adba87953bd2a9e37e1a756845eef060b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed07db49125ed46e732c03c4ac45dfdf" id="r_aed07db49125ed46e732c03c4ac45dfdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed07db49125ed46e732c03c4ac45dfdf">resampled</a> (<a class="el" href="classmrmeshpy_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> grid, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> voxelScale, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='MR::ProgressCallback{}')</td></tr>
@@ -26611,8 +26611,8 @@ just returning true for empty callback
 </pre> 
 </div>
 </div>
-<a id="a14955bef93605bd36497dcf6fe5d5520" name="a14955bef93605bd36497dcf6fe5d5520"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14955bef93605bd36497dcf6fe5d5520">&#9670;&#160;</a></span>resample()</h2>
+<a id="a0537d14124f882f7e4021943c044b62c" name="a0537d14124f882f7e4021943c044b62c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0537d14124f882f7e4021943c044b62c">&#9670;&#160;</a></span>resample()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -26625,13 +26625,18 @@ just returning true for empty callback
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxStep</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minStep</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> </td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\param in input marked contour
-\\param maxStep maximum distance from not-marked point of returned contour to a neighbor point
-\\return contour with same marked points and not-marked points located on input contour with given maximum distance along it
+<pre class="fragment">keeps all marked points from input contour and adds/removes other points to have them as many as possible,
+but at the distance along the input line not shorter than (minStep) from their neighbor points
+\\param normals optional parameter with the normals of input points that will be resampled to become normals of output points
 </pre> 
 </div>
 </div>

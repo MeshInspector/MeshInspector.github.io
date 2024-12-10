@@ -2537,7 +2537,7 @@ var namespaceMR =
     [ "reportProgress", "namespaceMR.html#a990d1271cf502f5cce9a6e0385d59fc6", null ],
     [ "reportProgress", "namespaceMR.html#ac4c37be3306e0f2f94b1f076948e9d52", null ],
     [ "reportProgress", "namespaceMR.html#a78edb9882955009fb3d0a6c9e9e16edc", null ],
-    [ "resample", "namespaceMR.html#a043f1da2568088a7b489ea8632405c64", null ],
+    [ "resample", "namespaceMR.html#abbeba581eae8db84f0123a17c064c055", null ],
     [ "resampled", "group__BasicStructuresGroup.html#ga7d757a1fbd48e0e4c6268f3637ba631c", null ],
     [ "resampled", "group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53", null ],
     [ "resampleVolumeByInterpolation", "namespaceMR.html#aca1f6e889fadd4d30603c3cffcf9a930", null ],
