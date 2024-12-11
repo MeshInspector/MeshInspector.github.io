@@ -1,14 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classMR_1_1SceneStateAndCheck.html":[5,0,1,0,1,573],
-"classMR_1_1SceneStateAndCheck.html":[5,0,2,0,1,557],
-"classMR_1_1SceneStateAndCheck.html#a24f4c50b741150585aac2dfc9451c763":[5,0,1,0,1,573,1],
-"classMR_1_1SceneStateAndCheck.html#a24f4c50b741150585aac2dfc9451c763":[5,0,2,0,1,557,1],
-"classMR_1_1SceneStateAndCheck.html#aeeef0efbedfc98eea8fe606f14398bc2":[5,0,1,0,1,573,0],
-"classMR_1_1SceneStateAndCheck.html#aeeef0efbedfc98eea8fe606f14398bc2":[5,0,2,0,1,557,0],
-"classMR_1_1SceneStateAtLeastCheck.html":[5,0,1,0,1,574],
-"classMR_1_1SceneStateAtLeastCheck.html":[5,0,2,0,1,558],
-"classMR_1_1SceneStateAtLeastCheck.html#a86c6e5277a77801a52a1051b0439ab0b":[5,0,1,0,1,574,1],
 "classMR_1_1SceneStateAtLeastCheck.html#a86c6e5277a77801a52a1051b0439ab0b":[5,0,2,0,1,558,1],
 "classMR_1_1SceneStateAtLeastCheck.html#aba4af468f0b66ad5618bb28ec7515f03":[5,0,1,0,1,574,0],
 "classMR_1_1SceneStateAtLeastCheck.html#aba4af468f0b66ad5618bb28ec7515f03":[5,0,2,0,1,558,0],
@@ -249,5 +240,14 @@ var NAVTREEINDEX38 =
 "classMR_1_1SpaceMouseHandler.html#a0fb38b595b3fad2af3d19817e2f77297":[5,0,2,0,1,594,3],
 "classMR_1_1SpaceMouseHandler.html#a5c2a0f9ed6b49950d604726d8ff4b31e":[5,0,1,0,1,610,2],
 "classMR_1_1SpaceMouseHandler.html#a5c2a0f9ed6b49950d604726d8ff4b31e":[5,0,2,0,1,594,2],
-"classMR_1_1SpaceMouseHandler.html#a630d5cbabb8c95d6234cefa16fe25ac4":[5,0,1,0,1,610,1]
+"classMR_1_1SpaceMouseHandler.html#a630d5cbabb8c95d6234cefa16fe25ac4":[5,0,1,0,1,610,1],
+"classMR_1_1SpaceMouseHandler.html#a630d5cbabb8c95d6234cefa16fe25ac4":[5,0,2,0,1,594,1],
+"classMR_1_1SpaceMouseHandler.html#ae552842183fceec422514e422d1f0d73":[5,0,1,0,1,610,0],
+"classMR_1_1SpaceMouseHandler.html#ae552842183fceec422514e422d1f0d73":[5,0,2,0,1,594,0],
+"classMR_1_1SpaceMouseHandlerHidapi.html":[5,0,1,0,1,611],
+"classMR_1_1SpaceMouseHandlerHidapi.html":[5,0,2,0,1,595],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a6ae949deecea5c7980616194d48db713":[5,0,1,0,1,611,5],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a6ae949deecea5c7980616194d48db713":[5,0,2,0,1,595,5],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a84930e9f8ad1885e7875acfcca06aa87":[5,0,1,0,1,611,2],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a84930e9f8ad1885e7875acfcca06aa87":[5,0,2,0,1,595,2]
 };

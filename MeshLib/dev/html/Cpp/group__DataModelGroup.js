@@ -461,6 +461,7 @@ var group__DataModelGroup =
     [ "MR::deserializeObjectTreeFromFolder", "group__DataModelGroup.html#gaf9b67bada243a640e8a520638c9771be", null ],
     [ "MR::Object::find", "group__DataModelGroup.html#gaa9133d1e63e15eb09f7f902afe2abd3a", null ],
     [ "MR::Object::find", "group__DataModelGroup.html#ga595c5f842600963ee11cd5e9a3a0a7f8", null ],
+    [ "MR::getAllFilters", "group__DataModelGroup.html#gac7615c6e4894a59a84ec57986cbfc9c7", null ],
     [ "MR::getAllObjectsInTree", "group__DataModelGroup.html#ga079f85cf6e53fc4d193a549f04a7b8c2", null ],
     [ "MR::getAllObjectsInTree", "group__DataModelGroup.html#ga60db6fdac099905987b703a7fffe4746", null ],
     [ "MR::getDepthFirstObject", "group__DataModelGroup.html#ga2ff9113ffb18df4c828b1e222c0ba236", null ],
@@ -475,6 +476,5 @@ var group__DataModelGroup =
     [ "MR::makeObjectGcodeFromFile", "group__DataModelGroup.html#ga9e5093d4aabe18b3b177676bed2f1832", null ],
     [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#ga49f50b3f8a8b62d1de7af24264eac759", null ],
     [ "MR::makeObjectMeshFromFile", "group__DataModelGroup.html#ga16cd43ef755c087f9358dc1bb5473119", null ],
-    [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#gacd7dca15ed95f44fa82294bf8a85be2a", null ],
-    [ "MR::makeObjectTreeFromFolder", "group__DataModelGroup.html#ga5d0bc0b88e82b7ce5e75546d50d41d64", null ]
+    [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#gacd7dca15ed95f44fa82294bf8a85be2a", null ]
 ];

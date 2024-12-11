@@ -1,12 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"namespaceMR_1_1SceneLoad.html#ab13020e377967aca04518368ed70a509":[5,0,1,0,1,33,1],
-"namespaceMR_1_1SceneSave.html":[5,0,1,0,1,34],
-"namespaceMR_1_1SceneSave.html#abae0b302d53c60953ecab7559619c2ea":[5,0,1,0,1,34,0],
-"namespaceMR_1_1SelfIntersections.html":[5,0,1,0,1,35],
-"namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[5,0,1,0,1,35,1],
-"namespaceMR_1_1SelfIntersections.html#aea449a398c4999edebba068358686684":[5,0,1,0,1,35,2],
-"namespaceMR_1_1StyleConsts.html":[5,0,1,0,1,36],
 "namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[5,0,1,0,1,36,4],
 "namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[5,0,1,0,1,36,0],
 "namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[5,0,1,0,1,36,0,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX57 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[5,0,2,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[5,0,1,0,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[5,0,2,0,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[5,0,1,0,0,0,9]
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[5,0,1,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[5,0,2,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[5,0,1,0,0,0,2],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[5,0,2,0,0,0,2],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[5,0,1,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[5,0,2,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[5,0,1,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[5,0,2,0,0,0,8]
 };

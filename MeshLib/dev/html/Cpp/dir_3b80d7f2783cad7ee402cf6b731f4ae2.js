@@ -1,7 +1,6 @@
 var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
 [
     [ "config.h", "MRMesh_2config_8h.html", null ],
-    [ "config_cmake.h", "MRMesh_2config__cmake_8h.html", "MRMesh_2config__cmake_8h" ],
     [ "MR2DContoursTriangulation.h", "MR2DContoursTriangulation_8h.html", "MR2DContoursTriangulation_8h" ],
     [ "MR2to3.h", "MR2to3_8h.html", "MR2to3_8h" ],
     [ "MRAABBTree.h", "MRAABBTree_8h.html", null ],

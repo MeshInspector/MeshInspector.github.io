@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wholeedgehashmap_0',['WholeEdgeHashMap',['../namespacemeshlib_1_1mrmeshpy.html#a12d37aa87a6a37ea05828d2d96055305',1,'meshlib::mrmeshpy']]],
-  ['windingrule_1',['WindingRule',['../classmeshlib_1_1mrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#ae2d39c62bda54cf43382e94f78263e36',1,'meshlib.mrmeshpy.ContoursDistanceMapOptions.SignedDetectionMethod.WindingRule'],['../classmeshlib_1_1mrmeshpy_1_1SignDetectionMode.html#a04e44136d3d7b2b32037917aa4842a23',1,'meshlib.mrmeshpy.SignDetectionMode.WindingRule']]],
-  ['withsign_2',['withSign',['../classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a53fe2112b5c653aee1f0db4e20534226',1,'meshlib::mrmeshpy::DistanceMeasurementObject::PerCoordDeltas']]]
+  ['wholeedgehashmap_0',['WholeEdgeHashMap',['../namespacemrmeshpy.html#a6f1dc5c7be46556685b771f6365814a4',1,'mrmeshpy']]],
+  ['windingrule_1',['WindingRule',['../classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#adafd7bcac51716367c330f1a26630517',1,'mrmeshpy.ContoursDistanceMapOptions.SignedDetectionMethod.WindingRule'],['../classmrmeshpy_1_1SignDetectionMode.html#a8b6e70f3f4e49b0d2b51b8e1ef37cc38',1,'mrmeshpy.SignDetectionMode.WindingRule']]],
+  ['withsign_2',['withSign',['../classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ac6567845ca86b8b5ec6f1be2230053c4',1,'mrmeshpy::DistanceMeasurementObject::PerCoordDeltas']]]
 ];

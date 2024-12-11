@@ -1,5 +1,9 @@
 var NAVTREEINDEX15 =
 {
+"MeshOffset_8dox_8cs.html":[6,0,3,0,0,1,1,6],
+"MeshOffset_8dox_8py.html":[6,0,3,0,0,1,3,10],
+"MeshResolveDegenerations_8dox_8c.html":[6,0,3,0,0,1,0,7],
+"MeshResolveDegenerations_8dox_8cs.html":[6,0,3,0,0,1,1,7],
 "MeshStitchHole_8dox_8cpp.html":[6,0,3,0,0,1,2,10],
 "MeshStitchHole_8dox_8py.html":[6,0,3,0,0,1,3,11],
 "NoiseDenoiseExample_8dox_8py.html":[6,0,3,0,0,1,3,12],
@@ -7,9 +11,9 @@ var NAVTREEINDEX15 =
 "Numpy_8dox_8py.html":[6,0,3,0,0,1,3,13],
 "PackageOverview.html":[5],
 "Plotly_8dox_8py.html":[6,0,3,0,0,1,3,15],
-"SceneReorder_8h.html":[6,0,3,0,0,2,9,143],
-"SceneReorder_8h.html#af7b59424fe3d8f4942cfc555758c294a":[6,0,3,0,0,2,9,143,1],
-"SceneReorder_8h_source.html":[6,0,3,0,0,2,9,143],
+"SceneReorder_8h.html":[6,0,3,0,0,2,9,144],
+"SceneReorder_8h.html#af7b59424fe3d8f4942cfc555758c294a":[6,0,3,0,0,2,9,144,1],
+"SceneReorder_8h_source.html":[6,0,3,0,0,2,9,144],
 "SpacesHelp.html":[5,1],
 "StatePluginsHelp.html":[5,2],
 "TestMacros_8h.html":[6,0,3,0,0,2,8,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1AsyncRequest.html#a01cefc0b2c39108d1ed5dce811d40664":[6,0,2,0,1,46,4],
 "classMR_1_1AsyncRequest.html#a0a3e35b953012f9acba6d6a9a50232fc":[6,0,1,0,13,62,3],
 "classMR_1_1AsyncRequest.html#a0a3e35b953012f9acba6d6a9a50232fc":[6,0,2,0,1,46,3],
-"classMR_1_1AsyncRequest.html#a0c97ae941f212dde5a8326dbe28ee679":[6,0,1,0,13,62,5],
-"classMR_1_1AsyncRequest.html#a0c97ae941f212dde5a8326dbe28ee679":[6,0,2,0,1,46,5],
-"classMR_1_1AsyncRequest.html#a32c8eaba0bbda7c291e8231db38a41e1":[6,0,1,0,13,62,0],
-"classMR_1_1AsyncRequest.html#a32c8eaba0bbda7c291e8231db38a41e1":[6,0,2,0,1,46,0],
-"classMR_1_1AsyncRequest.html#a32e13a84f6e2ea8aeeba1f2deb566a3d":[6,0,1,0,13,62,1]
+"classMR_1_1AsyncRequest.html#a0c97ae941f212dde5a8326dbe28ee679":[6,0,1,0,13,62,5]
 };

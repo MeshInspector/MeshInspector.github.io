@@ -1,12 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a71da63d690481e338c26321212fbdb4b":[5,0,2,0,1,14,1,3],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a8b5c188731f0cecbac0ccc0fd4a6bfb7":[5,0,1,0,1,24,1,5],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a8b5c188731f0cecbac0ccc0fd4a6bfb7":[5,0,2,0,1,14,1,5],
-"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[5,0,1,0,1,24,2],
-"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[5,0,2,0,1,14,2],
-"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0":[5,0,1,0,1,24,2,0],
-"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0":[5,0,2,0,1,14,2,0],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846":[5,0,1,0,1,24,2,1],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846":[5,0,2,0,1,14,2,1],
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html":[5,0,1,0,1,24,3],
@@ -249,5 +242,12 @@ var NAVTREEINDEX72 =
 "structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f":[5,0,2,0,1,453,1],
 "structMR_1_1PolylineMaker.html#a8235ea5e1d4e4a8485abb6d0d548fbba":[5,0,1,0,1,469,5],
 "structMR_1_1PolylineMaker.html#a8235ea5e1d4e4a8485abb6d0d548fbba":[5,0,2,0,1,453,5],
-"structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0":[5,0,1,0,1,469,0]
+"structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0":[5,0,1,0,1,469,0],
+"structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0":[5,0,2,0,1,453,0],
+"structMR_1_1PolylineMaker.html#abaa25d6997f93c9797a20cf3975b2eef":[5,0,1,0,1,469,3],
+"structMR_1_1PolylineMaker.html#abaa25d6997f93c9797a20cf3975b2eef":[5,0,2,0,1,453,3],
+"structMR_1_1PolylineProjectionResult.html":[5,0,0,1,29],
+"structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[5,0,0,1,29,1],
+"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[5,0,0,1,29,0],
+"structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[5,0,0,1,29,2]
 };

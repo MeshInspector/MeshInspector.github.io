@@ -1,7 +1,6 @@
 var dir_6e96927c85b5db1a870a672280c47921 =
 [
     [ "config.h", "MRViewer_2config_8h.html", null ],
-    [ "config_cmake.h", "MRViewer_2config__cmake_8h.html", null ],
     [ "ImGuiHelpers.h", "ImGuiHelpers_8h.html", "ImGuiHelpers_8h" ],
     [ "ImGuiMenu.h", "ImGuiMenu_8h.html", "ImGuiMenu_8h" ],
     [ "MRAlphaSortGL.h", "MRAlphaSortGL_8h.html", "MRAlphaSortGL_8h" ],
@@ -52,6 +51,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRObjectMeshHistory.h", "MRObjectMeshHistory_8h.html", "MRObjectMeshHistory_8h" ],
     [ "MRObjectPointsHistory.h", "MRObjectPointsHistory_8h.html", "MRObjectPointsHistory_8h" ],
     [ "MRObjectTransformWidget.h", "MRObjectTransformWidget_8h.html", "MRObjectTransformWidget_8h" ],
+    [ "MROpenObjects.h", "MROpenObjects_8h.html", "MROpenObjects_8h" ],
     [ "MRPalette.h", "MRPalette_8h.html", "MRPalette_8h" ],
     [ "MRPickHoleBorderElement.h", "MRPickHoleBorderElement_8h.html", "MRPickHoleBorderElement_8h" ],
     [ "MRPickPointManager.h", "MRPickPointManager_8h.html", "MRPickPointManager_8h" ],
@@ -86,6 +86,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRRibbonNotification.h", "MRRibbonNotification_8h.html", "MRRibbonNotification_8h" ],
     [ "MRRibbonSceneObjectsListDrawer.h", "MRRibbonSceneObjectsListDrawer_8h.html", "MRRibbonSceneObjectsListDrawer_8h" ],
     [ "MRRibbonSchema.h", "MRRibbonSchema_8h.html", "MRRibbonSchema_8h" ],
+    [ "MRSaveObjects.h", "MRSaveObjects_8h.html", "MRSaveObjects_8h" ],
     [ "MRSaveOnClose.h", "MRSaveOnClose_8h.html", "MRSaveOnClose_8h" ],
     [ "MRSceneCache.h", "MRSceneCache_8h.html", "MRSceneCache_8h" ],
     [ "MRSceneObjectsListDrawer.h", "MRSceneObjectsListDrawer_8h.html", "MRSceneObjectsListDrawer_8h" ],
@@ -133,7 +134,6 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", "MRViewerEventsListener_8h" ],
     [ "MRViewerFwd.h", "MRViewerFwd_8h.html", "MRViewerFwd_8h" ],
     [ "MRViewerInstance.h", "MRViewerInstance_8h.html", "MRViewerInstance_8h" ],
-    [ "MRViewerIO.h", "MRViewerIO_8h.html", "MRViewerIO_8h" ],
     [ "MRViewerPlugin.h", "MRViewerPlugin_8h.html", "MRViewerPlugin_8h" ],
     [ "MRViewerSettingsManager.h", "MRViewerSettingsManager_8h.html", "MRViewerSettingsManager_8h" ],
     [ "MRViewerSettingsPlugin.h", "MRViewerSettingsPlugin_8h.html", "MRViewerSettingsPlugin_8h" ],

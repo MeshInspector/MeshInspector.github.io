@@ -1,12 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structMR_1_1RebuildMeshSettings.html#aef34909f1adee996217b09204c89d4ec":[5,0,1,0,1,505,3],
-"structMR_1_1RebuildMeshSettings.html#aef34909f1adee996217b09204c89d4ec":[5,0,2,0,1,489,3],
-"structMR_1_1RefineParameters.html":[5,0,1,0,1,508],
-"structMR_1_1RefineParameters.html":[5,0,2,0,1,492],
-"structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[5,0,1,0,1,508,4],
-"structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[5,0,2,0,1,492,4],
-"structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[5,0,1,0,1,508,0],
 "structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[5,0,2,0,1,492,0],
 "structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[5,0,1,0,1,508,1],
 "structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[5,0,2,0,1,492,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX74 =
 "structMR_1_1SaveObjectSettings.html":[5,0,1,0,1,558],
 "structMR_1_1SaveObjectSettings.html":[5,0,2,0,1,542],
 "structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[5,0,1,0,1,558,1],
-"structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[5,0,2,0,1,542,1]
+"structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[5,0,2,0,1,542,1],
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[5,0,1,0,1,558,0],
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[5,0,2,0,1,542,0],
+"structMR_1_1SaveSettings.html":[5,0,1,0,1,563],
+"structMR_1_1SaveSettings.html":[5,0,2,0,1,547],
+"structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f":[5,0,1,0,1,563,4],
+"structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f":[5,0,2,0,1,547,4],
+"structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a":[5,0,1,0,1,563,5]
 };

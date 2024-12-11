@@ -1,5 +1,9 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95":[6,0,2,0,1,577,6],
+"classMR_1_1ShiftTransformer.html":[6,0,1,0,13,597],
+"classMR_1_1ShiftTransformer.html":[6,0,2,0,1,581],
+"classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[6,0,1,0,13,597,1],
 "classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[6,0,2,0,1,581,1],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,1,0,13,597,3],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,2,0,1,581,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1SurfacePointWidget.html":[6,0,1,0,13,628],
 "classMR_1_1SurfacePointWidget.html":[6,0,2,0,1,612],
 "classMR_1_1SurfacePointWidget.html#a074b1ad08082a7ae08f4ca175e22a4de":[6,0,1,0,13,628,19],
-"classMR_1_1SurfacePointWidget.html#a074b1ad08082a7ae08f4ca175e22a4de":[6,0,2,0,1,612,19],
-"classMR_1_1SurfacePointWidget.html#a0bd720379a39e8c1c66edd479989a1da":[6,0,1,0,13,628,10],
-"classMR_1_1SurfacePointWidget.html#a0bd720379a39e8c1c66edd479989a1da":[6,0,2,0,1,612,10],
-"classMR_1_1SurfacePointWidget.html#a13db908e8da8c97e871385cef92ef43d":[6,0,1,0,13,628,17],
-"classMR_1_1SurfacePointWidget.html#a13db908e8da8c97e871385cef92ef43d":[6,0,2,0,1,612,17]
+"classMR_1_1SurfacePointWidget.html#a074b1ad08082a7ae08f4ca175e22a4de":[6,0,2,0,1,612,19]
 };

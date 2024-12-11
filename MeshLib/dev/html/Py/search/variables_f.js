@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['quadraticform_5fvector2_5fdouble_0',['QuadraticForm_Vector2_double',['../namespacemeshlib_1_1mrmeshpy.html#a09206a52c97ecb2fce25b94872b9279b',1,'meshlib::mrmeshpy']]],
-  ['quadraticform_5fvector2_5ffloat_1',['QuadraticForm_Vector2_float',['../namespacemeshlib_1_1mrmeshpy.html#a49b976d79e8b10be89b9d0828127cad9',1,'meshlib::mrmeshpy']]],
-  ['quadraticform_5fvector2d_5fsm_2',['QuadraticForm_Vector2d_SM',['../namespacemeshlib_1_1mrmeshpy.html#a4001f186d826552709866aaa30cda6be',1,'meshlib::mrmeshpy']]],
-  ['quadraticform_5fvector2f_5fsm_3',['QuadraticForm_Vector2f_SM',['../namespacemeshlib_1_1mrmeshpy.html#a0af96634713157786dd22b780532ca17',1,'meshlib::mrmeshpy']]],
-  ['quadraticform_5fvector3_5fdouble_4',['QuadraticForm_Vector3_double',['../namespacemeshlib_1_1mrmeshpy.html#a35f25466e1f6d45865accbd5f927cf06',1,'meshlib::mrmeshpy']]],
-  ['quadraticform_5fvector3_5ffloat_5',['QuadraticForm_Vector3_float',['../namespacemeshlib_1_1mrmeshpy.html#aa71c74b6572164622ef5b638163e6f5d',1,'meshlib::mrmeshpy']]],
-  ['quadraticform_5fvector3d_5fsm_6',['QuadraticForm_Vector3d_SM',['../namespacemeshlib_1_1mrmeshpy.html#ac5b7940390325e4a344f9c1a09f350d8',1,'meshlib::mrmeshpy']]],
-  ['quadraticform_5fvector3f_5fsm_7',['QuadraticForm_Vector3f_SM',['../namespacemeshlib_1_1mrmeshpy.html#a3f627cf1e749101e9ea0fba7c347fb3d',1,'meshlib::mrmeshpy']]],
-  ['quadric_8',['Quadric',['../classmeshlib_1_1mrmeshpy_1_1RelaxApproxType.html#a6a126ff4071a08f3e3a8115ff2c7533f',1,'meshlib::mrmeshpy::RelaxApproxType']]],
-  ['quaternion_5fdouble_9',['Quaternion_double',['../namespacemeshlib_1_1mrmeshpy.html#a2d64b864964c640257c30f47b11c1f30',1,'meshlib::mrmeshpy']]],
-  ['quaternion_5ffloat_10',['Quaternion_float',['../namespacemeshlib_1_1mrmeshpy.html#a8033d11519743522a180b0ec25137e28',1,'meshlib::mrmeshpy']]]
+  ['quadraticform_5fvector2_5fdouble_0',['QuadraticForm_Vector2_double',['../namespacemrmeshpy.html#a9fd663930e58801de7ef7b8d85d5a41e',1,'mrmeshpy']]],
+  ['quadraticform_5fvector2_5ffloat_1',['QuadraticForm_Vector2_float',['../namespacemrmeshpy.html#a6e68286cf9192fd64da4009ebf654cf5',1,'mrmeshpy']]],
+  ['quadraticform_5fvector2d_5fsm_2',['QuadraticForm_Vector2d_SM',['../namespacemrmeshpy.html#a24848bf767b3fb48d3fae40f5cd49eb9',1,'mrmeshpy']]],
+  ['quadraticform_5fvector2f_5fsm_3',['QuadraticForm_Vector2f_SM',['../namespacemrmeshpy.html#a6b9ad3fb1ac8d873f928e0ca99095155',1,'mrmeshpy']]],
+  ['quadraticform_5fvector3_5fdouble_4',['QuadraticForm_Vector3_double',['../namespacemrmeshpy.html#af555dbd03410b06b40aaf80a56e34d4a',1,'mrmeshpy']]],
+  ['quadraticform_5fvector3_5ffloat_5',['QuadraticForm_Vector3_float',['../namespacemrmeshpy.html#a1d0a326314c25c921f298193e8b4c79c',1,'mrmeshpy']]],
+  ['quadraticform_5fvector3d_5fsm_6',['QuadraticForm_Vector3d_SM',['../namespacemrmeshpy.html#ac40ce4811805c9ed0ff0fa92f9da50ca',1,'mrmeshpy']]],
+  ['quadraticform_5fvector3f_5fsm_7',['QuadraticForm_Vector3f_SM',['../namespacemrmeshpy.html#a0bb0707e46b9c2c693aa6dab259ef304',1,'mrmeshpy']]],
+  ['quadric_8',['Quadric',['../classmrmeshpy_1_1RelaxApproxType.html#a2854ca35ac12f408be009cab2a9daabc',1,'mrmeshpy::RelaxApproxType']]],
+  ['quaternion_5fdouble_9',['Quaternion_double',['../namespacemrmeshpy.html#adbfdedc2f154c8ade038a73e2a88b04c',1,'mrmeshpy']]],
+  ['quaternion_5ffloat_10',['Quaternion_float',['../namespacemrmeshpy.html#ac90c0ca5d8a0c5510f1d7e9f7cc88028',1,'mrmeshpy']]]
 ];

@@ -1,14 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"classMR_1_1RibbonMenu.html#a20be6c6447ebc633030add6ed89391ae":[5,0,1,0,1,533,33],
-"classMR_1_1RibbonMenu.html#a20be6c6447ebc633030add6ed89391ae":[5,0,2,0,1,517,33],
-"classMR_1_1RibbonMenu.html#a2a3532d56a6f52a63ab5514063fa8875":[5,0,1,0,1,533,4],
-"classMR_1_1RibbonMenu.html#a2a3532d56a6f52a63ab5514063fa8875":[5,0,2,0,1,517,4],
-"classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05":[5,0,1,0,1,533,7],
-"classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05":[5,0,2,0,1,517,7],
-"classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e":[5,0,1,0,1,533,70],
-"classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e":[5,0,2,0,1,517,70],
-"classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68":[5,0,1,0,1,533,68],
 "classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68":[5,0,2,0,1,517,68],
 "classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e":[5,0,1,0,1,533,25],
 "classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e":[5,0,2,0,1,517,25],
@@ -249,5 +240,14 @@ var NAVTREEINDEX36 =
 "classMR_1_1RibbonSceneRemoveSelected.html#ad163bea4fd969e36923bd710b0e9bbd5":[5,0,1,0,1,542,2],
 "classMR_1_1RibbonSceneRemoveSelected.html#ad163bea4fd969e36923bd710b0e9bbd5":[5,0,2,0,1,526,2],
 "classMR_1_1RibbonSceneRename.html":[5,0,1,0,1,543],
-"classMR_1_1RibbonSceneRename.html":[5,0,2,0,1,527]
+"classMR_1_1RibbonSceneRename.html":[5,0,2,0,1,527],
+"classMR_1_1RibbonSceneRename.html#a0a3ceed28e10a93082b57b82d8488854":[5,0,1,0,1,543,1],
+"classMR_1_1RibbonSceneRename.html#a0a3ceed28e10a93082b57b82d8488854":[5,0,2,0,1,527,1],
+"classMR_1_1RibbonSceneRename.html#a4ef4cb4a806b31af47c4388ec9d1df95":[5,0,1,0,1,543,0],
+"classMR_1_1RibbonSceneRename.html#a4ef4cb4a806b31af47c4388ec9d1df95":[5,0,2,0,1,527,0],
+"classMR_1_1RibbonSceneSelectAll.html":[5,0,1,0,1,544],
+"classMR_1_1RibbonSceneSelectAll.html":[5,0,2,0,1,528],
+"classMR_1_1RibbonSceneSelectAll.html#a1e6ee3078d80b208e1fbc370d55cd027":[5,0,1,0,1,544,0],
+"classMR_1_1RibbonSceneSelectAll.html#a1e6ee3078d80b208e1fbc370d55cd027":[5,0,2,0,1,528,0],
+"classMR_1_1RibbonSceneSelectAll.html#a433311a49af6ba8c055ec3b7aab398e7":[5,0,1,0,1,544,1]
 };

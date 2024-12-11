@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['z_0',['Z',['../classmeshlib_1_1mrmeshpy_1_1Axis.html#abd3a9779473712f997fab69d49dda93b',1,'meshlib.mrmeshpy.Axis.Z'],['../classmeshlib_1_1mrmeshpy_1_1NeighborDir.html#a8c255c04e78ed786ac63e4b72374f0f0',1,'meshlib.mrmeshpy.NeighborDir.Z']]],
-  ['zx_1',['ZX',['../classmeshlib_1_1mrmeshpy_1_1SlicePlane.html#a019263c075490ec3015fcbabdc0ed332',1,'meshlib::mrmeshpy::SlicePlane']]]
+  ['z_0',['Z',['../classmrmeshpy_1_1Axis.html#adfe00f1d50012274533417affb4a779a',1,'mrmeshpy.Axis.Z'],['../classmrmeshpy_1_1NeighborDir.html#a08f2a5226fdc0b6787baa1d55e34894e',1,'mrmeshpy.NeighborDir.Z']]],
+  ['zx_1',['ZX',['../classmrmeshpy_1_1SlicePlane.html#a3740b9d59234ac78cee99a1179c928bd',1,'mrmeshpy::SlicePlane']]]
 ];

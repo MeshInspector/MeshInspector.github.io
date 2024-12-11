@@ -1,14 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"classMR_1_1FrameRedrawRequest.html#a27be825efa89c1f49d55d88cee285d38":[5,0,1,0,1,233,0],
-"classMR_1_1FrameRedrawRequest.html#a27be825efa89c1f49d55d88cee285d38":[5,0,2,0,1,217,0],
-"classMR_1_1FramebufferData.html":[5,0,1,0,1,231],
-"classMR_1_1FramebufferData.html":[5,0,2,0,1,215],
-"classMR_1_1FramebufferData.html#a32347402456cb0f76070a32c159d4e8e":[5,0,1,0,1,231,5],
-"classMR_1_1FramebufferData.html#a32347402456cb0f76070a32c159d4e8e":[5,0,2,0,1,215,5],
-"classMR_1_1FramebufferData.html#a3c09cab97e4bdd21875667bbbb9338ce":[5,0,1,0,1,231,1],
-"classMR_1_1FramebufferData.html#a3c09cab97e4bdd21875667bbbb9338ce":[5,0,2,0,1,215,1],
-"classMR_1_1FramebufferData.html#a5e89aff5db92583727297ab9f6f71124":[5,0,1,0,1,231,3],
 "classMR_1_1FramebufferData.html#a5e89aff5db92583727297ab9f6f71124":[5,0,2,0,1,215,3],
 "classMR_1_1FramebufferData.html#a89877d47c22c4dda2ae1bcd9ec9923c5":[5,0,1,0,1,231,6],
 "classMR_1_1FramebufferData.html#a89877d47c22c4dda2ae1bcd9ec9923c5":[5,0,2,0,1,215,6],
@@ -249,5 +240,14 @@ var NAVTREEINDEX21 =
 "classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce":[5,0,1,0,1,246,3],
 "classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce":[5,0,2,0,1,230,3],
 "classMR_1_1Graph.html#a46ac2204a29916d4c70d8902b0a21868":[5,0,1,0,1,246,17],
-"classMR_1_1Graph.html#a46ac2204a29916d4c70d8902b0a21868":[5,0,2,0,1,230,17]
+"classMR_1_1Graph.html#a46ac2204a29916d4c70d8902b0a21868":[5,0,2,0,1,230,17],
+"classMR_1_1Graph.html#a5091e905ddd17f80fb7c3996ce095e58":[5,0,1,0,1,246,16],
+"classMR_1_1Graph.html#a5091e905ddd17f80fb7c3996ce095e58":[5,0,2,0,1,230,16],
+"classMR_1_1Graph.html#a5de54676ec0131e5355d47e44f31019d":[5,0,1,0,1,246,13],
+"classMR_1_1Graph.html#a5de54676ec0131e5355d47e44f31019d":[5,0,2,0,1,230,13],
+"classMR_1_1Graph.html#a60bd1c95b46edb238590e59ba2066233":[5,0,1,0,1,246,19],
+"classMR_1_1Graph.html#a60bd1c95b46edb238590e59ba2066233":[5,0,2,0,1,230,19],
+"classMR_1_1Graph.html#a6c46ebc56429665872ef490d8d8674ce":[5,0,1,0,1,246,9],
+"classMR_1_1Graph.html#a6c46ebc56429665872ef490d8d8674ce":[5,0,2,0,1,230,9],
+"classMR_1_1Graph.html#a6dcad1485d86cf7df5af53ddc8dc8592":[5,0,1,0,1,246,18]
 };
