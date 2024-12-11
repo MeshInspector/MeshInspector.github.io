@@ -34,11 +34,14 @@ var searchData=
   ['linessave_31',['LinesSave',['.././Py/classmrmeshpy_1_1LinesSave.html',1,'mrmeshpy']]],
   ['linessaver_32',['LinesSaver',['.././Cpp/structMR_1_1LinesSave_1_1LinesSaver.html',1,'MR::LinesSave']]],
   ['linesvisualizepropertytype_33',['LinesVisualizePropertyType',['.././Py/classmrmeshpy_1_1LinesVisualizePropertyType.html',1,'mrmeshpy']]],
-  ['loadedobject_34',['LoadedObject',['.././Cpp/structMR_1_1LoadedObject.html',1,'MR::LoadedObject'],['.././Py/classmrmeshpy_1_1LoadedObject.html',1,'mrmeshpy::LoadedObject']]],
-  ['loadedobjectmesh_35',['LoadedObjectMesh',['.././Cpp/structMR_1_1LoadedObjectMesh.html',1,'MR::LoadedObjectMesh'],['.././Py/classmrmeshpy_1_1LoadedObjectMesh.html',1,'mrmeshpy::LoadedObjectMesh']]],
-  ['loadedobjects_36',['LoadedObjects',['.././Cpp/structMR_1_1LoadedObjects.html',1,'MR::LoadedObjects'],['.././Py/classmrmeshpy_1_1LoadedObjects.html',1,'mrmeshpy::LoadedObjects']]],
-  ['loadingtiffsettings_37',['LoadingTiffSettings',['.././Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad::LoadingTiffSettings'],['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'mrmeshpy::VoxelsLoad::LoadingTiffSettings']]],
-  ['logger_38',['Logger',['.././Cpp/classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_39',['LoggingStreambuf',['.././Cpp/classMR_1_1LoggingStreambuf.html',1,'MR']]],
-  ['luttype_40',['LutType',['.././Py/classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html',1,'mrmeshpy::ObjectVoxels::VolumeRenderingParams']]]
+  ['loadedobjects_34',['LoadedObjects',['.././Cpp/structMR_1_1LoadedObjects.html',1,'MR::LoadedObjects'],['.././Py/classmrmeshpy_1_1LoadedObjects.html',1,'mrmeshpy::LoadedObjects']]],
+  ['loadedobjectt_35',['LoadedObjectT',['.././Cpp/structMR_1_1LoadedObjectT.html',1,'MR::LoadedObjectT&lt; typename ObjectT &gt;'],['.././Py/classmrmeshpy_1_1LoadedObjectT.html',1,'mrmeshpy::LoadedObjectT']]],
+  ['loadedobjectt_5fobjectlines_36',['LoadedObjectT_ObjectLines',['.././Py/classmrmeshpy_1_1LoadedObjectT__ObjectLines.html',1,'mrmeshpy']]],
+  ['loadedobjectt_5fobjectmesh_37',['LoadedObjectT_ObjectMesh',['.././Py/classmrmeshpy_1_1LoadedObjectT__ObjectMesh.html',1,'mrmeshpy']]],
+  ['loadedobjectt_5fobjectpoints_38',['LoadedObjectT_ObjectPoints',['.././Py/classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html',1,'mrmeshpy']]],
+  ['loadedobjectt_5fobjectvoxels_39',['LoadedObjectT_ObjectVoxels',['.././Py/classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html',1,'mrmeshpy']]],
+  ['loadingtiffsettings_40',['LoadingTiffSettings',['.././Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad::LoadingTiffSettings'],['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'mrmeshpy::VoxelsLoad::LoadingTiffSettings']]],
+  ['logger_41',['Logger',['.././Cpp/classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_42',['LoggingStreambuf',['.././Cpp/classMR_1_1LoggingStreambuf.html',1,'MR']]],
+  ['luttype_43',['LutType',['.././Py/classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html',1,'mrmeshpy::ObjectVoxels::VolumeRenderingParams']]]
 ];

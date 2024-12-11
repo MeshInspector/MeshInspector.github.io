@@ -40,7 +40,7 @@ var searchData=
   ['undirectededgeid_37',['UndirectedEdgeId',['../classmrmeshpy_1_1UndirectedEdgeId.html',1,'mrmeshpy']]],
   ['undirectededgeiterator_38',['UndirectedEdgeIterator',['../classmrmeshpy_1_1UndirectedEdgeIterator.html',1,'mrmeshpy']]],
   ['undirectededgemap_39',['UndirectedEdgeMap',['../classmrmeshpy_1_1UndirectedEdgeMap.html',1,'mrmeshpy']]],
-  ['undirectededges_40',['undirectedEdges',['../namespacemrmeshpy.html#ab2de122bc954f03aa72f2550048a5534',1,'mrmeshpy.undirectedEdges(PolylineTopology topology)'],['../namespacemrmeshpy.html#a4f656e0c51fd6bb71213d4bae217d450',1,'mrmeshpy.undirectedEdges(MeshTopology topology)']]],
+  ['undirectededges_40',['undirectedEdges',['../namespacemrmeshpy.html#a4f656e0c51fd6bb71213d4bae217d450',1,'mrmeshpy.undirectedEdges(MeshTopology topology)'],['../namespacemrmeshpy.html#ab2de122bc954f03aa72f2550048a5534',1,'mrmeshpy.undirectedEdges(PolylineTopology topology)']]],
   ['undirectededgescalars_41',['UndirectedEdgeScalars',['../classmrmeshpy_1_1UndirectedEdgeScalars.html',1,'mrmeshpy']]],
   ['undirectededgesetbititerator_42',['UndirectedEdgeSetBitIterator',['../classmrmeshpy_1_1UndirectedEdgeSetBitIterator.html',1,'mrmeshpy']]],
   ['undirectededgesize_43',['undirectedEdgeSize',['../classmrmeshpy_1_1MeshTopology.html#a1e650cbd8f4f715307648520de177b6f',1,'mrmeshpy.MeshTopology.undirectedEdgeSize()'],['../classmrmeshpy_1_1PolylineTopology.html#ae78fca5314a3d52f750c179d09f9dca1',1,'mrmeshpy.PolylineTopology.undirectedEdgeSize()']]],

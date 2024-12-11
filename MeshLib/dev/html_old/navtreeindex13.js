@@ -1,5 +1,11 @@
 var NAVTREEINDEX13 =
 {
+"MRTouchpadController_8h_source.html":[6,0,3,0,0,2,9,116],
+"MRTouchpadParameters_8h.html":[6,0,3,0,0,2,9,117],
+"MRTouchpadParameters_8h_source.html":[6,0,3,0,0,2,9,117],
+"MRTouchpadWin32Handler_8h.html":[6,0,3,0,0,2,9,118],
+"MRTouchpadWin32Handler_8h_source.html":[6,0,3,0,0,2,9,118],
+"MRTriDist_8h.html":[6,0,3,0,0,2,3,340],
 "MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[6,0,3,0,0,2,3,340,1],
 "MRTriDist_8h.html#aaf4d239a6cdece7da03913ad2b3a6efe":[6,0,3,0,0,2,3,340,0],
 "MRTriDist_8h_source.html":[6,0,3,0,0,2,3,340],
@@ -243,11 +249,5 @@ var NAVTREEINDEX13 =
 "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29a":[6,0,3,0,0,2,9,124,34],
 "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aa205056288e7f71c459183d3cb8d46edb":[6,0,3,0,0,2,9,124,34,0],
 "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aa4f752f80e660d3b1df1b9d0a26f74145":[6,0,3,0,0,2,9,124,34,1],
-"MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55":[6,0,3,0,0,2,9,124,34,3],
-"MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69":[6,0,3,0,0,2,9,124,34,2],
-"MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4":[6,0,3,0,0,2,9,124,24],
-"MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4a15c50e18fe41a4c178d13f28ce36173f":[6,0,3,0,0,2,9,124,24,0],
-"MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4a608b1a160478ad4e93188c1968110978":[6,0,3,0,0,2,9,124,24,2],
-"MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4ad69186af02738a9b3ced1bc5b652ba55":[6,0,3,0,0,2,9,124,24,3],
-"MRUnits_8h.html#ade788894f8f8c19c83a75d44908bc4e4ae534910aa7824f3c5aeb82fe2ad2a839":[6,0,3,0,0,2,9,124,24,1]
+"MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55":[6,0,3,0,0,2,9,124,34,3]
 };

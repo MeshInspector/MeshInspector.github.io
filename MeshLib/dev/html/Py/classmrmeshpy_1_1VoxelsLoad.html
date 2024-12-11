@@ -192,6 +192,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a00658acda1888c2f3576bb10040947e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58d2fe49221905c90b8728f9a6ab247a" id="r_a58d2fe49221905c90b8728f9a6ab247a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58d2fe49221905c90b8728f9a6ab247a">loadTiffDir</a> (<a class="el" href="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html">VoxelsLoad.LoadingTiffSettings</a> settings)</td></tr>
 <tr class="separator:a58d2fe49221905c90b8728f9a6ab247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e0f5bd58054c8cbfa5c89df9dc58df" id="r_af9e0f5bd58054c8cbfa5c89df9dc58df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html">LoadedObjectT_ObjectVoxels</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e0f5bd58054c8cbfa5c89df9dc58df">makeObjectVoxelsFromDicomFolder</a> (os.PathLike folder, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='MR::ProgressCallback{}')</td></tr>
+<tr class="separator:af9e0f5bd58054c8cbfa5c89df9dc58df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -597,6 +599,36 @@ important on Windows: in stream must be open in binary mode
 </table>
 </div><div class="memdoc">
 <pre class="fragment">Load voxels from a set of TIFF files
+</pre> 
+</div>
+</div>
+<a id="af9e0f5bd58054c8cbfa5c89df9dc58df" name="af9e0f5bd58054c8cbfa5c89df9dc58df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9e0f5bd58054c8cbfa5c89df9dc58df">&#9670;&#160;</a></span>makeObjectVoxelsFromDicomFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html">LoadedObjectT_ObjectVoxels</a> mrmeshpy.VoxelsLoad.makeObjectVoxelsFromDicomFolder </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>folder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::ProgressCallback{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Loads 3D volumetric data from dicom-files in given folder, and converts them into an ObjectVoxels
 </pre> 
 </div>
 </div>

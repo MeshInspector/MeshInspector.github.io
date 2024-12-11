@@ -863,14 +863,11 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LineSegm.html">LineSegm</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of loading (e.g. from a file) as one object (with possible subobjects)  <a href="structMR_1_1LoadedObject.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LoadedObjectMesh.html">LoadedObjectMesh</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of mesh loading (e.g. from a file) as one object  <a href="structMR_1_1LoadedObjectMesh.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LoadedObjects.html">LoadedObjects</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of loading (e.g. from a file) as a number of objects  <a href="structMR_1_1LoadedObjects.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of loading (e.g. from a file) as one object (with possible subobjects)  <a href="structMR_1_1LoadedObjectT.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Logger.html">Logger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make default spd logger.  <a href="classMR_1_1Logger.html#details">More...</a><br /></td></tr>
@@ -1915,6 +1912,16 @@ Typedefs</h2></td></tr>
 <tr class="separator:a801810876bff73403d8afdb3cb7a4731"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dc1331c485c74f9cb1a85cdd31ae071" id="r_a9dc1331c485c74f9cb1a85cdd31ae071"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dc1331c485c74f9cb1a85cdd31ae071">ObjectPtr</a> = std::shared_ptr&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;</td></tr>
 <tr class="separator:a9dc1331c485c74f9cb1a85cdd31ae071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817cc816192c1d84ef3abb186f9ea3a1" id="r_a817cc816192c1d84ef3abb186f9ea3a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;</td></tr>
+<tr class="separator:a817cc816192c1d84ef3abb186f9ea3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ac2506f8a77a0033ef426288cadc2a" id="r_a61ac2506f8a77a0033ef426288cadc2a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61ac2506f8a77a0033ef426288cadc2a">LoadedObjectMesh</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>&gt;</td></tr>
+<tr class="separator:a61ac2506f8a77a0033ef426288cadc2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ff8586ed04fc108cf09d6fa92feb62" id="r_ad5ff8586ed04fc108cf09d6fa92feb62"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5ff8586ed04fc108cf09d6fa92feb62">LoadedObjectPoints</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>&gt;</td></tr>
+<tr class="separator:ad5ff8586ed04fc108cf09d6fa92feb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb97c6fbff812f8691f1158b81c775c" id="r_a1fb97c6fbff812f8691f1158b81c775c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb97c6fbff812f8691f1158b81c775c">LoadedObjectLines</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a>&gt;</td></tr>
+<tr class="separator:a1fb97c6fbff812f8691f1158b81c775c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7815f6f3c7047923b033eba533fa97f8" id="r_a7815f6f3c7047923b033eba533fa97f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7815f6f3c7047923b033eba533fa97f8">LoadedObjectVoxels</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>&gt;</td></tr>
+<tr class="separator:a7815f6f3c7047923b033eba533fa97f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e1577ec0c0eb82d6a29e4b16e6661a6" id="r_a2e1577ec0c0eb82d6a29e4b16e6661a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e1577ec0c0eb82d6a29e4b16e6661a6">TrianglesRepetitions</a> = std::array&lt;int, 4&gt;</td></tr>
 <tr class="separator:a2e1577ec0c0eb82d6a29e4b16e6661a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga285ea5cd9fb638c90fec0099f526c057" id="r_ga285ea5cd9fb638c90fec0099f526c057"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">TriangleCallback</a> = std::function&lt;<a class="el" href="group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">ProcessOneResult</a>( const Vector3f &amp; p, FaceId f, const Vector3f &amp; q, float distSq )&gt;</td></tr>
@@ -2761,9 +2768,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad99d01aba3a14b1b917f72e9f16b58d6" id="r_ad99d01aba3a14b1b917f72e9f16b58d6"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad99d01aba3a14b1b917f72e9f16b58d6">deserializeObjectTreeFrom3mf</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memitem:ad99d01aba3a14b1b917f72e9f16b58d6" id="r_ad99d01aba3a14b1b917f72e9f16b58d6"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad99d01aba3a14b1b917f72e9f16b58d6">deserializeObjectTreeFrom3mf</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="separator:ad99d01aba3a14b1b917f72e9f16b58d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98125a18f23f4963afa5cb878f03add6" id="r_a98125a18f23f4963afa5cb878f03add6"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98125a18f23f4963afa5cb878f03add6">deserializeObjectTreeFromModel</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memitem:a98125a18f23f4963afa5cb878f03add6" id="r_a98125a18f23f4963afa5cb878f03add6"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98125a18f23f4963afa5cb878f03add6">deserializeObjectTreeFromModel</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="separator:a98125a18f23f4963afa5cb878f03add6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9533f8301be7833fd9eb7dea4a8dc4a9" id="r_a9533f8301be7833fd9eb7dea4a8dc4a9"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9533f8301be7833fd9eb7dea4a8dc4a9">deserializeObjectTreeFromGltf</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="separator:a9533f8301be7833fd9eb7dea4a8dc4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4148,9 +4155,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8adf5f7ec5a447160198b2612ddb0b11" id="r_a8adf5f7ec5a447160198b2612ddb0b11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8adf5f7ec5a447160198b2612ddb0b11">trimWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1TrimWithPlaneParams.html">TrimWithPlaneParams</a> &amp;params, const <a class="el" href="structMR_1_1TrimOptionalOutput.html">TrimOptionalOutput</a> &amp;optOut={})</td></tr>
 <tr class="memdesc:a8adf5f7ec5a447160198b2612ddb0b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <br /></td></tr>
 <tr class="separator:a8adf5f7ec5a447160198b2612ddb0b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05a90545ccede866eeb9cab0f38faf1b" id="r_a05a90545ccede866eeb9cab0f38faf1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a90545ccede866eeb9cab0f38faf1b">fromSceneMison</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memitem:a05a90545ccede866eeb9cab0f38faf1b" id="r_a05a90545ccede866eeb9cab0f38faf1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a90545ccede866eeb9cab0f38faf1b">fromSceneMison</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="separator:a05a90545ccede866eeb9cab0f38faf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f19520a72fc0cffa2ca3fa219ecb489" id="r_a0f19520a72fc0cffa2ca3fa219ecb489"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f19520a72fc0cffa2ca3fa219ecb489">fromSceneMison</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memitem:a0f19520a72fc0cffa2ca3fa219ecb489" id="r_a0f19520a72fc0cffa2ca3fa219ecb489"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f19520a72fc0cffa2ca3fa219ecb489">fromSceneMison</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="separator:a0f19520a72fc0cffa2ca3fa219ecb489"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe08d25a222aedee5d0ac48491e4d05" id="r_abbe08d25a222aedee5d0ac48491e4d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe08d25a222aedee5d0ac48491e4d05">makeMovementBuildBody</a> (const <a class="el" href="#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> &amp;body, const <a class="el" href="#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a> &amp;trajectory, const <a class="el" href="structMR_1_1MovementBuildBodyParams.html">MovementBuildBodyParams</a> &amp;params={})</td></tr>
 <tr class="separator:abbe08d25a222aedee5d0ac48491e4d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5843,10 +5850,10 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memdesc:ga0fe533dcbd844a89077b18ebd4dda8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number  <br /></td></tr>
 <tr class="separator:ga0fe533dcbd844a89077b18ebd4dda8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:ga16cd43ef755c087f9358dc1bb5473119" id="r_ga16cd43ef755c087f9358dc1bb5473119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObjectMesh.html">LoadedObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga16cd43ef755c087f9358dc1bb5473119">makeObjectMeshFromFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ga16cd43ef755c087f9358dc1bb5473119" id="r_ga16cd43ef755c087f9358dc1bb5473119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a61ac2506f8a77a0033ef426288cadc2a">LoadedObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga16cd43ef755c087f9358dc1bb5473119">makeObjectMeshFromFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:ga16cd43ef755c087f9358dc1bb5473119"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from given file in new object  <br /></td></tr>
 <tr class="separator:ga16cd43ef755c087f9358dc1bb5473119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d6fce928c9225edf56e248b7428e65d" id="r_ga1d6fce928c9225edf56e248b7428e65d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga1d6fce928c9225edf56e248b7428e65d">makeObjectFromMeshFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}, bool returnOnlyMesh=false)</td></tr>
+<tr class="memitem:ga1d6fce928c9225edf56e248b7428e65d" id="r_ga1d6fce928c9225edf56e248b7428e65d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga1d6fce928c9225edf56e248b7428e65d">makeObjectFromMeshFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}, bool returnOnlyMesh=false)</td></tr>
 <tr class="memdesc:ga1d6fce928c9225edf56e248b7428e65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads data from given file and makes either <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> (if the file has points but not faces)  <br /></td></tr>
 <tr class="separator:ga1d6fce928c9225edf56e248b7428e65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga49f50b3f8a8b62d1de7af24264eac759" id="r_ga49f50b3f8a8b62d1de7af24264eac759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga49f50b3f8a8b62d1de7af24264eac759">makeObjectLinesFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
@@ -5866,15 +5873,15 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:ga01ad9a53501f3ed7609ba0a65b9ff422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa2082792bceb5a2dd3b18ff5693f0441" id="r_gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441">isSupportedFileInSubfolders</a> (const std::filesystem::path &amp;folder)</td></tr>
 <tr class="separator:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5d0bc0b88e82b7ce5e75546d50d41d64" id="r_ga5d0bc0b88e82b7ce5e75546d50d41d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga5d0bc0b88e82b7ce5e75546d50d41d64">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memitem:ga5d0bc0b88e82b7ce5e75546d50d41d64" id="r_ga5d0bc0b88e82b7ce5e75546d50d41d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga5d0bc0b88e82b7ce5e75546d50d41d64">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="memdesc:ga5d0bc0b88e82b7ce5e75546d50d41d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <br /></td></tr>
 <tr class="separator:ga5d0bc0b88e82b7ce5e75546d50d41d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga873b67818008b890a9733f438d361235" id="r_ga873b67818008b890a9733f438d361235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga873b67818008b890a9733f438d361235">loadSceneFromAnySupportedFormat</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memitem:ga873b67818008b890a9733f438d361235" id="r_ga873b67818008b890a9733f438d361235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga873b67818008b890a9733f438d361235">loadSceneFromAnySupportedFormat</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="separator:ga873b67818008b890a9733f438d361235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5058cc4a63ce3a27970db1903d9c221d" id="r_ga5058cc4a63ce3a27970db1903d9c221d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d">deserializeObjectTree</a> (const std::filesystem::path &amp;path, const <a class="el" href="#a3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> &amp;postDecompress={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
+<tr class="memitem:ga5058cc4a63ce3a27970db1903d9c221d" id="r_ga5058cc4a63ce3a27970db1903d9c221d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d">deserializeObjectTree</a> (const std::filesystem::path &amp;path, const <a class="el" href="#a3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> &amp;postDecompress={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
 <tr class="memdesc:ga5058cc4a63ce3a27970db1903d9c221d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene file (zip/mru)  <br /></td></tr>
 <tr class="separator:ga5058cc4a63ce3a27970db1903d9c221d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf9b67bada243a640e8a520638c9771be" id="r_gaf9b67bada243a640e8a520638c9771be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gaf9b67bada243a640e8a520638c9771be">deserializeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
+<tr class="memitem:gaf9b67bada243a640e8a520638c9771be" id="r_gaf9b67bada243a640e8a520638c9771be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gaf9b67bada243a640e8a520638c9771be">deserializeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
 <tr class="memdesc:gaf9b67bada243a640e8a520638c9771be"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene folder  <br /></td></tr>
 <tr class="separator:gaf9b67bada243a640e8a520638c9771be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
@@ -7205,6 +7212,76 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#a22626b510a506d8dad6a4ccf8b3db9a1">MR::LineSegm3</a> = <a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt;<a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;T&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a817cc816192c1d84ef3abb186f9ea3a1" name="a817cc816192c1d84ef3abb186f9ea3a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a817cc816192c1d84ef3abb186f9ea3a1">&#9670;&#160;</a></span>LoadedObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">MR::LoadedObject</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fb97c6fbff812f8691f1158b81c775c" name="a1fb97c6fbff812f8691f1158b81c775c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb97c6fbff812f8691f1158b81c775c">&#9670;&#160;</a></span>LoadedObjectLines</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a1fb97c6fbff812f8691f1158b81c775c">MR::LoadedObjectLines</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61ac2506f8a77a0033ef426288cadc2a" name="a61ac2506f8a77a0033ef426288cadc2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ac2506f8a77a0033ef426288cadc2a">&#9670;&#160;</a></span>LoadedObjectMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a61ac2506f8a77a0033ef426288cadc2a">MR::LoadedObjectMesh</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5ff8586ed04fc108cf09d6fa92feb62" name="ad5ff8586ed04fc108cf09d6fa92feb62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ff8586ed04fc108cf09d6fa92feb62">&#9670;&#160;</a></span>LoadedObjectPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ad5ff8586ed04fc108cf09d6fa92feb62">MR::LoadedObjectPoints</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7815f6f3c7047923b033eba533fa97f8" name="a7815f6f3c7047923b033eba533fa97f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7815f6f3c7047923b033eba533fa97f8">&#9670;&#160;</a></span>LoadedObjectVoxels</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a7815f6f3c7047923b033eba533fa97f8">MR::LoadedObjectVoxels</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -12700,7 +12777,7 @@ template&lt;typename R , typename E , typename... Args&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt; MR::deserializeObjectTreeFrom3mf </td>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt; MR::deserializeObjectTreeFrom3mf </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
         </tr>
@@ -12742,7 +12819,7 @@ template&lt;typename R , typename E , typename... Args&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt; MR::deserializeObjectTreeFromModel </td>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt; MR::deserializeObjectTreeFromModel </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
         </tr>
@@ -15975,7 +16052,7 @@ template&lt;typename F &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt; MR::fromSceneMison </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt; MR::fromSceneMison </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -16000,7 +16077,7 @@ element fields:<br  />
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObject.html">LoadedObject</a> &gt; MR::fromSceneMison </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt; MR::fromSceneMison </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>

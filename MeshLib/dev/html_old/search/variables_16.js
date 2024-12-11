@@ -2,7 +2,7 @@ var searchData=
 [
   ['w_0',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w']]],
   ['warning_1',['warning',['../structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e',1,'MR::GcodeProcessor::BaseAction']]],
-  ['warnings_2',['warnings',['../structMR_1_1LoadedObject.html#a732e24accb9e16affdd977bf451431fa',1,'MR::LoadedObject::warnings'],['../structMR_1_1LoadedObjectMesh.html#a26a39f827e1c8926258da20bdf95cd76',1,'MR::LoadedObjectMesh::warnings'],['../structMR_1_1LoadedObjects.html#a4a78ecdda3d1b42586d0d6e6e6e6bd0e',1,'MR::LoadedObjects::warnings']]],
+  ['warnings_2',['warnings',['../structMR_1_1LoadedObjectT.html#aabc1e6add51daf7ce715234cb96c9805',1,'MR::LoadedObjectT::warnings'],['../structMR_1_1LoadedObjects.html#a4a78ecdda3d1b42586d0d6e6e6e6bd0e',1,'MR::LoadedObjects::warnings']]],
   ['warningsummary_3',['warningSummary',['../structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49',1,'MR::SceneLoad::SceneLoadResult']]],
   ['weight_4',['weight',['../structMR_1_1ICPPairData.html#acade73682f0a4e356ccf90131e1a5fa2',1,'MR::ICPPairData::weight'],['../structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760',1,'MR::WeightedVertex::weight'],['../structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5c3e6b9bc3389cb66a4ecf6adb3f6091',1,'MR::TriangulationHelpers::FanOptimizerQueueElement::weight'],['../structMRICPPairData.html#a5d766d30128740e59a1a46f3c070f04d',1,'MRICPPairData::weight']]],
   ['weights_5',['weights',['../structMR_1_1MeshRelaxParams.html#a41780c569c9092f50274655744456aea',1,'MR::MeshRelaxParams']]],

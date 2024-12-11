@@ -1,5 +1,11 @@
 var NAVTREEINDEX12 =
 {
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a91d61b116b62af78401ebc51d528bb70":[6,0,3,0,0,2,9,101,1,9],
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a9c4db36999e5d39b424f5e6848a9ee29":[6,0,3,0,0,2,9,101,1,25],
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a9cd8ad9979a5ae8c18a46dec2d0a64d1":[6,0,3,0,0,2,9,101,1,2],
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6aa2797d87231a69ce3d8da78b002cc51d":[6,0,3,0,0,2,9,101,1,8],
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6ab52a20288121c91fd28eb092c13afcb5":[6,0,3,0,0,2,9,101,1,23],
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6ace41326cb71ea611a16c66e3a9c04c86":[6,0,3,0,0,2,9,101,1,13],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6ad07052c5ba42bf2717dea0c37df102bc":[6,0,3,0,0,2,9,101,1,4],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6ad3672908346dd06a39a9a0d1f47e92a9":[6,0,3,0,0,2,9,101,1,17],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6adde7ed1f4150bd279742a964ed597458":[6,0,3,0,0,2,9,101,1,30],
@@ -243,11 +249,5 @@ var NAVTREEINDEX12 =
 "MRTouchesController_8h_source.html":[6,0,3,0,0,2,9,114],
 "MRTouchpadCocoaHandler_8h.html":[6,0,3,0,0,2,9,115],
 "MRTouchpadCocoaHandler_8h_source.html":[6,0,3,0,0,2,9,115],
-"MRTouchpadController_8h.html":[6,0,3,0,0,2,9,116],
-"MRTouchpadController_8h_source.html":[6,0,3,0,0,2,9,116],
-"MRTouchpadParameters_8h.html":[6,0,3,0,0,2,9,117],
-"MRTouchpadParameters_8h_source.html":[6,0,3,0,0,2,9,117],
-"MRTouchpadWin32Handler_8h.html":[6,0,3,0,0,2,9,118],
-"MRTouchpadWin32Handler_8h_source.html":[6,0,3,0,0,2,9,118],
-"MRTriDist_8h.html":[6,0,3,0,0,2,3,340]
+"MRTouchpadController_8h.html":[6,0,3,0,0,2,9,116]
 };

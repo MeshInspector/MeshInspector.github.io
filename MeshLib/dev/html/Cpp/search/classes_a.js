@@ -20,10 +20,9 @@ var searchData=
   ['linesegm_17',['LineSegm',['../structMR_1_1LineSegm.html',1,'MR']]],
   ['linesloader_18',['LinesLoader',['../structMR_1_1LinesLoad_1_1LinesLoader.html',1,'MR::LinesLoad']]],
   ['linessaver_19',['LinesSaver',['../structMR_1_1LinesSave_1_1LinesSaver.html',1,'MR::LinesSave']]],
-  ['loadedobject_20',['LoadedObject',['../structMR_1_1LoadedObject.html',1,'MR']]],
-  ['loadedobjectmesh_21',['LoadedObjectMesh',['../structMR_1_1LoadedObjectMesh.html',1,'MR']]],
-  ['loadedobjects_22',['LoadedObjects',['../structMR_1_1LoadedObjects.html',1,'MR']]],
-  ['loadingtiffsettings_23',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
-  ['logger_24',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_25',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
+  ['loadedobjects_20',['LoadedObjects',['../structMR_1_1LoadedObjects.html',1,'MR']]],
+  ['loadedobjectt_21',['LoadedObjectT',['../structMR_1_1LoadedObjectT.html',1,'MR']]],
+  ['loadingtiffsettings_22',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
+  ['logger_23',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_24',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
 ];

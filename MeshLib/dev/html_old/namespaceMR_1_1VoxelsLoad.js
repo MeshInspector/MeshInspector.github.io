@@ -25,5 +25,6 @@ var namespaceMR_1_1VoxelsLoad =
     [ "loadDicomFolder", "namespaceMR_1_1VoxelsLoad.html#a657ee4e33406aee8e0c2697549cf163a", null ],
     [ "loadDicomsFolder", "namespaceMR_1_1VoxelsLoad.html#a67103f019fb79e3fcbe01ef3b1fbc7a1", null ],
     [ "loadDicomsFolderTreeAsVdb", "namespaceMR_1_1VoxelsLoad.html#ad79032cc6ef1a0e389097a70c1000de3", null ],
-    [ "loadTiffDir", "namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9", null ]
+    [ "loadTiffDir", "namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9", null ],
+    [ "makeObjectVoxelsFromDicomFolder", "namespaceMR_1_1VoxelsLoad.html#a197cb088763f0f5ea3201f5badb751a4", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"MRIOFormatsRegistry_8h.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[6,0,3,0,0,2,3,138,46],
 "MRIOFormatsRegistry_8h.html#a0b87b3918d63624f559f15d25ecb9c3a":[6,0,3,0,0,2,3,138,47],
 "MRIOFormatsRegistry_8h.html#a0bcaaec3c80b02829570a7670fe6d7da":[6,0,3,0,0,2,3,138,22],
 "MRIOFormatsRegistry_8h.html#a0f81139db68679c906d09ff033071478":[6,0,3,0,0,2,3,138,44],
@@ -207,7 +208,12 @@ var NAVTREEINDEX3 =
 "MRLinesShader_8h.html#ae8a18c80a62a4c8e474c1616dfe05ea5":[6,0,3,0,0,2,9,35,3],
 "MRLinesShader_8h_source.html":[6,0,3,0,0,2,9,35],
 "MRLoadedObjects_8h.html":[6,0,3,0,0,2,3,153],
-"MRLoadedObjects_8h.html#a9dc1331c485c74f9cb1a85cdd31ae071":[6,0,3,0,0,2,3,153,3],
+"MRLoadedObjects_8h.html#a1fb97c6fbff812f8691f1158b81c775c":[6,0,3,0,0,2,3,153,3],
+"MRLoadedObjects_8h.html#a61ac2506f8a77a0033ef426288cadc2a":[6,0,3,0,0,2,3,153,4],
+"MRLoadedObjects_8h.html#a7815f6f3c7047923b033eba533fa97f8":[6,0,3,0,0,2,3,153,6],
+"MRLoadedObjects_8h.html#a817cc816192c1d84ef3abb186f9ea3a1":[6,0,3,0,0,2,3,153,2],
+"MRLoadedObjects_8h.html#a9dc1331c485c74f9cb1a85cdd31ae071":[6,0,3,0,0,2,3,153,7],
+"MRLoadedObjects_8h.html#ad5ff8586ed04fc108cf09d6fa92feb62":[6,0,3,0,0,2,3,153,5],
 "MRLoadedObjects_8h_source.html":[6,0,3,0,0,2,3,153],
 "MRLocalTriangulations_8h.html":[6,0,3,0,0,2,3,154],
 "MRLocalTriangulations_8h.html#a0d986d210124a86a1e5a8a4b4b25e3da":[6,0,3,0,0,2,3,154,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX3 =
 "MRMakeRigidXf_8h.html":[6,0,3,0,0,2,3,158],
 "MRMakeRigidXf_8h.html#a433a8d6bdf429a6aeef4abc1a9f05798":[6,0,3,0,0,2,3,158,1],
 "MRMakeRigidXf_8h_source.html":[6,0,3,0,0,2,3,158],
-"MRMakeSlot_8h.html":[6,0,3,0,0,2,9,37],
-"MRMakeSlot_8h.html#a2c688df55bdadf35189e97880b6dc592":[6,0,3,0,0,2,9,37,0],
-"MRMakeSlot_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc":[6,0,3,0,0,2,9,37,1],
-"MRMakeSlot_8h_source.html":[6,0,3,0,0,2,9,37],
-"MRMapEdge_8h.html":[6,0,3,0,0,2,3,160],
-"MRMapEdge_8h.html#a32139a9d419606425485a064d381a8ce":[6,0,3,0,0,2,3,160,4],
-"MRMapEdge_8h.html#a41ced3058fe68e59ccd27b7b81bf5e3c":[6,0,3,0,0,2,3,160,1]
+"MRMakeSlot_8h.html":[6,0,3,0,0,2,9,37]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMultiwayICP_8h_source.html":[6,0,3,0,0,2,4,41],
+"MRMeshC_2MROffset_8h.html":[6,0,3,0,0,2,4,42],
+"MRMeshC_2MROffset_8h.html#a183827f4c28d4b4f67cb0bfb57d821f9":[6,0,3,0,0,2,4,42,3],
+"MRMeshC_2MROffset_8h.html#a2fef3b2c0bbec42a17beb4306d09871a":[6,0,3,0,0,2,4,42,13],
+"MRMeshC_2MROffset_8h.html#a33acc97c07deb6d568f02260efaad5dd":[6,0,3,0,0,2,4,42,4],
+"MRMeshC_2MROffset_8h.html#a58236e50a20a95e295abe22090934da0":[6,0,3,0,0,2,4,42,6],
 "MRMeshC_2MROffset_8h.html#a6c2edf878c38fb1033deae07ea94d45e":[6,0,3,0,0,2,4,42,9],
 "MRMeshC_2MROffset_8h.html#a945dcf32c33543b5dddd40dcab1efb2c":[6,0,3,0,0,2,4,42,2],
 "MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119":[6,0,3,0,0,2,4,42,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshTrimWithPlane_8h_source.html":[6,0,3,0,0,2,3,212],
 "MRMesh_2MRAffineXf_8h.html":[6,0,3,0,0,2,3,12],
 "MRMesh_2MRAffineXf_8h_source.html":[6,0,3,0,0,2,3,12],
-"MRMesh_2MRBitSet_8h.html":[6,0,3,0,0,2,3,27],
-"MRMesh_2MRBitSet_8h.html#ab38c1f4b0a6095561c5efffdb9486c15":[6,0,3,0,0,2,3,27,0],
-"MRMesh_2MRBitSet_8h_source.html":[6,0,3,0,0,2,3,27],
-"MRMesh_2MRBooleanOperation_8h.html":[6,0,3,0,0,2,3,29],
-"MRMesh_2MRBooleanOperation_8h_source.html":[6,0,3,0,0,2,3,29],
-"MRMesh_2MRBox_8h.html":[6,0,3,0,0,2,3,30],
-"MRMesh_2MRBox_8h_source.html":[6,0,3,0,0,2,3,30]
+"MRMesh_2MRBitSet_8h.html":[6,0,3,0,0,2,3,27]
 };
