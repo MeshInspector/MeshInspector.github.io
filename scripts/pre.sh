@@ -59,5 +59,3 @@ if [ -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
         sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}|" -i Doxyfile${MODULE}
     done
 fi
-
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibCpp.tag=./Cpp MeshLib/MeshLibPy.tag=./Py|" -i DoxyfileMain
