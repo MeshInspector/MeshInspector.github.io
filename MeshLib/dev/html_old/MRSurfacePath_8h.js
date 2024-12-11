@@ -15,7 +15,7 @@ var MRSurfacePath_8h =
     ] ],
     [ "computeClosestSurfacePathTargets", "MRSurfacePath_8h.html#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5", null ],
     [ "computeFastMarchingPath", "MRSurfacePath_8h.html#ga52601966a3d67cfd9b26ad1e586cd6f4", null ],
-    [ "computeGeodesicPath", "MRSurfacePath_8h.html#gacf93df5d1fb98fea80e577a15e2413eb", null ],
+    [ "computeGeodesicPath", "MRSurfacePath_8h.html#ga8359c707ab87c6591777e5c2809c7468", null ],
     [ "computeGeodesicPathApprox", "MRSurfacePath_8h.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca", null ],
     [ "computeSteepestDescentPath", "MRSurfacePath_8h.html#ga563ea0f701cd05e6995193631495466e", null ],
     [ "computeSteepestDescentPath", "MRSurfacePath_8h.html#ga30a8af69c2b3595b324d9f12a008c9cb", null ],

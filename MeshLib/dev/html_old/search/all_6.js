@@ -324,7 +324,7 @@ var searchData=
   ['computeflowsperbasin_321',['computeFlowsPerBasin',['../classMR_1_1FlowAggregator.html#a7234a41d4570f6f8501446c4b7af87a2',1,'MR::FlowAggregator::computeFlowsPerBasin(const std::vector&lt; FlowOrigin &gt; &amp;starts) const'],['../classMR_1_1FlowAggregator.html#ad0e556ea9f008ea75d723c36bed3fa4e',1,'MR::FlowAggregator::computeFlowsPerBasin(const std::vector&lt; MeshTriPoint &gt; &amp;starts) const'],['../classMR_1_1FlowAggregator.html#a83e4e9d4e05b0025e65c0b7c2cf64d44',1,'MR::FlowAggregator::computeFlowsPerBasin(size_t numStarts, const std::function&lt; MeshTriPoint(size_t)&gt; &amp;startById, const std::function&lt; float(size_t)&gt; &amp;amountById) const']]],
   ['computeformatvertex_322',['computeFormAtVertex',['../group__DecimateGroup.html#ga63b25dc67835322451fa388b24a70301',1,'MR']]],
   ['computeformsatvertices_323',['computeFormsAtVertices',['../group__DecimateGroup.html#ga708339c034b53108c45f1987a682cea0',1,'MR']]],
-  ['computegeodesicpath_324',['computeGeodesicPath',['../group__SurfacePathSubgroup.html#gacf93df5d1fb98fea80e577a15e2413eb',1,'MR']]],
+  ['computegeodesicpath_324',['computeGeodesicPath',['../group__SurfacePathSubgroup.html#ga8359c707ab87c6591777e5c2809c7468',1,'MR']]],
   ['computegeodesicpathapprox_325',['computeGeodesicPathApprox',['../group__SurfacePathSubgroup.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca',1,'MR']]],
   ['computeinspherethicknessatvertices_326',['computeInSphereThicknessAtVertices',['../namespaceMR.html#a3012b3adfc77002b6a98aa0d6d3df46d',1,'MR']]],
   ['computemeshnormals_327',['computeMeshNormals',['../group__MeshNormalsGroup.html#ga9d74c5dbc254d3fdb328a8ac37ba7529',1,'MR']]],

@@ -94,7 +94,7 @@ var searchData=
   ['computeflowsperbasin_91',['computeFlowsPerBasin',['../classmrmeshpy_1_1FlowAggregator.html#ad6acdfdf82fcaff04e03a0a2e0340899',1,'mrmeshpy.FlowAggregator.computeFlowsPerBasin(self, std_vector_FlowOrigin starts)'],['../classmrmeshpy_1_1FlowAggregator.html#ad4b199014b955fd39b0f10057da2f2e7',1,'mrmeshpy.FlowAggregator.computeFlowsPerBasin(self, std_vector_MeshTriPoint starts)'],['../classmrmeshpy_1_1FlowAggregator.html#a8ce86ef5823edc67abca2f693b31c3ce',1,'mrmeshpy.FlowAggregator.computeFlowsPerBasin(self, int numStarts, func_MeshTriPoint_from_unsigned_long startById, func_float_from_unsigned_long amountById)']]],
   ['computeformatvertex_92',['computeFormAtVertex',['../namespacemrmeshpy.html#a5f9cd61de2520dfcbb73275e995b2971',1,'mrmeshpy']]],
   ['computeformsatvertices_93',['computeFormsAtVertices',['../namespacemrmeshpy.html#a10d6c8a78e835a94fd6ad1062142f7f8',1,'mrmeshpy']]],
-  ['computegeodesicpath_94',['computeGeodesicPath',['../namespacemrmeshpy.html#a8c673b3cf1b15f0ee2b67431a75998d6',1,'mrmeshpy']]],
+  ['computegeodesicpath_94',['computeGeodesicPath',['../namespacemrmeshpy.html#ad94f634b90545055e826375b4c96d96c',1,'mrmeshpy']]],
   ['computegeodesicpathapprox_95',['computeGeodesicPathApprox',['../namespacemrmeshpy.html#a2e1dea111f129f228d6ea97a0584b811',1,'mrmeshpy']]],
   ['computeinspherethicknessatvertices_96',['computeInSphereThicknessAtVertices',['../namespacemrmeshpy.html#afbb988a45bdd55ad2930ba331eec0dc9',1,'mrmeshpy']]],
   ['computemeshnormals_97',['computeMeshNormals',['../namespacemrmeshpy.html#a4812bf44fca343257dc9f61c8b836a3f',1,'mrmeshpy']]],

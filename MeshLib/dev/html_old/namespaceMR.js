@@ -1609,7 +1609,7 @@ var namespaceMR =
     [ "computeFastMarchingPath", "group__SurfacePathSubgroup.html#ga52601966a3d67cfd9b26ad1e586cd6f4", null ],
     [ "computeFormAtVertex", "group__DecimateGroup.html#ga63b25dc67835322451fa388b24a70301", null ],
     [ "computeFormsAtVertices", "group__DecimateGroup.html#ga708339c034b53108c45f1987a682cea0", null ],
-    [ "computeGeodesicPath", "group__SurfacePathSubgroup.html#gacf93df5d1fb98fea80e577a15e2413eb", null ],
+    [ "computeGeodesicPath", "group__SurfacePathSubgroup.html#ga8359c707ab87c6591777e5c2809c7468", null ],
     [ "computeGeodesicPathApprox", "group__SurfacePathSubgroup.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca", null ],
     [ "computeInSphereThicknessAtVertices", "namespaceMR.html#a3012b3adfc77002b6a98aa0d6d3df46d", null ],
     [ "computeMeshNormals", "group__MeshNormalsGroup.html#ga9d74c5dbc254d3fdb328a8ac37ba7529", null ],

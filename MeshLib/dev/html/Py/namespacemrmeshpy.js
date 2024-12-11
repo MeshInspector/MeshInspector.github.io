@@ -1192,7 +1192,7 @@ var namespacemrmeshpy =
     [ "computeFastMarchingPath", "namespacemrmeshpy.html#ae1e01c430e944aeb4ddba7138e717229", null ],
     [ "computeFormAtVertex", "namespacemrmeshpy.html#a5f9cd61de2520dfcbb73275e995b2971", null ],
     [ "computeFormsAtVertices", "namespacemrmeshpy.html#a10d6c8a78e835a94fd6ad1062142f7f8", null ],
-    [ "computeGeodesicPath", "namespacemrmeshpy.html#a8c673b3cf1b15f0ee2b67431a75998d6", null ],
+    [ "computeGeodesicPath", "namespacemrmeshpy.html#ad94f634b90545055e826375b4c96d96c", null ],
     [ "computeGeodesicPathApprox", "namespacemrmeshpy.html#a2e1dea111f129f228d6ea97a0584b811", null ],
     [ "computeInSphereThicknessAtVertices", "namespacemrmeshpy.html#afbb988a45bdd55ad2930ba331eec0dc9", null ],
     [ "computeMeshNormals", "namespacemrmeshpy.html#a4812bf44fca343257dc9f61c8b836a3f", null ],
