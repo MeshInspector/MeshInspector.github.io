@@ -161,7 +161,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">ancV1 = mesh.topology.getValidVerts().find_last()</div>
 <div class="line"><span class="comment"># Mark anchor points in free area</span></div>
 <div class="line">freeVerts = mm.VertBitSet()</div>
-<div class="line">freeVerts.resize(mesh.topology.getValidVerts().size())</div>
+<div class="line">freeVerts.resize(mesh.topology.getValidVerts().<a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>())</div>
 <div class="line">freeVerts.set( ancV0, <span class="keyword">True</span> )</div>
 <div class="line">freeVerts.set( ancV1, <span class="keyword">True</span> )</div>
 <div class="line"><span class="comment"># Expand free area</span></div>
@@ -183,6 +183,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save deformed mesh</span></div>
 <div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>)</div>
+<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
