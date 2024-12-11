@@ -1,0 +1,1070 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:addd6e6da6a678055d5206212bfb3658a" id="r_addd6e6da6a678055d5206212bfb3658a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addd6e6da6a678055d5206212bfb3658a">__init__</a> (self)</td></tr>
+<tr class="separator:addd6e6da6a678055d5206212bfb3658a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8aee0b283544ad36dcc72aa1fb23c1" id="r_a1a8aee0b283544ad36dcc72aa1fb23c1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a8aee0b283544ad36dcc72aa1fb23c1">__init__</a> (self, int <a class="el" href="#aa41a8bca8b67b979acc3ac6d6b6f7027">size</a>)</td></tr>
+<tr class="separator:a1a8aee0b283544ad36dcc72aa1fb23c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3963b578c1d764a4f7e46be8c1830c8a" id="r_a3963b578c1d764a4f7e46be8c1830c8a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3963b578c1d764a4f7e46be8c1830c8a">__init__</a> (self, int <a class="el" href="#aa41a8bca8b67b979acc3ac6d6b6f7027">size</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> val)</td></tr>
+<tr class="separator:a3963b578c1d764a4f7e46be8c1830c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c99454f6658f5773b08731dd577471" id="r_a30c99454f6658f5773b08731dd577471"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c99454f6658f5773b08731dd577471">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html">std_vector_WatershedGraph_BdInfo</a> vec)</td></tr>
+<tr class="separator:a30c99454f6658f5773b08731dd577471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6169f77234c518e440545a025bc173a6" id="r_a6169f77234c518e440545a025bc173a6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6169f77234c518e440545a025bc173a6">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html">Vector_WatershedGraph_BdInfo_GraphEdgeId</a> arg0)</td></tr>
+<tr class="separator:a6169f77234c518e440545a025bc173a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc58f88eae8fa38e455d33138a59ec8" id="r_acfc58f88eae8fa38e455d33138a59ec8"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfc58f88eae8fa38e455d33138a59ec8">__iter__</a> (self)</td></tr>
+<tr class="separator:acfc58f88eae8fa38e455d33138a59ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e6bb3a35ee336ad1fbdbce0d770248" id="r_a21e6bb3a35ee336ad1fbdbce0d770248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21e6bb3a35ee336ad1fbdbce0d770248">autoResizeAt</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> i)</td></tr>
+<tr class="separator:a21e6bb3a35ee336ad1fbdbce0d770248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2caa87ef0e3f25ebdee3ddceea511d91" id="r_a2caa87ef0e3f25ebdee3ddceea511d91"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2caa87ef0e3f25ebdee3ddceea511d91">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> pos, int len, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> val)</td></tr>
+<tr class="separator:a2caa87ef0e3f25ebdee3ddceea511d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a744b25ff5ddcd5c74198d9c0fd5d97" id="r_a0a744b25ff5ddcd5c74198d9c0fd5d97"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a744b25ff5ddcd5c74198d9c0fd5d97">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> val)</td></tr>
+<tr class="separator:a0a744b25ff5ddcd5c74198d9c0fd5d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a160244e115edf752cda3d5ad67aac76a" id="r_a160244e115edf752cda3d5ad67aac76a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a160244e115edf752cda3d5ad67aac76a">back</a> (self)</td></tr>
+<tr class="separator:a160244e115edf752cda3d5ad67aac76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a160244e115edf752cda3d5ad67aac76a" id="r_a160244e115edf752cda3d5ad67aac76a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a160244e115edf752cda3d5ad67aac76a">back</a> (self)</td></tr>
+<tr class="separator:a160244e115edf752cda3d5ad67aac76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74864487ad87c16c20793b2bb65a3d86" id="r_a74864487ad87c16c20793b2bb65a3d86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74864487ad87c16c20793b2bb65a3d86">backId</a> (self)</td></tr>
+<tr class="separator:a74864487ad87c16c20793b2bb65a3d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd932cb8452f2319a81e240818f6bbe5" id="r_abd932cb8452f2319a81e240818f6bbe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd932cb8452f2319a81e240818f6bbe5">beginId</a> (self)</td></tr>
+<tr class="separator:abd932cb8452f2319a81e240818f6bbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6dc18c6ebb585ac27679dae5839f01" id="r_a5f6dc18c6ebb585ac27679dae5839f01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6dc18c6ebb585ac27679dae5839f01">capacity</a> (self)</td></tr>
+<tr class="separator:a5f6dc18c6ebb585ac27679dae5839f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115df588c9891cc6ebc940c93d3fe3ea" id="r_a115df588c9891cc6ebc940c93d3fe3ea"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115df588c9891cc6ebc940c93d3fe3ea">clear</a> (self)</td></tr>
+<tr class="separator:a115df588c9891cc6ebc940c93d3fe3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78dfbefea53492e1a24850ebe4028a54" id="r_a78dfbefea53492e1a24850ebe4028a54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78dfbefea53492e1a24850ebe4028a54">data</a> (self)</td></tr>
+<tr class="separator:a78dfbefea53492e1a24850ebe4028a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78dfbefea53492e1a24850ebe4028a54" id="r_a78dfbefea53492e1a24850ebe4028a54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78dfbefea53492e1a24850ebe4028a54">data</a> (self)</td></tr>
+<tr class="separator:a78dfbefea53492e1a24850ebe4028a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6a1760216bf42ebd4906e21c793b33" id="r_a5b6a1760216bf42ebd4906e21c793b33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b6a1760216bf42ebd4906e21c793b33">empty</a> (self)</td></tr>
+<tr class="separator:a5b6a1760216bf42ebd4906e21c793b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40ff497b460b9edddc69e65a53187b94" id="r_a40ff497b460b9edddc69e65a53187b94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40ff497b460b9edddc69e65a53187b94">endId</a> (self)</td></tr>
+<tr class="separator:a40ff497b460b9edddc69e65a53187b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e131b39f26162dd4214ec4eab85d5ad" id="r_a3e131b39f26162dd4214ec4eab85d5ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e131b39f26162dd4214ec4eab85d5ad">front</a> (self)</td></tr>
+<tr class="separator:a3e131b39f26162dd4214ec4eab85d5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e131b39f26162dd4214ec4eab85d5ad" id="r_a3e131b39f26162dd4214ec4eab85d5ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e131b39f26162dd4214ec4eab85d5ad">front</a> (self)</td></tr>
+<tr class="separator:a3e131b39f26162dd4214ec4eab85d5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d1f0645f58d7874c459e64cdf1187a5" id="r_a6d1f0645f58d7874c459e64cdf1187a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d1f0645f58d7874c459e64cdf1187a5">heapBytes</a> (self)</td></tr>
+<tr class="separator:a6d1f0645f58d7874c459e64cdf1187a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46847d4d83804fda51bfc6df6b2eebdd" id="r_a46847d4d83804fda51bfc6df6b2eebdd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46847d4d83804fda51bfc6df6b2eebdd">pop_back</a> (self)</td></tr>
+<tr class="separator:a46847d4d83804fda51bfc6df6b2eebdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7a13dd2898ce20e69304ccda1aabf3" id="r_a9c7a13dd2898ce20e69304ccda1aabf3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7a13dd2898ce20e69304ccda1aabf3">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> t)</td></tr>
+<tr class="separator:a9c7a13dd2898ce20e69304ccda1aabf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7a13dd2898ce20e69304ccda1aabf3" id="r_a9c7a13dd2898ce20e69304ccda1aabf3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7a13dd2898ce20e69304ccda1aabf3">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> t)</td></tr>
+<tr class="separator:a9c7a13dd2898ce20e69304ccda1aabf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0135bd571e4e420ac21260a775dbef" id="r_aeb0135bd571e4e420ac21260a775dbef"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb0135bd571e4e420ac21260a775dbef">reserve</a> (self, int <a class="el" href="#a5f6dc18c6ebb585ac27679dae5839f01">capacity</a>)</td></tr>
+<tr class="separator:aeb0135bd571e4e420ac21260a775dbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd8edb7c662b0a666bb2ecb8f1bd21a" id="r_a0fd8edb7c662b0a666bb2ecb8f1bd21a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd8edb7c662b0a666bb2ecb8f1bd21a">resize</a> (self, int newSize)</td></tr>
+<tr class="separator:a0fd8edb7c662b0a666bb2ecb8f1bd21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed27a8a1a318643d961209bc3d720b1d" id="r_aed27a8a1a318643d961209bc3d720b1d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed27a8a1a318643d961209bc3d720b1d">resize</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> t)</td></tr>
+<tr class="separator:aed27a8a1a318643d961209bc3d720b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90bdc27fadb02be568a43d9b4cb02be0" id="r_a90bdc27fadb02be568a43d9b4cb02be0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90bdc27fadb02be568a43d9b4cb02be0">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a90bdc27fadb02be568a43d9b4cb02be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72669c7e5044f4a5d2d1cd0e2dbeb7b4" id="r_a72669c7e5044f4a5d2d1cd0e2dbeb7b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72669c7e5044f4a5d2d1cd0e2dbeb7b4">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> value)</td></tr>
+<tr class="separator:a72669c7e5044f4a5d2d1cd0e2dbeb7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41a8bca8b67b979acc3ac6d6b6f7027" id="r_aa41a8bca8b67b979acc3ac6d6b6f7027"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa41a8bca8b67b979acc3ac6d6b6f7027">size</a> (self)</td></tr>
+<tr class="separator:aa41a8bca8b67b979acc3ac6d6b6f7027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5430de479befaceb151d716e6e4d4b29" id="r_a5430de479befaceb151d716e6e4d4b29"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5430de479befaceb151d716e6e4d4b29">swap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html">Vector_WatershedGraph_BdInfo_GraphEdgeId</a> b)</td></tr>
+<tr class="separator:a5430de479befaceb151d716e6e4d4b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5100781715584c86f862a7f875a2951c" id="r_a5100781715584c86f862a7f875a2951c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html">std_vector_WatershedGraph_BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5100781715584c86f862a7f875a2951c">vec_</a> (self)</td></tr>
+<tr class="separator:a5100781715584c86f862a7f875a2951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851b0f00d95776070bbd10b69a22e3fd" id="r_a851b0f00d95776070bbd10b69a22e3fd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851b0f00d95776070bbd10b69a22e3fd">vec_</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html">std_vector_WatershedGraph_BdInfo</a> arg1)</td></tr>
+<tr class="separator:a851b0f00d95776070bbd10b69a22e3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:adfbf5fb58da846c052989a7b80b174d2" id="r_adfbf5fb58da846c052989a7b80b174d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbf5fb58da846c052989a7b80b174d2">const_reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td></tr>
+<tr class="separator:adfbf5fb58da846c052989a7b80b174d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e0a00f2c77bb9753e115c1e3d64adf" id="r_ac0e0a00f2c77bb9753e115c1e3d64adf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0e0a00f2c77bb9753e115c1e3d64adf">reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td></tr>
+<tr class="separator:ac0e0a00f2c77bb9753e115c1e3d64adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582f6e620a53d1f3ab8b3cf06138aaca" id="r_a582f6e620a53d1f3ab8b3cf06138aaca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582f6e620a53d1f3ab8b3cf06138aaca">value_type</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td></tr>
+<tr class="separator:a582f6e620a53d1f3ab8b3cf06138aaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a65b5670dfd53f8ba923e3dcb1254c458" id="r_a65b5670dfd53f8ba923e3dcb1254c458"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65b5670dfd53f8ba923e3dcb1254c458">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> i)</td></tr>
+<tr class="separator:a65b5670dfd53f8ba923e3dcb1254c458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b5670dfd53f8ba923e3dcb1254c458" id="r_a65b5670dfd53f8ba923e3dcb1254c458"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65b5670dfd53f8ba923e3dcb1254c458">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> i)</td></tr>
+<tr class="separator:a65b5670dfd53f8ba923e3dcb1254c458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Vector&lt;MR::WatershedGraph::BdInfo, MR::GraphEdgeId&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)
+ \\ingroup BasicGroup</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="addd6e6da6a678055d5206212bfb3658a" name="addd6e6da6a678055d5206212bfb3658a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addd6e6da6a678055d5206212bfb3658a">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a8aee0b283544ad36dcc72aa1fb23c1" name="a1a8aee0b283544ad36dcc72aa1fb23c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a8aee0b283544ad36dcc72aa1fb23c1">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3963b578c1d764a4f7e46be8c1830c8a" name="a3963b578c1d764a4f7e46be8c1830c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3963b578c1d764a4f7e46be8c1830c8a">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30c99454f6658f5773b08731dd577471" name="a30c99454f6658f5773b08731dd577471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c99454f6658f5773b08731dd577471">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html">std_vector_WatershedGraph_BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6169f77234c518e440545a025bc173a6" name="a6169f77234c518e440545a025bc173a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6169f77234c518e440545a025bc173a6">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html">Vector_WatershedGraph_BdInfo_GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="acfc58f88eae8fa38e455d33138a59ec8" name="acfc58f88eae8fa38e455d33138a59ec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfc58f88eae8fa38e455d33138a59ec8">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65b5670dfd53f8ba923e3dcb1254c458" name="a65b5670dfd53f8ba923e3dcb1254c458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b5670dfd53f8ba923e3dcb1254c458">&#9670;&#160;</a></span>_Subscript() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65b5670dfd53f8ba923e3dcb1254c458" name="a65b5670dfd53f8ba923e3dcb1254c458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b5670dfd53f8ba923e3dcb1254c458">&#9670;&#160;</a></span>_Subscript() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21e6bb3a35ee336ad1fbdbce0d770248" name="a21e6bb3a35ee336ad1fbdbce0d770248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21e6bb3a35ee336ad1fbdbce0d770248">&#9670;&#160;</a></span>autoResizeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.autoResizeAt </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this accessor automatically adjusts the size of the vector
+</pre> 
+</div>
+</div>
+<a id="a0a744b25ff5ddcd5c74198d9c0fd5d97" name="a0a744b25ff5ddcd5c74198d9c0fd5d97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a744b25ff5ddcd5c74198d9c0fd5d97">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2caa87ef0e3f25ebdee3ddceea511d91" name="a2caa87ef0e3f25ebdee3ddceea511d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2caa87ef0e3f25ebdee3ddceea511d91">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+</pre> 
+</div>
+</div>
+<a id="a160244e115edf752cda3d5ad67aac76a" name="a160244e115edf752cda3d5ad67aac76a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a160244e115edf752cda3d5ad67aac76a">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a160244e115edf752cda3d5ad67aac76a" name="a160244e115edf752cda3d5ad67aac76a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a160244e115edf752cda3d5ad67aac76a">&#9670;&#160;</a></span>back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74864487ad87c16c20793b2bb65a3d86" name="a74864487ad87c16c20793b2bb65a3d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74864487ad87c16c20793b2bb65a3d86">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+</div>
+</div>
+<a id="abd932cb8452f2319a81e240818f6bbe5" name="abd932cb8452f2319a81e240818f6bbe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd932cb8452f2319a81e240818f6bbe5">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.beginId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the first element
+</pre> 
+</div>
+</div>
+<a id="a5f6dc18c6ebb585ac27679dae5839f01" name="a5f6dc18c6ebb585ac27679dae5839f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f6dc18c6ebb585ac27679dae5839f01">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.capacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a115df588c9891cc6ebc940c93d3fe3ea" name="a115df588c9891cc6ebc940c93d3fe3ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115df588c9891cc6ebc940c93d3fe3ea">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78dfbefea53492e1a24850ebe4028a54" name="a78dfbefea53492e1a24850ebe4028a54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78dfbefea53492e1a24850ebe4028a54">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78dfbefea53492e1a24850ebe4028a54" name="a78dfbefea53492e1a24850ebe4028a54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78dfbefea53492e1a24850ebe4028a54">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b6a1760216bf42ebd4906e21c793b33" name="a5b6a1760216bf42ebd4906e21c793b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b6a1760216bf42ebd4906e21c793b33">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40ff497b460b9edddc69e65a53187b94" name="a40ff497b460b9edddc69e65a53187b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40ff497b460b9edddc69e65a53187b94">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns backId() + 1
+</pre> 
+</div>
+</div>
+<a id="a3e131b39f26162dd4214ec4eab85d5ad" name="a3e131b39f26162dd4214ec4eab85d5ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e131b39f26162dd4214ec4eab85d5ad">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e131b39f26162dd4214ec4eab85d5ad" name="a3e131b39f26162dd4214ec4eab85d5ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e131b39f26162dd4214ec4eab85d5ad">&#9670;&#160;</a></span>front() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d1f0645f58d7874c459e64cdf1187a5" name="a6d1f0645f58d7874c459e64cdf1187a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d1f0645f58d7874c459e64cdf1187a5">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+</div>
+</div>
+<a id="a46847d4d83804fda51bfc6df6b2eebdd" name="a46847d4d83804fda51bfc6df6b2eebdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46847d4d83804fda51bfc6df6b2eebdd">&#9670;&#160;</a></span>pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.pop_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c7a13dd2898ce20e69304ccda1aabf3" name="a9c7a13dd2898ce20e69304ccda1aabf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7a13dd2898ce20e69304ccda1aabf3">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c7a13dd2898ce20e69304ccda1aabf3" name="a9c7a13dd2898ce20e69304ccda1aabf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7a13dd2898ce20e69304ccda1aabf3">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb0135bd571e4e420ac21260a775dbef" name="aeb0135bd571e4e420ac21260a775dbef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb0135bd571e4e420ac21260a775dbef">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.reserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fd8edb7c662b0a666bb2ecb8f1bd21a" name="a0fd8edb7c662b0a666bb2ecb8f1bd21a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fd8edb7c662b0a666bb2ecb8f1bd21a">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed27a8a1a318643d961209bc3d720b1d" name="aed27a8a1a318643d961209bc3d720b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed27a8a1a318643d961209bc3d720b1d">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90bdc27fadb02be568a43d9b4cb02be0" name="a90bdc27fadb02be568a43d9b4cb02be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90bdc27fadb02be568a43d9b4cb02be0">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a72669c7e5044f4a5d2d1cd0e2dbeb7b4" name="a72669c7e5044f4a5d2d1cd0e2dbeb7b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72669c7e5044f4a5d2d1cd0e2dbeb7b4">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="aa41a8bca8b67b979acc3ac6d6b6f7027" name="aa41a8bca8b67b979acc3ac6d6b6f7027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41a8bca8b67b979acc3ac6d6b6f7027">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5430de479befaceb151d716e6e4d4b29" name="a5430de479befaceb151d716e6e4d4b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5430de479befaceb151d716e6e4d4b29">&#9670;&#160;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.swap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html">Vector_WatershedGraph_BdInfo_GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5100781715584c86f862a7f875a2951c" name="a5100781715584c86f862a7f875a2951c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5100781715584c86f862a7f875a2951c">&#9670;&#160;</a></span>vec_() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html">std_vector_WatershedGraph_BdInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the user can directly manipulate the vector, anyway she cannot break anything
+</pre> 
+</div>
+</div>
+<a id="a851b0f00d95776070bbd10b69a22e3fd" name="a851b0f00d95776070bbd10b69a22e3fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851b0f00d95776070bbd10b69a22e3fd">&#9670;&#160;</a></span>vec_() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html">std_vector_WatershedGraph_BdInfo</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adfbf5fb58da846c052989a7b80b174d2" name="adfbf5fb58da846c052989a7b80b174d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfbf5fb58da846c052989a7b80b174d2">&#9670;&#160;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.const_reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0e0a00f2c77bb9753e115c1e3d64adf" name="ac0e0a00f2c77bb9753e115c1e3d64adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0e0a00f2c77bb9753e115c1e3d64adf">&#9670;&#160;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a582f6e620a53d1f3ab8b3cf06138aaca" name="a582f6e620a53d1f3ab8b3cf06138aaca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582f6e620a53d1f3ab8b3cf06138aaca">&#9670;&#160;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId.value_type = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BdInfo.html">WatershedGraph.BdInfo</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html">Vector_WatershedGraph_BdInfo_GraphEdgeId</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

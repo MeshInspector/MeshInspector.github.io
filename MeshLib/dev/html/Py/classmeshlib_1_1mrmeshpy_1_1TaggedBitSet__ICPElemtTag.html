@@ -1,0 +1,1293 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.png" usemap="#meshlib.mrmeshpy.TaggedBitSet_5FICPElemtTag_map" alt=""/>
+  <map id="meshlib.mrmeshpy.TaggedBitSet_5FICPElemtTag_map" name="meshlib.mrmeshpy.TaggedBitSet_5FICPElemtTag_map">
+<area href="classmeshlib_1_1mrmeshpy_1_1BitSet.html" alt="meshlib.mrmeshpy.BitSet" shape="rect" coords="0,0,271,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af8e381f66b697ba36914735c101b85f4" id="r_af8e381f66b697ba36914735c101b85f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8e381f66b697ba36914735c101b85f4">__and__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:af8e381f66b697ba36914735c101b85f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0b96b4dde594f2dac0d802c0a8897a" id="r_aeb0b96b4dde594f2dac0d802c0a8897a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb0b96b4dde594f2dac0d802c0a8897a">__iand__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:aeb0b96b4dde594f2dac0d802c0a8897a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d11843894bb26a7f55ad51602a1ef7f" id="r_a1d11843894bb26a7f55ad51602a1ef7f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d11843894bb26a7f55ad51602a1ef7f">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
+<tr class="separator:a1d11843894bb26a7f55ad51602a1ef7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d11843894bb26a7f55ad51602a1ef7f" id="r_a1d11843894bb26a7f55ad51602a1ef7f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d11843894bb26a7f55ad51602a1ef7f">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
+<tr class="separator:a1d11843894bb26a7f55ad51602a1ef7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00adc4822a56b698db3873bd4fee994" id="r_aa00adc4822a56b698db3873bd4fee994"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa00adc4822a56b698db3873bd4fee994">__init__</a> (self)</td></tr>
+<tr class="separator:aa00adc4822a56b698db3873bd4fee994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a568ce9f477820c7a115eb949701e78d3" id="r_a568ce9f477820c7a115eb949701e78d3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a568ce9f477820c7a115eb949701e78d3">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> arg0)</td></tr>
+<tr class="separator:a568ce9f477820c7a115eb949701e78d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1151c0b3b50b0751a62a0b5ba12969" id="r_a0e1151c0b3b50b0751a62a0b5ba12969"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e1151c0b3b50b0751a62a0b5ba12969">__ior__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:a0e1151c0b3b50b0751a62a0b5ba12969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e12cad7fae6ade182170cebb57efde3" id="r_a0e12cad7fae6ade182170cebb57efde3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e12cad7fae6ade182170cebb57efde3">__isub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:a0e12cad7fae6ade182170cebb57efde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebb756a218ecf137d5f4f2f11eb6c43" id="r_a6ebb756a218ecf137d5f4f2f11eb6c43"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ebb756a218ecf137d5f4f2f11eb6c43">__iter__</a> (self)</td></tr>
+<tr class="separator:a6ebb756a218ecf137d5f4f2f11eb6c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc020d81999148eba5c1c07c0375527" id="r_a7fc020d81999148eba5c1c07c0375527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc020d81999148eba5c1c07c0375527">__ixor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:a7fc020d81999148eba5c1c07c0375527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc20def97da214e61edc5b8bc88416c" id="r_a2dc20def97da214e61edc5b8bc88416c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dc20def97da214e61edc5b8bc88416c">__or__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:a2dc20def97da214e61edc5b8bc88416c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dda3631062255f627e855363fd9b026" id="r_a5dda3631062255f627e855363fd9b026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dda3631062255f627e855363fd9b026">__sub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:a5dda3631062255f627e855363fd9b026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a871744448c832248dad63bb322f4c8ef" id="r_a871744448c832248dad63bb322f4c8ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a871744448c832248dad63bb322f4c8ef">__xor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b)</td></tr>
+<tr class="separator:a871744448c832248dad63bb322f4c8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49f559016685980278f51212ac2a728" id="r_aa49f559016685980278f51212ac2a728"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa49f559016685980278f51212ac2a728">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos, int len, bool val=True)</td></tr>
+<tr class="separator:aa49f559016685980278f51212ac2a728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c50d64ac5c56e2a51213e428e3596a" id="r_a70c50d64ac5c56e2a51213e428e3596a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70c50d64ac5c56e2a51213e428e3596a">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos, bool val=True)</td></tr>
+<tr class="separator:a70c50d64ac5c56e2a51213e428e3596a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c50ece66a2d81f98c4b5b319ffcfd1e" id="r_a1c50ece66a2d81f98c4b5b319ffcfd1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c50ece66a2d81f98c4b5b319ffcfd1e">autoResizeTestSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos, bool val=True)</td></tr>
+<tr class="separator:a1c50ece66a2d81f98c4b5b319ffcfd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b287d28cfcc9ef8a82f4f0228c0237d" id="r_a4b287d28cfcc9ef8a82f4f0228c0237d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b287d28cfcc9ef8a82f4f0228c0237d">backId</a> (self)</td></tr>
+<tr class="separator:a4b287d28cfcc9ef8a82f4f0228c0237d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a6a8a036774346ccda6b8d6d2eac50" id="r_ad5a6a8a036774346ccda6b8d6d2eac50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5a6a8a036774346ccda6b8d6d2eac50">endId</a> (self)</td></tr>
+<tr class="separator:ad5a6a8a036774346ccda6b8d6d2eac50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb291a031503083ccce6241b877c626e" id="r_adb291a031503083ccce6241b877c626e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb291a031503083ccce6241b877c626e">find_first</a> (self)</td></tr>
+<tr class="separator:adb291a031503083ccce6241b877c626e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ff01b7bf67c4c69421cdbf0a7f7720" id="r_af5ff01b7bf67c4c69421cdbf0a7f7720"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5ff01b7bf67c4c69421cdbf0a7f7720">find_last</a> (self)</td></tr>
+<tr class="separator:af5ff01b7bf67c4c69421cdbf0a7f7720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557c778c9d8c753310b77d2357c43fe9" id="r_a557c778c9d8c753310b77d2357c43fe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557c778c9d8c753310b77d2357c43fe9">find_next</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos)</td></tr>
+<tr class="separator:a557c778c9d8c753310b77d2357c43fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696f7477a262277ee262e0fc625494a0" id="r_a696f7477a262277ee262e0fc625494a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a696f7477a262277ee262e0fc625494a0">flip</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n, int len)</td></tr>
+<tr class="separator:a696f7477a262277ee262e0fc625494a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a256ed699da1ecc7be6ed394a5698e281" id="r_a256ed699da1ecc7be6ed394a5698e281"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a256ed699da1ecc7be6ed394a5698e281">flip</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n)</td></tr>
+<tr class="separator:a256ed699da1ecc7be6ed394a5698e281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab078e463e3597b73bf2c56ba7a7bcf95" id="r_ab078e463e3597b73bf2c56ba7a7bcf95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab078e463e3597b73bf2c56ba7a7bcf95">flip</a> (self)</td></tr>
+<tr class="separator:ab078e463e3597b73bf2c56ba7a7bcf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0377320d684384fde5817a3af9826a95" id="r_a0377320d684384fde5817a3af9826a95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0377320d684384fde5817a3af9826a95">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag.html">Vector_Id_ICPElemtTag_Id_ICPElemtTag</a> map)</td></tr>
+<tr class="separator:a0377320d684384fde5817a3af9826a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb36eaa2548ce7490b31fa0993e97eff" id="r_abb36eaa2548ce7490b31fa0993e97eff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb36eaa2548ce7490b31fa0993e97eff">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag.html">BMap_Id_ICPElemtTag_Id_ICPElemtTag</a> map)</td></tr>
+<tr class="separator:abb36eaa2548ce7490b31fa0993e97eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05fd6e6b2c955fbaf274aa9454c917d" id="r_ad05fd6e6b2c955fbaf274aa9454c917d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05fd6e6b2c955fbaf274aa9454c917d">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag.html">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag</a> map)</td></tr>
+<tr class="separator:ad05fd6e6b2c955fbaf274aa9454c917d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45cf8f3ad060b6742f9798b263de09f8" id="r_a45cf8f3ad060b6742f9798b263de09f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45cf8f3ad060b6742f9798b263de09f8">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag.html">Vector_Id_ICPElemtTag_Id_ICPElemtTag</a> map, int resSize)</td></tr>
+<tr class="separator:a45cf8f3ad060b6742f9798b263de09f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac80d02b0682b4c8f48683b8d28c4e11" id="r_aac80d02b0682b4c8f48683b8d28c4e11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac80d02b0682b4c8f48683b8d28c4e11">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag.html">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag</a> map, int resSize)</td></tr>
+<tr class="separator:aac80d02b0682b4c8f48683b8d28c4e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed35e146944cede699884ea1213069a" id="r_abed35e146944cede699884ea1213069a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed35e146944cede699884ea1213069a">nthSetBit</a> (self, int n)</td></tr>
+<tr class="separator:abed35e146944cede699884ea1213069a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb576332ebfe6222338cf4e8b9fe087b" id="r_abb576332ebfe6222338cf4e8b9fe087b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb576332ebfe6222338cf4e8b9fe087b">operator</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos)</td></tr>
+<tr class="separator:abb576332ebfe6222338cf4e8b9fe087b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a962f56e6969241d1e15da98a866a6108" id="r_a962f56e6969241d1e15da98a866a6108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a962f56e6969241d1e15da98a866a6108">reset</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n, int len)</td></tr>
+<tr class="separator:a962f56e6969241d1e15da98a866a6108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac07053aa07cfe8b043eb114e31121149" id="r_ac07053aa07cfe8b043eb114e31121149"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac07053aa07cfe8b043eb114e31121149">reset</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n)</td></tr>
+<tr class="separator:ac07053aa07cfe8b043eb114e31121149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e6dc59fa9eac9283c13b0c46930aacb" id="r_a2e6dc59fa9eac9283c13b0c46930aacb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e6dc59fa9eac9283c13b0c46930aacb">reset</a> (self)</td></tr>
+<tr class="separator:a2e6dc59fa9eac9283c13b0c46930aacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afecd88e91d2ff1a922a9a0c79ce145f2" id="r_afecd88e91d2ff1a922a9a0c79ce145f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afecd88e91d2ff1a922a9a0c79ce145f2">set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n, int len, bool val)</td></tr>
+<tr class="separator:afecd88e91d2ff1a922a9a0c79ce145f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ccf7f1eaaedcfa7e8e1afba965cf0e" id="r_ab1ccf7f1eaaedcfa7e8e1afba965cf0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1ccf7f1eaaedcfa7e8e1afba965cf0e">set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n, bool val=True)</td></tr>
+<tr class="separator:ab1ccf7f1eaaedcfa7e8e1afba965cf0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61f6b2a1813122ed5b4ee0c1f5d7aa3" id="r_ae61f6b2a1813122ed5b4ee0c1f5d7aa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61f6b2a1813122ed5b4ee0c1f5d7aa3">set</a> (self)</td></tr>
+<tr class="separator:ae61f6b2a1813122ed5b4ee0c1f5d7aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b76a26a0138dc5dfe53e37bcf02f71" id="r_aa6b76a26a0138dc5dfe53e37bcf02f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6b76a26a0138dc5dfe53e37bcf02f71">subtract</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> b, int bShiftInBlocks)</td></tr>
+<tr class="separator:aa6b76a26a0138dc5dfe53e37bcf02f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077a4602ea72edd469e465a5ec7c4a51" id="r_a077a4602ea72edd469e465a5ec7c4a51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077a4602ea72edd469e465a5ec7c4a51">test</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n)</td></tr>
+<tr class="separator:a077a4602ea72edd469e465a5ec7c4a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080a15b4fa39a06523df7a2ef5b983de" id="r_a080a15b4fa39a06523df7a2ef5b983de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080a15b4fa39a06523df7a2ef5b983de">test_set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n, bool val=True)</td></tr>
+<tr class="separator:a080a15b4fa39a06523df7a2ef5b983de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">meshlib.mrmeshpy.BitSet</a></td></tr>
+<tr class="memitem:a3ab0153df8d6e25b8334253117496758 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a3ab0153df8d6e25b8334253117496758"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3ab0153df8d6e25b8334253117496758">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a3ab0153df8d6e25b8334253117496758 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae077f54c2adb7b26cc274216d17f2251 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_ae077f54c2adb7b26cc274216d17f2251"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae077f54c2adb7b26cc274216d17f2251">clear</a> (self)</td></tr>
+<tr class="separator:ae077f54c2adb7b26cc274216d17f2251 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a10cb247b0d81387888917cdc4b04b inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_ac7a10cb247b0d81387888917cdc4b04b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ac7a10cb247b0d81387888917cdc4b04b">count</a> (self)</td></tr>
+<tr class="separator:ac7a10cb247b0d81387888917cdc4b04b inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3278b7c07b149e6ae370f4a69640e101 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a3278b7c07b149e6ae370f4a69640e101"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3278b7c07b149e6ae370f4a69640e101">heapBytes</a> (self)</td></tr>
+<tr class="separator:a3278b7c07b149e6ae370f4a69640e101 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d30a6aec1e3cebb63fbec9627395fe inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a33d30a6aec1e3cebb63fbec9627395fe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a33d30a6aec1e3cebb63fbec9627395fe">pop_back</a> (self)</td></tr>
+<tr class="separator:a33d30a6aec1e3cebb63fbec9627395fe inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a674f5b26614225e1d27d35bc0845a555 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a674f5b26614225e1d27d35bc0845a555"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a674f5b26614225e1d27d35bc0845a555">push_back</a> (self, bool bit)</td></tr>
+<tr class="separator:a674f5b26614225e1d27d35bc0845a555 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be4e454b4584aa606be3f6687178a1e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a0be4e454b4584aa606be3f6687178a1e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a0be4e454b4584aa606be3f6687178a1e">resize</a> (self, int num_bits, bool value=False)</td></tr>
+<tr class="separator:a0be4e454b4584aa606be3f6687178a1e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a4ae2a0d6dff85c15b2dfe9deba202 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a88a4ae2a0d6dff85c15b2dfe9deba202"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a88a4ae2a0d6dff85c15b2dfe9deba202">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a88a4ae2a0d6dff85c15b2dfe9deba202 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f8fd68f889a1d1606ac6724cfe450f inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a10f8fd68f889a1d1606ac6724cfe450f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a10f8fd68f889a1d1606ac6724cfe450f">size</a> (self)</td></tr>
+<tr class="separator:a10f8fd68f889a1d1606ac6724cfe450f inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a5db8f36419694ddb3b2faed21a385098" id="r_a5db8f36419694ddb3b2faed21a385098"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db8f36419694ddb3b2faed21a385098">beginId</a> ()</td></tr>
+<tr class="separator:a5db8f36419694ddb3b2faed21a385098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a419b3924926fe096a67c09b086e171bb" id="r_a419b3924926fe096a67c09b086e171bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a419b3924926fe096a67c09b086e171bb">IndexType</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td></tr>
+<tr class="separator:a419b3924926fe096a67c09b086e171bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::TaggedBitSet&lt;MR::ICPElemtTag&gt;
+Aliases:  ICPElementBitSet
+
+container of bits representing specific indices (faces, verts or edges)
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1d11843894bb26a7f55ad51602a1ef7f" name="a1d11843894bb26a7f55ad51602a1ef7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d11843894bb26a7f55ad51602a1ef7f">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">copies all bits from another BitSet (or a descending class, e.g. TaggedBitSet&lt;U&gt;)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a1d11843894bb26a7f55ad51602a1ef7f" name="a1d11843894bb26a7f55ad51602a1ef7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d11843894bb26a7f55ad51602a1ef7f">&#9670;&#160;</a></span>__init__() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">moves all bits from another BitSet (or a descending class, e.g. TaggedBitSet&lt;U&gt;)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aa00adc4822a56b698db3873bd4fee994" name="aa00adc4822a56b698db3873bd4fee994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa00adc4822a56b698db3873bd4fee994">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a568ce9f477820c7a115eb949701e78d3" name="a568ce9f477820c7a115eb949701e78d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a568ce9f477820c7a115eb949701e78d3">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af8e381f66b697ba36914735c101b85f4" name="af8e381f66b697ba36914735c101b85f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8e381f66b697ba36914735c101b85f4">&#9670;&#160;</a></span>__and__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__and__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a85435ac3557f145028e771489998d509">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aeb0b96b4dde594f2dac0d802c0a8897a" name="aeb0b96b4dde594f2dac0d802c0a8897a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb0b96b4dde594f2dac0d802c0a8897a">&#9670;&#160;</a></span>__iand__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__iand__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a9dc3ca031fa7e8da6617d6b74cc66fc5">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a0e1151c0b3b50b0751a62a0b5ba12969" name="a0e1151c0b3b50b0751a62a0b5ba12969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e1151c0b3b50b0751a62a0b5ba12969">&#9670;&#160;</a></span>__ior__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__ior__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a4483a0930112aa22fa6181a8ddd90c15">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a0e12cad7fae6ade182170cebb57efde3" name="a0e12cad7fae6ade182170cebb57efde3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e12cad7fae6ade182170cebb57efde3">&#9670;&#160;</a></span>__isub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__isub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a290e91b15f60c8853e19f234b0ff17d8">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a6ebb756a218ecf137d5f4f2f11eb6c43" name="a6ebb756a218ecf137d5f4f2f11eb6c43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ebb756a218ecf137d5f4f2f11eb6c43">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a32ef3df14f5745445ad5eab11ab6d19f">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a7fc020d81999148eba5c1c07c0375527" name="a7fc020d81999148eba5c1c07c0375527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc020d81999148eba5c1c07c0375527">&#9670;&#160;</a></span>__ixor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__ixor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#acb142b116441bf689908ba9b7b3353c1">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a2dc20def97da214e61edc5b8bc88416c" name="a2dc20def97da214e61edc5b8bc88416c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc20def97da214e61edc5b8bc88416c">&#9670;&#160;</a></span>__or__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__or__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ad7d17880413e81c3eb3bb9d22c079ea0">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a5dda3631062255f627e855363fd9b026" name="a5dda3631062255f627e855363fd9b026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dda3631062255f627e855363fd9b026">&#9670;&#160;</a></span>__sub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__sub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a802e19baafadd3feb434aa3526672762">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a871744448c832248dad63bb322f4c8ef" name="a871744448c832248dad63bb322f4c8ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a871744448c832248dad63bb322f4c8ef">&#9670;&#160;</a></span>__xor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.__xor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a0f3c7333febae5358edf59c3ebcfb2e3">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a70c50d64ac5c56e2a51213e428e3596a" name="a70c50d64ac5c56e2a51213e428e3596a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c50d64ac5c56e2a51213e428e3596a">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>len</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a14d98fdb6ec197be5f3753ddcba87aa7">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aa49f559016685980278f51212ac2a728" name="aa49f559016685980278f51212ac2a728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa49f559016685980278f51212ac2a728">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a14d98fdb6ec197be5f3753ddcba87aa7">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a1c50ece66a2d81f98c4b5b319ffcfd1e" name="a1c50ece66a2d81f98c4b5b319ffcfd1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c50ece66a2d81f98c4b5b319ffcfd1e">&#9670;&#160;</a></span>autoResizeTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.autoResizeTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">same as \\ref autoResizeSet and returns previous value of pos-bit
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a6ad87d5171e33bfce5eb2add65e8a527">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a4b287d28cfcc9ef8a82f4f0228c0237d" name="a4b287d28cfcc9ef8a82f4f0228c0237d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b287d28cfcc9ef8a82f4f0228c0237d">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a4b4cf7a214fd2c7ed53be7670f344914">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a5db8f36419694ddb3b2faed21a385098" name="a5db8f36419694ddb3b2faed21a385098"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db8f36419694ddb3b2faed21a385098">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.beginId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">[beginId(), endId()) is the range of all bits in the set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#aa6028fcc911547bb985153b35f6aa5dc">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ad5a6a8a036774346ccda6b8d6d2eac50" name="ad5a6a8a036774346ccda6b8d6d2eac50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5a6a8a036774346ccda6b8d6d2eac50">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3d331dd85ce8c0d16233cf52d991c72f">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="adb291a031503083ccce6241b877c626e" name="adb291a031503083ccce6241b877c626e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb291a031503083ccce6241b877c626e">&#9670;&#160;</a></span>find_first()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.find_first </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5ff01b7bf67c4c69421cdbf0a7f7720" name="af5ff01b7bf67c4c69421cdbf0a7f7720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ff01b7bf67c4c69421cdbf0a7f7720">&#9670;&#160;</a></span>find_last()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.find_last </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the highest index i such as bit i is set, or npos if *this has no on bits.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a1bc6e4c6f18181a464ddc840c3a116cb">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a557c778c9d8c753310b77d2357c43fe9" name="a557c778c9d8c753310b77d2357c43fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557c778c9d8c753310b77d2357c43fe9">&#9670;&#160;</a></span>find_next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.find_next </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab078e463e3597b73bf2c56ba7a7bcf95" name="ab078e463e3597b73bf2c56ba7a7bcf95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab078e463e3597b73bf2c56ba7a7bcf95">&#9670;&#160;</a></span>flip() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a256ed699da1ecc7be6ed394a5698e281" name="a256ed699da1ecc7be6ed394a5698e281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a256ed699da1ecc7be6ed394a5698e281">&#9670;&#160;</a></span>flip() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a696f7477a262277ee262e0fc625494a0" name="a696f7477a262277ee262e0fc625494a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696f7477a262277ee262e0fc625494a0">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="abb36eaa2548ce7490b31fa0993e97eff" name="abb36eaa2548ce7490b31fa0993e97eff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb36eaa2548ce7490b31fa0993e97eff">&#9670;&#160;</a></span>getMapping() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag.html">BMap_Id_ICPElemtTag_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad05fd6e6b2c955fbaf274aa9454c917d" name="ad05fd6e6b2c955fbaf274aa9454c917d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05fd6e6b2c955fbaf274aa9454c917d">&#9670;&#160;</a></span>getMapping() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag.html">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac80d02b0682b4c8f48683b8d28c4e11" name="aac80d02b0682b4c8f48683b8d28c4e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac80d02b0682b4c8f48683b8d28c4e11">&#9670;&#160;</a></span>getMapping() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag.html">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0377320d684384fde5817a3af9826a95" name="a0377320d684384fde5817a3af9826a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0377320d684384fde5817a3af9826a95">&#9670;&#160;</a></span>getMapping() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag.html">Vector_Id_ICPElemtTag_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45cf8f3ad060b6742f9798b263de09f8" name="a45cf8f3ad060b6742f9798b263de09f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45cf8f3ad060b6742f9798b263de09f8">&#9670;&#160;</a></span>getMapping() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag.html">Vector_Id_ICPElemtTag_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abed35e146944cede699884ea1213069a" name="abed35e146944cede699884ea1213069a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed35e146944cede699884ea1213069a">&#9670;&#160;</a></span>nthSetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.nthSetBit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a28681fac7dec04ed63e434b6abc07ed0">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="abb576332ebfe6222338cf4e8b9fe087b" name="abb576332ebfe6222338cf4e8b9fe087b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb576332ebfe6222338cf4e8b9fe087b">&#9670;&#160;</a></span>operator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.operator </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e6dc59fa9eac9283c13b0c46930aacb" name="a2e6dc59fa9eac9283c13b0c46930aacb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e6dc59fa9eac9283c13b0c46930aacb">&#9670;&#160;</a></span>reset() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ac07053aa07cfe8b043eb114e31121149" name="ac07053aa07cfe8b043eb114e31121149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac07053aa07cfe8b043eb114e31121149">&#9670;&#160;</a></span>reset() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a962f56e6969241d1e15da98a866a6108" name="a962f56e6969241d1e15da98a866a6108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a962f56e6969241d1e15da98a866a6108">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ae61f6b2a1813122ed5b4ee0c1f5d7aa3" name="ae61f6b2a1813122ed5b4ee0c1f5d7aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae61f6b2a1813122ed5b4ee0c1f5d7aa3">&#9670;&#160;</a></span>set() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ab1ccf7f1eaaedcfa7e8e1afba965cf0e" name="ab1ccf7f1eaaedcfa7e8e1afba965cf0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ccf7f1eaaedcfa7e8e1afba965cf0e">&#9670;&#160;</a></span>set() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="afecd88e91d2ff1a922a9a0c79ce145f2" name="afecd88e91d2ff1a922a9a0c79ce145f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afecd88e91d2ff1a922a9a0c79ce145f2">&#9670;&#160;</a></span>set() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aa6b76a26a0138dc5dfe53e37bcf02f71" name="aa6b76a26a0138dc5dfe53e37bcf02f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6b76a26a0138dc5dfe53e37bcf02f71">&#9670;&#160;</a></span>subtract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.subtract </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bShiftInBlocks</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a037e3c867e7fc3e183cb5799674854cb">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a077a4602ea72edd469e465a5ec7c4a51" name="a077a4602ea72edd469e465a5ec7c4a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077a4602ea72edd469e465a5ec7c4a51">&#9670;&#160;</a></span>test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.test </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">all bits after size() we silently consider as not-set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a7670f21a795b5119c3b0b83d6c5cf358">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a080a15b4fa39a06523df7a2ef5b983de" name="a080a15b4fa39a06523df7a2ef5b983de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080a15b4fa39a06523df7a2ef5b983de">&#9670;&#160;</a></span>test_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.test_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#af203a8a30b035e5f509935eb559d0974">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a419b3924926fe096a67c09b086e171bb" name="a419b3924926fe096a67c09b086e171bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a419b3924926fe096a67c09b086e171bb">&#9670;&#160;</a></span>IndexType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag.IndexType = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

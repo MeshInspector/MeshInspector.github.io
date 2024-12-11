@@ -1,0 +1,540 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.MeshBuilder Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1MeshBuilder.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.MeshBuilder Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1equalVector3f.html">equalVector3f</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1MeshPiece.html">MeshPiece</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1Triangle.html">Triangle</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html">VertexIdentifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1VertSpan.html">VertSpan</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a01180517a462d04e4dd058ecd7120c27" id="r_a01180517a462d04e4dd058ecd7120c27"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01180517a462d04e4dd058ecd7120c27">addTriangles</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> res, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings='MR::MeshBuilder::BuildSettings{}')</td></tr>
+<tr class="separator:a01180517a462d04e4dd058ecd7120c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab665032244530dc6b9291957aded9183" id="r_ab665032244530dc6b9291957aded9183"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab665032244530dc6b9291957aded9183">addTriangles</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> res, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> vertTriples, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> createdFaces=None)</td></tr>
+<tr class="separator:ab665032244530dc6b9291957aded9183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0886e639f0857aa62993b29d2e93e6d" id="r_ac0886e639f0857aa62993b29d2e93e6d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0886e639f0857aa62993b29d2e93e6d">duplicateNonManifoldVertices</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None)</td></tr>
+<tr class="separator:ac0886e639f0857aa62993b29d2e93e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe58bf2cb9252529c8acc07923cf60dd" id="r_afe58bf2cb9252529c8acc07923cf60dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe58bf2cb9252529c8acc07923cf60dd">fromDisjointMeshPieces</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a> maxVertId, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshBuilder__MeshPiece.html">std_vector_MeshBuilder_MeshPiece</a> pieces, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings='MR::MeshBuilder::BuildSettings{}')</td></tr>
+<tr class="separator:afe58bf2cb9252529c8acc07923cf60dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0698df046fbdd120a8796f7302ef57c" id="r_ae0698df046fbdd120a8796f7302ef57c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0698df046fbdd120a8796f7302ef57c">fromFaceSoup</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> verts, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html">Vector_MeshBuilder_VertSpan_FaceId</a> faces, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings='MR::MeshBuilder::BuildSettings{}', <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> progressCb='MR::ProgressCallback{}')</td></tr>
+<tr class="separator:ae0698df046fbdd120a8796f7302ef57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6bba95faaf8e9fde236f2230f10f58" id="r_a5d6bba95faaf8e9fde236f2230f10f58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d6bba95faaf8e9fde236f2230f10f58">fromPointTriples</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__array__Vector3__float__3ul.html">std_vector_std_array_Vector3_float_3ul</a> posTriples)</td></tr>
+<tr class="separator:a5d6bba95faaf8e9fde236f2230f10f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13bdc5f5af59addc44efb3abe4783fc2" id="r_a13bdc5f5af59addc44efb3abe4783fc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bdc5f5af59addc44efb3abe4783fc2">fromTriangles</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings='MR::MeshBuilder::BuildSettings{}', <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> progressCb='MR::ProgressCallback{}')</td></tr>
+<tr class="separator:a13bdc5f5af59addc44efb3abe4783fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca387bd3bb4a1494bfd8d834306764d3" id="r_aca387bd3bb4a1494bfd8d834306764d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca387bd3bb4a1494bfd8d834306764d3">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings='MR::MeshBuilder::BuildSettings{}')</td></tr>
+<tr class="separator:aca387bd3bb4a1494bfd8d834306764d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d7bc3e5a58497bf369e0b2d3e5b62a1" id="r_a3d7bc3e5a58497bf369e0b2d3e5b62a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d7bc3e5a58497bf369e0b2d3e5b62a1">uniteCloseVertices</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> mesh, float closeDist, bool uniteOnlyBd=True, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> optionalVertOldToNew=None)</td></tr>
+<tr class="separator:a3d7bc3e5a58497bf369e0b2d3e5b62a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">This is a namespace.
+</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab665032244530dc6b9291957aded9183" name="ab665032244530dc6b9291957aded9183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab665032244530dc6b9291957aded9183">&#9670;&#160;</a></span>addTriangles() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshBuilder.addTriangles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>vertTriples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>createdFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">adds triangles in the existing topology, auto selecting face ids for them;
+vertTriples on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh
+</pre> 
+</div>
+</div>
+<a id="a01180517a462d04e4dd058ecd7120c27" name="a01180517a462d04e4dd058ecd7120c27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01180517a462d04e4dd058ecd7120c27">&#9670;&#160;</a></span>addTriangles() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshBuilder.addTriangles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshBuilder::BuildSettings{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">adds triangles in the existing topology, given face indecies must be free;
+settings.region on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh
+</pre> 
+</div>
+</div>
+<a id="ac0886e639f0857aa62993b29d2e93e6d" name="ac0886e639f0857aa62993b29d2e93e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0886e639f0857aa62993b29d2e93e6d">&#9670;&#160;</a></span>duplicateNonManifoldVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.MeshBuilder.duplicateNonManifoldVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> </td>          <td class="paramname"><span class="paramname"><em>dups</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified)
+return number of duplicated vertices
+</pre> 
+</div>
+</div>
+<a id="afe58bf2cb9252529c8acc07923cf60dd" name="afe58bf2cb9252529c8acc07923cf60dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe58bf2cb9252529c8acc07923cf60dd">&#9670;&#160;</a></span>fromDisjointMeshPieces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> meshlib.mrmeshpy.MeshBuilder.fromDisjointMeshPieces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>maxVertId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshBuilder__MeshPiece.html">std_vector_MeshBuilder_MeshPiece</a></td>          <td class="paramname"><span class="paramname"><em>pieces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshBuilder::BuildSettings{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">construct mesh topology in parallel from given disjoint mesh pieces (which do not have any shared vertex)
+and some additional triangles (in settings) that join the pieces
+</pre> 
+</div>
+</div>
+<a id="ae0698df046fbdd120a8796f7302ef57c" name="ae0698df046fbdd120a8796f7302ef57c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0698df046fbdd120a8796f7302ef57c">&#9670;&#160;</a></span>fromFaceSoup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> meshlib.mrmeshpy.MeshBuilder.fromFaceSoup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html">Vector_MeshBuilder_VertSpan_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshBuilder::BuildSettings{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::ProgressCallback{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles)
+</pre> 
+</div>
+</div>
+<a id="a5d6bba95faaf8e9fde236f2230f10f58" name="a5d6bba95faaf8e9fde236f2230f10f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6bba95faaf8e9fde236f2230f10f58">&#9670;&#160;</a></span>fromPointTriples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshBuilder.fromPointTriples </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__array__Vector3__float__3ul.html">std_vector_std_array_Vector3_float_3ul</a></td>          <td class="paramname"><span class="paramname"><em>posTriples</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">construct mesh from point triples;
+all coinciding points are given the same VertId in the result
+</pre> 
+</div>
+</div>
+<a id="a13bdc5f5af59addc44efb3abe4783fc2" name="a13bdc5f5af59addc44efb3abe4783fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13bdc5f5af59addc44efb3abe4783fc2">&#9670;&#160;</a></span>fromTriangles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> meshlib.mrmeshpy.MeshBuilder.fromTriangles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshBuilder::BuildSettings{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::ProgressCallback{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">construct mesh topology from a set of triangles with given ids;
+if skippedTris is given then it receives all input triangles not added in the resulting topology
+</pre> 
+</div>
+</div>
+<a id="aca387bd3bb4a1494bfd8d834306764d3" name="aca387bd3bb4a1494bfd8d834306764d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca387bd3bb4a1494bfd8d834306764d3">&#9670;&#160;</a></span>fromTrianglesDuplicatingNonManifoldVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> meshlib.mrmeshpy.MeshBuilder.fromTrianglesDuplicatingNonManifoldVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Triangulation.html">Triangulation</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> </td>          <td class="paramname"><span class="paramname"><em>dups</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshBuilder::BuildSettings{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">construct mesh topology from a set of triangles with given ids;
+unlike simple fromTriangles() it tries to resolve non-manifold vertices by creating duplicate vertices;
+triangulation is modified to introduce duplicates
+</pre> 
+</div>
+</div>
+<a id="a3d7bc3e5a58497bf369e0b2d3e5b62a1" name="a3d7bc3e5a58497bf369e0b2d3e5b62a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d7bc3e5a58497bf369e0b2d3e5b62a1">&#9670;&#160;</a></span>uniteCloseVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.MeshBuilder.uniteCloseVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>closeDist</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>uniteOnlyBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> </td>          <td class="paramname"><span class="paramname"><em>optionalVertOldToNew</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">the function finds groups of mesh vertices located closer to each other than \\param closeDist, and unites such vertices in one;
+then the mesh is rebuilt from the remaining triangles
+\\param optionalVertOldToNew is the mapping of vertices: before -&gt; after
+\\param uniteOnlyBd if true then only boundary vertices can be united, all internal vertices (even close ones) will remain
+\\return the number of vertices united, 0 means no change in the mesh
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshBuilder.html">MeshBuilder</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

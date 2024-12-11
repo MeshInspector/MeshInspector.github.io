@@ -1,0 +1,699 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.std_vector_Dipole Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.std_vector_Dipole Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac6d5a1832fe6f6fe657f78bf0d3c1ac3" id="r_ac6d5a1832fe6f6fe657f78bf0d3c1ac3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d5a1832fe6f6fe657f78bf0d3c1ac3">__bool__</a> (self)</td></tr>
+<tr class="separator:ac6d5a1832fe6f6fe657f78bf0d3c1ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007070153119a821cdeee0f5356783c9" id="r_a007070153119a821cdeee0f5356783c9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a007070153119a821cdeee0f5356783c9">__delitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:a007070153119a821cdeee0f5356783c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee7abafa32a7bd43d28ce1b8bb3aa57" id="r_a9ee7abafa32a7bd43d28ce1b8bb3aa57"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ee7abafa32a7bd43d28ce1b8bb3aa57">__delitem__</a> (self, slice arg0)</td></tr>
+<tr class="separator:a9ee7abafa32a7bd43d28ce1b8bb3aa57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79dd37d59a176e8d9e6e457ab8bf8942" id="r_a79dd37d59a176e8d9e6e457ab8bf8942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79dd37d59a176e8d9e6e457ab8bf8942">__getitem__</a> (self, slice s)</td></tr>
+<tr class="separator:a79dd37d59a176e8d9e6e457ab8bf8942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffd1d65600f0f798c954e7587362e0c" id="r_aaffd1d65600f0f798c954e7587362e0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaffd1d65600f0f798c954e7587362e0c">__getitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:aaffd1d65600f0f798c954e7587362e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af73c879ae40505ed0ce5317ddd515e32" id="r_af73c879ae40505ed0ce5317ddd515e32"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af73c879ae40505ed0ce5317ddd515e32">__init__</a> (self)</td></tr>
+<tr class="separator:af73c879ae40505ed0ce5317ddd515e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00f3d8017a7f541aa27b5828aac1f919" id="r_a00f3d8017a7f541aa27b5828aac1f919"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00f3d8017a7f541aa27b5828aac1f919">__init__</a> (self, typing.Iterable arg0)</td></tr>
+<tr class="separator:a00f3d8017a7f541aa27b5828aac1f919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7fd6d9f21b035fc58983ef56eaf22d" id="r_aaf7fd6d9f21b035fc58983ef56eaf22d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf7fd6d9f21b035fc58983ef56eaf22d">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a> arg0)</td></tr>
+<tr class="separator:aaf7fd6d9f21b035fc58983ef56eaf22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7497b1e6912a757aba36ea5fc2d799fa" id="r_a7497b1e6912a757aba36ea5fc2d799fa"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7497b1e6912a757aba36ea5fc2d799fa">__iter__</a> (self)</td></tr>
+<tr class="separator:a7497b1e6912a757aba36ea5fc2d799fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99345de609b62e510e7f8d2f881cb5b8" id="r_a99345de609b62e510e7f8d2f881cb5b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99345de609b62e510e7f8d2f881cb5b8">__len__</a> (self)</td></tr>
+<tr class="separator:a99345de609b62e510e7f8d2f881cb5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904ebb131b328334f8088f845e86144c" id="r_a904ebb131b328334f8088f845e86144c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a904ebb131b328334f8088f845e86144c">__setitem__</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a> arg1)</td></tr>
+<tr class="separator:a904ebb131b328334f8088f845e86144c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e46fe902418a19c8cf27dfeb5150ea" id="r_a71e46fe902418a19c8cf27dfeb5150ea"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71e46fe902418a19c8cf27dfeb5150ea">__setitem__</a> (self, slice arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a> arg1)</td></tr>
+<tr class="separator:a71e46fe902418a19c8cf27dfeb5150ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0928370d1da4b077ea3e4c9f202c2f7" id="r_ad0928370d1da4b077ea3e4c9f202c2f7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0928370d1da4b077ea3e4c9f202c2f7">append</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a> x)</td></tr>
+<tr class="separator:ad0928370d1da4b077ea3e4c9f202c2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5978107eb3914fe39f36931edfe734b" id="r_ad5978107eb3914fe39f36931edfe734b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5978107eb3914fe39f36931edfe734b">clear</a> (self)</td></tr>
+<tr class="separator:ad5978107eb3914fe39f36931edfe734b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace358cd5b66e7edd5286e72732c03eb" id="r_aace358cd5b66e7edd5286e72732c03eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aace358cd5b66e7edd5286e72732c03eb">empty</a> (self)</td></tr>
+<tr class="separator:aace358cd5b66e7edd5286e72732c03eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ea925d305e75ab8614c61dba0be83d" id="r_ab6ea925d305e75ab8614c61dba0be83d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6ea925d305e75ab8614c61dba0be83d">extend</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a> L)</td></tr>
+<tr class="separator:ab6ea925d305e75ab8614c61dba0be83d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d8aea90400a67351d82ff8dc8820d6" id="r_a59d8aea90400a67351d82ff8dc8820d6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59d8aea90400a67351d82ff8dc8820d6">extend</a> (self, typing.Iterable L)</td></tr>
+<tr class="separator:a59d8aea90400a67351d82ff8dc8820d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac791c7c9dcd8cd8eac2d9e427e0e5634" id="r_ac791c7c9dcd8cd8eac2d9e427e0e5634"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac791c7c9dcd8cd8eac2d9e427e0e5634">insert</a> (self, int i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a> x)</td></tr>
+<tr class="separator:ac791c7c9dcd8cd8eac2d9e427e0e5634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a541e4be382916f6a2a260ef91e2bbd7f" id="r_a541e4be382916f6a2a260ef91e2bbd7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a541e4be382916f6a2a260ef91e2bbd7f">pop</a> (self)</td></tr>
+<tr class="separator:a541e4be382916f6a2a260ef91e2bbd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a810a9974634f8e13385708e04a0721c3" id="r_a810a9974634f8e13385708e04a0721c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a810a9974634f8e13385708e04a0721c3">pop</a> (self, int i)</td></tr>
+<tr class="separator:a810a9974634f8e13385708e04a0721c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a186872bd81501e53e72dbd0b01e51a01" id="r_a186872bd81501e53e72dbd0b01e51a01"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a186872bd81501e53e72dbd0b01e51a01">resize</a> (self, int arg0)</td></tr>
+<tr class="separator:a186872bd81501e53e72dbd0b01e51a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c583862ffaab393451c2f4a1a5d82a1" id="r_a5c583862ffaab393451c2f4a1a5d82a1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c583862ffaab393451c2f4a1a5d82a1">resize</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a> arg1)</td></tr>
+<tr class="separator:a5c583862ffaab393451c2f4a1a5d82a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad705c978bca11b1e728f5954031e411d" id="r_ad705c978bca11b1e728f5954031e411d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad705c978bca11b1e728f5954031e411d">size</a> (self)</td></tr>
+<tr class="separator:ad705c978bca11b1e728f5954031e411d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af73c879ae40505ed0ce5317ddd515e32" name="af73c879ae40505ed0ce5317ddd515e32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af73c879ae40505ed0ce5317ddd515e32">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00f3d8017a7f541aa27b5828aac1f919" name="a00f3d8017a7f541aa27b5828aac1f919"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00f3d8017a7f541aa27b5828aac1f919">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf7fd6d9f21b035fc58983ef56eaf22d" name="aaf7fd6d9f21b035fc58983ef56eaf22d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7fd6d9f21b035fc58983ef56eaf22d">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac6d5a1832fe6f6fe657f78bf0d3c1ac3" name="ac6d5a1832fe6f6fe657f78bf0d3c1ac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d5a1832fe6f6fe657f78bf0d3c1ac3">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_Dipole.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Check whether the list is nonempty
+</pre> 
+</div>
+</div>
+<a id="a007070153119a821cdeee0f5356783c9" name="a007070153119a821cdeee0f5356783c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007070153119a821cdeee0f5356783c9">&#9670;&#160;</a></span>__delitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete the list elements at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a9ee7abafa32a7bd43d28ce1b8bb3aa57" name="a9ee7abafa32a7bd43d28ce1b8bb3aa57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee7abafa32a7bd43d28ce1b8bb3aa57">&#9670;&#160;</a></span>__delitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="aaffd1d65600f0f798c954e7587362e0c" name="aaffd1d65600f0f798c954e7587362e0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffd1d65600f0f798c954e7587362e0c">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a> meshlib.mrmeshpy.std_vector_Dipole.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79dd37d59a176e8d9e6e457ab8bf8942" name="a79dd37d59a176e8d9e6e457ab8bf8942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79dd37d59a176e8d9e6e457ab8bf8942">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a> meshlib.mrmeshpy.std_vector_Dipole.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Retrieve list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a7497b1e6912a757aba36ea5fc2d799fa" name="a7497b1e6912a757aba36ea5fc2d799fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7497b1e6912a757aba36ea5fc2d799fa">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.std_vector_Dipole.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99345de609b62e510e7f8d2f881cb5b8" name="a99345de609b62e510e7f8d2f881cb5b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99345de609b62e510e7f8d2f881cb5b8">&#9670;&#160;</a></span>__len__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_Dipole.__len__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a904ebb131b328334f8088f845e86144c" name="a904ebb131b328334f8088f845e86144c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a904ebb131b328334f8088f845e86144c">&#9670;&#160;</a></span>__setitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71e46fe902418a19c8cf27dfeb5150ea" name="a71e46fe902418a19c8cf27dfeb5150ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71e46fe902418a19c8cf27dfeb5150ea">&#9670;&#160;</a></span>__setitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Assign list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="ad0928370d1da4b077ea3e4c9f202c2f7" name="ad0928370d1da4b077ea3e4c9f202c2f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0928370d1da4b077ea3e4c9f202c2f7">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.append </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Add an item to the end of the list
+</pre> 
+</div>
+</div>
+<a id="ad5978107eb3914fe39f36931edfe734b" name="ad5978107eb3914fe39f36931edfe734b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5978107eb3914fe39f36931edfe734b">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Clear the contents
+</pre> 
+</div>
+</div>
+<a id="aace358cd5b66e7edd5286e72732c03eb" name="aace358cd5b66e7edd5286e72732c03eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aace358cd5b66e7edd5286e72732c03eb">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_Dipole.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6ea925d305e75ab8614c61dba0be83d" name="ab6ea925d305e75ab8614c61dba0be83d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ea925d305e75ab8614c61dba0be83d">&#9670;&#160;</a></span>extend() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a></td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="a59d8aea90400a67351d82ff8dc8820d6" name="a59d8aea90400a67351d82ff8dc8820d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d8aea90400a67351d82ff8dc8820d6">&#9670;&#160;</a></span>extend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="ac791c7c9dcd8cd8eac2d9e427e0e5634" name="ac791c7c9dcd8cd8eac2d9e427e0e5634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac791c7c9dcd8cd8eac2d9e427e0e5634">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.insert </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Insert an item at a given position.
+</pre> 
+</div>
+</div>
+<a id="a541e4be382916f6a2a260ef91e2bbd7f" name="a541e4be382916f6a2a260ef91e2bbd7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a541e4be382916f6a2a260ef91e2bbd7f">&#9670;&#160;</a></span>pop() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a> meshlib.mrmeshpy.std_vector_Dipole.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the last item
+</pre> 
+</div>
+</div>
+<a id="a810a9974634f8e13385708e04a0721c3" name="a810a9974634f8e13385708e04a0721c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a810a9974634f8e13385708e04a0721c3">&#9670;&#160;</a></span>pop() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a> meshlib.mrmeshpy.std_vector_Dipole.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the item at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a186872bd81501e53e72dbd0b01e51a01" name="a186872bd81501e53e72dbd0b01e51a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a186872bd81501e53e72dbd0b01e51a01">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c583862ffaab393451c2f4a1a5d82a1" name="a5c583862ffaab393451c2f4a1a5d82a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c583862ffaab393451c2f4a1a5d82a1">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_Dipole.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Dipole.html">Dipole</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad705c978bca11b1e728f5954031e411d" name="ad705c978bca11b1e728f5954031e411d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad705c978bca11b1e728f5954031e411d">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_Dipole.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Dipole.html">std_vector_Dipole</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+var classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f =
+[
+    [ "__init__", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#ac3751ef22b4f53991d3eb0ecb4fdad80", null ],
+    [ "__init__", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#ad727eb505e8d1b5d46d79ea8cf855e0e", null ],
+    [ "__init__", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a95904b87bc9bfe6aea3109b9d78b96c7", null ],
+    [ "adjustCollapse", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a2bde7988a269c7edb42bac9bff7b1516", null ],
+    [ "adjustCollapse", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#aa435fffafe22d3ffb6ca4cdd896a3146", null ],
+    [ "maxDeletedVertices", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#aceb1a2a3eb207d18c9a1d0035d922777", null ],
+    [ "maxDeletedVertices", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a427d648507daa619c57761c19dad22dd", null ],
+    [ "maxEdgeLen", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a915b704a278e5005d26db52d21f617d2", null ],
+    [ "maxEdgeLen", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#ab42d4192ddfde563b8b56e821f9cdbea", null ],
+    [ "maxError", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a9afc30f531e91412ceace4f9ccc3a0c1", null ],
+    [ "maxError", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a27488fc5d36aa5c5b596ab623d96731b", null ],
+    [ "optimizeVertexPos", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#abec010bd4bb2951729448f7a1c450ed9", null ],
+    [ "optimizeVertexPos", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a967533bd1f89374d6eeceda8e171153c", null ],
+    [ "preCollapse", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a12abd1bfcb45a2ed6d3490591f7556c8", null ],
+    [ "preCollapse", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#ae3acefc90d2694877a7c20f4abbec1b8", null ],
+    [ "region", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a95d4e9c8caacc2fb3c76ba3a1d6fa0a2", null ],
+    [ "region", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a06d84b85b6303f387ed848bb5cc246fb", null ],
+    [ "stabilizer", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a204b4d27d013065ed7c8e5217e7317da", null ],
+    [ "stabilizer", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a945e9a8c5cff573527e9a6c05cb58f1a", null ],
+    [ "touchBdVertices", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a153f300b2cf318eade421f2274c96031", null ],
+    [ "touchBdVertices", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#acc10d327e5c2fd6ea0c8bb49da2d80f5", null ],
+    [ "vertForms", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#abbc6d197996afcb2bbc944318da8729d", null ],
+    [ "vertForms", "classmeshlib_1_1mrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#aa4c021d3a829e19963cdf11e7248e3af", null ]
+];

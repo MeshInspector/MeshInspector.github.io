@@ -1,0 +1,306 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.MeshEqualizeTriAreasParams Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1MeshEqualizeTriAreasParams.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1MeshEqualizeTriAreasParams-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.MeshEqualizeTriAreasParams Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for meshlib.mrmeshpy.MeshEqualizeTriAreasParams:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmeshlib_1_1mrmeshpy_1_1MeshEqualizeTriAreasParams.png" usemap="#meshlib.mrmeshpy.MeshEqualizeTriAreasParams_map" alt=""/>
+  <map id="meshlib.mrmeshpy.MeshEqualizeTriAreasParams_map" name="meshlib.mrmeshpy.MeshEqualizeTriAreasParams_map">
+<area href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html" alt="meshlib.mrmeshpy.MeshRelaxParams" shape="rect" coords="0,56,288,80"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html" alt="meshlib.mrmeshpy.RelaxParams" shape="rect" coords="0,0,288,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:acc9323ab0c8d752ab0a8b5fc6fb3b547" id="r_acc9323ab0c8d752ab0a8b5fc6fb3b547"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc9323ab0c8d752ab0a8b5fc6fb3b547">__init__</a> (self)</td></tr>
+<tr class="separator:acc9323ab0c8d752ab0a8b5fc6fb3b547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e69b5388f9b50fe59744e1d50378255" id="r_a4e69b5388f9b50fe59744e1d50378255"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e69b5388f9b50fe59744e1d50378255">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshEqualizeTriAreasParams.html">MeshEqualizeTriAreasParams</a> arg0)</td></tr>
+<tr class="separator:a4e69b5388f9b50fe59744e1d50378255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae05258c22990e979c40da2fc863cfdf" id="r_aae05258c22990e979c40da2fc863cfdf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae05258c22990e979c40da2fc863cfdf">noShrinkage</a> (self)</td></tr>
+<tr class="separator:aae05258c22990e979c40da2fc863cfdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b91c97527699517c20d3936570a0fc" id="r_a85b91c97527699517c20d3936570a0fc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85b91c97527699517c20d3936570a0fc">noShrinkage</a> (self, bool arg1)</td></tr>
+<tr class="separator:a85b91c97527699517c20d3936570a0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html">meshlib.mrmeshpy.MeshRelaxParams</a></td></tr>
+<tr class="memitem:a50f52d90b5bd9f25850f7adcaa971630 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams" id="r_a50f52d90b5bd9f25850f7adcaa971630"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html#a50f52d90b5bd9f25850f7adcaa971630">hardSmoothTetrahedrons</a> (self)</td></tr>
+<tr class="separator:a50f52d90b5bd9f25850f7adcaa971630 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a3f398c1fd399a33884a94660f6868 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams" id="r_af0a3f398c1fd399a33884a94660f6868"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html#af0a3f398c1fd399a33884a94660f6868">hardSmoothTetrahedrons</a> (self, bool arg1)</td></tr>
+<tr class="separator:af0a3f398c1fd399a33884a94660f6868 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b20315d7462c5e8a54dd82cb7bc2e9d inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams" id="r_a3b20315d7462c5e8a54dd82cb7bc2e9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html#a3b20315d7462c5e8a54dd82cb7bc2e9d">weights</a> (self)</td></tr>
+<tr class="separator:a3b20315d7462c5e8a54dd82cb7bc2e9d inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6df0d4d638a5747e2b93f6e7f33b0df inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams" id="r_ae6df0d4d638a5747e2b93f6e7f33b0df"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html#ae6df0d4d638a5747e2b93f6e7f33b0df">weights</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertScalars.html">VertScalars</a> arg1)</td></tr>
+<tr class="separator:ae6df0d4d638a5747e2b93f6e7f33b0df inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html">meshlib.mrmeshpy.RelaxParams</a></td></tr>
+<tr class="memitem:a84a2fd3c9c0337f5188b0d14a52fd395 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_a84a2fd3c9c0337f5188b0d14a52fd395"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#a84a2fd3c9c0337f5188b0d14a52fd395">force</a> (self)</td></tr>
+<tr class="separator:a84a2fd3c9c0337f5188b0d14a52fd395 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02d978ff3c10953967c15e20c5bf2d0 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_ad02d978ff3c10953967c15e20c5bf2d0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#ad02d978ff3c10953967c15e20c5bf2d0">force</a> (self, float arg1)</td></tr>
+<tr class="separator:ad02d978ff3c10953967c15e20c5bf2d0 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18acd2e1d32105954d744ce5b6e7ad2 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_ae18acd2e1d32105954d744ce5b6e7ad2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#ae18acd2e1d32105954d744ce5b6e7ad2">iterations</a> (self)</td></tr>
+<tr class="separator:ae18acd2e1d32105954d744ce5b6e7ad2 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc975f92ad3b6072ae50c12d51ea60e6 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_adc975f92ad3b6072ae50c12d51ea60e6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#adc975f92ad3b6072ae50c12d51ea60e6">iterations</a> (self, int arg1)</td></tr>
+<tr class="separator:adc975f92ad3b6072ae50c12d51ea60e6 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df2950da96f8455735daa1e37464d8d inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_a7df2950da96f8455735daa1e37464d8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#a7df2950da96f8455735daa1e37464d8d">limitNearInitial</a> (self)</td></tr>
+<tr class="separator:a7df2950da96f8455735daa1e37464d8d inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaed26bb5c3e22c68d9c59ddcabeb9f9 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_adaed26bb5c3e22c68d9c59ddcabeb9f9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#adaed26bb5c3e22c68d9c59ddcabeb9f9">limitNearInitial</a> (self, bool arg1)</td></tr>
+<tr class="separator:adaed26bb5c3e22c68d9c59ddcabeb9f9 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd93e9995bac6047721a2a29e4e3233a inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_afd93e9995bac6047721a2a29e4e3233a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#afd93e9995bac6047721a2a29e4e3233a">maxInitialDist</a> (self)</td></tr>
+<tr class="separator:afd93e9995bac6047721a2a29e4e3233a inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46030b49e3e1818ff6a0bf4351ba77c6 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_a46030b49e3e1818ff6a0bf4351ba77c6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#a46030b49e3e1818ff6a0bf4351ba77c6">maxInitialDist</a> (self, float arg1)</td></tr>
+<tr class="separator:a46030b49e3e1818ff6a0bf4351ba77c6 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b1036cf2e38de12c93edd407b1e47d inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_a10b1036cf2e38de12c93edd407b1e47d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#a10b1036cf2e38de12c93edd407b1e47d">region</a> (self)</td></tr>
+<tr class="separator:a10b1036cf2e38de12c93edd407b1e47d inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a020dbd95947a165c3fe53c82b134226e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams" id="r_a020dbd95947a165c3fe53c82b134226e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RelaxParams.html#a020dbd95947a165c3fe53c82b134226e">region</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">VertBitSet</a> arg1)</td></tr>
+<tr class="separator:a020dbd95947a165c3fe53c82b134226e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1RelaxParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::MeshEqualizeTriAreasParams
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acc9323ab0c8d752ab0a8b5fc6fb3b547" name="acc9323ab0c8d752ab0a8b5fc6fb3b547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc9323ab0c8d752ab0a8b5fc6fb3b547">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshEqualizeTriAreasParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html#ae21bd0b45bd7e284811cbe0dd7e7b57b">meshlib.mrmeshpy.MeshRelaxParams</a>.</p>
+
+</div>
+</div>
+<a id="a4e69b5388f9b50fe59744e1d50378255" name="a4e69b5388f9b50fe59744e1d50378255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e69b5388f9b50fe59744e1d50378255">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshEqualizeTriAreasParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshEqualizeTriAreasParams.html">MeshEqualizeTriAreasParams</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshRelaxParams.html#ae21bd0b45bd7e284811cbe0dd7e7b57b">meshlib.mrmeshpy.MeshRelaxParams</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aae05258c22990e979c40da2fc863cfdf" name="aae05258c22990e979c40da2fc863cfdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae05258c22990e979c40da2fc863cfdf">&#9670;&#160;</a></span>noShrinkage() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.MeshEqualizeTriAreasParams.noShrinkage </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if true prevents the surface from shrinkage after many iterations;
+technically it is done by solving the same task in the plane orthogonal to normal direction
+</pre> 
+</div>
+</div>
+<a id="a85b91c97527699517c20d3936570a0fc" name="a85b91c97527699517c20d3936570a0fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b91c97527699517c20d3936570a0fc">&#9670;&#160;</a></span>noShrinkage() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshEqualizeTriAreasParams.noShrinkage </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshEqualizeTriAreasParams.html">MeshEqualizeTriAreasParams</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

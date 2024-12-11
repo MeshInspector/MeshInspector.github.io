@@ -1,6 +1,7 @@
 var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
 [
     [ "config.h", "MRVoxels_2config_8h.html", null ],
+    [ "config_cmake.h", "MRVoxels_2config__cmake_8h.html", null ],
     [ "MRBoolean.h", "MRBoolean_8h.html", "MRBoolean_8h" ],
     [ "MRCalcDims.h", "MRCalcDims_8h.html", "MRCalcDims_8h" ],
     [ "MRChangeVoxelsAction.h", "MRChangeVoxelsAction_8h.html", null ],

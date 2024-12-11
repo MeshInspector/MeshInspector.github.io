@@ -200,22 +200,22 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="ttc" id="astructMR_1_1Mesh_html_a6a9114dc0640fc079b18e83625c3464a"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a">MR::Mesh::getBoundingBox</a></div><div class="ttdeci">MRMESH_API Box3f getBoundingBox() const</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
+<li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> <a class="code hl_namespaceRef" href="./Py/namespacemeshlib_1_1mrmeshpy.html">meshlib.mrmeshpy</a> <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load meshes</span></div>
-<div class="line">meshFloating = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;meshA.stl&quot;</span>)</div>
-<div class="line">meshFixed = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;meshB.stl&quot;</span>)</div>
+<div class="line">meshFloating = mrmeshpy.loadMesh(<span class="stringliteral">&quot;meshA.stl&quot;</span>)</div>
+<div class="line">meshFixed = mrmeshpy.loadMesh(<span class="stringliteral">&quot;meshB.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Prepare ICP parameters</span></div>
 <div class="line">diagonal = meshFixed.getBoundingBox().diagonal()</div>
 <div class="line">icp_sampling_voxel_size = diagonal * 0.01  <span class="comment"># To sample points from object</span></div>
-<div class="line">icp_params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1ICPProperties.html">mrmeshpy.ICPProperties</a>()</div>
+<div class="line">icp_params = mrmeshpy.ICPProperties()</div>
 <div class="line">icp_params.distThresholdSq = (diagonal * 0.1) ** 2  <span class="comment"># Use points pairs with maximum distance specified</span></div>
 <div class="line">icp_params.exitVal = diagonal * 0.003  <span class="comment"># Stop when this distance reached</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Calculate transformation</span></div>
-<div class="line">icp = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1ICP.html">mrmeshpy.ICP</a>(meshFloating, meshFixed,</div>
-<div class="line">                   <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy.AffineXf3f</a>(), <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy.AffineXf3f</a>(),</div>
+<div class="line">icp = mrmeshpy.ICP(meshFloating, meshFixed,</div>
+<div class="line">                   mrmeshpy.AffineXf3f(), mrmeshpy.AffineXf3f(),</div>
 <div class="line">                   icp_sampling_voxel_size)</div>
 <div class="line">icp.setParams(icp_params)</div>
 <div class="line">xf = icp.calculateTransformation()</div>
@@ -227,12 +227,8 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">print(icp.getLastICPInfo())</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy.saveMesh</a>(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>)</div>
-<div class="ttc" id="aclassmrmeshpy_1_1AffineXf3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy::AffineXf3f</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1ICPProperties_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1ICPProperties.html">mrmeshpy::ICPProperties</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1ICP_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1ICP.html">mrmeshpy::ICP</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a34254796865572bdb9d0ac8fe8b24854"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='MR::MeshLoadSettings{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a7d060e0695c7b9c53e265318c8c4b4c6"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='MR::SaveSettings{}')</div></div>
+<div class="line">mrmeshpy.saveMesh(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>)</div>
+<div class="ttc" id="anamespacemeshlib_1_1mrmeshpy_html"><div class="ttname"><a href="./Py/namespacemeshlib_1_1mrmeshpy.html">meshlib::mrmeshpy</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

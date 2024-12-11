@@ -1,0 +1,701 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a347317e939d634aee3916ffe39ea5824" id="r_a347317e939d634aee3916ffe39ea5824"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a347317e939d634aee3916ffe39ea5824">__bool__</a> (self)</td></tr>
+<tr class="separator:a347317e939d634aee3916ffe39ea5824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c303098705a8d3fdffcf39708a7d34" id="r_a12c303098705a8d3fdffcf39708a7d34"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c303098705a8d3fdffcf39708a7d34">__delitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:a12c303098705a8d3fdffcf39708a7d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8409c00a3cb49a46f3d48eef5496cdcf" id="r_a8409c00a3cb49a46f3d48eef5496cdcf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8409c00a3cb49a46f3d48eef5496cdcf">__delitem__</a> (self, slice arg0)</td></tr>
+<tr class="separator:a8409c00a3cb49a46f3d48eef5496cdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439116b457eb7f46e2478b7ad0331976" id="r_a439116b457eb7f46e2478b7ad0331976"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a439116b457eb7f46e2478b7ad0331976">__getitem__</a> (self, slice s)</td></tr>
+<tr class="separator:a439116b457eb7f46e2478b7ad0331976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec82dbea88cb4a28793158f5d828bc2f" id="r_aec82dbea88cb4a28793158f5d828bc2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec82dbea88cb4a28793158f5d828bc2f">__getitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:aec82dbea88cb4a28793158f5d828bc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9787fad450bb34a2216c4414a97f1be0" id="r_a9787fad450bb34a2216c4414a97f1be0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9787fad450bb34a2216c4414a97f1be0">__init__</a> (self)</td></tr>
+<tr class="separator:a9787fad450bb34a2216c4414a97f1be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2cfb7dca50cbd684cd649eefc4517a2" id="r_aa2cfb7dca50cbd684cd649eefc4517a2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2cfb7dca50cbd684cd649eefc4517a2">__init__</a> (self, typing.Iterable arg0)</td></tr>
+<tr class="separator:aa2cfb7dca50cbd684cd649eefc4517a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca85a06cc926114a1f84a456ccd8b62" id="r_a0ca85a06cc926114a1f84a456ccd8b62"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ca85a06cc926114a1f84a456ccd8b62">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a> arg0)</td></tr>
+<tr class="separator:a0ca85a06cc926114a1f84a456ccd8b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c1fab2f2b01f9f347e03872e72892f" id="r_a27c1fab2f2b01f9f347e03872e72892f"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27c1fab2f2b01f9f347e03872e72892f">__iter__</a> (self)</td></tr>
+<tr class="separator:a27c1fab2f2b01f9f347e03872e72892f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea31e0bee253786afc77ab72c6c24a30" id="r_aea31e0bee253786afc77ab72c6c24a30"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea31e0bee253786afc77ab72c6c24a30">__len__</a> (self)</td></tr>
+<tr class="separator:aea31e0bee253786afc77ab72c6c24a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04fca4635e72bcf8690f930206e77ed" id="r_ac04fca4635e72bcf8690f930206e77ed"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac04fca4635e72bcf8690f930206e77ed">__setitem__</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a> arg1)</td></tr>
+<tr class="separator:ac04fca4635e72bcf8690f930206e77ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268687adede2aeb70ce94d4ef748954d" id="r_a268687adede2aeb70ce94d4ef748954d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268687adede2aeb70ce94d4ef748954d">__setitem__</a> (self, slice arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a> arg1)</td></tr>
+<tr class="separator:a268687adede2aeb70ce94d4ef748954d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9665b775bb0729e1af8af88726ffdf" id="r_a2b9665b775bb0729e1af8af88726ffdf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9665b775bb0729e1af8af88726ffdf">append</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a> x)</td></tr>
+<tr class="separator:a2b9665b775bb0729e1af8af88726ffdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af432ae63f57c61df7fe817161ddd0835" id="r_af432ae63f57c61df7fe817161ddd0835"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af432ae63f57c61df7fe817161ddd0835">clear</a> (self)</td></tr>
+<tr class="separator:af432ae63f57c61df7fe817161ddd0835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133a0856ea048355e13d84ac69463900" id="r_a133a0856ea048355e13d84ac69463900"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133a0856ea048355e13d84ac69463900">empty</a> (self)</td></tr>
+<tr class="separator:a133a0856ea048355e13d84ac69463900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacd2fc8a75419526fd8ad844261edd2d" id="r_aacd2fc8a75419526fd8ad844261edd2d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacd2fc8a75419526fd8ad844261edd2d">extend</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a> L)</td></tr>
+<tr class="separator:aacd2fc8a75419526fd8ad844261edd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcb0fcf2f628cfb4cdc911d739ee45b" id="r_a9fcb0fcf2f628cfb4cdc911d739ee45b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fcb0fcf2f628cfb4cdc911d739ee45b">extend</a> (self, typing.Iterable L)</td></tr>
+<tr class="separator:a9fcb0fcf2f628cfb4cdc911d739ee45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b176ff39dac3b84a7d4e48f5996b3c6" id="r_a8b176ff39dac3b84a7d4e48f5996b3c6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b176ff39dac3b84a7d4e48f5996b3c6">insert</a> (self, int i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a> x)</td></tr>
+<tr class="separator:a8b176ff39dac3b84a7d4e48f5996b3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19edbb475368adddb249befd723b7297" id="r_a19edbb475368adddb249befd723b7297"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19edbb475368adddb249befd723b7297">pop</a> (self)</td></tr>
+<tr class="separator:a19edbb475368adddb249befd723b7297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa142dab6ea83cb85647311dbfb5e2b12" id="r_aa142dab6ea83cb85647311dbfb5e2b12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa142dab6ea83cb85647311dbfb5e2b12">pop</a> (self, int i)</td></tr>
+<tr class="separator:aa142dab6ea83cb85647311dbfb5e2b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc71aaf2145c9d04ee38932d1484b43" id="r_addc71aaf2145c9d04ee38932d1484b43"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addc71aaf2145c9d04ee38932d1484b43">resize</a> (self, int arg0)</td></tr>
+<tr class="separator:addc71aaf2145c9d04ee38932d1484b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d8181293e9f4c51bb603a9690c96b4" id="r_a28d8181293e9f4c51bb603a9690c96b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28d8181293e9f4c51bb603a9690c96b4">resize</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a> arg1)</td></tr>
+<tr class="separator:a28d8181293e9f4c51bb603a9690c96b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a8df9aa0f050e0635ff01f46ed3214" id="r_aa0a8df9aa0f050e0635ff01f46ed3214"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a8df9aa0f050e0635ff01f46ed3214">size</a> (self)</td></tr>
+<tr class="separator:aa0a8df9aa0f050e0635ff01f46ed3214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Aliases:  PlanarTriangulation.ContourIdMap
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9787fad450bb34a2216c4414a97f1be0" name="a9787fad450bb34a2216c4414a97f1be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9787fad450bb34a2216c4414a97f1be0">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2cfb7dca50cbd684cd649eefc4517a2" name="aa2cfb7dca50cbd684cd649eefc4517a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2cfb7dca50cbd684cd649eefc4517a2">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ca85a06cc926114a1f84a456ccd8b62" name="a0ca85a06cc926114a1f84a456ccd8b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca85a06cc926114a1f84a456ccd8b62">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a347317e939d634aee3916ffe39ea5824" name="a347317e939d634aee3916ffe39ea5824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a347317e939d634aee3916ffe39ea5824">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Check whether the list is nonempty
+</pre> 
+</div>
+</div>
+<a id="a12c303098705a8d3fdffcf39708a7d34" name="a12c303098705a8d3fdffcf39708a7d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12c303098705a8d3fdffcf39708a7d34">&#9670;&#160;</a></span>__delitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete the list elements at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a8409c00a3cb49a46f3d48eef5496cdcf" name="a8409c00a3cb49a46f3d48eef5496cdcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8409c00a3cb49a46f3d48eef5496cdcf">&#9670;&#160;</a></span>__delitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="aec82dbea88cb4a28793158f5d828bc2f" name="aec82dbea88cb4a28793158f5d828bc2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec82dbea88cb4a28793158f5d828bc2f">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a> meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a439116b457eb7f46e2478b7ad0331976" name="a439116b457eb7f46e2478b7ad0331976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a439116b457eb7f46e2478b7ad0331976">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a> meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Retrieve list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a27c1fab2f2b01f9f347e03872e72892f" name="a27c1fab2f2b01f9f347e03872e72892f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27c1fab2f2b01f9f347e03872e72892f">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea31e0bee253786afc77ab72c6c24a30" name="aea31e0bee253786afc77ab72c6c24a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea31e0bee253786afc77ab72c6c24a30">&#9670;&#160;</a></span>__len__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__len__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac04fca4635e72bcf8690f930206e77ed" name="ac04fca4635e72bcf8690f930206e77ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac04fca4635e72bcf8690f930206e77ed">&#9670;&#160;</a></span>__setitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a268687adede2aeb70ce94d4ef748954d" name="a268687adede2aeb70ce94d4ef748954d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268687adede2aeb70ce94d4ef748954d">&#9670;&#160;</a></span>__setitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Assign list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a2b9665b775bb0729e1af8af88726ffdf" name="a2b9665b775bb0729e1af8af88726ffdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9665b775bb0729e1af8af88726ffdf">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.append </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Add an item to the end of the list
+</pre> 
+</div>
+</div>
+<a id="af432ae63f57c61df7fe817161ddd0835" name="af432ae63f57c61df7fe817161ddd0835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af432ae63f57c61df7fe817161ddd0835">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Clear the contents
+</pre> 
+</div>
+</div>
+<a id="a133a0856ea048355e13d84ac69463900" name="a133a0856ea048355e13d84ac69463900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a133a0856ea048355e13d84ac69463900">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacd2fc8a75419526fd8ad844261edd2d" name="aacd2fc8a75419526fd8ad844261edd2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacd2fc8a75419526fd8ad844261edd2d">&#9670;&#160;</a></span>extend() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a></td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="a9fcb0fcf2f628cfb4cdc911d739ee45b" name="a9fcb0fcf2f628cfb4cdc911d739ee45b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fcb0fcf2f628cfb4cdc911d739ee45b">&#9670;&#160;</a></span>extend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="a8b176ff39dac3b84a7d4e48f5996b3c6" name="a8b176ff39dac3b84a7d4e48f5996b3c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b176ff39dac3b84a7d4e48f5996b3c6">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.insert </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Insert an item at a given position.
+</pre> 
+</div>
+</div>
+<a id="a19edbb475368adddb249befd723b7297" name="a19edbb475368adddb249befd723b7297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19edbb475368adddb249befd723b7297">&#9670;&#160;</a></span>pop() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a> meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the last item
+</pre> 
+</div>
+</div>
+<a id="aa142dab6ea83cb85647311dbfb5e2b12" name="aa142dab6ea83cb85647311dbfb5e2b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa142dab6ea83cb85647311dbfb5e2b12">&#9670;&#160;</a></span>pop() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a> meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the item at index ``i``
+</pre> 
+</div>
+</div>
+<a id="addc71aaf2145c9d04ee38932d1484b43" name="addc71aaf2145c9d04ee38932d1484b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc71aaf2145c9d04ee38932d1484b43">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28d8181293e9f4c51bb603a9690c96b4" name="a28d8181293e9f4c51bb603a9690c96b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d8181293e9f4c51bb603a9690c96b4">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html">PlanarTriangulation.IntersectionInfo</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0a8df9aa0f050e0635ff01f46ed3214" name="aa0a8df9aa0f050e0635ff01f46ed3214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0a8df9aa0f050e0635ff01f46ed3214">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html">std_vector_PlanarTriangulation_IntersectionInfo</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>
