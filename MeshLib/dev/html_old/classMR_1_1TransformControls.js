@@ -7,11 +7,11 @@ var classMR_1_1TransformControls =
     [ "getWidth", "classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45", null ],
     [ "init", "classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c", null ],
     [ "setRadius", "classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b", null ],
-    [ "setTypeRadius", "classMR_1_1TransformControls.html#a25316c0462cb339fa92cbb855ee773d4", null ],
+    [ "setSizeType", "classMR_1_1TransformControls.html#ab96ec3ff92c62092535e1ea90a28e90b", null ],
     [ "setVisualParams", "classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae", null ],
     [ "setWidth", "classMR_1_1TransformControls.html#aaf863f472ade960e2930c519a9576d1c", null ],
     [ "update", "classMR_1_1TransformControls.html#aa465cae8f8f64791763879ce0edb9f5b", null ],
-    [ "updateRotation", "classMR_1_1TransformControls.html#aabdd9554a91963f82be2b0f4f3935e6a", null ],
+    [ "updateRotation", "classMR_1_1TransformControls.html#ae75c88d7e57fc69be5c277b6d055b7aa", null ],
     [ "updateSizeInPixel", "classMR_1_1TransformControls.html#a9d26f5b660354ee7807cd3201bdc05a2", null ],
-    [ "updateTranslation", "classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d", null ]
+    [ "updateTranslation", "classMR_1_1TransformControls.html#ab01fb623bf0489a958d77ceeb3b27ff7", null ]
 ];

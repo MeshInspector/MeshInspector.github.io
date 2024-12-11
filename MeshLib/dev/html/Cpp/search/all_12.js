@@ -97,7 +97,7 @@ var searchData=
   ['pixel_5fratio_94',['pixel_ratio',['../classMR_1_1ImGuiMenu.html#a68decea45636d9cf3ddd402a7ed91222',1,'MR::ImGuiMenu']]],
   ['pixel_5fratio_5f_95',['pixel_ratio_',['../classMR_1_1ImGuiMenu.html#a864fd56e49c33e4847536e2665132196',1,'MR::ImGuiMenu']]],
   ['pixelratio_96',['pixelRatio',['../classMR_1_1Viewer.html#a7cb04be7931c10a1a93bb386ba1f7bb6',1,'MR::Viewer']]],
-  ['pixels_97',['Pixels',['../structMR_1_1TransformControls_1_1VisualParams.html#aeb6f300c32a5a0f979cd2725367c89bcac3d2f5d37334dc978fd8b17fc77408a1',1,'MR::TransformControls::VisualParams']]],
+  ['pixels_97',['Pixels',['../structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1',1,'MR::TransformControls::VisualParams']]],
   ['pixels_98',['pixels',['../structMR_1_1Image.html#ac507525682328e3e5fec0b85c131c224',1,'MR::Image::pixels'],['../namespaceMR.html#a081251e7d4b8d991d57cadeed71cf287ad399848208da8b80a306af0fd62bb03f',1,'MR::pixels']]],
   ['pixelsize_99',['pixelSize',['../structMR_1_1ContourToDistanceMapParams.html#af6e89dcef8c3cd2419a4cd2dbb77015f',1,'MR::ContourToDistanceMapParams']]],
   ['pixelsizeunit_100',['PixelSizeUnit',['../namespaceMR.html#a081251e7d4b8d991d57cadeed71cf287',1,'MR']]],

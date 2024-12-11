@@ -157,7 +157,7 @@ var NAVTREEINDEX =
 "classMR_1_1SceneObjectsListDrawer.html#adef3ad4d7054ccf6e99aba195fc29cf8",
 "classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5",
 "classMR_1_1SurfacePointWidget.html#a1636e12784d40c8c0e9fd238fa08b998",
-"classMR_1_1TransformControls.html#a9d26f5b660354ee7807cd3201bdc05a2",
+"classMR_1_1TransformControls.html#aa465cae8f8f64791763879ce0edb9f5b",
 "classMR_1_1Viewer.html#a32e4d503565b27c8a552abf2e49aed15",
 "classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a50966bab9526b25864172b96b6f49ee1",
 "classMR_1_1ViewerTitle.html#ac9f178efd4fb608f6f49d363574deddc",

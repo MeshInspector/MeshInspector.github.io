@@ -6,7 +6,7 @@ var searchData=
   ['pervertex_3',['PerVertex',['../group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c',1,'MR::MeshComponents']]],
   ['picker_4',['Picker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394',1,'MR::GLStaticHolder']]],
   ['pixel_5',['Pixel',['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0',1,'MR::SurfacePointWidget::Parameters']]],
-  ['pixels_6',['Pixels',['../structMR_1_1TransformControls_1_1VisualParams.html#aeb6f300c32a5a0f979cd2725367c89bcac3d2f5d37334dc978fd8b17fc77408a1',1,'MR::TransformControls::VisualParams']]],
+  ['pixels_6',['Pixels',['../structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1',1,'MR::TransformControls::VisualParams']]],
   ['pixels_7',['pixels',['../namespaceMR.html#a081251e7d4b8d991d57cadeed71cf287ad399848208da8b80a306af0fd62bb03f',1,'MR']]],
   ['planar_8',['Planar',['../namespaceMR.html#a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf',1,'MR']]],
   ['plane_9',['Plane',['../namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b',1,'MR']]],

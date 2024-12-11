@@ -199,10 +199,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62f6fd6ec96955e73fecfa08474af010" id="r_a62f6fd6ec96955e73fecfa08474af010"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62f6fd6ec96955e73fecfa08474af010">updateVisualTransformMode</a> (<a class="el" href="namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6">ControlBit</a> showMask, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask, const AffineXf3f &amp;xf)</td></tr>
 <tr class="separator:a62f6fd6ec96955e73fecfa08474af010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a3eb7a0414b0af2e09d8be03d83ff6d" id="r_a7a3eb7a0414b0af2e09d8be03d83ff6d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3eb7a0414b0af2e09d8be03d83ff6d">updateTranslation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const Vector3f &amp;startMove, const Vector3f &amp;endMove)=0</td></tr>
-<tr class="separator:a7a3eb7a0414b0af2e09d8be03d83ff6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28b44509443b10410b017d0621bc90ae" id="r_a28b44509443b10410b017d0621bc90ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b44509443b10410b017d0621bc90ae">updateRotation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const AffineXf3f &amp;xf, float startAngle, float endAngle)=0</td></tr>
-<tr class="separator:a28b44509443b10410b017d0621bc90ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26636938df550b48cbff6e634f95ba4e" id="r_a26636938df550b48cbff6e634f95ba4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26636938df550b48cbff6e634f95ba4e">updateTranslation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const Vector3f &amp;startMove, const Vector3f &amp;endMove, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> vpId)=0</td></tr>
+<tr class="separator:a26636938df550b48cbff6e634f95ba4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60452f38e7767aed4b34990197332ee1" id="r_a60452f38e7767aed4b34990197332ee1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60452f38e7767aed4b34990197332ee1">updateRotation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const AffineXf3f &amp;xf, float startAngle, float endAngle, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> vpId)=0</td></tr>
+<tr class="separator:a60452f38e7767aed4b34990197332ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -563,8 +563,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a28b44509443b10410b017d0621bc90ae" name="a28b44509443b10410b017d0621bc90ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28b44509443b10410b017d0621bc90ae">&#9670;&#160;</a></span>updateRotation()</h2>
+<a id="a60452f38e7767aed4b34990197332ee1" name="a60452f38e7767aed4b34990197332ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60452f38e7767aed4b34990197332ee1">&#9670;&#160;</a></span>updateRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -590,7 +590,12 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>endAngle</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>endAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>vpId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -600,7 +605,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#aabdd9554a91963f82be2b0f4f3935e6a">MR::TransformControls</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#ae75c88d7e57fc69be5c277b6d055b7aa">MR::TransformControls</a>.</p>
 
 </div>
 </div>
@@ -631,8 +636,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a3eb7a0414b0af2e09d8be03d83ff6d" name="a7a3eb7a0414b0af2e09d8be03d83ff6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a3eb7a0414b0af2e09d8be03d83ff6d">&#9670;&#160;</a></span>updateTranslation()</h2>
+<a id="a26636938df550b48cbff6e634f95ba4e" name="a26636938df550b48cbff6e634f95ba4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26636938df550b48cbff6e634f95ba4e">&#9670;&#160;</a></span>updateTranslation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -653,7 +658,12 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>endMove</em></span>&#160;)</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>endMove</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>vpId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -663,7 +673,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d">MR::TransformControls</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#ab01fb623bf0489a958d77ceeb3b27ff7">MR::TransformControls</a>.</p>
 
 </div>
 </div>

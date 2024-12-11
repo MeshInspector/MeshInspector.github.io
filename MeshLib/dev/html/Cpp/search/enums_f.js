@@ -12,7 +12,7 @@ var searchData=
   ['signdetectionmode_9',['SignDetectionMode',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309',1,'MR']]],
   ['signdetectionmodeshort_10',['SignDetectionModeShort',['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0',1,'MR']]],
   ['signeddetectionmethod_11',['SignedDetectionMethod',['../structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6',1,'MR::ContoursDistanceMapOptions']]],
-  ['sizetype_12',['SizeType',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae',1,'MR::DrawButtonParams']]],
+  ['sizetype_12',['SizeType',['../structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037',1,'MR::TransformControls::VisualParams::SizeType'],['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae',1,'MR::DrawButtonParams::SizeType']]],
   ['sliceplane_13',['SlicePlane',['../group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab',1,'MR']]],
   ['spacemousebuttons_14',['SpaceMouseButtons',['../namespaceMR.html#acad54447072489545d11f4ee251429e6',1,'MR']]],
   ['startposition_15',['StartPosition',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39',1,'MR::CommandLoop']]],
