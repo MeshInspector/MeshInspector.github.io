@@ -238,7 +238,7 @@ var searchData=
   ['doubleoffsetmesh_235',['doubleOffsetMesh',['.././Cpp/namespaceMR.html#acc11e2c793b76a5cae9e076283d14a41',1,'MR::doubleOffsetMesh()'],['.././Py/namespacemrmeshpy.html#aa916966c37c5afe5a5d5fe63a737ee56',1,'mrmeshpy::doubleOffsetMesh()']]],
   ['doubleoffsetsettings_236',['DoubleOffsetSettings',['.././Cpp/structMR_1_1DoubleOffsetSettings.html',1,'MR::DoubleOffsetSettings'],['.././Py/classmrmeshpy_1_1DoubleOffsetSettings.html',1,'mrmeshpy::DoubleOffsetSettings']]],
   ['doubleoffsetvdb_237',['doubleOffsetVdb',['.././Cpp/namespaceMR.html#a928996b8ccf0ededf4666de67cedde79',1,'MR::doubleOffsetVdb()'],['.././Py/namespacemrmeshpy.html#a68088f2c20bed0acc64b70443d0c84a7',1,'mrmeshpy::doubleOffsetVdb()']]],
-  ['downloaded_20nuget_20package_238',['Installation from a Downloaded NuGet Package',['../MeshLibCSharpSetupGuide.html#autotoc_md28',1,'']]],
+  ['downloaded_20nuget_20package_238',['Installation from a Downloaded NuGet Package',['../MeshLibCSharpSetupGuide.html#autotoc_md32',1,'']]],
   ['drag_239',['drag',['.././Cpp/classMR_1_1Viewer.html#ae08c5961fdb9631a768a60406145226a',1,'MR::Viewer::drag()'],['.././Cpp/namespaceMR_1_1UI.html#a1527cab8abd6795f21baa9abcfec2804',1,'MR::UI::drag()']]],
   ['dragdrop_240',['dragDrop',['.././Cpp/classMR_1_1Viewer.html#a69116527e6d1bb79a5231d928ccf9bb9',1,'MR::Viewer']]],
   ['dragdrop_5f_241',['dragDrop_',['.././Cpp/structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252',1,'MR::DragDropListener']]],

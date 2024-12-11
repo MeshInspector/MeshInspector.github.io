@@ -717,12 +717,12 @@ var searchData=
   ['grayshades_714',['GrayShades',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['greater_715',['Greater',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a8768a6821cd735aea4f5b0df88c1fc6a',1,'MR']]],
   ['greaterorequal_716',['GreaterOrEqual',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a6f2f0aefb3d22da0f3839453add5f937',1,'MR']]],
-  ['greatly_20improves_20performance_20by_20cost_20of_20minor_20quality_20loss_717',['Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshDecimate.dox.py#autotoc_md84',1,'']]],
+  ['greatly_20improves_20performance_20by_20cost_20of_20minor_20quality_20loss_717',['Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/MeshDecimate.dox.py#autotoc_md81',1,'']]],
   ['green_718',['green',['../structMR_1_1Color.html#a07d25f841350c5a6eeca781f6dcd0fda',1,'MR::Color']]],
   ['greenredcolors_719',['GreenRedColors',['../classMR_1_1Palette.html#a50926dd1bf08562983f3b26d745c961b',1,'MR::Palette']]],
   ['grid_720',['grid',['../classMR_1_1ObjectVoxels.html#a47bee6e3a0ea9a036e59d7857f8f43b4',1,'MR::ObjectVoxels::grid()'],['../ExampleNumpyTriangulation.html',1,'Triangulation of a regular Numpy grid']]],
-  ['grid_20on_20mesh_20box_721',['Init deformer with 3x3 grid on mesh box',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/FreeFormDeformation.dox.py#autotoc_md57',1,'']]],
-  ['grid_20to_20the_20center_722',['Move some control points of grid to the center',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/FreeFormDeformation.dox.py#autotoc_md58',1,'']]],
+  ['grid_20on_20mesh_20box_721',['Init deformer with 3x3 grid on mesh box',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/FreeFormDeformation.dox.py#autotoc_md54',1,'']]],
+  ['grid_20to_20the_20center_722',['Move some control points of grid to the center',['..//home/runner/work/MeshLib/MeshLib/MeshLib/examples/python-examples/FreeFormDeformation.dox.py#autotoc_md55',1,'']]],
   ['gridlevelset_723',['gridLevelSet',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7',1,'MR::VoxelsLoad::RawParameters']]],
   ['gridsettings_724',['GridSettings',['../structMR_1_1GridSettings.html',1,'MR']]],
   ['gridtomesh_725',['gridToMesh',['../namespaceMR.html#ad8e49582fe849014967a8baf003fd27b',1,'MR::gridToMesh(const FloatGrid &amp;grid, const GridToMeshSettings &amp;settings)'],['../namespaceMR.html#a1ad03b5a42934e43debc76695507a680',1,'MR::gridToMesh(FloatGrid &amp;&amp;grid, const GridToMeshSettings &amp;settings)']]],
@@ -738,6 +738,6 @@ var searchData=
   ['growoneedge_735',['growOneEdge',['../classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e',1,'MR::EdgePathsBuilderT']]],
   ['guessprecision_736',['guessPrecision',['../namespaceMR.html#a33468b27fcfb4e39e7bcbc65162f5dce',1,'MR::guessPrecision(T value)'],['../namespaceMR.html#ab1a04d603618814df24f8f6b758ace40',1,'MR::guessPrecision(T min, T max)'],['../namespaceMR.html#a6304170dd60424bc3b95da334cc55e6b',1,'MR::guessPrecision(T value)'],['../namespaceMR.html#aed6e483d438f864a607f1e84e410c2c7',1,'MR::guessPrecision(T min, T max)']]],
   ['guicontext_5f_737',['guiContext_',['../classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],
-  ['guide_738',['Guide',['../InstallationGuide.html#autotoc_md34',1,'Choose Your Setup Guide'],['../MeshLibCppSetupGuide.html',1,'MeshLib C++ Setup Guide']]],
+  ['guide_738',['Guide',['../InstallationGuide.html#autotoc_md38',1,'Choose Your Setup Guide'],['../MeshLibCppSetupGuide.html',1,'MeshLib C++ Setup Guide']]],
   ['guideweight_739',['guideWeight',['../structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings']]]
 ];
