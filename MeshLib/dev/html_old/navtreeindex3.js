@@ -1,15 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"MRIOFilters_8h_source.html":[6,0,3,0,0,2,3,137],
-"MRIOFormatsRegistry_8h.html":[6,0,3,0,0,2,3,138],
-"MRIOFormatsRegistry_8h.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[6,0,3,0,0,2,3,138,46],
-"MRIOFormatsRegistry_8h.html#a0b87b3918d63624f559f15d25ecb9c3a":[6,0,3,0,0,2,3,138,47],
-"MRIOFormatsRegistry_8h.html#a0bcaaec3c80b02829570a7670fe6d7da":[6,0,3,0,0,2,3,138,22],
-"MRIOFormatsRegistry_8h.html#a0f81139db68679c906d09ff033071478":[6,0,3,0,0,2,3,138,44],
-"MRIOFormatsRegistry_8h.html#a101d2a9f563eb1680e3beb04c22908c6":[6,0,3,0,0,2,3,138,41],
-"MRIOFormatsRegistry_8h.html#a13d83aa7ec99dc7a9ae166be69ecac53":[6,0,3,0,0,2,3,138,29],
-"MRIOFormatsRegistry_8h.html#a19c3bb2545005ca4c70a6243f3fd7a21":[6,0,3,0,0,2,3,138,40],
-"MRIOFormatsRegistry_8h.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[6,0,3,0,0,2,3,138,45],
 "MRIOFormatsRegistry_8h.html#a1eaeb0ed574244706d577a51cf6a16a0":[6,0,3,0,0,2,3,138,9],
 "MRIOFormatsRegistry_8h.html#a268aa90e5a330542295cca4a34787a08":[6,0,3,0,0,2,3,138,34],
 "MRIOFormatsRegistry_8h.html#a29b8cad8a954f362924dffd62b104195":[6,0,3,0,0,2,3,138,19],
@@ -249,5 +239,15 @@ var NAVTREEINDEX3 =
 "MRMakePlane_8h.html#a19595d087a85c1f377431ec7c863906c":[6,0,3,0,0,2,3,157,0],
 "MRMakePlane_8h_source.html":[6,0,3,0,0,2,3,157],
 "MRMakeRigidXf_8h.html":[6,0,3,0,0,2,3,158],
-"MRMakeRigidXf_8h.html#a433a8d6bdf429a6aeef4abc1a9f05798":[6,0,3,0,0,2,3,158,1]
+"MRMakeRigidXf_8h.html#a433a8d6bdf429a6aeef4abc1a9f05798":[6,0,3,0,0,2,3,158,1],
+"MRMakeRigidXf_8h_source.html":[6,0,3,0,0,2,3,158],
+"MRMakeSlot_8h.html":[6,0,3,0,0,2,9,37],
+"MRMakeSlot_8h.html#a2c688df55bdadf35189e97880b6dc592":[6,0,3,0,0,2,9,37,0],
+"MRMakeSlot_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc":[6,0,3,0,0,2,9,37,1],
+"MRMakeSlot_8h_source.html":[6,0,3,0,0,2,9,37],
+"MRMapEdge_8h.html":[6,0,3,0,0,2,3,160],
+"MRMapEdge_8h.html#a32139a9d419606425485a064d381a8ce":[6,0,3,0,0,2,3,160,4],
+"MRMapEdge_8h.html#a41ced3058fe68e59ccd27b7b81bf5e3c":[6,0,3,0,0,2,3,160,1],
+"MRMapEdge_8h.html#a8bc2c26fd2fc5169edc6c5b75559005d":[6,0,3,0,0,2,3,160,0],
+"MRMapEdge_8h.html#ab1d2f80b1c61df595390f0a811296879":[6,0,3,0,0,2,3,160,5]
 };

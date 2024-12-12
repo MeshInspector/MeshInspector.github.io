@@ -1,4 +1,4 @@
 var MRMeshC_2MRPointsSave_8h =
 [
-    [ "mrPointsSaveToAnySupportedFormat", "MRMeshC_2MRPointsSave_8h.html#aa7fcaa58d7e6459e02685bb17ce42b5d", null ]
+    [ "mrPointsSaveToAnySupportedFormat", "MRMeshC_2MRPointsSave_8h.html#ad8ba5718deebd1071692037dfa4f413d", null ]
 ];

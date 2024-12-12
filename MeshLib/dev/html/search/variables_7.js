@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g_0',['g',['.././Cpp/structMR_1_1Color.html#a88b7f7b16582811c68398fcb60488717',1,'MR::Color']]],
+  ['g_0',['g',['.././Cpp/structMR_1_1Color.html#a88b7f7b16582811c68398fcb60488717',1,'MR::Color::g'],['.././Cpp/structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd',1,'MRColor::g']]],
   ['gamma_1',['gamma',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505',1,'MR::DenoiseViaNormalsSettings']]],
   ['gaussian_2',['Gaussian',['.././Py/classmrmeshpy_1_1VoxelFilterType.html#aa9596b06bdea8c509609c6363cf87327',1,'mrmeshpy::VoxelFilterType']]],
   ['gcodechangedsignal_3',['gcodeChangedSignal',['.././Cpp/classMR_1_1ObjectGcode.html#af7ac54e95de2f8914777e833e1a83678',1,'MR::ObjectGcode']]],

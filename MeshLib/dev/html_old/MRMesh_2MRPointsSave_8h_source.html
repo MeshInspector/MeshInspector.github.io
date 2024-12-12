@@ -151,7 +151,7 @@ $(function(){initNavTree('MRMesh_2MRPointsSave_8h_source.html',''); initResizabl
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRExpected.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRPointCloud_8h.html">MRPointCloud.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRIOFilters_8h.html">MRIOFilters.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRSaveSettings_8h.html">MRSaveSettings.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRSaveSettings_8h.html">MRSaveSettings.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;ostream&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
@@ -186,7 +186,7 @@ $(function(){initNavTree('MRMesh_2MRPointsSave_8h_source.html',''); initResizabl
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:68</div></div>
 <div class="ttc" id="aMRMesh_2MRPointCloud_8h_html"><div class="ttname"><a href="MRMesh_2MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
-<div class="ttc" id="aMRSaveSettings_8h_html"><div class="ttname"><a href="MRSaveSettings_8h.html">MRSaveSettings.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRSaveSettings_8h_html"><div class="ttname"><a href="MRMesh_2MRSaveSettings_8h.html">MRSaveSettings.h</a></div></div>
 <div class="ttc" id="agroup__PointsSaveGroup_html_ga3c8f83fa34faa244672c9f70f436659d"><div class="ttname"><a href="group__PointsSaveGroup.html#ga3c8f83fa34faa244672c9f70f436659d">MR::PointsSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and save points to it</div></div>
 <div class="ttc" id="agroup__PointsSaveGroup_html_ga94002b7226a354d4ed16c373abe30200"><div class="ttname"><a href="group__PointsSaveGroup.html#ga94002b7226a354d4ed16c373abe30200">MR::PointsSave::toXyz</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toXyz(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__PointsSaveGroup_html_gaac66378aea59c039d4d6f10abc88e0c7"><div class="ttname"><a href="group__PointsSaveGroup.html#gaac66378aea59c039d4d6f10abc88e0c7">MR::PointsSave::toAsc</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAsc(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">save points with normals in .xyzn format, and save points without normals in .xyz format</div></div>
@@ -195,7 +195,7 @@ $(function(){initNavTree('MRMesh_2MRPointsSave_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:16</div></div>
-<div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:14</div></div>
+<div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRMesh/MRSaveSettings.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

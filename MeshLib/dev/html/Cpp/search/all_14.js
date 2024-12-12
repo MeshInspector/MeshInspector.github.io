@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e',1,'MR::AABBTreeNode::r'],['../structMR_1_1Color.html#aaa379f38f05825d099fa1a11b4fa9b32',1,'MR::Color::r'],['../structMR_1_1Matrix3_1_1QR.html#ab303b0d5b439ba72a0be24e1c590241b',1,'MR::Matrix3::QR::r']]],
+  ['r_0',['r',['../structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e',1,'MR::AABBTreeNode::r'],['../structMR_1_1Color.html#aaa379f38f05825d099fa1a11b4fa9b32',1,'MR::Color::r'],['../structMR_1_1Matrix3_1_1QR.html#ab303b0d5b439ba72a0be24e1c590241b',1,'MR::Matrix3::QR::r'],['../structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a',1,'MRColor::r']]],
   ['r_5f_1',['r_',['../classMR_1_1FeatureObject.html#aced598f63c94fa32b11e140c3aec72fa',1,'MR::FeatureObject']]],
   ['radians_2',['radians',['../namespaceMR.html#af673fdef7d01a580ce58c29b84ea9beaa017969ba49117264eb077e9f66daacfd',1,'MR']]],
   ['radiation_3',['radiation',['../structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867',1,'MR::SkyPatch']]],
@@ -57,7 +57,7 @@ var searchData=
   ['readstring_54',['readString',['../namespaceMR.html#a4c58f7437a40fe2c4502a7f7ef5c7d25',1,'MR']]],
   ['readtiffparameters_55',['readTiffParameters',['../namespaceMR.html#a7c49de97d655fd498b5741311c3c1bcf',1,'MR']]],
   ['readuijson_5f_56',['readUIJson_',['../classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e',1,'MR::RibbonSchemaLoader::readUIJson_(const std::filesystem::path &amp;path) const'],['../classMR_1_1RibbonSchemaLoader.html#ae18febd5f891538a94cd80c617a2c7f0',1,'MR::RibbonSchemaLoader::readUIJson_(const Json::Value &amp;root) const']]],
-  ['rearrangetriangles_57',['rearrangeTriangles',['../structMR_1_1SaveSettings.html#a2d0238b076acd7e381d778f9c92fe873',1,'MR::SaveSettings']]],
+  ['rearrangetriangles_57',['rearrangeTriangles',['../structMR_1_1SaveSettings.html#a2d0238b076acd7e381d778f9c92fe873',1,'MR::SaveSettings::rearrangeTriangles'],['../structMRSaveSettings.html#a4df1627285e1943e46ed5844acd7acf8',1,'MRSaveSettings::rearrangeTriangles']]],
   ['rearrangevectorbymap_58',['rearrangeVectorByMap',['../namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d',1,'MR']]],
   ['reason_59',['Reason',['../classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b',1,'MR::ShortcutManager']]],
   ['rebuildmesh_60',['rebuildMesh',['../namespaceMR.html#ae3f5900ab5832382ad11410977098452',1,'MR']]],

@@ -8,7 +8,7 @@ var searchData=
   ['samplingvoxelsize_5',['samplingVoxelSize',['../structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6',1,'MR::MultiwayICPSamplingParameters::samplingVoxelSize'],['../structMRMultiwayICPSamplingParameters.html#ac6058971b579e40ddc013b125896b756',1,'MRMultiwayICPSamplingParameters::samplingVoxelSize']]],
   ['saveddialogpositionenabled_5f_6',['savedDialogPositionEnabled_',['../classMR_1_1ImGuiMenu.html#a69ba22274265966f6ddc7eabf3eb78a9',1,'MR::ImGuiMenu']]],
   ['savetooltip_7',['saveTooltip',['../structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a',1,'MR::UI::SaveChangesPopupSettings']]],
-  ['savevalidonly_8',['saveValidOnly',['../structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f',1,'MR::SaveSettings']]],
+  ['savevalidonly_8',['saveValidOnly',['../structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f',1,'MR::SaveSettings::saveValidOnly'],['../structMRSaveSettings.html#a47c3805a57d7062446bc12172eb77943',1,'MRSaveSettings::saveValidOnly']]],
   ['scalartype_9',['scalarType',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea',1,'MR::VoxelsLoad::RawParameters']]],
   ['scale_10',['scale',['../structMR_1_1UiRenderParams.html#ae7aebd36b4266bd1203eaf71259d12bc',1,'MR::UiRenderParams']]],
   ['scaling_11',['scaling',['../structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb',1,'MR::RibbonMenuSearch::Parameters::scaling'],['../structMR_1_1UI_1_1SaveChangesPopupSettings.html#afe88334f75c2605ce27940f67c1a5448',1,'MR::UI::SaveChangesPopupSettings::scaling']]],

@@ -27,7 +27,8 @@ var menudata={children:[
 {text:"Getting Started",url:"^https://meshinspector.github.io/MeshLib/dev/html/InstallationGuide.html",children:[
 {text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCppSetupGuide.html"},
-{text:"C#",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCSharpSetupGuide.html"}]},
+{text:"C#",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCSharpSetupGuide.html"},
+{text:"CMake",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"^https://meshinspector.github.io/MeshLib/dev/html/License.html"},
 {text:"Tutorials",url:"^https://meshinspector.github.io/MeshLib/dev/html/Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"^https://meshinspector.github.io/MeshLib/dev/html/FirstPluginTutorial.html"}]},

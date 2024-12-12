@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g_0',['g',['../structMR_1_1Color.html#a88b7f7b16582811c68398fcb60488717',1,'MR::Color']]],
+  ['g_0',['g',['../structMR_1_1Color.html#a88b7f7b16582811c68398fcb60488717',1,'MR::Color::g'],['../structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd',1,'MRColor::g']]],
   ['gamma_1',['gamma',['../structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505',1,'MR::DenoiseViaNormalsSettings']]],
   ['gcodechangedsignal_2',['gcodeChangedSignal',['../classMR_1_1ObjectGcode.html#af7ac54e95de2f8914777e833e1a83678',1,'MR::ObjectGcode']]],
   ['geodesicpathapprox_3',['geodesicPathApprox',['../structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39',1,'MR::SearchPathSettings']]],

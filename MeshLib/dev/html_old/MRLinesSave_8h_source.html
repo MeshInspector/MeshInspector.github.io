@@ -149,7 +149,7 @@ $(function(){initNavTree('MRLinesSave_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRExpected.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRIOFilters_8h.html">MRIOFilters.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRSaveSettings_8h.html">MRSaveSettings.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRSaveSettings_8h.html">MRSaveSettings.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;ostream&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
@@ -178,14 +178,14 @@ $(function(){initNavTree('MRLinesSave_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
 <div class="ttc" id="aMRIOFilters_8h_html"><div class="ttname"><a href="MRIOFilters_8h.html">MRIOFilters.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:68</div></div>
-<div class="ttc" id="aMRSaveSettings_8h_html"><div class="ttname"><a href="MRSaveSettings_8h.html">MRSaveSettings.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRSaveSettings_8h_html"><div class="ttname"><a href="MRMesh_2MRSaveSettings_8h.html">MRSaveSettings.h</a></div></div>
 <div class="ttc" id="agroup__LinesSaveGroup_html_ga7daab131397a83e2aceac630038c48c2"><div class="ttname"><a href="group__LinesSaveGroup.html#ga7daab131397a83e2aceac630038c48c2">MR::LinesSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and saves polyline in it</div></div>
 <div class="ttc" id="agroup__LinesSaveGroup_html_ga802f6247e04cbaf42586219ff7ac82ca"><div class="ttname"><a href="group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca">MR::LinesSave::toMrLines</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toMrLines(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__LinesSaveGroup_html_gacc61869c3919edab3a7ba6f1c319dd20"><div class="ttname"><a href="group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20">MR::LinesSave::toPts</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toPts(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__LinesSaveGroup_html_gadbd1551d2a728738185c2a7b126509cc"><div class="ttname"><a href="group__LinesSaveGroup.html#gadbd1551d2a728738185c2a7b126509cc">MR::LinesSave::toDxf</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toDxf(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:58</div></div>
-<div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:14</div></div>
+<div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRMesh/MRSaveSettings.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

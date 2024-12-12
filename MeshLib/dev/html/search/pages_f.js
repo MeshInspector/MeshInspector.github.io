@@ -5,7 +5,7 @@ var searchData=
   ['sdk_2',['Getting Started with MeshLib SDK',['../InstallationGuide.html',1,'']]],
   ['sdk_20for_20python_3',['How to Install MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],
   ['sdk_20tutorials_4',['MeshLib SDK Tutorials',['../Tutorials.html',1,'']]],
-  ['setup_20guide_5',['MeshLib C++ Setup Guide',['../MeshLibCppSetupGuide.html',1,'']]],
+  ['setup_20guide_5',['Setup Guide',['../MeshLibCppSetupGuide.html',1,'MeshLib C++ Setup Guide'],['../MeshLibCmakeSetupGuide.html',1,'MeshLib CMake Setup Guide']]],
   ['simple_20triangulation_6',['Simple triangulation',['../ExampleTriangulation.html',1,'']]],
   ['spaces_20and_20transformations_7',['Spaces and Transformations',['../SpacesHelp.html',1,'']]],
   ['started_20with_20meshlib_20sdk_8',['Getting Started with MeshLib SDK',['../InstallationGuide.html',1,'']]],

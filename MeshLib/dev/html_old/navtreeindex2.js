@@ -1,15 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b":[6,0,3,0,0,2,3,87,1,1],
-"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149":[6,0,3,0,0,2,3,87,3],
-"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481":[6,0,3,0,0,2,3,87,3,1],
-"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe":[6,0,3,0,0,2,3,87,3,0],
-"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8b":[6,0,3,0,0,2,3,87,2],
-"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7":[6,0,3,0,0,2,3,87,2,1],
-"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f":[6,0,3,0,0,2,3,87,2,0],
-"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666":[6,0,3,0,0,2,3,87,2,2],
-"MREnums_8h_source.html":[6,0,3,0,0,2,3,87],
-"MRExpected_8h.html":[6,0,3,0,0,2,3,89],
 "MRExpected_8h.html#a1544b69f030c536c35a2d00c154caaf6":[6,0,3,0,0,2,3,89,3],
 "MRExpected_8h.html#a33356cd4adf5eec2753897c64caf3f54":[6,0,3,0,0,2,3,89,0],
 "MRExpected_8h.html#a35384d6fca989aa5fd419f6c6d730022":[6,0,3,0,0,2,3,89,4],
@@ -249,5 +239,15 @@ var NAVTREEINDEX2 =
 "MRIOFilesMenuItems_8h.html":[6,0,3,0,0,2,0,2,1],
 "MRIOFilesMenuItems_8h.html#abf9e7451b5087b4485b6207161438dc3":[6,0,3,0,0,2,0,2,1,10],
 "MRIOFilesMenuItems_8h_source.html":[6,0,3,0,0,2,0,2,1],
-"MRIOFilters_8h.html":[6,0,3,0,0,2,3,137]
+"MRIOFilters_8h.html":[6,0,3,0,0,2,3,137],
+"MRIOFilters_8h_source.html":[6,0,3,0,0,2,3,137],
+"MRIOFormatsRegistry_8h.html":[6,0,3,0,0,2,3,138],
+"MRIOFormatsRegistry_8h.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[6,0,3,0,0,2,3,138,46],
+"MRIOFormatsRegistry_8h.html#a0b87b3918d63624f559f15d25ecb9c3a":[6,0,3,0,0,2,3,138,47],
+"MRIOFormatsRegistry_8h.html#a0bcaaec3c80b02829570a7670fe6d7da":[6,0,3,0,0,2,3,138,22],
+"MRIOFormatsRegistry_8h.html#a0f81139db68679c906d09ff033071478":[6,0,3,0,0,2,3,138,44],
+"MRIOFormatsRegistry_8h.html#a101d2a9f563eb1680e3beb04c22908c6":[6,0,3,0,0,2,3,138,41],
+"MRIOFormatsRegistry_8h.html#a13d83aa7ec99dc7a9ae166be69ecac53":[6,0,3,0,0,2,3,138,29],
+"MRIOFormatsRegistry_8h.html#a19c3bb2545005ca4c70a6243f3fd7a21":[6,0,3,0,0,2,3,138,40],
+"MRIOFormatsRegistry_8h.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[6,0,3,0,0,2,3,138,45]
 };

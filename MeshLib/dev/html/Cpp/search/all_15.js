@@ -44,7 +44,7 @@ var searchData=
   ['savetofile_41',['saveToFile',['../classMR_1_1Viewer.html#a01c76d68cd7eda7aa58d1e04f5ba1604',1,'MR::Viewer']]],
   ['savetojson_42',['saveToJson',['../classMR_1_1CNCMachineSettings.html#aefee9fbee599870c51626aa983b8a978',1,'MR::CNCMachineSettings']]],
   ['savetooltip_43',['saveTooltip',['../structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a',1,'MR::UI::SaveChangesPopupSettings']]],
-  ['savevalidonly_44',['saveValidOnly',['../structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f',1,'MR::SaveSettings::saveValidOnly'],['../classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644',1,'MR::VertRenumber::saveValidOnly()']]],
+  ['savevalidonly_44',['saveValidOnly',['../structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f',1,'MR::SaveSettings::saveValidOnly'],['../structMRSaveSettings.html#a47c3805a57d7062446bc12172eb77943',1,'MRSaveSettings::saveValidOnly'],['../classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644',1,'MR::VertRenumber::saveValidOnly()']]],
   ['savingsettings_45',['SavingSettings',['../structMR_1_1VoxelsSave_1_1SavingSettings.html',1,'MR::VoxelsSave']]],
   ['scalar_46',['Scalar',['../structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005',1,'MR::ConeFittingFunctor::Scalar'],['../structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74',1,'MR::BaseTiffParameters::Scalar']]],
   ['scalartype_47',['ScalarType',['../namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8',1,'MR']]],
