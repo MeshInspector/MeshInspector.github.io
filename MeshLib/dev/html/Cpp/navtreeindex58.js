@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[5,0,1,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[5,0,2,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[5,0,1,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[5,0,2,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[5,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[5,0,2,0,0,0,3],
 "structImGui_1_1HistogramGridLine.html":[5,0,1,0,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMRRemeshSettings.html#a91f9d8989a2fcdef91d94d8f7adeb0e9":[5,0,2,0,48,1],
 "structMRRemeshSettings.html#aadd944d2ed451a6df6c8a0cf913e4576":[5,0,2,0,48,10],
 "structMRRemeshSettings.html#ab58b49a00c7efe6fe7b4a2f423bfbab3":[5,0,2,0,48,8],
-"structMRRemeshSettings.html#abbafe7fdf1d4baf1a12add0274a6a7db":[5,0,2,0,48,5],
-"structMRRemeshSettings.html#ac8e31341ae62a21b0a026dd78bcb2a12":[5,0,2,0,48,2],
-"structMRRemeshSettings.html#ae1948ca96b6e8e0a5c7777ec08e18a3f":[5,0,2,0,48,0],
-"structMRResolveMeshDegenSettings.html":[5,0,2,0,49],
-"structMRResolveMeshDegenSettings.html#a40805f081847f33445b8c25f2288f1ca":[5,0,2,0,49,4]
+"structMRRemeshSettings.html#abbafe7fdf1d4baf1a12add0274a6a7db":[5,0,2,0,48,5]
 };

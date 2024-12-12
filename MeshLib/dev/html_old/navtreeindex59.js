@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"structMRMakeCylinderAdvancedParameters.html#a954f28f8586e56201fc5d37f1865a5f2":[6,0,2,0,23,3],
+"structMRMakeCylinderAdvancedParameters.html#ac0e345476c72ba97cd7601033b431fa2":[6,0,2,0,23,5],
+"structMRMakeCylinderAdvancedParameters.html#adb9dcc5a855e991275135241242c5ed9":[6,0,2,0,23,2],
+"structMRMakeTorusParameters.html":[6,0,2,0,24],
 "structMRMakeTorusParameters.html#a17f0a3976680bd5bf51a72024eeb1427":[6,0,2,0,24,0],
 "structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,24,2],
 "structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[6,0,2,0,24,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,1,0,13,56,4],
 "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,2,0,1,40,4],
 "structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,1,0,13,56,5],
-"structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,2,0,1,40,5],
-"structMR_1_1AncillaryMesh.html":[6,0,1,0,13,57],
-"structMR_1_1AncillaryMesh.html":[6,0,2,0,1,41],
-"structMR_1_1AncillaryMesh.html#a1ca43fe7d75b0248f913382d597ca50c":[6,0,1,0,13,57,5],
-"structMR_1_1AncillaryMesh.html#a1ca43fe7d75b0248f913382d597ca50c":[6,0,2,0,1,41,5]
+"structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,2,0,1,40,5]
 };

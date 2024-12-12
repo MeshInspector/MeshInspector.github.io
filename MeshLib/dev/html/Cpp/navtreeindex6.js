@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRPointCloud_8h.html#ac66eee562b6c817093510de592dddd1a":[5,0,3,0,0,1,4,43,8],
+"MRMeshC_2MRPointCloud_8h.html#acc1dc0b47754967aeed02fcdc0bb6272":[5,0,3,0,0,1,4,43,10],
 "MRMeshC_2MRPointCloud_8h.html#acd0b83abac0a5e1f4ef2d2d63878d20b":[5,0,3,0,0,1,4,43,0],
 "MRMeshC_2MRPointCloud_8h.html#ad9f3c3dd86e0d25f7dabbcc1cc26118d":[5,0,3,0,0,1,4,43,6],
 "MRMeshC_2MRPointCloud_8h_source.html":[5,0,3,0,0,1,4,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRExpandShrink_8h.html#a9e6ed568f45f7d64f6bda4895ecc3fad":[5,0,3,0,0,1,3,88,3],
 "MRMesh_2MRExpandShrink_8h.html#aa946ebaaa62a242f328d53fab37011d0":[5,0,3,0,0,1,3,88,7],
 "MRMesh_2MRExpandShrink_8h.html#ab4490c42061cf2506fdb325f9d281f68":[5,0,3,0,0,1,3,88,0],
-"MRMesh_2MRExpandShrink_8h.html#ad2e283ffde3e68d5a41e0a832bb41060":[5,0,3,0,0,1,3,88,2],
-"MRMesh_2MRExpandShrink_8h.html#ae10a86deae3557a2d54360cfdb691313":[5,0,3,0,0,1,3,88,5],
-"MRMesh_2MRExpandShrink_8h.html#ae45bc0307c08b61de1db862894b9affd":[5,0,3,0,0,1,3,88,8]
+"MRMesh_2MRExpandShrink_8h.html#ad2e283ffde3e68d5a41e0a832bb41060":[5,0,3,0,0,1,3,88,2]
 };

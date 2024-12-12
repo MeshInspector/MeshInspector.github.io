@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,2,0,1,2,2,2,1],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[6,0,1,0,13,6,2,2,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[6,0,2,0,1,2,2,2,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[6,0,1,0,13,6,2,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[6,0,2,0,1,2,2,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,1,0,13,6,2,2,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,2,0,1,2,2,2,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1FlatTree.html":[6,0,2,0,1,211],
 "structMR_1_1FlatTree.html#a91ce578b57c3afcd001373ff561404a9":[6,0,1,0,13,227,0],
 "structMR_1_1FlatTree.html#a91ce578b57c3afcd001373ff561404a9":[6,0,2,0,1,211,0],
-"structMR_1_1FlatTree.html#ac658a0431f66b43b4735d82b4ce30504":[6,0,1,0,13,227,1],
-"structMR_1_1FlatTree.html#ac658a0431f66b43b4735d82b4ce30504":[6,0,2,0,1,211,1],
-"structMR_1_1FlowAggregator_1_1Flows.html":[6,0,1,0,13,228,0],
-"structMR_1_1FlowAggregator_1_1Flows.html":[6,0,2,0,1,212,0],
-"structMR_1_1FlowAggregator_1_1Flows.html#a1b00cb5cc3b4966d2b6b9b009a6ed153":[6,0,1,0,13,228,0,0]
+"structMR_1_1FlatTree.html#ac658a0431f66b43b4735d82b4ce30504":[6,0,1,0,13,227,1]
 };

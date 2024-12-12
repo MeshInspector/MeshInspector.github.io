@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRMarkedVoxelSlice_8h.html":[5,0,3,0,0,1,9,38],
+"MRMarkedVoxelSlice_8h_source.html":[5,0,3,0,0,1,9,38],
 "MRMatrix2_8h.html":[5,0,3,0,0,1,3,164],
 "MRMatrix2_8h_source.html":[5,0,3,0,0,1,3,164],
 "MRMatrix3Decompose_8h.html":[5,0,3,0,0,1,3,166],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRMatrix3_8h.html":[5,0,3,0,0,1,4,18],
 "MRMeshC_2MRMatrix3_8h.html#a11cf7e2444bea875abd31fa0c30607bc":[5,0,3,0,0,1,4,18,6],
 "MRMeshC_2MRMatrix3_8h.html#a2fd8b13f2803b4506c74a3d9e1232079":[5,0,3,0,0,1,4,18,9],
-"MRMeshC_2MRMatrix3_8h.html#a3100bf8d7c848b8710002e6ed136a627":[5,0,3,0,0,1,4,18,8],
-"MRMeshC_2MRMatrix3_8h.html#a3e9f35e4f4a68b535fe47f1dc1f85e36":[5,0,3,0,0,1,4,18,7],
-"MRMeshC_2MRMatrix3_8h.html#a4db0d207746411f28d04656d4558f553":[5,0,3,0,0,1,4,18,2]
+"MRMeshC_2MRMatrix3_8h.html#a3100bf8d7c848b8710002e6ed136a627":[5,0,3,0,0,1,4,18,8]
 };

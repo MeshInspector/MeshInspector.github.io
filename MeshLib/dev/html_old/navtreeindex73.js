@@ -1,5 +1,9 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,2,0,1,15,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,1,0,13,26,1,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,1,15,1,1],
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,1,0,13,26,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,2,0,1,15,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,1,0,13,26,2,0],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,2,0,1,15,2,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1ProgressInterrupter.html":[6,0,1,0,13,490],
 "structMR_1_1ProgressInterrupter.html":[6,0,2,0,1,474],
 "structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,1,0,13,490,1],
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,2,0,1,474,1],
-"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[6,0,1,0,13,490,2],
-"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[6,0,2,0,1,474,2],
-"structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[6,0,1,0,13,490,0],
-"structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[6,0,2,0,1,474,0]
+"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,2,0,1,474,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,2,0,1,369,2],
+"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,1,0,13,385,1],
+"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,2,0,1,369,1],
+"structMR_1_1NotificationTags.html":[6,0,1,0,13,388],
 "structMR_1_1NotificationTags.html":[6,0,2,0,1,372],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,1,0,13,388,0],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,372,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,2,0,1,419,0],
 "structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,1,0,13,435,4],
 "structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,2,0,1,419,4],
-"structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[6,0,1,0,13,435,6],
-"structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[6,0,2,0,1,419,6],
-"structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3":[6,0,1,0,13,435,3],
-"structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3":[6,0,2,0,1,419,3],
-"structMR_1_1Parabola.html#a35b32607bcb14a8f5c89da76ea131304":[6,0,1,0,13,435,2]
+"structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[6,0,1,0,13,435,6]
 };

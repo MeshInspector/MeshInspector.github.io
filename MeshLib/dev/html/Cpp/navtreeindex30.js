@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1ObjectPointsHolder.html":[5,0,2,0,1,388],
+"classMR_1_1ObjectPointsHolder.html#a045c0320f1489b9374254b9dd00aeb51":[5,0,1,0,1,404,54],
 "classMR_1_1ObjectPointsHolder.html#a045c0320f1489b9374254b9dd00aeb51":[5,0,2,0,1,388,54],
 "classMR_1_1ObjectPointsHolder.html#a063fd6bcd742ad46b10c0cb3232d7fe4":[5,0,1,0,1,404,41],
 "classMR_1_1ObjectPointsHolder.html#a063fd6bcd742ad46b10c0cb3232d7fe4":[5,0,2,0,1,388,41],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1OpenDICOMsMenuItem.html":[5,0,1,0,1,424],
 "classMR_1_1OpenDICOMsMenuItem.html":[5,0,2,0,1,408],
 "classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[5,0,1,0,1,424,1],
-"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[5,0,2,0,1,408,1],
-"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[5,0,1,0,1,424,0],
-"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[5,0,2,0,1,408,0]
+"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[5,0,2,0,1,408,1]
 };

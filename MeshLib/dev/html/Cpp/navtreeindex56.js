@@ -1,7 +1,11 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR.html#afc9f574268d072e85d31e140353743df":[5,0,1,0,1,2202],
+"namespaceMR.html#afcac7cfa63a119745d66e8d1de48b084":[5,0,1,0,1,897],
+"namespaceMR.html#afd74f9f75fe9d97b4aa208e3fa498301":[5,0,1,0,1,1363],
+"namespaceMR.html#afddcd5cd9466d41302c0ec4d1ee83c96":[5,0,1,0,1,1574],
 "namespaceMR.html#afe3d8a0d392d8c39709a37e08a665777":[5,0,1,0,1,992],
-"namespaceMR.html#afe49e137af70c8aaef17a39366b4bd32":[5,0,1,0,1,2293],
+"namespaceMR.html#afe49e137af70c8aaef17a39366b4bd32":[5,0,1,0,1,2295],
 "namespaceMR.html#afe997bf38614449b2ab18c04b6da671d":[5,0,1,0,1,1335],
 "namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df":[5,0,1,0,1,1749],
 "namespaceMR.html#afebaea1321bcf85ccd6401870196c3fd":[5,0,1,0,1,1085],
@@ -245,9 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1SceneLoad.html#a70619566d4d89dbf29aaa2a7a3b4833e":[5,0,1,0,1,33,3],
 "namespaceMR_1_1SceneLoad.html#ab13020e377967aca04518368ed70a509":[5,0,1,0,1,33,1],
 "namespaceMR_1_1SceneSave.html":[5,0,1,0,1,34],
-"namespaceMR_1_1SceneSave.html#abae0b302d53c60953ecab7559619c2ea":[5,0,1,0,1,34,0],
-"namespaceMR_1_1SelfIntersections.html":[5,0,1,0,1,35],
-"namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[5,0,1,0,1,35,1],
-"namespaceMR_1_1SelfIntersections.html#aea449a398c4999edebba068358686684":[5,0,1,0,1,35,2],
-"namespaceMR_1_1StyleConsts.html":[5,0,1,0,1,36]
+"namespaceMR_1_1SceneSave.html#abae0b302d53c60953ecab7559619c2ea":[5,0,1,0,1,34,0]
 };

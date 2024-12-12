@@ -237,7 +237,6 @@ var hierarchy =
     [ "mrmeshpy.EnumNeihbourVertices", "classmrmeshpy_1_1EnumNeihbourVertices.html", null ],
     [ "mrmeshpy.MeshBuilder.equalVector3f", "classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "mrmeshpy.PrecipitationSimulator.Event", "classmrmeshpy_1_1PrecipitationSimulator_1_1Event.html", null ],
-    [ "mrmeshpy.expected_void_std_string", "classmrmeshpy_1_1expected__void__std__string.html", null ],
     [ "mrmeshpy.ExtremeEdgeType", "classmrmeshpy_1_1ExtremeEdgeType.html", null ],
     [ "mrmeshpy.Face2RegionMap", "classmrmeshpy_1_1Face2RegionMap.html", null ],
     [ "mrmeshpy.FaceBMap", "classmrmeshpy_1_1FaceBMap.html", null ],

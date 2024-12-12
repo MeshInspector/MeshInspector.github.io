@@ -206,7 +206,6 @@ var annotated_dup =
       [ "EmbeddedStructureParameters", "classmrmeshpy_1_1EmbeddedStructureParameters.html", "classmrmeshpy_1_1EmbeddedStructureParameters" ],
       [ "EnumNeihbourFaces", "classmrmeshpy_1_1EnumNeihbourFaces.html", "classmrmeshpy_1_1EnumNeihbourFaces" ],
       [ "EnumNeihbourVertices", "classmrmeshpy_1_1EnumNeihbourVertices.html", "classmrmeshpy_1_1EnumNeihbourVertices" ],
-      [ "expected_void_std_string", "classmrmeshpy_1_1expected__void__std__string.html", "classmrmeshpy_1_1expected__void__std__string" ],
       [ "ExtremeEdgeType", "classmrmeshpy_1_1ExtremeEdgeType.html", "classmrmeshpy_1_1ExtremeEdgeType" ],
       [ "Face2RegionMap", "classmrmeshpy_1_1Face2RegionMap.html", "classmrmeshpy_1_1Face2RegionMap" ],
       [ "FaceBitSet", "classmrmeshpy_1_1FaceBitSet.html", "classmrmeshpy_1_1FaceBitSet" ],

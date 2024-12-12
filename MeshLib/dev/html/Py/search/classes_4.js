@@ -24,6 +24,5 @@ var searchData=
   ['enumneihbourvertices_21',['EnumNeihbourVertices',['../classmrmeshpy_1_1EnumNeihbourVertices.html',1,'mrmeshpy']]],
   ['equalvector3f_22',['equalVector3f',['../classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html',1,'mrmeshpy::MeshBuilder']]],
   ['event_23',['Event',['../classmrmeshpy_1_1PrecipitationSimulator_1_1Event.html',1,'mrmeshpy::PrecipitationSimulator']]],
-  ['expected_5fvoid_5fstd_5fstring_24',['expected_void_std_string',['../classmrmeshpy_1_1expected__void__std__string.html',1,'mrmeshpy']]],
-  ['extremeedgetype_25',['ExtremeEdgeType',['../classmrmeshpy_1_1ExtremeEdgeType.html',1,'mrmeshpy']]]
+  ['extremeedgetype_24',['ExtremeEdgeType',['../classmrmeshpy_1_1ExtremeEdgeType.html',1,'mrmeshpy']]]
 ];

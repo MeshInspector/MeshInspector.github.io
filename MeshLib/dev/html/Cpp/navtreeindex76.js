@@ -1,5 +1,9 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[5,0,2,0,1,591,3],
+"structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[5,0,1,0,1,607,2],
+"structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[5,0,2,0,1,591,2],
+"structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[5,0,1,0,1,607,4],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[5,0,2,0,1,591,4],
 "structMR_1_1SpaceMouseDownListener.html":[5,0,1,0,1,609],
 "structMR_1_1SpaceMouseDownListener.html":[5,0,2,0,1,593],
@@ -245,9 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1TextMeshAlignParams.html#a1e66f8a73876d514551ec9d621f7f82c":[5,0,1,0,1,639,7],
 "structMR_1_1TextMeshAlignParams.html#a1e66f8a73876d514551ec9d621f7f82c":[5,0,2,0,1,623,7],
 "structMR_1_1TextMeshAlignParams.html#a2b0fa04ea63d4e6994fb1b7e4ae55ee5":[5,0,1,0,1,639,4],
-"structMR_1_1TextMeshAlignParams.html#a2b0fa04ea63d4e6994fb1b7e4ae55ee5":[5,0,2,0,1,623,4],
-"structMR_1_1TextMeshAlignParams.html#a2f2ea74bc141db0ff0a27c42f9115461":[5,0,1,0,1,639,1],
-"structMR_1_1TextMeshAlignParams.html#a2f2ea74bc141db0ff0a27c42f9115461":[5,0,2,0,1,623,1],
-"structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa":[5,0,1,0,1,639,0],
-"structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa":[5,0,2,0,1,623,0]
+"structMR_1_1TextMeshAlignParams.html#a2b0fa04ea63d4e6994fb1b7e4ae55ee5":[5,0,2,0,1,623,4]
 };

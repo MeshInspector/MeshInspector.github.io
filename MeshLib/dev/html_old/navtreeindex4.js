@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRMakeRigidXf_8h_source.html":[6,0,3,0,0,2,3,158],
+"MRMakeSlot_8h.html":[6,0,3,0,0,2,9,37],
 "MRMakeSlot_8h.html#a2c688df55bdadf35189e97880b6dc592":[6,0,3,0,0,2,9,37,0],
 "MRMakeSlot_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc":[6,0,3,0,0,2,9,37,1],
 "MRMakeSlot_8h_source.html":[6,0,3,0,0,2,9,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71ae73be2eaa1b5072f98f8a8903017c0bd":[6,0,3,0,0,2,4,13,12,2],
 "MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71afd56d46f18e9ef449ae8dd084183f594":[6,0,3,0,0,2,4,13,12,3],
 "MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71afe1e5215b08f8fd66281c3f61dc356ae":[6,0,3,0,0,2,4,13,12,4],
-"MRMeshC_2MRICP_8h.html#afed4cf1a0b5f632c3c96f3b7eec8c5a5":[6,0,3,0,0,2,4,13,18],
-"MRMeshC_2MRICP_8h_source.html":[6,0,3,0,0,2,4,13],
-"MRMeshC_2MRIOExtras_8h.html":[6,0,3,0,0,2,4,16]
+"MRMeshC_2MRICP_8h.html#afed4cf1a0b5f632c3c96f3b7eec8c5a5":[6,0,3,0,0,2,4,13,18]
 };

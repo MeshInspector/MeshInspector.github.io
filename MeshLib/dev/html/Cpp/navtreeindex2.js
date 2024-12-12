@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"MRFastWindingNumber_8h.html":[5,0,3,0,0,1,3,93],
+"MRFastWindingNumber_8h_source.html":[5,0,3,0,0,1,3,93],
 "MRFeatureHelpers_8h.html":[5,0,3,0,0,1,3,94],
 "MRFeatureHelpers_8h.html#a04713a302796cba586c7e4caa99b88a3":[5,0,3,0,0,1,3,94,12],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0d":[5,0,3,0,0,1,3,94,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "MRIOFormatsRegistry_8h.html#ac0f6e00f19d26a3fb4eef786c3e46599":[5,0,3,0,0,1,3,138,26],
 "MRIOFormatsRegistry_8h.html#ac3df046ec9a6d60de507313aa455fb84":[5,0,3,0,0,1,3,138,21],
 "MRIOFormatsRegistry_8h.html#acaeabf1d4cced15a0961b626a6e9b868":[5,0,3,0,0,1,3,138,42],
-"MRIOFormatsRegistry_8h.html#acbaa2ba6fd0f247d93c5c30d89690b4d":[5,0,3,0,0,1,3,138,16],
-"MRIOFormatsRegistry_8h.html#adff7af79e8e1629fe97e7437d47aa578":[5,0,3,0,0,1,3,138,20],
-"MRIOFormatsRegistry_8h.html#ae5c25199e6378ab457f1cf1185081963":[5,0,3,0,0,1,3,138,10]
+"MRIOFormatsRegistry_8h.html#acbaa2ba6fd0f247d93c5c30d89690b4d":[5,0,3,0,0,1,3,138,16]
 };

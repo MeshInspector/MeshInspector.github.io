@@ -29,7 +29,6 @@ var searchData=
   ['enumneihbourvertices_26',['EnumNeihbourVertices',['.././Cpp/classMR_1_1EnumNeihbourVertices.html',1,'MR::EnumNeihbourVertices'],['.././Py/classmrmeshpy_1_1EnumNeihbourVertices.html',1,'mrmeshpy::EnumNeihbourVertices']]],
   ['equalvector3f_27',['equalVector3f',['.././Cpp/structMR_1_1MeshBuilder_1_1equalVector3f.html',1,'MR::MeshBuilder::equalVector3f'],['.././Py/classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html',1,'mrmeshpy::MeshBuilder::equalVector3f']]],
   ['event_28',['Event',['.././Py/classmrmeshpy_1_1PrecipitationSimulator_1_1Event.html',1,'mrmeshpy::PrecipitationSimulator']]],
-  ['expected_5fvoid_5fstd_5fstring_29',['expected_void_std_string',['.././Py/classmrmeshpy_1_1expected__void__std__string.html',1,'mrmeshpy']]],
-  ['externalsettings_30',['ExternalSettings',['.././Cpp/classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html',1,'MR::ViewerSettingsPlugin']]],
-  ['extremeedgetype_31',['ExtremeEdgeType',['.././Py/classmrmeshpy_1_1ExtremeEdgeType.html',1,'mrmeshpy']]]
+  ['externalsettings_29',['ExternalSettings',['.././Cpp/classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html',1,'MR::ViewerSettingsPlugin']]],
+  ['extremeedgetype_30',['ExtremeEdgeType',['.././Py/classmrmeshpy_1_1ExtremeEdgeType.html',1,'mrmeshpy']]]
 ];

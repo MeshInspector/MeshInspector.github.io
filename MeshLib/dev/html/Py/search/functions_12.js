@@ -2,7 +2,7 @@ var searchData=
 [
   ['s_0',['s',['../classmrmeshpy_1_1RigidScaleXf3d.html#a4175a9984b9dd5d94b5a8a20cbb77625',1,'mrmeshpy.RigidScaleXf3d.s(self)'],['../classmrmeshpy_1_1RigidScaleXf3d.html#a443405c617ebce6fce6e2a0b10335bb0',1,'mrmeshpy.RigidScaleXf3d.s(self, float arg1)'],['../classmrmeshpy_1_1RigidScaleXf3f.html#a1d3081c3ee3919dbf7f77538881d96e3',1,'mrmeshpy.RigidScaleXf3f.s(self)'],['../classmrmeshpy_1_1RigidScaleXf3f.html#a8cfbd7c8eb134bf7d013d19e840066d2',1,'mrmeshpy.RigidScaleXf3f.s(self, float arg1)']]],
   ['safez_1',['safeZ',['../classmrmeshpy_1_1ToolPathParams.html#a12b9bdd8aad75a66bd5cdd7e134f4320',1,'mrmeshpy.ToolPathParams.safeZ(self)'],['../classmrmeshpy_1_1ToolPathParams.html#ad0f9f0a8079dc8e262fcfd36980d8aea',1,'mrmeshpy.ToolPathParams.safeZ(self, float arg1)']]],
-  ['same_2',['same',['../namespacemrmeshpy.html#a7a1c0c36824c19e4914c47b0a03078c3',1,'mrmeshpy.same(MeshTopology topology, EdgePoint lhs, EdgePoint rhs)'],['../namespacemrmeshpy.html#a9e6b415187384bdfe264db8bd1aa69f7',1,'mrmeshpy.same(MeshTopology topology, MeshTriPoint lhs, MeshTriPoint rhs)']]],
+  ['same_2',['same',['../namespacemrmeshpy.html#a9e6b415187384bdfe264db8bd1aa69f7',1,'mrmeshpy.same(MeshTopology topology, MeshTriPoint lhs, MeshTriPoint rhs)'],['../namespacemrmeshpy.html#a7a1c0c36824c19e4914c47b0a03078c3',1,'mrmeshpy.same(MeshTopology topology, EdgePoint lhs, EdgePoint rhs)']]],
   ['sample_3',['sample',['../classmrmeshpy_1_1Image.html#ada2f20aa593305ea9352392fa97c672f',1,'mrmeshpy::Image']]],
   ['samplebilinear_4',['sampleBilinear',['../classmrmeshpy_1_1Image.html#a76082958ade33da570341c2dc4fcff40',1,'mrmeshpy::Image']]],
   ['samplediscrete_5',['sampleDiscrete',['../classmrmeshpy_1_1Image.html#a63c2c17fee551e3c6c2a00d7e6850ee2',1,'mrmeshpy::Image']]],
