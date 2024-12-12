@@ -30,6 +30,5 @@ var searchData=
   ['quaterniond_27',['Quaterniond',['.././Py/classmrmeshpy_1_1Quaterniond.html',1,'mrmeshpy']]],
   ['quaternionf_28',['Quaternionf',['.././Py/classmrmeshpy_1_1Quaternionf.html',1,'mrmeshpy']]],
   ['quatersmask_29',['quatersMask',['.././Cpp/structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438',1,'MR::VoxelMetricParameters::quatersMask'],['.././Py/classmrmeshpy_1_1VoxelMetricParameters.html#a5820a09f6b2209d897e0381b7d1a22ab',1,'mrmeshpy::VoxelMetricParameters::quatersMask(self)'],['.././Py/classmrmeshpy_1_1VoxelMetricParameters.html#aaafaaa6e8391db85081cf8f65df01f65',1,'mrmeshpy::VoxelMetricParameters::quatersMask(self, QuarterBit arg1)']]],
-  ['queue_30',['queue',['.././Cpp/structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95',1,'MR::TriangulationHelpers::TriangulatedFanData']]],
-  ['quick_20integration_20guide_31',['Quick Integration Guide',['../MeshLibCmakeSetupGuide.html#autotoc_md9',1,'']]]
+  ['queue_30',['queue',['.././Cpp/structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95',1,'MR::TriangulationHelpers::TriangulatedFanData']]]
 ];

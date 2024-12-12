@@ -29,8 +29,7 @@ var NAVTREE =
     [ "Getting Started", "InstallationGuide.html", [
       [ "Python", "MeshLibPythonSetupGuide.html", null ],
       [ "C++", "MeshLibCppSetupGuide.html", null ],
-      [ "C#", "MeshLibCSharpSetupGuide.html", null ],
-      [ "CMake", "MeshLibCmakeSetupGuide.html", null ]
+      [ "C#", "MeshLibCSharpSetupGuide.html", null ]
     ] ],
     [ "License", "License.html", null ],
     [ "Tutorials", "Tutorials.html", [
