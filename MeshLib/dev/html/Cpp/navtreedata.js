@@ -28,7 +28,8 @@ var NAVTREE =
     [ "Getting Started", "^https://meshinspector.github.io/MeshLib/dev/html/InstallationGuide.html", [
       [ "Python", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibPythonSetupGuide.html", null ],
       [ "C++", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCppSetupGuide.html", null ],
-      [ "C#", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCSharpSetupGuide.html", null ]
+      [ "C#", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCSharpSetupGuide.html", null ],
+      [ "CMake", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "^https://meshinspector.github.io/MeshLib/dev/html/License.html", null ],
     [ "Tutorials", "^https://meshinspector.github.io/MeshLib/dev/html/Tutorials.html", [

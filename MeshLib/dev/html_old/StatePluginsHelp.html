@@ -145,7 +145,7 @@ $(function(){initNavTree('StatePluginsHelp.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">State Plugins Overview</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2><a class="anchor" id="autotoc_md43"></a>
+<div class="textblock"><h2><a class="anchor" id="autotoc_md50"></a>
 Base Functions</h2>
 <p><b>State</b> <b>plugins</b> is simple objects to work with MeshLib scene and/or objects. It is one of possible inheritance of <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a></p>
 <p>It has base functions:</p>
@@ -156,7 +156,7 @@ Base Functions</h2>
 </div><!-- fragment --><p> <b>On</b> <b>Enable</b> <b>function</b> - will be called if user enables plugin (only possible if <code>isAvailable</code> has returned true), if <code>onEnable_</code> function returns false plugin will not be enabled (useful for some expensive checks, not to do them in each frame <code>available</code> function) </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_();</div>
 </div><!-- fragment --><p> <b>On</b> <b>Disable</b> <b>function</b> - will be called if user disable plugin, it is necessary to clear all plugin data </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onDisable_();</div>
 </div><!-- fragment --><p> <b>Draw</b> <b>Dialog</b> <b>function</b> - this function is called in each frame, only if plugin is enabled (will not be called after <code>onDisable_</code> function). It is necessary to show plugin custom <a class="el" href="namespaceMR_1_1UI.html">UI</a>. </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> drawDialog( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx );</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md44"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md51"></a>
 How to make your first plugin</h2>
 <p>To create you plugin you need to inherit class from <a class="el" href="namespaceMR.html#ab03e30b3d478dc602964140a67391c49">MR::StatePlugin</a> or <a class="el" href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a> (in case you need to get some events)<br  />
 Example: </p><div class="fragment"><div class="line"><span class="keyword">class </span>MyOwnPlugin : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">MR::StatePlugin</a></div>

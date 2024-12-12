@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,1,0,13,509],
 "classMR_1_1RegisterRenderObjectConstructor.html":[6,0,2,0,1,493],
 "classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,1,0,13,509,0],
 "classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,2,0,1,493,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1RenderMeshObject.html#a363bdae2a388d10c4408213932092acc":[6,0,1,0,13,519,42],
 "classMR_1_1RenderMeshObject.html#a363bdae2a388d10c4408213932092acc":[6,0,2,0,1,503,42],
 "classMR_1_1RenderMeshObject.html#a365f57737ec03550ffd6b0397dbfdefb":[6,0,1,0,13,519,19],
-"classMR_1_1RenderMeshObject.html#a365f57737ec03550ffd6b0397dbfdefb":[6,0,2,0,1,503,19],
-"classMR_1_1RenderMeshObject.html#a36832676f48c87a67ff5782e57a7bd66":[6,0,1,0,13,519,73]
+"classMR_1_1RenderMeshObject.html#a365f57737ec03550ffd6b0397dbfdefb":[6,0,2,0,1,503,19]
 };
