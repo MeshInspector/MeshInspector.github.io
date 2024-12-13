@@ -233,9 +233,8 @@ var NAVTREEINDEX8 =
 "MRMouse_8h.html#a338d701994ea7476fe1b7aa25f480a86":[6,0,3,0,0,1,9,43,2],
 "MRMouse_8h_source.html":[6,0,3,0,0,1,9,43],
 "MRMoveMeshToVoxelMaxDeriv_8h.html":[6,0,3,0,0,1,10,13],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#a30e2c3aecb1f52450686821bb8337a6d":[6,0,3,0,0,1,10,13,3],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#aba51976bf5ee63cebefc410329e92ae0":[6,0,3,0,0,1,10,13,2],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#add963001b21876433757b659c99a0818":[6,0,3,0,0,1,10,13,4],
+"MRMoveMeshToVoxelMaxDeriv_8h.html#a30e2c3aecb1f52450686821bb8337a6d":[6,0,3,0,0,1,10,13,1],
+"MRMoveMeshToVoxelMaxDeriv_8h.html#aba51976bf5ee63cebefc410329e92ae0":[6,0,3,0,0,1,10,13,0],
 "MRMoveMeshToVoxelMaxDeriv_8h_source.html":[6,0,3,0,0,1,10,13],
 "MRMoveObjectByMouseImpl_8h.html":[6,0,3,0,0,1,9,45],
 "MRMoveObjectByMouseImpl_8h_source.html":[6,0,3,0,0,1,9,45],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "MRMutexOwner_8h.html":[6,0,3,0,0,1,3,219],
 "MRMutexOwner_8h_source.html":[6,0,3,0,0,1,3,219],
 "MRNoDefInit_8h.html":[6,0,3,0,0,1,3,220],
-"MRNoDefInit_8h_source.html":[6,0,3,0,0,1,3,220]
+"MRNoDefInit_8h_source.html":[6,0,3,0,0,1,3,220],
+"MRNormalDenoising_8h.html":[6,0,3,0,0,1,3,221]
 };

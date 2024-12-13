@@ -43,6 +43,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -145,7 +152,7 @@ $(function(){initNavTree('structMR_1_1MoveMeshToVoxelMaxDerivSettings.html','');
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1MoveMeshToVoxelMaxDerivSettings-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::MoveMeshToVoxelMaxDerivSettings Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MR::MoveMeshToVoxelMaxDerivSettings Struct Reference<div class="ingroups"><a class="el" href="group__VoxelGroup.html">Voxel</a> &raquo; <a class="el" href="group__SubvoxelMeshCorrection.html">Subvoxel Mesh Correction</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -230,7 +237,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded for small degrees, this value should be small, for large degrees it may be larger measured in number of voxels </p>
+<p>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels. </p>
 
 </div>
 </div>

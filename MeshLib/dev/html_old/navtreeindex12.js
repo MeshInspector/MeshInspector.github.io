@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"MRSpaceMouseHandler3dxMacDriver_8h.html":[6,0,3,0,0,2,9,104],
 "MRSpaceMouseHandler3dxMacDriver_8h_source.html":[6,0,3,0,0,2,9,104],
 "MRSpaceMouseHandlerHidapi_8h.html":[6,0,3,0,0,2,9,105],
 "MRSpaceMouseHandlerHidapi_8h_source.html":[6,0,3,0,0,2,9,105],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aa":[6,0,3,0,0,2,10,25,7],
 "MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79":[6,0,3,0,0,2,10,25,7,1],
 "MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8":[6,0,3,0,0,2,10,25,7,0],
-"MRToolPath_8h.html#a5b9808eb4889c505cb2dc513fa536a42":[6,0,3,0,0,2,10,25,11]
+"MRToolPath_8h.html#a5b9808eb4889c505cb2dc513fa536a42":[6,0,3,0,0,2,10,25,11],
+"MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601":[6,0,3,0,0,2,10,25,8]
 };

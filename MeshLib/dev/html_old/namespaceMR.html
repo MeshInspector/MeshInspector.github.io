@@ -43,6 +43,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -5569,8 +5576,8 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a150c8492a3dc820bde5db5249c54ba5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cfd6d2c7fdde75ec5577e2e10511787" id="r_a7cfd6d2c7fdde75ec5577e2e10511787"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::array&lt; SimpleVolumeMinMax, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cfd6d2c7fdde75ec5577e2e10511787">meshToDirectionVolume</a> (const <a class="el" href="structMR_1_1MeshToDirectionVolumeParams.html">MeshToDirectionVolumeParams</a> &amp;params)</td></tr>
 <tr class="separator:a7cfd6d2c7fdde75ec5577e2e10511787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add963001b21876433757b659c99a0818" id="r_add963001b21876433757b659c99a0818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add963001b21876433757b659c99a0818">moveMeshToVoxelMaxDeriv</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshXf, const VdbVolume &amp;volume, const AffineXf3f &amp;volumeXf, const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;settings, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:add963001b21876433757b659c99a0818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd963001b21876433757b659c99a0818" id="r_gadd963001b21876433757b659c99a0818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SubvoxelMeshCorrection.html#gadd963001b21876433757b659c99a0818">moveMeshToVoxelMaxDeriv</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshXf, const VdbVolume &amp;volume, const AffineXf3f &amp;volumeXf, const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;settings, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:gadd963001b21876433757b659c99a0818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a346ad7a38921d6822ceffafc1eba769d" id="r_a346ad7a38921d6822ceffafc1eba769d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a346ad7a38921d6822ceffafc1eba769d">suggestVoxelSize</a> (const MeshPart &amp;mp, float approxNumVoxels)</td></tr>
 <tr class="memdesc:a346ad7a38921d6822ceffafc1eba769d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes size of a cubical voxel to get approximately given number of voxels during rasterization  <br /></td></tr>
 <tr class="separator:a346ad7a38921d6822ceffafc1eba769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -22625,48 +22632,6 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="add963001b21876433757b659c99a0818" name="add963001b21876433757b659c99a0818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add963001b21876433757b659c99a0818">&#9670;&#160;</a></span>moveMeshToVoxelMaxDeriv()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt; MR::moveMeshToVoxelMaxDeriv </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>meshXf</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>volumeXf</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Moves each vertex along its normal to the minimize (with sign, i.e. maximize the absolute value with negative sign) the derivative of voxels. </p><dl class="section return"><dt>Returns</dt><dd>Vertices that were moved by the algorithm </dd></dl>
 
 </div>
 </div>

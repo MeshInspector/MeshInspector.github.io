@@ -1,6 +1,7 @@
 var group__VoxelGroup =
 [
     [ "Volume Indexer", "group__VolumeIndexerGroup.html", "group__VolumeIndexerGroup" ],
+    [ "Subvoxel Mesh Correction", "group__SubvoxelMeshCorrection.html", "group__SubvoxelMeshCorrection" ],
     [ "Volume (Voxel) Segmentation", "group__VolumeSegmentationGroup.html", "group__VolumeSegmentationGroup" ],
     [ "Voxel Path", "group__VoxelPathGroup.html", "group__VoxelPathGroup" ],
     [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", [

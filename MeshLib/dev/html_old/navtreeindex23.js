@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classMR_1_1IFastWindingNumber.html":[6,0,1,0,13,267],
 "classMR_1_1IFastWindingNumber.html":[6,0,2,0,1,251],
 "classMR_1_1IFastWindingNumber.html#a441d74cdd012ecef05bb3ce3909a9100":[6,0,1,0,13,267,3],
 "classMR_1_1IFastWindingNumber.html#a441d74cdd012ecef05bb3ce3909a9100":[6,0,2,0,1,251,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#adfe28bd8300adaa75af16f265282354c":[6,0,1,0,13,264,12],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#adfe28bd8300adaa75af16f265282354c":[6,0,2,0,1,248,12],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ae93c5b10306f758e5596ea55a09c2640":[6,0,1,0,13,264,7],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ae93c5b10306f758e5596ea55a09c2640":[6,0,2,0,1,248,7]
+"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ae93c5b10306f758e5596ea55a09c2640":[6,0,2,0,1,248,7],
+"classMR_1_1Id_3_01VoxelTag_01_4.html":[6,0,1,0,13,265]
 };

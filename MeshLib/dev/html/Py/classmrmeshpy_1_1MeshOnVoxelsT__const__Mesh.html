@@ -43,6 +43,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -201,7 +208,8 @@ Static Public Member Functions</h2></td></tr>
 Aliases:  MeshOnVoxelsC
 
 Helper class to organize mesh and voxels volume access and build point sequences
-Note: this class is not thread-safe but accessing same volume from different instances is ok
+\\note this class is not thread-safe but accessing same volume from different instances is ok
+\\ingroup SubvoxelMeshCorrection
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3a5b5643a277f6e04c7d4af3a4a8bb9e" name="a3a5b5643a277f6e04c7d4af3a4a8bb9e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a5b5643a277f6e04c7d4af3a4a8bb9e">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>

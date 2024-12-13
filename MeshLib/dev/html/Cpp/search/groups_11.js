@@ -9,9 +9,10 @@ var searchData=
   ['stream_20operators_6',['Stream Operators',['../group__StreamOperatorsGroup.html',1,'']]],
   ['structures_7',['Basic Structures',['../group__BasicStructuresGroup.html',1,'']]],
   ['subdivide_8',['Subdivide',['../group__MeshSubdivideGroup.html',1,'Mesh Subdivide'],['../group__PolylineSubdivideGroup.html',1,'Polyline Subdivide']]],
-  ['surface_20boolean_20overview_9',['Surface Boolean overview',['../group__BooleanGroup.html',1,'']]],
-  ['surface_20distance_10',['Surface Distance',['../group__SurfaceDistanceGroup.html',1,'']]],
-  ['surface_20distance_20builder_11',['Group Surface Distance Builder',['../group__SurfaceDistanceBuilder.html',1,'']]],
-  ['surface_20path_12',['Surface Path',['../group__SurfacePathSubgroup.html',1,'']]],
-  ['surface_20paths_13',['Surface Paths',['../group__SurfacePathGroup.html',1,'']]]
+  ['subvoxel_20mesh_20correction_9',['Subvoxel Mesh Correction',['../group__SubvoxelMeshCorrection.html',1,'']]],
+  ['surface_20boolean_20overview_10',['Surface Boolean overview',['../group__BooleanGroup.html',1,'']]],
+  ['surface_20distance_11',['Surface Distance',['../group__SurfaceDistanceGroup.html',1,'']]],
+  ['surface_20distance_20builder_12',['Group Surface Distance Builder',['../group__SurfaceDistanceBuilder.html',1,'']]],
+  ['surface_20path_13',['Surface Path',['../group__SurfacePathSubgroup.html',1,'']]],
+  ['surface_20paths_14',['Surface Paths',['../group__SurfacePathGroup.html',1,'']]]
 ];

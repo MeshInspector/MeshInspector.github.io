@@ -155,7 +155,7 @@ var searchData=
   ['mousemove_152',['mouseMove',['../classMR_1_1Viewer.html#a4b83b6b437c54b924fb899be6d452d7a',1,'MR::Viewer']]],
   ['mousescroll_153',['mouseScroll',['../classMR_1_1TouchpadController_1_1Handler.html#aa44961190a75ca4d6cc9dd8281ca367a',1,'MR::TouchpadController::Handler::mouseScroll()'],['../classMR_1_1Viewer.html#a874ef8410c1288964219fb79289c1d55',1,'MR::Viewer::mouseScroll(float delta_y)']]],
   ['mouseup_154',['mouseUp',['../classMR_1_1Viewer.html#a84553b3f4700cf1f4df724de906abfa5',1,'MR::Viewer']]],
-  ['movemeshtovoxelmaxderiv_155',['moveMeshToVoxelMaxDeriv',['../namespaceMR.html#add963001b21876433757b659c99a0818',1,'MR']]],
+  ['movemeshtovoxelmaxderiv_155',['moveMeshToVoxelMaxDeriv',['../group__SubvoxelMeshCorrection.html#gadd963001b21876433757b659c99a0818',1,'MR']]],
   ['moveobjectbymouse_156',['MoveObjectByMouse',['../classMR_1_1MoveObjectByMouse.html#a6cbf5471dae3b6da79fd5848e0962195',1,'MR::MoveObjectByMouse']]],
   ['moveobjectbymouseimpl_157',['MoveObjectByMouseImpl',['../classMR_1_1MoveObjectByMouseImpl.html#a38667d92b4c0a5c674ae3984e4887601',1,'MR::MoveObjectByMouseImpl']]],
   ['movetoclosestvertex_158',['moveToClosestVertex',['../structMR_1_1EdgePoint.html#acd27d6b536b5412853a94133280b6802',1,'MR::EdgePoint']]],

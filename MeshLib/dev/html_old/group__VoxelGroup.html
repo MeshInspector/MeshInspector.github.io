@@ -43,6 +43,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -157,6 +164,9 @@ $(function(){initNavTree('group__VoxelGroup.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="groups" name="groups"></a>
 Topics</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeIndexerGroup.html">Volume Indexer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SubvoxelMeshCorrection.html">Subvoxel Mesh Correction</a></td></tr>
+<tr class="memdesc:group__SubvoxelMeshCorrection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precise automatic mesh correction or/and smoothing based on reference voxel (volume) data. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html">Volume (Voxel) Segmentation</a></td></tr>
 <tr class="memdesc:group__VolumeSegmentationGroup"><td class="mdescLeft">&#160;</td><td class="mdescRight">This chapter represents documentation about Volume (Voxel) Segmentation. <br /></td></tr>

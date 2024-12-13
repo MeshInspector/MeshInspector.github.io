@@ -9,9 +9,10 @@ var searchData=
   ['stream_20operators_6',['Stream Operators',['.././Cpp/group__StreamOperatorsGroup.html',1,'']]],
   ['structures_7',['Basic Structures',['.././Cpp/group__BasicStructuresGroup.html',1,'']]],
   ['subdivide_8',['Subdivide',['.././Cpp/group__MeshSubdivideGroup.html',1,'Mesh Subdivide'],['.././Cpp/group__PolylineSubdivideGroup.html',1,'Polyline Subdivide']]],
-  ['surface_20boolean_20overview_9',['Surface Boolean overview',['.././Cpp/group__BooleanGroup.html',1,'']]],
-  ['surface_20distance_10',['Surface Distance',['.././Cpp/group__SurfaceDistanceGroup.html',1,'']]],
-  ['surface_20distance_20builder_11',['Group Surface Distance Builder',['.././Cpp/group__SurfaceDistanceBuilder.html',1,'']]],
-  ['surface_20path_12',['Surface Path',['.././Cpp/group__SurfacePathSubgroup.html',1,'']]],
-  ['surface_20paths_13',['Surface Paths',['.././Cpp/group__SurfacePathGroup.html',1,'']]]
+  ['subvoxel_20mesh_20correction_9',['Subvoxel Mesh Correction',['.././Cpp/group__SubvoxelMeshCorrection.html',1,'']]],
+  ['surface_20boolean_20overview_10',['Surface Boolean overview',['.././Cpp/group__BooleanGroup.html',1,'']]],
+  ['surface_20distance_11',['Surface Distance',['.././Cpp/group__SurfaceDistanceGroup.html',1,'']]],
+  ['surface_20distance_20builder_12',['Group Surface Distance Builder',['.././Cpp/group__SurfaceDistanceBuilder.html',1,'']]],
+  ['surface_20path_13',['Surface Path',['.././Cpp/group__SurfacePathSubgroup.html',1,'']]],
+  ['surface_20paths_14',['Surface Paths',['.././Cpp/group__SurfacePathGroup.html',1,'']]]
 ];

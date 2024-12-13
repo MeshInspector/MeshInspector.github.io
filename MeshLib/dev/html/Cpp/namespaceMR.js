@@ -2298,7 +2298,7 @@ var namespaceMR =
     [ "meshToVolume", "namespaceMR.html#ab26a3095c2f054ad6f7ecab11ff7b7ff", null ],
     [ "minTriangleAngle", "namespaceMR.html#ac317aae7fbe013869599d57c76389e8b", null ],
     [ "minTriangleAngleSin", "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826", null ],
-    [ "moveMeshToVoxelMaxDeriv", "namespaceMR.html#add963001b21876433757b659c99a0818", null ],
+    [ "moveMeshToVoxelMaxDeriv", "group__SubvoxelMeshCorrection.html#gadd963001b21876433757b659c99a0818", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a7af24c49371748ab1e9eb196bc7d8a6e", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a1882f98b1c056ca06594f6b3a63150db", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a22b1276e4884ae76aeea03b1598096f4", null ],
