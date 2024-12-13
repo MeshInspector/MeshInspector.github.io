@@ -1,6 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,2,0,1,644,0],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,1,0,1,660,2],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,2,0,1,644,2],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,1,0,1,660,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX78 =
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[6,0,2,0,1,23,8,1],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,1,0,1,38,9,0],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,2,0,1,23,8,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,1,0,1,38,10,0]
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,1,0,1,38,10,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,2,0,1,23,9,0]
 };

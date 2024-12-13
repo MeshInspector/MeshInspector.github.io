@@ -1,6 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"namespaces.html":[6,0,1,0],
 "pages.html":[],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX58 =
 "structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,44,0],
 "structMROneMeshIntersection.html":[6,0,2,0,45],
 "structMROneMeshIntersection.html#a3c70bf2dc0821b99f4fb472f000a43c7":[6,0,2,0,45,4],
-"structMROneMeshIntersection.html#a6e62865d21cb51955f11765ead59f236":[6,0,2,0,45,1]
+"structMROneMeshIntersection.html#a6e62865d21cb51955f11765ead59f236":[6,0,2,0,45,1],
+"structMROneMeshIntersection.html#a86ad70e404dab3e9f08ef1b625dbf9e0":[6,0,2,0,45,0]
 };

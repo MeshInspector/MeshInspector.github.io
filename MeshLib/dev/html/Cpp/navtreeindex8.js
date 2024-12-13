@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"MRMesh_2MRMeshFwd_8h.html#aba55748ce74bb048bfb84500d7095678":[6,0,3,0,0,1,3,190,130],
 "MRMesh_2MRMeshFwd_8h.html#abcf951f0c16ac74004bf7cab1c0ddc51":[6,0,3,0,0,1,3,190,139],
 "MRMesh_2MRMeshFwd_8h.html#abdd8336870c2a5643e70e2946261c057":[6,0,3,0,0,1,3,190,116],
 "MRMesh_2MRMeshFwd_8h.html#abe7cfa4da2fbf3567857cea149030590":[6,0,3,0,0,1,3,190,125],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "MRMultiwayAligningTransform_8h_source.html":[6,0,3,0,0,1,3,217],
 "MRMutexOwner_8h.html":[6,0,3,0,0,1,3,219],
 "MRMutexOwner_8h_source.html":[6,0,3,0,0,1,3,219],
-"MRNoDefInit_8h.html":[6,0,3,0,0,1,3,220]
+"MRNoDefInit_8h.html":[6,0,3,0,0,1,3,220],
+"MRNoDefInit_8h_source.html":[6,0,3,0,0,1,3,220]
 };

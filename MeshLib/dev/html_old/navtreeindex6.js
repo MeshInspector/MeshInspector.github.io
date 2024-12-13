@@ -47,8 +47,7 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRPointOnFace_8h_source.html":[6,0,3,0,0,2,4,46],
 "MRMeshC_2MRPointsLoadSettings_8h.html":[6,0,3,0,0,2,4,48],
 "MRMeshC_2MRPointsLoadSettings_8h.html#a95e5c9a76c02e98f0bc590e9ea91338f":[6,0,3,0,0,2,4,48,1],
-"MRMeshC_2MRPointsLoadSettings_8h.html#ac588a2f247b27686f77355bce8e45570":[6,0,3,0,0,2,4,48,3],
-"MRMeshC_2MRPointsLoadSettings_8h.html#ae5209ecadee181d0ef67d0137a4fe961":[6,0,3,0,0,2,4,48,2],
+"MRMeshC_2MRPointsLoadSettings_8h.html#aa182c9c10fb02dd6349b9fd3c763f8ea":[6,0,3,0,0,2,4,48,2],
 "MRMeshC_2MRPointsLoadSettings_8h_source.html":[6,0,3,0,0,2,4,48],
 "MRMeshC_2MRPointsLoad_8h.html":[6,0,3,0,0,2,4,47],
 "MRMeshC_2MRPointsLoad_8h.html#aac18047cfe52d69fb71710f6500f343e":[6,0,3,0,0,2,4,47,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "MRMeshThickness_8h_source.html":[6,0,3,0,0,2,3,209],
 "MRMeshToDistanceVolume_8h.html":[6,0,3,0,0,2,10,12],
 "MRMeshToDistanceVolume_8h.html#a150c8492a3dc820bde5db5249c54ba5d":[6,0,3,0,0,2,10,12,2],
-"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[6,0,3,0,0,2,10,12,4]
+"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[6,0,3,0,0,2,10,12,4],
+"MRMeshToDistanceVolume_8h.html#a7cfd6d2c7fdde75ec5577e2e10511787":[6,0,3,0,0,2,10,12,3]
 };

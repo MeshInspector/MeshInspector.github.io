@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[6,0,0,11,14,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b2551180d44dd12a9dd8b6f79cbd010":[6,0,0,11,14,0,6],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cf":[6,0,0,11,14,0,2],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87":[6,0,0,11,14,0,2,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed":[6,0,1,0,1,439,0,10],
 "structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed":[6,0,2,0,1,423,0,10],
 "structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,1,0,1,439,0,3],
-"structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,2,0,1,423,0,3]
+"structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,2,0,1,423,0,3],
+"structMR_1_1PickPointManager_1_1Params.html#a82b4fb463921c2a6bed5acca2172b335":[6,0,1,0,1,439,0,2]
 };

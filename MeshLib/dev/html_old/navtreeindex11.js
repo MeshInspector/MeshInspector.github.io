@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"MRRestoringStreamsSink_8h_source.html":[6,0,3,0,0,2,3,300],
 "MRRibbonButtonDrawer_8h.html":[6,0,3,0,0,2,9,76],
 "MRRibbonButtonDrawer_8h_source.html":[6,0,3,0,0,2,9,76],
 "MRRibbonConstants_8h.html":[6,0,3,0,0,2,9,77],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "MRSolarRadiation_8h.html#a89b2da067b37f50a6ece3d8f15de383e":[6,0,3,0,0,2,3,316,1],
 "MRSolarRadiation_8h.html#a9ce9a564212b2e113997ca6007a5fdfb":[6,0,3,0,0,2,3,316,3],
 "MRSolarRadiation_8h_source.html":[6,0,3,0,0,2,3,316],
-"MRSpaceMouseController_8h.html":[6,0,3,0,0,2,9,102]
+"MRSpaceMouseController_8h.html":[6,0,3,0,0,2,9,102],
+"MRSpaceMouseController_8h_source.html":[6,0,3,0,0,2,9,102]
 };

@@ -11,8 +11,7 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRPointOnFace_8h_source.html":[6,0,3,0,0,1,4,46],
 "MRMeshC_2MRPointsLoadSettings_8h.html":[6,0,3,0,0,1,4,48],
 "MRMeshC_2MRPointsLoadSettings_8h.html#a95e5c9a76c02e98f0bc590e9ea91338f":[6,0,3,0,0,1,4,48,1],
-"MRMeshC_2MRPointsLoadSettings_8h.html#ac588a2f247b27686f77355bce8e45570":[6,0,3,0,0,1,4,48,3],
-"MRMeshC_2MRPointsLoadSettings_8h.html#ae5209ecadee181d0ef67d0137a4fe961":[6,0,3,0,0,1,4,48,2],
+"MRMeshC_2MRPointsLoadSettings_8h.html#aa182c9c10fb02dd6349b9fd3c763f8ea":[6,0,3,0,0,1,4,48,2],
 "MRMeshC_2MRPointsLoadSettings_8h_source.html":[6,0,3,0,0,1,4,48],
 "MRMeshC_2MRPointsLoad_8h.html":[6,0,3,0,0,1,4,47],
 "MRMeshC_2MRPointsLoad_8h.html#aac18047cfe52d69fb71710f6500f343e":[6,0,3,0,0,1,4,47,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRConvexHull_8h.html":[6,0,3,0,0,1,3,66],
 "MRMesh_2MRConvexHull_8h.html#a2b1ae8facc8f4e9e09073b91da0f9949":[6,0,3,0,0,1,3,66,0],
 "MRMesh_2MRConvexHull_8h.html#a914df647c5ed18410f4b85fd4af5f47e":[6,0,3,0,0,1,3,66,2],
-"MRMesh_2MRConvexHull_8h.html#ad4f2e7823d67de1684e13a3829315dc2":[6,0,3,0,0,1,3,66,1]
+"MRMesh_2MRConvexHull_8h.html#ad4f2e7823d67de1684e13a3829315dc2":[6,0,3,0,0,1,3,66,1],
+"MRMesh_2MRConvexHull_8h_source.html":[6,0,3,0,0,1,3,66]
 };

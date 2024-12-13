@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,1,0,1,66,3],
 "structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,2,0,1,50,3],
 "structMR_1_1BaseShellParameters.html":[6,0,1,0,1,67],
 "structMR_1_1BaseShellParameters.html":[6,0,2,0,1,51],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "structMR_1_1Color.html#a9f21a5ed60bd2e9b0ab50266610e35f6":[6,0,2,0,1,116,11],
 "structMR_1_1Color.html#aaa379f38f05825d099fa1a11b4fa9b32":[6,0,1,0,1,132,18],
 "structMR_1_1Color.html#aaa379f38f05825d099fa1a11b4fa9b32":[6,0,2,0,1,116,18],
-"structMR_1_1Color.html#aaf2db44de4c5f5acbf14a93864096197":[6,0,1,0,1,132,2]
+"structMR_1_1Color.html#aaf2db44de4c5f5acbf14a93864096197":[6,0,1,0,1,132,2],
+"structMR_1_1Color.html#aaf2db44de4c5f5acbf14a93864096197":[6,0,2,0,1,116,2]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"classMR_1_1SwapRootAction.html#aec455a92bb7ddcf98151e8d92cf2111f":[6,0,2,0,1,613,2],
 "classMR_1_1SwapRootAction.html#af6bb4c1dda747f34b96c94f1c8dba6be":[6,0,1,0,1,629,0],
 "classMR_1_1SwapRootAction.html#af6bb4c1dda747f34b96c94f1c8dba6be":[6,0,2,0,1,613,0],
 "classMR_1_1SystemPath.html":[6,0,1,0,1,635],
@@ -249,5 +248,6 @@ var NAVTREEINDEX40 =
 "classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b":[6,0,0,3,15,2],
 "classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e":[6,0,0,3,15,6],
 "classMR_1_1UnionFind.html#a661398df57a710beae6f4b7c19ac3006":[6,0,0,3,15,1],
-"classMR_1_1UnionFind.html#a67ccf008e0816480dca10b19c530a7b1":[6,0,0,3,15,0]
+"classMR_1_1UnionFind.html#a67ccf008e0816480dca10b19c530a7b1":[6,0,0,3,15,0],
+"classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13":[6,0,0,3,15,5]
 };
