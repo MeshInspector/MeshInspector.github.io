@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "MeshLib C++ Docs", "index.html", [
+    [ "About", "^https://meshinspector.github.io/MeshLib/dev/html/index.html", null ],
     [ "Getting Started", "^https://meshinspector.github.io/MeshLib/dev/html/InstallationGuide.html", [
       [ "Python", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibPythonSetupGuide.html", null ],
       [ "C++", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCppSetupGuide.html", null ],

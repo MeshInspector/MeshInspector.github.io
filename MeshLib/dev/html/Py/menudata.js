@@ -23,7 +23,8 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"About",url:"index.html"},
+{text:"Main Page",url:"index.html"},
+{text:"About",url:"^https://meshinspector.github.io/MeshLib/dev/html/index.html"},
 {text:"Getting Started",url:"^https://meshinspector.github.io/MeshLib/dev/html/InstallationGuide.html",children:[
 {text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCppSetupGuide.html"},
