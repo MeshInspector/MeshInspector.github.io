@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,2,0,1,117,0,0],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,1,0,1,133,0,1],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,1,117,0,1],
+"structMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[6,0,0,16,3,0,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[6,0,0,16,3,0,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[6,0,2,0,1,157,0],
 "structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[6,0,1,0,1,173,3],
 "structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[6,0,2,0,1,157,3],
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[6,0,1,0,1,173,2],
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[6,0,2,0,1,157,2],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[6,0,1,0,1,173,1],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[6,0,2,0,1,157,1],
-"structMR_1_1DirectoryRecursive.html":[6,0,1,0,1,174]
+"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[6,0,1,0,1,173,2]
 };

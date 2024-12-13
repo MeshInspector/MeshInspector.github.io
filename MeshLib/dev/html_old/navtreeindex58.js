@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR_1_1VoxelsLoad.html#aeeb3b38707e658a1939994a1f79d021e":[6,0,1,0,13,40,4],
+"namespaceMR_1_1VoxelsSave.html":[6,0,1,0,13,41],
+"namespaceMR_1_1VoxelsSave.html#a0f1cbd074f33c0c8f5dcda546829153b":[6,0,1,0,13,41,6],
+"namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,13,41,1],
 "namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,13,41,5],
 "namespaceMR_1_1detail.html":[6,0,1,0,13,3],
 "namespaceMR_1_1detail_1_1Units.html":[6,0,1,0,13,3,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMRICPProperties.html#a01533b26bf04f650af9c2628b8804258":[6,0,2,0,23,1],
 "structMRICPProperties.html#a032ebb1b9396df0c2d307fc043167307":[6,0,2,0,23,5],
 "structMRICPProperties.html#a21b20f7216af2711301f59435713a9c2":[6,0,2,0,23,11],
-"structMRICPProperties.html#a27741c61220a9d8a833b03f4354cf9d6":[6,0,2,0,23,0],
-"structMRICPProperties.html#a2e7b2a199320af5a6d96b01ab388564e":[6,0,2,0,23,8],
-"structMRICPProperties.html#a3f48a94ed67f67bf7d0b65d62add2d0a":[6,0,2,0,23,6],
-"structMRICPProperties.html#a88912841f4a73c5941ddc87fac934139":[6,0,2,0,23,4],
-"structMRICPProperties.html#a93094df050def819f5582b2327011b50":[6,0,2,0,23,7]
+"structMRICPProperties.html#a27741c61220a9d8a833b03f4354cf9d6":[6,0,2,0,23,0]
 };

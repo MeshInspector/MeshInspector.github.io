@@ -1,5 +1,9 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1ObjectVoxels.html#aff8794b9bd15a75ebc129b43162e181d":[6,0,0,11,14,12],
+"classMR_1_1OpenDICOMsMenuItem.html":[6,0,1,0,1,424],
+"classMR_1_1OpenDICOMsMenuItem.html":[6,0,2,0,1,408],
+"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,1,0,1,424,1],
 "classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,2,0,1,408,1],
 "classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,1,0,1,424,0],
 "classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,2,0,1,408,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1PluginCloseOnEscPressed.html":[6,0,2,0,1,430],
 "classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[6,0,1,0,1,446,0],
 "classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[6,0,2,0,1,430,0],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,1,0,1,447],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,2,0,1,431],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,1,0,1,447,2],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,2,0,1,431,2],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,1,0,1,447,0]
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,1,0,1,447]
 };

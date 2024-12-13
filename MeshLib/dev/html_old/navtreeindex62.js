@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1DecimateResult.html":[6,0,0,10,1],
+"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[6,0,0,10,1,3],
+"structMR_1_1DecimateResult.html#a2c8b594ad2bac0e25760edeab9f76623":[6,0,0,10,1,2],
+"structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8":[6,0,0,10,1,1],
 "structMR_1_1DecimateResult.html#a957fcc3b175a446e3a20f7299cd9a1b6":[6,0,0,10,1,0],
 "structMR_1_1DecimateSettings.html":[6,0,0,10,0],
 "structMR_1_1DecimateSettings.html#a0731477e770d3880ed47726b66c43479":[6,0,0,10,0,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[6,0,2,0,1,172,1],
 "structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[6,0,1,0,13,188,2],
 "structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[6,0,2,0,1,172,2],
-"structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,1,0,13,188,3],
-"structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,2,0,1,172,3],
-"structMR_1_1DrawButtonParams.html":[6,0,1,0,13,189],
-"structMR_1_1DrawButtonParams.html":[6,0,2,0,1,173],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[6,0,1,0,13,189,0]
+"structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,1,0,13,188,3]
 };

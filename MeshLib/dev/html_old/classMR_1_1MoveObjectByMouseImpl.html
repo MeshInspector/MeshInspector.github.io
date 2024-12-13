@@ -182,6 +182,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6f7401692f7a4fc4b54c9a588eb04165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad8cb7773d35560f8b4469f293cbd169" id="r_aad8cb7773d35560f8b4469f293cbd169"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad8cb7773d35560f8b4469f293cbd169">cancel</a> ()</td></tr>
 <tr class="separator:aad8cb7773d35560f8b4469f293cbd169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de4136fb42f0c74d8c8f56b3e7e7254" id="r_a7de4136fb42f0c74d8c8f56b3e7e7254"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7de4136fb42f0c74d8c8f56b3e7e7254">enableHistory</a> (bool history)</td></tr>
+<tr class="memdesc:a7de4136fb42f0c74d8c8f56b3e7e7254"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables or disables adding history to viewer history store by this tool  <br /></td></tr>
+<tr class="separator:a7de4136fb42f0c74d8c8f56b3e7e7254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ca6c34829bccce1c38a2f30f793b99" id="r_af6ca6c34829bccce1c38a2f30f793b99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6ca6c34829bccce1c38a2f30f793b99">isHistoryEnabled</a> () const</td></tr>
+<tr class="memdesc:af6ca6c34829bccce1c38a2f30f793b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if appending history to viewer history store is enabled in this tool  <br /></td></tr>
+<tr class="separator:af6ca6c34829bccce1c38a2f30f793b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -303,6 +309,33 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7de4136fb42f0c74d8c8f56b3e7e7254" name="a7de4136fb42f0c74d8c8f56b3e7e7254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7de4136fb42f0c74d8c8f56b3e7e7254">&#9670;&#160;</a></span>enableHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MoveObjectByMouseImpl::enableHistory </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>history</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enables or disables adding history to viewer history store by this tool </p>
+
+</div>
+</div>
 <a id="a3b9a12600f13df92315c665178457113" name="a3b9a12600f13df92315c665178457113"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b9a12600f13df92315c665178457113">&#9670;&#160;</a></span>getBbox_()</h2>
 
@@ -326,6 +359,33 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Helper function to calculate world bounding box for several objects Note: can be invalid (feature objects give an invalid box etc.) </p>
+
+</div>
+</div>
+<a id="af6ca6c34829bccce1c38a2f30f793b99" name="af6ca6c34829bccce1c38a2f30f793b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6ca6c34829bccce1c38a2f30f793b99">&#9670;&#160;</a></span>isHistoryEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MoveObjectByMouseImpl::isHistoryEnabled </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if appending history to viewer history store is enabled in this tool </p>
 
 </div>
 </div>

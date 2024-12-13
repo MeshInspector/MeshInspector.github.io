@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,1,0,1,68,1,2],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,2,0,1,52,1,2],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,1,0,1,68,1,3],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,2,0,1,52,1,3],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,1,0,1,68,1,1],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,2,0,1,52,1,1],
 "structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[6,0,1,0,1,68,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[6,0,2,0,1,116,8],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,1,0,1,133,0],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,2,0,1,117,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,133,0,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,2,0,1,117,0,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,1,0,1,133,0,1],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,1,117,0,1],
-"structMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,0]
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,133,0,0]
 };

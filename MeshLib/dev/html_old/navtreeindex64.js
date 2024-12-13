@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a6f5eba0221416eca918dea71f64ad70d":[6,0,1,0,13,6,2,0,4],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a6f5eba0221416eca918dea71f64ad70d":[6,0,2,0,1,2,2,0,4],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9":[6,0,1,0,13,6,2,0,6],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a8c60a4e655bfc8c747e9c0d53c5761a9":[6,0,2,0,1,2,2,0,6],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[6,0,1,0,13,6,2,0,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[6,0,2,0,1,2,2,0,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[6,0,1,0,13,6,2,0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,1,0,13,224,1],
 "structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,2,0,1,208,1],
 "structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[6,0,1,0,13,224,0],
-"structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[6,0,2,0,1,208,0],
-"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[6,0,1,0,13,224,2],
-"structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[6,0,2,0,1,208,2],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,1,0,13,7,0],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,2,0,1,3,0]
+"structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[6,0,2,0,1,208,0]
 };

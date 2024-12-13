@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,1,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,2,0,0,0,9],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,1,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,1,0,0,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMRPointPair.html#a85030f1c32b6fa41b3cb99f84864951a":[6,0,2,0,47,1],
 "structMRPointPair.html#aaf071fe8e6ec54c8e173d7c49c968b10":[6,0,2,0,47,3],
 "structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,47,2],
-"structMRPointsLoadSettings.html":[6,0,2,0,48],
-"structMRPointsLoadSettings.html#a05bb87b383496b50cfc792ea6c48c5ad":[6,0,2,0,48,2],
-"structMRPointsLoadSettings.html#a96aa5cea42db28d879ed0982662b6aad":[6,0,2,0,48,0],
-"structMRPointsLoadSettings.html#aa213763c3d2e989e1fd32ed9d1c3a342":[6,0,2,0,48,1],
-"structMRRegionId.html":[6,0,2,0,49]
+"structMRPointsLoadSettings.html":[6,0,2,0,48]
 };

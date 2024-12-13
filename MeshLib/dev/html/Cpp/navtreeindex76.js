@@ -1,5 +1,9 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[6,0,1,0,1,606,1],
+"structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[6,0,2,0,1,590,1],
+"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,1,0,1,606,2],
+"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,2,0,1,590,2],
 "structMR_1_1SortIntersectionsData.html":[6,0,1,0,1,607],
 "structMR_1_1SortIntersectionsData.html":[6,0,2,0,1,591],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,607,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,2,0,1,621,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,1,0,1,637,0,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,2,0,1,621,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,1,0,1,637,0,1],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,2,0,1,621,0,1],
-"structMR_1_1TerminalVertex.html":[6,0,1,0,1,638],
-"structMR_1_1TerminalVertex.html":[6,0,2,0,1,622],
-"structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238":[6,0,1,0,1,638,0]
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,1,0,1,637,0,1]
 };
