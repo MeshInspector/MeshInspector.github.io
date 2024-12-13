@@ -852,6 +852,7 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
+    [ "MR::PickPointManager::ObjectState", "structMR_1_1PickPointManager_1_1ObjectState.html", null ],
     [ "MR::ObjKindTraits< X >", "structMR_1_1ObjKindTraits.html", null ],
     [ "MR::ObjKindTraits< FeaturesObjectKind::Circle >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html", null ],
     [ "MR::ObjKindTraits< FeaturesObjectKind::Cone >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html", null ],

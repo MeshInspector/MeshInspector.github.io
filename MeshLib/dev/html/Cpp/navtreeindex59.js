@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"structMRPointPair.html#a3a1c36eeeff22faca6d6749a8630cff5":[6,0,2,0,47,4],
+"structMRPointPair.html#a3a57febe50fbfa87ec9506c23214c723":[6,0,2,0,47,0],
+"structMRPointPair.html#a85030f1c32b6fa41b3cb99f84864951a":[6,0,2,0,47,1],
+"structMRPointPair.html#aaf071fe8e6ec54c8e173d7c49c968b10":[6,0,2,0,47,3],
+"structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,47,2],
+"structMRPointsLoadSettings.html":[6,0,2,0,48],
 "structMRPointsLoadSettings.html#a05bb87b383496b50cfc792ea6c48c5ad":[6,0,2,0,48,2],
 "structMRPointsLoadSettings.html#a96aa5cea42db28d879ed0982662b6aad":[6,0,2,0,48,0],
 "structMRPointsLoadSettings.html#aa213763c3d2e989e1fd32ed9d1c3a342":[6,0,2,0,48,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,1,0,1,67,1],
 "structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,2,0,1,51,1],
 "structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,1,0,1,67,0],
-"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,2,0,1,51,0],
-"structMR_1_1BaseTiffParameters.html":[6,0,1,0,1,68],
-"structMR_1_1BaseTiffParameters.html":[6,0,2,0,1,52],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,1,0,1,68,1],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,2,0,1,52,1],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,1,68,1,0],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,2,0,1,52,1,0]
+"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,2,0,1,51,0]
 };

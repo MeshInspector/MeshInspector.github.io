@@ -1,5 +1,15 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[6,0,2,0,1,611,0,2],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,1,0,13,627,0,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,2,0,1,611,0,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[6,0,1,0,13,627,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[6,0,2,0,1,611,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[6,0,1,0,13,627,0,5],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[6,0,2,0,1,611,0,5],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,1,0,13,628,0],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,2,0,1,612,0],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[6,0,1,0,13,628,0,5],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[6,0,2,0,1,612,0,5],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a42b9955e23ce28c95ebdc5c3c78dae7f":[6,0,1,0,13,628,0,2],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a42b9955e23ce28c95ebdc5c3c78dae7f":[6,0,2,0,1,612,0,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1TouchStartListener.html#acb10de50f86851cd66315029260e731b":[6,0,1,0,13,661,2],
 "structMR_1_1TouchStartListener.html#acb10de50f86851cd66315029260e731b":[6,0,2,0,1,645,2],
 "structMR_1_1TouchStartListener.html#adc59eaa78c9e49cc0ac5bfce51e47922":[6,0,1,0,13,661,0],
-"structMR_1_1TouchStartListener.html#adc59eaa78c9e49cc0ac5bfce51e47922":[6,0,2,0,1,645,0],
-"structMR_1_1TouchpadParameters.html":[6,0,1,0,13,651],
-"structMR_1_1TouchpadParameters.html":[6,0,2,0,1,635],
-"structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[6,0,1,0,13,651,3],
-"structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[6,0,2,0,1,635,3],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[6,0,1,0,13,651,0],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[6,0,2,0,1,635,0],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[6,0,1,0,13,651,0,1],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[6,0,2,0,1,635,0,1],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[6,0,1,0,13,651,0,0],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[6,0,2,0,1,635,0,0]
+"structMR_1_1TouchStartListener.html#adc59eaa78c9e49cc0ac5bfce51e47922":[6,0,2,0,1,645,0]
 };

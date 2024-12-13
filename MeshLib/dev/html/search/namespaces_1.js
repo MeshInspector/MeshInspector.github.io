@@ -42,7 +42,7 @@ var searchData=
   ['mr_3a_3aobjecttransformwidget_39',['ObjectTransformWidget',['.././Cpp/classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html',1,'MR']]],
   ['mr_3a_3apalette_40',['Palette',['.././Cpp/structMR_1_1Palette_1_1Label.html',1,'MR']]],
   ['mr_3a_3aparallel_41',['Parallel',['.././Cpp/namespaceMR_1_1Parallel.html',1,'MR']]],
-  ['mr_3a_3apickpointmanager_42',['PickPointManager',['.././Cpp/structMR_1_1PickPointManager_1_1Params.html',1,'MR']]],
+  ['mr_3a_3apickpointmanager_42',['PickPointManager',['.././Cpp/structMR_1_1PickPointManager_1_1ObjectState.html',1,'MR']]],
   ['mr_3a_3aplanartriangulation_43',['PlanarTriangulation',['.././Cpp/namespaceMR_1_1PlanarTriangulation.html',1,'MR']]],
   ['mr_3a_3apointcloudcomponents_44',['PointCloudComponents',['.././Cpp/namespaceMR_1_1PointCloudComponents.html',1,'MR']]],
   ['mr_3a_3apointsload_45',['PointsLoad',['.././Cpp/namespaceMR_1_1PointsLoad.html',1,'MR']]],

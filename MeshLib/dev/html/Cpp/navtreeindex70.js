@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1MouseClickListener.html":[6,0,1,0,1,360],
+"structMR_1_1MouseClickListener.html":[6,0,2,0,1,344],
+"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,1,0,1,360,2],
+"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,2,0,1,344,2],
+"structMR_1_1MouseClickListener.html#a69a367cc3c52ae54f5e24ae6a0f168dc":[6,0,1,0,1,360,0],
+"structMR_1_1MouseClickListener.html#a69a367cc3c52ae54f5e24ae6a0f168dc":[6,0,2,0,1,344,0],
 "structMR_1_1MouseClickListener.html#a7f85d1874114505341d0745ec9bf02de":[6,0,1,0,1,360,3],
 "structMR_1_1MouseClickListener.html#a7f85d1874114505341d0745ec9bf02de":[6,0,2,0,1,344,3],
 "structMR_1_1MouseClickListener.html#a8a3a8c6ceb42ce6958bd4e57fa667d8a":[6,0,1,0,1,360,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ab5aeef5b1c53656f8816af392af3ec46":[6,0,0,11,14,0,3],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5":[6,0,0,11,14,0,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109":[6,0,0,11,14,0,1,2],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa":[6,0,0,11,14,0,1,0],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c":[6,0,0,11,14,0,1,1],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad8187266986121c9568f668fe785fbc5":[6,0,0,11,14,0,5],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9":[6,0,0,11,14,0,9],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2":[6,0,0,11,14,0,0],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd":[6,0,0,11,14,0,0,1],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255":[6,0,0,11,14,0,0,0]
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa":[6,0,0,11,14,0,1,0]
 };

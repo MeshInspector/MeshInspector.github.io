@@ -1,5 +1,15 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1SliceInfoBase.html#a1c860dd386f07581661cc74f394a1470":[6,0,1,0,1,605,3],
+"structMR_1_1SliceInfoBase.html#a1c860dd386f07581661cc74f394a1470":[6,0,2,0,1,589,3],
+"structMR_1_1SliceInfoBase.html#a2d712987f45ca23b27e048c4decf6293":[6,0,1,0,1,605,0],
+"structMR_1_1SliceInfoBase.html#a2d712987f45ca23b27e048c4decf6293":[6,0,2,0,1,589,0],
+"structMR_1_1SliceInfoBase.html#ae54aec5158705c1e248f53879d6639cf":[6,0,1,0,1,605,2],
+"structMR_1_1SliceInfoBase.html#ae54aec5158705c1e248f53879d6639cf":[6,0,2,0,1,589,2],
+"structMR_1_1SomeLocalTriangulations.html":[6,0,1,0,1,606],
+"structMR_1_1SomeLocalTriangulations.html":[6,0,2,0,1,590],
+"structMR_1_1SomeLocalTriangulations.html#a26d4e93a4bff3856092a522b80bd422e":[6,0,1,0,1,606,0],
+"structMR_1_1SomeLocalTriangulations.html#a26d4e93a4bff3856092a522b80bd422e":[6,0,2,0,1,590,0],
 "structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[6,0,1,0,1,606,1],
 "structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[6,0,2,0,1,590,1],
 "structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,1,0,1,606,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b":[6,0,2,0,1,614,5],
 "structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b":[6,0,1,0,1,630,0],
 "structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b":[6,0,2,0,1,614,0],
-"structMR_1_1SystemMemory.html":[6,0,1,0,1,634],
-"structMR_1_1SystemMemory.html":[6,0,2,0,1,618],
-"structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,1,0,1,634,1],
-"structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,2,0,1,618,1],
-"structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,1,0,1,634,0],
-"structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,2,0,1,618,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,1,0,1,637,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,2,0,1,621,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,1,0,1,637,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,2,0,1,621,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,1,0,1,637,0,1]
+"structMR_1_1SystemMemory.html":[6,0,1,0,1,634]
 };

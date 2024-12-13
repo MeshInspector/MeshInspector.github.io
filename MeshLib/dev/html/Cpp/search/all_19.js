@@ -66,9 +66,8 @@ var searchData=
   ['wraptype_63',['WrapType',['../namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c',1,'MR']]],
   ['write_64',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b',1,'MR::PolylineTopology::write()'],['../classPythonStreamRedirector.html#aed4fdb47ff4d02fe070e63c1df8af487',1,'PythonStreamRedirector::write()']]],
   ['writebyblocks_65',['writeByBlocks',['../namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b',1,'MR']]],
-  ['writehistory_66',['writeHistory',['../structMR_1_1PickPointManager_1_1Params.html#a2ecbe3e82d23360d9534372520dbb5d8',1,'MR::PickPointManager::Params']]],
-  ['writer_67',['Writer',['../structMR_1_1Writer.html',1,'MR::Writer&lt; T &gt;'],['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer::Writer()']]],
-  ['writerawtiff_68',['writeRawTiff',['../namespaceMR.html#abdcd54b6004b70d5f63cf0695fc0a285',1,'MR']]],
-  ['writetofile_69',['writeToFile',['../classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca',1,'MR::Config']]],
-  ['ww_70',['ww',['../structMR_1_1SymMatrix4.html#a5f21446d34d40b1bc92d85397bc24134',1,'MR::SymMatrix4']]]
+  ['writer_66',['Writer',['../structMR_1_1Writer.html',1,'MR::Writer&lt; T &gt;'],['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer::Writer()']]],
+  ['writerawtiff_67',['writeRawTiff',['../namespaceMR.html#abdcd54b6004b70d5f63cf0695fc0a285',1,'MR']]],
+  ['writetofile_68',['writeToFile',['../classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca',1,'MR::Config']]],
+  ['ww_69',['ww',['../structMR_1_1SymMatrix4.html#a5f21446d34d40b1bc92d85397bc24134',1,'MR::SymMatrix4']]]
 ];

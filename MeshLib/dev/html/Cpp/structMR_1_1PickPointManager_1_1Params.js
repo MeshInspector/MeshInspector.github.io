@@ -11,6 +11,5 @@ var structMR_1_1PickPointManager_1_1Params =
     [ "pickPredicate", "structMR_1_1PickPointManager_1_1Params.html#acca15c3df6d4a2c610e3ecd95dbb1c71", null ],
     [ "surfacePointParams", "structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7", null ],
     [ "widgetContourCloseMod", "structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed", null ],
-    [ "widgetDeletePointMod", "structMR_1_1PickPointManager_1_1Params.html#a53a190ae905fd433a574393eca3095af", null ],
-    [ "writeHistory", "structMR_1_1PickPointManager_1_1Params.html#a2ecbe3e82d23360d9534372520dbb5d8", null ]
+    [ "widgetDeletePointMod", "structMR_1_1PickPointManager_1_1Params.html#a53a190ae905fd433a574393eca3095af", null ]
 ];
