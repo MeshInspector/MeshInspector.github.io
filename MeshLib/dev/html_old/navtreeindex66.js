@@ -1,6 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structMR_1_1IPointPairs.html":[6,0,1,0,13,282],
 "structMR_1_1IPointPairs.html":[6,0,2,0,1,266],
 "structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,1,0,13,282,8],
 "structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,2,0,1,266,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX66 =
 "structMR_1_1InflateSettings.html":[6,0,2,0,1,257],
 "structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[6,0,1,0,13,273,0],
 "structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[6,0,2,0,1,257,0],
-"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,1,0,13,273,2]
+"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,1,0,13,273,2],
+"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,2,0,1,257,2]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1PickPointManager.html#affe00e5ad2a8edc2c7e2551996ca4c22":[6,0,2,0,1,423,12],
 "classMR_1_1PlaneAccumulator.html":[6,0,1,0,13,441],
 "classMR_1_1PlaneAccumulator.html":[6,0,2,0,1,425],
 "classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[6,0,1,0,13,441,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "classMR_1_1PolylineTopology.html#ae20a806936450b9f38d28938a2721f47":[6,0,0,14,2,22],
 "classMR_1_1PolylineTopology.html#aee474c1238238690bc19c125fa62b857":[6,0,0,14,2,35],
 "classMR_1_1PolylineTopology.html#af1878c347e52b88e1e86d50a9f38264b":[6,0,0,14,2,36],
-"classMR_1_1PolylineTopology.html#af5cc7998d7a0f82562b74552b26163f4":[6,0,0,14,2,47]
+"classMR_1_1PolylineTopology.html#af5cc7998d7a0f82562b74552b26163f4":[6,0,0,14,2,47],
+"classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b":[6,0,0,14,2,49]
 };

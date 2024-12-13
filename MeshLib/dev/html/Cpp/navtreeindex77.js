@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307":[6,0,2,0,1,614,4],
 "structMR_1_1SymbolMeshParams.html#a862ff23debfa432cd8025d0d39a00868":[6,0,1,0,1,630,1],
 "structMR_1_1SymbolMeshParams.html#a862ff23debfa432cd8025d0d39a00868":[6,0,2,0,1,614,1],
 "structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf":[6,0,1,0,1,630,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#a724f32397cb8683793b5cd819c263129":[6,0,1,0,1,660,1],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#a724f32397cb8683793b5cd819c263129":[6,0,2,0,1,644,1],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,1,0,1,660,0],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,2,0,1,644,0]
+"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,2,0,1,644,0],
+"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,1,0,1,660,2]
 };

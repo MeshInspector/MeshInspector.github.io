@@ -176,8 +176,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f0d5ef5f204a398a7f22887435a0176" id="r_a8f0d5ef5f204a398a7f22887435a0176"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f0d5ef5f204a398a7f22887435a0176">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
 <tr class="memdesc:a8f0d5ef5f204a398a7f22887435a0176"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
 <tr class="separator:a8f0d5ef5f204a398a7f22887435a0176"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a607e556ab03bf24b121ec271b21166ce" id="r_a607e556ab03bf24b121ec271b21166ce"><td class="memItemLeft" align="right" valign="top">MRCUDA_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a607e556ab03bf24b121ec271b21166ce">calcWithDistances</a> (const Vector3f &amp;p, float windingNumberThreshold, float beta, float maxDistSq, float minDistSq)</td></tr>
-<tr class="separator:a607e556ab03bf24b121ec271b21166ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ac02a471d83eacb27b8cd1d8ba4df62" id="r_a0ac02a471d83eacb27b8cd1d8ba4df62"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac02a471d83eacb27b8cd1d8ba4df62">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float windingNumberThreshold, float beta, float maxDistSq, float minDistSq, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
 <tr class="memdesc:a0ac02a471d83eacb27b8cd1d8ba4df62"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from winding number in each point from a three-dimensional grid  <br /></td></tr>
 <tr class="separator:a0ac02a471d83eacb27b8cd1d8ba4df62"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -433,42 +431,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>false if the operation was canceled by the user</dd></dl>
 
 <p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#ac4744f6a703ab21ad9c40d2ca77db273">MR::IFastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="a607e556ab03bf24b121ec271b21166ce" name="a607e556ab03bf24b121ec271b21166ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a607e556ab03bf24b121ec271b21166ce">&#9670;&#160;</a></span>calcWithDistances()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRCUDA_API float MR::Cuda::FastWindingNumber::calcWithDistances </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>windingNumberThreshold</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>beta</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistSq</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minDistSq</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

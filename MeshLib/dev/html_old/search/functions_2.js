@@ -35,7 +35,7 @@ var searchData=
   ['calculatetransformations_32',['calculateTransformations',['../classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739',1,'MR::MultiwayICP']]],
   ['calculatetransformationsfixfirst_33',['calculateTransformationsFixFirst',['../classMR_1_1MultiwayICP.html#a35f4c37c46a21c889beb5aaf745935bb',1,'MR::MultiwayICP']]],
   ['calcusedmemory_34',['calcUsedMemory',['../classMR_1_1HistoryStore.html#ae5153ad77359e03f6105aa8db1293b14',1,'MR::HistoryStore']]],
-  ['calcwithdistances_35',['calcWithDistances',['../classMR_1_1Cuda_1_1FastWindingNumber.html#a607e556ab03bf24b121ec271b21166ce',1,'MR::Cuda::FastWindingNumber::calcWithDistances()'],['../classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01',1,'MR::FastWindingNumber::calcWithDistances()']]],
+  ['calcwithdistances_35',['calcWithDistances',['../classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01',1,'MR::FastWindingNumber']]],
   ['callbacksetprogress_36',['callBackSetProgress',['../namespaceMR_1_1ProgressBar.html#a2682696e53c15a5fbb804436938b94ef',1,'MR::ProgressBar']]],
   ['cameralookalong_37',['cameraLookAlong',['../classMR_1_1Viewport.html#a2761afb44a51e6e0ca9e057067ac05c6',1,'MR::Viewport']]],
   ['cameraorientation_38',['CameraOrientation',['../classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3',1,'MR::CameraOrientation']]],

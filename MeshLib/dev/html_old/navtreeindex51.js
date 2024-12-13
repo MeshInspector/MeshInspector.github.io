@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"group__VoxelGroup.html#gaa969e84361224c40ebdaea70a2942ea6":[6,0,0,17,28],
 "group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef":[6,0,0,17,18],
 "group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075":[6,0,0,17,11],
 "group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb":[6,0,0,17,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "namespaceMR.html#a1ba9e876bd033bc6803332bb875ee138":[6,0,1,0,13,854],
 "namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b":[6,0,1,0,13,2352],
 "namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976":[6,0,1,0,13,2133],
-"namespaceMR.html#a1bee00a475fada33c76a0bb71f8cbadd":[6,0,1,0,13,2273]
+"namespaceMR.html#a1bee00a475fada33c76a0bb71f8cbadd":[6,0,1,0,13,2273],
+"namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590":[6,0,1,0,13,2341]
 };

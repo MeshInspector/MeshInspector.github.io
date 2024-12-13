@@ -1,6 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classMR_1_1ObjectVoxels.html#ad43c1a2a2825cbe90ba7cd3c398e210c":[6,0,0,11,14,35],
 "classMR_1_1ObjectVoxels.html#ad8df4c2427d39243427462f856e0ea37":[6,0,0,11,14,34],
 "classMR_1_1ObjectVoxels.html#add6ed6dadad3ee60701ec86b112535c2":[6,0,0,11,14,72],
 "classMR_1_1ObjectVoxels.html#ae0e4a39d7b533adf3f8e3a245164b4b0":[6,0,0,11,14,22],
@@ -249,5 +248,6 @@ var NAVTREEINDEX31 =
 "classMR_1_1PluginCloseOnChangeMesh.html#a8a6dc440df682b00feb1b9fd10eab31a":[6,0,2,0,1,428,2],
 "classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[6,0,1,0,1,444,0],
 "classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[6,0,2,0,1,428,0],
-"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,445]
+"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,445],
+"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,2,0,1,429]
 };

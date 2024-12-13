@@ -1,6 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structMR_1_1PreDrawListener.html#a4e0adfc848772aeae37ad04a7d61d787":[6,0,2,0,1,473,3],
 "structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180":[6,0,1,0,13,489,1],
 "structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180":[6,0,2,0,1,473,1],
 "structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,1,0,13,489,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX74 =
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,1,0,13,528,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,2,0,1,512,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,1,0,13,528,4],
-"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,2,0,1,512,4]
+"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,2,0,1,512,4],
+"structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,1,0,13,528,0]
 };
