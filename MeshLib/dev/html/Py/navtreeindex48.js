@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[6,1,1,0,0,538,2],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html":[6,1,0,0,1,539],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html":[6,1,1,0,0,539],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[6,1,0,0,1,539,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[6,1,0,0,1,539,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "classmrmeshpy_1_1ObjectDistanceMap.html#aa11c35477076924c1d3101a45d78019c":[6,1,1,0,0,519,0],
 "classmrmeshpy_1_1ObjectDistanceMap.html#ad443c02a67a280e87d39c752899cc75d":[6,1,0,0,1,519,7],
 "classmrmeshpy_1_1ObjectDistanceMap.html#ad443c02a67a280e87d39c752899cc75d":[6,1,1,0,0,519,7],
-"classmrmeshpy_1_1ObjectDistanceMap.html#ae17141b84d021a55a3bb7b5fb3526cb2":[6,1,0,0,1,519,6],
-"classmrmeshpy_1_1ObjectDistanceMap.html#ae17141b84d021a55a3bb7b5fb3526cb2":[6,1,1,0,0,519,6],
-"classmrmeshpy_1_1ObjectDistanceMap.html#ae1b13377fd047de385656624a3083f3d":[6,1,0,0,1,519,2]
+"classmrmeshpy_1_1ObjectDistanceMap.html#ae17141b84d021a55a3bb7b5fb3526cb2":[6,1,0,0,1,519,6]
 };

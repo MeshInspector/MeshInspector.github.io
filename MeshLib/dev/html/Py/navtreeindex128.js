@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#ade78bb87941aed19f212cf1d502319ea":[6,1,1,0,0,863,2],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#ae0c485a66ab75076d94c0544279eaeae":[6,1,0,0,1,863,13],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#ae0c485a66ab75076d94c0544279eaeae":[6,1,1,0,0,863,13],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html":[6,1,0,0,1,864],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html":[6,1,1,0,0,864],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1std__vector__TriPoint__float.html#a02c3cfb738537b6cebb42938f3a1fa09":[6,1,1,0,0,868,27],
 "classmrmeshpy_1_1std__vector__TriPoint__float.html#a04624c045dd729ed60091eeec64d7cbb":[6,1,0,0,1,868,10],
 "classmrmeshpy_1_1std__vector__TriPoint__float.html#a04624c045dd729ed60091eeec64d7cbb":[6,1,1,0,0,868,10],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a1ab18e7d5dd0114d26626795937a9ce0":[6,1,0,0,1,868,17],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a1ab18e7d5dd0114d26626795937a9ce0":[6,1,1,0,0,868,17],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a3145fecf717ad12edfffd44ab24c46fe":[6,1,0,0,1,868,18]
+"classmrmeshpy_1_1std__vector__TriPoint__float.html#a1ab18e7d5dd0114d26626795937a9ce0":[6,1,0,0,1,868,17]
 };

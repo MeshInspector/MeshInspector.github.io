@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,1,0,13,441,1],
 "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,2,0,1,425,1],
 "classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3":[6,0,1,0,13,441,2],
 "classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3":[6,0,2,0,1,425,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1PolylineUndirectedEdgeIterator.html#a96c120505ea08821c57b4ed64dee6cda":[6,0,0,14,1,2],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#aa10debad27ce2b86f238db3d967a2c22":[6,0,0,14,1,6],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#ab5a25215895e3294bb18f87556136edc":[6,0,0,14,1,0],
-"classMR_1_1PolylineUndirectedEdgeIterator.html#ac7b41ca64df520fa1cceaefa6adf9cde":[6,0,0,14,1,4],
-"classMR_1_1PolylineUndirectedEdgeIterator.html#aceb9e42371e4e109bae6cfd91baa5ec1":[6,0,0,14,1,3]
+"classMR_1_1PolylineUndirectedEdgeIterator.html#ac7b41ca64df520fa1cceaefa6adf9cde":[6,0,0,14,1,4]
 };

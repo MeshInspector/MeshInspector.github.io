@@ -2116,6 +2116,7 @@ var namespaceMR =
     [ "hasMultipleEdges", "group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e", null ],
     [ "hasProhibitedChars", "namespaceMR.html#a58401eef2addb5c0fef7e5dd90a17ddf", null ],
     [ "heapBytes", "group__BasicStructuresGroup.html#ga0f1e6296451691269fc538aad8088557", null ],
+    [ "heapBytes", "group__BasicGroup.html#ga95720533ccaf5f5aa42fbabee1ce7067", null ],
     [ "heapBytes", "group__BasicGroup.html#ga616873b34fa0db5205d049f845bec044", null ],
     [ "heapBytes", "group__BasicGroup.html#gac4cf85680ec3620cb08726ea6668e99a", null ],
     [ "heapBytes", "group__BasicGroup.html#ga6f62a19a1892f63b5d147de8ef2160c0", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,1,0,0,0,10],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,1,0,0,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,0,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,1,0,0,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMROneMeshIntersection.html#aaa85b1822adbb2d4b7fd61b44f2ec80a":[6,0,2,0,45,5],
 "structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b":[6,0,2,0,45,2],
 "structMRPointOnFace.html":[6,0,2,0,46],
-"structMRPointOnFace.html#a66cda0445567e55abe967015c38dd8ff":[6,0,2,0,46,1],
-"structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252":[6,0,2,0,46,0],
-"structMRPointPair.html":[6,0,2,0,47]
+"structMRPointOnFace.html#a66cda0445567e55abe967015c38dd8ff":[6,0,2,0,46,1]
 };
