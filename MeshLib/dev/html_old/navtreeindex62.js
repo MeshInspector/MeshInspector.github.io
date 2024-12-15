@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1DecimatePolylineResult.html":[6,0,2,0,1,143],
+"structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5":[6,0,1,0,13,159,0],
+"structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5":[6,0,2,0,1,143,0],
+"structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6":[6,0,1,0,13,159,1],
+"structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6":[6,0,2,0,1,143,1],
+"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,2],
+"structMR_1_1DecimatePolylineSettings.html#a041fda2a9c1b5df5de8cb74bacbd7ff1":[6,0,0,10,2,4],
+"structMR_1_1DecimatePolylineSettings.html#a3b25e672e4446e2af56927c0cf0237db":[6,0,0,10,2,9],
 "structMR_1_1DecimatePolylineSettings.html#a53477903f660597feae1534ecba5ce74":[6,0,0,10,2,3],
 "structMR_1_1DecimatePolylineSettings.html#a58d4128740b065b31e9b4d1b637bc0c7":[6,0,0,10,2,1],
 "structMR_1_1DecimatePolylineSettings.html#a68c78013b24475c60475093e77bbdeff":[6,0,0,10,2,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DragEndListener.html#ad5de99209a6dbbd5c32371c8e65bed9d":[6,0,2,0,1,170,3],
 "structMR_1_1DragListener.html":[6,0,1,0,13,187],
 "structMR_1_1DragListener.html":[6,0,2,0,1,171],
-"structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,1,0,13,187,2],
-"structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,2,0,1,171,2],
-"structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,1,0,13,187,1],
-"structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,2,0,1,171,1],
-"structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,1,0,13,187,0],
-"structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,2,0,1,171,0],
-"structMR_1_1DragListener.html#a77da80a462f4e2de09870ee273327df2":[6,0,1,0,13,187,3],
-"structMR_1_1DragListener.html#a77da80a462f4e2de09870ee273327df2":[6,0,2,0,1,171,3],
-"structMR_1_1DragStartListener.html":[6,0,1,0,13,188]
+"structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,1,0,13,187,2]
 };

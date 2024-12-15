@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,1,0,13,377,1],
+"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,2,0,1,361,1],
+"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,1,0,13,377,2],
+"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,2,0,1,361,2],
+"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
+"structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa":[6,0,0,8,2,0],
+"structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa":[6,0,0,8,2,1],
+"structMR_1_1NoCtor.html":[6,0,1,0,13,381],
 "structMR_1_1NoCtor.html":[6,0,2,0,1,365],
 "structMR_1_1NoCtor_3_01T_01_4.html":[6,0,1,0,13,382],
 "structMR_1_1NoCtor_3_01T_01_4.html":[6,0,2,0,1,366],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1OutputFlows.html#ab696447c7c75c2271af326e9df613cd7":[6,0,2,0,1,414,2],
 "structMR_1_1PackMapping.html":[6,0,1,0,13,432],
 "structMR_1_1PackMapping.html":[6,0,2,0,1,416],
-"structMR_1_1PackMapping.html#a064cdbdc31f7c5de6f7cb77f75c1a962":[6,0,1,0,13,432,0],
-"structMR_1_1PackMapping.html#a064cdbdc31f7c5de6f7cb77f75c1a962":[6,0,2,0,1,416,0],
-"structMR_1_1PackMapping.html#a3080324e4d0c9556be1e426c7a87ff79":[6,0,1,0,13,432,2],
-"structMR_1_1PackMapping.html#a3080324e4d0c9556be1e426c7a87ff79":[6,0,2,0,1,416,2],
-"structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,1,0,13,432,1],
-"structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,2,0,1,416,1],
-"structMR_1_1Palette_1_1Label.html":[6,0,1,0,13,433,0],
-"structMR_1_1Palette_1_1Label.html":[6,0,2,0,1,417,0],
-"structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f":[6,0,1,0,13,433,0,3]
+"structMR_1_1PackMapping.html#a064cdbdc31f7c5de6f7cb77f75c1a962":[6,0,1,0,13,432,0]
 };

@@ -109,7 +109,7 @@ var searchData=
   ['mergevolumepart_106',['mergeVolumePart',['../namespaceMR.html#a9145e1b055b88e54edf784e6f3b050fc',1,'MR']]],
   ['mesh_107',['mesh',['../classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086',1,'MR::ObjectMeshHolder::mesh()'],['../classMR_1_1MeshOnVoxelsT.html#a7160f9ea14f458a96be6e51abb4c5f91',1,'MR::MeshOnVoxelsT::mesh()']]],
   ['meshdenoisevianormals_108',['meshDenoiseViaNormals',['../namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d',1,'MR']]],
-  ['meshdiff_109',['MeshDiff',['../classMR_1_1MeshDiff.html#a61c8061aba710ec09a8b346b784a35c0',1,'MR::MeshDiff']]],
+  ['meshdiff_109',['MeshDiff',['../classMR_1_1MeshDiff.html#a5864778df831e322d932e266452fe232',1,'MR::MeshDiff::MeshDiff()=default'],['../classMR_1_1MeshDiff.html#a61c8061aba710ec09a8b346b784a35c0',1,'MR::MeshDiff::MeshDiff(const Mesh &amp;from, const Mesh &amp;to)']]],
   ['meshfromeigen_110',['meshFromEigen',['../group__MeshEigenGroup.html#ga542e18e6f7d00b4661a728248b89f2e3',1,'MR']]],
   ['meshfromvoxelsmask_111',['meshFromVoxelsMask',['../group__VolumeSegmentationGroup.html#ga67be2b8fd2ef849261f668ee98abfcc5',1,'MR']]],
   ['meshmodifier_112',['MeshModifier',['../classMR_1_1MeshModifier.html#a0338449c5ee61d0a4f201d678002cfbc',1,'MR::MeshModifier']]],

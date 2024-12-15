@@ -561,6 +561,7 @@ var namespacemrmeshpy =
     [ "Parabolad", "classmrmeshpy_1_1Parabolad.html", "classmrmeshpy_1_1Parabolad" ],
     [ "Parabolaf", "classmrmeshpy_1_1Parabolaf.html", "classmrmeshpy_1_1Parabolaf" ],
     [ "Parallel", "classmrmeshpy_1_1Parallel.html", "classmrmeshpy_1_1Parallel" ],
+    [ "PartialChangeMeshAction", "classmrmeshpy_1_1PartialChangeMeshAction.html", "classmrmeshpy_1_1PartialChangeMeshAction" ],
     [ "PartMapping", "classmrmeshpy_1_1PartMapping.html", "classmrmeshpy_1_1PartMapping" ],
     [ "PathError", "classmrmeshpy_1_1PathError.html", "classmrmeshpy_1_1PathError" ],
     [ "Pdf", "classmrmeshpy_1_1Pdf.html", "classmrmeshpy_1_1Pdf" ],

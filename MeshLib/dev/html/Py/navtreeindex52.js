@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1OffsetContourIndex.html#af5e36b447476b07a196dee32a298cdbf":[6,1,1,0,0,543,2],
+"classmrmeshpy_1_1OffsetContoursOrigins.html":[6,1,0,0,1,544],
 "classmrmeshpy_1_1OffsetContoursOrigins.html":[6,1,1,0,0,544],
 "classmrmeshpy_1_1OffsetContoursOrigins.html#a07d8331bad73640ee9312c5d3121e19c":[6,1,0,0,1,544,2],
 "classmrmeshpy_1_1OffsetContoursOrigins.html#a07d8331bad73640ee9312c5d3121e19c":[6,1,1,0,0,544,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1OpenVdbFloatGrid.html#a714e37f67e87a0625470ef1a7643863e":[6,1,1,0,0,551,1],
 "classmrmeshpy_1_1OpenVdbFloatGrid.html#a82345a0c4a31d4f99de30dc6155564b3":[6,1,0,0,1,551,0],
 "classmrmeshpy_1_1OpenVdbFloatGrid.html#a82345a0c4a31d4f99de30dc6155564b3":[6,1,1,0,0,551,0],
-"classmrmeshpy_1_1OrientNormals.html":[6,1,0,0,1,552],
-"classmrmeshpy_1_1OrientNormals.html":[6,1,1,0,0,552],
-"classmrmeshpy_1_1OrientNormals.html#a036ba97ffc5ffed73af460110051f673":[6,1,0,0,1,552,2]
+"classmrmeshpy_1_1OrientNormals.html":[6,1,0,0,1,552]
 };

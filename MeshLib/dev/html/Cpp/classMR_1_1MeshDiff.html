@@ -160,6 +160,9 @@ $(function(){initNavTree('classMR_1_1MeshDiff.html',''); initResizable(true); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a5864778df831e322d932e266452fe232" id="r_a5864778df831e322d932e266452fe232"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5864778df831e322d932e266452fe232">MeshDiff</a> ()=default</td></tr>
+<tr class="memdesc:a5864778df831e322d932e266452fe232"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs minimal difference, where applyAndSwap( m ) will produce empty mesh  <br /></td></tr>
+<tr class="separator:a5864778df831e322d932e266452fe232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61c8061aba710ec09a8b346b784a35c0" id="r_a61c8061aba710ec09a8b346b784a35c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61c8061aba710ec09a8b346b784a35c0">MeshDiff</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;to)</td></tr>
 <tr class="memdesc:a61c8061aba710ec09a8b346b784a35c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the difference, that can be applied to mesh-from in order to get mesh-to  <br /></td></tr>
 <tr class="separator:a61c8061aba710ec09a8b346b784a35c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,8 +178,35 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>this object stores a difference between two meshes: both in coordinates and in topology</p>
 <p>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be comparable to a mesh in size </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5864778df831e322d932e266452fe232" name="a5864778df831e322d932e266452fe232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5864778df831e322d932e266452fe232">&#9670;&#160;</a></span>MeshDiff() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshDiff::MeshDiff </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs minimal difference, where applyAndSwap( m ) will produce empty mesh </p>
+
+</div>
+</div>
 <a id="a61c8061aba710ec09a8b346b784a35c0" name="a61c8061aba710ec09a8b346b784a35c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61c8061aba710ec09a8b346b784a35c0">&#9670;&#160;</a></span>MeshDiff()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61c8061aba710ec09a8b346b784a35c0">&#9670;&#160;</a></span>MeshDiff() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

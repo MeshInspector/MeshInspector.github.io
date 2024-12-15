@@ -566,6 +566,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.Parallel.CallSimply", "classmrmeshpy_1_1Parallel_1_1CallSimply.html", "classmrmeshpy_1_1Parallel_1_1CallSimply" ],
     [ "mrmeshpy.Parallel.CallSimplyMaker", "classmrmeshpy_1_1Parallel_1_1CallSimplyMaker.html", "classmrmeshpy_1_1Parallel_1_1CallSimplyMaker" ],
     [ "mrmeshpy.PartMapping", "classmrmeshpy_1_1PartMapping.html", "classmrmeshpy_1_1PartMapping" ],
+    [ "mrmeshpy.PartialChangeMeshAction", "classmrmeshpy_1_1PartialChangeMeshAction.html", "classmrmeshpy_1_1PartialChangeMeshAction" ],
     [ "mrmeshpy.PathError", "classmrmeshpy_1_1PathError.html", "classmrmeshpy_1_1PathError" ],
     [ "mrmeshpy.Pdf", "classmrmeshpy_1_1Pdf.html", "classmrmeshpy_1_1Pdf" ],
     [ "mrmeshpy.PdfParameters", "classmrmeshpy_1_1PdfParameters.html", "classmrmeshpy_1_1PdfParameters" ],

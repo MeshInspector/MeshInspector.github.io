@@ -412,7 +412,8 @@ var hierarchy =
       [ "mrmeshpy.ChangeVertsColorMapAction", "classmrmeshpy_1_1ChangeVertsColorMapAction.html", null ],
       [ "mrmeshpy.ChangeVisualizePropertyAction", "classmrmeshpy_1_1ChangeVisualizePropertyAction.html", null ],
       [ "mrmeshpy.ChangeXfAction", "classmrmeshpy_1_1ChangeXfAction.html", null ],
-      [ "mrmeshpy.CombinedHistoryAction", "classmrmeshpy_1_1CombinedHistoryAction.html", null ]
+      [ "mrmeshpy.CombinedHistoryAction", "classmrmeshpy_1_1CombinedHistoryAction.html", null ],
+      [ "mrmeshpy.PartialChangeMeshAction", "classmrmeshpy_1_1PartialChangeMeshAction.html", null ]
     ] ],
     [ "mrmeshpy.HoleFillPlan", "classmrmeshpy_1_1HoleFillPlan.html", null ],
     [ "mrmeshpy.ICP", "classmrmeshpy_1_1ICP.html", null ],

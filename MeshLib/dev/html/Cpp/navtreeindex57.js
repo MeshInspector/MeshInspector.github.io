@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1ProgressBar.html#a88739d4c0d7055aa89a69172041cb925":[6,0,1,0,1,29,9],
+"namespaceMR_1_1ProgressBar.html#aa2b9b5f5b7a526d0721702a144530d7f":[6,0,1,0,1,29,17],
+"namespaceMR_1_1ProgressBar.html#aa2bbcde88ff779122f16150fa6de08eb":[6,0,1,0,1,29,10],
+"namespaceMR_1_1ProgressBar.html#ab66618d001f8cbce3e0a07b2b4dde0af":[6,0,1,0,1,29,5],
+"namespaceMR_1_1ProgressBar.html#abd6ace0900add6a59ee1539dffc5d961":[6,0,1,0,1,29,8],
+"namespaceMR_1_1ProgressBar.html#abd759374a06a6cb111abb5a5ad608ea1":[6,0,1,0,1,29,20],
+"namespaceMR_1_1ProgressBar.html#ad694eb3ebaed27434a4adc6f85c929e6":[6,0,1,0,1,29,13],
+"namespaceMR_1_1ProgressBar.html#ae692760ee83b399be6653c81468172ea":[6,0,1,0,1,29,19],
 "namespaceMR_1_1ProgressBar.html#ae694b1e02bb163d667aaca266f472606":[6,0,1,0,1,29,16],
 "namespaceMR_1_1ProgressBar.html#af847e27a1f34b2b07a29272ef2fb9e88":[6,0,1,0,1,29,2],
 "namespaceMR_1_1RenderDimensions.html":[6,0,1,0,1,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "namespacemembers_v.html":[6,0,1,1,0,19],
 "namespacemembers_vars.html":[6,0,1,1,2],
 "namespacemembers_w.html":[6,0,1,1,0,20],
-"namespacemembers_x.html":[6,0,1,1,0,21],
-"namespacemembers_y.html":[6,0,1,1,0,22],
-"namespacemembers_z.html":[6,0,1,1,0,23],
-"namespaces.html":[6,0,1,0],
-"pages.html":[],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,1,0,0,0,6],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,2,0,0,0,6]
+"namespacemembers_x.html":[6,0,1,1,0,21]
 };

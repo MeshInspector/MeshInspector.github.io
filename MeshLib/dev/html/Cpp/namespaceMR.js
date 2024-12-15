@@ -541,6 +541,7 @@ var namespaceMR =
     [ "Palette", "classMR_1_1Palette.html", "classMR_1_1Palette" ],
     [ "PalettePresets", "classMR_1_1PalettePresets.html", null ],
     [ "Parabola", "structMR_1_1Parabola.html", "structMR_1_1Parabola" ],
+    [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", "classMR_1_1PartialChangeMeshAction" ],
     [ "PartMapping", "structMR_1_1PartMapping.html", "structMR_1_1PartMapping" ],
     [ "Pdf", "classMR_1_1Pdf.html", "classMR_1_1Pdf" ],
     [ "PdfParameters", "structMR_1_1PdfParameters.html", "structMR_1_1PdfParameters" ],

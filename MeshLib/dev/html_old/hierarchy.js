@@ -435,6 +435,7 @@ var hierarchy =
       [ "MR::DirectionWidget::ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", null ],
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
+      [ "MR::PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", null ],
       [ "MR::PickPointManager::WidgetHistoryAction", "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ],
       [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", null ]

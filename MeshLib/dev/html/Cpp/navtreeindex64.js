@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html#a385a1aa67d30c28d96c3b353b2301288":[6,0,1,0,1,6,1,2,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html#a385a1aa67d30c28d96c3b353b2301288":[6,0,2,0,1,2,1,2,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,3],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,3],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,1,0,1,6,1,3,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,2,0,1,2,1,3,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,1,0,1,6,1,4,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,2,0,1,2,1,4,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1GlTexture_1_1Settings.html#a877a27fbb560e4c2b894f410f8d07eaf":[6,0,1,0,1,242,0,1],
 "structMR_1_1GlTexture_1_1Settings.html#a877a27fbb560e4c2b894f410f8d07eaf":[6,0,2,0,1,226,0,1],
 "structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[6,0,1,0,1,242,0,5],
-"structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[6,0,2,0,1,226,0,5],
-"structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[6,0,1,0,1,242,0,4],
-"structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[6,0,2,0,1,226,0,4],
-"structMR_1_1Graph_1_1EndVertices.html":[6,0,1,0,1,246,0],
-"structMR_1_1Graph_1_1EndVertices.html":[6,0,2,0,1,230,0],
-"structMR_1_1Graph_1_1EndVertices.html#a22b2afa87f3a85ed5e79f351e02b9266":[6,0,1,0,1,246,0,4],
-"structMR_1_1Graph_1_1EndVertices.html#a22b2afa87f3a85ed5e79f351e02b9266":[6,0,2,0,1,230,0,4],
-"structMR_1_1Graph_1_1EndVertices.html#a57f201c07d8a9aee027911668d5c9f8b":[6,0,1,0,1,246,0,1],
-"structMR_1_1Graph_1_1EndVertices.html#a57f201c07d8a9aee027911668d5c9f8b":[6,0,2,0,1,230,0,1]
+"structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[6,0,2,0,1,226,0,5]
 };
