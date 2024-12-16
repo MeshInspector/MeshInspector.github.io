@@ -1914,6 +1914,7 @@ var namespacemrmeshpy =
     [ "setLevelSetType", "namespacemrmeshpy.html#abc899d874bbfecc74e3649641c1ed5f1", null ],
     [ "setNewHandlerIfNeeded", "namespacemrmeshpy.html#a8e3d5ccb11c7f8700aeed263da382b44", null ],
     [ "setupLoggerByDefault", "namespacemrmeshpy.html#ab93b023ebf93ae3283e34c8a42bb5c9c", null ],
+    [ "setValue", "namespacemrmeshpy.html#a229fcb0fd12f6ae957f4ffa7fffa6038", null ],
     [ "setValue", "namespacemrmeshpy.html#a9b14b88d35241f5e6d5e976e503be44c", null ],
     [ "sharpenMarchingCubesMesh", "namespacemrmeshpy.html#a326909cd5415aeb7f416f0313865f6ee", null ],
     [ "sharpOffsetMesh", "namespacemrmeshpy.html#ae2e3229e66ddad445675374984997567", null ],

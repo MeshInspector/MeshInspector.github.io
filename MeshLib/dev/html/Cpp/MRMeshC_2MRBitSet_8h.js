@@ -28,5 +28,8 @@ var MRMeshC_2MRBitSet_8h =
     [ "mrUndirectedEdgeBitSetNew", "MRMeshC_2MRBitSet_8h.html#a3f17a943a9d48cbad9b852875e945124", null ],
     [ "mrVertBitSetCopy", "MRMeshC_2MRBitSet_8h.html#aaa452d8b90ee0c94e7cb37fb4117f860", null ],
     [ "mrVertBitSetFree", "MRMeshC_2MRBitSet_8h.html#a8edd3bbe85ba162bd70a7bd90ae63fd5", null ],
-    [ "mrVertBitSetNew", "MRMeshC_2MRBitSet_8h.html#a4fae7618af2ead00f4f2869c4dd9574c", null ]
+    [ "mrVertBitSetNew", "MRMeshC_2MRBitSet_8h.html#a4fae7618af2ead00f4f2869c4dd9574c", null ],
+    [ "mrVoxelBitSetCopy", "MRMeshC_2MRBitSet_8h.html#abb94b9a152d94a7c591914f8ac90078b", null ],
+    [ "mrVoxelBitSetFree", "MRMeshC_2MRBitSet_8h.html#a992d02266d9b8eb7810c66f875906c85", null ],
+    [ "mrVoxelBitSetNew", "MRMeshC_2MRBitSet_8h.html#a291d0cbe489e0a62720362b26e82a800", null ]
 ];

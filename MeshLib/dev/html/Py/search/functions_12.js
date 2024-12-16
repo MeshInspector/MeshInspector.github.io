@@ -207,7 +207,7 @@ var searchData=
   ['setuploggerbydefault_204',['setupLoggerByDefault',['../namespacemrmeshpy.html#ab93b023ebf93ae3283e34c8a42bb5c9c',1,'mrmeshpy']]],
   ['setusedefaultscenepropertiesondeserialization_205',['setUseDefaultScenePropertiesOnDeserialization',['../classmrmeshpy_1_1VisualObject.html#a835cb96e26e7068936c68aba9046257e',1,'mrmeshpy::VisualObject']]],
   ['setuvcoords_206',['setUVCoords',['../classmrmeshpy_1_1ObjectMeshHolder.html#a47b7dfb512d55da681be9b7e901e6f90',1,'mrmeshpy::ObjectMeshHolder']]],
-  ['setvalue_207',['setValue',['../classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html#a7e34f642065fbcba3e47084d94467853',1,'mrmeshpy.Heap_float_GraphVertId_std_greater_float.setValue()'],['../namespacemrmeshpy.html#a9b14b88d35241f5e6d5e976e503be44c',1,'mrmeshpy.setValue()']]],
+  ['setvalue_207',['setValue',['../classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html#a7e34f642065fbcba3e47084d94467853',1,'mrmeshpy.Heap_float_GraphVertId_std_greater_float.setValue()'],['../namespacemrmeshpy.html#a229fcb0fd12f6ae957f4ffa7fffa6038',1,'mrmeshpy.setValue(OpenVdbFloatGrid grid, Vector3i p, float value)'],['../namespacemrmeshpy.html#a9b14b88d35241f5e6d5e976e503be44c',1,'mrmeshpy.setValue(OpenVdbFloatGrid grid, VoxelBitSet region, float value)']]],
   ['setvertscolormap_208',['setVertsColorMap',['../classmrmeshpy_1_1VisualObject.html#aa9c28b2a0810a5c29fdb907b1d236cfe',1,'mrmeshpy::VisualObject']]],
   ['setvisibilitymask_209',['setVisibilityMask',['../classmrmeshpy_1_1Object.html#a2a093177bee96f9715ec03afc69262aa',1,'mrmeshpy::Object']]],
   ['setvisible_210',['setVisible',['../classmrmeshpy_1_1Object.html#a8b7a91d7379e983adad42fd434e04381',1,'mrmeshpy::Object']]],

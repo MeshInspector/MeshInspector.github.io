@@ -725,6 +725,7 @@ var hierarchy =
     [ "MRBooleanResult", "structMRBooleanResult.html", null ],
     [ "MRBooleanResultMapper", "structMRBooleanResultMapper.html", null ],
     [ "MRBox3f", "structMRBox3f.html", null ],
+    [ "MRBox3i", "structMRBox3i.html", null ],
     [ "MRColor", "structMRColor.html", null ],
     [ "MRCoordinateConverters", "structMRCoordinateConverters.html", null ],
     [ "MRDecimateResult", "structMRDecimateResult.html", null ],

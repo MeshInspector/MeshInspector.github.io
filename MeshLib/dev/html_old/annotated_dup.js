@@ -910,6 +910,7 @@ var annotated_dup =
     [ "MRBooleanResult", "structMRBooleanResult.html", "structMRBooleanResult" ],
     [ "MRBooleanResultMapper", "structMRBooleanResultMapper.html", null ],
     [ "MRBox3f", "structMRBox3f.html", "structMRBox3f" ],
+    [ "MRBox3i", "structMRBox3i.html", "structMRBox3i" ],
     [ "MRColor", "structMRColor.html", "structMRColor" ],
     [ "MRCoordinateConverters", "structMRCoordinateConverters.html", "structMRCoordinateConverters" ],
     [ "MRDecimateResult", "structMRDecimateResult.html", "structMRDecimateResult" ],

@@ -577,7 +577,7 @@ var searchData=
   ['setupview_574',['setupView',['../classMR_1_1Viewport.html#aab7a9dc1a3bb2ced85d438c2501530a4',1,'MR::Viewport']]],
   ['setusedefaultscenepropertiesondeserialization_575',['setUseDefaultScenePropertiesOnDeserialization',['../classMR_1_1VisualObject.html#a12fceb01c325ff73eb770fa255cb5ecf',1,'MR::VisualObject']]],
   ['setuvcoords_576',['setUVCoords',['../classMR_1_1ObjectMeshHolder.html#ab5f8d8f157a25084f946c4378faa0c62',1,'MR::ObjectMeshHolder']]],
-  ['setvalue_577',['setValue',['../group__BasicGroup.html#ga4dedcc9253b2c45a7d8a9417d1c19362',1,'MR::Heap::setValue()'],['../group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862',1,'MR::setValue()']]],
+  ['setvalue_577',['setValue',['../group__BasicGroup.html#ga4dedcc9253b2c45a7d8a9417d1c19362',1,'MR::Heap::setValue()'],['../group__BasicStructuresGroup.html#ga28830151316f69a9dfd4e1fa94ccf465',1,'MR::setValue(FloatGrid &amp;grid, const Vector3i &amp;p, float value)'],['../group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862',1,'MR::setValue(FloatGrid &amp;grid, const VoxelBitSet &amp;region, float value)']]],
   ['setvector2i_578',['setVector2i',['../classMR_1_1Config.html#a5ef95eaf5b26a137a149705ac0698155',1,'MR::Config']]],
   ['setversion_579',['setVersion',['../classMR_1_1ViewerTitle.html#a54938c97f692256048904c68809de31a',1,'MR::ViewerTitle']]],
   ['setvertscolormap_580',['setVertsColorMap',['../classMR_1_1VisualObject.html#ad77d15eb01634f7726e7b2c23d4595cf',1,'MR::VisualObject']]],

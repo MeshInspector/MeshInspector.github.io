@@ -2615,6 +2615,7 @@ var namespaceMR =
     [ "setTextureFilterType", "namespaceMR.html#ab51fca826c7b90369fdc1dc86a01fbad", null ],
     [ "setTextureWrapType", "namespaceMR.html#a36f6d95d5a8018c4dd23ab51ba99ab31", null ],
     [ "setupLoggerByDefault", "namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f", null ],
+    [ "setValue", "group__BasicStructuresGroup.html#ga28830151316f69a9dfd4e1fa94ccf465", null ],
     [ "setValue", "group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862", null ],
     [ "sgn", "namespaceMR.html#a86bf24d57f63afab9354505400a0e82c", null ],
     [ "sharpenMarchingCubesMesh", "namespaceMR.html#ae0adbc499dc9ddb3d23854c708bccc3f", null ],

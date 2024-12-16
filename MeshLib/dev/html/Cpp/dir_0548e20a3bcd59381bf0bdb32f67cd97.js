@@ -9,7 +9,7 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRDicom.h", "MRDicom_8h.html", "MRDicom_8h" ],
     [ "MRDistanceVolumeParams.h", "MRDistanceVolumeParams_8h.html", "MRDistanceVolumeParams_8h" ],
     [ "MRFixUndercuts.h", "MRFixUndercuts_8h.html", "MRFixUndercuts_8h" ],
-    [ "MRFloatGrid.h", "MRFloatGrid_8h.html", "MRFloatGrid_8h" ],
+    [ "MRFloatGrid.h", "MRVoxels_2MRFloatGrid_8h.html", "MRVoxels_2MRFloatGrid_8h" ],
     [ "MRFloatGridComponents.h", "MRFloatGridComponents_8h.html", "MRFloatGridComponents_8h" ],
     [ "MRMarchingCubes.h", "MRMarchingCubes_8h.html", "MRMarchingCubes_8h" ],
     [ "MRMeshToDistanceVolume.h", "MRMeshToDistanceVolume_8h.html", "MRMeshToDistanceVolume_8h" ],

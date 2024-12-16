@@ -13,6 +13,7 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRExpandShrink.h", "MRMeshC_2MRExpandShrink_8h.html", "MRMeshC_2MRExpandShrink_8h" ],
     [ "MRFillHoleNicely.h", "MRMeshC_2MRFillHoleNicely_8h.html", "MRMeshC_2MRFillHoleNicely_8h" ],
     [ "MRFixSelfIntersections.h", "MRMeshC_2MRFixSelfIntersections_8h.html", "MRMeshC_2MRFixSelfIntersections_8h" ],
+    [ "MRFloatGrid.h", "MRMeshC_2MRFloatGrid_8h.html", "MRMeshC_2MRFloatGrid_8h" ],
     [ "MRGridSampling.h", "MRMeshC_2MRGridSampling_8h.html", "MRMeshC_2MRGridSampling_8h" ],
     [ "MRICP.h", "MRMeshC_2MRICP_8h.html", "MRMeshC_2MRICP_8h" ],
     [ "MRId.h", "MRMeshC_2MRId_8h.html", "MRMeshC_2MRId_8h" ],
