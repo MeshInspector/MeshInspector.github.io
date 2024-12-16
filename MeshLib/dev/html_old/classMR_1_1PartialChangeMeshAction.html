@@ -174,9 +174,11 @@ $(function(){initNavTree('classMR_1_1PartialChangeMeshAction.html',''); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5855938761939d901d654ba1dc505003" id="r_a5855938761939d901d654ba1dc505003"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5855938761939d901d654ba1dc505003">PartialChangeMeshAction</a> (std::string <a class="el" href="#ade6dceb9fa790192de46869cae89ab8f">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj, std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&amp;newMesh)</td></tr>
-<tr class="memdesc:a5855938761939d901d654ba1dc505003"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to set new object mesh and remember its difference from existed mesh for future undoing  <br /></td></tr>
-<tr class="separator:a5855938761939d901d654ba1dc505003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad914ee31862cd630b0890770d0191df2" id="r_ad914ee31862cd630b0890770d0191df2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad914ee31862cd630b0890770d0191df2">PartialChangeMeshAction</a> (std::string <a class="el" href="#ade6dceb9fa790192de46869cae89ab8f">name</a>, std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; obj, <a class="el" href="structMR_1_1CmpOld.html">CmpOld</a>, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh)</td></tr>
+<tr class="separator:ad914ee31862cd630b0890770d0191df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7f35076e8508987ce40affd1d98e1c" id="r_aed7f35076e8508987ce40affd1d98e1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed7f35076e8508987ce40affd1d98e1c">PartialChangeMeshAction</a> (std::string <a class="el" href="#ade6dceb9fa790192de46869cae89ab8f">name</a>, std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; obj, <a class="el" href="structMR_1_1SetNew.html">SetNew</a>, std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&amp;newMesh)</td></tr>
+<tr class="memdesc:aed7f35076e8508987ce40affd1d98e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to set new object's mesh and remember its difference from existed mesh for future undoing  <br /></td></tr>
+<tr class="separator:aed7f35076e8508987ce40affd1d98e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade6dceb9fa790192de46869cae89ab8f" id="r_ade6dceb9fa790192de46869cae89ab8f"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6dceb9fa790192de46869cae89ab8f">name</a> () const override</td></tr>
 <tr class="separator:ade6dceb9fa790192de46869cae89ab8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0f4b54184a26f86a0cc6d39d093506e" id="r_ac0f4b54184a26f86a0cc6d39d093506e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0f4b54184a26f86a0cc6d39d093506e">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -200,8 +202,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Undo action for efficiently storage of partial change in mesh (e.g. a modification of small region) </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5855938761939d901d654ba1dc505003" name="a5855938761939d901d654ba1dc505003"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5855938761939d901d654ba1dc505003">&#9670;&#160;</a></span>PartialChangeMeshAction()</h2>
+<a id="ad914ee31862cd630b0890770d0191df2" name="ad914ee31862cd630b0890770d0191df2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad914ee31862cd630b0890770d0191df2">&#9670;&#160;</a></span>PartialChangeMeshAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,7 +219,52 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1CmpOld.html">CmpOld</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oldMesh</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>use this constructor after the object already contains new mesh, and old mesh is passed to remember the difference for future undoing </p>
+
+</div>
+</div>
+<a id="aed7f35076e8508987ce40affd1d98e1c" name="aed7f35076e8508987ce40affd1d98e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed7f35076e8508987ce40affd1d98e1c">&#9670;&#160;</a></span>PartialChangeMeshAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PartialChangeMeshAction::PartialChangeMeshAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SetNew.html">SetNew</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -232,7 +279,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>use this constructor to set new object mesh and remember its difference from existed mesh for future undoing </p>
+<p>use this constructor to set new object's mesh and remember its difference from existed mesh for future undoing </p>
 
 </div>
 </div>

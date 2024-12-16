@@ -152,7 +152,8 @@ $(function(){initNavTree('group__HistoryGroup.html',''); initResizable(true); })
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">History group</div></div>
 </div><!--header-->
 <div class="contents">
@@ -235,8 +236,20 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CmpOld.html">MR::CmpOld</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">argument of this type indicates that the object is already in new state, and the following argument is old state  <a href="structMR_1_1CmpOld.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SetNew.html">MR::SetNew</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">argument of this type indicates that the object is in old state, and the following argument is new state to be set  <a href="structMR_1_1SetNew.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PartialChangeMeshAction.html">MR::PartialChangeMeshAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for efficiently storage of partial change in mesh (e.g. a modification of small region)  <a href="classMR_1_1PartialChangeMeshAction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PartialChangeMeshPointsAction.html">MR::PartialChangeMeshPointsAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for efficiently storage of partial change in mesh points (e.g. a modification of small region)  <a href="classMR_1_1PartialChangeMeshPointsAction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PartialChangeMeshTopologyAction.html">MR::PartialChangeMeshTopologyAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for efficiently storage of partial change in mesh topology (e.g. a modification of small region)  <a href="classMR_1_1PartialChangeMeshTopologyAction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryStore.html">MR::HistoryStore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class stores history stack for undo/redo.  <a href="classMR_1_1HistoryStore.html#details">More...</a><br /></td></tr>
@@ -293,6 +306,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga970e3207174343bffc6f631586e4f59d" id="r_ga970e3207174343bffc6f631586e4f59d"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga970e3207174343bffc6f631586e4f59d">MR::ChangVoxelSelectionAction::heapBytes</a> () const override</td></tr>
 <tr class="memdesc:ga970e3207174343bffc6f631586e4f59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:ga970e3207174343bffc6f631586e4f59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gad99fa852d419f9e626ea9fa47d4c7884" id="r_gad99fa852d419f9e626ea9fa47d4c7884"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1CmpOld.html">CmpOld</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad99fa852d419f9e626ea9fa47d4c7884">MR::cmpOld</a></td></tr>
+<tr class="separator:gad99fa852d419f9e626ea9fa47d4c7884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66d1f6caeb3fa983f8d823d501d10cc3" id="r_ga66d1f6caeb3fa983f8d823d501d10cc3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1SetNew.html">SetNew</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga66d1f6caeb3fa983f8d823d501d10cc3">MR::setNew</a></td></tr>
+<tr class="separator:ga66d1f6caeb3fa983f8d823d501d10cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -592,6 +612,51 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Use this constructor to remember viewport configuration before making changes in it. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="gad99fa852d419f9e626ea9fa47d4c7884" name="gad99fa852d419f9e626ea9fa47d4c7884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad99fa852d419f9e626ea9fa47d4c7884">&#9670;&#160;</a></span>cmpOld</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1CmpOld.html">CmpOld</a> MR::cmpOld</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga66d1f6caeb3fa983f8d823d501d10cc3" name="ga66d1f6caeb3fa983f8d823d501d10cc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga66d1f6caeb3fa983f8d823d501d10cc3">&#9670;&#160;</a></span>setNew</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1SetNew.html">SetNew</a> MR::setNew</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

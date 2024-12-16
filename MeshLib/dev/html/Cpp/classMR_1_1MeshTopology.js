@@ -135,5 +135,5 @@ var classMR_1_1MeshTopology =
     [ "vertResizeWithReserve", "classMR_1_1MeshTopology.html#aa220c6db1c92dea65d516671bfbbdd1f", null ],
     [ "vertSize", "classMR_1_1MeshTopology.html#a2b16ab4e052fe4ad4ff4a7dd1ac4c01f", null ],
     [ "write", "classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb", null ],
-    [ "MeshDiff", "classMR_1_1MeshTopology.html#a1c34e0c1ceeb2e372c4976e27f8cb211", null ]
+    [ "MeshTopologyDiff", "classMR_1_1MeshTopology.html#ac9dd8ac8bb48edc727dfda0f73d714da", null ]
 ];

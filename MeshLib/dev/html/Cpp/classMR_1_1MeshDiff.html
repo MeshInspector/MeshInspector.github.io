@@ -170,13 +170,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a65a9fe9422ed5dee5b092c31a59bd145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75b8d7d561c4183ee307a3c1f1d85ba1" id="r_a75b8d7d561c4183ee307a3c1f1d85ba1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b8d7d561c4183ee307a3c1f1d85ba1">any</a> () const</td></tr>
 <tr class="separator:a75b8d7d561c4183ee307a3c1f1d85ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d639ba9382dda478397ceafe65eeeb0" id="r_a9d639ba9382dda478397ceafe65eeeb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d639ba9382dda478397ceafe65eeeb0">heapBytes</a> () const</td></tr>
-<tr class="memdesc:a9d639ba9382dda478397ceafe65eeeb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
-<tr class="separator:a9d639ba9382dda478397ceafe65eeeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1a1ad047dc4eb7b120e4cc9ab2c915" id="r_afc1a1ad047dc4eb7b120e4cc9ab2c915"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc1a1ad047dc4eb7b120e4cc9ab2c915">heapBytes</a> () const</td></tr>
+<tr class="memdesc:afc1a1ad047dc4eb7b120e4cc9ab2c915"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
+<tr class="separator:afc1a1ad047dc4eb7b120e4cc9ab2c915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>this object stores a difference between two meshes: both in coordinates and in topology</p>
-<p>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be comparable to a mesh in size </p>
+<p>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be even larger than one mesh itself </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5864778df831e322d932e266452fe232" name="a5864778df831e322d932e266452fe232"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5864778df831e322d932e266452fe232">&#9670;&#160;</a></span>MeshDiff() <span class="overload">[1/2]</span></h2>
@@ -273,8 +273,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9d639ba9382dda478397ceafe65eeeb0" name="a9d639ba9382dda478397ceafe65eeeb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d639ba9382dda478397ceafe65eeeb0">&#9670;&#160;</a></span>heapBytes()</h2>
+<a id="afc1a1ad047dc4eb7b120e4cc9ab2c915" name="afc1a1ad047dc4eb7b120e4cc9ab2c915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1a1ad047dc4eb7b120e4cc9ab2c915">&#9670;&#160;</a></span>heapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -283,7 +283,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::MeshDiff::heapBytes </td>
+          <td class="memname">size_t MR::MeshDiff::heapBytes </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -291,7 +291,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

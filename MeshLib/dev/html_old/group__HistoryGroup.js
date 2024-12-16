@@ -250,11 +250,28 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1HistoryAction.html#ad6df54da6a63ed83f15053507e8569de", null ],
       [ "name", "classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce", null ]
     ] ],
+    [ "MR::CmpOld", "structMR_1_1CmpOld.html", null ],
+    [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", [
-      [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html#a5855938761939d901d654ba1dc505003", null ],
+      [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html#ad914ee31862cd630b0890770d0191df2", null ],
+      [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html#aed7f35076e8508987ce40affd1d98e1c", null ],
       [ "action", "classMR_1_1PartialChangeMeshAction.html#ac0f4b54184a26f86a0cc6d39d093506e", null ],
       [ "heapBytes", "classMR_1_1PartialChangeMeshAction.html#a677e3ef484c3decb94df9b1ce351cfdf", null ],
       [ "name", "classMR_1_1PartialChangeMeshAction.html#ade6dceb9fa790192de46869cae89ab8f", null ]
+    ] ],
+    [ "MR::PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html", [
+      [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#a0bc8a65756e998c00f846e7117d27884", null ],
+      [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#abc03fa024908d0b25fe39b99a886a7ee", null ],
+      [ "action", "classMR_1_1PartialChangeMeshPointsAction.html#aa9ae6ebb348f154542056d5d1aa82fdd", null ],
+      [ "heapBytes", "classMR_1_1PartialChangeMeshPointsAction.html#a04b08cc0eb6bacb70a04801d0a27111f", null ],
+      [ "name", "classMR_1_1PartialChangeMeshPointsAction.html#a084adee7a06ac5a670f2847f4a0c9d04", null ]
+    ] ],
+    [ "MR::PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html", [
+      [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a401938742b88492ed12d3e7509eed8bc", null ],
+      [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a106d313b24a6ed0b2cc1f7f65bdf2674", null ],
+      [ "action", "classMR_1_1PartialChangeMeshTopologyAction.html#abcd08e02fc94e72034e4e2bc1371262b", null ],
+      [ "heapBytes", "classMR_1_1PartialChangeMeshTopologyAction.html#a61706f60c84d69b27d3acf9fdc0673ef", null ],
+      [ "name", "classMR_1_1PartialChangeMeshTopologyAction.html#af60c80f62ba5789c89fc2657ce402ef0", null ]
     ] ],
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", [
       [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410", null ],
@@ -346,5 +363,7 @@ var group__HistoryGroup =
     [ "MR::ViewportParametersAction::name", "group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39", null ],
     [ "MR::ChangVoxelSelectionAction::selection", "group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2", null ],
     [ "MR::ChangVoxelSelectionAction::setObjectDirty", "group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e", null ],
-    [ "MR::ViewportParametersAction::ViewportParametersAction", "group__HistoryGroup.html#ga07eb725cd57069bb90b37cc3970a4c40", null ]
+    [ "MR::ViewportParametersAction::ViewportParametersAction", "group__HistoryGroup.html#ga07eb725cd57069bb90b37cc3970a4c40", null ],
+    [ "MR::cmpOld", "group__HistoryGroup.html#gad99fa852d419f9e626ea9fa47d4c7884", null ],
+    [ "MR::setNew", "group__HistoryGroup.html#ga66d1f6caeb3fa983f8d823d501d10cc3", null ]
 ];
