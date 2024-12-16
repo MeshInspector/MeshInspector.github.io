@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa44f709357c35177e30bf2f6b145ff88":[6,1,1,0,0,533,0,2,7],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acbc1541fc9c73bd6de471d57d70ddcd4":[6,1,0,0,1,533,0,2,6],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acbc1541fc9c73bd6de471d57d70ddcd4":[6,1,1,0,0,533,0,2,6],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#ada57dcf647fc1fcbe0f1cc84cea6cffe":[6,1,0,0,1,533,0,2,4],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#ada57dcf647fc1fcbe0f1cc84cea6cffe":[6,1,1,0,0,533,0,2,4],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aed42988f79f12d484e1540b1f8dbb45d":[6,1,0,0,1,533,0,2,2],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aed42988f79f12d484e1540b1f8dbb45d":[6,1,1,0,0,533,0,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#a4d497aedcda0f2e2012b831b7a340dfe":[6,1,1,0,0,552,0,8],
 "classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#a73c1f9486dd201441f4f5eadebedcef8":[6,1,0,0,1,552,0,0],
 "classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#a73c1f9486dd201441f4f5eadebedcef8":[6,1,1,0,0,552,0,0],
-"classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#a7ec480b216577f099f8e2e5f4ecd9424":[6,1,0,0,1,552,0,2],
-"classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#a7ec480b216577f099f8e2e5f4ecd9424":[6,1,1,0,0,552,0,2],
-"classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#aad4e3df0b4556cad26d94cd4e71f3b33":[6,1,0,0,1,552,0,3],
-"classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#aad4e3df0b4556cad26d94cd4e71f3b33":[6,1,1,0,0,552,0,3],
-"classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#ac0e35ea273d8f3cf2682d148132cbf29":[6,1,0,0,1,552,0,5]
+"classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html#a7ec480b216577f099f8e2e5f4ecd9424":[6,1,0,0,1,552,0,2]
 };

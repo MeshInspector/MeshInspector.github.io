@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,1,0,13,624,1],
+"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,2,0,1,608,1],
 "structMR_1_1SplineSettings.html":[6,0,1,0,13,626],
 "structMR_1_1SplineSettings.html":[6,0,2,0,1,610],
 "structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,1,0,13,626,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1ToolPathParams.html#aa71afd75559878444cd6f66becaed0c4":[6,0,2,0,1,635,8],
 "structMR_1_1ToolPathParams.html#ab01ce27f18a97921bbeb33127a0412a5":[6,0,1,0,13,651,6],
 "structMR_1_1ToolPathParams.html#ab01ce27f18a97921bbeb33127a0412a5":[6,0,2,0,1,635,6],
-"structMR_1_1ToolPathParams.html#abb16295f5fc43829c45884d061d45e62":[6,0,1,0,13,651,2],
-"structMR_1_1ToolPathParams.html#abb16295f5fc43829c45884d061d45e62":[6,0,2,0,1,635,2],
-"structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead":[6,0,1,0,13,651,4]
+"structMR_1_1ToolPathParams.html#abb16295f5fc43829c45884d061d45e62":[6,0,1,0,13,651,2]
 };

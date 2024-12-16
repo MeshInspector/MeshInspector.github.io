@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['obj_0',['obj',['../classmrmeshpy_1_1AABBTreeObjects.html#aeb662569a6795d0dbd9a701317a90fdc',1,'mrmeshpy::AABBTreeObjects']]],
+  ['obj_0',['obj',['../classmrmeshpy_1_1AABBTreeObjects.html#aeb662569a6795d0dbd9a701317a90fdc',1,'mrmeshpy.AABBTreeObjects.obj()'],['../classmrmeshpy_1_1ChangeMeshPointsAction.html#a4070e437b947a46256db046175a31a89',1,'mrmeshpy.ChangeMeshPointsAction.obj()']]],
   ['objecthasselectablechildren_1',['objectHasSelectableChildren',['../namespacemrmeshpy.html#a1081d1e3cd4fa89a5d816a8f9e28fdee',1,'mrmeshpy']]],
   ['objectsave_2',['objectSave',['../namespacemrmeshpy.html#ac3b2fb2795ef7397775fc0998c1d4215',1,'mrmeshpy']]],
   ['odd_3',['odd',['../classmrmeshpy_1_1Id__EdgeTag.html#aa93a73cf04977053d4791edc015d0555',1,'mrmeshpy::Id_EdgeTag']]],

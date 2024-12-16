@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8b":[6,0,1,0,1,957],
+"namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7":[6,0,1,0,1,957,1],
 "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f":[6,0,1,0,1,957,0],
 "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666":[6,0,1,0,1,957,2],
 "namespaceMR.html#af293d6c66d14a3940a1c5a5685a1b36f":[6,0,1,0,1,2353],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1PlanarTriangulation.html#aaae55b5f79adbd80cfe0f6f147069953":[6,0,1,0,1,24,10],
 "namespaceMR_1_1PlanarTriangulation.html#ad078fde77ddac53c2c051b56888617e1":[6,0,1,0,1,24,17],
 "namespaceMR_1_1PlanarTriangulation.html#adeb4ce509fc66338b9d870c64aefde19":[6,0,1,0,1,24,15],
-"namespaceMR_1_1PointCloudComponents.html":[6,0,1,0,1,25],
-"namespaceMR_1_1PointsLoad.html":[6,0,1,0,1,26],
-"namespaceMR_1_1PointsLoad.html#a017223f665d17204885688a9f3e0d66a":[6,0,1,0,1,26,12]
+"namespaceMR_1_1PointCloudComponents.html":[6,0,1,0,1,25]
 };

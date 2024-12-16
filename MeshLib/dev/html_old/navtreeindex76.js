@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,2,0,1,572,1],
+"structMR_1_1SegmEndColors.html":[6,0,1,0,13,589],
 "structMR_1_1SegmEndColors.html":[6,0,2,0,1,573],
 "structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[6,0,1,0,13,589,0],
 "structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[6,0,2,0,1,573,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1SphereParams.html":[6,0,1,0,13,624],
 "structMR_1_1SphereParams.html":[6,0,2,0,1,608],
 "structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,1,0,13,624,0],
-"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,2,0,1,608,0],
-"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,1,0,13,624,1],
-"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,2,0,1,608,1]
+"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,2,0,1,608,0]
 };

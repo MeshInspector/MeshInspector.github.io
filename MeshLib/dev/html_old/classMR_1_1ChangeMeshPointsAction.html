@@ -186,10 +186,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a085ebc78393d430d040423cca12c98f7" id="r_a085ebc78393d430d040423cca12c98f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085ebc78393d430d040423cca12c98f7">ChangeMeshPointsAction</a> (std::string <a class="el" href="#a5094eae088c0883a835d21da8c59f78c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj)</td></tr>
+<tr class="memitem:a085ebc78393d430d040423cca12c98f7" id="r_a085ebc78393d430d040423cca12c98f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085ebc78393d430d040423cca12c98f7">ChangeMeshPointsAction</a> (std::string <a class="el" href="#a5094eae088c0883a835d21da8c59f78c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a6cc086ef16a14228f6b699eebc1d100a">obj</a>)</td></tr>
 <tr class="memdesc:a085ebc78393d430d040423cca12c98f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's mesh points before making any changes in it  <br /></td></tr>
 <tr class="separator:a085ebc78393d430d040423cca12c98f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d01985472f7bf85151b606e14c271db" id="r_a4d01985472f7bf85151b606e14c271db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d01985472f7bf85151b606e14c271db">ChangeMeshPointsAction</a> (std::string <a class="el" href="#a5094eae088c0883a835d21da8c59f78c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj, VertCoords &amp;&amp;newCoords)</td></tr>
+<tr class="memitem:a4d01985472f7bf85151b606e14c271db" id="r_a4d01985472f7bf85151b606e14c271db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d01985472f7bf85151b606e14c271db">ChangeMeshPointsAction</a> (std::string <a class="el" href="#a5094eae088c0883a835d21da8c59f78c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a6cc086ef16a14228f6b699eebc1d100a">obj</a>, VertCoords &amp;&amp;newCoords)</td></tr>
 <tr class="memdesc:a4d01985472f7bf85151b606e14c271db"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's mesh points and immediate set new value  <br /></td></tr>
 <tr class="separator:a4d01985472f7bf85151b606e14c271db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5094eae088c0883a835d21da8c59f78c" id="r_a5094eae088c0883a835d21da8c59f78c"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5094eae088c0883a835d21da8c59f78c">name</a> () const override</td></tr>
@@ -200,13 +200,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7423777ecd9e793cc148677e49e5e4d" id="r_ad7423777ecd9e793cc148677e49e5e4d"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7423777ecd9e793cc148677e49e5e4d">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:ad7423777ecd9e793cc148677e49e5e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:ad7423777ecd9e793cc148677e49e5e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc086ef16a14228f6b699eebc1d100a" id="r_a6cc086ef16a14228f6b699eebc1d100a"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cc086ef16a14228f6b699eebc1d100a">obj</a> () const</td></tr>
+<tr class="separator:a6cc086ef16a14228f6b699eebc1d100a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0fcba3421611104d26ffe9026991dc6" id="r_ae0fcba3421611104d26ffe9026991dc6"><td class="memItemLeft" align="right" valign="top">const VertCoords &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0fcba3421611104d26ffe9026991dc6">clonePoints</a> () const</td></tr>
+<tr class="separator:ae0fcba3421611104d26ffe9026991dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1HistoryAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1HistoryAction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></td></tr>
 <tr class="memitem:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction" id="r_a97370459d3645a1169ed426ef4896e5c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryAction.html#a97370459d3645a1169ed426ef4896e5c">~HistoryAction</a> ()=default</td></tr>
 <tr class="separator:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a05b6c122b6ee410876d1d091524744c6" id="r_a05b6c122b6ee410876d1d091524744c6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b6c122b6ee410876d1d091524744c6">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj)</td></tr>
+<tr class="memitem:a05b6c122b6ee410876d1d091524744c6" id="r_a05b6c122b6ee410876d1d091524744c6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b6c122b6ee410876d1d091524744c6">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a6cc086ef16a14228f6b699eebc1d100a">obj</a>)</td></tr>
 <tr class="separator:a05b6c122b6ee410876d1d091524744c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -324,6 +328,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae0fcba3421611104d26ffe9026991dc6" name="ae0fcba3421611104d26ffe9026991dc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0fcba3421611104d26ffe9026991dc6">&#9670;&#160;</a></span>clonePoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertCoords &amp; MR::ChangeMeshPointsAction::clonePoints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad7423777ecd9e793cc148677e49e5e4d" name="ad7423777ecd9e793cc148677e49e5e4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7423777ecd9e793cc148677e49e5e4d">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -377,6 +406,31 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce">MR::HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="a6cc086ef16a14228f6b699eebc1d100a" name="a6cc086ef16a14228f6b699eebc1d100a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cc086ef16a14228f6b699eebc1d100a">&#9670;&#160;</a></span>obj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp; MR::ChangeMeshPointsAction::obj </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

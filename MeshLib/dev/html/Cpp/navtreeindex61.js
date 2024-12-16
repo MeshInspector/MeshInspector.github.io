@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1CloudPartMapping.html":[6,0,1,0,1,130],
+"structMR_1_1CloudPartMapping.html":[6,0,2,0,1,114],
 "structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,1,0,1,130,1],
 "structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,2,0,1,114,1],
 "structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,1,0,1,130,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a":[6,0,1,0,1,167,0],
 "structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a":[6,0,2,0,1,151,0],
 "structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[6,0,1,0,1,167,6],
-"structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[6,0,2,0,1,151,6],
-"structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505":[6,0,1,0,1,167,3],
-"structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505":[6,0,2,0,1,151,3]
+"structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[6,0,2,0,1,151,6]
 };

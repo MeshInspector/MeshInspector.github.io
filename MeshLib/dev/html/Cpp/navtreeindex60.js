@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1AncillaryPoints.html#aecec1c034a47b9b7d102ba9bf6366869":[6,0,1,0,1,58,9],
+"structMR_1_1AncillaryPoints.html#aecec1c034a47b9b7d102ba9bf6366869":[6,0,2,0,1,42,9],
 "structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15":[6,0,1,0,1,58,0],
 "structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15":[6,0,2,0,1,42,0],
 "structMR_1_1ArcInterpolationParams.html":[6,0,1,0,1,61],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,1,0,1,128,2],
 "structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,2,0,1,112,2],
 "structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,1,0,1,128,0],
-"structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,2,0,1,112,0],
-"structMR_1_1CloudPartMapping.html":[6,0,1,0,1,130],
-"structMR_1_1CloudPartMapping.html":[6,0,2,0,1,114]
+"structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,2,0,1,112,0]
 };

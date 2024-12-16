@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#a801078d61d667a4b1ee4f860510b5547":[6,1,1,0,0,499,39],
+"classmrmeshpy_1_1NodeBitSet.html#a847521295063d60ca2080946f59cb526":[6,1,0,0,1,499,31],
+"classmrmeshpy_1_1NodeBitSet.html#a847521295063d60ca2080946f59cb526":[6,1,1,0,0,499,31],
+"classmrmeshpy_1_1NodeBitSet.html#a8b77febe8cf5054605ae5446e3d17bf4":[6,1,0,0,1,499,17],
 "classmrmeshpy_1_1NodeBitSet.html#a8b77febe8cf5054605ae5446e3d17bf4":[6,1,1,0,0,499,17],
 "classmrmeshpy_1_1NodeBitSet.html#a97075d2c9be14ccdcbb538c5fdb60eaf":[6,1,0,0,1,499,16],
 "classmrmeshpy_1_1NodeBitSet.html#a97075d2c9be14ccdcbb538c5fdb60eaf":[6,1,1,0,0,499,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[6,1,1,0,0,537],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a6d97443d51ac31b0f67b45c25932e150":[6,1,0,0,1,537,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a6d97443d51ac31b0f67b45c25932e150":[6,1,1,0,0,537,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,1,537,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,1,537,2],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,0,537,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,0,537,2],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html":[6,1,0,0,1,538]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,1,537,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1DistanceMeasurementObject.html#ad0beb628b290bc6bb49cccb58a7c0a59":[6,0,2,0,1,164,19],
+"classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8":[6,0,1,0,1,180,25],
 "classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8":[6,0,2,0,1,164,25],
 "classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e":[6,0,1,0,1,180,8],
 "classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e":[6,0,2,0,1,164,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1FrameCounter.html":[6,0,1,0,1,233],
 "classMR_1_1FrameCounter.html":[6,0,2,0,1,217],
 "classMR_1_1FrameCounter.html#a25923dd70b8324ec74a8d347e1cd40d2":[6,0,1,0,1,233,4],
-"classMR_1_1FrameCounter.html#a25923dd70b8324ec74a8d347e1cd40d2":[6,0,2,0,1,217,4],
-"classMR_1_1FrameCounter.html#a6e8afcba61c4ec89dfe8c220c5bd44be":[6,0,1,0,1,233,0],
-"classMR_1_1FrameCounter.html#a6e8afcba61c4ec89dfe8c220c5bd44be":[6,0,2,0,1,217,0]
+"classMR_1_1FrameCounter.html#a25923dd70b8324ec74a8d347e1cd40d2":[6,0,2,0,1,217,4]
 };

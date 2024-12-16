@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1CoordinateConverters2.html":[6,0,2,0,1,135],
+"structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,1,0,13,151,0],
 "structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,2,0,1,135,0],
 "structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,1,0,13,151,1],
 "structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,2,0,1,135,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,2,0,1,169,1],
 "structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,1,0,13,185,5],
 "structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,2,0,1,169,5],
-"structMR_1_1DoubleOffsetSettings.html#a53b1276a0dd7d52159b86fe6633c89f4":[6,0,1,0,13,185,3],
-"structMR_1_1DoubleOffsetSettings.html#a53b1276a0dd7d52159b86fe6633c89f4":[6,0,2,0,1,169,3],
-"structMR_1_1DoubleOffsetSettings.html#a6efd8487cfb1467ad4247b7cea3fc74c":[6,0,1,0,13,185,7]
+"structMR_1_1DoubleOffsetSettings.html#a53b1276a0dd7d52159b86fe6633c89f4":[6,0,1,0,13,185,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,1,0,1,357,2],
+"structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,2,0,1,341,2],
 "structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,1,0,1,357,7],
 "structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,2,0,1,341,7],
 "structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,1,0,1,20,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[6,0,2,0,1,396,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,1,0,1,413],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,2,0,1,397],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,1,0,1,413,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,2,0,1,397,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,1,0,1,414]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,1,0,1,413,0]
 };
