@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['imgui_0',['ImGui',['../namespaceImGui.html',1,'']]]
+  ['globalregistration_0',['GlobalRegistration',['../namespaceGlobalRegistration.html',1,'']]]
 ];

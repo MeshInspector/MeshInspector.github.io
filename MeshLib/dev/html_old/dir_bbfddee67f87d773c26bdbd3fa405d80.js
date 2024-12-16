@@ -1,5 +1,6 @@
 var dir_bbfddee67f87d773c26bdbd3fa405d80 =
 [
+    [ "CudaOffset.dox.py", "CudaOffset_8dox_8py.html", null ],
     [ "FreeFormDeformation.dox.py", "FreeFormDeformation_8dox_8py.html", null ],
     [ "GlobalRegistration.dox.py", "GlobalRegistration_8dox_8py.html", null ],
     [ "LaplacianExample.dox.py", "LaplacianExample_8dox_8py.html", null ],

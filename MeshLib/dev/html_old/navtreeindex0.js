@@ -7,6 +7,7 @@ var NAVTREEINDEX0 =
 "Concat_8h.html#a4cb6de717e0b06df733796fec2da272a":[6,0,3,0,0,2,4,0,0,0],
 "Concat_8h.html#ac35e66533e158a4bf53982a2c109bd09":[6,0,3,0,0,2,4,0,0,1],
 "Concat_8h_source.html":[6,0,3,0,0,2,4,0,0],
+"CudaOffset_8dox_8py.html":[6,0,3,0,0,1,3,0],
 "DataModel.html":[5,0],
 "ExampleFreeForm.html":[4,0,13],
 "ExampleGlobalRegistration.html":[4,0,10],
@@ -33,10 +34,10 @@ var NAVTREEINDEX0 =
 "Examples.html#GeneralExamples":[4,0],
 "Examples.html#PythonSpecificExamples":[4,1],
 "FirstPluginTutorial.html":[3,0],
-"FreeFormDeformation_8dox_8py.html":[6,0,3,0,0,1,3,0],
+"FreeFormDeformation_8dox_8py.html":[6,0,3,0,0,1,3,1],
 "GlobalRegistration_8dox_8c.html":[6,0,3,0,0,1,0,0],
 "GlobalRegistration_8dox_8cs.html":[6,0,3,0,0,1,1,0],
-"GlobalRegistration_8dox_8py.html":[6,0,3,0,0,1,3,1],
+"GlobalRegistration_8dox_8py.html":[6,0,3,0,0,1,3,2],
 "ImGuiHelpers_8h.html":[6,0,3,0,0,2,9,1],
 "ImGuiHelpers_8h.html#a01e8908c9ff42e3510168251a97f1d48":[6,0,3,0,0,2,9,1,8],
 "ImGuiHelpers_8h.html#a023d8107acf5b52a1594c2b935b824f0":[6,0,3,0,0,2,9,1,10],
@@ -91,7 +92,7 @@ var NAVTREEINDEX0 =
 "ImGuiMenu_8h.html#a9cab0079b5bdf8b5ebb5ba774cd76b62":[6,0,3,0,0,2,9,2,5],
 "ImGuiMenu_8h_source.html":[6,0,3,0,0,2,9,2],
 "InstallationGuide.html":[1],
-"LaplacianExample_8dox_8py.html":[6,0,3,0,0,1,3,2],
+"LaplacianExample_8dox_8py.html":[6,0,3,0,0,1,3,3],
 "License.html":[2],
 "MR2DContoursTriangulation_8h.html":[6,0,3,0,0,2,3,1],
 "MR2DContoursTriangulation_8h.html#a0515df1bf2b2920651b9617e6b1493f9":[6,0,3,0,0,2,3,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRChangeColoringActions_8h.html":[6,0,3,0,0,2,3,33],
 "MRChangeColoringActions_8h_source.html":[6,0,3,0,0,2,3,33],
 "MRChangeColoringType_8h.html":[6,0,3,0,0,2,3,34],
-"MRChangeColoringType_8h_source.html":[6,0,3,0,0,2,3,34],
-"MRChangeLabelAction_8h.html":[6,0,3,0,0,2,7,1]
+"MRChangeColoringType_8h_source.html":[6,0,3,0,0,2,3,34]
 };

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['globalregistration_0',['GlobalRegistration',['../namespaceGlobalRegistration.html',1,'']]]
+  ['freeformdeformation_0',['FreeFormDeformation',['../namespaceFreeFormDeformation.html',1,'']]]
 ];

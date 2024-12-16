@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['laplacianexample_0',['LaplacianExample',['../namespaceLaplacianExample.html',1,'']]]
+  ['imgui_0',['ImGui',['../namespaceImGui.html',1,'']]]
 ];

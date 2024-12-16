@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRTorus_8h.html#aa43fcb51024712003fd0d5fff1df9301":[6,0,3,0,0,2,3,340,0],
 "MRMesh_2MRTorus_8h_source.html":[6,0,3,0,0,2,3,340],
 "MRMesh_2MRTriPoint_8h.html":[6,0,3,0,0,2,3,345],
 "MRMesh_2MRTriPoint_8h_source.html":[6,0,3,0,0,2,3,345],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "MRPointCloudDistance_8h.html#a4b3be7e24af3be5f3a2434ba61484cea":[6,0,3,0,0,2,3,250,1],
 "MRPointCloudDistance_8h.html#a87d9a122a4d532f826cc2faab23e27f6":[6,0,3,0,0,2,3,250,0],
 "MRPointCloudDistance_8h_source.html":[6,0,3,0,0,2,3,250],
-"MRPointCloudDivideWithPlane_8h.html":[6,0,3,0,0,2,3,251],
-"MRPointCloudDivideWithPlane_8h.html#a497ab535ca0038760b55492333965b79":[6,0,3,0,0,2,3,251,2]
+"MRPointCloudDivideWithPlane_8h.html":[6,0,3,0,0,2,3,251]
 };

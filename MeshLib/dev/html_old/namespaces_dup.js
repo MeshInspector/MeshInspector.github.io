@@ -1,5 +1,6 @@
 var namespaces_dup =
 [
+    [ "CudaOffset", "namespaceCudaOffset.html", null ],
     [ "FreeFormDeformation", "namespaceFreeFormDeformation.html", null ],
     [ "GlobalRegistration", "namespaceGlobalRegistration.html", null ],
     [ "ImGui", "namespaceImGui.html", "namespaceImGui" ],

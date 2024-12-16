@@ -206,9 +206,11 @@ Static Public Attributes</h2></td></tr>
 
   ProjectionNormal : the sign is determined based on pseudonormal in closest mesh point (unsafe in case of self-intersections)
 
-  WindingRule : ray intersection counter, significantly slower than ProjectionNormal and does not support holes in mesh
+  WindingRule : ray intersection counter, significantly slower than ProjectionNormal and does not support holes in mesh;
+this mode is slow, and it does NOT have CUDA acceleration at this moment
 
-  HoleWindingRule : computes winding number generalization with support of holes in mesh, slower than WindingRule
+  HoleWindingRule : computes robust winding number generalization with support of holes and self-intersections in mesh,
+it is the slowest sign detection mode, but it CAN be accelerated with CUDA if this mode activated e.g. in OffsetParameters.fwn
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa87f56ce6facb703e190f71c8adda329" name="aa87f56ce6facb703e190f71c8adda329"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa87f56ce6facb703e190f71c8adda329">&#9670;&#160;</a></span>__init__()</h2>
