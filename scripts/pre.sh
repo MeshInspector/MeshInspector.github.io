@@ -1,11 +1,12 @@
-#!/bin/sh
+#!/bin/bash
 set -eo pipefail
 
-# Use "MeshLib" as default if $1 is not provided
-TARGET_DIR="${1:-MeshLib}"
+if [ $# -lt 1 ]; then
+    echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
+fi
 
-# Remove the html directory within the target directory
-rm -rf "$TARGET_DIR/html"
+# Use "MeshLib" as default if $1 is not provided
+TARGET_DIR="${1:-MeshLib/local}"
 
 # generate customizable HTML parts
 doxygen -w html html_header.html html_footer.html html_stylesheet.css DoxyfileMain
@@ -31,11 +32,9 @@ sed -n -e "/<\/head>/,$ p" html_header.html >> html_header.html.tmp
 rm html_header.html
 mv html_header.html.tmp html_header.html
 
-sed \
-    -e "s/HTML_HEADER\s*=.*/HTML_HEADER = html_header.html/" \
-    -i.bak Doxyfile
-sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = $1|" -i Doxyfile
 
+
+#prepare URL for update links between site blocks
 URL=""
 if [ "$TARGET_DIR" == "MeshLib" ]; then
     URL="meshlib.io/$TARGET_DIR"
@@ -45,17 +44,17 @@ elif [ "$TARGET_DIR" == "MeshLib/local" ]; then
     URL="127.0.0.1:8000/$TARGET_DIR"
 fi
 
-
-mkdir -p ${TARGET_DIR}/html
-rm -rf ${TARGET_DIR}/html/*
-if [ -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
-    MODULES=(Py Cpp Main)
-    for MODULE in ${MODULES[*]}
-    do
-        ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE $URL
-        # force Doxygen to use the custom HTML header
-        sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
-        # force Doxygen to use the custom output directory
-        sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}|" -i Doxyfile${MODULE}
-    done
+if [ ! -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
+    echo "[ERROR] Can not found script to generate doxygen layout files"
+    exit 1
 fi
+
+MODULES=(Py Cpp Main)
+for MODULE in ${MODULES[*]}
+do
+    ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE $URL
+    # force Doxygen to use the custom HTML header
+    sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
+    # force Doxygen to use the custom output directory
+    sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}|" -i Doxyfile${MODULE}
+done
