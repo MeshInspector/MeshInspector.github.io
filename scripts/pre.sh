@@ -2,11 +2,11 @@
 set -eo pipefail
 
 if [ $# -lt 1 ]; then
-    echo "[INFO] Target directory is not specified. Used \"MeshLib\""
+    echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
 fi
 
 # Use "MeshLib" as default if $1 is not provided
-TARGET_DIR="${1:-MeshLib}"
+TARGET_DIR="${1:-MeshLib/local}"
 
 # generate customizable HTML parts
 doxygen -w html html_header.html html_footer.html html_stylesheet.css DoxyfileMain

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define default values if arguments are not provided
-TARGET_DIR="${1:-MeshLib}"
+TARGET_DIR="${1:-MeshLib/local}"
 URL_PREFIX="${2:-https://meshlib.io/documentation}"
 
 BASE_DIR=$(realpath $(dirname "$0"))

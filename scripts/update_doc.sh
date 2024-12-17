@@ -1,11 +1,11 @@
 #!/bin/bash
 
 if [ $# -lt 1 ]; then
-    echo "[INFO] Target directory is not specified. Used \"MeshLib\""
+    echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
 fi
 
 # Use "MeshLib/local" as default if $1 is not provided
-TARGET_DIR="${1:-MeshLib}"
+TARGET_DIR="${1:-MeshLib/local}"
 
 #preparing files
 bash ./scripts/pre.sh "$TARGET_DIR"
