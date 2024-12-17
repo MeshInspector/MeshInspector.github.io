@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f":[6,0,2,0,1,481,1],
+"structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,1,0,1,497,0],
 "structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,2,0,1,481,0],
 "structMR_1_1QuadraticForm.html":[6,0,0,0,19],
 "structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a":[6,0,0,0,19,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,1,527,6],
 "structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,1,0,1,543,0],
 "structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,2,0,1,527,0],
-"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,1,0,1,543,5],
-"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,2,0,1,527,5],
-"structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,1,0,1,543,7]
+"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,1,0,1,543,5]
 };

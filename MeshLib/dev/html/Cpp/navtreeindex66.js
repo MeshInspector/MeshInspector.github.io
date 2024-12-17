@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#afea42796d1fcb6ca7fe5c89f11710287":[6,0,1,0,1,12,1,4],
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#afea42796d1fcb6ca7fe5c89f11710287":[6,0,2,0,1,4,1,4],
 "structMR_1_1ImGuiMath_1_1CompareAll.html":[6,0,1,0,1,12,2],
 "structMR_1_1ImGuiMath_1_1CompareAll.html":[6,0,2,0,1,4,2],
 "structMR_1_1ImGuiMath_1_1CompareAny.html":[6,0,1,0,1,12,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1IteratorRange.html#a6dc3025499872ade8eaf5f1768b10aa3":[6,0,0,3,0,0,1],
 "structMR_1_1IteratorRange.html#ac08ae5922c624c9f08c65c8ecbb4bd61":[6,0,0,3,0,0,0],
 "structMR_1_1IteratorRange.html#af62765e0ec5f90f3aaafe5a6fd50938a":[6,0,0,3,0,0,2],
-"structMR_1_1KeyDownListener.html":[6,0,1,0,1,299],
-"structMR_1_1KeyDownListener.html":[6,0,2,0,1,283],
-"structMR_1_1KeyDownListener.html#a0034f6f91ff28edcc1b9e1ea43825698":[6,0,1,0,1,299,3]
+"structMR_1_1KeyDownListener.html":[6,0,1,0,1,299]
 };

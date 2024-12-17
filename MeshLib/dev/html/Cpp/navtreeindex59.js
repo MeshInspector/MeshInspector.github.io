@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMRMeshAddPartByMaskParameters.html#abd652b5aec7c21efa6b40cc1e4d72be9":[6,0,2,0,29,3],
+"structMRMeshAddPartByMaskParameters.html#ac49ea6f7631c4b8b6d59a3232b6787a2":[6,0,2,0,29,0],
 "structMRMeshComponentsMap.html":[6,0,2,0,30],
 "structMRMeshComponentsMap.html#a0c429d62c5f1e1b3d2b3a7c7e5bc4bb6":[6,0,2,0,30,1],
 "structMRMeshComponentsMap.html#a3467e2d4e586656d221e09cd01416c20":[6,0,2,0,30,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1AncillaryMesh.html#a6b419d58ac8ef363f12d96be28c48637":[6,0,2,0,1,41,0],
 "structMR_1_1AncillaryMesh.html#a777bcc1bb0ce9a0d628c6c36b727b767":[6,0,1,0,1,57,3],
 "structMR_1_1AncillaryMesh.html#a777bcc1bb0ce9a0d628c6c36b727b767":[6,0,2,0,1,41,3],
-"structMR_1_1AncillaryMesh.html#a8a528306a33323e01e042183dae875de":[6,0,1,0,1,57,2],
-"structMR_1_1AncillaryMesh.html#a8a528306a33323e01e042183dae875de":[6,0,2,0,1,41,2],
-"structMR_1_1AncillaryMesh.html#a8e86848c6392c4026a75838c5fd12d44":[6,0,1,0,1,57,1]
+"structMR_1_1AncillaryMesh.html#a8a528306a33323e01e042183dae875de":[6,0,1,0,1,57,2]
 };
