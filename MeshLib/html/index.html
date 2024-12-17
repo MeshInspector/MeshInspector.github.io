@@ -7,7 +7,7 @@
   !function () {
     var currentHost = window.location.hostname;
     var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
       var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
@@ -44,6 +44,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -180,7 +187,7 @@ Modern Applications</h2>
 <ul>
 <li><b>Automation</b>, <b>AI</b>, <b>and</b> <b>Robotics</b>. Essential for 3D scanning in robotics, AI, and autonomous systems, MeshLib enables real-time mesh processing for environment mapping, object detection, and path planning. Mesh repair tools prepare models by fixing holes and intersections, ideal for automated systems handling large datasets.</li>
 <li><b>Manufacturing</b> <b>and</b> <b>3D</b> <b>Printing</b>. MeshLib's Boolean operations and mesh offsetting ensure accuracy and manufacturability for 3D prints, optimizing models with decimation for industrial-scale applications.</li>
-<li><b>CAD</b>, <b>Dental</b>, <b>and</b> <b>Design</b>. MeshLib's precision tools support CAD and dental applications, providing mesh repair, offsetting, and thickening for accurate, manufacturable designs.</li>
+<li><b>Dental</b> <b>Applications</b>. MeshLib provides specialized tools for dental workflows, offering precise mesh repair and customization for dental prosthetics, aligners, and implants. These capabilities ensure accurate, patient-specific designs ready for manufacturing.</li>
 <li><b>Game</b> <b>Development</b> <b>and</b> <b>VR</b>. Optimized for real-time rendering, MeshLib's simplification tools maintain visual quality, and Boolean operations allow dynamic model manipulation.</li>
 <li><b>Scientific</b> <b>Visualization</b> <b>and</b> <b>Medical</b> <b>Imaging</b>. MeshLib supports large datasets, crucial for scientific and medical visualization, with mesh repair and simplification for detailed, real-time models in fields like geophysics and medical planning.</li>
 </ul>

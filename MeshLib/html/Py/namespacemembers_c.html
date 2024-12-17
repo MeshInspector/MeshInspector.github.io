@@ -1,0 +1,273 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/namespacemembers_c.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: Modules Members</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('namespacemembers_c.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="contents">
+<div class="textblock">Here is a list of all namespace members with links to the namespace documentation for each member:</div>
+
+<h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
+<li>calcAvgColors()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa77579e34cf2b4a1224e2f5efd0b757b">mrmeshpy</a></li>
+<li>calcCombinedFillMetric()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#adde407d1c58d203cc3040a3a5c5cccaa">mrmeshpy</a></li>
+<li>calcDamerauLevenshteinDistance()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a500e2881aa29b97e4d17003f7b611d3c">mrmeshpy</a></li>
+<li>calcDipoles()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8832ffbd480bedfb02b1439697cb9c9a">mrmeshpy</a></li>
+<li>calcFaceDistances()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#abf38f8a25e4dafba73f3a79b8041c747">mrmeshpy</a></li>
+<li>calcFastWindingNumber()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a9fac6a35dced0c93aa5313b8284c1c3f">mrmeshpy</a></li>
+<li>calcLength()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3522272b7815dd672fa58210815b4e14">mrmeshpy</a></li>
+<li>calcOrientedArea()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a5f6eff16685f5503dc77637b111b45aa">mrmeshpy</a></li>
+<li>calcOriginAndDimensions()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a0d8776aa669136a1c0f23c90043731e3">mrmeshpy</a></li>
+<li>calcPathLength()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#af36f792410e37d781366efa7f10d5371">mrmeshpy</a></li>
+<li>calcPathMetric()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae271d480982cb3a1fa0aea2475401b32">mrmeshpy</a></li>
+<li>canMinimizePolynomial()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a362cc3e9f026fb0f4a986b215d5b7197">mrmeshpy</a></li>
+<li>canSolvePolynomial()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a255b18d7e4fcbb8bc774dec9c05e05e5">mrmeshpy</a></li>
+<li>ccw()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ab194ad4b07ea3b744928fd1c478288a8">mrmeshpy</a></li>
+<li>checkDeloneQuadrangle()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8a17b41e59a404516d9a6e09a32a7294">mrmeshpy</a></li>
+<li>checkDeloneQuadrangleInMesh()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ab9318732c6777c38faf4a0255215f6fe">mrmeshpy</a></li>
+<li>classifyShellVert()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a2914aebcbde3914054c5b25d3ed314ae">mrmeshpy</a></li>
+<li>clearScene()&#160;:&#160;<a class="el" href="namespacemrviewerpy.html#a4e3940e810d3ed1f816f07f901b20b4e">mrviewerpy</a></li>
+<li>cloneRegion()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a27922d0e318bff356c04f28ebf635e8b">mrmeshpy</a></li>
+<li>ColorMapAggregator_FaceTag&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a274ac801357efd270484b2ce35cea720">mrmeshpy</a></li>
+<li>ColorMapAggregator_FaceTag_ColorMap&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a487009cf4874c74321b7547af9a7a6ae">mrmeshpy</a></li>
+<li>ColorMapAggregator_FaceTag_ElementBitSet&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a5dfa9752a8be8bd7aa0638eae332dc7c">mrmeshpy</a></li>
+<li>ColorMapAggregator_UndirectedEdgeTag&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae887e31c197468c21ff278e5c70ceb5f">mrmeshpy</a></li>
+<li>ColorMapAggregator_UndirectedEdgeTag_ColorMap&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a834d9fbcf440686a130d6059907487b0">mrmeshpy</a></li>
+<li>ColorMapAggregator_UndirectedEdgeTag_ElementBitSet&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a505436a83e329d6d2e2bdf1fb959a6fa">mrmeshpy</a></li>
+<li>ColorMapAggregator_VertTag&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a98923238647ee7fce704a286f07a8c79">mrmeshpy</a></li>
+<li>ColorMapAggregator_VertTag_ColorMap&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa6e4c808b973de36e78fbaaa169afceb">mrmeshpy</a></li>
+<li>ColorMapAggregator_VertTag_ElementBitSet&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8d4bc14d01ac1a38833441887cbe62ee">mrmeshpy</a></li>
+<li>combineXYderivativeMaps()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a52ac8fa7ccde5d18a88961797b770764">mrmeshpy</a></li>
+<li>commonFilesName()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ab4cbce8f356dd6cd4117357b3d2607a7">mrmeshpy</a></li>
+<li>compressZip()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a20e88e42ee62347aaaea92795fbeee30">mrmeshpy</a></li>
+<li>computeBasinVolume()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a08410dae7c5141d10dad2b05851db2e9">mrmeshpy</a></li>
+<li>computeClosestSurfacePathTargets()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a607fec3f5c3ef57cc3ee82a922eb720e">mrmeshpy</a></li>
+<li>computeDistanceMap()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa9f84c698e076e778ad1334e689a5f61">mrmeshpy</a></li>
+<li>computeDistanceMapD()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ada3cc6dea05d044d1b47aa352ef2c46a">mrmeshpy</a></li>
+<li>computeFastMarchingPath()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae1e01c430e944aeb4ddba7138e717229">mrmeshpy</a></li>
+<li>computeFormAtVertex()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a5f9cd61de2520dfcbb73275e995b2971">mrmeshpy</a></li>
+<li>computeFormsAtVertices()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a10d6c8a78e835a94fd6ad1062142f7f8">mrmeshpy</a></li>
+<li>computeGeodesicPath()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ad94f634b90545055e826375b4c96d96c">mrmeshpy</a></li>
+<li>computeGeodesicPathApprox()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a2e1dea111f129f228d6ea97a0584b811">mrmeshpy</a></li>
+<li>computeInSphereThicknessAtVertices()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#afbb988a45bdd55ad2930ba331eec0dc9">mrmeshpy</a></li>
+<li>computeMeshNormals()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4812bf44fca343257dc9f61c8b836a3f">mrmeshpy</a></li>
+<li>computeNormal()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a29df40111499fa3fe140ddb48f877135">mrmeshpy</a></li>
+<li>computePerCornerNormals()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a30dd0128ffb1ebfaacd92dafd3bdd2e7">mrmeshpy</a></li>
+<li>computePerFaceNormals()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8e0839b4d6eade46722d5097cd141c79">mrmeshpy</a></li>
+<li>computePerFaceNormals4()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ab545ce7332fb5a30ecf17d8894305c47">mrmeshpy</a></li>
+<li>computePerVertNormals()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a9d717a5697003187515475d7d437559d">mrmeshpy</a></li>
+<li>computePerVertPseudoNormals()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3a1a035b571c35a4ee9ed87bdec465a7">mrmeshpy</a></li>
+<li>computeRayThicknessAtVertices()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ac7e6c569a84d78aeffd189c6621f7bc1">mrmeshpy</a></li>
+<li>computeSkyViewFactor()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae0263a334416625ebbbc3c1673a7678b">mrmeshpy</a></li>
+<li>computeSpaceDistances()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aaaa8b1d3451f252ebccfdd4eb6cec592">mrmeshpy</a></li>
+<li>computeSteepestDescentPath()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3819917869cf1f115404146974165408">mrmeshpy</a></li>
+<li>computeSurfaceDistances()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4c4764ec1439d396910cac75d680d23b">mrmeshpy</a></li>
+<li>computeSurfacePath()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae8f29873b46c688ece2fedc7e2c4ca6e">mrmeshpy</a></li>
+<li>computeThicknessAtVertices()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#adde8448b7f0f221a71ad2b964b2875d3">mrmeshpy</a></li>
+<li>computeTrianglesRepetitions()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a59b7e3015694d2880a16849637aaa3ad">mrmeshpy</a></li>
+<li>Cone3_double&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a6e11424a473979f81115799c7a4b46b7">mrmeshpy</a></li>
+<li>Cone3_float&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4003a95e9dc028e2cb27c2d8c280ac87">mrmeshpy</a></li>
+<li>constantCuspToolPath()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae98178bae9367dd077261179486cc3af">mrmeshpy</a></li>
+<li>constantZToolPath()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a1c2e88e662799a7da442be342ad77ee1">mrmeshpy</a></li>
+<li>contains()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa3dd9fe6a253b90dd9e838b84dcab577">mrmeshpy</a></li>
+<li>ContinuousContour&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a21db0d36822ee5c69cb30d4f579a4d8b">mrmeshpy</a></li>
+<li>ContinuousContours&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aef84571b14646c8c08182054538e0929">mrmeshpy</a></li>
+<li>Contour2_double&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a2edfb04a03243c9caaa4c866172ab027">mrmeshpy</a></li>
+<li>Contour2_float&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#af35d9a066a6bb5011afa298a5d2e1c9a">mrmeshpy</a></li>
+<li>Contour2d&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ab6e74b730edf359d765e6cdd3fb3c9fa">mrmeshpy</a></li>
+<li>Contour2f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a5a76de8c6d2b190be50b9805cd039752">mrmeshpy</a></li>
+<li>Contour3_double&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aefdf05eb473d4e2d0c0d54ebfa57a495">mrmeshpy</a></li>
+<li>Contour3_float&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#af3b7c3d1503c193817f9decda54dc3fc">mrmeshpy</a></li>
+<li>Contour3d&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa4bbd3b189c8192f1e979cae93c2106b">mrmeshpy</a></li>
+<li>Contour3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a518a606de3a3f4f80e0ec69b5602b661">mrmeshpy</a></li>
+<li>Contour_Vector2d&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae637b47f348c7d1b28ea20e88901bb45">mrmeshpy</a></li>
+<li>Contour_Vector2f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a29310fd70907e8e4f86884a5d7fdf2cd">mrmeshpy</a></li>
+<li>Contour_Vector3d&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3c3abcc6d34064238427d9f1398572b0">mrmeshpy</a></li>
+<li>Contour_Vector3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a5fb08d6cd2a0106b5cace63650208e41">mrmeshpy</a></li>
+<li>contourIntersection()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a9568db6d118c62870c55f711b0b6cb43">mrmeshpy</a></li>
+<li>Contours2_double&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ac0ea2970890514fe4fe8d39a28d981ff">mrmeshpy</a></li>
+<li>Contours2_float&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a7ccbddc31f32837e0bce40a1e5ab22cb">mrmeshpy</a></li>
+<li>Contours2d&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a97d8f68682102f8dd1e327509795cd67">mrmeshpy</a></li>
+<li>Contours2f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a345f1304f7d263b6cdb2f7ea30b99b72">mrmeshpy</a></li>
+<li>Contours3_double&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a6768eff732ebc37251bdc5a209f4921f">mrmeshpy</a></li>
+<li>Contours3_float&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae360f338a161f02a357689bbdf01c874">mrmeshpy</a></li>
+<li>Contours3d&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8b681415dcb4c1ec0a043d875a3a6377">mrmeshpy</a></li>
+<li>Contours3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a244b94f1cbef9badbe2ead6a3bbcd740">mrmeshpy</a></li>
+<li>Contours_Vector2f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a84dabdebddcef25e3cac1d8e580bfed8">mrmeshpy</a></li>
+<li>Contours_Vector3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3f41cc1980b282a6c6b6d6d6add3bca3">mrmeshpy</a></li>
+<li>contourSubtract()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a07075b204a1465b7268f436a599a6cd5">mrmeshpy</a></li>
+<li>contourUnion()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aba2f376887176e7156632cbea505f867">mrmeshpy</a></li>
+<li>convertDistanceMapToImage()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa187bccd71fcd04f97a2a31517b0ae09">mrmeshpy</a></li>
+<li>convertImageToDistanceMap()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa6bf003cdcf1d86aa7885371f07f0976">mrmeshpy</a></li>
+<li>convertMeshTriPointsIsoLineToMeshContour()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4ab3a4e02652402936db08a4b22fced5">mrmeshpy</a></li>
+<li>convertMeshTriPointsToClosedContour()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a80b9aec8a6851006b73fc8b56a6fdd78">mrmeshpy</a></li>
+<li>convertMeshTriPointsToMeshContour()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#abf0b89895baaa5f2a0065f517d37219f">mrmeshpy</a></li>
+<li>convertSurfacePathsToMeshContours()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a18c7d60cc7cd2186556bc477acd1c5cb">mrmeshpy</a></li>
+<li>convertSurfacePathWithEndsToMeshContour()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a6f8179b98a59fa7c1be9c7c3bf87033b">mrmeshpy</a></li>
+<li>copyContour()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae6092648fb36d4c92def41abdff0fe73">mrmeshpy</a></li>
+<li>copyMesh&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8e026193a82cb44332b09df092ec1d0f">mrmeshpy</a></li>
+<li>createObject()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a533ea0d62aff7f185581716e87b09834">mrmeshpy</a></li>
+<li>createRootFormObject()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4c8d6bf72633cba0968337a40ce2d625">mrmeshpy</a></li>
+<li>createSymbolContours()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4cfe54a73ae590409155da98c4cbba46">mrmeshpy</a></li>
+<li>createSymbolsMesh()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ad59b2a98d03fe6c2c4b7adbd6900aeee">mrmeshpy</a></li>
+<li>cropped()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a154a94e01b4c0d61a0b3b199f12d5b58">mrmeshpy</a></li>
+<li>cross()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3bc8e18b4351ace3c52236505ac556cd">mrmeshpy</a></li>
+<li>cutAlongEdgeLoop()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a335d39bee58418fcd2782a4055ee58ff">mrmeshpy</a></li>
+<li>cutMesh()&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#acc6545ddfc7135f00f617489e9d045c4">mrmeshpy</a></li>
+<li>Cylinder3_double&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a81c23cb6adcbbf9b3dcff62e4b371318">mrmeshpy</a></li>
+<li>Cylinder3_float&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ab5dea33f5393eb9bc748b3433efc8c97">mrmeshpy</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

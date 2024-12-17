@@ -7,7 +7,7 @@
   !function () {
     var currentHost = window.location.hostname;
     var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
       var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
@@ -44,6 +44,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -147,7 +154,7 @@ $(function(){initNavTree('InstallationGuide.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>MeshLib is a powerful, open-source 3D geometry library designed for developers across multiple platforms and programming languages. Whether you're working in C++, Python, or C#, MeshLib offers robust tools for creating, manipulating, and analyzing 3D data, e.g. meshes, voxels, point clouds. This guide will help you get started with setting up MeshLib for your preferred development environment.</p>
-<h2><a class="anchor" id="autotoc_md35"></a>
+<h2><a class="anchor" id="autotoc_md41"></a>
 Choose Your Setup Guide</h2>
 <ol type="1">
 <li><a class="el" href="MeshLibPythonSetupGuide.html"><b>MeshLib</b> <b>Python</b> <b>Setup</b> <b>Guide</b> </a><br  />
@@ -156,6 +163,8 @@ Choose Your Setup Guide</h2>
  Learn how to install and configure MeshLib for C++ development on Windows, Linux, and macOS. This guide covers prerequisites, dependency management, and building the library from source.</li>
 <li><a class="el" href="MeshLibCSharpSetupGuide.html"><b>MeshLib</b> <b>C#</b> <b>Setup</b> <b>Guide</b> </a><br  />
  This guide provides instructions for integrating MeshLib into C# projects using NuGet or manual distribution. It covers installation on Windows, macOS, and Linux, with detailed steps for Visual Studio users.</li>
+<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>MeshLib</b> <b>CMake</b> <b>Setup</b> <b>Guide</b> </a><br  />
+ Simple way of integrating MeshLib to your project via CMake. Useful for linux and macOS users.</li>
 </ol>
 <p>Each of these setup guides is tailored to help you quickly and efficiently integrate MeshLib into your development environment. Choose the guide that matches your preferred language and platform, and start building sophisticated 3D applications with MeshLib. </p>
 </div></div><!-- contents -->

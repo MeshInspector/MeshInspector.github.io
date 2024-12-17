@@ -7,7 +7,7 @@
   !function () {
     var currentHost = window.location.hostname;
     var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
       var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
@@ -44,6 +44,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -162,7 +169,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">ancV1 = mesh.topology.getValidVerts().find_last()</div>
 <div class="line"><span class="comment"># Mark anchor points in free area</span></div>
 <div class="line">freeVerts = mm.VertBitSet()</div>
-<div class="line">freeVerts.resize(mesh.topology.getValidVerts().size())</div>
+<div class="line">freeVerts.resize(mesh.topology.getValidVerts().<a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>())</div>
 <div class="line">freeVerts.set( ancV0, <span class="keyword">True</span> )</div>
 <div class="line">freeVerts.set( ancV1, <span class="keyword">True</span> )</div>
 <div class="line"><span class="comment"># Expand free area</span></div>
@@ -184,6 +191,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save deformed mesh</span></div>
 <div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>)</div>
+<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

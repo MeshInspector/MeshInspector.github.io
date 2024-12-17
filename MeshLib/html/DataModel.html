@@ -7,7 +7,7 @@
   !function () {
     var currentHost = window.location.hostname;
     var currentPath = window.location.pathname;
-    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/html')) {
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
       var newPath = currentPath.replace('/MeshLib/html', '/documentation');
       var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
       window.location.replace(newURL);
@@ -44,6 +44,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
@@ -146,16 +153,16 @@ $(function(){initNavTree('DataModel.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Data Model Class Hierarchy</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>All data in MeshLib are stored in objects. Each object can have it own type derived from <a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a>: </p><pre class="fragment">           Object (Simple object can be selected or hidden)
+<div class="textblock"><p>All data in MeshLib are stored in objects. Each object can have it own type derived from <a class="elRef" href="./Cpp/classMR_1_1Object.html">Object</a>: </p><pre class="fragment">           Object (Simple object can be selected or hidden)
              |
         VisualObject (Object with common visualize properties, which are used in ObjectMesh and ObjectPoints)
          /        \
   ObjectMesh     ObjectPoints
       /
 JawScan, Tooth, ...
-</pre> <h2><a class="anchor" id="autotoc_md31"></a>
+</pre> <h2><a class="anchor" id="autotoc_md37"></a>
 Scene</h2>
-<p>Scene in MeshLib consists of a tree of object with one root, and all others objects are children or some grandchildren of scene root. Each object has its own name (e.g. Upper Jaw), transform, visibility, selected and ancillary flags. Ancillary objects are not shown in <a class="el" href="namespaceMR_1_1UI.html">UI</a> list but rendered in 3D and cannot be selected. For example, a scene can look like: </p><pre class="fragment">                Root
+<p>Scene in MeshLib consists of a tree of object with one root, and all others objects are children or some grandchildren of scene root. Each object has its own name (e.g. Upper Jaw), transform, visibility, selected and ancillary flags. Ancillary objects are not shown in <a class="elRef" href="./Cpp/namespaceMR_1_1UI.html">UI</a> list but rendered in 3D and cannot be selected. For example, a scene can look like: </p><pre class="fragment">                Root
                  |
                 Case
                  |
@@ -165,7 +172,7 @@ Scene</h2>
         /      \
     Jaw Scan   Tooth UL1 ...
 </pre><p> Objects inherit parameters from scene parent, for example transform and visibility. So all children are hidden if their parent is hidden irrespective of their own visibility field. And each object transform is the transform from local object space into parent's space. So if parent is moved, all objects are moved with it.</p>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md38"></a>
 Serialization</h2>
 <p>To serialize object tree one needs to call </p><div class="fragment"><div class="line"><span class="comment">// saves object subtree in given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
@@ -173,44 +180,44 @@ Serialization</h2>
 <div class="line"><span class="comment">//  all objects parameters are saved in one JSON file in the root folder</span></div>
 <div class="line"><span class="comment">//  </span></div>
 <div class="line"><span class="comment">// saving is controlled with Object::serializeModel_ and Object::serializeFields_</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;void, std::string&gt; <a class="code hl_function" href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, </div>
-<div class="line">    <span class="keyword">const</span> std::filesystem::path&amp; path, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress = {} );</div>
-<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:576</div></div>
-<div class="ttc" id="anamespaceMR_html_aa5186cb23f32bc2d4c503ccec9da5319"><div class="ttname"><a href="namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">MR::serializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; serializeObjectTree(const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress, FolderCallback preCompress)</div><div class="ttdoc">saves object subtree in given scene file (zip/mru)</div></div>
+<div class="line"><a class="code hl_defineRef" href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;void, std::string&gt; <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, </div>
+<div class="line">    <span class="keyword">const</span> std::filesystem::path&amp; path, <a class="code hl_typedefRef" href="./Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress = {} );</div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="./Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div></div>
+<div class="ttc" id="anamespaceMR_html_aa5186cb23f32bc2d4c503ccec9da5319"><div class="ttname"><a href="./Cpp/namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319">MR::serializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; serializeObjectTree(const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress, FolderCallback preCompress)</div></div>
 </div><!-- fragment --><p>And to deserialize object tree: </p><div class="fragment"><div class="line"><span class="comment">// loads objects tree from given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
 <div class="line"><span class="comment">//  children are saved under folder with name of their parent object</span></div>
 <div class="line"><span class="comment">//  all objects parameters are saved in one JSON file in the root folder</span></div>
 <div class="line"><span class="comment">//  </span></div>
 <div class="line"><span class="comment">// loading is controlled with Object::deserializeModel_ and Object::deserializeFields_</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;Object, std::string&gt; <a class="code hl_function" href="namespaceMR.html#a4043b5c1dadd14c81e7aa228d8dcdb62">deserializeObjectTree</a>(<span class="keyword">const</span> std::filesystem::path&amp; path);</div>
-<div class="ttc" id="anamespaceMR_html_a4043b5c1dadd14c81e7aa228d8dcdb62"><div class="ttname"><a href="namespaceMR.html#a4043b5c1dadd14c81e7aa228d8dcdb62">MR::deserializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; std::shared_ptr&lt; Object &gt; &gt; deserializeObjectTree(const std::filesystem::path &amp;path, FolderCallback postDecompress={}, ProgressCallback progressCb={})</div><div class="ttdoc">loads objects tree from given scene file (zip/mru)</div></div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md33"></a>
+<div class="line"><a class="code hl_defineRef" href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;Object, std::string&gt; <a class="code hl_functionRef" href="./Cpp/group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d">deserializeObjectTree</a>(<span class="keyword">const</span> std::filesystem::path&amp; path);</div>
+<div class="ttc" id="agroup__DataModelGroup_html_ga5058cc4a63ce3a27970db1903d9c221d"><div class="ttname"><a href="./Cpp/group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d">MR::deserializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; LoadedObject &gt; deserializeObjectTree(const std::filesystem::path &amp;path, const FolderCallback &amp;postDecompress={}, const ProgressCallback &amp;progressCb={})</div></div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md39"></a>
 Inheritance</h2>
 <p>To create your own object type you need to make class derived from one of base class:</p><ol type="1">
-<li>If you need object with mesh and some extra methods and fields you should derive from <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a></li>
-<li>If you need object with voxels and some extra methods and fields you should derive from <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a></li>
-<li>If you need object that has no visual representation you should derive from <a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a></li>
-<li>If you need object that has visual representation different from mesh or voxels you should derive from <a class="el" href="classMR_1_1VisualObject.html" title="Visual Object.">VisualObject</a> but a support in <a class="el" href="classMR_1_1Viewer.html">Viewer</a> of this new type might not be present yet.</li>
+<li>If you need object with mesh and some extra methods and fields you should derive from <a class="elRef" href="./Cpp/classMR_1_1ObjectMesh.html">ObjectMesh</a></li>
+<li>If you need object with voxels and some extra methods and fields you should derive from <a class="elRef" href="./Cpp/classMR_1_1ObjectVoxels.html">ObjectVoxels</a></li>
+<li>If you need object that has no visual representation you should derive from <a class="elRef" href="./Cpp/classMR_1_1Object.html">Object</a></li>
+<li>If you need object that has visual representation different from mesh or voxels you should derive from <a class="elRef" href="./Cpp/classMR_1_1VisualObject.html">VisualObject</a> but a support in <a class="elRef" href="./Cpp/classMR_1_1Viewer.html">Viewer</a> of this new type might not be present yet.</li>
 </ol>
 <p>To be able to use serialization and deserialization you have to do:</p><ol type="1">
-<li>Register new data model unit in class factory by adding <div class="fragment"><div class="line"><a class="code hl_define" href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a>( MyCustomObject );</div>
-<div class="ttc" id="aMRObjectFactory_8h_html_a24de4e89ad2309dac978ce2ca22604e0"><div class="ttname"><a href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a></div><div class="ttdeci">#define MR_ADD_CLASS_FACTORY(className)</div><div class="ttdoc">use this macro to register a class in the factory before calling createObject</div><div class="ttdef"><b>Definition</b> MRObjectFactory.h:18</div></div>
+<li>Register new data model unit in class factory by adding <div class="fragment"><div class="line"><a class="code hl_defineRef" href="./Cpp/MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a>( MyCustomObject );</div>
+<div class="ttc" id="aMRObjectFactory_8h_html_a24de4e89ad2309dac978ce2ca22604e0"><div class="ttname"><a href="./Cpp/MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a></div><div class="ttdeci">#define MR_ADD_CLASS_FACTORY(className)</div></div>
 </div><!-- fragment --></li>
 <li>Override following functions <div class="fragment"><div class="line"><span class="comment">// Creates future to save object model (e.g. mesh) in given file</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> tl::expected&lt;std::future&lt;void&gt;, std::string&gt; serializeModel_( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const</span>;</div>
+<div class="line"><a class="code hl_defineRef" href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> tl::expected&lt;std::future&lt;void&gt;, std::string&gt; serializeModel_( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const</span>;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Write parameters to given Json::Value,</span></div>
 <div class="line"><span class="comment">// if you override this method, please call Base::serializeFields_(root) in the beginning</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> serializeFields_( Json::Value&amp; root ) <span class="keyword">const</span>;</div>
+<div class="line"><a class="code hl_defineRef" href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> serializeFields_( Json::Value&amp; root ) <span class="keyword">const</span>;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Reads model from file</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> tl::expected&lt;void, std::string&gt; deserializeModel_( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a class="code hl_defineRef" href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> tl::expected&lt;void, std::string&gt; deserializeModel_( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Reads parameters from json value</span></div>
 <div class="line"><span class="comment">// if you override this method, please call Base::deserializeFields_(root) in the beginning</span></div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> deserializeFields_( <span class="keyword">const</span> Json::Value&amp; root );</div>
+<div class="line"><a class="code hl_defineRef" href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> deserializeFields_( <span class="keyword">const</span> Json::Value&amp; root );</div>
 </div><!-- fragment --> </li>
 </ol>
 </div></div><!-- contents -->
