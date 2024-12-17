@@ -30,19 +30,12 @@ done
 rm -rf ${TARGET_DIR}/html/*
 
 #final generation of documentation
-TAG_PATHS=(./Py ./Cpp ../)
-for MODULE in ${MODULES[*]}
-do
-    STR=""
-    for (( i=0; i < 3; i++ ))
-    do
-        if [ ! "${MODULES[$i]}" = "$MODULE" ]; then
-            STR="$STR MeshLib/MeshLib${MODULES[$i]}.tag=${TAG_PATHS[$i]}"
-        fi
-    done
-    sed -e "s|TAGFILES\s*=.*|TAGFILES = ${STR}|" -i Doxyfile${MODULE}
-    doxygen ./Doxyfile${MODULE} 1 >> log.txt
-done
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp|" -i DoxyfilePy
+doxygen ./DoxyfilePy 1 >> log.txt
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibPy.tag=../Py|" -i DoxyfileCpp
+doxygen ./DoxyfileCpp 1 >> log.txt
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibPy.tag=./Py MeshLib/MeshLibCpp.tag=./Cpp|" -i DoxyfileMain
+doxygen ./DoxyfileMain 1 >> log.txt
 
 ./scripts/restore_files.sh
 ./scripts/post.sh "$TARGET_DIR"
