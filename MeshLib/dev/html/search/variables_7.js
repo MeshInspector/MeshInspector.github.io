@@ -21,7 +21,7 @@ var searchData=
   ['greater_18',['Greater',['.././Py/classmrmeshpy_1_1DepthFunction.html#a74544b8a0235a69847a6ecb5824c8f85',1,'mrmeshpy::DepthFunction']]],
   ['greaterorequal_19',['GreaterOrEqual',['.././Py/classmrmeshpy_1_1DepthFunction.html#afc0c8b8c58f50c7d3b1928bc3caa7542',1,'mrmeshpy::DepthFunction']]],
   ['gridlevelset_20',['gridLevelSet',['.././Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7',1,'MR::VoxelsLoad::RawParameters']]],
-  ['gridtype_21',['gridType',['.././Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293',1,'MR::VoxelsLoad::LoadingTiffSettings::gridType'],['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a15937352e6af60d2ffc2754b01417912',1,'mrmeshpy::VoxelsLoad::LoadingTiffSettings::gridType']]],
+  ['gridtype_21',['gridType',['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a15937352e6af60d2ffc2754b01417912',1,'mrmeshpy::VoxelsLoad::LoadingTiffSettings::gridType'],['.././Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293',1,'MR::VoxelsLoad::LoadingTiffSettings::gridType']]],
   ['group_22',['group',['.././Py/classmrviewerpy_1_1UiEntryType.html#a7609c19acbf5748d4553cc86661611f0',1,'mrviewerpy::UiEntryType']]],
   ['groupsmap_23',['groupsMap',['.././Cpp/structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10',1,'MR::RibbonSchema']]],
   ['guicontext_5f_24',['guiContext_',['.././Cpp/classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],

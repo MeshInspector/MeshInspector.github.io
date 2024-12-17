@@ -6,7 +6,7 @@ var searchData=
   ['quad_3',['Quad',['.././Cpp/classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26',1,'MR::ImGuiMenu']]],
   ['quadrangleotherdiagonal_4',['quadrangleOtherDiagonal',['.././Cpp/namespaceMR.html#a5297fdab91151bf439ef0099926fc204',1,'MR']]],
   ['quadraticform_5',['QuadraticForm',['.././Cpp/structMR_1_1QuadraticForm.html',1,'MR']]],
-  ['quadraticform_6',['quadraticForm',['.././Cpp/structMR_1_1Mesh.html#aa0cb7cda413178e311cd23632d44a07f',1,'MR::Mesh::quadraticForm()'],['.././Py/classmrmeshpy_1_1Mesh.html#aaaf21d7b7dfd731e6d412f59392491bf',1,'mrmeshpy::Mesh::quadraticForm()']]],
+  ['quadraticform_6',['quadraticForm',['.././Py/classmrmeshpy_1_1Mesh.html#aaaf21d7b7dfd731e6d412f59392491bf',1,'mrmeshpy::Mesh::quadraticForm()'],['.././Cpp/structMR_1_1Mesh.html#aa0cb7cda413178e311cd23632d44a07f',1,'MR::Mesh::quadraticForm()']]],
   ['quadraticform2d_7',['QuadraticForm2d',['.././Py/classmrmeshpy_1_1QuadraticForm2d.html',1,'mrmeshpy']]],
   ['quadraticform2f_8',['QuadraticForm2f',['.././Py/classmrmeshpy_1_1QuadraticForm2f.html',1,'mrmeshpy']]],
   ['quadraticform3_9',['QuadraticForm3',['.././Cpp/namespaceMR.html#a61604865725cf558b532b5e235334f3f',1,'MR']]],
