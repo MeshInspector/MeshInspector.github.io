@@ -65,9 +65,9 @@ var menudata={children:[
 {text:"API",url:"^https://meshinspector.github.io/MeshLib/dev/html/APIPage.html",children:[
 {text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/html/Cpp/APICppPage.html"},
 {text:"Python",url:"APIPyPage.html",children:[
-{text:"__NAMESPACES_TITLE__",url:"namespaces.html",children:[
-{text:"__NAMESPACES_LIST_TITLE__",url:"namespaces.html"},
-{text:"__NAMESPACES_MEMBERS_TITLE__",url:"namespacemembers.html",children:[
+{text:"Modules",url:"namespaces.html",children:[
+{text:"Modules List",url:"namespaces.html"},
+{text:"Modules Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
 {text:"a",url:"namespacemembers.html#index_a"},
 {text:"b",url:"namespacemembers_b.html#index_b"},

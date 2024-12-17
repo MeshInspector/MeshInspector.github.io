@@ -72,9 +72,9 @@ var NAVTREE =
     [ "API", "^https://meshinspector.github.io/MeshLib/dev/html/APIPage.html", [
       [ "C++", "APICppPage.html", [
         [ "Topics", "topics.html", "topics" ],
-        [ "__NAMESPACES_TITLE__", "namespaces.html", [
-          [ "__NAMESPACES_LIST_TITLE__", "namespaces.html", "namespaces_dup" ],
-          [ "__NAMESPACES_MEMBERS_TITLE__", "namespacemembers.html", [
+        [ "Namespace List", "namespaces.html", [
+          [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+          [ "Namespace Members", "namespacemembers.html", [
             [ "All", "namespacemembers.html", "namespacemembers_dup" ],
             [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
             [ "Variables", "namespacemembers_vars.html", null ],
