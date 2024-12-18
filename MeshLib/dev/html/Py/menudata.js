@@ -24,46 +24,46 @@
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
-{text:"About",url:"^https:///html/index.html"},
-{text:"Getting Started",url:"^https:///html/InstallationGuide.html",children:[
-{text:"Python",url:"^https:///html/MeshLibPythonSetupGuide.html"},
-{text:"C++",url:"^https:///html/MeshLibCppSetupGuide.html"},
-{text:"C#",url:"^https:///html/MeshLibCSharpSetupGuide.html"},
-{text:"CMake",url:"^https:///html/MeshLibCmakeSetupGuide.html"}]},
-{text:"License",url:"^https:///html/License.html"},
-{text:"Tutorials",url:"^https:///html/Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"^https:///html/FirstPluginTutorial.html"}]},
-{text:"Examples",url:"^https:///html/Examples.html",children:[
-{text:"General Samples",url:"^https:///html/GeneralExamples.html",children:[
-{text:"Application Based on MeshLib",url:"^https:///html/BasedApplication.html"},
-{text:"Mesh Load and Save",url:"^https:///html/ExampleMeshLoadSave.html"},
-{text:"Export Raw Triangles",url:"^https:///html/ExampleMeshExport.html"},
-{text:"Mesh Modification",url:"^https:///html/ExampleMeshModification.html"},
-{text:"Mesh Boolean",url:"^https:///html/ExampleMeshBoolean.html"},
-{text:"Mesh Decimate",url:"^https:///html/ExampleMeshDecimate.html"},
-{text:"Mesh Offset",url:"^https:///html/ExampleMeshOffset.html"},
-{text:"Mesh Fill Hole",url:"^https:///html/ExampleMeshFillHole.html"},
-{text:"Mesh Stitch Holes",url:"^https:///html/ExampleMeshStitchHole.html"},
-{text:"Mesh Resolve Degenerations",url:"^https:///html/ExampleMeshResolveDegenerations.html"},
-{text:"Global Registration",url:"^https:///html/ExampleGlobalRegistration.html"},
-{text:"Mesh ICP",url:"^https:///html/ExampleMeshICP.html"},
-{text:"Mesh Extrude",url:"^https:///html/ExampleMeshExtrude.html"},
-{text:"Mesh Free Form Deformation",url:"^https:///html/ExampleFreeForm.html"},
-{text:"Mesh Laplacian Deformation",url:"^https:///html/ExampleLaplacian.html"},
-{text:"Mesh Denoise",url:"^https:///html/ExampleNoiseDenoise.html"},
-{text:"Triangulation",url:"^https:///html/ExampleTriangulation.html"},
-{text:"Text to Mesh",url:"^https:///html/ExampleMeshFromText.html"}]},
-{text:"Python Specific Samples",url:"^https:///html/PythonSpecificExamples.html",children:[
-{text:"Viewer",url:"^https:///html/ExampleViewer.html"},
-{text:"Plotly Visualization",url:"^https:///html/ExamplePlotly.html"},
-{text:"Using Numpy",url:"^https:///html/ExampleNumpy.html"},
-{text:"Numpy Triangulation",url:"^https:///html/ExampleNumpyTriangulation.html"}]}]},
-{text:"Package Overview",url:"^https:///html/PackageOverview.html",children:[
-{text:"Data Model Class Hierarchy",url:"^https:///html/DataModel.html"},
-{text:"Spaces and Transformations",url:"^https:///html/SpacesHelp.html"},
-{text:"State Plugins Overview",url:"^https:///html/StatePluginsHelp.html"}]},
-{text:"API",url:"^https:///html/APIPage.html",children:[
-{text:"C++",url:"^https:///html/Cpp/APICppPage.html"},
+{text:"About",url:"../index.html"},
+{text:"Getting Started",url:"../InstallationGuide.html",children:[
+{text:"Python",url:"../MeshLibPythonSetupGuide.html"},
+{text:"C++",url:"../MeshLibCppSetupGuide.html"},
+{text:"C#",url:"../MeshLibCSharpSetupGuide.html"},
+{text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
+{text:"License",url:"../License.html"},
+{text:"Tutorials",url:"../Tutorials.html",children:[
+{text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"}]},
+{text:"Examples",url:"../Examples.html",children:[
+{text:"General Samples",url:"../GeneralExamples.html",children:[
+{text:"Application Based on MeshLib",url:"../BasedApplication.html"},
+{text:"Mesh Load and Save",url:"../ExampleMeshLoadSave.html"},
+{text:"Export Raw Triangles",url:"../ExampleMeshExport.html"},
+{text:"Mesh Modification",url:"../ExampleMeshModification.html"},
+{text:"Mesh Boolean",url:"../ExampleMeshBoolean.html"},
+{text:"Mesh Decimate",url:"../ExampleMeshDecimate.html"},
+{text:"Mesh Offset",url:"../ExampleMeshOffset.html"},
+{text:"Mesh Fill Hole",url:"../ExampleMeshFillHole.html"},
+{text:"Mesh Stitch Holes",url:"../ExampleMeshStitchHole.html"},
+{text:"Mesh Resolve Degenerations",url:"../ExampleMeshResolveDegenerations.html"},
+{text:"Global Registration",url:"../ExampleGlobalRegistration.html"},
+{text:"Mesh ICP",url:"../ExampleMeshICP.html"},
+{text:"Mesh Extrude",url:"../ExampleMeshExtrude.html"},
+{text:"Mesh Free Form Deformation",url:"../ExampleFreeForm.html"},
+{text:"Mesh Laplacian Deformation",url:"../ExampleLaplacian.html"},
+{text:"Mesh Denoise",url:"../ExampleNoiseDenoise.html"},
+{text:"Triangulation",url:"../ExampleTriangulation.html"},
+{text:"Text to Mesh",url:"../ExampleMeshFromText.html"}]},
+{text:"Python Specific Samples",url:"../PythonSpecificExamples.html",children:[
+{text:"Viewer",url:"../ExampleViewer.html"},
+{text:"Plotly Visualization",url:"../ExamplePlotly.html"},
+{text:"Using Numpy",url:"../ExampleNumpy.html"},
+{text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"}]}]},
+{text:"Package Overview",url:"../PackageOverview.html",children:[
+{text:"Data Model Class Hierarchy",url:"../DataModel.html"},
+{text:"Spaces and Transformations",url:"../SpacesHelp.html"},
+{text:"State Plugins Overview",url:"../StatePluginsHelp.html"}]},
+{text:"API",url:"../APIPage.html",children:[
+{text:"C++",url:"../Cpp/APICppPage.html"},
 {text:"Python",url:"APIPyPage.html",children:[
 {text:"Modules",url:"namespaces.html",children:[
 {text:"Modules List",url:"namespaces.html"},
@@ -221,4 +221,4 @@ var menudata={children:[
 {text:"z",url:"functions_vars_z.html#index_z"}]}]}]},
 {text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"}]}]}]},
-{text:"Thirdparty List",url:"^https:///html/ThirdParty.html"}]}
+{text:"Thirdparty List",url:"../ThirdParty.html"}]}
