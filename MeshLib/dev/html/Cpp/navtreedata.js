@@ -25,51 +25,51 @@
 var NAVTREE =
 [
   [ "MeshLib C++ Docs", "index.html", [
-    [ "About", "^https://meshinspector.github.io/MeshLib/dev/html/index.html", null ],
-    [ "Getting Started", "^https://meshinspector.github.io/MeshLib/dev/html/InstallationGuide.html", [
-      [ "Python", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibPythonSetupGuide.html", null ],
-      [ "C++", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCppSetupGuide.html", null ],
-      [ "C#", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCSharpSetupGuide.html", null ],
-      [ "CMake", "^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCmakeSetupGuide.html", null ]
+    [ "About", "^https:///html/index.html", null ],
+    [ "Getting Started", "^https:///html/InstallationGuide.html", [
+      [ "Python", "^https:///html/MeshLibPythonSetupGuide.html", null ],
+      [ "C++", "^https:///html/MeshLibCppSetupGuide.html", null ],
+      [ "C#", "^https:///html/MeshLibCSharpSetupGuide.html", null ],
+      [ "CMake", "^https:///html/MeshLibCmakeSetupGuide.html", null ]
     ] ],
-    [ "License", "^https://meshinspector.github.io/MeshLib/dev/html/License.html", null ],
-    [ "Tutorials", "^https://meshinspector.github.io/MeshLib/dev/html/Tutorials.html", [
-      [ "Create First Plugin using C++", "^https://meshinspector.github.io/MeshLib/dev/html/FirstPluginTutorial.html", null ]
+    [ "License", "^https:///html/License.html", null ],
+    [ "Tutorials", "^https:///html/Tutorials.html", [
+      [ "Create First Plugin using C++", "^https:///html/FirstPluginTutorial.html", null ]
     ] ],
-    [ "Examples", "^https://meshinspector.github.io/MeshLib/dev/html/Examples.html", [
-      [ "General Samples", "^https://meshinspector.github.io/MeshLib/dev/html/GeneralExamples.html", [
-        [ "Application Based on MeshLib", "^https://meshinspector.github.io/MeshLib/dev/html/BasedApplication.html", null ],
-        [ "Mesh Load and Save", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshLoadSave.html", null ],
-        [ "Export Raw Triangles", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshExport.html", null ],
-        [ "Mesh Modification", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshModification.html", null ],
-        [ "Mesh Boolean", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshBoolean.html", null ],
-        [ "Mesh Decimate", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshDecimate.html", null ],
-        [ "Mesh Offset", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshOffset.html", null ],
-        [ "Mesh Fill Hole", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshFillHole.html", null ],
-        [ "Mesh Stitch Holes", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshStitchHole.html", null ],
-        [ "Mesh Resolve Degenerations", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshResolveDegenerations.html", null ],
-        [ "Global Registration", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleGlobalRegistration.html", null ],
-        [ "Mesh ICP", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshICP.html", null ],
-        [ "Mesh Extrude", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshExtrude.html", null ],
-        [ "Mesh Free Form Deformation", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleFreeForm.html", null ],
-        [ "Mesh Laplacian Deformation", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleLaplacian.html", null ],
-        [ "Mesh Denoise", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleNoiseDenoise.html", null ],
-        [ "Triangulation", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleTriangulation.html", null ],
-        [ "Text to Mesh", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshFromText.html", null ]
+    [ "Examples", "^https:///html/Examples.html", [
+      [ "General Samples", "^https:///html/GeneralExamples.html", [
+        [ "Application Based on MeshLib", "^https:///html/BasedApplication.html", null ],
+        [ "Mesh Load and Save", "^https:///html/ExampleMeshLoadSave.html", null ],
+        [ "Export Raw Triangles", "^https:///html/ExampleMeshExport.html", null ],
+        [ "Mesh Modification", "^https:///html/ExampleMeshModification.html", null ],
+        [ "Mesh Boolean", "^https:///html/ExampleMeshBoolean.html", null ],
+        [ "Mesh Decimate", "^https:///html/ExampleMeshDecimate.html", null ],
+        [ "Mesh Offset", "^https:///html/ExampleMeshOffset.html", null ],
+        [ "Mesh Fill Hole", "^https:///html/ExampleMeshFillHole.html", null ],
+        [ "Mesh Stitch Holes", "^https:///html/ExampleMeshStitchHole.html", null ],
+        [ "Mesh Resolve Degenerations", "^https:///html/ExampleMeshResolveDegenerations.html", null ],
+        [ "Global Registration", "^https:///html/ExampleGlobalRegistration.html", null ],
+        [ "Mesh ICP", "^https:///html/ExampleMeshICP.html", null ],
+        [ "Mesh Extrude", "^https:///html/ExampleMeshExtrude.html", null ],
+        [ "Mesh Free Form Deformation", "^https:///html/ExampleFreeForm.html", null ],
+        [ "Mesh Laplacian Deformation", "^https:///html/ExampleLaplacian.html", null ],
+        [ "Mesh Denoise", "^https:///html/ExampleNoiseDenoise.html", null ],
+        [ "Triangulation", "^https:///html/ExampleTriangulation.html", null ],
+        [ "Text to Mesh", "^https:///html/ExampleMeshFromText.html", null ]
       ] ],
-      [ "Python Specific Samples", "^https://meshinspector.github.io/MeshLib/dev/html/PythonSpecificExamples.html", [
-        [ "Viewer", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleViewer.html", null ],
-        [ "Plotly Visualization", "^https://meshinspector.github.io/MeshLib/dev/html/ExamplePlotly.html", null ],
-        [ "Using Numpy", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleNumpy.html", null ],
-        [ "Numpy Triangulation", "^https://meshinspector.github.io/MeshLib/dev/html/ExampleNumpyTriangulation.html", null ]
+      [ "Python Specific Samples", "^https:///html/PythonSpecificExamples.html", [
+        [ "Viewer", "^https:///html/ExampleViewer.html", null ],
+        [ "Plotly Visualization", "^https:///html/ExamplePlotly.html", null ],
+        [ "Using Numpy", "^https:///html/ExampleNumpy.html", null ],
+        [ "Numpy Triangulation", "^https:///html/ExampleNumpyTriangulation.html", null ]
       ] ]
     ] ],
-    [ "Package Overview", "^https://meshinspector.github.io/MeshLib/dev/html/PackageOverview.html", [
-      [ "Data Model Class Hierarchy", "^https://meshinspector.github.io/MeshLib/dev/html/DataModel.html", null ],
-      [ "Spaces and Transformations", "^https://meshinspector.github.io/MeshLib/dev/html/SpacesHelp.html", null ],
-      [ "State Plugins Overview", "^https://meshinspector.github.io/MeshLib/dev/html/StatePluginsHelp.html", null ]
+    [ "Package Overview", "^https:///html/PackageOverview.html", [
+      [ "Data Model Class Hierarchy", "^https:///html/DataModel.html", null ],
+      [ "Spaces and Transformations", "^https:///html/SpacesHelp.html", null ],
+      [ "State Plugins Overview", "^https:///html/StatePluginsHelp.html", null ]
     ] ],
-    [ "API", "^https://meshinspector.github.io/MeshLib/dev/html/APIPage.html", [
+    [ "API", "^https:///html/APIPage.html", [
       [ "C++", "APICppPage.html", [
         [ "Topics", "topics.html", "topics" ],
         [ "Namespace List", "namespaces.html", [
@@ -110,9 +110,9 @@ var NAVTREE =
           ] ]
         ] ]
       ] ],
-      [ "Python", "^https://meshinspector.github.io/MeshLib/dev/html/Py/APIPyPage.html", null ]
+      [ "Python", "^https:///html/Py/APIPyPage.html", null ]
     ] ],
-    [ "Thirdparty List", "^https://meshinspector.github.io/MeshLib/dev/html/ThirdParty.html", null ]
+    [ "Thirdparty List", "^https:///html/ThirdParty.html", null ]
   ] ]
 ];
 

@@ -24,46 +24,46 @@
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
-{text:"About",url:"^https://meshinspector.github.io/MeshLib/dev/html/index.html"},
-{text:"Getting Started",url:"^https://meshinspector.github.io/MeshLib/dev/html/InstallationGuide.html",children:[
-{text:"Python",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibPythonSetupGuide.html"},
-{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCppSetupGuide.html"},
-{text:"C#",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCSharpSetupGuide.html"},
-{text:"CMake",url:"^https://meshinspector.github.io/MeshLib/dev/html/MeshLibCmakeSetupGuide.html"}]},
-{text:"License",url:"^https://meshinspector.github.io/MeshLib/dev/html/License.html"},
-{text:"Tutorials",url:"^https://meshinspector.github.io/MeshLib/dev/html/Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"^https://meshinspector.github.io/MeshLib/dev/html/FirstPluginTutorial.html"}]},
-{text:"Examples",url:"^https://meshinspector.github.io/MeshLib/dev/html/Examples.html",children:[
-{text:"General Samples",url:"^https://meshinspector.github.io/MeshLib/dev/html/GeneralExamples.html",children:[
-{text:"Application Based on MeshLib",url:"^https://meshinspector.github.io/MeshLib/dev/html/BasedApplication.html"},
-{text:"Mesh Load and Save",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshLoadSave.html"},
-{text:"Export Raw Triangles",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshExport.html"},
-{text:"Mesh Modification",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshModification.html"},
-{text:"Mesh Boolean",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshBoolean.html"},
-{text:"Mesh Decimate",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshDecimate.html"},
-{text:"Mesh Offset",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshOffset.html"},
-{text:"Mesh Fill Hole",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshFillHole.html"},
-{text:"Mesh Stitch Holes",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshStitchHole.html"},
-{text:"Mesh Resolve Degenerations",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshResolveDegenerations.html"},
-{text:"Global Registration",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleGlobalRegistration.html"},
-{text:"Mesh ICP",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshICP.html"},
-{text:"Mesh Extrude",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshExtrude.html"},
-{text:"Mesh Free Form Deformation",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleFreeForm.html"},
-{text:"Mesh Laplacian Deformation",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleLaplacian.html"},
-{text:"Mesh Denoise",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleNoiseDenoise.html"},
-{text:"Triangulation",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleTriangulation.html"},
-{text:"Text to Mesh",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleMeshFromText.html"}]},
-{text:"Python Specific Samples",url:"^https://meshinspector.github.io/MeshLib/dev/html/PythonSpecificExamples.html",children:[
-{text:"Viewer",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleViewer.html"},
-{text:"Plotly Visualization",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExamplePlotly.html"},
-{text:"Using Numpy",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleNumpy.html"},
-{text:"Numpy Triangulation",url:"^https://meshinspector.github.io/MeshLib/dev/html/ExampleNumpyTriangulation.html"}]}]},
-{text:"Package Overview",url:"^https://meshinspector.github.io/MeshLib/dev/html/PackageOverview.html",children:[
-{text:"Data Model Class Hierarchy",url:"^https://meshinspector.github.io/MeshLib/dev/html/DataModel.html"},
-{text:"Spaces and Transformations",url:"^https://meshinspector.github.io/MeshLib/dev/html/SpacesHelp.html"},
-{text:"State Plugins Overview",url:"^https://meshinspector.github.io/MeshLib/dev/html/StatePluginsHelp.html"}]},
-{text:"API",url:"^https://meshinspector.github.io/MeshLib/dev/html/APIPage.html",children:[
-{text:"C++",url:"^https://meshinspector.github.io/MeshLib/dev/html/Cpp/APICppPage.html"},
+{text:"About",url:"^https:///html/index.html"},
+{text:"Getting Started",url:"^https:///html/InstallationGuide.html",children:[
+{text:"Python",url:"^https:///html/MeshLibPythonSetupGuide.html"},
+{text:"C++",url:"^https:///html/MeshLibCppSetupGuide.html"},
+{text:"C#",url:"^https:///html/MeshLibCSharpSetupGuide.html"},
+{text:"CMake",url:"^https:///html/MeshLibCmakeSetupGuide.html"}]},
+{text:"License",url:"^https:///html/License.html"},
+{text:"Tutorials",url:"^https:///html/Tutorials.html",children:[
+{text:"Create First Plugin using C++",url:"^https:///html/FirstPluginTutorial.html"}]},
+{text:"Examples",url:"^https:///html/Examples.html",children:[
+{text:"General Samples",url:"^https:///html/GeneralExamples.html",children:[
+{text:"Application Based on MeshLib",url:"^https:///html/BasedApplication.html"},
+{text:"Mesh Load and Save",url:"^https:///html/ExampleMeshLoadSave.html"},
+{text:"Export Raw Triangles",url:"^https:///html/ExampleMeshExport.html"},
+{text:"Mesh Modification",url:"^https:///html/ExampleMeshModification.html"},
+{text:"Mesh Boolean",url:"^https:///html/ExampleMeshBoolean.html"},
+{text:"Mesh Decimate",url:"^https:///html/ExampleMeshDecimate.html"},
+{text:"Mesh Offset",url:"^https:///html/ExampleMeshOffset.html"},
+{text:"Mesh Fill Hole",url:"^https:///html/ExampleMeshFillHole.html"},
+{text:"Mesh Stitch Holes",url:"^https:///html/ExampleMeshStitchHole.html"},
+{text:"Mesh Resolve Degenerations",url:"^https:///html/ExampleMeshResolveDegenerations.html"},
+{text:"Global Registration",url:"^https:///html/ExampleGlobalRegistration.html"},
+{text:"Mesh ICP",url:"^https:///html/ExampleMeshICP.html"},
+{text:"Mesh Extrude",url:"^https:///html/ExampleMeshExtrude.html"},
+{text:"Mesh Free Form Deformation",url:"^https:///html/ExampleFreeForm.html"},
+{text:"Mesh Laplacian Deformation",url:"^https:///html/ExampleLaplacian.html"},
+{text:"Mesh Denoise",url:"^https:///html/ExampleNoiseDenoise.html"},
+{text:"Triangulation",url:"^https:///html/ExampleTriangulation.html"},
+{text:"Text to Mesh",url:"^https:///html/ExampleMeshFromText.html"}]},
+{text:"Python Specific Samples",url:"^https:///html/PythonSpecificExamples.html",children:[
+{text:"Viewer",url:"^https:///html/ExampleViewer.html"},
+{text:"Plotly Visualization",url:"^https:///html/ExamplePlotly.html"},
+{text:"Using Numpy",url:"^https:///html/ExampleNumpy.html"},
+{text:"Numpy Triangulation",url:"^https:///html/ExampleNumpyTriangulation.html"}]}]},
+{text:"Package Overview",url:"^https:///html/PackageOverview.html",children:[
+{text:"Data Model Class Hierarchy",url:"^https:///html/DataModel.html"},
+{text:"Spaces and Transformations",url:"^https:///html/SpacesHelp.html"},
+{text:"State Plugins Overview",url:"^https:///html/StatePluginsHelp.html"}]},
+{text:"API",url:"^https:///html/APIPage.html",children:[
+{text:"C++",url:"^https:///html/Cpp/APICppPage.html"},
 {text:"Python",url:"APIPyPage.html",children:[
 {text:"Modules",url:"namespaces.html",children:[
 {text:"Modules List",url:"namespaces.html"},
@@ -221,4 +221,4 @@ var menudata={children:[
 {text:"z",url:"functions_vars_z.html#index_z"}]}]}]},
 {text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"}]}]}]},
-{text:"Thirdparty List",url:"^https://meshinspector.github.io/MeshLib/dev/html/ThirdParty.html"}]}
+{text:"Thirdparty List",url:"^https:///html/ThirdParty.html"}]}
