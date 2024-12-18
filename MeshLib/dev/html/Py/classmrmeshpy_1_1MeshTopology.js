@@ -39,7 +39,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "findBoundaryFaces", "classmrmeshpy_1_1MeshTopology.html#ab0f3e2aeb211493b384701b65e959184", null ],
     [ "findBoundaryVerts", "classmrmeshpy_1_1MeshTopology.html#ae6a2af620860031f25f41efd35ea946a", null ],
     [ "findEdge", "classmrmeshpy_1_1MeshTopology.html#a89619c3ef955733ed1cfa424299302bd", null ],
-    [ "findHoleRepresentiveEdges", "classmrmeshpy_1_1MeshTopology.html#a4ba6b0bc8dd572766b304f8a81220f48", null ],
+    [ "findHoleRepresentiveEdges", "classmrmeshpy_1_1MeshTopology.html#acf1cda41f29dfd85d62b5e73cd394a32", null ],
     [ "findNotLoneUndirectedEdges", "classmrmeshpy_1_1MeshTopology.html#a3cc94c25582eb5640cfc60242b208eb3", null ],
     [ "findNumHoles", "classmrmeshpy_1_1MeshTopology.html#a303bdae03b1496fa6ff496b017d1e373", null ],
     [ "flip", "classmrmeshpy_1_1MeshTopology.html#a60b1f629a3c444e696455a599c6eb86f", null ],

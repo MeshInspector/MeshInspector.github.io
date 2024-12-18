@@ -3512,8 +3512,8 @@ it shall be considered as a faster alternative to invalidateCaches() and followi
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns volume of closed mesh region, if region is not closed DBL_MAX is returned
-if region is nullptr - whole mesh is region
+<pre class="fragment">returns volume of the object surrounded by given region (or whole mesh if (region) is nullptr);
+if the region has holes then each hole will be virtually filled by adding triangles for each edge and the hole's geometrical center
 </pre> 
 </div>
 </div>

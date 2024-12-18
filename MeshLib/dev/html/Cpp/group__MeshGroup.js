@@ -156,7 +156,7 @@ var group__MeshGroup =
       [ "findBoundaryFaces", "classMR_1_1MeshTopology.html#a177421dc3b2485c6ba120a298065d6cf", null ],
       [ "findBoundaryVerts", "classMR_1_1MeshTopology.html#a349bb79fc6015b277a8090e9d8b05835", null ],
       [ "findEdge", "classMR_1_1MeshTopology.html#a5280cca1a7e8cf958ef2856607f87b8b", null ],
-      [ "findHoleRepresentiveEdges", "classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc", null ],
+      [ "findHoleRepresentiveEdges", "classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752", null ],
       [ "findNotLoneUndirectedEdges", "classMR_1_1MeshTopology.html#a9046b9659efa4318343c11980fd65336", null ],
       [ "findNumHoles", "classMR_1_1MeshTopology.html#a41ca1d356a6a6cc79fc5958ec8fd602c", null ],
       [ "flip", "classMR_1_1MeshTopology.html#ae796d1297cfc530ad544c5ced51b82fd", null ],

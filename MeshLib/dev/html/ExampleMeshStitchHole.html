@@ -170,7 +170,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line">    mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#a8ceec437a01ce063998c0f63f339f246">addPart</a>( meshBRes.value() );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
-<div class="line">    std::vector&lt;MR::EdgeId&gt; edges = mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc">findHoleRepresentiveEdges</a>();</div>
+<div class="line">    std::vector&lt;MR::EdgeId&gt; edges = mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752">findHoleRepresentiveEdges</a>();</div>
 <div class="line">    <span class="keywordflow">if</span> ( edges.size() != 2 )</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line"> </div>
@@ -184,7 +184,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html_ac8e27800a0bbad8038ed49623f7836fc"><div class="ttname"><a href="./Cpp/classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc">MR::MeshTopology::findHoleRepresentiveEdges</a></div><div class="ttdeci">MRMESH_API std::vector&lt; EdgeId &gt; findHoleRepresentiveEdges() const</div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html_aa66581b4e7aad51bf8ebd1bbf43e4752"><div class="ttname"><a href="./Cpp/classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752">MR::MeshTopology::findHoleRepresentiveEdges</a></div><div class="ttdeci">MRMESH_API std::vector&lt; EdgeId &gt; findHoleRepresentiveEdges(const FaceBitSet *region=nullptr) const</div></div>
 <div class="ttc" id="agroup__FillHoleGroup_html_ga16a9d70b647d9b9f745ab650b21a975e"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a></div><div class="ttdeci">MRMESH_API FillHoleMetric getUniversalMetric(const Mesh &amp;mesh)</div></div>
 <div class="ttc" id="agroup__FillHoleGroup_html_gaa096c69aa6c5cf97a783e92aa3a70157"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a></div><div class="ttdeci">MRMESH_API void buildCylinderBetweenTwoHoles(Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})</div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>

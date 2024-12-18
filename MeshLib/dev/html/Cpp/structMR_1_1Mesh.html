@@ -3985,7 +3985,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns volume of closed mesh region, if region is not closed DBL_MAX is returned if region is nullptr - whole mesh is region </p>
+<p>returns volume of the object surrounded by given region (or whole mesh if (region) is nullptr); if the region has holes then each hole will be virtually filled by adding triangles for each edge and the hole's geometrical center </p>
 
 </div>
 </div>

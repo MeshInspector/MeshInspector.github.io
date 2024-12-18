@@ -236,8 +236,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae6a2af620860031f25f41efd35ea946a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89619c3ef955733ed1cfa424299302bd" id="r_a89619c3ef955733ed1cfa424299302bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89619c3ef955733ed1cfa424299302bd">findEdge</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> o, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> d)</td></tr>
 <tr class="separator:a89619c3ef955733ed1cfa424299302bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ba6b0bc8dd572766b304f8a81220f48" id="r_a4ba6b0bc8dd572766b304f8a81220f48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__Id__EdgeTag.html">std_vector_Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ba6b0bc8dd572766b304f8a81220f48">findHoleRepresentiveEdges</a> (self)</td></tr>
-<tr class="separator:a4ba6b0bc8dd572766b304f8a81220f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1cda41f29dfd85d62b5e73cd394a32" id="r_acf1cda41f29dfd85d62b5e73cd394a32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__Id__EdgeTag.html">std_vector_Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf1cda41f29dfd85d62b5e73cd394a32">findHoleRepresentiveEdges</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
+<tr class="separator:acf1cda41f29dfd85d62b5e73cd394a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc94c25582eb5640cfc60242b208eb3" id="r_a3cc94c25582eb5640cfc60242b208eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cc94c25582eb5640cfc60242b208eb3">findNotLoneUndirectedEdges</a> (self)</td></tr>
 <tr class="separator:a3cc94c25582eb5640cfc60242b208eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a303bdae03b1496fa6ff496b017d1e373" id="r_a303bdae03b1496fa6ff496b017d1e373"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303bdae03b1496fa6ff496b017d1e373">findNumHoles</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> holeRepresentativeEdges=None)</td></tr>
@@ -1405,8 +1405,8 @@ and activates their auto-update
 </pre> 
 </div>
 </div>
-<a id="a4ba6b0bc8dd572766b304f8a81220f48" name="a4ba6b0bc8dd572766b304f8a81220f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ba6b0bc8dd572766b304f8a81220f48">&#9670;&#160;</a></span>findHoleRepresentiveEdges()</h2>
+<a id="acf1cda41f29dfd85d62b5e73cd394a32" name="acf1cda41f29dfd85d62b5e73cd394a32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1cda41f29dfd85d62b5e73cd394a32">&#9670;&#160;</a></span>findHoleRepresentiveEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1414,12 +1414,17 @@ and activates their auto-update
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__Id__EdgeTag.html">std_vector_Id_EdgeTag</a> mrmeshpy.MeshTopology.findHoleRepresentiveEdges </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns one edge with no valid left face for every boundary in the mesh
+<pre class="fragment">returns one edge with no valid left face for every boundary in the mesh;
+if region is given, then returned edges must have valid right faces from the region
 </pre> 
 </div>
 </div>

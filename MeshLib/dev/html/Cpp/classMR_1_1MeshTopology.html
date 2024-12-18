@@ -433,9 +433,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab5f2cd2b3dbdcb502edf741bee2bc7f1" id="r_ab5f2cd2b3dbdcb502edf741bee2bc7f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f2cd2b3dbdcb502edf741bee2bc7f1">isClosed</a> (const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="memdesc:ab5f2cd2b3dbdcb502edf741bee2bc7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the mesh (region) does not have any neighboring holes  <br /></td></tr>
 <tr class="separator:ab5f2cd2b3dbdcb502edf741bee2bc7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8e27800a0bbad8038ed49623f7836fc" id="r_ac8e27800a0bbad8038ed49623f7836fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; EdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e27800a0bbad8038ed49623f7836fc">findHoleRepresentiveEdges</a> () const</td></tr>
-<tr class="memdesc:ac8e27800a0bbad8038ed49623f7836fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one edge with no valid left face for every boundary in the mesh  <br /></td></tr>
-<tr class="separator:ac8e27800a0bbad8038ed49623f7836fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66581b4e7aad51bf8ebd1bbf43e4752" id="r_aa66581b4e7aad51bf8ebd1bbf43e4752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; EdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa66581b4e7aad51bf8ebd1bbf43e4752">findHoleRepresentiveEdges</a> (const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="separator:aa66581b4e7aad51bf8ebd1bbf43e4752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41ca1d356a6a6cc79fc5958ec8fd602c" id="r_a41ca1d356a6a6cc79fc5958ec8fd602c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41ca1d356a6a6cc79fc5958ec8fd602c">findNumHoles</a> (EdgeBitSet *holeRepresentativeEdges=nullptr) const</td></tr>
 <tr class="separator:a41ca1d356a6a6cc79fc5958ec8fd602c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a003b769e8bf22c99726d375fc83867bc" id="r_a003b769e8bf22c99726d375fc83867bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a003b769e8bf22c99726d375fc83867bc">getLeftRing</a> (EdgeId e) const</td></tr>
@@ -1603,8 +1602,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="ac8e27800a0bbad8038ed49623f7836fc" name="ac8e27800a0bbad8038ed49623f7836fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8e27800a0bbad8038ed49623f7836fc">&#9670;&#160;</a></span>findHoleRepresentiveEdges()</h2>
+<a id="aa66581b4e7aad51bf8ebd1bbf43e4752" name="aa66581b4e7aad51bf8ebd1bbf43e4752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66581b4e7aad51bf8ebd1bbf43e4752">&#9670;&#160;</a></span>findHoleRepresentiveEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1615,7 +1614,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; EdgeId &gt; MR::MeshTopology::findHoleRepresentiveEdges </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1625,8 +1624,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns one edge with no valid left face for every boundary in the mesh </p>
+<p>returns one edge with no valid left face for every boundary in the mesh; if region is given, then returned edges must have valid right faces from the region </p>
 
 </div>
 </div>
