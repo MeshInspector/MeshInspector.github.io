@@ -10,6 +10,6 @@ var namespaceMR_1_1Cuda =
     [ "findSkyRays", "namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231", null ],
     [ "getCudaAvailableMemory", "namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838", null ],
     [ "isCudaAvailable", "namespaceMR_1_1Cuda.html#a481800f210dd09851992846af357b7e2", null ],
-    [ "negatePicture", "namespaceMR_1_1Cuda.html#a049377206c74eb42b8d99eb0f9475876", null ],
+    [ "negatePicture", "namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a", null ],
     [ "pointsToDistanceVolume", "namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9", null ]
 ];
