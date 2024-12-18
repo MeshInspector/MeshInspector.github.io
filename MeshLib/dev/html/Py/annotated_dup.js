@@ -1,5 +1,9 @@
 var annotated_dup =
 [
+    [ "mrcudapy", "namespacemrcudapy.html", [
+      [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
+      [ "PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ]
+    ] ],
     [ "mrmeshpy", "namespacemrmeshpy.html", [
       [ "AABBTree", "classmrmeshpy_1_1AABBTree.html", "classmrmeshpy_1_1AABBTree" ],
       [ "AABBTreeBase_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f.html", "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f" ],

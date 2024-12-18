@@ -437,6 +437,9 @@ var hierarchy =
     [ "mrmeshpy.Id_VoxelTag", "classmrmeshpy_1_1Id__VoxelTag.html", [
       [ "mrmeshpy.NoDefInit_Id_VoxelTag", "classmrmeshpy_1_1NoDefInit__Id__VoxelTag.html", null ]
     ] ],
+    [ "meshlib.mrmeshpy.IFastWindingNumber", null, [
+      [ "mrcudapy.FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", null ]
+    ] ],
     [ "mrmeshpy.IFastWindingNumber", "classmrmeshpy_1_1IFastWindingNumber.html", [
       [ "mrmeshpy.FastWindingNumber", "classmrmeshpy_1_1FastWindingNumber.html", null ]
     ] ],
@@ -466,6 +469,9 @@ var hierarchy =
     [ "mrmeshpy.IPointPairs", "classmrmeshpy_1_1IPointPairs.html", [
       [ "mrmeshpy.ICPGroupPairs", "classmrmeshpy_1_1ICPGroupPairs.html", null ],
       [ "mrmeshpy.PointPairs", "classmrmeshpy_1_1PointPairs.html", null ]
+    ] ],
+    [ "meshlib.mrmeshpy.IPointsToMeshProjector", null, [
+      [ "mrcudapy.PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", null ]
     ] ],
     [ "mrmeshpy.IPointsToMeshProjector", "classmrmeshpy_1_1IPointsToMeshProjector.html", [
       [ "mrmeshpy.PointsToMeshProjector", "classmrmeshpy_1_1PointsToMeshProjector.html", null ]

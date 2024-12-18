@@ -1,5 +1,6 @@
 var namespaces_dup =
 [
+    [ "mrcudapy", "namespacemrcudapy.html", "namespacemrcudapy" ],
     [ "mrmeshnumpy", "namespacemrmeshnumpy.html", [
       [ "edgeBitSetFromBools", "namespacemrmeshnumpy.html#a4c856fa3511daab45f4c4996e4d48f62", null ],
       [ "faceBitSetFromBools", "namespacemrmeshnumpy.html#a0eb7da152334eb8272d6ddf545189b6a", null ],

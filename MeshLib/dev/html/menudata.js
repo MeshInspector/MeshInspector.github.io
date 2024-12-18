@@ -62,6 +62,6 @@ var menudata={children:[
 {text:"Spaces and Transformations",url:"SpacesHelp.html"},
 {text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
 {text:"API",url:"APIPage.html",children:[
-{text:"C++",url:"Cpp/APICppPage.html"},
-{text:"Python",url:"Py/APIPyPage.html"}]},
+{text:"C++",url:"^https:///html/Cpp/APICppPage.html"},
+{text:"Python",url:"^https:///html/Py/APIPyPage.html"}]},
 {text:"Thirdparty List",url:"ThirdParty.html"}]}

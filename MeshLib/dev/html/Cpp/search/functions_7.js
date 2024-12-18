@@ -156,7 +156,7 @@ var searchData=
   ['getcoordinatebyvoxelid_153',['getCoordinateByVoxelId',['../../Py/classmrmeshpy_1_1ObjectVoxels.html#afa9c7dcfcc3c57979f22cdf8897991c1',1,'mrmeshpy::ObjectVoxels::getCoordinateByVoxelId()'],['../classMR_1_1ObjectVoxels.html#a1b97cf935f92ffe31c6ca76284f2afd5',1,'MR::ObjectVoxels::getCoordinateByVoxelId()']]],
   ['getcorners_154',['getCorners',['../group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8',1,'MR::getCorners(const Box&lt; Vector3&lt; T &gt; &gt; &amp;box)'],['../group__BoxGroup.html#ga29381aa0a95542624d22842711d672f9',1,'MR::getCorners(const Box&lt; Vector2&lt; T &gt; &gt; &amp;box)']]],
   ['getcpuid_155',['GetCpuId',['../../Py/namespacemrmeshpy.html#af454ff761eba43a26cc17908882e8dc6',1,'mrmeshpy::GetCpuId()'],['../namespaceMR.html#a7b5e5990972490ea4d3803ccca1b3757',1,'MR::GetCpuId()']]],
-  ['getcudaavailablememory_156',['getCudaAvailableMemory',['../namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838',1,'MR::Cuda']]],
+  ['getcudaavailablememory_156',['getCudaAvailableMemory',['../../Py/namespacemrcudapy.html#aa0b99ba36260a5a8fb0925f8dc79d28a',1,'mrcudapy::getCudaAvailableMemory()'],['../namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838',1,'MR::Cuda::getCudaAvailableMemory()']]],
   ['getcudafastwindingnumber_157',['getCudaFastWindingNumber',['../classMR_1_1CudaAccessor.html#ad1644759ef8ab1cfac0b06466eeba89d',1,'MR::CudaAccessor']]],
   ['getcudafreememory_158',['getCudaFreeMemory',['../classMR_1_1CudaAccessor.html#a229a41b2ffd3856ad7a70bc5b63466d3',1,'MR::CudaAccessor']]],
   ['getcudamaxdriversupportedversion_159',['getCudaMaxDriverSupportedVersion',['../classMR_1_1CudaAccessor.html#a73cec5d251bf8a933f7bbb57ceff8cac',1,'MR::CudaAccessor']]],
