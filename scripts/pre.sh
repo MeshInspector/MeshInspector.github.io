@@ -32,18 +32,6 @@ sed -n -e "/<\/head>/,$ p" html_header.html >> html_header.html.tmp
 rm html_header.html
 mv html_header.html.tmp html_header.html
 
-
-
-#prepare URL for update links between site blocks
-URL=""
-if [ "$TARGET_DIR" == "MeshLib" ]; then
-    URL="meshlib.io/$TARGET_DIR"
-elif [ "$TARGET_DIR" == "MeshLib/dev" ]; then
-    URL="meshinspector.github.io/$TARGET_DIR"
-elif [ "$TARGET_DIR" == "MeshLib/local" ]; then
-    URL="127.0.0.1:8000/$TARGET_DIR"
-fi
-
 if [ ! -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
     echo "[ERROR] Can not found script to generate doxygen layout files"
     exit 1
@@ -52,7 +40,7 @@ fi
 MODULES=(Py Cpp Main)
 for MODULE in ${MODULES[*]}
 do
-    ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE $URL
+    ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE
     # force Doxygen to use the custom HTML header
     sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
     # force Doxygen to use the custom output directory
