@@ -1,0 +1,1272 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.EdgeBitSet Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.EdgeBitSet Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for meshlib.mrmeshpy.EdgeBitSet:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.png" usemap="#meshlib.mrmeshpy.EdgeBitSet_map" alt=""/>
+  <map id="meshlib.mrmeshpy.EdgeBitSet_map" name="meshlib.mrmeshpy.EdgeBitSet_map">
+<area href="classmeshlib_1_1mrmeshpy_1_1BitSet.html" alt="meshlib.mrmeshpy.BitSet" shape="rect" coords="0,0,180,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a01c40daf0785c9b8b1d4a51fbc6967b0" id="r_a01c40daf0785c9b8b1d4a51fbc6967b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01c40daf0785c9b8b1d4a51fbc6967b0">__and__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:a01c40daf0785c9b8b1d4a51fbc6967b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a556357544fae140f8ed1cef6a1b6e" id="r_ac0a556357544fae140f8ed1cef6a1b6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0a556357544fae140f8ed1cef6a1b6e">__iand__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:ac0a556357544fae140f8ed1cef6a1b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363209d1bd9e72ecede804d9d9a0b8fd" id="r_a363209d1bd9e72ecede804d9d9a0b8fd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363209d1bd9e72ecede804d9d9a0b8fd">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
+<tr class="separator:a363209d1bd9e72ecede804d9d9a0b8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363209d1bd9e72ecede804d9d9a0b8fd" id="r_a363209d1bd9e72ecede804d9d9a0b8fd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363209d1bd9e72ecede804d9d9a0b8fd">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
+<tr class="separator:a363209d1bd9e72ecede804d9d9a0b8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6c9d40fae056614222a29df775f9e5" id="r_abb6c9d40fae056614222a29df775f9e5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb6c9d40fae056614222a29df775f9e5">__init__</a> (self)</td></tr>
+<tr class="separator:abb6c9d40fae056614222a29df775f9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf096e245e8e99e9b399bbcaee86b3a" id="r_a4bf096e245e8e99e9b399bbcaee86b3a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bf096e245e8e99e9b399bbcaee86b3a">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> arg0)</td></tr>
+<tr class="separator:a4bf096e245e8e99e9b399bbcaee86b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad932d604ce7d6eb21b73714276672555" id="r_ad932d604ce7d6eb21b73714276672555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad932d604ce7d6eb21b73714276672555">__ior__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:ad932d604ce7d6eb21b73714276672555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeeee10e5e396e1c05fb9e2c8125843f" id="r_adeeee10e5e396e1c05fb9e2c8125843f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeeee10e5e396e1c05fb9e2c8125843f">__isub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:adeeee10e5e396e1c05fb9e2c8125843f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77e106ca292ce5efbe3689066e8725a" id="r_ac77e106ca292ce5efbe3689066e8725a"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77e106ca292ce5efbe3689066e8725a">__iter__</a> (self)</td></tr>
+<tr class="separator:ac77e106ca292ce5efbe3689066e8725a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757460137de116615dd01055831b3e70" id="r_a757460137de116615dd01055831b3e70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a757460137de116615dd01055831b3e70">__ixor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:a757460137de116615dd01055831b3e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3447388d0c8abf2090c35c5718baec3e" id="r_a3447388d0c8abf2090c35c5718baec3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3447388d0c8abf2090c35c5718baec3e">__or__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:a3447388d0c8abf2090c35c5718baec3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad927fc18e7f24303849152d166810bbc" id="r_ad927fc18e7f24303849152d166810bbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad927fc18e7f24303849152d166810bbc">__sub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:ad927fc18e7f24303849152d166810bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a029ff970ef0ab059ec1d51081f759488" id="r_a029ff970ef0ab059ec1d51081f759488"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a029ff970ef0ab059ec1d51081f759488">__xor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
+<tr class="separator:a029ff970ef0ab059ec1d51081f759488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c70769cf31a218fe4d7bbcdbf2531e" id="r_a22c70769cf31a218fe4d7bbcdbf2531e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c70769cf31a218fe4d7bbcdbf2531e">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> pos, int len, bool val=True)</td></tr>
+<tr class="separator:a22c70769cf31a218fe4d7bbcdbf2531e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6968f2555601d2b87ee3f4e8e05b2dcc" id="r_a6968f2555601d2b87ee3f4e8e05b2dcc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6968f2555601d2b87ee3f4e8e05b2dcc">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> pos, bool val=True)</td></tr>
+<tr class="separator:a6968f2555601d2b87ee3f4e8e05b2dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd615b2b5351f83d6d5d0443072cb8f" id="r_a5fd615b2b5351f83d6d5d0443072cb8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fd615b2b5351f83d6d5d0443072cb8f">autoResizeTestSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> pos, bool val=True)</td></tr>
+<tr class="separator:a5fd615b2b5351f83d6d5d0443072cb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593159cc2e3b05e9c245bac238d20bbb" id="r_a593159cc2e3b05e9c245bac238d20bbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593159cc2e3b05e9c245bac238d20bbb">backId</a> (self)</td></tr>
+<tr class="separator:a593159cc2e3b05e9c245bac238d20bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07a1f4f6467830673fdfeb10b44e5c5a" id="r_a07a1f4f6467830673fdfeb10b44e5c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07a1f4f6467830673fdfeb10b44e5c5a">endId</a> (self)</td></tr>
+<tr class="separator:a07a1f4f6467830673fdfeb10b44e5c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d14b1c286c2a58b965ce4ef4be98cb0" id="r_a9d14b1c286c2a58b965ce4ef4be98cb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d14b1c286c2a58b965ce4ef4be98cb0">find_first</a> (self)</td></tr>
+<tr class="separator:a9d14b1c286c2a58b965ce4ef4be98cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a409824fa41381b79146f37dd2abc9971" id="r_a409824fa41381b79146f37dd2abc9971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a409824fa41381b79146f37dd2abc9971">find_last</a> (self)</td></tr>
+<tr class="separator:a409824fa41381b79146f37dd2abc9971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94726a233dea5f066f22677962d351f1" id="r_a94726a233dea5f066f22677962d351f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94726a233dea5f066f22677962d351f1">find_next</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> pos)</td></tr>
+<tr class="separator:a94726a233dea5f066f22677962d351f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4814d880903f754ffd26ab38b2b9f1" id="r_a2e4814d880903f754ffd26ab38b2b9f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e4814d880903f754ffd26ab38b2b9f1">flip</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n, int len)</td></tr>
+<tr class="separator:a2e4814d880903f754ffd26ab38b2b9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832f7a94ca3627153b51cb11d6c07492" id="r_a832f7a94ca3627153b51cb11d6c07492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a832f7a94ca3627153b51cb11d6c07492">flip</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n)</td></tr>
+<tr class="separator:a832f7a94ca3627153b51cb11d6c07492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad84ee38d67951ebf6353831313462713" id="r_ad84ee38d67951ebf6353831313462713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84ee38d67951ebf6353831313462713">flip</a> (self)</td></tr>
+<tr class="separator:ad84ee38d67951ebf6353831313462713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af341f3e7a96bd98cbf8008350a08c083" id="r_af341f3e7a96bd98cbf8008350a08c083"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af341f3e7a96bd98cbf8008350a08c083">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> map)</td></tr>
+<tr class="separator:af341f3e7a96bd98cbf8008350a08c083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfb66b2c05a8e79487d6d88c3e2eaade" id="r_acfb66b2c05a8e79487d6d88c3e2eaade"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfb66b2c05a8e79487d6d88c3e2eaade">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBMap.html">EdgeBMap</a> map)</td></tr>
+<tr class="separator:acfb66b2c05a8e79487d6d88c3e2eaade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cea507cb11874a75d4d349235bb22c9" id="r_a9cea507cb11874a75d4d349235bb22c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cea507cb11874a75d4d349235bb22c9">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</a> map)</td></tr>
+<tr class="separator:a9cea507cb11874a75d4d349235bb22c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac74fef2b4ea294df3c741e3cd425d9f7" id="r_ac74fef2b4ea294df3c741e3cd425d9f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac74fef2b4ea294df3c741e3cd425d9f7">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> map, int resSize)</td></tr>
+<tr class="separator:ac74fef2b4ea294df3c741e3cd425d9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80e94c5a8e32ed3289e84249d37726b" id="r_ac80e94c5a8e32ed3289e84249d37726b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac80e94c5a8e32ed3289e84249d37726b">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</a> map, int resSize)</td></tr>
+<tr class="separator:ac80e94c5a8e32ed3289e84249d37726b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d21967ec60c1af4195971fa5978a35" id="r_ac8d21967ec60c1af4195971fa5978a35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8d21967ec60c1af4195971fa5978a35">nthSetBit</a> (self, int n)</td></tr>
+<tr class="separator:ac8d21967ec60c1af4195971fa5978a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9865f6ee073adf51053addaed3394a36" id="r_a9865f6ee073adf51053addaed3394a36"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9865f6ee073adf51053addaed3394a36">operator</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> pos)</td></tr>
+<tr class="separator:a9865f6ee073adf51053addaed3394a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d1de981fc4339b942ab04a6fbc5dee" id="r_aa1d1de981fc4339b942ab04a6fbc5dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d1de981fc4339b942ab04a6fbc5dee">reset</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n, int len)</td></tr>
+<tr class="separator:aa1d1de981fc4339b942ab04a6fbc5dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d9f04d1664db4c10472b4977dc8242" id="r_af9d9f04d1664db4c10472b4977dc8242"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9d9f04d1664db4c10472b4977dc8242">reset</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n)</td></tr>
+<tr class="separator:af9d9f04d1664db4c10472b4977dc8242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa14e5afe9a40f7eb1bcce21cb2c2d37" id="r_aaa14e5afe9a40f7eb1bcce21cb2c2d37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa14e5afe9a40f7eb1bcce21cb2c2d37">reset</a> (self)</td></tr>
+<tr class="separator:aaa14e5afe9a40f7eb1bcce21cb2c2d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151785508e3ea01adbbecc13bb3283b4" id="r_a151785508e3ea01adbbecc13bb3283b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a151785508e3ea01adbbecc13bb3283b4">set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n, int len, bool val)</td></tr>
+<tr class="separator:a151785508e3ea01adbbecc13bb3283b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430a9f7bcb9f5fbcab37fed25fa329c2" id="r_a430a9f7bcb9f5fbcab37fed25fa329c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430a9f7bcb9f5fbcab37fed25fa329c2">set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n, bool val=True)</td></tr>
+<tr class="separator:a430a9f7bcb9f5fbcab37fed25fa329c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfed6e0e147d7c5d3ff3a68afac226cf" id="r_abfed6e0e147d7c5d3ff3a68afac226cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfed6e0e147d7c5d3ff3a68afac226cf">set</a> (self)</td></tr>
+<tr class="separator:abfed6e0e147d7c5d3ff3a68afac226cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339db2374daafd8c5d329e07a67aa16e" id="r_a339db2374daafd8c5d329e07a67aa16e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a339db2374daafd8c5d329e07a67aa16e">subtract</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b, int bShiftInBlocks)</td></tr>
+<tr class="separator:a339db2374daafd8c5d329e07a67aa16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d4df74d699c740a815a8a0159667a98" id="r_a1d4df74d699c740a815a8a0159667a98"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d4df74d699c740a815a8a0159667a98">test</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n)</td></tr>
+<tr class="separator:a1d4df74d699c740a815a8a0159667a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265e338eb32c49b1a74e5b219a1a88c6" id="r_a265e338eb32c49b1a74e5b219a1a88c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a265e338eb32c49b1a74e5b219a1a88c6">test_set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n, bool val=True)</td></tr>
+<tr class="separator:a265e338eb32c49b1a74e5b219a1a88c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">meshlib.mrmeshpy.BitSet</a></td></tr>
+<tr class="memitem:a3ab0153df8d6e25b8334253117496758 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a3ab0153df8d6e25b8334253117496758"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3ab0153df8d6e25b8334253117496758">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a3ab0153df8d6e25b8334253117496758 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae077f54c2adb7b26cc274216d17f2251 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_ae077f54c2adb7b26cc274216d17f2251"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae077f54c2adb7b26cc274216d17f2251">clear</a> (self)</td></tr>
+<tr class="separator:ae077f54c2adb7b26cc274216d17f2251 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a10cb247b0d81387888917cdc4b04b inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_ac7a10cb247b0d81387888917cdc4b04b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ac7a10cb247b0d81387888917cdc4b04b">count</a> (self)</td></tr>
+<tr class="separator:ac7a10cb247b0d81387888917cdc4b04b inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3278b7c07b149e6ae370f4a69640e101 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a3278b7c07b149e6ae370f4a69640e101"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3278b7c07b149e6ae370f4a69640e101">heapBytes</a> (self)</td></tr>
+<tr class="separator:a3278b7c07b149e6ae370f4a69640e101 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d30a6aec1e3cebb63fbec9627395fe inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a33d30a6aec1e3cebb63fbec9627395fe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a33d30a6aec1e3cebb63fbec9627395fe">pop_back</a> (self)</td></tr>
+<tr class="separator:a33d30a6aec1e3cebb63fbec9627395fe inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a674f5b26614225e1d27d35bc0845a555 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a674f5b26614225e1d27d35bc0845a555"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a674f5b26614225e1d27d35bc0845a555">push_back</a> (self, bool bit)</td></tr>
+<tr class="separator:a674f5b26614225e1d27d35bc0845a555 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be4e454b4584aa606be3f6687178a1e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a0be4e454b4584aa606be3f6687178a1e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a0be4e454b4584aa606be3f6687178a1e">resize</a> (self, int num_bits, bool value=False)</td></tr>
+<tr class="separator:a0be4e454b4584aa606be3f6687178a1e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a4ae2a0d6dff85c15b2dfe9deba202 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a88a4ae2a0d6dff85c15b2dfe9deba202"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a88a4ae2a0d6dff85c15b2dfe9deba202">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a88a4ae2a0d6dff85c15b2dfe9deba202 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f8fd68f889a1d1606ac6724cfe450f inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a10f8fd68f889a1d1606ac6724cfe450f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a10f8fd68f889a1d1606ac6724cfe450f">size</a> (self)</td></tr>
+<tr class="separator:a10f8fd68f889a1d1606ac6724cfe450f inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3340355d5ae8503ba777f4d99eb51cdd" id="r_a3340355d5ae8503ba777f4d99eb51cdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3340355d5ae8503ba777f4d99eb51cdd">beginId</a> ()</td></tr>
+<tr class="separator:a3340355d5ae8503ba777f4d99eb51cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::EdgeBitSet
+Aliases:  TaggedBitSet_EdgeTag
+
+container of bits representing specific indices (faces, verts or edges)
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a363209d1bd9e72ecede804d9d9a0b8fd" name="a363209d1bd9e72ecede804d9d9a0b8fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363209d1bd9e72ecede804d9d9a0b8fd">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgeBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">copies all bits from another BitSet (or a descending class, e.g. TaggedBitSet&lt;U&gt;)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a363209d1bd9e72ecede804d9d9a0b8fd" name="a363209d1bd9e72ecede804d9d9a0b8fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363209d1bd9e72ecede804d9d9a0b8fd">&#9670;&#160;</a></span>__init__() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgeBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">moves all bits from another BitSet (or a descending class, e.g. TaggedBitSet&lt;U&gt;)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="abb6c9d40fae056614222a29df775f9e5" name="abb6c9d40fae056614222a29df775f9e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb6c9d40fae056614222a29df775f9e5">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgeBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a4bf096e245e8e99e9b399bbcaee86b3a" name="a4bf096e245e8e99e9b399bbcaee86b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf096e245e8e99e9b399bbcaee86b3a">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgeBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a01c40daf0785c9b8b1d4a51fbc6967b0" name="a01c40daf0785c9b8b1d4a51fbc6967b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c40daf0785c9b8b1d4a51fbc6967b0">&#9670;&#160;</a></span>__and__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__and__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a85435ac3557f145028e771489998d509">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ac0a556357544fae140f8ed1cef6a1b6e" name="ac0a556357544fae140f8ed1cef6a1b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a556357544fae140f8ed1cef6a1b6e">&#9670;&#160;</a></span>__iand__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__iand__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a9dc3ca031fa7e8da6617d6b74cc66fc5">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ad932d604ce7d6eb21b73714276672555" name="ad932d604ce7d6eb21b73714276672555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad932d604ce7d6eb21b73714276672555">&#9670;&#160;</a></span>__ior__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__ior__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a4483a0930112aa22fa6181a8ddd90c15">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="adeeee10e5e396e1c05fb9e2c8125843f" name="adeeee10e5e396e1c05fb9e2c8125843f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeeee10e5e396e1c05fb9e2c8125843f">&#9670;&#160;</a></span>__isub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__isub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a290e91b15f60c8853e19f234b0ff17d8">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ac77e106ca292ce5efbe3689066e8725a" name="ac77e106ca292ce5efbe3689066e8725a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77e106ca292ce5efbe3689066e8725a">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.EdgeBitSet.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a32ef3df14f5745445ad5eab11ab6d19f">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a757460137de116615dd01055831b3e70" name="a757460137de116615dd01055831b3e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757460137de116615dd01055831b3e70">&#9670;&#160;</a></span>__ixor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__ixor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#acb142b116441bf689908ba9b7b3353c1">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a3447388d0c8abf2090c35c5718baec3e" name="a3447388d0c8abf2090c35c5718baec3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3447388d0c8abf2090c35c5718baec3e">&#9670;&#160;</a></span>__or__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__or__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ad7d17880413e81c3eb3bb9d22c079ea0">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ad927fc18e7f24303849152d166810bbc" name="ad927fc18e7f24303849152d166810bbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad927fc18e7f24303849152d166810bbc">&#9670;&#160;</a></span>__sub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__sub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a802e19baafadd3feb434aa3526672762">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a029ff970ef0ab059ec1d51081f759488" name="a029ff970ef0ab059ec1d51081f759488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a029ff970ef0ab059ec1d51081f759488">&#9670;&#160;</a></span>__xor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.__xor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a0f3c7333febae5358edf59c3ebcfb2e3">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a6968f2555601d2b87ee3f4e8e05b2dcc" name="a6968f2555601d2b87ee3f4e8e05b2dcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6968f2555601d2b87ee3f4e8e05b2dcc">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgeBitSet.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>len</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a14d98fdb6ec197be5f3753ddcba87aa7">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a22c70769cf31a218fe4d7bbcdbf2531e" name="a22c70769cf31a218fe4d7bbcdbf2531e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22c70769cf31a218fe4d7bbcdbf2531e">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgeBitSet.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a14d98fdb6ec197be5f3753ddcba87aa7">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a5fd615b2b5351f83d6d5d0443072cb8f" name="a5fd615b2b5351f83d6d5d0443072cb8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd615b2b5351f83d6d5d0443072cb8f">&#9670;&#160;</a></span>autoResizeTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgeBitSet.autoResizeTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">same as \\ref autoResizeSet and returns previous value of pos-bit
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a6ad87d5171e33bfce5eb2add65e8a527">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a593159cc2e3b05e9c245bac238d20bbb" name="a593159cc2e3b05e9c245bac238d20bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593159cc2e3b05e9c245bac238d20bbb">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> meshlib.mrmeshpy.EdgeBitSet.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a4b4cf7a214fd2c7ed53be7670f344914">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a3340355d5ae8503ba777f4d99eb51cdd" name="a3340355d5ae8503ba777f4d99eb51cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3340355d5ae8503ba777f4d99eb51cdd">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> meshlib.mrmeshpy.EdgeBitSet.beginId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">[beginId(), endId()) is the range of all bits in the set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#aa6028fcc911547bb985153b35f6aa5dc">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a07a1f4f6467830673fdfeb10b44e5c5a" name="a07a1f4f6467830673fdfeb10b44e5c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a1f4f6467830673fdfeb10b44e5c5a">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> meshlib.mrmeshpy.EdgeBitSet.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3d331dd85ce8c0d16233cf52d991c72f">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a9d14b1c286c2a58b965ce4ef4be98cb0" name="a9d14b1c286c2a58b965ce4ef4be98cb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d14b1c286c2a58b965ce4ef4be98cb0">&#9670;&#160;</a></span>find_first()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> meshlib.mrmeshpy.EdgeBitSet.find_first </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a409824fa41381b79146f37dd2abc9971" name="a409824fa41381b79146f37dd2abc9971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a409824fa41381b79146f37dd2abc9971">&#9670;&#160;</a></span>find_last()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> meshlib.mrmeshpy.EdgeBitSet.find_last </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the highest index i such as bit i is set, or npos if *this has no on bits.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a1bc6e4c6f18181a464ddc840c3a116cb">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a94726a233dea5f066f22677962d351f1" name="a94726a233dea5f066f22677962d351f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94726a233dea5f066f22677962d351f1">&#9670;&#160;</a></span>find_next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> meshlib.mrmeshpy.EdgeBitSet.find_next </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad84ee38d67951ebf6353831313462713" name="ad84ee38d67951ebf6353831313462713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad84ee38d67951ebf6353831313462713">&#9670;&#160;</a></span>flip() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a832f7a94ca3627153b51cb11d6c07492" name="a832f7a94ca3627153b51cb11d6c07492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832f7a94ca3627153b51cb11d6c07492">&#9670;&#160;</a></span>flip() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a2e4814d880903f754ffd26ab38b2b9f1" name="a2e4814d880903f754ffd26ab38b2b9f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4814d880903f754ffd26ab38b2b9f1">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="acfb66b2c05a8e79487d6d88c3e2eaade" name="acfb66b2c05a8e79487d6d88c3e2eaade"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfb66b2c05a8e79487d6d88c3e2eaade">&#9670;&#160;</a></span>getMapping() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBMap.html">EdgeBMap</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af341f3e7a96bd98cbf8008350a08c083" name="af341f3e7a96bd98cbf8008350a08c083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af341f3e7a96bd98cbf8008350a08c083">&#9670;&#160;</a></span>getMapping() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac74fef2b4ea294df3c741e3cd425d9f7" name="ac74fef2b4ea294df3c741e3cd425d9f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac74fef2b4ea294df3c741e3cd425d9f7">&#9670;&#160;</a></span>getMapping() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9cea507cb11874a75d4d349235bb22c9" name="a9cea507cb11874a75d4d349235bb22c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cea507cb11874a75d4d349235bb22c9">&#9670;&#160;</a></span>getMapping() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac80e94c5a8e32ed3289e84249d37726b" name="ac80e94c5a8e32ed3289e84249d37726b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac80e94c5a8e32ed3289e84249d37726b">&#9670;&#160;</a></span>getMapping() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8d21967ec60c1af4195971fa5978a35" name="ac8d21967ec60c1af4195971fa5978a35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d21967ec60c1af4195971fa5978a35">&#9670;&#160;</a></span>nthSetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> meshlib.mrmeshpy.EdgeBitSet.nthSetBit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a28681fac7dec04ed63e434b6abc07ed0">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a9865f6ee073adf51053addaed3394a36" name="a9865f6ee073adf51053addaed3394a36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9865f6ee073adf51053addaed3394a36">&#9670;&#160;</a></span>operator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgeBitSet.operator </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa14e5afe9a40f7eb1bcce21cb2c2d37" name="aaa14e5afe9a40f7eb1bcce21cb2c2d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa14e5afe9a40f7eb1bcce21cb2c2d37">&#9670;&#160;</a></span>reset() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="af9d9f04d1664db4c10472b4977dc8242" name="af9d9f04d1664db4c10472b4977dc8242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d9f04d1664db4c10472b4977dc8242">&#9670;&#160;</a></span>reset() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aa1d1de981fc4339b942ab04a6fbc5dee" name="aa1d1de981fc4339b942ab04a6fbc5dee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d1de981fc4339b942ab04a6fbc5dee">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="abfed6e0e147d7c5d3ff3a68afac226cf" name="abfed6e0e147d7c5d3ff3a68afac226cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfed6e0e147d7c5d3ff3a68afac226cf">&#9670;&#160;</a></span>set() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a430a9f7bcb9f5fbcab37fed25fa329c2" name="a430a9f7bcb9f5fbcab37fed25fa329c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a430a9f7bcb9f5fbcab37fed25fa329c2">&#9670;&#160;</a></span>set() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a151785508e3ea01adbbecc13bb3283b4" name="a151785508e3ea01adbbecc13bb3283b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151785508e3ea01adbbecc13bb3283b4">&#9670;&#160;</a></span>set() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a339db2374daafd8c5d329e07a67aa16e" name="a339db2374daafd8c5d329e07a67aa16e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339db2374daafd8c5d329e07a67aa16e">&#9670;&#160;</a></span>subtract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> meshlib.mrmeshpy.EdgeBitSet.subtract </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bShiftInBlocks</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a037e3c867e7fc3e183cb5799674854cb">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a1d4df74d699c740a815a8a0159667a98" name="a1d4df74d699c740a815a8a0159667a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d4df74d699c740a815a8a0159667a98">&#9670;&#160;</a></span>test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgeBitSet.test </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">all bits after size() we silently consider as not-set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a7670f21a795b5119c3b0b83d6c5cf358">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a265e338eb32c49b1a74e5b219a1a88c6" name="a265e338eb32c49b1a74e5b219a1a88c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a265e338eb32c49b1a74e5b219a1a88c6">&#9670;&#160;</a></span>test_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgeBitSet.test_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#af203a8a30b035e5f509935eb559d0974">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,847 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a2eee6fb209530e2f43373ba01680efc4" id="r_a2eee6fb209530e2f43373ba01680efc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eee6fb209530e2f43373ba01680efc4">__bool__</a> (self)</td></tr>
+<tr class="separator:a2eee6fb209530e2f43373ba01680efc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ec40f2127cd554235e3a1b7b9399419" id="r_a2ec40f2127cd554235e3a1b7b9399419"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec40f2127cd554235e3a1b7b9399419">__contains__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> x)</td></tr>
+<tr class="separator:a2ec40f2127cd554235e3a1b7b9399419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2f62b8b9437e054e4929ba278552b3" id="r_a7d2f62b8b9437e054e4929ba278552b3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d2f62b8b9437e054e4929ba278552b3">__delitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:a7d2f62b8b9437e054e4929ba278552b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49fdd5e0088078cadf1ea5594c045a8d" id="r_a49fdd5e0088078cadf1ea5594c045a8d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49fdd5e0088078cadf1ea5594c045a8d">__delitem__</a> (self, slice arg0)</td></tr>
+<tr class="separator:a49fdd5e0088078cadf1ea5594c045a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f20cc727c0046d33e9ef7852a336b72" id="r_a5f20cc727c0046d33e9ef7852a336b72"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f20cc727c0046d33e9ef7852a336b72">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a> arg0)</td></tr>
+<tr class="separator:a5f20cc727c0046d33e9ef7852a336b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b4d54bdd53a5ac89323f3f6ffe8b5f" id="r_a56b4d54bdd53a5ac89323f3f6ffe8b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b4d54bdd53a5ac89323f3f6ffe8b5f">__getitem__</a> (self, slice s)</td></tr>
+<tr class="separator:a56b4d54bdd53a5ac89323f3f6ffe8b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b85fb52cbd57243f9852730269ed4d" id="r_af1b85fb52cbd57243f9852730269ed4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1b85fb52cbd57243f9852730269ed4d">__getitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:af1b85fb52cbd57243f9852730269ed4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d92ed1835f385ce7a4af9b795829c75" id="r_a6d92ed1835f385ce7a4af9b795829c75"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d92ed1835f385ce7a4af9b795829c75">__init__</a> (self)</td></tr>
+<tr class="separator:a6d92ed1835f385ce7a4af9b795829c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4877f957f2a51e4402d5ff74fd19138a" id="r_a4877f957f2a51e4402d5ff74fd19138a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4877f957f2a51e4402d5ff74fd19138a">__init__</a> (self, typing.Iterable arg0)</td></tr>
+<tr class="separator:a4877f957f2a51e4402d5ff74fd19138a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696cae39202f2e453fa1e234602c6443" id="r_a696cae39202f2e453fa1e234602c6443"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a696cae39202f2e453fa1e234602c6443">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a> arg0)</td></tr>
+<tr class="separator:a696cae39202f2e453fa1e234602c6443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86f0c795719240b9cb6057b2f270f5a2" id="r_a86f0c795719240b9cb6057b2f270f5a2"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86f0c795719240b9cb6057b2f270f5a2">__iter__</a> (self)</td></tr>
+<tr class="separator:a86f0c795719240b9cb6057b2f270f5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa306cca8fbc8447e8dafb684f89e54f7" id="r_aa306cca8fbc8447e8dafb684f89e54f7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa306cca8fbc8447e8dafb684f89e54f7">__len__</a> (self)</td></tr>
+<tr class="separator:aa306cca8fbc8447e8dafb684f89e54f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5012216777279821bc584b4fd085198" id="r_ae5012216777279821bc584b4fd085198"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5012216777279821bc584b4fd085198">__ne__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a> arg0)</td></tr>
+<tr class="separator:ae5012216777279821bc584b4fd085198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada26f715a4f6241b22a490f1b81d7636" id="r_ada26f715a4f6241b22a490f1b81d7636"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada26f715a4f6241b22a490f1b81d7636">__repr__</a> (self)</td></tr>
+<tr class="separator:ada26f715a4f6241b22a490f1b81d7636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef78a930195f9eb2de9fb56dc48d896c" id="r_aef78a930195f9eb2de9fb56dc48d896c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef78a930195f9eb2de9fb56dc48d896c">__setitem__</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> arg1)</td></tr>
+<tr class="separator:aef78a930195f9eb2de9fb56dc48d896c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15cbc0206b7c70b44bd59f684da0f94" id="r_ac15cbc0206b7c70b44bd59f684da0f94"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac15cbc0206b7c70b44bd59f684da0f94">__setitem__</a> (self, slice arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a> arg1)</td></tr>
+<tr class="separator:ac15cbc0206b7c70b44bd59f684da0f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d28a5eebacd8da830d43baaf8297a0e" id="r_a3d28a5eebacd8da830d43baaf8297a0e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d28a5eebacd8da830d43baaf8297a0e">append</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> x)</td></tr>
+<tr class="separator:a3d28a5eebacd8da830d43baaf8297a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88c41b9d870258ea187a4f2123b0aa6" id="r_aa88c41b9d870258ea187a4f2123b0aa6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa88c41b9d870258ea187a4f2123b0aa6">clear</a> (self)</td></tr>
+<tr class="separator:aa88c41b9d870258ea187a4f2123b0aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac253461dee8d37b5c38870ba0ff7e188" id="r_ac253461dee8d37b5c38870ba0ff7e188"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac253461dee8d37b5c38870ba0ff7e188">count</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> x)</td></tr>
+<tr class="separator:ac253461dee8d37b5c38870ba0ff7e188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e259ce572d61d1e022c3a44452b8d21" id="r_a3e259ce572d61d1e022c3a44452b8d21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e259ce572d61d1e022c3a44452b8d21">empty</a> (self)</td></tr>
+<tr class="separator:a3e259ce572d61d1e022c3a44452b8d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac40eead6430070b57373a15915f1b292" id="r_ac40eead6430070b57373a15915f1b292"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40eead6430070b57373a15915f1b292">extend</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a> L)</td></tr>
+<tr class="separator:ac40eead6430070b57373a15915f1b292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8683629de9d7acb4f24f73700ff80fa4" id="r_a8683629de9d7acb4f24f73700ff80fa4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8683629de9d7acb4f24f73700ff80fa4">extend</a> (self, typing.Iterable L)</td></tr>
+<tr class="separator:a8683629de9d7acb4f24f73700ff80fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c8e9835849072f753c082af5c7af53" id="r_a98c8e9835849072f753c082af5c7af53"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c8e9835849072f753c082af5c7af53">insert</a> (self, int i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> x)</td></tr>
+<tr class="separator:a98c8e9835849072f753c082af5c7af53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2a7c57a42e99e137ef33b3e44240f4" id="r_a9f2a7c57a42e99e137ef33b3e44240f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f2a7c57a42e99e137ef33b3e44240f4">pop</a> (self)</td></tr>
+<tr class="separator:a9f2a7c57a42e99e137ef33b3e44240f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2689dd67da86cf07859746846734a0" id="r_a6f2689dd67da86cf07859746846734a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2689dd67da86cf07859746846734a0">pop</a> (self, int i)</td></tr>
+<tr class="separator:a6f2689dd67da86cf07859746846734a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac6873f946d65c82333a012fb3eb6e2" id="r_a2ac6873f946d65c82333a012fb3eb6e2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ac6873f946d65c82333a012fb3eb6e2">remove</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> x)</td></tr>
+<tr class="separator:a2ac6873f946d65c82333a012fb3eb6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54176fafcde3a72332fc90c2a32c676f" id="r_a54176fafcde3a72332fc90c2a32c676f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54176fafcde3a72332fc90c2a32c676f">resize</a> (self, int arg0)</td></tr>
+<tr class="separator:a54176fafcde3a72332fc90c2a32c676f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25fe6cc0df183c655720d66e16c3dca1" id="r_a25fe6cc0df183c655720d66e16c3dca1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25fe6cc0df183c655720d66e16c3dca1">resize</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> arg1)</td></tr>
+<tr class="separator:a25fe6cc0df183c655720d66e16c3dca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab33b5ce1911236c618d044fe2c198bc" id="r_aab33b5ce1911236c618d044fe2c198bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab33b5ce1911236c618d044fe2c198bc">size</a> (self)</td></tr>
+<tr class="separator:aab33b5ce1911236c618d044fe2c198bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Aliases:  std_vector_FaceBitSet
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6d92ed1835f385ce7a4af9b795829c75" name="a6d92ed1835f385ce7a4af9b795829c75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d92ed1835f385ce7a4af9b795829c75">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4877f957f2a51e4402d5ff74fd19138a" name="a4877f957f2a51e4402d5ff74fd19138a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4877f957f2a51e4402d5ff74fd19138a">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a696cae39202f2e453fa1e234602c6443" name="a696cae39202f2e453fa1e234602c6443"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696cae39202f2e453fa1e234602c6443">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2eee6fb209530e2f43373ba01680efc4" name="a2eee6fb209530e2f43373ba01680efc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eee6fb209530e2f43373ba01680efc4">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Check whether the list is nonempty
+</pre> 
+</div>
+</div>
+<a id="a2ec40f2127cd554235e3a1b7b9399419" name="a2ec40f2127cd554235e3a1b7b9399419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ec40f2127cd554235e3a1b7b9399419">&#9670;&#160;</a></span>__contains__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__contains__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return true the container contains ``x``
+</pre> 
+</div>
+</div>
+<a id="a7d2f62b8b9437e054e4929ba278552b3" name="a7d2f62b8b9437e054e4929ba278552b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d2f62b8b9437e054e4929ba278552b3">&#9670;&#160;</a></span>__delitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete the list elements at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a49fdd5e0088078cadf1ea5594c045a8d" name="a49fdd5e0088078cadf1ea5594c045a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49fdd5e0088078cadf1ea5594c045a8d">&#9670;&#160;</a></span>__delitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a5f20cc727c0046d33e9ef7852a336b72" name="a5f20cc727c0046d33e9ef7852a336b72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f20cc727c0046d33e9ef7852a336b72">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1b85fb52cbd57243f9852730269ed4d" name="af1b85fb52cbd57243f9852730269ed4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b85fb52cbd57243f9852730269ed4d">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56b4d54bdd53a5ac89323f3f6ffe8b5f" name="a56b4d54bdd53a5ac89323f3f6ffe8b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b4d54bdd53a5ac89323f3f6ffe8b5f">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a> meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Retrieve list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a86f0c795719240b9cb6057b2f270f5a2" name="a86f0c795719240b9cb6057b2f270f5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86f0c795719240b9cb6057b2f270f5a2">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa306cca8fbc8447e8dafb684f89e54f7" name="aa306cca8fbc8447e8dafb684f89e54f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa306cca8fbc8447e8dafb684f89e54f7">&#9670;&#160;</a></span>__len__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__len__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5012216777279821bc584b4fd085198" name="ae5012216777279821bc584b4fd085198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5012216777279821bc584b4fd085198">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada26f715a4f6241b22a490f1b81d7636" name="ada26f715a4f6241b22a490f1b81d7636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada26f715a4f6241b22a490f1b81d7636">&#9670;&#160;</a></span>__repr__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__repr__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return the canonical string representation of this map.
+</pre> 
+</div>
+</div>
+<a id="aef78a930195f9eb2de9fb56dc48d896c" name="aef78a930195f9eb2de9fb56dc48d896c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef78a930195f9eb2de9fb56dc48d896c">&#9670;&#160;</a></span>__setitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac15cbc0206b7c70b44bd59f684da0f94" name="ac15cbc0206b7c70b44bd59f684da0f94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15cbc0206b7c70b44bd59f684da0f94">&#9670;&#160;</a></span>__setitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Assign list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a3d28a5eebacd8da830d43baaf8297a0e" name="a3d28a5eebacd8da830d43baaf8297a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d28a5eebacd8da830d43baaf8297a0e">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.append </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Add an item to the end of the list
+</pre> 
+</div>
+</div>
+<a id="aa88c41b9d870258ea187a4f2123b0aa6" name="aa88c41b9d870258ea187a4f2123b0aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa88c41b9d870258ea187a4f2123b0aa6">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Clear the contents
+</pre> 
+</div>
+</div>
+<a id="ac253461dee8d37b5c38870ba0ff7e188" name="ac253461dee8d37b5c38870ba0ff7e188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac253461dee8d37b5c38870ba0ff7e188">&#9670;&#160;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.count </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return the number of times ``x`` appears in the list
+</pre> 
+</div>
+</div>
+<a id="a3e259ce572d61d1e022c3a44452b8d21" name="a3e259ce572d61d1e022c3a44452b8d21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e259ce572d61d1e022c3a44452b8d21">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac40eead6430070b57373a15915f1b292" name="ac40eead6430070b57373a15915f1b292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac40eead6430070b57373a15915f1b292">&#9670;&#160;</a></span>extend() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="a8683629de9d7acb4f24f73700ff80fa4" name="a8683629de9d7acb4f24f73700ff80fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8683629de9d7acb4f24f73700ff80fa4">&#9670;&#160;</a></span>extend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="a98c8e9835849072f753c082af5c7af53" name="a98c8e9835849072f753c082af5c7af53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98c8e9835849072f753c082af5c7af53">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.insert </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Insert an item at a given position.
+</pre> 
+</div>
+</div>
+<a id="a9f2a7c57a42e99e137ef33b3e44240f4" name="a9f2a7c57a42e99e137ef33b3e44240f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2a7c57a42e99e137ef33b3e44240f4">&#9670;&#160;</a></span>pop() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the last item
+</pre> 
+</div>
+</div>
+<a id="a6f2689dd67da86cf07859746846734a0" name="a6f2689dd67da86cf07859746846734a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2689dd67da86cf07859746846734a0">&#9670;&#160;</a></span>pop() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the item at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a2ac6873f946d65c82333a012fb3eb6e2" name="a2ac6873f946d65c82333a012fb3eb6e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac6873f946d65c82333a012fb3eb6e2">&#9670;&#160;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.remove </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove the first item from the list whose value is x. It is an error if there is no such item.
+</pre> 
+</div>
+</div>
+<a id="a54176fafcde3a72332fc90c2a32c676f" name="a54176fafcde3a72332fc90c2a32c676f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54176fafcde3a72332fc90c2a32c676f">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25fe6cc0df183c655720d66e16c3dca1" name="a25fe6cc0df183c655720d66e16c3dca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25fe6cc0df183c655720d66e16c3dca1">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab33b5ce1911236c618d044fe2c198bc" name="aab33b5ce1911236c618d044fe2c198bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab33b5ce1911236c618d044fe2c198bc">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_TaggedBitSet_FaceTag.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

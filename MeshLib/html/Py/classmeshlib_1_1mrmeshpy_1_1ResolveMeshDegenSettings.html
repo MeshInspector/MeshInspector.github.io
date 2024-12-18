@@ -1,0 +1,538 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1ResolveMeshDegenSettings.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.ResolveMeshDegenSettings Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1ResolveMeshDegenSettings.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1ResolveMeshDegenSettings-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.ResolveMeshDegenSettings Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a05d6c9949d8bbf25a82f2b02daf39892" id="r_a05d6c9949d8bbf25a82f2b02daf39892"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05d6c9949d8bbf25a82f2b02daf39892">__init__</a> (self)</td></tr>
+<tr class="separator:a05d6c9949d8bbf25a82f2b02daf39892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1f3b784189834cb3ee703398eff5e2" id="r_adf1f3b784189834cb3ee703398eff5e2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf1f3b784189834cb3ee703398eff5e2">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> arg0)</td></tr>
+<tr class="separator:adf1f3b784189834cb3ee703398eff5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74a0e142ec0fda536519e8cd8d88d6b2" id="r_a74a0e142ec0fda536519e8cd8d88d6b2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74a0e142ec0fda536519e8cd8d88d6b2">__init__</a> (self, int maxIters, float <a class="el" href="#a14adb99fbbbe196bf2a7d697ebd48e6c">maxDeviation</a>, float <a class="el" href="#a84de64dc670a71551030924fa3ff43e6">tinyEdgeLength</a>, float <a class="el" href="#ae7893744cc2b268e17687c5445ca9510">maxAngleChange</a>, float <a class="el" href="#acbed3b4f7ec02d4b1a128d5bfb24a2df">criticalAspectRatio</a>, float <a class="el" href="#acc63b2250a777ca3d236eb974c86c9f5">stabilizer</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> <a class="el" href="#a4e95a02e35e8a3c26d5d3cbf2a682c81">region</a>)</td></tr>
+<tr class="separator:a74a0e142ec0fda536519e8cd8d88d6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbed3b4f7ec02d4b1a128d5bfb24a2df" id="r_acbed3b4f7ec02d4b1a128d5bfb24a2df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbed3b4f7ec02d4b1a128d5bfb24a2df">criticalAspectRatio</a> (self)</td></tr>
+<tr class="separator:acbed3b4f7ec02d4b1a128d5bfb24a2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47b7f055829d0c80c12a5ad636809c96" id="r_a47b7f055829d0c80c12a5ad636809c96"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47b7f055829d0c80c12a5ad636809c96">criticalAspectRatio</a> (self, float arg1)</td></tr>
+<tr class="separator:a47b7f055829d0c80c12a5ad636809c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7893744cc2b268e17687c5445ca9510" id="r_ae7893744cc2b268e17687c5445ca9510"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7893744cc2b268e17687c5445ca9510">maxAngleChange</a> (self)</td></tr>
+<tr class="separator:ae7893744cc2b268e17687c5445ca9510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a101ac0a7f1a7a80706825baca61aea" id="r_a6a101ac0a7f1a7a80706825baca61aea"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a101ac0a7f1a7a80706825baca61aea">maxAngleChange</a> (self, float arg1)</td></tr>
+<tr class="separator:a6a101ac0a7f1a7a80706825baca61aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14adb99fbbbe196bf2a7d697ebd48e6c" id="r_a14adb99fbbbe196bf2a7d697ebd48e6c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14adb99fbbbe196bf2a7d697ebd48e6c">maxDeviation</a> (self)</td></tr>
+<tr class="separator:a14adb99fbbbe196bf2a7d697ebd48e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e01980825b66738cc2f61c8f28ab134" id="r_a0e01980825b66738cc2f61c8f28ab134"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e01980825b66738cc2f61c8f28ab134">maxDeviation</a> (self, float arg1)</td></tr>
+<tr class="separator:a0e01980825b66738cc2f61c8f28ab134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e95a02e35e8a3c26d5d3cbf2a682c81" id="r_a4e95a02e35e8a3c26d5d3cbf2a682c81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e95a02e35e8a3c26d5d3cbf2a682c81">region</a> (self)</td></tr>
+<tr class="separator:a4e95a02e35e8a3c26d5d3cbf2a682c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abccaad53088747db67d368bfbbf0f489" id="r_abccaad53088747db67d368bfbbf0f489"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abccaad53088747db67d368bfbbf0f489">region</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> arg1)</td></tr>
+<tr class="separator:abccaad53088747db67d368bfbbf0f489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc63b2250a777ca3d236eb974c86c9f5" id="r_acc63b2250a777ca3d236eb974c86c9f5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc63b2250a777ca3d236eb974c86c9f5">stabilizer</a> (self)</td></tr>
+<tr class="separator:acc63b2250a777ca3d236eb974c86c9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa455dd48f55efd0be600a3d56fcc435d" id="r_aa455dd48f55efd0be600a3d56fcc435d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa455dd48f55efd0be600a3d56fcc435d">stabilizer</a> (self, float arg1)</td></tr>
+<tr class="separator:aa455dd48f55efd0be600a3d56fcc435d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84de64dc670a71551030924fa3ff43e6" id="r_a84de64dc670a71551030924fa3ff43e6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84de64dc670a71551030924fa3ff43e6">tinyEdgeLength</a> (self)</td></tr>
+<tr class="separator:a84de64dc670a71551030924fa3ff43e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee0acede09d816d040d6eced04b5a48" id="r_a0ee0acede09d816d040d6eced04b5a48"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ee0acede09d816d040d6eced04b5a48">tinyEdgeLength</a> (self, float arg1)</td></tr>
+<tr class="separator:a0ee0acede09d816d040d6eced04b5a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::ResolveMeshDegenSettings
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a05d6c9949d8bbf25a82f2b02daf39892" name="a05d6c9949d8bbf25a82f2b02daf39892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d6c9949d8bbf25a82f2b02daf39892">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+</div>
+</div>
+<a id="adf1f3b784189834cb3ee703398eff5e2" name="adf1f3b784189834cb3ee703398eff5e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf1f3b784189834cb3ee703398eff5e2">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<a id="a74a0e142ec0fda536519e8cd8d88d6b2" name="a74a0e142ec0fda536519e8cd8d88d6b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74a0e142ec0fda536519e8cd8d88d6b2">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxIters</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDeviation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>tinyEdgeLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxAngleChange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>criticalAspectRatio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>stabilizer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit aggregate constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="acbed3b4f7ec02d4b1a128d5bfb24a2df" name="acbed3b4f7ec02d4b1a128d5bfb24a2df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbed3b4f7ec02d4b1a128d5bfb24a2df">&#9670;&#160;</a></span>criticalAspectRatio() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.ResolveMeshDegenSettings.criticalAspectRatio </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value;
+and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio
+</pre> 
+</div>
+</div>
+<a id="a47b7f055829d0c80c12a5ad636809c96" name="a47b7f055829d0c80c12a5ad636809c96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47b7f055829d0c80c12a5ad636809c96">&#9670;&#160;</a></span>criticalAspectRatio() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.criticalAspectRatio </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7893744cc2b268e17687c5445ca9510" name="ae7893744cc2b268e17687c5445ca9510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7893744cc2b268e17687c5445ca9510">&#9670;&#160;</a></span>maxAngleChange() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.ResolveMeshDegenSettings.maxAngleChange </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Permit edge flips if it does not change dihedral angle more than on this value
+</pre> 
+</div>
+</div>
+<a id="a6a101ac0a7f1a7a80706825baca61aea" name="a6a101ac0a7f1a7a80706825baca61aea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a101ac0a7f1a7a80706825baca61aea">&#9670;&#160;</a></span>maxAngleChange() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.maxAngleChange </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14adb99fbbbe196bf2a7d697ebd48e6c" name="a14adb99fbbbe196bf2a7d697ebd48e6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14adb99fbbbe196bf2a7d697ebd48e6c">&#9670;&#160;</a></span>maxDeviation() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.ResolveMeshDegenSettings.maxDeviation </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">maximum permitted deviation from the original surface
+</pre> 
+</div>
+</div>
+<a id="a0e01980825b66738cc2f61c8f28ab134" name="a0e01980825b66738cc2f61c8f28ab134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e01980825b66738cc2f61c8f28ab134">&#9670;&#160;</a></span>maxDeviation() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.maxDeviation </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e95a02e35e8a3c26d5d3cbf2a682c81" name="a4e95a02e35e8a3c26d5d3cbf2a682c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e95a02e35e8a3c26d5d3cbf2a682c81">&#9670;&#160;</a></span>region() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> meshlib.mrmeshpy.ResolveMeshDegenSettings.region </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">degenerations will be fixed only in given region, which is updated during the processing
+</pre> 
+</div>
+</div>
+<a id="abccaad53088747db67d368bfbbf0f489" name="abccaad53088747db67d368bfbbf0f489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abccaad53088747db67d368bfbbf0f489">&#9670;&#160;</a></span>region() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.region </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc63b2250a777ca3d236eb974c86c9f5" name="acc63b2250a777ca3d236eb974c86c9f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc63b2250a777ca3d236eb974c86c9f5">&#9670;&#160;</a></span>stabilizer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.ResolveMeshDegenSettings.stabilizer </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Small stabilizer is important to achieve good results on completely planar mesh parts,
+if your mesh is not-planer everywhere, then you can set it to zero
+</pre> 
+</div>
+</div>
+<a id="aa455dd48f55efd0be600a3d56fcc435d" name="aa455dd48f55efd0be600a3d56fcc435d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa455dd48f55efd0be600a3d56fcc435d">&#9670;&#160;</a></span>stabilizer() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.stabilizer </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84de64dc670a71551030924fa3ff43e6" name="a84de64dc670a71551030924fa3ff43e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84de64dc670a71551030924fa3ff43e6">&#9670;&#160;</a></span>tinyEdgeLength() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.ResolveMeshDegenSettings.tinyEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">edges not longer than this value will be collapsed ignoring normals and aspect ratio checks
+</pre> 
+</div>
+</div>
+<a id="a0ee0acede09d816d040d6eced04b5a48" name="a0ee0acede09d816d040d6eced04b5a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ee0acede09d816d040d6eced04b5a48">&#9670;&#160;</a></span>tinyEdgeLength() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ResolveMeshDegenSettings.tinyEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

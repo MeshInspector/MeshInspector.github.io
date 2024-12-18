@@ -1,0 +1,210 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1VertBitSet-members.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: Member List</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1VertBitSet.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.VertBitSet Member List</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>This is the complete list of members for <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af149a99dc79d5f73abb9009b4940b25b">__and__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a1f41393a36baa333dc264cb7296af76a">__eq__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ad74778ef86d95b04e8cb1c9a8d787f33">__iand__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">__init__</a>(self, BitSet src)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">__init__</a>(self, BitSet src)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af08975076f2066bf1c37665fc5668240">__init__</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a46442e9e0dba5338318121a614ee72ff">__init__</a>(self, VertBitSet arg0)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a84f467a9ed43ec330184b07dc9cda960">__ior__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a18c8b87de9257724b5fa4258ad99b0b0">__isub__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a9b5e6c248bb9157acfac404eb03658f5">__iter__</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ade981ae5b5313355497edf0f8e6e73b1">__ixor__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#afa9f3b45999a64ce9e5ec7fca12cbe41">__or__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a173ee11c31a1db31c246e2b8895f5cc7">__sub__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#aed56fe653b2770828b120215554cef05">__xor__</a>(self, VertBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a3693e6b5ee7cba32edd1b8a273108a6a">autoResizeSet</a>(self, VertId pos, int len, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a810abd17879e686d1ab16be21b9d11aa">autoResizeSet</a>(self, VertId pos, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac960b5e5c2dac42755036cecd95ad5dc">autoResizeTestSet</a>(self, VertId pos, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac648195cb0428ea3ec98c2aaf250e3f2">backId</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#adb5f451de1587905ada623a3c6736209">beginId</a>()</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a98b61933ecacb3f5e08b92571ffe5c83">endId</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a15022e840f88cddebe06b3ed04706b10">find_first</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ad8dd663197b79327258a592ec24e3f94">find_last</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a5a3f145793827531721fe8ac791a15b7">find_next</a>(self, VertId pos)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac972f0da4cb2f8ffe7541c92bf24e01e">flip</a>(self, VertId n, int len)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a96f71d582061eae27b2adcf3b2a95c23">flip</a>(self, VertId n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af85d2686e97fc07db9d8e5ad3b60832e">flip</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ae555d2bca970107b276baff85f88c56f">getMapping</a>(self, VertMap map)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a077a0d453b897380a3fa3be0e23ef55c">getMapping</a>(self, VertBMap map)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#aef59c33de6662e91dab69eb6161f9631">getMapping</a>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag map)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a6f500893f60464e49846bc8c419427b1">getMapping</a>(self, VertMap map, int resSize)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a176c166b77c84d6ce81780f1586902af">getMapping</a>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag map, int resSize)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a177aa060c11393af34dd7c013eb4e1c9">nthSetBit</a>(self, int n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a3309cc7dcba3054478890fb62d3c33be">operator</a>(self, VertId pos)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a2e2d954817e189b58b3fc7fe7875765b">reset</a>(self, VertId n, int len)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a731339615939b350520f78ff8eb80fab">reset</a>(self, VertId n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a598d1fc64b6165ecb40206c524d38de4">reset</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ada679da6f5617a24bbb32b66e8a64118">set</a>(self, VertId n, int len, bool val)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a67f45d6eaf405b4bc8e356a8bc2ad7e6">set</a>(self, VertId n, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a5c808021efe1f34256d14acc4642a947">set</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a5d6d6a801467840b469ce19967df7cf3">subtract</a>(self, VertBitSet b, int bShiftInBlocks)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a206026b3628d436393c9896a945bc009">test</a>(self, VertId n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a7b98d0f8af61dbae41cce50ff84031a3">test_set</a>(self, VertId n, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

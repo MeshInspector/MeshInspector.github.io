@@ -1,0 +1,655 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1Vector4i.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Vector4i Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Vector4i.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Vector4i-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Vector4i Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9a1f16ffa5d196a5ba51a5aac96f0113" id="r_a9a1f16ffa5d196a5ba51a5aac96f0113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a1f16ffa5d196a5ba51a5aac96f0113">__add__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> b)</td></tr>
+<tr class="separator:a9a1f16ffa5d196a5ba51a5aac96f0113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac82ba6af2b449391900febc0ea3b2318" id="r_ac82ba6af2b449391900febc0ea3b2318"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac82ba6af2b449391900febc0ea3b2318">__iadd__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> b)</td></tr>
+<tr class="separator:ac82ba6af2b449391900febc0ea3b2318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a588c01ff438890db34cef33af4a6ee5e" id="r_a588c01ff438890db34cef33af4a6ee5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a588c01ff438890db34cef33af4a6ee5e">__imatmul__</a> (self, int b)</td></tr>
+<tr class="separator:a588c01ff438890db34cef33af4a6ee5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc93e4b59680fe2fea8e839f606e8a0" id="r_a2bc93e4b59680fe2fea8e839f606e8a0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bc93e4b59680fe2fea8e839f606e8a0">__init__</a> (self)</td></tr>
+<tr class="separator:a2bc93e4b59680fe2fea8e839f606e8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97bea9065b01a4edc85af4a447995ac" id="r_ac97bea9065b01a4edc85af4a447995ac"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97bea9065b01a4edc85af4a447995ac">__init__</a> (self, int x, int y, int z, int w)</td></tr>
+<tr class="separator:ac97bea9065b01a4edc85af4a447995ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ffef167292c6bebf9a2d86c6eb83db" id="r_af4ffef167292c6bebf9a2d86c6eb83db"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ffef167292c6bebf9a2d86c6eb83db">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> arg0)</td></tr>
+<tr class="separator:af4ffef167292c6bebf9a2d86c6eb83db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae055742b6c9cde849b1eb470b18cc59e" id="r_ae055742b6c9cde849b1eb470b18cc59e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae055742b6c9cde849b1eb470b18cc59e">__isub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> b)</td></tr>
+<tr class="separator:ae055742b6c9cde849b1eb470b18cc59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8a7fdc1eebf4d4890145ca3a6aa152" id="r_acb8a7fdc1eebf4d4890145ca3a6aa152"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb8a7fdc1eebf4d4890145ca3a6aa152">__iter__</a> (self)</td></tr>
+<tr class="separator:acb8a7fdc1eebf4d4890145ca3a6aa152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e21ff8921071f55f65ae5e843181af0" id="r_a1e21ff8921071f55f65ae5e843181af0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e21ff8921071f55f65ae5e843181af0">__itruediv__</a> (self, int b)</td></tr>
+<tr class="separator:a1e21ff8921071f55f65ae5e843181af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5b877bf7f74b6c05fb2eb06a27acfe" id="r_a3e5b877bf7f74b6c05fb2eb06a27acfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e5b877bf7f74b6c05fb2eb06a27acfe">__neg__</a> (self)</td></tr>
+<tr class="separator:a3e5b877bf7f74b6c05fb2eb06a27acfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9719fa2d6dd4ac08ffd5434d41add69e" id="r_a9719fa2d6dd4ac08ffd5434d41add69e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9719fa2d6dd4ac08ffd5434d41add69e">__pos__</a> (self)</td></tr>
+<tr class="separator:a9719fa2d6dd4ac08ffd5434d41add69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ddd45359d4d55534fb0499c18a9768" id="r_a90ddd45359d4d55534fb0499c18a9768"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90ddd45359d4d55534fb0499c18a9768">__sub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> b)</td></tr>
+<tr class="separator:a90ddd45359d4d55534fb0499c18a9768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac647a517e773f3545aef975d32117d7e" id="r_ac647a517e773f3545aef975d32117d7e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac647a517e773f3545aef975d32117d7e">length</a> (self)</td></tr>
+<tr class="separator:ac647a517e773f3545aef975d32117d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ad5f605398165ed1bc2f666f1ed1dc" id="r_ae9ad5f605398165ed1bc2f666f1ed1dc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9ad5f605398165ed1bc2f666f1ed1dc">lengthSq</a> (self)</td></tr>
+<tr class="separator:ae9ad5f605398165ed1bc2f666f1ed1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac51f8f4e28f4ef3a4e6cabd731978bf7" id="r_ac51f8f4e28f4ef3a4e6cabd731978bf7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac51f8f4e28f4ef3a4e6cabd731978bf7">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:ac51f8f4e28f4ef3a4e6cabd731978bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f230edbf0e531c7f04872af79c689b" id="r_aa2f230edbf0e531c7f04872af79c689b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2f230edbf0e531c7f04872af79c689b">diagonal</a> (int a)</td></tr>
+<tr class="separator:aa2f230edbf0e531c7f04872af79c689b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a917c5a6356a6d43cea85a6d9d6205abd" id="r_a917c5a6356a6d43cea85a6d9d6205abd"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a917c5a6356a6d43cea85a6d9d6205abd">elements</a> = 4</td></tr>
+<tr class="separator:a917c5a6356a6d43cea85a6d9d6205abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a3a1e890758bc71758c84edd18a3fa038" id="r_a3a1e890758bc71758c84edd18a3fa038"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a1e890758bc71758c84edd18a3fa038">_Subscript</a> (self, int e)</td></tr>
+<tr class="separator:a3a1e890758bc71758c84edd18a3fa038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1e890758bc71758c84edd18a3fa038" id="r_a3a1e890758bc71758c84edd18a3fa038"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a1e890758bc71758c84edd18a3fa038">_Subscript</a> (self, int e)</td></tr>
+<tr class="separator:a3a1e890758bc71758c84edd18a3fa038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Vector4i
+Aliases:  Matrix4_int_VectorType, Vector4_int, Vector4_int
+
+four-dimensional vector
+\\ingroup VectorGroup
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac51f8f4e28f4ef3a4e6cabd731978bf7" name="ac51f8f4e28f4ef3a4e6cabd731978bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51f8f4e28f4ef3a4e6cabd731978bf7">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector4i.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bc93e4b59680fe2fea8e839f606e8a0" name="a2bc93e4b59680fe2fea8e839f606e8a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc93e4b59680fe2fea8e839f606e8a0">&#9670;&#160;</a></span>__init__() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector4i.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac97bea9065b01a4edc85af4a447995ac" name="ac97bea9065b01a4edc85af4a447995ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac97bea9065b01a4edc85af4a447995ac">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector4i.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>z</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>w</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4ffef167292c6bebf9a2d86c6eb83db" name="af4ffef167292c6bebf9a2d86c6eb83db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ffef167292c6bebf9a2d86c6eb83db">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector4i.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9a1f16ffa5d196a5ba51a5aac96f0113" name="a9a1f16ffa5d196a5ba51a5aac96f0113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1f16ffa5d196a5ba51a5aac96f0113">&#9670;&#160;</a></span>__add__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__add__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac82ba6af2b449391900febc0ea3b2318" name="ac82ba6af2b449391900febc0ea3b2318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac82ba6af2b449391900febc0ea3b2318">&#9670;&#160;</a></span>__iadd__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__iadd__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a588c01ff438890db34cef33af4a6ee5e" name="a588c01ff438890db34cef33af4a6ee5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a588c01ff438890db34cef33af4a6ee5e">&#9670;&#160;</a></span>__imatmul__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__imatmul__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae055742b6c9cde849b1eb470b18cc59e" name="ae055742b6c9cde849b1eb470b18cc59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae055742b6c9cde849b1eb470b18cc59e">&#9670;&#160;</a></span>__isub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__isub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb8a7fdc1eebf4d4890145ca3a6aa152" name="acb8a7fdc1eebf4d4890145ca3a6aa152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8a7fdc1eebf4d4890145ca3a6aa152">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.Vector4i.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e21ff8921071f55f65ae5e843181af0" name="a1e21ff8921071f55f65ae5e843181af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e21ff8921071f55f65ae5e843181af0">&#9670;&#160;</a></span>__itruediv__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__itruediv__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e5b877bf7f74b6c05fb2eb06a27acfe" name="a3e5b877bf7f74b6c05fb2eb06a27acfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5b877bf7f74b6c05fb2eb06a27acfe">&#9670;&#160;</a></span>__neg__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__neg__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9719fa2d6dd4ac08ffd5434d41add69e" name="a9719fa2d6dd4ac08ffd5434d41add69e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9719fa2d6dd4ac08ffd5434d41add69e">&#9670;&#160;</a></span>__pos__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__pos__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90ddd45359d4d55534fb0499c18a9768" name="a90ddd45359d4d55534fb0499c18a9768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90ddd45359d4d55534fb0499c18a9768">&#9670;&#160;</a></span>__sub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.__sub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a1e890758bc71758c84edd18a3fa038" name="a3a1e890758bc71758c84edd18a3fa038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1e890758bc71758c84edd18a3fa038">&#9670;&#160;</a></span>_Subscript() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector4i._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a1e890758bc71758c84edd18a3fa038" name="a3a1e890758bc71758c84edd18a3fa038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1e890758bc71758c84edd18a3fa038">&#9670;&#160;</a></span>_Subscript() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector4i._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2f230edbf0e531c7f04872af79c689b" name="aa2f230edbf0e531c7f04872af79c689b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2f230edbf0e531c7f04872af79c689b">&#9670;&#160;</a></span>diagonal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a> meshlib.mrmeshpy.Vector4i.diagonal </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac647a517e773f3545aef975d32117d7e" name="ac647a517e773f3545aef975d32117d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac647a517e773f3545aef975d32117d7e">&#9670;&#160;</a></span>length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Vector4i.length </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9ad5f605398165ed1bc2f666f1ed1dc" name="ae9ad5f605398165ed1bc2f666f1ed1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9ad5f605398165ed1bc2f666f1ed1dc">&#9670;&#160;</a></span>lengthSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector4i.lengthSq </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a917c5a6356a6d43cea85a6d9d6205abd" name="a917c5a6356a6d43cea85a6d9d6205abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917c5a6356a6d43cea85a6d9d6205abd">&#9670;&#160;</a></span>elements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing meshlib.mrmeshpy.Vector4i.elements = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector4i.html">Vector4i</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

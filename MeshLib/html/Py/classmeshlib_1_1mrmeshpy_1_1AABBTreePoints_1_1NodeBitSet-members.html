@@ -1,0 +1,209 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet-members.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: Member List</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet Member List</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>This is the complete list of members for <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a5a52a1fd120d59e3a0a35640b330cd95">__and__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a6052f921e2581f29a48bbf146d4e16fb">__iand__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">__init__</a>(self, BitSet src)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">__init__</a>(self, BitSet src)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#adf2e1cc7abd5c39f3ce41adf535863fb">__init__</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#acd5a65263842cbc3d6d0cca94474c8bf">__init__</a>(self, NodeBitSet arg0)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aaa82886a37503ecf9f2c46213721bedf">__ior__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a658e43825a5cd19505ceb9ba5ecca662">__isub__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a66254660f979f0ce7118f1409d475adc">__iter__</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a574f3ce59f2b28b223863324265c65c9">__ixor__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a92073f453638435afb0292f8b5310536">__or__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a279a87db672c7764c9b8562ab8dfa41d">__sub__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#afe15ac2feb1b19010b6be5ddee30d2d2">__xor__</a>(self, NodeBitSet b)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a78aac9117dc12685945a9e5f7a738fef">autoResizeSet</a>(self, NodeId pos, int len, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ad9bb0f7fad0180f2ac8e346e98a9f61e">autoResizeSet</a>(self, NodeId pos, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a2431bfa592e741a702a15d9dbd804fb3">autoResizeTestSet</a>(self, NodeId pos, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a8c4569ee2e981b26c89d10e88c6a8c38">backId</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a52dcef7e5650fcc5ead10c416590f5a0">beginId</a>()</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ab7639c561cc99921437539fa0eb82bad">endId</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a3545aaafdd1cc8e4b8f7a5a5afad6fec">find_first</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1bead1aab4cf6bacbbc09730d87998cf">find_last</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a62d067b1dd71cc2b15550c0d94763780">find_next</a>(self, NodeId pos)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1cecb9ed7d20ee9b107438870d1db302">flip</a>(self, NodeId n, int len)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a5f76b4d8a44000e998495437a3a2c232">flip</a>(self, NodeId n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a6f7129fd37eb5a8b8beafd81d97d2f0e">flip</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a9ee910b8def8f1d5cd6bb8afe4987785">getMapping</a>(self, Vector_NodeId_NodeId map)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aef816e2ab5b50cfb9e7898f7ec66bd95">getMapping</a>(self, BMap_NodeId_NodeId map)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a7ae984d1d90b1115dad8a5062681989a">getMapping</a>(self, phmap_flat_hash_map_Id_NodeTag_Id_NodeTag map)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af54364942f14a60f543efa043bdc4738">getMapping</a>(self, Vector_NodeId_NodeId map, int resSize)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aa111ff9550258c13cfc17f1e1bfc8f82">getMapping</a>(self, phmap_flat_hash_map_Id_NodeTag_Id_NodeTag map, int resSize)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a85d66fb5602ac3ad5dcca7c72f6982fb">nthSetBit</a>(self, int n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af8e7ee2b28f1bdcebb3c24614134a0b2">operator</a>(self, NodeId pos)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a4ce81bd82c138998b5b2184a2591bd3a">reset</a>(self, NodeId n, int len)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af85ac757b86fcd25fc681ceb0cf0f38a">reset</a>(self, NodeId n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1fd14336c25cdfa5c6b9aeee9b73a987">reset</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a08d844c003ce521d18d6cd04f5514a22">set</a>(self, NodeId n, int len, bool val)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a3d41a3db6163a49798311bfa1e0b781e">set</a>(self, NodeId n, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af8602f69b040afe4eaa6de06b7d96de4">set</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aeb0a397be4b0f957881647009acc51f1">subtract</a>(self, NodeBitSet b, int bShiftInBlocks)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a96d0534b36617b99a8371e0283e4367b">test</a>(self, NodeId n)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a66f3e85f7890e9d274efa5e43ab49483">test_set</a>(self, NodeId n, bool val=True)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

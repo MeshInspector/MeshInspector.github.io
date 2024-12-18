@@ -1,0 +1,707 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.std_vector_SkyPatch Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.std_vector_SkyPatch Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a98f90d86ce4beef390e9d24f8d7e2dbf" id="r_a98f90d86ce4beef390e9d24f8d7e2dbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f90d86ce4beef390e9d24f8d7e2dbf">__bool__</a> (self)</td></tr>
+<tr class="separator:a98f90d86ce4beef390e9d24f8d7e2dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448c798f81661f502c23125311790000" id="r_a448c798f81661f502c23125311790000"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448c798f81661f502c23125311790000">__delitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:a448c798f81661f502c23125311790000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e34bfd23736db35c3aeade57a05579e" id="r_a2e34bfd23736db35c3aeade57a05579e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e34bfd23736db35c3aeade57a05579e">__delitem__</a> (self, slice arg0)</td></tr>
+<tr class="separator:a2e34bfd23736db35c3aeade57a05579e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0812ab3dae2ec1ef0b047d5768a4da91" id="r_a0812ab3dae2ec1ef0b047d5768a4da91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0812ab3dae2ec1ef0b047d5768a4da91">__getitem__</a> (self, slice s)</td></tr>
+<tr class="separator:a0812ab3dae2ec1ef0b047d5768a4da91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47053daf908b4583ad82249b26ef044c" id="r_a47053daf908b4583ad82249b26ef044c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47053daf908b4583ad82249b26ef044c">__getitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:a47053daf908b4583ad82249b26ef044c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3614ec14597f3e1c0745ab7602a847" id="r_abf3614ec14597f3e1c0745ab7602a847"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf3614ec14597f3e1c0745ab7602a847">__init__</a> (self)</td></tr>
+<tr class="separator:abf3614ec14597f3e1c0745ab7602a847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55260d373d0b5106460d3de8c8733555" id="r_a55260d373d0b5106460d3de8c8733555"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55260d373d0b5106460d3de8c8733555">__init__</a> (self, typing.Iterable arg0)</td></tr>
+<tr class="separator:a55260d373d0b5106460d3de8c8733555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b3959a20693d2ba59860d6ce464960" id="r_a69b3959a20693d2ba59860d6ce464960"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69b3959a20693d2ba59860d6ce464960">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a> arg0)</td></tr>
+<tr class="separator:a69b3959a20693d2ba59860d6ce464960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5523bd474114105fd06da56d4351e7f1" id="r_a5523bd474114105fd06da56d4351e7f1"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5523bd474114105fd06da56d4351e7f1">__iter__</a> (self)</td></tr>
+<tr class="separator:a5523bd474114105fd06da56d4351e7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc43b1664cc995349c8b40c9104f077c" id="r_adc43b1664cc995349c8b40c9104f077c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc43b1664cc995349c8b40c9104f077c">__len__</a> (self)</td></tr>
+<tr class="separator:adc43b1664cc995349c8b40c9104f077c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c47a4260c8eaa7e25aeee7e239cba02" id="r_a3c47a4260c8eaa7e25aeee7e239cba02"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c47a4260c8eaa7e25aeee7e239cba02">__setitem__</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a> arg1)</td></tr>
+<tr class="separator:a3c47a4260c8eaa7e25aeee7e239cba02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0441eed37c3aab541f9c5fb4db51de7a" id="r_a0441eed37c3aab541f9c5fb4db51de7a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0441eed37c3aab541f9c5fb4db51de7a">__setitem__</a> (self, slice arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a> arg1)</td></tr>
+<tr class="separator:a0441eed37c3aab541f9c5fb4db51de7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2fe413c30aae8d92f980319e3e3eabf" id="r_af2fe413c30aae8d92f980319e3e3eabf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2fe413c30aae8d92f980319e3e3eabf">append</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a> x)</td></tr>
+<tr class="separator:af2fe413c30aae8d92f980319e3e3eabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f725bbde5cb68cd417b65e7a895f407" id="r_a5f725bbde5cb68cd417b65e7a895f407"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f725bbde5cb68cd417b65e7a895f407">clear</a> (self)</td></tr>
+<tr class="separator:a5f725bbde5cb68cd417b65e7a895f407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1130d691be3d283bfc19af821be504" id="r_a5b1130d691be3d283bfc19af821be504"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b1130d691be3d283bfc19af821be504">empty</a> (self)</td></tr>
+<tr class="separator:a5b1130d691be3d283bfc19af821be504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7602bdef62892db1dea5d4a5519ed03f" id="r_a7602bdef62892db1dea5d4a5519ed03f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7602bdef62892db1dea5d4a5519ed03f">extend</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a> L)</td></tr>
+<tr class="separator:a7602bdef62892db1dea5d4a5519ed03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22d9eeebed6029a846be6f7d7bd60cc" id="r_aa22d9eeebed6029a846be6f7d7bd60cc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa22d9eeebed6029a846be6f7d7bd60cc">extend</a> (self, typing.Iterable L)</td></tr>
+<tr class="separator:aa22d9eeebed6029a846be6f7d7bd60cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630289f10cd67be9b1e25a23e44aae5a" id="r_a630289f10cd67be9b1e25a23e44aae5a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630289f10cd67be9b1e25a23e44aae5a">insert</a> (self, int i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a> x)</td></tr>
+<tr class="separator:a630289f10cd67be9b1e25a23e44aae5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07517879181f11e0aba5adf261492e0d" id="r_a07517879181f11e0aba5adf261492e0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07517879181f11e0aba5adf261492e0d">pop</a> (self)</td></tr>
+<tr class="separator:a07517879181f11e0aba5adf261492e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97eb4347f46033b0222aada51627a0f" id="r_af97eb4347f46033b0222aada51627a0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af97eb4347f46033b0222aada51627a0f">pop</a> (self, int i)</td></tr>
+<tr class="separator:af97eb4347f46033b0222aada51627a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa084ad92cb27368e8b190d8fd0aaf1bb" id="r_aa084ad92cb27368e8b190d8fd0aaf1bb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa084ad92cb27368e8b190d8fd0aaf1bb">resize</a> (self, int arg0)</td></tr>
+<tr class="separator:aa084ad92cb27368e8b190d8fd0aaf1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e587a38e877152f701c379940ab72a" id="r_a92e587a38e877152f701c379940ab72a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92e587a38e877152f701c379940ab72a">resize</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a> arg1)</td></tr>
+<tr class="separator:a92e587a38e877152f701c379940ab72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d2dea25d45b72d58c5fe062dcc3d65" id="r_a24d2dea25d45b72d58c5fe062dcc3d65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24d2dea25d45b72d58c5fe062dcc3d65">size</a> (self)</td></tr>
+<tr class="separator:a24d2dea25d45b72d58c5fe062dcc3d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="abf3614ec14597f3e1c0745ab7602a847" name="abf3614ec14597f3e1c0745ab7602a847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf3614ec14597f3e1c0745ab7602a847">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55260d373d0b5106460d3de8c8733555" name="a55260d373d0b5106460d3de8c8733555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55260d373d0b5106460d3de8c8733555">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69b3959a20693d2ba59860d6ce464960" name="a69b3959a20693d2ba59860d6ce464960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b3959a20693d2ba59860d6ce464960">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a98f90d86ce4beef390e9d24f8d7e2dbf" name="a98f90d86ce4beef390e9d24f8d7e2dbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f90d86ce4beef390e9d24f8d7e2dbf">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_SkyPatch.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Check whether the list is nonempty
+</pre> 
+</div>
+</div>
+<a id="a448c798f81661f502c23125311790000" name="a448c798f81661f502c23125311790000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448c798f81661f502c23125311790000">&#9670;&#160;</a></span>__delitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete the list elements at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a2e34bfd23736db35c3aeade57a05579e" name="a2e34bfd23736db35c3aeade57a05579e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e34bfd23736db35c3aeade57a05579e">&#9670;&#160;</a></span>__delitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a47053daf908b4583ad82249b26ef044c" name="a47053daf908b4583ad82249b26ef044c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47053daf908b4583ad82249b26ef044c">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a> meshlib.mrmeshpy.std_vector_SkyPatch.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0812ab3dae2ec1ef0b047d5768a4da91" name="a0812ab3dae2ec1ef0b047d5768a4da91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0812ab3dae2ec1ef0b047d5768a4da91">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a> meshlib.mrmeshpy.std_vector_SkyPatch.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Retrieve list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a5523bd474114105fd06da56d4351e7f1" name="a5523bd474114105fd06da56d4351e7f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5523bd474114105fd06da56d4351e7f1">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.std_vector_SkyPatch.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc43b1664cc995349c8b40c9104f077c" name="adc43b1664cc995349c8b40c9104f077c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc43b1664cc995349c8b40c9104f077c">&#9670;&#160;</a></span>__len__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_SkyPatch.__len__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c47a4260c8eaa7e25aeee7e239cba02" name="a3c47a4260c8eaa7e25aeee7e239cba02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c47a4260c8eaa7e25aeee7e239cba02">&#9670;&#160;</a></span>__setitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0441eed37c3aab541f9c5fb4db51de7a" name="a0441eed37c3aab541f9c5fb4db51de7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0441eed37c3aab541f9c5fb4db51de7a">&#9670;&#160;</a></span>__setitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Assign list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="af2fe413c30aae8d92f980319e3e3eabf" name="af2fe413c30aae8d92f980319e3e3eabf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2fe413c30aae8d92f980319e3e3eabf">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.append </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Add an item to the end of the list
+</pre> 
+</div>
+</div>
+<a id="a5f725bbde5cb68cd417b65e7a895f407" name="a5f725bbde5cb68cd417b65e7a895f407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f725bbde5cb68cd417b65e7a895f407">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Clear the contents
+</pre> 
+</div>
+</div>
+<a id="a5b1130d691be3d283bfc19af821be504" name="a5b1130d691be3d283bfc19af821be504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b1130d691be3d283bfc19af821be504">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_SkyPatch.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7602bdef62892db1dea5d4a5519ed03f" name="a7602bdef62892db1dea5d4a5519ed03f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7602bdef62892db1dea5d4a5519ed03f">&#9670;&#160;</a></span>extend() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="aa22d9eeebed6029a846be6f7d7bd60cc" name="aa22d9eeebed6029a846be6f7d7bd60cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa22d9eeebed6029a846be6f7d7bd60cc">&#9670;&#160;</a></span>extend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="a630289f10cd67be9b1e25a23e44aae5a" name="a630289f10cd67be9b1e25a23e44aae5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630289f10cd67be9b1e25a23e44aae5a">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.insert </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Insert an item at a given position.
+</pre> 
+</div>
+</div>
+<a id="a07517879181f11e0aba5adf261492e0d" name="a07517879181f11e0aba5adf261492e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07517879181f11e0aba5adf261492e0d">&#9670;&#160;</a></span>pop() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a> meshlib.mrmeshpy.std_vector_SkyPatch.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the last item
+</pre> 
+</div>
+</div>
+<a id="af97eb4347f46033b0222aada51627a0f" name="af97eb4347f46033b0222aada51627a0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af97eb4347f46033b0222aada51627a0f">&#9670;&#160;</a></span>pop() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a> meshlib.mrmeshpy.std_vector_SkyPatch.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the item at index ``i``
+</pre> 
+</div>
+</div>
+<a id="aa084ad92cb27368e8b190d8fd0aaf1bb" name="aa084ad92cb27368e8b190d8fd0aaf1bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa084ad92cb27368e8b190d8fd0aaf1bb">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92e587a38e877152f701c379940ab72a" name="a92e587a38e877152f701c379940ab72a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e587a38e877152f701c379940ab72a">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_SkyPatch.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SkyPatch.html">SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24d2dea25d45b72d58c5fe062dcc3d65" name="a24d2dea25d45b72d58c5fe062dcc3d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d2dea25d45b72d58c5fe062dcc3d65">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_SkyPatch.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">std_vector_SkyPatch</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

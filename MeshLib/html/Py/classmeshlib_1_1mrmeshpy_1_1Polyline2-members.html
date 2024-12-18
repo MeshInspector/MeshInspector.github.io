@@ -1,0 +1,206 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1Polyline2-members.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: Member List</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Polyline2.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Polyline2 Member List</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>This is the complete list of members for <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a176c0d1cc5e592b0af6551c9b9070d36">__init__</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a1a800b41cd31babbdabfd6937a6c3651">__init__</a>(self, std_vector_std_vector_Vector2_float contours)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a19ef963795e02611a18f8a5f3c8b7e2f">__init__</a>(self, std_vector_std_vector_Vector3_float contours)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a1d2bd99e05ad232ca280de25c6e08e24">__init__</a>(self, std_vector_Id_VertTag comp2firstVert, VertUVCoords ps)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a712d0b9d449068d8faa6a5a62ae71cd1">__init__</a>(self, Polyline2 arg0)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a4b469d7adbe3ce6bb47c0032c10a72e5">addFromEdgePath</a>(self, Mesh mesh, std_vector_Id_EdgeTag path)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a9beddba6dc2d5852171382080678641a">addFromGeneralSurfacePath</a>(self, Mesh mesh, MeshTriPoint start, std_vector_EdgePoint path, MeshTriPoint end)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#ac58e249dd9c00c7a2f7fc3063d4988cc">addFromPoints</a>(self, Vector2f vs, int num, bool closed)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a5d92e7545b1f4494c9540e3e08001345">addFromPoints</a>(self, Vector2f vs, int num)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a62290ea8b5de82569861e1c740a6b696">addFromSurfacePath</a>(self, Mesh mesh, std_vector_EdgePoint path)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#ae2a486652897e49aceb7f798b073456d">addPart</a>(self, Polyline2 from_, VertMap outVmap=None, WholeEdgeMap outEmap=None)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#acde64fcaf5e1c183f5e15ee1e7ef0b2b">addPartByMask</a>(self, Polyline2 from_, UndirectedEdgeBitSet mask, VertMap outVmap=None, EdgeMap outEmap=None)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a9c02ac9648d91cd0e65a475f76d154f7">computeBoundingBox</a>(self, AffineXf2f toWorld=None)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a6ea2e3948e3346c150e5a1e205a062e3">contours</a>(self, std_vector_std_vector_Id_VertTag vertMap=None)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a9e61f9b84c7d27a68b3cbd6e6a1d7584">contours2</a>(self, std_vector_std_vector_Id_VertTag vertMap=None)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a6cccc4a4837814600acbbd8fc0bbe898">destPnt</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#adadbd4b80b5cd40e216f4371161b29f2">edgeCenter</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#acd0f365affbd51fcb2750a5d169ce07d">edgeLength</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#af6c352e8a9aaf86c9a0f053e89b4558f">edgeLengthSq</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#ae6f909be66129861a2799efab9940fb5">edgePoint</a>(self, Id_EdgeTag e, float f)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#acf0c631e4bead51f1f8aca80e91ebc36">edgePoint</a>(self, EdgePoint ep)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a5059465d7bfc8d31c033676634e500cd">edgeSegment</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a186790c87c95b0d891c927df6fed5dde">edgeVector</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a77f0990b44e1f81eb3262af5139562c1">findCenterFromPoints</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a56786fa0718bbd28dc9de5e8129a0d57">getAABBTree</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#aa746eb0a4d3201c5bf85a4caf063f145">getAABBTreeNotCreate</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a4c1dfe76749c1f0bf6830463149b4764">getBoundingBox</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a181e02783f8069a1052de88ef20fa655">heapBytes</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a0118dd91104e0daf84d93863c0e1470f">invalidateCaches</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#aa79609028a5e24402476d7852e698eb9">loopDirArea</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#adbafed1fbb1574b21393684809b4133e">orgPnt</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#aacdba5bd8259faa35fbcccbff21a62d9">pack</a>(self, VertMap outVmap=None, WholeEdgeMap outEmap=None)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a66e4be98c191a0a333c8ea3c5400dfad">splitEdge</a>(self, Id_EdgeTag e, Vector2f newVertPos)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#ac85cd54565485f0e4d4d992fcda07eee">splitEdge</a>(self, Id_EdgeTag e)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#a7586c8fde3b8cfd7af95c793b959d48d">toEdgePoint</a>(self, VertId v)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#abc5fccd4a7d7f6685a3300fae8a923aa">toEdgePoint</a>(self, Id_EdgeTag e, Vector2f p)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#ad224acd56dba1a2cf051a9915a6d60bf">totalLength</a>(self)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html#ab8c67744a9e97ab77404c05162077bfc">transform</a>(self, AffineXf2f xf)</td><td class="entry"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

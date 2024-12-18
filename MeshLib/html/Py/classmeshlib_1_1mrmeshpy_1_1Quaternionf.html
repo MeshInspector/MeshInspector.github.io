@@ -1,0 +1,1006 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1Quaternionf.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Quaternionf Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Quaternionf.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Quaternionf-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Quaternionf Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a65f3d854373bec2a861118518e66f897" id="r_a65f3d854373bec2a861118518e66f897"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f3d854373bec2a861118518e66f897">__call__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> p)</td></tr>
+<tr class="separator:a65f3d854373bec2a861118518e66f897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6734f40b92efb72a628e0e2352f99e01" id="r_a6734f40b92efb72a628e0e2352f99e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6734f40b92efb72a628e0e2352f99e01">__imatmul__</a> (self, float s)</td></tr>
+<tr class="separator:a6734f40b92efb72a628e0e2352f99e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9933d133ba28463660ebd14f2dca2c6d" id="r_a9933d133ba28463660ebd14f2dca2c6d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9933d133ba28463660ebd14f2dca2c6d">__init__</a> (self)</td></tr>
+<tr class="separator:a9933d133ba28463660ebd14f2dca2c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a7c1cdae839300681cec7229fe12ddd" id="r_a8a7c1cdae839300681cec7229fe12ddd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a7c1cdae839300681cec7229fe12ddd">__init__</a> (self, float <a class="el" href="#a64632ad85d0e0f1f547a670a3de912ea">a</a>, float <a class="el" href="#aee75448878625182867ba8593c8064e9">b</a>, float <a class="el" href="#a28312fe4c50452ef56e6c58d0d088f66">c</a>, float <a class="el" href="#a2836eff93e54200a3e54754b9fa40579">d</a>)</td></tr>
+<tr class="separator:a8a7c1cdae839300681cec7229fe12ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2547590ea44f8460d7f58f4a49ed8c7c" id="r_a2547590ea44f8460d7f58f4a49ed8c7c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2547590ea44f8460d7f58f4a49ed8c7c">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a983ed791b9dccb1f03220b74ad028269">axis</a>, float <a class="el" href="#a32975f1751c76221f58734008bfcca51">angle</a>)</td></tr>
+<tr class="separator:a2547590ea44f8460d7f58f4a49ed8c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11fefeee108a726d867cd868e1589bb" id="r_ae11fefeee108a726d867cd868e1589bb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae11fefeee108a726d867cd868e1589bb">__init__</a> (self, float real, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a246da729df3d6563da691861ceb2514d">im</a>)</td></tr>
+<tr class="separator:ae11fefeee108a726d867cd868e1589bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9823c6eeaa79aba8d26439eb77f4568" id="r_ad9823c6eeaa79aba8d26439eb77f4568"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9823c6eeaa79aba8d26439eb77f4568">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a> m)</td></tr>
+<tr class="separator:ad9823c6eeaa79aba8d26439eb77f4568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad476c8763c6b16bd6b0d7f739dd73053" id="r_ad476c8763c6b16bd6b0d7f739dd73053"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad476c8763c6b16bd6b0d7f739dd73053">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> from_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> to)</td></tr>
+<tr class="separator:ad476c8763c6b16bd6b0d7f739dd73053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedcd9126aa29f136e246a59e413a3347" id="r_aedcd9126aa29f136e246a59e413a3347"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedcd9126aa29f136e246a59e413a3347">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> arg0)</td></tr>
+<tr class="separator:aedcd9126aa29f136e246a59e413a3347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c60222fe3c7d7e8dcb3569d9b01bfa" id="r_aa0c60222fe3c7d7e8dcb3569d9b01bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c60222fe3c7d7e8dcb3569d9b01bfa">__itruediv__</a> (self, float s)</td></tr>
+<tr class="separator:aa0c60222fe3c7d7e8dcb3569d9b01bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7323e11b69d2fb1bf3b1e241f30582dc" id="r_a7323e11b69d2fb1bf3b1e241f30582dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7323e11b69d2fb1bf3b1e241f30582dc">__neg__</a> (self)</td></tr>
+<tr class="separator:a7323e11b69d2fb1bf3b1e241f30582dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32975f1751c76221f58734008bfcca51" id="r_a32975f1751c76221f58734008bfcca51"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32975f1751c76221f58734008bfcca51">angle</a> (self)</td></tr>
+<tr class="separator:a32975f1751c76221f58734008bfcca51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983ed791b9dccb1f03220b74ad028269" id="r_a983ed791b9dccb1f03220b74ad028269"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983ed791b9dccb1f03220b74ad028269">axis</a> (self)</td></tr>
+<tr class="separator:a983ed791b9dccb1f03220b74ad028269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada26d4938fba3f407b3b8d2e73d96d7a" id="r_ada26d4938fba3f407b3b8d2e73d96d7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada26d4938fba3f407b3b8d2e73d96d7a">conjugate</a> (self)</td></tr>
+<tr class="separator:ada26d4938fba3f407b3b8d2e73d96d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246da729df3d6563da691861ceb2514d" id="r_a246da729df3d6563da691861ceb2514d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a246da729df3d6563da691861ceb2514d">im</a> (self)</td></tr>
+<tr class="separator:a246da729df3d6563da691861ceb2514d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63491d3ae42a07afbaaced6a21511adc" id="r_a63491d3ae42a07afbaaced6a21511adc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63491d3ae42a07afbaaced6a21511adc">inverse</a> (self)</td></tr>
+<tr class="separator:a63491d3ae42a07afbaaced6a21511adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae42435e9065e2692c14d6e519725bcf" id="r_aae42435e9065e2692c14d6e519725bcf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae42435e9065e2692c14d6e519725bcf">norm</a> (self)</td></tr>
+<tr class="separator:aae42435e9065e2692c14d6e519725bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1c5f8a120e216c4c148a0e0437cc85" id="r_a8c1c5f8a120e216c4c148a0e0437cc85"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c1c5f8a120e216c4c148a0e0437cc85">normSq</a> (self)</td></tr>
+<tr class="separator:a8c1c5f8a120e216c4c148a0e0437cc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae17afb56a33d22bc7eebae1bae3ea8" id="r_a2ae17afb56a33d22bc7eebae1bae3ea8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae17afb56a33d22bc7eebae1bae3ea8">normalize</a> (self)</td></tr>
+<tr class="separator:a2ae17afb56a33d22bc7eebae1bae3ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f00fbc11b46f9fa70810b4bdaa4065" id="r_a93f00fbc11b46f9fa70810b4bdaa4065"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93f00fbc11b46f9fa70810b4bdaa4065">normalized</a> (self)</td></tr>
+<tr class="separator:a93f00fbc11b46f9fa70810b4bdaa4065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64632ad85d0e0f1f547a670a3de912ea" id="r_a64632ad85d0e0f1f547a670a3de912ea"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64632ad85d0e0f1f547a670a3de912ea">a</a> (self)</td></tr>
+<tr class="separator:a64632ad85d0e0f1f547a670a3de912ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8b1b1f0a0d1e3ca6bd0852a738893c4" id="r_ab8b1b1f0a0d1e3ca6bd0852a738893c4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8b1b1f0a0d1e3ca6bd0852a738893c4">a</a> (self, float arg1)</td></tr>
+<tr class="separator:ab8b1b1f0a0d1e3ca6bd0852a738893c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee75448878625182867ba8593c8064e9" id="r_aee75448878625182867ba8593c8064e9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee75448878625182867ba8593c8064e9">b</a> (self)</td></tr>
+<tr class="separator:aee75448878625182867ba8593c8064e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7545f5d7982a57cf570a20a403bf8d96" id="r_a7545f5d7982a57cf570a20a403bf8d96"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7545f5d7982a57cf570a20a403bf8d96">b</a> (self, float arg1)</td></tr>
+<tr class="separator:a7545f5d7982a57cf570a20a403bf8d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28312fe4c50452ef56e6c58d0d088f66" id="r_a28312fe4c50452ef56e6c58d0d088f66"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28312fe4c50452ef56e6c58d0d088f66">c</a> (self)</td></tr>
+<tr class="separator:a28312fe4c50452ef56e6c58d0d088f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a856b3911dae05501fac944ffc013cf" id="r_a7a856b3911dae05501fac944ffc013cf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a856b3911dae05501fac944ffc013cf">c</a> (self, float arg1)</td></tr>
+<tr class="separator:a7a856b3911dae05501fac944ffc013cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2836eff93e54200a3e54754b9fa40579" id="r_a2836eff93e54200a3e54754b9fa40579"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2836eff93e54200a3e54754b9fa40579">d</a> (self)</td></tr>
+<tr class="separator:a2836eff93e54200a3e54754b9fa40579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a333fb61b6dcf44f164262257cb97ce70" id="r_a333fb61b6dcf44f164262257cb97ce70"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a333fb61b6dcf44f164262257cb97ce70">d</a> (self, float arg1)</td></tr>
+<tr class="separator:a333fb61b6dcf44f164262257cb97ce70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afca770dd6ea26736cd4f255dd11a53d6" id="r_afca770dd6ea26736cd4f255dd11a53d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afca770dd6ea26736cd4f255dd11a53d6">lerp</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> q0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> q1, float t)</td></tr>
+<tr class="separator:afca770dd6ea26736cd4f255dd11a53d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bceec3536d7a0ea5eef06ce8cbfaf8" id="r_ab5bceec3536d7a0ea5eef06ce8cbfaf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5bceec3536d7a0ea5eef06ce8cbfaf8">slerp</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> q0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> q1, float t)</td></tr>
+<tr class="separator:ab5bceec3536d7a0ea5eef06ce8cbfaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb4a7322ffe47453a14f19485593d62" id="r_aecb4a7322ffe47453a14f19485593d62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecb4a7322ffe47453a14f19485593d62">slerp</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a> m0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a> m1, float t)</td></tr>
+<tr class="separator:aecb4a7322ffe47453a14f19485593d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212e1c88d187ea42de4ffb5ce6bb5cf9" id="r_a212e1c88d187ea42de4ffb5ce6bb5cf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a212e1c88d187ea42de4ffb5ce6bb5cf9">slerp</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf1, float t, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> p='<a class="elRef" href="../Cpp/structMR_1_1Vector3.html">MR::Vector3</a>&lt; float &gt;{}')</td></tr>
+<tr class="separator:a212e1c88d187ea42de4ffb5ce6bb5cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a741707c612ca0694e9206f4c7418c02f" id="r_a741707c612ca0694e9206f4c7418c02f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741707c612ca0694e9206f4c7418c02f">_convert_to_Matrix3_float</a> (self)</td></tr>
+<tr class="separator:a741707c612ca0694e9206f4c7418c02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Quaternionf
+Aliases:  Quaternion_float
+
+Represents a quaternion following the notations from
+https://en.wikipedia.org/wiki/Quaternion
+\\ingroup MathGroup
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9933d133ba28463660ebd14f2dca2c6d" name="a9933d133ba28463660ebd14f2dca2c6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9933d133ba28463660ebd14f2dca2c6d">&#9670;&#160;</a></span>__init__() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a7c1cdae839300681cec7229fe12ddd" name="a8a7c1cdae839300681cec7229fe12ddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7c1cdae839300681cec7229fe12ddd">&#9670;&#160;</a></span>__init__() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2547590ea44f8460d7f58f4a49ed8c7c" name="a2547590ea44f8460d7f58f4a49ed8c7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2547590ea44f8460d7f58f4a49ed8c7c">&#9670;&#160;</a></span>__init__() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>axis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>angle</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">\\related Quaternion
+\\{
+</pre> 
+</div>
+</div>
+<a id="ae11fefeee108a726d867cd868e1589bb" name="ae11fefeee108a726d867cd868e1589bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11fefeee108a726d867cd868e1589bb">&#9670;&#160;</a></span>__init__() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>real</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>im</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9823c6eeaa79aba8d26439eb77f4568" name="ad9823c6eeaa79aba8d26439eb77f4568"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9823c6eeaa79aba8d26439eb77f4568">&#9670;&#160;</a></span>__init__() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad476c8763c6b16bd6b0d7f739dd73053" name="ad476c8763c6b16bd6b0d7f739dd73053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad476c8763c6b16bd6b0d7f739dd73053">&#9670;&#160;</a></span>__init__() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>from_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>to</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">finds shorter arc rotation quaternion from one vector to another
+</pre> 
+</div>
+</div>
+<a id="aedcd9126aa29f136e246a59e413a3347" name="aedcd9126aa29f136e246a59e413a3347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedcd9126aa29f136e246a59e413a3347">&#9670;&#160;</a></span>__init__() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a65f3d854373bec2a861118518e66f897" name="a65f3d854373bec2a861118518e66f897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f3d854373bec2a861118518e66f897">&#9670;&#160;</a></span>__call__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> meshlib.mrmeshpy.Quaternionf.__call__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">for unit quaternion returns the rotation of point p, which is faster to compute for single point;
+for multiple points it is faster to create matrix representation and apply it to the points
+</pre> 
+</div>
+</div>
+<a id="a6734f40b92efb72a628e0e2352f99e01" name="a6734f40b92efb72a628e0e2352f99e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6734f40b92efb72a628e0e2352f99e01">&#9670;&#160;</a></span>__imatmul__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.__imatmul__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0c60222fe3c7d7e8dcb3569d9b01bfa" name="aa0c60222fe3c7d7e8dcb3569d9b01bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c60222fe3c7d7e8dcb3569d9b01bfa">&#9670;&#160;</a></span>__itruediv__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.__itruediv__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7323e11b69d2fb1bf3b1e241f30582dc" name="a7323e11b69d2fb1bf3b1e241f30582dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7323e11b69d2fb1bf3b1e241f30582dc">&#9670;&#160;</a></span>__neg__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.__neg__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns quaternion representing the same rotation, using the opposite rotation direction and opposite angle
+</pre> 
+</div>
+</div>
+<a id="a741707c612ca0694e9206f4c7418c02f" name="a741707c612ca0694e9206f4c7418c02f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741707c612ca0694e9206f4c7418c02f">&#9670;&#160;</a></span>_convert_to_Matrix3_float()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a> meshlib.mrmeshpy.Quaternionf._convert_to_Matrix3_float </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">converts this into 3x3 rotation matrix
+</pre> 
+</div>
+</div>
+<a id="a64632ad85d0e0f1f547a670a3de912ea" name="a64632ad85d0e0f1f547a670a3de912ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64632ad85d0e0f1f547a670a3de912ea">&#9670;&#160;</a></span>a() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Quaternionf.a </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">real part of the quaternion
+</pre> 
+</div>
+</div>
+<a id="ab8b1b1f0a0d1e3ca6bd0852a738893c4" name="ab8b1b1f0a0d1e3ca6bd0852a738893c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8b1b1f0a0d1e3ca6bd0852a738893c4">&#9670;&#160;</a></span>a() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.a </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32975f1751c76221f58734008bfcca51" name="a32975f1751c76221f58734008bfcca51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32975f1751c76221f58734008bfcca51">&#9670;&#160;</a></span>angle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Quaternionf.angle </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns angle of rotation encoded in this quaternion
+</pre> 
+</div>
+</div>
+<a id="a983ed791b9dccb1f03220b74ad028269" name="a983ed791b9dccb1f03220b74ad028269"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983ed791b9dccb1f03220b74ad028269">&#9670;&#160;</a></span>axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> meshlib.mrmeshpy.Quaternionf.axis </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns axis of rotation encoded in this quaternion
+</pre> 
+</div>
+</div>
+<a id="aee75448878625182867ba8593c8064e9" name="aee75448878625182867ba8593c8064e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee75448878625182867ba8593c8064e9">&#9670;&#160;</a></span>b() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Quaternionf.b </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">imaginary part: b*i + c*j + d*k
+</pre> 
+</div>
+</div>
+<a id="a7545f5d7982a57cf570a20a403bf8d96" name="a7545f5d7982a57cf570a20a403bf8d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7545f5d7982a57cf570a20a403bf8d96">&#9670;&#160;</a></span>b() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.b </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28312fe4c50452ef56e6c58d0d088f66" name="a28312fe4c50452ef56e6c58d0d088f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28312fe4c50452ef56e6c58d0d088f66">&#9670;&#160;</a></span>c() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Quaternionf.c </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">imaginary part: b*i + c*j + d*k
+</pre> 
+</div>
+</div>
+<a id="a7a856b3911dae05501fac944ffc013cf" name="a7a856b3911dae05501fac944ffc013cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a856b3911dae05501fac944ffc013cf">&#9670;&#160;</a></span>c() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.c </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada26d4938fba3f407b3b8d2e73d96d7a" name="ada26d4938fba3f407b3b8d2e73d96d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada26d4938fba3f407b3b8d2e73d96d7a">&#9670;&#160;</a></span>conjugate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.conjugate </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes conjugate quaternion, which for unit quaternions encodes the opposite rotation
+</pre> 
+</div>
+</div>
+<a id="a2836eff93e54200a3e54754b9fa40579" name="a2836eff93e54200a3e54754b9fa40579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2836eff93e54200a3e54754b9fa40579">&#9670;&#160;</a></span>d() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Quaternionf.d </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">imaginary part: b*i + c*j + d*k
+</pre> 
+</div>
+</div>
+<a id="a333fb61b6dcf44f164262257cb97ce70" name="a333fb61b6dcf44f164262257cb97ce70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a333fb61b6dcf44f164262257cb97ce70">&#9670;&#160;</a></span>d() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.d </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a246da729df3d6563da691861ceb2514d" name="a246da729df3d6563da691861ceb2514d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a246da729df3d6563da691861ceb2514d">&#9670;&#160;</a></span>im()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> meshlib.mrmeshpy.Quaternionf.im </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns imaginary part of the quaternion as a vector
+</pre> 
+</div>
+</div>
+<a id="a63491d3ae42a07afbaaced6a21511adc" name="a63491d3ae42a07afbaaced6a21511adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63491d3ae42a07afbaaced6a21511adc">&#9670;&#160;</a></span>inverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.inverse </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes reciprocal quaternion
+</pre> 
+</div>
+</div>
+<a id="afca770dd6ea26736cd4f255dd11a53d6" name="afca770dd6ea26736cd4f255dd11a53d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca770dd6ea26736cd4f255dd11a53d6">&#9670;&#160;</a></span>lerp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.lerp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a></td>          <td class="paramname"><span class="paramname"><em>q0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a></td>          <td class="paramname"><span class="paramname"><em>q1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">given t in [0,1], interpolates linearly two quaternions giving in general not-unit quaternion
+</pre> 
+</div>
+</div>
+<a id="aae42435e9065e2692c14d6e519725bcf" name="aae42435e9065e2692c14d6e519725bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae42435e9065e2692c14d6e519725bcf">&#9670;&#160;</a></span>norm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Quaternionf.norm </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ae17afb56a33d22bc7eebae1bae3ea8" name="a2ae17afb56a33d22bc7eebae1bae3ea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ae17afb56a33d22bc7eebae1bae3ea8">&#9670;&#160;</a></span>normalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Quaternionf.normalize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">scales this quaternion to make its norm unit
+</pre> 
+</div>
+</div>
+<a id="a93f00fbc11b46f9fa70810b4bdaa4065" name="a93f00fbc11b46f9fa70810b4bdaa4065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f00fbc11b46f9fa70810b4bdaa4065">&#9670;&#160;</a></span>normalized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.normalized </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c1c5f8a120e216c4c148a0e0437cc85" name="a8c1c5f8a120e216c4c148a0e0437cc85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c1c5f8a120e216c4c148a0e0437cc85">&#9670;&#160;</a></span>normSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.Quaternionf.normSq </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a212e1c88d187ea42de4ffb5ce6bb5cf9" name="a212e1c88d187ea42de4ffb5ce6bb5cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a212e1c88d187ea42de4ffb5ce6bb5cf9">&#9670;&#160;</a></span>slerp() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshlib.mrmeshpy.Quaternionf.slerp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> </td>          <td class="paramname"><span class="paramname"><em>p</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1Vector3.html">MR::Vector3</a>&lt;float&gt;{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation;
+p is the only point that will have straight line movement during interpolation
+</pre> 
+</div>
+</div>
+<a id="aecb4a7322ffe47453a14f19485593d62" name="aecb4a7322ffe47453a14f19485593d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecb4a7322ffe47453a14f19485593d62">&#9670;&#160;</a></span>slerp() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a> meshlib.mrmeshpy.Quaternionf.slerp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a></td>          <td class="paramname"><span class="paramname"><em>m0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Matrix3f.html">Matrix3f</a></td>          <td class="paramname"><span class="paramname"><em>m1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix
+</pre> 
+</div>
+</div>
+<a id="ab5bceec3536d7a0ea5eef06ce8cbfaf8" name="ab5bceec3536d7a0ea5eef06ce8cbfaf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bceec3536d7a0ea5eef06ce8cbfaf8">&#9670;&#160;</a></span>slerp() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a> meshlib.mrmeshpy.Quaternionf.slerp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a></td>          <td class="paramname"><span class="paramname"><em>q0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a></td>          <td class="paramname"><span class="paramname"><em>q1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit quaternion
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Quaternionf.html">Quaternionf</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

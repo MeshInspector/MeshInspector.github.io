@@ -62,6 +62,6 @@ var menudata={children:[
 {text:"Spaces and Transformations",url:"SpacesHelp.html"},
 {text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
 {text:"API",url:"APIPage.html",children:[
-{text:"C++",url:"^https://meshlib.io/MeshLib/html/Cpp/APICppPage.html"},
-{text:"Python",url:"^https://meshlib.io/MeshLib/html/Py/APIPyPage.html"}]},
+{text:"C++",url:"Cpp/APICppPage.html"},
+{text:"Python",url:"Py/APIPyPage.html"}]},
 {text:"Thirdparty List",url:"ThirdParty.html"}]}

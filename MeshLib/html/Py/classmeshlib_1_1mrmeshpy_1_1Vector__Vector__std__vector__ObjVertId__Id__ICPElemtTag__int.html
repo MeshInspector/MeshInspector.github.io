@@ -1,0 +1,1124 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a881fa069d0d8c5ab3b922c6bb7a37763" id="r_a881fa069d0d8c5ab3b922c6bb7a37763"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a881fa069d0d8c5ab3b922c6bb7a37763">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a> b)</td></tr>
+<tr class="separator:a881fa069d0d8c5ab3b922c6bb7a37763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6b1e7595c5cafdeda3f5f15465913a" id="r_a9c6b1e7595c5cafdeda3f5f15465913a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c6b1e7595c5cafdeda3f5f15465913a">__init__</a> (self)</td></tr>
+<tr class="separator:a9c6b1e7595c5cafdeda3f5f15465913a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d79db010601adc8941b341bffdb55f" id="r_af9d79db010601adc8941b341bffdb55f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9d79db010601adc8941b341bffdb55f">__init__</a> (self, int <a class="el" href="#a7d928d978d9e6863db2bbe77a686adfb">size</a>)</td></tr>
+<tr class="separator:af9d79db010601adc8941b341bffdb55f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf754c0dc1b47b3ab678c623eb61b8fe" id="r_adf754c0dc1b47b3ab678c623eb61b8fe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf754c0dc1b47b3ab678c623eb61b8fe">__init__</a> (self, int <a class="el" href="#a7d928d978d9e6863db2bbe77a686adfb">size</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> val)</td></tr>
+<tr class="separator:adf754c0dc1b47b3ab678c623eb61b8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2be9bf00d8cb3635ffde8a20c9c1c5" id="r_a9b2be9bf00d8cb3635ffde8a20c9c1c5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b2be9bf00d8cb3635ffde8a20c9c1c5">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">std_vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> vec)</td></tr>
+<tr class="separator:a9b2be9bf00d8cb3635ffde8a20c9c1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557db9aa9cb7bf3e4785a3fcd26f0e80" id="r_a557db9aa9cb7bf3e4785a3fcd26f0e80"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557db9aa9cb7bf3e4785a3fcd26f0e80">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a> arg0)</td></tr>
+<tr class="separator:a557db9aa9cb7bf3e4785a3fcd26f0e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5333f5aa7ae81f1556dfd4c1a8250caf" id="r_a5333f5aa7ae81f1556dfd4c1a8250caf"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5333f5aa7ae81f1556dfd4c1a8250caf">__iter__</a> (self)</td></tr>
+<tr class="separator:a5333f5aa7ae81f1556dfd4c1a8250caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78c6135392707172571e37d1ae54127" id="r_aa78c6135392707172571e37d1ae54127"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78c6135392707172571e37d1ae54127">__ne__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a> b)</td></tr>
+<tr class="separator:aa78c6135392707172571e37d1ae54127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033f7323791c99d8e00fe19c659273ee" id="r_a033f7323791c99d8e00fe19c659273ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033f7323791c99d8e00fe19c659273ee">autoResizeAt</a> (self, int i)</td></tr>
+<tr class="separator:a033f7323791c99d8e00fe19c659273ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4127a61a0082dbb7044039aec6e6b230" id="r_a4127a61a0082dbb7044039aec6e6b230"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4127a61a0082dbb7044039aec6e6b230">autoResizeSet</a> (self, int pos, int len, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> val)</td></tr>
+<tr class="separator:a4127a61a0082dbb7044039aec6e6b230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d7da23a3744339bdbc3b066985efc7" id="r_a40d7da23a3744339bdbc3b066985efc7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40d7da23a3744339bdbc3b066985efc7">autoResizeSet</a> (self, int i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> val)</td></tr>
+<tr class="separator:a40d7da23a3744339bdbc3b066985efc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e36d53f1b795945211d00de1ad9de6" id="r_a85e36d53f1b795945211d00de1ad9de6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85e36d53f1b795945211d00de1ad9de6">back</a> (self)</td></tr>
+<tr class="separator:a85e36d53f1b795945211d00de1ad9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e36d53f1b795945211d00de1ad9de6" id="r_a85e36d53f1b795945211d00de1ad9de6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85e36d53f1b795945211d00de1ad9de6">back</a> (self)</td></tr>
+<tr class="separator:a85e36d53f1b795945211d00de1ad9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff284ae35538710b33782b5c4880b993" id="r_aff284ae35538710b33782b5c4880b993"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff284ae35538710b33782b5c4880b993">backId</a> (self)</td></tr>
+<tr class="separator:aff284ae35538710b33782b5c4880b993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9740a62bd08880e44bc7e949ae3f3796" id="r_a9740a62bd08880e44bc7e949ae3f3796"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9740a62bd08880e44bc7e949ae3f3796">beginId</a> (self)</td></tr>
+<tr class="separator:a9740a62bd08880e44bc7e949ae3f3796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b0c046f8455b02e93fc1c23335e743" id="r_a36b0c046f8455b02e93fc1c23335e743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36b0c046f8455b02e93fc1c23335e743">capacity</a> (self)</td></tr>
+<tr class="separator:a36b0c046f8455b02e93fc1c23335e743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2438a459cbef43024e843d9cb0faefcf" id="r_a2438a459cbef43024e843d9cb0faefcf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2438a459cbef43024e843d9cb0faefcf">clear</a> (self)</td></tr>
+<tr class="separator:a2438a459cbef43024e843d9cb0faefcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20426d5c5c9ad384228d8752bf8d7db2" id="r_a20426d5c5c9ad384228d8752bf8d7db2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20426d5c5c9ad384228d8752bf8d7db2">data</a> (self)</td></tr>
+<tr class="separator:a20426d5c5c9ad384228d8752bf8d7db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20426d5c5c9ad384228d8752bf8d7db2" id="r_a20426d5c5c9ad384228d8752bf8d7db2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20426d5c5c9ad384228d8752bf8d7db2">data</a> (self)</td></tr>
+<tr class="separator:a20426d5c5c9ad384228d8752bf8d7db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536fa0e1a4c1b767e0e217b60ae31f58" id="r_a536fa0e1a4c1b767e0e217b60ae31f58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536fa0e1a4c1b767e0e217b60ae31f58">empty</a> (self)</td></tr>
+<tr class="separator:a536fa0e1a4c1b767e0e217b60ae31f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904a5ecd904f6aba46c806ed7c53cd74" id="r_a904a5ecd904f6aba46c806ed7c53cd74"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a904a5ecd904f6aba46c806ed7c53cd74">endId</a> (self)</td></tr>
+<tr class="separator:a904a5ecd904f6aba46c806ed7c53cd74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46dad717d5f3359bb732310b9a358f59" id="r_a46dad717d5f3359bb732310b9a358f59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46dad717d5f3359bb732310b9a358f59">front</a> (self)</td></tr>
+<tr class="separator:a46dad717d5f3359bb732310b9a358f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46dad717d5f3359bb732310b9a358f59" id="r_a46dad717d5f3359bb732310b9a358f59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46dad717d5f3359bb732310b9a358f59">front</a> (self)</td></tr>
+<tr class="separator:a46dad717d5f3359bb732310b9a358f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d080ac9761522e4d799d3c27488fa28" id="r_a8d080ac9761522e4d799d3c27488fa28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d080ac9761522e4d799d3c27488fa28">heapBytes</a> (self)</td></tr>
+<tr class="separator:a8d080ac9761522e4d799d3c27488fa28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af838d01d79ae89f304ab10ccaecf1ebb" id="r_af838d01d79ae89f304ab10ccaecf1ebb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af838d01d79ae89f304ab10ccaecf1ebb">pop_back</a> (self)</td></tr>
+<tr class="separator:af838d01d79ae89f304ab10ccaecf1ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1508f7f8c5c78da978a01a6e3bd8052" id="r_ac1508f7f8c5c78da978a01a6e3bd8052"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1508f7f8c5c78da978a01a6e3bd8052">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> t)</td></tr>
+<tr class="separator:ac1508f7f8c5c78da978a01a6e3bd8052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1508f7f8c5c78da978a01a6e3bd8052" id="r_ac1508f7f8c5c78da978a01a6e3bd8052"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1508f7f8c5c78da978a01a6e3bd8052">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> t)</td></tr>
+<tr class="separator:ac1508f7f8c5c78da978a01a6e3bd8052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ca26228be3d696e3e7716403a671bd" id="r_ab6ca26228be3d696e3e7716403a671bd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6ca26228be3d696e3e7716403a671bd">reserve</a> (self, int <a class="el" href="#a36b0c046f8455b02e93fc1c23335e743">capacity</a>)</td></tr>
+<tr class="separator:ab6ca26228be3d696e3e7716403a671bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af259a56515e0011a0989cec2299ed23d" id="r_af259a56515e0011a0989cec2299ed23d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af259a56515e0011a0989cec2299ed23d">resize</a> (self, int newSize)</td></tr>
+<tr class="separator:af259a56515e0011a0989cec2299ed23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc16ad0db809b3be01da25e0a03bf8d" id="r_a5bc16ad0db809b3be01da25e0a03bf8d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bc16ad0db809b3be01da25e0a03bf8d">resize</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> t)</td></tr>
+<tr class="separator:a5bc16ad0db809b3be01da25e0a03bf8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a2dd0ba47a1cca97970ba812ff5d878" id="r_a6a2dd0ba47a1cca97970ba812ff5d878"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a2dd0ba47a1cca97970ba812ff5d878">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a6a2dd0ba47a1cca97970ba812ff5d878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9919e65fb7dc7d43d0309326201e1b4" id="r_ac9919e65fb7dc7d43d0309326201e1b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9919e65fb7dc7d43d0309326201e1b4">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> value)</td></tr>
+<tr class="separator:ac9919e65fb7dc7d43d0309326201e1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d928d978d9e6863db2bbe77a686adfb" id="r_a7d928d978d9e6863db2bbe77a686adfb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d928d978d9e6863db2bbe77a686adfb">size</a> (self)</td></tr>
+<tr class="separator:a7d928d978d9e6863db2bbe77a686adfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae47f809a345d98fc6eaefa2f8cd80b0" id="r_aae47f809a345d98fc6eaefa2f8cd80b0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae47f809a345d98fc6eaefa2f8cd80b0">swap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a> b)</td></tr>
+<tr class="separator:aae47f809a345d98fc6eaefa2f8cd80b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9386f6a181404fbee753dcaf8db2c4b" id="r_ab9386f6a181404fbee753dcaf8db2c4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">std_vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9386f6a181404fbee753dcaf8db2c4b">vec_</a> (self)</td></tr>
+<tr class="separator:ab9386f6a181404fbee753dcaf8db2c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac869afea2d018a673b300864765edfac" id="r_ac869afea2d018a673b300864765edfac"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac869afea2d018a673b300864765edfac">vec_</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">std_vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> arg1)</td></tr>
+<tr class="separator:ac869afea2d018a673b300864765edfac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a966ad22b640cefd65c4d001750e94264" id="r_a966ad22b640cefd65c4d001750e94264"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a966ad22b640cefd65c4d001750e94264">const_reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td></tr>
+<tr class="separator:a966ad22b640cefd65c4d001750e94264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4cd4df502fb6b7ecd2c5ef7c1c35da0" id="r_ab4cd4df502fb6b7ecd2c5ef7c1c35da0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4cd4df502fb6b7ecd2c5ef7c1c35da0">reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td></tr>
+<tr class="separator:ab4cd4df502fb6b7ecd2c5ef7c1c35da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6538ff87069b8264b4fa2401424464e9" id="r_a6538ff87069b8264b4fa2401424464e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6538ff87069b8264b4fa2401424464e9">value_type</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td></tr>
+<tr class="separator:a6538ff87069b8264b4fa2401424464e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ada7a8cf493ec2e556b0f20de711ccfbe" id="r_ada7a8cf493ec2e556b0f20de711ccfbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada7a8cf493ec2e556b0f20de711ccfbe">_Subscript</a> (self, int i)</td></tr>
+<tr class="separator:ada7a8cf493ec2e556b0f20de711ccfbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada7a8cf493ec2e556b0f20de711ccfbe" id="r_ada7a8cf493ec2e556b0f20de711ccfbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada7a8cf493ec2e556b0f20de711ccfbe">_Subscript</a> (self, int i)</td></tr>
+<tr class="separator:ada7a8cf493ec2e556b0f20de711ccfbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Vector&lt;MR::Vector&lt;std::vector&lt;MR::ObjVertId&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;, int&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)
+ \\ingroup BasicGroup</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9c6b1e7595c5cafdeda3f5f15465913a" name="a9c6b1e7595c5cafdeda3f5f15465913a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c6b1e7595c5cafdeda3f5f15465913a">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9d79db010601adc8941b341bffdb55f" name="af9d79db010601adc8941b341bffdb55f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d79db010601adc8941b341bffdb55f">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf754c0dc1b47b3ab678c623eb61b8fe" name="adf754c0dc1b47b3ab678c623eb61b8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf754c0dc1b47b3ab678c623eb61b8fe">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b2be9bf00d8cb3635ffde8a20c9c1c5" name="a9b2be9bf00d8cb3635ffde8a20c9c1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b2be9bf00d8cb3635ffde8a20c9c1c5">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">std_vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a557db9aa9cb7bf3e4785a3fcd26f0e80" name="a557db9aa9cb7bf3e4785a3fcd26f0e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557db9aa9cb7bf3e4785a3fcd26f0e80">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a881fa069d0d8c5ab3b922c6bb7a37763" name="a881fa069d0d8c5ab3b922c6bb7a37763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a881fa069d0d8c5ab3b922c6bb7a37763">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5333f5aa7ae81f1556dfd4c1a8250caf" name="a5333f5aa7ae81f1556dfd4c1a8250caf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5333f5aa7ae81f1556dfd4c1a8250caf">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa78c6135392707172571e37d1ae54127" name="aa78c6135392707172571e37d1ae54127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa78c6135392707172571e37d1ae54127">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada7a8cf493ec2e556b0f20de711ccfbe" name="ada7a8cf493ec2e556b0f20de711ccfbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada7a8cf493ec2e556b0f20de711ccfbe">&#9670;&#160;</a></span>_Subscript() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada7a8cf493ec2e556b0f20de711ccfbe" name="ada7a8cf493ec2e556b0f20de711ccfbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada7a8cf493ec2e556b0f20de711ccfbe">&#9670;&#160;</a></span>_Subscript() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a033f7323791c99d8e00fe19c659273ee" name="a033f7323791c99d8e00fe19c659273ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a033f7323791c99d8e00fe19c659273ee">&#9670;&#160;</a></span>autoResizeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.autoResizeAt </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this accessor automatically adjusts the size of the vector
+</pre> 
+</div>
+</div>
+<a id="a40d7da23a3744339bdbc3b066985efc7" name="a40d7da23a3744339bdbc3b066985efc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40d7da23a3744339bdbc3b066985efc7">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4127a61a0082dbb7044039aec6e6b230" name="a4127a61a0082dbb7044039aec6e6b230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4127a61a0082dbb7044039aec6e6b230">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+</pre> 
+</div>
+</div>
+<a id="a85e36d53f1b795945211d00de1ad9de6" name="a85e36d53f1b795945211d00de1ad9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e36d53f1b795945211d00de1ad9de6">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85e36d53f1b795945211d00de1ad9de6" name="a85e36d53f1b795945211d00de1ad9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e36d53f1b795945211d00de1ad9de6">&#9670;&#160;</a></span>back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff284ae35538710b33782b5c4880b993" name="aff284ae35538710b33782b5c4880b993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff284ae35538710b33782b5c4880b993">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+</div>
+</div>
+<a id="a9740a62bd08880e44bc7e949ae3f3796" name="a9740a62bd08880e44bc7e949ae3f3796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9740a62bd08880e44bc7e949ae3f3796">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.beginId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the first element
+</pre> 
+</div>
+</div>
+<a id="a36b0c046f8455b02e93fc1c23335e743" name="a36b0c046f8455b02e93fc1c23335e743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b0c046f8455b02e93fc1c23335e743">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.capacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2438a459cbef43024e843d9cb0faefcf" name="a2438a459cbef43024e843d9cb0faefcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2438a459cbef43024e843d9cb0faefcf">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20426d5c5c9ad384228d8752bf8d7db2" name="a20426d5c5c9ad384228d8752bf8d7db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20426d5c5c9ad384228d8752bf8d7db2">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20426d5c5c9ad384228d8752bf8d7db2" name="a20426d5c5c9ad384228d8752bf8d7db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20426d5c5c9ad384228d8752bf8d7db2">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a536fa0e1a4c1b767e0e217b60ae31f58" name="a536fa0e1a4c1b767e0e217b60ae31f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a536fa0e1a4c1b767e0e217b60ae31f58">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a904a5ecd904f6aba46c806ed7c53cd74" name="a904a5ecd904f6aba46c806ed7c53cd74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a904a5ecd904f6aba46c806ed7c53cd74">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns backId() + 1
+</pre> 
+</div>
+</div>
+<a id="a46dad717d5f3359bb732310b9a358f59" name="a46dad717d5f3359bb732310b9a358f59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46dad717d5f3359bb732310b9a358f59">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46dad717d5f3359bb732310b9a358f59" name="a46dad717d5f3359bb732310b9a358f59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46dad717d5f3359bb732310b9a358f59">&#9670;&#160;</a></span>front() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d080ac9761522e4d799d3c27488fa28" name="a8d080ac9761522e4d799d3c27488fa28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d080ac9761522e4d799d3c27488fa28">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+</div>
+</div>
+<a id="af838d01d79ae89f304ab10ccaecf1ebb" name="af838d01d79ae89f304ab10ccaecf1ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af838d01d79ae89f304ab10ccaecf1ebb">&#9670;&#160;</a></span>pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.pop_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1508f7f8c5c78da978a01a6e3bd8052" name="ac1508f7f8c5c78da978a01a6e3bd8052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1508f7f8c5c78da978a01a6e3bd8052">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1508f7f8c5c78da978a01a6e3bd8052" name="ac1508f7f8c5c78da978a01a6e3bd8052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1508f7f8c5c78da978a01a6e3bd8052">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6ca26228be3d696e3e7716403a671bd" name="ab6ca26228be3d696e3e7716403a671bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ca26228be3d696e3e7716403a671bd">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.reserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af259a56515e0011a0989cec2299ed23d" name="af259a56515e0011a0989cec2299ed23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af259a56515e0011a0989cec2299ed23d">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bc16ad0db809b3be01da25e0a03bf8d" name="a5bc16ad0db809b3be01da25e0a03bf8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bc16ad0db809b3be01da25e0a03bf8d">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a2dd0ba47a1cca97970ba812ff5d878" name="a6a2dd0ba47a1cca97970ba812ff5d878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a2dd0ba47a1cca97970ba812ff5d878">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="ac9919e65fb7dc7d43d0309326201e1b4" name="ac9919e65fb7dc7d43d0309326201e1b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9919e65fb7dc7d43d0309326201e1b4">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a7d928d978d9e6863db2bbe77a686adfb" name="a7d928d978d9e6863db2bbe77a686adfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d928d978d9e6863db2bbe77a686adfb">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae47f809a345d98fc6eaefa2f8cd80b0" name="aae47f809a345d98fc6eaefa2f8cd80b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae47f809a345d98fc6eaefa2f8cd80b0">&#9670;&#160;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.swap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9386f6a181404fbee753dcaf8db2c4b" name="ab9386f6a181404fbee753dcaf8db2c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9386f6a181404fbee753dcaf8db2c4b">&#9670;&#160;</a></span>vec_() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">std_vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag</a> meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the user can directly manipulate the vector, anyway she cannot break anything
+</pre> 
+</div>
+</div>
+<a id="ac869afea2d018a673b300864765edfac" name="ac869afea2d018a673b300864765edfac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac869afea2d018a673b300864765edfac">&#9670;&#160;</a></span>vec_() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">std_vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a966ad22b640cefd65c4d001750e94264" name="a966ad22b640cefd65c4d001750e94264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a966ad22b640cefd65c4d001750e94264">&#9670;&#160;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.const_reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4cd4df502fb6b7ecd2c5ef7c1c35da0" name="ab4cd4df502fb6b7ecd2c5ef7c1c35da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4cd4df502fb6b7ecd2c5ef7c1c35da0">&#9670;&#160;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6538ff87069b8264b4fa2401424464e9" name="a6538ff87069b8264b4fa2401424464e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6538ff87069b8264b4fa2401424464e9">&#9670;&#160;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int.value_type = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html">Vector_std_vector_ObjVertId_Id_ICPElemtTag</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html">Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

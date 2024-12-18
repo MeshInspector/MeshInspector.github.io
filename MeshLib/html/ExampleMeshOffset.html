@@ -207,34 +207,30 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <img src="offset_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
+<li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> <a class="code hl_namespaceRef" href="./Py/namespacemeshlib_1_1mrmeshpy.html">meshlib.mrmeshpy</a> <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"><span class="keyword">import</span> sys</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
-<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Setup parameters</span></div>
-<div class="line">params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1OffsetParameters.html">mrmeshpy.OffsetParameters</a>()</div>
+<div class="line">params = mrmeshpy.OffsetParameters()</div>
 <div class="line">params.voxelSize = mesh.computeBoundingBox().diagonal() * 5e-3 <span class="comment"># offset grid precision (algorithm is voxel based)</span></div>
-<div class="line"><span class="keywordflow">if</span> <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a581568475c184614f799cd869e5c1803">mrmeshpy.findRightBoundary</a>(mesh.topology).empty():</div>
+<div class="line"><span class="keywordflow">if</span> mrmeshpy.findRightBoundary(mesh.topology).empty():</div>
 <div class="line">    params.signDetectionMode = mrmeshpy.SignDetectionMode.HoleWindingRule  <span class="comment"># use if you have holes in mesh</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Make offset mesh</span></div>
 <div class="line">offset = mesh.computeBoundingBox().diagonal() * 0.05</div>
 <div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    result_mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a217459ec74fc927775a24698edbebdc1">mrmeshpy.offsetMesh</a>(mesh, offset, params)</div>
+<div class="line">    result_mesh = mrmeshpy.offsetMesh(mesh, offset, params)</div>
 <div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
 <div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy.saveMesh</a>(result_mesh, <span class="stringliteral">&quot;offsetMesh.stl&quot;</span>)</div>
-<div class="ttc" id="aclassmrmeshpy_1_1OffsetParameters_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1OffsetParameters.html">mrmeshpy::OffsetParameters</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a217459ec74fc927775a24698edbebdc1"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a217459ec74fc927775a24698edbebdc1">mrmeshpy::offsetMesh</a></div><div class="ttdeci">Mesh offsetMesh(MeshPart mp, float offset, OffsetParameters params='MR::OffsetParameters{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a34254796865572bdb9d0ac8fe8b24854"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='MR::MeshLoadSettings{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a581568475c184614f799cd869e5c1803"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a581568475c184614f799cd869e5c1803">mrmeshpy::findRightBoundary</a></div><div class="ttdeci">std_vector_std_vector_Id_EdgeTag findRightBoundary(MeshTopology topology, FaceBitSet region=None)</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a7d060e0695c7b9c53e265318c8c4b4c6"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='MR::SaveSettings{}')</div></div>
+<div class="line">mrmeshpy.saveMesh(result_mesh, <span class="stringliteral">&quot;offsetMesh.stl&quot;</span>)</div>
+<div class="ttc" id="anamespacemeshlib_1_1mrmeshpy_html"><div class="ttname"><a href="./Py/namespacemeshlib_1_1mrmeshpy.html">meshlib::mrmeshpy</a></div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="offset_before.png" alt=""/>
 </div>

@@ -1,0 +1,845 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumd7a0f0ed9c7a75c30cf499d1e56ea168.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a514eda52f58124795ce3bfcbe05090fb" id="r_a514eda52f58124795ce3bfcbe05090fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a514eda52f58124795ce3bfcbe05090fb">__bool__</a> (self)</td></tr>
+<tr class="separator:a514eda52f58124795ce3bfcbe05090fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6532ca3723de6d43538142c9605c20" id="r_a3a6532ca3723de6d43538142c9605c20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a6532ca3723de6d43538142c9605c20">__contains__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> x)</td></tr>
+<tr class="separator:a3a6532ca3723de6d43538142c9605c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af002e4122fa69961b4274d30c01cf8ee" id="r_af002e4122fa69961b4274d30c01cf8ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af002e4122fa69961b4274d30c01cf8ee">__delitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:af002e4122fa69961b4274d30c01cf8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ffcf196e3de36a58479b4b4a782e3f" id="r_a08ffcf196e3de36a58479b4b4a782e3f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08ffcf196e3de36a58479b4b4a782e3f">__delitem__</a> (self, slice arg0)</td></tr>
+<tr class="separator:a08ffcf196e3de36a58479b4b4a782e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00304aaedeee0b31581d526a2c17cd5d" id="r_a00304aaedeee0b31581d526a2c17cd5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00304aaedeee0b31581d526a2c17cd5d">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a> arg0)</td></tr>
+<tr class="separator:a00304aaedeee0b31581d526a2c17cd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731dc6145c81d83551636c61d7222223" id="r_a731dc6145c81d83551636c61d7222223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a731dc6145c81d83551636c61d7222223">__getitem__</a> (self, slice s)</td></tr>
+<tr class="separator:a731dc6145c81d83551636c61d7222223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00a7f49b8bd55b91248bfdc145323da4" id="r_a00a7f49b8bd55b91248bfdc145323da4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00a7f49b8bd55b91248bfdc145323da4">__getitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:a00a7f49b8bd55b91248bfdc145323da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b190115df16c04af54b801c9f8c099" id="r_a71b190115df16c04af54b801c9f8c099"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b190115df16c04af54b801c9f8c099">__init__</a> (self)</td></tr>
+<tr class="separator:a71b190115df16c04af54b801c9f8c099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990a86b079be1475534fc200a085739f" id="r_a990a86b079be1475534fc200a085739f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990a86b079be1475534fc200a085739f">__init__</a> (self, typing.Iterable arg0)</td></tr>
+<tr class="separator:a990a86b079be1475534fc200a085739f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8b6baee5286b53dbc92126fd320032" id="r_a2b8b6baee5286b53dbc92126fd320032"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b8b6baee5286b53dbc92126fd320032">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a> arg0)</td></tr>
+<tr class="separator:a2b8b6baee5286b53dbc92126fd320032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afac1ffdaa22e1e0de2ec6e5e3fb127" id="r_a3afac1ffdaa22e1e0de2ec6e5e3fb127"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3afac1ffdaa22e1e0de2ec6e5e3fb127">__iter__</a> (self)</td></tr>
+<tr class="separator:a3afac1ffdaa22e1e0de2ec6e5e3fb127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2cfd97bbf816b43ba8116c4049b9aea" id="r_af2cfd97bbf816b43ba8116c4049b9aea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2cfd97bbf816b43ba8116c4049b9aea">__len__</a> (self)</td></tr>
+<tr class="separator:af2cfd97bbf816b43ba8116c4049b9aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7548dc97c266aac61ff01f9c9795dbc5" id="r_a7548dc97c266aac61ff01f9c9795dbc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7548dc97c266aac61ff01f9c9795dbc5">__ne__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a> arg0)</td></tr>
+<tr class="separator:a7548dc97c266aac61ff01f9c9795dbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e4649e896af620dd2b2a1e17751504" id="r_a93e4649e896af620dd2b2a1e17751504"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e4649e896af620dd2b2a1e17751504">__repr__</a> (self)</td></tr>
+<tr class="separator:a93e4649e896af620dd2b2a1e17751504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816d31762193d06a33336314f58394f2" id="r_a816d31762193d06a33336314f58394f2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a816d31762193d06a33336314f58394f2">__setitem__</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> arg1)</td></tr>
+<tr class="separator:a816d31762193d06a33336314f58394f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e5a0feed625bdab3301a68fb9cc608" id="r_a39e5a0feed625bdab3301a68fb9cc608"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39e5a0feed625bdab3301a68fb9cc608">__setitem__</a> (self, slice arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a> arg1)</td></tr>
+<tr class="separator:a39e5a0feed625bdab3301a68fb9cc608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2492b66ac52bfc59182b578de2fa0e0b" id="r_a2492b66ac52bfc59182b578de2fa0e0b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2492b66ac52bfc59182b578de2fa0e0b">append</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> x)</td></tr>
+<tr class="separator:a2492b66ac52bfc59182b578de2fa0e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e6f40db133011dc02e47630056e44a" id="r_a92e6f40db133011dc02e47630056e44a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92e6f40db133011dc02e47630056e44a">clear</a> (self)</td></tr>
+<tr class="separator:a92e6f40db133011dc02e47630056e44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dcb09d4c2e9507d55bb773cad9678f2" id="r_a8dcb09d4c2e9507d55bb773cad9678f2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dcb09d4c2e9507d55bb773cad9678f2">count</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> x)</td></tr>
+<tr class="separator:a8dcb09d4c2e9507d55bb773cad9678f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07879b5ea1ab45f95a9508210d8d41b" id="r_ab07879b5ea1ab45f95a9508210d8d41b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab07879b5ea1ab45f95a9508210d8d41b">empty</a> (self)</td></tr>
+<tr class="separator:ab07879b5ea1ab45f95a9508210d8d41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1b20e2043ebf36b653c84f412efad0" id="r_a8e1b20e2043ebf36b653c84f412efad0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e1b20e2043ebf36b653c84f412efad0">extend</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a> L)</td></tr>
+<tr class="separator:a8e1b20e2043ebf36b653c84f412efad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed88516ec046bd24bb7a29b4a91171aa" id="r_aed88516ec046bd24bb7a29b4a91171aa"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed88516ec046bd24bb7a29b4a91171aa">extend</a> (self, typing.Iterable L)</td></tr>
+<tr class="separator:aed88516ec046bd24bb7a29b4a91171aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c96c97772d3014aa50d7ce955c12ee" id="r_ac3c96c97772d3014aa50d7ce955c12ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c96c97772d3014aa50d7ce955c12ee">insert</a> (self, int i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> x)</td></tr>
+<tr class="separator:ac3c96c97772d3014aa50d7ce955c12ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2730872cde69ea1349295029db7265a0" id="r_a2730872cde69ea1349295029db7265a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2730872cde69ea1349295029db7265a0">pop</a> (self)</td></tr>
+<tr class="separator:a2730872cde69ea1349295029db7265a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f87b0ee995c423e52a2331b1ab074b" id="r_ab3f87b0ee995c423e52a2331b1ab074b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3f87b0ee995c423e52a2331b1ab074b">pop</a> (self, int i)</td></tr>
+<tr class="separator:ab3f87b0ee995c423e52a2331b1ab074b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608ad4d27a127f3d232233e68f38c1b6" id="r_a608ad4d27a127f3d232233e68f38c1b6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a608ad4d27a127f3d232233e68f38c1b6">remove</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> x)</td></tr>
+<tr class="separator:a608ad4d27a127f3d232233e68f38c1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a585e2f55b516a562f223add9c6906" id="r_a37a585e2f55b516a562f223add9c6906"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37a585e2f55b516a562f223add9c6906">resize</a> (self, int arg0)</td></tr>
+<tr class="separator:a37a585e2f55b516a562f223add9c6906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4cdd48eb36a63ecf9eae54c8138d071" id="r_ac4cdd48eb36a63ecf9eae54c8138d071"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4cdd48eb36a63ecf9eae54c8138d071">resize</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> arg1)</td></tr>
+<tr class="separator:ac4cdd48eb36a63ecf9eae54c8138d071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d5dc6c9b3070e64db173be28abd6e1" id="r_a57d5dc6c9b3070e64db173be28abd6e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57d5dc6c9b3070e64db173be28abd6e1">size</a> (self)</td></tr>
+<tr class="separator:a57d5dc6c9b3070e64db173be28abd6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a71b190115df16c04af54b801c9f8c099" name="a71b190115df16c04af54b801c9f8c099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b190115df16c04af54b801c9f8c099">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a990a86b079be1475534fc200a085739f" name="a990a86b079be1475534fc200a085739f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990a86b079be1475534fc200a085739f">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b8b6baee5286b53dbc92126fd320032" name="a2b8b6baee5286b53dbc92126fd320032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b8b6baee5286b53dbc92126fd320032">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a514eda52f58124795ce3bfcbe05090fb" name="a514eda52f58124795ce3bfcbe05090fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a514eda52f58124795ce3bfcbe05090fb">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Check whether the list is nonempty
+</pre> 
+</div>
+</div>
+<a id="a3a6532ca3723de6d43538142c9605c20" name="a3a6532ca3723de6d43538142c9605c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6532ca3723de6d43538142c9605c20">&#9670;&#160;</a></span>__contains__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__contains__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return true the container contains ``x``
+</pre> 
+</div>
+</div>
+<a id="af002e4122fa69961b4274d30c01cf8ee" name="af002e4122fa69961b4274d30c01cf8ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af002e4122fa69961b4274d30c01cf8ee">&#9670;&#160;</a></span>__delitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete the list elements at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a08ffcf196e3de36a58479b4b4a782e3f" name="a08ffcf196e3de36a58479b4b4a782e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ffcf196e3de36a58479b4b4a782e3f">&#9670;&#160;</a></span>__delitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a00304aaedeee0b31581d526a2c17cd5d" name="a00304aaedeee0b31581d526a2c17cd5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00304aaedeee0b31581d526a2c17cd5d">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00a7f49b8bd55b91248bfdc145323da4" name="a00a7f49b8bd55b91248bfdc145323da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00a7f49b8bd55b91248bfdc145323da4">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a731dc6145c81d83551636c61d7222223" name="a731dc6145c81d83551636c61d7222223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a731dc6145c81d83551636c61d7222223">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a> meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Retrieve list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a3afac1ffdaa22e1e0de2ec6e5e3fb127" name="a3afac1ffdaa22e1e0de2ec6e5e3fb127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3afac1ffdaa22e1e0de2ec6e5e3fb127">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2cfd97bbf816b43ba8116c4049b9aea" name="af2cfd97bbf816b43ba8116c4049b9aea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2cfd97bbf816b43ba8116c4049b9aea">&#9670;&#160;</a></span>__len__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__len__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7548dc97c266aac61ff01f9c9795dbc5" name="a7548dc97c266aac61ff01f9c9795dbc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7548dc97c266aac61ff01f9c9795dbc5">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93e4649e896af620dd2b2a1e17751504" name="a93e4649e896af620dd2b2a1e17751504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e4649e896af620dd2b2a1e17751504">&#9670;&#160;</a></span>__repr__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__repr__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return the canonical string representation of this map.
+</pre> 
+</div>
+</div>
+<a id="a816d31762193d06a33336314f58394f2" name="a816d31762193d06a33336314f58394f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a816d31762193d06a33336314f58394f2">&#9670;&#160;</a></span>__setitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39e5a0feed625bdab3301a68fb9cc608" name="a39e5a0feed625bdab3301a68fb9cc608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39e5a0feed625bdab3301a68fb9cc608">&#9670;&#160;</a></span>__setitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Assign list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a2492b66ac52bfc59182b578de2fa0e0b" name="a2492b66ac52bfc59182b578de2fa0e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2492b66ac52bfc59182b578de2fa0e0b">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.append </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Add an item to the end of the list
+</pre> 
+</div>
+</div>
+<a id="a92e6f40db133011dc02e47630056e44a" name="a92e6f40db133011dc02e47630056e44a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e6f40db133011dc02e47630056e44a">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Clear the contents
+</pre> 
+</div>
+</div>
+<a id="a8dcb09d4c2e9507d55bb773cad9678f2" name="a8dcb09d4c2e9507d55bb773cad9678f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dcb09d4c2e9507d55bb773cad9678f2">&#9670;&#160;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.count </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return the number of times ``x`` appears in the list
+</pre> 
+</div>
+</div>
+<a id="ab07879b5ea1ab45f95a9508210d8d41b" name="ab07879b5ea1ab45f95a9508210d8d41b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07879b5ea1ab45f95a9508210d8d41b">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e1b20e2043ebf36b653c84f412efad0" name="a8e1b20e2043ebf36b653c84f412efad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1b20e2043ebf36b653c84f412efad0">&#9670;&#160;</a></span>extend() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a></td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="aed88516ec046bd24bb7a29b4a91171aa" name="aed88516ec046bd24bb7a29b4a91171aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed88516ec046bd24bb7a29b4a91171aa">&#9670;&#160;</a></span>extend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="ac3c96c97772d3014aa50d7ce955c12ee" name="ac3c96c97772d3014aa50d7ce955c12ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c96c97772d3014aa50d7ce955c12ee">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.insert </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Insert an item at a given position.
+</pre> 
+</div>
+</div>
+<a id="a2730872cde69ea1349295029db7265a0" name="a2730872cde69ea1349295029db7265a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2730872cde69ea1349295029db7265a0">&#9670;&#160;</a></span>pop() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the last item
+</pre> 
+</div>
+</div>
+<a id="ab3f87b0ee995c423e52a2331b1ab074b" name="ab3f87b0ee995c423e52a2331b1ab074b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3f87b0ee995c423e52a2331b1ab074b">&#9670;&#160;</a></span>pop() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a> meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the item at index ``i``
+</pre> 
+</div>
+</div>
+<a id="a608ad4d27a127f3d232233e68f38c1b6" name="a608ad4d27a127f3d232233e68f38c1b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608ad4d27a127f3d232233e68f38c1b6">&#9670;&#160;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.remove </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove the first item from the list whose value is x. It is an error if there is no such item.
+</pre> 
+</div>
+</div>
+<a id="a37a585e2f55b516a562f223add9c6906" name="a37a585e2f55b516a562f223add9c6906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a585e2f55b516a562f223add9c6906">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4cdd48eb36a63ecf9eae54c8138d071" name="ac4cdd48eb36a63ecf9eae54c8138d071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4cdd48eb36a63ecf9eae54c8138d071">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsLoad_1_1DicomVolumeT__VdbVolume.html">VoxelsLoad.DicomVolumeT_VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57d5dc6c9b3070e64db173be28abd6e1" name="a57d5dc6c9b3070e64db173be28abd6e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d5dc6c9b3070e64db173be28abd6e1">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__VoxelsLoad__DicomVolumeT__VoxelsVolumf74580f74646932d28513b7e71f6be10.html">std_vector_std_shared_ptr_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

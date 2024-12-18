@@ -1,0 +1,1078 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af6f8a2ef336e8b5cdbebb2313c86f1ab" id="r_af6f8a2ef336e8b5cdbebb2313c86f1ab"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f8a2ef336e8b5cdbebb2313c86f1ab">__init__</a> (self)</td></tr>
+<tr class="separator:af6f8a2ef336e8b5cdbebb2313c86f1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f4114a9d8ef951a6e9011b1688c619" id="r_a21f4114a9d8ef951a6e9011b1688c619"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f4114a9d8ef951a6e9011b1688c619">__init__</a> (self, int <a class="el" href="#a5db7785a9af8bf9608439a90bf275d4f">size</a>)</td></tr>
+<tr class="separator:a21f4114a9d8ef951a6e9011b1688c619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac52cdcc79cdf2f141f1eff5049d42e9" id="r_aac52cdcc79cdf2f141f1eff5049d42e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac52cdcc79cdf2f141f1eff5049d42e9">__init__</a> (self, int <a class="el" href="#a5db7785a9af8bf9608439a90bf275d4f">size</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> val)</td></tr>
+<tr class="separator:aac52cdcc79cdf2f141f1eff5049d42e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada44785e11f5ece3a21e9c9097f78c51" id="r_ada44785e11f5ece3a21e9c9097f78c51"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada44785e11f5ece3a21e9c9097f78c51">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html">std_vector_WatershedGraph_BasinInfo</a> vec)</td></tr>
+<tr class="separator:ada44785e11f5ece3a21e9c9097f78c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e0e27881d4c438a6cb1473b16a5b674" id="r_a3e0e27881d4c438a6cb1473b16a5b674"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e0e27881d4c438a6cb1473b16a5b674">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html">Vector_WatershedGraph_BasinInfo_GraphVertId</a> arg0)</td></tr>
+<tr class="separator:a3e0e27881d4c438a6cb1473b16a5b674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50e7a0a83dfbe971522e7cdeb26020d" id="r_ab50e7a0a83dfbe971522e7cdeb26020d"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab50e7a0a83dfbe971522e7cdeb26020d">__iter__</a> (self)</td></tr>
+<tr class="separator:ab50e7a0a83dfbe971522e7cdeb26020d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1da07da8f63725558e68798bbaea3bb" id="r_ab1da07da8f63725558e68798bbaea3bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1da07da8f63725558e68798bbaea3bb">autoResizeAt</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i)</td></tr>
+<tr class="separator:ab1da07da8f63725558e68798bbaea3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a791c48863a343da5206b9d77104b7fc7" id="r_a791c48863a343da5206b9d77104b7fc7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a791c48863a343da5206b9d77104b7fc7">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos, int len, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> val)</td></tr>
+<tr class="separator:a791c48863a343da5206b9d77104b7fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96ba5b974aa3fc97106e7eb9e21807f6" id="r_a96ba5b974aa3fc97106e7eb9e21807f6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96ba5b974aa3fc97106e7eb9e21807f6">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> val)</td></tr>
+<tr class="separator:a96ba5b974aa3fc97106e7eb9e21807f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ea4505676e5d7e948ffa85c3ca11ab" id="r_af5ea4505676e5d7e948ffa85c3ca11ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5ea4505676e5d7e948ffa85c3ca11ab">back</a> (self)</td></tr>
+<tr class="separator:af5ea4505676e5d7e948ffa85c3ca11ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ea4505676e5d7e948ffa85c3ca11ab" id="r_af5ea4505676e5d7e948ffa85c3ca11ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5ea4505676e5d7e948ffa85c3ca11ab">back</a> (self)</td></tr>
+<tr class="separator:af5ea4505676e5d7e948ffa85c3ca11ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b215975bcdab7a1b4bc8b3364300e65" id="r_a1b215975bcdab7a1b4bc8b3364300e65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b215975bcdab7a1b4bc8b3364300e65">backId</a> (self)</td></tr>
+<tr class="separator:a1b215975bcdab7a1b4bc8b3364300e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405ff502a63b5b7f5e70897819c1d16e" id="r_a405ff502a63b5b7f5e70897819c1d16e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a405ff502a63b5b7f5e70897819c1d16e">beginId</a> (self)</td></tr>
+<tr class="separator:a405ff502a63b5b7f5e70897819c1d16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f390f0cfbe4c83452c3e98a7b2cb264" id="r_a7f390f0cfbe4c83452c3e98a7b2cb264"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f390f0cfbe4c83452c3e98a7b2cb264">capacity</a> (self)</td></tr>
+<tr class="separator:a7f390f0cfbe4c83452c3e98a7b2cb264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31f3a35a622030de32e0e5d9d7d385f" id="r_ad31f3a35a622030de32e0e5d9d7d385f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad31f3a35a622030de32e0e5d9d7d385f">clear</a> (self)</td></tr>
+<tr class="separator:ad31f3a35a622030de32e0e5d9d7d385f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c3b668c07695930abe1fb3c6b77fbe" id="r_aa5c3b668c07695930abe1fb3c6b77fbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c3b668c07695930abe1fb3c6b77fbe">data</a> (self)</td></tr>
+<tr class="separator:aa5c3b668c07695930abe1fb3c6b77fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c3b668c07695930abe1fb3c6b77fbe" id="r_aa5c3b668c07695930abe1fb3c6b77fbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c3b668c07695930abe1fb3c6b77fbe">data</a> (self)</td></tr>
+<tr class="separator:aa5c3b668c07695930abe1fb3c6b77fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54c617f9fdabbac6a35b142dbb000848" id="r_a54c617f9fdabbac6a35b142dbb000848"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54c617f9fdabbac6a35b142dbb000848">empty</a> (self)</td></tr>
+<tr class="separator:a54c617f9fdabbac6a35b142dbb000848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f8dd39574d66504247a98885ca7e12" id="r_a02f8dd39574d66504247a98885ca7e12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02f8dd39574d66504247a98885ca7e12">endId</a> (self)</td></tr>
+<tr class="separator:a02f8dd39574d66504247a98885ca7e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d850f723fdfa08ff9aff36e0d02f90f" id="r_a5d850f723fdfa08ff9aff36e0d02f90f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d850f723fdfa08ff9aff36e0d02f90f">front</a> (self)</td></tr>
+<tr class="separator:a5d850f723fdfa08ff9aff36e0d02f90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d850f723fdfa08ff9aff36e0d02f90f" id="r_a5d850f723fdfa08ff9aff36e0d02f90f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d850f723fdfa08ff9aff36e0d02f90f">front</a> (self)</td></tr>
+<tr class="separator:a5d850f723fdfa08ff9aff36e0d02f90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d8848e44349d5fe68b35af233db3f6" id="r_af3d8848e44349d5fe68b35af233db3f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d8848e44349d5fe68b35af233db3f6">heapBytes</a> (self)</td></tr>
+<tr class="separator:af3d8848e44349d5fe68b35af233db3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33a1dd359e94b5d9f1e63171a1e24d9" id="r_aa33a1dd359e94b5d9f1e63171a1e24d9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa33a1dd359e94b5d9f1e63171a1e24d9">pop_back</a> (self)</td></tr>
+<tr class="separator:aa33a1dd359e94b5d9f1e63171a1e24d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a7a202012a450a6fbff6f37ce6138a" id="r_ab4a7a202012a450a6fbff6f37ce6138a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a7a202012a450a6fbff6f37ce6138a">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> t)</td></tr>
+<tr class="separator:ab4a7a202012a450a6fbff6f37ce6138a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a7a202012a450a6fbff6f37ce6138a" id="r_ab4a7a202012a450a6fbff6f37ce6138a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a7a202012a450a6fbff6f37ce6138a">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> t)</td></tr>
+<tr class="separator:ab4a7a202012a450a6fbff6f37ce6138a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5afc39eed665e2c082863a84404818d0" id="r_a5afc39eed665e2c082863a84404818d0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5afc39eed665e2c082863a84404818d0">reserve</a> (self, int <a class="el" href="#a7f390f0cfbe4c83452c3e98a7b2cb264">capacity</a>)</td></tr>
+<tr class="separator:a5afc39eed665e2c082863a84404818d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa75c957619db58048207c9b0bf1796" id="r_a5fa75c957619db58048207c9b0bf1796"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fa75c957619db58048207c9b0bf1796">resize</a> (self, int newSize)</td></tr>
+<tr class="separator:a5fa75c957619db58048207c9b0bf1796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f06a161c0cffa0470765ec0e6c1b43" id="r_ab0f06a161c0cffa0470765ec0e6c1b43"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f06a161c0cffa0470765ec0e6c1b43">resize</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> t)</td></tr>
+<tr class="separator:ab0f06a161c0cffa0470765ec0e6c1b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f7507e7c3d87457aa5ba1d96cff0a0" id="r_a78f7507e7c3d87457aa5ba1d96cff0a0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78f7507e7c3d87457aa5ba1d96cff0a0">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a78f7507e7c3d87457aa5ba1d96cff0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada24cbc037a0e1a2516de659eb869f58" id="r_ada24cbc037a0e1a2516de659eb869f58"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada24cbc037a0e1a2516de659eb869f58">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> value)</td></tr>
+<tr class="separator:ada24cbc037a0e1a2516de659eb869f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db7785a9af8bf9608439a90bf275d4f" id="r_a5db7785a9af8bf9608439a90bf275d4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db7785a9af8bf9608439a90bf275d4f">size</a> (self)</td></tr>
+<tr class="separator:a5db7785a9af8bf9608439a90bf275d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b9071a17eab02e2c178790f9fea7a6" id="r_a77b9071a17eab02e2c178790f9fea7a6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b9071a17eab02e2c178790f9fea7a6">swap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html">Vector_WatershedGraph_BasinInfo_GraphVertId</a> b)</td></tr>
+<tr class="separator:a77b9071a17eab02e2c178790f9fea7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a041c8ec2494b6b2331caac49cc73d7d2" id="r_a041c8ec2494b6b2331caac49cc73d7d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html">std_vector_WatershedGraph_BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a041c8ec2494b6b2331caac49cc73d7d2">vec_</a> (self)</td></tr>
+<tr class="separator:a041c8ec2494b6b2331caac49cc73d7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67e5778c510795c30d59d93864f05e0" id="r_ae67e5778c510795c30d59d93864f05e0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae67e5778c510795c30d59d93864f05e0">vec_</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html">std_vector_WatershedGraph_BasinInfo</a> arg1)</td></tr>
+<tr class="separator:ae67e5778c510795c30d59d93864f05e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a53be670c483d636b9f4a6d131d15d88d" id="r_a53be670c483d636b9f4a6d131d15d88d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53be670c483d636b9f4a6d131d15d88d">const_reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td></tr>
+<tr class="separator:a53be670c483d636b9f4a6d131d15d88d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6119c3b847968dc684eac4592f1cbbec" id="r_a6119c3b847968dc684eac4592f1cbbec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6119c3b847968dc684eac4592f1cbbec">reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td></tr>
+<tr class="separator:a6119c3b847968dc684eac4592f1cbbec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08ab0da71061661be552305ec96abf1" id="r_af08ab0da71061661be552305ec96abf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af08ab0da71061661be552305ec96abf1">value_type</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td></tr>
+<tr class="separator:af08ab0da71061661be552305ec96abf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aca41d45e82bdbe2f3d2bdf53a5de7402" id="r_aca41d45e82bdbe2f3d2bdf53a5de7402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca41d45e82bdbe2f3d2bdf53a5de7402">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i)</td></tr>
+<tr class="separator:aca41d45e82bdbe2f3d2bdf53a5de7402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca41d45e82bdbe2f3d2bdf53a5de7402" id="r_aca41d45e82bdbe2f3d2bdf53a5de7402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca41d45e82bdbe2f3d2bdf53a5de7402">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i)</td></tr>
+<tr class="separator:aca41d45e82bdbe2f3d2bdf53a5de7402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Vector&lt;MR::WatershedGraph::BasinInfo, MR::GraphVertId&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)
+ \\ingroup BasicGroup</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af6f8a2ef336e8b5cdbebb2313c86f1ab" name="af6f8a2ef336e8b5cdbebb2313c86f1ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f8a2ef336e8b5cdbebb2313c86f1ab">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21f4114a9d8ef951a6e9011b1688c619" name="a21f4114a9d8ef951a6e9011b1688c619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f4114a9d8ef951a6e9011b1688c619">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac52cdcc79cdf2f141f1eff5049d42e9" name="aac52cdcc79cdf2f141f1eff5049d42e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac52cdcc79cdf2f141f1eff5049d42e9">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada44785e11f5ece3a21e9c9097f78c51" name="ada44785e11f5ece3a21e9c9097f78c51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada44785e11f5ece3a21e9c9097f78c51">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html">std_vector_WatershedGraph_BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e0e27881d4c438a6cb1473b16a5b674" name="a3e0e27881d4c438a6cb1473b16a5b674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e0e27881d4c438a6cb1473b16a5b674">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html">Vector_WatershedGraph_BasinInfo_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab50e7a0a83dfbe971522e7cdeb26020d" name="ab50e7a0a83dfbe971522e7cdeb26020d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab50e7a0a83dfbe971522e7cdeb26020d">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca41d45e82bdbe2f3d2bdf53a5de7402" name="aca41d45e82bdbe2f3d2bdf53a5de7402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca41d45e82bdbe2f3d2bdf53a5de7402">&#9670;&#160;</a></span>_Subscript() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca41d45e82bdbe2f3d2bdf53a5de7402" name="aca41d45e82bdbe2f3d2bdf53a5de7402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca41d45e82bdbe2f3d2bdf53a5de7402">&#9670;&#160;</a></span>_Subscript() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1da07da8f63725558e68798bbaea3bb" name="ab1da07da8f63725558e68798bbaea3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1da07da8f63725558e68798bbaea3bb">&#9670;&#160;</a></span>autoResizeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.autoResizeAt </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this accessor automatically adjusts the size of the vector
+</pre> 
+</div>
+</div>
+<a id="a96ba5b974aa3fc97106e7eb9e21807f6" name="a96ba5b974aa3fc97106e7eb9e21807f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96ba5b974aa3fc97106e7eb9e21807f6">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a791c48863a343da5206b9d77104b7fc7" name="a791c48863a343da5206b9d77104b7fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a791c48863a343da5206b9d77104b7fc7">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+</pre> 
+</div>
+</div>
+<a id="af5ea4505676e5d7e948ffa85c3ca11ab" name="af5ea4505676e5d7e948ffa85c3ca11ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ea4505676e5d7e948ffa85c3ca11ab">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5ea4505676e5d7e948ffa85c3ca11ab" name="af5ea4505676e5d7e948ffa85c3ca11ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ea4505676e5d7e948ffa85c3ca11ab">&#9670;&#160;</a></span>back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b215975bcdab7a1b4bc8b3364300e65" name="a1b215975bcdab7a1b4bc8b3364300e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b215975bcdab7a1b4bc8b3364300e65">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+</div>
+</div>
+<a id="a405ff502a63b5b7f5e70897819c1d16e" name="a405ff502a63b5b7f5e70897819c1d16e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a405ff502a63b5b7f5e70897819c1d16e">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.beginId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the first element
+</pre> 
+</div>
+</div>
+<a id="a7f390f0cfbe4c83452c3e98a7b2cb264" name="a7f390f0cfbe4c83452c3e98a7b2cb264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f390f0cfbe4c83452c3e98a7b2cb264">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.capacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad31f3a35a622030de32e0e5d9d7d385f" name="ad31f3a35a622030de32e0e5d9d7d385f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31f3a35a622030de32e0e5d9d7d385f">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5c3b668c07695930abe1fb3c6b77fbe" name="aa5c3b668c07695930abe1fb3c6b77fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c3b668c07695930abe1fb3c6b77fbe">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5c3b668c07695930abe1fb3c6b77fbe" name="aa5c3b668c07695930abe1fb3c6b77fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c3b668c07695930abe1fb3c6b77fbe">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54c617f9fdabbac6a35b142dbb000848" name="a54c617f9fdabbac6a35b142dbb000848"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54c617f9fdabbac6a35b142dbb000848">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02f8dd39574d66504247a98885ca7e12" name="a02f8dd39574d66504247a98885ca7e12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02f8dd39574d66504247a98885ca7e12">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns backId() + 1
+</pre> 
+</div>
+</div>
+<a id="a5d850f723fdfa08ff9aff36e0d02f90f" name="a5d850f723fdfa08ff9aff36e0d02f90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d850f723fdfa08ff9aff36e0d02f90f">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d850f723fdfa08ff9aff36e0d02f90f" name="a5d850f723fdfa08ff9aff36e0d02f90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d850f723fdfa08ff9aff36e0d02f90f">&#9670;&#160;</a></span>front() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3d8848e44349d5fe68b35af233db3f6" name="af3d8848e44349d5fe68b35af233db3f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d8848e44349d5fe68b35af233db3f6">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+</div>
+</div>
+<a id="aa33a1dd359e94b5d9f1e63171a1e24d9" name="aa33a1dd359e94b5d9f1e63171a1e24d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa33a1dd359e94b5d9f1e63171a1e24d9">&#9670;&#160;</a></span>pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.pop_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4a7a202012a450a6fbff6f37ce6138a" name="ab4a7a202012a450a6fbff6f37ce6138a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4a7a202012a450a6fbff6f37ce6138a">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4a7a202012a450a6fbff6f37ce6138a" name="ab4a7a202012a450a6fbff6f37ce6138a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4a7a202012a450a6fbff6f37ce6138a">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5afc39eed665e2c082863a84404818d0" name="a5afc39eed665e2c082863a84404818d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5afc39eed665e2c082863a84404818d0">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.reserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fa75c957619db58048207c9b0bf1796" name="a5fa75c957619db58048207c9b0bf1796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa75c957619db58048207c9b0bf1796">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0f06a161c0cffa0470765ec0e6c1b43" name="ab0f06a161c0cffa0470765ec0e6c1b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f06a161c0cffa0470765ec0e6c1b43">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78f7507e7c3d87457aa5ba1d96cff0a0" name="a78f7507e7c3d87457aa5ba1d96cff0a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78f7507e7c3d87457aa5ba1d96cff0a0">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="ada24cbc037a0e1a2516de659eb869f58" name="ada24cbc037a0e1a2516de659eb869f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada24cbc037a0e1a2516de659eb869f58">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a5db7785a9af8bf9608439a90bf275d4f" name="a5db7785a9af8bf9608439a90bf275d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db7785a9af8bf9608439a90bf275d4f">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77b9071a17eab02e2c178790f9fea7a6" name="a77b9071a17eab02e2c178790f9fea7a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b9071a17eab02e2c178790f9fea7a6">&#9670;&#160;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.swap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html">Vector_WatershedGraph_BasinInfo_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a041c8ec2494b6b2331caac49cc73d7d2" name="a041c8ec2494b6b2331caac49cc73d7d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a041c8ec2494b6b2331caac49cc73d7d2">&#9670;&#160;</a></span>vec_() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html">std_vector_WatershedGraph_BasinInfo</a> meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the user can directly manipulate the vector, anyway she cannot break anything
+</pre> 
+</div>
+</div>
+<a id="ae67e5778c510795c30d59d93864f05e0" name="ae67e5778c510795c30d59d93864f05e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae67e5778c510795c30d59d93864f05e0">&#9670;&#160;</a></span>vec_() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html">std_vector_WatershedGraph_BasinInfo</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a53be670c483d636b9f4a6d131d15d88d" name="a53be670c483d636b9f4a6d131d15d88d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53be670c483d636b9f4a6d131d15d88d">&#9670;&#160;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.const_reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6119c3b847968dc684eac4592f1cbbec" name="a6119c3b847968dc684eac4592f1cbbec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6119c3b847968dc684eac4592f1cbbec">&#9670;&#160;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af08ab0da71061661be552305ec96abf1" name="af08ab0da71061661be552305ec96abf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08ab0da71061661be552305ec96abf1">&#9670;&#160;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.value_type = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1WatershedGraph_1_1BasinInfo.html">WatershedGraph.BasinInfo</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html">Vector_WatershedGraph_BasinInfo_GraphVertId</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

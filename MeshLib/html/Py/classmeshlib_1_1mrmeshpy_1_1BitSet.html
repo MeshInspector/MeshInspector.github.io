@@ -1,0 +1,1250 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1BitSet.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.BitSet Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1BitSet.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1BitSet-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.BitSet Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for meshlib.mrmeshpy.BitSet:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmeshlib_1_1mrmeshpy_1_1BitSet.png" usemap="#meshlib.mrmeshpy.BitSet_map" alt=""/>
+  <map id="meshlib.mrmeshpy.BitSet_map" name="meshlib.mrmeshpy.BitSet_map">
+<area href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html" alt="meshlib.mrmeshpy.AABBTreePoints.NodeBitSet" shape="rect" coords="289,56,568,80"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html" alt="meshlib.mrmeshpy.EdgeBitSet" shape="rect" coords="289,112,568,136"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html" alt="meshlib.mrmeshpy.FaceBitSet" shape="rect" coords="289,168,568,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html" alt="meshlib.mrmeshpy.GraphEdgeBitSet" shape="rect" coords="289,224,568,248"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html" alt="meshlib.mrmeshpy.GraphVertBitSet" shape="rect" coords="289,280,568,304"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html" alt="meshlib.mrmeshpy.NodeBitSet" shape="rect" coords="289,336,568,360"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html" alt="meshlib.mrmeshpy.ObjBitSet" shape="rect" coords="289,392,568,416"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html" alt="meshlib.mrmeshpy.PixelBitSet" shape="rect" coords="289,448,568,472"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html" alt="meshlib.mrmeshpy.RegionBitSet" shape="rect" coords="289,504,568,528"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html" alt="meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag" shape="rect" coords="289,560,568,584"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html" alt="meshlib.mrmeshpy.TextureBitSet" shape="rect" coords="289,616,568,640"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html" alt="meshlib.mrmeshpy.UndirectedEdgeBitSet" shape="rect" coords="289,672,568,696"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html" alt="meshlib.mrmeshpy.VertBitSet" shape="rect" coords="289,728,568,752"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html" alt="meshlib.mrmeshpy.VoxelBitSet" shape="rect" coords="289,784,568,808"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a85435ac3557f145028e771489998d509" id="r_a85435ac3557f145028e771489998d509"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85435ac3557f145028e771489998d509">__and__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a85435ac3557f145028e771489998d509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab0153df8d6e25b8334253117496758" id="r_a3ab0153df8d6e25b8334253117496758"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab0153df8d6e25b8334253117496758">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a3ab0153df8d6e25b8334253117496758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dc3ca031fa7e8da6617d6b74cc66fc5" id="r_a9dc3ca031fa7e8da6617d6b74cc66fc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dc3ca031fa7e8da6617d6b74cc66fc5">__iand__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a9dc3ca031fa7e8da6617d6b74cc66fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b68c1ab58ea09861db4af526102443" id="r_a72b68c1ab58ea09861db4af526102443"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72b68c1ab58ea09861db4af526102443">__init__</a> (self, int numBits, bool fillValue)</td></tr>
+<tr class="separator:a72b68c1ab58ea09861db4af526102443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e8575565df3dcc8325b2a6407dc550" id="r_a78e8575565df3dcc8325b2a6407dc550"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78e8575565df3dcc8325b2a6407dc550">__init__</a> (self)</td></tr>
+<tr class="separator:a78e8575565df3dcc8325b2a6407dc550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2edb7ca7f05f18feac1e292a212e8619" id="r_a2edb7ca7f05f18feac1e292a212e8619"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2edb7ca7f05f18feac1e292a212e8619">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> arg0)</td></tr>
+<tr class="separator:a2edb7ca7f05f18feac1e292a212e8619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4483a0930112aa22fa6181a8ddd90c15" id="r_a4483a0930112aa22fa6181a8ddd90c15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4483a0930112aa22fa6181a8ddd90c15">__ior__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a4483a0930112aa22fa6181a8ddd90c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290e91b15f60c8853e19f234b0ff17d8" id="r_a290e91b15f60c8853e19f234b0ff17d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290e91b15f60c8853e19f234b0ff17d8">__isub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a290e91b15f60c8853e19f234b0ff17d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ef3df14f5745445ad5eab11ab6d19f" id="r_a32ef3df14f5745445ad5eab11ab6d19f"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ef3df14f5745445ad5eab11ab6d19f">__iter__</a> (self)</td></tr>
+<tr class="separator:a32ef3df14f5745445ad5eab11ab6d19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb142b116441bf689908ba9b7b3353c1" id="r_acb142b116441bf689908ba9b7b3353c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb142b116441bf689908ba9b7b3353c1">__ixor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:acb142b116441bf689908ba9b7b3353c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d17880413e81c3eb3bb9d22c079ea0" id="r_ad7d17880413e81c3eb3bb9d22c079ea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7d17880413e81c3eb3bb9d22c079ea0">__or__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:ad7d17880413e81c3eb3bb9d22c079ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a802e19baafadd3feb434aa3526672762" id="r_a802e19baafadd3feb434aa3526672762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a802e19baafadd3feb434aa3526672762">__sub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a802e19baafadd3feb434aa3526672762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3c7333febae5358edf59c3ebcfb2e3" id="r_a0f3c7333febae5358edf59c3ebcfb2e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f3c7333febae5358edf59c3ebcfb2e3">__xor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a0f3c7333febae5358edf59c3ebcfb2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d98fdb6ec197be5f3753ddcba87aa7" id="r_a14d98fdb6ec197be5f3753ddcba87aa7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14d98fdb6ec197be5f3753ddcba87aa7">autoResizeSet</a> (self, int pos, int len, bool val=True)</td></tr>
+<tr class="separator:a14d98fdb6ec197be5f3753ddcba87aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8e250e8309279fcc7f3a0e390072ee" id="r_afb8e250e8309279fcc7f3a0e390072ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb8e250e8309279fcc7f3a0e390072ee">autoResizeSet</a> (self, int pos, bool val=True)</td></tr>
+<tr class="separator:afb8e250e8309279fcc7f3a0e390072ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad87d5171e33bfce5eb2add65e8a527" id="r_a6ad87d5171e33bfce5eb2add65e8a527"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad87d5171e33bfce5eb2add65e8a527">autoResizeTestSet</a> (self, int pos, bool val=True)</td></tr>
+<tr class="separator:a6ad87d5171e33bfce5eb2add65e8a527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4cf7a214fd2c7ed53be7670f344914" id="r_a4b4cf7a214fd2c7ed53be7670f344914"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b4cf7a214fd2c7ed53be7670f344914">backId</a> (self)</td></tr>
+<tr class="separator:a4b4cf7a214fd2c7ed53be7670f344914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae077f54c2adb7b26cc274216d17f2251" id="r_ae077f54c2adb7b26cc274216d17f2251"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae077f54c2adb7b26cc274216d17f2251">clear</a> (self)</td></tr>
+<tr class="separator:ae077f54c2adb7b26cc274216d17f2251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a10cb247b0d81387888917cdc4b04b" id="r_ac7a10cb247b0d81387888917cdc4b04b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a10cb247b0d81387888917cdc4b04b">count</a> (self)</td></tr>
+<tr class="separator:ac7a10cb247b0d81387888917cdc4b04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d331dd85ce8c0d16233cf52d991c72f" id="r_a3d331dd85ce8c0d16233cf52d991c72f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d331dd85ce8c0d16233cf52d991c72f">endId</a> (self)</td></tr>
+<tr class="separator:a3d331dd85ce8c0d16233cf52d991c72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc6e4c6f18181a464ddc840c3a116cb" id="r_a1bc6e4c6f18181a464ddc840c3a116cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bc6e4c6f18181a464ddc840c3a116cb">find_last</a> (self)</td></tr>
+<tr class="separator:a1bc6e4c6f18181a464ddc840c3a116cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24736ab49afc49160fac9b5f7357d751" id="r_a24736ab49afc49160fac9b5f7357d751"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24736ab49afc49160fac9b5f7357d751">flip</a> (self, int n, int len)</td></tr>
+<tr class="separator:a24736ab49afc49160fac9b5f7357d751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab23e0d081d883051b91dd6c803867698" id="r_ab23e0d081d883051b91dd6c803867698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab23e0d081d883051b91dd6c803867698">flip</a> (self, int n)</td></tr>
+<tr class="separator:ab23e0d081d883051b91dd6c803867698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81987948a666b082c9f3513c03349438" id="r_a81987948a666b082c9f3513c03349438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81987948a666b082c9f3513c03349438">flip</a> (self)</td></tr>
+<tr class="separator:a81987948a666b082c9f3513c03349438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3278b7c07b149e6ae370f4a69640e101" id="r_a3278b7c07b149e6ae370f4a69640e101"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3278b7c07b149e6ae370f4a69640e101">heapBytes</a> (self)</td></tr>
+<tr class="separator:a3278b7c07b149e6ae370f4a69640e101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28681fac7dec04ed63e434b6abc07ed0" id="r_a28681fac7dec04ed63e434b6abc07ed0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28681fac7dec04ed63e434b6abc07ed0">nthSetBit</a> (self, int n)</td></tr>
+<tr class="separator:a28681fac7dec04ed63e434b6abc07ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d30a6aec1e3cebb63fbec9627395fe" id="r_a33d30a6aec1e3cebb63fbec9627395fe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d30a6aec1e3cebb63fbec9627395fe">pop_back</a> (self)</td></tr>
+<tr class="separator:a33d30a6aec1e3cebb63fbec9627395fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a674f5b26614225e1d27d35bc0845a555" id="r_a674f5b26614225e1d27d35bc0845a555"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a674f5b26614225e1d27d35bc0845a555">push_back</a> (self, bool bit)</td></tr>
+<tr class="separator:a674f5b26614225e1d27d35bc0845a555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67990e25470df9b2491444c9501021c" id="r_ae67990e25470df9b2491444c9501021c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae67990e25470df9b2491444c9501021c">reset</a> (self, int n, int len)</td></tr>
+<tr class="separator:ae67990e25470df9b2491444c9501021c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219065017e94b10c3387968c319173a1" id="r_a219065017e94b10c3387968c319173a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a219065017e94b10c3387968c319173a1">reset</a> (self, int n)</td></tr>
+<tr class="separator:a219065017e94b10c3387968c319173a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18fb3a9cc2c24d76d5b1b297ab58405" id="r_ad18fb3a9cc2c24d76d5b1b297ab58405"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad18fb3a9cc2c24d76d5b1b297ab58405">reset</a> (self)</td></tr>
+<tr class="separator:ad18fb3a9cc2c24d76d5b1b297ab58405"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be4e454b4584aa606be3f6687178a1e" id="r_a0be4e454b4584aa606be3f6687178a1e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be4e454b4584aa606be3f6687178a1e">resize</a> (self, int num_bits, bool value=False)</td></tr>
+<tr class="separator:a0be4e454b4584aa606be3f6687178a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a4ae2a0d6dff85c15b2dfe9deba202" id="r_a88a4ae2a0d6dff85c15b2dfe9deba202"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a4ae2a0d6dff85c15b2dfe9deba202">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a88a4ae2a0d6dff85c15b2dfe9deba202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435e6cbe5189e3dc93cadba92043a641" id="r_a435e6cbe5189e3dc93cadba92043a641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a435e6cbe5189e3dc93cadba92043a641">set</a> (self, int n, int len, bool val)</td></tr>
+<tr class="separator:a435e6cbe5189e3dc93cadba92043a641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3843215024e4999a9e349cd709bd8dfa" id="r_a3843215024e4999a9e349cd709bd8dfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3843215024e4999a9e349cd709bd8dfa">set</a> (self, int n, bool val=True)</td></tr>
+<tr class="separator:a3843215024e4999a9e349cd709bd8dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9efb852dd795b5b24d04e4bbd427c20c" id="r_a9efb852dd795b5b24d04e4bbd427c20c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9efb852dd795b5b24d04e4bbd427c20c">set</a> (self)</td></tr>
+<tr class="separator:a9efb852dd795b5b24d04e4bbd427c20c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f8fd68f889a1d1606ac6724cfe450f" id="r_a10f8fd68f889a1d1606ac6724cfe450f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10f8fd68f889a1d1606ac6724cfe450f">size</a> (self)</td></tr>
+<tr class="separator:a10f8fd68f889a1d1606ac6724cfe450f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037e3c867e7fc3e183cb5799674854cb" id="r_a037e3c867e7fc3e183cb5799674854cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a037e3c867e7fc3e183cb5799674854cb">subtract</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b, int bShiftInBlocks)</td></tr>
+<tr class="separator:a037e3c867e7fc3e183cb5799674854cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7670f21a795b5119c3b0b83d6c5cf358" id="r_a7670f21a795b5119c3b0b83d6c5cf358"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7670f21a795b5119c3b0b83d6c5cf358">test</a> (self, int n)</td></tr>
+<tr class="separator:a7670f21a795b5119c3b0b83d6c5cf358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af203a8a30b035e5f509935eb559d0974" id="r_af203a8a30b035e5f509935eb559d0974"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af203a8a30b035e5f509935eb559d0974">test_set</a> (self, int n, bool val=True)</td></tr>
+<tr class="separator:af203a8a30b035e5f509935eb559d0974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa6028fcc911547bb985153b35f6aa5dc" id="r_aa6028fcc911547bb985153b35f6aa5dc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6028fcc911547bb985153b35f6aa5dc">beginId</a> ()</td></tr>
+<tr class="separator:aa6028fcc911547bb985153b35f6aa5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::BitSet
+
+container of bits
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a72b68c1ab58ea09861db4af526102443" name="a72b68c1ab58ea09861db4af526102443"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72b68c1ab58ea09861db4af526102443">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numBits</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fillValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">creates bitset of given size filled with given value
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#adf2e1cc7abd5c39f3ce41adf535863fb">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#acd5a65263842cbc3d6d0cca94474c8bf">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#abb6c9d40fae056614222a29df775f9e5">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a363209d1bd9e72ecede804d9d9a0b8fd">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a363209d1bd9e72ecede804d9d9a0b8fd">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a4bf096e245e8e99e9b399bbcaee86b3a">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#adf5e5da0697feb436b2982e75514abaf">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a467488e7511acd42cf781bdbbf397462">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a467488e7511acd42cf781bdbbf397462">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a84500532d1795f902f21edbb59c778bc">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a2b324d973eaaaac925edd5a239c30838">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3f2de2d25eb698460a7ee5f94ecf7e69">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3f2de2d25eb698460a7ee5f94ecf7e69">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a618d4867caca79c96204857aef88824f">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a99d84d741775e8700f353af342e4c03e">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a56c922ed7a9bfe0511c9384804eb1127">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a56c922ed7a9bfe0511c9384804eb1127">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#afb649e9cb512073980ca3c630fc68f0f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a137ce73b0a70991841a1f0f45e9fd85d">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ac465cb8f70f6a430b524b19754369f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ac465cb8f70f6a430b524b19754369f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ad80d2a5ad0d7bd1720ec51b0f93d02">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a31f7de0de39bdc321f5cd20b205c2233">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a21ce78c5cc0adcf9c3bf828f0254d945">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a21ce78c5cc0adcf9c3bf828f0254d945">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#acd2fdb9e69a94063b7d99c61e2cb959f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a5d3b27482964eb6a0c0794a6001f8026">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9d9459b9ccc0d76572f51ac229c92f73">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9d9459b9ccc0d76572f51ac229c92f73">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad8e1735bed87b3aa49215337f963c377">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae1253b2cca36e8610e797325c07f7f83">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af2cf6b84be481070fee8d92bbef776f6">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af2cf6b84be481070fee8d92bbef776f6">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a73c3babbfd879c7421fb68faa85a4a11">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#aa00adc4822a56b698db3873bd4fee994">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a1d11843894bb26a7f55ad51602a1ef7f">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a1d11843894bb26a7f55ad51602a1ef7f">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a568ce9f477820c7a115eb949701e78d3">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a9186517843ade3175c998f6b5cd8bf46">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a3b4a87781bdb33c8adc04d7267c29807">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a3b4a87781bdb33c8adc04d7267c29807">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a0e6652b08a5e88cc6fd529c44fcff1d1">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a376f627928cc3fba68d9eae51761a4be">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ad7963b1f2b64a4d04eda9462a9083529">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ad7963b1f2b64a4d04eda9462a9083529">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ae2394f30f36713b4c87519c3f535770c">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af08975076f2066bf1c37665fc5668240">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a46442e9e0dba5338318121a614ee72ff">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#adb86c2dca4ac4fbbfe25fe34a64fdd38">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a74247de3430813f0267e5603da0e3139">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a74247de3430813f0267e5603da0e3139">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#acd01596aa00f343afce0ec3ec5abb4d2">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a78e8575565df3dcc8325b2a6407dc550" name="a78e8575565df3dcc8325b2a6407dc550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e8575565df3dcc8325b2a6407dc550">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#adf2e1cc7abd5c39f3ce41adf535863fb">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#acd5a65263842cbc3d6d0cca94474c8bf">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#abb6c9d40fae056614222a29df775f9e5">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a363209d1bd9e72ecede804d9d9a0b8fd">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a363209d1bd9e72ecede804d9d9a0b8fd">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a4bf096e245e8e99e9b399bbcaee86b3a">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#adf5e5da0697feb436b2982e75514abaf">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a467488e7511acd42cf781bdbbf397462">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a467488e7511acd42cf781bdbbf397462">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a84500532d1795f902f21edbb59c778bc">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a2b324d973eaaaac925edd5a239c30838">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3f2de2d25eb698460a7ee5f94ecf7e69">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3f2de2d25eb698460a7ee5f94ecf7e69">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a618d4867caca79c96204857aef88824f">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a99d84d741775e8700f353af342e4c03e">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a56c922ed7a9bfe0511c9384804eb1127">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a56c922ed7a9bfe0511c9384804eb1127">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#afb649e9cb512073980ca3c630fc68f0f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a137ce73b0a70991841a1f0f45e9fd85d">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ac465cb8f70f6a430b524b19754369f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ac465cb8f70f6a430b524b19754369f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ad80d2a5ad0d7bd1720ec51b0f93d02">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a31f7de0de39bdc321f5cd20b205c2233">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a21ce78c5cc0adcf9c3bf828f0254d945">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a21ce78c5cc0adcf9c3bf828f0254d945">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#acd2fdb9e69a94063b7d99c61e2cb959f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a5d3b27482964eb6a0c0794a6001f8026">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9d9459b9ccc0d76572f51ac229c92f73">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9d9459b9ccc0d76572f51ac229c92f73">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad8e1735bed87b3aa49215337f963c377">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae1253b2cca36e8610e797325c07f7f83">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af2cf6b84be481070fee8d92bbef776f6">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af2cf6b84be481070fee8d92bbef776f6">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a73c3babbfd879c7421fb68faa85a4a11">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#aa00adc4822a56b698db3873bd4fee994">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a1d11843894bb26a7f55ad51602a1ef7f">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a1d11843894bb26a7f55ad51602a1ef7f">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a568ce9f477820c7a115eb949701e78d3">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a9186517843ade3175c998f6b5cd8bf46">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a3b4a87781bdb33c8adc04d7267c29807">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a3b4a87781bdb33c8adc04d7267c29807">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a0e6652b08a5e88cc6fd529c44fcff1d1">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a376f627928cc3fba68d9eae51761a4be">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ad7963b1f2b64a4d04eda9462a9083529">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ad7963b1f2b64a4d04eda9462a9083529">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ae2394f30f36713b4c87519c3f535770c">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af08975076f2066bf1c37665fc5668240">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a46442e9e0dba5338318121a614ee72ff">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#adb86c2dca4ac4fbbfe25fe34a64fdd38">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a74247de3430813f0267e5603da0e3139">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a74247de3430813f0267e5603da0e3139">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#acd01596aa00f343afce0ec3ec5abb4d2">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a2edb7ca7f05f18feac1e292a212e8619" name="a2edb7ca7f05f18feac1e292a212e8619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2edb7ca7f05f18feac1e292a212e8619">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#adf2e1cc7abd5c39f3ce41adf535863fb">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0a8604ae76535b51935c2e29df10fb28">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#acd5a65263842cbc3d6d0cca94474c8bf">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#abb6c9d40fae056614222a29df775f9e5">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a363209d1bd9e72ecede804d9d9a0b8fd">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a363209d1bd9e72ecede804d9d9a0b8fd">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a4bf096e245e8e99e9b399bbcaee86b3a">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#adf5e5da0697feb436b2982e75514abaf">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a467488e7511acd42cf781bdbbf397462">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a467488e7511acd42cf781bdbbf397462">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a84500532d1795f902f21edbb59c778bc">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a2b324d973eaaaac925edd5a239c30838">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3f2de2d25eb698460a7ee5f94ecf7e69">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3f2de2d25eb698460a7ee5f94ecf7e69">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a618d4867caca79c96204857aef88824f">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a99d84d741775e8700f353af342e4c03e">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a56c922ed7a9bfe0511c9384804eb1127">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a56c922ed7a9bfe0511c9384804eb1127">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#afb649e9cb512073980ca3c630fc68f0f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a137ce73b0a70991841a1f0f45e9fd85d">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ac465cb8f70f6a430b524b19754369f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ac465cb8f70f6a430b524b19754369f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a2ad80d2a5ad0d7bd1720ec51b0f93d02">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a31f7de0de39bdc321f5cd20b205c2233">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a21ce78c5cc0adcf9c3bf828f0254d945">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a21ce78c5cc0adcf9c3bf828f0254d945">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#acd2fdb9e69a94063b7d99c61e2cb959f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a5d3b27482964eb6a0c0794a6001f8026">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9d9459b9ccc0d76572f51ac229c92f73">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9d9459b9ccc0d76572f51ac229c92f73">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad8e1735bed87b3aa49215337f963c377">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae1253b2cca36e8610e797325c07f7f83">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af2cf6b84be481070fee8d92bbef776f6">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af2cf6b84be481070fee8d92bbef776f6">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a73c3babbfd879c7421fb68faa85a4a11">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#aa00adc4822a56b698db3873bd4fee994">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a1d11843894bb26a7f55ad51602a1ef7f">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a1d11843894bb26a7f55ad51602a1ef7f">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a568ce9f477820c7a115eb949701e78d3">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a9186517843ade3175c998f6b5cd8bf46">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a3b4a87781bdb33c8adc04d7267c29807">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a3b4a87781bdb33c8adc04d7267c29807">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a0e6652b08a5e88cc6fd529c44fcff1d1">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a376f627928cc3fba68d9eae51761a4be">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ad7963b1f2b64a4d04eda9462a9083529">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ad7963b1f2b64a4d04eda9462a9083529">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ae2394f30f36713b4c87519c3f535770c">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af08975076f2066bf1c37665fc5668240">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a23f18d6c73a21bd55a2424cce87668cc">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a46442e9e0dba5338318121a614ee72ff">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#adb86c2dca4ac4fbbfe25fe34a64fdd38">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a74247de3430813f0267e5603da0e3139">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a74247de3430813f0267e5603da0e3139">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#acd01596aa00f343afce0ec3ec5abb4d2">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a85435ac3557f145028e771489998d509" name="a85435ac3557f145028e771489998d509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85435ac3557f145028e771489998d509">&#9670;&#160;</a></span>__and__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__and__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a5a52a1fd120d59e3a0a35640b330cd95">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a01c40daf0785c9b8b1d4a51fbc6967b0">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ad46eb87aad9959cdbfa07cceb3860225">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#abae63efd6369c20cacb123232675768d">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ad8ea615efd0b0ee1c0bcbd5e12ef89a2">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a7396100538832453efa347c1d42225de">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a804918d9220c0a2c7d6ccc1b5394bef6">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ab01239fb06cd721f4397ef1247d1e6e0">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#aca347345fb0689236d6f7adf35a9939c">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#af8e381f66b697ba36914735c101b85f4">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a06869ed833ad25f5821bcb1fa46ff68b">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#aa84a952600b5038a7b0a16d4b458afa1">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af149a99dc79d5f73abb9009b4940b25b">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#af2ed2851ec8e6a60fed18ecceb37dd60">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a3ab0153df8d6e25b8334253117496758" name="a3ab0153df8d6e25b8334253117496758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab0153df8d6e25b8334253117496758">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.BitSet.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a14faead8cbeb06b6c15e12d53aff8a18">meshlib.mrmeshpy.FaceBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a1f41393a36baa333dc264cb7296af76a">meshlib.mrmeshpy.VertBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a9dc3ca031fa7e8da6617d6b74cc66fc5" name="a9dc3ca031fa7e8da6617d6b74cc66fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dc3ca031fa7e8da6617d6b74cc66fc5">&#9670;&#160;</a></span>__iand__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__iand__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a6052f921e2581f29a48bbf146d4e16fb">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ac0a556357544fae140f8ed1cef6a1b6e">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a742fbbb57451c43c00f6c250623c5796">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#ac268a2a9c2cfbc1e4e9ab873c0685ad9">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a22b5bf48804df67e7305e2ecd2b58d15">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a98e62af9e6b7c0341e87947184b780c0">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a10e90d8ee60977f06e9f105e01eca063">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a6d032bc7cf156464bdc7e0a1ca8c98b3">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a6a9b8f42bf4a582ec0bff0f90d6b55ea">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#aeb0b96b4dde594f2dac0d802c0a8897a">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a40dfddd5024a0a5035f4341e45bc02f8">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a7be86fbb144cbedc362f5dcd497711cf">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ad74778ef86d95b04e8cb1c9a8d787f33">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a0abbfa86e6cccfbd1b115fbdd54522e4">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a4483a0930112aa22fa6181a8ddd90c15" name="a4483a0930112aa22fa6181a8ddd90c15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4483a0930112aa22fa6181a8ddd90c15">&#9670;&#160;</a></span>__ior__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__ior__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aaa82886a37503ecf9f2c46213721bedf">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ad932d604ce7d6eb21b73714276672555">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a150f54e0dfccaad30205bf83caa28faa">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a6b686f282de3710dff5127b9caa66dd7">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a4fd3a075c35af4ece29eacb89e4488a2">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#af7df6f1b3709fab64a08bdf05137424b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a7755a387384542026046219b5f9b37a2">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#aaed7c731f0c612e4146809dc33079513">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a5f0f6daba248e352dfa529c578f1ff34">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a0e1151c0b3b50b0751a62a0b5ba12969">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a809d239c804f7fb23cff617a35fcd028">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a72aa97475c394b039dec5eaa32e2f517">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a84f467a9ed43ec330184b07dc9cda960">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#aac6364a9d52949535c7584e8741ab8d0">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a290e91b15f60c8853e19f234b0ff17d8" name="a290e91b15f60c8853e19f234b0ff17d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290e91b15f60c8853e19f234b0ff17d8">&#9670;&#160;</a></span>__isub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__isub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a658e43825a5cd19505ceb9ba5ecca662">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#adeeee10e5e396e1c05fb9e2c8125843f">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#abeb1bdb885a05f70f4b1dc656a1b76c9">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a81e9997de83ed6c8bbb330e75e5621fa">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ad6605a4509b79421431e7f11f51b5c06">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a961346efadca9398ac99b6725a19a597">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ae7020f55fb2e5721e141e64044f6e554">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a41f78ea91b963d19e71e5f4e1ca853fb">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a4d4e4a0c8707d41640745dc6d21f72f1">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a0e12cad7fae6ade182170cebb57efde3">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a14b8105954459d87bb7192294c3b8069">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a7bf0b734c96956567210ed230cc3e570">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a18c8b87de9257724b5fa4258ad99b0b0">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a28ff6e0ab3c0d20a2ce3e9a82a481fd3">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a32ef3df14f5745445ad5eab11ab6d19f" name="a32ef3df14f5745445ad5eab11ab6d19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ef3df14f5745445ad5eab11ab6d19f">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.BitSet.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a66254660f979f0ce7118f1409d475adc">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ac77e106ca292ce5efbe3689066e8725a">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a0e92355409667842e81b04adece17095">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#adaf52df43a427971415399c7d89de50e">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ae5b701506f29283db690dfd9514ad104">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a6dae1ebaac5d7d69052b60fb123feb6e">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a76133514b426d870b3f0d354fe8a8f43">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a5b951b281a8117de78022cbc5349950b">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a1fa93e8938e07dc9d1e70c77ddbe5d8d">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a6ebb756a218ecf137d5f4f2f11eb6c43">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a9f7fb809733f11d771024873b8cfecc9">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a56fa1760af92de920453437ac8a5e761">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a9b5e6c248bb9157acfac404eb03658f5">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#afda70dcfa1382d52bdc8b2430a1e86d6">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="acb142b116441bf689908ba9b7b3353c1" name="acb142b116441bf689908ba9b7b3353c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb142b116441bf689908ba9b7b3353c1">&#9670;&#160;</a></span>__ixor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__ixor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a574f3ce59f2b28b223863324265c65c9">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a757460137de116615dd01055831b3e70">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ad2640937fa97ddac1992f9e415caf998">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a86d82ad7733085bc541a89a0a79a2013">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ad5d8c8cd34731403ea2694ea2a93202f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a7e3591063f95a1b0f96b8c7ddf336207">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a768ee825097f24d24dbad46fa06a54b5">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad18b12a347096f6d4e217a2fe2cdb755">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a99d9788e15a243c84e72f78682c906f3">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a7fc020d81999148eba5c1c07c0375527">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a8f482d1bafe78fa81c5ce394d22b610a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a32a09163dc605c5632e960028977aa53">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ade981ae5b5313355497edf0f8e6e73b1">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a1fa4d48b4e24436c09a1cee257767b66">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="ad7d17880413e81c3eb3bb9d22c079ea0" name="ad7d17880413e81c3eb3bb9d22c079ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d17880413e81c3eb3bb9d22c079ea0">&#9670;&#160;</a></span>__or__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__or__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a92073f453638435afb0292f8b5310536">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a3447388d0c8abf2090c35c5718baec3e">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a990ded4e344831dfacaf74a421dd84ef">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a0a372542e52c870080ab992e4ce3349e">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a890f1254b525eb9cafef6e5b1574b3ad">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a70237fedd6bfc18be24c6500fd9ea282">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#aaf4003c2cbfd573fd565e72658f8e753">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ab0a093232477fc0a6e7e1d5b7b8258bd">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a2e4e06f4dbfa1fb9ce7c9b02236ee8a4">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a2dc20def97da214e61edc5b8bc88416c">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a95206ee5faea72fef0006246d733bb9b">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a5b3847f5f63728f1bbebfb12dfac87c5">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#afa9f3b45999a64ce9e5ec7fca12cbe41">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a137a262d6b7f0578bb7b4860fe2f6c07">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a802e19baafadd3feb434aa3526672762" name="a802e19baafadd3feb434aa3526672762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802e19baafadd3feb434aa3526672762">&#9670;&#160;</a></span>__sub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__sub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a279a87db672c7764c9b8562ab8dfa41d">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ad927fc18e7f24303849152d166810bbc">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a26db19dfffdf549557461a593c492c1a">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a8b05001e5d551c8d518d980fa741d7d1">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a171d97939affe573bbe0d06e1196fa27">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a43dd8b12af2e29129141f11c1aac7cb8">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a90be7bd23dc6ddf2a115568d4b838e9f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a5cb9a28a4adfac8ea7d69ad144784ca8">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#adecd25c93302c240e7fff829250cee10">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a5dda3631062255f627e855363fd9b026">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#add9315cbd4a2a0e2a7f7cc6c12817277">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a2e2829f91b23aa57eb053528cfd97ec2">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a173ee11c31a1db31c246e2b8895f5cc7">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#aefa16e8b6d461043305f49199f3822e7">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a0f3c7333febae5358edf59c3ebcfb2e3" name="a0f3c7333febae5358edf59c3ebcfb2e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3c7333febae5358edf59c3ebcfb2e3">&#9670;&#160;</a></span>__xor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.__xor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#afe15ac2feb1b19010b6be5ddee30d2d2">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a029ff970ef0ab059ec1d51081f759488">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a123e7d2f6b864f32d6754f1ff4f9a63a">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a5d80b5af5f249af5a8fdf20eedc729d5">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a0142e8441ab06010d3a7ec5787b02718">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a37449b731def093ae712931fff88672b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#adc51ecd3e68b0464cb193928e1d46347">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#adcbc6ee0537c234e9b90e376da21c43b">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a7a9b139f72bcb22e996c75ba11282e2f">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a871744448c832248dad63bb322f4c8ef">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#ac53a1f56fc6407fff498ace0bffa982b">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a9dd32fc377c7cc53fa559a4b652c5511">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#aed56fe653b2770828b120215554cef05">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#aca1d3ba7fe0b6b2fe3e91e3def1dfdf5">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="afb8e250e8309279fcc7f3a0e390072ee" name="afb8e250e8309279fcc7f3a0e390072ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8e250e8309279fcc7f3a0e390072ee">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ad9bb0f7fad0180f2ac8e346e98a9f61e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a78aac9117dc12685945a9e5f7a738fef">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a6968f2555601d2b87ee3f4e8e05b2dcc">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a22c70769cf31a218fe4d7bbcdbf2531e">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a4978b03ee58c1844aab1233372c82de8">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a475c21a538fe8b7b4288004ce925dfcd">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a713e9b428fefd656f2b97d1a7ecaf882">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a51fff7ead1135b5d2c10e5ff45249142">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a5cd76af96eb66ba8943398298e0cba94">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a96ad709b5e6ace727b9e2276f358fde0">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#af842a6d0e9321202eedffb5a5c26aebd">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#ad098d024f48772ea9d337a0a1a804cf6">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ab31a4e9f6f888321c4e858207db7afe8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a7fc131c6f15f17857ae3e04a1832eac8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a1202fc7477c089ec0983a97dab62b9c7">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a7bcb47f37518508fe76023ac7865e26f">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a8d216ed6510b44693de0db4fa0c2e0ea">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a2bc4e54a0e7769b651108838ea0f9844">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a70c50d64ac5c56e2a51213e428e3596a">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#aa49f559016685980278f51212ac2a728">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a6d34c6226e734c792e6913c18c830ef8">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#ab8c73c53673d2200a85b41524f658902">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#abc04fd0f3a1f7cce84d779e32be2af1a">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a67d8c6591789d0f1d2e22c0ae0bbe3f4">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a810abd17879e686d1ab16be21b9d11aa">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a3693e6b5ee7cba32edd1b8a273108a6a">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ae4cf7a59df4a138d08898dc12b468a0c">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a431b3f1c93ee615cc974fc5c2a5bf093">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a14d98fdb6ec197be5f3753ddcba87aa7" name="a14d98fdb6ec197be5f3753ddcba87aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d98fdb6ec197be5f3753ddcba87aa7">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ad9bb0f7fad0180f2ac8e346e98a9f61e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a78aac9117dc12685945a9e5f7a738fef">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a6968f2555601d2b87ee3f4e8e05b2dcc">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a22c70769cf31a218fe4d7bbcdbf2531e">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a4978b03ee58c1844aab1233372c82de8">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a475c21a538fe8b7b4288004ce925dfcd">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a713e9b428fefd656f2b97d1a7ecaf882">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a51fff7ead1135b5d2c10e5ff45249142">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a5cd76af96eb66ba8943398298e0cba94">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a96ad709b5e6ace727b9e2276f358fde0">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#af842a6d0e9321202eedffb5a5c26aebd">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#ad098d024f48772ea9d337a0a1a804cf6">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ab31a4e9f6f888321c4e858207db7afe8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a7fc131c6f15f17857ae3e04a1832eac8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a1202fc7477c089ec0983a97dab62b9c7">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a7bcb47f37518508fe76023ac7865e26f">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a8d216ed6510b44693de0db4fa0c2e0ea">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a2bc4e54a0e7769b651108838ea0f9844">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a70c50d64ac5c56e2a51213e428e3596a">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#aa49f559016685980278f51212ac2a728">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a6d34c6226e734c792e6913c18c830ef8">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#ab8c73c53673d2200a85b41524f658902">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#abc04fd0f3a1f7cce84d779e32be2af1a">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a67d8c6591789d0f1d2e22c0ae0bbe3f4">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a810abd17879e686d1ab16be21b9d11aa">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a3693e6b5ee7cba32edd1b8a273108a6a">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ae4cf7a59df4a138d08898dc12b468a0c">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a431b3f1c93ee615cc974fc5c2a5bf093">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a6ad87d5171e33bfce5eb2add65e8a527" name="a6ad87d5171e33bfce5eb2add65e8a527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad87d5171e33bfce5eb2add65e8a527">&#9670;&#160;</a></span>autoResizeTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.BitSet.autoResizeTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">same as \\ref autoResizeSet and returns previous value of pos-bit
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a2431bfa592e741a702a15d9dbd804fb3">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a5fd615b2b5351f83d6d5d0443072cb8f">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a0b4dcdeeecc76109b7c1674e84b27084">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#af87061ddc5f1eb820469df87114e9c7b">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a81e0a94f3597526c72c16e8dd17e34a9">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#ac632713f477c349643eb2ff5b6fe8697">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a401e43cf9983784b1d2dc8c91f82275d">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a80ed25e3ed1d6006fb869ff9289dd1f9">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ada811160c58238a4e90ffad161a66351">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a1c50ece66a2d81f98c4b5b319ffcfd1e">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a5573b368b70597d4f181bb5f6fc8324a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a4ec2aba65dca0d521aa8c6ad2dae2140">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac960b5e5c2dac42755036cecd95ad5dc">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a8732f64492229b79b6251461179ac368">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a4b4cf7a214fd2c7ed53be7670f344914" name="a4b4cf7a214fd2c7ed53be7670f344914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b4cf7a214fd2c7ed53be7670f344914">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a8c4569ee2e981b26c89d10e88c6a8c38">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a593159cc2e3b05e9c245bac238d20bbb">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a1e8bd18e25cfed69a29fb655cc5a9c23">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#abb92decef9036623248b2192bb22f5d6">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#afbcaa46149e5f92807d5e87c18f87ff1">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a92393385d5b3e4ed10e64a85122b7518">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a26fcbe99f7bf9a97b82c4b7dcdc2cab3">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ae9ade4e44eb9194b6d6fffcb00b13efd">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a332420c14a8a02651e36a27338d28d5e">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a4b287d28cfcc9ef8a82f4f0228c0237d">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a6a4ea512f8c8e01abc3242edc3a238b8">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a3508393e3aae2413324619cc4f502c5a">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac648195cb0428ea3ec98c2aaf250e3f2">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a38da977def4e1a909dd9dc1e2c55f89c">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="aa6028fcc911547bb985153b35f6aa5dc" name="aa6028fcc911547bb985153b35f6aa5dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6028fcc911547bb985153b35f6aa5dc">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.beginId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">[beginId(), endId()) is the range of all bits in the set
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a52dcef7e5650fcc5ead10c416590f5a0">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a3340355d5ae8503ba777f4d99eb51cdd">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#aec1762237515447a525a84f4159debc0">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a720363c660aaab685c3d0634598fe305">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a1916aeb8a769d1d95cf241f4f70d7dcd">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#aad01cd257bf6b2b8236710ca9d8f55f0">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a36f6775a45b7be37328594bd0e5384e8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a26bf75eb3eb897a7958c36890b92e3a1">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a49ca6917638fb9992418e7a3a9541831">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a5db8f36419694ddb3b2faed21a385098">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a7b5a6c5c81869f3273a623d487120cdd">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#adeee1e100d0340c36a6473c8a0355f9c">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#adb5f451de1587905ada623a3c6736209">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a42fd6069859a189ebc834d0a8bee48e0">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="ae077f54c2adb7b26cc274216d17f2251" name="ae077f54c2adb7b26cc274216d17f2251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae077f54c2adb7b26cc274216d17f2251">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7a10cb247b0d81387888917cdc4b04b" name="ac7a10cb247b0d81387888917cdc4b04b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a10cb247b0d81387888917cdc4b04b">&#9670;&#160;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.count </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d331dd85ce8c0d16233cf52d991c72f" name="a3d331dd85ce8c0d16233cf52d991c72f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d331dd85ce8c0d16233cf52d991c72f">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ab7639c561cc99921437539fa0eb82bad">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a07a1f4f6467830673fdfeb10b44e5c5a">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a5bb39b9864592f503a55885873dede8d">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a0005261c876d96772f551b69a371526e">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a743babd230785f3c6243717715119ae0">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a09a0dc7d1dffc638ae4cbf1e32b06683">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a1eabaa1a4e72cb69eda240cf0d6ec33f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#aba0da7f325095ad318fab4b8745a6166">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af702112f007a860ea58a7bbf31d25085">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ad5a6a8a036774346ccda6b8d6d2eac50">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a1f58435bb73648cf3ea1aad4f79146c9">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ac18d89489c09b47eef5402c528277428">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a98b61933ecacb3f5e08b92571ffe5c83">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a3e535f94f02a27d3befad33ce545362e">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a1bc6e4c6f18181a464ddc840c3a116cb" name="a1bc6e4c6f18181a464ddc840c3a116cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc6e4c6f18181a464ddc840c3a116cb">&#9670;&#160;</a></span>find_last()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.find_last </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the highest index i such as bit i is set, or npos if *this has no on bits.
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1bead1aab4cf6bacbbc09730d87998cf">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a409824fa41381b79146f37dd2abc9971">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a389d0489def32221850d65a4659ee209">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a663b2d2ccd9191e5ecc1a48387b62e8b">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a28a489fffb239cc46ca9d887b9550aed">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#ac5c8310229bdfe9bfcc325c0e72fda20">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ad0a557169e2e3ca98221dd0ebc23b83e">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a35d2f28a3c403897c3404120f7a5c8d7">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a83816540866c7a1d40623112811aa5cb">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#af5ff01b7bf67c4c69421cdbf0a7f7720">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a327476aa03ca26f01a21a5116a540538">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ac57da6859e4023b2ea22357575e469d9">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ad8dd663197b79327258a592ec24e3f94">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ad7fe9ec3681b03efa4c1b3845b12d20e">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a81987948a666b082c9f3513c03349438" name="a81987948a666b082c9f3513c03349438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81987948a666b082c9f3513c03349438">&#9670;&#160;</a></span>flip() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a6f7129fd37eb5a8b8beafd81d97d2f0e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a5f76b4d8a44000e998495437a3a2c232">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1cecb9ed7d20ee9b107438870d1db302">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ad84ee38d67951ebf6353831313462713">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a832f7a94ca3627153b51cb11d6c07492">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a2e4814d880903f754ffd26ab38b2b9f1">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a1a7ffee0e557206793d2366e68b3b177">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#adf03be7da4671711b0b3ae5462a10c63">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#aa0758a7c28c379e95431a558d75f919f">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a6a014dc81501dde8ef0d59430d114c83">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a70caad5f241d3ca0e89970692b02c097">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a10de91aecc506660c29a4fb0213400cb">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ae30d73ea4c685227291c99717ba5f94f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac99233b99d8dd2645a3137e531edbe8c">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a8afd874bf45384efa2a7d80297924b0e">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a4702f1f7a3010cdcf7cef5f6a5128a2b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#aa911f0724414a1ad919e502357f525f1">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a4249a8a8263e3e4cc2a9e50b04d04bc9">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a54034ca06a1a923d6066cac350edb9a3">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#aad3cdd5b49afe08a0376f944b200e4a2">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a4af77ea39944ec5ac9fa84a53df2c2b6">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a0edc9daeb9d5572c1c34bec4ed8b0895">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ae0aab2b4f439a851867d30f6a97f2deb">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a0deecbecd8a5725d42658e22db5ffdac">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae5a0ec460f5a09a6c47409bfc357344d">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ab616fc46f816f02e8fb8a9e580f10aee">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a3c321d537da3e9607ca15c743311a0d2">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ab078e463e3597b73bf2c56ba7a7bcf95">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a256ed699da1ecc7be6ed394a5698e281">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a696f7477a262277ee262e0fc625494a0">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a7a5e2bba4e3f291c265a6904136224ad">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a271fe7e371811a8599dd3850d5e56723">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a959eadfdd582cf68f7fdd70b853e898a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#afedb841e6defc62757a2ba6d45a5e919">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a82e2a109b9b6140cde760598cc1183e3">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#af3ba123656a74eea2b8811347739d5c1">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af85d2686e97fc07db9d8e5ad3b60832e">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a96f71d582061eae27b2adcf3b2a95c23">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac972f0da4cb2f8ffe7541c92bf24e01e">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a027512ae14fd792c35d3c56af92b9a0b">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#afe969ea98cc8d17a1a67306277e02da3">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a715a571ec2df59dbe5a9af0e3751781f">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="ab23e0d081d883051b91dd6c803867698" name="ab23e0d081d883051b91dd6c803867698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23e0d081d883051b91dd6c803867698">&#9670;&#160;</a></span>flip() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a6f7129fd37eb5a8b8beafd81d97d2f0e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a5f76b4d8a44000e998495437a3a2c232">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1cecb9ed7d20ee9b107438870d1db302">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ad84ee38d67951ebf6353831313462713">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a832f7a94ca3627153b51cb11d6c07492">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a2e4814d880903f754ffd26ab38b2b9f1">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a1a7ffee0e557206793d2366e68b3b177">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#adf03be7da4671711b0b3ae5462a10c63">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#aa0758a7c28c379e95431a558d75f919f">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a6a014dc81501dde8ef0d59430d114c83">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a70caad5f241d3ca0e89970692b02c097">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a10de91aecc506660c29a4fb0213400cb">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ae30d73ea4c685227291c99717ba5f94f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac99233b99d8dd2645a3137e531edbe8c">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a8afd874bf45384efa2a7d80297924b0e">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a4702f1f7a3010cdcf7cef5f6a5128a2b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#aa911f0724414a1ad919e502357f525f1">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a4249a8a8263e3e4cc2a9e50b04d04bc9">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a54034ca06a1a923d6066cac350edb9a3">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#aad3cdd5b49afe08a0376f944b200e4a2">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a4af77ea39944ec5ac9fa84a53df2c2b6">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a0edc9daeb9d5572c1c34bec4ed8b0895">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ae0aab2b4f439a851867d30f6a97f2deb">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a0deecbecd8a5725d42658e22db5ffdac">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae5a0ec460f5a09a6c47409bfc357344d">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ab616fc46f816f02e8fb8a9e580f10aee">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a3c321d537da3e9607ca15c743311a0d2">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ab078e463e3597b73bf2c56ba7a7bcf95">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a256ed699da1ecc7be6ed394a5698e281">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a696f7477a262277ee262e0fc625494a0">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a7a5e2bba4e3f291c265a6904136224ad">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a271fe7e371811a8599dd3850d5e56723">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a959eadfdd582cf68f7fdd70b853e898a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#afedb841e6defc62757a2ba6d45a5e919">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a82e2a109b9b6140cde760598cc1183e3">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#af3ba123656a74eea2b8811347739d5c1">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af85d2686e97fc07db9d8e5ad3b60832e">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a96f71d582061eae27b2adcf3b2a95c23">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac972f0da4cb2f8ffe7541c92bf24e01e">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a027512ae14fd792c35d3c56af92b9a0b">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#afe969ea98cc8d17a1a67306277e02da3">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a715a571ec2df59dbe5a9af0e3751781f">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a24736ab49afc49160fac9b5f7357d751" name="a24736ab49afc49160fac9b5f7357d751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24736ab49afc49160fac9b5f7357d751">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a6f7129fd37eb5a8b8beafd81d97d2f0e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a5f76b4d8a44000e998495437a3a2c232">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1cecb9ed7d20ee9b107438870d1db302">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ad84ee38d67951ebf6353831313462713">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a832f7a94ca3627153b51cb11d6c07492">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a2e4814d880903f754ffd26ab38b2b9f1">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a1a7ffee0e557206793d2366e68b3b177">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#adf03be7da4671711b0b3ae5462a10c63">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#aa0758a7c28c379e95431a558d75f919f">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a6a014dc81501dde8ef0d59430d114c83">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a70caad5f241d3ca0e89970692b02c097">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a10de91aecc506660c29a4fb0213400cb">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ae30d73ea4c685227291c99717ba5f94f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac99233b99d8dd2645a3137e531edbe8c">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a8afd874bf45384efa2a7d80297924b0e">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a4702f1f7a3010cdcf7cef5f6a5128a2b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#aa911f0724414a1ad919e502357f525f1">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a4249a8a8263e3e4cc2a9e50b04d04bc9">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a54034ca06a1a923d6066cac350edb9a3">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#aad3cdd5b49afe08a0376f944b200e4a2">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a4af77ea39944ec5ac9fa84a53df2c2b6">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a0edc9daeb9d5572c1c34bec4ed8b0895">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ae0aab2b4f439a851867d30f6a97f2deb">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a0deecbecd8a5725d42658e22db5ffdac">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae5a0ec460f5a09a6c47409bfc357344d">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ab616fc46f816f02e8fb8a9e580f10aee">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a3c321d537da3e9607ca15c743311a0d2">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ab078e463e3597b73bf2c56ba7a7bcf95">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a256ed699da1ecc7be6ed394a5698e281">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a696f7477a262277ee262e0fc625494a0">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a7a5e2bba4e3f291c265a6904136224ad">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a271fe7e371811a8599dd3850d5e56723">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a959eadfdd582cf68f7fdd70b853e898a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#afedb841e6defc62757a2ba6d45a5e919">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a82e2a109b9b6140cde760598cc1183e3">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#af3ba123656a74eea2b8811347739d5c1">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#af85d2686e97fc07db9d8e5ad3b60832e">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a96f71d582061eae27b2adcf3b2a95c23">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ac972f0da4cb2f8ffe7541c92bf24e01e">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a027512ae14fd792c35d3c56af92b9a0b">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#afe969ea98cc8d17a1a67306277e02da3">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a715a571ec2df59dbe5a9af0e3751781f">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a3278b7c07b149e6ae370f4a69640e101" name="a3278b7c07b149e6ae370f4a69640e101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3278b7c07b149e6ae370f4a69640e101">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+</div>
+</div>
+<a id="a28681fac7dec04ed63e434b6abc07ed0" name="a28681fac7dec04ed63e434b6abc07ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28681fac7dec04ed63e434b6abc07ed0">&#9670;&#160;</a></span>nthSetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.nthSetBit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a85d66fb5602ac3ad5dcca7c72f6982fb">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#ac8d21967ec60c1af4195971fa5978a35">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#aa985749bcb1c66355093b495c78b4dac">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a8d6fcade3f7eb15e6a3c727c2ac52b74">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a0ef102ef13b3ac4b9fbf49e379225213">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a46f9ba7ef3bc7f9b83fa11aaa8aa721e">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a092a730d8a1dbb60dffcff1fec022e37">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad0dbb366b078f1e8067ca351fb29598c">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae528bddbb13fa549429fabd7b14124c5">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#abed35e146944cede699884ea1213069a">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a22a2bd20563a6a0315f25e6a5df3e338">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a682241113510f7351c65b069ea30e655">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a177aa060c11393af34dd7c013eb4e1c9">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a4f96315825c03f26b2a3a79321f20ad5">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a33d30a6aec1e3cebb63fbec9627395fe" name="a33d30a6aec1e3cebb63fbec9627395fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d30a6aec1e3cebb63fbec9627395fe">&#9670;&#160;</a></span>pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.pop_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a674f5b26614225e1d27d35bc0845a555" name="a674f5b26614225e1d27d35bc0845a555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a674f5b26614225e1d27d35bc0845a555">&#9670;&#160;</a></span>push_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bit</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad18fb3a9cc2c24d76d5b1b297ab58405" name="ad18fb3a9cc2c24d76d5b1b297ab58405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad18fb3a9cc2c24d76d5b1b297ab58405">&#9670;&#160;</a></span>reset() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1fd14336c25cdfa5c6b9aeee9b73a987">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af85ac757b86fcd25fc681ceb0cf0f38a">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a4ce81bd82c138998b5b2184a2591bd3a">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#aaa14e5afe9a40f7eb1bcce21cb2c2d37">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#af9d9f04d1664db4c10472b4977dc8242">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#aa1d1de981fc4339b942ab04a6fbc5dee">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ab4d30ec925347e2cf64c5d0c462e18e4">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#af277687a475550c7e8d520fe90665215">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ac9c5d080d48f3a92773218b0a77c121f">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3fa30c6d5f53f064a469d9cea3f5d607">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a43fdb5ae993662ba63b0a61825f1df13">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a8a41190900f72c1142e363804febb53d">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a52d8c597008a75c9f26fd1fe9e3488d1">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a487e4a61eed0f32866a1f2df075a57e5">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a0b5d2969a71825c7eaca7a2cfefee282">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a33679bf933badc4401e891aed9c1005b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a35a09e5a254133b32dd1473c0033b659">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#ab87934b4594831bd07a0a858e6aebf0f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a7092b53027809bdc867b9ce59528713a">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a4b5c86579da9a57630ac0ff52ed081cd">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ae2cb406055ac56640b8fc6628d5283b8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad8ac608212d723caf70d394c291567de">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9c6ba75767de94a4fe11da6ca42f0b7a">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a33bb72df0fa21439f408706ceb11b232">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a84ead2be8e032f702028bbb7a69e17bd">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a02e45c446147bc98207ab5918e2c5227">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a269576bdbcd5889524c2f5986405e9cb">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a2e6dc59fa9eac9283c13b0c46930aacb">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ac07053aa07cfe8b043eb114e31121149">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a962f56e6969241d1e15da98a866a6108">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#ab5885a1f1c6c7074dfbdb7925e73e410">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#add88a5bf55eb26d646830956d466efb0">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#aa618c9d812ec45ea9418904903915ef4">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a0beddb8ad6e312a6f66e672ce807f444">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#abd4810daf7d23fb46752633348a4c538">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a55ce19bfa73d6136b61809909a4df19b">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a598d1fc64b6165ecb40206c524d38de4">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a731339615939b350520f78ff8eb80fab">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a2e2d954817e189b58b3fc7fe7875765b">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ac0f1252f092c8c605472e5ded7276b73">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a5297a6096e8db7d5c0306d44a3ab77d8">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a62c9cd9f7686538a50c6216b16e384e1">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a219065017e94b10c3387968c319173a1" name="a219065017e94b10c3387968c319173a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219065017e94b10c3387968c319173a1">&#9670;&#160;</a></span>reset() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1fd14336c25cdfa5c6b9aeee9b73a987">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af85ac757b86fcd25fc681ceb0cf0f38a">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a4ce81bd82c138998b5b2184a2591bd3a">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#aaa14e5afe9a40f7eb1bcce21cb2c2d37">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#af9d9f04d1664db4c10472b4977dc8242">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#aa1d1de981fc4339b942ab04a6fbc5dee">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ab4d30ec925347e2cf64c5d0c462e18e4">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#af277687a475550c7e8d520fe90665215">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ac9c5d080d48f3a92773218b0a77c121f">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3fa30c6d5f53f064a469d9cea3f5d607">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a43fdb5ae993662ba63b0a61825f1df13">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a8a41190900f72c1142e363804febb53d">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a52d8c597008a75c9f26fd1fe9e3488d1">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a487e4a61eed0f32866a1f2df075a57e5">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a0b5d2969a71825c7eaca7a2cfefee282">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a33679bf933badc4401e891aed9c1005b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a35a09e5a254133b32dd1473c0033b659">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#ab87934b4594831bd07a0a858e6aebf0f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a7092b53027809bdc867b9ce59528713a">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a4b5c86579da9a57630ac0ff52ed081cd">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ae2cb406055ac56640b8fc6628d5283b8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad8ac608212d723caf70d394c291567de">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9c6ba75767de94a4fe11da6ca42f0b7a">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a33bb72df0fa21439f408706ceb11b232">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a84ead2be8e032f702028bbb7a69e17bd">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a02e45c446147bc98207ab5918e2c5227">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a269576bdbcd5889524c2f5986405e9cb">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a2e6dc59fa9eac9283c13b0c46930aacb">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ac07053aa07cfe8b043eb114e31121149">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a962f56e6969241d1e15da98a866a6108">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#ab5885a1f1c6c7074dfbdb7925e73e410">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#add88a5bf55eb26d646830956d466efb0">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#aa618c9d812ec45ea9418904903915ef4">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a0beddb8ad6e312a6f66e672ce807f444">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#abd4810daf7d23fb46752633348a4c538">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a55ce19bfa73d6136b61809909a4df19b">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a598d1fc64b6165ecb40206c524d38de4">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a731339615939b350520f78ff8eb80fab">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a2e2d954817e189b58b3fc7fe7875765b">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ac0f1252f092c8c605472e5ded7276b73">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a5297a6096e8db7d5c0306d44a3ab77d8">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a62c9cd9f7686538a50c6216b16e384e1">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="ae67990e25470df9b2491444c9501021c" name="ae67990e25470df9b2491444c9501021c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae67990e25470df9b2491444c9501021c">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a1fd14336c25cdfa5c6b9aeee9b73a987">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af85ac757b86fcd25fc681ceb0cf0f38a">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a4ce81bd82c138998b5b2184a2591bd3a">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#aaa14e5afe9a40f7eb1bcce21cb2c2d37">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#af9d9f04d1664db4c10472b4977dc8242">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#aa1d1de981fc4339b942ab04a6fbc5dee">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ab4d30ec925347e2cf64c5d0c462e18e4">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#af277687a475550c7e8d520fe90665215">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ac9c5d080d48f3a92773218b0a77c121f">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a3fa30c6d5f53f064a469d9cea3f5d607">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a43fdb5ae993662ba63b0a61825f1df13">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a8a41190900f72c1142e363804febb53d">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a52d8c597008a75c9f26fd1fe9e3488d1">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a487e4a61eed0f32866a1f2df075a57e5">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a0b5d2969a71825c7eaca7a2cfefee282">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a33679bf933badc4401e891aed9c1005b">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a35a09e5a254133b32dd1473c0033b659">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#ab87934b4594831bd07a0a858e6aebf0f">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a7092b53027809bdc867b9ce59528713a">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a4b5c86579da9a57630ac0ff52ed081cd">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ae2cb406055ac56640b8fc6628d5283b8">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad8ac608212d723caf70d394c291567de">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a9c6ba75767de94a4fe11da6ca42f0b7a">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a33bb72df0fa21439f408706ceb11b232">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a84ead2be8e032f702028bbb7a69e17bd">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a02e45c446147bc98207ab5918e2c5227">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a269576bdbcd5889524c2f5986405e9cb">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a2e6dc59fa9eac9283c13b0c46930aacb">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ac07053aa07cfe8b043eb114e31121149">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a962f56e6969241d1e15da98a866a6108">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#ab5885a1f1c6c7074dfbdb7925e73e410">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#add88a5bf55eb26d646830956d466efb0">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#aa618c9d812ec45ea9418904903915ef4">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a0beddb8ad6e312a6f66e672ce807f444">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#abd4810daf7d23fb46752633348a4c538">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a55ce19bfa73d6136b61809909a4df19b">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a598d1fc64b6165ecb40206c524d38de4">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a731339615939b350520f78ff8eb80fab">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a2e2d954817e189b58b3fc7fe7875765b">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ac0f1252f092c8c605472e5ded7276b73">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a5297a6096e8db7d5c0306d44a3ab77d8">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a62c9cd9f7686538a50c6216b16e384e1">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a0be4e454b4584aa606be3f6687178a1e" name="a0be4e454b4584aa606be3f6687178a1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be4e454b4584aa606be3f6687178a1e">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>num_bits</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>value</em></span><span class="paramdefsep"> = </span><span class="paramdefval">False</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88a4ae2a0d6dff85c15b2dfe9deba202" name="a88a4ae2a0d6dff85c15b2dfe9deba202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a4ae2a0d6dff85c15b2dfe9deba202">&#9670;&#160;</a></span>resizeWithReserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.BitSet.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a9efb852dd795b5b24d04e4bbd427c20c" name="a9efb852dd795b5b24d04e4bbd427c20c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9efb852dd795b5b24d04e4bbd427c20c">&#9670;&#160;</a></span>set() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af8602f69b040afe4eaa6de06b7d96de4">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a3d41a3db6163a49798311bfa1e0b781e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a08d844c003ce521d18d6cd04f5514a22">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#abfed6e0e147d7c5d3ff3a68afac226cf">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a430a9f7bcb9f5fbcab37fed25fa329c2">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a151785508e3ea01adbbecc13bb3283b4">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a55785af129c92c751d7879bcd6199008">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ae646314a4119c2744b85679754f22dac">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a8009b06566e4dcd06866933dd460d405">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a4f8c4beb15b87259e26833d56ed9b85a">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a757b0bf62d7e2ab1ef64f5ca909adab5">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#aea26ec4763e84cd6fc59a313dbce1586">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac16407fd8b322878846f40bbe7b95451">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a18d67b119eb6db6021ef7b16db227a2a">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac82d5a5996a618ae8b0f2624d5dc16ba">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#aa9115f28a01a94f2d858b0e0446eb306">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#acb96fef07dabdf264a26322a41da8332">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a33e067eeda922a9ae8f8bbfbdec4e8ce">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a8cd9b0671c6c735113cd48514596260f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ac1e306b9eac5df09bab2b695040d97cd">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a3a1b20e850a5ba13d34e891c9dd2b956">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a730ef914c865ac80ab3bd16e8813bcc0">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a40712093573da4758783b433f93ab430">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a03ad6a75c0668f035a983c0fd08dc500">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af4b0ab644ced39f21a1255a74cac4b7e">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a1344ebac4515fab0dcd4ac220cf7cd54">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae0fb7f2e87ab9c2305556eb2d563f5fb">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ae61f6b2a1813122ed5b4ee0c1f5d7aa3">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ab1ccf7f1eaaedcfa7e8e1afba965cf0e">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#afecd88e91d2ff1a922a9a0c79ce145f2">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a6a55a5af44feceebc7f3c8bafc55996a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a1398f84c2bb431164c3dede306f04ca5">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#aefcbaaf643556083f58721b9f1d8175f">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#acc9408f6215e41ca7b37e017fb02bcac">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#add42a64fa17cabf433ef634338863cce">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ae219930f5c62c88a1b30c3f1a2c5cb65">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a5c808021efe1f34256d14acc4642a947">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a67f45d6eaf405b4bc8e356a8bc2ad7e6">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ada679da6f5617a24bbb32b66e8a64118">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ab2f7116d7edff2e6558ef28c2556cd48">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#af12803507b9bea9075988a22442ac393">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a7052e745d19405c238b39493d89dc458">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a3843215024e4999a9e349cd709bd8dfa" name="a3843215024e4999a9e349cd709bd8dfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3843215024e4999a9e349cd709bd8dfa">&#9670;&#160;</a></span>set() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af8602f69b040afe4eaa6de06b7d96de4">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a3d41a3db6163a49798311bfa1e0b781e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a08d844c003ce521d18d6cd04f5514a22">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#abfed6e0e147d7c5d3ff3a68afac226cf">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a430a9f7bcb9f5fbcab37fed25fa329c2">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a151785508e3ea01adbbecc13bb3283b4">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a55785af129c92c751d7879bcd6199008">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ae646314a4119c2744b85679754f22dac">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a8009b06566e4dcd06866933dd460d405">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a4f8c4beb15b87259e26833d56ed9b85a">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a757b0bf62d7e2ab1ef64f5ca909adab5">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#aea26ec4763e84cd6fc59a313dbce1586">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac16407fd8b322878846f40bbe7b95451">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a18d67b119eb6db6021ef7b16db227a2a">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac82d5a5996a618ae8b0f2624d5dc16ba">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#aa9115f28a01a94f2d858b0e0446eb306">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#acb96fef07dabdf264a26322a41da8332">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a33e067eeda922a9ae8f8bbfbdec4e8ce">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a8cd9b0671c6c735113cd48514596260f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ac1e306b9eac5df09bab2b695040d97cd">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a3a1b20e850a5ba13d34e891c9dd2b956">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a730ef914c865ac80ab3bd16e8813bcc0">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a40712093573da4758783b433f93ab430">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a03ad6a75c0668f035a983c0fd08dc500">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af4b0ab644ced39f21a1255a74cac4b7e">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a1344ebac4515fab0dcd4ac220cf7cd54">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae0fb7f2e87ab9c2305556eb2d563f5fb">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ae61f6b2a1813122ed5b4ee0c1f5d7aa3">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ab1ccf7f1eaaedcfa7e8e1afba965cf0e">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#afecd88e91d2ff1a922a9a0c79ce145f2">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a6a55a5af44feceebc7f3c8bafc55996a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a1398f84c2bb431164c3dede306f04ca5">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#aefcbaaf643556083f58721b9f1d8175f">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#acc9408f6215e41ca7b37e017fb02bcac">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#add42a64fa17cabf433ef634338863cce">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ae219930f5c62c88a1b30c3f1a2c5cb65">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a5c808021efe1f34256d14acc4642a947">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a67f45d6eaf405b4bc8e356a8bc2ad7e6">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ada679da6f5617a24bbb32b66e8a64118">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ab2f7116d7edff2e6558ef28c2556cd48">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#af12803507b9bea9075988a22442ac393">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a7052e745d19405c238b39493d89dc458">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a435e6cbe5189e3dc93cadba92043a641" name="a435e6cbe5189e3dc93cadba92043a641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435e6cbe5189e3dc93cadba92043a641">&#9670;&#160;</a></span>set() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af8602f69b040afe4eaa6de06b7d96de4">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a3d41a3db6163a49798311bfa1e0b781e">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a08d844c003ce521d18d6cd04f5514a22">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#abfed6e0e147d7c5d3ff3a68afac226cf">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a430a9f7bcb9f5fbcab37fed25fa329c2">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a151785508e3ea01adbbecc13bb3283b4">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a55785af129c92c751d7879bcd6199008">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#ae646314a4119c2744b85679754f22dac">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a8009b06566e4dcd06866933dd460d405">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a4f8c4beb15b87259e26833d56ed9b85a">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a757b0bf62d7e2ab1ef64f5ca909adab5">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#aea26ec4763e84cd6fc59a313dbce1586">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac16407fd8b322878846f40bbe7b95451">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a18d67b119eb6db6021ef7b16db227a2a">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#ac82d5a5996a618ae8b0f2624d5dc16ba">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#aa9115f28a01a94f2d858b0e0446eb306">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#acb96fef07dabdf264a26322a41da8332">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a33e067eeda922a9ae8f8bbfbdec4e8ce">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a8cd9b0671c6c735113cd48514596260f">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ac1e306b9eac5df09bab2b695040d97cd">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a3a1b20e850a5ba13d34e891c9dd2b956">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a730ef914c865ac80ab3bd16e8813bcc0">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a40712093573da4758783b433f93ab430">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a03ad6a75c0668f035a983c0fd08dc500">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#af4b0ab644ced39f21a1255a74cac4b7e">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a1344ebac4515fab0dcd4ac220cf7cd54">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae0fb7f2e87ab9c2305556eb2d563f5fb">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ae61f6b2a1813122ed5b4ee0c1f5d7aa3">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#ab1ccf7f1eaaedcfa7e8e1afba965cf0e">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#afecd88e91d2ff1a922a9a0c79ce145f2">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a6a55a5af44feceebc7f3c8bafc55996a">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a1398f84c2bb431164c3dede306f04ca5">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#aefcbaaf643556083f58721b9f1d8175f">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#acc9408f6215e41ca7b37e017fb02bcac">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#add42a64fa17cabf433ef634338863cce">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#ae219930f5c62c88a1b30c3f1a2c5cb65">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a5c808021efe1f34256d14acc4642a947">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a67f45d6eaf405b4bc8e356a8bc2ad7e6">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#ada679da6f5617a24bbb32b66e8a64118">meshlib.mrmeshpy.VertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ab2f7116d7edff2e6558ef28c2556cd48">meshlib.mrmeshpy.VoxelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#af12803507b9bea9075988a22442ac393">meshlib.mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a7052e745d19405c238b39493d89dc458">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a10f8fd68f889a1d1606ac6724cfe450f" name="a10f8fd68f889a1d1606ac6724cfe450f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f8fd68f889a1d1606ac6724cfe450f">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.BitSet.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a037e3c867e7fc3e183cb5799674854cb" name="a037e3c867e7fc3e183cb5799674854cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a037e3c867e7fc3e183cb5799674854cb">&#9670;&#160;</a></span>subtract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> meshlib.mrmeshpy.BitSet.subtract </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bShiftInBlocks</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aeb0a397be4b0f957881647009acc51f1">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a339db2374daafd8c5d329e07a67aa16e">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#aa7f398c73c94c0389d785a6fcf6955ac">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a6e9130d93b6a0611e83ce38acb80013d">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a61a592702c11a9447d9fe45e8450e601">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a65f7e99b2ae326eac0c1269fe6969e44">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ab476029dfd3e31d454255b4b77bf9260">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a64a847db70f29e4361e08df3853bddc4">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#a7adbb9bcba9721cdf62dd2277e8fffa0">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#aa6b76a26a0138dc5dfe53e37bcf02f71">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#ac2ce0855c24f22e406fc193fe740b4b2">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#aa0ff1372d3b78e879b07029f4d024c1a">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a5d6d6a801467840b469ce19967df7cf3">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#ad227e28c4abd6c691842270d0d817c81">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="a7670f21a795b5119c3b0b83d6c5cf358" name="a7670f21a795b5119c3b0b83d6c5cf358"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7670f21a795b5119c3b0b83d6c5cf358">&#9670;&#160;</a></span>test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.BitSet.test </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">all bits after size() we silently consider as not-set
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a96d0534b36617b99a8371e0283e4367b">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a1d4df74d699c740a815a8a0159667a98">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#a4a0d8ff0696f942d998f6bce51df59e0">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a0dd3d0cc7f9fb9b4fb6104bdb2aa2cb8">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a7ab40151fdc8008083a65bcc55f9a53f">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a07d6fe15a787466e009ef9f1e6afdfbe">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#ab132d703a6c232f9a2394c22d1451c04">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#ad6af3eda89f5aa89643fb814ff7289f3">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae0b712880a86ce310e232f157115dbdd">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a077a4602ea72edd469e465a5ec7c4a51">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#af22c8f2264b52a05e4de2fe103c52540">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a6491a2d97e11a8ea8fd5fcf994ae3ce1">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a206026b3628d436393c9896a945bc009">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a7aac582362518422a069ae808be0c740">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="af203a8a30b035e5f509935eb559d0974" name="af203a8a30b035e5f509935eb559d0974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af203a8a30b035e5f509935eb559d0974">&#9670;&#160;</a></span>test_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.BitSet.test_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a66f3e85f7890e9d274efa5e43ab49483">meshlib.mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeBitSet.html#a265e338eb32c49b1a74e5b219a1a88c6">meshlib.mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html#af4dd300df855bb0bdcf69930830c3214">meshlib.mrmeshpy.FaceBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphEdgeBitSet.html#a496887d2fdcff3616eb1816cc1c8abb9">meshlib.mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertBitSet.html#a7b1ad34613874938144c72b692d43989">meshlib.mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeBitSet.html#a03910f983b4fa52962c42ef366cdf9f2">meshlib.mrmeshpy.NodeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjBitSet.html#a1dc833782602edd8151ed1169b6b4c64">meshlib.mrmeshpy.ObjBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PixelBitSet.html#a79fb3b9ae27a97727b3c60a04ce83935">meshlib.mrmeshpy.PixelBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RegionBitSet.html#ae7fc5733d97d4bf8fc6c759660dc1046">meshlib.mrmeshpy.RegionBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a080a15b4fa39a06523df7a2ef5b983de">meshlib.mrmeshpy.TaggedBitSet_ICPElemtTag</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html#a6423c5da6d344a0011eed18465c12e97">meshlib.mrmeshpy.TextureBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1UndirectedEdgeBitSet.html#a04031a64154803f9a8233b1102212343">meshlib.mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html#a7b98d0f8af61dbae41cce50ff84031a3">meshlib.mrmeshpy.VertBitSet</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelBitSet.html#a51af150afcd10ab0a8899a9de0cbb552">meshlib.mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,486 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/namespacemeshlib_1_1mrcudapy.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrcudapy Namespace Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('namespacemeshlib_1_1mrcudapy.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrcudapy Namespace Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrcudapy_1_1FastWindingNumber.html">FastWindingNumber</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1077e2fc1826622a6de394bccb7a83d0" id="r_a1077e2fc1826622a6de394bccb7a83d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMap.html">meshlib.mrmeshpy.DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1077e2fc1826622a6de394bccb7a83d0">computeDistanceMap</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshToDistanceMapParams.html">meshlib.mrmeshpy.MeshToDistanceMapParams</a> params, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">meshlib.mrmeshpy.func_bool_from_float</a> cb='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}', <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshTriPoint.html">meshlib.mrmeshpy.std_vector_MeshTriPoint</a> outSamples=None)</td></tr>
+<tr class="separator:a1077e2fc1826622a6de394bccb7a83d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c1f2b6b4caa363bbbffc12e387e5a2" id="r_ae0c1f2b6b4caa363bbbffc12e387e5a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0c1f2b6b4caa363bbbffc12e387e5a2">computeDistanceMapHeapBytes</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshToDistanceMapParams.html">meshlib.mrmeshpy.MeshToDistanceMapParams</a> params, bool needOutSamples=False)</td></tr>
+<tr class="separator:ae0c1f2b6b4caa363bbbffc12e387e5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d004d04fe4fe75cecdc2bdd50e6472" id="r_a12d004d04fe4fe75cecdc2bdd50e6472"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertScalars.html">meshlib.mrmeshpy.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12d004d04fe4fe75cecdc2bdd50e6472">computeSkyViewFactor</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a> terrain, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">meshlib.mrmeshpy.VertCoords</a> samples, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a> validSamples, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">meshlib.mrmeshpy.std_vector_SkyPatch</a> skyPatches, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">meshlib.mrmeshpy.BitSet</a> outSkyRays=None, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshIntersectionResult.html">meshlib.mrmeshpy.std_vector_MeshIntersectionResult</a> outIntersections=None)</td></tr>
+<tr class="separator:a12d004d04fe4fe75cecdc2bdd50e6472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b9e0c5e2d73c13f08ab3b41acdd719" id="r_a84b9e0c5e2d73c13f08ab3b41acdd719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMap.html">meshlib.mrmeshpy.DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84b9e0c5e2d73c13f08ab3b41acdd719">distanceMapFromContours</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a> polyline, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html">meshlib.mrmeshpy.ContourToDistanceMapParams</a> params)</td></tr>
+<tr class="separator:a84b9e0c5e2d73c13f08ab3b41acdd719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85eefc42a7747dbe25e39c2b86642333" id="r_a85eefc42a7747dbe25e39c2b86642333"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85eefc42a7747dbe25e39c2b86642333">distanceMapFromContoursHeapBytes</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a> polyline, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html">meshlib.mrmeshpy.ContourToDistanceMapParams</a> params)</td></tr>
+<tr class="separator:a85eefc42a7747dbe25e39c2b86642333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d312d2efb96e27bc9488c144903a9d3" id="r_a6d312d2efb96e27bc9488c144903a9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">meshlib.mrmeshpy.BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d312d2efb96e27bc9488c144903a9d3">findSkyRays</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a> terrain, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">meshlib.mrmeshpy.VertCoords</a> samples, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a> validSamples, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">meshlib.mrmeshpy.std_vector_SkyPatch</a> skyPatches, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshIntersectionResult.html">meshlib.mrmeshpy.std_vector_MeshIntersectionResult</a> outIntersections=None)</td></tr>
+<tr class="separator:a6d312d2efb96e27bc9488c144903a9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e4e85180aee36251b70cd7efa29b2d" id="r_a55e4e85180aee36251b70cd7efa29b2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55e4e85180aee36251b70cd7efa29b2d">getCudaAvailableMemory</a> ()</td></tr>
+<tr class="separator:a55e4e85180aee36251b70cd7efa29b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95e078cac2a465d32db219195bd996a" id="r_aa95e078cac2a465d32db219195bd996a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95e078cac2a465d32db219195bd996a">isCudaAvailable</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> driverVersion=None, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> runtimeVersion=None, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> computeMajor=None, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> computeMinor=None)</td></tr>
+<tr class="separator:aa95e078cac2a465d32db219195bd996a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad82eac67a0aa454abb39d470923dde9f" id="r_ad82eac67a0aa454abb39d470923dde9f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82eac67a0aa454abb39d470923dde9f">negatePicture</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1Image.html">meshlib.mrmeshpy.Image</a> image)</td></tr>
+<tr class="separator:ad82eac67a0aa454abb39d470923dde9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558ae4d962bb35a0c1e928db4c8abc9a" id="r_a558ae4d962bb35a0c1e928db4c8abc9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolumeMinMax.html">meshlib.mrmeshpy.SimpleVolumeMinMax</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a558ae4d962bb35a0c1e928db4c8abc9a">pointsToDistanceVolume</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">meshlib.mrmeshpy.PointCloud</a> cloud, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointsToDistanceVolumeParams.html">meshlib.mrmeshpy.PointsToDistanceVolumeParams</a> params)</td></tr>
+<tr class="separator:a558ae4d962bb35a0c1e928db4c8abc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1077e2fc1826622a6de394bccb7a83d0" name="a1077e2fc1826622a6de394bccb7a83d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1077e2fc1826622a6de394bccb7a83d0">&#9670;&#160;</a></span>computeDistanceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMap.html">meshlib.mrmeshpy.DistanceMap</a> meshlib.mrcudapy.computeDistanceMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshToDistanceMapParams.html">meshlib.mrmeshpy.MeshToDistanceMapParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">meshlib.mrmeshpy.func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshTriPoint.html">meshlib.mrmeshpy.std_vector_MeshTriPoint</a> </td>          <td class="paramname"><span class="paramname"><em>outSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes distance (height) map for given projection parameters
+using float-precision for finding ray-mesh intersections, which is faster but less reliable
+</pre> 
+</div>
+</div>
+<a id="ae0c1f2b6b4caa363bbbffc12e387e5a2" name="ae0c1f2b6b4caa363bbbffc12e387e5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c1f2b6b4caa363bbbffc12e387e5a2">&#9670;&#160;</a></span>computeDistanceMapHeapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrcudapy.computeDistanceMapHeapBytes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshToDistanceMapParams.html">meshlib.mrmeshpy.MeshToDistanceMapParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>needOutSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">False</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Computes memory consumption of computeDistanceMap function
+</pre> 
+</div>
+</div>
+<a id="a12d004d04fe4fe75cecdc2bdd50e6472" name="a12d004d04fe4fe75cecdc2bdd50e6472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12d004d04fe4fe75cecdc2bdd50e6472">&#9670;&#160;</a></span>computeSkyViewFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertScalars.html">meshlib.mrmeshpy.VertScalars</a> meshlib.mrcudapy.computeSkyViewFactor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>terrain</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">meshlib.mrmeshpy.VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>samples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>validSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">meshlib.mrmeshpy.std_vector_SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>skyPatches</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">meshlib.mrmeshpy.BitSet</a> </td>          <td class="paramname"><span class="paramname"><em>outSkyRays</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshIntersectionResult.html">meshlib.mrmeshpy.std_vector_MeshIntersectionResult</a> </td>          <td class="paramname"><span class="paramname"><em>outIntersections</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes relative radiation in each valid sample point by emitting rays from that point in the sky:
+the radiation is 1.0f if all rays reach the sky not hitting the terrain;
+the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain;
+\\param outSkyRays - optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches),
+                    0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky
+\\param outIntersections - optional output vector of MeshIntersectionResult for every valid sample point
+</pre> 
+</div>
+</div>
+<a id="a84b9e0c5e2d73c13f08ab3b41acdd719" name="a84b9e0c5e2d73c13f08ab3b41acdd719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b9e0c5e2d73c13f08ab3b41acdd719">&#9670;&#160;</a></span>distanceMapFromContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMap.html">meshlib.mrmeshpy.DistanceMap</a> meshlib.mrcudapy.distanceMapFromContours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html">meshlib.mrmeshpy.ContourToDistanceMapParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Computes distance of 2d contours according to ContourToDistanceMapParams (works correctly only when withSign==false)
+</pre> 
+</div>
+</div>
+<a id="a85eefc42a7747dbe25e39c2b86642333" name="a85eefc42a7747dbe25e39c2b86642333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85eefc42a7747dbe25e39c2b86642333">&#9670;&#160;</a></span>distanceMapFromContoursHeapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrcudapy.distanceMapFromContoursHeapBytes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline2.html">meshlib.mrmeshpy.Polyline2</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html">meshlib.mrmeshpy.ContourToDistanceMapParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Computes memory consumption of distanceMapFromContours function
+</pre> 
+</div>
+</div>
+<a id="a6d312d2efb96e27bc9488c144903a9d3" name="a6d312d2efb96e27bc9488c144903a9d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d312d2efb96e27bc9488c144903a9d3">&#9670;&#160;</a></span>findSkyRays()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">meshlib.mrmeshpy.BitSet</a> meshlib.mrcudapy.findSkyRays </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">meshlib.mrmeshpy.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>terrain</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">meshlib.mrmeshpy.VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>samples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">meshlib.mrmeshpy.VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>validSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__SkyPatch.html">meshlib.mrmeshpy.std_vector_SkyPatch</a></td>          <td class="paramname"><span class="paramname"><em>skyPatches</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshIntersectionResult.html">meshlib.mrmeshpy.std_vector_MeshIntersectionResult</a> </td>          <td class="paramname"><span class="paramname"><em>outIntersections</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">In each valid sample point tests the rays from that point in the sky;
+\\return bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches),
+        0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky
+\\param outIntersections - optional output vector of MeshIntersectionResult for every valid sample point
+</pre> 
+</div>
+</div>
+<a id="a55e4e85180aee36251b70cd7efa29b2d" name="a55e4e85180aee36251b70cd7efa29b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55e4e85180aee36251b70cd7efa29b2d">&#9670;&#160;</a></span>getCudaAvailableMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrcudapy.getCudaAvailableMemory </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Returns available GPU memory in bytes
+</pre> 
+</div>
+</div>
+<a id="aa95e078cac2a465d32db219195bd996a" name="aa95e078cac2a465d32db219195bd996a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa95e078cac2a465d32db219195bd996a">&#9670;&#160;</a></span>isCudaAvailable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrcudapy.isCudaAvailable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> </td>          <td class="paramname"><span class="paramname"><em>driverVersion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> </td>          <td class="paramname"><span class="paramname"><em>runtimeVersion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> </td>          <td class="paramname"><span class="paramname"><em>computeMajor</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1int__output.html">meshlib.mrmeshpy.int_output</a> </td>          <td class="paramname"><span class="paramname"><em>computeMinor</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Returns true if Cuda is present on this GPU
+optional out maximum driver supported version
+optional out current runtime version
+optional out compute capability major version
+optional out compute capability minor version
+</pre> 
+</div>
+</div>
+<a id="ad82eac67a0aa454abb39d470923dde9f" name="ad82eac67a0aa454abb39d470923dde9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad82eac67a0aa454abb39d470923dde9f">&#9670;&#160;</a></span>negatePicture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrcudapy.negatePicture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Image.html">meshlib.mrmeshpy.Image</a></td>          <td class="paramname"><span class="paramname"><em>image</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">This function inverts Color value (255 - value in each channel except alpha) 
+</pre> 
+</div>
+</div>
+<a id="a558ae4d962bb35a0c1e928db4c8abc9a" name="a558ae4d962bb35a0c1e928db4c8abc9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a558ae4d962bb35a0c1e928db4c8abc9a">&#9670;&#160;</a></span>pointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolumeMinMax.html">meshlib.mrmeshpy.SimpleVolumeMinMax</a> meshlib.mrcudapy.pointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">meshlib.mrmeshpy.PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointsToDistanceVolumeParams.html">meshlib.mrmeshpy.PointsToDistanceVolumeParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">makes SimpleVolume filled with signed distances to points with normals
+</pre> 
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrcudapy.html">mrcudapy</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

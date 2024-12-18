@@ -946,6 +946,7 @@ WARN_LOGFILE           =
 INPUT                  = ../MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi \
                          ../MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi \
                          ../MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi \
+                         ../MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi \
                          ../MeshLib/doxygen/APIPyPage.dox
 
 # This tag can be used to specify the character encoding of the source files

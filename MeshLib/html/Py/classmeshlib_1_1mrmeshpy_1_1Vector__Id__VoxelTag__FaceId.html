@@ -1,0 +1,1149 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<link rel="canonical" href="https://meshlib.io/documentation/Py/classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html" />
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1d4b18137748fb361a6a33bb7930da78" id="r_a1d4b18137748fb361a6a33bb7930da78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d4b18137748fb361a6a33bb7930da78">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a> b)</td></tr>
+<tr class="separator:a1d4b18137748fb361a6a33bb7930da78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1fc37d8cf166136c6e619cc2a6c662d" id="r_ac1fc37d8cf166136c6e619cc2a6c662d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1fc37d8cf166136c6e619cc2a6c662d">__init__</a> (self)</td></tr>
+<tr class="separator:ac1fc37d8cf166136c6e619cc2a6c662d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890146dc7e2a45575ad14a6d85eed9d3" id="r_a890146dc7e2a45575ad14a6d85eed9d3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a890146dc7e2a45575ad14a6d85eed9d3">__init__</a> (self, int <a class="el" href="#a49d49f4b812e4a7efe155adb9747a214">size</a>)</td></tr>
+<tr class="separator:a890146dc7e2a45575ad14a6d85eed9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a49e2fa9227b6a8b3cb925f0a50bb91" id="r_a7a49e2fa9227b6a8b3cb925f0a50bb91"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a49e2fa9227b6a8b3cb925f0a50bb91">__init__</a> (self, int <a class="el" href="#a49d49f4b812e4a7efe155adb9747a214">size</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> val)</td></tr>
+<tr class="separator:a7a49e2fa9227b6a8b3cb925f0a50bb91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bed82bbae56e75db85af2cbd8b2104d" id="r_a5bed82bbae56e75db85af2cbd8b2104d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bed82bbae56e75db85af2cbd8b2104d">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VoxelTag.html">std_vector_Id_VoxelTag</a> vec)</td></tr>
+<tr class="separator:a5bed82bbae56e75db85af2cbd8b2104d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42d91bbd08098f218e8aa0d2ea48ad7" id="r_aa42d91bbd08098f218e8aa0d2ea48ad7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa42d91bbd08098f218e8aa0d2ea48ad7">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a> arg0)</td></tr>
+<tr class="separator:aa42d91bbd08098f218e8aa0d2ea48ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2607c150f9b307ab9106f2c343d6047" id="r_af2607c150f9b307ab9106f2c343d6047"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2607c150f9b307ab9106f2c343d6047">__iter__</a> (self)</td></tr>
+<tr class="separator:af2607c150f9b307ab9106f2c343d6047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b702da6cd2f311968b27544ae6ee25" id="r_a35b702da6cd2f311968b27544ae6ee25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b702da6cd2f311968b27544ae6ee25">__ne__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a> b)</td></tr>
+<tr class="separator:a35b702da6cd2f311968b27544ae6ee25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a074f2f8fe88e85cbc93620ef617621b4" id="r_a074f2f8fe88e85cbc93620ef617621b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a074f2f8fe88e85cbc93620ef617621b4">autoResizeAt</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> i)</td></tr>
+<tr class="separator:a074f2f8fe88e85cbc93620ef617621b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050d46c84dc436e3fddf788af2a2916d" id="r_a050d46c84dc436e3fddf788af2a2916d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050d46c84dc436e3fddf788af2a2916d">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> pos, int len, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> val)</td></tr>
+<tr class="separator:a050d46c84dc436e3fddf788af2a2916d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f73bd6710744cebdc1c6669adb0e26" id="r_aa7f73bd6710744cebdc1c6669adb0e26"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7f73bd6710744cebdc1c6669adb0e26">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> val)</td></tr>
+<tr class="separator:aa7f73bd6710744cebdc1c6669adb0e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa308639e2e2ccaba2b79368dd486eb33" id="r_aa308639e2e2ccaba2b79368dd486eb33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa308639e2e2ccaba2b79368dd486eb33">back</a> (self)</td></tr>
+<tr class="separator:aa308639e2e2ccaba2b79368dd486eb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa308639e2e2ccaba2b79368dd486eb33" id="r_aa308639e2e2ccaba2b79368dd486eb33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa308639e2e2ccaba2b79368dd486eb33">back</a> (self)</td></tr>
+<tr class="separator:aa308639e2e2ccaba2b79368dd486eb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c124808247df4e594a7939888cce34d" id="r_a8c124808247df4e594a7939888cce34d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c124808247df4e594a7939888cce34d">backId</a> (self)</td></tr>
+<tr class="separator:a8c124808247df4e594a7939888cce34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab60c5db319c1fb31def1a142167bdeda" id="r_ab60c5db319c1fb31def1a142167bdeda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab60c5db319c1fb31def1a142167bdeda">beginId</a> (self)</td></tr>
+<tr class="separator:ab60c5db319c1fb31def1a142167bdeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a79a79dea6ae186a31f2916b93e8af2" id="r_a2a79a79dea6ae186a31f2916b93e8af2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a79a79dea6ae186a31f2916b93e8af2">capacity</a> (self)</td></tr>
+<tr class="separator:a2a79a79dea6ae186a31f2916b93e8af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc04850df3473ff279c0c1d8edecf1f" id="r_a2bc04850df3473ff279c0c1d8edecf1f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bc04850df3473ff279c0c1d8edecf1f">clear</a> (self)</td></tr>
+<tr class="separator:a2bc04850df3473ff279c0c1d8edecf1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d95ba971116ae9054d5d9bb330879c" id="r_ad8d95ba971116ae9054d5d9bb330879c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8d95ba971116ae9054d5d9bb330879c">data</a> (self)</td></tr>
+<tr class="separator:ad8d95ba971116ae9054d5d9bb330879c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d95ba971116ae9054d5d9bb330879c" id="r_ad8d95ba971116ae9054d5d9bb330879c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8d95ba971116ae9054d5d9bb330879c">data</a> (self)</td></tr>
+<tr class="separator:ad8d95ba971116ae9054d5d9bb330879c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2848051feedea1ddbcdcab521ea0108" id="r_ad2848051feedea1ddbcdcab521ea0108"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2848051feedea1ddbcdcab521ea0108">empty</a> (self)</td></tr>
+<tr class="separator:ad2848051feedea1ddbcdcab521ea0108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e91cc457ef7d5f6c032c925ff0b7d7" id="r_a89e91cc457ef7d5f6c032c925ff0b7d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89e91cc457ef7d5f6c032c925ff0b7d7">endId</a> (self)</td></tr>
+<tr class="separator:a89e91cc457ef7d5f6c032c925ff0b7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b2e595cc7b744ef26bbd06c1614a42" id="r_a50b2e595cc7b744ef26bbd06c1614a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50b2e595cc7b744ef26bbd06c1614a42">front</a> (self)</td></tr>
+<tr class="separator:a50b2e595cc7b744ef26bbd06c1614a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b2e595cc7b744ef26bbd06c1614a42" id="r_a50b2e595cc7b744ef26bbd06c1614a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50b2e595cc7b744ef26bbd06c1614a42">front</a> (self)</td></tr>
+<tr class="separator:a50b2e595cc7b744ef26bbd06c1614a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b4117ffd5311228818d01ae6265b78" id="r_a24b4117ffd5311228818d01ae6265b78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24b4117ffd5311228818d01ae6265b78">heapBytes</a> (self)</td></tr>
+<tr class="separator:a24b4117ffd5311228818d01ae6265b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b06ddd46e89465fde2cd197d2959d9" id="r_a30b06ddd46e89465fde2cd197d2959d9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30b06ddd46e89465fde2cd197d2959d9">pop_back</a> (self)</td></tr>
+<tr class="separator:a30b06ddd46e89465fde2cd197d2959d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20869760c3726c1cd44afd66570e903a" id="r_a20869760c3726c1cd44afd66570e903a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20869760c3726c1cd44afd66570e903a">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> t)</td></tr>
+<tr class="separator:a20869760c3726c1cd44afd66570e903a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20869760c3726c1cd44afd66570e903a" id="r_a20869760c3726c1cd44afd66570e903a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20869760c3726c1cd44afd66570e903a">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> t)</td></tr>
+<tr class="separator:a20869760c3726c1cd44afd66570e903a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f458926d27cd15389ce9a1b95cfffd5" id="r_a9f458926d27cd15389ce9a1b95cfffd5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f458926d27cd15389ce9a1b95cfffd5">reserve</a> (self, int <a class="el" href="#a2a79a79dea6ae186a31f2916b93e8af2">capacity</a>)</td></tr>
+<tr class="separator:a9f458926d27cd15389ce9a1b95cfffd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8003db0150a73d639afa24c3ba73c9" id="r_a3d8003db0150a73d639afa24c3ba73c9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8003db0150a73d639afa24c3ba73c9">resize</a> (self, int newSize)</td></tr>
+<tr class="separator:a3d8003db0150a73d639afa24c3ba73c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa455613d6be2b690cdc87e85a1e05975" id="r_aa455613d6be2b690cdc87e85a1e05975"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa455613d6be2b690cdc87e85a1e05975">resize</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> t)</td></tr>
+<tr class="separator:aa455613d6be2b690cdc87e85a1e05975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8552d94a5b7c8e01643f2768a79f32" id="r_add8552d94a5b7c8e01643f2768a79f32"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add8552d94a5b7c8e01643f2768a79f32">resizeNoInit</a> (self, int targetSize)</td></tr>
+<tr class="separator:add8552d94a5b7c8e01643f2768a79f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb76b4f14321e230d8689b2c5ae3b94" id="r_a3cb76b4f14321e230d8689b2c5ae3b94"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cb76b4f14321e230d8689b2c5ae3b94">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a3cb76b4f14321e230d8689b2c5ae3b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3196b6054123cdb05c6268dd1714f9" id="r_a1a3196b6054123cdb05c6268dd1714f9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3196b6054123cdb05c6268dd1714f9">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> value)</td></tr>
+<tr class="separator:a1a3196b6054123cdb05c6268dd1714f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d49f4b812e4a7efe155adb9747a214" id="r_a49d49f4b812e4a7efe155adb9747a214"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d49f4b812e4a7efe155adb9747a214">size</a> (self)</td></tr>
+<tr class="separator:a49d49f4b812e4a7efe155adb9747a214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f780fdaacef0bd271f6bf858476d835" id="r_a0f780fdaacef0bd271f6bf858476d835"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f780fdaacef0bd271f6bf858476d835">swap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a> b)</td></tr>
+<tr class="separator:a0f780fdaacef0bd271f6bf858476d835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f08c237ea677ef269ea77d98389da5" id="r_ae7f08c237ea677ef269ea77d98389da5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VoxelTag.html">std_vector_Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f08c237ea677ef269ea77d98389da5">vec_</a> (self)</td></tr>
+<tr class="separator:ae7f08c237ea677ef269ea77d98389da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae509c03db4c5de5ef56a2296130c2fe9" id="r_ae509c03db4c5de5ef56a2296130c2fe9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae509c03db4c5de5ef56a2296130c2fe9">vec_</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VoxelTag.html">std_vector_Id_VoxelTag</a> arg1)</td></tr>
+<tr class="separator:ae509c03db4c5de5ef56a2296130c2fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a653604ceef0794749fdae6bc5e626d2a" id="r_a653604ceef0794749fdae6bc5e626d2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653604ceef0794749fdae6bc5e626d2a">const_reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td></tr>
+<tr class="separator:a653604ceef0794749fdae6bc5e626d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1b76df3248aa2679126b91149e358c" id="r_acf1b76df3248aa2679126b91149e358c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf1b76df3248aa2679126b91149e358c">reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td></tr>
+<tr class="separator:acf1b76df3248aa2679126b91149e358c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24e391d20fad9bdbe5429b601abdbbe3" id="r_a24e391d20fad9bdbe5429b601abdbbe3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24e391d20fad9bdbe5429b601abdbbe3">value_type</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td></tr>
+<tr class="separator:a24e391d20fad9bdbe5429b601abdbbe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a018fd8335e78657118baf8581ef4c4b2" id="r_a018fd8335e78657118baf8581ef4c4b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a018fd8335e78657118baf8581ef4c4b2">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> i)</td></tr>
+<tr class="separator:a018fd8335e78657118baf8581ef4c4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018fd8335e78657118baf8581ef4c4b2" id="r_a018fd8335e78657118baf8581ef4c4b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a018fd8335e78657118baf8581ef4c4b2">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> i)</td></tr>
+<tr class="separator:a018fd8335e78657118baf8581ef4c4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Vector&lt;MR::Id&lt;MR::VoxelTag&gt;, MR::FaceId&gt;
+Aliases:  Vector_VoxelId_FaceId, Vector_VoxelId_FaceId, Vector_VoxelId_FaceId
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)
+ \\ingroup BasicGroup</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac1fc37d8cf166136c6e619cc2a6c662d" name="ac1fc37d8cf166136c6e619cc2a6c662d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1fc37d8cf166136c6e619cc2a6c662d">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a890146dc7e2a45575ad14a6d85eed9d3" name="a890146dc7e2a45575ad14a6d85eed9d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a890146dc7e2a45575ad14a6d85eed9d3">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a49e2fa9227b6a8b3cb925f0a50bb91" name="a7a49e2fa9227b6a8b3cb925f0a50bb91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a49e2fa9227b6a8b3cb925f0a50bb91">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bed82bbae56e75db85af2cbd8b2104d" name="a5bed82bbae56e75db85af2cbd8b2104d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bed82bbae56e75db85af2cbd8b2104d">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VoxelTag.html">std_vector_Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa42d91bbd08098f218e8aa0d2ea48ad7" name="aa42d91bbd08098f218e8aa0d2ea48ad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42d91bbd08098f218e8aa0d2ea48ad7">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1d4b18137748fb361a6a33bb7930da78" name="a1d4b18137748fb361a6a33bb7930da78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d4b18137748fb361a6a33bb7930da78">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2607c150f9b307ab9106f2c343d6047" name="af2607c150f9b307ab9106f2c343d6047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2607c150f9b307ab9106f2c343d6047">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35b702da6cd2f311968b27544ae6ee25" name="a35b702da6cd2f311968b27544ae6ee25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35b702da6cd2f311968b27544ae6ee25">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a018fd8335e78657118baf8581ef4c4b2" name="a018fd8335e78657118baf8581ef4c4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018fd8335e78657118baf8581ef4c4b2">&#9670;&#160;</a></span>_Subscript() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a018fd8335e78657118baf8581ef4c4b2" name="a018fd8335e78657118baf8581ef4c4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018fd8335e78657118baf8581ef4c4b2">&#9670;&#160;</a></span>_Subscript() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a074f2f8fe88e85cbc93620ef617621b4" name="a074f2f8fe88e85cbc93620ef617621b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a074f2f8fe88e85cbc93620ef617621b4">&#9670;&#160;</a></span>autoResizeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.autoResizeAt </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this accessor automatically adjusts the size of the vector
+</pre> 
+</div>
+</div>
+<a id="aa7f73bd6710744cebdc1c6669adb0e26" name="aa7f73bd6710744cebdc1c6669adb0e26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f73bd6710744cebdc1c6669adb0e26">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a050d46c84dc436e3fddf788af2a2916d" name="a050d46c84dc436e3fddf788af2a2916d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050d46c84dc436e3fddf788af2a2916d">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+</pre> 
+</div>
+</div>
+<a id="aa308639e2e2ccaba2b79368dd486eb33" name="aa308639e2e2ccaba2b79368dd486eb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa308639e2e2ccaba2b79368dd486eb33">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa308639e2e2ccaba2b79368dd486eb33" name="aa308639e2e2ccaba2b79368dd486eb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa308639e2e2ccaba2b79368dd486eb33">&#9670;&#160;</a></span>back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c124808247df4e594a7939888cce34d" name="a8c124808247df4e594a7939888cce34d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c124808247df4e594a7939888cce34d">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+</div>
+</div>
+<a id="ab60c5db319c1fb31def1a142167bdeda" name="ab60c5db319c1fb31def1a142167bdeda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60c5db319c1fb31def1a142167bdeda">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.beginId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the first element
+</pre> 
+</div>
+</div>
+<a id="a2a79a79dea6ae186a31f2916b93e8af2" name="a2a79a79dea6ae186a31f2916b93e8af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a79a79dea6ae186a31f2916b93e8af2">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.capacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bc04850df3473ff279c0c1d8edecf1f" name="a2bc04850df3473ff279c0c1d8edecf1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc04850df3473ff279c0c1d8edecf1f">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8d95ba971116ae9054d5d9bb330879c" name="ad8d95ba971116ae9054d5d9bb330879c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8d95ba971116ae9054d5d9bb330879c">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8d95ba971116ae9054d5d9bb330879c" name="ad8d95ba971116ae9054d5d9bb330879c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8d95ba971116ae9054d5d9bb330879c">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2848051feedea1ddbcdcab521ea0108" name="ad2848051feedea1ddbcdcab521ea0108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2848051feedea1ddbcdcab521ea0108">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89e91cc457ef7d5f6c032c925ff0b7d7" name="a89e91cc457ef7d5f6c032c925ff0b7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e91cc457ef7d5f6c032c925ff0b7d7">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceId.html">FaceId</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns backId() + 1
+</pre> 
+</div>
+</div>
+<a id="a50b2e595cc7b744ef26bbd06c1614a42" name="a50b2e595cc7b744ef26bbd06c1614a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b2e595cc7b744ef26bbd06c1614a42">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50b2e595cc7b744ef26bbd06c1614a42" name="a50b2e595cc7b744ef26bbd06c1614a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b2e595cc7b744ef26bbd06c1614a42">&#9670;&#160;</a></span>front() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24b4117ffd5311228818d01ae6265b78" name="a24b4117ffd5311228818d01ae6265b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b4117ffd5311228818d01ae6265b78">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+</div>
+</div>
+<a id="a30b06ddd46e89465fde2cd197d2959d9" name="a30b06ddd46e89465fde2cd197d2959d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30b06ddd46e89465fde2cd197d2959d9">&#9670;&#160;</a></span>pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.pop_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20869760c3726c1cd44afd66570e903a" name="a20869760c3726c1cd44afd66570e903a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20869760c3726c1cd44afd66570e903a">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20869760c3726c1cd44afd66570e903a" name="a20869760c3726c1cd44afd66570e903a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20869760c3726c1cd44afd66570e903a">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f458926d27cd15389ce9a1b95cfffd5" name="a9f458926d27cd15389ce9a1b95cfffd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f458926d27cd15389ce9a1b95cfffd5">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.reserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d8003db0150a73d639afa24c3ba73c9" name="a3d8003db0150a73d639afa24c3ba73c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8003db0150a73d639afa24c3ba73c9">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa455613d6be2b690cdc87e85a1e05975" name="aa455613d6be2b690cdc87e85a1e05975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa455613d6be2b690cdc87e85a1e05975">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add8552d94a5b7c8e01643f2768a79f32" name="add8552d94a5b7c8e01643f2768a79f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8552d94a5b7c8e01643f2768a79f32">&#9670;&#160;</a></span>resizeNoInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.resizeNoInit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</pre> 
+</div>
+</div>
+<a id="a3cb76b4f14321e230d8689b2c5ae3b94" name="a3cb76b4f14321e230d8689b2c5ae3b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cb76b4f14321e230d8689b2c5ae3b94">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a1a3196b6054123cdb05c6268dd1714f9" name="a1a3196b6054123cdb05c6268dd1714f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3196b6054123cdb05c6268dd1714f9">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a49d49f4b812e4a7efe155adb9747a214" name="a49d49f4b812e4a7efe155adb9747a214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49d49f4b812e4a7efe155adb9747a214">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f780fdaacef0bd271f6bf858476d835" name="a0f780fdaacef0bd271f6bf858476d835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f780fdaacef0bd271f6bf858476d835">&#9670;&#160;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.swap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7f08c237ea677ef269ea77d98389da5" name="ae7f08c237ea677ef269ea77d98389da5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f08c237ea677ef269ea77d98389da5">&#9670;&#160;</a></span>vec_() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VoxelTag.html">std_vector_Id_VoxelTag</a> meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the user can directly manipulate the vector, anyway she cannot break anything
+</pre> 
+</div>
+</div>
+<a id="ae509c03db4c5de5ef56a2296130c2fe9" name="ae509c03db4c5de5ef56a2296130c2fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae509c03db4c5de5ef56a2296130c2fe9">&#9670;&#160;</a></span>vec_() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VoxelTag.html">std_vector_Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a653604ceef0794749fdae6bc5e626d2a" name="a653604ceef0794749fdae6bc5e626d2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a653604ceef0794749fdae6bc5e626d2a">&#9670;&#160;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.const_reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf1b76df3248aa2679126b91149e358c" name="acf1b76df3248aa2679126b91149e358c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1b76df3248aa2679126b91149e358c">&#9670;&#160;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24e391d20fad9bdbe5429b601abdbbe3" name="a24e391d20fad9bdbe5429b601abdbbe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24e391d20fad9bdbe5429b601abdbbe3">&#9670;&#160;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_Id_VoxelTag_FaceId.value_type = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html">Vector_Id_VoxelTag_FaceId</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>
