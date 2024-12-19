@@ -1,5 +1,15 @@
 var NAVTREEINDEX22 =
 {
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a57012db765760454218afad71ea9a3ff":[6,1,0,0,2,205,1],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a57012db765760454218afad71ea9a3ff":[6,1,1,0,1,205,1],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#aa296267d23abf3231d716d259ef05869":[6,1,0,0,2,205,0],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#aa296267d23abf3231d716d259ef05869":[6,1,1,0,1,205,0],
+"classmrmeshpy_1_1ExtremeEdgeType.html":[6,1,0,0,2,206],
+"classmrmeshpy_1_1ExtremeEdgeType.html":[6,1,1,0,1,206],
+"classmrmeshpy_1_1ExtremeEdgeType.html#a0dad09717ed3ff20c857f4fb5770d16f":[6,1,0,0,2,206,4],
+"classmrmeshpy_1_1ExtremeEdgeType.html#a0dad09717ed3ff20c857f4fb5770d16f":[6,1,1,0,1,206,4],
+"classmrmeshpy_1_1ExtremeEdgeType.html#a3425c7dab22143be6d725ff82e71db9c":[6,1,0,0,2,206,6],
+"classmrmeshpy_1_1ExtremeEdgeType.html#a3425c7dab22143be6d725ff82e71db9c":[6,1,1,0,1,206,6],
 "classmrmeshpy_1_1ExtremeEdgeType.html#a45f7770dfd6f23cfc463beef606ee64e":[6,1,0,0,2,206,9],
 "classmrmeshpy_1_1ExtremeEdgeType.html#a45f7770dfd6f23cfc463beef606ee64e":[6,1,1,0,1,206,9],
 "classmrmeshpy_1_1ExtremeEdgeType.html#a57152590313a1dc1d2ee2d54c7b87f32":[6,1,0,0,2,206,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX22 =
 "classmrmeshpy_1_1FaceColors.html#a2bddc46de35ddfe5f167bf91c8a0805c":[6,1,0,0,2,211,23],
 "classmrmeshpy_1_1FaceColors.html#a2bddc46de35ddfe5f167bf91c8a0805c":[6,1,0,0,2,211,24],
 "classmrmeshpy_1_1FaceColors.html#a2bddc46de35ddfe5f167bf91c8a0805c":[6,1,1,0,1,211,23],
-"classmrmeshpy_1_1FaceColors.html#a2bddc46de35ddfe5f167bf91c8a0805c":[6,1,1,0,1,211,24],
-"classmrmeshpy_1_1FaceColors.html#a3093a01b9873248a2b896d22fef65607":[6,1,0,0,2,211,34],
-"classmrmeshpy_1_1FaceColors.html#a3093a01b9873248a2b896d22fef65607":[6,1,1,0,1,211,34],
-"classmrmeshpy_1_1FaceColors.html#a37bbd906c124cf0602e419a8ff55d46e":[6,1,0,0,2,211,8],
-"classmrmeshpy_1_1FaceColors.html#a37bbd906c124cf0602e419a8ff55d46e":[6,1,0,0,2,211,9],
-"classmrmeshpy_1_1FaceColors.html#a37bbd906c124cf0602e419a8ff55d46e":[6,1,1,0,1,211,8],
-"classmrmeshpy_1_1FaceColors.html#a37bbd906c124cf0602e419a8ff55d46e":[6,1,1,0,1,211,9],
-"classmrmeshpy_1_1FaceColors.html#a427b74fd7794f63f6a2ff0c6e5701359":[6,1,0,0,2,211,16],
-"classmrmeshpy_1_1FaceColors.html#a427b74fd7794f63f6a2ff0c6e5701359":[6,1,1,0,1,211,16],
-"classmrmeshpy_1_1FaceColors.html#a466925c532aee11867b8c6b31fca82c3":[6,1,0,0,2,211,17],
-"classmrmeshpy_1_1FaceColors.html#a466925c532aee11867b8c6b31fca82c3":[6,1,1,0,1,211,17]
+"classmrmeshpy_1_1FaceColors.html#a2bddc46de35ddfe5f167bf91c8a0805c":[6,1,1,0,1,211,24]
 };

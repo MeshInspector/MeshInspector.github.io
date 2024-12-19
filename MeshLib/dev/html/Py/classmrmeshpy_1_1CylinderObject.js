@@ -7,6 +7,7 @@ var classmrmeshpy_1_1CylinderObject =
     [ "getBasePoint", "classmrmeshpy_1_1CylinderObject.html#a264df9123afe0001e9e17e3e7d7748ac", null ],
     [ "getCenter", "classmrmeshpy_1_1CylinderObject.html#aa24eed4c06712a288a2b0b90976fd541", null ],
     [ "getClassName", "classmrmeshpy_1_1CylinderObject.html#a18477f51a82bcbc85b69bf8f123984e0", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1CylinderObject.html#af6684989f7735262344b748527b9757e", null ],
     [ "getDirection", "classmrmeshpy_1_1CylinderObject.html#a58f59434c6fb8c8da60701b01ba10cdf", null ],
     [ "getLength", "classmrmeshpy_1_1CylinderObject.html#a54a6af4baab033f9e99f574c9a6e029d", null ],
     [ "getRadius", "classmrmeshpy_1_1CylinderObject.html#a6edf61dcf11d6f4d4ce210d61fa8fcc0", null ],

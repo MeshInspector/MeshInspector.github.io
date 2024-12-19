@@ -14,6 +14,7 @@ var classmrmeshpy_1_1ObjectVoxels =
     [ "extractVoxels", "classmrmeshpy_1_1ObjectVoxels.html#a899ff27173bf3ada1d47460e836273b6", null ],
     [ "getActiveBounds", "classmrmeshpy_1_1ObjectVoxels.html#abb1303f149ea689fe2f9960e009cf121", null ],
     [ "getClassName", "classmrmeshpy_1_1ObjectVoxels.html#ab00d4e0a68ee4cc1569670ba9d6710fb", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1ObjectVoxels.html#a0766bbd3c7cfb05b54a30bdf420de9e8", null ],
     [ "getCoordinateByVoxelId", "classmrmeshpy_1_1ObjectVoxels.html#afa9c7dcfcc3c57979f22cdf8897991c1", null ],
     [ "getDualMarchingCubes", "classmrmeshpy_1_1ObjectVoxels.html#aa471d990dbd0cd65d8b0b7960f53e269", null ],
     [ "getInfoLines", "classmrmeshpy_1_1ObjectVoxels.html#a1048607d1fdffea151db58ed963fdeb0", null ],

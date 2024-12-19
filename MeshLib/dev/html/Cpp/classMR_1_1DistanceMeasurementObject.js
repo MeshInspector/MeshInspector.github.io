@@ -13,6 +13,7 @@ var classMR_1_1DistanceMeasurementObject =
     [ "computeDistance", "classMR_1_1DistanceMeasurementObject.html#a4b85850429f2fd60b65f311298b99c47", null ],
     [ "deserializeFields_", "classMR_1_1DistanceMeasurementObject.html#a41bf252d3d2bb76c6f777b48395ec2b5", null ],
     [ "getClassName", "classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e", null ],
+    [ "getClassNameInPlural", "classMR_1_1DistanceMeasurementObject.html#a9f79d1d3341c245b3a96d7dbfd65a84b", null ],
     [ "getDrawAsNegative", "classMR_1_1DistanceMeasurementObject.html#a9cb473b073de0d9d702218c1acb619f4", null ],
     [ "getInfoLines", "classMR_1_1DistanceMeasurementObject.html#afee53f116445c2f14e15413ad6913d6b", null ],
     [ "getLocalDelta", "classMR_1_1DistanceMeasurementObject.html#a63e77b6ec68d18707193f0f0d9c61c33", null ],

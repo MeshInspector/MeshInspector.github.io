@@ -9,6 +9,7 @@ var classmrmeshpy_1_1VisualObject =
     [ "getBackColorsForAllViewports", "classmrmeshpy_1_1VisualObject.html#a9c50e24643b786be0271ce69b3390c9c", null ],
     [ "getBoundingBox", "classmrmeshpy_1_1VisualObject.html#a7f787f2b93a34cfb4d2d1744e2177271", null ],
     [ "getClassName", "classmrmeshpy_1_1VisualObject.html#ae02cc04db9034c21e7b707ddeb335114", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1VisualObject.html#ac93868b05bd4133b812381d686c527d6", null ],
     [ "getColoringType", "classmrmeshpy_1_1VisualObject.html#af2701866ba9629c598b8d6c83056f4f3", null ],
     [ "getDirtyFlags", "classmrmeshpy_1_1VisualObject.html#a4b9ead8b38c035c872a132c5cb24bf5d", null ],
     [ "getFrontColor", "classmrmeshpy_1_1VisualObject.html#a1bd5cd65e1b0c240f3e3e602a159ec97", null ],

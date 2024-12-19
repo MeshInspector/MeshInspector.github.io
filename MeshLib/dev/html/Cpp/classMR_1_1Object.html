@@ -367,6 +367,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad21ab63debcbf8deb1102471a42fd619" id="r_ad21ab63debcbf8deb1102471a42fd619"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21ab63debcbf8deb1102471a42fd619">getClassName</a> () const</td></tr>
 <tr class="memdesc:ad21ab63debcbf8deb1102471a42fd619"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
 <tr class="separator:ad21ab63debcbf8deb1102471a42fd619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc719b00e50dce56c15759d35168b4f" id="r_a1dc719b00e50dce56c15759d35168b4f"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc719b00e50dce56c15759d35168b4f">getClassNameInPlural</a> () const</td></tr>
+<tr class="memdesc:a1dc719b00e50dce56c15759d35168b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass in plural form  <br /></td></tr>
+<tr class="separator:a1dc719b00e50dce56c15759d35168b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9585a709b1b7bd6d35276d099afd0079" id="r_a9585a709b1b7bd6d35276d099afd0079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR_BIND_IGNORE <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; std::future&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9585a709b1b7bd6d35276d099afd0079">serializeRecursive</a> (const std::filesystem::path &amp;path, Json::Value &amp;root, int childId) const</td></tr>
 <tr class="separator:a9585a709b1b7bd6d35276d099afd0079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6602edbad891420dc4dff152e9df603" id="r_ae6602edbad891420dc4dff152e9df603"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6602edbad891420dc4dff152e9df603">deserializeRecursive</a> (const std::filesystem::path &amp;path, const Json::Value &amp;root, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}, int *objCounter=nullptr)</td></tr>
@@ -1161,7 +1164,36 @@ template&lt;typename T &gt; </div>
 
 <p>return human readable name of subclass </p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#a9d371827ba2fb752841d1efe7ea66f4e">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#aeaaf88b33c15f525f690a986a6b8e4b2">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#a82f1b0c5bd664374800d525c2e276851">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#afe9bf4751b857fb5f5b97a5a738bc9ed">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1LineObject.html#a58d1ddeed9b8239cf14d4c47de7f6361">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#ab68c3e721d3bd37dc6a085f40ecd825c">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#aaa869cb7e2f0543a53b482e956852415">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#ac7792895b65e5aa19f751b31507a32c3">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#ad913c04754e2d8364f0042efa5c1fffd">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a9b538af544fb079b16e86b72414c4b2a">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a5cf0d7357ed28e21c95574c86d0cdbad">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#acccbe2fde9c8cb30a4c0a73ab99d2283">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a3f2703413f04d8a050906c159caf02fc">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#a2385459fc51ba867da12e2d953eebd7f">MR::RadiusMeasurementObject</a>, <a class="el" href="classMR_1_1SphereObject.html#a1e97d8fea065449a5da3f204f8230678">MR::SphereObject</a>, and <a class="el" href="classMR_1_1VisualObject.html#a87b74d884525bd4984c88b5680a7e537">MR::VisualObject</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#a9d371827ba2fb752841d1efe7ea66f4e">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#a8ba7a380dd604b88ebb14d64285d0802">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#ad965c5801e1d4f5272937593d0f81396">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#a4b0373b6db441f45abd56d8c49db803d">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1LineObject.html#acec6e400f55641d6aaf7a9e732e795e4">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#af82ac0d1e0daa1c8e80327325d415cde">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#af477ea65be72a67e3cdb8eb95f7d4911">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#af89deb8b46b61fbb37eda3f4d930f6e1">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a0c5aeb2cd932519fa0bed7e3b47e0313">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a3aa43e666a57e1e939715921da776164">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#ac4bd42c9dcdc59f792daa21258913dd5">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#aba6f4eb16c0c1ab7d33a174dce1df88d">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#aca29c0ca037fbcaa9c721f4c98383c05">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#a2385459fc51ba867da12e2d953eebd7f">MR::RadiusMeasurementObject</a>, <a class="el" href="classMR_1_1SphereObject.html#ad89beb551d65c4ca91fd94a8595ab7c2">MR::SphereObject</a>, and <a class="el" href="classMR_1_1VisualObject.html#ac09e696332a3dce001e8dc010c45a70b">MR::VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a1dc719b00e50dce56c15759d35168b4f" name="a1dc719b00e50dce56c15759d35168b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc719b00e50dce56c15759d35168b4f">&#9670;&#160;</a></span>getClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string MR::Object::getClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return human readable name of subclass in plural form </p>
+
+<p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#a5b7cc6dca00a95f1c4888c7ce9949fc0">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#a49f1b9d953eb7879a258a690339e1072">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#af9631aaa31a5fac228c8d771d6dd74f0">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#a2abeecaeb97c0f800d02b0f6b41886e4">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#a9f79d1d3341c245b3a96d7dbfd65a84b">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1LineObject.html#a455b6b30f5e84b6640efd5035d25becc">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#ad9132bb49e148a2493e2874f1bba5ae9">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#aab0c2d2af22b4131c105c75c0eb14bcc">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#a46c422c357a286cee96793a8c0f6d4c6">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a3487cf580155836c87296d0000b309bf">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#adf2c6c9c6bc04b29ae09be3f8bdf64a8">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a3ee51b24511f01d9b0f0112c70d4941e">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#ae6f78179efe1f53bdad9bc5711da69a5">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a56f329a4ba4807f0262e09f40f11ece6">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#ad41eb47d9f35d686cae7546083dbbe2f">MR::RadiusMeasurementObject</a>, <a class="el" href="classMR_1_1SphereObject.html#a36e4ae2f503e99bb8d954da9f0c58391">MR::SphereObject</a>, and <a class="el" href="classMR_1_1VisualObject.html#a6584432cb9ca39aabe802844cc1ffb82">MR::VisualObject</a>.</p>
 
 </div>
 </div>

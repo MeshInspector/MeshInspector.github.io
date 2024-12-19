@@ -8,6 +8,7 @@ var classmrmeshpy_1_1PlaneObject =
     [ "getBasePoint", "classmrmeshpy_1_1PlaneObject.html#ac0ec0c50092d4ddb2c0c22e60c0a8229", null ],
     [ "getCenter", "classmrmeshpy_1_1PlaneObject.html#a65ebd65b6f2d18b024d37fb15515d363", null ],
     [ "getClassName", "classmrmeshpy_1_1PlaneObject.html#ad441fc81963abb4b790a8e1700408471", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1PlaneObject.html#ad3496d476b77dd09ec1e6625b7db78f3", null ],
     [ "getNormal", "classmrmeshpy_1_1PlaneObject.html#a22d4e51124ba43a6b49353e87995052e", null ],
     [ "getSize", "classmrmeshpy_1_1PlaneObject.html#a64a3c8eed01e985de7a6e323def2c5f1", null ],
     [ "getSizeX", "classmrmeshpy_1_1PlaneObject.html#a65db2376a44e6386f7df70e9e17b2785", null ],

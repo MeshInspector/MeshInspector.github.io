@@ -6,6 +6,7 @@ var classmrmeshpy_1_1SphereObject =
     [ "getAllSharedProperties", "classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4", null ],
     [ "getCenter", "classmrmeshpy_1_1SphereObject.html#af3f13b595fa2716e05b8f8334a03cad5", null ],
     [ "getClassName", "classmrmeshpy_1_1SphereObject.html#a9f5f5c1452fd5e8381feac8e28dc1c0d", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1SphereObject.html#a04d502a5906caf73ce1760fb660e411b", null ],
     [ "getRadius", "classmrmeshpy_1_1SphereObject.html#afe8802e460822793dcf9384956a125ae", null ],
     [ "projectPoint", "classmrmeshpy_1_1SphereObject.html#a1775550ace1e2dcce70f554abd3d8731", null ],
     [ "setCenter", "classmrmeshpy_1_1SphereObject.html#a061b09d72982212fc9038009fd130638", null ],

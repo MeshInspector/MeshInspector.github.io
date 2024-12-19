@@ -5,6 +5,7 @@ var classmrmeshpy_1_1DistanceMeasurementObject =
     [ "clone", "classmrmeshpy_1_1DistanceMeasurementObject.html#af34f9bc6a9200561e8f68cddd725835c", null ],
     [ "computeDistance", "classmrmeshpy_1_1DistanceMeasurementObject.html#accbd47e4d43f7c83b6660407e216f061", null ],
     [ "getClassName", "classmrmeshpy_1_1DistanceMeasurementObject.html#a470309e910d88a26eeb3289a6be7d646", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1DistanceMeasurementObject.html#a0f92be20a88d82a7b385c00417bd92b4", null ],
     [ "getDrawAsNegative", "classmrmeshpy_1_1DistanceMeasurementObject.html#ae07c298fab3ab5ecc4b25a73f02abf89", null ],
     [ "getInfoLines", "classmrmeshpy_1_1DistanceMeasurementObject.html#a50b672a65be7b7e345e75ffb1f89d17f", null ],
     [ "getLocalDelta", "classmrmeshpy_1_1DistanceMeasurementObject.html#ae04a1b9cf99cf41c9145d2c7006cad87", null ],

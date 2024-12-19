@@ -6,6 +6,7 @@ var classmrmeshpy_1_1CircleObject =
     [ "getAllSharedProperties", "classmrmeshpy_1_1CircleObject.html#a8dbd2151dcd63a76abeeaf6f60d22c2a", null ],
     [ "getCenter", "classmrmeshpy_1_1CircleObject.html#a7f230b5c2cf15c187c78bcb15ca51a38", null ],
     [ "getClassName", "classmrmeshpy_1_1CircleObject.html#ac0727234c9fae366a869a491ef3bbfb6", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1CircleObject.html#a4b218da06a50ca6788ec0bb32803534c", null ],
     [ "getNormal", "classmrmeshpy_1_1CircleObject.html#a83961c8e6c576c7f32a7b79f65f90ef1", null ],
     [ "getRadius", "classmrmeshpy_1_1CircleObject.html#ac70a05e55c8a7bbc358d2f5d3b40e25a", null ],
     [ "projectPoint", "classmrmeshpy_1_1CircleObject.html#aea85006ab3776b4e11e87958acf6719a", null ],

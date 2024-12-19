@@ -9,6 +9,7 @@ var classmrmeshpy_1_1ConeObject =
     [ "getBaseRadius", "classmrmeshpy_1_1ConeObject.html#a35002c89f6a3b6b07502ab0bc39cb1c5", null ],
     [ "getCenter", "classmrmeshpy_1_1ConeObject.html#a2f5bded7ef4709db8616addb8b5df066", null ],
     [ "getClassName", "classmrmeshpy_1_1ConeObject.html#ad23671395e62d816916447a5b61232af", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1ConeObject.html#a00a25d10c1d6f7a87a659e3e9ce087ee", null ],
     [ "getDirection", "classmrmeshpy_1_1ConeObject.html#a5be16e053df305d1c50ab30423e326c3", null ],
     [ "getHeight", "classmrmeshpy_1_1ConeObject.html#aeb3ecb2d1ee7fa81d4c4dea4e6778745", null ],
     [ "projectPoint", "classmrmeshpy_1_1ConeObject.html#a2471f290bdb3b61a9fc7b92d52bccb4d", null ],

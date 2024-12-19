@@ -16,6 +16,7 @@ var classmrmeshpy_1_1Object =
     [ "findCommonAncestor", "classmrmeshpy_1_1Object.html#aef02c28f6dfb85ade9554043fdf249dd", null ],
     [ "findCommonAncestor", "classmrmeshpy_1_1Object.html#aef02c28f6dfb85ade9554043fdf249dd", null ],
     [ "getClassName", "classmrmeshpy_1_1Object.html#a3e88aaafd3d356c3a1fbb208bce97f8d", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1Object.html#ade4231c3568ee69e8ae20cf0282fbf8a", null ],
     [ "getInfoLines", "classmrmeshpy_1_1Object.html#a2923b7dd1c5fb2a0d72ebf7e346dd482", null ],
     [ "globalVisibility", "classmrmeshpy_1_1Object.html#a78a7d136a58b2e69851ac59192bcd5b5", null ],
     [ "globalVisibilityMask", "classmrmeshpy_1_1Object.html#a4b1a4fd5f92fc87757bc139ce2e770be", null ],

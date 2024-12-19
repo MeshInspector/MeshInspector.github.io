@@ -4,6 +4,7 @@ var classmrmeshpy_1_1AngleMeasurementObject =
     [ "clone", "classmrmeshpy_1_1AngleMeasurementObject.html#a12dc6efe8b7d81f30825123b91ac1082", null ],
     [ "computeAngle", "classmrmeshpy_1_1AngleMeasurementObject.html#a45a177075898ce7073cd3a0e7328abdc", null ],
     [ "getClassName", "classmrmeshpy_1_1AngleMeasurementObject.html#a4eb78ef95d4e1103b5b264b166f50cc0", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1AngleMeasurementObject.html#aa945d8b25dc67511a3623848ee0d87bd", null ],
     [ "getInfoLines", "classmrmeshpy_1_1AngleMeasurementObject.html#a98de414aae00a3243da639cc137b828a", null ],
     [ "getIsConical", "classmrmeshpy_1_1AngleMeasurementObject.html#a8086a439134eefb16e126f9b945cecb3", null ],
     [ "getLocalPoint", "classmrmeshpy_1_1AngleMeasurementObject.html#a9e1456c4c2921726f58da20a91fffee0", null ],

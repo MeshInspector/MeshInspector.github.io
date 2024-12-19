@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a364ece1dd0875b1858b3af5f676361a3":[6,1,0,0,2,135,0,2],
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a364ece1dd0875b1858b3af5f676361a3":[6,1,1,0,1,135,0,2],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a45a042b6c0083c4c99433aa979ed66d6":[6,1,0,0,2,135,0,1],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a45a042b6c0083c4c99433aa979ed66d6":[6,1,1,0,1,135,0,1],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a516988d21150f74dc921b26aaa3db924":[6,1,0,0,2,135,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classmrmeshpy_1_1ChangeObjectColorAction.html#a71df0d28691bc57900ece6314ce82b87":[6,1,0,0,2,113,2],
 "classmrmeshpy_1_1ChangeObjectColorAction.html#a71df0d28691bc57900ece6314ce82b87":[6,1,1,0,1,113,2],
 "classmrmeshpy_1_1ChangeObjectColorAction.html#a81979572f12041adccb0bd671da901a9":[6,1,0,0,2,113,4],
-"classmrmeshpy_1_1ChangeObjectColorAction.html#a81979572f12041adccb0bd671da901a9":[6,1,1,0,1,113,4],
-"classmrmeshpy_1_1ChangeObjectColorAction.html#a881605b19f40ff899ef2770244a629a3":[6,1,0,0,2,113,3],
-"classmrmeshpy_1_1ChangeObjectColorAction.html#a881605b19f40ff899ef2770244a629a3":[6,1,1,0,1,113,3]
+"classmrmeshpy_1_1ChangeObjectColorAction.html#a81979572f12041adccb0bd671da901a9":[6,1,1,0,1,113,4]
 };

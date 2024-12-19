@@ -4,6 +4,7 @@ var classmrmeshpy_1_1RadiusMeasurementObject =
     [ "clone", "classmrmeshpy_1_1RadiusMeasurementObject.html#aed4eb8fd11e08f1930d2d70ce491b43a", null ],
     [ "computeRadiusOrDiameter", "classmrmeshpy_1_1RadiusMeasurementObject.html#a9cb50526e55a711ca956dd80a793e7b3", null ],
     [ "getClassName", "classmrmeshpy_1_1RadiusMeasurementObject.html#a6c6d1a13f7dcf0b616fee881f65c52e4", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1RadiusMeasurementObject.html#a8a55a9e63bd863a778af50a91304750c", null ],
     [ "getDrawAsDiameter", "classmrmeshpy_1_1RadiusMeasurementObject.html#a1e00a9fcd193765d7026602130c76bf6", null ],
     [ "getInfoLines", "classmrmeshpy_1_1RadiusMeasurementObject.html#adae46eaf8cc2e1361ccca3dc81e335ea", null ],
     [ "getIsSpherical", "classmrmeshpy_1_1RadiusMeasurementObject.html#a1a82f06e7565904d0baa3af9fb694ade", null ],

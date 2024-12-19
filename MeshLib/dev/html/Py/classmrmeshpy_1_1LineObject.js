@@ -7,6 +7,7 @@ var classmrmeshpy_1_1LineObject =
     [ "getBasePoint", "classmrmeshpy_1_1LineObject.html#aefe6daef122a9c886147ac8775219303", null ],
     [ "getCenter", "classmrmeshpy_1_1LineObject.html#a22de143f411dafec991c7faacd5cf052", null ],
     [ "getClassName", "classmrmeshpy_1_1LineObject.html#ac373d968628343828b3ad5d6d9fac0e9", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1LineObject.html#a24643553868594c9f2fba4cb8ec092e7", null ],
     [ "getDirection", "classmrmeshpy_1_1LineObject.html#a3fae20a07ee019fbe75b0313cc919e47", null ],
     [ "getLength", "classmrmeshpy_1_1LineObject.html#a6d88b7b0d26950a80b0387ff63572e16", null ],
     [ "getPointA", "classmrmeshpy_1_1LineObject.html#a38c2467a781cd8c6022e00e41a6a56cc", null ],

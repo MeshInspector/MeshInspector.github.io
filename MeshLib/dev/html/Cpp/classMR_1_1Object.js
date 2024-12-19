@@ -29,6 +29,7 @@ var classMR_1_1Object =
     [ "findCommonAncestor", "classMR_1_1Object.html#af3951674c765923b8a024a44bd27342d", null ],
     [ "findCommonAncestor", "classMR_1_1Object.html#aa3e60b6a82814bffff2ba324dcaa7bd2", null ],
     [ "getClassName", "classMR_1_1Object.html#ad21ab63debcbf8deb1102471a42fd619", null ],
+    [ "getClassNameInPlural", "classMR_1_1Object.html#a1dc719b00e50dce56c15759d35168b4f", null ],
     [ "getInfoLines", "classMR_1_1Object.html#ad99d5459862ef664776cb3dde87df0ee", null ],
     [ "getRedrawFlag", "classMR_1_1Object.html#a4ae8a13d0528c5937e200015938b6dc5", null ],
     [ "getWorldBox", "classMR_1_1Object.html#aeb145057d6707527c3d60d9f459ec2b4", null ],

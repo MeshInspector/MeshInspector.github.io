@@ -6,6 +6,7 @@ var classmrmeshpy_1_1ObjectDistanceMap =
     [ "clone", "classmrmeshpy_1_1ObjectDistanceMap.html#a1d7c1b9a3a166fde6b983b93affb6942", null ],
     [ "extractDistanceMap", "classmrmeshpy_1_1ObjectDistanceMap.html#aedec7420f9a9f47c77c54b30849ad46c", null ],
     [ "getClassName", "classmrmeshpy_1_1ObjectDistanceMap.html#a79093a97d32c2bb6fbe10b4962221ce7", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1ObjectDistanceMap.html#ad5f3a4e1b2bb5df27bdf550c12ebd5c9", null ],
     [ "getDistanceMap", "classmrmeshpy_1_1ObjectDistanceMap.html#ae17141b84d021a55a3bb7b5fb3526cb2", null ],
     [ "getInfoLines", "classmrmeshpy_1_1ObjectDistanceMap.html#ad443c02a67a280e87d39c752899cc75d", null ],
     [ "getToWorldParameters", "classmrmeshpy_1_1ObjectDistanceMap.html#a0672d0c1744aaaac7b221309c053fa43", null ],
