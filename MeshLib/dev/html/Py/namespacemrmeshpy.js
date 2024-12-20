@@ -1763,7 +1763,7 @@ var namespacemrmeshpy =
     [ "meshToDistanceVolume", "namespacemrmeshpy.html#acf4253ca79c30b41227ba9ac9931a2b2", null ],
     [ "meshToLevelSet", "namespacemrmeshpy.html#ad40ef340f36d3e9d1b7e6c440f511bd3", null ],
     [ "meshToPointCloud", "namespacemrmeshpy.html#a20aad6e8fbae3f00c10ba92a72ba94a6", null ],
-    [ "meshToVolume", "namespacemrmeshpy.html#a37267e59ca689dbcae74824f5b1ff9e7", null ],
+    [ "meshToVolume", "namespacemrmeshpy.html#a1b4636d63d7029ef4ae891477edf8f2f", null ],
     [ "mixed", "namespacemrmeshpy.html#ae050f34ed5d327883f0d8c5a13f8d482", null ],
     [ "mixed", "namespacemrmeshpy.html#a520d3648a964ee111d20036bc1e868d4", null ],
     [ "mixed", "namespacemrmeshpy.html#a437039026e957c5d68a75f1a57b80591", null ],
