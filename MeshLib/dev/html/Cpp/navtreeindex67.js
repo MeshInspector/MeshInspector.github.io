@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1InSphere.html#a55fffe1bc5347e4a6ea79bc6e3479c1f":[6,0,2,0,1,259,2],
+"structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[6,0,1,0,1,275,1],
 "structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[6,0,2,0,1,259,1],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,1,0,1,275,0],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,2,0,1,259,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1MarchingCubesParams.html#a0c0cb7da0bce61553dc890c0ae4e44fd":[6,0,2,0,1,301,7],
 "structMR_1_1MarchingCubesParams.html#a5475f37dd7043df6b20d4e93fd65792a":[6,0,1,0,1,317,6],
 "structMR_1_1MarchingCubesParams.html#a5475f37dd7043df6b20d4e93fd65792a":[6,0,2,0,1,301,6],
-"structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469":[6,0,1,0,1,317,1],
-"structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469":[6,0,2,0,1,301,1],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770d":[6,0,1,0,1,317,0]
+"structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469":[6,0,1,0,1,317,1]
 };

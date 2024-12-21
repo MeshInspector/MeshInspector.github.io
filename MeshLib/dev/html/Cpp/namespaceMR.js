@@ -2299,6 +2299,7 @@ var namespaceMR =
     [ "meshToDirectionVolume", "namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787", null ],
     [ "meshToDistanceField", "namespaceMR.html#a3327e8bcfee1e492daeb80b3500c2ca2", null ],
     [ "meshToDistanceFunctionVolume", "namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e", null ],
+    [ "meshToDistanceVdbVolume", "namespaceMR.html#a82f0fd4eb2c48241f6927dfbf70e017a", null ],
     [ "meshToDistanceVolume", "namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad", null ],
     [ "meshToEigen", "group__MeshEigenGroup.html#gab3cf8a8259f3c725b9f74817803c8ee5", null ],
     [ "meshToLevelSet", "namespaceMR.html#adc86f37e5a8bb2c7c0b30dfc636d8e90", null ],

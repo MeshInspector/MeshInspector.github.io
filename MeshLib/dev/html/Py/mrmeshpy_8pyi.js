@@ -1877,6 +1877,7 @@ var mrmeshpy_8pyi =
     [ "meshToDirectionVolume", "mrmeshpy_8pyi.html#afc865e23e80ec3190f6500fec9bfbfdb", null ],
     [ "meshToDistanceField", "mrmeshpy_8pyi.html#a357a205951e2bac1374dbd6bb1b261a5", null ],
     [ "meshToDistanceFunctionVolume", "mrmeshpy_8pyi.html#a4776a5945d91005bdc0c6dfdce67c04d", null ],
+    [ "meshToDistanceVdbVolume", "mrmeshpy_8pyi.html#af9880dcf42b7f6a35b905d7a48fbeb13", null ],
     [ "meshToDistanceVolume", "mrmeshpy_8pyi.html#acf4253ca79c30b41227ba9ac9931a2b2", null ],
     [ "meshToLevelSet", "mrmeshpy_8pyi.html#ad40ef340f36d3e9d1b7e6c440f511bd3", null ],
     [ "meshToPointCloud", "mrmeshpy_8pyi.html#a20aad6e8fbae3f00c10ba92a72ba94a6", null ],

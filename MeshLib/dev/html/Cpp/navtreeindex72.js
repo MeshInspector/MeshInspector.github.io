@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1OriginAndDimensions.html":[6,0,1,0,1,431],
+"structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,415],
 "structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,1,0,1,431,1],
 "structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,2,0,1,415,1],
 "structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e":[6,0,1,0,1,431,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1PointOnObject.html#ab99d125d3a34811d275a4d95aefe82f4":[6,0,1,0,1,462,3],
 "structMR_1_1PointOnObject.html#ab99d125d3a34811d275a4d95aefe82f4":[6,0,2,0,1,446,3],
 "structMR_1_1PointOnObject.html#ae6ddf1f922426da0befb0c18020f6682":[6,0,1,0,1,462,0],
-"structMR_1_1PointOnObject.html#ae6ddf1f922426da0befb0c18020f6682":[6,0,2,0,1,446,0],
-"structMR_1_1PointOnObject.html#ae7a40e7e5c90fdf33a56711b68896efb":[6,0,1,0,1,462,7],
-"structMR_1_1PointOnObject.html#ae7a40e7e5c90fdf33a56711b68896efb":[6,0,2,0,1,446,7]
+"structMR_1_1PointOnObject.html#ae6ddf1f922426da0befb0c18020f6682":[6,0,2,0,1,446,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR_1_1UI_1_1TestEngine.html#ab03a8df7be1624e161032bb386f8df62":[6,0,1,0,1,38,1,9],
+"namespaceMR_1_1UI_1_1TestEngine.html#abbf1d490037c289477160fdb25fb30f7":[6,0,1,0,1,38,1,10],
 "namespaceMR_1_1UI_1_1TestEngine.html#af584a5ff88e3d48b91ace605bd8331e5":[6,0,1,0,1,38,1,11],
 "namespaceMR_1_1UI_1_1TestEngine.html#afac37f1a33604b207f8d30279b255ad2":[6,0,1,0,1,38,1,12],
 "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html":[6,0,1,0,1,38,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMRFindProjectionParameters.html":[6,0,2,0,19],
 "structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[6,0,2,0,19,2],
 "structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[6,0,2,0,19,1],
-"structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,19,0],
-"structMRFixSelfIntersectionsSettings.html":[6,0,2,0,20],
-"structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[6,0,2,0,20,2]
+"structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,19,0]
 };

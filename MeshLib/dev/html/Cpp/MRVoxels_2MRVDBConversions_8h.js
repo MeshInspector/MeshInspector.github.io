@@ -12,6 +12,7 @@ var MRVoxels_2MRVDBConversions_8h =
     [ "makeSignedByWindingNumber", "MRVoxels_2MRVDBConversions_8h.html#aeb145c323941c5fd06c513bc640d05b1", null ],
     [ "makeVdbTopologyDense", "MRVoxels_2MRVDBConversions_8h.html#ac371eca9452d0b5c58eafb9f21965a11", null ],
     [ "meshToDistanceField", "MRVoxels_2MRVDBConversions_8h.html#a3327e8bcfee1e492daeb80b3500c2ca2", null ],
+    [ "meshToDistanceVdbVolume", "MRVoxels_2MRVDBConversions_8h.html#a82f0fd4eb2c48241f6927dfbf70e017a", null ],
     [ "meshToLevelSet", "MRVoxels_2MRVDBConversions_8h.html#adc86f37e5a8bb2c7c0b30dfc636d8e90", null ],
     [ "meshToVolume", "MRVoxels_2MRVDBConversions_8h.html#a6afaeb158838d518430fbc8b6d32b3fb", null ],
     [ "putSimpleVolumeInDenseGrid", "MRVoxels_2MRVDBConversions_8h.html#aa2303df423aaea1a91ce570293117d37", null ],

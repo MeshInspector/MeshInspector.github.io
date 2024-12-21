@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,21,5],
+"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,590],
 "structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,1,574],
 "structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,1,0,1,590,0],
 "structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,1,574,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,1,0,1,630,1],
 "structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,2,0,1,614,1],
 "structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,1,0,1,630,0],
-"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,2,0,1,614,0],
-"structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
-"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[6,0,0,9,7,0,7]
+"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,2,0,1,614,0]
 };

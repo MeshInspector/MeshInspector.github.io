@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967":[6,0,0,16,2,1,7],
 "classMR_1_1SurfaceDistanceBuilder.html#a35fe09c0ed56d9b10178d9099cef9204":[6,0,0,16,2,1,2],
 "classMR_1_1SurfaceDistanceBuilder.html#a370f90033c096568d58a18d399102064":[6,0,0,16,2,1,4],
 "classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7":[6,0,0,16,2,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2":[6,0,1,0,1,654,0,2],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2":[6,0,2,0,1,638,0,2],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d":[6,0,1,0,1,654,0,1],
-"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d":[6,0,2,0,1,638,0,1],
-"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,1,0,1,654,0,3]
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d":[6,0,2,0,1,638,0,1]
 };

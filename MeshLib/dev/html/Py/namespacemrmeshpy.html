@@ -3692,6 +3692,8 @@ Functions</h2></td></tr>
 <tr class="separator:a357a205951e2bac1374dbd6bb1b261a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4776a5945d91005bdc0c6dfdce67c04d" id="r_a4776a5945d91005bdc0c6dfdce67c04d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FunctionVolume.html">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4776a5945d91005bdc0c6dfdce67c04d">meshToDistanceFunctionVolume</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> mp, <a class="el" href="classmrmeshpy_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a> params='<a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a>{}')</td></tr>
 <tr class="separator:a4776a5945d91005bdc0c6dfdce67c04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9880dcf42b7f6a35b905d7a48fbeb13" id="r_af9880dcf42b7f6a35b905d7a48fbeb13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9880dcf42b7f6a35b905d7a48fbeb13">meshToDistanceVdbVolume</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> mp, <a class="el" href="classmrmeshpy_1_1MeshToVolumeParams.html">MeshToVolumeParams</a> params='<a class="elRef" href="../Cpp/structMR_1_1MeshToVolumeParams.html">MR::MeshToVolumeParams</a>{}')</td></tr>
+<tr class="separator:af9880dcf42b7f6a35b905d7a48fbeb13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf4253ca79c30b41227ba9ac9931a2b2" id="r_acf4253ca79c30b41227ba9ac9931a2b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html">SimpleVolumeMinMax</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf4253ca79c30b41227ba9ac9931a2b2">meshToDistanceVolume</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> mp, <a class="el" href="classmrmeshpy_1_1MeshToDistanceVolumeParams.html">MeshToDistanceVolumeParams</a> params='<a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a>{}')</td></tr>
 <tr class="separator:acf4253ca79c30b41227ba9ac9931a2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad40ef340f36d3e9d1b7e6c440f511bd3" id="r_ad40ef340f36d3e9d1b7e6c440f511bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad40ef340f36d3e9d1b7e6c440f511bd3">meshToLevelSet</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> mp, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> voxelSize, float surfaceOffset=3, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
@@ -23501,6 +23503,30 @@ returns null if was canceled by progress callback
 </pre> 
 </div>
 </div>
+<a id="af9880dcf42b7f6a35b905d7a48fbeb13" name="af9880dcf42b7f6a35b905d7a48fbeb13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9880dcf42b7f6a35b905d7a48fbeb13">&#9670;&#160;</a></span>meshToDistanceVdbVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a> mrmeshpy.meshToDistanceVdbVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshToVolumeParams.html">MeshToVolumeParams</a> </td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshToVolumeParams.html">MR::MeshToVolumeParams</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">converts mesh (or its part) into a volume filled with signed or unsigned distances to mesh using OpenVDB library;
+for signed distances the mesh must be closed;
+*params.outXf is untouched
+</pre> 
+</div>
+</div>
 <a id="acf4253ca79c30b41227ba9ac9931a2b2" name="acf4253ca79c30b41227ba9ac9931a2b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf4253ca79c30b41227ba9ac9931a2b2">&#9670;&#160;</a></span>meshToDistanceVolume()</h2>
 
@@ -23609,7 +23635,9 @@ returns null if was canceled by progress callback
       </table>
 </div><div class="memdoc">
 <pre class="fragment">converts mesh (or its part) into a volume filled with signed or unsigned distances to mesh using OpenVDB library;
-for signed distances the mesh must be closed
+for signed distances the mesh must be closed;
+prior to conversion, world space is shifted to ensure that the bounding box of offset mesh is in positive quarter-space,
+and the shift is written in *params.outXf
 </pre> 
 </div>
 </div>
