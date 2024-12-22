@@ -594,6 +594,7 @@ var annotated_dup =
       [ "Palette", "classMR_1_1Palette.html", "classMR_1_1Palette" ],
       [ "PalettePresets", "classMR_1_1PalettePresets.html", null ],
       [ "Parabola", "structMR_1_1Parabola.html", "structMR_1_1Parabola" ],
+      [ "ParallelProgressReporter", "classMR_1_1ParallelProgressReporter.html", "classMR_1_1ParallelProgressReporter" ],
       [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", "classMR_1_1PartialChangeMeshAction" ],
       [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html", "classMR_1_1PartialChangeMeshPointsAction" ],
       [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html", "classMR_1_1PartialChangeMeshTopologyAction" ],

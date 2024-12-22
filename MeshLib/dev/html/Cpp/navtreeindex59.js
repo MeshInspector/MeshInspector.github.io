@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[6,0,2,0,18,5],
+"structMRFillHoleParams.html#a9f8cc59be22f24be20c9418d76f985be":[6,0,2,0,18,1],
+"structMRFillHoleParams.html#ab744cac77f9f46540cf1d4ae89c098fe":[6,0,2,0,18,0],
+"structMRFillHoleParams.html#abd5e444fda2adcc30b7ff392177db86c":[6,0,2,0,18,4],
+"structMRFillHoleParams.html#ad6d00d886b5618cbcb8961f55f2e7aa5":[6,0,2,0,18,3],
+"structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286":[6,0,2,0,18,2],
+"structMRFindProjectionParameters.html":[6,0,2,0,19],
+"structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[6,0,2,0,19,2],
+"structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[6,0,2,0,19,1],
+"structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,19,0],
 "structMRFixSelfIntersectionsSettings.html":[6,0,2,0,20],
 "structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[6,0,2,0,20,2],
 "structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[6,0,2,0,20,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1AffineXf.html#a4f40e964b7034f2c0121f71a30bdf36e":[6,0,0,0,13,3],
 "structMR_1_1AffineXf.html#a55d01857e172a9cbf746957013009926":[6,0,0,0,13,9],
 "structMR_1_1AffineXf.html#a5be41c92ebfbb340e9651f0efd210fcb":[6,0,0,0,13,6],
-"structMR_1_1AffineXf.html#a60960f9da874c4087c143336fbbd23ee":[6,0,0,0,13,0],
-"structMR_1_1AffineXf.html#ab3b595e5fd83370d9417a0d1e93cf2c1":[6,0,0,0,13,2],
-"structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c":[6,0,0,0,13,11],
-"structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca":[6,0,0,0,13,10],
-"structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3":[6,0,0,0,13,5],
-"structMR_1_1AffineXf.html#afca9328028fe0e2b5c4f3d1181867792":[6,0,0,0,13,4],
-"structMR_1_1AllLocalTriangulations.html":[6,0,1,0,1,52],
-"structMR_1_1AllLocalTriangulations.html":[6,0,2,0,1,36],
-"structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,1,0,1,52,1],
-"structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,2,0,1,36,1],
-"structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[6,0,1,0,1,52,0]
+"structMR_1_1AffineXf.html#a60960f9da874c4087c143336fbbd23ee":[6,0,0,0,13,0]
 };

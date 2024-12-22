@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,1,0,1,77,4],
+"structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,2,0,1,61,4],
+"structMR_1_1BooleanPreCutResult.html":[6,0,1,0,1,78],
+"structMR_1_1BooleanPreCutResult.html":[6,0,2,0,1,62],
+"structMR_1_1BooleanPreCutResult.html#ac3043629b51e619f82eddefaa9e678fb":[6,0,1,0,1,78,1],
+"structMR_1_1BooleanPreCutResult.html#ac3043629b51e619f82eddefaa9e678fb":[6,0,2,0,1,62,1],
+"structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc":[6,0,1,0,1,78,0],
+"structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc":[6,0,2,0,1,62,0],
+"structMR_1_1BooleanResult.html":[6,0,0,8,5],
+"structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486":[6,0,0,8,5,7],
 "structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289":[6,0,0,8,5,5],
 "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a":[6,0,0,8,5,9],
 "structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df":[6,0,0,8,5,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,1,0,1,151,1],
 "structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,2,0,1,135,1],
 "structMR_1_1CursorEntranceListener.html":[6,0,1,0,1,153],
-"structMR_1_1CursorEntranceListener.html":[6,0,2,0,1,137],
-"structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,1,0,1,153,1],
-"structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,2,0,1,137,1],
-"structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[6,0,1,0,1,153,3],
-"structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[6,0,2,0,1,137,3],
-"structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[6,0,1,0,1,153,0],
-"structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[6,0,2,0,1,137,0],
-"structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,1,0,1,153,2],
-"structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,2,0,1,137,2],
-"structMR_1_1CustomButtonParameters.html":[6,0,1,0,1,154],
-"structMR_1_1CustomButtonParameters.html":[6,0,2,0,1,138]
+"structMR_1_1CursorEntranceListener.html":[6,0,2,0,1,137]
 };

@@ -884,6 +884,7 @@ var hierarchy =
     [ "MR::Palette", "classMR_1_1Palette.html", null ],
     [ "MR::PalettePresets", "classMR_1_1PalettePresets.html", null ],
     [ "MR::Parabola< T >", "structMR_1_1Parabola.html", null ],
+    [ "MR::ParallelProgressReporter", "classMR_1_1ParallelProgressReporter.html", null ],
     [ "MR::MarkedVoxelSlice::Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", null ],
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
     [ "MR::RibbonMenuSearch::Parameters", "structMR_1_1RibbonMenuSearch_1_1Parameters.html", null ],
@@ -897,6 +898,7 @@ var hierarchy =
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
     [ "MR::PdfParameters", "structMR_1_1PdfParameters.html", null ],
+    [ "MR::ParallelProgressReporter::PerTaskReporter", "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html", null ],
     [ "MR::ViewportGL::PickParameters", "structMR_1_1ViewportGL_1_1PickParameters.html", null ],
     [ "MR::Viewport::PickRenderObjectParams", "structMR_1_1Viewport_1_1PickRenderObjectParams.html", null ],
     [ "MR::Features::Primitives::Plane", "structMR_1_1Features_1_1Primitives_1_1Plane.html", null ],
@@ -1109,6 +1111,7 @@ var hierarchy =
     [ "T", null, [
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
+    [ "MR::ParallelProgressReporter::TaskInfo", "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],

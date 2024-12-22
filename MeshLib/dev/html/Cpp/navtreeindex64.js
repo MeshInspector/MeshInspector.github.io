@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1FeatureObjectSharedProperty.html#a6180b92925783a60e6236c09f9967409":[6,0,2,0,1,194,1],
+"structMR_1_1FeatureObjectSharedProperty.html#a863b69e9cebfcc8c5f242a7b655083c9":[6,0,1,0,1,210,4],
+"structMR_1_1FeatureObjectSharedProperty.html#a863b69e9cebfcc8c5f242a7b655083c9":[6,0,2,0,1,194,4],
+"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[6,0,1,0,1,210,3],
+"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[6,0,2,0,1,194,3],
+"structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,1,0,1,210,0],
+"structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,2,0,1,194,0],
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,1,0,1,210,2],
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,2,0,1,194,2],
+"structMR_1_1Features_1_1MeasureResult.html":[6,0,1,0,1,6,2],
 "structMR_1_1Features_1_1MeasureResult.html":[6,0,2,0,1,2,2],
 "structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,1,0,1,6,2,4],
 "structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,2,0,1,2,2,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,204],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,220,1],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,204,1],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,220,2],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,2,0,1,204,2],
-"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,1,0,1,220,4],
-"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,2,0,1,204,4],
-"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,1,0,1,220,0],
-"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,2,0,1,204,0],
-"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,1,0,1,220,3],
-"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,2,0,1,204,3],
-"structMR_1_1FindOverhangsSettings.html":[6,0,1,0,1,221],
-"structMR_1_1FindOverhangsSettings.html":[6,0,2,0,1,205],
-"structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[6,0,1,0,1,221,0]
+"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,220,2]
 };
