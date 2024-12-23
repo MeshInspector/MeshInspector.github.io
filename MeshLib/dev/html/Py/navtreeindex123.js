@@ -1,5 +1,11 @@
 var NAVTREEINDEX123 =
 {
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#af1fe213223273648ee9584a6a921d2a7":[6,1,0,0,2,803,18],
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#af1fe213223273648ee9584a6a921d2a7":[6,1,1,0,1,803,18],
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#af62ae5545d4783c1a8cd0522919f875d":[6,1,0,0,2,803,12],
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#af62ae5545d4783c1a8cd0522919f875d":[6,1,1,0,1,803,12],
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#af8000298ca149c26b5cae82d9d89fe1a":[6,1,0,0,2,803,8],
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#af8000298ca149c26b5cae82d9d89fe1a":[6,1,1,0,1,803,8],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html":[6,1,0,0,2,804],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html":[6,1,1,0,1,804],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#a1d6f217d3ec8ff7219b0c1515827c972":[6,1,0,0,2,804,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX123 =
 "classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a0a031eb0ee0daf84ef41cddadcb903c6":[6,1,0,0,2,809,21],
 "classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a0a031eb0ee0daf84ef41cddadcb903c6":[6,1,1,0,1,809,21],
 "classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a2af95f7bffc742f1545e9ba3c414f276":[6,1,0,0,2,809,2],
-"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a2af95f7bffc742f1545e9ba3c414f276":[6,1,1,0,1,809,2],
-"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a2dceb969184d60c05fe16b816580a8d8":[6,1,0,0,2,809,22],
-"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a2dceb969184d60c05fe16b816580a8d8":[6,1,1,0,1,809,22],
-"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a31df912391992ae1e5bc86636b510d50":[6,1,0,0,2,809,15],
-"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a31df912391992ae1e5bc86636b510d50":[6,1,1,0,1,809,15],
-"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a32886f868f3e35771f64065b99aceb70":[6,1,0,0,2,809,4],
-"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a32886f868f3e35771f64065b99aceb70":[6,1,1,0,1,809,4]
+"classmrmeshpy_1_1std__vector__MeshSave__NamedXfMesh.html#a2af95f7bffc742f1545e9ba3c414f276":[6,1,1,0,1,809,2]
 };

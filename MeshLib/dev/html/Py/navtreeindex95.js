@@ -1,5 +1,11 @@
 var NAVTREEINDEX95 =
 {
+"classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a0d34b121c3761c50a097f5d30b36758e":[6,1,0,0,2,1019,5],
+"classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a0d34b121c3761c50a097f5d30b36758e":[6,1,1,0,1,1019,5],
+"classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a3481734d27424737c1b076b57f6e6200":[6,1,0,0,2,1019,18],
+"classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a3481734d27424737c1b076b57f6e6200":[6,1,1,0,1,1019,18],
+"classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a39c24450edbcb8a1e9c8010655694939":[6,1,0,0,2,1019,13],
+"classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a39c24450edbcb8a1e9c8010655694939":[6,1,0,0,2,1019,14],
 "classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a39c24450edbcb8a1e9c8010655694939":[6,1,1,0,1,1019,13],
 "classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a39c24450edbcb8a1e9c8010655694939":[6,1,1,0,1,1019,14],
 "classmrmeshpy_1_1Vector__unsigned__long__UndirectedEdgeId.html#a4195c9d4b90d406b293c38479268dd23":[6,1,0,0,2,1019,27],
@@ -243,11 +249,5 @@ var NAVTREEINDEX95 =
 "classmrmeshpy_1_1VertBitSet.html#a1451203822d962e43430fcb158262ffc":[6,1,0,0,2,1041,22],
 "classmrmeshpy_1_1VertBitSet.html#a1451203822d962e43430fcb158262ffc":[6,1,1,0,1,1041,22],
 "classmrmeshpy_1_1VertBitSet.html#a1f0f881ea4e3f3b24bf41c8f332821b6":[6,1,0,0,2,1041,12],
-"classmrmeshpy_1_1VertBitSet.html#a1f0f881ea4e3f3b24bf41c8f332821b6":[6,1,1,0,1,1041,12],
-"classmrmeshpy_1_1VertBitSet.html#a3652e64411b74768b888e13563fff46c":[6,1,0,0,2,1041,38],
-"classmrmeshpy_1_1VertBitSet.html#a3652e64411b74768b888e13563fff46c":[6,1,1,0,1,1041,38],
-"classmrmeshpy_1_1VertBitSet.html#a37f41cbcfb20d51c5e7d62fc48863620":[6,1,0,0,2,1041,28],
-"classmrmeshpy_1_1VertBitSet.html#a37f41cbcfb20d51c5e7d62fc48863620":[6,1,1,0,1,1041,28],
-"classmrmeshpy_1_1VertBitSet.html#a3d0f63e972577eb1589e92bc88bc42b8":[6,1,0,0,2,1041,40],
-"classmrmeshpy_1_1VertBitSet.html#a3d0f63e972577eb1589e92bc88bc42b8":[6,1,1,0,1,1041,40]
+"classmrmeshpy_1_1VertBitSet.html#a1f0f881ea4e3f3b24bf41c8f332821b6":[6,1,1,0,1,1041,12]
 };

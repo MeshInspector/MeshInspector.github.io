@@ -1,5 +1,11 @@
 var NAVTREEINDEX45 =
 {
+"classmrmeshpy_1_1ModelPointsData.html#a58ba55ebecbb69cf8e30846c2279cc86":[6,1,0,0,2,468,3],
+"classmrmeshpy_1_1ModelPointsData.html#a58ba55ebecbb69cf8e30846c2279cc86":[6,1,1,0,1,468,3],
+"classmrmeshpy_1_1ModelPointsData.html#aa18bf8d974014e6fd40936e540f2a6e6":[6,1,0,0,2,468,5],
+"classmrmeshpy_1_1ModelPointsData.html#aa18bf8d974014e6fd40936e540f2a6e6":[6,1,1,0,1,468,5],
+"classmrmeshpy_1_1ModelPointsData.html#aa408cb6d98af314d89dbb10cf0686f6d":[6,1,0,0,2,468,0],
+"classmrmeshpy_1_1ModelPointsData.html#aa408cb6d98af314d89dbb10cf0686f6d":[6,1,1,0,1,468,0],
 "classmrmeshpy_1_1ModelPointsData.html#aa96ba0cf65f424e18db0767e15a50e3e":[6,1,0,0,2,468,7],
 "classmrmeshpy_1_1ModelPointsData.html#aa96ba0cf65f424e18db0767e15a50e3e":[6,1,1,0,1,468,7],
 "classmrmeshpy_1_1ModelPointsData.html#aaa1f8e5abf328f0b5fcf5b32f51329b7":[6,1,0,0,2,468,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX45 =
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ac885a075c469d50768c6725682527fdf":[6,1,0,0,2,477,9],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ac885a075c469d50768c6725682527fdf":[6,1,1,0,1,477,9],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,0,0,2,477,7],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,1,0,1,477,7],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html":[6,1,0,0,2,477,0],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html":[6,1,1,0,1,477,0],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a020fa2b3bbab07ac7e4b2777d52b6bdb":[6,1,0,0,2,477,0,6],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a020fa2b3bbab07ac7e4b2777d52b6bdb":[6,1,1,0,1,477,0,6],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a402222c1e797cf2d751a168b3c1fdfac":[6,1,0,0,2,477,0,9],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a402222c1e797cf2d751a168b3c1fdfac":[6,1,1,0,1,477,0,9]
+"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,1,0,1,477,7]
 };

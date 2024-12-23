@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ab58d9b167e66ece2adfb7d92d19ae323":[6,1,0,0,2,675,3],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ab58d9b167e66ece2adfb7d92d19ae323":[6,1,1,0,1,675,3],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#adb84d67112bdb1688e57117912353308":[6,1,0,0,2,675,13],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#adb84d67112bdb1688e57117912353308":[6,1,1,0,1,675,13],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae1eecc2e72cebf1138884e492575dbeb":[6,1,0,0,2,675,1],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae1eecc2e72cebf1138884e492575dbeb":[6,1,1,0,1,675,1],
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae963b743378851baa40cf623d8dbdcf0":[6,1,0,0,2,675,7],
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae963b743378851baa40cf623d8dbdcf0":[6,1,1,0,1,675,7],
 "classmrmeshpy_1_1RigidScaleXf3d.html":[6,1,0,0,2,676],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#adba0eacf43ac0f7dc14af183d2a04383":[6,1,0,0,2,685,0,8],
 "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#adba0eacf43ac0f7dc14af183d2a04383":[6,1,1,0,1,685,0,8],
 "classmrmeshpy_1_1SceneRoot.html":[6,1,0,0,2,686],
-"classmrmeshpy_1_1SceneRoot.html":[6,1,1,0,1,686],
-"classmrmeshpy_1_1SceneRoot.html#a8f4e480b228068348155d12067641ebf":[6,1,0,0,2,686,0],
-"classmrmeshpy_1_1SceneRoot.html#a8f4e480b228068348155d12067641ebf":[6,1,1,0,1,686,0],
-"classmrmeshpy_1_1SceneRootObject.html":[6,1,0,0,2,687],
-"classmrmeshpy_1_1SceneRootObject.html":[6,1,1,0,1,687],
-"classmrmeshpy_1_1SceneRootObject.html#a15ca2cad6fdfde06e2c701f9ef40d0af":[6,1,0,0,2,687,1],
-"classmrmeshpy_1_1SceneRootObject.html#a15ca2cad6fdfde06e2c701f9ef40d0af":[6,1,1,0,1,687,1]
+"classmrmeshpy_1_1SceneRoot.html":[6,1,1,0,1,686]
 };

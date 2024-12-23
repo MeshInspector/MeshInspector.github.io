@@ -1,5 +1,11 @@
 var NAVTREEINDEX141 =
 {
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a8dbea2fcf9b88a405afbf32c6158fed7":[6,1,0,0,2,857,3],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a8dbea2fcf9b88a405afbf32c6158fed7":[6,1,1,0,1,857,3],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a90bff038105dbbdfef27906cb68a8340":[6,1,0,0,2,857,15],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a90bff038105dbbdfef27906cb68a8340":[6,1,1,0,1,857,15],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#aa1d5787a9bf81b645e45a8388712c6bc":[6,1,0,0,2,857,13],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#aa1d5787a9bf81b645e45a8388712c6bc":[6,1,1,0,1,857,13],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#aa2e3e3af9fef1af294982fa09b61658e":[6,1,0,0,2,857,19],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#aa2e3e3af9fef1af294982fa09b61658e":[6,1,1,0,1,857,19],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#aa44ea0ded3fe03ac17ef041915791946":[6,1,0,0,2,857,17],
@@ -243,11 +249,5 @@ var NAVTREEINDEX141 =
 "classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#af2a20d3e95eeb1dc8fde4391aa04189b":[6,1,0,0,2,861,13],
 "classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#af2a20d3e95eeb1dc8fde4391aa04189b":[6,1,1,0,1,861,13],
 "classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#af40d9fa39acaadb7686c81303f16c0e6":[6,1,0,0,2,861,6],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#af40d9fa39acaadb7686c81303f16c0e6":[6,1,1,0,1,861,6],
-"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html":[6,1,0,0,2,862],
-"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html":[6,1,1,0,1,862],
-"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a11e32deb3f007509f7e34e1f8fca55bb":[6,1,0,0,2,862,22],
-"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a11e32deb3f007509f7e34e1f8fca55bb":[6,1,1,0,1,862,22],
-"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a19e70038342a59cbf227eaa900967e6b":[6,1,0,0,2,862,6],
-"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a19e70038342a59cbf227eaa900967e6b":[6,1,1,0,1,862,6]
+"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#af40d9fa39acaadb7686c81303f16c0e6":[6,1,1,0,1,861,6]
 };

@@ -1,11 +1,14 @@
 var group__MeshGroup =
 [
     [ "MR::Mesh", "structMR_1_1Mesh.html", [
-      [ "addPart", "structMR_1_1Mesh.html#a8ceec437a01ce063998c0f63f339f246", null ],
+      [ "addMesh", "structMR_1_1Mesh.html#a03cc515eb0f81de63feaec528ea459d7", null ],
+      [ "addMeshPart", "structMR_1_1Mesh.html#aedd6db47df16797afde108ccec581b21", null ],
+      [ "addMeshPart", "structMR_1_1Mesh.html#a263bae4a94fa6f79f6f743e6610a1c75", null ],
+      [ "addPart", "structMR_1_1Mesh.html#ad7adbef117d94a1363f386eacca63973", null ],
       [ "addPartBy", "structMR_1_1Mesh.html#a3a79f0f44fbbd679cff801144ef2df62", null ],
       [ "addPartByFaceMap", "structMR_1_1Mesh.html#abfa14b4d2f6105806b0de757c0a87b7c", null ],
-      [ "addPartByMask", "structMR_1_1Mesh.html#a5686eed5d8d32c71c450f51644695a09", null ],
-      [ "addPartByMask", "structMR_1_1Mesh.html#ae5fb0761925dbb24dbb414e74fd881bc", null ],
+      [ "addPartByMask", "structMR_1_1Mesh.html#a67ab69a7648bb271777c2e7bf6c4825d", null ],
+      [ "addPartByMask", "structMR_1_1Mesh.html#a8b2a31d3988f5155b2ce08ada845657a", null ],
       [ "addPoint", "structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5", null ],
       [ "addSeparateContours", "structMR_1_1Mesh.html#abd8119f3200435e62435f6ec375d98c1", null ],
       [ "addSeparateEdgeLoop", "structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee", null ],
