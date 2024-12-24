@@ -342,7 +342,8 @@ calculates winding numbers in each point from a three-dimensional grid
       </table>
 </div><div class="memdoc">
 <pre class="fragment">&lt;summary&gt;
-calculates distances with the sign obtained from winding number in each point from a three-dimensional grid
+calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
+if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point
 &lt;/summary&gt;
 &lt;param name="res"&gt;resulting signed distances, will be resized automatically&lt;/param&gt;
 &lt;param name="dims"&gt;dimensions of the grid&lt;/param&gt;

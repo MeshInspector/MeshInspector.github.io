@@ -187,7 +187,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abecab59597bb05ac0986bdbd061aa47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
 <tr class="separator:abecab59597bb05ac0986bdbd061aa47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c1c11bdceb9ea710ed6cf926ff46d5" id="r_a66c1c11bdceb9ea710ed6cf926ff46d5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66c1c11bdceb9ea710ed6cf926ff46d5">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float windingNumberThreshold, float beta, float maxDistSq, float minDistSq, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb)=0</td></tr>
-<tr class="memdesc:a66c1c11bdceb9ea710ed6cf926ff46d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from winding number in each point from a three-dimensional grid  <br /></td></tr>
+<tr class="memdesc:a66c1c11bdceb9ea710ed6cf926ff46d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
 <tr class="separator:a66c1c11bdceb9ea710ed6cf926ff46d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -333,7 +333,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calculates distances with the sign obtained from winding number in each point from a three-dimensional grid </p>
+<p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">res</td><td>resulting signed distances, will be resized automatically</td></tr>
