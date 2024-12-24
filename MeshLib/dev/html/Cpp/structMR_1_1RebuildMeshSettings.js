@@ -1,5 +1,6 @@
 var structMR_1_1RebuildMeshSettings =
 [
+    [ "closeHolesInHoleWindingNumber", "structMR_1_1RebuildMeshSettings.html#a7e182394b11ff51cd7695df3a953505a", null ],
     [ "decimate", "structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453", null ],
     [ "fwn", "structMR_1_1RebuildMeshSettings.html#aea6b7ba0f04e938fe48d66bb6f336a79", null ],
     [ "offsetMode", "structMR_1_1RebuildMeshSettings.html#a0cc5cd91097f6d671c3a9ad73a09ac14", null ],

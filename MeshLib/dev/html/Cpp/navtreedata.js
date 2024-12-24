@@ -190,17 +190,17 @@ var NAVTREEINDEX =
 "structMR_1_1Mesh.html#a584a6ede1ccbc7e9568e03eb8abd4ed5",
 "structMR_1_1MeshSave_1_1CtmSaveOptions.html#a54ba9db1afce57658d702848df79ec47",
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html",
-"structMR_1_1OneMeshContour.html#a6e1a28642564323f19cdf9f04319d5ef",
-"structMR_1_1PointInAllSpaces.html",
-"structMR_1_1PositionedText.html#a362e71ee7a4c24ff0ca9f4dce5d43fa1",
-"structMR_1_1RemeshSettings.html#ad7ab1e7054f884efcbe1327815ffd678",
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49",
-"structMR_1_1SpacingSettings.html#ac011fc95d61ece99cc3358e1236104d9",
-"structMR_1_1ToolPathParams.html#a13a70c0130eab38aeaf063f1f6d276d7",
-"structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8",
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714",
-"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html",
-"structMR_1_1WebRequest_1_1FormData.html#a76e349db00559df538bd1c3c8ec18237"
+"structMR_1_1OneMeshContour.html",
+"structMR_1_1PointCloudRelaxParams.html",
+"structMR_1_1PositionedText.html#a0361f418c9fa0c8257d7148d219fe4c6",
+"structMR_1_1RemeshSettings.html#ac40df80c94fefeea4585f945fb040012",
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a153339b0418a9f66dcd46058e4f30dc8",
+"structMR_1_1SpacingSettings.html#a612a52253b770197ad7b0ddea8224c14",
+"structMR_1_1ToolPathParams.html",
+"structMR_1_1TriangleSegmentIntersectResult.html#a44ebc6eac0ba7a7421c713970a69f480",
+"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html",
+"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#a23e6bf37742e57ceeb89a472fc5828c0",
+"structMR_1_1WebRequest_1_1FormData.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

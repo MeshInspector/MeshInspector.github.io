@@ -2,6 +2,8 @@ var classmrmeshpy_1_1OffsetParameters =
 [
     [ "__init__", "classmrmeshpy_1_1OffsetParameters.html#a1509a118ec67b80ca282a42454b5f889", null ],
     [ "__init__", "classmrmeshpy_1_1OffsetParameters.html#acf815a59c9178133fcc0c7ce1c59a8bf", null ],
+    [ "closeHolesInHoleWindingNumber", "classmrmeshpy_1_1OffsetParameters.html#a0af3482b1171b23d0a442dbd2720e13c", null ],
+    [ "closeHolesInHoleWindingNumber", "classmrmeshpy_1_1OffsetParameters.html#a84fb46e9ea985e6f2658c8e46c26ba83", null ],
     [ "fwn", "classmrmeshpy_1_1OffsetParameters.html#af9b220b13bd395d90e61a7326a3088af", null ],
     [ "fwn", "classmrmeshpy_1_1OffsetParameters.html#acc8c99e13c8044af2b65c42bb660a703", null ],
     [ "memoryEfficient", "classmrmeshpy_1_1OffsetParameters.html#ab4b0e7ca6fb4a29a8b9d9f0266089ef1", null ],

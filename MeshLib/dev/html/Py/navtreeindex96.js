@@ -1,5 +1,13 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1VertBitSet.html#a09325d1f8440d6a37d104ec90e76417f":[6,1,0,0,2,1041,3],
+"classmrmeshpy_1_1VertBitSet.html#a09325d1f8440d6a37d104ec90e76417f":[6,1,1,0,1,1041,3],
+"classmrmeshpy_1_1VertBitSet.html#a0dd6727dddb55c9c3e0ff75e94165d55":[6,1,0,0,2,1041,29],
+"classmrmeshpy_1_1VertBitSet.html#a0dd6727dddb55c9c3e0ff75e94165d55":[6,1,1,0,1,1041,29],
+"classmrmeshpy_1_1VertBitSet.html#a1451203822d962e43430fcb158262ffc":[6,1,0,0,2,1041,22],
+"classmrmeshpy_1_1VertBitSet.html#a1451203822d962e43430fcb158262ffc":[6,1,1,0,1,1041,22],
+"classmrmeshpy_1_1VertBitSet.html#a1f0f881ea4e3f3b24bf41c8f332821b6":[6,1,0,0,2,1041,12],
+"classmrmeshpy_1_1VertBitSet.html#a1f0f881ea4e3f3b24bf41c8f332821b6":[6,1,1,0,1,1041,12],
 "classmrmeshpy_1_1VertBitSet.html#a3652e64411b74768b888e13563fff46c":[6,1,0,0,2,1041,38],
 "classmrmeshpy_1_1VertBitSet.html#a3652e64411b74768b888e13563fff46c":[6,1,1,0,1,1041,38],
 "classmrmeshpy_1_1VertBitSet.html#a37f41cbcfb20d51c5e7d62fc48863620":[6,1,0,0,2,1041,28],
@@ -241,13 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1VertCoords.html#ab3033a29436001441f2e5771e97d656c":[6,1,0,0,2,1045,6],
 "classmrmeshpy_1_1VertCoords.html#ab3033a29436001441f2e5771e97d656c":[6,1,1,0,1,1045,6],
 "classmrmeshpy_1_1VertCoords.html#ab69a672fd29b605f43ca27de686a87eb":[6,1,0,0,2,1045,0],
-"classmrmeshpy_1_1VertCoords.html#ab69a672fd29b605f43ca27de686a87eb":[6,1,1,0,1,1045,0],
-"classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[6,1,0,0,2,1045,23],
-"classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[6,1,0,0,2,1045,24],
-"classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[6,1,1,0,1,1045,23],
-"classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[6,1,1,0,1,1045,24],
-"classmrmeshpy_1_1VertCoords.html#ab79cc3930ab8fd7d45966cd3b993c299":[6,1,0,0,2,1045,4],
-"classmrmeshpy_1_1VertCoords.html#ab79cc3930ab8fd7d45966cd3b993c299":[6,1,1,0,1,1045,4],
-"classmrmeshpy_1_1VertCoords.html#ab9c79899cf797eb0770b7432b48898e3":[6,1,0,0,2,1045,7],
-"classmrmeshpy_1_1VertCoords.html#ab9c79899cf797eb0770b7432b48898e3":[6,1,1,0,1,1045,7]
+"classmrmeshpy_1_1VertCoords.html#ab69a672fd29b605f43ca27de686a87eb":[6,1,1,0,1,1045,0]
 };

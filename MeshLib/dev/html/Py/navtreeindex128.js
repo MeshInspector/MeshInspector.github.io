@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a715263558e9837e333bb8f53de0c13ac":[6,1,0,0,2,827,14],
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a715263558e9837e333bb8f53de0c13ac":[6,1,1,0,1,827,14],
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a8b21e608a8a5fb56582d7515dc2e7ea6":[6,1,0,0,2,827,16],
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a8b21e608a8a5fb56582d7515dc2e7ea6":[6,1,1,0,1,827,16],
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a93c30f84a2aa3fa6a9739ad86fa3928b":[6,1,0,0,2,827,13],
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a93c30f84a2aa3fa6a9739ad86fa3928b":[6,1,1,0,1,827,13],
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a98278a23733ec9534322c35b6aac0f99":[6,1,0,0,2,827,10],
+"classmrmeshpy_1_1std__vector__SkyPatch.html#a98278a23733ec9534322c35b6aac0f99":[6,1,1,0,1,827,10],
 "classmrmeshpy_1_1std__vector__SkyPatch.html#a9af8914e103259f5d43c85eff1b185d2":[6,1,0,0,2,827,9],
 "classmrmeshpy_1_1std__vector__SkyPatch.html#a9af8914e103259f5d43c85eff1b185d2":[6,1,1,0,1,827,9],
 "classmrmeshpy_1_1std__vector__SkyPatch.html#aa93227852d78976616e6169df1848cb0":[6,1,0,0,2,827,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#afb792f687f1c3db4d52ca20cb595c78c":[6,1,0,0,2,870,6],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#afb792f687f1c3db4d52ca20cb595c78c":[6,1,1,0,1,870,6],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#afc22fa7c62d06f33caa82f3a878dd013":[6,1,0,0,2,870,28],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#afc22fa7c62d06f33caa82f3a878dd013":[6,1,1,0,1,870,28],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html":[6,1,0,0,2,871],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html":[6,1,1,0,1,871],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a05ebb9f28b85aed473664a29af2a315b":[6,1,0,0,2,871,13],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a05ebb9f28b85aed473664a29af2a315b":[6,1,1,0,1,871,13],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a21e7a3d0b4e7908b2a17c2289bf3002b":[6,1,0,0,2,871,28],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a21e7a3d0b4e7908b2a17c2289bf3002b":[6,1,1,0,1,871,28],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a30d007164212fe144f5a4966b906c31b":[6,1,0,0,2,871,0],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a30d007164212fe144f5a4966b906c31b":[6,1,1,0,1,871,0]
+"classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#afc22fa7c62d06f33caa82f3a878dd013":[6,1,1,0,1,870,28]
 };
