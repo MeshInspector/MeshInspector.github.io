@@ -1,9 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1AffineXf.html#a5be41c92ebfbb340e9651f0efd210fcb":[6,0,0,0,13,7],
+"structMR_1_1AffineXf.html#a60960f9da874c4087c143336fbbd23ee":[6,0,0,0,13,0],
+"structMR_1_1AffineXf.html#aa858f1158ee32c91e5e1c76b2c03910e":[6,0,0,0,13,5],
 "structMR_1_1AffineXf.html#ab3b595e5fd83370d9417a0d1e93cf2c1":[6,0,0,0,13,2],
-"structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c":[6,0,0,0,13,11],
-"structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca":[6,0,0,0,13,10],
-"structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3":[6,0,0,0,13,5],
+"structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c":[6,0,0,0,13,12],
+"structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca":[6,0,0,0,13,11],
+"structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3":[6,0,0,0,13,6],
+"structMR_1_1AffineXf.html#af89fd7ea192a6532169e2880f9c945f3":[6,0,0,0,13,9],
 "structMR_1_1AffineXf.html#afca9328028fe0e2b5c4f3d1181867792":[6,0,0,0,13,4],
 "structMR_1_1AllLocalTriangulations.html":[6,0,1,0,1,52],
 "structMR_1_1AllLocalTriangulations.html":[6,0,2,0,1,36],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,1,0,1,77,2],
 "structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,2,0,1,61,2],
 "structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[6,0,1,0,1,77,3],
-"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[6,0,2,0,1,61,3],
-"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[6,0,1,0,1,77,6],
-"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[6,0,2,0,1,61,6],
-"structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[6,0,1,0,1,77,1],
-"structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[6,0,2,0,1,61,1]
+"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[6,0,2,0,1,61,3]
 };

@@ -378,7 +378,7 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        <a class="code hl_struct" href="structMR_1_1Vector3.html">MR::Vector3&lt;T&gt;</a>&amp; coneAxis = cone.direction();</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        <span class="keywordflow">if</span> ( useConeInputAsInitialGuess )</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>        {</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>            coneAxis = coneAxis.<a class="code hl_function" href="structMR_1_1Vector3.html#abcd3a5ac10c0bd8323d2f67d4d63c474">normalized</a>();</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>            coneAxis = coneAxis.<a class="code hl_function" href="structMR_1_1Vector3.html#ac61c07811df0f193e3462b3201ef1daf">normalized</a>();</div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        }</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>        <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        {</div>
@@ -540,7 +540,7 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>            <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">Z</a> = points[i] - center;</div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>            U += <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">Z</a> * MR::dot( <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">Z</a>, <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">Z</a> );</div>
 <div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>        }</div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>        U = U.<a class="code hl_function" href="structMR_1_1Vector3.html#abcd3a5ac10c0bd8323d2f67d4d63c474">normalized</a>();</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>        U = U.<a class="code hl_function" href="structMR_1_1Vector3.html#ac61c07811df0f193e3462b3201ef1daf">normalized</a>();</div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>    }</div>
 <div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
@@ -713,7 +713,7 @@ $(function(){initNavTree('MRConeApproximator_8h_source.html',''); initResizable(
 <div class="ttc" id="astructMR_1_1Vector2_html_a5186451c51a4f421a0b810a3f836fae8"><div class="ttname"><a href="structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8">MR::Vector2::y</a></div><div class="ttdeci">T y</div><div class="ttdef"><b>Definition</b> MRVector2.h:24</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:19</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_a9b44af3c8a7c918cf88dac1811950e66"><div class="ttname"><a href="structMR_1_1Vector3.html#a9b44af3c8a7c918cf88dac1811950e66">MR::Vector3::length</a></div><div class="ttdeci">auto length() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:47</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_abcd3a5ac10c0bd8323d2f67d4d63c474"><div class="ttname"><a href="structMR_1_1Vector3.html#abcd3a5ac10c0bd8323d2f67d4d63c474">MR::Vector3::normalized</a></div><div class="ttdeci">Vector3 normalized() const MR_REQUIRES_IF_SUPPORTED(std</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:55</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_ac61c07811df0f193e3462b3201ef1daf"><div class="ttname"><a href="structMR_1_1Vector3.html#ac61c07811df0f193e3462b3201ef1daf">MR::Vector3::normalized</a></div><div class="ttdeci">Vector3 normalized() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:55</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_ac91a0462b62bab22f973bb517dc805ca"><div class="ttname"><a href="structMR_1_1Vector3.html#ac91a0462b62bab22f973bb517dc805ca">MR::Vector3::angle</a></div><div class="ttdeci">T angle(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:167</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

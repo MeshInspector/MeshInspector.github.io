@@ -13,7 +13,7 @@ var searchData=
   ['aabbtreenode_5faabbtreebase_5fobjtreetraits_5ftraits_10',['AABBTreeNode_AABBTreeBase_ObjTreeTraits_Traits',['../../Py/namespacemrmeshpy.html#ae376506c4f2231a9ad740fb4308578a0',1,'mrmeshpy']]],
   ['aabbtreeobjects_11',['AABBTreeObjects',['../namespaceMR.html#ad2555bd8680e7acc591ec78b0d789d23',1,'MR']]],
   ['aabbtreepoints_12',['AABBTreePoints',['../namespaceMR.html#a99c966a131266f5ea0b682099c7df561',1,'MR']]],
-  ['aabbtreepolyline_13',['AABBTreePolyline',['../classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef',1,'MR::AABBTreePolyline::AABBTreePolyline()'],['../namespaceMR.html#aa4c32f36330a9f8ba2d5a660c4cc6ee2',1,'MR::AABBTreePolyline']]],
+  ['aabbtreepolyline_13',['AABBTreePolyline',['../namespaceMR.html#aa4c32f36330a9f8ba2d5a660c4cc6ee2',1,'MR']]],
   ['aabbtreepolyline2_14',['AABBTreePolyline2',['../namespaceMR.html#a218fb32b8fe05ec26bcc38bf30b7a729',1,'MR']]],
   ['aabbtreepolyline_5fvector2f_15',['AABBTreePolyline_Vector2f',['../../Py/namespacemrmeshpy.html#a47aa61973f1c20c8247fe64e867e5518',1,'mrmeshpy']]],
   ['aabbtreepolyline_5fvector3f_16',['AABBTreePolyline_Vector3f',['../../Py/namespacemrmeshpy.html#a22f3f7020198860d6224eba4de49c751',1,'mrmeshpy']]],

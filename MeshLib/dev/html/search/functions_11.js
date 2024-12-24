@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['qr_0',['qr',['.././Py/classmrmeshpy_1_1Matrix3d.html#a5652fc4ed3f9ec818c4bcd1fa20e3b47',1,'mrmeshpy::Matrix3d::qr()'],['.././Py/classmrmeshpy_1_1Matrix3f.html#abade4148d8f7d20daa2916f50ab946ba',1,'mrmeshpy::Matrix3f::qr()']]],
+  ['qr_0',['qr',['.././Py/classmrmeshpy_1_1Matrix3d.html#a5652fc4ed3f9ec818c4bcd1fa20e3b47',1,'mrmeshpy::Matrix3d::qr()'],['.././Py/classmrmeshpy_1_1Matrix3f.html#abade4148d8f7d20daa2916f50ab946ba',1,'mrmeshpy::Matrix3f::qr()'],['.././Cpp/structMR_1_1Matrix3.html#ac913b105d8335b1b6a779f68117dda18',1,'MR::Matrix3::qr()']]],
   ['quadrangleotherdiagonal_1',['quadrangleOtherDiagonal',['.././Cpp/namespaceMR.html#a5297fdab91151bf439ef0099926fc204',1,'MR']]],
   ['quadraticform_2',['quadraticForm',['.././Py/classmrmeshpy_1_1Mesh.html#aaaf21d7b7dfd731e6d412f59392491bf',1,'mrmeshpy::Mesh::quadraticForm()'],['.././Cpp/structMR_1_1Mesh.html#aa0cb7cda413178e311cd23632d44a07f',1,'MR::Mesh::quadraticForm()']]],
   ['quadricapprox_3',['QuadricApprox',['.././Cpp/classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51',1,'MR::QuadricApprox']]],

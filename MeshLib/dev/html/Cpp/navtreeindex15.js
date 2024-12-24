@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"MRVoxels_2MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[6,0,3,0,0,1,10,37,2,0],
 "MRVoxels_2MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e":[6,0,3,0,0,1,10,37,2,1],
 "MRVoxels_2MRVoxelsLoad_8h.html#a771ff6491d2acec943253070393ce902":[6,0,3,0,0,1,10,37,13],
 "MRVoxels_2MRVoxelsLoad_8h.html#ac95950f875729ac15c011d99d4624d96":[6,0,3,0,0,1,10,37,1],
@@ -139,11 +140,12 @@ var NAVTREEINDEX15 =
 "classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b":[6,0,0,1,6,4],
 "classMR_1_1AABBTreePoints.html#affd18b1fda8da3797dbcaa84425ab594":[6,0,0,1,6,7],
 "classMR_1_1AABBTreePolyline.html":[6,0,0,1,10],
-"classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef":[6,0,0,1,10,4],
-"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,10,3],
+"classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b":[6,0,0,1,10,1],
+"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,10,5],
 "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a":[6,0,0,1,10,0],
-"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,10,2],
-"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,10,1],
+"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,10,4],
+"classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3":[6,0,0,1,10,2],
+"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,10,3],
 "classMR_1_1AddCustomThemePlugin.html":[6,0,1,0,1,49],
 "classMR_1_1AddCustomThemePlugin.html":[6,0,2,0,1,33],
 "classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[6,0,1,0,1,49,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,1,0,1,59,12],
 "classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,2,0,1,43,12],
 "classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,1,0,1,59,2],
-"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,2,0,1,43,2],
-"classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,1,0,1,59,23],
-"classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,2,0,1,43,23]
+"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,2,0,1,43,2]
 };

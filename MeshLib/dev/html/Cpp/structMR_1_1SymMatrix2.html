@@ -196,6 +196,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a55a77d7f0bbf6b2221a68f1b76439079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a841408afb3b039fd491f2c3078d9ad99" id="r_a841408afb3b039fd491f2c3078d9ad99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a841408afb3b039fd491f2c3078d9ad99">operator/=</a> (T b)</td></tr>
 <tr class="separator:a841408afb3b039fd491f2c3078d9ad99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e49e5bc0d3433cc7f57f72dd639257" id="r_a60e49e5bc0d3433cc7f57f72dd639257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60e49e5bc0d3433cc7f57f72dd639257">eigens</a> (<a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; *eigenvectors=nullptr) const</td></tr>
+<tr class="separator:a60e49e5bc0d3433cc7f57f72dd639257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f11254bd96f9ca0ab9b93bcb11a7506" id="r_a3f11254bd96f9ca0ab9b93bcb11a7506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f11254bd96f9ca0ab9b93bcb11a7506">eigenvector</a> (T eigenvalue) const</td></tr>
+<tr class="memdesc:a3f11254bd96f9ca0ab9b93bcb11a7506"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes not-unit eigenvector corresponding to a not-repeating eigenvalue  <br /></td></tr>
+<tr class="separator:a3f11254bd96f9ca0ab9b93bcb11a7506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea478c28fc2be9fcd87992baf88fe6c6" id="r_aea478c28fc2be9fcd87992baf88fe6c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea478c28fc2be9fcd87992baf88fe6c6">maxEigenvector</a> () const</td></tr>
+<tr class="memdesc:aea478c28fc2be9fcd87992baf88fe6c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes not-unit eigenvector corresponding to maximum eigenvalue  <br /></td></tr>
+<tr class="separator:aea478c28fc2be9fcd87992baf88fe6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4989d2ea045d9df73cfe6c4795293a8" id="r_ae4989d2ea045d9df73cfe6c4795293a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4989d2ea045d9df73cfe6c4795293a8">pseudoinverse</a> (T tol=std::numeric_limits&lt; T &gt;::epsilon(), int *rank=nullptr, <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; *space=nullptr) const</td></tr>
+<tr class="separator:ae4989d2ea045d9df73cfe6c4795293a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -366,6 +376,47 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a60e49e5bc0d3433cc7f57f72dd639257" name="a60e49e5bc0d3433cc7f57f72dd639257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e49e5bc0d3433cc7f57f72dd639257">&#9670;&#160;</a></span>eigens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::eigens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; *</td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V </p>
+
+</div>
+</div>
+<a id="a3f11254bd96f9ca0ab9b93bcb11a7506" name="a3f11254bd96f9ca0ab9b93bcb11a7506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f11254bd96f9ca0ab9b93bcb11a7506">&#9670;&#160;</a></span>eigenvector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::eigenvector </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>eigenvalue</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes not-unit eigenvector corresponding to a not-repeating eigenvalue </p>
+
+</div>
+</div>
 <a id="a4bfb70d898e1d782b1743ab3bf6c9068" name="a4bfb70d898e1d782b1743ab3bf6c9068"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4bfb70d898e1d782b1743ab3bf6c9068">&#9670;&#160;</a></span>identity()</h2>
 
@@ -448,6 +499,27 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>computes inverse matrix given determinant of this </p>
+
+</div>
+</div>
+<a id="aea478c28fc2be9fcd87992baf88fe6c6" name="aea478c28fc2be9fcd87992baf88fe6c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea478c28fc2be9fcd87992baf88fe6c6">&#9670;&#160;</a></span>maxEigenvector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::maxEigenvector </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes not-unit eigenvector corresponding to maximum eigenvalue </p>
 
 </div>
 </div>
@@ -585,6 +657,42 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4989d2ea045d9df73cfe6c4795293a8" name="ae4989d2ea045d9df73cfe6c4795293a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4989d2ea045d9df73cfe6c4795293a8">&#9670;&#160;</a></span>pseudoinverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::pseudoinverse </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>tol</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;T&#160;&gt;::epsilon()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>rank</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; *</td>          <td class="paramname"><span class="paramname"><em>space</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix, which performs inversion on not-kernel subspace; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tol</td><td>relative epsilon-tolerance for too small number detection </td></tr>
+    <tr><td class="paramname">rank</td><td>optional output for this matrix rank according to given tolerance </td></tr>
+    <tr><td class="paramname">space</td><td>rank=1: unit direction of solution line, rank=2: zero vector </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

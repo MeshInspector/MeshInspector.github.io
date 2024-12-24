@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRShadowsGL_8h.html":[6,0,3,0,0,1,9,98],
 "MRShadowsGL_8h_source.html":[6,0,3,0,0,1,9,98],
 "MRSharpenMarchingCubesMesh_8h.html":[6,0,3,0,0,1,3,316],
 "MRSharpenMarchingCubesMesh_8h.html#ae0adbc499dc9ddb3d23854c708bccc3f":[6,0,3,0,0,1,3,316,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRTestC_2MRMeshNormals_8h.html#ae6892f2461a34db40df2fc825bdbe540":[6,0,3,0,0,1,8,10,0],
 "MRTestC_2MRMeshNormals_8h_source.html":[6,0,3,0,0,1,8,10],
 "MRTestC_2MRMesh_8h.html":[6,0,3,0,0,1,8,3],
-"MRTestC_2MRMesh_8h.html#a0bb866c28b26ab8f07c498892aaf955b":[6,0,3,0,0,1,8,3,2],
-"MRTestC_2MRMesh_8h.html#a619064914aa7a810e5ae52c83654070a":[6,0,3,0,0,1,8,3,0]
+"MRTestC_2MRMesh_8h.html#a0bb866c28b26ab8f07c498892aaf955b":[6,0,3,0,0,1,8,3,2]
 };
