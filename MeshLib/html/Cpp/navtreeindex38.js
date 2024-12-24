@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc":[6,0,1,0,1,571,21],
 "classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc":[6,0,2,0,1,555,21],
 "classMR_1_1SceneObjectsListDrawer.html#a098e7d25adfb62e62c71451173a29712":[6,0,1,0,1,571,8],
 "classMR_1_1SceneObjectsListDrawer.html#a098e7d25adfb62e62c71451173a29712":[6,0,2,0,1,555,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,2,0,1,581,1],
 "classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,1,0,1,596],
 "classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,2,0,1,580],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,1,0,1,596,0],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,2,0,1,580,0]
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,1,0,1,596,0]
 };

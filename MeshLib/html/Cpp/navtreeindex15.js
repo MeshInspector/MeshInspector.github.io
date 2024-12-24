@@ -149,11 +149,12 @@ var NAVTREEINDEX15 =
 "classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b":[6,0,0,1,6,4],
 "classMR_1_1AABBTreePoints.html#affd18b1fda8da3797dbcaa84425ab594":[6,0,0,1,6,7],
 "classMR_1_1AABBTreePolyline.html":[6,0,0,1,10],
-"classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef":[6,0,0,1,10,4],
-"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,10,3],
+"classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b":[6,0,0,1,10,1],
+"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,10,5],
 "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a":[6,0,0,1,10,0],
-"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,10,2],
-"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,10,1],
+"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,10,4],
+"classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3":[6,0,0,1,10,2],
+"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,10,3],
 "classMR_1_1AddCustomThemePlugin.html":[6,0,1,0,1,49],
 "classMR_1_1AddCustomThemePlugin.html":[6,0,2,0,1,33],
 "classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[6,0,1,0,1,49,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,1,43,21],
 "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,59,10],
 "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,2,0,1,43,10],
-"classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[6,0,1,0,1,59,19],
-"classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[6,0,2,0,1,43,19]
+"classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[6,0,1,0,1,59,19]
 };

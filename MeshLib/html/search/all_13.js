@@ -2,7 +2,7 @@ var searchData=
 [
   ['q_0',['q',['.././Cpp/structMR_1_1Matrix3_1_1QR.html#a24dcb157cbe93b3013842a9976525442',1,'MR::Matrix3::QR']]],
   ['qr_1',['QR',['.././Cpp/structMR_1_1Matrix3_1_1QR.html',1,'MR::Matrix3']]],
-  ['qr_2',['qr',['.././Py/classmeshlib_1_1mrmeshpy_1_1Matrix3d.html#ae32de79b6ca05ab00e9fbf9c11c0d467',1,'meshlib::mrmeshpy::Matrix3d::qr()'],['.././Py/classmeshlib_1_1mrmeshpy_1_1Matrix3f.html#ab6ea2e481722c7565be22bf1573b299b',1,'meshlib::mrmeshpy::Matrix3f::qr()']]],
+  ['qr_2',['qr',['.././Py/classmeshlib_1_1mrmeshpy_1_1Matrix3d.html#ae32de79b6ca05ab00e9fbf9c11c0d467',1,'meshlib::mrmeshpy::Matrix3d::qr()'],['.././Py/classmeshlib_1_1mrmeshpy_1_1Matrix3f.html#ab6ea2e481722c7565be22bf1573b299b',1,'meshlib::mrmeshpy::Matrix3f::qr()'],['.././Cpp/structMR_1_1Matrix3.html#ac913b105d8335b1b6a779f68117dda18',1,'MR::Matrix3::qr()']]],
   ['quad_3',['Quad',['.././Cpp/classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26',1,'MR::ImGuiMenu']]],
   ['quadrangleotherdiagonal_4',['quadrangleOtherDiagonal',['.././Cpp/namespaceMR.html#a5297fdab91151bf439ef0099926fc204',1,'MR']]],
   ['quadraticform_5',['QuadraticForm',['.././Cpp/structMR_1_1QuadraticForm.html',1,'MR']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,2,0,1,580,0],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[6,0,1,0,1,596,0,2],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[6,0,2,0,1,580,0,2],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e":[6,0,1,0,1,596,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7":[6,0,0,16,2,1,6],
 "classMR_1_1SurfaceDistanceBuilder.html#a9b1547c200aedacf976a12ff582e729a":[6,0,0,16,2,1,8],
 "classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d":[6,0,0,16,2,1,9],
-"classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23":[6,0,0,16,2,1,5],
-"classMR_1_1SurfaceDistanceBuilder.html#ae5aba85dbb1efdefdea87c31c4c4a624":[6,0,0,16,2,1,1]
+"classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23":[6,0,0,16,2,1,5]
 };

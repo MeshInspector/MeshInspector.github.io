@@ -1,5 +1,12 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,1,0,1,30,4,0],
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,2,0,1,17,4,0],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,1,0,1,32,0,1],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,2,0,1,19,0,1],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,1,32,0,1,0],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,1,19,0,1,0],
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,1,533],
 "structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,517],
 "structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,1,0,1,533,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,2,0,1,517,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[6,0,0,0,21,0],
 "structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,21,5],
 "structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,590],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,1,574],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,1,0,1,590,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,1,574,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,1,0,1,590,2],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,2,0,1,574,2],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,1,0,1,590,1],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,2,0,1,574,1],
-"structMR_1_1SelfIntersections_1_1Settings.html":[6,0,1,0,1,35,0]
+"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,1,574]
 };
