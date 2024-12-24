@@ -30,12 +30,13 @@ done
 rm -rf ${TARGET_DIR}/html/*
 
 #final generation of documentation
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibPy.tag=./Py MeshLib/MeshLibCpp.tag=./Cpp|" -i DoxyfileMain
+doxygen ./DoxyfileMain 1 >> log.txt
+sed -e 's|<\!-- No Index Part -->|<meta name=\"robots\" content=\"noindex, nofollow\">|' -i html_header.html
 sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp|" -i DoxyfilePy
 doxygen ./DoxyfilePy 1 >> log.txt
 sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibPy.tag=../Py|" -i DoxyfileCpp
 doxygen ./DoxyfileCpp 1 >> log.txt
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibPy.tag=./Py MeshLib/MeshLibCpp.tag=./Cpp|" -i DoxyfileMain
-doxygen ./DoxyfileMain 1 >> log.txt
 
 ./scripts/restore_files.sh
 ./scripts/post.sh "$TARGET_DIR"
