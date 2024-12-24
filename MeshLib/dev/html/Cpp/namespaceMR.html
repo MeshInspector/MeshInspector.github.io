@@ -5361,9 +5361,9 @@ Functions</h2></td></tr>
 <tr class="separator:af70abcbee5fc303daa9a2cbbea864ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac236381762735fee94cd52a902d87c67" id="r_ac236381762735fee94cd52a902d87c67"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac236381762735fee94cd52a902d87c67">packPointsWithHistory</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints, <a class="el" href="#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder, VertBitSet newValidVerts)</td></tr>
 <tr class="separator:ac236381762735fee94cd52a902d87c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a954f9effdf765475598858396a76b10d" id="r_a954f9effdf765475598858396a76b10d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a954f9effdf765475598858396a76b10d">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
-<tr class="memdesc:a954f9effdf765475598858396a76b10d"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all supported files from given folder in new container object  <br /></td></tr>
-<tr class="separator:a954f9effdf765475598858396a76b10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a201005e0f5df74509bcbecde95235" id="r_a80a201005e0f5df74509bcbecde95235"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80a201005e0f5df74509bcbecde95235">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, bool dicomOnly, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memdesc:a80a201005e0f5df74509bcbecde95235"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all supported files from given folder in new container object  <br /></td></tr>
+<tr class="separator:a80a201005e0f5df74509bcbecde95235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55c9f8879d5a8745ee5530b164c69506" id="r_a55c9f8879d5a8745ee5530b164c69506"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55c9f8879d5a8745ee5530b164c69506">makeObjectTreeFromZip</a> (const std::filesystem::path &amp;zipPath, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="memdesc:a55c9f8879d5a8745ee5530b164c69506"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all supported files from given zip-archive in new container object  <br /></td></tr>
 <tr class="separator:a55c9f8879d5a8745ee5530b164c69506"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -20741,8 +20741,8 @@ template&lt;typename ... P&gt; </div>
 
 </div>
 </div>
-<a id="a954f9effdf765475598858396a76b10d" name="a954f9effdf765475598858396a76b10d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a954f9effdf765475598858396a76b10d">&#9670;&#160;</a></span>makeObjectTreeFromFolder()</h2>
+<a id="a80a201005e0f5df74509bcbecde95235" name="a80a201005e0f5df74509bcbecde95235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a201005e0f5df74509bcbecde95235">&#9670;&#160;</a></span>makeObjectTreeFromFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20751,6 +20751,11 @@ template&lt;typename ... P&gt; </div>
           <td class="memname">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt; MR::makeObjectTreeFromFolder </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>folder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>dicomOnly</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

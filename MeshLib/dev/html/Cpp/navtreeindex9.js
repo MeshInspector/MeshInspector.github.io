@@ -191,7 +191,7 @@ var NAVTREEINDEX9 =
 "MROnInit_8h_source.html":[6,0,3,0,0,1,3,239],
 "MROpenObjects_8h.html":[6,0,3,0,0,1,9,51],
 "MROpenObjects_8h.html#a55c9f8879d5a8745ee5530b164c69506":[6,0,3,0,0,1,9,51,1],
-"MROpenObjects_8h.html#a954f9effdf765475598858396a76b10d":[6,0,3,0,0,1,9,51,0],
+"MROpenObjects_8h.html#a80a201005e0f5df74509bcbecde95235":[6,0,3,0,0,1,9,51,0],
 "MROpenObjects_8h_source.html":[6,0,3,0,0,1,9,51],
 "MROpenRawVoxelsPlugin_8h.html":[6,0,3,0,0,1,0,3,0],
 "MROpenRawVoxelsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],

@@ -2222,7 +2222,7 @@ var namespaceMR =
     [ "makeObjectLinesFromFile", "group__DataModelGroup.html#ga49f50b3f8a8b62d1de7af24264eac759", null ],
     [ "makeObjectMeshFromFile", "group__DataModelGroup.html#ga16cd43ef755c087f9358dc1bb5473119", null ],
     [ "makeObjectPointsFromFile", "group__DataModelGroup.html#gacd7dca15ed95f44fa82294bf8a85be2a", null ],
-    [ "makeObjectTreeFromFolder", "namespaceMR.html#a954f9effdf765475598858396a76b10d", null ],
+    [ "makeObjectTreeFromFolder", "namespaceMR.html#a80a201005e0f5df74509bcbecde95235", null ],
     [ "makeObjectTreeFromZip", "namespaceMR.html#a55c9f8879d5a8745ee5530b164c69506", null ],
     [ "makeObjectVoxelsFromFile", "namespaceMR.html#a771ff6491d2acec943253070393ce902", null ],
     [ "makeOpenCone", "namespaceMR.html#aa5e46a8636c454de9d603fb028fa36cc", null ],
