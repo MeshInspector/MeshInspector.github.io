@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR.html#ad9d6f60ebc6c98c7e8ddfc4ad3b46bab":[6,0,1,0,1,1983],
+"namespaceMR.html#ad9e70548933ddf1b51d7e9a33a5b056a":[6,0,1,0,1,1278],
 "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29a":[6,0,1,0,1,985],
 "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa205056288e7f71c459183d3cb8d46edb":[6,0,1,0,1,985,0],
 "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa4f752f80e660d3b1df1b9d0a26f74145":[6,0,1,0,1,985,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1FixUndercuts.html#af9e483356d616e2e73d144d845938851":[6,0,1,0,1,7,6],
 "namespaceMR_1_1FloatGridComponents.html":[6,0,1,0,1,8],
 "namespaceMR_1_1GcodeLoad.html":[6,0,1,0,1,9],
-"namespaceMR_1_1ImGuiMath.html":[6,0,1,0,1,12],
-"namespaceMR_1_1ImGuiMath.html#a12ab63056037f694d9ccdffda8ddb013":[6,0,1,0,1,12,14],
-"namespaceMR_1_1ImGuiMath.html#a1b10073d5f904b51b53263f742597596":[6,0,1,0,1,12,16]
+"namespaceMR_1_1ImGuiMath.html":[6,0,1,0,1,12]
 };

@@ -70,6 +70,7 @@ var classMR_1_1RibbonMenu =
     [ "showActiveList", "classMR_1_1RibbonMenu.html#a0fb26215796f94ee53da988ac6bf07e7", null ],
     [ "shutdown", "classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68", null ],
     [ "updateItemStatus", "classMR_1_1RibbonMenu.html#afc750c1fa4b01d0cdf604d601194f436", null ],
+    [ "updateTopPanelSize_", "classMR_1_1RibbonMenu.html#ad83984d816bde0619ef416625513f3e8", null ],
     [ "activeBlockingItem_", "classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e", null ],
     [ "activeNonBlockingItems_", "classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4", null ],
     [ "layoutMode_", "classMR_1_1RibbonMenu.html#a736cd1b64ec1e6b8d3207df3f9fcf431", null ],

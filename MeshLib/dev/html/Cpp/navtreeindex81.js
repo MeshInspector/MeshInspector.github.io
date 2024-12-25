@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[6,0,2,0,1,686],
+"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#a23e6bf37742e57ceeb89a472fc5828c0":[6,0,1,0,1,702,1],
 "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#a23e6bf37742e57ceeb89a472fc5828c0":[6,0,2,0,1,686,1],
 "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#ae0eded5a5d57a67a10372bc3ac11f97b":[6,0,1,0,1,702,0],
 "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#ae0eded5a5d57a67a10372bc3ac11f97b":[6,0,2,0,1,686,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[6,0,1,0,1,742,2,1],
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[6,0,2,0,1,726,2,1],
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html#a9b58bb17eb503942a4dcd7150690cfe2":[6,0,1,0,1,742,2,0],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#a9b58bb17eb503942a4dcd7150690cfe2":[6,0,2,0,1,726,2,0],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#ab33c7f11e2452d1c74c79f635d4f04f5":[6,0,1,0,1,742,2,2],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#ab33c7f11e2452d1c74c79f635d4f04f5":[6,0,2,0,1,726,2,2]
+"structMR_1_1WatershedGraph_1_1OverflowPoint.html#a9b58bb17eb503942a4dcd7150690cfe2":[6,0,2,0,1,726,2,0]
 };

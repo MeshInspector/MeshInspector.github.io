@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0],
 "structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
 "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
 "structMR_1_1PointInAllSpaces.html":[6,0,1,0,1,460],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,1,0,1,485,2],
 "structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,1,469,2],
 "structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,485,3],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,1,469,3],
-"structMR_1_1PositionedText.html":[6,0,1,0,1,486],
-"structMR_1_1PositionedText.html":[6,0,2,0,1,470]
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,1,469,3]
 };
