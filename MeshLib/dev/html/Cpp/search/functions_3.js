@@ -57,7 +57,7 @@ var searchData=
   ['capturescreenshot_54',['captureScreenShot',['../../Py/classmrviewerpy_1_1Viewer.html#a3e52ba6ee6800cfd900832f9511f5869',1,'mrviewerpy::Viewer']]],
   ['capturescreenshotmenuitem_55',['CaptureScreenshotMenuItem',['../classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c',1,'MR::CaptureScreenshotMenuItem']]],
   ['capturescreenshottoclipboardmenuitem_56',['CaptureScreenshotToClipBoardMenuItem',['../classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0',1,'MR::CaptureScreenshotToClipBoardMenuItem']]],
-  ['captureuiscreenshot_57',['captureUIScreenShot',['../classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85',1,'MR::Viewer']]],
+  ['captureuiscreenshot_57',['captureUIScreenShot',['../../Py/classmrviewerpy_1_1Viewer.html#aab90b1173bbd8f268990a363817078cd',1,'mrviewerpy::Viewer::captureUIScreenShot()'],['../classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85',1,'MR::Viewer::captureUIScreenShot()']]],
   ['captureuiscreenshotmenuitem_58',['CaptureUIScreenshotMenuItem',['../classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1',1,'MR::CaptureUIScreenshotMenuItem']]],
   ['cast_59',['cast',['../structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f',1,'MR::Polynomial']]],
   ['cast_5fto_60',['cast_to',['../TypeCast_8h.html#a3024079fdd069327a84b32e0a17fab0b',1,'cast_to(U *from):&#160;TypeCast.h'],['../TypeCast_8h.html#a54abe1752fb86bd41f57c25721efe543',1,'cast_to(U &amp;from):&#160;TypeCast.h'],['../TypeCast_8h.html#a5235591f512c1979a8ef887e6ad1ebec',1,'cast_to(U &amp;&amp;from):&#160;TypeCast.h']]],
