@@ -292,7 +292,9 @@ var hierarchy =
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", null ],
-    [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", null ],
+    [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [
+      [ "MR::SignedDistanceToMeshOptions", "structMR_1_1SignedDistanceToMeshOptions.html", null ]
+    ] ],
     [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
       [ "MR::PointsToDistanceVolumeParams", "structMR_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],

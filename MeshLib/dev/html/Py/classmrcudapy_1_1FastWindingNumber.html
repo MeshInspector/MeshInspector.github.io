@@ -173,8 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b83d09ad2d66fa7d43e6c9d658fcde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb8b41d05598fc70538563ce64efb0f2" id="r_aeb8b41d05598fc70538563ce64efb0f2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb8b41d05598fc70538563ce64efb0f2">calcFromGrid</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
 <tr class="separator:aeb8b41d05598fc70538563ce64efb0f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa6f586f858fd2973a1ec73f2757085d" id="r_aaa6f586f858fd2973a1ec73f2757085d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa6f586f858fd2973a1ec73f2757085d">calcFromGridWithDistances</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, float windingNumberThreshold, float beta, float maxDistSq, float minDistSq, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
-<tr class="separator:aaa6f586f858fd2973a1ec73f2757085d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e07c5949e8e58a6f20420f8a0202c8" id="r_a36e07c5949e8e58a6f20420f8a0202c8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36e07c5949e8e58a6f20420f8a0202c8">calcFromGridWithDistances</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, meshlib.mrmeshpy.DistanceToMeshOptions options, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
+<tr class="separator:a36e07c5949e8e58a6f20420f8a0202c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5358e758fbc221f14b3358c6fbd4b1ca" id="r_a5358e758fbc221f14b3358c6fbd4b1ca"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5358e758fbc221f14b3358c6fbd4b1ca">calcFromVector</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.std_vector_Vector3_float points, float beta, meshlib.mrmeshpy.FaceId skipFace='MR::FaceId{}')</td></tr>
 <tr class="separator:a5358e758fbc221f14b3358c6fbd4b1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7d1e3037de020c679868168ab67d414" id="r_ac7d1e3037de020c679868168ab67d414"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d1e3037de020c679868168ab67d414">calcSelfIntersections</a> (self, meshlib.mrmeshpy.FaceBitSet res, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
@@ -272,8 +272,8 @@ the class for fast approximate computation of winding number for a mesh (using i
 
 </div>
 </div>
-<a id="aaa6f586f858fd2973a1ec73f2757085d" name="aaa6f586f858fd2973a1ec73f2757085d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa6f586f858fd2973a1ec73f2757085d">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
+<a id="a36e07c5949e8e58a6f20420f8a0202c8" name="a36e07c5949e8e58a6f20420f8a0202c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e07c5949e8e58a6f20420f8a0202c8">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,22 +301,7 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>windingNumberThreshold</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>beta</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistSq</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minDistSq</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.DistanceToMeshOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -172,8 +172,8 @@ $(function(){initNavTree('classmrmeshpy_1_1IFastWindingNumber.html',''); initRes
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a57101e2710a666d9c8d722338d2a303f" id="r_a57101e2710a666d9c8d722338d2a303f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57101e2710a666d9c8d722338d2a303f">calcFromGrid</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
 <tr class="separator:a57101e2710a666d9c8d722338d2a303f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3202ea2e855b6a08fa2401cd95cf686" id="r_ad3202ea2e855b6a08fa2401cd95cf686"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3202ea2e855b6a08fa2401cd95cf686">calcFromGridWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, float windingNumberThreshold, float beta, float maxDistSq, float minDistSq, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
-<tr class="separator:ad3202ea2e855b6a08fa2401cd95cf686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9abbdfdad45943314155c587e2f9c488" id="r_a9abbdfdad45943314155c587e2f9c488"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9abbdfdad45943314155c587e2f9c488">calcFromGridWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, <a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> options, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
+<tr class="separator:a9abbdfdad45943314155c587e2f9c488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c7e69ee5135e8c87f9db4b426fd3cd5" id="r_a5c7e69ee5135e8c87f9db4b426fd3cd5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7e69ee5135e8c87f9db4b426fd3cd5">calcFromVector</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, float beta, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> skipFace='MR::FaceId{}')</td></tr>
 <tr class="separator:a5c7e69ee5135e8c87f9db4b426fd3cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2530f2ecd0b9dd9afe1523baf94f05bb" id="r_a2530f2ecd0b9dd9afe1523baf94f05bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2530f2ecd0b9dd9afe1523baf94f05bb">calcSelfIntersections</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> res, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
@@ -234,8 +234,8 @@ calculates winding numbers in each point from a three-dimensional grid
 
 </div>
 </div>
-<a id="ad3202ea2e855b6a08fa2401cd95cf686" name="ad3202ea2e855b6a08fa2401cd95cf686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3202ea2e855b6a08fa2401cd95cf686">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
+<a id="a9abbdfdad45943314155c587e2f9c488" name="a9abbdfdad45943314155c587e2f9c488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9abbdfdad45943314155c587e2f9c488">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,22 +263,7 @@ calculates winding numbers in each point from a three-dimensional grid
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>windingNumberThreshold</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>beta</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistSq</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minDistSq</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -293,11 +278,8 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 &lt;/summary&gt;
 &lt;param name="res"&gt;resulting signed distances, will be resized automatically&lt;/param&gt;
 &lt;param name="dims"&gt;dimensions of the grid&lt;/param&gt;
-&lt;param name="gridToMeshXf"&gt;transform from integer grid locations to voxel's centers in mesh reference frame&lt;/param&gt;
-&lt;param name="windingNumberThreshold"&gt;positive distance if winding number below or equal this threshold&lt;/param&gt;
-&lt;param name="beta"&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#adbea9506f58b9dc6af34034bacc3acb3">mrmeshpy.FastWindingNumber</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a8ef6b7c72e518ec149318e10b52c2517">mrmeshpy.FastWindingNumber</a>.</p>
 
 </div>
 </div>

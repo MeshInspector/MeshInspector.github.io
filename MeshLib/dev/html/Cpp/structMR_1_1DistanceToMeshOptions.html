@@ -153,29 +153,44 @@ $(function(){initNavTree('structMR_1_1DistanceToMeshOptions.html',''); initResiz
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1DistanceToMeshOptions-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::DistanceToMeshOptions Struct Reference<div class="ingroups"><a class="el" href="group__AABBTreeGroup.html">AABB Tree overview</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::DistanceToMeshOptions Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRMeshDistance_8h_source.html">MRMeshDistance.h</a>&gt;</code></p>
+<p>options determining computation of distance from a point to a mesh  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="MRDistanceToMeshOptions_8h_source.html">MRDistanceToMeshOptions.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::DistanceToMeshOptions:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="structMR_1_1DistanceToMeshOptions.png" usemap="#MR::DistanceToMeshOptions_map" alt=""/>
+  <map id="MR::DistanceToMeshOptions_map" name="MR::DistanceToMeshOptions_map">
+<area href="structMR_1_1SignedDistanceToMeshOptions.html" title="options determining computation of signed distance from a point to a mesh" alt="MR::SignedDistanceToMeshOptions" shape="rect" coords="0,56,213,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae2fa63f37be78f78cc9c0146c30c913f" id="r_ae2fa63f37be78f78cc9c0146c30c913f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2fa63f37be78f78cc9c0146c30c913f">minDistSq</a> { 0 }</td></tr>
-<tr class="memdesc:ae2fa63f37be78f78cc9c0146c30c913f"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum squared distance from a point to mesh  <br /></td></tr>
+<tr class="memdesc:ae2fa63f37be78f78cc9c0146c30c913f"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum squared distance from a point to mesh to be computed precisely  <br /></td></tr>
 <tr class="separator:ae2fa63f37be78f78cc9c0146c30c913f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af424f0c5bd2d65e33086d7e590836580" id="r_af424f0c5bd2d65e33086d7e590836580"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af424f0c5bd2d65e33086d7e590836580">maxDistSq</a> { FLT_MAX }</td></tr>
-<tr class="memdesc:af424f0c5bd2d65e33086d7e590836580"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum squared distance from a point to mesh  <br /></td></tr>
+<tr class="memdesc:af424f0c5bd2d65e33086d7e590836580"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum squared distance from a point to mesh to be computed precisely  <br /></td></tr>
 <tr class="separator:af424f0c5bd2d65e33086d7e590836580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa80ccd95dc4e56a5b16d71becf8f937f" id="r_aa80ccd95dc4e56a5b16d71becf8f937f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa80ccd95dc4e56a5b16d71becf8f937f">signMode</a> { <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9">SignDetectionMode::ProjectionNormal</a> }</td></tr>
-<tr class="memdesc:aa80ccd95dc4e56a5b16d71becf8f937f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the method to compute distance sign  <br /></td></tr>
-<tr class="separator:aa80ccd95dc4e56a5b16d71becf8f937f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73856ad91f795ce44772d1494538b46d" id="r_a73856ad91f795ce44772d1494538b46d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73856ad91f795ce44772d1494538b46d">nullOutsideMinMax</a> = true</td></tr>
+<tr class="separator:a73856ad91f795ce44772d1494538b46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32a5670750d3aecf21776f2fe2ad28d9" id="r_a32a5670750d3aecf21776f2fe2ad28d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32a5670750d3aecf21776f2fe2ad28d9">windingNumberThreshold</a> = 0.5f</td></tr>
 <tr class="separator:a32a5670750d3aecf21776f2fe2ad28d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a760f0917e02d32cbd6a708966ef922a5" id="r_a760f0917e02d32cbd6a708966ef922a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a760f0917e02d32cbd6a708966ef922a5">windingNumberBeta</a> = 2</td></tr>
 <tr class="separator:a760f0917e02d32cbd6a708966ef922a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>options determining computation of distance from a point to a mesh </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="af424f0c5bd2d65e33086d7e590836580" name="af424f0c5bd2d65e33086d7e590836580"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af424f0c5bd2d65e33086d7e590836580">&#9670;&#160;</a></span>maxDistSq</h2>
 
@@ -188,7 +203,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>maximum squared distance from a point to mesh </p>
+<p>maximum squared distance from a point to mesh to be computed precisely </p>
 
 </div>
 </div>
@@ -204,23 +219,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>minimum squared distance from a point to mesh </p>
+<p>minimum squared distance from a point to mesh to be computed precisely </p>
 
 </div>
 </div>
-<a id="aa80ccd95dc4e56a5b16d71becf8f937f" name="aa80ccd95dc4e56a5b16d71becf8f937f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa80ccd95dc4e56a5b16d71becf8f937f">&#9670;&#160;</a></span>signMode</h2>
+<a id="a73856ad91f795ce44772d1494538b46d" name="a73856ad91f795ce44772d1494538b46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73856ad91f795ce44772d1494538b46d">&#9670;&#160;</a></span>nullOutsideMinMax</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> MR::DistanceToMeshOptions::signMode { <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9">SignDetectionMode::ProjectionNormal</a> }</td>
+          <td class="memname">bool MR::DistanceToMeshOptions::nullOutsideMinMax = true</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>the method to compute distance sign </p>
+<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4">SignDetectionMode::HoleWindingRule</a>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </p>
 
 </div>
 </div>
@@ -255,7 +269,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMeshDistance_8h_source.html">MRMeshDistance.h</a></li>
+<li><a class="el" href="MRDistanceToMeshOptions_8h_source.html">MRDistanceToMeshOptions.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

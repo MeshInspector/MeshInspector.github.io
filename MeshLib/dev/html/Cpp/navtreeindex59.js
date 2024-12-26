@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMRFillHoleNicelyParams.html#a2a722efc00dac0877b5747157757e2ee":[6,0,2,0,17,1],
+"structMRFillHoleNicelyParams.html#a5d6022e8555ac06a276d3b6bd7fdc4f2":[6,0,2,0,17,3],
 "structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9":[6,0,2,0,17,5],
 "structMRFillHoleNicelyParams.html#a9537e7209de58668ea79cda8e514d5cf":[6,0,2,0,17,2],
 "structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0":[6,0,2,0,17,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1AABBTreeTraits.html#a0a4c21a59ab274d8edaf4ecf3702bb7a":[6,0,0,1,3,2],
 "structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[6,0,0,1,3,1],
 "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[6,0,0,1,3,0],
-"structMR_1_1AffineXf.html":[6,0,0,0,13],
-"structMR_1_1AffineXf.html#a122798f44f02f88d6fceeddd3f296c0c":[6,0,0,0,13,1],
-"structMR_1_1AffineXf.html#a186afe85bf17b3cb6a52b55f5af080bc":[6,0,0,0,13,8]
+"structMR_1_1AffineXf.html":[6,0,0,0,13]
 };

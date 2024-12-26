@@ -204,7 +204,9 @@ var hierarchy =
     [ "mrmeshpy.DistanceMapLoad", "classmrmeshpy_1_1DistanceMapLoad.html", null ],
     [ "mrmeshpy.DistanceMapSave", "classmrmeshpy_1_1DistanceMapSave.html", null ],
     [ "mrmeshpy.DistanceMapToWorld", "classmrmeshpy_1_1DistanceMapToWorld.html", null ],
-    [ "mrmeshpy.DistanceToMeshOptions", "classmrmeshpy_1_1DistanceToMeshOptions.html", null ],
+    [ "mrmeshpy.DistanceToMeshOptions", "classmrmeshpy_1_1DistanceToMeshOptions.html", [
+      [ "mrmeshpy.SignedDistanceToMeshOptions", "classmrmeshpy_1_1SignedDistanceToMeshOptions.html", null ]
+    ] ],
     [ "mrmeshpy.DistanceVolumeParams", "classmrmeshpy_1_1DistanceVolumeParams.html", [
       [ "mrmeshpy.PointsToDistanceVolumeParams", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],

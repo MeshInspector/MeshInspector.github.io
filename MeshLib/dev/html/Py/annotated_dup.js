@@ -708,6 +708,7 @@ var annotated_dup =
       [ "Side", "classmrmeshpy_1_1Side.html", "classmrmeshpy_1_1Side" ],
       [ "SignDetectionMode", "classmrmeshpy_1_1SignDetectionMode.html", "classmrmeshpy_1_1SignDetectionMode" ],
       [ "SignDetectionModeShort", "classmrmeshpy_1_1SignDetectionModeShort.html", "classmrmeshpy_1_1SignDetectionModeShort" ],
+      [ "SignedDistanceToMeshOptions", "classmrmeshpy_1_1SignedDistanceToMeshOptions.html", "classmrmeshpy_1_1SignedDistanceToMeshOptions" ],
       [ "SignedDistanceToMeshResult", "classmrmeshpy_1_1SignedDistanceToMeshResult.html", "classmrmeshpy_1_1SignedDistanceToMeshResult" ],
       [ "SimpleVolume", "classmrmeshpy_1_1SimpleVolume.html", "classmrmeshpy_1_1SimpleVolume" ],
       [ "SimpleVolumeMinMax", "classmrmeshpy_1_1SimpleVolumeMinMax.html", "classmrmeshpy_1_1SimpleVolumeMinMax" ],

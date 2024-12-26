@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1DistanceMap.html#a7f84b034f7b522fa041c24de79c0fec3":[6,0,0,5,0,13],
+"classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f":[6,0,0,5,0,33],
 "classMR_1_1DistanceMap.html#a88bf257eb0b870e90c3acdccb814fc9d":[6,0,0,5,0,38],
 "classMR_1_1DistanceMap.html#a8a2738cef5f113ff90fa89f1743a0e5c":[6,0,0,5,0,6],
 "classMR_1_1DistanceMap.html#a8f3d1d2032d248a5d9caedd59ae785e8":[6,0,0,5,0,10],
@@ -126,12 +128,12 @@ var NAVTREEINDEX20 =
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,1,0,1,202,0],
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,2,0,1,186,0],
 "classMR_1_1FastWindingNumber.html":[6,0,0,1,13],
-"classMR_1_1FastWindingNumber.html#a19f0d9ad10214d87ac4fddc12fc56714":[6,0,0,1,13,2],
-"classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01":[6,0,0,1,13,5],
+"classMR_1_1FastWindingNumber.html#a67a65bbf1fec70506c8d72c72446d653":[6,0,0,1,13,5],
 "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07":[6,0,0,1,13,0],
 "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998":[6,0,0,1,13,4],
 "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841":[6,0,0,1,13,3],
 "classMR_1_1FastWindingNumber.html#a9223c831603c90299781783593ae4d75":[6,0,0,1,13,1],
+"classMR_1_1FastWindingNumber.html#aca960465c3521aa3c3a87ca39dc7d94a":[6,0,0,1,13,2],
 "classMR_1_1FeatureObject.html":[6,0,1,0,1,208],
 "classMR_1_1FeatureObject.html":[6,0,2,0,1,192],
 "classMR_1_1FeatureObject.html#a023edd409ca58f579708564c89b70ac4":[6,0,1,0,1,208,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1FewSmallest.html#a9f76f3baaed046ba4f1047a35cd61248":[6,0,1,0,1,211,5],
 "classMR_1_1FewSmallest.html#a9f76f3baaed046ba4f1047a35cd61248":[6,0,2,0,1,195,5],
 "classMR_1_1FewSmallest.html#aa7fcea11aded20f38afd49e536c21323":[6,0,1,0,1,211,8],
-"classMR_1_1FewSmallest.html#aa7fcea11aded20f38afd49e536c21323":[6,0,2,0,1,195,8],
-"classMR_1_1FewSmallest.html#ab40f0a7ddc11738ea49b1f4557c60670":[6,0,1,0,1,211,3],
-"classMR_1_1FewSmallest.html#ab40f0a7ddc11738ea49b1f4557c60670":[6,0,2,0,1,195,3]
+"classMR_1_1FewSmallest.html#aa7fcea11aded20f38afd49e536c21323":[6,0,2,0,1,195,8]
 };
