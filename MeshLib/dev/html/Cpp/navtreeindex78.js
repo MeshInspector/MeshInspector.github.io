@@ -1,5 +1,9 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1TiffParameters.html":[6,0,2,0,1,633],
+"structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,1,0,1,649,4],
+"structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,2,0,1,633,4],
+"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,1,0,1,649,0],
 "structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,2,0,1,633,0],
 "structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[6,0,1,0,1,649,2],
 "structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[6,0,2,0,1,633,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1TriMesh.html":[6,0,2,0,1,659],
 "structMR_1_1TriMesh.html#a1063845cc2871f7dcae178304213db81":[6,0,1,0,1,675,1],
 "structMR_1_1TriMesh.html#a1063845cc2871f7dcae178304213db81":[6,0,2,0,1,659,1],
-"structMR_1_1TriMesh.html#a2819cf8b07b6ca5bccb45dd61d9d7f9d":[6,0,1,0,1,675,0],
-"structMR_1_1TriMesh.html#a2819cf8b07b6ca5bccb45dd61d9d7f9d":[6,0,2,0,1,659,0],
-"structMR_1_1TriPoint.html":[6,0,0,0,23],
-"structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da":[6,0,0,0,23,8],
-"structMR_1_1TriPoint.html#a173bd5baa937f72d4e42901d913f3ff3":[6,0,0,0,23,0]
+"structMR_1_1TriMesh.html#a2819cf8b07b6ca5bccb45dd61d9d7f9d":[6,0,1,0,1,675,0]
 };

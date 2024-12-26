@@ -1,5 +1,9 @@
 var NAVTREEINDEX112 =
 {
+"classmrmeshpy_1_1std__optional__Color.html":[6,1,0,0,2,741],
+"classmrmeshpy_1_1std__optional__Color.html":[6,1,1,0,1,741],
+"classmrmeshpy_1_1std__optional__Color.html#a0d8e488afb1d29c5ed4b829f0d47d70c":[6,1,0,0,2,741,4],
+"classmrmeshpy_1_1std__optional__Color.html#a0d8e488afb1d29c5ed4b829f0d47d70c":[6,1,1,0,1,741,4],
 "classmrmeshpy_1_1std__optional__Color.html#a281b2236e25f652cf65287a8c00ff7af":[6,1,0,0,2,741,1],
 "classmrmeshpy_1_1std__optional__Color.html#a281b2236e25f652cf65287a8c00ff7af":[6,1,1,0,1,741,1],
 "classmrmeshpy_1_1std__optional__Color.html#a5ee4783824adeeb7f16c132f6d1e643c":[6,1,0,0,2,741,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX112 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a21fbe23646ceceb87d7b02cc24435e04":[6,1,0,0,2,753,16],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a21fbe23646ceceb87d7b02cc24435e04":[6,1,1,0,1,753,16],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3bd7fa981325cbf961c462b475bee96d":[6,1,0,0,2,753,20],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3bd7fa981325cbf961c462b475bee96d":[6,1,1,0,1,753,20],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3c21db32d6fa88841b399862a30f5964":[6,1,0,0,2,753,17],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3c21db32d6fa88841b399862a30f5964":[6,1,1,0,1,753,17],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a509d0521127c16b1d983df093cc3cec0":[6,1,0,0,2,753,3],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a509d0521127c16b1d983df093cc3cec0":[6,1,1,0,1,753,3]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3bd7fa981325cbf961c462b475bee96d":[6,1,1,0,1,753,20]
 };

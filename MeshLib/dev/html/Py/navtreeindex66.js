@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"classmrmeshpy_1_1SeparationPointStorage.html#ab7d7ebcc7d1469d9301e82fe5270ddad":[6,1,0,0,2,694,3],
+"classmrmeshpy_1_1SeparationPointStorage.html#ab7d7ebcc7d1469d9301e82fe5270ddad":[6,1,1,0,1,694,3],
+"classmrmeshpy_1_1SeparationPointStorage.html#ababf4879105982497ee78e3e6e981ea5":[6,1,0,0,2,694,4],
+"classmrmeshpy_1_1SeparationPointStorage.html#ababf4879105982497ee78e3e6e981ea5":[6,1,1,0,1,694,4],
 "classmrmeshpy_1_1SeparationPointStorage.html#ac7d5c0dc6a6b151fe2bb718b89e2da72":[6,1,0,0,2,694,1],
 "classmrmeshpy_1_1SeparationPointStorage.html#ac7d5c0dc6a6b151fe2bb718b89e2da72":[6,1,1,0,1,694,1],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html":[6,1,0,0,2,694,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "classmrmeshpy_1_1SimpleVolumeMinMax.html#a242f5793ca66cd4b23e898aacdf9f316":[6,1,0,0,2,706,1],
 "classmrmeshpy_1_1SimpleVolumeMinMax.html#a242f5793ca66cd4b23e898aacdf9f316":[6,1,1,0,1,706,1],
 "classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd":[6,1,0,0,2,706,0],
-"classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd":[6,1,1,0,1,706,0],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html":[6,1,0,0,2,707],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html":[6,1,1,0,1,707],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html#a59d79b6b79229dcc1b9832ef5e13012c":[6,1,0,0,2,707,0],
-"classmrmeshpy_1_1SimpleVolumeMinMaxU16.html#a59d79b6b79229dcc1b9832ef5e13012c":[6,1,1,0,1,707,0]
+"classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd":[6,1,1,0,1,706,0]
 };

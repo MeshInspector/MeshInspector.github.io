@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a880a52a5ce978cfe836c3a62c762d9b9":[6,1,1,0,1,983,25],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a880a52a5ce978cfe836c3a62c762d9b9":[6,1,1,0,1,983,26],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a93bae5fb42ec3a5af3751ecbab87fb21":[6,1,0,0,2,983,29],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a93bae5fb42ec3a5af3751ecbab87fb21":[6,1,1,0,1,983,29],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a9966620c3619079c80a11a01cd11cc13":[6,1,0,0,2,983,0],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a9966620c3619079c80a11a01cd11cc13":[6,1,1,0,1,983,0],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#aa2286c2b817f815e273f7fd373385a65":[6,1,0,0,2,983,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#afc6026df59d613023b4d87171e60906d":[6,1,0,0,2,986,21],
 "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#afc6026df59d613023b4d87171e60906d":[6,1,0,0,2,986,22],
 "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#afc6026df59d613023b4d87171e60906d":[6,1,1,0,1,986,21],
-"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#afc6026df59d613023b4d87171e60906d":[6,1,1,0,1,986,22],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html":[6,1,0,0,2,987],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html":[6,1,1,0,1,987],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a05e2dc1aa37883ba50495982aae72800":[6,1,0,0,2,987,36],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a05e2dc1aa37883ba50495982aae72800":[6,1,1,0,1,987,36]
+"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#afc6026df59d613023b4d87171e60906d":[6,1,1,0,1,986,22]
 };
