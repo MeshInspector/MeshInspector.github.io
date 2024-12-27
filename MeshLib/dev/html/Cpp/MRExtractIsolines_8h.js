@@ -10,5 +10,6 @@ var MRExtractIsolines_8h =
     [ "hasAnyXYPlaneSection", "MRExtractIsolines_8h.html#abe24a43ab0e3fdaaa85e85fbe6d70189", null ],
     [ "planeSectionsToContours2f", "MRExtractIsolines_8h.html#a6c63c93268260926fe26705e7eba2d53", null ],
     [ "planeSectionToContour2f", "MRExtractIsolines_8h.html#a47ebcb5e83e6625a4a33dd409771ff68", null ],
+    [ "trackSection", "MRExtractIsolines_8h.html#a8a3113decc3c8c023af5840508849cdf", null ],
     [ "trackSection", "MRExtractIsolines_8h.html#a2fc738fcb74adad1003e324c209a09d3", null ]
 ];

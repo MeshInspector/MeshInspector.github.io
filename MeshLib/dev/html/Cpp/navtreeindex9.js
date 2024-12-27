@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRString_8h.html#afc584d61fd54ca2a86dec086736fdfd4":[6,0,3,0,0,1,3,325,3],
+"MRMesh_2MRString_8h.html#afc9f574268d072e85d31e140353743df":[6,0,3,0,0,1,3,325,6],
 "MRMesh_2MRString_8h_source.html":[6,0,3,0,0,1,3,325],
 "MRMesh_2MRTorus_8h.html":[6,0,3,0,0,1,3,342],
 "MRMesh_2MRTorus_8h.html#a04928fbb61dfb4922c926c1e5d2dce8e":[6,0,3,0,0,1,3,342,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "MRPlaneObject_8h.html":[6,0,3,0,0,1,3,250],
 "MRPlaneObject_8h_source.html":[6,0,3,0,0,1,3,250],
 "MRPlaneWidget_8h.html":[6,0,3,0,0,1,9,55],
-"MRPlaneWidget_8h_source.html":[6,0,3,0,0,1,9,55],
-"MRPng_8h.html":[6,0,3,0,0,1,2,9],
-"MRPng_8h.html#a036b1bc335fefcd579c125e0dba99c0b":[6,0,3,0,0,1,2,9,1]
+"MRPlaneWidget_8h_source.html":[6,0,3,0,0,1,9,55]
 };

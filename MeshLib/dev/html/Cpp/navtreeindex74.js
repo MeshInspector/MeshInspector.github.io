@@ -1,5 +1,10 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,2,0,1,468,0],
+"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,1,0,1,484,1],
+"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,2,0,1,468,1],
+"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,1,0,1,484,4],
+"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,2,0,1,468,4],
 "structMR_1_1PolynomialWrapper.html":[6,0,1,0,1,485],
 "structMR_1_1PolynomialWrapper.html":[6,0,2,0,1,469],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,1,0,1,485,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[6,0,1,0,1,517,2],
 "structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[6,0,2,0,1,501,2],
 "structMR_1_1RemeshSettings.html":[6,0,1,0,1,518],
-"structMR_1_1RemeshSettings.html":[6,0,2,0,1,502],
-"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,1,0,1,518,1],
-"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,2,0,1,502,1],
-"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[6,0,1,0,1,518,6],
-"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[6,0,2,0,1,502,6],
-"structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1":[6,0,1,0,1,518,7]
+"structMR_1_1RemeshSettings.html":[6,0,2,0,1,502]
 };

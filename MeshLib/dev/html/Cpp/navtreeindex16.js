@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,1,0,1,59,12],
+"classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,2,0,1,43,12],
 "classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,1,0,1,59,2],
 "classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,2,0,1,43,2],
 "classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,1,0,1,59,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeColoringType.html#a6129a4154bb8fde03e2dfc8d0e310ad2":[6,0,0,4,3,1],
 "classMR_1_1ChangeColoringType.html#ae42944016a4f6dd2c76e964cfb353bf4":[6,0,0,4,3,3],
 "classMR_1_1ChangeDualMarchingCubesAction.html":[6,0,0,4,40],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31":[6,0,0,4,40,5],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a216a084fc5c2ab35560b626aec0715f5":[6,0,0,4,40,4],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a498f45f8ee86d18bfdbf4350070595fb":[6,0,0,4,40,0]
+"classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31":[6,0,0,4,40,5]
 };

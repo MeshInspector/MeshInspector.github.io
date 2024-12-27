@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b":[6,0,0,3,4,0],
+"classMR_1_1SetViewPresetMenuItem.html":[6,0,1,0,1,598],
 "classMR_1_1SetViewPresetMenuItem.html":[6,0,2,0,1,582],
 "classMR_1_1SetViewPresetMenuItem.html#a22d459e6dfc41abb30e789e165d22d13":[6,0,1,0,1,598,2],
 "classMR_1_1SetViewPresetMenuItem.html#a22d459e6dfc41abb30e789e165d22d13":[6,0,2,0,1,582,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,1,0,1,629,5],
 "classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,2,0,1,613,5],
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,1,0,1,629,17],
-"classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,2,0,1,613,17],
-"classMR_1_1StateBasePlugin.html#ae7a96edadae63c78192e0f1f6b1f9db9":[6,0,1,0,1,629,3],
-"classMR_1_1StateBasePlugin.html#ae7a96edadae63c78192e0f1f6b1f9db9":[6,0,2,0,1,613,3]
+"classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,2,0,1,613,17]
 };
