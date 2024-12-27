@@ -346,8 +346,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a977038b2b2147077f5cc5b6d0f2f6a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34a92da868ded325e5194f0cfaec30c9" id="r_a34a92da868ded325e5194f0cfaec30c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34a92da868ded325e5194f0cfaec30c9">pseudonormal</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> p, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="separator:a34a92da868ded325e5194f0cfaec30c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaf21d7b7dfd731e6d412f59392491bf" id="r_aaaf21d7b7dfd731e6d412f59392491bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1QuadraticForm3f.html">QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf21d7b7dfd731e6d412f59392491bf">quadraticForm</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> creases=None)</td></tr>
-<tr class="separator:aaaf21d7b7dfd731e6d412f59392491bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9252ff73b1d9c80fccfa8b5a8cb55f32" id="r_a9252ff73b1d9c80fccfa8b5a8cb55f32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1QuadraticForm3f.html">QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9252ff73b1d9c80fccfa8b5a8cb55f32">quadraticForm</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, bool angleWeigted, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> creases=None)</td></tr>
+<tr class="separator:a9252ff73b1d9c80fccfa8b5a8cb55f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add382515fa0b54b00aacd0752e9e79e9" id="r_add382515fa0b54b00aacd0752e9e79e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add382515fa0b54b00aacd0752e9e79e9">shrinkToFit</a> (self)</td></tr>
 <tr class="separator:add382515fa0b54b00aacd0752e9e79e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46543299c08d8ed0e033bd822cba2188" id="r_a46543299c08d8ed0e033bd822cba2188"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46543299c08d8ed0e033bd822cba2188">signedDistance</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pt, <a class="el" href="classmrmeshpy_1_1MeshProjectionResult.html">MeshProjectionResult</a> proj, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
@@ -3023,8 +3023,8 @@ the sum is normalized before returning
 </pre> 
 </div>
 </div>
-<a id="aaaf21d7b7dfd731e6d412f59392491bf" name="aaaf21d7b7dfd731e6d412f59392491bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf21d7b7dfd731e6d412f59392491bf">&#9670;&#160;</a></span>quadraticForm()</h2>
+<a id="a9252ff73b1d9c80fccfa8b5a8cb55f32" name="a9252ff73b1d9c80fccfa8b5a8cb55f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9252ff73b1d9c80fccfa8b5a8cb55f32">&#9670;&#160;</a></span>quadraticForm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3042,6 +3042,11 @@ the sum is normalized before returning
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>angleWeigted</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
         </tr>
         <tr>
@@ -3052,7 +3057,7 @@ the sum is normalized before returning
       </table>
 </div><div class="memdoc">
 <pre class="fragment">computes quadratic form in the vertex as the sum of squared distances from
-1) planes of adjacent triangles
+1) planes of adjacent triangles, with the weight equal to the angle of adjacent triangle at this vertex divided on PI in case of angleWeigted=true;
 2) lines of adjacent boundary and crease edges
 </pre> 
 </div>

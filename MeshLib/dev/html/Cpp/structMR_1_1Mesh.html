@@ -353,8 +353,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa347e7c284659d13d5e9ef0df1a52d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae3794627367f1c0ae6a497f41542197" id="r_aae3794627367f1c0ae6a497f41542197"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae3794627367f1c0ae6a497f41542197">cotan</a> (UndirectedEdgeId ue) const</td></tr>
 <tr class="separator:aae3794627367f1c0ae6a497f41542197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0cb7cda413178e311cd23632d44a07f" id="r_aa0cb7cda413178e311cd23632d44a07f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> QuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0cb7cda413178e311cd23632d44a07f">quadraticForm</a> (VertId v, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *creases=nullptr) const</td></tr>
-<tr class="separator:aa0cb7cda413178e311cd23632d44a07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1991aad0672c28e1d07bd4c24750af8f" id="r_a1991aad0672c28e1d07bd4c24750af8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> QuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1991aad0672c28e1d07bd4c24750af8f">quadraticForm</a> (VertId v, bool angleWeigted, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *creases=nullptr) const</td></tr>
+<tr class="separator:a1991aad0672c28e1d07bd4c24750af8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30783b277e8cd9daed4827c15daede28" id="r_a30783b277e8cd9daed4827c15daede28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
 <tr class="separator:a30783b277e8cd9daed4827c15daede28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9114dc0640fc079b18e83625c3464a" id="r_a6a9114dc0640fc079b18e83625c3464a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a9114dc0640fc079b18e83625c3464a">getBoundingBox</a> () const</td></tr>
@@ -3478,8 +3478,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="aa0cb7cda413178e311cd23632d44a07f" name="aa0cb7cda413178e311cd23632d44a07f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0cb7cda413178e311cd23632d44a07f">&#9670;&#160;</a></span>quadraticForm()</h2>
+<a id="a1991aad0672c28e1d07bd4c24750af8f" name="a1991aad0672c28e1d07bd4c24750af8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1991aad0672c28e1d07bd4c24750af8f">&#9670;&#160;</a></span>quadraticForm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3491,6 +3491,11 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> QuadraticForm3f MR::Mesh::quadraticForm </td>
           <td>(</td>
           <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>angleWeigted</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3509,7 +3514,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   </tr>
 </table>
 </div><div class="memdoc">
-<p>computes quadratic form in the vertex as the sum of squared distances from 1) planes of adjacent triangles 2) lines of adjacent boundary and crease edges </p>
+<p>computes quadratic form in the vertex as the sum of squared distances from 1) planes of adjacent triangles, with the weight equal to the angle of adjacent triangle at this vertex divided on PI in case of angleWeigted=true; 2) lines of adjacent boundary and crease edges </p>
 
 </div>
 </div>

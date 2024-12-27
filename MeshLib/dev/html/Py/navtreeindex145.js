@@ -1,5 +1,9 @@
 var NAVTREEINDEX145 =
 {
+"classmrviewerpy_1_1Viewer.html#ac2f35c7bfcda30c6a8d8bc57755f7039":[6,1,0,0,3,8,11],
+"classmrviewerpy_1_1Viewer.html#ac2f35c7bfcda30c6a8d8bc57755f7039":[6,1,1,0,2,8,11],
+"classmrviewerpy_1_1Viewer.html#aecfd05e024c397cc4b21f2f3d60987ae":[6,1,0,0,3,8,4],
+"classmrviewerpy_1_1Viewer.html#aecfd05e024c397cc4b21f2f3d60987ae":[6,1,1,0,2,8,4],
 "classmrviewerpy_1_1Viewer.html#af589978c833603eb4a95bab3e2d16f98":[6,1,0,0,3,8,3],
 "classmrviewerpy_1_1Viewer.html#af589978c833603eb4a95bab3e2d16f98":[6,1,1,0,2,8,3],
 "classmrviewerpy_1_1ViewerLaunchParams.html":[6,1,0,0,3,9],
@@ -238,16 +242,12 @@ var NAVTREEINDEX145 =
 "mrmeshpy_8pyi.html#a01013f3044cb80d8c6322c66d6847a65":[6,1,2,0,0,1,0,0,0,2,2548],
 "mrmeshpy_8pyi.html#a0193baa8f265f4c95c57f232b1488dcf":[6,1,2,0,0,1,0,0,0,2,2160],
 "mrmeshpy_8pyi.html#a019a98a5f864d72aaf21ce30759a5f63":[6,1,2,0,0,1,0,0,0,2,1524],
+"mrmeshpy_8pyi.html#a01a9f2615c80119737d4857d86ca77d7":[6,1,2,0,0,1,0,0,0,2,1315],
 "mrmeshpy_8pyi.html#a01ad35bac6e8b361e2b688b8c1e315ba":[6,1,2,0,0,1,0,0,0,2,1485],
 "mrmeshpy_8pyi.html#a0222c20af29bf48685f6eba0e8b368ac":[6,1,2,0,0,1,0,0,0,2,1548],
 "mrmeshpy_8pyi.html#a029bfc9ad5fdb4623a1f075ac6710ca2":[6,1,2,0,0,1,0,0,0,2,1232],
 "mrmeshpy_8pyi.html#a029dfb08c0d54b61aede4818091286f1":[6,1,2,0,0,1,0,0,0,2,2010],
 "mrmeshpy_8pyi.html#a02a5c00960cd938b213726a322142822":[6,1,2,0,0,1,0,0,0,2,2712],
 "mrmeshpy_8pyi.html#a02a862197cf15eb56e8ecc6cd7f63a2e":[6,1,2,0,0,1,0,0,0,2,1784],
-"mrmeshpy_8pyi.html#a031fa800577034d21e244b97545136a5":[6,1,2,0,0,1,0,0,0,2,2616],
-"mrmeshpy_8pyi.html#a039556a42cb804cf1b349ae4645fed00":[6,1,2,0,0,1,0,0,0,2,1873],
-"mrmeshpy_8pyi.html#a0399245027d38eb8ebfe5f5acfed24ee":[6,1,2,0,0,1,0,0,0,2,2331],
-"mrmeshpy_8pyi.html#a03b4b7ce173cee4ef11158faf4fee5cf":[6,1,2,0,0,1,0,0,0,2,1919],
-"mrmeshpy_8pyi.html#a03fabff627dd496f5682b0b7981fa675":[6,1,2,0,0,1,0,0,0,2,1247],
-"mrmeshpy_8pyi.html#a040fcdef62e73011f103c7f804fab85e":[6,1,2,0,0,1,0,0,0,2,2398]
+"mrmeshpy_8pyi.html#a031fa800577034d21e244b97545136a5":[6,1,2,0,0,1,0,0,0,2,2616]
 };

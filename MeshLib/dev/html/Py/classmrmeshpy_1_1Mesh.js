@@ -93,7 +93,7 @@ var classmrmeshpy_1_1Mesh =
     [ "pseudonormal", "classmrmeshpy_1_1Mesh.html#a34a92da868ded325e5194f0cfaec30c9", null ],
     [ "pseudonormal", "classmrmeshpy_1_1Mesh.html#a977038b2b2147077f5cc5b6d0f2f6a1a", null ],
     [ "pseudonormal", "classmrmeshpy_1_1Mesh.html#ab5ae24c87284cb9a8f6fefc0d904f839", null ],
-    [ "quadraticForm", "classmrmeshpy_1_1Mesh.html#aaaf21d7b7dfd731e6d412f59392491bf", null ],
+    [ "quadraticForm", "classmrmeshpy_1_1Mesh.html#a9252ff73b1d9c80fccfa8b5a8cb55f32", null ],
     [ "shrinkToFit", "classmrmeshpy_1_1Mesh.html#add382515fa0b54b00aacd0752e9e79e9", null ],
     [ "signedDistance", "classmrmeshpy_1_1Mesh.html#ad563425da23f9f6255231366e7d533e0", null ],
     [ "signedDistance", "classmrmeshpy_1_1Mesh.html#ad072f83dfa5c4417ba09bae6ebc91714", null ],

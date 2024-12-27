@@ -94,7 +94,7 @@ var structMR_1_1Mesh =
     [ "pseudonormal", "structMR_1_1Mesh.html#ada333ee4f3b0edfa859e5f8ee5a1c1f1", null ],
     [ "pseudonormal", "structMR_1_1Mesh.html#a33d264981ad277abb011e94a67cd5e4e", null ],
     [ "pseudonormal", "structMR_1_1Mesh.html#a3f0764fd9acf9f3a4b060a658c656efc", null ],
-    [ "quadraticForm", "structMR_1_1Mesh.html#aa0cb7cda413178e311cd23632d44a07f", null ],
+    [ "quadraticForm", "structMR_1_1Mesh.html#a1991aad0672c28e1d07bd4c24750af8f", null ],
     [ "shrinkToFit", "structMR_1_1Mesh.html#a12917935a6261c2bbffbcc979a91abde", null ],
     [ "signedDistance", "structMR_1_1Mesh.html#a879abd4325e74e6c17acebe255877c83", null ],
     [ "signedDistance", "structMR_1_1Mesh.html#a0095216b1fbe49128eb4b14d6c9f8a42", null ],
