@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,13,0],
 "structMREdgeTri.html":[6,0,2,0,14],
 "structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,14,0],
 "structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9":[6,0,2,0,14,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b":[6,0,0,1,6,0,2],
 "structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3":[6,0,0,1,6,0,3],
 "structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f":[6,0,0,1,6,0,5],
-"structMR_1_1AABBTreePoints_1_1Node.html#a4706c948a08613c970dd47e89dfc42b8":[6,0,0,1,6,0,0],
-"structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a":[6,0,0,1,6,0,1]
+"structMR_1_1AABBTreePoints_1_1Node.html#a4706c948a08613c970dd47e89dfc42b8":[6,0,0,1,6,0,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1RemeshSettings.html":[6,0,1,0,1,518],
 "structMR_1_1RemeshSettings.html":[6,0,2,0,1,502],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,1,0,1,518,1],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,2,0,1,502,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7":[6,0,0,18,2,0,12],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ce7a47f380884f1a5739c34299a2eb7":[6,0,0,18,2,0,22],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ff4b586e3128dc5c62c8f602ae14a9a":[6,0,0,18,2,0,8],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36":[6,0,0,18,2,0,5],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483":[6,0,0,18,2,0,26]
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36":[6,0,0,18,2,0,5]
 };

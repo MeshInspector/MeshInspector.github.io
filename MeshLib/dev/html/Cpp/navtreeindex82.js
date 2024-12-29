@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a890dc5714dfd53c95b4678e7afd830d0":[6,0,2,0,1,727,0,5],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a8a9b12285fe8639813ace28a93ef0f29":[6,0,1,0,1,743,0,1],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a8a9b12285fe8639813ace28a93ef0f29":[6,0,2,0,1,727,0,1],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#ab2cb4ea433e1e7448b0b1d3bafa8c2f2":[6,0,1,0,1,743,0,10],
