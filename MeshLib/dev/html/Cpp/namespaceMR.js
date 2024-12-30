@@ -2713,7 +2713,7 @@ var namespaceMR =
     [ "transformNormals", "namespaceMR.html#aaaf0654d94eb8f4d35be77facbbf5acc", null ],
     [ "transformPoints", "namespaceMR.html#abd32e37d07e3aaa58297c5f0168825a4", null ],
     [ "transformVdbVolume", "namespaceMR.html#acf24dcb8aba2b34c7bdfc9460edff091", null ],
-    [ "translateToZero", "namespaceMR.html#ad5ce4a97d4de7ca01323b9b78bf7e4df", null ],
+    [ "translateToZero", "namespaceMR.html#acfa8fd2ddb974a4ed6a3b2d9dd0168c2", null ],
     [ "triangleAspectRatio", "group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9", null ],
     [ "triangleWithNormal", "namespaceMR.html#a5b210182919ce9a4fe5cdce5115f4cc3", null ],
     [ "triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df", null ],
