@@ -1664,6 +1664,7 @@ var namespaceMR =
     [ "convertUnits", "namespaceMR.html#abc1dac35ba49a323ad136b896517b3b3", null ],
     [ "copyContour", "group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6", null ],
     [ "copyContours", "group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369", null ],
+    [ "copySubdividePackMesh", "group__MeshSubdivideGroup.html#ga59a37b275037ffc76fab5916f13e6ecb", null ],
     [ "createObject", "group__DataModelGroup.html#ga085d7d3412f6d94799496d313c33276f", null ],
     [ "createRenderObject", "namespaceMR.html#ad5939add708452e0f1d36d597997afb1", null ],
     [ "createRenderObject", "namespaceMR.html#a93172f1e06fd94c642f000fd5e190230", null ],

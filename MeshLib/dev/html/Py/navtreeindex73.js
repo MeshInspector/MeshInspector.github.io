@@ -1,5 +1,9 @@
 var NAVTREEINDEX73 =
 {
+"classmrmeshpy_1_1TexturePerFace.html#a1397acddf10727a0f2b40e895baa921b":[6,1,0,0,2,922,4],
+"classmrmeshpy_1_1TexturePerFace.html#a1397acddf10727a0f2b40e895baa921b":[6,1,1,0,1,922,4],
+"classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd":[6,1,0,0,2,922,37],
+"classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd":[6,1,1,0,1,922,37],
 "classmrmeshpy_1_1TexturePerFace.html#a26bf506130de75b2574cb7214b63cedb":[6,1,0,0,2,922,38],
 "classmrmeshpy_1_1TexturePerFace.html#a26bf506130de75b2574cb7214b63cedb":[6,1,1,0,1,922,38],
 "classmrmeshpy_1_1TexturePerFace.html#a283745dd806143c9a37b1a2e0b7597d8":[6,1,0,0,2,922,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX73 =
 "classmrmeshpy_1_1TriPointd.html#ae1fb0b7489205576ab93eb3a68d427ae":[6,1,0,0,2,935,4],
 "classmrmeshpy_1_1TriPointd.html#ae1fb0b7489205576ab93eb3a68d427ae":[6,1,1,0,1,935,4],
 "classmrmeshpy_1_1TriPointd.html#aebe8d67c0c23d5a67acfa5f0523ee6f0":[6,1,0,0,2,935,8],
-"classmrmeshpy_1_1TriPointd.html#aebe8d67c0c23d5a67acfa5f0523ee6f0":[6,1,1,0,1,935,8],
-"classmrmeshpy_1_1TriPointf.html":[6,1,0,0,2,936],
-"classmrmeshpy_1_1TriPointf.html":[6,1,1,0,1,936],
-"classmrmeshpy_1_1TriPointf.html#a01200c0a58f015670f2cf63656fafcde":[6,1,0,0,2,936,9],
-"classmrmeshpy_1_1TriPointf.html#a01200c0a58f015670f2cf63656fafcde":[6,1,1,0,1,936,9]
+"classmrmeshpy_1_1TriPointd.html#aebe8d67c0c23d5a67acfa5f0523ee6f0":[6,1,1,0,1,935,8]
 };

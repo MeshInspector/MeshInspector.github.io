@@ -198,16 +198,16 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a52aa2a88771ab9ca39f096cae8256c7d" id="r_a52aa2a88771ab9ca39f096cae8256c7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52aa2a88771ab9ca39f096cae8256c7d">projectOnOriginalMesh</a> = false</td></tr>
 <tr class="memdesc:a52aa2a88771ab9ca39f096cae8256c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then every new vertex will be projected on the original mesh (before smoothing)  <br /></td></tr>
 <tr class="separator:a52aa2a88771ab9ca39f096cae8256c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47209d51dfa333bfbaecd311df98c6b8" id="r_a47209d51dfa333bfbaecd311df98c6b8"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47209d51dfa333bfbaecd311df98c6b8">beforeEdgeSplit</a></td></tr>
+<tr class="memdesc:a47209d51dfa333bfbaecd311df98c6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is going to split, if it returns false then this split will be skipped  <br /></td></tr>
+<tr class="separator:a47209d51dfa333bfbaecd311df98c6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e8653d42d8358f40dca297f675d4111" id="r_a9e8653d42d8358f40dca297f675d4111"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(VertId)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a></td></tr>
 <tr class="memdesc:a9e8653d42d8358f40dca297f675d4111"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created, but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a9e8653d42d8358f40dca297f675d4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcfc1a9eeddefe49c96b100fce1be413" id="r_afcfc1a9eeddefe49c96b100fce1be413"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId e1, EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcfc1a9eeddefe49c96b100fce1be413">onEdgeSplit</a></td></tr>
 <tr class="memdesc:afcfc1a9eeddefe49c96b100fce1be413"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:afcfc1a9eeddefe49c96b100fce1be413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47209d51dfa333bfbaecd311df98c6b8" id="r_a47209d51dfa333bfbaecd311df98c6b8"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47209d51dfa333bfbaecd311df98c6b8">beforeEdgeSplit</a></td></tr>
-<tr class="memdesc:a47209d51dfa333bfbaecd311df98c6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is going to split, if it returns false then this split will be skipped  <br /></td></tr>
-<tr class="separator:a47209d51dfa333bfbaecd311df98c6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad044782ba14d1d93d9140190393d28ce" id="r_ad044782ba14d1d93d9140190393d28ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad044782ba14d1d93d9140190393d28ce">progressCallback</a> = {}</td></tr>
+<tr class="memitem:ad044782ba14d1d93d9140190393d28ce" id="r_ad044782ba14d1d93d9140190393d28ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad044782ba14d1d93d9140190393d28ce">progressCallback</a></td></tr>
 <tr class="memdesc:ad044782ba14d1d93d9140190393d28ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 <tr class="separator:ad044782ba14d1d93d9140190393d28ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -424,7 +424,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::SubdivideSettings::progressCallback = {}</td>
+          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::SubdivideSettings::progressCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1240,6 +1240,7 @@ var namespacemrmeshpy =
     [ "copyContour", "namespacemrmeshpy.html#a54c104a9cca6888c9868f53e0bc81df4", null ],
     [ "copyContour", "namespacemrmeshpy.html#a6021b11437f02dfd1c1a6f4cef48441b", null ],
     [ "copyContour", "namespacemrmeshpy.html#a42f70e36b4f95cf42aecb343351b7807", null ],
+    [ "copySubdividePackMesh", "namespacemrmeshpy.html#abf912f9de42b006c4604f96c61df23b3", null ],
     [ "createObject", "namespacemrmeshpy.html#a533ea0d62aff7f185581716e87b09834", null ],
     [ "createRootFormObject", "namespacemrmeshpy.html#a4c8d6bf72633cba0968337a40ce2d625", null ],
     [ "createSymbolContours", "namespacemrmeshpy.html#a4cfe54a73ae590409155da98c4cbba46", null ],

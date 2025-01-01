@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html":[6,1,0,0,2,279],
+"classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html":[6,1,1,0,1,279],
+"classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html#a6f962e87ba59d580d10d8560f397c532":[6,1,0,0,2,279,1],
+"classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html#a6f962e87ba59d580d10d8560f397c532":[6,1,1,0,1,279,1],
 "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html#a831d52bbeda24cd06652506b07e1cb80":[6,1,0,0,2,279,0],
 "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html#a831d52bbeda24cd06652506b07e1cb80":[6,1,1,0,1,279,0],
 "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html#aa1ff11ce9a0c5ca3d5315d7591a517f4":[6,1,0,0,2,279,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#ab60571b1a6e1266efc20ce51acb09162":[6,1,0,0,2,301,6],
 "classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#ab60571b1a6e1266efc20ce51acb09162":[6,1,1,0,1,301,6],
 "classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#ac292e9c13493745ab934d306f62a9902":[6,1,0,0,2,301,0],
-"classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#ac292e9c13493745ab934d306f62a9902":[6,1,1,0,1,301,0],
-"classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html":[6,1,0,0,2,302],
-"classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html":[6,1,1,0,1,302],
-"classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html#a0b4b24e84d4448c2315111c681db5c13":[6,1,0,0,2,302,0],
-"classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html#a0b4b24e84d4448c2315111c681db5c13":[6,1,1,0,1,302,0]
+"classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#ac292e9c13493745ab934d306f62a9902":[6,1,1,0,1,301,0]
 };

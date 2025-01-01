@@ -161,6 +161,8 @@ $(function(){initNavTree('structMR_1_1RebuildMeshSettings.html',''); initResizab
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:aedf85a579696f897a9cd4c1c719059b8" id="r_aedf85a579696f897a9cd4c1c719059b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedf85a579696f897a9cd4c1c719059b8">preSubdivide</a> = true</td></tr>
+<tr class="separator:aedf85a579696f897a9cd4c1c719059b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a277cd0e4fca4f06fd90dd9977ec8a418" id="r_a277cd0e4fca4f06fd90dd9977ec8a418"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a277cd0e4fca4f06fd90dd9977ec8a418">voxelSize</a> = 0</td></tr>
 <tr class="separator:a277cd0e4fca4f06fd90dd9977ec8a418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a73a19f4845bdec3e2e59c9d1dfd4b8" id="r_a0a73a19f4845bdec3e2e59c9d1dfd4b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a07048ed78d40b323183d7f5479f821d0">SignDetectionModeShort</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a73a19f4845bdec3e2e59c9d1dfd4b8">signMode</a> = <a class="el" href="namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb">SignDetectionModeShort::Auto</a></td></tr>
@@ -280,6 +282,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if non-null then created sharp edges (only if offsetMode = <a class="el" href="namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355" title="create mesh using standard marching cubes with additional sharpening implemented in MeshLib">OffsetMode::Sharpening</a>) will be saved here </p>
+
+</div>
+</div>
+<a id="aedf85a579696f897a9cd4c1c719059b8" name="aedf85a579696f897a9cd4c1c719059b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedf85a579696f897a9cd4c1c719059b8">&#9670;&#160;</a></span>preSubdivide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RebuildMeshSettings::preSubdivide = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles </p>
 
 </div>
 </div>
