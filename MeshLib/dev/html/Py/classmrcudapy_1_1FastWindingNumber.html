@@ -175,10 +175,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeb8b41d05598fc70538563ce64efb0f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36e07c5949e8e58a6f20420f8a0202c8" id="r_a36e07c5949e8e58a6f20420f8a0202c8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36e07c5949e8e58a6f20420f8a0202c8">calcFromGridWithDistances</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, meshlib.mrmeshpy.DistanceToMeshOptions options, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
 <tr class="separator:a36e07c5949e8e58a6f20420f8a0202c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5358e758fbc221f14b3358c6fbd4b1ca" id="r_a5358e758fbc221f14b3358c6fbd4b1ca"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5358e758fbc221f14b3358c6fbd4b1ca">calcFromVector</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.std_vector_Vector3_float points, float beta, meshlib.mrmeshpy.FaceId skipFace='MR::FaceId{}')</td></tr>
-<tr class="separator:a5358e758fbc221f14b3358c6fbd4b1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7d1e3037de020c679868168ab67d414" id="r_ac7d1e3037de020c679868168ab67d414"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d1e3037de020c679868168ab67d414">calcSelfIntersections</a> (self, meshlib.mrmeshpy.FaceBitSet res, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
-<tr class="separator:ac7d1e3037de020c679868168ab67d414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee4623a45ba71e0d805bd475b9808c5" id="r_a7ee4623a45ba71e0d805bd475b9808c5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee4623a45ba71e0d805bd475b9808c5">calcFromVector</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.std_vector_Vector3_float points, float beta, meshlib.mrmeshpy.FaceId skipFace, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
+<tr class="separator:a7ee4623a45ba71e0d805bd475b9808c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7feb91d3a3cef77741220cd46fc814c" id="r_ad7feb91d3a3cef77741220cd46fc814c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7feb91d3a3cef77741220cd46fc814c">calcSelfIntersections</a> (self, meshlib.mrmeshpy.FaceBitSet res, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
+<tr class="separator:ad7feb91d3a3cef77741220cd46fc814c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Cuda::FastWindingNumber
@@ -313,8 +313,8 @@ the class for fast approximate computation of winding number for a mesh (using i
 
 </div>
 </div>
-<a id="a5358e758fbc221f14b3358c6fbd4b1ca" name="a5358e758fbc221f14b3358c6fbd4b1ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5358e758fbc221f14b3358c6fbd4b1ca">&#9670;&#160;</a></span>calcFromVector()</h2>
+<a id="a7ee4623a45ba71e0d805bd475b9808c5" name="a7ee4623a45ba71e0d805bd475b9808c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ee4623a45ba71e0d805bd475b9808c5">&#9670;&#160;</a></span>calcFromVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +342,12 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.FaceId </td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::FaceId{}'</span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.FaceId</td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">meshlib.mrmeshpy.func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -350,14 +355,14 @@ the class for fast approximate computation of winding number for a mesh (using i
 </pre> 
 </div>
 </div>
-<a id="ac7d1e3037de020c679868168ab67d414" name="ac7d1e3037de020c679868168ab67d414"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7d1e3037de020c679868168ab67d414">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
+<a id="ad7feb91d3a3cef77741220cd46fc814c" name="ad7feb91d3a3cef77741220cd46fc814c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7feb91d3a3cef77741220cd46fc814c">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrcudapy.FastWindingNumber.calcSelfIntersections </td>
+          <td class="memname"> None mrcudapy.FastWindingNumber.calcSelfIntersections </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>

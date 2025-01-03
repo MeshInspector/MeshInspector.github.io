@@ -175,15 +175,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afed4d0df31eef8da93ca2d843c3a8a63" id="r_afed4d0df31eef8da93ca2d843c3a8a63"><td class="memItemLeft" align="right" valign="top">MRCUDA_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed4d0df31eef8da93ca2d843c3a8a63">FastWindingNumber</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:afed4d0df31eef8da93ca2d843c3a8a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs this from AABB tree of given mesh;  <br /></td></tr>
 <tr class="separator:afed4d0df31eef8da93ca2d843c3a8a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35e0cc2dc56bc04f17a91c42a4b3b418" id="r_a35e0cc2dc56bc04f17a91c42a4b3b418"><td class="memItemLeft" align="right" valign="top">MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35e0cc2dc56bc04f17a91c42a4b3b418">calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, float beta, FaceId skipFace={}) override</td></tr>
-<tr class="memdesc:a35e0cc2dc56bc04f17a91c42a4b3b418"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in the points from given vector  <br /></td></tr>
-<tr class="separator:a35e0cc2dc56bc04f17a91c42a4b3b418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03fd25b5742ad8c32943a8127288080e" id="r_a03fd25b5742ad8c32943a8127288080e"><td class="memItemLeft" align="right" valign="top">MRCUDA_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03fd25b5742ad8c32943a8127288080e">calcSelfIntersections</a> (FaceBitSet &amp;res, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
-<tr class="memdesc:a03fd25b5742ad8c32943a8127288080e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
-<tr class="separator:a03fd25b5742ad8c32943a8127288080e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f0d5ef5f204a398a7f22887435a0176" id="r_a8f0d5ef5f204a398a7f22887435a0176"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f0d5ef5f204a398a7f22887435a0176">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
-<tr class="memdesc:a8f0d5ef5f204a398a7f22887435a0176"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
-<tr class="separator:a8f0d5ef5f204a398a7f22887435a0176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c175130af9cbdf1fac5b175f1f44ae3" id="r_a5c175130af9cbdf1fac5b175f1f44ae3"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c175130af9cbdf1fac5b175f1f44ae3">calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, float beta, FaceId skipFace, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb) override</td></tr>
+<tr class="memdesc:a5c175130af9cbdf1fac5b175f1f44ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in the points from given vector  <br /></td></tr>
+<tr class="separator:a5c175130af9cbdf1fac5b175f1f44ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f11c9de4efd17bdc6ac47d85b97c079" id="r_a2f11c9de4efd17bdc6ac47d85b97c079"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f11c9de4efd17bdc6ac47d85b97c079">calcSelfIntersections</a> (FaceBitSet &amp;res, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb) override</td></tr>
+<tr class="memdesc:a2f11c9de4efd17bdc6ac47d85b97c079"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
+<tr class="separator:a2f11c9de4efd17bdc6ac47d85b97c079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8474a42b222e2956b6fe29750ac544" id="r_ade8474a42b222e2956b6fe29750ac544"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade8474a42b222e2956b6fe29750ac544">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb) override</td></tr>
+<tr class="memdesc:ade8474a42b222e2956b6fe29750ac544"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
+<tr class="separator:ade8474a42b222e2956b6fe29750ac544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb495c4eda1b8be00020369fc04f7159" id="r_aeb495c4eda1b8be00020369fc04f7159"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb495c4eda1b8be00020369fc04f7159">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb) override</td></tr>
 <tr class="memdesc:aeb495c4eda1b8be00020369fc04f7159"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
 <tr class="separator:aeb495c4eda1b8be00020369fc04f7159"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,8 +214,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8f0d5ef5f204a398a7f22887435a0176" name="a8f0d5ef5f204a398a7f22887435a0176"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f0d5ef5f204a398a7f22887435a0176">&#9670;&#160;</a></span>calcFromGrid()</h2>
+<a id="ade8474a42b222e2956b6fe29750ac544" name="ade8474a42b222e2956b6fe29750ac544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade8474a42b222e2956b6fe29750ac544">&#9670;&#160;</a></span>calcFromGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +246,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -267,7 +267,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#abecab59597bb05ac0986bdbd061aa47d">MR::IFastWindingNumber</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a368a1a0534476d08756358a07bcce617">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>
@@ -326,8 +326,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a35e0cc2dc56bc04f17a91c42a4b3b418" name="a35e0cc2dc56bc04f17a91c42a4b3b418"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35e0cc2dc56bc04f17a91c42a4b3b418">&#9670;&#160;</a></span>calcFromVector()</h2>
+<a id="a5c175130af9cbdf1fac5b175f1f44ae3" name="a5c175130af9cbdf1fac5b175f1f44ae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c175130af9cbdf1fac5b175f1f44ae3">&#9670;&#160;</a></span>calcFromVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,7 +336,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRCUDA_API void MR::Cuda::FastWindingNumber::calcFromVector </td>
+          <td class="memname">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Cuda::FastWindingNumber::calcFromVector </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -353,7 +353,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -374,12 +379,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a441d74cdd012ecef05bb3ce3909a9100">MR::IFastWindingNumber</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a44bf69fbb5b7c37e5a0ff132a6137581">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="a03fd25b5742ad8c32943a8127288080e" name="a03fd25b5742ad8c32943a8127288080e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03fd25b5742ad8c32943a8127288080e">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
+<a id="a2f11c9de4efd17bdc6ac47d85b97c079" name="a2f11c9de4efd17bdc6ac47d85b97c079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f11c9de4efd17bdc6ac47d85b97c079">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,7 +393,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRCUDA_API bool MR::Cuda::FastWindingNumber::calcSelfIntersections </td>
+          <td class="memname">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Cuda::FastWindingNumber::calcSelfIntersections </td>
           <td>(</td>
           <td class="paramtype">FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -400,7 +405,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -418,9 +423,8 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>false if the operation was canceled by the user</dd></dl>
 
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#ac4744f6a703ab21ad9c40d2ca77db273">MR::IFastWindingNumber</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a9a9a27eb86c9d023a286bcf963c03cb3">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>

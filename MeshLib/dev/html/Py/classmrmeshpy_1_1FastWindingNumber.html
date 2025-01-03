@@ -178,10 +178,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1341c2a7d571acb031383a94d2e879be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef6b7c72e518ec149318e10b52c2517" id="r_a8ef6b7c72e518ec149318e10b52c2517"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ef6b7c72e518ec149318e10b52c2517">calcFromGridWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, <a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> options, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
 <tr class="separator:a8ef6b7c72e518ec149318e10b52c2517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c659be3de673592438527ea66e731d" id="r_a21c659be3de673592438527ea66e731d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c659be3de673592438527ea66e731d">calcFromVector</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, float beta, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> skipFace='MR::FaceId{}')</td></tr>
-<tr class="separator:a21c659be3de673592438527ea66e731d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75e7755d7f399fb342b4a2cb14e135b1" id="r_a75e7755d7f399fb342b4a2cb14e135b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75e7755d7f399fb342b4a2cb14e135b1">calcSelfIntersections</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> res, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
-<tr class="separator:a75e7755d7f399fb342b4a2cb14e135b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c475e7b6d11e7db7a552e728557daf" id="r_a87c475e7b6d11e7db7a552e728557daf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87c475e7b6d11e7db7a552e728557daf">calcFromVector</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, float beta, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> skipFace, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
+<tr class="separator:a87c475e7b6d11e7db7a552e728557daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7985e3bad1020ca466fa56c9ba56ed87" id="r_a7985e3bad1020ca466fa56c9ba56ed87"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7985e3bad1020ca466fa56c9ba56ed87">calcSelfIntersections</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> res, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
+<tr class="separator:a7985e3bad1020ca466fa56c9ba56ed87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bf8776d4a5e0e605528916a0705d638" id="r_a4bf8776d4a5e0e605528916a0705d638"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bf8776d4a5e0e605528916a0705d638">calcWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> p, <a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> options)</td></tr>
 <tr class="separator:a4bf8776d4a5e0e605528916a0705d638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -338,8 +338,8 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 
 </div>
 </div>
-<a id="a21c659be3de673592438527ea66e731d" name="a21c659be3de673592438527ea66e731d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21c659be3de673592438527ea66e731d">&#9670;&#160;</a></span>calcFromVector()</h2>
+<a id="a87c475e7b6d11e7db7a552e728557daf" name="a87c475e7b6d11e7db7a552e728557daf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c475e7b6d11e7db7a552e728557daf">&#9670;&#160;</a></span>calcFromVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,24 +367,29 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> </td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::FaceId{}'</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">see methods' descriptions in IFastWindingNumber
 </pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IFastWindingNumber.html#a5c7e69ee5135e8c87f9db4b426fd3cd5">mrmeshpy.IFastWindingNumber</a>.</p>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IFastWindingNumber.html#aee0b08c0914d4bb470c018865f7e8d12">mrmeshpy.IFastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="a75e7755d7f399fb342b4a2cb14e135b1" name="a75e7755d7f399fb342b4a2cb14e135b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75e7755d7f399fb342b4a2cb14e135b1">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
+<a id="a7985e3bad1020ca466fa56c9ba56ed87" name="a7985e3bad1020ca466fa56c9ba56ed87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7985e3bad1020ca466fa56c9ba56ed87">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrmeshpy.FastWindingNumber.calcSelfIntersections </td>
+          <td class="memname"> None mrmeshpy.FastWindingNumber.calcSelfIntersections </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -410,9 +415,8 @@ calculates winding numbers for all centers of mesh's triangles. if winding numbe
 &lt;/summary&gt;
 &lt;param name="res"&gt;resulting bit set&lt;/param&gt;
 &lt;param name="beta"&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
-&lt;returns&gt;false if the operation was canceled by the user&lt;/returns&gt;
 </pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IFastWindingNumber.html#a2530f2ecd0b9dd9afe1523baf94f05bb">mrmeshpy.IFastWindingNumber</a>.</p>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IFastWindingNumber.html#a34f2a55939603df554f9683bb729d571">mrmeshpy.IFastWindingNumber</a>.</p>
 
 </div>
 </div>
