@@ -290,6 +290,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af3fca747ad4dc619010b3f7dbb857f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addb26b3e42dbd2a5418b461add1d9f57" id="r_addb26b3e42dbd2a5418b461add1d9f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb26b3e42dbd2a5418b461add1d9f57">holeDirArea</a> (EdgeId e) const</td></tr>
 <tr class="separator:addb26b3e42dbd2a5418b461add1d9f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dcfe3dea7d2f774031d7751cbba5ef4" id="r_a9dcfe3dea7d2f774031d7751cbba5ef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dcfe3dea7d2f774031d7751cbba5ef4">leftTangent</a> (EdgeId e) const</td></tr>
+<tr class="memdesc:a9dcfe3dea7d2f774031d7751cbba5ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes unit vector that is both orthogonal to given edge and to the normal of its left triangle, the vector is directed inside left triangle  <br /></td></tr>
+<tr class="separator:a9dcfe3dea7d2f774031d7751cbba5ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a797623a41864029eb93103c262fa70d4" id="r_a797623a41864029eb93103c262fa70d4"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a797623a41864029eb93103c262fa70d4">leftNormal</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:a797623a41864029eb93103c262fa70d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes triangular face normal from its vertices  <br /></td></tr>
 <tr class="separator:a797623a41864029eb93103c262fa70d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2937,6 +2940,33 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 </div><div class="memdoc">
 
 <p>computes triangular face normal from its vertices </p>
+
+</div>
+</div>
+<a id="a9dcfe3dea7d2f774031d7751cbba5ef4" name="a9dcfe3dea7d2f774031d7751cbba5ef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dcfe3dea7d2f774031d7751cbba5ef4">&#9670;&#160;</a></span>leftTangent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::leftTangent </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes unit vector that is both orthogonal to given edge and to the normal of its left triangle, the vector is directed inside left triangle </p>
 
 </div>
 </div>

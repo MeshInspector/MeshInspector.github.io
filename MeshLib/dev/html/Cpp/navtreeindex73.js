@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1PointCloud.html#a25842b53d739f9841d97e66dd8221d59":[6,0,0,12,0,14],
 "structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad":[6,0,0,12,0,19],
 "structMR_1_1PointCloud.html#a28846bc1f86b18053ff605bd9cdffc26":[6,0,0,12,0,10],
 "structMR_1_1PointCloud.html#a2d87e2ca54a218f3beda5e403db122be":[6,0,0,12,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1Polynomial.html":[6,0,2,0,1,468],
 "structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,1,0,1,484,5],
 "structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,1,468,5],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,484,2],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,1,468,2]
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,484,2]
 };

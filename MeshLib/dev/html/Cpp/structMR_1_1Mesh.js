@@ -77,6 +77,7 @@ var structMR_1_1Mesh =
     [ "leftCotan", "structMR_1_1Mesh.html#aa347e7c284659d13d5e9ef0df1a52d5e", null ],
     [ "leftDirDblArea", "structMR_1_1Mesh.html#acfefd886da876ca72f2d96231206ed43", null ],
     [ "leftNormal", "structMR_1_1Mesh.html#a797623a41864029eb93103c262fa70d4", null ],
+    [ "leftTangent", "structMR_1_1Mesh.html#a9dcfe3dea7d2f774031d7751cbba5ef4", null ],
     [ "mirror", "structMR_1_1Mesh.html#a9148479b241d5fe774cd7bc6dd5ce142", null ],
     [ "normal", "structMR_1_1Mesh.html#a0bc20c6104570ee76cffee01e1ea9aa0", null ],
     [ "normal", "structMR_1_1Mesh.html#acc0ceb8ed258ca42cf125638c6940594", null ],

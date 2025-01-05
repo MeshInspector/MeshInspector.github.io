@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"classmrmeshpy_1_1std__vector__Id__VoxelTag.html#a4c57f8f88a90438e2a4ab6865429841f":[6,1,0,0,2,796,11],
+"classmrmeshpy_1_1std__vector__Id__VoxelTag.html#a4c57f8f88a90438e2a4ab6865429841f":[6,1,1,0,1,796,11],
 "classmrmeshpy_1_1std__vector__Id__VoxelTag.html#a51e296afe5f942393f1f5426cbdeed2f":[6,1,0,0,2,796,17],
 "classmrmeshpy_1_1std__vector__Id__VoxelTag.html#a51e296afe5f942393f1f5426cbdeed2f":[6,1,1,0,1,796,17],
 "classmrmeshpy_1_1std__vector__Id__VoxelTag.html#a66f75f361bdb867811a7865ba96b76a7":[6,1,0,0,2,796,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a50aaf6ffc195350f91e3f6c62b4b7013":[6,1,0,0,2,804,4],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a50aaf6ffc195350f91e3f6c62b4b7013":[6,1,1,0,1,804,4],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a50af9571fb91897203f75a41a28e8b89":[6,1,0,0,2,804,9],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a50af9571fb91897203f75a41a28e8b89":[6,1,1,0,1,804,9],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a553ff513116d0a1921f34948e3081dd4":[6,1,0,0,2,804,7],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a553ff513116d0a1921f34948e3081dd4":[6,1,1,0,1,804,7]
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a50af9571fb91897203f75a41a28e8b89":[6,1,1,0,1,804,9]
 };

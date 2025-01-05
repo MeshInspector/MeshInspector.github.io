@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"classmrmeshpy_1_1PointAccumulator.html#ae820f4bf4835b7deda3e913b64ad9eec":[6,1,0,0,2,597,8],
+"classmrmeshpy_1_1PointAccumulator.html#ae820f4bf4835b7deda3e913b64ad9eec":[6,1,1,0,1,597,8],
 "classmrmeshpy_1_1PointCloud.html":[6,1,0,0,2,598],
 "classmrmeshpy_1_1PointCloud.html":[6,1,1,0,1,598],
 "classmrmeshpy_1_1PointCloud.html#a0591486b7bf01ea95aea10217793ac6f":[6,1,0,0,2,598,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "classmrmeshpy_1_1PointsLoadSettings.html#addc765a9a70d21dbf82e28eaa631cb07":[6,1,0,0,2,608,5],
 "classmrmeshpy_1_1PointsLoadSettings.html#addc765a9a70d21dbf82e28eaa631cb07":[6,1,1,0,1,608,5],
 "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html":[6,1,0,0,2,607,0],
-"classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html":[6,1,1,0,1,607,0],
-"classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#a0d9bfc1060e5a792fe6bd16ab5167f2b":[6,1,0,0,2,607,0,6],
-"classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#a0d9bfc1060e5a792fe6bd16ab5167f2b":[6,1,1,0,1,607,0,6]
+"classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html":[6,1,1,0,1,607,0]
 };

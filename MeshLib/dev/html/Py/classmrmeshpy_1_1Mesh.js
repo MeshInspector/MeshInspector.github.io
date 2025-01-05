@@ -77,6 +77,7 @@ var classmrmeshpy_1_1Mesh =
     [ "leftCotan", "classmrmeshpy_1_1Mesh.html#a5fcce3a4c76d5ea187b0888bbe6c1a48", null ],
     [ "leftDirDblArea", "classmrmeshpy_1_1Mesh.html#a38039bf1a0f0b17316018ff978b5b060", null ],
     [ "leftNormal", "classmrmeshpy_1_1Mesh.html#a6654c89a4855074c0308e163d4649e8b", null ],
+    [ "leftTangent", "classmrmeshpy_1_1Mesh.html#a95501a17afb92ae5da2c5fce153816c2", null ],
     [ "mirror", "classmrmeshpy_1_1Mesh.html#adc9487aafff33a390b65788cd4b80c6c", null ],
     [ "normal", "classmrmeshpy_1_1Mesh.html#a98964769c3f367fcaab49b4657984181", null ],
     [ "normal", "classmrmeshpy_1_1Mesh.html#aaca0531a2c5ab714e0e8a214eacb360f", null ],
