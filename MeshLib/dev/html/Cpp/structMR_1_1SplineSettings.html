@@ -166,6 +166,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7f3e029be9ca17a1b73f53ca166fe2ca" id="r_a7f3e029be9ca17a1b73f53ca166fe2ca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f3e029be9ca17a1b73f53ca166fe2ca">controlStability</a> = 1</td></tr>
 <tr class="memdesc:a7f3e029be9ca17a1b73f53ca166fe2ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">a positive value, the more the value the closer resulting spline will be to given control points  <br /></td></tr>
 <tr class="separator:a7f3e029be9ca17a1b73f53ca166fe2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae191af78be4cbd6a213f4296abadbaab" id="r_ae191af78be4cbd6a213f4296abadbaab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae191af78be4cbd6a213f4296abadbaab">iterations</a> = 1</td></tr>
+<tr class="separator:ae191af78be4cbd6a213f4296abadbaab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f3e029be9ca17a1b73f53ca166fe2ca" name="a7f3e029be9ca17a1b73f53ca166fe2ca"></a>
@@ -181,6 +183,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>a positive value, the more the value the closer resulting spline will be to given control points </p>
+
+</div>
+</div>
+<a id="ae191af78be4cbd6a213f4296abadbaab" name="ae191af78be4cbd6a213f4296abadbaab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae191af78be4cbd6a213f4296abadbaab">&#9670;&#160;</a></span>iterations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::SplineSettings::iterations = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm </p>
 
 </div>
 </div>

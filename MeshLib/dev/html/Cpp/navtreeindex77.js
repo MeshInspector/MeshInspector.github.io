@@ -56,10 +56,12 @@ var NAVTREEINDEX77 =
 "structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,2,0,1,610,1],
 "structMR_1_1SplineSettings.html":[6,0,1,0,1,628],
 "structMR_1_1SplineSettings.html":[6,0,2,0,1,612],
-"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,1,0,1,628,1],
-"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,2,0,1,612,1],
+"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,1,0,1,628,2],
+"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,2,0,1,612,2],
 "structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,1,0,1,628,0],
 "structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,2,0,1,612,0],
+"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,1,0,1,628,1],
+"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,2,0,1,612,1],
 "structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
 "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
 "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1TextMeshAlignParams.html#aba750f8cdad04940e2d9871e488b5463":[6,0,2,0,1,631,6],
 "structMR_1_1TextMeshAlignParams.html#ad27e2080a08870070e02bdcfa3d2c736":[6,0,1,0,1,647,2],
 "structMR_1_1TextMeshAlignParams.html#ad27e2080a08870070e02bdcfa3d2c736":[6,0,2,0,1,631,2],
-"structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222":[6,0,1,0,1,647,5],
-"structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222":[6,0,2,0,1,631,5],
-"structMR_1_1TextMeshAlignParams.html#af917f5ff67df027c6d4b028e6a1de41f":[6,0,1,0,1,647,3]
+"structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222":[6,0,1,0,1,647,5]
 };
