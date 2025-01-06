@@ -1,5 +1,9 @@
 var NAVTREEINDEX100 =
 {
+"classmrmeshpy_1_1VisualizeMaskType.html#abd6a420106bdba24ca817080c93c402d":[6,1,0,0,2,1064,6],
+"classmrmeshpy_1_1VisualizeMaskType.html#abd6a420106bdba24ca817080c93c402d":[6,1,1,0,1,1064,6],
+"classmrmeshpy_1_1VisualizeMaskType.html#ac573faeb3c089df9fbbd02c56cd3d250":[6,1,0,0,2,1064,3],
+"classmrmeshpy_1_1VisualizeMaskType.html#ac573faeb3c089df9fbbd02c56cd3d250":[6,1,1,0,1,1064,3],
 "classmrmeshpy_1_1VolumeIndexer.html":[6,1,0,0,2,1066],
 "classmrmeshpy_1_1VolumeIndexer.html":[6,1,1,0,1,1066],
 "classmrmeshpy_1_1VolumeIndexer.html#a0bab3c154527214f99784a2c458afa96":[6,1,0,0,2,1066,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX100 =
 "classmrmeshpy_1_1VoxelLocation.html#ad1a5d83a2924018a4e154aaee7fdde75":[6,1,0,0,2,1072,2],
 "classmrmeshpy_1_1VoxelLocation.html#ad1a5d83a2924018a4e154aaee7fdde75":[6,1,1,0,1,1072,2],
 "classmrmeshpy_1_1VoxelMetricParameters.html":[6,1,0,0,2,1073],
-"classmrmeshpy_1_1VoxelMetricParameters.html":[6,1,1,0,1,1073],
-"classmrmeshpy_1_1VoxelMetricParameters.html#a040c165746ea62626691c7829bd60222":[6,1,0,0,2,1073,5],
-"classmrmeshpy_1_1VoxelMetricParameters.html#a040c165746ea62626691c7829bd60222":[6,1,1,0,1,1073,5],
-"classmrmeshpy_1_1VoxelMetricParameters.html#a20717bb0afdb7f72ad856774439bcee0":[6,1,0,0,2,1073,10],
-"classmrmeshpy_1_1VoxelMetricParameters.html#a20717bb0afdb7f72ad856774439bcee0":[6,1,1,0,1,1073,10]
+"classmrmeshpy_1_1VoxelMetricParameters.html":[6,1,1,0,1,1073]
 };
