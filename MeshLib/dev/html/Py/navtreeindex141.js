@@ -1,5 +1,9 @@
 var NAVTREEINDEX141 =
 {
+"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aec04fa11d6f1b3838d9b310e827a4cfd":[6,1,0,0,2,857,1],
+"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aec04fa11d6f1b3838d9b310e827a4cfd":[6,1,1,0,1,857,1],
+"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9":[6,1,0,0,2,857,17],
+"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9":[6,1,1,0,1,857,17],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html":[6,1,0,0,2,858],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html":[6,1,1,0,1,858],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a00325fc4c43eae3b66dd80b40bf5cf95":[6,1,0,0,2,858,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX141 =
 "classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a283e088b1f7cf5c52205133600d633ae":[6,1,0,0,2,862,23],
 "classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a283e088b1f7cf5c52205133600d633ae":[6,1,1,0,1,862,23],
 "classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a42cf5c7d7c839180f75ee023072ccc7e":[6,1,0,0,2,862,24],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a42cf5c7d7c839180f75ee023072ccc7e":[6,1,1,0,1,862,24],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a49390b43c3dc150435631c6e19af7c03":[6,1,0,0,2,862,7],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a49390b43c3dc150435631c6e19af7c03":[6,1,1,0,1,862,7],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a4b318af2b1d48252b911b9cc60fd26d0":[6,1,0,0,2,862,2],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a4b318af2b1d48252b911b9cc60fd26d0":[6,1,1,0,1,862,2]
+"classmrmeshpy_1_1std__vector__std__vector__ObjVertId.html#a42cf5c7d7c839180f75ee023072ccc7e":[6,1,1,0,1,862,24]
 };

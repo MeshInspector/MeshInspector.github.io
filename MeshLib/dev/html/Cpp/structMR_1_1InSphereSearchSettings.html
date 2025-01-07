@@ -174,6 +174,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a4cada7cafcfc301fc90315554648f1cd" id="r_a4cada7cafcfc301fc90315554648f1cd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cada7cafcfc301fc90315554648f1cd">minShrinkage</a> = 0.99999f</td></tr>
 <tr class="memdesc:a4cada7cafcfc301fc90315554648f1cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterations stop if next radius is larger than minShrinkage times previous radius  <br /></td></tr>
 <tr class="separator:a4cada7cafcfc301fc90315554648f1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17cedea371781d54bc00fa84b7b0125" id="r_ac17cedea371781d54bc00fa84b7b0125"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac17cedea371781d54bc00fa84b7b0125">minAngleCos</a> = -1</td></tr>
+<tr class="separator:ac17cedea371781d54bc00fa84b7b0125"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>controls the finding of maximal inscribed sphere in mesh </p>
@@ -221,6 +223,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) </p>
+
+</div>
+</div>
+<a id="ac17cedea371781d54bc00fa84b7b0125" name="ac17cedea371781d54bc00fa84b7b0125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac17cedea371781d54bc00fa84b7b0125">&#9670;&#160;</a></span>minAngleCos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::InSphereSearchSettings::minAngleCos = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces </p>
 
 </div>
 </div>

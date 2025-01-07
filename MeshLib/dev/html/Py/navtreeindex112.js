@@ -1,5 +1,9 @@
 var NAVTREEINDEX112 =
 {
+"classmrmeshpy_1_1std__optional__Box__Vector3__float.html#a89628c3019489de7204f580fb81161ac":[6,1,0,0,2,740,4],
+"classmrmeshpy_1_1std__optional__Box__Vector3__float.html#a89628c3019489de7204f580fb81161ac":[6,1,1,0,1,740,4],
+"classmrmeshpy_1_1std__optional__Box__Vector3__float.html#a8d9f3a94f7cdd7bbf8ccf4d85c90d377":[6,1,0,0,2,740,5],
+"classmrmeshpy_1_1std__optional__Box__Vector3__float.html#a8d9f3a94f7cdd7bbf8ccf4d85c90d377":[6,1,1,0,1,740,5],
 "classmrmeshpy_1_1std__optional__Box__Vector3__float.html#ac6f71a93ad947e629b9743eaef64eb3a":[6,1,0,0,2,740,3],
 "classmrmeshpy_1_1std__optional__Box__Vector3__float.html#ac6f71a93ad947e629b9743eaef64eb3a":[6,1,1,0,1,740,3],
 "classmrmeshpy_1_1std__optional__Box__Vector3__float.html#ae8680b37c3dd143501db0d899d836e54":[6,1,0,0,2,740,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX112 =
 "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#ad192662866389f9c2e1b9b4eea3bcf8e":[6,1,0,0,2,752,8],
 "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#ad192662866389f9c2e1b9b4eea3bcf8e":[6,1,1,0,1,752,8],
 "classmrmeshpy_1_1std__variant__float__Vector3__float.html":[6,1,0,0,2,747],
-"classmrmeshpy_1_1std__variant__float__Vector3__float.html":[6,1,1,0,1,747],
-"classmrmeshpy_1_1std__variant__float__Vector3__float.html#a0de1b52206eb332e9f3896c50f6c025b":[6,1,0,0,2,747,6],
-"classmrmeshpy_1_1std__variant__float__Vector3__float.html#a0de1b52206eb332e9f3896c50f6c025b":[6,1,1,0,1,747,6],
-"classmrmeshpy_1_1std__variant__float__Vector3__float.html#a707e34263b93c6af4a5324ffe22dd764":[6,1,0,0,2,747,0],
-"classmrmeshpy_1_1std__variant__float__Vector3__float.html#a707e34263b93c6af4a5324ffe22dd764":[6,1,1,0,1,747,0]
+"classmrmeshpy_1_1std__variant__float__Vector3__float.html":[6,1,1,0,1,747]
 };
