@@ -470,6 +470,7 @@ var annotated_dup =
       [ "LoadedObjectT", "structMR_1_1LoadedObjectT.html", "structMR_1_1LoadedObjectT" ],
       [ "Logger", "classMR_1_1Logger.html", "classMR_1_1Logger" ],
       [ "LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", "classMR_1_1LoggingStreambuf" ],
+      [ "MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", "structMR_1_1MakeBridgeResult" ],
       [ "MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", "structMR_1_1MakeDegenerateBandAroundRegionParams" ],
       [ "MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", "structMR_1_1MakeSignedByWindingNumberSettings" ],
       [ "MarchingCubesByParts", "classMR_1_1MarchingCubesByParts.html", "classMR_1_1MarchingCubesByParts" ],

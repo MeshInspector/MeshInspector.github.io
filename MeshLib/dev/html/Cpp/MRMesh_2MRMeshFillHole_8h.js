@@ -13,7 +13,7 @@ var MRMesh_2MRMeshFillHole_8h =
     [ "getHoleFillPlan", "MRMesh_2MRMeshFillHole_8h.html#gaa3256109cd439a9801f179661c65c7e6", null ],
     [ "getPlanarHoleFillPlan", "MRMesh_2MRMeshFillHole_8h.html#ga1dbbac5f3d5dfdebbb1790578aed11d8", null ],
     [ "isHoleBd", "MRMesh_2MRMeshFillHole_8h.html#ga7b7b07510d4a7d74b02ef6890db04a9d", null ],
-    [ "makeBridge", "MRMesh_2MRMeshFillHole_8h.html#ga5b018c101d16b1695c0a3152e89ecdb3", null ],
+    [ "makeBridge", "MRMesh_2MRMeshFillHole_8h.html#gad16b63618dae72a30c787fcd1d7b8200", null ],
     [ "makeBridgeEdge", "MRMesh_2MRMeshFillHole_8h.html#ga86668640c827d61e8ee92b7a74dc558d", null ],
     [ "makeDegenerateBandAroundHole", "MRMesh_2MRMeshFillHole_8h.html#ga10d97d0e9b001fe0d4915154d1945e77", null ]
 ];
