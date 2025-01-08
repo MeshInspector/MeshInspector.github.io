@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DividePolylineParameters.html":[6,0,1,0,1,184],
+"structMR_1_1DividePolylineParameters.html":[6,0,2,0,1,168],
+"structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,1,0,1,184,6],
+"structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,2,0,1,168,6],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,1,0,1,184,2],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,2,0,1,168,2],
 "structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[6,0,1,0,1,184,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[6,0,2,0,1,187,0,0],
 "structMR_1_1FaceFace.html":[6,0,0,1,11],
 "structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[6,0,0,1,11,1],
-"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[6,0,0,1,11,0],
-"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[6,0,0,1,11,2],
-"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[6,0,0,1,11,3],
-"structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc":[6,0,0,1,11,4],
-"structMR_1_1FanRecord.html":[6,0,1,0,1,205]
+"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[6,0,0,1,11,0]
 };

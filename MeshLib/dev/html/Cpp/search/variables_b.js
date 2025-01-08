@@ -90,7 +90,7 @@ var searchData=
   ['loadedobjectt_5fobject_87',['LoadedObjectT_Object',['../../Py/namespacemrmeshpy.html#a769db0e6cc5a23bbe71f728401626262',1,'mrmeshpy']]],
   ['loadedobjectvoxels_88',['LoadedObjectVoxels',['../../Py/namespacemrmeshpy.html#a079f5450e1819be4fb4da624a0654138',1,'mrmeshpy']]],
   ['locked_5f_89',['locked_',['../classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]],
-  ['lodistlimitsq_90',['loDistLimitSq',['../structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74',1,'MRFindProjectionParameters']]],
+  ['lodistlimitsq_90',['loDistLimitSq',['../structMR_1_1MeshProjectionParameters.html#a1c122d1dc6393cbf06a33b2b7d33ef8e',1,'MR::MeshProjectionParameters::loDistLimitSq'],['../structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74',1,'MRFindProjectionParameters::loDistLimitSq']]],
   ['loggerhandle_91',['loggerHandle',['../structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]],
   ['lorg_92',['lOrg',['../structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6',1,'MR::PlanarTriangulation::IntersectionInfo::lOrg'],['../structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72',1,'MR::OffsetContoursOrigins::lOrg']]],
   ['lossless_93',['Lossless',['../../Py/classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression.html#a0118336a8022b3b1e4f801c0fad49c80',1,'mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression']]],

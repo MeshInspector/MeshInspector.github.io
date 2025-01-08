@@ -242,7 +242,7 @@ var searchData=
   ['localfindselfintersections_239',['localFindSelfIntersections',['../../Py/namespacemrmeshpy.html#a3ca4070fc75247e2c24599dbc8257e47',1,'mrmeshpy']]],
   ['localfixselfintersections_240',['localFixSelfIntersections',['../../Py/namespacemrmeshpy.html#a597df4dc51e79baf52000aef066be34f',1,'mrmeshpy']]],
   ['locked_5f_241',['locked_',['../classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]],
-  ['lodistlimitsq_242',['loDistLimitSq',['../structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74',1,'MRFindProjectionParameters']]],
+  ['lodistlimitsq_242',['loDistLimitSq',['../structMR_1_1MeshProjectionParameters.html#a1c122d1dc6393cbf06a33b2b7d33ef8e',1,'MR::MeshProjectionParameters::loDistLimitSq'],['../structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74',1,'MRFindProjectionParameters::loDistLimitSq'],['../../Py/classmrmeshpy_1_1MeshProjectionParameters.html#afbf6cf1408c58b02fa4ae62fcf692a45',1,'mrmeshpy::MeshProjectionParameters::loDistLimitSq(self)'],['../../Py/classmrmeshpy_1_1MeshProjectionParameters.html#a1526a2d788daa1701273e22407498555',1,'mrmeshpy::MeshProjectionParameters::loDistLimitSq(self, float arg1)']]],
   ['logger_243',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
   ['loggerhandle_244',['loggerHandle',['../structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]],
   ['loggingstreambuf_245',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR::LoggingStreambuf'],['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf::LoggingStreambuf()']]],

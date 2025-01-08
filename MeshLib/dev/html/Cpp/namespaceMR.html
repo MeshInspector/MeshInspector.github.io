@@ -958,6 +958,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshPoint.html">MeshPoint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the point of measurement on mesh  <a href="structMR_1_1MeshPoint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshRegion.html">MeshRegion</a></td></tr>
@@ -4367,6 +4369,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga994aaba24d39e18802b546f4fdab10cc" id="r_ga994aaba24d39e18802b546f4fdab10cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc">findTwoClosestPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:ga994aaba24d39e18802b546f4fdab10cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds two closest points (first id &lt; second id) in whole point cloud  <br /></td></tr>
 <tr class="separator:ga994aaba24d39e18802b546f4fdab10cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe47a22d908eb3ff7ff61c28a6abe956" id="r_afe47a22d908eb3ff7ff61c28a6abe956"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe47a22d908eb3ff7ff61c28a6abe956">findSignedDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const VertCoords &amp;testPoints, const VertBitSet *validTestPoints=nullptr, const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;params={}, <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *projector=nullptr)</td></tr>
+<tr class="memdesc:afe47a22d908eb3ff7ff61c28a6abe956"><td class="mdescLeft">&#160;</td><td class="mdescRight">if projector is not given then CPU's computations will be used  <br /></td></tr>
+<tr class="separator:afe47a22d908eb3ff7ff61c28a6abe956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84cd41daea65981f56908ec91fe06c3" id="r_aa84cd41daea65981f56908ec91fe06c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa84cd41daea65981f56908ec91fe06c3">findSignedDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;params={}, <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *projector=nullptr)</td></tr>
+<tr class="memdesc:aa84cd41daea65981f56908ec91fe06c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">if projector is not given then CPU's computations will be used  <br /></td></tr>
+<tr class="separator:aa84cd41daea65981f56908ec91fe06c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga15a3e18d2098f8ff33e67776a221e6fb" id="r_ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">findCollidingEdgePairs</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const <a class="el" href="#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -15525,6 +15533,109 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>finds intersection precise, using high precision int inside this function input should have intersection </p>
+
+</div>
+</div>
+<a id="aa84cd41daea65981f56908ec91fe06c3" name="aa84cd41daea65981f56908ec91fe06c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa84cd41daea65981f56908ec91fe06c3">&#9670;&#160;</a></span>findSignedDistances() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars MR::findSignedDistances </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>projector</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if projector is not given then CPU's computations will be used </p>
+<p>Computes signed distances from valid vertices of test mesh to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">refMesh</td><td>the distances to this mesh will be returned  </td></tr>
+    <tr><td class="paramname">mesh</td><td>the distances from valid vertices of this mesh will be returned </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afe47a22d908eb3ff7ff61c28a6abe956" name="afe47a22d908eb3ff7ff61c28a6abe956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe47a22d908eb3ff7ff61c28a6abe956">&#9670;&#160;</a></span>findSignedDistances() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars MR::findSignedDistances </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>refMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>testPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>validTestPoints</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>projector</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if projector is not given then CPU's computations will be used </p>
+<p>Computes signed distances from given test points to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">refMesh</td><td>the distances to this mesh will be returned  </td></tr>
+    <tr><td class="paramname">validTestPoints</td><td>the distances from these points will be returned </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

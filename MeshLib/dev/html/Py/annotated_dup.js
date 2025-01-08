@@ -458,6 +458,7 @@ var annotated_dup =
       [ "MeshOrPointsXf", "classmrmeshpy_1_1MeshOrPointsXf.html", "classmrmeshpy_1_1MeshOrPointsXf" ],
       [ "MeshPart", "classmrmeshpy_1_1MeshPart.html", "classmrmeshpy_1_1MeshPart" ],
       [ "MeshPoint", "classmrmeshpy_1_1MeshPoint.html", "classmrmeshpy_1_1MeshPoint" ],
+      [ "MeshProjectionParameters", "classmrmeshpy_1_1MeshProjectionParameters.html", "classmrmeshpy_1_1MeshProjectionParameters" ],
       [ "MeshProjectionResult", "classmrmeshpy_1_1MeshProjectionResult.html", "classmrmeshpy_1_1MeshProjectionResult" ],
       [ "MeshRelaxParams", "classmrmeshpy_1_1MeshRelaxParams.html", "classmrmeshpy_1_1MeshRelaxParams" ],
       [ "MeshSave", "classmrmeshpy_1_1MeshSave.html", "classmrmeshpy_1_1MeshSave" ],

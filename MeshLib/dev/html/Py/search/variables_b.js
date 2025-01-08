@@ -94,7 +94,7 @@ var searchData=
   ['loadedobjectt_5fobject_91',['LoadedObjectT_Object',['../namespacemrmeshpy.html#a769db0e6cc5a23bbe71f728401626262',1,'mrmeshpy']]],
   ['loadedobjectvoxels_92',['LoadedObjectVoxels',['../namespacemrmeshpy.html#a079f5450e1819be4fb4da624a0654138',1,'mrmeshpy']]],
   ['locked_5f_93',['locked_',['../../Cpp/classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]],
-  ['lodistlimitsq_94',['loDistLimitSq',['../../Cpp/structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74',1,'MRFindProjectionParameters']]],
+  ['lodistlimitsq_94',['loDistLimitSq',['../../Cpp/structMR_1_1MeshProjectionParameters.html#a1c122d1dc6393cbf06a33b2b7d33ef8e',1,'MR::MeshProjectionParameters::loDistLimitSq'],['../../Cpp/structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74',1,'MRFindProjectionParameters::loDistLimitSq']]],
   ['loggerhandle_95',['loggerHandle',['../../Cpp/structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]],
   ['lorg_96',['lOrg',['../../Cpp/structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6',1,'MR::PlanarTriangulation::IntersectionInfo::lOrg'],['../../Cpp/structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72',1,'MR::OffsetContoursOrigins::lOrg']]],
   ['lossless_97',['Lossless',['../classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression.html#a0118336a8022b3b1e4f801c0fad49c80',1,'mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression']]],
