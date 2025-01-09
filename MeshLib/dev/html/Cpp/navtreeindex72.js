@@ -1,7 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7":[6,0,1,0,1,423,1,1],
-"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7":[6,0,2,0,1,407,1,1],
 "structMR_1_1OffsetContoursParams.html#a52ea8121bcdb1c1f7d2c638a77f9b9d9":[6,0,1,0,1,423,5],
 "structMR_1_1OffsetContoursParams.html#a52ea8121bcdb1c1f7d2c638a77f9b9d9":[6,0,2,0,1,407,5],
 "structMR_1_1OffsetContoursParams.html#a54d1e9aa48ca8acba1b89d63455ab630":[6,0,1,0,1,423,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX72 =
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[6,0,1,0,1,24,2],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[6,0,2,0,1,14,2],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0":[6,0,1,0,1,24,2,0],
-"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0":[6,0,2,0,1,14,2,0]
+"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0":[6,0,2,0,1,14,2,0],
+"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846":[6,0,1,0,1,24,2,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846":[6,0,2,0,1,14,2,1]
 };

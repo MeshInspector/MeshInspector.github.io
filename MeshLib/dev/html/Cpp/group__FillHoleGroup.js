@@ -69,7 +69,5 @@ var group__FillHoleGroup =
     [ "MR::makeBridge", "group__FillHoleGroup.html#gad16b63618dae72a30c787fcd1d7b8200", null ],
     [ "MR::makeBridgeEdge", "group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d", null ],
     [ "MR::makeDegenerateBandAroundHole", "group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77", null ],
-    [ "MR::makeQuadBridge", "group__FillHoleGroup.html#ga2d4d7960f97e0c640fa2d62c25514c2e", null ],
-    [ "MR::splitQuad", "group__FillHoleGroup.html#gad76a068dd3fae29c30797157fd646667", null ],
     [ "MR::BadTriangulationMetric", "group__FillHoleGroup.html#gac632bf42924389cba000b725ef53d7bc", null ]
 ];

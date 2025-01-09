@@ -1,7 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,1,0,1,647,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,2,0,1,631,0,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,1,0,1,647,0,1],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,2,0,1,631,0,1],
 "structMR_1_1TerminalVertex.html":[6,0,1,0,1,648],
@@ -249,5 +247,7 @@ var NAVTREEINDEX78 =
 "structMR_1_1TransformControls_1_1VisualParams.html#a263e10cb84fcd843581cc2aeea08d6a2":[6,0,2,0,1,656,0,11],
 "structMR_1_1TransformControls_1_1VisualParams.html#a45ae30c1c11cd9efdb0c1ffb4e90c2f7":[6,0,1,0,1,672,0,2],
 "structMR_1_1TransformControls_1_1VisualParams.html#a45ae30c1c11cd9efdb0c1ffb4e90c2f7":[6,0,2,0,1,656,0,2],
-"structMR_1_1TransformControls_1_1VisualParams.html#a4d1df5643f784225a03cc558c03d81cf":[6,0,1,0,1,672,0,1]
+"structMR_1_1TransformControls_1_1VisualParams.html#a4d1df5643f784225a03cc558c03d81cf":[6,0,1,0,1,672,0,1],
+"structMR_1_1TransformControls_1_1VisualParams.html#a4d1df5643f784225a03cc558c03d81cf":[6,0,2,0,1,656,0,1],
+"structMR_1_1TransformControls_1_1VisualParams.html#a5de0577e4227b12317f5bd798b77fbec":[6,0,1,0,1,672,0,5]
 };

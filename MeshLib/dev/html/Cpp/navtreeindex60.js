@@ -1,7 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b":[6,0,0,1,4,3],
-"structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01":[6,0,0,1,4,0],
 "structMR_1_1AABBTreePoints_1_1Node.html":[6,0,0,1,6,0],
 "structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b":[6,0,0,1,6,0,2],
 "structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3":[6,0,0,1,6,0,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX60 =
 "structMR_1_1BindVertexAttribArraySettings.html#a65f898d899c6fff2f308bfd6fd24a129":[6,0,2,0,1,57,1],
 "structMR_1_1BindVertexAttribArraySettings.html#aa0c81d5bd817513cae1dca00c0f1d0e7":[6,0,1,0,1,73,2],
 "structMR_1_1BindVertexAttribArraySettings.html#aa0c81d5bd817513cae1dca00c0f1d0e7":[6,0,2,0,1,57,2],
-"structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,1,0,1,73,7]
+"structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,1,0,1,73,7],
+"structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,2,0,1,57,7],
+"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,1,0,1,73,8]
 };
