@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,1,0,1,272,0,0],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,2,0,1,256,0,0],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,1,0,1,272,0,1],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,2,0,1,256,0,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html":[6,0,1,0,1,272,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,2,0,1,7,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,1,0,1,15,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,2,0,1,7,0,1],
-"structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,1,0,1,15,0,0],
-"structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,2,0,1,7,0,0],
-"structMR_1_1LoadedObjectT.html":[6,0,1,0,1,311]
+"structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,1,0,1,15,0,0]
 };

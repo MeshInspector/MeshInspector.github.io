@@ -3998,7 +3998,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split)</p>
-<p>left and right faces of given edge if valid are also subdivided on two parts each; the split edge will have the same face IDs, and the new edge will have new face IDs; if left or right faces of the original edge were in the region, then include new parts of these faces in the region </p><dl class="params"><dt>Parameters</dt><dd>
+<p>left and right faces of given edge if valid are also subdivided on two parts each; the split edge will keep both face IDs and their degrees, and the new edge will have new face IDs and new faces are triangular; if left or right faces of the original edge were in the region, then include new parts of these faces in the region </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) </td></tr>
   </table>
