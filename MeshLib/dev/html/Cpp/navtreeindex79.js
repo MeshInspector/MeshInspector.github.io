@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1TransformControls_1_1VisualParams.html#a4d1df5643f784225a03cc558c03d81cf":[6,0,2,0,1,656,0,1],
+"structMR_1_1TransformControls_1_1VisualParams.html#a5de0577e4227b12317f5bd798b77fbec":[6,0,1,0,1,672,0,5],
 "structMR_1_1TransformControls_1_1VisualParams.html#a5de0577e4227b12317f5bd798b77fbec":[6,0,2,0,1,656,0,5],
 "structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4":[6,0,1,0,1,672,0,9],
 "structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4":[6,0,2,0,1,656,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a":[6,0,2,0,1,23,10,5],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a6cd2f6a77d991bb28d74320269e1c849":[6,0,1,0,1,38,11,7],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a6cd2f6a77d991bb28d74320269e1c849":[6,0,2,0,1,23,10,7],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a970fa69e216b42f681e9af3c57aee477":[6,0,1,0,1,38,11,2],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a970fa69e216b42f681e9af3c57aee477":[6,0,2,0,1,23,10,2],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#abf35d4bb097cddcc6c3ecb5bb79c1398":[6,0,1,0,1,38,11,0]
+"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a970fa69e216b42f681e9af3c57aee477":[6,0,1,0,1,38,11,2]
 };

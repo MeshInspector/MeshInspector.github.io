@@ -9,6 +9,6 @@ var classmrmeshpy_1_1VolumeSegmenter =
     [ "getMinVoxel", "classmrmeshpy_1_1VolumeSegmenter.html#a3294010a643ca39c7fb5ea0ca641d42e", null ],
     [ "getSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#ac2a3d36ede1c1386e9e70d8b124dcfed", null ],
     [ "getVolumePartDimensions", "classmrmeshpy_1_1VolumeSegmenter.html#a3c3475282c2a602d2f7a50d0c629df9a", null ],
-    [ "segmentVolume", "classmrmeshpy_1_1VolumeSegmenter.html#a60c90a14974cc8d0a3209f6f36da7c1f", null ],
+    [ "segmentVolume", "classmrmeshpy_1_1VolumeSegmenter.html#a0b06b635daa58e4559682648ee9ed67b", null ],
     [ "setSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#a29e348e4928c82001b6a621223041a10", null ]
 ];

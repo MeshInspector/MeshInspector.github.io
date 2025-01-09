@@ -3838,10 +3838,15 @@ Functions</h2></td></tr>
 <tr class="separator:ga7bee2d636a1f5f931ac54f6f841c07f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga10d97d0e9b001fe0d4915154d1945e77" id="r_ga10d97d0e9b001fe0d4915154d1945e77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77">makeDegenerateBandAroundHole</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId a, FaceBitSet *outNewFaces=nullptr)</td></tr>
 <tr class="separator:ga10d97d0e9b001fe0d4915154d1945e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d4d7960f97e0c640fa2d62c25514c2e" id="r_ga2d4d7960f97e0c640fa2d62c25514c2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MakeBridgeResult.html">MakeBridgeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga2d4d7960f97e0c640fa2d62c25514c2e">makeQuadBridge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b, FaceBitSet *outNewFaces=nullptr)</td></tr>
+<tr class="separator:ga2d4d7960f97e0c640fa2d62c25514c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad16b63618dae72a30c787fcd1d7b8200" id="r_gad16b63618dae72a30c787fcd1d7b8200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MakeBridgeResult.html">MakeBridgeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gad16b63618dae72a30c787fcd1d7b8200">makeBridge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b, FaceBitSet *outNewFaces=nullptr)</td></tr>
 <tr class="separator:gad16b63618dae72a30c787fcd1d7b8200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga86668640c827d61e8ee92b7a74dc558d" id="r_ga86668640c827d61e8ee92b7a74dc558d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d">makeBridgeEdge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b)</td></tr>
 <tr class="separator:ga86668640c827d61e8ee92b7a74dc558d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad76a068dd3fae29c30797157fd646667" id="r_gad76a068dd3fae29c30797157fd646667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gad76a068dd3fae29c30797157fd646667">splitQuad</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, FaceBitSet *outNewFaces=nullptr)</td></tr>
+<tr class="memdesc:gad76a068dd3fae29c30797157fd646667"><td class="mdescLeft">&#160;</td><td class="mdescRight">given quadrangle face to the left of a, splits it in two triangles with new diagonal edge via dest(a)  <br /></td></tr>
+<tr class="separator:gad76a068dd3fae29c30797157fd646667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga030e7fa6218d19042b2a5ae052055192" id="r_ga030e7fa6218d19042b2a5ae052055192"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192">duplicateMultiHoleVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:ga030e7fa6218d19042b2a5ae052055192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicates all vertices having more than two boundary edges (and returns the number of duplications);.  <br /></td></tr>
 <tr class="separator:ga030e7fa6218d19042b2a5ae052055192"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4369,12 +4374,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga994aaba24d39e18802b546f4fdab10cc" id="r_ga994aaba24d39e18802b546f4fdab10cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc">findTwoClosestPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:ga994aaba24d39e18802b546f4fdab10cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds two closest points (first id &lt; second id) in whole point cloud  <br /></td></tr>
 <tr class="separator:ga994aaba24d39e18802b546f4fdab10cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe47a22d908eb3ff7ff61c28a6abe956" id="r_afe47a22d908eb3ff7ff61c28a6abe956"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe47a22d908eb3ff7ff61c28a6abe956">findSignedDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const VertCoords &amp;testPoints, const VertBitSet *validTestPoints=nullptr, const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;params={}, <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *projector=nullptr)</td></tr>
-<tr class="memdesc:afe47a22d908eb3ff7ff61c28a6abe956"><td class="mdescLeft">&#160;</td><td class="mdescRight">if projector is not given then CPU's computations will be used  <br /></td></tr>
-<tr class="separator:afe47a22d908eb3ff7ff61c28a6abe956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa84cd41daea65981f56908ec91fe06c3" id="r_aa84cd41daea65981f56908ec91fe06c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa84cd41daea65981f56908ec91fe06c3">findSignedDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;params={}, <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *projector=nullptr)</td></tr>
-<tr class="memdesc:aa84cd41daea65981f56908ec91fe06c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">if projector is not given then CPU's computations will be used  <br /></td></tr>
-<tr class="separator:aa84cd41daea65981f56908ec91fe06c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9190cb2d402cfa697a55e8c7d3b0616a" id="r_a9190cb2d402cfa697a55e8c7d3b0616a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9190cb2d402cfa697a55e8c7d3b0616a">findSignedDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const VertCoords &amp;testPoints, const VertBitSet *validTestPoints={}, const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;params={}, <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *projector={})</td></tr>
+<tr class="memdesc:a9190cb2d402cfa697a55e8c7d3b0616a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if projector is not given then CPU's computations will be used  <br /></td></tr>
+<tr class="separator:a9190cb2d402cfa697a55e8c7d3b0616a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af932c229587a29f4c48cb5af27b2e6eb" id="r_af932c229587a29f4c48cb5af27b2e6eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af932c229587a29f4c48cb5af27b2e6eb">findSignedDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;params={}, <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *projector={})</td></tr>
+<tr class="memdesc:af932c229587a29f4c48cb5af27b2e6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">if projector is not given then CPU's computations will be used  <br /></td></tr>
+<tr class="separator:af932c229587a29f4c48cb5af27b2e6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga15a3e18d2098f8ff33e67776a221e6fb" id="r_ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">findCollidingEdgePairs</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const <a class="el" href="#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -15536,8 +15541,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa84cd41daea65981f56908ec91fe06c3" name="aa84cd41daea65981f56908ec91fe06c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa84cd41daea65981f56908ec91fe06c3">&#9670;&#160;</a></span>findSignedDistances() <span class="overload">[1/2]</span></h2>
+<a id="af932c229587a29f4c48cb5af27b2e6eb" name="af932c229587a29f4c48cb5af27b2e6eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af932c229587a29f4c48cb5af27b2e6eb">&#9670;&#160;</a></span>findSignedDistances() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -15563,7 +15568,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>projector</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>projector</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -15585,8 +15590,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="afe47a22d908eb3ff7ff61c28a6abe956" name="afe47a22d908eb3ff7ff61c28a6abe956"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe47a22d908eb3ff7ff61c28a6abe956">&#9670;&#160;</a></span>findSignedDistances() <span class="overload">[2/2]</span></h2>
+<a id="a9190cb2d402cfa697a55e8c7d3b0616a" name="a9190cb2d402cfa697a55e8c7d3b0616a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9190cb2d402cfa697a55e8c7d3b0616a">&#9670;&#160;</a></span>findSignedDistances() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -15607,7 +15612,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>validTestPoints</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>validTestPoints</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -15617,7 +15622,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>projector</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>projector</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>

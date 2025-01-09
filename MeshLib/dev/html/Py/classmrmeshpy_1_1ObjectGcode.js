@@ -15,7 +15,7 @@ var classmrmeshpy_1_1ObjectGcode =
     [ "select", "classmrmeshpy_1_1ObjectGcode.html#a8e6b2c9143a33c0e55fe6e12f0e87339", null ],
     [ "setCNCMachineSettings", "classmrmeshpy_1_1ObjectGcode.html#ac1cabf2e04896f205e0044177e321e82", null ],
     [ "setDirtyFlags", "classmrmeshpy_1_1ObjectGcode.html#a9420d89f0e9d81ef7990811e0db5c691", null ],
-    [ "setFrontColor", "classmrmeshpy_1_1ObjectGcode.html#a6aa5de807f62d3bc6d99851e98213dc7", null ],
+    [ "setFrontColor", "classmrmeshpy_1_1ObjectGcode.html#a8db8d16b037c4156b6dcaed437fa8cc6", null ],
     [ "setGcodeSource", "classmrmeshpy_1_1ObjectGcode.html#acd193644d8f08d57339127d1088cf918", null ],
     [ "setIdleColor", "classmrmeshpy_1_1ObjectGcode.html#a7d8ad04eb3cca056f8ac505f2a05f7c6", null ],
     [ "shallowClone", "classmrmeshpy_1_1ObjectGcode.html#a880506f01e0ee9219a5b770e47966083", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,2,0,1,57,7],
+"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,1,0,1,73,8],
 "structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,2,0,1,57,8],
 "structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d":[6,0,1,0,1,73,5],
 "structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d":[6,0,2,0,1,57,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038":[6,0,0,5,1,2],
 "structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[6,0,0,5,1,1],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[6,0,0,5,1,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[6,0,0,5,1,0,1],
-"structMR_1_1ContoursDistanceMapOptions.html":[6,0,0,5,2]
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0]
 };

@@ -2,7 +2,7 @@ var namespacemrcudapy =
 [
     [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
     [ "PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ],
-    [ "computeDistanceMap", "namespacemrcudapy.html#a41478a9fffe7ff586d84d821233499c5", null ],
+    [ "computeDistanceMap", "namespacemrcudapy.html#afb6959a79e7044add2174d0f636bbce7", null ],
     [ "computeDistanceMapHeapBytes", "namespacemrcudapy.html#af293abec06c54894a7f9650efd31e859", null ],
     [ "computeSkyViewFactor", "namespacemrcudapy.html#acd91e89fc658222b8fe9768b542f21bd", null ],
     [ "distanceMapFromContours", "namespacemrcudapy.html#a9279d8b3b9636326c4f24d472afdff1d", null ],

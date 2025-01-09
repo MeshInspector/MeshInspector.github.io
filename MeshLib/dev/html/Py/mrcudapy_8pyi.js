@@ -2,7 +2,7 @@ var mrcudapy_8pyi =
 [
     [ "mrcudapy.FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
     [ "mrcudapy.PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ],
-    [ "computeDistanceMap", "mrcudapy_8pyi.html#a41478a9fffe7ff586d84d821233499c5", null ],
+    [ "computeDistanceMap", "mrcudapy_8pyi.html#afb6959a79e7044add2174d0f636bbce7", null ],
     [ "computeDistanceMapHeapBytes", "mrcudapy_8pyi.html#af293abec06c54894a7f9650efd31e859", null ],
     [ "computeSkyViewFactor", "mrcudapy_8pyi.html#acd91e89fc658222b8fe9768b542f21bd", null ],
     [ "distanceMapFromContours", "mrcudapy_8pyi.html#a9279d8b3b9636326c4f24d472afdff1d", null ],

@@ -207,7 +207,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
-<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ad195f5ec2ee9c71218df767dd47a38bd">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Prepare region to extrude</span></div>
 <div class="line">faces_to_extrude = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1FaceBitSet.html">mrmeshpy.FaceBitSet</a>()</div>
@@ -216,7 +216,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line">faces_to_extrude.set(<a class="code hl_classRef" href="./Py/classmrmeshpy_1_1FaceId.html">mrmeshpy.FaceId</a>(2), <span class="keyword">True</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Create duplicated verts on region boundary</span></div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#acc4c1875b4e376059873bcdc8952ee66">mrmeshpy.makeDegenerateBandAroundRegion</a>(mesh, faces_to_extrude)</div>
+<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a05d6a4fb89f478b3c28ff98fba1e0ef0">mrmeshpy.makeDegenerateBandAroundRegion</a>(mesh, faces_to_extrude)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Find vertices that will be moved</span></div>
 <div class="line">verts_for_move = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac62c12805463b90e4926b15482a7ae92">mrmeshpy.getIncidentVerts</a>(mesh.topology, faces_to_extrude)</div>
@@ -230,15 +230,15 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line">mesh.invalidateCaches()</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save mesh</span></div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span>)</div>
+<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span>)</div>
 <div class="ttc" id="aclassmrmeshpy_1_1FaceBitSet_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1FaceBitSet.html">mrmeshpy::FaceBitSet</a></div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1FaceId_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1FaceId.html">mrmeshpy::FaceId</a></div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy::Vector3f</a></div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1VertId_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1VertId.html">mrmeshpy::VertId</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a34254796865572bdb9d0ac8fe8b24854"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a34254796865572bdb9d0ac8fe8b24854">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='MR::MeshLoadSettings{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a7d060e0695c7b9c53e265318c8c4b4c6"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a7d060e0695c7b9c53e265318c8c4b4c6">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='MR::SaveSettings{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a05d6a4fb89f478b3c28ff98fba1e0ef0"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a05d6a4fb89f478b3c28ff98fba1e0ef0">mrmeshpy::makeDegenerateBandAroundRegion</a></div><div class="ttdeci">None makeDegenerateBandAroundRegion(Mesh mesh, FaceBitSet region, MakeDegenerateBandAroundRegionParams params='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ab08d4251433e917732307d389594e285"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac62c12805463b90e4926b15482a7ae92"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac62c12805463b90e4926b15482a7ae92">mrmeshpy::getIncidentVerts</a></div><div class="ttdeci">VertBitSet getIncidentVerts(MeshTopology topology, FaceBitSet faces)</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_acc4c1875b4e376059873bcdc8952ee66"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#acc4c1875b4e376059873bcdc8952ee66">mrmeshpy::makeDegenerateBandAroundRegion</a></div><div class="ttdeci">None makeDegenerateBandAroundRegion(Mesh mesh, FaceBitSet region, MakeDegenerateBandAroundRegionParams params='MR::MakeDegenerateBandAroundRegionParams{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ad195f5ec2ee9c71218df767dd47a38bd"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ad195f5ec2ee9c71218df767dd47a38bd">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
