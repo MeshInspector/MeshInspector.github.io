@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1MouseScrollListener.html#a552306cda5d40eee26cb9eff971d9a34":[6,0,1,0,1,368,0],
 "structMR_1_1MouseScrollListener.html#a552306cda5d40eee26cb9eff971d9a34":[6,0,2,0,1,352,0],
 "structMR_1_1MouseScrollListener.html#a5b42b11b15cd554ad16b8fc8fd5449ef":[6,0,1,0,1,368,2],
 "structMR_1_1MouseScrollListener.html#a5b42b11b15cd554ad16b8fc8fd5449ef":[6,0,2,0,1,352,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,2,0,1,407,8],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,1,0,1,423,1],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,2,0,1,407,1],
-"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[6,0,1,0,1,423,1,0],
-"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[6,0,2,0,1,407,1,0]
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[6,0,1,0,1,423,1,0]
 };

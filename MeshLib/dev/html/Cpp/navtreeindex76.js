@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1SaveSettings.html":[6,0,1,0,1,571],
 "structMR_1_1SaveSettings.html":[6,0,2,0,1,555],
 "structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f":[6,0,1,0,1,571,4],
 "structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f":[6,0,2,0,1,555,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,2,0,1,600,2],
 "structMR_1_1SortIntersectionsData.html":[6,0,1,0,1,617],
 "structMR_1_1SortIntersectionsData.html":[6,0,2,0,1,601],
-"structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,617,5],
-"structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,2,0,1,601,5]
+"structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,617,5]
 };

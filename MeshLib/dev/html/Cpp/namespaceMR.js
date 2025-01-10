@@ -2251,6 +2251,7 @@ var namespaceMR =
     [ "makeRigidXf", "group__MathGroup.html#gaf420bd1285dda4239d2ac0fac2eff1f9", null ],
     [ "makeRigidXf", "namespaceMR.html#a433a8d6bdf429a6aeef4abc1a9f05798", null ],
     [ "makeSignedByWindingNumber", "namespaceMR.html#aeb145c323941c5fd06c513bc640d05b1", null ],
+    [ "makeSmoothBridge", "group__FillHoleGroup.html#gae081fd1e2bfcbf6522b3c28a35ebced2", null ],
     [ "makeSphere", "namespaceMR.html#a63679b306dbff600a8f7c5008a489d9d", null ],
     [ "makeSpline", "namespaceMR.html#a7fdb7eb094811ed5d74ac5dbb128319f", null ],
     [ "makeSpline", "namespaceMR.html#a2e5632fff2d66b50a1ed380ebc05183a", null ],
