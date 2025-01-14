@@ -247,7 +247,7 @@ var NAVTREEINDEX154 =
 "namespacemrmeshpy.html#a267cdbb8bd9f3268422bdea02ed29aa7":[6,1,0,0,2,1602],
 "namespacemrmeshpy.html#a26bdaaef23d181bfcb71bcf928a8e174":[6,1,0,0,2,1772],
 "namespacemrmeshpy.html#a26efdefc8eb83aff5dff436e800f7a24":[6,1,0,0,2,2566],
-"namespacemrmeshpy.html#a274731b4c19fb1f56f6153a677f8b524":[6,1,0,0,2,1099],
 "namespacemrmeshpy.html#a274ac801357efd270484b2ce35cea720":[6,1,0,0,2,2112],
-"namespacemrmeshpy.html#a27732f9034bb45b82ff3a5dfae719a6f":[6,1,0,0,2,2168]
+"namespacemrmeshpy.html#a27732f9034bb45b82ff3a5dfae719a6f":[6,1,0,0,2,2168],
+"namespacemrmeshpy.html#a2779da88d1389f8ea624a4fa8cf78312":[6,1,0,0,2,2601]
 };

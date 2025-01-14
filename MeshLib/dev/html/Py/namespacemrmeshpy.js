@@ -1099,7 +1099,7 @@ var namespacemrmeshpy =
     [ "accumulatePoints", "namespacemrmeshpy.html#a433d71e69a365b50911b2b3fb25d5855", null ],
     [ "accumulatePoints", "namespacemrmeshpy.html#a82d67275b4f04c08582dbb834c728300", null ],
     [ "accumulateWeighedPoints", "namespacemrmeshpy.html#a44396d2f010b3cb18e763b0d13b8d199", null ],
-    [ "addBaseToPlanarMesh", "namespacemrmeshpy.html#a274731b4c19fb1f56f6153a677f8b524", null ],
+    [ "addBaseToPlanarMesh", "namespacemrmeshpy.html#a2e1fdf1e1a10f5577a0b184445c8d0f3", null ],
     [ "addLeftBand", "namespacemrmeshpy.html#ac67fac29ef568fad8500d952324480e7", null ],
     [ "addNoise", "namespacemrmeshpy.html#a8cd5dcf0a14fd913c77b260f7ea507b1", null ],
     [ "alignTextToMesh", "namespacemrmeshpy.html#aecbb6cd1ba9dc9fafa811d1a509212c6", null ],

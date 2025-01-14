@@ -1216,7 +1216,7 @@ var mrmeshpy_8pyi =
     [ "accumulatePoints", "mrmeshpy_8pyi.html#a433d71e69a365b50911b2b3fb25d5855", null ],
     [ "accumulatePoints", "mrmeshpy_8pyi.html#a82d67275b4f04c08582dbb834c728300", null ],
     [ "accumulateWeighedPoints", "mrmeshpy_8pyi.html#a44396d2f010b3cb18e763b0d13b8d199", null ],
-    [ "addBaseToPlanarMesh", "mrmeshpy_8pyi.html#a274731b4c19fb1f56f6153a677f8b524", null ],
+    [ "addBaseToPlanarMesh", "mrmeshpy_8pyi.html#a2e1fdf1e1a10f5577a0b184445c8d0f3", null ],
     [ "addLeftBand", "mrmeshpy_8pyi.html#ac67fac29ef568fad8500d952324480e7", null ],
     [ "addNoise", "mrmeshpy_8pyi.html#a8cd5dcf0a14fd913c77b260f7ea507b1", null ],
     [ "alignTextToMesh", "mrmeshpy_8pyi.html#aecbb6cd1ba9dc9fafa811d1a509212c6", null ],
