@@ -165,6 +165,7 @@ var hierarchy =
     [ "mrmeshpy.ColorMapAggregator_VertTag_AggregateMode", "classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode.html", null ],
     [ "mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap", "classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap.html", null ],
     [ "mrmeshpy.GcodeProcessor.Command", "classmrmeshpy_1_1GcodeProcessor_1_1Command.html", null ],
+    [ "mrmeshpy.CompensateRadiusParams", "classmrmeshpy_1_1CompensateRadiusParams.html", null ],
     [ "mrmeshpy.ComputeSteepestDescentPathSettings", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html", null ],
     [ "mrmeshpy.Cone3ApproximationParams", "classmrmeshpy_1_1Cone3ApproximationParams.html", null ],
     [ "mrmeshpy.Cone3d", "classmrmeshpy_1_1Cone3d.html", null ],

@@ -482,6 +482,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html">CommandLoop</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CompensateRadiusParams.html">CompensateRadiusParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure with parameters for <code>compensateRadius</code> function  <a href="structMR_1_1CompensateRadiusParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cone3.html">Cone3</a></td></tr>
@@ -4528,6 +4531,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a93b72484483edfe6fbd2d208c62baf3d" id="r_a93b72484483edfe6fbd2d208c62baf3d"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
 <tr class="memitem:a93b72484483edfe6fbd2d208c62baf3d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a93b72484483edfe6fbd2d208c62baf3d">projectFaceAttribute</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh, F &amp;&amp;func, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb)</td></tr>
 <tr class="separator:a93b72484483edfe6fbd2d208c62baf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8544e1baad1fd29e080b74865bb8c0a0" id="r_a8544e1baad1fd29e080b74865bb8c0a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8544e1baad1fd29e080b74865bb8c0a0">compensateRadius</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1CompensateRadiusParams.html">CompensateRadiusParams</a> &amp;params)</td></tr>
+<tr class="separator:a8544e1baad1fd29e080b74865bb8c0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga774d7b2ef218b7634faca3e3300f13b9" id="r_ga774d7b2ef218b7634faca3e3300f13b9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga774d7b2ef218b7634faca3e3300f13b9"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9">rayBoxIntersect</a> (const <a class="el" href="#a37d1429bcc1cfa30af36ca6313eb4a5d">Box3</a>&lt; T &gt; &amp;box, const <a class="el" href="structMR_1_1RayOrigin.html">RayOrigin</a>&lt; T &gt; &amp;rayOrigin, T &amp;t0, T &amp;t1, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; T &gt; &amp;prec)</td></tr>
 <tr class="separator:ga774d7b2ef218b7634faca3e3300f13b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -11840,6 +11845,36 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>in case of empty vector, returns "Empty" in case of single input file.ext, returns ".EXT" in case of multiple files with same extension, returns ".EXTs" otherwise returns "Files" </p>
+
+</div>
+</div>
+<a id="a8544e1baad1fd29e080b74865bb8c0a0" name="a8544e1baad1fd29e080b74865bb8c0a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8544e1baad1fd29e080b74865bb8c0a0">&#9670;&#160;</a></span>compensateRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::compensateRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CompensateRadiusParams.html">CompensateRadiusParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>compensate spherical milling tool radius in given mesh region making it possible to mill it please note that it will change topology inside region also please note that boundaries of the region are fixed </p>
 
 </div>
 </div>

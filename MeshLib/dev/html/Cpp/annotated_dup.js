@@ -294,6 +294,7 @@ var annotated_dup =
       [ "ColorTheme", "classMR_1_1ColorTheme.html", "classMR_1_1ColorTheme" ],
       [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ],
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ],
+      [ "CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", "structMR_1_1CompensateRadiusParams" ],
       [ "ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", "structMR_1_1ComputeSteepestDescentPathSettings" ],
       [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],
       [ "Cone3Approximation", "classMR_1_1Cone3Approximation.html", "classMR_1_1Cone3Approximation" ],

@@ -295,6 +295,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRProjectionMeshAttribute.h", "MRProjectionMeshAttribute_8h.html", "MRProjectionMeshAttribute_8h" ],
     [ "MRQuadraticForm.h", "MRQuadraticForm_8h.html", null ],
     [ "MRQuaternion.h", "MRQuaternion_8h.html", null ],
+    [ "MRRadiusCompensation.h", "MRRadiusCompensation_8h.html", "MRRadiusCompensation_8h" ],
     [ "MRRadiusMeasurementObject.h", "MRRadiusMeasurementObject_8h.html", "MRRadiusMeasurementObject_8h" ],
     [ "MRRayBoxIntersection.h", "MRRayBoxIntersection_8h.html", "MRRayBoxIntersection_8h" ],
     [ "MRRayBoxIntersection2.h", "MRRayBoxIntersection2_8h.html", "MRRayBoxIntersection2_8h" ],
