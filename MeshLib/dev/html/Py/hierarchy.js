@@ -409,6 +409,7 @@ var hierarchy =
       [ "mrmeshpy.ChangePolylineAction", "classmrmeshpy_1_1ChangePolylineAction.html", null ],
       [ "mrmeshpy.ChangePolylinePointsAction", "classmrmeshpy_1_1ChangePolylinePointsAction.html", null ],
       [ "mrmeshpy.ChangePolylineTopologyAction", "classmrmeshpy_1_1ChangePolylineTopologyAction.html", null ],
+      [ "mrmeshpy.ChangeScaleAction", "classmrmeshpy_1_1ChangeScaleAction.html", null ],
       [ "mrmeshpy.ChangeSceneAction", "classmrmeshpy_1_1ChangeSceneAction.html", null ],
       [ "mrmeshpy.ChangeSceneObjectsOrder", "classmrmeshpy_1_1ChangeSceneObjectsOrder.html", null ],
       [ "mrmeshpy.ChangeSurfaceAction", "classmrmeshpy_1_1ChangeSurfaceAction.html", null ],

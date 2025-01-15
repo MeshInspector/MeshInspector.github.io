@@ -275,6 +275,7 @@ var annotated_dup =
       [ "ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", "classMR_1_1ChangePolylineAction" ],
       [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html", "classMR_1_1ChangePolylinePointsAction" ],
       [ "ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html", "classMR_1_1ChangePolylineTopologyAction" ],
+      [ "ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", "classMR_1_1ChangeScaleAction" ],
       [ "ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", "classMR_1_1ChangeSceneAction" ],
       [ "ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", "classMR_1_1ChangeSceneObjectsOrder" ],
       [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", "classMR_1_1ChangeSurfaceAction" ],

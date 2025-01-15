@@ -423,6 +423,7 @@ var hierarchy =
       [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", null ],
       [ "MR::ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html", null ],
       [ "MR::ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html", null ],
+      [ "MR::ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", null ],
       [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", null ],
       [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", null ],
       [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", null ],
