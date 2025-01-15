@@ -5323,10 +5323,11 @@ Functions</h2></td></tr>
 <tr class="separator:a9cab0079b5bdf8b5ebb5ba774cd76b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16bb6fdbdb21a92b1fa0da2432cc699a" id="r_a16bb6fdbdb21a92b1fa0da2432cc699a"><td class="memTemplParams" colspan="2">template&lt;class HistoryActionType , typename... Args&gt; </td></tr>
 <tr class="memitem:a16bb6fdbdb21a92b1fa0da2432cc699a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a16bb6fdbdb21a92b1fa0da2432cc699a">AppendHistory</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:a16bb6fdbdb21a92b1fa0da2432cc699a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function constructs history action and appends it to viewer's global history store.  <br /></td></tr>
 <tr class="separator:a16bb6fdbdb21a92b1fa0da2432cc699a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82568b5f11eaffabab107d98250d2edf" id="r_a82568b5f11eaffabab107d98250d2edf"><td class="memTemplParams" colspan="2">template&lt;class HistoryActionType &gt; </td></tr>
-<tr class="memitem:a82568b5f11eaffabab107d98250d2edf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a82568b5f11eaffabab107d98250d2edf">AppendHistory</a> (std::shared_ptr&lt; HistoryActionType &gt; action)</td></tr>
-<tr class="separator:a82568b5f11eaffabab107d98250d2edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63eff6abd3e68ba4393b53531873036a" id="r_a63eff6abd3e68ba4393b53531873036a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63eff6abd3e68ba4393b53531873036a">AppendHistory</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt; action)</td></tr>
+<tr class="memdesc:a63eff6abd3e68ba4393b53531873036a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function appends given history action to viewer's global history store.  <br /></td></tr>
+<tr class="separator:a63eff6abd3e68ba4393b53531873036a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5e79c83f968cdf915fac0d9a5136768" id="r_af5e79c83f968cdf915fac0d9a5136768"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5e79c83f968cdf915fac0d9a5136768">FilterHistoryByCondition</a> (<a class="el" href="#a85276508657eac277a84365d3e41c118">HistoryStackFilter</a> filteringCondition, bool deepFiltering=true)</td></tr>
 <tr class="separator:af5e79c83f968cdf915fac0d9a5136768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ba59ae26faaa746ba815d967500996" id="r_a64ba59ae26faaa746ba815d967500996"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ba59ae26faaa746ba815d967500996">GetClipboardText</a> ()</td></tr>
@@ -10220,24 +10221,34 @@ template&lt;class HistoryActionType , typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>This function constructs history action and appends it to viewer's global history store. </p>
+
 </div>
 </div>
-<a id="a82568b5f11eaffabab107d98250d2edf" name="a82568b5f11eaffabab107d98250d2edf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82568b5f11eaffabab107d98250d2edf">&#9670;&#160;</a></span>AppendHistory() <span class="overload">[2/2]</span></h2>
+<a id="a63eff6abd3e68ba4393b53531873036a" name="a63eff6abd3e68ba4393b53531873036a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63eff6abd3e68ba4393b53531873036a">&#9670;&#160;</a></span>AppendHistory() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class HistoryActionType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MR::AppendHistory </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; HistoryActionType &gt;</td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>This function appends given history action to viewer's global history store. </p>
 
 </div>
 </div>

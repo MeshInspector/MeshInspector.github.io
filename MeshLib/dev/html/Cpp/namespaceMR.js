@@ -1509,7 +1509,7 @@ var namespaceMR =
     [ "alignTextToMesh", "namespaceMR.html#afe3d8a0d392d8c39709a37e08a665777", null ],
     [ "appendGPUVisibleFaces", "namespaceMR.html#a576eea4c4f274e1c943476be2be2394e", null ],
     [ "AppendHistory", "namespaceMR.html#a16bb6fdbdb21a92b1fa0da2432cc699a", null ],
-    [ "AppendHistory", "namespaceMR.html#a82568b5f11eaffabab107d98250d2edf", null ],
+    [ "AppendHistory", "namespaceMR.html#a63eff6abd3e68ba4393b53531873036a", null ],
     [ "applyDouble", "namespaceMR.html#a7aba106487b0adfd357e9232e18a922f", null ],
     [ "applyDouble", "namespaceMR.html#a7b5f265567104240be13bb0adc6d84f7", null ],
     [ "applyFloat", "namespaceMR.html#a423dfbb3e8fe2d355d3569c58f27881f", null ],
