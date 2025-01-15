@@ -36,7 +36,7 @@ var searchData=
   ['basinfull_33',['BasinFull',['.././Py/classmrmeshpy_1_1PrecipitationSimulator_1_1Event.html#a3c190e40f1144a03df7ed275fa6d93bb',1,'mrmeshpy::PrecipitationSimulator::Event']]],
   ['basisaxes_34',['basisAxes',['.././Cpp/classMR_1_1Viewer.html#aabff40e9f5b2102161db747f1d36c787',1,'MR::Viewer']]],
   ['bastards_5f_35',['bastards_',['.././Cpp/classMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918',1,'MR::ObjectChildrenHolder']]],
-  ['bdverts_36',['bdVerts',['.././Cpp/structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd',1,'MR::DecimateSettings']]],
+  ['bdverts_36',['bdVerts',['.././Cpp/structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66',1,'MR::DecimateSettings']]],
   ['before_37',['before',['.././Cpp/structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1',1,'MR::SceneReorder']]],
   ['beforeedgesplit_38',['beforeEdgeSplit',['.././Cpp/structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8',1,'MR::SubdivideSettings']]],
   ['beg_39',['beg',['.././Cpp/structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0',1,'MR::IdRange']]],

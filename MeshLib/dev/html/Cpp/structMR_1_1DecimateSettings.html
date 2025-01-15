@@ -211,8 +211,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae341a50784372571b1b5bb3e6948981e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee15c4faad0020190c28ac13da3e735e" id="r_aee15c4faad0020190c28ac13da3e735e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee15c4faad0020190c28ac13da3e735e">touchBdVerts</a> = true</td></tr>
 <tr class="separator:aee15c4faad0020190c28ac13da3e735e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bc3106034dd8abdbb3067c7868ca6dd" id="r_a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc3106034dd8abdbb3067c7868ca6dd">bdVerts</a> = nullptr</td></tr>
-<tr class="separator:a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc44005d50714fe75f875a25f3a59f66" id="r_abc44005d50714fe75f875a25f3a59f66"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc44005d50714fe75f875a25f3a59f66">bdVerts</a> = nullptr</td></tr>
+<tr class="separator:abc44005d50714fe75f875a25f3a59f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07" id="r_aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="separator:aebecde304889b67910dd05d032cb8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5901e72dc3fd85459f38318a894afbbd" id="r_a5901e72dc3fd85459f38318a894afbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5901e72dc3fd85459f38318a894afbbd">preCollapse</a></td></tr>
@@ -278,18 +278,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9bc3106034dd8abdbb3067c7868ca6dd" name="a9bc3106034dd8abdbb3067c7868ca6dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc3106034dd8abdbb3067c7868ca6dd">&#9670;&#160;</a></span>bdVerts</h2>
+<a id="abc44005d50714fe75f875a25f3a59f66" name="abc44005d50714fe75f875a25f3a59f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc44005d50714fe75f875a25f3a59f66">&#9670;&#160;</a></span>bdVerts</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const VertBitSet* MR::DecimateSettings::bdVerts = nullptr</td>
+          <td class="memname">VertBitSet* MR::DecimateSettings::bdVerts = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set </p>
+<p>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set; the algorithm updates this set if it packs the mesh </p>
 
 </div>
 </div>
