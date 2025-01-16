@@ -30,5 +30,6 @@ var searchData=
   ['worldxf_27',['worldXf',['../structMRMeshToVolumeSettings.html#ad284c56b0cd2dc09209b87192950a104',1,'MRMeshToVolumeSettings::worldXf'],['../structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967',1,'MR::MeshToVolumeParams::worldXf']]],
   ['worldxfchangedsignal_28',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
   ['wrap_29',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap'],['../structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65',1,'MR::GlTexture::Settings::wrap']]],
-  ['ww_30',['ww',['../structMR_1_1SymMatrix4.html#a5f21446d34d40b1bc92d85397bc24134',1,'MR::SymMatrix4']]]
+  ['writehistory_30',['writeHistory',['../structMR_1_1PickPointManager_1_1Params.html#a2ecbe3e82d23360d9534372520dbb5d8',1,'MR::PickPointManager::Params']]],
+  ['ww_31',['ww',['../structMR_1_1SymMatrix4.html#a5f21446d34d40b1bc92d85397bc24134',1,'MR::SymMatrix4']]]
 ];

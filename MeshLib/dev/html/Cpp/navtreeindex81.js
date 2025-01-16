@@ -1,5 +1,16 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb":[6,0,0,0,12,0,10],
+"structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[6,0,0,0,12,0,1],
+"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[6,0,0,0,12,0,26],
+"structMR_1_1Vector2.html#ab4e40155ff2cca5786fd9aa586efb49c":[6,0,0,0,12,0,12],
+"structMR_1_1Vector2.html#ab7fcc36a4aed6877f53de2be29034e67":[6,0,0,0,12,0,18],
+"structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e":[6,0,0,0,12,0,20],
+"structMR_1_1Vector2.html#ad798818540cd3ad9d2c98a4f978f8e5c":[6,0,0,0,12,0,11],
+"structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621":[6,0,0,0,12,0,22],
+"structMR_1_1Vector2.html#aff0fc940c14dd8e86b4cdb80bf795a37":[6,0,0,0,12,0,15],
+"structMR_1_1Vector3.html":[6,0,0,0,12,1],
+"structMR_1_1Vector3.html#a12c01f9c90215072af9bd754247ca2db":[6,0,0,0,12,1,16],
 "structMR_1_1Vector3.html#a14f7f0adb55e73e84d46a542b9b91186":[6,0,0,0,12,1,26],
 "structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff":[6,0,0,0,12,1,1],
 "structMR_1_1Vector3.html#a300a225e9dea78d6b7bd208ea82bf92b":[6,0,0,0,12,1,24],
@@ -238,16 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,2,0,1,729],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,1,0,1,745,0],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,2,0,1,729,0],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[6,0,1,0,1,746],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[6,0,2,0,1,730],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html#a43f515364672b7e4b97886189872ead0":[6,0,1,0,1,746,0],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html#a43f515364672b7e4b97886189872ead0":[6,0,2,0,1,730,0],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,1,0,1,40,0],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,2,0,1,24,0],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a41a585b4f3781b67e22daa8ff5b9479d":[6,0,1,0,1,40,0,0],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a41a585b4f3781b67e22daa8ff5b9479d":[6,0,2,0,1,24,0,0],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a5159934791ea7584f07b333cd28777b3":[6,0,1,0,1,40,0,2],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a5159934791ea7584f07b333cd28777b3":[6,0,2,0,1,24,0,2],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a9d975baef9f26c3a77c6769d4b760ac7":[6,0,1,0,1,40,0,1],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a9d975baef9f26c3a77c6769d4b760ac7":[6,0,2,0,1,24,0,1]
+"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[6,0,1,0,1,746]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a7664329c16a19590708d5686044a648a":[6,0,1,0,1,69,0,0],
+"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a7664329c16a19590708d5686044a648a":[6,0,2,0,1,53,0,0],
+"structMR_1_1BindVertexAttribArraySettings.html":[6,0,1,0,1,73],
 "structMR_1_1BindVertexAttribArraySettings.html":[6,0,2,0,1,57],
 "structMR_1_1BindVertexAttribArraySettings.html#a1e06765a94d24f632c968c4d04f8280a":[6,0,1,0,1,73,0],
 "structMR_1_1BindVertexAttribArraySettings.html#a1e06765a94d24f632c968c4d04f8280a":[6,0,2,0,1,57,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ConnectionHolder.html":[6,0,1,0,1,147],
 "structMR_1_1ConnectionHolder.html":[6,0,2,0,1,131],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,1,0,1,147,2],
-"structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,2,0,1,131,2],
-"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,1,0,1,147,0],
-"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,2,0,1,131,0],
-"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,1,0,1,147,1]
+"structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,2,0,1,131,2]
 };

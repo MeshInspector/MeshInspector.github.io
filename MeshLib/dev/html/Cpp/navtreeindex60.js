@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"structMRVector3f.html#a5c5342e25c41c46694167c41774234bd":[6,0,2,0,60,0],
+"structMRVector3f.html#a9fbd6e9840c8d988a628ec3519c05a0c":[6,0,2,0,60,2],
+"structMRVector3i.html":[6,0,2,0,61],
 "structMRVector3i.html#a4ea0c126c47204db82499a13ec248f4b":[6,0,2,0,61,2],
 "structMRVector3i.html#ab1a14f9aeee6b3d84ca6c4853100e6fd":[6,0,2,0,61,1],
 "structMRVector3i.html#acdce7eca65ea16ba75e1cecba23ebb60":[6,0,2,0,61,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,1,0,1,69,0],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,2,0,1,53,0],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a29e14da81c0701108ac352055c7e9b99":[6,0,1,0,1,69,0,1],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a29e14da81c0701108ac352055c7e9b99":[6,0,2,0,1,53,0,1],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a7664329c16a19590708d5686044a648a":[6,0,1,0,1,69,0,0],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a7664329c16a19590708d5686044a648a":[6,0,2,0,1,53,0,0],
-"structMR_1_1BindVertexAttribArraySettings.html":[6,0,1,0,1,73]
+"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a29e14da81c0701108ac352055c7e9b99":[6,0,2,0,1,53,0,1]
 };

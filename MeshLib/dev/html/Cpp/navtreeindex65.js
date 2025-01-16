@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1FileLoadOptions.html":[6,0,1,0,1,216],
+"structMR_1_1FileLoadOptions.html":[6,0,2,0,1,200],
+"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,1,0,1,216,1],
 "structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,2,0,1,200,1],
 "structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,1,0,1,216,0],
 "structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,2,0,1,200,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,1,0,1,251,3],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,2,0,1,235,3],
 "structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,1,0,1,251,1],
-"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,235,1],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,1,0,1,251,6],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,2,0,1,235,6],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,1,0,1,251,2]
+"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,235,1]
 };

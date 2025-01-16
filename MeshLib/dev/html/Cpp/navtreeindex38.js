@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1SaveObjectMenuItem.html#a9d4f87039cdb3b22c996766852295894":[6,0,1,0,1,567,1],
+"classMR_1_1SaveObjectMenuItem.html#a9d4f87039cdb3b22c996766852295894":[6,0,2,0,1,551,1],
 "classMR_1_1SaveObjectMenuItem.html#ab83c8b24422ca3c034cb679586248b93":[6,0,1,0,1,567,2],
 "classMR_1_1SaveObjectMenuItem.html#ab83c8b24422ca3c034cb679586248b93":[6,0,2,0,1,551,2],
 "classMR_1_1SaveOnClosePlugin.html":[6,0,1,0,1,569],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1SeparationPointStorage.html#a99db5fa322a3860d51db5e4292a83786":[6,0,1,0,1,598,5],
 "classMR_1_1SeparationPointStorage.html#a99db5fa322a3860d51db5e4292a83786":[6,0,2,0,1,582,5],
 "classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[6,0,1,0,1,598,6],
-"classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[6,0,2,0,1,582,6],
-"classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[6,0,1,0,1,598,2],
-"classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[6,0,2,0,1,582,2]
+"classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[6,0,2,0,1,582,6]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[6,0,1,0,1,670,1],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[6,0,2,0,1,654,1],
+"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,1,0,1,671],
+"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,2,0,1,655],
+"structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6":[6,0,1,0,1,671,1],
+"structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6":[6,0,2,0,1,655,1],
+"structMR_1_1TouchpadZoomGestureEndListener.html#ad1668e1d1874a834c7c6875f53d9f728":[6,0,1,0,1,671,2],
+"structMR_1_1TouchpadZoomGestureEndListener.html#ad1668e1d1874a834c7c6875f53d9f728":[6,0,2,0,1,655,2],
+"structMR_1_1TouchpadZoomGestureEndListener.html#add56d98f370e0b09bbe4eb85331b6cad":[6,0,1,0,1,671,0],
+"structMR_1_1TouchpadZoomGestureEndListener.html#add56d98f370e0b09bbe4eb85331b6cad":[6,0,2,0,1,655,0],
+"structMR_1_1TouchpadZoomGestureEndListener.html#add9106c04de1117bd9eba7d3cd191637":[6,0,1,0,1,671,3],
 "structMR_1_1TouchpadZoomGestureEndListener.html#add9106c04de1117bd9eba7d3cd191637":[6,0,2,0,1,655,3],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html":[6,0,1,0,1,672],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html":[6,0,2,0,1,656],
@@ -238,16 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[6,0,1,0,1,38,8,4],
 "structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[6,0,2,0,1,23,7,4],
 "structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85":[6,0,1,0,1,38,8,2],
-"structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85":[6,0,2,0,1,23,7,2],
-"structMR_1_1UI_1_1PlotAxis.html#abb279d966586784fbc7e5ce1e6cc8fd5":[6,0,1,0,1,38,8,7],
-"structMR_1_1UI_1_1PlotAxis.html#abb279d966586784fbc7e5ce1e6cc8fd5":[6,0,2,0,1,23,7,7],
-"structMR_1_1UI_1_1PlotAxis.html#ac57871303ee04628acb4f6e93f60fa53":[6,0,1,0,1,38,8,5],
-"structMR_1_1UI_1_1PlotAxis.html#ac57871303ee04628acb4f6e93f60fa53":[6,0,2,0,1,23,7,5],
-"structMR_1_1UI_1_1PlotAxis.html#ae08c70c753317b1683bed91ac16e30dc":[6,0,1,0,1,38,8,3],
-"structMR_1_1UI_1_1PlotAxis.html#ae08c70c753317b1683bed91ac16e30dc":[6,0,2,0,1,23,7,3],
-"structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[6,0,1,0,1,38,8,9],
-"structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[6,0,2,0,1,23,7,9],
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html":[6,0,1,0,1,38,9],
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html":[6,0,2,0,1,23,8],
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c":[6,0,1,0,1,38,9,2]
+"structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85":[6,0,2,0,1,23,7,2]
 };
