@@ -37,7 +37,7 @@ var NAVTREE =
       [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ]
     ] ],
     [ "Examples", "Examples.html", [
-      [ "General Samples", "Examples.html#GeneralExamples", [
+      [ "General Samples", "@ref Examples#GeneralExamples", [
         [ "Application Based on MeshLib", "BasedApplication.html", null ],
         [ "Mesh Load and Save", "ExampleMeshLoadSave.html", null ],
         [ "Export Raw Triangles", "ExampleMeshExport.html", null ],
@@ -57,7 +57,7 @@ var NAVTREE =
         [ "Triangulation", "ExampleTriangulation.html", null ],
         [ "Text to Mesh", "ExampleMeshFromText.html", null ]
       ] ],
-      [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
+      [ "Python Specific Samples", "@ref Examples#PythonSpecificExamples", [
         [ "Viewer", "ExampleViewer.html", null ],
         [ "Plotly Visualization", "ExamplePlotly.html", null ],
         [ "Using Numpy", "ExampleNumpy.html", null ],
@@ -79,7 +79,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"APIPage.html"
+"@ref Examples#GeneralExamples"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
