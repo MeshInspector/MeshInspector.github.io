@@ -1,7 +1,6 @@
 var NAVTREEINDEX0 =
 {
-"@ref Examples#GeneralExamples":[4,0],
-"@ref Examples#PythonSpecificExamples":[4,1],
+"@ref":[1,2],
 "APIPage.html":[6],
 "BasedApplication.html":[4,0,0],
 "Cpp/APICppPage.html":[6,0],
@@ -28,10 +27,11 @@ var NAVTREEINDEX0 =
 "ExampleTriangulation.html":[4,0,16],
 "ExampleViewer.html":[4,1,0],
 "Examples.html":[4],
+"Examples.html#GeneralExamples":[4,0],
+"Examples.html#PythonSpecificExamples":[4,1],
 "FirstPluginTutorial.html":[3,0],
 "InstallationGuide.html":[1],
 "License.html":[2],
-"MeshLibCSharpSetupGuide.html":[1,2],
 "MeshLibCmakeSetupGuide.html":[1,3],
 "MeshLibCppSetupGuide.html":[1,1],
 "MeshLibPythonSetupGuide.html":[1,0],

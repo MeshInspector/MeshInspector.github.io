@@ -29,7 +29,7 @@ var NAVTREE =
     [ "Getting Started", "InstallationGuide.html", [
       [ "Python", "MeshLibPythonSetupGuide.html", null ],
       [ "C++", "MeshLibCppSetupGuide.html", null ],
-      [ "C#", "MeshLibCSharpSetupGuide.html", null ],
+      [ "", "@ref", null ],
       [ "CMake", "MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "License.html", null ],
@@ -37,7 +37,7 @@ var NAVTREE =
       [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ]
     ] ],
     [ "Examples", "Examples.html", [
-      [ "General Samples", "@ref Examples#GeneralExamples", [
+      [ "General Samples", "Examples.html#GeneralExamples", [
         [ "Application Based on MeshLib", "BasedApplication.html", null ],
         [ "Mesh Load and Save", "ExampleMeshLoadSave.html", null ],
         [ "Export Raw Triangles", "ExampleMeshExport.html", null ],
@@ -57,7 +57,7 @@ var NAVTREE =
         [ "Triangulation", "ExampleTriangulation.html", null ],
         [ "Text to Mesh", "ExampleMeshFromText.html", null ]
       ] ],
-      [ "Python Specific Samples", "@ref Examples#PythonSpecificExamples", [
+      [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
         [ "Viewer", "ExampleViewer.html", null ],
         [ "Plotly Visualization", "ExamplePlotly.html", null ],
         [ "Using Numpy", "ExampleNumpy.html", null ],
@@ -79,7 +79,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"@ref Examples#GeneralExamples"
+"@ref"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

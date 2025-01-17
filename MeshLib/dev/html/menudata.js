@@ -27,13 +27,13 @@ var menudata={children:[
 {text:"Getting Started",url:"InstallationGuide.html",children:[
 {text:"Python",url:"MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"MeshLibCppSetupGuide.html"},
-{text:"C#",url:"MeshLibCSharpSetupGuide.html"},
+{text:"",url:"@ref"},
 {text:"CMake",url:"MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"License.html"},
 {text:"Tutorials",url:"Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"FirstPluginTutorial.html"}]},
 {text:"Examples",url:"Examples.html",children:[
-{text:"General Samples",url:"@ref Examples#GeneralExamples",children:[
+{text:"General Samples",url:"Examples.html#GeneralExamples",children:[
 {text:"Application Based on MeshLib",url:"BasedApplication.html"},
 {text:"Mesh Load and Save",url:"ExampleMeshLoadSave.html"},
 {text:"Export Raw Triangles",url:"ExampleMeshExport.html"},
@@ -52,7 +52,7 @@ var menudata={children:[
 {text:"Mesh Denoise",url:"ExampleNoiseDenoise.html"},
 {text:"Triangulation",url:"ExampleTriangulation.html"},
 {text:"Text to Mesh",url:"ExampleMeshFromText.html"}]},
-{text:"Python Specific Samples",url:"@ref Examples#PythonSpecificExamples",children:[
+{text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"ExampleViewer.html"},
 {text:"Plotly Visualization",url:"ExamplePlotly.html"},
 {text:"Using Numpy",url:"ExampleNumpy.html"},
