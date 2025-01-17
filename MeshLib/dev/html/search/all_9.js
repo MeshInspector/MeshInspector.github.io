@@ -624,7 +624,7 @@ var searchData=
   ['getthemename_621',['getThemeName',['.././Cpp/classMR_1_1ColorTheme.html#afa765bafc3ea475fe65fc3383607cd63',1,'MR::ColorTheme']]],
   ['getthemetype_622',['getThemeType',['.././Cpp/classMR_1_1ColorTheme.html#adf6e7e1ab1712a295b5b94453300fde5',1,'MR::ColorTheme']]],
   ['getthousandsseparator_623',['getThousandsSeparator',['.././Cpp/namespaceMR_1_1UnitSettings.html#a0325434bfffb878393212fbdbca5aa8e',1,'MR::UnitSettings']]],
-  ['getting_20started_624',['Getting Started',['../index.html#autotoc_md3',1,'']]],
+  ['getting_20started_624',['Getting Started',['../index.html#autotoc_md4',1,'']]],
   ['getting_20started_20with_20meshlib_20sdk_625',['Getting Started with MeshLib SDK',['../InstallationGuide.html',1,'']]],
   ['gettingstarted_2edox_626',['GettingStarted.dox',['../GettingStarted_8dox.html',1,'']]],
   ['gettitlebarheght_627',['GetTitleBarHeght',['.././Cpp/namespaceImGui.html#a660b386cc39248222a1d8dd3eec60024',1,'ImGui']]],
@@ -788,6 +788,6 @@ var searchData=
   ['growoneedge_785',['growOneEdge',['.././Py/classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#abed6904ca5288887ae179610944a100d',1,'mrmeshpy::EdgePathsBuilderT_MetricToAStarPenalty::growOneEdge()'],['.././Py/classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#acfebfcb1fceffb001e3223916da8abea',1,'mrmeshpy::EdgePathsBuilderT_TrivialMetricToPenalty::growOneEdge()'],['.././Cpp/classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e',1,'MR::EdgePathsBuilderT::growOneEdge()']]],
   ['guessprecision_786',['guessPrecision',['.././Cpp/namespaceMR.html#a33468b27fcfb4e39e7bcbc65162f5dce',1,'MR::guessPrecision(T value)'],['.././Cpp/namespaceMR.html#ab1a04d603618814df24f8f6b758ace40',1,'MR::guessPrecision(T min, T max)']]],
   ['guicontext_5f_787',['guiContext_',['.././Cpp/classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],
-  ['guide_788',['Guide',['../InstallationGuide.html#autotoc_md41',1,'Choose Your Setup Guide'],['../MeshLibCppSetupGuide.html',1,'MeshLib C++ Setup Guide'],['../MeshLibCmakeSetupGuide.html',1,'MeshLib CMake Setup Guide'],['../MeshLibCmakeSetupGuide.html#autotoc_md9',1,'Quick Integration Guide']]],
+  ['guide_788',['Guide',['../InstallationGuide.html#autotoc_md41',1,'Choose Your Setup Guide'],['../MeshLibCppSetupGuide.html',1,'MeshLib C++ Setup Guide'],['../MeshLibCmakeSetupGuide.html',1,'MeshLib CMake Setup Guide'],['../MeshLibCmakeSetupGuide.html#autotoc_md10',1,'Quick Integration Guide']]],
   ['guideweight_789',['guideWeight',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings::guideWeight'],['.././Py/classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a7ed1247ea64ad5a4e6f3af63440f0169',1,'mrmeshpy::DenoiseViaNormalsSettings::guideWeight(self)'],['.././Py/classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a95d62729daecce0e89a2888b56980cf7',1,'mrmeshpy::DenoiseViaNormalsSettings::guideWeight(self, float arg1)']]]
 ];
