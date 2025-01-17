@@ -8,9 +8,9 @@ This repository is test documentary holder for https://github.com/MeshInspector/
 ```bash
 cd workdir
 git clone https://github.com/MeshInspector/MeshLib.git
-git clone https://github.com/MeshInspector/MeshInspector.github.io.git
 cd MeshInspector.github.io
-doxygen Doxyfile
+./scripts update_doc.sh
 ```
-4. Commit and push changes to this repository
-5. Check out the results at https://meshinspector.github.io/MeshLib/html/
+4. Check that results have appeared in `MeshLib/local` folder
+5. Run `python3 -m http.server`
+6. Check out the results at http://localhost:8000/MeshLib/local/html/
