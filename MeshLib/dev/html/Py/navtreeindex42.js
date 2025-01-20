@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a649ad33897512aaa6c20f12bfb0aed7f":[6,1,1,0,1,447,0],
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a85e2bfc448b375442cd6b79f16c87f26":[6,1,0,0,2,447,1],
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a85e2bfc448b375442cd6b79f16c87f26":[6,1,1,0,1,447,1],
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a9ce10e4eef37099a5bf68f59bd11b73b":[6,1,0,0,2,447,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classmrmeshpy_1_1MeshRelaxParams.html#a305b7d103879184cfc7d5654f6d82a40":[6,1,1,0,1,457,5],
 "classmrmeshpy_1_1MeshRelaxParams.html#a983affa5cbe5ee3c52b8a29bea7e076b":[6,1,0,0,2,457,2],
 "classmrmeshpy_1_1MeshRelaxParams.html#a983affa5cbe5ee3c52b8a29bea7e076b":[6,1,1,0,1,457,2],
-"classmrmeshpy_1_1MeshRelaxParams.html#ae8a71231f773b03dfafc220e96a3ceed":[6,1,0,0,2,457,0],
-"classmrmeshpy_1_1MeshRelaxParams.html#ae8a71231f773b03dfafc220e96a3ceed":[6,1,1,0,1,457,0]
+"classmrmeshpy_1_1MeshRelaxParams.html#ae8a71231f773b03dfafc220e96a3ceed":[6,1,0,0,2,457,0]
 };

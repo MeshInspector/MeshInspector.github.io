@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1EdgeBitSet.html#a8c112cf26e723b8ec96ed7f0cc8f9d64":[6,1,1,0,1,191,9],
 "classmrmeshpy_1_1EdgeBitSet.html#a98ba5256522047d802f2a29c537a7767":[6,1,0,0,2,191,27],
 "classmrmeshpy_1_1EdgeBitSet.html#a98ba5256522047d802f2a29c537a7767":[6,1,1,0,1,191,27],
 "classmrmeshpy_1_1EdgeBitSet.html#a9904a693d7adbc9a2ea7347ac53cf11d":[6,1,0,0,2,191,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html":[6,1,1,0,1,197],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[6,1,0,0,2,197,2],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[6,1,1,0,1,197,2],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[6,1,0,0,2,197,3],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[6,1,1,0,1,197,3]
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[6,1,0,0,2,197,3]
 };

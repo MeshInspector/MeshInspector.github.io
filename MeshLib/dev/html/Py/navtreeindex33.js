@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classmrmeshpy_1_1InSphereSearchSettings.html":[6,1,1,0,1,360],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[6,1,0,0,2,360,4],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[6,1,1,0,1,360,4],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a0bc9dfc185d8a52438a1683aa14203d0":[6,1,0,0,2,360,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#a1e88d2de7674d43afa445da2484557aa":[6,1,1,0,1,381,0],
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#a9b418f4ad6a6991fc01ffc8670e574b0":[6,1,0,0,2,381,2],
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#a9b418f4ad6a6991fc01ffc8670e574b0":[6,1,1,0,1,381,2],
-"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#aa5431f5bffbf40a4f6d3aba35e111608":[6,1,0,0,2,381,1],
-"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#aa5431f5bffbf40a4f6d3aba35e111608":[6,1,1,0,1,381,1]
+"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#aa5431f5bffbf40a4f6d3aba35e111608":[6,1,0,0,2,381,1]
 };

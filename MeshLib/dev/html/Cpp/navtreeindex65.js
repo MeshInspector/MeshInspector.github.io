@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,2,0,1,199,0],
 "structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,1,0,1,215,3],
 "structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,199,3],
 "structMR_1_1FileLoadOptions.html":[6,0,1,0,1,216],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1GridToMeshSettings.html":[6,0,2,0,1,235],
 "structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[6,0,1,0,1,251,5],
 "structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[6,0,2,0,1,235,5],
-"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,1,0,1,251,0],
-"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,2,0,1,235,0]
+"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,1,0,1,251,0]
 };

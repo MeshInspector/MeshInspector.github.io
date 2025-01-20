@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,1,0,1,59,22],
 "classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,1,43,22],
 "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,59,11],
 "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,2,0,1,43,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#ab6b0066b48e0db5030ebf1cdeeec5d4f":[6,0,2,0,1,75,0],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#afaf2a1dbc8066a04913ea855a9488ca1":[6,0,1,0,1,91,2],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#afaf2a1dbc8066a04913ea855a9488ca1":[6,0,2,0,1,75,2],
-"classMR_1_1ChangeColoringType.html":[6,0,0,4,3],
-"classMR_1_1ChangeColoringType.html#a35b932ef1ea3756de261b79a1a7a7677":[6,0,0,4,3,0]
+"classMR_1_1ChangeColoringType.html":[6,0,0,4,3]
 };

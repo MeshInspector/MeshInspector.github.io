@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[6,0,2,0,1,582,6],
 "classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[6,0,1,0,1,598,2],
 "classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[6,0,2,0,1,582,2],
 "classMR_1_1SetBitIteratorT.html":[6,0,0,3,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4":[6,0,2,0,1,617,19],
 "classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28":[6,0,1,0,1,633,18],
 "classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28":[6,0,2,0,1,617,18],
-"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[6,0,1,0,1,633,14],
-"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[6,0,2,0,1,617,14]
+"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[6,0,1,0,1,633,14]
 };

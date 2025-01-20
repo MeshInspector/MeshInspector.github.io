@@ -1,5 +1,6 @@
 var NAVTREEINDEX93 =
 {
+"classmrmeshpy_1_1Vector__int__FaceId.html#ae5479092d64e74a08f763459c1854ee6":[6,1,1,0,1,1005,6],
 "classmrmeshpy_1_1Vector__int__FaceId.html#aea7dea4214261be9482a8b66bcbfbf01":[6,1,0,0,2,1005,31],
 "classmrmeshpy_1_1Vector__int__FaceId.html#aea7dea4214261be9482a8b66bcbfbf01":[6,1,1,0,1,1005,31],
 "classmrmeshpy_1_1Vector__int__VertId.html":[6,1,0,0,2,1006],
@@ -248,6 +249,5 @@ var NAVTREEINDEX93 =
 "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a1b6beab76bca4fb4f20fe9bb7ad234c8":[6,1,1,0,1,1018,17],
 "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a1bf26a300295244623a8683a925cd426":[6,1,0,0,2,1018,8],
 "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a1bf26a300295244623a8683a925cd426":[6,1,0,0,2,1018,9],
-"classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a1bf26a300295244623a8683a925cd426":[6,1,1,0,1,1018,8],
-"classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a1bf26a300295244623a8683a925cd426":[6,1,1,0,1,1018,9]
+"classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a1bf26a300295244623a8683a925cd426":[6,1,1,0,1,1018,8]
 };

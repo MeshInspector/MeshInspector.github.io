@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"classmrmeshpy_1_1UniformSamplingSettings.html#ade6b6811f1592b85cb1facad976585f5":[6,1,1,0,1,955,3],
 "classmrmeshpy_1_1UniformSamplingSettings.html#af7ce976698e9971ce6162648d7bcfb37":[6,1,0,0,2,955,6],
 "classmrmeshpy_1_1UniformSamplingSettings.html#af7ce976698e9971ce6162648d7bcfb37":[6,1,1,0,1,955,6],
 "classmrmeshpy_1_1UnionFind__FaceId.html":[6,1,0,0,2,956],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "classmrmeshpy_1_1UseAABBTree.html#ae0367d0cffd81ce8e0ce407f9c290fbe":[6,1,1,0,1,968,1],
 "classmrmeshpy_1_1UseAABBTree.html#afb16fd4c6e1dd7d91d4efc5b3b8aac7e":[6,1,0,0,2,968,5],
 "classmrmeshpy_1_1UseAABBTree.html#afb16fd4c6e1dd7d91d4efc5b3b8aac7e":[6,1,1,0,1,968,5],
-"classmrmeshpy_1_1VariableEdgeTri.html":[6,1,0,0,2,969],
-"classmrmeshpy_1_1VariableEdgeTri.html":[6,1,1,0,1,969]
+"classmrmeshpy_1_1VariableEdgeTri.html":[6,1,0,0,2,969]
 };

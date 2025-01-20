@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html#ab5aeace7c3b233411e10a0a722e113ff":[6,1,1,0,1,438,6,2],
 "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html":[6,1,0,0,2,438,5],
 "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html":[6,1,1,0,1,438,5],
 "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a2669ebd798e92ee76619b235f653350d":[6,1,0,0,2,438,5,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a0b83fbd0f21afedcc97b1750861de3fd":[6,1,1,0,1,447,2],
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a1dabc2b3ac1f1f064e0157e62ca5ecb3":[6,1,0,0,2,447,4],
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a1dabc2b3ac1f1f064e0157e62ca5ecb3":[6,1,1,0,1,447,4],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a649ad33897512aaa6c20f12bfb0aed7f":[6,1,0,0,2,447,0],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a649ad33897512aaa6c20f12bfb0aed7f":[6,1,1,0,1,447,0]
+"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a649ad33897512aaa6c20f12bfb0aed7f":[6,1,0,0,2,447,0]
 };

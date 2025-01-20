@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1IICPTreeIndexer.html#a4e03380b6e3dcc48f0df5e48347c4092":[6,1,1,0,1,353,3],
 "classmrmeshpy_1_1IICPTreeIndexer.html#a71aca42ae4cb99abf65ca479b54054de":[6,1,0,0,2,353,1],
 "classmrmeshpy_1_1IICPTreeIndexer.html#a71aca42ae4cb99abf65ca479b54054de":[6,1,1,0,1,353,1],
 "classmrmeshpy_1_1IICPTreeIndexer.html#a797e561cd32e45a1051e7be62547787a":[6,1,0,0,2,353,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1InSphere.html#a53e7ba56a0ce452a7573dd43a1ece7c0":[6,1,1,0,1,359,1],
 "classmrmeshpy_1_1InSphere.html#a91ae5e0fa262c634d32cd09e3ab7a2ef":[6,1,0,0,2,359,4],
 "classmrmeshpy_1_1InSphere.html#a91ae5e0fa262c634d32cd09e3ab7a2ef":[6,1,1,0,1,359,4],
-"classmrmeshpy_1_1InSphereSearchSettings.html":[6,1,0,0,2,360],
-"classmrmeshpy_1_1InSphereSearchSettings.html":[6,1,1,0,1,360]
+"classmrmeshpy_1_1InSphereSearchSettings.html":[6,1,0,0,2,360]
 };

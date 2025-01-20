@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMRVdbVolume.html#adf293267a1855743bf3dcdae13763c5f":[6,0,2,0,59,1],
 "structMRVector3f.html":[6,0,2,0,60],
 "structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[6,0,2,0,60,1],
 "structMRVector3f.html#a5c5342e25c41c46694167c41774234bd":[6,0,2,0,60,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[6,0,2,0,1,53,1,0],
 "structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[6,0,1,0,1,69,7],
 "structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[6,0,2,0,1,53,7],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,1,0,1,69,0],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,2,0,1,53,0]
+"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,1,0,1,69,0]
 };

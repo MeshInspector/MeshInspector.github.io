@@ -27,7 +27,7 @@ var menudata={children:[
 {text:"Getting Started",url:"InstallationGuide.html",children:[
 {text:"Python",url:"MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"MeshLibCppSetupGuide.html"},
-{text:"",url:"@ref"},
+{text:"C#",url:"MeshLibCSharpSetupGuide.html"},
 {text:"CMake",url:"MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"License.html"},
 {text:"Tutorials",url:"Tutorials.html",children:[
@@ -58,6 +58,7 @@ var menudata={children:[
 {text:"Using Numpy",url:"ExampleNumpy.html"},
 {text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html"}]}]},
 {text:"Package Overview",url:"PackageOverview.html",children:[
+{text:"Distirbution Example Plugin",url:"ExamplePluginOverview.html"},
 {text:"Data Model Class Hierarchy",url:"DataModel.html"},
 {text:"Spaces and Transformations",url:"SpacesHelp.html"},
 {text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},

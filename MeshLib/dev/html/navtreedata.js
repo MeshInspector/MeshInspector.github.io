@@ -29,7 +29,7 @@ var NAVTREE =
     [ "Getting Started", "InstallationGuide.html", [
       [ "Python", "MeshLibPythonSetupGuide.html", null ],
       [ "C++", "MeshLibCppSetupGuide.html", null ],
-      [ "", "@ref", null ],
+      [ "C#", "MeshLibCSharpSetupGuide.html", null ],
       [ "CMake", "MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "License.html", null ],
@@ -65,6 +65,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Package Overview", "PackageOverview.html", [
+      [ "Distirbution Example Plugin", "ExamplePluginOverview.html", null ],
       [ "Data Model Class Hierarchy", "DataModel.html", null ],
       [ "Spaces and Transformations", "SpacesHelp.html", null ],
       [ "State Plugins Overview", "StatePluginsHelp.html", null ]
@@ -79,7 +80,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"@ref"
+"APIPage.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

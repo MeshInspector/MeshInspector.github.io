@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1FlowAggregator.html":[6,1,1,0,1,243],
 "classmrmeshpy_1_1FlowAggregator.html#a085847a42b39cf0cca1785e84208d85a":[6,1,0,0,2,243,2],
 "classmrmeshpy_1_1FlowAggregator.html#a085847a42b39cf0cca1785e84208d85a":[6,1,1,0,1,243,2],
 "classmrmeshpy_1_1FlowAggregator.html#a3e66e56b298d395ad7b88d7282fefd07":[6,1,0,0,2,243,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1GeodesicPathApprox.html#acc6c7cbf9184e2500aedd9e6b9d3350a":[6,1,1,0,1,328,11],
 "classmrmeshpy_1_1Graph.html":[6,1,0,0,2,329],
 "classmrmeshpy_1_1Graph.html":[6,1,1,0,1,329],
-"classmrmeshpy_1_1Graph.html#a2421ab5543f0c7d9b9680dcbba62c600":[6,1,0,0,2,329,11],
-"classmrmeshpy_1_1Graph.html#a2421ab5543f0c7d9b9680dcbba62c600":[6,1,1,0,1,329,11]
+"classmrmeshpy_1_1Graph.html#a2421ab5543f0c7d9b9680dcbba62c600":[6,1,0,0,2,329,11]
 };

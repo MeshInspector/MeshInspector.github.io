@@ -121,10 +121,10 @@ var searchData=
   ['hover_5f_118',['hover_',['.././Cpp/classMR_1_1ITransformControls.html#a866a780325d0337774ee4fc21b430da4',1,'MR::ITransformControls']]],
   ['hoveredcolor_119',['hoveredColor',['.././Cpp/structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor'],['.././Cpp/structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters::hoveredColor']]],
   ['hoveredlinewidth_120',['hoveredLineWidth',['.././Cpp/structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams']]],
-  ['how_20to_20create_20a_20first_20plugin_20using_20meshlib_20c_20on_20windows_121',['How to Create a First Plugin Using MeshLib C++ on Windows',['../Tutorials.html#autotoc_md60',1,'']]],
+  ['how_20to_20create_20a_20first_20plugin_20using_20meshlib_20c_20on_20windows_121',['How to Create a First Plugin Using MeshLib C++ on Windows',['../Tutorials.html#autotoc_md70',1,'']]],
   ['how_20to_20create_20a_20first_20plugin_20using_20meshlib_20c_20on_20windows_122',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
   ['how_20to_20install_20meshlib_20sdk_20for_20python_123',['How to Install MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],
-  ['how_20to_20make_20your_20first_20plugin_124',['How to make your first plugin',['../StatePluginsHelp.html#autotoc_md51',1,'']]],
-  ['how_20to_20use_20meshlib_20python_20modules_125',['How to use MeshLib Python Modules',['../MeshLibPythonSetupGuide.html#autotoc_md47',1,'']]],
+  ['how_20to_20make_20your_20first_20plugin_124',['How to make your first plugin',['../StatePluginsHelp.html#autotoc_md61',1,'']]],
+  ['how_20to_20use_20meshlib_20python_20modules_125',['How to use MeshLib Python Modules',['../MeshLibPythonSetupGuide.html#autotoc_md57',1,'']]],
   ['how_20to_20use_20meshlib_20with_20cmake_126',['How to Use MeshLib with CMake',['../MeshLibCmakeSetupGuide.html#autotoc_md8',1,'']]]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRCanonicalTypedefs_8h.html#ae898c417c701835f79a846a1af84f2c7":[6,0,3,0,0,1,3,32,0],
 "MRCanonicalTypedefs_8h_source.html":[6,0,3,0,0,1,3,32],
 "MRChangeColoringActions_8h.html":[6,0,3,0,0,1,3,33],
 "MRChangeColoringActions_8h_source.html":[6,0,3,0,0,1,3,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8ada0895f7442dc0c233726d89ac9f75fa":[6,0,3,0,0,1,3,89,0,2],
 "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9":[6,0,3,0,0,1,3,89,0,1],
 "MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98":[6,0,3,0,0,1,3,89,1],
-"MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355":[6,0,3,0,0,1,3,89,1,2],
-"MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4":[6,0,3,0,0,1,3,89,1,0]
+"MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355":[6,0,3,0,0,1,3,89,1,2]
 };

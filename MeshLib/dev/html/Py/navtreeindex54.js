@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classmrmeshpy_1_1OrientNormals.html#af9eb7fa1b3c34f30cc5a1ee76189248b":[6,1,1,0,1,558,6],
 "classmrmeshpy_1_1OriginAndDimensions.html":[6,1,0,0,2,559],
 "classmrmeshpy_1_1OriginAndDimensions.html":[6,1,1,0,1,559],
 "classmrmeshpy_1_1OriginAndDimensions.html#a2fd1b6fc62d2d65aa9cf92f4bf311e42":[6,1,0,0,2,559,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1PixelBitSet.html#a1274b92a5e1aaf94f5badc815ce0a9e3":[6,1,1,0,1,594,25],
 "classmrmeshpy_1_1PixelBitSet.html#a17db0e4f534417a245541e4fe11da78a":[6,1,0,0,2,594,22],
 "classmrmeshpy_1_1PixelBitSet.html#a17db0e4f534417a245541e4fe11da78a":[6,1,1,0,1,594,22],
-"classmrmeshpy_1_1PixelBitSet.html#a1b9c31d0a048d188b6962c7e64c12524":[6,1,0,0,2,594,30],
-"classmrmeshpy_1_1PixelBitSet.html#a1b9c31d0a048d188b6962c7e64c12524":[6,1,1,0,1,594,30]
+"classmrmeshpy_1_1PixelBitSet.html#a1b9c31d0a048d188b6962c7e64c12524":[6,1,0,0,2,594,30]
 };

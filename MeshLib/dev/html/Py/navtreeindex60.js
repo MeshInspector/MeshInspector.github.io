@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1Polynomial__double__3.html#a000d3b3fc09f08c66e30d9f924676ded":[6,1,1,0,1,638,6],
 "classmrmeshpy_1_1Polynomial__double__3.html#a37d9f1a49eac165c1cd7f4e9d2306fdf":[6,1,0,0,2,638,1],
 "classmrmeshpy_1_1Polynomial__double__3.html#a37d9f1a49eac165c1cd7f4e9d2306fdf":[6,1,1,0,1,638,1],
 "classmrmeshpy_1_1Polynomial__double__3.html#a6009a37fecdbfe039a5b72369dbd6939":[6,1,0,0,2,638,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1PreciseVertCoords.html#a8ea8bfa11a73c65820dadacb995107e7":[6,1,1,0,1,654,3],
 "classmrmeshpy_1_1PreciseVertCoords.html#aa1dc5702f2c596f24deee87b8d7b0904":[6,1,0,0,2,654,6],
 "classmrmeshpy_1_1PreciseVertCoords.html#aa1dc5702f2c596f24deee87b8d7b0904":[6,1,1,0,1,654,6],
-"classmrmeshpy_1_1PreciseVertCoords2.html":[6,1,0,0,2,655],
-"classmrmeshpy_1_1PreciseVertCoords2.html":[6,1,1,0,1,655]
+"classmrmeshpy_1_1PreciseVertCoords2.html":[6,1,0,0,2,655]
 };

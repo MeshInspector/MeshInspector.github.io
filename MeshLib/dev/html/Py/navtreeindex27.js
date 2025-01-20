@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a0742be373854745970a4a67452c921ba":[6,1,1,0,1,234,22],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a0c715f42e85c9f9e9f3e270f4185bff9":[6,1,0,0,2,234,13],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a0c715f42e85c9f9e9f3e270f4185bff9":[6,1,1,0,1,234,13],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a11c25fbcb7e5cf9495a538a372de5ae9":[6,1,0,0,2,234,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aebe2148dbf8ea1e10fdc58e8ee9d2771":[6,1,1,0,1,240,1,1],
 "classmrmeshpy_1_1FloatGridComponents.html":[6,1,0,0,2,242],
 "classmrmeshpy_1_1FloatGridComponents.html":[6,1,1,0,1,242],
-"classmrmeshpy_1_1FlowAggregator.html":[6,1,0,0,2,243],
-"classmrmeshpy_1_1FlowAggregator.html":[6,1,1,0,1,243]
+"classmrmeshpy_1_1FlowAggregator.html":[6,1,0,0,2,243]
 };

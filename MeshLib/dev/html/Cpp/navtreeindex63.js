@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[6,0,0,5,5,10],
 "structMR_1_1DistanceMapToWorld.html#aee6ea73dd4b8ce002eaa164c6d5e45f5":[6,0,0,5,5,1],
 "structMR_1_1DistanceToMeshOptions.html":[6,0,1,0,1,183],
 "structMR_1_1DistanceToMeshOptions.html":[6,0,2,0,1,167],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,2,0,1,185,0,0],
 "structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[6,0,1,0,1,201,0,2],
 "structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[6,0,2,0,1,185,0,2],
-"structMR_1_1EmbeddedStructureParameters.html":[6,0,1,0,1,202],
-"structMR_1_1EmbeddedStructureParameters.html":[6,0,2,0,1,186]
+"structMR_1_1EmbeddedStructureParameters.html":[6,0,1,0,1,202]
 };

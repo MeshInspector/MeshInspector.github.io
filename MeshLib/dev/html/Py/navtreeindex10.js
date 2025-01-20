@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a2f73f0cf5f7ed662eb1205957b812fb9":[6,1,1,0,1,89,6],
 "classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a7c38d624f30f7d8ded521346326c5c47":[6,1,0,0,2,89,0],
 "classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a7c38d624f30f7d8ded521346326c5c47":[6,1,1,0,1,89,0],
 "classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a868461863901e8aa6a3f58332c37ee20":[6,1,0,0,2,89,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,1,0,1,136,0],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a1db33c88bf0f399d96ea1e9040245beb":[6,1,0,0,2,136,0,6],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a1db33c88bf0f399d96ea1e9040245beb":[6,1,1,0,1,136,0,6],
-"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a36467906c7f7f14e0664f5a756d13a9e":[6,1,0,0,2,136,0,0],
-"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a36467906c7f7f14e0664f5a756d13a9e":[6,1,1,0,1,136,0,0]
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a36467906c7f7f14e0664f5a756d13a9e":[6,1,0,0,2,136,0,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"classmrmeshpy_1_1WholeEdgeMap.html#af92280efe1d21fec1f3fe92ff676ffa1":[6,1,1,0,1,1091,0],
 "classmrmeshpy_1_1WrapType.html":[6,1,0,0,2,1092],
 "classmrmeshpy_1_1WrapType.html":[6,1,1,0,1,1092],
 "classmrmeshpy_1_1WrapType.html#a070ea1bd418e10f1e4f6034d9c764e42":[6,1,0,0,2,1092,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "classmrmeshpy_1_1func__Vector2__float__from__Vector2__int.html#a474cff584dd0c5a2aef0ccc75681b328":[6,1,1,0,1,285,1],
 "classmrmeshpy_1_1func__Vector2__float__from__Vector2__int.html#a5b098aed5723e942892f528f068d9c5e":[6,1,0,0,2,285,0],
 "classmrmeshpy_1_1func__Vector2__float__from__Vector2__int.html#a5b098aed5723e942892f528f068d9c5e":[6,1,1,0,1,285,0],
-"classmrmeshpy_1_1func__Vector2__float__from__Vector2__int.html#a79936fae0805b58bbd5086cdcf77a360":[6,1,0,0,2,285,6],
-"classmrmeshpy_1_1func__Vector2__float__from__Vector2__int.html#a79936fae0805b58bbd5086cdcf77a360":[6,1,1,0,1,285,6]
+"classmrmeshpy_1_1func__Vector2__float__from__Vector2__int.html#a79936fae0805b58bbd5086cdcf77a360":[6,1,0,0,2,285,6]
 };

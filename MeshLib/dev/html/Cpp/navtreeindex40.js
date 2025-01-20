@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[6,0,2,0,1,617,14],
 "classMR_1_1StateBasePlugin.html#a730c0edb5aead3d67519512f5545bd63":[6,0,1,0,1,633,4],
 "classMR_1_1StateBasePlugin.html#a730c0edb5aead3d67519512f5545bd63":[6,0,2,0,1,617,4],
 "classMR_1_1StateBasePlugin.html#a9a8917bb4527c6108a4ec176619d2990":[6,0,1,0,1,633,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1Timer.html#aee5682697e88241b45ccc873426df465":[6,0,0,3,11,5],
 "classMR_1_1Toolbar.html":[6,0,1,0,1,656],
 "classMR_1_1Toolbar.html":[6,0,2,0,1,640],
-"classMR_1_1Toolbar.html#a0e4e8453ab0e559d6d3e4422019110f5":[6,0,1,0,1,656,4],
-"classMR_1_1Toolbar.html#a0e4e8453ab0e559d6d3e4422019110f5":[6,0,2,0,1,640,4]
+"classMR_1_1Toolbar.html#a0e4e8453ab0e559d6d3e4422019110f5":[6,0,1,0,1,656,4]
 };
