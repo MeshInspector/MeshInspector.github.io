@@ -166,7 +166,7 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Relax mesh (5 iterations)</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">MR::relax</a>( mesh, {{5}} );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">MR::relax</a>( mesh, {{ .iterations = 5 }} );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Subdivide mesh</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a> props;</div>
