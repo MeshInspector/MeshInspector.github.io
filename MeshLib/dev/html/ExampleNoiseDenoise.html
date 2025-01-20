@@ -154,44 +154,6 @@ $(function(){initNavTree('ExampleNoiseDenoise.html',''); initResizable(true); })
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRAddNoise_8h.html">MRMesh/MRAddNoise.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
-<div class="line">{</div>
-<div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    <span class="keyword">auto</span> mesh = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
-<div class="line">    assert( mesh );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Add noise to the mesh</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#ac87c8628100309ba212e32c882cb85e0">MR::addNoise</a>( mesh-&gt;points, mesh-&gt;topology.getValidVerts(), {</div>
-<div class="line">        .sigma = mesh-&gt;computeBoundingBox().diagonal() * 0.0001f,</div>
-<div class="line">    } );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Invalidate the mesh because of the external vertex changes</span></div>
-<div class="line">    mesh-&gt;invalidateCaches();</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Save the noised mesh</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *mesh, <span class="stringliteral">&quot;noised_mesh.stl&quot;</span> );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Denoise the mesh with sharpening for sharp edges</span></div>
-<div class="line">    <span class="comment">// see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a>( *mesh );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Save the denoised mesh</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *mesh, <span class="stringliteral">&quot;denoised_mesh.stl&quot;</span> );</div>
-<div class="line">}</div>
-<div class="ttc" id="aMRAddNoise_8h_html"><div class="ttname"><a href="./Cpp/MRAddNoise_8h.html">MRAddNoise.h</a></div></div>
-<div class="ttc" id="aMRNormalDenoising_8h_html"><div class="ttname"><a href="./Cpp/MRNormalDenoising_8h.html">MRNormalDenoising.h</a></div></div>
-<div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
-<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
-<div class="ttc" id="anamespaceMR_html_a6bddd9d63512f9dfffb0fa869f249a4d"><div class="ttname"><a href="./Cpp/namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; meshDenoiseViaNormals(Mesh &amp;mesh, const DenoiseViaNormalsSettings &amp;settings={})</div></div>
-<div class="ttc" id="anamespaceMR_html_ac87c8628100309ba212e32c882cb85e0"><div class="ttname"><a href="./Cpp/namespaceMR.html#ac87c8628100309ba212e32c882cb85e0">MR::addNoise</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; addNoise(VertCoords &amp;points, const VertBitSet &amp;validVerts, NoiseSettings settings)</div></div>
-</div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"> </div>

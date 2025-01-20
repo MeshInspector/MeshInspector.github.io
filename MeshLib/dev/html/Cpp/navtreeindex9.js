@@ -1,9 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"MRMesh_2MRSignDetectionMode_8h.html#a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9":[6,0,3,0,0,1,3,321,1,2],
-"MRMesh_2MRSignDetectionMode_8h.html#a07048ed78d40b323183d7f5479f821d0a748273fc30eaf6ab0c262df0bfb86f68":[6,0,3,0,0,1,3,321,1,1],
-"MRMesh_2MRSignDetectionMode_8h.html#adef43100b8549538f5eac0fb7a9a0107":[6,0,3,0,0,1,3,321,2],
-"MRMesh_2MRSignDetectionMode_8h_source.html":[6,0,3,0,0,1,3,321],
 "MRMesh_2MRString_8h.html":[6,0,3,0,0,1,3,327],
 "MRMesh_2MRString_8h.html#a2584c6bf8d14b42355582e7b634bb1ee":[6,0,3,0,0,1,3,327,2],
 "MRMesh_2MRString_8h.html#aad02dff14ccec10b269b5073bb74ca63":[6,0,3,0,0,1,3,327,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX9 =
 "MRPickHoleBorderElement_8h.html#ad9d2ad7736e2a3b80a550545d5a3b45a":[6,0,3,0,0,1,9,53,3],
 "MRPickHoleBorderElement_8h.html#afe997bf38614449b2ab18c04b6da671d":[6,0,3,0,0,1,9,53,2],
 "MRPickHoleBorderElement_8h_source.html":[6,0,3,0,0,1,9,53],
-"MRPickPointManager_8h.html":[6,0,3,0,0,1,9,54]
+"MRPickPointManager_8h.html":[6,0,3,0,0,1,9,54],
+"MRPickPointManager_8h_source.html":[6,0,3,0,0,1,9,54],
+"MRPlane3_8h.html":[6,0,3,0,0,1,3,250],
+"MRPlane3_8h_source.html":[6,0,3,0,0,1,3,250],
+"MRPlaneObject_8h.html":[6,0,3,0,0,1,3,251]
 };

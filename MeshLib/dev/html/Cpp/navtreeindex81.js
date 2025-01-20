@@ -1,13 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"structMR_1_1Vector2.html#a22a30fa24fb87ce9794b8008a976b937":[6,0,0,0,12,0,14],
-"structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[6,0,0,0,12,0,2],
-"structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8":[6,0,0,0,12,0,29],
-"structMR_1_1Vector2.html#a5cce72f5a884dfada987438536f9dda9":[6,0,0,0,12,0,16],
-"structMR_1_1Vector2.html#a5d6364a368131508a540587a1b1428cf":[6,0,0,0,12,0,6],
-"structMR_1_1Vector2.html#a64a52d1a9ef1dd0c183529bbaef23709":[6,0,0,0,12,0,17],
-"structMR_1_1Vector2.html#a689355b8d3f06c842bf414b949c7510e":[6,0,0,0,12,0,19],
-"structMR_1_1Vector2.html#a6c8408d5ef7e501f160602528912a167":[6,0,0,0,12,0,25],
 "structMR_1_1Vector2.html#a6f79f1540d91026fb17aebbcf6e6d9dc":[6,0,0,0,12,0,3],
 "structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5":[6,0,0,0,12,0,0],
 "structMR_1_1Vector2.html#a75acf72ad892f7261ea81fc321f4931c":[6,0,0,0,12,0,9],
@@ -249,5 +241,13 @@ var NAVTREEINDEX81 =
 "structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[6,0,0,17,2,0,1],
 "structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[6,0,0,17,2,0,0],
 "structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,17,5],
-"structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[6,0,0,17,5,1]
+"structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[6,0,0,17,5,1],
+"structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[6,0,0,17,5,0],
+"structMR_1_1VoxelLocation.html":[6,0,0,17,0,0],
+"structMR_1_1VoxelMetricParameters.html":[6,0,0,17,3,0],
+"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[6,0,0,17,3,0,0],
+"structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438":[6,0,0,17,3,0,2],
+"structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e":[6,0,0,17,3,0,1],
+"structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[6,0,0,17,3,0,4],
+"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[6,0,0,17,3,0,3]
 };

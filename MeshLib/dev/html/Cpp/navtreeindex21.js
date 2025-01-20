@@ -1,9 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"classMR_1_1FeatureObject.html#afbc72d3db7d89d7af4ea2a7ac835c15e":[6,0,2,0,1,194,15],
-"classMR_1_1FewSmallest.html":[6,0,1,0,1,213],
-"classMR_1_1FewSmallest.html":[6,0,2,0,1,197],
-"classMR_1_1FewSmallest.html#a0efd17527f2b41be96da3c50f8837c38":[6,0,1,0,1,213,6],
 "classMR_1_1FewSmallest.html#a0efd17527f2b41be96da3c50f8837c38":[6,0,2,0,1,197,6],
 "classMR_1_1FewSmallest.html#a12a0523ff86e2ccc8757592895374893":[6,0,1,0,1,213,9],
 "classMR_1_1FewSmallest.html#a12a0523ff86e2ccc8757592895374893":[6,0,2,0,1,197,9],
@@ -249,5 +245,9 @@ var NAVTREEINDEX21 =
 "classMR_1_1GcodeProcessor.html#ace829c3782f4685968c82c32de66a4d0":[6,0,2,0,1,223,10],
 "classMR_1_1GcodeToolsLibrary.html":[6,0,1,0,1,240],
 "classMR_1_1GcodeToolsLibrary.html":[6,0,2,0,1,224],
-"classMR_1_1GcodeToolsLibrary.html#a491da975eada25f78297b3c3befecf79":[6,0,1,0,1,240,2]
+"classMR_1_1GcodeToolsLibrary.html#a491da975eada25f78297b3c3befecf79":[6,0,1,0,1,240,2],
+"classMR_1_1GcodeToolsLibrary.html#a491da975eada25f78297b3c3befecf79":[6,0,2,0,1,224,2],
+"classMR_1_1GcodeToolsLibrary.html#a545ff3b6a5d9cdf2987f1dbd3ece6769":[6,0,1,0,1,240,3],
+"classMR_1_1GcodeToolsLibrary.html#a545ff3b6a5d9cdf2987f1dbd3ece6769":[6,0,2,0,1,224,3],
+"classMR_1_1GcodeToolsLibrary.html#a5474fc576f9fa84ee1d57d476553bcbd":[6,0,1,0,1,240,1]
 };

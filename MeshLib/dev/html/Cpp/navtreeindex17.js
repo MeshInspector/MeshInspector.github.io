@@ -1,9 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#ab6b0066b48e0db5030ebf1cdeeec5d4f":[6,0,2,0,1,75,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#afaf2a1dbc8066a04913ea855a9488ca1":[6,0,1,0,1,91,2],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#afaf2a1dbc8066a04913ea855a9488ca1":[6,0,2,0,1,75,2],
-"classMR_1_1ChangeColoringType.html":[6,0,0,4,3],
 "classMR_1_1ChangeColoringType.html#a35b932ef1ea3756de261b79a1a7a7677":[6,0,0,4,3,0],
 "classMR_1_1ChangeColoringType.html#a4c9d248392f35a9e929ab4dd107ff7d2":[6,0,0,4,3,4],
 "classMR_1_1ChangeColoringType.html#a531d559082c32567d685d888d4602ddf":[6,0,0,4,3,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX17 =
 "classMR_1_1CircleObject.html#a1736c81bbbed02bdefb9e95d8b991724":[6,0,0,11,0,0,16],
 "classMR_1_1CircleObject.html#a1b666f68cb067916d8b0a10e19c98af6":[6,0,0,11,0,0,21],
 "classMR_1_1CircleObject.html#a1fcb69f1dd8bdbf42302043d67fb8fa8":[6,0,0,11,0,0,5],
-"classMR_1_1CircleObject.html#a200c9643698b13aa5c464c4797c58a73":[6,0,0,11,0,0,6]
+"classMR_1_1CircleObject.html#a200c9643698b13aa5c464c4797c58a73":[6,0,0,11,0,0,6],
+"classMR_1_1CircleObject.html#a213eae2656d58c2c869a7c592a70c899":[6,0,0,11,0,0,13],
+"classMR_1_1CircleObject.html#a2f2f75df180154bb0a2973c18a588e3f":[6,0,0,11,0,0,15],
+"classMR_1_1CircleObject.html#a3ec925469335dc13e8594830baf29182":[6,0,0,11,0,0,20],
+"classMR_1_1CircleObject.html#a4053333e67bddb4bf37e28c777c85697":[6,0,0,11,0,0,17]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[6,0,2,0,1,53,1],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[6,0,1,0,1,69,1,1],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[6,0,2,0,1,53,1,1],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[6,0,1,0,1,69,1,0],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5":[6,0,2,0,1,53,1,0],
-"structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[6,0,1,0,1,69,7],
-"structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[6,0,2,0,1,53,7],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,1,0,1,69,0],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,2,0,1,53,0],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a29e14da81c0701108ac352055c7e9b99":[6,0,1,0,1,69,0,1],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a29e14da81c0701108ac352055c7e9b99":[6,0,2,0,1,53,0,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX61 =
 "structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[6,0,2,0,1,128,7],
 "structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[6,0,1,0,1,144,9],
 "structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[6,0,2,0,1,128,9],
-"structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,1,0,1,144,4]
+"structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,1,0,1,144,4],
+"structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,2,0,1,128,4],
+"structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3":[6,0,1,0,1,144,1],
+"structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3":[6,0,2,0,1,128,1],
+"structMR_1_1ConeFittingFunctor.html#ad11690cdf0c6a6de76d2859de79fa518":[6,0,1,0,1,144,3],
+"structMR_1_1ConeFittingFunctor.html#ad11690cdf0c6a6de76d2859de79fa518":[6,0,2,0,1,128,3],
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[6,0,1,0,1,144,2],
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[6,0,2,0,1,128,2],
+"structMR_1_1ConnectionHolder.html":[6,0,1,0,1,147]
 };

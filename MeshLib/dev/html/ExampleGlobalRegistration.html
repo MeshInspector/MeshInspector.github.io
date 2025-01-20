@@ -155,110 +155,6 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="contents">
 <div class="textblock"><p>Example of Global Registration</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMultiwayICP.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsSave.h&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> printStats( <span class="keyword">const</span> <a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a>&amp; icp )</div>
-<div class="line">{</div>
-<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Samples: &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a7d58f57c70792f0ec9ef82aa6e95407a">getNumSamples</a>() &lt;&lt; std::endl</div>
-<div class="line">              &lt;&lt; <span class="stringliteral">&quot;Active point pairs: &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954">getNumActivePairs</a>() &lt;&lt; std::endl;</div>
-<div class="line">    <span class="keywordflow">if</span> ( icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954">getNumActivePairs</a>() &gt; 0 )</div>
-<div class="line">    {</div>
-<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> p2ptMetric = icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6">getMeanSqDistToPoint</a>();</div>
-<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> p2plMetric = icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08">getMeanSqDistToPlane</a>();</div>
-<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;RMS point-to-point distance: &quot;</span> &lt;&lt; p2ptMetric &lt;&lt; <span class="stringliteral">&quot; ± &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6">getMeanSqDistToPoint</a>( p2ptMetric ) &lt;&lt; std::endl</div>
-<div class="line">                  &lt;&lt; <span class="stringliteral">&quot;RMS point-to-plane distance: &quot;</span> &lt;&lt; p2plMetric &lt;&lt; <span class="stringliteral">&quot; ± &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08">getMeanSqDistToPlane</a>( p2plMetric ) &lt;&lt; std::endl;</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[] )</div>
-<div class="line">{</div>
-<div class="line">    <span class="keywordflow">if</span> ( argc &lt; 4 )</div>
-<div class="line">    {</div>
-<div class="line">        std::cerr &lt;&lt; <span class="stringliteral">&quot;Usage: &quot;</span> &lt;&lt; argv[0] &lt;&lt; <span class="stringliteral">&quot; INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line">        <span class="keywordflow">return</span> EXIT_FAILURE;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// the global registration can be applied to meshes and point clouds</span></div>
-<div class="line">    <span class="comment">// to simplify the sample app, we will work with point clouds only</span></div>
-<div class="line">    std::vector&lt;MR::PointCloud&gt; inputs;</div>
-<div class="line">    <span class="comment">// as ICP and MultiwayICP classes accept both meshes and point clouds,</span></div>
-<div class="line">    <span class="comment">// the input data must be converted to special wrapper objects</span></div>
-<div class="line">    <span class="comment">// NB: the wrapper objects hold *references* to the source data, NOT their copies</span></div>
-<div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1Vector.html">MR::ICPObjects</a> objects;</div>
-<div class="line">    MR::Box3f maxBBox;</div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = 1; i &lt; argc - 1; ++i )</div>
-<div class="line">    {</div>
-<div class="line">        <span class="keyword">auto</span> pointCloud = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a>( argv[i] );</div>
-<div class="line">        <span class="keywordflow">if</span> ( !pointCloud )</div>
-<div class="line">        {</div>
-<div class="line">            std::cerr &lt;&lt; <span class="stringliteral">&quot;Failed to load point cloud: &quot;</span> &lt;&lt; pointCloud.error() &lt;&lt; std::endl;</div>
-<div class="line">            <span class="keywordflow">return</span> EXIT_FAILURE;</div>
-<div class="line">        }</div>
-<div class="line"> </div>
-<div class="line">        <span class="keyword">auto</span> bbox = pointCloud-&gt;computeBoundingBox();</div>
-<div class="line">        <span class="keywordflow">if</span> ( !maxBBox.valid() || bbox.volume() &gt; maxBBox.volume() )</div>
-<div class="line">            maxBBox = bbox;</div>
-<div class="line"> </div>
-<div class="line">        inputs.emplace_back( std::move( *pointCloud ) );</div>
-<div class="line">        <span class="comment">// you may also set an affine transformation for each input as a second argument</span></div>
-<div class="line">        objects.<a class="code hl_functionRef" href="./Cpp/classMR_1_1Vector.html#a78fa1b6365aa64b3aec65883530dc735">push_back</a>( { inputs.back(), {} } );</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// you can set various parameters for the global registration; see the documentation for more info</span></div>
-<div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a> icp( objects, {</div>
-<div class="line">        <span class="comment">// set sampling voxel size</span></div>
-<div class="line">        .samplingVoxelSize = maxBBox.diagonal() * 0.03f,</div>
-<div class="line">    } );</div>
-<div class="line"> </div>
-<div class="line">    icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#afa420b3638e8c4e0b5ac70acb575a741">setParams</a>( {} );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// gather statistics</span></div>
-<div class="line">    icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#ac693705b4903e76f00b8e11f568c3397">updateAllPointPairs</a>();</div>
-<div class="line">    printStats( icp );</div>
-<div class="line"> </div>
-<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Calculating transformations...&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line">    <span class="keyword">auto</span> xfs = icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739">calculateTransformations</a>();</div>
-<div class="line">    printStats( icp );</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a> output;</div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = MR::ObjId( 0 ); i &lt; inputs.size(); ++i )</div>
-<div class="line">    {</div>
-<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; input = inputs[i];</div>
-<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; xf = xfs[i];</div>
-<div class="line">        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; point : input.points )</div>
-<div class="line">            output.points.emplace_back( xf( <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd">point</a> ) );</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> res = <a class="code hl_functionRef" href="./Cpp/group__PointsSaveGroup.html#ga3c8f83fa34faa244672c9f70f436659d">MR::PointsSave::toAnySupportedFormat</a>( output, argv[argc - 1] );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !res )</div>
-<div class="line">    {</div>
-<div class="line">        std::cerr &lt;&lt; <span class="stringliteral">&quot;Failed to save point cloud: &quot;</span> &lt;&lt; res.error() &lt;&lt; std::endl;</div>
-<div class="line">        <span class="keywordflow">return</span> EXIT_FAILURE;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
-<div class="line">}</div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a2b9103b68bd7af393660d7dafc751954"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954">MR::MultiwayICP::getNumActivePairs</a></div><div class="ttdeci">MRMESH_API size_t getNumActivePairs() const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a41d907a6c720ef37eb8620caba3be739"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739">MR::MultiwayICP::calculateTransformations</a></div><div class="ttdeci">MRMESH_API Vector&lt; AffineXf3f, ObjId &gt; calculateTransformations(ProgressCallback cb={})</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a64ac3c584445bc45cecd3c1c41d10ae6"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6">MR::MultiwayICP::getMeanSqDistToPoint</a></div><div class="ttdeci">MRMESH_API float getMeanSqDistToPoint(std::optional&lt; double &gt; value={}) const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a7d58f57c70792f0ec9ef82aa6e95407a"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a7d58f57c70792f0ec9ef82aa6e95407a">MR::MultiwayICP::getNumSamples</a></div><div class="ttdeci">MRMESH_API size_t getNumSamples() const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_ac693705b4903e76f00b8e11f568c3397"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#ac693705b4903e76f00b8e11f568c3397">MR::MultiwayICP::updateAllPointPairs</a></div><div class="ttdeci">MRMESH_API bool updateAllPointPairs(ProgressCallback cb={})</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_adef2b42123425d640c3ba527a8ba8f08"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08">MR::MultiwayICP::getMeanSqDistToPlane</a></div><div class="ttdeci">MRMESH_API float getMeanSqDistToPlane(std::optional&lt; double &gt; value={}) const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_afa420b3638e8c4e0b5ac70acb575a741"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#afa420b3638e8c4e0b5ac70acb575a741">MR::MultiwayICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="./Cpp/classMR_1_1Vector.html">MR::Vector</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_a78fa1b6365aa64b3aec65883530dc735"><div class="ttname"><a href="./Cpp/classMR_1_1Vector.html#a78fa1b6365aa64b3aec65883530dc735">MR::Vector::push_back</a></div><div class="ttdeci">void push_back(const T &amp;t)</div></div>
-<div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
-<div class="ttc" id="agroup__PointsSaveGroup_html_ga3c8f83fa34faa244672c9f70f436659d"><div class="ttname"><a href="./Cpp/group__PointsSaveGroup.html#ga3c8f83fa34faa244672c9f70f436659d">MR::PointsSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
-<div class="ttc" id="anamespaceMR_1_1ImGuiMeasurementIndicators_html_a41f4d6d002c7cff807425bbcb80c5edd"><div class="ttname"><a href="./Cpp/namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd">MR::ImGuiMeasurementIndicators::point</a></div><div class="ttdeci">MRVIEWER_API void point(Element elem, float menuScaling, const Params &amp;params, ImVec2 point)</div></div>
-<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></div></div>
-</div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRBox.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMultiwayICP.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRPointCloud.h&gt;</span></div>
@@ -442,6 +338,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="ttc" id="aMRMeshC_8h_html_a54e0fd4c90bf3b106364a0b506860f88"><div class="ttname"><a href="./Cpp/MRMeshC_8h.html#a54e0fd4c90bf3b106364a0b506860f88">mrPointsSaveToAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API void mrPointsSaveToAnySupportedFormat(const MRPointCloud *pc, const char *file, MRString **errorString)</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_a98f1d2972eb9f1c59fa786e91fada290"><div class="ttname"><a href="./Cpp/MRMeshC_8h.html#a98f1d2972eb9f1c59fa786e91fada290">mrMultiwayICPSetParams</a></div><div class="ttdeci">MRMESHC_API void mrMultiwayICPSetParams(MRMultiwayICP *mwicp, const MRICPProperties *prop)</div></div>
 <div class="ttc" id="aMRMeshC_8h_html_ade711d472b22c9c0e0d099dba90e119c"><div class="ttname"><a href="./Cpp/MRMeshC_8h.html#ade711d472b22c9c0e0d099dba90e119c">mrMultiwayICPCalculateTransformations</a></div><div class="ttdeci">MRMESHC_API MRVectorAffineXf3f * mrMultiwayICPCalculateTransformations(MRMultiwayICP *mwicp, MRProgressCallback cb)</div></div>
+<div class="ttc" id="anamespaceMR_1_1ImGuiMeasurementIndicators_html_a41f4d6d002c7cff807425bbcb80c5edd"><div class="ttname"><a href="./Cpp/namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd">MR::ImGuiMeasurementIndicators::point</a></div><div class="ttdeci">MRVIEWER_API void point(Element elem, float menuScaling, const Params &amp;params, ImVec2 point)</div></div>
 <div class="ttc" id="astructMRAffineXf3f_html"><div class="ttname"><a href="./Cpp/structMRAffineXf3f.html">MRAffineXf3f</a></div></div>
 <div class="ttc" id="astructMRBox3f_html"><div class="ttname"><a href="./Cpp/structMRBox3f.html">MRBox3f</a></div></div>
 <div class="ttc" id="astructMRICPProperties_html"><div class="ttname"><a href="./Cpp/structMRICPProperties.html">MRICPProperties</a></div></div>
@@ -558,7 +455,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">    inputs = []</div>
 <div class="line">    max_bbox = <span class="keywordtype">None</span></div>
 <div class="line">    <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(input_clouds_num):</div>
-<div class="line">        points = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a219266bb9feab737e3159f079c261346">mrmeshpy.loadPoints</a>(file_args[i])</div>
+<div class="line">        points = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ae1822a8d7304291be1e7206e2c53b1c3">mrmeshpy.loadPoints</a>(file_args[i])</div>
 <div class="line">        transform = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy.AffineXf3f</a>()</div>
 <div class="line">        points_with_transform = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1MeshOrPointsXf.html">mrmeshpy.MeshOrPointsXf</a>(points, transform)</div>
 <div class="line">        inputs.append(points_with_transform)</div>
@@ -591,7 +488,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">            transformed_point = transform(point)</div>
 <div class="line">            output.addPoint(transformed_point)</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1PointsSave.html#a0abca4a0f33bd7a7bc6c0578b891c66a">mrmeshpy.PointsSave.toAnySupportedFormat</a>(output, file_args[-1])</div>
+<div class="line">    <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1PointsSave.html#afb0049a4222327c7c0cc154ef1172a8f">mrmeshpy.PointsSave.toAnySupportedFormat</a>(output, file_args[-1])</div>
 <div class="line"> </div>
 <div class="line">main(sys.argv)</div>
 <div class="ttc" id="aclassmrmeshpy_1_1AffineXf3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy::AffineXf3f</a></div></div>
@@ -600,9 +497,9 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="ttc" id="aclassmrmeshpy_1_1MultiwayICPSamplingParameters_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1MultiwayICPSamplingParameters.html">mrmeshpy::MultiwayICPSamplingParameters</a></div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1MultiwayICP_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1MultiwayICP.html">mrmeshpy::MultiwayICP</a></div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1PointCloud_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1PointCloud.html">mrmeshpy::PointCloud</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1PointsSave_html_a0abca4a0f33bd7a7bc6c0578b891c66a"><div class="ttname"><a href="./Py/classmrmeshpy_1_1PointsSave.html#a0abca4a0f33bd7a7bc6c0578b891c66a">mrmeshpy::PointsSave::toAnySupportedFormat</a></div><div class="ttdeci">None toAnySupportedFormat(PointCloud points, os.PathLike file, SaveSettings settings='{}')</div></div>
+<div class="ttc" id="aclassmrmeshpy_1_1PointsSave_html_afb0049a4222327c7c0cc154ef1172a8f"><div class="ttname"><a href="./Py/classmrmeshpy_1_1PointsSave.html#afb0049a4222327c7c0cc154ef1172a8f">mrmeshpy::PointsSave::toAnySupportedFormat</a></div><div class="ttdeci">None toAnySupportedFormat(PointCloud points, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html">mrmeshpy::Vector_MeshOrPointsXf_ObjId</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a219266bb9feab737e3159f079c261346"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a219266bb9feab737e3159f079c261346">mrmeshpy::loadPoints</a></div><div class="ttdeci">PointCloud loadPoints(os.PathLike file, PointsLoadSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ae1822a8d7304291be1e7206e2c53b1c3"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ae1822a8d7304291be1e7206e2c53b1c3">mrmeshpy::loadPoints</a></div><div class="ttdeci">PointCloud loadPoints(os.PathLike|str|bytes file, PointsLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

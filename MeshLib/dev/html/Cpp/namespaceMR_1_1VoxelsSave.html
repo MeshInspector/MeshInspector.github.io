@@ -176,8 +176,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a0f1cbd074f33c0c8f5dcda546829153b" id="r_a0f1cbd074f33c0c8f5dcda546829153b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0f1cbd074f33c0c8f5dcda546829153b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0f1cbd074f33c0c8f5dcda546829153b">toDicom</a> (const <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; std::vector&lt; T &gt; &gt; &amp;volume, const std::filesystem::path &amp;path, const std::optional&lt; <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &gt; &amp;sourceScale={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:a0f1cbd074f33c0c8f5dcda546829153b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af18166aaab350552a2f824a43c6faef9" id="r_af18166aaab350552a2f824a43c6faef9"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af18166aaab350552a2f824a43c6faef9">toDicom</a> (const <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; std::vector&lt; std::uint16_t &gt; &gt; &amp;volume, const std::filesystem::path &amp;path, const std::optional&lt; <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &gt; &amp;sourceScale, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
-<tr class="separator:af18166aaab350552a2f824a43c6faef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaba5fa9d2b1947f916a3629cde580c30f" id="r_gaba5fa9d2b1947f916a3629cde580c30f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gaba5fa9d2b1947f916a3629cde580c30f">toRawAutoname</a> (const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:gaba5fa9d2b1947f916a3629cde580c30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save raw voxels file, writing parameters in file name.  <br /></td></tr>
 <tr class="separator:gaba5fa9d2b1947f916a3629cde580c30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,7 +229,7 @@ Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8b7a3d30f9b81594b08a8a90828dd8e6" name="a8b7a3d30f9b81594b08a8a90828dd8e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b7a3d30f9b81594b08a8a90828dd8e6">&#9670;&#160;</a></span>toDicom() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b7a3d30f9b81594b08a8a90828dd8e6">&#9670;&#160;</a></span>toDicom() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,47 +256,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af18166aaab350552a2f824a43c6faef9" name="af18166aaab350552a2f824a43c6faef9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af18166aaab350552a2f824a43c6faef9">&#9670;&#160;</a></span>toDicom() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">template <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::VoxelsSave::toDicom </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; std::vector&lt; std::uint16_t &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::optional&lt; <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sourceScale</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0f1cbd074f33c0c8f5dcda546829153b" name="a0f1cbd074f33c0c8f5dcda546829153b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f1cbd074f33c0c8f5dcda546829153b">&#9670;&#160;</a></span>toDicom() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f1cbd074f33c0c8f5dcda546829153b">&#9670;&#160;</a></span>toDicom() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

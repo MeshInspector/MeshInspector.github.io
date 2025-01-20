@@ -1,13 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
-"structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2],
-"structMRCoordinateConverters.html":[6,0,2,0,10],
-"structMRCoordinateConverters.html#a045ac7e849ea18d3cb66c7f0b40c6cd6":[6,0,2,0,10,0],
-"structMRCoordinateConverters.html#a56607e99af907574f8b2318d7a4adf44":[6,0,2,0,10,1],
-"structMRDecimateResult.html":[6,0,2,0,11],
-"structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09":[6,0,2,0,11,3],
-"structMRDecimateResult.html#a3c065962d7b37882d764de946b664201":[6,0,2,0,11,1],
 "structMRDecimateResult.html#a55c9f57cd3723046a5c7113b5fb0da2b":[6,0,2,0,11,2],
 "structMRDecimateResult.html#aba3cacd7b3b56eb6f30232625328d026":[6,0,2,0,11,0],
 "structMRDecimateSettings.html":[6,0,2,0,12],
@@ -249,5 +241,13 @@ var NAVTREEINDEX59 =
 "structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,55,5],
 "structMRUndirectedEdgeId.html":[6,0,2,0,57],
 "structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,57,0],
-"structMRVariableEdgeTri.html":[6,0,2,0,58]
+"structMRVariableEdgeTri.html":[6,0,2,0,58],
+"structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a":[6,0,2,0,58,0],
+"structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df":[6,0,2,0,58,2],
+"structMRVariableEdgeTri.html#afdb5363f5103bfde2cc6a6507f3f97f6":[6,0,2,0,58,1],
+"structMRVdbVolume.html":[6,0,2,0,59],
+"structMRVdbVolume.html#a1c5d0db6fc80b1b97e80c6374f2b8304":[6,0,2,0,59,3],
+"structMRVdbVolume.html#a848a2c12538a61e630304e97a1392252":[6,0,2,0,59,0],
+"structMRVdbVolume.html#ab1c95170370b963a8c22399c950ea3ab":[6,0,2,0,59,4],
+"structMRVdbVolume.html#acaaf03df5a446178a6ea460c9a6a725d":[6,0,2,0,59,2]
 };
