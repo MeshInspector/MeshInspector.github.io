@@ -207,6 +207,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5cb57f3a962333b146ea7b607f88fc8e" id="r_a5cb57f3a962333b146ea7b607f88fc8e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cb57f3a962333b146ea7b607f88fc8e">reset</a> ()</td></tr>
 <tr class="memdesc:a5cb57f3a962333b146ea7b607f88fc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset widget state  <br /></td></tr>
 <tr class="separator:a5cb57f3a962333b146ea7b607f88fc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93366e4a5e29c99eca29d636b62f11f8" id="r_a93366e4a5e29c99eca29d636b62f11f8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93366e4a5e29c99eca29d636b62f11f8">setFixedRegion</a> (const FaceBitSet &amp;region)</td></tr>
+<tr class="separator:a93366e4a5e29c99eca29d636b62f11f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080d25b56fe008a5917ca1d4ccc0b4d3" id="r_a080d25b56fe008a5917ca1d4ccc0b4d3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080d25b56fe008a5917ca1d4ccc0b4d3">setSettings</a> (const <a class="el" href="structMR_1_1SurfaceManipulationWidget_1_1Settings.html">Settings</a> &amp;settings)</td></tr>
 <tr class="memdesc:a080d25b56fe008a5917ca1d4ccc0b4d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set widget settings (mesh change settings)  <br /></td></tr>
 <tr class="separator:a080d25b56fe008a5917ca1d4ccc0b4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -449,6 +451,24 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>reset widget state </p>
+
+</div>
+</div>
+<a id="a93366e4a5e29c99eca29d636b62f11f8" name="a93366e4a5e29c99eca29d636b62f11f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93366e4a5e29c99eca29d636b62f11f8">&#9670;&#160;</a></span>setFixedRegion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::SurfaceManipulationWidget::setFixedRegion </td>
+          <td>(</td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>lock the mesh region (vertices in this region cannot be moved, added or deleted) </p><dl class="section note"><dt>Note</dt><dd>boundary edges can be splitted to improve quality of the patch </dd></dl>
 
 </div>
 </div>

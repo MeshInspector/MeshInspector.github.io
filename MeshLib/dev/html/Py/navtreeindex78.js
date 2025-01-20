@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"classmrmeshpy_1_1UniformSamplingSettings.html#af7ce976698e9971ce6162648d7bcfb37":[6,1,0,0,2,955,6],
+"classmrmeshpy_1_1UniformSamplingSettings.html#af7ce976698e9971ce6162648d7bcfb37":[6,1,1,0,1,955,6],
+"classmrmeshpy_1_1UnionFind__FaceId.html":[6,1,0,0,2,956],
+"classmrmeshpy_1_1UnionFind__FaceId.html":[6,1,1,0,1,956],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a095da7ec694ec72054dd43c6d33fc1b3":[6,1,0,0,2,956,9],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a095da7ec694ec72054dd43c6d33fc1b3":[6,1,1,0,1,956,9],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a11c145300292060ccc02fdab6f24640a":[6,1,0,0,2,956,10],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a11c145300292060ccc02fdab6f24640a":[6,1,1,0,1,956,10],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,0,0,2,956,11],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,1,0,1,956,11],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a5921a8b7a46e08ce74fc65ad09747df3":[6,1,0,0,2,956,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "classmrmeshpy_1_1UseAABBTree.html#afb16fd4c6e1dd7d91d4efc5b3b8aac7e":[6,1,0,0,2,968,5],
 "classmrmeshpy_1_1UseAABBTree.html#afb16fd4c6e1dd7d91d4efc5b3b8aac7e":[6,1,1,0,1,968,5],
 "classmrmeshpy_1_1VariableEdgeTri.html":[6,1,0,0,2,969],
-"classmrmeshpy_1_1VariableEdgeTri.html":[6,1,1,0,1,969],
-"classmrmeshpy_1_1VariableEdgeTri.html#a11840d73e85da1b6392e6182715490f1":[6,1,0,0,2,969,0],
-"classmrmeshpy_1_1VariableEdgeTri.html#a11840d73e85da1b6392e6182715490f1":[6,1,1,0,1,969,0],
-"classmrmeshpy_1_1VariableEdgeTri.html#a47b545b7b82ffc753fe2cc7366549eee":[6,1,0,0,2,969,1],
-"classmrmeshpy_1_1VariableEdgeTri.html#a47b545b7b82ffc753fe2cc7366549eee":[6,1,1,0,1,969,1],
-"classmrmeshpy_1_1VdbVolume.html":[6,1,0,0,2,970],
-"classmrmeshpy_1_1VdbVolume.html":[6,1,1,0,1,970],
-"classmrmeshpy_1_1VdbVolume.html#a0df82d62d240071eac26ee807cf58d24":[6,1,0,0,2,970,1],
-"classmrmeshpy_1_1VdbVolume.html#a0df82d62d240071eac26ee807cf58d24":[6,1,1,0,1,970,1]
+"classmrmeshpy_1_1VariableEdgeTri.html":[6,1,1,0,1,969]
 };

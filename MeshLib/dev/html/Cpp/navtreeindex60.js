@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMRVector3f.html":[6,0,2,0,60],
+"structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[6,0,2,0,60,1],
 "structMRVector3f.html#a5c5342e25c41c46694167c41774234bd":[6,0,2,0,60,0],
 "structMRVector3f.html#a9fbd6e9840c8d988a628ec3519c05a0c":[6,0,2,0,60,2],
 "structMRVector3i.html":[6,0,2,0,61],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[6,0,1,0,1,69,7],
 "structMR_1_1BasicUiRenderTask.html#ae03db3414263164b9321a4ed5d41838a":[6,0,2,0,1,53,7],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,1,0,1,69,0],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,2,0,1,53,0],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a29e14da81c0701108ac352055c7e9b99":[6,0,1,0,1,69,0,1],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a29e14da81c0701108ac352055c7e9b99":[6,0,2,0,1,53,0,1]
+"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,2,0,1,53,0]
 };

@@ -182,6 +182,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aba46fa5a5269e9ffb23176c985a2c2b7" id="r_aba46fa5a5269e9ffb23176c985a2c2b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba46fa5a5269e9ffb23176c985a2c2b7">naturalSmooth</a> = false</td></tr>
 <tr class="memdesc:aba46fa5a5269e9ffb23176c985a2c2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole.  <br /></td></tr>
 <tr class="separator:aba46fa5a5269e9ffb23176c985a2c2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d0f88d49fd92560346c908c5b5a6559" id="r_a6d0f88d49fd92560346c908c5b5a6559"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d0f88d49fd92560346c908c5b5a6559">beforeEdgeSplit</a></td></tr>
+<tr class="memdesc:a6d0f88d49fd92560346c908c5b5a6559"><td class="mdescLeft">&#160;</td><td class="mdescRight">(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped  <br /></td></tr>
+<tr class="separator:a6d0f88d49fd92560346c908c5b5a6559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29116e24393106e531f26abb886019b2" id="r_a29116e24393106e531f26abb886019b2"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId e1, EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29116e24393106e531f26abb886019b2">onEdgeSplit</a></td></tr>
+<tr class="memdesc:a29116e24393106e531f26abb886019b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
+<tr class="separator:a29116e24393106e531f26abb886019b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a033b24c89dfe82d1d7ebadc8b24f1a79" id="r_a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033b24c89dfe82d1d7ebadc8b24f1a79">edgeWeights</a> = <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
 <tr class="memdesc:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge weighting scheme for smoothCurvature mode  <br /></td></tr>
 <tr class="separator:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +199,22 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af9530ece1e8bd0354145a59d4d603bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6d0f88d49fd92560346c908c5b5a6559" name="a6d0f88d49fd92560346c908c5b5a6559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d0f88d49fd92560346c908c5b5a6559">&#9670;&#160;</a></span>beforeEdgeSplit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;bool( EdgeId e )&gt; MR::FillHoleNicelySettings::beforeEdgeSplit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped </p>
+
+</div>
+</div>
 <a id="af9530ece1e8bd0354145a59d4d603bf9" name="af9530ece1e8bd0354145a59d4d603bf9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9530ece1e8bd0354145a59d4d603bf9">&#9670;&#160;</a></span>colorMap</h2>
 
@@ -286,6 +308,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole. </p>
+
+</div>
+</div>
+<a id="a29116e24393106e531f26abb886019b2" name="a29116e24393106e531f26abb886019b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29116e24393106e531f26abb886019b2">&#9670;&#160;</a></span>onEdgeSplit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void( EdgeId e1, EdgeId e )&gt; MR::FillHoleNicelySettings::onEdgeSplit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </p>
 
 </div>
 </div>

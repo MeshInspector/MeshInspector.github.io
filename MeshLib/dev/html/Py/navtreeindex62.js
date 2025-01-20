@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"classmrmeshpy_1_1Quaterniond.html#ac97b768498cc24ff9e96e363f6f55e2a":[6,1,0,0,2,664,26],
+"classmrmeshpy_1_1Quaterniond.html#ac97b768498cc24ff9e96e363f6f55e2a":[6,1,1,0,1,664,26],
+"classmrmeshpy_1_1Quaterniond.html#ad2a0e2a9e1cea8709f2c54bf1297a9a0":[6,1,0,0,2,664,20],
+"classmrmeshpy_1_1Quaterniond.html#ad2a0e2a9e1cea8709f2c54bf1297a9a0":[6,1,1,0,1,664,20],
+"classmrmeshpy_1_1Quaterniond.html#add65ffb928a031552e6a1e156f29f1b2":[6,1,0,0,2,664,21],
+"classmrmeshpy_1_1Quaterniond.html#add65ffb928a031552e6a1e156f29f1b2":[6,1,1,0,1,664,21],
+"classmrmeshpy_1_1Quaternionf.html":[6,1,0,0,2,665],
+"classmrmeshpy_1_1Quaternionf.html":[6,1,1,0,1,665],
 "classmrmeshpy_1_1Quaternionf.html#a102f0309d72ab72bf4e1e03185e13412":[6,1,0,0,2,665,3],
 "classmrmeshpy_1_1Quaternionf.html#a102f0309d72ab72bf4e1e03185e13412":[6,1,1,0,1,665,3],
 "classmrmeshpy_1_1Quaternionf.html#a1948efd5ddd34f89b8b42af57e8fcb9a":[6,1,0,0,2,665,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "classmrmeshpy_1_1RefineParameters.html#a935dbfcb32448ce1a440cf1ae0b34392":[6,1,0,0,2,670,13],
 "classmrmeshpy_1_1RefineParameters.html#a935dbfcb32448ce1a440cf1ae0b34392":[6,1,1,0,1,670,13],
 "classmrmeshpy_1_1RefineParameters.html#a9f20ffd02f56b33f919ff90ad3b9dbd2":[6,1,0,0,2,670,2],
-"classmrmeshpy_1_1RefineParameters.html#a9f20ffd02f56b33f919ff90ad3b9dbd2":[6,1,1,0,1,670,2],
-"classmrmeshpy_1_1RefineParameters.html#ab01bedaf072601bc1f46f29fc81c4a5b":[6,1,0,0,2,670,14],
-"classmrmeshpy_1_1RefineParameters.html#ab01bedaf072601bc1f46f29fc81c4a5b":[6,1,1,0,1,670,14],
-"classmrmeshpy_1_1RefineParameters.html#ac5367f4dac08d1297d60fab5d0477bf2":[6,1,0,0,2,670,6],
-"classmrmeshpy_1_1RefineParameters.html#ac5367f4dac08d1297d60fab5d0477bf2":[6,1,1,0,1,670,6],
-"classmrmeshpy_1_1RefineParameters.html#acd0f46bb4315867d74418969152d5cb0":[6,1,0,0,2,670,1],
-"classmrmeshpy_1_1RefineParameters.html#acd0f46bb4315867d74418969152d5cb0":[6,1,1,0,1,670,1],
-"classmrmeshpy_1_1RefineParameters.html#ace795ecc7673a27af34bed714a4b169b":[6,1,0,0,2,670,5],
-"classmrmeshpy_1_1RefineParameters.html#ace795ecc7673a27af34bed714a4b169b":[6,1,1,0,1,670,5]
+"classmrmeshpy_1_1RefineParameters.html#a9f20ffd02f56b33f919ff90ad3b9dbd2":[6,1,1,0,1,670,2]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX41 =
 {
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html":[6,1,0,0,2,438,5],
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html":[6,1,1,0,1,438,5],
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a2669ebd798e92ee76619b235f653350d":[6,1,0,0,2,438,5,2],
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a2669ebd798e92ee76619b235f653350d":[6,1,1,0,1,438,5,2],
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a67d93960c89688a3ed34c26af61c51da":[6,1,0,0,2,438,5,5],
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a67d93960c89688a3ed34c26af61c51da":[6,1,1,0,1,438,5,5],
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a6aa6b42e4fde0f1bcdcfb9ab111a4f54":[6,1,0,0,2,438,5,1],
+"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a6aa6b42e4fde0f1bcdcfb9ab111a4f54":[6,1,1,0,1,438,5,1],
 "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ab4d5ebef118b875ef78b4a8378e105a0":[6,1,0,0,2,438,5,0],
 "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ab4d5ebef118b875ef78b4a8378e105a0":[6,1,1,0,1,438,5,0],
 "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#abb3bb50ceefc5321c10982edeb7610a9":[6,1,0,0,2,438,5,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX41 =
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a1dabc2b3ac1f1f064e0157e62ca5ecb3":[6,1,0,0,2,447,4],
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a1dabc2b3ac1f1f064e0157e62ca5ecb3":[6,1,1,0,1,447,4],
 "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a649ad33897512aaa6c20f12bfb0aed7f":[6,1,0,0,2,447,0],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a649ad33897512aaa6c20f12bfb0aed7f":[6,1,1,0,1,447,0],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a85e2bfc448b375442cd6b79f16c87f26":[6,1,0,0,2,447,1],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a85e2bfc448b375442cd6b79f16c87f26":[6,1,1,0,1,447,1],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a9ce10e4eef37099a5bf68f59bd11b73b":[6,1,0,0,2,447,8],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a9ce10e4eef37099a5bf68f59bd11b73b":[6,1,1,0,1,447,8],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#aa828bfa0d59b783d835434add2628fb2":[6,1,0,0,2,447,6],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#aa828bfa0d59b783d835434add2628fb2":[6,1,1,0,1,447,6],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#ac7aff9e9b77de3e30096666c149729d7":[6,1,0,0,2,447,7],
-"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#ac7aff9e9b77de3e30096666c149729d7":[6,1,1,0,1,447,7]
+"classmrmeshpy_1_1MeshMeshSignedDistanceResult.html#a649ad33897512aaa6c20f12bfb0aed7f":[6,1,1,0,1,447,0]
 };

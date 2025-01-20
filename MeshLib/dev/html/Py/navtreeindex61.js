@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"classmrmeshpy_1_1PreciseVertCoords2.html#a421623422a07b01f418804e20eb1facd":[6,1,0,0,2,655,2],
+"classmrmeshpy_1_1PreciseVertCoords2.html#a421623422a07b01f418804e20eb1facd":[6,1,1,0,1,655,2],
+"classmrmeshpy_1_1PreciseVertCoords2.html#a505886592d461b4b8fcc1bb3a872a54a":[6,1,0,0,2,655,0],
+"classmrmeshpy_1_1PreciseVertCoords2.html#a505886592d461b4b8fcc1bb3a872a54a":[6,1,1,0,1,655,0],
+"classmrmeshpy_1_1PreciseVertCoords2.html#a76b1fbfd3029c7cd71457cf7277e26ec":[6,1,0,0,2,655,3],
+"classmrmeshpy_1_1PreciseVertCoords2.html#a76b1fbfd3029c7cd71457cf7277e26ec":[6,1,1,0,1,655,3],
+"classmrmeshpy_1_1PreciseVertCoords2.html#a77333871a0dccb5cd56e5dc865c6b4fc":[6,1,0,0,2,655,6],
+"classmrmeshpy_1_1PreciseVertCoords2.html#a77333871a0dccb5cd56e5dc865c6b4fc":[6,1,1,0,1,655,6],
 "classmrmeshpy_1_1PreciseVertCoords2.html#ab213fe33cbc49f0e55ac8cebb9984da0":[6,1,0,0,2,655,4],
 "classmrmeshpy_1_1PreciseVertCoords2.html#ab213fe33cbc49f0e55ac8cebb9984da0":[6,1,1,0,1,655,4],
 "classmrmeshpy_1_1PreciseVertCoords2.html#aea54541e5d7dff8ccc8d073108b3bc52":[6,1,0,0,2,655,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1Quaterniond.html#ac3b54aee07ec37711340f317d26a98d2":[6,1,0,0,2,664,28],
 "classmrmeshpy_1_1Quaterniond.html#ac3b54aee07ec37711340f317d26a98d2":[6,1,1,0,1,664,28],
 "classmrmeshpy_1_1Quaterniond.html#ac8e2ddcfae51d677ab780408691792e0":[6,1,0,0,2,664,13],
-"classmrmeshpy_1_1Quaterniond.html#ac8e2ddcfae51d677ab780408691792e0":[6,1,1,0,1,664,13],
-"classmrmeshpy_1_1Quaterniond.html#ac97b768498cc24ff9e96e363f6f55e2a":[6,1,0,0,2,664,26],
-"classmrmeshpy_1_1Quaterniond.html#ac97b768498cc24ff9e96e363f6f55e2a":[6,1,1,0,1,664,26],
-"classmrmeshpy_1_1Quaterniond.html#ad2a0e2a9e1cea8709f2c54bf1297a9a0":[6,1,0,0,2,664,20],
-"classmrmeshpy_1_1Quaterniond.html#ad2a0e2a9e1cea8709f2c54bf1297a9a0":[6,1,1,0,1,664,20],
-"classmrmeshpy_1_1Quaterniond.html#add65ffb928a031552e6a1e156f29f1b2":[6,1,0,0,2,664,21],
-"classmrmeshpy_1_1Quaterniond.html#add65ffb928a031552e6a1e156f29f1b2":[6,1,1,0,1,664,21],
-"classmrmeshpy_1_1Quaternionf.html":[6,1,0,0,2,665],
-"classmrmeshpy_1_1Quaternionf.html":[6,1,1,0,1,665]
+"classmrmeshpy_1_1Quaterniond.html#ac8e2ddcfae51d677ab780408691792e0":[6,1,1,0,1,664,13]
 };

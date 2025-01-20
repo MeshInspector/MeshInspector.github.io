@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#af82bacbb4bbbc6e2653a60220cfd59a8":[6,1,0,0,2,829,4],
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#af82bacbb4bbbc6e2653a60220cfd59a8":[6,1,1,0,1,829,4],
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#aff73bfc907b7762cd224637092876c0b":[6,1,0,0,2,829,8],
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#aff73bfc907b7762cd224637092876c0b":[6,1,1,0,1,829,8],
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html":[6,1,0,0,2,830],
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html":[6,1,1,0,1,830],
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a0002c9df75aee5b03a6440662fac776a":[6,1,0,0,2,830,16],
+"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a0002c9df75aee5b03a6440662fac776a":[6,1,1,0,1,830,16],
 "classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a050d12aacb7f73a19a2c31b7b4bfcac0":[6,1,0,0,2,830,7],
 "classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a050d12aacb7f73a19a2c31b7b4bfcac0":[6,1,1,0,1,830,7],
 "classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a09c011f8290d2a2c124204084b0c6fdb":[6,1,0,0,2,830,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#ae9c45b55fbad95f6e785c8c3e182b586":[6,1,0,0,2,834,21],
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#ae9c45b55fbad95f6e785c8c3e182b586":[6,1,1,0,1,834,21],
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af4dc7d635460bb462d3b1a6eba5f5cd2":[6,1,0,0,2,834,0],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af4dc7d635460bb462d3b1a6eba5f5cd2":[6,1,1,0,1,834,0],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af6077dbcc9ffc627cd6681d8007ea7c1":[6,1,0,0,2,834,1],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af6077dbcc9ffc627cd6681d8007ea7c1":[6,1,1,0,1,834,1],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af922fe362a5edb25895869a1622a96de":[6,1,0,0,2,834,15],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af922fe362a5edb25895869a1622a96de":[6,1,1,0,1,834,15],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html":[6,1,0,0,2,874],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html":[6,1,1,0,1,874],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#a10572f2c3078e1e58a97f67f8b7ad0f2":[6,1,0,0,2,874,8],
-"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#a10572f2c3078e1e58a97f67f8b7ad0f2":[6,1,1,0,1,874,8]
+"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af4dc7d635460bb462d3b1a6eba5f5cd2":[6,1,1,0,1,834,0]
 };

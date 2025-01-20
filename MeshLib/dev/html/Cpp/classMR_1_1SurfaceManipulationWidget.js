@@ -17,6 +17,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "init", "classMR_1_1SurfaceManipulationWidget.html#a3aed52f4737f381cd25e1431f64076b9", null ],
     [ "palette", "classMR_1_1SurfaceManipulationWidget.html#ac630e539a99b5bafb846ed70cae75f35", null ],
     [ "reset", "classMR_1_1SurfaceManipulationWidget.html#a5cb57f3a962333b146ea7b607f88fc8e", null ],
+    [ "setFixedRegion", "classMR_1_1SurfaceManipulationWidget.html#a93366e4a5e29c99eca29d636b62f11f8", null ],
     [ "setSettings", "classMR_1_1SurfaceManipulationWidget.html#a080d25b56fe008a5917ca1d4ccc0b4d3", null ],
     [ "updateTexture", "classMR_1_1SurfaceManipulationWidget.html#ae60bdd11677d2000b6deeb48ddfe3d6f", null ],
     [ "updateUVs", "classMR_1_1SurfaceManipulationWidget.html#ac926b09e4e210e422759de45d1bf1524", null ]

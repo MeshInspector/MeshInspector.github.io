@@ -38,7 +38,7 @@ var searchData=
   ['bastards_5f_35',['bastards_',['../classMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918',1,'MR::ObjectChildrenHolder']]],
   ['bdverts_36',['bdVerts',['../structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66',1,'MR::DecimateSettings']]],
   ['before_37',['before',['../structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1',1,'MR::SceneReorder']]],
-  ['beforeedgesplit_38',['beforeEdgeSplit',['../structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8',1,'MR::SubdivideSettings']]],
+  ['beforeedgesplit_38',['beforeEdgeSplit',['../structMR_1_1FillHoleNicelySettings.html#a6d0f88d49fd92560346c908c5b5a6559',1,'MR::FillHoleNicelySettings::beforeEdgeSplit'],['../structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8',1,'MR::SubdivideSettings::beforeEdgeSplit']]],
   ['beg_39',['beg',['../structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0',1,'MR::IdRange']]],
   ['begin_5f_40',['begin_',['../structMR_1_1IteratorRange.html#a6dc3025499872ade8eaf5f1768b10aa3',1,'MR::IteratorRange']]],
   ['bestfitparabola_41',['BestFitParabola',['../namespaceMR.html#a10b1bb82ec6277971f775e788f4b645b',1,'MR']]],

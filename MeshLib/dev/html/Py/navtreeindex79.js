@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1VariableEdgeTri.html#a11840d73e85da1b6392e6182715490f1":[6,1,0,0,2,969,0],
+"classmrmeshpy_1_1VariableEdgeTri.html#a11840d73e85da1b6392e6182715490f1":[6,1,1,0,1,969,0],
+"classmrmeshpy_1_1VariableEdgeTri.html#a47b545b7b82ffc753fe2cc7366549eee":[6,1,0,0,2,969,1],
+"classmrmeshpy_1_1VariableEdgeTri.html#a47b545b7b82ffc753fe2cc7366549eee":[6,1,1,0,1,969,1],
+"classmrmeshpy_1_1VdbVolume.html":[6,1,0,0,2,970],
+"classmrmeshpy_1_1VdbVolume.html":[6,1,1,0,1,970],
+"classmrmeshpy_1_1VdbVolume.html#a0df82d62d240071eac26ee807cf58d24":[6,1,0,0,2,970,1],
+"classmrmeshpy_1_1VdbVolume.html#a0df82d62d240071eac26ee807cf58d24":[6,1,1,0,1,970,1],
 "classmrmeshpy_1_1VdbVolume.html#ae874d6557de145e82c93b1d63e720f41":[6,1,0,0,2,970,0],
 "classmrmeshpy_1_1VdbVolume.html#ae874d6557de145e82c93b1d63e720f41":[6,1,1,0,1,970,0],
 "classmrmeshpy_1_1Vector2b.html":[6,1,0,0,2,971],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1Vector3b.html#a2dee779d75796f67799ec529256f1b75":[6,1,0,0,2,976,4],
 "classmrmeshpy_1_1Vector3b.html#a2dee779d75796f67799ec529256f1b75":[6,1,1,0,1,976,4],
 "classmrmeshpy_1_1Vector3b.html#a4457cbcc58e441886649b5c7e94d1dfa":[6,1,0,0,2,976,9],
-"classmrmeshpy_1_1Vector3b.html#a4457cbcc58e441886649b5c7e94d1dfa":[6,1,1,0,1,976,9],
-"classmrmeshpy_1_1Vector3b.html#a46028e298c895946cb023fe6a61ede40":[6,1,0,0,2,976,3],
-"classmrmeshpy_1_1Vector3b.html#a46028e298c895946cb023fe6a61ede40":[6,1,1,0,1,976,3],
-"classmrmeshpy_1_1Vector3b.html#a4700928c2b2219b051a35375ee8620a5":[6,1,0,0,2,976,5],
-"classmrmeshpy_1_1Vector3b.html#a4700928c2b2219b051a35375ee8620a5":[6,1,1,0,1,976,5],
-"classmrmeshpy_1_1Vector3b.html#a782feb48dfb597019a39b1849f43da7f":[6,1,0,0,2,976,1],
-"classmrmeshpy_1_1Vector3b.html#a782feb48dfb597019a39b1849f43da7f":[6,1,1,0,1,976,1],
-"classmrmeshpy_1_1Vector3b.html#a8e400fb9450c700e6bc5aa2b48342612":[6,1,0,0,2,976,6],
-"classmrmeshpy_1_1Vector3b.html#a8e400fb9450c700e6bc5aa2b48342612":[6,1,0,0,2,976,7]
+"classmrmeshpy_1_1Vector3b.html#a4457cbcc58e441886649b5c7e94d1dfa":[6,1,1,0,1,976,9]
 };

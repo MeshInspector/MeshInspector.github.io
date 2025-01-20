@@ -1,5 +1,13 @@
 var NAVTREEINDEX33 =
 {
+"classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[6,1,0,0,2,360,4],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[6,1,1,0,1,360,4],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a0bc9dfc185d8a52438a1683aa14203d0":[6,1,0,0,2,360,7],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a0bc9dfc185d8a52438a1683aa14203d0":[6,1,1,0,1,360,7],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a1a8fa1b3bcec86c2f87f96d71505640b":[6,1,0,0,2,360,1],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a1a8fa1b3bcec86c2f87f96d71505640b":[6,1,1,0,1,360,1],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a3f0e7622ee44d9207319b3c585391fd7":[6,1,0,0,2,360,0],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a3f0e7622ee44d9207319b3c585391fd7":[6,1,1,0,1,360,0],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a43e18f120551a90286eb010911b4bf82":[6,1,0,0,2,360,3],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a43e18f120551a90286eb010911b4bf82":[6,1,1,0,1,360,3],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a4a744f1ca6fc9779e6798c018e06490e":[6,1,0,0,2,360,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX33 =
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#a9b418f4ad6a6991fc01ffc8670e574b0":[6,1,0,0,2,381,2],
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#a9b418f4ad6a6991fc01ffc8670e574b0":[6,1,1,0,1,381,2],
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#aa5431f5bffbf40a4f6d3aba35e111608":[6,1,0,0,2,381,1],
-"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#aa5431f5bffbf40a4f6d3aba35e111608":[6,1,1,0,1,381,1],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html":[6,1,0,0,2,382],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html":[6,1,1,0,1,382],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a2ea60ae84d0dd6f88958f8cf8986d1b3":[6,1,0,0,2,382,0],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a2ea60ae84d0dd6f88958f8cf8986d1b3":[6,1,1,0,1,382,0],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a36133fe7dca48d61c18b88ca5526b2e8":[6,1,0,0,2,382,2],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a36133fe7dca48d61c18b88ca5526b2e8":[6,1,1,0,1,382,2],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af618390da94dfaee8ff2b2213891b618":[6,1,0,0,2,382,1],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af618390da94dfaee8ff2b2213891b618":[6,1,1,0,1,382,1]
+"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html#aa5431f5bffbf40a4f6d3aba35e111608":[6,1,1,0,1,381,1]
 };
