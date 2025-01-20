@@ -31,7 +31,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib Documentation: Example Plugin Overview</title>
+<title>MeshLib Documentation: C++ Example Plugin Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -150,11 +150,11 @@ $(function(){initNavTree('ExamplePluginOverview.html',''); initResizable(true); 
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Example Plugin Overview</div></div>
+  <div class="headertitle"><div class="title">C++ Example Plugin Overview</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md41">Distribution Example Plugin Description</a><ul><li class="level2"><a href="#autotoc_md42">Introduction</a></li>
+<ul><li class="level1"><a href="#autotoc_md41">C++ Distribution Example Plugin</a><ul><li class="level2"><a href="#autotoc_md42">Introduction</a></li>
 <li class="level2"><a href="#autotoc_md43">Content</a><ul><li class="level3"><a href="#autotoc_md44">Solution File</a></li>
 <li class="level3"><a href="#autotoc_md45">Project File</a></li>
 <li class="level3"><a href="#autotoc_md46">Tools Configuration File</a></li>
@@ -169,10 +169,10 @@ $(function(){initNavTree('ExamplePluginOverview.html',''); initResizable(true); 
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="autotoc_md41"></a>
-Distribution Example Plugin Description</h1>
+C++ Distribution Example Plugin</h1>
 <h2><a class="anchor" id="autotoc_md42"></a>
 Introduction</h2>
-<p>This page describes what is present in <code>example_plugin</code> directory of the Windows distribution archive and how to use it. </p><dl class="section note"><dt>Note</dt><dd>Please have a look at <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">MeshLib setup guide</a> first.</dd></dl>
+<p>This page describes what is present in <code>example_plugin</code> directory of the Windows distribution archive and how to use it. </p><dl class="section note"><dt>Note</dt><dd>Please have a look at <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">MeshLib С++ setup guide</a> first.</dd></dl>
 <h2><a class="anchor" id="autotoc_md43"></a>
 Content</h2>
 <p>This example contains several files:</p><ol type="1">
@@ -305,8 +305,8 @@ Resoure Directory</h3>
 <h3><a class="anchor" id="autotoc_md49"></a>
 Source Code File</h3>
 <p><code>MyPlugin.cpp</code> - this file contains two simple tools:</p><ol type="1">
-<li><code>MyTool() : RibbonMenuItem( "My Tool" )</code> - shows "Helo World" <b>modal</b> window</li>
-<li><code>MyStateTool() : StatePlugin( "My State Tool" )</code> - shows "Helo World" <b>dialog</b> window</li>
+<li><code>MyTool() : RibbonMenuItem( "My Tool" )</code> - shows "Hello World" <b>modal</b> window</li>
+<li><code>MyStateTool() : StatePlugin( "My State Tool" )</code> - shows "Hello World" <b>dialog</b> window</li>
 </ol>
 <p>For more information have a look at <a class="el" href="StatePluginsHelp.html">State Plugin Page</a></p>
 <h2><a class="anchor" id="autotoc_md50"></a>
@@ -316,7 +316,7 @@ Usage</h2>
 <li>Compile it</li>
 <li>Copy content of just appeared <code>x64\Release\</code> folder to MeshLib or MeshInspector app folder<ul>
 <li>MeshLib: <code>install\app\Release</code></li>
-<li>MeshInspector: <code>C:\Program Files\MeshInspector\MeshInspector</code>, please note that you should use same version of MeshLib that is used in MeshInspector to avoid unexpeted errors <dl class="section note"><dt>Note</dt><dd>take <code>x64\Debug\</code> if you want to test it in MeshLib degub app folder: <code>install\app\Debug</code> </dd></dl>
+<li>MeshInspector: <code>C:\Program Files\MeshInspector\MeshInspector</code>, please note that you should use same version of MeshLib that is used in MeshInspector to avoid unexpected errors <dl class="section note"><dt>Note</dt><dd>take <code>x64\Debug\</code> if you want to test it in MeshLib debug app folder: <code>install\app\Debug</code> </dd></dl>
 </li>
 </ul>
 </li>

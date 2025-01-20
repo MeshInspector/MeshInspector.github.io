@@ -65,7 +65,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Package Overview", "PackageOverview.html", [
-      [ "Distirbution Example Plugin", "ExamplePluginOverview.html", null ],
+      [ "How to use С++ Example Plugin", "ExamplePluginOverview.html", null ],
       [ "Data Model Class Hierarchy", "DataModel.html", null ],
       [ "Spaces and Transformations", "SpacesHelp.html", null ],
       [ "State Plugins Overview", "StatePluginsHelp.html", null ]
