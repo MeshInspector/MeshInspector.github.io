@@ -155,6 +155,57 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="contents">
 <div class="textblock"><p>Simple triangulation</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloudTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRUniformSampling_8h.html">MRMesh/MRUniformSampling.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRVoxels/MROffset.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// Generate point cloud</span></div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a> pc;</div>
+<div class="line">    pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">points</a>.reserve( 10000 );</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = 0; i &lt; 100; ++i )</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> u = MR::PI2_F * float( i ) / ( 100.f - 1.f );</div>
+<div class="line">        <span class="keywordflow">for</span> ( <span class="keyword">auto</span> j = 0; j &lt; 100; ++j )</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keyword">const</span> <span class="keyword">auto</span> v = MR::PI_F * float( j ) / ( 100.f - 1.f );</div>
+<div class="line"> </div>
+<div class="line">            pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">points</a>.emplace_back(</div>
+<div class="line">                std::cos( u ) * std::sin( v ),</div>
+<div class="line">                std::sin( u ) * std::sin( v ),</div>
+<div class="line">                std::cos( v )</div>
+<div class="line">            );</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">    <span class="comment">// Remove duplicate points</span></div>
+<div class="line">    <span class="keyword">auto</span> vs = <a class="code hl_functionRef" href="./Cpp/group__PointCloudGroup.html#ga1d42cd6fcda63ebaac2da831b5d85d72">MR::pointUniformSampling</a>( pc, {</div>
+<div class="line">        .distance = 1e-3f,</div>
+<div class="line">    } );</div>
+<div class="line">    assert( vs );</div>
+<div class="line">    pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03">validPoints</a> = std::move( *vs );</div>
+<div class="line">    pc.<a class="code hl_functionRef" href="./Cpp/structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a>();</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Triangulate it</span></div>
+<div class="line">    <span class="keyword">auto</span> triangulated = <a class="code hl_functionRef" href="./Cpp/group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df">MR::triangulatePointCloud</a>( pc );</div>
+<div class="line">    assert( triangulated );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Fix possible issues</span></div>
+<div class="line">    <span class="keyword">auto</span> mesh = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#aa8cff093ce429503e9b5c0e33d5b9080">MR::offsetMesh</a>( *triangulated, 0.f, { {</div>
+<div class="line">        .voxelSize = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a346ad7a38921d6822ceffafc1eba769d">MR::suggestVoxelSize</a>( *triangulated, 5e+6f ),</div>
+<div class="line">    } } );</div>
+<div class="line">}</div>
+<div class="ttc" id="aMRUniformSampling_8h_html"><div class="ttname"><a href="./Cpp/MRUniformSampling_8h.html">MRUniformSampling.h</a></div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga1d42cd6fcda63ebaac2da831b5d85d72"><div class="ttname"><a href="./Cpp/group__PointCloudGroup.html#ga1d42cd6fcda63ebaac2da831b5d85d72">MR::pointUniformSampling</a></div><div class="ttdeci">MRMESH_API std::optional&lt; VertBitSet &gt; pointUniformSampling(const PointCloud &amp;pointCloud, const UniformSamplingSettings &amp;settings)</div></div>
+<div class="ttc" id="agroup__PointCloudTriangulationGroup_html_ga9d337ad4ab25ed0b9ad75512670ca1df"><div class="ttname"><a href="./Cpp/group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df">MR::triangulatePointCloud</a></div><div class="ttdeci">MRMESH_API std::optional&lt; Mesh &gt; triangulatePointCloud(const PointCloud &amp;pointCloud, const TriangulationParameters &amp;params={}, ProgressCallback progressCb={})</div></div>
+<div class="ttc" id="anamespaceMR_html_a346ad7a38921d6822ceffafc1eba769d"><div class="ttname"><a href="./Cpp/namespaceMR.html#a346ad7a38921d6822ceffafc1eba769d">MR::suggestVoxelSize</a></div><div class="ttdeci">MRVOXELS_API float suggestVoxelSize(const MeshPart &amp;mp, float approxNumVoxels)</div></div>
+<div class="ttc" id="anamespaceMR_html_aa8cff093ce429503e9b5c0e33d5b9080"><div class="ttname"><a href="./Cpp/namespaceMR.html#aa8cff093ce429503e9b5c0e33d5b9080">MR::offsetMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; offsetMesh(const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={})</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html_a0da05bf74b7157037f314c884ab018b4"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">MR::PointCloud::points</a></div><div class="ttdeci">VertCoords points</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html_a99cd2bd3f8fa8482032603f382ab9a03"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03">MR::PointCloud::validPoints</a></div><div class="ttdeci">VertBitSet validPoints</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html_ab7c257206a284f22b8e2484b87436069"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">MR::PointCloud::invalidateCaches</a></div><div class="ttdeci">void invalidateCaches()</div></div>
+</div><!-- fragment --></li>
 <li><b class="tab-title">Python API v2</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshnumpy <span class="keyword">as</span> mn</div>
 <div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div>

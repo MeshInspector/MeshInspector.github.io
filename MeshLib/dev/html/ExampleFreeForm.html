@@ -155,6 +155,48 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><p>Example of using Free Form deformation of the mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRFreeFormDeformer_8h.html">MRMesh/MRFreeFormDeformer.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// Load mesh</span></div>
+<div class="line">    <span class="keyword">auto</span> mesh = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
+<div class="line">    assert( mesh );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Compute mesh bounding box</span></div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> box = mesh-&gt;computeBoundingBox();</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Construct deformer on mesh vertices</span></div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a> ffDeformer( mesh-&gt;points, mesh-&gt;topology.getValidVerts() );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
+<div class="line">    ffDeformer.init( MR::Vector3i::diagonal( 3 ), box );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Move some control points of the grid to the center</span></div>
+<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 1, 0 }, box.center() );</div>
+<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 1, 2 }, box.center() );</div>
+<div class="line">    ffDeformer.setRefGridPointPosition( { 0, 1, 1 }, box.center() );</div>
+<div class="line">    ffDeformer.setRefGridPointPosition( { 2, 1, 1 }, box.center() );</div>
+<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 0, 1 }, box.center() );</div>
+<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 2, 1 }, box.center() );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Apply the deformation to the mesh vertices</span></div>
+<div class="line">    ffDeformer.apply();</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
+<div class="line">    mesh-&gt;invalidateCaches();</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Save deformed mesh</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span> );</div>
+<div class="line">}</div>
+<div class="ttc" id="aMRFreeFormDeformer_8h_html"><div class="ttname"><a href="./Cpp/MRFreeFormDeformer_8h.html">MRFreeFormDeformer.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1FreeFormDeformer_html"><div class="ttname"><a href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a></div></div>
+<div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+</div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"> </div>
