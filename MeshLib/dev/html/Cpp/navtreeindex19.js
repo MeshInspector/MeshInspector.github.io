@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classMR_1_1Cone3Approximation.html#a7c6a542eabe69884f78ec5044ab1df50":[6,0,2,0,1,126,1],
-"classMR_1_1Cone3Approximation.html#a9d2c7bacbeba26d79da0394635646651":[6,0,1,0,1,142,0],
 "classMR_1_1Cone3Approximation.html#a9d2c7bacbeba26d79da0394635646651":[6,0,2,0,1,126,0],
 "classMR_1_1ConeObject.html":[6,0,0,11,0,1],
 "classMR_1_1ConeObject.html#a03cbbb3c2194467c85bf870c09f08e72":[6,0,0,11,0,1,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a8b31501499578aedaea3b467387980cd":[6,0,2,0,1,158,3,3],
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,1,0,1,174,3,1],
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,2,0,1,158,3,1],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a":[6,0,1,0,1,174,3,0]
+"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a":[6,0,1,0,1,174,3,0],
+"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a":[6,0,2,0,1,158,3,0],
+"classMR_1_1DistanceMap.html":[6,0,0,5,0]
 };

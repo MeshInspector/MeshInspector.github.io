@@ -290,7 +290,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPrecisePredicates2.h", "MRPrecisePredicates2_8h.html", "MRPrecisePredicates2_8h" ],
     [ "MRPrecisePredicates3.h", "MRMesh_2MRPrecisePredicates3_8h.html", "MRMesh_2MRPrecisePredicates3_8h" ],
     [ "MRPrimitiveMapsComposition.h", "MRPrimitiveMapsComposition_8h.html", "MRPrimitiveMapsComposition_8h" ],
-    [ "MRPriorityQueue.h", "MRPriorityQueue_8h.html", "MRPriorityQueue_8h" ],
     [ "MRPrism.h", "MRPrism_8h.html", "MRPrism_8h" ],
     [ "MRProgressCallback.h", "MRProgressCallback_8h.html", "MRProgressCallback_8h" ],
     [ "MRProgressReadWrite.h", "MRProgressReadWrite_8h.html", "MRProgressReadWrite_8h" ],
