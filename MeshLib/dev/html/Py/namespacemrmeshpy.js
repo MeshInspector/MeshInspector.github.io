@@ -1917,6 +1917,7 @@ var namespacemrmeshpy =
     [ "segmentByGraphCut", "namespacemrmeshpy.html#a9ffb4ee1c50f0cbe72bc01b8d0b885c2", null ],
     [ "segmentVolume", "namespacemrmeshpy.html#abd6cb28284360fd2cd8047e66f53eaab", null ],
     [ "segmentVolumeByGraphCut", "namespacemrmeshpy.html#a7e1799af7c865683af6de3e4e7c241b8", null ],
+    [ "segmentVoxelMaskToInstances", "namespacemrmeshpy.html#accfb352d53e3272f510debb5adcfa76f", null ],
     [ "SegPoints", "namespacemrmeshpy.html#a79179bf845a5cd519d2d68615000491e", null ],
     [ "separateClosedContour", "namespacemrmeshpy.html#acba8967e3bd6a4902afbd4d1194b75c0", null ],
     [ "serializeMesh", "namespacemrmeshpy.html#ad5a4d4b461bfe26e116a66df9494e9cd", null ],

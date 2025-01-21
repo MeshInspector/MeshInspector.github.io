@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1PickPointManager_1_1Params.html#a53a190ae905fd433a574393eca3095af":[6,0,2,0,1,433,1,14],
 "structMR_1_1PickPointManager_1_1Params.html#a5b12b52a6b20ce602a12044db14a817a":[6,0,1,0,1,449,1,2],
 "structMR_1_1PickPointManager_1_1Params.html#a5b12b52a6b20ce602a12044db14a817a":[6,0,2,0,1,433,1,2],
 "structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7":[6,0,1,0,1,449,1,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609":[6,0,0,14,0,10],
 "structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b":[6,0,0,14,0,25],
 "structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d":[6,0,0,14,0,30],
-"structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a":[6,0,0,14,0,36],
-"structMR_1_1Polyline.html#a45f4e47f567de8900614578bf0becc56":[6,0,0,14,0,2]
+"structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a":[6,0,0,14,0,36]
 };

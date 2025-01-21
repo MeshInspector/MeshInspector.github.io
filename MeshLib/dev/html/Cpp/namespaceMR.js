@@ -2591,6 +2591,7 @@ var namespaceMR =
     [ "segmentByGraphCut", "group__MeshSegmentationGroup.html#ga94134d6a12381a36151563fe8472f818", null ],
     [ "segmentVolume", "group__VolumeSegmentationGroup.html#gad44e7dfa9a22ec4a0c94232c1791b7d2", null ],
     [ "segmentVolumeByGraphCut", "group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef", null ],
+    [ "segmentVoxelMaskToInstances", "group__VolumeSegmentationGroup.html#ga5d17b05296307303570bd202a858ec1a", null ],
     [ "SegPoints", "namespaceMR.html#aaf4d239a6cdece7da03913ad2b3a6efe", null ],
     [ "SelectCurvaturePreference", "namespaceMR.html#ae6a703f529a05e3f2fa59d68fd266627", null ],
     [ "separateClosedContour", "namespaceMR.html#a0e4db0a98c3228b98384be5bcfadba5a", null ],

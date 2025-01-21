@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a":[6,0,2,0,9,3],
 "structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
 "structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2],
 "structMRCoordinateConverters.html":[6,0,2,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5":[6,0,2,0,55,1],
 "structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,55,5],
 "structMRUndirectedEdgeId.html":[6,0,2,0,57],
-"structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,57,0],
-"structMRVariableEdgeTri.html":[6,0,2,0,58]
+"structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,57,0]
 };

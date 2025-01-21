@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b":[6,0,0,0,12,0,7],
 "structMR_1_1Vector2.html#a22a30fa24fb87ce9794b8008a976b937":[6,0,0,0,12,0,14],
 "structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[6,0,0,0,12,0,2],
 "structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8":[6,0,0,0,12,0,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[6,0,0,17,2,0,2],
 "structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[6,0,0,17,2,0,1],
 "structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[6,0,0,17,2,0,0],
-"structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,17,5],
-"structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[6,0,0,17,5,1]
+"structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,17,5]
 };

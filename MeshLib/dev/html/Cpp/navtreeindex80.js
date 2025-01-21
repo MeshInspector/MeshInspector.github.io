@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[6,0,1,0,1,38,7,0,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[6,0,2,0,1,23,6,0,0],
 "structMR_1_1UI_1_1PlotAxis.html":[6,0,1,0,1,38,8],
 "structMR_1_1UI_1_1PlotAxis.html":[6,0,2,0,1,23,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[6,0,0,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,0,0,12,0,24],
 "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff":[6,0,0,0,12,0,23],
-"structMR_1_1Vector2.html#a121879d96138102e1471613ca1ac2815":[6,0,0,0,12,0,8],
-"structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b":[6,0,0,0,12,0,7]
+"structMR_1_1Vector2.html#a121879d96138102e1471613ca1ac2815":[6,0,0,0,12,0,8]
 };
