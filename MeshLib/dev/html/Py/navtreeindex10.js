@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a18a93cf8d583abc95f8a35289739dd77":[6,1,0,0,2,89,10],
+"classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a18a93cf8d583abc95f8a35289739dd77":[6,1,1,0,1,89,9],
+"classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a18a93cf8d583abc95f8a35289739dd77":[6,1,1,0,1,89,10],
+"classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a2529014aa16cee2845be33dbd3eb29ee":[6,1,0,0,2,89,15],
+"classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a2529014aa16cee2845be33dbd3eb29ee":[6,1,1,0,1,89,15],
+"classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a2f73f0cf5f7ed662eb1205957b812fb9":[6,1,0,0,2,89,6],
 "classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a2f73f0cf5f7ed662eb1205957b812fb9":[6,1,1,0,1,89,6],
 "classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a7c38d624f30f7d8ded521346326c5c47":[6,1,0,0,2,89,0],
 "classmrmeshpy_1_1Buffer__UndirectedEdgeId.html#a7c38d624f30f7d8ded521346326c5c47":[6,1,1,0,1,89,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "classmrmeshpy_1_1CNCMachineSettings.html#ac5374575620111847869517e4114a8b2":[6,1,1,0,1,136,11],
 "classmrmeshpy_1_1CNCMachineSettings.html#afe00915df7f95ba9f5601d083ebbdadb":[6,1,0,0,2,136,13],
 "classmrmeshpy_1_1CNCMachineSettings.html#afe00915df7f95ba9f5601d083ebbdadb":[6,1,1,0,1,136,13],
-"classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,0,0,2,136,10],
-"classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,1,0,1,136,10],
-"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,0,0,2,136,0],
-"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,1,0,1,136,0],
-"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a1db33c88bf0f399d96ea1e9040245beb":[6,1,0,0,2,136,0,6],
-"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a1db33c88bf0f399d96ea1e9040245beb":[6,1,1,0,1,136,0,6],
-"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a36467906c7f7f14e0664f5a756d13a9e":[6,1,0,0,2,136,0,0]
+"classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,0,0,2,136,10]
 };

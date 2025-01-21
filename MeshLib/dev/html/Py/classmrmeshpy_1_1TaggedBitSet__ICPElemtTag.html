@@ -230,6 +230,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5b0218fdd0e598d9e76cb62e44a695ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa365b863a3985ccd7a694a3a536a08da" id="r_aa365b863a3985ccd7a694a3a536a08da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa365b863a3985ccd7a694a3a536a08da">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag.html">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag</a> map, int resSize)</td></tr>
 <tr class="separator:aa365b863a3985ccd7a694a3a536a08da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bce370d1ed59b57422ab518c4ab213" id="r_ac0bce370d1ed59b57422ab518c4ab213"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0bce370d1ed59b57422ab518c4ab213">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> a)</td></tr>
+<tr class="separator:ac0bce370d1ed59b57422ab518c4ab213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2308df5305283edf1a20141f893c1d" id="r_a8e2308df5305283edf1a20141f893c1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e2308df5305283edf1a20141f893c1d">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> a)</td></tr>
+<tr class="separator:a8e2308df5305283edf1a20141f893c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3c89aa35c9024d9f61cde7ed6c5227" id="r_acc3c89aa35c9024d9f61cde7ed6c5227"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc3c89aa35c9024d9f61cde7ed6c5227">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a> a)</td></tr>
+<tr class="separator:acc3c89aa35c9024d9f61cde7ed6c5227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5eb608db3a8223e830e4659dffa5d12" id="r_ae5eb608db3a8223e830e4659dffa5d12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5eb608db3a8223e830e4659dffa5d12">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:ae5eb608db3a8223e830e4659dffa5d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc50789803202677daa4f22d58d6244a" id="r_acc50789803202677daa4f22d58d6244a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc50789803202677daa4f22d58d6244a">operator</a> (self, <a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos)</td></tr>
@@ -984,6 +990,72 @@ container of bits representing specific indices (faces, verts or edges)
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="ac0bce370d1ed59b57422ab518c4ab213" name="ac0bce370d1ed59b57422ab518c4ab213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bce370d1ed59b57422ab518c4ab213">&#9670;&#160;</a></span>intersects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.TaggedBitSet_ICPElemtTag.intersects </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="a8e2308df5305283edf1a20141f893c1d" name="a8e2308df5305283edf1a20141f893c1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e2308df5305283edf1a20141f893c1d">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.TaggedBitSet_ICPElemtTag.is_proper_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="acc3c89aa35c9024d9f61cde7ed6c5227" name="acc3c89aa35c9024d9f61cde7ed6c5227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3c89aa35c9024d9f61cde7ed6c5227">&#9670;&#160;</a></span>is_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.TaggedBitSet_ICPElemtTag.is_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html">TaggedBitSet_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
 </div>
 </div>
 <a id="ae5eb608db3a8223e830e4659dffa5d12" name="ae5eb608db3a8223e830e4659dffa5d12"></a>

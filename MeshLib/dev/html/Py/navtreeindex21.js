@@ -1,5 +1,17 @@
 var NAVTREEINDEX21 =
 {
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a85825303828ef4cbcb6a01b176afac5e":[6,1,1,0,1,196,0,3],
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a8cc214423f3b4cb567407c50c474bf96":[6,1,0,0,2,196,0,0],
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a8cc214423f3b4cb567407c50c474bf96":[6,1,1,0,1,196,0,0],
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a906a9ca269035dedf061b74d577aac3e":[6,1,0,0,2,196,0,8],
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a906a9ca269035dedf061b74d577aac3e":[6,1,1,0,1,196,0,8],
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#ab3a645653d5022dfb8e642852d737696":[6,1,0,0,2,196,0,4],
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#ab3a645653d5022dfb8e642852d737696":[6,1,1,0,1,196,0,4],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html":[6,1,0,0,2,197],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html":[6,1,1,0,1,197],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[6,1,0,0,2,197,2],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[6,1,1,0,1,197,2],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[6,1,0,0,2,197,3],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[6,1,1,0,1,197,3],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a3a7e653ae47bb6b10d11d868f4b41066":[6,1,0,0,2,197,4],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a3a7e653ae47bb6b10d11d868f4b41066":[6,1,1,0,1,197,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1EdgeWeights.html#a9c649e84f7652f7947fd8560eb4d6d5b":[6,1,1,0,1,204,1],
 "classmrmeshpy_1_1EdgeWeights.html#aa42c59ad20238e86405f4be49058a23d":[6,1,0,0,2,204,8],
 "classmrmeshpy_1_1EdgeWeights.html#aa42c59ad20238e86405f4be49058a23d":[6,1,1,0,1,204,8],
-"classmrmeshpy_1_1EdgeWeights.html#abe7ce3879829294e8a9310e7e07ffcea":[6,1,0,0,2,204,6],
-"classmrmeshpy_1_1EdgeWeights.html#abe7ce3879829294e8a9310e7e07ffcea":[6,1,1,0,1,204,6],
-"classmrmeshpy_1_1EdgeWeights.html#ac600ba073d397c7fa3996e290ad542f9":[6,1,0,0,2,204,9],
-"classmrmeshpy_1_1EdgeWeights.html#ac600ba073d397c7fa3996e290ad542f9":[6,1,1,0,1,204,9],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html":[6,1,0,0,2,205],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html":[6,1,1,0,1,205],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a0f4827867585e6065f8489232666a9d7":[6,1,0,0,2,205,10],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a0f4827867585e6065f8489232666a9d7":[6,1,1,0,1,205,10],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a101262bee4ce01990b20c6f56ae0cc5c":[6,1,0,0,2,205,6],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a101262bee4ce01990b20c6f56ae0cc5c":[6,1,1,0,1,205,6],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a18570c6a6a8c48ef20fbfb60388f3d69":[6,1,0,0,2,205,13],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a18570c6a6a8c48ef20fbfb60388f3d69":[6,1,1,0,1,205,13],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a2a0a9257630ec152b1a8ed01b6ec29f1":[6,1,0,0,2,205,7]
+"classmrmeshpy_1_1EdgeWeights.html#abe7ce3879829294e8a9310e7e07ffcea":[6,1,0,0,2,204,6]
 };

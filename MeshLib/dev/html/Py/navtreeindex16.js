@@ -1,5 +1,11 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1DecimatePolylineResult.html#a73cd2527f9784ef5cee3553e520e6e07":[6,1,1,0,1,164,2],
+"classmrmeshpy_1_1DecimatePolylineResult.html#aacb87ff1b314a78ea758ddba11be9937":[6,1,0,0,2,164,0],
+"classmrmeshpy_1_1DecimatePolylineResult.html#aacb87ff1b314a78ea758ddba11be9937":[6,1,1,0,1,164,0],
+"classmrmeshpy_1_1DecimatePolylineResult.html#aadebc6bf0edaacce6b1622286c83a4a9":[6,1,0,0,2,164,1],
+"classmrmeshpy_1_1DecimatePolylineResult.html#aadebc6bf0edaacce6b1622286c83a4a9":[6,1,1,0,1,164,1],
+"classmrmeshpy_1_1DecimatePolylineResult.html#ad521b16cfeb877a7e727b009848030a8":[6,1,0,0,2,164,3],
 "classmrmeshpy_1_1DecimatePolylineResult.html#ad521b16cfeb877a7e727b009848030a8":[6,1,1,0,1,164,3],
 "classmrmeshpy_1_1DecimatePolylineResult.html#adf5b213c3a7aa27f31f35e37f1ad2837":[6,1,0,0,2,164,4],
 "classmrmeshpy_1_1DecimatePolylineResult.html#adf5b213c3a7aa27f31f35e37f1ad2837":[6,1,1,0,1,164,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1DecimateSettings.html#ae93506509689bb40395643bfef0e2499":[6,1,1,0,1,168,40],
 "classmrmeshpy_1_1DecimateSettings.html#aea89ba800db3673e987ec71d4be04c79":[6,1,0,0,2,168,30],
 "classmrmeshpy_1_1DecimateSettings.html#aea89ba800db3673e987ec71d4be04c79":[6,1,1,0,1,168,30],
-"classmrmeshpy_1_1DecimateSettings.html#aef406f827ad416d3d4a437a23acc0034":[6,1,0,0,2,168,44],
-"classmrmeshpy_1_1DecimateSettings.html#aef406f827ad416d3d4a437a23acc0034":[6,1,1,0,1,168,44],
-"classmrmeshpy_1_1DecimateSettings.html#aefdcc080b05fe8eb05dcfa7f68a46510":[6,1,0,0,2,168,34],
-"classmrmeshpy_1_1DecimateSettings.html#aefdcc080b05fe8eb05dcfa7f68a46510":[6,1,1,0,1,168,34],
-"classmrmeshpy_1_1DecimateSettings.html#afa04a4d4a29ce8b82fb6563a5989c46e":[6,1,0,0,2,168,18],
-"classmrmeshpy_1_1DecimateSettings.html#afa04a4d4a29ce8b82fb6563a5989c46e":[6,1,1,0,1,168,18],
-"classmrmeshpy_1_1DecimateSettings.html#afa85f11b0626cdc0fe3cd7e6ef2ed1d1":[6,1,0,0,2,168,15]
+"classmrmeshpy_1_1DecimateSettings.html#aef406f827ad416d3d4a437a23acc0034":[6,1,0,0,2,168,44]
 };

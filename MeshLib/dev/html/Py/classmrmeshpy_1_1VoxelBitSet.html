@@ -229,6 +229,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac23b559be09222ae16988200732f61f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2329b19e1da525ec7ab1390ba223adf4" id="r_a2329b19e1da525ec7ab1390ba223adf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2329b19e1da525ec7ab1390ba223adf4">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag.html">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag</a> map, int resSize)</td></tr>
 <tr class="separator:a2329b19e1da525ec7ab1390ba223adf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c8aebbf55fb9eb02c2ed478c6816c2e" id="r_a4c8aebbf55fb9eb02c2ed478c6816c2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c8aebbf55fb9eb02c2ed478c6816c2e">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a> a)</td></tr>
+<tr class="separator:a4c8aebbf55fb9eb02c2ed478c6816c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0813b5854c8e5e2ad638f9236a701fb" id="r_ad0813b5854c8e5e2ad638f9236a701fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0813b5854c8e5e2ad638f9236a701fb">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a> a)</td></tr>
+<tr class="separator:ad0813b5854c8e5e2ad638f9236a701fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b5a68d538548712878dcc05c735f60d" id="r_a6b5a68d538548712878dcc05c735f60d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b5a68d538548712878dcc05c735f60d">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a> a)</td></tr>
+<tr class="separator:a6b5a68d538548712878dcc05c735f60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a24d17d20d123e5ce2be191db7ee60b" id="r_a0a24d17d20d123e5ce2be191db7ee60b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a24d17d20d123e5ce2be191db7ee60b">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:a0a24d17d20d123e5ce2be191db7ee60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5772016b87c312d131e5856e231112d0" id="r_a5772016b87c312d131e5856e231112d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5772016b87c312d131e5856e231112d0">operator</a> (self, <a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> pos)</td></tr>
@@ -978,6 +984,72 @@ container of bits representing specific indices (faces, verts or edges)
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a4c8aebbf55fb9eb02c2ed478c6816c2e" name="a4c8aebbf55fb9eb02c2ed478c6816c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c8aebbf55fb9eb02c2ed478c6816c2e">&#9670;&#160;</a></span>intersects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.VoxelBitSet.intersects </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="ad0813b5854c8e5e2ad638f9236a701fb" name="ad0813b5854c8e5e2ad638f9236a701fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0813b5854c8e5e2ad638f9236a701fb">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.VoxelBitSet.is_proper_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="a6b5a68d538548712878dcc05c735f60d" name="a6b5a68d538548712878dcc05c735f60d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b5a68d538548712878dcc05c735f60d">&#9670;&#160;</a></span>is_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.VoxelBitSet.is_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
 </div>
 </div>
 <a id="a0a24d17d20d123e5ce2be191db7ee60b" name="a0a24d17d20d123e5ce2be191db7ee60b"></a>

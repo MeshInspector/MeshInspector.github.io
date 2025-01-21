@@ -229,6 +229,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a523acc86619193559facb6e47e4b6103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6738bcc739ff6ee6933396beb9bf99f" id="r_ad6738bcc739ff6ee6933396beb9bf99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6738bcc739ff6ee6933396beb9bf99f">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag.html">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag</a> map, int resSize)</td></tr>
 <tr class="separator:ad6738bcc739ff6ee6933396beb9bf99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08791cac9afc384e0ccbeb2e15d14c9d" id="r_a08791cac9afc384e0ccbeb2e15d14c9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08791cac9afc384e0ccbeb2e15d14c9d">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> a)</td></tr>
+<tr class="separator:a08791cac9afc384e0ccbeb2e15d14c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac8beb5cd61eda374c8553d36e3d3297" id="r_aac8beb5cd61eda374c8553d36e3d3297"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac8beb5cd61eda374c8553d36e3d3297">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> a)</td></tr>
+<tr class="separator:aac8beb5cd61eda374c8553d36e3d3297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7deb1da06e051622b50ddcc392a3a9" id="r_a2c7deb1da06e051622b50ddcc392a3a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c7deb1da06e051622b50ddcc392a3a9">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> a)</td></tr>
+<tr class="separator:a2c7deb1da06e051622b50ddcc392a3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14c371028f639bedc6ba2f4692d6f2b" id="r_ac14c371028f639bedc6ba2f4692d6f2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac14c371028f639bedc6ba2f4692d6f2b">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:ac14c371028f639bedc6ba2f4692d6f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0430d96791ec1024afbf346444fb3cec" id="r_a0430d96791ec1024afbf346444fb3cec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0430d96791ec1024afbf346444fb3cec">operator</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos)</td></tr>
@@ -978,6 +984,72 @@ container of bits representing specific indices (faces, verts or edges)
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a08791cac9afc384e0ccbeb2e15d14c9d" name="a08791cac9afc384e0ccbeb2e15d14c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08791cac9afc384e0ccbeb2e15d14c9d">&#9670;&#160;</a></span>intersects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.GraphVertBitSet.intersects </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="aac8beb5cd61eda374c8553d36e3d3297" name="aac8beb5cd61eda374c8553d36e3d3297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac8beb5cd61eda374c8553d36e3d3297">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.GraphVertBitSet.is_proper_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="a2c7deb1da06e051622b50ddcc392a3a9" name="a2c7deb1da06e051622b50ddcc392a3a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c7deb1da06e051622b50ddcc392a3a9">&#9670;&#160;</a></span>is_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.GraphVertBitSet.is_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
 </div>
 </div>
 <a id="ac14c371028f639bedc6ba2f4692d6f2b" name="ac14c371028f639bedc6ba2f4692d6f2b"></a>

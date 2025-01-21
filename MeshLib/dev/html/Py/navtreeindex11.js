@@ -1,5 +1,11 @@
 var NAVTREEINDEX11 =
 {
+"classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,1,0,1,136,10],
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,0,0,2,136,0],
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,1,0,1,136,0],
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a1db33c88bf0f399d96ea1e9040245beb":[6,1,0,0,2,136,0,6],
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a1db33c88bf0f399d96ea1e9040245beb":[6,1,1,0,1,136,0,6],
+"classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a36467906c7f7f14e0664f5a756d13a9e":[6,1,0,0,2,136,0,0],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a36467906c7f7f14e0664f5a756d13a9e":[6,1,1,0,1,136,0,0],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a364ece1dd0875b1858b3af5f676361a3":[6,1,0,0,2,136,0,2],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a364ece1dd0875b1858b3af5f676361a3":[6,1,1,0,1,136,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX11 =
 "classmrmeshpy_1_1ChangeObjectAction.html#a862dff9242496db8dcfcf724027a59d5":[6,1,1,0,1,112,0],
 "classmrmeshpy_1_1ChangeObjectAction.html#aa52116bd418ba03c4cc8cdb777c262ee":[6,1,0,0,2,112,3],
 "classmrmeshpy_1_1ChangeObjectAction.html#aa52116bd418ba03c4cc8cdb777c262ee":[6,1,1,0,1,112,3],
-"classmrmeshpy_1_1ChangeObjectAction.html#ae01de04ab051b8850f48992a61b81eab":[6,1,0,0,2,112,1],
-"classmrmeshpy_1_1ChangeObjectAction.html#ae01de04ab051b8850f48992a61b81eab":[6,1,1,0,1,112,1],
-"classmrmeshpy_1_1ChangeObjectColorAction.html":[6,1,0,0,2,113],
-"classmrmeshpy_1_1ChangeObjectColorAction.html":[6,1,1,0,1,113],
-"classmrmeshpy_1_1ChangeObjectColorAction.html#a71df0d28691bc57900ece6314ce82b87":[6,1,0,0,2,113,2],
-"classmrmeshpy_1_1ChangeObjectColorAction.html#a71df0d28691bc57900ece6314ce82b87":[6,1,1,0,1,113,2],
-"classmrmeshpy_1_1ChangeObjectColorAction.html#a81979572f12041adccb0bd671da901a9":[6,1,0,0,2,113,4]
+"classmrmeshpy_1_1ChangeObjectAction.html#ae01de04ab051b8850f48992a61b81eab":[6,1,0,0,2,112,1]
 };

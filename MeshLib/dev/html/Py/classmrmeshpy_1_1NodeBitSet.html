@@ -229,6 +229,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0e025beff109f2ea893af5a9752241f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f1dc050d4d9f3bf9ec4e7b5145e6c18" id="r_a0f1dc050d4d9f3bf9ec4e7b5145e6c18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f1dc050d4d9f3bf9ec4e7b5145e6c18">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag.html">phmap_flat_hash_map_Id_NodeTag_Id_NodeTag</a> map, int resSize)</td></tr>
 <tr class="separator:a0f1dc050d4d9f3bf9ec4e7b5145e6c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82246c0fa72889ff4ec773864055c2c" id="r_ab82246c0fa72889ff4ec773864055c2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab82246c0fa72889ff4ec773864055c2c">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a> a)</td></tr>
+<tr class="separator:ab82246c0fa72889ff4ec773864055c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c848729adfebd9d55a1997e93359f89" id="r_a4c848729adfebd9d55a1997e93359f89"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c848729adfebd9d55a1997e93359f89">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a> a)</td></tr>
+<tr class="separator:a4c848729adfebd9d55a1997e93359f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba03a6d9efe27936e771daaa3385352" id="r_aeba03a6d9efe27936e771daaa3385352"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeba03a6d9efe27936e771daaa3385352">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a> a)</td></tr>
+<tr class="separator:aeba03a6d9efe27936e771daaa3385352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56d68b63a4499b05cc68a4311047fcc2" id="r_a56d68b63a4499b05cc68a4311047fcc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56d68b63a4499b05cc68a4311047fcc2">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:a56d68b63a4499b05cc68a4311047fcc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad82df5c5a575a478ee1f499861fcafd1" id="r_ad82df5c5a575a478ee1f499861fcafd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82df5c5a575a478ee1f499861fcafd1">operator</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> pos)</td></tr>
@@ -978,6 +984,72 @@ container of bits representing specific indices (faces, verts or edges)
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="ab82246c0fa72889ff4ec773864055c2c" name="ab82246c0fa72889ff4ec773864055c2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82246c0fa72889ff4ec773864055c2c">&#9670;&#160;</a></span>intersects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.NodeBitSet.intersects </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="a4c848729adfebd9d55a1997e93359f89" name="a4c848729adfebd9d55a1997e93359f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c848729adfebd9d55a1997e93359f89">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.NodeBitSet.is_proper_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="aeba03a6d9efe27936e771daaa3385352" name="aeba03a6d9efe27936e771daaa3385352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba03a6d9efe27936e771daaa3385352">&#9670;&#160;</a></span>is_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.NodeBitSet.is_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
 </div>
 </div>
 <a id="a56d68b63a4499b05cc68a4311047fcc2" name="a56d68b63a4499b05cc68a4311047fcc2"></a>

@@ -229,6 +229,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a433e68781317128861352427daa207c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad24538355393557fcda8e508b5c4beb4" id="r_ad24538355393557fcda8e508b5c4beb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24538355393557fcda8e508b5c4beb4">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag.html">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag</a> map, int resSize)</td></tr>
 <tr class="separator:ad24538355393557fcda8e508b5c4beb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44b693e531b0c5f121697aa0430fe81" id="r_af44b693e531b0c5f121697aa0430fe81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af44b693e531b0c5f121697aa0430fe81">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> a)</td></tr>
+<tr class="separator:af44b693e531b0c5f121697aa0430fe81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbc2c80b48c15518294defb960ec491" id="r_a2cbc2c80b48c15518294defb960ec491"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cbc2c80b48c15518294defb960ec491">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> a)</td></tr>
+<tr class="separator:a2cbc2c80b48c15518294defb960ec491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990726a1ac1e9b03de824784c3f5afa2" id="r_a990726a1ac1e9b03de824784c3f5afa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990726a1ac1e9b03de824784c3f5afa2">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> a)</td></tr>
+<tr class="separator:a990726a1ac1e9b03de824784c3f5afa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac84d2dab038b85454efab1df371e2761" id="r_ac84d2dab038b85454efab1df371e2761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac84d2dab038b85454efab1df371e2761">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:ac84d2dab038b85454efab1df371e2761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d5bb6f5f4a778424b6207352779eb16" id="r_a2d5bb6f5f4a778424b6207352779eb16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d5bb6f5f4a778424b6207352779eb16">operator</a> (self, <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> pos)</td></tr>
@@ -978,6 +984,72 @@ container of bits representing specific indices (faces, verts or edges)
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="af44b693e531b0c5f121697aa0430fe81" name="af44b693e531b0c5f121697aa0430fe81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44b693e531b0c5f121697aa0430fe81">&#9670;&#160;</a></span>intersects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.TextureBitSet.intersects </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="a2cbc2c80b48c15518294defb960ec491" name="a2cbc2c80b48c15518294defb960ec491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbc2c80b48c15518294defb960ec491">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.TextureBitSet.is_proper_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
+</pre> 
+</div>
+</div>
+<a id="a990726a1ac1e9b03de824784c3f5afa2" name="a990726a1ac1e9b03de824784c3f5afa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990726a1ac1e9b03de824784c3f5afa2">&#9670;&#160;</a></span>is_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.TextureBitSet.is_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
 </div>
 </div>
 <a id="ac84d2dab038b85454efab1df371e2761" name="ac84d2dab038b85454efab1df371e2761"></a>

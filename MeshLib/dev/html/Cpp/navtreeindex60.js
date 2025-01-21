@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,55,5],
+"structMRUndirectedEdgeId.html":[6,0,2,0,57],
+"structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,57,0],
 "structMRVariableEdgeTri.html":[6,0,2,0,58],
 "structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a":[6,0,2,0,58,0],
 "structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df":[6,0,2,0,58,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BasicUiRenderTask.html#a269508abb07dd29213d99aada7db6d5e":[6,0,2,0,1,53,6],
 "structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538":[6,0,1,0,1,69,10],
 "structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538":[6,0,2,0,1,53,10],
-"structMR_1_1BasicUiRenderTask.html#a7a289817074d4a9c546aca337082d21b":[6,0,1,0,1,69,5],
-"structMR_1_1BasicUiRenderTask.html#a7a289817074d4a9c546aca337082d21b":[6,0,2,0,1,53,5],
-"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,1,0,1,69,2],
-"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,2,0,1,53,2]
+"structMR_1_1BasicUiRenderTask.html#a7a289817074d4a9c546aca337082d21b":[6,0,1,0,1,69,5]
 };
