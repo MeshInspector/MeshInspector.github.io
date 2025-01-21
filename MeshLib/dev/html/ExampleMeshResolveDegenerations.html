@@ -194,14 +194,14 @@ $(function(){initNavTree('ExampleMeshResolveDegenerations.html',''); initResizab
 <div class="line">params.maxDeviation = 1e-5 * mesh.computeBoundingBox().diagonal()</div>
 <div class="line">params.tinyEdgeLength = 1e-3</div>
 <div class="line"> </div>
-<div class="line">changed = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0bcd6b2097265d6ae819b2aff530645f">mrmeshpy.resolveMeshDegenerations</a>(mesh, params)</div>
+<div class="line">changed = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a38bdfcfc415e83a4f1770a0e502e431f">mrmeshpy.resolveMeshDegenerations</a>(mesh, params)</div>
 <div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> changed:</div>
 <div class="line">    print(<span class="stringliteral">&quot;No changes were made&quot;</span>)</div>
 <div class="line">    sys.exit(0)</div>
 <div class="line"> </div>
 <div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;fixed_mesh.stl&quot;</span>)</div>
 <div class="ttc" id="aclassmrmeshpy_1_1ResolveMeshDegenSettings_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1ResolveMeshDegenSettings.html">mrmeshpy::ResolveMeshDegenSettings</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a0bcd6b2097265d6ae819b2aff530645f"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0bcd6b2097265d6ae819b2aff530645f">mrmeshpy::resolveMeshDegenerations</a></div><div class="ttdeci">bool resolveMeshDegenerations(Mesh mesh, ResolveMeshDegenSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a38bdfcfc415e83a4f1770a0e502e431f"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a38bdfcfc415e83a4f1770a0e502e431f">mrmeshpy::resolveMeshDegenerations</a></div><div class="ttdeci">bool resolveMeshDegenerations(Mesh mesh, int maxIters, float maxDeviation=0, float maxAngleChange=1.0471975803375244, float criticalAspectRatio=10000)</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ab08d4251433e917732307d389594e285"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ad195f5ec2ee9c71218df767dd47a38bd"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ad195f5ec2ee9c71218df767dd47a38bd">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>

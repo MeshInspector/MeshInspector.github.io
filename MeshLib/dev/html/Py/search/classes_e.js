@@ -136,13 +136,14 @@ var searchData=
   ['predrawlistener_133',['PreDrawListener',['../../Cpp/structMR_1_1PreDrawListener.html',1,'MR']]],
   ['preparedcurve_134',['PreparedCurve',['../../Cpp/structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html',1,'MR::ImGuiMeasurementIndicators']]],
   ['primitives_135',['Primitives',['../classmrmeshpy_1_1Features_1_1Primitives.html',1,'mrmeshpy::Features']]],
-  ['processing_136',['Processing',['../classmrmeshpy_1_1Processing.html',1,'mrmeshpy']]],
-  ['processoneresult_137',['ProcessOneResult',['../classmrmeshpy_1_1ProcessOneResult.html',1,'mrmeshpy']]],
-  ['processresult_138',['ProcessResult',['../../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'MR::TeethMaskToDirectionVolumeConvertor::ProcessResult'],['../classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'mrmeshpy.TeethMaskToDirectionVolumeConvertor.ProcessResult']]],
-  ['progressinterrupter_139',['ProgressInterrupter',['../../Cpp/structMR_1_1ProgressInterrupter.html',1,'MR']]],
-  ['projectionresult_140',['ProjectionResult',['../../Cpp/structMR_1_1MeshOrPoints_1_1ProjectionResult.html',1,'MR::MeshOrPoints::ProjectionResult'],['../classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html',1,'mrmeshpy.MeshOrPoints.ProjectionResult']]],
-  ['protectedstruct_141',['ProtectedStruct',['../../Cpp/structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
-  ['pythonexport_142',['PythonExport',['../../Cpp/classMR_1_1PythonExport.html',1,'MR']]],
-  ['pythonfunctionadder_143',['PythonFunctionAdder',['../../Cpp/structMR_1_1PythonFunctionAdder.html',1,'MR']]],
-  ['pythonstreamredirector_144',['PythonStreamRedirector',['../../Cpp/classPythonStreamRedirector.html',1,'']]]
+  ['priorityqueue_136',['PriorityQueue',['../../Cpp/classMR_1_1PriorityQueue.html',1,'MR']]],
+  ['processing_137',['Processing',['../classmrmeshpy_1_1Processing.html',1,'mrmeshpy']]],
+  ['processoneresult_138',['ProcessOneResult',['../classmrmeshpy_1_1ProcessOneResult.html',1,'mrmeshpy']]],
+  ['processresult_139',['ProcessResult',['../../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'MR::TeethMaskToDirectionVolumeConvertor::ProcessResult'],['../classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'mrmeshpy.TeethMaskToDirectionVolumeConvertor.ProcessResult']]],
+  ['progressinterrupter_140',['ProgressInterrupter',['../../Cpp/structMR_1_1ProgressInterrupter.html',1,'MR']]],
+  ['projectionresult_141',['ProjectionResult',['../../Cpp/structMR_1_1MeshOrPoints_1_1ProjectionResult.html',1,'MR::MeshOrPoints::ProjectionResult'],['../classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html',1,'mrmeshpy.MeshOrPoints.ProjectionResult']]],
+  ['protectedstruct_142',['ProtectedStruct',['../../Cpp/structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
+  ['pythonexport_143',['PythonExport',['../../Cpp/classMR_1_1PythonExport.html',1,'MR']]],
+  ['pythonfunctionadder_144',['PythonFunctionAdder',['../../Cpp/structMR_1_1PythonFunctionAdder.html',1,'MR']]],
+  ['pythonstreamredirector_145',['PythonStreamRedirector',['../../Cpp/classPythonStreamRedirector.html',1,'']]]
 ];
