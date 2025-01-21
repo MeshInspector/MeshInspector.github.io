@@ -1,5 +1,12 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[6,0,2,0,1,43,1],
+"classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[6,0,1,0,1,59,9],
+"classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[6,0,2,0,1,43,9],
+"classMR_1_1AngleMeasurementObject.html#a9d371827ba2fb752841d1efe7ea66f4e":[6,0,1,0,1,59,7],
+"classMR_1_1AngleMeasurementObject.html#a9d371827ba2fb752841d1efe7ea66f4e":[6,0,2,0,1,43,7],
+"classMR_1_1AngleMeasurementObject.html#a9e20a99d9cfb02b91a653aefadbbb391":[6,0,1,0,1,59,24],
+"classMR_1_1AngleMeasurementObject.html#a9e20a99d9cfb02b91a653aefadbbb391":[6,0,2,0,1,43,24],
 "classMR_1_1AngleMeasurementObject.html#aa12ae3069114c41ef8ed6616672c5d29":[6,0,1,0,1,59,0],
 "classMR_1_1AngleMeasurementObject.html#aa12ae3069114c41ef8ed6616672c5d29":[6,0,2,0,1,43,0],
 "classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[6,0,1,0,1,59,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,42],
 "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,42,4],
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,42,1],
-"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,42,3],
-"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,42,2],
-"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,42,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,1,0,1,91],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,2,0,1,75],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[6,0,1,0,1,91,1],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[6,0,2,0,1,75,1],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a87cb69e6e43f31608ba18d1577ce6303":[6,0,1,0,1,91,3]
+"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,42,3]
 };

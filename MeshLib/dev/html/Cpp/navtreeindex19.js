@@ -1,5 +1,12 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1Cone3.html#ac3882ccfb731b365aa800f7fd49c51ef":[6,0,1,0,1,141,3],
+"classMR_1_1Cone3.html#ac3882ccfb731b365aa800f7fd49c51ef":[6,0,2,0,1,125,3],
+"classMR_1_1Cone3.html#ac88828ed52ec42c8758c744ff1fdaf20":[6,0,1,0,1,141,8],
+"classMR_1_1Cone3.html#ac88828ed52ec42c8758c744ff1fdaf20":[6,0,2,0,1,125,8],
+"classMR_1_1Cone3Approximation.html":[6,0,1,0,1,142],
+"classMR_1_1Cone3Approximation.html":[6,0,2,0,1,126],
+"classMR_1_1Cone3Approximation.html#a7c6a542eabe69884f78ec5044ab1df50":[6,0,1,0,1,142,1],
 "classMR_1_1Cone3Approximation.html#a7c6a542eabe69884f78ec5044ab1df50":[6,0,2,0,1,126,1],
 "classMR_1_1Cone3Approximation.html#a9d2c7bacbeba26d79da0394635646651":[6,0,1,0,1,142,0],
 "classMR_1_1Cone3Approximation.html#a9d2c7bacbeba26d79da0394635646651":[6,0,2,0,1,126,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html#a4471adaa23e54489e40da26c013aa5da":[6,0,1,0,1,174,2,1],
 "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html#a4471adaa23e54489e40da26c013aa5da":[6,0,2,0,1,158,2,1],
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html":[6,0,1,0,1,174,3],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html":[6,0,2,0,1,158,3],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a2ec215e7b7102eb9a43ce86c525e2425":[6,0,1,0,1,174,3,2],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a2ec215e7b7102eb9a43ce86c525e2425":[6,0,2,0,1,158,3,2],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a8b31501499578aedaea3b467387980cd":[6,0,1,0,1,174,3,3],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a8b31501499578aedaea3b467387980cd":[6,0,2,0,1,158,3,3],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,1,0,1,174,3,1],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,2,0,1,158,3,1],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a":[6,0,1,0,1,174,3,0]
+"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html":[6,0,2,0,1,158,3]
 };
