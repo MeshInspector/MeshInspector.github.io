@@ -1,14 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[6,0,0,0,19,8],
-"structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69":[6,0,0,0,19,3],
-"structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c":[6,0,0,0,19,2],
-"structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda":[6,0,0,0,19,10],
-"structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2":[6,0,0,0,19,7],
-"structMR_1_1QuadraticForm.html#abd84de324207ec889e01f594968dd8a1":[6,0,0,0,19,5],
-"structMR_1_1QuadraticForm.html#adea6aa750372ae79cb7d305a5f939f50":[6,0,0,0,19,0],
-"structMR_1_1QuadraticForm.html#ae2db52d249d73990155ac0aee19ecdf7":[6,0,0,0,19,9],
-"structMR_1_1QuadraticForm.html#afacdc7d86d21e277ea2c254a90c29b61":[6,0,0,0,19,6],
 "structMR_1_1Quaternion.html":[6,0,0,0,20],
 "structMR_1_1Quaternion.html#a0267d5aee3f765c24fb3f40ad811f9b4":[6,0,0,0,20,22],
 "structMR_1_1Quaternion.html#a1265e8d1076efd17d1c3b70cb310480e":[6,0,0,0,20,5],
@@ -249,5 +240,14 @@ var NAVTREEINDEX75 =
 "structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,1,0,1,549,5],
 "structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,2,0,1,533,5],
 "structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,1,0,1,549,7],
-"structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,2,0,1,533,7]
+"structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,2,0,1,533,7],
+"structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,1,0,1,549,8],
+"structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,2,0,1,533,8],
+"structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,1,0,1,549,4],
+"structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,2,0,1,533,4],
+"structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,1,0,1,549,1],
+"structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,2,0,1,533,1],
+"structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2":[6,0,1,0,1,549,3],
+"structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2":[6,0,2,0,1,533,3],
+"structMR_1_1RibbonSchema.html":[6,0,1,0,1,561]
 };

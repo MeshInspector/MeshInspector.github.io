@@ -309,7 +309,6 @@ var hierarchy =
     [ "mrmeshpy.func_float_from_Id_EdgeTag", "classmrmeshpy_1_1func__float__from__Id__EdgeTag.html", null ],
     [ "mrmeshpy.func_float_from_Id_UndirectedEdgeTag", "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html", null ],
     [ "mrmeshpy.func_float_from_Id_VertTag", "classmrmeshpy_1_1func__float__from__Id__VertTag.html", null ],
-    [ "mrmeshpy.func_float_from_int", "classmrmeshpy_1_1func__float__from__int.html", null ],
     [ "mrmeshpy.func_float_from_int_int", "classmrmeshpy_1_1func__float__from__int__int.html", null ],
     [ "mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins", "classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins.html", null ],
     [ "mrmeshpy.func_float_from_unsigned_long", "classmrmeshpy_1_1func__float__from__unsigned__long.html", null ],

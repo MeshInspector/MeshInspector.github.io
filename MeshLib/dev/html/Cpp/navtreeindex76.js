@@ -1,14 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,1,0,1,549,8],
-"structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,2,0,1,533,8],
-"structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,1,0,1,549,4],
-"structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,2,0,1,533,4],
-"structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,1,0,1,549,1],
-"structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,2,0,1,533,1],
-"structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2":[6,0,1,0,1,549,3],
-"structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2":[6,0,2,0,1,533,3],
-"structMR_1_1RibbonSchema.html":[6,0,1,0,1,561],
 "structMR_1_1RibbonSchema.html":[6,0,2,0,1,545],
 "structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,1,0,1,561,4],
 "structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,2,0,1,545,4],
@@ -249,5 +240,14 @@ var NAVTREEINDEX76 =
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4":[6,0,2,0,1,590,5],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#a82657a9b8d3b11b57c5853baaf8ff42a":[6,0,1,0,1,606,2],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#a82657a9b8d3b11b57c5853baaf8ff42a":[6,0,2,0,1,590,2],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c":[6,0,1,0,1,606,4]
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c":[6,0,1,0,1,606,4],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c":[6,0,2,0,1,590,4],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[6,0,1,0,1,606,3],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[6,0,2,0,1,590,3],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,1,0,1,606,0],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,2,0,1,590,0],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,1,0,1,606,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,2,0,1,590,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,1,0,1,606,6],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,2,0,1,590,6]
 };

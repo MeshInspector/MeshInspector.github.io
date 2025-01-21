@@ -1,14 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,135,0,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,2,0,1,119,0,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,1,0,1,135,0,1],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,1,119,0,1],
-"structMR_1_1CompensateRadiusParams.html":[6,0,1,0,1,139],
-"structMR_1_1CompensateRadiusParams.html":[6,0,2,0,1,123],
-"structMR_1_1CompensateRadiusParams.html#a78eaf043f024883ea5ff487bc2d7ec50":[6,0,1,0,1,139,1],
-"structMR_1_1CompensateRadiusParams.html#a78eaf043f024883ea5ff487bc2d7ec50":[6,0,2,0,1,123,1],
-"structMR_1_1CompensateRadiusParams.html#aae43a6e0f9bef2d589429434a57a0bd8":[6,0,1,0,1,139,3],
 "structMR_1_1CompensateRadiusParams.html#aae43a6e0f9bef2d589429434a57a0bd8":[6,0,2,0,1,123,3],
 "structMR_1_1CompensateRadiusParams.html#adb2072e359a12815d6285187b399591d":[6,0,1,0,1,139,0],
 "structMR_1_1CompensateRadiusParams.html#adb2072e359a12815d6285187b399591d":[6,0,2,0,1,123,0],
@@ -249,5 +240,14 @@ var NAVTREEINDEX62 =
 "structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,2,0,1,157,0],
 "structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,1,0,1,173,1],
 "structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,2,0,1,157,1],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,1,0,1,173,3]
+"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,1,0,1,173,3],
+"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,2,0,1,157,3],
+"structMR_1_1Directory.html":[6,0,1,0,1,175],
+"structMR_1_1Directory.html":[6,0,2,0,1,159],
+"structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[6,0,1,0,1,175,0],
+"structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[6,0,2,0,1,159,0],
+"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[6,0,1,0,1,175,1],
+"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[6,0,2,0,1,159,1],
+"structMR_1_1DirectoryIterator.html":[6,0,1,0,1,176],
+"structMR_1_1DirectoryIterator.html":[6,0,2,0,1,160]
 };

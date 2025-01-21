@@ -276,7 +276,6 @@ var annotated_dup =
       [ "func_float_from_Id_EdgeTag", "classmrmeshpy_1_1func__float__from__Id__EdgeTag.html", "classmrmeshpy_1_1func__float__from__Id__EdgeTag" ],
       [ "func_float_from_Id_UndirectedEdgeTag", "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html", "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" ],
       [ "func_float_from_Id_VertTag", "classmrmeshpy_1_1func__float__from__Id__VertTag.html", "classmrmeshpy_1_1func__float__from__Id__VertTag" ],
-      [ "func_float_from_int", "classmrmeshpy_1_1func__float__from__int.html", "classmrmeshpy_1_1func__float__from__int" ],
       [ "func_float_from_int_int", "classmrmeshpy_1_1func__float__from__int__int.html", "classmrmeshpy_1_1func__float__from__int__int" ],
       [ "func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins", "classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins.html", "classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins" ],
       [ "func_float_from_unsigned_long", "classmrmeshpy_1_1func__float__from__unsigned__long.html", "classmrmeshpy_1_1func__float__from__unsigned__long" ],

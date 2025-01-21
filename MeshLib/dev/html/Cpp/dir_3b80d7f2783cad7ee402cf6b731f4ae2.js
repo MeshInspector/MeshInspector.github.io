@@ -333,7 +333,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRSubfeatures.h", "MRSubfeatures_8h.html", "MRSubfeatures_8h" ],
     [ "MRSurfaceDistance.h", "MRSurfaceDistance_8h.html", "MRSurfaceDistance_8h" ],
     [ "MRSurfaceDistanceBuilder.h", "MRSurfaceDistanceBuilder_8h.html", "MRSurfaceDistanceBuilder_8h" ],
-    [ "MRSurfaceLineOffset.h", "MRSurfaceLineOffset_8h.html", "MRSurfaceLineOffset_8h" ],
     [ "MRSurfacePath.h", "MRSurfacePath_8h.html", "MRSurfacePath_8h" ],
     [ "MRSurroundingContour.h", "MRSurroundingContour_8h.html", "MRSurroundingContour_8h" ],
     [ "MRSymMatrix2.h", "MRSymMatrix2_8h.html", null ],

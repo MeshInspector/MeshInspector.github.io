@@ -1,10 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,756],
-"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,755],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,12,0,8],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,12,0,12],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,12,0,9],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,12,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,12,0,11],
 "conceptMR_1_1Trivial.html":[6,0,1,0,1,754],
@@ -249,5 +244,10 @@ var NAVTREEINDEX47 =
 "group__AABBTreeGroup.html#gaa8d353c49376729ab03f26747726d3b3":[6,0,0,1,80],
 "group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d":[6,0,0,1,92],
 "group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6":[6,0,0,1,52],
-"group__AABBTreeGroup.html#gab849769857dbeadbea5f6bbfa749dfa0":[6,0,0,1,106]
+"group__AABBTreeGroup.html#gab849769857dbeadbea5f6bbfa749dfa0":[6,0,0,1,106],
+"group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517":[6,0,0,1,42],
+"group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c":[6,0,0,1,90],
+"group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470":[6,0,0,1,33],
+"group__AABBTreeGroup.html#gac978c520f500c1e3dad2ddaff7a333f0":[6,0,0,1,103],
+"group__AABBTreeGroup.html#gaca3917c935c4b071cac785463beaa5f2":[6,0,0,1,104]
 };

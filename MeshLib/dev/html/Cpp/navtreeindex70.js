@@ -1,14 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b":[6,0,2,0,1,8,3,3],
-"structMR_1_1MeshBuilder_1_1Triangle.html#af175e0ee7a935555961ce40aa0941496":[6,0,1,0,1,16,3,4],
-"structMR_1_1MeshBuilder_1_1Triangle.html#af175e0ee7a935555961ce40aa0941496":[6,0,2,0,1,8,3,4],
-"structMR_1_1MeshBuilder_1_1VertDuplication.html":[6,0,1,0,1,16,4],
-"structMR_1_1MeshBuilder_1_1VertDuplication.html":[6,0,2,0,1,8,4],
-"structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,1,0,1,16,4,0],
-"structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,2,0,1,8,4,0],
-"structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,1,0,1,16,4,1],
-"structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,2,0,1,8,4,1],
 "structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,1,0,1,16,6],
 "structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,2,0,1,8,6],
 "structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1":[6,0,1,0,1,16,6,1],
@@ -249,5 +240,14 @@ var NAVTREEINDEX70 =
 "structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,1,0,1,361,5],
 "structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,2,0,1,345,5],
 "structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,1,0,1,361,0],
-"structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,2,0,1,345,0]
+"structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,2,0,1,345,0],
+"structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,1,0,1,361,2],
+"structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,2,0,1,345,2],
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,1,0,1,361,7],
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,2,0,1,345,7],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,1,0,1,20,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,2,0,1,12,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,1,0,1,20,0,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,2,0,1,12,0,0],
+"structMR_1_1MetricToAStarPenalty.html":[6,0,1,0,1,362]
 };
