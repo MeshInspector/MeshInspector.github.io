@@ -1,7 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"classmrmeshpy_1_1SegmPointf.html":[6,1,1,0,1,696],
-"classmrmeshpy_1_1SegmPointf.html#a16ddb3820b9e561857044ead68fb2337":[6,1,0,0,2,696,9],
 "classmrmeshpy_1_1SegmPointf.html#a16ddb3820b9e561857044ead68fb2337":[6,1,1,0,1,696,9],
 "classmrmeshpy_1_1SegmPointf.html#a179c2886318364cb081025ac22cfb842":[6,1,0,0,2,696,2],
 "classmrmeshpy_1_1SegmPointf.html#a179c2886318364cb081025ac22cfb842":[6,1,1,0,1,696,2],
@@ -125,6 +123,8 @@ var NAVTREEINDEX66 =
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a9381e6f8a188411ddd4cf3ee71733507":[6,1,1,0,1,698,0,5],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ac2b5c1c13779b65ee5ab21da8c077f1a":[6,1,0,0,2,698,0,2],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ac2b5c1c13779b65ee5ab21da8c077f1a":[6,1,1,0,1,698,0,2],
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ad394688d9dc8401c797528d6633ec3b4":[6,1,0,0,2,698,0,6],
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ad394688d9dc8401c797528d6633ec3b4":[6,1,1,0,1,698,0,6],
 "classmrmeshpy_1_1SetBitIterator.html":[6,1,0,0,2,699],
 "classmrmeshpy_1_1SetBitIterator.html":[6,1,1,0,1,699],
 "classmrmeshpy_1_1SetBitIterator.html#a14ed4e791474cf28e9719a9f78abebb1":[6,1,0,0,2,699,3],

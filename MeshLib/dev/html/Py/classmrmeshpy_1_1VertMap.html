@@ -153,7 +153,6 @@ $(function(){initNavTree('classmrmeshpy_1_1VertMap.html',''); initResizable(true
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="classmrmeshpy_1_1VertMap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.VertMap Class Reference</div></div>
 </div><!--header-->
@@ -173,8 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9a4addccf3d77129c488e7c31585fc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8875cf81423da255ae0be9f2d89ad0b6" id="r_a8875cf81423da255ae0be9f2d89ad0b6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8875cf81423da255ae0be9f2d89ad0b6">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> arg0)</td></tr>
 <tr class="separator:a8875cf81423da255ae0be9f2d89ad0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a461f90cb2709c862d619a1550f9774d8" id="r_a461f90cb2709c862d619a1550f9774d8"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a461f90cb2709c862d619a1550f9774d8">__iter__</a> (self)</td></tr>
-<tr class="separator:a461f90cb2709c862d619a1550f9774d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefef340e5dcb9808f163f8b225cbffde" id="r_aefef340e5dcb9808f163f8b225cbffde"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefef340e5dcb9808f163f8b225cbffde">__iter__</a> (self)</td></tr>
+<tr class="separator:aefef340e5dcb9808f163f8b225cbffde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a894c9027d23f3d57439b0c6c2f61eaa8" id="r_a894c9027d23f3d57439b0c6c2f61eaa8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a894c9027d23f3d57439b0c6c2f61eaa8">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> b)</td></tr>
 <tr class="separator:a894c9027d23f3d57439b0c6c2f61eaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c92e16d1d6a111d5284763733982a2" id="r_ad5c92e16d1d6a111d5284763733982a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c92e16d1d6a111d5284763733982a2">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> i)</td></tr>
@@ -242,15 +241,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a628b1b4910193ee1a5d05fc43db88809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a628b1b4910193ee1a5d05fc43db88809" id="r_a628b1b4910193ee1a5d05fc43db88809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a628b1b4910193ee1a5d05fc43db88809">_Subscript</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> i)</td></tr>
 <tr class="separator:a628b1b4910193ee1a5d05fc43db88809"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:afea49dc564df55012779cdecf5662c89" id="r_afea49dc564df55012779cdecf5662c89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afea49dc564df55012779cdecf5662c89">_pybind11_conduit_v1_</a> (*args, **kwargs)</td></tr>
-<tr class="separator:afea49dc564df55012779cdecf5662c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::VertMap
-Aliases:  Vector_VertId_VertId, Vector_VertId_VertId, Vector_TaggedBitSet_VertTag_IndexType_TaggedBitSet_VertTag_IndexType
+Aliases:  Vector_TaggedBitSet_VertTag_IndexType_TaggedBitSet_VertTag_IndexType, Vector_VertId_VertId, Vector_VertId_VertId
 
 
  \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
@@ -386,14 +380,14 @@ Aliases:  Vector_VertId_VertId, Vector_VertId_VertId, Vector_TaggedBitSet_VertTa
 
 </div>
 </div>
-<a id="a461f90cb2709c862d619a1550f9774d8" name="a461f90cb2709c862d619a1550f9774d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a461f90cb2709c862d619a1550f9774d8">&#9670;&#160;</a></span>__iter__()</h2>
+<a id="aefef340e5dcb9808f163f8b225cbffde" name="aefef340e5dcb9808f163f8b225cbffde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefef340e5dcb9808f163f8b225cbffde">&#9670;&#160;</a></span>__iter__()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> typing.Iterator[<a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>] mrmeshpy.VertMap.__iter__ </td>
+          <td class="memname"> typing.Iterator mrmeshpy.VertMap.__iter__ </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -420,35 +414,6 @@ Aliases:  Vector_VertId_VertId, Vector_VertId_VertId, Vector_TaggedBitSet_VertTa
           <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afea49dc564df55012779cdecf5662c89" name="afea49dc564df55012779cdecf5662c89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afea49dc564df55012779cdecf5662c89">&#9670;&#160;</a></span>_pybind11_conduit_v1_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mrmeshpy.VertMap._pybind11_conduit_v1_ </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

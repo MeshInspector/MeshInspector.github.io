@@ -155,7 +155,6 @@ $(function(){initNavTree('classmrmeshpy_1_1Vector3b.html',''); initResizable(tru
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="classmrmeshpy_1_1Vector3b-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.Vector3b Class Reference</div></div>
 </div><!--header-->
@@ -173,8 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a46028e298c895946cb023fe6a61ede40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dee779d75796f67799ec529256f1b75" id="r_a2dee779d75796f67799ec529256f1b75"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dee779d75796f67799ec529256f1b75">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3b.html">Vector3b</a> arg0)</td></tr>
 <tr class="separator:a2dee779d75796f67799ec529256f1b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb12de1c196bc323c1df99cbe7c6213c" id="r_abb12de1c196bc323c1df99cbe7c6213c"><td class="memItemLeft" align="right" valign="top">typing.Iterator[bool]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb12de1c196bc323c1df99cbe7c6213c">__iter__</a> (self)</td></tr>
-<tr class="separator:abb12de1c196bc323c1df99cbe7c6213c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4700928c2b2219b051a35375ee8620a5" id="r_a4700928c2b2219b051a35375ee8620a5"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4700928c2b2219b051a35375ee8620a5">__iter__</a> (self)</td></tr>
+<tr class="separator:a4700928c2b2219b051a35375ee8620a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25398a3854eecf71f5982566e7b9d0b8" id="r_a25398a3854eecf71f5982566e7b9d0b8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25398a3854eecf71f5982566e7b9d0b8">length</a> (self)</td></tr>
 <tr class="separator:a25398a3854eecf71f5982566e7b9d0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4457cbcc58e441886649b5c7e94d1dfa" id="r_a4457cbcc58e441886649b5c7e94d1dfa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4457cbcc58e441886649b5c7e94d1dfa">lengthSq</a> (self)</td></tr>
@@ -210,15 +209,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a8e400fb9450c700e6bc5aa2b48342612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e400fb9450c700e6bc5aa2b48342612" id="r_a8e400fb9450c700e6bc5aa2b48342612"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e400fb9450c700e6bc5aa2b48342612">_Subscript</a> (self, int e)</td></tr>
 <tr class="separator:a8e400fb9450c700e6bc5aa2b48342612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3c912efbdefa18a0c1476161a563f0b9" id="r_a3c912efbdefa18a0c1476161a563f0b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c912efbdefa18a0c1476161a563f0b9">_pybind11_conduit_v1_</a> (*args, **kwargs)</td></tr>
-<tr class="separator:a3c912efbdefa18a0c1476161a563f0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Vector3b
-Aliases:  Vector3_bool, Vector3_bool, Matrix3_bool_VectorType
+Aliases:  Vector3_bool, Matrix3_bool_VectorType, Vector3_bool
 
 three-dimensional vector
 \\ingroup VectorGroup
@@ -365,48 +359,19 @@ three-dimensional vector
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abb12de1c196bc323c1df99cbe7c6213c" name="abb12de1c196bc323c1df99cbe7c6213c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb12de1c196bc323c1df99cbe7c6213c">&#9670;&#160;</a></span>__iter__()</h2>
+<a id="a4700928c2b2219b051a35375ee8620a5" name="a4700928c2b2219b051a35375ee8620a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4700928c2b2219b051a35375ee8620a5">&#9670;&#160;</a></span>__iter__()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> typing.Iterator[bool] mrmeshpy.Vector3b.__iter__ </td>
+          <td class="memname"> typing.Iterator mrmeshpy.Vector3b.__iter__ </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3c912efbdefa18a0c1476161a563f0b9" name="a3c912efbdefa18a0c1476161a563f0b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c912efbdefa18a0c1476161a563f0b9">&#9670;&#160;</a></span>_pybind11_conduit_v1_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mrmeshpy.Vector3b._pybind11_conduit_v1_ </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

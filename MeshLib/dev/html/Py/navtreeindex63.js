@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"classmrmeshpy_1_1RefineParameters.html#a935dbfcb32448ce1a440cf1ae0b34392":[6,1,1,0,1,670,13],
-"classmrmeshpy_1_1RefineParameters.html#a9f20ffd02f56b33f919ff90ad3b9dbd2":[6,1,0,0,2,670,2],
 "classmrmeshpy_1_1RefineParameters.html#a9f20ffd02f56b33f919ff90ad3b9dbd2":[6,1,1,0,1,670,2],
 "classmrmeshpy_1_1RefineParameters.html#ab01bedaf072601bc1f46f29fc81c4a5b":[6,1,0,0,2,670,14],
 "classmrmeshpy_1_1RefineParameters.html#ab01bedaf072601bc1f46f29fc81c4a5b":[6,1,1,0,1,670,14],
@@ -21,6 +19,8 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1RegionBitSet.html":[6,1,1,0,1,671],
 "classmrmeshpy_1_1RegionBitSet.html#a06005e7fb09e225f2acab185c967dfcf":[6,1,0,0,2,671,30],
 "classmrmeshpy_1_1RegionBitSet.html#a06005e7fb09e225f2acab185c967dfcf":[6,1,1,0,1,671,30],
+"classmrmeshpy_1_1RegionBitSet.html#a0c845ae20385ffc841c2fbc2ceeb0310":[6,1,0,0,2,671,8],
+"classmrmeshpy_1_1RegionBitSet.html#a0c845ae20385ffc841c2fbc2ceeb0310":[6,1,1,0,1,671,8],
 "classmrmeshpy_1_1RegionBitSet.html#a0fb51825e616359a74fdc569ec342fa2":[6,1,0,0,2,671,33],
 "classmrmeshpy_1_1RegionBitSet.html#a0fb51825e616359a74fdc569ec342fa2":[6,1,1,0,1,671,33],
 "classmrmeshpy_1_1RegionBitSet.html#a135e9513f357655f9c0fcc12435373e5":[6,1,0,0,2,671,16],
@@ -31,8 +31,6 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1RegionBitSet.html#a191ded296c733a7de15f8374f3b79ff0":[6,1,1,0,1,671,9],
 "classmrmeshpy_1_1RegionBitSet.html#a1e9b2e2f1797d700874509f4ebace46e":[6,1,0,0,2,671,31],
 "classmrmeshpy_1_1RegionBitSet.html#a1e9b2e2f1797d700874509f4ebace46e":[6,1,1,0,1,671,31],
-"classmrmeshpy_1_1RegionBitSet.html#a287c34fb36db3294d722437711dc05ea":[6,1,0,0,2,671,8],
-"classmrmeshpy_1_1RegionBitSet.html#a287c34fb36db3294d722437711dc05ea":[6,1,1,0,1,671,8],
 "classmrmeshpy_1_1RegionBitSet.html#a30864a371dd6aae217db248075a0edaf":[6,1,0,0,2,671,36],
 "classmrmeshpy_1_1RegionBitSet.html#a30864a371dd6aae217db248075a0edaf":[6,1,1,0,1,671,36],
 "classmrmeshpy_1_1RegionBitSet.html#a31c2a8134685f367503b47bc67c5938b":[6,1,0,0,2,671,25],
@@ -137,8 +135,6 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1RegularMapMesher.html":[6,1,1,0,1,673],
 "classmrmeshpy_1_1RegularMapMesher.html#a22a2a81ac3370a493343abc35f05f10d":[6,1,0,0,2,673,5],
 "classmrmeshpy_1_1RegularMapMesher.html#a22a2a81ac3370a493343abc35f05f10d":[6,1,1,0,1,673,5],
-"classmrmeshpy_1_1RegularMapMesher.html#a363bf0abb35b1f2ee10675eed0316abe":[6,1,0,0,2,673,3],
-"classmrmeshpy_1_1RegularMapMesher.html#a363bf0abb35b1f2ee10675eed0316abe":[6,1,1,0,1,673,3],
 "classmrmeshpy_1_1RegularMapMesher.html#a787de3900c1a8ddf9bd4fee8bdd6697a":[6,1,0,0,2,673,6],
 "classmrmeshpy_1_1RegularMapMesher.html#a787de3900c1a8ddf9bd4fee8bdd6697a":[6,1,1,0,1,673,6],
 "classmrmeshpy_1_1RegularMapMesher.html#a7ad4580e465fd0cc942b92f4f480640c":[6,1,0,0,2,673,1],
@@ -147,6 +143,8 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1RegularMapMesher.html#aba4a81a5d9b6bae07a03180534009d8d":[6,1,1,0,1,673,4],
 "classmrmeshpy_1_1RegularMapMesher.html#ad45e11cfa3fc90c97fb8e896856ab84e":[6,1,0,0,2,673,0],
 "classmrmeshpy_1_1RegularMapMesher.html#ad45e11cfa3fc90c97fb8e896856ab84e":[6,1,1,0,1,673,0],
+"classmrmeshpy_1_1RegularMapMesher.html#ad951b11a84840cef5fd9c6fdd9400bb1":[6,1,0,0,2,673,3],
+"classmrmeshpy_1_1RegularMapMesher.html#ad951b11a84840cef5fd9c6fdd9400bb1":[6,1,1,0,1,673,3],
 "classmrmeshpy_1_1RegularMapMesher.html#ade75d5aca66c6e569f9113e206c9c275":[6,1,0,0,2,673,2],
 "classmrmeshpy_1_1RegularMapMesher.html#ade75d5aca66c6e569f9113e206c9c275":[6,1,1,0,1,673,2],
 "classmrmeshpy_1_1RelaxApproxType.html":[6,1,0,0,2,674],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1RemeshSettings.html#aae6953be037d92b4d68d9d8868b9a7d2":[6,1,1,0,1,676,12],
 "classmrmeshpy_1_1RemeshSettings.html#ab121ee2b184bb503cd5dc7beb3d900c4":[6,1,0,0,2,676,30],
 "classmrmeshpy_1_1RemeshSettings.html#ab121ee2b184bb503cd5dc7beb3d900c4":[6,1,1,0,1,676,30],
-"classmrmeshpy_1_1RemeshSettings.html#ab7a1c165a332967431ca73cacd71a598":[6,1,0,0,2,676,9]
+"classmrmeshpy_1_1RemeshSettings.html#ab7a1c165a332967431ca73cacd71a598":[6,1,0,0,2,676,9],
+"classmrmeshpy_1_1RemeshSettings.html#ab7a1c165a332967431ca73cacd71a598":[6,1,1,0,1,676,9],
+"classmrmeshpy_1_1RemeshSettings.html#abb032293b175afcb4abb8f5f48f92ff3":[6,1,0,0,2,676,8]
 };
