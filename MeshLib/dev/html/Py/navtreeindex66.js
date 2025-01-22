@@ -1,7 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a56295f828403e2eed1a40aea6f6b5a81":[6,1,1,0,1,693,2,9],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a5a475b2d3562d7b49c477a47743f4680":[6,1,0,0,2,693,2,3],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a5a475b2d3562d7b49c477a47743f4680":[6,1,1,0,1,693,2,3],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a6014193887cf38848547c74b72d65945":[6,1,0,0,2,693,2,6],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a6014193887cf38848547c74b72d65945":[6,1,1,0,1,693,2,6],
@@ -179,6 +177,8 @@ var NAVTREEINDEX66 =
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a9381e6f8a188411ddd4cf3ee71733507":[6,1,1,0,1,699,0,5],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ac2b5c1c13779b65ee5ab21da8c077f1a":[6,1,0,0,2,699,0,2],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ac2b5c1c13779b65ee5ab21da8c077f1a":[6,1,1,0,1,699,0,2],
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ad394688d9dc8401c797528d6633ec3b4":[6,1,0,0,2,699,0,6],
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ad394688d9dc8401c797528d6633ec3b4":[6,1,1,0,1,699,0,6],
 "classmrmeshpy_1_1SetBitIterator.html":[6,1,0,0,2,700],
 "classmrmeshpy_1_1SetBitIterator.html":[6,1,1,0,1,700],
 "classmrmeshpy_1_1SetBitIterator.html#a14ed4e791474cf28e9719a9f78abebb1":[6,1,0,0,2,700,3],

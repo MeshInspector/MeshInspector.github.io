@@ -1,9 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#aa5b249284c78c3b572fca2d1ee8fd0e0":[6,1,1,0,1,252,4],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#adf726be0394de47fcb966ce872753b05":[6,1,0,0,2,252,3],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#adf726be0394de47fcb966ce872753b05":[6,1,1,0,1,252,3],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#ae08e5c0a6d7928e5a3cce052c4b1c02e":[6,1,0,0,2,252,5],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#ae08e5c0a6d7928e5a3cce052c4b1c02e":[6,1,1,0,1,252,5],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#afa1e3be7c2e141585406bf7e94648c68":[6,1,0,0,2,252,2],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#afa1e3be7c2e141585406bf7e94648c68":[6,1,1,0,1,252,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX105 =
 "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a0402ea0f88030cdf9548c5af90427486":[6,1,1,0,1,266,6],
 "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1472dd1595f80159fc51592bf1523436":[6,1,0,0,2,266,2],
 "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1472dd1595f80159fc51592bf1523436":[6,1,1,0,1,266,2],
-"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1e6e31f0949d37b588ac1601407b6ce4":[6,1,0,0,2,266,0]
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1e6e31f0949d37b588ac1601407b6ce4":[6,1,0,0,2,266,0],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1e6e31f0949d37b588ac1601407b6ce4":[6,1,1,0,1,266,0],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a60018289315a8b4fb9778116d09b38a9":[6,1,0,0,2,266,1],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a60018289315a8b4fb9778116d09b38a9":[6,1,1,0,1,266,1],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a951f65e42d350fc4389667c5a22b1576":[6,1,0,0,2,266,4]
 };
