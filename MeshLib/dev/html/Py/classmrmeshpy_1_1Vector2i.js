@@ -10,7 +10,7 @@ var classmrmeshpy_1_1Vector2i =
     [ "__iadd__", "classmrmeshpy_1_1Vector2i.html#aa0a4fc682b65ff4d949d6d2f79a20f93", null ],
     [ "__imatmul__", "classmrmeshpy_1_1Vector2i.html#a932a70e1449bb44d46b053368aacb38c", null ],
     [ "__isub__", "classmrmeshpy_1_1Vector2i.html#a0517775d6bc771a93ec7351102990254", null ],
-    [ "__iter__", "classmrmeshpy_1_1Vector2i.html#a47cf9a9c4f8ae028abd7e8edbc125450", null ],
+    [ "__iter__", "classmrmeshpy_1_1Vector2i.html#a13b7c02dc046a559db7532aca40a647c", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Vector2i.html#a94e2920811e323d684a0278df8871eb1", null ],
     [ "__mul__", "classmrmeshpy_1_1Vector2i.html#a7759daede99a7903f1665b8efbe3e6af", null ],
     [ "__ne__", "classmrmeshpy_1_1Vector2i.html#a4db343bda2dce2a248e5782183740d12", null ],
