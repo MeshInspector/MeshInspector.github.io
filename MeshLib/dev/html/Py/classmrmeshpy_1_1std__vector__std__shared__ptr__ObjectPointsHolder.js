@@ -10,7 +10,7 @@ var classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder =
     [ "__eq__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ad4bf725fac2b0904eeb8570344b97d2c", null ],
     [ "__getitem__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#aa63302dca6e1c43fd288132cc07b1c13", null ],
     [ "__getitem__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#aa6f8f28b79534f514f4fc7599c9ef962", null ],
-    [ "__iter__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abed725729a4bb3062b68a3bdb1220168", null ],
+    [ "__iter__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a9f509fff035694fdff7f9084b7e391ef", null ],
     [ "__len__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a851f6c482d138f524f5b109518dfb9d3", null ],
     [ "__ne__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a72b909e09a0b583576ce05d0999f17ae", null ],
     [ "__repr__", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a154a3dbdab4f4f8e1e5dfe8f4c4b6ea4", null ],
