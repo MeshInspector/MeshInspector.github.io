@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1ObjectPointsHolder.html#ae619aa1d3ffa919568541313c7f6f7dd":[6,1,1,0,1,535,29],
+"classmrmeshpy_1_1ObjectSave.html":[6,1,0,0,2,536],
 "classmrmeshpy_1_1ObjectSave.html":[6,1,1,0,1,536],
 "classmrmeshpy_1_1ObjectSelectivityType.html":[6,1,0,0,2,537],
 "classmrmeshpy_1_1ObjectSelectivityType.html":[6,1,1,0,1,537],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#ada57dcf647fc1fcbe0f1cc84cea6cffe":[6,1,1,0,1,538,0,2,4],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aed42988f79f12d484e1540b1f8dbb45d":[6,1,0,0,2,538,0,2,2],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aed42988f79f12d484e1540b1f8dbb45d":[6,1,1,0,1,538,0,2,2],
-"classmrmeshpy_1_1OffsetContourIndex.html":[6,1,0,0,2,550],
-"classmrmeshpy_1_1OffsetContourIndex.html":[6,1,1,0,1,550],
-"classmrmeshpy_1_1OffsetContourIndex.html#a213c3af248977b2dca97166c4d5e4c76":[6,1,0,0,2,550,1]
+"classmrmeshpy_1_1OffsetContourIndex.html":[6,1,0,0,2,550]
 };
