@@ -1,5 +1,11 @@
 var NAVTREEINDEX12 =
 {
+"MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c":[6,0,3,0,0,1,9,94,0,0],
+"MRSelectCurvaturePreference_8h.html#ae6a703f529a05e3f2fa59d68fd266627":[6,0,3,0,0,1,9,94,1],
+"MRSelectCurvaturePreference_8h_source.html":[6,0,3,0,0,1,9,94],
+"MRSelectObjectByClick_8h.html":[6,0,3,0,0,1,0,1,0],
+"MRSelectObjectByClick_8h_source.html":[6,0,3,0,0,1,0,1,0],
+"MRSelectScreenLasso_8h.html":[6,0,3,0,0,1,9,95],
 "MRSelectScreenLasso_8h.html#a29b6abcd794dd6dfbb8d197b6d944685":[6,0,3,0,0,1,9,95,3],
 "MRSelectScreenLasso_8h.html#a42e8e573c0aec9b5d59ac648be980eff":[6,0,3,0,0,1,9,95,1],
 "MRSelectScreenLasso_8h.html#a5296205b5f80eb5b87c334ab98121aff":[6,0,3,0,0,1,9,95,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX12 =
 "MRTestC_2MRBitSet_8h.html":[6,0,3,0,0,1,8,0],
 "MRTestC_2MRBitSet_8h.html#af179eb8d5293c389d6c39fa71812f0b2":[6,0,3,0,0,1,8,0,0],
 "MRTestC_2MRBitSet_8h_source.html":[6,0,3,0,0,1,8,0],
-"MRTestC_2MRExpandShrink_8h.html":[6,0,3,0,0,1,8,1],
-"MRTestC_2MRExpandShrink_8h.html#a6fe71176bc46c348ef2ff68a130e28a6":[6,0,3,0,0,1,8,1,1],
-"MRTestC_2MRExpandShrink_8h.html#a7024f5258d4288744e74b528847b7a6e":[6,0,3,0,0,1,8,1,0],
-"MRTestC_2MRExpandShrink_8h_source.html":[6,0,3,0,0,1,8,1],
-"MRTestC_2MRFixSelfIntersections_8h.html":[6,0,3,0,0,1,8,2],
-"MRTestC_2MRFixSelfIntersections_8h.html#adfe33d8ad7ee0d0670f1da8e8149ccd5":[6,0,3,0,0,1,8,2,0],
-"MRTestC_2MRFixSelfIntersections_8h_source.html":[6,0,3,0,0,1,8,2]
+"MRTestC_2MRExpandShrink_8h.html":[6,0,3,0,0,1,8,1]
 };

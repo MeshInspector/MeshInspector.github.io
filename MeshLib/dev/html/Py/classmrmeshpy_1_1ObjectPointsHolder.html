@@ -154,7 +154,6 @@ $(function(){initNavTree('classmrmeshpy_1_1ObjectPointsHolder.html',''); initRes
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="classmrmeshpy_1_1ObjectPointsHolder-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.ObjectPointsHolder Class Reference</div></div>
 </div><!--header-->
@@ -218,6 +217,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac429269795ceff26edd1974efc28ef5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7bf2ac3747207443f498dc11d9f3c85" id="r_ac7bf2ac3747207443f498dc11d9f3c85"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7bf2ac3747207443f498dc11d9f3c85">selectPoints</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> newSelection)</td></tr>
 <tr class="separator:ac7bf2ac3747207443f498dc11d9f3c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd1183a0433a5c13baf42ce62aafdf6" id="r_a1dd1183a0433a5c13baf42ce62aafdf6"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd1183a0433a5c13baf42ce62aafdf6">serializeFormat</a> (self)</td></tr>
+<tr class="separator:a1dd1183a0433a5c13baf42ce62aafdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21ef2275b0fdb3731afa65b42d24dbf9" id="r_a21ef2275b0fdb3731afa65b42d24dbf9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21ef2275b0fdb3731afa65b42d24dbf9">setDirtyFlags</a> (self, int mask, bool invalidateCaches=True)</td></tr>
 <tr class="separator:a21ef2275b0fdb3731afa65b42d24dbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90991b5f70dc84629aa60065d995ef8d" id="r_a90991b5f70dc84629aa60065d995ef8d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90991b5f70dc84629aa60065d995ef8d">setMaxRenderingPoints</a> (self, int val)</td></tr>
@@ -230,6 +231,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acff92f4376548322aafe1a4960be0dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63b633389c06034c31a7a1801ef553a4" id="r_a63b633389c06034c31a7a1801ef553a4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63b633389c06034c31a7a1801ef553a4">setSelectedVerticesColorsForAllViewports</a> (self, <a class="el" href="classmrmeshpy_1_1ViewportProperty__Color.html">ViewportProperty_Color</a> val)</td></tr>
 <tr class="separator:a63b633389c06034c31a7a1801ef553a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939db8be14273da8e6240d297060cb28" id="r_a939db8be14273da8e6240d297060cb28"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a939db8be14273da8e6240d297060cb28">setSerializeFormat</a> (self, str newFormat)</td></tr>
+<tr class="separator:a939db8be14273da8e6240d297060cb28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad96af8f45bacc210de03b1f13dc696dd" id="r_ad96af8f45bacc210de03b1f13dc696dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad96af8f45bacc210de03b1f13dc696dd">shallowClone</a> (self)</td></tr>
 <tr class="separator:ad96af8f45bacc210de03b1f13dc696dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20924da44458776bdc8ae1d585d13339" id="r_a20924da44458776bdc8ae1d585d13339"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20924da44458776bdc8ae1d585d13339">supportsVisualizeProperty</a> (self, <a class="el" href="classmrmeshpy_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type)</td></tr>
@@ -460,10 +463,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a1cc6af34b05243eef28caaa3a4e01c9e" id="r_a1cc6af34b05243eef28caaa3a4e01c9e"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cc6af34b05243eef28caaa3a4e01c9e">MaxRenderingPointsUnlimited</a> = 2147483647</td></tr>
 <tr class="separator:a1cc6af34b05243eef28caaa3a4e01c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa823e40979ba685cd23ed08121ecc487" id="r_aa823e40979ba685cd23ed08121ecc487"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa823e40979ba685cd23ed08121ecc487">_pybind11_conduit_v1_</a> (*args, **kwargs)</td></tr>
-<tr class="separator:aa823e40979ba685cd23ed08121ecc487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_static_methods_classmrmeshpy_1_1ObjectChildrenHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_methods_classmrmeshpy_1_1ObjectChildrenHolder')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ObjectChildrenHolder.html">mrmeshpy.ObjectChildrenHolder</a></td></tr>
 <tr class="memitem:a2509e431a24a98b7f41f99b9899a6331 inherit pro_static_methods_classmrmeshpy_1_1ObjectChildrenHolder" id="r_a2509e431a24a98b7f41f99b9899a6331"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ObjectChildrenHolder.html#a2509e431a24a98b7f41f99b9899a6331">_Equal</a> (*args, **kwargs)</td></tr>
 <tr class="separator:a2509e431a24a98b7f41f99b9899a6331 inherit pro_static_methods_classmrmeshpy_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -498,39 +499,6 @@ an object that stores a points
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa823e40979ba685cd23ed08121ecc487" name="aa823e40979ba685cd23ed08121ecc487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa823e40979ba685cd23ed08121ecc487">&#9670;&#160;</a></span>_pybind11_conduit_v1_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mrmeshpy.ObjectPointsHolder._pybind11_conduit_v1_ </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1VisualObject.html#a2bb0e6ac7e0612e166d818708a3124ed">mrmeshpy.VisualObject</a>.</p>
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ObjectPoints.html#a3234b2c8efd682d17a59de1c57800d9d">mrmeshpy.ObjectPoints</a>.</p>
-
-</div>
-</div>
 <a id="a05046fce43a77b6afcc1baaff512a3df" name="a05046fce43a77b6afcc1baaff512a3df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05046fce43a77b6afcc1baaff512a3df">&#9670;&#160;</a></span>applyScale()</h2>
 
@@ -936,8 +904,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns file extension used to serialize the points
-</pre> 
+
 </div>
 </div>
 <a id="ac7bf2ac3747207443f498dc11d9f3c85" name="ac7bf2ac3747207443f498dc11d9f3c85"></a>
@@ -959,6 +926,24 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
       </table>
 </div><div class="memdoc">
 <pre class="fragment">sets current selected points
+</pre> 
+</div>
+</div>
+<a id="a1dd1183a0433a5c13baf42ce62aafdf6" name="a1dd1183a0433a5c13baf42ce62aafdf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd1183a0433a5c13baf42ce62aafdf6">&#9670;&#160;</a></span>serializeFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str mrmeshpy.ObjectPointsHolder.serializeFormat </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns overriden file extension used to serialize point cloud inside this object, nullptr means defaultSerializePointsFormat()
 </pre> 
 </div>
 </div>
@@ -1058,8 +1043,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets file extension used to serialize the points: must be not null and must start from '.'
-</pre> 
+
 </div>
 </div>
 <a id="acff92f4376548322aafe1a4960be0dfa" name="acff92f4376548322aafe1a4960be0dfa"></a>
@@ -1108,6 +1092,29 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a939db8be14273da8e6240d297060cb28" name="a939db8be14273da8e6240d297060cb28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939db8be14273da8e6240d297060cb28">&#9670;&#160;</a></span>setSerializeFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.ObjectPointsHolder.setSerializeFormat </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>newFormat</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">overrides file extension used to serialize point cloud inside this object: must start from '.',
+nullptr means serialize in defaultSerializePointsFormat()
+</pre> 
 </div>
 </div>
 <a id="ad96af8f45bacc210de03b1f13dc696dd" name="ad96af8f45bacc210de03b1f13dc696dd"></a>

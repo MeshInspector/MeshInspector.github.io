@@ -24,7 +24,7 @@ var MRSerializer_8h =
     [ "deserializeJsonValue", "MRSerializer_8h.html#ga84a27be875063a2ab0d174fa1f9e7771", null ],
     [ "deserializeJsonValue", "MRSerializer_8h.html#ga4cabdbc3ab0e26dfe5f3f9541c696fc7", null ],
     [ "deserializeViaVerticesFromJson", "MRSerializer_8h.html#gab74247c70d34bac9da9d1e8c421b0703", null ],
-    [ "serializeMesh", "MRSerializer_8h.html#ga808a7911fef76e6fef660071c41e3da8", null ],
+    [ "serializeMesh", "MRSerializer_8h.html#gab5e07b1a572a894ec06e8bb8113827e6", null ],
     [ "serializeToJson", "MRSerializer_8h.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga810f72ff4bfd3f308bf159660074e79c", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],

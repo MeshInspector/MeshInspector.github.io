@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#a2a3ab58e5815530af8cec8eac21cd03d":[6,1,1,0,1,712,1],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#ad0293ca5e704aa1400530075919d05c9":[6,1,0,0,2,712,3],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#ad0293ca5e704aa1400530075919d05c9":[6,1,1,0,1,712,3],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#ad51563ba7a4d8f4932a877c37f45324f":[6,1,0,0,2,712,2],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#ad51563ba7a4d8f4932a877c37f45324f":[6,1,1,0,1,712,2],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#ad55b383858a0417d2464b5c247b39436":[6,1,0,0,2,712,0],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#ad55b383858a0417d2464b5c247b39436":[6,1,1,0,1,712,0],
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html":[6,1,0,0,2,713],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html":[6,1,1,0,1,713],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a00fda33881fb64890d314f21754d9399":[6,1,0,0,2,713,3],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a00fda33881fb64890d314f21754d9399":[6,1,1,0,1,713,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "classmrmeshpy_1_1Sphere3f.html#aaa8d25d90633e523d92c24efc66813dd":[6,1,1,0,1,728,6],
 "classmrmeshpy_1_1Sphere3f.html#ab4f20fc7e17397d15e324f41e776c568":[6,1,0,0,2,728,3],
 "classmrmeshpy_1_1Sphere3f.html#ab4f20fc7e17397d15e324f41e776c568":[6,1,1,0,1,728,3],
-"classmrmeshpy_1_1Sphere3f.html#ad7f11a90785e736e4dbd2bdca033ebc9":[6,1,0,0,2,728,5],
-"classmrmeshpy_1_1Sphere3f.html#ad7f11a90785e736e4dbd2bdca033ebc9":[6,1,1,0,1,728,5],
-"classmrmeshpy_1_1SphereObject.html":[6,1,0,0,2,729],
-"classmrmeshpy_1_1SphereObject.html":[6,1,1,0,1,729],
-"classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4":[6,1,0,0,2,729,3],
-"classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4":[6,1,1,0,1,729,3],
-"classmrmeshpy_1_1SphereObject.html#a04d502a5906caf73ce1760fb660e411b":[6,1,0,0,2,729,6],
-"classmrmeshpy_1_1SphereObject.html#a04d502a5906caf73ce1760fb660e411b":[6,1,1,0,1,729,6],
-"classmrmeshpy_1_1SphereObject.html#a174d6d17b7a911b0d5ef16b5b5bd830b":[6,1,0,0,2,729,11]
+"classmrmeshpy_1_1Sphere3f.html#ad7f11a90785e736e4dbd2bdca033ebc9":[6,1,0,0,2,728,5]
 };

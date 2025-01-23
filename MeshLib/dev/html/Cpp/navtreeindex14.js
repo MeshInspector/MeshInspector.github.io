@@ -1,5 +1,11 @@
 var NAVTREEINDEX14 =
 {
+"MRUVSphere_8h.html":[6,0,3,0,0,1,3,361],
+"MRUVSphere_8h_source.html":[6,0,3,0,0,1,3,361],
+"MRUnifiedPythonStream_8h.html":[6,0,3,0,0,1,6,3],
+"MRUnifiedPythonStream_8h_source.html":[6,0,3,0,0,1,6,3],
+"MRUniformSampling_8h.html":[6,0,3,0,0,1,3,354],
+"MRUniformSampling_8h_source.html":[6,0,3,0,0,1,3,354],
 "MRUnionFind_8h.html":[6,0,3,0,0,1,3,355],
 "MRUnionFind_8h_source.html":[6,0,3,0,0,1,3,355],
 "MRUniquePtr_8h.html":[6,0,3,0,0,1,3,356],
@@ -243,11 +249,5 @@ var NAVTREEINDEX14 =
 "MRVoxels_2MROffset_8h.html":[6,0,3,0,0,1,10,15],
 "MRVoxels_2MROffset_8h.html#a26c58403810ae559f5aa4b2e7e0dd80d":[6,0,3,0,0,1,10,15,7],
 "MRVoxels_2MROffset_8h.html#a2feac3a50eec5b2f2d371d843f869f27":[6,0,3,0,0,1,10,15,6],
-"MRVoxels_2MROffset_8h.html#a346ad7a38921d6822ceffafc1eba769d":[6,0,3,0,0,1,10,15,12],
-"MRVoxels_2MROffset_8h.html#a4786362a7faf5309ddb05c773cf3b513":[6,0,3,0,0,1,10,15,13],
-"MRVoxels_2MROffset_8h.html#a5edbfcffae3bcdb000d83b7c6cf9e050":[6,0,3,0,0,1,10,15,5],
-"MRVoxels_2MROffset_8h.html#a9ec48e1b0c1c9a1cca3e8368175b857e":[6,0,3,0,0,1,10,15,9],
-"MRVoxels_2MROffset_8h.html#aa6f9ce8f2f7a4b39c759f54fbfede167":[6,0,3,0,0,1,10,15,10],
-"MRVoxels_2MROffset_8h.html#aa8cff093ce429503e9b5c0e33d5b9080":[6,0,3,0,0,1,10,15,8],
-"MRVoxels_2MROffset_8h.html#ac1a0e7e32c8d591b83f66462ad4f89ef":[6,0,3,0,0,1,10,15,11]
+"MRVoxels_2MROffset_8h.html#a346ad7a38921d6822ceffafc1eba769d":[6,0,3,0,0,1,10,15,12]
 };
