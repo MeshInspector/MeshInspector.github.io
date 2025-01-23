@@ -1,5 +1,12 @@
 var NAVTREEINDEX11 =
 {
+"MRRegularGridMesh_8h.html#a972aa33f2723ecfd1a0f7b41ff77a113":[6,0,3,0,0,1,3,303,2],
+"MRRegularGridMesh_8h.html#ad9b59c053cfd08edb266ee3b8aa08ded":[6,0,3,0,0,1,3,303,4],
+"MRRegularGridMesh_8h_source.html":[6,0,3,0,0,1,3,303],
+"MRRegularMapMesher_8h.html":[6,0,3,0,0,1,3,304],
+"MRRegularMapMesher_8h_source.html":[6,0,3,0,0,1,3,304],
+"MRRelaxParams_8h.html":[6,0,3,0,0,1,3,305],
+"MRRelaxParams_8h.html#a6ab288ae813e1aa688312e31c258df71":[6,0,3,0,0,1,3,305,1],
 "MRRelaxParams_8h.html#a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf":[6,0,3,0,0,1,3,305,1,0],
 "MRRelaxParams_8h.html#a6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794":[6,0,3,0,0,1,3,305,1,1],
 "MRRelaxParams_8h.html#ab3c3135929071104083ade4ce59d105d":[6,0,3,0,0,1,3,305,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX11 =
 "MRSelectCurvaturePreference_8h_source.html":[6,0,3,0,0,1,9,94],
 "MRSelectObjectByClick_8h.html":[6,0,3,0,0,1,0,1,0],
 "MRSelectObjectByClick_8h_source.html":[6,0,3,0,0,1,0,1,0],
-"MRSelectScreenLasso_8h.html":[6,0,3,0,0,1,9,95],
-"MRSelectScreenLasso_8h.html#a29b6abcd794dd6dfbb8d197b6d944685":[6,0,3,0,0,1,9,95,3],
-"MRSelectScreenLasso_8h.html#a42e8e573c0aec9b5d59ac648be980eff":[6,0,3,0,0,1,9,95,1],
-"MRSelectScreenLasso_8h.html#a5296205b5f80eb5b87c334ab98121aff":[6,0,3,0,0,1,9,95,4],
-"MRSelectScreenLasso_8h.html#a576eea4c4f274e1c943476be2be2394e":[6,0,3,0,0,1,9,95,0],
-"MRSelectScreenLasso_8h.html#a7dbec46cb811f57b258ac04ea3fcf64a":[6,0,3,0,0,1,9,95,2],
-"MRSelectScreenLasso_8h_source.html":[6,0,3,0,0,1,9,95],
-"MRSeparationPoint_8h.html":[6,0,3,0,0,1,3,318]
+"MRSelectScreenLasso_8h.html":[6,0,3,0,0,1,9,95]
 };

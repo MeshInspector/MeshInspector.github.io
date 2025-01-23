@@ -1,5 +1,13 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1AngleMeasurementObject.html#a5b7cc6dca00a95f1c4888c7ce9949fc0":[6,0,2,0,1,43,8],
+"classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7":[6,0,1,0,1,59,10],
+"classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7":[6,0,2,0,1,43,10],
+"classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30":[6,0,1,0,1,59,21],
+"classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30":[6,0,2,0,1,43,21],
+"classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[6,0,1,0,1,59,15],
+"classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[6,0,2,0,1,43,15],
+"classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[6,0,1,0,1,59,1],
 "classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[6,0,2,0,1,43,1],
 "classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[6,0,1,0,1,59,9],
 "classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[6,0,2,0,1,43,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,1,72,2],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,1,89],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,1,73],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,89,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,1,73,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,89,1],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,73,1],
-"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,45],
-"classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,42],
-"classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,42,4],
-"classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,42,1],
-"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,42,3]
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,89,0]
 };

@@ -164,17 +164,18 @@ $(function(){initNavTree('group__SubvoxelMeshCorrection.html',''); initResizable
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MR::MoveMeshToVoxelMaxDerivSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT&lt; MeshType &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gadd963001b21876433757b659c99a0818" id="r_gadd963001b21876433757b659c99a0818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadd963001b21876433757b659c99a0818">MR::moveMeshToVoxelMaxDeriv</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshXf, const VdbVolume &amp;volume, const AffineXf3f &amp;volumeXf, const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;settings, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:gadd963001b21876433757b659c99a0818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa03e36604e9587df674801bac3a653f" id="r_gaaa03e36604e9587df674801bac3a653f"><td class="memTemplParams" colspan="2">template&lt;typename VolumeType  = VdbVolume&gt; </td></tr>
+<tr class="memitem:gaaa03e36604e9587df674801bac3a653f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaaa03e36604e9587df674801bac3a653f">MR::moveMeshToVoxelMaxDeriv</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshXf, const VolumeType &amp;volume, const AffineXf3f &amp;volumeXf, const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;settings, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:gaaa03e36604e9587df674801bac3a653f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Precise automatic mesh correction or/and smoothing based on reference voxel (volume) data. </p>
-<p>This group provides highlevel interface of the algorithm: <a class="el" href="#gadd963001b21876433757b659c99a0818">moveMeshToVoxelMaxDeriv</a> configurable through <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> and the low-level structure <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a> that allows creation of custom correction strategy.</p>
+<p>This group provides highlevel interface of the algorithm: <a class="el" href="#gaaa03e36604e9587df674801bac3a653f">moveMeshToVoxelMaxDeriv</a> configurable through <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> and the low-level structure <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a> that allows creation of custom correction strategy.</p>
 <h4><a class="anchor" id="description"></a>
 Description of the algorithm.</h4>
 <ol type="1">
@@ -212,11 +213,13 @@ Usage</h4>
 <li>To smooth a noisy mesh taking into account extra information from voxels. In this case, even if both mesh and voxels are noisy, the result is expected to be better than after a simple smoothing. For this use-case, you might need to increase the force of both preparation and intermidiate smoothings. </li>
 </ul>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gadd963001b21876433757b659c99a0818" name="gadd963001b21876433757b659c99a0818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadd963001b21876433757b659c99a0818">&#9670;&#160;</a></span>moveMeshToVoxelMaxDeriv()</h2>
+<a id="gaaa03e36604e9587df674801bac3a653f" name="gaaa03e36604e9587df674801bac3a653f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa03e36604e9587df674801bac3a653f">&#9670;&#160;</a></span>moveMeshToVoxelMaxDeriv()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename VolumeType  = VdbVolume&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt; MR::moveMeshToVoxelMaxDeriv </td>
@@ -231,7 +234,7 @@ Usage</h4>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+          <td class="paramtype">const VolumeType &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

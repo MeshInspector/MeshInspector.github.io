@@ -1,5 +1,13 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,1,73,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,89,1],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,73,1],
+"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,45],
+"classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,42],
+"classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,42,4],
+"classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,42,1],
+"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,42,3],
 "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,42,2],
 "classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,42,0],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,1,0,1,91],
@@ -241,13 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeVertsColorMapAction.html#abc9ca0e165f8954481449a98d979894a":[6,0,0,4,29,2],
 "classMR_1_1ChangeVertsColorMapAction.html#acbea3a354ac04c83aac4d24b63c108a7":[6,0,0,4,29,0],
 "classMR_1_1ChangeVertsColorMapAction.html#afab050a8026282cb3ade8eff783f95e4":[6,0,0,4,29,5],
-"classMR_1_1ChangeVisualizePropertyAction.html":[6,0,0,4,12],
-"classMR_1_1ChangeVisualizePropertyAction.html#a43ca44d5dd8461cb0a3a7bafb512a682":[6,0,0,4,12,2],
-"classMR_1_1ChangeVisualizePropertyAction.html#a577d817010b8c025c743ede618924232":[6,0,0,4,12,1],
-"classMR_1_1ChangeVisualizePropertyAction.html#a6aed09dd3eb8747f16d7d1b3f4c016ec":[6,0,0,4,12,3],
-"classMR_1_1ChangeVisualizePropertyAction.html#a82fbcde1a6b6a67ddd9f760b0c43cf87":[6,0,0,4,12,4],
-"classMR_1_1ChangeVisualizePropertyAction.html#ab47bdfa15ccc0341044bdf265413933d":[6,0,0,4,12,5],
-"classMR_1_1ChangeVisualizePropertyAction.html#addf5e30e5eb678a766bb9b02bbfd996b":[6,0,0,4,12,0],
-"classMR_1_1ChangeXfAction.html":[6,0,0,4,30],
-"classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc":[6,0,0,4,30,3]
+"classMR_1_1ChangeVisualizePropertyAction.html":[6,0,0,4,12]
 };

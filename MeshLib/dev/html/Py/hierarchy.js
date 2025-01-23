@@ -566,8 +566,12 @@ var hierarchy =
     [ "mrmeshpy.MeshMeshDistanceResult", "classmrmeshpy_1_1MeshMeshDistanceResult.html", null ],
     [ "mrmeshpy.MeshMeshSignedDistanceResult", "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html", null ],
     [ "mrmeshpy.MeshNormals", "classmrmeshpy_1_1MeshNormals.html", null ],
-    [ "mrmeshpy.MeshOnVoxelsT_const_Mesh", "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh.html", null ],
-    [ "mrmeshpy.MeshOnVoxelsT_Mesh", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh.html", null ],
+    [ "mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume", "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume.html", null ],
+    [ "mrmeshpy.MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax", "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html", null ],
+    [ "mrmeshpy.MeshOnVoxelsT_const_Mesh_VdbVolume", "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html", null ],
+    [ "mrmeshpy.MeshOnVoxelsT_Mesh_FunctionVolume", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html", null ],
+    [ "mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html", null ],
+    [ "mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume.html", null ],
     [ "mrmeshpy.MeshOrPoints", "classmrmeshpy_1_1MeshOrPoints.html", null ],
     [ "mrmeshpy.MeshOrPointsXf", "classmrmeshpy_1_1MeshOrPointsXf.html", null ],
     [ "mrmeshpy.MeshPart", "classmrmeshpy_1_1MeshPart.html", null ],
@@ -1287,7 +1291,13 @@ var hierarchy =
     [ "mrmeshpy.VoxelsVolume_std_shared_ptr_OpenVdbFloatGrid", "classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html", [
       [ "mrmeshpy.VdbVolume", "classmrmeshpy_1_1VdbVolume.html", null ]
     ] ],
+    [ "mrmeshpy.VoxelsVolumeAccessor_FunctionVolume", "classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html", null ],
+    [ "mrmeshpy.VoxelsVolumeAccessor_SimpleVolume", "classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume.html", [
+      [ "mrmeshpy.VoxelsVolumeAccessor_SimpleVolumeMinMax", "classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax.html", null ]
+    ] ],
     [ "mrmeshpy.VoxelsVolumeAccessor_VdbVolume", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html", null ],
+    [ "mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_FunctionVolume", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html", null ],
+    [ "mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_SimpleVolumeMinMax", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__SimpleVolumeMinMax.html", null ],
     [ "mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume.html", null ],
     [ "mrmeshpy.VoxelTraits_std_function_float_const_Vector3i", "classmrmeshpy_1_1VoxelTraits__std__function__float__const__Vector3i.html", null ],
     [ "mrmeshpy.VoxelTraits_std_function_unsigned_char_const_Vector3i", "classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html", null ],
