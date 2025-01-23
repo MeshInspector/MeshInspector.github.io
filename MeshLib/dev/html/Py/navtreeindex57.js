@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1PointAccumulator.html#a616751fc42b9e8a9a02c81fd3f4f1325":[6,1,1,0,1,606,9],
+"classmrmeshpy_1_1PointAccumulator.html#a810657628de8bccd91b42d53690d635a":[6,1,0,0,2,606,14],
 "classmrmeshpy_1_1PointAccumulator.html#a810657628de8bccd91b42d53690d635a":[6,1,1,0,1,606,14],
 "classmrmeshpy_1_1PointAccumulator.html#a822bb6a64e64c23fb36c6e8c15dc551b":[6,1,0,0,2,606,3],
 "classmrmeshpy_1_1PointAccumulator.html#a822bb6a64e64c23fb36c6e8c15dc551b":[6,1,1,0,1,606,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1PointToPointAligningTransform.html#af7ecc47ed4f45dbafcb3a97290fe5608":[6,1,1,0,1,625,7],
 "classmrmeshpy_1_1PointsLoad.html":[6,1,0,0,2,616],
 "classmrmeshpy_1_1PointsLoad.html":[6,1,1,0,1,616],
-"classmrmeshpy_1_1PointsLoadSettings.html":[6,1,0,0,2,617],
-"classmrmeshpy_1_1PointsLoadSettings.html":[6,1,1,0,1,617],
-"classmrmeshpy_1_1PointsLoadSettings.html#a1e661a7f23c82c66c970360e7516f58a":[6,1,0,0,2,617,0]
+"classmrmeshpy_1_1PointsLoadSettings.html":[6,1,0,0,2,617]
 };
