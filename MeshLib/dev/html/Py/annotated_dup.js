@@ -815,6 +815,7 @@ var annotated_dup =
       [ "std_vector_IOFilter", "classmrmeshpy_1_1std__vector__IOFilter.html", "classmrmeshpy_1_1std__vector__IOFilter" ],
       [ "std_vector_Line3Mesh_double", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html", "classmrmeshpy_1_1std__vector__Line3Mesh__double" ],
       [ "std_vector_Line3Mesh_float", "classmrmeshpy_1_1std__vector__Line3Mesh__float.html", "classmrmeshpy_1_1std__vector__Line3Mesh__float" ],
+      [ "std_vector_LineSegm_Vector3_float", "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html", "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" ],
       [ "std_vector_Mesh", "classmrmeshpy_1_1std__vector__Mesh.html", "classmrmeshpy_1_1std__vector__Mesh" ],
       [ "std_vector_Mesh_const", "classmrmeshpy_1_1std__vector__Mesh__const.html", "classmrmeshpy_1_1std__vector__Mesh__const" ],
       [ "std_vector_MeshBuilder_MeshPiece", "classmrmeshpy_1_1std__vector__MeshBuilder__MeshPiece.html", "classmrmeshpy_1_1std__vector__MeshBuilder__MeshPiece" ],

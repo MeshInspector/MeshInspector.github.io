@@ -3312,6 +3312,8 @@ Functions</h2></td></tr>
 <tr class="memitem:abe24a43ab0e3fdaaa85e85fbe6d70189" id="r_abe24a43ab0e3fdaaa85e85fbe6d70189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe24a43ab0e3fdaaa85e85fbe6d70189">hasAnyXYPlaneSection</a> (const MeshPart &amp;mp, float zLevel)</td></tr>
 <tr class="memdesc:abe24a43ab0e3fdaaa85e85fbe6d70189"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments  <br /></td></tr>
 <tr class="separator:abe24a43ab0e3fdaaa85e85fbe6d70189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d35e644e8eea08edfa18e754515093" id="r_a02d35e644e8eea08edfa18e754515093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; LineSegm3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02d35e644e8eea08edfa18e754515093">findTriangleSectionsByXYPlane</a> (const MeshPart &amp;mp, float zLevel, std::vector&lt; FaceId &gt; *faces=nullptr)</td></tr>
+<tr class="separator:a02d35e644e8eea08edfa18e754515093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fc738fcb74adad1003e324c209a09d3" id="r_a2fc738fcb74adad1003e324c209a09d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a92cbbca830da255a9350ce63a48f49c3">PlaneSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fc738fcb74adad1003e324c209a09d3">trackSection</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, const Vector3f &amp;<a class="el" href="#a24a027691feb30cad77ca6a162d05c58aef72c37be9d1b9e6e5bbd6ef09448abe">direction</a>, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>)</td></tr>
 <tr class="separator:a2fc738fcb74adad1003e324c209a09d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a3113decc3c8c023af5840508849cdf" id="r_a8a3113decc3c8c023af5840508849cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a92cbbca830da255a9350ce63a48f49c3">PlaneSection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a3113decc3c8c023af5840508849cdf">trackSection</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, const Vector3f &amp;planePoint, bool <a class="el" href="group__MathGroup.html#ga04b9e51953d898cf85e76c05d426366a">ccw</a>)</td></tr>
@@ -16108,6 +16110,48 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>returns a map where each valid vertex is mapped to the smallest valid vertex <a class="el" href="classMR_1_1Id.html">Id</a> located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself; given tree is used as is </p>
+
+</div>
+</div>
+<a id="a02d35e644e8eea08edfa18e754515093" name="a02d35e644e8eea08edfa18e754515093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d35e644e8eea08edfa18e754515093">&#9670;&#160;</a></span>findTriangleSectionsByXYPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; LineSegm3f &gt; MR::findTriangleSectionsByXYPlane </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>zLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; FaceId &gt; *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>finds all intersected triangles by the plane z=zLevel </p><dl class="section return"><dt>Returns</dt><dd>the section's line segment within each such triangle; </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">faces</td><td>optional output of the same size as return, where for each line segment one can find its triangle's id</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>this function does not build and use AABB currently, but it must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time </p>
 
 </div>
 </div>

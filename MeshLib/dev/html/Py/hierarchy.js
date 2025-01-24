@@ -979,6 +979,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_IOFilter", "classmrmeshpy_1_1std__vector__IOFilter.html", null ],
     [ "mrmeshpy.std_vector_Line3Mesh_double", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html", null ],
     [ "mrmeshpy.std_vector_Line3Mesh_float", "classmrmeshpy_1_1std__vector__Line3Mesh__float.html", null ],
+    [ "mrmeshpy.std_vector_LineSegm_Vector3_float", "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html", null ],
     [ "mrmeshpy.std_vector_Mesh", "classmrmeshpy_1_1std__vector__Mesh.html", null ],
     [ "mrmeshpy.std_vector_Mesh_const", "classmrmeshpy_1_1std__vector__Mesh__const.html", null ],
     [ "mrmeshpy.std_vector_MeshBuilder_MeshPiece", "classmrmeshpy_1_1std__vector__MeshBuilder__MeshPiece.html", null ],

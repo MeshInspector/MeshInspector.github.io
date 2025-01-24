@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRParallel_8h.html":[6,0,3,0,0,1,3,245],
 "MRParallel_8h_source.html":[6,0,3,0,0,1,3,245],
 "MRPartMapping_8h.html":[6,0,3,0,0,1,3,249],
 "MRPartMapping_8h_source.html":[6,0,3,0,0,1,3,249],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRRebuildMesh_8h.html":[6,0,3,0,0,1,10,21],
 "MRRebuildMesh_8h.html#ae3f5900ab5832382ad11410977098452":[6,0,3,0,0,1,10,21,1],
 "MRRebuildMesh_8h_source.html":[6,0,3,0,0,1,10,21],
-"MRRecentFilesStore_8h.html":[6,0,3,0,0,1,9,61],
-"MRRecentFilesStore_8h_source.html":[6,0,3,0,0,1,9,61]
+"MRRecentFilesStore_8h.html":[6,0,3,0,0,1,9,61]
 };
