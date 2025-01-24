@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387":[6,0,0,3,9,0],
 "classMR_1_1MarchingCubesByParts.html":[6,0,1,0,1,319],
 "classMR_1_1MarchingCubesByParts.html":[6,0,2,0,1,303],
 "classMR_1_1MarchingCubesByParts.html#a230e32235ef70e220ab12fbd32524395":[6,0,1,0,1,319,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1MeshTopology.html#a730ccabca6bf4811fd6b7a2a87bdce13":[6,0,0,7,1,104],
 "classMR_1_1MeshTopology.html#a73880a8984f9e6f9a3895c0502a128c7":[6,0,0,7,1,56],
 "classMR_1_1MeshTopology.html#a75ce403909333e95eca530fcf3d62e2b":[6,0,0,7,1,25],
-"classMR_1_1MeshTopology.html#a79fd3cd33fb58d779528540fa7403b7f":[6,0,0,7,1,93],
-"classMR_1_1MeshTopology.html#a7af4e8c6a329931e3b173942b78922e4":[6,0,0,7,1,44]
+"classMR_1_1MeshTopology.html#a79fd3cd33fb58d779528540fa7403b7f":[6,0,0,7,1,93]
 };

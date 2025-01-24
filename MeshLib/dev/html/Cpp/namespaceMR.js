@@ -1981,6 +1981,7 @@ var namespaceMR =
     [ "fromSceneMison", "namespaceMR.html#a0f19520a72fc0cffa2ca3fa219ecb489", null ],
     [ "fromVdb", "group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4", null ],
     [ "functionVolumeToSimpleVolume", "namespaceMR.html#a5b17a3df087eb45c2679db67da9c672f", null ],
+    [ "functionVolumeToVdbVolume", "namespaceMR.html#ac79aa48c96d4b6c3a46dde9e1234e3db", null ],
     [ "generalOffsetMesh", "namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050", null ],
     [ "get", "namespaceMR.html#a8c1f285288de8cd4487966109876601b", null ],
     [ "get", "group__BoxGroup.html#ga76c5563a8f378f26e9e7cd06542fc0bf", null ],

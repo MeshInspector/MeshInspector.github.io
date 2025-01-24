@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1XfBasedCache.html":[6,0,0,11,12],
 "classMR_1_1XfBasedCache.html#a3b3e82656a92381f41f435da52178562":[6,0,0,11,12,2],
 "classMR_1_1XfBasedCache.html#a4cb9593831740a31e6a6933644435799":[6,0,0,11,12,0],
 "classMR_1_1XfBasedCache.html#a6341f3c9b4f6ccb5bcf18cc28ccf5efc":[6,0,0,11,12,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a":[6,0,0,1,115],
 "group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb":[6,0,0,1,82],
 "group__AABBTreeGroup.html#ga64c37b9a7a04aa567390955a50891b57":[6,0,0,1,69],
-"group__AABBTreeGroup.html#ga6ec6b628f6388a76af3252fd27b93883":[6,0,0,1,36],
-"group__AABBTreeGroup.html#ga70230ded2f43f2eb597df4e2848a8b5e":[6,0,0,1,85]
+"group__AABBTreeGroup.html#ga6ec6b628f6388a76af3252fd27b93883":[6,0,0,1,36]
 };

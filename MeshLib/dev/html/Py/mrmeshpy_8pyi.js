@@ -1613,6 +1613,7 @@ var mrmeshpy_8pyi =
     [ "fromSceneMison", "mrmeshpy_8pyi.html#a45f43a6d0e151b580dfdaa93252394f5", null ],
     [ "fromSceneMison", "mrmeshpy_8pyi.html#a4b39bcaa5d78d3f8ae89867a10da76ec", null ],
     [ "functionVolumeToSimpleVolume", "mrmeshpy_8pyi.html#aed8f53f5028dac2b7e9a986230574032", null ],
+    [ "functionVolumeToVdbVolume", "mrmeshpy_8pyi.html#acba4c39ef1331766098a21d813532302", null ],
     [ "generalOffsetMesh", "mrmeshpy_8pyi.html#a5018de809f7208f9211ef8ad4fa47c78", null ],
     [ "getAligningXf", "mrmeshpy_8pyi.html#ae70533ee49e5cd25f914037df37ca6bd", null ],
     [ "getAllComponents", "mrmeshpy_8pyi.html#aa1deb2040cab687d24197ef3c9172cba", null ],

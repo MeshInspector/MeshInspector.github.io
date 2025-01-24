@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1Parabola.html#a35b32607bcb14a8f5c89da76ea131304":[6,0,2,0,1,425,2],
+"structMR_1_1Parabola.html#a45bf9f53f24483c850f914def539451e":[6,0,1,0,1,441,5],
 "structMR_1_1Parabola.html#a45bf9f53f24483c850f914def539451e":[6,0,2,0,1,425,5],
 "structMR_1_1Parabola.html#a87d6da7f3dba1aa3504784c26b407da3":[6,0,1,0,1,441,8],
 "structMR_1_1Parabola.html#a87d6da7f3dba1aa3504784c26b407da3":[6,0,2,0,1,425,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1PointPairs.html#ab99f3e132fe375fd87cd27dafb991537":[6,0,2,0,1,453,0],
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,1,0,1,469,1],
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,2,0,1,453,1],
-"structMR_1_1PointsLoadSettings.html":[6,0,1,0,1,470],
-"structMR_1_1PointsLoadSettings.html":[6,0,2,0,1,454],
-"structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[6,0,1,0,1,470,1]
+"structMR_1_1PointsLoadSettings.html":[6,0,1,0,1,470]
 };

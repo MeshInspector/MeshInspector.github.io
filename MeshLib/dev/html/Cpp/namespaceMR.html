@@ -5778,6 +5778,8 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a8c3054d7ec46286f79367b0f93ffddb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ad0e96439eebbb67a8dbd2aa0f3ca49" id="r_a4ad0e96439eebbb67a8dbd2aa0f3ca49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad0e96439eebbb67a8dbd2aa0f3ca49">simpleVolumeToVdbVolume</a> (const SimpleVolumeMinMax &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a4ad0e96439eebbb67a8dbd2aa0f3ca49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79aa48c96d4b6c3a46dde9e1234e3db" id="r_ac79aa48c96d4b6c3a46dde9e1234e3db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac79aa48c96d4b6c3a46dde9e1234e3db">functionVolumeToVdbVolume</a> (const FunctionVolume &amp;functoinVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ac79aa48c96d4b6c3a46dde9e1234e3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2303df423aaea1a91ce570293117d37" id="r_aa2303df423aaea1a91ce570293117d37"><td class="memTemplParams" colspan="2">template&lt;typename AccessorOrGrid &gt; </td></tr>
 <tr class="memitem:aa2303df423aaea1a91ce570293117d37"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa2303df423aaea1a91ce570293117d37">putSimpleVolumeInDenseGrid</a> (AccessorOrGrid &amp;gridAccessor, const Vector3i &amp;minCoord, const SimpleVolume &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:aa2303df423aaea1a91ce570293117d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy given <code>simpleVolume</code> into the <code>grid</code>, starting at <code>minCoord</code> Instantiated for AccessorOrGrid in { openvdb::FloatGrid::Accessor, FloatGrid, openvdb::FloatGrid }. The template is used to not include openvdb's mess into this header (forward declaring classes in openvdb is also non-trivial). When used with a Grid, multithreaded implementation of copying is used (so the function is not thread safe). When used with an Accessor, this function could be called from different threads on the same volume (provided that accessors are different, of course).  <br /></td></tr>
@@ -16569,6 +16571,27 @@ element fields:<br  />
 </div><div class="memdoc">
 
 <p>converts function volume into simple volume </p>
+
+</div>
+</div>
+<a id="ac79aa48c96d4b6c3a46dde9e1234e3db" name="ac79aa48c96d4b6c3a46dde9e1234e3db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac79aa48c96d4b6c3a46dde9e1234e3db">&#9670;&#160;</a></span>functionVolumeToVdbVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume MR::functionVolumeToVdbVolume </td>
+          <td>(</td>
+          <td class="paramtype">const FunctionVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>functoinVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

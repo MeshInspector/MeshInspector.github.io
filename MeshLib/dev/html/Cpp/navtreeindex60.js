@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMRMeshTriPoint.html":[6,0,2,0,39],
+"structMRMeshTriPoint.html#a54959a13027627d8dd832a55dd6ffe53":[6,0,2,0,39,0],
 "structMRMeshTriPoint.html#aaedb582c9f945501bf8d5f37d70cd46b":[6,0,2,0,39,1],
 "structMRMultipleEdge.html":[6,0,2,0,40],
 "structMRMultipleEdge.html#a69133b8cca2a96c744de2f022153b38b":[6,0,2,0,40,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15":[6,0,2,0,1,42,0],
 "structMR_1_1ArcInterpolationParams.html":[6,0,1,0,1,61],
 "structMR_1_1ArcInterpolationParams.html":[6,0,2,0,1,45],
-"structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea":[6,0,1,0,1,61,2],
-"structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea":[6,0,2,0,1,45,2],
-"structMR_1_1ArcInterpolationParams.html#a6f075ab660c32eec4c036340e2b88f1c":[6,0,1,0,1,61,1]
+"structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea":[6,0,1,0,1,61,2]
 };
