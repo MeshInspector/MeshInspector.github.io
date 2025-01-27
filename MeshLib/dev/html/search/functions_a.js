@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['join_0',['join',['.././Cpp/classMR_1_1RangeCounter.html#ad2fbbfb496bbf63f5db4608cd5c1ee61',1,'MR::RangeCounter::join()'],['.././Cpp/classMR_1_1RangeProcessor.html#a6a0210e315715506b9c1ccfa4ad468c4',1,'MR::RangeProcessor::join()'],['.././Cpp/classMR_1_1RangeProcessorSingle.html#aaf47bdf40d75c45e729131d8e83d105c',1,'MR::RangeProcessorSingle::join()']]],
-  ['joystickupdateconnected_1',['joystickUpdateConnected',['.././Cpp/classMR_1_1Viewer.html#a76cf67a7300f775b7852b4749e7da446',1,'MR::Viewer']]]
+  ['kayandmodfrommapkey_0',['kayAndModFromMapKey',['.././Cpp/classMR_1_1ShortcutManager.html#a0b68904b55fdbcdc64a244f69e50b481',1,'MR::ShortcutManager']]],
+  ['keydown_1',['keyDown',['.././Cpp/classMR_1_1Viewer.html#abfbfee4369c2e3f34fa8bbf6a45bbf40',1,'MR::Viewer']]],
+  ['keypressed_2',['keyPressed',['.././Cpp/classMR_1_1Viewer.html#af92279fc5e74c77e2acc4cad81ac4db5',1,'MR::Viewer']]],
+  ['keyrepeat_3',['keyRepeat',['.././Cpp/classMR_1_1Viewer.html#a18abf114bf07ccfd54aa99d51c2986f6',1,'MR::Viewer']]],
+  ['keytomouseandmod_4',['keyToMouseAndMod',['.././Cpp/classMR_1_1MouseController.html#a9d5e51eb18d1cd7551ba1f8385da113c',1,'MR::MouseController']]],
+  ['keyup_5',['keyUp',['.././Cpp/classMR_1_1Viewer.html#a01e1a7a3d56f5220649daa748f9d6449',1,'MR::Viewer']]]
 ];

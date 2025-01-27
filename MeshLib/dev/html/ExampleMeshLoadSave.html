@@ -206,20 +206,18 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ad195f5ec2ee9c71218df767dd47a38bd">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">    mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
 <div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
+<div class="line">    mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
 <div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
 <div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
-<div class="ttc" id="anamespacemrmeshpy_html_ab08d4251433e917732307d389594e285"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ad195f5ec2ee9c71218df767dd47a38bd"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ad195f5ec2ee9c71218df767dd47a38bd">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMeshLoad.h&gt;</span></div>

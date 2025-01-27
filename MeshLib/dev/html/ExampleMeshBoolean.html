@@ -203,27 +203,21 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># create first sphere with radius of 1 unit</span></div>
-<div class="line">sphere1 = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0840328424a66d0e72723a1b708ba360">mrmeshpy.makeUVSphere</a>(1.0, 64, 64)</div>
+<div class="line">sphere1 = mrmeshpy.makeUVSphere(1.0, 64, 64)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># create second sphere by cloning the first sphere and moving it in X direction</span></div>
-<div class="line">sphere2 = <a class="code hl_variableRef" href="./Py/namespacemrmeshpy.html#a8e026193a82cb44332b09df092ec1d0f">mrmeshpy.copyMesh</a>(sphere1)</div>
-<div class="line">xf = <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1AffineXf3f.html#a392637b13ddd2d3bf93e5afa17b9544a">mrmeshpy.AffineXf3f.translation</a>(<a class="code hl_classRef" href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy.Vector3f</a>(0.7, 0.0, 0.0))</div>
+<div class="line">sphere2 = mrmeshpy.copyMesh(sphere1)</div>
+<div class="line">xf = mrmeshpy.AffineXf3f.translation(mrmeshpy.Vector3f(0.7, 0.0, 0.0))</div>
 <div class="line">sphere2.transform(xf)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># perform boolean operation</span></div>
-<div class="line">result = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac7023054263eabf61d3061f4929c4d87">mrmeshpy.boolean</a>(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection)</div>
+<div class="line">result = mrmeshpy.boolean(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection)</div>
 <div class="line">result_mesh = result.mesh</div>
 <div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> result.valid():</div>
 <div class="line">    print(result.errorString)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># save result to STL file</span></div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy.saveMesh</a>(result_mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>)</div>
-<div class="ttc" id="aclassmrmeshpy_1_1AffineXf3f_html_a392637b13ddd2d3bf93e5afa17b9544a"><div class="ttname"><a href="./Py/classmrmeshpy_1_1AffineXf3f.html#a392637b13ddd2d3bf93e5afa17b9544a">mrmeshpy::AffineXf3f::translation</a></div><div class="ttdeci">AffineXf3f translation(Vector3f b)</div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy::Vector3f</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a0840328424a66d0e72723a1b708ba360"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0840328424a66d0e72723a1b708ba360">mrmeshpy::makeUVSphere</a></div><div class="ttdeci">Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a8e026193a82cb44332b09df092ec1d0f"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a8e026193a82cb44332b09df092ec1d0f">mrmeshpy::copyMesh</a></div><div class="ttdeci">copyMesh</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ab08d4251433e917732307d389594e285"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac7023054263eabf61d3061f4929c4d87"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac7023054263eabf61d3061f4929c4d87">mrmeshpy::boolean</a></div><div class="ttdeci">BooleanResult boolean(Mesh meshA, Mesh meshB, BooleanOperation operation, AffineXf3f rigidB2A, BooleanResultMapper mapper=None, func_bool_from_float cb='{}')</div></div>
+<div class="line">mrmeshpy.saveMesh(result_mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>)</div>
 </div><!-- fragment --> Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>
 </div>
