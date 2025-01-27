@@ -212,16 +212,19 @@ $(function(){initNavTree('ExampleMeshFromText.html',''); initResizable(true); })
 <div class="line">font_path = sys.argv[1]</div>
 <div class="line">text = sys.argv[2]</div>
 <div class="line"> </div>
-<div class="line">params = mrmeshpy.SymbolMeshParams()</div>
+<div class="line">params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1SymbolMeshParams.html">mrmeshpy.SymbolMeshParams</a>()</div>
 <div class="line">params.text = text</div>
 <div class="line">params.pathToFontFile = font_path</div>
 <div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    conv_res = mrmeshpy.createSymbolsMesh(params)</div>
+<div class="line">    conv_res = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ad59b2a98d03fe6c2c4b7adbd6900aeee">mrmeshpy.createSymbolsMesh</a>(params)</div>
 <div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
 <div class="line">    print(f<span class="stringliteral">&quot;Failed to convert text to mesh: {e}&quot;</span>, file=sys.stderr)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
-<div class="line">mrmeshpy.saveMesh(conv_res, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
+<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy.saveMesh</a>(conv_res, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
+<div class="ttc" id="aclassmrmeshpy_1_1SymbolMeshParams_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1SymbolMeshParams.html">mrmeshpy::SymbolMeshParams</a></div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ab08d4251433e917732307d389594e285"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ad59b2a98d03fe6c2c4b7adbd6900aeee"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ad59b2a98d03fe6c2c4b7adbd6900aeee">mrmeshpy::createSymbolsMesh</a></div><div class="ttdeci">Mesh createSymbolsMesh(SymbolMeshParams params)</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
