@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a8f3dc7c12f4279c0be5c4b7e6da46d3b":[6,1,1,0,1,702,0,5],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a":[6,1,0,0,2,702,0,1],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a":[6,1,1,0,1,702,0,1],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ad9b7b2f93aeb6aa1a14b872e7142317b":[6,1,0,0,2,702,0,11],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ad9b7b2f93aeb6aa1a14b872e7142317b":[6,1,1,0,1,702,0,11],
@@ -65,6 +63,8 @@ var NAVTREEINDEX67 =
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a9381e6f8a188411ddd4cf3ee71733507":[6,1,1,0,1,703,0,5],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ac2b5c1c13779b65ee5ab21da8c077f1a":[6,1,0,0,2,703,0,2],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ac2b5c1c13779b65ee5ab21da8c077f1a":[6,1,1,0,1,703,0,2],
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ad394688d9dc8401c797528d6633ec3b4":[6,1,0,0,2,703,0,6],
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ad394688d9dc8401c797528d6633ec3b4":[6,1,1,0,1,703,0,6],
 "classmrmeshpy_1_1SetBitIterator.html":[6,1,0,0,2,704],
 "classmrmeshpy_1_1SetBitIterator.html":[6,1,1,0,1,704],
 "classmrmeshpy_1_1SetBitIterator.html#a14ed4e791474cf28e9719a9f78abebb1":[6,1,0,0,2,704,3],

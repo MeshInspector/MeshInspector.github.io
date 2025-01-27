@@ -35,6 +35,7 @@ var classMR_1_1RibbonMenu =
     [ "getFontManager", "classMR_1_1RibbonMenu.html#aafbb9fbb81efc86a0331f89e181268cb", null ],
     [ "getLayoutMode", "classMR_1_1RibbonMenu.html#a20be6c6447ebc633030add6ed89391ae", null ],
     [ "getMenuFontPath", "classMR_1_1RibbonMenu.html#ac60708d073d431fe51934044e473b07c", null ],
+    [ "getRequirements_", "classMR_1_1RibbonMenu.html#a3f2b825159346f39db3cde812e624bfb", null ],
     [ "getRibbonButtonDrawer", "classMR_1_1RibbonMenu.html#ae0840c947fea974de909fbaee8e7829e", null ],
     [ "getRibbonNotifier", "classMR_1_1RibbonMenu.html#ab0cfd87f2c0b8073dbdd093be4e7eb2f", null ],
     [ "getSceneSize", "classMR_1_1RibbonMenu.html#a5904f7f7bd80695bec495d8079cd9e42", null ],

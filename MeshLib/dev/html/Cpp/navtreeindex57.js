@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR.html#af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55":[6,0,1,0,1,994,2],
+"namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5":[6,0,1,0,1,956],
 "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a3ea45d8602a5aa192465cbbc8980376c":[6,0,1,0,1,956,1],
 "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989":[6,0,1,0,1,956,2],
 "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22":[6,0,1,0,1,956,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868":[6,0,1,0,1,26,3],
 "namespaceMR_1_1PointsLoad.html#ad0030f09e2896b2052ba028b90a6fbb7":[6,0,1,0,1,26,8],
 "namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261":[6,0,1,0,1,26,21],
-"namespaceMR_1_1PointsLoad.html#ae4cbf7590e7b73675bbbdaa9fb468ac2":[6,0,1,0,1,26,14],
-"namespaceMR_1_1PointsSave.html":[6,0,1,0,1,27],
-"namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[6,0,1,0,1,27,3]
+"namespaceMR_1_1PointsLoad.html#ae4cbf7590e7b73675bbbdaa9fb468ac2":[6,0,1,0,1,26,14]
 };

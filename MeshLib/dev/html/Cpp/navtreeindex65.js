@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[6,0,1,0,1,6,0,0,12],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[6,0,2,0,1,2,0,0,12],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f96764db5c4750b318539f5c7ccf9b3":[6,0,1,0,1,6,0,0,4],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f96764db5c4750b318539f5c7ccf9b3":[6,0,2,0,1,2,0,0,4],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aa12508a43caab5ab1a44e29db684592d":[6,0,1,0,1,6,0,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1GCommand.html#a3f8b88883ebac5b476b7a042edd30d65":[6,0,1,0,1,241,4],
 "structMR_1_1GCommand.html#a3f8b88883ebac5b476b7a042edd30d65":[6,0,2,0,1,225,4],
 "structMR_1_1GCommand.html#a46bdc412f995f806c9a1cbb17969eb3a":[6,0,1,0,1,241,1],
-"structMR_1_1GCommand.html#a46bdc412f995f806c9a1cbb17969eb3a":[6,0,2,0,1,225,1],
-"structMR_1_1GCommand.html#aaf3da1692be265b849e66df425724a1b":[6,0,1,0,1,241,3],
-"structMR_1_1GCommand.html#aaf3da1692be265b849e66df425724a1b":[6,0,2,0,1,225,3]
+"structMR_1_1GCommand.html#a46bdc412f995f806c9a1cbb17969eb3a":[6,0,2,0,1,225,1]
 };
