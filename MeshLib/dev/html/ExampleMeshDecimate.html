@@ -210,7 +210,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
-<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ad195f5ec2ee9c71218df767dd47a38bd">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Repack mesh optimally.</span></div>
 <div class="line"><span class="comment"># It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
@@ -231,11 +231,11 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#aba479cc39cd960dea946a7bfc6d1e937">mrmeshpy.decimateMesh</a>(mesh, settings)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;decimatedMesh.stl&quot;</span>)</div>
+<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;decimatedMesh.stl&quot;</span>)</div>
 <div class="ttc" id="aclassmrmeshpy_1_1DecimateSettings_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1DecimateSettings.html">mrmeshpy::DecimateSettings</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ab08d4251433e917732307d389594e285"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ab08d4251433e917732307d389594e285">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike file, SaveSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_aba479cc39cd960dea946a7bfc6d1e937"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#aba479cc39cd960dea946a7bfc6d1e937">mrmeshpy::decimateMesh</a></div><div class="ttdeci">DecimateResult decimateMesh(Mesh mesh, DecimateSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ad195f5ec2ee9c71218df767dd47a38bd"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ad195f5ec2ee9c71218df767dd47a38bd">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike file, MeshLoadSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>
