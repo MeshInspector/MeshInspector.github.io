@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classmrmeshpy_1_1DistanceMeasurementObject.html#a50b672a65be7b7e345e75ffb1f89d17f":[6,1,0,0,2,185,7],
 "classmrmeshpy_1_1DistanceMeasurementObject.html#a50b672a65be7b7e345e75ffb1f89d17f":[6,1,1,0,1,185,7],
 "classmrmeshpy_1_1DistanceMeasurementObject.html#a56f7120998dc20890df731271b7b1405":[6,1,0,0,2,185,11],
 "classmrmeshpy_1_1DistanceMeasurementObject.html#a56f7120998dc20890df731271b7b1405":[6,1,1,0,1,185,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "classmrmeshpy_1_1EdgeBitSet.html#a5f63f54ecc97f59334a8ba716367a5d2":[6,1,0,0,2,191,8],
 "classmrmeshpy_1_1EdgeBitSet.html#a5f63f54ecc97f59334a8ba716367a5d2":[6,1,1,0,1,191,8],
 "classmrmeshpy_1_1EdgeBitSet.html#a60bf5be328d1ed2598887c4d538172a5":[6,1,0,0,2,191,19],
-"classmrmeshpy_1_1EdgeBitSet.html#a60bf5be328d1ed2598887c4d538172a5":[6,1,1,0,1,191,19]
+"classmrmeshpy_1_1EdgeBitSet.html#a60bf5be328d1ed2598887c4d538172a5":[6,1,1,0,1,191,19],
+"classmrmeshpy_1_1EdgeBitSet.html#a7a43427d1a3c8b9eaf2438c556daa0a0":[6,1,0,0,2,191,24]
 };

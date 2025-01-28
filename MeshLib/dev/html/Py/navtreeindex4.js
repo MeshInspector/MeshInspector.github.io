@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#ad1a8d30b678b0bee5abc42e1dd9389ad":[6,1,0,0,2,36,0,9],
 "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#ad1a8d30b678b0bee5abc42e1dd9389ad":[6,1,1,0,1,36,0,9],
 "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#ae44661ed1cf35e52fb166ccf5d5ace14":[6,1,0,0,2,36,0,10],
 "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#ae44661ed1cf35e52fb166ccf5d5ace14":[6,1,1,0,1,36,0,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BooleanOperation.html#a5a4359788b6aeec2d5787e2a1a96ca1c":[6,1,0,0,2,56,4],
 "classmrmeshpy_1_1BooleanOperation.html#a5a4359788b6aeec2d5787e2a1a96ca1c":[6,1,1,0,1,56,4],
 "classmrmeshpy_1_1BooleanOperation.html#a71b144dff505ace8d35f8670a2ebdedb":[6,1,0,0,2,56,7],
-"classmrmeshpy_1_1BooleanOperation.html#a71b144dff505ace8d35f8670a2ebdedb":[6,1,1,0,1,56,7]
+"classmrmeshpy_1_1BooleanOperation.html#a71b144dff505ace8d35f8670a2ebdedb":[6,1,1,0,1,56,7],
+"classmrmeshpy_1_1BooleanOperation.html#ab4f91de91aeeed6957b076bc637d8f3d":[6,1,0,0,2,56,8]
 };

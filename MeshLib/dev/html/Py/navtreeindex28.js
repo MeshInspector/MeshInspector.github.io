@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab58810988e3f4b77ac12a2a15a6015b6":[6,1,0,0,2,240,1,10],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab58810988e3f4b77ac12a2a15a6015b6":[6,1,1,0,1,240,1,10],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac40d07c7cb4de250c6052a49d2c48e86":[6,1,0,0,2,240,1,9],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac40d07c7cb4de250c6052a49d2c48e86":[6,1,1,0,1,240,1,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1GeodesicPathApprox.html#a4ab1cd6e031be7ab2473c6824d659d98":[6,1,0,0,2,329,3],
 "classmrmeshpy_1_1GeodesicPathApprox.html#a4ab1cd6e031be7ab2473c6824d659d98":[6,1,1,0,1,329,3],
 "classmrmeshpy_1_1GeodesicPathApprox.html#a5e083c1b3a900b52b0600b2ff26bb870":[6,1,0,0,2,329,9],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a5e083c1b3a900b52b0600b2ff26bb870":[6,1,1,0,1,329,9]
+"classmrmeshpy_1_1GeodesicPathApprox.html#a5e083c1b3a900b52b0600b2ff26bb870":[6,1,1,0,1,329,9],
+"classmrmeshpy_1_1GeodesicPathApprox.html#a6ec46e36b4058ccc479252cfc358ac3a":[6,1,0,0,2,329,7]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classmrmeshpy_1_1ArcPlane.html":[6,1,0,0,2,31],
 "classmrmeshpy_1_1ArcPlane.html":[6,1,1,0,1,31],
 "classmrmeshpy_1_1ArcPlane.html#a175869f091aba7d5531d57f9d0375178":[6,1,0,0,2,31,2],
 "classmrmeshpy_1_1ArcPlane.html#a175869f091aba7d5531d57f9d0375178":[6,1,1,0,1,31,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#a9ac1e3dfe83f16d7f2dc9596e8a17a65":[6,1,0,0,2,36,0,5],
 "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#a9ac1e3dfe83f16d7f2dc9596e8a17a65":[6,1,1,0,1,36,0,5],
 "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#aad567fc9dc8d2e298744c3dbe9a0ebd0":[6,1,0,0,2,36,0,2],
-"classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#aad567fc9dc8d2e298744c3dbe9a0ebd0":[6,1,1,0,1,36,0,2]
+"classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#aad567fc9dc8d2e298744c3dbe9a0ebd0":[6,1,1,0,1,36,0,2],
+"classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html#ad1a8d30b678b0bee5abc42e1dd9389ad":[6,1,0,0,2,36,0,9]
 };

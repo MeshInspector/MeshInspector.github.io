@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classmrmeshpy_1_1ICPProperties.html#a9c3112eeccd696627b3637b08ea82f48":[6,1,0,0,2,349,21],
 "classmrmeshpy_1_1ICPProperties.html#a9c3112eeccd696627b3637b08ea82f48":[6,1,1,0,1,349,21],
 "classmrmeshpy_1_1ICPProperties.html#aa08b11a2814051e05ebfb82d52fea489":[6,1,0,0,2,349,13],
 "classmrmeshpy_1_1ICPProperties.html#aa08b11a2814051e05ebfb82d52fea489":[6,1,1,0,1,349,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a471a6e493245c2e394412e61d2859e5f":[6,1,0,0,2,358,9],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a471a6e493245c2e394412e61d2859e5f":[6,1,1,0,1,358,9],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a4cf91221062c5888f8d154fd47a1ce41":[6,1,0,0,2,358,8],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#a4cf91221062c5888f8d154fd47a1ce41":[6,1,1,0,1,358,8]
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a4cf91221062c5888f8d154fd47a1ce41":[6,1,1,0,1,358,8],
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a6e12c40bebcafea335a27911279b4fc6":[6,1,0,0,2,358,10]
 };

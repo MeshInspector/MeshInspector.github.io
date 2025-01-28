@@ -2,7 +2,7 @@ var NAVTREEINDEX0 =
 {
 "../APIPage.html":[6],
 "../BasedApplication.html":[4,0,0],
-"../DataModel.html":[5,2],
+"../DataModel.html":[5,1],
 "../ExampleFreeForm.html":[4,0,13],
 "../ExampleGlobalRegistration.html":[4,0,10],
 "../ExampleLaplacian.html":[4,0,14],
@@ -22,14 +22,13 @@ var NAVTREEINDEX0 =
 "../ExampleNumpy.html":[4,1,2],
 "../ExampleNumpyTriangulation.html":[4,1,3],
 "../ExamplePlotly.html":[4,1,1],
-"../ExamplePluginOverview.html":[5,1],
+"../ExamplePluginOverview.html":[5,0],
 "../ExampleTriangulation.html":[4,0,16],
 "../ExampleViewer.html":[4,1,0],
 "../Examples.html":[4],
 "../Examples.html#GeneralExamples":[4,0],
 "../Examples.html#PythonSpecificExamples":[4,1],
 "../FirstPluginTutorial.html":[3,0],
-"../FloatVSDouble.html":[5,0],
 "../InstallationGuide.html":[1],
 "../License.html":[2],
 "../MeshLibCSharpSetupGuide.html":[1,2],
@@ -38,8 +37,8 @@ var NAVTREEINDEX0 =
 "../MeshLibPythonSetupGuide.html":[1,0],
 "../PackageOverview.html":[5],
 "../Py/APIPyPage.html":[6,1],
-"../SpacesHelp.html":[5,3],
-"../StatePluginsHelp.html":[5,4],
+"../SpacesHelp.html":[5,2],
+"../StatePluginsHelp.html":[5,3],
 "../ThirdParty.html":[7],
 "../Tutorials.html":[3],
 "../index.html":[0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "MRCanonicalTypedefs_8h.html#a2903a0e2c131ffaa26858a7eb32ab7a8":[6,0,3,0,0,1,3,32,2],
 "MRCanonicalTypedefs_8h.html#a3ef3f2296c0ae0d60a92c9adbf443c9b":[6,0,3,0,0,1,3,32,1],
 "MRCanonicalTypedefs_8h.html#abbdf37435c9fc8f0138b1bd0133c1d17":[6,0,3,0,0,1,3,32,5],
-"MRCanonicalTypedefs_8h.html#addc4eaad729e291000785733b3c6fca4":[6,0,3,0,0,1,3,32,4]
+"MRCanonicalTypedefs_8h.html#addc4eaad729e291000785733b3c6fca4":[6,0,3,0,0,1,3,32,4],
+"MRCanonicalTypedefs_8h.html#ae44070646e8a5e9428e0719d800a30df":[6,0,3,0,0,1,3,32,3]
 };
