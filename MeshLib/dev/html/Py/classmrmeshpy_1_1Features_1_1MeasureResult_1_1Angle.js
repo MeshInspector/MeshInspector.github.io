@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle =
 [
     [ "__init__", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#ab419114bbda7bb5fb89bcc9b8d731240", null ],
     [ "__init__", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#af3a5fe37f8babe3c2a4074a60f7f3ceb", null ],
-    [ "__repr__", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#ad757abd712d3b60bbadca720e25f2e71", null ],
     [ "computeAngleInRadians", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#ad1d5a91a137e8e4b46918df9847381cb", null ],
     [ "dirA", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#a5c4fbdc45f55588080323a6180240ab2", null ],
     [ "dirA", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#a7ca194ed4ad30325ed6a07dc268e35f8", null ],

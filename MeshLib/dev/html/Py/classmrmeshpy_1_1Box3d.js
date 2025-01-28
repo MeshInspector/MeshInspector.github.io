@@ -6,7 +6,6 @@ var classmrmeshpy_1_1Box3d =
     [ "__init__", "classmrmeshpy_1_1Box3d.html#a18299eb0262e6ec06dbcfe34e61abf01", null ],
     [ "__eq__", "classmrmeshpy_1_1Box3d.html#a670fd15970593e0e518559952e3f5aff", null ],
     [ "__ne__", "classmrmeshpy_1_1Box3d.html#a1c1cb5a1261e01b13bb0e15c6fc9913a", null ],
-    [ "__repr__", "classmrmeshpy_1_1Box3d.html#a726b4d5ff811d35aedb6d05456cb025a", null ],
     [ "_Subscript", "classmrmeshpy_1_1Box3d.html#a7037af0a85a5d0d9a81fbcf6f516bbb0", null ],
     [ "_Subscript", "classmrmeshpy_1_1Box3d.html#a7037af0a85a5d0d9a81fbcf6f516bbb0", null ],
     [ "center", "classmrmeshpy_1_1Box3d.html#adaab6084748bd617f206d7f65dd63301", null ],

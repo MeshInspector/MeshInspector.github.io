@@ -7,7 +7,6 @@ var classmrmeshpy_1_1AffineXf3d =
     [ "__eq__", "classmrmeshpy_1_1AffineXf3d.html#ae42b81b3e1968262e8d8d1202c39873b", null ],
     [ "__mul__", "classmrmeshpy_1_1AffineXf3d.html#a2bbe5943006ac51a74a803edd4c001a0", null ],
     [ "__ne__", "classmrmeshpy_1_1AffineXf3d.html#ae3dec4598d5738fb4581804f98afeb82", null ],
-    [ "__repr__", "classmrmeshpy_1_1AffineXf3d.html#a82acc70268928017914c197a685923f2", null ],
     [ "inverse", "classmrmeshpy_1_1AffineXf3d.html#a4336bc15bbfb3aab662581b5862cc84e", null ],
     [ "linearOnly", "classmrmeshpy_1_1AffineXf3d.html#a5f41b7726a364dfd9e655a5e3154202a", null ]
 ];

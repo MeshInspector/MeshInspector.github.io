@@ -65,6 +65,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Package Overview", "PackageOverview.html", [
+      [ "Float vs Double", "FloatVSDouble.html", null ],
       [ "How to use С++ Example Plugin", "ExamplePluginOverview.html", null ],
       [ "Data Model Class Hierarchy", "DataModel.html", null ],
       [ "Spaces and Transformations", "SpacesHelp.html", null ],

@@ -10,7 +10,6 @@ var classmrmeshpy_1_1Matrix3f =
     [ "__isub__", "classmrmeshpy_1_1Matrix3f.html#a7149e975979b70ffe7f0f35c7e07608c", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Matrix3f.html#aead055a5d7ba14a5dc832ed7254cf40b", null ],
     [ "__mul__", "classmrmeshpy_1_1Matrix3f.html#a81576e3425b220154ce9450d185e8892", null ],
-    [ "__repr__", "classmrmeshpy_1_1Matrix3f.html#a7925a098a204308a1bb0df3ac7e6bc34", null ],
     [ "_Subscript", "classmrmeshpy_1_1Matrix3f.html#af82d40ce8b892ac0b719729d7b3fbec2", null ],
     [ "_Subscript", "classmrmeshpy_1_1Matrix3f.html#af82d40ce8b892ac0b719729d7b3fbec2", null ],
     [ "col", "classmrmeshpy_1_1Matrix3f.html#a094595d46bfebda5a65e180a7b6d4851", null ],

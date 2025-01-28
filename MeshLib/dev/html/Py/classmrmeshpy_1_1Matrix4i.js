@@ -10,7 +10,6 @@ var classmrmeshpy_1_1Matrix4i =
     [ "__imatmul__", "classmrmeshpy_1_1Matrix4i.html#a8e42734d9c97dc904d5a2613f4a1a8fa", null ],
     [ "__isub__", "classmrmeshpy_1_1Matrix4i.html#ad50ef4ecd4faee96566b50b0095cbc9f", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Matrix4i.html#a8fd2a6d89a003ab8c19ebe6c1efb2d1c", null ],
-    [ "__repr__", "classmrmeshpy_1_1Matrix4i.html#a7ae1b3dba8ff20f6ce931fdf040b30b4", null ],
     [ "_Subscript", "classmrmeshpy_1_1Matrix4i.html#a497efaa4b919af9e352b943c32dcf8d6", null ],
     [ "_Subscript", "classmrmeshpy_1_1Matrix4i.html#a497efaa4b919af9e352b943c32dcf8d6", null ],
     [ "col", "classmrmeshpy_1_1Matrix4i.html#ab98f4111eadd31143541f4122164e10e", null ],

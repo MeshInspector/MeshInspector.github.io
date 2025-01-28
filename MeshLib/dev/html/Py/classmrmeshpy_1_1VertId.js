@@ -10,7 +10,6 @@ var classmrmeshpy_1_1VertId =
     [ "__iadd__", "classmrmeshpy_1_1VertId.html#a2adc9ea3ac695cb8fa03188ed82ae4bd", null ],
     [ "__isub__", "classmrmeshpy_1_1VertId.html#a918adb1fc7f1fd7a3535c7ad0a19d77a", null ],
     [ "__ne__", "classmrmeshpy_1_1VertId.html#a99be56b76213cf134eac8fe31ff795b4", null ],
-    [ "__repr__", "classmrmeshpy_1_1VertId.html#ad1518ed7967dde07a6541c48f1de90f5", null ],
     [ "_convert_to_int", "classmrmeshpy_1_1VertId.html#a1ae5fcf693bfbd237bb6c2d929bdfe95", null ],
     [ "_Less", "classmrmeshpy_1_1VertId.html#a5be4f4a0fc0f8d39d790897a0ee6ece4", null ],
     [ "_MinusMinus", "classmrmeshpy_1_1VertId.html#a5bf24d91b40f69dec81fad3057cf9e7a", null ],
