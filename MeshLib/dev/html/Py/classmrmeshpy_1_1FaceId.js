@@ -10,6 +10,7 @@ var classmrmeshpy_1_1FaceId =
     [ "__iadd__", "classmrmeshpy_1_1FaceId.html#a9c8f76fe8b6a40dc3600994569e4d613", null ],
     [ "__isub__", "classmrmeshpy_1_1FaceId.html#a44127bb079db4bd53053853675a12128", null ],
     [ "__ne__", "classmrmeshpy_1_1FaceId.html#aa9f28f8d21e2e82adcc9d9586f17adde", null ],
+    [ "__repr__", "classmrmeshpy_1_1FaceId.html#ad209c44627907126a1169cf6cfa0ad9c", null ],
     [ "_convert_to_int", "classmrmeshpy_1_1FaceId.html#a78f8d39d8efcbfbc01a490e562ea4c92", null ],
     [ "_Less", "classmrmeshpy_1_1FaceId.html#a9f1cbdfeec6b02cebeae1727c2e09dc8", null ],
     [ "_MinusMinus", "classmrmeshpy_1_1FaceId.html#a26b06df9dc2fde992097227415684b22", null ],

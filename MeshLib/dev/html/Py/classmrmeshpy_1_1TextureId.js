@@ -10,6 +10,7 @@ var classmrmeshpy_1_1TextureId =
     [ "__iadd__", "classmrmeshpy_1_1TextureId.html#af8825f0770b6548db08b43ae71ad7753", null ],
     [ "__isub__", "classmrmeshpy_1_1TextureId.html#acf6480c3306dae5e984b7249edaaf771", null ],
     [ "__ne__", "classmrmeshpy_1_1TextureId.html#adcd6228e180d3186d585ac84d2e1aaa4", null ],
+    [ "__repr__", "classmrmeshpy_1_1TextureId.html#a742bec2a82c0276eb50546cf48d74c37", null ],
     [ "_convert_to_int", "classmrmeshpy_1_1TextureId.html#a30e9dbd849e461664d7fa3dbcc01dfaf", null ],
     [ "_Less", "classmrmeshpy_1_1TextureId.html#a952183ddd6008eff682efcb8b491fa05", null ],
     [ "_MinusMinus", "classmrmeshpy_1_1TextureId.html#afa45835db4ab4e37304ff0f940d1df99", null ],

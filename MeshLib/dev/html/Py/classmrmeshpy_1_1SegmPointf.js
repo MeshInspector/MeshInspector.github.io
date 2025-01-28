@@ -5,6 +5,7 @@ var classmrmeshpy_1_1SegmPointf =
     [ "__init__", "classmrmeshpy_1_1SegmPointf.html#a179c2886318364cb081025ac22cfb842", null ],
     [ "__eq__", "classmrmeshpy_1_1SegmPointf.html#a589974ea8c5ba9073624a4bf18dac6ca", null ],
     [ "__eq__", "classmrmeshpy_1_1SegmPointf.html#a961d6d6f5a92d04493c36cdbc375af7c", null ],
+    [ "__repr__", "classmrmeshpy_1_1SegmPointf.html#a35a0ccff517596be0b0b8ef8eee4a5ec", null ],
     [ "_convert_to_float", "classmrmeshpy_1_1SegmPointf.html#aa5c3780cf1e385167a34e82cc762ad89", null ],
     [ "_convert_to_float", "classmrmeshpy_1_1SegmPointf.html#aa5c3780cf1e385167a34e82cc762ad89", null ],
     [ "a", "classmrmeshpy_1_1SegmPointf.html#a30e310e5cc5e12d486efc8f75192d18b", null ],
