@@ -1456,7 +1456,7 @@ var mrmeshpy_8pyi =
     [ "eliminateDoubleTrisAround", "mrmeshpy_8pyi.html#ad50670ba63f9867b2f54bdefdeb069b6", null ],
     [ "embedStructureToTerrain", "mrmeshpy_8pyi.html#a10ef0174b6d41a12e0f624a50f28f4c8", null ],
     [ "encode64", "mrmeshpy_8pyi.html#ad1d8ba93fb50f6d9d5b9c89affa66138", null ],
-    [ "end", "mrmeshpy_8pyi.html#ad2dabc0b6caa86d6f8b767a776130c8b", null ],
+    [ "end", "mrmeshpy_8pyi.html#a0906f9e3d3a1884b3bc2d765c08c8761", null ],
     [ "end", "mrmeshpy_8pyi.html#a535ebd3ea136c4fea9bd36ce5c75cb0e", null ],
     [ "equalizeTriAreas", "mrmeshpy_8pyi.html#ac8d806d619617b8b4e44fd0fdc037f59", null ],
     [ "erodeRegion", "mrmeshpy_8pyi.html#a399cf39f81908f7714d8a517b2af340f", null ],
