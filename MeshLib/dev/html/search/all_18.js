@@ -388,7 +388,7 @@ var searchData=
   ['viewer_385',['Viewer',['.././Cpp/classMR_1_1Viewer.html',1,'MR::Viewer'],['.././Py/classmrviewerpy_1_1Viewer.html',1,'mrviewerpy::Viewer']]],
   ['viewer_386',['viewer',['.././Cpp/classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae',1,'MR::ViewerPlugin']]],
   ['viewer_20example_387',['Viewer Example',['../ExampleViewer.html',1,'']]],
-  ['viewer_20with_20meshlib_388',['Example: Using the Viewer with MeshLib',['../MeshLibPythonSetupGuide.html#autotoc_md59',1,'']]],
+  ['viewer_20with_20meshlib_388',['Example: Using the Viewer with MeshLib',['../MeshLibPythonSetupGuide.html#autotoc_md72',1,'']]],
   ['viewereventcallback_389',['ViewerEventCallback',['.././Cpp/namespaceMR.html#af677bfbbed9f6c283d0a3101b5e91aea',1,'MR']]],
   ['viewereventqueue_390',['ViewerEventQueue',['.././Cpp/classMR_1_1ViewerEventQueue.html',1,'MR']]],
   ['viewerexample_2edox_391',['ViewerExample.dox',['../ViewerExample_8dox.html',1,'']]],
@@ -531,5 +531,8 @@ var searchData=
   ['voxeltraits_5fstd_5fvector_5ffloat_528',['VoxelTraits_std_vector_float',['.././Py/classmrmeshpy_1_1VoxelTraits__std__vector__float.html',1,'mrmeshpy']]],
   ['voxeltraits_5fstd_5fvector_5funsigned_5fshort_529',['VoxelTraits_std_vector_unsigned_short',['.././Py/classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html',1,'mrmeshpy']]],
   ['voxelvaluegetter_530',['VoxelValueGetter',['.././Cpp/namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f',1,'MR']]],
-  ['vtraits_531',['VTraits',['.././Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits'],['.././Py/classmrmeshpy_1_1Box__unsigned__short.html#ad2c669dcd25502bcf44635d7bfb2b919',1,'mrmeshpy::Box_unsigned_short::VTraits']]]
+  ['vs_20double_531',['Float vs Double',['../FloatVSDouble.html',1,'']]],
+  ['vs_20double_3a_20a_20design_20choice_20for_20precision_20and_20performance_20in_20c_532',['Float vs Double: A Design Choice for Precision and Performance in C++',['../FloatVSDouble.html#autotoc_md51',1,'']]],
+  ['vs_20performance_3a_20key_20considerations_533',['Precision vs. Performance: Key Considerations',['../FloatVSDouble.html#autotoc_md52',1,'']]],
+  ['vtraits_534',['VTraits',['.././Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits'],['.././Py/classmrmeshpy_1_1Box__unsigned__short.html#ad2c669dcd25502bcf44635d7bfb2b919',1,'mrmeshpy::Box_unsigned_short::VTraits']]]
 ];

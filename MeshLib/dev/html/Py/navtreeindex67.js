@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a":[6,1,0,0,2,702,0,1],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a":[6,1,1,0,1,702,0,1],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ad9b7b2f93aeb6aa1a14b872e7142317b":[6,1,0,0,2,702,0,11],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ad9b7b2f93aeb6aa1a14b872e7142317b":[6,1,1,0,1,702,0,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "classmrmeshpy_1_1SignDetectionModeShort.html#ad7114e58582997758e6c99ecc07c7c4f":[6,1,0,0,2,711,10],
 "classmrmeshpy_1_1SignDetectionModeShort.html#ad7114e58582997758e6c99ecc07c7c4f":[6,1,1,0,1,711,10],
 "classmrmeshpy_1_1SignedDistanceToMeshOptions.html":[6,1,0,0,2,712],
-"classmrmeshpy_1_1SignedDistanceToMeshOptions.html":[6,1,1,0,1,712],
-"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#a2a3ab58e5815530af8cec8eac21cd03d":[6,1,0,0,2,712,1]
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html":[6,1,1,0,1,712]
 };

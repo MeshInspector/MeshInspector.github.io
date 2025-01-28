@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a8aed0cfdd5d593101428fa7ab87ac4ff":[6,1,0,0,2,7,2],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a8aed0cfdd5d593101428fa7ab87ac4ff":[6,1,1,0,1,7,2],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#ab6b4e8af8da0bfebace89bf1a20180d6":[6,1,0,0,2,7,6],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#ab6b4e8af8da0bfebace89bf1a20180d6":[6,1,1,0,1,7,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55.html#aa62951dcc0fb773998472ba3368ea0bc":[6,1,0,0,2,17,2],
 "classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55.html#aa62951dcc0fb773998472ba3368ea0bc":[6,1,1,0,1,17,2],
 "classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55.html#ae24c38c12e95bf204a9061bd48958062":[6,1,0,0,2,17,1],
-"classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55.html#ae24c38c12e95bf204a9061bd48958062":[6,1,1,0,1,17,1],
-"classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d.html":[6,1,0,0,2,18]
+"classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55.html#ae24c38c12e95bf204a9061bd48958062":[6,1,1,0,1,17,1]
 };

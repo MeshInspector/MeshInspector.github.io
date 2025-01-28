@@ -65,6 +65,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Package Overview", "../PackageOverview.html", [
+      [ "Float vs Double", "../FloatVSDouble.html", null ],
       [ "How to use С++ Example Plugin", "../ExamplePluginOverview.html", null ],
       [ "Data Model Class Hierarchy", "../DataModel.html", null ],
       [ "Spaces and Transformations", "../SpacesHelp.html", null ],
@@ -250,22 +251,22 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html#a1221abec69372ee91bcc4afb453b75ba",
 "classmrmeshpy_1_1std__vector__unsigned__long.html#a455d157787f88b5b5df5884ee44eb1b8",
 "classmrviewerpy_1_1Viewer.html#aab90b1173bbd8f268990a363817078cd",
-"mrmeshpy_8pyi.html#a01ad35bac6e8b361e2b688b8c1e315ba",
-"mrmeshpy_8pyi.html#a25b1a4980201fd44540750c30e6efd1a",
-"mrmeshpy_8pyi.html#a450ff2d88503cec640049e6ec57405ca",
-"mrmeshpy_8pyi.html#a649734568793e7ca943c8cd273c7f156",
-"mrmeshpy_8pyi.html#a8b193bc9df65e1155539ba1f83090ee1",
-"mrmeshpy_8pyi.html#ab1df11520c838af4bc7cc006f74bf869",
-"mrmeshpy_8pyi.html#ad62500aba4251edc7a3c29d3d6626102",
-"mrmeshpy_8pyi.html#af9be2f2eb0b51d41951d4a198eda9e88",
-"namespacemrmeshpy.html#a0b37488d6412114b119f3e58fcdc8e1d",
-"namespacemrmeshpy.html#a2e037a8ab6e53a0cd7daebabcafc2277",
-"namespacemrmeshpy.html#a4c64a31d97ce364315614893e9940a57",
-"namespacemrmeshpy.html#a6e6b0cb009e87cd87d480b1a605b047b",
-"namespacemrmeshpy.html#a96e7445c98655cefaaa9e70b2552c403",
-"namespacemrmeshpy.html#abb35ef6660a7925739788055ef1bbfda",
-"namespacemrmeshpy.html#ae02121702a736857f5b897777cd89a76",
-"namespacemrviewerpy.html#adff120162ed1a676d4d7f5fef80979dc"
+"mrmeshpy_8pyi.html#a01a9f2615c80119737d4857d86ca77d7",
+"mrmeshpy_8pyi.html#a259ef5a4b36889014d2d40710429a353",
+"mrmeshpy_8pyi.html#a4504758a8fae339f5bceca8f4facef6f",
+"mrmeshpy_8pyi.html#a64771e3d914169de31ea3c4725bd89b2",
+"mrmeshpy_8pyi.html#a8b16618044b7844e7412289af6e1c6a0",
+"mrmeshpy_8pyi.html#ab1d01a70ffd09120c99010873516192e",
+"mrmeshpy_8pyi.html#ad6167a8b13f369924c7854f34c8b052f",
+"mrmeshpy_8pyi.html#af9ac2efe440a4043196591990d3b8d93",
+"namespacemrmeshpy.html#a0b355dd6b95f481060de700f90e3e17b",
+"namespacemrmeshpy.html#a2dc34ed08c26ce28649f8e5b1c691a99",
+"namespacemrmeshpy.html#a4c5118d51f01368577981f68e5052374",
+"namespacemrmeshpy.html#a6e68286cf9192fd64da4009ebf654cf5",
+"namespacemrmeshpy.html#a96cb060db82d30211bd054ea230d1210",
+"namespacemrmeshpy.html#abaaad5556291854b4228c69b26bddc66",
+"namespacemrmeshpy.html#ae01ccf63d97c2d5d3a6c03912fb61d17",
+"namespacemrviewerpy.html#ad965015c4901e460f6bd40a4b2f70f8d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMesh_8h.html#a0cbc8ad8eff5369f50992cfa67668819":[6,0,3,0,0,1,4,21,18],
 "MRMeshC_2MRMesh_8h.html#a10e7ae1cb0bed2d9259b7d9d91d92d58":[6,0,3,0,0,1,4,21,13],
 "MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4":[6,0,3,0,0,1,4,21,14],
 "MRMeshC_2MRMesh_8h.html#a2f5d81f940456a9ae80511fb12f71669":[6,0,3,0,0,1,4,21,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshLoadSettings_8h_source.html":[6,0,3,0,0,1,3,196],
 "MRMeshMeshDistance_8h.html":[6,0,3,0,0,1,3,197],
 "MRMeshMeshDistance_8h_source.html":[6,0,3,0,0,1,3,197],
-"MRMeshModifier_8h.html":[6,0,3,0,0,1,9,41],
-"MRMeshModifier_8h_source.html":[6,0,3,0,0,1,9,41]
+"MRMeshModifier_8h.html":[6,0,3,0,0,1,9,41]
 };

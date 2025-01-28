@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1Quaternionf.html#af8c6d4ea2195b3a440c6dc8ba0137514":[6,1,0,0,2,670,0],
 "classmrmeshpy_1_1Quaternionf.html#af8c6d4ea2195b3a440c6dc8ba0137514":[6,1,1,0,1,670,0],
 "classmrmeshpy_1_1RadiusMeasurementObject.html":[6,1,0,0,2,671],
 "classmrmeshpy_1_1RadiusMeasurementObject.html":[6,1,1,0,1,671],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1RegionBitSet.html#a7cd390901e8a567b94eafe4d3804de60":[6,1,0,0,2,676,15],
 "classmrmeshpy_1_1RegionBitSet.html#a7cd390901e8a567b94eafe4d3804de60":[6,1,1,0,1,676,15],
 "classmrmeshpy_1_1RegionBitSet.html#a7d2d593d0edbbc43971d25aa44668a90":[6,1,0,0,2,676,14],
-"classmrmeshpy_1_1RegionBitSet.html#a7d2d593d0edbbc43971d25aa44668a90":[6,1,1,0,1,676,14],
-"classmrmeshpy_1_1RegionBitSet.html#a8055182a404c3ad1a83f003475116f82":[6,1,0,0,2,676,28]
+"classmrmeshpy_1_1RegionBitSet.html#a7d2d593d0edbbc43971d25aa44668a90":[6,1,1,0,1,676,14]
 };

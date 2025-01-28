@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classmrmeshpy_1_1ContourToDistanceMapParams.html#ab5e6fbe02c912d581e80162d0d01a9d4":[6,1,0,0,2,156,4],
 "classmrmeshpy_1_1ContourToDistanceMapParams.html#ab5e6fbe02c912d581e80162d0d01a9d4":[6,1,1,0,1,156,4],
 "classmrmeshpy_1_1ContourToDistanceMapParams.html#abe0b55b4479f74eb0f0454053905d918":[6,1,0,0,2,156,5],
 "classmrmeshpy_1_1ContourToDistanceMapParams.html#abe0b55b4479f74eb0f0454053905d918":[6,1,1,0,1,156,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classmrmeshpy_1_1DecimatePolylineResult.html":[6,1,0,0,2,164],
 "classmrmeshpy_1_1DecimatePolylineResult.html":[6,1,1,0,1,164],
 "classmrmeshpy_1_1DecimatePolylineResult.html#a2ccb1054da31c5b8718e560f0fd5cdea":[6,1,0,0,2,164,5],
-"classmrmeshpy_1_1DecimatePolylineResult.html#a2ccb1054da31c5b8718e560f0fd5cdea":[6,1,1,0,1,164,5],
-"classmrmeshpy_1_1DecimatePolylineResult.html#a73cd2527f9784ef5cee3553e520e6e07":[6,1,0,0,2,164,2]
+"classmrmeshpy_1_1DecimatePolylineResult.html#a2ccb1054da31c5b8718e560f0fd5cdea":[6,1,1,0,1,164,5]
 };

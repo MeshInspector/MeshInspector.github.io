@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ViewportLinesWithColors.html":[6,0,1,0,1,726],
 "structMR_1_1ViewportLinesWithColors.html":[6,0,2,0,1,710],
 "structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc":[6,0,1,0,1,726,1],
 "structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc":[6,0,2,0,1,710,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1overloaded.html":[6,0,1,0,1,437],
 "structMR_1_1overloaded.html":[6,0,2,0,1,421],
 "structauto__cast__trait.html":[6,0,2,0,2],
-"structvector__ref__wrapper.html":[6,0,2,0,64],
-"structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708":[6,0,2,0,64,0]
+"structvector__ref__wrapper.html":[6,0,2,0,64]
 };

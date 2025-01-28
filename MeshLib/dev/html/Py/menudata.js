@@ -59,6 +59,7 @@ var menudata={children:[
 {text:"Using Numpy",url:"../ExampleNumpy.html"},
 {text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"}]}]},
 {text:"Package Overview",url:"../PackageOverview.html",children:[
+{text:"Float vs Double",url:"../FloatVSDouble.html"},
 {text:"How to use С++ Example Plugin",url:"../ExamplePluginOverview.html"},
 {text:"Data Model Class Hierarchy",url:"../DataModel.html"},
 {text:"Spaces and Transformations",url:"../SpacesHelp.html"},

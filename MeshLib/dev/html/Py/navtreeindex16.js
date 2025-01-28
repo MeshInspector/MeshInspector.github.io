@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1DecimatePolylineResult.html#a73cd2527f9784ef5cee3553e520e6e07":[6,1,0,0,2,164,2],
 "classmrmeshpy_1_1DecimatePolylineResult.html#a73cd2527f9784ef5cee3553e520e6e07":[6,1,1,0,1,164,2],
 "classmrmeshpy_1_1DecimatePolylineResult.html#aacb87ff1b314a78ea758ddba11be9937":[6,1,0,0,2,164,0],
 "classmrmeshpy_1_1DecimatePolylineResult.html#aacb87ff1b314a78ea758ddba11be9937":[6,1,1,0,1,164,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1DecimateSettings.html#ae93506509689bb40395643bfef0e2499":[6,1,0,0,2,168,40],
 "classmrmeshpy_1_1DecimateSettings.html#ae93506509689bb40395643bfef0e2499":[6,1,1,0,1,168,40],
 "classmrmeshpy_1_1DecimateSettings.html#aea89ba800db3673e987ec71d4be04c79":[6,1,0,0,2,168,30],
-"classmrmeshpy_1_1DecimateSettings.html#aea89ba800db3673e987ec71d4be04c79":[6,1,1,0,1,168,30],
-"classmrmeshpy_1_1DecimateSettings.html#aef406f827ad416d3d4a437a23acc0034":[6,1,0,0,2,168,44]
+"classmrmeshpy_1_1DecimateSettings.html#aea89ba800db3673e987ec71d4be04c79":[6,1,1,0,1,168,30]
 };
