@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Id__EdgeTag =
     [ "__iadd__", "classmrmeshpy_1_1Id__EdgeTag.html#ab6a7c29ade21a749afe74d4f53e22ffd", null ],
     [ "__isub__", "classmrmeshpy_1_1Id__EdgeTag.html#a008601a10865c32da09ae79666597df3", null ],
     [ "__ne__", "classmrmeshpy_1_1Id__EdgeTag.html#a5d0cca963a1670ddab7726694e5a7b2d", null ],
+    [ "__repr__", "classmrmeshpy_1_1Id__EdgeTag.html#af578f39d589e1df6dee909053f3f006b", null ],
     [ "_convert_to_int", "classmrmeshpy_1_1Id__EdgeTag.html#a464977a408ee1f73a791b487633679f6", null ],
     [ "_convert_to_UndirectedEdgeId", "classmrmeshpy_1_1Id__EdgeTag.html#a5c61fcef07c34129f19f256e07d75cb7", null ],
     [ "_Less", "classmrmeshpy_1_1Id__EdgeTag.html#ac6ae40b7356f8ede7ffc89225e0f8dc3", null ],

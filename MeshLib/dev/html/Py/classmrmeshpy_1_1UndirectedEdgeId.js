@@ -10,6 +10,7 @@ var classmrmeshpy_1_1UndirectedEdgeId =
     [ "__iadd__", "classmrmeshpy_1_1UndirectedEdgeId.html#a4f99651974dcace14bb4fdbdab12ba9c", null ],
     [ "__isub__", "classmrmeshpy_1_1UndirectedEdgeId.html#a2c8b9d3439a02dfa50fde5a91ab08f8c", null ],
     [ "__ne__", "classmrmeshpy_1_1UndirectedEdgeId.html#a82380ede4c5d2b9b12092df54544d7a1", null ],
+    [ "__repr__", "classmrmeshpy_1_1UndirectedEdgeId.html#a34250ee86349da28555f023b869214e4", null ],
     [ "_convert_to_int", "classmrmeshpy_1_1UndirectedEdgeId.html#a2c9cd071a77a0c92ae032474ff4cf51b", null ],
     [ "_Less", "classmrmeshpy_1_1UndirectedEdgeId.html#a0c9931a971ec084db2c4dfa4ffd2687e", null ],
     [ "_MinusMinus", "classmrmeshpy_1_1UndirectedEdgeId.html#a381a49559db128982cc4d109547f050d", null ],

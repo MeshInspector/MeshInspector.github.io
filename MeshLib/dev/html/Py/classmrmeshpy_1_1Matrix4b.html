@@ -154,7 +154,6 @@ $(function(){initNavTree('classmrmeshpy_1_1Matrix4b.html',''); initResizable(tru
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="classmrmeshpy_1_1Matrix4b-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.Matrix4b Class Reference</div></div>
 </div><!--header-->
@@ -182,6 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab442ed6f3a7abe975db30e507a4bea16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfd1f6354d143b5738669959d665ff72" id="r_abfd1f6354d143b5738669959d665ff72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Matrix4b.html">Matrix4b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfd1f6354d143b5738669959d665ff72">__itruediv__</a> (self, bool b)</td></tr>
 <tr class="separator:abfd1f6354d143b5738669959d665ff72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34f48067f0639e3f22ddfbeb667c768" id="r_ac34f48067f0639e3f22ddfbeb667c768"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34f48067f0639e3f22ddfbeb667c768">__repr__</a> (self)</td></tr>
+<tr class="separator:ac34f48067f0639e3f22ddfbeb667c768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c8114fb4426ba13412cacff413c26d" id="r_a92c8114fb4426ba13412cacff413c26d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector4b.html">Vector4b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92c8114fb4426ba13412cacff413c26d">col</a> (self, int i)</td></tr>
 <tr class="separator:a92c8114fb4426ba13412cacff413c26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12f0c2f17b4ed6f916368fcdd34c835a" id="r_a12f0c2f17b4ed6f916368fcdd34c835a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f0c2f17b4ed6f916368fcdd34c835a">data</a> (self)</td></tr>
@@ -230,11 +231,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ae844c1525df9f44ad9506e6934f089c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae844c1525df9f44ad9506e6934f089c6" id="r_ae844c1525df9f44ad9506e6934f089c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector4b.html">Vector4b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae844c1525df9f44ad9506e6934f089c6">_Subscript</a> (self, int row)</td></tr>
 <tr class="separator:ae844c1525df9f44ad9506e6934f089c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a5b4e99f6f0c920f85ad213dfd3fde15d" id="r_a5b4e99f6f0c920f85ad213dfd3fde15d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b4e99f6f0c920f85ad213dfd3fde15d">_pybind11_conduit_v1_</a> (*args, **kwargs)</td></tr>
-<tr class="separator:a5b4e99f6f0c920f85ad213dfd3fde15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Matrix4b
@@ -484,31 +480,19 @@ arbitrary 4x4 matrix
 
 </div>
 </div>
-<a id="a5b4e99f6f0c920f85ad213dfd3fde15d" name="a5b4e99f6f0c920f85ad213dfd3fde15d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b4e99f6f0c920f85ad213dfd3fde15d">&#9670;&#160;</a></span>_pybind11_conduit_v1_()</h2>
+<a id="ac34f48067f0639e3f22ddfbeb667c768" name="ac34f48067f0639e3f22ddfbeb667c768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34f48067f0639e3f22ddfbeb667c768">&#9670;&#160;</a></span>__repr__()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mrmeshpy.Matrix4b._pybind11_conduit_v1_ </td>
+          <td class="memname"> str mrmeshpy.Matrix4b.__repr__ </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
