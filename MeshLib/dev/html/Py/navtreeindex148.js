@@ -1,9 +1,5 @@
 var NAVTREEINDEX148 =
 {
-"classmrviewerpy_1_1ViewerLaunchParams.html#a6e06e4cb800929f65745ffd4dcad622e":[6,1,0,0,3,9,1],
-"classmrviewerpy_1_1ViewerLaunchParams.html#a6e06e4cb800929f65745ffd4dcad622e":[6,1,1,0,2,9,1],
-"classmrviewerpy_1_1ViewerLaunchParams.html#a933c4835dfa0346ce551634c36eab8dd":[6,1,0,0,3,9,6],
-"classmrviewerpy_1_1ViewerLaunchParams.html#a933c4835dfa0346ce551634c36eab8dd":[6,1,1,0,2,9,6],
 "classmrviewerpy_1_1ViewerLaunchParams.html#aaa77419e86035da0c85013175ca8882d":[6,1,0,0,3,9,3],
 "classmrviewerpy_1_1ViewerLaunchParams.html#aaa77419e86035da0c85013175ca8882d":[6,1,1,0,2,9,3],
 "classmrviewerpy_1_1ViewerLaunchParams.html#abf9e5b0e82ab4618b7604b5f46da85d8":[6,1,0,0,3,9,5],
@@ -237,7 +233,6 @@ var NAVTREEINDEX148 =
 "mrmeshpy_8pyi.html#a039556a42cb804cf1b349ae4645fed00":[6,1,2,0,0,1,0,0,0,2,1904],
 "mrmeshpy_8pyi.html#a0399245027d38eb8ebfe5f5acfed24ee":[6,1,2,0,0,1,0,0,0,2,2371],
 "mrmeshpy_8pyi.html#a03ce9b44c5bc5d3df405ac22271203ed":[6,1,2,0,0,1,0,0,0,2,1380],
-"mrmeshpy_8pyi.html#a03d86289d16e378adad970dad60d9ed9":[6,1,2,0,0,1,0,0,0,2,2061],
 "mrmeshpy_8pyi.html#a03fabff627dd496f5682b0b7981fa675":[6,1,2,0,0,1,0,0,0,2,1263],
 "mrmeshpy_8pyi.html#a040fcdef62e73011f103c7f804fab85e":[6,1,2,0,0,1,0,0,0,2,2442],
 "mrmeshpy_8pyi.html#a04510f1f0fc6d8156b39789c6cb5be32":[6,1,2,0,0,1,0,0,0,2,2921],
@@ -249,5 +244,10 @@ var NAVTREEINDEX148 =
 "mrmeshpy_8pyi.html#a04d021ebfd693e4fd8adab1aca24c48c":[6,1,2,0,0,1,0,0,0,2,2861],
 "mrmeshpy_8pyi.html#a04d0b5f01bb90030cc4735f7153ed6cb":[6,1,2,0,0,1,0,0,0,2,1943],
 "mrmeshpy_8pyi.html#a04ff43b776530303eb6d28005928516e":[6,1,2,0,0,1,0,0,0,2,2949],
-"mrmeshpy_8pyi.html#a0501488e831d424dec519cd427bc47b5":[6,1,2,0,0,1,0,0,0,2,2389]
+"mrmeshpy_8pyi.html#a0501488e831d424dec519cd427bc47b5":[6,1,2,0,0,1,0,0,0,2,2389],
+"mrmeshpy_8pyi.html#a051b5b0a4f998a8da8d26370c5c2a4a0":[6,1,2,0,0,1,0,0,0,2,1478],
+"mrmeshpy_8pyi.html#a052423f06fe821307193db656f3de882":[6,1,2,0,0,1,0,0,0,2,2567],
+"mrmeshpy_8pyi.html#a0526101b5b8d1ed300585a2829d9c26f":[6,1,2,0,0,1,0,0,0,2,2538],
+"mrmeshpy_8pyi.html#a052fb437fb91435ed1088850f4ddd5cb":[6,1,2,0,0,1,0,0,0,2,1622],
+"mrmeshpy_8pyi.html#a0537d14124f882f7e4021943c044b62c":[6,1,2,0,0,1,0,0,0,2,2025]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a51e68b62f71005ecb7bda8e0908ca093":[6,1,0,0,2,620,7],
-"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a51e68b62f71005ecb7bda8e0908ca093":[6,1,1,0,1,620,7],
 "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a6cad2cc1e7abff51117b5e98e6f0722b":[6,1,0,0,2,620,0],
 "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a6cad2cc1e7abff51117b5e98e6f0722b":[6,1,1,0,1,620,0],
 "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a8241b83db7ae80f5a02f16b2885eea83":[6,1,0,0,2,620,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX59 =
 "classmrmeshpy_1_1Polyline3.html#aba104ef2091d00242df01e90bc6ffdae":[6,1,0,0,2,628,19],
 "classmrmeshpy_1_1Polyline3.html#aba104ef2091d00242df01e90bc6ffdae":[6,1,1,0,1,628,19],
 "classmrmeshpy_1_1Polyline3.html#abefda63f0897fb5c244280aa095b862c":[6,1,0,0,2,628,33],
-"classmrmeshpy_1_1Polyline3.html#abefda63f0897fb5c244280aa095b862c":[6,1,1,0,1,628,33]
+"classmrmeshpy_1_1Polyline3.html#abefda63f0897fb5c244280aa095b862c":[6,1,1,0,1,628,33],
+"classmrmeshpy_1_1Polyline3.html#ad02f5fff3af1d003804ee81ccadca3d8":[6,1,0,0,2,628,2],
+"classmrmeshpy_1_1Polyline3.html#ad02f5fff3af1d003804ee81ccadca3d8":[6,1,1,0,1,628,2]
 };
