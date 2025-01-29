@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a69b6fb942fb9f9e2687c35e268b6fa74":[6,0,1,0,1,31,11,1],
+"classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a69b6fb942fb9f9e2687c35e268b6fa74":[6,0,2,0,1,18,11,1],
 "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[6,0,1,0,1,31,12],
 "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[6,0,2,0,1,18,12],
 "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html#a4f804ad6306bbaff819084a0922dbe56":[6,0,1,0,1,31,12,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1RenderNameObject.html#ae034eff48fbb782e571109cd9648b3b2":[6,0,1,0,1,531,4],
 "classMR_1_1RenderNameObject.html#ae034eff48fbb782e571109cd9648b3b2":[6,0,2,0,1,515,4],
 "classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593":[6,0,1,0,1,531,5],
-"classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593":[6,0,2,0,1,515,5],
-"classMR_1_1RenderObjectBuffer.html":[6,0,1,0,1,532],
-"classMR_1_1RenderObjectBuffer.html":[6,0,2,0,1,516]
+"classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593":[6,0,2,0,1,515,5]
 };

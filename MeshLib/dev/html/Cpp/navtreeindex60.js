@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMRMeshSaveNamedXfMesh.html":[6,0,2,0,37],
+"structMRMeshSaveNamedXfMesh.html#a133ba28085351ed1b5bbd00fc9bef476":[6,0,2,0,37,2],
 "structMRMeshSaveNamedXfMesh.html#af076e7b4269e9b10f6396117b41bd43b":[6,0,2,0,37,0],
 "structMRMeshSaveNamedXfMesh.html#afffb4a4f6c7bfdb6e40d412b60500177":[6,0,2,0,37,1],
 "structMRMeshToVolumeSettings.html":[6,0,2,0,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,1,0,1,58,11],
 "structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,2,0,1,42,11],
 "structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,1,0,1,58,4],
-"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,2,0,1,42,4],
-"structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,1,0,1,58,8],
-"structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,2,0,1,42,8]
+"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,2,0,1,42,4]
 };

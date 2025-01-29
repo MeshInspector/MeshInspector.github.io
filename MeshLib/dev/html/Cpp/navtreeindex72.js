@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1NoiseSettings.html":[6,0,1,0,1,391],
+"structMR_1_1NoiseSettings.html":[6,0,2,0,1,375],
 "structMR_1_1NoiseSettings.html#a414f4d6065c24f7db4605e0dac3362b8":[6,0,1,0,1,391,0],
 "structMR_1_1NoiseSettings.html#a414f4d6065c24f7db4605e0dac3362b8":[6,0,2,0,1,375,0],
 "structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,1,0,1,391,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,1,0,1,439,1,1],
 "structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,2,0,1,423,1,1],
 "structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,1,0,1,439,1,2],
-"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,2,0,1,423,1,2],
-"structMR_1_1Parabola.html":[6,0,1,0,1,441],
-"structMR_1_1Parabola.html":[6,0,2,0,1,425]
+"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,2,0,1,423,1,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b":[6,0,0,13,0,0,2],
+"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19":[6,0,0,13,0,0,0],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a80c3874decf9d019fab965c28d7a767b":[6,0,0,13,0,0,1],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95":[6,0,0,13,0,0,4],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ae773b54dc10496afde5414733e1c8d6a":[6,0,0,13,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1UniformSamplingSettings.html#a5bc23c2e461b80a4516732d0e5add3a5":[6,0,2,0,1,675,4],
 "structMR_1_1UniformSamplingSettings.html#a7c7a861d6d96b26592bb64ac801d6f43":[6,0,1,0,1,691,1],
 "structMR_1_1UniformSamplingSettings.html#a7c7a861d6d96b26592bb64ac801d6f43":[6,0,2,0,1,675,1],
-"structMR_1_1UniquePtr.html":[6,0,1,0,1,693],
-"structMR_1_1UniquePtr.html":[6,0,2,0,1,677],
-"structMR_1_1UniquePtr.html#a12789ea5c04ee7a92d7b00755508df3f":[6,0,1,0,1,693,4]
+"structMR_1_1UniquePtr.html":[6,0,1,0,1,693]
 };

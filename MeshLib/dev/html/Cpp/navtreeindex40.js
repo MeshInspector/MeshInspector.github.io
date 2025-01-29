@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[6,0,1,0,1,624,1],
+"classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[6,0,2,0,1,608,1],
 "classMR_1_1SphereObject.html":[6,0,0,11,0,6],
 "classMR_1_1SphereObject.html#a0756a482bc3f5e18d1e16940c05b1545":[6,0,0,11,0,6,4],
 "classMR_1_1SphereObject.html#a0f12c8dd3509baa2cb33bf45e476124a":[6,0,0,11,0,6,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1SystemPath.html#adca67651e9ad888aca1f1b9fd171366d":[6,0,1,0,1,648,0],
 "classMR_1_1SystemPath.html#adca67651e9ad888aca1f1b9fd171366d":[6,0,2,0,1,632,0],
 "classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057b":[6,0,1,0,1,648,1],
-"classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057b":[6,0,2,0,1,632,1],
-"classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057ba59c4ad3f3cb3d812d68fab7a354d4a63":[6,0,1,0,1,648,1,1],
-"classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057ba59c4ad3f3cb3d812d68fab7a354d4a63":[6,0,2,0,1,632,1,1]
+"classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057b":[6,0,2,0,1,632,1]
 };
