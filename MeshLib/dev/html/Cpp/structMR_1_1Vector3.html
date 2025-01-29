@@ -248,6 +248,14 @@ Related Symbols</h2></td></tr>
 <tr class="memitem:a300a225e9dea78d6b7bd208ea82bf92b" id="r_a300a225e9dea78d6b7bd208ea82bf92b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a300a225e9dea78d6b7bd208ea82bf92b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a300a225e9dea78d6b7bd208ea82bf92b">operator+=</a> (<a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a300a225e9dea78d6b7bd208ea82bf92b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7a343939b1a92e61700fb5bd609b56" id="r_a1b7a343939b1a92e61700fb5bd609b56"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a1b7a343939b1a92e61700fb5bd609b56"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1b7a343939b1a92e61700fb5bd609b56">distanceSq</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="memdesc:a1b7a343939b1a92e61700fb5bd609b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance between two points, which is faster to compute than just distance  <br /></td></tr>
+<tr class="separator:a1b7a343939b1a92e61700fb5bd609b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa62b4ce06d0439125af427faabb987b1" id="r_aa62b4ce06d0439125af427faabb987b1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa62b4ce06d0439125af427faabb987b1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa62b4ce06d0439125af427faabb987b1">distance</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="memdesc:aa62b4ce06d0439125af427faabb987b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance between two points, better use distanceSq for higher performance  <br /></td></tr>
+<tr class="separator:aa62b4ce06d0439125af427faabb987b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9065ae414e0307701366e479519540d" id="r_af9065ae414e0307701366e479519540d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:af9065ae414e0307701366e479519540d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af9065ae414e0307701366e479519540d">cross</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:af9065ae414e0307701366e479519540d"><td class="mdescLeft">&#160;</td><td class="mdescRight">cross product  <br /></td></tr>
@@ -993,6 +1001,72 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>cross product </p>
+
+</div>
+</div>
+<a id="aa62b4ce06d0439125af427faabb987b1" name="aa62b4ce06d0439125af427faabb987b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62b4ce06d0439125af427faabb987b1">&#9670;&#160;</a></span>distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>distance between two points, better use distanceSq for higher performance </p>
+
+</div>
+</div>
+<a id="a1b7a343939b1a92e61700fb5bd609b56" name="a1b7a343939b1a92e61700fb5bd609b56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b7a343939b1a92e61700fb5bd609b56">&#9670;&#160;</a></span>distanceSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T distanceSq </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>squared distance between two points, which is faster to compute than just distance </p>
 
 </div>
 </div>

@@ -240,6 +240,14 @@ Related Symbols</h2></td></tr>
 <tr class="memitem:a36f0cf5dc63f8a44f53e1274ba3bac59" id="r_a36f0cf5dc63f8a44f53e1274ba3bac59"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a36f0cf5dc63f8a44f53e1274ba3bac59"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a36f0cf5dc63f8a44f53e1274ba3bac59">operator==</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a36f0cf5dc63f8a44f53e1274ba3bac59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a664e7947c3eb5d229c9ceb1c728a6f9b" id="r_a664e7947c3eb5d229c9ceb1c728a6f9b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a664e7947c3eb5d229c9ceb1c728a6f9b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a664e7947c3eb5d229c9ceb1c728a6f9b">distanceSq</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="memdesc:a664e7947c3eb5d229c9ceb1c728a6f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance between two points, which is faster to compute than just distance  <br /></td></tr>
+<tr class="separator:a664e7947c3eb5d229c9ceb1c728a6f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa16e6f10fb59a666d01d58bb1737e85" id="r_afa16e6f10fb59a666d01d58bb1737e85"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afa16e6f10fb59a666d01d58bb1737e85"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afa16e6f10fb59a666d01d58bb1737e85">distance</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="memdesc:afa16e6f10fb59a666d01d58bb1737e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance between two points, better use distanceSq for higher performance  <br /></td></tr>
+<tr class="separator:afa16e6f10fb59a666d01d58bb1737e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d0b2ad856fb4877d2deccd98f6651c" id="r_ae2d0b2ad856fb4877d2deccd98f6651c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae2d0b2ad856fb4877d2deccd98f6651c"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae2d0b2ad856fb4877d2deccd98f6651c">dot</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:ae2d0b2ad856fb4877d2deccd98f6651c"><td class="mdescLeft">&#160;</td><td class="mdescRight">dot product  <br /></td></tr>
@@ -816,6 +824,72 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="afa16e6f10fb59a666d01d58bb1737e85" name="afa16e6f10fb59a666d01d58bb1737e85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa16e6f10fb59a666d01d58bb1737e85">&#9670;&#160;</a></span>distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>distance between two points, better use distanceSq for higher performance </p>
+
+</div>
+</div>
+<a id="a664e7947c3eb5d229c9ceb1c728a6f9b" name="a664e7947c3eb5d229c9ceb1c728a6f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a664e7947c3eb5d229c9ceb1c728a6f9b">&#9670;&#160;</a></span>distanceSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T distanceSq </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>squared distance between two points, which is faster to compute than just distance </p>
+
+</div>
+</div>
 <a id="a5bb00471e4228b49442d8c7e717e31e7" name="a5bb00471e4228b49442d8c7e717e31e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5bb00471e4228b49442d8c7e717e31e7">&#9670;&#160;</a></span>div()</h2>
 

@@ -20,6 +20,8 @@ var structMR_1_1Vector4 =
     [ "operator[]", "structMR_1_1Vector4.html#aad7806510075ef51fd4cb0c1cee64742", null ],
     [ "operator[]", "structMR_1_1Vector4.html#a26c8c6c0e41d80c33f348e16acb5ea40", null ],
     [ "proj3d", "structMR_1_1Vector4.html#a50bac4033d0f4d0e5c92933a5eda6883", null ],
+    [ "distance", "structMR_1_1Vector4.html#afa16e6f10fb59a666d01d58bb1737e85", null ],
+    [ "distanceSq", "structMR_1_1Vector4.html#a664e7947c3eb5d229c9ceb1c728a6f9b", null ],
     [ "div", "structMR_1_1Vector4.html#a5bb00471e4228b49442d8c7e717e31e7", null ],
     [ "dot", "structMR_1_1Vector4.html#ae2d0b2ad856fb4877d2deccd98f6651c", null ],
     [ "mult", "structMR_1_1Vector4.html#a792b605255e8f3f5d4fc544964d5bfed", null ],

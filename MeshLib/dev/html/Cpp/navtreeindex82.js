@@ -1,5 +1,11 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f":[6,0,1,0,1,723,2,0],
+"structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f":[6,0,2,0,1,707,2,0],
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html":[6,0,1,0,1,723,3],
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html":[6,0,2,0,1,707,3],
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a0b94f9fe3c3d5cc43e530789bbc8a327":[6,0,1,0,1,723,3,0],
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a0b94f9fe3c3d5cc43e530789bbc8a327":[6,0,2,0,1,707,3,0],
 "structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[6,0,1,0,1,723,3,1],
 "structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[6,0,2,0,1,707,3,1],
 "structMR_1_1ViewportLinesWithColors.html":[6,0,1,0,1,726],
@@ -243,11 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[6,0,1,0,1,753,0],
 "structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[6,0,2,0,1,737,0],
 "structMR_1_1detail_1_1MakeScopeGuard.html":[6,0,1,0,1,3,2],
-"structMR_1_1detail_1_1MakeScopeGuard.html":[6,0,2,0,1,1,2],
-"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[6,0,1,0,1,3,2,0],
-"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[6,0,2,0,1,1,2,0],
-"structMR_1_1detail_1_1Units_1_1Empty.html":[6,0,1,0,1,3,0,0],
-"structMR_1_1detail_1_1Units_1_1Empty.html":[6,0,2,0,1,1,0,0],
-"structMR_1_1overloaded.html":[6,0,1,0,1,437],
-"structMR_1_1overloaded.html":[6,0,2,0,1,421]
+"structMR_1_1detail_1_1MakeScopeGuard.html":[6,0,2,0,1,1,2]
 };
