@@ -202,8 +202,8 @@ var NAVTREEINDEX =
 "structMR_1_1TouchEndListener.html",
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b",
 "structMR_1_1UniquePtr.html",
-"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516",
-"structauto__cast__trait.html"
+"structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f",
+"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
