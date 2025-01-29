@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1QuadricApprox.html#a8bb056f3fa9e51ba7ec8fa6a5db8f732":[6,1,0,0,2,667,1],
+"classmrmeshpy_1_1QuadricApprox.html#a8bb056f3fa9e51ba7ec8fa6a5db8f732":[6,1,1,0,1,667,1],
 "classmrmeshpy_1_1QuarterBit.html":[6,1,0,0,2,668],
 "classmrmeshpy_1_1QuarterBit.html":[6,1,1,0,1,668],
 "classmrmeshpy_1_1QuarterBit.html#a1316dfa9017296433e732a2cb202c9e1":[6,1,0,0,2,668,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1RawTiffOutput.html#afd12ba9522729d1e10e425606eeeac09":[6,1,0,0,2,672,5],
 "classmrmeshpy_1_1RawTiffOutput.html#afd12ba9522729d1e10e425606eeeac09":[6,1,1,0,1,672,5],
 "classmrmeshpy_1_1RebuildMeshSettings.html":[6,1,0,0,2,673],
-"classmrmeshpy_1_1RebuildMeshSettings.html":[6,1,1,0,1,673],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a06ff3ab78c3b8f295373987e3b9840a8":[6,1,0,0,2,673,3],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a06ff3ab78c3b8f295373987e3b9840a8":[6,1,1,0,1,673,3]
+"classmrmeshpy_1_1RebuildMeshSettings.html":[6,1,1,0,1,673]
 };
