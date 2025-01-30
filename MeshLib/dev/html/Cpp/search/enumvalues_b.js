@@ -20,7 +20,7 @@ var searchData=
   ['linearraysize_17',['LineArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a28aa4a3d4b852e1cf90b4dcc545d22a7',1,'MR::Viewer']]],
   ['lineelementsnum_18',['LineElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a0759ec1e233564af378df2c9d823061d',1,'MR::Viewer']]],
   ['lines_19',['Lines',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748af99dd41644032e9acbae2aa3dd3fefca',1,'MR::GLStaticHolder::Lines'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819',1,'MR::ViewerSettingsManager::Lines']]],
-  ['linescolormap_20',['LinesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR']]],
+  ['linescolormap_20',['LinesColorMap',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR']]],
   ['linesjoint_21',['LinesJoint',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748acf81af947731fc21b0be72289e83a87c',1,'MR::GLStaticHolder']]],
   ['linesjointpicker_22',['LinesJointPicker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aec6fddf1d3232b22c4b581a99bb65eec',1,'MR::GLStaticHolder']]],
   ['linespicker_23',['LinesPicker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a4f89b3c160e8d6f2e7ec65bafdba19f7',1,'MR::GLStaticHolder']]],

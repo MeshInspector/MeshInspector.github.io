@@ -270,7 +270,7 @@ var searchData=
   ['color_267',['color',['../structMR_1_1MarkedVoxelSlice_1_1Mark.html#aa5bbaf41ee00c68fce4b46c405457cda',1,'MR::MarkedVoxelSlice::Mark']]],
   ['colored_268',['Colored',['../classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605befa23aad110ee43b97ef120fbbeb743d81c',1,'MR::RibbonIcons']]],
   ['coloredit4_269',['colorEdit4',['../namespaceMR_1_1UI.html#aaa136c1366383c9c03db4f4b7520c2a6',1,'MR::UI::colorEdit4(const char *label, Vector4f &amp;color, ImGuiColorEditFlags flags=ImGuiColorEditFlags_None)'],['../namespaceMR_1_1UI.html#acb0c4c1be185e69b6f58108b3471f882',1,'MR::UI::colorEdit4(const char *label, Color &amp;color, ImGuiColorEditFlags flags=ImGuiColorEditFlags_None)']]],
-  ['coloringtype_270',['ColoringType',['../../Py/classmrmeshpy_1_1ColoringType.html',1,'mrmeshpy::ColoringType'],['../group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f',1,'MR::ColoringType']]],
+  ['coloringtype_270',['ColoringType',['../../Py/classmrmeshpy_1_1ColoringType.html',1,'mrmeshpy::ColoringType'],['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f',1,'MR::ColoringType']]],
   ['coloringtype_5f_271',['coloringType_',['../classMR_1_1VisualObject.html#a21eb2d0c923e3ca0544e4cf90782e6b1',1,'MR::VisualObject']]],
   ['colormain_272',['colorMain',['../structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a703f1cacbe40720cc5c75886cf2d20e3',1,'MR::ImGuiMeasurementIndicators::Params']]],
   ['colormap_273',['ColorMap',['../classMR_1_1ColorMapAggregator.html#a20df43a4a312f6aa3f049476f78584d6',1,'MR::ColorMapAggregator']]],

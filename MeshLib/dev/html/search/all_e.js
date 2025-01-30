@@ -131,7 +131,7 @@ var searchData=
   ['lines_20save_128',['Lines Save',['.././Cpp/group__LinesSaveGroup.html',1,'']]],
   ['lineschangedsignal_129',['LinesChangedSignal',['.././Cpp/classMR_1_1ObjectLines.html#ab4dd059872b969f78cf2cde0863184d3',1,'MR::ObjectLines']]],
   ['lineschangedsignal_130',['linesChangedSignal',['.././Cpp/classMR_1_1ObjectLines.html#aa84cc622ce61b383e6065cf2a3ebf3ac',1,'MR::ObjectLines']]],
-  ['linescolormap_131',['LinesColorMap',['.././Py/classmrmeshpy_1_1ColoringType.html#a167f927fa4da52c9d5ab9cca6b69a406',1,'mrmeshpy::ColoringType::LinesColorMap'],['.././Cpp/group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR::LinesColorMap'],['.././Cpp/group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR::LinesColorMap']]],
+  ['linescolormap_131',['LinesColorMap',['.././Py/classmrmeshpy_1_1ColoringType.html#a167f927fa4da52c9d5ab9cca6b69a406',1,'mrmeshpy::ColoringType']]],
   ['linescolormap_5f_132',['linesColorMap_',['.././Cpp/classMR_1_1ObjectLinesHolder.html#a58e224092d5971b40208e6d4a15e6862',1,'MR::ObjectLinesHolder']]],
   ['linesegm_133',['LineSegm',['.././Cpp/structMR_1_1LineSegm.html',1,'MR::LineSegm&lt; typename V &gt;'],['.././Cpp/structMR_1_1LineSegm.html#a012f7dcffa0f21fdd89da4726c09fef7',1,'MR::LineSegm::LineSegm() noexcept=default'],['.././Cpp/structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702',1,'MR::LineSegm::LineSegm(const V &amp;a, const V &amp;b) noexcept'],['.././Cpp/structMR_1_1LineSegm.html#a5fe5f232802842f5c2716a95abb8c28b',1,'MR::LineSegm::LineSegm(const LineSegm&lt; U &gt; &amp;p) noexcept']]],
   ['linesegm2d_134',['LineSegm2d',['.././Py/classmrmeshpy_1_1LineSegm2d.html',1,'mrmeshpy']]],

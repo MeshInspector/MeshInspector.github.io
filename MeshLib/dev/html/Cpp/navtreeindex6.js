@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMeshTopology_8h_source.html":[6,0,3,0,0,1,4,41],
+"MRMeshC_2MRMeshTriPoint_8h.html":[6,0,3,0,0,1,4,42],
+"MRMeshC_2MRMeshTriPoint_8h.html#ac9bfa01a982b550db5bd145f964fe44e":[6,0,3,0,0,1,4,42,1],
+"MRMeshC_2MRMeshTriPoint_8h_source.html":[6,0,3,0,0,1,4,42],
+"MRMeshC_2MRMesh_8h.html":[6,0,3,0,0,1,4,21],
+"MRMeshC_2MRMesh_8h.html#a01a728db63ccfaeaa7cc8607e462742d":[6,0,3,0,0,1,4,21,3],
 "MRMeshC_2MRMesh_8h.html#a0cbc8ad8eff5369f50992cfa67668819":[6,0,3,0,0,1,4,21,18],
 "MRMeshC_2MRMesh_8h.html#a10e7ae1cb0bed2d9259b7d9d91d92d58":[6,0,3,0,0,1,4,21,13],
 "MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4":[6,0,3,0,0,1,4,21,14],
@@ -243,11 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshExtrude_8h.html":[6,0,3,0,0,1,3,189],
 "MRMeshExtrude_8h.html#a22f39580f90cbdb1bd5c77bd7b922251":[6,0,3,0,0,1,3,189,1],
 "MRMeshExtrude_8h_source.html":[6,0,3,0,0,1,3,189],
-"MRMeshIntersect_8h.html":[6,0,3,0,0,1,3,193],
-"MRMeshIntersect_8h_source.html":[6,0,3,0,0,1,3,193],
-"MRMeshLoadSettings_8h.html":[6,0,3,0,0,1,3,196],
-"MRMeshLoadSettings_8h_source.html":[6,0,3,0,0,1,3,196],
-"MRMeshMeshDistance_8h.html":[6,0,3,0,0,1,3,197],
-"MRMeshMeshDistance_8h_source.html":[6,0,3,0,0,1,3,197],
-"MRMeshModifier_8h.html":[6,0,3,0,0,1,9,41]
+"MRMeshIntersect_8h.html":[6,0,3,0,0,1,3,193]
 };

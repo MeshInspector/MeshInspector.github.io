@@ -25,7 +25,7 @@ var searchData=
   ['position_22',['position',['../namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e',1,'MR']]],
   ['positive_23',['Positive',['../namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147',1,'MR::PlanarTriangulation::Positive'],['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147',1,'MR::Positive']]],
   ['post_24',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
-  ['primitivescolormap_25',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
+  ['primitivescolormap_25',['PrimitivesColorMap',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
   ['progressbarbackground_26',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
   ['projectionnormal_27',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal'],['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal']]],
   ['put_28',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]],

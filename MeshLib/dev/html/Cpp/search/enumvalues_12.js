@@ -76,7 +76,7 @@ var searchData=
   ['smb_5ftab_73',['SMB_TAB',['../namespaceMR.html#acad54447072489545d11f4ee251429e6ad07052c5ba42bf2717dea0c37df102bc',1,'MR']]],
   ['smb_5ftop_74',['SMB_TOP',['../namespaceMR.html#acad54447072489545d11f4ee251429e6ab52a20288121c91fd28eb092c13afcb5',1,'MR']]],
   ['smooth_75',['Smooth',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4',1,'MR::SceneSettings::Smooth'],['../namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4',1,'MR::Smooth']]],
-  ['solidcolor_76',['SolidColor',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
+  ['solidcolor_76',['SolidColor',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
   ['specificaxisfit_77',['SpecificAxisFit',['../namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384',1,'MR']]],
   ['sphere_78',['Sphere',['../namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0dab7095f057db3fefa7325ad93a04e14fd',1,'MR']]],
   ['standard_79',['Standard',['../namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b',1,'MR']]],

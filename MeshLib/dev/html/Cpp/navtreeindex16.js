@@ -1,5 +1,11 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1AngleMeasurementObject.html#a0817825d46092c4ebf5fbc8aa9b3cc0f":[6,0,1,0,1,59,4],
+"classMR_1_1AngleMeasurementObject.html#a0817825d46092c4ebf5fbc8aa9b3cc0f":[6,0,2,0,1,43,4],
+"classMR_1_1AngleMeasurementObject.html#a0f47f7d31bec9d2791312b72e2ac1d1f":[6,0,1,0,1,59,25],
+"classMR_1_1AngleMeasurementObject.html#a0f47f7d31bec9d2791312b72e2ac1d1f":[6,0,2,0,1,43,25],
+"classMR_1_1AngleMeasurementObject.html#a1bbf1e560e70b1f06d4d5f837492a11e":[6,0,1,0,1,59,13],
+"classMR_1_1AngleMeasurementObject.html#a1bbf1e560e70b1f06d4d5f837492a11e":[6,0,2,0,1,43,13],
 "classMR_1_1AngleMeasurementObject.html#a4b8623dc5463ca2d74dddd4de01243ad":[6,0,1,0,1,59,18],
 "classMR_1_1AngleMeasurementObject.html#a4b8623dc5463ca2d74dddd4de01243ad":[6,0,2,0,1,43,18],
 "classMR_1_1AngleMeasurementObject.html#a4d56413060eb395d78b7a981758a05b7":[6,0,1,0,1,59,19],
@@ -243,11 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1CaptureScreenshotMenuItem.html":[6,0,1,0,1,87],
 "classMR_1_1CaptureScreenshotMenuItem.html":[6,0,2,0,1,71],
 "classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[6,0,1,0,1,87,0],
-"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[6,0,2,0,1,71,0],
-"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[6,0,1,0,1,87,1],
-"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[6,0,2,0,1,71,1],
-"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[6,0,1,0,1,87,2],
-"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[6,0,2,0,1,71,2],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[6,0,1,0,1,88],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[6,0,2,0,1,72]
+"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[6,0,2,0,1,71,0]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX7 =
 {
+"MRMeshIntersect_8h_source.html":[6,0,3,0,0,1,3,193],
+"MRMeshLoadSettings_8h.html":[6,0,3,0,0,1,3,196],
+"MRMeshLoadSettings_8h_source.html":[6,0,3,0,0,1,3,196],
+"MRMeshMeshDistance_8h.html":[6,0,3,0,0,1,3,197],
+"MRMeshMeshDistance_8h_source.html":[6,0,3,0,0,1,3,197],
+"MRMeshModifier_8h.html":[6,0,3,0,0,1,9,41],
 "MRMeshModifier_8h_source.html":[6,0,3,0,0,1,9,41],
 "MRMeshOverhangs_8h.html":[6,0,3,0,0,1,3,201],
 "MRMeshOverhangs_8h.html#ae5a23c27bb3bb838f31c354a2569981f":[6,0,3,0,0,1,3,201,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a":[6,0,3,0,0,1,3,192,6],
 "MRMesh_2MRMeshFwd_8h.html#a49165bcb87a59752b8f02f19ea7f2424":[6,0,3,0,0,1,3,192,156],
 "MRMesh_2MRMeshFwd_8h.html#a495a7cdcc405422c28b9ef2589fc582c":[6,0,3,0,0,1,3,192,79],
-"MRMesh_2MRMeshFwd_8h.html#a4bcf38e9e8de19979ccfe5e3eab1967b":[6,0,3,0,0,1,3,192,19],
-"MRMesh_2MRMeshFwd_8h.html#a4e70bdb857b2a4beb1d18fc4bfc9f3a2":[6,0,3,0,0,1,3,192,115],
-"MRMesh_2MRMeshFwd_8h.html#a4f9c196c35507f7582ad9613fb61fbad":[6,0,3,0,0,1,3,192,152],
-"MRMesh_2MRMeshFwd_8h.html#a507086a21a04027731ffeb5332b8ed9c":[6,0,3,0,0,1,3,192,167],
-"MRMesh_2MRMeshFwd_8h.html#a52d4c73dd39cffe01830b2bb1f53a190":[6,0,3,0,0,1,3,192,78],
-"MRMesh_2MRMeshFwd_8h.html#a54078c8d4e2a3473d6e15a932c107cd4":[6,0,3,0,0,1,3,192,64],
-"MRMesh_2MRMeshFwd_8h.html#a56350b8d0bbc8426b8d47c00d2807393":[6,0,3,0,0,1,3,192,95]
+"MRMesh_2MRMeshFwd_8h.html#a4bcf38e9e8de19979ccfe5e3eab1967b":[6,0,3,0,0,1,3,192,19]
 };

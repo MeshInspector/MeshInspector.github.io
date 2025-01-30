@@ -1,5 +1,11 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRSaveSettings_8h.html#acc1d104ed2e275977cf878d68073c9b2":[6,0,3,0,0,1,3,311,5],
+"MRMesh_2MRSaveSettings_8h_source.html":[6,0,3,0,0,1,3,311],
+"MRMesh_2MRSignDetectionMode_8h.html":[6,0,3,0,0,1,3,322],
+"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309":[6,0,3,0,0,1,3,322,0],
+"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9":[6,0,3,0,0,1,3,322,0,1],
+"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a103a84d91e18de34821243d0495258ed":[6,0,3,0,0,1,3,322,0,3],
 "MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9":[6,0,3,0,0,1,3,322,0,2],
 "MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4":[6,0,3,0,0,1,3,322,0,4],
 "MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a":[6,0,3,0,0,1,3,322,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX9 =
 "MROverlappingTris_8h_source.html":[6,0,3,0,0,1,3,243],
 "MRPalette_8h.html":[6,0,3,0,0,1,9,52],
 "MRPalette_8h_source.html":[6,0,3,0,0,1,9,52],
-"MRParabola_8h.html":[6,0,3,0,0,1,3,244],
-"MRParabola_8h_source.html":[6,0,3,0,0,1,3,244],
-"MRParallelFor_8h.html":[6,0,3,0,0,1,3,246],
-"MRParallelFor_8h.html#aad589ea7e78a0c2b2111bdc06e2e1c03":[6,0,3,0,0,1,3,246,0],
-"MRParallelFor_8h.html#af87e94d9960d05b0cb39eb6cf90bad47":[6,0,3,0,0,1,3,246,1],
-"MRParallelFor_8h_source.html":[6,0,3,0,0,1,3,246],
-"MRParallelProgressReporter_8h.html":[6,0,3,0,0,1,3,247]
+"MRParabola_8h.html":[6,0,3,0,0,1,3,244]
 };

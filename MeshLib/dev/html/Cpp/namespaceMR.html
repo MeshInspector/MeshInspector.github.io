@@ -2310,6 +2310,16 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355">Sharpening</a>
  }</td></tr>
 <tr class="separator:aaa631c02105f2a8fa6fe24c7873e8d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270a25a8ef13e07e59e7070834efc33f" id="r_a270a25a8ef13e07e59e7070834efc33f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a> { <br />
+&#160;&#160;<a class="el" href="#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">SolidColor</a>
+, <a class="el" href="#a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca">PrimitivesColorMap</a>
+, <a class="el" href="#a270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba">FacesColorMap</a> = PrimitivesColorMap
+, <a class="el" href="#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197">LinesColorMap</a> = PrimitivesColorMap
+, <br />
+&#160;&#160;<a class="el" href="#a270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd">VertsColorMap</a>
+<br />
+ }</td></tr>
+<tr class="separator:a270a25a8ef13e07e59e7070834efc33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e2748a930a13a0cacf2a0a2da1b6e0d" id="r_a0e2748a930a13a0cacf2a0a2da1b6e0d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e2748a930a13a0cacf2a0a2da1b6e0d">FeaturesObjectKind</a> { <br />
 &#160;&#160;<a class="el" href="#a0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c">Point</a>
 , <a class="el" href="#a0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4">Line</a>
@@ -2476,16 +2486,6 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a58525252a9ee9abb57d352127584531faaef12e903e606a4895a16b393bfdec8c">Union</a>
  }</td></tr>
 <tr class="separator:a58525252a9ee9abb57d352127584531f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga270a25a8ef13e07e59e7070834efc33f" id="r_ga270a25a8ef13e07e59e7070834efc33f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a> { <br />
-&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">ColoringType::SolidColor</a>
-, <a class="el" href="group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca">ColoringType::PrimitivesColorMap</a>
-, <a class="el" href="group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba">ColoringType::FacesColorMap</a> = PrimitivesColorMap
-, <a class="el" href="group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197">ColoringType::LinesColorMap</a> = PrimitivesColorMap
-, <br />
-&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd">ColoringType::VertsColorMap</a>
-<br />
- }</td></tr>
-<tr class="separator:ga270a25a8ef13e07e59e7070834efc33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03255e831f4895337e7cf27d64e51269" id="r_ga03255e831f4895337e7cf27d64e51269"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269">DirtyFlags</a> { <br />
 &#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a162875ffd2234840bdaf002277708668">DIRTY_NONE</a> = 0x0000
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110">DIRTY_POSITION</a> = 0x0001
@@ -8646,6 +8646,41 @@ template&lt;typename T &gt; </div>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8" name="a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8"></a>Clockwise&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79" name="a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79"></a>CounterClockwise&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a270a25a8ef13e07e59e7070834efc33f" name="a270a25a8ef13e07e59e7070834efc33f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a270a25a8ef13e07e59e7070834efc33f">&#9670;&#160;</a></span>ColoringType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a270a25a8ef13e07e59e7070834efc33f">MR::ColoringType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Type of object coloring, </p><dl class="section note"><dt>Note</dt><dd>that texture are applied over main coloring </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854" name="a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854"></a>SolidColor&#160;</td><td class="fielddoc"><p>Use one color for whole object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca" name="a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca"></a>PrimitivesColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from faces colormap) for each primitive. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba" name="a270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba"></a>FacesColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from faces colormap) for each face (primitive for object mesh) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197" name="a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197"></a>LinesColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from faces colormap) for each line (primitive for object lines) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd" name="a270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd"></a>VertsColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from verts colormap) for each vertex. </p>
+</td></tr>
 </table>
 
 </div>

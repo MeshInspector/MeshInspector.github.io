@@ -248,6 +248,6 @@ var NAVTREEINDEX1 =
 "MREnumNeighbours_8h.html#a94117671036cf6c2bf6bc33547519d1a":[6,0,3,0,0,1,3,88,2],
 "MREnumNeighbours_8h_source.html":[6,0,3,0,0,1,3,88],
 "MREnums_8h.html":[6,0,3,0,0,1,3,89],
-"MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8":[6,0,3,0,0,1,3,89,0],
-"MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f":[6,0,3,0,0,1,3,89,0,0]
+"MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33f":[6,0,3,0,0,1,3,89,0],
+"MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197":[6,0,3,0,0,1,3,89,0,3]
 };

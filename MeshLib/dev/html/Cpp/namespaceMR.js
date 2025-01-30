@@ -1080,12 +1080,12 @@ var namespaceMR =
       [ "Clockwise", "namespaceMR.html#a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8", null ],
       [ "CounterClockwise", "namespaceMR.html#a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79", null ]
     ] ],
-    [ "ColoringType", "group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f", [
-      [ "SolidColor", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
-      [ "PrimitivesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],
-      [ "FacesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba", null ],
-      [ "LinesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197", null ],
-      [ "VertsColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd", null ]
+    [ "ColoringType", "namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f", [
+      [ "SolidColor", "namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
+      [ "PrimitivesColorMap", "namespaceMR.html#a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],
+      [ "FacesColorMap", "namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba", null ],
+      [ "LinesColorMap", "namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197", null ],
+      [ "VertsColorMap", "namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd", null ]
     ] ],
     [ "ConeFitterType", "namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7d", [
       [ "ApproximationPCM", "namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7da966805730aa004c013d26ce8985852a7", null ],
