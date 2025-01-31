@@ -29,6 +29,8 @@ var searchData=
   ['enumneihbourvertices_26',['EnumNeihbourVertices',['../classMR_1_1EnumNeihbourVertices.html',1,'MR::EnumNeihbourVertices'],['../../Py/classmrmeshpy_1_1EnumNeihbourVertices.html',1,'mrmeshpy::EnumNeihbourVertices']]],
   ['equalvector3f_27',['equalVector3f',['../structMR_1_1MeshBuilder_1_1equalVector3f.html',1,'MR::MeshBuilder::equalVector3f'],['../../Py/classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html',1,'mrmeshpy::MeshBuilder::equalVector3f']]],
   ['event_28',['Event',['../../Py/classmrmeshpy_1_1PrecipitationSimulator_1_1Event.html',1,'mrmeshpy::PrecipitationSimulator']]],
-  ['externalsettings_29',['ExternalSettings',['../classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html',1,'MR::ViewerSettingsPlugin']]],
-  ['extremeedgetype_30',['ExtremeEdgeType',['../../Py/classmrmeshpy_1_1ExtremeEdgeType.html',1,'mrmeshpy']]]
+  ['expected_5fvoxelsload_5fdicomvolumet_5fvoxelsvolumeminmax_5fstd_5fshared_5fptr_5fopenvdbfloatgrid_5fstd_5fstring_29',['expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid_std_string',['../../Py/classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html',1,'mrmeshpy']]],
+  ['expected_5fvoxelsload_5fdicomvolumet_5fvoxelsvolumeminmax_5fstd_5fvector_5ffloat_5fstd_5fstring_30',['expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_vector_float_std_string',['../../Py/classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html',1,'mrmeshpy']]],
+  ['externalsettings_31',['ExternalSettings',['../classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html',1,'MR::ViewerSettingsPlugin']]],
+  ['extremeedgetype_32',['ExtremeEdgeType',['../../Py/classmrmeshpy_1_1ExtremeEdgeType.html',1,'mrmeshpy']]]
 ];
