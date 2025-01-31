@@ -217,6 +217,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a26aef28ce1d11ca3d234896aa61d763d" id="r_a26aef28ce1d11ca3d234896aa61d763d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26aef28ce1d11ca3d234896aa61d763d">selfIntersectionsMemory</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:a26aef28ce1d11ca3d234896aa61d763d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required GPU memory for CudaFastWindingNumber::calcSelfIntersections operation  <br /></td></tr>
 <tr class="separator:a26aef28ce1d11ca3d234896aa61d763d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10822c818c4f63288ba2afccb46bab3" id="r_ad10822c818c4f63288ba2afccb46bab3"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad10822c818c4f63288ba2afccb46bab3">pointsToDistanceVolumeMemory</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Vector3i &amp;dims, const VertNormals *ptNormals)</td></tr>
+<tr class="memdesc:ad10822c818c4f63288ba2afccb46bab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required GPU memory for <a class="el" href="namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9" title="makes SimpleVolume filled with signed distances to points with normals">Cuda::pointsToDistanceVolume</a>  <br /></td></tr>
+<tr class="separator:ad10822c818c4f63288ba2afccb46bab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The purpose of this class is to access CUDA algorithms without explicit dependency on MRCuda. </p>
@@ -609,6 +612,50 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad10822c818c4f63288ba2afccb46bab3" name="ad10822c818c4f63288ba2afccb46bab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10822c818c4f63288ba2afccb46bab3">&#9670;&#160;</a></span>pointsToDistanceVolumeMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API size_t MR::CudaAccessor::pointsToDistanceVolumeMemory </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertNormals *</td>          <td class="paramname"><span class="paramname"><em>ptNormals</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns amount of required GPU memory for <a class="el" href="namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9" title="makes SimpleVolume filled with signed distances to points with normals">Cuda::pointsToDistanceVolume</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pointCloud</td><td>- input point cloud </td></tr>
+    <tr><td class="paramname">dims</td><td>- dimensions of the volume </td></tr>
+    <tr><td class="paramname">ptNormals</td><td>- (optional) point normals </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

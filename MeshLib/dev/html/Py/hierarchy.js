@@ -300,6 +300,7 @@ var hierarchy =
     [ "mrmeshpy.func_bool_from_Id_VertTag", "classmrmeshpy_1_1func__bool__from__Id__VertTag.html", null ],
     [ "mrmeshpy.func_bool_from_MeshIntersectionResult", "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html", null ],
     [ "mrmeshpy.func_bool_from_MeshProjectionResult", "classmrmeshpy_1_1func__bool__from__MeshProjectionResult.html", null ],
+    [ "mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams", "classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams.html", null ],
     [ "mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction", "classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction.html", null ],
     [ "mrmeshpy.func_bool_from_unsigned_long_unsigned_long", "classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long.html", null ],
     [ "mrmeshpy.func_bool_from_unsigned_long_unsigned_long_unsigned_long_unsigned_long_unsigned_long_unsigned_long", "classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long__unsigned__long__unsigned__lon5cd9c59b205bf475b27cff8147219239.html", null ],

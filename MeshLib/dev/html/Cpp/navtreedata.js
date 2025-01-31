@@ -195,15 +195,15 @@ var NAVTREEINDEX =
 "structMR_1_1NameTagClickListener.html#a4a8c57e5f08a369097b9f8d66a0cb097",
 "structMR_1_1PackMapping.html",
 "structMR_1_1PointOnObject.html#a24573ab8d99e131aad6fa4b5b12e034f",
-"structMR_1_1PostRescaleListener.html",
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa",
-"structMR_1_1SegmEndColors.html#a34ba656028d463bdd70196ca015bdeab",
-"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51",
-"structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9",
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436",
-"structMR_1_1UiRenderParams.html",
-"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48",
-"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760"
+"structMR_1_1PostFocusListener.html#aca372f013f9f8d45231243ef9488c0c0",
+"structMR_1_1RenderDimensions_1_1LengthParams.html#a5723344bcea6403b4760e40c2e890f69",
+"structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b",
+"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95",
+"structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889",
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18",
+"structMR_1_1UiRenderManager.html#af9cfebf3c57b3c9b6283d7de32fc4adc",
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0182044b0d0e90bd265ddd66d56c87be",
+"structMR_1_1WeightedVertex.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

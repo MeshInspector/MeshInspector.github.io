@@ -1,5 +1,6 @@
 var structMR_1_1PointsToMeshParameters =
 [
+    [ "canCreateVolume", "structMR_1_1PointsToMeshParameters.html#ac61d0ecf32889b1131e50a2bbe6e852c", null ],
     [ "createVolumeCallback", "structMR_1_1PointsToMeshParameters.html#a79ea998979bc61c402e801d6a82b292d", null ],
     [ "minWeight", "structMR_1_1PointsToMeshParameters.html#a3bdeb5a4cdd00fc36ce6089cede17c0b", null ],
     [ "progress", "structMR_1_1PointsToMeshParameters.html#a1f8072d5242c289b8aa4c442285102e2", null ],

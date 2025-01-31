@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0182044b0d0e90bd265ddd66d56c87be":[6,0,2,0,1,694,0],
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,1,0,1,710,1],
 "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,2,0,1,694,1],
 "structMR_1_1VertDistance.html":[6,0,0,16,2,0],
 "structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1WebRequest_1_1FormData.html#aa47f592f9aed1c9c730d5e242dd2ca8e":[6,0,1,0,1,749,0,1],
 "structMR_1_1WebRequest_1_1FormData.html#aa47f592f9aed1c9c730d5e242dd2ca8e":[6,0,2,0,1,733,0,1],
 "structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,1,0,1,749,0,0],
-"structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,2,0,1,733,0,0],
-"structMR_1_1WeightedVertex.html":[6,0,1,0,1,750],
-"structMR_1_1WeightedVertex.html":[6,0,2,0,1,734]
+"structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,2,0,1,733,0,0]
 };

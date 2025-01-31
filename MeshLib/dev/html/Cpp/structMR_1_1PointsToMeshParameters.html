@@ -180,8 +180,27 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a79ea998979bc61c402e801d6a82b292d" id="r_a79ea998979bc61c402e801d6a82b292d"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79ea998979bc61c402e801d6a82b292d">createVolumeCallback</a></td></tr>
 <tr class="memdesc:a79ea998979bc61c402e801d6a82b292d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation. If null - volume will be created with memory efficient pointsToDistanceFunctionVolume function.  <br /></td></tr>
 <tr class="separator:a79ea998979bc61c402e801d6a82b292d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac61d0ecf32889b1131e50a2bbe6e852c" id="r_ac61d0ecf32889b1131e50a2bbe6e852c"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac61d0ecf32889b1131e50a2bbe6e852c">canCreateVolume</a></td></tr>
+<tr class="memdesc:ac61d0ecf32889b1131e50a2bbe6e852c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for checking whether it's possible to use the volume creation function.  <br /></td></tr>
+<tr class="separator:ac61d0ecf32889b1131e50a2bbe6e852c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac61d0ecf32889b1131e50a2bbe6e852c" name="ac61d0ecf32889b1131e50a2bbe6e852c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac61d0ecf32889b1131e50a2bbe6e852c">&#9670;&#160;</a></span>canCreateVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;bool ( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::canCreateVolume</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Callback for checking whether it's possible to use the volume creation function. </p>
+
+</div>
+</div>
 <a id="a79ea998979bc61c402e801d6a82b292d" name="a79ea998979bc61c402e801d6a82b292d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79ea998979bc61c402e801d6a82b292d">&#9670;&#160;</a></span>createVolumeCallback</h2>
 

@@ -980,6 +980,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.func_bool_from_Id_VertTag", "classmrmeshpy_1_1func__bool__from__Id__VertTag.html", "classmrmeshpy_1_1func__bool__from__Id__VertTag" ],
     [ "mrmeshpy.func_bool_from_MeshIntersectionResult", "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html", "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult" ],
     [ "mrmeshpy.func_bool_from_MeshProjectionResult", "classmrmeshpy_1_1func__bool__from__MeshProjectionResult.html", "classmrmeshpy_1_1func__bool__from__MeshProjectionResult" ],
+    [ "mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams", "classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams.html", "classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams" ],
     [ "mrmeshpy.func_bool_from_float", "classmrmeshpy_1_1func__bool__from__float.html", "classmrmeshpy_1_1func__bool__from__float" ],
     [ "mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction", "classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction.html", "classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction" ],
     [ "mrmeshpy.func_bool_from_unsigned_long_unsigned_long", "classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long.html", "classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long" ],
