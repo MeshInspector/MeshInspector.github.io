@@ -1,5 +1,12 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1SpaceMouseHandler.html#ae552842183fceec422514e422d1f0d73":[6,0,2,0,1,607,0],
+"classMR_1_1SpaceMouseHandlerHidapi.html":[6,0,1,0,1,624],
+"classMR_1_1SpaceMouseHandlerHidapi.html":[6,0,2,0,1,608],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a6ae949deecea5c7980616194d48db713":[6,0,1,0,1,624,5],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a6ae949deecea5c7980616194d48db713":[6,0,2,0,1,608,5],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a84930e9f8ad1885e7875acfcca06aa87":[6,0,1,0,1,624,2],
+"classMR_1_1SpaceMouseHandlerHidapi.html#a84930e9f8ad1885e7875acfcca06aa87":[6,0,2,0,1,608,2],
 "classMR_1_1SpaceMouseHandlerHidapi.html#aa060a98d28e698b6d9e07b326f7c076a":[6,0,1,0,1,624,0],
 "classMR_1_1SpaceMouseHandlerHidapi.html#aa060a98d28e698b6d9e07b326f7c076a":[6,0,2,0,1,608,0],
 "classMR_1_1SpaceMouseHandlerHidapi.html#adf220c93efe5a91704da349086edcf46":[6,0,1,0,1,624,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1SystemPath.html":[6,0,2,0,1,632],
 "classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8":[6,0,1,0,1,648,2],
 "classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8":[6,0,2,0,1,632,2],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a114c3050111d8b8ddd830b99ccebd246":[6,0,1,0,1,648,2,1],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a114c3050111d8b8ddd830b99ccebd246":[6,0,2,0,1,632,2,1],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a1d874710ccdcd46b95397049d2e7500c":[6,0,1,0,1,648,2,2],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a1d874710ccdcd46b95397049d2e7500c":[6,0,2,0,1,632,2,2],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a1e8fb6e2ee37a07189ff20a09cb4d6d5":[6,0,1,0,1,648,2,3],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a1e8fb6e2ee37a07189ff20a09cb4d6d5":[6,0,2,0,1,632,2,3],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8ad2203cb1237cb6460cbad94564e39345":[6,0,1,0,1,648,2,0],
-"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8ad2203cb1237cb6460cbad94564e39345":[6,0,2,0,1,632,2,0]
+"classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a114c3050111d8b8ddd830b99ccebd246":[6,0,1,0,1,648,2,1]
 };

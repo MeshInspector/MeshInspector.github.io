@@ -139,6 +139,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRViewerSettingsPlugin.h", "MRViewerSettingsPlugin_8h.html", "MRViewerSettingsPlugin_8h" ],
     [ "MRViewerTitle.h", "MRViewerTitle_8h.html", "MRViewerTitle_8h" ],
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
+    [ "MRViewportCornerController.h", "MRViewportCornerController_8h.html", "MRViewportCornerController_8h" ],
     [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
     [ "MRViewportParametersAction.h", "MRViewportParametersAction_8h.html", null ],
     [ "MRVisualSubfeatures.h", "MRVisualSubfeatures_8h.html", "MRVisualSubfeatures_8h" ],

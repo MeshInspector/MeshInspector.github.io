@@ -5603,6 +5603,21 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a8f5fb86a1540069cb56260e0edbde09e" id="r_a8f5fb86a1540069cb56260e0edbde09e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8f5fb86a1540069cb56260e0edbde09e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8f5fb86a1540069cb56260e0edbde09e">toVec4</a> (const <a class="el" href="#ae679240dc1c3cb46bbffe4002f1f48e5">ViewportRectangle</a> &amp;rect)</td></tr>
 <tr class="separator:a8f5fb86a1540069cb56260e0edbde09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e39381727e51c4cad64d4e0c4f3b8f" id="r_a60e39381727e51c4cad64d4e0c4f3b8f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60e39381727e51c4cad64d4e0c4f3b8f">makeCornerControllerMesh</a> (float <a class="el" href="#a306ff1f62992b3eb33c446913b64188a">size</a>, float cornerRatio=0.2f)</td></tr>
+<tr class="memdesc:a60e39381727e51c4cad64d4e0c4f3b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes cube mesh with specified face structure for each 3-rank corner, each 2-rank corner and each side:<br  />
+.  <br /></td></tr>
+<tr class="separator:a60e39381727e51c4cad64d4e0c4f3b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a752cac87f232b837b0e170b05613e65b" id="r_a752cac87f232b837b0e170b05613e65b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const FaceColors &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a752cac87f232b837b0e170b05613e65b">getCornerControllerColorMap</a> ()</td></tr>
+<tr class="separator:a752cac87f232b837b0e170b05613e65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1998b7c6048ad3f3b7bee341e9ee8fcc" id="r_a1998b7c6048ad3f3b7bee341e9ee8fcc"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API RegionId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1998b7c6048ad3f3b7bee341e9ee8fcc">getCornerControllerRegionByFace</a> (FaceId face)</td></tr>
+<tr class="memdesc:a1998b7c6048ad3f3b7bee341e9ee8fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns region id of corner controller by its face  <br /></td></tr>
+<tr class="separator:a1998b7c6048ad3f3b7bee341e9ee8fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee618cfcbbb8ca6b32b13839781ce3a" id="r_aeee618cfcbbb8ca6b32b13839781ce3a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API FaceColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeee618cfcbbb8ca6b32b13839781ce3a">getCornerControllerHoveredColorMap</a> (RegionId rId)</td></tr>
+<tr class="memdesc:aeee618cfcbbb8ca6b32b13839781ce3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns color map with region faces hovered  <br /></td></tr>
+<tr class="separator:aeee618cfcbbb8ca6b32b13839781ce3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86fd415280ce1a1ec77173ecce0be05d" id="r_a86fd415280ce1a1ec77173ecce0be05d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86fd415280ce1a1ec77173ecce0be05d">updateCurrentViewByControllerRegion</a> (RegionId rId)</td></tr>
+<tr class="memdesc:a86fd415280ce1a1ec77173ecce0be05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup camera for selected viewport by corner controller region  <br /></td></tr>
+<tr class="separator:a86fd415280ce1a1ec77173ecce0be05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d373c7805aa607ceab34f611207120c" id="r_a1d373c7805aa607ceab34f611207120c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d373c7805aa607ceab34f611207120c">operator==</a> (const <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &amp;a, const <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &amp;b)</td></tr>
 <tr class="separator:a1d373c7805aa607ceab34f611207120c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a063c104022f7dee6a63efd4b129f4779" id="r_a063c104022f7dee6a63efd4b129f4779"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a063c104022f7dee6a63efd4b129f4779">operator==</a> (const <a class="el" href="structMR_1_1ViewportPointsWithColors.html">ViewportPointsWithColors</a> &amp;a, const <a class="el" href="structMR_1_1ViewportPointsWithColors.html">ViewportPointsWithColors</a> &amp;b)</td></tr>
@@ -17447,6 +17462,67 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
 
 </div>
 </div>
+<a id="a752cac87f232b837b0e170b05613e65b" name="a752cac87f232b837b0e170b05613e65b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a752cac87f232b837b0e170b05613e65b">&#9670;&#160;</a></span>getCornerControllerColorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API const FaceColors &amp; MR::getCornerControllerColorMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns color map for each part<br  />
+x side - red<br  />
+y side - green<br  />
+z side - blue<br  />
+xy - mixed red + green<br  />
+etc. </p>
+
+</div>
+</div>
+<a id="aeee618cfcbbb8ca6b32b13839781ce3a" name="aeee618cfcbbb8ca6b32b13839781ce3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeee618cfcbbb8ca6b32b13839781ce3a">&#9670;&#160;</a></span>getCornerControllerHoveredColorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API FaceColors MR::getCornerControllerHoveredColorMap </td>
+          <td>(</td>
+          <td class="paramtype">RegionId</td>          <td class="paramname"><span class="paramname"><em>rId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns color map with region faces hovered </p>
+
+</div>
+</div>
+<a id="a1998b7c6048ad3f3b7bee341e9ee8fcc" name="a1998b7c6048ad3f3b7bee341e9ee8fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1998b7c6048ad3f3b7bee341e9ee8fcc">&#9670;&#160;</a></span>getCornerControllerRegionByFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API RegionId MR::getCornerControllerRegionByFace </td>
+          <td>(</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>face</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns region id of corner controller by its face </p>
+
+</div>
+</div>
 <a id="a7b5e5990972490ea4d3803ccca1b3757" name="a7b5e5990972490ea4d3803ccca1b3757"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b5e5990972490ea4d3803ccca1b3757">&#9670;&#160;</a></span>GetCpuId()</h2>
 
@@ -20979,6 +21055,38 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60e39381727e51c4cad64d4e0c4f3b8f" name="a60e39381727e51c4cad64d4e0c4f3b8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e39381727e51c4cad64d4e0c4f3b8f">&#9670;&#160;</a></span>makeCornerControllerMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a> MR::makeCornerControllerMesh </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>cornerRatio</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.2f</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes cube mesh with specified face structure for each 3-rank corner, each 2-rank corner and each side:<br  />
+. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>full side length of the cume</td></tr>
+    <tr><td class="paramname">cornerRatio</td><td>ratio of side length that is used for corners</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Cube mesh with specified face structure</dd></dl>
 
 </div>
 </div>
@@ -31269,6 +31377,25 @@ template&lt;UnitEnum E&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86fd415280ce1a1ec77173ecce0be05d" name="a86fd415280ce1a1ec77173ecce0be05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86fd415280ce1a1ec77173ecce0be05d">&#9670;&#160;</a></span>updateCurrentViewByControllerRegion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::updateCurrentViewByControllerRegion </td>
+          <td>(</td>
+          <td class="paramtype">RegionId</td>          <td class="paramname"><span class="paramname"><em>rId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setup camera for selected viewport by corner controller region </p>
 
 </div>
 </div>

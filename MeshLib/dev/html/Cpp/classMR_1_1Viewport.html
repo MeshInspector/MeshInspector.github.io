@@ -208,6 +208,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aea73df9e40d43b09061ad03b015f1c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9af25421c857c554aaabfdc28898cd61" id="r_a9af25421c857c554aaabfdc28898cd61"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9af25421c857c554aaabfdc28898cd61">setAxesSize</a> (const int axisPixSize=80)</td></tr>
 <tr class="separator:a9af25421c857c554aaabfdc28898cd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b2f4de02033c7851a3b5278b630363" id="r_a42b2f4de02033c7851a3b5278b630363"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const Vector2f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b2f4de02033c7851a3b5278b630363">getAxesPosition</a> () const</td></tr>
+<tr class="memdesc:a42b2f4de02033c7851a3b5278b630363"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns position of basis axes in viewport space  <br /></td></tr>
+<tr class="separator:a42b2f4de02033c7851a3b5278b630363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f5609993c8491d9e241e4147f8d706" id="r_a16f5609993c8491d9e241e4147f8d706"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16f5609993c8491d9e241e4147f8d706">getAxesSize</a> () const</td></tr>
+<tr class="separator:a16f5609993c8491d9e241e4147f8d706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39f390490ab32f3e82944c85978c7f6" id="r_ac39f390490ab32f3e82944c85978c7f6"><td class="memItemLeft" align="right" valign="top">const Matrix4f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac39f390490ab32f3e82944c85978c7f6">getAxesProjectionMatrix</a> () const</td></tr>
+<tr class="memdesc:ac39f390490ab32f3e82944c85978c7f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns projection matrix that is used for basis axes and view controller rendering  <br /></td></tr>
+<tr class="separator:ac39f390490ab32f3e82944c85978c7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fc1e84a964766414f289905f15aa910" id="r_a0fc1e84a964766414f289905f15aa910"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc1e84a964766414f289905f15aa910">shut</a> ()</td></tr>
 <tr class="separator:a0fc1e84a964766414f289905f15aa910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed7cd0744cb8952c62680f7168da3a5b" id="r_aed7cd0744cb8952c62680f7168da3a5b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed7cd0744cb8952c62680f7168da3a5b">clearFramebuffers</a> ()</td></tr>
@@ -265,8 +273,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeea675f914f282d4bb811e8e4c771bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a190a1a73b0c964dd18d83d248e27b26f" id="r_a190a1a73b0c964dd18d83d248e27b26f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a190a1a73b0c964dd18d83d248e27b26f">pick_render_object</a> (const std::vector&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const Vector2f &amp;viewportPoint) const</td></tr>
 <tr class="separator:a190a1a73b0c964dd18d83d248e27b26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8d361bfbb43fdcccc7466ae900566ae" id="r_aa8d361bfbb43fdcccc7466ae900566ae"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8d361bfbb43fdcccc7466ae900566ae">multiPickObjects</a> (std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const std::vector&lt; Vector2f &gt; &amp;viewportPoints) const</td></tr>
-<tr class="separator:aa8d361bfbb43fdcccc7466ae900566ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab849f5462b1c06bb481e6c4bc9ba751d" id="r_ab849f5462b1c06bb481e6c4bc9ba751d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab849f5462b1c06bb481e6c4bc9ba751d">multiPickObjects</a> (std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const std::vector&lt; Vector2f &gt; &amp;viewportPoints, const <a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a> *overrideRenderParams=nullptr) const</td></tr>
+<tr class="separator:ab849f5462b1c06bb481e6c4bc9ba751d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8d2d1ebf05bdfac6a830fc7ccb9c76c" id="r_ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8d2d1ebf05bdfac6a830fc7ccb9c76c">findObjectsInRect</a> (const Box2i &amp;rect, int maxRenderResolutionSide=512) const</td></tr>
 <tr class="separator:ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92197d0812be326f98d5480f8235b4de" id="r_a92197d0812be326f98d5480f8235b4de"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;, FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92197d0812be326f98d5480f8235b4de">findVisibleFaces</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;includePixBs, int maxRenderResolutionSide=512) const</td></tr>
@@ -1176,6 +1184,69 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a42b2f4de02033c7851a3b5278b630363" name="a42b2f4de02033c7851a3b5278b630363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b2f4de02033c7851a3b5278b630363">&#9670;&#160;</a></span>getAxesPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API const Vector2f &amp; MR::Viewport::getAxesPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns position of basis axes in viewport space </p>
+
+</div>
+</div>
+<a id="ac39f390490ab32f3e82944c85978c7f6" name="ac39f390490ab32f3e82944c85978c7f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac39f390490ab32f3e82944c85978c7f6">&#9670;&#160;</a></span>getAxesProjectionMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Matrix4f &amp; MR::Viewport::getAxesProjectionMatrix </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns projection matrix that is used for basis axes and view controller rendering </p>
+
+</div>
+</div>
+<a id="a16f5609993c8491d9e241e4147f8d706" name="a16f5609993c8491d9e241e4147f8d706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f5609993c8491d9e241e4147f8d706">&#9670;&#160;</a></span>getAxesSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API float MR::Viewport::getAxesSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8255ed3018ea3bae113c3b6c87ccbc96" name="a8255ed3018ea3bae113c3b6c87ccbc96"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8255ed3018ea3bae113c3b6c87ccbc96">&#9670;&#160;</a></span>getBackwardDirection()</h2>
 
@@ -1663,8 +1734,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa8d361bfbb43fdcccc7466ae900566ae" name="aa8d361bfbb43fdcccc7466ae900566ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8d361bfbb43fdcccc7466ae900566ae">&#9670;&#160;</a></span>multiPickObjects()</h2>
+<a id="ab849f5462b1c06bb481e6c4bc9ba751d" name="ab849f5462b1c06bb481e6c4bc9ba751d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab849f5462b1c06bb481e6c4bc9ba751d">&#9670;&#160;</a></span>multiPickObjects()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1677,7 +1748,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Vector2f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>viewportPoints</em></span>&#160;) const</td>
+          <td class="paramtype">const std::vector&lt; Vector2f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>viewportPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a> *</td>          <td class="paramname"><span class="paramname"><em>overrideRenderParams</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

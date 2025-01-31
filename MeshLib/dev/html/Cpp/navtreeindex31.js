@@ -1,5 +1,12 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1ObjectPointsHolder.html#a8c4e3b9cafca3e334c278e0d0edaf6f4":[6,0,2,0,1,394,10],
+"classMR_1_1ObjectPointsHolder.html#a9cb5c91de776239dbfc1ee5ff9c6715e":[6,0,1,0,1,410,38],
+"classMR_1_1ObjectPointsHolder.html#a9cb5c91de776239dbfc1ee5ff9c6715e":[6,0,2,0,1,394,38],
+"classMR_1_1ObjectPointsHolder.html#aa25dc82cc5e496a153beeae60247d6c3":[6,0,1,0,1,410,31],
+"classMR_1_1ObjectPointsHolder.html#aa25dc82cc5e496a153beeae60247d6c3":[6,0,2,0,1,394,31],
+"classMR_1_1ObjectPointsHolder.html#aa53d380f14d7e4f6295ef7054713cf91":[6,0,1,0,1,410,12],
+"classMR_1_1ObjectPointsHolder.html#aa53d380f14d7e4f6295ef7054713cf91":[6,0,2,0,1,394,12],
 "classMR_1_1ObjectPointsHolder.html#aa5d09d8ac06d164d03a166e6a4cd6b24":[6,0,1,0,1,410,9],
 "classMR_1_1ObjectPointsHolder.html#aa5d09d8ac06d164d03a166e6a4cd6b24":[6,0,2,0,1,394,9],
 "classMR_1_1ObjectPointsHolder.html#aa7f91dadfb276318513e5f3022078c63":[6,0,1,0,1,410,36],
@@ -242,12 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1Palette.html#ac45bdaf4d2808a25a9b6aa7739030f56":[6,0,2,0,1,423,17],
 "classMR_1_1Palette.html#ac4e7906af8dbc34bddc17c0e1e7878a9":[6,0,1,0,1,439,7],
 "classMR_1_1Palette.html#ac4e7906af8dbc34bddc17c0e1e7878a9":[6,0,2,0,1,423,7],
-"classMR_1_1Palette.html#adccdea8021d31637354ec45f848bb7a3":[6,0,1,0,1,439,13],
-"classMR_1_1Palette.html#adccdea8021d31637354ec45f848bb7a3":[6,0,2,0,1,423,13],
-"classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73":[6,0,1,0,1,439,23],
-"classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73":[6,0,2,0,1,423,23],
-"classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,1,0,1,439,19],
-"classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,2,0,1,423,19],
-"classMR_1_1PalettePresets.html":[6,0,1,0,1,440],
-"classMR_1_1PalettePresets.html":[6,0,2,0,1,424]
+"classMR_1_1Palette.html#adccdea8021d31637354ec45f848bb7a3":[6,0,1,0,1,439,13]
 };
