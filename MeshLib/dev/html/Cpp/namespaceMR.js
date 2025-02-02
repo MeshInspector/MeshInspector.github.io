@@ -711,6 +711,7 @@ var namespaceMR =
     [ "SetViewPresetMenuItem", "classMR_1_1SetViewPresetMenuItem.html", "classMR_1_1SetViewPresetMenuItem" ],
     [ "ShaderWarning", "structMR_1_1ShaderWarning.html", "structMR_1_1ShaderWarning" ],
     [ "ShadowsGL", "classMR_1_1ShadowsGL.html", "classMR_1_1ShadowsGL" ],
+    [ "SharedThreadSafeOwner", "classMR_1_1SharedThreadSafeOwner.html", "classMR_1_1SharedThreadSafeOwner" ],
     [ "SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", "structMR_1_1SharpenMarchingCubesMeshSettings" ],
     [ "SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", "structMR_1_1SharpOffsetParameters" ],
     [ "ShellVertexInfo", "structMR_1_1ShellVertexInfo.html", "structMR_1_1ShellVertexInfo" ],

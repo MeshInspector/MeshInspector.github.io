@@ -13,6 +13,7 @@ var group__AABBTreeGroup =
       [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
       [ "operator=", "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5", null ],
       [ "refit", "classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0", null ],
+      [ "SharedThreadSafeOwner< AABBTree >", "classMR_1_1AABBTree.html#a1c7a27ff83b86c0c4b27ab51c59cdedb", null ],
       [ "UniqueThreadSafeOwner< AABBTree >", "classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf", null ]
     ] ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", [
@@ -73,6 +74,7 @@ var group__AABBTreeGroup =
       [ "operator[]", "classMR_1_1AABBTreePoints.html#a067a3df7f5d829eb589583ac6cd370b4", null ],
       [ "orderedPoints", "classMR_1_1AABBTreePoints.html#a41964dab96066d649af6862a0978c4e2", null ],
       [ "refit", "classMR_1_1AABBTreePoints.html#ab5f64a7b70e62b9965109f36108247e0", null ],
+      [ "SharedThreadSafeOwner< AABBTreePoints >", "classMR_1_1AABBTreePoints.html#a35c04a1429847484ecc187e053a7a5d3", null ],
       [ "UniqueThreadSafeOwner< AABBTreePoints >", "classMR_1_1AABBTreePoints.html#ab727b425d862eaa2f2f61e6b1e287174", null ]
     ] ],
     [ "MR::PolylineTraits< V >", "structMR_1_1PolylineTraits.html", null ],
@@ -88,6 +90,7 @@ var group__AABBTreeGroup =
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c", null ],
       [ "operator=", "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a", null ],
+      [ "SharedThreadSafeOwner< AABBTreePolyline >", "classMR_1_1AABBTreePolyline.html#ac9462890b338f7d6d0455c3137f6a48b", null ],
       [ "UniqueThreadSafeOwner< AABBTreePolyline >", "classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170", null ]
     ] ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", [
@@ -205,6 +208,14 @@ var group__AABBTreeGroup =
       [ "dist", "structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d", null ],
       [ "line", "structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3", null ],
       [ "point", "structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d", null ]
+    ] ],
+    [ "MR::SharedThreadSafeOwner< T >", "classMR_1_1SharedThreadSafeOwner.html", [
+      [ "get", "classMR_1_1SharedThreadSafeOwner.html#a0967bda588492731c2eee9efd06f85c4", null ],
+      [ "getOrCreate", "classMR_1_1SharedThreadSafeOwner.html#a4c20ad14141336cb4425292554f07689", null ],
+      [ "getPtr", "classMR_1_1SharedThreadSafeOwner.html#a5e3f86e91882b6b1f32c3bff31d263a6", null ],
+      [ "heapBytes", "classMR_1_1SharedThreadSafeOwner.html#a0733aa79162afebb9f5a3b59c218fcd6", null ],
+      [ "reset", "classMR_1_1SharedThreadSafeOwner.html#a0e3ad4008e5871020312edfeef6a8ddf", null ],
+      [ "update", "classMR_1_1SharedThreadSafeOwner.html#a0369c315650a9542cd2919ed23b596f5", null ]
     ] ],
     [ "MR::UniqueThreadSafeOwner< T >", "classMR_1_1UniqueThreadSafeOwner.html", [
       [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html#aeef82c61856472cfd39c42fe30004d4a", null ],

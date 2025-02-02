@@ -1,5 +1,17 @@
 var NAVTREEINDEX60 =
 {
+"structMRMakeUVSphereParameters.html#aedc7390bb236cdc9cf5301bbe25ece8e":[6,0,2,0,27,1],
+"structMRMakeUVSphereParameters.html#af470017e8fbca8a02433a21aea67d8c1":[6,0,2,0,27,2],
+"structMRMatrix3f.html":[6,0,2,0,28],
+"structMRMatrix3f.html#a37136d0dd3e59903d93dce302d67ef80":[6,0,2,0,28,2],
+"structMRMatrix3f.html#a686868c956db1adad2118fb78bdf78a1":[6,0,2,0,28,0],
+"structMRMatrix3f.html#ae16453e4e2accbf33c6a671a6eaaf3f0":[6,0,2,0,28,1],
+"structMRMeshAddPartByMaskParameters.html":[6,0,2,0,29],
+"structMRMeshAddPartByMaskParameters.html#a44d229246d984354c601ed5d5c011ad2":[6,0,2,0,29,1],
+"structMRMeshAddPartByMaskParameters.html#a4abae4fa5c8338675546a7bfa72c835f":[6,0,2,0,29,4],
+"structMRMeshAddPartByMaskParameters.html#a82f29da791e5580c60d0985825060327":[6,0,2,0,29,2],
+"structMRMeshAddPartByMaskParameters.html#abd652b5aec7c21efa6b40cc1e4d72be9":[6,0,2,0,29,3],
+"structMRMeshAddPartByMaskParameters.html#ac49ea6f7631c4b8b6d59a3232b6787a2":[6,0,2,0,29,0],
 "structMRMeshComponentsMap.html":[6,0,2,0,30],
 "structMRMeshComponentsMap.html#a0c429d62c5f1e1b3d2b3a7c7e5bc4bb6":[6,0,2,0,30,1],
 "structMRMeshComponentsMap.html#a3467e2d4e586656d221e09cd01416c20":[6,0,2,0,30,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,1,0,1,56,4],
 "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,2,0,1,40,4],
 "structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,1,0,1,56,5],
-"structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,2,0,1,40,5],
-"structMR_1_1AncillaryMesh.html":[6,0,1,0,1,57],
-"structMR_1_1AncillaryMesh.html":[6,0,2,0,1,41],
-"structMR_1_1AncillaryMesh.html#a1ca43fe7d75b0248f913382d597ca50c":[6,0,1,0,1,57,5],
-"structMR_1_1AncillaryMesh.html#a1ca43fe7d75b0248f913382d597ca50c":[6,0,2,0,1,41,5],
-"structMR_1_1AncillaryMesh.html#a2a6863cc813c77827137f29a5688b80a":[6,0,1,0,1,57,4],
-"structMR_1_1AncillaryMesh.html#a2a6863cc813c77827137f29a5688b80a":[6,0,2,0,1,41,4],
-"structMR_1_1AncillaryMesh.html#a6b419d58ac8ef363f12d96be28c48637":[6,0,1,0,1,57,0],
-"structMR_1_1AncillaryMesh.html#a6b419d58ac8ef363f12d96be28c48637":[6,0,2,0,1,41,0],
-"structMR_1_1AncillaryMesh.html#a777bcc1bb0ce9a0d628c6c36b727b767":[6,0,1,0,1,57,3],
-"structMR_1_1AncillaryMesh.html#a777bcc1bb0ce9a0d628c6c36b727b767":[6,0,2,0,1,41,3],
-"structMR_1_1AncillaryMesh.html#a8a528306a33323e01e042183dae875de":[6,0,1,0,1,57,2],
-"structMR_1_1AncillaryMesh.html#a8a528306a33323e01e042183dae875de":[6,0,2,0,1,41,2]
+"structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,2,0,1,40,5]
 };

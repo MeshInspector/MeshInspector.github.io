@@ -320,6 +320,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRSegmPoint.h", "MRSegmPoint_8h.html", null ],
     [ "MRSeparationPoint.h", "MRSeparationPoint_8h.html", "MRSeparationPoint_8h" ],
     [ "MRSerializer.h", "MRSerializer_8h.html", "MRSerializer_8h" ],
+    [ "MRSharedThreadSafeOwner.h", "MRSharedThreadSafeOwner_8h.html", null ],
     [ "MRSharpenMarchingCubesMesh.h", "MRSharpenMarchingCubesMesh_8h.html", "MRSharpenMarchingCubesMesh_8h" ],
     [ "MRSignal.h", "MRSignal_8h.html", "MRSignal_8h" ],
     [ "MRSignDetectionMode.h", "MRMesh_2MRSignDetectionMode_8h.html", "MRMesh_2MRSignDetectionMode_8h" ],
