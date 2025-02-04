@@ -143,6 +143,9 @@ var NAVTREEINDEX0 =
 "MRAABBTree_8h_source.html":[6,0,3,0,0,1,3,3],
 "MRAddCustomTheme_8h.html":[6,0,3,0,0,1,0,2,0],
 "MRAddCustomTheme_8h_source.html":[6,0,3,0,0,1,0,2,0],
+"MRAddNoise_8h.html":[6,0,3,0,0,1,3,10],
+"MRAddNoise_8h.html#ac87c8628100309ba212e32c882cb85e0":[6,0,3,0,0,1,3,10,1],
+"MRAddNoise_8h_source.html":[6,0,3,0,0,1,3,10],
 "MRAddVisualPropertiesMixin_8h.html":[6,0,3,0,0,1,3,11],
 "MRAddVisualPropertiesMixin_8h_source.html":[6,0,3,0,0,1,3,11],
 "MRAffineXf2_8h.html":[6,0,3,0,0,1,3,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX0 =
 "MRCanonicalTypedefs_8h.html#a2903a0e2c131ffaa26858a7eb32ab7a8":[6,0,3,0,0,1,3,32,2],
 "MRCanonicalTypedefs_8h.html#a3ef3f2296c0ae0d60a92c9adbf443c9b":[6,0,3,0,0,1,3,32,1],
 "MRCanonicalTypedefs_8h.html#abbdf37435c9fc8f0138b1bd0133c1d17":[6,0,3,0,0,1,3,32,5],
-"MRCanonicalTypedefs_8h.html#addc4eaad729e291000785733b3c6fca4":[6,0,3,0,0,1,3,32,4],
-"MRCanonicalTypedefs_8h.html#ae44070646e8a5e9428e0719d800a30df":[6,0,3,0,0,1,3,32,3],
-"MRCanonicalTypedefs_8h.html#ae898c417c701835f79a846a1af84f2c7":[6,0,3,0,0,1,3,32,0],
-"MRCanonicalTypedefs_8h_source.html":[6,0,3,0,0,1,3,32]
+"MRCanonicalTypedefs_8h.html#addc4eaad729e291000785733b3c6fca4":[6,0,3,0,0,1,3,32,4]
 };

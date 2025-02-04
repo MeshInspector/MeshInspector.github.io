@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"classmrmeshpy_1_1ToolPathResult.html#a212f90490317f851d514e1af1585e4d9":[6,1,0,0,2,944,2],
-"classmrmeshpy_1_1ToolPathResult.html#a212f90490317f851d514e1af1585e4d9":[6,1,1,0,1,944,2],
 "classmrmeshpy_1_1ToolPathResult.html#a498c72d3107699ba1d0554fed7941132":[6,1,0,0,2,944,8],
 "classmrmeshpy_1_1ToolPathResult.html#a498c72d3107699ba1d0554fed7941132":[6,1,1,0,1,944,8],
 "classmrmeshpy_1_1ToolPathResult.html#a4da74998438962e63e4860c6994c976e":[6,1,0,0,2,944,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae98583947cbbbf5e8e30425770a8e7b5":[6,1,0,0,2,948,0,12],
 "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae98583947cbbbf5e8e30425770a8e7b5":[6,1,1,0,1,948,0,12],
 "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af93c1982dda9e3eb07f4ba696c5d4f3c":[6,1,0,0,2,948,0,3],
-"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af93c1982dda9e3eb07f4ba696c5d4f3c":[6,1,1,0,1,948,0,3]
+"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af93c1982dda9e3eb07f4ba696c5d4f3c":[6,1,1,0,1,948,0,3],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html":[6,1,0,0,2,948,1],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html":[6,1,1,0,1,948,1]
 };

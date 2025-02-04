@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80ec":[6,0,3,0,0,1,3,126,1],
+"MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80eca55f4b4a94111759e08b3acb1acd12b8c":[6,0,3,0,0,1,3,126,1,0],
+"MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed":[6,0,3,0,0,1,3,126,1,2],
+"MRICPEnums_8h.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9":[6,0,3,0,0,1,3,126,1,1],
+"MRICPEnums_8h_source.html":[6,0,3,0,0,1,3,126],
+"MRIOExtras_2MRIOExtras_8h.html":[6,0,3,0,0,1,2,5],
+"MRIOExtras_2MRIOExtras_8h.html#a751784f805f40929323bdfaa12fe10ac":[6,0,3,0,0,1,2,5,0],
 "MRIOExtras_2MRIOExtras_8h_source.html":[6,0,3,0,0,1,2,5],
 "MRIOExtras_2config_8h.html":[6,0,3,0,0,1,2,0],
 "MRIOExtras_2config_8h_source.html":[6,0,3,0,0,1,2,0],
@@ -181,6 +188,8 @@ var NAVTREEINDEX3 =
 "MRJpeg_8h_source.html":[6,0,3,0,0,1,2,6],
 "MRLambdaRibbonItem_8h.html":[6,0,3,0,0,1,9,34],
 "MRLambdaRibbonItem_8h_source.html":[6,0,3,0,0,1,9,34],
+"MRLaplacian_8h.html":[6,0,3,0,0,1,3,146],
+"MRLaplacian_8h_source.html":[6,0,3,0,0,1,3,146],
 "MRLas_8h.html":[6,0,3,0,0,1,2,7],
 "MRLas_8h.html#ab39953df84a0deacd37f047884a37372":[6,0,3,0,0,1,2,7,0],
 "MRLas_8h.html#ae4cbf7590e7b73675bbbdaa9fb468ac2":[6,0,3,0,0,1,2,7,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX3 =
 "MRMacOSOpenDocumentsHandler_8h_source.html":[6,0,3,0,0,1,9,36],
 "MRMacros_8h.html":[6,0,3,0,0,1,3,158],
 "MRMacros_8h.html#a0fd290c4738dc2f265b144020d97b290":[6,0,3,0,0,1,3,158,3],
-"MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293":[6,0,3,0,0,1,3,158,9],
-"MRMacros_8h.html#a30c21a4f7f46e470b0c9ba48648699b1":[6,0,3,0,0,1,3,158,5],
-"MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a":[6,0,3,0,0,1,3,158,1],
-"MRMacros_8h.html#a98c9bc1fa1800fdfc987995748d5944b":[6,0,3,0,0,1,3,158,0],
-"MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db":[6,0,3,0,0,1,3,158,8],
-"MRMacros_8h.html#ac35e66533e158a4bf53982a2c109bd09":[6,0,3,0,0,1,3,158,2],
-"MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb":[6,0,3,0,0,1,3,158,7],
-"MRMacros_8h.html#adc8a2290a0ad34bf18acb8498b4bb91a":[6,0,3,0,0,1,3,158,6],
-"MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949":[6,0,3,0,0,1,3,158,4],
-"MRMacros_8h_source.html":[6,0,3,0,0,1,3,158]
+"MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293":[6,0,3,0,0,1,3,158,9]
 };

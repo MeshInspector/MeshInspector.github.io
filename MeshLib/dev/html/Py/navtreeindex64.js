@@ -1,7 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"classmrmeshpy_1_1RawTiffOutput.html#af6bf79b0b747b63f03df2833c124c5bd":[6,1,0,0,2,675,10],
-"classmrmeshpy_1_1RawTiffOutput.html#af6bf79b0b747b63f03df2833c124c5bd":[6,1,1,0,1,675,10],
 "classmrmeshpy_1_1RawTiffOutput.html#afd12ba9522729d1e10e425606eeeac09":[6,1,0,0,2,675,5],
 "classmrmeshpy_1_1RawTiffOutput.html#afd12ba9522729d1e10e425606eeeac09":[6,1,1,0,1,675,5],
 "classmrmeshpy_1_1RebuildMeshSettings.html":[6,1,0,0,2,676],
@@ -249,5 +247,7 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1RegularMapMesher.html#a22a2a81ac3370a493343abc35f05f10d":[6,1,0,0,2,681,5],
 "classmrmeshpy_1_1RegularMapMesher.html#a22a2a81ac3370a493343abc35f05f10d":[6,1,1,0,1,681,5],
 "classmrmeshpy_1_1RegularMapMesher.html#a363bf0abb35b1f2ee10675eed0316abe":[6,1,0,0,2,681,3],
-"classmrmeshpy_1_1RegularMapMesher.html#a363bf0abb35b1f2ee10675eed0316abe":[6,1,1,0,1,681,3]
+"classmrmeshpy_1_1RegularMapMesher.html#a363bf0abb35b1f2ee10675eed0316abe":[6,1,1,0,1,681,3],
+"classmrmeshpy_1_1RegularMapMesher.html#a787de3900c1a8ddf9bd4fee8bdd6697a":[6,1,0,0,2,681,6],
+"classmrmeshpy_1_1RegularMapMesher.html#a787de3900c1a8ddf9bd4fee8bdd6697a":[6,1,1,0,1,681,6]
 };

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['g_0',['g',['.././Cpp/structMR_1_1Color.html#a88b7f7b16582811c68398fcb60488717',1,'MR::Color::g'],['.././Cpp/structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd',1,'MRColor::g']]],
-  ['gamma_1',['gamma',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505',1,'MR::DenoiseViaNormalsSettings::gamma'],['.././Cpp/structMRDenoiseViaNormalsSettings.html#a9c96228a47b139c7c8fecc74f52faeb2',1,'MRDenoiseViaNormalsSettings::gamma']]],
+  ['gamma_1',['gamma',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505',1,'MR::DenoiseViaNormalsSettings']]],
   ['gaussian_2',['Gaussian',['.././Py/classmrmeshpy_1_1VoxelFilterType.html#aa9596b06bdea8c509609c6363cf87327',1,'mrmeshpy::VoxelFilterType']]],
   ['gcodechangedsignal_3',['gcodeChangedSignal',['.././Cpp/classMR_1_1ObjectGcode.html#af7ac54e95de2f8914777e833e1a83678',1,'MR::ObjectGcode']]],
   ['gcodesource_4',['GcodeSource',['.././Py/namespacemrmeshpy.html#a045d67b67c02eb42207c85cf9e58d9c4',1,'mrmeshpy']]],
@@ -25,5 +25,5 @@ var searchData=
   ['group_22',['group',['.././Py/classmrviewerpy_1_1UiEntryType.html#a7609c19acbf5748d4553cc86661611f0',1,'mrviewerpy::UiEntryType']]],
   ['groupsmap_23',['groupsMap',['.././Cpp/structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10',1,'MR::RibbonSchema']]],
   ['guicontext_5f_24',['guiContext_',['.././Cpp/classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],
-  ['guideweight_25',['guideWeight',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings::guideWeight'],['.././Cpp/structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2',1,'MRDenoiseViaNormalsSettings::guideWeight']]]
+  ['guideweight_25',['guideWeight',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings']]]
 ];

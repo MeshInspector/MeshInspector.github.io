@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1FreeFormDeformer =
 [
     [ "__init__", "classmrmeshpy_1_1FreeFormDeformer.html#a5d23668f817802a2159e5bcddaea86d4", null ],
-    [ "__init__", "classmrmeshpy_1_1FreeFormDeformer.html#a9cb66a7ff75e56a31498d4a8d7da751d", null ],
     [ "__init__", "classmrmeshpy_1_1FreeFormDeformer.html#ac226d7c2981c914e70cde1885c7f61ce", null ],
     [ "apply", "classmrmeshpy_1_1FreeFormDeformer.html#ac76a53440a72c450331eb5056dab84d0", null ],
     [ "applySinglePoint", "classmrmeshpy_1_1FreeFormDeformer.html#a095654e018a2e18b9eed357c89cf1ee4", null ],
