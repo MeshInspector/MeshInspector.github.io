@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021":[6,1,0,0,2,1093,0,0],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021":[6,1,1,0,1,1093,0,0],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a53a3a92c69ae8588541e9f2a9d8a6ec9":[6,1,0,0,2,1093,0,10],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a53a3a92c69ae8588541e9f2a9d8a6ec9":[6,1,1,0,1,1093,0,10],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a75f3939e471800de4db08d45db759e14":[6,1,0,0,2,1093,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "classmrmeshpy_1_1WholeEdgeMap.html#a0e3bd4e9fc4f70ccf4e426d362a06acf":[6,1,0,0,2,1110,33],
 "classmrmeshpy_1_1WholeEdgeMap.html#a0e3bd4e9fc4f70ccf4e426d362a06acf":[6,1,1,0,1,1110,33],
 "classmrmeshpy_1_1WholeEdgeMap.html#a0e4205b3fee526ee4631e2c060a64d0f":[6,1,0,0,2,1110,34],
-"classmrmeshpy_1_1WholeEdgeMap.html#a0e4205b3fee526ee4631e2c060a64d0f":[6,1,1,0,1,1110,34],
-"classmrmeshpy_1_1WholeEdgeMap.html#a10606bdd8471b9221cfbe97fa4060a5c":[6,1,0,0,2,1110,27],
-"classmrmeshpy_1_1WholeEdgeMap.html#a10606bdd8471b9221cfbe97fa4060a5c":[6,1,0,0,2,1110,28]
+"classmrmeshpy_1_1WholeEdgeMap.html#a0e4205b3fee526ee4631e2c060a64d0f":[6,1,1,0,1,1110,34]
 };

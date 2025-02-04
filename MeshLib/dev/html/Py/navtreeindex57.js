@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#a4cd7002f5185260368f22f08ba86262a":[6,1,0,0,2,604,2,3],
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#a4cd7002f5185260368f22f08ba86262a":[6,1,1,0,1,604,2,3],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#a4f0a75143a1c0549b483c2bf54494278":[6,1,0,0,2,604,2,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#a4f0a75143a1c0549b483c2bf54494278":[6,1,1,0,1,604,2,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#a5020dbd4ec31c2b33fbbeb9b69269cbb":[6,1,0,0,2,604,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1PointCloudApproxRelaxParams.html":[6,1,0,0,2,611],
 "classmrmeshpy_1_1PointCloudApproxRelaxParams.html":[6,1,1,0,1,611],
 "classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad442428ab0d730dafed732399a3cc505":[6,1,0,0,2,611,0],
-"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad442428ab0d730dafed732399a3cc505":[6,1,1,0,1,611,0],
-"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad626119857c15031a005591125ba370f":[6,1,0,0,2,611,1],
-"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad626119857c15031a005591125ba370f":[6,1,1,0,1,611,1]
+"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad442428ab0d730dafed732399a3cc505":[6,1,1,0,1,611,0]
 };

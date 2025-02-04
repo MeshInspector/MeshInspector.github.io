@@ -2,6 +2,7 @@ var MRMeshC_2MRMesh_8h =
 [
     [ "MRMeshAddPartByMaskParameters", "structMRMeshAddPartByMaskParameters.html", "structMRMeshAddPartByMaskParameters" ],
     [ "MRMeshAddPartByMaskParameters", "MRMeshC_2MRMesh_8h.html#ac567fa25d41a1a760199463e0db080d1", null ],
+    [ "mrMeshAddMesh", "MRMeshC_2MRMesh_8h.html#aedf2b2976695334c71ca14588e470216", null ],
     [ "mrMeshAddPartByMask", "MRMeshC_2MRMesh_8h.html#ac129b6f0419f96dd02286b99fda3c673", null ],
     [ "mrMeshArea", "MRMeshC_2MRMesh_8h.html#a01a728db63ccfaeaa7cc8607e462742d", null ],
     [ "mrMeshComputeBoundingBox", "MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034", null ],
@@ -15,7 +16,9 @@ var MRMeshC_2MRMesh_8h =
     [ "mrMeshFromTrianglesDuplicatingNonManifoldVertices", "MRMeshC_2MRMesh_8h.html#a451077545057134dc90594dc2a064061", null ],
     [ "mrMeshGetTriangulation", "MRMeshC_2MRMesh_8h.html#a10e7ae1cb0bed2d9259b7d9d91d92d58", null ],
     [ "mrMeshHoleDirArea", "MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4", null ],
+    [ "mrMeshInvalidateCaches", "MRMeshC_2MRMesh_8h.html#aef136fb43c5c1355894125da908ba183", null ],
     [ "mrMeshNewFromPointTriples", "MRMeshC_2MRMesh_8h.html#a623fb3de189397803e03bda8f951bdc1", null ],
+    [ "mrMeshNormalFromVert", "MRMeshC_2MRMesh_8h.html#ae8ab772129ee8122887bd922979f0e53", null ],
     [ "mrMeshPack", "MRMeshC_2MRMesh_8h.html#a99ebfa267b1846a8761c58c902352499", null ],
     [ "mrMeshPackOptimally", "MRMeshC_2MRMesh_8h.html#a4bc6868c06e753a47896e2325101312e", null ],
     [ "mrMeshPoints", "MRMeshC_2MRMesh_8h.html#a0cbc8ad8eff5369f50992cfa67668819", null ],

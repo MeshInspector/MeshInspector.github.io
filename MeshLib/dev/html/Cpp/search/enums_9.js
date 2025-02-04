@@ -21,9 +21,10 @@ var searchData=
   ['mricpexittype_18',['MRICPExitType',['../MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71',1,'MRICP.h']]],
   ['mricpmethod_19',['MRICPMethod',['../MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4ed',1,'MRICP.h']]],
   ['mricpmode_20',['MRICPMode',['../MRMeshC_2MRICP_8h.html#a557dd31f8dfe045d460e3563dd42b5d1',1,'MRICP.h']]],
-  ['mrmeshtovolumesettingstype_21',['MRMeshToVolumeSettingsType',['../MRMeshC_2MRVDBConversions_8h.html#a7c5a04688d4449870c8b2c5260cf5f66',1,'MRVDBConversions.h']]],
-  ['mrmultiwayicpsamplingparameterscascademode_22',['MRMultiwayICPSamplingParametersCascadeMode',['../MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6',1,'MRMultiwayICP.h']]],
-  ['mronemeshintersectionvariantindex_23',['MROneMeshIntersectionVariantIndex',['../MRMeshC_2MRContoursCut_8h.html#abc5593afc3027ed39a928fa8f391417a',1,'MRContoursCut.h']]],
-  ['mrsigndetectionmode_24',['MRSignDetectionMode',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode.h']]],
-  ['multipleedgesresolvemode_25',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
+  ['mrlaplacianremembershape_21',['MRLaplacianRememberShape',['../MRMeshC_2MRLaplacian_8h.html#a1df7a1de2effd8b82046bec87316d8fb',1,'MRLaplacian.h']]],
+  ['mrmeshtovolumesettingstype_22',['MRMeshToVolumeSettingsType',['../MRMeshC_2MRVDBConversions_8h.html#a7c5a04688d4449870c8b2c5260cf5f66',1,'MRVDBConversions.h']]],
+  ['mrmultiwayicpsamplingparameterscascademode_23',['MRMultiwayICPSamplingParametersCascadeMode',['../MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6',1,'MRMultiwayICP.h']]],
+  ['mronemeshintersectionvariantindex_24',['MROneMeshIntersectionVariantIndex',['../MRMeshC_2MRContoursCut_8h.html#abc5593afc3027ed39a928fa8f391417a',1,'MRContoursCut.h']]],
+  ['mrsigndetectionmode_25',['MRSignDetectionMode',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode.h']]],
+  ['multipleedgesresolvemode_26',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
 ];

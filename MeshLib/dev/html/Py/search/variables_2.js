@@ -46,7 +46,7 @@ var searchData=
   ['bestfitparabola_5fdouble_43',['BestFitParabola_double',['../namespacemrmeshpy.html#a0193baa8f265f4c95c57f232b1488dcf',1,'mrmeshpy']]],
   ['bestfitparabola_5ffloat_44',['BestFitParabola_float',['../namespacemrmeshpy.html#a6e5194e0794421488b373be1b8407ad4',1,'mrmeshpy']]],
   ['bestfitparabolaf_45',['BestFitParabolaf',['../../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c',1,'MR']]],
-  ['beta_46',['beta',['../../Cpp/structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a',1,'MR::DenoiseViaNormalsSettings']]],
+  ['beta_46',['beta',['../../Cpp/structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a',1,'MR::DenoiseViaNormalsSettings::beta'],['../../Cpp/structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e',1,'MRDenoiseViaNormalsSettings::beta']]],
   ['bface_47',['bFace',['../../Cpp/structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc',1,'MR::FaceFace']]],
   ['big_48',['Big',['../../Cpp/structMR_1_1DrawButtonParams.html#ad592bb614e9ec6cf631c4eb003a17103',1,'MR::DrawButtonParams']]],
   ['bigtitlepadding_49',['bigTitlePadding',['../../Cpp/namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf',1,'MR::StyleConsts::Modal']]],
