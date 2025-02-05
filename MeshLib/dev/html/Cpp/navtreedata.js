@@ -173,8 +173,8 @@ var NAVTREEINDEX =
 "group__MeshComponentsGroup.html#ga21483f6451c3d64c44217ec15be4f110",
 "group__SerializerGroup.html#gab49dd82250557d820cf52d7cd3a59464",
 "namespaceImGui.html#a392168d28bc4973532ead37f8061121e",
-"namespaceMR.html#a2584c6bf8d14b42355582e7b634bb1ee",
-"namespaceMR.html#a5d1ca6e9b05136afa1017b1c60906789",
+"namespaceMR.html#a258dab429d2f02547f23733ef9f17226",
+"namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8",
 "namespaceMR.html#a8aa6bbb8558c560ab4f03392ca30721b",
 "namespaceMR.html#abbeba581eae8db84f0123a17c064c055",
 "namespaceMR.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe",
@@ -200,10 +200,10 @@ var NAVTREEINDEX =
 "structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f",
 "structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf",
 "structMR_1_1ToolPathParams.html#a24c0b4801961990c4c8e6b4003bf2bb2",
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html",
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47",
-"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#a23e6bf37742e57ceeb89a472fc5828c0",
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#ab33c7f11e2452d1c74c79f635d4f04f5"
+"structMR_1_1TriangleSegmentIntersectResult.html#a44ebc6eac0ba7a7421c713970a69f480",
+"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html",
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a5d100100570da05384e44a635325aa79",
+"structMR_1_1WatershedGraph_1_1OverflowPoint.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -226,7 +226,7 @@ var searchData=
   ['visuallengthmultiplier_223',['visualLengthMultiplier',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e',1,'MR::RenderDimensions::RadiusParams']]],
   ['vmap_224',['vmap',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545',1,'MR::MeshBuilder::MeshPiece']]],
   ['vol_225',['vol',['../structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a9d975baef9f26c3a77c6769d4b760ac7',1,'MR::VoxelsLoad::DicomVolumeT::vol'],['../structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed',1,'MR::MeshToDistanceVolumeParams::vol'],['../structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882',1,'MR::MeshToDirectionVolumeParams::vol']]],
-  ['volume_226',['volume',['../structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31',1,'MR::TeethMaskToDirectionVolumeConvertor::ProcessResult']]],
+  ['volume_226',['volume',['../structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31',1,'MR::TeethMaskToDirectionVolumeConvertor::ProcessResult::volume'],['../structMR_1_1TransformVdbVolumeResult.html#acd7cd4ab1f0836d7ad1a8aca8f5447a2',1,'MR::TransformVdbVolumeResult::volume']]],
   ['volume_5f_227',['volume_',['../classMR_1_1ObjectMeshHolder.html#a58dd82a33da66d9d3ec4496e55d90a20',1,'MR::ObjectMeshHolder']]],
   ['volumefiltertype_228',['volumeFilterType',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa2018932b0f46e90f13ac5b75b7eaed9',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['volumerenderactivevoxels_5f_229',['volumeRenderActiveVoxels_',['../classMR_1_1ObjectVoxels.html#a47d5f0c15484962e0f95372d8f8916ae',1,'MR::ObjectVoxels']]],

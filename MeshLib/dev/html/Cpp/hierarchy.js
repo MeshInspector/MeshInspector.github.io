@@ -1134,6 +1134,7 @@ var hierarchy =
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", null ],
     [ "MR::TouchpadParameters", "structMR_1_1TouchpadParameters.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
+    [ "MR::TransformVdbVolumeResult", "structMR_1_1TransformVdbVolumeResult.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
     [ "MR::TriangulationHelpers::TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],

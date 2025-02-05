@@ -1120,6 +1120,7 @@ var hierarchy =
     [ "mrmeshpy.ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", null ],
     [ "mrmeshpy.Features.Traits", "classmrmeshpy_1_1Features_1_1Traits.html", null ],
     [ "mrmeshpy.TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", null ],
+    [ "mrmeshpy.TransformVdbVolumeResult", "classmrmeshpy_1_1TransformVdbVolumeResult.html", null ],
     [ "mrmeshpy.MeshBuilder.Triangle", "classmrmeshpy_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "mrmeshpy.TriangleSegmentIntersectResult", "classmrmeshpy_1_1TriangleSegmentIntersectResult.html", null ],
     [ "mrmeshpy.TriangulationHelpers.TriangulatedFanData", "classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],

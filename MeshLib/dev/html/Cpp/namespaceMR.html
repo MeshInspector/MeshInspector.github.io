@@ -1687,6 +1687,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">just stores a mesh and its transformation to some fixed reference frame  <a href="structMR_1_1TransformedMesh.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TransformVdbVolumeResult.html">TransformVdbVolumeResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangulationParameters.html">TriangulationParameters</a></td></tr>
@@ -5866,10 +5868,10 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:gad1772070c201609ff1aac3958e6b9005" id="r_gad1772070c201609ff1aac3958e6b9005"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#gad1772070c201609ff1aac3958e6b9005">buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const <a class="el" href="group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> &amp;metric, size_t start, size_t finish, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:gad1772070c201609ff1aac3958e6b9005"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <br /></td></tr>
 <tr class="separator:gad1772070c201609ff1aac3958e6b9005"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf24dcb8aba2b34c7bdfc9460edff091" id="r_acf24dcb8aba2b34c7bdfc9460edff091"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf24dcb8aba2b34c7bdfc9460edff091">transformVdbVolume</a> (const VdbVolume &amp;volume, const AffineXf3f &amp;xf, bool fixBox=false, const Box3f &amp;box={})</td></tr>
-<tr class="separator:acf24dcb8aba2b34c7bdfc9460edff091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f0b2205cdb76cd4affa5aa0a580155" id="r_a20f0b2205cdb76cd4affa5aa0a580155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20f0b2205cdb76cd4affa5aa0a580155">voxelsApplyTransform</a> (<a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;obj, const AffineXf3f &amp;xf, bool fixBox)</td></tr>
-<tr class="separator:a20f0b2205cdb76cd4affa5aa0a580155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac14a641817ef5f1b6be67b3a90a3cb68" id="r_ac14a641817ef5f1b6be67b3a90a3cb68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="structMR_1_1TransformVdbVolumeResult.html">TransformVdbVolumeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac14a641817ef5f1b6be67b3a90a3cb68">transformVdbVolume</a> (const VdbVolume &amp;volume, const AffineXf3f &amp;xf, bool fixBox=false, const Box3f &amp;box={})</td></tr>
+<tr class="separator:ac14a641817ef5f1b6be67b3a90a3cb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61aa1dd48053861144e41cb0184b0ab8" id="r_a61aa1dd48053861144e41cb0184b0ab8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61aa1dd48053861144e41cb0184b0ab8">voxelsApplyTransform</a> (<a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;obj, const AffineXf3f &amp;xf, bool fixBox)</td></tr>
+<tr class="separator:a61aa1dd48053861144e41cb0184b0ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9145e1b055b88e54edf784e6f3b050fc" id="r_a9145e1b055b88e54edf784e6f3b050fc"><td class="memTemplParams" colspan="2">template&lt;typename Volume &gt; </td></tr>
 <tr class="memitem:a9145e1b055b88e54edf784e6f3b050fc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9145e1b055b88e54edf784e6f3b050fc">mergeVolumePart</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; <a class="el" href="#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutContours, Volume &amp;&amp;volume, float leftCutPosition, float rightCutPosition, const <a class="el" href="structMR_1_1MergeVolumePartSettings.html">MergeVolumePartSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:a9145e1b055b88e54edf784e6f3b050fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge one mesh with another generated from a voxel volume part.  <br /></td></tr>
@@ -30864,14 +30866,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="acf24dcb8aba2b34c7bdfc9460edff091" name="acf24dcb8aba2b34c7bdfc9460edff091"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf24dcb8aba2b34c7bdfc9460edff091">&#9670;&#160;</a></span>transformVdbVolume()</h2>
+<a id="ac14a641817ef5f1b6be67b3a90a3cb68" name="ac14a641817ef5f1b6be67b3a90a3cb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac14a641817ef5f1b6be67b3a90a3cb68">&#9670;&#160;</a></span>transformVdbVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VdbVolume MR::transformVdbVolume </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="structMR_1_1TransformVdbVolumeResult.html">TransformVdbVolumeResult</a> MR::transformVdbVolume </td>
           <td>(</td>
           <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
         </tr>
@@ -32040,14 +32042,14 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="a20f0b2205cdb76cd4affa5aa0a580155" name="a20f0b2205cdb76cd4affa5aa0a580155"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20f0b2205cdb76cd4affa5aa0a580155">&#9670;&#160;</a></span>voxelsApplyTransform()</h2>
+<a id="a61aa1dd48053861144e41cb0184b0ab8" name="a61aa1dd48053861144e41cb0184b0ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61aa1dd48053861144e41cb0184b0ab8">&#9670;&#160;</a></span>voxelsApplyTransform()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::voxelsApplyTransform </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool MR::voxelsApplyTransform </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
@@ -32063,7 +32065,7 @@ template&lt;typename Volume &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Same as above but for the SceneObject </p><dl class="section return"><dt>Returns</dt><dd>true, if <code>fixBox</code> is true and the box was "fixed" (see parameter <code>fixBox</code> of <a class="el" href="#acf24dcb8aba2b34c7bdfc9460edff091">transformVdbVolume</a>) </dd></dl>
+<p>Same as above but for the SceneObject </p><dl class="section return"><dt>Returns</dt><dd>true, if <code>fixBox</code> is true and the box was "fixed" (see parameter <code>fixBox</code> of <a class="el" href="#ac14a641817ef5f1b6be67b3a90a3cb68">transformVdbVolume</a>) </dd></dl>
 
 </div>
 </div>

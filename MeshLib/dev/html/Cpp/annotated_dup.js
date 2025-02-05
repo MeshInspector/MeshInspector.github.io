@@ -834,6 +834,7 @@ var annotated_dup =
       [ "TouchStartListener", "structMR_1_1TouchStartListener.html", "structMR_1_1TouchStartListener" ],
       [ "TransformControls", "classMR_1_1TransformControls.html", "classMR_1_1TransformControls" ],
       [ "TransformedMesh", "structMR_1_1TransformedMesh.html", "structMR_1_1TransformedMesh" ],
+      [ "TransformVdbVolumeResult", "structMR_1_1TransformVdbVolumeResult.html", "structMR_1_1TransformVdbVolumeResult" ],
       [ "TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", "structMR_1_1TriangleSegmentIntersectResult" ],
       [ "TriangulationParameters", "structMR_1_1TriangulationParameters.html", "structMR_1_1TriangulationParameters" ],
       [ "TriIntersectResult", "structMR_1_1TriIntersectResult.html", "structMR_1_1TriIntersectResult" ],
