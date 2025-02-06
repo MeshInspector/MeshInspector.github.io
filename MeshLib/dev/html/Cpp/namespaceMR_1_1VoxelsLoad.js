@@ -3,8 +3,6 @@ var namespaceMR_1_1VoxelsLoad =
     [ "DicomVolumeT", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeT" ],
     [ "LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
     [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ],
-    [ "DicomVolume", "namespaceMR_1_1VoxelsLoad.html#ac2a556763e76d5f4926d904685536552", null ],
-    [ "DicomVolumeAsVdb", "namespaceMR_1_1VoxelsLoad.html#aeeb3b38707e658a1939994a1f79d021e", null ],
     [ "VoxelsLoader", "namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96", null ],
     [ "GridType", "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19", [
       [ "DenseGrid", "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7", null ],

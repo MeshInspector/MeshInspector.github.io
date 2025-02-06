@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"MRMeshC_2MRVoxelsFwd_8h.html#af3c5dfecb50dabe99223058baf376150":[6,0,3,0,0,1,4,71,1],
-"MRMeshC_2MRVoxelsFwd_8h_source.html":[6,0,3,0,0,1,4,71],
 "MRMeshC_2MRVoxelsLoad_8h.html":[6,0,3,0,0,1,4,72],
 "MRMeshC_2MRVoxelsLoad_8h.html#a02fcad58686cddd1629936021b36b1d0":[6,0,3,0,0,1,4,72,1],
 "MRMeshC_2MRVoxelsLoad_8h.html#a19ac0d2811169a9cf08c1eca61f1b998":[6,0,3,0,0,1,4,72,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRMeshDecimate_8h.html#ab62ca12bf096b6d51c71cf97ff6a88e0":[6,0,3,0,0,1,3,181,9],
 "MRMesh_2MRMeshDecimate_8h_source.html":[6,0,3,0,0,1,3,181],
 "MRMesh_2MRMeshExtrude_8h.html":[6,0,3,0,0,1,3,189],
-"MRMesh_2MRMeshExtrude_8h.html#a22f39580f90cbdb1bd5c77bd7b922251":[6,0,3,0,0,1,3,189,1]
+"MRMesh_2MRMeshExtrude_8h.html#a22f39580f90cbdb1bd5c77bd7b922251":[6,0,3,0,0,1,3,189,1],
+"MRMesh_2MRMeshExtrude_8h_source.html":[6,0,3,0,0,1,3,189],
+"MRMesh_2MRMeshFillHole_8h.html":[6,0,3,0,0,1,3,190]
 };

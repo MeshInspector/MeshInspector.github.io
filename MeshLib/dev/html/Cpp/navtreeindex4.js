@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"MRMakePlane_8h_source.html":[6,0,3,0,0,1,3,159],
-"MRMakeRigidXf_8h.html":[6,0,3,0,0,1,3,160],
 "MRMakeRigidXf_8h.html#a433a8d6bdf429a6aeef4abc1a9f05798":[6,0,3,0,0,1,3,160,1],
 "MRMakeRigidXf_8h_source.html":[6,0,3,0,0,1,3,160],
 "MRMakeSlot_8h.html":[6,0,3,0,0,1,9,37],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRFreeFormDeformer_8h.html#a25baf8673a85b4de69cd1e5599c64c19":[6,0,3,0,0,1,4,16,1],
 "MRMeshC_2MRFreeFormDeformer_8h.html#a7827034871166fd58e15dec2adbf3079":[6,0,3,0,0,1,4,16,4],
 "MRMeshC_2MRFreeFormDeformer_8h.html#a8f9690a973736fa42c843b17f6fbd6c3":[6,0,3,0,0,1,4,16,3],
-"MRMeshC_2MRFreeFormDeformer_8h.html#ac00d79feb1adf7e3cfd862f68e8525fb":[6,0,3,0,0,1,4,16,2]
+"MRMeshC_2MRFreeFormDeformer_8h.html#ac00d79feb1adf7e3cfd862f68e8525fb":[6,0,3,0,0,1,4,16,2],
+"MRMeshC_2MRFreeFormDeformer_8h.html#ac5c1b9510e5bc45a879abf0ffce51cd7":[6,0,3,0,0,1,4,16,5],
+"MRMeshC_2MRFreeFormDeformer_8h.html#af0a2677a46bb2b2f4b1b00caa0ff6b8b":[6,0,3,0,0,1,4,16,6]
 };

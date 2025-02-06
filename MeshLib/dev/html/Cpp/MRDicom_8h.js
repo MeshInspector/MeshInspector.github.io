@@ -1,8 +1,6 @@
 var MRDicom_8h =
 [
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeT" ],
-    [ "DicomVolume", "MRDicom_8h.html#ac2a556763e76d5f4926d904685536552", null ],
-    [ "DicomVolumeAsVdb", "MRDicom_8h.html#aeeb3b38707e658a1939994a1f79d021e", null ],
     [ "createObjectVoxels", "MRDicom_8h.html#a4461fa0856c7f24094e4b923f7ddd75f", null ],
     [ "isDicomFile", "MRDicom_8h.html#a9e69e0cbf065c4b7256ef839c9a0855c", null ],
     [ "isDicomFolder", "MRDicom_8h.html#adbcdf154c89bce3f54684092bcc3f76e", null ],
