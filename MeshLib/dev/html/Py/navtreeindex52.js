@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1ObjectMesh.html#a6f4c56fb83b28b2288591ade99c0e070":[6,1,0,0,2,539,2],
+"classmrmeshpy_1_1ObjectMesh.html#a6f4c56fb83b28b2288591ade99c0e070":[6,1,1,0,1,539,2],
 "classmrmeshpy_1_1ObjectMesh.html#a74d05289828bf738860653a727be72e9":[6,1,0,0,2,539,1],
 "classmrmeshpy_1_1ObjectMesh.html#a74d05289828bf738860653a727be72e9":[6,1,1,0,1,539,1],
 "classmrmeshpy_1_1ObjectMesh.html#a969a9885ff3b33b06a0ada8c222f6e7c":[6,1,0,0,2,539,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1ObjectPointsHolder.html#a497dc80faafd710a5606c0434c1094aa":[6,1,0,0,2,542,15],
 "classmrmeshpy_1_1ObjectPointsHolder.html#a497dc80faafd710a5606c0434c1094aa":[6,1,1,0,1,542,15],
 "classmrmeshpy_1_1ObjectPointsHolder.html#a63b633389c06034c31a7a1801ef553a4":[6,1,0,0,2,542,27],
-"classmrmeshpy_1_1ObjectPointsHolder.html#a63b633389c06034c31a7a1801ef553a4":[6,1,1,0,1,542,27],
-"classmrmeshpy_1_1ObjectPointsHolder.html#a736d352f947cd48789a08b7bc2a44a5a":[6,1,0,0,2,542,10],
-"classmrmeshpy_1_1ObjectPointsHolder.html#a736d352f947cd48789a08b7bc2a44a5a":[6,1,1,0,1,542,10]
+"classmrmeshpy_1_1ObjectPointsHolder.html#a63b633389c06034c31a7a1801ef553a4":[6,1,1,0,1,542,27]
 };

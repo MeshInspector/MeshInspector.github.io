@@ -14,7 +14,7 @@ var MRMeshC_2MRVector3_8h =
     [ "mrVector3fPlusY", "MRMeshC_2MRVector3_8h.html#aaafd4b7ca13bba9c5e7dd3486ea059e6", null ],
     [ "mrVector3fPlusZ", "MRMeshC_2MRVector3_8h.html#a7b48c0138214953e3422885c1c8afb90", null ],
     [ "mrVector3fSub", "MRMeshC_2MRVector3_8h.html#a439a3eecd4c074ac5dc6ce82d4453fd8", null ],
-    [ "mrVector3iDiagonal", "MRMeshC_2MRVector3_8h.html#a9b00d6e4d68ee911f5a68492593e7011", null ],
+    [ "mrVector3iDiagonal", "MRMeshC_2MRVector3_8h.html#aa53d4077981fe6fc0d68ba59a927e076", null ],
     [ "mrVector3iPlusX", "MRMeshC_2MRVector3_8h.html#a8bd1a32aaf612dc67e5b5fdd1f899683", null ],
     [ "mrVector3iPlusY", "MRMeshC_2MRVector3_8h.html#aeea66131b97fcad9feb47493bc8a80a5", null ],
     [ "mrVector3iPlusZ", "MRMeshC_2MRVector3_8h.html#a3cf5577489291901c3a7d24108dfbfc3", null ]

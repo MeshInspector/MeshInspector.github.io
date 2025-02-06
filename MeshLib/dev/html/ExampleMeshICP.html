@@ -242,6 +242,80 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRICP.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMeshLoad.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRString.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[] )</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// Load meshes</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* meshFloating = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshLoad_8h.html#a704835da8dd3d463cc476961c6d7e5bb">mrMeshLoadFromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* meshFixed = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshLoad_8h.html#a704835da8dd3d463cc476961c6d7e5bb">mrMeshLoadFromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRBox3f.html">MRBox3f</a> bbox = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034">mrMeshComputeBoundingBox</a>( meshFixed, NULL );</div>
+<div class="line">    <span class="keywordtype">float</span> diagonal = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRBox_8h.html#a699388955b5907eea309e33d62a358d0">mrBox3fDiagonal</a>( &amp;bbox );</div>
+<div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRICPProperties.html">MRICPProperties</a> icpParams = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRICP_8h.html#ad6572e9fd51800d785882fab5dc53502">mrICPPropertiesNew</a>();</div>
+<div class="line">    icpParams.<a class="code hl_variableRef" href="./Cpp/structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de">distThresholdSq</a> = diagonal * diagonal * 0.01f; <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">    icpParams.<a class="code hl_variableRef" href="./Cpp/structMRICPProperties.html#af361f47102e347876690d8afb088ed69">exitVal</a> = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Calculate transformation</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a>* flt = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#a963105e52d168f4d9f84a9d98d07ad91">mrMeshOrPointsXfFromMesh</a>( meshFloating, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a>* ref = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#a963105e52d168f4d9f84a9d98d07ad91">mrMeshOrPointsXfFromMesh</a>( meshFixed, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRICP_8h.html#a554c91f93673a3d87ae5b114e607aacc">MRICP</a>* icp = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRICP_8h.html#ae00bfaafa2a5cd791ec1206c17fc151f">mrICPNew</a>( flt, ref, icpSamplingVoxelSize );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRICP_8h.html#aa0deba5552214cfbbef4d811d610dca7">mrICPSetParams</a>( icp, &amp;icpParams );</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRAffineXf3f.html">MRAffineXf3f</a> xf = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRICP_8h.html#aafb393d5ef1b456624976f54488bcd71">mrICPCalculateTransformation</a>( icp );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Transform floating mesh</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a>( meshFloating, &amp;xf, NULL );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Output information string</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a>* info = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRICP_8h.html#ace0593a443f3c2094e9706b7f5985e8e">mrICPGetStatusInfo</a>( icp );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;%s\n&quot;</span>, <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a>( info ) );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Save result</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshSave_8h.html#a71b21c5fc445077f0a812d5b3991dd0b">mrMeshSaveToAnySupportedFormat</a>( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, NULL, NULL );</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a>( info );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRICP_8h.html#ab1fbb8172fb51e68259611bf26579898">mrICPFree</a>( icp );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#ad469887c24635f2a8f979b09cde59fa9">mrMeshOrPointsXfFree</a>( flt );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#ad469887c24635f2a8f979b09cde59fa9">mrMeshOrPointsXfFree</a>( ref );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( meshFixed );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( meshFloating );</div>
+<div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
+<div class="line">}</div>
+<div class="ttc" id="aMRMeshC_2MRBox_8h_html_a699388955b5907eea309e33d62a358d0"><div class="ttname"><a href="./Cpp/MRMeshC_2MRBox_8h.html#a699388955b5907eea309e33d62a358d0">mrBox3fDiagonal</a></div><div class="ttdeci">MRMESHC_API float mrBox3fDiagonal(const MRBox3f *box)</div></div>
+<div class="ttc" id="aMRMeshC_2MRICP_8h_html_a554c91f93673a3d87ae5b114e607aacc"><div class="ttname"><a href="./Cpp/MRMeshC_2MRICP_8h.html#a554c91f93673a3d87ae5b114e607aacc">MRICP</a></div><div class="ttdeci">struct MRICP MRICP</div></div>
+<div class="ttc" id="aMRMeshC_2MRICP_8h_html_aa0deba5552214cfbbef4d811d610dca7"><div class="ttname"><a href="./Cpp/MRMeshC_2MRICP_8h.html#aa0deba5552214cfbbef4d811d610dca7">mrICPSetParams</a></div><div class="ttdeci">MRMESHC_API void mrICPSetParams(MRICP *icp, const MRICPProperties *prop)</div></div>
+<div class="ttc" id="aMRMeshC_2MRICP_8h_html_aafb393d5ef1b456624976f54488bcd71"><div class="ttname"><a href="./Cpp/MRMeshC_2MRICP_8h.html#aafb393d5ef1b456624976f54488bcd71">mrICPCalculateTransformation</a></div><div class="ttdeci">MRMESHC_API MRAffineXf3f mrICPCalculateTransformation(MRICP *icp)</div></div>
+<div class="ttc" id="aMRMeshC_2MRICP_8h_html_ab1fbb8172fb51e68259611bf26579898"><div class="ttname"><a href="./Cpp/MRMeshC_2MRICP_8h.html#ab1fbb8172fb51e68259611bf26579898">mrICPFree</a></div><div class="ttdeci">MRMESHC_API void mrICPFree(MRICP *icp)</div></div>
+<div class="ttc" id="aMRMeshC_2MRICP_8h_html_ace0593a443f3c2094e9706b7f5985e8e"><div class="ttname"><a href="./Cpp/MRMeshC_2MRICP_8h.html#ace0593a443f3c2094e9706b7f5985e8e">mrICPGetStatusInfo</a></div><div class="ttdeci">MRMESHC_API MRString * mrICPGetStatusInfo(const MRICP *icp)</div></div>
+<div class="ttc" id="aMRMeshC_2MRICP_8h_html_ad6572e9fd51800d785882fab5dc53502"><div class="ttname"><a href="./Cpp/MRMeshC_2MRICP_8h.html#ad6572e9fd51800d785882fab5dc53502">mrICPPropertiesNew</a></div><div class="ttdeci">MRMESHC_API MRICPProperties mrICPPropertiesNew(void)</div></div>
+<div class="ttc" id="aMRMeshC_2MRICP_8h_html_ae00bfaafa2a5cd791ec1206c17fc151f"><div class="ttname"><a href="./Cpp/MRMeshC_2MRICP_8h.html#ae00bfaafa2a5cd791ec1206c17fc151f">mrICPNew</a></div><div class="ttdeci">MRMESHC_API MRICP * mrICPNew(const MRMeshOrPointsXf *flt, const MRMeshOrPointsXf *ref, float samplingVoxelSize)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a89b45a4728b7f2a3281d78d9164162fe"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a></div><div class="ttdeci">typedefMR_EXTERN_C_BEGIN struct MRString MRString</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshLoad_8h_html_a704835da8dd3d463cc476961c6d7e5bb"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshLoad_8h.html#a704835da8dd3d463cc476961c6d7e5bb">mrMeshLoadFromAnySupportedFormat</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API MRMesh * mrMeshLoadFromAnySupportedFormat(const char *file, MRString **errorStr)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshOrPoints_8h_html_a56d39781ac5d47019574ee608c9ead18"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a></div><div class="ttdeci">struct MRMeshOrPointsXf MRMeshOrPointsXf</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshOrPoints_8h_html_a963105e52d168f4d9f84a9d98d07ad91"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#a963105e52d168f4d9f84a9d98d07ad91">mrMeshOrPointsXfFromMesh</a></div><div class="ttdeci">MRMESHC_API MRMeshOrPointsXf * mrMeshOrPointsXfFromMesh(const MRMesh *mesh, const MRAffineXf3f *xf)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshOrPoints_8h_html_ad469887c24635f2a8f979b09cde59fa9"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshOrPoints_8h.html#ad469887c24635f2a8f979b09cde59fa9">mrMeshOrPointsXfFree</a></div><div class="ttdeci">MRMESHC_API void mrMeshOrPointsXfFree(MRMeshOrPointsXf *mp)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMeshSave_8h_html_a71b21c5fc445077f0a812d5b3991dd0b"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshSave_8h.html#a71b21c5fc445077f0a812d5b3991dd0b">mrMeshSaveToAnySupportedFormat</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API void mrMeshSaveToAnySupportedFormat(const MRMesh *mesh, const char *file, const MRSaveSettings *settings, MRString **errorStr)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_ab817f01631ab1235393478f3e2f18cbb"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a></div><div class="ttdeci">MRMESHC_API void mrMeshTransform(MRMesh *mesh, const MRAffineXf3f *xf, const MRVertBitSet *region)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_acb9cd8a62b754d8dfc405c983dbd5034"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034">mrMeshComputeBoundingBox</a></div><div class="ttdeci">MRMESHC_API MRBox3f mrMeshComputeBoundingBox(const MRMesh *mesh, const MRAffineXf3f *toWorld)</div></div>
+<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_ae5d22b5eec3af73293e031ea6346310d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a></div><div class="ttdeci">MRMESHC_API void mrMeshFree(MRMesh *mesh)</div></div>
+<div class="ttc" id="aMRMeshC_2MRString_8h_html_a6c06174923fa27502a2633fd5791047d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a></div><div class="ttdeci">MRMESHC_API void mrStringFree(MRString *str)</div></div>
+<div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div></div>
+<div class="ttc" id="astructMRAffineXf3f_html"><div class="ttname"><a href="./Cpp/structMRAffineXf3f.html">MRAffineXf3f</a></div></div>
+<div class="ttc" id="astructMRBox3f_html"><div class="ttname"><a href="./Cpp/structMRBox3f.html">MRBox3f</a></div></div>
+<div class="ttc" id="astructMRICPProperties_html"><div class="ttname"><a href="./Cpp/structMRICPProperties.html">MRICPProperties</a></div></div>
+<div class="ttc" id="astructMRICPProperties_html_af361f47102e347876690d8afb088ed69"><div class="ttname"><a href="./Cpp/structMRICPProperties.html#af361f47102e347876690d8afb088ed69">MRICPProperties::exitVal</a></div><div class="ttdeci">float exitVal</div></div>
+<div class="ttc" id="astructMRICPProperties_html_af8056cb5ec97a0e2fb709ac76fc146de"><div class="ttname"><a href="./Cpp/structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de">MRICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div></div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
