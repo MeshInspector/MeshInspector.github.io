@@ -1,5 +1,13 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1ObjectPointsHolder.html#a1735bc6e1a052ca27d264576b441d306":[6,0,2,0,1,394,17],
+"classMR_1_1ObjectPointsHolder.html#a1889e45631f7acbe861a73c528476f9c":[6,0,1,0,1,410,11],
+"classMR_1_1ObjectPointsHolder.html#a1889e45631f7acbe861a73c528476f9c":[6,0,2,0,1,394,11],
+"classMR_1_1ObjectPointsHolder.html#a18cfe61ccf4c9bfd32aa9b16db4e68ce":[6,0,1,0,1,410,1],
+"classMR_1_1ObjectPointsHolder.html#a18cfe61ccf4c9bfd32aa9b16db4e68ce":[6,0,2,0,1,394,1],
+"classMR_1_1ObjectPointsHolder.html#a19482cf3c1f465a186788f1208312266":[6,0,1,0,1,410,3],
+"classMR_1_1ObjectPointsHolder.html#a19482cf3c1f465a186788f1208312266":[6,0,2,0,1,394,3],
+"classMR_1_1ObjectPointsHolder.html#a1bf94b614f61d0c5f7e7e9128c767f12":[6,0,1,0,1,410,48],
 "classMR_1_1ObjectPointsHolder.html#a1bf94b614f61d0c5f7e7e9128c767f12":[6,0,2,0,1,394,48],
 "classMR_1_1ObjectPointsHolder.html#a1e4577ab2bb24e7600c98bc550668b06":[6,0,1,0,1,410,27],
 "classMR_1_1ObjectPointsHolder.html#a1e4577ab2bb24e7600c98bc550668b06":[6,0,2,0,1,394,27],
@@ -241,13 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1OpenDICOMsMenuItem.html":[6,0,2,0,1,414],
 "classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,1,0,1,430,1],
 "classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,2,0,1,414,1],
-"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,1,0,1,430,0],
-"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,2,0,1,414,0],
-"classMR_1_1OpenDirectoryMenuItem.html":[6,0,1,0,1,431],
-"classMR_1_1OpenDirectoryMenuItem.html":[6,0,2,0,1,415],
-"classMR_1_1OpenDirectoryMenuItem.html#a4823452a80e9a83ccd30f93c77a7e233":[6,0,1,0,1,431,2],
-"classMR_1_1OpenDirectoryMenuItem.html#a4823452a80e9a83ccd30f93c77a7e233":[6,0,2,0,1,415,2],
-"classMR_1_1OpenDirectoryMenuItem.html#a99e13adad0201cd173dae6af6ad6138c":[6,0,1,0,1,431,1],
-"classMR_1_1OpenDirectoryMenuItem.html#a99e13adad0201cd173dae6af6ad6138c":[6,0,2,0,1,415,1],
-"classMR_1_1OpenDirectoryMenuItem.html#a9b247e419f48e278a2836eb114d8d0bd":[6,0,1,0,1,431,0]
+"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,1,0,1,430,0]
 };

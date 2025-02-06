@@ -1,5 +1,15 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be":[6,0,0,0,20,16],
+"structMR_1_1RangeSize.html":[6,0,1,0,1,513],
+"structMR_1_1RangeSize.html":[6,0,2,0,1,497],
+"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,1,0,1,513,0],
+"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,2,0,1,497,0],
+"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,1,0,1,513,1],
+"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,2,0,1,497,1],
+"structMR_1_1RawTiffOutput.html":[6,0,1,0,1,514],
+"structMR_1_1RawTiffOutput.html":[6,0,2,0,1,498],
+"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,1,0,1,514,0],
 "structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,2,0,1,498,0],
 "structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,1,0,1,514,3],
 "structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,2,0,1,498,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#ac62f704a663135a3575b85f010bf42cf":[6,0,1,0,1,562,1,3],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#ac62f704a663135a3575b85f010bf42cf":[6,0,2,0,1,546,1,3],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#af3c9cd76985b22daa5dc4df743a27f18":[6,0,1,0,1,562,1,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#af3c9cd76985b22daa5dc4df743a27f18":[6,0,2,0,1,546,1,1],
-"structMR_1_1RibbonTab.html":[6,0,1,0,1,564],
-"structMR_1_1RibbonTab.html":[6,0,2,0,1,548],
-"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,1,0,1,564,0],
-"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,2,0,1,548,0],
-"structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,1,0,1,564,2],
-"structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,2,0,1,548,2],
-"structMR_1_1RibbonTab.html#a675a7bce9775caa4a477370d2802bcbe":[6,0,1,0,1,564,1],
-"structMR_1_1RibbonTab.html#a675a7bce9775caa4a477370d2802bcbe":[6,0,2,0,1,548,1],
-"structMR_1_1RigidScaleXf3.html":[6,0,1,0,1,565],
-"structMR_1_1RigidScaleXf3.html":[6,0,2,0,1,549]
+"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#af3c9cd76985b22daa5dc4df743a27f18":[6,0,2,0,1,546,1,1]
 };

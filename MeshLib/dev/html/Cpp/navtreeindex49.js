@@ -1,5 +1,15 @@
 var NAVTREEINDEX49 =
 {
+"group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862":[6,0,0,18,21],
+"group__BasicStructuresGroup.html#gafaceca609bb25c112d03e61621d7df0c":[6,0,0,18,23],
+"group__BestFitGroup.html":[6,0,0,0,1],
+"group__BestFitGroup.html#ga141cf1a05b86ed500cac08d1205ca80a":[6,0,0,0,1,5],
+"group__BestFitGroup.html#ga6ea5e287b2854466c0edc8429e4f3728":[6,0,0,0,1,2],
+"group__BestFitGroup.html#ga9bca49efd608d5a3ee129ae497696532":[6,0,0,0,1,1],
+"group__BestFitGroup.html#gaa782086a9c5b4c3f2fc9a0c19bb2a4c7":[6,0,0,0,1,3],
+"group__BestFitGroup.html#gabf09681953aae673c37c9121925a3aab":[6,0,0,0,1,4],
+"group__BooleanGroup.html":[6,0,0,8],
+"group__BooleanGroup.html#ga33e04ff2f620e99f7bcd23080433c39f":[6,0,0,8,12],
 "group__BooleanGroup.html#ga3f74a4803a385d6714d3711d05b747dc":[6,0,0,8,17],
 "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245":[6,0,0,8,15],
 "group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9":[6,0,0,8,8],
@@ -239,15 +249,5 @@ var NAVTREEINDEX49 =
 "group__ImageSaveGroup.html#gabbeeaa739dd86cd748ee251faeb2e318":[6,0,0,2,5,2],
 "group__ImageSaveGroup.html#gaf5aa523593e91cde08bf181b7aa9b2b3":[6,0,0,2,5,0],
 "group__IntersectionGroup.html":[6,0,0,0,6],
-"group__IntersectionGroup.html#ga0687cd4a683d6fecc91850b82a02be37":[6,0,0,0,6,3],
-"group__IntersectionGroup.html#ga09243a2c7d047fea71d5b6ee805bb486":[6,0,0,0,6,8],
-"group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3":[6,0,0,0,6,10],
-"group__IntersectionGroup.html#ga174ea372194ccce008006eeca81c9c81":[6,0,0,0,6,2],
-"group__IntersectionGroup.html#ga1ff63020d1319814baf4c97e72dfcc2b":[6,0,0,0,6,7],
-"group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48":[6,0,0,0,6,0],
-"group__IntersectionGroup.html#ga5aa33ccde105060c1f523292e81dfcbf":[6,0,0,0,6,9],
-"group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4":[6,0,0,0,6,5],
-"group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190":[6,0,0,0,6,4],
-"group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4":[6,0,0,0,6,1],
-"group__IntersectionGroup.html#gad9c4f2546d1a40da39bccf700c70ee49":[6,0,0,0,6,6]
+"group__IntersectionGroup.html#ga0687cd4a683d6fecc91850b82a02be37":[6,0,0,0,6,3]
 };

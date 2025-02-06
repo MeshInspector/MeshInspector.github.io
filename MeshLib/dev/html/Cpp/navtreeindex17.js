@@ -1,5 +1,13 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BoundarySelectionWidget.html#af810f64718c8240669bf5db4a5fa8bb1":[6,0,1,0,1,82,14],
+"classMR_1_1BoundarySelectionWidget.html#af810f64718c8240669bf5db4a5fa8bb1":[6,0,2,0,1,66,14],
+"classMR_1_1BoundarySelectionWidget.html#afbc86f5613c3dd468b07182608a9aee9":[6,0,1,0,1,82,12],
+"classMR_1_1BoundarySelectionWidget.html#afbc86f5613c3dd468b07182608a9aee9":[6,0,2,0,1,66,12],
+"classMR_1_1Buffer.html":[6,0,0,3,6],
+"classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c":[6,0,0,3,6,7],
+"classMR_1_1Buffer.html#a2f01b559e5cafefd57bef4c73f59b669":[6,0,0,3,6,10],
+"classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70":[6,0,0,3,6,19],
 "classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a":[6,0,0,3,6,11],
 "classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8":[6,0,0,3,6,4],
 "classMR_1_1Buffer.html#a639284e16d0d26e25ac330e5e04651ca":[6,0,0,3,6,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeObjectSelectedAction.html#aa52b1585ac548e84db85dd7223403ca9":[6,0,0,4,13,1],
 "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26":[6,0,0,4,13,2],
 "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30":[6,0,0,4,13,4],
-"classMR_1_1ChangeObjectVisibilityAction.html":[6,0,0,4,14],
-"classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01":[6,0,0,4,14,3],
-"classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7":[6,0,0,4,14,1],
-"classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d":[6,0,0,4,14,0],
-"classMR_1_1ChangeObjectVisibilityAction.html#ab2ff1171bd87dd95a3e338f4244fafa6":[6,0,0,4,14,2],
-"classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d":[6,0,0,4,14,4],
-"classMR_1_1ChangePointCloudAction.html":[6,0,0,4,15],
-"classMR_1_1ChangePointCloudAction.html#a36b0016bc6e04bb6c94996e9c8adbea2":[6,0,0,4,15,1],
-"classMR_1_1ChangePointCloudAction.html#a3d96f0fc00a2d6d30b4807712b3793b6":[6,0,0,4,15,4]
+"classMR_1_1ChangeObjectVisibilityAction.html":[6,0,0,4,14]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX8 =
 {
+"MRMesh_2MRMeshExtrude_8h_source.html":[6,0,3,0,0,1,3,189],
+"MRMesh_2MRMeshFillHole_8h.html":[6,0,3,0,0,1,3,190],
+"MRMesh_2MRMeshFillHole_8h_source.html":[6,0,3,0,0,1,3,190],
+"MRMesh_2MRMeshFixer_8h.html":[6,0,3,0,0,1,3,191],
+"MRMesh_2MRMeshFixer_8h_source.html":[6,0,3,0,0,1,3,191],
+"MRMesh_2MRMeshFwd_8h.html":[6,0,3,0,0,1,3,192],
+"MRMesh_2MRMeshFwd_8h.html#a02e90b12bc50d61d8f58ed9cfb45ff75":[6,0,3,0,0,1,3,192,173],
+"MRMesh_2MRMeshFwd_8h.html#a036c60a88f141a437ffed0bc572fce6d":[6,0,3,0,0,1,3,192,68],
 "MRMesh_2MRMeshFwd_8h.html#a04c9a5f04585aa8c5818315dfbf0fe8e":[6,0,3,0,0,1,3,192,84],
 "MRMesh_2MRMeshFwd_8h.html#a05d4e4903837647940c265c6939dcfdf":[6,0,3,0,0,1,3,192,47],
 "MRMesh_2MRMeshFwd_8h.html#a0644533afbeab941be3a4178a8feb4fe":[6,0,3,0,0,1,3,192,134],
@@ -241,13 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMultiwayICP_8h.html":[6,0,3,0,0,1,3,221],
 "MRMesh_2MRMultiwayICP_8h.html#a331d6b27226046972c32b7d946f0624b":[6,0,3,0,0,1,3,221,7],
 "MRMesh_2MRMultiwayICP_8h.html#a3d0081672e0ccdc9545b8df2b84c3663":[6,0,3,0,0,1,3,221,10],
-"MRMesh_2MRMultiwayICP_8h.html#a74691005c823c40bb2293118aa854d32":[6,0,3,0,0,1,3,221,11],
-"MRMesh_2MRMultiwayICP_8h.html#ab448f2e256aabf3e97eaaef010380fb1":[6,0,3,0,0,1,3,221,6],
-"MRMesh_2MRMultiwayICP_8h.html#acc39cd0582abbbb48612bd904fe74210":[6,0,3,0,0,1,3,221,9],
-"MRMesh_2MRMultiwayICP_8h.html#add4fa046bbf16a56e7eae86658185885":[6,0,3,0,0,1,3,221,8],
-"MRMesh_2MRMultiwayICP_8h.html#ae9eff2bf5026577153e17f3ff0ae801c":[6,0,3,0,0,1,3,221,5],
-"MRMesh_2MRMultiwayICP_8h_source.html":[6,0,3,0,0,1,3,221],
-"MRMesh_2MRNormalDenoising_8h.html":[6,0,3,0,0,1,3,224],
-"MRMesh_2MRNormalDenoising_8h.html#a40847df1ce412c4c7085dd392037e050":[6,0,3,0,0,1,3,224,4],
-"MRMesh_2MRNormalDenoising_8h.html#a4a2815eda5e04a1da7ec615027b52c86":[6,0,3,0,0,1,3,224,1]
+"MRMesh_2MRMultiwayICP_8h.html#a74691005c823c40bb2293118aa854d32":[6,0,3,0,0,1,3,221,11]
 };

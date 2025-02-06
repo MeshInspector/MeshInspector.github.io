@@ -1,5 +1,13 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[6,0,1,0,1,237,2],
+"classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[6,0,2,0,1,221,2],
+"classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[6,0,1,0,1,237,3],
+"classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[6,0,2,0,1,221,3],
+"classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[6,0,1,0,1,237,5],
+"classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[6,0,2,0,1,221,5],
+"classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[6,0,1,0,1,237,6],
+"classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[6,0,2,0,1,221,6],
 "classMR_1_1FreeFormBestFit.html#a8ba45d03a34b8ab81b1d6ecbc6893453":[6,0,1,0,1,237,4],
 "classMR_1_1FreeFormBestFit.html#a8ba45d03a34b8ab81b1d6ecbc6893453":[6,0,2,0,1,221,4],
 "classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[6,0,1,0,1,237,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1Graph.html#ab76aab71a50b47ed582851ecb969920c":[6,0,1,0,1,249,6],
 "classMR_1_1Graph.html#ab76aab71a50b47ed582851ecb969920c":[6,0,2,0,1,233,6],
 "classMR_1_1Graph.html#ac3097672a81dda206c80984a7fdb0806":[6,0,1,0,1,249,8],
-"classMR_1_1Graph.html#ac3097672a81dda206c80984a7fdb0806":[6,0,2,0,1,233,8],
-"classMR_1_1Graph.html#ac31feb99fa40a7a7fee0c9806f676b11":[6,0,1,0,1,249,20],
-"classMR_1_1Graph.html#ac31feb99fa40a7a7fee0c9806f676b11":[6,0,2,0,1,233,20],
-"classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105":[6,0,1,0,1,249,7],
-"classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105":[6,0,2,0,1,233,7],
-"classMR_1_1HashToVectorMappingConverter.html":[6,0,1,0,1,252],
-"classMR_1_1HashToVectorMappingConverter.html":[6,0,2,0,1,236],
-"classMR_1_1HashToVectorMappingConverter.html#a7a2fdb7a013606306cc5f05762b052bc":[6,0,1,0,1,252,1],
-"classMR_1_1HashToVectorMappingConverter.html#a7a2fdb7a013606306cc5f05762b052bc":[6,0,2,0,1,236,1]
+"classMR_1_1Graph.html#ac3097672a81dda206c80984a7fdb0806":[6,0,2,0,1,233,8]
 };

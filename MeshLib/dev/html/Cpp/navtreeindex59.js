@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1UI.html#ad13b9be4aa5cae65c61e91ac1ab04ecd":[6,0,1,0,1,38,23],
+"namespaceMR_1_1UI.html#ae14306471133180f84a3a02650ced599":[6,0,1,0,1,38,22],
+"namespaceMR_1_1UI.html#af1937d08c3cb699681eeb7fd4dde005e":[6,0,1,0,1,38,67],
+"namespaceMR_1_1UI.html#af6f24e8f5454ee5851179f720cd07eb4":[6,0,1,0,1,38,64],
+"namespaceMR_1_1UI.html#af81d056e2ca2afaceec0e67e12ed9afb":[6,0,1,0,1,38,53],
+"namespaceMR_1_1UI.html#afadef8b878371dc0bc9aa07df5dec003":[6,0,1,0,1,38,17],
+"namespaceMR_1_1UI.html#afbf63021d04e94c878b093fd86fef43f":[6,0,1,0,1,38,21],
+"namespaceMR_1_1UI.html#afc1009af05439b78707e8372d21f9a87":[6,0,1,0,1,38,54],
+"namespaceMR_1_1UI.html#afe9bb305085b442bd865e843c59cb03f":[6,0,1,0,1,38,31],
+"namespaceMR_1_1UI.html#affdd9ce8585853bc545f4f60bda2611f":[6,0,1,0,1,38,24],
 "namespaceMR_1_1UI_1_1TestEngine.html":[6,0,1,0,1,38,1],
 "namespaceMR_1_1UI_1_1TestEngine.html#a3732226b2f7a19edeee17322b33fbe10":[6,0,1,0,1,38,1,8],
 "namespaceMR_1_1UI_1_1TestEngine.html#a6288bc5916d47bced805d24207db5942":[6,0,1,0,1,38,1,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1],
 "structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
 "structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
-"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
-"structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
-"structMREdgeId.html":[6,0,2,0,14],
-"structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,14,0],
-"structMREdgeTri.html":[6,0,2,0,15],
-"structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,15,0],
-"structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9":[6,0,2,0,15,1],
-"structMRFaceId.html":[6,0,2,0,16],
-"structMRFaceId.html#a204eb026775902b1b2437f81f085f6f9":[6,0,2,0,16,0],
-"structMRFillHoleMetric.html":[6,0,2,0,17],
-"structMRFillHoleNicelyParams.html":[6,0,2,0,18]
+"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7]
 };

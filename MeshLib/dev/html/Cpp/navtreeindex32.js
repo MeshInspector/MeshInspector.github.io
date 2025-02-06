@@ -1,5 +1,13 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,2,0,1,414,0],
+"classMR_1_1OpenDirectoryMenuItem.html":[6,0,1,0,1,431],
+"classMR_1_1OpenDirectoryMenuItem.html":[6,0,2,0,1,415],
+"classMR_1_1OpenDirectoryMenuItem.html#a4823452a80e9a83ccd30f93c77a7e233":[6,0,1,0,1,431,2],
+"classMR_1_1OpenDirectoryMenuItem.html#a4823452a80e9a83ccd30f93c77a7e233":[6,0,2,0,1,415,2],
+"classMR_1_1OpenDirectoryMenuItem.html#a99e13adad0201cd173dae6af6ad6138c":[6,0,1,0,1,431,1],
+"classMR_1_1OpenDirectoryMenuItem.html#a99e13adad0201cd173dae6af6ad6138c":[6,0,2,0,1,415,1],
+"classMR_1_1OpenDirectoryMenuItem.html#a9b247e419f48e278a2836eb114d8d0bd":[6,0,1,0,1,431,0],
 "classMR_1_1OpenDirectoryMenuItem.html#a9b247e419f48e278a2836eb114d8d0bd":[6,0,2,0,1,415,0],
 "classMR_1_1OpenDirectoryMenuItem.html#ad480b9d10b92efda1041fbbb67fe8cb2":[6,0,1,0,1,431,3],
 "classMR_1_1OpenDirectoryMenuItem.html#ad480b9d10b92efda1041fbbb67fe8cb2":[6,0,2,0,1,415,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702":[6,0,1,0,1,453,13],
 "classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702":[6,0,2,0,1,437,13],
 "classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,1,0,1,453,0],
-"classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,2,0,1,437,0],
-"classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,1,0,1,453,9],
-"classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,2,0,1,437,9],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,1,0,1,453,6],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,2,0,1,437,6],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,1,0,1,454],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,2,0,1,438],
-"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,1,0,1,454,1],
-"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,2,0,1,438,1]
+"classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,2,0,1,437,0]
 };

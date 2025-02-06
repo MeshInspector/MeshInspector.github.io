@@ -84,7 +84,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRDistanceToMeshOptions.h", "MRDistanceToMeshOptions_8h.html", "MRDistanceToMeshOptions_8h" ],
     [ "MREdgeIterator.h", "MREdgeIterator_8h.html", "MREdgeIterator_8h" ],
     [ "MREdgeMetric.h", "MREdgeMetric_8h.html", "MREdgeMetric_8h" ],
-    [ "MREdgePaths.h", "MREdgePaths_8h.html", "MREdgePaths_8h" ],
+    [ "MREdgePaths.h", "MRMesh_2MREdgePaths_8h.html", "MRMesh_2MREdgePaths_8h" ],
     [ "MREdgePathsBuilder.h", "MREdgePathsBuilder_8h.html", "MREdgePathsBuilder_8h" ],
     [ "MREdgePoint.h", "MREdgePoint_8h.html", "MREdgePoint_8h" ],
     [ "MREmbedTerrainStructure.h", "MREmbedTerrainStructure_8h.html", "MREmbedTerrainStructure_8h" ],

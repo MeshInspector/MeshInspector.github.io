@@ -1,5 +1,13 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRMultiwayICP_8h.html#ab448f2e256aabf3e97eaaef010380fb1":[6,0,3,0,0,1,3,221,6],
+"MRMesh_2MRMultiwayICP_8h.html#acc39cd0582abbbb48612bd904fe74210":[6,0,3,0,0,1,3,221,9],
+"MRMesh_2MRMultiwayICP_8h.html#add4fa046bbf16a56e7eae86658185885":[6,0,3,0,0,1,3,221,8],
+"MRMesh_2MRMultiwayICP_8h.html#ae9eff2bf5026577153e17f3ff0ae801c":[6,0,3,0,0,1,3,221,5],
+"MRMesh_2MRMultiwayICP_8h_source.html":[6,0,3,0,0,1,3,221],
+"MRMesh_2MRNormalDenoising_8h.html":[6,0,3,0,0,1,3,224],
+"MRMesh_2MRNormalDenoising_8h.html#a40847df1ce412c4c7085dd392037e050":[6,0,3,0,0,1,3,224,4],
+"MRMesh_2MRNormalDenoising_8h.html#a4a2815eda5e04a1da7ec615027b52c86":[6,0,3,0,0,1,3,224,1],
 "MRMesh_2MRNormalDenoising_8h.html#a6bddd9d63512f9dfffb0fa869f249a4d":[6,0,3,0,0,1,3,224,2],
 "MRMesh_2MRNormalDenoising_8h.html#a786dcca1baeb53c3472aeec3c347aaf0":[6,0,3,0,0,1,3,224,3],
 "MRMesh_2MRNormalDenoising_8h_source.html":[6,0,3,0,0,1,3,224],
@@ -241,13 +249,5 @@ var NAVTREEINDEX9 =
 "MRObjectPointsHistory_8h_source.html":[6,0,3,0,0,1,9,49],
 "MRObjectPointsHolder_8h.html":[6,0,3,0,0,1,3,237],
 "MRObjectPointsHolder_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,3,237,4],
-"MRObjectPointsHolder_8h.html#abe89e68bb42ac37f29751da1b4f600eb":[6,0,3,0,0,1,3,237,3],
-"MRObjectPointsHolder_8h.html#acdce382a246b8c333783f28615aac9f0":[6,0,3,0,0,1,3,237,5],
-"MRObjectPointsHolder_8h.html#afef5d869778f6e470421c5e70529110c":[6,0,3,0,0,1,3,237,2],
-"MRObjectPointsHolder_8h_source.html":[6,0,3,0,0,1,3,237],
-"MRObjectPoints_8h.html":[6,0,3,0,0,1,3,236],
-"MRObjectPoints_8h.html#a0bc9f97aed9da24cf8d3c368ec4ffd0b":[6,0,3,0,0,1,3,236,1],
-"MRObjectPoints_8h.html#a86837deb8b4177b9b719b1faf4d2d0e8":[6,0,3,0,0,1,3,236,0],
-"MRObjectPoints_8h.html#ac3547f635ac7e47bf1cb714faf3cc1cb":[6,0,3,0,0,1,3,236,2],
-"MRObjectPoints_8h_source.html":[6,0,3,0,0,1,3,236]
+"MRObjectPointsHolder_8h.html#abe89e68bb42ac37f29751da1b4f600eb":[6,0,3,0,0,1,3,237,3]
 };

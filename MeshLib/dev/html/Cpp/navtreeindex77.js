@@ -1,5 +1,15 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1RibbonTab.html":[6,0,1,0,1,564],
+"structMR_1_1RibbonTab.html":[6,0,2,0,1,548],
+"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,1,0,1,564,0],
+"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,2,0,1,548,0],
+"structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,1,0,1,564,2],
+"structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,2,0,1,548,2],
+"structMR_1_1RibbonTab.html#a675a7bce9775caa4a477370d2802bcbe":[6,0,1,0,1,564,1],
+"structMR_1_1RibbonTab.html#a675a7bce9775caa4a477370d2802bcbe":[6,0,2,0,1,548,1],
+"structMR_1_1RigidScaleXf3.html":[6,0,1,0,1,565],
+"structMR_1_1RigidScaleXf3.html":[6,0,2,0,1,549],
 "structMR_1_1RigidScaleXf3.html#a1b5d1cabe9f108d27da6c12f5e5717b5":[6,0,1,0,1,565,5],
 "structMR_1_1RigidScaleXf3.html#a1b5d1cabe9f108d27da6c12f5e5717b5":[6,0,2,0,1,549,5],
 "structMR_1_1RigidScaleXf3.html#a26bac944caacddeb8e441b79dfb617b0":[6,0,1,0,1,565,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[6,0,2,0,1,596,0,3],
 "structMR_1_1Signal.html":[6,0,1,0,1,613],
 "structMR_1_1Signal.html":[6,0,2,0,1,597],
-"structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4":[6,0,1,0,1,613,1],
-"structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4":[6,0,2,0,1,597,1],
-"structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55":[6,0,1,0,1,613,0],
-"structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55":[6,0,2,0,1,597,0],
-"structMR_1_1Signal.html#a69ea1c4cfb77f79ea8c163ceb39ef970":[6,0,1,0,1,613,5],
-"structMR_1_1Signal.html#a69ea1c4cfb77f79ea8c163ceb39ef970":[6,0,2,0,1,597,5],
-"structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb":[6,0,1,0,1,613,4],
-"structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb":[6,0,2,0,1,597,4],
-"structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa":[6,0,1,0,1,613,2],
-"structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa":[6,0,2,0,1,597,2],
-"structMR_1_1Signal.html#aea174e0acc86ab90ebe3d0b222305838":[6,0,1,0,1,613,3]
+"structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4":[6,0,1,0,1,613,1]
 };
