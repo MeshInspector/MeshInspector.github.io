@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[6,0,1,0,1,237,2],
 "classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[6,0,2,0,1,221,2],
 "classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[6,0,1,0,1,237,3],
 "classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[6,0,2,0,1,221,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1Graph.html#ab76aab71a50b47ed582851ecb969920c":[6,0,1,0,1,249,6],
 "classMR_1_1Graph.html#ab76aab71a50b47ed582851ecb969920c":[6,0,2,0,1,233,6],
 "classMR_1_1Graph.html#ac3097672a81dda206c80984a7fdb0806":[6,0,1,0,1,249,8],
-"classMR_1_1Graph.html#ac3097672a81dda206c80984a7fdb0806":[6,0,2,0,1,233,8],
-"classMR_1_1Graph.html#ac31feb99fa40a7a7fee0c9806f676b11":[6,0,1,0,1,249,20]
+"classMR_1_1Graph.html#ac3097672a81dda206c80984a7fdb0806":[6,0,2,0,1,233,8]
 };

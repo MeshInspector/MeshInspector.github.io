@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BoundarySelectionWidget.html#af810f64718c8240669bf5db4a5fa8bb1":[6,0,1,0,1,82,14],
 "classMR_1_1BoundarySelectionWidget.html#af810f64718c8240669bf5db4a5fa8bb1":[6,0,2,0,1,66,14],
 "classMR_1_1BoundarySelectionWidget.html#afbc86f5613c3dd468b07182608a9aee9":[6,0,1,0,1,82,12],
 "classMR_1_1BoundarySelectionWidget.html#afbc86f5613c3dd468b07182608a9aee9":[6,0,2,0,1,66,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeObjectSelectedAction.html#aa52b1585ac548e84db85dd7223403ca9":[6,0,0,4,13,1],
 "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26":[6,0,0,4,13,2],
 "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30":[6,0,0,4,13,4],
-"classMR_1_1ChangeObjectVisibilityAction.html":[6,0,0,4,14],
-"classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01":[6,0,0,4,14,3]
+"classMR_1_1ChangeObjectVisibilityAction.html":[6,0,0,4,14]
 };

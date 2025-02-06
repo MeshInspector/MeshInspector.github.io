@@ -264,6 +264,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9542cf007c0f98d41fea874268894222"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9542cf007c0f98d41fea874268894222">checkbox</a> (const char *label, Getter <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e">get</a>, Setter set)</td></tr>
 <tr class="memdesc:a9542cf007c0f98d41fea874268894222"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient checkbox  <br /></td></tr>
 <tr class="separator:a9542cf007c0f98d41fea874268894222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac8bec4cccdbdcba62669312b5cefca" id="r_a5ac8bec4cccdbdcba62669312b5cefca"><td class="memTemplParams" colspan="2">template&lt;typename Getter , typename Setter &gt; </td></tr>
+<tr class="memitem:a5ac8bec4cccdbdcba62669312b5cefca"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5ac8bec4cccdbdcba62669312b5cefca">checkboxValid</a> (const char *label, Getter <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e">get</a>, Setter set, bool valid)</td></tr>
+<tr class="separator:a5ac8bec4cccdbdcba62669312b5cefca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba6c7c72b70351ba42eae4e3a2e0df4b" id="r_aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aba6c7c72b70351ba42eae4e3a2e0df4b">checkboxFlags</a> (const char *label, T &amp;target, T flags)</td></tr>
 <tr class="memdesc:aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a checkbox toggling one or more bits in the mask.  <br /></td></tr>
@@ -1128,7 +1131,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a877e7bd4fbef2de7e95cee03dc0f71b3" name="a877e7bd4fbef2de7e95cee03dc0f71b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a877e7bd4fbef2de7e95cee03dc0f71b3">&#9670;&#160;</a></span>checkboxValid()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a877e7bd4fbef2de7e95cee03dc0f71b3">&#9670;&#160;</a></span>checkboxValid() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1152,6 +1155,39 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>If valid is false checkbox is disabled. Same as <code>checkboxOrFixedValue( ..., valid ? nullopt : false )</code>. </p>
+
+</div>
+</div>
+<a id="a5ac8bec4cccdbdcba62669312b5cefca" name="a5ac8bec4cccdbdcba62669312b5cefca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac8bec4cccdbdcba62669312b5cefca">&#9670;&#160;</a></span>checkboxValid() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Getter , typename Setter &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::checkboxValid </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Getter</td>          <td class="paramname"><span class="paramname"><em>get</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Setter</td>          <td class="paramname"><span class="paramname"><em>set</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>valid</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

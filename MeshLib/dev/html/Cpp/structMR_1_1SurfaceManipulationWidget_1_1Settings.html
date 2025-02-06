@@ -167,16 +167,22 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a112aadc006f7ece0404c1cbe603783cd" id="r_a112aadc006f7ece0404c1cbe603783cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93c">WorkMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112aadc006f7ece0404c1cbe603783cd">workMode</a> = <a class="el" href="classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9">WorkMode::Add</a></td></tr>
 <tr class="separator:a112aadc006f7ece0404c1cbe603783cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39181874053a773d7db01166de8a0c7b" id="r_a39181874053a773d7db01166de8a0c7b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39181874053a773d7db01166de8a0c7b">radius</a> = 1.f</td></tr>
+<tr class="memdesc:a39181874053a773d7db01166de8a0c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">radius of editing region  <br /></td></tr>
 <tr class="separator:a39181874053a773d7db01166de8a0c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d31568cac0bf19969e4cc51dc854a14" id="r_a2d31568cac0bf19969e4cc51dc854a14"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d31568cac0bf19969e4cc51dc854a14">relaxForce</a> = 0.2f</td></tr>
+<tr class="memdesc:a2d31568cac0bf19969e4cc51dc854a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">speed of relaxing, typical values (0 - 0.5]  <br /></td></tr>
 <tr class="separator:a2d31568cac0bf19969e4cc51dc854a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab14405334e68a28589b518f7764d2176" id="r_ab14405334e68a28589b518f7764d2176"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab14405334e68a28589b518f7764d2176">editForce</a> = 1.f</td></tr>
+<tr class="memdesc:ab14405334e68a28589b518f7764d2176"><td class="mdescLeft">&#160;</td><td class="mdescRight">the force of changing mesh  <br /></td></tr>
 <tr class="separator:ab14405334e68a28589b518f7764d2176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac91503b98cd4530afb0bafe21f09b924" id="r_ac91503b98cd4530afb0bafe21f09b924"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac91503b98cd4530afb0bafe21f09b924">sharpness</a> = 50.f</td></tr>
+<tr class="memdesc:ac91503b98cd4530afb0bafe21f09b924"><td class="mdescLeft">&#160;</td><td class="mdescRight">effect of force on points far from center editing area. [0 - 100]  <br /></td></tr>
 <tr class="separator:ac91503b98cd4530afb0bafe21f09b924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d9e28df35121c177e6e2eead86a43a" id="r_ab3d9e28df35121c177e6e2eead86a43a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d9e28df35121c177e6e2eead86a43a">relaxForceAfterEdit</a> = 0.25f</td></tr>
+<tr class="memdesc:ab3d9e28df35121c177e6e2eead86a43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of relaxing modified area after editing (add / remove) is complete. [0 - 0.5], 0 - not relax  <br /></td></tr>
 <tr class="separator:ab3d9e28df35121c177e6e2eead86a43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bf410c025634089f22b3341825cd20b" id="r_a2bf410c025634089f22b3341825cd20b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bf410c025634089f22b3341825cd20b">edgeWeights</a> = <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
+<tr class="memdesc:a2bf410c025634089f22b3341825cd20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge weights for <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch  <br /></td></tr>
 <tr class="separator:a2bf410c025634089f22b3341825cd20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -194,6 +200,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>edge weights for <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch </p>
+
 </div>
 </div>
 <a id="ab14405334e68a28589b518f7764d2176" name="ab14405334e68a28589b518f7764d2176"></a>
@@ -207,6 +215,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>the force of changing mesh </p>
 
 </div>
 </div>
@@ -222,6 +232,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>radius of editing region </p>
+
 </div>
 </div>
 <a id="a2d31568cac0bf19969e4cc51dc854a14" name="a2d31568cac0bf19969e4cc51dc854a14"></a>
@@ -235,6 +247,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>speed of relaxing, typical values (0 - 0.5] </p>
 
 </div>
 </div>
@@ -250,6 +264,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>force of relaxing modified area after editing (add / remove) is complete. [0 - 0.5], 0 - not relax </p>
+
 </div>
 </div>
 <a id="ac91503b98cd4530afb0bafe21f09b924" name="ac91503b98cd4530afb0bafe21f09b924"></a>
@@ -263,6 +279,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>effect of force on points far from center editing area. [0 - 100] </p>
 
 </div>
 </div>
