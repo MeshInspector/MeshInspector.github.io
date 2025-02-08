@@ -27,7 +27,7 @@ var hierarchy =
     [ "MR::AsyncTimer", "classMR_1_1AsyncTimer.html", null ],
     [ "auto_cast_trait< T >", "structauto__cast__trait.html", null ],
     [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
-    [ "MR::Ball", "structMR_1_1Ball.html", null ],
+    [ "MR::Ball< V >", "structMR_1_1Ball.html", null ],
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
     ] ],

@@ -218,8 +218,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Ball.html">MR::Ball</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></td></tr>
@@ -255,9 +253,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga8ba650839d7806773bb542b986ac4283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac20cf6ba073a7db1e2df313fb87d9517" id="r_gac20cf6ba073a7db1e2df313fb87d9517"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac20cf6ba073a7db1e2df313fb87d9517">MR::MeshIntersectionCallback</a> = std::function&lt;bool(const <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &amp;)&gt;</td></tr>
 <tr class="separator:gac20cf6ba073a7db1e2df313fb87d9517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6ec6b628f6388a76af3252fd27b93883" id="r_ga6ec6b628f6388a76af3252fd27b93883"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6ec6b628f6388a76af3252fd27b93883">MR::FoundTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, <a class="el" href="structMR_1_1Ball.html">Ball</a> &amp; ball )&gt;</td></tr>
-<tr class="memdesc:ga6ec6b628f6388a76af3252fd27b93883"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every triangle at least partially in the ball, and allows to change the ball  <br /></td></tr>
-<tr class="separator:ga6ec6b628f6388a76af3252fd27b93883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3fa10deed3f5f765a28d62f2a9667c0f" id="r_ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">MR::FoundTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, Ball3f &amp; ball )&gt;</td></tr>
+<tr class="memdesc:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every triangle at least partially in the ball, and allows to change the ball  <br /></td></tr>
+<tr class="separator:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac2b944209dd41b786a30b1d537639470" id="r_gac2b944209dd41b786a30b1d537639470"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:gac2b944209dd41b786a30b1d537639470"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac2b944209dd41b786a30b1d537639470">MR::FoundEdgeCallback</a> = std::function&lt;void( UndirectedEdgeId, const V&amp; closestPt, float distSq )&gt;</td></tr>
 <tr class="separator:gac2b944209dd41b786a30b1d537639470"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -373,8 +371,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga415d472754b9db893c0765c00951faad" id="r_ga415d472754b9db893c0765c00951faad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga415d472754b9db893c0765c00951faad">MR::findProjectionSubtree</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
 <tr class="memdesc:ga415d472754b9db893c0765c00951faad"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:ga415d472754b9db893c0765c00951faad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga70230ded2f43f2eb597df4e2848a8b5e" id="r_ga70230ded2f43f2eb597df4e2848a8b5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga70230ded2f43f2eb597df4e2848a8b5e">MR::findTrisInBall</a> (const MeshPart &amp;mp, <a class="el" href="structMR_1_1Ball.html">Ball</a> ball, const <a class="el" href="#ga6ec6b628f6388a76af3252fd27b93883">FoundTriCallback</a> &amp;foundCallback, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
-<tr class="separator:ga70230ded2f43f2eb597df4e2848a8b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b8bb4a57a94133b6563903c8c156c3e" id="r_ga6b8bb4a57a94133b6563903c8c156c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b8bb4a57a94133b6563903c8c156c3e">MR::findTrisInBall</a> (const MeshPart &amp;mp, Ball3f ball, const <a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> &amp;foundCallback, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
+<tr class="separator:ga6b8bb4a57a94133b6563903c8c156c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44d0cb5151cae38d27130277c50301bc" id="r_ga44d0cb5151cae38d27130277c50301bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44d0cb5151cae38d27130277c50301bc">MR::findSignedDistance</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga44d0cb5151cae38d27130277c50301bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
 <tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -549,14 +547,14 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="ga6ec6b628f6388a76af3252fd27b93883" name="ga6ec6b628f6388a76af3252fd27b93883"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6ec6b628f6388a76af3252fd27b93883">&#9670;&#160;</a></span>FoundTriCallback</h2>
+<a id="ga3fa10deed3f5f765a28d62f2a9667c0f" name="ga3fa10deed3f5f765a28d62f2a9667c0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fa10deed3f5f765a28d62f2a9667c0f">&#9670;&#160;</a></span>FoundTriCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ga6ec6b628f6388a76af3252fd27b93883">MR::FoundTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, <a class="el" href="structMR_1_1Ball.html">Ball</a> &amp; ball )&gt;</td>
+          <td class="memname">using <a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">MR::FoundTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, Ball3f &amp; ball )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2412,8 +2410,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga70230ded2f43f2eb597df4e2848a8b5e" name="ga70230ded2f43f2eb597df4e2848a8b5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga70230ded2f43f2eb597df4e2848a8b5e">&#9670;&#160;</a></span>findTrisInBall()</h2>
+<a id="ga6b8bb4a57a94133b6563903c8c156c3e" name="ga6b8bb4a57a94133b6563903c8c156c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b8bb4a57a94133b6563903c8c156c3e">&#9670;&#160;</a></span>findTrisInBall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2426,12 +2424,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Ball.html">Ball</a></td>          <td class="paramname"><span class="paramname"><em>ball</em></span>, </td>
+          <td class="paramtype">Ball3f</td>          <td class="paramname"><span class="paramname"><em>ball</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ga6ec6b628f6388a76af3252fd27b93883">FoundTriCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

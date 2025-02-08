@@ -185,10 +185,6 @@ var group__AABBTreeGroup =
       [ "mtp", "structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1", null ],
       [ "proj", "structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28", null ]
     ] ],
-    [ "MR::Ball", "structMR_1_1Ball.html", [
-      [ "center", "structMR_1_1Ball.html#aa7f96dff1ff19edb48b34440972856c1", null ],
-      [ "radiusSq", "structMR_1_1Ball.html#ac3fa51acd301bd91b76700d008cb7838", null ]
-    ] ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", [
       [ "dist", "structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23", null ],
       [ "mtp", "structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41", null ],
@@ -235,7 +231,7 @@ var group__AABBTreeGroup =
     [ "MR::FoundEdgeCallback", "group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470", null ],
     [ "MR::FoundEdgeCallback2", "group__AABBTreeGroup.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
     [ "MR::FoundEdgeCallback3", "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19", null ],
-    [ "MR::FoundTriCallback", "group__AABBTreeGroup.html#ga6ec6b628f6388a76af3252fd27b93883", null ],
+    [ "MR::FoundTriCallback", "group__AABBTreeGroup.html#ga3fa10deed3f5f765a28d62f2a9667c0f", null ],
     [ "MR::Line3dMesh", "group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283", null ],
     [ "MR::Line3fMesh", "group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6", null ],
     [ "MR::LineTreeTraits", "group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c", null ],
@@ -287,7 +283,7 @@ var group__AABBTreeGroup =
     [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc", null ],
-    [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga70230ded2f43f2eb597df4e2848a8b5e", null ],
+    [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga6b8bb4a57a94133b6563903c8c156c3e", null ],
     [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga125d7b99c7b4840e87a3470ef0c64b17", null ],

@@ -21,6 +21,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRAngleMeasurementObject.h", "MRAngleMeasurementObject_8h.html", "MRAngleMeasurementObject_8h" ],
     [ "MRArrow.h", "MRArrow_8h.html", "MRArrow_8h" ],
     [ "MRAxis.h", "MRAxis_8h.html", "MRAxis_8h" ],
+    [ "MRBall.h", "MRBall_8h.html", "MRBall_8h" ],
     [ "MRBase64.h", "MRBase64_8h.html", "MRBase64_8h" ],
     [ "MRBasinVolume.h", "MRBasinVolume_8h.html", "MRBasinVolume_8h" ],
     [ "MRBestFit.h", "MRBestFit_8h.html", "MRBestFit_8h" ],
