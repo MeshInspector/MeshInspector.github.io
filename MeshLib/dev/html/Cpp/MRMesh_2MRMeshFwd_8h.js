@@ -100,6 +100,8 @@ var MRMesh_2MRMeshFwd_8h =
     [ "Cone3< float >", "MRMesh_2MRMeshFwd_8h.html#a04c9a5f04585aa8c5818315dfbf0fe8e", null ],
     [ "contains", "MRMesh_2MRMeshFwd_8h.html#a0e69561d8c59d6cbfe5db9199465db72", null ],
     [ "Cylinder3< float >", "MRMesh_2MRMeshFwd_8h.html#ab08e303630da101533700786067d562b", null ],
+    [ "distance", "MRMesh_2MRMeshFwd_8h.html#a8bbe103235cb82270d98d373ac2da406", null ],
+    [ "distanceSq", "MRMesh_2MRMeshFwd_8h.html#a6378c438e076ed530da1f0c964249855", null ],
     [ "Matrix2< bool >", "MRMesh_2MRMeshFwd_8h.html#a9c32f29e20d5fafc7aca92f5c1bb16c9", null ],
     [ "Matrix2< long long >", "MRMesh_2MRMeshFwd_8h.html#ac773a059629abc5f2872f613c9bdef64", null ],
     [ "Matrix4< bool >", "MRMesh_2MRMeshFwd_8h.html#a450ae4b2d186582761e1351ce75c8ee0", null ],

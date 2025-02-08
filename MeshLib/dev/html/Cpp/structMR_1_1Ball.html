@@ -152,6 +152,7 @@ $(function(){initNavTree('structMR_1_1Ball.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structMR_1_1Ball-members.html">List of all members</a>  </div>
@@ -170,6 +171,15 @@ Public Types</h2></td></tr>
 <tr class="separator:ab29b342345673c2ab559f44111f75bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad1f3f595e73be14324c1ad3964ab4fd" id="r_aad1f3f595e73be14324c1ad3964ab4fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad1f3f595e73be14324c1ad3964ab4fd">T</a> = typename <a class="el" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
 <tr class="separator:aad1f3f595e73be14324c1ad3964ab4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab893ec6d092032257b91b7fcbcb6a58a" id="r_ab893ec6d092032257b91b7fcbcb6a58a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab893ec6d092032257b91b7fcbcb6a58a">inside</a> (const V &amp;pt) const</td></tr>
+<tr class="memdesc:ab893ec6d092032257b91b7fcbcb6a58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given point is strictly inside the ball (not on its spherical surface)  <br /></td></tr>
+<tr class="separator:ab893ec6d092032257b91b7fcbcb6a58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bd851f9c63fe2f529f8ef586a5ea69" id="r_a18bd851f9c63fe2f529f8ef586a5ea69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18bd851f9c63fe2f529f8ef586a5ea69">outside</a> (const V &amp;pt) const</td></tr>
+<tr class="memdesc:a18bd851f9c63fe2f529f8ef586a5ea69"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given point is strictly outside the ball (not on its spherical surface)  <br /></td></tr>
+<tr class="separator:a18bd851f9c63fe2f529f8ef586a5ea69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -218,6 +228,65 @@ template&lt;typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab893ec6d092032257b91b7fcbcb6a58a" name="ab893ec6d092032257b91b7fcbcb6a58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab893ec6d092032257b91b7fcbcb6a58a">&#9670;&#160;</a></span>inside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::inside </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if given point is strictly inside the ball (not on its spherical surface) </p>
+
+</div>
+</div>
+<a id="a18bd851f9c63fe2f529f8ef586a5ea69" name="a18bd851f9c63fe2f529f8ef586a5ea69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18bd851f9c63fe2f529f8ef586a5ea69">&#9670;&#160;</a></span>outside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::outside </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if given point is strictly outside the ball (not on its spherical surface) </p>
 
 </div>
 </div>

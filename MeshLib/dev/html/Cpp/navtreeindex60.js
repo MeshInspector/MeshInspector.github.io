@@ -1,5 +1,15 @@
 var NAVTREEINDEX60 =
 {
+"structMRDecimateSettings.html":[6,0,2,0,12],
+"structMRDecimateSettings.html#a0ba243d3dc1eb29fedfedf12821f808b":[6,0,2,0,12,8],
+"structMRDecimateSettings.html#a1059a2ea3dd3750396c012134de9ad56":[6,0,2,0,12,0],
+"structMRDecimateSettings.html#a1d0329e1a12b385130c9098ca1cde327":[6,0,2,0,12,6],
+"structMRDecimateSettings.html#a2c349e24d60412eb6b16ab1d98e8074e":[6,0,2,0,12,7],
+"structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628":[6,0,2,0,12,2],
+"structMRDecimateSettings.html#a3c31da100d3cc2b0dc612fe3342cebb6":[6,0,2,0,12,5],
+"structMRDecimateSettings.html#a4e04ee54a67240824fcf155e24e679b6":[6,0,2,0,12,12],
+"structMRDecimateSettings.html#a6752b8883770f758f44fc5956c8238c4":[6,0,2,0,12,9],
+"structMRDecimateSettings.html#a679658d2e5a069713519041347304233":[6,0,2,0,12,16],
 "structMRDecimateSettings.html#a6b5b07423ef64eadeec3662a51a57bba":[6,0,2,0,12,18],
 "structMRDecimateSettings.html#a74c3f1a345b8010234658a32c8f29cb2":[6,0,2,0,12,3],
 "structMRDecimateSettings.html#a772d763e2025022e8ecad5e0df7081ee":[6,0,2,0,12,10],
@@ -239,15 +249,5 @@ var NAVTREEINDEX60 =
 "structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,57,0],
 "structMRStitchHolesParams.html":[6,0,2,0,58],
 "structMRStitchHolesParams.html#ab1a3eda7adaffbeaa8f8a7da237d2888":[6,0,2,0,58,1],
-"structMRStitchHolesParams.html#af2802077c43ff3c07a29080f2a908ade":[6,0,2,0,58,0],
-"structMRSubdivideSettings.html":[6,0,2,0,59],
-"structMRSubdivideSettings.html#a1d755eca0a3bcc58f0847f35da897684":[6,0,2,0,59,0],
-"structMRSubdivideSettings.html#a1e281a5d1635b3cf548aede48e82214a":[6,0,2,0,59,8],
-"structMRSubdivideSettings.html#a1e9d3add86da268d281c43554fa22c2a":[6,0,2,0,59,14],
-"structMRSubdivideSettings.html#a27a31d53f64821543bd5fb21cd4fab9d":[6,0,2,0,59,9],
-"structMRSubdivideSettings.html#a33ce3b63ebb60313037ea626982cee63":[6,0,2,0,59,1],
-"structMRSubdivideSettings.html#a40d6f0e5fc04584858699368ab9804bc":[6,0,2,0,59,13],
-"structMRSubdivideSettings.html#a4837999f61cc60e7cf30f052dc28f1dd":[6,0,2,0,59,7],
-"structMRSubdivideSettings.html#a5110fcc51f181788ac84bfb5d55c73c2":[6,0,2,0,59,11],
-"structMRSubdivideSettings.html#a55ed7d642c787d8957d3a9497ba51087":[6,0,2,0,59,5]
+"structMRStitchHolesParams.html#af2802077c43ff3c07a29080f2a908ade":[6,0,2,0,58,0]
 };

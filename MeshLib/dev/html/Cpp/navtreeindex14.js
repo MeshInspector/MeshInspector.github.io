@@ -1,5 +1,10 @@
 var NAVTREEINDEX14 =
 {
+"MRUIStyle_8h.html":[6,0,3,0,0,1,9,124],
+"MRUIStyle_8h.html#a012d7558b98063f22c4bb9a28299837b":[6,0,3,0,0,1,9,124,22],
+"MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6":[6,0,3,0,0,1,9,124,10],
+"MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086":[6,0,3,0,0,1,9,124,10,0],
+"MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a":[6,0,3,0,0,1,9,124,10,1],
 "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5f623490490b088611156df973163f7f":[6,0,3,0,0,1,9,124,10,4],
 "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a9a90779dd28ced8bbf08290780e6ea30":[6,0,3,0,0,1,9,124,10,3],
 "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,3,0,0,1,9,124,10,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX14 =
 "MRViewerSettingsPlugin_8h_source.html":[6,0,3,0,0,1,9,136],
 "MRViewerTitle_8h.html":[6,0,3,0,0,1,9,137],
 "MRViewerTitle_8h_source.html":[6,0,3,0,0,1,9,137],
-"MRViewer_2MRVectorTraits_8h.html":[6,0,3,0,0,1,9,128],
-"MRViewer_2MRVectorTraits_8h_source.html":[6,0,3,0,0,1,9,128],
-"MRViewer_2config_8h.html":[6,0,3,0,0,1,9,0],
-"MRViewer_2config_8h_source.html":[6,0,3,0,0,1,9,0],
-"MRViewer_8h.html":[6,0,3,0,0,1,9,129],
-"MRViewer_8h.html#a03d769eae4675e20e6b50c3fddaf8eba":[6,0,3,0,0,1,9,129,7]
+"MRViewer_2MRVectorTraits_8h.html":[6,0,3,0,0,1,9,128]
 };

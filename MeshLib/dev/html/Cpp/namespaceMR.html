@@ -4038,6 +4038,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a86bf24d57f63afab9354505400a0e82c" id="r_a86bf24d57f63afab9354505400a0e82c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a86bf24d57f63afab9354505400a0e82c"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a86bf24d57f63afab9354505400a0e82c">sgn</a> (T x) noexcept</td></tr>
 <tr class="separator:a86bf24d57f63afab9354505400a0e82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbe103235cb82270d98d373ac2da406" id="r_a8bbe103235cb82270d98d373ac2da406"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8bbe103235cb82270d98d373ac2da406"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8bbe103235cb82270d98d373ac2da406">distance</a> (T x, T y) noexcept</td></tr>
+<tr class="separator:a8bbe103235cb82270d98d373ac2da406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6378c438e076ed530da1f0c964249855" id="r_a6378c438e076ed530da1f0c964249855"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6378c438e076ed530da1f0c964249855"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a6378c438e076ed530da1f0c964249855">distanceSq</a> (T x, T y) noexcept</td></tr>
+<tr class="separator:a6378c438e076ed530da1f0c964249855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80e6b953fc44378e5898ba71b21f216a" id="r_a80e6b953fc44378e5898ba71b21f216a"><td class="memTemplParams" colspan="2">template&lt;class... Ts&gt; </td></tr>
 <tr class="memitem:a80e6b953fc44378e5898ba71b21f216a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a80e6b953fc44378e5898ba71b21f216a">overloaded</a> (Ts...) -&gt; overloaded&lt; Ts... &gt;</td></tr>
 <tr class="separator:a80e6b953fc44378e5898ba71b21f216a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4409,12 +4415,18 @@ Functions</h2></td></tr>
 <tr class="separator:a89a0d173f619c99ee93c0904af771995"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab934b8064ec52ed333c9a247843a8ab3" id="r_ab934b8064ec52ed333c9a247843a8ab3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab934b8064ec52ed333c9a247843a8ab3">isPickedPointValid</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;point)</td></tr>
 <tr class="separator:ab934b8064ec52ed333c9a247843a8ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c540a8264b2d4cd39a35ce8600e873e" id="r_ga5c540a8264b2d4cd39a35ce8600e873e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5c540a8264b2d4cd39a35ce8600e873e">findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Vector3f &amp;center, float radius, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="separator:ga5c540a8264b2d4cd39a35ce8600e873e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga47bd19da135ff2a820eebd760da392a3" id="r_ga47bd19da135ff2a820eebd760da392a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga47bd19da135ff2a820eebd760da392a3">findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;center, float radius, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="separator:ga47bd19da135ff2a820eebd760da392a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga80e8bb354705c40373b5a8a3d1a3376c" id="r_ga80e8bb354705c40373b5a8a3d1a3376c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga80e8bb354705c40373b5a8a3d1a3376c">findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Vector3f &amp;center, float radius, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="separator:ga80e8bb354705c40373b5a8a3d1a3376c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0179ee38f25ea85a546273ad8523cc1" id="r_gaa0179ee38f25ea85a546273ad8523cc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaa0179ee38f25ea85a546273ad8523cc1">findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:gaa0179ee38f25ea85a546273ad8523cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9b81de7e12008806d32f54de7f0d8b" id="r_a8e9b81de7e12008806d32f54de7f0d8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e9b81de7e12008806d32f54de7f0d8b">findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Vector3f &amp;center, float radius, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:a8e9b81de7e12008806d32f54de7f0d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba782034adb2e6c3a4151210538caf0c" id="r_gaba782034adb2e6c3a4151210538caf0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaba782034adb2e6c3a4151210538caf0c">findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Ball3f &amp;ball, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:gaba782034adb2e6c3a4151210538caf0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559db8e3782c99978f334635051bca8b" id="r_a559db8e3782c99978f334635051bca8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559db8e3782c99978f334635051bca8b">findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;center, float radius, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:a559db8e3782c99978f334635051bca8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2d40a2f2b6c7ed32c4e278704bbd55a" id="r_gaa2d40a2f2b6c7ed32c4e278704bbd55a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaa2d40a2f2b6c7ed32c4e278704bbd55a">findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Ball3f &amp;ball, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:gaa2d40a2f2b6c7ed32c4e278704bbd55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ece9751ccf402fafde2faf644951de" id="r_aa1ece9751ccf402fafde2faf644951de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1ece9751ccf402fafde2faf644951de">findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Vector3f &amp;center, float radius, const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:aa1ece9751ccf402fafde2faf644951de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8a9ede35586c7db2c8ab59c42bcd6b7d" id="r_ga8a9ede35586c7db2c8ab59c42bcd6b7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga8a9ede35586c7db2c8ab59c42bcd6b7d">findProjectionOnPoints</a> (const Vector3f &amp;pt, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, VertPredicate skipCb={})</td></tr>
 <tr class="memdesc:ga8a9ede35586c7db2c8ab59c42bcd6b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on point cloud to given point  <br /></td></tr>
 <tr class="separator:ga8a9ede35586c7db2c8ab59c42bcd6b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -13432,6 +13444,68 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a8bbe103235cb82270d98d373ac2da406" name="a8bbe103235cb82270d98d373ac2da406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbe103235cb82270d98d373ac2da406">&#9670;&#160;</a></span>distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::distance </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6378c438e076ed530da1f0c964249855" name="a6378c438e076ed530da1f0c964249855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6378c438e076ed530da1f0c964249855">&#9670;&#160;</a></span>distanceSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::distanceSq </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a021c68ef31d7ddce5af4dffb3ebf6bc3" name="a021c68ef31d7ddce5af4dffb3ebf6bc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a021c68ef31d7ddce5af4dffb3ebf6bc3">&#9670;&#160;</a></span>dividePolylineWithPlane()</h2>
 
@@ -15624,6 +15698,138 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>given file name without final extension, finds in the same folder an existing file with same stem and any extension </p>
+
+</div>
+</div>
+<a id="aa1ece9751ccf402fafde2faf644951de" name="aa1ece9751ccf402fafde2faf644951de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1ece9751ccf402fafde2faf644951de">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::findPointsInBall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a559db8e3782c99978f334635051bca8b" name="a559db8e3782c99978f334635051bca8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559db8e3782c99978f334635051bca8b">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::findPointsInBall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e9b81de7e12008806d32f54de7f0d8b" name="a8e9b81de7e12008806d32f54de7f0d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e9b81de7e12008806d32f54de7f0d8b">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::findPointsInBall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3d40458d12acc2582aa73cd8d59e6434">FoundPointCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
