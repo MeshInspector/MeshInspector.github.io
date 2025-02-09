@@ -266,6 +266,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPointOnObject.h", "MRPointOnObject_8h.html", "MRPointOnObject_8h" ],
     [ "MRPointsComponents.h", "MRPointsComponents_8h.html", "MRPointsComponents_8h" ],
     [ "MRPointsInBall.h", "MRPointsInBall_8h.html", "MRPointsInBall_8h" ],
+    [ "MRPointsInBox.h", "MRPointsInBox_8h.html", "MRPointsInBox_8h" ],
     [ "MRPointsLoad.h", "MRMesh_2MRPointsLoad_8h.html", "MRMesh_2MRPointsLoad_8h" ],
     [ "MRPointsLoadSettings.h", "MRMesh_2MRPointsLoadSettings_8h.html", "MRMesh_2MRPointsLoadSettings_8h" ],
     [ "MRPointsProject.h", "MRPointsProject_8h.html", "MRPointsProject_8h" ],

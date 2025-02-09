@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Cylinder3.html#ad0a19bee1540de375bc6a6b7feb7973b":[6,0,1,0,1,159,6],
+"classMR_1_1Cylinder3.html#ad0a19bee1540de375bc6a6b7feb7973b":[6,0,2,0,1,143,6],
 "classMR_1_1Cylinder3Approximation.html":[6,0,1,0,1,160],
 "classMR_1_1Cylinder3Approximation.html":[6,0,2,0,1,144],
 "classMR_1_1Cylinder3Approximation.html#a042c182d2a71ef03c119fc2c70045464":[6,0,1,0,1,160,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1EdgePathsBuilderT.html#a6121aae22b66ff8e123f4f1d2d21528d":[6,0,2,0,1,180,5],
 "classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[6,0,1,0,1,196,2],
 "classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[6,0,2,0,1,180,2],
-"classMR_1_1EdgePathsBuilderT.html#a8bee648da3c920541672f288460c659c":[6,0,1,0,1,196,11],
-"classMR_1_1EdgePathsBuilderT.html#a8bee648da3c920541672f288460c659c":[6,0,2,0,1,180,11],
-"classMR_1_1EdgePathsBuilderT.html#aa58748ee3e1ceb34e2ff8b8d2ab58d6b":[6,0,1,0,1,196,1]
+"classMR_1_1EdgePathsBuilderT.html#a8bee648da3c920541672f288460c659c":[6,0,1,0,1,196,11]
 };
