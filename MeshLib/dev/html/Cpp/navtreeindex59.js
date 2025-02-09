@@ -85,7 +85,7 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee":[6,0,1,0,1,39,4],
 "namespaceMR_1_1VoxelsLoad.html":[6,0,1,0,1,40],
 "namespaceMR_1_1VoxelsLoad.html#a102b45a14388d34a9a65437a9faee635":[6,0,1,0,1,40,20],
-"namespaceMR_1_1VoxelsLoad.html#a197cb088763f0f5ea3201f5badb751a4":[6,0,1,0,1,40,24],
+"namespaceMR_1_1VoxelsLoad.html#a279a152a57f0cd1d7f680c48cc341687":[6,0,1,0,1,40,24],
 "namespaceMR_1_1VoxelsLoad.html#a2a69b8e64c9ff642b2e91ccd790cdc89":[6,0,1,0,1,40,18],
 "namespaceMR_1_1VoxelsLoad.html#a43b698c71644100d570516e32e7e38d7":[6,0,1,0,1,40,17],
 "namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9":[6,0,1,0,1,40,23],
