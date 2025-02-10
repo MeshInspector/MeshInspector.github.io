@@ -12,6 +12,8 @@ var NAVTREEINDEX63 =
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,1,119,0,1],
 "structMR_1_1CompensateRadiusParams.html":[6,0,1,0,1,139],
 "structMR_1_1CompensateRadiusParams.html":[6,0,2,0,1,123],
+"structMR_1_1CompensateRadiusParams.html#a4920359362ae57b5e331058c8efc19d9":[6,0,1,0,1,139,4],
+"structMR_1_1CompensateRadiusParams.html#a4920359362ae57b5e331058c8efc19d9":[6,0,2,0,1,123,4],
 "structMR_1_1CompensateRadiusParams.html#a78eaf043f024883ea5ff487bc2d7ec50":[6,0,1,0,1,139,1],
 "structMR_1_1CompensateRadiusParams.html#a78eaf043f024883ea5ff487bc2d7ec50":[6,0,2,0,1,123,1],
 "structMR_1_1CompensateRadiusParams.html#aae43a6e0f9bef2d589429434a57a0bd8":[6,0,1,0,1,139,3],
@@ -20,8 +22,8 @@ var NAVTREEINDEX63 =
 "structMR_1_1CompensateRadiusParams.html#adb2072e359a12815d6285187b399591d":[6,0,2,0,1,123,0],
 "structMR_1_1CompensateRadiusParams.html#ae1dc04eca42a2a53bf4eb9d4ebb57b7c":[6,0,1,0,1,139,2],
 "structMR_1_1CompensateRadiusParams.html#ae1dc04eca42a2a53bf4eb9d4ebb57b7c":[6,0,2,0,1,123,2],
-"structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,1,0,1,139,4],
-"structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,2,0,1,123,4],
+"structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,1,0,1,139,5],
+"structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,2,0,1,123,5],
 "structMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[6,0,0,16,3,0,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[6,0,0,16,3,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,3],
 "structMR_1_1Dipole.html":[6,0,1,0,1,173],
 "structMR_1_1Dipole.html":[6,0,2,0,1,157],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,1,0,1,173,4],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,2,0,1,157,4],
-"structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[6,0,1,0,1,173,2]
+"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,1,0,1,173,4]
 };

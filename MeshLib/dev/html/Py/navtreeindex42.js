@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a9d44bdfd6d0c1129d819f19104dbb87f":[6,1,0,0,2,447,4,0],
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a9d44bdfd6d0c1129d819f19104dbb87f":[6,1,1,0,1,447,4,0],
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#ab241d0d547e49b7464138f9f0be63597":[6,1,0,0,2,447,4,1],
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#ab241d0d547e49b7464138f9f0be63597":[6,1,1,0,1,447,4,1],
 "classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html":[6,1,0,0,2,447,6],
 "classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html":[6,1,1,0,1,447,6],
 "classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html#a02e6efe989266eeed741fcd3ca553114":[6,1,0,0,2,447,6,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "classmrmeshpy_1_1MeshMeshDistanceResult.html#aace7ba189617f3b990d97de8ec3ba9b5":[6,1,0,0,2,455,2],
 "classmrmeshpy_1_1MeshMeshDistanceResult.html#aace7ba189617f3b990d97de8ec3ba9b5":[6,1,1,0,1,455,2],
 "classmrmeshpy_1_1MeshMeshDistanceResult.html#aafac39b9657862df21e0f16bdc0e0df6":[6,1,0,0,2,455,6],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#aafac39b9657862df21e0f16bdc0e0df6":[6,1,1,0,1,455,6],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#ae6e1eb51cade95e3f2e7d08558f351db":[6,1,0,0,2,455,1],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#ae6e1eb51cade95e3f2e7d08558f351db":[6,1,1,0,1,455,1],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#af36d7a0fd9c0eeefd9398b0d1d54d181":[6,1,0,0,2,455,5],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#af36d7a0fd9c0eeefd9398b0d1d54d181":[6,1,1,0,1,455,5]
+"classmrmeshpy_1_1MeshMeshDistanceResult.html#aafac39b9657862df21e0f16bdc0e0df6":[6,1,1,0,1,455,6]
 };

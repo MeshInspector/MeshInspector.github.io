@@ -170,11 +170,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae42deb31a3f4aa352b4df19396131a28" id="r_ae42deb31a3f4aa352b4df19396131a28"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae42deb31a3f4aa352b4df19396131a28">toolRadius</a> { 0.0f }</td></tr>
 <tr class="memdesc:ae42deb31a3f4aa352b4df19396131a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">radius of spherical tool  <br /></td></tr>
 <tr class="separator:ae42deb31a3f4aa352b4df19396131a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1dc04eca42a2a53bf4eb9d4ebb57b7c" id="r_ae1dc04eca42a2a53bf4eb9d4ebb57b7c"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1dc04eca42a2a53bf4eb9d4ebb57b7c">distanceMapResolution</a> = Vector2i( 100, 100 )</td></tr>
+<tr class="memitem:ae1dc04eca42a2a53bf4eb9d4ebb57b7c" id="r_ae1dc04eca42a2a53bf4eb9d4ebb57b7c"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1dc04eca42a2a53bf4eb9d4ebb57b7c">distanceMapResolution</a> = Vector2i( 150, 150 )</td></tr>
 <tr class="memdesc:ae1dc04eca42a2a53bf4eb9d4ebb57b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">resolution of distance map that is used for compensation  <br /></td></tr>
 <tr class="separator:ae1dc04eca42a2a53bf4eb9d4ebb57b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae43a6e0f9bef2d589429434a57a0bd8" id="r_aae43a6e0f9bef2d589429434a57a0bd8"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae43a6e0f9bef2d589429434a57a0bd8">region</a> { nullptr }</td></tr>
 <tr class="separator:aae43a6e0f9bef2d589429434a57a0bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4920359362ae57b5e331058c8efc19d9" id="r_a4920359362ae57b5e331058c8efc19d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4920359362ae57b5e331058c8efc19d9">remeshTargetEdgeLength</a> { -1.0f }</td></tr>
+<tr class="separator:a4920359362ae57b5e331058c8efc19d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb2072e359a12815d6285187b399591d" id="r_adb2072e359a12815d6285187b399591d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb2072e359a12815d6285187b399591d">callback</a></td></tr>
 <tr class="separator:adb2072e359a12815d6285187b399591d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -218,7 +220,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Vector2i MR::CompensateRadiusParams::distanceMapResolution = Vector2i( 100, 100 )</td>
+          <td class="memname">Vector2i MR::CompensateRadiusParams::distanceMapResolution = Vector2i( 150, 150 )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -239,6 +241,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>region of the mesh that will be compensated it should not contain closed components it is updated during algorithm also please note that boundaries of the region are fixed </p>
+
+</div>
+</div>
+<a id="a4920359362ae57b5e331058c8efc19d9" name="a4920359362ae57b5e331058c8efc19d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4920359362ae57b5e331058c8efc19d9">&#9670;&#160;</a></span>remeshTargetEdgeLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::CompensateRadiusParams::remeshTargetEdgeLength { -1.0f }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this value will be used for post-process re-meshing value less or equal to zero will use average mesh edge length </p>
 
 </div>
 </div>

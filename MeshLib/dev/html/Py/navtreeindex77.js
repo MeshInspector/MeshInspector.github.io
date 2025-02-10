@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[6,1,0,0,2,952,4],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[6,1,1,0,1,952,4],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae544cf0203408859e5f1e623474af7f4":[6,1,0,0,2,952,6],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae544cf0203408859e5f1e623474af7f4":[6,1,1,0,1,952,6],
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[6,1,0,0,2,952,3],
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[6,1,1,0,1,952,3],
 "classmrmeshpy_1_1Triangulation.html":[6,1,0,0,2,953],
@@ -245,9 +249,5 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1TrimOptionalOutput.html#a60c277f9ec8a303b6488c25c65ca73ae":[6,1,0,0,2,958,1],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a60c277f9ec8a303b6488c25c65ca73ae":[6,1,1,0,1,958,1],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a92af6f8bf78bbfbeeb6b4378081e9604":[6,1,0,0,2,958,14],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a92af6f8bf78bbfbeeb6b4378081e9604":[6,1,1,0,1,958,14],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abe46a974ef4aa512b0bbc14166f58e32":[6,1,0,0,2,958,2],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abe46a974ef4aa512b0bbc14166f58e32":[6,1,1,0,1,958,2],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abea30965da12a57e791b1a3d7b7bc816":[6,1,0,0,2,958,0],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abea30965da12a57e791b1a3d7b7bc816":[6,1,1,0,1,958,0]
+"classmrmeshpy_1_1TrimOptionalOutput.html#a92af6f8bf78bbfbeeb6b4378081e9604":[6,1,1,0,1,958,14]
 };

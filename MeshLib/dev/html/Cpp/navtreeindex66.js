@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
 "structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,1,0,1,6,3,1],
 "structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,2,0,1,2,3,1],
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,1,0,1,6,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,242],
 "structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,226],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,242,1],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,226,1],
-"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,242,0],
-"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,1,226,0]
+"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,226,1]
 };

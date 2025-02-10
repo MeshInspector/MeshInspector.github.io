@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,549,2],
+"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,2,0,1,533,2],
 "structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,549,6],
 "structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,1,533,6],
 "structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,1,0,1,549,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,2,0,1,592,1],
 "structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,1,0,1,608,4],
 "structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,2,0,1,592,4],
-"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[6,0,1,0,1,608,3],
-"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[6,0,2,0,1,592,3],
-"structMR_1_1SharpOffsetParameters.html#afb1d63d46e98d00f4c3560f3eb55b99b":[6,0,1,0,1,608,2]
+"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[6,0,1,0,1,608,3]
 };
