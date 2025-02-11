@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1EdgePoint.html#a8af6e44f3bf41c0895fbef7ae838a263":[6,0,2,0,1,181,8],
+"structMR_1_1EdgePoint.html#a91ab20425879cb337a77e130ad484350":[6,0,1,0,1,197,9],
 "structMR_1_1EdgePoint.html#a91ab20425879cb337a77e130ad484350":[6,0,2,0,1,181,9],
 "structMR_1_1EdgePoint.html#a9348793c688230e4be403fff5ad98741":[6,0,1,0,1,197,12],
 "structMR_1_1EdgePoint.html#a9348793c688230e4be403fff5ad98741":[6,0,2,0,1,181,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,1,0,1,6,0,1,4],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,2,0,1,2,0,1,4],
 "structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,1,0,1,6,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,2,0,1,2,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,1,0,1,6,3,0],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,2,0,1,2,3,0]
+"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,2,0,1,2,3]
 };

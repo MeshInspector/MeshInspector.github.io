@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,2,0,1,592,4],
+"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[6,0,1,0,1,608,3],
 "structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[6,0,2,0,1,592,3],
 "structMR_1_1SharpOffsetParameters.html#afb1d63d46e98d00f4c3560f3eb55b99b":[6,0,1,0,1,608,2],
 "structMR_1_1SharpOffsetParameters.html#afb1d63d46e98d00f4c3560f3eb55b99b":[6,0,2,0,1,592,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[6,0,1,0,1,642,0,0,1],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[6,0,2,0,1,626,0,0,1],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969":[6,0,1,0,1,642,0,0,0],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969":[6,0,2,0,1,626,0,0,0],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a724837b5404f667f7d44a1933d27ddca":[6,0,1,0,1,642,0,8],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a724837b5404f667f7d44a1933d27ddca":[6,0,2,0,1,626,0,8]
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969":[6,0,2,0,1,626,0,0,0]
 };

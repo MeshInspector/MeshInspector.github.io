@@ -180,6 +180,14 @@ Macros</h2></td></tr>
 <tr class="separator:af2577133e8c02d830609dc0c74a53949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc8a2290a0ad34bf18acb8498b4bb91a" id="r_adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8a2290a0ad34bf18acb8498b4bb91a">MR_NO_UNIQUE_ADDRESS</a>&#160;&#160;&#160;[[no_unique_address]]</td></tr>
 <tr class="separator:adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0284b6bf2a09937d49518593207b00a6" id="r_a0284b6bf2a09937d49518593207b00a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0284b6bf2a09937d49518593207b00a6">MR_LEGACY_MSVC_PREPROCESSOR</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a0284b6bf2a09937d49518593207b00a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11806a80fef697ddb9a820cc22204f3b" id="r_a11806a80fef697ddb9a820cc22204f3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b">MR_TRIM_LEADING_COMMA</a>(...)&#160;&#160;&#160;<a class="el" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(__VA_ARGS__)</td></tr>
+<tr class="separator:a11806a80fef697ddb9a820cc22204f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaebd39479bb9677a7e966765a052de4" id="r_acaebd39479bb9677a7e966765a052de4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(x, ...)&#160;&#160;&#160;<a class="el" href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a>(x) __VA_ARGS__</td></tr>
+<tr class="separator:acaebd39479bb9677a7e966765a052de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b7b6d36fcf0ab6752038726c7b007d" id="r_a71b7b6d36fcf0ab6752038726c7b007d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a>()</td></tr>
+<tr class="separator:a71b7b6d36fcf0ab6752038726c7b007d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a98c9bc1fa1800fdfc987995748d5944b" name="a98c9bc1fa1800fdfc987995748d5944b"></a>
@@ -193,6 +201,44 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
           <td>&#160;&#160;&#160;__VA_ARGS__##_END</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acaebd39479bb9677a7e966765a052de4" name="acaebd39479bb9677a7e966765a052de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaebd39479bb9677a7e966765a052de4">&#9670;&#160;</a></span>DETAIL_MR_TRIM_LEADING_COMMA_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DETAIL_MR_TRIM_LEADING_COMMA_</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)&#160;&#160;&#160;<a class="el" href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a>(x) __VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71b7b6d36fcf0ab6752038726c7b007d" name="a71b7b6d36fcf0ab6752038726c7b007d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b7b6d36fcf0ab6752038726c7b007d">&#9670;&#160;</a></span>DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -289,6 +335,20 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a0284b6bf2a09937d49518593207b00a6" name="a0284b6bf2a09937d49518593207b00a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0284b6bf2a09937d49518593207b00a6">&#9670;&#160;</a></span>MR_LEGACY_MSVC_PREPROCESSOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_LEGACY_MSVC_PREPROCESSOR&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adc8a2290a0ad34bf18acb8498b4bb91a" name="adc8a2290a0ad34bf18acb8498b4bb91a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc8a2290a0ad34bf18acb8498b4bb91a">&#9670;&#160;</a></span>MR_NO_UNIQUE_ADDRESS</h2>
 
@@ -348,6 +408,23 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
           <td>&#160;&#160;&#160;#__VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11806a80fef697ddb9a820cc22204f3b" name="a11806a80fef697ddb9a820cc22204f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11806a80fef697ddb9a820cc22204f3b">&#9670;&#160;</a></span>MR_TRIM_LEADING_COMMA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_TRIM_LEADING_COMMA</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">

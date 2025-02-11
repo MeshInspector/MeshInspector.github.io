@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a":[6,0,1,0,1,502,0,1],
+"structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a":[6,0,2,0,1,486,0,1],
 "structMR_1_1PythonFunctionAdder.html":[6,0,1,0,1,503],
 "structMR_1_1PythonFunctionAdder.html":[6,0,2,0,1,487],
 "structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f":[6,0,1,0,1,503,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,1,0,1,544,1,2],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,2,0,1,528,1,2],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,1,0,1,544,1,0],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,2,0,1,528,1,0],
-"structMR_1_1RibbonNotification.html":[6,0,1,0,1,549],
-"structMR_1_1RibbonNotification.html":[6,0,2,0,1,533]
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,2,0,1,528,1,0]
 };

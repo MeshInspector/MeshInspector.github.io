@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"MRStreamOperators_8h.html#ad85d26b0a95cdf398372e9564135b4ba":[6,0,3,0,0,1,3,330,18],
+"MRStreamOperators_8h.html#ad99ac1ebe76b35b655adb5b8f25c4378":[6,0,3,0,0,1,3,330,20],
+"MRStreamOperators_8h.html#ae2c8727771324b76b5d4a25e02044a8f":[6,0,3,0,0,1,3,330,10],
+"MRStreamOperators_8h.html#ae85b0e8a0118ada182da4988b1c3fd03":[6,0,3,0,0,1,3,330,16],
 "MRStreamOperators_8h.html#af6a847a4f04242c0d7469f73addb43a6":[6,0,3,0,0,1,3,330,9],
 "MRStreamOperators_8h_source.html":[6,0,3,0,0,1,3,330],
 "MRStringConvert_8h.html":[6,0,3,0,0,1,3,332],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "MRUINonOverlappingLabels_8h.html":[6,0,3,0,0,1,9,121],
 "MRUINonOverlappingLabels_8h.html#a50698dfeecb0a68a2ddfc71eae08a0c7":[6,0,3,0,0,1,9,121,2],
 "MRUINonOverlappingLabels_8h_source.html":[6,0,3,0,0,1,9,121],
-"MRUIRectAllocator_8h.html":[6,0,3,0,0,1,9,122],
-"MRUIRectAllocator_8h.html#a5caf1537f165f3557d3f718bfb47a032":[6,0,3,0,0,1,9,122,5],
-"MRUIRectAllocator_8h.html#a8782e9cded23844b3ae2138d6287b99c":[6,0,3,0,0,1,9,122,4],
-"MRUIRectAllocator_8h_source.html":[6,0,3,0,0,1,9,122],
-"MRUISaveChangesPopup_8h.html":[6,0,3,0,0,1,9,123]
+"MRUIRectAllocator_8h.html":[6,0,3,0,0,1,9,122]
 };

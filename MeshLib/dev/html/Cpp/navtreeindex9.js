@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRMeshTopology_8h_source.html":[6,0,3,0,0,1,3,214],
+"MRMesh_2MRMeshTriPoint_8h.html":[6,0,3,0,0,1,3,217],
+"MRMesh_2MRMeshTriPoint_8h_source.html":[6,0,3,0,0,1,3,217],
+"MRMesh_2MRMesh_8h.html":[6,0,3,0,0,1,3,172],
 "MRMesh_2MRMesh_8h_source.html":[6,0,3,0,0,1,3,172],
 "MRMesh_2MRMultiwayICP_8h.html":[6,0,3,0,0,1,3,222],
 "MRMesh_2MRMultiwayICP_8h.html#a331d6b27226046972c32b7d946f0624b":[6,0,3,0,0,1,3,222,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "MRObjectMeshHolder_8h.html#af20f512b32754c2ad0a15ee32c85cc4b":[6,0,3,0,0,1,3,236,5],
 "MRObjectMeshHolder_8h_source.html":[6,0,3,0,0,1,3,236],
 "MRObjectMesh_8h.html":[6,0,3,0,0,1,3,235],
-"MRObjectMesh_8h.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0":[6,0,3,0,0,1,3,235,0],
-"MRObjectMesh_8h.html#af864b9246bf8c972ba65a4ef698384f9":[6,0,3,0,0,1,3,235,1],
-"MRObjectMesh_8h_source.html":[6,0,3,0,0,1,3,235],
-"MRObjectPointsHistory_8h.html":[6,0,3,0,0,1,9,49],
-"MRObjectPointsHistory_8h.html#ac236381762735fee94cd52a902d87c67":[6,0,3,0,0,1,9,49,1]
+"MRObjectMesh_8h.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0":[6,0,3,0,0,1,3,235,0]
 };

@@ -1025,7 +1025,7 @@ var namespaceMR =
     [ "UndirectedEdgePair", "namespaceMR.html#aab52299f28e8b207084bb5e513ecd216", null ],
     [ "UndirectedEdgePredicate", "namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4", null ],
     [ "UVCoord", "namespaceMR.html#a6f8b9797e8968735a685a81d8a6064d6", null ],
-    [ "VarUnitToStringParams", "namespaceMR.html#afcac7cfa63a119745d66e8d1de48b084", null ],
+    [ "VarUnitToStringParams", "namespaceMR.html#afaef792167a46a382648ec08d36b74e0", null ],
     [ "Vector2hp", "group__HighPrecisionGroup.html#ga45d8c623f248026fa1e207e1e742b070", null ],
     [ "Vector3hp", "group__HighPrecisionGroup.html#ga93ff5b42be6a4dda9d599acede538a24", null ],
     [ "Vector4hp", "group__HighPrecisionGroup.html#ga3c9be5ef811d30e290a852a487132ff5", null ],

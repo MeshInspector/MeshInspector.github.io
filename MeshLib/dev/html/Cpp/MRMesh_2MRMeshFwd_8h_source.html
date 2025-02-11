@@ -224,7 +224,7 @@ $(function(){initNavTree('MRMesh_2MRMeshFwd_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#   ifdef MRMESH_EXPORT</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#   ifdef MRMesh_EXPORTS</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#       define MRMESH_API __declspec(dllexport)</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#   else</span></div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#       define MRMESH_API __declspec(dllimport)</span></div>
@@ -843,10 +843,11 @@ $(function(){initNavTree('MRMesh_2MRMeshFwd_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span><span class="preprocessor">#       define MR_UNREACHABLE __builtin_unreachable();</span></div>
 <div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span><span class="preprocessor">#       define MR_UNREACHABLE_NO_RETURN __builtin_unreachable();</span></div>
 <div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span><span class="preprocessor">#   else</span></div>
-<div class="line"><a id="l00693" name="l00693"></a><span class="lineno"><a class="line" href="MRMesh_2MRMeshFwd_8h.html#aaa2c9e5a899e212852b81dbb084d081c">  693</a></span><span class="preprocessor">#       define MR_UNREACHABLE { assert( false ); return {}; }</span></div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno"><a class="line" href="MRMesh_2MRMeshFwd_8h.html#adf3c82902530739f161963e298ca8dc0">  694</a></span><span class="preprocessor">#       define MR_UNREACHABLE_NO_RETURN assert( false );</span></div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span><span class="preprocessor">#   endif</span></div>
-<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span><span class="preprocessor">#       include &lt;cassert&gt;</span></div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno"><a class="line" href="MRMesh_2MRMeshFwd_8h.html#aaa2c9e5a899e212852b81dbb084d081c">  694</a></span><span class="preprocessor">#       define MR_UNREACHABLE { assert( false ); return {}; }</span></div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno"><a class="line" href="MRMesh_2MRMeshFwd_8h.html#adf3c82902530739f161963e298ca8dc0">  695</a></span><span class="preprocessor">#       define MR_UNREACHABLE_NO_RETURN assert( false );</span></div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span><span class="preprocessor">#   endif</span></div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRCanonicalTypedefs_8h_html"><div class="ttname"><a href="MRCanonicalTypedefs_8h.html">MRCanonicalTypedefs.h</a></div></div>
 <div class="ttc" id="aMRCanonicalTypedefs_8h_html_a011d44bc0918ffa467a5150bc8a81e03"><div class="ttname"><a href="MRCanonicalTypedefs_8h.html#a011d44bc0918ffa467a5150bc8a81e03">MR_CANONICAL_TYPEDEFS</a></div><div class="ttdeci">#define MR_CANONICAL_TYPEDEFS(type_, name_, aliases_)</div><div class="ttdef"><b>Definition</b> MRCanonicalTypedefs.h:23</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:83</div></div>
