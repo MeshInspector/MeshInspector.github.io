@@ -233,8 +233,8 @@ var NAVTREEINDEX36 =
 "classMR_1_1RestoringStreamsSink.html#aa423a8c6a70592f7e1b45b5f3255c5c7":[6,0,0,3,10,0],
 "classMR_1_1RibbonButtonDrawer.html":[6,0,1,0,1,545],
 "classMR_1_1RibbonButtonDrawer.html":[6,0,2,0,1,529],
-"classMR_1_1RibbonButtonDrawer.html#a176f5a0226543fa3cfcb61d2a040de9b":[6,0,1,0,1,545,10],
-"classMR_1_1RibbonButtonDrawer.html#a176f5a0226543fa3cfcb61d2a040de9b":[6,0,2,0,1,529,10],
+"classMR_1_1RibbonButtonDrawer.html#a176f5a0226543fa3cfcb61d2a040de9b":[6,0,1,0,1,545,11],
+"classMR_1_1RibbonButtonDrawer.html#a176f5a0226543fa3cfcb61d2a040de9b":[6,0,2,0,1,529,11],
 "classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368":[6,0,1,0,1,545,1],
 "classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368":[6,0,2,0,1,529,1],
 "classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086":[6,0,1,0,1,545,1,0],
@@ -245,9 +245,9 @@ var NAVTREEINDEX36 =
 "classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5f623490490b088611156df973163f7f":[6,0,2,0,1,529,1,2],
 "classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,545,1,3],
 "classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,529,1,3],
-"classMR_1_1RibbonButtonDrawer.html#a275b5c4945909aa90cefef471b77991d":[6,0,1,0,1,545,12],
-"classMR_1_1RibbonButtonDrawer.html#a275b5c4945909aa90cefef471b77991d":[6,0,2,0,1,529,12],
+"classMR_1_1RibbonButtonDrawer.html#a275b5c4945909aa90cefef471b77991d":[6,0,1,0,1,545,13],
+"classMR_1_1RibbonButtonDrawer.html#a275b5c4945909aa90cefef471b77991d":[6,0,2,0,1,529,13],
 "classMR_1_1RibbonButtonDrawer.html#a32b4290ad470a7d955b0f93bce2918bb":[6,0,1,0,1,545,5],
 "classMR_1_1RibbonButtonDrawer.html#a32b4290ad470a7d955b0f93bce2918bb":[6,0,2,0,1,529,5],
-"classMR_1_1RibbonButtonDrawer.html#a5b4dc1d1236d8173cf3d4d5d54a2ef77":[6,0,1,0,1,545,8]
+"classMR_1_1RibbonButtonDrawer.html#a5b4dc1d1236d8173cf3d4d5d54a2ef77":[6,0,1,0,1,545,9]
 };

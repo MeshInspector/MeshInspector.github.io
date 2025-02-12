@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,1,151,2],
+"structMR_1_1DenoiseViaNormalsSettings.html":[6,0,1,0,1,169],
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,2,0,1,153],
 "structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,1,0,1,169,7],
 "structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,2,0,1,153,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,1,0,1,193,3],
 "structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,2,0,1,177,3],
 "structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,1,0,1,193,0],
-"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,2,0,1,177,0],
-"structMR_1_1DrawSceneUiListener.html":[6,0,1,0,1,194],
-"structMR_1_1DrawSceneUiListener.html":[6,0,2,0,1,178]
+"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,2,0,1,177,0]
 };

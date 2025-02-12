@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,2,0,1,17,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,1,0,1,30,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,2,0,1,17,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[6,0,1,0,1,30,0,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[6,0,2,0,1,17,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f":[6,0,1,0,1,33,0,2],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f":[6,0,2,0,1,20,0,2],
 "structMR_1_1SceneReorder.html":[6,0,1,0,1,582],
-"structMR_1_1SceneReorder.html":[6,0,2,0,1,566],
-"structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1":[6,0,1,0,1,582,0],
-"structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1":[6,0,2,0,1,566,0]
+"structMR_1_1SceneReorder.html":[6,0,2,0,1,566]
 };

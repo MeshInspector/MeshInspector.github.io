@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9":[6,0,1,0,1,990],
+"namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954":[6,0,1,0,1,990,1],
 "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8":[6,0,1,0,1,990,2],
 "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,1,990,0],
 "namespaceMR.html#afef3937755aede5ca15af7158e3dcf46":[6,0,1,0,1,1785],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[6,0,1,0,1,36,4],
 "namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,1,36,0],
 "namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[6,0,1,0,1,36,0,0],
-"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,1,36,1],
-"namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,1,0,1,36,1,0],
-"namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe":[6,0,1,0,1,36,1,1]
+"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,1,36,1]
 };
