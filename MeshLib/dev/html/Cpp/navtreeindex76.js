@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"structMR_1_1PostDrawListener.html#a236ae2c20bdef3b1c5b902d133b72c70":[6,0,1,0,1,495,1],
-"structMR_1_1PostDrawListener.html#a236ae2c20bdef3b1c5b902d133b72c70":[6,0,2,0,1,479,1],
 "structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[6,0,1,0,1,495,0],
 "structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[6,0,2,0,1,479,0],
 "structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[6,0,1,0,1,495,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[6,0,2,0,1,511,8],
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,1,0,1,527,5],
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,2,0,1,511,5],
-"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,1,0,1,30,0]
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,1,0,1,30,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,2,0,1,17,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,1,0,1,30,0,2]
 };

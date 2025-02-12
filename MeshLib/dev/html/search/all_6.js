@@ -353,7 +353,7 @@ var searchData=
   ['drawsignal_350',['drawSignal',['.././Cpp/classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659',1,'MR::Viewer']]],
   ['drawskippedobject_5f_351',['drawSkippedObject_',['.././Cpp/classMR_1_1RibbonSceneObjectsListDrawer.html#a93c05ad6cbe137ae91506d25d990e5f6',1,'MR::RibbonSceneObjectsListDrawer::drawSkippedObject_()'],['.././Cpp/classMR_1_1SceneObjectsListDrawer.html#a7d2bd6811f26a83ed152c93732753238',1,'MR::SceneObjectsListDrawer::drawSkippedObject_()']]],
   ['drawsmallbuttonsset_5f_352',['drawSmallButtonsSet_',['.././Cpp/classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba',1,'MR::RibbonMenu']]],
-  ['drawtabarrowbutton_353',['drawTabArrowButton',['.././Cpp/classMR_1_1RibbonButtonDrawer.html#a7dcb89a2ff2cb713fa0e6636eaca71af',1,'MR::RibbonButtonDrawer']]],
+  ['drawtabarrawbutton_353',['drawTabArrawButton',['.././Cpp/classMR_1_1RibbonButtonDrawer.html#ae23b700fa95e1aab614c58ad848c8aa7',1,'MR::RibbonButtonDrawer']]],
   ['drawtabconfig_354',['DrawTabConfig',['.././Cpp/classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83',1,'MR::RibbonMenu']]],
   ['drawtimemillisec_355',['drawTimeMilliSec',['.././Cpp/classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c',1,'MR::FrameCounter']]],
   ['drawtoolbar_356',['drawToolbar',['.././Cpp/classMR_1_1Toolbar.html#a113ff053c064e03de02b489c9b4a6f51',1,'MR::Toolbar']]],
