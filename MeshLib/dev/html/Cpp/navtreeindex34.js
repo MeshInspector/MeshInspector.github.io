@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1PriorityQueue.html#a14e51732a3a52902181ca4b3d1f28374":[6,0,1,0,1,503,6],
+"classMR_1_1PriorityQueue.html#a14e51732a3a52902181ca4b3d1f28374":[6,0,2,0,1,487,6],
 "classMR_1_1PriorityQueue.html#a3b6a5fb6f7530ae66dfec44b04efaf99":[6,0,1,0,1,503,2],
 "classMR_1_1PriorityQueue.html#a3b6a5fb6f7530ae66dfec44b04efaf99":[6,0,2,0,1,487,2],
 "classMR_1_1PriorityQueue.html#a5f49205aba3f95b0774623effbc87e49":[6,0,1,0,1,503,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1RectIndexer.html#a95b4e703046a8706888f15f3bd4b7c3a":[6,0,0,5,6,2],
 "classMR_1_1RectIndexer.html#aa496c121195d5bad75ebb417cfb8c884":[6,0,0,5,6,11],
 "classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052":[6,0,0,5,6,13],
-"classMR_1_1RectIndexer.html#abd5035619b34370c067840c03ffb5b82":[6,0,0,5,6,8],
-"classMR_1_1RectIndexer.html#ac517f36a12430a41779b1e7fd847684b":[6,0,0,5,6,5],
-"classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,6,14]
+"classMR_1_1RectIndexer.html#abd5035619b34370c067840c03ffb5b82":[6,0,0,5,6,8]
 };

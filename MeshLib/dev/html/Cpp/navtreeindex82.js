@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1UndirectedEdgeUndirectedEdge.html":[6,0,0,1,12],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[6,0,0,1,12,4],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524":[6,0,0,1,12,0],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#a9641a6ea0b597a958c7138e6b7ed8947":[6,0,0,1,12,2],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[6,0,0,1,12,3],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[6,0,0,1,12,1],
 "structMR_1_1UniformSamplingSettings.html":[6,0,1,0,1,696],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[6,0,0,16,2,0,1],
 "structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145":[6,0,0,16,2,0,3],
 "structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[6,0,0,16,2,0,0],
-"structMR_1_1VertPathInfo.html":[6,0,0,16,5],
-"structMR_1_1VertPathInfo.html#a2530c5bd3051baea96398e09ade9e59e":[6,0,0,16,5,2],
-"structMR_1_1VertPathInfo.html#a7a3153da84d3b829b564f595cd7d7a7e":[6,0,0,16,5,1],
-"structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940":[6,0,0,16,5,0],
-"structMR_1_1ViewportGL_1_1BasePickResult.html":[6,0,1,0,1,728,0]
+"structMR_1_1VertPathInfo.html":[6,0,0,16,5]
 };

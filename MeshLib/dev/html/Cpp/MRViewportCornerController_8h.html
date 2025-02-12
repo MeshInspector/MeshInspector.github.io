@@ -171,14 +171,23 @@ Functions</h2></td></tr>
 <tr class="memdesc:a60e39381727e51c4cad64d4e0c4f3b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes cube mesh with specified face structure for each 3-rank corner, each 2-rank corner and each side:<br  />
 .  <br /></td></tr>
 <tr class="separator:a60e39381727e51c4cad64d4e0c4f3b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a752cac87f232b837b0e170b05613e65b" id="r_a752cac87f232b837b0e170b05613e65b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const FaceColors &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a752cac87f232b837b0e170b05613e65b">MR::getCornerControllerColorMap</a> ()</td></tr>
-<tr class="separator:a752cac87f232b837b0e170b05613e65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a739b85ed00b84c2e37b63ffd04b683b4" id="r_a739b85ed00b84c2e37b63ffd04b683b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API VertUVCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a739b85ed00b84c2e37b63ffd04b683b4">MR::makeCornerControllerUVCoords</a> (float cornerRatio=0.2f)</td></tr>
+<tr class="memdesc:a739b85ed00b84c2e37b63ffd04b683b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates UV coordinates for <code>makeCornerControllerMesh</code> output mesh for texture like:<br  />
+"Right"" Left "<br  />
+" Top ""Bottom"<br  />
+"Front"" Back ".  <br /></td></tr>
+<tr class="separator:a739b85ed00b84c2e37b63ffd04b683b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86f2a960215a75174d29a086b0e2ba7d" id="r_a86f2a960215a75174d29a086b0e2ba7d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>, TextureId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a86f2a960215a75174d29a086b0e2ba7d">MR::loadCornerControllerTextures</a> ()</td></tr>
+<tr class="memdesc:a86f2a960215a75174d29a086b0e2ba7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3 textures for corner controller: default, side hovered, corner hovered.  <br /></td></tr>
+<tr class="separator:a86f2a960215a75174d29a086b0e2ba7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7405292d0adca18807e60b0121177c00" id="r_a7405292d0adca18807e60b0121177c00"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const TexturePerFace &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7405292d0adca18807e60b0121177c00">MR::getCornerControllerTexureMap</a> ()</td></tr>
+<tr class="separator:a7405292d0adca18807e60b0121177c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1998b7c6048ad3f3b7bee341e9ee8fcc" id="r_a1998b7c6048ad3f3b7bee341e9ee8fcc"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API RegionId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1998b7c6048ad3f3b7bee341e9ee8fcc">MR::getCornerControllerRegionByFace</a> (FaceId face)</td></tr>
 <tr class="memdesc:a1998b7c6048ad3f3b7bee341e9ee8fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns region id of corner controller by its face  <br /></td></tr>
 <tr class="separator:a1998b7c6048ad3f3b7bee341e9ee8fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeee618cfcbbb8ca6b32b13839781ce3a" id="r_aeee618cfcbbb8ca6b32b13839781ce3a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API FaceColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aeee618cfcbbb8ca6b32b13839781ce3a">MR::getCornerControllerHoveredColorMap</a> (RegionId rId)</td></tr>
-<tr class="memdesc:aeee618cfcbbb8ca6b32b13839781ce3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns color map with region faces hovered  <br /></td></tr>
-<tr class="separator:aeee618cfcbbb8ca6b32b13839781ce3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5dcb820660464b7454985abd2094832" id="r_ae5dcb820660464b7454985abd2094832"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API TexturePerFace&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae5dcb820660464b7454985abd2094832">MR::getCornerControllerHoveredTextureMap</a> (RegionId rId)</td></tr>
+<tr class="memdesc:ae5dcb820660464b7454985abd2094832"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns textures map with region faces hovered  <br /></td></tr>
+<tr class="separator:ae5dcb820660464b7454985abd2094832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86fd415280ce1a1ec77173ecce0be05d" id="r_a86fd415280ce1a1ec77173ecce0be05d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a86fd415280ce1a1ec77173ecce0be05d">MR::updateCurrentViewByControllerRegion</a> (RegionId rId)</td></tr>
 <tr class="memdesc:a86fd415280ce1a1ec77173ecce0be05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup camera for selected viewport by corner controller region  <br /></td></tr>
 <tr class="separator:a86fd415280ce1a1ec77173ecce0be05d"><td class="memSeparator" colspan="2">&#160;</td></tr>

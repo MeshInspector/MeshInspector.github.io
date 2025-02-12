@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee":[6,0,0,7,0,10],
+"structMR_1_1Mesh.html#aff330955f978300560fd33b43cd77cdd":[6,0,0,7,0,81],
+"structMR_1_1MeshApproxRelaxParams.html":[6,0,0,9,6,2],
+"structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51":[6,0,0,9,6,2,1],
 "structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae":[6,0,0,9,6,2,0],
 "structMR_1_1MeshAttributes.html":[6,0,1,0,1,335],
 "structMR_1_1MeshAttributes.html":[6,0,2,0,1,319],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1MeshToVolumeParams.html":[6,0,1,0,1,360],
 "structMR_1_1MeshToVolumeParams.html":[6,0,2,0,1,344],
 "structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967":[6,0,1,0,1,360,6],
-"structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967":[6,0,2,0,1,344,6],
-"structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c":[6,0,1,0,1,360,2],
-"structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c":[6,0,2,0,1,344,2],
-"structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022e":[6,0,1,0,1,360,0],
-"structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022e":[6,0,2,0,1,344,0]
+"structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967":[6,0,2,0,1,344,6]
 };

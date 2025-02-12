@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,0,1,2],
+"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
+"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2],
+"structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2],
 "structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,0,2,0],
 "structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,2,0,0,2,0],
 "structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,1,0,0,2,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMRPointPair.html#a85030f1c32b6fa41b3cb99f84864951a":[6,0,2,0,50,1],
 "structMRPointPair.html#aaf071fe8e6ec54c8e173d7c49c968b10":[6,0,2,0,50,3],
 "structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,50,2],
-"structMRPointsLoadSettings.html":[6,0,2,0,51],
-"structMRPointsLoadSettings.html#a05bb87b383496b50cfc792ea6c48c5ad":[6,0,2,0,51,2],
-"structMRPointsLoadSettings.html#a96aa5cea42db28d879ed0982662b6aad":[6,0,2,0,51,0],
-"structMRPointsLoadSettings.html#aa213763c3d2e989e1fd32ed9d1c3a342":[6,0,2,0,51,1],
-"structMRRegionId.html":[6,0,2,0,52]
+"structMRPointsLoadSettings.html":[6,0,2,0,51]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BoundarySelectionWidget.html#a15ba8e860be003475b60a8eedc0dc9e9":[6,0,2,0,1,66,9],
+"classMR_1_1BoundarySelectionWidget.html#a2c647091ac6951e55adf7ba4a18675ac":[6,0,1,0,1,82,8],
 "classMR_1_1BoundarySelectionWidget.html#a2c647091ac6951e55adf7ba4a18675ac":[6,0,2,0,1,66,8],
 "classMR_1_1BoundarySelectionWidget.html#a2e11f1e4737493f7e61b6b3793519373":[6,0,1,0,1,82,2],
 "classMR_1_1BoundarySelectionWidget.html#a2e11f1e4737493f7e61b6b3793519373":[6,0,2,0,1,66,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeMeshUVCoordsAction.html#aa8f2ca30bbf02500362d5bc387ecbcf8":[6,0,0,4,5,5],
 "classMR_1_1ChangeMeshUVCoordsAction.html#aff9496937d0c0fddbd3ed701edb82ab5":[6,0,0,4,5,1],
 "classMR_1_1ChangeNameAction.html":[6,0,0,4,10],
-"classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953":[6,0,0,4,10,1],
-"classMR_1_1ChangeNameAction.html#a78f9dfad757f976bb7af6f93bbfd2e74":[6,0,0,4,10,2],
-"classMR_1_1ChangeNameAction.html#a8461f96378d4084fbd74bbdbf8d70ed3":[6,0,0,4,10,0]
+"classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953":[6,0,0,4,10,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1StyleConsts_1_1Notification.html#aac592de3f9df1139cad7ffbcdbadea5b":[6,0,1,0,1,36,2,4],
+"namespaceMR_1_1StyleConsts_1_1Notification.html#ab44fac23055a5f76fda2e5fbbcff8154":[6,0,1,0,1,36,2,2],
+"namespaceMR_1_1StyleConsts_1_1Notification.html#afa5b42784cc74d768e33f84c3f8dbc37":[6,0,1,0,1,36,2,1],
+"namespaceMR_1_1StyleConsts_1_1Notification.html#afc9857750646620b389f5cb41ca048b9":[6,0,1,0,1,36,2,5],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html":[6,0,1,0,1,36,3],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a0e136117cf759046ebb381d8b7f51f23":[6,0,1,0,1,36,3,0],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca":[6,0,1,0,1,36,3,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,2,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,1,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,0,1,2],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
-"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2],
-"structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2]
+"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0]
 };
