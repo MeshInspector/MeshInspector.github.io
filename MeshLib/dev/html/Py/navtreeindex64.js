@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1QuarterBit.html#a77e39586d828a0aa983c02c8dd76500e":[6,1,0,0,2,680,5],
+"classmrmeshpy_1_1QuarterBit.html#a77e39586d828a0aa983c02c8dd76500e":[6,1,1,0,1,680,5],
 "classmrmeshpy_1_1QuarterBit.html#a799a0b3517838ab72f1f27b5d0b8a11b":[6,1,0,0,2,680,15],
 "classmrmeshpy_1_1QuarterBit.html#a799a0b3517838ab72f1f27b5d0b8a11b":[6,1,1,0,1,680,15],
 "classmrmeshpy_1_1QuarterBit.html#a7d7fd54b6b161cf8bc1265af1729b3ea":[6,1,0,0,2,680,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1RebuildMeshSettings.html#a505101f6e511f1f9f4967435a166964d":[6,1,0,0,2,685,7],
 "classmrmeshpy_1_1RebuildMeshSettings.html#a505101f6e511f1f9f4967435a166964d":[6,1,1,0,1,685,7],
 "classmrmeshpy_1_1RebuildMeshSettings.html#a5c2ce0ca210f93b89e2c85449260f6b2":[6,1,0,0,2,685,0],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a5c2ce0ca210f93b89e2c85449260f6b2":[6,1,1,0,1,685,0],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a5c5f543f65d606c0777b6eb7a9b7f459":[6,1,0,0,2,685,20],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a5c5f543f65d606c0777b6eb7a9b7f459":[6,1,1,0,1,685,20]
+"classmrmeshpy_1_1RebuildMeshSettings.html#a5c2ce0ca210f93b89e2c85449260f6b2":[6,1,1,0,1,685,0]
 };

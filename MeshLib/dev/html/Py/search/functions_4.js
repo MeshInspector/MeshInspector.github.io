@@ -202,7 +202,7 @@ var searchData=
   ['drawshortcutswindow_5f_199',['drawShortcutsWindow_',['../../Cpp/classMR_1_1ImGuiMenu.html#a1a2ff7496cd88b62087cf3adef33dee1',1,'MR::ImGuiMenu::drawShortcutsWindow_()'],['../../Cpp/classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e',1,'MR::RibbonMenu::drawShortcutsWindow_()']]],
   ['drawskippedobject_5f_200',['drawSkippedObject_',['../../Cpp/classMR_1_1RibbonSceneObjectsListDrawer.html#a93c05ad6cbe137ae91506d25d990e5f6',1,'MR::RibbonSceneObjectsListDrawer::drawSkippedObject_()'],['../../Cpp/classMR_1_1SceneObjectsListDrawer.html#a7d2bd6811f26a83ed152c93732753238',1,'MR::SceneObjectsListDrawer::drawSkippedObject_()']]],
   ['drawsmallbuttonsset_5f_201',['drawSmallButtonsSet_',['../../Cpp/classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba',1,'MR::RibbonMenu']]],
-  ['drawtabarrawbutton_202',['drawTabArrawButton',['../../Cpp/classMR_1_1RibbonButtonDrawer.html#ae23b700fa95e1aab614c58ad848c8aa7',1,'MR::RibbonButtonDrawer']]],
+  ['drawtabarrowbutton_202',['drawTabArrowButton',['../../Cpp/classMR_1_1RibbonButtonDrawer.html#a7dcb89a2ff2cb713fa0e6636eaca71af',1,'MR::RibbonButtonDrawer']]],
   ['drawtoolbar_203',['drawToolbar',['../../Cpp/classMR_1_1Toolbar.html#a113ff053c064e03de02b489c9b4a6f51',1,'MR::Toolbar']]],
   ['drawtoppanel_5f_204',['drawTopPanel_',['../../Cpp/classMR_1_1RibbonMenu.html#ab54d2add039ebbbdb20f83d97b45ab9b',1,'MR::RibbonMenu']]],
   ['drawtransform_5f_205',['drawTransform_',['../../Cpp/classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a',1,'MR::ImGuiMenu']]],

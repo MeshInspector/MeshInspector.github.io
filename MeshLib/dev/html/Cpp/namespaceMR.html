@@ -1091,6 +1091,9 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">ObjectMeshSubdivideResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> subdivision with all new attributes updated  <a href="structMR_1_1ObjectMeshSubdivideResult.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a></td></tr>
@@ -5488,6 +5491,8 @@ Functions</h2></td></tr>
 <tr class="separator:a150dcc2a3ed7040edf50c8035d9b2eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65bf816f4ff16dbac59060645d6457d8" id="r_a65bf816f4ff16dbac59060645d6457d8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65bf816f4ff16dbac59060645d6457d8">mapEdgesWithHistory</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;objMesh, const UndirectedEdgeBMap &amp;emap)</td></tr>
 <tr class="separator:a65bf816f4ff16dbac59060645d6457d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42caaf1ec11d26f1030f3309af971115" id="r_a42caaf1ec11d26f1030f3309af971115"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">ObjectMeshSubdivideResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42caaf1ec11d26f1030f3309af971115">subdivideObjectMesh</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, const <a class="el" href="structMR_1_1SubdivideSettings.html">SubdivideSettings</a> &amp;subs)</td></tr>
+<tr class="separator:a42caaf1ec11d26f1030f3309af971115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70abcbee5fc303daa9a2cbbea864ac8" id="r_af70abcbee5fc303daa9a2cbbea864ac8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70abcbee5fc303daa9a2cbbea864ac8">packPointsWithHistory</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints, <a class="el" href="#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder)</td></tr>
 <tr class="separator:af70abcbee5fc303daa9a2cbbea864ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac236381762735fee94cd52a902d87c67" id="r_ac236381762735fee94cd52a902d87c67"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac236381762735fee94cd52a902d87c67">packPointsWithHistory</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints, <a class="el" href="#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder, VertBitSet newValidVerts)</td></tr>
@@ -30541,6 +30546,36 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42caaf1ec11d26f1030f3309af971115" name="a42caaf1ec11d26f1030f3309af971115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42caaf1ec11d26f1030f3309af971115">&#9670;&#160;</a></span>subdivideObjectMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">ObjectMeshSubdivideResult</a> MR::subdivideObjectMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SubdivideSettings.html">SubdivideSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>subs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>subdivides given <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> with given parameters, may be called from parallel thread </p>
 
 </div>
 </div>

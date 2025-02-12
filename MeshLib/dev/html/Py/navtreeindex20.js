@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1DistanceVolumeParams.html#a6703073864e0c2ad85ed35ab83035bdf":[6,1,0,0,2,192,5],
+"classmrmeshpy_1_1DistanceVolumeParams.html#a6703073864e0c2ad85ed35ab83035bdf":[6,1,1,0,1,192,5],
 "classmrmeshpy_1_1DistanceVolumeParams.html#a74ae0c8dee23d66279a17c11e8e76e6c":[6,1,0,0,2,192,8],
 "classmrmeshpy_1_1DistanceVolumeParams.html#a74ae0c8dee23d66279a17c11e8e76e6c":[6,1,1,0,1,192,8],
 "classmrmeshpy_1_1DistanceVolumeParams.html#a74ffcc80a803bc40786ac4fe3250ddbb":[6,1,0,0,2,192,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1EdgeColors.html#a33fa0d520e27774fc2ef9e7d894a7312":[6,1,1,0,1,198,13],
 "classmrmeshpy_1_1EdgeColors.html#a33fa0d520e27774fc2ef9e7d894a7312":[6,1,1,0,1,198,14],
 "classmrmeshpy_1_1EdgeColors.html#a4d7d93333c7d2e43862164920326911e":[6,1,0,0,2,198,25],
-"classmrmeshpy_1_1EdgeColors.html#a4d7d93333c7d2e43862164920326911e":[6,1,1,0,1,198,25],
-"classmrmeshpy_1_1EdgeColors.html#a4e73296c16eb52acb0107af1c29e88e5":[6,1,0,0,2,198,26],
-"classmrmeshpy_1_1EdgeColors.html#a4e73296c16eb52acb0107af1c29e88e5":[6,1,1,0,1,198,26]
+"classmrmeshpy_1_1EdgeColors.html#a4d7d93333c7d2e43862164920326911e":[6,1,1,0,1,198,25]
 };

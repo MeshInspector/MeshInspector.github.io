@@ -175,6 +175,8 @@ $(function(){initNavTree('classmrmeshpy_1_1ChangeMeshCreasesAction.html',''); in
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af10b7e19469455b159080005dd082045" id="r_af10b7e19469455b159080005dd082045"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af10b7e19469455b159080005dd082045">__init__</a> (self, str <a class="el" href="#a0bd703219aac55f23619cbc63ae23a32">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectMesh.html">ObjectMesh</a> objMesh)</td></tr>
 <tr class="separator:af10b7e19469455b159080005dd082045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6a84d2a115f3fe83e64c579875e96e0" id="r_ae6a84d2a115f3fe83e64c579875e96e0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6a84d2a115f3fe83e64c579875e96e0">__init__</a> (self, str <a class="el" href="#a0bd703219aac55f23619cbc63ae23a32">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectMesh.html">ObjectMesh</a> objMesh, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> newCreases)</td></tr>
+<tr class="separator:ae6a84d2a115f3fe83e64c579875e96e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d2acc2a9a751754d66fd6fb15d16fd" id="r_a82d2acc2a9a751754d66fd6fb15d16fd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d2acc2a9a751754d66fd6fb15d16fd">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ChangeMeshCreasesAction.html">ChangeMeshCreasesAction</a> arg0)</td></tr>
 <tr class="separator:a82d2acc2a9a751754d66fd6fb15d16fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1913e2cc7f0cc675c51db5666823d194" id="r_a1913e2cc7f0cc675c51db5666823d194"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1913e2cc7f0cc675c51db5666823d194">creases</a> (self)</td></tr>
@@ -207,7 +209,7 @@ Static Protected Member Functions</h2></td></tr>
 Undo action for ObjectMesh creases
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af10b7e19469455b159080005dd082045" name="af10b7e19469455b159080005dd082045"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af10b7e19469455b159080005dd082045">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af10b7e19469455b159080005dd082045">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,8 +235,40 @@ Undo action for ObjectMesh creases
 </pre> 
 </div>
 </div>
+<a id="ae6a84d2a115f3fe83e64c579875e96e0" name="ae6a84d2a115f3fe83e64c579875e96e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6a84d2a115f3fe83e64c579875e96e0">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.ChangeMeshCreasesAction.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ObjectMesh.html">ObjectMesh</a></td>          <td class="paramname"><span class="paramname"><em>objMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>newCreases</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">use this constructor to remember object's current creases and immediate set new creases
+</pre> 
+</div>
+</div>
 <a id="a82d2acc2a9a751754d66fd6fb15d16fd" name="a82d2acc2a9a751754d66fd6fb15d16fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82d2acc2a9a751754d66fd6fb15d16fd">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82d2acc2a9a751754d66fd6fb15d16fd">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

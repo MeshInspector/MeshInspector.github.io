@@ -566,6 +566,7 @@ var annotated_dup =
       [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", "classMR_1_1ObjectLinesHolder" ],
       [ "ObjectMesh", "classMR_1_1ObjectMesh.html", "classMR_1_1ObjectMesh" ],
       [ "ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html", "classMR_1_1ObjectMeshHolder" ],
+      [ "ObjectMeshSubdivideResult", "structMR_1_1ObjectMeshSubdivideResult.html", "structMR_1_1ObjectMeshSubdivideResult" ],
       [ "ObjectPoints", "classMR_1_1ObjectPoints.html", "classMR_1_1ObjectPoints" ],
       [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", "classMR_1_1ObjectPointsHolder" ],
       [ "ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", "classMR_1_1ObjectTransformWidget" ],

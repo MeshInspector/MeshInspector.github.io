@@ -49,6 +49,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRNotificationType.h", "MRNotificationType_8h.html", "MRNotificationType_8h" ],
     [ "MRObjectImGuiLabel.h", "MRObjectImGuiLabel_8h.html", "MRObjectImGuiLabel_8h" ],
     [ "MRObjectMeshHistory.h", "MRObjectMeshHistory_8h.html", "MRObjectMeshHistory_8h" ],
+    [ "MRObjectMeshSubdivide.h", "MRObjectMeshSubdivide_8h.html", "MRObjectMeshSubdivide_8h" ],
     [ "MRObjectPointsHistory.h", "MRObjectPointsHistory_8h.html", "MRObjectPointsHistory_8h" ],
     [ "MRObjectTransformWidget.h", "MRObjectTransformWidget_8h.html", "MRObjectTransformWidget_8h" ],
     [ "MROpenObjects.h", "MROpenObjects_8h.html", "MROpenObjects_8h" ],

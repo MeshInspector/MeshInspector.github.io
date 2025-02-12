@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a5e248face1f111fe7cbe6187671c6c5e":[6,1,0,0,2,1028,4],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a5e248face1f111fe7cbe6187671c6c5e":[6,1,1,0,1,1028,4],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a5ef3f74bcfa5193c2800796f754aa71d":[6,1,0,0,2,1028,33],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a5ef3f74bcfa5193c2800796f754aa71d":[6,1,1,0,1,1028,33],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a6b4c911b9da18b4a3ce5e4732d26939f":[6,1,0,0,2,1028,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#ad8bc19c749eaf5af6a7fc8193b62596a":[6,1,0,0,2,1033,19],
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#ad8bc19c749eaf5af6a7fc8193b62596a":[6,1,1,0,1,1033,19],
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#aeaa96f09a533bc5bc2445de785f293a3":[6,1,0,0,2,1033,32],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#aeaa96f09a533bc5bc2445de785f293a3":[6,1,1,0,1,1033,32],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#aebc90ee94864d3eec1e0b248314f4ff2":[6,1,0,0,2,1033,28],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#aebc90ee94864d3eec1e0b248314f4ff2":[6,1,1,0,1,1033,28]
+"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#aeaa96f09a533bc5bc2445de785f293a3":[6,1,1,0,1,1033,32]
 };

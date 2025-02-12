@@ -190,6 +190,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a35abf0006f1f9dde31def6af394af1ae" id="r_a35abf0006f1f9dde31def6af394af1ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35abf0006f1f9dde31def6af394af1ae">ChangeMeshCreasesAction</a> (const std::string &amp;<a class="el" href="#abaa4073cae3371c003ef86720b945c86">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;objMesh)</td></tr>
 <tr class="memdesc:a35abf0006f1f9dde31def6af394af1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's creases before making any changes in it  <br /></td></tr>
 <tr class="separator:a35abf0006f1f9dde31def6af394af1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0652611ceda3ea880e9a537d6d5760c" id="r_ac0652611ceda3ea880e9a537d6d5760c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0652611ceda3ea880e9a537d6d5760c">ChangeMeshCreasesAction</a> (const std::string &amp;<a class="el" href="#abaa4073cae3371c003ef86720b945c86">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;objMesh, UndirectedEdgeBitSet &amp;&amp;newCreases)</td></tr>
+<tr class="memdesc:ac0652611ceda3ea880e9a537d6d5760c"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's current creases and immediate set new creases  <br /></td></tr>
+<tr class="separator:ac0652611ceda3ea880e9a537d6d5760c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaa4073cae3371c003ef86720b945c86" id="r_abaa4073cae3371c003ef86720b945c86"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaa4073cae3371c003ef86720b945c86">name</a> () const override</td></tr>
 <tr class="separator:abaa4073cae3371c003ef86720b945c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dcddeee79326fa1a00c79904fb4a1b7" id="r_a1dcddeee79326fa1a00c79904fb4a1b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dcddeee79326fa1a00c79904fb4a1b7">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a>) override</td></tr>
@@ -229,7 +232,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a35abf0006f1f9dde31def6af394af1ae" name="a35abf0006f1f9dde31def6af394af1ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35abf0006f1f9dde31def6af394af1ae">&#9670;&#160;</a></span>ChangeMeshCreasesAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a35abf0006f1f9dde31def6af394af1ae">&#9670;&#160;</a></span>ChangeMeshCreasesAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,6 +259,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>use this constructor to remember object's creases before making any changes in it </p>
+
+</div>
+</div>
+<a id="ac0652611ceda3ea880e9a537d6d5760c" name="ac0652611ceda3ea880e9a537d6d5760c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0652611ceda3ea880e9a537d6d5760c">&#9670;&#160;</a></span>ChangeMeshCreasesAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeMeshCreasesAction::ChangeMeshCreasesAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UndirectedEdgeBitSet &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newCreases</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's current creases and immediate set new creases </p>
 
 </div>
 </div>
