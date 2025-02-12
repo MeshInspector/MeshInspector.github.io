@@ -244,6 +244,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MROffsetContours.h", "MROffsetContours_8h.html", "MROffsetContours_8h" ],
     [ "MROnInit.h", "MROnInit_8h.html", "MROnInit_8h" ],
     [ "MROrder.h", "MROrder_8h.html", "MROrder_8h" ],
+    [ "MROutlierPoints.h", "MROutlierPoints_8h.html", "MROutlierPoints_8h" ],
     [ "MROverlappingTris.h", "MROverlappingTris_8h.html", "MROverlappingTris_8h" ],
     [ "MRParabola.h", "MRParabola_8h.html", "MRParabola_8h" ],
     [ "MRParallel.h", "MRParallel_8h.html", "MRParallel_8h" ],

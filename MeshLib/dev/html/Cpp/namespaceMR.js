@@ -328,6 +328,7 @@ var namespaceMR =
     [ "FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", "structMR_1_1FillHoleNicelySettings" ],
     [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],
     [ "FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", "structMR_1_1FindInnerShellSettings" ],
+    [ "FindOutliersParams", "structMR_1_1FindOutliersParams.html", "structMR_1_1FindOutliersParams" ],
     [ "FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", "structMR_1_1FindOverhangsSettings" ],
     [ "FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", "structMR_1_1FindOverlappingSettings" ],
     [ "FitBoxParams", "structMR_1_1FitBoxParams.html", "structMR_1_1FitBoxParams" ],
@@ -541,6 +542,8 @@ var namespaceMR =
     [ "OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", "classMR_1_1OpenRawVoxelsPlugin" ],
     [ "OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", "structMR_1_1OpenVdbFloatGrid" ],
     [ "OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", "structMR_1_1OriginAndDimensions" ],
+    [ "OutlierParams", "structMR_1_1OutlierParams.html", "structMR_1_1OutlierParams" ],
+    [ "OutliersDetector", "classMR_1_1OutliersDetector.html", "classMR_1_1OutliersDetector" ],
     [ "OutputFlows", "structMR_1_1OutputFlows.html", "structMR_1_1OutputFlows" ],
     [ "overloaded", "structMR_1_1overloaded.html", null ],
     [ "PackMapping", "structMR_1_1PackMapping.html", "structMR_1_1PackMapping" ],
@@ -1312,6 +1315,13 @@ var namespaceMR =
       [ "MinusX", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454", null ],
       [ "Count", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
+    [ "OutlierTypeMask", "namespaceMR.html#ab8659c12eb8fa6618f154566efce6146", [
+      [ "SmallComponents", "namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f", null ],
+      [ "WeaklyConnected", "namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066", null ],
+      [ "FarSurface", "namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40", null ],
+      [ "AwayNormal", "namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584", null ],
+      [ "All", "namespaceMR.html#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+    ] ],
     [ "PathError", "group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8", [
       [ "StartEndNotConnected", "group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f", null ],
       [ "InternalError", "group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5", null ]
@@ -1913,6 +1923,7 @@ var namespaceMR =
     [ "findNClosestPointsPerPoint", "group__AABBTreeGroup.html#ga5ccfb741cd4bcb092c8884f744051203", null ],
     [ "findNeighborVerts", "namespaceMR.html#a58ed9a10000732a6d443bb16846927b8", null ],
     [ "findNRingVerts", "group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
+    [ "findOutliers", "namespaceMR.html#a83c915f7d70a05ed28c1dbf2186f4b17", null ],
     [ "findOverhangs", "namespaceMR.html#ae5a23c27bb3bb838f31c354a2569981f", null ],
     [ "findOverlappingTris", "namespaceMR.html#a6f854d1ee48b4520a2bc23d7c73c648f", null ],
     [ "findPathWithExtension", "namespaceMR.html#abbb65999efa5888bba732313759eafa5", null ],

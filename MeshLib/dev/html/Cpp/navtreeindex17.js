@@ -1,5 +1,14 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BoundarySelectionWidget.html#a2c647091ac6951e55adf7ba4a18675ac":[6,0,2,0,1,66,8],
+"classMR_1_1BoundarySelectionWidget.html#a2e11f1e4737493f7e61b6b3793519373":[6,0,1,0,1,82,2],
+"classMR_1_1BoundarySelectionWidget.html#a2e11f1e4737493f7e61b6b3793519373":[6,0,2,0,1,66,2],
+"classMR_1_1BoundarySelectionWidget.html#a2f67030fd7e0d0dc13eeb84d29585009":[6,0,1,0,1,82,6],
+"classMR_1_1BoundarySelectionWidget.html#a2f67030fd7e0d0dc13eeb84d29585009":[6,0,2,0,1,66,6],
+"classMR_1_1BoundarySelectionWidget.html#a2f69c3bd828d0e6845a71bce194419df":[6,0,1,0,1,82,5],
+"classMR_1_1BoundarySelectionWidget.html#a2f69c3bd828d0e6845a71bce194419df":[6,0,2,0,1,66,5],
+"classMR_1_1BoundarySelectionWidget.html#a363ebc98a82ff30b022222e7c8b7c22b":[6,0,1,0,1,82,7],
+"classMR_1_1BoundarySelectionWidget.html#a363ebc98a82ff30b022222e7c8b7c22b":[6,0,2,0,1,66,7],
 "classMR_1_1BoundarySelectionWidget.html#a62221533e111fdfcadc62e9a4d91e9ae":[6,0,1,0,1,82,10],
 "classMR_1_1BoundarySelectionWidget.html#a62221533e111fdfcadc62e9a4d91e9ae":[6,0,2,0,1,66,10],
 "classMR_1_1BoundarySelectionWidget.html#a64ad1b3ec5b695922aacf3586d722594":[6,0,1,0,1,82,11],
@@ -240,14 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeNameAction.html":[6,0,0,4,10],
 "classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953":[6,0,0,4,10,1],
 "classMR_1_1ChangeNameAction.html#a78f9dfad757f976bb7af6f93bbfd2e74":[6,0,0,4,10,2],
-"classMR_1_1ChangeNameAction.html#a8461f96378d4084fbd74bbdbf8d70ed3":[6,0,0,4,10,0],
-"classMR_1_1ChangeNameAction.html#af3abbe2d5970984c94bc836781925582":[6,0,0,4,10,3],
-"classMR_1_1ChangeObjectAction.html":[6,0,0,4,11],
-"classMR_1_1ChangeObjectAction.html#a1fb57757d3858115a5eb58acce570d82":[6,0,0,4,11,0],
-"classMR_1_1ChangeObjectAction.html#a657dce770efd0cbe3235515223438b7f":[6,0,0,4,11,3],
-"classMR_1_1ChangeObjectAction.html#a74d98addc33191161e4cf6b9adaa55f2":[6,0,0,4,11,2],
-"classMR_1_1ChangeObjectAction.html#abae57c93f1aaa324cd73f0dd5a678718":[6,0,0,4,11,1],
-"classMR_1_1ChangeObjectColorAction.html":[6,0,0,4,0],
-"classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30":[6,0,0,4,0,2],
-"classMR_1_1ChangeObjectColorAction.html#a5474abe2fe0d35caaf558c71cb6847d3":[6,0,0,4,0,0]
+"classMR_1_1ChangeNameAction.html#a8461f96378d4084fbd74bbdbf8d70ed3":[6,0,0,4,10,0]
 };

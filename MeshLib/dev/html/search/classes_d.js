@@ -58,9 +58,12 @@ var searchData=
   ['originanddimensions_55',['OriginAndDimensions',['.././Cpp/structMR_1_1OriginAndDimensions.html',1,'MR::OriginAndDimensions'],['.././Py/classmrmeshpy_1_1OriginAndDimensions.html',1,'mrmeshpy::OriginAndDimensions']]],
   ['outedge_56',['OutEdge',['.././Py/classmrmeshpy_1_1OutEdge.html',1,'mrmeshpy']]],
   ['outedge2_57',['OutEdge2',['.././Py/classmrmeshpy_1_1OutEdge2.html',1,'mrmeshpy']]],
-  ['outlineparameters_58',['OutlineParameters',['.././Cpp/structMR_1_1PlanarTriangulation_1_1OutlineParameters.html',1,'MR::PlanarTriangulation::OutlineParameters'],['.././Py/classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html',1,'mrmeshpy::PlanarTriangulation::OutlineParameters']]],
-  ['outputfacevalues_59',['OutputFaceValues',['.././Py/classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html',1,'mrmeshpy::FaceDistancesSettings']]],
-  ['outputflows_60',['OutputFlows',['.././Cpp/structMR_1_1OutputFlows.html',1,'MR::OutputFlows'],['.././Py/classmrmeshpy_1_1OutputFlows.html',1,'mrmeshpy::OutputFlows']]],
-  ['overflowpoint_61',['OverflowPoint',['.././Cpp/structMR_1_1WatershedGraph_1_1OverflowPoint.html',1,'MR::WatershedGraph::OverflowPoint'],['.././Py/classmrmeshpy_1_1WatershedGraph_1_1OverflowPoint.html',1,'mrmeshpy::WatershedGraph::OverflowPoint']]],
-  ['overloaded_62',['overloaded',['.././Cpp/structMR_1_1overloaded.html',1,'MR']]]
+  ['outlierparams_58',['OutlierParams',['.././Cpp/structMR_1_1OutlierParams.html',1,'MR::OutlierParams'],['.././Py/classmrmeshpy_1_1OutlierParams.html',1,'mrmeshpy::OutlierParams']]],
+  ['outliersdetector_59',['OutliersDetector',['.././Cpp/classMR_1_1OutliersDetector.html',1,'MR::OutliersDetector'],['.././Py/classmrmeshpy_1_1OutliersDetector.html',1,'mrmeshpy::OutliersDetector']]],
+  ['outliertypemask_60',['OutlierTypeMask',['.././Py/classmrmeshpy_1_1OutlierTypeMask.html',1,'mrmeshpy']]],
+  ['outlineparameters_61',['OutlineParameters',['.././Cpp/structMR_1_1PlanarTriangulation_1_1OutlineParameters.html',1,'MR::PlanarTriangulation::OutlineParameters'],['.././Py/classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html',1,'mrmeshpy::PlanarTriangulation::OutlineParameters']]],
+  ['outputfacevalues_62',['OutputFaceValues',['.././Py/classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html',1,'mrmeshpy::FaceDistancesSettings']]],
+  ['outputflows_63',['OutputFlows',['.././Cpp/structMR_1_1OutputFlows.html',1,'MR::OutputFlows'],['.././Py/classmrmeshpy_1_1OutputFlows.html',1,'mrmeshpy::OutputFlows']]],
+  ['overflowpoint_64',['OverflowPoint',['.././Cpp/structMR_1_1WatershedGraph_1_1OverflowPoint.html',1,'MR::WatershedGraph::OverflowPoint'],['.././Py/classmrmeshpy_1_1WatershedGraph_1_1OverflowPoint.html',1,'mrmeshpy::WatershedGraph::OverflowPoint']]],
+  ['overloaded_65',['overloaded',['.././Cpp/structMR_1_1overloaded.html',1,'MR']]]
 ];

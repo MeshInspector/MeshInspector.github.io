@@ -686,6 +686,9 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindInnerShellSettings.html">FindInnerShellSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindOutliersParams.html">FindOutliersParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outlier point search parameters.  <a href="structMR_1_1FindOutliersParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindOverhangsSettings.html">FindOverhangsSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters for <a class="el" href="#ae5a23c27bb3bb838f31c354a2569981f" title="Find face regions that might create overhangs.">MR::findOverhangs</a>  <a href="structMR_1_1FindOverhangsSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1145,6 +1148,11 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OriginAndDimensions.html">OriginAndDimensions</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">shift of zero voxel in 3D space and dimensions of voxel-grid  <a href="structMR_1_1OriginAndDimensions.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OutlierParams.html">OutlierParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of various criteria for detecting outlier points.  <a href="structMR_1_1OutlierParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1OutliersDetector.html">OutliersDetector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OutputFlows.html">OutputFlows</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2429,6 +2437,17 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:afedf1467ef6a61af5a59eafa50a41bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how points to be ordered  <a href="#afedf1467ef6a61af5a59eafa50a41bf9">More...</a><br /></td></tr>
 <tr class="separator:afedf1467ef6a61af5a59eafa50a41bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8659c12eb8fa6618f154566efce6146" id="r_ab8659c12eb8fa6618f154566efce6146"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8659c12eb8fa6618f154566efce6146">OutlierTypeMask</a> { <br />
+&#160;&#160;<a class="el" href="#ab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f">SmallComponents</a> = 1 &lt;&lt; 0
+, <a class="el" href="#ab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066">WeaklyConnected</a> = 1 &lt;&lt; 1
+, <a class="el" href="#ab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40">FarSurface</a> = 1 &lt;&lt; 2
+, <a class="el" href="#ab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584">AwayNormal</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = SmallComponents | WeaklyConnected | FarSurface | AwayNormal
+<br />
+ }</td></tr>
+<tr class="memdesc:ab8659c12eb8fa6618f154566efce6146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of outlier points.  <a href="#ab8659c12eb8fa6618f154566efce6146">More...</a><br /></td></tr>
+<tr class="separator:ab8659c12eb8fa6618f154566efce6146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab7acb4543154d042c297e5823fb633b6" id="r_gab7acb4543154d042c297e5823fb633b6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a> : signed char { <br />
 &#160;&#160;<a class="el" href="group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b">OutEdge2::Invalid</a> = -1
 , <a class="el" href="group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a">OutEdge2::PlusY</a>
@@ -4333,6 +4352,9 @@ Functions</h2></td></tr>
 <tr class="separator:aaf96c4ae6f54b13630e2800975f7b4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92ff5703efae9bb282ac16c6d9876e01" id="r_a92ff5703efae9bb282ac16c6d9876e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92ff5703efae9bb282ac16c6d9876e01">getEdgeOrdering</a> (const FaceBMap &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="separator:a92ff5703efae9bb282ac16c6d9876e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83c915f7d70a05ed28c1dbf2186f4b17" id="r_a83c915f7d70a05ed28c1dbf2186f4b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83c915f7d70a05ed28c1dbf2186f4b17">findOutliers</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const <a class="el" href="structMR_1_1FindOutliersParams.html">FindOutliersParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a83c915f7d70a05ed28c1dbf2186f4b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finding outlier points.  <br /></td></tr>
+<tr class="separator:a83c915f7d70a05ed28c1dbf2186f4b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f854d1ee48b4520a2bc23d7c73c648f" id="r_a6f854d1ee48b4520a2bc23d7c73c648f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f854d1ee48b4520a2bc23d7c73c648f">findOverlappingTris</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1FindOverlappingSettings.html">FindOverlappingSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:a6f854d1ee48b4520a2bc23d7c73c648f"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles that have oppositely oriented close triangle in the mesh  <br /></td></tr>
 <tr class="separator:a6f854d1ee48b4520a2bc23d7c73c648f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -9519,6 +9541,41 @@ template&lt;typename T &gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f" name="af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f"></a>TowardOrigin&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7" name="af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7"></a>AwayFromOrigin&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666" name="af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666"></a>Smart&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ab8659c12eb8fa6618f154566efce6146" name="ab8659c12eb8fa6618f154566efce6146"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8659c12eb8fa6618f154566efce6146">&#9670;&#160;</a></span>OutlierTypeMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ab8659c12eb8fa6618f154566efce6146">MR::OutlierTypeMask</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Types of outlier points. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" name="ab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f"></a>SmallComponents&#160;</td><td class="fielddoc"><p>Small groups of points that are far from the rest. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" name="ab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066"></a>WeaklyConnected&#160;</td><td class="fielddoc"><p>Points that have too few neighbors within the radius. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" name="ab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40"></a>FarSurface&#160;</td><td class="fielddoc"><p>Points far from the surface approximating the nearest points. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" name="ab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584"></a>AwayNormal&#160;</td><td class="fielddoc"><p>Points whose normals differ from the average norm of their nearest neighbors. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" name="ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -15613,6 +15670,29 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a83c915f7d70a05ed28c1dbf2186f4b17" name="a83c915f7d70a05ed28c1dbf2186f4b17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83c915f7d70a05ed28c1dbf2186f4b17">&#9670;&#160;</a></span>findOutliers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt; MR::findOutliers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FindOutliersParams.html">FindOutliersParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finding outlier points. </p>
 
 </div>
 </div>

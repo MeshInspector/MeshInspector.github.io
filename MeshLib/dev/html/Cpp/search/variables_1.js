@@ -51,7 +51,7 @@ var searchData=
   ['affinexf_5fvector3f_48',['AffineXf_Vector3f',['../../Py/namespacemrmeshpy.html#a500bf21a8cbd0b63a12d4f56d154c82e',1,'mrmeshpy']]],
   ['affinexf_5fvector3f_5fm_49',['AffineXf_Vector3f_M',['../../Py/namespacemrmeshpy.html#a0f10111bca2dcb51fd16941fcf01001a',1,'mrmeshpy']]],
   ['align_50',['align',['../structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b',1,'MR::SymbolMeshParams']]],
-  ['all_51',['All',['../../Py/classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a8e1941b4c7284049e51e560c5ac976ab',1,'mrmeshpy::CutMeshParameters::ForceFill::All'],['../../Py/classmrmeshpy_1_1QuarterBit.html#a0ac3850e0555d719ec2b08fa4db2bf9f',1,'mrmeshpy::QuarterBit::All'],['../../Py/classmrmeshpy_1_1RenderModelPassMask.html#a73d63ade64b368965e4b17461aa9eb0e',1,'mrmeshpy::RenderModelPassMask::All']]],
+  ['all_51',['All',['../../Py/classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a8e1941b4c7284049e51e560c5ac976ab',1,'mrmeshpy::CutMeshParameters::ForceFill::All'],['../../Py/classmrmeshpy_1_1OutlierTypeMask.html#a9d3907c6b3ae6802f8eda3692cff9de9',1,'mrmeshpy::OutlierTypeMask::All'],['../../Py/classmrmeshpy_1_1QuarterBit.html#a0ac3850e0555d719ec2b08fa4db2bf9f',1,'mrmeshpy::QuarterBit::All'],['../../Py/classmrmeshpy_1_1RenderModelPassMask.html#a73d63ade64b368965e4b17461aa9eb0e',1,'mrmeshpy::RenderModelPassMask::All']]],
   ['allfilter_52',['AllFilter',['../namespaceMR.html#aa6434e5b84b58ad6cdbaef2ab570f520',1,'MR']]],
   ['allneighbors_53',['allNeighbors',['../structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458',1,'MR::TriangulationHelpers::Settings']]],
   ['allowalphasort_54',['allowAlphaSort',['../structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3',1,'MR::ModelRenderParams']]],
@@ -104,5 +104,6 @@ var searchData=
   ['automaticradiusincrease_101',['automaticRadiusIncrease',['../structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a',1,'MR::TriangulationParameters::automaticRadiusIncrease'],['../structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d',1,'MR::TriangulationHelpers::Settings::automaticRadiusIncrease'],['../structMRTriangulationParameters.html#ad1d64fdef721fd0843a1ebdb1b96c472',1,'MRTriangulationParameters::automaticRadiusIncrease']]],
   ['avgedgelen_5f_102',['avgEdgeLen_',['../classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410',1,'MR::ObjectMeshHolder']]],
   ['awayfromorigin_103',['AwayFromOrigin',['../../Py/classmrmeshpy_1_1OrientNormals.html#a3028799bf306d412c1b92d3163749240',1,'mrmeshpy::OrientNormals']]],
-  ['axis_104',['axis',['../classMR_1_1Cone3.html#a18ef80872ba6b6384ae2944f85f8b214',1,'MR::Cone3::axis'],['../structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad',1,'MR::FindOverhangsSettings::axis']]]
+  ['awaynormal_104',['AwayNormal',['../../Py/classmrmeshpy_1_1OutlierTypeMask.html#a96a094248e5a0650c304e615a99d5411',1,'mrmeshpy::OutlierTypeMask']]],
+  ['axis_105',['axis',['../classMR_1_1Cone3.html#a18ef80872ba6b6384ae2944f85f8b214',1,'MR::Cone3::axis'],['../structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad',1,'MR::FindOverhangsSettings::axis']]]
 ];
