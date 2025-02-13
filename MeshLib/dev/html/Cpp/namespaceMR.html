@@ -3414,8 +3414,6 @@ Functions</h2></td></tr>
 <tr class="separator:af020d4cf8cd8147487627fe82c03a9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a1dbdb9aedd7fadc599adb576b16da" id="r_af4a1dbdb9aedd7fadc599adb576b16da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4a1dbdb9aedd7fadc599adb576b16da">getXfFromOxyPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;paths)</td></tr>
 <tr class="separator:af4a1dbdb9aedd7fadc599adb576b16da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9db90042f0f44bff905c49b8a0d692af" id="r_a9db90042f0f44bff905c49b8a0d692af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9db90042f0f44bff905c49b8a0d692af">fillPlanarHole</a> (<a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, std::vector&lt; <a class="el" href="#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; &amp;holeContours)</td></tr>
-<tr class="separator:a9db90042f0f44bff905c49b8a0d692af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a336e1461bdc97f5a14465c6571e7f492" id="r_a336e1461bdc97f5a14465c6571e7f492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336e1461bdc97f5a14465c6571e7f492">fillHoleNicely</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId holeEdge, const <a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a> &amp;settings)</td></tr>
 <tr class="separator:a336e1461bdc97f5a14465c6571e7f492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af323676e5a2bf779fb0700037ad648da" id="r_af323676e5a2bf779fb0700037ad648da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af323676e5a2bf779fb0700037ad648da">filterCreaseEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, UndirectedEdgeBitSet &amp;creaseEdges, float critLength, bool filterComponents=true, bool filterBranches=false)</td></tr>
@@ -14715,28 +14713,6 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a9db90042f0f44bff905c49b8a0d692af" name="a9db90042f0f44bff905c49b8a0d692af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9db90042f0f44bff905c49b8a0d692af">&#9670;&#160;</a></span>fillPlanarHole()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::fillPlanarHole </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>holeContours</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>given an <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> and the contours of a planar hole in it, fills the hole using fillContours2D function and updates object's attributes; if some contours were not closed on input, then closes them by adding a bridge edge in each </p>
 
 </div>
 </div>

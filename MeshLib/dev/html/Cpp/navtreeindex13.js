@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"MRStreamOperators_8h.html#a5032191cec4caa244ffb6d2589686690":[6,0,3,0,0,1,3,331,13],
 "MRStreamOperators_8h.html#a5ef63c3653af2d1973d4f56f45af2d63":[6,0,3,0,0,1,3,331,5],
 "MRStreamOperators_8h.html#a65d51e4f7dbbfe81f73644b8a617399a":[6,0,3,0,0,1,3,331,4],
 "MRStreamOperators_8h.html#a6a250f7a5652670829d3b85f7825392a":[6,0,3,0,0,1,3,331,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "MRTupleBindings_8h.html#a4e767d46dd23fb8b21130cc65ef9eb61":[6,0,3,0,0,1,3,357,12],
 "MRTupleBindings_8h.html#a4f46e33f779ccbcf3bbee75323347837":[6,0,3,0,0,1,3,357,17],
 "MRTupleBindings_8h.html#a7aa397b5ed81246a0465fb3bdc4f5599":[6,0,3,0,0,1,3,357,13],
-"MRTupleBindings_8h.html#a8adef0dcb5a67d508801a46f29deb81f":[6,0,3,0,0,1,3,357,7]
+"MRTupleBindings_8h.html#a8adef0dcb5a67d508801a46f29deb81f":[6,0,3,0,0,1,3,357,7],
+"MRTupleBindings_8h.html#a8c1f285288de8cd4487966109876601b":[6,0,3,0,0,1,3,357,0]
 };

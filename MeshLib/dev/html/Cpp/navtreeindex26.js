@@ -1,6 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"classMR_1_1ImGuiMenu.html#ae71e78bd6eb312fb03d4b7931a3d3241":[6,0,2,0,1,259,107],
 "classMR_1_1ImGuiMenu.html#ae809764ef8ca8203ef9f26e34abb2c2f":[6,0,1,0,1,275,113],
 "classMR_1_1ImGuiMenu.html#ae809764ef8ca8203ef9f26e34abb2c2f":[6,0,2,0,1,259,113],
 "classMR_1_1ImGuiMenu.html#ae8ea9f87c7bb3f33454eacc1a708eae8":[6,0,1,0,1,275,86],
@@ -249,5 +248,6 @@ var NAVTREEINDEX26 =
 "classMR_1_1MeshOnVoxelsT.html":[6,0,0,17,1,1],
 "classMR_1_1MeshOnVoxelsT.html#a0ccc7e9cad6df03bf25b347c38523ca0":[6,0,0,17,1,1,6],
 "classMR_1_1MeshOnVoxelsT.html#a12227796564ddc80465829d668777dbd":[6,0,0,17,1,1,7],
-"classMR_1_1MeshOnVoxelsT.html#a1b322982116a13162da2b64a54ffc5c1":[6,0,0,17,1,1,1]
+"classMR_1_1MeshOnVoxelsT.html#a1b322982116a13162da2b64a54ffc5c1":[6,0,0,17,1,1,1],
+"classMR_1_1MeshOnVoxelsT.html#a1e804485d47771585c930ff0a81a66a6":[6,0,0,17,1,1,8]
 };

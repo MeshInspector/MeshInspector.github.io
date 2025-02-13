@@ -1,7 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,1,0,1,438,3],
-"structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,2,0,1,422,3],
 "structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,1,0,1,438,2],
 "structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,2,0,1,422,2],
 "structMR_1_1OutlierParams.html#a9561ff72aba23dad165d0922967bf343":[6,0,1,0,1,438,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX74 =
 "structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,1,0,1,468,6],
 "structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,2,0,1,452,6],
 "structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,1,0,1,468,5],
-"structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,2,0,1,452,5]
+"structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,2,0,1,452,5],
+"structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[6,0,1,0,1,468,2],
+"structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[6,0,2,0,1,452,2]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html":[6,0,1,0,1,297],
-"structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html":[6,0,2,0,1,281],
 "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html":[6,0,0,11,2,2],
 "structMR_1_1IteratorRange.html":[6,0,0,3,0,0],
 "structMR_1_1IteratorRange.html#a6dc3025499872ade8eaf5f1768b10aa3":[6,0,0,3,0,0,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd":[6,0,1,0,1,323,1,6],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd":[6,0,2,0,1,307,1,6],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[6,0,1,0,1,323,1,3],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[6,0,2,0,1,307,1,3]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[6,0,2,0,1,307,1,3],
+"structMR_1_1Matrix.html":[6,0,0,0,7,0],
+"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[6,0,0,0,7,0,1]
 };

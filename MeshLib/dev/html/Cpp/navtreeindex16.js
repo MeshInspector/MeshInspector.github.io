@@ -1,6 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"classMR_1_1AABBTreeBase.html#aa0b2c5625ad2b069c42780d685db9281":[6,0,1,0,1,43,9],
 "classMR_1_1AABBTreeBase.html#aa0b2c5625ad2b069c42780d685db9281":[6,0,2,0,1,27,9],
 "classMR_1_1AABBTreeBase.html#aa68c6e8f36c8a52617b624e91f11568d":[6,0,1,0,1,43,1],
 "classMR_1_1AABBTreeBase.html#aa68c6e8f36c8a52617b624e91f11568d":[6,0,2,0,1,27,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "classMR_1_1BitSet.html#aeb7bb0c8ddc8cb0b9a917fe43a2cc514":[6,0,0,3,2,17],
 "classMR_1_1BitSet.html#af4367d27b2897443f41bc359deeab256":[6,0,0,3,2,15],
 "classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0":[6,0,0,3,2,11],
-"classMR_1_1BoundarySelectionWidget.html":[6,0,1,0,1,82]
+"classMR_1_1BoundarySelectionWidget.html":[6,0,1,0,1,82],
+"classMR_1_1BoundarySelectionWidget.html":[6,0,2,0,1,66]
 };
