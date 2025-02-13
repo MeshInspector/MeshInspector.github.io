@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1ToolPathParams.html#a10f980ccd2fc81285a194503e2b669b3":[6,0,2,0,1,647,12],
+"structMR_1_1ToolPathParams.html#a13a70c0130eab38aeaf063f1f6d276d7":[6,0,1,0,1,663,5],
 "structMR_1_1ToolPathParams.html#a13a70c0130eab38aeaf063f1f6d276d7":[6,0,2,0,1,647,5],
 "structMR_1_1ToolPathParams.html#a24c0b4801961990c4c8e6b4003bf2bb2":[6,0,1,0,1,663,3],
 "structMR_1_1ToolPathParams.html#a24c0b4801961990c4c8e6b4003bf2bb2":[6,0,2,0,1,647,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1TriPoint.html#a8cc175bbb2037eebe6e8f2ced01a4b10":[6,0,0,0,23,9],
 "structMR_1_1TriPoint.html#aaebb5e3d0837bb5c59e39b23498ccaa2":[6,0,0,0,23,10],
 "structMR_1_1TriPoint.html#ab5b9f73c3a043a47d8d279a89d744c5d":[6,0,0,0,23,1],
-"structMR_1_1TriPoint.html#ae145ad02214aefc05be85737aa1d6cca":[6,0,0,0,23,4],
-"structMR_1_1TriPoint.html#ae8d74b356735c69b3830326e6a50b451":[6,0,0,0,23,3],
-"structMR_1_1TriangleSegmentIntersectResult.html":[6,0,1,0,1,683]
+"structMR_1_1TriPoint.html#ae145ad02214aefc05be85737aa1d6cca":[6,0,0,0,23,4]
 };

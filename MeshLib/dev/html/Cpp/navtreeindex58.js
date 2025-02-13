@@ -1,14 +1,16 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df":[6,0,1,0,1,1812],
+"namespaceMR.html#afebaea1321bcf85ccd6401870196c3fd":[6,0,1,0,1,1114],
 "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9":[6,0,1,0,1,990],
 "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954":[6,0,1,0,1,990,1],
 "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8":[6,0,1,0,1,990,2],
 "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,1,990,0],
-"namespaceMR.html#afef3937755aede5ca15af7158e3dcf46":[6,0,1,0,1,1785],
+"namespaceMR.html#afef3937755aede5ca15af7158e3dcf46":[6,0,1,0,1,1786],
 "namespaceMR.html#afef5d869778f6e470421c5e70529110c":[6,0,1,0,1,1215],
 "namespaceMR.html#aff3156c83a0cd4f80c755c47b577c1c9":[6,0,1,0,1,1038],
 "namespaceMR.html#aff76859ec61fe11d899abce20bc135eb":[6,0,1,0,1,1067],
-"namespaceMR.html#affe80f863df8e1fa8d1630eda6e55cdb":[6,0,1,0,1,1777],
+"namespaceMR.html#affe80f863df8e1fa8d1630eda6e55cdb":[6,0,1,0,1,1778],
 "namespaceMR_1_1AsyncObjectLoad.html":[6,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[6,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[6,0,1,0,1,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR_1_1SelfIntersections.html#aea449a398c4999edebba068358686684":[6,0,1,0,1,35,2],
 "namespaceMR_1_1StyleConsts.html":[6,0,1,0,1,36],
 "namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[6,0,1,0,1,36,4],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,1,36,0],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[6,0,1,0,1,36,0,0],
-"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,1,36,1]
+"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,1,36,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5":[6,0,1,0,1,633,3],
+"structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5":[6,0,2,0,1,617,3],
 "structMR_1_1Sphere.html":[6,0,0,0,22],
 "structMR_1_1Sphere.html#a0146c86fafdf02efca98966d2ff841ef":[6,0,0,0,22,1],
 "structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf":[6,0,0,0,22,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1TimeRecord.html#aefc29a1b393cb4e47eec9c964a56b8f9":[6,0,0,3,13,3],
 "structMR_1_1ToolPathParams.html":[6,0,1,0,1,663],
 "structMR_1_1ToolPathParams.html":[6,0,2,0,1,647],
-"structMR_1_1ToolPathParams.html#a10f980ccd2fc81285a194503e2b669b3":[6,0,1,0,1,663,12],
-"structMR_1_1ToolPathParams.html#a10f980ccd2fc81285a194503e2b669b3":[6,0,2,0,1,647,12],
-"structMR_1_1ToolPathParams.html#a13a70c0130eab38aeaf063f1f6d276d7":[6,0,1,0,1,663,5]
+"structMR_1_1ToolPathParams.html#a10f980ccd2fc81285a194503e2b669b3":[6,0,1,0,1,663,12]
 };
