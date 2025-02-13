@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
 "structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMROneMeshIntersection.html#a923782c49f31492a9688d4648d061272":[6,0,2,0,48,3],
 "structMROneMeshIntersection.html#aaa85b1822adbb2d4b7fd61b44f2ec80a":[6,0,2,0,48,5],
 "structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b":[6,0,2,0,48,2],
-"structMRPointOnFace.html":[6,0,2,0,49],
-"structMRPointOnFace.html#a66cda0445567e55abe967015c38dd8ff":[6,0,2,0,49,1],
-"structMRPointOnFace.html#a7645d0e36a958d64e238cdd100e42252":[6,0,2,0,49,0]
+"structMRPointOnFace.html":[6,0,2,0,49]
 };
