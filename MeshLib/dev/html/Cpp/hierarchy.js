@@ -226,6 +226,7 @@ var hierarchy =
         ] ],
         [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", [
           [ "MR::AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", null ],
+          [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ],
           [ "MR::CameraOrientation", "classMR_1_1CameraOrientation.html", null ],
           [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
           [ "MR::OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", null ],
@@ -543,7 +544,9 @@ var hierarchy =
       [ "MR::PluginCloseOnEscPressed", "classMR_1_1PluginCloseOnEscPressed.html", [
         [ "MR::SelectObjectByClick", "classMR_1_1SelectObjectByClick.html", null ]
       ] ],
-      [ "MR::PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", null ],
+      [ "MR::PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", [
+        [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ]
+      ] ],
       [ "MR::PluginUpdateOnChangeMeshPart", "classMR_1_1PluginUpdateOnChangeMeshPart.html", null ],
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", [
         [ "MR::StateListenerPlugin< DragStartListener, DragListener, DragEndListener, PostDrawListener >", "classMR_1_1StateListenerPlugin.html", null ],
@@ -601,6 +604,9 @@ var hierarchy =
       ] ],
       [ "MR::SceneStateAtLeastCheck< 1, Object >", "classMR_1_1SceneStateAtLeastCheck.html", [
         [ "MR::SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", null ]
+      ] ],
+      [ "MR::SceneStateExactCheck< 2, ObjectVoxels >", "classMR_1_1SceneStateExactCheck.html", [
+        [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ]
       ] ],
       [ "MR::SceneStateExactCheck< 1, Object, NoModelCheck >", "classMR_1_1SceneStateExactCheck.html", [
         [ "MR::RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", null ]

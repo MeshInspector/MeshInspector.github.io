@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"MRPrecisePredicates2_8h.html#a99bc296c2e6fee9ad9798298d3e942ab":[6,0,3,0,0,1,3,290,3],
+"MRPrecisePredicates2_8h.html#aadc1b40eb80e70a7e20d00559456217d":[6,0,3,0,0,1,3,290,5],
 "MRPrecisePredicates2_8h.html#adebe37534b9bb6c1ccc995df1839c432":[6,0,3,0,0,1,3,290,6],
 "MRPrecisePredicates2_8h_source.html":[6,0,3,0,0,1,3,290],
 "MRPrimitiveMapsComposition_8h.html":[6,0,3,0,0,1,3,292],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "MRRibbonMenu_8h.html#a65e09ecf9e3517b622b301a26aa3de73":[6,0,3,0,0,1,9,81,3],
 "MRRibbonMenu_8h.html#a65e09ecf9e3517b622b301a26aa3de73a6adf97f83acf6453d4a6a4b1070f3754":[6,0,3,0,0,1,9,81,3,0],
 "MRRibbonMenu_8h.html#a65e09ecf9e3517b622b301a26aa3de73a8b8b49402e8184fd0a7168766602cb83":[6,0,3,0,0,1,9,81,3,1],
-"MRRibbonMenu_8h.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,3,0,0,1,9,81,3,2],
-"MRRibbonMenu_8h.html#a8943649eb4ec189757d628d6b1f9779f":[6,0,3,0,0,1,9,81,4],
-"MRRibbonMenu_8h_source.html":[6,0,3,0,0,1,9,81]
+"MRRibbonMenu_8h.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,3,0,0,1,9,81,3,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1AABBTreeBase.html#a8174ff3f06b05cb213378de264fdcb57":[6,0,1,0,1,43,4],
+"classMR_1_1AABBTreeBase.html#a8174ff3f06b05cb213378de264fdcb57":[6,0,2,0,1,27,4],
 "classMR_1_1AABBTreeBase.html#aa0b2c5625ad2b069c42780d685db9281":[6,0,1,0,1,43,9],
 "classMR_1_1AABBTreeBase.html#aa0b2c5625ad2b069c42780d685db9281":[6,0,2,0,1,27,9],
 "classMR_1_1AABBTreeBase.html#aa68c6e8f36c8a52617b624e91f11568d":[6,0,1,0,1,43,1],
@@ -219,6 +221,12 @@ var NAVTREEINDEX16 =
 "classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,2,0,1,56,2],
 "classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,1,0,1,72,3],
 "classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,2,0,1,56,3],
+"classMR_1_1BinaryOperations.html":[6,0,1,0,1,73],
+"classMR_1_1BinaryOperations.html":[6,0,2,0,1,57],
+"classMR_1_1BinaryOperations.html#a24b375764095f9afbc2c745c8242f877":[6,0,1,0,1,73,0],
+"classMR_1_1BinaryOperations.html#a24b375764095f9afbc2c745c8242f877":[6,0,2,0,1,57,0],
+"classMR_1_1BinaryOperations.html#adbec2b6008b4b44eaf12c156b006b0af":[6,0,1,0,1,73,1],
+"classMR_1_1BinaryOperations.html#adbec2b6008b4b44eaf12c156b006b0af":[6,0,2,0,1,57,1],
 "classMR_1_1BitSet.html":[6,0,0,3,2],
 "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9":[6,0,0,3,2,1],
 "classMR_1_1BitSet.html#a1f947bfd0ac71d4db95bbf1402d27ddf":[6,0,0,3,2,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1BitSet.html#aac44f8d71b297c1ae62c6d8966ac986c":[6,0,0,3,2,10],
 "classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24":[6,0,0,3,2,4],
 "classMR_1_1BitSet.html#abd624eb57fa1932e782bf7eb418f7d1d":[6,0,0,3,2,6],
-"classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5":[6,0,0,3,2,22],
-"classMR_1_1BitSet.html#ae109ea3b45a9d42a26687dadfc85f936":[6,0,0,3,2,7],
-"classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6":[6,0,0,3,2,13],
-"classMR_1_1BitSet.html#ae581135b70066374b248a52f167c4d4c":[6,0,0,3,2,2],
-"classMR_1_1BitSet.html#ae73a641818182660d303a4b2db7d34a4":[6,0,0,3,2,18],
-"classMR_1_1BitSet.html#aeb7bb0c8ddc8cb0b9a917fe43a2cc514":[6,0,0,3,2,17],
-"classMR_1_1BitSet.html#af4367d27b2897443f41bc359deeab256":[6,0,0,3,2,15],
-"classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0":[6,0,0,3,2,11],
-"classMR_1_1BoundarySelectionWidget.html":[6,0,1,0,1,82]
+"classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5":[6,0,0,3,2,22]
 };

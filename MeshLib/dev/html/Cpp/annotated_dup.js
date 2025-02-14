@@ -229,6 +229,7 @@ var annotated_dup =
       [ "BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", "classMR_1_1BasinVolumeCalculator" ],
       [ "BestFitParabola", "classMR_1_1BestFitParabola.html", "classMR_1_1BestFitParabola" ],
       [ "BestFitPolynomial", "classMR_1_1BestFitPolynomial.html", "classMR_1_1BestFitPolynomial" ],
+      [ "BinaryOperations", "classMR_1_1BinaryOperations.html", "classMR_1_1BinaryOperations" ],
       [ "BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", "structMR_1_1BindVertexAttribArraySettings" ],
       [ "BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ],
       [ "BMap", "structMR_1_1BMap.html", "structMR_1_1BMap" ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRMeshTopology_8h.html":[6,0,3,0,0,1,3,214],
+"MRMesh_2MRMeshTopology_8h.html#a756a2b786fd51099db1c7e2f13be0620":[6,0,3,0,0,1,3,214,0],
 "MRMesh_2MRMeshTopology_8h.html#aaf3190c056e93a1b63f3643cef77443d":[6,0,3,0,0,1,3,214,1],
 "MRMesh_2MRMeshTopology_8h_source.html":[6,0,3,0,0,1,3,214],
 "MRMesh_2MRMeshTriPoint_8h.html":[6,0,3,0,0,1,3,217],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "MRObjectMeshHolder_8h.html#aa8b7119d92d91910ac924bc65b00fbda":[6,0,3,0,0,1,3,236,9],
 "MRObjectMeshHolder_8h.html#aa93ffb62aca75747ad85cc36fb694363":[6,0,3,0,0,1,3,236,13],
 "MRObjectMeshHolder_8h.html#ab6054f2db641cd66812772eedda2d205":[6,0,3,0,0,1,3,236,15],
-"MRObjectMeshHolder_8h.html#af20f512b32754c2ad0a15ee32c85cc4b":[6,0,3,0,0,1,3,236,5],
-"MRObjectMeshHolder_8h_source.html":[6,0,3,0,0,1,3,236],
-"MRObjectMeshSubdivide_8h.html":[6,0,3,0,0,1,9,49]
+"MRObjectMeshHolder_8h.html#af20f512b32754c2ad0a15ee32c85cc4b":[6,0,3,0,0,1,3,236,5]
 };

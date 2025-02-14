@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,1,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,2,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,1,0,0,0,2],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,1,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,2,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,1,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "structMROffsetParameters.html#ad92c04c267772dc568e590dadf29dffb":[6,0,2,0,46,2],
 "structMROneMeshContour.html":[6,0,2,0,47],
 "structMROneMeshContour.html#a90b936e1e5de7336622a91129c24b832":[6,0,2,0,47,1],
-"structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,47,0],
-"structMROneMeshIntersection.html":[6,0,2,0,48],
-"structMROneMeshIntersection.html#a3c70bf2dc0821b99f4fb472f000a43c7":[6,0,2,0,48,4],
-"structMROneMeshIntersection.html#a6e62865d21cb51955f11765ead59f236":[6,0,2,0,48,1],
-"structMROneMeshIntersection.html#a86ad70e404dab3e9f08ef1b625dbf9e0":[6,0,2,0,48,0],
-"structMROneMeshIntersection.html#a923782c49f31492a9688d4648d061272":[6,0,2,0,48,3],
-"structMROneMeshIntersection.html#aaa85b1822adbb2d4b7fd61b44f2ec80a":[6,0,2,0,48,5],
-"structMROneMeshIntersection.html#ad8517af43bd713cba0d76189b8261e3b":[6,0,2,0,48,2],
-"structMRPointOnFace.html":[6,0,2,0,49]
+"structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,47,0]
 };

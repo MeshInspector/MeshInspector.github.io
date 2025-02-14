@@ -216,6 +216,8 @@ var NAVTREEINDEX0 =
 "MRBestFitQuadric_8h_source.html":[6,0,3,0,0,1,3,27],
 "MRBestFit_8h.html":[6,0,3,0,0,1,3,24],
 "MRBestFit_8h_source.html":[6,0,3,0,0,1,3,24],
+"MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0],
+"MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],
 "MRBitSetParallelFor_8h.html":[6,0,3,0,0,1,3,29],
 "MRBitSetParallelFor_8h.html#a003ae747d026a9348bbd8cf8eb29b30f":[6,0,3,0,0,1,3,29,13],
 "MRBitSetParallelFor_8h.html#a3bd79eee90fc2c0edb4ad601a2405b3c":[6,0,3,0,0,1,3,29,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "MRCanonicalTypedefs_8h.html#a011d44bc0918ffa467a5150bc8a81e03":[6,0,3,0,0,1,3,33,6],
 "MRCanonicalTypedefs_8h.html#a2903a0e2c131ffaa26858a7eb32ab7a8":[6,0,3,0,0,1,3,33,2],
 "MRCanonicalTypedefs_8h.html#a3ef3f2296c0ae0d60a92c9adbf443c9b":[6,0,3,0,0,1,3,33,1],
-"MRCanonicalTypedefs_8h.html#abbdf37435c9fc8f0138b1bd0133c1d17":[6,0,3,0,0,1,3,33,5],
-"MRCanonicalTypedefs_8h.html#addc4eaad729e291000785733b3c6fca4":[6,0,3,0,0,1,3,33,4],
-"MRCanonicalTypedefs_8h.html#ae44070646e8a5e9428e0719d800a30df":[6,0,3,0,0,1,3,33,3]
+"MRCanonicalTypedefs_8h.html#abbdf37435c9fc8f0138b1bd0133c1d17":[6,0,3,0,0,1,3,33,5]
 };
