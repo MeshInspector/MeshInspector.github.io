@@ -1902,7 +1902,6 @@ var mrmeshpy_8pyi =
     [ "makeUnorientedNormals", "mrmeshpy_8pyi.html#a31052b424faa855f5e27ea78ba9b06bd", null ],
     [ "makeUnorientedNormals", "mrmeshpy_8pyi.html#ad67a2bb80ac79aaa607886fea3f81c12", null ],
     [ "makeUVSphere", "mrmeshpy_8pyi.html#a0840328424a66d0e72723a1b708ba360", null ],
-    [ "makeVdbTopologyDense", "mrmeshpy_8pyi.html#aed61d9ac01644ac84386aecfe227de17", null ],
     [ "mapEdge", "mrmeshpy_8pyi.html#a87cfa8a59f6e0542f3dfde7efc6e4dbf", null ],
     [ "mapEdge", "mrmeshpy_8pyi.html#ab8886fcc0255d5a787e591be80104008", null ],
     [ "mapEdge", "mrmeshpy_8pyi.html#a44123487b5604b4f1afe0a9bfe8b9165", null ],

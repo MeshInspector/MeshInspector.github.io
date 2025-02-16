@@ -1,7 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1DeloneSettings.html":[6,0,2,0,1,152],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,168,4],
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,1,152,4],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,168,1],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,2,0,1,152,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX64 =
 "structMR_1_1DrawButtonParams.html#ae484e8e2139ec5d170493607d8987a20":[6,0,1,0,1,193,3],
 "structMR_1_1DrawButtonParams.html#ae484e8e2139ec5d170493607d8987a20":[6,0,2,0,1,177,3],
 "structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332":[6,0,1,0,1,193,7],
-"structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332":[6,0,2,0,1,177,7]
+"structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332":[6,0,2,0,1,177,7],
+"structMR_1_1DrawListener.html":[6,0,1,0,1,194],
+"structMR_1_1DrawListener.html":[6,0,2,0,1,178]
 };
