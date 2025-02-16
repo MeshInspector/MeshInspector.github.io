@@ -2315,7 +2315,6 @@ var namespaceMR =
     [ "makeUnorientedNormals", "group__PointCloudGroup.html#gae615385e5a3c6640f53b2afd04658838", null ],
     [ "makeUnorientedNormals", "group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db", null ],
     [ "makeUVSphere", "namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e", null ],
-    [ "makeVdbTopologyDense", "namespaceMR.html#ac371eca9452d0b5c58eafb9f21965a11", null ],
     [ "makeVectorWithSeqNums", "group__BasicGroup.html#ga8b847c813a39d58ea927b252971f751a", null ],
     [ "mapEdge", "namespaceMR.html#a8bc2c26fd2fc5169edc6c5b75559005d", null ],
     [ "mapEdge", "namespaceMR.html#a41ced3058fe68e59ccd27b7b81bf5e3c", null ],

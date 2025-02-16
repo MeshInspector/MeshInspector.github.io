@@ -212,12 +212,11 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line"><span class="comment"># perform boolean operation</span></div>
 <div class="line">result = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac7023054263eabf61d3061f4929c4d87">mrmeshpy.boolean</a>(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection)</div>
-<div class="line">result_mesh = result.mesh</div>
 <div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> result.valid():</div>
 <div class="line">    print(result.errorString)</div>
-<div class="line"> </div>
-<div class="line"><span class="comment"># save result to STL file</span></div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy.saveMesh</a>(result_mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>)</div>
+<div class="line"><span class="keywordflow">else</span>:</div>
+<div class="line">    <span class="comment"># save result to STL file</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy.saveMesh</a>(result.mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>)</div>
 <div class="ttc" id="aclassmrmeshpy_1_1AffineXf3f_html_a392637b13ddd2d3bf93e5afa17b9544a"><div class="ttname"><a href="./Py/classmrmeshpy_1_1AffineXf3f.html#a392637b13ddd2d3bf93e5afa17b9544a">mrmeshpy::AffineXf3f::translation</a></div><div class="ttdeci">AffineXf3f translation(Vector3f b)</div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy::Vector3f</a></div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a0840328424a66d0e72723a1b708ba360"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0840328424a66d0e72723a1b708ba360">mrmeshpy::makeUVSphere</a></div><div class="ttdeci">Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>

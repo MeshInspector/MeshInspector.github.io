@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[6,0,1,0,1,2,1,0],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[6,0,2,0,1,0,1,0],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#acad1ebdc55ec529f2918c229d5b92111":[6,0,1,0,1,2,1,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#acad1ebdc55ec529f2918c229d5b92111":[6,0,2,0,1,0,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "classMR_1_1DistanceMeasurementObject.html#accc65af7cd4321f7cb1abf0ae192dc7e":[6,0,2,0,1,167,14],
 "classMR_1_1DistanceMeasurementObject.html#ad0beb628b290bc6bb49cccb58a7c0a59":[6,0,1,0,1,183,20],
 "classMR_1_1DistanceMeasurementObject.html#ad0beb628b290bc6bb49cccb58a7c0a59":[6,0,2,0,1,167,20],
-"classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8":[6,0,1,0,1,183,26]
+"classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8":[6,0,1,0,1,183,26],
+"classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8":[6,0,2,0,1,167,26]
 };

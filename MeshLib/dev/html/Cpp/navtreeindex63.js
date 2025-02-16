@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"structMR_1_1CharPressedListener.html":[6,0,1,0,1,130],
-"structMR_1_1CharPressedListener.html":[6,0,2,0,1,114],
 "structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,1,0,1,130,3],
 "structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,2,0,1,114,3],
 "structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,1,0,1,130,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[6,0,0,10,0,27],
 "structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[6,0,0,10,0,13],
 "structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[6,0,0,10,0,16],
-"structMR_1_1DeloneSettings.html":[6,0,1,0,1,168]
+"structMR_1_1DeloneSettings.html":[6,0,1,0,1,168],
+"structMR_1_1DeloneSettings.html":[6,0,2,0,1,152],
+"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,168,4]
 };
