@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,592,0,7],
 "classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,1,0,1,608,1],
 "classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,2,0,1,592,1],
 "classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,1,0,1,607],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1StateListenerPlugin.html#a1f068c2aecefbd45559101aca348aca3":[6,0,2,0,1,625,1],
 "classMR_1_1StateListenerPlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[6,0,1,0,1,641,4],
 "classMR_1_1StateListenerPlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[6,0,2,0,1,625,4],
-"classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d":[6,0,1,0,1,641,0],
-"classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d":[6,0,2,0,1,625,0]
+"classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d":[6,0,1,0,1,641,0]
 };

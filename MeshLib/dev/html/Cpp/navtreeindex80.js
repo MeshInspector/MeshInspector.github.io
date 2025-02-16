@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1TimeRecord.html#a7fcf403676ad98c8772e03ebec6d37de":[6,0,0,3,13,0],
+"structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[6,0,0,3,13,1],
 "structMR_1_1TimeRecord.html#aa4ecd25889d637813c8abcc75610cf51":[6,0,0,3,13,4],
 "structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af":[6,0,0,3,13,2],
 "structMR_1_1TimeRecord.html#aefc29a1b393cb4e47eec9c964a56b8f9":[6,0,0,3,13,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da":[6,0,0,0,23,8],
 "structMR_1_1TriPoint.html#a173bd5baa937f72d4e42901d913f3ff3":[6,0,0,0,23,0],
 "structMR_1_1TriPoint.html#a3665ef8bed664d4374515106f2128c58":[6,0,0,0,23,2],
-"structMR_1_1TriPoint.html#a38305f3769604953fbac39b9fa79f6bc":[6,0,0,0,23,5],
-"structMR_1_1TriPoint.html#a443eb1cdffa8cf6269dce8d4f7712a3b":[6,0,0,0,23,6],
-"structMR_1_1TriPoint.html#a4d5a222417a7c162c44bb932b91cdd7a":[6,0,0,0,23,7]
+"structMR_1_1TriPoint.html#a38305f3769604953fbac39b9fa79f6bc":[6,0,0,0,23,5]
 };
