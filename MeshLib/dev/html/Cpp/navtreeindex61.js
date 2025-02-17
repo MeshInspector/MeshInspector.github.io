@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"structMROffsetParameters.html#a4fda3dbd0f6df9ed45abc300fee48b17":[6,0,2,0,46,0],
+"structMROffsetParameters.html#a8bb60c7d4c6935ca3167597df90bf149":[6,0,2,0,46,1],
+"structMROffsetParameters.html#ad92c04c267772dc568e590dadf29dffb":[6,0,2,0,46,2],
+"structMROneMeshContour.html":[6,0,2,0,47],
+"structMROneMeshContour.html#a90b936e1e5de7336622a91129c24b832":[6,0,2,0,47,1],
+"structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,47,0],
 "structMROneMeshIntersection.html":[6,0,2,0,48],
 "structMROneMeshIntersection.html#a3c70bf2dc0821b99f4fb472f000a43c7":[6,0,2,0,48,4],
 "structMROneMeshIntersection.html#a6e62865d21cb51955f11765ead59f236":[6,0,2,0,48,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,2,0,1,42,6],
 "structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,1,0,1,58,11],
 "structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,2,0,1,42,11],
-"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,1,0,1,58,4],
-"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,2,0,1,42,4],
-"structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,1,0,1,58,8],
-"structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,2,0,1,42,8],
-"structMR_1_1AncillaryPoints.html#ac4c339d58512495cb88f10f474fb120e":[6,0,1,0,1,58,12],
-"structMR_1_1AncillaryPoints.html#ac4c339d58512495cb88f10f474fb120e":[6,0,2,0,1,42,12],
-"structMR_1_1AncillaryPoints.html#aecec1c034a47b9b7d102ba9bf6366869":[6,0,1,0,1,58,9]
+"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,1,0,1,58,4]
 };
