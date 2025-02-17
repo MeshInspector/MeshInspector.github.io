@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1WholeEdgeMap.html#a340ed19a482e54a692934baa7a17dcf7":[6,1,0,0,2,1117,26],
+"classmrmeshpy_1_1WholeEdgeMap.html#a340ed19a482e54a692934baa7a17dcf7":[6,1,1,0,1,1117,26],
 "classmrmeshpy_1_1WholeEdgeMap.html#a368328564d661aed706a64e66e8553dd":[6,1,0,0,2,1117,11],
 "classmrmeshpy_1_1WholeEdgeMap.html#a368328564d661aed706a64e66e8553dd":[6,1,1,0,1,1117,11],
 "classmrmeshpy_1_1WholeEdgeMap.html#a46203a019378ea404bea2c73e0b3540c":[6,1,0,0,2,1117,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html#add36874e5fee9dd648ca85350936f683":[6,1,0,0,2,284,7],
 "classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html#add36874e5fee9dd648ca85350936f683":[6,1,1,0,1,284,7],
 "classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html#af01b6c7589b42ab5b446209d2c9131f5":[6,1,0,0,2,284,0],
-"classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html#af01b6c7589b42ab5b446209d2c9131f5":[6,1,1,0,1,284,0],
-"classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long.html":[6,1,0,0,2,285],
-"classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long.html":[6,1,1,0,1,285]
+"classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html#af01b6c7589b42ab5b446209d2c9131f5":[6,1,1,0,1,284,0]
 };

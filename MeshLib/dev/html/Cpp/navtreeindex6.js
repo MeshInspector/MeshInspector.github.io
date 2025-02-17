@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMeshOrPoints_8h.html#a07a4d82086f31a7c13ae75073d922c78":[6,0,3,0,0,1,4,40,0],
+"MRMeshC_2MRMeshOrPoints_8h.html#a2fd95815e9818a5d4e9e9c7e761ca898":[6,0,3,0,0,1,4,40,4],
 "MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18":[6,0,3,0,0,1,4,40,1],
 "MRMeshC_2MRMeshOrPoints_8h.html#a58cee08e815811c18a46a9ce453edf0a":[6,0,3,0,0,1,4,40,2],
 "MRMeshC_2MRMeshOrPoints_8h.html#a61d9364448e52dd0b1f010edde81b1c2":[6,0,3,0,0,1,4,40,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRVector3_8h.html#aaafd4b7ca13bba9c5e7dd3486ea059e6":[6,0,3,0,0,1,4,70,11],
 "MRMeshC_2MRVector3_8h.html#abba9fcee4e7b1202eb35fc2e2fb2144f":[6,0,3,0,0,1,4,70,9],
 "MRMeshC_2MRVector3_8h.html#ac68580b5805320c5e5bcb4f5df38aad1":[6,0,3,0,0,1,4,70,2],
-"MRMeshC_2MRVector3_8h.html#ad180dcf04db8bfb6d619ea0293e6c4ee":[6,0,3,0,0,1,4,70,3],
-"MRMeshC_2MRVector3_8h.html#aeea66131b97fcad9feb47493bc8a80a5":[6,0,3,0,0,1,4,70,16],
-"MRMeshC_2MRVector3_8h.html#af3c3aa1a6aa51c457194de434ee13658":[6,0,3,0,0,1,4,70,4]
+"MRMeshC_2MRVector3_8h.html#ad180dcf04db8bfb6d619ea0293e6c4ee":[6,0,3,0,0,1,4,70,3]
 };

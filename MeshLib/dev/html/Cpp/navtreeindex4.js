@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRMacros_8h.html#a71b7b6d36fcf0ab6752038726c7b007d":[6,0,3,0,0,1,3,159,2],
+"MRMacros_8h.html#a98c9bc1fa1800fdfc987995748d5944b":[6,0,3,0,0,1,3,159,0],
 "MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db":[6,0,3,0,0,1,3,159,11],
 "MRMacros_8h.html#ac35e66533e158a4bf53982a2c109bd09":[6,0,3,0,0,1,3,159,4],
 "MRMacros_8h.html#acaebd39479bb9677a7e966765a052de4":[6,0,3,0,0,1,3,159,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRFixSelfIntersections_8h_source.html":[6,0,3,0,0,1,4,14],
 "MRMeshC_2MRFloatGrid_8h.html":[6,0,3,0,0,1,4,15],
 "MRMeshC_2MRFloatGrid_8h.html#a489ccd1b1c2611dbc75756815af8569a":[6,0,3,0,0,1,4,15,3],
-"MRMeshC_2MRFloatGrid_8h.html#a5d5e5669c333acf93208bdc16ccb0a94":[6,0,3,0,0,1,4,15,0],
-"MRMeshC_2MRFloatGrid_8h.html#a6be02844cf7b2cbe11d0dbf961a7c6a2":[6,0,3,0,0,1,4,15,1],
-"MRMeshC_2MRFloatGrid_8h.html#ab6156083a66fd17e7a35f9e56de14543":[6,0,3,0,0,1,4,15,4]
+"MRMeshC_2MRFloatGrid_8h.html#a5d5e5669c333acf93208bdc16ccb0a94":[6,0,3,0,0,1,4,15,0]
 };
