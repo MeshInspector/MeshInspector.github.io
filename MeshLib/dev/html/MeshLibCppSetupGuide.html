@@ -157,27 +157,28 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html',''); initResizable(true); }
 <ul><li class="level1"><a href="#autotoc_md15">Setting Up MeshLib for C++ Development</a><ul><li class="level2"><a href="#CppSetupWindows">Windows</a><ul><li class="level3"><a href="#autotoc_md16">Installing the release build</a></li>
 <li class="level3"><a href="#autotoc_md17">Compile Locally</a><ul><li class="level4"><a href="#autotoc_md18">Prerequisites</a></li>
 <li class="level4"><a href="#autotoc_md19">Installing the local build</a></li>
+<li class="level4"><a href="#autotoc_md20">Using the CMake build system</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="level2"><a href="#CppSetupLinux">Linux (Ubuntu/Fedora)</a><ul><li class="level3"><a href="#autotoc_md20">Installing the release build</a></li>
-<li class="level3"><a href="#autotoc_md21">Compile Locally</a><ul><li class="level4"><a href="#autotoc_md22">Prerequisites</a></li>
-<li class="level4"><a href="#autotoc_md23">Installing the local build</a></li>
+<li class="level2"><a href="#CppSetupLinux">Linux (Ubuntu/Fedora)</a><ul><li class="level3"><a href="#autotoc_md21">Installing the release build</a></li>
+<li class="level3"><a href="#autotoc_md22">Compile Locally</a><ul><li class="level4"><a href="#autotoc_md23">Prerequisites</a></li>
+<li class="level4"><a href="#autotoc_md24">Installing the local build</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="level2"><a href="#CppSetupMacOS">macOS</a><ul><li class="level3"><a href="#autotoc_md24">Installing the release build</a></li>
-<li class="level3"><a href="#autotoc_md25">Compile Locally</a><ul><li class="level4"><a href="#autotoc_md26">Prerequisites</a></li>
-<li class="level4"><a href="#autotoc_md27">Installing the local build</a></li>
+<li class="level2"><a href="#CppSetupMacOS">macOS</a><ul><li class="level3"><a href="#autotoc_md25">Installing the release build</a></li>
+<li class="level3"><a href="#autotoc_md26">Compile Locally</a><ul><li class="level4"><a href="#autotoc_md27">Prerequisites</a></li>
+<li class="level4"><a href="#autotoc_md28">Installing the local build</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="level2"><a href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a><ul><ul><li class="level4"><a href="#autotoc_md28">Install Emscripten</a></li>
-<li class="level4"><a href="#autotoc_md29">Building MeshLib</a></li>
-<li class="level4"><a href="#autotoc_md30">Running the WebAssembly Build</a></li>
+<li class="level2"><a href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a><ul><ul><li class="level4"><a href="#autotoc_md29">Install Emscripten</a></li>
+<li class="level4"><a href="#autotoc_md30">Building MeshLib</a></li>
+<li class="level4"><a href="#autotoc_md31">Running the WebAssembly Build</a></li>
 </ul>
 </ul>
 </li>
@@ -292,21 +293,52 @@ Installing the local build</h4>
 <li>This script automates the installation of necessary third-party dependencies.</li>
 </ul>
 </li>
-<li><b>Build and Run Visual Studio Solution</b><ul>
+<li><b>Build and Run</b>:<ul>
 <li>Open <code>MeshLib/source/MeshLib.sln</code> in Visual Studio.</li>
 <li>Build the solution and run the application.</li>
 </ul>
 </li>
-<li><b>Build and Run CMake Project</b><ul>
-<li>Make sure you have the "C++ CMake tools for Windows" component installed.</li>
-<li>Open <code>MeshLib/CMakeLists.txt</code> in Visual Studio (File - Open - CMake).</li>
-<li>Build the project and run the application.</li>
+</ol>
+<h4><a class="anchor" id="autotoc_md20"></a>
+Using the CMake build system</h4>
+<p>MeshLib can also be built with CMake. The supported generators are: Ninja (recommended), Visual Studio, NMake, and jom.</p>
+<ol type="1">
+<li><b>Open the CMake settings pane</b><ul>
+<li>Visual Studio: Project - CMake Settings</li>
+<li>Visual Studio Code: Settings - Extensions - CMake Tools (choose workspace settings if you want to set them for the current project only)</li>
+<li>CLion: File - Settings - Build, Execution, Deployment - CMake</li>
+</ul>
+</li>
+<li><b>Add</b> <code>vcpkg</code> <b>toolchain and target triplet options</b><ul>
+<li>Visual Studio:<ul>
+<li>set <b>CMake toolchain file</b> to <code>&lt;path to vcpkg&gt;\scripts\buildsystems\vcpkg.cmake</code></li>
+<li>add to <b>CMake command arguments</b>: <code>-DVCPKG_TARGET_TRIPLET=x64-windows-meshlib</code></li>
+</ul>
+</li>
+<li>Visual Studio Code: add to <b>CMake Configure Arguments</b>:<ul>
+<li><code>-DCMAKE_TOOLCHAIN_FILE=&lt;path to vcpkg&gt;\scripts\buildsystems\vcpkg.cmake</code></li>
+<li><code>-DVCPKG_TARGET_TRIPLET=x64-windows-meshlib</code></li>
+</ul>
+</li>
+<li>CLion: add to <b>CMake options</b>: <code>-DCMAKE_TOOLCHAIN_FILE=&lt;path to vcpkg&gt;\scripts\buildsystems\vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-meshlib</code></li>
+</ul>
+</li>
+<li>(optional) <b>Delete CMake cache and reconfigure to apply the changes</b><ul>
+<li>Visual Studio: Project - Delete Cache and Reconfigure</li>
+<li>Visual Studio Code: Command Palette - CMake: Delete Cache and Reconfigure</li>
+<li>CLion: Tools - CMake - Reset Cache and Reload Project</li>
+</ul>
+</li>
+<li><b>Build MeshLib</b><ul>
+<li>Visual Studio: Build - Build All</li>
+<li>Visual Studio Code: Command Palette - CMake: Build</li>
+<li>CLion: Build - Build Project</li>
 </ul>
 </li>
 </ol>
 <h2><a class="anchor" id="CppSetupLinux"></a>
 Linux (Ubuntu/Fedora)</h2>
-<h3><a class="anchor" id="autotoc_md20"></a>
+<h3><a class="anchor" id="autotoc_md21"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
@@ -327,9 +359,9 @@ Installing the release build</h3>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md21"></a>
+<h3><a class="anchor" id="autotoc_md22"></a>
 Compile Locally</h3>
-<h4><a class="anchor" id="autotoc_md22"></a>
+<h4><a class="anchor" id="autotoc_md23"></a>
 Prerequisites</h4>
 <ol type="1">
 <li><b>Git</b><ul>
@@ -345,7 +377,7 @@ Prerequisites</h4>
 </ul>
 </li>
 </ol>
-<h4><a class="anchor" id="autotoc_md23"></a>
+<h4><a class="anchor" id="autotoc_md24"></a>
 Installing the local build</h4>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
@@ -374,7 +406,7 @@ Installing the local build</h4>
 </ol>
 <h2><a class="anchor" id="CppSetupMacOS"></a>
 macOS</h2>
-<h3><a class="anchor" id="autotoc_md24"></a>
+<h3><a class="anchor" id="autotoc_md25"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Built Version</b> <br  />
@@ -389,9 +421,9 @@ Installing the release build</h3>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md25"></a>
+<h3><a class="anchor" id="autotoc_md26"></a>
 Compile Locally</h3>
-<h4><a class="anchor" id="autotoc_md26"></a>
+<h4><a class="anchor" id="autotoc_md27"></a>
 Prerequisites</h4>
 <ol type="1">
 <li><b>Install Homebrew</b><ul>
@@ -412,7 +444,7 @@ Prerequisites</h4>
 </ul>
 </li>
 </ol>
-<h4><a class="anchor" id="autotoc_md27"></a>
+<h4><a class="anchor" id="autotoc_md28"></a>
 Installing the local build</h4>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
@@ -429,7 +461,7 @@ Installing the local build</h4>
 <h2><a class="anchor" id="CppSetupWASM"></a>
 Building WebAssembly with MeshLib Using Emscripten</h2>
 <p>This guide will help you build WebAssembly (WASM) using MeshLib and Emscripten. Please follow the instructions step by step.</p>
-<h4><a class="anchor" id="autotoc_md28"></a>
+<h4><a class="anchor" id="autotoc_md29"></a>
 Install Emscripten</h4>
 <p>Emscripten is required to compile C++ code into WebAssembly. You can install Emscripten by following the steps below. For more details, refer to the <a href="https://emscripten.org/docs/getting_started/downloads.html">Emscripten official page</a>.</p><ul>
 <li>Clone the Emscripten SDK Repository <br  />
@@ -452,7 +484,7 @@ Install Emscripten</h4>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  Make sure you are using Git Bash, WSL, or another Unix-like environment if you want to follow the exact same steps as on Linux/macOS.</dd></dl>
-<h4><a class="anchor" id="autotoc_md29"></a>
+<h4><a class="anchor" id="autotoc_md30"></a>
 Building MeshLib</h4>
 <p>Now that Emscripten is set up, you can proceed to build MeshLib for WebAssembly.</p><ul>
 <li>Navigate to the MeshLib directory: <div class="fragment"><div class="line">cd ~/MeshLib</div>
@@ -467,7 +499,7 @@ Building MeshLib</h4>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  You may encounter compatibility issues if building directly on Windows. Consider using WSL (Windows Subsystem for Linux) to follow Linux-like instructions.</dd></dl>
-<h4><a class="anchor" id="autotoc_md30"></a>
+<h4><a class="anchor" id="autotoc_md31"></a>
 Running the WebAssembly Build</h4>
 <p>After building MeshLib for WebAssembly, follow these steps to run it:</p><ul>
 <li>Setting Up a Local HTTP Server</li>
