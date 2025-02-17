@@ -64,10 +64,8 @@ var menudata={children:[
 {text:"Float vs Double",url:"../FloatVSDouble.html"},
 {text:"Data Model Class Hierarchy",url:"../DataModel.html"},
 {text:"Spaces and Transformations",url:"../SpacesHelp.html"},
-{text:"File Format Support",url:"../FileFormatSupport.html"},
 {text:"How to use С++ Example Plugin",url:"../ExamplePluginOverview.html"},
-{text:"State Plugins Overview",url:"../StatePluginsHelp.html"},
-{text:"How to Add Plugin",url:"../HowtoAddPluginOverview.html"}]},
+{text:"State Plugins Overview",url:"../StatePluginsHelp.html"}]},
 {text:"API",url:"../APIPage.html",children:[
 {text:"C++",url:"APICppPage.html",children:[
 {text:"Topics",url:"topics.html"},

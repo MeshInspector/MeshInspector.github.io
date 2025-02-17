@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classmrmeshpy_1_1Ball2f.html#a2b2f2d8f8d406a7c8e324f800585bb70":[6,1,0,0,2,36,3],
-"classmrmeshpy_1_1Ball2f.html#a2b2f2d8f8d406a7c8e324f800585bb70":[6,1,1,0,1,36,3],
 "classmrmeshpy_1_1Ball2f.html#a37ee52a6bee52c70422b9950965bb209":[6,1,0,0,2,36,8],
 "classmrmeshpy_1_1Ball2f.html#a37ee52a6bee52c70422b9950965bb209":[6,1,1,0,1,36,8],
 "classmrmeshpy_1_1Ball2f.html#a3c297141d36825300b250999d7c0ae39":[6,1,0,0,2,36,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BestFitParabolad.html#ad7a4fc85a5d081fed745e8de58a1615b":[6,1,0,0,2,44,2],
 "classmrmeshpy_1_1BestFitParabolad.html#ad7a4fc85a5d081fed745e8de58a1615b":[6,1,1,0,1,44,2],
 "classmrmeshpy_1_1BestFitParabolaf.html":[6,1,0,0,2,45],
-"classmrmeshpy_1_1BestFitParabolaf.html":[6,1,1,0,1,45]
+"classmrmeshpy_1_1BestFitParabolaf.html":[6,1,1,0,1,45],
+"classmrmeshpy_1_1BestFitParabolaf.html#a12973f1758b181806084164101ebf7dd":[6,1,0,0,2,45,3],
+"classmrmeshpy_1_1BestFitParabolaf.html#a12973f1758b181806084164101ebf7dd":[6,1,1,0,1,45,3]
 };

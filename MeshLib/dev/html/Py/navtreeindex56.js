@@ -1,7 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"classmrmeshpy_1_1OrientNormals.html#ab98b11d60bdd60a3589bfe55bffb9b32":[6,1,0,0,2,571,10],
-"classmrmeshpy_1_1OrientNormals.html#ab98b11d60bdd60a3589bfe55bffb9b32":[6,1,1,0,1,571,10],
 "classmrmeshpy_1_1OrientNormals.html#af40d75dc479f979fd026a0771c890556":[6,1,0,0,2,571,1],
 "classmrmeshpy_1_1OrientNormals.html#af40d75dc479f979fd026a0771c890556":[6,1,1,0,1,571,1],
 "classmrmeshpy_1_1OrientNormals.html#af9eb7fa1b3c34f30cc5a1ee76189248b":[6,1,0,0,2,571,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX56 =
 "classmrmeshpy_1_1PartialChangeMeshAction.html#aedc097db368e5caf9b3e2092b61854d5":[6,1,0,0,2,583,0],
 "classmrmeshpy_1_1PartialChangeMeshAction.html#aedc097db368e5caf9b3e2092b61854d5":[6,1,1,0,1,583,0],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[6,1,0,0,2,584],
-"classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[6,1,1,0,1,584]
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[6,1,1,0,1,584],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,0,0,2,584,1],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,1,0,1,584,1]
 };

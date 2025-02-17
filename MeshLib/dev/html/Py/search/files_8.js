@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['imguihelpers_2eh_0',['ImGuiHelpers.h',['../../Cpp/ImGuiHelpers_8h.html',1,'']]],
-  ['imguimenu_2eh_1',['ImGuiMenu.h',['../../Cpp/ImGuiMenu_8h.html',1,'']]]
+  ['laplaciandeformation_2edox_2ecpp_0',['LaplacianDeformation.dox.cpp',['../../LaplacianDeformation_8dox_8cpp.html',1,'']]],
+  ['laplacianexample_2edox_1',['LaplacianExample.dox',['../../LaplacianExample_8dox.html',1,'']]],
+  ['license_2edox_2',['License.dox',['../../License_8dox.html',1,'']]]
 ];

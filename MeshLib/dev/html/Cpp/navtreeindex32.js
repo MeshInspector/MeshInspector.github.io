@@ -1,7 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1ObjectVoxels.html#a46adc4914b8a2574e7b26f15962e31f6":[6,0,0,11,14,43],
-"classMR_1_1ObjectVoxels.html#a47bee6e3a0ea9a036e59d7857f8f43b4":[6,0,0,11,14,33],
 "classMR_1_1ObjectVoxels.html#a47d5f0c15484962e0f95372d8f8916ae":[6,0,0,11,14,72],
 "classMR_1_1ObjectVoxels.html#a4d07a6c88bfa67908a0e441317edcf64":[6,0,0,11,14,10],
 "classMR_1_1ObjectVoxels.html#a5246da2576d34a9bf853f47de4c56192":[6,0,0,11,14,56],
@@ -249,5 +247,7 @@ var NAVTREEINDEX32 =
 "classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[6,0,1,0,1,457,0],
 "classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[6,0,2,0,1,441,0],
 "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,1,0,1,457,1],
-"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,2,0,1,441,1]
+"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,2,0,1,441,1],
+"classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3":[6,0,1,0,1,457,2],
+"classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3":[6,0,2,0,1,441,2]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html#a5835acc6bd5f445d972525b68e47f70e":[6,1,0,0,2,459,3],
-"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html#a5835acc6bd5f445d972525b68e47f70e":[6,1,1,0,1,459,3],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html#a61cd1c42fdb78e4b847dfa75a10eb343":[6,1,0,0,2,459,10],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html#a61cd1c42fdb78e4b847dfa75a10eb343":[6,1,1,0,1,459,10],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html#a66a67f323027b2bfa4fd8e928b02c7c7":[6,1,0,0,2,459,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX44 =
 "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression.html#ae74c9f10fda291c169dcdb3dfe7196a1":[6,1,0,0,2,471,0,0,2],
 "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression.html#ae74c9f10fda291c169dcdb3dfe7196a1":[6,1,1,0,1,471,0,0,2],
 "classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html":[6,1,0,0,2,471,1],
-"classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html":[6,1,1,0,1,471,1]
+"classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html":[6,1,1,0,1,471,1],
+"classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html#a58ee63791b74243f670305ce30281270":[6,1,0,0,2,471,1,1],
+"classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html#a58ee63791b74243f670305ce30281270":[6,1,1,0,1,471,1,1]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"classmrmeshpy_1_1Polynomial__float__5.html#a795b22097a4c031c42125fbc93862e20":[6,1,0,0,2,663,5],
-"classmrmeshpy_1_1Polynomial__float__5.html#a795b22097a4c031c42125fbc93862e20":[6,1,1,0,1,663,5],
 "classmrmeshpy_1_1Polynomial__float__5.html#ab2dd7b9ea26feb6fc001ec093381ac6e":[6,1,0,0,2,663,0],
 "classmrmeshpy_1_1Polynomial__float__5.html#ab2dd7b9ea26feb6fc001ec093381ac6e":[6,1,0,0,2,663,2],
 "classmrmeshpy_1_1Polynomial__float__5.html#ab2dd7b9ea26feb6fc001ec093381ac6e":[6,1,1,0,1,663,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1QuadraticForm3f.html":[6,1,0,0,2,678],
 "classmrmeshpy_1_1QuadraticForm3f.html":[6,1,1,0,1,678],
 "classmrmeshpy_1_1QuadraticForm3f.html#a0ef513291f0a6621c991459456f946d1":[6,1,0,0,2,678,0],
-"classmrmeshpy_1_1QuadraticForm3f.html#a0ef513291f0a6621c991459456f946d1":[6,1,1,0,1,678,0]
+"classmrmeshpy_1_1QuadraticForm3f.html#a0ef513291f0a6621c991459456f946d1":[6,1,1,0,1,678,0],
+"classmrmeshpy_1_1QuadraticForm3f.html#a25b5d0b665283b8bf11e47b6d29f9f3d":[6,1,0,0,2,678,1],
+"classmrmeshpy_1_1QuadraticForm3f.html#a25b5d0b665283b8bf11e47b6d29f9f3d":[6,1,1,0,1,678,1]
 };

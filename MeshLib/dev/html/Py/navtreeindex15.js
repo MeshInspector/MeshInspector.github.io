@@ -1,7 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"classmrmeshpy_1_1Cone3d.html#ac8cf01cef907ad05da8a7a5ec6070faa":[6,1,0,0,2,154,7],
-"classmrmeshpy_1_1Cone3d.html#ac8cf01cef907ad05da8a7a5ec6070faa":[6,1,1,0,1,154,7],
 "classmrmeshpy_1_1Cone3d.html#ad5d4515776d84cfeb19f45ecf69f99f6":[6,1,0,0,2,154,5],
 "classmrmeshpy_1_1Cone3d.html#ad5d4515776d84cfeb19f45ecf69f99f6":[6,1,0,0,2,154,6],
 "classmrmeshpy_1_1Cone3d.html#ad5d4515776d84cfeb19f45ecf69f99f6":[6,1,1,0,1,154,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX15 =
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a81f16399c52814c69725b68452ccaf55":[6,1,0,0,2,160,0,0],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a81f16399c52814c69725b68452ccaf55":[6,1,1,0,1,160,0,0],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a9d52105978aed67eb1daba239ebf379a":[6,1,0,0,2,160,0,2],
-"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a9d52105978aed67eb1daba239ebf379a":[6,1,1,0,1,160,0,2]
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a9d52105978aed67eb1daba239ebf379a":[6,1,1,0,1,160,0,2],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#aa24cbb4c8f1897f5f578e5da7fbd1113":[6,1,0,0,2,160,0,9],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#aa24cbb4c8f1897f5f578e5da7fbd1113":[6,1,1,0,1,160,0,9]
 };

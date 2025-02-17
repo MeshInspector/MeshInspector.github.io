@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"MRTunnelDetector_8h_source.html":[6,0,3,0,0,1,3,356],
-"MRTupleBindings_8h.html":[6,0,3,0,0,1,3,357],
 "MRTupleBindings_8h.html#a01413673c815bd0bfc3dea53829bb94b":[6,0,3,0,0,1,3,357,10],
 "MRTupleBindings_8h.html#a27575a581409754718e3440d21583420":[6,0,3,0,0,1,3,357,11],
 "MRTupleBindings_8h.html#a28ca9a61313c194fdd1d8bd54eb71cbc":[6,0,3,0,0,1,3,357,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "MRVector2_8h.html":[6,0,3,0,0,1,3,367],
 "MRVector2_8h_source.html":[6,0,3,0,0,1,3,367],
 "MRVector4_8h.html":[6,0,3,0,0,1,3,369],
-"MRVector4_8h_source.html":[6,0,3,0,0,1,3,369]
+"MRVector4_8h_source.html":[6,0,3,0,0,1,3,369],
+"MRVertCoordsDiff_8h.html":[6,0,3,0,0,1,3,371],
+"MRVertCoordsDiff_8h_source.html":[6,0,3,0,0,1,3,371]
 };

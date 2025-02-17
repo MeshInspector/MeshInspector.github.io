@@ -1,7 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"MRMeshC_2MRFloatGrid_8h.html#a6be02844cf7b2cbe11d0dbf961a7c6a2":[6,0,3,0,0,1,4,15,1],
-"MRMeshC_2MRFloatGrid_8h.html#ab6156083a66fd17e7a35f9e56de14543":[6,0,3,0,0,1,4,15,4],
 "MRMeshC_2MRFloatGrid_8h.html#acb9107790eceedf79f9ff552273ce5dd":[6,0,3,0,0,1,4,15,5],
 "MRMeshC_2MRFloatGrid_8h.html#ad1b8d23f4cba0861f868fc13a6745629":[6,0,3,0,0,1,4,15,2],
 "MRMeshC_2MRFloatGrid_8h_source.html":[6,0,3,0,0,1,4,15],
@@ -249,5 +247,7 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRMeshNormals_8h.html#adfb77617009343b48a6675d1c73b20d8":[6,0,3,0,0,1,4,39,5],
 "MRMeshC_2MRMeshNormals_8h.html#aee8c173989e629900aed7d4c35a096eb":[6,0,3,0,0,1,4,39,3],
 "MRMeshC_2MRMeshNormals_8h_source.html":[6,0,3,0,0,1,4,39],
-"MRMeshC_2MRMeshOrPoints_8h.html":[6,0,3,0,0,1,4,40]
+"MRMeshC_2MRMeshOrPoints_8h.html":[6,0,3,0,0,1,4,40],
+"MRMeshC_2MRMeshOrPoints_8h.html#a07a4d82086f31a7c13ae75073d922c78":[6,0,3,0,0,1,4,40,0],
+"MRMeshC_2MRMeshOrPoints_8h.html#a2fd95815e9818a5d4e9e9c7e761ca898":[6,0,3,0,0,1,4,40,4]
 };

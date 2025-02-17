@@ -1,7 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"MRStep_8h_source.html":[6,0,3,0,0,1,2,10],
-"MRStreamOperators_8h.html":[6,0,3,0,0,1,3,331],
 "MRStreamOperators_8h.html#a0a110add4a6efe36751e5740ee319f5e":[6,0,3,0,0,1,3,331,0],
 "MRStreamOperators_8h.html#a1d7209284c9f49c1157db1d71e897eed":[6,0,3,0,0,1,3,331,3],
 "MRStreamOperators_8h.html#a23e4037f9ce6128e9d0b1a407ae9cfcd":[6,0,3,0,0,1,3,331,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX13 =
 "MRTriMesh_8h_source.html":[6,0,3,0,0,1,3,354],
 "MRTriangleIntersection_8h.html":[6,0,3,0,0,1,3,351],
 "MRTriangleIntersection_8h_source.html":[6,0,3,0,0,1,3,351],
-"MRTunnelDetector_8h.html":[6,0,3,0,0,1,3,356]
+"MRTunnelDetector_8h.html":[6,0,3,0,0,1,3,356],
+"MRTunnelDetector_8h_source.html":[6,0,3,0,0,1,3,356],
+"MRTupleBindings_8h.html":[6,0,3,0,0,1,3,357]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classmrmeshpy_1_1InTreePathBuilder.html":[6,1,0,0,2,374],
-"classmrmeshpy_1_1InTreePathBuilder.html":[6,1,1,0,1,374],
 "classmrmeshpy_1_1InTreePathBuilder.html#a163050bb9d58f0a490e2ba9b0a8427c6":[6,1,0,0,2,374,2],
 "classmrmeshpy_1_1InTreePathBuilder.html#a163050bb9d58f0a490e2ba9b0a8427c6":[6,1,1,0,1,374,2],
 "classmrmeshpy_1_1InTreePathBuilder.html#a875a29568cdc704a426c40c4fac559b5":[6,1,0,0,2,374,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX34 =
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af997dc15b913f88fc4d68c7bc539f2eb":[6,1,0,0,2,390,2],
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af997dc15b913f88fc4d68c7bc539f2eb":[6,1,1,0,1,390,2],
 "classmrmeshpy_1_1LabelVisualizePropertyType.html":[6,1,0,0,2,391],
-"classmrmeshpy_1_1LabelVisualizePropertyType.html":[6,1,1,0,1,391]
+"classmrmeshpy_1_1LabelVisualizePropertyType.html":[6,1,1,0,1,391],
+"classmrmeshpy_1_1LabelVisualizePropertyType.html#a1d3537412e432ce854be645e9c2f922d":[6,1,0,0,2,391,3],
+"classmrmeshpy_1_1LabelVisualizePropertyType.html#a1d3537412e432ce854be645e9c2f922d":[6,1,1,0,1,391,3]
 };
