@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1OneMeshIntersection.html#ab42f0bd750d88e66c17bce92a1fe733d":[6,0,1,0,1,432,2],
+"structMR_1_1OneMeshIntersection.html#ab42f0bd750d88e66c17bce92a1fe733d":[6,0,2,0,1,416,2],
 "structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,1,0,1,432,1],
 "structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,2,0,1,416,1],
 "structMR_1_1OpenVdbFloatGrid.html":[6,0,0,18,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1PointCloud.html#ac58b0b5f3bf2f48f46f9fe30e054b7cb":[6,0,0,12,0,9],
 "structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225":[6,0,0,12,0,2],
 "structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26":[6,0,0,12,0,6],
-"structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0":[6,0,0,12,0,5],
-"structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
-"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0]
+"structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0":[6,0,0,12,0,5]
 };

@@ -154,38 +154,38 @@ $(function(){initNavTree('MeshLibCmakeSetupGuide.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md8">How to Use MeshLib with CMake</a><ul><li class="level2"><a href="#autotoc_md9">CMake Integration Support</a></li>
-<li class="level2"><a href="#autotoc_md10">Quick Integration Guide</a><ul><li class="level3"><a href="#autotoc_md11">Find MeshLib CMake Configuration Files</a></li>
-<li class="level3"><a href="#autotoc_md12">Include the MeshLib Headers</a></li>
-<li class="level3"><a href="#autotoc_md13">Link the MeshLib Libraries</a></li>
-<li class="level3"><a href="#autotoc_md14">Find Third-Party Dependencies</a></li>
+<ul><li class="level1"><a href="#autotoc_md15">How to Use MeshLib with CMake</a><ul><li class="level2"><a href="#autotoc_md16">CMake Integration Support</a></li>
+<li class="level2"><a href="#autotoc_md17">Quick Integration Guide</a><ul><li class="level3"><a href="#autotoc_md18">Find MeshLib CMake Configuration Files</a></li>
+<li class="level3"><a href="#autotoc_md19">Include the MeshLib Headers</a></li>
+<li class="level3"><a href="#autotoc_md20">Link the MeshLib Libraries</a></li>
+<li class="level3"><a href="#autotoc_md21">Find Third-Party Dependencies</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md8"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md15"></a>
 How to Use MeshLib with CMake</h1>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 CMake Integration Support</h2>
 <p>MeshLib provides CMake integration support for <b>Linux</b> and <b>macOS</b>. Please note that CMake integration is not currently supported on Windows. Example CMake configuration files are available to demonstrate how to link against the pre-built libraries. You can find these examples in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a>.</p>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Quick Integration Guide</h2>
-<h3><a class="anchor" id="autotoc_md11"></a>
+<h3><a class="anchor" id="autotoc_md18"></a>
 Find MeshLib CMake Configuration Files</h3>
 <p>For a start, find the MeshLib package: </p><div class="fragment"><div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md12"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md19"></a>
 Include the MeshLib Headers</h3>
 <p>Ensure that the <code>include</code> directory from the installed MeshLib package is added to your project's include directories. In your CMake configuration (<code>CMakeLists.txt</code>), add: </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR})</div>
 <div class="line"># or</div>
 <div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR})</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md13"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md20"></a>
 Link the MeshLib Libraries</h3>
 <p>Specify which MeshLib libraries to link with your project: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh)</div>
 <div class="line"># if you want to use viewer libraries</div>
 <div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh MeshLib::MRViewer)</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md14"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md21"></a>
 Find Third-Party Dependencies</h3>
 <p>MeshLib have extended functionality that may have additional dependencies that need to be linked. Check the example <code>CMakeLists.txt</code> provided in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> to see how to add required dependencies:</p>
 <div class="fragment"><div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>

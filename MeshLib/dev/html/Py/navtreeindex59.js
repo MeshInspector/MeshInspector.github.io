@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"classmrmeshpy_1_1PointCloudRelaxParams.html#a52a0acb2ff13aee7b196785914958a3c":[6,1,0,0,2,620,0],
+"classmrmeshpy_1_1PointCloudRelaxParams.html#a52a0acb2ff13aee7b196785914958a3c":[6,1,1,0,1,620,0],
 "classmrmeshpy_1_1PointCloudRelaxParams.html#a54e5151358ea754a736ed5d2cc355b31":[6,1,0,0,2,620,3],
 "classmrmeshpy_1_1PointCloudRelaxParams.html#a54e5151358ea754a736ed5d2cc355b31":[6,1,1,0,1,620,3],
 "classmrmeshpy_1_1PointObject.html":[6,1,0,0,2,621],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a8241b83db7ae80f5a02f16b2885eea83":[6,1,0,0,2,630,6],
 "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a8241b83db7ae80f5a02f16b2885eea83":[6,1,1,0,1,630,6],
 "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a905d618065bac6da96d9b9b9c4afe873":[6,1,0,0,2,630,5],
-"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a905d618065bac6da96d9b9b9c4afe873":[6,1,1,0,1,630,5],
-"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a993fa833754841f6aaa6f6daa45fd285":[6,1,0,0,2,630,3],
-"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a993fa833754841f6aaa6f6daa45fd285":[6,1,1,0,1,630,3]
+"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a905d618065bac6da96d9b9b9c4afe873":[6,1,1,0,1,630,5]
 };

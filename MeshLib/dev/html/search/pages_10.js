@@ -8,5 +8,6 @@ var searchData=
   ['transformations_5',['Spaces and Transformations',['../SpacesHelp.html',1,'']]],
   ['triangulation_6',['Simple triangulation',['../ExampleTriangulation.html',1,'']]],
   ['triangulation_20of_20a_20regular_20numpy_20grid_7',['Triangulation of a regular Numpy grid',['../ExampleNumpyTriangulation.html',1,'']]],
-  ['tutorials_8',['MeshLib SDK Tutorials',['../Tutorials.html',1,'']]]
+  ['tutorials_8',['MeshLib SDK Tutorials',['../Tutorials.html',1,'']]],
+  ['types_20overview_9',['Basic Math Types Overview',['../BasicMathTypesOverview.html',1,'']]]
 ];

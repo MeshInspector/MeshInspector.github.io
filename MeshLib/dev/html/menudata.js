@@ -58,10 +58,12 @@ var menudata={children:[
 {text:"Using Numpy",url:"ExampleNumpy.html"},
 {text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html"}]}]},
 {text:"Package Overview",url:"PackageOverview.html",children:[
+{text:"Mesh Structure",url:"MeshStructureOverview.html"},
+{text:"Basic Math Types",url:"BasicMathTypesOverview.html"},
 {text:"Float vs Double",url:"FloatVSDouble.html"},
-{text:"How to use С++ Example Plugin",url:"ExamplePluginOverview.html"},
 {text:"Data Model Class Hierarchy",url:"DataModel.html"},
 {text:"Spaces and Transformations",url:"SpacesHelp.html"},
+{text:"How to use С++ Example Plugin",url:"ExamplePluginOverview.html"},
 {text:"State Plugins Overview",url:"StatePluginsHelp.html"}]},
 {text:"API",url:"APIPage.html",children:[
 {text:"C++",url:"Cpp/APICppPage.html"},

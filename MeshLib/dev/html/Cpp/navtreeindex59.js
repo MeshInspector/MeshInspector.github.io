@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1RenderFeatures_1_1detail.html":[6,0,1,0,1,31,0],
+"namespaceMR_1_1RenderWrapObject.html":[6,0,1,0,1,32],
 "namespaceMR_1_1RenderWrapObject_1_1detail.html":[6,0,1,0,1,32,0],
 "namespaceMR_1_1SceneLoad.html":[6,0,1,0,1,33],
 "namespaceMR_1_1SceneLoad.html#a089505a3e07c34d60c30955259757d11":[6,0,1,0,1,33,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,1,0,0,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,2,0,0,0,6],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,1,0,0,0,10],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,1,0,0,0,5]
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,1,0,0,0,10]
 };

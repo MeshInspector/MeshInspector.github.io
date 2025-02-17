@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1PolylineUndirectedEdgeIterator.html#aceb9e42371e4e109bae6cfd91baa5ec1":[6,0,0,14,1,3],
+"classMR_1_1PolylineUndirectedEdgeIterator.html#ae13501f43ea74a3e5ac234f3811e9241":[6,0,0,14,1,1],
 "classMR_1_1PrecipitationSimulator.html":[6,0,1,0,1,500],
 "classMR_1_1PrecipitationSimulator.html":[6,0,2,0,1,484],
 "classMR_1_1PrecipitationSimulator.html#a0ae04f850be8f1baf7203566c8071eee":[6,0,1,0,1,500,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1RangeProgress.html#aa3ba5b5d4dddbf923bc92f56310c747b":[6,0,1,0,1,517,1],
 "classMR_1_1RangeProgress.html#aa3ba5b5d4dddbf923bc92f56310c747b":[6,0,2,0,1,501,1],
 "classMR_1_1RecentFilesStore.html":[6,0,1,0,1,522],
-"classMR_1_1RecentFilesStore.html":[6,0,2,0,1,506],
-"classMR_1_1RecentFilesStore.html#a1875cd68c58a0a3c20766750d0768342":[6,0,1,0,1,522,4],
-"classMR_1_1RecentFilesStore.html#a1875cd68c58a0a3c20766750d0768342":[6,0,2,0,1,506,4]
+"classMR_1_1RecentFilesStore.html":[6,0,2,0,1,506]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR.html#afac751f311b648116a3a4afcd06a10c7":[6,0,1,0,1,2104],
+"namespaceMR.html#afadfa7c61c73e9a699449d9a2828496d":[6,0,1,0,1,1584],
 "namespaceMR.html#afaef792167a46a382648ec08d36b74e0":[6,0,1,0,1,925],
 "namespaceMR.html#afb031d90c2eaeddbeac77675cec10847":[6,0,1,0,1,2015],
 "namespaceMR.html#afb5aa7d969d789218ae67365158331cb":[6,0,1,0,1,1614],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR_1_1ProgressBar.html#ae694b1e02bb163d667aaca266f472606":[6,0,1,0,1,29,16],
 "namespaceMR_1_1ProgressBar.html#af847e27a1f34b2b07a29272ef2fb9e88":[6,0,1,0,1,29,2],
 "namespaceMR_1_1RenderDimensions.html":[6,0,1,0,1,30],
-"namespaceMR_1_1RenderFeatures.html":[6,0,1,0,1,31],
-"namespaceMR_1_1RenderFeatures_1_1detail.html":[6,0,1,0,1,31,0],
-"namespaceMR_1_1RenderWrapObject.html":[6,0,1,0,1,32]
+"namespaceMR_1_1RenderFeatures.html":[6,0,1,0,1,31]
 };

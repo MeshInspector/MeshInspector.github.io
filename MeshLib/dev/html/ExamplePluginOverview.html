@@ -154,26 +154,26 @@ $(function(){initNavTree('ExamplePluginOverview.html',''); initResizable(true); 
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md41">C++ Distribution Example Plugin</a><ul><li class="level2"><a href="#autotoc_md42">Introduction</a></li>
-<li class="level2"><a href="#autotoc_md43">Content</a><ul><li class="level3"><a href="#autotoc_md44">Solution File</a></li>
-<li class="level3"><a href="#autotoc_md45">Project File</a></li>
-<li class="level3"><a href="#autotoc_md46">Tools Configuration File</a></li>
-<li class="level3"><a href="#autotoc_md47">Tools Visualization Order File</a></li>
-<li class="level3"><a href="#autotoc_md48">Resoure Directory</a></li>
-<li class="level3"><a href="#autotoc_md49">Source Code File</a></li>
+<ul><li class="level1"><a href="#autotoc_md48">C++ Distribution Example Plugin</a><ul><li class="level2"><a href="#autotoc_md49">Introduction</a></li>
+<li class="level2"><a href="#autotoc_md50">Content</a><ul><li class="level3"><a href="#autotoc_md51">Solution File</a></li>
+<li class="level3"><a href="#autotoc_md52">Project File</a></li>
+<li class="level3"><a href="#autotoc_md53">Tools Configuration File</a></li>
+<li class="level3"><a href="#autotoc_md54">Tools Visualization Order File</a></li>
+<li class="level3"><a href="#autotoc_md55">Resoure Directory</a></li>
+<li class="level3"><a href="#autotoc_md56">Source Code File</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md50">Usage</a></li>
+<li class="level2"><a href="#autotoc_md57">Usage</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md41"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md48"></a>
 C++ Distribution Example Plugin</h1>
-<h2><a class="anchor" id="autotoc_md42"></a>
+<h2><a class="anchor" id="autotoc_md49"></a>
 Introduction</h2>
 <p>This page describes what is present in <code>example_plugin</code> directory of the Windows distribution archive and how to use it. </p><dl class="section note"><dt>Note</dt><dd>Please have a look at <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">MeshLib С++ setup guide</a> first.</dd></dl>
-<h2><a class="anchor" id="autotoc_md43"></a>
+<h2><a class="anchor" id="autotoc_md50"></a>
 Content</h2>
 <p>This example contains several files:</p><ol type="1">
 <li><code>example_plugin.sln</code> - Visual Studio solution file</li>
@@ -184,10 +184,10 @@ Content</h2>
 <li><code>MyPlugin.cpp</code> - source code with actual (demo) tools</li>
 </ol>
 <p>Lets have a closer look at each of these points:</p>
-<h3><a class="anchor" id="autotoc_md44"></a>
+<h3><a class="anchor" id="autotoc_md51"></a>
 Solution File</h3>
 <p><code>example_plugin.sln</code> - This can be used to build an example with Visual Studio, it only includes <code>example_plugin.vcxproj</code> in it.</p>
-<h3><a class="anchor" id="autotoc_md45"></a>
+<h3><a class="anchor" id="autotoc_md52"></a>
 Project File</h3>
 <p><code>example_plugin.vcxproj</code> - This file is configured so project can work with MeshLib distribuiton    <br  />
 </p><ul>
@@ -221,7 +221,7 @@ Project File</h3>
 </ul>
 </li>
 </ul>
-<h3><a class="anchor" id="autotoc_md46"></a>
+<h3><a class="anchor" id="autotoc_md53"></a>
 Tools Configuration File</h3>
 <p><code>MyPlugin.items.json</code> - this file contains information about each tool that is present in the plugin:</p><ul>
 <li><b>"Name"</b> - name of the tool, should be same as in the code</li>
@@ -245,7 +245,7 @@ Tools Configuration File</h3>
 <div class="line">    }</div>
 <div class="line">  ]</div>
 <div class="line">}</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md47"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md54"></a>
 Tools Visualization Order File</h3>
 <p><code>MyPlugin.ui.json</code> - this file has information about order of the plugin loading, and UI schema for present tools:</p><ul>
 <li><b>"Order"</b> - order of loading dll produced by this plugin, it can be used to determine constuction of tools in diferent plugins</li>
@@ -287,7 +287,7 @@ Tools Visualization Order File</h3>
 <div class="line">        }</div>
 <div class="line">    ]</div>
 <div class="line">}</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md48"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md55"></a>
 Resoure Directory</h3>
 <p><code>resource</code> - directory with icons that is used in UI, it should have same structure as in example:</p><ul>
 <li>resource<ul>
@@ -302,14 +302,14 @@ Resoure Directory</h3>
 </li>
 </ul>
 <dl class="section note"><dt>Note</dt><dd>Icons should have same name as tool in the code, in <code>items.json</code> file and in <code>ui.json</code> file</dd></dl>
-<h3><a class="anchor" id="autotoc_md49"></a>
+<h3><a class="anchor" id="autotoc_md56"></a>
 Source Code File</h3>
 <p><code>MyPlugin.cpp</code> - this file contains two simple tools:</p><ol type="1">
 <li><code>MyTool() : RibbonMenuItem( "My Tool" )</code> - shows "Hello World" <b>modal</b> window</li>
 <li><code>MyStateTool() : StatePlugin( "My State Tool" )</code> - shows "Hello World" <b>dialog</b> window</li>
 </ol>
 <p>For more information have a look at <a class="el" href="StatePluginsHelp.html">State Plugin Page</a></p>
-<h2><a class="anchor" id="autotoc_md50"></a>
+<h2><a class="anchor" id="autotoc_md57"></a>
 Usage</h2>
 <ol type="1">
 <li>Open solution file with Visual Studio</li>

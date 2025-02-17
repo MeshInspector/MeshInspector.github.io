@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"classmrmeshpy_1_1ObjectVoxels.html#a216c065adb25e61c36f5ee00b3814183":[6,1,0,0,2,549,58],
+"classmrmeshpy_1_1ObjectVoxels.html#a216c065adb25e61c36f5ee00b3814183":[6,1,1,0,1,549,58],
 "classmrmeshpy_1_1ObjectVoxels.html#a29ef3ac749f25f57b99c9f5ec17b1a2a":[6,1,0,0,2,549,18],
 "classmrmeshpy_1_1ObjectVoxels.html#a29ef3ac749f25f57b99c9f5ec17b1a2a":[6,1,1,0,1,549,18],
 "classmrmeshpy_1_1ObjectVoxels.html#a32ea4c97ee96a6492966fd7893eb21a3":[6,1,0,0,2,549,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1OffsetContoursParams.html":[6,1,0,0,2,563],
 "classmrmeshpy_1_1OffsetContoursParams.html":[6,1,1,0,1,563],
 "classmrmeshpy_1_1OffsetContoursParams.html#a1888c82171c13a7c2334c74f84a4b376":[6,1,0,0,2,563,3],
-"classmrmeshpy_1_1OffsetContoursParams.html#a1888c82171c13a7c2334c74f84a4b376":[6,1,1,0,1,563,3],
-"classmrmeshpy_1_1OffsetContoursParams.html#a209817ade13bff0a74c4658c8ab3d398":[6,1,0,0,2,563,7],
-"classmrmeshpy_1_1OffsetContoursParams.html#a209817ade13bff0a74c4658c8ab3d398":[6,1,1,0,1,563,7]
+"classmrmeshpy_1_1OffsetContoursParams.html#a1888c82171c13a7c2334c74f84a4b376":[6,1,1,0,1,563,3]
 };

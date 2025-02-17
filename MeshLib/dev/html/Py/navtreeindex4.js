@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"classmrmeshpy_1_1Ball2f.html#a37ee52a6bee52c70422b9950965bb209":[6,1,0,0,2,36,8],
+"classmrmeshpy_1_1Ball2f.html#a37ee52a6bee52c70422b9950965bb209":[6,1,1,0,1,36,8],
 "classmrmeshpy_1_1Ball2f.html#a3c297141d36825300b250999d7c0ae39":[6,1,0,0,2,36,0],
 "classmrmeshpy_1_1Ball2f.html#a3c297141d36825300b250999d7c0ae39":[6,1,1,0,1,36,0],
 "classmrmeshpy_1_1Ball2f.html#a465b17cb6997fef3c8eb16489dd6eb5a":[6,1,0,0,2,36,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BestFitParabolaf.html":[6,1,0,0,2,45],
 "classmrmeshpy_1_1BestFitParabolaf.html":[6,1,1,0,1,45],
 "classmrmeshpy_1_1BestFitParabolaf.html#a12973f1758b181806084164101ebf7dd":[6,1,0,0,2,45,3],
-"classmrmeshpy_1_1BestFitParabolaf.html#a12973f1758b181806084164101ebf7dd":[6,1,1,0,1,45,3],
-"classmrmeshpy_1_1BestFitParabolaf.html#a4c7338c3cc0734b253f45e7ee1e9ea7d":[6,1,0,0,2,45,0],
-"classmrmeshpy_1_1BestFitParabolaf.html#a4c7338c3cc0734b253f45e7ee1e9ea7d":[6,1,1,0,1,45,0]
+"classmrmeshpy_1_1BestFitParabolaf.html#a12973f1758b181806084164101ebf7dd":[6,1,1,0,1,45,3]
 };

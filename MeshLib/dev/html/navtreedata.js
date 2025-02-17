@@ -65,10 +65,12 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Package Overview", "PackageOverview.html", [
+      [ "Mesh Structure", "MeshStructureOverview.html", null ],
+      [ "Basic Math Types", "BasicMathTypesOverview.html", null ],
       [ "Float vs Double", "FloatVSDouble.html", null ],
-      [ "How to use С++ Example Plugin", "ExamplePluginOverview.html", null ],
       [ "Data Model Class Hierarchy", "DataModel.html", null ],
       [ "Spaces and Transformations", "SpacesHelp.html", null ],
+      [ "How to use С++ Example Plugin", "ExamplePluginOverview.html", null ],
       [ "State Plugins Overview", "StatePluginsHelp.html", null ]
     ] ],
     [ "API", "APIPage.html", [

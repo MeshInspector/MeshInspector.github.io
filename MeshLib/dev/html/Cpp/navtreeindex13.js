@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"MRStreamOperators_8h.html#a0a110add4a6efe36751e5740ee319f5e":[6,0,3,0,0,1,3,331,0],
+"MRStreamOperators_8h.html#a1d7209284c9f49c1157db1d71e897eed":[6,0,3,0,0,1,3,331,3],
 "MRStreamOperators_8h.html#a23e4037f9ce6128e9d0b1a407ae9cfcd":[6,0,3,0,0,1,3,331,19],
 "MRStreamOperators_8h.html#a316cb7e7134f8eb88680011380af2871":[6,0,3,0,0,1,3,331,12],
 "MRStreamOperators_8h.html#a5032191cec4caa244ffb6d2589686690":[6,0,3,0,0,1,3,331,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "MRTriangleIntersection_8h_source.html":[6,0,3,0,0,1,3,351],
 "MRTunnelDetector_8h.html":[6,0,3,0,0,1,3,356],
 "MRTunnelDetector_8h_source.html":[6,0,3,0,0,1,3,356],
-"MRTupleBindings_8h.html":[6,0,3,0,0,1,3,357],
-"MRTupleBindings_8h.html#a01413673c815bd0bfc3dea53829bb94b":[6,0,3,0,0,1,3,357,10],
-"MRTupleBindings_8h.html#a27575a581409754718e3440d21583420":[6,0,3,0,0,1,3,357,11]
+"MRTupleBindings_8h.html":[6,0,3,0,0,1,3,357]
 };
