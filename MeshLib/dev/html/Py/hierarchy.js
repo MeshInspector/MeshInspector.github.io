@@ -231,7 +231,6 @@ var hierarchy =
     [ "mrmeshpy.EdgePointPair", "classmrmeshpy_1_1EdgePointPair.html", null ],
     [ "mrmeshpy.EdgeScalars", "classmrmeshpy_1_1EdgeScalars.html", null ],
     [ "mrmeshpy.EdgeSegment", "classmrmeshpy_1_1EdgeSegment.html", null ],
-    [ "mrmeshpy.EdgeSetBitIterator", "classmrmeshpy_1_1EdgeSetBitIterator.html", null ],
     [ "mrmeshpy.EdgeTri", "classmrmeshpy_1_1EdgeTri.html", [
       [ "mrmeshpy.VariableEdgeTri", "classmrmeshpy_1_1VariableEdgeTri.html", null ]
     ] ],
@@ -262,7 +261,6 @@ var hierarchy =
     [ "mrmeshpy.FaceMap", "classmrmeshpy_1_1FaceMap.html", null ],
     [ "mrmeshpy.FaceNormals", "classmrmeshpy_1_1FaceNormals.html", null ],
     [ "mrmeshpy.FaceScalars", "classmrmeshpy_1_1FaceScalars.html", null ],
-    [ "mrmeshpy.FaceSetBitIterator", "classmrmeshpy_1_1FaceSetBitIterator.html", null ],
     [ "mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement", "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html", null ],
     [ "mrmeshpy.FanRecord", "classmrmeshpy_1_1FanRecord.html", [
       [ "mrmeshpy.FanRecordWithCenter", "classmrmeshpy_1_1FanRecordWithCenter.html", null ]
@@ -877,7 +875,6 @@ var hierarchy =
     [ "mrmeshpy.SegmPointf", "classmrmeshpy_1_1SegmPointf.html", null ],
     [ "mrmeshpy.SelfIntersections", "classmrmeshpy_1_1SelfIntersections.html", null ],
     [ "mrmeshpy.SeparationPointStorage", "classmrmeshpy_1_1SeparationPointStorage.html", null ],
-    [ "mrmeshpy.SetBitIterator", "classmrmeshpy_1_1SetBitIterator.html", null ],
     [ "mrmeshpy.SetNew", "classmrmeshpy_1_1SetNew.html", null ],
     [ "mrmeshpy.SelfIntersections.Settings", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html", null ],
     [ "mrmeshpy.TriangulationHelpers.Settings", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html", null ],
@@ -1169,7 +1166,6 @@ var hierarchy =
     [ "mrmeshpy.UndirectedEdgeIterator", "classmrmeshpy_1_1UndirectedEdgeIterator.html", null ],
     [ "mrmeshpy.UndirectedEdgeMap", "classmrmeshpy_1_1UndirectedEdgeMap.html", null ],
     [ "mrmeshpy.UndirectedEdgeScalars", "classmrmeshpy_1_1UndirectedEdgeScalars.html", null ],
-    [ "mrmeshpy.UndirectedEdgeSetBitIterator", "classmrmeshpy_1_1UndirectedEdgeSetBitIterator.html", null ],
     [ "mrmeshpy.UndirectedEdgeUndirectedEdge", "classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html", null ],
     [ "mrmeshpy.UndirEdgeColorMapAggregator", "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html", null ],
     [ "mrmeshpy.UniformSamplingSettings", "classmrmeshpy_1_1UniformSamplingSettings.html", null ],
@@ -1277,7 +1273,6 @@ var hierarchy =
     [ "mrmeshpy.VertPathInfo", "classmrmeshpy_1_1VertPathInfo.html", null ],
     [ "mrmeshpy.VertRenumber", "classmrmeshpy_1_1VertRenumber.html", null ],
     [ "mrmeshpy.VertScalars", "classmrmeshpy_1_1VertScalars.html", null ],
-    [ "mrmeshpy.VertSetBitIterator", "classmrmeshpy_1_1VertSetBitIterator.html", null ],
     [ "mrmeshpy.MeshBuilder.VertSpan", "classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html", null ],
     [ "mrmeshpy.VertUVCoords", "classmrmeshpy_1_1VertUVCoords.html", null ],
     [ "mrviewerpy.Viewer", "classmrviewerpy_1_1Viewer.html", null ],
