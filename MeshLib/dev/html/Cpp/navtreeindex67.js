@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1FlatTree.html":[6,0,2,0,1,216],
+"structMR_1_1FlatTree.html#a91ce578b57c3afcd001373ff561404a9":[6,0,1,0,1,232,0],
 "structMR_1_1FlatTree.html#a91ce578b57c3afcd001373ff561404a9":[6,0,2,0,1,216,0],
 "structMR_1_1FlatTree.html#ac658a0431f66b43b4735d82b4ce30504":[6,0,1,0,1,232,1],
 "structMR_1_1FlatTree.html#ac658a0431f66b43b4735d82b4ce30504":[6,0,2,0,1,216,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[6,0,1,0,1,12,1],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[6,0,2,0,1,4,1],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9":[6,0,1,0,1,12,1,7],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9":[6,0,2,0,1,4,1,7],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a45f2a7a4631ecb502475eeddcf0947e8":[6,0,1,0,1,12,1,1],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a45f2a7a4631ecb502475eeddcf0947e8":[6,0,2,0,1,4,1,1]
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9":[6,0,2,0,1,4,1,7]
 };

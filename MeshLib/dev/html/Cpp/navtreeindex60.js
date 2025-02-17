@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,1,0,0,0,9],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,2,0,0,0,9],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,1,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMROffsetParameters.html#ad92c04c267772dc568e590dadf29dffb":[6,0,2,0,46,2],
 "structMROneMeshContour.html":[6,0,2,0,47],
 "structMROneMeshContour.html#a90b936e1e5de7336622a91129c24b832":[6,0,2,0,47,1],
-"structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,47,0],
-"structMROneMeshIntersection.html":[6,0,2,0,48],
-"structMROneMeshIntersection.html#a3c70bf2dc0821b99f4fb472f000a43c7":[6,0,2,0,48,4]
+"structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,47,0]
 };
