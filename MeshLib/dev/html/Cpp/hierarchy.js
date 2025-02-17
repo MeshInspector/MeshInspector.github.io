@@ -793,6 +793,7 @@ var hierarchy =
     [ "MRSubdivideSettings", "structMRSubdivideSettings.html", null ],
     [ "MRTriangulationParameters", "structMRTriangulationParameters.html", null ],
     [ "MRTriPointf", "structMRTriPointf.html", null ],
+    [ "MR::MruFormatParameters", "structMR_1_1MruFormatParameters.html", null ],
     [ "MRUndirectedEdgeId", "structMRUndirectedEdgeId.html", null ],
     [ "MRUniformSamplingSettings", "structMRUniformSamplingSettings.html", null ],
     [ "MRVariableEdgeTri", "structMRVariableEdgeTri.html", null ],

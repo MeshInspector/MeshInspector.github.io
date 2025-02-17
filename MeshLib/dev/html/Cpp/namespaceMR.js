@@ -484,6 +484,7 @@ var namespaceMR =
     [ "MoveMeshToVoxelMaxDerivSettings", "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html", "structMR_1_1MoveMeshToVoxelMaxDerivSettings" ],
     [ "MoveObjectByMouse", "classMR_1_1MoveObjectByMouse.html", "classMR_1_1MoveObjectByMouse" ],
     [ "MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html", "classMR_1_1MoveObjectByMouseImpl" ],
+    [ "MruFormatParameters", "structMR_1_1MruFormatParameters.html", "structMR_1_1MruFormatParameters" ],
     [ "MultiListener", "structMR_1_1MultiListener.html", "structMR_1_1MultiListener" ],
     [ "MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", "structMR_1_1MultiMeshIntersectionResult" ],
     [ "MultiRayMeshIntersectResult", "structMR_1_1MultiRayMeshIntersectResult.html", "structMR_1_1MultiRayMeshIntersectResult" ],
