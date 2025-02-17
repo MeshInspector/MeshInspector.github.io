@@ -185,6 +185,10 @@ var group__AABBTreeGroup =
       [ "mtp", "structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1", null ],
       [ "proj", "structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28", null ]
     ] ],
+    [ "MR::MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", [
+      [ "nonRigidXfTree", "structMR_1_1MeshProjectionTransforms.html#ac7e30a3a60e0e50ecf202b7761b16e8d", null ],
+      [ "rigidXfPoint", "structMR_1_1MeshProjectionTransforms.html#a8cbd1dfcea56dc62de55af9d1fd30497", null ]
+    ] ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", [
       [ "dist", "structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23", null ],
       [ "mtp", "structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41", null ],
@@ -243,6 +247,7 @@ var group__AABBTreeGroup =
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
       [ "MR::ProcessOneResult::ContinueProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
     ] ],
+    [ "MR::createProjectionTransforms", "group__AABBTreeGroup.html#ga2574b6170fb044d2038e7fa9c0e2e4c1", null ],
     [ "MR::findCollidingEdgePairs", "group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb", null ],
     [ "MR::findCollidingEdges", "group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b", null ],
     [ "MR::findCollidingEdgesBitsets", "group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a", null ],

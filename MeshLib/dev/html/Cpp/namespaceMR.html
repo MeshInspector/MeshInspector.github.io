@@ -973,6 +973,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionTransforms.html">MeshProjectionTransforms</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshRegion.html">MeshRegion</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a></td></tr>
@@ -1306,6 +1308,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to std::priority_queue, but with ability to access underlying vector to custom modify its elements  <a href="classMR_1_1PriorityQueue.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ProgressInterrupter.html">ProgressInterrupter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html">PythonExport</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4208,6 +4212,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae5a23c27bb3bb838f31c354a2569981f" id="r_ae5a23c27bb3bb838f31c354a2569981f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; FaceBitSet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5a23c27bb3bb838f31c354a2569981f">findOverhangs</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FindOverhangsSettings.html">FindOverhangsSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:ae5a23c27bb3bb838f31c354a2569981f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find face regions that might create overhangs.  <br /></td></tr>
 <tr class="separator:ae5a23c27bb3bb838f31c354a2569981f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2574b6170fb044d2038e7fa9c0e2e4c1" id="r_ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionTransforms.html">MeshProjectionTransforms</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2574b6170fb044d2038e7fa9c0e2e4c1">createProjectionTransforms</a> (AffineXf3f &amp;storageXf, const AffineXf3f *pointXf, const AffineXf3f *treeXf)</td></tr>
+<tr class="memdesc:ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates structure with simplified transforms for projection functions, with <code>rigidXfPoint</code> applied to point, and <code>nonRigidXfTree</code> applied to tree.  <br /></td></tr>
+<tr class="separator:ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa20d785f3f82fad58fb659bc0009563d" id="r_gaa20d785f3f82fad58fb659bc0009563d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaa20d785f3f82fad58fb659bc0009563d">findProjection</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
 <tr class="memdesc:gaa20d785f3f82fad58fb659bc0009563d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:gaa20d785f3f82fad58fb659bc0009563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4620,12 +4627,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a43da20cc5f0077147d57b1af6226aa53" id="r_a43da20cc5f0077147d57b1af6226aa53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43da20cc5f0077147d57b1af6226aa53">readByBlocks</a> (std::istream &amp;in, char *data, size_t dataSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
 <tr class="memdesc:a43da20cc5f0077147d57b1af6226aa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">read dataSize bytes from in stream to data by blocks blockSize bytes  <br /></td></tr>
 <tr class="separator:a43da20cc5f0077147d57b1af6226aa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6835066f97373d8d25a66045dae3e28" id="r_ae6835066f97373d8d25a66045dae3e28"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:ae6835066f97373d8d25a66045dae3e28"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae6835066f97373d8d25a66045dae3e28">projectVertAttribute</a> (const MeshVertPart &amp;mp, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh, F &amp;&amp;func, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb)</td></tr>
-<tr class="separator:ae6835066f97373d8d25a66045dae3e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93b72484483edfe6fbd2d208c62baf3d" id="r_a93b72484483edfe6fbd2d208c62baf3d"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a93b72484483edfe6fbd2d208c62baf3d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a93b72484483edfe6fbd2d208c62baf3d">projectFaceAttribute</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh, F &amp;&amp;func, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb)</td></tr>
-<tr class="separator:a93b72484483edfe6fbd2d208c62baf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2199fb84f92befa49011fd4f55f4f09" id="r_af2199fb84f92befa49011fd4f55f4f09"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:af2199fb84f92befa49011fd4f55f4f09"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af2199fb84f92befa49011fd4f55f4f09">projectVertAttribute</a> (const MeshVertPart &amp;mp, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh, F &amp;&amp;func, const <a class="el" href="structMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a> &amp;params={})</td></tr>
+<tr class="separator:af2199fb84f92befa49011fd4f55f4f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb43cdb85d285bf367875ed35c3d8d7a" id="r_afb43cdb85d285bf367875ed35c3d8d7a"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:afb43cdb85d285bf367875ed35c3d8d7a"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afb43cdb85d285bf367875ed35c3d8d7a">projectFaceAttribute</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh, F &amp;&amp;func, const <a class="el" href="structMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a> &amp;params={})</td></tr>
+<tr class="separator:afb43cdb85d285bf367875ed35c3d8d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8544e1baad1fd29e080b74865bb8c0a0" id="r_a8544e1baad1fd29e080b74865bb8c0a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8544e1baad1fd29e080b74865bb8c0a0">compensateRadius</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1CompensateRadiusParams.html">CompensateRadiusParams</a> &amp;params)</td></tr>
 <tr class="separator:a8544e1baad1fd29e080b74865bb8c0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga774d7b2ef218b7634faca3e3300f13b9" id="r_ga774d7b2ef218b7634faca3e3300f13b9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -5517,8 +5524,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5863e06aeda8dbdaac30e5098692f741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad955b6a2b26f772c9baa0e45f672f3b4" id="r_ad955b6a2b26f772c9baa0e45f672f3b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad955b6a2b26f772c9baa0e45f672f3b4">getPointsFragmentShader</a> (bool alphaSort)</td></tr>
 <tr class="separator:ad955b6a2b26f772c9baa0e45f672f3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa9b03e8b298ae2f3795db19abdbbcec" id="r_afa9b03e8b298ae2f3795db19abdbbcec"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1MeshAttributes.html">MeshAttributes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa9b03e8b298ae2f3795db19abdbbcec">projectMeshAttributes</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;oldMeshObj, const MeshPart &amp;newMeshPart, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="separator:afa9b03e8b298ae2f3795db19abdbbcec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8a0a944a1b80921f633fa066021dafe" id="r_ad8a0a944a1b80921f633fa066021dafe"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1MeshAttributes.html">MeshAttributes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a0a944a1b80921f633fa066021dafe">projectMeshAttributes</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;oldMeshObj, const MeshPart &amp;newMeshPart, const AffineXf3f *newMeshXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ad8a0a944a1b80921f633fa066021dafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63afe360ace1d4556b647e6069a02502" id="r_a63afe360ace1d4556b647e6069a02502"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63afe360ace1d4556b647e6069a02502">emplaceMeshAttributes</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; objectMesh, <a class="el" href="structMR_1_1MeshAttributes.html">MeshAttributes</a> &amp;&amp;newAttribute)</td></tr>
 <tr class="memdesc:a63afe360ace1d4556b647e6069a02502"><td class="mdescLeft">&#160;</td><td class="mdescRight">set new mesh attributes and saving the history of changing mesh attributes  <br /></td></tr>
 <tr class="separator:a63afe360ace1d4556b647e6069a02502"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -27932,8 +27939,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a93b72484483edfe6fbd2d208c62baf3d" name="a93b72484483edfe6fbd2d208c62baf3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93b72484483edfe6fbd2d208c62baf3d">&#9670;&#160;</a></span>projectFaceAttribute()</h2>
+<a id="afb43cdb85d285bf367875ed35c3d8d7a" name="afb43cdb85d285bf367875ed35c3d8d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb43cdb85d285bf367875ed35c3d8d7a">&#9670;&#160;</a></span>projectFaceAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -27958,15 +27965,15 @@ template&lt;typename F &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="afa9b03e8b298ae2f3795db19abdbbcec" name="afa9b03e8b298ae2f3795db19abdbbcec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa9b03e8b298ae2f3795db19abdbbcec">&#9670;&#160;</a></span>projectMeshAttributes()</h2>
+<a id="ad8a0a944a1b80921f633fa066021dafe" name="ad8a0a944a1b80921f633fa066021dafe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8a0a944a1b80921f633fa066021dafe">&#9670;&#160;</a></span>projectMeshAttributes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -27983,6 +27990,11 @@ template&lt;typename F &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>newMeshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>newMeshXf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -28048,8 +28060,8 @@ template&lt;typename F &gt; </div>
 
 </div>
 </div>
-<a id="ae6835066f97373d8d25a66045dae3e28" name="ae6835066f97373d8d25a66045dae3e28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6835066f97373d8d25a66045dae3e28">&#9670;&#160;</a></span>projectVertAttribute()</h2>
+<a id="af2199fb84f92befa49011fd4f55f4f09" name="af2199fb84f92befa49011fd4f55f4f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2199fb84f92befa49011fd4f55f4f09">&#9670;&#160;</a></span>projectVertAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -28074,7 +28086,7 @@ template&lt;typename F &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -218,6 +218,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></td></tr>
@@ -365,6 +367,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3672072155e3f272d13a40ccd4645d02" id="r_ga3672072155e3f272d13a40ccd4645d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3672072155e3f272d13a40ccd4645d02">MR::findMaxDistanceSq</a> (const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</td></tr>
 <tr class="memdesc:ga3672072155e3f272d13a40ccd4645d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions)  <br /></td></tr>
 <tr class="separator:ga3672072155e3f272d13a40ccd4645d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2574b6170fb044d2038e7fa9c0e2e4c1" id="r_ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionTransforms.html">MeshProjectionTransforms</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2574b6170fb044d2038e7fa9c0e2e4c1">MR::createProjectionTransforms</a> (AffineXf3f &amp;storageXf, const AffineXf3f *pointXf, const AffineXf3f *treeXf)</td></tr>
+<tr class="memdesc:ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates structure with simplified transforms for projection functions, with <code>rigidXfPoint</code> applied to point, and <code>nonRigidXfTree</code> applied to tree.  <br /></td></tr>
+<tr class="separator:ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa20d785f3f82fad58fb659bc0009563d" id="r_gaa20d785f3f82fad58fb659bc0009563d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa20d785f3f82fad58fb659bc0009563d">MR::findProjection</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
 <tr class="memdesc:gaa20d785f3f82fad58fb659bc0009563d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:gaa20d785f3f82fad58fb659bc0009563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -708,6 +713,43 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga2574b6170fb044d2038e7fa9c0e2e4c1" name="ga2574b6170fb044d2038e7fa9c0e2e4c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2574b6170fb044d2038e7fa9c0e2e4c1">&#9670;&#160;</a></span>createProjectionTransforms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionTransforms.html">MeshProjectionTransforms</a> MR::createProjectionTransforms </td>
+          <td>(</td>
+          <td class="paramtype">AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>storageXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>pointXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>treeXf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates structure with simplified transforms for projection functions, with <code>rigidXfPoint</code> applied to point, and <code>nonRigidXfTree</code> applied to tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">storageXf</td><td>this argument will hold modified transfrom</td></tr>
+    <tr><td class="paramname">pointXf</td><td>transform for points to be projected</td></tr>
+    <tr><td class="paramname">treeXf</td><td>transform for tree's boxes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>structure with simplified transforms</dd></dl>
+
+</div>
+</div>
 <a id="ga15a3e18d2098f8ff33e67776a221e6fb" name="ga15a3e18d2098f8ff33e67776a221e6fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga15a3e18d2098f8ff33e67776a221e6fb">&#9670;&#160;</a></span>findCollidingEdgePairs()</h2>
 

@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,1,0,1,58,11],
 "structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,2,0,1,42,11],
 "structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,1,0,1,58,4],
 "structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,2,0,1,42,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc":[6,0,0,0,2,0,18],
 "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[6,0,0,0,2,0,8],
 "structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[6,0,0,0,2,0,17],
-"structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[6,0,0,0,2,0,6],
-"structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[6,0,0,0,2,0,25]
+"structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[6,0,0,0,2,0,6]
 };

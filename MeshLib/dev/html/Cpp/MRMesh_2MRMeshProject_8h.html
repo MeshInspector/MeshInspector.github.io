@@ -172,6 +172,8 @@ $(function(){initNavTree('MRMesh_2MRMeshProject_8h.html',''); initResizable(true
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -188,6 +190,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga2574b6170fb044d2038e7fa9c0e2e4c1" id="r_ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionTransforms.html">MeshProjectionTransforms</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2574b6170fb044d2038e7fa9c0e2e4c1">MR::createProjectionTransforms</a> (AffineXf3f &amp;storageXf, const AffineXf3f *pointXf, const AffineXf3f *treeXf)</td></tr>
+<tr class="memdesc:ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates structure with simplified transforms for projection functions, with <code>rigidXfPoint</code> applied to point, and <code>nonRigidXfTree</code> applied to tree.  <br /></td></tr>
+<tr class="separator:ga2574b6170fb044d2038e7fa9c0e2e4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa20d785f3f82fad58fb659bc0009563d" id="r_gaa20d785f3f82fad58fb659bc0009563d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaa20d785f3f82fad58fb659bc0009563d">MR::findProjection</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
 <tr class="memdesc:gaa20d785f3f82fad58fb659bc0009563d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:gaa20d785f3f82fad58fb659bc0009563d"><td class="memSeparator" colspan="2">&#160;</td></tr>

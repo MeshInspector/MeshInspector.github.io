@@ -141,9 +141,10 @@ var searchData=
   ['processoneresult_138',['ProcessOneResult',['.././Py/classmrmeshpy_1_1ProcessOneResult.html',1,'mrmeshpy']]],
   ['processresult_139',['ProcessResult',['.././Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'MR::TeethMaskToDirectionVolumeConvertor::ProcessResult'],['.././Py/classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'mrmeshpy::TeethMaskToDirectionVolumeConvertor::ProcessResult']]],
   ['progressinterrupter_140',['ProgressInterrupter',['.././Cpp/structMR_1_1ProgressInterrupter.html',1,'MR']]],
-  ['projectionresult_141',['ProjectionResult',['.././Cpp/structMR_1_1MeshOrPoints_1_1ProjectionResult.html',1,'MR::MeshOrPoints::ProjectionResult'],['.././Py/classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html',1,'mrmeshpy::MeshOrPoints::ProjectionResult']]],
-  ['protectedstruct_142',['ProtectedStruct',['.././Cpp/structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
-  ['pythonexport_143',['PythonExport',['.././Cpp/classMR_1_1PythonExport.html',1,'MR']]],
-  ['pythonfunctionadder_144',['PythonFunctionAdder',['.././Cpp/structMR_1_1PythonFunctionAdder.html',1,'MR']]],
-  ['pythonstreamredirector_145',['PythonStreamRedirector',['.././Cpp/classPythonStreamRedirector.html',1,'']]]
+  ['projectattributeparams_141',['ProjectAttributeParams',['.././Cpp/structMR_1_1ProjectAttributeParams.html',1,'MR::ProjectAttributeParams'],['.././Py/classmrmeshpy_1_1ProjectAttributeParams.html',1,'mrmeshpy::ProjectAttributeParams']]],
+  ['projectionresult_142',['ProjectionResult',['.././Cpp/structMR_1_1MeshOrPoints_1_1ProjectionResult.html',1,'MR::MeshOrPoints::ProjectionResult'],['.././Py/classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html',1,'mrmeshpy::MeshOrPoints::ProjectionResult']]],
+  ['protectedstruct_143',['ProtectedStruct',['.././Cpp/structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
+  ['pythonexport_144',['PythonExport',['.././Cpp/classMR_1_1PythonExport.html',1,'MR']]],
+  ['pythonfunctionadder_145',['PythonFunctionAdder',['.././Cpp/structMR_1_1PythonFunctionAdder.html',1,'MR']]],
+  ['pythonstreamredirector_146',['PythonStreamRedirector',['.././Cpp/classPythonStreamRedirector.html',1,'']]]
 ];

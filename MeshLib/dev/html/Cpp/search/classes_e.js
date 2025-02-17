@@ -141,9 +141,10 @@ var searchData=
   ['processoneresult_138',['ProcessOneResult',['../../Py/classmrmeshpy_1_1ProcessOneResult.html',1,'mrmeshpy']]],
   ['processresult_139',['ProcessResult',['../structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'MR::TeethMaskToDirectionVolumeConvertor::ProcessResult'],['../../Py/classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'mrmeshpy::TeethMaskToDirectionVolumeConvertor::ProcessResult']]],
   ['progressinterrupter_140',['ProgressInterrupter',['../structMR_1_1ProgressInterrupter.html',1,'MR']]],
-  ['projectionresult_141',['ProjectionResult',['../structMR_1_1MeshOrPoints_1_1ProjectionResult.html',1,'MR::MeshOrPoints::ProjectionResult'],['../../Py/classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html',1,'mrmeshpy::MeshOrPoints::ProjectionResult']]],
-  ['protectedstruct_142',['ProtectedStruct',['../structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
-  ['pythonexport_143',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
-  ['pythonfunctionadder_144',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR']]],
-  ['pythonstreamredirector_145',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
+  ['projectattributeparams_141',['ProjectAttributeParams',['../structMR_1_1ProjectAttributeParams.html',1,'MR::ProjectAttributeParams'],['../../Py/classmrmeshpy_1_1ProjectAttributeParams.html',1,'mrmeshpy::ProjectAttributeParams']]],
+  ['projectionresult_142',['ProjectionResult',['../structMR_1_1MeshOrPoints_1_1ProjectionResult.html',1,'MR::MeshOrPoints::ProjectionResult'],['../../Py/classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html',1,'mrmeshpy::MeshOrPoints::ProjectionResult']]],
+  ['protectedstruct_143',['ProtectedStruct',['../structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
+  ['pythonexport_144',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
+  ['pythonfunctionadder_145',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR']]],
+  ['pythonstreamredirector_146',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
 ];
