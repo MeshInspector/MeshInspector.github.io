@@ -211,7 +211,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">sphere2.transform(xf)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># perform boolean operation</span></div>
-<div class="line">result = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac7023054263eabf61d3061f4929c4d87">mrmeshpy.boolean</a>(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection)</div>
+<div class="line">result = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a463c27efa9fb6ec9d7c5537b94312653">mrmeshpy.boolean</a>(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection)</div>
 <div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> result.valid():</div>
 <div class="line">    print(result.errorString)</div>
 <div class="line"><span class="keywordflow">else</span>:</div>
@@ -221,8 +221,8 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy::Vector3f</a></div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a0840328424a66d0e72723a1b708ba360"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0840328424a66d0e72723a1b708ba360">mrmeshpy::makeUVSphere</a></div><div class="ttdeci">Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a463c27efa9fb6ec9d7c5537b94312653"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a463c27efa9fb6ec9d7c5537b94312653">mrmeshpy::boolean</a></div><div class="ttdeci">BooleanResult boolean(Mesh meshA, Mesh meshB, BooleanOperation operation, BooleanParameters params='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a8e026193a82cb44332b09df092ec1d0f"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a8e026193a82cb44332b09df092ec1d0f">mrmeshpy::copyMesh</a></div><div class="ttdeci">copyMesh</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac7023054263eabf61d3061f4929c4d87"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac7023054263eabf61d3061f4929c4d87">mrmeshpy::boolean</a></div><div class="ttdeci">BooleanResult boolean(Mesh meshA, Mesh meshB, BooleanOperation operation, AffineXf3f rigidB2A, BooleanResultMapper mapper=None, func_bool_from_float cb='{}')</div></div>
 </div><!-- fragment --> Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>
 </div>
