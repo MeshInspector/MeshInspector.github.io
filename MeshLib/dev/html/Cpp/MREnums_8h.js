@@ -26,5 +26,10 @@ var MREnums_8h =
     [ "Processing", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149", [
       [ "Continue", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe", null ],
       [ "Stop", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481", null ]
+    ] ],
+    [ "UseAABBTree", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeff", [
+      [ "No", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "Yes", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435", null ],
+      [ "YesIfAlreadyConstructed", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83", null ]
     ] ]
 ];

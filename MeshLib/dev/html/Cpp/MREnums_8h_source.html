@@ -208,7 +208,16 @@ $(function(){initNavTree('MREnums_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
 </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>} <span class="comment">//namespace MR</span></div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="};">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">   55</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> : <span class="keywordtype">char</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b">No</a>,  <span class="comment">// AABB-tree of the mesh will not be used, even if it is available</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">Yes</a>, <span class="comment">// AABB-tree of the mesh will be used even if it has to be constructed</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83">YesIfAlreadyConstructed</a>, <span class="comment">// AABB-tree of the mesh will be used if it was previously constructed and available, and will not be used otherwise</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
+</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="anamespaceMR_html_a270a25a8ef13e07e59e7070834efc33f"><div class="ttname"><a href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">MR::ColoringType</a></div><div class="ttdeci">ColoringType</div><div class="ttdef"><b>Definition</b> MREnums.h:47</div></div>
 <div class="ttc" id="anamespaceMR_html_a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197"><div class="ttname"><a href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197">MR::ColoringType::LinesColorMap</a></div><div class="ttdeci">@ LinesColorMap</div><div class="ttdoc">Use different color (taken from faces colormap) for each line (primitive for object lines)</div></div>
@@ -232,6 +241,10 @@ $(function(){initNavTree('MREnums_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7"><div class="ttname"><a href="namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7">MR::OrientNormals::AwayFromOrigin</a></div><div class="ttdeci">@ AwayFromOrigin</div></div>
 <div class="ttc" id="anamespaceMR_html_af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f"><div class="ttname"><a href="namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f">MR::OrientNormals::TowardOrigin</a></div><div class="ttdeci">@ TowardOrigin</div></div>
 <div class="ttc" id="anamespaceMR_html_af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666"><div class="ttname"><a href="namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666">MR::OrientNormals::Smart</a></div><div class="ttdeci">@ Smart</div></div>
+<div class="ttc" id="anamespaceMR_html_afb67fe49bcb6006882e7b08e51b2eeff"><div class="ttname"><a href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">MR::UseAABBTree</a></div><div class="ttdeci">UseAABBTree</div><div class="ttdef"><b>Definition</b> MREnums.h:56</div></div>
+<div class="ttc" id="anamespaceMR_html_afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83"><div class="ttname"><a href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83">MR::UseAABBTree::YesIfAlreadyConstructed</a></div><div class="ttdeci">@ YesIfAlreadyConstructed</div></div>
+<div class="ttc" id="anamespaceMR_html_afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435"><div class="ttname"><a href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">MR::UseAABBTree::Yes</a></div><div class="ttdeci">@ Yes</div></div>
+<div class="ttc" id="anamespaceMR_html_afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b"><div class="ttname"><a href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b">MR::UseAABBTree::No</a></div><div class="ttdeci">@ No</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
