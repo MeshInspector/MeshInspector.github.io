@@ -202,13 +202,13 @@ var NAVTREEINDEX =
 "structMR_1_1Plane3.html",
 "structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f",
 "structMR_1_1RefineParameters.html",
-"structMR_1_1SaveSettings.html",
-"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1",
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31",
-"structMR_1_1TransformControls_1_1VisualParams.html#a4d1df5643f784225a03cc558c03d81cf",
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a229fd015ed069a04dae134c45b2ed91d",
-"structMR_1_1Vector3.html#aa1b7f648b920d3afcfd29032b79ed8af",
-"structMR_1_1VoxelsLoad_1_1RawParameters.html"
+"structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb",
+"structMR_1_1SortIntersectionsData.html",
+"structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351",
+"structMR_1_1TransformControls_1_1VisualParams.html#a263e10cb84fcd843581cc2aeea08d6a2",
+"structMR_1_1UI_1_1SaveChangesPopupSettings.html",
+"structMR_1_1Vector3.html#a8d2060921c3ecd7d080f93c50e1bec51",
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#aafca990d1d688a3f2f9ce8ba0a67a3c5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
