@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1ProgressBar.html#ae692760ee83b399be6653c81468172ea":[6,0,1,0,1,29,19],
+"namespaceMR_1_1ProgressBar.html#ae694b1e02bb163d667aaca266f472606":[6,0,1,0,1,29,16],
 "namespaceMR_1_1ProgressBar.html#af847e27a1f34b2b07a29272ef2fb9e88":[6,0,1,0,1,29,2],
 "namespaceMR_1_1RenderDimensions.html":[6,0,1,0,1,30],
 "namespaceMR_1_1RenderFeatures.html":[6,0,1,0,1,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "namespacemembers_y.html":[6,0,1,1,0,22],
 "namespacemembers_z.html":[6,0,1,1,0,23],
 "namespaces.html":[6,0,1,0],
-"pages.html":[],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0]
+"pages.html":[]
 };

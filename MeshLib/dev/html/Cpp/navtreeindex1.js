@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRCanonicalTypedefs_8h.html#a011d44bc0918ffa467a5150bc8a81e03":[6,0,3,0,0,1,3,33,6],
+"MRCanonicalTypedefs_8h.html#a2903a0e2c131ffaa26858a7eb32ab7a8":[6,0,3,0,0,1,3,33,2],
 "MRCanonicalTypedefs_8h.html#a3ef3f2296c0ae0d60a92c9adbf443c9b":[6,0,3,0,0,1,3,33,1],
 "MRCanonicalTypedefs_8h.html#abbdf37435c9fc8f0138b1bd0133c1d17":[6,0,3,0,0,1,3,33,5],
 "MRCanonicalTypedefs_8h.html#addc4eaad729e291000785733b3c6fca4":[6,0,3,0,0,1,3,33,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MREnumNeighbours_8h.html#a94117671036cf6c2bf6bc33547519d1a":[6,0,3,0,0,1,3,89,2],
 "MREnumNeighbours_8h_source.html":[6,0,3,0,0,1,3,89],
 "MREnums_8h.html":[6,0,3,0,0,1,3,90],
-"MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33f":[6,0,3,0,0,1,3,90,0],
-"MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197":[6,0,3,0,0,1,3,90,0,3],
-"MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd":[6,0,3,0,0,1,3,90,0,4]
+"MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33f":[6,0,3,0,0,1,3,90,0]
 };

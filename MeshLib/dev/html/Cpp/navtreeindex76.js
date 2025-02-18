@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f":[6,0,0,15,0,0],
+"structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[6,0,0,15,0,3],
 "structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[6,0,0,15,0,6],
 "structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[6,0,0,15,0,4],
 "structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[6,0,0,15,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1RebuildMeshSettings.html#aedf85a579696f897a9cd4c1c719059b8":[6,0,2,0,1,508,6],
 "structMR_1_1RebuildMeshSettings.html#aef34909f1adee996217b09204c89d4ec":[6,0,1,0,1,524,4],
 "structMR_1_1RebuildMeshSettings.html#aef34909f1adee996217b09204c89d4ec":[6,0,2,0,1,508,4],
-"structMR_1_1RefineParameters.html":[6,0,1,0,1,527],
-"structMR_1_1RefineParameters.html":[6,0,2,0,1,511],
-"structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[6,0,1,0,1,527,4]
+"structMR_1_1RefineParameters.html":[6,0,1,0,1,527]
 };

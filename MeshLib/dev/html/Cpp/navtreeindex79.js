@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,1,0,1,629,0],
+"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,2,0,1,613,0],
 "structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,1,0,1,629,1],
 "structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,2,0,1,613,1],
 "structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[6,0,1,0,1,629,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,1,0,1,656,0],
 "structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,2,0,1,640,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,1,0,1,659,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,2,0,1,643,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,1,0,1,659,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,2,0,1,643,0,0]
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,2,0,1,643,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"classmrmeshpy_1_1VoxelBitSet.html#a5c0eb2a3ac4e52f7d44e0f778a372685":[6,1,0,0,2,1095,0],
+"classmrmeshpy_1_1VoxelBitSet.html#a5c0eb2a3ac4e52f7d44e0f778a372685":[6,1,0,0,2,1095,1],
 "classmrmeshpy_1_1VoxelBitSet.html#a5c0eb2a3ac4e52f7d44e0f778a372685":[6,1,1,0,1,1095,0],
 "classmrmeshpy_1_1VoxelBitSet.html#a5c0eb2a3ac4e52f7d44e0f778a372685":[6,1,1,0,1,1095,1],
 "classmrmeshpy_1_1VoxelBitSet.html#a6b5a68d538548712878dcc05c735f60d":[6,1,0,0,2,1095,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#aef536f7803eaf3e20c3c543bad08b2d6":[6,1,0,0,2,1100,0,7],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#aef536f7803eaf3e20c3c543bad08b2d6":[6,1,1,0,1,1100,0,7],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html":[6,1,0,0,2,1102],
-"classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html":[6,1,1,0,1,1102],
-"classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html#a1b4c6ca9b22dc14906d5b0137123e081":[6,1,0,0,2,1102,1],
-"classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html#a1b4c6ca9b22dc14906d5b0137123e081":[6,1,1,0,1,1102,1]
+"classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html":[6,1,1,0,1,1102]
 };

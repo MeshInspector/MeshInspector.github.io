@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1MeshToDistanceMapParams.html":[6,0,0,5,3],
+"structMR_1_1MeshToDistanceMapParams.html#a0a6eecb875a2ecf0083eb4d21451bbad":[6,0,0,5,3,14],
 "structMR_1_1MeshToDistanceMapParams.html#a0c6ccd10574471e4af8efbc69fafa6e8":[6,0,0,5,3,3],
 "structMR_1_1MeshToDistanceMapParams.html#a14db6d93dcb7499b5254dcfdca3449da":[6,0,0,5,3,4],
 "structMR_1_1MeshToDistanceMapParams.html#a21d0cfe784245102024dfe44da9bf9de":[6,0,0,5,3,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc":[6,0,0,1,19,2],
 "structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15":[6,0,0,1,19,1],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html":[6,0,0,0,8,0,0],
-"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[6,0,0,0,8,0,0,1],
-"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[6,0,0,0,8,0,0,0],
-"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,1,0,1,385]
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[6,0,0,0,8,0,0,1]
 };

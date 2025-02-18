@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"classmrmeshpy_1_1ChangePointCloudPointsAction.html#abb77515de776b5251e32a5266811366f":[6,1,0,0,2,123,3],
+"classmrmeshpy_1_1ChangePointCloudPointsAction.html#abb77515de776b5251e32a5266811366f":[6,1,1,0,1,123,3],
 "classmrmeshpy_1_1ChangePointPointSelectionAction.html":[6,1,0,0,2,124],
 "classmrmeshpy_1_1ChangePointPointSelectionAction.html":[6,1,1,0,1,124],
 "classmrmeshpy_1_1ChangePointPointSelectionAction.html#a2f85b393a91e1c01244a58e76350a6e6":[6,1,0,0,2,124,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "classmrmeshpy_1_1Color.html#ab08fa5ee4cbe2fec078cea6d72862502":[6,1,0,0,2,142,11],
 "classmrmeshpy_1_1Color.html#ab08fa5ee4cbe2fec078cea6d72862502":[6,1,1,0,1,142,11],
 "classmrmeshpy_1_1Color.html#abe6f1d57bfc9763609bb097d29faa518":[6,1,0,0,2,142,6],
-"classmrmeshpy_1_1Color.html#abe6f1d57bfc9763609bb097d29faa518":[6,1,1,0,1,142,6],
-"classmrmeshpy_1_1Color.html#acf59bafee74b1b82de6359f93fc00641":[6,1,0,0,2,142,13],
-"classmrmeshpy_1_1Color.html#acf59bafee74b1b82de6359f93fc00641":[6,1,1,0,1,142,13]
+"classmrmeshpy_1_1Color.html#abe6f1d57bfc9763609bb097d29faa518":[6,1,1,0,1,142,6]
 };

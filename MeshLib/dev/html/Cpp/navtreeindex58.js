@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR.html#af932c229587a29f4c48cb5af27b2e6eb":[6,0,1,0,1,1466],
+"namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03":[6,0,1,0,1,1937],
 "namespaceMR.html#afa8211ed28ab87c4d0055c34f65e8e2f":[6,0,1,0,1,2408],
 "namespaceMR.html#afa84284f3a9ac1e8655a99b2ec657a92":[6,0,1,0,1,2314],
 "namespaceMR.html#afac751f311b648116a3a4afcd06a10c7":[6,0,1,0,1,2108],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR_1_1ProgressBar.html#ab66618d001f8cbce3e0a07b2b4dde0af":[6,0,1,0,1,29,5],
 "namespaceMR_1_1ProgressBar.html#abd6ace0900add6a59ee1539dffc5d961":[6,0,1,0,1,29,8],
 "namespaceMR_1_1ProgressBar.html#abd759374a06a6cb111abb5a5ad608ea1":[6,0,1,0,1,29,20],
-"namespaceMR_1_1ProgressBar.html#ad694eb3ebaed27434a4adc6f85c929e6":[6,0,1,0,1,29,13],
-"namespaceMR_1_1ProgressBar.html#ae692760ee83b399be6653c81468172ea":[6,0,1,0,1,29,19],
-"namespaceMR_1_1ProgressBar.html#ae694b1e02bb163d667aaca266f472606":[6,0,1,0,1,29,16]
+"namespaceMR_1_1ProgressBar.html#ad694eb3ebaed27434a4adc6f85c929e6":[6,0,1,0,1,29,13]
 };

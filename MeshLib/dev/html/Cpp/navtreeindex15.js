@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"MRVector4_8h.html":[6,0,3,0,0,1,3,369],
+"MRVector4_8h_source.html":[6,0,3,0,0,1,3,369],
 "MRVertCoordsDiff_8h.html":[6,0,3,0,0,1,3,371],
 "MRVertCoordsDiff_8h_source.html":[6,0,3,0,0,1,3,371],
 "MRVertexAttributeGradient_8h.html":[6,0,3,0,0,1,3,372],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1AABBTreeBase.html#a11f524576ba6c686729f0173615bc190":[6,0,2,0,1,27,18],
 "classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2":[6,0,1,0,1,43,0],
 "classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2":[6,0,2,0,1,27,0],
-"classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,1,0,1,43,16],
-"classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,2,0,1,27,16],
-"classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,1,0,1,43,5]
+"classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,1,0,1,43,16]
 };
