@@ -180,7 +180,7 @@ var searchData=
   ['plugin_177',['How to make your first plugin',['../StatePluginsHelp.html#autotoc_md106',1,'']]],
   ['plugin_20overview_178',['C++ Example Plugin Overview',['../ExamplePluginOverview.html',1,'']]],
   ['plugin_20to_20meshinspector_20meshlib_179',['Add Your Own Plugin to MeshInspector/MeshLib',['../HowtoAddPluginOverview.html#autotoc_md80',1,'']]],
-  ['plugin_20to_20meshlib_20or_20meshinspector_20strong_180',['&lt;strong&gt;How to Add the Plugin to MeshLib or MeshInspector&lt;/strong&gt;',['../HowtoAddPluginOverview.html#autotoc_md84',1,'']]],
+  ['plugin_20to_20meshlib_20or_20meshinspector_180',['How to Add the Plugin to MeshLib or MeshInspector',['../HowtoAddPluginOverview.html#autotoc_md84',1,'']]],
   ['plugin_20using_20meshlib_20c_20on_20windows_181',['How to Create a First Plugin Using MeshLib C++ on Windows',['../Tutorials.html#autotoc_md115',1,'']]],
   ['plugin_20using_20meshlib_20c_20on_20windows_182',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
   ['plugin_5fname_183',['plugin_name',['.././Cpp/classMR_1_1StateBasePlugin.html#a3e0c7bd65afe7b25c1f4be31e13ea0c5',1,'MR::StateBasePlugin']]],

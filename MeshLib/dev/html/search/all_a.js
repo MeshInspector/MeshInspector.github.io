@@ -102,7 +102,7 @@ var searchData=
   ['hoveredcolor_99',['hoveredColor',['.././Cpp/structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor'],['.././Cpp/structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters::hoveredColor']]],
   ['hoveredlinewidth_100',['hoveredLineWidth',['.././Cpp/structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9',1,'MR::BoundarySelectionWidget::BoundarySelectionWidgetParams']]],
   ['how_20to_20add_20plugin_101',['How to Add Plugin',['../HowtoAddPluginOverview.html',1,'']]],
-  ['how_20to_20add_20the_20plugin_20to_20meshlib_20or_20meshinspector_20strong_102',['&lt;strong&gt;How to Add the Plugin to MeshLib or MeshInspector&lt;/strong&gt;',['../HowtoAddPluginOverview.html#autotoc_md84',1,'']]],
+  ['how_20to_20add_20the_20plugin_20to_20meshlib_20or_20meshinspector_102',['How to Add the Plugin to MeshLib or MeshInspector',['../HowtoAddPluginOverview.html#autotoc_md84',1,'']]],
   ['how_20to_20create_20a_20first_20plugin_20using_20meshlib_20c_20on_20windows_103',['How to Create a First Plugin Using MeshLib C++ on Windows',['../Tutorials.html#autotoc_md115',1,'']]],
   ['how_20to_20create_20a_20first_20plugin_20using_20meshlib_20c_20on_20windows_104',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
   ['how_20to_20install_20meshlib_20sdk_20for_20python_105',['How to Install MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],

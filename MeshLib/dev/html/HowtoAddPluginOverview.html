@@ -158,7 +158,7 @@ $(function(){initNavTree('HowtoAddPluginOverview.html',''); initResizable(true);
 <li class="level3"><a href="#autotoc_md83">Additional Resources</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md84">&lt;strong&gt;How to Add the Plugin to MeshLib or MeshInspector&lt;/strong&gt;</a><ul><li class="level3"><a href="#autotoc_md85">MeshLib</a></li>
+<li class="level2"><a href="#autotoc_md84">How to Add the Plugin to MeshLib or MeshInspector</a><ul><li class="level3"><a href="#autotoc_md85">MeshLib</a></li>
 <li class="level3"><a href="#autotoc_md86">MeshInspector</a></li>
 </ul>
 </li>
@@ -186,7 +186,7 @@ Additional Resources</h3>
 <li><a class="el" href="ExamplePluginOverview.html">Plugin Example</a> with a full-fledged sample of a C++ plugin with Visual Studio project files, source code for basic tools, and instructions on deploying the plugin in MeshLib or MeshInspector.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md84"></a>
-<b>How to Add the Plugin to MeshLib or MeshInspector</b></h2>
+How to Add the Plugin to MeshLib or MeshInspector</h2>
 <p>Once you have compiled your plugin, follow these steps:</p>
 <h3><a class="anchor" id="autotoc_md85"></a>
 MeshLib</h3>
@@ -198,7 +198,7 @@ MeshLib</h3>
 <h3><a class="anchor" id="autotoc_md86"></a>
 MeshInspector</h3>
 <ul>
-<li>Locate your plugin’s x64\Release (or x64\Debug) output folder.</li>
+<li>Locate your plugin’s x64\Release output folder.</li>
 <li>Copy all files from this folder into the C:\Program Files\MeshInspector\MeshInspector folder (or your MeshInspector installation folder).</li>
 <li>Confirm that the MeshLib version used by MeshInspector matches the one used to compile your plugin.</li>
 </ul>
@@ -207,12 +207,7 @@ Final reminder</h1>
 <p>MeshLib and MeshInspector rely on a specific SDK version. Verify that the version used during plugin compilation is the same as:</p>
 <ul>
 <li>With MeshLib, the version you have installed, keep track of it. Save it for your info. Also, depending on how you have installed MeshLib, there are two ways to find out what your version is.</li>
-</ul>
-<ol type="1">
-<li>If MeshLib is installed via Python, the installation process keeps track of the version. Try these commands: <b>pip list</b> that displays all installed Python packages or <b>pip show &lt;package_name&gt;</b> (in our case, it is the name is <b>meshlib</b>) that displays more detailed information on a specific package.</li>
 <li>If using the provided archive: Look for the <b>mr.version</b> file. This file is typically located in <b>install\app\Debug</b> and <b>install\app\Release</b></li>
-</ol>
-<ul>
 <li>With MeshInspector, launch MeshInspector, go to Home → About, and note the MeshInspector Version displayed.</li>
 </ul>
 <p>It is recommended to use the latest version of both MeshLib and MeshInspector to avoid mismatches and potential errors. </p>
