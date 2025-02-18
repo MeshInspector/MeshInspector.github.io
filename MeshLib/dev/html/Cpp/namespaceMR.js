@@ -1983,7 +1983,7 @@ var namespaceMR =
     [ "findSteepestDescentPoint", "group__SurfacePathSubgroup.html#ga316d288d92ba2fc460dcc7d29398e084", null ],
     [ "findSteepestDescentPoint", "group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2", null ],
     [ "findSubstringCaseInsensitive", "group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53", null ],
-    [ "findTriangleSectionsByXYPlane", "namespaceMR.html#a02d35e644e8eea08edfa18e754515093", null ],
+    [ "findTriangleSectionsByXYPlane", "namespaceMR.html#adbf7de5ff23bc53757bf54ee9d85acfa", null ],
     [ "findTriangleSegmentIntersection", "group__TriangleIntersectionGroup.html#gabd389cf6a5e3a2723def05e2d19fac73", null ],
     [ "findTriangleSegmentIntersectionPrecise", "namespaceMR.html#a6f4d593d1b9ff1f262a583bf72f384f8", null ],
     [ "findTrisInBall", "group__AABBTreeGroup.html#ga6b8bb4a57a94133b6563903c8c156c3e", null ],

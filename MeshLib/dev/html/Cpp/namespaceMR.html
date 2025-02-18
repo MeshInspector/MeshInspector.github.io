@@ -3355,8 +3355,8 @@ Functions</h2></td></tr>
 <tr class="memitem:abe24a43ab0e3fdaaa85e85fbe6d70189" id="r_abe24a43ab0e3fdaaa85e85fbe6d70189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe24a43ab0e3fdaaa85e85fbe6d70189">hasAnyXYPlaneSection</a> (const MeshPart &amp;mp, float zLevel)</td></tr>
 <tr class="memdesc:abe24a43ab0e3fdaaa85e85fbe6d70189"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments  <br /></td></tr>
 <tr class="separator:abe24a43ab0e3fdaaa85e85fbe6d70189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02d35e644e8eea08edfa18e754515093" id="r_a02d35e644e8eea08edfa18e754515093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; LineSegm3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02d35e644e8eea08edfa18e754515093">findTriangleSectionsByXYPlane</a> (const MeshPart &amp;mp, float zLevel, std::vector&lt; FaceId &gt; *faces=nullptr)</td></tr>
-<tr class="separator:a02d35e644e8eea08edfa18e754515093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf7de5ff23bc53757bf54ee9d85acfa" id="r_adbf7de5ff23bc53757bf54ee9d85acfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; LineSegm3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf7de5ff23bc53757bf54ee9d85acfa">findTriangleSectionsByXYPlane</a> (const MeshPart &amp;mp, float zLevel, std::vector&lt; FaceId &gt; *faces=nullptr, <a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
+<tr class="separator:adbf7de5ff23bc53757bf54ee9d85acfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fc738fcb74adad1003e324c209a09d3" id="r_a2fc738fcb74adad1003e324c209a09d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a92cbbca830da255a9350ce63a48f49c3">PlaneSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fc738fcb74adad1003e324c209a09d3">trackSection</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const Vector3f &amp;<a class="el" href="#a24a027691feb30cad77ca6a162d05c58aef72c37be9d1b9e6e5bbd6ef09448abe">direction</a>, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>)</td></tr>
 <tr class="separator:a2fc738fcb74adad1003e324c209a09d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a3113decc3c8c023af5840508849cdf" id="r_a8a3113decc3c8c023af5840508849cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a92cbbca830da255a9350ce63a48f49c3">PlaneSection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a3113decc3c8c023af5840508849cdf">trackSection</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const Vector3f &amp;planePoint, bool <a class="el" href="group__MathGroup.html#ga04b9e51953d898cf85e76c05d426366a">ccw</a>)</td></tr>
@@ -16574,8 +16574,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a02d35e644e8eea08edfa18e754515093" name="a02d35e644e8eea08edfa18e754515093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02d35e644e8eea08edfa18e754515093">&#9670;&#160;</a></span>findTriangleSectionsByXYPlane()</h2>
+<a id="adbf7de5ff23bc53757bf54ee9d85acfa" name="adbf7de5ff23bc53757bf54ee9d85acfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf7de5ff23bc53757bf54ee9d85acfa">&#9670;&#160;</a></span>findTriangleSectionsByXYPlane()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16596,7 +16596,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; FaceId &gt; *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">std::vector&lt; FaceId &gt; *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a></td>          <td class="paramname"><span class="paramname"><em>u</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -16612,7 +16617,7 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<p>this function does not build and use AABB currently, but it must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time </p>
+<p>this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time </p>
 
 </div>
 </div>

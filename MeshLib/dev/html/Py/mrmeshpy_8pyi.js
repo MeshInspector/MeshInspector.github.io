@@ -1611,7 +1611,7 @@ var mrmeshpy_8pyi =
     [ "findSteepestDescentPoint", "mrmeshpy_8pyi.html#a482398e94484774d81fa87b5c49e2a7f", null ],
     [ "findSteepestDescentPoint", "mrmeshpy_8pyi.html#a43aef43c8a47d647618f82b3675c1601", null ],
     [ "findSubstringCaseInsensitive", "mrmeshpy_8pyi.html#a646a419cee4a5f85a656ac4bceae9d85", null ],
-    [ "findTriangleSectionsByXYPlane", "mrmeshpy_8pyi.html#aeb74dcda781ed2cc7289cea80bae40ab", null ],
+    [ "findTriangleSectionsByXYPlane", "mrmeshpy_8pyi.html#a1bce571fc38799ad490e232081e829ed", null ],
     [ "findTriangleSegmentIntersectionPrecise", "mrmeshpy_8pyi.html#ad64681b15f558cf1f5fd0b5606a1272c", null ],
     [ "findTrisInBall", "mrmeshpy_8pyi.html#a3c3babe71aea69815babe3c72c4b86b9", null ],
     [ "findTwinEdgePairs", "mrmeshpy_8pyi.html#a17dd98255d37820c41454081710aaed2", null ],
