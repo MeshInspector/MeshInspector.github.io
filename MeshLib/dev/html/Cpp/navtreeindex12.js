@@ -1,5 +1,13 @@
 var NAVTREEINDEX12 =
 {
+"MRRibbonIcons_8h_source.html":[6,0,3,0,0,1,9,81],
+"MRRibbonMenuItem_8h.html":[6,0,3,0,0,1,9,83],
+"MRRibbonMenuItem_8h.html#a1478e43a90bad95d9ef709807606688a":[6,0,3,0,0,1,9,83,2],
+"MRRibbonMenuItem_8h.html#a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4":[6,0,3,0,0,1,9,83,2,1],
+"MRRibbonMenuItem_8h.html#a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0":[6,0,3,0,0,1,9,83,2,0],
+"MRRibbonMenuItem_8h.html#a8201e149aed09ff61bb82c538012fbd1":[6,0,3,0,0,1,9,83,1],
+"MRRibbonMenuItem_8h_source.html":[6,0,3,0,0,1,9,83],
+"MRRibbonMenuSearch_8h.html":[6,0,3,0,0,1,9,84],
 "MRRibbonMenuSearch_8h_source.html":[6,0,3,0,0,1,9,84],
 "MRRibbonMenu_8h.html":[6,0,3,0,0,1,9,82],
 "MRRibbonMenu_8h.html#a65e09ecf9e3517b622b301a26aa3de73":[6,0,3,0,0,1,9,82,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX12 =
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387":[6,0,3,0,0,1,9,111,2,8],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6ff9dd0d34f65181173c1e4bc39939de":[6,0,3,0,0,1,9,111,2,4],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961":[6,0,3,0,0,1,9,111,2,1],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07":[6,0,3,0,0,1,9,111,2,6],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a972e73b7a882d0802a4e3a16946a2f94":[6,0,3,0,0,1,9,111,2,0],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77":[6,0,3,0,0,1,9,111,2,2],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,3,0,0,1,9,111,2,9],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa":[6,0,3,0,0,1,9,111,2,3],
-"MRStatePlugin_8h_source.html":[6,0,3,0,0,1,9,111],
-"MRStep_8h.html":[6,0,3,0,0,1,2,10],
-"MRStep_8h.html#a18cc94bfc1baa02c861e6023774fcd8b":[6,0,3,0,0,1,2,10,3],
-"MRStep_8h.html#abbf7faeb36062c71f04bafb9137d97bf":[6,0,3,0,0,1,2,10,2]
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07":[6,0,3,0,0,1,9,111,2,6]
 };
