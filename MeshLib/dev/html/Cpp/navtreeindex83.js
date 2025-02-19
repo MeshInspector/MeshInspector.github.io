@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1Vector2.html#ab7fcc36a4aed6877f53de2be29034e67":[6,0,0,0,12,0,18],
 "structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e":[6,0,0,0,12,0,20],
 "structMR_1_1Vector2.html#ad798818540cd3ad9d2c98a4f978f8e5c":[6,0,0,0,12,0,11],
 "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621":[6,0,0,0,12,0,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1VoxelTraits.html":[6,0,2,0,1,739],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,1,0,1,756],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,2,0,1,740],
-"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,1,0,1,756,0],
-"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,2,0,1,740,0]
+"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,1,0,1,756,0]
 };

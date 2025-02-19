@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,768],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[6,0,1,0,1,3,0,1],
 "dir_0548e20a3bcd59381bf0bdb32f67cd97.html":[6,0,3,0,0,1,10],
 "dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "group__AABBTreeGroup.html#gac978c520f500c1e3dad2ddaff7a333f0":[6,0,0,1,108],
 "group__AABBTreeGroup.html#gaca3917c935c4b071cac785463beaa5f2":[6,0,0,1,109],
 "group__AABBTreeGroup.html#gaccdf7712b3c2bc175e4b09aae138aa40":[6,0,0,1,73],
-"group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a":[6,0,0,1,42],
-"group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841":[6,0,0,1,83]
+"group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a":[6,0,0,1,42]
 };

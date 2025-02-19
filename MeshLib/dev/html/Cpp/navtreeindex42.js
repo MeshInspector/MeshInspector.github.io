@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1TeethMaskToDirectionVolumeConvertor.html":[6,0,2,0,1,643],
 "classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a4aa7048d9cefc5a963d3583190bea7e1":[6,0,1,0,1,659,1],
 "classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a4aa7048d9cefc5a963d3583190bea7e1":[6,0,2,0,1,643,1],
 "classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a71a87f86afb3191c2524b393470a6619":[6,0,1,0,1,659,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Vector.html#afe036f3c1c401f178ceea255f88a2cda":[6,0,0,3,16,22],
 "classMR_1_1Vector.html#afe49f6b723cf6b2b08dfe4d50ddd1c53":[6,0,0,3,16,15],
 "classMR_1_1Vector.html#affe4aad8fd23742b0de456abb1921fc0":[6,0,0,3,16,24],
-"classMR_1_1VertCoordsDiff.html":[6,0,0,9,11],
-"classMR_1_1VertCoordsDiff.html#a5f175f350625d742580210d6aeda32e8":[6,0,0,9,11,2]
+"classMR_1_1VertCoordsDiff.html":[6,0,0,9,11]
 };

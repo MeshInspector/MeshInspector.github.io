@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,2,0,1,56,2],
 "classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,1,0,1,72,3],
 "classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,2,0,1,56,3],
 "classMR_1_1BinaryOperations.html":[6,0,1,0,1,73],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeMeshCreasesAction.html#ac0652611ceda3ea880e9a537d6d5760c":[6,0,0,4,26,2],
 "classMR_1_1ChangeMeshEdgeSelectionAction.html":[6,0,0,4,25],
 "classMR_1_1ChangeMeshEdgeSelectionAction.html#a0943bda0fc9bda571b5de449d3bca979":[6,0,0,4,25,4],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a":[6,0,0,4,25,1],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a59d389a6910ddd51ea9d3a05db2dfcee":[6,0,0,4,25,5]
+"classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a":[6,0,0,4,25,1]
 };

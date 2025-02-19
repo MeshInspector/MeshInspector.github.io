@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespacemembers_type_n.html":[6,0,1,1,3,11],
 "namespacemembers_type_o.html":[6,0,1,1,3,12],
 "namespacemembers_type_p.html":[6,0,1,1,3,13],
 "namespacemembers_type_q.html":[6,0,1,1,3,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMRMeshSaveNamedXfMesh.html#afffb4a4f6c7bfdb6e40d412b60500177":[6,0,2,0,38,1],
 "structMRMeshToVolumeSettings.html":[6,0,2,0,39],
 "structMRMeshToVolumeSettings.html#a6be44a348adb0147372be4b6f49d8013":[6,0,2,0,39,3],
-"structMRMeshToVolumeSettings.html#a9dd30ca07a73a9295dcbd01f98ba25a9":[6,0,2,0,39,4],
-"structMRMeshToVolumeSettings.html#ab06378bf65d78b7323ceb4ace401d1f6":[6,0,2,0,39,1]
+"structMRMeshToVolumeSettings.html#a9dd30ca07a73a9295dcbd01f98ba25a9":[6,0,2,0,39,4]
 };

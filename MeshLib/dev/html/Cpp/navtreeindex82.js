@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[6,0,1,0,1,38,8,9],
 "structMR_1_1UI_1_1PlotAxis.html#af710e93303e33734f9e81f2667f5c665":[6,0,2,0,1,23,7,9],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html":[6,0,1,0,1,38,9],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html":[6,0,2,0,1,23,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb":[6,0,0,0,12,0,10],
 "structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[6,0,0,0,12,0,1],
 "structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[6,0,0,0,12,0,28],
-"structMR_1_1Vector2.html#ab4e40155ff2cca5786fd9aa586efb49c":[6,0,0,0,12,0,12],
-"structMR_1_1Vector2.html#ab7fcc36a4aed6877f53de2be29034e67":[6,0,0,0,12,0,18]
+"structMR_1_1Vector2.html#ab4e40155ff2cca5786fd9aa586efb49c":[6,0,0,0,12,0,12]
 };

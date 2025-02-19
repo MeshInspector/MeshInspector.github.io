@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"Vector_8h.html#ac5fbc7efcd685dc5be8bff213e0a2fa5":[6,0,3,0,0,1,4,0,2,11],
 "Vector_8h.html#aff4eddaace168b10febab7354e5f23cd":[6,0,3,0,0,1,4,0,2,9],
 "Vector_8h_source.html":[6,0,3,0,0,1,4,0,2],
 "annotated.html":[6,0,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[6,0,2,0,1,56,1],
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[6,0,1,0,1,72,0],
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[6,0,2,0,1,56,0],
-"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,1,0,1,72,2],
-"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,2,0,1,56,2]
+"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,1,0,1,72,2]
 };
