@@ -65,7 +65,7 @@ var searchData=
   ['delitem_62',['delItem',['../classMR_1_1RibbonSchemaHolder.html#a091aa7fdc2342488f7e268ef28a578d7',1,'MR::RibbonSchemaHolder']]],
   ['delone_63',['Mesh Delone',['../group__MeshDeloneGroup.html',1,'']]],
   ['delonesettings_64',['DeloneSettings',['../structMR_1_1DeloneSettings.html',1,'MR::DeloneSettings'],['../../Py/classmrmeshpy_1_1DeloneSettings.html',1,'mrmeshpy::DeloneSettings']]],
-  ['delregionkeepbd_65',['delRegionKeepBd',['../../Py/namespacemrmeshpy.html#a5caac744a40456dc2508dbd79ec98aa1',1,'mrmeshpy::delRegionKeepBd()'],['../namespaceMR.html#a00ee2b5e6f616aab6620d650848ce002',1,'MR::delRegionKeepBd(Mesh &amp;mesh, const FaceBitSet *region=nullptr)'],['../namespaceMR.html#a3629fa8fe08058c0e182ca241b11333f',1,'MR::delRegionKeepBd(Mesh &amp;mesh, const FaceBitSet &amp;region)']]],
+  ['delregionkeepbd_65',['delRegionKeepBd',['../../Py/namespacemrmeshpy.html#a760cd3af27ace26fad7e11c7b4bedfe3',1,'mrmeshpy::delRegionKeepBd()'],['../namespaceMR.html#a00ee2b5e6f616aab6620d650848ce002',1,'MR::delRegionKeepBd(Mesh &amp;mesh, const FaceBitSet *region=nullptr)'],['../namespaceMR.html#a3629fa8fe08058c0e182ca241b11333f',1,'MR::delRegionKeepBd(Mesh &amp;mesh, const FaceBitSet &amp;region)']]],
   ['demoplugin_66',['DemoPlugin',['../classMR_1_1DemoPlugin.html',1,'MR']]],
   ['demoplugininstance_67',['DemoPluginInstance',['../namespaceMR.html#a8a3c1e07f9e74f5a6f9079cc9067fb3a',1,'MR']]],
   ['denoisenormals_68',['denoiseNormals',['../../Py/namespacemrmeshpy.html#ab7fc7677d272c14e9d39d0c296327569',1,'mrmeshpy::denoiseNormals()'],['../namespaceMR.html#a4a2815eda5e04a1da7ec615027b52c86',1,'MR::denoiseNormals(const Mesh &amp;mesh, FaceNormals &amp;normals, const Vector&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma)']]],

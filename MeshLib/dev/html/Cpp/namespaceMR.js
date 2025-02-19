@@ -2838,7 +2838,7 @@ var namespaceMR =
     [ "width", "group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af", null ],
     [ "writeByBlocks", "namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b", null ],
     [ "writeRawTiff", "namespaceMR.html#abdcd54b6004b70d5f63cf0695fc0a285", null ],
-    [ "xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga881bc4cb6ab7f415bf85d9235e2ca740", null ],
+    [ "xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga4b8be9888719bfd9c5944dc6293c902d", null ],
     [ "zlibCompressStream", "namespaceMR.html#ade26a1cffee8e1e012f32d8d7bcc6637", null ],
     [ "zlibDecompressStream", "namespaceMR.html#a3c93ff1b38318770dd195fbdbe3dc45c", null ],
     [ "AABBTree", "namespaceMR.html#abe7cfa4da2fbf3567857cea149030590", null ],

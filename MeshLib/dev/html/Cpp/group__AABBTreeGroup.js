@@ -313,7 +313,7 @@ var group__AABBTreeGroup =
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#gaca3917c935c4b071cac785463beaa5f2", null ],
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#ga5ed53546770d894ff3f4ea75bd760afa", null ],
     [ "MR::signedDistanceToMesh", "group__AABBTreeGroup.html#gab849769857dbeadbea5f6bbfa749dfa0", null ],
-    [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga881bc4cb6ab7f415bf85d9235e2ca740", null ],
+    [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga4b8be9888719bfd9c5944dc6293c902d", null ],
     [ "MR::IntersectionPrecomputes::idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
     [ "MR::IntersectionPrecomputes::idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
     [ "MR::IntersectionPrecomputes::invDir", "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f", null ],
