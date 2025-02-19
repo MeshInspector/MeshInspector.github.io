@@ -259,7 +259,7 @@ var NAVTREEINDEX =
 "classmrviewerpy_1_1Viewport.html#a26bc06099d4665992ea1549c46a8baf5",
 "mrmeshpy_8pyi.html#a0d8776aa669136a1c0f23c90043731e3",
 "mrmeshpy_8pyi.html#a3a11035cfafbb9aa011124879a49df79",
-"mrmeshpy_8pyi.html#a6021b11437f02dfd1c1a6f4cef48441b",
+"mrmeshpy_8pyi.html#a602eac3281c596aedd5c57d7ea50a1ec",
 "mrmeshpy_8pyi.html#a943ec00e47a0a9d8083e220b37a42e0e",
 "mrmeshpy_8pyi.html#abfba57d0cba6dbcb18864a4dc4b3ed0f",
 "mrmeshpy_8pyi.html#aee03f4ff542fab846018875fea79e945",
