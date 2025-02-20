@@ -155,10 +155,10 @@ $(function(){initNavTree('TestMacros_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">TestMacros.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="TestFunctions_8h_source.html">TestFunctions.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;tgmath.h&gt;</code><br />
-<code>#include &lt;time.h&gt;</code><br />
 </div>
 <p><a href="TestMacros_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -188,13 +188,17 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    printf( <span class="stringliteral">&quot;%s ...\n&quot;</span>, #func );                                 \</div>
-<div class="line">    {                                                            \</div>
-<div class="line">        time_t ts = time( NULL );                                \</div>
-<div class="line">        func();                                                  \</div>
-<div class="line">        time_t duration_s = time( NULL ) - ts;                   \</div>
-<div class="line">        printf( <span class="stringliteral">&quot;%s done (~ %d s)\n&quot;</span>, #func, (<span class="keywordtype">int</span>)duration_s );  \</div>
+<b>Value:</b><div class="fragment"><div class="line">    printf( <span class="stringliteral">&quot;%s ...\n&quot;</span>, #func );              \</div>
+<div class="line">    {                                         \</div>
+<div class="line">        <span class="keyword">struct </span>timespec ts1 = <a class="code hl_function" href="TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf">timespec_now</a>(); \</div>
+<div class="line">        func();                               \</div>
+<div class="line">        <span class="keyword">struct </span>timespec ts2 = <a class="code hl_function" href="TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf">timespec_now</a>(); \</div>
+<div class="line">        <span class="keyword">struct </span>timespec duration = <a class="code hl_function" href="TestFunctions_8h.html#a563740375fcea1c8066b805da88103f9">timespec_get_duration</a>( &amp;ts1, &amp;ts2 );          \</div>
+<div class="line">        printf( <span class="stringliteral">&quot;%s done (%.3f s)\n&quot;</span>, #func, <a class="code hl_function" href="TestFunctions_8h.html#a00a4968c820b571d6217f785eae6825d">timespec_to_seconds</a>( &amp;duration ) ); \</div>
 <div class="line">    }</div>
+<div class="ttc" id="aTestFunctions_8h_html_a00a4968c820b571d6217f785eae6825d"><div class="ttname"><a href="TestFunctions_8h.html#a00a4968c820b571d6217f785eae6825d">timespec_to_seconds</a></div><div class="ttdeci">double timespec_to_seconds(const struct timespec *ts)</div></div>
+<div class="ttc" id="aTestFunctions_8h_html_a563740375fcea1c8066b805da88103f9"><div class="ttname"><a href="TestFunctions_8h.html#a563740375fcea1c8066b805da88103f9">timespec_get_duration</a></div><div class="ttdeci">struct timespec timespec_get_duration(const struct timespec *before, const struct timespec *after)</div></div>
+<div class="ttc" id="aTestFunctions_8h_html_a6f2e436cbfc9ef149a7aa74b35932fcf"><div class="ttname"><a href="TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf">timespec_now</a></div><div class="ttdeci">struct timespec timespec_now(void)</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -1,5 +1,10 @@
 var NAVTREEINDEX16 =
 {
+"Vector_8h.html#a58614c6a86a90c07c795848e2d907684":[6,0,3,0,0,1,4,0,2,10],
+"Vector_8h.html#a68288b42d42706ee6499578a9d7f6a48":[6,0,3,0,0,1,4,0,2,8],
+"Vector_8h.html#a768b0b507395251620755d34e66a4a73":[6,0,3,0,0,1,4,0,2,12],
+"Vector_8h.html#aa81289810dbe9c7ab65039fbc7c65f60":[6,0,3,0,0,1,4,0,2,5],
+"Vector_8h.html#ab59298f40eeee2a0cec06bca4fa7ee2d":[6,0,3,0,0,1,4,0,2,7],
 "Vector_8h.html#ac5fbc7efcd685dc5be8bff213e0a2fa5":[6,0,3,0,0,1,4,0,2,11],
 "Vector_8h.html#aff4eddaace168b10febab7354e5f23cd":[6,0,3,0,0,1,4,0,2,9],
 "Vector_8h_source.html":[6,0,3,0,0,1,4,0,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[6,0,1,0,1,71,0],
 "classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[6,0,2,0,1,55,0],
 "classMR_1_1BestFitPolynomial.html":[6,0,1,0,1,72],
-"classMR_1_1BestFitPolynomial.html":[6,0,2,0,1,56],
-"classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[6,0,1,0,1,72,1],
-"classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[6,0,2,0,1,56,1],
-"classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[6,0,1,0,1,72,0],
-"classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[6,0,2,0,1,56,0],
-"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,1,0,1,72,2]
+"classMR_1_1BestFitPolynomial.html":[6,0,2,0,1,56]
 };

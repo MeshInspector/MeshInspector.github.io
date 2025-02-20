@@ -1,5 +1,10 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702":[6,0,2,0,1,308,2,2],
+"classMR_1_1MeasurementObject.html":[6,0,1,0,1,329],
+"classMR_1_1MeasurementObject.html":[6,0,2,0,1,313],
+"classMR_1_1MeasurementObject.html#abfa882fd0a9244f24422e3f34dd6a35a":[6,0,1,0,1,329,0],
+"classMR_1_1MeasurementObject.html#abfa882fd0a9244f24422e3f34dd6a35a":[6,0,2,0,1,313,0],
 "classMR_1_1Menu.html":[6,0,1,0,1,330],
 "classMR_1_1Menu.html":[6,0,2,0,1,314],
 "classMR_1_1Menu.html#a9294389b0cf7ab9d43fe4bd9eefcac19":[6,0,1,0,1,330,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1MouseController.html#a658d96148a2b7e4d19231d7801569723":[6,0,1,0,1,370,12],
 "classMR_1_1MouseController.html#a658d96148a2b7e4d19231d7801569723":[6,0,2,0,1,354,12],
 "classMR_1_1MouseController.html#a801124ee76e24e9a65f09339f064e35b":[6,0,1,0,1,370,1],
-"classMR_1_1MouseController.html#a801124ee76e24e9a65f09339f064e35b":[6,0,2,0,1,354,1],
-"classMR_1_1MouseController.html#a97504993e7ae26edd11c87386a2b5c6a":[6,0,1,0,1,370,4],
-"classMR_1_1MouseController.html#a97504993e7ae26edd11c87386a2b5c6a":[6,0,2,0,1,354,4],
-"classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b":[6,0,1,0,1,370,8],
-"classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b":[6,0,2,0,1,354,8],
-"classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[6,0,1,0,1,370,14]
+"classMR_1_1MouseController.html#a801124ee76e24e9a65f09339f064e35b":[6,0,2,0,1,354,1]
 };

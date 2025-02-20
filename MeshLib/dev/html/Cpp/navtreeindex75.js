@@ -1,5 +1,12 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[6,0,1,0,1,24,1,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[6,0,2,0,1,14,1,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[6,0,1,0,1,24,1,2],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[6,0,2,0,1,14,1,2],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[6,0,1,0,1,24,1,4],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[6,0,2,0,1,14,1,4],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,1,0,1,24,1,0],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,2,0,1,14,1,0],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[6,0,1,0,1,24,1,6],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[6,0,2,0,1,14,1,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1PolylineIntersectionResult2.html":[6,0,1,0,1,485],
 "structMR_1_1PolylineIntersectionResult2.html":[6,0,2,0,1,469],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,1,0,1,485,1],
-"structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,2,0,1,469,1],
-"structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,1,0,1,485,0],
-"structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,2,0,1,469,0],
-"structMR_1_1PolylineMaker.html":[6,0,1,0,1,486],
-"structMR_1_1PolylineMaker.html":[6,0,2,0,1,470],
-"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,1,0,1,486,4],
-"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,2,0,1,470,4],
-"structMR_1_1PolylineMaker.html#a4a15b5f552bb650a6fab86110c95ad3f":[6,0,1,0,1,486,2]
+"structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,2,0,1,469,1]
 };

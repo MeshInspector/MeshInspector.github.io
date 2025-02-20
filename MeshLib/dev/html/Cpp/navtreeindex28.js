@@ -1,5 +1,10 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1MouseController.html#a97504993e7ae26edd11c87386a2b5c6a":[6,0,1,0,1,370,4],
+"classMR_1_1MouseController.html#a97504993e7ae26edd11c87386a2b5c6a":[6,0,2,0,1,354,4],
+"classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b":[6,0,1,0,1,370,8],
+"classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b":[6,0,2,0,1,354,8],
+"classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[6,0,1,0,1,370,14],
 "classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[6,0,2,0,1,354,14],
 "classMR_1_1MouseController.html#abb21421c9f8c663d90c93fc87982a797":[6,0,1,0,1,370,2],
 "classMR_1_1MouseController.html#abb21421c9f8c663d90c93fc87982a797":[6,0,2,0,1,354,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1ObjectChildrenHolder.html#acad4a073a2e703743e01e2e5cce9e285":[6,0,0,11,3,0],
 "classMR_1_1ObjectDistanceMap.html":[6,0,0,11,5],
 "classMR_1_1ObjectDistanceMap.html#a0e3428df320923bc0fc614f23b69f94a":[6,0,0,11,5,14],
-"classMR_1_1ObjectDistanceMap.html#a116290bef3d94859f87eca9db6741761":[6,0,0,11,5,19],
-"classMR_1_1ObjectDistanceMap.html#a1d68e848504ae3e593e550c51d0b1ddb":[6,0,0,11,5,18],
-"classMR_1_1ObjectDistanceMap.html#a2099378b5a673f2758c4f516983bb435":[6,0,0,11,5,6],
-"classMR_1_1ObjectDistanceMap.html#a3a14af241a564487b68db57800ce9402":[6,0,0,11,5,24],
-"classMR_1_1ObjectDistanceMap.html#a477c952968d8dd69bf658f260dd6c0d1":[6,0,0,11,5,0],
-"classMR_1_1ObjectDistanceMap.html#a5128e28ab5be3c4295cfdbbf344635c5":[6,0,0,11,5,7]
+"classMR_1_1ObjectDistanceMap.html#a116290bef3d94859f87eca9db6741761":[6,0,0,11,5,19]
 };

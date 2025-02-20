@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1PartialChangeMeshAction.html#aedc097db368e5caf9b3e2092b61854d5":[6,1,0,0,2,581,0],
+"classmrmeshpy_1_1PartialChangeMeshAction.html#aedc097db368e5caf9b3e2092b61854d5":[6,1,1,0,1,581,0],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[6,1,0,0,2,582],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[6,1,1,0,1,582],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,0,0,2,582,1],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,1,0,1,582,1],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a841050a0d23e6a3b56ec8d26a21ba767":[6,1,0,0,2,582,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#acd91edcc7f26c117b26c62761be3151b":[6,1,0,0,2,610,1,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#acd91edcc7f26c117b26c62761be3151b":[6,1,1,0,1,610,1,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#ad9444d854dfa6d0983eca2851762c967":[6,1,0,0,2,610,1,3],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#ad9444d854dfa6d0983eca2851762c967":[6,1,1,0,1,610,1,3],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#adc648358fd5f0c7dacabd71220221c07":[6,1,0,0,2,610,1,2],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#adc648358fd5f0c7dacabd71220221c07":[6,1,1,0,1,610,1,2],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#ae18a7e16d8c1a625c80faa90d802bf4c":[6,1,0,0,2,610,1,13],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#ae18a7e16d8c1a625c80faa90d802bf4c":[6,1,1,0,1,610,1,13]
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#ad9444d854dfa6d0983eca2851762c967":[6,1,1,0,1,610,1,3]
 };
