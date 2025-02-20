@@ -193,20 +193,25 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
-<div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Find single edge for each hole in mesh</span></div>
 <div class="line">hole_edges = mesh.topology.findHoleRepresentiveEdges()</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordflow">for</span> e <span class="keywordflow">in</span> hole_edges:</div>
 <div class="line">    <span class="comment">#  Setup filling parameters</span></div>
-<div class="line">    params = mrmeshpy.FillHoleParams()</div>
-<div class="line">    params.metric = mrmeshpy.getUniversalMetric(mesh)</div>
+<div class="line">    params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1FillHoleParams.html">mrmeshpy.FillHoleParams</a>()</div>
+<div class="line">    params.metric = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac7db5f744bcb873863e73c286eccba13">mrmeshpy.getUniversalMetric</a>(mesh)</div>
 <div class="line">    <span class="comment">#  Fill hole represented by `e`</span></div>
-<div class="line">    mrmeshpy.fillHole(mesh, e, params)</div>
+<div class="line">    <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a1fdb929e60b836ba3899190c49a83344">mrmeshpy.fillHole</a>(mesh, e, params)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
-<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>)</div>
+<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>)</div>
+<div class="ttc" id="aclassmrmeshpy_1_1FillHoleParams_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1FillHoleParams.html">mrmeshpy::FillHoleParams</a></div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a1fdb929e60b836ba3899190c49a83344"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a1fdb929e60b836ba3899190c49a83344">mrmeshpy::fillHole</a></div><div class="ttdeci">None fillHole(Mesh mesh, Id_EdgeTag a, FillHoleParams params='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac7db5f744bcb873863e73c286eccba13"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac7db5f744bcb873863e73c286eccba13">mrmeshpy::getUniversalMetric</a></div><div class="ttdeci">FillHoleMetric getUniversalMetric(Mesh mesh)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRBitSet.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMesh.h&gt;</span></div>
