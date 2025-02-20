@@ -5,6 +5,7 @@ var ImGuiHelpers_8h =
     [ "ImGui::CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", "structImGui_1_1CustomStatePluginWindowParameters" ],
     [ "PaletteChanges", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682", [
       [ "None", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Reset", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d", null ],
       [ "Texture", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b", null ],
       [ "Ranges", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258", null ],
       [ "All", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680", null ]

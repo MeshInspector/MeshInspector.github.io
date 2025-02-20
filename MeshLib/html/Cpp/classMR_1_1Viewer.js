@@ -172,6 +172,7 @@ var classMR_1_1Viewer =
     [ "getViewerInstance", "classMR_1_1Viewer.html#a6d89aa105ff76f0ef98adf92b5e6afb4", null ],
     [ "animationMaxFps", "classMR_1_1Viewer.html#a1747b85f1a561ad143a87af606bf91ac", null ],
     [ "basisAxes", "classMR_1_1Viewer.html#aabff40e9f5b2102161db747f1d36c787", null ],
+    [ "basisViewController", "classMR_1_1Viewer.html#a887ec835084d7b161d6f205939c4abab", null ],
     [ "charPressedSignal", "classMR_1_1Viewer.html#a78a08a1f354a8570fa6589f63dab4476", null ],
     [ "clippingPlaneObject", "classMR_1_1Viewer.html#a97b86b8de173c41ecb9d6b4c2abe7b65", null ],
     [ "commandArgs", "classMR_1_1Viewer.html#a505493fbe72fd322c04cc7922826c5f8", null ],

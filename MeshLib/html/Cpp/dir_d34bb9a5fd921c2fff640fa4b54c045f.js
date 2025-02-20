@@ -1,7 +1,6 @@
 var dir_d34bb9a5fd921c2fff640fa4b54c045f =
 [
     [ "config.h", "MRCuda_2config_8h.html", null ],
-    [ "config_cmake.h", "MRCuda_2config__cmake_8h.html", null ],
     [ "MRCudaBasic.h", "MRCudaBasic_8h.html", "MRCudaBasic_8h" ],
     [ "MRCudaContoursDistanceMap.h", "MRCudaContoursDistanceMap_8h.html", "MRCudaContoursDistanceMap_8h" ],
     [ "MRCudaFastWindingNumber.h", "MRCudaFastWindingNumber_8h.html", null ],

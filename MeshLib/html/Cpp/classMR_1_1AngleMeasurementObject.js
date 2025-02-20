@@ -8,6 +8,7 @@ var classMR_1_1AngleMeasurementObject =
     [ "computeAngle", "classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a", null ],
     [ "deserializeFields_", "classMR_1_1AngleMeasurementObject.html#a59480f0434749a0e8e6735f4192a3b2e", null ],
     [ "getClassName", "classMR_1_1AngleMeasurementObject.html#a9d371827ba2fb752841d1efe7ea66f4e", null ],
+    [ "getClassNameInPlural", "classMR_1_1AngleMeasurementObject.html#a5b7cc6dca00a95f1c4888c7ce9949fc0", null ],
     [ "getInfoLines", "classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f", null ],
     [ "getIsConical", "classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7", null ],
     [ "getLocalPoint", "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7", null ],

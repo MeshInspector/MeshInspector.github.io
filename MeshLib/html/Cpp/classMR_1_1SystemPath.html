@@ -198,6 +198,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6cce5749c80d4e728cb0dd29e0be7502" id="r_a6cce5749c80d4e728cb0dd29e0be7502"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cce5749c80d4e728cb0dd29e0be7502">getLibraryPath</a> ()</td></tr>
 <tr class="memdesc:a6cce5749c80d4e728cb0dd29e0be7502"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the MRMesh binary's file path  <br /></td></tr>
 <tr class="separator:a6cce5749c80d4e728cb0dd29e0be7502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca780a1511c9e6e7957e5f8e55109ae" id="r_a5ca780a1511c9e6e7957e5f8e55109ae"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ca780a1511c9e6e7957e5f8e55109ae">getLibraryPathForSymbol</a> (const void *symbol)</td></tr>
+<tr class="separator:a5ca780a1511c9e6e7957e5f8e55109ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8d7ac188dd7cc6efe81de03c7196d9" id="r_a9b8d7ac188dd7cc6efe81de03c7196d9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b8d7ac188dd7cc6efe81de03c7196d9">getExecutableDirectory</a> ()</td></tr>
 <tr class="memdesc:a9b8d7ac188dd7cc6efe81de03c7196d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current executable's directory path  <br /></td></tr>
 <tr class="separator:a9b8d7ac188dd7cc6efe81de03c7196d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -468,6 +470,37 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get the MRMesh binary's file path </p>
+
+</div>
+</div>
+<a id="a5ca780a1511c9e6e7957e5f8e55109ae" name="a5ca780a1511c9e6e7957e5f8e55109ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca780a1511c9e6e7957e5f8e55109ae">&#9670;&#160;</a></span>getLibraryPathForSymbol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::filesystem::path &gt; MR::SystemPath::getLibraryPathForSymbol </td>
+          <td>(</td>
+          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>symbol</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>get the location of a shared library containing the given symbol </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">symbol</td><td>- pointer to a function </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

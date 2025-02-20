@@ -32,7 +32,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MR::Ball Struct Reference</title>
+<title>MeshLib C++ Docs: MR::Ball&lt; V &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -152,52 +152,208 @@ $(function(){initNavTree('structMR_1_1Ball.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structMR_1_1Ball-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::Ball Struct Reference<div class="ingroups"><a class="el" href="group__AABBTreeGroup.html">AABB Tree overview</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::Ball&lt; V &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRMesh_2MRMeshProject_8h_source.html">MRMeshProject.h</a>&gt;</code></p>
+<p>a ball = points surrounded by a sphere in arbitrary space with vector type V  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="MRBall_8h_source.html">MRBall.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ab29b342345673c2ab559f44111f75bdd" id="r_ab29b342345673c2ab559f44111f75bdd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab29b342345673c2ab559f44111f75bdd">VTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;V&gt;</td></tr>
+<tr class="separator:ab29b342345673c2ab559f44111f75bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1f3f595e73be14324c1ad3964ab4fd" id="r_aad1f3f595e73be14324c1ad3964ab4fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad1f3f595e73be14324c1ad3964ab4fd">T</a> = typename <a class="el" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
+<tr class="separator:aad1f3f595e73be14324c1ad3964ab4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab893ec6d092032257b91b7fcbcb6a58a" id="r_ab893ec6d092032257b91b7fcbcb6a58a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab893ec6d092032257b91b7fcbcb6a58a">inside</a> (const V &amp;pt) const</td></tr>
+<tr class="memdesc:ab893ec6d092032257b91b7fcbcb6a58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given point is strictly inside the ball (not on its spherical surface)  <br /></td></tr>
+<tr class="separator:ab893ec6d092032257b91b7fcbcb6a58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bd851f9c63fe2f529f8ef586a5ea69" id="r_a18bd851f9c63fe2f529f8ef586a5ea69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18bd851f9c63fe2f529f8ef586a5ea69">outside</a> (const V &amp;pt) const</td></tr>
+<tr class="memdesc:a18bd851f9c63fe2f529f8ef586a5ea69"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given point is strictly outside the ball (not on its spherical surface)  <br /></td></tr>
+<tr class="separator:a18bd851f9c63fe2f529f8ef586a5ea69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa7f96dff1ff19edb48b34440972856c1" id="r_aa7f96dff1ff19edb48b34440972856c1"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7f96dff1ff19edb48b34440972856c1">center</a></td></tr>
-<tr class="separator:aa7f96dff1ff19edb48b34440972856c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3fa51acd301bd91b76700d008cb7838" id="r_ac3fa51acd301bd91b76700d008cb7838"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3fa51acd301bd91b76700d008cb7838">radiusSq</a> = 0</td></tr>
-<tr class="separator:ac3fa51acd301bd91b76700d008cb7838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c803f24782033284e75272d9eab0dd" id="r_ac2c803f24782033284e75272d9eab0dd"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c803f24782033284e75272d9eab0dd">center</a></td></tr>
+<tr class="memdesc:ac2c803f24782033284e75272d9eab0dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ball's center  <br /></td></tr>
+<tr class="separator:ac2c803f24782033284e75272d9eab0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954cef52a073087f7bfdb9555e9584a3" id="r_a954cef52a073087f7bfdb9555e9584a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aad1f3f595e73be14324c1ad3964ab4fd">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a954cef52a073087f7bfdb9555e9584a3">radiusSq</a> = 0</td></tr>
+<tr class="memdesc:a954cef52a073087f7bfdb9555e9584a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ball's squared radius  <br /></td></tr>
+<tr class="separator:a954cef52a073087f7bfdb9555e9584a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a12631fc540b821bfa957ea4f9f2e57e8" id="r_a12631fc540b821bfa957ea4f9f2e57e8"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12631fc540b821bfa957ea4f9f2e57e8">elements</a> = <a class="el" href="structMR_1_1VectorTraits.html#a63f31635f31a229471ff3cc2990d95ea">VTraits::size</a></td></tr>
+<tr class="separator:a12631fc540b821bfa957ea4f9f2e57e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename V&gt;<br />
+struct MR::Ball&lt; V &gt;</div><p>a ball = points surrounded by a sphere in arbitrary space with vector type V </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aad1f3f595e73be14324c1ad3964ab4fd" name="aad1f3f595e73be14324c1ad3964ab4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad1f3f595e73be14324c1ad3964ab4fd">&#9670;&#160;</a></span>T</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::T = typename <a class="el" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab29b342345673c2ab559f44111f75bdd" name="ab29b342345673c2ab559f44111f75bdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab29b342345673c2ab559f44111f75bdd">&#9670;&#160;</a></span>VTraits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::VTraits = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;V&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab893ec6d092032257b91b7fcbcb6a58a" name="ab893ec6d092032257b91b7fcbcb6a58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab893ec6d092032257b91b7fcbcb6a58a">&#9670;&#160;</a></span>inside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::inside </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if given point is strictly inside the ball (not on its spherical surface) </p>
+
+</div>
+</div>
+<a id="a18bd851f9c63fe2f529f8ef586a5ea69" name="a18bd851f9c63fe2f529f8ef586a5ea69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18bd851f9c63fe2f529f8ef586a5ea69">&#9670;&#160;</a></span>outside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::outside </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if given point is strictly outside the ball (not on its spherical surface) </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa7f96dff1ff19edb48b34440972856c1" name="aa7f96dff1ff19edb48b34440972856c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7f96dff1ff19edb48b34440972856c1">&#9670;&#160;</a></span>center</h2>
+<a id="ac2c803f24782033284e75272d9eab0dd" name="ac2c803f24782033284e75272d9eab0dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c803f24782033284e75272d9eab0dd">&#9670;&#160;</a></span>center</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">Vector3f MR::Ball::center</td>
+          <td class="memname">V <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::center</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>ball's center </p>
+
 </div>
 </div>
-<a id="ac3fa51acd301bd91b76700d008cb7838" name="ac3fa51acd301bd91b76700d008cb7838"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3fa51acd301bd91b76700d008cb7838">&#9670;&#160;</a></span>radiusSq</h2>
+<a id="a12631fc540b821bfa957ea4f9f2e57e8" name="a12631fc540b821bfa957ea4f9f2e57e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12631fc540b821bfa957ea4f9f2e57e8">&#9670;&#160;</a></span>elements</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::Ball::radiusSq = 0</td>
+          <td class="memname">int <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::elements = <a class="el" href="structMR_1_1VectorTraits.html#a63f31635f31a229471ff3cc2990d95ea">VTraits::size</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a954cef52a073087f7bfdb9555e9584a3" name="a954cef52a073087f7bfdb9555e9584a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954cef52a073087f7bfdb9555e9584a3">&#9670;&#160;</a></span>radiusSq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aad1f3f595e73be14324c1ad3964ab4fd">T</a> <a class="el" href="structMR_1_1Ball.html">MR::Ball</a>&lt; V &gt;::radiusSq = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ball's squared radius </p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMesh_2MRMeshProject_8h_source.html">MRMesh/MRMeshProject.h</a></li>
+<li><a class="el" href="MRBall_8h_source.html">MRBall.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

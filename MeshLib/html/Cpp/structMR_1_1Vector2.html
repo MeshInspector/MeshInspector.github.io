@@ -247,6 +247,14 @@ Related Symbols</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p>(Note that these are not member symbols.) </p>
 </td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a7be48c5d4180d89d8038acede661911e" id="r_a7be48c5d4180d89d8038acede661911e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7be48c5d4180d89d8038acede661911e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7be48c5d4180d89d8038acede661911e">distanceSq</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="memdesc:a7be48c5d4180d89d8038acede661911e"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance between two points, which is faster to compute than just distance  <br /></td></tr>
+<tr class="separator:a7be48c5d4180d89d8038acede661911e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a847fe803c44c19055d0a15eca838df52" id="r_a847fe803c44c19055d0a15eca838df52"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a847fe803c44c19055d0a15eca838df52"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a847fe803c44c19055d0a15eca838df52">distance</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="memdesc:a847fe803c44c19055d0a15eca838df52"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance between two points, better use distanceSq for higher performance  <br /></td></tr>
+<tr class="separator:a847fe803c44c19055d0a15eca838df52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07bafe90fc0230d0cef79991e7858dff" id="r_a07bafe90fc0230d0cef79991e7858dff"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a07bafe90fc0230d0cef79991e7858dff"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a07bafe90fc0230d0cef79991e7858dff">cross</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:a07bafe90fc0230d0cef79991e7858dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">cross product  <br /></td></tr>
@@ -1040,6 +1048,72 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>cross product </p>
+
+</div>
+</div>
+<a id="a847fe803c44c19055d0a15eca838df52" name="a847fe803c44c19055d0a15eca838df52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a847fe803c44c19055d0a15eca838df52">&#9670;&#160;</a></span>distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>distance between two points, better use distanceSq for higher performance </p>
+
+</div>
+</div>
+<a id="a7be48c5d4180d89d8038acede661911e" name="a7be48c5d4180d89d8038acede661911e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7be48c5d4180d89d8038acede661911e">&#9670;&#160;</a></span>distanceSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T distanceSq </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>squared distance between two points, which is faster to compute than just distance </p>
 
 </div>
 </div>

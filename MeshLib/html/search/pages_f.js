@@ -11,5 +11,7 @@ var searchData=
   ['started_20with_20meshlib_20sdk_8',['Getting Started with MeshLib SDK',['../InstallationGuide.html',1,'']]],
   ['state_20plugins_20overview_9',['State Plugins Overview',['../StatePluginsHelp.html',1,'']]],
   ['stitching_20holes_10',['Stitching holes',['../ExampleMeshStitchHole.html',1,'']]],
-  ['support_11',['Numpy support',['../ExampleNumpy.html',1,'']]]
+  ['structure_20overview_11',['Mesh Structure Overview',['../MeshStructureOverview.html',1,'']]],
+  ['support_12',['File Format Support',['../FileFormatSupport.html',1,'']]],
+  ['support_13',['Numpy support',['../ExampleNumpy.html',1,'']]]
 ];

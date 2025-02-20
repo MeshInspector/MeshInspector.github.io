@@ -186,16 +186,6 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga270a25a8ef13e07e59e7070834efc33f" id="r_ga270a25a8ef13e07e59e7070834efc33f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga270a25a8ef13e07e59e7070834efc33f">MR::ColoringType</a> { <br />
-&#160;&#160;<a class="el" href="#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">MR::ColoringType::SolidColor</a>
-, <a class="el" href="#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca">MR::ColoringType::PrimitivesColorMap</a>
-, <a class="el" href="#gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba">MR::ColoringType::FacesColorMap</a> = PrimitivesColorMap
-, <a class="el" href="#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197">MR::ColoringType::LinesColorMap</a> = PrimitivesColorMap
-, <br />
-&#160;&#160;<a class="el" href="#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd">MR::ColoringType::VertsColorMap</a>
-<br />
- }</td></tr>
-<tr class="separator:ga270a25a8ef13e07e59e7070834efc33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03255e831f4895337e7cf27d64e51269" id="r_ga03255e831f4895337e7cf27d64e51269"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03255e831f4895337e7cf27d64e51269">MR::DirtyFlags</a> { <br />
 &#160;&#160;<a class="el" href="#gga03255e831f4895337e7cf27d64e51269a162875ffd2234840bdaf002277708668">MR::DIRTY_NONE</a> = 0x0000
 , <a class="el" href="#gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110">MR::DIRTY_POSITION</a> = 0x0001
@@ -244,41 +234,6 @@ Enumerations</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ga270a25a8ef13e07e59e7070834efc33f" name="ga270a25a8ef13e07e59e7070834efc33f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga270a25a8ef13e07e59e7070834efc33f">&#9670;&#160;</a></span>ColoringType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#ga270a25a8ef13e07e59e7070834efc33f">MR::ColoringType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Type of mesh coloring, </p><dl class="section note"><dt>Note</dt><dd>that texture are applied over main coloring </dd></dl>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854" name="gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854"></a>SolidColor&#160;</td><td class="fielddoc"><p>Use simple color for whole mesh. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca" name="gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca"></a>PrimitivesColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from faces colormap) for each ptimitive. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba" name="gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba"></a>FacesColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from faces colormap) for each face (primitive for object mesh) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197" name="gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197"></a>LinesColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from faces colormap) for each line (primitive for object lines) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd" name="gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd"></a>VertsColorMap&#160;</td><td class="fielddoc"><p>Use different color (taken from verts colormap) for each vert. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <a id="ga03255e831f4895337e7cf27d64e51269" name="ga03255e831f4895337e7cf27d64e51269"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga03255e831f4895337e7cf27d64e51269">&#9670;&#160;</a></span>DirtyFlags</h2>
 

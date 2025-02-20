@@ -34,7 +34,7 @@ var menudata={children:[
 {text:"Tutorials",url:"../Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"}]},
 {text:"Examples",url:"../Examples.html",children:[
-{text:"General Samples",url:"../GeneralExamples.html",children:[
+{text:"General Samples",url:"../Examples.html#GeneralExamples",children:[
 {text:"Application Based on MeshLib",url:"../BasedApplication.html"},
 {text:"Mesh Load and Save",url:"../ExampleMeshLoadSave.html"},
 {text:"Export Raw Triangles",url:"../ExampleMeshExport.html"},
@@ -53,15 +53,21 @@ var menudata={children:[
 {text:"Mesh Denoise",url:"../ExampleNoiseDenoise.html"},
 {text:"Triangulation",url:"../ExampleTriangulation.html"},
 {text:"Text to Mesh",url:"../ExampleMeshFromText.html"}]},
-{text:"Python Specific Samples",url:"../PythonSpecificExamples.html",children:[
+{text:"Python Specific Samples",url:"../Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"../ExampleViewer.html"},
 {text:"Plotly Visualization",url:"../ExamplePlotly.html"},
 {text:"Using Numpy",url:"../ExampleNumpy.html"},
 {text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"}]}]},
 {text:"Package Overview",url:"../PackageOverview.html",children:[
+{text:"Mesh Structure",url:"../MeshStructureOverview.html"},
+{text:"Basic Math Types",url:"../BasicMathTypesOverview.html"},
+{text:"Float vs Double",url:"../FloatVSDouble.html"},
 {text:"Data Model Class Hierarchy",url:"../DataModel.html"},
 {text:"Spaces and Transformations",url:"../SpacesHelp.html"},
-{text:"State Plugins Overview",url:"../StatePluginsHelp.html"}]},
+{text:"File Format Support",url:"../FileFormatSupport.html"},
+{text:"How to use С++ Example Plugin",url:"../ExamplePluginOverview.html"},
+{text:"State Plugins Overview",url:"../StatePluginsHelp.html"},
+{text:"How to Add Plugin",url:"../HowtoAddPluginOverview.html"}]},
 {text:"API",url:"../APIPage.html",children:[
 {text:"C++",url:"APICppPage.html",children:[
 {text:"Topics",url:"topics.html"},
@@ -281,7 +287,8 @@ var menudata={children:[
 {text:"y",url:"functions_vars_y.html#index_y"},
 {text:"z",url:"functions_vars_z.html#index_z"}]},
 {text:"Typedefs",url:"functions_type.html",children:[
-{text:"b",url:"functions_type.html#index_b"},
+{text:"a",url:"functions_type.html#index_a"},
+{text:"b",url:"functions_type_b.html#index_b"},
 {text:"c",url:"functions_type_c.html#index_c"},
 {text:"d",url:"functions_type_d.html#index_d"},
 {text:"e",url:"functions_type_e.html#index_e"},
@@ -369,6 +376,8 @@ var menudata={children:[
 {text:"a",url:"globals_func.html#index_a"},
 {text:"b",url:"globals_func_b.html#index_b"},
 {text:"c",url:"globals_func_c.html#index_c"},
+{text:"d",url:"globals_func_d.html#index_d"},
+{text:"e",url:"globals_func_e.html#index_e"},
 {text:"f",url:"globals_func_f.html#index_f"},
 {text:"m",url:"globals_func_m.html#index_m"},
 {text:"n",url:"globals_func_n.html#index_n"},

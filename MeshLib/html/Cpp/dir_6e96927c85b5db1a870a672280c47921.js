@@ -1,7 +1,6 @@
 var dir_6e96927c85b5db1a870a672280c47921 =
 [
     [ "config.h", "MRViewer_2config_8h.html", null ],
-    [ "config_cmake.h", "MRViewer_2config__cmake_8h.html", null ],
     [ "ImGuiHelpers.h", "ImGuiHelpers_8h.html", "ImGuiHelpers_8h" ],
     [ "ImGuiMenu.h", "ImGuiMenu_8h.html", "ImGuiMenu_8h" ],
     [ "MRAlphaSortGL.h", "MRAlphaSortGL_8h.html", "MRAlphaSortGL_8h" ],
@@ -47,9 +46,11 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRMouse.h", "MRMouse_8h.html", "MRMouse_8h" ],
     [ "MRMouseController.h", "MRMouseController_8h.html", "MRMouseController_8h" ],
     [ "MRMoveObjectByMouseImpl.h", "MRMoveObjectByMouseImpl_8h.html", "MRMoveObjectByMouseImpl_8h" ],
+    [ "MRMruFormatParameters.h", "MRMruFormatParameters_8h.html", "MRMruFormatParameters_8h" ],
     [ "MRNotificationType.h", "MRNotificationType_8h.html", "MRNotificationType_8h" ],
     [ "MRObjectImGuiLabel.h", "MRObjectImGuiLabel_8h.html", "MRObjectImGuiLabel_8h" ],
     [ "MRObjectMeshHistory.h", "MRObjectMeshHistory_8h.html", "MRObjectMeshHistory_8h" ],
+    [ "MRObjectMeshSubdivide.h", "MRObjectMeshSubdivide_8h.html", "MRObjectMeshSubdivide_8h" ],
     [ "MRObjectPointsHistory.h", "MRObjectPointsHistory_8h.html", "MRObjectPointsHistory_8h" ],
     [ "MRObjectTransformWidget.h", "MRObjectTransformWidget_8h.html", "MRObjectTransformWidget_8h" ],
     [ "MROpenObjects.h", "MROpenObjects_8h.html", "MROpenObjects_8h" ],
@@ -140,6 +141,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRViewerSettingsPlugin.h", "MRViewerSettingsPlugin_8h.html", "MRViewerSettingsPlugin_8h" ],
     [ "MRViewerTitle.h", "MRViewerTitle_8h.html", "MRViewerTitle_8h" ],
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
+    [ "MRViewportCornerController.h", "MRViewportCornerController_8h.html", "MRViewportCornerController_8h" ],
     [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
     [ "MRViewportParametersAction.h", "MRViewportParametersAction_8h.html", null ],
     [ "MRVisualSubfeatures.h", "MRVisualSubfeatures_8h.html", "MRVisualSubfeatures_8h" ],

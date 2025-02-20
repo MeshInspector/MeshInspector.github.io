@@ -8,6 +8,7 @@ var classMR_1_1RadiusMeasurementObject =
     [ "computeRadiusOrDiameter", "classMR_1_1RadiusMeasurementObject.html#abb52ce1741bbea13111e16aae84dbde5", null ],
     [ "deserializeFields_", "classMR_1_1RadiusMeasurementObject.html#ac21964aa2c3fa5b24daf6659c6abe091", null ],
     [ "getClassName", "classMR_1_1RadiusMeasurementObject.html#a2385459fc51ba867da12e2d953eebd7f", null ],
+    [ "getClassNameInPlural", "classMR_1_1RadiusMeasurementObject.html#ad41eb47d9f35d686cae7546083dbbe2f", null ],
     [ "getDrawAsDiameter", "classMR_1_1RadiusMeasurementObject.html#a9a79b85955d16c7ca3c23a0ba8ec605c", null ],
     [ "getInfoLines", "classMR_1_1RadiusMeasurementObject.html#a896f78dba51a77e27ca06d9a9b9f85a7", null ],
     [ "getIsSpherical", "classMR_1_1RadiusMeasurementObject.html#a880866dc5c43f3b4c8fb4b7ce6d6472b", null ],

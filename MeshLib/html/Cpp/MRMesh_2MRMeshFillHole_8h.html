@@ -160,6 +160,7 @@ $(function(){initNavTree('MRMesh_2MRMeshFillHole_8h.html',''); initResizable(tru
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_2MRMeshMetrics_8h_source.html">MRMeshMetrics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMesh_2MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 </div>
@@ -179,6 +180,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">concise representation of proposed hole triangulation  <a href="structMR_1_1HoleFillPlan.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -225,10 +228,17 @@ Functions</h2></td></tr>
 <tr class="separator:ga7bee2d636a1f5f931ac54f6f841c07f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga10d97d0e9b001fe0d4915154d1945e77" id="r_ga10d97d0e9b001fe0d4915154d1945e77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77">MR::makeDegenerateBandAroundHole</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId a, FaceBitSet *outNewFaces=nullptr)</td></tr>
 <tr class="separator:ga10d97d0e9b001fe0d4915154d1945e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5b018c101d16b1695c0a3152e89ecdb3" id="r_ga5b018c101d16b1695c0a3152e89ecdb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga5b018c101d16b1695c0a3152e89ecdb3">MR::makeBridge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b, FaceBitSet *outNewFaces=nullptr)</td></tr>
-<tr class="separator:ga5b018c101d16b1695c0a3152e89ecdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d4d7960f97e0c640fa2d62c25514c2e" id="r_ga2d4d7960f97e0c640fa2d62c25514c2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MakeBridgeResult.html">MakeBridgeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga2d4d7960f97e0c640fa2d62c25514c2e">MR::makeQuadBridge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b, FaceBitSet *outNewFaces=nullptr)</td></tr>
+<tr class="separator:ga2d4d7960f97e0c640fa2d62c25514c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad16b63618dae72a30c787fcd1d7b8200" id="r_gad16b63618dae72a30c787fcd1d7b8200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MakeBridgeResult.html">MakeBridgeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gad16b63618dae72a30c787fcd1d7b8200">MR::makeBridge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b, FaceBitSet *outNewFaces=nullptr)</td></tr>
+<tr class="separator:gad16b63618dae72a30c787fcd1d7b8200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae081fd1e2bfcbf6522b3c28a35ebced2" id="r_gae081fd1e2bfcbf6522b3c28a35ebced2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MakeBridgeResult.html">MakeBridgeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gae081fd1e2bfcbf6522b3c28a35ebced2">MR::makeSmoothBridge</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId a, EdgeId b, float samplingStep, FaceBitSet *outNewFaces=nullptr)</td></tr>
+<tr class="separator:gae081fd1e2bfcbf6522b3c28a35ebced2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga86668640c827d61e8ee92b7a74dc558d" id="r_ga86668640c827d61e8ee92b7a74dc558d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d">MR::makeBridgeEdge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b)</td></tr>
 <tr class="separator:ga86668640c827d61e8ee92b7a74dc558d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad76a068dd3fae29c30797157fd646667" id="r_gad76a068dd3fae29c30797157fd646667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gad76a068dd3fae29c30797157fd646667">MR::splitQuad</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, FaceBitSet *outNewFaces=nullptr)</td></tr>
+<tr class="memdesc:gad76a068dd3fae29c30797157fd646667"><td class="mdescLeft">&#160;</td><td class="mdescRight">given quadrangle face to the left of a, splits it in two triangles with new diagonal edge via dest(a)  <br /></td></tr>
+<tr class="separator:gad76a068dd3fae29c30797157fd646667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -6,5 +6,5 @@ var MRMeshDistance_8h =
       [ "ContinueProcessing", "MRMeshDistance_8h.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
     ] ],
     [ "processCloseTriangles", "MRMeshDistance_8h.html#gadb20234daa82631954c44c1676424e5f", null ],
-    [ "signedDistanceToMesh", "MRMeshDistance_8h.html#ga26d696113738ced8105da17d906092b2", null ]
+    [ "signedDistanceToMesh", "MRMeshDistance_8h.html#gab849769857dbeadbea5f6bbfa749dfa0", null ]
 ];

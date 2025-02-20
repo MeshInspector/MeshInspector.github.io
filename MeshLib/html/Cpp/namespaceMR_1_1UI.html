@@ -245,10 +245,10 @@ Functions</h2></td></tr>
 <tr class="separator:a7618ad711338c485abe6cea17c1e304e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a336fa6393e7abeefe2f5d4e8f29d75a6" id="r_a336fa6393e7abeefe2f5d4e8f29d75a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336fa6393e7abeefe2f5d4e8f29d75a6">buttonIcon</a> (const std::string &amp;name, const Vector2f &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize)</td></tr>
 <tr class="separator:a336fa6393e7abeefe2f5d4e8f29d75a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a192d3148a5ed3177660fcb7c2e758f1f" id="r_a192d3148a5ed3177660fcb7c2e758f1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a192d3148a5ed3177660fcb7c2e758f1f">buttonIconFlatBG</a> (const std::string &amp;name, const Vector2f &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize)</td></tr>
-<tr class="separator:a192d3148a5ed3177660fcb7c2e758f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41964cdf183e28e570d11115b3a1ef58" id="r_a41964cdf183e28e570d11115b3a1ef58"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41964cdf183e28e570d11115b3a1ef58">buttonUniqueIcon</a> (const std::string &amp;iconName, const Vector2f &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize, int *value, int ownValue)</td></tr>
-<tr class="separator:a41964cdf183e28e570d11115b3a1ef58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44615aed700f9c67acd828fa58ae08c4" id="r_a44615aed700f9c67acd828fa58ae08c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44615aed700f9c67acd828fa58ae08c4">buttonIconFlatBG</a> (const std::string &amp;name, const Vector2f &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize, ImGuiKey key=ImGuiKey_None)</td></tr>
+<tr class="separator:a44615aed700f9c67acd828fa58ae08c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9bb305085b442bd865e843c59cb03f" id="r_afe9bb305085b442bd865e843c59cb03f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe9bb305085b442bd865e843c59cb03f">buttonUniqueIcon</a> (const std::string &amp;iconName, const Vector2f &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize, int *value, int ownValue, ImGuiKey key=ImGuiKey_None)</td></tr>
+<tr class="separator:afe9bb305085b442bd865e843c59cb03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a8b0ecd1302a3bda2f1df01ef818a8" id="r_a53a8b0ecd1302a3bda2f1df01ef818a8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53a8b0ecd1302a3bda2f1df01ef818a8">checkbox</a> (const char *label, bool *value)</td></tr>
 <tr class="memdesc:a53a8b0ecd1302a3bda2f1df01ef818a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient checkbox  <br /></td></tr>
 <tr class="separator:a53a8b0ecd1302a3bda2f1df01ef818a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,6 +265,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9542cf007c0f98d41fea874268894222"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9542cf007c0f98d41fea874268894222">checkbox</a> (const char *label, Getter <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e">get</a>, Setter set)</td></tr>
 <tr class="memdesc:a9542cf007c0f98d41fea874268894222"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient checkbox  <br /></td></tr>
 <tr class="separator:a9542cf007c0f98d41fea874268894222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac8bec4cccdbdcba62669312b5cefca" id="r_a5ac8bec4cccdbdcba62669312b5cefca"><td class="memTemplParams" colspan="2">template&lt;typename Getter , typename Setter &gt; </td></tr>
+<tr class="memitem:a5ac8bec4cccdbdcba62669312b5cefca"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5ac8bec4cccdbdcba62669312b5cefca">checkboxValid</a> (const char *label, Getter <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e">get</a>, Setter set, bool valid)</td></tr>
+<tr class="separator:a5ac8bec4cccdbdcba62669312b5cefca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba6c7c72b70351ba42eae4e3a2e0df4b" id="r_aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aba6c7c72b70351ba42eae4e3a2e0df4b">checkboxFlags</a> (const char *label, T &amp;target, T flags)</td></tr>
 <tr class="memdesc:aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a checkbox toggling one or more bits in the mask.  <br /></td></tr>
@@ -823,8 +826,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a192d3148a5ed3177660fcb7c2e758f1f" name="a192d3148a5ed3177660fcb7c2e758f1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a192d3148a5ed3177660fcb7c2e758f1f">&#9670;&#160;</a></span>buttonIconFlatBG()</h2>
+<a id="a44615aed700f9c67acd828fa58ae08c4" name="a44615aed700f9c67acd828fa58ae08c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44615aed700f9c67acd828fa58ae08c4">&#9670;&#160;</a></span>buttonIconFlatBG()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -850,7 +853,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>buttonSize</em></span>&#160;)</td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>buttonSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiKey</td>          <td class="paramname"><span class="paramname"><em>key</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ImGuiKey_None</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -900,8 +908,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a41964cdf183e28e570d11115b3a1ef58" name="a41964cdf183e28e570d11115b3a1ef58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41964cdf183e28e570d11115b3a1ef58">&#9670;&#160;</a></span>buttonUniqueIcon()</h2>
+<a id="afe9bb305085b442bd865e843c59cb03f" name="afe9bb305085b442bd865e843c59cb03f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe9bb305085b442bd865e843c59cb03f">&#9670;&#160;</a></span>buttonUniqueIcon()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -934,7 +942,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ownValue</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ownValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiKey</td>          <td class="paramname"><span class="paramname"><em>key</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ImGuiKey_None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1119,7 +1132,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a877e7bd4fbef2de7e95cee03dc0f71b3" name="a877e7bd4fbef2de7e95cee03dc0f71b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a877e7bd4fbef2de7e95cee03dc0f71b3">&#9670;&#160;</a></span>checkboxValid()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a877e7bd4fbef2de7e95cee03dc0f71b3">&#9670;&#160;</a></span>checkboxValid() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1143,6 +1156,39 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>If valid is false checkbox is disabled. Same as <code>checkboxOrFixedValue( ..., valid ? nullopt : false )</code>. </p>
+
+</div>
+</div>
+<a id="a5ac8bec4cccdbdcba62669312b5cefca" name="a5ac8bec4cccdbdcba62669312b5cefca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac8bec4cccdbdcba62669312b5cefca">&#9670;&#160;</a></span>checkboxValid() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Getter , typename Setter &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::checkboxValid </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Getter</td>          <td class="paramname"><span class="paramname"><em>get</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Setter</td>          <td class="paramname"><span class="paramname"><em>set</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>valid</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

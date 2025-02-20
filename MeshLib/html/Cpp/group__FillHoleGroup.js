@@ -25,6 +25,12 @@ var group__FillHoleGroup =
       [ "items", "structMR_1_1HoleFillPlan.html#a7c843d95baaaeb4979c70aecb08e6370", null ],
       [ "numTris", "structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9", null ]
     ] ],
+    [ "MR::MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", [
+      [ "operator bool", "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119", null ],
+      [ "na", "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f", null ],
+      [ "nb", "structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495", null ],
+      [ "newFaces", "structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a", null ]
+    ] ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", [
       [ "combineMetric", "structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c", null ],
       [ "edgeMetric", "structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61", null ],
@@ -60,8 +66,11 @@ var group__FillHoleGroup =
     [ "MR::getUniversalMetric", "group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e", null ],
     [ "MR::getVerticalStitchMetric", "group__FillHoleGroup.html#gaf5fc59fe1db6fed34f037ff6dad6bc44", null ],
     [ "MR::isHoleBd", "group__FillHoleGroup.html#ga7b7b07510d4a7d74b02ef6890db04a9d", null ],
-    [ "MR::makeBridge", "group__FillHoleGroup.html#ga5b018c101d16b1695c0a3152e89ecdb3", null ],
+    [ "MR::makeBridge", "group__FillHoleGroup.html#gad16b63618dae72a30c787fcd1d7b8200", null ],
     [ "MR::makeBridgeEdge", "group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d", null ],
     [ "MR::makeDegenerateBandAroundHole", "group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77", null ],
+    [ "MR::makeQuadBridge", "group__FillHoleGroup.html#ga2d4d7960f97e0c640fa2d62c25514c2e", null ],
+    [ "MR::makeSmoothBridge", "group__FillHoleGroup.html#gae081fd1e2bfcbf6522b3c28a35ebced2", null ],
+    [ "MR::splitQuad", "group__FillHoleGroup.html#gad76a068dd3fae29c30797157fd646667", null ],
     [ "MR::BadTriangulationMetric", "group__FillHoleGroup.html#gac632bf42924389cba000b725ef53d7bc", null ]
 ];

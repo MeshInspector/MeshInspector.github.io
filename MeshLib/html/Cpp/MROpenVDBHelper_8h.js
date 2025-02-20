@@ -7,5 +7,5 @@ var MROpenVDBHelper_8h =
     [ "MR::RangeSize", "structMR_1_1RangeSize.html", "structMR_1_1RangeSize" ],
     [ "MR::RangeCounter< TreeT >", "classMR_1_1RangeCounter.html", "classMR_1_1RangeCounter" ],
     [ "calculateRangeSize", "MROpenVDBHelper_8h.html#af4556fd56cc32c8b7e8e343664cba8ad", null ],
-    [ "translateToZero", "MROpenVDBHelper_8h.html#ad5ce4a97d4de7ca01323b9b78bf7e4df", null ]
+    [ "translateToZero", "MROpenVDBHelper_8h.html#acfa8fd2ddb974a4ed6a3b2d9dd0168c2", null ]
 ];

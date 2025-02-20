@@ -7,6 +7,8 @@ var classMR_1_1SceneRootObject =
     [ "clone", "classMR_1_1SceneRootObject.html#a1f6fca865f862aaeeb84eb4cd40b77d1", null ],
     [ "cloneRoot", "classMR_1_1SceneRootObject.html#a4ac41df7a0bcda50ea526a4a72043a7c", null ],
     [ "deserializeFields_", "classMR_1_1SceneRootObject.html#a7af83e5f6a013118cfc9e837cd5d75c1", null ],
+    [ "getClassName", "classMR_1_1SceneRootObject.html#a43855d94c83e35cc896ff258183b4fd1", null ],
+    [ "getClassNameInPlural", "classMR_1_1SceneRootObject.html#a0559b89f7fdf81e15706f8e875dfef01", null ],
     [ "operator=", "classMR_1_1SceneRootObject.html#af5adb3060c521b2e091eff673e8780ce", null ],
     [ "select", "classMR_1_1SceneRootObject.html#a9ed64e227f3e1aa208193f4cfe051ddc", null ],
     [ "serializeFields_", "classMR_1_1SceneRootObject.html#ac54aada747b785885fee9262ca3055a7", null ],

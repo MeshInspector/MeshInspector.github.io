@@ -180,6 +180,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a091aa7fdc2342488f7e268ef28a578d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a874605999408fc4576544edbbaa4793c" id="r_a874605999408fc4576544edbbaa4793c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">SearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874605999408fc4576544edbbaa4793c">search</a> (const std::string &amp;searchStr, int *captionCount=nullptr, std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html">SearchResultWeight</a> &gt; *weights=nullptr)</td></tr>
 <tr class="separator:a874605999408fc4576544edbbaa4793c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab23a7433dd866e4a1f54103011c2e116" id="r_ab23a7433dd866e4a1f54103011c2e116"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab23a7433dd866e4a1f54103011c2e116">findItemTab</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; &amp;item)</td></tr>
+<tr class="memdesc:ab23a7433dd866e4a1f54103011c2e116"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns item tab index in schema.tabsOrder or -1 if no tab found (e.g. scene fast access panel or header access panel)  <br /></td></tr>
+<tr class="separator:ab23a7433dd866e4a1f54103011c2e116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a28d7c0a6ed492a3e6678588c499d5a29" name="a28d7c0a6ed492a3e6678588c499d5a29"></a>
@@ -231,6 +234,33 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>removes item from the static holder returns false if item was not present </p>
+
+</div>
+</div>
+<a id="ab23a7433dd866e4a1f54103011c2e116" name="ab23a7433dd866e4a1f54103011c2e116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23a7433dd866e4a1f54103011c2e116">&#9670;&#160;</a></span>findItemTab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API int MR::RibbonSchemaHolder::findItemTab </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns item tab index in schema.tabsOrder or -1 if no tab found (e.g. scene fast access panel or header access panel) </p>
 
 </div>
 </div>

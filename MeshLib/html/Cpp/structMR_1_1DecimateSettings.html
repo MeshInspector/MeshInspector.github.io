@@ -185,6 +185,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac0e97c22838e162343661fd588f7a326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8a313e9caff73dd179f03a9c7b80baa" id="r_ab8a313e9caff73dd179f03a9c7b80baa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a313e9caff73dd179f03a9c7b80baa">stabilizer</a> = 0.001f</td></tr>
 <tr class="separator:ab8a313e9caff73dd179f03a9c7b80baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f6ca4e4f21750ae6d21f4d0c4376dca" id="r_a2f6ca4e4f21750ae6d21f4d0c4376dca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f6ca4e4f21750ae6d21f4d0c4376dca">angleWeightedDistToPlane</a> = false</td></tr>
+<tr class="separator:a2f6ca4e4f21750ae6d21f4d0c4376dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4cfcdf2807788f5914a0640372d4a07" id="r_ac4cfcdf2807788f5914a0640372d4a07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4cfcdf2807788f5914a0640372d4a07">optimizeVertexPos</a> = true</td></tr>
 <tr class="separator:ac4cfcdf2807788f5914a0640372d4a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb741e47d580e75e37b13adcad8a362e" id="r_abb741e47d580e75e37b13adcad8a362e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb741e47d580e75e37b13adcad8a362e">maxDeletedVertices</a> = INT_MAX</td></tr>
@@ -210,8 +212,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae341a50784372571b1b5bb3e6948981e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee15c4faad0020190c28ac13da3e735e" id="r_aee15c4faad0020190c28ac13da3e735e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee15c4faad0020190c28ac13da3e735e">touchBdVerts</a> = true</td></tr>
 <tr class="separator:aee15c4faad0020190c28ac13da3e735e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bc3106034dd8abdbb3067c7868ca6dd" id="r_a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc3106034dd8abdbb3067c7868ca6dd">bdVerts</a> = nullptr</td></tr>
-<tr class="separator:a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc44005d50714fe75f875a25f3a59f66" id="r_abc44005d50714fe75f875a25f3a59f66"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc44005d50714fe75f875a25f3a59f66">bdVerts</a> = nullptr</td></tr>
+<tr class="separator:abc44005d50714fe75f875a25f3a59f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07" id="r_aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="separator:aebecde304889b67910dd05d032cb8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5901e72dc3fd85459f38318a894afbbd" id="r_a5901e72dc3fd85459f38318a894afbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5901e72dc3fd85459f38318a894afbbd">preCollapse</a></td></tr>
@@ -262,18 +264,33 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9bc3106034dd8abdbb3067c7868ca6dd" name="a9bc3106034dd8abdbb3067c7868ca6dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc3106034dd8abdbb3067c7868ca6dd">&#9670;&#160;</a></span>bdVerts</h2>
+<a id="a2f6ca4e4f21750ae6d21f4d0c4376dca" name="a2f6ca4e4f21750ae6d21f4d0c4376dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f6ca4e4f21750ae6d21f4d0c4376dca">&#9670;&#160;</a></span>angleWeightedDistToPlane</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const VertBitSet* MR::DecimateSettings::bdVerts = nullptr</td>
+          <td class="memname">bool MR::DecimateSettings::angleWeightedDistToPlane = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set </p>
+<p>if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles; if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle) </p>
+
+</div>
+</div>
+<a id="abc44005d50714fe75f875a25f3a59f66" name="abc44005d50714fe75f875a25f3a59f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc44005d50714fe75f875a25f3a59f66">&#9670;&#160;</a></span>bdVerts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertBitSet* MR::DecimateSettings::bdVerts = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set; the algorithm updates this set if it packs the mesh </p>
 
 </div>
 </div>

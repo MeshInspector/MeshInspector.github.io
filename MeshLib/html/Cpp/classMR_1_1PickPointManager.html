@@ -188,6 +188,8 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:acdec8bef50154b559458d08eceea4115" id="r_acdec8bef50154b559458d08eceea4115"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdec8bef50154b559458d08eceea4115">PickerPointCallBack</a> = std::function&lt;void( std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt; obj, int index )&gt;</td></tr>
 <tr class="separator:acdec8bef50154b559458d08eceea4115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b0c440aebb467deda774314fec8dfa" id="r_a97b0c440aebb467deda774314fec8dfa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97b0c440aebb467deda774314fec8dfa">AllowCallBack</a> = std::function&lt;bool( const std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;&amp; obj, int index )&gt;</td></tr>
+<tr class="separator:a97b0c440aebb467deda774314fec8dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66fec48ba08655d3ee9486f9b4e2c3f0" id="r_a66fec48ba08655d3ee9486f9b4e2c3f0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66fec48ba08655d3ee9486f9b4e2c3f0">SurfaceContour</a> = std::vector&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a>&gt;&gt;</td></tr>
 <tr class="separator:a66fec48ba08655d3ee9486f9b4e2c3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a513fdc4a9b2559957cd9fa01d93f76ae" id="r_a513fdc4a9b2559957cd9fa01d93f76ae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a513fdc4a9b2559957cd9fa01d93f76ae">SurfaceContours</a> = std::unordered_map &lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="#a66fec48ba08655d3ee9486f9b4e2c3f0">SurfaceContour</a>&gt;</td></tr>
@@ -249,8 +251,22 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ada6902120790d59fb87b99281b702b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classMR_1_1PickPointManager.html">PickPointManager</a> allows the user to pick/move/delete several ordered points on one or more visual objects; mouse events and public methods automatically add history actions for reverting </p>
+<div class="textblock"><p><a class="el" href="classMR_1_1PickPointManager.html">PickPointManager</a> allows the user to pick/move/delete several ordered points on one or more visual objects; mouse events and public methods automatically add history actions for reverting (if enabled) </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a97b0c440aebb467deda774314fec8dfa" name="a97b0c440aebb467deda774314fec8dfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b0c440aebb467deda774314fec8dfa">&#9670;&#160;</a></span>AllowCallBack</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a97b0c440aebb467deda774314fec8dfa">MR::PickPointManager::AllowCallBack</a> = std::function&lt;bool( const std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;&amp; obj, int index )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a126f436cbe4bfa2339652d428159ad0b" name="a126f436cbe4bfa2339652d428159ad0b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a126f436cbe4bfa2339652d428159ad0b">&#9670;&#160;</a></span>FullState</h2>
 

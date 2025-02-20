@@ -35,7 +35,8 @@ var group__VisualObjectGroup =
       [ "getBackColor", "classMR_1_1VisualObject.html#af49f84e12ea7e21ec8dc39ae8609bc18", null ],
       [ "getBackColorsForAllViewports", "classMR_1_1VisualObject.html#a714aab4f9110c1072f3147edae51e293", null ],
       [ "getBoundingBox", "classMR_1_1VisualObject.html#a8fe84b708cf42b2d73b31e77f02fae6a", null ],
-      [ "getClassName", "classMR_1_1VisualObject.html#a87b74d884525bd4984c88b5680a7e537", null ],
+      [ "getClassName", "classMR_1_1VisualObject.html#ac09e696332a3dce001e8dc010c45a70b", null ],
+      [ "getClassNameInPlural", "classMR_1_1VisualObject.html#a6584432cb9ca39aabe802844cc1ffb82", null ],
       [ "getColoringType", "classMR_1_1VisualObject.html#ad526a2645a12621b7742bc66aaf5ad0f", null ],
       [ "getDirtyFlags", "classMR_1_1VisualObject.html#a6411458c4cd7d098c12adaea27568db7", null ],
       [ "getFrontColor", "classMR_1_1VisualObject.html#a70f15c0dc59f3b83a8b8c3e6390f7571", null ],
@@ -119,13 +120,6 @@ var group__VisualObjectGroup =
       [ "vertsColorMap_", "classMR_1_1VisualObject.html#a782cfef38763cac8903ad92bd391f0ec", null ]
     ] ],
     [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
-    [ "MR::ColoringType", "group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f", [
-      [ "MR::ColoringType::SolidColor", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
-      [ "MR::ColoringType::PrimitivesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],
-      [ "MR::ColoringType::FacesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba", null ],
-      [ "MR::ColoringType::LinesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197", null ],
-      [ "MR::ColoringType::VertsColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd", null ]
-    ] ],
     [ "MR::DirtyFlags", "group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269", [
       [ "MR::DIRTY_NONE", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a162875ffd2234840bdaf002277708668", null ],
       [ "MR::DIRTY_POSITION", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110", null ],

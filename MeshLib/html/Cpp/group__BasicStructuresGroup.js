@@ -80,6 +80,7 @@ var group__BasicStructuresGroup =
     [ "MR::fromVdb", "group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4", null ],
     [ "MR::getValue", "group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861", null ],
     [ "MR::heapBytes", "group__BasicStructuresGroup.html#ga0f1e6296451691269fc538aad8088557", null ],
+    [ "MR::MakeFloatGrid", "group__BasicStructuresGroup.html#ga008386feb5f7364043e76dc51b8a0a9d", null ],
     [ "MR::MakeFloatGrid", "group__BasicStructuresGroup.html#ga00a487924b8ec452f4a8b75891d68fc3", null ],
     [ "MR::operator*=", "group__BasicStructuresGroup.html#ga245aead53191a5ec52138336c54c109c", null ],
     [ "MR::operator+=", "group__BasicStructuresGroup.html#gaa47a1ff80bfc2c9f180c4983cf67bdfc", null ],

@@ -1,7 +1,0 @@
-var classmeshlib_1_1mrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment =
-[
-    [ "__init__", "classmeshlib_1_1mrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a8d40601efd2f4b214d37b909f682bfff", null ],
-    [ "__init__", "classmeshlib_1_1mrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a01e39a431e20c5cdb321527ee588b2ba", null ],
-    [ "__init__", "classmeshlib_1_1mrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a8d40601efd2f4b214d37b909f682bfff", null ],
-    [ "measure", "classmeshlib_1_1mrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a6b8775b7bc0bf13814aa96bfcde9e2b0", null ]
-];

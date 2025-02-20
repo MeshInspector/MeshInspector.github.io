@@ -1,15 +1,15 @@
 var mrcudapy_8pyi =
 [
-    [ "meshlib.mrcudapy.FastWindingNumber", "classmeshlib_1_1mrcudapy_1_1FastWindingNumber.html", "classmeshlib_1_1mrcudapy_1_1FastWindingNumber" ],
-    [ "meshlib.mrcudapy.PointsToMeshProjector", "classmeshlib_1_1mrcudapy_1_1PointsToMeshProjector.html", "classmeshlib_1_1mrcudapy_1_1PointsToMeshProjector" ],
-    [ "computeDistanceMap", "mrcudapy_8pyi.html#a1077e2fc1826622a6de394bccb7a83d0", null ],
-    [ "computeDistanceMapHeapBytes", "mrcudapy_8pyi.html#ae0c1f2b6b4caa363bbbffc12e387e5a2", null ],
-    [ "computeSkyViewFactor", "mrcudapy_8pyi.html#a12d004d04fe4fe75cecdc2bdd50e6472", null ],
-    [ "distanceMapFromContours", "mrcudapy_8pyi.html#a84b9e0c5e2d73c13f08ab3b41acdd719", null ],
-    [ "distanceMapFromContoursHeapBytes", "mrcudapy_8pyi.html#a85eefc42a7747dbe25e39c2b86642333", null ],
-    [ "findSkyRays", "mrcudapy_8pyi.html#a6d312d2efb96e27bc9488c144903a9d3", null ],
-    [ "getCudaAvailableMemory", "mrcudapy_8pyi.html#a55e4e85180aee36251b70cd7efa29b2d", null ],
-    [ "isCudaAvailable", "mrcudapy_8pyi.html#aa95e078cac2a465d32db219195bd996a", null ],
-    [ "negatePicture", "mrcudapy_8pyi.html#ad82eac67a0aa454abb39d470923dde9f", null ],
-    [ "pointsToDistanceVolume", "mrcudapy_8pyi.html#a558ae4d962bb35a0c1e928db4c8abc9a", null ]
+    [ "mrcudapy.FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
+    [ "mrcudapy.PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ],
+    [ "computeDistanceMap", "mrcudapy_8pyi.html#afb6959a79e7044add2174d0f636bbce7", null ],
+    [ "computeDistanceMapHeapBytes", "mrcudapy_8pyi.html#af293abec06c54894a7f9650efd31e859", null ],
+    [ "computeSkyViewFactor", "mrcudapy_8pyi.html#acd91e89fc658222b8fe9768b542f21bd", null ],
+    [ "distanceMapFromContours", "mrcudapy_8pyi.html#a9279d8b3b9636326c4f24d472afdff1d", null ],
+    [ "distanceMapFromContoursHeapBytes", "mrcudapy_8pyi.html#aa2b49002b37ad8f472a8719e6159e44b", null ],
+    [ "findSkyRays", "mrcudapy_8pyi.html#a331da1fe9e3cbd4669da50a822548ca3", null ],
+    [ "getCudaAvailableMemory", "mrcudapy_8pyi.html#aa0b99ba36260a5a8fb0925f8dc79d28a", null ],
+    [ "isCudaAvailable", "mrcudapy_8pyi.html#ac887b4b7e6c7b2f7fa04dbdabfe3729e", null ],
+    [ "negatePicture", "mrcudapy_8pyi.html#ac3163db5e369a9de3b776b9110700924", null ],
+    [ "pointsToDistanceVolume", "mrcudapy_8pyi.html#abacc3f1ddc84e70bb38d8d75c6595bd3", null ]
 ];

@@ -158,12 +158,14 @@ $(function(){initNavTree('classMR_1_1FreeFormDeformer.html',''); initResizable(t
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRFreeFormDeformer_8h_source.html">MRFreeFormDeformer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRMesh_2MRFreeFormDeformer_8h_source.html">MRFreeFormDeformer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3eb6ffed57f650462b286bfca66ed783" id="r_a3eb6ffed57f650462b286bfca66ed783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb6ffed57f650462b286bfca66ed783">FreeFormDeformer</a> (VertCoords &amp;coords, const VertBitSet &amp;valid)</td></tr>
 <tr class="separator:a3eb6ffed57f650462b286bfca66ed783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd3fce8f670ea92961b1529cf3e5bf3" id="r_a3fd3fce8f670ea92961b1529cf3e5bf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fd3fce8f670ea92961b1529cf3e5bf3">FreeFormDeformer</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *region=nullptr)</td></tr>
+<tr class="separator:a3fd3fce8f670ea92961b1529cf3e5bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a923952b8a6e2cd1a6a57ca40d2913189" id="r_a923952b8a6e2cd1a6a57ca40d2913189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a923952b8a6e2cd1a6a57ca40d2913189">init</a> (const Vector3i &amp;resolution=Vector3i::diagonal(2), const Box3f &amp;initialBox=Box3f())</td></tr>
 <tr class="separator:a923952b8a6e2cd1a6a57ca40d2913189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a9d732a3f8a4e282739319c0a79eb95" id="r_a2a9d732a3f8a4e282739319c0a79eb95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a9d732a3f8a4e282739319c0a79eb95">setRefGridPointPosition</a> (const Vector3i &amp;coordOfPointInGrid, const Vector3f &amp;newPos)</td></tr>
@@ -187,7 +189,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3eb6ffed57f650462b286bfca66ed783" name="a3eb6ffed57f650462b286bfca66ed783"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3eb6ffed57f650462b286bfca66ed783">&#9670;&#160;</a></span>FreeFormDeformer()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb6ffed57f650462b286bfca66ed783">&#9670;&#160;</a></span>FreeFormDeformer() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,6 +203,27 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>valid</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3fd3fce8f670ea92961b1529cf3e5bf3" name="a3fd3fce8f670ea92961b1529cf3e5bf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd3fce8f670ea92961b1529cf3e5bf3">&#9670;&#160;</a></span>FreeFormDeformer() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::FreeFormDeformer::FreeFormDeformer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -411,7 +434,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="MRFreeFormDeformer_8h_source.html">MRFreeFormDeformer.h</a></li>
+<li><a class="el" href="MRMesh_2MRFreeFormDeformer_8h_source.html">MRMesh/MRFreeFormDeformer.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

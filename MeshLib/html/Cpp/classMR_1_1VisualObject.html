@@ -212,9 +212,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32d2019eae016848083a25a159b3b058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f629cc6822b206ab9232648fa19dcb6" id="r_a6f629cc6822b206ab9232648fa19dcb6"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f629cc6822b206ab9232648fa19dcb6">typeName</a> () const override</td></tr>
 <tr class="separator:a6f629cc6822b206ab9232648fa19dcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b74d884525bd4984c88b5680a7e537" id="r_a87b74d884525bd4984c88b5680a7e537"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b74d884525bd4984c88b5680a7e537">getClassName</a> () const override</td></tr>
-<tr class="memdesc:a87b74d884525bd4984c88b5680a7e537"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
-<tr class="separator:a87b74d884525bd4984c88b5680a7e537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac09e696332a3dce001e8dc010c45a70b" id="r_ac09e696332a3dce001e8dc010c45a70b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac09e696332a3dce001e8dc010c45a70b">getClassName</a> () const override</td></tr>
+<tr class="memdesc:ac09e696332a3dce001e8dc010c45a70b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
+<tr class="separator:ac09e696332a3dce001e8dc010c45a70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6584432cb9ca39aabe802844cc1ffb82" id="r_a6584432cb9ca39aabe802844cc1ffb82"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6584432cb9ca39aabe802844cc1ffb82">getClassNameInPlural</a> () const override</td></tr>
+<tr class="memdesc:a6584432cb9ca39aabe802844cc1ffb82"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass in plural form  <br /></td></tr>
+<tr class="separator:a6584432cb9ca39aabe802844cc1ffb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a87c846a1caa768c3043ee50bbd966" id="r_a17a87c846a1caa768c3043ee50bbd966"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a87c846a1caa768c3043ee50bbd966">supportsVisualizeProperty</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type) const</td></tr>
 <tr class="memdesc:a17a87c846a1caa768c3043ee50bbd966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this class supports the property <code>type</code>. Otherwise passing it to the functions below is illegal.  <br /></td></tr>
 <tr class="separator:a17a87c846a1caa768c3043ee50bbd966"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,10 +328,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c44ad8ebd43db1ccbc850ec3c809591" id="r_a4c44ad8ebd43db1ccbc850ec3c809591"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c44ad8ebd43db1ccbc850ec3c809591">updateVertsColorMap</a> (VertColors &amp;vertsColorMap)</td></tr>
 <tr class="memdesc:a4c44ad8ebd43db1ccbc850ec3c809591"><td class="mdescLeft">&#160;</td><td class="mdescRight">swaps per-vertex colors of the object with given argument  <br /></td></tr>
 <tr class="separator:a4c44ad8ebd43db1ccbc850ec3c809591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad526a2645a12621b7742bc66aaf5ad0f" id="r_ad526a2645a12621b7742bc66aaf5ad0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad526a2645a12621b7742bc66aaf5ad0f">getColoringType</a> () const</td></tr>
+<tr class="memitem:ad526a2645a12621b7742bc66aaf5ad0f" id="r_ad526a2645a12621b7742bc66aaf5ad0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad526a2645a12621b7742bc66aaf5ad0f">getColoringType</a> () const</td></tr>
 <tr class="memdesc:ad526a2645a12621b7742bc66aaf5ad0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current coloring mode of the object  <br /></td></tr>
 <tr class="separator:ad526a2645a12621b7742bc66aaf5ad0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d339ad1cf1735f90773b4f8b89e9059" id="r_a8d339ad1cf1735f90773b4f8b89e9059"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d339ad1cf1735f90773b4f8b89e9059">setColoringType</a> (<a class="el" href="group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a> coloringType)</td></tr>
+<tr class="memitem:a8d339ad1cf1735f90773b4f8b89e9059" id="r_a8d339ad1cf1735f90773b4f8b89e9059"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d339ad1cf1735f90773b4f8b89e9059">setColoringType</a> (<a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a> coloringType)</td></tr>
 <tr class="memdesc:a8d339ad1cf1735f90773b4f8b89e9059"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets coloring mode of the object with given argument  <br /></td></tr>
 <tr class="separator:a8d339ad1cf1735f90773b4f8b89e9059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9529179a8a5c9b9fed190357942e1ba7" id="r_a9529179a8a5c9b9fed190357942e1ba7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9529179a8a5c9b9fed190357942e1ba7">copyColors</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;src, const VertMap &amp;thisToSrc, const FaceMap &amp;thisToSrcFaces={})</td></tr>
@@ -636,7 +639,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ab494630abaaab85d3b4c16929c7e6e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53f3623d9c70f13c0546466a3ab5da96" id="r_a53f3623d9c70f13c0546466a3ab5da96"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53f3623d9c70f13c0546466a3ab5da96">ambientStrength_</a> { 0.1f }</td></tr>
 <tr class="separator:a53f3623d9c70f13c0546466a3ab5da96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21eb2d0c923e3ca0544e4cf90782e6b1" id="r_a21eb2d0c923e3ca0544e4cf90782e6b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21eb2d0c923e3ca0544e4cf90782e6b1">coloringType_</a> {<a class="el" href="group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">ColoringType::SolidColor</a>}</td></tr>
+<tr class="memitem:a21eb2d0c923e3ca0544e4cf90782e6b1" id="r_a21eb2d0c923e3ca0544e4cf90782e6b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21eb2d0c923e3ca0544e4cf90782e6b1">coloringType_</a> {<a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">ColoringType::SolidColor</a>}</td></tr>
 <tr class="memdesc:a21eb2d0c923e3ca0544e4cf90782e6b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main coloring options.  <br /></td></tr>
 <tr class="separator:a21eb2d0c923e3ca0544e4cf90782e6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a782cfef38763cac8903ad92bd391f0ec" id="r_a782cfef38763cac8903ad92bd391f0ec"><td class="memItemLeft" align="right" valign="top">VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782cfef38763cac8903ad92bd391f0ec">vertsColorMap_</a></td></tr>
@@ -1122,8 +1125,8 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
 
 </div>
 </div>
-<a id="a87b74d884525bd4984c88b5680a7e537" name="a87b74d884525bd4984c88b5680a7e537"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87b74d884525bd4984c88b5680a7e537">&#9670;&#160;</a></span>getClassName()</h2>
+<a id="ac09e696332a3dce001e8dc010c45a70b" name="ac09e696332a3dce001e8dc010c45a70b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac09e696332a3dce001e8dc010c45a70b">&#9670;&#160;</a></span>getClassName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1132,7 +1135,7 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string MR::VisualObject::getClassName </td>
+          <td class="memname">std::string MR::VisualObject::getClassName </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1149,7 +1152,34 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#ad21ab63debcbf8deb1102471a42fd619">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#a9d371827ba2fb752841d1efe7ea66f4e">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#aeaaf88b33c15f525f690a986a6b8e4b2">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#a82f1b0c5bd664374800d525c2e276851">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#afe9bf4751b857fb5f5b97a5a738bc9ed">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1LineObject.html#a58d1ddeed9b8239cf14d4c47de7f6361">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#ab68c3e721d3bd37dc6a085f40ecd825c">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#aaa869cb7e2f0543a53b482e956852415">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#ac7792895b65e5aa19f751b31507a32c3">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#ad913c04754e2d8364f0042efa5c1fffd">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a9b538af544fb079b16e86b72414c4b2a">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a5cf0d7357ed28e21c95574c86d0cdbad">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#acccbe2fde9c8cb30a4c0a73ab99d2283">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a3f2703413f04d8a050906c159caf02fc">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#a2385459fc51ba867da12e2d953eebd7f">MR::RadiusMeasurementObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#a1e97d8fea065449a5da3f204f8230678">MR::SphereObject</a>.</p>
+</div>
+</div>
+<a id="a6584432cb9ca39aabe802844cc1ffb82" name="a6584432cb9ca39aabe802844cc1ffb82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6584432cb9ca39aabe802844cc1ffb82">&#9670;&#160;</a></span>getClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::VisualObject::getClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return human readable name of subclass in plural form </p>
+
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a1dc719b00e50dce56c15759d35168b4f">MR::Object</a>.</p>
 
 </div>
 </div>
@@ -1163,7 +1193,7 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a> MR::VisualObject::getColoringType </td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a> MR::VisualObject::getColoringType </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2018,7 +2048,7 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
         <tr>
           <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::setColoringType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a></td>          <td class="paramname"><span class="paramname"><em>coloringType</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a></td>          <td class="paramname"><span class="paramname"><em>coloringType</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2906,7 +2936,7 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a> MR::VisualObject::coloringType_ {<a class="el" href="group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">ColoringType::SolidColor</a>}</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a> MR::VisualObject::coloringType_ {<a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">ColoringType::SolidColor</a>}</td>
         </tr>
       </table>
   </td>

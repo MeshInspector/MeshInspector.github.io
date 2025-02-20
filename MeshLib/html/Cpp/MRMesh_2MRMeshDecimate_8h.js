@@ -6,8 +6,8 @@ var MRMesh_2MRMeshDecimate_8h =
       [ "MinimizeError", "MRMesh_2MRMeshDecimate_8h.html#a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098", null ],
       [ "ShortestEdgeFirst", "MRMesh_2MRMeshDecimate_8h.html#a216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552", null ]
     ] ],
-    [ "computeFormAtVertex", "MRMesh_2MRMeshDecimate_8h.html#ga63b25dc67835322451fa388b24a70301", null ],
-    [ "computeFormsAtVertices", "MRMesh_2MRMeshDecimate_8h.html#ga708339c034b53108c45f1987a682cea0", null ],
+    [ "computeFormAtVertex", "MRMesh_2MRMeshDecimate_8h.html#gacb444edaf47dfdb3ecdd1e8e89947640", null ],
+    [ "computeFormsAtVertices", "MRMesh_2MRMeshDecimate_8h.html#gaf5753b646d0c83bd144038b4d90d0918", null ],
     [ "decimateMesh", "MRMesh_2MRMeshDecimate_8h.html#ga16a994862b0ba8f6a68c61463be0ed4e", null ],
     [ "getSubdividePart", "MRMesh_2MRMeshDecimate_8h.html#ga68a943035521cac62a80a1f864147c6e", null ],
     [ "remesh", "MRMesh_2MRMeshDecimate_8h.html#a08dd1bb898ae6ccea21b3ccb5feb209f", null ],

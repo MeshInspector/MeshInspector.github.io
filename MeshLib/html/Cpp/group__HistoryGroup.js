@@ -163,6 +163,12 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef", null ],
       [ "name", "classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b", null ]
     ] ],
+    [ "MR::ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", [
+      [ "ChangeScaleAction", "classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075", null ],
+      [ "action", "classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca", null ],
+      [ "heapBytes", "classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1", null ],
+      [ "name", "classMR_1_1ChangeScaleAction.html#a4ef261e118c5b35c7f334c4c5dc65f5c", null ]
+    ] ],
     [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", [
       [ "Type", "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1", [
         [ "AddObject", "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846", null ],
@@ -200,6 +206,7 @@ var group__HistoryGroup =
     [ "MR::ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshCreasesAction.html#a222e4ff1e014646782819abea4d1a92d", null ],
       [ "ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html#a35abf0006f1f9dde31def6af394af1ae", null ],
+      [ "ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html#ac0652611ceda3ea880e9a537d6d5760c", null ],
       [ "action", "classMR_1_1ChangeMeshCreasesAction.html#a1dcddeee79326fa1a00c79904fb4a1b7", null ],
       [ "creases", "classMR_1_1ChangeMeshCreasesAction.html#a8e94b4602cd0f65cfe61ec32c75659db", null ],
       [ "heapBytes", "classMR_1_1ChangeMeshCreasesAction.html#a850dbf46650c86a5fe37b4b876fe5e43", null ],
@@ -286,7 +293,7 @@ var group__HistoryGroup =
         [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]
       ] ],
       [ "~HistoryStore", "classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614", null ],
-      [ "appendAction", "classMR_1_1HistoryStore.html#ad29229f07b377f386fa783f9f178a3ba", null ],
+      [ "appendAction", "classMR_1_1HistoryStore.html#aa0c8ea0276f02eca0f11f888ecfc39f4", null ],
       [ "calcUsedMemory", "classMR_1_1HistoryStore.html#ae5153ad77359e03f6105aa8db1293b14", null ],
       [ "clear", "classMR_1_1HistoryStore.html#aeaca3b28f85fa63c443235a4539cfa25", null ],
       [ "filterStack", "classMR_1_1HistoryStore.html#a34a9d69ae6d37fc5a5b4155b63d3c100", null ],

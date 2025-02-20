@@ -1,13 +1,6 @@
 var MRVisualObject_8h =
 [
     [ "AllVisualizeProperties", "MRVisualObject_8h.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
-    [ "ColoringType", "MRVisualObject_8h.html#ga270a25a8ef13e07e59e7070834efc33f", [
-      [ "SolidColor", "MRVisualObject_8h.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
-      [ "PrimitivesColorMap", "MRVisualObject_8h.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],
-      [ "FacesColorMap", "MRVisualObject_8h.html#gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba", null ],
-      [ "LinesColorMap", "MRVisualObject_8h.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197", null ],
-      [ "VertsColorMap", "MRVisualObject_8h.html#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd", null ]
-    ] ],
     [ "DirtyFlags", "MRVisualObject_8h.html#ga03255e831f4895337e7cf27d64e51269", [
       [ "DIRTY_NONE", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a162875ffd2234840bdaf002277708668", null ],
       [ "DIRTY_POSITION", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110", null ],

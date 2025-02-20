@@ -474,6 +474,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa55c3fbd9f75acc5b51ecba5402c8fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a981b9e4f52d4679a09fbbca4dab08573" id="r_a981b9e4f52d4679a09fbbca4dab08573"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a981b9e4f52d4679a09fbbca4dab08573">itemPressed_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; &amp;item, const std::string &amp;requiremetnsHint={})</td></tr>
 <tr class="separator:a981b9e4f52d4679a09fbbca4dab08573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f2b825159346f39db3cde812e624bfb" id="r_a3f2b825159346f39db3cde812e624bfb"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f2b825159346f39db3cde812e624bfb">getRequirements_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; &amp;item) const</td></tr>
+<tr class="memdesc:a3f2b825159346f39db3cde812e624bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns requirements line for given tool, empty line means that tool is available  <br /></td></tr>
+<tr class="separator:a3f2b825159346f39db3cde812e624bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a536aa66aca49a47e58d15a786e574cb9" id="r_a536aa66aca49a47e58d15a786e574cb9"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536aa66aca49a47e58d15a786e574cb9">drawActiveBlockingDialog_</a> ()</td></tr>
 <tr class="separator:a536aa66aca49a47e58d15a786e574cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b8f24d719c5b2f849c6a2da6a8e6a05" id="r_a2b8f24d719c5b2f849c6a2da6a8e6a05"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b8f24d719c5b2f849c6a2da6a8e6a05">drawActiveNonBlockingDialogs_</a> ()</td></tr>
@@ -518,6 +521,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a6eca8ec42be5e0e43ee29c4e45d12430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a597bf3251a597e7d18def3c23b156d45" id="r_a597bf3251a597e7d18def3c23b156d45"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a597bf3251a597e7d18def3c23b156d45">drawNotifications_</a> ()</td></tr>
 <tr class="separator:a597bf3251a597e7d18def3c23b156d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad83984d816bde0619ef416625513f3e8" id="r_ad83984d816bde0619ef416625513f3e8"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad83984d816bde0619ef416625513f3e8">updateTopPanelSize_</a> (bool drawTabs)</td></tr>
+<tr class="separator:ad83984d816bde0619ef416625513f3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1ImGuiMenu"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1ImGuiMenu')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td></tr>
 <tr class="memitem:a94d45ffa94d1720d85a4120b6e769b55 inherit pro_methods_classMR_1_1ImGuiMenu" id="r_a94d45ffa94d1720d85a4120b6e769b55"><td class="memItemLeft" align="right" valign="top">Vector4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ImGuiMenu.html#a94d45ffa94d1720d85a4120b6e769b55">getStoredColor_</a> (const std::string &amp;str, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;defaultColor) const</td></tr>
 <tr class="separator:a94d45ffa94d1720d85a4120b6e769b55 inherit pro_methods_classMR_1_1ImGuiMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1566,6 +1571,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3f2b825159346f39db3cde812e624bfb" name="a3f2b825159346f39db3cde812e624bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f2b825159346f39db3cde812e624bfb">&#9670;&#160;</a></span>getRequirements_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API std::string MR::RibbonMenu::getRequirements_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns requirements line for given tool, empty line means that tool is available </p>
+
+</div>
+</div>
 <a id="ae0840c947fea974de909fbaee8e7829e" name="ae0840c947fea974de909fbaee8e7829e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0840c947fea974de909fbaee8e7829e">&#9670;&#160;</a></span>getRibbonButtonDrawer()</h2>
 
@@ -2492,6 +2524,31 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>updates status of item if it was changed outside of menu </p>
+
+</div>
+</div>
+<a id="ad83984d816bde0619ef416625513f3e8" name="ad83984d816bde0619ef416625513f3e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83984d816bde0619ef416625513f3e8">&#9670;&#160;</a></span>updateTopPanelSize_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::updateTopPanelSize_ </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>drawTabs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

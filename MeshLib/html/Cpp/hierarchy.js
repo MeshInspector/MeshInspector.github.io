@@ -27,7 +27,7 @@ var hierarchy =
     [ "MR::AsyncTimer", "classMR_1_1AsyncTimer.html", null ],
     [ "auto_cast_trait< T >", "structauto__cast__trait.html", null ],
     [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
-    [ "MR::Ball", "structMR_1_1Ball.html", null ],
+    [ "MR::Ball< V >", "structMR_1_1Ball.html", null ],
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
     ] ],
@@ -190,6 +190,7 @@ var hierarchy =
     [ "MR::GcodeProcessor::Command", "structMR_1_1GcodeProcessor_1_1Command.html", null ],
     [ "MR::CommandLoop", "classMR_1_1CommandLoop.html", null ],
     [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],
+    [ "MR::CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", null ],
     [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", null ],
     [ "MR::Cone3< T >", "classMR_1_1Cone3.html", null ],
     [ "MR::Cone3Approximation< T >", "classMR_1_1Cone3Approximation.html", null ],
@@ -225,6 +226,7 @@ var hierarchy =
         ] ],
         [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", [
           [ "MR::AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", null ],
+          [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ],
           [ "MR::CameraOrientation", "classMR_1_1CameraOrientation.html", null ],
           [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
           [ "MR::OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", null ],
@@ -292,7 +294,9 @@ var hierarchy =
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", null ],
-    [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", null ],
+    [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [
+      [ "MR::SignedDistanceToMeshOptions", "structMR_1_1SignedDistanceToMeshOptions.html", null ]
+    ] ],
     [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
       [ "MR::PointsToDistanceVolumeParams", "structMR_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],
@@ -352,6 +356,7 @@ var hierarchy =
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::UI::RectAllocator::FindFreeRectResult", "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html", null ],
     [ "MR::FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", null ],
+    [ "MR::FindOutliersParams", "structMR_1_1FindOutliersParams.html", null ],
     [ "MR::FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", null ],
     [ "MR::FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", null ],
     [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
@@ -420,6 +425,7 @@ var hierarchy =
       [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", null ],
       [ "MR::ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html", null ],
       [ "MR::ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html", null ],
+      [ "MR::ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", null ],
       [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", null ],
       [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", null ],
       [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", null ],
@@ -538,7 +544,9 @@ var hierarchy =
       [ "MR::PluginCloseOnEscPressed", "classMR_1_1PluginCloseOnEscPressed.html", [
         [ "MR::SelectObjectByClick", "classMR_1_1SelectObjectByClick.html", null ]
       ] ],
-      [ "MR::PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", null ],
+      [ "MR::PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", [
+        [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ]
+      ] ],
       [ "MR::PluginUpdateOnChangeMeshPart", "classMR_1_1PluginUpdateOnChangeMeshPart.html", null ],
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", [
         [ "MR::StateListenerPlugin< DragStartListener, DragListener, DragEndListener, PostDrawListener >", "classMR_1_1StateListenerPlugin.html", null ],
@@ -596,6 +604,9 @@ var hierarchy =
       ] ],
       [ "MR::SceneStateAtLeastCheck< 1, Object >", "classMR_1_1SceneStateAtLeastCheck.html", [
         [ "MR::SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", null ]
+      ] ],
+      [ "MR::SceneStateExactCheck< 2, ObjectVoxels >", "classMR_1_1SceneStateExactCheck.html", [
+        [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ]
       ] ],
       [ "MR::SceneStateExactCheck< 1, Object, NoModelCheck >", "classMR_1_1SceneStateExactCheck.html", [
         [ "MR::RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", null ]
@@ -664,6 +675,7 @@ var hierarchy =
     [ "MR::LoadedObjectT< ObjectT >", "structMR_1_1LoadedObjectT.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
+    [ "MR::MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", null ],
     [ "MR::MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", null ],
     [ "MR::detail::MakeScopeGuard< T >", "structMR_1_1detail_1_1MakeScopeGuard.html", null ],
     [ "MR::MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", null ],
@@ -692,12 +704,14 @@ var hierarchy =
     [ "MR::MeshMeshDistanceResult", "structMR_1_1MeshMeshDistanceResult.html", null ],
     [ "MR::MeshMeshSignedDistanceResult", "structMR_1_1MeshMeshSignedDistanceResult.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
-    [ "MR::MeshOnVoxelsT< MeshType >", "classMR_1_1MeshOnVoxelsT.html", null ],
+    [ "MR::MeshOnVoxelsT< MeshType, VolumeType >", "classMR_1_1MeshOnVoxelsT.html", null ],
     [ "MR::MeshOrPoints", "classMR_1_1MeshOrPoints.html", null ],
     [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
+    [ "MR::MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
+    [ "MR::MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", null ],
     [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", null ],
     [ "MR::MeshSave::MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", null ],
     [ "MR::MeshToDirectionVolumeParams", "structMR_1_1MeshToDirectionVolumeParams.html", null ],
@@ -730,6 +744,7 @@ var hierarchy =
     [ "MRCoordinateConverters", "structMRCoordinateConverters.html", null ],
     [ "MRDecimateResult", "structMRDecimateResult.html", null ],
     [ "MRDecimateSettings", "structMRDecimateSettings.html", null ],
+    [ "MRDenoiseViaNormalsSettings", "structMRDenoiseViaNormalsSettings.html", null ],
     [ "MREdgeId", "structMREdgeId.html", null ],
     [ "MREdgeTri", "structMREdgeTri.html", null ],
     [ "MRFaceId", "structMRFaceId.html", null ],
@@ -759,6 +774,7 @@ var hierarchy =
     [ "MRMeshTriPoint", "structMRMeshTriPoint.html", null ],
     [ "MRMultipleEdge", "structMRMultipleEdge.html", null ],
     [ "MRMultiwayICPSamplingParameters", "structMRMultiwayICPSamplingParameters.html", null ],
+    [ "MRNoiseSettings", "structMRNoiseSettings.html", null ],
     [ "MRObjId", "structMRObjId.html", null ],
     [ "MRObjVertId", "structMRObjVertId.html", null ],
     [ "MROffsetParameters", "structMROffsetParameters.html", null ],
@@ -768,13 +784,18 @@ var hierarchy =
     [ "MRPointPair", "structMRPointPair.html", null ],
     [ "MRPointsLoadSettings", "structMRPointsLoadSettings.html", null ],
     [ "MRRegionId", "structMRRegionId.html", null ],
+    [ "MRRelaxParams", "structMRRelaxParams.html", null ],
     [ "MRRemeshSettings", "structMRRemeshSettings.html", null ],
     [ "MRResolveMeshDegenSettings", "structMRResolveMeshDegenSettings.html", null ],
     [ "MRSaveSettings", "structMRSaveSettings.html", null ],
     [ "MRSphereParams", "structMRSphereParams.html", null ],
+    [ "MRStitchHolesParams", "structMRStitchHolesParams.html", null ],
+    [ "MRSubdivideSettings", "structMRSubdivideSettings.html", null ],
     [ "MRTriangulationParameters", "structMRTriangulationParameters.html", null ],
     [ "MRTriPointf", "structMRTriPointf.html", null ],
+    [ "MR::MruFormatParameters", "structMR_1_1MruFormatParameters.html", null ],
     [ "MRUndirectedEdgeId", "structMRUndirectedEdgeId.html", null ],
+    [ "MRUniformSamplingSettings", "structMRUniformSamplingSettings.html", null ],
     [ "MRVariableEdgeTri", "structMRVariableEdgeTri.html", null ],
     [ "MRVdbVolume", "structMRVdbVolume.html", null ],
     [ "MRVector3f", "structMRVector3f.html", null ],
@@ -858,6 +879,7 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
+    [ "MR::ObjectMeshSubdivideResult", "structMR_1_1ObjectMeshSubdivideResult.html", null ],
     [ "MR::PickPointManager::ObjectState", "structMR_1_1PickPointManager_1_1ObjectState.html", null ],
     [ "MR::ObjKindTraits< X >", "structMR_1_1ObjKindTraits.html", null ],
     [ "MR::ObjKindTraits< FeaturesObjectKind::Circle >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html", null ],
@@ -877,6 +899,8 @@ var hierarchy =
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "MR::OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", null ],
+    [ "MR::OutlierParams", "structMR_1_1OutlierParams.html", null ],
+    [ "MR::OutliersDetector", "classMR_1_1OutliersDetector.html", null ],
     [ "MR::PlanarTriangulation::OutlineParameters", "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html", null ],
     [ "MR::OutputFlows", "structMR_1_1OutputFlows.html", null ],
     [ "MR::WatershedGraph::OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", null ],
@@ -884,6 +908,7 @@ var hierarchy =
     [ "MR::Palette", "classMR_1_1Palette.html", null ],
     [ "MR::PalettePresets", "classMR_1_1PalettePresets.html", null ],
     [ "MR::Parabola< T >", "structMR_1_1Parabola.html", null ],
+    [ "MR::ParallelProgressReporter", "classMR_1_1ParallelProgressReporter.html", null ],
     [ "MR::MarkedVoxelSlice::Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", null ],
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
     [ "MR::RibbonMenuSearch::Parameters", "structMR_1_1RibbonMenuSearch_1_1Parameters.html", null ],
@@ -897,6 +922,7 @@ var hierarchy =
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
     [ "MR::PdfParameters", "structMR_1_1PdfParameters.html", null ],
+    [ "MR::ParallelProgressReporter::PerTaskReporter", "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html", null ],
     [ "MR::ViewportGL::PickParameters", "structMR_1_1ViewportGL_1_1PickParameters.html", null ],
     [ "MR::Viewport::PickRenderObjectParams", "structMR_1_1Viewport_1_1PickRenderObjectParams.html", null ],
     [ "MR::Features::Primitives::Plane", "structMR_1_1Features_1_1Primitives_1_1Plane.html", null ],
@@ -936,7 +962,9 @@ var hierarchy =
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
     [ "MR::ImGuiMeasurementIndicators::PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", null ],
+    [ "MR::PriorityQueue< T, P >", "classMR_1_1PriorityQueue.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor::ProcessResult", "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html", null ],
+    [ "MR::ProjectAttributeParams", "structMR_1_1ProjectAttributeParams.html", null ],
     [ "MR::MeshOrPoints::ProjectionResult", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html", null ],
     [ "MR::Object::ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", null ],
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", null ],
@@ -1040,6 +1068,11 @@ var hierarchy =
     [ "MR::ShaderWarning", "structMR_1_1ShaderWarning.html", null ],
     [ "MR::ShadowsGL", "classMR_1_1ShadowsGL.html", null ],
     [ "MR::Meta::SharedPtrTraits< T >", "structMR_1_1Meta_1_1SharedPtrTraits.html", null ],
+    [ "MR::SharedThreadSafeOwner< T >", "classMR_1_1SharedThreadSafeOwner.html", null ],
+    [ "MR::SharedThreadSafeOwner< Dipoles >", "classMR_1_1SharedThreadSafeOwner.html", null ],
+    [ "MR::SharedThreadSafeOwner< MR::AABBTree >", "classMR_1_1SharedThreadSafeOwner.html", null ],
+    [ "MR::SharedThreadSafeOwner< MR::AABBTreePoints >", "classMR_1_1SharedThreadSafeOwner.html", null ],
+    [ "MR::SharedThreadSafeOwner< MR::AABBTreePolyline< V > >", "classMR_1_1SharedThreadSafeOwner.html", null ],
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", null ],
     [ "MR::ShellVertexInfo", "structMR_1_1ShellVertexInfo.html", null ],
     [ "MR::ShiftTransformer< TreeT >", "classMR_1_1ShiftTransformer.html", null ],
@@ -1109,6 +1142,7 @@ var hierarchy =
     [ "T", null, [
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
+    [ "MR::ParallelProgressReporter::TaskInfo", "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
@@ -1119,6 +1153,7 @@ var hierarchy =
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", null ],
     [ "MR::TouchpadParameters", "structMR_1_1TouchpadParameters.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
+    [ "MR::TransformVdbVolumeResult", "structMR_1_1TransformVdbVolumeResult.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
     [ "MR::TriangulationHelpers::TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],
@@ -1155,6 +1190,7 @@ var hierarchy =
     [ "MR::UnifiedPythonStream", "classMR_1_1UnifiedPythonStream.html", null ],
     [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", null ],
     [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ],
+    [ "MR::UnionFind< VertId >", "classMR_1_1UnionFind.html", null ],
     [ "std::unique_ptr", null, [
       [ "MR::UniquePtr< SimpleVolume >", "structMR_1_1UniquePtr.html", null ],
       [ "MR::UniquePtr< MR::IRenderObject >", "structMR_1_1UniquePtr.html", null ],
@@ -1162,10 +1198,6 @@ var hierarchy =
     ] ],
     [ "MR::UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", null ],
     [ "MR::UniqueThreadSafeOwner< T >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
-    [ "MR::UniqueThreadSafeOwner< Dipoles >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
-    [ "MR::UniqueThreadSafeOwner< MR::AABBTree >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
-    [ "MR::UniqueThreadSafeOwner< MR::AABBTreePoints >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
-    [ "MR::UniqueThreadSafeOwner< MR::AABBTreePolyline< V > >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::UniteManyMeshesParams", "structMR_1_1UniteManyMeshesParams.html", null ],
     [ "MR::UnitInfo", "structMR_1_1UnitInfo.html", null ],
     [ "MR::UnitToStringParams< E >", "structMR_1_1UnitToStringParams.html", null ],
@@ -1208,9 +1240,11 @@ var hierarchy =
     [ "MR::Vector< QuadraticForm3f, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< size_t, GraphVertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< size_t, I >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< size_t, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< SurfacePath, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< TextureId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< V, VertId >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< VertId, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< VoxelId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "vector_wrapper_base< T >", "structvector__wrapper__base.html", [
       [ "vector_ref_wrapper< T >", "structvector__ref__wrapper.html", null ],
@@ -1267,10 +1301,11 @@ var hierarchy =
     [ "MR::VoxelsVolumeAccessor< Volume >", "classMR_1_1VoxelsVolumeAccessor.html", null ],
     [ "MR::VoxelsVolumeAccessor< V >", "classMR_1_1VoxelsVolumeAccessor.html", null ],
     [ "MR::VoxelsVolumeAccessor< VdbVolume >", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html", null ],
+    [ "MR::VoxelsVolumeAccessor< VolumeType >", "classMR_1_1VoxelsVolumeAccessor.html", null ],
     [ "MR::VoxelsVolumeAccessor< VoxelsVolume< VoxelValueGetter< T > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html", null ],
     [ "MR::VoxelsVolumeCachingAccessor< V >", "classMR_1_1VoxelsVolumeCachingAccessor.html", null ],
     [ "MR::VoxelsVolumeInterpolatedAccessor< Accessor >", "classMR_1_1VoxelsVolumeInterpolatedAccessor.html", null ],
-    [ "MR::VoxelsVolumeInterpolatedAccessor< MR::VoxelsVolumeAccessor< VdbVolume > >", "classMR_1_1VoxelsVolumeInterpolatedAccessor.html", null ],
+    [ "MR::VoxelsVolumeInterpolatedAccessor< MR::VoxelsVolumeAccessor< VolumeType > >", "classMR_1_1VoxelsVolumeInterpolatedAccessor.html", null ],
     [ "MR::VoxelTraits< T >", "structMR_1_1VoxelTraits.html", null ],
     [ "MR::VoxelTraits< FloatGrid >", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html", null ],
     [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", null ],

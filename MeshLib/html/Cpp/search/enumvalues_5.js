@@ -7,5 +7,6 @@ var searchData=
   ['end_4',['End',['../classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a87557f11575c0ad78e4e28abedc13b6e',1,'MR::TouchpadController::Handler']]],
   ['equal_5',['Equal',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93af5f286e73bda105e538310b3190f75c5',1,'MR']]],
   ['error_6',['Error',['../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd',1,'MR']]],
-  ['exponential_7',['exponential',['../namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1aab3b1598e0b02155373807025b067f9a',1,'MR']]]
+  ['exactdistance_7',['ExactDistance',['../classMR_1_1SurfaceManipulationWidget.html#a07fc1d71375854270d1a16b8d06209f4ac93a47dc243a30fb1778ef562c03732c',1,'MR::SurfaceManipulationWidget']]],
+  ['exponential_8',['exponential',['../namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1aab3b1598e0b02155373807025b067f9a',1,'MR']]]
 ];

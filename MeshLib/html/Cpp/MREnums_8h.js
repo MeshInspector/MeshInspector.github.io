@@ -1,5 +1,12 @@
 var MREnums_8h =
 [
+    [ "ColoringType", "MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33f", [
+      [ "SolidColor", "MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
+      [ "PrimitivesColorMap", "MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],
+      [ "FacesColorMap", "MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba", null ],
+      [ "LinesColorMap", "MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197", null ],
+      [ "VertsColorMap", "MREnums_8h.html#a270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd", null ]
+    ] ],
     [ "EdgeWeights", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8", [
       [ "Unit", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f", null ],
       [ "Cotan", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9", null ],
@@ -19,5 +26,10 @@ var MREnums_8h =
     [ "Processing", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149", [
       [ "Continue", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe", null ],
       [ "Stop", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481", null ]
+    ] ],
+    [ "UseAABBTree", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeff", [
+      [ "No", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "Yes", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435", null ],
+      [ "YesIfAlreadyConstructed", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83", null ]
     ] ]
 ];

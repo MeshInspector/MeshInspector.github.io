@@ -34,7 +34,7 @@ var menudata={children:[
 {text:"Tutorials",url:"../Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"}]},
 {text:"Examples",url:"../Examples.html",children:[
-{text:"General Samples",url:"../GeneralExamples.html",children:[
+{text:"General Samples",url:"../Examples.html#GeneralExamples",children:[
 {text:"Application Based on MeshLib",url:"../BasedApplication.html"},
 {text:"Mesh Load and Save",url:"../ExampleMeshLoadSave.html"},
 {text:"Export Raw Triangles",url:"../ExampleMeshExport.html"},
@@ -53,15 +53,21 @@ var menudata={children:[
 {text:"Mesh Denoise",url:"../ExampleNoiseDenoise.html"},
 {text:"Triangulation",url:"../ExampleTriangulation.html"},
 {text:"Text to Mesh",url:"../ExampleMeshFromText.html"}]},
-{text:"Python Specific Samples",url:"../PythonSpecificExamples.html",children:[
+{text:"Python Specific Samples",url:"../Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"../ExampleViewer.html"},
 {text:"Plotly Visualization",url:"../ExamplePlotly.html"},
 {text:"Using Numpy",url:"../ExampleNumpy.html"},
 {text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"}]}]},
 {text:"Package Overview",url:"../PackageOverview.html",children:[
+{text:"Mesh Structure",url:"../MeshStructureOverview.html"},
+{text:"Basic Math Types",url:"../BasicMathTypesOverview.html"},
+{text:"Float vs Double",url:"../FloatVSDouble.html"},
 {text:"Data Model Class Hierarchy",url:"../DataModel.html"},
 {text:"Spaces and Transformations",url:"../SpacesHelp.html"},
-{text:"State Plugins Overview",url:"../StatePluginsHelp.html"}]},
+{text:"File Format Support",url:"../FileFormatSupport.html"},
+{text:"How to use С++ Example Plugin",url:"../ExamplePluginOverview.html"},
+{text:"State Plugins Overview",url:"../StatePluginsHelp.html"},
+{text:"How to Add Plugin",url:"../HowtoAddPluginOverview.html"}]},
 {text:"API",url:"../APIPage.html",children:[
 {text:"C++",url:"../Cpp/APICppPage.html"},
 {text:"Python",url:"APIPyPage.html",children:[
