@@ -1145,7 +1145,7 @@ template&lt;typename T , typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>makes an edge from vertex a to b (both must be within reserved capacity for vertices)</p>
-<p>if either of the vertices already has 2 incident edges, then makeEdge(a,b) fails and returns invalid edge </p>
+<p>if a==b, either a or b already has 2 incident edges, then makeEdge(a,b) does nothing and returns invalid edge </p>
 
 </div>
 </div>

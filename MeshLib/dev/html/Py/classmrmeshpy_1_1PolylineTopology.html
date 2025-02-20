@@ -1023,7 +1023,7 @@ each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a p
       </table>
 </div><div class="memdoc">
 <pre class="fragment">makes an edge from vertex a to b (both must be within reserved capacity for vertices)
-\\details if either of the vertices already has 2 incident edges, then makeEdge(a,b) fails and returns invalid edge
+\\details if a==b, either a or b already has 2 incident edges, then makeEdge(a,b) does nothing and returns invalid edge
 </pre> 
 </div>
 </div>
