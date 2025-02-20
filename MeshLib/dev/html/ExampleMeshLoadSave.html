@@ -206,20 +206,18 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">    mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
 <div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
+<div class="line">    mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
 <div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
 <div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
-<div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMeshLoad.h&gt;</span></div>

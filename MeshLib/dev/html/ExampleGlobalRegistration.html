@@ -558,9 +558,9 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">    inputs = []</div>
 <div class="line">    max_bbox = <span class="keywordtype">None</span></div>
 <div class="line">    <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(input_clouds_num):</div>
-<div class="line">        points = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ae1822a8d7304291be1e7206e2c53b1c3">mrmeshpy.loadPoints</a>(file_args[i])</div>
-<div class="line">        transform = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy.AffineXf3f</a>()</div>
-<div class="line">        points_with_transform = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1MeshOrPointsXf.html">mrmeshpy.MeshOrPointsXf</a>(points, transform)</div>
+<div class="line">        points = mrmeshpy.loadPoints(file_args[i])</div>
+<div class="line">        transform = mrmeshpy.AffineXf3f()</div>
+<div class="line">        points_with_transform = mrmeshpy.MeshOrPointsXf(points, transform)</div>
 <div class="line">        inputs.append(points_with_transform)</div>
 <div class="line"> </div>
 <div class="line">        bbox = points.getBoundingBox()</div>
@@ -568,13 +568,13 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">            max_bbox = bbox</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment"># ICP initialization</span></div>
-<div class="line">    sampling_params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1MultiwayICPSamplingParameters.html">mrmeshpy.MultiwayICPSamplingParameters</a>()</div>
+<div class="line">    sampling_params = mrmeshpy.MultiwayICPSamplingParameters()</div>
 <div class="line">    sampling_params.samplingVoxelSize = max_bbox.diagonal() * 0.03</div>
 <div class="line"> </div>
-<div class="line">    inputs_obj = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html">mrmeshpy.Vector_MeshOrPointsXf_ObjId</a>(inputs)</div>
+<div class="line">    inputs_obj = mrmeshpy.Vector_MeshOrPointsXf_ObjId(inputs)</div>
 <div class="line"> </div>
-<div class="line">    icp = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1MultiwayICP.html">mrmeshpy.MultiwayICP</a>(inputs_obj, sampling_params)</div>
-<div class="line">    icp_properties = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1ICPProperties.html">mrmeshpy.ICPProperties</a>()</div>
+<div class="line">    icp = mrmeshpy.MultiwayICP(inputs_obj, sampling_params)</div>
+<div class="line">    icp_properties = mrmeshpy.ICPProperties()</div>
 <div class="line">    icp.setParams(icp_properties)</div>
 <div class="line"> </div>
 <div class="line">    icp.updateAllPointPairs()</div>
@@ -584,25 +584,16 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">    print_stats(icp)</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment"># Saving result</span></div>
-<div class="line">    output = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1PointCloud.html">mrmeshpy.PointCloud</a>()</div>
+<div class="line">    output = mrmeshpy.PointCloud()</div>
 <div class="line">    <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(input_clouds_num):</div>
 <div class="line">        transform = xfs.vec_[i]</div>
 <div class="line">        <span class="keywordflow">for</span> point <span class="keywordflow">in</span> inputs[i].obj.points():</div>
 <div class="line">            transformed_point = transform(point)</div>
 <div class="line">            output.addPoint(transformed_point)</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1PointsSave.html#afb0049a4222327c7c0cc154ef1172a8f">mrmeshpy.PointsSave.toAnySupportedFormat</a>(output, file_args[-1])</div>
+<div class="line">    mrmeshpy.PointsSave.toAnySupportedFormat(output, file_args[-1])</div>
 <div class="line"> </div>
 <div class="line">main(sys.argv)</div>
-<div class="ttc" id="aclassmrmeshpy_1_1AffineXf3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1AffineXf3f.html">mrmeshpy::AffineXf3f</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1ICPProperties_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1ICPProperties.html">mrmeshpy::ICPProperties</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1MeshOrPointsXf_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1MeshOrPointsXf.html">mrmeshpy::MeshOrPointsXf</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1MultiwayICPSamplingParameters_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1MultiwayICPSamplingParameters.html">mrmeshpy::MultiwayICPSamplingParameters</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1MultiwayICP_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1MultiwayICP.html">mrmeshpy::MultiwayICP</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1PointCloud_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1PointCloud.html">mrmeshpy::PointCloud</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1PointsSave_html_afb0049a4222327c7c0cc154ef1172a8f"><div class="ttname"><a href="./Py/classmrmeshpy_1_1PointsSave.html#afb0049a4222327c7c0cc154ef1172a8f">mrmeshpy::PointsSave::toAnySupportedFormat</a></div><div class="ttdeci">None toAnySupportedFormat(PointCloud points, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html">mrmeshpy::Vector_MeshOrPointsXf_ObjId</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ae1822a8d7304291be1e7206e2c53b1c3"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ae1822a8d7304291be1e7206e2c53b1c3">mrmeshpy::loadPoints</a></div><div class="ttdeci">PointCloud loadPoints(os.PathLike|str|bytes file, PointsLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

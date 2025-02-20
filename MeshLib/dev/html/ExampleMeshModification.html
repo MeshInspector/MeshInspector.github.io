@@ -192,28 +192,20 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="line"> </div>
 <div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
-<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
-<div class="line">relax_params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1MeshRelaxParams.html">mrmeshpy.MeshRelaxParams</a>()</div>
+<div class="line">relax_params = mrmeshpy.MeshRelaxParams()</div>
 <div class="line">relax_params.iterations = 5</div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a385b50bb4c381960e89d38cce74d75fe">mrmeshpy.relax</a>(mesh, relax_params)</div>
+<div class="line">mrmeshpy.relax(mesh, relax_params)</div>
 <div class="line"> </div>
-<div class="line">props = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1SubdivideSettings.html">mrmeshpy.SubdivideSettings</a>()</div>
+<div class="line">props = mrmeshpy.SubdivideSettings()</div>
 <div class="line">props.maxDeviationAfterFlip = 0.5</div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ae08b066a233065aae2853a17fbdd5ada">mrmeshpy.subdivideMesh</a>(mesh, props)</div>
+<div class="line">mrmeshpy.subdivideMesh(mesh, props)</div>
 <div class="line"> </div>
-<div class="line">plus_z = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy.Vector3f</a>()</div>
+<div class="line">plus_z = mrmeshpy.Vector3f()</div>
 <div class="line">plus_z.z = 1.0</div>
-<div class="line">rotation_xf = <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1AffineXf3f.html#a1907bc15495717b056f14f9d2f12fb67">mrmeshpy.AffineXf3f.linear</a>(<a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1Matrix3f.html#a2d024949f0aa533e4a7c39279755061f">mrmeshpy.Matrix3f.rotation</a>(plus_z, math.pi * 0.5))</div>
+<div class="line">rotation_xf = mrmeshpy.AffineXf3f.linear(mrmeshpy.Matrix3f.rotation(plus_z, math.pi * 0.5))</div>
 <div class="line">mesh.transform(rotation_xf)</div>
-<div class="ttc" id="aclassmrmeshpy_1_1AffineXf3f_html_a1907bc15495717b056f14f9d2f12fb67"><div class="ttname"><a href="./Py/classmrmeshpy_1_1AffineXf3f.html#a1907bc15495717b056f14f9d2f12fb67">mrmeshpy::AffineXf3f::linear</a></div><div class="ttdeci">AffineXf3f linear(Matrix3f A)</div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1Matrix3f_html_a2d024949f0aa533e4a7c39279755061f"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Matrix3f.html#a2d024949f0aa533e4a7c39279755061f">mrmeshpy::Matrix3f::rotation</a></div><div class="ttdeci">Matrix3f rotation(Vector3f axis, float angle)</div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1MeshRelaxParams_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1MeshRelaxParams.html">mrmeshpy::MeshRelaxParams</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1SubdivideSettings_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1SubdivideSettings.html">mrmeshpy::SubdivideSettings</a></div></div>
-<div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy::Vector3f</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a385b50bb4c381960e89d38cce74d75fe"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a385b50bb4c381960e89d38cce74d75fe">mrmeshpy::relax</a></div><div class="ttdeci">bool relax(Mesh mesh, MeshRelaxParams params='{}', func_bool_from_float cb='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ae08b066a233065aae2853a17fbdd5ada"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ae08b066a233065aae2853a17fbdd5ada">mrmeshpy::subdivideMesh</a></div><div class="ttdeci">int subdivideMesh(Mesh mesh, SubdivideSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMeshRelax.h&gt;</span></div>
