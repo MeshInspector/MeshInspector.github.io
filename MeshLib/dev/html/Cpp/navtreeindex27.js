@@ -1,5 +1,9 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457":[6,0,1,0,1,324,2],
+"classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457":[6,0,2,0,1,308,2],
+"classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef":[6,0,1,0,1,324,2,0],
+"classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef":[6,0,2,0,1,308,2,0],
 "classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310":[6,0,1,0,1,324,2,1],
 "classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310":[6,0,2,0,1,308,2,1],
 "classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c":[6,0,1,0,1,324,2,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1MouseController.html":[6,0,2,0,1,354],
 "classMR_1_1MouseController.html#a24e57a9dc84d98aa47bb153dce49815c":[6,0,1,0,1,370,5],
 "classMR_1_1MouseController.html#a24e57a9dc84d98aa47bb153dce49815c":[6,0,2,0,1,354,5],
-"classMR_1_1MouseController.html#a287c53d51507ce60bbd4cdd1aceddd48":[6,0,1,0,1,370,3],
-"classMR_1_1MouseController.html#a287c53d51507ce60bbd4cdd1aceddd48":[6,0,2,0,1,354,3],
-"classMR_1_1MouseController.html#a2a1971571d792ac671837f6658315096":[6,0,1,0,1,370,9],
-"classMR_1_1MouseController.html#a2a1971571d792ac671837f6658315096":[6,0,2,0,1,354,9],
-"classMR_1_1MouseController.html#a60ec56af8ea70c0cef52b6f90c088000":[6,0,1,0,1,370,7]
+"classMR_1_1MouseController.html#a287c53d51507ce60bbd4cdd1aceddd48":[6,0,1,0,1,370,3]
 };

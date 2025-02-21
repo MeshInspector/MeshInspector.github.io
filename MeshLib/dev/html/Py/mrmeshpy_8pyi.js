@@ -929,6 +929,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.VoxelTraits_std_vector_float", "classmrmeshpy_1_1VoxelTraits__std__vector__float.html", "classmrmeshpy_1_1VoxelTraits__std__vector__float" ],
     [ "mrmeshpy.VoxelTraits_std_vector_unsigned_short", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short" ],
     [ "mrmeshpy.VoxelsLoad", "classmrmeshpy_1_1VoxelsLoad.html", "classmrmeshpy_1_1VoxelsLoad" ],
+    [ "mrmeshpy.VoxelsLoad.DicomStatus", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus" ],
+    [ "mrmeshpy.VoxelsLoad.DicomStatusEnum", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum.html", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum" ],
     [ "mrmeshpy.VoxelsLoad.DicomVolume", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume.html", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" ],
     [ "mrmeshpy.VoxelsLoad.DicomVolumeAsVdb", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb" ],
     [ "mrmeshpy.VoxelsLoad.GridType", "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html", "classmrmeshpy_1_1VoxelsLoad_1_1GridType" ],

@@ -161,6 +161,8 @@ $(function(){initNavTree('namespaceMR_1_1VoxelsLoad.html',''); initResizable(tru
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsLoad_1_1DicomStatus.html">DicomStatus</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsLoad_1_1DicomVolumeT.html">DicomVolumeT</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">LoadingTiffSettings</a></td></tr>
@@ -175,6 +177,11 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a4877b5ea79a241234ef88b527edc08e6" id="r_a4877b5ea79a241234ef88b527edc08e6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4877b5ea79a241234ef88b527edc08e6">DicomStatusEnum</a> : int { <a class="el" href="#a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115">Ok</a> = 0
+, <a class="el" href="#a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b">Invalid</a>
+, <a class="el" href="#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f">Unsupported</a>
+ }</td></tr>
+<tr class="separator:a4877b5ea79a241234ef88b527edc08e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a3e4b96e9ddb9678f554fe8a8d56a19" id="r_a5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">GridType</a> { <a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7">DenseGrid</a> = 0
 , <a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e">LevelSet</a> = 1
  }</td></tr>
@@ -182,8 +189,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9e69e0cbf065c4b7256ef839c9a0855c" id="r_a9e69e0cbf065c4b7256ef839c9a0855c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e69e0cbf065c4b7256ef839c9a0855c">isDicomFile</a> (const std::filesystem::path &amp;path, std::string *seriesUid=nullptr)</td></tr>
-<tr class="separator:a9e69e0cbf065c4b7256ef839c9a0855c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acba52d9e4446ab4729498866d500d5c9" id="r_acba52d9e4446ab4729498866d500d5c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomStatus.html">DicomStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acba52d9e4446ab4729498866d500d5c9">isDicomFile</a> (const std::filesystem::path &amp;path, std::string *seriesUid=nullptr)</td></tr>
+<tr class="separator:acba52d9e4446ab4729498866d500d5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbcdf154c89bce3f54684092bcc3f76e" id="r_adbcdf154c89bce3f54684092bcc3f76e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbcdf154c89bce3f54684092bcc3f76e">isDicomFolder</a> (const std::filesystem::path &amp;dirPath)</td></tr>
 <tr class="memdesc:adbcdf154c89bce3f54684092bcc3f76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if given folder contains at least one DICOM file  <br /></td></tr>
 <tr class="separator:adbcdf154c89bce3f54684092bcc3f76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,6 +263,33 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a4877b5ea79a241234ef88b527edc08e6" name="a4877b5ea79a241234ef88b527edc08e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4877b5ea79a241234ef88b527edc08e6">&#9670;&#160;</a></span>DicomStatusEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a4877b5ea79a241234ef88b527edc08e6">MR::VoxelsLoad::DicomStatusEnum</a> : int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115" name="a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115"></a>Ok&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b" name="a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b"></a>Invalid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f" name="a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f"></a>Unsupported&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a5a3e4b96e9ddb9678f554fe8a8d56a19" name="a5a3e4b96e9ddb9678f554fe8a8d56a19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">&#9670;&#160;</a></span>GridType</h2>
 
@@ -306,14 +340,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9e69e0cbf065c4b7256ef839c9a0855c" name="a9e69e0cbf065c4b7256ef839c9a0855c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e69e0cbf065c4b7256ef839c9a0855c">&#9670;&#160;</a></span>isDicomFile()</h2>
+<a id="acba52d9e4446ab4729498866d500d5c9" name="acba52d9e4446ab4729498866d500d5c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acba52d9e4446ab4729498866d500d5c9">&#9670;&#160;</a></span>isDicomFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool MR::VoxelsLoad::isDicomFile </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomStatus.html">DicomStatus</a> MR::VoxelsLoad::isDicomFile </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>

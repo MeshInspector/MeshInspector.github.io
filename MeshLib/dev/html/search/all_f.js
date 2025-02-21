@@ -1118,7 +1118,7 @@ var searchData=
   ['mrmeshpy_3a_3ateethmasktodirectionvolumeconvertor_1115',['TeethMaskToDirectionVolumeConvertor',['.././Py/classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3atriangulationhelpers_1116',['TriangulationHelpers',['.././Py/classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3avolumesegmenter_1117',['VolumeSegmenter',['.././Py/classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3avoxelsload_1118',['VoxelsLoad',['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3avoxelsload_1118',['VoxelsLoad',['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3avoxelssave_1119',['VoxelsSave',['.././Py/classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3awatershedgraph_1120',['WatershedGraph',['.././Py/classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html',1,'mrmeshpy']]],
   ['mrmeshregions_1121',['MRMeshRegions',['.././Cpp/structMRMeshRegions.html',1,'']]],

@@ -21,8 +21,9 @@ var searchData=
   ['unselectedobjectvoxels_18',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]],
   ['unselectedtemporarymeasurements_19',['UnselectedTemporaryMeasurements',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326',1,'MR::SceneColors']]],
   ['unsigned_20',['Unsigned',['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a',1,'MR::MeshToVolumeParams::Unsigned'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a',1,'MR::Unsigned']]],
-  ['update_21',['Update',['../classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6',1,'MR::TouchpadController::Handler']]],
-  ['upper_22',['Upper',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec',1,'MR::GridSettings']]],
-  ['usedefaultscenepropertiesondeserialization_23',['UseDefaultScenePropertiesOnDeserialization',['../classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a',1,'MR::SceneSettings']]],
-  ['user_24',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
+  ['unsupported_21',['Unsupported',['../namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f',1,'MR::VoxelsLoad']]],
+  ['update_22',['Update',['../classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6',1,'MR::TouchpadController::Handler']]],
+  ['upper_23',['Upper',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec',1,'MR::GridSettings']]],
+  ['usedefaultscenepropertiesondeserialization_24',['UseDefaultScenePropertiesOnDeserialization',['../classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a',1,'MR::SceneSettings']]],
+  ['user_25',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
 ];

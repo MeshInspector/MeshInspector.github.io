@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,1,0,1,223,4],
+"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,2,0,1,207,4],
+"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,1,0,1,223,0],
+"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,2,0,1,207,0],
+"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,1,0,1,223,3],
+"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,2,0,1,207,3],
+"structMR_1_1FindOutliersParams.html":[6,0,1,0,1,224],
+"structMR_1_1FindOutliersParams.html":[6,0,2,0,1,208],
 "structMR_1_1FindOutliersParams.html#a41cffc0d0bf42f1a2f3131c84385aac0":[6,0,1,0,1,224,3],
 "structMR_1_1FindOutliersParams.html#a41cffc0d0bf42f1a2f3131c84385aac0":[6,0,2,0,1,208,3],
 "structMR_1_1FindOutliersParams.html#a7f72b590f90df23de6d1e5a77a5c1fc5":[6,0,1,0,1,224,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb":[6,0,1,0,1,266,1],
 "structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb":[6,0,2,0,1,250,1],
 "structMR_1_1ICPProperties.html":[6,0,1,0,1,267],
-"structMR_1_1ICPProperties.html":[6,0,2,0,1,251],
-"structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500":[6,0,1,0,1,267,1],
-"structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500":[6,0,2,0,1,251,1],
-"structMR_1_1ICPProperties.html#a1fe34b378f38697c828575c8204e7b57":[6,0,1,0,1,267,5],
-"structMR_1_1ICPProperties.html#a1fe34b378f38697c828575c8204e7b57":[6,0,2,0,1,251,5],
-"structMR_1_1ICPProperties.html#a229d248012276b39cb1c7102f4184f4c":[6,0,1,0,1,267,9],
-"structMR_1_1ICPProperties.html#a229d248012276b39cb1c7102f4184f4c":[6,0,2,0,1,251,9],
-"structMR_1_1ICPProperties.html#a242dd3555fcbbe8a0857210ed77ff1fe":[6,0,1,0,1,267,0],
-"structMR_1_1ICPProperties.html#a242dd3555fcbbe8a0857210ed77ff1fe":[6,0,2,0,1,251,0]
+"structMR_1_1ICPProperties.html":[6,0,2,0,1,251]
 };

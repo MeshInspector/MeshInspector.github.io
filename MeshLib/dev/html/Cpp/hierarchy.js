@@ -285,6 +285,7 @@ var hierarchy =
     [ "MR::DentalId", "classMR_1_1DentalId.html", null ],
     [ "MR::DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", null ],
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
+    [ "MR::VoxelsLoad::DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", null ],
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", null ],
     [ "MR::Dipole", "structMR_1_1Dipole.html", null ],
     [ "MR::Directory", "structMR_1_1Directory.html", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"MRStatePlugin_8h.html":[6,0,3,0,0,1,9,112],
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37":[6,0,3,0,0,1,9,112,2],
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a0cbc6611f5540bd0809a388dc95a615b":[6,0,3,0,0,1,9,112,2,7],
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0":[6,0,3,0,0,1,9,112,2,5],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387":[6,0,3,0,0,1,9,112,2,8],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6ff9dd0d34f65181173c1e4bc39939de":[6,0,3,0,0,1,9,112,2,4],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961":[6,0,3,0,0,1,9,112,2,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "MRTouchpadController_8h_source.html":[6,0,3,0,0,1,9,121],
 "MRTouchpadParameters_8h.html":[6,0,3,0,0,1,9,122],
 "MRTouchpadParameters_8h_source.html":[6,0,3,0,0,1,9,122],
-"MRTouchpadWin32Handler_8h.html":[6,0,3,0,0,1,9,123],
-"MRTouchpadWin32Handler_8h_source.html":[6,0,3,0,0,1,9,123],
-"MRTriDist_8h.html":[6,0,3,0,0,1,3,352],
-"MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[6,0,3,0,0,1,3,352,1],
-"MRTriDist_8h.html#aaf4d239a6cdece7da03913ad2b3a6efe":[6,0,3,0,0,1,3,352,0]
+"MRTouchpadWin32Handler_8h.html":[6,0,3,0,0,1,9,123]
 };

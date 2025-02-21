@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRFixSelfIntersections_8h.html#a5515261b4a58169e786ef301e51d02fe":[6,0,3,0,0,1,4,14,3],
+"MRMeshC_2MRFixSelfIntersections_8h.html#a5515261b4a58169e786ef301e51d02fea16fa2418bf640ca93fa4f4bcce75f5c7":[6,0,3,0,0,1,4,14,3,0],
+"MRMeshC_2MRFixSelfIntersections_8h.html#a5515261b4a58169e786ef301e51d02fea5adf2b80b6920b64ec1c871802aad21b":[6,0,3,0,0,1,4,14,3,1],
+"MRMeshC_2MRFixSelfIntersections_8h.html#aec8d4676af69c1af4eb5de810cdb1f24":[6,0,3,0,0,1,4,14,2],
 "MRMeshC_2MRFixSelfIntersections_8h_source.html":[6,0,3,0,0,1,4,14],
 "MRMeshC_2MRFloatGrid_8h.html":[6,0,3,0,0,1,4,15],
 "MRMeshC_2MRFloatGrid_8h.html#a489ccd1b1c2611dbc75756815af8569a":[6,0,3,0,0,1,4,15,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRMeshMetrics_8h.html#af34b3d4e7fc6bacaed511d3aaadc00b6":[6,0,3,0,0,1,4,38,5],
 "MRMeshC_2MRMeshMetrics_8h_source.html":[6,0,3,0,0,1,4,38],
 "MRMeshC_2MRMeshNormals_8h.html":[6,0,3,0,0,1,4,39],
-"MRMeshC_2MRMeshNormals_8h.html#a0778202f88ff4a64dddc0a2e52d18a55":[6,0,3,0,0,1,4,39,6],
-"MRMeshC_2MRMeshNormals_8h.html#a0d71f56139abedd89472abdc9104e910":[6,0,3,0,0,1,4,39,2],
-"MRMeshC_2MRMeshNormals_8h.html#a7b462445701a01890a195dbf70dab7ef":[6,0,3,0,0,1,4,39,4],
-"MRMeshC_2MRMeshNormals_8h.html#a7c27ff1198d625f5436871f23842ddf6":[6,0,3,0,0,1,4,39,1],
-"MRMeshC_2MRMeshNormals_8h.html#a88759fcf23cf73619f7f371bc66d342f":[6,0,3,0,0,1,4,39,7]
+"MRMeshC_2MRMeshNormals_8h.html#a0778202f88ff4a64dddc0a2e52d18a55":[6,0,3,0,0,1,4,39,6]
 };

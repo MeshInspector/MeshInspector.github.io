@@ -199,6 +199,8 @@ var hierarchy =
     [ "mrmeshpy.DentalId", "classmrmeshpy_1_1DentalId.html", null ],
     [ "mrmeshpy.DepthFunction", "classmrmeshpy_1_1DepthFunction.html", null ],
     [ "mrmeshpy.DetectTunnelSettings", "classmrmeshpy_1_1DetectTunnelSettings.html", null ],
+    [ "mrmeshpy.VoxelsLoad.DicomStatus", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html", null ],
+    [ "mrmeshpy.VoxelsLoad.DicomStatusEnum", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum.html", null ],
     [ "mrmeshpy.VoxelsLoad.DicomVolume", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume.html", null ],
     [ "mrmeshpy.VoxelsLoad.DicomVolumeAsVdb", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", null ],
     [ "mrmeshpy.DimensionsVisualizePropertyType", "classmrmeshpy_1_1DimensionsVisualizePropertyType.html", null ],

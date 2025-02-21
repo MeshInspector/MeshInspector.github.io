@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRMeshOrPoints_8h.html#a93bfc22a3a1dd8301de63173a82454a0":[6,0,3,0,0,1,3,201,4],
+"MRMesh_2MRMeshOrPoints_8h_source.html":[6,0,3,0,0,1,3,201],
+"MRMesh_2MRMeshPart_8h.html":[6,0,3,0,0,1,3,203],
+"MRMesh_2MRMeshPart_8h_source.html":[6,0,3,0,0,1,3,203],
 "MRMesh_2MRMeshProject_8h.html":[6,0,3,0,0,1,3,204],
 "MRMesh_2MRMeshProject_8h_source.html":[6,0,3,0,0,1,3,204],
 "MRMesh_2MRMeshRelax_8h.html":[6,0,3,0,0,1,3,205],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "MRObjectMeshHistory_8h.html":[6,0,3,0,0,1,9,49],
 "MRObjectMeshHistory_8h.html#a01f19fead4c6c2ee2498d12d276b6740":[6,0,3,0,0,1,9,49,0],
 "MRObjectMeshHistory_8h.html#a150dcc2a3ed7040edf50c8035d9b2eac":[6,0,3,0,0,1,9,49,3],
-"MRObjectMeshHistory_8h.html#a65bf816f4ff16dbac59060645d6457d8":[6,0,3,0,0,1,9,49,2],
-"MRObjectMeshHistory_8h.html#abc808a0108678083194377f576958265":[6,0,3,0,0,1,9,49,4],
-"MRObjectMeshHistory_8h.html#af7f57e0dbd18617d893d00b618f9cb07":[6,0,3,0,0,1,9,49,1],
-"MRObjectMeshHistory_8h_source.html":[6,0,3,0,0,1,9,49],
-"MRObjectMeshHolder_8h.html":[6,0,3,0,0,1,3,236]
+"MRObjectMeshHistory_8h.html#a65bf816f4ff16dbac59060645d6457d8":[6,0,3,0,0,1,9,49,2]
 };
