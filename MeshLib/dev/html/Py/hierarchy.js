@@ -399,6 +399,7 @@ var hierarchy =
       [ "mrmeshpy.ChangeLinesColorMapAction", "classmrmeshpy_1_1ChangeLinesColorMapAction.html", null ],
       [ "mrmeshpy.ChangeMeshAction", "classmrmeshpy_1_1ChangeMeshAction.html", null ],
       [ "mrmeshpy.ChangeMeshCreasesAction", "classmrmeshpy_1_1ChangeMeshCreasesAction.html", null ],
+      [ "mrmeshpy.ChangeMeshDataAction", "classmrmeshpy_1_1ChangeMeshDataAction.html", null ],
       [ "mrmeshpy.ChangeMeshEdgeSelectionAction", "classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html", null ],
       [ "mrmeshpy.ChangeMeshFaceSelectionAction", "classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html", null ],
       [ "mrmeshpy.ChangeMeshPointsAction", "classmrmeshpy_1_1ChangeMeshPointsAction.html", null ],

@@ -1,15 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,2,0,1,544,2],
-"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,560,6],
-"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,1,544,6],
-"structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,1,0,1,560,0],
-"structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,2,0,1,544,0],
-"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,1,0,1,560,5],
-"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,2,0,1,544,5],
-"structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,1,0,1,560,7],
-"structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,2,0,1,544,7],
-"structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,1,0,1,560,8],
 "structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,2,0,1,544,8],
 "structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,1,0,1,560,4],
 "structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,2,0,1,544,4],
@@ -237,7 +227,7 @@ var NAVTREEINDEX78 =
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,2,0,1,594,0,5],
 "structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,1,0,1,610,0,3],
 "structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,2,0,1,594,0,3],
-"structMR_1_1SetNew.html":[6,0,0,4,34],
+"structMR_1_1SetNew.html":[6,0,0,4,35],
 "structMR_1_1ShaderWarning.html":[6,0,1,0,1,615],
 "structMR_1_1ShaderWarning.html":[6,0,2,0,1,599],
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,1,0,1,615,0],
@@ -249,5 +239,15 @@ var NAVTREEINDEX78 =
 "structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,1,0,1,619,0],
 "structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,2,0,1,603,0],
 "structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,1,0,1,619,1],
-"structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,2,0,1,603,1]
+"structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,2,0,1,603,1],
+"structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,1,0,1,619,4],
+"structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,2,0,1,603,4],
+"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[6,0,1,0,1,619,3],
+"structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf":[6,0,2,0,1,603,3],
+"structMR_1_1SharpOffsetParameters.html#afb1d63d46e98d00f4c3560f3eb55b99b":[6,0,1,0,1,619,2],
+"structMR_1_1SharpOffsetParameters.html#afb1d63d46e98d00f4c3560f3eb55b99b":[6,0,2,0,1,603,2],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html":[6,0,1,0,1,618],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html":[6,0,2,0,1,602],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4":[6,0,1,0,1,618,5],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4":[6,0,2,0,1,602,5]
 };

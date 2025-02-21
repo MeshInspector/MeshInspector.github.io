@@ -115,6 +115,7 @@ var annotated_dup =
       [ "ChangeLinesColorMapAction", "classmrmeshpy_1_1ChangeLinesColorMapAction.html", "classmrmeshpy_1_1ChangeLinesColorMapAction" ],
       [ "ChangeMeshAction", "classmrmeshpy_1_1ChangeMeshAction.html", "classmrmeshpy_1_1ChangeMeshAction" ],
       [ "ChangeMeshCreasesAction", "classmrmeshpy_1_1ChangeMeshCreasesAction.html", "classmrmeshpy_1_1ChangeMeshCreasesAction" ],
+      [ "ChangeMeshDataAction", "classmrmeshpy_1_1ChangeMeshDataAction.html", "classmrmeshpy_1_1ChangeMeshDataAction" ],
       [ "ChangeMeshEdgeSelectionAction", "classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html", "classmrmeshpy_1_1ChangeMeshEdgeSelectionAction" ],
       [ "ChangeMeshFaceSelectionAction", "classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html", "classmrmeshpy_1_1ChangeMeshFaceSelectionAction" ],
       [ "ChangeMeshPointsAction", "classmrmeshpy_1_1ChangeMeshPointsAction.html", "classmrmeshpy_1_1ChangeMeshPointsAction" ],

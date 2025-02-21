@@ -37,6 +37,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRChangeColoringActions.h", "MRChangeColoringActions_8h.html", null ],
     [ "MRChangeColoringType.h", "MRChangeColoringType_8h.html", null ],
     [ "MRChangeMeshAction.h", "MRChangeMeshAction_8h.html", null ],
+    [ "MRChangeMeshDataAction.h", "MRChangeMeshDataAction_8h.html", null ],
     [ "MRChangeNameAction.h", "MRChangeNameAction_8h.html", null ],
     [ "MRChangeObjectAction.h", "MRChangeObjectAction_8h.html", null ],
     [ "MRChangeObjectFields.h", "MRChangeObjectFields_8h.html", null ],

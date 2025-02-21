@@ -26,12 +26,12 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
+<!-- No Index Part -->
  <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MRObjectMeshSubdivide.h File Reference</title>
+<title>MeshLib Documentation: Open Dicom Files</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -81,7 +81,7 @@ MathJax.Hub.Config({
  <tr id="projectrow">
   <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib C++ Docs
+   <div id="projectname">MeshLib Documentation
    </div>
   </td>
  </tr>
@@ -124,7 +124,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('MRObjectMeshSubdivide_8h.html',''); initResizable(true); });
+$(function(){initNavTree('ExampleDicomFiles.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -149,41 +149,38 @@ $(function(){initNavTree('MRObjectMeshSubdivide_8h.html',''); initResizable(true
 </div>
 </div>
 
-<div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MRObjectMeshSubdivide.h File Reference</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Open Dicom Files</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRViewerFwd_8h_source.html">MRViewerFwd.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="MRMesh_2MRMesh_8h_source.html">MRMesh/MRMesh.h</a>&gt;</code><br />
-</div>
-<p><a href="MRObjectMeshSubdivide_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">MR::ObjectMeshSubdivideResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> subdivision with all new attributes updated  <a href="structMR_1_1ObjectMeshSubdivideResult.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a42caaf1ec11d26f1030f3309af971115" id="r_a42caaf1ec11d26f1030f3309af971115"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">ObjectMeshSubdivideResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a42caaf1ec11d26f1030f3309af971115">MR::subdivideObjectMesh</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, const <a class="el" href="structMR_1_1SubdivideSettings.html">SubdivideSettings</a> &amp;subs)</td></tr>
-<tr class="separator:a42caaf1ec11d26f1030f3309af971115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-</div><!-- contents -->
+<div class="textblock"><p>Example of opening Dicom files</p>
+<div class="tabbed"></div><div class="tabbed"><ul>
+<li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Path to folder, that contains mutiple numbered files, like: 3DSlice1.dcm, 3DSlice2.dcm, 3DSlice3.dcm</span></div>
+<div class="line"><span class="comment"># Folder can contain subfolders - each will be loaded separately</span></div>
+<div class="line">dicom_folder = <span class="stringliteral">&#39;path/to/folder&#39;</span></div>
+<div class="line"><span class="comment"># Load dicom objects from folder and it&#39;s subfolders</span></div>
+<div class="line">dicoms = <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1VoxelsLoad.html#acff5645fff746542dd437580fc1e5ba5">mrmeshpy.VoxelsLoad.loadDicomsFolderTreeAsVdb</a>(dicom_folder)</div>
+<div class="line"><span class="comment"># Result contains list of multiple objects, each object is a separate dicom volume, that correspond to each folder</span></div>
+<div class="line"><span class="comment"># Getting the first one here</span></div>
+<div class="line">dicom = dicoms[0]</div>
+<div class="line"><span class="comment"># Check loading status</span></div>
+<div class="line"><span class="keywordflow">if</span> dicom:</div>
+<div class="line">    <span class="comment"># In case of success you can get mrmeshpy.VdbVolume object, that is common for meshlib library</span></div>
+<div class="line">    vdb_volume = dicom.value().vol</div>
+<div class="line"><span class="keywordflow">else</span>:</div>
+<div class="line">    <span class="comment"># print error if loading process failed</span></div>
+<div class="line">    print(dicom.error())</div>
+<div class="ttc" id="aclassmrmeshpy_1_1VoxelsLoad_html_acff5645fff746542dd437580fc1e5ba5"><div class="ttname"><a href="./Py/classmrmeshpy_1_1VoxelsLoad.html#acff5645fff746542dd437580fc1e5ba5">mrmeshpy::VoxelsLoad::loadDicomsFolderTreeAsVdb</a></div><div class="ttdeci">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid_std_string loadDicomsFolderTreeAsVdb(os.PathLike|str|bytes path, int maxNumThreads=4, func_bool_from_float cb='{}')</div></div>
+</div><!-- fragment --></li>
+</ul>
+</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRObjectMeshSubdivide_8h.html">MRObjectMeshSubdivide.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

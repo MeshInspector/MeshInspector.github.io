@@ -397,6 +397,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeMeshCreasesAction.html">ChangeMeshCreasesAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> creases.  <a href="classMR_1_1ChangeMeshCreasesAction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeMeshDataAction.html">ChangeMeshDataAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="el" href="structMR_1_1ObjectMeshData.html" title="mesh and its per-element attributes for ObjectMeshHolder">ObjectMeshData</a> change.  <a href="classMR_1_1ChangeMeshDataAction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeMeshEdgeSelectionAction.html">ChangeMeshEdgeSelectionAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> edge selection.  <a href="classMR_1_1ChangeMeshEdgeSelectionAction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1099,9 +1102,6 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh and its per-element attributes for <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a>  <a href="structMR_1_1ObjectMeshData.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">ObjectMeshSubdivideResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> subdivision with all new attributes updated  <a href="structMR_1_1ObjectMeshSubdivideResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4260,6 +4260,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga8e8a41112544b99ef8f20e3e6b61fab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga59a37b275037ffc76fab5916f13e6ecb" id="r_ga59a37b275037ffc76fab5916f13e6ecb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSubdivideGroup.html#ga59a37b275037ffc76fab5916f13e6ecb">copySubdividePackMesh</a> (const MeshPart &amp;mp, float voxelSize, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:ga59a37b275037ffc76fab5916f13e6ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9869db86cdf651eae03b806e9afc0c60" id="r_ga9869db86cdf651eae03b806e9afc0c60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSubdivideGroup.html#ga9869db86cdf651eae03b806e9afc0c60">makeSubdividedObjectMeshData</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, const <a class="el" href="structMR_1_1SubdivideSettings.html">SubdivideSettings</a> &amp;subs)</td></tr>
+<tr class="memdesc:ga9869db86cdf651eae03b806e9afc0c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the data of subdivided mesh given <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> (which remains unchanged) and subdivision parameters  <br /></td></tr>
+<tr class="separator:ga9869db86cdf651eae03b806e9afc0c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a834d4370af921a7bc3c36d95b47f25d5" id="r_a834d4370af921a7bc3c36d95b47f25d5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a834d4370af921a7bc3c36d95b47f25d5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a834d4370af921a7bc3c36d95b47f25d5">onEdgeSplitVertAttribute</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, VertId &gt; &amp;data)</td></tr>
 <tr class="separator:a834d4370af921a7bc3c36d95b47f25d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5511,8 +5514,6 @@ Functions</h2></td></tr>
 <tr class="separator:a150dcc2a3ed7040edf50c8035d9b2eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65bf816f4ff16dbac59060645d6457d8" id="r_a65bf816f4ff16dbac59060645d6457d8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65bf816f4ff16dbac59060645d6457d8">mapEdgesWithHistory</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;objMesh, const UndirectedEdgeBMap &amp;emap)</td></tr>
 <tr class="separator:a65bf816f4ff16dbac59060645d6457d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42caaf1ec11d26f1030f3309af971115" id="r_a42caaf1ec11d26f1030f3309af971115"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">ObjectMeshSubdivideResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42caaf1ec11d26f1030f3309af971115">subdivideObjectMesh</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, const <a class="el" href="structMR_1_1SubdivideSettings.html">SubdivideSettings</a> &amp;subs)</td></tr>
-<tr class="separator:a42caaf1ec11d26f1030f3309af971115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70abcbee5fc303daa9a2cbbea864ac8" id="r_af70abcbee5fc303daa9a2cbbea864ac8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70abcbee5fc303daa9a2cbbea864ac8">packPointsWithHistory</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints, <a class="el" href="#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder)</td></tr>
 <tr class="separator:af70abcbee5fc303daa9a2cbbea864ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac236381762735fee94cd52a902d87c67" id="r_ac236381762735fee94cd52a902d87c67"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac236381762735fee94cd52a902d87c67">packPointsWithHistory</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints, <a class="el" href="#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder, VertBitSet newValidVerts)</td></tr>
@@ -30617,36 +30618,6 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a42caaf1ec11d26f1030f3309af971115" name="a42caaf1ec11d26f1030f3309af971115"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42caaf1ec11d26f1030f3309af971115">&#9670;&#160;</a></span>subdivideObjectMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1ObjectMeshSubdivideResult.html">ObjectMeshSubdivideResult</a> MR::subdivideObjectMesh </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SubdivideSettings.html">SubdivideSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>subs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>subdivides given <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> with given parameters, may be called from parallel thread </p>
 
 </div>
 </div>
