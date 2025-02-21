@@ -31,7 +31,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: TestFunctions.h File Reference</title>
+<title>MeshLib C++ Docs: MRMeshTopology.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -124,7 +124,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('TestFunctions_8h.html',''); initResizable(true); });
+$(function(){initNavTree('MRTestC_2MRMeshTopology_8h.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -152,34 +152,40 @@ $(function(){initNavTree('TestFunctions_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">TestFunctions.h File Reference</div></div>
+  <div class="headertitle"><div class="title">MRMeshTopology.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;time.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="MRMeshC_2MRMeshFwd_8h_source.html">MRMeshC/MRMeshFwd.h</a>&gt;</code><br />
-</div>
-<p><a href="TestFunctions_8h_source.html">Go to the source code of this file.</a></p>
+
+<p><a href="MRTestC_2MRMeshTopology_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6f2e436cbfc9ef149a7aa74b35932fcf" id="r_a6f2e436cbfc9ef149a7aa74b35932fcf"><td class="memItemLeft" align="right" valign="top">struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2e436cbfc9ef149a7aa74b35932fcf">timespec_now</a> (void)</td></tr>
-<tr class="separator:a6f2e436cbfc9ef149a7aa74b35932fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a563740375fcea1c8066b805da88103f9" id="r_a563740375fcea1c8066b805da88103f9"><td class="memItemLeft" align="right" valign="top">struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563740375fcea1c8066b805da88103f9">timespec_get_duration</a> (const struct timespec *before, const struct timespec *after)</td></tr>
-<tr class="separator:a563740375fcea1c8066b805da88103f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00a4968c820b571d6217f785eae6825d" id="r_a00a4968c820b571d6217f785eae6825d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00a4968c820b571d6217f785eae6825d">timespec_to_seconds</a> (const struct timespec *ts)</td></tr>
-<tr class="separator:a00a4968c820b571d6217f785eae6825d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be50c8c780404bf771ca7efe742dd24" id="r_a3be50c8c780404bf771ca7efe742dd24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3be50c8c780404bf771ca7efe742dd24">createCube</a> (void)</td></tr>
-<tr class="separator:a3be50c8c780404bf771ca7efe742dd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa434bf35e65929d3a4ac001be8edf25f" id="r_aa434bf35e65929d3a4ac001be8edf25f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa434bf35e65929d3a4ac001be8edf25f">testMrMeshTopologyPack</a> (void)</td></tr>
+<tr class="separator:aa434bf35e65929d3a4ac001be8edf25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0cce1eb61f1bc4ea960e09d47cecd59" id="r_ab0cce1eb61f1bc4ea960e09d47cecd59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cce1eb61f1bc4ea960e09d47cecd59">testMrMeshTopologyGetValidVerts</a> (void)</td></tr>
+<tr class="separator:ab0cce1eb61f1bc4ea960e09d47cecd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90ccba650f64e148e6bc8c70a1587a4" id="r_ae90ccba650f64e148e6bc8c70a1587a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae90ccba650f64e148e6bc8c70a1587a4">testMrMeshTopologyGetValidFaces</a> (void)</td></tr>
+<tr class="separator:ae90ccba650f64e148e6bc8c70a1587a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6350eb0befac3255d45dd58650d3f704" id="r_a6350eb0befac3255d45dd58650d3f704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6350eb0befac3255d45dd58650d3f704">testMrMeshTopologyFindHoleRepresentiveEdges</a> (void)</td></tr>
+<tr class="separator:a6350eb0befac3255d45dd58650d3f704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42614717c226a2116a264d9596848684" id="r_a42614717c226a2116a264d9596848684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42614717c226a2116a264d9596848684">testMrMeshTopologyGetLeftTriVerts</a> (void)</td></tr>
+<tr class="separator:a42614717c226a2116a264d9596848684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f74046285cc3b7b886b91796aed97a" id="r_a73f74046285cc3b7b886b91796aed97a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f74046285cc3b7b886b91796aed97a">testMrMeshTopologyFindNumHoles</a> (void)</td></tr>
+<tr class="separator:a73f74046285cc3b7b886b91796aed97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c69df48fd5fee9f46daae60735d0ac" id="r_aa7c69df48fd5fee9f46daae60735d0ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7c69df48fd5fee9f46daae60735d0ac">testMrMeshTopologyFaceSize</a> (void)</td></tr>
+<tr class="separator:aa7c69df48fd5fee9f46daae60735d0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b1f809a7b3c3bc8c9d697cc204dc6e" id="r_a65b1f809a7b3c3bc8c9d697cc204dc6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65b1f809a7b3c3bc8c9d697cc204dc6e">testMrMeshTopologyGetTriangulation</a> (void)</td></tr>
+<tr class="separator:a65b1f809a7b3c3bc8c9d697cc204dc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a3be50c8c780404bf771ca7efe742dd24" name="a3be50c8c780404bf771ca7efe742dd24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3be50c8c780404bf771ca7efe742dd24">&#9670;&#160;</a></span>createCube()</h2>
+<a id="aa7c69df48fd5fee9f46daae60735d0ac" name="aa7c69df48fd5fee9f46daae60735d0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c69df48fd5fee9f46daae60735d0ac">&#9670;&#160;</a></span>testMrMeshTopologyFaceSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * createCube </td>
+          <td class="memname">void testMrMeshTopologyFaceSize </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -189,35 +195,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a563740375fcea1c8066b805da88103f9" name="a563740375fcea1c8066b805da88103f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a563740375fcea1c8066b805da88103f9">&#9670;&#160;</a></span>timespec_get_duration()</h2>
+<a id="a6350eb0befac3255d45dd58650d3f704" name="a6350eb0befac3255d45dd58650d3f704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6350eb0befac3255d45dd58650d3f704">&#9670;&#160;</a></span>testMrMeshTopologyFindHoleRepresentiveEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct timespec timespec_get_duration </td>
-          <td>(</td>
-          <td class="paramtype">const struct timespec *</td>          <td class="paramname"><span class="paramname"><em>before</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const struct timespec *</td>          <td class="paramname"><span class="paramname"><em>after</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6f2e436cbfc9ef149a7aa74b35932fcf" name="a6f2e436cbfc9ef149a7aa74b35932fcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f2e436cbfc9ef149a7aa74b35932fcf">&#9670;&#160;</a></span>timespec_now()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct timespec timespec_now </td>
+          <td class="memname">void testMrMeshTopologyFindHoleRepresentiveEdges </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -227,16 +212,101 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a00a4968c820b571d6217f785eae6825d" name="a00a4968c820b571d6217f785eae6825d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00a4968c820b571d6217f785eae6825d">&#9670;&#160;</a></span>timespec_to_seconds()</h2>
+<a id="a73f74046285cc3b7b886b91796aed97a" name="a73f74046285cc3b7b886b91796aed97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73f74046285cc3b7b886b91796aed97a">&#9670;&#160;</a></span>testMrMeshTopologyFindNumHoles()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double timespec_to_seconds </td>
+          <td class="memname">void testMrMeshTopologyFindNumHoles </td>
           <td>(</td>
-          <td class="paramtype">const struct timespec *</td>          <td class="paramname"><span class="paramname"><em>ts</em></span></td><td>)</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42614717c226a2116a264d9596848684" name="a42614717c226a2116a264d9596848684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42614717c226a2116a264d9596848684">&#9670;&#160;</a></span>testMrMeshTopologyGetLeftTriVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testMrMeshTopologyGetLeftTriVerts </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65b1f809a7b3c3bc8c9d697cc204dc6e" name="a65b1f809a7b3c3bc8c9d697cc204dc6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b1f809a7b3c3bc8c9d697cc204dc6e">&#9670;&#160;</a></span>testMrMeshTopologyGetTriangulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testMrMeshTopologyGetTriangulation </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae90ccba650f64e148e6bc8c70a1587a4" name="ae90ccba650f64e148e6bc8c70a1587a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90ccba650f64e148e6bc8c70a1587a4">&#9670;&#160;</a></span>testMrMeshTopologyGetValidFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testMrMeshTopologyGetValidFaces </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0cce1eb61f1bc4ea960e09d47cecd59" name="ab0cce1eb61f1bc4ea960e09d47cecd59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0cce1eb61f1bc4ea960e09d47cecd59">&#9670;&#160;</a></span>testMrMeshTopologyGetValidVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testMrMeshTopologyGetValidVerts </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa434bf35e65929d3a4ac001be8edf25f" name="aa434bf35e65929d3a4ac001be8edf25f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa434bf35e65929d3a4ac001be8edf25f">&#9670;&#160;</a></span>testMrMeshTopologyPack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testMrMeshTopologyPack </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -249,7 +319,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_ae78f784ae402f48d875196e46319a59.html">MRTestC</a></li><li class="navelem"><a class="el" href="TestFunctions_8h.html">TestFunctions.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_ae78f784ae402f48d875196e46319a59.html">MRTestC</a></li><li class="navelem"><a class="el" href="MRTestC_2MRMeshTopology_8h.html">MRMeshTopology.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -1,5 +1,16 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29":[6,0,0,8,0,1,0],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571":[6,0,0,8,0,1,1],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,8,0,1,2],
+"structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[6,0,0,8,0,0,3],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[6,0,0,8,0,0,0],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[6,0,0,8,0,0,1],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#abb0760c2ba75ba32b9fcf2d5e36fe803":[6,0,0,8,0,0,2],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[6,0,0,8,0,0,4],
+"structMR_1_1BooleanResultPoints.html":[6,0,1,0,1,82],
+"structMR_1_1BooleanResultPoints.html":[6,0,2,0,1,66],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,1,0,1,82,2],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,1,66,2],
 "structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,1,0,1,82,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1CustomButtonParameters.html":[6,0,2,0,1,141],
 "structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,1,0,1,157,0],
 "structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,2,0,1,141,0],
-"structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,1,0,1,157,1],
-"structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,2,0,1,141,1],
-"structMR_1_1CutMeshParameters.html":[6,0,0,8,3],
-"structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f":[6,0,0,8,3,4],
-"structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf":[6,0,0,8,3,3],
-"structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9":[6,0,0,8,3,2],
-"structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b":[6,0,0,8,3,1],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33":[6,0,0,8,3,0],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc":[6,0,0,8,3,0,1],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,8,3,0,0],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,0,8,3,0,2],
-"structMR_1_1CutMeshResult.html":[6,0,0,8,4]
+"structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,1,0,1,157,1]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa2018932b0f46e90f13ac5b75b7eaed9":[6,0,0,11,14,0,11],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa82f2dbcab6b825daff1c52d575ca2fa":[6,0,0,11,14,0,7],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ab5aeef5b1c53656f8816af392af3ec46":[6,0,0,11,14,0,3],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5":[6,0,0,11,14,0,1],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109":[6,0,0,11,14,0,1,2],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa":[6,0,0,11,14,0,1,0],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c":[6,0,0,11,14,0,1,1],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad8187266986121c9568f668fe785fbc5":[6,0,0,11,14,0,5],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9":[6,0,0,11,14,0,9],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2":[6,0,0,11,14,0,0],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd":[6,0,0,11,14,0,0,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255":[6,0,0,11,14,0,0,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae":[6,0,0,11,14,0,0,2],
 "structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[6,0,2,0,1,440,0],
 "structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[6,0,1,0,1,456,2],
 "structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[6,0,2,0,1,440,2],
-"structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,1,0,1,457,0],
-"structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,2,0,1,441,0],
-"structMR_1_1PickPointManager_1_1ObjectState.html#a75ec25d887eb5b52814323a6d4f0b012":[6,0,1,0,1,457,0,1],
-"structMR_1_1PickPointManager_1_1ObjectState.html#a75ec25d887eb5b52814323a6d4f0b012":[6,0,2,0,1,441,0,1],
-"structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,1,0,1,457,0,0],
-"structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,2,0,1,441,0,0],
-"structMR_1_1PickPointManager_1_1Params.html":[6,0,1,0,1,457,1],
-"structMR_1_1PickPointManager_1_1Params.html":[6,0,2,0,1,441,1],
-"structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6":[6,0,1,0,1,457,1,1],
-"structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6":[6,0,2,0,1,441,1,1],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[6,0,1,0,1,457,1,7],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[6,0,2,0,1,441,1,7]
+"structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,1,0,1,457,0]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712a":[6,0,2,0,1,120,3],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3":[6,0,1,0,1,136,3,0],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3":[6,0,2,0,1,120,3,0],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3":[6,0,1,0,1,136,3,1],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3":[6,0,2,0,1,120,3,1],
+"classMR_1_1ColorMapAggregator.html#ab824efbaafb7860d9d22e8166bb84a80":[6,0,1,0,1,136,9],
+"classMR_1_1ColorMapAggregator.html#ab824efbaafb7860d9d22e8166bb84a80":[6,0,2,0,1,120,9],
+"classMR_1_1ColorMapAggregator.html#ac67f25c8d9133cd6915063fa8e301fd6":[6,0,1,0,1,136,11],
+"classMR_1_1ColorMapAggregator.html#ac67f25c8d9133cd6915063fa8e301fd6":[6,0,2,0,1,120,11],
+"classMR_1_1ColorMapAggregator.html#af72490cd5097c80ebcf4fe9e28821f15":[6,0,1,0,1,136,12],
+"classMR_1_1ColorMapAggregator.html#af72490cd5097c80ebcf4fe9e28821f15":[6,0,2,0,1,120,12],
 "classMR_1_1ColorTheme.html":[6,0,1,0,1,137],
 "classMR_1_1ColorTheme.html":[6,0,2,0,1,121],
 "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdc":[6,0,1,0,1,137,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1Config.html#a3388c3cd27c60f2c4a990ef889f58b70":[6,0,2,0,1,131,19],
 "classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f":[6,0,1,0,1,147,0],
 "classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f":[6,0,2,0,1,131,0],
-"classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3":[6,0,1,0,1,147,16],
-"classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3":[6,0,2,0,1,131,16],
-"classMR_1_1Config.html#a3bf71462e37500b8f9256e88b11c074f":[6,0,1,0,1,147,10],
-"classMR_1_1Config.html#a3bf71462e37500b8f9256e88b11c074f":[6,0,2,0,1,131,10],
-"classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16":[6,0,1,0,1,147,14],
-"classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16":[6,0,2,0,1,131,14],
-"classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca":[6,0,1,0,1,147,23],
-"classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca":[6,0,2,0,1,131,23],
-"classMR_1_1Config.html#a5ef95eaf5b26a137a149705ac0698155":[6,0,1,0,1,147,22],
-"classMR_1_1Config.html#a5ef95eaf5b26a137a149705ac0698155":[6,0,2,0,1,131,22],
-"classMR_1_1Config.html#a74e68ee927a517e8d641aa7dbaa0a3e6":[6,0,1,0,1,147,5],
-"classMR_1_1Config.html#a74e68ee927a517e8d641aa7dbaa0a3e6":[6,0,2,0,1,131,5]
+"classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3":[6,0,1,0,1,147,16]
 };
