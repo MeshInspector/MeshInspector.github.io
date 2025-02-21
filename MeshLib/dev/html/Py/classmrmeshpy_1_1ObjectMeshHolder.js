@@ -6,7 +6,7 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "avgEdgeLen", "classmrmeshpy_1_1ObjectMeshHolder.html#a24d4d2c8cb947d7018b1e6bec6adf403", null ],
     [ "clearAncillaryTexture", "classmrmeshpy_1_1ObjectMeshHolder.html#a32fa910c9a4cea13dfb676f13b6753ba", null ],
     [ "clone", "classmrmeshpy_1_1ObjectMeshHolder.html#a66929bbabbd9ede0679393a802190c59", null ],
-    [ "copyColors", "classmrmeshpy_1_1ObjectMeshHolder.html#a1932006ee3f8022c3516a6eb4892a157", null ],
+    [ "copyColors", "classmrmeshpy_1_1ObjectMeshHolder.html#a3a382876f730552006f0183cb8a93eb4", null ],
     [ "copyTextureAndColors", "classmrmeshpy_1_1ObjectMeshHolder.html#af0210fbc91150f35f274567b9c766b08", null ],
     [ "creases", "classmrmeshpy_1_1ObjectMeshHolder.html#a13192fbe95a3e6fdfc978444daa1c127", null ],
     [ "flatShading", "classmrmeshpy_1_1ObjectMeshHolder.html#a65c7d88a08101962845bc5639c967d56", null ],
@@ -33,6 +33,7 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "getTexturePerFace", "classmrmeshpy_1_1ObjectMeshHolder.html#a8908877533f9f49a4d49d0ae62fe8f02", null ],
     [ "getTextures", "classmrmeshpy_1_1ObjectMeshHolder.html#afe4a39dd9388514aa869b62419a143d5", null ],
     [ "getUVCoords", "classmrmeshpy_1_1ObjectMeshHolder.html#a14e8dbd5d2dcf5f3a76173d005b0206d", null ],
+    [ "getVertsColorMap", "classmrmeshpy_1_1ObjectMeshHolder.html#abe260d7deff9574e38554b3bd67fd5bc", null ],
     [ "getVisualizePropertyMask", "classmrmeshpy_1_1ObjectMeshHolder.html#a57fe4fe1f7e1397960b0735df502637a", null ],
     [ "hasAncillaryTexture", "classmrmeshpy_1_1ObjectMeshHolder.html#af1017063423135eaa7a43c728fa9676c", null ],
     [ "hasModel", "classmrmeshpy_1_1ObjectMeshHolder.html#abec49ca4f46abd8fcbd205498598008d", null ],
@@ -77,6 +78,7 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "setTexturePerFace", "classmrmeshpy_1_1ObjectMeshHolder.html#a4101b8c2f2f2b8a7dab14b040a4bae35", null ],
     [ "setTextures", "classmrmeshpy_1_1ObjectMeshHolder.html#a14e7b55554a0bb82db8f238281453f87", null ],
     [ "setUVCoords", "classmrmeshpy_1_1ObjectMeshHolder.html#a47b7dfb512d55da681be9b7e901e6f90", null ],
+    [ "setVertsColorMap", "classmrmeshpy_1_1ObjectMeshHolder.html#aa232c8a1604ba8e4df6c998dc938e655", null ],
     [ "shallowClone", "classmrmeshpy_1_1ObjectMeshHolder.html#aa2ca6534ff568a978cd63472c5841437", null ],
     [ "supportsVisualizeProperty", "classmrmeshpy_1_1ObjectMeshHolder.html#aaf9980af82046f462a024730059368b0", null ],
     [ "totalArea", "classmrmeshpy_1_1ObjectMeshHolder.html#ad547b10f369a850aff3b60d566fb65a8", null ],
@@ -87,5 +89,6 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "updateTexturePerFace", "classmrmeshpy_1_1ObjectMeshHolder.html#a2ce9c3820afa8bb168158108304b24dd", null ],
     [ "updateTextures", "classmrmeshpy_1_1ObjectMeshHolder.html#aff3de3e9f18709ef5116530251eb0aba", null ],
     [ "updateUVCoords", "classmrmeshpy_1_1ObjectMeshHolder.html#ad40ffee3d4ccc01e7b12fbb7671b083a", null ],
+    [ "updateVertsColorMap", "classmrmeshpy_1_1ObjectMeshHolder.html#a949e3a4800e457a42b7e06b7a82af8ce", null ],
     [ "volume", "classmrmeshpy_1_1ObjectMeshHolder.html#af6e17574c4689dd7f95c8a6d7a7a2c96", null ]
 ];

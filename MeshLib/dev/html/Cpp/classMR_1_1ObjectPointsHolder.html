@@ -241,6 +241,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a063fd6bcd742ad46b10c0cb3232d7fe4" id="r_a063fd6bcd742ad46b10c0cb3232d7fe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a063fd6bcd742ad46b10c0cb3232d7fe4">supportsVisualizeProperty</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type) const override</td></tr>
 <tr class="memdesc:a063fd6bcd742ad46b10c0cb3232d7fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this class supports the property <code>type</code>. Otherwise passing it to the functions below is illegal.  <br /></td></tr>
 <tr class="separator:a063fd6bcd742ad46b10c0cb3232d7fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b2bea04abb41d991834debde3ccedf" id="r_ae3b2bea04abb41d991834debde3ccedf"><td class="memItemLeft" align="right" valign="top">const VertColors &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3b2bea04abb41d991834debde3ccedf">getVertsColorMap</a> () const</td></tr>
+<tr class="memdesc:ae3b2bea04abb41d991834debde3ccedf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns per-point colors of the object  <br /></td></tr>
+<tr class="separator:ae3b2bea04abb41d991834debde3ccedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd5076d5c4b63ae07c67fb237ce83775" id="r_acd5076d5c4b63ae07c67fb237ce83775"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd5076d5c4b63ae07c67fb237ce83775">setVertsColorMap</a> (VertColors vertsColorMap)</td></tr>
+<tr class="memdesc:acd5076d5c4b63ae07c67fb237ce83775"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets per-point colors of the object  <br /></td></tr>
+<tr class="separator:acd5076d5c4b63ae07c67fb237ce83775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c17071846cdec9a78120404df0df2ac" id="r_a2c17071846cdec9a78120404df0df2ac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c17071846cdec9a78120404df0df2ac">updateVertsColorMap</a> (VertColors &amp;vertsColorMap)</td></tr>
+<tr class="memdesc:a2c17071846cdec9a78120404df0df2ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">swaps per-point colors of the object with given argument  <br /></td></tr>
+<tr class="separator:a2c17071846cdec9a78120404df0df2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2518a2c2c8afd31aa1653e6ca5bd7f43" id="r_a2518a2c2c8afd31aa1653e6ca5bd7f43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2518a2c2c8afd31aa1653e6ca5bd7f43">copyColors</a> (const <a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> &amp;src, const VertMap &amp;thisToSrc, const FaceMap &amp;thisToSrcFaces={})</td></tr>
+<tr class="memdesc:a2518a2c2c8afd31aa1653e6ca5bd7f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies point colors from given source object  <br /></td></tr>
+<tr class="separator:a2518a2c2c8afd31aa1653e6ca5bd7f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c4e3b9cafca3e334c278e0d0edaf6f4" id="r_a8c4e3b9cafca3e334c278e0d0edaf6f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c4e3b9cafca3e334c278e0d0edaf6f4">getAllVisualizeProperties</a> () const override</td></tr>
 <tr class="memdesc:a8c4e3b9cafca3e334c278e0d0edaf6f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get all visualize properties masks  <br /></td></tr>
 <tr class="separator:a8c4e3b9cafca3e334c278e0d0edaf6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -387,24 +399,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:add21d6793f336877707d5ed7b4785ce6 inherit pub_methods_classMR_1_1VisualObject" id="r_add21d6793f336877707d5ed7b4785ce6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#add21d6793f336877707d5ed7b4785ce6">setPickable</a> (bool on, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask=<a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>())</td></tr>
 <tr class="memdesc:add21d6793f336877707d5ed7b4785ce6 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the object as can/cannot be picked (by mouse) in all of given viewports  <br /></td></tr>
 <tr class="separator:add21d6793f336877707d5ed7b4785ce6 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb877e462ca02bd88aed92f546e76452 inherit pub_methods_classMR_1_1VisualObject" id="r_adb877e462ca02bd88aed92f546e76452"><td class="memItemLeft" align="right" valign="top">const VertColors &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#adb877e462ca02bd88aed92f546e76452">getVertsColorMap</a> () const</td></tr>
-<tr class="memdesc:adb877e462ca02bd88aed92f546e76452 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns per-vertex colors of the object  <br /></td></tr>
-<tr class="separator:adb877e462ca02bd88aed92f546e76452 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77d15eb01634f7726e7b2c23d4595cf inherit pub_methods_classMR_1_1VisualObject" id="r_ad77d15eb01634f7726e7b2c23d4595cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ad77d15eb01634f7726e7b2c23d4595cf">setVertsColorMap</a> (VertColors vertsColorMap)</td></tr>
-<tr class="memdesc:ad77d15eb01634f7726e7b2c23d4595cf inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets per-vertex colors of the object  <br /></td></tr>
-<tr class="separator:ad77d15eb01634f7726e7b2c23d4595cf inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c44ad8ebd43db1ccbc850ec3c809591 inherit pub_methods_classMR_1_1VisualObject" id="r_a4c44ad8ebd43db1ccbc850ec3c809591"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a4c44ad8ebd43db1ccbc850ec3c809591">updateVertsColorMap</a> (VertColors &amp;vertsColorMap)</td></tr>
-<tr class="memdesc:a4c44ad8ebd43db1ccbc850ec3c809591 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">swaps per-vertex colors of the object with given argument  <br /></td></tr>
-<tr class="separator:a4c44ad8ebd43db1ccbc850ec3c809591 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad526a2645a12621b7742bc66aaf5ad0f inherit pub_methods_classMR_1_1VisualObject" id="r_ad526a2645a12621b7742bc66aaf5ad0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ad526a2645a12621b7742bc66aaf5ad0f">getColoringType</a> () const</td></tr>
 <tr class="memdesc:ad526a2645a12621b7742bc66aaf5ad0f inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current coloring mode of the object  <br /></td></tr>
 <tr class="separator:ad526a2645a12621b7742bc66aaf5ad0f inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d339ad1cf1735f90773b4f8b89e9059 inherit pub_methods_classMR_1_1VisualObject" id="r_a8d339ad1cf1735f90773b4f8b89e9059"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a8d339ad1cf1735f90773b4f8b89e9059">setColoringType</a> (<a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a> coloringType)</td></tr>
 <tr class="memdesc:a8d339ad1cf1735f90773b4f8b89e9059 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets coloring mode of the object with given argument  <br /></td></tr>
 <tr class="separator:a8d339ad1cf1735f90773b4f8b89e9059 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9529179a8a5c9b9fed190357942e1ba7 inherit pub_methods_classMR_1_1VisualObject" id="r_a9529179a8a5c9b9fed190357942e1ba7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a9529179a8a5c9b9fed190357942e1ba7">copyColors</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;src, const VertMap &amp;thisToSrc, const FaceMap &amp;thisToSrcFaces={})</td></tr>
-<tr class="memdesc:a9529179a8a5c9b9fed190357942e1ba7 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies point colors from given source object  <br /></td></tr>
-<tr class="separator:a9529179a8a5c9b9fed190357942e1ba7 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a152f22b671a1cf98ddcf43db92b1da inherit pub_methods_classMR_1_1VisualObject" id="r_a1a152f22b671a1cf98ddcf43db92b1da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a1a152f22b671a1cf98ddcf43db92b1da">getShininess</a> () const</td></tr>
 <tr class="memdesc:a1a152f22b671a1cf98ddcf43db92b1da inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current shininess visual value  <br /></td></tr>
 <tr class="separator:a1a152f22b671a1cf98ddcf43db92b1da inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -702,6 +702,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a045c0320f1489b9374254b9dd00aeb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48270cb125e897505184be1003eb4500" id="r_a48270cb125e897505184be1003eb4500"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48270cb125e897505184be1003eb4500">showSelectedVertices_</a> = <a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>()</td></tr>
 <tr class="separator:a48270cb125e897505184be1003eb4500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bea7e24940446fdc81e38da2f8db14c" id="r_a3bea7e24940446fdc81e38da2f8db14c"><td class="memItemLeft" align="right" valign="top">VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bea7e24940446fdc81e38da2f8db14c">vertsColorMap_</a></td></tr>
+<tr class="separator:a3bea7e24940446fdc81e38da2f8db14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfa588fa9e443c6c2bb637a1e9ad98cb" id="r_abfa588fa9e443c6c2bb637a1e9ad98cb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa588fa9e443c6c2bb637a1e9ad98cb">points_</a></td></tr>
 <tr class="separator:abfa588fa9e443c6c2bb637a1e9ad98cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a896a4967afa85824de6ebc22a609a95d" id="r_a896a4967afa85824de6ebc22a609a95d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="classMR_1_1XfBasedCache.html">XfBasedCache</a>&lt; Box3f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a896a4967afa85824de6ebc22a609a95d">worldBox_</a></td></tr>
@@ -744,8 +746,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a21eb2d0c923e3ca0544e4cf90782e6b1 inherit pro_attribs_classMR_1_1VisualObject" id="r_a21eb2d0c923e3ca0544e4cf90782e6b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a21eb2d0c923e3ca0544e4cf90782e6b1">coloringType_</a> {<a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854">ColoringType::SolidColor</a>}</td></tr>
 <tr class="memdesc:a21eb2d0c923e3ca0544e4cf90782e6b1 inherit pro_attribs_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main coloring options.  <br /></td></tr>
 <tr class="separator:a21eb2d0c923e3ca0544e4cf90782e6b1 inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a782cfef38763cac8903ad92bd391f0ec inherit pro_attribs_classMR_1_1VisualObject" id="r_a782cfef38763cac8903ad92bd391f0ec"><td class="memItemLeft" align="right" valign="top">VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a782cfef38763cac8903ad92bd391f0ec">vertsColorMap_</a></td></tr>
-<tr class="separator:a782cfef38763cac8903ad92bd391f0ec inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac75d179334e336af0672bf0d9c997038 inherit pro_attribs_classMR_1_1VisualObject" id="r_ac75d179334e336af0672bf0d9c997038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ac75d179334e336af0672bf0d9c997038">selectedColor_</a></td></tr>
 <tr class="separator:ac75d179334e336af0672bf0d9c997038 inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a567b072f1d687c864a8be3d5e68d13a3 inherit pro_attribs_classMR_1_1VisualObject" id="r_a567b072f1d687c864a8be3d5e68d13a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a567b072f1d687c864a8be3d5e68d13a3">unselectedColor_</a></td></tr>
@@ -985,6 +985,49 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a4e27182996ebf22fc42c7d1ebf6cf02b">MR::VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a2518a2c2c8afd31aa1653e6ca5bd7f43" name="a2518a2c2c8afd31aa1653e6ca5bd7f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2518a2c2c8afd31aa1653e6ca5bd7f43">&#9670;&#160;</a></span>copyColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectPointsHolder::copyColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertMap &amp;</td>          <td class="paramname"><span class="paramname"><em>thisToSrc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceMap &amp;</td>          <td class="paramname"><span class="paramname"><em>thisToSrcFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>copies point colors from given source object </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src</td><td>using given map</td></tr>
+    <tr><td class="paramname">thisToSrc</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1246,6 +1289,33 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3b2bea04abb41d991834debde3ccedf" name="ae3b2bea04abb41d991834debde3ccedf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3b2bea04abb41d991834debde3ccedf">&#9670;&#160;</a></span>getVertsColorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertColors &amp; MR::ObjectPointsHolder::getVertsColorMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns per-point colors of the object </p>
 
 </div>
 </div>
@@ -1881,6 +1951,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acd5076d5c4b63ae07c67fb237ce83775" name="acd5076d5c4b63ae07c67fb237ce83775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd5076d5c4b63ae07c67fb237ce83775">&#9670;&#160;</a></span>setVertsColorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::ObjectPointsHolder::setVertsColorMap </td>
+          <td>(</td>
+          <td class="paramtype">VertColors</td>          <td class="paramname"><span class="paramname"><em>vertsColorMap</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets per-point colors of the object </p>
+
+</div>
+</div>
 <a id="aafeb7e582463b9ab47d0465ddb7e8758" name="aafeb7e582463b9ab47d0465ddb7e8758"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aafeb7e582463b9ab47d0465ddb7e8758">&#9670;&#160;</a></span>shallowClone()</h2>
 
@@ -2079,6 +2176,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>swaps current selected points with the argument </p>
+
+</div>
+</div>
+<a id="a2c17071846cdec9a78120404df0df2ac" name="a2c17071846cdec9a78120404df0df2ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c17071846cdec9a78120404df0df2ac">&#9670;&#160;</a></span>updateVertsColorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::ObjectPointsHolder::updateVertsColorMap </td>
+          <td>(</td>
+          <td class="paramtype">VertColors &amp;</td>          <td class="paramname"><span class="paramname"><em>vertsColorMap</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>swaps per-point colors of the object with given argument </p>
 
 </div>
 </div>
@@ -2328,6 +2452,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> MR::ObjectPointsHolder::showSelectedVertices_ = <a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bea7e24940446fdc81e38da2f8db14c" name="a3bea7e24940446fdc81e38da2f8db14c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bea7e24940446fdc81e38da2f8db14c">&#9670;&#160;</a></span>vertsColorMap_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertColors MR::ObjectPointsHolder::vertsColorMap_</td>
         </tr>
       </table>
   </td>

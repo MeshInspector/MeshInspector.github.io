@@ -146,7 +146,6 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ChangeSceneObjectsOrder", "classmrmeshpy_1_1ChangeSceneObjectsOrder.html", "classmrmeshpy_1_1ChangeSceneObjectsOrder" ],
     [ "mrmeshpy.ChangeSurfaceAction", "classmrmeshpy_1_1ChangeSurfaceAction.html", "classmrmeshpy_1_1ChangeSurfaceAction" ],
     [ "mrmeshpy.ChangeTextureAction", "classmrmeshpy_1_1ChangeTextureAction.html", "classmrmeshpy_1_1ChangeTextureAction" ],
-    [ "mrmeshpy.ChangeVertsColorMapAction", "classmrmeshpy_1_1ChangeVertsColorMapAction.html", "classmrmeshpy_1_1ChangeVertsColorMapAction" ],
     [ "mrmeshpy.ChangeVisualizePropertyAction", "classmrmeshpy_1_1ChangeVisualizePropertyAction.html", "classmrmeshpy_1_1ChangeVisualizePropertyAction" ],
     [ "mrmeshpy.ChangeXfAction", "classmrmeshpy_1_1ChangeXfAction.html", "classmrmeshpy_1_1ChangeXfAction" ],
     [ "mrmeshpy.CircleObject", "classmrmeshpy_1_1CircleObject.html", "classmrmeshpy_1_1CircleObject" ],

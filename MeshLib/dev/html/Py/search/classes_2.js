@@ -50,7 +50,7 @@ var searchData=
   ['changesurfaceaction_47',['ChangeSurfaceAction',['../../Cpp/classMR_1_1ChangeSurfaceAction.html',1,'MR::ChangeSurfaceAction'],['../classmrmeshpy_1_1ChangeSurfaceAction.html',1,'mrmeshpy.ChangeSurfaceAction']]],
   ['changetextureaction_48',['ChangeTextureAction',['../../Cpp/classMR_1_1ChangeTextureAction.html',1,'MR::ChangeTextureAction'],['../classmrmeshpy_1_1ChangeTextureAction.html',1,'mrmeshpy.ChangeTextureAction']]],
   ['changevalue_49',['ChangeValue',['../../Cpp/classMR_1_1ChangeValue.html',1,'MR']]],
-  ['changevertscolormapaction_50',['ChangeVertsColorMapAction',['../../Cpp/classMR_1_1ChangeVertsColorMapAction.html',1,'MR::ChangeVertsColorMapAction'],['../classmrmeshpy_1_1ChangeVertsColorMapAction.html',1,'mrmeshpy.ChangeVertsColorMapAction']]],
+  ['changevertscolormapaction_50',['ChangeVertsColorMapAction',['../../Cpp/classMR_1_1ChangeVertsColorMapAction.html',1,'MR']]],
   ['changevisibleaction_51',['ChangeVisibleAction',['../../Cpp/classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html',1,'MR::DirectionWidget']]],
   ['changevisualizepropertyaction_52',['ChangeVisualizePropertyAction',['../../Cpp/classMR_1_1ChangeVisualizePropertyAction.html',1,'MR::ChangeVisualizePropertyAction'],['../classmrmeshpy_1_1ChangeVisualizePropertyAction.html',1,'mrmeshpy.ChangeVisualizePropertyAction']]],
   ['changexfaction_53',['ChangeXfAction',['../../Cpp/classMR_1_1ChangeXfAction.html',1,'MR::ChangeXfAction'],['../../Cpp/classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html',1,'MR::ObjectTransformWidget::ChangeXfAction'],['../classmrmeshpy_1_1ChangeXfAction.html',1,'mrmeshpy.ChangeXfAction']]],

@@ -655,6 +655,7 @@ var namespaceMR =
     [ "ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", "structMR_1_1ResolveMeshDegenSettings" ],
     [ "RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", "classMR_1_1RestoringStreamsSink" ],
     [ "RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", "classMR_1_1RibbonButtonDrawer" ],
+    [ "RibbonConfig", "structMR_1_1RibbonConfig.html", "structMR_1_1RibbonConfig" ],
     [ "RibbonFontManager", "classMR_1_1RibbonFontManager.html", "classMR_1_1RibbonFontManager" ],
     [ "RibbonIcons", "classMR_1_1RibbonIcons.html", "classMR_1_1RibbonIcons" ],
     [ "RibbonMenu", "classMR_1_1RibbonMenu.html", "classMR_1_1RibbonMenu" ],
@@ -662,6 +663,7 @@ var namespaceMR =
     [ "RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html", "classMR_1_1RibbonMenuItemAdder" ],
     [ "RibbonMenuItemCall", "classMR_1_1RibbonMenuItemCall.html", "classMR_1_1RibbonMenuItemCall" ],
     [ "RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", "classMR_1_1RibbonMenuSearch" ],
+    [ "RibbonMenuUIConfig", "structMR_1_1RibbonMenuUIConfig.html", "structMR_1_1RibbonMenuUIConfig" ],
     [ "RibbonNotification", "structMR_1_1RibbonNotification.html", "structMR_1_1RibbonNotification" ],
     [ "RibbonNotifier", "classMR_1_1RibbonNotifier.html", "classMR_1_1RibbonNotifier" ],
     [ "RibbonSceneHideAll", "classMR_1_1RibbonSceneHideAll.html", "classMR_1_1RibbonSceneHideAll" ],
@@ -1380,14 +1382,14 @@ var namespaceMR =
       [ "Button", "namespaceMR.html#a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0", null ],
       [ "ButtonWithDrop", "namespaceMR.html#a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4", null ]
     ] ],
-    [ "RibbonLayoutMode", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73", [
-      [ "None", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "SceneTree", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73a8b8b49402e8184fd0a7168766602cb83", null ],
-      [ "All", "namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
-    ] ],
     [ "RibbonNotificationCorner", "namespaceMR.html#ad2f3bc10761d952926925127eb80d902", [
       [ "LowerLeft", "namespaceMR.html#ad2f3bc10761d952926925127eb80d902aa8594fd8be60c94e1a2607fa0fa50fae", null ],
       [ "LowerRight", "namespaceMR.html#ad2f3bc10761d952926925127eb80d902a5ef0d4d135d5f2814b07feaf13fda653", null ]
+    ] ],
+    [ "RibbonTopPanelLayoutMode", "namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7", [
+      [ "None", "namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "RibbonNoTabs", "namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7aacb400c35a93a397ad5d54a1aa3b117d", null ],
+      [ "RibbonWithTabs", "namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7a9a8369bcaa71173baa02f88bbf53b8fc", null ]
     ] ],
     [ "ScalarType", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8", [
       [ "UInt8", "namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a", null ],
@@ -1539,6 +1541,7 @@ var namespaceMR =
     [ "applyDouble", "namespaceMR.html#a7b5f265567104240be13bb0adc6d84f7", null ],
     [ "applyFloat", "namespaceMR.html#a423dfbb3e8fe2d355d3569c58f27881f", null ],
     [ "applyFloat", "namespaceMR.html#acc1d104ed2e275977cf878d68073c9b2", null ],
+    [ "applyRibbonConfig", "namespaceMR.html#a57613237dbb6d143b056f9f888c9ee0d", null ],
     [ "area", "namespaceMR.html#a5db5640e628bfb98d046695d1bf378af", null ],
     [ "area", "namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03", null ],
     [ "asSelectivityType", "group__DataModelGroup.html#ga63769cf93cfa3d68cbf331f305c195d8", null ],
@@ -1700,6 +1703,7 @@ var namespaceMR =
     [ "createProjectionTransforms", "group__AABBTreeGroup.html#ga2574b6170fb044d2038e7fa9c0e2e4c1", null ],
     [ "createRenderObject", "namespaceMR.html#ad5939add708452e0f1d36d597997afb1", null ],
     [ "createRenderObject", "namespaceMR.html#a93172f1e06fd94c642f000fd5e190230", null ],
+    [ "createRibbonConfigFromJson", "namespaceMR.html#ad38761a3c9798cc64354bfb245cce186", null ],
     [ "createRootFormObject", "namespaceMR.html#a4a16b61709f08cfac2280d5b1167bb24", null ],
     [ "createShader", "namespaceMR.html#a9afa144203c32fd7ae42043bee1a6aa7", null ],
     [ "createSymbolContours", "namespaceMR.html#a3864227e969c9b436c4ee8357ec33d20", null ],

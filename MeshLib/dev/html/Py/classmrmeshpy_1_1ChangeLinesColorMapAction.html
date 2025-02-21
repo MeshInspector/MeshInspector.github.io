@@ -175,6 +175,8 @@ $(function(){initNavTree('classmrmeshpy_1_1ChangeLinesColorMapAction.html',''); 
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a77dc9fd464ddbb23bb16e403a663b138" id="r_a77dc9fd464ddbb23bb16e403a663b138"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77dc9fd464ddbb23bb16e403a663b138">__init__</a> (self, str <a class="el" href="#a6390c639f7f0eceae0f46136af4b99e1">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj)</td></tr>
 <tr class="separator:a77dc9fd464ddbb23bb16e403a663b138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c86b8cac3c67a546f2e2c5bd32cec1" id="r_a34c86b8cac3c67a546f2e2c5bd32cec1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34c86b8cac3c67a546f2e2c5bd32cec1">__init__</a> (self, str <a class="el" href="#a6390c639f7f0eceae0f46136af4b99e1">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeColors.html">UndirectedEdgeColors</a> newColorMap)</td></tr>
+<tr class="separator:a34c86b8cac3c67a546f2e2c5bd32cec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0221e61415e41e2045fac146e141da6d" id="r_a0221e61415e41e2045fac146e141da6d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0221e61415e41e2045fac146e141da6d">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ChangeLinesColorMapAction.html">ChangeLinesColorMapAction</a> arg0)</td></tr>
 <tr class="separator:a0221e61415e41e2045fac146e141da6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94964295defbafbf62c8f7dd9b5ba4cf" id="r_a94964295defbafbf62c8f7dd9b5ba4cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94964295defbafbf62c8f7dd9b5ba4cf">heapBytes</a> (self)</td></tr>
@@ -206,7 +208,7 @@ History action for lines color map change
 \\ingroup HistoryGroup
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a77dc9fd464ddbb23bb16e403a663b138" name="a77dc9fd464ddbb23bb16e403a663b138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77dc9fd464ddbb23bb16e403a663b138">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a77dc9fd464ddbb23bb16e403a663b138">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,12 +230,44 @@ History action for lines color map change
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Constructed from original obj
+<pre class="fragment">use this constructor to remember object's line colors before making any changes in them
+</pre> 
+</div>
+</div>
+<a id="a34c86b8cac3c67a546f2e2c5bd32cec1" name="a34c86b8cac3c67a546f2e2c5bd32cec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34c86b8cac3c67a546f2e2c5bd32cec1">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.ChangeLinesColorMapAction.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeColors.html">UndirectedEdgeColors</a></td>          <td class="paramname"><span class="paramname"><em>newColorMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">use this constructor to remember object's lines colors and immediate set new value
 </pre> 
 </div>
 </div>
 <a id="a0221e61415e41e2045fac146e141da6d" name="a0221e61415e41e2045fac146e141da6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0221e61415e41e2045fac146e141da6d">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0221e61415e41e2045fac146e141da6d">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

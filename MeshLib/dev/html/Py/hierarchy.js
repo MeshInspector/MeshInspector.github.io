@@ -420,7 +420,6 @@ var hierarchy =
       [ "mrmeshpy.ChangeSceneObjectsOrder", "classmrmeshpy_1_1ChangeSceneObjectsOrder.html", null ],
       [ "mrmeshpy.ChangeSurfaceAction", "classmrmeshpy_1_1ChangeSurfaceAction.html", null ],
       [ "mrmeshpy.ChangeTextureAction", "classmrmeshpy_1_1ChangeTextureAction.html", null ],
-      [ "mrmeshpy.ChangeVertsColorMapAction", "classmrmeshpy_1_1ChangeVertsColorMapAction.html", null ],
       [ "mrmeshpy.ChangeVisualizePropertyAction", "classmrmeshpy_1_1ChangeVisualizePropertyAction.html", null ],
       [ "mrmeshpy.ChangeXfAction", "classmrmeshpy_1_1ChangeXfAction.html", null ],
       [ "mrmeshpy.CombinedHistoryAction", "classmrmeshpy_1_1CombinedHistoryAction.html", null ],

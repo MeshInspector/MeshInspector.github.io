@@ -2,7 +2,6 @@ var classmrmeshpy_1_1VisualObject =
 [
     [ "__init__", "classmrmeshpy_1_1VisualObject.html#a3aa4d51e5d881a8faec9b51637da6364", null ],
     [ "clone", "classmrmeshpy_1_1VisualObject.html#a1aeb8f658d1ec828372eb5f234f696fd", null ],
-    [ "copyColors", "classmrmeshpy_1_1VisualObject.html#a5a8b7b270b46ff1e01105da9850daa0d", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1VisualObject.html#a99a68c12bda4b4c07f5ba725b2b2af59", null ],
     [ "getAmbientStrength", "classmrmeshpy_1_1VisualObject.html#a82c638c112056461424bfc09c23925b7", null ],
     [ "getBackColor", "classmrmeshpy_1_1VisualObject.html#ae52231ec5177a10f568e957c8ad4d671", null ],
@@ -23,7 +22,6 @@ var classmrmeshpy_1_1VisualObject =
     [ "getRedrawFlag", "classmrmeshpy_1_1VisualObject.html#a9b36e627e752037bbe0d6cfeee96dbaf", null ],
     [ "getShininess", "classmrmeshpy_1_1VisualObject.html#a9224ef194f3580c35affb61d7a560db2", null ],
     [ "getSpecularStrength", "classmrmeshpy_1_1VisualObject.html#a8ac83a9fca121b3f5e6716ed1222a5f8", null ],
-    [ "getVertsColorMap", "classmrmeshpy_1_1VisualObject.html#a607ccf04187f4dfe8f7297a4879f776e", null ],
     [ "getVisualizeProperty", "classmrmeshpy_1_1VisualObject.html#a487af7ed5a9684ff50ae73578c31bf4b", null ],
     [ "getVisualizePropertyMask", "classmrmeshpy_1_1VisualObject.html#a936f4ea388564c3dc033b5abb39993f4", null ],
     [ "heapBytes", "classmrmeshpy_1_1VisualObject.html#a1a571d9d02df9a2a9dd723f6a71ce398", null ],
@@ -47,7 +45,6 @@ var classmrmeshpy_1_1VisualObject =
     [ "setShininess", "classmrmeshpy_1_1VisualObject.html#a03bf218ed762761b72a397cf74ac6b25", null ],
     [ "setSpecularStrength", "classmrmeshpy_1_1VisualObject.html#aa5aaf91f77383289702c646d873af962", null ],
     [ "setUseDefaultScenePropertiesOnDeserialization", "classmrmeshpy_1_1VisualObject.html#a835cb96e26e7068936c68aba9046257e", null ],
-    [ "setVertsColorMap", "classmrmeshpy_1_1VisualObject.html#aa9c28b2a0810a5c29fdb907b1d236cfe", null ],
     [ "setVisualizeProperty", "classmrmeshpy_1_1VisualObject.html#a714cc9052b7153f7263836546050015f", null ],
     [ "setVisualizePropertyMask", "classmrmeshpy_1_1VisualObject.html#a48dca93e69125ceede505cae9f2e4629", null ],
     [ "shallowClone", "classmrmeshpy_1_1VisualObject.html#a2f1849493da5afd051a79175b5f08734", null ],
@@ -58,6 +55,5 @@ var classmrmeshpy_1_1VisualObject =
     [ "supportsVisualizeProperty", "classmrmeshpy_1_1VisualObject.html#af397dd03ebfb70c972d3c4b39e52fc51", null ],
     [ "toggleVisualizeProperty", "classmrmeshpy_1_1VisualObject.html#afccac4560acbe3eb1403c494d2d9b197", null ],
     [ "typeName", "classmrmeshpy_1_1VisualObject.html#a0e188ed95f73756841030840741720e9", null ],
-    [ "updateVertsColorMap", "classmrmeshpy_1_1VisualObject.html#ab99c4f5974519d3a83abc3fa702f5f76", null ],
     [ "useDefaultScenePropertiesOnDeserialization", "classmrmeshpy_1_1VisualObject.html#a5e25b63c3965dc9f65f914e80f164bbd", null ]
 ];

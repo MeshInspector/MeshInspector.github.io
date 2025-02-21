@@ -139,7 +139,7 @@ var searchData=
   ['vertregion_136',['vertRegion',['../structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752',1,'MR::RefineParameters']]],
   ['verts_137',['verts',['../structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8',1,'MR::UnorientedTriangle']]],
   ['vertscolormap_138',['VertsColorMap',['../../Py/classmrmeshpy_1_1ColoringType.html#a9ceaba40388b05761221916a5da06948',1,'mrmeshpy::ColoringType']]],
-  ['vertscolormap_5f_139',['vertsColorMap_',['../classMR_1_1VisualObject.html#a782cfef38763cac8903ad92bd391f0ec',1,'MR::VisualObject']]],
+  ['vertscolormap_5f_139',['vertsColorMap_',['../classMR_1_1ObjectLinesHolder.html#aebf8fd3ebbe9baca5e1890a03da63db7',1,'MR::ObjectLinesHolder::vertsColorMap_'],['../classMR_1_1ObjectMeshHolder.html#a90b362496303ac4080bf5501eb8e28e5',1,'MR::ObjectMeshHolder::vertsColorMap_'],['../classMR_1_1ObjectPointsHolder.html#a3bea7e24940446fdc81e38da2f8db14c',1,'MR::ObjectPointsHolder::vertsColorMap_']]],
   ['vertsdeleted_140',['vertsDeleted',['../structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd',1,'MR::DecimateResult::vertsDeleted'],['../structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6',1,'MR::DecimatePolylineResult::vertsDeleted'],['../structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09',1,'MRDecimateResult::vertsDeleted']]],
   ['verttag_141',['VertTag',['../namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e',1,'MR']]],
   ['vertuvbuffer_5f_142',['vertUVBuffer_',['../classMR_1_1RenderMeshObject.html#a08d8c036ef75bf130d97cbcc7992b943',1,'MR::RenderMeshObject']]],

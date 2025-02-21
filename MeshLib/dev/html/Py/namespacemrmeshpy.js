@@ -133,7 +133,6 @@ var namespacemrmeshpy =
     [ "ChangeSceneObjectsOrder", "classmrmeshpy_1_1ChangeSceneObjectsOrder.html", "classmrmeshpy_1_1ChangeSceneObjectsOrder" ],
     [ "ChangeSurfaceAction", "classmrmeshpy_1_1ChangeSurfaceAction.html", "classmrmeshpy_1_1ChangeSurfaceAction" ],
     [ "ChangeTextureAction", "classmrmeshpy_1_1ChangeTextureAction.html", "classmrmeshpy_1_1ChangeTextureAction" ],
-    [ "ChangeVertsColorMapAction", "classmrmeshpy_1_1ChangeVertsColorMapAction.html", "classmrmeshpy_1_1ChangeVertsColorMapAction" ],
     [ "ChangeVisualizePropertyAction", "classmrmeshpy_1_1ChangeVisualizePropertyAction.html", "classmrmeshpy_1_1ChangeVisualizePropertyAction" ],
     [ "ChangeXfAction", "classmrmeshpy_1_1ChangeXfAction.html", "classmrmeshpy_1_1ChangeXfAction" ],
     [ "ChangVoxelSelectionAction", "classmrmeshpy_1_1ChangVoxelSelectionAction.html", "classmrmeshpy_1_1ChangVoxelSelectionAction" ],
