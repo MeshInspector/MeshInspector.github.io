@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BestFitParabola.html":[6,0,1,0,1,71],
+"classMR_1_1BestFitParabola.html":[6,0,2,0,1,55],
 "classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[6,0,1,0,1,71,1],
 "classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[6,0,2,0,1,55,1],
 "classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[6,0,1,0,1,71,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92":[6,0,0,4,2,1],
 "classMR_1_1ChangeLinesColorMapAction.html#aa8ddee0413ffd1f5443c24e425457f07":[6,0,0,4,2,2],
 "classMR_1_1ChangeMeshAction.html":[6,0,0,4,4],
-"classMR_1_1ChangeMeshAction.html#a6e73aebdc0c2a7d4d2273eed02ad84ab":[6,0,0,4,4,5],
-"classMR_1_1ChangeMeshAction.html#a95aa4293570939f1ab9d6f90ac117dad":[6,0,0,4,4,2],
-"classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61":[6,0,0,4,4,1]
+"classMR_1_1ChangeMeshAction.html#a6e73aebdc0c2a7d4d2273eed02ad84ab":[6,0,0,4,4,5]
 };

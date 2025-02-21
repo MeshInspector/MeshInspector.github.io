@@ -542,6 +542,7 @@ var namespacemrmeshpy =
     [ "ObjectLines", "classmrmeshpy_1_1ObjectLines.html", "classmrmeshpy_1_1ObjectLines" ],
     [ "ObjectLinesHolder", "classmrmeshpy_1_1ObjectLinesHolder.html", "classmrmeshpy_1_1ObjectLinesHolder" ],
     [ "ObjectMesh", "classmrmeshpy_1_1ObjectMesh.html", "classmrmeshpy_1_1ObjectMesh" ],
+    [ "ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", "classmrmeshpy_1_1ObjectMeshData" ],
     [ "ObjectMeshHolder", "classmrmeshpy_1_1ObjectMeshHolder.html", "classmrmeshpy_1_1ObjectMeshHolder" ],
     [ "ObjectPoints", "classmrmeshpy_1_1ObjectPoints.html", "classmrmeshpy_1_1ObjectPoints" ],
     [ "ObjectPointsHolder", "classmrmeshpy_1_1ObjectPointsHolder.html", "classmrmeshpy_1_1ObjectPointsHolder" ],

@@ -1,17 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1DragDropListener.html":[6,0,2,0,1,173],
-"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,1,0,1,189,2],
-"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,2,0,1,173,2],
-"structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[6,0,1,0,1,189,1],
-"structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[6,0,2,0,1,173,1],
-"structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[6,0,1,0,1,189,0],
-"structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[6,0,2,0,1,173,0],
-"structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[6,0,1,0,1,189,3],
-"structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[6,0,2,0,1,173,3],
-"structMR_1_1DragEndListener.html":[6,0,1,0,1,190],
-"structMR_1_1DragEndListener.html":[6,0,2,0,1,174],
-"structMR_1_1DragEndListener.html#a2768a8c22456638cfdef0c641b35167f":[6,0,1,0,1,190,0],
 "structMR_1_1DragEndListener.html#a2768a8c22456638cfdef0c641b35167f":[6,0,2,0,1,174,0],
 "structMR_1_1DragEndListener.html#a4a89ee1a6b65d9640fe22c0bd4ddb5b4":[6,0,1,0,1,190,2],
 "structMR_1_1DragEndListener.html#a4a89ee1a6b65d9640fe22c0bd4ddb5b4":[6,0,2,0,1,174,2],
@@ -249,5 +237,17 @@ var NAVTREEINDEX65 =
 "structMR_1_1FeatureObjectSharedProperty.html#a863b69e9cebfcc8c5f242a7b655083c9":[6,0,1,0,1,213,4],
 "structMR_1_1FeatureObjectSharedProperty.html#a863b69e9cebfcc8c5f242a7b655083c9":[6,0,2,0,1,197,4],
 "structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[6,0,1,0,1,213,3],
-"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[6,0,2,0,1,197,3]
+"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[6,0,2,0,1,197,3],
+"structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,1,0,1,213,0],
+"structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,2,0,1,197,0],
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,1,0,1,213,2],
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,2,0,1,197,2],
+"structMR_1_1Features_1_1MeasureResult.html":[6,0,1,0,1,6,2],
+"structMR_1_1Features_1_1MeasureResult.html":[6,0,2,0,1,2,2],
+"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,1,0,1,6,2,4],
+"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,2,0,1,2,2,4],
+"structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[6,0,1,0,1,6,2,6],
+"structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[6,0,2,0,1,2,2,6],
+"structMR_1_1Features_1_1MeasureResult.html#a598c9f6b07a702e3e849bf9b0e6ec040":[6,0,1,0,1,6,2,5],
+"structMR_1_1Features_1_1MeasureResult.html#a598c9f6b07a702e3e849bf9b0e6ec040":[6,0,2,0,1,2,2,5]
 };

@@ -545,6 +545,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ObjectLines", "classmrmeshpy_1_1ObjectLines.html", "classmrmeshpy_1_1ObjectLines" ],
     [ "mrmeshpy.ObjectLinesHolder", "classmrmeshpy_1_1ObjectLinesHolder.html", "classmrmeshpy_1_1ObjectLinesHolder" ],
     [ "mrmeshpy.ObjectMesh", "classmrmeshpy_1_1ObjectMesh.html", "classmrmeshpy_1_1ObjectMesh" ],
+    [ "mrmeshpy.ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", "classmrmeshpy_1_1ObjectMeshData" ],
     [ "mrmeshpy.ObjectMeshHolder", "classmrmeshpy_1_1ObjectMeshHolder.html", "classmrmeshpy_1_1ObjectMeshHolder" ],
     [ "mrmeshpy.ObjectPoints", "classmrmeshpy_1_1ObjectPoints.html", "classmrmeshpy_1_1ObjectPoints" ],
     [ "mrmeshpy.ObjectPointsHolder", "classmrmeshpy_1_1ObjectPointsHolder.html", "classmrmeshpy_1_1ObjectPointsHolder" ],

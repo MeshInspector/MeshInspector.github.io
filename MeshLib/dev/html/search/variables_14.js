@@ -48,7 +48,7 @@ var searchData=
   ['userandomshifts_45',['useRandomShifts',['.././Cpp/structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab',1,'MR::UniteManyMeshesParams']]],
   ['usewindingnumber_46',['useWindingNumber',['.././Cpp/structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4',1,'MR::FindInnerShellSettings']]],
   ['uvcoord_47',['UVCoord',['.././Py/namespacemrmeshpy.html#aa1c468d89e36aef34b0502ca81f2db4f',1,'mrmeshpy']]],
-  ['uvcoordinates_5f_48',['uvCoordinates_',['.././Cpp/classMR_1_1ObjectMeshHolder.html#aefaa378a49e6231ebc3232b74a69dde3',1,'MR::ObjectMeshHolder']]],
+  ['uvcoordinates_48',['uvCoordinates',['.././Cpp/structMR_1_1ObjectMeshData.html#a709805a7a77dd5dbd24c880b043761f9',1,'MR::ObjectMeshData']]],
   ['uvcoords_49',['uvCoords',['.././Cpp/structMR_1_1FillHoleNicelySettings.html#a8e1fac34058b267d696714994b158ce2',1,'MR::FillHoleNicelySettings::uvCoords'],['.././Cpp/structMR_1_1MeshAttributes.html#a6e4a059465bedc2e9eb1dd9b160a1b94',1,'MR::MeshAttributes::uvCoords'],['.././Cpp/structMR_1_1MeshAttributesToUpdate.html#aca8eecaf6d18987308450e4834bb50cd',1,'MR::MeshAttributesToUpdate::uvCoords'],['.././Cpp/structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455',1,'MR::MeshLoadSettings::uvCoords'],['.././Cpp/group__MeshLoadObjGroup.html#ga216284f1a34367048f2f39d7688b1a72',1,'MR::MeshLoad::NamedMesh::uvCoords'],['.././Cpp/structMR_1_1ObjectMeshSubdivideResult.html#a2894907979e66e4535f56cb80164b770',1,'MR::ObjectMeshSubdivideResult::uvCoords']]],
   ['uvmap_50',['uvMap',['.././Cpp/structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd',1,'MR::SaveSettings']]]
 ];

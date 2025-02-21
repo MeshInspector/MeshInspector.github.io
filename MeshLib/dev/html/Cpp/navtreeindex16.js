@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"TypeCast_8h.html#ab259b078b03a36d5006b2e46e2a7cefb":[6,0,3,0,0,1,4,0,1,4],
+"TypeCast_8h.html#ab35314e725406d4f8192b8e319db2616":[6,0,3,0,0,1,4,0,1,3],
 "TypeCast_8h.html#adda276838f1e3e1bdb99c76901ee1b85":[6,0,3,0,0,1,4,0,1,12],
 "TypeCast_8h.html#ae5abfddc3d316a711d8c276a650db007":[6,0,3,0,0,1,4,0,1,11],
 "TypeCast_8h.html#af189b4cce40603d59d3eee654208ffeb":[6,0,3,0,0,1,4,0,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1BasinVolumeCalculator.html#a9b99b97f9c008057ea3281d4f9461d89":[6,0,1,0,1,70,0],
 "classMR_1_1BasinVolumeCalculator.html#a9b99b97f9c008057ea3281d4f9461d89":[6,0,2,0,1,54,0],
 "classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,1,0,1,70,1],
-"classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,2,0,1,54,1],
-"classMR_1_1BestFitParabola.html":[6,0,1,0,1,71],
-"classMR_1_1BestFitParabola.html":[6,0,2,0,1,55]
+"classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,2,0,1,54,1]
 };

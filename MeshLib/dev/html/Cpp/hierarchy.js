@@ -880,6 +880,7 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
+    [ "MR::ObjectMeshData", "structMR_1_1ObjectMeshData.html", null ],
     [ "MR::ObjectMeshSubdivideResult", "structMR_1_1ObjectMeshSubdivideResult.html", null ],
     [ "MR::PickPointManager::ObjectState", "structMR_1_1PickPointManager_1_1ObjectState.html", null ],
     [ "MR::ObjKindTraits< X >", "structMR_1_1ObjKindTraits.html", null ],
