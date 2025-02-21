@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1MovementBuildBodyParams.html":[6,0,1,0,1,375],
 "structMR_1_1MovementBuildBodyParams.html":[6,0,2,0,1,359],
 "structMR_1_1MovementBuildBodyParams.html#a0d83dd8285f144d9b53b12fbb7e2a0bc":[6,0,1,0,1,375,0],
 "structMR_1_1MovementBuildBodyParams.html#a0d83dd8285f144d9b53b12fbb7e2a0bc":[6,0,2,0,1,359,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,11,14,0,2,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300":[6,0,0,11,14,0,2,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9":[6,0,0,11,14,0,10],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a3020a0b0e97313d239308d5d16c7f9f3":[6,0,0,11,14,0,4],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a4d3b64c3be4b9df2a9728e5a097c8ad9":[6,0,0,11,14,0,8]
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a3020a0b0e97313d239308d5d16c7f9f3":[6,0,0,11,14,0,4]
 };

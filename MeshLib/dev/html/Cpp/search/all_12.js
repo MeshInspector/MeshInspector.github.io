@@ -527,7 +527,7 @@ var searchData=
   ['putsimplevolumeindensegrid_524',['putSimpleVolumeInDenseGrid',['../namespaceMR.html#aa2303df423aaea1a91ce570293117d37',1,'MR']]],
   ['python_525',['Python',['../../MeshLibPythonSetupGuide.html',1,'How to Install MeshLib SDK for Python'],['../../Py/APIPyPage.html',1,'Python']]],
   ['pythonappendorrun_526',['pythonAppendOrRun',['../namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691',1,'MR']]],
-  ['pythonconfig_527',['pythonConfig',['../classMR_1_1EmbeddedPython.html#af625103143c735b8c67563d7f0a30f30',1,'MR::EmbeddedPython']]],
+  ['pythonconfig_527',['pythonConfig',['../classMR_1_1EmbeddedPython.html#a4ba6eb9ab250390cf344a8970f5f3f79',1,'MR::EmbeddedPython']]],
   ['pythonexport_528',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
   ['pythonfunctionadder_529',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR::PythonFunctionAdder'],['../structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29',1,'MR::PythonFunctionAdder::PythonFunctionAdder(const std::string &amp;moduleName, std::function&lt; void(pybind11::module_ &amp;m)&gt; func, PythonExport::Priority priority=PythonExport::Priority::Implementation)'],['../structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f',1,'MR::PythonFunctionAdder::PythonFunctionAdder(const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))']]],
   ['pythonmodules_530',['PythonModules',['../../Py/classmrmeshpy_1_1SystemPath_1_1Directory.html#afbb7cdbe1287295cf57d425e8e705dae',1,'mrmeshpy::SystemPath::Directory::PythonModules'],['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baa9b9ad9b15630bfc857db491ee781e53',1,'MR::SystemPath::PythonModules']]],

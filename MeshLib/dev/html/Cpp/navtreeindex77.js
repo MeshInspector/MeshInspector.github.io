@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1Quaternion.html#a3408cac17b0213d5213b299ad98f12c3":[6,0,0,0,20,29],
 "structMR_1_1Quaternion.html#a425f39c2e989a446889597e5692a0416":[6,0,0,0,20,23],
 "structMR_1_1Quaternion.html#a4c3f74509e12b10d84316ce54058bd05":[6,0,0,0,20,7],
 "structMR_1_1Quaternion.html#a4c85af29d33ee04d5ca4473e7b840510":[6,0,0,0,20,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,2,0,1,538,1,0],
 "structMR_1_1RibbonNotification.html":[6,0,1,0,1,560],
 "structMR_1_1RibbonNotification.html":[6,0,2,0,1,544],
-"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,560,2],
-"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,2,0,1,544,2]
+"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,560,2]
 };
