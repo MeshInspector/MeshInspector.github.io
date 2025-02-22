@@ -5,6 +5,5 @@ var searchData=
   ['deformation_20example_2',['Free Form Deformation Example',['../ExampleFreeForm.html',1,'']]],
   ['deformation_20example_3',['Laplacian deformation Example',['../ExampleLaplacian.html',1,'']]],
   ['degeneration_4',['Resolving Mesh Degeneration',['../ExampleMeshResolveDegenerations.html',1,'']]],
-  ['dicom_20files_5',['Open Dicom Files',['../ExampleDicomFiles.html',1,'']]],
-  ['double_6',['Float vs Double',['../FloatVSDouble.html',1,'']]]
+  ['double_5',['Float vs Double',['../FloatVSDouble.html',1,'']]]
 ];
