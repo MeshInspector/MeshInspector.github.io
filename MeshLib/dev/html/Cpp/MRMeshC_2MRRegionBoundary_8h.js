@@ -2,7 +2,7 @@ var MRMeshC_2MRRegionBoundary_8h =
 [
     [ "MREdgeLoops", "MRMeshC_2MRRegionBoundary_8h.html#ae14b44105f37e53baed3085de87bf0bc", null ],
     [ "mrEdgeLoopsFree", "MRMeshC_2MRRegionBoundary_8h.html#a8899be933e84f30d5641eb3f6822879a", null ],
-    [ "mrEdgeLoopsGet", "MRMeshC_2MRRegionBoundary_8h.html#a46ff6b4fd76c67ddce58a975f40da5e6", null ],
+    [ "mrEdgeLoopsGet", "MRMeshC_2MRRegionBoundary_8h.html#a4c559613c4f76ad8087f17c24b2726cb", null ],
     [ "mrEdgeLoopsSize", "MRMeshC_2MRRegionBoundary_8h.html#a672d565e63eb4dc61582a232bb6c29dd", null ],
     [ "mrFindRightBoundary", "MRMeshC_2MRRegionBoundary_8h.html#a6bf6e4582c1abd205b103a98d6f7e046", null ],
     [ "mrGetIncidentEdgesFromEdges", "MRMeshC_2MRRegionBoundary_8h.html#ad08e67c36a7d246c429d47056fb85b6e", null ],

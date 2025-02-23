@@ -13,6 +13,6 @@ var MRMeshC_2MRContoursCut_8h =
     ] ],
     [ "mrGetOneMeshIntersectionContours", "MRMeshC_2MRContoursCut_8h.html#a83990037b080effc7428f612890449a0", null ],
     [ "mrOneMeshContoursFree", "MRMeshC_2MRContoursCut_8h.html#a37dfeceb92571cee6a934adfa4d80a1e", null ],
-    [ "mrOneMeshContoursGet", "MRMeshC_2MRContoursCut_8h.html#a7f805ef79874d29a2d5331b91bad585f", null ],
+    [ "mrOneMeshContoursGet", "MRMeshC_2MRContoursCut_8h.html#af582f1017205bcf060516c0522a8d350", null ],
     [ "mrOneMeshContoursSize", "MRMeshC_2MRContoursCut_8h.html#a99a0023d71d1a3e0c5fae4aecdc18427", null ]
 ];

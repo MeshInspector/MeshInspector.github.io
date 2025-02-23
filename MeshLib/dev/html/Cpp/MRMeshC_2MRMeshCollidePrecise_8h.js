@@ -6,7 +6,7 @@ var MRMeshC_2MRMeshCollidePrecise_8h =
     [ "mrEdgeTriEq", "MRMeshC_2MRMeshCollidePrecise_8h.html#a14a2aaa1b7d15e2df267203c0c7e5fec", null ],
     [ "mrFindCollidingEdgeTrisPrecise", "MRMeshC_2MRMeshCollidePrecise_8h.html#afb2ade768dbfafed3074adfe0fc63be5", null ],
     [ "mrGetVectorConverters", "MRMeshC_2MRMeshCollidePrecise_8h.html#a7aa53acb22ab22418acee0d104a77f8f", null ],
-    [ "mrPreciseCollisionResultEdgesAtrisB", "MRMeshC_2MRMeshCollidePrecise_8h.html#a3818032252e258c35323451c4aef96d9", null ],
-    [ "mrPreciseCollisionResultEdgesBtrisA", "MRMeshC_2MRMeshCollidePrecise_8h.html#acfe0241b397440136571d687dc2e89de", null ],
+    [ "mrPreciseCollisionResultEdgesAtrisB", "MRMeshC_2MRMeshCollidePrecise_8h.html#a0a95ce5bb563def955c671f9be9cccf7", null ],
+    [ "mrPreciseCollisionResultEdgesBtrisA", "MRMeshC_2MRMeshCollidePrecise_8h.html#a4dbe73e572c589585952d1166525cbd0", null ],
     [ "mrPreciseCollisionResultFree", "MRMeshC_2MRMeshCollidePrecise_8h.html#ab84bfeb73482028956fb027c134c2e2a", null ]
 ];
