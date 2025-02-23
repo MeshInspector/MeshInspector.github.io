@@ -21,6 +21,7 @@ var group__MeshSubdivideGroup =
       [ "subdivideBorder", "structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc", null ]
     ] ],
     [ "MR::copySubdividePackMesh", "group__MeshSubdivideGroup.html#ga59a37b275037ffc76fab5916f13e6ecb", null ],
-    [ "MR::makeSubdividedObjectMeshData", "group__MeshSubdivideGroup.html#ga9869db86cdf651eae03b806e9afc0c60", null ],
-    [ "MR::subdivideMesh", "group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7", null ]
+    [ "MR::makeSubdividedObjectMeshData", "group__MeshSubdivideGroup.html#gaae0359e17d056447a25f6006c825f2f0", null ],
+    [ "MR::subdivideMesh", "group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7", null ],
+    [ "MR::subdivideMesh", "group__MeshSubdivideGroup.html#gaf0f7ef934651257fe2a70de0eb1f9b8b", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[6,0,1,0,1,698,2],
 "structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[6,0,2,0,1,682,2],
 "structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[6,0,1,0,1,698,0],
 "structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[6,0,2,0,1,682,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19":[6,0,1,0,1,711,1],
 "structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19":[6,0,2,0,1,695,1],
 "structMR_1_1UnitToStringParams.html#ac05c469a00e9e986895d9f12d7ffd44b":[6,0,1,0,1,711,11],
-"structMR_1_1UnitToStringParams.html#ac05c469a00e9e986895d9f12d7ffd44b":[6,0,2,0,1,695,11],
-"structMR_1_1UnitToStringParams.html#ac1da9d705a2210ae748df1e41d865a2a":[6,0,1,0,1,711,9]
+"structMR_1_1UnitToStringParams.html#ac05c469a00e9e986895d9f12d7ffd44b":[6,0,2,0,1,695,11]
 };
