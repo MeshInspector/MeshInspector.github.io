@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194":[6,0,2,0,1,121,6],
+"classMR_1_1ColorMapAggregator.html#a8013c954cb0c8e15e862f18edd0b01c0":[6,0,1,0,1,137,14],
 "classMR_1_1ColorMapAggregator.html#a8013c954cb0c8e15e862f18edd0b01c0":[6,0,2,0,1,121,14],
 "classMR_1_1ColorMapAggregator.html#a9770717c450d8512e0357f181a6b0b34":[6,0,1,0,1,137,5],
 "classMR_1_1ColorMapAggregator.html#a9770717c450d8512e0357f181a6b0b34":[6,0,2,0,1,121,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ConeObject.html#afd3e44ebcd56377cde2ddecee9e57216":[6,0,0,11,0,1,5],
 "classMR_1_1Config.html":[6,0,1,0,1,148],
 "classMR_1_1Config.html":[6,0,2,0,1,132],
-"classMR_1_1Config.html#a1a1c1e3afa9a60434b3b7a17eaa402c4":[6,0,1,0,1,148,3],
-"classMR_1_1Config.html#a1a1c1e3afa9a60434b3b7a17eaa402c4":[6,0,2,0,1,132,3],
-"classMR_1_1Config.html#a264c1a7b8aa598635f2500ae12c29606":[6,0,1,0,1,148,4]
+"classMR_1_1Config.html#a1a1c1e3afa9a60434b3b7a17eaa402c4":[6,0,1,0,1,148,3]
 };

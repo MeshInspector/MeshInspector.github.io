@@ -2,9 +2,9 @@ var classmrmeshpy_1_1DividePolylineParameters =
 [
     [ "__init__", "classmrmeshpy_1_1DividePolylineParameters.html#a7c5efe6a217f57857a383be05785ebe9", null ],
     [ "__init__", "classmrmeshpy_1_1DividePolylineParameters.html#adb2496f3319f79a27183f06f243c2ad9", null ],
-    [ "__init__", "classmrmeshpy_1_1DividePolylineParameters.html#a736fbae5893c1d3d986fc43a9f57ec57", null ],
-    [ "fillAfterCut", "classmrmeshpy_1_1DividePolylineParameters.html#aa11b4859a4d575e791874b8b0d650a59", null ],
-    [ "fillAfterCut", "classmrmeshpy_1_1DividePolylineParameters.html#a41bd4157b29893e03968d40c17004ec7", null ],
+    [ "__init__", "classmrmeshpy_1_1DividePolylineParameters.html#a76f17699d42a8ce4afcc7567d77d2201", null ],
+    [ "closeLineAfterCut", "classmrmeshpy_1_1DividePolylineParameters.html#a79f9af5246a113b0b95d008a33e04a33", null ],
+    [ "closeLineAfterCut", "classmrmeshpy_1_1DividePolylineParameters.html#a9eb1e1be378fd558e623292aa2c070af", null ],
     [ "onEdgeSplitCallback", "classmrmeshpy_1_1DividePolylineParameters.html#ada14ff611e0942671e1374fad1e8166d", null ],
     [ "onEdgeSplitCallback", "classmrmeshpy_1_1DividePolylineParameters.html#aa33aece542c16fa5e7cafeb61575243d", null ],
     [ "otherOutEmap", "classmrmeshpy_1_1DividePolylineParameters.html#a591727c4b0d2811fd020f6f4c8d30dfa", null ],

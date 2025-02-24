@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"MRStacktrace_8h_source.html":[6,0,3,0,0,1,4,332],
+"MRStatePluginUpdate_8h.html":[6,0,3,0,0,1,10,112],
 "MRStatePluginUpdate_8h_source.html":[6,0,3,0,0,1,10,112],
 "MRStatePlugin_8h.html":[6,0,3,0,0,1,10,111],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37":[6,0,3,0,0,1,10,111,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "MRToolPath_8h.html#aefc71807ee4990cf5c50e20c7b8b3e82":[6,0,3,0,0,1,11,25,14],
 "MRToolPath_8h_source.html":[6,0,3,0,0,1,11,25],
 "MRToolbar_8h.html":[6,0,3,0,0,1,10,116],
-"MRToolbar_8h.html#a0ce9bf70afa23e6d6ac9a65c5bf19cf3":[6,0,3,0,0,1,10,116,1],
-"MRToolbar_8h.html#ab7127eaef6bbef972ecd0663dcf8d527":[6,0,3,0,0,1,10,116,2],
-"MRToolbar_8h_source.html":[6,0,3,0,0,1,10,116]
+"MRToolbar_8h.html#a0ce9bf70afa23e6d6ac9a65c5bf19cf3":[6,0,3,0,0,1,10,116,1]
 };

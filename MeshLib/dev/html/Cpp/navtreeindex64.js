@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,2,0,1,139,0],
+"structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,1,0,1,155,1],
+"structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,2,0,1,139,1],
+"structMR_1_1CursorEntranceListener.html":[6,0,1,0,1,157],
 "structMR_1_1CursorEntranceListener.html":[6,0,2,0,1,141],
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,1,0,1,157,1],
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,2,0,1,141,1],
@@ -234,20 +238,16 @@ var NAVTREEINDEX64 =
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,2,0,1,172,6],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,1,0,1,188,2],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,2,0,1,172,2],
-"structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[6,0,1,0,1,188,0],
-"structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[6,0,2,0,1,172,0],
 "structMR_1_1DividePolylineParameters.html#a78d5c2ea44136f73fe510d5950043a30":[6,0,1,0,1,188,5],
 "structMR_1_1DividePolylineParameters.html#a78d5c2ea44136f73fe510d5950043a30":[6,0,2,0,1,172,5],
 "structMR_1_1DividePolylineParameters.html#a980edf71338a26044da6655e80f5d8bd":[6,0,1,0,1,188,1],
 "structMR_1_1DividePolylineParameters.html#a980edf71338a26044da6655e80f5d8bd":[6,0,2,0,1,172,1],
 "structMR_1_1DividePolylineParameters.html#ac9aa163bbc5ba58ba30ce0dc8ba7a644":[6,0,1,0,1,188,3],
 "structMR_1_1DividePolylineParameters.html#ac9aa163bbc5ba58ba30ce0dc8ba7a644":[6,0,2,0,1,172,3],
+"structMR_1_1DividePolylineParameters.html#aec036aa36c10ac45b9ef07682adb3350":[6,0,1,0,1,188,0],
+"structMR_1_1DividePolylineParameters.html#aec036aa36c10ac45b9ef07682adb3350":[6,0,2,0,1,172,0],
 "structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,1,0,1,188,4],
 "structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,2,0,1,172,4],
 "structMR_1_1DoubleOffsetSettings.html":[6,0,1,0,1,189],
-"structMR_1_1DoubleOffsetSettings.html":[6,0,2,0,1,173],
-"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,1,0,1,189,1],
-"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,2,0,1,173,1],
-"structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,1,0,1,189,5],
-"structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,2,0,1,173,5]
+"structMR_1_1DoubleOffsetSettings.html":[6,0,2,0,1,173]
 };

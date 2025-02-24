@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeLabelAction.html#a49b7949dc2497e15510dbf8c51c83e61":[6,0,2,0,1,82,3],
+"classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[6,0,1,0,1,98,1],
 "classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[6,0,2,0,1,82,1],
 "classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,4,2],
 "classMR_1_1ChangeLinesColorMapAction.html#a55aeaa9aea474f11f11d8cd2d9410499":[6,0,0,4,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ColorMapAggregator.html#a5270d3355b43941e705178f4105a9042":[6,0,2,0,1,121,7],
 "classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50":[6,0,1,0,1,137,10],
 "classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50":[6,0,2,0,1,121,10],
-"classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194":[6,0,1,0,1,137,6],
-"classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194":[6,0,2,0,1,121,6],
-"classMR_1_1ColorMapAggregator.html#a8013c954cb0c8e15e862f18edd0b01c0":[6,0,1,0,1,137,14]
+"classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194":[6,0,1,0,1,137,6]
 };

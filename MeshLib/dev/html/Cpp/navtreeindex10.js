@@ -248,6 +248,6 @@ var NAVTREEINDEX10 =
 "MRPolylineTopology_8h_source.html":[6,0,3,0,0,1,4,287],
 "MRPolylineTrimWithPlane_8h.html":[6,0,3,0,0,1,4,288],
 "MRPolylineTrimWithPlane_8h.html#a021c68ef31d7ddce5af4dffb3ebf6bc3":[6,0,3,0,0,1,4,288,1],
-"MRPolylineTrimWithPlane_8h.html#a6054cb385aa068c253443651474ca3e0":[6,0,3,0,0,1,4,288,3],
-"MRPolylineTrimWithPlane_8h.html#ae61b22dea9c3ed4deb8de8c933fc6a3c":[6,0,3,0,0,1,4,288,2]
+"MRPolylineTrimWithPlane_8h.html#a1e14b7efccdf368c6f649270adf4fbc6":[6,0,3,0,0,1,4,288,3],
+"MRPolylineTrimWithPlane_8h.html#aa175288fa2fb892330efe3669b9bd578":[6,0,3,0,0,1,4,288,5]
 };

@@ -4579,12 +4579,16 @@ Functions</h2></td></tr>
 <tr class="separator:ga0bbd08d4c425d1f7af74133abd56be58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7f91969af2bfe0c0487b2811d32925c9" id="r_ga7f91969af2bfe0c0487b2811d32925c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9">subdividePolyline</a> (Polyline3 &amp;polyline, const <a class="el" href="structMR_1_1PolylineSubdivideSettings.html">PolylineSubdivideSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:ga7f91969af2bfe0c0487b2811d32925c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6054cb385aa068c253443651474ca3e0" id="r_a6054cb385aa068c253443651474ca3e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6054cb385aa068c253443651474ca3e0">subdividePolylineWithPlane</a> (Polyline3 &amp;polyline, const Plane3f &amp;plane, std::function&lt; void(EdgeId, EdgeId, float)&gt; onEdgeSplitCallback=nullptr)</td></tr>
-<tr class="separator:a6054cb385aa068c253443651474ca3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65a30e41e9b0e1bb95d4fcf5e87a4e2" id="r_af65a30e41e9b0e1bb95d4fcf5e87a4e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af65a30e41e9b0e1bb95d4fcf5e87a4e2">subdivideWithPlane</a> (Polyline3 &amp;polyline, const Plane3f &amp;plane, EdgeBitSet *newPositiveEdges={}, std::function&lt; void(EdgeId, EdgeId, float)&gt; onEdgeSplitCallback={})</td></tr>
+<tr class="separator:af65a30e41e9b0e1bb95d4fcf5e87a4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e14b7efccdf368c6f649270adf4fbc6" id="r_a1e14b7efccdf368c6f649270adf4fbc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e14b7efccdf368c6f649270adf4fbc6">subdividePolylineWithPlane</a> (Polyline3 &amp;polyline, const Plane3f &amp;plane, std::function&lt; void(EdgeId, EdgeId, float)&gt; onEdgeSplitCallback={})</td></tr>
+<tr class="separator:a1e14b7efccdf368c6f649270adf4fbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa175288fa2fb892330efe3669b9bd578" id="r_aa175288fa2fb892330efe3669b9bd578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa175288fa2fb892330efe3669b9bd578">trimWithPlane</a> (Polyline3 &amp;polyline, const Plane3f &amp;plane, const <a class="el" href="structMR_1_1DividePolylineParameters.html">DividePolylineParameters</a> &amp;params={})</td></tr>
+<tr class="separator:aa175288fa2fb892330efe3669b9bd578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a021c68ef31d7ddce5af4dffb3ebf6bc3" id="r_a021c68ef31d7ddce5af4dffb3ebf6bc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a021c68ef31d7ddce5af4dffb3ebf6bc3">dividePolylineWithPlane</a> (Polyline3 &amp;polyline, const Plane3f &amp;plane, const <a class="el" href="structMR_1_1DividePolylineParameters.html">DividePolylineParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a021c68ef31d7ddce5af4dffb3ebf6bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae61b22dea9c3ed4deb8de8c933fc6a3c" id="r_ae61b22dea9c3ed4deb8de8c933fc6a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgeSegment.html">EdgeSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61b22dea9c3ed4deb8de8c933fc6a3c">extractSectionsFromPolyline</a> (const Polyline3 &amp;polyline, const Plane3f &amp;plane, float eps)</td></tr>
-<tr class="separator:ae61b22dea9c3ed4deb8de8c933fc6a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad412e17ccd41a72db846230e5b0aace9" id="r_ad412e17ccd41a72db846230e5b0aace9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgeSegment.html">EdgeSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad412e17ccd41a72db846230e5b0aace9">extractSectionsFromPolyline</a> (const Polyline3 &amp;polyline, const Plane3f &amp;plane, float eps, UndirectedEdgeBitSet *positiveEdges={})</td></tr>
+<tr class="separator:ad412e17ccd41a72db846230e5b0aace9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17d3251dd9ab06ec842606a4e4225fb2" id="r_a17d3251dd9ab06ec842606a4e4225fb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17d3251dd9ab06ec842606a4e4225fb2">positionVertsSmoothly</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts, <a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> edgeWeightsType=<a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a>, const VertBitSet *fixedSharpVertices=nullptr)</td></tr>
 <tr class="separator:a17d3251dd9ab06ec842606a4e4225fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44cdfa0fa0f605b3ff29d5437e8a93d8" id="r_a44cdfa0fa0f605b3ff29d5437e8a93d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44cdfa0fa0f605b3ff29d5437e8a93d8">positionVertsSmoothlySharpBd</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt; *vertShifts=nullptr, const VertScalars *vertStabilizers=nullptr)</td></tr>
@@ -13665,14 +13669,6 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function divides polyline with a plane </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">polyline</td><td>Input polyline that will be cut by the plane </td></tr>
-    <tr><td class="paramname">plane</td><td>Input plane to cut polyline with </td></tr>
-    <tr><td class="paramname">params</td><td>parameters of the function, contains optional output </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -14605,8 +14601,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ae61b22dea9c3ed4deb8de8c933fc6a3c" name="ae61b22dea9c3ed4deb8de8c933fc6a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae61b22dea9c3ed4deb8de8c933fc6a3c">&#9670;&#160;</a></span>extractSectionsFromPolyline()</h2>
+<a id="ad412e17ccd41a72db846230e5b0aace9" name="ad412e17ccd41a72db846230e5b0aace9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad412e17ccd41a72db846230e5b0aace9">&#9670;&#160;</a></span>extractSectionsFromPolyline()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -14624,17 +14620,23 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>eps</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>eps</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>positiveEdges</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function cuts polyline with a plane </p><dl class="section return"><dt>Returns</dt><dd>Edge segments tha are closer to the plane than</dd></dl>
+<p>This function cuts polyline with a plane </p><dl class="section return"><dt>Returns</dt><dd>Edge segments that are closer to the plane than</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">eps</td><td></td></tr>
     <tr><td class="paramname">polyline</td><td>Input polyline that will be cut by the plane </td></tr>
     <tr><td class="paramname">plane</td><td>Input plane to cut polyline with </td></tr>
     <tr><td class="paramname">eps</td><td>Maximal distance from the plane </td></tr>
+    <tr><td class="paramname">positiveEdges</td><td>Edges in a positive half-space relative to the plane (only adds bits to the existing ones) </td></tr>
   </table>
   </dd>
 </dl>
@@ -30623,14 +30625,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a6054cb385aa068c253443651474ca3e0" name="a6054cb385aa068c253443651474ca3e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6054cb385aa068c253443651474ca3e0">&#9670;&#160;</a></span>subdividePolylineWithPlane()</h2>
+<a id="a1e14b7efccdf368c6f649270adf4fbc6" name="a1e14b7efccdf368c6f649270adf4fbc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e14b7efccdf368c6f649270adf4fbc6">&#9670;&#160;</a></span>subdividePolylineWithPlane()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeBitSet MR::subdividePolylineWithPlane </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet MR::subdividePolylineWithPlane </td>
           <td>(</td>
           <td class="paramtype">Polyline3 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>
@@ -30642,24 +30644,15 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void(EdgeId, EdgeId, float)&gt;</td>          <td class="paramname"><span class="paramname"><em>onEdgeSplitCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">std::function&lt; void(EdgeId, EdgeId, float)&gt;</td>          <td class="paramname"><span class="paramname"><em>onEdgeSplitCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function splits edges intersected by the plane </p><dl class="section return"><dt>Returns</dt><dd>New edges with origin on the plane and oriented to the positive direction </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">polyline</td><td>Input polyline that will be cut by the plane </td></tr>
-    <tr><td class="paramname">plane</td><td>Input plane to cut polyline with </td></tr>
-    <tr><td class="paramname">onEdgeSplitCallback</td><td>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
 <a id="a7600509b91ab7f6d7ed6fa1b8c7844a2" name="a7600509b91ab7f6d7ed6fa1b8c7844a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7600509b91ab7f6d7ed6fa1b8c7844a2">&#9670;&#160;</a></span>subdivideWithPlane()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7600509b91ab7f6d7ed6fa1b8c7844a2">&#9670;&#160;</a></span>subdivideWithPlane() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -30696,6 +30689,47 @@ template&lt;typename T &gt; </div>
   <table class="params">
     <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) </td></tr>
     <tr><td class="paramname">eps</td><td>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones </td></tr>
+    <tr><td class="paramname">onEdgeSplitCallback</td><td>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af65a30e41e9b0e1bb95d4fcf5e87a4e2" name="af65a30e41e9b0e1bb95d4fcf5e87a4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af65a30e41e9b0e1bb95d4fcf5e87a4e2">&#9670;&#160;</a></span>subdivideWithPlane() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet MR::subdivideWithPlane </td>
+          <td>(</td>
+          <td class="paramtype">Polyline3 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Plane3f &amp;</td>          <td class="paramname"><span class="paramname"><em>plane</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>newPositiveEdges</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(EdgeId, EdgeId, float)&gt;</td>          <td class="paramname"><span class="paramname"><em>onEdgeSplitCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function splits edges intersected by the plane </p><dl class="section return"><dt>Returns</dt><dd>edges located above the plane (in direction of normal to plane) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">polyline</td><td>Input polyline that will be cut by the plane </td></tr>
+    <tr><td class="paramname">plane</td><td>Input plane to cut polyline with </td></tr>
+    <tr><td class="paramname">newPositiveEdges</td><td>edges with origin on the plane and oriented to the positive direction (only adds bits to the existing ones) </td></tr>
     <tr><td class="paramname">onEdgeSplitCallback</td><td>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex </td></tr>
   </table>
   </dd>
@@ -31568,7 +31602,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a78e47a236b40c37e37f62d6571c3f1b4" name="a78e47a236b40c37e37f62d6571c3f1b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78e47a236b40c37e37f62d6571c3f1b4">&#9670;&#160;</a></span>trimWithPlane() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e47a236b40c37e37f62d6571c3f1b4">&#9670;&#160;</a></span>trimWithPlane() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -31622,7 +31656,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ae11b2e799c8ac0a4a0308bdf021b1600" name="ae11b2e799c8ac0a4a0308bdf021b1600"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae11b2e799c8ac0a4a0308bdf021b1600">&#9670;&#160;</a></span>trimWithPlane() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11b2e799c8ac0a4a0308bdf021b1600">&#9670;&#160;</a></span>trimWithPlane() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -31676,7 +31710,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a8adf5f7ec5a447160198b2612ddb0b11" name="a8adf5f7ec5a447160198b2612ddb0b11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8adf5f7ec5a447160198b2612ddb0b11">&#9670;&#160;</a></span>trimWithPlane() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8adf5f7ec5a447160198b2612ddb0b11">&#9670;&#160;</a></span>trimWithPlane() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -31705,6 +31739,40 @@ template&lt;typename T &gt; </div>
     <tr><td class="paramname">mesh</td><td>Input mesh that will be cut </td></tr>
     <tr><td class="paramname">params</td><td>stores basic params for trimWithPlane function </td></tr>
     <tr><td class="paramname">optOut</td><td>stores optional output params for trimWithPlane function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa175288fa2fb892330efe3669b9bd578" name="aa175288fa2fb892330efe3669b9bd578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa175288fa2fb892330efe3669b9bd578">&#9670;&#160;</a></span>trimWithPlane() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::trimWithPlane </td>
+          <td>(</td>
+          <td class="paramtype">Polyline3 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Plane3f &amp;</td>          <td class="paramname"><span class="paramname"><em>plane</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DividePolylineParameters.html">DividePolylineParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function divides polyline with a plane, leaving only part of polyline that lies in positive direction of normal </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">polyline</td><td>Input polyline that will be cut by the plane </td></tr>
+    <tr><td class="paramname">plane</td><td>Input plane to cut polyline with </td></tr>
+    <tr><td class="paramname">params</td><td>Parameters of the function, containing optional output </td></tr>
   </table>
   </dd>
 </dl>
