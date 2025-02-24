@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486":[6,0,0,8,5,7],
+"structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289":[6,0,0,8,5,5],
 "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a":[6,0,0,8,5,9],
 "structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df":[6,0,0,8,5,6],
 "structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12":[6,0,0,8,5,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,2,0,1,138,0],
 "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,1,0,1,154,1],
 "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,2,0,1,138,1],
-"structMR_1_1CoordinateConverters2.html":[6,0,1,0,1,155],
-"structMR_1_1CoordinateConverters2.html":[6,0,2,0,1,139],
-"structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,1,0,1,155,0]
+"structMR_1_1CoordinateConverters2.html":[6,0,1,0,1,155]
 };

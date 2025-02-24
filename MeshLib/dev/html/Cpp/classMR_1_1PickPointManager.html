@@ -216,6 +216,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd198214161345e35723084cbe16222f" id="r_afd198214161345e35723084cbe16222f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::shared_ptr&lt; <a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd198214161345e35723084cbe16222f">getPointWidget</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int index) const</td></tr>
 <tr class="memdesc:afd198214161345e35723084cbe16222f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns point widget by index from given object or nullptr if no such widget exists  <br /></td></tr>
 <tr class="separator:afd198214161345e35723084cbe16222f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5293eb3d7c9e32d1534443a4eaadd070" id="r_a5293eb3d7c9e32d1534443a4eaadd070"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5293eb3d7c9e32d1534443a4eaadd070">getPointIndex</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, <a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> &amp;pointWidget) const</td></tr>
+<tr class="memdesc:a5293eb3d7c9e32d1534443a4eaadd070"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns index of given point widget on given object or -1 if this widget is not from given object  <br /></td></tr>
+<tr class="separator:a5293eb3d7c9e32d1534443a4eaadd070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61baa844efa1ebb8a509db54e7fa814c" id="r_a61baa844efa1ebb8a509db54e7fa814c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61baa844efa1ebb8a509db54e7fa814c">draggedPointWidget</a> () const</td></tr>
 <tr class="memdesc:a61baa844efa1ebb8a509db54e7fa814c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns point widget currently dragged by mouse  <br /></td></tr>
 <tr class="separator:a61baa844efa1ebb8a509db54e7fa814c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -468,6 +471,37 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the state of this </p>
+
+</div>
+</div>
+<a id="a5293eb3d7c9e32d1534443a4eaadd070" name="a5293eb3d7c9e32d1534443a4eaadd070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5293eb3d7c9e32d1534443a4eaadd070">&#9670;&#160;</a></span>getPointIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API int MR::PickPointManager::getPointIndex </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pointWidget</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns index of given point widget on given object or -1 if this widget is not from given object </p>
 
 </div>
 </div>
