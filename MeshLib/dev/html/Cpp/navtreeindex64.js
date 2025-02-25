@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,2,0,1,138,0],
+"structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,1,0,1,154,1],
 "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,2,0,1,138,1],
 "structMR_1_1CoordinateConverters2.html":[6,0,1,0,1,155],
 "structMR_1_1CoordinateConverters2.html":[6,0,2,0,1,139],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DividePolylineParameters.html#a980edf71338a26044da6655e80f5d8bd":[6,0,1,0,1,188,1],
 "structMR_1_1DividePolylineParameters.html#a980edf71338a26044da6655e80f5d8bd":[6,0,2,0,1,172,1],
 "structMR_1_1DividePolylineParameters.html#ac9aa163bbc5ba58ba30ce0dc8ba7a644":[6,0,1,0,1,188,3],
-"structMR_1_1DividePolylineParameters.html#ac9aa163bbc5ba58ba30ce0dc8ba7a644":[6,0,2,0,1,172,3],
-"structMR_1_1DividePolylineParameters.html#aec036aa36c10ac45b9ef07682adb3350":[6,0,1,0,1,188,0],
-"structMR_1_1DividePolylineParameters.html#aec036aa36c10ac45b9ef07682adb3350":[6,0,2,0,1,172,0]
+"structMR_1_1DividePolylineParameters.html#ac9aa163bbc5ba58ba30ce0dc8ba7a644":[6,0,2,0,1,172,3]
 };

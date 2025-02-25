@@ -222,11 +222,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a61baa844efa1ebb8a509db54e7fa814c" id="r_a61baa844efa1ebb8a509db54e7fa814c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61baa844efa1ebb8a509db54e7fa814c">draggedPointWidget</a> () const</td></tr>
 <tr class="memdesc:a61baa844efa1ebb8a509db54e7fa814c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns point widget currently dragged by mouse  <br /></td></tr>
 <tr class="separator:a61baa844efa1ebb8a509db54e7fa814c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a718234a5f034161f8d44e4aade1cad20" id="r_a718234a5f034161f8d44e4aade1cad20"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718234a5f034161f8d44e4aade1cad20">appendPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;triPoint)</td></tr>
-<tr class="memdesc:a718234a5f034161f8d44e4aade1cad20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a point to the end of non closed contour connected with obj.  <br /></td></tr>
-<tr class="separator:a718234a5f034161f8d44e4aade1cad20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc1d89eb8ced08dda3c665c25ef17d63" id="r_adc1d89eb8ced08dda3c665c25ef17d63"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1d89eb8ced08dda3c665c25ef17d63">insertPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int index, const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;triPoint)</td></tr>
-<tr class="separator:adc1d89eb8ced08dda3c665c25ef17d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af959eff3b4eda34f1ac7a97272444c8e" id="r_af959eff3b4eda34f1ac7a97272444c8e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af959eff3b4eda34f1ac7a97272444c8e">appendPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;triPoint, bool startDragging=false)</td></tr>
+<tr class="separator:af959eff3b4eda34f1ac7a97272444c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c3091306f572deb4b8f46b6fe4c87f" id="r_a02c3091306f572deb4b8f46b6fe4c87f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02c3091306f572deb4b8f46b6fe4c87f">insertPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int index, const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;triPoint, bool startDragging=false)</td></tr>
+<tr class="separator:a02c3091306f572deb4b8f46b6fe4c87f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4b283d6f473e8f7b894b329c3af11d" id="r_a9c4b283d6f473e8f7b894b329c3af11d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c4b283d6f473e8f7b894b329c3af11d">removePoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int pickedIndex)</td></tr>
 <tr class="memdesc:a9c4b283d6f473e8f7b894b329c3af11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove point with pickedIndex index from contour connected with obj.  <br /></td></tr>
 <tr class="separator:a9c4b283d6f473e8f7b894b329c3af11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,8 +366,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a718234a5f034161f8d44e4aade1cad20" name="a718234a5f034161f8d44e4aade1cad20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a718234a5f034161f8d44e4aade1cad20">&#9670;&#160;</a></span>appendPoint()</h2>
+<a id="af959eff3b4eda34f1ac7a97272444c8e" name="af959eff3b4eda34f1ac7a97272444c8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af959eff3b4eda34f1ac7a97272444c8e">&#9670;&#160;</a></span>appendPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,12 +380,21 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>triPoint</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>triPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>startDragging</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Add a point to the end of non closed contour connected with obj. </p>
+<p>Add a point to the end of non closed contour connected with obj </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startDragging</td><td>if true then new point widget is immediately made draggable by mouse, please be sure that mouse is over new point and is down </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -592,8 +600,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adc1d89eb8ced08dda3c665c25ef17d63" name="adc1d89eb8ced08dda3c665c25ef17d63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc1d89eb8ced08dda3c665c25ef17d63">&#9670;&#160;</a></span>insertPoint()</h2>
+<a id="a02c3091306f572deb4b8f46b6fe4c87f" name="a02c3091306f572deb4b8f46b6fe4c87f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c3091306f572deb4b8f46b6fe4c87f">&#9670;&#160;</a></span>insertPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -611,13 +619,19 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>triPoint</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>triPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>startDragging</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Inserts a point into contour connected with obj </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>point index before which to insert new point </td></tr>
+    <tr><td class="paramname">startDragging</td><td>if true then new point widget is immediately made draggable by mouse, please be sure that mouse is over new point and is down </td></tr>
   </table>
   </dd>
 </dl>

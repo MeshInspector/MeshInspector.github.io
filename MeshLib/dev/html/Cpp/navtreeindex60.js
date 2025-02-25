@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[6,0,1,0,1,3,0,2],
+"namespacemembers.html":[6,0,1,1,0],
 "namespacemembers.html":[6,0,1,1,0,0],
 "namespacemembers_b.html":[6,0,1,1,0,1],
 "namespacemembers_c.html":[6,0,1,1,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMRICPProperties.html#ae0d73485e14b9caf033279eb35df4670":[6,0,2,0,25,9],
 "structMRICPProperties.html#af361f47102e347876690d8afb088ed69":[6,0,2,0,25,3],
 "structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de":[6,0,2,0,25,2],
-"structMRMakeCylinderAdvancedParameters.html":[6,0,2,0,26],
-"structMRMakeCylinderAdvancedParameters.html#a0a2bbfeff4fd96db2794c19bb68db9d1":[6,0,2,0,26,4],
-"structMRMakeCylinderAdvancedParameters.html#a11e439c476c5588f13f203c6c44ac55d":[6,0,2,0,26,1]
+"structMRMakeCylinderAdvancedParameters.html":[6,0,2,0,26]
 };
