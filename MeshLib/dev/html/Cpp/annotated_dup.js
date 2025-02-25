@@ -289,6 +289,8 @@ var annotated_dup =
       [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html", "classMR_1_1ChangeXfAction" ],
       [ "ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", "classMR_1_1ChangVoxelSelectionAction" ],
       [ "CharPressedListener", "structMR_1_1CharPressedListener.html", "structMR_1_1CharPressedListener" ],
+      [ "Chunk", "structMR_1_1Chunk.html", "structMR_1_1Chunk" ],
+      [ "ChunkIterator", "structMR_1_1ChunkIterator.html", "structMR_1_1ChunkIterator" ],
       [ "CircleObject", "classMR_1_1CircleObject.html", "classMR_1_1CircleObject" ],
       [ "CloudPartMapping", "structMR_1_1CloudPartMapping.html", "structMR_1_1CloudPartMapping" ],
       [ "CmpOld", "structMR_1_1CmpOld.html", null ],

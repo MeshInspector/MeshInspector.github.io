@@ -66,10 +66,11 @@ var searchData=
   ['isvisualizemaskenum_5fpointsvisualizepropertytype_63',['IsVisualizeMaskEnum_PointsVisualizePropertyType',['.././Py/classmrmeshpy_1_1IsVisualizeMaskEnum__PointsVisualizePropertyType.html',1,'mrmeshpy']]],
   ['isvisualizemaskenum_5fvisualizemasktype_64',['IsVisualizeMaskEnum_VisualizeMaskType',['.././Py/classmrmeshpy_1_1IsVisualizeMaskEnum__VisualizeMaskType.html',1,'mrmeshpy']]],
   ['iteratorrange_65',['IteratorRange',['.././Cpp/structMR_1_1IteratorRange.html',1,'MR']]],
-  ['iteratorrange_5fpolylineundirectededgeiterator_66',['IteratorRange_PolylineUndirectedEdgeIterator',['.././Py/classmrmeshpy_1_1IteratorRange__PolylineUndirectedEdgeIterator.html',1,'mrmeshpy']]],
-  ['iteratorrange_5fringiterator_5fnextedgesameleft_67',['IteratorRange_RingIterator_NextEdgeSameLeft',['.././Py/classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html',1,'mrmeshpy']]],
-  ['iteratorrange_5fringiterator_5fnextedgesameorigin_68',['IteratorRange_RingIterator_NextEdgeSameOrigin',['.././Py/classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html',1,'mrmeshpy']]],
-  ['iteratorrange_5fundirectededgeiterator_69',['IteratorRange_UndirectedEdgeIterator',['.././Py/classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html',1,'mrmeshpy']]],
-  ['itransformcontrols_70',['ITransformControls',['.././Cpp/classMR_1_1ITransformControls.html',1,'MR']]],
-  ['iviewersettingsmanager_71',['IViewerSettingsManager',['.././Cpp/classMR_1_1IViewerSettingsManager.html',1,'MR']]]
+  ['iteratorrange_5fchunkiterator_66',['IteratorRange_ChunkIterator',['.././Py/classmrmeshpy_1_1IteratorRange__ChunkIterator.html',1,'mrmeshpy']]],
+  ['iteratorrange_5fpolylineundirectededgeiterator_67',['IteratorRange_PolylineUndirectedEdgeIterator',['.././Py/classmrmeshpy_1_1IteratorRange__PolylineUndirectedEdgeIterator.html',1,'mrmeshpy']]],
+  ['iteratorrange_5fringiterator_5fnextedgesameleft_68',['IteratorRange_RingIterator_NextEdgeSameLeft',['.././Py/classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html',1,'mrmeshpy']]],
+  ['iteratorrange_5fringiterator_5fnextedgesameorigin_69',['IteratorRange_RingIterator_NextEdgeSameOrigin',['.././Py/classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html',1,'mrmeshpy']]],
+  ['iteratorrange_5fundirectededgeiterator_70',['IteratorRange_UndirectedEdgeIterator',['.././Py/classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html',1,'mrmeshpy']]],
+  ['itransformcontrols_71',['ITransformControls',['.././Cpp/classMR_1_1ITransformControls.html',1,'MR']]],
+  ['iviewersettingsmanager_72',['IViewerSettingsManager',['.././Cpp/classMR_1_1IViewerSettingsManager.html',1,'MR']]]
 ];

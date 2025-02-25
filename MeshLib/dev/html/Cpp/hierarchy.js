@@ -181,6 +181,8 @@ var hierarchy =
       [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
       [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]
     ] ],
+    [ "MR::Chunk", "structMR_1_1Chunk.html", null ],
+    [ "MR::ChunkIterator", "structMR_1_1ChunkIterator.html", null ],
     [ "MR::CloudPartMapping", "structMR_1_1CloudPartMapping.html", null ],
     [ "MR::CmpOld", "structMR_1_1CmpOld.html", null ],
     [ "MR::CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ],

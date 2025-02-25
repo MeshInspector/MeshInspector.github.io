@@ -14,7 +14,7 @@ var searchData=
   ['planesection_11',['PlaneSection',['../../Cpp/namespaceMR.html#a92cbbca830da255a9350ce63a48f49c3',1,'MR']]],
   ['planesections_12',['PlaneSections',['../../Cpp/namespaceMR.html#a5e21b52bde652c1330fdd745ee2ccbbc',1,'MR']]],
   ['pluginparent_13',['PluginParent',['../../Cpp/classMR_1_1StateListenerPlugin.html#a1f068c2aecefbd45559101aca348aca3',1,'MR::StateListenerPlugin']]],
-  ['pointer_14',['pointer',['../../Cpp/classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba',1,'MR::SetBitIteratorT']]],
+  ['pointer_14',['pointer',['../../Cpp/structMR_1_1ChunkIterator.html#a71077fda29daec0ad1dfb91af33ab1d9',1,'MR::ChunkIterator::pointer'],['../../Cpp/classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba',1,'MR::SetBitIteratorT::pointer']]],
   ['pointinallspaces_15',['PointInAllSpaces',['../../Cpp/classMR_1_1Viewer.html#ae11f6202a72dd7403332a471e5aced7e',1,'MR::Viewer']]],
   ['pointsfileloader_16',['PointsFileLoader',['../../Cpp/namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868',1,'MR::PointsLoad']]],
   ['pointsfilesaver_17',['PointsFileSaver',['../../Cpp/namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba',1,'MR::PointsSave']]],

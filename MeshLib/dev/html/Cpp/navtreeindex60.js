@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1VoxelsSave.html#a0f1cbd074f33c0c8f5dcda546829153b":[6,0,1,0,1,41,7],
+"namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,1,41,1],
+"namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,1,41,5],
+"namespaceMR_1_1VoxelsSave.html#af18166aaab350552a2f824a43c6faef9":[6,0,1,0,1,41,6],
+"namespaceMR_1_1detail.html":[6,0,1,0,1,3],
+"namespaceMR_1_1detail_1_1Units.html":[6,0,1,0,1,3,0],
 "namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[6,0,1,0,1,3,0,2],
 "namespacemembers.html":[6,0,1,1,0],
 "namespacemembers.html":[6,0,1,1,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "structMRICPProperties.html#a27741c61220a9d8a833b03f4354cf9d6":[6,0,2,0,25,0],
 "structMRICPProperties.html#a2e7b2a199320af5a6d96b01ab388564e":[6,0,2,0,25,8],
 "structMRICPProperties.html#a3f48a94ed67f67bf7d0b65d62add2d0a":[6,0,2,0,25,6],
-"structMRICPProperties.html#a88912841f4a73c5941ddc87fac934139":[6,0,2,0,25,4],
-"structMRICPProperties.html#a93094df050def819f5582b2327011b50":[6,0,2,0,25,7],
-"structMRICPProperties.html#abc69dd3c0d8015e675a498bfa51c4169":[6,0,2,0,25,10],
-"structMRICPProperties.html#ae0d73485e14b9caf033279eb35df4670":[6,0,2,0,25,9],
-"structMRICPProperties.html#af361f47102e347876690d8afb088ed69":[6,0,2,0,25,3],
-"structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de":[6,0,2,0,25,2],
-"structMRMakeCylinderAdvancedParameters.html":[6,0,2,0,26]
+"structMRICPProperties.html#a88912841f4a73c5941ddc87fac934139":[6,0,2,0,25,4]
 };

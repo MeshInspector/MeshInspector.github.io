@@ -469,6 +469,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CharPressedListener.html">CharPressedListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Chunk.html">Chunk</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">array chunk representation  <a href="structMR_1_1Chunk.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ChunkIterator.html">ChunkIterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator class for array chunks  <a href="structMR_1_1ChunkIterator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CircleObject.html">CircleObject</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CloudPartMapping.html">CloudPartMapping</a></td></tr>
@@ -3082,6 +3088,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ab5fd6e1a390fa8c05a8ad7006709dbf2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BMap.html">BMap</a>&lt; T, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab5fd6e1a390fa8c05a8ad7006709dbf2">compose</a> (const <a class="el" href="structMR_1_1BMap.html">BMap</a>&lt; T, T &gt; &amp;a, const <a class="el" href="structMR_1_1BMap.html">BMap</a>&lt; T, T &gt; &amp;b)</td></tr>
 <tr class="memdesc:ab5fd6e1a390fa8c05a8ad7006709dbf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the composition of two mappings x -&gt; a(b(x))  <br /></td></tr>
 <tr class="separator:ab5fd6e1a390fa8c05a8ad7006709dbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c0ea65a2e2e413656ee06b11483e16" id="r_a44c0ea65a2e2e413656ee06b11483e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44c0ea65a2e2e413656ee06b11483e16">chunkCount</a> (size_t totalSize, size_t chunkSize, size_t overlap=0)</td></tr>
+<tr class="memdesc:a44c0ea65a2e2e413656ee06b11483e16"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of chunks of given size required to cover the full array  <br /></td></tr>
+<tr class="separator:a44c0ea65a2e2e413656ee06b11483e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07cd1a9d21a19c74c8634fe0cc567a17" id="r_a07cd1a9d21a19c74c8634fe0cc567a17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1IteratorRange.html">IteratorRange</a>&lt; <a class="el" href="structMR_1_1ChunkIterator.html">ChunkIterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cd1a9d21a19c74c8634fe0cc567a17">splitByChunks</a> (size_t totalSize, size_t chunkSize, size_t overlap=0)</td></tr>
+<tr class="memdesc:a07cd1a9d21a19c74c8634fe0cc567a17"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a pair of iterators for chunks covering the array of given size  <br /></td></tr>
+<tr class="separator:a07cd1a9d21a19c74c8634fe0cc567a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02de87b02beba8a1ce3c03e425646045" id="r_a02de87b02beba8a1ce3c03e425646045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02de87b02beba8a1ce3c03e425646045">findSmallestCloseVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float closeDist, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:a02de87b02beba8a1ce3c03e425646045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89fc2fa34c591add37820e2a281513f8" id="r_a89fc2fa34c591add37820e2a281513f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89fc2fa34c591add37820e2a281513f8">findSmallestCloseVertices</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float closeDist, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
@@ -11941,6 +11953,34 @@ template&lt;typename GridT &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>return true if the smallest rotation from vector (a-c) to vector (b-c) is in counter-clock-wise direction; uses simulation-of-simplicity to avoid "vectors are collinear" </p>
+
+</div>
+</div>
+<a id="a44c0ea65a2e2e413656ee06b11483e16" name="a44c0ea65a2e2e413656ee06b11483e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c0ea65a2e2e413656ee06b11483e16">&#9670;&#160;</a></span>chunkCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::chunkCount </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>totalSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>chunkSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>overlap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the amount of chunks of given size required to cover the full array </p>
 
 </div>
 </div>
@@ -30467,6 +30507,34 @@ template&lt;typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07cd1a9d21a19c74c8634fe0cc567a17" name="a07cd1a9d21a19c74c8634fe0cc567a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07cd1a9d21a19c74c8634fe0cc567a17">&#9670;&#160;</a></span>splitByChunks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1IteratorRange.html">IteratorRange</a>&lt; <a class="el" href="structMR_1_1ChunkIterator.html">ChunkIterator</a> &gt; MR::splitByChunks </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>totalSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>chunkSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>overlap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns a pair of iterators for chunks covering the array of given size </p>
 
 </div>
 </div>

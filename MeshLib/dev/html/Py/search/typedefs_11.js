@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['reference_0',['reference',['../../Cpp/classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e',1,'MR::Buffer::reference'],['../../Cpp/classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367',1,'MR::SetBitIteratorT::reference'],['../../Cpp/classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff',1,'MR::Vector::reference']]],
+  ['reference_0',['reference',['../../Cpp/classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e',1,'MR::Buffer::reference'],['../../Cpp/structMR_1_1ChunkIterator.html#af99ba138aa910783abd6301c80706164',1,'MR::ChunkIterator::reference'],['../../Cpp/classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367',1,'MR::SetBitIteratorT::reference'],['../../Cpp/classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff',1,'MR::Vector::reference']]],
   ['regulargridlatticepositioner_1',['RegularGridLatticePositioner',['../../Cpp/namespaceMR.html#a4d79ee45f0088d8ef788b1d7dabc72a6',1,'MR']]],
   ['regulargridlatticevalidator_2',['RegularGridLatticeValidator',['../../Cpp/namespaceMR.html#a1c3671ae104a3e05c4c521d25a4bab13',1,'MR']]],
   ['regulargridmeshfacevalidator_3',['RegularGridMeshFaceValidator',['../../Cpp/namespaceMR.html#a972aa33f2723ecfd1a0f7b41ff77a113',1,'MR']]],
