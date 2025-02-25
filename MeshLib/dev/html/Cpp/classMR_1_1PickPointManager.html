@@ -225,6 +225,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a718234a5f034161f8d44e4aade1cad20" id="r_a718234a5f034161f8d44e4aade1cad20"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718234a5f034161f8d44e4aade1cad20">appendPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;triPoint)</td></tr>
 <tr class="memdesc:a718234a5f034161f8d44e4aade1cad20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a point to the end of non closed contour connected with obj.  <br /></td></tr>
 <tr class="separator:a718234a5f034161f8d44e4aade1cad20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1d89eb8ced08dda3c665c25ef17d63" id="r_adc1d89eb8ced08dda3c665c25ef17d63"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1d89eb8ced08dda3c665c25ef17d63">insertPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int index, const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;triPoint)</td></tr>
+<tr class="separator:adc1d89eb8ced08dda3c665c25ef17d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4b283d6f473e8f7b894b329c3af11d" id="r_a9c4b283d6f473e8f7b894b329c3af11d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c4b283d6f473e8f7b894b329c3af11d">removePoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int pickedIndex)</td></tr>
 <tr class="memdesc:a9c4b283d6f473e8f7b894b329c3af11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove point with pickedIndex index from contour connected with obj.  <br /></td></tr>
 <tr class="separator:a9c4b283d6f473e8f7b894b329c3af11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -587,6 +589,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>return all contours, i.e. per object unorderd_map of ordered surface points [vector]. </p>
+
+</div>
+</div>
+<a id="adc1d89eb8ced08dda3c665c25ef17d63" name="adc1d89eb8ced08dda3c665c25ef17d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1d89eb8ced08dda3c665c25ef17d63">&#9670;&#160;</a></span>insertPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::PickPointManager::insertPoint </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>triPoint</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a point into contour connected with obj </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>point index before which to insert new point </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

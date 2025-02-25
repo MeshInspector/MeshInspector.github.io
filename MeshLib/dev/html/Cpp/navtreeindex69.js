@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,1,0,1,277,0,1],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,2,0,1,261,0,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html":[6,0,1,0,1,277,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html":[6,0,2,0,1,261,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html#a45a67d011a2849b95f0531f732a0df8c":[6,0,1,0,1,277,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,2,0,1,7,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,1,0,1,15,0,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,2,0,1,7,0,0],
-"structMR_1_1LoadedObjectT.html":[6,0,1,0,1,316],
-"structMR_1_1LoadedObjectT.html":[6,0,2,0,1,300],
-"structMR_1_1LoadedObjectT.html#aa8b42b98f6528509e4c4fe107fe6545a":[6,0,1,0,1,316,0]
+"structMR_1_1LoadedObjectT.html":[6,0,1,0,1,316]
 };

@@ -19,6 +19,7 @@ var classMR_1_1PickPointManager =
     [ "getPointWidget", "classMR_1_1PickPointManager.html#afd198214161345e35723084cbe16222f", null ],
     [ "getSurfaceContour", "classMR_1_1PickPointManager.html#affe00e5ad2a8edc2c7e2551996ca4c22", null ],
     [ "getSurfaceContours", "classMR_1_1PickPointManager.html#a7785cb6ce3cab3d064b6c20f07958cf3", null ],
+    [ "insertPoint", "classMR_1_1PickPointManager.html#adc1d89eb8ced08dda3c665c25ef17d63", null ],
     [ "isClosedCountour", "classMR_1_1PickPointManager.html#aead9be191022d11da51d4eb2f8127735", null ],
     [ "removePoint", "classMR_1_1PickPointManager.html#a9c4b283d6f473e8f7b894b329c3af11d", null ],
     [ "setFullState", "classMR_1_1PickPointManager.html#acba6697c62cf417cb8b8ed078a6a1288", null ],
