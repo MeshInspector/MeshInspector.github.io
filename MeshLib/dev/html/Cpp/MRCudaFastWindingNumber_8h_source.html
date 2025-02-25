@@ -165,13 +165,13 @@ $(function(){initNavTree('MRCudaFastWindingNumber_8h_source.html',''); initResiz
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>Cuda</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>FastWindingNumberData;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>FastWindingNumberDataBuffers;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1Cuda_1_1FastWindingNumber.html">   17</a></span><span class="keyword">class </span>MRCUDA_CLASS <a class="code hl_class" href="classMR_1_1Cuda_1_1FastWindingNumber.html">FastWindingNumber</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh_;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    std::shared_ptr&lt;FastWindingNumberData&gt; data_;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    std::shared_ptr&lt;FastWindingNumberDataBuffers&gt; data_;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63">   24</a></span>    MRCUDA_API <a class="code hl_function" href="classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63">FastWindingNumber</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh );</div>
