@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[6,0,2,0,1,15,1,2],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,1,0,1,26,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,2,0,1,15,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,1,0,1,26,1,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,1,15,1,1],
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,1,0,1,26,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,2,0,1,15,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,1,0,1,26,2,0],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,2,0,1,15,2,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,1,0,1,508,1],
 "structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,2,0,1,492,1],
 "structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,1,0,1,508,0],
-"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,2,0,1,492,0],
-"structMR_1_1ProgressInterrupter.html":[6,0,1,0,1,511],
-"structMR_1_1ProgressInterrupter.html":[6,0,2,0,1,495],
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,1,0,1,511,1],
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,2,0,1,495,1],
-"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[6,0,1,0,1,511,2],
-"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[6,0,2,0,1,495,2]
+"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,2,0,1,492,0]
 };

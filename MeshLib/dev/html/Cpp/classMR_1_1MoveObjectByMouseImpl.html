@@ -202,8 +202,14 @@ Protected Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab6d3e7b0abe5c50bba244801249e7ed5" id="r_ab6d3e7b0abe5c50bba244801249e7ed5"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d3e7b0abe5c50bba244801249e7ed5">pick_</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifiers, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, Vector3f &amp;centerPoint, Vector3f &amp;startPoint)</td></tr>
-<tr class="separator:ab6d3e7b0abe5c50bba244801249e7ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd71d54a7a59f0650a2a8eefb8935fb2" id="r_afd71d54a7a59f0650a2a8eefb8935fb2"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API <a class="el" href="namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd71d54a7a59f0650a2a8eefb8935fb2">pickObjects_</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, int modifiers)</td></tr>
+<tr class="separator:afd71d54a7a59f0650a2a8eefb8935fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e20b52806e68a9a14a9f4ba2cbfa2d" id="r_a73e20b52806e68a9a14a9f4ba2cbfa2d"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73e20b52806e68a9a14a9f4ba2cbfa2d">modeFromPick_</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifiers)</td></tr>
+<tr class="memdesc:a73e20b52806e68a9a14a9f4ba2cbfa2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called from <code>onMouseDown</code> to verify if pick should proceed, if None is returned - <code>onMouseDown</code> is canceled  <br /></td></tr>
+<tr class="separator:a73e20b52806e68a9a14a9f4ba2cbfa2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc3672d1c2b2465b6e63c937d8ab69b1" id="r_afc3672d1c2b2465b6e63c937d8ab69b1"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc3672d1c2b2465b6e63c937d8ab69b1">setStartPoint_</a> (const <a class="el" href="namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">ObjAndPick</a> &amp;pick, Vector3f &amp;startPoint)</td></tr>
+<tr class="memdesc:afc3672d1c2b2465b6e63c937d8ab69b1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>startPoint</code> - a point under cursor for transform calculation, can be the picked point or else (world coordinates)  <br /></td></tr>
+<tr class="separator:afc3672d1c2b2465b6e63c937d8ab69b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b9a12600f13df92315c665178457113" id="r_a3b9a12600f13df92315c665178457113"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9a12600f13df92315c665178457113">getBbox_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects)</td></tr>
 <tr class="separator:a3b9a12600f13df92315c665178457113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -434,6 +440,37 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a73e20b52806e68a9a14a9f4ba2cbfa2d" name="a73e20b52806e68a9a14a9f4ba2cbfa2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e20b52806e68a9a14a9f4ba2cbfa2d">&#9670;&#160;</a></span>modeFromPick_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> MR::MoveObjectByMouseImpl::modeFromPick_ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this function is called from <code>onMouseDown</code> to verify if pick should proceed, if None is returned - <code>onMouseDown</code> is canceled </p>
+
+</div>
+</div>
 <a id="a36378bb5833ffad19034fffa718f4507" name="a36378bb5833ffad19034fffa718f4507"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36378bb5833ffad19034fffa718f4507">&#9670;&#160;</a></span>onDrawDialog()</h2>
 
@@ -516,8 +553,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab6d3e7b0abe5c50bba244801249e7ed5" name="ab6d3e7b0abe5c50bba244801249e7ed5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6d3e7b0abe5c50bba244801249e7ed5">&#9670;&#160;</a></span>pick_()</h2>
+<a id="afd71d54a7a59f0650a2a8eefb8935fb2" name="afd71d54a7a59f0650a2a8eefb8935fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd71d54a7a59f0650a2a8eefb8935fb2">&#9670;&#160;</a></span>pickObjects_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -526,29 +563,14 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> MR::MoveObjectByMouseImpl::pick_ </td>
+          <td class="memname">virtual MRVIEWER_API <a class="el" href="namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">ObjAndPick</a> MR::MoveObjectByMouseImpl::pickObjects_ </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>centerPoint</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>startPoint</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -557,7 +579,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called from <code>onMouseDown</code> Returns chosen <code>TransformMode</code> to start transformation, <code>None</code> to skip; fills the output parameters: <code>objects</code> - list of objects to be affected by transformation <code>centerPoint</code> - center point for rotation (world coordinates) <code>startPoint</code> - a point under cursor for transform calculation, can be the picked point or else (world coordinates) Default implementation can be used as a reference for custom implementations </p>
+<p>This function is called from <code>onMouseMove</code> to update current active objects <code>objects</code> - list of objects to be affected by transformation </p>
 
 </div>
 </div>
@@ -583,6 +605,37 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc3672d1c2b2465b6e63c937d8ab69b1" name="afc3672d1c2b2465b6e63c937d8ab69b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc3672d1c2b2465b6e63c937d8ab69b1">&#9670;&#160;</a></span>setStartPoint_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::MoveObjectByMouseImpl::setStartPoint_ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">ObjAndPick</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pick</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>startPoint</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>startPoint</code> - a point under cursor for transform calculation, can be the picked point or else (world coordinates) </p>
 
 </div>
 </div>

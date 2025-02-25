@@ -1,5 +1,11 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c":[6,0,0,5,5,9],
+"structMR_1_1DistanceMapToWorld.html#a74d96fa90a47e012874bf6708e586545":[6,0,0,5,5,4],
+"structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74":[6,0,0,5,5,7],
+"structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742":[6,0,0,5,5,5],
+"structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[6,0,0,5,5,10],
+"structMR_1_1DistanceMapToWorld.html#aee6ea73dd4b8ce002eaa164c6d5e45f5":[6,0,0,5,5,1],
 "structMR_1_1DistanceToMeshOptions.html":[6,0,1,0,1,187],
 "structMR_1_1DistanceToMeshOptions.html":[6,0,2,0,1,171],
 "structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9":[6,0,1,0,1,187,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,1,189,0],
 "structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[6,0,1,0,1,205,0,1],
 "structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[6,0,2,0,1,189,0,1],
-"structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,1,0,1,205,0,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,2,0,1,189,0,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[6,0,1,0,1,205,0,2],
-"structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[6,0,2,0,1,189,0,2],
-"structMR_1_1EmbeddedStructureParameters.html":[6,0,1,0,1,206],
-"structMR_1_1EmbeddedStructureParameters.html":[6,0,2,0,1,190],
-"structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[6,0,1,0,1,206,0]
+"structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,1,0,1,205,0,0]
 };

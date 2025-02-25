@@ -401,9 +401,7 @@ var menudata={children:[
 {text:"t",url:"globals_vars.html#index_t"},
 {text:"v",url:"globals_vars.html#index_v"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
-{text:"c",url:"globals_type.html#index_c"},
 {text:"m",url:"globals_type.html#index_m"},
-{text:"o",url:"globals_type.html#index_o"},
 {text:"s",url:"globals_type.html#index_s"}]},
 {text:"Enumerations",url:"globals_enum.html"},
 {text:"Enumerator",url:"globals_eval.html",children:[

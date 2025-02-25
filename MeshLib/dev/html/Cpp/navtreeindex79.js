@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,1,0,1,609,2],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,2,0,1,593,2],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,1,0,1,609,1],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,2,0,1,593,1],
+"structMR_1_1SelfIntersections_1_1Settings.html":[6,0,1,0,1,35,0],
+"structMR_1_1SelfIntersections_1_1Settings.html":[6,0,2,0,1,21,0],
 "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[6,0,1,0,1,35,0,5],
 "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[6,0,2,0,1,21,0,5],
 "structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[6,0,1,0,1,35,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
 "structMR_1_1StopOnTrueCombiner.html":[6,0,1,0,1,651],
 "structMR_1_1StopOnTrueCombiner.html":[6,0,2,0,1,635],
-"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,1,0,1,651,1],
-"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,2,0,1,635,1],
-"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,1,0,1,651,0],
-"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,2,0,1,635,0],
-"structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
-"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[6,0,0,9,7,0,7],
-"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[6,0,0,9,7,0,4]
+"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,1,0,1,651,1]
 };

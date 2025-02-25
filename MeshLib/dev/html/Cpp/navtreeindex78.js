@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,1,0,1,553,2],
+"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,1,537,2],
+"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,1,0,1,553,3],
+"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,1,537,3],
+"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,553,4],
+"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,2,0,1,537,4],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,1,0,1,560,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,2,0,1,544,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,1,0,1,560,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,609],
 "structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,1,593],
 "structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,1,0,1,609,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,1,593,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,1,0,1,609,2],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,2,0,1,593,2],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,1,0,1,609,1],
-"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,2,0,1,593,1],
-"structMR_1_1SelfIntersections_1_1Settings.html":[6,0,1,0,1,35,0],
-"structMR_1_1SelfIntersections_1_1Settings.html":[6,0,2,0,1,21,0]
+"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,1,593,0]
 };

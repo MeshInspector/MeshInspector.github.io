@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ConeFittingFunctor.html#ad11690cdf0c6a6de76d2859de79fa518":[6,0,2,0,1,132,3],
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[6,0,1,0,1,148,2],
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[6,0,2,0,1,132,2],
+"structMR_1_1ConnectionHolder.html":[6,0,1,0,1,151],
+"structMR_1_1ConnectionHolder.html":[6,0,2,0,1,135],
+"structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,1,0,1,151,2],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,2,0,1,135,2],
 "structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,1,0,1,151,0],
 "structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,2,0,1,135,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[6,0,0,5,5,0],
 "structMR_1_1DistanceMapToWorld.html#a32e6a45804b42ebcebd70500b984bc2a":[6,0,0,5,5,8],
 "structMR_1_1DistanceMapToWorld.html#a45d71d4ab5dd33dbd4ef7b7b6eb16468":[6,0,0,5,5,2],
-"structMR_1_1DistanceMapToWorld.html#a58ecb87a75e584402ddd3420513d89df":[6,0,0,5,5,3],
-"structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c":[6,0,0,5,5,9],
-"structMR_1_1DistanceMapToWorld.html#a74d96fa90a47e012874bf6708e586545":[6,0,0,5,5,4],
-"structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74":[6,0,0,5,5,7],
-"structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742":[6,0,0,5,5,5],
-"structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[6,0,0,5,5,10],
-"structMR_1_1DistanceMapToWorld.html#aee6ea73dd4b8ce002eaa164c6d5e45f5":[6,0,0,5,5,1]
+"structMR_1_1DistanceMapToWorld.html#a58ecb87a75e584402ddd3420513d89df":[6,0,0,5,5,3]
 };

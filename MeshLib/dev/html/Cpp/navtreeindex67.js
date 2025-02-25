@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1FileDialogSignals.html#acb55f29975140538d4f83ab34ad6416e":[6,0,2,0,1,203,8],
+"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,1,0,1,219,1],
+"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,2,0,1,203,1],
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,1,0,1,219,0],
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,2,0,1,203,0],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,1,0,1,219,3],
 "structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,203,3],
 "structMR_1_1FileLoadOptions.html":[6,0,1,0,1,220],
 "structMR_1_1FileLoadOptions.html":[6,0,2,0,1,204],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0af14de12b788d5fd679e1e5d2875b95f4":[6,0,2,0,1,239,0,2],
 "structMR_1_1GridSettings.html#a790adf53fc23a7b8fe0be9674ebb70af":[6,0,1,0,1,255,3],
 "structMR_1_1GridSettings.html#a790adf53fc23a7b8fe0be9674ebb70af":[6,0,2,0,1,239,3],
-"structMR_1_1GridSettings.html#ab5b3ed30ff4dde0622d5d2fb4c2213d8":[6,0,1,0,1,255,5],
-"structMR_1_1GridSettings.html#ab5b3ed30ff4dde0622d5d2fb4c2213d8":[6,0,2,0,1,239,5],
-"structMR_1_1GridSettings.html#aeb3dd9e9c7f4ea93ddd4aea1b4afc61c":[6,0,1,0,1,255,4],
-"structMR_1_1GridSettings.html#aeb3dd9e9c7f4ea93ddd4aea1b4afc61c":[6,0,2,0,1,239,4],
-"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685":[6,0,1,0,1,255,1],
-"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685":[6,0,2,0,1,239,1],
-"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec":[6,0,1,0,1,255,1,1]
+"structMR_1_1GridSettings.html#ab5b3ed30ff4dde0622d5d2fb4c2213d8":[6,0,1,0,1,255,5]
 };

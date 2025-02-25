@@ -2272,6 +2272,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab03e30b3d478dc602964140a67391c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af677bfbbed9f6c283d0a3101b5e91aea" id="r_af677bfbbed9f6c283d0a3101b5e91aea"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af677bfbbed9f6c283d0a3101b5e91aea">ViewerEventCallback</a> = std::function&lt;void()&gt;</td></tr>
 <tr class="separator:af677bfbbed9f6c283d0a3101b5e91aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7080d56b73b285dc9afd120e1bc1ff71" id="r_a7080d56b73b285dc9afd120e1bc1ff71"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7080d56b73b285dc9afd120e1bc1ff71">ObjAndPick</a> = std::pair&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;</td></tr>
+<tr class="separator:a7080d56b73b285dc9afd120e1bc1ff71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823106cad6887745b09385757b15b82e" id="r_a823106cad6887745b09385757b15b82e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823106cad6887745b09385757b15b82e">ConstObjAndPick</a> = std::pair&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;</td></tr>
+<tr class="separator:a823106cad6887745b09385757b15b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af79e59969dc38af8f99d87b8d80385f2" id="r_af79e59969dc38af8f99d87b8d80385f2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af79e59969dc38af8f99d87b8d80385f2">VoxelPointPositioner</a> = std::function&lt;Vector3f( const Vector3f&amp;, const Vector3f&amp;, float, float, float )&gt;</td></tr>
 <tr class="separator:af79e59969dc38af8f99d87b8d80385f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9381161a7388eeabb33982f4df1cf1c3" id="r_a9381161a7388eeabb33982f4df1cf1c3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9381161a7388eeabb33982f4df1cf1c3">MeshOnVoxelsVdb</a> = <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a>&lt;<a class="el" href="structMR_1_1Mesh.html">Mesh</a>, VdbVolume&gt;</td></tr>
@@ -6640,6 +6644,20 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a823106cad6887745b09385757b15b82e" name="a823106cad6887745b09385757b15b82e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a823106cad6887745b09385757b15b82e">&#9670;&#160;</a></span>ConstObjAndPick</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a823106cad6887745b09385757b15b82e">MR::ConstObjAndPick</a> = std::pair&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2b8ccb3570748a421671351b81855a84" name="a2b8ccb3570748a421671351b81855a84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b8ccb3570748a421671351b81855a84">&#9670;&#160;</a></span>ContinuousContour</h2>
 
@@ -7796,6 +7814,20 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#a6c80d0a515c43e830301ff170377a44e">MR::NotificationTagMask</a> = unsigned</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7080d56b73b285dc9afd120e1bc1ff71" name="a7080d56b73b285dc9afd120e1bc1ff71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7080d56b73b285dc9afd120e1bc1ff71">&#9670;&#160;</a></span>ObjAndPick</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a7080d56b73b285dc9afd120e1bc1ff71">MR::ObjAndPick</a> = std::pair&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
