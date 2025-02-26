@@ -12504,12 +12504,11 @@ by adding new vertices located in given plane and 2 * number_of_hole_edge triang
       </table>
 </div><div class="memdoc">
 <pre class="fragment">This function cuts polyline with a plane
-\\details plane cuts an edge if one end of the edge is below the plane and the other is not
-\\return Edge segments that are closer to the plane than \\param eps. Segments are oriented according by plane normal ( segment.a &lt;= segment.b)
+\\return Edge segments that are closer to the plane than \\param eps
 \\param polyline Input polyline that will be cut by the plane
 \\param plane Input plane to cut polyline with
 \\param eps Maximal distance from the plane
-\\param positiveEdges Edges in a positive half-space relative to the plane or on the plane itself (only adds bits to the existing ones)
+\\param positiveEdges Edges in a positive half-space relative to the plane (only adds bits to the existing ones)
 </pre> 
 </div>
 </div>
