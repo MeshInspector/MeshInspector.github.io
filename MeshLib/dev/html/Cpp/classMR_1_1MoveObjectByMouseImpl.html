@@ -193,10 +193,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
-<tr class="memitem:a4e5180c9fe4f3ff399794c4a640b500a" id="r_a4e5180c9fe4f3ff399794c4a640b500a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> { <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754">None</a>
+<tr class="memitem:a4e5180c9fe4f3ff399794c4a640b500a" id="r_a4e5180c9fe4f3ff399794c4a640b500a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> { <br />
+&#160;&#160;<a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754">None</a>
 , <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c">Translation</a>
 , <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a">Rotation</a>
-, <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa85a7cd587d6142dbfc1a4de05af7b75d">Scale</a>
+, <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7">UniformScale</a>
+, <br />
+&#160;&#160;<a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa5a2f9ea34c787f321f36dfeb41b837fb">NonUniformScale</a>
+<br />
  }</td></tr>
 <tr class="memdesc:a4e5180c9fe4f3ff399794c4a640b500a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation mode.  <a href="#a4e5180c9fe4f3ff399794c4a640b500a">More...</a><br /></td></tr>
 <tr class="separator:a4e5180c9fe4f3ff399794c4a640b500a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +225,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ada61b8ab8617465251bf6b1f36c1d782" id="r_ada61b8ab8617465251bf6b1f36c1d782"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada61b8ab8617465251bf6b1f36c1d782">deadZonePixelRadius_</a> { 20.0f }</td></tr>
 <tr class="separator:ada61b8ab8617465251bf6b1f36c1d782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb167ed72d4e0abf3fd5ebc2bf23acc6" id="r_adb167ed72d4e0abf3fd5ebc2bf23acc6"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb167ed72d4e0abf3fd5ebc2bf23acc6">currentXf_</a></td></tr>
+<tr class="separator:adb167ed72d4e0abf3fd5ebc2bf23acc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to incorporate basic object transformation feature into plugins User can move objects by dragging them, rotate by dragging with Ctrl key; scaling is disabled by default To use, create class instance and call its event handlers For extra features, override the <code>pick_</code> method </p>
@@ -250,7 +256,8 @@ Protected Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754" name="a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c" name="a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c"></a>Translation&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a" name="a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a"></a>Rotation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa85a7cd587d6142dbfc1a4de05af7b75d" name="a4e5180c9fe4f3ff399794c4a640b500aa85a7cd587d6142dbfc1a4de05af7b75d"></a>Scale&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7" name="a4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7"></a>UniformScale&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa5a2f9ea34c787f321f36dfeb41b837fb" name="a4e5180c9fe4f3ff399794c4a640b500aa5a2f9ea34c787f321f36dfeb41b837fb"></a>NonUniformScale&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -676,6 +683,28 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="adb167ed72d4e0abf3fd5ebc2bf23acc6" name="adb167ed72d4e0abf3fd5ebc2bf23acc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb167ed72d4e0abf3fd5ebc2bf23acc6">&#9670;&#160;</a></span>currentXf_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AffineXf3f MR::MoveObjectByMouseImpl::currentXf_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ada61b8ab8617465251bf6b1f36c1d782" name="ada61b8ab8617465251bf6b1f36c1d782"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada61b8ab8617465251bf6b1f36c1d782">&#9670;&#160;</a></span>deadZonePixelRadius_</h2>
 

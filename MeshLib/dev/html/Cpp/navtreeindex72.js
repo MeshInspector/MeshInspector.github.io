@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1MeshLoadSettings.html":[6,0,1,0,1,344],
+"structMR_1_1MeshLoadSettings.html":[6,0,2,0,1,328],
+"structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,1,0,1,344,2],
+"structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,2,0,1,328,2],
 "structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,1,0,1,344,6],
 "structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,2,0,1,328,6],
 "structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc":[6,0,1,0,1,344,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,1,0,1,369,1],
 "structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,2,0,1,353,1],
 "structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,1,0,1,369,0],
-"structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,2,0,1,353,0],
-"structMR_1_1ModelPointsData.html":[6,0,1,0,1,370],
-"structMR_1_1ModelPointsData.html":[6,0,2,0,1,354],
-"structMR_1_1ModelPointsData.html#a28af87bed47360152c4d30cff182595b":[6,0,1,0,1,370,2],
-"structMR_1_1ModelPointsData.html#a28af87bed47360152c4d30cff182595b":[6,0,2,0,1,354,2]
+"structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,2,0,1,353,0]
 };

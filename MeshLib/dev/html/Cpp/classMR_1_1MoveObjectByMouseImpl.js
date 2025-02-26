@@ -4,7 +4,8 @@ var classMR_1_1MoveObjectByMouseImpl =
       [ "None", "classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Translation", "classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c", null ],
       [ "Rotation", "classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a", null ],
-      [ "Scale", "classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aa85a7cd587d6142dbfc1a4de05af7b75d", null ]
+      [ "UniformScale", "classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7", null ],
+      [ "NonUniformScale", "classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aa5a2f9ea34c787f321f36dfeb41b837fb", null ]
     ] ],
     [ "MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html#a38667d92b4c0a5c674ae3984e4887601", null ],
     [ "~MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html#a1efc181844c96d8927ff6e49ea0139bf", null ],
@@ -23,5 +24,6 @@ var classMR_1_1MoveObjectByMouseImpl =
     [ "pickObjects_", "classMR_1_1MoveObjectByMouseImpl.html#a4634374908c348c3436bbbbc7a8571f0", null ],
     [ "setMinDistance", "classMR_1_1MoveObjectByMouseImpl.html#aa3df927c144669a86b1cbaba22fa36ac", null ],
     [ "setStartPoint_", "classMR_1_1MoveObjectByMouseImpl.html#acb585eb1c444459ffe5c95d7b0db381e", null ],
+    [ "currentXf_", "classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6", null ],
     [ "deadZonePixelRadius_", "classMR_1_1MoveObjectByMouseImpl.html#ada61b8ab8617465251bf6b1f36c1d782", null ]
 ];
