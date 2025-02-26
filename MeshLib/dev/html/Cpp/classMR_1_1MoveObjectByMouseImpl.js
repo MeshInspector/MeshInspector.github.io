@@ -10,16 +10,18 @@ var classMR_1_1MoveObjectByMouseImpl =
     [ "~MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html#a1efc181844c96d8927ff6e49ea0139bf", null ],
     [ "cancel", "classMR_1_1MoveObjectByMouseImpl.html#aad8cb7773d35560f8b4469f293cbd169", null ],
     [ "enableHistory", "classMR_1_1MoveObjectByMouseImpl.html#a7de4136fb42f0c74d8c8f56b3e7e7254", null ],
-    [ "getBbox_", "classMR_1_1MoveObjectByMouseImpl.html#a3b9a12600f13df92315c665178457113", null ],
+    [ "getBbox_", "classMR_1_1MoveObjectByMouseImpl.html#a32b8f295b15b40dffc3f103110e9d1b6", null ],
     [ "isHistoryEnabled", "classMR_1_1MoveObjectByMouseImpl.html#af6ca6c34829bccce1c38a2f30f793b99", null ],
     [ "isMoving", "classMR_1_1MoveObjectByMouseImpl.html#a6f7401692f7a4fc4b54c9a588eb04165", null ],
     [ "minDistance", "classMR_1_1MoveObjectByMouseImpl.html#a8ed871e4f43e2c23e6b2cfb9aae9b0ae", null ],
-    [ "modeFromPick_", "classMR_1_1MoveObjectByMouseImpl.html#a73e20b52806e68a9a14a9f4ba2cbfa2d", null ],
+    [ "modeFromPick_", "classMR_1_1MoveObjectByMouseImpl.html#a8d4fb97994485132ccb6214d20ec2041", null ],
+    [ "modeFromPickModifiers_", "classMR_1_1MoveObjectByMouseImpl.html#a1c00c84e0c80219e1fa10b926a82cf91", null ],
     [ "onDrawDialog", "classMR_1_1MoveObjectByMouseImpl.html#a36378bb5833ffad19034fffa718f4507", null ],
     [ "onMouseDown", "classMR_1_1MoveObjectByMouseImpl.html#a540598c4c8004c75d894fa4e63f90694", null ],
     [ "onMouseMove", "classMR_1_1MoveObjectByMouseImpl.html#a3932fa9a5384b09c3fd4b7f7179697c6", null ],
     [ "onMouseUp", "classMR_1_1MoveObjectByMouseImpl.html#a4516bc68a71f976621ce71dff17b7837", null ],
-    [ "pickObjects_", "classMR_1_1MoveObjectByMouseImpl.html#afd71d54a7a59f0650a2a8eefb8935fb2", null ],
+    [ "pickObjects_", "classMR_1_1MoveObjectByMouseImpl.html#a4634374908c348c3436bbbbc7a8571f0", null ],
     [ "setMinDistance", "classMR_1_1MoveObjectByMouseImpl.html#aa3df927c144669a86b1cbaba22fa36ac", null ],
-    [ "setStartPoint_", "classMR_1_1MoveObjectByMouseImpl.html#afc3672d1c2b2465b6e63c937d8ab69b1", null ]
+    [ "setStartPoint_", "classMR_1_1MoveObjectByMouseImpl.html#acb585eb1c444459ffe5c95d7b0db381e", null ],
+    [ "deadZonePixelRadius_", "classMR_1_1MoveObjectByMouseImpl.html#ada61b8ab8617465251bf6b1f36c1d782", null ]
 ];

@@ -1,5 +1,9 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,1,0,1,702,0],
+"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,2,0,1,686,0],
+"structMR_1_1UiRenderParams.html#ae7aebd36b4266bd1203eaf71259d12bc":[6,0,1,0,1,702,1],
+"structMR_1_1UiRenderParams.html#ae7aebd36b4266bd1203eaf71259d12bc":[6,0,2,0,1,686,1],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html":[6,0,0,1,12],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[6,0,0,1,12,4],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524":[6,0,0,1,12,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,1,0,1,725,1],
 "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,2,0,1,709,1],
 "structMR_1_1VertDistance.html":[6,0,0,16,2,0],
-"structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2],
-"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[6,0,0,16,2,0,1],
-"structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145":[6,0,0,16,2,0,3],
-"structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[6,0,0,16,2,0,0],
-"structMR_1_1VertPathInfo.html":[6,0,0,16,5]
+"structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2]
 };

@@ -396,7 +396,7 @@ var searchData=
   ['setstabilizer_393',['setStabilizer',['../../Py/classmrmeshpy_1_1FreeFormBestFit.html#ab87f326cd1a976f95696f85920ec6f24',1,'mrmeshpy::FreeFormBestFit::setStabilizer()'],['../classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c',1,'MR::FreeFormBestFit::setStabilizer()']]],
   ['setstartmodifycallback_394',['setStartModifyCallback',['../classMR_1_1ObjectTransformWidget.html#a2d16d1f66d6e6a84e9ca9d18e68d2a03',1,'MR::ObjectTransformWidget']]],
   ['setstartmovecallback_395',['setStartMoveCallback',['../classMR_1_1SurfacePointWidget.html#acf861cead782987809b2abb5be8d1c62',1,'MR::SurfacePointWidget']]],
-  ['setstartpoint_5f_396',['setStartPoint_',['../classMR_1_1MoveObjectByMouseImpl.html#afc3672d1c2b2465b6e63c937d8ab69b1',1,'MR::MoveObjectByMouseImpl']]],
+  ['setstartpoint_5f_396',['setStartPoint_',['../classMR_1_1MoveObjectByMouseImpl.html#acb585eb1c444459ffe5c95d7b0db381e',1,'MR::MoveObjectByMouseImpl']]],
   ['setstate_397',['setState',['../classMR_1_1CommandLoop.html#a90822eccec894fc827de4d60e5b6285b',1,'MR::CommandLoop']]],
   ['setstopmodifycallback_398',['setStopModifyCallback',['../classMR_1_1ObjectTransformWidget.html#a955e4e19a2da3a72cc42d41baaa73ad2',1,'MR::ObjectTransformWidget']]],
   ['setsubfeaturealphalines_399',['setSubfeatureAlphaLines',['../../Py/classmrmeshpy_1_1FeatureObject.html#a3a61fc447facbe3a8c21ddd5207e0e41',1,'mrmeshpy::FeatureObject::setSubfeatureAlphaLines()'],['../classMR_1_1FeatureObject.html#a2da9794b73ce4ddae136ccb8992cc690',1,'MR::FeatureObject::setSubfeatureAlphaLines()']]],
