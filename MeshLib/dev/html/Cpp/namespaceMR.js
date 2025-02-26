@@ -1887,7 +1887,7 @@ var namespaceMR =
     [ "fillHoleNicely", "namespaceMR.html#a336e1461bdc97f5a14465c6571e7f492", null ],
     [ "fillHoles", "group__FillHoleGroup.html#ga826414470e5289e2dfba2496f06d98ae", null ],
     [ "fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ],
-    [ "fillPlanarHole", "namespaceMR.html#a9db90042f0f44bff905c49b8a0d692af", null ],
+    [ "fillPlanarHole", "namespaceMR.html#aa46523a0e53c329900fc28bdd021efb9", null ],
     [ "filterCreaseEdges", "namespaceMR.html#af323676e5a2bf779fb0700037ad648da", null ],
     [ "filterHistoryActionsVector", "namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804", null ],
     [ "FilterHistoryByCondition", "namespaceMR.html#af5e79c83f968cdf915fac0d9a5136768", null ],

@@ -1513,7 +1513,7 @@ var mrmeshpy_8pyi =
     [ "fillHoleNicely", "mrmeshpy_8pyi.html#a28a597ca032cfa3c87bb22da3c4b4481", null ],
     [ "fillHoles", "mrmeshpy_8pyi.html#a1353c36f0c520a8f4ee9fd2fb3816a51", null ],
     [ "fillHoleTrivially", "mrmeshpy_8pyi.html#a50f4f0766461e6857babd6c340819186", null ],
-    [ "fillPlanarHole", "mrmeshpy_8pyi.html#a62ab581d95d02a0bc57f7b11508470e4", null ],
+    [ "fillPlanarHole", "mrmeshpy_8pyi.html#a9795eba8d644eb0390d1517c1839a633", null ],
     [ "filterCreaseEdges", "mrmeshpy_8pyi.html#a1a7d8442a53690e50c8d9458d1d78600", null ],
     [ "filterHistoryActionsVector", "mrmeshpy_8pyi.html#a5c8fe7dea25f6941b9d37d14279d0f4a", null ],
     [ "findAlphaShapeAllTriangles", "mrmeshpy_8pyi.html#a6e45b235a410cabb779bbc9473f44117", null ],

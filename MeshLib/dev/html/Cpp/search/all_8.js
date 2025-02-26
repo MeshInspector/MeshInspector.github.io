@@ -117,7 +117,7 @@ var searchData=
   ['fillholes_114',['fillHoles',['../../Py/namespacemrmeshpy.html#a1353c36f0c520a8f4ee9fd2fb3816a51',1,'mrmeshpy::fillHoles()'],['../group__FillHoleGroup.html#ga826414470e5289e2dfba2496f06d98ae',1,'MR::fillHoles()']]],
   ['fillholetrivially_115',['fillHoleTrivially',['../../Py/namespacemrmeshpy.html#a50f4f0766461e6857babd6c340819186',1,'mrmeshpy::fillHoleTrivially()'],['../group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722',1,'MR::fillHoleTrivially()']]],
   ['filling_20holes_116',['Filling Holes',['../../ExampleMeshFillHole.html',1,'']]],
-  ['fillplanarhole_117',['fillPlanarHole',['../../Py/namespacemrmeshpy.html#a62ab581d95d02a0bc57f7b11508470e4',1,'mrmeshpy::fillPlanarHole()'],['../namespaceMR.html#a9db90042f0f44bff905c49b8a0d692af',1,'MR::fillPlanarHole(ObjectMesh &amp;obj, std::vector&lt; EdgeLoop &gt; &amp;holeContours)']]],
+  ['fillplanarhole_117',['fillPlanarHole',['../../Py/namespacemrmeshpy.html#a9795eba8d644eb0390d1517c1839a633',1,'mrmeshpy::fillPlanarHole()'],['../namespaceMR.html#aa46523a0e53c329900fc28bdd021efb9',1,'MR::fillPlanarHole(ObjectMeshData &amp;data, std::vector&lt; EdgeLoop &gt; &amp;holeContours)']]],
   ['filltrianglemetric_118',['FillTriangleMetric',['../group__FillHoleGroup.html#ga9a2b22c68476e1176c0f8a8f43542611',1,'MR']]],
   ['fillviewport_119',['fillViewport',['../classMR_1_1ViewportGL.html#a35ccca6814c2d2d405ce84f40381147c',1,'MR::ViewportGL']]],
   ['filter_120',['Filter',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a',1,'MR::HistoryStore']]],
