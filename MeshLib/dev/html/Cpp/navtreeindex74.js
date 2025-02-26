@@ -1,5 +1,9 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,2,0,1,410,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,1,0,1,427],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,2,0,1,411],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,1,0,1,427,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,2,0,1,411,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,1,0,1,428],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,2,0,1,412],
@@ -245,9 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#a8a3bbfef3276f1831b2a645909a93a94":[6,0,2,0,1,436,0,2],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af373a60a30b69ecccf117ed007327929":[6,0,1,0,1,452,0,0],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af373a60a30b69ecccf117ed007327929":[6,0,2,0,1,436,0,0],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af7f58457a6816a15728067d8fb9ae549":[6,0,1,0,1,452,0,1],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af7f58457a6816a15728067d8fb9ae549":[6,0,2,0,1,436,0,1],
-"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,1,0,1,452,1],
-"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,2,0,1,436,1],
-"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#a276059ffbe521f7edd753194e8ed98e2":[6,0,1,0,1,452,1,1]
+"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af7f58457a6816a15728067d8fb9ae549":[6,0,1,0,1,452,0,1]
 };

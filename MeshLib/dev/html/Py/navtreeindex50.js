@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#af96273b1fe9625a776c19b87259f4106":[6,1,0,0,2,517,16],
+"classmrmeshpy_1_1NodeBitSet.html#af96273b1fe9625a776c19b87259f4106":[6,1,1,0,1,517,16],
+"classmrmeshpy_1_1NodeId.html":[6,1,0,0,2,531],
+"classmrmeshpy_1_1NodeId.html":[6,1,1,0,1,531],
 "classmrmeshpy_1_1NodeId.html#a001daef1baf1cdeb7fed8b28b86a1b74":[6,1,0,0,2,531,19],
 "classmrmeshpy_1_1NodeId.html#a001daef1baf1cdeb7fed8b28b86a1b74":[6,1,1,0,1,531,19],
 "classmrmeshpy_1_1NodeId.html#a099a77c2ffe1a2e8cb64fb003d51ab66":[6,1,0,0,2,531,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a33488a70e3b6eed474e41896e862a7fc":[6,1,1,0,1,558,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a33488a70e3b6eed474e41896e862a7fc":[6,1,1,0,1,558,2],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a982e38e876ecac7e2dce4935075ba73a":[6,1,0,0,2,558,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a982e38e876ecac7e2dce4935075ba73a":[6,1,1,0,1,558,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[6,1,0,0,2,559],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[6,1,1,0,1,559],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[6,1,0,0,2,559,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[6,1,1,0,1,559,1]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a982e38e876ecac7e2dce4935075ba73a":[6,1,1,0,1,558,1]
 };
