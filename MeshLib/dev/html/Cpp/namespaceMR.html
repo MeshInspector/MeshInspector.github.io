@@ -14701,14 +14701,15 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function cuts polyline with a plane </p><dl class="section return"><dt>Returns</dt><dd>Edge segments that are closer to the plane than</dd></dl>
+<p>This function cuts polyline with a plane</p>
+<p>plane cuts an edge if one end of the edge is below the plane and the other is not </p><dl class="section return"><dt>Returns</dt><dd>Edge segments that are closer to the plane than</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">eps</td><td></td></tr>
+    <tr><td class="paramname">eps.</td><td>Segments are oriented according by plane normal ( segment.a &lt;= segment.b) </td></tr>
     <tr><td class="paramname">polyline</td><td>Input polyline that will be cut by the plane </td></tr>
     <tr><td class="paramname">plane</td><td>Input plane to cut polyline with </td></tr>
     <tr><td class="paramname">eps</td><td>Maximal distance from the plane </td></tr>
-    <tr><td class="paramname">positiveEdges</td><td>Edges in a positive half-space relative to the plane (only adds bits to the existing ones) </td></tr>
+    <tr><td class="paramname">positiveEdges</td><td>Edges in a positive half-space relative to the plane or on the plane itself (only adds bits to the existing ones) </td></tr>
   </table>
   </dd>
 </dl>
