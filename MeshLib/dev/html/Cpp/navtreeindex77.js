@@ -1,5 +1,13 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2f62f5b7f2a9603d6968d202367602e8":[6,0,2,0,1,489,0,3],
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[6,0,1,0,1,505,0,0],
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[6,0,2,0,1,489,0,0],
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[6,0,1,0,1,505,0,1],
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[6,0,2,0,1,489,0,1],
+"structMR_1_1PreciseCollisionResult.html":[6,0,0,1,17],
+"structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f":[6,0,0,1,17,1],
+"structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2":[6,0,0,1,17,0],
 "structMR_1_1PreciseVertCoords.html":[6,0,1,0,1,507],
 "structMR_1_1PreciseVertCoords.html":[6,0,2,0,1,491],
 "structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[6,0,1,0,1,507,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,1,0,1,550,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,2,0,1,534,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,1,0,1,550,4],
-"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,2,0,1,534,4],
-"structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,1,0,1,550,0],
-"structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,2,0,1,534,0],
-"structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[6,0,1,0,1,550,6],
-"structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[6,0,2,0,1,534,6],
-"structMR_1_1ResolveMeshDegenSettings.html#abc665fb972e64aa14c3aaed55f8254b6":[6,0,1,0,1,550,3],
-"structMR_1_1ResolveMeshDegenSettings.html#abc665fb972e64aa14c3aaed55f8254b6":[6,0,2,0,1,534,3],
-"structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,1,0,1,550,5],
-"structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,2,0,1,534,5]
+"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,2,0,1,534,4]
 };

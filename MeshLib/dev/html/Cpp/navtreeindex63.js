@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,2,0,1,58,8],
+"structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d":[6,0,1,0,1,74,5],
+"structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d":[6,0,2,0,1,58,5],
+"structMR_1_1BindVertexAttribArraySettings.html#ae5e71ac65ba00245ac2ee44f35f33168":[6,0,1,0,1,74,4],
+"structMR_1_1BindVertexAttribArraySettings.html#ae5e71ac65ba00245ac2ee44f35f33168":[6,0,2,0,1,58,4],
+"structMR_1_1BooleanInternalParameters.html":[6,0,0,8,1],
+"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,1],
+"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,0],
 "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,2],
 "structMR_1_1BooleanParameters.html":[6,0,1,0,1,78],
 "structMR_1_1BooleanParameters.html":[6,0,2,0,1,62],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,2,0,1,131,0],
 "structMR_1_1ConeFittingFunctor.html":[6,0,1,0,1,148],
 "structMR_1_1ConeFittingFunctor.html":[6,0,2,0,1,132],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,148,8],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,2,0,1,132,8],
-"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,1,0,1,148,0],
-"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,2,0,1,132,0],
-"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,1,0,1,148,5],
-"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,2,0,1,132,5],
-"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,1,0,1,148,6],
-"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,2,0,1,132,6],
-"structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[6,0,1,0,1,148,7]
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,148,8]
 };

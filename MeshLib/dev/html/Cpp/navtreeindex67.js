@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,9],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html#ad9c9fcc3b4b9a008d957235987cea8a5":[6,0,1,0,1,6,1,9,0],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html#ad9c9fcc3b4b9a008d957235987cea8a5":[6,0,2,0,1,2,1,9,0],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,10],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,10],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[6,0,1,0,1,6,1,10,0],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[6,0,2,0,1,2,1,10,0],
+"structMR_1_1FileDialogSignals.html":[6,0,1,0,1,219],
 "structMR_1_1FileDialogSignals.html":[6,0,2,0,1,203],
 "structMR_1_1FileDialogSignals.html#a0415ef129615345139af41adfc9e0236":[6,0,1,0,1,219,4],
 "structMR_1_1FileDialogSignals.html#a0415ef129615345139af41adfc9e0236":[6,0,2,0,1,203,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Graph_1_1EndVertices.html#a57f201c07d8a9aee027911668d5c9f8b":[6,0,2,0,1,238,0,1],
 "structMR_1_1Graph_1_1EndVertices.html#a7b9ed22e987be98753ff8c314a3c7bd4":[6,0,1,0,1,254,0,3],
 "structMR_1_1Graph_1_1EndVertices.html#a7b9ed22e987be98753ff8c314a3c7bd4":[6,0,2,0,1,238,0,3],
-"structMR_1_1Graph_1_1EndVertices.html#acdf8c4e8411247e361733ddd467cd8bb":[6,0,1,0,1,254,0,2],
-"structMR_1_1Graph_1_1EndVertices.html#acdf8c4e8411247e361733ddd467cd8bb":[6,0,2,0,1,238,0,2],
-"structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,1,0,1,254,0,0],
-"structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,2,0,1,238,0,0],
-"structMR_1_1GridSettings.html":[6,0,1,0,1,255],
-"structMR_1_1GridSettings.html":[6,0,2,0,1,239],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[6,0,1,0,1,255,2],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[6,0,2,0,1,239,2],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[6,0,1,0,1,255,0]
+"structMR_1_1Graph_1_1EndVertices.html#acdf8c4e8411247e361733ddd467cd8bb":[6,0,1,0,1,254,0,2]
 };

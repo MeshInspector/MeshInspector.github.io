@@ -1,5 +1,9 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1PointObject.html#aed6f47b23720a4f19897185093cd86d4":[6,0,0,11,0,5,14],
+"classMR_1_1PointObject.html#aeee86049f51bee69c243963b0b63f7c4":[6,0,0,11,0,5,15],
+"classMR_1_1PointObject.html#af0d333f53e5214cef1fed176a67585a3":[6,0,0,11,0,5,19],
+"classMR_1_1PointObject.html#afdd7f6159c74701c90843b6632e7e75f":[6,0,0,11,0,5,18],
 "classMR_1_1PointToPlaneAligningTransform.html":[6,0,0,0,8,1],
 "classMR_1_1PointToPlaneAligningTransform.html#a08230ea255db679fb12588edc3ca5f2e":[6,0,0,0,8,1,0],
 "classMR_1_1PointToPlaneAligningTransform.html#a1cdd6aff2ef7a9e5eecf5624b27a3f3b":[6,0,0,0,8,1,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1RangeCounter.html#a6348660687ee746c78a3e76ef7565eb8":[6,0,1,0,1,520,2],
 "classMR_1_1RangeCounter.html#a6348660687ee746c78a3e76ef7565eb8":[6,0,2,0,1,504,2],
 "classMR_1_1RangeCounter.html#a75a111eb51abd100715ed2283d094687":[6,0,1,0,1,520,7],
-"classMR_1_1RangeCounter.html#a75a111eb51abd100715ed2283d094687":[6,0,2,0,1,504,7],
-"classMR_1_1RangeCounter.html#a9dc75f4140f86f912151eb28d6ed87c1":[6,0,1,0,1,520,4],
-"classMR_1_1RangeCounter.html#a9dc75f4140f86f912151eb28d6ed87c1":[6,0,2,0,1,504,4],
-"classMR_1_1RangeCounter.html#aa8f668ef1c57d1b754807bd662c72f66":[6,0,1,0,1,520,3],
-"classMR_1_1RangeCounter.html#aa8f668ef1c57d1b754807bd662c72f66":[6,0,2,0,1,504,3]
+"classMR_1_1RangeCounter.html#a75a111eb51abd100715ed2283d094687":[6,0,2,0,1,504,7]
 };

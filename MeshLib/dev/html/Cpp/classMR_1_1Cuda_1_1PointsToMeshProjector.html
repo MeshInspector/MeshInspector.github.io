@@ -177,15 +177,15 @@ $(function(){initNavTree('classMR_1_1Cuda_1_1PointsToMeshProjector.html',''); in
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac217c2f9f716d994aa1c0ab98369dc95" id="r_ac217c2f9f716d994aa1c0ab98369dc95"><td class="memItemLeft" align="right" valign="top">MRCUDA_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac217c2f9f716d994aa1c0ab98369dc95">PointsToMeshProjector</a> ()</td></tr>
 <tr class="separator:ac217c2f9f716d994aa1c0ab98369dc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf5e78de5901539edc597f320a512547" id="r_adf5e78de5901539edc597f320a512547"><td class="memItemLeft" align="right" valign="top">virtual MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf5e78de5901539edc597f320a512547">updateMeshData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *mesh) override</td></tr>
-<tr class="memdesc:adf5e78de5901539edc597f320a512547"><td class="mdescLeft">&#160;</td><td class="mdescRight">update all data related to the referencing mesh  <br /></td></tr>
-<tr class="separator:adf5e78de5901539edc597f320a512547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acad1ebdc55ec529f2918c229d5b92111" id="r_acad1ebdc55ec529f2918c229d5b92111"><td class="memItemLeft" align="right" valign="top">virtual MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acad1ebdc55ec529f2918c229d5b92111">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a> &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</td></tr>
-<tr class="memdesc:acad1ebdc55ec529f2918c229d5b92111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
-<tr class="separator:acad1ebdc55ec529f2918c229d5b92111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99aca3ed828aefb4cfcdc46b8b76a4bf" id="r_a99aca3ed828aefb4cfcdc46b8b76a4bf"><td class="memItemLeft" align="right" valign="top">virtual MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99aca3ed828aefb4cfcdc46b8b76a4bf">projectionsHeapBytes</a> (size_t numProjections) const override</td></tr>
-<tr class="memdesc:a99aca3ed828aefb4cfcdc46b8b76a4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of additional memory needed to compute projections.  <br /></td></tr>
-<tr class="separator:a99aca3ed828aefb4cfcdc46b8b76a4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea486c98480ff347d65eaed201897c2" id="r_acea486c98480ff347d65eaed201897c2"><td class="memItemLeft" align="right" valign="top">MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acea486c98480ff347d65eaed201897c2">updateMeshData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *mesh) override</td></tr>
+<tr class="memdesc:acea486c98480ff347d65eaed201897c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">update all data related to the referencing mesh  <br /></td></tr>
+<tr class="separator:acea486c98480ff347d65eaed201897c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a393b65262243753c160a11f48d57c301" id="r_a393b65262243753c160a11f48d57c301"><td class="memItemLeft" align="right" valign="top">MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a393b65262243753c160a11f48d57c301">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a> &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</td></tr>
+<tr class="memdesc:a393b65262243753c160a11f48d57c301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
+<tr class="separator:a393b65262243753c160a11f48d57c301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01151649b364309dda94e8170e3e10f3" id="r_a01151649b364309dda94e8170e3e10f3"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01151649b364309dda94e8170e3e10f3">projectionsHeapBytes</a> (size_t numProjections) const override</td></tr>
+<tr class="memdesc:a01151649b364309dda94e8170e3e10f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of additional memory needed to compute projections.  <br /></td></tr>
+<tr class="separator:a01151649b364309dda94e8170e3e10f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1IPointsToMeshProjector"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1IPointsToMeshProjector')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></td></tr>
 <tr class="memitem:ac1a1633695c8776296054f81942a84dc inherit pub_methods_classMR_1_1IPointsToMeshProjector" id="r_ac1a1633695c8776296054f81942a84dc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsToMeshProjector.html#ac1a1633695c8776296054f81942a84dc">~IPointsToMeshProjector</a> ()=default</td></tr>
 <tr class="separator:ac1a1633695c8776296054f81942a84dc inherit pub_methods_classMR_1_1IPointsToMeshProjector"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,8 +214,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acad1ebdc55ec529f2918c229d5b92111" name="acad1ebdc55ec529f2918c229d5b92111"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acad1ebdc55ec529f2918c229d5b92111">&#9670;&#160;</a></span>findProjections()</h2>
+<a id="a393b65262243753c160a11f48d57c301" name="a393b65262243753c160a11f48d57c301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a393b65262243753c160a11f48d57c301">&#9670;&#160;</a></span>findProjections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +224,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRCUDA_API void MR::Cuda::PointsToMeshProjector::findProjections </td>
+          <td class="memname">MRCUDA_API void MR::Cuda::PointsToMeshProjector::findProjections </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -256,7 +256,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -276,8 +276,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a99aca3ed828aefb4cfcdc46b8b76a4bf" name="a99aca3ed828aefb4cfcdc46b8b76a4bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99aca3ed828aefb4cfcdc46b8b76a4bf">&#9670;&#160;</a></span>projectionsHeapBytes()</h2>
+<a id="a01151649b364309dda94e8170e3e10f3" name="a01151649b364309dda94e8170e3e10f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01151649b364309dda94e8170e3e10f3">&#9670;&#160;</a></span>projectionsHeapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +286,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRCUDA_API size_t MR::Cuda::PointsToMeshProjector::projectionsHeapBytes </td>
+          <td class="memname">MRCUDA_API size_t MR::Cuda::PointsToMeshProjector::projectionsHeapBytes </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>numProjections</em></span></td><td>)</td>
           <td> const</td>
@@ -305,8 +305,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adf5e78de5901539edc597f320a512547" name="adf5e78de5901539edc597f320a512547"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf5e78de5901539edc597f320a512547">&#9670;&#160;</a></span>updateMeshData()</h2>
+<a id="acea486c98480ff347d65eaed201897c2" name="acea486c98480ff347d65eaed201897c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea486c98480ff347d65eaed201897c2">&#9670;&#160;</a></span>updateMeshData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,7 +315,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRCUDA_API void MR::Cuda::PointsToMeshProjector::updateMeshData </td>
+          <td class="memname">MRCUDA_API void MR::Cuda::PointsToMeshProjector::updateMeshData </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>

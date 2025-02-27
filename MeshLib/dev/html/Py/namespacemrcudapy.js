@@ -9,7 +9,11 @@ var namespacemrcudapy =
     [ "distanceMapFromContoursHeapBytes", "namespacemrcudapy.html#aa2b49002b37ad8f472a8719e6159e44b", null ],
     [ "findSkyRays", "namespacemrcudapy.html#a331da1fe9e3cbd4669da50a822548ca3", null ],
     [ "getCudaAvailableMemory", "namespacemrcudapy.html#aa0b99ba36260a5a8fb0925f8dc79d28a", null ],
+    [ "getCudaSafeMemoryLimit", "namespacemrcudapy.html#a8a9ec4e4e7f0e927968c4198510a4d27", null ],
     [ "isCudaAvailable", "namespacemrcudapy.html#ac887b4b7e6c7b2f7fa04dbdabfe3729e", null ],
+    [ "maxBufferSize", "namespacemrcudapy.html#a0f3d742e597ab7ff194ad31849af50ad", null ],
+    [ "maxBufferSizeAlignedByBlock", "namespacemrcudapy.html#a2da59a8bdd79841ce316551f4a414e92", null ],
+    [ "maxBufferSizeAlignedByBlock", "namespacemrcudapy.html#aab9adabccec4346ca61b1e628d692a35", null ],
     [ "negatePicture", "namespacemrcudapy.html#ac3163db5e369a9de3b776b9110700924", null ],
     [ "pointsToDistanceVolume", "namespacemrcudapy.html#abacc3f1ddc84e70bb38d8d75c6595bd3", null ]
 ];

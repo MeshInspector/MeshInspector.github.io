@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,1,0,1,645,0],
+"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,2,0,1,629,0],
+"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,1,0,1,645,1],
+"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,2,0,1,629,1],
+"structMR_1_1SplineSettings.html":[6,0,1,0,1,647],
+"structMR_1_1SplineSettings.html":[6,0,2,0,1,631],
+"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,1,0,1,647,3],
+"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,2,0,1,631,3],
 "structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,1,0,1,647,0],
 "structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,2,0,1,631,0],
 "structMR_1_1SplineSettings.html#aa8f49a77bae9cc6a69e8bef44cf7afda":[6,0,1,0,1,647,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,1,0,1,672,10],
 "structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,2,0,1,656,10],
 "structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7":[6,0,1,0,1,672,1],
-"structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7":[6,0,2,0,1,656,1],
-"structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889":[6,0,1,0,1,672,14],
-"structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889":[6,0,2,0,1,656,14],
-"structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9":[6,0,1,0,1,672,16],
-"structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9":[6,0,2,0,1,656,16],
-"structMR_1_1ToolPathParams.html#a7e16eeb5e2862d7ee09d5314b784cd4a":[6,0,1,0,1,672,9],
-"structMR_1_1ToolPathParams.html#a7e16eeb5e2862d7ee09d5314b784cd4a":[6,0,2,0,1,656,9],
-"structMR_1_1ToolPathParams.html#a8240e069026edac1ef227f17d59c230e":[6,0,1,0,1,672,11],
-"structMR_1_1ToolPathParams.html#a8240e069026edac1ef227f17d59c230e":[6,0,2,0,1,656,11]
+"structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7":[6,0,2,0,1,656,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"MRRibbonConstants_8h.html#aacf3fd20b13de2d01250f5bda9173581":[6,0,3,0,0,1,10,78,2],
+"MRRibbonConstants_8h.html#aaded4cd4767b56cafcef761970128104":[6,0,3,0,0,1,10,78,3],
+"MRRibbonConstants_8h.html#ab44fac23055a5f76fda2e5fbbcff8154":[6,0,3,0,0,1,10,78,25],
+"MRRibbonConstants_8h.html#ac1b91e6c825baab2f5d88faca5bb82b9":[6,0,3,0,0,1,10,78,39],
 "MRRibbonConstants_8h.html#ad2e6e25a903280bb16257d5eade3d674":[6,0,3,0,0,1,10,78,31],
 "MRRibbonConstants_8h.html#ad7f223794186253418bc69b3f96ce456":[6,0,3,0,0,1,10,78,41],
 "MRRibbonConstants_8h.html#adbae2e800a57d6abde1fb15532241615":[6,0,3,0,0,1,10,78,32],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "MRSpaceMouseHandler_8h_source.html":[6,0,3,0,0,1,10,105],
 "MRSpaceMouseParameters_8h.html":[6,0,3,0,0,1,10,109],
 "MRSpaceMouseParameters_8h_source.html":[6,0,3,0,0,1,10,109],
-"MRSphereObject_8h.html":[6,0,3,0,0,1,4,332],
-"MRSphereObject_8h_source.html":[6,0,3,0,0,1,4,332],
-"MRSphere_8h.html":[6,0,3,0,0,1,4,331],
-"MRSphere_8h_source.html":[6,0,3,0,0,1,4,331],
-"MRSplashWindow_8h.html":[6,0,3,0,0,1,10,110]
+"MRSphereObject_8h.html":[6,0,3,0,0,1,4,332]
 };
