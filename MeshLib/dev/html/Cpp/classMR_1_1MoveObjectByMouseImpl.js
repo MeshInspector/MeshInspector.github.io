@@ -22,6 +22,7 @@ var classMR_1_1MoveObjectByMouseImpl =
     [ "onMouseMove", "classMR_1_1MoveObjectByMouseImpl.html#a3932fa9a5384b09c3fd4b7f7179697c6", null ],
     [ "onMouseUp", "classMR_1_1MoveObjectByMouseImpl.html#a4516bc68a71f976621ce71dff17b7837", null ],
     [ "pickObjects_", "classMR_1_1MoveObjectByMouseImpl.html#a4634374908c348c3436bbbbc7a8571f0", null ],
+    [ "setCenterPoint_", "classMR_1_1MoveObjectByMouseImpl.html#a0e1c8964e80c006d7432d351d7f71e4d", null ],
     [ "setMinDistance", "classMR_1_1MoveObjectByMouseImpl.html#aa3df927c144669a86b1cbaba22fa36ac", null ],
     [ "setStartPoint_", "classMR_1_1MoveObjectByMouseImpl.html#acb585eb1c444459ffe5c95d7b0db381e", null ],
     [ "currentXf_", "classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6", null ],

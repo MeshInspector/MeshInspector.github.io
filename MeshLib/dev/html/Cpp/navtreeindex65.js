@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20":[6,0,1,0,1,182,3],
+"structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20":[6,0,2,0,1,166,3],
 "structMR_1_1Dirty.html":[6,0,0,11,2,4],
 "structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[6,0,0,11,2,4,0],
 "structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d":[6,0,0,11,2,4,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1EdgeSegment.html#a58bb10eea905d9ba81c91be627dfad8d":[6,0,1,0,1,203,5],
 "structMR_1_1EdgeSegment.html#a58bb10eea905d9ba81c91be627dfad8d":[6,0,2,0,1,187,5],
 "structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,1,0,1,203,8],
-"structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,2,0,1,187,8],
-"structMR_1_1EdgeSegment.html#aaa89099133adbadcd8e04016b7dfd5ef":[6,0,1,0,1,203,7],
-"structMR_1_1EdgeSegment.html#aaa89099133adbadcd8e04016b7dfd5ef":[6,0,2,0,1,187,7]
+"structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,2,0,1,187,8]
 };

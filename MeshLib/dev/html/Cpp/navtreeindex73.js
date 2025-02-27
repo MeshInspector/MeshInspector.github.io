@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,1,0,1,368,1],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,2,0,1,352,1],
 "structMR_1_1ModelBaseRenderParams.html":[6,0,1,0,1,369],
 "structMR_1_1ModelBaseRenderParams.html":[6,0,2,0,1,353],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,1,0,1,369,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,2,0,1,387,2],
 "structMR_1_1ObjKindTraits.html":[6,0,1,0,1,421],
 "structMR_1_1ObjKindTraits.html":[6,0,2,0,1,405],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,1,0,1,422],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,1,406],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,1,0,1,422,0]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,1,0,1,422]
 };

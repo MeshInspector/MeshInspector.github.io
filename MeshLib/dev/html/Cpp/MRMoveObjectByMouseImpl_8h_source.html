@@ -209,51 +209,58 @@ $(function(){initNavTree('MRMoveObjectByMouseImpl_8h_source.html',''); initResiz
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#acb585eb1c444459ffe5c95d7b0db381e">   82</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MoveObjectByMouseImpl.html#acb585eb1c444459ffe5c95d7b0db381e">setStartPoint_</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">ObjAndPick</a>&amp; pick, Vector3f&amp; startPoint ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#a32b8f295b15b40dffc3f103110e9d1b6">   86</a></span>    MRVIEWER_API Box3f <a class="code hl_function" href="classMR_1_1MoveObjectByMouseImpl.html#a32b8f295b15b40dffc3f103110e9d1b6">getBbox_</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6">   88</a></span>    AffineXf3f <a class="code hl_variable" href="classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6">currentXf_</a>;      <span class="comment">// Transform currently applied to objects</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">int</span> minDistance_ = 0;</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <a class="code hl_enumeration" href="classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> pick_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifiers );</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span> clear_();</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> applyCurrentXf_( <span class="keywordtype">bool</span> history );</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">void</span> resetXfs_();</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">void</span> setVisualizeVectors_( std::vector&lt;Vector3f&gt; worldPoints );</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    std::vector&lt;std::shared_ptr&lt;Object&gt;&gt; objects_;</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    std::vector&lt;AffineXf3f&gt; initialXfs_;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#a0e1c8964e80c006d7432d351d7f71e4d">   85</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MoveObjectByMouseImpl.html#a0e1c8964e80c006d7432d351d7f71e4d">setCenterPoint_</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects, Vector3f&amp; centerPoint ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#a32b8f295b15b40dffc3f103110e9d1b6">   89</a></span>    MRVIEWER_API Box3f <a class="code hl_function" href="classMR_1_1MoveObjectByMouseImpl.html#a32b8f295b15b40dffc3f103110e9d1b6">getBbox_</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6">   91</a></span>    AffineXf3f <a class="code hl_variable" href="classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6">currentXf_</a>;      <span class="comment">// Transform currently applied to objects</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">int</span> minDistance_ = 0;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <a class="code hl_enumeration" href="classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> pick_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifiers );</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> onPick_(</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        <a class="code hl_enumeration" href="classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> mode, <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objects,</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keyword">const</span> Vector3f&amp; centerPoint, <span class="keyword">const</span> Vector3f&amp; startPoint );</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">void</span> clear_();</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <a class="code hl_enumeration" href="classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> transformMode_ = TransformMode::None;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    Vector2i screenStartPoint_; <span class="comment">// cNoPoint when moving actually started, {} when inactive</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> currentButton_ = MouseButton::NoButton;</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="comment">// Data used to calculate transform</span></div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    Vector3f worldStartPoint_;  <span class="comment">// World point corresponding to cursor, for transform calculation</span></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    Vector3f xfCenterPoint_;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">float</span> viewportStartPointZ_;</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    Plane3f referencePlane_;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">float</span> angle_ = 0.f;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">float</span> shift_ = 0.f;</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">float</span> scale_ = 1.f;</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// only check on real appending history</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">bool</span> historyEnabled_{ <span class="keyword">true</span> };</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    std::vector&lt;ImVec2&gt; visualizeVectors_;</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>};</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> applyCurrentXf_( <span class="keywordtype">bool</span> history );</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">void</span> resetXfs_();</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">void</span> setVisualizeVectors_( std::vector&lt;Vector3f&gt; worldPoints );</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    std::vector&lt;std::shared_ptr&lt;Object&gt;&gt; objects_;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    std::vector&lt;AffineXf3f&gt; initialXfs_;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <a class="code hl_enumeration" href="classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> transformMode_ = TransformMode::None;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    Vector2i screenStartPoint_; <span class="comment">// cNoPoint when moving actually started, {} when inactive</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> currentButton_ = MouseButton::NoButton;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="comment">// Data used to calculate transform</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    Vector3f worldStartPoint_;  <span class="comment">// World point corresponding to cursor, for transform calculation</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    Vector3f xfCenterPoint_;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">float</span> viewportStartPointZ_;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    Plane3f referencePlane_;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">float</span> angle_ = 0.f;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keywordtype">float</span> shift_ = 0.f;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keywordtype">float</span> scale_ = 1.f;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="comment">// only check on real appending history</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">bool</span> historyEnabled_{ <span class="keyword">true</span> };</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    std::vector&lt;ImVec2&gt; visualizeVectors_;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>};</div>
 </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>}</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>}</div>
 <div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
 <div class="ttc" id="aMRImGui_8h_html"><div class="ttname"><a href="MRImGui_8h.html">MRImGui.h</a></div></div>
 <div class="ttc" id="aMRMouse_8h_html"><div class="ttname"><a href="MRMouse_8h.html">MRMouse.h</a></div></div>
 <div class="ttc" id="aMRPlane3_8h_html"><div class="ttname"><a href="MRPlane3_8h.html">MRPlane3.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html">MR::MoveObjectByMouseImpl</a></div><div class="ttdef"><b>Definition</b> MRMoveObjectByMouseImpl.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_a0e1c8964e80c006d7432d351d7f71e4d"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#a0e1c8964e80c006d7432d351d7f71e4d">MR::MoveObjectByMouseImpl::setCenterPoint_</a></div><div class="ttdeci">virtual MRVIEWER_API void setCenterPoint_(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects, Vector3f &amp;centerPoint) const</div><div class="ttdoc">centerPoint - a point that will be used as center of rotation/scaling in world space</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_a1c00c84e0c80219e1fa10b926a82cf91"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#a1c00c84e0c80219e1fa10b926a82cf91">MR::MoveObjectByMouseImpl::modeFromPickModifiers_</a></div><div class="ttdeci">virtual MRVIEWER_API TransformMode modeFromPickModifiers_(int modifiers) const</div><div class="ttdoc">Helper function to determine TransformMode based on modifiers.</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_a1efc181844c96d8927ff6e49ea0139bf"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#a1efc181844c96d8927ff6e49ea0139bf">MR::MoveObjectByMouseImpl::~MoveObjectByMouseImpl</a></div><div class="ttdeci">virtual ~MoveObjectByMouseImpl()=default</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_a32b8f295b15b40dffc3f103110e9d1b6"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#a32b8f295b15b40dffc3f103110e9d1b6">MR::MoveObjectByMouseImpl::getBbox_</a></div><div class="ttdeci">MRVIEWER_API Box3f getBbox_(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects) const</div></div>
@@ -271,7 +278,7 @@ $(function(){initNavTree('MRMoveObjectByMouseImpl_8h_source.html',''); initResiz
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_aa3df927c144669a86b1cbaba22fa36ac"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#aa3df927c144669a86b1cbaba22fa36ac">MR::MoveObjectByMouseImpl::setMinDistance</a></div><div class="ttdeci">void setMinDistance(int minDistance)</div><div class="ttdef"><b>Definition</b> MRMoveObjectByMouseImpl.h:25</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_aad8cb7773d35560f8b4469f293cbd169"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#aad8cb7773d35560f8b4469f293cbd169">MR::MoveObjectByMouseImpl::cancel</a></div><div class="ttdeci">MRVIEWER_API void cancel()</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_acb585eb1c444459ffe5c95d7b0db381e"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#acb585eb1c444459ffe5c95d7b0db381e">MR::MoveObjectByMouseImpl::setStartPoint_</a></div><div class="ttdeci">virtual MRVIEWER_API void setStartPoint_(const ObjAndPick &amp;pick, Vector3f &amp;startPoint) const</div><div class="ttdoc">startPoint - a point under cursor for transform calculation, can be the picked point or else (world c...</div></div>
-<div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_adb167ed72d4e0abf3fd5ebc2bf23acc6"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6">MR::MoveObjectByMouseImpl::currentXf_</a></div><div class="ttdeci">AffineXf3f currentXf_</div><div class="ttdef"><b>Definition</b> MRMoveObjectByMouseImpl.h:88</div></div>
+<div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_adb167ed72d4e0abf3fd5ebc2bf23acc6"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6">MR::MoveObjectByMouseImpl::currentXf_</a></div><div class="ttdeci">AffineXf3f currentXf_</div><div class="ttdef"><b>Definition</b> MRMoveObjectByMouseImpl.h:91</div></div>
 <div class="ttc" id="aclassMR_1_1MoveObjectByMouseImpl_html_af6ca6c34829bccce1c38a2f30f793b99"><div class="ttname"><a href="classMR_1_1MoveObjectByMouseImpl.html#af6ca6c34829bccce1c38a2f30f793b99">MR::MoveObjectByMouseImpl::isHistoryEnabled</a></div><div class="ttdeci">bool isHistoryEnabled() const</div><div class="ttdoc">returns true if appending history to viewer history store is enabled in this tool</div><div class="ttdef"><b>Definition</b> MRMoveObjectByMouseImpl.h:54</div></div>
 <div class="ttc" id="agroup__VoxelPathGroup_html_gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4"><div class="ttname"><a href="group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4">MR::None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">special value not to limit path in one slice</div><div class="ttdef"><b>Definition</b> MRVoxelPath.h:33</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div></div>
