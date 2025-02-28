@@ -1,9 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1Matrix4.html#a43b42a23dd36b93af1411d2dd746a432":[6,0,0,0,7,3,16],
-"structMR_1_1Matrix4.html#a46de12be029c280190f995c40660c426":[6,0,0,0,7,3,27],
-"structMR_1_1Matrix4.html#a4851d2b5257b7719eb495d118d57aafa":[6,0,0,0,7,3,21],
-"structMR_1_1Matrix4.html#a4b83aa70bbea736d6ffff5253debfb3b":[6,0,0,0,7,3,20],
 "structMR_1_1Matrix4.html#a5408e4a71f68a738707aa7706fd9c81b":[6,0,0,0,7,3,28],
 "structMR_1_1Matrix4.html#a5be2b22b00513fee735321f7fdb308ef":[6,0,0,0,7,3,33],
 "structMR_1_1Matrix4.html#a61d081cbcb96e39fb7279a55c0b57996":[6,0,0,0,7,3,15],
@@ -249,5 +245,9 @@ var NAVTREEINDEX71 =
 "structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,1,0,1,16,6,0],
 "structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,2,0,1,8,6,0],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,1,0,1,16,1],
-"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,1,8,1]
+"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,1,8,1],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,16,1,0],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,2,0,1,8,1,0],
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,0],
+"structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"classmrmeshpy_1_1RenderModelPassMask.html#a1a63aafc9db85237ae6dba8b90ed0667":[6,1,0,0,2,696,9],
-"classmrmeshpy_1_1RenderModelPassMask.html#a1a63aafc9db85237ae6dba8b90ed0667":[6,1,1,0,1,696,9],
-"classmrmeshpy_1_1RenderModelPassMask.html#a26ee61f934856e0f6031de1808fdfa03":[6,1,0,0,2,696,18],
-"classmrmeshpy_1_1RenderModelPassMask.html#a26ee61f934856e0f6031de1808fdfa03":[6,1,1,0,1,696,18],
-"classmrmeshpy_1_1RenderModelPassMask.html#a34a5b280bb397aa01f9de62864d76970":[6,1,0,0,2,696,12],
-"classmrmeshpy_1_1RenderModelPassMask.html#a34a5b280bb397aa01f9de62864d76970":[6,1,1,0,1,696,12],
-"classmrmeshpy_1_1RenderModelPassMask.html#a43ce6f4506ce4ca444d2ad7ce6c3323a":[6,1,0,0,2,696,7],
-"classmrmeshpy_1_1RenderModelPassMask.html#a43ce6f4506ce4ca444d2ad7ce6c3323a":[6,1,1,0,1,696,7],
 "classmrmeshpy_1_1RenderModelPassMask.html#a54f3ff9db8b1fc8d297cffdc7a9df32a":[6,1,0,0,2,696,13],
 "classmrmeshpy_1_1RenderModelPassMask.html#a54f3ff9db8b1fc8d297cffdc7a9df32a":[6,1,1,0,1,696,13],
 "classmrmeshpy_1_1RenderModelPassMask.html#a648e562700a6088dbe18c7724997a367":[6,1,0,0,2,696,10],
@@ -249,5 +241,13 @@ var NAVTREEINDEX67 =
 "classmrmeshpy_1_1SaveSettings.html#ad2aa92a9933e1da8144093512a63814f":[6,1,0,0,2,705,7],
 "classmrmeshpy_1_1SaveSettings.html#ad2aa92a9933e1da8144093512a63814f":[6,1,1,0,1,705,7],
 "classmrmeshpy_1_1SaveSettings.html#aebb954e2bd869408a83b791b34b2196c":[6,1,0,0,2,705,14],
-"classmrmeshpy_1_1SaveSettings.html#aebb954e2bd869408a83b791b34b2196c":[6,1,1,0,1,705,14]
+"classmrmeshpy_1_1SaveSettings.html#aebb954e2bd869408a83b791b34b2196c":[6,1,1,0,1,705,14],
+"classmrmeshpy_1_1SaveSettings.html#af17c4b730c97288805ab8983e82d8704":[6,1,0,0,2,705,6],
+"classmrmeshpy_1_1SaveSettings.html#af17c4b730c97288805ab8983e82d8704":[6,1,1,0,1,705,6],
+"classmrmeshpy_1_1ScalarType.html":[6,1,0,0,2,706],
+"classmrmeshpy_1_1ScalarType.html":[6,1,1,0,1,706],
+"classmrmeshpy_1_1ScalarType.html#a3358ea66bdaeaeff23b1336bcb680555":[6,1,0,0,2,706,10],
+"classmrmeshpy_1_1ScalarType.html#a3358ea66bdaeaeff23b1336bcb680555":[6,1,1,0,1,706,10],
+"classmrmeshpy_1_1ScalarType.html#a3c2c490c95afa3698cebe9f0aade1a00":[6,1,0,0,2,706,9],
+"classmrmeshpy_1_1ScalarType.html#a3c2c490c95afa3698cebe9f0aade1a00":[6,1,1,0,1,706,9]
 };

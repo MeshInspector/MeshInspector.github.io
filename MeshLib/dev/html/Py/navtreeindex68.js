@@ -1,13 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"classmrmeshpy_1_1SaveSettings.html#af17c4b730c97288805ab8983e82d8704":[6,1,0,0,2,705,6],
-"classmrmeshpy_1_1SaveSettings.html#af17c4b730c97288805ab8983e82d8704":[6,1,1,0,1,705,6],
-"classmrmeshpy_1_1ScalarType.html":[6,1,0,0,2,706],
-"classmrmeshpy_1_1ScalarType.html":[6,1,1,0,1,706],
-"classmrmeshpy_1_1ScalarType.html#a3358ea66bdaeaeff23b1336bcb680555":[6,1,0,0,2,706,10],
-"classmrmeshpy_1_1ScalarType.html#a3358ea66bdaeaeff23b1336bcb680555":[6,1,1,0,1,706,10],
-"classmrmeshpy_1_1ScalarType.html#a3c2c490c95afa3698cebe9f0aade1a00":[6,1,0,0,2,706,9],
-"classmrmeshpy_1_1ScalarType.html#a3c2c490c95afa3698cebe9f0aade1a00":[6,1,1,0,1,706,9],
 "classmrmeshpy_1_1ScalarType.html#a4f507e3b864dccb9eb8046183544aeac":[6,1,0,0,2,706,6],
 "classmrmeshpy_1_1ScalarType.html#a4f507e3b864dccb9eb8046183544aeac":[6,1,1,0,1,706,6],
 "classmrmeshpy_1_1ScalarType.html#a4fd9641193e326774784093d298a155c":[6,1,0,0,2,706,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX68 =
 "classmrmeshpy_1_1SegmPointf.html#ab9d630e0a26c9db487eefed87ee9e335":[6,1,0,0,2,715,1],
 "classmrmeshpy_1_1SegmPointf.html#ab9d630e0a26c9db487eefed87ee9e335":[6,1,1,0,1,715,1],
 "classmrmeshpy_1_1SegmPointf.html#aea4371387b3c492d1bd7953727b20f1b":[6,1,0,0,2,715,11],
-"classmrmeshpy_1_1SegmPointf.html#aea4371387b3c492d1bd7953727b20f1b":[6,1,1,0,1,715,11]
+"classmrmeshpy_1_1SegmPointf.html#aea4371387b3c492d1bd7953727b20f1b":[6,1,1,0,1,715,11],
+"classmrmeshpy_1_1SegmPointf.html#af13aa978a081962e63380b699e289d9f":[6,1,0,0,2,715,0],
+"classmrmeshpy_1_1SegmPointf.html#af13aa978a081962e63380b699e289d9f":[6,1,1,0,1,715,0],
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html":[6,1,0,0,2,713],
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html":[6,1,1,0,1,713],
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#a161c96fe5c91ad96c867c2eafcabd349":[6,1,0,0,2,713,0],
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#a161c96fe5c91ad96c867c2eafcabd349":[6,1,1,0,1,713,0],
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#a234a5d329b4a7810b7312369eec0ff1a":[6,1,0,0,2,713,5],
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#a234a5d329b4a7810b7312369eec0ff1a":[6,1,1,0,1,713,5]
 };

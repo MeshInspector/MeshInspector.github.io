@@ -1,13 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"classmrmeshpy_1_1EdgeBitSet.html#afba8b61cd76efab40b8fb1e3773f4d76":[6,1,0,0,2,198,16],
-"classmrmeshpy_1_1EdgeBitSet.html#afba8b61cd76efab40b8fb1e3773f4d76":[6,1,1,0,1,198,16],
-"classmrmeshpy_1_1EdgeColors.html":[6,1,0,0,2,200],
-"classmrmeshpy_1_1EdgeColors.html":[6,1,1,0,1,200],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,0,0,2,200,8],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,0,0,2,200,9],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,1,0,1,200,8],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,1,0,1,200,9],
 "classmrmeshpy_1_1EdgeColors.html#a019f293f89395b64363b71eea0f5960f":[6,1,0,0,2,200,18],
 "classmrmeshpy_1_1EdgeColors.html#a019f293f89395b64363b71eea0f5960f":[6,1,1,0,1,200,18],
 "classmrmeshpy_1_1EdgeColors.html#a05d543fb62894c3128bd00c6a9524502":[6,1,0,0,2,200,37],
@@ -249,5 +241,13 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a657c003e725509a1e63aba2d0fdf448e":[6,1,0,0,2,204,0,0],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a657c003e725509a1e63aba2d0fdf448e":[6,1,1,0,1,204,0,0],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a8801e34d1dc610219e92db3e0fea8128":[6,1,0,0,2,204,0,3],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a8801e34d1dc610219e92db3e0fea8128":[6,1,1,0,1,204,0,3]
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a8801e34d1dc610219e92db3e0fea8128":[6,1,1,0,1,204,0,3],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#ab897f02b20eabd54a035f98d31419237":[6,1,0,0,2,204,0,4],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#ab897f02b20eabd54a035f98d31419237":[6,1,1,0,1,204,0,4],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#abc750faee723329a0c459f58691963ac":[6,1,0,0,2,204,0,1],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#abc750faee723329a0c459f58691963ac":[6,1,1,0,1,204,0,1],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#ae898ae024216f990607b84e2517a758e":[6,1,0,0,2,204,0,6],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#ae898ae024216f990607b84e2517a758e":[6,1,1,0,1,204,0,6],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#aeac50c9e1b1ca149862ca2990e632a29":[6,1,0,0,2,204,0,7],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#aeac50c9e1b1ca149862ca2990e632a29":[6,1,1,0,1,204,0,7]
 };

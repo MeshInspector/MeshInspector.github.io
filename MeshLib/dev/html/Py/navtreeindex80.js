@@ -1,13 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"classmrmeshpy_1_1UndirectedEdgeId.html#a0fbbc906073f4317d10fd37fa4d9ef68":[6,1,0,0,2,969,0],
-"classmrmeshpy_1_1UndirectedEdgeId.html#a0fbbc906073f4317d10fd37fa4d9ef68":[6,1,1,0,1,969,0],
-"classmrmeshpy_1_1UndirectedEdgeId.html#a13995f3ad1b55e16ea57c43732635db2":[6,1,0,0,2,969,4],
-"classmrmeshpy_1_1UndirectedEdgeId.html#a13995f3ad1b55e16ea57c43732635db2":[6,1,1,0,1,969,4],
-"classmrmeshpy_1_1UndirectedEdgeId.html#a28ce1129e2f80d774236b7b29fcbaa7e":[6,1,0,0,2,969,16],
-"classmrmeshpy_1_1UndirectedEdgeId.html#a28ce1129e2f80d774236b7b29fcbaa7e":[6,1,1,0,1,969,16],
-"classmrmeshpy_1_1UndirectedEdgeId.html#a2c8b9d3439a02dfa50fde5a91ab08f8c":[6,1,0,0,2,969,8],
-"classmrmeshpy_1_1UndirectedEdgeId.html#a2c8b9d3439a02dfa50fde5a91ab08f8c":[6,1,1,0,1,969,8],
 "classmrmeshpy_1_1UndirectedEdgeId.html#a2c9cd071a77a0c92ae032474ff4cf51b":[6,1,0,0,2,969,11],
 "classmrmeshpy_1_1UndirectedEdgeId.html#a2c9cd071a77a0c92ae032474ff4cf51b":[6,1,1,0,1,969,11],
 "classmrmeshpy_1_1UndirectedEdgeId.html#a34250ee86349da28555f023b869214e4":[6,1,0,0,2,969,10],
@@ -249,5 +241,13 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1UnionFind__FaceId.html#a095da7ec694ec72054dd43c6d33fc1b3":[6,1,0,0,2,976,9],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a095da7ec694ec72054dd43c6d33fc1b3":[6,1,1,0,1,976,9],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a11c145300292060ccc02fdab6f24640a":[6,1,0,0,2,976,10],
-"classmrmeshpy_1_1UnionFind__FaceId.html#a11c145300292060ccc02fdab6f24640a":[6,1,1,0,1,976,10]
+"classmrmeshpy_1_1UnionFind__FaceId.html#a11c145300292060ccc02fdab6f24640a":[6,1,1,0,1,976,10],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,0,0,2,976,11],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,1,0,1,976,11],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a5921a8b7a46e08ce74fc65ad09747df3":[6,1,0,0,2,976,0],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a5921a8b7a46e08ce74fc65ad09747df3":[6,1,1,0,1,976,0],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a8a1d2127760db16291d96e629a8ad068":[6,1,0,0,2,976,3],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a8a1d2127760db16291d96e629a8ad068":[6,1,1,0,1,976,3],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a8a2c6d7eaa32c8ba00b8883bcb4cf52e":[6,1,0,0,2,976,4],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a8a2c6d7eaa32c8ba00b8883bcb4cf52e":[6,1,1,0,1,976,4]
 };

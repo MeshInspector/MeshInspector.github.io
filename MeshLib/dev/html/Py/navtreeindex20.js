@@ -1,13 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ab9902fda35cad176544d7f86a359df11":[6,1,0,0,2,192,0,9],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ab9902fda35cad176544d7f86a359df11":[6,1,1,0,1,192,0,9],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ac16aadd5fca95a110865fdf13cffdc5a":[6,1,0,0,2,192,0,4],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ac16aadd5fca95a110865fdf13cffdc5a":[6,1,1,0,1,192,0,4],
-"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,0,0,2,193],
-"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,1,0,1,193],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,0,0,2,193,11],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,1,0,1,193,11],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a1a3519767c036b77f65c2f182d35dacb":[6,1,0,0,2,193,5],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a1a3519767c036b77f65c2f182d35dacb":[6,1,1,0,1,193,5],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a248c4d1374a3f13137c3f1a003b34d36":[6,1,0,0,2,193,7],
@@ -249,5 +241,13 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[6,1,0,0,2,198,32],
 "classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[6,1,1,0,1,198,32],
 "classmrmeshpy_1_1EdgeBitSet.html#af3e5e329233fdaadd2d360b0838e831e":[6,1,0,0,2,198,10],
-"classmrmeshpy_1_1EdgeBitSet.html#af3e5e329233fdaadd2d360b0838e831e":[6,1,1,0,1,198,10]
+"classmrmeshpy_1_1EdgeBitSet.html#af3e5e329233fdaadd2d360b0838e831e":[6,1,1,0,1,198,10],
+"classmrmeshpy_1_1EdgeBitSet.html#afba8b61cd76efab40b8fb1e3773f4d76":[6,1,0,0,2,198,16],
+"classmrmeshpy_1_1EdgeBitSet.html#afba8b61cd76efab40b8fb1e3773f4d76":[6,1,1,0,1,198,16],
+"classmrmeshpy_1_1EdgeColors.html":[6,1,0,0,2,200],
+"classmrmeshpy_1_1EdgeColors.html":[6,1,1,0,1,200],
+"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,0,0,2,200,8],
+"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,0,0,2,200,9],
+"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,1,0,1,200,8],
+"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,1,0,1,200,9]
 };

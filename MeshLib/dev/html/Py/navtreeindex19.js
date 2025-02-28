@@ -1,13 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classmrmeshpy_1_1Dipoles.html#ab98b28641206dc09aad099c073a85b8c":[6,1,0,0,2,185,5],
-"classmrmeshpy_1_1Dipoles.html#ab98b28641206dc09aad099c073a85b8c":[6,1,1,0,1,185,5],
-"classmrmeshpy_1_1Dipoles.html#ac2529af38fbdc43c2ffc5d368fc6943e":[6,1,0,0,2,185,17],
-"classmrmeshpy_1_1Dipoles.html#ac2529af38fbdc43c2ffc5d368fc6943e":[6,1,0,0,2,185,18],
-"classmrmeshpy_1_1Dipoles.html#ac2529af38fbdc43c2ffc5d368fc6943e":[6,1,1,0,1,185,17],
-"classmrmeshpy_1_1Dipoles.html#ac2529af38fbdc43c2ffc5d368fc6943e":[6,1,1,0,1,185,18],
-"classmrmeshpy_1_1Dipoles.html#ac821eca504cdc71c7daca6538e562c19":[6,1,0,0,2,185,30],
-"classmrmeshpy_1_1Dipoles.html#ac821eca504cdc71c7daca6538e562c19":[6,1,1,0,1,185,30],
 "classmrmeshpy_1_1Dipoles.html#ac905cb5ef63ccc77c0e7bc0ee5e4ef16":[6,1,0,0,2,185,6],
 "classmrmeshpy_1_1Dipoles.html#ac905cb5ef63ccc77c0e7bc0ee5e4ef16":[6,1,0,0,2,185,7],
 "classmrmeshpy_1_1Dipoles.html#ac905cb5ef63ccc77c0e7bc0ee5e4ef16":[6,1,1,0,1,185,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX19 =
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a9de32124964cf48b973ed18e170c9b38":[6,1,0,0,2,192,0,1],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a9de32124964cf48b973ed18e170c9b38":[6,1,1,0,1,192,0,1],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a9feda28ed99073f67b70c9359c3e3f86":[6,1,0,0,2,192,0,7],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a9feda28ed99073f67b70c9359c3e3f86":[6,1,1,0,1,192,0,7]
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a9feda28ed99073f67b70c9359c3e3f86":[6,1,1,0,1,192,0,7],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ab9902fda35cad176544d7f86a359df11":[6,1,0,0,2,192,0,9],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ab9902fda35cad176544d7f86a359df11":[6,1,1,0,1,192,0,9],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ac16aadd5fca95a110865fdf13cffdc5a":[6,1,0,0,2,192,0,4],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ac16aadd5fca95a110865fdf13cffdc5a":[6,1,1,0,1,192,0,4],
+"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,0,0,2,193],
+"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,1,0,1,193],
+"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,0,0,2,193,11],
+"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,1,0,1,193,11]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a1d9af44bb970190386e87524942739ba":[6,1,0,0,2,638,10],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a1d9af44bb970190386e87524942739ba":[6,1,1,0,1,638,10],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a2f7672f353a33d7dc062b6a7ff3a42d5":[6,1,0,0,2,638,3],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a2f7672f353a33d7dc062b6a7ff3a42d5":[6,1,1,0,1,638,3],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a83e6b5e2f4393c733362311ea57600d6":[6,1,0,0,2,638,13],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a83e6b5e2f4393c733362311ea57600d6":[6,1,1,0,1,638,13],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a86aca32140f4b9131b96438aa438257f":[6,1,0,0,2,638,4],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a86aca32140f4b9131b96438aa438257f":[6,1,1,0,1,638,4],
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a8dd90117267caa4d674c2b57fced2b52":[6,1,0,0,2,638,9],
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a8dd90117267caa4d674c2b57fced2b52":[6,1,1,0,1,638,9],
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a99ef5a6899ef9ef3f62f43812523b674":[6,1,0,0,2,638,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1Polyline2.html#a84d9bc35001a3917a3e122424e2fb196":[6,1,0,0,2,639,12],
 "classmrmeshpy_1_1Polyline2.html#a84d9bc35001a3917a3e122424e2fb196":[6,1,1,0,1,639,12],
 "classmrmeshpy_1_1Polyline2.html#a86c7d2b5525de66df0bf30bfbb96e336":[6,1,0,0,2,639,19],
-"classmrmeshpy_1_1Polyline2.html#a86c7d2b5525de66df0bf30bfbb96e336":[6,1,1,0,1,639,19]
+"classmrmeshpy_1_1Polyline2.html#a86c7d2b5525de66df0bf30bfbb96e336":[6,1,1,0,1,639,19],
+"classmrmeshpy_1_1Polyline2.html#a88b1dd4a260d156749e09b1119e6e780":[6,1,0,0,2,639,34],
+"classmrmeshpy_1_1Polyline2.html#a88b1dd4a260d156749e09b1119e6e780":[6,1,1,0,1,639,34],
+"classmrmeshpy_1_1Polyline2.html#a8e08b80d6f571de58536da993a0de9a7":[6,1,0,0,2,639,21],
+"classmrmeshpy_1_1Polyline2.html#a8e08b80d6f571de58536da993a0de9a7":[6,1,1,0,1,639,21],
+"classmrmeshpy_1_1Polyline2.html#aa1759418785934b042eaf015ab659136":[6,1,0,0,2,639,2],
+"classmrmeshpy_1_1Polyline2.html#aa1759418785934b042eaf015ab659136":[6,1,1,0,1,639,2],
+"classmrmeshpy_1_1Polyline2.html#aab759182db1cc172f797839c6a36713f":[6,1,0,0,2,639,32],
+"classmrmeshpy_1_1Polyline2.html#aab759182db1cc172f797839c6a36713f":[6,1,1,0,1,639,32]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classmrmeshpy_1_1Mesh.html#af733b4f58c56bd326acad737fb0e0302":[6,1,0,0,2,444,25],
-"classmrmeshpy_1_1Mesh.html#af733b4f58c56bd326acad737fb0e0302":[6,1,1,0,1,444,25],
-"classmrmeshpy_1_1Mesh.html#af8e9476aeef2092c5945ffbd2fb51a63":[6,1,0,0,2,444,81],
-"classmrmeshpy_1_1Mesh.html#af8e9476aeef2092c5945ffbd2fb51a63":[6,1,1,0,1,444,81],
-"classmrmeshpy_1_1Mesh.html#af9ca0586a0fff0d76ecb88a38133ac57":[6,1,0,0,2,444,65],
-"classmrmeshpy_1_1Mesh.html#af9ca0586a0fff0d76ecb88a38133ac57":[6,1,1,0,1,444,65],
-"classmrmeshpy_1_1Mesh.html#afcca696467a2aff58a02cd8330235e6e":[6,1,0,0,2,444,5],
-"classmrmeshpy_1_1Mesh.html#afcca696467a2aff58a02cd8330235e6e":[6,1,1,0,1,444,5],
 "classmrmeshpy_1_1MeshApproxRelaxParams.html":[6,1,0,0,2,445],
 "classmrmeshpy_1_1MeshApproxRelaxParams.html":[6,1,1,0,1,445],
 "classmrmeshpy_1_1MeshApproxRelaxParams.html#a0386732f5ecb2e2c8340446cf7ff5ece":[6,1,0,0,2,445,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX42 =
 "classmrmeshpy_1_1MeshLoadSettings.html#a6688b3085e29dbc5f4e195c3c2fc58d5":[6,1,0,0,2,453,5],
 "classmrmeshpy_1_1MeshLoadSettings.html#a6688b3085e29dbc5f4e195c3c2fc58d5":[6,1,1,0,1,453,5],
 "classmrmeshpy_1_1MeshLoadSettings.html#a81363d40fb4ef084ae91fd173b44d122":[6,1,0,0,2,453,2],
-"classmrmeshpy_1_1MeshLoadSettings.html#a81363d40fb4ef084ae91fd173b44d122":[6,1,1,0,1,453,2]
+"classmrmeshpy_1_1MeshLoadSettings.html#a81363d40fb4ef084ae91fd173b44d122":[6,1,1,0,1,453,2],
+"classmrmeshpy_1_1MeshLoadSettings.html#a91894c2390401ddede1e17ee1236564f":[6,1,0,0,2,453,16],
+"classmrmeshpy_1_1MeshLoadSettings.html#a91894c2390401ddede1e17ee1236564f":[6,1,1,0,1,453,16],
+"classmrmeshpy_1_1MeshLoadSettings.html#a91e19c7971003c0fc523addb2027e754":[6,1,0,0,2,453,18],
+"classmrmeshpy_1_1MeshLoadSettings.html#a91e19c7971003c0fc523addb2027e754":[6,1,1,0,1,453,18],
+"classmrmeshpy_1_1MeshLoadSettings.html#a9ace2c350cc3429a31ce24bd6ead1631":[6,1,0,0,2,453,1],
+"classmrmeshpy_1_1MeshLoadSettings.html#a9ace2c350cc3429a31ce24bd6ead1631":[6,1,1,0,1,453,1],
+"classmrmeshpy_1_1MeshLoadSettings.html#a9b4de9cac1f8a87ac96f3ea66cfd8df2":[6,1,0,0,2,453,13],
+"classmrmeshpy_1_1MeshLoadSettings.html#a9b4de9cac1f8a87ac96f3ea66cfd8df2":[6,1,1,0,1,453,13]
 };

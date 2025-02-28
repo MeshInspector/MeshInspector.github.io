@@ -1,13 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html":[6,1,0,0,2,1096,6],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html":[6,1,1,0,1,1096,6],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a0f819449066c04c2d7100252cff226af":[6,1,0,0,2,1096,6,3],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a0f819449066c04c2d7100252cff226af":[6,1,1,0,1,1096,6,3],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a25f2a5b97cdd0d5ee002675a7aad7b24":[6,1,0,0,2,1096,6,2],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a25f2a5b97cdd0d5ee002675a7aad7b24":[6,1,1,0,1,1096,6,2],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a5e6f1e066aef10e5279b2fe45096b569":[6,1,0,0,2,1096,6,4],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a5e6f1e066aef10e5279b2fe45096b569":[6,1,1,0,1,1096,6,4],
 "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a655a99cf95e1c1f2f3711747e0fd2226":[6,1,0,0,2,1096,6,1],
 "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a655a99cf95e1c1f2f3711747e0fd2226":[6,1,1,0,1,1096,6,1],
 "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#aef19154693429e646b23a1e6b00937a7":[6,1,0,0,2,1096,6,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX105 =
 "classmrmeshpy_1_1WeightedVertex.html":[6,1,0,0,2,1112],
 "classmrmeshpy_1_1WeightedVertex.html":[6,1,1,0,1,1112],
 "classmrmeshpy_1_1WeightedVertex.html#a78d7c6a5d4bc95dfe91265a273468e13":[6,1,0,0,2,1112,1],
-"classmrmeshpy_1_1WeightedVertex.html#a78d7c6a5d4bc95dfe91265a273468e13":[6,1,1,0,1,1112,1]
+"classmrmeshpy_1_1WeightedVertex.html#a78d7c6a5d4bc95dfe91265a273468e13":[6,1,1,0,1,1112,1],
+"classmrmeshpy_1_1WeightedVertex.html#aeea90b1cada6b7e7b374a2c29f0599be":[6,1,0,0,2,1112,0],
+"classmrmeshpy_1_1WeightedVertex.html#aeea90b1cada6b7e7b374a2c29f0599be":[6,1,1,0,1,1112,0],
+"classmrmeshpy_1_1WeightedVertex.html#af96dfb0ccfd4157c0a7903c33b33a310":[6,1,0,0,2,1112,2],
+"classmrmeshpy_1_1WeightedVertex.html#af96dfb0ccfd4157c0a7903c33b33a310":[6,1,1,0,1,1112,2],
+"classmrmeshpy_1_1WholeEdgeBMap.html":[6,1,0,0,2,1113],
+"classmrmeshpy_1_1WholeEdgeBMap.html":[6,1,1,0,1,1113],
+"classmrmeshpy_1_1WholeEdgeBMap.html#a4db5e43cc1c8576cdc30155813ffd89e":[6,1,0,0,2,1113,1],
+"classmrmeshpy_1_1WholeEdgeBMap.html#a4db5e43cc1c8576cdc30155813ffd89e":[6,1,1,0,1,1113,1]
 };
