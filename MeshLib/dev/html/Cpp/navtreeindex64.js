@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,2,0,1,132,8],
+"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,1,0,1,148,0],
 "structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,2,0,1,132,0],
 "structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,1,0,1,148,5],
 "structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,2,0,1,132,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DirectoryRecursiveIterator.html#af1ca3bdb83138eed5c4e5dd621505ffb":[6,0,1,0,1,182,1],
 "structMR_1_1DirectoryRecursiveIterator.html#af1ca3bdb83138eed5c4e5dd621505ffb":[6,0,2,0,1,166,1],
 "structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20":[6,0,1,0,1,182,3],
-"structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20":[6,0,2,0,1,166,3],
-"structMR_1_1Dirty.html":[6,0,0,11,2,4],
-"structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[6,0,0,11,2,4,0]
+"structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20":[6,0,2,0,1,166,3]
 };

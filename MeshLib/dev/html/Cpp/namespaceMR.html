@@ -4089,16 +4089,24 @@ Functions</h2></td></tr>
 <tr class="separator:a25b8519c51156d97c8e543749b003fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bdf9f3c718616502649bc34a80ac976" id="r_a1bdf9f3c718616502649bc34a80ac976"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1bdf9f3c718616502649bc34a80ac976"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1bdf9f3c718616502649bc34a80ac976">sqr</a> (T x) noexcept</td></tr>
+<tr class="memdesc:a1bdf9f3c718616502649bc34a80ac976"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared value  <br /></td></tr>
 <tr class="separator:a1bdf9f3c718616502649bc34a80ac976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86bf24d57f63afab9354505400a0e82c" id="r_a86bf24d57f63afab9354505400a0e82c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a86bf24d57f63afab9354505400a0e82c"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a86bf24d57f63afab9354505400a0e82c">sgn</a> (T x) noexcept</td></tr>
+<tr class="memdesc:a86bf24d57f63afab9354505400a0e82c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sign of given value in { -1, 0, 1 }  <br /></td></tr>
 <tr class="separator:a86bf24d57f63afab9354505400a0e82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bbe103235cb82270d98d373ac2da406" id="r_a8bbe103235cb82270d98d373ac2da406"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8bbe103235cb82270d98d373ac2da406"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8bbe103235cb82270d98d373ac2da406">distance</a> (T x, T y) noexcept</td></tr>
+<tr class="memdesc:a8bbe103235cb82270d98d373ac2da406"><td class="mdescLeft">&#160;</td><td class="mdescRight">absolute difference between two value  <br /></td></tr>
 <tr class="separator:a8bbe103235cb82270d98d373ac2da406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6378c438e076ed530da1f0c964249855" id="r_a6378c438e076ed530da1f0c964249855"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a6378c438e076ed530da1f0c964249855"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a6378c438e076ed530da1f0c964249855">distanceSq</a> (T x, T y) noexcept</td></tr>
+<tr class="memdesc:a6378c438e076ed530da1f0c964249855"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared difference between two value  <br /></td></tr>
 <tr class="separator:a6378c438e076ed530da1f0c964249855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedf6d080f6840c8f336d5bce0c9f87a" id="r_abedf6d080f6840c8f336d5bce0c9f87a"><td class="memTemplParams" colspan="2">template&lt;typename V , typename T &gt; </td></tr>
+<tr class="memitem:abedf6d080f6840c8f336d5bce0c9f87a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abedf6d080f6840c8f336d5bce0c9f87a">lerp</a> (V v0, V v1, T t) noexcept</td></tr>
+<tr class="memdesc:abedf6d080f6840c8f336d5bce0c9f87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear interpolation: returns v0 when t==0 and v1 when t==1.  <br /></td></tr>
+<tr class="separator:abedf6d080f6840c8f336d5bce0c9f87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80e6b953fc44378e5898ba71b21f216a" id="r_a80e6b953fc44378e5898ba71b21f216a"><td class="memTemplParams" colspan="2">template&lt;class... Ts&gt; </td></tr>
 <tr class="memitem:a80e6b953fc44378e5898ba71b21f216a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a80e6b953fc44378e5898ba71b21f216a">overloaded</a> (Ts...) -&gt; overloaded&lt; Ts... &gt;</td></tr>
 <tr class="separator:a80e6b953fc44378e5898ba71b21f216a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -13685,6 +13693,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>absolute difference between two value </p>
+
 </div>
 </div>
 <a id="a6378c438e076ed530da1f0c964249855" name="a6378c438e076ed530da1f0c964249855"></a>
@@ -13715,6 +13725,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>squared difference between two value </p>
 
 </div>
 </div>
@@ -20946,6 +20958,44 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abedf6d080f6840c8f336d5bce0c9f87a" name="abedf6d080f6840c8f336d5bce0c9f87a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedf6d080f6840c8f336d5bce0c9f87a">&#9670;&#160;</a></span>lerp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V , typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::lerp </td>
+          <td>(</td>
+          <td class="paramtype">V</td>          <td class="paramname"><span class="paramname"><em>v0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V</td>          <td class="paramname"><span class="paramname"><em>v1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linear interpolation: returns v0 when t==0 and v1 when t==1. </p>
 
 </div>
 </div>
@@ -30150,6 +30200,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>sign of given value in { -1, 0, 1 } </p>
+
 </div>
 </div>
 <a id="ae0adbc499dc9ddb3d23854c708bccc3f" name="ae0adbc499dc9ddb3d23854c708bccc3f"></a>
@@ -30616,6 +30668,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>squared value </p>
 
 </div>
 </div>

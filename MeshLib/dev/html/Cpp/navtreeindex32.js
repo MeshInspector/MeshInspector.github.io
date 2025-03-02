@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1ObjectPointsHolder.html#aee16d2b8918460907bba03f68431314c":[6,0,2,0,1,402,41],
 "classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af":[6,0,1,0,1,418,53],
 "classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af":[6,0,2,0,1,402,53],
 "classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e":[6,0,1,0,1,418,56],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1PartialChangeMeshAction.html#a677e3ef484c3decb94df9b1ce351cfdf":[6,0,0,4,36,3],
 "classMR_1_1PartialChangeMeshAction.html#ac0f4b54184a26f86a0cc6d39d093506e":[6,0,0,4,36,2],
 "classMR_1_1PartialChangeMeshAction.html#ad914ee31862cd630b0890770d0191df2":[6,0,0,4,36,0],
-"classMR_1_1PartialChangeMeshAction.html#ade6dceb9fa790192de46869cae89ab8f":[6,0,0,4,36,4],
-"classMR_1_1PartialChangeMeshAction.html#aed7f35076e8508987ce40affd1d98e1c":[6,0,0,4,36,1]
+"classMR_1_1PartialChangeMeshAction.html#ade6dceb9fa790192de46869cae89ab8f":[6,0,0,4,36,4]
 };

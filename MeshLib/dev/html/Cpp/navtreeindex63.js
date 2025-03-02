@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html#aa0c81d5bd817513cae1dca00c0f1d0e7":[6,0,2,0,1,58,2],
+"structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,1,0,1,74,7],
 "structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,2,0,1,58,7],
 "structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,1,0,1,74,8],
 "structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,2,0,1,58,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,2,0,1,131,0],
 "structMR_1_1ConeFittingFunctor.html":[6,0,1,0,1,148],
 "structMR_1_1ConeFittingFunctor.html":[6,0,2,0,1,132],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,148,8],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,2,0,1,132,8],
-"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,1,0,1,148,0]
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,148,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRPolylineRelax_8h_source.html":[6,0,3,0,0,1,4,286],
 "MRPolylineSubdivide_8h.html":[6,0,3,0,0,1,4,287],
 "MRPolylineSubdivide_8h_source.html":[6,0,3,0,0,1,4,287],
 "MRPolylineTopology_8h.html":[6,0,3,0,0,1,4,288],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MRRibbonConstants_8h.html#aa11041a14963784ef3f797b273afdcd0":[6,0,3,0,0,1,10,78,13],
 "MRRibbonConstants_8h.html#aa1ae7e72880bd59893da014002b30c09":[6,0,3,0,0,1,10,78,29],
 "MRRibbonConstants_8h.html#aa6af57435d9acbae46e95d40e73edc24":[6,0,3,0,0,1,10,78,17],
-"MRRibbonConstants_8h.html#aaaac3eef6fa84776b2bf2bcd9c77e1fd":[6,0,3,0,0,1,10,78,40],
-"MRRibbonConstants_8h.html#aac592de3f9df1139cad7ffbcdbadea5b":[6,0,3,0,0,1,10,78,49]
+"MRRibbonConstants_8h.html#aaaac3eef6fa84776b2bf2bcd9c77e1fd":[6,0,3,0,0,1,10,78,40]
 };
