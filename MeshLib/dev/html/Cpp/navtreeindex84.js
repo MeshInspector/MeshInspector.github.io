@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,1,0,1,722,1],
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,2,0,1,706,1],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#aa6933497906e7baf8dd6f57ebded16c4":[6,0,1,0,1,722,0],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#aa6933497906e7baf8dd6f57ebded16c4":[6,0,2,0,1,706,0],
 "structMR_1_1VectorTraits_3_01ImVec4_01_4.html":[6,0,1,0,1,723],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a52315365a6d8090680080cd9e1d62360":[6,0,2,0,1,748,0,7],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a5c26879d176c92192f673552c21b3ea9":[6,0,1,0,1,764,0,4],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a5c26879d176c92192f673552c21b3ea9":[6,0,2,0,1,748,0,4],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a6505f36f6b37f2d51d0564a3de4b98e0":[6,0,1,0,1,764,0,0],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a6505f36f6b37f2d51d0564a3de4b98e0":[6,0,2,0,1,748,0,0],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a890dc5714dfd53c95b4678e7afd830d0":[6,0,1,0,1,764,0,5]
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a6505f36f6b37f2d51d0564a3de4b98e0":[6,0,1,0,1,764,0,0]
 };

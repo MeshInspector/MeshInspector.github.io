@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1UnitSettings.html#a095d298e864fff2df5d9ec05315d6d8b":[6,0,1,0,1,39,7],
+"namespaceMR_1_1UnitSettings.html#a17f256d60a5bca751f33412395fcfa86":[6,0,1,0,1,39,10],
 "namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5":[6,0,1,0,1,39,0],
 "namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414":[6,0,1,0,1,39,8],
 "namespaceMR_1_1UnitSettings.html#a3828878d9371fdeec0058499a90a773c":[6,0,1,0,1,39,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[6,0,2,0,20,2],
 "structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[6,0,2,0,20,1],
 "structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,20,0],
-"structMRFixSelfIntersectionsSettings.html":[6,0,2,0,21],
-"structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[6,0,2,0,21,2],
-"structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[6,0,2,0,21,1]
+"structMRFixSelfIntersectionsSettings.html":[6,0,2,0,21]
 };

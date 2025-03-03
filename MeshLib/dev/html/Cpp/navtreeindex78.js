@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,1,0,1,30,4,4],
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,2,0,1,17,4,4],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,1,0,1,30,4,3],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,2,0,1,17,4,3],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,1,0,1,30,4,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a43615b4c697c70edde4f7fc5fab75a2a":[6,0,2,0,1,20,0,3],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[6,0,1,0,1,33,0,4],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[6,0,2,0,1,20,0,4],
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[6,0,1,0,1,33,0,1],
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[6,0,2,0,1,20,0,1],
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f":[6,0,1,0,1,33,0,2]
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[6,0,1,0,1,33,0,1]
 };

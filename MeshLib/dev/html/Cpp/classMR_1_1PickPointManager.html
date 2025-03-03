@@ -213,6 +213,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aead9be191022d11da51d4eb2f8127735" id="r_aead9be191022d11da51d4eb2f8127735"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead9be191022d11da51d4eb2f8127735">isClosedCountour</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj) const</td></tr>
 <tr class="memdesc:aead9be191022d11da51d4eb2f8127735"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the contour is closed for a particular object.  <br /></td></tr>
 <tr class="separator:aead9be191022d11da51d4eb2f8127735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc30aaa3b2d5dea491584b3a5e6bf4c5" id="r_adc30aaa3b2d5dea491584b3a5e6bf4c5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc30aaa3b2d5dea491584b3a5e6bf4c5">numPickPoints</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj) const</td></tr>
+<tr class="memdesc:adc30aaa3b2d5dea491584b3a5e6bf4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the total number of pick points (including extra point if the contour is closed) on given object  <br /></td></tr>
+<tr class="separator:adc30aaa3b2d5dea491584b3a5e6bf4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd198214161345e35723084cbe16222f" id="r_afd198214161345e35723084cbe16222f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::shared_ptr&lt; <a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd198214161345e35723084cbe16222f">getPointWidget</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int index) const</td></tr>
 <tr class="memdesc:afd198214161345e35723084cbe16222f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns point widget by index from given object or nullptr if no such widget exists  <br /></td></tr>
 <tr class="separator:afd198214161345e35723084cbe16222f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -662,6 +665,33 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>check whether the contour is closed for a particular object. </p>
+
+</div>
+</div>
+<a id="adc30aaa3b2d5dea491584b3a5e6bf4c5" name="adc30aaa3b2d5dea491584b3a5e6bf4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc30aaa3b2d5dea491584b3a5e6bf4c5">&#9670;&#160;</a></span>numPickPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API size_t MR::PickPointManager::numPickPoints </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the total number of pick points (including extra point if the contour is closed) on given object </p>
 
 </div>
 </div>
