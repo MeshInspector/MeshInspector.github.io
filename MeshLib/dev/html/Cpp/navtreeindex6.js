@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMeshMetrics_8h.html#a4479a552d8a3c47063066fd7c9261f3d":[6,0,3,0,0,1,5,38,8],
+"MRMeshC_2MRMeshMetrics_8h.html#a6882ccc857733c7a6fe9feb52ae94c93":[6,0,3,0,0,1,5,38,4],
 "MRMeshC_2MRMeshMetrics_8h.html#a6cf2d2dfd31a4567f61d5c74c253819d":[6,0,3,0,0,1,5,38,6],
 "MRMeshC_2MRMeshMetrics_8h.html#a8d1bbea24e1fb3709f9b1b830d170aee":[6,0,3,0,0,1,5,38,0],
 "MRMeshC_2MRMeshMetrics_8h.html#a961736cc9fff9092b4fda1fdf0070c34":[6,0,3,0,0,1,5,38,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRVDBConversions_8h.html#a7c5a04688d4449870c8b2c5260cf5f66a8da60118239ad7b7baba1daa7f251437":[6,0,3,0,0,1,5,68,5,0],
 "MRMeshC_2MRVDBConversions_8h.html#a7c5a04688d4449870c8b2c5260cf5f66ad09687fd330b69f9f92b925324c122d1":[6,0,3,0,0,1,5,68,5,1],
 "MRMeshC_2MRVDBConversions_8h.html#a8aeec2f03120c5296c5a04bba0718de9":[6,0,3,0,0,1,5,68,9],
-"MRMeshC_2MRVDBConversions_8h.html#a9b32ebfac5b30064a910551cb205f8f3":[6,0,3,0,0,1,5,68,2],
-"MRMeshC_2MRVDBConversions_8h.html#ac51b5972a98776adb6111a1ba2be4b8d":[6,0,3,0,0,1,5,68,7],
-"MRMeshC_2MRVDBConversions_8h.html#acb0060e1c24f897daac93765fb7cbbac":[6,0,3,0,0,1,5,68,8]
+"MRMeshC_2MRVDBConversions_8h.html#a9b32ebfac5b30064a910551cb205f8f3":[6,0,3,0,0,1,5,68,2]
 };

@@ -33,9 +33,10 @@ var searchData=
   ['converttofloatvector2_30',['ConvertToFloatVector2',['../namespaceMR.html#a99bc296c2e6fee9ad9798298d3e942ab',1,'MR']]],
   ['converttointvector_31',['ConvertToIntVector',['../namespaceMR.html#ab81d3ad87ff9cd57deee77336ddf83e1',1,'MR']]],
   ['converttointvector2_32',['ConvertToIntVector2',['../namespaceMR.html#a9966302a175074e0eccc6f6af09819e3',1,'MR']]],
-  ['cudafreememoryfunc_33',['CudaFreeMemoryFunc',['../classMR_1_1CudaAccessor.html#aa67f49b71c900e67a603dc5a6960d567',1,'MR::CudaAccessor']]],
-  ['cudafwnconstructor_34',['CudaFwnConstructor',['../classMR_1_1CudaAccessor.html#a29c59af2c526ce1b2b126dd201c3a7fb',1,'MR::CudaAccessor']]],
-  ['cudameshprojectorconstructor_35',['CudaMeshProjectorConstructor',['../classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9',1,'MR::CudaAccessor']]],
-  ['cudapointstodistancevolumecallback_36',['CudaPointsToDistanceVolumeCallback',['../classMR_1_1CudaAccessor.html#a7acccf65074e9ea99f88143c0ba0816a',1,'MR::CudaAccessor']]],
-  ['cursorentrancesignal_37',['CursorEntranceSignal',['../classMR_1_1Viewer.html#a2af4faf6f3c5c1c112b74670726a060f',1,'MR::Viewer']]]
+  ['cubicbeziercurve3_33',['CubicBezierCurve3',['../namespaceMR.html#a276ec0bff54ddd0554c26d4d2fa1d0f2',1,'MR']]],
+  ['cudafreememoryfunc_34',['CudaFreeMemoryFunc',['../classMR_1_1CudaAccessor.html#aa67f49b71c900e67a603dc5a6960d567',1,'MR::CudaAccessor']]],
+  ['cudafwnconstructor_35',['CudaFwnConstructor',['../classMR_1_1CudaAccessor.html#a29c59af2c526ce1b2b126dd201c3a7fb',1,'MR::CudaAccessor']]],
+  ['cudameshprojectorconstructor_36',['CudaMeshProjectorConstructor',['../classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9',1,'MR::CudaAccessor']]],
+  ['cudapointstodistancevolumecallback_37',['CudaPointsToDistanceVolumeCallback',['../classMR_1_1CudaAccessor.html#a7acccf65074e9ea99f88143c0ba0816a',1,'MR::CudaAccessor']]],
+  ['cursorentrancesignal_38',['CursorEntranceSignal',['../classMR_1_1Viewer.html#a2af4faf6f3c5c1c112b74670726a060f',1,'MR::Viewer']]]
 ];

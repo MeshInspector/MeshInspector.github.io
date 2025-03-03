@@ -27,5 +27,5 @@ var searchData=
   ['voxelsmetric_24',['VoxelsMetric',['../../Cpp/group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR::VoxelsMetric'],['../../Cpp/group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR::VoxelsMetric']]],
   ['voxelssaver_25',['VoxelsSaver',['../../Cpp/namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176',1,'MR::VoxelsSave']]],
   ['voxelvaluegetter_26',['VoxelValueGetter',['../../Cpp/namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f',1,'MR']]],
-  ['vtraits_27',['VTraits',['../../Cpp/structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd',1,'MR::Ball::VTraits'],['../../Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits']]]
+  ['vtraits_27',['VTraits',['../../Cpp/structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd',1,'MR::Ball::VTraits'],['../../Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits'],['../../Cpp/structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b',1,'MR::CubicBezierCurve::VTraits']]]
 ];

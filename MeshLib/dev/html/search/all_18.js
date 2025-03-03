@@ -468,5 +468,5 @@ var searchData=
   ['vs_20double_465',['Float vs Double',['../FloatVSDouble.html',1,'']]],
   ['vs_20double_3a_20a_20design_20choice_20for_20precision_20and_20performance_20in_20c_466',['Float vs Double: A Design Choice for Precision and Performance in C++',['../FloatVSDouble.html#autotoc_md66',1,'']]],
   ['vs_20performance_3a_20key_20considerations_467',['Precision vs. Performance: Key Considerations',['../FloatVSDouble.html#autotoc_md67',1,'']]],
-  ['vtraits_468',['VTraits',['.././Cpp/structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd',1,'MR::Ball::VTraits'],['.././Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits'],['.././Py/classmrmeshpy_1_1Box__unsigned__short.html#ad2c669dcd25502bcf44635d7bfb2b919',1,'mrmeshpy::Box_unsigned_short::VTraits']]]
+  ['vtraits_468',['VTraits',['.././Cpp/structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd',1,'MR::Ball::VTraits'],['.././Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits'],['.././Cpp/structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b',1,'MR::CubicBezierCurve::VTraits'],['.././Py/classmrmeshpy_1_1Box__unsigned__short.html#ad2c669dcd25502bcf44635d7bfb2b919',1,'mrmeshpy::Box_unsigned_short::VTraits']]]
 ];

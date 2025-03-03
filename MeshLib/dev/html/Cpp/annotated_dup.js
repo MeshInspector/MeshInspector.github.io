@@ -315,6 +315,7 @@ var annotated_dup =
       [ "ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", "structMR_1_1ContourToDistanceMapParams" ],
       [ "CoordinateConverters", "structMR_1_1CoordinateConverters.html", "structMR_1_1CoordinateConverters" ],
       [ "CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", "structMR_1_1CoordinateConverters2" ],
+      [ "CubicBezierCurve", "structMR_1_1CubicBezierCurve.html", "structMR_1_1CubicBezierCurve" ],
       [ "CudaAccessor", "classMR_1_1CudaAccessor.html", "classMR_1_1CudaAccessor" ],
       [ "CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", "structMR_1_1CursorEntranceListener" ],
       [ "CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", "structMR_1_1CustomButtonParameters" ],

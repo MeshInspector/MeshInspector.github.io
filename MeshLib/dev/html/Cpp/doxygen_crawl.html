@@ -74,6 +74,7 @@
 <a href="MRBestFitParabola_8h_source.html"/>
 <a href="MRBestFitPolynomial_8h_source.html"/>
 <a href="MRBestFitQuadric_8h_source.html"/>
+<a href="MRBezier_8h_source.html"/>
 <a href="MRMesh_2MRBitSet_8h_source.html"/>
 <a href="MRMeshC_2MRBitSet_8h_source.html"/>
 <a href="MRTestC_2MRBitSet_8h_source.html"/>
@@ -787,6 +788,7 @@
 <a href="MRBestFitParabola_8h.html"/>
 <a href="MRBestFitPolynomial_8h.html"/>
 <a href="MRBestFitQuadric_8h.html"/>
+<a href="MRBezier_8h.html"/>
 <a href="MRMesh_2MRBitSet_8h.html"/>
 <a href="MRMeshC_2MRBitSet_8h.html"/>
 <a href="MRTestC_2MRBitSet_8h.html"/>
@@ -1900,6 +1902,8 @@
 <a href="structMR_1_1CoordinateConverters-members.html"/>
 <a href="structMR_1_1CoordinateConverters2.html"/>
 <a href="structMR_1_1CoordinateConverters2-members.html"/>
+<a href="structMR_1_1CubicBezierCurve.html"/>
+<a href="structMR_1_1CubicBezierCurve-members.html"/>
 <a href="classMR_1_1CudaAccessor.html"/>
 <a href="classMR_1_1CudaAccessor-members.html"/>
 <a href="structMR_1_1CursorEntranceListener.html"/>
@@ -4116,6 +4120,7 @@
 <a href="MRBestFit_8h.html#ga9bca49efd608d5a3ee129ae497696532"/>
 <a href="MRBestFit_8h.html#gaa782086a9c5b4c3f2fc9a0c19bb2a4c7"/>
 <a href="MRBestFit_8h.html#gabf09681953aae673c37c9121925a3aab"/>
+<a href="MRBezier_8h.html"/>
 <a href="MRBinaryOperationsPlugin_8h.html"/>
 <a href="MRBitSetParallelFor_8h.html"/>
 <a href="MRBitSetParallelFor_8h.html#a003ae747d026a9348bbd8cf8eb29b30f"/>
@@ -5956,6 +5961,7 @@
 <a href="MRMesh_2MRMeshFwd_8h.html#a04c9a5f04585aa8c5818315dfbf0fe8e"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a05d4e4903837647940c265c6939dcfdf"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a0644533afbeab941be3a4178a8feb4fe"/>
+<a href="MRMesh_2MRMeshFwd_8h.html#a0644c25b0eb9ca786d61b1c4839bea25"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a099da1b4cb4b8348ee3fed0588b01aa3"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a0cc9f139078c5c5597f9bb7465fd7fda"/>
@@ -5986,6 +5992,7 @@
 <a href="MRMesh_2MRMeshFwd_8h.html#a25b8519c51156d97c8e543749b003fb1"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a2690a70b32cd0408ea2263bfc9a9f436"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a26a9c4d938d2aad6dc0bada8d3f83535"/>
+<a href="MRMesh_2MRMeshFwd_8h.html#a276ec0bff54ddd0554c26d4d2fa1d0f2"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a28ad0ea821b120682bcfbd322884af64"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a2b15c0d875f91b8c0da03e651251832b"/>
 <a href="MRMesh_2MRMeshFwd_8h.html#a2bd3b23d498c69cd04c544b6c7068f3a"/>
@@ -14416,6 +14423,7 @@
 <a href="namespaceMR.html#a05e67fe513dddb7486b86a59420ff5da"/>
 <a href="namespaceMR.html#a063c104022f7dee6a63efd4b129f4779"/>
 <a href="namespaceMR.html#a0644533afbeab941be3a4178a8feb4fe"/>
+<a href="namespaceMR.html#a0644c25b0eb9ca786d61b1c4839bea25"/>
 <a href="namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75"/>
 <a href="namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a25b5eb3bbef15385b5f5ff3abe46f342"/>
 <a href="namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6adf97f83acf6453d4a6a4b1070f3754"/>
@@ -14626,6 +14634,7 @@
 <a href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba"/>
 <a href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca"/>
 <a href="namespaceMR.html#a27575a581409754718e3440d21583420"/>
+<a href="namespaceMR.html#a276ec0bff54ddd0554c26d4d2fa1d0f2"/>
 <a href="namespaceMR.html#a2780b3d4b6af333b3d16f30fc3cc0ff0"/>
 <a href="namespaceMR.html#a27899d08f51f8b1106ec145d7a116f9f"/>
 <a href="namespaceMR.html#a27a7fa634079190a11f77bd562e05d60"/>
@@ -16951,6 +16960,12 @@
 <a href="structMR_1_1CoordinateConverters2.html"/>
 <a href="structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46"/>
 <a href="structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c"/>
+<a href="structMR_1_1CubicBezierCurve.html"/>
+<a href="structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06"/>
+<a href="structMR_1_1CubicBezierCurve.html#a6b83dc1d69f50bd387ec3bf5392c92c2"/>
+<a href="structMR_1_1CubicBezierCurve.html#a808273a91fc951f1b82faa9424e6451e"/>
+<a href="structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b"/>
+<a href="structMR_1_1CubicBezierCurve.html#ac89e37ab87d7a669e55d9c9ca0f3eb66"/>
 <a href="structMR_1_1CursorEntranceListener.html"/>
 <a href="structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841"/>
 <a href="structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b"/>

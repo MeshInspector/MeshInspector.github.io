@@ -452,5 +452,5 @@ var searchData=
   ['voxeltraits_5fstd_5fvector_5funsigned_5fshort_449',['VoxelTraits_std_vector_unsigned_short',['../classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html',1,'mrmeshpy']]],
   ['voxelvaluegetter_450',['VoxelValueGetter',['../../Cpp/namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f',1,'MR']]],
   ['vs_20double_451',['Float vs Double',['../../FloatVSDouble.html',1,'']]],
-  ['vtraits_452',['VTraits',['../../Cpp/structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd',1,'MR::Ball::VTraits'],['../../Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits'],['../classmrmeshpy_1_1Box__unsigned__short.html#ad2c669dcd25502bcf44635d7bfb2b919',1,'mrmeshpy.Box_unsigned_short.VTraits']]]
+  ['vtraits_452',['VTraits',['../../Cpp/structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd',1,'MR::Ball::VTraits'],['../../Cpp/structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0',1,'MR::Box::VTraits'],['../../Cpp/structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b',1,'MR::CubicBezierCurve::VTraits'],['../classmrmeshpy_1_1Box__unsigned__short.html#ad2c669dcd25502bcf44635d7bfb2b919',1,'mrmeshpy.Box_unsigned_short.VTraits']]]
 ];
