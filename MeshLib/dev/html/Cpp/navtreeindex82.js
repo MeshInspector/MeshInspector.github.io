@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[6,0,1,0,1,690,0],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[6,0,2,0,1,674,0],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[6,0,1,0,1,690,3],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[6,0,2,0,1,674,3],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[6,0,1,0,1,690,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[6,0,1,0,1,38,7,0,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[6,0,2,0,1,23,6,0,0],
 "structMR_1_1UI_1_1PlotAxis.html":[6,0,1,0,1,38,8],
-"structMR_1_1UI_1_1PlotAxis.html":[6,0,2,0,1,23,7],
-"structMR_1_1UI_1_1PlotAxis.html#a07e8a2e4ecc0a1ae78ccb53e9b785255":[6,0,1,0,1,38,8,6],
-"structMR_1_1UI_1_1PlotAxis.html#a07e8a2e4ecc0a1ae78ccb53e9b785255":[6,0,2,0,1,23,7,6]
+"structMR_1_1UI_1_1PlotAxis.html":[6,0,2,0,1,23,7]
 };

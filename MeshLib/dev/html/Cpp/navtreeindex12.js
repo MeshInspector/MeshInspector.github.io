@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRRibbonConstants_8h.html#a5c83bbfbdb840f0b895746f9904ec159":[6,0,3,0,0,1,10,78,38],
 "MRRibbonConstants_8h.html#a5e91f2b6e23986c1b6506a29afbc961c":[6,0,3,0,0,1,10,78,27],
 "MRRibbonConstants_8h.html#a617cd90c338d4e739823f0bf7bc42ee4":[6,0,3,0,0,1,10,78,33],
 "MRRibbonConstants_8h.html#a6f5560d361aaab79fc35a8418362345d":[6,0,3,0,0,1,10,78,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a4b1b302ee42151094a62ab3bab19a634":[6,0,3,0,0,1,10,105,1,29],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a4ed82abe4e52451721e88dc9f0294ae4":[6,0,3,0,0,1,10,105,1,22],
 "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a4f1e306932cfcf9cbec42ff16e4397d4":[6,0,3,0,0,1,10,105,1,24],
-"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a66edf248665899f4b5430e0a6e7b5e79":[6,0,3,0,0,1,10,105,1,1],
-"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a774e1bc580a1efc6cf65fbd0e3c63e22":[6,0,3,0,0,1,10,105,1,26]
+"MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a66edf248665899f4b5430e0a6e7b5e79":[6,0,3,0,0,1,10,105,1,1]
 };

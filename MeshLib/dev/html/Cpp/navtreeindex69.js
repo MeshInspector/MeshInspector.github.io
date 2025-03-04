@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9":[6,0,2,0,1,4,1,7],
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a45f2a7a4631ecb502475eeddcf0947e8":[6,0,1,0,1,12,1,1],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a45f2a7a4631ecb502475eeddcf0947e8":[6,0,2,0,1,4,1,1],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a49e819d8fd52f135a5f61dcf9bdd1159":[6,0,1,0,1,12,1,2],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a49e819d8fd52f135a5f61dcf9bdd1159":[6,0,2,0,1,4,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f":[6,0,0,1,15,4],
 "structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[6,0,0,1,15,3],
 "structMR_1_1IsVisualizeMaskEnum.html":[6,0,0,11,2,1],
-"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,1,0,1,299],
-"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,2,0,1,283],
-"structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html":[6,0,1,0,1,300]
+"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,1,0,1,299]
 };

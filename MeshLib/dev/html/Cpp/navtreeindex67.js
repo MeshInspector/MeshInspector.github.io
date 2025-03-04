@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9":[6,0,2,0,1,2,0,0,5],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[6,0,1,0,1,6,0,0,18],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[6,0,2,0,1,2,0,0,18],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4148dbcf1b8080fed62d67986a18dee1":[6,0,1,0,1,6,0,0,1],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4148dbcf1b8080fed62d67986a18dee1":[6,0,2,0,1,2,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[6,0,1,0,1,7,1,3],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[6,0,2,0,1,3,1,3],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,1,0,1,7,1,0],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,2,0,1,3,1,0],
-"structMR_1_1FlatTree.html":[6,0,1,0,1,237],
-"structMR_1_1FlatTree.html":[6,0,2,0,1,221]
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,2,0,1,3,1,0]
 };

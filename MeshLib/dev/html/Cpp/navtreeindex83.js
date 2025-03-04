@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1UI_1_1PlotAxis.html#a07e8a2e4ecc0a1ae78ccb53e9b785255":[6,0,1,0,1,38,8,6],
+"structMR_1_1UI_1_1PlotAxis.html#a07e8a2e4ecc0a1ae78ccb53e9b785255":[6,0,2,0,1,23,7,6],
 "structMR_1_1UI_1_1PlotAxis.html#a0e51c5bc9d4ef7d750e29a744e69b2aa":[6,0,1,0,1,38,8,0],
 "structMR_1_1UI_1_1PlotAxis.html#a0e51c5bc9d4ef7d750e29a744e69b2aa":[6,0,2,0,1,23,7,0],
 "structMR_1_1UI_1_1PlotAxis.html#a4f5a326eb4b1bad75896698c5db7bca8":[6,0,1,0,1,38,8,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1Vector2.html#a121879d96138102e1471613ca1ac2815":[6,0,0,0,12,0,8],
 "structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b":[6,0,0,0,12,0,7],
 "structMR_1_1Vector2.html#a2e63fb0714c8171732a8fa4493e0c5e1":[6,0,0,0,12,0,32],
-"structMR_1_1Vector2.html#a344bd19e0a6d0ddfd67e5739333a38cd":[6,0,0,0,12,0,29],
-"structMR_1_1Vector2.html#a355c1691ed2db85225bea3e3db37a904":[6,0,0,0,12,0,25],
-"structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[6,0,0,0,12,0,2]
+"structMR_1_1Vector2.html#a344bd19e0a6d0ddfd67e5739333a38cd":[6,0,0,0,12,0,29]
 };

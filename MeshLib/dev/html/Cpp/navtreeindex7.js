@@ -179,9 +179,10 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRColor_8h_source.html":[6,0,3,0,0,1,4,58],
 "MRMesh_2MRContoursCut_8h.html":[6,0,3,0,0,1,4,68],
 "MRMesh_2MRContoursCut_8h.html#a217b7a3f4fc9168e09f3d423beb790e5":[6,0,3,0,0,1,4,68,4],
-"MRMesh_2MRContoursCut_8h.html#a4123fa411b7305bb9172a398b8cc3c51":[6,0,3,0,0,1,4,68,16],
-"MRMesh_2MRContoursCut_8h.html#a4484992ff522ddc03cd8234b7b7be226":[6,0,3,0,0,1,4,68,14],
-"MRMesh_2MRContoursCut_8h.html#afb5aa7d969d789218ae67365158331cb":[6,0,3,0,0,1,4,68,15],
+"MRMesh_2MRContoursCut_8h.html#a4123fa411b7305bb9172a398b8cc3c51":[6,0,3,0,0,1,4,68,17],
+"MRMesh_2MRContoursCut_8h.html#a4484992ff522ddc03cd8234b7b7be226":[6,0,3,0,0,1,4,68,15],
+"MRMesh_2MRContoursCut_8h.html#a634c3caa2efb7688c1bfa187112c6b99":[6,0,3,0,0,1,4,68,14],
+"MRMesh_2MRContoursCut_8h.html#afb5aa7d969d789218ae67365158331cb":[6,0,3,0,0,1,4,68,16],
 "MRMesh_2MRContoursCut_8h_source.html":[6,0,3,0,0,1,4,68],
 "MRMesh_2MRConvexHull_8h.html":[6,0,3,0,0,1,4,71],
 "MRMesh_2MRConvexHull_8h.html#a2b1ae8facc8f4e9e09073b91da0f9949":[6,0,3,0,0,1,4,71,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRId_8h.html#a4c846a23a00296bb3205029a07c86bac":[6,0,3,0,0,1,4,131,7],
 "MRMesh_2MRId_8h.html#a57aee9f1f7e0d5ef7240fcb8513963ac":[6,0,3,0,0,1,4,131,11],
 "MRMesh_2MRId_8h.html#a9ab1ddfa8621958cde8c0dd267bc9d30":[6,0,3,0,0,1,4,131,10],
-"MRMesh_2MRId_8h.html#aaabec0b590b199d56d36804df0255a3b":[6,0,3,0,0,1,4,131,3],
-"MRMesh_2MRId_8h.html#aac109a0388ac45fa4689b36534d58a8e":[6,0,3,0,0,1,4,131,12]
+"MRMesh_2MRId_8h.html#aaabec0b590b199d56d36804df0255a3b":[6,0,3,0,0,1,4,131,3]
 };

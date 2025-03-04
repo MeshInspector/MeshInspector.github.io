@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRObjectDimensionsEnum_8h_source.html":[6,0,3,0,0,1,4,232],
 "MRObjectDistanceMap_8h.html":[6,0,3,0,0,1,4,233],
 "MRObjectDistanceMap_8h_source.html":[6,0,3,0,0,1,4,233],
 "MRObjectFactory_8h.html":[6,0,3,0,0,1,4,234],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRPointsToMeshProjector_8h.html#a9190cb2d402cfa697a55e8c7d3b0616a":[6,0,3,0,0,1,4,277,4],
 "MRPointsToMeshProjector_8h.html#af932c229587a29f4c48cb5af27b2e6eb":[6,0,3,0,0,1,4,277,3],
 "MRPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,4,277],
-"MRPolyline2Collide_8h.html":[6,0,3,0,0,1,4,281],
-"MRPolyline2Collide_8h_source.html":[6,0,3,0,0,1,4,281]
+"MRPolyline2Collide_8h.html":[6,0,3,0,0,1,4,281]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,2,0,1,283],
+"structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html":[6,0,1,0,1,300],
 "structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html":[6,0,2,0,1,284],
 "structMR_1_1IsVisualizeMaskEnum_3_01LabelVisualizePropertyType_01_4.html":[6,0,1,0,1,301],
 "structMR_1_1IsVisualizeMaskEnum_3_01LabelVisualizePropertyType_01_4.html":[6,0,2,0,1,285],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f":[6,0,2,0,1,314,1,4],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0":[6,0,1,0,1,330,1,2],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0":[6,0,2,0,1,314,1,2],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf":[6,0,1,0,1,330,1,0],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf":[6,0,2,0,1,314,1,0],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa1adf8bb92d44c2f71e211d90450d693":[6,0,1,0,1,330,1,8]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf":[6,0,1,0,1,330,1,0]
 };
