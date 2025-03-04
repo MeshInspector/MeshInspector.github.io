@@ -917,6 +917,8 @@ var hierarchy =
     [ "mrmeshpy.std_array_AffineXf_Vector3_double_4", "classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4.html", null ],
     [ "mrmeshpy.std_array_AffineXf_Vector3_float_4", "classmrmeshpy_1_1std__array__AffineXf__Vector3__float__4.html", null ],
     [ "mrmeshpy.std_array_BooleanResultMapper_Maps_2", "classmrmeshpy_1_1std__array__BooleanResultMapper__Maps__2.html", null ],
+    [ "mrmeshpy.std_array_double_4", "classmrmeshpy_1_1std__array__double__4.html", null ],
+    [ "mrmeshpy.std_array_float_4", "classmrmeshpy_1_1std__array__float__4.html", null ],
     [ "mrmeshpy.std_array_Id_VertTag_3", "classmrmeshpy_1_1std__array__Id__VertTag__3.html", null ],
     [ "mrmeshpy.std_array_int_4", "classmrmeshpy_1_1std__array__int__4.html", null ],
     [ "mrmeshpy.std_array_PreciseVertCoords2_3", "classmrmeshpy_1_1std__array__PreciseVertCoords2__3.html", null ],

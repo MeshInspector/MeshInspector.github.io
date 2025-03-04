@@ -152,6 +152,7 @@ $(function(){initNavTree('classmrmeshpy_1_1CubicBezierCurve3f.html',''); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmrmeshpy_1_1CubicBezierCurve3f-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.CubicBezierCurve3f Class Reference</div></div>
@@ -166,6 +167,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6efef7c5e596dcbe90ff2cc59d04bdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9e6c31fa13003ed76ea9f5ca8dd697" id="r_abf9e6c31fa13003ed76ea9f5ca8dd697"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9e6c31fa13003ed76ea9f5ca8dd697">getPoint</a> (self, float t)</td></tr>
 <tr class="separator:abf9e6c31fa13003ed76ea9f5ca8dd697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae8dec82fd568b822f6d431d64959be0b" id="r_ae8dec82fd568b822f6d431d64959be0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__float__4.html">std_array_float_4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8dec82fd568b822f6d431d64959be0b">getWeights</a> (float t)</td></tr>
+<tr class="separator:ae8dec82fd568b822f6d431d64959be0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -237,6 +243,32 @@ Cubic Bezier curve
       </table>
 </div><div class="memdoc">
 <pre class="fragment">computes point on the curve from parameter value
+</pre> 
+</div>
+</div>
+<a id="ae8dec82fd568b822f6d431d64959be0b" name="ae8dec82fd568b822f6d431d64959be0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8dec82fd568b822f6d431d64959be0b">&#9670;&#160;</a></span>getWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__array__float__4.html">std_array_float_4</a> mrmeshpy.CubicBezierCurve3f.getWeights </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">computes weights of every control point for given parameter value, the sum of all weights is equal to 1
 </pre> 
 </div>
 </div>
