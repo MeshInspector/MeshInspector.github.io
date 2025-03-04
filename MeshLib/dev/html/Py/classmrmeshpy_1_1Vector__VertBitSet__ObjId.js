@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
     [ "clear", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ad7380505334302de90ae9728c925218e", null ],
     [ "data", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a222236af9d86115efec7279d45700835", null ],
     [ "data", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a222236af9d86115efec7279d45700835", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#abfdc4e18708d169b063a796e8270d8ee", null ],
     [ "empty", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a78414be222ba681a85d8357ecbb2f09e", null ],
     [ "endId", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a22bc98f8177019445a9044066f0b6060", null ],
     [ "front", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a25a9b6505e73074589a74f9810446d45", null ],

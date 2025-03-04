@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1SurfacePointWidget.html#a8dd6b1d6da44226abb2ebea02590229b":[6,0,2,0,1,641,11],
 "classMR_1_1SurfacePointWidget.html#a97ca2957633a2a8f6425d4f36a8df687":[6,0,1,0,1,657,6],
 "classMR_1_1SurfacePointWidget.html#a97ca2957633a2a8f6425d4f36a8df687":[6,0,2,0,1,641,6],
 "classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958":[6,0,1,0,1,657,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html":[6,0,2,0,1,23,6],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#a63aa78da589b7f78e8aa0077dc5f1102":[6,0,1,0,1,38,7,3],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#a63aa78da589b7f78e8aa0077dc5f1102":[6,0,2,0,1,23,6,3],
-"classMR_1_1UI_1_1NonOverlappingLabelTask.html#a8e5b41bf7d246095c20537503873adde":[6,0,1,0,1,38,7,4],
-"classMR_1_1UI_1_1NonOverlappingLabelTask.html#a8e5b41bf7d246095c20537503873adde":[6,0,2,0,1,23,6,4]
+"classMR_1_1UI_1_1NonOverlappingLabelTask.html#a8e5b41bf7d246095c20537503873adde":[6,0,1,0,1,38,7,4]
 };

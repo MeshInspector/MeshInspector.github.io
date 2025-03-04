@@ -21,6 +21,7 @@ var classmrmeshpy_1_1FaceScalars =
     [ "clear", "classmrmeshpy_1_1FaceScalars.html#a03da31848d9e9a241e87998135fe6dd4", null ],
     [ "data", "classmrmeshpy_1_1FaceScalars.html#a81e6ebb65cbd813e514c510e8514b05e", null ],
     [ "data", "classmrmeshpy_1_1FaceScalars.html#a81e6ebb65cbd813e514c510e8514b05e", null ],
+    [ "emplace_back", "classmrmeshpy_1_1FaceScalars.html#abf0e2314e920cd69408008c8f641d7ea", null ],
     [ "empty", "classmrmeshpy_1_1FaceScalars.html#acc500bb4e03cec903b50b9544ac7a800", null ],
     [ "endId", "classmrmeshpy_1_1FaceScalars.html#ad5a5e467efb0f6b575b77549fd1837e5", null ],
     [ "front", "classmrmeshpy_1_1FaceScalars.html#a612c484bb13feb0fb4cd75b15d9abf78", null ],

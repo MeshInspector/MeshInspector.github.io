@@ -21,6 +21,7 @@ var classmrmeshpy_1_1VertUVCoords =
     [ "clear", "classmrmeshpy_1_1VertUVCoords.html#a41b7f58cae16f3f0c17bd9b6a7be5f5d", null ],
     [ "data", "classmrmeshpy_1_1VertUVCoords.html#a8a2059032ba264571ede2796512adb0e", null ],
     [ "data", "classmrmeshpy_1_1VertUVCoords.html#a8a2059032ba264571ede2796512adb0e", null ],
+    [ "emplace_back", "classmrmeshpy_1_1VertUVCoords.html#af70c1c524b63d793220f31fb2fd9f4ce", null ],
     [ "empty", "classmrmeshpy_1_1VertUVCoords.html#a5ba8e927feef6b7d8842c2bdb88084e1", null ],
     [ "endId", "classmrmeshpy_1_1VertUVCoords.html#a9e90b4840ce51fdf8e8762b6ae4f69f2", null ],
     [ "front", "classmrmeshpy_1_1VertUVCoords.html#a1afbf0105f62432b61a752769e72bebb", null ],

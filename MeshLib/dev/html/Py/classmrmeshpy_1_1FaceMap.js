@@ -21,6 +21,7 @@ var classmrmeshpy_1_1FaceMap =
     [ "clear", "classmrmeshpy_1_1FaceMap.html#a57ee501fd87487b7116efbb469477e39", null ],
     [ "data", "classmrmeshpy_1_1FaceMap.html#a843544d819c00d2fdf1a4a90c8100bfe", null ],
     [ "data", "classmrmeshpy_1_1FaceMap.html#a843544d819c00d2fdf1a4a90c8100bfe", null ],
+    [ "emplace_back", "classmrmeshpy_1_1FaceMap.html#a9ab72fbf342e18eda831c92050c79fac", null ],
     [ "empty", "classmrmeshpy_1_1FaceMap.html#a5188d8ff16ae62a831df613159ce491e", null ],
     [ "endId", "classmrmeshpy_1_1FaceMap.html#a1f32bab02d765ec1602bb6ab26fb250f", null ],
     [ "front", "classmrmeshpy_1_1FaceMap.html#aa689719da001f1780eb2e1102585962b", null ],

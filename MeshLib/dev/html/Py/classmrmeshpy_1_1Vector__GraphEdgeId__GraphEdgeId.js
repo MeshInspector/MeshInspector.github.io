@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId =
     [ "clear", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#ad1702fbda0fb3394178745a1acdbb842", null ],
     [ "data", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a10811a752ab0a76657787247c5b80fb8", null ],
     [ "data", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a10811a752ab0a76657787247c5b80fb8", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#afd5c900569859717541c602dd085108e", null ],
     [ "empty", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a355cae4a3d25c32a8023a76862bfc29b", null ],
     [ "endId", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#ac6a6a9285182da981c35dc1232894f78", null ],
     [ "front", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#aa1ea88b84a6f3714dd43e41dc836322c", null ],

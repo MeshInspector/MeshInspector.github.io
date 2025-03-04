@@ -244,7 +244,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Vector2f
-Aliases:  Matrix2_float_VectorType, Vector_Vector2f_VertId_const_reference, Vector_Vector2f_VertId_reference, Vector_Vector2f_VertId_value_type, UVCoord
+Aliases:  Vector_Vector2f_VertId_const_reference, Vector_Vector2f_VertId_value_type, Matrix2_float_VectorType, Vector_Vector2f_VertId_reference, UVCoord
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac4ace53ad138a9ea9c2b062bdc0a9143" name="ac4ace53ad138a9ea9c2b062bdc0a9143"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4ace53ad138a9ea9c2b062bdc0a9143">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
@@ -599,7 +599,8 @@ Aliases:  Matrix2_float_VectorType, Vector_Vector2f_VertId_const_reference, Vect
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">NOTE: We use `std::declval()` in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping `a.x` and such. TODO fix this when we update libclang.
+</pre> 
 </div>
 </div>
 <a id="aa6c844c7400b6ff2980e447373a0c17d" name="aa6c844c7400b6ff2980e447373a0c17d"></a>

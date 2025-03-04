@@ -595,7 +595,8 @@ Aliases:  Matrix2_int_VectorType
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">NOTE: We use `std::declval()` in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping `a.x` and such. TODO fix this when we update libclang.
+</pre> 
 </div>
 </div>
 <a id="a8b596fa840add3f7fd81be3fa20d09cf" name="a8b596fa840add3f7fd81be3fa20d09cf"></a>

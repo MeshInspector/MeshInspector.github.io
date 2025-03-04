@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1UI.html#ae14306471133180f84a3a02650ced599":[6,0,1,0,1,38,22],
 "namespaceMR_1_1UI.html#af1937d08c3cb699681eeb7fd4dde005e":[6,0,1,0,1,38,68],
 "namespaceMR_1_1UI.html#af6f24e8f5454ee5851179f720cd07eb4":[6,0,1,0,1,38,65],
 "namespaceMR_1_1UI.html#af81d056e2ca2afaceec0e67e12ed9afb":[6,0,1,0,1,38,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2":[6,0,2,0,13,4],
 "structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1],
 "structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
-"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
-"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7]
+"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8]
 };

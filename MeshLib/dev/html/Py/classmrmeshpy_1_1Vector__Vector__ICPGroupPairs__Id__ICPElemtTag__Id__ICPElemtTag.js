@@ -19,6 +19,7 @@ var classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElem
     [ "clear", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#ac3d4e8435b81c31c9e71fd005f00585d", null ],
     [ "data", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#af8428a761b71fa9602c1e09cd5758ac7", null ],
     [ "data", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#af8428a761b71fa9602c1e09cd5758ac7", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#a78e85aed0d960ee9d02c3323b4519dab", null ],
     [ "empty", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#a1feb4cfabff0251a9ab553c2505550f8", null ],
     [ "endId", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#a15aab8d54a604f7cab922750f431b390", null ],
     [ "front", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#a7e9002387fe091379fa9f8f0f719cc70", null ],

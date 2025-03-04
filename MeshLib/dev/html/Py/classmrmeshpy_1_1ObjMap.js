@@ -21,6 +21,7 @@ var classmrmeshpy_1_1ObjMap =
     [ "clear", "classmrmeshpy_1_1ObjMap.html#a85d99bfcdc4d2bea1e1ca6ac8cb75374", null ],
     [ "data", "classmrmeshpy_1_1ObjMap.html#a3c681a8b895e83545340cfe0abbfdf6b", null ],
     [ "data", "classmrmeshpy_1_1ObjMap.html#a3c681a8b895e83545340cfe0abbfdf6b", null ],
+    [ "emplace_back", "classmrmeshpy_1_1ObjMap.html#a894e8c9940a9ef050339f846ca45f624", null ],
     [ "empty", "classmrmeshpy_1_1ObjMap.html#afe3838c6107165fb923b1c3256bca39d", null ],
     [ "endId", "classmrmeshpy_1_1ObjMap.html#a450f8a8a56fecba92104c8c6641fac91", null ],
     [ "front", "classmrmeshpy_1_1ObjMap.html#aadf4032101d3cb32d4cb3d3f56061a9c", null ],

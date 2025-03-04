@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Triangulation =
     [ "clear", "classmrmeshpy_1_1Triangulation.html#a7da76ccd9c7752de40b79a733923390e", null ],
     [ "data", "classmrmeshpy_1_1Triangulation.html#afd6bf4a8f2c4593cee59d3d6adf50b72", null ],
     [ "data", "classmrmeshpy_1_1Triangulation.html#afd6bf4a8f2c4593cee59d3d6adf50b72", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Triangulation.html#a4b00d2542d78d0cf7bfd0f2d9dc29a9e", null ],
     [ "empty", "classmrmeshpy_1_1Triangulation.html#ada41072f20d6d61d150a405cd8ba6f37", null ],
     [ "endId", "classmrmeshpy_1_1Triangulation.html#a9abed058a50ba3f0f48d799703a07018", null ],
     [ "front", "classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d", null ],

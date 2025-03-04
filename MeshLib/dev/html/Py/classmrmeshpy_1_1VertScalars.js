@@ -21,6 +21,7 @@ var classmrmeshpy_1_1VertScalars =
     [ "clear", "classmrmeshpy_1_1VertScalars.html#a8489d2db2ac94a9b036bdbd9f7bf5179", null ],
     [ "data", "classmrmeshpy_1_1VertScalars.html#aa5af5ffefc23b51ab92e34a1d190b282", null ],
     [ "data", "classmrmeshpy_1_1VertScalars.html#aa5af5ffefc23b51ab92e34a1d190b282", null ],
+    [ "emplace_back", "classmrmeshpy_1_1VertScalars.html#a205317f391324fa68a2ba639e7dd42c5", null ],
     [ "empty", "classmrmeshpy_1_1VertScalars.html#a32e2255ab0c23a2bb313818a59b05daa", null ],
     [ "endId", "classmrmeshpy_1_1VertScalars.html#a70f807f83b762cfcb57b52eef4890d27", null ],
     [ "front", "classmrmeshpy_1_1VertScalars.html#affc1cef98bed7eb34f8d7ace302fb77d", null ],

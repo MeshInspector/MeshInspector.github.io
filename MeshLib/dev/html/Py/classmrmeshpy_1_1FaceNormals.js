@@ -21,6 +21,7 @@ var classmrmeshpy_1_1FaceNormals =
     [ "clear", "classmrmeshpy_1_1FaceNormals.html#a54b5c5335a3bd83c8dfd6013995ddd60", null ],
     [ "data", "classmrmeshpy_1_1FaceNormals.html#a631f0d2b6f2099f20bf680833a656d6a", null ],
     [ "data", "classmrmeshpy_1_1FaceNormals.html#a631f0d2b6f2099f20bf680833a656d6a", null ],
+    [ "emplace_back", "classmrmeshpy_1_1FaceNormals.html#aa022f7124133607ed9a63a8249bfbcc8", null ],
     [ "empty", "classmrmeshpy_1_1FaceNormals.html#a97584e5018a86e253d461c9515fd54e5", null ],
     [ "endId", "classmrmeshpy_1_1FaceNormals.html#a188f76f53ea35d4855dce6d0e66be6c3", null ],
     [ "front", "classmrmeshpy_1_1FaceNormals.html#a2ec5ea456fce3210b1be5d370052b21f", null ],

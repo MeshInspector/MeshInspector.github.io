@@ -479,9 +479,7 @@ Aliases:  Matrix3_double_VectorType, RigidXf3_double_V, RigidScaleXf3_double_V
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\related Vector3
-\\{
-</pre> 
+
 </div>
 </div>
 <a id="ac031dba074b66b2f8210b56317f0be9e" name="ac031dba074b66b2f8210b56317f0be9e"></a>
@@ -637,7 +635,8 @@ Aliases:  Matrix3_double_VectorType, RigidXf3_double_V, RigidScaleXf3_double_V
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">NOTE: We use `std::declval()` in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping `a.x` and such. TODO fix this when we update libclang.
+</pre> 
 </div>
 </div>
 <a id="af75c067902d2defee567f9cd97a3ea91" name="af75c067902d2defee567f9cd97a3ea91"></a>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
 "structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,2],
 "structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
 "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1EdgePoint.html#a4d2be6b280e0a7eeb76615b7a1b368d6":[6,0,2,0,1,186,5],
 "structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[6,0,1,0,1,202,11],
 "structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[6,0,2,0,1,186,11],
-"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,1,0,1,202,7],
-"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,2,0,1,186,7]
+"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,1,0,1,202,7]
 };

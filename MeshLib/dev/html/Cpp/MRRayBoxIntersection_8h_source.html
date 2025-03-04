@@ -236,7 +236,7 @@ $(function(){initNavTree('MRRayBoxIntersection_8h_source.html',''); initResizabl
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581">   82</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9">rayBoxIntersect</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Box.html">Box3&lt;T&gt;</a>&amp; box, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Line.html">Line3&lt;T&gt;</a>&amp; line, T t0, T t1 )</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_struct" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes&lt;T&gt;</a> prec( line.d );</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9">rayBoxIntersect</a>( box, line, t0, t1, prec );</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9">rayBoxIntersect</a>( box, <a class="code hl_struct" href="structMR_1_1RayOrigin.html">RayOrigin&lt;T&gt;</a>( line.p ), t0, t1, prec );</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
 </div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
@@ -254,7 +254,7 @@ $(function(){initNavTree('MRRayBoxIntersection_8h_source.html',''); initResizabl
 <div class="ttc" id="astructMR_1_1RayOrigin_html"><div class="ttname"><a href="structMR_1_1RayOrigin.html">MR::RayOrigin</a></div><div class="ttdef"><b>Definition</b> MRRayBoxIntersection.h:15</div></div>
 <div class="ttc" id="astructMR_1_1RayOrigin_html_a8502e2d024f3f9f3b84ad9f25f659eb7"><div class="ttname"><a href="structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7">MR::RayOrigin::RayOrigin</a></div><div class="ttdeci">RayOrigin(const Vector3&lt; T &gt; &amp;ro)</div><div class="ttdef"><b>Definition</b> MRRayBoxIntersection.h:17</div></div>
 <div class="ttc" id="astructMR_1_1RayOrigin_html_aa0427aa4f82a36dda692826d18df40c9"><div class="ttname"><a href="structMR_1_1RayOrigin.html#aa0427aa4f82a36dda692826d18df40c9">MR::RayOrigin::p</a></div><div class="ttdeci">Vector3&lt; T &gt; p</div><div class="ttdef"><b>Definition</b> MRRayBoxIntersection.h:16</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:19</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:26</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

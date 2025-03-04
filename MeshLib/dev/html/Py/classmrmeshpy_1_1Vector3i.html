@@ -469,9 +469,7 @@ Aliases:  Matrix3_int_VectorType
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\related Vector3
-\\{
-</pre> 
+
 </div>
 </div>
 <a id="aa0f3569989e29e683a4d7a8b8c1e58ce" name="aa0f3569989e29e683a4d7a8b8c1e58ce"></a>
@@ -627,7 +625,8 @@ Aliases:  Matrix3_int_VectorType
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">NOTE: We use `std::declval()` in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping `a.x` and such. TODO fix this when we update libclang.
+</pre> 
 </div>
 </div>
 <a id="a6163781f12a444007f9d7d225f774a82" name="a6163781f12a444007f9d7d225f774a82"></a>

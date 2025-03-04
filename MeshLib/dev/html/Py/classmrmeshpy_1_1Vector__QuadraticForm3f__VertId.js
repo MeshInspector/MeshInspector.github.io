@@ -19,6 +19,7 @@ var classmrmeshpy_1_1Vector__QuadraticForm3f__VertId =
     [ "clear", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a7c87e4787aed13e9133883f6690abbda", null ],
     [ "data", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a9b486b9736e289d4e64433d575f3d1f9", null ],
     [ "data", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a9b486b9736e289d4e64433d575f3d1f9", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a3780cfd6c580407663cec4bbe66c0d16", null ],
     [ "empty", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a2485ba6e7c887e88f754666ab900d21f", null ],
     [ "endId", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#afbe21c0d8be792ad30524ac6f2b9c107", null ],
     [ "front", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a4e2f3ee243a001f522cde3ef03ded322", null ],

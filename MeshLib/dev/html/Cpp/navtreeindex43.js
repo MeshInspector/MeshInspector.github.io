@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1UI_1_1NonOverlappingLabelTask.html#a8e5b41bf7d246095c20537503873adde":[6,0,2,0,1,23,6,4],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#acde22114b2c62f6fcd3b9435679efc4e":[6,0,1,0,1,38,7,2],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#acde22114b2c62f6fcd3b9435679efc4e":[6,0,2,0,1,23,6,2],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#aeb3b781dc6c9e400a854b1ff628c17fc":[6,0,1,0,1,38,7,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Viewer.html#a37ee4eadfecfb1fcbfa53f28f4adc284":[6,0,1,0,1,732,125],
 "classMR_1_1Viewer.html#a37ee4eadfecfb1fcbfa53f28f4adc284":[6,0,2,0,1,716,125],
 "classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[6,0,1,0,1,732,48],
-"classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[6,0,2,0,1,716,48],
-"classMR_1_1Viewer.html#a4406c60c0ac846daf643a74003a00266":[6,0,1,0,1,732,173]
+"classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc":[6,0,2,0,1,716,48]
 };

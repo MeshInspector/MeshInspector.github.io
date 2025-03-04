@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag =
     [ "clear", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a57bd7d049ecfac214e90f72fea536a1a", null ],
     [ "data", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a21f39fa090f50d7fc373ddf5384f87bb", null ],
     [ "data", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a21f39fa090f50d7fc373ddf5384f87bb", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#abb0ef4890bc8dc082c07435271006edf", null ],
     [ "empty", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#acdfe715f1d94aaf44a74a1305bb9a5d6", null ],
     [ "endId", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a9c9e9f9fdfe9ea1c609f3246a0e7cb32", null ],
     [ "front", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a5d5e316bc50c289668711b90340f25ac", null ],

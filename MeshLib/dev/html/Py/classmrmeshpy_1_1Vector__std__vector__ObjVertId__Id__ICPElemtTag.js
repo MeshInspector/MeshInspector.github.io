@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag =
     [ "clear", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4f88d92fb6f4572356aa173f6d36549b", null ],
     [ "data", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#adf198034de5fd00802b2c9225049c054", null ],
     [ "data", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#adf198034de5fd00802b2c9225049c054", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4d23fd67989b14706837a5c2ae318c48", null ],
     [ "empty", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a981050fd9357f66c4bfcb8ed4925dede", null ],
     [ "endId", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a08160d315f93964e43fdfa11704d58d4", null ],
     [ "front", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ab898aa475f1e20270dcdc2daf38d15a8", null ],

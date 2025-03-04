@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__PixelId__PixelId =
     [ "clear", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a18dae991b5ca754f3f69dc16476ee6b6", null ],
     [ "data", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aefbf2b946c4c4dba00c83e315e643520", null ],
     [ "data", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aefbf2b946c4c4dba00c83e315e643520", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a58d3c77da4f593e86cc4aa6ac5c648fe", null ],
     [ "empty", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#ab63025c994fd81554adf51e6322b8d77", null ],
     [ "endId", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a1394cfddf18a7f9dbe1bad84c422c97d", null ],
     [ "front", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a43c67ded2e9f94a4bfc91deddc7aa556", null ],

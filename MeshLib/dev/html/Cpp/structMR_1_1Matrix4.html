@@ -155,6 +155,7 @@ $(function(){initNavTree('structMR_1_1Matrix4.html',''); initResizable(true); })
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="structMR_1_1Matrix4-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::Matrix4&lt; T &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a> &raquo; <a class="el" href="group__MatrixGroup.html">Matrix</a></div></div></div>
 </div><!--header-->
@@ -179,8 +180,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a83e20de940378f00e19b33ac4375d7" id="r_a9a83e20de940378f00e19b33ac4375d7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a83e20de940378f00e19b33ac4375d7">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;r, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;t)</td></tr>
 <tr class="memdesc:a9a83e20de940378f00e19b33ac4375d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from rotation matrix and translation vector  <br /></td></tr>
 <tr class="separator:a9a83e20de940378f00e19b33ac4375d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8e791018f0a65338dfe67ed598875a" id="r_a1c8e791018f0a65338dfe67ed598875a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8e791018f0a65338dfe67ed598875a">Matrix4</a> (const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt; &amp;xf)</td></tr>
-<tr class="separator:a1c8e791018f0a65338dfe67ed598875a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0556b8d62feb10af95f534b07a112f76" id="r_a0556b8d62feb10af95f534b07a112f76"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </td></tr>
+<tr class="memitem:a0556b8d62feb10af95f534b07a112f76"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0556b8d62feb10af95f534b07a112f76">Matrix4</a> (const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; &amp;xf)</td></tr>
+<tr class="separator:a0556b8d62feb10af95f534b07a112f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171" id="r_ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac6452ee6d44d0ef12ed6ea165680f171">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; U &gt; &amp;m)</td></tr>
 <tr class="separator:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,16 +231,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2968fcaeb275c69d69adefdaec46f32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae14dd0c11d00774b57b26477176eaf75" id="r_ae14dd0c11d00774b57b26477176eaf75"><td class="memItemLeft" align="right" valign="top">constexpr const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae14dd0c11d00774b57b26477176eaf75">data</a> () const</td></tr>
 <tr class="separator:ae14dd0c11d00774b57b26477176eaf75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4851d2b5257b7719eb495d118d57aafa" id="r_a4851d2b5257b7719eb495d118d57aafa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4851d2b5257b7719eb495d118d57aafa">operator+=</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a4851d2b5257b7719eb495d118d57aafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea83695b3913eaf88d402142d43445a0" id="r_aea83695b3913eaf88d402142d43445a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea83695b3913eaf88d402142d43445a0">operator-=</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:aea83695b3913eaf88d402142d43445a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b83aa70bbea736d6ffff5253debfb3b" id="r_a4b83aa70bbea736d6ffff5253debfb3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b83aa70bbea736d6ffff5253debfb3b">operator*=</a> (T b)</td></tr>
-<tr class="separator:a4b83aa70bbea736d6ffff5253debfb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf00eec3bf71a93411b50d27ce648cc8" id="r_adf00eec3bf71a93411b50d27ce648cc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf00eec3bf71a93411b50d27ce648cc8">operator/=</a> (T b)</td></tr>
-<tr class="separator:adf00eec3bf71a93411b50d27ce648cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b42a23dd36b93af1411d2dd746a432" id="r_a43b42a23dd36b93af1411d2dd746a432"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43b42a23dd36b93af1411d2dd746a432">operator AffineXf3&lt; T &gt;</a> () const</td></tr>
-<tr class="separator:a43b42a23dd36b93af1411d2dd746a432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832ac6c0d108e032f9aebad8fb9bfa3c" id="r_a832ac6c0d108e032f9aebad8fb9bfa3c"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </td></tr>
+<tr class="memitem:a832ac6c0d108e032f9aebad8fb9bfa3c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a832ac6c0d108e032f9aebad8fb9bfa3c">operator AffineXf3&lt; TT &gt;</a> () const</td></tr>
+<tr class="separator:a832ac6c0d108e032f9aebad8fb9bfa3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9ab092bcc4039bc1dfc88b1037dee99" id="r_ac9ab092bcc4039bc1dfc88b1037dee99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9ab092bcc4039bc1dfc88b1037dee99">operator()</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b) const</td></tr>
 <tr class="separator:ac9ab092bcc4039bc1dfc88b1037dee99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -264,23 +259,46 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9e0640aaf9b368a204fd42127c9e93e3" id="r_a9e0640aaf9b368a204fd42127c9e93e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e0640aaf9b368a204fd42127c9e93e3">w</a> { 0, 0, 0, 1 }</td></tr>
 <tr class="separator:a9e0640aaf9b368a204fd42127c9e93e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ae657a1e89e13302d7d15a7d02d90a08e" id="r_ae657a1e89e13302d7d15a7d02d90a08e"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae657a1e89e13302d7d15a7d02d90a08e">operator==</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:ae657a1e89e13302d7d15a7d02d90a08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0edef98e052801b43845aaa81aba98b3" id="r_a0edef98e052801b43845aaa81aba98b3"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0edef98e052801b43845aaa81aba98b3">operator!=</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a0edef98e052801b43845aaa81aba98b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc74a392ea4462c9a83060005de3b963" id="r_abc74a392ea4462c9a83060005de3b963"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc74a392ea4462c9a83060005de3b963">operator+</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="separator:abc74a392ea4462c9a83060005de3b963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd47d5dea1e6755f88d50b344b5c02f" id="r_adcd47d5dea1e6755f88d50b344b5c02f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd47d5dea1e6755f88d50b344b5c02f">operator-</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="separator:adcd47d5dea1e6755f88d50b344b5c02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500057cb8377d8e98af21e4e845e4fff" id="r_a500057cb8377d8e98af21e4e845e4fff"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a500057cb8377d8e98af21e4e845e4fff">operator*</a> (T a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="separator:a500057cb8377d8e98af21e4e845e4fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e89ca30e657c7b98b77ecfe2caa0e1" id="r_a05e89ca30e657c7b98b77ecfe2caa0e1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05e89ca30e657c7b98b77ecfe2caa0e1">operator*</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b, T a) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="separator:a05e89ca30e657c7b98b77ecfe2caa0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9af2e37a79adb3150c1d6ed3bc8f18bf" id="r_a9af2e37a79adb3150c1d6ed3bc8f18bf"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9af2e37a79adb3150c1d6ed3bc8f18bf">operator/</a> (<a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; b, T a) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;()/std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="separator:a9af2e37a79adb3150c1d6ed3bc8f18bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8f86891afe4249f0265188d68d58f0" id="r_acb8f86891afe4249f0265188d68d58f0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb8f86891afe4249f0265188d68d58f0">operator+=</a> (<a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:acb8f86891afe4249f0265188d68d58f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad779b27033e6ec76b48fdfe5aba7b8ae" id="r_ad779b27033e6ec76b48fdfe5aba7b8ae"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad779b27033e6ec76b48fdfe5aba7b8ae">operator-=</a> (<a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:ad779b27033e6ec76b48fdfe5aba7b8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad753d6087d9a0227d63d3599bcdcdf31" id="r_ad753d6087d9a0227d63d3599bcdcdf31"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad753d6087d9a0227d63d3599bcdcdf31">operator*=</a> (<a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, T b)</td></tr>
+<tr class="separator:ad753d6087d9a0227d63d3599bcdcdf31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bfff1fe6a58060ba43dda0028e7131" id="r_af7bfff1fe6a58060ba43dda0028e7131"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7bfff1fe6a58060ba43dda0028e7131">operator/=</a> (<a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, T b)</td></tr>
+<tr class="separator:af7bfff1fe6a58060ba43dda0028e7131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34fb31ad2f7afa3c87d7658070e08a5e" id="r_a34fb31ad2f7afa3c87d7658070e08a5e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34fb31ad2f7afa3c87d7658070e08a5e">operator*</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; decltype(<a class="el" href="#ab8d2624777be58e7e104a7bf446aee82">dot</a>(std::declval&lt; <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &gt;(), std::declval&lt; <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &gt;()))&gt;</td></tr>
+<tr class="memdesc:a34fb31ad2f7afa3c87d7658070e08a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">x = a * b  <br /></td></tr>
+<tr class="separator:a34fb31ad2f7afa3c87d7658070e08a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd123c699aacfa8e543247f070ae7d8" id="r_a2fd123c699aacfa8e543247f070ae7d8"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd123c699aacfa8e543247f070ae7d8">operator*</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(<a class="el" href="#ab8d2624777be58e7e104a7bf446aee82">dot</a>(std::declval&lt; <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &gt;(), std::declval&lt; <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &gt;()))&gt;</td></tr>
+<tr class="memdesc:a2fd123c699aacfa8e543247f070ae7d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">product of two matrices  <br /></td></tr>
+<tr class="separator:a2fd123c699aacfa8e543247f070ae7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="related" name="related"></a>
 Related Symbols</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p>(Note that these are not member symbols.) </p>
 </td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:a5be2b22b00513fee735321f7fdb308ef" id="r_a5be2b22b00513fee735321f7fdb308ef"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a5be2b22b00513fee735321f7fdb308ef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5be2b22b00513fee735321f7fdb308ef">operator*</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="memdesc:a5be2b22b00513fee735321f7fdb308ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">x = a * b  <br /></td></tr>
-<tr class="separator:a5be2b22b00513fee735321f7fdb308ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2480220828af2a453a7cf767ecfe462f" id="r_a2480220828af2a453a7cf767ecfe462f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2480220828af2a453a7cf767ecfe462f"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2480220828af2a453a7cf767ecfe462f">dot</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="memdesc:a2480220828af2a453a7cf767ecfe462f"><td class="mdescLeft">&#160;</td><td class="mdescRight">double-dot product: x = a : b  <br /></td></tr>
-<tr class="separator:a2480220828af2a453a7cf767ecfe462f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad64fdd214d6a74c2ef20309ba0e64c6d" id="r_ad64fdd214d6a74c2ef20309ba0e64c6d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad64fdd214d6a74c2ef20309ba0e64c6d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad64fdd214d6a74c2ef20309ba0e64c6d">operator*</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="memdesc:ad64fdd214d6a74c2ef20309ba0e64c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">product of two matrices  <br /></td></tr>
-<tr class="separator:ad64fdd214d6a74c2ef20309ba0e64c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d2624777be58e7e104a7bf446aee82" id="r_ab8d2624777be58e7e104a7bf446aee82"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab8d2624777be58e7e104a7bf446aee82"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab8d2624777be58e7e104a7bf446aee82">dot</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; decltype(dot(a.x, b.x))</td></tr>
+<tr class="memdesc:ab8d2624777be58e7e104a7bf446aee82"><td class="mdescLeft">&#160;</td><td class="mdescRight">double-dot product: x = a : b  <br /></td></tr>
+<tr class="separator:ab8d2624777be58e7e104a7bf446aee82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff9e2bc787d384454aed9377473bfdc3" id="r_aff9e2bc787d384454aed9377473bfdc3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aff9e2bc787d384454aed9377473bfdc3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aff9e2bc787d384454aed9377473bfdc3">outer</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:aff9e2bc787d384454aed9377473bfdc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">x = a * b^T  <br /></td></tr>
@@ -426,13 +444,15 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a1c8e791018f0a65338dfe67ed598875a" name="a1c8e791018f0a65338dfe67ed598875a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c8e791018f0a65338dfe67ed598875a">&#9670;&#160;</a></span>Matrix4() <span class="overload">[4/5]</span></h2>
+<a id="a0556b8d62feb10af95f534b07a112f76" name="a0556b8d62feb10af95f534b07a112f76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0556b8d62feb10af95f534b07a112f76">&#9670;&#160;</a></span>Matrix4() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -440,7 +460,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::Matrix4 </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -761,19 +781,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a43b42a23dd36b93af1411d2dd746a432" name="a43b42a23dd36b93af1411d2dd746a432"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43b42a23dd36b93af1411d2dd746a432">&#9670;&#160;</a></span>operator AffineXf3&lt; T &gt;()</h2>
+<a id="a832ac6c0d108e032f9aebad8fb9bfa3c" name="a832ac6c0d108e032f9aebad8fb9bfa3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832ac6c0d108e032f9aebad8fb9bfa3c">&#9670;&#160;</a></span>operator AffineXf3&lt; TT &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt; </td>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -866,114 +888,6 @@ template&lt;typename T &gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4b83aa70bbea736d6ffff5253debfb3b" name="a4b83aa70bbea736d6ffff5253debfb3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b83aa70bbea736d6ffff5253debfb3b">&#9670;&#160;</a></span>operator*=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator*= </td>
-          <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4851d2b5257b7719eb495d118d57aafa" name="a4851d2b5257b7719eb495d118d57aafa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4851d2b5257b7719eb495d118d57aafa">&#9670;&#160;</a></span>operator+=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator+= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aea83695b3913eaf88d402142d43445a0" name="aea83695b3913eaf88d402142d43445a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea83695b3913eaf88d402142d43445a0">&#9670;&#160;</a></span>operator-=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator-= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adf00eec3bf71a93411b50d27ce648cc8" name="adf00eec3bf71a93411b50d27ce648cc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf00eec3bf71a93411b50d27ce648cc8">&#9670;&#160;</a></span>operator/=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> &amp; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator/= </td>
-          <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1238,8 +1152,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Symbol Documentation</h2>
-<a id="a2480220828af2a453a7cf767ecfe462f" name="a2480220828af2a453a7cf767ecfe462f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2480220828af2a453a7cf767ecfe462f">&#9670;&#160;</a></span>dot()</h2>
+<a id="ab8d2624777be58e7e104a7bf446aee82" name="ab8d2624777be58e7e104a7bf446aee82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8d2624777be58e7e104a7bf446aee82">&#9670;&#160;</a></span>dot()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1250,14 +1164,15 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T dot </td>
+          <td class="memname">auto dot </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) -&gt; decltype( dot( a.x, b.x ) )
+</td>
         </tr>
       </table>
   </td>
@@ -1271,8 +1186,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ad64fdd214d6a74c2ef20309ba0e64c6d" name="ad64fdd214d6a74c2ef20309ba0e64c6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad64fdd214d6a74c2ef20309ba0e64c6d">&#9670;&#160;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+<a id="a0edef98e052801b43845aaa81aba98b3" name="a0edef98e052801b43845aaa81aba98b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0edef98e052801b43845aaa81aba98b3">&#9670;&#160;</a></span>operator!=</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1283,7 +1198,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; operator* </td>
+          <td class="memname">bool operator!= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1295,17 +1210,15 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>product of two matrices </p>
-
 </div>
 </div>
-<a id="a5be2b22b00513fee735321f7fdb308ef" name="a5be2b22b00513fee735321f7fdb308ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5be2b22b00513fee735321f7fdb308ef">&#9670;&#160;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+<a id="a2fd123c699aacfa8e543247f070ae7d8" name="a2fd123c699aacfa8e543247f070ae7d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fd123c699aacfa8e543247f070ae7d8">&#9670;&#160;</a></span>operator* <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1316,24 +1229,370 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; operator* </td>
+          <td class="memname">auto operator* </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt;decltype( <a class="el" href="#ab8d2624777be58e7e104a7bf446aee82">dot</a>( std::declval&lt;<a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;T&gt;&gt;(), std::declval&lt;<a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;T&gt;&gt;() ) )&gt;
+    </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>product of two matrices </p>
+
+</div>
+</div>
+<a id="a34fb31ad2f7afa3c87d7658070e08a5e" name="a34fb31ad2f7afa3c87d7658070e08a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34fb31ad2f7afa3c87d7658070e08a5e">&#9670;&#160;</a></span>operator* <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) -&gt; <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;decltype( <a class="el" href="#ab8d2624777be58e7e104a7bf446aee82">dot</a>( std::declval&lt;<a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;T&gt;&gt;(), std::declval&lt;<a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;T&gt;&gt;() ) )&gt;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>x = a * b </p>
+
+</div>
+</div>
+<a id="a05e89ca30e657c7b98b77ecfe2caa0e1" name="a05e89ca30e657c7b98b77ecfe2caa0e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e89ca30e657c7b98b77ecfe2caa0e1">&#9670;&#160;</a></span>operator* <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt;decltype( std::declval&lt;T&gt;() * std::declval&lt;T&gt;() )&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a500057cb8377d8e98af21e4e845e4fff" name="a500057cb8377d8e98af21e4e845e4fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500057cb8377d8e98af21e4e845e4fff">&#9670;&#160;</a></span>operator* <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto operator* </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt;decltype( std::declval&lt;T&gt;() * std::declval&lt;T&gt;() )&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad753d6087d9a0227d63d3599bcdcdf31" name="ad753d6087d9a0227d63d3599bcdcdf31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad753d6087d9a0227d63d3599bcdcdf31">&#9670;&#160;</a></span>operator*=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp; operator*= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc74a392ea4462c9a83060005de3b963" name="abc74a392ea4462c9a83060005de3b963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc74a392ea4462c9a83060005de3b963">&#9670;&#160;</a></span>operator+</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt;decltype( std::declval&lt;T&gt;() + std::declval&lt;T&gt;() )&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb8f86891afe4249f0265188d68d58f0" name="acb8f86891afe4249f0265188d68d58f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8f86891afe4249f0265188d68d58f0">&#9670;&#160;</a></span>operator+=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp; operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adcd47d5dea1e6755f88d50b344b5c02f" name="adcd47d5dea1e6755f88d50b344b5c02f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcd47d5dea1e6755f88d50b344b5c02f">&#9670;&#160;</a></span>operator-</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt;decltype( std::declval&lt;T&gt;() - std::declval&lt;T&gt;() )&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad779b27033e6ec76b48fdfe5aba7b8ae" name="ad779b27033e6ec76b48fdfe5aba7b8ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad779b27033e6ec76b48fdfe5aba7b8ae">&#9670;&#160;</a></span>operator-=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp; operator-= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9af2e37a79adb3150c1d6ed3bc8f18bf" name="a9af2e37a79adb3150c1d6ed3bc8f18bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9af2e37a79adb3150c1d6ed3bc8f18bf">&#9670;&#160;</a></span>operator/</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto operator/ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt;decltype( std::declval&lt;T&gt;() / std::declval&lt;T&gt;() )&gt;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7bfff1fe6a58060ba43dda0028e7131" name="af7bfff1fe6a58060ba43dda0028e7131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7bfff1fe6a58060ba43dda0028e7131">&#9670;&#160;</a></span>operator/=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp; operator/= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae657a1e89e13302d7d15a7d02d90a08e" name="ae657a1e89e13302d7d15a7d02d90a08e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae657a1e89e13302d7d15a7d02d90a08e">&#9670;&#160;</a></span>operator==</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId =
     [ "clear", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aab87d89cee6723c19680ec0e64216f0b", null ],
     [ "data", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a5e590f9e830e42966bdcf88f37af4ba2", null ],
     [ "data", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a5e590f9e830e42966bdcf88f37af4ba2", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#af150de576624ca65239f9ca6ca4c2550", null ],
     [ "empty", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a554ffcf920581effdfb46ed0c2a4d5ed", null ],
     [ "endId", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a9c6510ae37527f8adf292f41ceb43b6d", null ],
     [ "front", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ad4bc45df1717364895b7482ff7c18545", null ],

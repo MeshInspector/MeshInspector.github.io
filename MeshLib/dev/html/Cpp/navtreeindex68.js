@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,1,0,1,245,1,1],
 "structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,2,0,1,229,1,1],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,1,0,1,245,1,0],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,2,0,1,229,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,2,0,1,4,0,6],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,1,0,1,12,0,7],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,1,4,0,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,1,0,1,13,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,1,5,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,1,0,1,13,0]
 };

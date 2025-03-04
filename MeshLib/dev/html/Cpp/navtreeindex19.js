@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1CircleObject.html#af2c5d04b5db14f7ae8cf783c3371ff27":[6,0,0,11,0,0,4],
 "classMR_1_1ColorMapAggregator.html":[6,0,1,0,1,139],
 "classMR_1_1ColorMapAggregator.html":[6,0,2,0,1,123],
 "classMR_1_1ColorMapAggregator.html#a20df43a4a312f6aa3f049476f78584d6":[6,0,1,0,1,139,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ConeObject.html#a907b47dc446af6c29603325828130005":[6,0,0,11,0,1,28],
 "classMR_1_1ConeObject.html#a9ee28bed15c74a1c10cb9c6db8ba8b19":[6,0,0,11,0,1,11],
 "classMR_1_1ConeObject.html#a9f25917be502efa8afcdeb227140fb42":[6,0,0,11,0,1,10],
-"classMR_1_1ConeObject.html#a9f478343ae57720fcf7c3c78f01011c4":[6,0,0,11,0,1,7],
-"classMR_1_1ConeObject.html#aa6ffe65ecb905c4a85d865c70c753d4c":[6,0,0,11,0,1,26]
+"classMR_1_1ConeObject.html#a9f478343ae57720fcf7c3c78f01011c4":[6,0,0,11,0,1,7]
 };

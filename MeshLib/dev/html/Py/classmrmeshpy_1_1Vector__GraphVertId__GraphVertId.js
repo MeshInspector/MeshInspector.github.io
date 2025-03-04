@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__GraphVertId__GraphVertId =
     [ "clear", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a9fec342d5ac4c4a0eeebad5a6c69944c", null ],
     [ "data", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#ae11ee1a5b91e24f8ec04a6d4cc8d0db8", null ],
     [ "data", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#ae11ee1a5b91e24f8ec04a6d4cc8d0db8", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a0be09e0512057972aa7493076bde447b", null ],
     [ "empty", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a26c8c73f0035068066316937a4ce38d2", null ],
     [ "endId", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a33e7783937ec0129c9cf8973fe0ae8c6", null ],
     [ "front", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a4e7857d5a06e12e5c8ec3babb8b7ece5", null ],

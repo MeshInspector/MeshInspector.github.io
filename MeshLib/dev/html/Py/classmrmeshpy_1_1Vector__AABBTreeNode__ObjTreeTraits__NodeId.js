@@ -19,6 +19,7 @@ var classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId =
     [ "clear", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a1707f0576a1a5c6c5c5245506902ecc5", null ],
     [ "data", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#aaa5baa4bea9aa334df571736e47377f9", null ],
     [ "data", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#aaa5baa4bea9aa334df571736e47377f9", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a0cc6ce5c621ba648357e28c440976473", null ],
     [ "empty", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a544b00973831a0cd0815e2554b9f061f", null ],
     [ "endId", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a1b6871784f30e0000cb239a2f351fff3", null ],
     [ "front", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a4d9bc0b680afa79b7372b7f607349b55", null ],
