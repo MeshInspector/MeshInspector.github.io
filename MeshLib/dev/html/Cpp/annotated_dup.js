@@ -8,6 +8,7 @@ var annotated_dup =
     [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
+        [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
         [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ]
       ] ],
       [ "detail", "namespaceMR_1_1detail.html", [
@@ -388,6 +389,7 @@ var annotated_dup =
       [ "FindOutliersParams", "structMR_1_1FindOutliersParams.html", "structMR_1_1FindOutliersParams" ],
       [ "FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", "structMR_1_1FindOverhangsSettings" ],
       [ "FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", "structMR_1_1FindOverlappingSettings" ],
+      [ "FindProjectionOnPointsSettings", "structMR_1_1FindProjectionOnPointsSettings.html", "structMR_1_1FindProjectionOnPointsSettings" ],
       [ "FitBoxParams", "structMR_1_1FitBoxParams.html", "structMR_1_1FitBoxParams" ],
       [ "FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", "classMR_1_1FitDataMenuItem" ],
       [ "FitDataParams", "structMR_1_1FitDataParams.html", "structMR_1_1FitDataParams" ],
@@ -449,6 +451,7 @@ var annotated_dup =
       [ "IOFilter", "structMR_1_1IOFilter.html", "structMR_1_1IOFilter" ],
       [ "IPluginUpdate", "classMR_1_1IPluginUpdate.html", "classMR_1_1IPluginUpdate" ],
       [ "IPointPairs", "structMR_1_1IPointPairs.html", "structMR_1_1IPointPairs" ],
+      [ "IPointsProjector", "classMR_1_1IPointsProjector.html", "classMR_1_1IPointsProjector" ],
       [ "IPointsToMeshProjector", "classMR_1_1IPointsToMeshProjector.html", "classMR_1_1IPointsToMeshProjector" ],
       [ "IRenderObject", "classMR_1_1IRenderObject.html", "classMR_1_1IRenderObject" ],
       [ "ISceneSelectionChange", "classMR_1_1ISceneSelectionChange.html", "classMR_1_1ISceneSelectionChange" ],
@@ -641,6 +644,7 @@ var annotated_dup =
       [ "PointPairs", "structMR_1_1PointPairs.html", "structMR_1_1PointPairs" ],
       [ "PointsLoadSettings", "structMR_1_1PointsLoadSettings.html", "structMR_1_1PointsLoadSettings" ],
       [ "PointsProjectionResult", "structMR_1_1PointsProjectionResult.html", "structMR_1_1PointsProjectionResult" ],
+      [ "PointsProjector", "classMR_1_1PointsProjector.html", "classMR_1_1PointsProjector" ],
       [ "PointsToDistanceVolumeParams", "structMR_1_1PointsToDistanceVolumeParams.html", "structMR_1_1PointsToDistanceVolumeParams" ],
       [ "PointsToMeshParameters", "structMR_1_1PointsToMeshParameters.html", "structMR_1_1PointsToMeshParameters" ],
       [ "PointsToMeshProjector", "classMR_1_1PointsToMeshProjector.html", "classMR_1_1PointsToMeshProjector" ],

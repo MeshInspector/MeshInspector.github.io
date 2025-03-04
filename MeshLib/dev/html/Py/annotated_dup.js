@@ -2,6 +2,7 @@ var annotated_dup =
 [
     [ "mrcudapy", "namespacemrcudapy.html", [
       [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
+      [ "PointsProjector", "classmrcudapy_1_1PointsProjector.html", "classmrcudapy_1_1PointsProjector" ],
       [ "PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ]
     ] ],
     [ "mrmeshpy", "namespacemrmeshpy.html", [
@@ -254,6 +255,7 @@ var annotated_dup =
       [ "FindOutliersParams", "classmrmeshpy_1_1FindOutliersParams.html", "classmrmeshpy_1_1FindOutliersParams" ],
       [ "FindOverhangsSettings", "classmrmeshpy_1_1FindOverhangsSettings.html", "classmrmeshpy_1_1FindOverhangsSettings" ],
       [ "FindOverlappingSettings", "classmrmeshpy_1_1FindOverlappingSettings.html", "classmrmeshpy_1_1FindOverlappingSettings" ],
+      [ "FindProjectionOnPointsSettings", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html", "classmrmeshpy_1_1FindProjectionOnPointsSettings" ],
       [ "FixUndercuts", "classmrmeshpy_1_1FixUndercuts.html", "classmrmeshpy_1_1FixUndercuts" ],
       [ "float_output", "classmrmeshpy_1_1float__output.html", "classmrmeshpy_1_1float__output" ],
       [ "FloatGridComponents", "classmrmeshpy_1_1FloatGridComponents.html", null ],
@@ -379,6 +381,7 @@ var annotated_dup =
       [ "InTreePathBuilder", "classmrmeshpy_1_1InTreePathBuilder.html", "classmrmeshpy_1_1InTreePathBuilder" ],
       [ "IOFilter", "classmrmeshpy_1_1IOFilter.html", "classmrmeshpy_1_1IOFilter" ],
       [ "IPointPairs", "classmrmeshpy_1_1IPointPairs.html", "classmrmeshpy_1_1IPointPairs" ],
+      [ "IPointsProjector", "classmrmeshpy_1_1IPointsProjector.html", "classmrmeshpy_1_1IPointsProjector" ],
       [ "IPointsToMeshProjector", "classmrmeshpy_1_1IPointsToMeshProjector.html", "classmrmeshpy_1_1IPointsToMeshProjector" ],
       [ "IRenderObject", "classmrmeshpy_1_1IRenderObject.html", "classmrmeshpy_1_1IRenderObject" ],
       [ "IsVisualizeMaskEnum_AnyVisualizeMaskEnum", "classmrmeshpy_1_1IsVisualizeMaskEnum__AnyVisualizeMaskEnum.html", "classmrmeshpy_1_1IsVisualizeMaskEnum__AnyVisualizeMaskEnum" ],
@@ -635,6 +638,7 @@ var annotated_dup =
       [ "PointsLoad", "classmrmeshpy_1_1PointsLoad.html", "classmrmeshpy_1_1PointsLoad" ],
       [ "PointsLoadSettings", "classmrmeshpy_1_1PointsLoadSettings.html", "classmrmeshpy_1_1PointsLoadSettings" ],
       [ "PointsProjectionResult", "classmrmeshpy_1_1PointsProjectionResult.html", "classmrmeshpy_1_1PointsProjectionResult" ],
+      [ "PointsProjector", "classmrmeshpy_1_1PointsProjector.html", "classmrmeshpy_1_1PointsProjector" ],
       [ "PointsSave", "classmrmeshpy_1_1PointsSave.html", "classmrmeshpy_1_1PointsSave" ],
       [ "PointsToDistanceVolumeParams", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html", "classmrmeshpy_1_1PointsToDistanceVolumeParams" ],
       [ "PointsToMeshParameters", "classmrmeshpy_1_1PointsToMeshParameters.html", "classmrmeshpy_1_1PointsToMeshParameters" ],

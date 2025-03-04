@@ -286,6 +286,7 @@ var hierarchy =
     [ "mrmeshpy.FindOutliersParams", "classmrmeshpy_1_1FindOutliersParams.html", null ],
     [ "mrmeshpy.FindOverhangsSettings", "classmrmeshpy_1_1FindOverhangsSettings.html", null ],
     [ "mrmeshpy.FindOverlappingSettings", "classmrmeshpy_1_1FindOverlappingSettings.html", null ],
+    [ "mrmeshpy.FindProjectionOnPointsSettings", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html", null ],
     [ "mrmeshpy.FixUndercuts", "classmrmeshpy_1_1FixUndercuts.html", null ],
     [ "mrmeshpy.float_output", "classmrmeshpy_1_1float__output.html", null ],
     [ "mrmeshpy.FloatGridComponents", "classmrmeshpy_1_1FloatGridComponents.html", null ],
@@ -480,6 +481,12 @@ var hierarchy =
     [ "mrmeshpy.IPointPairs", "classmrmeshpy_1_1IPointPairs.html", [
       [ "mrmeshpy.ICPGroupPairs", "classmrmeshpy_1_1ICPGroupPairs.html", null ],
       [ "mrmeshpy.PointPairs", "classmrmeshpy_1_1PointPairs.html", null ]
+    ] ],
+    [ "meshlib.mrmeshpy.IPointsProjector", null, [
+      [ "mrcudapy.PointsProjector", "classmrcudapy_1_1PointsProjector.html", null ]
+    ] ],
+    [ "mrmeshpy.IPointsProjector", "classmrmeshpy_1_1IPointsProjector.html", [
+      [ "mrmeshpy.PointsProjector", "classmrmeshpy_1_1PointsProjector.html", null ]
     ] ],
     [ "meshlib.mrmeshpy.IPointsToMeshProjector", null, [
       [ "mrcudapy.PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", null ]

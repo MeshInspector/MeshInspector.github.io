@@ -199,6 +199,23 @@ var group__AABBTreeGroup =
       [ "distSq", "structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340", null ],
       [ "vId", "structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7", null ]
     ] ],
+    [ "MR::FindProjectionOnPointsSettings", "structMR_1_1FindProjectionOnPointsSettings.html", [
+      [ "cb", "structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220", null ],
+      [ "loDistLimitSq", "structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5", null ],
+      [ "skipSameIndex", "structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152", null ],
+      [ "upDistLimitSq", "structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379", null ],
+      [ "valid", "structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217", null ],
+      [ "xf", "structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694", null ]
+    ] ],
+    [ "MR::IPointsProjector", "classMR_1_1IPointsProjector.html", [
+      [ "~IPointsProjector", "classMR_1_1IPointsProjector.html#a2c0b970d9a78fe1a93045c851874c718", null ],
+      [ "findProjections", "classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31", null ],
+      [ "setPointCloud", "classMR_1_1IPointsProjector.html#ae6ae7b291953d433a794999d25ef10df", null ]
+    ] ],
+    [ "MR::PointsProjector", "classMR_1_1PointsProjector.html", [
+      [ "findProjections", "classMR_1_1PointsProjector.html#a7f6e0c85341469a32a8424abb1a7e25f", null ],
+      [ "setPointCloud", "classMR_1_1PointsProjector.html#abbb8bb3a25f447af9b6abe188662181a", null ]
+    ] ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [
       [ "distSq", "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8", null ],
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],

@@ -161,6 +161,8 @@ $(function(){initNavTree('namespacemrcudapy.html',''); initResizable(true); });
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1FastWindingNumber.html">FastWindingNumber</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -176,6 +178,10 @@ Functions</h2></td></tr>
 <tr class="separator:a9279d8b3b9636326c4f24d472afdff1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b49002b37ad8f472a8719e6159e44b" id="r_aa2b49002b37ad8f472a8719e6159e44b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b49002b37ad8f472a8719e6159e44b">distanceMapFromContoursHeapBytes</a> (meshlib.mrmeshpy.Polyline2 polyline, meshlib.mrmeshpy.ContourToDistanceMapParams params)</td></tr>
 <tr class="separator:aa2b49002b37ad8f472a8719e6159e44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59989212e13f232a4b791e381d5a15a0" id="r_a59989212e13f232a4b791e381d5a15a0"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.std_vector_PointsProjectionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59989212e13f232a4b791e381d5a15a0">findProjectionOnPoints</a> (meshlib.mrmeshpy.PointCloud pointCloud, meshlib.mrmeshpy.std_vector_Vector3_float points, meshlib.mrmeshpy.FindProjectionOnPointsSettings settings='{}')</td></tr>
+<tr class="separator:a59989212e13f232a4b791e381d5a15a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d73a60abca6c21fb5ef173a46f3158" id="r_a09d73a60abca6c21fb5ef173a46f3158"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d73a60abca6c21fb5ef173a46f3158">findProjectionOnPointsHeapBytes</a> (meshlib.mrmeshpy.PointCloud pointCloud, int pointsCount)</td></tr>
+<tr class="separator:a09d73a60abca6c21fb5ef173a46f3158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a331da1fe9e3cbd4669da50a822548ca3" id="r_a331da1fe9e3cbd4669da50a822548ca3"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.BitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331da1fe9e3cbd4669da50a822548ca3">findSkyRays</a> (meshlib.mrmeshpy.Mesh terrain, meshlib.mrmeshpy.VertCoords samples, meshlib.mrmeshpy.VertBitSet validSamples, meshlib.mrmeshpy.std_vector_SkyPatch skyPatches, meshlib.mrmeshpy.std_vector_MeshIntersectionResult outIntersections=None)</td></tr>
 <tr class="separator:a331da1fe9e3cbd4669da50a822548ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0b99ba36260a5a8fb0925f8dc79d28a" id="r_aa0b99ba36260a5a8fb0925f8dc79d28a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0b99ba36260a5a8fb0925f8dc79d28a">getCudaAvailableMemory</a> ()</td></tr>
@@ -184,6 +190,8 @@ Functions</h2></td></tr>
 <tr class="separator:a8a9ec4e4e7f0e927968c4198510a4d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac887b4b7e6c7b2f7fa04dbdabfe3729e" id="r_ac887b4b7e6c7b2f7fa04dbdabfe3729e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac887b4b7e6c7b2f7fa04dbdabfe3729e">isCudaAvailable</a> (meshlib.mrmeshpy.int_output driverVersion=None, meshlib.mrmeshpy.int_output runtimeVersion=None, meshlib.mrmeshpy.int_output computeMajor=None, meshlib.mrmeshpy.int_output computeMinor=None)</td></tr>
 <tr class="separator:ac887b4b7e6c7b2f7fa04dbdabfe3729e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eeb8fdf5c4a0f5fd36f5fdbcac52750" id="r_a7eeb8fdf5c4a0f5fd36f5fdbcac52750"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7eeb8fdf5c4a0f5fd36f5fdbcac52750">loadMRCudaDll</a> ()</td></tr>
+<tr class="separator:a7eeb8fdf5c4a0f5fd36f5fdbcac52750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f3d742e597ab7ff194ad31849af50ad" id="r_a0f3d742e597ab7ff194ad31849af50ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f3d742e597ab7ff194ad31849af50ad">maxBufferSize</a> (int availableBytes, int elementCount, int elementBytes)</td></tr>
 <tr class="separator:a0f3d742e597ab7ff194ad31849af50ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2da59a8bdd79841ce316551f4a414e92" id="r_a2da59a8bdd79841ce316551f4a414e92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2da59a8bdd79841ce316551f4a414e92">maxBufferSizeAlignedByBlock</a> (int availableBytes, meshlib.mrmeshpy.Vector2i blockDims, int elementBytes)</td></tr>
@@ -347,6 +355,55 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
 </pre> 
 </div>
 </div>
+<a id="a59989212e13f232a4b791e381d5a15a0" name="a59989212e13f232a4b791e381d5a15a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59989212e13f232a4b791e381d5a15a0">&#9670;&#160;</a></span>findProjectionOnPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> meshlib.mrmeshpy.std_vector_PointsProjectionResult mrcudapy.findProjectionOnPoints </td>
+          <td>(</td>
+          <td class="paramtype">meshlib.mrmeshpy.PointCloud</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">meshlib.mrmeshpy.std_vector_Vector3_float</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">meshlib.mrmeshpy.FindProjectionOnPointsSettings </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes the closest points on point cloud to given points
+</pre> 
+</div>
+</div>
+<a id="a09d73a60abca6c21fb5ef173a46f3158" name="a09d73a60abca6c21fb5ef173a46f3158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d73a60abca6c21fb5ef173a46f3158">&#9670;&#160;</a></span>findProjectionOnPointsHeapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrcudapy.findProjectionOnPointsHeapBytes </td>
+          <td>(</td>
+          <td class="paramtype">meshlib.mrmeshpy.PointCloud</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pointsCount</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the minimal amount of free GPU memory required for \\ref MR::Cuda::findProjectionOnPoints
+</pre> 
+</div>
+</div>
 <a id="a331da1fe9e3cbd4669da50a822548ca3" name="a331da1fe9e3cbd4669da50a822548ca3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a331da1fe9e3cbd4669da50a822548ca3">&#9670;&#160;</a></span>findSkyRays()</h2>
 
@@ -456,6 +513,24 @@ optional out maximum driver supported version
 optional out current runtime version
 optional out compute capability major version
 optional out compute capability minor version
+</pre> 
+</div>
+</div>
+<a id="a7eeb8fdf5c4a0f5fd36f5fdbcac52750" name="a7eeb8fdf5c4a0f5fd36f5fdbcac52750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eeb8fdf5c4a0f5fd36f5fdbcac52750">&#9670;&#160;</a></span>loadMRCudaDll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrcudapy.loadMRCudaDll </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">call this function to load MRCuda shared library
 </pre> 
 </div>
 </div>

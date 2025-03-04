@@ -363,6 +363,7 @@ var hierarchy =
     [ "MR::FindOutliersParams", "structMR_1_1FindOutliersParams.html", null ],
     [ "MR::FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", null ],
     [ "MR::FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", null ],
+    [ "MR::FindProjectionOnPointsSettings", "structMR_1_1FindProjectionOnPointsSettings.html", null ],
     [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
@@ -562,6 +563,10 @@ var hierarchy =
     [ "MR::IPointPairs", "structMR_1_1IPointPairs.html", [
       [ "MR::ICPGroupPairs", "structMR_1_1ICPGroupPairs.html", null ],
       [ "MR::PointPairs", "structMR_1_1PointPairs.html", null ]
+    ] ],
+    [ "MR::IPointsProjector", "classMR_1_1IPointsProjector.html", [
+      [ "MR::Cuda::PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", null ],
+      [ "MR::PointsProjector", "classMR_1_1PointsProjector.html", null ]
     ] ],
     [ "MR::IPointsToMeshProjector", "classMR_1_1IPointsToMeshProjector.html", [
       [ "MR::Cuda::PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", null ],
