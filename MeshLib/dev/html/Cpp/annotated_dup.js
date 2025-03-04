@@ -510,6 +510,7 @@ var annotated_dup =
       [ "MeshNormals", "structMR_1_1MeshNormals.html", "structMR_1_1MeshNormals" ],
       [ "MeshOnVoxelsT", "classMR_1_1MeshOnVoxelsT.html", "classMR_1_1MeshOnVoxelsT" ],
       [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html", "classMR_1_1MeshOrPoints" ],
+      [ "MeshOrPointsObject", "classMR_1_1MeshOrPointsObject.html", "classMR_1_1MeshOrPointsObject" ],
       [ "MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", "structMR_1_1MeshOrPointsXf" ],
       [ "MeshPoint", "structMR_1_1MeshPoint.html", "structMR_1_1MeshPoint" ],
       [ "MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", "structMR_1_1MeshProjectionParameters" ],

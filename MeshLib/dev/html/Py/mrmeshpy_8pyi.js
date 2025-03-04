@@ -454,6 +454,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.MeshOnVoxelsT_const_Mesh_VdbVolume", "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html", "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume" ],
     [ "mrmeshpy.MeshOrPoints", "classmrmeshpy_1_1MeshOrPoints.html", "classmrmeshpy_1_1MeshOrPoints" ],
     [ "mrmeshpy.MeshOrPoints.ProjectionResult", "classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html", "classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult" ],
+    [ "mrmeshpy.MeshOrPointsObject", "classmrmeshpy_1_1MeshOrPointsObject.html", "classmrmeshpy_1_1MeshOrPointsObject" ],
     [ "mrmeshpy.MeshOrPointsXf", "classmrmeshpy_1_1MeshOrPointsXf.html", "classmrmeshpy_1_1MeshOrPointsXf" ],
     [ "mrmeshpy.MeshPart", "classmrmeshpy_1_1MeshPart.html", "classmrmeshpy_1_1MeshPart" ],
     [ "mrmeshpy.MeshPoint", "classmrmeshpy_1_1MeshPoint.html", "classmrmeshpy_1_1MeshPoint" ],

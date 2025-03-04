@@ -587,6 +587,7 @@ var hierarchy =
     [ "mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html", null ],
     [ "mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume.html", null ],
     [ "mrmeshpy.MeshOrPoints", "classmrmeshpy_1_1MeshOrPoints.html", null ],
+    [ "mrmeshpy.MeshOrPointsObject", "classmrmeshpy_1_1MeshOrPointsObject.html", null ],
     [ "mrmeshpy.MeshOrPointsXf", "classmrmeshpy_1_1MeshOrPointsXf.html", null ],
     [ "mrmeshpy.MeshPart", "classmrmeshpy_1_1MeshPart.html", null ],
     [ "mrmeshpy.MeshBuilder.MeshPiece", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html", null ],

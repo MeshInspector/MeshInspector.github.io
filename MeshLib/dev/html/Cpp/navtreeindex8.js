@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"MRMesh_2MRLaplacian_8h_source.html":[6,0,3,0,0,1,4,150],
+"MRMesh_2MRMakeSphereMesh_8h.html":[6,0,3,0,0,1,4,165],
 "MRMesh_2MRMakeSphereMesh_8h.html#a63679b306dbff600a8f7c5008a489d9d":[6,0,3,0,0,1,4,165,1],
 "MRMesh_2MRMakeSphereMesh_8h.html#a669b6772939a2427c2564e7a4a66b25e":[6,0,3,0,0,1,4,165,2],
 "MRMesh_2MRMakeSphereMesh_8h_source.html":[6,0,3,0,0,1,4,165],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshLoad_8h.html#a33a202fa44283786103ea436b5804fe8":[6,0,3,0,0,1,4,198,31],
 "MRMesh_2MRMeshLoad_8h.html#a4a06d7f11e454d3c24135a5a56cd8749":[6,0,3,0,0,1,4,198,21],
 "MRMesh_2MRMeshLoad_8h.html#a4bf547159a78502b4d2f9e8cf2aac923":[6,0,3,0,0,1,4,198,23],
-"MRMesh_2MRMeshLoad_8h.html#a610eed1a8340bc4c451947f0896d89ff":[6,0,3,0,0,1,4,198,33],
-"MRMesh_2MRMeshLoad_8h.html#a6262b8245fb92449e4d3171a00433100":[6,0,3,0,0,1,4,198,20],
-"MRMesh_2MRMeshLoad_8h.html#a6ad5ce754cee93f2e689cc16272b7043":[6,0,3,0,0,1,4,198,35]
+"MRMesh_2MRMeshLoad_8h.html#a610eed1a8340bc4c451947f0896d89ff":[6,0,3,0,0,1,4,198,33]
 };

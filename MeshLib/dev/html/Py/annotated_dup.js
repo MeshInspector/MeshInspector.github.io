@@ -474,6 +474,7 @@ var annotated_dup =
       [ "MeshOnVoxelsT_Mesh_SimpleVolumeMinMax", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax" ],
       [ "MeshOnVoxelsT_Mesh_VdbVolume", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume.html", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume" ],
       [ "MeshOrPoints", "classmrmeshpy_1_1MeshOrPoints.html", "classmrmeshpy_1_1MeshOrPoints" ],
+      [ "MeshOrPointsObject", "classmrmeshpy_1_1MeshOrPointsObject.html", "classmrmeshpy_1_1MeshOrPointsObject" ],
       [ "MeshOrPointsXf", "classmrmeshpy_1_1MeshOrPointsXf.html", "classmrmeshpy_1_1MeshOrPointsXf" ],
       [ "MeshPart", "classmrmeshpy_1_1MeshPart.html", "classmrmeshpy_1_1MeshPart" ],
       [ "MeshPoint", "classmrmeshpy_1_1MeshPoint.html", "classmrmeshpy_1_1MeshPoint" ],

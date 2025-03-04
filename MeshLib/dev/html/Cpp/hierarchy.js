@@ -711,6 +711,7 @@ var hierarchy =
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
     [ "MR::MeshOnVoxelsT< MeshType, VolumeType >", "classMR_1_1MeshOnVoxelsT.html", null ],
     [ "MR::MeshOrPoints", "classMR_1_1MeshOrPoints.html", null ],
+    [ "MR::MeshOrPointsObject", "classMR_1_1MeshOrPointsObject.html", null ],
     [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
