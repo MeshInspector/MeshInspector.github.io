@@ -76,7 +76,7 @@ var searchData=
   ['clipspace_73',['clipSpace',['.././Cpp/structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973',1,'MR::PointInAllSpaces']]],
   ['clockwise_74',['Clockwise',['.././Py/classmrmeshpy_1_1BypassDirection.html#a9159a51e6440fb4a491b776dae5ca588',1,'mrmeshpy::BypassDirection']]],
   ['close_75',['close',['.././Cpp/structMR_1_1LaunchParams.html#a79e98fc0f869a338e1adbd9d61c767a4',1,'MR::LaunchParams']]],
-  ['closecontourpointcolor_76',['closeContourPointColor',['.././Cpp/structMR_1_1PickPointManager_1_1Params.html#a5b12b52a6b20ce602a12044db14a817a',1,'MR::PickPointManager::Params']]],
+  ['closecontourpointcolor_76',['closeContourPointColor',['.././Cpp/structMR_1_1PickPointManager_1_1Params.html#a9530ff46e6ad646ba04ba4460b560bca',1,'MR::PickPointManager::Params']]],
   ['closed_77',['closed',['.././Cpp/structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a',1,'MROneMeshContour::closed'],['.././Cpp/structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320',1,'MR::OneMeshContour::closed']]],
   ['closeholesinholewindingnumber_78',['closeHolesInHoleWindingNumber',['.././Cpp/structMR_1_1OffsetParameters.html#a17a5a45fd3d4de2eba7280f9071ac737',1,'MR::OffsetParameters::closeHolesInHoleWindingNumber'],['.././Cpp/structMR_1_1RebuildMeshSettings.html#a7e182394b11ff51cd7695df3a953505a',1,'MR::RebuildMeshSettings::closeHolesInHoleWindingNumber']]],
   ['closelineaftercut_79',['closeLineAfterCut',['.././Cpp/structMR_1_1DividePolylineParameters.html#aec036aa36c10ac45b9ef07682adb3350',1,'MR::DividePolylineParameters']]],
