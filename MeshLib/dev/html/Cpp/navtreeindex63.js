@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BaseShellParameters.html":[6,0,2,0,1,51],
+"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,1,0,1,67,1],
+"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,2,0,1,51,1],
+"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,1,0,1,67,0],
+"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,2,0,1,51,0],
+"structMR_1_1BaseTiffParameters.html":[6,0,1,0,1,68],
 "structMR_1_1BaseTiffParameters.html":[6,0,2,0,1,52],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,1,0,1,68,1],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,2,0,1,52,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1ChunkIterator.html#af99ba138aa910783abd6301c80706164":[6,0,1,0,1,133,3],
 "structMR_1_1ChunkIterator.html#af99ba138aa910783abd6301c80706164":[6,0,2,0,1,117,3],
 "structMR_1_1CloudPartMapping.html":[6,0,1,0,1,135],
-"structMR_1_1CloudPartMapping.html":[6,0,2,0,1,119],
-"structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,1,0,1,135,1],
-"structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,2,0,1,119,1],
-"structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,1,0,1,135,0],
-"structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,2,0,1,119,0],
-"structMR_1_1CmpOld.html":[6,0,0,4,34],
-"structMR_1_1Color.html":[6,0,1,0,1,138]
+"structMR_1_1CloudPartMapping.html":[6,0,2,0,1,119]
 };

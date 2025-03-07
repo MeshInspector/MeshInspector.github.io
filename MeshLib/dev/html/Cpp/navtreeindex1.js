@@ -157,7 +157,8 @@ var NAVTREEINDEX1 =
 "MRCudaFastWindingNumber_8h.html":[6,0,3,0,0,1,1,3],
 "MRCudaFastWindingNumber_8h_source.html":[6,0,3,0,0,1,1,3],
 "MRCudaMath_8h.html":[6,0,3,0,0,1,1,4],
-"MRCudaMath_8h.html#a0383a2435c0b02c9305d443c8e9f5579":[6,0,3,0,0,1,1,4,1],
+"MRCudaMath_8h.html#a0383a2435c0b02c9305d443c8e9f5579":[6,0,3,0,0,1,1,4,2],
+"MRCudaMath_8h.html#a3847533ea91606e4e7a4068edd599d86":[6,0,3,0,0,1,1,4,1],
 "MRCudaMath_8h.html#abe48634df88da1f3afd905bbea765155":[6,0,3,0,0,1,1,4,0],
 "MRCudaMath_8h_source.html":[6,0,3,0,0,1,1,4],
 "MRCudaMeshDistanceMap_8h.html":[6,0,3,0,0,1,1,5],
@@ -173,6 +174,7 @@ var NAVTREEINDEX1 =
 "MRCudaPointsProject_8h.html#acdd0eaf7b314f1758bf6e417ad1f3795":[6,0,3,0,0,1,1,7,1],
 "MRCudaPointsProject_8h_source.html":[6,0,3,0,0,1,1,7],
 "MRCudaPointsToDistanceVolume_8h.html":[6,0,3,0,0,1,1,8],
+"MRCudaPointsToDistanceVolume_8h.html#a0de1cf951a2eed12cb915a37b13ede63":[6,0,3,0,0,1,1,8,1],
 "MRCudaPointsToDistanceVolume_8h.html#a76d46e2388018a2bca5a72dfaefd30e9":[6,0,3,0,0,1,1,8,0],
 "MRCudaPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,1,1,8],
 "MRCudaPointsToMeshProjector_8h.html":[6,0,3,0,0,1,1,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRDistanceToMeshOptions_8h.html":[6,0,3,0,0,1,4,85],
 "MRDistanceToMeshOptions_8h_source.html":[6,0,3,0,0,1,4,85],
 "MRDistanceVolumeParams_8h.html":[6,0,3,0,0,1,11,7],
-"MRDistanceVolumeParams_8h_source.html":[6,0,3,0,0,1,11,7],
-"MRE57_8h.html":[6,0,3,0,0,1,3,3],
-"MRE57_8h.html#a017223f665d17204885688a9f3e0d66a":[6,0,3,0,0,1,3,3,3]
+"MRDistanceVolumeParams_8h_source.html":[6,0,3,0,0,1,11,7]
 };

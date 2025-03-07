@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRLinesShader_8h.html#ac7af2d44ec301ec74812ff72f004c3e0":[6,0,3,0,0,1,10,35,5],
+"MRLinesShader_8h.html#aca4f34c4f899d8f2dc5fc0544af86988":[6,0,3,0,0,1,10,35,1],
 "MRLinesShader_8h.html#ae8a18c80a62a4c8e474c1616dfe05ea5":[6,0,3,0,0,1,10,35,3],
 "MRLinesShader_8h_source.html":[6,0,3,0,0,1,10,35],
 "MRLoadedObjects_8h.html":[6,0,3,0,0,1,4,159],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MREdgePaths_8h.html":[6,0,3,0,0,1,5,11],
 "MRMeshC_2MREdgePaths_8h.html#a3c377667ced2d8781b50f8db2ec3933c":[6,0,3,0,0,1,5,11,4],
 "MRMeshC_2MREdgePaths_8h.html#a70a134b49e7aa646a6558c3d07dd11ae":[6,0,3,0,0,1,5,11,2],
-"MRMeshC_2MREdgePaths_8h.html#a9c562a223893ceb075a47609718f5880":[6,0,3,0,0,1,5,11,5],
-"MRMeshC_2MREdgePaths_8h.html#aae7d08df32be99c01c06e93e29c16b8a":[6,0,3,0,0,1,5,11,0],
-"MRMeshC_2MREdgePaths_8h.html#abdaaf603f673fdf82a2f4a4614b042c0":[6,0,3,0,0,1,5,11,1]
+"MRMeshC_2MREdgePaths_8h.html#a9c562a223893ceb075a47609718f5880":[6,0,3,0,0,1,5,11,5]
 };

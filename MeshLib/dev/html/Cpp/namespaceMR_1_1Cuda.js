@@ -13,6 +13,7 @@ var namespaceMR_1_1Cuda =
     [ "findProjectionOnPointsHeapBytes", "namespaceMR_1_1Cuda.html#ab6752d5a8d11db60ba3b3c7cd333658d", null ],
     [ "findSkyRays", "namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231", null ],
     [ "fromVec", "namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155", null ],
+    [ "fromVec", "namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86", null ],
     [ "fromXf", "namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579", null ],
     [ "getCudaAvailableMemory", "namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838", null ],
     [ "getCudaSafeMemoryLimit", "namespaceMR_1_1Cuda.html#a2fed8d0688936d46135f8dad5f3497ee", null ],
@@ -23,5 +24,6 @@ var namespaceMR_1_1Cuda =
     [ "maxBufferSizeAlignedByBlock", "namespaceMR_1_1Cuda.html#a3e5fd79d686c56c93e9dc89064653219", null ],
     [ "negatePicture", "namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a", null ],
     [ "pointCloudHeapBytes", "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f", null ],
-    [ "pointsToDistanceVolume", "namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9", null ]
+    [ "pointsToDistanceVolume", "namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9", null ],
+    [ "pointsToDistanceVolumeByParts", "namespaceMR_1_1Cuda.html#a0de1cf951a2eed12cb915a37b13ede63", null ]
 ];

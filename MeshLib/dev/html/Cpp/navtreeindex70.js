@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60":[6,0,0,1,15,5],
+"structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b":[6,0,0,1,15,0],
+"structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f":[6,0,0,1,15,4],
+"structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[6,0,0,1,15,3],
+"structMR_1_1IsVisualizeMaskEnum.html":[6,0,0,11,2,1],
+"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,1,0,1,299],
 "structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,2,0,1,283],
 "structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html":[6,0,1,0,1,300],
 "structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html":[6,0,2,0,1,284],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,2,0,1,314,1],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,1,0,1,330,1,1],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,2,0,1,314,1,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[6,0,1,0,1,330,1,5],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[6,0,2,0,1,314,1,5],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f":[6,0,1,0,1,330,1,4],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f":[6,0,2,0,1,314,1,4],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0":[6,0,1,0,1,330,1,2],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0":[6,0,2,0,1,314,1,2],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf":[6,0,1,0,1,330,1,0]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[6,0,1,0,1,330,1,5]
 };

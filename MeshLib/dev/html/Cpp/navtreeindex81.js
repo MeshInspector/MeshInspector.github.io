@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1SymMatrix3.html#af018697d9a39a22f02a3c3cbdfe3ba5c":[6,0,0,0,7,5,18],
+"structMR_1_1SymMatrix3.html#afb6ed3ffe4bdda5d6267cc44ef816e9c":[6,0,0,0,7,5,12],
+"structMR_1_1SymMatrix3.html#afc689ce07450f684b99051e555894ee7":[6,0,0,0,7,5,16],
+"structMR_1_1SymMatrix4.html":[6,0,0,0,7,6],
+"structMR_1_1SymMatrix4.html#a02636edb960785731936c618186131dd":[6,0,0,0,7,6,17],
+"structMR_1_1SymMatrix4.html#a0a5e9e9469df428b50136b463c5350a4":[6,0,0,0,7,6,6],
+"structMR_1_1SymMatrix4.html#a27b6e7fc3e23fc7528ad7a37f8629668":[6,0,0,0,7,6,11],
+"structMR_1_1SymMatrix4.html#a2d631de1df967d6ddca570a6e16d4938":[6,0,0,0,7,6,5],
 "structMR_1_1SymMatrix4.html#a3800df67aa75d0782b005ad6334cad45":[6,0,0,0,7,6,3],
 "structMR_1_1SymMatrix4.html#a4a1f640d731c441127236acba8ffca96":[6,0,0,0,7,6,21],
 "structMR_1_1SymMatrix4.html#a4fb698a206dc30bd585a5dab6ac9c8d1":[6,0,0,0,7,6,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html":[6,0,1,0,1,689],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html":[6,0,2,0,1,673],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[6,0,1,0,1,689,0],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[6,0,2,0,1,673,0],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[6,0,1,0,1,689,2],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[6,0,2,0,1,673,2],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,1,0,1,689,1],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,2,0,1,673,1],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,1,0,1,689,3],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,2,0,1,673,3],
-"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,1,0,1,690],
-"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,2,0,1,674]
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[6,0,2,0,1,673,0]
 };

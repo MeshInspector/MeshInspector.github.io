@@ -161,6 +161,8 @@ $(function(){initNavTree('namespacemrcudapy.html',''); initResizable(true); });
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1FastWindingNumber.html">FastWindingNumber</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__std__vector__float__int.html">func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_std_vector_float_int</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a></td></tr>
@@ -202,6 +204,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac3163db5e369a9de3b776b9110700924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abacc3f1ddc84e70bb38d8d75c6595bd3" id="r_abacc3f1ddc84e70bb38d8d75c6595bd3"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.SimpleVolumeMinMax&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abacc3f1ddc84e70bb38d8d75c6595bd3">pointsToDistanceVolume</a> (meshlib.mrmeshpy.PointCloud cloud, meshlib.mrmeshpy.PointsToDistanceVolumeParams params)</td></tr>
 <tr class="separator:abacc3f1ddc84e70bb38d8d75c6595bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa313ea22f7ee33fd065b0609ab94db3d" id="r_aa313ea22f7ee33fd065b0609ab94db3d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa313ea22f7ee33fd065b0609ab94db3d">pointsToDistanceVolumeByParts</a> (meshlib.mrmeshpy.PointCloud cloud, meshlib.mrmeshpy.PointsToDistanceVolumeParams params, <a class="el" href="classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__std__vector__float__int.html">func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_std_vector_float_int</a> addPart)</td></tr>
+<tr class="separator:aa313ea22f7ee33fd065b0609ab94db3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="afb6959a79e7044add2174d0f636bbce7" name="afb6959a79e7044add2174d0f636bbce7"></a>
@@ -652,6 +656,34 @@ The size is aligned to the block dimensions
       </table>
 </div><div class="memdoc">
 <pre class="fragment">makes SimpleVolume filled with signed distances to points with normals
+</pre> 
+</div>
+</div>
+<a id="aa313ea22f7ee33fd065b0609ab94db3d" name="aa313ea22f7ee33fd065b0609ab94db3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa313ea22f7ee33fd065b0609ab94db3d">&#9670;&#160;</a></span>pointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrcudapy.pointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype">meshlib.mrmeshpy.PointCloud</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">meshlib.mrmeshpy.PointsToDistanceVolumeParams</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__std__vector__float__int.html">func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_std_vector_float_int</a></td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">makes SimpleVolume filled with signed distances to points with normals
+populate the volume by parts to the given callback
 </pre> 
 </div>
 </div>

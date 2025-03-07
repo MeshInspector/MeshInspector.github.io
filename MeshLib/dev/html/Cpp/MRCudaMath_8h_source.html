@@ -161,19 +161,21 @@ $(function(){initNavTree('MRCudaMath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">struct </span>float3;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1Cuda.html">MR::Cuda</a></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// structs from MRCudaMath.cuh</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">struct </span><a class="code hl_variable" href="namespaceMR.html#aa202ef723e851a5c73fe6084f64a744b">Matrix4</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// copy from CPU to GPU structs</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">   17</a></span>MRCUDA_API float3 <a class="code hl_function" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">fromVec</a>( <span class="keyword">const</span> Vector3f&amp; v );</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579">   18</a></span>MRCUDA_API <a class="code hl_struct" href="structMR_1_1Matrix4.html">Matrix4</a> <a class="code hl_function" href="namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579">fromXf</a>( <span class="keyword">const</span> MR::AffineXf3f&amp; xf );</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>} <span class="comment">// namespace MR::Cuda</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span>int3;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1Cuda.html">MR::Cuda</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// structs from MRCudaMath.cuh</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">struct </span><a class="code hl_variable" href="namespaceMR.html#aa202ef723e851a5c73fe6084f64a744b">Matrix4</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// copy from CPU to GPU structs</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">   18</a></span>MRCUDA_API float3 <a class="code hl_function" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">fromVec</a>( <span class="keyword">const</span> Vector3f&amp; v );</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86">   19</a></span>MRCUDA_API int3 <a class="code hl_function" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">fromVec</a>( <span class="keyword">const</span> Vector3i&amp; v );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579">   20</a></span>MRCUDA_API <a class="code hl_struct" href="structMR_1_1Matrix4.html">Matrix4</a> <a class="code hl_function" href="namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579">fromXf</a>( <span class="keyword">const</span> MR::AffineXf3f&amp; xf );</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>} <span class="comment">// namespace MR::Cuda</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="anamespaceMR_1_1Cuda_html"><div class="ttname"><a href="namespaceMR_1_1Cuda.html">MR::Cuda</a></div><div class="ttdef"><b>Definition</b> MRCudaBasic.h:11</div></div>
 <div class="ttc" id="anamespaceMR_1_1Cuda_html_a0383a2435c0b02c9305d443c8e9f5579"><div class="ttname"><a href="namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579">MR::Cuda::fromXf</a></div><div class="ttdeci">MRCUDA_API Matrix4 fromXf(const MR::AffineXf3f &amp;xf)</div></div>
