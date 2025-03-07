@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[6,0,2,0,1,2,2,2,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,1,0,1,6,2,2,3],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,2,0,1,2,2,2,3],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,1,0,1,6,0,0],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,2,0,1,2,0,0],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1":[6,0,1,0,1,6,0,0,11],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1":[6,0,2,0,1,2,0,0,11],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a246d93a7bb2aaa83191d515884303ecb":[6,0,1,0,1,6,0,0,9],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a246d93a7bb2aaa83191d515884303ecb":[6,0,2,0,1,2,0,0,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[6,0,1,0,1,234,2],
 "structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[6,0,2,0,1,218,2],
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,1,0,1,7,0],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,2,0,1,3,0],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,1,0,1,7,0,0],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,2,0,1,3,0,0],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,0,1,0,1,7,1],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,0,2,0,1,3,1],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a6822b43f8eb010ed7b72c8159db3f7a6":[6,0,1,0,1,7,1,2],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a6822b43f8eb010ed7b72c8159db3f7a6":[6,0,2,0,1,3,1,2]
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,2,0,1,3,0]
 };

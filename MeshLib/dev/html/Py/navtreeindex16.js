@@ -1,5 +1,17 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a6e05e06a706d78ad7e86c0b1f5f512e1":[6,1,0,0,2,159,0,11],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a6e05e06a706d78ad7e86c0b1f5f512e1":[6,1,1,0,1,159,0,11],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a81f16399c52814c69725b68452ccaf55":[6,1,0,0,2,159,0,0],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a81f16399c52814c69725b68452ccaf55":[6,1,1,0,1,159,0,0],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a9d52105978aed67eb1daba239ebf379a":[6,1,0,0,2,159,0,2],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a9d52105978aed67eb1daba239ebf379a":[6,1,1,0,1,159,0,2],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#aa24cbb4c8f1897f5f578e5da7fbd1113":[6,1,0,0,2,159,0,9],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#aa24cbb4c8f1897f5f578e5da7fbd1113":[6,1,1,0,1,159,0,9],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#aabb8607befdbd765b6c78737d956c9cf":[6,1,0,0,2,159,0,3],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#aabb8607befdbd765b6c78737d956c9cf":[6,1,1,0,1,159,0,3],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#ab73148d38f9f929d41d77892ddf68471":[6,1,0,0,2,159,0,10],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#ab73148d38f9f929d41d77892ddf68471":[6,1,1,0,1,159,0,10],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#acb7f253cd3b093402ed187d5c24eab2b":[6,1,0,0,2,159,0,6],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#acb7f253cd3b093402ed187d5c24eab2b":[6,1,1,0,1,159,0,6],
 "classmrmeshpy_1_1CoordinateConverters.html":[6,1,0,0,2,161],
@@ -237,17 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#abeb06bda894a10c7d3f9883a7e109b77":[6,1,0,0,2,173,22],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#abeb06bda894a10c7d3f9883a7e109b77":[6,1,1,0,1,173,22],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ac901b862ac13e7da49c883887ba1205e":[6,1,0,0,2,173,4],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ac901b862ac13e7da49c883887ba1205e":[6,1,1,0,1,173,4],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#acc9c3257518f17b86208852054c4ba46":[6,1,0,0,2,173,18],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#acc9c3257518f17b86208852054c4ba46":[6,1,1,0,1,173,18],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ad9f6e3d0e2bd9b41129fcbef4ddd2ba6":[6,1,0,0,2,173,14],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ad9f6e3d0e2bd9b41129fcbef4ddd2ba6":[6,1,1,0,1,173,14],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#adf0289437576c50411f97129de666543":[6,1,0,0,2,173,21],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#adf0289437576c50411f97129de666543":[6,1,1,0,1,173,21],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ae4dcff399c071f941fb5b687590fec3a":[6,1,0,0,2,173,10],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ae4dcff399c071f941fb5b687590fec3a":[6,1,1,0,1,173,10],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#afaa8ff7873248e3e37ce558f7e49d17d":[6,1,0,0,2,173,2],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#afaa8ff7873248e3e37ce558f7e49d17d":[6,1,1,0,1,173,2],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#afd08f90a3f79b1d8c82bd22d50837260":[6,1,0,0,2,173,20],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#afd08f90a3f79b1d8c82bd22d50837260":[6,1,1,0,1,173,20]
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ac901b862ac13e7da49c883887ba1205e":[6,1,1,0,1,173,4]
 };

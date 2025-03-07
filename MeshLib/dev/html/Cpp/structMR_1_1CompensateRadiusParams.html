@@ -175,6 +175,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3becc371ebe70ab58e91982390945d41" id="r_a3becc371ebe70ab58e91982390945d41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3becc371ebe70ab58e91982390945d41">maxIterations</a> { 100 }</td></tr>
 <tr class="memdesc:a3becc371ebe70ab58e91982390945d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum iteration of applying algorithm (each iteration improves result a little bit)  <br /></td></tr>
 <tr class="separator:a3becc371ebe70ab58e91982390945d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee28415a6ac7b943071cce3515545a2" id="r_adee28415a6ac7b943071cce3515545a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adee28415a6ac7b943071cce3515545a2">relaxExpansion</a> = 3</td></tr>
+<tr class="memdesc:adee28415a6ac7b943071cce3515545a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many hops to expand around each moved vertex for relaxation  <br /></td></tr>
+<tr class="separator:adee28415a6ac7b943071cce3515545a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05af941103d0a3f88ddcf7383bf82c67" id="r_a05af941103d0a3f88ddcf7383bf82c67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05af941103d0a3f88ddcf7383bf82c67">relaxIterations</a> = 5</td></tr>
+<tr class="memdesc:a05af941103d0a3f88ddcf7383bf82c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many iterations of relax is applied on each compensation iteration  <br /></td></tr>
+<tr class="separator:a05af941103d0a3f88ddcf7383bf82c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77908caf2d1de499c9dec6dbbbdc5737" id="r_a77908caf2d1de499c9dec6dbbbdc5737"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77908caf2d1de499c9dec6dbbbdc5737">relaxForce</a> = 0.3f</td></tr>
+<tr class="memdesc:a77908caf2d1de499c9dec6dbbbdc5737"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of relaxations on each compensation iteration  <br /></td></tr>
+<tr class="separator:a77908caf2d1de499c9dec6dbbbdc5737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb2072e359a12815d6285187b399591d" id="r_adb2072e359a12815d6285187b399591d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb2072e359a12815d6285187b399591d">callback</a></td></tr>
 <tr class="separator:adb2072e359a12815d6285187b399591d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -239,6 +248,54 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>region of the mesh that will be compensated it should not contain closed components it is updated during algorithm also please note that boundaries of the region are fixed </p>
+
+</div>
+</div>
+<a id="adee28415a6ac7b943071cce3515545a2" name="adee28415a6ac7b943071cce3515545a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adee28415a6ac7b943071cce3515545a2">&#9670;&#160;</a></span>relaxExpansion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::CompensateRadiusParams::relaxExpansion = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how many hops to expand around each moved vertex for relaxation </p>
+
+</div>
+</div>
+<a id="a77908caf2d1de499c9dec6dbbbdc5737" name="a77908caf2d1de499c9dec6dbbbdc5737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77908caf2d1de499c9dec6dbbbdc5737">&#9670;&#160;</a></span>relaxForce</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::CompensateRadiusParams::relaxForce = 0.3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>force of relaxations on each compensation iteration </p>
+
+</div>
+</div>
+<a id="a05af941103d0a3f88ddcf7383bf82c67" name="a05af941103d0a3f88ddcf7383bf82c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05af941103d0a3f88ddcf7383bf82c67">&#9670;&#160;</a></span>relaxIterations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::CompensateRadiusParams::relaxIterations = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how many iterations of relax is applied on each compensation iteration </p>
 
 </div>
 </div>

@@ -1,5 +1,17 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a9feda28ed99073f67b70c9359c3e3f86":[6,1,0,0,2,193,0,7],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a9feda28ed99073f67b70c9359c3e3f86":[6,1,1,0,1,193,0,7],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ab9902fda35cad176544d7f86a359df11":[6,1,0,0,2,193,0,9],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ab9902fda35cad176544d7f86a359df11":[6,1,1,0,1,193,0,9],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ac16aadd5fca95a110865fdf13cffdc5a":[6,1,0,0,2,193,0,4],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#ac16aadd5fca95a110865fdf13cffdc5a":[6,1,1,0,1,193,0,4],
+"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,0,0,2,194],
+"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,1,0,1,194],
+"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,0,0,2,194,11],
+"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,1,0,1,194,11],
+"classmrmeshpy_1_1DistanceToMeshOptions.html#a1a3519767c036b77f65c2f182d35dacb":[6,1,0,0,2,194,5],
+"classmrmeshpy_1_1DistanceToMeshOptions.html#a1a3519767c036b77f65c2f182d35dacb":[6,1,1,0,1,194,5],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a248c4d1374a3f13137c3f1a003b34d36":[6,1,0,0,2,194,7],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a248c4d1374a3f13137c3f1a003b34d36":[6,1,1,0,1,194,7],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a2d7378f391fdcdecc071d5fea21dd54f":[6,1,0,0,2,194,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1EdgeBitSet.html#aeb3af4ae025665df0913d0ffd162cbec":[6,1,0,0,2,199,19],
 "classmrmeshpy_1_1EdgeBitSet.html#aeb3af4ae025665df0913d0ffd162cbec":[6,1,1,0,1,199,19],
 "classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[6,1,0,0,2,199,32],
-"classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[6,1,1,0,1,199,32],
-"classmrmeshpy_1_1EdgeBitSet.html#af3e5e329233fdaadd2d360b0838e831e":[6,1,0,0,2,199,10],
-"classmrmeshpy_1_1EdgeBitSet.html#af3e5e329233fdaadd2d360b0838e831e":[6,1,1,0,1,199,10],
-"classmrmeshpy_1_1EdgeBitSet.html#afba8b61cd76efab40b8fb1e3773f4d76":[6,1,0,0,2,199,16],
-"classmrmeshpy_1_1EdgeBitSet.html#afba8b61cd76efab40b8fb1e3773f4d76":[6,1,1,0,1,199,16],
-"classmrmeshpy_1_1EdgeColors.html":[6,1,0,0,2,201],
-"classmrmeshpy_1_1EdgeColors.html":[6,1,1,0,1,201],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,0,0,2,201,8],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,0,0,2,201,9],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,1,0,1,201,8],
-"classmrmeshpy_1_1EdgeColors.html#a019c2798dd4319cdeac31aa223038da3":[6,1,1,0,1,201,9],
-"classmrmeshpy_1_1EdgeColors.html#a019f293f89395b64363b71eea0f5960f":[6,1,0,0,2,201,18],
-"classmrmeshpy_1_1EdgeColors.html#a019f293f89395b64363b71eea0f5960f":[6,1,1,0,1,201,18]
+"classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[6,1,1,0,1,199,32]
 };

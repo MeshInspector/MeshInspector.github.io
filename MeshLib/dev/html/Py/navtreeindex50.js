@@ -1,5 +1,17 @@
 var NAVTREEINDEX50 =
 {
+"classmrmeshpy_1_1NextEdgeSameLeft.html#a4a4fb9ea9be3541a9e50b29057efa53a":[6,1,0,0,2,498,0],
+"classmrmeshpy_1_1NextEdgeSameLeft.html#a4a4fb9ea9be3541a9e50b29057efa53a":[6,1,1,0,1,498,0],
+"classmrmeshpy_1_1NextEdgeSameLeft.html#abdd57b1310f0a9f71c5ec10ca6e8cf0d":[6,1,0,0,2,498,2],
+"classmrmeshpy_1_1NextEdgeSameLeft.html#abdd57b1310f0a9f71c5ec10ca6e8cf0d":[6,1,1,0,1,498,2],
+"classmrmeshpy_1_1NextEdgeSameLeft.html#ada15bc9558ca75457060b7ab05c00dc5":[6,1,0,0,2,498,1],
+"classmrmeshpy_1_1NextEdgeSameLeft.html#ada15bc9558ca75457060b7ab05c00dc5":[6,1,1,0,1,498,1],
+"classmrmeshpy_1_1NextEdgeSameOrigin.html":[6,1,0,0,2,499],
+"classmrmeshpy_1_1NextEdgeSameOrigin.html":[6,1,1,0,1,499],
+"classmrmeshpy_1_1NextEdgeSameOrigin.html#a73f5b4cd8f951b3c5b3f2f8ba91ea89e":[6,1,0,0,2,499,1],
+"classmrmeshpy_1_1NextEdgeSameOrigin.html#a73f5b4cd8f951b3c5b3f2f8ba91ea89e":[6,1,1,0,1,499,1],
+"classmrmeshpy_1_1NextEdgeSameOrigin.html#a87a218d80b3dfbde293d4fac10a78ca0":[6,1,0,0,2,499,2],
+"classmrmeshpy_1_1NextEdgeSameOrigin.html#a87a218d80b3dfbde293d4fac10a78ca0":[6,1,1,0,1,499,2],
 "classmrmeshpy_1_1NextEdgeSameOrigin.html#ad26bbad1ea7134e3635d3ab487d80ba9":[6,1,0,0,2,499,0],
 "classmrmeshpy_1_1NextEdgeSameOrigin.html#ad26bbad1ea7134e3635d3ab487d80ba9":[6,1,1,0,1,499,0],
 "classmrmeshpy_1_1NoCtor__FaceId.html":[6,1,0,0,2,501],
@@ -237,17 +249,5 @@ var NAVTREEINDEX50 =
 "classmrmeshpy_1_1NodeBitSet.html#a5dbd8207147eac48a9ab0bdf0826c882":[6,1,0,0,2,515,25],
 "classmrmeshpy_1_1NodeBitSet.html#a5dbd8207147eac48a9ab0bdf0826c882":[6,1,1,0,1,515,25],
 "classmrmeshpy_1_1NodeBitSet.html#a5f5515654a35e51d431d95a122243953":[6,1,0,0,2,515,24],
-"classmrmeshpy_1_1NodeBitSet.html#a5f5515654a35e51d431d95a122243953":[6,1,1,0,1,515,24],
-"classmrmeshpy_1_1NodeBitSet.html#a622022e7a27f05b7c55e050b6f45b3ec":[6,1,0,0,2,515,22],
-"classmrmeshpy_1_1NodeBitSet.html#a622022e7a27f05b7c55e050b6f45b3ec":[6,1,1,0,1,515,22],
-"classmrmeshpy_1_1NodeBitSet.html#a634516e24ab14258ba7a672a26f837f1":[6,1,0,0,2,515,4],
-"classmrmeshpy_1_1NodeBitSet.html#a634516e24ab14258ba7a672a26f837f1":[6,1,1,0,1,515,4],
-"classmrmeshpy_1_1NodeBitSet.html#a65c8f14852b513b577d4ddc522e23410":[6,1,0,0,2,515,36],
-"classmrmeshpy_1_1NodeBitSet.html#a65c8f14852b513b577d4ddc522e23410":[6,1,1,0,1,515,36],
-"classmrmeshpy_1_1NodeBitSet.html#a6ccdd2a9f9dcb301a30515b4ec57a80a":[6,1,0,0,2,515,0],
-"classmrmeshpy_1_1NodeBitSet.html#a6ccdd2a9f9dcb301a30515b4ec57a80a":[6,1,0,0,2,515,1],
-"classmrmeshpy_1_1NodeBitSet.html#a6ccdd2a9f9dcb301a30515b4ec57a80a":[6,1,1,0,1,515,0],
-"classmrmeshpy_1_1NodeBitSet.html#a6ccdd2a9f9dcb301a30515b4ec57a80a":[6,1,1,0,1,515,1],
-"classmrmeshpy_1_1NodeBitSet.html#a768679eb7850b2c1d2c43657d5815ca6":[6,1,0,0,2,515,40],
-"classmrmeshpy_1_1NodeBitSet.html#a768679eb7850b2c1d2c43657d5815ca6":[6,1,1,0,1,515,40]
+"classmrmeshpy_1_1NodeBitSet.html#a5f5515654a35e51d431d95a122243953":[6,1,1,0,1,515,24]
 };

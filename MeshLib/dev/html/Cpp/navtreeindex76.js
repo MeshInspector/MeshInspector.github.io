@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[6,0,2,0,1,14,1,4],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,1,0,1,24,1,0],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,2,0,1,14,1,0],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[6,0,1,0,1,24,1,6],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[6,0,2,0,1,14,1,6],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a71da63d690481e338c26321212fbdb4b":[6,0,1,0,1,24,1,3],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a71da63d690481e338c26321212fbdb4b":[6,0,2,0,1,14,1,3],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a8b5c188731f0cecbac0ccc0fd4a6bfb7":[6,0,1,0,1,24,1,5],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a8b5c188731f0cecbac0ccc0fd4a6bfb7":[6,0,2,0,1,14,1,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,2,0,1,477,1],
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,1,0,1,493,0],
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,2,0,1,477,0],
-"structMR_1_1PolylineMaker.html":[6,0,1,0,1,494],
-"structMR_1_1PolylineMaker.html":[6,0,2,0,1,478],
-"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,1,0,1,494,4],
-"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,2,0,1,478,4],
-"structMR_1_1PolylineMaker.html#a4a15b5f552bb650a6fab86110c95ad3f":[6,0,1,0,1,494,2],
-"structMR_1_1PolylineMaker.html#a4a15b5f552bb650a6fab86110c95ad3f":[6,0,2,0,1,478,2],
-"structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f":[6,0,1,0,1,494,1]
+"structMR_1_1PolylineMaker.html":[6,0,1,0,1,494]
 };

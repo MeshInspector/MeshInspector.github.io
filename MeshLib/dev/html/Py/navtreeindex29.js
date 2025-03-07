@@ -1,5 +1,17 @@
 var NAVTREEINDEX29 =
 {
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a2b2d5dab9363778e81168768b83cd7e3":[6,1,0,0,2,250,0,3],
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a2b2d5dab9363778e81168768b83cd7e3":[6,1,1,0,1,250,0,3],
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a577a90d268d3c2c6a2531d6613f79cbe":[6,1,0,0,2,250,0,0],
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a577a90d268d3c2c6a2531d6613f79cbe":[6,1,1,0,1,250,0,0],
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a68dece4dbef2667b381c4c03655df128":[6,1,0,0,2,250,0,1],
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a68dece4dbef2667b381c4c03655df128":[6,1,1,0,1,250,0,1],
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#abc2f86df88a674304c3f80d8f97dad66":[6,1,0,0,2,250,0,2],
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#abc2f86df88a674304c3f80d8f97dad66":[6,1,1,0,1,250,0,2],
+"classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,1,0,0,2,250,1],
+"classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,1,1,0,1,250,1],
+"classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a29489f650d2b1faba0e1fa1847576d04":[6,1,0,0,2,250,1,2],
+"classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a29489f650d2b1faba0e1fa1847576d04":[6,1,1,0,1,250,1,2],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a2a2020e1f3079d4526700246a5d29254":[6,1,0,0,2,250,1,0],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a2a2020e1f3079d4526700246a5d29254":[6,1,1,0,1,250,1,0],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a46e3aa66fe659299871fc19b3dbc3d26":[6,1,0,0,2,250,1,8],
@@ -237,17 +249,5 @@ var NAVTREEINDEX29 =
 "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a96694ce660d041c5fae7aeda20fcd772":[6,1,0,0,2,329,3,1],
 "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a96694ce660d041c5fae7aeda20fcd772":[6,1,1,0,1,329,3,1],
 "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#aaf3d7ff0134a1e31d940e2135d47fcae":[6,1,0,0,2,329,3,7],
-"classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#aaf3d7ff0134a1e31d940e2135d47fcae":[6,1,1,0,1,329,3,7],
-"classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ab41b0d7dca9d00b9ce54d3a38ed582b2":[6,1,0,0,2,329,3,5],
-"classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ab41b0d7dca9d00b9ce54d3a38ed582b2":[6,1,1,0,1,329,3,5],
-"classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ae835c7676f37058c25f61889cfc8770d":[6,1,0,0,2,329,3,2],
-"classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ae835c7676f37058c25f61889cfc8770d":[6,1,1,0,1,329,3,2],
-"classmrmeshpy_1_1GeneralOffsetParameters.html":[6,1,0,0,2,331],
-"classmrmeshpy_1_1GeneralOffsetParameters.html":[6,1,1,0,1,331],
-"classmrmeshpy_1_1GeneralOffsetParameters.html#abad6ad78011331bab5660df7e5b1a4f2":[6,1,0,0,2,331,1],
-"classmrmeshpy_1_1GeneralOffsetParameters.html#abad6ad78011331bab5660df7e5b1a4f2":[6,1,1,0,1,331,1],
-"classmrmeshpy_1_1GeneralOffsetParameters.html#aeb960d9ec3724e149eef0f5a00cb31c3":[6,1,0,0,2,331,0],
-"classmrmeshpy_1_1GeneralOffsetParameters.html#aeb960d9ec3724e149eef0f5a00cb31c3":[6,1,1,0,1,331,0],
-"classmrmeshpy_1_1GeodesicPathApprox.html":[6,1,0,0,2,332],
-"classmrmeshpy_1_1GeodesicPathApprox.html":[6,1,1,0,1,332]
+"classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#aaf3d7ff0134a1e31d940e2135d47fcae":[6,1,1,0,1,329,3,7]
 };
