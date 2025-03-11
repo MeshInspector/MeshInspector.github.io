@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"classmrmeshpy_1_1EdgeBitSet.html#aeb3af4ae025665df0913d0ffd162cbec":[6,1,0,0,2,199,19],
+"classmrmeshpy_1_1EdgeBitSet.html#aeb3af4ae025665df0913d0ffd162cbec":[6,1,1,0,1,199,19],
+"classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[6,1,0,0,2,199,32],
+"classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[6,1,1,0,1,199,32],
 "classmrmeshpy_1_1EdgeBitSet.html#af3e5e329233fdaadd2d360b0838e831e":[6,1,0,0,2,199,10],
 "classmrmeshpy_1_1EdgeBitSet.html#af3e5e329233fdaadd2d360b0838e831e":[6,1,1,0,1,199,10],
 "classmrmeshpy_1_1EdgeBitSet.html#afba8b61cd76efab40b8fb1e3773f4d76":[6,1,0,0,2,199,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#afda8e08f9838b913c2c7b089e9b98610":[6,1,0,0,2,205,5],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#afda8e08f9838b913c2c7b089e9b98610":[6,1,1,0,1,205,5],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html":[6,1,0,0,2,205,0],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html":[6,1,1,0,1,205,0],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a0c2be9826dbc7f7c1313414b9d7d1346":[6,1,0,0,2,205,0,8],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a0c2be9826dbc7f7c1313414b9d7d1346":[6,1,1,0,1,205,0,8],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a44d61c38f240049947a3861e7e63cde4":[6,1,0,0,2,205,0,5],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a44d61c38f240049947a3861e7e63cde4":[6,1,1,0,1,205,0,5]
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html":[6,1,1,0,1,205,0]
 };

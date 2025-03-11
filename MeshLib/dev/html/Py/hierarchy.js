@@ -332,6 +332,7 @@ var hierarchy =
     [ "mrmeshpy.func_std_variant_float_Vector3_float_from_FeatureObject_const_ViewportId", "classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ViewportId.html", null ],
     [ "mrmeshpy.func_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane_from_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html", null ],
     [ "mrmeshpy.func_TaggedBitSet_FaceTag_const_from_unsigned_long", "classmrmeshpy_1_1func__TaggedBitSet__FaceTag__const__from__unsigned__long.html", null ],
+    [ "mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int", "classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int.html", null ],
     [ "mrcudapy.func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_std_vector_float_int", "classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__std__vector__float__int.html", null ],
     [ "mrmeshpy.func_unsigned_char_from_Vector3_int", "classmrmeshpy_1_1func__unsigned__char__from__Vector3__int.html", null ],
     [ "mrmeshpy.func_Vector2_float_from_Vector2_int", "classmrmeshpy_1_1func__Vector2__float__from__Vector2__int.html", null ],
@@ -454,6 +455,10 @@ var hierarchy =
     [ "mrmeshpy.IFastWindingNumber", "classmrmeshpy_1_1IFastWindingNumber.html", [
       [ "mrmeshpy.FastWindingNumber", "classmrmeshpy_1_1FastWindingNumber.html", null ]
     ] ],
+    [ "meshlib.mrmeshpy.IFastWindingNumberByParts", null, [
+      [ "mrcudapy.FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", null ]
+    ] ],
+    [ "mrmeshpy.IFastWindingNumberByParts", "classmrmeshpy_1_1IFastWindingNumberByParts.html", null ],
     [ "mrmeshpy.IICPTreeIndexer", "classmrmeshpy_1_1IICPTreeIndexer.html", null ],
     [ "mrmeshpy.Image", "classmrmeshpy_1_1Image.html", [
       [ "mrmeshpy.MeshTexture", "classmrmeshpy_1_1MeshTexture.html", null ]

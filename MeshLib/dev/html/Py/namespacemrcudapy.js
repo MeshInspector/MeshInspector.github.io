@@ -21,5 +21,5 @@ var namespacemrcudapy =
     [ "maxBufferSizeAlignedByBlock", "namespacemrcudapy.html#aab9adabccec4346ca61b1e628d692a35", null ],
     [ "negatePicture", "namespacemrcudapy.html#ac3163db5e369a9de3b776b9110700924", null ],
     [ "pointsToDistanceVolume", "namespacemrcudapy.html#abacc3f1ddc84e70bb38d8d75c6595bd3", null ],
-    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#aa313ea22f7ee33fd065b0609ab94db3d", null ]
+    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#a53345837896b648976930e05d90dda01", null ]
 ];

@@ -436,6 +436,7 @@ var annotated_dup =
       [ "Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", "classMR_1_1Id_3_01VoxelTag_01_4" ],
       [ "IdRange", "structMR_1_1IdRange.html", "structMR_1_1IdRange" ],
       [ "IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", "classMR_1_1IFastWindingNumber" ],
+      [ "IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", "classMR_1_1IFastWindingNumberByParts" ],
       [ "IICPTreeIndexer", "classMR_1_1IICPTreeIndexer.html", "classMR_1_1IICPTreeIndexer" ],
       [ "Image", "structMR_1_1Image.html", "structMR_1_1Image" ],
       [ "ImGuiImage", "classMR_1_1ImGuiImage.html", "classMR_1_1ImGuiImage" ],

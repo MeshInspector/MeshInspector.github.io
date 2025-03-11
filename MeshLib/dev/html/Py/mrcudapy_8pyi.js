@@ -21,5 +21,5 @@ var mrcudapy_8pyi =
     [ "maxBufferSizeAlignedByBlock", "mrcudapy_8pyi.html#aab9adabccec4346ca61b1e628d692a35", null ],
     [ "negatePicture", "mrcudapy_8pyi.html#ac3163db5e369a9de3b776b9110700924", null ],
     [ "pointsToDistanceVolume", "mrcudapy_8pyi.html#abacc3f1ddc84e70bb38d8d75c6595bd3", null ],
-    [ "pointsToDistanceVolumeByParts", "mrcudapy_8pyi.html#aa313ea22f7ee33fd065b0609ab94db3d", null ]
+    [ "pointsToDistanceVolumeByParts", "mrcudapy_8pyi.html#a53345837896b648976930e05d90dda01", null ]
 ];

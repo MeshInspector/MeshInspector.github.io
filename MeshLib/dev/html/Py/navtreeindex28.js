@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a36fd5ac316ea771331116b7d59692fff":[6,1,0,0,2,242,11],
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a36fd5ac316ea771331116b7d59692fff":[6,1,1,0,1,242,11],
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a4f9790015b39b79102c9bf84b5053a85":[6,1,0,0,2,242,15],
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a4f9790015b39b79102c9bf84b5053a85":[6,1,1,0,1,242,15],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a50ccd6545e4fb0876ea176d9ef42a5eb":[6,1,0,0,2,242,3],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a50ccd6545e4fb0876ea176d9ef42a5eb":[6,1,1,0,1,242,3],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a72e52ea4b95f57b6395f38dbf4ab3e52":[6,1,0,0,2,242,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a9ef89ba6e08a65b503f056105c006659":[6,1,0,0,2,249,7],
 "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a9ef89ba6e08a65b503f056105c006659":[6,1,1,0,1,249,7],
 "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#adf06b936d2328e00a07fe67e12d8670a":[6,1,0,0,2,249,4],
-"classmrmeshpy_1_1FindProjectionOnPointsSettings.html#adf06b936d2328e00a07fe67e12d8670a":[6,1,1,0,1,249,4],
-"classmrmeshpy_1_1FixUndercuts.html":[6,1,0,0,2,250],
-"classmrmeshpy_1_1FixUndercuts.html":[6,1,1,0,1,250],
-"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,1,0,0,2,250,0],
-"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,1,1,0,1,250,0]
+"classmrmeshpy_1_1FindProjectionOnPointsSettings.html#adf06b936d2328e00a07fe67e12d8670a":[6,1,1,0,1,249,4]
 };

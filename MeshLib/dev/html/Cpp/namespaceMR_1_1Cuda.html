@@ -199,6 +199,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad3376b68fd0e9661c0072bf92dd704a3" id="r_ad3376b68fd0e9661c0072bf92dd704a3"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3376b68fd0e9661c0072bf92dd704a3">computeDistanceMapHeapBytes</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MeshToDistanceMapParams</a> &amp;params, bool needOutSamples=false)</td></tr>
 <tr class="memdesc:ad3376b68fd0e9661c0072bf92dd704a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes memory consumption of computeDistanceMap function.  <br /></td></tr>
 <tr class="separator:ad3376b68fd0e9661c0072bf92dd704a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b0e3af6fadf0842bbaef360071ea8e" id="r_ab0b0e3af6fadf0842bbaef360071ea8e"><td class="memTemplParams" colspan="2">template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename CPUFunc &gt; </td></tr>
+<tr class="memitem:ab0b0e3af6fadf0842bbaef360071ea8e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab0b0e3af6fadf0842bbaef360071ea8e">cudaPipeline</a> (BufferType init, InputIt <a class="el" href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, InputIt <a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, GPUFunc gpuFunc, CPUFunc cpuFunc)</td></tr>
+<tr class="separator:ab0b0e3af6fadf0842bbaef360071ea8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae65f347287f9c0ba39f2cc533c51582e" id="r_ae65f347287f9c0ba39f2cc533c51582e"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::unique_ptr&lt; PointCloudDataHolder &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65f347287f9c0ba39f2cc533c51582e">copyDataFrom</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const std::vector&lt; Vector3f &gt; *normals=nullptr)</td></tr>
 <tr class="memdesc:ae65f347287f9c0ba39f2cc533c51582e"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy point cloud-related data to the GPU memory  <br /></td></tr>
 <tr class="separator:ae65f347287f9c0ba39f2cc533c51582e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,8 +217,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a76d46e2388018a2bca5a72dfaefd30e9" id="r_a76d46e2388018a2bca5a72dfaefd30e9"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; MR::SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76d46e2388018a2bca5a72dfaefd30e9">pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a76d46e2388018a2bca5a72dfaefd30e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
 <tr class="separator:a76d46e2388018a2bca5a72dfaefd30e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0de1cf951a2eed12cb915a37b13ede63" id="r_a0de1cf951a2eed12cb915a37b13ede63"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0de1cf951a2eed12cb915a37b13ede63">pointsToDistanceVolumeByParts</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params, std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt; addPart)</td></tr>
-<tr class="separator:a0de1cf951a2eed12cb915a37b13ede63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca6e42153313ca635d7ea3e12d19bf0" id="r_a2ca6e42153313ca635d7ea3e12d19bf0"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca6e42153313ca635d7ea3e12d19bf0">pointsToDistanceVolumeByParts</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params, std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt; addPart, int layerOverlap)</td></tr>
+<tr class="separator:a2ca6e42153313ca635d7ea3e12d19bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5f9490f820c7e7eb708e516e58d6e5a" id="r_ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f9490f820c7e7eb708e516e58d6e5a">computeSkyViewFactor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
 <tr class="separator:ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af763aea7896baa102ab7715278d93231" id="r_af763aea7896baa102ab7715278d93231"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af763aea7896baa102ab7715278d93231">findSkyRays</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
@@ -367,6 +370,45 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>copy point cloud-related data to the GPU memory </p>
+
+</div>
+</div>
+<a id="ab0b0e3af6fadf0842bbaef360071ea8e" name="ab0b0e3af6fadf0842bbaef360071ea8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b0e3af6fadf0842bbaef360071ea8e">&#9670;&#160;</a></span>cudaPipeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename CPUFunc &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Cuda::cudaPipeline </td>
+          <td>(</td>
+          <td class="paramtype">BufferType</td>          <td class="paramname"><span class="paramname"><em>init</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GPUFunc</td>          <td class="paramname"><span class="paramname"><em>gpuFunc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CPUFunc</td>          <td class="paramname"><span class="paramname"><em>cpuFunc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Process data by blocks alternately by GPU and CPU. GPUFunc is executed in a separate thread. Both GPUFunc and CPUFunc must satisfy the following signature: <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected&lt;void&gt;</a> (*funcName) ( BufferType&amp; buffer, InputIt::value_type value ) </p>
 
 </div>
 </div>
@@ -797,8 +839,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0de1cf951a2eed12cb915a37b13ede63" name="a0de1cf951a2eed12cb915a37b13ede63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0de1cf951a2eed12cb915a37b13ede63">&#9670;&#160;</a></span>pointsToDistanceVolumeByParts()</h2>
+<a id="a2ca6e42153313ca635d7ea3e12d19bf0" name="a2ca6e42153313ca635d7ea3e12d19bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca6e42153313ca635d7ea3e12d19bf0">&#9670;&#160;</a></span>pointsToDistanceVolumeByParts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,7 +858,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt;</td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>&#160;)</td>
+          <td class="paramtype">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt;</td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>layerOverlap</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

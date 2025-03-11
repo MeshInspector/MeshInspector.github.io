@@ -518,6 +518,9 @@ var hierarchy =
       [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ],
       [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", null ]
     ] ],
+    [ "MR::IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", [
+      [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ]
+    ] ],
     [ "MR::IICPTreeIndexer", "classMR_1_1IICPTreeIndexer.html", null ],
     [ "MR::Image", "structMR_1_1Image.html", [
       [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ]

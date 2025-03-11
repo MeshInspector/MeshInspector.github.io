@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a49f40c9b9e3d82b37f811952be4b6a9a":[6,1,0,0,2,159,0,1],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a49f40c9b9e3d82b37f811952be4b6a9a":[6,1,1,0,1,159,0,1],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a4e2200471cde8f07776032e971f6faed":[6,1,0,0,2,159,0,7],
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a4e2200471cde8f07776032e971f6faed":[6,1,1,0,1,159,0,7],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a6e05e06a706d78ad7e86c0b1f5f512e1":[6,1,0,0,2,159,0,11],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a6e05e06a706d78ad7e86c0b1f5f512e1":[6,1,1,0,1,159,0,11],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a81f16399c52814c69725b68452ccaf55":[6,1,0,0,2,159,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a97d85283fc7d4e62d444ab19b3a9dc14":[6,1,0,0,2,173,19],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a97d85283fc7d4e62d444ab19b3a9dc14":[6,1,1,0,1,173,19],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ab5aef68136cdd47b253e15282a3dbd25":[6,1,0,0,2,173,17],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ab5aef68136cdd47b253e15282a3dbd25":[6,1,1,0,1,173,17],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#abeb06bda894a10c7d3f9883a7e109b77":[6,1,0,0,2,173,22],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#abeb06bda894a10c7d3f9883a7e109b77":[6,1,1,0,1,173,22],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ac901b862ac13e7da49c883887ba1205e":[6,1,0,0,2,173,4],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ac901b862ac13e7da49c883887ba1205e":[6,1,1,0,1,173,4]
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ab5aef68136cdd47b253e15282a3dbd25":[6,1,1,0,1,173,17]
 };

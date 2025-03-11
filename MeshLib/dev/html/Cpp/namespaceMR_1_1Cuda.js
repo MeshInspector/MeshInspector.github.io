@@ -7,6 +7,7 @@ var namespaceMR_1_1Cuda =
     [ "computeDistanceMapHeapBytes", "namespaceMR_1_1Cuda.html#ad3376b68fd0e9661c0072bf92dd704a3", null ],
     [ "computeSkyViewFactor", "namespaceMR_1_1Cuda.html#ab5f9490f820c7e7eb708e516e58d6e5a", null ],
     [ "copyDataFrom", "namespaceMR_1_1Cuda.html#ae65f347287f9c0ba39f2cc533c51582e", null ],
+    [ "cudaPipeline", "namespaceMR_1_1Cuda.html#ab0b0e3af6fadf0842bbaef360071ea8e", null ],
     [ "distanceMapFromContours", "namespaceMR_1_1Cuda.html#ad903c7645148d442eed7b3be6f4b0da7", null ],
     [ "distanceMapFromContoursHeapBytes", "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94", null ],
     [ "findProjectionOnPoints", "namespaceMR_1_1Cuda.html#acdd0eaf7b314f1758bf6e417ad1f3795", null ],
@@ -25,5 +26,5 @@ var namespaceMR_1_1Cuda =
     [ "negatePicture", "namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a", null ],
     [ "pointCloudHeapBytes", "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f", null ],
     [ "pointsToDistanceVolume", "namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9", null ],
-    [ "pointsToDistanceVolumeByParts", "namespaceMR_1_1Cuda.html#a0de1cf951a2eed12cb915a37b13ede63", null ]
+    [ "pointsToDistanceVolumeByParts", "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0", null ]
 ];
