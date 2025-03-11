@@ -137,13 +137,15 @@ var namespaceMR =
       [ "getUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#aefbc07263247d17b42b9b520c287901c", null ],
       [ "getUiLengthPrecision", "namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee", null ],
       [ "getUiLengthUnit", "namespaceMR_1_1UnitSettings.html#a3828878d9371fdeec0058499a90a773c", null ],
+      [ "getUiRatioPrecision", "namespaceMR_1_1UnitSettings.html#a0b189aa7e3720de95702885098bb3413", null ],
       [ "resetToDefaults", "namespaceMR_1_1UnitSettings.html#ae406c519ab41f7cbc08d65a9c83d2bcf", null ],
       [ "setDegreesMode", "namespaceMR_1_1UnitSettings.html#a095d298e864fff2df5d9ec05315d6d8b", null ],
       [ "setShowLeadingZero", "namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414", null ],
       [ "setThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2", null ],
       [ "setUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#a17f256d60a5bca751f33412395fcfa86", null ],
       [ "setUiLengthPrecision", "namespaceMR_1_1UnitSettings.html#a6c2457148f4800dfc82a654d0d9f3592", null ],
-      [ "setUiLengthUnit", "namespaceMR_1_1UnitSettings.html#ad8d6be62abf0d99eeb86139fd7939da1", null ]
+      [ "setUiLengthUnit", "namespaceMR_1_1UnitSettings.html#ad8d6be62abf0d99eeb86139fd7939da1", null ],
+      [ "setUiRatioPrecision", "namespaceMR_1_1UnitSettings.html#a2fa49ac2e3a36c4f6472b6b5ea7793cc", null ]
     ] ],
     [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", "namespaceMR_1_1VoxelsLoad" ],
     [ "VoxelsSave", "namespaceMR_1_1VoxelsSave.html", "namespaceMR_1_1VoxelsSave" ],

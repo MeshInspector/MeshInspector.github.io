@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Cone3Approximation.html#a9d2c7bacbeba26d79da0394635646651":[6,0,2,0,1,130,0],
+"classMR_1_1ConeObject.html":[6,0,0,11,0,1],
 "classMR_1_1ConeObject.html#a03cbbb3c2194467c85bf870c09f08e72":[6,0,0,11,0,1,9],
 "classMR_1_1ConeObject.html#a114d733b5fccd533496cde9091b5b3d4":[6,0,0,11,0,1,15],
 "classMR_1_1ConeObject.html#a17f187e540021ced92b462f9a865e299":[6,0,0,11,0,1,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html#a4471adaa23e54489e40da26c013aa5da":[6,0,2,0,1,163,2,1],
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html":[6,0,1,0,1,179,3],
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html":[6,0,2,0,1,163,3],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a2ec215e7b7102eb9a43ce86c525e2425":[6,0,1,0,1,179,3,2],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a2ec215e7b7102eb9a43ce86c525e2425":[6,0,2,0,1,163,3,2],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a8b31501499578aedaea3b467387980cd":[6,0,1,0,1,179,3,3]
+"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a2ec215e7b7102eb9a43ce86c525e2425":[6,0,1,0,1,179,3,2]
 };

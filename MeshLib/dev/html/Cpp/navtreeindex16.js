@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"MRWasmUnavailablePlugin_8h.html":[6,0,3,0,0,1,0,0,2],
+"MRWasmUnavailablePlugin_8h_source.html":[6,0,3,0,0,1,0,0,2],
 "MRWatershedGraph_8h.html":[6,0,3,0,0,1,4,382],
 "MRWatershedGraph_8h_source.html":[6,0,3,0,0,1,4,382],
 "MRWebRequest_8h.html":[6,0,3,0,0,1,10,146],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[6,0,2,0,1,43,17],
 "classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,1,0,1,59,12],
 "classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,2,0,1,43,12],
-"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,1,0,1,59,2],
-"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,2,0,1,43,2],
-"classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,1,0,1,59,23]
+"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,1,0,1,59,2]
 };
