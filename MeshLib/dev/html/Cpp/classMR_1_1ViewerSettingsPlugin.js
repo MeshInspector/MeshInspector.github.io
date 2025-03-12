@@ -16,6 +16,5 @@ var classMR_1_1ViewerSettingsPlugin =
     [ "delComboSettings", "classMR_1_1ViewerSettingsPlugin.html#a25d8a5c93929180a4b438d21afe8cb02", null ],
     [ "drawDialog", "classMR_1_1ViewerSettingsPlugin.html#ab07645da2528b86e8844b18dd97c93a9", null ],
     [ "setActiveTab", "classMR_1_1ViewerSettingsPlugin.html#aa3fd8eed1495a80edbc79bc1dc67e298", null ],
-    [ "uiName", "classMR_1_1ViewerSettingsPlugin.html#af8e3f3963da26a02fb340dd65f4fa6ec", null ],
     [ "updateThemes", "classMR_1_1ViewerSettingsPlugin.html#ae579b363d0283ded6914225b425efd99", null ]
 ];

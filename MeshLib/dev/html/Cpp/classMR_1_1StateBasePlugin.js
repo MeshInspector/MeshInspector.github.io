@@ -15,7 +15,7 @@ var classMR_1_1StateBasePlugin =
     [ "isEnabled", "classMR_1_1StateBasePlugin.html#ae7da0ed13a069a29ec8fac496e7aa065", null ],
     [ "onDisable_", "classMR_1_1StateBasePlugin.html#a31980ff25e0e7e77cf8ace037ddd9f68", null ],
     [ "onEnable_", "classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597", null ],
-    [ "setUINameDeferred", "classMR_1_1StateBasePlugin.html#aece4337b828ba341da5ea80dc8f35d49", null ],
+    [ "setUIName", "classMR_1_1StateBasePlugin.html#a1962cf4397a96b2ffc12d9b23ab51cb6", null ],
     [ "shutdown", "classMR_1_1StateBasePlugin.html#af0d68f675e98e0a1ceb44192eaf94a13", null ],
     [ "sortString", "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898", null ],
     [ "uiName", "classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28", null ],

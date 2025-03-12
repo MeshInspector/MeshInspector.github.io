@@ -1,7 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a":[6,0,0,2,6,0,3],
-"structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223":[6,0,0,2,6,0,4],
 "structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980":[6,0,0,2,6,0,5],
 "structMR_1_1IPointPairs.html":[6,0,1,0,1,293],
 "structMR_1_1IPointPairs.html":[6,0,2,0,1,277],
@@ -249,5 +247,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1InSphereSearchSettings.html#a5454ee36cf1aaf8137df2df59f4a4e53":[6,0,1,0,1,286,2],
 "structMR_1_1InSphereSearchSettings.html#a5454ee36cf1aaf8137df2df59f4a4e53":[6,0,2,0,1,270,2],
 "structMR_1_1InSphereSearchSettings.html#ac17cedea371781d54bc00fa84b7b0125":[6,0,1,0,1,286,3],
-"structMR_1_1InSphereSearchSettings.html#ac17cedea371781d54bc00fa84b7b0125":[6,0,2,0,1,270,3]
+"structMR_1_1InSphereSearchSettings.html#ac17cedea371781d54bc00fa84b7b0125":[6,0,2,0,1,270,3],
+"structMR_1_1InflateSettings.html":[6,0,1,0,1,284],
+"structMR_1_1InflateSettings.html":[6,0,2,0,1,268]
 };

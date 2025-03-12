@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMRAffineXf3f.html#aa9d39618e3ef0259f88806b24efd6974":[6,0,2,0,3,1],
-"structMRAffineXf3f.html#ae6766689e5c077f26fcc13d6653842a7":[6,0,2,0,3,0],
 "structMRBooleanParameters.html":[6,0,2,0,4],
 "structMRBooleanParameters.html#a63e215e887ec4e0d7a5eb665d5e0d25d":[6,0,2,0,4,1],
 "structMRBooleanParameters.html#acbcd312f0a16947198cc7bec70d5d69a":[6,0,2,0,4,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "structMRRelaxParams.html#a971cde2ee06090007854ed72f340262c":[6,0,2,0,53,0],
 "structMRRelaxParams.html#ab7123951867b1faf2ba67e7c60b2950f":[6,0,2,0,53,4],
 "structMRRelaxParams.html#ad1e83a9511a31c4412a48c8d865fd50a":[6,0,2,0,53,2],
-"structMRRelaxParams.html#af3a1a637d046e2e3c41ca9cb10048e53":[6,0,2,0,53,1]
+"structMRRelaxParams.html#af3a1a637d046e2e3c41ca9cb10048e53":[6,0,2,0,53,1],
+"structMRRemeshSettings.html":[6,0,2,0,54],
+"structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9":[6,0,2,0,54,7]
 };

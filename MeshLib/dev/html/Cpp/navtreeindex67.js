@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[6,0,2,0,1,2,2,0,3],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[6,0,1,0,1,6,2,0,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[6,0,2,0,1,2,2,0,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,1,0,1,6,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,2,0,1,2,2,0,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[6,0,2,0,1,214,1],
 "structMR_1_1FindProjectionOnPointsSettings.html":[6,0,0,1,28],
 "structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[6,0,0,1,28,1],
-"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,28,4]
+"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,28,4],
+"structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,28,2],
+"structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[6,0,0,1,28,3]
 };

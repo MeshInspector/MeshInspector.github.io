@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"structMR_1_1PickPointManager_1_1Params.html#af2fa5fa03ddcb2645c4f22130a4a50da":[6,0,2,0,1,448,1,0],
-"structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2":[6,0,1,0,1,464,1,12],
 "structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2":[6,0,2,0,1,448,1,12],
 "structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,1,0,1,464,1,3],
 "structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,2,0,1,448,1,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "structMR_1_1Polyline.html#aa95a33cc56a264a94edd7ef4c0f833bf":[6,0,0,14,0,3],
 "structMR_1_1Polyline.html#aae40d1c6ba0e12c47a855747d44d40ea":[6,0,0,14,0,7],
 "structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[6,0,0,14,0,17],
-"structMR_1_1Polyline.html#ab5ba9b1bd705b2eee1f6faa6e1a1ab29":[6,0,0,14,0,13]
+"structMR_1_1Polyline.html#ab5ba9b1bd705b2eee1f6faa6e1a1ab29":[6,0,0,14,0,13],
+"structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[6,0,0,14,0,21],
+"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[6,0,0,14,0,15]
 };
