@@ -31,6 +31,8 @@ cat scripts/doxygen-awesome-scripts.html >> html_header.html.tmp
 sed -n -e "/<\/head>/,$ p" html_header.html >> html_header.html.tmp
 rm html_header.html
 mv html_header.html.tmp html_header.html
+# set nofollow tag in footer
+sed -i "s|href=|rel=\"nofollow\" href=|g" html_footer.html
 
 if [ ! -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
     echo "[ERROR] Can not found script to generate doxygen layout files"
@@ -43,6 +45,8 @@ do
     ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE
     # force Doxygen to use the custom HTML header
     sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
+    # force Doxygen to use the custom HTML footer
+    sed -e "s|HTML_FOOTER\s*=.*|HTML_FOOTER = html_footer.html|" -i.bak Doxyfile${MODULE}
     # force Doxygen to use the custom output directory
     sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}|" -i Doxyfile${MODULE}
 done
