@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,2,0,1,514,1],
+"structMR_1_1RawTiffOutput.html":[6,0,1,0,1,531],
+"structMR_1_1RawTiffOutput.html":[6,0,2,0,1,515],
+"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,1,0,1,531,0],
+"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,2,0,1,515,0],
+"structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,1,0,1,531,3],
+"structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,2,0,1,515,3],
+"structMR_1_1RawTiffOutput.html#a4a46a4e341d9607035dd3b8e7f94b350":[6,0,1,0,1,531,5],
 "structMR_1_1RawTiffOutput.html#a4a46a4e341d9607035dd3b8e7f94b350":[6,0,2,0,1,515,5],
 "structMR_1_1RawTiffOutput.html#a56a198effd90991eb70ce8c6707711dc":[6,0,1,0,1,531,4],
 "structMR_1_1RawTiffOutput.html#a56a198effd90991eb70ce8c6707711dc":[6,0,2,0,1,515,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,1,0,1,580,7],
 "structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,2,0,1,564,7],
 "structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b":[6,0,1,0,1,580,3],
-"structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b":[6,0,2,0,1,564,3],
-"structMR_1_1RibbonSchema.html#a21a3586ebedfeb4b958b58b82d741fb8":[6,0,1,0,1,580,8],
-"structMR_1_1RibbonSchema.html#a21a3586ebedfeb4b958b58b82d741fb8":[6,0,2,0,1,564,8],
-"structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10":[6,0,1,0,1,580,4],
-"structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10":[6,0,2,0,1,564,4],
-"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,1,0,1,580,9],
-"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,2,0,1,564,9],
-"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,1,0,1,580,1],
-"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,2,0,1,564,1]
+"structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b":[6,0,2,0,1,564,3]
 };

@@ -2,6 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -2834,6 +2835,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55">_count</a>
  }</td></tr>
 <tr class="separator:aa6b11352e59ca716da2c9d8bf2371424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b6b94f5ad3595b510d6842ee045d493" id="r_a3b6b94f5ad3595b510d6842ee045d493"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b6b94f5ad3595b510d6842ee045d493">SideRegions</a> { <a class="el" href="#a3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd">CCWArrow</a> = 26
+, <a class="el" href="#a3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518">CWArrow</a> = 27
+ }</td></tr>
+<tr class="separator:a3b6b94f5ad3595b510d6842ee045d493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d528348b4d27cfa92a1b565755099c8" id="r_a5d528348b4d27cfa92a1b565755099c8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d528348b4d27cfa92a1b565755099c8">ScalarType</a> { <br />
 &#160;&#160;<a class="el" href="#a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a">UInt8</a>
 , <a class="el" href="#a5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539">Int8</a>
@@ -5746,6 +5751,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memdesc:a60e39381727e51c4cad64d4e0c4f3b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes cube mesh with specified face structure for each 3-rank corner, each 2-rank corner and each side:<br  />
 .  <br /></td></tr>
 <tr class="separator:a60e39381727e51c4cad64d4e0c4f3b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e9489254b51988519548546f68914a" id="r_ae5e9489254b51988519548546f68914a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5e9489254b51988519548546f68914a">makeCornerControllerRotationArrowMesh</a> (float <a class="el" href="#a306ff1f62992b3eb33c446913b64188a">size</a>, const Vector2f &amp;shift, bool <a class="el" href="group__MathGroup.html#ga04b9e51953d898cf85e76c05d426366a">ccw</a>)</td></tr>
+<tr class="memdesc:ae5e9489254b51988519548546f68914a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes planar arrow mesh that will be used for controlling in plane rotation in corner near cube controller.  <br /></td></tr>
+<tr class="separator:ae5e9489254b51988519548546f68914a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a739b85ed00b84c2e37b63ffd04b683b4" id="r_a739b85ed00b84c2e37b63ffd04b683b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API VertUVCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a739b85ed00b84c2e37b63ffd04b683b4">makeCornerControllerUVCoords</a> (float cornerRatio=0.2f)</td></tr>
 <tr class="memdesc:a739b85ed00b84c2e37b63ffd04b683b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates UV coordinates for <code>makeCornerControllerMesh</code> output mesh for texture like:<br  />
 "Right"" Left "<br  />
@@ -10120,6 +10128,32 @@ template&lt;typename T &gt; </div>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b" name="a494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b"></a>Negative&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147" name="a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147"></a>Positive&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a3b6b94f5ad3595b510d6842ee045d493" name="a3b6b94f5ad3595b510d6842ee045d493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b6b94f5ad3595b510d6842ee045d493">&#9670;&#160;</a></span>SideRegions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a3b6b94f5ad3595b510d6842ee045d493">MR::SideRegions</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd" name="a3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd"></a>CCWArrow&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518" name="a3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518"></a>CWArrow&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -21769,6 +21803,43 @@ template&lt;typename V , typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Cube mesh with specified face structure</dd></dl>
+
+</div>
+</div>
+<a id="ae5e9489254b51988519548546f68914a" name="ae5e9489254b51988519548546f68914a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5e9489254b51988519548546f68914a">&#9670;&#160;</a></span>makeCornerControllerRotationArrowMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a> MR::makeCornerControllerRotationArrowMesh </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2f &amp;</td>          <td class="paramname"><span class="paramname"><em>shift</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>ccw</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes planar arrow mesh that will be used for controlling in plane rotation in corner near cube controller. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>vertical length projection of Arrow</td></tr>
+    <tr><td class="paramname">shift</td><td>shift in XY plane in world units (unis same as size)</td></tr>
+    <tr><td class="paramname">ccw</td><td>direction of arrow</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>&lt;Planar arrow mesh/returns&gt; </dd></dl>
 
 </div>
 </div>

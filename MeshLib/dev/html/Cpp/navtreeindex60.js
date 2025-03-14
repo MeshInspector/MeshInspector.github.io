@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1TriangulationHelpers.html#a7bac13257412606ce60799f214894488":[6,0,1,0,1,37,3],
+"namespaceMR_1_1TriangulationHelpers.html#aaaaea439dd161b8d9bb9fa504ec2c384":[6,0,1,0,1,37,5],
+"namespaceMR_1_1UI.html":[6,0,1,0,1,38],
+"namespaceMR_1_1UI.html#a012d7558b98063f22c4bb9a28299837b":[6,0,1,0,1,38,25],
+"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6":[6,0,1,0,1,38,13],
+"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086":[6,0,1,0,1,38,13,0],
+"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a":[6,0,1,0,1,38,13,1],
+"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5f623490490b088611156df973163f7f":[6,0,1,0,1,38,13,4],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a9a90779dd28ced8bbf08290780e6ea30":[6,0,1,0,1,38,13,3],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,38,13,5],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6aecbe96567baf8cf6569140a80096a953":[6,0,1,0,1,38,13,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
 "structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2],
 "structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2],
-"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,0,2,0],
-"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,2,0,0,2,0],
-"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,1,0,0,2,1],
-"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,2,0,0,2,1],
-"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,1,0,0,2,2],
-"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,2,0,0,2,2],
-"structMRAffineXf3f.html":[6,0,2,0,3],
-"structMRAffineXf3f.html#aa9d39618e3ef0259f88806b24efd6974":[6,0,2,0,3,1],
-"structMRAffineXf3f.html#ae6766689e5c077f26fcc13d6653842a7":[6,0,2,0,3,0]
+"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,0,2,0]
 };

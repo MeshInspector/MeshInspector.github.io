@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[6,0,2,0,1,214,0],
+"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[6,0,1,0,1,230,1],
+"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[6,0,2,0,1,214,1],
+"structMR_1_1FindProjectionOnPointsSettings.html":[6,0,0,1,28],
+"structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[6,0,0,1,28,1],
+"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,28,4],
+"structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,28,2],
+"structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[6,0,0,1,28,3],
 "structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,28,0],
 "structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,28,5],
 "structMR_1_1FitBoxParams.html":[6,0,1,0,1,232],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,1,0,1,267,1],
 "structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,2,0,1,251,1],
 "structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,1,0,1,267,0],
-"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,2,0,1,251,0],
-"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,1,0,1,267,2],
-"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,2,0,1,251,2],
-"structMR_1_1IOFilter.html":[6,0,0,2,6,0],
-"structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
-"structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0],
-"structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765":[6,0,0,2,6,0,2],
-"structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a":[6,0,0,2,6,0,3],
-"structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223":[6,0,0,2,6,0,4]
+"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,2,0,1,251,0]
 };

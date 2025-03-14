@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1RibbonSchema.html#a21a3586ebedfeb4b958b58b82d741fb8":[6,0,1,0,1,580,8],
+"structMR_1_1RibbonSchema.html#a21a3586ebedfeb4b958b58b82d741fb8":[6,0,2,0,1,564,8],
+"structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10":[6,0,1,0,1,580,4],
+"structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10":[6,0,2,0,1,564,4],
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,1,0,1,580,9],
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,2,0,1,564,9],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,1,0,1,580,1],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,2,0,1,564,1],
 "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,1,0,1,580,6],
 "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,2,0,1,564,6],
 "structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,1,0,1,580,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,2,0,1,610,6],
 "structMR_1_1ShellVertexInfo.html":[6,0,1,0,1,628],
 "structMR_1_1ShellVertexInfo.html":[6,0,2,0,1,612],
-"structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,1,0,1,628,1],
-"structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,2,0,1,612,1],
-"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,1,0,1,628,3],
-"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,2,0,1,612,3],
-"structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,1,0,1,628,2],
-"structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,2,0,1,612,2],
-"structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,1,0,1,628,0],
-"structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,2,0,1,612,0],
-"structMR_1_1ShortcutKey.html":[6,0,1,0,1,630]
+"structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,1,0,1,628,1]
 };

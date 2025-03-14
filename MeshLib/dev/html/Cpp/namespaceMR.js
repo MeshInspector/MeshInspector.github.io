@@ -1443,6 +1443,10 @@ var namespaceMR =
       [ "Negative", "namespaceMR.html#a494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b", null ],
       [ "Positive", "namespaceMR.html#a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147", null ]
     ] ],
+    [ "SideRegions", "namespaceMR.html#a3b6b94f5ad3595b510d6842ee045d493", [
+      [ "CCWArrow", "namespaceMR.html#a3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd", null ],
+      [ "CWArrow", "namespaceMR.html#a3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518", null ]
+    ] ],
     [ "SignDetectionMode", "namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309", [
       [ "Unsigned", "namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a", null ],
       [ "OpenVDB", "namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9", null ],
@@ -2281,6 +2285,7 @@ var namespaceMR =
     [ "makeConvexHull", "namespaceMR.html#ad4f2e7823d67de1684e13a3829315dc2", null ],
     [ "makeConvexHull", "namespaceMR.html#a914df647c5ed18410f4b85fd4af5f47e", null ],
     [ "makeCornerControllerMesh", "namespaceMR.html#a60e39381727e51c4cad64d4e0c4f3b8f", null ],
+    [ "makeCornerControllerRotationArrowMesh", "namespaceMR.html#ae5e9489254b51988519548546f68914a", null ],
     [ "makeCornerControllerUVCoords", "namespaceMR.html#a739b85ed00b84c2e37b63ffd04b683b4", null ],
     [ "makeCube", "namespaceMR.html#ac19d6db4200945b6861959bd421a41e1", null ],
     [ "makeCylinder", "namespaceMR.html#a614c1bac311ca816914abbd3a4602dc4", null ],

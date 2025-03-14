@@ -1,5 +1,9 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1OpenRawVoxelsPlugin.html#a579c7536deedc6bdbd3cb924c92b968e":[6,0,2,0,1,430,0],
+"classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,1,0,1,446,1],
+"classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,2,0,1,430,1],
+"classMR_1_1OutliersDetector.html":[6,0,1,0,1,450],
 "classMR_1_1OutliersDetector.html":[6,0,2,0,1,434],
 "classMR_1_1OutliersDetector.html#a02666077b16515a2f9576574342f72a0":[6,0,1,0,1,450,1],
 "classMR_1_1OutliersDetector.html#a02666077b16515a2f9576574342f72a0":[6,0,2,0,1,434,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,1,0,1,468,9],
 "classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,2,0,1,452,9],
 "classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,1,0,1,468,6],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,2,0,1,452,6],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,1,0,1,469],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,2,0,1,453],
-"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,1,0,1,469,1],
-"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,2,0,1,453,1]
+"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,2,0,1,452,6]
 };
