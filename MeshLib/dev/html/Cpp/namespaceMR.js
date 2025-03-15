@@ -2176,6 +2176,7 @@ var namespaceMR =
     [ "getToIntConverter", "namespaceMR.html#a9736a434a7f001c05b9a7d23675ca257", null ],
     [ "getTopmostVisibleObjects", "group__DataModelGroup.html#ga1bbf155b27ef19dd7f54b2e9a534f397", null ],
     [ "getTopmostVisibleObjects", "group__DataModelGroup.html#ga7afd4c6187926b10b71f8631961165a0", null ],
+    [ "getTouchPlanes", "group__BoxGroup.html#gab7e63d12c29922a0bc2a53683789c03f", null ],
     [ "getTrivialVertexShader", "namespaceMR.html#a3e9889db672284199460d483317d72a2", null ],
     [ "getTypeConverter", "namespaceMR.html#a0230f1515e422e1010078d5ffd15f11f", null ],
     [ "getUnitInfo", "namespaceMR.html#a6443d7b50482979e4b2287d29423ee25", null ],

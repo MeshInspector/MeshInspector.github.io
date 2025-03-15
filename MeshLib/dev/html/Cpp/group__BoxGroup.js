@@ -36,6 +36,7 @@ var group__BoxGroup =
     [ "MR::get", "group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e", null ],
     [ "MR::getCorners", "group__BoxGroup.html#ga29381aa0a95542624d22842711d672f9", null ],
     [ "MR::getCorners", "group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8", null ],
+    [ "MR::getTouchPlanes", "group__BoxGroup.html#gab7e63d12c29922a0bc2a53683789c03f", null ],
     [ "MR::height", "group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae", null ],
     [ "MR::transformed", "group__BoxGroup.html#gab17e73512e12f2ab50b0c688ad52ebd5", null ],
     [ "MR::transformed", "group__BoxGroup.html#gae1a724a1801d1bf348bf471329645cf3", null ],
