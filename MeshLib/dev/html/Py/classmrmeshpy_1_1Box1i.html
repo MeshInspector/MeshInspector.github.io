@@ -179,6 +179,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a85b347d501da9d13d39c42d51034603c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18835b6c31136f25824323fc50581b4b" id="r_a18835b6c31136f25824323fc50581b4b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18835b6c31136f25824323fc50581b4b">contains</a> (self, int pt)</td></tr>
 <tr class="separator:a18835b6c31136f25824323fc50581b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bec3d85b8ed88317388e8e6cfc7051d" id="r_a0bec3d85b8ed88317388e8e6cfc7051d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bec3d85b8ed88317388e8e6cfc7051d">corner</a> (self, bool c)</td></tr>
+<tr class="separator:a0bec3d85b8ed88317388e8e6cfc7051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9d815a4c208f26d732e1f9c0ce68074" id="r_aa9d815a4c208f26d732e1f9c0ce68074"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9d815a4c208f26d732e1f9c0ce68074">diagonal</a> (self)</td></tr>
 <tr class="separator:aa9d815a4c208f26d732e1f9c0ce68074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf5264fdd84a31651d7179fc9b62850" id="r_acbf5264fdd84a31651d7179fc9b62850"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box1i.html">Box1i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbf5264fdd84a31651d7179fc9b62850">expanded</a> (self, int expansion)</td></tr>
@@ -216,6 +218,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:adea7e49fc4bbcb761e81523f25e82bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfea57baa51077ed8b0d48698e5adba9" id="r_acfea57baa51077ed8b0d48698e5adba9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box1i.html">Box1i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfea57baa51077ed8b0d48698e5adba9">fromMinAndSize</a> (int min, int <a class="el" href="#abdca1366c5e0e669480e28d97f4c0093">size</a>)</td></tr>
 <tr class="separator:acfea57baa51077ed8b0d48698e5adba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c57a83c3bc1eaa22ce6b53c28a89979" id="r_a0c57a83c3bc1eaa22ce6b53c28a89979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c57a83c3bc1eaa22ce6b53c28a89979">getMinBoxCorner</a> (int n)</td></tr>
+<tr class="separator:a0c57a83c3bc1eaa22ce6b53c28a89979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -518,6 +522,30 @@ Box given by its min- and max- corners
 </pre> 
 </div>
 </div>
+<a id="a0bec3d85b8ed88317388e8e6cfc7051d" name="a0bec3d85b8ed88317388e8e6cfc7051d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bec3d85b8ed88317388e8e6cfc7051d">&#9670;&#160;</a></span>corner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.Box1i.corner </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the corner of this box as specified by given bool-vector:
+1 element in (c) means take min's coordinate,
+0 element in (c) means take max's coordinate
+</pre> 
+</div>
+</div>
 <a id="aa9d815a4c208f26d732e1f9c0ce68074" name="aa9d815a4c208f26d732e1f9c0ce68074"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9d815a4c208f26d732e1f9c0ce68074">&#9670;&#160;</a></span>diagonal()</h2>
 
@@ -652,6 +680,33 @@ returns zero if the boxes touch or intersect
 </div><div class="memdoc">
 <pre class="fragment">returns squared distance between this box and given point;
 returns zero if the point is inside or on the boundary of the box
+</pre> 
+</div>
+</div>
+<a id="a0c57a83c3bc1eaa22ce6b53c28a89979" name="a0c57a83c3bc1eaa22ce6b53c28a89979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c57a83c3bc1eaa22ce6b53c28a89979">&#9670;&#160;</a></span>getMinBoxCorner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.Box1i.getMinBoxCorner </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">considering all planes with given normal and arbitrary shift: dot(n,x) = d
+finds the box's corner for which d is minimal
 </pre> 
 </div>
 </div>
