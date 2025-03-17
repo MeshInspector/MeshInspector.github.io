@@ -6,5 +6,7 @@ var searchData=
   ['deformation_20example_3',['Laplacian deformation Example',['../ExampleLaplacian.html',1,'']]],
   ['degeneration_4',['Resolving Mesh Degeneration',['../ExampleMeshResolveDegenerations.html',1,'']]],
   ['dicom_20files_5',['Open Dicom Files',['../ExampleDicomFiles.html',1,'']]],
-  ['double_6',['Float vs Double',['../FloatVSDouble.html',1,'']]]
+  ['distance_6',['Signed Distance',['../ExampleSignedDistance.html',1,'']]],
+  ['distance_20point_20to_20mesh_7',['Signed Distance Point To Mesh',['../ExampleSignedDistancePointToMesh.html',1,'']]],
+  ['double_8',['Float vs Double',['../FloatVSDouble.html',1,'']]]
 ];
