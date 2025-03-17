@@ -33,6 +33,8 @@ rm html_header.html
 mv html_header.html.tmp html_header.html
 # set nofollow tag in footer
 sed -i "s|href=|rel=\"nofollow\" href=|g" html_footer.html
+# fix doxygen link in footer
+sed -i "s|doxygen.org|doxygen.nl|g" html_footer.html
 
 if [ ! -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
     echo "[ERROR] Can not found script to generate doxygen layout files"
