@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1TriangulationHelpers.html#a0e54822d80eff541695984d7a72a2ac9":[6,0,1,0,1,37,4],
 "namespaceMR_1_1TriangulationHelpers.html#a691dadc49fb6346b701545653e8e1dcf":[6,0,1,0,1,37,7],
 "namespaceMR_1_1TriangulationHelpers.html#a7bac13257412606ce60799f214894488":[6,0,1,0,1,37,3],
 "namespaceMR_1_1TriangulationHelpers.html#aaaaea439dd161b8d9bb9fa504ec2c384":[6,0,1,0,1,37,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,0,1,2],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
-"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2],
-"structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2]
+"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2]
 };
