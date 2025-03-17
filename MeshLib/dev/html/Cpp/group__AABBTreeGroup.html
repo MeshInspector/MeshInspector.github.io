@@ -363,8 +363,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4f7fec7775a22ca743ad08d9b8ae3056" id="r_ga4f7fec7775a22ca743ad08d9b8ae3056"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f7fec7775a22ca743ad08d9b8ae3056">MR::rayMeshIntersectAll</a> (const MeshPart &amp;meshPart, const Line3d &amp;line, <a class="el" href="#gac20cf6ba073a7db1e2df313fb87d9517">MeshIntersectionCallback</a> callback, double rayStart=0.0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; *prec=nullptr)</td></tr>
 <tr class="memdesc:ga4f7fec7775a22ca743ad08d9b8ae3056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a>, but use double precision.  <br /></td></tr>
 <tr class="separator:ga4f7fec7775a22ca743ad08d9b8ae3056"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b2db465de4ef2df4f0f85fa142a612f" id="r_ga8b2db465de4ef2df4f0f85fa142a612f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b2db465de4ef2df4f0f85fa142a612f">MR::planeMeshIntersect</a> (const MeshPart &amp;meshPart, const Plane3f &amp;plane, FaceBitSet *fs, UndirectedEdgeBitSet *ues, VertBitSet *vs, std::vector&lt; FaceId &gt; *fsVec=nullptr)</td></tr>
-<tr class="separator:ga8b2db465de4ef2df4f0f85fa142a612f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4b8be9888719bfd9c5944dc6293c902d" id="r_ga4b8be9888719bfd9c5944dc6293c902d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b8be9888719bfd9c5944dc6293c902d">MR::xyPlaneMeshIntersect</a> (const MeshPart &amp;meshPart, float zLevel, FaceBitSet *fs, UndirectedEdgeBitSet *ues, VertBitSet *vs, std::vector&lt; FaceId &gt; *fsVec=nullptr)</td></tr>
 <tr class="separator:ga4b8be9888719bfd9c5944dc6293c902d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga307aef2fadf0a7f062b4fab1daabe6e0" id="r_ga307aef2fadf0a7f062b4fab1daabe6e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshMeshDistanceResult.html">MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga307aef2fadf0a7f062b4fab1daabe6e0">MR::findDistance</a> (const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</td></tr>
@@ -3058,56 +3056,6 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga8b2db465de4ef2df4f0f85fa142a612f" name="ga8b2db465de4ef2df4f0f85fa142a612f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b2db465de4ef2df4f0f85fa142a612f">&#9670;&#160;</a></span>planeMeshIntersect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::planeMeshIntersect </td>
-          <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Plane3f &amp;</td>          <td class="paramname"><span class="paramname"><em>plane</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>ues</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; FaceId &gt; *</td>          <td class="paramname"><span class="paramname"><em>fsVec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>given mesh part and arbitrary plane, outputs </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fs</td><td>triangles from boxes crossed or touched by the plane </td></tr>
-    <tr><td class="paramname">ues</td><td>edges of these triangles </td></tr>
-    <tr><td class="paramname">vs</td><td>vertices of these triangles </td></tr>
-    <tr><td class="paramname">fsVec</td><td>triangles from boxes crossed or touched by the plane in unspecified order </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[6,0,1,0,1,2,9],
 "namespaceMR_1_1Cuda.html#a5caa3c21e1c35ac6d6dd2eb125484783":[6,0,1,0,1,2,19],
 "namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9":[6,0,1,0,1,2,25],
 "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f":[6,0,1,0,1,2,24],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a0e136117cf759046ebb381d8b7f51f23":[6,0,1,0,1,36,3,0],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca":[6,0,1,0,1,36,3,1],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a941b167d61d8a5ba4ff489d0ddac477e":[6,0,1,0,1,36,3,2],
-"namespaceMR_1_1TriangulationHelpers.html":[6,0,1,0,1,37]
+"namespaceMR_1_1TriangulationHelpers.html":[6,0,1,0,1,37],
+"namespaceMR_1_1TriangulationHelpers.html#a0e54822d80eff541695984d7a72a2ac9":[6,0,1,0,1,37,4]
 };

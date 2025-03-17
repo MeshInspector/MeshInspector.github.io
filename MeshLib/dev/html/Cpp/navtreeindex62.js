@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMRRegionId.html":[6,0,2,0,52],
 "structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,52,0],
 "structMRRelaxParams.html":[6,0,2,0,53],
 "structMRRelaxParams.html#a544fe366775e3dabfb86a83f7f7c8911":[6,0,2,0,53,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,2,0,1,60,1],
 "structMR_1_1Ball.html":[6,0,1,0,1,64],
 "structMR_1_1Ball.html":[6,0,2,0,1,48],
-"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,1,0,1,64,3]
+"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,1,0,1,64,3],
+"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,2,0,1,48,3]
 };

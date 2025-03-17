@@ -1,6 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"structMR_1_1RibbonSchema.html#a0f637361de5a95f82fb2a89a6eb23351":[6,0,2,0,1,564,0],
 "structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,1,0,1,580,7],
 "structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,2,0,1,564,7],
 "structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b":[6,0,1,0,1,580,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX79 =
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,1,0,1,626,0],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,2,0,1,610,0],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,1,0,1,626,1],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,2,0,1,610,1]
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,2,0,1,610,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,1,0,1,626,6]
 };

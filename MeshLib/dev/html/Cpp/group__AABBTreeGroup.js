@@ -324,7 +324,6 @@ var group__AABBTreeGroup =
     [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
     [ "MR::multiRayMeshIntersect", "group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045", null ],
     [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],
-    [ "MR::planeMeshIntersect", "group__AABBTreeGroup.html#ga8b2db465de4ef2df4f0f85fa142a612f", null ],
     [ "MR::processCloseTriangles", "group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga4a4bcd2a0d206e01852cba4f6e0c2a6b", null ],
