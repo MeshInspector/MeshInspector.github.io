@@ -7,6 +7,7 @@ var classmrmeshpy_1_1ObjectLinesHolder =
     [ "getLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#a933eec1123ee3897a437afcd8f694693", null ],
     [ "getLineWidth", "classmrmeshpy_1_1ObjectLinesHolder.html#ac7b63e5eee394d637f7bce100638ac78", null ],
     [ "getPointSize", "classmrmeshpy_1_1ObjectLinesHolder.html#a30a24514e82b96357d67bf065276be68", null ],
+    [ "getVertsColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#a863f6ff5544c790dbf9a95bca6cea4ee", null ],
     [ "getVisualizePropertyMask", "classmrmeshpy_1_1ObjectLinesHolder.html#ab13e38aeb0c31e09015e40caedd7df43", null ],
     [ "hasModel", "classmrmeshpy_1_1ObjectLinesHolder.html#acfea5d3c47d06fd269b4f67584db0300", null ],
     [ "hasVisualRepresentation", "classmrmeshpy_1_1ObjectLinesHolder.html#acf9de6509d7769c04d816fce4614089c", null ],
@@ -17,9 +18,11 @@ var classmrmeshpy_1_1ObjectLinesHolder =
     [ "setLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#acebcd884d454d5c6138f9087f1b80387", null ],
     [ "setLineWidth", "classmrmeshpy_1_1ObjectLinesHolder.html#a4654badc49423f7a1fb0854b5ae7703f", null ],
     [ "setPointSize", "classmrmeshpy_1_1ObjectLinesHolder.html#a4ec2b14d39277e0418d98923d9766295", null ],
+    [ "setVertsColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#a7c7099eb166b12f37f7ca8f6f8ef929a", null ],
     [ "shallowClone", "classmrmeshpy_1_1ObjectLinesHolder.html#aa4fb859df3557e279340755c13cad777", null ],
     [ "supportsVisualizeProperty", "classmrmeshpy_1_1ObjectLinesHolder.html#a3da9a9950b496f5f6239dddeb246887b", null ],
     [ "totalLength", "classmrmeshpy_1_1ObjectLinesHolder.html#a9e0cd657b957e0b8c333177c01ab1f04", null ],
     [ "typeName", "classmrmeshpy_1_1ObjectLinesHolder.html#a3d74f153344e45ee25a3ab78a883ba4a", null ],
-    [ "updateLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#a0882af5e3f185e6fe9863b2b29e59559", null ]
+    [ "updateLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#a0882af5e3f185e6fe9863b2b29e59559", null ],
+    [ "updateVertsColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#af3e21cbc79b8e070d567c38eb8e25445", null ]
 ];

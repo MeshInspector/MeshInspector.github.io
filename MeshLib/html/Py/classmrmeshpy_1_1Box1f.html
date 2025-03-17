@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Py/classmrmeshpy_1_1Box1f.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -156,7 +157,6 @@ $(function(){initNavTree('classmrmeshpy_1_1Box1f.html',''); initResizable(true);
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="classmrmeshpy_1_1Box1f-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.Box1f Class Reference</div></div>
 </div><!--header-->
@@ -194,6 +194,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab3aadc33827b56b0ef60368fb54fffff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5435ee5140b70b44e5eda58d1f40cde" id="r_ae5435ee5140b70b44e5eda58d1f40cde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5435ee5140b70b44e5eda58d1f40cde">contains</a> (self, float pt)</td></tr>
 <tr class="separator:ae5435ee5140b70b44e5eda58d1f40cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d395cd68600019621eaf126819c2a4" id="r_a04d395cd68600019621eaf126819c2a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d395cd68600019621eaf126819c2a4">corner</a> (self, bool c)</td></tr>
+<tr class="separator:a04d395cd68600019621eaf126819c2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0c6db675a17ac63ae294da9f9529172" id="r_ae0c6db675a17ac63ae294da9f9529172"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0c6db675a17ac63ae294da9f9529172">diagonal</a> (self)</td></tr>
 <tr class="separator:ae0c6db675a17ac63ae294da9f9529172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dd9485705ead9c02c52c94f21ff2b1c" id="r_a8dd9485705ead9c02c52c94f21ff2b1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box1f.html">Box1f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dd9485705ead9c02c52c94f21ff2b1c">expanded</a> (self, float expansion)</td></tr>
@@ -225,8 +227,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9e7ec85839de79a1928c01ebf0f28844" id="r_a9e7ec85839de79a1928c01ebf0f28844"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7ec85839de79a1928c01ebf0f28844">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a9e7ec85839de79a1928c01ebf0f28844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7ec85839de79a1928c01ebf0f28844" id="r_a9e7ec85839de79a1928c01ebf0f28844"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7ec85839de79a1928c01ebf0f28844">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a9e7ec85839de79a1928c01ebf0f28844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae200f1defa852f064d109c5577280b59" id="r_ae200f1defa852f064d109c5577280b59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box1f.html">Box1f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae200f1defa852f064d109c5577280b59">fromMinAndSize</a> (float min, float <a class="el" href="#a9a16b3e2b94d7893bfdb54428aad8df9">size</a>)</td></tr>
 <tr class="separator:ae200f1defa852f064d109c5577280b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f3a4176829d1a0ec3c5d95d87ebc34" id="r_a91f3a4176829d1a0ec3c5d95d87ebc34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f3a4176829d1a0ec3c5d95d87ebc34">getMinBoxCorner</a> (float n)</td></tr>
+<tr class="separator:a91f3a4176829d1a0ec3c5d95d87ebc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -239,11 +247,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aebd76aa73f9738df0c20f36a2872b492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebd76aa73f9738df0c20f36a2872b492" id="r_aebd76aa73f9738df0c20f36a2872b492"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebd76aa73f9738df0c20f36a2872b492">_Subscript</a> (self, int e)</td></tr>
 <tr class="separator:aebd76aa73f9738df0c20f36a2872b492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:af2c94457d1c5005ca5abb85b605c94e1" id="r_af2c94457d1c5005ca5abb85b605c94e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2c94457d1c5005ca5abb85b605c94e1">_pybind11_conduit_v1_</a> (*args, **kwargs)</td></tr>
-<tr class="separator:af2c94457d1c5005ca5abb85b605c94e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Box1f
@@ -251,8 +254,71 @@ Aliases:  MinMaxf
 
 Box given by its min- and max- corners
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9e7ec85839de79a1928c01ebf0f28844" name="a9e7ec85839de79a1928c01ebf0f28844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7ec85839de79a1928c01ebf0f28844">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Box1f.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">skip initialization of min/max
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd">mrmeshpy.SimpleVolumeMinMax</a>, <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#a242f5793ca66cd4b23e898aacdf9f316">mrmeshpy.SimpleVolumeMinMax</a>, <a class="el" href="classmrmeshpy_1_1VdbVolume.html#ae874d6557de145e82c93b1d63e720f41">mrmeshpy.VdbVolume</a>, and <a class="el" href="classmrmeshpy_1_1VdbVolume.html#a0df82d62d240071eac26ee807cf58d24">mrmeshpy.VdbVolume</a>.</p>
+
+</div>
+</div>
+<a id="a9e7ec85839de79a1928c01ebf0f28844" name="a9e7ec85839de79a1928c01ebf0f28844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7ec85839de79a1928c01ebf0f28844">&#9670;&#160;</a></span>__init__() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Box1f.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd">mrmeshpy.SimpleVolumeMinMax</a>, <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#a242f5793ca66cd4b23e898aacdf9f316">mrmeshpy.SimpleVolumeMinMax</a>, <a class="el" href="classmrmeshpy_1_1VdbVolume.html#ae874d6557de145e82c93b1d63e720f41">mrmeshpy.VdbVolume</a>, and <a class="el" href="classmrmeshpy_1_1VdbVolume.html#a0df82d62d240071eac26ee807cf58d24">mrmeshpy.VdbVolume</a>.</p>
+
+</div>
+</div>
 <a id="acb13314a542c666044147152badabdc6" name="acb13314a542c666044147152badabdc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb13314a542c666044147152badabdc6">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acb13314a542c666044147152badabdc6">&#9670;&#160;</a></span>__init__() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +338,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="a43a69f82b50a238e618649d3740da6da" name="a43a69f82b50a238e618649d3740da6da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43a69f82b50a238e618649d3740da6da">&#9670;&#160;</a></span>__init__() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a69f82b50a238e618649d3740da6da">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,7 +366,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="a78da7753874fa1dd9a11506baa77a51d" name="a78da7753874fa1dd9a11506baa77a51d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78da7753874fa1dd9a11506baa77a51d">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78da7753874fa1dd9a11506baa77a51d">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +389,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="ac6c32ddd7e0d8738598d1e77e92285b2" name="ac6c32ddd7e0d8738598d1e77e92285b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6c32ddd7e0d8738598d1e77e92285b2">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c32ddd7e0d8738598d1e77e92285b2">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -405,37 +471,6 @@ Box given by its min- and max- corners
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#a8ac2acb89a66892a0c43d5b58d41d149">mrmeshpy.SimpleVolumeMinMax</a>, and <a class="el" href="classmrmeshpy_1_1VdbVolume.html#ae4a7e591e424f3b40466d42b44c292f3">mrmeshpy.VdbVolume</a>.</p>
-
-</div>
-</div>
-<a id="af2c94457d1c5005ca5abb85b605c94e1" name="af2c94457d1c5005ca5abb85b605c94e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2c94457d1c5005ca5abb85b605c94e1">&#9670;&#160;</a></span>_pybind11_conduit_v1_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mrmeshpy.Box1f._pybind11_conduit_v1_ </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#aa1199d7925f88cc1358f5054beaf3a3b">mrmeshpy.SimpleVolumeMinMax</a>, and <a class="el" href="classmrmeshpy_1_1VdbVolume.html#ad80855eb8f0012596e2aece1648caf0c">mrmeshpy.VdbVolume</a>.</p>
 
 </div>
 </div>
@@ -535,6 +570,30 @@ Box given by its min- and max- corners
       </table>
 </div><div class="memdoc">
 <pre class="fragment">checks whether given point is inside (including the surface) of the box
+</pre> 
+</div>
+</div>
+<a id="a04d395cd68600019621eaf126819c2a4" name="a04d395cd68600019621eaf126819c2a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d395cd68600019621eaf126819c2a4">&#9670;&#160;</a></span>corner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.Box1f.corner </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the corner of this box as specified by given bool-vector:
+1 element in (c) means take min's coordinate,
+0 element in (c) means take max's coordinate
 </pre> 
 </div>
 </div>
@@ -672,6 +731,33 @@ returns zero if the boxes touch or intersect
 </div><div class="memdoc">
 <pre class="fragment">returns squared distance between this box and given point;
 returns zero if the point is inside or on the boundary of the box
+</pre> 
+</div>
+</div>
+<a id="a91f3a4176829d1a0ec3c5d95d87ebc34" name="a91f3a4176829d1a0ec3c5d95d87ebc34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f3a4176829d1a0ec3c5d95d87ebc34">&#9670;&#160;</a></span>getMinBoxCorner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.Box1f.getMinBoxCorner </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">considering all planes with given normal and arbitrary shift: dot(n,x) = d
+finds the box's corner for which d is minimal
 </pre> 
 </div>
 </div>
@@ -884,11 +970,12 @@ returns zero if the point is inside or on the boundary of the box
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmrmeshpy_1_1Box1f.html">Box1f</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

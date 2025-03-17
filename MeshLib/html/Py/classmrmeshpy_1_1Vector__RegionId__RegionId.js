@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__RegionId__RegionId =
     [ "clear", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a06ebe2afc18397d6e1921cc1ef75b8b6", null ],
     [ "data", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a0cf2dec9150a89cdbe1168f09f134b11", null ],
     [ "data", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a0cf2dec9150a89cdbe1168f09f134b11", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#ab7687a540bda531da70bfd407c2c4a18", null ],
     [ "empty", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#ac1cf9f4ede0bfa62f6bcfed027bc4ff2", null ],
     [ "endId", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#aee50ac4e48db39e5d243975b8f6e5e20", null ],
     [ "front", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a972f46126bd5bef0bc2c21217b68fded", null ],

@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRMacros_8h_source.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -179,44 +180,47 @@ $(function(){initNavTree('MRMacros_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">//   in the enclosing class make a `MR::Vector` of it, observe that `std::default_initializable` gets baked as `false` on it,</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">//   disabling some member functions such as `.resize()`).</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#if __cpp_concepts &amp;&amp; __has_include(&lt;concepts&gt;) &amp;&amp; !(defined(__clang__) &amp;&amp; __clang_major__ &lt;= 14) &amp;&amp; !(defined(__GNUC__) &amp;&amp; !defined(__clang__) &amp;&amp; __GNUC__ &lt;= 12)</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...) requires(__VA_ARGS__)</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#   define MR_HAS_REQUIRES 1</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">   29</a></span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...)</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#   define MR_HAS_REQUIRES 1</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...) requires(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#   define MR_SAME_TYPE_TEMPLATE_PARAM(target_, name_) std::same_as&lt;target_&gt; name_ = target_</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949">   30</a></span><span class="preprocessor">#   define MR_HAS_REQUIRES 0</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define MR_NO_UNIQUE_ADDRESS [[msvc::no_unique_address]] </span><span class="comment">// The unprefixed version has no effect on MSVC.</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#adc8a2290a0ad34bf18acb8498b4bb91a">   37</a></span><span class="preprocessor">#define MR_NO_UNIQUE_ADDRESS [[no_unique_address]]</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">// Are we using the old buggy MSVC preprocessor?</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#if defined(_MSC_VER) &amp;&amp; !defined(__clang__) &amp;&amp; (!defined(_MSVC_TRADITIONAL) || _MSVC_TRADITIONAL == 1)</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define MR_LEGACY_MSVC_PREPROCESSOR 1</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a0284b6bf2a09937d49518593207b00a6">   45</a></span><span class="preprocessor">#define MR_LEGACY_MSVC_PREPROCESSOR 0</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">// `MR_TRIM_LEADING_COMMA(,a,b,c)` returns `a,b,c`.</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#if MR_LEGACY_MSVC_PREPROCESSOR</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define MR_TRIM_LEADING_COMMA(...) DETAIL_MR_TRIM_LEADING_COMMA_ DETAIL_MR_TRIM_LEADING_COMMA_DEFER(__VA_ARGS__)</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define DETAIL_MR_TRIM_LEADING_COMMA_DEFER</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a11806a80fef697ddb9a820cc22204f3b">   53</a></span><span class="preprocessor">#define MR_TRIM_LEADING_COMMA(...) DETAIL_MR_TRIM_LEADING_COMMA_(__VA_ARGS__)</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#acaebd39479bb9677a7e966765a052de4">   55</a></span><span class="preprocessor">#define DETAIL_MR_TRIM_LEADING_COMMA_(x, ...) DETAIL_MR_TRIM_LEADING_COMMA_EMPTY(x) __VA_ARGS__</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a71b7b6d36fcf0ab6752038726c7b007d">   56</a></span><span class="preprocessor">#define DETAIL_MR_TRIM_LEADING_COMMA_EMPTY()</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">   31</a></span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...)</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">   32</a></span><span class="preprocessor">#   define MR_SAME_TYPE_TEMPLATE_PARAM(target_, name_) typename name_ = target_</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define MR_NO_UNIQUE_ADDRESS [[msvc::no_unique_address]] </span><span class="comment">// The unprefixed version has no effect on MSVC.</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#adc8a2290a0ad34bf18acb8498b4bb91a">   39</a></span><span class="preprocessor">#define MR_NO_UNIQUE_ADDRESS [[no_unique_address]]</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">// Are we using the old buggy MSVC preprocessor?</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#if defined(_MSC_VER) &amp;&amp; !defined(__clang__) &amp;&amp; (!defined(_MSVC_TRADITIONAL) || _MSVC_TRADITIONAL == 1)</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define MR_LEGACY_MSVC_PREPROCESSOR 1</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a0284b6bf2a09937d49518593207b00a6">   47</a></span><span class="preprocessor">#define MR_LEGACY_MSVC_PREPROCESSOR 0</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">// `MR_TRIM_LEADING_COMMA(,a,b,c)` returns `a,b,c`.</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#if MR_LEGACY_MSVC_PREPROCESSOR</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#define MR_TRIM_LEADING_COMMA(...) DETAIL_MR_TRIM_LEADING_COMMA_ DETAIL_MR_TRIM_LEADING_COMMA_DEFER(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define DETAIL_MR_TRIM_LEADING_COMMA_DEFER</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a11806a80fef697ddb9a820cc22204f3b">   55</a></span><span class="preprocessor">#define MR_TRIM_LEADING_COMMA(...) DETAIL_MR_TRIM_LEADING_COMMA_(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#acaebd39479bb9677a7e966765a052de4">   57</a></span><span class="preprocessor">#define DETAIL_MR_TRIM_LEADING_COMMA_(x, ...) DETAIL_MR_TRIM_LEADING_COMMA_EMPTY(x) __VA_ARGS__</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a71b7b6d36fcf0ab6752038726c7b007d">   58</a></span><span class="preprocessor">#define DETAIL_MR_TRIM_LEADING_COMMA_EMPTY()</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMacros_8h.html">MRMacros.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

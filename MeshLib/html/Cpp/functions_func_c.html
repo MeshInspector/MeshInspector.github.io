@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/functions_func_c.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -158,7 +159,9 @@ $(function(){initNavTree('functions_func_c.html',''); initResizable(true); });
 <li>calcBestCoefficients()&#160;:&#160;<a class="el" href="classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3">MR::QuadricApprox</a></li>
 <li>calcFastWindingNumber()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a0ddf4af17627f59df39990e32ea87c04">MR::Mesh</a></li>
 <li>calcFromGrid()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#ade8474a42b222e2956b6fe29750ac544">MR::Cuda::FastWindingNumber</a>, <a class="el" href="classMR_1_1FastWindingNumber.html#a186f894c032c3bdf71d61355cbe9056d">MR::FastWindingNumber</a>, <a class="el" href="classMR_1_1IFastWindingNumber.html#a368a1a0534476d08756358a07bcce617">MR::IFastWindingNumber</a></li>
+<li>calcFromGridByParts()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45">MR::Cuda::FastWindingNumber</a>, <a class="el" href="classMR_1_1IFastWindingNumberByParts.html#a3cd5d444973254e7b31ab81917f07329">MR::IFastWindingNumberByParts</a></li>
 <li>calcFromGridWithDistances()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#aeb495c4eda1b8be00020369fc04f7159">MR::Cuda::FastWindingNumber</a>, <a class="el" href="classMR_1_1FastWindingNumber.html#aca960465c3521aa3c3a87ca39dc7d94a">MR::FastWindingNumber</a>, <a class="el" href="classMR_1_1IFastWindingNumber.html#aeb59990afd6d9382244508e9e250972d">MR::IFastWindingNumber</a></li>
+<li>calcFromGridWithDistancesByParts()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#aa58e46d5a0d4b887dfc6f4edddafa860">MR::Cuda::FastWindingNumber</a>, <a class="el" href="classMR_1_1IFastWindingNumberByParts.html#a91d50343ae8805a878c0dac2b8ff0802">MR::IFastWindingNumberByParts</a></li>
 <li>calcFromVector()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a5c175130af9cbdf1fac5b175f1f44ae3">MR::Cuda::FastWindingNumber</a>, <a class="el" href="classMR_1_1FastWindingNumber.html#af82a0cdae2d3f0021d770000203f1c3d">MR::FastWindingNumber</a>, <a class="el" href="classMR_1_1IFastWindingNumber.html#a44bf69fbb5b7c37e5a0ff132a6137581">MR::IFastWindingNumber</a></li>
 <li>calcItemWidth()&#160;:&#160;<a class="el" href="classMR_1_1RibbonButtonDrawer.html#a873e857624709ee46ec0487169fd1e87">MR::RibbonButtonDrawer</a></li>
 <li>calcLocalBasis()&#160;:&#160;<a class="el" href="classMR_1_1PlaneObject.html#a4bd568ae23d1306430c6b98c394dd37c">MR::PlaneObject</a></li>
@@ -209,6 +212,7 @@ $(function(){initNavTree('functions_func_c.html',''); initResizable(true); });
 <li>ChangeLinesColorMapAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92">MR::ChangeLinesColorMapAction</a></li>
 <li>ChangeMeshAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61">MR::ChangeMeshAction</a></li>
 <li>ChangeMeshCreasesAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeMeshCreasesAction.html#a35abf0006f1f9dde31def6af394af1ae">MR::ChangeMeshCreasesAction</a></li>
+<li>ChangeMeshDataAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeMeshDataAction.html#ae7189fb8c8e3d8c3521cb0b8781a1e19">MR::ChangeMeshDataAction</a></li>
 <li>ChangeMeshEdgeSelectionAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a">MR::ChangeMeshEdgeSelectionAction</a></li>
 <li>ChangeMeshFaceSelectionAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeMeshFaceSelectionAction.html#a8f903abfb85e2e7bad897c77d021e648">MR::ChangeMeshFaceSelectionAction</a></li>
 <li>ChangeMeshPointsAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeMeshPointsAction.html#a085ebc78393d430d040423cca12c98f7">MR::ChangeMeshPointsAction</a></li>
@@ -234,7 +238,7 @@ $(function(){initNavTree('functions_func_c.html',''); initResizable(true); });
 <li>ChangeSurfaceAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249">MR::ChangeSurfaceAction</a></li>
 <li>ChangeTextureAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152">MR::ChangeTextureAction</a></li>
 <li>ChangeValue()&#160;:&#160;<a class="el" href="classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1">MR::ChangeValue&lt; T &gt;</a></li>
-<li>ChangeVertsColorMapAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeVertsColorMapAction.html#a85820c2fb1b34f635d51b6ca5b5b626a">MR::ChangeVertsColorMapAction</a></li>
+<li>ChangeVertsColorMapAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448">MR::ChangeVertsColorMapAction&lt; T &gt;</a></li>
 <li>changeVisible()&#160;:&#160;<a class="el" href="classMR_1_1SceneObjectsListDrawer.html#af36935c34390d23a46d4c38f182071c9">MR::SceneObjectsListDrawer</a></li>
 <li>ChangeVisibleAction()&#160;:&#160;<a class="el" href="classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a">MR::DirectionWidget::ChangeVisibleAction</a></li>
 <li>ChangeVisualizePropertyAction()&#160;:&#160;<a class="el" href="classMR_1_1ChangeVisualizePropertyAction.html#a577d817010b8c025c743ede618924232">MR::ChangeVisualizePropertyAction</a></li>
@@ -304,11 +308,11 @@ $(function(){initNavTree('functions_func_c.html',''); initResizable(true); });
 <li>convertAll()&#160;:&#160;<a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a73d08553d48acf30d322b43f3de7d4a3">MR::TeethMaskToDirectionVolumeConvertor</a></li>
 <li>convertObject()&#160;:&#160;<a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a71a87f86afb3191c2524b393470a6619">MR::TeethMaskToDirectionVolumeConvertor</a></li>
 <li>convertToContours()&#160;:&#160;<a class="el" href="classMR_1_1PolylineTopology.html#adc8d16b6b6bf938f6dbe4f96fc768825">MR::PolylineTopology</a></li>
-<li>copyColors()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#aae036da63fcfe13431ca8b19a43b6dfa">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1VisualObject.html#a9529179a8a5c9b9fed190357942e1ba7">MR::VisualObject</a></li>
+<li>copyColors()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a00f8a0a206c97b35f8704326a799ca88">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#a2518a2c2c8afd31aa1653e6ca5bd7f43">MR::ObjectPointsHolder</a></li>
 <li>copyTexture()&#160;:&#160;<a class="el" href="classMR_1_1SceneTextureGL.html#a81ce2688f5c1199861bcbd627db71b78">MR::SceneTextureGL</a></li>
 <li>copyTextureAndColors()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#ad06db08e2f5541bb068d5d48fb05f19e">MR::ObjectMeshHolder</a></li>
 <li>copyTextureBindDef()&#160;:&#160;<a class="el" href="classMR_1_1FramebufferData.html#a5e89aff5db92583727297ab9f6f71124">MR::FramebufferData</a></li>
-<li>corner()&#160;:&#160;<a class="el" href="structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802">MR::DenseBox</a></li>
+<li>corner()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9">MR::Box&lt; V &gt;</a>, <a class="el" href="structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802">MR::DenseBox</a></li>
 <li>cotan()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#aae3794627367f1c0ae6a497f41542197">MR::Mesh</a></li>
 <li>creases()&#160;:&#160;<a class="el" href="classMR_1_1ChangeMeshCreasesAction.html#a8e94b4602cd0f65cfe61ec32c75659db">MR::ChangeMeshCreasesAction</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#ab3f35c8b6e713ad9cd367208c6f5a576">MR::ObjectMeshHolder</a></li>
 <li>create()&#160;:&#160;<a class="el" href="classMR_1_1BoundarySelectionWidget.html#a2c647091ac6951e55adf7ba4a18675ac">MR::BoundarySelectionWidget</a>, <a class="el" href="classMR_1_1DirectionWidget.html#afcaf7c69225293dcce6ae1d2bb12c2f9">MR::DirectionWidget</a>, <a class="el" href="classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8">MR::ObjectTransformWidget</a>, <a class="el" href="classMR_1_1SurfacePointWidget.html#a8caf797895b0781cf13598ae376d1941">MR::SurfacePointWidget</a>, <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a89983e40e7eb6539ae2adb1b772a2129">MR::TeethMaskToDirectionVolumeConvertor</a></li>
@@ -326,10 +330,11 @@ $(function(){initNavTree('functions_func_c.html',''); initResizable(true); });
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

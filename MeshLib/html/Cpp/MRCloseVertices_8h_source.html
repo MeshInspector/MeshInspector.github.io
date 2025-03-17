@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRCloseVertices_8h_source.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -197,7 +198,7 @@ $(function(){initNavTree('MRCloseVertices_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:79</div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1AABBTreePoints_html"><div class="ttname"><a href="classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a></div><div class="ttdoc">bounding volume hierarchy for point cloud structure</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:16</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:626</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:636</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="anamespaceMR_html_a02de87b02beba8a1ce3c03e425646045"><div class="ttname"><a href="namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR::findSmallestCloseVertices</a></div><div class="ttdeci">MRMESH_API std::optional&lt; VertMap &gt; findSmallestCloseVertices(const Mesh &amp;mesh, float closeDist, const ProgressCallback &amp;cb={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a5c0bcac69775a441149a72b11c50859c"><div class="ttname"><a href="namespaceMR.html#a5c0bcac69775a441149a72b11c50859c">MR::findTwinEdges</a></div><div class="ttdeci">MRMESH_API EdgeBitSet findTwinEdges(const Mesh &amp;mesh, float closeDist)</div><div class="ttdoc">finds all directed twin edges</div></div>
@@ -206,16 +207,17 @@ $(function(){initNavTree('MRCloseVertices_8h_source.html',''); initResizable(tru
 <div class="ttc" id="anamespaceMR_html_aa44e343ad4cf83164ad4771ea9e880b3"><div class="ttname"><a href="namespaceMR.html#aa44e343ad4cf83164ad4771ea9e880b3">MR::findTwinUndirectedEdges</a></div><div class="ttdeci">MRMESH_API UndirectedEdgeBitSet findTwinUndirectedEdges(const Mesh &amp;mesh, float closeDist)</div><div class="ttdoc">finds all undirected twin edges</div></div>
 <div class="ttc" id="anamespaceMR_html_aaafe75350688f71f77b0eddcf5a4f119"><div class="ttname"><a href="namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></div><div class="ttdeci">MRMESH_API std::optional&lt; VertBitSet &gt; findCloseVertices(const Mesh &amp;mesh, float closeDist, const ProgressCallback &amp;cb={})</div><div class="ttdoc">finds all close vertices, where for each vertex there is another one located within given distance</div></div>
 <div class="ttc" id="anamespaceMR_html_adb5835a53edf43e46279c04a2ad4949b"><div class="ttname"><a href="namespaceMR.html#adb5835a53edf43e46279c04a2ad4949b">MR::findSmallestCloseVerticesUsingTree</a></div><div class="ttdeci">MRMESH_API std::optional&lt; VertMap &gt; findSmallestCloseVerticesUsingTree(const VertCoords &amp;points, float closeDist, const AABBTreePoints &amp;tree, const VertBitSet *valid, const ProgressCallback &amp;cb={})</div></div>
-<div class="ttc" id="anamespaceMR_html_ae4c04995449710309dc72ed533991d7f"><div class="ttname"><a href="namespaceMR.html#ae4c04995449710309dc72ed533991d7f">MR::UndirectedEdgeHashMap</a></div><div class="ttdeci">HashMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt; UndirectedEdgeHashMap</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:512</div></div>
+<div class="ttc" id="anamespaceMR_html_ae4c04995449710309dc72ed533991d7f"><div class="ttname"><a href="namespaceMR.html#ae4c04995449710309dc72ed533991d7f">MR::UndirectedEdgeHashMap</a></div><div class="ttdeci">HashMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt; UndirectedEdgeHashMap</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:521</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRCloseVertices_8h.html">MRCloseVertices.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

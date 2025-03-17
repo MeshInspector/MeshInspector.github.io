@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1PointsToMeshParameters.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -178,22 +179,24 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1f8072d5242c289b8aa4c442285102e2" id="r_a1f8072d5242c289b8aa4c442285102e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8072d5242c289b8aa4c442285102e2">progress</a></td></tr>
 <tr class="memdesc:a1f8072d5242c289b8aa4c442285102e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
 <tr class="separator:a1f8072d5242c289b8aa4c442285102e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ea998979bc61c402e801d6a82b292d" id="r_a79ea998979bc61c402e801d6a82b292d"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79ea998979bc61c402e801d6a82b292d">createVolumeCallback</a></td></tr>
-<tr class="memdesc:a79ea998979bc61c402e801d6a82b292d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation. If null - volume will be created with memory efficient pointsToDistanceFunctionVolume function.  <br /></td></tr>
-<tr class="separator:a79ea998979bc61c402e801d6a82b292d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac61d0ecf32889b1131e50a2bbe6e852c" id="r_ac61d0ecf32889b1131e50a2bbe6e852c"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac61d0ecf32889b1131e50a2bbe6e852c">canCreateVolume</a></td></tr>
-<tr class="memdesc:ac61d0ecf32889b1131e50a2bbe6e852c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for checking whether it's possible to use the volume creation function.  <br /></td></tr>
-<tr class="separator:ac61d0ecf32889b1131e50a2bbe6e852c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3662f6cb85200f4c4cda226fbccd906" id="r_af3662f6cb85200f4c4cda226fbccd906"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params, std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt; addPart, int layerOverlap)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3662f6cb85200f4c4cda226fbccd906">createVolumeCallbackByParts</a></td></tr>
+<tr class="separator:af3662f6cb85200f4c4cda226fbccd906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b138263fc573979abd2164776d90cf1" id="r_a8b138263fc573979abd2164776d90cf1"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b138263fc573979abd2164776d90cf1">createVolumeCallback</a></td></tr>
+<tr class="memdesc:a8b138263fc573979abd2164776d90cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function.  <br /></td></tr>
+<tr class="separator:a8b138263fc573979abd2164776d90cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a822cdf3f2f86316327a0960f8057a642" id="r_a822cdf3f2f86316327a0960f8057a642"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::function&lt; bool(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a822cdf3f2f86316327a0960f8057a642">canCreateVolume</a></td></tr>
+<tr class="memdesc:a822cdf3f2f86316327a0960f8057a642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for checking whether it's possible to use the volume creation function.  <br /></td></tr>
+<tr class="separator:a822cdf3f2f86316327a0960f8057a642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac61d0ecf32889b1131e50a2bbe6e852c" name="ac61d0ecf32889b1131e50a2bbe6e852c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac61d0ecf32889b1131e50a2bbe6e852c">&#9670;&#160;</a></span>canCreateVolume</h2>
+<a id="a822cdf3f2f86316327a0960f8057a642" name="a822cdf3f2f86316327a0960f8057a642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a822cdf3f2f86316327a0960f8057a642">&#9670;&#160;</a></span>canCreateVolume</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool ( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::canCreateVolume</td>
+          <td class="memname">MR_BIND_IGNORE std::function&lt;bool ( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::canCreateVolume</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -202,19 +205,34 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a79ea998979bc61c402e801d6a82b292d" name="a79ea998979bc61c402e801d6a82b292d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79ea998979bc61c402e801d6a82b292d">&#9670;&#160;</a></span>createVolumeCallback</h2>
+<a id="a8b138263fc573979abd2164776d90cf1" name="a8b138263fc573979abd2164776d90cf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b138263fc573979abd2164776d90cf1">&#9670;&#160;</a></span>createVolumeCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolumeMinMax&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::createVolumeCallback</td>
+          <td class="memname">MR_BIND_IGNORE std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolumeMinMax&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::createVolumeCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Callback for volume creation. If null - volume will be created with memory efficient pointsToDistanceFunctionVolume function. </p>
+<p>Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function. </p>
+
+</div>
+</div>
+<a id="af3662f6cb85200f4c4cda226fbccd906" name="af3662f6cb85200f4c4cda226fbccd906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3662f6cb85200f4c4cda226fbccd906">&#9670;&#160;</a></span>createVolumeCallbackByParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR_BIND_IGNORE std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const SimpleVolumeMinMax&amp; volume, int zOffset )&gt; addPart, int layerOverlap )&gt; MR::PointsToMeshParameters::createVolumeCallbackByParts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Callback for volume creation by parts. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function This callback takes precedence over createVolumeCallback </p>
 
 </div>
 </div>
@@ -317,11 +335,12 @@ Public Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1PointsToMeshParameters.html">PointsToMeshParameters</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

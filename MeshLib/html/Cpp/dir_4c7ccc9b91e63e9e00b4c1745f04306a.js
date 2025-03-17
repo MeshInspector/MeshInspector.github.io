@@ -2,6 +2,7 @@ var dir_4c7ccc9b91e63e9e00b4c1745f04306a =
 [
     [ "MRCommonPlugins", "dir_2346133afcf87de1e7c9c1d97991d9ea.html", "dir_2346133afcf87de1e7c9c1d97991d9ea" ],
     [ "MRCuda", "dir_d34bb9a5fd921c2fff640fa4b54c045f.html", "dir_d34bb9a5fd921c2fff640fa4b54c045f" ],
+    [ "MREmbeddedPython", "dir_dd84364f67fdf7083e42255e7947820b.html", "dir_dd84364f67fdf7083e42255e7947820b" ],
     [ "MRIOExtras", "dir_39c5de6d7d47f9beb73c4f3d8933caac.html", "dir_39c5de6d7d47f9beb73c4f3d8933caac" ],
     [ "MRMesh", "dir_3b80d7f2783cad7ee402cf6b731f4ae2.html", "dir_3b80d7f2783cad7ee402cf6b731f4ae2" ],
     [ "MRMeshC", "dir_9de905cc127d1bc2fe28de0c234022ea.html", "dir_9de905cc127d1bc2fe28de0c234022ea" ],

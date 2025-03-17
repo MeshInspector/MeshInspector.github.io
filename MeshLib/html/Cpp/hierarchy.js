@@ -181,6 +181,8 @@ var hierarchy =
       [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
       [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]
     ] ],
+    [ "MR::Chunk", "structMR_1_1Chunk.html", null ],
+    [ "MR::ChunkIterator", "structMR_1_1ChunkIterator.html", null ],
     [ "MR::CloudPartMapping", "structMR_1_1CloudPartMapping.html", null ],
     [ "MR::CmpOld", "structMR_1_1CmpOld.html", null ],
     [ "MR::CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ],
@@ -267,6 +269,7 @@ var hierarchy =
     [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
+    [ "MR::CubicBezierCurve< V >", "structMR_1_1CubicBezierCurve.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
     [ "MR::ImGuiMeasurementIndicators::CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
@@ -285,6 +288,7 @@ var hierarchy =
     [ "MR::DentalId", "classMR_1_1DentalId.html", null ],
     [ "MR::DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", null ],
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
+    [ "MR::VoxelsLoad::DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", null ],
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", null ],
     [ "MR::Dipole", "structMR_1_1Dipole.html", null ],
     [ "MR::Directory", "structMR_1_1Directory.html", null ],
@@ -359,6 +363,7 @@ var hierarchy =
     [ "MR::FindOutliersParams", "structMR_1_1FindOutliersParams.html", null ],
     [ "MR::FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", null ],
     [ "MR::FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", null ],
+    [ "MR::FindProjectionOnPointsSettings", "structMR_1_1FindProjectionOnPointsSettings.html", null ],
     [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
@@ -407,6 +412,7 @@ var hierarchy =
       [ "MR::ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html", null ],
       [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", null ],
       [ "MR::ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", null ],
+      [ "MR::ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html", null ],
       [ "MR::ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html", null ],
       [ "MR::ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html", null ],
       [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", null ],
@@ -431,7 +437,7 @@ var hierarchy =
       [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", null ],
       [ "MR::ChangeTextureAction", "classMR_1_1ChangeTextureAction.html", null ],
       [ "MR::ChangeValue< T >", "classMR_1_1ChangeValue.html", null ],
-      [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", null ],
+      [ "MR::ChangeVertsColorMapAction< T >", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
         [ "MR::DirectionWidget::ChangeBaseAction", "classMR_1_1DirectionWidget_1_1ChangeBaseAction.html", null ],
@@ -512,6 +518,9 @@ var hierarchy =
       [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ],
       [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", null ]
     ] ],
+    [ "MR::IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", [
+      [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ]
+    ] ],
     [ "MR::IICPTreeIndexer", "classMR_1_1IICPTreeIndexer.html", null ],
     [ "MR::Image", "structMR_1_1Image.html", [
       [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ]
@@ -557,6 +566,10 @@ var hierarchy =
     [ "MR::IPointPairs", "structMR_1_1IPointPairs.html", [
       [ "MR::ICPGroupPairs", "structMR_1_1ICPGroupPairs.html", null ],
       [ "MR::PointPairs", "structMR_1_1PointPairs.html", null ]
+    ] ],
+    [ "MR::IPointsProjector", "classMR_1_1IPointsProjector.html", [
+      [ "MR::Cuda::PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", null ],
+      [ "MR::PointsProjector", "classMR_1_1PointsProjector.html", null ]
     ] ],
     [ "MR::IPointsToMeshProjector", "classMR_1_1IPointsToMeshProjector.html", [
       [ "MR::Cuda::PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", null ],
@@ -706,6 +719,7 @@ var hierarchy =
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
     [ "MR::MeshOnVoxelsT< MeshType, VolumeType >", "classMR_1_1MeshOnVoxelsT.html", null ],
     [ "MR::MeshOrPoints", "classMR_1_1MeshOrPoints.html", null ],
+    [ "MR::MeshOrPointsObject", "classMR_1_1MeshOrPointsObject.html", null ],
     [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
@@ -879,7 +893,7 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
-    [ "MR::ObjectMeshSubdivideResult", "structMR_1_1ObjectMeshSubdivideResult.html", null ],
+    [ "MR::ObjectMeshData", "structMR_1_1ObjectMeshData.html", null ],
     [ "MR::PickPointManager::ObjectState", "structMR_1_1PickPointManager_1_1ObjectState.html", null ],
     [ "MR::ObjKindTraits< X >", "structMR_1_1ObjKindTraits.html", null ],
     [ "MR::ObjKindTraits< FeaturesObjectKind::Circle >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html", null ],
@@ -1019,11 +1033,13 @@ var hierarchy =
     ] ],
     [ "MR::ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", null ],
     [ "MR::RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", null ],
+    [ "MR::RibbonConfig", "structMR_1_1RibbonConfig.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
     [ "MR::RibbonMenuItemAdder< T >", "classMR_1_1RibbonMenuItemAdder.html", null ],
     [ "MR::RibbonMenuItemCall< T >", "classMR_1_1RibbonMenuItemCall.html", null ],
     [ "MR::RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", null ],
+    [ "MR::RibbonMenuUIConfig", "structMR_1_1RibbonMenuUIConfig.html", null ],
     [ "MR::RibbonNotification", "structMR_1_1RibbonNotification.html", null ],
     [ "MR::RibbonNotifier", "classMR_1_1RibbonNotifier.html", null ],
     [ "MR::RibbonSchema", "structMR_1_1RibbonSchema.html", null ],

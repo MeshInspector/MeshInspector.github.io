@@ -19,6 +19,7 @@ var classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId =
     [ "clear", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a20477b91b220435fb9c31946f8fce367", null ],
     [ "data", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a72cd50281b673c9f6c2a3a236e87dfa0", null ],
     [ "data", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a72cd50281b673c9f6c2a3a236e87dfa0", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aa19207604d25415f166665ef9ac98216", null ],
     [ "empty", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ab434b51f0dde16247a1043a773c25abf", null ],
     [ "endId", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ace985c9817a43755b3582413d4e0f89f", null ],
     [ "front", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aacecf93dffba87901e8f5770ed0df60e", null ],

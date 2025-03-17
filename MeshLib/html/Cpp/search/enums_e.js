@@ -8,8 +8,8 @@ var searchData=
   ['reorder_5',['Reorder',['../namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9',1,'MR']]],
   ['ribboncolorstype_6',['RibbonColorsType',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0',1,'MR::ColorTheme']]],
   ['ribbonitemtype_7',['RibbonItemType',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688a',1,'MR']]],
-  ['ribbonlayoutmode_8',['RibbonLayoutMode',['../namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73',1,'MR']]],
-  ['ribbonnotificationcorner_9',['RibbonNotificationCorner',['../namespaceMR.html#ad2f3bc10761d952926925127eb80d902',1,'MR']]],
+  ['ribbonnotificationcorner_8',['RibbonNotificationCorner',['../namespaceMR.html#ad2f3bc10761d952926925127eb80d902',1,'MR']]],
+  ['ribbontoppanellayoutmode_9',['RibbonTopPanelLayoutMode',['../namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7',1,'MR']]],
   ['roottype_10',['RootType',['../structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae',1,'MR::DrawButtonParams']]],
   ['rotationaxisname_11',['RotationAxisName',['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a',1,'MR::CNCMachineSettings']]],
   ['rotationcentermode_12',['RotationCenterMode',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b',1,'MR::Viewport::Parameters']]]

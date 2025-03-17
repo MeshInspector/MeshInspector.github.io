@@ -8,5 +8,6 @@ var searchData=
   ['return_5fnew_5',['RETURN_NEW',['../TypeCast_8h.html#ae5abfddc3d316a711d8c276a650db007',1,'TypeCast.h']]],
   ['return_5fnew_5fof_6',['RETURN_NEW_OF',['../TypeCast_8h.html#adda276838f1e3e1bdb99c76901ee1b85',1,'TypeCast.h']]],
   ['return_5fnew_5fvector_7',['RETURN_NEW_VECTOR',['../Vector_8h.html#a68288b42d42706ee6499578a9d7f6a48',1,'Vector.h']]],
-  ['return_5fvector_8',['RETURN_VECTOR',['../Vector_8h.html#aff4eddaace168b10febab7354e5f23cd',1,'Vector.h']]]
+  ['return_5fvector_8',['RETURN_VECTOR',['../Vector_8h.html#aff4eddaace168b10febab7354e5f23cd',1,'Vector.h']]],
+  ['run_5ftest_9',['RUN_TEST',['../TestMacros_8h.html#a27cf08abbe33174b41d808a147cfef11',1,'TestMacros.h']]]
 ];

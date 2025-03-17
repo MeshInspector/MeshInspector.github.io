@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__int__FaceId =
     [ "clear", "classmrmeshpy_1_1Vector__int__FaceId.html#a886d9cacd675d7ceaa15edbad45571b6", null ],
     [ "data", "classmrmeshpy_1_1Vector__int__FaceId.html#a990a35830f855c7ccac0b5bfec1a2620", null ],
     [ "data", "classmrmeshpy_1_1Vector__int__FaceId.html#a990a35830f855c7ccac0b5bfec1a2620", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__int__FaceId.html#a7752c17e0207ec7e7f7ff774deebdf3c", null ],
     [ "empty", "classmrmeshpy_1_1Vector__int__FaceId.html#a5961250bf0cd1979bef3aa2ee3cda41a", null ],
     [ "endId", "classmrmeshpy_1_1Vector__int__FaceId.html#a57a0974f94430b2d0b67257657592d1e", null ],
     [ "front", "classmrmeshpy_1_1Vector__int__FaceId.html#ab35898b7c8045aa25729aff06af76f92", null ],

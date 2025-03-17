@@ -5,6 +5,7 @@ var searchData=
   ['degreesmode_2',['DegreesMode',['../namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424',1,'MR']]],
   ['depthfunction_3',['DepthFunction',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93',1,'MR']]],
   ['deviationcalculationmethod_4',['DeviationCalculationMethod',['../classMR_1_1SurfaceManipulationWidget.html#a07fc1d71375854270d1a16b8d06209f4',1,'MR::SurfaceManipulationWidget']]],
-  ['directory_5',['Directory',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057b',1,'MR::SystemPath']]],
-  ['dirtyflags_6',['DirtyFlags',['../group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269',1,'MR']]]
+  ['dicomstatusenum_5',['DicomStatusEnum',['../namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6',1,'MR::VoxelsLoad']]],
+  ['directory_6',['Directory',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057b',1,'MR::SystemPath']]],
+  ['dirtyflags_7',['DirtyFlags',['../group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269',1,'MR']]]
 ];

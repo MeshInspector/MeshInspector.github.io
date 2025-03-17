@@ -1,8 +1,14 @@
 var MRDicom_8h =
 [
+    [ "MR::VoxelsLoad::DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", "structMR_1_1VoxelsLoad_1_1DicomStatus" ],
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeT" ],
+    [ "DicomStatusEnum", "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6", [
+      [ "Ok", "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115", null ],
+      [ "Invalid", "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "Unsupported", "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f", null ]
+    ] ],
     [ "createObjectVoxels", "MRDicom_8h.html#a4461fa0856c7f24094e4b923f7ddd75f", null ],
-    [ "isDicomFile", "MRDicom_8h.html#a9e69e0cbf065c4b7256ef839c9a0855c", null ],
+    [ "isDicomFile", "MRDicom_8h.html#acba52d9e4446ab4729498866d500d5c9", null ],
     [ "isDicomFolder", "MRDicom_8h.html#adbcdf154c89bce3f54684092bcc3f76e", null ],
     [ "loadDicomFile", "MRDicom_8h.html#a97daff0d663d2d21303f92b32c475f1d", null ],
     [ "loadDicomFileAsVdb", "MRDicom_8h.html#a9edb1f3f1374143d0d7b53bc7afefeb6", null ],

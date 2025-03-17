@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Triangulation =
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a122af967d382a95e5eaf702b740af358", null ],
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a0a08e4006ce95cac612f3729dce9d08c", null ],
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a0658cf7372b2710ac06d22e11966b10d", null ],
-    [ "__init__", "classmrmeshpy_1_1Triangulation.html#ab8ad81761b359f2bcd2a04008f868271", null ],
+    [ "__init__", "classmrmeshpy_1_1Triangulation.html#a18db844c0e14e74acef5f11aedcfec10", null ],
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a6424be3cb7c5cb200b7db2c6065aab12", null ],
     [ "__eq__", "classmrmeshpy_1_1Triangulation.html#af2ec51c1016d4be8dd7c588d830f76b8", null ],
     [ "__iter__", "classmrmeshpy_1_1Triangulation.html#a73fb0d7a528b364c2c33a30c3a220a1f", null ],
@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Triangulation =
     [ "clear", "classmrmeshpy_1_1Triangulation.html#a7da76ccd9c7752de40b79a733923390e", null ],
     [ "data", "classmrmeshpy_1_1Triangulation.html#afd6bf4a8f2c4593cee59d3d6adf50b72", null ],
     [ "data", "classmrmeshpy_1_1Triangulation.html#afd6bf4a8f2c4593cee59d3d6adf50b72", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Triangulation.html#a4b00d2542d78d0cf7bfd0f2d9dc29a9e", null ],
     [ "empty", "classmrmeshpy_1_1Triangulation.html#ada41072f20d6d61d150a405cd8ba6f37", null ],
     [ "endId", "classmrmeshpy_1_1Triangulation.html#a9abed058a50ba3f0f48d799703a07018", null ],
     [ "front", "classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d", null ],
@@ -36,8 +37,8 @@ var classmrmeshpy_1_1Triangulation =
     [ "resizeWithReserve", "classmrmeshpy_1_1Triangulation.html#aeed07673823904502a3a117d927e2d9b", null ],
     [ "size", "classmrmeshpy_1_1Triangulation.html#a14e7423ffe04d7ddfd3da5115146a9f9", null ],
     [ "swap", "classmrmeshpy_1_1Triangulation.html#a0118ac93024351a2285467a5f6b0b098", null ],
-    [ "vec", "classmrmeshpy_1_1Triangulation.html#aeafa9931b52fa12f510b61fc35afd469", null ],
-    [ "vec", "classmrmeshpy_1_1Triangulation.html#a0008cbd2f00eb9713c1b80cf53b1a09c", null ],
-    [ "vec_", "classmrmeshpy_1_1Triangulation.html#a02704f566ce3c0c3ef5473573f60dc03", null ],
-    [ "vec_", "classmrmeshpy_1_1Triangulation.html#a293b8629a59d65a5d7994d3249faf3b4", null ]
+    [ "vec", "classmrmeshpy_1_1Triangulation.html#abfb2d240cab03cb909d0cdc9b914384c", null ],
+    [ "vec", "classmrmeshpy_1_1Triangulation.html#a1aa47da400e6cebd47813b191e7f236e", null ],
+    [ "vec_", "classmrmeshpy_1_1Triangulation.html#ab7a2bee04a51c2a8a12fd564b5711718", null ],
+    [ "vec_", "classmrmeshpy_1_1Triangulation.html#a5e60d1773bdd4b134f31cb53d9796ce6", null ]
 ];

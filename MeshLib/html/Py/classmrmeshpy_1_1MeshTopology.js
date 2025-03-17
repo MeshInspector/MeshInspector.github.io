@@ -48,7 +48,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "flipOrientation", "classmrmeshpy_1_1MeshTopology.html#a0689b4627d6b00c3ab4fb441fd985b47", null ],
     [ "fromSameLeftRing", "classmrmeshpy_1_1MeshTopology.html#ad4812f2f0b19ad52f7e2fd4ebf82e9e7", null ],
     [ "fromSameOriginRing", "classmrmeshpy_1_1MeshTopology.html#a77c390e409aa358f4ba75ab6c758af41", null ],
-    [ "getAllTriVerts", "classmrmeshpy_1_1MeshTopology.html#ae4fcafdfb6bdb79c7aeb7badd2d3f637", null ],
+    [ "getAllTriVerts", "classmrmeshpy_1_1MeshTopology.html#a2cdf75cf1a85e5d4553c213611171a95", null ],
     [ "getFaceDegree", "classmrmeshpy_1_1MeshTopology.html#ac6f62b4d1bbcea7229ea9eaa3d447b8f", null ],
     [ "getFaceIds", "classmrmeshpy_1_1MeshTopology.html#a567484cb0e62d3d4b44e6c3d1fece1d7", null ],
     [ "getLeftDegree", "classmrmeshpy_1_1MeshTopology.html#a581d8c744b4722c10a2a966cfe343e28", null ],

@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Box3i =
     [ "_Subscript", "classmrmeshpy_1_1Box3i.html#a7720e326d63642b19c48a55922887599", null ],
     [ "center", "classmrmeshpy_1_1Box3i.html#a68f9402a6299e7e3a40841cff9aac8ad", null ],
     [ "contains", "classmrmeshpy_1_1Box3i.html#a0180371ab3dce5f8323f0f672b95ebba", null ],
+    [ "corner", "classmrmeshpy_1_1Box3i.html#a41cacfa1c4bf92396b46cd25f57a89d3", null ],
     [ "diagonal", "classmrmeshpy_1_1Box3i.html#a9deeab335b73b274baee6f887b1782ed", null ],
     [ "expanded", "classmrmeshpy_1_1Box3i.html#ad68a8852932073d7e01059951c2f972c", null ],
     [ "getBoxClosestPointTo", "classmrmeshpy_1_1Box3i.html#a7f184b7315837d19c007f7f583c54d0e", null ],

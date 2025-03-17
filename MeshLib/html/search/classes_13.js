@@ -38,12 +38,10 @@ var searchData=
   ['uniquethreadsafeowner_35',['UniqueThreadSafeOwner',['.././Cpp/classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_5faabbtree_36',['UniqueThreadSafeOwner_AABBTree',['.././Py/classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html',1,'mrmeshpy']]],
   ['uniquethreadsafeowner_5faabbtreepoints_37',['UniqueThreadSafeOwner_AABBTreePoints',['.././Py/classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html',1,'mrmeshpy']]],
-  ['uniquethreadsafeowner_5faabbtreepolyline2_38',['UniqueThreadSafeOwner_AABBTreePolyline2',['.././Py/classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePolyline2.html',1,'mrmeshpy']]],
-  ['uniquethreadsafeowner_5faabbtreepolyline3_39',['UniqueThreadSafeOwner_AABBTreePolyline3',['.././Py/classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePolyline3.html',1,'mrmeshpy']]],
-  ['unitemanymeshesparams_40',['UniteManyMeshesParams',['.././Cpp/structMR_1_1UniteManyMeshesParams.html',1,'MR::UniteManyMeshesParams'],['.././Py/classmrmeshpy_1_1UniteManyMeshesParams.html',1,'mrmeshpy::UniteManyMeshesParams']]],
-  ['unitinfo_41',['UnitInfo',['.././Cpp/structMR_1_1UnitInfo.html',1,'MR']]],
-  ['unittostringparams_42',['UnitToStringParams',['.././Cpp/structMR_1_1UnitToStringParams.html',1,'MR']]],
-  ['unorientedtriangle_43',['UnorientedTriangle',['.././Cpp/structMR_1_1UnorientedTriangle.html',1,'MR::UnorientedTriangle'],['.././Py/classmrmeshpy_1_1UnorientedTriangle.html',1,'mrmeshpy::UnorientedTriangle']]],
-  ['unsigned_5fchar_5foutput_44',['unsigned_char_output',['.././Py/classmrmeshpy_1_1unsigned__char__output.html',1,'mrmeshpy']]],
-  ['useaabbtree_45',['UseAABBTree',['.././Py/classmrmeshpy_1_1UseAABBTree.html',1,'mrmeshpy']]]
+  ['unitemanymeshesparams_38',['UniteManyMeshesParams',['.././Cpp/structMR_1_1UniteManyMeshesParams.html',1,'MR::UniteManyMeshesParams'],['.././Py/classmrmeshpy_1_1UniteManyMeshesParams.html',1,'mrmeshpy::UniteManyMeshesParams']]],
+  ['unitinfo_39',['UnitInfo',['.././Cpp/structMR_1_1UnitInfo.html',1,'MR']]],
+  ['unittostringparams_40',['UnitToStringParams',['.././Cpp/structMR_1_1UnitToStringParams.html',1,'MR']]],
+  ['unorientedtriangle_41',['UnorientedTriangle',['.././Cpp/structMR_1_1UnorientedTriangle.html',1,'MR::UnorientedTriangle'],['.././Py/classmrmeshpy_1_1UnorientedTriangle.html',1,'mrmeshpy::UnorientedTriangle']]],
+  ['unsigned_5fchar_5foutput_42',['unsigned_char_output',['.././Py/classmrmeshpy_1_1unsigned__char__output.html',1,'mrmeshpy']]],
+  ['useaabbtree_43',['UseAABBTree',['.././Py/classmrmeshpy_1_1UseAABBTree.html',1,'mrmeshpy']]]
 ];

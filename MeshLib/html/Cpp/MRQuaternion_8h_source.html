@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRQuaternion_8h_source.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -263,7 +264,7 @@ $(function(){initNavTree('MRQuaternion_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">constexpr</span> <a class="code hl_function" href="structMR_1_1Quaternion.html#a91ef98ec55d8f152434350ec44a1c9ea">Quaternion&lt;T&gt;::Quaternion</a>( <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a>&amp; from, <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a>&amp; to) <span class="keyword">noexcept</span></div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>{</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="comment">// https://stackoverflow.com/questions/1171849/finding-quaternion-representing-the-rotation-from-one-vector-to-another</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    a = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a3f43152e36719d28d8b49136d8b29fe6">dot</a>( from, to );</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    a = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a0b37488d6412114b119f3e58fcdc8e1d">dot</a>( from, to );</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keyword">auto</span> cr = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a3bc8e18b4351ace3c52236505ac556cd">cross</a>( from, to );</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordflow">if</span>( cr.x == 0 &amp;&amp; cr.y == 0 &amp;&amp; cr.z == 0 )</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    {</div>
@@ -297,7 +298,7 @@ $(function(){initNavTree('MRQuaternion_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    q0.<a class="code hl_function" href="structMR_1_1Quaternion.html#ac98a801cf03ee64da5665501c8e7b7d8">normalize</a>();</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    q1.normalize();</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    T cosTheta = std::clamp( <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a3f43152e36719d28d8b49136d8b29fe6">dot</a>( q0, q1 ), T(-1), T(1) );</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    T cosTheta = std::clamp( <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a0b37488d6412114b119f3e58fcdc8e1d">dot</a>( q0, q1 ), T(-1), T(1) );</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="keywordflow">if</span> ( cosTheta &lt; 0 )</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    {</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>        q0 = -q0;</div>
@@ -306,7 +307,7 @@ $(function(){initNavTree('MRQuaternion_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    T theta = std::acos( cosTheta );</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    T sinTheta = std::sin( theta );</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="keywordflow">if</span> ( sinTheta &lt;= 0 )</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        <span class="keywordflow">return</span> lerp( q0, q1, t ).normalized();</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#abedf6d080f6840c8f336d5bce0c9f87a">lerp</a>( q0, q1, t ).normalized();</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keywordflow">return</span> std::sin( theta * ( 1 - t ) ) / sinTheta * q0 + std::sin( theta * t ) / sinTheta * q1;</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>}</div>
@@ -505,15 +506,16 @@ $(function(){initNavTree('MRQuaternion_8h_source.html',''); initResizable(true);
 <div class="ttc" id="anamespaceMR_html_a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03"><div class="ttname"><a href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">MR::FeaturePropertyKind::angle</a></div><div class="ttdeci">@ angle</div></div>
 <div class="ttc" id="anamespaceMR_html_a653c6d940d9780dba354cf0820ade180"><div class="ttname"><a href="namespaceMR.html#a653c6d940d9780dba354cf0820ade180">MR::operator/</a></div><div class="ttdeci">Color operator/(const Color &amp;b, float a)</div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:128</div></div>
 <div class="ttc" id="anamespaceMR_html_a74faa3fac803f77476aefb0300f66b51"><div class="ttname"><a href="namespaceMR.html#a74faa3fac803f77476aefb0300f66b51">MR::operator*</a></div><div class="ttdeci">Color operator*(float a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:118</div></div>
+<div class="ttc" id="anamespaceMR_html_abedf6d080f6840c8f336d5bce0c9f87a"><div class="ttname"><a href="namespaceMR.html#abedf6d080f6840c8f336d5bce0c9f87a">MR::lerp</a></div><div class="ttdeci">constexpr auto lerp(V v0, V v1, T t) noexcept</div><div class="ttdoc">Linear interpolation: returns v0 when t==0 and v1 when t==1.</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:677</div></div>
 <div class="ttc" id="anamespaceMR_html_ac878ba63f3f91f5ab032a38cd3a2c206"><div class="ttname"><a href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">MR::Vector3</a></div><div class="ttdeci">MRMESH_CLASS Vector3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:170</div></div>
 <div class="ttc" id="anamespaceMR_html_af9a5c1118c2c4b0cda030dff8d11ce03"><div class="ttname"><a href="namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03">MR::operator+</a></div><div class="ttdeci">Color operator+(const Color &amp;a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:108</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a0b37488d6412114b119f3e58fcdc8e1d"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a0b37488d6412114b119f3e58fcdc8e1d">mrmeshpy::dot</a></div><div class="ttdeci">int dot(Vector2i a, Vector2i b)</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a3bc8e18b4351ace3c52236505ac556cd"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a3bc8e18b4351ace3c52236505ac556cd">mrmeshpy::cross</a></div><div class="ttdeci">Vector3f cross(Vector3f a, Vector3f b)</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a3f43152e36719d28d8b49136d8b29fe6"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a3f43152e36719d28d8b49136d8b29fe6">mrmeshpy::dot</a></div><div class="ttdeci">float dot(Vector3f a, Vector3f b)</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:14</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html_abc589d85e328480de8c5972558bd7b3c"><div class="ttname"><a href="structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c">MR::AffineXf::b</a></div><div class="ttdeci">V b</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:19</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html_ac50d0dfa0b11a916ac644165073713ca"><div class="ttname"><a href="structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca">MR::AffineXf::A</a></div><div class="ttdeci">M A</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:18</div></div>
 <div class="ttc" id="astructMR_1_1Color_html_a21c5ef511dcf3b636ce3f8a5fd699874"><div class="ttname"><a href="structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874">MR::Color::a</a></div><div class="ttdeci">uint8_t a</div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:10</div></div>
-<div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:13</div></div>
+<div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:19</div></div>
 <div class="ttc" id="astructMR_1_1Quaternion_html"><div class="ttname"><a href="structMR_1_1Quaternion.html">MR::Quaternion</a></div><div class="ttdef"><b>Definition</b> MRQuaternion.h:13</div></div>
 <div class="ttc" id="astructMR_1_1Quaternion_html_a08ec5071c6a6916ee82a7a8f13366e71"><div class="ttname"><a href="structMR_1_1Quaternion.html#a08ec5071c6a6916ee82a7a8f13366e71">MR::Quaternion::slerp</a></div><div class="ttdeci">static Quaternion slerp(Quaternion q0, Quaternion q1, T t)</div><div class="ttdoc">given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit qu...</div></div>
 <div class="ttc" id="astructMR_1_1Quaternion_html_a1265e8d1076efd17d1c3b70cb310480e"><div class="ttname"><a href="structMR_1_1Quaternion.html#a1265e8d1076efd17d1c3b70cb310480e">MR::Quaternion::Quaternion</a></div><div class="ttdeci">constexpr Quaternion(const Vector3&lt; T &gt; &amp;from, const Vector3&lt; T &gt; &amp;to) noexcept</div><div class="ttdoc">finds shorter arc rotation quaternion from one vector to another</div></div>
@@ -547,17 +549,18 @@ $(function(){initNavTree('MRQuaternion_8h_source.html',''); initResizable(true);
 <div class="ttc" id="astructMR_1_1Quaternion_html_ad9b251ccd51dd9ea86e791f559ba00b1"><div class="ttname"><a href="structMR_1_1Quaternion.html#ad9b251ccd51dd9ea86e791f559ba00b1">MR::Quaternion::normSq</a></div><div class="ttdeci">constexpr T normSq() const</div><div class="ttdef"><b>Definition</b> MRQuaternion.h:33</div></div>
 <div class="ttc" id="astructMR_1_1Quaternion_html_adb5df4281ceff5b0f0e031a7102a9a9e"><div class="ttname"><a href="structMR_1_1Quaternion.html#adb5df4281ceff5b0f0e031a7102a9a9e">MR::Quaternion::slerp</a></div><div class="ttdeci">AffineXf3&lt; T &gt; slerp(const AffineXf3&lt; T &gt; &amp;xf0, const AffineXf3&lt; T &gt; &amp;xf1, T t, const Vector3&lt; T &gt; &amp;p={})</div><div class="ttdef"><b>Definition</b> MRQuaternion.h:330</div></div>
 <div class="ttc" id="astructMR_1_1Quaternion_html_afde85af8bb0b46b18e7c0b7f9ab0a2be"><div class="ttname"><a href="structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be">MR::Quaternion::operator()</a></div><div class="ttdeci">constexpr Vector3&lt; T &gt; operator()(const Vector3&lt; T &gt; &amp;p) const noexcept</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:19</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_a048dcca2da540bf2d429cbca37e41092"><div class="ttname"><a href="structMR_1_1Vector3.html#a048dcca2da540bf2d429cbca37e41092">MR::Vector3::plusX</a></div><div class="ttdeci">static constexpr Vector3 plusX() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:33</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_aba68004d56f0100e523093390f939910"><div class="ttname"><a href="structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910">MR::Vector3::plusZ</a></div><div class="ttdeci">static constexpr Vector3 plusZ() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:35</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_aedf66abcd7c315536ba2e512839885d0"><div class="ttname"><a href="structMR_1_1Vector3.html#aedf66abcd7c315536ba2e512839885d0">MR::Vector3::plusY</a></div><div class="ttdeci">static constexpr Vector3 plusY() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:34</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:26</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_a048dcca2da540bf2d429cbca37e41092"><div class="ttname"><a href="structMR_1_1Vector3.html#a048dcca2da540bf2d429cbca37e41092">MR::Vector3::plusX</a></div><div class="ttdeci">static constexpr Vector3 plusX() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:40</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_aba68004d56f0100e523093390f939910"><div class="ttname"><a href="structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910">MR::Vector3::plusZ</a></div><div class="ttdeci">static constexpr Vector3 plusZ() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:42</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_aedf66abcd7c315536ba2e512839885d0"><div class="ttname"><a href="structMR_1_1Vector3.html#aedf66abcd7c315536ba2e512839885d0">MR::Vector3::plusY</a></div><div class="ttdeci">static constexpr Vector3 plusY() noexcept</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:41</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRQuaternion_8h.html">MRQuaternion.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

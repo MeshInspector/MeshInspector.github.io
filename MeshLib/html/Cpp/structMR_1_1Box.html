@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1Box.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -173,6 +174,10 @@ Public Types</h2></td></tr>
 <tr class="separator:a72642a4bb313d2774abf257cefe1f2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1425948e6f0f9ef6de04c45be07f81fd" id="r_a1425948e6f0f9ef6de04c45be07f81fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a> = typename <a class="el" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
 <tr class="separator:a1425948e6f0f9ef6de04c45be07f81fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15892e58be32abb87c83d3929500dcfd" id="r_a15892e58be32abb87c83d3929500dcfd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a> = typename VTraits::template ChangeBaseType&lt;bool&gt;</td></tr>
+<tr class="separator:a15892e58be32abb87c83d3929500dcfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f9aaac8de3e73144319e59e64d5add" id="r_a30f9aaac8de3e73144319e59e64d5add"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f9aaac8de3e73144319e59e64d5add">VbTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;<a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a>&gt;</td></tr>
+<tr class="separator:a30f9aaac8de3e73144319e59e64d5add"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -202,6 +207,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5edd7e58dce05a67482b2c179f6abc6e" id="r_a5edd7e58dce05a67482b2c179f6abc6e"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edd7e58dce05a67482b2c179f6abc6e">center</a> () const</td></tr>
 <tr class="memdesc:a5edd7e58dce05a67482b2c179f6abc6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes center of the box  <br /></td></tr>
 <tr class="separator:a5edd7e58dce05a67482b2c179f6abc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58367ea0fa34d4b4d1009044564aded9" id="r_a58367ea0fa34d4b4d1009044564aded9"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58367ea0fa34d4b4d1009044564aded9">corner</a> (const <a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a> &amp;c) const</td></tr>
+<tr class="separator:a58367ea0fa34d4b4d1009044564aded9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71c94df372502f935a239c62e591a70c" id="r_a71c94df372502f935a239c62e591a70c"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c94df372502f935a239c62e591a70c">size</a> () const</td></tr>
 <tr class="memdesc:a71c94df372502f935a239c62e591a70c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes size of the box in all dimensions  <br /></td></tr>
 <tr class="separator:a71c94df372502f935a239c62e591a70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,6 +257,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2ec32268e6b124dd96b07c0e4da7fd9" id="r_ab2ec32268e6b124dd96b07c0e4da7fd9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ec32268e6b124dd96b07c0e4da7fd9">fromMinAndSize</a> (const V &amp;<a class="el" href="#acc1e8e06848f35838481ee10e0308cda">min</a>, const V &amp;<a class="el" href="#a71c94df372502f935a239c62e591a70c">size</a>)</td></tr>
 <tr class="separator:ab2ec32268e6b124dd96b07c0e4da7fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47072e05e75f449f745364a9bcd91ec" id="r_aa47072e05e75f449f745364a9bcd91ec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa47072e05e75f449f745364a9bcd91ec">getMinBoxCorner</a> (const V &amp;n)</td></tr>
+<tr class="separator:aa47072e05e75f449f745364a9bcd91ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -277,6 +286,38 @@ template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::T = typename <a class="el" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15892e58be32abb87c83d3929500dcfd" name="a15892e58be32abb87c83d3929500dcfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15892e58be32abb87c83d3929500dcfd">&#9670;&#160;</a></span>Vb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::Vb = typename VTraits::template ChangeBaseType&lt;bool&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30f9aaac8de3e73144319e59e64d5add" name="a30f9aaac8de3e73144319e59e64d5add"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f9aaac8de3e73144319e59e64d5add">&#9670;&#160;</a></span>VbTraits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::VbTraits = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;<a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -508,6 +549,34 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="a58367ea0fa34d4b4d1009044564aded9" name="a58367ea0fa34d4b4d1009044564aded9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58367ea0fa34d4b4d1009044564aded9">&#9670;&#160;</a></span>corner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">V <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::corner </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns the corner of this box as specified by given bool-vector: 1 element in (c) means take min's coordinate, 0 element in (c) means take max's coordinate </p>
+
+</div>
+</div>
 <a id="a2cfcb26887cd979172fd1831229c8144" name="a2cfcb26887cd979172fd1831229c8144"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cfcb26887cd979172fd1831229c8144">&#9670;&#160;</a></span>diagonal()</h2>
 
@@ -679,6 +748,34 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>returns squared distance between this box and given point; returns zero if the point is inside or on the boundary of the box </p>
+
+</div>
+</div>
+<a id="aa47072e05e75f449f745364a9bcd91ec" name="aa47072e05e75f449f745364a9bcd91ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa47072e05e75f449f745364a9bcd91ec">&#9670;&#160;</a></span>getMinBoxCorner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a> <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::getMinBoxCorner </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal </p>
 
 </div>
 </div>
@@ -1113,11 +1210,12 @@ template&lt;typename V &gt; </div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1Box.html">Box</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

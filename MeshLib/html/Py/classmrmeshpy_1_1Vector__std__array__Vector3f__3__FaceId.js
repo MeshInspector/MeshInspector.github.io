@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId =
     [ "__init__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a505bf25c164a0fa6ae8ef2ba7b6db4b1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#ac61858ffc7c7147e2d52601c64e98a74", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a9b3d900b97881045903b9732f5f95df8", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a131324a8259fb16a2946160369c041ae", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a638135e1cb9f7bf931029355d0b80df5", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#af19b86fc6b2f9fdccb8e417814c29526", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a0e17ae23f58d821dbaf340916db51491", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#aac2002a9cef1a45338b3167d9179109d", null ],
@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId =
     [ "clear", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#abca8bcdb250ef25b2afae74a5a4300b3", null ],
     [ "data", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a51c4012b1a0aafb16bc6e52e909aa4c9", null ],
     [ "data", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a51c4012b1a0aafb16bc6e52e909aa4c9", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#aa2df25fa3869999f2b221ce924a5458d", null ],
     [ "empty", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#afd00fc8718162ff4a6095a7088a0c944", null ],
     [ "endId", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#aab3cf3c20b4ab19ed8dc966d5715f9aa", null ],
     [ "front", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a7083c155cab41aad86608bd33b53a2ed", null ],
@@ -36,6 +37,6 @@ var classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId =
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a3dcae9de6789e804aa1c2e78bbd7e838", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a4bb3e906a466d971ba2084397ef696c2", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a5891d360d95c4ebac1f27773d8553f53", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#ad76cadf204cf7910fcbdc9babd0638f3", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#aca2560ff81cba4eeafb7543fb40fe59e", null ]
+    [ "vec_", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a902ec84e21f11684b8042664a1561622", null ],
+    [ "vec_", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a6b1a8135f79a95dd6f16a70c638f0fd2", null ]
 ];

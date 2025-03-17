@@ -13,7 +13,7 @@ var classmrmeshpy_1_1DistanceMap =
     [ "get", "classmrmeshpy_1_1DistanceMap.html#a7e888eb88fa0f46afd777d99688a1bb0", null ],
     [ "getDerivativeMap", "classmrmeshpy_1_1DistanceMap.html#a7a49e628d3e20e4e0344d2bba3e073a0", null ],
     [ "getInterpolated", "classmrmeshpy_1_1DistanceMap.html#ab07701566109d7569fe114fe29eae7ab", null ],
-    [ "getLocalMaximums", "classmrmeshpy_1_1DistanceMap.html#ac0769264832a84b31f9f842e8fc7a6e9", null ],
+    [ "getLocalMaximums", "classmrmeshpy_1_1DistanceMap.html#a391a6f362d8c17aaa4eeb82b72194a00", null ],
     [ "getMaxIndex", "classmrmeshpy_1_1DistanceMap.html#ab95eb68eb6db30d47f2974685d966692", null ],
     [ "getMinIndex", "classmrmeshpy_1_1DistanceMap.html#a081fcb23e72e61a9fc11991745f50a30", null ],
     [ "getMinMaxValues", "classmrmeshpy_1_1DistanceMap.html#ab50df8b8a974f6540b3499109b35f2de", null ],

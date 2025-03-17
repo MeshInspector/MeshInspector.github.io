@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__NodeId__NodeId =
     [ "clear", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#aa334e97922ccfe81d9acb0cdc3a0711d", null ],
     [ "data", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#ac0534f2fba8b30279ed18ac42dfc745d", null ],
     [ "data", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#ac0534f2fba8b30279ed18ac42dfc745d", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#a2b2ee2c85828bb107ab9f44f1740422f", null ],
     [ "empty", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#a7d40dbae8c6066939049325d14975cf1", null ],
     [ "endId", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#a5948159f078917013a0374d8d7abdc8a", null ],
     [ "front", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#a8b9c44eb52fe90ac3a4f889f23f5bcad", null ],

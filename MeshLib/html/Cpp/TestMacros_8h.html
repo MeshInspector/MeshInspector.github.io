@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/TestMacros_8h.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -156,7 +157,8 @@ $(function(){initNavTree('TestMacros_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">TestMacros.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="TestFunctions_8h_source.html">TestFunctions.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;tgmath.h&gt;</code><br />
 </div>
@@ -164,6 +166,8 @@ $(function(){initNavTree('TestMacros_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a27cf08abbe33174b41d808a147cfef11" id="r_a27cf08abbe33174b41d808a147cfef11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27cf08abbe33174b41d808a147cfef11">RUN_TEST</a>(func)</td></tr>
+<tr class="separator:a27cf08abbe33174b41d808a147cfef11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18e67aa9bbe430effc874d3dde1bc7e1" id="r_a18e67aa9bbe430effc874d3dde1bc7e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e67aa9bbe430effc874d3dde1bc7e1">TEST_ASSERT</a>(...)</td></tr>
 <tr class="separator:a18e67aa9bbe430effc874d3dde1bc7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73c280d7367391ba23353964ae9590b9" id="r_a73c280d7367391ba23353964ae9590b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73c280d7367391ba23353964ae9590b9">TEST_ASSERT_INT_EQUAL</a>(val,  exp)</td></tr>
@@ -172,6 +176,34 @@ Macros</h2></td></tr>
 <tr class="separator:aee91513a9e54e8b43271e82f16185468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a27cf08abbe33174b41d808a147cfef11" name="a27cf08abbe33174b41d808a147cfef11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27cf08abbe33174b41d808a147cfef11">&#9670;&#160;</a></span>RUN_TEST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RUN_TEST</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    printf( <span class="stringliteral">&quot;%s ...\n&quot;</span>, #func );              \</div>
+<div class="line">    {                                         \</div>
+<div class="line">        <span class="keyword">struct </span>timespec ts1 = <a class="code hl_function" href="TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf">timespec_now</a>(); \</div>
+<div class="line">        func();                               \</div>
+<div class="line">        <span class="keyword">struct </span>timespec ts2 = <a class="code hl_function" href="TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf">timespec_now</a>(); \</div>
+<div class="line">        <span class="keyword">struct </span>timespec duration = <a class="code hl_function" href="TestFunctions_8h.html#a563740375fcea1c8066b805da88103f9">timespec_get_duration</a>( &amp;ts1, &amp;ts2 );          \</div>
+<div class="line">        printf( <span class="stringliteral">&quot;%s done (%.3f s)\n&quot;</span>, #func, <a class="code hl_function" href="TestFunctions_8h.html#a00a4968c820b571d6217f785eae6825d">timespec_to_seconds</a>( &amp;duration ) ); \</div>
+<div class="line">    }</div>
+<div class="ttc" id="aTestFunctions_8h_html_a00a4968c820b571d6217f785eae6825d"><div class="ttname"><a href="TestFunctions_8h.html#a00a4968c820b571d6217f785eae6825d">timespec_to_seconds</a></div><div class="ttdeci">double timespec_to_seconds(const struct timespec *ts)</div></div>
+<div class="ttc" id="aTestFunctions_8h_html_a563740375fcea1c8066b805da88103f9"><div class="ttname"><a href="TestFunctions_8h.html#a563740375fcea1c8066b805da88103f9">timespec_get_duration</a></div><div class="ttdeci">struct timespec timespec_get_duration(const struct timespec *before, const struct timespec *after)</div></div>
+<div class="ttc" id="aTestFunctions_8h_html_a6f2e436cbfc9ef149a7aa74b35932fcf"><div class="ttname"><a href="TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf">timespec_now</a></div><div class="ttdeci">struct timespec timespec_now(void)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a18e67aa9bbe430effc874d3dde1bc7e1" name="a18e67aa9bbe430effc874d3dde1bc7e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a18e67aa9bbe430effc874d3dde1bc7e1">&#9670;&#160;</a></span>TEST_ASSERT</h2>
 
@@ -253,11 +285,12 @@ Macros</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_ae78f784ae402f48d875196e46319a59.html">MRTestC</a></li><li class="navelem"><a class="el" href="TestMacros_8h.html">TestMacros.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

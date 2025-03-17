@@ -21,6 +21,7 @@ var classmrmeshpy_1_1EdgeColors =
     [ "clear", "classmrmeshpy_1_1EdgeColors.html#a019f293f89395b64363b71eea0f5960f", null ],
     [ "data", "classmrmeshpy_1_1EdgeColors.html#a0eb95306664ff2c9333095bdb7898a69", null ],
     [ "data", "classmrmeshpy_1_1EdgeColors.html#a0eb95306664ff2c9333095bdb7898a69", null ],
+    [ "emplace_back", "classmrmeshpy_1_1EdgeColors.html#a19ac0badb165de6e13c1f1b6b4651168", null ],
     [ "empty", "classmrmeshpy_1_1EdgeColors.html#abffd7c79bd3ddc5986f8d73e5f50314c", null ],
     [ "endId", "classmrmeshpy_1_1EdgeColors.html#aa2b49067c51a59b397dd5efb340dc8da", null ],
     [ "front", "classmrmeshpy_1_1EdgeColors.html#ad5ea8017d71c8a862901bcbe167a9a8b", null ],

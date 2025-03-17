@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRPositionVertsSmoothly_8h_source.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -209,12 +210,12 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h_source.html',''); initResiz
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="anamespaceMR_html_a17d3251dd9ab06ec842606a4e4225fb2"><div class="ttname"><a href="namespaceMR.html#a17d3251dd9ab06ec842606a4e4225fb2">MR::positionVertsSmoothly</a></div><div class="ttdeci">MRMESH_API void positionVertsSmoothly(Mesh &amp;mesh, const VertBitSet &amp;verts, EdgeWeights edgeWeightsType=EdgeWeights::Cotan, const VertBitSet *fixedSharpVertices=nullptr)</div></div>
 <div class="ttc" id="anamespaceMR_html_a1d34390e42800882d558656d3ea89684"><div class="ttname"><a href="namespaceMR.html#a1d34390e42800882d558656d3ea89684">MR::positionVertsWithSpacing</a></div><div class="ttdeci">MRMESH_API void positionVertsWithSpacing(Mesh &amp;mesh, const SpacingSettings &amp;settings)</div><div class="ttdoc">Moves given vertices to make the distances between them as specified.</div></div>
-<div class="ttc" id="anamespaceMR_html_a2b15c0d875f91b8c0da03e651251832b"><div class="ttname"><a href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">MR::FacePredicate</a></div><div class="ttdeci">std::function&lt; bool(FaceId)&gt; FacePredicate</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:468</div></div>
+<div class="ttc" id="anamespaceMR_html_a2b15c0d875f91b8c0da03e651251832b"><div class="ttname"><a href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">MR::FacePredicate</a></div><div class="ttdeci">std::function&lt; bool(FaceId)&gt; FacePredicate</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:477</div></div>
 <div class="ttc" id="anamespaceMR_html_a3d881ee7943c5019e5a61768489f064e"><div class="ttname"><a href="namespaceMR.html#a3d881ee7943c5019e5a61768489f064e">MR::inflate</a></div><div class="ttdeci">MRMESH_API void inflate(Mesh &amp;mesh, const VertBitSet &amp;verts, const InflateSettings &amp;settings)</div></div>
 <div class="ttc" id="anamespaceMR_html_a44cdfa0fa0f605b3ff29d5437e8a93d8"><div class="ttname"><a href="namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a></div><div class="ttdeci">MRMESH_API void positionVertsSmoothlySharpBd(Mesh &amp;mesh, const VertBitSet &amp;verts, const Vector&lt; Vector3f, VertId &gt; *vertShifts=nullptr, const VertScalars *vertStabilizers=nullptr)</div></div>
 <div class="ttc" id="anamespaceMR_html_a5ac9f08cd2ef48394fa1c77a8ebdd6c8"><div class="ttname"><a href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">MR::EdgeWeights</a></div><div class="ttdeci">EdgeWeights</div><div class="ttdoc">determines the weight of each edge in applications like Laplacian</div><div class="ttdef"><b>Definition</b> MREnums.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9"><div class="ttname"><a href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">MR::EdgeWeights::Cotan</a></div><div class="ttdeci">@ Cotan</div><div class="ttdoc">edge weight depends on local geometry and uses cotangent values</div></div>
-<div class="ttc" id="anamespaceMR_html_ab7a3fa3c0bf9137f59a3a494350314d1"><div class="ttname"><a href="namespaceMR.html#ab7a3fa3c0bf9137f59a3a494350314d1">MR::UndirectedEdgeMetric</a></div><div class="ttdeci">std::function&lt; float(UndirectedEdgeId)&gt; UndirectedEdgeMetric</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:484</div></div>
+<div class="ttc" id="anamespaceMR_html_ab7a3fa3c0bf9137f59a3a494350314d1"><div class="ttname"><a href="namespaceMR.html#ab7a3fa3c0bf9137f59a3a494350314d1">MR::UndirectedEdgeMetric</a></div><div class="ttdeci">std::function&lt; float(UndirectedEdgeId)&gt; UndirectedEdgeMetric</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:493</div></div>
 <div class="ttc" id="astructMR_1_1InflateSettings_html"><div class="ttname"><a href="structMR_1_1InflateSettings.html">MR::InflateSettings</a></div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:49</div></div>
 <div class="ttc" id="astructMR_1_1InflateSettings_html_a01eec1ee9ce09177388ba2eb6097a88a"><div class="ttname"><a href="structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a">MR::InflateSettings::gradualPressureGrowth</a></div><div class="ttdeci">bool gradualPressureGrowth</div><div class="ttdoc">whether to increase the pressure gradually during the iterations (recommended for best quality)</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:61</div></div>
 <div class="ttc" id="astructMR_1_1InflateSettings_html_a0e7308020ddff9486f3d7673bb03a4b5"><div class="ttname"><a href="structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5">MR::InflateSettings::preSmooth</a></div><div class="ttdeci">bool preSmooth</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:59</div></div>
@@ -230,11 +231,12 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h_source.html',''); initResiz
 <div class="ttc" id="astructMR_1_1SpacingSettings_html_ad568a8496f9ca1e1732124e9fa159cd5"><div class="ttname"><a href="structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5">MR::SpacingSettings::numIters</a></div><div class="ttdeci">int numIters</div><div class="ttdoc">the algorithm is iterative, the more iterations the closer result to exact solution</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:33</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRPositionVertsSmoothly_8h.html">MRPositionVertsSmoothly.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

@@ -21,6 +21,7 @@ var classmrmeshpy_1_1VertColors =
     [ "clear", "classmrmeshpy_1_1VertColors.html#aeaa7c045ef254d60cb00f9c2728f90d0", null ],
     [ "data", "classmrmeshpy_1_1VertColors.html#a3687487cb106e5b6e97212a7062b04de", null ],
     [ "data", "classmrmeshpy_1_1VertColors.html#a3687487cb106e5b6e97212a7062b04de", null ],
+    [ "emplace_back", "classmrmeshpy_1_1VertColors.html#a02b136c432e64b31e13ff71992ce511c", null ],
     [ "empty", "classmrmeshpy_1_1VertColors.html#abf0369f8c42f9cb9d93d8d866610632d", null ],
     [ "endId", "classmrmeshpy_1_1VertColors.html#a1be33ccafd3ea78ed53a3f292866fc1e", null ],
     [ "front", "classmrmeshpy_1_1VertColors.html#a1b2e8846f0f3a3a150b11e6d8eda7669", null ],

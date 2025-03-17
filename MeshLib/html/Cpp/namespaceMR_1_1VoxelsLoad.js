@@ -1,9 +1,15 @@
 var namespaceMR_1_1VoxelsLoad =
 [
+    [ "DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", "structMR_1_1VoxelsLoad_1_1DicomStatus" ],
     [ "DicomVolumeT", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeT" ],
     [ "LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
     [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ],
     [ "VoxelsLoader", "namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96", null ],
+    [ "DicomStatusEnum", "namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6", [
+      [ "Ok", "namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115", null ],
+      [ "Invalid", "namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "Unsupported", "namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f", null ]
+    ] ],
     [ "GridType", "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19", [
       [ "DenseGrid", "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7", null ],
       [ "LevelSet", "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e", null ]
@@ -17,7 +23,7 @@ var namespaceMR_1_1VoxelsLoad =
     [ "fromRaw", "group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb", null ],
     [ "fromRaw", "group__VoxelsLoadGroup.html#ga603131e52dfc2ce8aa33d3a0d0028878", null ],
     [ "fromVdb", "group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d", null ],
-    [ "isDicomFile", "namespaceMR_1_1VoxelsLoad.html#a9e69e0cbf065c4b7256ef839c9a0855c", null ],
+    [ "isDicomFile", "namespaceMR_1_1VoxelsLoad.html#acba52d9e4446ab4729498866d500d5c9", null ],
     [ "isDicomFolder", "namespaceMR_1_1VoxelsLoad.html#adbcdf154c89bce3f54684092bcc3f76e", null ],
     [ "loadDicomFile", "namespaceMR_1_1VoxelsLoad.html#a97daff0d663d2d21303f92b32c475f1d", null ],
     [ "loadDicomFileAsVdb", "namespaceMR_1_1VoxelsLoad.html#a9edb1f3f1374143d0d7b53bc7afefeb6", null ],

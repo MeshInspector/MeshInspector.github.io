@@ -19,6 +19,7 @@ var classmrmeshpy_1_1Dipoles =
     [ "clear", "classmrmeshpy_1_1Dipoles.html#a2642704342f5d4e95afbedb877038332", null ],
     [ "data", "classmrmeshpy_1_1Dipoles.html#ac2529af38fbdc43c2ffc5d368fc6943e", null ],
     [ "data", "classmrmeshpy_1_1Dipoles.html#ac2529af38fbdc43c2ffc5d368fc6943e", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Dipoles.html#a1e46c3de018ff4e5f06702f857af629a", null ],
     [ "empty", "classmrmeshpy_1_1Dipoles.html#a5121590d1347d4e4e6f5a82e80752d01", null ],
     [ "endId", "classmrmeshpy_1_1Dipoles.html#ad4dd800aeed619c28ac1e6c4af6fb619", null ],
     [ "front", "classmrmeshpy_1_1Dipoles.html#a0248a120c6bc5e1a3f4dfbaee6fdbc96", null ],

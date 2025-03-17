@@ -21,6 +21,7 @@ var classmrmeshpy_1_1UndirectedEdge2RegionMap =
     [ "clear", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5cf91c4f13b29d9731667d242e0cfda5", null ],
     [ "data", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a8737881470f946ec37472f917d82ebaa", null ],
     [ "data", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a8737881470f946ec37472f917d82ebaa", null ],
+    [ "emplace_back", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5287b9304b1abbc52a836bee8ddada9f", null ],
     [ "empty", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#aaaff2ad9529fdaaeecb90aabc4599eaf", null ],
     [ "endId", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#adf6e850739fd94999f371064c02546bd", null ],
     [ "front", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a741aa69caab807daa0c1ffff17966c94", null ],

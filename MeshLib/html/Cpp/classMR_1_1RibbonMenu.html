@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/classMR_1_1RibbonMenu.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -280,12 +281,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa5c9439e803a30622f7ecfeee5e7091d" id="r_aa5c9439e803a30622f7ecfeee5e7091d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c9439e803a30622f7ecfeee5e7091d">setAutoCloseBlockingPlugins</a> (bool value)</td></tr>
 <tr class="memdesc:aa5c9439e803a30622f7ecfeee5e7091d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets flag defining if closing plugin on opening another one is enabled or not  <br /></td></tr>
 <tr class="separator:aa5c9439e803a30622f7ecfeee5e7091d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20be6c6447ebc633030add6ed89391ae" id="r_a20be6c6447ebc633030add6ed89391ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73">RibbonLayoutMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20be6c6447ebc633030add6ed89391ae">getLayoutMode</a> () const</td></tr>
-<tr class="memdesc:a20be6c6447ebc633030add6ed89391ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current layout mode of menu (find more in RibbonLayoutMode comments)  <br /></td></tr>
-<tr class="separator:a20be6c6447ebc633030add6ed89391ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a840f6ddbb0dab1a3ca70582db1b7cefa" id="r_a840f6ddbb0dab1a3ca70582db1b7cefa"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840f6ddbb0dab1a3ca70582db1b7cefa">setLayoutMode</a> (<a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73">RibbonLayoutMode</a> mode)</td></tr>
-<tr class="memdesc:a840f6ddbb0dab1a3ca70582db1b7cefa"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new layout mode for menu, will be applied in next frame (find more in RibbonLayoutMode comments)  <br /></td></tr>
-<tr class="separator:a840f6ddbb0dab1a3ca70582db1b7cefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8f7513715e9612b9c4a4e5b9005382c" id="r_ae8f7513715e9612b9c4a4e5b9005382c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1RibbonMenuUIConfig.html">RibbonMenuUIConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8f7513715e9612b9c4a4e5b9005382c">getMenuUIConfig</a> () const</td></tr>
+<tr class="memdesc:ae8f7513715e9612b9c4a4e5b9005382c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current menu ui configuration (find more in <a class="el" href="structMR_1_1RibbonMenuUIConfig.html">RibbonMenuUIConfig</a> comments)  <br /></td></tr>
+<tr class="separator:ae8f7513715e9612b9c4a4e5b9005382c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ff3e6eb8d078f9be90f61e18065f9ae" id="r_a1ff3e6eb8d078f9be90f61e18065f9ae"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ff3e6eb8d078f9be90f61e18065f9ae">setMenuUIConfig</a> (const <a class="el" href="structMR_1_1RibbonMenuUIConfig.html">RibbonMenuUIConfig</a> &amp;newConfig)</td></tr>
+<tr class="separator:a1ff3e6eb8d078f9be90f61e18065f9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf2af4dc1d82b20087764071b206770" id="r_a1cf2af4dc1d82b20087764071b206770"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cf2af4dc1d82b20087764071b206770">drawGroupUngroupButton</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
 <tr class="separator:a1cf2af4dc1d82b20087764071b206770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfc163ec42e5bf049a816c152460856e" id="r_abfc163ec42e5bf049a816c152460856e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc163ec42e5bf049a816c152460856e">drawSelectSubtreeButton</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
@@ -595,8 +595,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:acf628a7bb9081d2c4b3d3405e96e85b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d13b702d7c6dad7794328080b6562e0" id="r_a8d13b702d7c6dad7794328080b6562e0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d13b702d7c6dad7794328080b6562e0">prevFrameSelectedObjectsCache_</a></td></tr>
 <tr class="separator:a8d13b702d7c6dad7794328080b6562e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a736cd1b64ec1e6b8d3207df3f9fcf431" id="r_a736cd1b64ec1e6b8d3207df3f9fcf431"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73">RibbonLayoutMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a736cd1b64ec1e6b8d3207df3f9fcf431">layoutMode_</a> { <a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680">RibbonLayoutMode::All</a> }</td></tr>
-<tr class="separator:a736cd1b64ec1e6b8d3207df3f9fcf431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac86c4630adf085f601be813f0d81b827" id="r_ac86c4630adf085f601be813f0d81b827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1RibbonMenuSearch.html">RibbonMenuSearch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac86c4630adf085f601be813f0d81b827">searcher_</a></td></tr>
 <tr class="separator:ac86c4630adf085f601be813f0d81b827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1ImGuiMenu"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1ImGuiMenu')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td></tr>
@@ -1517,33 +1515,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a20be6c6447ebc633030add6ed89391ae" name="a20be6c6447ebc633030add6ed89391ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20be6c6447ebc633030add6ed89391ae">&#9670;&#160;</a></span>getLayoutMode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73">RibbonLayoutMode</a> MR::RibbonMenu::getLayoutMode </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns current layout mode of menu (find more in RibbonLayoutMode comments) </p>
-
-</div>
-</div>
 <a id="ac60708d073d431fe51934044e473b07c" name="ac60708d073d431fe51934044e473b07c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac60708d073d431fe51934044e473b07c">&#9670;&#160;</a></span>getMenuFontPath()</h2>
 
@@ -1568,6 +1539,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classMR_1_1ImGuiMenu.html#ac9903c4ecfd72b4f98e4c1aff9492b54">MR::ImGuiMenu</a>.</p>
+
+</div>
+</div>
+<a id="ae8f7513715e9612b9c4a4e5b9005382c" name="ae8f7513715e9612b9c4a4e5b9005382c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8f7513715e9612b9c4a4e5b9005382c">&#9670;&#160;</a></span>getMenuUIConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1RibbonMenuUIConfig.html">RibbonMenuUIConfig</a> &amp; MR::RibbonMenu::getMenuUIConfig </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns current menu ui configuration (find more in <a class="el" href="structMR_1_1RibbonMenuUIConfig.html">RibbonMenuUIConfig</a> comments) </p>
 
 </div>
 </div>
@@ -2261,8 +2259,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a840f6ddbb0dab1a3ca70582db1b7cefa" name="a840f6ddbb0dab1a3ca70582db1b7cefa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840f6ddbb0dab1a3ca70582db1b7cefa">&#9670;&#160;</a></span>setLayoutMode()</h2>
+<a id="a1ff3e6eb8d078f9be90f61e18065f9ae" name="a1ff3e6eb8d078f9be90f61e18065f9ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ff3e6eb8d078f9be90f61e18065f9ae">&#9670;&#160;</a></span>setMenuUIConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2271,9 +2269,9 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::setLayoutMode </td>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::setMenuUIConfig </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73">RibbonLayoutMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RibbonMenuUIConfig.html">RibbonMenuUIConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>newConfig</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2283,8 +2281,6 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>sets new layout mode for menu, will be applied in next frame (find more in RibbonLayoutMode comments) </p>
 
 </div>
 </div>
@@ -2597,28 +2593,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a736cd1b64ec1e6b8d3207df3f9fcf431" name="a736cd1b64ec1e6b8d3207df3f9fcf431"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a736cd1b64ec1e6b8d3207df3f9fcf431">&#9670;&#160;</a></span>layoutMode_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73">RibbonLayoutMode</a> MR::RibbonMenu::layoutMode_ { <a class="el" href="namespaceMR.html#a65e09ecf9e3517b622b301a26aa3de73ab1c94ca2fbc3e78fc30069c8d0f01680">RibbonLayoutMode::All</a> }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8d13b702d7c6dad7794328080b6562e0" name="a8d13b702d7c6dad7794328080b6562e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d13b702d7c6dad7794328080b6562e0">&#9670;&#160;</a></span>prevFrameSelectedObjectsCache_</h2>
 
@@ -2684,11 +2658,12 @@ Protected Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1RibbonMenu.html">RibbonMenu</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRObjectMesh_8h_source.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -173,7 +174,7 @@ $(function(){initNavTree('MRObjectMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#ab66142ef43819220097fbf161c7467cb">   18</a></span>    constexpr static const <span class="keywordtype">char</span>* TypeName() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;ObjectMesh&quot;</span>; }</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba">   19</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba">typeName</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> TypeName(); }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77">   22</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> std::shared_ptr&lt; Mesh &gt; &amp; <a class="code hl_function" href="classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77">varMesh</a>() { <span class="keywordflow">return</span> mesh_; }</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77">   22</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> std::shared_ptr&lt; Mesh &gt; &amp; <a class="code hl_function" href="classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77">varMesh</a>() { <span class="keywordflow">return</span> data_.mesh; }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#aee361968c7d91db0ce5b93b65f003d8a">   25</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ObjectMesh.html#aee361968c7d91db0ce5b93b65f003d8a">setMesh</a>( std::shared_ptr&lt; Mesh &gt; mesh );</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01">   28</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> std::shared_ptr&lt; Mesh &gt; <a class="code hl_function" href="classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01">updateMesh</a>( std::shared_ptr&lt; Mesh &gt; mesh );</div>
@@ -213,7 +214,7 @@ $(function(){initNavTree('MRObjectMesh_8h_source.html',''); initResizable(true);
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:79</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:83</div></div>
 <div class="ttc" id="aMRObjectMeshHolder_8h_html"><div class="ttname"><a href="MRObjectMeshHolder_8h.html">MRObjectMeshHolder.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1ObjectMeshHolder_html"><div class="ttname"><a href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></div><div class="ttdef"><b>Definition</b> MRObjectMeshHolder.h:30</div></div>
+<div class="ttc" id="aclassMR_1_1ObjectMeshHolder_html"><div class="ttname"><a href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></div><div class="ttdef"><b>Definition</b> MRObjectMeshHolder.h:31</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMesh_html"><div class="ttname"><a href="classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></div><div class="ttdef"><b>Definition</b> MRObjectMesh.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMesh_html_a03d1a17fadf84a8ad3ec4850334cef11"><div class="ttname"><a href="classMR_1_1ObjectMesh.html#a03d1a17fadf84a8ad3ec4850334cef11">MR::ObjectMesh::serializeFields_</a></div><div class="ttdeci">virtual MRMESH_API void serializeFields_(Json::Value &amp;root) const override</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMesh_html_a0b6c4c31b11e372dea9237b6f9fcf5c6"><div class="ttname"><a href="classMR_1_1ObjectMesh.html#a0b6c4c31b11e372dea9237b6f9fcf5c6">MR::ObjectMesh::getInfoLines</a></div><div class="ttdeci">virtual MRMESH_API std::vector&lt; std::string &gt; getInfoLines() const override</div><div class="ttdoc">return several info lines that can better describe the object in the UI</div></div>
@@ -243,11 +244,12 @@ $(function(){initNavTree('MRObjectMesh_8h_source.html',''); initResizable(true);
 <div class="ttc" id="astructMR_1_1Signal_html"><div class="ttname"><a href="structMR_1_1Signal.html">MR::Signal&lt; void(uint32_t mask)&gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRObjectMesh_8h.html">MRObjectMesh.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

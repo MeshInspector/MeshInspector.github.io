@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/classMR_1_1Cuda_1_1FastWindingNumber-members.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -158,17 +159,22 @@ $(function(){initNavTree('classMR_1_1Cuda_1_1FastWindingNumber.html',''); initRe
 <p>This is the complete list of members for <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#ade8474a42b222e2956b6fe29750ac544">calcFromGrid</a>(std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const ProgressCallback &amp;cb) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#aeb495c4eda1b8be00020369fc04f7159">calcFromGridWithDistances</a>(std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const DistanceToMeshOptions &amp;options, const ProgressCallback &amp;cb) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45">calcFromGridByParts</a>(GridByPartsFunc resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, int layerOverlap, const ProgressCallback &amp;cb) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#aeb495c4eda1b8be00020369fc04f7159">calcFromGridWithDistances</a>(std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const DistanceToMeshOptions &amp;options, const ProgressCallback &amp;cb) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#aa58e46d5a0d4b887dfc6f4edddafa860">calcFromGridWithDistancesByParts</a>(GridByPartsFunc resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const DistanceToMeshOptions &amp;options, int layerOverlap, const ProgressCallback &amp;cb) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a5c175130af9cbdf1fac5b175f1f44ae3">calcFromVector</a>(std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, float beta, FaceId skipFace, const ProgressCallback &amp;cb) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a2f11c9de4efd17bdc6ac47d85b97c079">calcSelfIntersections</a>(FaceBitSet &amp;res, float beta, const ProgressCallback &amp;cb) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63">FastWindingNumber</a>(const Mesh &amp;mesh)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547">~IFastWindingNumber</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumber.html">MR::IFastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumberByParts.html#a54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a> typedef</td><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumberByParts.html">MR::IFastWindingNumberByParts</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547">~IFastWindingNumber</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumber.html">MR::IFastWindingNumber</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumberByParts.html#af7e578881fbad35e93b36ab0a2697c1c">~IFastWindingNumberByParts</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1IFastWindingNumberByParts.html">MR::IFastWindingNumberByParts</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

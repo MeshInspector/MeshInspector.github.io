@@ -21,6 +21,7 @@ var classmrmeshpy_1_1TexturePerFace =
     [ "clear", "classmrmeshpy_1_1TexturePerFace.html#ae9dc9d79b12b18ea918260dcc681dbac", null ],
     [ "data", "classmrmeshpy_1_1TexturePerFace.html#acada78e6aa9d2c80e0731e35c5d87de4", null ],
     [ "data", "classmrmeshpy_1_1TexturePerFace.html#acada78e6aa9d2c80e0731e35c5d87de4", null ],
+    [ "emplace_back", "classmrmeshpy_1_1TexturePerFace.html#ae52cc84d5f131f23131a82736c7ae990", null ],
     [ "empty", "classmrmeshpy_1_1TexturePerFace.html#a850ae7f12db16615e53fc75032a57040", null ],
     [ "endId", "classmrmeshpy_1_1TexturePerFace.html#ad78a9042cc03b7dc1f43c4f83b404519", null ],
     [ "front", "classmrmeshpy_1_1TexturePerFace.html#a63de6a7b85c192c379a26504b74722b9", null ],

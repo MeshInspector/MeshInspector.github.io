@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/classMR_1_1ChangeLinesColorMapAction.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -186,8 +187,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7806259621a23a6b67669e9b3be99e92" id="r_a7806259621a23a6b67669e9b3be99e92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7806259621a23a6b67669e9b3be99e92">ChangeLinesColorMapAction</a> (const std::string &amp;<a class="el" href="#a58c39c7fe8142548916393082fe71741">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:a7806259621a23a6b67669e9b3be99e92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
+<tr class="memdesc:a7806259621a23a6b67669e9b3be99e92"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's line colors before making any changes in them  <br /></td></tr>
 <tr class="separator:a7806259621a23a6b67669e9b3be99e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8ddee0413ffd1f5443c24e425457f07" id="r_aa8ddee0413ffd1f5443c24e425457f07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8ddee0413ffd1f5443c24e425457f07">ChangeLinesColorMapAction</a> (const std::string &amp;<a class="el" href="#a58c39c7fe8142548916393082fe71741">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> &gt; &amp;obj, UndirectedEdgeColors &amp;&amp;newColorMap)</td></tr>
+<tr class="memdesc:aa8ddee0413ffd1f5443c24e425457f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's lines colors and immediate set new value  <br /></td></tr>
+<tr class="separator:aa8ddee0413ffd1f5443c24e425457f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58c39c7fe8142548916393082fe71741" id="r_a58c39c7fe8142548916393082fe71741"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58c39c7fe8142548916393082fe71741">name</a> () const override</td></tr>
 <tr class="separator:a58c39c7fe8142548916393082fe71741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f12b1fca7e6ed8731a32ca1796e0b2" id="r_a72f12b1fca7e6ed8731a32ca1796e0b2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72f12b1fca7e6ed8731a32ca1796e0b2">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -224,7 +228,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7806259621a23a6b67669e9b3be99e92" name="a7806259621a23a6b67669e9b3be99e92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7806259621a23a6b67669e9b3be99e92">&#9670;&#160;</a></span>ChangeLinesColorMapAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7806259621a23a6b67669e9b3be99e92">&#9670;&#160;</a></span>ChangeLinesColorMapAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +254,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructed from original obj. </p>
+<p>use this constructor to remember object's line colors before making any changes in them </p>
+
+</div>
+</div>
+<a id="aa8ddee0413ffd1f5443c24e425457f07" name="aa8ddee0413ffd1f5443c24e425457f07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8ddee0413ffd1f5443c24e425457f07">&#9670;&#160;</a></span>ChangeLinesColorMapAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeLinesColorMapAction::ChangeLinesColorMapAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UndirectedEdgeColors &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newColorMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's lines colors and immediate set new value </p>
 
 </div>
 </div>
@@ -370,11 +410,12 @@ Static Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1ChangeLinesColorMapAction.html">ChangeLinesColorMapAction</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

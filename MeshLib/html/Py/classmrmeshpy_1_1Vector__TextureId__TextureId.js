@@ -21,6 +21,7 @@ var classmrmeshpy_1_1Vector__TextureId__TextureId =
     [ "clear", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a3a6a978efc6c153593925d2e91884c58", null ],
     [ "data", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#afa4951f6e27b3b14ea76f1a1311782c6", null ],
     [ "data", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#afa4951f6e27b3b14ea76f1a1311782c6", null ],
+    [ "emplace_back", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ae8990921a240168b4af479dbf9050275", null ],
     [ "empty", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#acd00f417052558725ce9dc377a1ab32a", null ],
     [ "endId", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a4f8f3813c4e489f33981be6f1c810646", null ],
     [ "front", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a5fcde5d4417c242bd06e6aa913f803a0", null ],

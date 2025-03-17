@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRMacros_8h.html" />
+<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -175,10 +176,12 @@ Macros</h2></td></tr>
 <tr class="separator:a4cb6de717e0b06df733796fec2da272a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac35e66533e158a4bf53982a2c109bd09" id="r_ac35e66533e158a4bf53982a2c109bd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>(a,  b)&#160;&#160;&#160;a ## b</td></tr>
 <tr class="separator:ac35e66533e158a4bf53982a2c109bd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb4b71f9ebce86e54868bd967010ebbb" id="r_adb4b71f9ebce86e54868bd967010ebbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(...)</td></tr>
-<tr class="separator:adb4b71f9ebce86e54868bd967010ebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2577133e8c02d830609dc0c74a53949" id="r_af2577133e8c02d830609dc0c74a53949"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2577133e8c02d830609dc0c74a53949">MR_HAS_REQUIRES</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:af2577133e8c02d830609dc0c74a53949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4b71f9ebce86e54868bd967010ebbb" id="r_adb4b71f9ebce86e54868bd967010ebbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(...)</td></tr>
+<tr class="separator:adb4b71f9ebce86e54868bd967010ebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4077bf89cb8ad6b60d3d1d989cc5361" id="r_aa4077bf89cb8ad6b60d3d1d989cc5361"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(target_,  name_)&#160;&#160;&#160;typename name_ = target_</td></tr>
+<tr class="separator:aa4077bf89cb8ad6b60d3d1d989cc5361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc8a2290a0ad34bf18acb8498b4bb91a" id="r_adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8a2290a0ad34bf18acb8498b4bb91a">MR_NO_UNIQUE_ADDRESS</a>&#160;&#160;&#160;[[no_unique_address]]</td></tr>
 <tr class="separator:adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0284b6bf2a09937d49518593207b00a6" id="r_a0284b6bf2a09937d49518593207b00a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0284b6bf2a09937d49518593207b00a6">MR_LEGACY_MSVC_PREPROCESSOR</a>&#160;&#160;&#160;0</td></tr>
@@ -381,6 +384,27 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="aa4077bf89cb8ad6b60d3d1d989cc5361" name="aa4077bf89cb8ad6b60d3d1d989cc5361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4077bf89cb8ad6b60d3d1d989cc5361">&#9670;&#160;</a></span>MR_SAME_TYPE_TEMPLATE_PARAM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_SAME_TYPE_TEMPLATE_PARAM</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>target_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>name_</em></span>&#160;)&#160;&#160;&#160;typename name_ = target_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab8cb9281271220567c1359224e6ca5db" name="ab8cb9281271220567c1359224e6ca5db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8cb9281271220567c1359224e6ca5db">&#9670;&#160;</a></span>MR_STR</h2>
 
@@ -434,11 +458,12 @@ Macros</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMacros_8h.html">MRMacros.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

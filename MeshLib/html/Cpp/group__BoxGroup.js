@@ -2,6 +2,8 @@ var group__BoxGroup =
 [
     [ "MR::Box< V >", "structMR_1_1Box.html", [
       [ "T", "structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd", null ],
+      [ "Vb", "structMR_1_1Box.html#a15892e58be32abb87c83d3929500dcfd", null ],
+      [ "VbTraits", "structMR_1_1Box.html#a30f9aaac8de3e73144319e59e64d5add", null ],
       [ "VTraits", "structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0", null ],
       [ "Box", "structMR_1_1Box.html#ab72759c3d199697fa09474bba5c5284c", null ],
       [ "Box", "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987", null ],
@@ -10,6 +12,7 @@ var group__BoxGroup =
       [ "Box", "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35", null ],
       [ "center", "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e", null ],
       [ "contains", "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598", null ],
+      [ "corner", "structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9", null ],
       [ "diagonal", "structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144", null ],
       [ "expanded", "structMR_1_1Box.html#a3f06adfa8006bd6000537a4d96e4f66e", null ],
       [ "getBoxClosestPointTo", "structMR_1_1Box.html#a1af67d1761b8fd15fa204b39d5f9bd46", null ],
@@ -36,6 +39,7 @@ var group__BoxGroup =
     [ "MR::get", "group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e", null ],
     [ "MR::getCorners", "group__BoxGroup.html#ga29381aa0a95542624d22842711d672f9", null ],
     [ "MR::getCorners", "group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8", null ],
+    [ "MR::getTouchPlanes", "group__BoxGroup.html#gab7e63d12c29922a0bc2a53683789c03f", null ],
     [ "MR::height", "group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae", null ],
     [ "MR::transformed", "group__BoxGroup.html#gab17e73512e12f2ab50b0c688ad52ebd5", null ],
     [ "MR::transformed", "group__BoxGroup.html#gae1a724a1801d1bf348bf471329645cf3", null ],

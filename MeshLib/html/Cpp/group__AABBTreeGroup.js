@@ -3,7 +3,9 @@ var group__AABBTreeGroup =
     [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63", null ],
       [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#ade8474a42b222e2956b6fe29750ac544", null ],
+      [ "calcFromGridByParts", "classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45", null ],
       [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#aeb495c4eda1b8be00020369fc04f7159", null ],
+      [ "calcFromGridWithDistancesByParts", "classMR_1_1Cuda_1_1FastWindingNumber.html#aa58e46d5a0d4b887dfc6f4edddafa860", null ],
       [ "calcFromVector", "classMR_1_1Cuda_1_1FastWindingNumber.html#a5c175130af9cbdf1fac5b175f1f44ae3", null ],
       [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a2f11c9de4efd17bdc6ac47d85b97c079", null ]
     ] ],
@@ -199,6 +201,23 @@ var group__AABBTreeGroup =
       [ "distSq", "structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340", null ],
       [ "vId", "structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7", null ]
     ] ],
+    [ "MR::FindProjectionOnPointsSettings", "structMR_1_1FindProjectionOnPointsSettings.html", [
+      [ "cb", "structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220", null ],
+      [ "loDistLimitSq", "structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5", null ],
+      [ "skipSameIndex", "structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152", null ],
+      [ "upDistLimitSq", "structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379", null ],
+      [ "valid", "structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217", null ],
+      [ "xf", "structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694", null ]
+    ] ],
+    [ "MR::IPointsProjector", "classMR_1_1IPointsProjector.html", [
+      [ "~IPointsProjector", "classMR_1_1IPointsProjector.html#a2c0b970d9a78fe1a93045c851874c718", null ],
+      [ "findProjections", "classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31", null ],
+      [ "setPointCloud", "classMR_1_1IPointsProjector.html#ae6ae7b291953d433a794999d25ef10df", null ]
+    ] ],
+    [ "MR::PointsProjector", "classMR_1_1PointsProjector.html", [
+      [ "findProjections", "classMR_1_1PointsProjector.html#a7f6e0c85341469a32a8424abb1a7e25f", null ],
+      [ "setPointCloud", "classMR_1_1PointsProjector.html#abbb8bb3a25f447af9b6abe188662181a", null ]
+    ] ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [
       [ "distSq", "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8", null ],
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
@@ -305,6 +324,7 @@ var group__AABBTreeGroup =
     [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
     [ "MR::multiRayMeshIntersect", "group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045", null ],
     [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],
+    [ "MR::planeMeshIntersect", "group__AABBTreeGroup.html#ga8b2db465de4ef2df4f0f85fa142a612f", null ],
     [ "MR::processCloseTriangles", "group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga4a4bcd2a0d206e01852cba4f6e0c2a6b", null ],
@@ -313,7 +333,7 @@ var group__AABBTreeGroup =
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#gaca3917c935c4b071cac785463beaa5f2", null ],
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#ga5ed53546770d894ff3f4ea75bd760afa", null ],
     [ "MR::signedDistanceToMesh", "group__AABBTreeGroup.html#gab849769857dbeadbea5f6bbfa749dfa0", null ],
-    [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga881bc4cb6ab7f415bf85d9235e2ca740", null ],
+    [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga4b8be9888719bfd9c5944dc6293c902d", null ],
     [ "MR::IntersectionPrecomputes::idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
     [ "MR::IntersectionPrecomputes::idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
     [ "MR::IntersectionPrecomputes::invDir", "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f", null ],

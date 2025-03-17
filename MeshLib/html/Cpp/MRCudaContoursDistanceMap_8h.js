@@ -1,5 +1,5 @@
 var MRCudaContoursDistanceMap_8h =
 [
-    [ "distanceMapFromContours", "MRCudaContoursDistanceMap_8h.html#ad257bedcdc1831b1df160989c3047f7d", null ],
-    [ "distanceMapFromContoursHeapBytes", "MRCudaContoursDistanceMap_8h.html#ad3d0d14aae4ad5f5ded80460d993d68d", null ]
+    [ "distanceMapFromContours", "MRCudaContoursDistanceMap_8h.html#ad903c7645148d442eed7b3be6f4b0da7", null ],
+    [ "distanceMapFromContoursHeapBytes", "MRCudaContoursDistanceMap_8h.html#a57e91a18687a893997356f499e9a7e94", null ]
 ];
