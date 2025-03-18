@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[6,0,2,0,1,734,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,1,0,1,743,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,2,0,1,727,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,1,0,1,743,0,0],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,2,0,1,727,0,0],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,1,0,1,743,0,1],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,2,0,1,727,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[6,0,2,0,1,1,2,0],
 "structMR_1_1detail_1_1Units_1_1Empty.html":[6,0,1,0,1,3,0,0],
 "structMR_1_1detail_1_1Units_1_1Empty.html":[6,0,2,0,1,1,0,0],
-"structMR_1_1overloaded.html":[6,0,1,0,1,452],
-"structMR_1_1overloaded.html":[6,0,2,0,1,436],
-"structauto__cast__trait.html":[6,0,2,0,2],
-"structvector__ref__wrapper.html":[6,0,2,0,70],
-"structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708":[6,0,2,0,70,0]
+"structMR_1_1overloaded.html":[6,0,1,0,1,452]
 };

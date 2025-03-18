@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1overloaded.html":[6,0,2,0,1,436],
+"structauto__cast__trait.html":[6,0,2,0,2],
+"structvector__ref__wrapper.html":[6,0,2,0,70],
+"structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708":[6,0,2,0,70,0],
 "structvector__ref__wrapper.html#a1171b92d956a034f4456ac8d0633fc9a":[6,0,2,0,70,2],
 "structvector__ref__wrapper.html#a53eedbc09ac9a565faf3ad5f048daea9":[6,0,2,0,70,1],
 "structvector__wrapper.html":[6,0,2,0,71],

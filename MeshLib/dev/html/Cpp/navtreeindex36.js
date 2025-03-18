@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1RenderBufferRef.html#afd6a6d54cfc1f72dc7ecca75f9897146":[6,0,2,0,1,526,5],
+"classMR_1_1RenderDimensions_1_1AngleTask.html":[6,0,1,0,1,30,1],
+"classMR_1_1RenderDimensions_1_1AngleTask.html":[6,0,2,0,1,17,1],
 "classMR_1_1RenderDimensions_1_1AngleTask.html#a3e9fcf7dd7831ccbfdf02ee161bae0da":[6,0,1,0,1,30,1,0],
 "classMR_1_1RenderDimensions_1_1AngleTask.html#a3e9fcf7dd7831ccbfdf02ee161bae0da":[6,0,2,0,1,17,1,0],
 "classMR_1_1RenderDimensions_1_1AngleTask.html#ac7aacc6603709ad15a8414c9a1071a17":[6,0,1,0,1,30,1,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RenderMeshObject.html#a5c61b0a36314bb6fd4e2c60cfc2f8447":[6,0,2,0,1,531,47],
 "classMR_1_1RenderMeshObject.html#a6fb6b9a55fd521017c1eea063af7225a":[6,0,1,0,1,547,65],
 "classMR_1_1RenderMeshObject.html#a6fb6b9a55fd521017c1eea063af7225a":[6,0,2,0,1,531,65],
-"classMR_1_1RenderMeshObject.html#a7392ba05df67ae19e9e6af50c94ebe33":[6,0,1,0,1,547,68],
-"classMR_1_1RenderMeshObject.html#a7392ba05df67ae19e9e6af50c94ebe33":[6,0,2,0,1,531,68],
-"classMR_1_1RenderMeshObject.html#a74b9993ac9ec597c75dcaa9867e97114":[6,0,1,0,1,547,10],
-"classMR_1_1RenderMeshObject.html#a74b9993ac9ec597c75dcaa9867e97114":[6,0,2,0,1,531,10]
+"classMR_1_1RenderMeshObject.html#a7392ba05df67ae19e9e6af50c94ebe33":[6,0,1,0,1,547,68]
 };

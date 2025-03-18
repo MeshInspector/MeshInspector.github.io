@@ -1439,6 +1439,7 @@ var namespacemrmeshpy =
     [ "findNClosestPointsPerPoint", "namespacemrmeshpy.html#a889859ff079c9ada743cb90b91b80194", null ],
     [ "findNeighborVerts", "namespacemrmeshpy.html#aa1bdc88206809d40e7484137116eea35", null ],
     [ "findNRingVerts", "namespacemrmeshpy.html#a3a11035cfafbb9aa011124879a49df79", null ],
+    [ "findOuterLayer", "namespacemrmeshpy.html#a992ae659a10ae6102bf15a9c64a316d1", null ],
     [ "findOutliers", "namespacemrmeshpy.html#aeec0a22eaa07a78ac23b019cc0c01b39", null ],
     [ "findOverhangs", "namespacemrmeshpy.html#a7eea3b8cdec17f0edc7caf411734dad6", null ],
     [ "findOverlappingTris", "namespacemrmeshpy.html#abdb52f5fc07a64f3c247a22fbe58f9cc", null ],

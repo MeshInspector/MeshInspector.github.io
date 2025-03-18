@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1DecimatePolylineSettings.html#ac197ac53747aee8558fe409834910a4a":[6,0,0,10,2,2],
+"structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61":[6,0,0,10,2,0],
+"structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[6,0,0,10,2,6],
+"structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[6,0,0,10,2,5],
 "structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe":[6,0,0,10,2,8],
 "structMR_1_1DecimateResult.html":[6,0,0,10,1],
 "structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[6,0,0,10,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,2,0,1,179,2],
 "structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,1,0,1,195,1],
 "structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,2,0,1,179,1],
-"structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,1,0,1,195,0],
-"structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,2,0,1,179,0],
-"structMR_1_1DragListener.html#a77da80a462f4e2de09870ee273327df2":[6,0,1,0,1,195,3],
-"structMR_1_1DragListener.html#a77da80a462f4e2de09870ee273327df2":[6,0,2,0,1,179,3],
-"structMR_1_1DragStartListener.html":[6,0,1,0,1,196]
+"structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,1,0,1,195,0]
 };

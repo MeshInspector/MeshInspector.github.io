@@ -1558,6 +1558,7 @@ var mrmeshpy_8pyi =
     [ "findNClosestPointsPerPoint", "mrmeshpy_8pyi.html#a889859ff079c9ada743cb90b91b80194", null ],
     [ "findNeighborVerts", "mrmeshpy_8pyi.html#aa1bdc88206809d40e7484137116eea35", null ],
     [ "findNRingVerts", "mrmeshpy_8pyi.html#a3a11035cfafbb9aa011124879a49df79", null ],
+    [ "findOuterLayer", "mrmeshpy_8pyi.html#a992ae659a10ae6102bf15a9c64a316d1", null ],
     [ "findOutliers", "mrmeshpy_8pyi.html#aeec0a22eaa07a78ac23b019cc0c01b39", null ],
     [ "findOverhangs", "mrmeshpy_8pyi.html#a7eea3b8cdec17f0edc7caf411734dad6", null ],
     [ "findOverlappingTris", "mrmeshpy_8pyi.html#abdb52f5fc07a64f3c247a22fbe58f9cc", null ],
