@@ -1,5 +1,11 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1SymMatrix2.html#a00825772702cbd97018eca7af85866ad":[6,0,0,0,7,4,12],
+"structMR_1_1SymMatrix2.html#a0d7b116cb57858e0b068a33b81aed7a7":[6,0,0,0,7,4,1],
+"structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232":[6,0,0,0,7,4,6],
+"structMR_1_1SymMatrix2.html#a2508bdc607f557d33ec49ff959cf1a3d":[6,0,0,0,7,4,0],
+"structMR_1_1SymMatrix2.html#a261caca745c8a5998fe4599fd9031b43":[6,0,0,0,7,4,15],
+"structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01":[6,0,0,0,7,4,20],
 "structMR_1_1SymMatrix2.html#a3f11254bd96f9ca0ab9b93bcb11a7506":[6,0,0,0,7,4,5],
 "structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2":[6,0,0,0,7,4,21],
 "structMR_1_1SymMatrix2.html#a4ec338b96049194a96390245466b6a46":[6,0,0,0,7,4,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1TouchpadRotateGestureBeginListener.html#a60ca4d5085ca1ee78b9390b9f7826bac":[6,0,2,0,1,669,3],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[6,0,1,0,1,685,0],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[6,0,2,0,1,669,0],
-"structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[6,0,1,0,1,685,2],
-"structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[6,0,2,0,1,669,2],
-"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,1,0,1,686],
-"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,2,0,1,670],
-"structMR_1_1TouchpadRotateGestureEndListener.html#a406202fc3e70d82ed4e3f7912881b613":[6,0,1,0,1,686,0],
-"structMR_1_1TouchpadRotateGestureEndListener.html#a406202fc3e70d82ed4e3f7912881b613":[6,0,2,0,1,670,0],
-"structMR_1_1TouchpadRotateGestureEndListener.html#a52f630644781016b0f248164721be298":[6,0,1,0,1,686,2]
+"structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[6,0,1,0,1,685,2]
 };

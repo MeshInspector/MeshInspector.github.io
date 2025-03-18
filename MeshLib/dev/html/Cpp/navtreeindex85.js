@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,2,0,1,727,0,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,1,0,1,743,0,1],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,2,0,1,727,0,1],
+"structMR_1_1Viewport_1_1Parameters.html":[6,0,1,0,1,743,1],
+"structMR_1_1Viewport_1_1Parameters.html":[6,0,2,0,1,727,1],
+"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b":[6,0,1,0,1,743,1,1],
 "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b":[6,0,2,0,1,727,1,1],
 "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e":[6,0,1,0,1,743,1,1,1],
 "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e":[6,0,2,0,1,727,1,1,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1overloaded.html":[6,0,2,0,1,436],
 "structauto__cast__trait.html":[6,0,2,0,2],
 "structvector__ref__wrapper.html":[6,0,2,0,70],
-"structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708":[6,0,2,0,70,0],
-"structvector__ref__wrapper.html#a1171b92d956a034f4456ac8d0633fc9a":[6,0,2,0,70,2],
-"structvector__ref__wrapper.html#a53eedbc09ac9a565faf3ad5f048daea9":[6,0,2,0,70,1],
-"structvector__wrapper.html":[6,0,2,0,71],
-"structvector__wrapper.html#a53fb301d5d0304c9b925026a7de3d286":[6,0,2,0,71,1],
-"structvector__wrapper.html#a8f12f1295cb810051b9f955966cc690d":[6,0,2,0,71,2],
-"structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd":[6,0,2,0,71,0]
+"structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708":[6,0,2,0,70,0]
 };

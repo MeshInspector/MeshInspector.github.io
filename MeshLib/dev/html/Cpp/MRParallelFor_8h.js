@@ -7,5 +7,6 @@ var MRParallelFor_8h =
     [ "ParallelFor", "MRParallelFor_8h.html#gacebe01b37f86a061aec73665e5458155", null ],
     [ "ParallelFor", "MRParallelFor_8h.html#ga9ad21bab650271b14fe5e8c2c5eb6d5b", null ],
     [ "parallelMinMax", "MRParallelFor_8h.html#gacefefeac686afa1ccce13566eeaeb68b", null ],
+    [ "parallelMinMax", "MRParallelFor_8h.html#gaf38a326ee35aa889a30060c0cb9aab5a", null ],
     [ "parallelMinMaxArg", "MRParallelFor_8h.html#ga838286be4a47d0b585d7ddb373d0abf0", null ]
 ];

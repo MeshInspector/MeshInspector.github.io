@@ -298,6 +298,7 @@ var group__BasicGroup =
     [ "MR::ParallelFor", "group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155", null ],
     [ "MR::ParallelFor", "group__BasicGroup.html#ga9ad21bab650271b14fe5e8c2c5eb6d5b", null ],
     [ "MR::parallelMinMax", "group__BasicGroup.html#gacefefeac686afa1ccce13566eeaeb68b", null ],
+    [ "MR::parallelMinMax", "group__BasicGroup.html#gaf38a326ee35aa889a30060c0cb9aab5a", null ],
     [ "MR::parallelMinMaxArg", "group__BasicGroup.html#ga838286be4a47d0b585d7ddb373d0abf0", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#gabe699ad65df9788d6c5c76856ddbf259", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#ga20dc9bc9caabc76a8ed03696488fbd2c", null ],

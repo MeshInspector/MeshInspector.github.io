@@ -1,5 +1,9 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,1,0,1,59,22],
+"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,1,43,22],
+"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,59,11],
+"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,2,0,1,43,11],
 "classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[6,0,1,0,1,59,20],
 "classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[6,0,2,0,1,43,20],
 "classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[6,0,1,0,1,59,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,2,0,1,76],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[6,0,1,0,1,92,1],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[6,0,2,0,1,76,1],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a87cb69e6e43f31608ba18d1577ce6303":[6,0,1,0,1,92,3],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a87cb69e6e43f31608ba18d1577ce6303":[6,0,2,0,1,76,3],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#ab6b0066b48e0db5030ebf1cdeeec5d4f":[6,0,1,0,1,92,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#ab6b0066b48e0db5030ebf1cdeeec5d4f":[6,0,2,0,1,76,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html#afaf2a1dbc8066a04913ea855a9488ca1":[6,0,1,0,1,92,2]
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a87cb69e6e43f31608ba18d1577ce6303":[6,0,1,0,1,92,3]
 };

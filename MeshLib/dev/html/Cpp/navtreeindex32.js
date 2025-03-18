@@ -1,5 +1,9 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1ObjectPointsHolder.html#a35c4a5cdd30d196d5a25bab562012667":[6,0,2,0,1,407,2],
+"classMR_1_1ObjectPointsHolder.html#a3bea7e24940446fdc81e38da2f8db14c":[6,0,1,0,1,423,62],
+"classMR_1_1ObjectPointsHolder.html#a3bea7e24940446fdc81e38da2f8db14c":[6,0,2,0,1,407,62],
+"classMR_1_1ObjectPointsHolder.html#a3f994efd266fcfa91366976539698e6b":[6,0,1,0,1,423,22],
 "classMR_1_1ObjectPointsHolder.html#a3f994efd266fcfa91366976539698e6b":[6,0,2,0,1,407,22],
 "classMR_1_1ObjectPointsHolder.html#a47af96d907b055836d92ad8ff7c21d95":[6,0,1,0,1,423,0],
 "classMR_1_1ObjectPointsHolder.html#a47af96d907b055836d92ad8ff7c21d95":[6,0,2,0,1,407,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1OpenFilesMenuItem.html#a730daf0dedd17ae6cb20e34f341cfb95":[6,0,2,0,1,429,0],
 "classMR_1_1OpenFilesMenuItem.html#aa5af37cd7a8647dd40cdcf4fb5f57fee":[6,0,1,0,1,445,3],
 "classMR_1_1OpenFilesMenuItem.html#aa5af37cd7a8647dd40cdcf4fb5f57fee":[6,0,2,0,1,429,3],
-"classMR_1_1OpenFilesMenuItem.html#acd1d0b203f477e1a2f307be78c9c6eb8":[6,0,1,0,1,445,2],
-"classMR_1_1OpenFilesMenuItem.html#acd1d0b203f477e1a2f307be78c9c6eb8":[6,0,2,0,1,429,2],
-"classMR_1_1OpenRawVoxelsPlugin.html":[6,0,1,0,1,446],
-"classMR_1_1OpenRawVoxelsPlugin.html":[6,0,2,0,1,430],
-"classMR_1_1OpenRawVoxelsPlugin.html#a579c7536deedc6bdbd3cb924c92b968e":[6,0,1,0,1,446,0]
+"classMR_1_1OpenFilesMenuItem.html#acd1d0b203f477e1a2f307be78c9c6eb8":[6,0,1,0,1,445,2]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[6,0,1,0,1,2,14],
+"namespaceMR_1_1Cuda.html#a3e5fd79d686c56c93e9dc89064653219":[6,0,1,0,1,2,22],
+"namespaceMR_1_1Cuda.html#a45296cef05363425e0b1271f76436597":[6,0,1,0,1,2,20],
+"namespaceMR_1_1Cuda.html#a481800f210dd09851992846af357b7e2":[6,0,1,0,1,2,18],
 "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[6,0,1,0,1,2,9],
 "namespaceMR_1_1Cuda.html#a5caa3c21e1c35ac6d6dd2eb125484783":[6,0,1,0,1,2,19],
 "namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9":[6,0,1,0,1,2,25],
@@ -104,6 +108,7 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53":[6,0,1,0,1,10,0],
 "namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77":[6,0,1,0,1,10,3],
 "namespaceMR_1_1ImageLoad.html#a609852c259a33cf29095566d9ce1d8e2":[6,0,1,0,1,10,4],
+"namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e":[6,0,1,0,1,10,7],
 "namespaceMR_1_1ImageLoad.html#ae8821d566f46821f54b6b253e4b0ca45":[6,0,1,0,1,10,2],
 "namespaceMR_1_1ImageLoad.html#af27fe391469ee464adae9aeb0019ac28":[6,0,1,0,1,10,5],
 "namespaceMR_1_1ImageSave.html":[6,0,1,0,1,11],
@@ -111,6 +116,7 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1ImageSave.html#a38b56fa1d15ca5efa69ac7cfa37ca1a4":[6,0,1,0,1,11,3],
 "namespaceMR_1_1ImageSave.html#aeb905574d875f0b68775a0027b6570d1":[6,0,1,0,1,11,5],
 "namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb":[6,0,1,0,1,11,0],
+"namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39":[6,0,1,0,1,11,6],
 "namespaceMR_1_1LinesLoad.html":[6,0,1,0,1,14],
 "namespaceMR_1_1LinesLoad.html#a70812aee66445caeeeb0a1ce8cf6a071":[6,0,1,0,1,14,2],
 "namespaceMR_1_1LinesLoad.html#af9711c25db9d07dac939c6de4412620f":[6,0,1,0,1,14,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a85ff61268fac639e5871b152b1834e4d":[6,0,1,0,1,36,2,3],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#aac592de3f9df1139cad7ffbcdbadea5b":[6,0,1,0,1,36,2,4],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#ab44fac23055a5f76fda2e5fbbcff8154":[6,0,1,0,1,36,2,2],
-"namespaceMR_1_1StyleConsts_1_1Notification.html#afa5b42784cc74d768e33f84c3f8dbc37":[6,0,1,0,1,36,2,1],
-"namespaceMR_1_1StyleConsts_1_1Notification.html#afc9857750646620b389f5cb41ca048b9":[6,0,1,0,1,36,2,5],
-"namespaceMR_1_1StyleConsts_1_1ProgressBar.html":[6,0,1,0,1,36,3],
-"namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a0e136117cf759046ebb381d8b7f51f23":[6,0,1,0,1,36,3,0],
-"namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca":[6,0,1,0,1,36,3,1],
-"namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a941b167d61d8a5ba4ff489d0ddac477e":[6,0,1,0,1,36,3,2],
-"namespaceMR_1_1TriangulationHelpers.html":[6,0,1,0,1,37]
+"namespaceMR_1_1StyleConsts_1_1Notification.html#afa5b42784cc74d768e33f84c3f8dbc37":[6,0,1,0,1,36,2,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1OpenFilesMenuItem.html#acd1d0b203f477e1a2f307be78c9c6eb8":[6,0,2,0,1,429,2],
+"classMR_1_1OpenRawVoxelsPlugin.html":[6,0,1,0,1,446],
+"classMR_1_1OpenRawVoxelsPlugin.html":[6,0,2,0,1,430],
+"classMR_1_1OpenRawVoxelsPlugin.html#a579c7536deedc6bdbd3cb924c92b968e":[6,0,1,0,1,446,0],
 "classMR_1_1OpenRawVoxelsPlugin.html#a579c7536deedc6bdbd3cb924c92b968e":[6,0,2,0,1,430,0],
 "classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,1,0,1,446,1],
 "classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,2,0,1,430,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702":[6,0,1,0,1,468,13],
 "classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702":[6,0,2,0,1,452,13],
 "classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,1,0,1,468,0],
-"classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,2,0,1,452,0],
-"classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,1,0,1,468,9],
-"classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,2,0,1,452,9],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,1,0,1,468,6],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,2,0,1,452,6]
+"classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,2,0,1,452,0]
 };

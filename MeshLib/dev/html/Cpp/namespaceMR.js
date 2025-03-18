@@ -48,7 +48,8 @@ var namespaceMR =
       [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77", null ],
       [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#a609852c259a33cf29095566d9ce1d8e2", null ],
       [ "fromPng", "namespaceMR_1_1ImageLoad.html#af27fe391469ee464adae9aeb0019ac28", null ],
-      [ "fromPng", "namespaceMR_1_1ImageLoad.html#a036b1bc335fefcd579c125e0dba99c0b", null ]
+      [ "fromPng", "namespaceMR_1_1ImageLoad.html#a036b1bc335fefcd579c125e0dba99c0b", null ],
+      [ "fromTiff", "namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e", null ]
     ] ],
     [ "ImageSave", "namespaceMR_1_1ImageSave.html", [
       [ "ImageSaver", "namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb", null ],
@@ -57,7 +58,7 @@ var namespaceMR =
       [ "toJpeg", "namespaceMR_1_1ImageSave.html#a38b56fa1d15ca5efa69ac7cfa37ca1a4", null ],
       [ "toPng", "namespaceMR_1_1ImageSave.html#a3764c9bc79df35ce3d7b5b50a07db9e5", null ],
       [ "toPng", "namespaceMR_1_1ImageSave.html#aeb905574d875f0b68775a0027b6570d1", null ],
-      [ "toTiff", "group__ImageSaveGroup.html#gabbeeaa739dd86cd748ee251faeb2e318", null ]
+      [ "toTiff", "namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39", null ]
     ] ],
     [ "ImGuiMath", "namespaceMR_1_1ImGuiMath.html", "namespaceMR_1_1ImGuiMath" ],
     [ "ImGuiMeasurementIndicators", "namespaceMR_1_1ImGuiMeasurementIndicators.html", "namespaceMR_1_1ImGuiMeasurementIndicators" ],
@@ -2553,6 +2554,7 @@ var namespaceMR =
     [ "ParallelFor", "group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155", null ],
     [ "ParallelFor", "group__BasicGroup.html#ga9ad21bab650271b14fe5e8c2c5eb6d5b", null ],
     [ "parallelMinMax", "group__BasicGroup.html#gacefefeac686afa1ccce13566eeaeb68b", null ],
+    [ "parallelMinMax", "group__BasicGroup.html#gaf38a326ee35aa889a30060c0cb9aab5a", null ],
     [ "parallelMinMaxArg", "group__BasicGroup.html#ga838286be4a47d0b585d7ddb373d0abf0", null ],
     [ "parseAscCoordinate", "namespaceMR.html#afb031d90c2eaeddbeac77675cec10847", null ],
     [ "parseFirstNum", "namespaceMR.html#ac31683380e84bd274a20968c64c5f40a", null ],

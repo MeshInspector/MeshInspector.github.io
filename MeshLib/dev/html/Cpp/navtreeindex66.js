@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1DragStartListener.html":[6,0,2,0,1,180],
+"structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[6,0,1,0,1,196,0],
+"structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[6,0,2,0,1,180,0],
+"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[6,0,1,0,1,196,1],
+"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[6,0,2,0,1,180,1],
+"structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[6,0,1,0,1,196,2],
 "structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[6,0,2,0,1,180,2],
 "structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,1,0,1,196,3],
 "structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,2,0,1,180,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb":[6,0,1,0,1,6,2,3,1],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb":[6,0,2,0,1,2,2,3,1],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[6,0,1,0,1,6,2,3,4],
-"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[6,0,2,0,1,2,2,3,4],
-"structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[6,0,1,0,1,6,2,8],
-"structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[6,0,2,0,1,2,2,8],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,1,0,1,6,2,0],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,2,0,1,2,2,0],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a104e267ea283036c060f8d2f3ad3cfc0":[6,0,1,0,1,6,2,0,8],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a104e267ea283036c060f8d2f3ad3cfc0":[6,0,2,0,1,2,2,0,8]
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[6,0,2,0,1,2,2,3,4]
 };
