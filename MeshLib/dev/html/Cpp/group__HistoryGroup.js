@@ -117,6 +117,7 @@ var group__HistoryGroup =
     [ "MR::ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", [
       [ "Obj", "classMR_1_1ChangeObjectSelectedAction.html#a937d04b50120a0a1c237ab976bf7f0d7", null ],
       [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#aa52b1585ac548e84db85dd7223403ca9", null ],
+      [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#a1f6eeb88304ee19cffcc8662646ee76f", null ],
       [ "action", "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26", null ],
       [ "heapBytes", "classMR_1_1ChangeObjectSelectedAction.html#a3755cc9192950a33d25ab548bc24ccc9", null ],
       [ "name", "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30", null ]
@@ -124,6 +125,7 @@ var group__HistoryGroup =
     [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", [
       [ "Obj", "classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d", null ],
       [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7", null ],
+      [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65", null ],
       [ "action", "classMR_1_1ChangeObjectVisibilityAction.html#ab2ff1171bd87dd95a3e338f4244fafa6", null ],
       [ "heapBytes", "classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01", null ],
       [ "name", "classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d", null ]

@@ -186,8 +186,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa52b1585ac548e84db85dd7223403ca9" id="r_aa52b1585ac548e84db85dd7223403ca9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa52b1585ac548e84db85dd7223403ca9">ChangeObjectSelectedAction</a> (const std::string &amp;<a class="el" href="#ae709358ae5d269b3ef15942ba7ccea30">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:aa52b1585ac548e84db85dd7223403ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
+<tr class="memdesc:aa52b1585ac548e84db85dd7223403ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's isSelected property before making any changes in it  <br /></td></tr>
 <tr class="separator:aa52b1585ac548e84db85dd7223403ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f6eeb88304ee19cffcc8662646ee76f" id="r_a1f6eeb88304ee19cffcc8662646ee76f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6eeb88304ee19cffcc8662646ee76f">ChangeObjectSelectedAction</a> (const std::string &amp;<a class="el" href="#ae709358ae5d269b3ef15942ba7ccea30">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;obj, bool newValue)</td></tr>
+<tr class="memdesc:a1f6eeb88304ee19cffcc8662646ee76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's isSelected property and immediately set new value  <br /></td></tr>
+<tr class="separator:a1f6eeb88304ee19cffcc8662646ee76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae709358ae5d269b3ef15942ba7ccea30" id="r_ae709358ae5d269b3ef15942ba7ccea30"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae709358ae5d269b3ef15942ba7ccea30">name</a> () const override</td></tr>
 <tr class="separator:ae709358ae5d269b3ef15942ba7ccea30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aace3c2763b5625fb8eea898a21f5fc26" id="r_aace3c2763b5625fb8eea898a21f5fc26"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aace3c2763b5625fb8eea898a21f5fc26">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -224,7 +227,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa52b1585ac548e84db85dd7223403ca9" name="aa52b1585ac548e84db85dd7223403ca9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa52b1585ac548e84db85dd7223403ca9">&#9670;&#160;</a></span>ChangeObjectSelectedAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa52b1585ac548e84db85dd7223403ca9">&#9670;&#160;</a></span>ChangeObjectSelectedAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +253,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructed from original obj. </p>
+<p>use this constructor to remember object's isSelected property before making any changes in it </p>
+
+</div>
+</div>
+<a id="a1f6eeb88304ee19cffcc8662646ee76f" name="a1f6eeb88304ee19cffcc8662646ee76f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f6eeb88304ee19cffcc8662646ee76f">&#9670;&#160;</a></span>ChangeObjectSelectedAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeObjectSelectedAction::ChangeObjectSelectedAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's isSelected property and immediately set new value </p>
 
 </div>
 </div>

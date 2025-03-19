@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[6,0,1,0,1,1,1],
+"namespaceMR_1_1Cuda.html":[6,0,1,0,1,2],
 "namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[6,0,1,0,1,2,15],
 "namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a":[6,0,1,0,1,2,23],
 "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0":[6,0,1,0,1,2,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,1,0,1,36,1,0],
 "namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe":[6,0,1,0,1,36,1,1],
 "namespaceMR_1_1StyleConsts_1_1Notification.html":[6,0,1,0,1,36,2],
-"namespaceMR_1_1StyleConsts_1_1Notification.html#a40b832fe75f008db0d06d0ce99d54600":[6,0,1,0,1,36,2,7],
-"namespaceMR_1_1StyleConsts_1_1Notification.html#a4c0e53ab35221788afdf9df8298f8e3b":[6,0,1,0,1,36,2,6],
-"namespaceMR_1_1StyleConsts_1_1Notification.html#a52e5057bbe55444050f29109e7fe6369":[6,0,1,0,1,36,2,0]
+"namespaceMR_1_1StyleConsts_1_1Notification.html#a40b832fe75f008db0d06d0ce99d54600":[6,0,1,0,1,36,2,7]
 };

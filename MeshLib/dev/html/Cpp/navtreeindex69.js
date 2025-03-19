@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1ICPProperties.html#a77f672ea419da2fb458fb981c25d5be2":[6,0,2,0,1,256,6],
+"structMR_1_1ICPProperties.html#aa4083e706852873ed258324b8d2b6626":[6,0,1,0,1,272,4],
 "structMR_1_1ICPProperties.html#aa4083e706852873ed258324b8d2b6626":[6,0,2,0,1,256,4],
 "structMR_1_1ICPProperties.html#aaebab641b9a81a0d03d0a64d155ea22f":[6,0,1,0,1,272,8],
 "structMR_1_1ICPProperties.html#aaebab641b9a81a0d03d0a64d155ea22f":[6,0,2,0,1,256,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,2,0,1,267,1],
 "structMR_1_1ImproveSamplingSettings.html#a59eb791fd7a6937434c6378dbf627296":[6,0,1,0,1,283,0],
 "structMR_1_1ImproveSamplingSettings.html#a59eb791fd7a6937434c6378dbf627296":[6,0,2,0,1,267,0],
-"structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437":[6,0,1,0,1,283,7],
-"structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437":[6,0,2,0,1,267,7],
-"structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5":[6,0,1,0,1,283,5]
+"structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437":[6,0,1,0,1,283,7]
 };

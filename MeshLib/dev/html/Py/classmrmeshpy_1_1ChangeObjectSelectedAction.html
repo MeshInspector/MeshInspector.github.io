@@ -175,6 +175,8 @@ $(function(){initNavTree('classmrmeshpy_1_1ChangeObjectSelectedAction.html','');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a21cb6ed8974efd83a1cbf9aa110fcad4" id="r_a21cb6ed8974efd83a1cbf9aa110fcad4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21cb6ed8974efd83a1cbf9aa110fcad4">__init__</a> (self, str <a class="el" href="#a4c5fdc15ec7361693bf2b3c691b65ce1">name</a>, <a class="el" href="classmrmeshpy_1_1Object.html">Object</a> obj)</td></tr>
 <tr class="separator:a21cb6ed8974efd83a1cbf9aa110fcad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1461159df275af3f10c11328765be43" id="r_ab1461159df275af3f10c11328765be43"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1461159df275af3f10c11328765be43">__init__</a> (self, str <a class="el" href="#a4c5fdc15ec7361693bf2b3c691b65ce1">name</a>, <a class="el" href="classmrmeshpy_1_1Object.html">Object</a> obj, bool newValue)</td></tr>
+<tr class="separator:ab1461159df275af3f10c11328765be43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3efa232062b5b497f190723f455fde57" id="r_a3efa232062b5b497f190723f455fde57"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3efa232062b5b497f190723f455fde57">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ChangeObjectSelectedAction.html">ChangeObjectSelectedAction</a> arg0)</td></tr>
 <tr class="separator:a3efa232062b5b497f190723f455fde57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36be72b2e7eb2dc5c54559060bc35a17" id="r_a36be72b2e7eb2dc5c54559060bc35a17"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36be72b2e7eb2dc5c54559060bc35a17">heapBytes</a> (self)</td></tr>
@@ -201,7 +203,7 @@ History action for object selected state
 \\ingroup HistoryGroup
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a21cb6ed8974efd83a1cbf9aa110fcad4" name="a21cb6ed8974efd83a1cbf9aa110fcad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21cb6ed8974efd83a1cbf9aa110fcad4">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a21cb6ed8974efd83a1cbf9aa110fcad4">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,12 +225,44 @@ History action for object selected state
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Constructed from original obj
+<pre class="fragment">use this constructor to remember object's isSelected property before making any changes in it
+</pre> 
+</div>
+</div>
+<a id="ab1461159df275af3f10c11328765be43" name="ab1461159df275af3f10c11328765be43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1461159df275af3f10c11328765be43">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.ChangeObjectSelectedAction.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">use this constructor to remember object's isSelected property and immediately set new value
 </pre> 
 </div>
 </div>
 <a id="a3efa232062b5b497f190723f455fde57" name="a3efa232062b5b497f190723f455fde57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3efa232062b5b497f190723f455fde57">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3efa232062b5b497f190723f455fde57">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

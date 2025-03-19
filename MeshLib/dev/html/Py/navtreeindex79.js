@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[6,1,0,0,2,955,3],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[6,1,1,0,1,955,3],
+"classmrmeshpy_1_1Triangulation.html":[6,1,0,0,2,956],
+"classmrmeshpy_1_1Triangulation.html":[6,1,1,0,1,956],
 "classmrmeshpy_1_1Triangulation.html#a0103cfaafefedcf26d000883f1b55179":[6,1,0,0,2,956,28],
 "classmrmeshpy_1_1Triangulation.html#a0103cfaafefedcf26d000883f1b55179":[6,1,0,0,2,956,29],
 "classmrmeshpy_1_1Triangulation.html#a0103cfaafefedcf26d000883f1b55179":[6,1,1,0,1,956,28],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1TrimOptionalOutput.html#a92af6f8bf78bbfbeeb6b4378081e9604":[6,1,0,0,2,961,14],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a92af6f8bf78bbfbeeb6b4378081e9604":[6,1,1,0,1,961,14],
 "classmrmeshpy_1_1TrimOptionalOutput.html#abe46a974ef4aa512b0bbc14166f58e32":[6,1,0,0,2,961,2],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abe46a974ef4aa512b0bbc14166f58e32":[6,1,1,0,1,961,2],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abea30965da12a57e791b1a3d7b7bc816":[6,1,0,0,2,961,0],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abea30965da12a57e791b1a3d7b7bc816":[6,1,1,0,1,961,0],
-"classmrmeshpy_1_1TrimOptionalOutput.html#accae1ce9d2526c739c2a3161e1f06a85":[6,1,0,0,2,961,5],
-"classmrmeshpy_1_1TrimOptionalOutput.html#accae1ce9d2526c739c2a3161e1f06a85":[6,1,1,0,1,961,5]
+"classmrmeshpy_1_1TrimOptionalOutput.html#abe46a974ef4aa512b0bbc14166f58e32":[6,1,1,0,1,961,2]
 };
