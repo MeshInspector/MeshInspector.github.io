@@ -235,7 +235,7 @@ $(function(){initNavTree('MRParallelFor_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                }</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            }</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        }</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keyword">const</span> <span class="keyword">auto</span> total = s.processed.fetch_add( myProcessed, std::memory_order_relaxed );</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keyword">const</span> <span class="keyword">auto</span> total = myProcessed + s.processed.fetch_add( myProcessed, std::memory_order_relaxed );</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keywordflow">if</span> ( report &amp;&amp; !cb( <span class="keywordtype">float</span>( total ) / <a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a> ) )</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            keepGoing.store( <span class="keyword">false</span>, std::memory_order_relaxed );</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    } );</div>

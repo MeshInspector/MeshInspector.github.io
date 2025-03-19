@@ -291,7 +291,7 @@ $(function(){initNavTree('MRBitSetParallelFor_8h_source.html',''); initResizable
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                }</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            }</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        }</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="keyword">const</span> <span class="keyword">auto</span> total = s.processedBits.fetch_add( myProcessedBits, std::memory_order_relaxed );</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="keyword">const</span> <span class="keyword">auto</span> total = myProcessedBits + s.processedBits.fetch_add( myProcessedBits, std::memory_order_relaxed );</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        <span class="keywordflow">if</span> ( report &amp;&amp; !progressCb( <span class="keywordtype">float</span>( total ) / <a class="code hl_function" href="namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>.size() ) )</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>            keepGoing.store( <span class="keyword">false</span>, std::memory_order_relaxed );</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    } );</div>
