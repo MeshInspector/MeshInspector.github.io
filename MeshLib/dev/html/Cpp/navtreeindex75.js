@@ -1,5 +1,11 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad8187266986121c9568f668fe785fbc5":[6,0,0,11,14,0,5],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9":[6,0,0,11,14,0,9],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2":[6,0,0,11,14,0,0],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd":[6,0,0,11,14,0,0,1],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255":[6,0,0,11,14,0,0,0],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae":[6,0,0,11,14,0,0,2],
 "structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0],
 "structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[6,0,0,11,4,0,0],
 "structMR_1_1OffsetContourIndex.html":[6,0,1,0,1,436],
@@ -243,11 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,1,0,1,464,0,0],
 "structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,2,0,1,448,0,0],
 "structMR_1_1PickPointManager_1_1Params.html":[6,0,1,0,1,464,1],
-"structMR_1_1PickPointManager_1_1Params.html":[6,0,2,0,1,448,1],
-"structMR_1_1PickPointManager_1_1Params.html#a102e46b3888698c0b6f7dd2903516f25":[6,0,1,0,1,464,1,10],
-"structMR_1_1PickPointManager_1_1Params.html#a102e46b3888698c0b6f7dd2903516f25":[6,0,2,0,1,448,1,10],
-"structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6":[6,0,1,0,1,464,1,1],
-"structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6":[6,0,2,0,1,448,1,1],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[6,0,1,0,1,464,1,7],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[6,0,2,0,1,448,1,7]
+"structMR_1_1PickPointManager_1_1Params.html":[6,0,2,0,1,448,1]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24":[6,0,2,0,1,267,6],
+"structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,1,0,1,283,1],
+"structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,2,0,1,267,1],
+"structMR_1_1ImproveSamplingSettings.html#a59eb791fd7a6937434c6378dbf627296":[6,0,1,0,1,283,0],
+"structMR_1_1ImproveSamplingSettings.html#a59eb791fd7a6937434c6378dbf627296":[6,0,2,0,1,267,0],
+"structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437":[6,0,1,0,1,283,7],
 "structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437":[6,0,2,0,1,267,7],
 "structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5":[6,0,1,0,1,283,5],
 "structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5":[6,0,2,0,1,267,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,1,0,1,326,0],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,2,0,1,310,0],
 "structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,1,0,1,327],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,2,0,1,311],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,1,0,1,327,2],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,2,0,1,311,2],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[6,0,1,0,1,327,4],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[6,0,2,0,1,311,4],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[6,0,1,0,1,327,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[6,0,2,0,1,311,0]
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,2,0,1,311]
 };

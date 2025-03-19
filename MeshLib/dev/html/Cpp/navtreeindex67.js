@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e":[6,0,1,0,1,6,2,3],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e":[6,0,2,0,1,2,2,3],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f":[6,0,1,0,1,6,2,3,2],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f":[6,0,2,0,1,2,2,3,2],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6":[6,0,1,0,1,6,2,3,0],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6":[6,0,2,0,1,2,2,3,0],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2":[6,0,1,0,1,6,2,3,3],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2":[6,0,2,0,1,2,2,3,3],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb":[6,0,1,0,1,6,2,3,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1FindOutliersParams.html#a7f72b590f90df23de6d1e5a77a5c1fc5":[6,0,1,0,1,228,1],
 "structMR_1_1FindOutliersParams.html#a7f72b590f90df23de6d1e5a77a5c1fc5":[6,0,2,0,1,212,1],
 "structMR_1_1FindOutliersParams.html#a946930107905c1323ecdbcab72a87914":[6,0,1,0,1,228,0],
-"structMR_1_1FindOutliersParams.html#a946930107905c1323ecdbcab72a87914":[6,0,2,0,1,212,0],
-"structMR_1_1FindOutliersParams.html#aa39f977c4a7b6d7b43bbe8dd59cf8b87":[6,0,1,0,1,228,2],
-"structMR_1_1FindOutliersParams.html#aa39f977c4a7b6d7b43bbe8dd59cf8b87":[6,0,2,0,1,212,2],
-"structMR_1_1FindOverhangsSettings.html":[6,0,1,0,1,229],
-"structMR_1_1FindOverhangsSettings.html":[6,0,2,0,1,213],
-"structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[6,0,1,0,1,229,0],
-"structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[6,0,2,0,1,213,0]
+"structMR_1_1FindOutliersParams.html#a946930107905c1323ecdbcab72a87914":[6,0,2,0,1,212,0]
 };

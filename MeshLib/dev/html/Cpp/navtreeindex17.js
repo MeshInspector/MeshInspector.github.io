@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1AngleMeasurementObject.html#aa12ae3069114c41ef8ed6616672c5d29":[6,0,1,0,1,59,0],
+"classMR_1_1AngleMeasurementObject.html#aa12ae3069114c41ef8ed6616672c5d29":[6,0,2,0,1,43,0],
+"classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[6,0,1,0,1,59,5],
 "classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[6,0,2,0,1,43,5],
 "classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,1,0,1,59,26],
 "classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,2,0,1,43,26],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,43,4],
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,43,1],
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,43,3],
-"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,43,2],
-"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,43,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,1,0,1,92],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,2,0,1,76]
+"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,43,2]
 };
