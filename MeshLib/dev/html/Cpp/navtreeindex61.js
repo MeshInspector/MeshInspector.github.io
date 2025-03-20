@@ -1,9 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"namespacemembers_type_v.html":[6,0,1,1,3,19],
-"namespacemembers_type_w.html":[6,0,1,1,3,20],
-"namespacemembers_u.html":[6,0,1,1,0,18],
-"namespacemembers_v.html":[6,0,1,1,0,19],
 "namespacemembers_vars.html":[6,0,1,1,2],
 "namespacemembers_w.html":[6,0,1,1,0,20],
 "namespacemembers_x.html":[6,0,1,1,0,21],
@@ -249,5 +245,9 @@ var NAVTREEINDEX61 =
 "structMRMeshTriPoint.html":[6,0,2,0,40],
 "structMRMeshTriPoint.html#a54959a13027627d8dd832a55dd6ffe53":[6,0,2,0,40,0],
 "structMRMeshTriPoint.html#aaedb582c9f945501bf8d5f37d70cd46b":[6,0,2,0,40,1],
-"structMRMultipleEdge.html":[6,0,2,0,41]
+"structMRMultipleEdge.html":[6,0,2,0,41],
+"structMRMultipleEdge.html#a69133b8cca2a96c744de2f022153b38b":[6,0,2,0,41,0],
+"structMRMultipleEdge.html#a99eda1238547e9eebd584fea876c5f40":[6,0,2,0,41,1],
+"structMRMultiwayICPSamplingParameters.html":[6,0,2,0,42],
+"structMRMultiwayICPSamplingParameters.html#a6ffd4ae5961126337fd51c62cf9ac751":[6,0,2,0,42,1]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"structMR_1_1PartMapping.html#a17c114a164e936949a12ed9160b8643a":[6,0,2,0,1,445,1],
-"structMR_1_1PartMapping.html#a20669df343e579537b8003fbbe141fb5":[6,0,1,0,1,461,3],
-"structMR_1_1PartMapping.html#a20669df343e579537b8003fbbe141fb5":[6,0,2,0,1,445,3],
-"structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64":[6,0,1,0,1,461,4],
 "structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64":[6,0,2,0,1,445,4],
 "structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e":[6,0,1,0,1,461,5],
 "structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e":[6,0,2,0,1,445,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX76 =
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,1,16,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,27,1,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,1,16,1,1],
-"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,1,0,1,488]
+"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,1,0,1,488],
+"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,2,0,1,472],
+"structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,1,0,1,488,2],
+"structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,2,0,1,472,2],
+"structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b":[6,0,1,0,1,488,1]
 };
