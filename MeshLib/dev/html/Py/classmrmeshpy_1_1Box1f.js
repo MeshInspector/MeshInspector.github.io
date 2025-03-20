@@ -10,6 +10,7 @@ var classmrmeshpy_1_1Box1f =
     [ "_Subscript", "classmrmeshpy_1_1Box1f.html#aebd76aa73f9738df0c20f36a2872b492", null ],
     [ "_Subscript", "classmrmeshpy_1_1Box1f.html#aebd76aa73f9738df0c20f36a2872b492", null ],
     [ "center", "classmrmeshpy_1_1Box1f.html#ab3aadc33827b56b0ef60368fb54fffff", null ],
+    [ "contains", "classmrmeshpy_1_1Box1f.html#abf45af7c89925d79c8f83bf56569061c", null ],
     [ "contains", "classmrmeshpy_1_1Box1f.html#ae5435ee5140b70b44e5eda58d1f40cde", null ],
     [ "corner", "classmrmeshpy_1_1Box1f.html#a04d395cd68600019621eaf126819c2a4", null ],
     [ "diagonal", "classmrmeshpy_1_1Box1f.html#ae0c6db675a17ac63ae294da9f9529172", null ],

@@ -193,6 +193,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab3aadc33827b56b0ef60368fb54fffff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5435ee5140b70b44e5eda58d1f40cde" id="r_ae5435ee5140b70b44e5eda58d1f40cde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5435ee5140b70b44e5eda58d1f40cde">contains</a> (self, float pt)</td></tr>
 <tr class="separator:ae5435ee5140b70b44e5eda58d1f40cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf45af7c89925d79c8f83bf56569061c" id="r_abf45af7c89925d79c8f83bf56569061c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf45af7c89925d79c8f83bf56569061c">contains</a> (self, <a class="el" href="classmrmeshpy_1_1Box1f.html">Box1f</a> otherbox)</td></tr>
+<tr class="separator:abf45af7c89925d79c8f83bf56569061c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04d395cd68600019621eaf126819c2a4" id="r_a04d395cd68600019621eaf126819c2a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d395cd68600019621eaf126819c2a4">corner</a> (self, bool c)</td></tr>
 <tr class="separator:a04d395cd68600019621eaf126819c2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0c6db675a17ac63ae294da9f9529172" id="r_ae0c6db675a17ac63ae294da9f9529172"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0c6db675a17ac63ae294da9f9529172">diagonal</a> (self)</td></tr>
@@ -550,8 +552,30 @@ Box given by its min- and max- corners
 </pre> 
 </div>
 </div>
+<a id="abf45af7c89925d79c8f83bf56569061c" name="abf45af7c89925d79c8f83bf56569061c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf45af7c89925d79c8f83bf56569061c">&#9670;&#160;</a></span>contains() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.Box1f.contains </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Box1f.html">Box1f</a></td>          <td class="paramname"><span class="paramname"><em>otherbox</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">checks whether given box is fully inside (the surfaces may touch) of this box
+</pre> 
+</div>
+</div>
 <a id="ae5435ee5140b70b44e5eda58d1f40cde" name="ae5435ee5140b70b44e5eda58d1f40cde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5435ee5140b70b44e5eda58d1f40cde">&#9670;&#160;</a></span>contains()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5435ee5140b70b44e5eda58d1f40cde">&#9670;&#160;</a></span>contains() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -568,7 +592,7 @@ Box given by its min- and max- corners
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">checks whether given point is inside (including the surface) of the box
+<pre class="fragment">checks whether given point is inside (including the surface) of this box
 </pre> 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,2,0,1,472],
 "structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,1,0,1,488,2],
 "structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,2,0,1,472,2],
 "structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b":[6,0,1,0,1,488,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f":[6,0,1,0,1,520,1],
 "structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f":[6,0,2,0,1,504,1],
 "structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,1,0,1,520,0],
-"structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,2,0,1,504,0],
-"structMR_1_1QuadraticForm.html":[6,0,0,0,19]
+"structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,2,0,1,504,0]
 };
