@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1VoxelBitSet.html#a8d6a563a507e1805f144159832347d7b":[6,1,0,0,2,1080,4],
+"classmrmeshpy_1_1VoxelBitSet.html#a8d6a563a507e1805f144159832347d7b":[6,1,1,0,1,1080,4],
 "classmrmeshpy_1_1VoxelBitSet.html#a96b9540365570e3f86b98784faf8d8c3":[6,1,0,0,2,1080,21],
 "classmrmeshpy_1_1VoxelBitSet.html#a96b9540365570e3f86b98784faf8d8c3":[6,1,1,0,1,1080,21],
 "classmrmeshpy_1_1VoxelBitSet.html#a9d0b135bce65a83d51972b2be3e4f8fe":[6,1,0,0,2,1080,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1VoxelsSave.html":[6,1,0,0,2,1085],
 "classmrmeshpy_1_1VoxelsSave.html":[6,1,1,0,1,1085],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[6,1,0,0,2,1085,0],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[6,1,1,0,1,1085,0],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[6,1,0,0,2,1085,0,3],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[6,1,1,0,1,1085,0,3]
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[6,1,1,0,1,1085,0]
 };

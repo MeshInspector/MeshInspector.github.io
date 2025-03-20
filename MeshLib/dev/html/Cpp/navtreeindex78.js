@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[6,0,0,0,19,8],
 "structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69":[6,0,0,0,19,3],
 "structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c":[6,0,0,0,19,2],
 "structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda":[6,0,0,0,19,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,1,0,1,567,4],
 "structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,2,0,1,551,4],
 "structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,1,0,1,567,5],
-"structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,2,0,1,551,5],
-"structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,1,0,1,567,3]
+"structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,2,0,1,551,5]
 };

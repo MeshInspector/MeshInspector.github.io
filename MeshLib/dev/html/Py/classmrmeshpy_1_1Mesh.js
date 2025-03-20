@@ -84,6 +84,7 @@ var classmrmeshpy_1_1Mesh =
     [ "normal", "classmrmeshpy_1_1Mesh.html#af8e9476aeef2092c5945ffbd2fb51a63", null ],
     [ "orgPnt", "classmrmeshpy_1_1Mesh.html#a489b1064de59960cd4a7eda54030c428", null ],
     [ "pack", "classmrmeshpy_1_1Mesh.html#a85b0e781c46ca0dd06c64786ab5dd82d", null ],
+    [ "pack", "classmrmeshpy_1_1Mesh.html#adcf820e7b2e8ef220b2f6c7971ba9564", null ],
     [ "packOptimally", "classmrmeshpy_1_1Mesh.html#a182169312595503e29688358d0eff0cc", null ],
     [ "packOptimally", "classmrmeshpy_1_1Mesh.html#a23a56fb7c1ca898bf2af6e9feddc37e2", null ],
     [ "projArea", "classmrmeshpy_1_1Mesh.html#a72112d3dcb6af98f650e9b74efcea94a", null ],

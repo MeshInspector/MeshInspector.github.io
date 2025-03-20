@@ -84,6 +84,7 @@ var structMR_1_1Mesh =
     [ "normal", "structMR_1_1Mesh.html#aff330955f978300560fd33b43cd77cdd", null ],
     [ "operator==", "structMR_1_1Mesh.html#a994943959e77b3bc34449639c1dfcb6f", null ],
     [ "orgPnt", "structMR_1_1Mesh.html#a5fab8c28312fa8c3ac69c2f63d345f20", null ],
+    [ "pack", "structMR_1_1Mesh.html#a79927855b6315170545914be8fe75151", null ],
     [ "pack", "structMR_1_1Mesh.html#a6d8e2d55d67e606f0129377d0d14aa4a", null ],
     [ "packOptimally", "structMR_1_1Mesh.html#abd6e569587fbe83e40119a29f7ea276f", null ],
     [ "packOptimally", "structMR_1_1Mesh.html#ac790be9d7fbcbf9f765ebdd90f761c71", null ],

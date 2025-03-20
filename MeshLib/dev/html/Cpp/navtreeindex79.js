@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,1,0,1,567,3],
 "structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,2,0,1,551,3],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,1,562,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,1,546,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[6,0,1,0,1,618,0,4],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[6,0,2,0,1,602,0,4],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,1,0,1,618,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,2,0,1,602,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[6,0,1,0,1,618,0,2]
+"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,2,0,1,602,0,0]
 };

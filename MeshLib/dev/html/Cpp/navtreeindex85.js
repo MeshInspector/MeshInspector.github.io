@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1ViewportGL_1_1BasePickResult.html#ab3a28df9902a6bfa722c359efdd91d44":[6,0,1,0,1,745,0,0],
 "structMR_1_1ViewportGL_1_1BasePickResult.html#ab3a28df9902a6bfa722c359efdd91d44":[6,0,2,0,1,729,0,0],
 "structMR_1_1ViewportGL_1_1PickParameters.html":[6,0,1,0,1,745,1],
 "structMR_1_1ViewportGL_1_1PickParameters.html":[6,0,2,0,1,729,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1WeightedVertex.html":[6,0,1,0,1,772],
 "structMR_1_1WeightedVertex.html":[6,0,2,0,1,756],
 "structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,1,0,1,772,1],
-"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,756,1],
-"structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,1,0,1,772,0]
+"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,756,1]
 };
