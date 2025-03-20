@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMRMultipleEdge.html#a69133b8cca2a96c744de2f022153b38b":[6,0,2,0,41,0],
 "structMRMultipleEdge.html#a99eda1238547e9eebd584fea876c5f40":[6,0,2,0,41,1],
 "structMRMultiwayICPSamplingParameters.html":[6,0,2,0,42],
 "structMRMultiwayICPSamplingParameters.html#a6ffd4ae5961126337fd51c62cf9ac751":[6,0,2,0,42,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "structMR_1_1AncillaryMesh.html#abaf618a5c330ee1013fdd1c572982be0":[6,0,2,0,1,41,6],
 "structMR_1_1AncillaryMesh.html#adbf02a47e5a8e457c68acbf971e2a32e":[6,0,1,0,1,57,7],
 "structMR_1_1AncillaryMesh.html#adbf02a47e5a8e457c68acbf971e2a32e":[6,0,2,0,1,41,7],
-"structMR_1_1AncillaryPoints.html":[6,0,1,0,1,58]
+"structMR_1_1AncillaryPoints.html":[6,0,1,0,1,58],
+"structMR_1_1AncillaryPoints.html":[6,0,2,0,1,42]
 };

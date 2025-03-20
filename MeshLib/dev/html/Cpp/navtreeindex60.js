@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"namespaceMR_1_1ProgressBar.html#aa2bbcde88ff779122f16150fa6de08eb":[6,0,1,0,1,29,10],
 "namespaceMR_1_1ProgressBar.html#ab66618d001f8cbce3e0a07b2b4dde0af":[6,0,1,0,1,29,5],
 "namespaceMR_1_1ProgressBar.html#abd6ace0900add6a59ee1539dffc5d961":[6,0,1,0,1,29,8],
 "namespaceMR_1_1ProgressBar.html#abd759374a06a6cb111abb5a5ad608ea1":[6,0,1,0,1,29,20],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "namespacemembers_type_r.html":[6,0,1,1,3,15],
 "namespacemembers_type_s.html":[6,0,1,1,3,16],
 "namespacemembers_type_t.html":[6,0,1,1,3,17],
-"namespacemembers_type_u.html":[6,0,1,1,3,18]
+"namespacemembers_type_u.html":[6,0,1,1,3,18],
+"namespacemembers_type_v.html":[6,0,1,1,3,19]
 };

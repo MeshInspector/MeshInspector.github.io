@@ -1,6 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"structMR_1_1ViewportGL_1_1BasePickResult.html":[6,0,1,0,1,745,0],
 "structMR_1_1ViewportGL_1_1BasePickResult.html":[6,0,2,0,1,729,0],
 "structMR_1_1ViewportGL_1_1BasePickResult.html#a0dd6e10cd7b368dae3470cbdf00592ca":[6,0,1,0,1,745,0,1],
 "structMR_1_1ViewportGL_1_1BasePickResult.html#a0dd6e10cd7b368dae3470cbdf00592ca":[6,0,2,0,1,729,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX85 =
 "structMR_1_1WebRequest_1_1FormData.html#aa47f592f9aed1c9c730d5e242dd2ca8e":[6,0,1,0,1,771,0,1],
 "structMR_1_1WebRequest_1_1FormData.html#aa47f592f9aed1c9c730d5e242dd2ca8e":[6,0,2,0,1,755,0,1],
 "structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,1,0,1,771,0,0],
-"structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,2,0,1,755,0,0]
+"structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,2,0,1,755,0,0],
+"structMR_1_1WeightedVertex.html":[6,0,1,0,1,772]
 };
