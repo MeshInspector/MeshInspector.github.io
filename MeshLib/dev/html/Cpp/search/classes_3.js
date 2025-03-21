@@ -43,13 +43,14 @@ var searchData=
   ['distmapimprovedirectionparameters_40',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts::DistMapImproveDirectionParameters'],['../../Py/classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters']]],
   ['dividepointcloudoptionaloutput_41',['DividePointCloudOptionalOutput',['../structMR_1_1DividePointCloudOptionalOutput.html',1,'MR::DividePointCloudOptionalOutput'],['../../Py/classmrmeshpy_1_1DividePointCloudOptionalOutput.html',1,'mrmeshpy::DividePointCloudOptionalOutput']]],
   ['dividepolylineparameters_42',['DividePolylineParameters',['../structMR_1_1DividePolylineParameters.html',1,'MR::DividePolylineParameters'],['../../Py/classmrmeshpy_1_1DividePolylineParameters.html',1,'mrmeshpy::DividePolylineParameters']]],
-  ['doubleoffsetsettings_43',['DoubleOffsetSettings',['../structMR_1_1DoubleOffsetSettings.html',1,'MR::DoubleOffsetSettings'],['../../Py/classmrmeshpy_1_1DoubleOffsetSettings.html',1,'mrmeshpy::DoubleOffsetSettings']]],
-  ['dragdroplistener_44',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
-  ['dragendlistener_45',['DragEndListener',['../structMR_1_1DragEndListener.html',1,'MR']]],
-  ['draglistener_46',['DragListener',['../structMR_1_1DragListener.html',1,'MR']]],
-  ['dragstartlistener_47',['DragStartListener',['../structMR_1_1DragStartListener.html',1,'MR']]],
-  ['drawbuttonparams_48',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
-  ['drawgroupconfig_49',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_50',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]],
-  ['drawsceneuilistener_51',['DrawSceneUiListener',['../structMR_1_1DrawSceneUiListener.html',1,'MR']]]
+  ['double_5foutput_43',['double_output',['../../Py/classmrmeshpy_1_1double__output.html',1,'mrmeshpy']]],
+  ['doubleoffsetsettings_44',['DoubleOffsetSettings',['../structMR_1_1DoubleOffsetSettings.html',1,'MR::DoubleOffsetSettings'],['../../Py/classmrmeshpy_1_1DoubleOffsetSettings.html',1,'mrmeshpy::DoubleOffsetSettings']]],
+  ['dragdroplistener_45',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
+  ['dragendlistener_46',['DragEndListener',['../structMR_1_1DragEndListener.html',1,'MR']]],
+  ['draglistener_47',['DragListener',['../structMR_1_1DragListener.html',1,'MR']]],
+  ['dragstartlistener_48',['DragStartListener',['../structMR_1_1DragStartListener.html',1,'MR']]],
+  ['drawbuttonparams_49',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
+  ['drawgroupconfig_50',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
+  ['drawlistener_51',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]],
+  ['drawsceneuilistener_52',['DrawSceneUiListener',['../structMR_1_1DrawSceneUiListener.html',1,'MR']]]
 ];

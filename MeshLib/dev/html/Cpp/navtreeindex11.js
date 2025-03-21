@@ -10,8 +10,13 @@ var NAVTREEINDEX11 =
 "MRPolyline2Collide_8h.html":[6,0,3,0,0,1,4,282],
 "MRPolyline2Collide_8h_source.html":[6,0,3,0,0,1,4,282],
 "MRPolyline2Intersect_8h.html":[6,0,3,0,0,1,4,283],
-"MRPolyline2Intersect_8h.html#a6676a2ad828681c05e6c1fccdf52553e":[6,0,3,0,0,1,4,283,2],
-"MRPolyline2Intersect_8h.html#aced4d907b5fe7e8492db1e0168969ef0":[6,0,3,0,0,1,4,283,3],
+"MRPolyline2Intersect_8h.html#a6676a2ad828681c05e6c1fccdf52553e":[6,0,3,0,0,1,4,283,5],
+"MRPolyline2Intersect_8h.html#a9068e662a90d2fbd3b3c8877feeb39a2":[6,0,3,0,0,1,4,283,1],
+"MRPolyline2Intersect_8h.html#aba7cace2c59d8ea1874ea0223d3c3d42":[6,0,3,0,0,1,4,283,2],
+"MRPolyline2Intersect_8h.html#abc2868e5402457432689a152d4f07aab":[6,0,3,0,0,1,4,283,8],
+"MRPolyline2Intersect_8h.html#abf79f047867338a89736183056994f69":[6,0,3,0,0,1,4,283,7],
+"MRPolyline2Intersect_8h.html#aced4d907b5fe7e8492db1e0168969ef0":[6,0,3,0,0,1,4,283,6],
+"MRPolyline2Intersect_8h.html#ae0b1767f78412a4100c7baa4ae2cb2de":[6,0,3,0,0,1,4,283,3],
 "MRPolyline2Intersect_8h_source.html":[6,0,3,0,0,1,4,283],
 "MRPolyline2Project_8h.html":[6,0,3,0,0,1,4,284],
 "MRPolyline2Project_8h_source.html":[6,0,3,0,0,1,4,284],
@@ -244,10 +249,5 @@ var NAVTREEINDEX11 =
 "MRRibbonConstants_8h.html#a1cb547836ab1506cf81cab06b24a9532":[6,0,3,0,0,1,10,78,47],
 "MRRibbonConstants_8h.html#a211bab9b03c29b67594f01a79be6b4b9":[6,0,3,0,0,1,10,78,12],
 "MRRibbonConstants_8h.html#a24400b0c1a9e56cafb8abf4c9725633d":[6,0,3,0,0,1,10,78,45],
-"MRRibbonConstants_8h.html#a27ab0aa461b99e7829305e508180f40c":[6,0,3,0,0,1,10,78,35],
-"MRRibbonConstants_8h.html#a2fbf8a5ae5179bb822e29a7c5966fdd0":[6,0,3,0,0,1,10,78,46],
-"MRRibbonConstants_8h.html#a3111d6c67340775339a2b320ca618a6a":[6,0,3,0,0,1,10,78,34],
-"MRRibbonConstants_8h.html#a31f77e731e7a4fa3bb8606a8a801848d":[6,0,3,0,0,1,10,78,20],
-"MRRibbonConstants_8h.html#a3751389d3e765404fee965fe7e4d5114":[6,0,3,0,0,1,10,78,37],
-"MRRibbonConstants_8h.html#a3980e45b7cc71e35412820615644bca6":[6,0,3,0,0,1,10,78,10]
+"MRRibbonConstants_8h.html#a27ab0aa461b99e7829305e508180f40c":[6,0,3,0,0,1,10,78,35]
 };

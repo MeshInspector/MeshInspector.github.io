@@ -1,5 +1,15 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,1,0,1,23,0,1],
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,2,0,1,13,0,1],
+"structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,1,0,1,23,1],
+"structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,2,0,1,13,1],
+"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,1,0,1,23,1,0],
+"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,2,0,1,13,1,0],
+"structMR_1_1Parallel_1_1CallWithTLS.html":[6,0,1,0,1,23,2],
+"structMR_1_1Parallel_1_1CallWithTLS.html":[6,0,2,0,1,13,2],
+"structMR_1_1Parallel_1_1CallWithTLS.html#a722db6d032253e8f27ba25efd31f43c3":[6,0,1,0,1,23,2,2],
+"structMR_1_1Parallel_1_1CallWithTLS.html#a722db6d032253e8f27ba25efd31f43c3":[6,0,2,0,1,13,2,2],
 "structMR_1_1Parallel_1_1CallWithTLS.html#abc22f0ca644c177ec27809d7804e79fc":[6,0,1,0,1,23,2,1],
 "structMR_1_1Parallel_1_1CallWithTLS.html#abc22f0ca644c177ec27809d7804e79fc":[6,0,2,0,1,13,2,1],
 "structMR_1_1Parallel_1_1CallWithTLS.html#ad5299ab010ebcba9b1e37ad61cb59b25":[6,0,1,0,1,23,2,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,1,0,1,26,1,0],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,2,0,1,15,1,0],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,1,0,1,26,1,1],
-"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,1,15,1,1],
-"structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,1,0,1,26,2],
-"structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,2,0,1,15,2],
-"structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,1,0,1,26,2,0],
-"structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,2,0,1,15,2,0],
-"structMR_1_1PointsLoad_1_1PointsLoader.html#a799a24a6bd721d10d31a02b8b1e918f7":[6,0,1,0,1,26,2,1],
-"structMR_1_1PointsLoad_1_1PointsLoader.html#a799a24a6bd721d10d31a02b8b1e918f7":[6,0,2,0,1,15,2,1],
-"structMR_1_1PointsProjectionResult.html":[6,0,0,1,28],
-"structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340":[6,0,0,1,28,1],
-"structMR_1_1PointsProjectionResult.html#aac972c9152f1d040824f6ce8998b7cf7":[6,0,0,1,28,0],
-"structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7":[6,0,0,1,28,2]
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,1,15,1,1]
 };
