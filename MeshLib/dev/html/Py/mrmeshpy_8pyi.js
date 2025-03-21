@@ -1408,7 +1408,7 @@ var mrmeshpy_8pyi =
     [ "defaultSerializeVoxelsFormat", "mrmeshpy_8pyi.html#ae38575a3536164b38ad5231bc42af103", null ],
     [ "deleteTargetFaces", "mrmeshpy_8pyi.html#a24d39b6c2569ed5ff58c89c1688928cc", null ],
     [ "deleteTargetFaces", "mrmeshpy_8pyi.html#a45ba46dfd211e56fa7e0e580e7bb5659", null ],
-    [ "delRegionKeepBd", "mrmeshpy_8pyi.html#a5caac744a40456dc2508dbd79ec98aa1", null ],
+    [ "delRegionKeepBd", "mrmeshpy_8pyi.html#a760cd3af27ace26fad7e11c7b4bedfe3", null ],
     [ "denoiseNormals", "mrmeshpy_8pyi.html#ab7fc7677d272c14e9d39d0c296327569", null ],
     [ "deserializeObjectTree", "mrmeshpy_8pyi.html#a54eacd2d974e1877b9e6e880f65af859", null ],
     [ "deserializeObjectTreeFrom3mf", "mrmeshpy_8pyi.html#a1ceaa50c14420cf4fae425eed1b461dd", null ],
