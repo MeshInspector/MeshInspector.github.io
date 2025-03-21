@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,74,1],
+"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,46],
+"classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,43],
 "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,43,4],
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,43,1],
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,43,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeValue.html":[6,0,0,4,29],
 "classMR_1_1ChangeValue.html#a0cdf8d0a543743f5f83872b03ff33891":[6,0,0,4,29,1],
 "classMR_1_1ChangeValue.html#a1ebe31dbc55d650d0de83ae16bfe2e52":[6,0,0,4,29,3],
-"classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1":[6,0,0,4,29,0],
-"classMR_1_1ChangeValue.html#a49b7b6012fb8adf78381f77cf6a1b9b1":[6,0,0,4,29,2],
-"classMR_1_1ChangeVertsColorMapAction.html":[6,0,0,4,30],
-"classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389":[6,0,0,4,30,2]
+"classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1":[6,0,0,4,29,0]
 };

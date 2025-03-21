@@ -560,6 +560,7 @@ var annotated_dup =
       [ "NoCtor", "structMR_1_1NoCtor.html", null ],
       [ "NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", "structMR_1_1NoCtor_3_01T_01_4" ],
       [ "NoDefInit", "structMR_1_1NoDefInit.html", "structMR_1_1NoDefInit" ],
+      [ "NodeNode", "structMR_1_1NodeNode.html", "structMR_1_1NodeNode" ],
       [ "NoInit", "structMR_1_1NoInit.html", null ],
       [ "NoiseSettings", "structMR_1_1NoiseSettings.html", "structMR_1_1NoiseSettings" ],
       [ "NoModelCheck", "structMR_1_1NoModelCheck.html", null ],

@@ -540,6 +540,7 @@ var annotated_dup =
       [ "NoDefInit_UndirectedEdgeId", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId" ],
       [ "NoDefInit_VertId", "classmrmeshpy_1_1NoDefInit__VertId.html", "classmrmeshpy_1_1NoDefInit__VertId" ],
       [ "NodeId", "classmrmeshpy_1_1NodeId.html", "classmrmeshpy_1_1NodeId" ],
+      [ "NodeNode", "classmrmeshpy_1_1NodeNode.html", "classmrmeshpy_1_1NodeNode" ],
       [ "NoInit", "classmrmeshpy_1_1NoInit.html", "classmrmeshpy_1_1NoInit" ],
       [ "NoiseSettings", "classmrmeshpy_1_1NoiseSettings.html", "classmrmeshpy_1_1NoiseSettings" ],
       [ "NormalsToPoints", "classmrmeshpy_1_1NormalsToPoints.html", "classmrmeshpy_1_1NormalsToPoints" ],

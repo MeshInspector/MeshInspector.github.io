@@ -39,6 +39,10 @@ var group__AABBTreeGroup =
       [ "l", "structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9", null ],
       [ "r", "structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e", null ]
     ] ],
+    [ "MR::NodeNode", "structMR_1_1NodeNode.html", [
+      [ "aNode", "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2", null ],
+      [ "bNode", "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18", null ]
+    ] ],
     [ "MR::AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", [
       [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#aa38c8faf49a02e3d7be46e67ca93605c", null ],
       [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#ac03ebfddd0d44b67e900401b14ab8510", null ],
@@ -219,6 +223,7 @@ var group__AABBTreeGroup =
       [ "setPointCloud", "classMR_1_1PointsProjector.html#abbb8bb3a25f447af9b6abe188662181a", null ]
     ] ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [
+      [ "operator bool", "structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c", null ],
       [ "distSq", "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8", null ],
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
       [ "point", "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd", null ]
@@ -308,6 +313,7 @@ var group__AABBTreeGroup =
     [ "MR::findSelfCollidingEdgePairs", "group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec", null ],
     [ "MR::findSelfCollidingEdges", "group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841", null ],
     [ "MR::findSelfCollidingEdgesBS", "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165", null ],
+    [ "MR::findSelfCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga50f22b9cff7188bb21cc3c7d72ec4a03", null ],
     [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaa8d353c49376729ab03f26747726d3b3", null ],
     [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaf39d8d5357405a2ab417897d0abb7a8a", null ],
     [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb", null ],

@@ -301,6 +301,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPrimitiveMapsComposition.h", "MRPrimitiveMapsComposition_8h.html", "MRPrimitiveMapsComposition_8h" ],
     [ "MRPriorityQueue.h", "MRPriorityQueue_8h.html", "MRPriorityQueue_8h" ],
     [ "MRPrism.h", "MRPrism_8h.html", "MRPrism_8h" ],
+    [ "MRProcessSelfTreeSubtasks.h", "MRProcessSelfTreeSubtasks_8h.html", "MRProcessSelfTreeSubtasks_8h" ],
     [ "MRProgressCallback.h", "MRProgressCallback_8h.html", "MRProgressCallback_8h" ],
     [ "MRProgressReadWrite.h", "MRProgressReadWrite_8h.html", "MRProgressReadWrite_8h" ],
     [ "MRProjectionMeshAttribute.h", "MRProjectionMeshAttribute_8h.html", "MRProjectionMeshAttribute_8h" ],

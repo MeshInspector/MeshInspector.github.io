@@ -656,6 +656,7 @@ var hierarchy =
     [ "mrmeshpy.NodeId", "classmrmeshpy_1_1NodeId.html", [
       [ "mrmeshpy.NoDefInit_NodeId", "classmrmeshpy_1_1NoDefInit__NodeId.html", null ]
     ] ],
+    [ "mrmeshpy.NodeNode", "classmrmeshpy_1_1NodeNode.html", null ],
     [ "mrmeshpy.NoInit", "classmrmeshpy_1_1NoInit.html", null ],
     [ "mrmeshpy.NoiseSettings", "classmrmeshpy_1_1NoiseSettings.html", null ],
     [ "mrmeshpy.NormalsToPoints", "classmrmeshpy_1_1NormalsToPoints.html", null ],

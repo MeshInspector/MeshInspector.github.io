@@ -43,12 +43,13 @@ var searchData=
   ['nodefinit_5fundirectededgeid_40',['NoDefInit_UndirectedEdgeId',['.././Py/classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html',1,'mrmeshpy']]],
   ['nodefinit_5fvertid_41',['NoDefInit_VertId',['.././Py/classmrmeshpy_1_1NoDefInit__VertId.html',1,'mrmeshpy']]],
   ['nodeid_42',['NodeId',['.././Py/classmrmeshpy_1_1NodeId.html',1,'mrmeshpy']]],
-  ['noinit_43',['NoInit',['.././Cpp/structMR_1_1NoInit.html',1,'MR::NoInit'],['.././Py/classmrmeshpy_1_1NoInit.html',1,'mrmeshpy::NoInit']]],
-  ['noisesettings_44',['NoiseSettings',['.././Cpp/structMR_1_1NoiseSettings.html',1,'MR::NoiseSettings'],['.././Py/classmrmeshpy_1_1NoiseSettings.html',1,'mrmeshpy::NoiseSettings']]],
-  ['nomodelcheck_45',['NoModelCheck',['.././Cpp/structMR_1_1NoModelCheck.html',1,'MR']]],
-  ['nonoverlappinglabeltask_46',['NonOverlappingLabelTask',['.././Cpp/classMR_1_1UI_1_1NonOverlappingLabelTask.html',1,'MR::UI']]],
-  ['normalstopoints_47',['NormalsToPoints',['.././Cpp/classMR_1_1NormalsToPoints.html',1,'MR::NormalsToPoints'],['.././Py/classmrmeshpy_1_1NormalsToPoints.html',1,'mrmeshpy::NormalsToPoints']]],
-  ['notificationtags_48',['NotificationTags',['.././Cpp/structMR_1_1NotificationTags.html',1,'MR']]],
-  ['novisualrepresentationcheck_49',['NoVisualRepresentationCheck',['.././Cpp/structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]],
-  ['numsum_50',['NumSum',['.././Cpp/structMR_1_1NumSum.html',1,'MR::NumSum'],['.././Py/classmrmeshpy_1_1NumSum.html',1,'mrmeshpy::NumSum']]]
+  ['nodenode_43',['NodeNode',['.././Cpp/structMR_1_1NodeNode.html',1,'MR::NodeNode'],['.././Py/classmrmeshpy_1_1NodeNode.html',1,'mrmeshpy::NodeNode']]],
+  ['noinit_44',['NoInit',['.././Cpp/structMR_1_1NoInit.html',1,'MR::NoInit'],['.././Py/classmrmeshpy_1_1NoInit.html',1,'mrmeshpy::NoInit']]],
+  ['noisesettings_45',['NoiseSettings',['.././Cpp/structMR_1_1NoiseSettings.html',1,'MR::NoiseSettings'],['.././Py/classmrmeshpy_1_1NoiseSettings.html',1,'mrmeshpy::NoiseSettings']]],
+  ['nomodelcheck_46',['NoModelCheck',['.././Cpp/structMR_1_1NoModelCheck.html',1,'MR']]],
+  ['nonoverlappinglabeltask_47',['NonOverlappingLabelTask',['.././Cpp/classMR_1_1UI_1_1NonOverlappingLabelTask.html',1,'MR::UI']]],
+  ['normalstopoints_48',['NormalsToPoints',['.././Cpp/classMR_1_1NormalsToPoints.html',1,'MR::NormalsToPoints'],['.././Py/classmrmeshpy_1_1NormalsToPoints.html',1,'mrmeshpy::NormalsToPoints']]],
+  ['notificationtags_49',['NotificationTags',['.././Cpp/structMR_1_1NotificationTags.html',1,'MR']]],
+  ['novisualrepresentationcheck_50',['NoVisualRepresentationCheck',['.././Cpp/structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]],
+  ['numsum_51',['NumSum',['.././Cpp/structMR_1_1NumSum.html',1,'MR::NumSum'],['.././Py/classmrmeshpy_1_1NumSum.html',1,'mrmeshpy::NumSum']]]
 ];

@@ -1082,6 +1082,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoDefInit.html">NoDefInit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NodeNode.html">NodeNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoInit.html">NoInit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoiseSettings.html">NoiseSettings</a></td></tr>
@@ -3856,6 +3858,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga11d4ca955f1a62e15ebea578ffa83454" id="r_ga11d4ca955f1a62e15ebea578ffa83454"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PreciseCollisionResult.html">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga11d4ca955f1a62e15ebea578ffa83454">findCollidingEdgeTrisPrecise</a> (const MeshPart &amp;a, const MeshPart &amp;b, <a class="el" href="#ab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
 <tr class="memdesc:ga11d4ca955f1a62e15ebea578ffa83454"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from one mesh and triangle from another mesh  <br /></td></tr>
 <tr class="separator:ga11d4ca955f1a62e15ebea578ffa83454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga50f22b9cff7188bb21cc3c7d72ec4a03" id="r_ga50f22b9cff7188bb21cc3c7d72ec4a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga50f22b9cff7188bb21cc3c7d72ec4a03">findSelfCollidingEdgeTrisPrecise</a> (const MeshPart &amp;mp, <a class="el" href="#ab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> conv, bool anyIntersection=false, const AffineXf3f *rigidB2A=nullptr, int aVertSizes=0)</td></tr>
+<tr class="memdesc:ga50f22b9cff7188bb21cc3c7d72ec4a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges and triangle within one mesh  <br /></td></tr>
+<tr class="separator:ga50f22b9cff7188bb21cc3c7d72ec4a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8c7d357b072699f62023d97ea1c81f45" id="r_ga8c7d357b072699f62023d97ea1c81f45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga8c7d357b072699f62023d97ea1c81f45">findCollidingEdgeTrisPrecise</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;a, const std::vector&lt; EdgeId &gt; &amp;edgesA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;b, const std::vector&lt; FaceId &gt; &amp;facesB, <a class="el" href="#ab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:ga8c7d357b072699f62023d97ea1c81f45"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all intersections between every given edge from A and given triangles from B  <br /></td></tr>
 <tr class="separator:ga8c7d357b072699f62023d97ea1c81f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4690,6 +4695,11 @@ Functions</h2></td></tr>
 <tr class="separator:gab49400ae6dafb3acc3d4f328d6658e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afef3937755aede5ca15af7158e3dcf46" id="r_afef3937755aede5ca15af7158e3dcf46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afef3937755aede5ca15af7158e3dcf46">makePrism</a> (float baseLength, float leftAngle, float rightAngle, float <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>=1.0f)</td></tr>
 <tr class="separator:afef3937755aede5ca15af7158e3dcf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8fa8ec5590f6b95bdbfc2224e8d190f" id="r_ad8fa8ec5590f6b95bdbfc2224e8d190f"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8fa8ec5590f6b95bdbfc2224e8d190f">processSelfSubtasks</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;subtasks, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, std::function&lt; <a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;)&gt; processLeaf, std::function&lt; <a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const Box3f &amp;lBox, const Box3f &amp;rBox)&gt; processNodes)</td></tr>
+<tr class="memdesc:ad8fa8ec5590f6b95bdbfc2224e8d190f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function process all subtasks in one tree<br  />
+left/right == right/left in this case, so on same non-leaf nodes it only adds 3 next subtasks,<br  />
+same leafs are skipped and different leafs area processed with <code>processLeaf</code> callback.  <br /></td></tr>
+<tr class="separator:ad8fa8ec5590f6b95bdbfc2224e8d190f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4c37be3306e0f2f94b1f076948e9d52" id="r_ac4c37be3306e0f2f94b1f076948e9d52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4c37be3306e0f2f94b1f076948e9d52">reportProgress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, float v)</td></tr>
 <tr class="memdesc:ac4c37be3306e0f2f94b1f076948e9d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">safely invokes  <br /></td></tr>
 <tr class="separator:ac4c37be3306e0f2f94b1f076948e9d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -28459,6 +28469,62 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Print stacktrace on application crash. </p>
+
+</div>
+</div>
+<a id="ad8fa8ec5590f6b95bdbfc2224e8d190f" name="ad8fa8ec5590f6b95bdbfc2224e8d190f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8fa8ec5590f6b95bdbfc2224e8d190f">&#9670;&#160;</a></span>processSelfSubtasks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR_BIND_IGNORE void MR::processSelfSubtasks </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>subtasks</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>nextSubtasks</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; <a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>processLeaf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; <a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const Box3f &amp;lBox, const Box3f &amp;rBox)&gt;</td>          <td class="paramname"><span class="paramname"><em>processNodes</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function process all subtasks in one tree<br  />
+left/right == right/left in this case, so on same non-leaf nodes it only adds 3 next subtasks,<br  />
+same leafs are skipped and different leafs area processed with <code>processLeaf</code> callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tree</td><td>the AABB tree</td></tr>
+    <tr><td class="paramname">subtasks</td><td>initial tasks to process</td></tr>
+    <tr><td class="paramname">nextSubtasks</td><td>subtasks to process next, could be same as <code>subtasks</code></td></tr>
+    <tr><td class="paramname">processLeaf</td><td>function that is called for two different leafs</td></tr>
+    <tr><td class="paramname">processNodes</td><td>function that determines how to process boxes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nextSubtasks</td><td>may be same as subtasks </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
