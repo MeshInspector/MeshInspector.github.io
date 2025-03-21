@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"MRNotificationType_8h.html#a3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd":[6,0,3,0,0,1,10,47,0,0],
+"MRNotificationType_8h.html#a3ccf27858d11d72a88bdbaf6e9d2b05daa76d4ef5f3f6a672bbfab2865563e530":[6,0,3,0,0,1,10,47,0,3],
 "MRNotificationType_8h.html#a3ccf27858d11d72a88bdbaf6e9d2b05dae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,3,0,0,1,10,47,0,4],
 "MRNotificationType_8h_source.html":[6,0,3,0,0,1,10,47],
 "MRObjectDimensionsEnum_8h.html":[6,0,3,0,0,1,4,233],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "MRPointsToDistanceVolume_8h.html#a1746d757b12ddb4f1527a3c3b361ec4c":[6,0,3,0,0,1,11,19,1],
 "MRPointsToDistanceVolume_8h.html#a2a68dc1cf487d20d55f20f536c2dedfc":[6,0,3,0,0,1,11,19,2],
 "MRPointsToDistanceVolume_8h.html#a4924b85972ee04b7df75da333d851117":[6,0,3,0,0,1,11,19,3],
-"MRPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,1,11,19],
-"MRPointsToMeshFusion_8h.html":[6,0,3,0,0,1,11,20],
-"MRPointsToMeshFusion_8h.html#abbc1adfce73c26127f80973b21afcbf4":[6,0,3,0,0,1,11,20,1]
+"MRPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,1,11,19]
 };

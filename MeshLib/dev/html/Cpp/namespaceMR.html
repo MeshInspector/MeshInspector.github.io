@@ -3217,6 +3217,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4123fa411b7305bb9172a398b8cc3c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb5aa7d969d789218ae67365158331cb" id="r_afb5aa7d969d789218ae67365158331cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb5aa7d969d789218ae67365158331cb">getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;contours, bool getMeshAIntersections, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr)</td></tr>
 <tr class="separator:afb5aa7d969d789218ae67365158331cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae875a7151ea2bd715ce90d183884bb1b" id="r_ae875a7151ea2bd715ce90d183884bb1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae875a7151ea2bd715ce90d183884bb1b">getOneMeshSelfIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;contours, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr)</td></tr>
+<tr class="separator:ae875a7151ea2bd715ce90d183884bb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4484992ff522ddc03cd8234b7b7be226" id="r_a4484992ff522ddc03cd8234b7b7be226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4484992ff522ddc03cd8234b7b7be226">extractMeshContours</a> (const <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &amp;meshContours)</td></tr>
 <tr class="separator:a4484992ff522ddc03cd8234b7b7be226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga33e04ff2f620e99f7bcd23080433c39f" id="r_ga33e04ff2f620e99f7bcd23080433c39f"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga33e04ff2f620e99f7bcd23080433c39f">convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="#a217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a> connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
@@ -3638,6 +3640,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga1ff63020d1319814baf4c97e72dfcc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ed866012afe0f73d36e3f5179b4202" id="r_a99ed866012afe0f73d36e3f5179b4202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ed866012afe0f73d36e3f5179b4202">orderIntersectionContours</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topologyA, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topologyB, const <a class="el" href="structMR_1_1PreciseCollisionResult.html">PreciseCollisionResult</a> &amp;intersections)</td></tr>
 <tr class="separator:a99ed866012afe0f73d36e3f5179b4202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757e0b5f05e6d5db5ea687114de26bd2" id="r_a757e0b5f05e6d5db5ea687114de26bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a757e0b5f05e6d5db5ea687114de26bd2">orderSelfIntersectionContours</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt; &amp;intersections)</td></tr>
+<tr class="separator:a757e0b5f05e6d5db5ea687114de26bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d956c62b0c8514d3779ce5076b6b9ec" id="r_a4d956c62b0c8514d3779ce5076b6b9ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d956c62b0c8514d3779ce5076b6b9ec">extractIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;orientedContours, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:a4d956c62b0c8514d3779ce5076b6b9ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">extracts coordinates from two meshes intersection contours  <br /></td></tr>
 <tr class="separator:a4d956c62b0c8514d3779ce5076b6b9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -19745,6 +19749,45 @@ template&lt;typename ObjectT &gt; </div>
 
 </div>
 </div>
+<a id="ae875a7151ea2bd715ce90d183884bb1b" name="ae875a7151ea2bd715ce90d183884bb1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae875a7151ea2bd715ce90d183884bb1b">&#9670;&#160;</a></span>getOneMeshSelfIntersectionContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> MR::getOneMeshSelfIntersectionContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>converters</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a30f8a681dc92effd39120ba76d84daa5" name="a30f8a681dc92effd39120ba76d84daa5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30f8a681dc92effd39120ba76d84daa5">&#9670;&#160;</a></span>getOptimalFaceOrdering()</h2>
 
@@ -27403,6 +27446,28 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Combines individual intersections into ordered contours with the properties: a. left of contours on mesh A is inside of mesh B, b. right of contours on mesh B is inside of mesh A, c. each intersected edge has origin inside meshes intersection and destination outside of it </p>
+
+</div>
+</div>
+<a id="a757e0b5f05e6d5db5ea687114de26bd2" name="a757e0b5f05e6d5db5ea687114de26bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757e0b5f05e6d5db5ea687114de26bd2">&#9670;&#160;</a></span>orderSelfIntersectionContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> MR::orderSelfIntersectionContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>intersections</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Combines individual self intersections into ordered contours with the properties: a. left of contours on mesh is inside b. each intersected edge has origin inside meshes intersection and destination outside of it </p>
 
 </div>
 </div>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1CubicBezierCurve.html#a808273a91fc951f1b82faa9424e6451e":[6,0,1,0,1,158,2],
+"structMR_1_1CubicBezierCurve.html#a808273a91fc951f1b82faa9424e6451e":[6,0,2,0,1,142,2],
+"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,1,0,1,158,1],
+"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,2,0,1,142,1],
 "structMR_1_1CursorEntranceListener.html":[6,0,1,0,1,160],
 "structMR_1_1CursorEntranceListener.html":[6,0,2,0,1,144],
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,1,0,1,160,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1DividePolylineParameters.html#aec036aa36c10ac45b9ef07682adb3350":[6,0,2,0,1,175,0],
 "structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,1,0,1,191,4],
 "structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,2,0,1,175,4],
-"structMR_1_1DoubleOffsetSettings.html":[6,0,1,0,1,192],
-"structMR_1_1DoubleOffsetSettings.html":[6,0,2,0,1,176],
-"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,1,0,1,192,1],
-"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,2,0,1,176,1],
-"structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,1,0,1,192,5]
+"structMR_1_1DoubleOffsetSettings.html":[6,0,1,0,1,192]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"group__MeshRelaxGroup.html":[6,0,0,9,6],
+"group__MeshRelaxGroup.html#ga0342e0ff739af1b23505a0faf855c65c":[6,0,0,9,6,7],
 "group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b":[6,0,0,9,6,4],
 "group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53":[6,0,0,9,6,5],
 "group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf":[6,0,0,9,6,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "group__TriangulationHelpersGroup.html#gad0f4036eebdcc507b1d8314ee455eef9":[6,0,0,13,0,4],
 "group__TriangulationHelpersGroup.html#gaeeb43eb23ada74d95de7bed99be25c98":[6,0,0,13,0,1],
 "group__TriangulationHelpersGroup.html#gaf71ad211f7cae4bc648807774f9b3758":[6,0,0,13,0,3],
-"group__TunnelDetectorGroup.html":[6,0,0,16,4],
-"group__TunnelDetectorGroup.html#ga7dd035558540c3818d6d69afc731f953":[6,0,0,16,4,1],
-"group__TunnelDetectorGroup.html#gaecd871a653e3af47a39e7017288eb69c":[6,0,0,16,4,2]
+"group__TunnelDetectorGroup.html":[6,0,0,16,4]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb":[6,0,1,0,1,339,3],
+"structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb":[6,0,2,0,1,323,3],
+"structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e":[6,0,1,0,1,339,4],
+"structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e":[6,0,2,0,1,323,4],
 "structMR_1_1MenuItemInfo.html#a9a40f27aa0f9195b23043223e671187f":[6,0,1,0,1,339,5],
 "structMR_1_1MenuItemInfo.html#a9a40f27aa0f9195b23043223e671187f":[6,0,2,0,1,323,5],
 "structMR_1_1MenuItemInfo.html#ae677c83b3387bfadf5f8bdd53f77ab9f":[6,0,1,0,1,339,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1MeshMeshConverter.html#a9bd956d7adf45e7f09fe6105d37a84cb":[6,0,2,0,1,333,2],
 "structMR_1_1MeshMeshConverter.html#abd3cf3ce0157d556dc8e8dec4228137d":[6,0,1,0,1,349,0],
 "structMR_1_1MeshMeshConverter.html#abd3cf3ce0157d556dc8e8dec4228137d":[6,0,2,0,1,333,0],
-"structMR_1_1MeshMeshConverter.html#ae0b30e21de516b46a8786250e234e4bd":[6,0,1,0,1,349,1],
-"structMR_1_1MeshMeshConverter.html#ae0b30e21de516b46a8786250e234e4bd":[6,0,2,0,1,333,1],
-"structMR_1_1MeshMeshDistanceResult.html":[6,0,0,1,23],
-"structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9":[6,0,0,1,23,2],
-"structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4":[6,0,0,1,23,0]
+"structMR_1_1MeshMeshConverter.html#ae0b30e21de516b46a8786250e234e4bd":[6,0,1,0,1,349,1]
 };
