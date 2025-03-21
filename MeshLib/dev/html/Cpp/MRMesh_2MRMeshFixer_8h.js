@@ -7,6 +7,7 @@ var MRMesh_2MRMeshFixer_8h =
     [ "eliminateDoubleTris", "MRMesh_2MRMeshFixer_8h.html#gabfc8ebc79bf55b2a8e8bcb36f2c884c1", null ],
     [ "eliminateDoubleTrisAround", "MRMesh_2MRMeshFixer_8h.html#gaf38de39619c863041d1acc307a36642a", null ],
     [ "findDegenerateFaces", "MRMesh_2MRMeshFixer_8h.html#ga2053d608172d2309a6dfc184b3c23b54", null ],
+    [ "findDisorientedFaces", "MRMesh_2MRMeshFixer_8h.html#ga592c02323f7acefec87d77d23191b0e6", null ],
     [ "findHoleComplicatingFaces", "MRMesh_2MRMeshFixer_8h.html#ga464e6b15a1c089223ed826d849cd69cf", null ],
     [ "findMultipleEdges", "MRMesh_2MRMeshFixer_8h.html#gad29427e41026ca03a451eb1796987043", null ],
     [ "findNRingVerts", "MRMesh_2MRMeshFixer_8h.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],

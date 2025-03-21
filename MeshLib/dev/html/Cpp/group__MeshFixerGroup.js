@@ -7,6 +7,7 @@ var group__MeshFixerGroup =
     [ "MR::eliminateDoubleTris", "group__MeshFixerGroup.html#gabfc8ebc79bf55b2a8e8bcb36f2c884c1", null ],
     [ "MR::eliminateDoubleTrisAround", "group__MeshFixerGroup.html#gaf38de39619c863041d1acc307a36642a", null ],
     [ "MR::findDegenerateFaces", "group__MeshFixerGroup.html#ga2053d608172d2309a6dfc184b3c23b54", null ],
+    [ "MR::findDisorientedFaces", "group__MeshFixerGroup.html#ga592c02323f7acefec87d77d23191b0e6", null ],
     [ "MR::findHoleComplicatingFaces", "group__MeshFixerGroup.html#ga464e6b15a1c089223ed826d849cd69cf", null ],
     [ "MR::findMultipleEdges", "group__MeshFixerGroup.html#gad29427e41026ca03a451eb1796987043", null ],
     [ "MR::findNRingVerts", "group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
