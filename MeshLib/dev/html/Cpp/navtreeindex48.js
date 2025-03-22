@@ -1,5 +1,10 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f":[6,0,0,17,2,1,0,1],
+"classMR_1_1VolumeSegmenter.html#a8accea0d8e4c056fb387513d10d41640":[6,0,0,17,2,1,9],
+"classMR_1_1VolumeSegmenter.html#ab7609ff9b44fa7139370e8384ef35ced":[6,0,0,17,2,1,1],
+"classMR_1_1VolumeSegmenter.html#ad6047f29bf52a2e1859c00880382c6f0":[6,0,0,17,2,1,6],
+"classMR_1_1VolumeSegmenter.html#aeee33a2e1bd2471294daeaa604369631":[6,0,0,17,2,1,2],
 "classMR_1_1VoxelsVolumeAccessor.html":[6,0,1,0,1,762],
 "classMR_1_1VoxelsVolumeAccessor.html":[6,0,2,0,1,746],
 "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html":[6,0,1,0,1,763],
@@ -244,10 +249,5 @@ var NAVTREEINDEX48 =
 "functions_func_h.html":[6,0,2,3,1,7],
 "functions_func_i.html":[6,0,2,3,1,8],
 "functions_func_j.html":[6,0,2,3,1,9],
-"functions_func_k.html":[6,0,2,3,1,10],
-"functions_func_l.html":[6,0,2,3,1,11],
-"functions_func_m.html":[6,0,2,3,1,12],
-"functions_func_n.html":[6,0,2,3,1,13],
-"functions_func_o.html":[6,0,2,3,1,14],
-"functions_func_p.html":[6,0,2,3,1,15]
+"functions_func_k.html":[6,0,2,3,1,10]
 };

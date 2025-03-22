@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"group__TriangulationHelpersGroup.html":[6,0,0,13,0],
+"group__TriangulationHelpersGroup.html#ga1b730fbcddd0678ad119e9abc6d797c0":[6,0,0,13,0,2],
 "group__TriangulationHelpersGroup.html#ga239d61601b826c9241ca50d59821b545":[6,0,0,13,0,5],
 "group__TriangulationHelpersGroup.html#gad0f4036eebdcc507b1d8314ee455eef9":[6,0,0,13,0,4],
 "group__TriangulationHelpersGroup.html#gaeeb43eb23ada74d95de7bed99be25c98":[6,0,0,13,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "namespaceMR.html#a0d986d210124a86a1e5a8a4b4b25e3da":[6,0,1,0,1,1189],
 "namespaceMR.html#a0d9e3b8996c4a924319accda1afc4afe":[6,0,1,0,1,1957],
 "namespaceMR.html#a0deb53e0a4ba2c6305e86e1874919f11":[6,0,1,0,1,2319],
-"namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[6,0,1,0,1,885],
-"namespaceMR.html#a0e07c37da72aba07d9f560de8e27f8a2":[6,0,1,0,1,1481],
-"namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0d":[6,0,1,0,1,981]
+"namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[6,0,1,0,1,885]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#a276059ffbe521f7edd753194e8ed98e2":[6,0,2,0,1,442,1,1],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#ac403be6e3ac709c662c40970228491b6":[6,0,1,0,1,458,1,0],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#ac403be6e3ac709c662c40970228491b6":[6,0,2,0,1,442,1,0],
+"structMR_1_1Parallel_1_1CallSimply.html":[6,0,1,0,1,23,0],
+"structMR_1_1Parallel_1_1CallSimply.html":[6,0,2,0,1,13,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[6,0,1,0,1,23,0,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[6,0,2,0,1,13,0,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,1,0,1,23,0,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[6,0,2,0,1,15,0,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[6,0,1,0,1,26,0,2],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[6,0,2,0,1,15,0,2],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,1,0,1,26,0,1],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,2,0,1,15,0,1],
-"structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,1,0,1,26,1],
-"structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,2,0,1,15,1],
-"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[6,0,1,0,1,26,1,3],
-"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[6,0,2,0,1,15,1,3]
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,1,0,1,26,0,1]
 };

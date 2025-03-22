@@ -1,5 +1,10 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1AncillaryLines.html#a9c8cc96eaa02c4f366a99354fc621c6d":[6,0,2,0,1,40,9],
+"structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,1,0,1,56,4],
+"structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,2,0,1,40,4],
+"structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,1,0,1,56,5],
+"structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73":[6,0,2,0,1,40,5],
 "structMR_1_1AncillaryMesh.html":[6,0,1,0,1,57],
 "structMR_1_1AncillaryMesh.html":[6,0,2,0,1,41],
 "structMR_1_1AncillaryMesh.html#a1ca43fe7d75b0248f913382d597ca50c":[6,0,1,0,1,57,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,2,0,1,66,1],
 "structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,82,0],
 "structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,2,0,1,66,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,1,0,1,83,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,2,0,1,67,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,1,0,1,83,0,3],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,2,0,1,67,0,3],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,1,0,1,83,0,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,2,0,1,67,0,0]
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,1,0,1,83,0]
 };

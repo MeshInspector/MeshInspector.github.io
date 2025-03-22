@@ -255,6 +255,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRParabola.h", "MRParabola_8h.html", "MRParabola_8h" ],
     [ "MRParallel.h", "MRParallel_8h.html", "MRParallel_8h" ],
     [ "MRParallelFor.h", "MRParallelFor_8h.html", "MRParallelFor_8h" ],
+    [ "MRParallelMinMax.h", "MRParallelMinMax_8h.html", "MRParallelMinMax_8h" ],
     [ "MRParallelProgressReporter.h", "MRParallelProgressReporter_8h.html", "MRParallelProgressReporter_8h" ],
     [ "MRPartialChangeMeshAction.h", "MRPartialChangeMeshAction_8h.html", "MRPartialChangeMeshAction_8h" ],
     [ "MRPartMapping.h", "MRPartMapping_8h.html", "MRPartMapping_8h" ],
