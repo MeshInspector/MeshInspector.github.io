@@ -187,6 +187,8 @@ var group__AABBTreeGroup =
       [ "signedDist", "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410", null ]
     ] ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", [
+      [ "operator bool", "structMR_1_1MeshProjectionResult.html#a460580792489509aafec2325c8b07a2e", null ],
+      [ "valid", "structMR_1_1MeshProjectionResult.html#aad2307485f017b773541d0466cc30e9f", null ],
       [ "distSq", "structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29", null ],
       [ "mtp", "structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1", null ],
       [ "proj", "structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28", null ]
@@ -224,6 +226,7 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [
       [ "operator bool", "structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c", null ],
+      [ "valid", "structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598", null ],
       [ "distSq", "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8", null ],
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
       [ "point", "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd", null ]

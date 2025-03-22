@@ -1,5 +1,12 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1RibbonConfig.html":[6,0,2,0,1,544],
+"structMR_1_1RibbonConfig.html#a5002834cd308d2eeda7cc7f532840f8a":[6,0,1,0,1,560,1],
+"structMR_1_1RibbonConfig.html#a5002834cd308d2eeda7cc7f532840f8a":[6,0,2,0,1,544,1],
+"structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,1,0,1,560,0],
+"structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,2,0,1,544,0],
+"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,1,0,1,560,2],
+"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,1,544,2],
 "structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,1,0,1,560,3],
 "structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,1,544,3],
 "structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,560,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1SegmPoint.html#a61b1906606755d16e699a890189ff3f8":[6,0,0,0,21,2],
 "structMR_1_1SegmPoint.html#a6dd9ffde5068ad5458d52af3e1c33617":[6,0,0,0,21,7],
 "structMR_1_1SegmPoint.html#a852616535cc51c188a52c77b3f324a6e":[6,0,0,0,21,1],
-"structMR_1_1SegmPoint.html#a87266fccf15374e6dc7587544c028d63":[6,0,0,0,21,4],
-"structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc":[6,0,0,0,21,8],
-"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[6,0,0,0,21,0],
-"structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,21,5],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,616],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,1,600],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,1,0,1,616,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,1,600,0]
+"structMR_1_1SegmPoint.html#a87266fccf15374e6dc7587544c028d63":[6,0,0,0,21,4]
 };

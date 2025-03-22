@@ -9,5 +9,6 @@ var classmrmeshpy_1_1PolylineProjectionResult3 =
     [ "line", "classmrmeshpy_1_1PolylineProjectionResult3.html#aa9bc252bdf5d0559444240dbab29e356", null ],
     [ "line", "classmrmeshpy_1_1PolylineProjectionResult3.html#a5382f9fc669312be73198e36f26d0913", null ],
     [ "point", "classmrmeshpy_1_1PolylineProjectionResult3.html#a0dc486948b8acd0868831a03f5a438f0", null ],
-    [ "point", "classmrmeshpy_1_1PolylineProjectionResult3.html#a7f15c12f75cc176f7171a3f3b13c85c5", null ]
+    [ "point", "classmrmeshpy_1_1PolylineProjectionResult3.html#a7f15c12f75cc176f7171a3f3b13c85c5", null ],
+    [ "valid", "classmrmeshpy_1_1PolylineProjectionResult3.html#a646b3921652a8d06111a9994a072eac1", null ]
 ];

@@ -1,5 +1,12 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc":[6,0,0,0,21,8],
+"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[6,0,0,0,21,0],
+"structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,21,5],
+"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,616],
+"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,1,600],
+"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,1,0,1,616,0],
+"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,1,600,0],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,1,0,1,616,2],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,2,0,1,600,2],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,1,0,1,616,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,2,0,1,638,0],
 "structMR_1_1SplineSettings.html#aa8f49a77bae9cc6a69e8bef44cf7afda":[6,0,1,0,1,654,2],
 "structMR_1_1SplineSettings.html#aa8f49a77bae9cc6a69e8bef44cf7afda":[6,0,2,0,1,638,2],
-"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,1,0,1,654,1],
-"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,2,0,1,638,1],
-"structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
-"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
-"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
-"structMR_1_1StopOnTrueCombiner.html":[6,0,1,0,1,658],
-"structMR_1_1StopOnTrueCombiner.html":[6,0,2,0,1,642],
-"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,1,0,1,658,1]
+"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,1,0,1,654,1]
 };

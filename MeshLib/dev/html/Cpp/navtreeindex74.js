@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1MouseClickListener.html":[6,0,1,0,1,377],
+"structMR_1_1MouseClickListener.html":[6,0,2,0,1,361],
 "structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,1,0,1,377,2],
 "structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,2,0,1,361,2],
 "structMR_1_1MouseClickListener.html#a69a367cc3c52ae54f5e24ae6a0f168dc":[6,0,1,0,1,377,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,1,0,1,434],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,2,0,1,418],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,1,0,1,434,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,2,0,1,418,0],
-"structMR_1_1ObjTreeTraits.html":[6,0,1,0,1,435],
-"structMR_1_1ObjTreeTraits.html":[6,0,2,0,1,419]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,2,0,1,418,0]
 };

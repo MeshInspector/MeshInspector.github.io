@@ -1,5 +1,12 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1PreciseVertCoords2.html":[6,0,2,0,1,499],
+"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,1,0,1,515,1],
+"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,2,0,1,499,1],
+"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,1,0,1,515,0],
+"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,2,0,1,499,0],
+"structMR_1_1ProgressInterrupter.html":[6,0,1,0,1,518],
+"structMR_1_1ProgressInterrupter.html":[6,0,2,0,1,502],
 "structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,1,0,1,518,1],
 "structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,2,0,1,502,1],
 "structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[6,0,1,0,1,518,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,1,543,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,559,0,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,2,0,1,543,0,0],
-"structMR_1_1RibbonConfig.html":[6,0,1,0,1,560],
-"structMR_1_1RibbonConfig.html":[6,0,2,0,1,544],
-"structMR_1_1RibbonConfig.html#a5002834cd308d2eeda7cc7f532840f8a":[6,0,1,0,1,560,1],
-"structMR_1_1RibbonConfig.html#a5002834cd308d2eeda7cc7f532840f8a":[6,0,2,0,1,544,1],
-"structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,1,0,1,560,0],
-"structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,2,0,1,544,0],
-"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,1,0,1,560,2],
-"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,1,544,2]
+"structMR_1_1RibbonConfig.html":[6,0,1,0,1,560]
 };

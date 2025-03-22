@@ -198,19 +198,19 @@ var NAVTREEINDEX =
 "structMR_1_1LineSegm.html#ac7639a48742e5c77367777128549d36e",
 "structMR_1_1MenuItemCaptionSize.html#a6c9273ccf3e41bf654cf3667bc985c0e",
 "structMR_1_1MeshLoad_1_1ObjLoadSettings.html",
-"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb",
-"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1",
-"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d",
-"structMR_1_1PointsLoad_1_1PointsLoader.html",
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3",
-"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61",
-"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5",
-"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271",
-"structMR_1_1ToolPathResult.html",
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d",
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a",
-"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html#a23e6bf37742e57ceeb89a472fc5828c0",
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#af87b0b720148b1f8a07ced0557424191"
+"structMR_1_1MouseClickListener.html",
+"structMR_1_1ObjTreeTraits.html",
+"structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8",
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa",
+"structMR_1_1PreciseVertCoords2.html",
+"structMR_1_1RibbonConfig.html",
+"structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc",
+"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab",
+"structMR_1_1ToolPathParams.html#abb16295f5fc43829c45884d061d45e62",
+"structMR_1_1TriangulationHelpers_1_1Settings.html",
+"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d",
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a5d100100570da05384e44a635325aa79",
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#ab2cb4ea433e1e7448b0b1d3bafa8c2f2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

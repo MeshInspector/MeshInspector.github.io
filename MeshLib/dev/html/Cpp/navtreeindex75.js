@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ObjTreeTraits.html":[6,0,1,0,1,435],
+"structMR_1_1ObjTreeTraits.html":[6,0,2,0,1,419],
 "structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,1,0,1,435,2],
 "structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,2,0,1,419,2],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,1,0,1,435,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#ac403be6e3ac709c662c40970228491b6":[6,0,1,0,1,458,1,0],
 "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#ac403be6e3ac709c662c40970228491b6":[6,0,2,0,1,442,1,0],
 "structMR_1_1Parallel_1_1CallSimply.html":[6,0,1,0,1,23,0],
-"structMR_1_1Parallel_1_1CallSimply.html":[6,0,2,0,1,13,0],
-"structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[6,0,1,0,1,23,0,0],
-"structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[6,0,2,0,1,13,0,0]
+"structMR_1_1Parallel_1_1CallSimply.html":[6,0,2,0,1,13,0]
 };
