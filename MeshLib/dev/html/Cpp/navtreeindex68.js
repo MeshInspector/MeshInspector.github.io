@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1FillHoleNicelySettings.html":[6,0,1,0,1,225],
+"structMR_1_1FillHoleNicelySettings.html":[6,0,2,0,1,209],
+"structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79":[6,0,1,0,1,225,2],
+"structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79":[6,0,2,0,1,209,2],
+"structMR_1_1FillHoleNicelySettings.html#a0e811b431fee7fca37d8a2ea46bf916c":[6,0,1,0,1,225,3],
+"structMR_1_1FillHoleNicelySettings.html#a0e811b431fee7fca37d8a2ea46bf916c":[6,0,2,0,1,209,3],
 "structMR_1_1FillHoleNicelySettings.html#a29116e24393106e531f26abb886019b2":[6,0,1,0,1,225,7],
 "structMR_1_1FillHoleNicelySettings.html#a29116e24393106e531f26abb886019b2":[6,0,2,0,1,209,7],
 "structMR_1_1FillHoleNicelySettings.html#a2ead937ed1df084dc6a43160e17df2c2":[6,0,1,0,1,225,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,1,0,1,258,3],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,2,0,1,242,3],
 "structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,1,0,1,258,1],
-"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,242,1],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,1,0,1,258,6],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,2,0,1,242,6],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,1,0,1,258,2],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,2,0,1,242,2],
-"structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1]
+"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,242,1]
 };

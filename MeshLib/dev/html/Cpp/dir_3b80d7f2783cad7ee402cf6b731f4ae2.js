@@ -224,6 +224,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshTrimWithPlane.h", "MRMeshTrimWithPlane_8h.html", "MRMeshTrimWithPlane_8h" ],
     [ "MRMeshTriPoint.h", "MRMesh_2MRMeshTriPoint_8h.html", "MRMesh_2MRMeshTriPoint_8h" ],
     [ "MRMeta.h", "MRMeta_8h.html", "MRMeta_8h" ],
+    [ "MRMinMaxArg.h", "MRMinMaxArg_8h.html", "MRMinMaxArg_8h" ],
     [ "MRMisonLoad.h", "MRMisonLoad_8h.html", "MRMisonLoad_8h" ],
     [ "MRMovementBuildBody.h", "MRMovementBuildBody_8h.html", "MRMovementBuildBody_8h" ],
     [ "MRMultiwayAligningTransform.h", "MRMultiwayAligningTransform_8h.html", "MRMultiwayAligningTransform_8h" ],

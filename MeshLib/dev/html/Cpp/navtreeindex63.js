@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1AncillaryLines.html#a927df020362fa03d9ad1e8a2af3b7b3c":[6,0,2,0,1,40,8],
+"structMR_1_1AncillaryLines.html#a94079e1bc86fd3a8d3d88ef85a35e727":[6,0,1,0,1,56,7],
+"structMR_1_1AncillaryLines.html#a94079e1bc86fd3a8d3d88ef85a35e727":[6,0,2,0,1,40,7],
+"structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[6,0,1,0,1,56,2],
+"structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[6,0,2,0,1,40,2],
+"structMR_1_1AncillaryLines.html#a9c8cc96eaa02c4f366a99354fc621c6d":[6,0,1,0,1,56,9],
 "structMR_1_1AncillaryLines.html#a9c8cc96eaa02c4f366a99354fc621c6d":[6,0,2,0,1,40,9],
 "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,1,0,1,56,4],
 "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc":[6,0,2,0,1,40,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[6,0,0,8,0,0,4],
 "structMR_1_1BooleanResultPoints.html":[6,0,1,0,1,82],
 "structMR_1_1BooleanResultPoints.html":[6,0,2,0,1,66],
-"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,1,0,1,82,2],
-"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,1,66,2],
-"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,1,0,1,82,1],
-"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,2,0,1,66,1],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,82,0],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,2,0,1,66,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,1,0,1,83,0]
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,1,0,1,82,2]
 };

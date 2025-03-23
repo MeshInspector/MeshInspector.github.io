@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1PointsLoad.html#ab39953df84a0deacd37f047884a37372":[6,0,1,0,1,26,13],
+"namespaceMR_1_1PointsLoad.html#abd37d2ce03a3b80ed6007282794d1232":[6,0,1,0,1,26,11],
+"namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868":[6,0,1,0,1,26,3],
+"namespaceMR_1_1PointsLoad.html#ad0030f09e2896b2052ba028b90a6fbb7":[6,0,1,0,1,26,8],
+"namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261":[6,0,1,0,1,26,21],
+"namespaceMR_1_1PointsLoad.html#ae4cbf7590e7b73675bbbdaa9fb468ac2":[6,0,1,0,1,26,14],
 "namespaceMR_1_1PointsSave.html":[6,0,1,0,1,27],
 "namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[6,0,1,0,1,27,3],
 "namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[6,0,1,0,1,27,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "namespacemembers_func_x.html":[6,0,1,1,1,21],
 "namespacemembers_func_z.html":[6,0,1,1,1,22],
 "namespacemembers_g.html":[6,0,1,1,0,6],
-"namespacemembers_h.html":[6,0,1,1,0,7],
-"namespacemembers_i.html":[6,0,1,1,0,8],
-"namespacemembers_l.html":[6,0,1,1,0,9],
-"namespacemembers_m.html":[6,0,1,1,0,10],
-"namespacemembers_n.html":[6,0,1,1,0,11],
-"namespacemembers_o.html":[6,0,1,1,0,12],
-"namespacemembers_p.html":[6,0,1,1,0,13]
+"namespacemembers_h.html":[6,0,1,1,0,7]
 };

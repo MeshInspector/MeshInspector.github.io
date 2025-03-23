@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,1,66,2],
+"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,1,0,1,82,1],
+"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,2,0,1,66,1],
+"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,82,0],
+"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,2,0,1,66,0],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,1,0,1,83,0],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,2,0,1,67,0],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,1,0,1,83,0,3],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,2,0,1,67,0,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6":[6,0,0,5,2,0],
 "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727":[6,0,0,5,2,0,0],
 "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6af3521ec7c51139960b7e21cef6b936df":[6,0,0,5,2,0,1],
-"structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae":[6,0,0,5,2,5],
-"structMR_1_1ContoursDistanceMapOptions.html#abaa6a767d5ebd7c04e839e485898634f":[6,0,0,5,2,3],
-"structMR_1_1ContoursDistanceMapOptions.html#ad970162a0cd7b031b6f1394f856f5ba0":[6,0,0,5,2,6],
-"structMR_1_1ContoursDistanceMapOptions.html#ada938644fd6754f567016b529b5f7340":[6,0,0,5,2,1],
-"structMR_1_1CoordinateConverters.html":[6,0,1,0,1,156],
-"structMR_1_1CoordinateConverters.html":[6,0,2,0,1,140],
-"structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,1,0,1,156,0]
+"structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae":[6,0,0,5,2,5]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1DividePointCloudOptionalOutput.html#a8f57623cee5e4db20049f8d9d6dff9cf":[6,0,1,0,1,190,2],
+"structMR_1_1DividePointCloudOptionalOutput.html#a8f57623cee5e4db20049f8d9d6dff9cf":[6,0,2,0,1,174,2],
+"structMR_1_1DividePointCloudOptionalOutput.html#abf7d2f349e450a24bc74e71d1de3d1bc":[6,0,1,0,1,190,1],
+"structMR_1_1DividePointCloudOptionalOutput.html#abf7d2f349e450a24bc74e71d1de3d1bc":[6,0,2,0,1,174,1],
+"structMR_1_1DividePolylineParameters.html":[6,0,1,0,1,191],
+"structMR_1_1DividePolylineParameters.html":[6,0,2,0,1,175],
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,1,0,1,191,6],
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,2,0,1,175,6],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,1,0,1,191,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,2,0,1,194,2],
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[6,0,1,0,1,210,3],
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[6,0,2,0,1,194,3],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[6,0,1,0,1,210,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[6,0,2,0,1,194,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,1,0,1,210,0,1],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,2,0,1,194,0,1],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[6,0,1,0,1,210,0,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[6,0,2,0,1,194,0,0],
-"structMR_1_1FaceFace.html":[6,0,0,1,12]
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[6,0,1,0,1,210,0]
 };

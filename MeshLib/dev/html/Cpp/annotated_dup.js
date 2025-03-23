@@ -532,6 +532,7 @@ var annotated_dup =
       [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html", "structMR_1_1MeshTriPoint" ],
       [ "MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", "structMR_1_1MeshVoxelsConverter" ],
       [ "MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", "structMR_1_1MetricToAStarPenalty" ],
+      [ "MinMaxArg", "structMR_1_1MinMaxArg.html", "structMR_1_1MinMaxArg" ],
       [ "ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", "structMR_1_1ModelBaseRenderParams" ],
       [ "ModelPointsData", "structMR_1_1ModelPointsData.html", "structMR_1_1ModelPointsData" ],
       [ "ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
