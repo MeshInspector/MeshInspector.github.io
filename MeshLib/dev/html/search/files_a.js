@@ -743,8 +743,9 @@ var searchData=
   ['mrwasmunavailableplugin_2eh_740',['MRWasmUnavailablePlugin.h',['.././Cpp/MRWasmUnavailablePlugin_8h.html',1,'']]],
   ['mrwatershedgraph_2eh_741',['MRWatershedGraph.h',['.././Cpp/MRWatershedGraph_8h.html',1,'']]],
   ['mrwebrequest_2eh_742',['MRWebRequest.h',['.././Cpp/MRWebRequest_8h.html',1,'']]],
-  ['mrwriter_2eh_743',['MRWriter.h',['.././Cpp/MRWriter_8h.html',1,'']]],
-  ['mrxfbasedcache_2eh_744',['MRXfBasedCache.h',['.././Cpp/MRXfBasedCache_8h.html',1,'']]],
-  ['mrzip_2eh_745',['MRZip.h',['.././Cpp/MRZip_8h.html',1,'']]],
-  ['mrzlib_2eh_746',['MRZlib.h',['.././Cpp/MRZlib_8h.html',1,'']]]
+  ['mrweightedpointsshell_2eh_743',['MRWeightedPointsShell.h',['.././Cpp/MRWeightedPointsShell_8h.html',1,'']]],
+  ['mrwriter_2eh_744',['MRWriter.h',['.././Cpp/MRWriter_8h.html',1,'']]],
+  ['mrxfbasedcache_2eh_745',['MRXfBasedCache.h',['.././Cpp/MRXfBasedCache_8h.html',1,'']]],
+  ['mrzip_2eh_746',['MRZip.h',['.././Cpp/MRZip_8h.html',1,'']]],
+  ['mrzlib_2eh_747',['MRZlib.h',['.././Cpp/MRZlib_8h.html',1,'']]]
 ];

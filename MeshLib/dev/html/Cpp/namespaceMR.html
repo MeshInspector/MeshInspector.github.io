@@ -1929,6 +1929,10 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html">WebRequest</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedVertex.html">WeightedVertex</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Writer.html">Writer</a></td></tr>
@@ -6127,6 +6131,11 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a5b17a3df087eb45c2679db67da9c672f" id="r_a5b17a3df087eb45c2679db67da9c672f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b17a3df087eb45c2679db67da9c672f">functionVolumeToSimpleVolume</a> (const FunctionVolume &amp;volume, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="memdesc:a5b17a3df087eb45c2679db67da9c672f"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts function volume into simple volume  <br /></td></tr>
 <tr class="separator:a5b17a3df087eb45c2679db67da9c672f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97704b50e2575f56c70ea748539e9b89" id="r_a97704b50e2575f56c70ea748539e9b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97704b50e2575f56c70ea748539e9b89">weightedPointsToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a97704b50e2575f56c70ea748539e9b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing minimal distance to weighted points  <br /></td></tr>
+<tr class="separator:a97704b50e2575f56c70ea748539e9b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a803b70c7a4f4e1bb86da43dd7142977c" id="r_a803b70c7a4f4e1bb86da43dd7142977c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a803b70c7a4f4e1bb86da43dd7142977c">weightedPointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;params)</td></tr>
+<tr class="separator:a803b70c7a4f4e1bb86da43dd7142977c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:gadd9e6c77ae3fdf22797b82342a1ee1f3" id="r_gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gadd9e6c77ae3fdf22797b82342a1ee1f3">identityMetric</a> ()</td></tr>
 <tr class="memdesc:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">metric returning 1 for every edge  <br /></td></tr>
@@ -33777,6 +33786,67 @@ template&lt;typename Volume &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Same as above but for the SceneObject </p><dl class="section return"><dt>Returns</dt><dd>true, if <code>fixBox</code> is true and the box was "fixed" (see parameter <code>fixBox</code> of <a class="el" href="#ac14a641817ef5f1b6be67b3a90a3cb68">transformVdbVolume</a>) </dd></dl>
+
+</div>
+</div>
+<a id="a803b70c7a4f4e1bb86da43dd7142977c" name="a803b70c7a4f4e1bb86da43dd7142977c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a803b70c7a4f4e1bb86da43dd7142977c">&#9670;&#160;</a></span>weightedPointsShell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::weightedPointsShell </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>consider a point cloud where each point has additive weight, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes </p>
+
+</div>
+</div>
+<a id="a97704b50e2575f56c70ea748539e9b89" name="a97704b50e2575f56c70ea748539e9b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97704b50e2575f56c70ea748539e9b89">&#9670;&#160;</a></span>weightedPointsToDistanceFunctionVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume MR::weightedPointsToDistanceFunctionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>makes FunctionVolume representing minimal distance to weighted points </p>
 
 </div>
 </div>

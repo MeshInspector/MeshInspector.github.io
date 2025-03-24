@@ -1335,6 +1335,8 @@ var hierarchy =
     [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", null ],
     [ "MR::WatershedGraph", "classMR_1_1WatershedGraph.html", null ],
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
+    [ "MR::WeightedPointsShellParameters", "structMR_1_1WeightedPointsShellParameters.html", null ],
+    [ "MR::WeightedPointsToDistanceVolumeParams", "structMR_1_1WeightedPointsToDistanceVolumeParams.html", null ],
     [ "MR::WeightedVertex", "structMR_1_1WeightedVertex.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],

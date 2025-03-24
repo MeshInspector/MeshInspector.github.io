@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1RenderDimensions_1_1AngleParams.html#aaace7c14d6dc2100d4e3e7555158c162":[6,0,1,0,1,30,0,3],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#aaace7c14d6dc2100d4e3e7555158c162":[6,0,2,0,1,17,0,3],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[6,0,1,0,1,30,0,1],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[6,0,2,0,1,17,0,1],
+"structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,1,0,1,30,2],
+"structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,2,0,1,17,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[6,0,1,0,1,30,2,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[6,0,2,0,1,17,2,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a5723344bcea6403b4760e40c2e890f69":[6,0,1,0,1,30,2,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483":[6,0,0,18,2,0,26],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa7214bce26d7d375bcdd8113f5a5351c7":[6,0,0,18,2,0,18],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef":[6,0,0,18,2,0,1],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326":[6,0,0,18,2,0,25],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa79464ccf7da71973c3722b243f7da4c4":[6,0,0,18,2,0,4],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0":[6,0,0,18,2,0,7],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa85606c6e9964bc4f4a6eed6d6739f54e":[6,0,0,18,2,0,20],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa86bffffe1afee0a5c1e6b7630965e06c":[6,0,0,18,2,0,21],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa8eb89f8f0a195b58b0d8da7d499cc55a":[6,0,0,18,2,0,19],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53":[6,0,0,18,2,0,10]
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326":[6,0,0,18,2,0,25]
 };

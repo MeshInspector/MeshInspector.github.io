@@ -743,8 +743,9 @@ var searchData=
   ['mrwasmunavailableplugin_2eh_740',['MRWasmUnavailablePlugin.h',['../MRWasmUnavailablePlugin_8h.html',1,'']]],
   ['mrwatershedgraph_2eh_741',['MRWatershedGraph.h',['../MRWatershedGraph_8h.html',1,'']]],
   ['mrwebrequest_2eh_742',['MRWebRequest.h',['../MRWebRequest_8h.html',1,'']]],
-  ['mrwriter_2eh_743',['MRWriter.h',['../MRWriter_8h.html',1,'']]],
-  ['mrxfbasedcache_2eh_744',['MRXfBasedCache.h',['../MRXfBasedCache_8h.html',1,'']]],
-  ['mrzip_2eh_745',['MRZip.h',['../MRZip_8h.html',1,'']]],
-  ['mrzlib_2eh_746',['MRZlib.h',['../MRZlib_8h.html',1,'']]]
+  ['mrweightedpointsshell_2eh_743',['MRWeightedPointsShell.h',['../MRWeightedPointsShell_8h.html',1,'']]],
+  ['mrwriter_2eh_744',['MRWriter.h',['../MRWriter_8h.html',1,'']]],
+  ['mrxfbasedcache_2eh_745',['MRXfBasedCache.h',['../MRXfBasedCache_8h.html',1,'']]],
+  ['mrzip_2eh_746',['MRZip.h',['../MRZip_8h.html',1,'']]],
+  ['mrzlib_2eh_747',['MRZlib.h',['../MRZlib_8h.html',1,'']]]
 ];

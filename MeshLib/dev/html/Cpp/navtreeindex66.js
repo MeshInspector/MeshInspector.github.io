@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9":[6,0,1,0,1,190,4],
+"structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9":[6,0,2,0,1,174,4],
+"structMR_1_1DistanceToMeshOptions.html#a73856ad91f795ce44772d1494538b46d":[6,0,1,0,1,190,2],
+"structMR_1_1DistanceToMeshOptions.html#a73856ad91f795ce44772d1494538b46d":[6,0,2,0,1,174,2],
+"structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5":[6,0,1,0,1,190,3],
+"structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5":[6,0,2,0,1,174,3],
 "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f":[6,0,1,0,1,190,1],
 "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f":[6,0,2,0,1,174,1],
 "structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,1,0,1,190,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,2,0,1,192,0,0],
 "structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[6,0,1,0,1,208,0,2],
 "structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[6,0,2,0,1,192,0,2],
-"structMR_1_1EmbeddedStructureParameters.html":[6,0,1,0,1,209],
-"structMR_1_1EmbeddedStructureParameters.html":[6,0,2,0,1,193],
-"structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[6,0,1,0,1,209,0],
-"structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[6,0,2,0,1,193,0],
-"structMR_1_1EmbeddedStructureParameters.html#a0ecc70b065da6f40026b7325da4135f4":[6,0,1,0,1,209,5],
-"structMR_1_1EmbeddedStructureParameters.html#a0ecc70b065da6f40026b7325da4135f4":[6,0,2,0,1,193,5],
-"structMR_1_1EmbeddedStructureParameters.html#a4c436c958ad19cd19e927c74c26329f5":[6,0,1,0,1,209,3]
+"structMR_1_1EmbeddedStructureParameters.html":[6,0,1,0,1,209]
 };

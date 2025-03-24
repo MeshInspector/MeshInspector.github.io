@@ -1324,6 +1324,8 @@ var hierarchy =
     [ "mrmeshpy.VoxelTraits_std_vector_float", "classmrmeshpy_1_1VoxelTraits__std__vector__float.html", null ],
     [ "mrmeshpy.VoxelTraits_std_vector_unsigned_short", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html", null ],
     [ "mrmeshpy.WatershedGraph", "classmrmeshpy_1_1WatershedGraph.html", null ],
+    [ "mrmeshpy.WeightedPointsShellParameters", "classmrmeshpy_1_1WeightedPointsShellParameters.html", null ],
+    [ "mrmeshpy.WeightedPointsToDistanceVolumeParams", "classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html", null ],
     [ "mrmeshpy.WeightedVertex", "classmrmeshpy_1_1WeightedVertex.html", null ],
     [ "mrmeshpy.WholeEdgeBMap", "classmrmeshpy_1_1WholeEdgeBMap.html", null ],
     [ "mrmeshpy.WholeEdgeMap", "classmrmeshpy_1_1WholeEdgeMap.html", null ],

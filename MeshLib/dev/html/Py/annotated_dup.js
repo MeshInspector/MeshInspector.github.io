@@ -1115,6 +1115,8 @@ var annotated_dup =
       [ "VoxelTraits_std_vector_float", "classmrmeshpy_1_1VoxelTraits__std__vector__float.html", "classmrmeshpy_1_1VoxelTraits__std__vector__float" ],
       [ "VoxelTraits_std_vector_unsigned_short", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short" ],
       [ "WatershedGraph", "classmrmeshpy_1_1WatershedGraph.html", "classmrmeshpy_1_1WatershedGraph" ],
+      [ "WeightedPointsShellParameters", "classmrmeshpy_1_1WeightedPointsShellParameters.html", "classmrmeshpy_1_1WeightedPointsShellParameters" ],
+      [ "WeightedPointsToDistanceVolumeParams", "classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html", "classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams" ],
       [ "WeightedVertex", "classmrmeshpy_1_1WeightedVertex.html", "classmrmeshpy_1_1WeightedVertex" ],
       [ "WholeEdgeBMap", "classmrmeshpy_1_1WholeEdgeBMap.html", "classmrmeshpy_1_1WholeEdgeBMap" ],
       [ "WholeEdgeMap", "classmrmeshpy_1_1WholeEdgeMap.html", "classmrmeshpy_1_1WholeEdgeMap" ],

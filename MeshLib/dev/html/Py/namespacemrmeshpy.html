@@ -2377,6 +2377,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1WatershedGraph.html">WatershedGraph</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1WeightedVertex.html">WeightedVertex</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1WholeEdgeBMap.html">WholeEdgeBMap</a></td></tr>
@@ -4356,6 +4360,10 @@ Functions</h2></td></tr>
 <tr class="separator:a281b195ed170035a1315a603e4965cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bb5ce7c6be2e4bf91e18d56742361d6" id="r_a5bb5ce7c6be2e4bf91e18d56742361d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__float__from__unsigned__long__unsigned__long.html">func_float_from_unsigned_long_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bb5ce7c6be2e4bf91e18d56742361d6">voxelsSumDiffsMetric</a> (<a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a> voxels, <a class="el" href="classmrmeshpy_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> parameters)</td></tr>
 <tr class="separator:a5bb5ce7c6be2e4bf91e18d56742361d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af16a84a8d1e547d4954296c48e3afd6a" id="r_af16a84a8d1e547d4954296c48e3afd6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af16a84a8d1e547d4954296c48e3afd6a">weightedPointsShell</a> (<a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a> cloud, <a class="el" href="classmrmeshpy_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> params)</td></tr>
+<tr class="separator:af16a84a8d1e547d4954296c48e3afd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8e0726c2a4dfce818987998b0f1992" id="r_adf8e0726c2a4dfce818987998b0f1992"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FunctionVolume.html">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf8e0726c2a4dfce818987998b0f1992">weightedPointsToDistanceFunctionVolume</a> (<a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a> cloud, <a class="el" href="classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a> params)</td></tr>
+<tr class="separator:adf8e0726c2a4dfce818987998b0f1992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3de1c1904159d9dc3c7ffab26cbab439" id="r_a3de1c1904159d9dc3c7ffab26cbab439"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3de1c1904159d9dc3c7ffab26cbab439">wideToUtf8</a> (str wide)</td></tr>
 <tr class="separator:a3de1c1904159d9dc3c7ffab26cbab439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a079078eedad59082f1fbde58c270207c" id="r_a079078eedad59082f1fbde58c270207c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a079078eedad59082f1fbde58c270207c">writeByBlocks</a> (typing.Any out, str data, int dataSize, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='{}', int blockSize=65536)</td></tr>
@@ -31686,6 +31694,52 @@ speed and precision depends on voxelSize (smaller voxel - faster, less precise; 
       </table>
 </div><div class="memdoc">
 <pre class="fragment">sum of dense differences with start and stop voxels
+</pre> 
+</div>
+</div>
+<a id="af16a84a8d1e547d4954296c48e3afd6a" name="af16a84a8d1e547d4954296c48e3afd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af16a84a8d1e547d4954296c48e3afd6a">&#9670;&#160;</a></span>weightedPointsShell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.weightedPointsShell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">consider a point cloud where each point has additive weight,
+and the distance to a point is considered equal to (euclidean distance - weight),
+constructs iso-surface of such distance field corresponding to params.offset value using marching cubes
+</pre> 
+</div>
+</div>
+<a id="adf8e0726c2a4dfce818987998b0f1992" name="adf8e0726c2a4dfce818987998b0f1992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf8e0726c2a4dfce818987998b0f1992">&#9670;&#160;</a></span>weightedPointsToDistanceFunctionVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FunctionVolume.html">FunctionVolume</a> mrmeshpy.weightedPointsToDistanceFunctionVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">makes FunctionVolume representing minimal distance to weighted points
 </pre> 
 </div>
 </div>

@@ -935,6 +935,8 @@ var annotated_dup =
       [ "VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" ],
       [ "WatershedGraph", "classMR_1_1WatershedGraph.html", "classMR_1_1WatershedGraph" ],
       [ "WebRequest", "classMR_1_1WebRequest.html", "classMR_1_1WebRequest" ],
+      [ "WeightedPointsShellParameters", "structMR_1_1WeightedPointsShellParameters.html", "structMR_1_1WeightedPointsShellParameters" ],
+      [ "WeightedPointsToDistanceVolumeParams", "structMR_1_1WeightedPointsToDistanceVolumeParams.html", "structMR_1_1WeightedPointsToDistanceVolumeParams" ],
       [ "WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
