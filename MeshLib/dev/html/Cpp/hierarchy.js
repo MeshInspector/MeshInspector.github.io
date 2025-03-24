@@ -296,6 +296,9 @@ var hierarchy =
     [ "MR::DirectoryRecursive", "structMR_1_1DirectoryRecursive.html", null ],
     [ "MR::DirectoryRecursiveIterator", "structMR_1_1DirectoryRecursiveIterator.html", null ],
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
+    [ "MR::DistanceFromWeightedPointsParams", "structMR_1_1DistanceFromWeightedPointsParams.html", [
+      [ "MR::DistanceFromWeightedPointsComputeParams", "structMR_1_1DistanceFromWeightedPointsComputeParams.html", null ]
+    ] ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", null ],
     [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [
@@ -1229,7 +1232,6 @@ var hierarchy =
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],
     [ "MR::UI::TestEngine::ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", null ],
-    [ "MR::VariadicOffsetParams", "structMR_1_1VariadicOffsetParams.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< N >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< 2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< 4 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html", null ],

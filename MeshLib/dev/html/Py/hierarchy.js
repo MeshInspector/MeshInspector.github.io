@@ -212,6 +212,9 @@ var hierarchy =
     [ "mrmeshpy.SystemPath.Directory", "classmrmeshpy_1_1SystemPath_1_1Directory.html", null ],
     [ "mrmeshpy.Dirty", "classmrmeshpy_1_1Dirty.html", null ],
     [ "mrmeshpy.DirtyFlags", "classmrmeshpy_1_1DirtyFlags.html", null ],
+    [ "mrmeshpy.DistanceFromWeightedPointsParams", "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html", [
+      [ "mrmeshpy.DistanceFromWeightedPointsComputeParams", "classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html", null ]
+    ] ],
     [ "mrmeshpy.DistanceMapLoad", "classmrmeshpy_1_1DistanceMapLoad.html", null ],
     [ "mrmeshpy.DistanceMapSave", "classmrmeshpy_1_1DistanceMapSave.html", null ],
     [ "mrmeshpy.DistanceMapToWorld", "classmrmeshpy_1_1DistanceMapToWorld.html", null ],
@@ -1198,7 +1201,6 @@ var hierarchy =
     [ "mrmeshpy.unsigned_char_output", "classmrmeshpy_1_1unsigned__char__output.html", null ],
     [ "mrmeshpy.UseAABBTree", "classmrmeshpy_1_1UseAABBTree.html", null ],
     [ "mrmeshpy.BaseTiffParameters.ValueType", "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html", null ],
-    [ "mrmeshpy.VariadicOffsetParams", "classmrmeshpy_1_1VariadicOffsetParams.html", null ],
     [ "mrmeshpy.OneMeshIntersection.VariantIndex", "classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html", null ],
     [ "mrmeshpy.Vector2b", "classmrmeshpy_1_1Vector2b.html", null ],
     [ "mrmeshpy.Vector2d", "classmrmeshpy_1_1Vector2d.html", null ],
