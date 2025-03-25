@@ -237,8 +237,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga145ea179a83ff19d1734af8771bba71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadf85ea3c5943f6cd2cb8864c2991f6f2" id="r_gadf85ea3c5943f6cd2cb8864c2991f6f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf85ea3c5943f6cd2cb8864c2991f6f2">MR::convertDistanceMapToImage</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, float threshold=1.f/255)</td></tr>
 <tr class="separator:gadf85ea3c5943f6cd2cb8864c2991f6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac306fc7afdd585ab977b18b9c0bf0af9" id="r_gac306fc7afdd585ab977b18b9c0bf0af9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac306fc7afdd585ab977b18b9c0bf0af9">MR::convertImageToDistanceMap</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, float threshold=1.f/255)</td></tr>
-<tr class="separator:gac306fc7afdd585ab977b18b9c0bf0af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabfddf0510446a24e68326d0574949301" id="r_gabfddf0510446a24e68326d0574949301"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, float threshold=1.f/255, bool invert=true)</td></tr>
+<tr class="separator:gabfddf0510446a24e68326d0574949301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga91a308e751ba7d6ace30ea1a895eb3fb" id="r_ga91a308e751ba7d6ace30ea1a895eb3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91a308e751ba7d6ace30ea1a895eb3fb">MR::opposite</a> (<a class="el" href="#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a> e)</td></tr>
 <tr class="separator:ga91a308e751ba7d6ace30ea1a895eb3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6c5838a3065551d1adbcde13e5cf895b" id="r_ga6c5838a3065551d1adbcde13e5cf895b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c5838a3065551d1adbcde13e5cf895b">MR::expandPixelMask</a> (PixelBitSet &amp;mask, const <a class="el" href="classMR_1_1RectIndexer.html">RectIndexer</a> &amp;indexer, int expansion=1)</td></tr>
@@ -536,8 +536,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gac306fc7afdd585ab977b18b9c0bf0af9" name="gac306fc7afdd585ab977b18b9c0bf0af9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac306fc7afdd585ab977b18b9c0bf0af9">&#9670;&#160;</a></span>convertImageToDistanceMap()</h2>
+<a id="gabfddf0510446a24e68326d0574949301" name="gabfddf0510446a24e68326d0574949301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabfddf0510446a24e68326d0574949301">&#9670;&#160;</a></span>convertImageToDistanceMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,7 +553,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>threshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.f/255</span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>threshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.f/255</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>invert</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -565,6 +570,7 @@ Functions</h2></td></tr>
 <p>load distance map from a grayscale image: </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">threshold</td><td>- threshold of valid values [0.; 1.]. pixel with color less then threshold set invalid </td></tr>
+    <tr><td class="paramname">invert</td><td>- whether to invert values (min is white) or leave them as is (min is block) </td></tr>
   </table>
   </dd>
 </dl>

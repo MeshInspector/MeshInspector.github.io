@@ -1718,7 +1718,7 @@ var namespaceMR =
     [ "contourSubtract", "group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33", null ],
     [ "contourUnion", "group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],
     [ "convertDistanceMapToImage", "group__DistanceMapGroup.html#gadf85ea3c5943f6cd2cb8864c2991f6f2", null ],
-    [ "convertImageToDistanceMap", "group__DistanceMapGroup.html#gac306fc7afdd585ab977b18b9c0bf0af9", null ],
+    [ "convertImageToDistanceMap", "group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#ga6f7ebfbd5a56670b4a78787e6318ee7e", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#gafe85b81b6d40ee16ccd3e12919143c43", null ],
     [ "convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga698235aeb90b1a947f95fa76eeb78ff3", null ],

@@ -146,7 +146,7 @@ var group__DistanceMapGroup =
     [ "MR::contourSubtract", "group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33", null ],
     [ "MR::contourUnion", "group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],
     [ "MR::convertDistanceMapToImage", "group__DistanceMapGroup.html#gadf85ea3c5943f6cd2cb8864c2991f6f2", null ],
-    [ "MR::convertImageToDistanceMap", "group__DistanceMapGroup.html#gac306fc7afdd585ab977b18b9c0bf0af9", null ],
+    [ "MR::convertImageToDistanceMap", "group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301", null ],
     [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68", null ],
     [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#gaa50c3ffe7a7a332ff5cc4ca19890c47f", null ],
     [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga875406db41d922b9e6b597a1cc589c02", null ],

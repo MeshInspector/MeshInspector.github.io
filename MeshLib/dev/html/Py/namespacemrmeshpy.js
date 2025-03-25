@@ -1256,7 +1256,7 @@ var namespacemrmeshpy =
     [ "contourSubtract", "namespacemrmeshpy.html#a07075b204a1465b7268f436a599a6cd5", null ],
     [ "contourUnion", "namespacemrmeshpy.html#aba2f376887176e7156632cbea505f867", null ],
     [ "convertDistanceMapToImage", "namespacemrmeshpy.html#aa187bccd71fcd04f97a2a31517b0ae09", null ],
-    [ "convertImageToDistanceMap", "namespacemrmeshpy.html#aa6bf003cdcf1d86aa7885371f07f0976", null ],
+    [ "convertImageToDistanceMap", "namespacemrmeshpy.html#a57e0cd3b762b2bc5e7331bd78cd208d5", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "namespacemrmeshpy.html#ad05501f908db867005fa426577021fd1", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "namespacemrmeshpy.html#af6e6cdb782d8cbee1b18af7e0f679133", null ],
     [ "convertMeshTriPointsToClosedContour", "namespacemrmeshpy.html#a3337bab0540aad906df3b6c4542e1b2f", null ],

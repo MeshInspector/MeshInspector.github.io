@@ -2706,8 +2706,8 @@ Functions</h2></td></tr>
 <tr class="separator:aba2f376887176e7156632cbea505f867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa187bccd71fcd04f97a2a31517b0ae09" id="r_aa187bccd71fcd04f97a2a31517b0ae09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa187bccd71fcd04f97a2a31517b0ae09">convertDistanceMapToImage</a> (<a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> distMap, float threshold=0.003921568859368563)</td></tr>
 <tr class="separator:aa187bccd71fcd04f97a2a31517b0ae09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6bf003cdcf1d86aa7885371f07f0976" id="r_aa6bf003cdcf1d86aa7885371f07f0976"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6bf003cdcf1d86aa7885371f07f0976">convertImageToDistanceMap</a> (<a class="el" href="classmrmeshpy_1_1Image.html">Image</a> image, float threshold=0.003921568859368563)</td></tr>
-<tr class="separator:aa6bf003cdcf1d86aa7885371f07f0976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57e0cd3b762b2bc5e7331bd78cd208d5" id="r_a57e0cd3b762b2bc5e7331bd78cd208d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57e0cd3b762b2bc5e7331bd78cd208d5">convertImageToDistanceMap</a> (<a class="el" href="classmrmeshpy_1_1Image.html">Image</a> image, float threshold=0.003921568859368563, bool invert=True)</td></tr>
+<tr class="separator:a57e0cd3b762b2bc5e7331bd78cd208d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad05501f908db867005fa426577021fd1" id="r_ad05501f908db867005fa426577021fd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__OneMeshContour.html">std_vector_OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05501f908db867005fa426577021fd1">convertMeshTriPointsSurfaceOffsetToMeshContours</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__MeshTriPoint.html">std_vector_MeshTriPoint</a> surfaceLine, float offset, <a class="el" href="classmrmeshpy_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings='{}')</td></tr>
 <tr class="separator:ad05501f908db867005fa426577021fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6e6cdb782d8cbee1b18af7e0f679133" id="r_af6e6cdb782d8cbee1b18af7e0f679133"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__OneMeshContour.html">std_vector_OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e6cdb782d8cbee1b18af7e0f679133">convertMeshTriPointsSurfaceOffsetToMeshContours</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__MeshTriPoint.html">std_vector_MeshTriPoint</a> surfaceLine, <a class="el" href="classmrmeshpy_1_1func__float__from__int.html">func_float_from_int</a> offsetAtPoint, <a class="el" href="classmrmeshpy_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings='{}')</td></tr>
@@ -9233,8 +9233,8 @@ mesh can be transformed using xf parameter
 </pre> 
 </div>
 </div>
-<a id="aa6bf003cdcf1d86aa7885371f07f0976" name="aa6bf003cdcf1d86aa7885371f07f0976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6bf003cdcf1d86aa7885371f07f0976">&#9670;&#160;</a></span>convertImageToDistanceMap()</h2>
+<a id="a57e0cd3b762b2bc5e7331bd78cd208d5" name="a57e0cd3b762b2bc5e7331bd78cd208d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57e0cd3b762b2bc5e7331bd78cd208d5">&#9670;&#160;</a></span>convertImageToDistanceMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9247,12 +9247,18 @@ mesh can be transformed using xf parameter
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float </td>          <td class="paramname"><span class="paramname"><em>threshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.003921568859368563</span>&#160;)</td>
+          <td class="paramtype">float </td>          <td class="paramname"><span class="paramname"><em>threshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.003921568859368563</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>invert</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">load distance map from a grayscale image:
 \\param threshold - threshold of valid values [0.; 1.]. pixel with color less then threshold set invalid
+\\param invert - whether to invert values (min is white) or leave them as is (min is block)
 </pre> 
 </div>
 </div>
