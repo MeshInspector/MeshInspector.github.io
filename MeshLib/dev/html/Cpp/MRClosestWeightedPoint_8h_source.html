@@ -32,7 +32,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MRPointCloudVariadicOffset.h Source File</title>
+<title>MeshLib C++ Docs: MRClosestWeightedPoint.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -125,7 +125,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('MRPointCloudVariadicOffset_8h_source.html',''); initResizable(true); });
+$(function(){initNavTree('MRClosestWeightedPoint_8h_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -151,10 +151,10 @@ $(function(){initNavTree('MRPointCloudVariadicOffset_8h_source.html',''); initRe
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MRPointCloudVariadicOffset.h</div></div>
+  <div class="headertitle"><div class="title">MRClosestWeightedPoint.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRPointCloudVariadicOffset_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRClosestWeightedPoint_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRId_8h.html">MRId.h</a>&quot;</span></div>
@@ -206,24 +206,24 @@ $(function(){initNavTree('MRPointCloudVariadicOffset_8h_source.html',''); initRe
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="anamespaceMR_html_a036c60a88f141a437ffed0bc572fce6d"><div class="ttname"><a href="namespaceMR.html#a036c60a88f141a437ffed0bc572fce6d">MR::VertMetric</a></div><div class="ttdeci">std::function&lt; float(VertId)&gt; VertMetric</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:491</div></div>
 <div class="ttc" id="anamespaceMR_html_a7ac55cb1be58afd31c59d36e8b7f694d"><div class="ttname"><a href="namespaceMR.html#a7ac55cb1be58afd31c59d36e8b7f694d">MR::findClosestWeightedPoint</a></div><div class="ttdeci">MRMESH_API PointAndDistance findClosestWeightedPoint(const Vector3f &amp;loc, const AABBTreePoints &amp;tree, const DistanceFromWeightedPointsComputeParams &amp;params)</div></div>
-<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsComputeParams_html"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsComputeParams.html">MR::DistanceFromWeightedPointsComputeParams</a></div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:38</div></div>
-<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsComputeParams_html_a6ee8d7ae212f877e6e2572350eea7c11"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsComputeParams.html#a6ee8d7ae212f877e6e2572350eea7c11">MR::DistanceFromWeightedPointsComputeParams::maxDistance</a></div><div class="ttdeci">float maxDistance</div><div class="ttdoc">find the closest point only if the distance to it is less than given value</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:43</div></div>
-<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsComputeParams_html_ad94fab535798f1acb476e818aa5969fb"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsComputeParams.html#ad94fab535798f1acb476e818aa5969fb">MR::DistanceFromWeightedPointsComputeParams::minDistance</a></div><div class="ttdeci">float minDistance</div><div class="ttdoc">stop searching as soon as any point within this distance is found</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:40</div></div>
-<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html">MR::DistanceFromWeightedPointsParams</a></div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:24</div></div>
-<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html_a1eaf010a7c663adafe798fdd9007fe6c"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c">MR::DistanceFromWeightedPointsParams::pointWeight</a></div><div class="ttdeci">VertMetric pointWeight</div><div class="ttdoc">function returning the weight of each point, must be set by the user</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:26</div></div>
-<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html_a2167c5cb63bc5340893e5ba8381e5de4"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4">MR::DistanceFromWeightedPointsParams::maxWeight</a></div><div class="ttdeci">float maxWeight</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:30</div></div>
-<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html_ad08ccac9ccc26dcee3fa49c052003500"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html#ad08ccac9ccc26dcee3fa49c052003500">MR::DistanceFromWeightedPointsParams::maxWeightGrad</a></div><div class="ttdeci">float maxWeightGrad</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:34</div></div>
-<div class="ttc" id="astructMR_1_1PointAndDistance_html"><div class="ttname"><a href="structMR_1_1PointAndDistance.html">MR::PointAndDistance</a></div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:11</div></div>
-<div class="ttc" id="astructMR_1_1PointAndDistance_html_a30b687a3ae4e9a8f1e2faf636e415f5c"><div class="ttname"><a href="structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c">MR::PointAndDistance::valid</a></div><div class="ttdeci">bool valid() const</div><div class="ttdoc">check for validity, otherwise there is no point closer than maxDistance</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:19</div></div>
-<div class="ttc" id="astructMR_1_1PointAndDistance_html_a95a6c6e03ea27af92edfb720b51eb6cc"><div class="ttname"><a href="structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc">MR::PointAndDistance::dist</a></div><div class="ttdeci">float dist</div><div class="ttdoc">the distance from input location to point vId considering point's weight</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:16</div></div>
-<div class="ttc" id="astructMR_1_1PointAndDistance_html_ad69e7a0cb1644a718347e10e06baf900"><div class="ttname"><a href="structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900">MR::PointAndDistance::vId</a></div><div class="ttdeci">VertId vId</div><div class="ttdoc">a cloud's point</div><div class="ttdef"><b>Definition</b> MRPointCloudVariadicOffset.h:13</div></div>
+<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsComputeParams_html"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsComputeParams.html">MR::DistanceFromWeightedPointsComputeParams</a></div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:38</div></div>
+<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsComputeParams_html_a6ee8d7ae212f877e6e2572350eea7c11"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsComputeParams.html#a6ee8d7ae212f877e6e2572350eea7c11">MR::DistanceFromWeightedPointsComputeParams::maxDistance</a></div><div class="ttdeci">float maxDistance</div><div class="ttdoc">find the closest point only if the distance to it is less than given value</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:43</div></div>
+<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsComputeParams_html_ad94fab535798f1acb476e818aa5969fb"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsComputeParams.html#ad94fab535798f1acb476e818aa5969fb">MR::DistanceFromWeightedPointsComputeParams::minDistance</a></div><div class="ttdeci">float minDistance</div><div class="ttdoc">stop searching as soon as any point within this distance is found</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:40</div></div>
+<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html">MR::DistanceFromWeightedPointsParams</a></div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:24</div></div>
+<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html_a1eaf010a7c663adafe798fdd9007fe6c"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c">MR::DistanceFromWeightedPointsParams::pointWeight</a></div><div class="ttdeci">VertMetric pointWeight</div><div class="ttdoc">function returning the weight of each point, must be set by the user</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:26</div></div>
+<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html_a2167c5cb63bc5340893e5ba8381e5de4"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4">MR::DistanceFromWeightedPointsParams::maxWeight</a></div><div class="ttdeci">float maxWeight</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:30</div></div>
+<div class="ttc" id="astructMR_1_1DistanceFromWeightedPointsParams_html_ad08ccac9ccc26dcee3fa49c052003500"><div class="ttname"><a href="structMR_1_1DistanceFromWeightedPointsParams.html#ad08ccac9ccc26dcee3fa49c052003500">MR::DistanceFromWeightedPointsParams::maxWeightGrad</a></div><div class="ttdeci">float maxWeightGrad</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:34</div></div>
+<div class="ttc" id="astructMR_1_1PointAndDistance_html"><div class="ttname"><a href="structMR_1_1PointAndDistance.html">MR::PointAndDistance</a></div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:11</div></div>
+<div class="ttc" id="astructMR_1_1PointAndDistance_html_a30b687a3ae4e9a8f1e2faf636e415f5c"><div class="ttname"><a href="structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c">MR::PointAndDistance::valid</a></div><div class="ttdeci">bool valid() const</div><div class="ttdoc">check for validity, otherwise there is no point closer than maxDistance</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:19</div></div>
+<div class="ttc" id="astructMR_1_1PointAndDistance_html_a95a6c6e03ea27af92edfb720b51eb6cc"><div class="ttname"><a href="structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc">MR::PointAndDistance::dist</a></div><div class="ttdeci">float dist</div><div class="ttdoc">the distance from input location to point vId considering point's weight</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:16</div></div>
+<div class="ttc" id="astructMR_1_1PointAndDistance_html_ad69e7a0cb1644a718347e10e06baf900"><div class="ttname"><a href="structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900">MR::PointAndDistance::vId</a></div><div class="ttdeci">VertId vId</div><div class="ttdoc">a cloud's point</div><div class="ttdef"><b>Definition</b> MRClosestWeightedPoint.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRPointCloudVariadicOffset_8h.html">MRPointCloudVariadicOffset.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRClosestWeightedPoint_8h.html">MRClosestWeightedPoint.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
