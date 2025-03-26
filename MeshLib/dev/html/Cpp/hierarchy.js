@@ -299,6 +299,8 @@ var hierarchy =
     [ "MR::DistanceFromWeightedPointsParams", "structMR_1_1DistanceFromWeightedPointsParams.html", [
       [ "MR::DistanceFromWeightedPointsComputeParams", "structMR_1_1DistanceFromWeightedPointsComputeParams.html", null ]
     ] ],
+    [ "MR::DistanceMapLoadSettings", "structMR_1_1DistanceMapLoadSettings.html", null ],
+    [ "MR::DistanceMapSaveSettings", "structMR_1_1DistanceMapSaveSettings.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", null ],
     [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [

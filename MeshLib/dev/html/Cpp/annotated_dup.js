@@ -346,6 +346,8 @@ var annotated_dup =
       [ "DistanceFromWeightedPointsComputeParams", "structMR_1_1DistanceFromWeightedPointsComputeParams.html", "structMR_1_1DistanceFromWeightedPointsComputeParams" ],
       [ "DistanceFromWeightedPointsParams", "structMR_1_1DistanceFromWeightedPointsParams.html", "structMR_1_1DistanceFromWeightedPointsParams" ],
       [ "DistanceMap", "classMR_1_1DistanceMap.html", "classMR_1_1DistanceMap" ],
+      [ "DistanceMapLoadSettings", "structMR_1_1DistanceMapLoadSettings.html", "structMR_1_1DistanceMapLoadSettings" ],
+      [ "DistanceMapSaveSettings", "structMR_1_1DistanceMapSaveSettings.html", "structMR_1_1DistanceMapSaveSettings" ],
       [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", "structMR_1_1DistanceMapToWorld" ],
       [ "DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", "classMR_1_1DistanceMeasurementObject" ],
       [ "DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", "structMR_1_1DistanceToMeshOptions" ],

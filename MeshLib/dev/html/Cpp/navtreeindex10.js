@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"MRMultiwayAligningTransform_8h_source.html":[6,0,3,0,0,1,4,228],
+"MRMutexOwner_8h.html":[6,0,3,0,0,1,4,230],
+"MRMutexOwner_8h_source.html":[6,0,3,0,0,1,4,230],
+"MRNoDefInit_8h.html":[6,0,3,0,0,1,4,231],
+"MRNoDefInit_8h_source.html":[6,0,3,0,0,1,4,231],
+"MRNormalsToPoints_8h.html":[6,0,3,0,0,1,4,233],
 "MRNormalsToPoints_8h_source.html":[6,0,3,0,0,1,4,233],
 "MRNotificationType_8h.html":[6,0,3,0,0,1,10,47],
 "MRNotificationType_8h.html#a3ccf27858d11d72a88bdbaf6e9d2b05d":[6,0,3,0,0,1,10,47,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "MRPointToPlaneAligningTransform_8h_source.html":[6,0,3,0,0,1,4,282],
 "MRPointToPointAligningTransform_8h.html":[6,0,3,0,0,1,4,283],
 "MRPointToPointAligningTransform_8h_source.html":[6,0,3,0,0,1,4,283],
-"MRPointsComponents_8h.html":[6,0,3,0,0,1,4,274],
-"MRPointsComponents_8h_source.html":[6,0,3,0,0,1,4,274],
-"MRPointsInBall_8h.html":[6,0,3,0,0,1,4,275],
-"MRPointsInBall_8h.html#a30cd2d38272cf5fb35c10a421b4d2045":[6,0,3,0,0,1,4,275,0],
-"MRPointsInBall_8h.html#a421af22aea174a88968edea770000bbc":[6,0,3,0,0,1,4,275,1],
-"MRPointsInBall_8h_source.html":[6,0,3,0,0,1,4,275],
-"MRPointsInBox_8h.html":[6,0,3,0,0,1,4,276]
+"MRPointsComponents_8h.html":[6,0,3,0,0,1,4,274]
 };

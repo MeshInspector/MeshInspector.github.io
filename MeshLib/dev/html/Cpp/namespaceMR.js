@@ -17,17 +17,24 @@ var namespaceMR =
     [ "Cuda", "namespaceMR_1_1Cuda.html", "namespaceMR_1_1Cuda" ],
     [ "detail", "namespaceMR_1_1detail.html", "namespaceMR_1_1detail" ],
     [ "DistanceMapLoad", "namespaceMR_1_1DistanceMapLoad.html", [
-      [ "fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#ga02cb7a9f7a10ce657113dbd283023d5c", null ],
-      [ "fromMrDistanceMap", "group__DistanceMapLoadGroup.html#gaa3aeb81f3784e4d7d95517f65679e063", null ],
-      [ "fromRaw", "group__DistanceMapLoadGroup.html#ga8c49ec9f243ad8f2b5f631e585406a4d", null ],
-      [ "fromTiff", "group__DistanceMapLoadGroup.html#ga4eedc991ebb47493d0ccc52c48b6c265", null ],
-      [ "Filters", "group__DistanceMapLoadGroup.html#ga5bd7fbb9e1830caf51c2b586d427b3e2", null ]
+      [ "DistanceMapLoader", "namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb", null ],
+      [ "fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#gae00e0a0aa3107cdb195eeb54e1882b33", null ],
+      [ "fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#ga130580fa11ec9bcaeeb7223d988cd64c", null ],
+      [ "fromMrDistanceMap", "group__DistanceMapLoadGroup.html#gad49c1f0e0cfbd48bee34bfa0c0fc403d", null ],
+      [ "fromMrDistanceMap", "group__DistanceMapLoadGroup.html#ga6f1a32e15188e4e614f9bac163736af3", null ],
+      [ "fromRaw", "group__DistanceMapLoadGroup.html#ga196f8d320afafa3219dfd4fe1fda6ca2", null ],
+      [ "fromRaw", "group__DistanceMapLoadGroup.html#gab832fd27a349ad4a75efb2ca3a9cf9a5", null ],
+      [ "fromTiff", "group__DistanceMapLoadGroup.html#ga6df3831c4435d4255414c6215f56c10f", null ],
+      [ "fromTiff", "group__DistanceMapLoadGroup.html#ga681d7de6d4692b69332d76d307b4a457", null ]
     ] ],
     [ "DistanceMapSave", "namespaceMR_1_1DistanceMapSave.html", [
-      [ "toAnySupportedFormat", "group__DistanceMapSaveGroup.html#ga9d60ff800da950c0968d0c7811081fd1", null ],
-      [ "toMrDistanceMap", "group__DistanceMapSaveGroup.html#ga455f96abb12ac33f800fe34dd7418567", null ],
-      [ "toRAW", "group__DistanceMapSaveGroup.html#ga9d48297d6446cf92982f617ab49662a6", null ],
-      [ "Filters", "group__DistanceMapSaveGroup.html#ga28d4fc719021a31a2a0d54b28b5a5320", null ]
+      [ "DistanceMapSaver", "namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e", null ],
+      [ "toAnySupportedFormat", "group__DistanceMapSaveGroup.html#ga1ace9bedd45e8e536a87c8e707e51baf", null ],
+      [ "toAnySupportedFormat", "group__DistanceMapSaveGroup.html#gaa71335f8fa3c802042cc2bd7bca782ab", null ],
+      [ "toMrDistanceMap", "group__DistanceMapSaveGroup.html#ga45ebc8766748a50c7620c3b1364a16df", null ],
+      [ "toMrDistanceMap", "group__DistanceMapSaveGroup.html#ga0ce259b684f01b7091a5c4ef57ba2197", null ],
+      [ "toRAW", "group__DistanceMapSaveGroup.html#gaa3625e43c93ee428ec0fc08bd7b00caf", null ],
+      [ "toRAW", "group__DistanceMapSaveGroup.html#gad083c67ad05697363c95958b687065d2", null ]
     ] ],
     [ "Features", "namespaceMR_1_1Features.html", "namespaceMR_1_1Features" ],
     [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", "namespaceMR_1_1FixUndercuts" ],
@@ -296,6 +303,8 @@ var namespaceMR =
     [ "DistanceFromWeightedPointsComputeParams", "structMR_1_1DistanceFromWeightedPointsComputeParams.html", "structMR_1_1DistanceFromWeightedPointsComputeParams" ],
     [ "DistanceFromWeightedPointsParams", "structMR_1_1DistanceFromWeightedPointsParams.html", "structMR_1_1DistanceFromWeightedPointsParams" ],
     [ "DistanceMap", "classMR_1_1DistanceMap.html", "classMR_1_1DistanceMap" ],
+    [ "DistanceMapLoadSettings", "structMR_1_1DistanceMapLoadSettings.html", "structMR_1_1DistanceMapLoadSettings" ],
+    [ "DistanceMapSaveSettings", "structMR_1_1DistanceMapSaveSettings.html", "structMR_1_1DistanceMapSaveSettings" ],
     [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", "structMR_1_1DistanceMapToWorld" ],
     [ "DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", "classMR_1_1DistanceMeasurementObject" ],
     [ "DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", "structMR_1_1DistanceToMeshOptions" ],

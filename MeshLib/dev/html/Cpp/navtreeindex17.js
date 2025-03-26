@@ -1,5 +1,11 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1AncillaryImGuiLabel.html#af2c939215a0b357749552a0faff1ab62":[6,0,1,0,1,54,2],
+"classMR_1_1AncillaryImGuiLabel.html#af2c939215a0b357749552a0faff1ab62":[6,0,2,0,1,38,2],
+"classMR_1_1AngleMeasurementObject.html":[6,0,1,0,1,59],
+"classMR_1_1AngleMeasurementObject.html":[6,0,2,0,1,43],
+"classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f":[6,0,1,0,1,59,14],
+"classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f":[6,0,2,0,1,43,14],
 "classMR_1_1AngleMeasurementObject.html#a0817825d46092c4ebf5fbc8aa9b3cc0f":[6,0,1,0,1,59,4],
 "classMR_1_1AngleMeasurementObject.html#a0817825d46092c4ebf5fbc8aa9b3cc0f":[6,0,2,0,1,43,4],
 "classMR_1_1AngleMeasurementObject.html#a0f47f7d31bec9d2791312b72e2ac1d1f":[6,0,1,0,1,59,25],
@@ -243,11 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8":[6,0,1,0,1,137,1],
 "classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8":[6,0,2,0,1,121,1],
 "classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,1,0,1,137,14],
-"classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,2,0,1,121,14],
-"classMR_1_1CameraOrientation.html":[6,0,1,0,1,87],
-"classMR_1_1CameraOrientation.html":[6,0,2,0,1,71],
-"classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,1,0,1,87,0],
-"classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,2,0,1,71,0],
-"classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[6,0,1,0,1,87,2],
-"classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[6,0,2,0,1,71,2]
+"classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,2,0,1,121,14]
 };

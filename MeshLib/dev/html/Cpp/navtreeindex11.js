@@ -1,5 +1,11 @@
 var NAVTREEINDEX11 =
 {
+"MRPointsComponents_8h_source.html":[6,0,3,0,0,1,4,274],
+"MRPointsInBall_8h.html":[6,0,3,0,0,1,4,275],
+"MRPointsInBall_8h.html#a30cd2d38272cf5fb35c10a421b4d2045":[6,0,3,0,0,1,4,275,0],
+"MRPointsInBall_8h.html#a421af22aea174a88968edea770000bbc":[6,0,3,0,0,1,4,275,1],
+"MRPointsInBall_8h_source.html":[6,0,3,0,0,1,4,275],
+"MRPointsInBox_8h.html":[6,0,3,0,0,1,4,276],
 "MRPointsInBox_8h_source.html":[6,0,3,0,0,1,4,276],
 "MRPointsProject_8h.html":[6,0,3,0,0,1,4,279],
 "MRPointsProject_8h_source.html":[6,0,3,0,0,1,4,279],
@@ -243,11 +249,5 @@ var NAVTREEINDEX11 =
 "MRRenderNameObject_8h_source.html":[6,0,3,0,0,1,10,73],
 "MRRenderPointsObject_8h.html":[6,0,3,0,0,1,10,74],
 "MRRenderPointsObject_8h_source.html":[6,0,3,0,0,1,10,74],
-"MRRenderVolumeObject_8h.html":[6,0,3,0,0,1,10,75],
-"MRRenderVolumeObject_8h_source.html":[6,0,3,0,0,1,10,75],
-"MRRenderWrapObject_8h.html":[6,0,3,0,0,1,10,76],
-"MRRenderWrapObject_8h_source.html":[6,0,3,0,0,1,10,76],
-"MRRestoringStreamsSink_8h.html":[6,0,3,0,0,1,4,320],
-"MRRestoringStreamsSink_8h_source.html":[6,0,3,0,0,1,4,320],
-"MRRibbonButtonDrawer_8h.html":[6,0,3,0,0,1,10,77]
+"MRRenderVolumeObject_8h.html":[6,0,3,0,0,1,10,75]
 };

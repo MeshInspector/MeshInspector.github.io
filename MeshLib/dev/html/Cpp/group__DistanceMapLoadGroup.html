@@ -152,39 +152,65 @@ $(function(){initNavTree('group__DistanceMapLoadGroup.html',''); initResizable(t
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">DistanceMap Load<div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga8c49ec9f243ad8f2b5f631e585406a4d" id="r_ga8c49ec9f243ad8f2b5f631e585406a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8c49ec9f243ad8f2b5f631e585406a4d">MR::DistanceMapLoad::fromRaw</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="memdesc:ga8c49ec9f243ad8f2b5f631e585406a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> from binary file Format: 2 integer - <a class="el" href="classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f" title="returns X resolution">DistanceMap.resX</a> &amp; <a class="el" href="classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56" title="returns Y resolution">DistanceMap.resY</a> [resX * resY] float - matrix of values.  <br /></td></tr>
-<tr class="separator:ga8c49ec9f243ad8f2b5f631e585406a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3aeb81f3784e4d7d95517f65679e063" id="r_gaa3aeb81f3784e4d7d95517f65679e063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3aeb81f3784e4d7d95517f65679e063">MR::DistanceMapLoad::fromMrDistanceMap</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="separator:gaa3aeb81f3784e4d7d95517f65679e063"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4eedc991ebb47493d0ccc52c48b6c265" id="r_ga4eedc991ebb47493d0ccc52c48b6c265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4eedc991ebb47493d0ccc52c48b6c265">MR::DistanceMapLoad::fromTiff</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="separator:ga4eedc991ebb47493d0ccc52c48b6c265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga02cb7a9f7a10ce657113dbd283023d5c" id="r_ga02cb7a9f7a10ce657113dbd283023d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02cb7a9f7a10ce657113dbd283023d5c">MR::DistanceMapLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> *params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="separator:ga02cb7a9f7a10ce657113dbd283023d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga5bd7fbb9e1830caf51c2b586d427b3e2" id="r_ga5bd7fbb9e1830caf51c2b586d427b3e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5bd7fbb9e1830caf51c2b586d427b3e2">MR::DistanceMapLoad::Filters</a></td></tr>
-<tr class="separator:ga5bd7fbb9e1830caf51c2b586d427b3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga196f8d320afafa3219dfd4fe1fda6ca2" id="r_ga196f8d320afafa3219dfd4fe1fda6ca2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga196f8d320afafa3219dfd4fe1fda6ca2">MR::DistanceMapLoad::fromRaw</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga196f8d320afafa3219dfd4fe1fda6ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> from binary file Format: 2 integer - <a class="el" href="classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f" title="returns X resolution">DistanceMap.resX</a> &amp; <a class="el" href="classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56" title="returns Y resolution">DistanceMap.resY</a> [resX * resY] float - matrix of values.  <br /></td></tr>
+<tr class="separator:ga196f8d320afafa3219dfd4fe1fda6ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab832fd27a349ad4a75efb2ca3a9cf9a5" id="r_gab832fd27a349ad4a75efb2ca3a9cf9a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab832fd27a349ad4a75efb2ca3a9cf9a5">MR::DistanceMapLoad::fromRaw</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb)</td></tr>
+<tr class="separator:gab832fd27a349ad4a75efb2ca3a9cf9a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad49c1f0e0cfbd48bee34bfa0c0fc403d" id="r_gad49c1f0e0cfbd48bee34bfa0c0fc403d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad49c1f0e0cfbd48bee34bfa0c0fc403d">MR::DistanceMapLoad::fromMrDistanceMap</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:gad49c1f0e0cfbd48bee34bfa0c0fc403d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f1a32e15188e4e614f9bac163736af3" id="r_ga6f1a32e15188e4e614f9bac163736af3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6f1a32e15188e4e614f9bac163736af3">MR::DistanceMapLoad::fromMrDistanceMap</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
+<tr class="separator:ga6f1a32e15188e4e614f9bac163736af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6df3831c4435d4255414c6215f56c10f" id="r_ga6df3831c4435d4255414c6215f56c10f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6df3831c4435d4255414c6215f56c10f">MR::DistanceMapLoad::fromTiff</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga6df3831c4435d4255414c6215f56c10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga681d7de6d4692b69332d76d307b4a457" id="r_ga681d7de6d4692b69332d76d307b4a457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga681d7de6d4692b69332d76d307b4a457">MR::DistanceMapLoad::fromTiff</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
+<tr class="separator:ga681d7de6d4692b69332d76d307b4a457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae00e0a0aa3107cdb195eeb54e1882b33" id="r_gae00e0a0aa3107cdb195eeb54e1882b33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae00e0a0aa3107cdb195eeb54e1882b33">MR::DistanceMapLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:gae00e0a0aa3107cdb195eeb54e1882b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga130580fa11ec9bcaeeb7223d988cd64c" id="r_ga130580fa11ec9bcaeeb7223d988cd64c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga130580fa11ec9bcaeeb7223d988cd64c">MR::DistanceMapLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> *params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
+<tr class="separator:ga130580fa11ec9bcaeeb7223d988cd64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga02cb7a9f7a10ce657113dbd283023d5c" name="ga02cb7a9f7a10ce657113dbd283023d5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga02cb7a9f7a10ce657113dbd283023d5c">&#9670;&#160;</a></span>fromAnySupportedFormat()</h2>
+<a id="gae00e0a0aa3107cdb195eeb54e1882b33" name="gae00e0a0aa3107cdb195eeb54e1882b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae00e0a0aa3107cdb195eeb54e1882b33">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; MR::DistanceMapLoad::fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga130580fa11ec9bcaeeb7223d988cd64c" name="ga130580fa11ec9bcaeeb7223d988cd64c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga130580fa11ec9bcaeeb7223d988cd64c">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; MR::DistanceMapLoad::fromAnySupportedFormat </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -199,12 +225,17 @@ Variables</h2></td></tr>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="gaa3aeb81f3784e4d7d95517f65679e063" name="gaa3aeb81f3784e4d7d95517f65679e063"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa3aeb81f3784e4d7d95517f65679e063">&#9670;&#160;</a></span>fromMrDistanceMap()</h2>
+<a id="gad49c1f0e0cfbd48bee34bfa0c0fc403d" name="gad49c1f0e0cfbd48bee34bfa0c0fc403d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad49c1f0e0cfbd48bee34bfa0c0fc403d">&#9670;&#160;</a></span>fromMrDistanceMap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,6 +248,30 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6f1a32e15188e4e614f9bac163736af3" name="ga6f1a32e15188e4e614f9bac163736af3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f1a32e15188e4e614f9bac163736af3">&#9670;&#160;</a></span>fromMrDistanceMap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; MR::DistanceMapLoad::fromMrDistanceMap </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
         </tr>
         <tr>
@@ -225,12 +280,17 @@ Variables</h2></td></tr>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ga8c49ec9f243ad8f2b5f631e585406a4d" name="ga8c49ec9f243ad8f2b5f631e585406a4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8c49ec9f243ad8f2b5f631e585406a4d">&#9670;&#160;</a></span>fromRaw()</h2>
+<a id="ga196f8d320afafa3219dfd4fe1fda6ca2" name="ga196f8d320afafa3219dfd4fe1fda6ca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga196f8d320afafa3219dfd4fe1fda6ca2">&#9670;&#160;</a></span>fromRaw() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243,7 +303,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -252,14 +312,67 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga4eedc991ebb47493d0ccc52c48b6c265" name="ga4eedc991ebb47493d0ccc52c48b6c265"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4eedc991ebb47493d0ccc52c48b6c265">&#9670;&#160;</a></span>fromTiff()</h2>
+<a id="gab832fd27a349ad4a75efb2ca3a9cf9a5" name="gab832fd27a349ad4a75efb2ca3a9cf9a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab832fd27a349ad4a75efb2ca3a9cf9a5">&#9670;&#160;</a></span>fromRaw() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; MR::DistanceMapLoad::fromRaw </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6df3831c4435d4255414c6215f56c10f" name="ga6df3831c4435d4255414c6215f56c10f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6df3831c4435d4255414c6215f56c10f">&#9670;&#160;</a></span>fromTiff() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; MR::DistanceMapLoad::fromTiff </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga681d7de6d4692b69332d76d307b4a457" name="ga681d7de6d4692b69332d76d307b4a457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga681d7de6d4692b69332d76d307b4a457">&#9670;&#160;</a></span>fromTiff() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; MR::DistanceMapLoad::fromTiff </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -274,27 +387,9 @@ Variables</h2></td></tr>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ga5bd7fbb9e1830caf51c2b586d427b3e2" name="ga5bd7fbb9e1830caf51c2b586d427b3e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5bd7fbb9e1830caf51c2b586d427b3e2">&#9670;&#160;</a></span>Filters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> MR::DistanceMapLoad::Filters</td>
-        </tr>
-      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
