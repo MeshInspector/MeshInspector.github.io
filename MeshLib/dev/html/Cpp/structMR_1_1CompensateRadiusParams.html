@@ -171,8 +171,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae42deb31a3f4aa352b4df19396131a28" id="r_ae42deb31a3f4aa352b4df19396131a28"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae42deb31a3f4aa352b4df19396131a28">toolRadius</a> { 0.0f }</td></tr>
 <tr class="memdesc:ae42deb31a3f4aa352b4df19396131a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">radius of spherical tool  <br /></td></tr>
 <tr class="separator:ae42deb31a3f4aa352b4df19396131a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae43a6e0f9bef2d589429434a57a0bd8" id="r_aae43a6e0f9bef2d589429434a57a0bd8"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae43a6e0f9bef2d589429434a57a0bd8">region</a> { nullptr }</td></tr>
-<tr class="separator:aae43a6e0f9bef2d589429434a57a0bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79fd0b044bab7c845859903f9e5da95b" id="r_a79fd0b044bab7c845859903f9e5da95b"><td class="memItemLeft" align="right" valign="top">const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79fd0b044bab7c845859903f9e5da95b">region</a> { nullptr }</td></tr>
+<tr class="separator:a79fd0b044bab7c845859903f9e5da95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3becc371ebe70ab58e91982390945d41" id="r_a3becc371ebe70ab58e91982390945d41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3becc371ebe70ab58e91982390945d41">maxIterations</a> { 100 }</td></tr>
 <tr class="memdesc:a3becc371ebe70ab58e91982390945d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum iteration of applying algorithm (each iteration improves result a little bit)  <br /></td></tr>
 <tr class="separator:a3becc371ebe70ab58e91982390945d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,18 +237,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aae43a6e0f9bef2d589429434a57a0bd8" name="aae43a6e0f9bef2d589429434a57a0bd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae43a6e0f9bef2d589429434a57a0bd8">&#9670;&#160;</a></span>region</h2>
+<a id="a79fd0b044bab7c845859903f9e5da95b" name="a79fd0b044bab7c845859903f9e5da95b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">FaceBitSet* MR::CompensateRadiusParams::region { nullptr }</td>
+          <td class="memname">const FaceBitSet* MR::CompensateRadiusParams::region { nullptr }</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>region of the mesh that will be compensated it should not contain closed components it is updated during algorithm also please note that boundaries of the region are fixed </p>
+<p>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed </p>
 
 </div>
 </div>
