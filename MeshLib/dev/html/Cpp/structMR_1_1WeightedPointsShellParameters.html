@@ -170,6 +170,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a73d391a249dc4a572e1a47b54ea81684" id="r_a73d391a249dc4a572e1a47b54ea81684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DistanceFromWeightedPointsParams.html">DistanceFromWeightedPointsParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73d391a249dc4a572e1a47b54ea81684">dist</a></td></tr>
 <tr class="memdesc:a73d391a249dc4a572e1a47b54ea81684"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters of distance finding  <br /></td></tr>
 <tr class="separator:a73d391a249dc4a572e1a47b54ea81684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62df78b2f13f2d4c5a6db1ff8bc7e5ef" id="r_a62df78b2f13f2d4c5a6db1ff8bc7e5ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62df78b2f13f2d4c5a6db1ff8bc7e5ef">signDistanceByNormal</a> = false</td></tr>
+<tr class="separator:a62df78b2f13f2d4c5a6db1ff8bc7e5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a216b7055598a180dabc0195438a0f4dd" id="r_a216b7055598a180dabc0195438a0f4dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a216b7055598a180dabc0195438a0f4dd">progress</a></td></tr>
 <tr class="memdesc:a216b7055598a180dabc0195438a0f4dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
 <tr class="separator:a216b7055598a180dabc0195438a0f4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,6 +222,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Progress callback. </p>
+
+</div>
+</div>
+<a id="a62df78b2f13f2d4c5a6db1ff8bc7e5ef" name="a62df78b2f13f2d4c5a6db1ff8bc7e5ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62df78b2f13f2d4c5a6db1ff8bc7e5ef">&#9670;&#160;</a></span>signDistanceByNormal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::WeightedPointsShellParameters::signDistanceByNormal = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, then the distance will get its sign from the normal of the closest point (positive values in the half space pointed by normal); initial distances must be unsigned then (e.g. all point weights are negative); true here allows one to construct one directional offset instead of bidirectional shell </p>
 
 </div>
 </div>
