@@ -191,7 +191,7 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a831f5621f04fe15b891a1d7a2dc755d6">   43</a></span>    <a class="code hl_typedef" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#acebd7576c606ef11e6aef5d6c22f32f2">ValueType</a> <a class="code hl_function" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a831f5621f04fe15b891a1d7a2dc755d6">get</a>( <span class="keyword">const</span> Vector3f&amp; pos )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        IndexAndPos index = getIndexAndPos(pos);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        IndexAndPos index = getIndexAndPos(pos - accessor_.shift());</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <a class="code hl_typedef" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#acebd7576c606ef11e6aef5d6c22f32f2">ValueType</a> value{};</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordtype">float</span> cx[2] = { 1.0f - index.pos.x, index.pos.x };</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">float</span> cy[2] = { 1.0f - index.pos.y, index.pos.y };</div>
