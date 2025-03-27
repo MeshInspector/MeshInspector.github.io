@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1Parallel.html":[6,0,1,0,1,23],
+"namespaceMR_1_1Parallel.html#aad589ea7e78a0c2b2111bdc06e2e1c03":[6,0,1,0,1,23,4],
+"namespaceMR_1_1Parallel.html#af87e94d9960d05b0cb39eb6cf90bad47":[6,0,1,0,1,23,5],
+"namespaceMR_1_1PlanarTriangulation.html":[6,0,1,0,1,24],
 "namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9":[6,0,1,0,1,24,6],
 "namespaceMR_1_1PlanarTriangulation.html#a0793fac040a2dcffcf616e963ebcfe7e":[6,0,1,0,1,24,12],
 "namespaceMR_1_1PlanarTriangulation.html#a15dafb65753964c596e32bd173142aba":[6,0,1,0,1,24,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "namespacemembers_d.html":[6,0,1,1,0,3],
 "namespacemembers_e.html":[6,0,1,1,0,4],
 "namespacemembers_enum.html":[6,0,1,1,4],
-"namespacemembers_eval.html":[6,0,1,1,5],
-"namespacemembers_f.html":[6,0,1,1,0,5],
-"namespacemembers_func.html":[6,0,1,1,1],
-"namespacemembers_func.html":[6,0,1,1,1,0],
-"namespacemembers_func_b.html":[6,0,1,1,1,1]
+"namespacemembers_eval.html":[6,0,1,1,5]
 };

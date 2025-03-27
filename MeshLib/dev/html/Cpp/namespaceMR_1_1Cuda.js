@@ -26,5 +26,6 @@ var namespaceMR_1_1Cuda =
     [ "negatePicture", "namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a", null ],
     [ "pointCloudHeapBytes", "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f", null ],
     [ "pointsToDistanceVolume", "namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9", null ],
-    [ "pointsToDistanceVolumeByParts", "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0", null ]
+    [ "pointsToDistanceVolumeByParts", "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0", null ],
+    [ "PointCloudDataHolder", "namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9", null ]
 ];

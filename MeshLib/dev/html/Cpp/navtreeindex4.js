@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRLineSegm_8h.html#abc57b066e60b9354fd351e2018fe5b7e":[6,0,3,0,0,1,4,156,4],
 "MRLineSegm_8h.html#ac28064dedc9f53356925ce7ed86a54d0":[6,0,3,0,0,1,4,156,3],
 "MRLineSegm_8h_source.html":[6,0,3,0,0,1,4,156],
 "MRLine_8h.html":[6,0,3,0,0,1,4,153],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRContoursCut_8h_source.html":[6,0,3,0,0,1,5,7],
 "MRMeshC_2MRConvexHull_8h.html":[6,0,3,0,0,1,5,8],
 "MRMeshC_2MRConvexHull_8h.html#a0a80934042ec2d8f46a163138e1fb3a8":[6,0,3,0,0,1,5,8,1],
-"MRMeshC_2MRConvexHull_8h.html#a259f834937c866ec4175448f0e256608":[6,0,3,0,0,1,5,8,0],
-"MRMeshC_2MRConvexHull_8h_source.html":[6,0,3,0,0,1,5,8]
+"MRMeshC_2MRConvexHull_8h.html#a259f834937c866ec4175448f0e256608":[6,0,3,0,0,1,5,8,0]
 };

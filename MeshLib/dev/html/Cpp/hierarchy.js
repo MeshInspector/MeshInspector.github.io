@@ -1168,6 +1168,7 @@ var hierarchy =
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
     [ "MR::ParallelProgressReporter::TaskInfo", "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html", null ],
+    [ "MR::TbbTaskArenaAndGroup", "structMR_1_1TbbTaskArenaAndGroup.html", null ],
     [ "MR::TbbThreadMutex", "classMR_1_1TbbThreadMutex.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],

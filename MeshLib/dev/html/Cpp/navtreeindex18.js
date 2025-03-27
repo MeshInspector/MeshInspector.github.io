@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8":[6,0,2,0,1,121,1],
+"classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,1,0,1,137,14],
+"classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,2,0,1,121,14],
 "classMR_1_1CameraOrientation.html":[6,0,1,0,1,87],
 "classMR_1_1CameraOrientation.html":[6,0,2,0,1,71],
 "classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,1,0,1,87,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangePolylineTopologyAction.html#ad03adcbdb1b3e090ef0d0a8aa6b0d319":[6,0,0,4,21,0],
 "classMR_1_1ChangeScaleAction.html":[6,0,0,4,22],
 "classMR_1_1ChangeScaleAction.html#a4ef261e118c5b35c7f334c4c5dc65f5c":[6,0,0,4,22,3],
-"classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1":[6,0,0,4,22,2],
-"classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca":[6,0,0,4,22,1],
-"classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075":[6,0,0,4,22,0],
-"classMR_1_1ChangeSceneAction.html":[6,0,0,4,23]
+"classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1":[6,0,0,4,22,2]
 };

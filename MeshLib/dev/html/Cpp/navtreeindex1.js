@@ -176,6 +176,7 @@ var NAVTREEINDEX1 =
 "MRCudaPointCloud_8h.html#ae65f347287f9c0ba39f2cc533c51582e":[6,0,3,0,0,1,1,7,0],
 "MRCudaPointCloud_8h_source.html":[6,0,3,0,0,1,1,7],
 "MRCudaPointsProject_8h.html":[6,0,3,0,0,1,1,8],
+"MRCudaPointsProject_8h.html#a770259831b49f60068c30df5121056c9":[6,0,3,0,0,1,1,8,3],
 "MRCudaPointsProject_8h.html#ab6752d5a8d11db60ba3b3c7cd333658d":[6,0,3,0,0,1,1,8,2],
 "MRCudaPointsProject_8h.html#acdd0eaf7b314f1758bf6e417ad1f3795":[6,0,3,0,0,1,1,8,1],
 "MRCudaPointsProject_8h_source.html":[6,0,3,0,0,1,1,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRDistanceMapParams_8h_source.html":[6,0,3,0,0,1,4,83],
 "MRDistanceMapSave_8h.html":[6,0,3,0,0,1,4,84],
 "MRDistanceMapSave_8h_source.html":[6,0,3,0,0,1,4,84],
-"MRDistanceMap_8h.html":[6,0,3,0,0,1,4,81],
-"MRDistanceMap_8h_source.html":[6,0,3,0,0,1,4,81]
+"MRDistanceMap_8h.html":[6,0,3,0,0,1,4,81]
 };
