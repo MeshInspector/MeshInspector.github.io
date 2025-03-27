@@ -8,7 +8,7 @@ var classMR_1_1DirectionWidget =
     [ "create", "classMR_1_1DirectionWidget.html#afcaf7c69225293dcce6ae1d2bb12c2f9", null ],
     [ "getBase", "classMR_1_1DirectionWidget.html#ac698fed7416ed6492d2dea7ca16a4274", null ],
     [ "getColor", "classMR_1_1DirectionWidget.html#a167c6b1a7f459b928ff38d1a1136b2cb", null ],
-    [ "getDirection", "classMR_1_1DirectionWidget.html#a8b4334c69d67fa5facc71f1981cab1d1", null ],
+    [ "getDirection", "classMR_1_1DirectionWidget.html#a41bd393b48b79941e8901ccceef4639a", null ],
     [ "getParentPtr", "classMR_1_1DirectionWidget.html#a0dc17f76add5e8f606454f6c9fee4aad", null ],
     [ "isMouseBlocked", "classMR_1_1DirectionWidget.html#a11e755a24b227cd14672ec94bfcd5028", null ],
     [ "isVisible", "classMR_1_1DirectionWidget.html#a46d8141ed9672c79a97e527372067a9d", null ],
