@@ -1,10 +1,13 @@
 var dir_ae78f784ae402f48d875196e46319a59 =
 [
     [ "MRAddNoise.h", "MRTestC_2MRAddNoise_8h.html", "MRTestC_2MRAddNoise_8h" ],
+    [ "MRAffineXf.h", "MRTestC_2MRAffineXf_8h.html", "MRTestC_2MRAffineXf_8h" ],
     [ "MRBitSet.h", "MRTestC_2MRBitSet_8h.html", "MRTestC_2MRBitSet_8h" ],
     [ "MRBox.h", "MRTestC_2MRBox_8h.html", "MRTestC_2MRBox_8h" ],
+    [ "MRColor.h", "MRTestC_2MRColor_8h.html", "MRTestC_2MRColor_8h" ],
     [ "MRExpandShrink.h", "MRTestC_2MRExpandShrink_8h.html", "MRTestC_2MRExpandShrink_8h" ],
     [ "MRFixSelfIntersections.h", "MRTestC_2MRFixSelfIntersections_8h.html", "MRTestC_2MRFixSelfIntersections_8h" ],
+    [ "MRMatrix3.h", "MRTestC_2MRMatrix3_8h.html", "MRTestC_2MRMatrix3_8h" ],
     [ "MRMesh.h", "MRTestC_2MRMesh_8h.html", "MRTestC_2MRMesh_8h" ],
     [ "MRMeshBoolean.h", "MRTestC_2MRMeshBoolean_8h.html", "MRTestC_2MRMeshBoolean_8h" ],
     [ "MRMeshBuilder.h", "MRTestC_2MRMeshBuilder_8h.html", "MRTestC_2MRMeshBuilder_8h" ],

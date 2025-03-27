@@ -1470,7 +1470,7 @@ var mrmeshpy_8pyi =
     [ "duplicateMultiHoleVertices", "mrmeshpy_8pyi.html#a29d860e030bcb88c49723b059809c397", null ],
     [ "edgeCurvMetric", "mrmeshpy_8pyi.html#a2880b21430b6f1280ac5a956b7380f42", null ],
     [ "edgeLengthMetric", "mrmeshpy_8pyi.html#aabdc88f43a442de9cfc060ea5cf885d1", null ],
-    [ "edgeMapsComposition", "mrmeshpy_8pyi.html#a0597ea2e2aacabc927e613658193ee59", null ],
+    [ "edgeMapsComposition", "mrmeshpy_8pyi.html#af99208afafedafef83cc770f16c49d74", null ],
     [ "edgePointsFromContours", "mrmeshpy_8pyi.html#ab5dde666905488d8a7ba31ecf05f38db", null ],
     [ "edgeTableMetric", "mrmeshpy_8pyi.html#a57747b0f27681d54faf36e1348cc5eae", null ],
     [ "edgeTableSymMetric", "mrmeshpy_8pyi.html#aaf9016ea7401e747f652f8ea0e2e95b0", null ],
