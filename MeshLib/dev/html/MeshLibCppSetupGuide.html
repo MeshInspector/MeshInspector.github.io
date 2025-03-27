@@ -176,7 +176,7 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html',''); initResizable(true); }
 </li>
 </ul>
 </li>
-<li class="level2"><a href="#CppSetupWASM">WebAssembly/Emscripten</a><ul><li class="level3"><a href="#autotoc_md35">Installing Emscripten</a></li>
+<li class="level2"><a href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a><ul><li class="level3"><a href="#autotoc_md35">Install Emscripten</a></li>
 <li class="level3"><a href="#autotoc_md36">Installing the release build</a></li>
 <li class="level3"><a href="#autotoc_md37">Compile locally</a><ul><li class="level4"><a href="#autotoc_md38">Running the WebAssembly Build</a></li>
 </ul>
@@ -429,10 +429,10 @@ Installing the local build</h4>
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
 <h2><a class="anchor" id="CppSetupWASM"></a>
-WebAssembly/Emscripten</h2>
-<p>MeshLib can also be built and run for WebAssembly (WASM) using Emscripten. </p><dl class="section note"><dt>Note</dt><dd>Only web and worker environments (i.e. web browsers) are officially supported.</dd></dl>
+Building WebAssembly with MeshLib Using Emscripten</h2>
+<p>This guide will help you build WebAssembly (WASM) using MeshLib and Emscripten. Please follow the instructions step by step.</p>
 <h3><a class="anchor" id="autotoc_md35"></a>
-Installing Emscripten</h3>
+Install Emscripten</h3>
 <p>Emscripten is required to compile C++ code into WebAssembly. You can install Emscripten by following the steps below. For more details, refer to the <a href="https://emscripten.org/docs/getting_started/downloads.html">Emscripten official page</a>.</p><ul>
 <li>Clone the Emscripten SDK Repository <br  />
  Run the following command on <b>all platforms</b>: <div class="fragment"><div class="line">git clone https://github.com/emscripten-core/emsdk.git</div>
