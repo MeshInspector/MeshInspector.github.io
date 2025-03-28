@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,1,0,1,6,3,1],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,2,0,1,2,3,1],
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,1,0,1,6,1,0],
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,2,0,1,2,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,1],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,1],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html#add83e086e536d8cc99b74f9f37fb2672":[6,0,1,0,1,6,1,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,2,0,1,234,1,1],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,1,0,1,250,1,0],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,2,0,1,234,1,0],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,1,0,1,250,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,2,0,1,234,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,1,0,1,250,2,3],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,2,0,1,234,2,3],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,1,0,1,250,2,4],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,2,0,1,234,2,4],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,1,0,1,250,2,5]
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,1,0,1,250,2]
 };

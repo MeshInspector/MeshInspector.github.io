@@ -1,5 +1,11 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,1,0,1,147,3],
+"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,2,0,1,131,3],
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,1,0,1,147,0],
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,2,0,1,131,0],
+"structMR_1_1ConeFittingFunctor.html":[6,0,1,0,1,148],
+"structMR_1_1ConeFittingFunctor.html":[6,0,2,0,1,132],
 "structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,148,8],
 "structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,2,0,1,132,8],
 "structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,1,0,1,148,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[6,0,2,0,1,165,3],
 "structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[6,0,1,0,1,181,2],
 "structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[6,0,2,0,1,165,2],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[6,0,1,0,1,181,1],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[6,0,2,0,1,165,1],
-"structMR_1_1DirectoryRecursive.html":[6,0,1,0,1,182],
-"structMR_1_1DirectoryRecursive.html":[6,0,2,0,1,166],
-"structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[6,0,1,0,1,182,0],
-"structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[6,0,2,0,1,166,0],
-"structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[6,0,1,0,1,182,1]
+"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[6,0,1,0,1,181,1]
 };

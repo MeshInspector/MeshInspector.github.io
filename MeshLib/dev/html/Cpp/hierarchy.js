@@ -1046,7 +1046,9 @@ var hierarchy =
     [ "MR::RibbonConfig", "structMR_1_1RibbonConfig.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
-    [ "MR::RibbonMenuItemAdder< T >", "classMR_1_1RibbonMenuItemAdder.html", null ],
+    [ "MR::RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html", [
+      [ "MR::RibbonMenuItemAdderT< T >", "classMR_1_1RibbonMenuItemAdderT.html", null ]
+    ] ],
     [ "MR::RibbonMenuItemCall< T >", "classMR_1_1RibbonMenuItemCall.html", null ],
     [ "MR::RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", null ],
     [ "MR::RibbonMenuUIConfig", "structMR_1_1RibbonMenuUIConfig.html", null ],

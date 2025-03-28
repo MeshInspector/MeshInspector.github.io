@@ -160,6 +160,7 @@ $(function(){initNavTree('MRRibbonSchema_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRViewerFwd_8h_source.html">MRViewerFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRRibbonRegisterItem_8h_source.html">MRRibbonRegisterItem.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;MRMesh/MRphmap.h&quot;</code><br />
 <code>#include &lt;json/forwards.h&gt;</code><br />
@@ -190,8 +191,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonSchemaLoader.html">MR::RibbonSchemaLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -202,9 +201,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ad1709955819b9d2eb38aa06ebd34272c" id="r_ad1709955819b9d2eb38aa06ebd34272c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1709955819b9d2eb38aa06ebd34272c">MR_REGISTER_RIBBON_ITEM</a>(pluginType)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a>&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</td></tr>
-<tr class="memdesc:ad1709955819b9d2eb38aa06ebd34272c"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers plugin on module loading, and unregister plugin on module unloading  <br /></td></tr>
-<tr class="separator:ad1709955819b9d2eb38aa06ebd34272c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab153d81501eb8ea4a0bb964864eaef" id="r_a6ab153d81501eb8ea4a0bb964864eaef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab153d81501eb8ea4a0bb964864eaef">MR_RIBBON_ITEM_CALL</a>(pluginType,  f,  g)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a>&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( f, g );</td></tr>
 <tr class="memdesc:a6ab153d81501eb8ea4a0bb964864eaef"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls f(const std::shared_ptr&lt;plugin&gt; &amp;) on module loading, and calls g(const std::shared_ptr&lt;plugin&gt; &amp;) on module unloading  <br /></td></tr>
 <tr class="separator:a6ab153d81501eb8ea4a0bb964864eaef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,25 +217,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:ad42a75e584073228a798aaddab06e6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad1709955819b9d2eb38aa06ebd34272c" name="ad1709955819b9d2eb38aa06ebd34272c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1709955819b9d2eb38aa06ebd34272c">&#9670;&#160;</a></span>MR_REGISTER_RIBBON_ITEM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_REGISTER_RIBBON_ITEM</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>pluginType</em></span></td><td>)</td>
-          <td>&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a>&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>registers plugin on module loading, and unregister plugin on module unloading </p>
-
-</div>
-</div>
 <a id="a6ab153d81501eb8ea4a0bb964864eaef" name="a6ab153d81501eb8ea4a0bb964864eaef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6ab153d81501eb8ea4a0bb964864eaef">&#9670;&#160;</a></span>MR_RIBBON_ITEM_CALL</h2>
 

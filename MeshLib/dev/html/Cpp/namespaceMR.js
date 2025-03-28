@@ -688,6 +688,7 @@ var namespaceMR =
     [ "RibbonMenu", "classMR_1_1RibbonMenu.html", "classMR_1_1RibbonMenu" ],
     [ "RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", "classMR_1_1RibbonMenuItem" ],
     [ "RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html", "classMR_1_1RibbonMenuItemAdder" ],
+    [ "RibbonMenuItemAdderT", "classMR_1_1RibbonMenuItemAdderT.html", "classMR_1_1RibbonMenuItemAdderT" ],
     [ "RibbonMenuItemCall", "classMR_1_1RibbonMenuItemCall.html", "classMR_1_1RibbonMenuItemCall" ],
     [ "RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", "classMR_1_1RibbonMenuSearch" ],
     [ "RibbonMenuUIConfig", "structMR_1_1RibbonMenuUIConfig.html", "structMR_1_1RibbonMenuUIConfig" ],

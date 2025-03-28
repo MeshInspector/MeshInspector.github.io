@@ -1,5 +1,5 @@
 var classMR_1_1RibbonMenuItemAdder =
 [
-    [ "RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44", null ],
-    [ "~RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66", null ]
+    [ "RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html#a066247d3ea9deaf7a27cfee6eb61b67a", null ],
+    [ "~RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html#a32c339321144b8c626e6564eb83c3b3e", null ]
 ];

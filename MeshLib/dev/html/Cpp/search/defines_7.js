@@ -65,7 +65,7 @@ var searchData=
   ['mr_5fon_5finit_62',['MR_ON_INIT',['../MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227',1,'MROnInit.h']]],
   ['mr_5fpython_5fcustom_5fclass_63',['MR_PYTHON_CUSTOM_CLASS',['../MRPython_8h.html#ae6956a35fce75d18a07941e975ae07cc',1,'MRPython.h']]],
   ['mr_5fregister_5frender_5fobject_5fimpl_64',['MR_REGISTER_RENDER_OBJECT_IMPL',['../MRIRenderObject_8h.html#a92169ed57f83dca5f30d4d158983d9a0',1,'MRIRenderObject.h']]],
-  ['mr_5fregister_5fribbon_5fitem_65',['MR_REGISTER_RIBBON_ITEM',['../MRRibbonSchema_8h.html#ad1709955819b9d2eb38aa06ebd34272c',1,'MRRibbonSchema.h']]],
+  ['mr_5fregister_5fribbon_5fitem_65',['MR_REGISTER_RIBBON_ITEM',['../MRRibbonRegisterItem_8h.html#ad1709955819b9d2eb38aa06ebd34272c',1,'MRRibbonRegisterItem.h']]],
   ['mr_5frequires_5fif_5fsupported_66',['MR_REQUIRES_IF_SUPPORTED',['../MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb',1,'MRMacros.h']]],
   ['mr_5fribbon_5fitem_5fcall_67',['MR_RIBBON_ITEM_CALL',['../MRRibbonSchema_8h.html#a6ab153d81501eb8ea4a0bb964864eaef',1,'MRRibbonSchema.h']]],
   ['mr_5fsame_5ftype_5ftemplate_5fparam_68',['MR_SAME_TYPE_TEMPLATE_PARAM',['../MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361',1,'MRMacros.h']]],

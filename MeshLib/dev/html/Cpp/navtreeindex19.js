@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ChangePointCloudPointsAction.html#ad8d1da6c3caadd31cd4053fa2924e372":[6,0,0,4,17,3],
+"classMR_1_1ChangePointPointSelectionAction.html":[6,0,0,4,28],
 "classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619":[6,0,0,4,28,5],
 "classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9":[6,0,0,4,28,1],
 "classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8":[6,0,0,4,28,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab9ec620a9b6e516079ed9090700ef961":[6,0,1,0,1,140,1,7],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab9ec620a9b6e516079ed9090700ef961":[6,0,2,0,1,124,1,7],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc":[6,0,1,0,1,140,1,22],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc":[6,0,2,0,1,124,1,22],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0":[6,0,1,0,1,140,1,36],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0":[6,0,2,0,1,124,1,36]
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc":[6,0,2,0,1,124,1,22]
 };

@@ -86,6 +86,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRRibbonMenuItem.h", "MRRibbonMenuItem_8h.html", "MRRibbonMenuItem_8h" ],
     [ "MRRibbonMenuSearch.h", "MRRibbonMenuSearch_8h.html", "MRRibbonMenuSearch_8h" ],
     [ "MRRibbonNotification.h", "MRRibbonNotification_8h.html", "MRRibbonNotification_8h" ],
+    [ "MRRibbonRegisterItem.h", "MRRibbonRegisterItem_8h.html", "MRRibbonRegisterItem_8h" ],
     [ "MRRibbonSceneObjectsListDrawer.h", "MRRibbonSceneObjectsListDrawer_8h.html", "MRRibbonSceneObjectsListDrawer_8h" ],
     [ "MRRibbonSchema.h", "MRRibbonSchema_8h.html", "MRRibbonSchema_8h" ],
     [ "MRSaveObjects.h", "MRSaveObjects_8h.html", "MRSaveObjects_8h" ],

@@ -80,7 +80,7 @@ var searchData=
   ['_7erendervolumeobject_77',['~RenderVolumeObject',['../../Cpp/classMR_1_1RenderVolumeObject.html#ab1f454a901b8112f6fbd98d767edec6d',1,'MR::RenderVolumeObject']]],
   ['_7erestoringstreamssink_78',['~RestoringStreamsSink',['../../Cpp/classMR_1_1RestoringStreamsSink.html#a618c5f626a98c04e3f583577f1a0be03',1,'MR::RestoringStreamsSink']]],
   ['_7eribbonmenuitem_79',['~RibbonMenuItem',['../../Cpp/classMR_1_1RibbonMenuItem.html#ac8074b75f1c764d041b11210b5b7541c',1,'MR::RibbonMenuItem']]],
-  ['_7eribbonmenuitemadder_80',['~RibbonMenuItemAdder',['../../Cpp/classMR_1_1RibbonMenuItemAdder.html#acf3e4b922524d3b2afc9e0cf6241ea66',1,'MR::RibbonMenuItemAdder']]],
+  ['_7eribbonmenuitemadder_80',['~RibbonMenuItemAdder',['../../Cpp/classMR_1_1RibbonMenuItemAdder.html#a32c339321144b8c626e6564eb83c3b3e',1,'MR::RibbonMenuItemAdder']]],
   ['_7eribbonmenuitemcall_81',['~RibbonMenuItemCall',['../../Cpp/classMR_1_1RibbonMenuItemCall.html#aab9fa332237b77530d49e4712f168e4f',1,'MR::RibbonMenuItemCall']]],
   ['_7eribbonschemaloader_82',['~RibbonSchemaLoader',['../../Cpp/classMR_1_1RibbonSchemaLoader.html#a0bdc0e74b5b855dc50f9d3ed83b7ecad',1,'MR::RibbonSchemaLoader']]],
   ['_7esceneobjectslistdrawer_83',['~SceneObjectsListDrawer',['../../Cpp/classMR_1_1SceneObjectsListDrawer.html#affefc47d2b779b451bc3f420ddfdbdf8',1,'MR::SceneObjectsListDrawer']]],
