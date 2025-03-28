@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRDistanceMap_8h.html":[6,0,3,0,0,1,4,81],
 "MRDistanceMap_8h_source.html":[6,0,3,0,0,1,4,81],
 "MRDistanceMeasurementObject_8h.html":[6,0,3,0,0,1,4,85],
 "MRDistanceMeasurementObject_8h_source.html":[6,0,3,0,0,1,4,85],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRGetSystemInfoJson_8h.html":[6,0,3,0,0,1,10,22],
 "MRGetSystemInfoJson_8h.html#ace8b49286f2496a8e43901176b83780b":[6,0,3,0,0,1,10,22,0],
 "MRGetSystemInfoJson_8h_source.html":[6,0,3,0,0,1,10,22],
-"MRGladGlfw_8h.html":[6,0,3,0,0,1,10,23],
-"MRGladGlfw_8h.html#a8079a7cf1b5a678640e6fd20eb26dd74":[6,0,3,0,0,1,10,23,0]
+"MRGladGlfw_8h.html":[6,0,3,0,0,1,10,23]
 };

@@ -729,6 +729,7 @@ var hierarchy =
     [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
+    [ "MR::MeshPointAndDistance", "structMR_1_1MeshPointAndDistance.html", null ],
     [ "MR::MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", null ],

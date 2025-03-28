@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRPointToPointAligningTransform_8h_source.html":[6,0,3,0,0,1,4,283],
 "MRPointsComponents_8h.html":[6,0,3,0,0,1,4,274],
 "MRPointsComponents_8h_source.html":[6,0,3,0,0,1,4,274],
 "MRPointsInBall_8h.html":[6,0,3,0,0,1,4,275],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MRRenderModelParameters_8h_source.html":[6,0,3,0,0,1,4,319],
 "MRRenderNameObject_8h.html":[6,0,3,0,0,1,10,73],
 "MRRenderNameObject_8h_source.html":[6,0,3,0,0,1,10,73],
-"MRRenderPointsObject_8h.html":[6,0,3,0,0,1,10,74],
-"MRRenderPointsObject_8h_source.html":[6,0,3,0,0,1,10,74]
+"MRRenderPointsObject_8h.html":[6,0,3,0,0,1,10,74]
 };

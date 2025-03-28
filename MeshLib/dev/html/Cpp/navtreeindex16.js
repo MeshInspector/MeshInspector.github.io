@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"MRVoxelGraphCut_8h.html":[6,0,3,0,0,1,11,32],
 "MRVoxelGraphCut_8h_source.html":[6,0,3,0,0,1,11,32],
 "MRVoxelPath_8h.html":[6,0,3,0,0,1,11,33],
 "MRVoxelPath_8h_source.html":[6,0,3,0,0,1,11,33],
@@ -84,8 +85,10 @@ var NAVTREEINDEX16 =
 "MRWebRequest_8h.html#ad78e1df5c571e394b7846979126d6ade":[6,0,3,0,0,1,10,146,2],
 "MRWebRequest_8h_source.html":[6,0,3,0,0,1,10,146],
 "MRWeightedPointsShell_8h.html":[6,0,3,0,0,1,11,42],
-"MRWeightedPointsShell_8h.html#a803b70c7a4f4e1bb86da43dd7142977c":[6,0,3,0,0,1,11,42,2],
-"MRWeightedPointsShell_8h.html#a97704b50e2575f56c70ea748539e9b89":[6,0,3,0,0,1,11,42,3],
+"MRWeightedPointsShell_8h.html#a1a4c90b6a280226cfeb6b4d3167e8a3b":[6,0,3,0,0,1,11,42,2],
+"MRWeightedPointsShell_8h.html#a803b70c7a4f4e1bb86da43dd7142977c":[6,0,3,0,0,1,11,42,4],
+"MRWeightedPointsShell_8h.html#a927cb8d59958288a2e8a0dcb52a29055":[6,0,3,0,0,1,11,42,3],
+"MRWeightedPointsShell_8h.html#a97704b50e2575f56c70ea748539e9b89":[6,0,3,0,0,1,11,42,5],
 "MRWeightedPointsShell_8h_source.html":[6,0,3,0,0,1,11,42],
 "MRWriter_8h.html":[6,0,3,0,0,1,4,390],
 "MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060":[6,0,3,0,0,1,4,390,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,1,0,1,50,0],
 "classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,2,0,1,34,0],
 "classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,1,0,1,50,1],
-"classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,2,0,1,34,1],
-"classMR_1_1AlphaSortGL.html":[6,0,1,0,1,53],
-"classMR_1_1AlphaSortGL.html":[6,0,2,0,1,37],
-"classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[6,0,1,0,1,53,1]
+"classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,2,0,1,34,1]
 };

@@ -80,7 +80,8 @@ var NAVTREEINDEX1 =
 "MRClosestPointInTriangle_8h.html":[6,0,3,0,0,1,4,54],
 "MRClosestPointInTriangle_8h_source.html":[6,0,3,0,0,1,4,54],
 "MRClosestWeightedPoint_8h.html":[6,0,3,0,0,1,4,55],
-"MRClosestWeightedPoint_8h.html#a7ac55cb1be58afd31c59d36e8b7f694d":[6,0,3,0,0,1,4,55,3],
+"MRClosestWeightedPoint_8h.html#a7ac55cb1be58afd31c59d36e8b7f694d":[6,0,3,0,0,1,4,55,5],
+"MRClosestWeightedPoint_8h.html#a9539c3875b76b2c903199487856a95eb":[6,0,3,0,0,1,4,55,4],
 "MRClosestWeightedPoint_8h_source.html":[6,0,3,0,0,1,4,55],
 "MRCloudPartMapping_8h.html":[6,0,3,0,0,1,4,57],
 "MRCloudPartMapping_8h_source.html":[6,0,3,0,0,1,4,57],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRDistanceMapParams_8h.html":[6,0,3,0,0,1,4,83],
 "MRDistanceMapParams_8h_source.html":[6,0,3,0,0,1,4,83],
 "MRDistanceMapSave_8h.html":[6,0,3,0,0,1,4,84],
-"MRDistanceMapSave_8h_source.html":[6,0,3,0,0,1,4,84],
-"MRDistanceMap_8h.html":[6,0,3,0,0,1,4,81]
+"MRDistanceMapSave_8h_source.html":[6,0,3,0,0,1,4,84]
 };

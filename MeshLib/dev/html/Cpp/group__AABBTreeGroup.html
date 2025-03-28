@@ -267,8 +267,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga8ba650839d7806773bb542b986ac4283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac20cf6ba073a7db1e2df313fb87d9517" id="r_gac20cf6ba073a7db1e2df313fb87d9517"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac20cf6ba073a7db1e2df313fb87d9517">MR::MeshIntersectionCallback</a> = std::function&lt;bool(const <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &amp;)&gt;</td></tr>
 <tr class="separator:gac20cf6ba073a7db1e2df313fb87d9517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4349e23b1c03bbeb120c81f3cbb8b615" id="r_ga4349e23b1c03bbeb120c81f3cbb8b615"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">MR::FoundBoxedTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( FaceId found, Ball3f &amp; ball )&gt;</td></tr>
+<tr class="separator:ga4349e23b1c03bbeb120c81f3cbb8b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3fa10deed3f5f765a28d62f2a9667c0f" id="r_ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">MR::FoundTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, Ball3f &amp; ball )&gt;</td></tr>
-<tr class="memdesc:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every triangle at least partially in the ball, and allows to change the ball  <br /></td></tr>
+<tr class="memdesc:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every triangle at least partially in the ball, and allows changing (shrinking only) the ball  <br /></td></tr>
 <tr class="separator:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac2b944209dd41b786a30b1d537639470" id="r_gac2b944209dd41b786a30b1d537639470"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:gac2b944209dd41b786a30b1d537639470"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac2b944209dd41b786a30b1d537639470">MR::FoundEdgeCallback</a> = std::function&lt;void( UndirectedEdgeId, const V&amp; closestPt, float distSq )&gt;</td></tr>
@@ -393,8 +395,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga415d472754b9db893c0765c00951faad" id="r_ga415d472754b9db893c0765c00951faad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga415d472754b9db893c0765c00951faad">MR::findProjectionSubtree</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
 <tr class="memdesc:ga415d472754b9db893c0765c00951faad"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:ga415d472754b9db893c0765c00951faad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b8bb4a57a94133b6563903c8c156c3e" id="r_ga6b8bb4a57a94133b6563903c8c156c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b8bb4a57a94133b6563903c8c156c3e">MR::findTrisInBall</a> (const MeshPart &amp;mp, Ball3f ball, const <a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> &amp;foundCallback, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
-<tr class="separator:ga6b8bb4a57a94133b6563903c8c156c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga565cdeaec23b7bd65c3776723571fac0" id="r_ga565cdeaec23b7bd65c3776723571fac0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga565cdeaec23b7bd65c3776723571fac0">MR::findBoxedTrisInBall</a> (const MeshPart &amp;mp, Ball3f ball, const <a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">FoundBoxedTriCallback</a> &amp;foundCallback)</td></tr>
+<tr class="separator:ga565cdeaec23b7bd65c3776723571fac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga354aa28c5105859923d024949d724b5f" id="r_ga354aa28c5105859923d024949d724b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga354aa28c5105859923d024949d724b5f">MR::findTrisInBall</a> (const MeshPart &amp;mp, const Ball3f &amp;ball, const <a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> &amp;foundCallback, const <a class="el" href="namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
+<tr class="separator:ga354aa28c5105859923d024949d724b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44d0cb5151cae38d27130277c50301bc" id="r_ga44d0cb5151cae38d27130277c50301bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44d0cb5151cae38d27130277c50301bc">MR::findSignedDistance</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga44d0cb5151cae38d27130277c50301bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
 <tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -537,6 +541,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ga4349e23b1c03bbeb120c81f3cbb8b615" name="ga4349e23b1c03bbeb120c81f3cbb8b615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4349e23b1c03bbeb120c81f3cbb8b615">&#9670;&#160;</a></span>FoundBoxedTriCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">MR::FoundBoxedTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( FaceId found, Ball3f &amp; ball )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this callback is invoked on every triangle with bounding box at least partially in the ball (the triangle itself can be fully out of ball), and allows changing (shrinking only) the ball </p>
+
+</div>
+</div>
 <a id="gac2b944209dd41b786a30b1d537639470" name="gac2b944209dd41b786a30b1d537639470"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gac2b944209dd41b786a30b1d537639470">&#9670;&#160;</a></span>FoundEdgeCallback</h2>
 
@@ -593,7 +612,7 @@ template&lt;typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>this callback is invoked on every triangle at least partially in the ball, and allows to change the ball </p>
+<p>this callback is invoked on every triangle at least partially in the ball, and allows changing (shrinking only) the ball </p>
 
 </div>
 </div>
@@ -770,6 +789,33 @@ template&lt;typename V &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>structure with simplified transforms</dd></dl>
+
+</div>
+</div>
+<a id="ga565cdeaec23b7bd65c3776723571fac0" name="ga565cdeaec23b7bd65c3776723571fac0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga565cdeaec23b7bd65c3776723571fac0">&#9670;&#160;</a></span>findBoxedTrisInBall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findBoxedTrisInBall </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ball3f</td>          <td class="paramname"><span class="paramname"><em>ball</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">FoundBoxedTriCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>enumerates all triangles with bounding boxes at least partially in the ball (the triangles themselves can be fully out of ball) until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand </p>
 
 </div>
 </div>
@@ -2740,8 +2786,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga6b8bb4a57a94133b6563903c8c156c3e" name="ga6b8bb4a57a94133b6563903c8c156c3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6b8bb4a57a94133b6563903c8c156c3e">&#9670;&#160;</a></span>findTrisInBall()</h2>
+<a id="ga354aa28c5105859923d024949d724b5f" name="ga354aa28c5105859923d024949d724b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga354aa28c5105859923d024949d724b5f">&#9670;&#160;</a></span>findTrisInBall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2754,7 +2800,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Ball3f</td>          <td class="paramname"><span class="paramname"><em>ball</em></span>, </td>
+          <td class="paramtype">const Ball3f &amp;</td>          <td class="paramname"><span class="paramname"><em>ball</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

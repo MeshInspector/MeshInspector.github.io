@@ -521,6 +521,7 @@ var annotated_dup =
       [ "MeshOrPointsObject", "classMR_1_1MeshOrPointsObject.html", "classMR_1_1MeshOrPointsObject" ],
       [ "MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", "structMR_1_1MeshOrPointsXf" ],
       [ "MeshPoint", "structMR_1_1MeshPoint.html", "structMR_1_1MeshPoint" ],
+      [ "MeshPointAndDistance", "structMR_1_1MeshPointAndDistance.html", "structMR_1_1MeshPointAndDistance" ],
       [ "MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", "structMR_1_1MeshProjectionParameters" ],
       [ "MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", "structMR_1_1MeshProjectionResult" ],
       [ "MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", "structMR_1_1MeshProjectionTransforms" ],

@@ -1003,6 +1003,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshPoint.html">MeshPoint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the point of measurement on mesh  <a href="structMR_1_1MeshPoint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a></td></tr>
@@ -2228,8 +2230,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a51c5c9bdf012ab12e360b5e161bb378e" id="r_a51c5c9bdf012ab12e360b5e161bb378e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51c5c9bdf012ab12e360b5e161bb378e">ProjectOnAllCallback</a> = std::function&lt;void( ObjId, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a> )&gt;</td></tr>
 <tr class="memdesc:a51c5c9bdf012ab12e360b5e161bb378e"><td class="mdescLeft">&#160;</td><td class="mdescRight">to receive object id + projection result on it  <br /></td></tr>
 <tr class="separator:a51c5c9bdf012ab12e360b5e161bb378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4349e23b1c03bbeb120c81f3cbb8b615" id="r_ga4349e23b1c03bbeb120c81f3cbb8b615"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga4349e23b1c03bbeb120c81f3cbb8b615">FoundBoxedTriCallback</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>( FaceId found, Ball3f &amp; ball )&gt;</td></tr>
+<tr class="separator:ga4349e23b1c03bbeb120c81f3cbb8b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3fa10deed3f5f765a28d62f2a9667c0f" id="r_ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, Ball3f &amp; ball )&gt;</td></tr>
-<tr class="memdesc:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every triangle at least partially in the ball, and allows to change the ball  <br /></td></tr>
+<tr class="memdesc:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every triangle at least partially in the ball, and allows changing (shrinking only) the ball  <br /></td></tr>
 <tr class="separator:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc39cd0582abbbb48612bd904fe74210" id="r_acc39cd0582abbbb48612bd904fe74210"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc39cd0582abbbb48612bd904fe74210">ICPObjects</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, ObjId&gt;</td></tr>
 <tr class="separator:acc39cd0582abbbb48612bd904fe74210"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3163,6 +3167,8 @@ Functions</h2></td></tr>
 <tr class="separator:a07cd1a9d21a19c74c8634fe0cc567a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac55cb1be58afd31c59d36e8b7f694d" id="r_a7ac55cb1be58afd31c59d36e8b7f694d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PointAndDistance.html">PointAndDistance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ac55cb1be58afd31c59d36e8b7f694d">findClosestWeightedPoint</a> (const Vector3f &amp;loc, const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const <a class="el" href="structMR_1_1DistanceFromWeightedPointsComputeParams.html">DistanceFromWeightedPointsComputeParams</a> &amp;params)</td></tr>
 <tr class="separator:a7ac55cb1be58afd31c59d36e8b7f694d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9539c3875b76b2c903199487856a95eb" id="r_a9539c3875b76b2c903199487856a95eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9539c3875b76b2c903199487856a95eb">findClosestWeightedMeshPoint</a> (const Vector3f &amp;loc, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DistanceFromWeightedPointsComputeParams.html">DistanceFromWeightedPointsComputeParams</a> &amp;params)</td></tr>
+<tr class="separator:a9539c3875b76b2c903199487856a95eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02de87b02beba8a1ce3c03e425646045" id="r_a02de87b02beba8a1ce3c03e425646045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02de87b02beba8a1ce3c03e425646045">findSmallestCloseVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float closeDist, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:a02de87b02beba8a1ce3c03e425646045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89fc2fa34c591add37820e2a281513f8" id="r_a89fc2fa34c591add37820e2a281513f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89fc2fa34c591add37820e2a281513f8">findSmallestCloseVertices</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float closeDist, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
@@ -4338,8 +4344,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga415d472754b9db893c0765c00951faad" id="r_ga415d472754b9db893c0765c00951faad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga415d472754b9db893c0765c00951faad">findProjectionSubtree</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
 <tr class="memdesc:ga415d472754b9db893c0765c00951faad"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:ga415d472754b9db893c0765c00951faad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b8bb4a57a94133b6563903c8c156c3e" id="r_ga6b8bb4a57a94133b6563903c8c156c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga6b8bb4a57a94133b6563903c8c156c3e">findTrisInBall</a> (const MeshPart &amp;mp, Ball3f ball, const <a class="el" href="group__AABBTreeGroup.html#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> &amp;foundCallback, const <a class="el" href="#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
-<tr class="separator:ga6b8bb4a57a94133b6563903c8c156c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga565cdeaec23b7bd65c3776723571fac0" id="r_ga565cdeaec23b7bd65c3776723571fac0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga565cdeaec23b7bd65c3776723571fac0">findBoxedTrisInBall</a> (const MeshPart &amp;mp, Ball3f ball, const <a class="el" href="group__AABBTreeGroup.html#ga4349e23b1c03bbeb120c81f3cbb8b615">FoundBoxedTriCallback</a> &amp;foundCallback)</td></tr>
+<tr class="separator:ga565cdeaec23b7bd65c3776723571fac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga354aa28c5105859923d024949d724b5f" id="r_ga354aa28c5105859923d024949d724b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga354aa28c5105859923d024949d724b5f">findTrisInBall</a> (const MeshPart &amp;mp, const Ball3f &amp;ball, const <a class="el" href="group__AABBTreeGroup.html#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> &amp;foundCallback, const <a class="el" href="#a2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
+<tr class="separator:ga354aa28c5105859923d024949d724b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44d0cb5151cae38d27130277c50301bc" id="r_ga44d0cb5151cae38d27130277c50301bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc">findSignedDistance</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga44d0cb5151cae38d27130277c50301bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
 <tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6142,8 +6150,13 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a97704b50e2575f56c70ea748539e9b89" id="r_a97704b50e2575f56c70ea748539e9b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97704b50e2575f56c70ea748539e9b89">weightedPointsToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a97704b50e2575f56c70ea748539e9b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing minimal distance to weighted points  <br /></td></tr>
 <tr class="separator:a97704b50e2575f56c70ea748539e9b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a927cb8d59958288a2e8a0dcb52a29055" id="r_a927cb8d59958288a2e8a0dcb52a29055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a927cb8d59958288a2e8a0dcb52a29055">weightedMeshToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a927cb8d59958288a2e8a0dcb52a29055"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing minimal distance to mesh with weighted vertices  <br /></td></tr>
+<tr class="separator:a927cb8d59958288a2e8a0dcb52a29055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a803b70c7a4f4e1bb86da43dd7142977c" id="r_a803b70c7a4f4e1bb86da43dd7142977c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a803b70c7a4f4e1bb86da43dd7142977c">weightedPointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;params)</td></tr>
 <tr class="separator:a803b70c7a4f4e1bb86da43dd7142977c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a4c90b6a280226cfeb6b4d3167e8a3b" id="r_a1a4c90b6a280226cfeb6b4d3167e8a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a4c90b6a280226cfeb6b4d3167e8a3b">weightedMeshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;params)</td></tr>
+<tr class="separator:a1a4c90b6a280226cfeb6b4d3167e8a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:gadd9e6c77ae3fdf22797b82342a1ee1f3" id="r_gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gadd9e6c77ae3fdf22797b82342a1ee1f3">identityMetric</a> ()</td></tr>
 <tr class="memdesc:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">metric returning 1 for every edge  <br /></td></tr>
@@ -15545,6 +15558,41 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>pair closest edge and according index of hole in holeRepresentativeEdges </dd></dl>
+
+</div>
+</div>
+<a id="a9539c3875b76b2c903199487856a95eb" name="a9539c3875b76b2c903199487856a95eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9539c3875b76b2c903199487856a95eb">&#9670;&#160;</a></span>findClosestWeightedMeshPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a> MR::findClosestWeightedMeshPoint </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>loc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceFromWeightedPointsComputeParams.html">DistanceFromWeightedPointsComputeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), finds the point on given mesh with minimal distance to given 3D location </p>
 
 </div>
 </div>
@@ -33794,6 +33842,67 @@ template&lt;typename Volume &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Same as above but for the SceneObject </p><dl class="section return"><dt>Returns</dt><dd>true, if <code>fixBox</code> is true and the box was "fixed" (see parameter <code>fixBox</code> of <a class="el" href="#ac14a641817ef5f1b6be67b3a90a3cb68">transformVdbVolume</a>) </dd></dl>
+
+</div>
+</div>
+<a id="a1a4c90b6a280226cfeb6b4d3167e8a3b" name="a1a4c90b6a280226cfeb6b4d3167e8a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a4c90b6a280226cfeb6b4d3167e8a3b">&#9670;&#160;</a></span>weightedMeshShell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::weightedMeshShell </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes </p>
+
+</div>
+</div>
+<a id="a927cb8d59958288a2e8a0dcb52a29055" name="a927cb8d59958288a2e8a0dcb52a29055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a927cb8d59958288a2e8a0dcb52a29055">&#9670;&#160;</a></span>weightedMeshToDistanceFunctionVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume MR::weightedMeshToDistanceFunctionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>makes FunctionVolume representing minimal distance to mesh with weighted vertices </p>
 
 </div>
 </div>
