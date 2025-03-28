@@ -297,8 +297,10 @@ var group__HistoryGroup =
       [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410", null ],
       [ "ChangeType", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4", [
         [ "AppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727", null ],
-        [ "Undo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119", null ],
-        [ "Redo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6", null ],
+        [ "PreUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2", null ],
+        [ "PostUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c", null ],
+        [ "PreRedo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1", null ],
+        [ "PostRedo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2", null ],
         [ "Clear", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2", null ],
         [ "PopAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f", null ],
         [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]

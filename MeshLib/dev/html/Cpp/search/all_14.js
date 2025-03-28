@@ -79,7 +79,7 @@ var searchData=
   ['rectrectoverlap_76',['rectRectOverlap',['../classMR_1_1UI_1_1RectAllocator.html#a91ef8171f989554a528459da9f0c603a',1,'MR::UI::RectAllocator']]],
   ['red_77',['red',['../../Py/classmrmeshpy_1_1Color.html#a875849e70ad2b84f7c73ad0562a3d5e7',1,'mrmeshpy::Color::red()'],['../structMR_1_1Color.html#a9f743712af5597ae9e55d338143d10c6',1,'MR::Color::red()']]],
   ['redirectstdstreamstologger_78',['redirectSTDStreamsToLogger',['../group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f',1,'MR']]],
-  ['redo_79',['Redo',['../../Py/classmrmeshpy_1_1HistoryAction_1_1Type.html#a6e5815c7c990327684b69e4429f37b00',1,'mrmeshpy::HistoryAction::Type::Redo'],['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryStore::Redo']]],
+  ['redo_79',['Redo',['../../Py/classmrmeshpy_1_1HistoryAction_1_1Type.html#a6e5815c7c990327684b69e4429f37b00',1,'mrmeshpy::HistoryAction::Type::Redo'],['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo']]],
   ['redo_80',['redo',['../classMR_1_1HistoryStore.html#a5c5f420102ae277252e92dea8b27fa2f',1,'MR::HistoryStore']]],
   ['reduce_81',['reduce',['../namespaceMR_1_1ImGuiMath.html#ae3d880600a263c7ca9020c136c89220f',1,'MR::ImGuiMath']]],
   ['reducepath_82',['reducePath',['../../Py/namespacemrmeshpy.html#a803eb8974584f57d59b50f0c4f1d15a9',1,'mrmeshpy::reducePath()'],['../group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe',1,'MR::reducePath()']]],

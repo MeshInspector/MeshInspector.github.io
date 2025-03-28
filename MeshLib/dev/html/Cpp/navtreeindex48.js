@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1VisualObject.html#a76988bf72aa3be996e864fec3ab47ed2":[6,0,0,11,2,5,23],
+"classMR_1_1VisualObject.html#a76b7b6b3bfd7dac31eb1d150afb761f7":[6,0,0,11,2,5,70],
 "classMR_1_1VisualObject.html#a7c703445b89c896790544b583d052e9f":[6,0,0,11,2,5,39],
 "classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee":[6,0,0,11,2,5,4],
 "classMR_1_1VisualObject.html#a88b3d55070a6a91ed592e80b0f925419":[6,0,0,11,2,5,88],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,1,0,1,6,1,11],
 "conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,790],
 "conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,789],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,12,0,8],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,12,0,12],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,12,0,9]
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,12,0,8]
 };

@@ -5,7 +5,7 @@ var searchData=
   ['uint32_2',['UInt32',['../namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd',1,'MR']]],
   ['uint64_3',['UInt64',['../namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a',1,'MR']]],
   ['uint8_4',['UInt8',['../namespaceMR.html#a5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a',1,'MR']]],
-  ['undo_5',['Undo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119',1,'MR::HistoryAction::Undo'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119',1,'MR::HistoryStore::Undo']]],
+  ['undo_5',['Undo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119',1,'MR::HistoryAction']]],
   ['uniformscale_6',['UniformScale',['../classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7',1,'MR::MoveObjectByMouseImpl']]],
   ['uniformscaling_7',['UniformScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454',1,'MR::ObjectTransformWidget']]],
   ['union_8',['Union',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c',1,'MR::Union'],['../namespaceMR.html#a58525252a9ee9abb57d352127584531faaef12e903e606a4895a16b393bfdec8c',1,'MR::Union']]],
