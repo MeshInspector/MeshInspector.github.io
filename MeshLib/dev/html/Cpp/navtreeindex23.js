@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[6,0,1,0,1,248,0],
+"classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[6,0,2,0,1,232,0],
 "classMR_1_1FreeFormDeformer.html":[6,0,1,0,1,249],
 "classMR_1_1FreeFormDeformer.html":[6,0,2,0,1,233],
 "classMR_1_1FreeFormDeformer.html#a2a9d732a3f8a4e282739319c0a79eb95":[6,0,1,0,1,249,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[6,0,1,0,1,263,2],
 "classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[6,0,2,0,1,247,2],
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[6,0,1,0,1,263,0],
-"classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[6,0,2,0,1,247,0],
-"classMR_1_1Heap.html":[6,0,0,3,7],
-"classMR_1_1Heap.html#a1f246bfe3c0676ad56a521a5b696d195":[6,0,0,3,7,7]
+"classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[6,0,2,0,1,247,0]
 };

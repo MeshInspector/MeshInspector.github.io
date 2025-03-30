@@ -7,6 +7,7 @@ var MRTriMath_8h =
     [ "circumcircleCenter", "MRTriMath_8h.html#afebaea1321bcf85ccd6401870196c3fd", null ],
     [ "circumcircleDiameter", "MRTriMath_8h.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
     [ "circumcircleDiameterSq", "MRTriMath_8h.html#ga97b0c226492f4561c1a2c13831433bed", null ],
+    [ "cotan", "MRTriMath_8h.html#a66e1bd83c47751c3265e376c45b67b29", null ],
     [ "dblArea", "MRTriMath_8h.html#ae3bb1f96cee445baf5867b057f5d6b73", null ],
     [ "dblArea", "MRTriMath_8h.html#a8cf43b097e552b51cea5e2fa012eb286", null ],
     [ "dblAreaSq", "MRTriMath_8h.html#af848b7a93acc5e03bfea1f8bcc3ffdb7", null ],
@@ -28,6 +29,7 @@ var MRTriMath_8h =
     [ "quadrangleOtherDiagonal", "MRTriMath_8h.html#a5297fdab91151bf439ef0099926fc204", null ],
     [ "tangentPlaneNormalToSpheres", "MRTriMath_8h.html#abaf47dc289648ef63121a1fcf174d80b", null ],
     [ "tangentPlaneToSpheres", "MRTriMath_8h.html#a9d52e943714d673d29e28fcb67d1e72d", null ],
+    [ "tanSqOfHalfAngle", "MRTriMath_8h.html#a58d651ce07dc2f9fd98bdf7366183861", null ],
     [ "triangleAspectRatio", "MRTriMath_8h.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9", null ],
     [ "triangleWithNormal", "MRTriMath_8h.html#a5b210182919ce9a4fe5cdce5115f4cc3", null ]
 ];

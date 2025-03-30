@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"MRUIStyle_8h.html#afc1009af05439b78707e8372d21f9a87":[6,0,3,0,0,1,10,127,53],
+"MRUIStyle_8h.html#afe9bb305085b442bd865e843c59cb03f":[6,0,3,0,0,1,10,127,28],
 "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f":[6,0,3,0,0,1,10,127,21],
 "MRUIStyle_8h_source.html":[6,0,3,0,0,1,10,127],
 "MRUITestEngine_8h.html":[6,0,3,0,0,1,10,128],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "MRVolumeShader_8h_source.html":[6,0,3,0,0,1,10,146],
 "MRVoxelFilter_8h.html":[6,0,3,0,0,1,11,31],
 "MRVoxelFilter_8h.html#a8e520c62ea91e9695f96c3e9340d730a":[6,0,3,0,0,1,11,31,0],
-"MRVoxelFilter_8h.html#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d":[6,0,3,0,0,1,11,31,0,1],
-"MRVoxelFilter_8h.html#a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2":[6,0,3,0,0,1,11,31,0,0],
-"MRVoxelFilter_8h.html#a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d":[6,0,3,0,0,1,11,31,0,2]
+"MRVoxelFilter_8h.html#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d":[6,0,3,0,0,1,11,31,0,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1PolylineProjectionResult.html":[6,0,0,1,32],
+"structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[6,0,0,1,32,3],
+"structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c":[6,0,0,1,32,0],
+"structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[6,0,0,1,32,1],
 "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[6,0,0,1,32,2],
 "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[6,0,0,1,32,4],
 "structMR_1_1PolylineProjectionWithOffsetResult.html":[6,0,0,1,33],
@@ -245,9 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418":[6,0,2,0,1,525,10],
 "structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453":[6,0,1,0,1,541,1],
 "structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453":[6,0,2,0,1,525,1],
-"structMR_1_1RebuildMeshSettings.html#a7e182394b11ff51cd7695df3a953505a":[6,0,1,0,1,541,0],
-"structMR_1_1RebuildMeshSettings.html#a7e182394b11ff51cd7695df3a953505a":[6,0,2,0,1,525,0],
-"structMR_1_1RebuildMeshSettings.html#ab3fd176a4586472f781779fd1126f50c":[6,0,1,0,1,541,5],
-"structMR_1_1RebuildMeshSettings.html#ab3fd176a4586472f781779fd1126f50c":[6,0,2,0,1,525,5],
-"structMR_1_1RebuildMeshSettings.html#ac305c46895a7bfd2a0af7ccfe1b5cb2e":[6,0,1,0,1,541,9]
+"structMR_1_1RebuildMeshSettings.html#a7e182394b11ff51cd7695df3a953505a":[6,0,1,0,1,541,0]
 };
