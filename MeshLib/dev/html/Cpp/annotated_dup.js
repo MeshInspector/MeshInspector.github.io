@@ -362,6 +362,7 @@ var annotated_dup =
       [ "DrawButtonParams", "structMR_1_1DrawButtonParams.html", "structMR_1_1DrawButtonParams" ],
       [ "DrawListener", "structMR_1_1DrawListener.html", "structMR_1_1DrawListener" ],
       [ "DrawSceneUiListener", "structMR_1_1DrawSceneUiListener.html", "structMR_1_1DrawSceneUiListener" ],
+      [ "EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", "structMR_1_1EdgeLengthMesh" ],
       [ "EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", "classMR_1_1EdgePathsAStarBuilder" ],
       [ "EdgePathsBuilderT", "classMR_1_1EdgePathsBuilderT.html", "classMR_1_1EdgePathsBuilderT" ],
       [ "EdgePoint", "structMR_1_1EdgePoint.html", "structMR_1_1EdgePoint" ],

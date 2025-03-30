@@ -41,6 +41,7 @@ var classmrmeshpy_1_1Mesh =
     [ "discreteMeanCurvature", "classmrmeshpy_1_1Mesh.html#a053fbfc5abbe255ddfdc0cd8a02e49c9", null ],
     [ "edgeCenter", "classmrmeshpy_1_1Mesh.html#a6dc9f44657f4ac6c664636445c1c8fd2", null ],
     [ "edgeLength", "classmrmeshpy_1_1Mesh.html#a402590d4144379e3280089f0aaed2b01", null ],
+    [ "edgeLengths", "classmrmeshpy_1_1Mesh.html#a712b0f6a202b59efe243253fef6f8ccf", null ],
     [ "edgeLengthSq", "classmrmeshpy_1_1Mesh.html#a37e83e4c7e1761195f12e5983b3575bd", null ],
     [ "edgePoint", "classmrmeshpy_1_1Mesh.html#a8e3cfb7901b3bff84d4ab90cea9b6ed8", null ],
     [ "edgePoint", "classmrmeshpy_1_1Mesh.html#a8bf91c12c38e69b5c7042ae9b74894e3", null ],

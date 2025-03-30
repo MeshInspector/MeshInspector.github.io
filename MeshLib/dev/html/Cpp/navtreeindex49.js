@@ -1,18 +1,20 @@
 var NAVTREEINDEX49 =
 {
-"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,789],
+"conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,1,0,1,6,1,11],
+"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,791],
+"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,790],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,12,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,12,0,12],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,12,0,9],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,12,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,12,0,11],
-"conceptMR_1_1Trivial.html":[6,0,1,0,1,788],
+"conceptMR_1_1Trivial.html":[6,0,1,0,1,789],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,38,1,5],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,1,0,1,38,0,0],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,1,0,1,38,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,1,0,1,38,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,38,0,1],
-"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,792],
+"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,793],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[6,0,1,0,1,3,0,1],
 "dir_0548e20a3bcd59381bf0bdb32f67cd97.html":[6,0,3,0,0,1,11],
 "dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "group__AABBTreeGroup.html#ga8b2db465de4ef2df4f0f85fa142a612f":[6,0,0,1,114],
 "group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283":[6,0,0,1,43],
 "group__AABBTreeGroup.html#ga8c7d357b072699f62023d97ea1c81f45":[6,0,0,1,56],
-"group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d":[6,0,0,1,113],
-"group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6":[6,0,0,1,44],
-"group__AABBTreeGroup.html#ga939afe34134c1d66c9ca5f19e33dc323":[6,0,0,1,57]
+"group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d":[6,0,0,1,113]
 };

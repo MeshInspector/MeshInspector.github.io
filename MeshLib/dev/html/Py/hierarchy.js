@@ -233,6 +233,7 @@ var hierarchy =
     [ "mrmeshpy.PointsLoad.E57LoadSettings", "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html", null ],
     [ "mrmeshpy.EdgeBMap", "classmrmeshpy_1_1EdgeBMap.html", null ],
     [ "mrmeshpy.EdgeColors", "classmrmeshpy_1_1EdgeColors.html", null ],
+    [ "mrmeshpy.EdgeLengthMesh", "classmrmeshpy_1_1EdgeLengthMesh.html", null ],
     [ "mrmeshpy.EdgeMap", "classmrmeshpy_1_1EdgeMap.html", null ],
     [ "mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html", [
       [ "mrmeshpy.EdgePathsAStarBuilder", "classmrmeshpy_1_1EdgePathsAStarBuilder.html", null ]

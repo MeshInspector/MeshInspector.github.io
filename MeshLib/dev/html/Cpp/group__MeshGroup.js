@@ -1,5 +1,9 @@
 var group__MeshGroup =
 [
+    [ "MR::EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", [
+      [ "edgeLengths", "structMR_1_1EdgeLengthMesh.html#ae600eca420be35f1622258bf5830453c", null ],
+      [ "topology", "structMR_1_1EdgeLengthMesh.html#a8354d05ed17b358631b7af8e742c2773", null ]
+    ] ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", [
       [ "addMesh", "structMR_1_1Mesh.html#a03cc515eb0f81de63feaec528ea459d7", null ],
       [ "addMeshPart", "structMR_1_1Mesh.html#aedd6db47df16797afde108ccec581b21", null ],
@@ -40,6 +44,7 @@ var group__MeshGroup =
       [ "discreteMeanCurvature", "structMR_1_1Mesh.html#ab555df576a4de372990fabcac596979f", null ],
       [ "edgeCenter", "structMR_1_1Mesh.html#ad45947ba454ab92f4c8bacbcd94b17f4", null ],
       [ "edgeLength", "structMR_1_1Mesh.html#ad741164ba566adeb2830a4de3861bfd0", null ],
+      [ "edgeLengths", "structMR_1_1Mesh.html#a67d337f0047c38780bd0b9491f9d57ba", null ],
       [ "edgeLengthSq", "structMR_1_1Mesh.html#a4dda7695db1d721bc3cb64bb374c89c4", null ],
       [ "edgePoint", "structMR_1_1Mesh.html#abdbd41edd56e7e2c65589e9d7b0687fa", null ],
       [ "edgePoint", "structMR_1_1Mesh.html#a584a6ede1ccbc7e9568e03eb8abd4ed5", null ],

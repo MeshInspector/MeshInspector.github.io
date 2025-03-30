@@ -214,6 +214,7 @@ var annotated_dup =
       [ "EdgeBitSet", "classmrmeshpy_1_1EdgeBitSet.html", "classmrmeshpy_1_1EdgeBitSet" ],
       [ "EdgeBMap", "classmrmeshpy_1_1EdgeBMap.html", "classmrmeshpy_1_1EdgeBMap" ],
       [ "EdgeColors", "classmrmeshpy_1_1EdgeColors.html", "classmrmeshpy_1_1EdgeColors" ],
+      [ "EdgeLengthMesh", "classmrmeshpy_1_1EdgeLengthMesh.html", "classmrmeshpy_1_1EdgeLengthMesh" ],
       [ "EdgeMap", "classmrmeshpy_1_1EdgeMap.html", "classmrmeshpy_1_1EdgeMap" ],
       [ "EdgePathsAStarBuilder", "classmrmeshpy_1_1EdgePathsAStarBuilder.html", "classmrmeshpy_1_1EdgePathsAStarBuilder" ],
       [ "EdgePathsBuilderT_MetricToAStarPenalty", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty" ],
