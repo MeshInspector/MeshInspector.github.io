@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1Vector4i.html#a73568ee53c7ac41b6c41edba488e3ada":[6,1,0,0,2,1017,7],
+"classmrmeshpy_1_1Vector4i.html#a73568ee53c7ac41b6c41edba488e3ada":[6,1,1,0,1,1017,7],
+"classmrmeshpy_1_1Vector4i.html#a77f6231a206081b77338b911747e8a98":[6,1,0,0,2,1017,13],
+"classmrmeshpy_1_1Vector4i.html#a77f6231a206081b77338b911747e8a98":[6,1,1,0,1,1017,13],
 "classmrmeshpy_1_1Vector4i.html#a80f652d7383ccad5375cc4d196b4c91e":[6,1,0,0,2,1017,6],
 "classmrmeshpy_1_1Vector4i.html#a80f652d7383ccad5375cc4d196b4c91e":[6,1,1,0,1,1017,6],
 "classmrmeshpy_1_1Vector4i.html#a843d0c91edc175a6a51065bcbd09c26f":[6,1,0,0,2,1017,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a26fa912da8d395996ecea6d186e38afe":[6,1,0,0,2,1021,25],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a26fa912da8d395996ecea6d186e38afe":[6,1,1,0,1,1021,25],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a2c8ef897beb814e7cbe464006cabedea":[6,1,0,0,2,1021,35],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a2c8ef897beb814e7cbe464006cabedea":[6,1,1,0,1,1021,35],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a33d09f5379e4b0138f65620b4a0408bd":[6,1,0,0,2,1021,14],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a33d09f5379e4b0138f65620b4a0408bd":[6,1,1,0,1,1021,14],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a3bc12803d7e76237a41bcaf57df50356":[6,1,0,0,2,1021,30],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a3bc12803d7e76237a41bcaf57df50356":[6,1,1,0,1,1021,30]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a2c8ef897beb814e7cbe464006cabedea":[6,1,1,0,1,1021,35]
 };

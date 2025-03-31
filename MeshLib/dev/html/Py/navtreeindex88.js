@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a33d09f5379e4b0138f65620b4a0408bd":[6,1,0,0,2,1021,14],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a33d09f5379e4b0138f65620b4a0408bd":[6,1,1,0,1,1021,14],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a3bc12803d7e76237a41bcaf57df50356":[6,1,0,0,2,1021,30],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a3bc12803d7e76237a41bcaf57df50356":[6,1,1,0,1,1021,30],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a50cca30e7908a86a7074876c64f71b1a":[6,1,0,0,2,1021,32],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a50cca30e7908a86a7074876c64f71b1a":[6,1,1,0,1,1021,32],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5742dba9601f7e073327d6249868a57c":[6,1,0,0,2,1021,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#aae5161b5bf943b7357200e8bf8aa32f1":[6,1,1,0,1,1024,28],
 "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#aae5161b5bf943b7357200e8bf8aa32f1":[6,1,1,0,1,1024,29],
 "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ab01e5d77ba60dbda1807829b6477038e":[6,1,0,0,2,1024,22],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ab01e5d77ba60dbda1807829b6477038e":[6,1,1,0,1,1024,22],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ab4f6b7a3167934e7c94b769375c072d9":[6,1,0,0,2,1024,19],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ab4f6b7a3167934e7c94b769375c072d9":[6,1,0,0,2,1024,20],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ab4f6b7a3167934e7c94b769375c072d9":[6,1,1,0,1,1024,19],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ab4f6b7a3167934e7c94b769375c072d9":[6,1,1,0,1,1024,20]
+"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ab01e5d77ba60dbda1807829b6477038e":[6,1,1,0,1,1024,22]
 };
