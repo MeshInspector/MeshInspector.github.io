@@ -1,5 +1,11 @@
 var NAVTREEINDEX136 =
 {
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#aca26373cdf6df3d7f53628b65bf68c7f":[6,1,0,0,2,908,15],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#aca26373cdf6df3d7f53628b65bf68c7f":[6,1,1,0,1,908,15],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#ade78bb87941aed19f212cf1d502319ea":[6,1,0,0,2,908,2],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#ade78bb87941aed19f212cf1d502319ea":[6,1,1,0,1,908,2],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#ae0c485a66ab75076d94c0544279eaeae":[6,1,0,0,2,908,13],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#ae0c485a66ab75076d94c0544279eaeae":[6,1,1,0,1,908,13],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html":[6,1,0,0,2,909],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html":[6,1,1,0,1,909],
 "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#a0cf1419026e7c786855347f1841cafde":[6,1,0,0,2,909,25],
@@ -243,11 +249,5 @@ var NAVTREEINDEX136 =
 "classmrmeshpy_1_1std__vector__TriPoint__float.html":[6,1,0,0,2,915],
 "classmrmeshpy_1_1std__vector__TriPoint__float.html":[6,1,1,0,1,915],
 "classmrmeshpy_1_1std__vector__TriPoint__float.html#a02c3cfb738537b6cebb42938f3a1fa09":[6,1,0,0,2,915,27],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a02c3cfb738537b6cebb42938f3a1fa09":[6,1,1,0,1,915,27],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a1ab18e7d5dd0114d26626795937a9ce0":[6,1,0,0,2,915,17],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a1ab18e7d5dd0114d26626795937a9ce0":[6,1,1,0,1,915,17],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a3145fecf717ad12edfffd44ab24c46fe":[6,1,0,0,2,915,18],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a3145fecf717ad12edfffd44ab24c46fe":[6,1,1,0,1,915,18],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a3694a543b109acb3018c5295718580ea":[6,1,0,0,2,915,23],
-"classmrmeshpy_1_1std__vector__TriPoint__float.html#a3694a543b109acb3018c5295718580ea":[6,1,1,0,1,915,23]
+"classmrmeshpy_1_1std__vector__TriPoint__float.html#a02c3cfb738537b6cebb42938f3a1fa09":[6,1,1,0,1,915,27]
 };

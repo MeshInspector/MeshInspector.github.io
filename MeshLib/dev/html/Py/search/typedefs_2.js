@@ -37,7 +37,8 @@ var searchData=
   ['cudafreememoryfunc_34',['CudaFreeMemoryFunc',['../../Cpp/classMR_1_1CudaAccessor.html#aa67f49b71c900e67a603dc5a6960d567',1,'MR::CudaAccessor']]],
   ['cudafwnconstructor_35',['CudaFwnConstructor',['../../Cpp/classMR_1_1CudaAccessor.html#a29c59af2c526ce1b2b126dd201c3a7fb',1,'MR::CudaAccessor']]],
   ['cudameshprojectorconstructor_36',['CudaMeshProjectorConstructor',['../../Cpp/classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9',1,'MR::CudaAccessor']]],
-  ['cudapointstodistancevolumebypartscallback_37',['CudaPointsToDistanceVolumeByPartsCallback',['../../Cpp/classMR_1_1CudaAccessor.html#ab4da14893aa8c8e22579f15c1bb64991',1,'MR::CudaAccessor']]],
-  ['cudapointstodistancevolumecallback_38',['CudaPointsToDistanceVolumeCallback',['../../Cpp/classMR_1_1CudaAccessor.html#a7acccf65074e9ea99f88143c0ba0816a',1,'MR::CudaAccessor']]],
-  ['cursorentrancesignal_39',['CursorEntranceSignal',['../../Cpp/classMR_1_1Viewer.html#a2af4faf6f3c5c1c112b74670726a060f',1,'MR::Viewer']]]
+  ['cudapointsprojectorconstructor_37',['CudaPointsProjectorConstructor',['../../Cpp/classMR_1_1CudaAccessor.html#aed0df442f81500a1fcba3ff380f44190',1,'MR::CudaAccessor']]],
+  ['cudapointstodistancevolumebypartscallback_38',['CudaPointsToDistanceVolumeByPartsCallback',['../../Cpp/classMR_1_1CudaAccessor.html#ab4da14893aa8c8e22579f15c1bb64991',1,'MR::CudaAccessor']]],
+  ['cudapointstodistancevolumecallback_39',['CudaPointsToDistanceVolumeCallback',['../../Cpp/classMR_1_1CudaAccessor.html#a7acccf65074e9ea99f88143c0ba0816a',1,'MR::CudaAccessor']]],
+  ['cursorentrancesignal_40',['CursorEntranceSignal',['../../Cpp/classMR_1_1Viewer.html#a2af4faf6f3c5c1c112b74670726a060f',1,'MR::Viewer']]]
 ];

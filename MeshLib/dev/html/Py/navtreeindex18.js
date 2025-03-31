@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classmrmeshpy_1_1DecimateSettings.html#adad31f6a7b6728b22b02a25f9b905e20":[6,1,0,0,2,176,36],
+"classmrmeshpy_1_1DecimateSettings.html#adad31f6a7b6728b22b02a25f9b905e20":[6,1,1,0,1,176,36],
 "classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8":[6,1,0,0,2,176,0],
 "classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8":[6,1,1,0,1,176,0],
 "classmrmeshpy_1_1DecimateSettings.html#adedd7b2c4a722f70c406137a76d6e076":[6,1,0,0,2,176,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classmrmeshpy_1_1DimensionsVisualizePropertyType.html#ab6c6b2617b43b637f3628e68594e41cf":[6,1,0,0,2,184,3],
 "classmrmeshpy_1_1DimensionsVisualizePropertyType.html#ab6c6b2617b43b637f3628e68594e41cf":[6,1,1,0,1,184,3],
 "classmrmeshpy_1_1DimensionsVisualizePropertyType.html#af582013ddb07df440b7e2b694bc9c040":[6,1,0,0,2,184,7],
-"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#af582013ddb07df440b7e2b694bc9c040":[6,1,1,0,1,184,7],
-"classmrmeshpy_1_1Dipole.html":[6,1,0,0,2,185],
-"classmrmeshpy_1_1Dipole.html":[6,1,1,0,1,185]
+"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#af582013ddb07df440b7e2b694bc9c040":[6,1,1,0,1,184,7]
 };

@@ -218,10 +218,12 @@ var group__AABBTreeGroup =
     [ "MR::IPointsProjector", "classMR_1_1IPointsProjector.html", [
       [ "~IPointsProjector", "classMR_1_1IPointsProjector.html#a2c0b970d9a78fe1a93045c851874c718", null ],
       [ "findProjections", "classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31", null ],
+      [ "projectionsHeapBytes", "classMR_1_1IPointsProjector.html#a4125cb715c028facd258f35767e5c66c", null ],
       [ "setPointCloud", "classMR_1_1IPointsProjector.html#ae6ae7b291953d433a794999d25ef10df", null ]
     ] ],
     [ "MR::PointsProjector", "classMR_1_1PointsProjector.html", [
       [ "findProjections", "classMR_1_1PointsProjector.html#a7f6e0c85341469a32a8424abb1a7e25f", null ],
+      [ "projectionsHeapBytes", "classMR_1_1PointsProjector.html#a2ae04a83d426c8411c3e839482a1f96f", null ],
       [ "setPointCloud", "classMR_1_1PointsProjector.html#abbb8bb3a25f447af9b6abe188662181a", null ]
     ] ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [

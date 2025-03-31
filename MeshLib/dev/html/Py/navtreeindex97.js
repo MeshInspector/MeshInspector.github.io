@@ -1,5 +1,11 @@
 var NAVTREEINDEX97 =
 {
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#acd1d79d743a2a348823f7d9fac77b30c":[6,1,0,0,2,1062,5],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#acd1d79d743a2a348823f7d9fac77b30c":[6,1,1,0,1,1062,5],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ad7380505334302de90ae9728c925218e":[6,1,0,0,2,1062,18],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ad7380505334302de90ae9728c925218e":[6,1,1,0,1,1062,18],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ad95bff0a784815c4f96b51545a5700e2":[6,1,0,0,2,1062,3],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ad95bff0a784815c4f96b51545a5700e2":[6,1,1,0,1,1062,3],
 "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#adbcb5ef7335a4617a1ee0cfc158bc944":[6,1,0,0,2,1062,4],
 "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#adbcb5ef7335a4617a1ee0cfc158bc944":[6,1,1,0,1,1062,4],
 "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ae3219fac9da2c53cc77436b6d3c22ca8":[6,1,0,0,2,1062,36],
@@ -243,11 +249,5 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1Vector__char__VertId.html#af8d252677ba571efe71c0a0d8361c562":[6,1,0,0,2,1025,15],
 "classmrmeshpy_1_1Vector__char__VertId.html#af8d252677ba571efe71c0a0d8361c562":[6,1,1,0,1,1025,15],
 "classmrmeshpy_1_1Vector__char__VertId.html#af8ed062d10b7d559807795c3f14c5568":[6,1,0,0,2,1025,6],
-"classmrmeshpy_1_1Vector__char__VertId.html#af8ed062d10b7d559807795c3f14c5568":[6,1,1,0,1,1025,6],
-"classmrmeshpy_1_1Vector__double__RegionId.html":[6,1,0,0,2,1026],
-"classmrmeshpy_1_1Vector__double__RegionId.html":[6,1,1,0,1,1026],
-"classmrmeshpy_1_1Vector__double__RegionId.html#a00d8428cfedc25729586c45b438bb797":[6,1,0,0,2,1026,11],
-"classmrmeshpy_1_1Vector__double__RegionId.html#a00d8428cfedc25729586c45b438bb797":[6,1,1,0,1,1026,11],
-"classmrmeshpy_1_1Vector__double__RegionId.html#a10f8f3ba8d81f4c189da29278d53066a":[6,1,0,0,2,1026,24],
-"classmrmeshpy_1_1Vector__double__RegionId.html#a10f8f3ba8d81f4c189da29278d53066a":[6,1,0,0,2,1026,25]
+"classmrmeshpy_1_1Vector__char__VertId.html#af8ed062d10b7d559807795c3f14c5568":[6,1,1,0,1,1025,6]
 };

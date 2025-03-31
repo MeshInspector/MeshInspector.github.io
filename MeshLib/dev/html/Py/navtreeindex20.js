@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1DistanceMapLoad.html":[6,1,0,0,2,192],
+"classmrmeshpy_1_1DistanceMapLoad.html":[6,1,1,0,1,192],
 "classmrmeshpy_1_1DistanceMapLoadSettings.html":[6,1,0,0,2,193],
 "classmrmeshpy_1_1DistanceMapLoadSettings.html":[6,1,1,0,1,193],
 "classmrmeshpy_1_1DistanceMapLoadSettings.html#a0951fbc209e69bfaa61d8d9d11786dd9":[6,1,0,0,2,193,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1DoubleOffsetSettings.html#a40103cda0d9b5938da3a56c2c45d9c31":[6,1,0,0,2,203,9],
 "classmrmeshpy_1_1DoubleOffsetSettings.html#a40103cda0d9b5938da3a56c2c45d9c31":[6,1,1,0,1,203,9],
 "classmrmeshpy_1_1DoubleOffsetSettings.html#a4d37e146f735968c7a61d3d025b37b02":[6,1,0,0,2,203,12],
-"classmrmeshpy_1_1DoubleOffsetSettings.html#a4d37e146f735968c7a61d3d025b37b02":[6,1,1,0,1,203,12],
-"classmrmeshpy_1_1DoubleOffsetSettings.html#a53ae29fe65a1dc5172b4407a4933f1b2":[6,1,0,0,2,203,11],
-"classmrmeshpy_1_1DoubleOffsetSettings.html#a53ae29fe65a1dc5172b4407a4933f1b2":[6,1,1,0,1,203,11]
+"classmrmeshpy_1_1DoubleOffsetSettings.html#a4d37e146f735968c7a61d3d025b37b02":[6,1,1,0,1,203,12]
 };

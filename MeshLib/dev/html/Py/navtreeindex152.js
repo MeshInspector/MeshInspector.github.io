@@ -1,5 +1,11 @@
 var NAVTREEINDEX152 =
 {
+"classmrviewerpy_1_1UiEntry.html#a339ffa1c03cb90632e3e73ef791d94d0":[6,1,0,0,3,2,0],
+"classmrviewerpy_1_1UiEntry.html#a339ffa1c03cb90632e3e73ef791d94d0":[6,1,1,0,2,2,0],
+"classmrviewerpy_1_1UiEntry.html#a90c564ce79faf100620c0b22fcaebed0":[6,1,0,0,3,2,2],
+"classmrviewerpy_1_1UiEntry.html#a90c564ce79faf100620c0b22fcaebed0":[6,1,1,0,2,2,2],
+"classmrviewerpy_1_1UiEntryType.html":[6,1,0,0,3,3],
+"classmrviewerpy_1_1UiEntryType.html":[6,1,1,0,2,3],
 "classmrviewerpy_1_1UiEntryType.html#a323e86ccfd37de384126cd81feede8bf":[6,1,0,0,3,3,4],
 "classmrviewerpy_1_1UiEntryType.html#a323e86ccfd37de384126cd81feede8bf":[6,1,1,0,2,3,4],
 "classmrviewerpy_1_1UiEntryType.html#a5a1288b4059aaaac51b3bcb4b3321cab":[6,1,0,0,3,3,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX152 =
 "functions_t.html":[6,1,1,3,0,19],
 "functions_u.html":[6,1,1,3,0,20],
 "functions_v.html":[6,1,1,3,0,21],
-"functions_vars.html":[6,1,1,3,2],
-"functions_vars.html":[6,1,1,3,2,0],
-"functions_vars_a.html":[6,1,1,3,2,1],
-"functions_vars_b.html":[6,1,1,3,2,2],
-"functions_vars_c.html":[6,1,1,3,2,3],
-"functions_vars_d.html":[6,1,1,3,2,4],
-"functions_vars_e.html":[6,1,1,3,2,5]
+"functions_vars.html":[6,1,1,3,2]
 };

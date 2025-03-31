@@ -177,6 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a77086b11972ae7a15d95d931e7083143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6a72bb3f39a828aea1904803d3c4160" id="r_af6a72bb3f39a828aea1904803d3c4160"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6a72bb3f39a828aea1904803d3c4160">findProjections</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__PointsProjectionResult.html">std_vector_PointsProjectionResult</a> results, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, <a class="el" href="classmrmeshpy_1_1FindProjectionOnPointsSettings.html">FindProjectionOnPointsSettings</a> settings)</td></tr>
 <tr class="separator:af6a72bb3f39a828aea1904803d3c4160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab198042c549452e08b3c932983a57c40" id="r_ab198042c549452e08b3c932983a57c40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab198042c549452e08b3c932983a57c40">projectionsHeapBytes</a> (self, int numProjections)</td></tr>
+<tr class="separator:ab198042c549452e08b3c932983a57c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7f2ecd90b73bc4336ba80fdae720af3" id="r_ad7f2ecd90b73bc4336ba80fdae720af3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7f2ecd90b73bc4336ba80fdae720af3">setPointCloud</a> (self, <a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a> pointCloud)</td></tr>
 <tr class="separator:ad7f2ecd90b73bc4336ba80fdae720af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -257,6 +259,30 @@ default implementation of IPointsProjector
 <pre class="fragment">computes the closest points on point cloud to given points
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IPointsProjector.html#afa2c9b10c80adcfb5b8c46413cc05cf1">mrmeshpy.IPointsProjector</a>.</p>
+
+</div>
+</div>
+<a id="ab198042c549452e08b3c932983a57c40" name="ab198042c549452e08b3c932983a57c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab198042c549452e08b3c932983a57c40">&#9670;&#160;</a></span>projectionsHeapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.PointsProjector.projectionsHeapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numProjections</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Returns amount of memory needed to compute projections
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IPointsProjector.html#a409289cddaaa02441fec92e9fb683666">mrmeshpy.IPointsProjector</a>.</p>
 
 </div>
 </div>

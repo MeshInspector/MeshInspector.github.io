@@ -1,5 +1,11 @@
 var NAVTREEINDEX62 =
 {
+"structMREdgeTri.html":[6,0,2,0,15],
+"structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,15,0],
+"structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9":[6,0,2,0,15,1],
+"structMRFaceId.html":[6,0,2,0,16],
+"structMRFaceId.html#a204eb026775902b1b2437f81f085f6f9":[6,0,2,0,16,0],
+"structMRFillHoleMetric.html":[6,0,2,0,17],
 "structMRFillHoleNicelyParams.html":[6,0,2,0,18],
 "structMRFillHoleNicelyParams.html#a0e8d72a772875d6f09126098f2cd3e00":[6,0,2,0,18,7],
 "structMRFillHoleNicelyParams.html#a22d1689535c4fb329d317ae2895d24fc":[6,0,2,0,18,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "structMRUniformSamplingSettings.html#adf1fd2bf0258a6c592623791f771562d":[6,0,2,0,63,1],
 "structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,63,3],
 "structMRUniformSamplingSettings.html#afea94f2de617154b2959a6ba91d5fea2":[6,0,2,0,63,0],
-"structMRVariableEdgeTri.html":[6,0,2,0,64],
-"structMRVariableEdgeTri.html#a8be7f6e499d16c435443e7ae803e2a5a":[6,0,2,0,64,0],
-"structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df":[6,0,2,0,64,2],
-"structMRVariableEdgeTri.html#afdb5363f5103bfde2cc6a6507f3f97f6":[6,0,2,0,64,1],
-"structMRVdbVolume.html":[6,0,2,0,65],
-"structMRVdbVolume.html#a1c5d0db6fc80b1b97e80c6374f2b8304":[6,0,2,0,65,3],
-"structMRVdbVolume.html#a848a2c12538a61e630304e97a1392252":[6,0,2,0,65,0]
+"structMRVariableEdgeTri.html":[6,0,2,0,64]
 };

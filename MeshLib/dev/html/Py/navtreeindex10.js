@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#aefc592a3cc34ad649ca22b720f3ae532":[6,1,0,0,2,85,15],
+"classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#aefc592a3cc34ad649ca22b720f3ae532":[6,1,1,0,1,85,15],
 "classmrmeshpy_1_1Buffer__NodeId__NodeId.html":[6,1,0,0,2,86],
 "classmrmeshpy_1_1Buffer__NodeId__NodeId.html":[6,1,1,0,1,86],
 "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a082acbca591ffebb14865e18189ed3d9":[6,1,0,0,2,86,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classmrmeshpy_1_1Buffer__VertId.html#a2551bd8d0345db51694dd456ecfa677c":[6,1,0,0,2,94,11],
 "classmrmeshpy_1_1Buffer__VertId.html#a2551bd8d0345db51694dd456ecfa677c":[6,1,1,0,1,94,11],
 "classmrmeshpy_1_1Buffer__VertId.html#a326a0cfa7e76d2580c44d9e9217ad602":[6,1,0,0,2,94,8],
-"classmrmeshpy_1_1Buffer__VertId.html#a326a0cfa7e76d2580c44d9e9217ad602":[6,1,1,0,1,94,8],
-"classmrmeshpy_1_1Buffer__VertId.html#a5918de0694c1c25532862776a56c4f17":[6,1,0,0,2,94,9],
-"classmrmeshpy_1_1Buffer__VertId.html#a5918de0694c1c25532862776a56c4f17":[6,1,0,0,2,94,10]
+"classmrmeshpy_1_1Buffer__VertId.html#a326a0cfa7e76d2580c44d9e9217ad602":[6,1,1,0,1,94,8]
 };
