@@ -22,6 +22,8 @@ var dir_ae78f784ae402f48d875196e46319a59 =
     [ "MRMeshTopology.h", "MRTestC_2MRMeshTopology_8h.html", "MRTestC_2MRMeshTopology_8h" ],
     [ "MRPointCloud.h", "MRTestC_2MRPointCloud_8h.html", "MRTestC_2MRPointCloud_8h" ],
     [ "MRVDBConversions.h", "MRTestC_2MRVDBConversions_8h.html", "MRTestC_2MRVDBConversions_8h" ],
+    [ "MRVector3.h", "MRTestC_2MRVector3_8h.html", "MRTestC_2MRVector3_8h" ],
+    [ "SimpleObjects.h", "SimpleObjects_8h.html", "SimpleObjects_8h" ],
     [ "TestFunctions.h", "TestFunctions_8h.html", "TestFunctions_8h" ],
     [ "TestMacros.h", "TestMacros_8h.html", "TestMacros_8h" ]
 ];
