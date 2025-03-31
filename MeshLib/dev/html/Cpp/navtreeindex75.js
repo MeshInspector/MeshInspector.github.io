@@ -1,5 +1,9 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[6,0,0,0,8,0,0,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[6,0,0,0,8,0,0,0],
+"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,1,0,1,400],
+"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,2,0,1,384],
 "structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58":[6,0,1,0,1,400,0],
 "structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58":[6,0,2,0,1,384,0],
 "structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58a2f3d2e7b83aab89388906ca92d0ca505":[6,0,1,0,1,400,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e":[6,0,1,0,1,446,2,0],
 "structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e":[6,0,2,0,1,430,2,0],
 "structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30":[6,0,1,0,1,446,2,1],
-"structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30":[6,0,2,0,1,430,2,1],
-"structMR_1_1OffsetContoursRestoreZParams.html":[6,0,1,0,1,447],
-"structMR_1_1OffsetContoursRestoreZParams.html":[6,0,2,0,1,431],
-"structMR_1_1OffsetContoursRestoreZParams.html#a1b3a2ad8c458d6b108bfb101240d3d2c":[6,0,1,0,1,447,0],
-"structMR_1_1OffsetContoursRestoreZParams.html#a1b3a2ad8c458d6b108bfb101240d3d2c":[6,0,2,0,1,431,0]
+"structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30":[6,0,2,0,1,430,2,1]
 };

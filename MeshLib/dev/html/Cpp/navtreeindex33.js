@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1ObjectVoxels.html#a2474b64ee36bdd0c3cbb7c2688559071":[6,0,0,11,14,26],
 "classMR_1_1ObjectVoxels.html#a286fc3a36e00873cc102a1a962b67cf5":[6,0,0,11,14,22],
 "classMR_1_1ObjectVoxels.html#a2b89808d3b55996770009742a602af5b":[6,0,0,11,14,38],
 "classMR_1_1ObjectVoxels.html#a2ce02d5c6f811849926b7409f892983f":[6,0,0,11,14,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1PickPointManager.html#ada6902120790d59fb87b99281b702b8c":[6,0,1,0,1,472,24],
 "classMR_1_1PickPointManager.html#ada6902120790d59fb87b99281b702b8c":[6,0,2,0,1,456,24],
 "classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,1,0,1,472,21],
-"classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,2,0,1,456,21],
-"classMR_1_1PickPointManager.html#adffaab931d52fa647870ad0274b3166f":[6,0,1,0,1,472,3]
+"classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,2,0,1,456,21]
 };

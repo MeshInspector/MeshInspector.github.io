@@ -152,6 +152,7 @@ $(function(){initNavTree('structMR_1_1EdgeLengthMesh.html',''); initResizable(tr
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1EdgeLengthMesh-members.html">List of all members</a>  </div>
@@ -161,6 +162,15 @@ $(function(){initNavTree('structMR_1_1EdgeLengthMesh.html',''); initResizable(tr
 
 <p><code>#include &lt;<a class="el" href="MREdgeLengthMesh_8h_source.html">MREdgeLengthMesh.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abdc61c2dae8f243c3682e0dfc637f536" id="r_abdc61c2dae8f243c3682e0dfc637f536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdc61c2dae8f243c3682e0dfc637f536">leftCotan</a> (EdgeId e) const</td></tr>
+<tr class="separator:abdc61c2dae8f243c3682e0dfc637f536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8d293f6ee11394128c078fc11bead8" id="r_a3b8d293f6ee11394128c078fc11bead8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8d293f6ee11394128c078fc11bead8">cotan</a> (UndirectedEdgeId ue) const</td></tr>
+<tr class="separator:a3b8d293f6ee11394128c078fc11bead8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73fbab03758bfea01536569e133dd307" id="r_a73fbab03758bfea01536569e133dd307"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73fbab03758bfea01536569e133dd307">isDelone</a> (UndirectedEdgeId ue, float threshold=0) const</td></tr>
+<tr class="separator:a73fbab03758bfea01536569e133dd307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abf01cf2eeeb414bf371f5d2ba5d8d880" id="r_abf01cf2eeeb414bf371f5d2ba5d8d880"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1EdgeLengthMesh.html">EdgeLengthMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf01cf2eeeb414bf371f5d2ba5d8d880">fromMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
@@ -177,6 +187,32 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3b8d293f6ee11394128c078fc11bead8" name="a3b8d293f6ee11394128c078fc11bead8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8d293f6ee11394128c078fc11bead8">&#9670;&#160;</a></span>cotan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::EdgeLengthMesh::cotan </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes sum of cotangents of the angle in the left and right triangles opposite to given edge, consider cotangents zero for not existing triangles </p>
+
+</div>
+</div>
 <a id="abf01cf2eeeb414bf371f5d2ba5d8d880" name="abf01cf2eeeb414bf371f5d2ba5d8d880"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf01cf2eeeb414bf371f5d2ba5d8d880">&#9670;&#160;</a></span>fromMesh()</h2>
 
@@ -201,6 +237,62 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>construct <a class="el" href="structMR_1_1EdgeLengthMesh.html">EdgeLengthMesh</a> from an ordinary mesh </p>
+
+</div>
+</div>
+<a id="a73fbab03758bfea01536569e133dd307" name="a73fbab03758bfea01536569e133dd307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73fbab03758bfea01536569e133dd307">&#9670;&#160;</a></span>isDelone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::EdgeLengthMesh::isDelone </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>threshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns true if given edge satisfies Delaunay conditions, returns false if the edge needs to be flipped to satisfy Delaunay conditions, passing negative threshold makes more edges satisfy Delaunay conditions </p>
+
+</div>
+</div>
+<a id="abdc61c2dae8f243c3682e0dfc637f536" name="abdc61c2dae8f243c3682e0dfc637f536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc61c2dae8f243c3682e0dfc637f536">&#9670;&#160;</a></span>leftCotan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::EdgeLengthMesh::leftCotan </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes cotangent of the angle in the left( e ) triangle opposite to e, and returns 0 if left face does not exist </p>
 
 </div>
 </div>

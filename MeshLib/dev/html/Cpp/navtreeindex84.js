@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6":[6,0,2,0,1,23,3,0],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,1,0,1,38,5],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,2,0,1,23,4],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,1,0,1,38,5,0],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,2,0,1,23,4,0],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,1,0,1,38,5,2],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,2,0,1,23,4,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1UnorientedTriangle.html#a2acb7c3b59143a9bddbe412c01ec2489":[6,0,2,0,1,716,3],
 "structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b":[6,0,1,0,1,732,4],
 "structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b":[6,0,2,0,1,716,4],
-"structMR_1_1UnorientedTriangle.html#a45e593296b33c08794467bccc48dc9ef":[6,0,1,0,1,732,2],
-"structMR_1_1UnorientedTriangle.html#a45e593296b33c08794467bccc48dc9ef":[6,0,2,0,1,716,2],
-"structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c":[6,0,1,0,1,732,6],
-"structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c":[6,0,2,0,1,716,6],
-"structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8":[6,0,1,0,1,732,7]
+"structMR_1_1UnorientedTriangle.html#a45e593296b33c08794467bccc48dc9ef":[6,0,1,0,1,732,2]
 };

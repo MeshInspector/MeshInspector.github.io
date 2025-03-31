@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1Triangulation.html#aabc100356ebd31a32c0a67f2960c03de":[6,1,0,0,2,969,16],
+"classmrmeshpy_1_1Triangulation.html#aabc100356ebd31a32c0a67f2960c03de":[6,1,1,0,1,969,16],
+"classmrmeshpy_1_1Triangulation.html#ab7a2bee04a51c2a8a12fd564b5711718":[6,1,0,0,2,969,39],
+"classmrmeshpy_1_1Triangulation.html#ab7a2bee04a51c2a8a12fd564b5711718":[6,1,1,0,1,969,39],
+"classmrmeshpy_1_1Triangulation.html#abb38c96138514db406b072c2c9665cbd":[6,1,0,0,2,969,10],
+"classmrmeshpy_1_1Triangulation.html#abb38c96138514db406b072c2c9665cbd":[6,1,1,0,1,969,10],
+"classmrmeshpy_1_1Triangulation.html#abfb2d240cab03cb909d0cdc9b914384c":[6,1,0,0,2,969,37],
+"classmrmeshpy_1_1Triangulation.html#abfb2d240cab03cb909d0cdc9b914384c":[6,1,1,0,1,969,37],
 "classmrmeshpy_1_1Triangulation.html#accbe047f240df9b89715340d6f088078":[6,1,0,0,2,969,30],
 "classmrmeshpy_1_1Triangulation.html#accbe047f240df9b89715340d6f088078":[6,1,1,0,1,969,30],
 "classmrmeshpy_1_1Triangulation.html#ada41072f20d6d61d150a405cd8ba6f37":[6,1,0,0,2,969,22],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1UiRenderParams.html#ab809c594264d137bcba4abd9f7bd3eb0":[6,1,0,0,2,980,4],
 "classmrmeshpy_1_1UiRenderParams.html#ab809c594264d137bcba4abd9f7bd3eb0":[6,1,1,0,1,980,4],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,0,0,2,990],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,1,0,1,990],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3":[6,1,0,0,2,990,2],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3":[6,1,1,0,1,990,2],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a2e53facaad326f62580359028ca25090":[6,1,0,0,2,990,5],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a2e53facaad326f62580359028ca25090":[6,1,1,0,1,990,5],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,0,0,2,990,3],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,1,0,1,990,3],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a3d64125ff2732a5da0eb7ddbb4fb32fa":[6,1,0,0,2,990,8],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a3d64125ff2732a5da0eb7ddbb4fb32fa":[6,1,1,0,1,990,8]
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,1,0,1,990]
 };

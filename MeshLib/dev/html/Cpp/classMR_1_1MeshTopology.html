@@ -276,8 +276,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad405e625450208e48d0237b9b5f53e8" id="r_aad405e625450208e48d0237b9b5f53e8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aad405e625450208e48d0237b9b5f53e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aad405e625450208e48d0237b9b5f53e8">forEachVertex</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p, T &amp;&amp;callback) const</td></tr>
 <tr class="separator:aad405e625450208e48d0237b9b5f53e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33c932c823162337449be920b180f374" id="r_a33c932c823162337449be920b180f374"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33c932c823162337449be920b180f374">getTriEdges</a> (FaceId f, EdgeId &amp;e0, EdgeId &amp;e1, EdgeId &amp;e2) const</td></tr>
-<tr class="separator:a33c932c823162337449be920b180f374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf36cd88b1e30e757dddaea4c644ee0e" id="r_aaf36cd88b1e30e757dddaea4c644ee0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf36cd88b1e30e757dddaea4c644ee0e">getLeftTriEdges</a> (EdgeId e0, EdgeId &amp;e1, EdgeId &amp;e2) const</td></tr>
+<tr class="separator:aaf36cd88b1e30e757dddaea4c644ee0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0c34fc025958084fc870fb352c0f2a" id="r_a4c0c34fc025958084fc870fb352c0f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c0c34fc025958084fc870fb352c0f2a">getTriEdges</a> (FaceId f, EdgeId &amp;e0, EdgeId &amp;e1, EdgeId &amp;e2) const</td></tr>
+<tr class="separator:a4c0c34fc025958084fc870fb352c0f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f5a570a10b151f981269ba65470df41" id="r_a7f5a570a10b151f981269ba65470df41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5a570a10b151f981269ba65470df41">getTriEdges</a> (FaceId f, EdgeId(&amp;e)[3]) const</td></tr>
 <tr class="separator:a7f5a570a10b151f981269ba65470df41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43d2bcbe6b6dc95cf6eb7fd1c0f8457b" id="r_a43d2bcbe6b6dc95cf6eb7fd1c0f8457b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43d2bcbe6b6dc95cf6eb7fd1c0f8457b">isLeftQuad</a> (EdgeId a) const</td></tr>
@@ -2152,6 +2154,33 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aaf36cd88b1e30e757dddaea4c644ee0e" name="aaf36cd88b1e30e757dddaea4c644ee0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf36cd88b1e30e757dddaea4c644ee0e">&#9670;&#160;</a></span>getLeftTriEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::getLeftTriEdges </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId &amp;</td>          <td class="paramname"><span class="paramname"><em>e1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId &amp;</td>          <td class="paramname"><span class="paramname"><em>e2</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>given one edge with triangular face on the left; returns two other edges of the same face, oriented to have this face on the left; the edges are returned in counter-clockwise order if look from mesh outside </p>
+
+</div>
+</div>
 <a id="ae7ad9074cc4e1be50475db39d352f94f" name="ae7ad9074cc4e1be50475db39d352f94f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7ad9074cc4e1be50475db39d352f94f">&#9670;&#160;</a></span>getLeftTriVerts() <span class="overload">[1/4]</span></h2>
 
@@ -2401,14 +2430,17 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a33c932c823162337449be920b180f374" name="a33c932c823162337449be920b180f374"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33c932c823162337449be920b180f374">&#9670;&#160;</a></span>getTriEdges() <span class="overload">[1/2]</span></h2>
+<a id="a4c0c34fc025958084fc870fb352c0f2a" name="a4c0c34fc025958084fc870fb352c0f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0c34fc025958084fc870fb352c0f2a">&#9670;&#160;</a></span>getTriEdges() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::getTriEdges </td>
+          <td class="memname">void MR::MeshTopology::getTriEdges </td>
           <td>(</td>
           <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
         </tr>
@@ -2428,6 +2460,11 @@ template&lt;typename T &gt; </div>
           <td class="paramtype">EdgeId &amp;</td>          <td class="paramname"><span class="paramname"><em>e2</em></span>&#160;) const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>gets 3 edges of given triangular face, oriented to have it on the left; the edges are returned in counter-clockwise order if look from mesh outside </p>
 

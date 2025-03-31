@@ -1,6 +1,9 @@
 var group__MeshGroup =
 [
     [ "MR::EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", [
+      [ "cotan", "structMR_1_1EdgeLengthMesh.html#a3b8d293f6ee11394128c078fc11bead8", null ],
+      [ "isDelone", "structMR_1_1EdgeLengthMesh.html#a73fbab03758bfea01536569e133dd307", null ],
+      [ "leftCotan", "structMR_1_1EdgeLengthMesh.html#abdc61c2dae8f243c3682e0dfc637f536", null ],
       [ "edgeLengths", "structMR_1_1EdgeLengthMesh.html#ae600eca420be35f1622258bf5830453c", null ],
       [ "topology", "structMR_1_1EdgeLengthMesh.html#a8354d05ed17b358631b7af8e742c2773", null ]
     ] ],
@@ -186,6 +189,7 @@ var group__MeshGroup =
       [ "getLeftDegree", "classMR_1_1MeshTopology.html#a84adbd603d0aa03cb91124cc277d48a8", null ],
       [ "getLeftRing", "classMR_1_1MeshTopology.html#a003b769e8bf22c99726d375fc83867bc", null ],
       [ "getLeftRings", "classMR_1_1MeshTopology.html#a73880a8984f9e6f9a3895c0502a128c7", null ],
+      [ "getLeftTriEdges", "classMR_1_1MeshTopology.html#aaf36cd88b1e30e757dddaea4c644ee0e", null ],
       [ "getLeftTriVerts", "classMR_1_1MeshTopology.html#ae7ad9074cc4e1be50475db39d352f94f", null ],
       [ "getLeftTriVerts", "classMR_1_1MeshTopology.html#a9fd531135d0c893edd63545034f5b026", null ],
       [ "getLeftTriVerts", "classMR_1_1MeshTopology.html#a17820a4dfe0d723e13b05547d2c01104", null ],
@@ -195,7 +199,7 @@ var group__MeshGroup =
       [ "getPathRightFaces", "classMR_1_1MeshTopology.html#aa6c22dff08760121aab8fa1985789ad3", null ],
       [ "getPathVertices", "classMR_1_1MeshTopology.html#aacf6c1f096fab25e975527557e03119d", null ],
       [ "getTriangulation", "classMR_1_1MeshTopology.html#aad1332dd8dcb5313669c153e84c812be", null ],
-      [ "getTriEdges", "classMR_1_1MeshTopology.html#a33c932c823162337449be920b180f374", null ],
+      [ "getTriEdges", "classMR_1_1MeshTopology.html#a4c0c34fc025958084fc870fb352c0f2a", null ],
       [ "getTriEdges", "classMR_1_1MeshTopology.html#a7f5a570a10b151f981269ba65470df41", null ],
       [ "getTriVerts", "classMR_1_1MeshTopology.html#a845c17dd094d1fdc37fb0a874ee98eaa", null ],
       [ "getTriVerts", "classMR_1_1MeshTopology.html#ace0e3be1697a60c54a5f9fe91db3a30d", null ],

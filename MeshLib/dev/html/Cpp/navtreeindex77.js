@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a528577df88b99d1a7703da3953605d11":[6,0,1,0,1,24,3,0],
+"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a528577df88b99d1a7703da3953605d11":[6,0,2,0,1,14,3,0],
+"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,1,0,1,24,3,1],
+"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,2,0,1,14,3,1],
 "structMR_1_1Plane3.html":[6,0,0,0,18],
 "structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad":[6,0,0,0,18,0],
 "structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3":[6,0,0,0,18,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1PolylineMaker.html":[6,0,1,0,1,504],
 "structMR_1_1PolylineMaker.html":[6,0,2,0,1,488],
 "structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,1,0,1,504,4],
-"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,2,0,1,488,4],
-"structMR_1_1PolylineMaker.html#a4a15b5f552bb650a6fab86110c95ad3f":[6,0,1,0,1,504,2],
-"structMR_1_1PolylineMaker.html#a4a15b5f552bb650a6fab86110c95ad3f":[6,0,2,0,1,488,2],
-"structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f":[6,0,1,0,1,504,1],
-"structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f":[6,0,2,0,1,488,1]
+"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,2,0,1,488,4]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#ae6e827ea1bb5bc08c668c2d49ee829a2":[6,1,0,0,2,242,3,3,1],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#ae6e827ea1bb5bc08c668c2d49ee829a2":[6,1,1,0,1,242,3,3,1],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html":[6,1,0,0,2,242,3,4],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html":[6,1,1,0,1,242,3,4],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html#a3eed58c6907a669850302ef459cd8bf3":[6,1,0,0,2,242,3,4,3],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html#a3eed58c6907a669850302ef459cd8bf3":[6,1,1,0,1,242,3,4,3],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html#a4a8e53498e9db0fac92c9d67f100e21b":[6,1,0,0,2,242,3,4,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html#a4a8e53498e9db0fac92c9d67f100e21b":[6,1,0,0,2,242,3,4,2],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html#a4a8e53498e9db0fac92c9d67f100e21b":[6,1,1,0,1,242,3,4,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1FilterType.html#afc582bba5e28563ac00664a7a08a871d":[6,1,0,0,2,250,3],
 "classmrmeshpy_1_1FilterType.html#afc582bba5e28563ac00664a7a08a871d":[6,1,1,0,1,250,3],
 "classmrmeshpy_1_1FilterType.html#aff58d67c24d81be46204316954496e0c":[6,1,0,0,2,250,8],
-"classmrmeshpy_1_1FilterType.html#aff58d67c24d81be46204316954496e0c":[6,1,1,0,1,250,8],
-"classmrmeshpy_1_1FindInnerShellSettings.html":[6,1,0,0,2,251],
-"classmrmeshpy_1_1FindInnerShellSettings.html":[6,1,1,0,1,251],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a062ca3b764cf23982652255cff18e92b":[6,1,0,0,2,251,10],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a062ca3b764cf23982652255cff18e92b":[6,1,1,0,1,251,10],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a16ae53fb92e5b1634af29cfc522a8931":[6,1,0,0,2,251,7],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a16ae53fb92e5b1634af29cfc522a8931":[6,1,1,0,1,251,7]
+"classmrmeshpy_1_1FilterType.html#aff58d67c24d81be46204316954496e0c":[6,1,1,0,1,250,8]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[6,0,1,0,1,207,11],
+"structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[6,0,2,0,1,191,11],
+"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,1,0,1,207,7],
+"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,2,0,1,191,7],
 "structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,1,0,1,207,2],
 "structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,2,0,1,191,2],
 "structMR_1_1EdgePoint.html#a823872832981f7242927eb2725053bea":[6,0,1,0,1,207,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044":[6,0,2,0,1,2,0,0,6],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[6,0,1,0,1,6,0,0,7],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[6,0,2,0,1,2,0,0,7],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html":[6,0,1,0,1,6,0,1],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html":[6,0,2,0,1,2,0,1],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#a17291dba0d3768973959e35d4105ceea":[6,0,1,0,1,6,0,1,3],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#a17291dba0d3768973959e35d4105ceea":[6,0,2,0,1,2,0,1,3],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#a4fede0e0dd7626dce7467556c551aa40":[6,0,1,0,1,6,0,1,0]
+"structMR_1_1Features_1_1Primitives_1_1Plane.html":[6,0,1,0,1,6,0,1]
 };

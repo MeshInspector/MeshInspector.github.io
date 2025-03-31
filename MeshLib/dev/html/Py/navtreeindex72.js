@@ -1,5 +1,13 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1Side.html#ae0cd28c4ea87b7d3d7c401271f115d54":[6,1,0,0,2,736,1],
+"classmrmeshpy_1_1Side.html#ae0cd28c4ea87b7d3d7c401271f115d54":[6,1,1,0,1,736,1],
+"classmrmeshpy_1_1SignDetectionMode.html":[6,1,0,0,2,737],
+"classmrmeshpy_1_1SignDetectionMode.html":[6,1,1,0,1,737],
+"classmrmeshpy_1_1SignDetectionMode.html#a07e65387ed04738c3081c587c9e31eea":[6,1,0,0,2,737,5],
+"classmrmeshpy_1_1SignDetectionMode.html#a07e65387ed04738c3081c587c9e31eea":[6,1,1,0,1,737,5],
+"classmrmeshpy_1_1SignDetectionMode.html#a0d12a1f66cd6a1a296e75590b86d7895":[6,1,0,0,2,737,7],
+"classmrmeshpy_1_1SignDetectionMode.html#a0d12a1f66cd6a1a296e75590b86d7895":[6,1,1,0,1,737,7],
 "classmrmeshpy_1_1SignDetectionMode.html#a11cf9a7318a659517b84f6590f92d32c":[6,1,0,0,2,737,11],
 "classmrmeshpy_1_1SignDetectionMode.html#a11cf9a7318a659517b84f6590f92d32c":[6,1,1,0,1,737,11],
 "classmrmeshpy_1_1SignDetectionMode.html#a23400abd3fe311af9c2fdb3e2f5921c7":[6,1,0,0,2,737,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1Sphere2d.html":[6,1,0,0,2,752],
 "classmrmeshpy_1_1Sphere2d.html":[6,1,1,0,1,752],
 "classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[6,1,0,0,2,752,5],
-"classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[6,1,1,0,1,752,5],
-"classmrmeshpy_1_1Sphere2d.html#a4a7e6bbc353394df3c26b3fe602af417":[6,1,0,0,2,752,3],
-"classmrmeshpy_1_1Sphere2d.html#a4a7e6bbc353394df3c26b3fe602af417":[6,1,1,0,1,752,3],
-"classmrmeshpy_1_1Sphere2d.html#a59ade2cc340e384eb8ee41e7f31f88fb":[6,1,0,0,2,752,4],
-"classmrmeshpy_1_1Sphere2d.html#a59ade2cc340e384eb8ee41e7f31f88fb":[6,1,1,0,1,752,4],
-"classmrmeshpy_1_1Sphere2d.html#aa72ebaf19e0c41d99384172081b990ba":[6,1,0,0,2,752,1],
-"classmrmeshpy_1_1Sphere2d.html#aa72ebaf19e0c41d99384172081b990ba":[6,1,1,0,1,752,1],
-"classmrmeshpy_1_1Sphere2d.html#aae3227cd27a0f2d05d45aa182691f5db":[6,1,0,0,2,752,0],
-"classmrmeshpy_1_1Sphere2d.html#aae3227cd27a0f2d05d45aa182691f5db":[6,1,1,0,1,752,0]
+"classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[6,1,1,0,1,752,5]
 };

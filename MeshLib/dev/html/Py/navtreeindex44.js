@@ -1,5 +1,11 @@
 var NAVTREEINDEX44 =
 {
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[6,1,0,0,2,456,3,0],
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[6,1,1,0,1,456,3,0],
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[6,1,0,0,2,456,3,3],
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[6,1,1,0,1,456,3,3],
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html":[6,1,0,0,2,456,4],
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html":[6,1,1,0,1,456,4],
 "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a4b8bfb2e9c2e140621b3ae843a76f869":[6,1,0,0,2,456,4,6],
 "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a4b8bfb2e9c2e140621b3ae843a76f869":[6,1,1,0,1,456,4,6],
 "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a59be0c9e4876322fedb862840fbe9b71":[6,1,0,0,2,456,4,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX44 =
 "classmrmeshpy_1_1MeshMeshConverter.html#ac4ab26999dfe9347e33272b036f2bc46":[6,1,1,0,1,463,0],
 "classmrmeshpy_1_1MeshMeshConverter.html#ac4ab26999dfe9347e33272b036f2bc46":[6,1,1,0,1,463,2],
 "classmrmeshpy_1_1MeshMeshConverter.html#ad712d40fbf9767738f20b2af5add9c52":[6,1,0,0,2,463,4],
-"classmrmeshpy_1_1MeshMeshConverter.html#ad712d40fbf9767738f20b2af5add9c52":[6,1,1,0,1,463,4],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html":[6,1,0,0,2,464],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html":[6,1,1,0,1,464],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#a1e01cb709979872b3e1989b71f7f77f1":[6,1,0,0,2,464,8],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#a1e01cb709979872b3e1989b71f7f77f1":[6,1,1,0,1,464,8],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#a20fac53509635d55ac7e2b8cc34771de":[6,1,0,0,2,464,7],
-"classmrmeshpy_1_1MeshMeshDistanceResult.html#a20fac53509635d55ac7e2b8cc34771de":[6,1,1,0,1,464,7]
+"classmrmeshpy_1_1MeshMeshConverter.html#ad712d40fbf9767738f20b2af5add9c52":[6,1,1,0,1,463,4]
 };

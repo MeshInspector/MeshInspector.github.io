@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1Polyline2.html#a5daeee19c31e61dc34e0c691fd4d3f6d":[6,1,0,0,2,653,15],
+"classmrmeshpy_1_1Polyline2.html#a5daeee19c31e61dc34e0c691fd4d3f6d":[6,1,1,0,1,653,15],
+"classmrmeshpy_1_1Polyline2.html#a5e1acea1d9e17701c33f7e24daffff5c":[6,1,0,0,2,653,14],
+"classmrmeshpy_1_1Polyline2.html#a5e1acea1d9e17701c33f7e24daffff5c":[6,1,1,0,1,653,14],
+"classmrmeshpy_1_1Polyline2.html#a5f382151cf3b3c4eabc6ee337c8595a5":[6,1,0,0,2,653,17],
+"classmrmeshpy_1_1Polyline2.html#a5f382151cf3b3c4eabc6ee337c8595a5":[6,1,1,0,1,653,17],
+"classmrmeshpy_1_1Polyline2.html#a6ae35f0b97a1d62ba64ac104de51c2a7":[6,1,0,0,2,653,37],
+"classmrmeshpy_1_1Polyline2.html#a6ae35f0b97a1d62ba64ac104de51c2a7":[6,1,1,0,1,653,37],
 "classmrmeshpy_1_1Polyline2.html#a6c52246c7186404010f35a108e0ed946":[6,1,0,0,2,653,22],
 "classmrmeshpy_1_1Polyline2.html#a6c52246c7186404010f35a108e0ed946":[6,1,1,0,1,653,22],
 "classmrmeshpy_1_1Polyline2.html#a73c8b8c8310e124dbb61ae9b8a52e373":[6,1,0,0,2,653,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#acadc32aee402dc246ab7264f0afaa62a":[6,1,0,0,2,661,6],
 "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#acadc32aee402dc246ab7264f0afaa62a":[6,1,1,0,1,661,6],
 "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#ad7510ccb813a8fef985a7c92b6327063":[6,1,0,0,2,661,8],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#ad7510ccb813a8fef985a7c92b6327063":[6,1,1,0,1,661,8],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#adec640398f0bfed803032e8d70183c7b":[6,1,0,0,2,661,0],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#adec640398f0bfed803032e8d70183c7b":[6,1,1,0,1,661,0],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html":[6,1,0,0,2,662],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html":[6,1,1,0,1,662],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html#a26c6c0f6cad8b14447347dfb79914f36":[6,1,0,0,2,662,16],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html#a26c6c0f6cad8b14447347dfb79914f36":[6,1,1,0,1,662,16],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html#a28eb7a84285b8ebe39d67368a0d3ac4f":[6,1,0,0,2,662,3],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html#a28eb7a84285b8ebe39d67368a0d3ac4f":[6,1,1,0,1,662,3]
+"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#ad7510ccb813a8fef985a7c92b6327063":[6,1,1,0,1,661,8]
 };

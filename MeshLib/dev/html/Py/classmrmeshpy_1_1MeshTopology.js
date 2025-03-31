@@ -54,6 +54,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "getLeftDegree", "classmrmeshpy_1_1MeshTopology.html#a581d8c744b4722c10a2a966cfe343e28", null ],
     [ "getLeftRing", "classmrmeshpy_1_1MeshTopology.html#a45693f8b7ec1b0962c9cf81e0d669166", null ],
     [ "getLeftRings", "classmrmeshpy_1_1MeshTopology.html#a09bbfd4ee835bd54c58ba251e0cd9009", null ],
+    [ "getLeftTriEdges", "classmrmeshpy_1_1MeshTopology.html#afa98e2849c389515b6b2d0aa2462207e", null ],
     [ "getLeftTriVerts", "classmrmeshpy_1_1MeshTopology.html#a5f43f2d6d79b0ab1a6e189f24fb381b3", null ],
     [ "getLeftTriVerts", "classmrmeshpy_1_1MeshTopology.html#a9f7774706cba27f59734d5135e54237f", null ],
     [ "getLeftTriVerts", "classmrmeshpy_1_1MeshTopology.html#acfba46483d435e349f2cac5b47d8a0be", null ],
