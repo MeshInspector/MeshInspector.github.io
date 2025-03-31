@@ -1,5 +1,9 @@
 var NAVTREEINDEX119 =
 {
+"classmrmeshpy_1_1std__optional__Vector2__float.html#acccad1b8a99f8703a9328c4bed945922":[6,1,0,0,2,781,3],
+"classmrmeshpy_1_1std__optional__Vector2__float.html#acccad1b8a99f8703a9328c4bed945922":[6,1,1,0,1,781,3],
+"classmrmeshpy_1_1std__optional__Vector3__float.html":[6,1,0,0,2,782],
+"classmrmeshpy_1_1std__optional__Vector3__float.html":[6,1,1,0,1,782],
 "classmrmeshpy_1_1std__optional__Vector3__float.html#a2d83879237202a8f24be597f2edea2a8":[6,1,0,0,2,782,5],
 "classmrmeshpy_1_1std__optional__Vector3__float.html#a2d83879237202a8f24be597f2edea2a8":[6,1,1,0,1,782,5],
 "classmrmeshpy_1_1std__optional__Vector3__float.html#a42fc9736fecd926f356d14c9eca348fc":[6,1,0,0,2,782,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX119 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a8d1489bca9cf19e30d2a0d3145a57504":[6,1,0,0,2,791,6],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a8d1489bca9cf19e30d2a0d3145a57504":[6,1,1,0,1,791,6],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a92445896218e8c1296167bc4e2a2e48c":[6,1,0,0,2,791,15],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a92445896218e8c1296167bc4e2a2e48c":[6,1,1,0,1,791,15],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aa3d03685e02d1c64f586e7f9746a3fa6":[6,1,0,0,2,791,5],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aa3d03685e02d1c64f586e7f9746a3fa6":[6,1,1,0,1,791,5],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aa81eeee5673601b93dc35d3a7debe25b":[6,1,0,0,2,791,9],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aa81eeee5673601b93dc35d3a7debe25b":[6,1,1,0,1,791,9]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a92445896218e8c1296167bc4e2a2e48c":[6,1,1,0,1,791,15]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,1,0,1,638,2],
 "structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,2,0,1,622,2],
 "structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,1,0,1,638,0],
 "structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,2,0,1,622,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1SymMatrix2.html#a60e49e5bc0d3433cc7f57f72dd639257":[6,0,0,0,7,4,4],
 "structMR_1_1SymMatrix2.html#a670c0b0b5468ad0685c66438e965bb2a":[6,0,0,0,7,4,18],
 "structMR_1_1SymMatrix2.html#a7023f18d2ffbf60a3eb3b4cd2fe1ce18":[6,0,0,0,7,4,17],
-"structMR_1_1SymMatrix2.html#a794820de02de93d89f45517747122e36":[6,0,0,0,7,4,16],
-"structMR_1_1SymMatrix2.html#a841408afb3b039fd491f2c3078d9ad99":[6,0,0,0,7,4,13]
+"structMR_1_1SymMatrix2.html#a794820de02de93d89f45517747122e36":[6,0,0,0,7,4,16]
 };

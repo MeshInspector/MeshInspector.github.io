@@ -5,7 +5,7 @@ var searchData=
   ['safez_2',['safeZ',['../structMR_1_1ToolPathParams.html#a10f980ccd2fc81285a194503e2b669b3',1,'MR::ToolPathParams']]],
   ['samplepoints_3',['samplePoints',['../structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b3c5026793485f6071bb44a681e1461',1,'MR::MoveMeshToVoxelMaxDerivSettings']]],
   ['sampletype_4',['sampleType',['../../Py/classmrmeshpy_1_1BaseTiffParameters.html#a725d85f95244315ff6042d127ebb40cd',1,'mrmeshpy::BaseTiffParameters']]],
-  ['samplingstep_5',['samplingStep',['../structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e',1,'MR::SplineSettings']]],
+  ['samplingstep_5',['samplingStep',['../structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e',1,'MR::SplineSettings::samplingStep'],['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad2b689ae32e79618fd422fa0fa7a80e9',1,'MR::ObjectVoxels::VolumeRenderingParams::samplingStep']]],
   ['samplingvoxelsize_6',['samplingVoxelSize',['../structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6',1,'MR::MultiwayICPSamplingParameters::samplingVoxelSize'],['../structMRMultiwayICPSamplingParameters.html#ac6058971b579e40ddc013b125896b756',1,'MRMultiwayICPSamplingParameters::samplingVoxelSize']]],
   ['saveddialogpositionenabled_5f_7',['savedDialogPositionEnabled_',['../classMR_1_1ImGuiMenu.html#a69ba22274265966f6ddc7eabf3eb78a9',1,'MR::ImGuiMenu']]],
   ['savetooltip_8',['saveTooltip',['../structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a',1,'MR::UI::SaveChangesPopupSettings']]],
