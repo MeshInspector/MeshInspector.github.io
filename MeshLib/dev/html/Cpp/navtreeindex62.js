@@ -1,13 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMRDenoiseViaNormalsSettings.html#a7adbffbe48f999ba44ccc2d6e50d3090":[6,0,2,0,13,6],
-"structMRDenoiseViaNormalsSettings.html#a9c96228a47b139c7c8fecc74f52faeb2":[6,0,2,0,13,3],
-"structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2":[6,0,2,0,13,4],
-"structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1],
-"structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
-"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
-"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
-"structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
 "structMREdgeId.html":[6,0,2,0,14],
 "structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,14,0],
 "structMREdgeTri.html":[6,0,2,0,15],
@@ -249,5 +241,13 @@ var NAVTREEINDEX62 =
 "structMRTriangulationParameters.html#a8f0f0757bc404b943df9ed727c9aae53":[6,0,2,0,60,2],
 "structMRTriangulationParameters.html#aabbfe3baa67992675fc7a023186160c3":[6,0,2,0,60,4],
 "structMRTriangulationParameters.html#ab85f0e5badf8970c30123cd74f679dd5":[6,0,2,0,60,6],
-"structMRTriangulationParameters.html#ad1d64fdef721fd0843a1ebdb1b96c472":[6,0,2,0,60,0]
+"structMRTriangulationParameters.html#ad1d64fdef721fd0843a1ebdb1b96c472":[6,0,2,0,60,0],
+"structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5":[6,0,2,0,60,1],
+"structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,60,5],
+"structMRUndirectedEdgeId.html":[6,0,2,0,62],
+"structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,62,0],
+"structMRUniformSamplingSettings.html":[6,0,2,0,63],
+"structMRUniformSamplingSettings.html#a3661faaaac79fa783e93507d114aeea6":[6,0,2,0,63,2],
+"structMRUniformSamplingSettings.html#adf1fd2bf0258a6c592623791f771562d":[6,0,2,0,63,1],
+"structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,63,3]
 };

@@ -94,6 +94,5 @@ var searchData=
   ['mrsigndetectionmodeopenvdb_91',['MRSignDetectionModeOpenVDB',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba6ec84d8b4cacadd6f0792a256f2a5334',1,'MRSignDetectionMode.h']]],
   ['mrsigndetectionmodeprojectionnormal_92',['MRSignDetectionModeProjectionNormal',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bbab2d61e92660aa7290002aabaa740b54a',1,'MRSignDetectionMode.h']]],
   ['mrsigndetectionmodeunsigned_93',['MRSignDetectionModeUnsigned',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba16ce52a0bb8134f9ddc6eba95e70db37',1,'MRSignDetectionMode.h']]],
-  ['mrsigndetectionmodewindingrule_94',['MRSignDetectionModeWindingRule',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba541e48e5fab90cdd7ee8e8162981dab3',1,'MRSignDetectionMode.h']]],
-  ['must_95',['Must',['../group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be',1,'MR']]]
+  ['mrsigndetectionmodewindingrule_94',['MRSignDetectionModeWindingRule',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba541e48e5fab90cdd7ee8e8162981dab3',1,'MRSignDetectionMode.h']]]
 ];

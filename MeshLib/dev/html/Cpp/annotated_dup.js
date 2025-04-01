@@ -454,7 +454,6 @@ var annotated_dup =
       [ "IntersectionPrecomputes", "structMR_1_1IntersectionPrecomputes.html", "structMR_1_1IntersectionPrecomputes" ],
       [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html", "structMR_1_1IntersectionPrecomputes2" ],
       [ "InTreePathBuilder", "classMR_1_1InTreePathBuilder.html", "classMR_1_1InTreePathBuilder" ],
-      [ "IntrinsicDeloneSettings", "structMR_1_1IntrinsicDeloneSettings.html", "structMR_1_1IntrinsicDeloneSettings" ],
       [ "IOFilter", "structMR_1_1IOFilter.html", "structMR_1_1IOFilter" ],
       [ "IPluginUpdate", "classMR_1_1IPluginUpdate.html", "classMR_1_1IPluginUpdate" ],
       [ "IPointPairs", "structMR_1_1IPointPairs.html", "structMR_1_1IPointPairs" ],
