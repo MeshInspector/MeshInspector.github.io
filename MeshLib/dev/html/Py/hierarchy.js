@@ -295,6 +295,7 @@ var hierarchy =
     [ "mrmeshpy.FindOverlappingSettings", "classmrmeshpy_1_1FindOverlappingSettings.html", null ],
     [ "mrmeshpy.FindProjectionOnPointsSettings", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html", null ],
     [ "mrmeshpy.FixUndercuts", "classmrmeshpy_1_1FixUndercuts.html", null ],
+    [ "mrmeshpy.FlipEdge", "classmrmeshpy_1_1FlipEdge.html", null ],
     [ "mrmeshpy.float_output", "classmrmeshpy_1_1float__output.html", null ],
     [ "mrmeshpy.FloatGridComponents", "classmrmeshpy_1_1FloatGridComponents.html", null ],
     [ "mrmeshpy.SceneSettings.FloatType", "classmrmeshpy_1_1SceneSettings_1_1FloatType.html", null ],
@@ -492,6 +493,7 @@ var hierarchy =
     [ "mrmeshpy.IntersectionPrecomputes_float", "classmrmeshpy_1_1IntersectionPrecomputes__float.html", null ],
     [ "mrmeshpy.PlanarTriangulation.IntersectionsMap", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html", null ],
     [ "mrmeshpy.InTreePathBuilder", "classmrmeshpy_1_1InTreePathBuilder.html", null ],
+    [ "mrmeshpy.IntrinsicDeloneSettings", "classmrmeshpy_1_1IntrinsicDeloneSettings.html", null ],
     [ "mrmeshpy.IOFilter", "classmrmeshpy_1_1IOFilter.html", null ],
     [ "mrmeshpy.IPointPairs", "classmrmeshpy_1_1IPointPairs.html", [
       [ "mrmeshpy.ICPGroupPairs", "classmrmeshpy_1_1ICPGroupPairs.html", null ],

@@ -552,6 +552,7 @@ var hierarchy =
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", null ],
     [ "MR::PlanarTriangulation::IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", null ],
     [ "MR::InTreePathBuilder", "classMR_1_1InTreePathBuilder.html", null ],
+    [ "MR::IntrinsicDeloneSettings", "structMR_1_1IntrinsicDeloneSettings.html", null ],
     [ "MR::IOFilter", "structMR_1_1IOFilter.html", null ],
     [ "MR::IPluginUpdate", "classMR_1_1IPluginUpdate.html", [
       [ "MR::PluginCloseOnChangeMesh", "classMR_1_1PluginCloseOnChangeMesh.html", null ],

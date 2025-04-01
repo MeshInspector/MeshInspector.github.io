@@ -411,6 +411,7 @@ var namespaceMR =
     [ "IntersectionPrecomputes", "structMR_1_1IntersectionPrecomputes.html", "structMR_1_1IntersectionPrecomputes" ],
     [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html", "structMR_1_1IntersectionPrecomputes2" ],
     [ "InTreePathBuilder", "classMR_1_1InTreePathBuilder.html", "classMR_1_1InTreePathBuilder" ],
+    [ "IntrinsicDeloneSettings", "structMR_1_1IntrinsicDeloneSettings.html", "structMR_1_1IntrinsicDeloneSettings" ],
     [ "IOFilter", "structMR_1_1IOFilter.html", "structMR_1_1IOFilter" ],
     [ "IPluginUpdate", "classMR_1_1IPluginUpdate.html", "classMR_1_1IPluginUpdate" ],
     [ "IPointPairs", "structMR_1_1IPointPairs.html", "structMR_1_1IPointPairs" ],
@@ -1240,6 +1241,11 @@ var namespaceMR =
       [ "SelectedObjects", "namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4ba59ebaac912e88dcadf4c1963af0724a1", null ],
       [ "CustomObjectsList", "namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070", null ]
     ] ],
+    [ "FlipEdge", "group__MeshDeloneGroup.html#gaa3ebc28a0c17a0a5fc0c9b90a97bfc95", [
+      [ "Can", "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839", null ],
+      [ "Cannot", "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95a540db3cc7e3c40ec046c3a290f1523ba", null ],
+      [ "Must", "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be", null ]
+    ] ],
     [ "GeodesicPathApprox", "group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
       [ "DijkstraBiDir", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
       [ "DijkstraAStar", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
@@ -1661,6 +1667,7 @@ var namespaceMR =
     [ "calculateRangeSize", "namespaceMR.html#af4556fd56cc32c8b7e8e343664cba8ad", null ],
     [ "calculateSelectedPixelsInsidePolygon", "namespaceMR.html#a42e8e573c0aec9b5d59ac648be980eff", null ],
     [ "calculateSelectedPixelsNearPolygon", "namespaceMR.html#a7dbec46cb811f57b258ac04ea3fcf64a", null ],
+    [ "canFlipEdge", "group__MeshDeloneGroup.html#ga5ada00ec4305252e448a7559a867e507", null ],
     [ "canMinimizePolynomial", "namespaceMR.html#a074ffc418d95b187b57843611aef56d6", null ],
     [ "canSolvePolynomial", "namespaceMR.html#a28db3c5e8ff0f5fe41f51c8376480d75", null ],
     [ "ccw", "namespaceMR.html#aadc1b40eb80e70a7e20d00559456217d", null ],
@@ -2335,6 +2342,7 @@ var namespaceMR =
     [ "makeDegenerate", "namespaceMR.html#a57ff21b97318676241102c87bc9fe9b3", null ],
     [ "makeDegenerateBandAroundHole", "group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77", null ],
     [ "makeDegenerateBandAroundRegion", "namespaceMR.html#a22f39580f90cbdb1bd5c77bd7b922251", null ],
+    [ "makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#gaf6e41ac9014b981ef9aaeaba29a2c31b", null ],
     [ "makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#ga1c91382501f42936363363e26c560218", null ],
     [ "makeDeloneOriginRing", "group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d", null ],
     [ "MakeFloatGrid", "group__BasicStructuresGroup.html#ga008386feb5f7364043e76dc51b8a0a9d", null ],
@@ -3000,6 +3008,7 @@ var namespaceMR =
     [ "DemoPluginInstance", "namespaceMR.html#a8a3c1e07f9e74f5a6f9079cc9067fb3a", null ],
     [ "dependent_false", "namespaceMR.html#ac090ec24cc989c66ab1dbc182cb43c87", null ],
     [ "Dipole", "namespaceMR.html#ad199d60177879413c7ab7c1b24e30a54", null ],
+    [ "EdgeLengthMesh", "namespaceMR.html#a1b27efcf0bc43958ffdc2474a71d7730", null ],
     [ "EdgeTag", "namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c", null ],
     [ "Eq", "namespaceMR.html#a26a9c4d938d2aad6dc0bada8d3f83535", null ],
     [ "FaceTag", "namespaceMR.html#a7a4a96848eb4b1524be699a7adcd8017", null ],

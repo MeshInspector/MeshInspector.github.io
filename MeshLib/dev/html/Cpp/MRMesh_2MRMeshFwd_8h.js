@@ -164,6 +164,7 @@ var MRMesh_2MRMeshFwd_8h =
     [ "Cylinder3f", "MRMesh_2MRMeshFwd_8h.html#a1e1eeb9ec9e53f13003c0882dc66eaef", null ],
     [ "dependent_false", "MRMesh_2MRMeshFwd_8h.html#ac090ec24cc989c66ab1dbc182cb43c87", null ],
     [ "Dipole", "MRMesh_2MRMeshFwd_8h.html#ad199d60177879413c7ab7c1b24e30a54", null ],
+    [ "EdgeLengthMesh", "MRMesh_2MRMeshFwd_8h.html#a1b27efcf0bc43958ffdc2474a71d7730", null ],
     [ "EdgeTag", "MRMesh_2MRMeshFwd_8h.html#ac8c2508941fcd4ad714cdf50c45aa41c", null ],
     [ "Eq", "MRMesh_2MRMeshFwd_8h.html#a26a9c4d938d2aad6dc0bada8d3f83535", null ],
     [ "FaceTag", "MRMesh_2MRMeshFwd_8h.html#a7a4a96848eb4b1524be699a7adcd8017", null ],
