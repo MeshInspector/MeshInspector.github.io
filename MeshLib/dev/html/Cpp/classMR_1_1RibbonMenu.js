@@ -4,6 +4,8 @@ var classMR_1_1RibbonMenu =
     [ "DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", "structMR_1_1RibbonMenu_1_1DrawGroupConfig" ],
     [ "DrawTabConfig", "classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83", null ],
     [ "TabChangedSignal", "classMR_1_1RibbonMenu.html#ad03e656d4344c5a4266fa1ae56827d6c", null ],
+    [ "RibbonMenu", "classMR_1_1RibbonMenu.html#aa34b69e6496e1988fcf4618bd5275b26", null ],
+    [ "~RibbonMenu", "classMR_1_1RibbonMenu.html#a019c89ffbf679cc555e78b3e56ab52cd", null ],
     [ "addRibbonItemShortcut_", "classMR_1_1RibbonMenu.html#a2a3532d56a6f52a63ab5514063fa8875", null ],
     [ "drawActiveBlockingDialog_", "classMR_1_1RibbonMenu.html#a536aa66aca49a47e58d15a786e574cb9", null ],
     [ "drawActiveList_", "classMR_1_1RibbonMenu.html#a6eca8ec42be5e0e43ee29c4e45d12430", null ],

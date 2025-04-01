@@ -857,6 +857,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1InTreePathBuilder.html">InTreePathBuilder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IntrinsicDeloneSettings.html">IntrinsicDeloneSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IOFilter.html">IOFilter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPluginUpdate.html">IPluginUpdate</a></td></tr>
@@ -2510,6 +2512,11 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a216960c15f7b00558ab28053967a9615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="#a216960c15f7b00558ab28053967a9615">More...</a><br /></td></tr>
 <tr class="separator:a216960c15f7b00558ab28053967a9615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3ebc28a0c17a0a5fc0c9b90a97bfc95" id="r_gaa3ebc28a0c17a0a5fc0c9b90a97bfc95"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gaa3ebc28a0c17a0a5fc0c9b90a97bfc95">FlipEdge</a> : int { <a class="el" href="group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839">FlipEdge::Can</a>
+, <a class="el" href="group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95a540db3cc7e3c40ec046c3a290f1523ba">FlipEdge::Cannot</a>
+, <a class="el" href="group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be">FlipEdge::Must</a>
+ }</td></tr>
+<tr class="separator:gaa3ebc28a0c17a0a5fc0c9b90a97bfc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3dd2fd9fcc06b6502d22a9ea3eb63e47" id="r_ga3dd2fd9fcc06b6502d22a9ea3eb63e47"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">ProcessOneResult</a> : bool { <a class="el" href="group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612">ProcessOneResult::StopProcessing</a> = false
 , <a class="el" href="group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e">ProcessOneResult::ContinueProcessing</a> = true
  }</td></tr>
@@ -3948,16 +3955,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1ac6f792a2cc36b9ce72fe5ec68da30a" id="r_ga1ac6f792a2cc36b9ce72fe5ec68da30a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a">checkDeloneQuadrangle</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float maxAngleChange=FLT_MAX)</td></tr>
 <tr class="memdesc:ga1ac6f792a2cc36b9ce72fe5ec68da30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts arguments in double and calls above function  <br /></td></tr>
 <tr class="separator:ga1ac6f792a2cc36b9ce72fe5ec68da30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ada00ec4305252e448a7559a867e507" id="r_ga5ada00ec4305252e448a7559a867e507"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__MeshDeloneGroup.html#gaa3ebc28a0c17a0a5fc0c9b90a97bfc95">FlipEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga5ada00ec4305252e448a7559a867e507">canFlipEdge</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId edge, const FaceBitSet *region, const UndirectedEdgeBitSet *notFlippable)</td></tr>
+<tr class="memdesc:ga5ada00ec4305252e448a7559a867e507"><td class="mdescLeft">&#160;</td><td class="mdescRight">consider topology and constraints to decide about flip possibility  <br /></td></tr>
+<tr class="separator:ga5ada00ec4305252e448a7559a867e507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2d74fa7fe6b7d35734db515d33ba1f3f" id="r_ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">checkDeloneQuadrangleInMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId edge, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, float *deviationSqAfterFlip=nullptr)</td></tr>
 <tr class="memdesc:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared surface deviation after flip is written here (at least when the function returns false)  <br /></td></tr>
 <tr class="separator:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga752afc6c65fff0dbc954d78ec58e4f2f" id="r_ga752afc6c65fff0dbc954d78ec58e4f2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga752afc6c65fff0dbc954d78ec58e4f2f">bestQuadrangleDiagonal</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d)</td></tr>
 <tr class="separator:ga752afc6c65fff0dbc954d78ec58e4f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c91382501f42936363363e26c560218" id="r_ga1c91382501f42936363363e26c560218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1c91382501f42936363363e26c560218">makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, int numIters=1, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
-<tr class="separator:ga1c91382501f42936363363e26c560218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabeff8ba7d73b606469f46a5c0248606d" id="r_gabeff8ba7d73b606469f46a5c0248606d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">makeDeloneOriginRing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId e, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gabeff8ba7d73b606469f46a5c0248606d"><td class="mdescLeft">&#160;</td><td class="mdescRight">improves mesh triangulation in a ring of vertices with common origin and represented by edge e  <br /></td></tr>
 <tr class="separator:gabeff8ba7d73b606469f46a5c0248606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c91382501f42936363363e26c560218" id="r_ga1c91382501f42936363363e26c560218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1c91382501f42936363363e26c560218">makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, int numIters=1, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
+<tr class="separator:ga1c91382501f42936363363e26c560218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf6e41ac9014b981ef9aaeaba29a2c31b" id="r_gaf6e41ac9014b981ef9aaeaba29a2c31b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gaf6e41ac9014b981ef9aaeaba29a2c31b">makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1EdgeLengthMesh.html">EdgeLengthMesh</a> &amp;mesh, const <a class="el" href="structMR_1_1IntrinsicDeloneSettings.html">IntrinsicDeloneSettings</a> &amp;settings={}, int numIters=1, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
+<tr class="separator:gaf6e41ac9014b981ef9aaeaba29a2c31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf49d29fe114a45e7ba44769ed23e07a7" id="r_gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7">findDirMax</a> (const Vector3f &amp;dir, const MeshPart &amp;mp, <a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
 <tr class="separator:gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb20234daa82631954c44c1676424e5f" id="r_gadb20234daa82631954c44c1676424e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f">processCloseTriangles</a> (const MeshPart &amp;mp, const <a class="el" href="#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;t, float rangeSq, const <a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">TriangleCallback</a> &amp;call)</td></tr>
@@ -6477,6 +6489,8 @@ Variables</h2></td></tr>
 <tr class="separator:a70998e19114b7179469682c1c31c77ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49165bcb87a59752b8f02f19ea7f2424" id="r_a49165bcb87a59752b8f02f19ea7f2424"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49165bcb87a59752b8f02f19ea7f2424">Mesh</a></td></tr>
 <tr class="separator:a49165bcb87a59752b8f02f19ea7f2424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b27efcf0bc43958ffdc2474a71d7730" id="r_a1b27efcf0bc43958ffdc2474a71d7730"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b27efcf0bc43958ffdc2474a71d7730">EdgeLengthMesh</a></td></tr>
+<tr class="separator:a1b27efcf0bc43958ffdc2474a71d7730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c2ce7a11febd432cbfcbcd26f3d6103" id="r_a2c2ce7a11febd432cbfcbcd26f3d6103"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c2ce7a11febd432cbfcbcd26f3d6103">MeshOrPoints</a></td></tr>
 <tr class="separator:a2c2ce7a11febd432cbfcbcd26f3d6103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bfc73c4801d5127d8be21699dc9f590" id="r_a1bfc73c4801d5127d8be21699dc9f590"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a></td></tr>
@@ -35523,6 +35537,20 @@ template&lt;typename... &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">struct <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> MR::Dipole</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b27efcf0bc43958ffdc2474a71d7730" name="a1b27efcf0bc43958ffdc2474a71d7730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b27efcf0bc43958ffdc2474a71d7730">&#9670;&#160;</a></span>EdgeLengthMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> MR::EdgeLengthMesh</td>
         </tr>
       </table>
 </div><div class="memdoc">
