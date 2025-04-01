@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMREdgeId.html":[6,0,2,0,14],
+"structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,14,0],
 "structMREdgeTri.html":[6,0,2,0,15],
 "structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,15,0],
 "structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9":[6,0,2,0,15,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMRUniformSamplingSettings.html":[6,0,2,0,63],
 "structMRUniformSamplingSettings.html#a3661faaaac79fa783e93507d114aeea6":[6,0,2,0,63,2],
 "structMRUniformSamplingSettings.html#adf1fd2bf0258a6c592623791f771562d":[6,0,2,0,63,1],
-"structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,63,3],
-"structMRUniformSamplingSettings.html#afea94f2de617154b2959a6ba91d5fea2":[6,0,2,0,63,0],
-"structMRVariableEdgeTri.html":[6,0,2,0,64]
+"structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,63,3]
 };

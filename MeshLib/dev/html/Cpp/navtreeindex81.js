@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,1,0,1,636,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,2,0,1,620,1],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,1,0,1,636,6],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,2,0,1,620,6],
 "structMR_1_1ShellVertexInfo.html":[6,0,1,0,1,638],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1SymMatrix2.html#a00825772702cbd97018eca7af85866ad":[6,0,0,0,7,4,12],
 "structMR_1_1SymMatrix2.html#a0d7b116cb57858e0b068a33b81aed7a7":[6,0,0,0,7,4,1],
 "structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232":[6,0,0,0,7,4,6],
-"structMR_1_1SymMatrix2.html#a2508bdc607f557d33ec49ff959cf1a3d":[6,0,0,0,7,4,0],
-"structMR_1_1SymMatrix2.html#a261caca745c8a5998fe4599fd9031b43":[6,0,0,0,7,4,15],
-"structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01":[6,0,0,0,7,4,20]
+"structMR_1_1SymMatrix2.html#a2508bdc607f557d33ec49ff959cf1a3d":[6,0,0,0,7,4,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[6,0,2,0,1,746,1],
+"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[6,0,1,0,1,762,0],
 "structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[6,0,2,0,1,746,0],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,1,0,1,755,0],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,2,0,1,739,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,2,0,1,770,2],
 "structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,1,0,1,786,1],
 "structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,2,0,1,770,1],
-"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,786,0],
-"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,770,0],
-"structMR_1_1ZeroOnMove.html":[6,0,1,0,1,788]
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,786,0]
 };
