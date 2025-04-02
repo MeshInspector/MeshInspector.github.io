@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[6,0,1,0,1,6,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[6,0,2,0,1,2,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,1,0,1,6,2,2,1],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,2,0,1,2,2,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,2,0,1,221,0],
 "structMR_1_1FitDataParams.html":[6,0,1,0,1,239],
 "structMR_1_1FitDataParams.html":[6,0,2,0,1,223],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,1,0,1,239,1],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,2,0,1,223,1]
+"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,1,0,1,239,1]
 };

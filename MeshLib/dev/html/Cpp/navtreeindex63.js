@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMRSubdivideSettings.html#af2102d7a5abd7a59bc9f5214fe35d054":[6,0,2,0,59,2],
 "structMRTriPointf.html":[6,0,2,0,61],
 "structMRTriPointf.html#ac507405aca1d7923df0844c93a909cbc":[6,0,2,0,61,1],
 "structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55":[6,0,2,0,61,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[6,0,1,0,1,68,2],
 "structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[6,0,2,0,1,52,2],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,1,0,1,68,0],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,2,0,1,52,0],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,1,0,1,68,0,2]
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,2,0,1,52,0]
 };
