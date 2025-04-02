@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"structMRTriPointf.html#ac507405aca1d7923df0844c93a909cbc":[6,0,2,0,61,1],
+"structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55":[6,0,2,0,61,0],
+"structMRTriangulationParameters.html":[6,0,2,0,60],
+"structMRTriangulationParameters.html#a76b2cebb3c62c3f2d15bde88f4ea25ed":[6,0,2,0,60,3],
 "structMRTriangulationParameters.html#a8f0f0757bc404b943df9ed727c9aae53":[6,0,2,0,60,2],
 "structMRTriangulationParameters.html#aabbfe3baa67992675fc7a023186160c3":[6,0,2,0,60,4],
 "structMRTriangulationParameters.html#ab85f0e5badf8970c30123cd74f679dd5":[6,0,2,0,60,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,1,0,1,68,0],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,2,0,1,52,0],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,1,0,1,68,0,2],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,2,0,1,52,0,2],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[6,0,1,0,1,68,0,3],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[6,0,2,0,1,52,0,3],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,1,68,0,0],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,2,0,1,52,0,0]
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,2,0,1,52,0,2]
 };

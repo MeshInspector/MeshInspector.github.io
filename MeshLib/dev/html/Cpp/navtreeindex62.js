@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"structMRDecimateSettings.html#ad1e58750f155e9e45c27770c31ebe6f8":[6,0,2,0,12,14],
+"structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a":[6,0,2,0,12,20],
+"structMRDecimateSettings.html#ad80f5a2ff69a7fe804e27ce7a20ba275":[6,0,2,0,12,15],
+"structMRDecimateSettings.html#af30ab932574161654a545582168d7f23":[6,0,2,0,12,17],
 "structMRDecimateSettings.html#af58a10c0e7e72a5fd0b9159736c8faaa":[6,0,2,0,12,13],
 "structMRDenoiseViaNormalsSettings.html":[6,0,2,0,13],
 "structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e":[6,0,2,0,13,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "structMRSubdivideSettings.html#aa28a33eb2158b00f97b177fec21f8b80":[6,0,2,0,59,10],
 "structMRSubdivideSettings.html#adeec58499ab1c16c86c799874f90c8f0":[6,0,2,0,59,3],
 "structMRSubdivideSettings.html#af2102d7a5abd7a59bc9f5214fe35d054":[6,0,2,0,59,2],
-"structMRTriPointf.html":[6,0,2,0,61],
-"structMRTriPointf.html#ac507405aca1d7923df0844c93a909cbc":[6,0,2,0,61,1],
-"structMRTriPointf.html#ac564417d0e671b5d64cbfed73797ba55":[6,0,2,0,61,0],
-"structMRTriangulationParameters.html":[6,0,2,0,60],
-"structMRTriangulationParameters.html#a76b2cebb3c62c3f2d15bde88f4ea25ed":[6,0,2,0,60,3]
+"structMRTriPointf.html":[6,0,2,0,61]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1ObjectTransformWidget.html#af0815d7c982b35b0dbe7f2e0abc9d583":[6,0,2,0,1,417,16],
+"classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,1,0,1,433,2],
 "classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,2,0,1,417,2],
 "classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,1,0,1,433,19],
 "classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,2,0,1,417,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Pdf.html#aee0d3ee8980ff7e8cfd1d6e28aee30a0":[6,0,2,0,1,455,1],
 "classMR_1_1PickPointManager.html":[6,0,1,0,1,473],
 "classMR_1_1PickPointManager.html":[6,0,2,0,1,457],
-"classMR_1_1PickPointManager.html#a02c3091306f572deb4b8f46b6fe4c87f":[6,0,1,0,1,473,19],
-"classMR_1_1PickPointManager.html#a02c3091306f572deb4b8f46b6fe4c87f":[6,0,2,0,1,457,19],
-"classMR_1_1PickPointManager.html#a0922ea18b0bacb74b2787b4e9fb1987f":[6,0,1,0,1,473,17]
+"classMR_1_1PickPointManager.html#a02c3091306f572deb4b8f46b6fe4c87f":[6,0,1,0,1,473,19]
 };
