@@ -400,7 +400,6 @@ var annotated_dup =
       [ "FitDataParams", "structMR_1_1FitDataParams.html", "structMR_1_1FitDataParams" ],
       [ "FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", "classMR_1_1FitSelectedObjectsMenuItem" ],
       [ "FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", "classMR_1_1FitSelectedPrimitivesMenuItem" ],
-      [ "FixMeshDegeneraciesParams", "structMR_1_1FixMeshDegeneraciesParams.html", "structMR_1_1FixMeshDegeneraciesParams" ],
       [ "FlatTree", "structMR_1_1FlatTree.html", "structMR_1_1FlatTree" ],
       [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
       [ "FlowOrigin", "structMR_1_1FlowOrigin.html", "structMR_1_1FlowOrigin" ],
