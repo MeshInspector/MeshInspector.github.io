@@ -49,6 +49,7 @@ var NAVTREEINDEX62 =
 "structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[6,0,2,0,21,1],
 "structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[6,0,2,0,21,4],
 "structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[6,0,2,0,21,3],
+"structMRFixSelfIntersectionsSettings.html#a9eabd5534d3638bdf13a009200ffe2eb":[6,0,2,0,21,5],
 "structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[6,0,2,0,21,0],
 "structMRGeneralOffsetParameters.html":[6,0,2,0,22],
 "structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,22,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMRSubdivideSettings.html#a988969d8eecf9f0180bbece45a4048b8":[6,0,2,0,59,12],
 "structMRSubdivideSettings.html#aa28a33eb2158b00f97b177fec21f8b80":[6,0,2,0,59,10],
 "structMRSubdivideSettings.html#adeec58499ab1c16c86c799874f90c8f0":[6,0,2,0,59,3],
-"structMRSubdivideSettings.html#af2102d7a5abd7a59bc9f5214fe35d054":[6,0,2,0,59,2],
-"structMRTriPointf.html":[6,0,2,0,61]
+"structMRSubdivideSettings.html#af2102d7a5abd7a59bc9f5214fe35d054":[6,0,2,0,59,2]
 };

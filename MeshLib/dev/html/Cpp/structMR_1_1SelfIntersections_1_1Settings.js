@@ -8,5 +8,6 @@ var structMR_1_1SelfIntersections_1_1Settings =
     [ "maxExpand", "structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8", null ],
     [ "method", "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994", null ],
     [ "relaxIterations", "structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6", null ],
-    [ "subdivideEdgeLen", "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224", null ]
+    [ "subdivideEdgeLen", "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224", null ],
+    [ "touchIsIntersection", "structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0", null ]
 ];

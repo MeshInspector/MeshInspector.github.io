@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1Vector4f.html#a45e0939118cd4fa6829e700506aeba7a":[6,1,0,0,2,1018,3],
+"classmrmeshpy_1_1Vector4f.html#a45e0939118cd4fa6829e700506aeba7a":[6,1,1,0,1,1018,3],
+"classmrmeshpy_1_1Vector4f.html#a626a00bc906c179168513f48880dbdfa":[6,1,0,0,2,1018,8],
+"classmrmeshpy_1_1Vector4f.html#a626a00bc906c179168513f48880dbdfa":[6,1,1,0,1,1018,8],
 "classmrmeshpy_1_1Vector4f.html#a63682ff0543ffee3d93ba1a21f6f4172":[6,1,0,0,2,1018,22],
 "classmrmeshpy_1_1Vector4f.html#a63682ff0543ffee3d93ba1a21f6f4172":[6,1,1,0,1,1018,22],
 "classmrmeshpy_1_1Vector4f.html#a68baacc0865a6771f676ecd615f09eb1":[6,1,0,0,2,1018,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6a76c1e39e54d499346868b01f0242ed":[6,1,0,0,2,1022,15],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6a76c1e39e54d499346868b01f0242ed":[6,1,1,0,1,1022,15],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6d08eb8671b42eed7058c08c700bc57f":[6,1,0,0,2,1022,33],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6d08eb8671b42eed7058c08c700bc57f":[6,1,1,0,1,1022,33],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a79a71576eea9dd4b57ec90c554b3b2db":[6,1,0,0,2,1022,3],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a79a71576eea9dd4b57ec90c554b3b2db":[6,1,1,0,1,1022,3],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a880a52a5ce978cfe836c3a62c762d9b9":[6,1,0,0,2,1022,26],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a880a52a5ce978cfe836c3a62c762d9b9":[6,1,0,0,2,1022,27]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6d08eb8671b42eed7058c08c700bc57f":[6,1,1,0,1,1022,33]
 };

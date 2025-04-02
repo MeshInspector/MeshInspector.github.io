@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1WeightedPointsShellParameters.html#a73d391a249dc4a572e1a47b54ea81684":[6,0,1,0,1,784,0],
+"structMR_1_1WeightedPointsShellParameters.html#a73d391a249dc4a572e1a47b54ea81684":[6,0,2,0,1,768,0],
+"structMR_1_1WeightedPointsToDistanceVolumeParams.html":[6,0,1,0,1,785],
 "structMR_1_1WeightedPointsToDistanceVolumeParams.html":[6,0,2,0,1,769],
 "structMR_1_1WeightedPointsToDistanceVolumeParams.html#a02b63d794995c40f155f4567fc3abb40":[6,0,1,0,1,785,0],
 "structMR_1_1WeightedPointsToDistanceVolumeParams.html#a02b63d794995c40f155f4567fc3abb40":[6,0,2,0,1,769,0],

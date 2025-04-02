@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,579,2],
 "structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,2,0,1,563,2],
 "structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,579,6],
 "structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,1,563,6],
@@ -223,6 +224,8 @@ var NAVTREEINDEX80 =
 "structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[6,0,2,0,1,21,0,4],
 "structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,1,0,1,35,0,1],
 "structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,2,0,1,21,0,1],
+"structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0":[6,0,1,0,1,35,0,6],
+"structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0":[6,0,2,0,1,21,0,6],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,1,0,1,35,0,3],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,2,0,1,21,0,3],
 "structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,1,0,1,629,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,2,0,1,618,0],
 "structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,1,0,1,634,1],
 "structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,2,0,1,618,1],
-"structMR_1_1SharpOffsetParameters.html":[6,0,1,0,1,638],
-"structMR_1_1SharpOffsetParameters.html":[6,0,2,0,1,622],
-"structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,1,0,1,638,0],
-"structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,2,0,1,622,0]
+"structMR_1_1SharpOffsetParameters.html":[6,0,1,0,1,638]
 };

@@ -8,6 +8,6 @@ var MRMeshC_2MRFixSelfIntersections_8h =
       [ "MRFixSelfIntersectionsMethodCutAndFill", "MRMeshC_2MRFixSelfIntersections_8h.html#a5515261b4a58169e786ef301e51d02fea5adf2b80b6920b64ec1c871802aad21b", null ]
     ] ],
     [ "mrFixSelfIntersectionsFix", "MRMeshC_2MRFixSelfIntersections_8h.html#a3d6b380330fe1b6bde37076b0f33160e", null ],
-    [ "mrFixSelfIntersectionsGetFaces", "MRMeshC_2MRFixSelfIntersections_8h.html#a542f106f82bba878330f14c281227c5c", null ],
+    [ "mrFixSelfIntersectionsGetFaces", "MRMeshC_2MRFixSelfIntersections_8h.html#aa3ecb7c02619a820008a9949c5889b2e", null ],
     [ "mrFixSelfIntersectionsSettingsNew", "MRMeshC_2MRFixSelfIntersections_8h.html#a2aec0f9b7578c5cd4fbed3a0ebc601a3", null ]
 ];
