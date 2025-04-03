@@ -174,6 +174,8 @@ $(function(){initNavTree('classmrmeshpy_1_1RegionBitSet.html',''); initResizable
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac643a5826f25c6ecaa6f6be3150cbff3" id="r_ac643a5826f25c6ecaa6f6be3150cbff3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac643a5826f25c6ecaa6f6be3150cbff3">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a> b)</td></tr>
 <tr class="separator:ac643a5826f25c6ecaa6f6be3150cbff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde407913076c7b8ff9fd6aacaf7460f" id="r_adde407913076c7b8ff9fd6aacaf7460f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adde407913076c7b8ff9fd6aacaf7460f">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> pos)</td></tr>
+<tr class="separator:adde407913076c7b8ff9fd6aacaf7460f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7c4a98a4dc61239836f3b103d7d856" id="r_a6b7c4a98a4dc61239836f3b103d7d856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b7c4a98a4dc61239836f3b103d7d856">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a> b)</td></tr>
 <tr class="separator:a6b7c4a98a4dc61239836f3b103d7d856"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ccc448813e1f64fcf1e64cbf03eace3" id="r_a3ccc448813e1f64fcf1e64cbf03eace3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ccc448813e1f64fcf1e64cbf03eace3">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -240,8 +242,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a073e500b5dd574982e909a3cd93e0c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34ba92a868db9a7f984be8a559a9fc17" id="r_a34ba92a868db9a7f984be8a559a9fc17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ba92a868db9a7f984be8a559a9fc17">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:a34ba92a868db9a7f984be8a559a9fc17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06005e7fb09e225f2acab185c967dfcf" id="r_a06005e7fb09e225f2acab185c967dfcf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06005e7fb09e225f2acab185c967dfcf">operator</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> pos)</td></tr>
-<tr class="separator:a06005e7fb09e225f2acab185c967dfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fb51825e616359a74fdc569ec342fa2" id="r_a0fb51825e616359a74fdc569ec342fa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fb51825e616359a74fdc569ec342fa2">reset</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> n, int len)</td></tr>
 <tr class="separator:a0fb51825e616359a74fdc569ec342fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf6003aa8256f941fb1b16d61abd73dc" id="r_aaf6003aa8256f941fb1b16d61abd73dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf6003aa8256f941fb1b16d61abd73dc">reset</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> n)</td></tr>
@@ -403,6 +403,27 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a5d5a1bb5839863d7c2b6c396ee4d6ec2">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="adde407913076c7b8ff9fd6aacaf7460f" name="adde407913076c7b8ff9fd6aacaf7460f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde407913076c7b8ff9fd6aacaf7460f">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.RegionBitSet.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1094,27 +1115,6 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a06005e7fb09e225f2acab185c967dfcf" name="a06005e7fb09e225f2acab185c967dfcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06005e7fb09e225f2acab185c967dfcf">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.RegionBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

@@ -2,9 +2,10 @@ var classmrmeshpy_1_1Buffer__RegionId__RegionId =
 [
     [ "__init__", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a8f9939a5bf23d7bda4d6a28e94fc830b", null ],
     [ "__init__", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a83bc6601abf4e088bdf984dac489f0b6", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a6185483da264a78c6286965f95f77fc4", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a6185483da264a78c6286965f95f77fc4", null ],
     [ "__iter__", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#aa4503f04ab6c46e9523657bb095e0f27", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a65a7c58cd561df96b414fe8077bea012", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a65a7c58cd561df96b414fe8077bea012", null ],
+    [ "__setitem__", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a87eee70e12a25334bb2e545374998cd2", null ],
     [ "backId", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a4ed1a434efa9558642bbcdc14c348898", null ],
     [ "beginId", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#a353e72e51b320882a21ec23a537eb0a6", null ],
     [ "capacity", "classmrmeshpy_1_1Buffer__RegionId__RegionId.html#ae4d52855234eaffed7abe349ef5fc7fb", null ],

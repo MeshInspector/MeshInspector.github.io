@@ -174,6 +174,8 @@ $(function(){initNavTree('classmrmeshpy_1_1VoxelBitSet.html',''); initResizable(
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8d6a563a507e1805f144159832347d7b" id="r_a8d6a563a507e1805f144159832347d7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6a563a507e1805f144159832347d7b">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a> b)</td></tr>
 <tr class="separator:a8d6a563a507e1805f144159832347d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c3278b247ae9c80f5f92815a33e47d" id="r_a89c3278b247ae9c80f5f92815a33e47d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89c3278b247ae9c80f5f92815a33e47d">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> pos)</td></tr>
+<tr class="separator:a89c3278b247ae9c80f5f92815a33e47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac209c8d2550a2e16f6a874d609757efa" id="r_ac209c8d2550a2e16f6a874d609757efa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac209c8d2550a2e16f6a874d609757efa">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a> b)</td></tr>
 <tr class="separator:ac209c8d2550a2e16f6a874d609757efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c0eb2a3ac4e52f7d44e0f778a372685" id="r_a5c0eb2a3ac4e52f7d44e0f778a372685"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -240,8 +242,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6b5a68d538548712878dcc05c735f60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a24d17d20d123e5ce2be191db7ee60b" id="r_a0a24d17d20d123e5ce2be191db7ee60b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a24d17d20d123e5ce2be191db7ee60b">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:a0a24d17d20d123e5ce2be191db7ee60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5772016b87c312d131e5856e231112d0" id="r_a5772016b87c312d131e5856e231112d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5772016b87c312d131e5856e231112d0">operator</a> (self, <a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> pos)</td></tr>
-<tr class="separator:a5772016b87c312d131e5856e231112d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88a3560ed9d6de2edb8df3f5da6fc93d" id="r_a88a3560ed9d6de2edb8df3f5da6fc93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a3560ed9d6de2edb8df3f5da6fc93d">reset</a> (self, <a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> n, int len)</td></tr>
 <tr class="separator:a88a3560ed9d6de2edb8df3f5da6fc93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87d7d9aaffe7df5a01f23980c98659b" id="r_ab87d7d9aaffe7df5a01f23980c98659b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87d7d9aaffe7df5a01f23980c98659b">reset</a> (self, <a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a> n)</td></tr>
@@ -403,6 +403,27 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a5d5a1bb5839863d7c2b6c396ee4d6ec2">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a89c3278b247ae9c80f5f92815a33e47d" name="a89c3278b247ae9c80f5f92815a33e47d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89c3278b247ae9c80f5f92815a33e47d">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.VoxelBitSet.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1094,27 +1115,6 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a5772016b87c312d131e5856e231112d0" name="a5772016b87c312d131e5856e231112d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5772016b87c312d131e5856e231112d0">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.VoxelBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Id__VoxelTag.html">Id_VoxelTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

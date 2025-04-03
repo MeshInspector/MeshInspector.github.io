@@ -2,9 +2,10 @@ var classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag =
 [
     [ "__init__", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a66f75fb268c326802e59b62e5e17dcd1", null ],
     [ "__init__", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a58e82fd20ab0e954c7789a9d65a39bf5", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a31c031e64023bd67cd6c13165e11e6bb", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a31c031e64023bd67cd6c13165e11e6bb", null ],
     [ "__iter__", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#aac7eb85b3541b839070f7aeb7f07e12d", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a45ee81db3a6a79412542bdf23cd2ba66", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a45ee81db3a6a79412542bdf23cd2ba66", null ],
+    [ "__setitem__", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a5c560600dad513f751505358b99d570a", null ],
     [ "backId", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#ab0aa550fe118508eee00e87eef23030d", null ],
     [ "beginId", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#acc94dbd0fddfbe0ebdc685c147fa499f", null ],
     [ "capacity", "classmrmeshpy_1_1Buffer__Id__VoxelTag__Id__VoxelTag.html#a6fc50ecabc6c910f1ddea7fac533ad7c", null ],

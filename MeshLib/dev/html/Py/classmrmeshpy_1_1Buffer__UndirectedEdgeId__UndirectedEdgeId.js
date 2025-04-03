@@ -2,9 +2,10 @@ var classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId =
 [
     [ "__init__", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#a1596b14f01748b00f19f4e65f15af7a9", null ],
     [ "__init__", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#ac4929a30be24fdc0bff2eeaf4b81148f", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#acabdb141ed6bfe59ac9b5b98d3f851e0", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#acabdb141ed6bfe59ac9b5b98d3f851e0", null ],
     [ "__iter__", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#ad3a4a7f54c621fe46cbc488887fcb521", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#a2a50b3ad32c26db42fe95558b5308505", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#a2a50b3ad32c26db42fe95558b5308505", null ],
+    [ "__setitem__", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#a61e0b639ae2096315ec413e2a3972731", null ],
     [ "backId", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#a6654a6a2c6c04846bb4ab16e3f44d05c", null ],
     [ "beginId", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#ae03b535372a0aff13100ec01c4412b26", null ],
     [ "capacity", "classmrmeshpy_1_1Buffer__UndirectedEdgeId__UndirectedEdgeId.html#ab9d1097feac58a8278d0670e10990321", null ],

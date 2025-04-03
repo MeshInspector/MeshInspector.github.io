@@ -174,6 +174,8 @@ $(function(){initNavTree('classmrmeshpy_1_1EdgeBitSet.html',''); initResizable(t
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a82d7bfbd60cbbff4249bef7eaa9e9111" id="r_a82d7bfbd60cbbff4249bef7eaa9e9111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d7bfbd60cbbff4249bef7eaa9e9111">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
 <tr class="separator:a82d7bfbd60cbbff4249bef7eaa9e9111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f04639e1fef0ae4e06bd9cad73f05c" id="r_a10f04639e1fef0ae4e06bd9cad73f05c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10f04639e1fef0ae4e06bd9cad73f05c">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> pos)</td></tr>
+<tr class="separator:a10f04639e1fef0ae4e06bd9cad73f05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c24090a010b811f42dad4bd8350d2a9" id="r_a0c24090a010b811f42dad4bd8350d2a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c24090a010b811f42dad4bd8350d2a9">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> b)</td></tr>
 <tr class="separator:a0c24090a010b811f42dad4bd8350d2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae94fad4319808db0e78a07d60ec7d370" id="r_ae94fad4319808db0e78a07d60ec7d370"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94fad4319808db0e78a07d60ec7d370">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -240,8 +242,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af18d089eec2ad1d214fba1b526c34ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31fc7d972b2341b56dda2c664269f45e" id="r_a31fc7d972b2341b56dda2c664269f45e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31fc7d972b2341b56dda2c664269f45e">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:a31fc7d972b2341b56dda2c664269f45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a355a0f519ea82568dea2e74241e16d63" id="r_a355a0f519ea82568dea2e74241e16d63"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a355a0f519ea82568dea2e74241e16d63">operator</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> pos)</td></tr>
-<tr class="separator:a355a0f519ea82568dea2e74241e16d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba412acdba21ba9b36b098a99667a01e" id="r_aba412acdba21ba9b36b098a99667a01e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba412acdba21ba9b36b098a99667a01e">reset</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n, int len)</td></tr>
 <tr class="separator:aba412acdba21ba9b36b098a99667a01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1812c8383c109de0905333ab393f8894" id="r_a1812c8383c109de0905333ab393f8894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1812c8383c109de0905333ab393f8894">reset</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> n)</td></tr>
@@ -403,6 +403,27 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a5d5a1bb5839863d7c2b6c396ee4d6ec2">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a10f04639e1fef0ae4e06bd9cad73f05c" name="a10f04639e1fef0ae4e06bd9cad73f05c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f04639e1fef0ae4e06bd9cad73f05c">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeBitSet.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1094,27 +1115,6 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a355a0f519ea82568dea2e74241e16d63" name="a355a0f519ea82568dea2e74241e16d63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a355a0f519ea82568dea2e74241e16d63">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.EdgeBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
