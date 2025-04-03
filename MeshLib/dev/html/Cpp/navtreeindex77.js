@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,2,0,1,458,0],
+"structMR_1_1PickPointManager_1_1ObjectState.html#a75ec25d887eb5b52814323a6d4f0b012":[6,0,1,0,1,474,0,1],
+"structMR_1_1PickPointManager_1_1ObjectState.html#a75ec25d887eb5b52814323a6d4f0b012":[6,0,2,0,1,458,0,1],
+"structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,1,0,1,474,0,0],
 "structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,2,0,1,458,0,0],
 "structMR_1_1PickPointManager_1_1Params.html":[6,0,1,0,1,474,1],
 "structMR_1_1PickPointManager_1_1Params.html":[6,0,2,0,1,458,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,2,0,1,483,2],
 "structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b":[6,0,1,0,1,499,1],
 "structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b":[6,0,2,0,1,483,1],
-"structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f":[6,0,1,0,1,499,0],
-"structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f":[6,0,2,0,1,483,0],
-"structMR_1_1PointsToMeshParameters.html":[6,0,1,0,1,500],
-"structMR_1_1PointsToMeshParameters.html":[6,0,2,0,1,484],
-"structMR_1_1PointsToMeshParameters.html#a00eeb792ec36e21c8cc51989d1052210":[6,0,1,0,1,500,8]
+"structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f":[6,0,1,0,1,499,0]
 };

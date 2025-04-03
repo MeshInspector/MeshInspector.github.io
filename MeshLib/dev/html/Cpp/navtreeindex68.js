@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[6,0,1,0,1,6,2,1,1],
+"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[6,0,2,0,1,2,2,1,1],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[6,0,1,0,1,6,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[6,0,2,0,1,2,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,1,0,1,6,2,2,1],
@@ -132,8 +134,10 @@ var NAVTREEINDEX68 =
 "structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,209,3],
 "structMR_1_1FileLoadOptions.html":[6,0,1,0,1,226],
 "structMR_1_1FileLoadOptions.html":[6,0,2,0,1,210],
-"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,1,0,1,226,1],
-"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,2,0,1,210,1],
+"structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,1,0,1,226,1],
+"structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,2,0,1,210,1],
+"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,1,0,1,226,2],
+"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,2,0,1,210,2],
 "structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,1,0,1,226,0],
 "structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,2,0,1,210,0],
 "structMR_1_1FileParameters.html":[6,0,1,0,1,227],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1FitBoxParams.html":[6,0,2,0,1,221],
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,1,0,1,237,1],
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,2,0,1,221,1],
-"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,1,0,1,237,0],
-"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,2,0,1,221,0],
-"structMR_1_1FitDataParams.html":[6,0,1,0,1,239],
-"structMR_1_1FitDataParams.html":[6,0,2,0,1,223],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,1,0,1,239,1]
+"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,1,0,1,237,0]
 };

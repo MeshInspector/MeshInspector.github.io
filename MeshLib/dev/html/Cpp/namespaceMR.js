@@ -964,6 +964,7 @@ var namespaceMR =
     [ "FaceTreeTraits3", "group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632", null ],
     [ "FeaturesPropertyTypesVariant", "namespaceMR.html#a45cb1332fad43a5a921294d643411ba0", null ],
     [ "FileNamesStack", "namespaceMR.html#abf9e7451b5087b4485b6207161438dc3", null ],
+    [ "FilesLoadedCallback", "namespaceMR.html#a17ccacdfeadccb79721c62567730f6cc", null ],
     [ "FillCombineMetric", "group__FillHoleGroup.html#gaf0a9f8a0620df3a7af664ad4c6aab213", null ],
     [ "FillEdgeMetric", "group__FillHoleGroup.html#ga7f292aee02fc8ca7504a114461b74cd5", null ],
     [ "FillTriangleMetric", "group__FillHoleGroup.html#ga9a2b22c68476e1176c0f8a8f43542611", null ],
