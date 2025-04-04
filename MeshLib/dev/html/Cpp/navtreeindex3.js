@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"MRGetSystemInfoJson_8h_source.html":[6,0,3,0,0,1,10,22],
 "MRGladGlfw_8h.html":[6,0,3,0,0,1,10,23],
 "MRGladGlfw_8h.html#a8079a7cf1b5a678640e6fd20eb26dd74":[6,0,3,0,0,1,10,23,0],
 "MRGladGlfw_8h.html#aea8b2bf2b592657af506fb5517e0c1d9":[6,0,3,0,0,1,10,23,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "MRLineObject_8h.html":[6,0,3,0,0,1,4,156],
 "MRLineObject_8h_source.html":[6,0,3,0,0,1,4,156],
 "MRLineSegm3_8h.html":[6,0,3,0,0,1,4,158],
-"MRLineSegm3_8h_source.html":[6,0,3,0,0,1,4,158]
+"MRLineSegm3_8h_source.html":[6,0,3,0,0,1,4,158],
+"MRLineSegm_8h.html":[6,0,3,0,0,1,4,157]
 };

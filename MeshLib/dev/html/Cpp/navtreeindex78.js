@@ -1,8 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f":[6,0,2,0,1,483,0],
-"structMR_1_1PointsToMeshParameters.html":[6,0,1,0,1,500],
-"structMR_1_1PointsToMeshParameters.html":[6,0,2,0,1,484],
 "structMR_1_1PointsToMeshParameters.html#a00eeb792ec36e21c8cc51989d1052210":[6,0,1,0,1,500,8],
 "structMR_1_1PointsToMeshParameters.html#a00eeb792ec36e21c8cc51989d1052210":[6,0,2,0,1,484,8],
 "structMR_1_1PointsToMeshParameters.html#a1f8072d5242c289b8aa4c442285102e2":[6,0,1,0,1,500,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX78 =
 "structMR_1_1QuadraticForm.html":[6,0,0,0,19],
 "structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a":[6,0,0,0,19,1],
 "structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463":[6,0,0,0,19,11],
-"structMR_1_1QuadraticForm.html#a4612e1bf2a83cf9f8c04bcffd05b8be0":[6,0,0,0,19,4]
+"structMR_1_1QuadraticForm.html#a4612e1bf2a83cf9f8c04bcffd05b8be0":[6,0,0,0,19,4],
+"structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[6,0,0,0,19,8],
+"structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69":[6,0,0,0,19,3],
+"structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c":[6,0,0,0,19,2]
 };
