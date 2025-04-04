@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMRSubdivideSettings.html#a40d6f0e5fc04584858699368ab9804bc":[6,0,2,0,59,13],
+"structMRSubdivideSettings.html#a4837999f61cc60e7cf30f052dc28f1dd":[6,0,2,0,59,7],
 "structMRSubdivideSettings.html#a5110fcc51f181788ac84bfb5d55c73c2":[6,0,2,0,59,11],
 "structMRSubdivideSettings.html#a55ed7d642c787d8957d3a9497ba51087":[6,0,2,0,59,5],
 "structMRSubdivideSettings.html#a6017bb445dacb13666341b551c1a7e96":[6,0,2,0,59,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,2,0,1,52,1,2],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,1,0,1,68,1,3],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,2,0,1,52,1,3],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,1,0,1,68,1,1],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,2,0,1,52,1,1],
-"structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[6,0,1,0,1,68,3]
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,1,0,1,68,1,1]
 };

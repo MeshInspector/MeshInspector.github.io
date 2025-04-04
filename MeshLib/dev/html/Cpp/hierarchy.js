@@ -941,6 +941,7 @@ var hierarchy =
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
     [ "MR::VoxelsVolumeCachingAccessor< V >::Parameters", "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html", null ],
+    [ "MR::FixUndercuts::Params", "structMR_1_1FixUndercuts_1_1Params.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
     [ "MR::PickPointManager::Params", "structMR_1_1PickPointManager_1_1Params.html", null ],
     [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],

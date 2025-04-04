@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba16ce52a0bb8134f9ddc6eba95e70db37":[6,0,3,0,0,1,5,63,1,0],
 "MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba541e48e5fab90cdd7ee8e8162981dab3":[6,0,3,0,0,1,5,63,1,3],
 "MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba6ec84d8b4cacadd6f0792a256f2a5334":[6,0,3,0,0,1,5,63,1,1],
 "MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bba7b16e049b70ba2182ffeb9409fed9b89":[6,0,3,0,0,1,5,63,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRFreeFormDeformer_8h.html":[6,0,3,0,0,1,4,117],
 "MRMesh_2MRFreeFormDeformer_8h.html#a5257f65923756edeb18ddf7a4b1edf81":[6,0,3,0,0,1,4,117,2],
 "MRMesh_2MRFreeFormDeformer_8h.html#add5f5baf42852a03fb03fcd8a53b1b69":[6,0,3,0,0,1,4,117,3],
-"MRMesh_2MRFreeFormDeformer_8h_source.html":[6,0,3,0,0,1,4,117],
-"MRMesh_2MRGridSampling_8h.html":[6,0,3,0,0,1,4,122]
+"MRMesh_2MRFreeFormDeformer_8h_source.html":[6,0,3,0,0,1,4,117]
 };

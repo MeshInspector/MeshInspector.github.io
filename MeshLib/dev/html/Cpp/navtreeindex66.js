@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,1,156,2],
+"structMR_1_1DenoiseViaNormalsSettings.html":[6,0,1,0,1,174],
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,2,0,1,158],
 "structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,1,0,1,174,7],
 "structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,2,0,1,158,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aead491538da818a2ba11a3195ba035cfd3":[6,0,1,0,1,201,1,0],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aead491538da818a2ba11a3195ba035cfd3":[6,0,2,0,1,185,1,0],
 "structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34":[6,0,1,0,1,201,5],
-"structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34":[6,0,2,0,1,185,5],
-"structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09":[6,0,1,0,1,201,6],
-"structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09":[6,0,2,0,1,185,6]
+"structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34":[6,0,2,0,1,185,5]
 };

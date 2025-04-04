@@ -42,7 +42,8 @@ var annotated_dup =
       ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
-        [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ]
+        [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ],
+        [ "Params", "structMR_1_1FixUndercuts_1_1Params.html", "structMR_1_1FixUndercuts_1_1Params" ]
       ] ],
       [ "ImGuiMath", "namespaceMR_1_1ImGuiMath.html", [
         [ "detail", "namespaceMR_1_1ImGuiMath_1_1detail.html", [

@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRRenderModelParameters_8h.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,3,0,0,1,4,320,0,4],
 "MRRenderModelParameters_8h.html#a712ee084e6055ce8fadbbe8cf8b3f6ceaf69df7097e3ab319cda15613b634273a":[6,0,3,0,0,1,4,320,0,3],
 "MRRenderModelParameters_8h.html#a712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5":[6,0,3,0,0,1,4,320,0,0],
 "MRRenderModelParameters_8h_source.html":[6,0,3,0,0,1,4,320],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRSharpenMarchingCubesMesh_8h_source.html":[6,0,3,0,0,1,4,335],
 "MRShortcutManager_8h.html":[6,0,3,0,0,1,10,102],
 "MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6b":[6,0,3,0,0,1,10,102,3],
-"MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875":[6,0,3,0,0,1,10,102,3,0],
-"MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005":[6,0,3,0,0,1,10,102,3,2]
+"MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875":[6,0,3,0,0,1,10,102,3,0]
 };

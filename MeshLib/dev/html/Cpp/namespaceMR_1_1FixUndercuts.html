@@ -165,6 +165,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html">ImproveDirectionParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixUndercuts_1_1Params.html">Params</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix undercuts function paramters.  <a href="structMR_1_1FixUndercuts_1_1Params.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -177,6 +180,8 @@ Functions</h2></td></tr>
 <tr class="separator:a17b22007ca26335c67c6c939668c8186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9d879c376da4d6ebd30cc77fa915376" id="r_af9d879c376da4d6ebd30cc77fa915376"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9d879c376da4d6ebd30cc77fa915376">fixUndercuts</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;selectedArea, const Vector3f &amp;upDirection, float voxelSize=0.0f, float bottomExtension=0.0f)</td></tr>
 <tr class="separator:af9d879c376da4d6ebd30cc77fa915376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a780e628426fa71eb5eeb98d9adfc2010" id="r_a780e628426fa71eb5eeb98d9adfc2010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a780e628426fa71eb5eeb98d9adfc2010">fix</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1Params.html">Params</a> &amp;params)</td></tr>
+<tr class="separator:a780e628426fa71eb5eeb98d9adfc2010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6103a164b0037795960a4ecc185199cc" id="r_a6103a164b0037795960a4ecc185199cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6103a164b0037795960a4ecc185199cc">getUndercutAreaMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:a6103a164b0037795960a4ecc185199cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes total area of undercut faces  <br /></td></tr>
 <tr class="separator:a6103a164b0037795960a4ecc185199cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -353,6 +358,28 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a780e628426fa71eb5eeb98d9adfc2010" name="a780e628426fa71eb5eeb98d9adfc2010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a780e628426fa71eb5eeb98d9adfc2010">&#9670;&#160;</a></span>fix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::FixUndercuts::fix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FixUndercuts_1_1Params.html">Params</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fixes undercut areas by building vertical walls under it, algorithm is performed in voxel space, so the mesh is completely rebuilt after this operation </p>
 
 </div>
 </div>

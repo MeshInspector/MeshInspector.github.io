@@ -757,6 +757,7 @@ var hierarchy =
     [ "mrmeshpy.Parabolad", "classmrmeshpy_1_1Parabolad.html", null ],
     [ "mrmeshpy.Parabolaf", "classmrmeshpy_1_1Parabolaf.html", null ],
     [ "mrmeshpy.Parallel", "classmrmeshpy_1_1Parallel.html", null ],
+    [ "mrmeshpy.FixUndercuts.Params", "classmrmeshpy_1_1FixUndercuts_1_1Params.html", null ],
     [ "mrmeshpy.PartMapping", "classmrmeshpy_1_1PartMapping.html", null ],
     [ "mrmeshpy.PathError", "classmrmeshpy_1_1PathError.html", null ],
     [ "mrmeshpy.Pdf", "classmrmeshpy_1_1Pdf.html", null ],
