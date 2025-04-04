@@ -2404,9 +2404,13 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384">SpecificAxisFit</a>
  }</td></tr>
 <tr class="separator:a0ec93e9fcfd4b11654579d65e255bb7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada281bbc8bccd66b01be1b6d2b99e3cd" id="r_ada281bbc8bccd66b01be1b6d2b99e3cd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> { <a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">Unit</a> = 0
+, <a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06">NeiArea</a>
+ }</td></tr>
+<tr class="memdesc:ada281bbc8bccd66b01be1b6d2b99e3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the weight or mass of each vertex in applications like Laplacian  <a href="#ada281bbc8bccd66b01be1b6d2b99e3cd">More...</a><br /></td></tr>
+<tr class="separator:ada281bbc8bccd66b01be1b6d2b99e3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ac9f08cd2ef48394fa1c77a8ebdd6c8" id="r_a5ac9f08cd2ef48394fa1c77a8ebdd6c8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> { <a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f">Unit</a> = 0
 , <a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">Cotan</a>
-, <a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8aabeda66621ed8130672ce5e9276fd49e">CotanWithAreaEqWeight</a>
  }</td></tr>
 <tr class="memdesc:a5ac9f08cd2ef48394fa1c77a8ebdd6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the weight of each edge in applications like Laplacian  <a href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">More...</a><br /></td></tr>
 <tr class="separator:a5ac9f08cd2ef48394fa1c77a8ebdd6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4740,8 +4744,8 @@ Functions</h2></td></tr>
 <tr class="separator:a021c68ef31d7ddce5af4dffb3ebf6bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad412e17ccd41a72db846230e5b0aace9" id="r_ad412e17ccd41a72db846230e5b0aace9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgeSegment.html">EdgeSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad412e17ccd41a72db846230e5b0aace9">extractSectionsFromPolyline</a> (const Polyline3 &amp;polyline, const Plane3f &amp;plane, float eps, UndirectedEdgeBitSet *positiveEdges={})</td></tr>
 <tr class="separator:ad412e17ccd41a72db846230e5b0aace9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17d3251dd9ab06ec842606a4e4225fb2" id="r_a17d3251dd9ab06ec842606a4e4225fb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17d3251dd9ab06ec842606a4e4225fb2">positionVertsSmoothly</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts, <a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> edgeWeightsType=<a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a>, const VertBitSet *fixedSharpVertices=nullptr)</td></tr>
-<tr class="separator:a17d3251dd9ab06ec842606a4e4225fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86354c05ad9fa894a5dd8c50099d7a9" id="r_ae86354c05ad9fa894a5dd8c50099d7a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae86354c05ad9fa894a5dd8c50099d7a9">positionVertsSmoothly</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts, <a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> edgeWeights=<a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a>, <a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> vmass=<a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a>, const VertBitSet *fixedSharpVertices=nullptr)</td></tr>
+<tr class="separator:ae86354c05ad9fa894a5dd8c50099d7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44cdfa0fa0f605b3ff29d5437e8a93d8" id="r_a44cdfa0fa0f605b3ff29d5437e8a93d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44cdfa0fa0f605b3ff29d5437e8a93d8">positionVertsSmoothlySharpBd</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt; *vertShifts=nullptr, const VertScalars *vertStabilizers=nullptr)</td></tr>
 <tr class="separator:a44cdfa0fa0f605b3ff29d5437e8a93d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d34390e42800882d558656d3ea89684" id="r_a1d34390e42800882d558656d3ea89684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d34390e42800882d558656d3ea89684">positionVertsWithSpacing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1SpacingSettings.html">SpacingSettings</a> &amp;settings)</td></tr>
@@ -9327,8 +9331,7 @@ template&lt;typename T &gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f" name="a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f"></a>Unit&#160;</td><td class="fielddoc"><p>all edges have same weight=1 </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" name="a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9"></a>Cotan&#160;</td><td class="fielddoc"><p>edge weight depends on local geometry and uses cotangent values </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a5ac9f08cd2ef48394fa1c77a8ebdd6c8aabeda66621ed8130672ce5e9276fd49e" name="a5ac9f08cd2ef48394fa1c77a8ebdd6c8aabeda66621ed8130672ce5e9276fd49e"></a>CotanWithAreaEqWeight&#160;</td><td class="fielddoc"><p>cotangent edge weights and equation weights inversely proportional to square root of local area </p>
+<p>cotangent edge weights and equation weights inversely proportional to square root of local area </p>
 </td></tr>
 </table>
 
@@ -10590,6 +10593,36 @@ template&lt;typename T &gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b" name="afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b"></a>No&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" name="afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435"></a>Yes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83" name="afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83"></a>YesIfAlreadyConstructed&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ada281bbc8bccd66b01be1b6d2b99e3cd" name="ada281bbc8bccd66b01be1b6d2b99e3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada281bbc8bccd66b01be1b6d2b99e3cd">&#9670;&#160;</a></span>VertexMass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cd">MR::VertexMass</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>determines the weight or mass of each vertex in applications like <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" name="ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f"></a>Unit&#160;</td><td class="fielddoc"><p>all vertices have same mass=1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06" name="ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06"></a>NeiArea&#160;</td><td class="fielddoc"><p>vertex mass depends on local geometry and proportional to the area of first-ring triangles </p>
+</td></tr>
 </table>
 
 </div>
@@ -28844,8 +28877,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a17d3251dd9ab06ec842606a4e4225fb2" name="a17d3251dd9ab06ec842606a4e4225fb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17d3251dd9ab06ec842606a4e4225fb2">&#9670;&#160;</a></span>positionVertsSmoothly()</h2>
+<a id="ae86354c05ad9fa894a5dd8c50099d7a9" name="ae86354c05ad9fa894a5dd8c50099d7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86354c05ad9fa894a5dd8c50099d7a9">&#9670;&#160;</a></span>positionVertsSmoothly()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -28863,7 +28896,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>edgeWeightsType</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></span>, </td>
+          <td class="paramtype"><a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a></td>          <td class="paramname"><span class="paramname"><em>vmass</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -11,7 +11,7 @@ var classMR_1_1Laplacian =
     [ "fixVertex", "classMR_1_1Laplacian.html#abde407cebf38b19019235ca25c82309e", null ],
     [ "fixVertex", "classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f", null ],
     [ "freeVerts", "classMR_1_1Laplacian.html#a193dcb7b5ba595a2dad19cf1b4af4ce9", null ],
-    [ "init", "classMR_1_1Laplacian.html#a4583a70ee721c1a0e5daa7ee3d607039", null ],
+    [ "init", "classMR_1_1Laplacian.html#a9722fea3de00eb2456b5578da15a385a", null ],
     [ "region", "classMR_1_1Laplacian.html#a9ad9ba866f86e02979c7ad6b6af3331c", null ],
     [ "updateSolver", "classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226", null ]
 ];

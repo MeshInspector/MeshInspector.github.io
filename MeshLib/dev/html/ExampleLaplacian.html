@@ -184,7 +184,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#ab4490c42061cf2506fdb325f9d281f68">MR::expand</a>( mesh-&gt;topology, freeVerts, 5 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Initialize laplacian</span></div>
-<div class="line">    lDeformer.init( freeVerts, MR::EdgeWeights::CotanWithAreaEqWeight );</div>
+<div class="line">    lDeformer.init( freeVerts, MR::EdgeWeights::Cotan, MR::VertexMass::NeiArea );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> shiftAmount = mesh-&gt;computeBoundingBox().diagonal() * 0.01f;</div>
 <div class="line">    <span class="comment">// Fix the anchor vertices in the required position</span></div>
@@ -226,7 +226,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">mm.expand(mesh.topology,freeVerts,5)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Initialize laplacian</span></div>
-<div class="line">lDeformer.init(freeVerts,mm.EdgeWeights.CotanWithAreaEqWeight)</div>
+<div class="line">lDeformer.init(freeVerts,mm.EdgeWeights.Cotan,mm.VertexMass.NeiArea)</div>
 <div class="line"> </div>
 <div class="line">shiftAmount = mesh.computeBoundingBox().diagonal()*0.01</div>
 <div class="line"><span class="comment"># Fix anchor vertices in required position</span></div>
@@ -272,7 +272,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRExpandShrink_8h.html#ac521dd60ba78aa10086cdd7ab360f445">mrExpandVertRegion</a>( <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#a2f5d81f940456a9ae80511fb12f71669">mrMeshTopology</a>( mesh ), freeVerts, 5 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Initialize laplacian</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRLaplacian_8h.html#a976c2e259f949c944e0adadf356c741d">mrLaplacianInit</a>( lDeformer, freeVerts, MREdgeWeightsCotanWithAreaEqWeight, MRLaplacianRememberShapeYes );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRLaplacian_8h.html#a91f15eea515504754525c70b51f9054e">mrLaplacianInit</a>( lDeformer, freeVerts, MREdgeWeightsCotan, MRVertexMassNeiArea, MRLaplacianRememberShapeYes );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMRBox3f.html">MRBox3f</a> bbox = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034">mrMeshComputeBoundingBox</a>( mesh, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> shiftAmount = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRBox_8h.html#a699388955b5907eea309e33d62a358d0">mrBox3fDiagonal</a>( &amp;bbox ) * 0.01f;</div>
@@ -311,7 +311,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="ttc" id="aMRMeshC_2MRExpandShrink_8h_html_ac521dd60ba78aa10086cdd7ab360f445"><div class="ttname"><a href="./Cpp/MRMeshC_2MRExpandShrink_8h.html#ac521dd60ba78aa10086cdd7ab360f445">mrExpandVertRegion</a></div><div class="ttdeci">MRMESHC_API void mrExpandVertRegion(const MRMeshTopology *top, MRVertBitSet *region, int hops)</div></div>
 <div class="ttc" id="aMRMeshC_2MRLaplacian_8h_html_a21ac5e4ad10323639068c603f07933dd"><div class="ttname"><a href="./Cpp/MRMeshC_2MRLaplacian_8h.html#a21ac5e4ad10323639068c603f07933dd">mrLaplacianFixVertex</a></div><div class="ttdeci">MRMESHC_API void mrLaplacianFixVertex(MRLaplacian *laplacian, MRVertId v, const MRVector3f *fixedPos, bool smooth)</div></div>
 <div class="ttc" id="aMRMeshC_2MRLaplacian_8h_html_a400632702bb7d4736cfa610ad361c208"><div class="ttname"><a href="./Cpp/MRMeshC_2MRLaplacian_8h.html#a400632702bb7d4736cfa610ad361c208">mrLaplacianFree</a></div><div class="ttdeci">MRMESHC_API void mrLaplacianFree(MRLaplacian *laplacian)</div></div>
-<div class="ttc" id="aMRMeshC_2MRLaplacian_8h_html_a976c2e259f949c944e0adadf356c741d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRLaplacian_8h.html#a976c2e259f949c944e0adadf356c741d">mrLaplacianInit</a></div><div class="ttdeci">MRMESHC_API void mrLaplacianInit(MRLaplacian *laplacian, const MRVertBitSet *freeVerts, MREdgeWeights weights, MRLaplacianRememberShape rem)</div></div>
+<div class="ttc" id="aMRMeshC_2MRLaplacian_8h_html_a91f15eea515504754525c70b51f9054e"><div class="ttname"><a href="./Cpp/MRMeshC_2MRLaplacian_8h.html#a91f15eea515504754525c70b51f9054e">mrLaplacianInit</a></div><div class="ttdeci">MRMESHC_API void mrLaplacianInit(MRLaplacian *laplacian, const MRVertBitSet *freeVerts, MREdgeWeights weights, MRVertexMass vmass, MRLaplacianRememberShape rem)</div></div>
 <div class="ttc" id="aMRMeshC_2MRLaplacian_8h_html_abe29dda4575d9cf18083768ef0065662"><div class="ttname"><a href="./Cpp/MRMeshC_2MRLaplacian_8h.html#abe29dda4575d9cf18083768ef0065662">mrLaplacianNew</a></div><div class="ttdeci">MRMESHC_API MRLaplacian * mrLaplacianNew(MRMesh *mesh)</div></div>
 <div class="ttc" id="aMRMeshC_2MRLaplacian_8h_html_afa0627a61ff260e418c1e63624dfa8b1"><div class="ttname"><a href="./Cpp/MRMeshC_2MRLaplacian_8h.html#afa0627a61ff260e418c1e63624dfa8b1">mrLaplacianApply</a></div><div class="ttdeci">MRMESHC_API void mrLaplacianApply(MRLaplacian *laplacian)</div></div>
 <div class="ttc" id="aMRMeshC_2MRLaplacian_8h_html_afe731f40fbe6722fd9345fcda193ce68"><div class="ttname"><a href="./Cpp/MRMeshC_2MRLaplacian_8h.html#afe731f40fbe6722fd9345fcda193ce68">MRLaplacian</a></div><div class="ttdeci">struct MRLaplacian MRLaplacian</div></div>

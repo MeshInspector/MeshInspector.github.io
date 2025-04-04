@@ -428,7 +428,7 @@ var searchData=
   ['mrlaplacianapply_425',['mrLaplacianApply',['../MRMeshC_2MRLaplacian_8h.html#afa0627a61ff260e418c1e63624dfa8b1',1,'MRLaplacian.h']]],
   ['mrlaplacianfixvertex_426',['mrLaplacianFixVertex',['../MRMeshC_2MRLaplacian_8h.html#a21ac5e4ad10323639068c603f07933dd',1,'MRLaplacian.h']]],
   ['mrlaplacianfree_427',['mrLaplacianFree',['../MRMeshC_2MRLaplacian_8h.html#a400632702bb7d4736cfa610ad361c208',1,'MRLaplacian.h']]],
-  ['mrlaplacianinit_428',['mrLaplacianInit',['../MRMeshC_2MRLaplacian_8h.html#a976c2e259f949c944e0adadf356c741d',1,'MRLaplacian.h']]],
+  ['mrlaplacianinit_428',['mrLaplacianInit',['../MRMeshC_2MRLaplacian_8h.html#a91f15eea515504754525c70b51f9054e',1,'MRLaplacian.h']]],
   ['mrlaplaciannew_429',['mrLaplacianNew',['../MRMeshC_2MRLaplacian_8h.html#abe29dda4575d9cf18083768ef0065662',1,'MRLaplacian.h']]],
   ['mrloadioextras_430',['mrLoadIOExtras',['../MRMeshC_2MRIOExtras_8h.html#a4be818936308dd68595ba017e8655ba1',1,'MRIOExtras.h']]],
   ['mrmakeconvexhullfrommesh_431',['mrMakeConvexHullFromMesh',['../MRMeshC_2MRConvexHull_8h.html#a259f834937c866ec4175448f0e256608',1,'MRConvexHull.h']]],

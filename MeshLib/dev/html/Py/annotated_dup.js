@@ -1083,6 +1083,7 @@ var annotated_dup =
       [ "VertCoords", "classmrmeshpy_1_1VertCoords.html", "classmrmeshpy_1_1VertCoords" ],
       [ "VertCoordsDiff", "classmrmeshpy_1_1VertCoordsDiff.html", "classmrmeshpy_1_1VertCoordsDiff" ],
       [ "VertDistance", "classmrmeshpy_1_1VertDistance.html", "classmrmeshpy_1_1VertDistance" ],
+      [ "VertexMass", "classmrmeshpy_1_1VertexMass.html", "classmrmeshpy_1_1VertexMass" ],
       [ "VertId", "classmrmeshpy_1_1VertId.html", "classmrmeshpy_1_1VertId" ],
       [ "VertMap", "classmrmeshpy_1_1VertMap.html", "classmrmeshpy_1_1VertMap" ],
       [ "VertPathInfo", "classmrmeshpy_1_1VertPathInfo.html", "classmrmeshpy_1_1VertPathInfo" ],

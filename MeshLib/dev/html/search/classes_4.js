@@ -17,7 +17,7 @@ var searchData=
   ['edgesegment_14',['EdgeSegment',['.././Cpp/structMR_1_1EdgeSegment.html',1,'MR::EdgeSegment'],['.././Py/classmrmeshpy_1_1EdgeSegment.html',1,'mrmeshpy::EdgeSegment']]],
   ['edgetri_15',['EdgeTri',['.././Cpp/structMR_1_1EdgeTri.html',1,'MR::EdgeTri'],['.././Py/classmrmeshpy_1_1EdgeTri.html',1,'mrmeshpy::EdgeTri']]],
   ['edgetype_16',['EdgeType',['.././Py/classmrmeshpy_1_1GridSettings_1_1EdgeType.html',1,'mrmeshpy::GridSettings']]],
-  ['edgeweights_17',['EdgeWeights',['.././Py/classmrmeshpy_1_1EdgeWeights.html',1,'mrmeshpy::EdgeWeights'],['.././Py/classmrmeshpy_1_1Laplacian_1_1EdgeWeights.html',1,'mrmeshpy::Laplacian::EdgeWeights']]],
+  ['edgeweights_17',['EdgeWeights',['.././Py/classmrmeshpy_1_1EdgeWeights.html',1,'mrmeshpy']]],
   ['element_18',['Element',['.././Cpp/structMR_1_1Heap_1_1Element.html',1,'MR::Heap::Element'],['.././Py/classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html',1,'mrmeshpy::Heap_float_GraphVertId_std_greater_float::Element']]],
   ['embeddedpython_19',['EmbeddedPython',['.././Cpp/classMR_1_1EmbeddedPython.html',1,'MR']]],
   ['embeddedstructureparameters_20',['EmbeddedStructureParameters',['.././Cpp/structMR_1_1EmbeddedStructureParameters.html',1,'MR::EmbeddedStructureParameters'],['.././Py/classmrmeshpy_1_1EmbeddedStructureParameters.html',1,'mrmeshpy::EmbeddedStructureParameters']]],

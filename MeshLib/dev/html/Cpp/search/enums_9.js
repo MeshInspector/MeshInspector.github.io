@@ -27,5 +27,6 @@ var searchData=
   ['mrmultiwayicpsamplingparameterscascademode_24',['MRMultiwayICPSamplingParametersCascadeMode',['../MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6',1,'MRMultiwayICP.h']]],
   ['mronemeshintersectionvariantindex_25',['MROneMeshIntersectionVariantIndex',['../MRMeshC_2MRContoursCut_8h.html#abc5593afc3027ed39a928fa8f391417a',1,'MRContoursCut.h']]],
   ['mrsigndetectionmode_26',['MRSignDetectionMode',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode.h']]],
-  ['multipleedgesresolvemode_27',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
+  ['mrvertexmass_27',['MRVertexMass',['../MRMeshC_2MRFillHoleNicely_8h.html#a23ed8e6ac32f148502c0aacc5769ca28',1,'MRFillHoleNicely.h']]],
+  ['multipleedgesresolvemode_28',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
 ];

@@ -54,7 +54,7 @@ var searchData=
   ['mredgeloop_51',['MREdgeLoop',['../MRMeshC_2MRMeshTopology_8h.html#a2a05aa7e35717e1896c31ed45a955a02',1,'MRMeshTopology.h']]],
   ['mredgeloops_52',['MREdgeLoops',['../MRMeshC_2MRRegionBoundary_8h.html#ae14b44105f37e53baed3085de87bf0bc',1,'MRRegionBoundary.h']]],
   ['mredgetri_53',['MREdgeTri',['../MRMeshC_2MRMeshCollidePrecise_8h.html#af73c29aabcb39c9afae4027af247c860',1,'MRMeshCollidePrecise.h']]],
-  ['mredgeweights_54',['MREdgeWeights',['../MRMeshC_2MRFillHoleNicely_8h.html#a68c41cb896edcb3f2c29f3f2f5020ca1',1,'MRFillHoleNicely.h']]],
+  ['mredgeweights_54',['MREdgeWeights',['../MRMeshC_2MRFillHoleNicely_8h.html#acd8d2d5dcb882b7d22af2da00737c6fa',1,'MRFillHoleNicely.h']]],
   ['mrfacebitset_55',['MRFaceBitSet',['../MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc',1,'MRMeshFwd.h']]],
   ['mrfaceid_56',['MRFaceId',['../MRMeshC_2MRId_8h.html#a4a6e46f652611ffbd9a0a99988b53dcb',1,'MRId.h']]],
   ['mrfaceincidence_57',['MRFaceIncidence',['../MRMeshC_2MRMeshComponents_8h.html#a9f78ddfc346592c9165ac5b95ae4f3d1',1,'MRMeshComponents.h']]],
@@ -144,10 +144,11 @@ var searchData=
   ['mrvector3i_141',['MRVector3i',['../MRMeshC_2MRVector3_8h.html#af3c3aa1a6aa51c457194de434ee13658',1,'MRVector3.h']]],
   ['mrvectormeshloadnamedmesh_142',['MRVectorMeshLoadNamedMesh',['../MRMeshC_2MRMeshLoadObj_8h.html#a0f4a080f767ffda215d6c597d26a8750',1,'MRMeshLoadObj.h']]],
   ['mrvertbitset_143',['MRVertBitSet',['../MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44',1,'MRMeshFwd.h']]],
-  ['mrvertid_144',['MRVertId',['../MRMeshC_2MRId_8h.html#a9ac012b0350b14e8b0fd50cfeb57beb6',1,'MRId.h']]],
-  ['mrvertnormals_145',['MRVertNormals',['../MRMeshC_2MRMeshNormals_8h.html#a0d71f56139abedd89472abdc9104e910',1,'MRMeshNormals.h']]],
-  ['mrvoxelbitset_146',['MRVoxelBitSet',['../MRMeshC_2MRMeshFwd_8h.html#af7dcb20cfb7d62569e4fa66321b6c35a',1,'MRMeshFwd.h']]],
-  ['multilistenerbase_147',['MultiListenerBase',['../classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d',1,'MR::StateListenerPlugin']]],
-  ['multiobjssamples_148',['MultiObjsSamples',['../namespaceMR.html#aad6ac9cd0268793575ae31767169ad0e',1,'MR']]],
-  ['multipleedge_149',['MultipleEdge',['../group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR']]]
+  ['mrvertexmass_144',['MRVertexMass',['../MRMeshC_2MRFillHoleNicely_8h.html#a1387fd74306a78d317758159ba532ca8',1,'MRFillHoleNicely.h']]],
+  ['mrvertid_145',['MRVertId',['../MRMeshC_2MRId_8h.html#a9ac012b0350b14e8b0fd50cfeb57beb6',1,'MRId.h']]],
+  ['mrvertnormals_146',['MRVertNormals',['../MRMeshC_2MRMeshNormals_8h.html#a0d71f56139abedd89472abdc9104e910',1,'MRMeshNormals.h']]],
+  ['mrvoxelbitset_147',['MRVoxelBitSet',['../MRMeshC_2MRMeshFwd_8h.html#af7dcb20cfb7d62569e4fa66321b6c35a',1,'MRMeshFwd.h']]],
+  ['multilistenerbase_148',['MultiListenerBase',['../classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d',1,'MR::StateListenerPlugin']]],
+  ['multiobjssamples_149',['MultiObjsSamples',['../namespaceMR.html#aad6ac9cd0268793575ae31767169ad0e',1,'MR']]],
+  ['multipleedge_150',['MultipleEdge',['../group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR']]]
 ];

@@ -7,5 +7,6 @@ var structMRFillHoleNicelyParams =
     [ "naturalSmooth", "structMRFillHoleNicelyParams.html#a22d1689535c4fb329d317ae2895d24fc", null ],
     [ "smoothCurvature", "structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9", null ],
     [ "triangulateOnly", "structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0", null ],
-    [ "triangulateParams", "structMRFillHoleNicelyParams.html#a0e8d72a772875d6f09126098f2cd3e00", null ]
+    [ "triangulateParams", "structMRFillHoleNicelyParams.html#a0e8d72a772875d6f09126098f2cd3e00", null ],
+    [ "vmass", "structMRFillHoleNicelyParams.html#a73e4fb69d3a0f04bf2cb22da7f329f99", null ]
 ];

@@ -11,5 +11,6 @@ var structMR_1_1FillHoleNicelySettings =
     [ "smoothCurvature", "structMR_1_1FillHoleNicelySettings.html#aac4ecae12eb97ad05b204ac14de42cb8", null ],
     [ "triangulateOnly", "structMR_1_1FillHoleNicelySettings.html#a62e34964b014489a6f1d3f2e324759ff", null ],
     [ "triangulateParams", "structMR_1_1FillHoleNicelySettings.html#a2ead937ed1df084dc6a43160e17df2c2", null ],
-    [ "uvCoords", "structMR_1_1FillHoleNicelySettings.html#a8e1fac34058b267d696714994b158ce2", null ]
+    [ "uvCoords", "structMR_1_1FillHoleNicelySettings.html#a8e1fac34058b267d696714994b158ce2", null ],
+    [ "vmass", "structMR_1_1FillHoleNicelySettings.html#aa1d0f57cc8f6d2bb9413ae1e315e3ce6", null ]
 ];

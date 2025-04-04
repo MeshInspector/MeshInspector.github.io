@@ -1,5 +1,15 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0],
+"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,29,5],
+"structMR_1_1FitBoxParams.html":[6,0,1,0,1,237],
+"structMR_1_1FitBoxParams.html":[6,0,2,0,1,221],
+"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,1,0,1,237,1],
+"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,2,0,1,221,1],
+"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,1,0,1,237,0],
+"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,2,0,1,221,0],
+"structMR_1_1FitDataParams.html":[6,0,1,0,1,239],
+"structMR_1_1FitDataParams.html":[6,0,2,0,1,223],
 "structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,1,0,1,239,1],
 "structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,2,0,1,223,1],
 "structMR_1_1FitDataParams.html#a787fc08baa43be923ee963b3e338ea46":[6,0,1,0,1,239,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1ICPProperties.html#af5cb06bed691cb37cc63ad3e96ebc6f2":[6,0,2,0,1,262,11],
 "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7":[6,0,1,0,1,278,3],
 "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7":[6,0,2,0,1,262,3],
-"structMR_1_1IConnectable.html":[6,0,1,0,1,273],
-"structMR_1_1IConnectable.html":[6,0,2,0,1,257],
-"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,1,0,1,273,1],
-"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,2,0,1,257,1],
-"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,1,0,1,273,0],
-"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,2,0,1,257,0],
-"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,1,0,1,273,2],
-"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,2,0,1,257,2],
-"structMR_1_1IOFilter.html":[6,0,0,2,6,0],
-"structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
-"structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0]
+"structMR_1_1IConnectable.html":[6,0,1,0,1,273]
 };

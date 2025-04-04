@@ -1208,8 +1208,7 @@ var namespaceMR =
     ] ],
     [ "EdgeWeights", "namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8", [
       [ "Unit", "namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f", null ],
-      [ "Cotan", "namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9", null ],
-      [ "CotanWithAreaEqWeight", "namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8aabeda66621ed8130672ce5e9276fd49e", null ]
+      [ "Cotan", "namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9", null ]
     ] ],
     [ "ExtremeEdgeType", "group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6", [
       [ "Ridge", "group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
@@ -1555,6 +1554,10 @@ var namespaceMR =
       [ "No", "namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
       [ "Yes", "namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435", null ],
       [ "YesIfAlreadyConstructed", "namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83", null ]
+    ] ],
+    [ "VertexMass", "namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd", [
+      [ "Unit", "namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f", null ],
+      [ "NeiArea", "namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
     ] ],
     [ "VolumeUnit", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29a", [
       [ "mm3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa205056288e7f71c459183d3cb8d46edb", null ],
@@ -2637,7 +2640,7 @@ var namespaceMR =
     [ "PolylineProjectionWithOffsetResult< Vector2f >", "namespaceMR.html#a4e70bdb857b2a4beb1d18fc4bfc9f3a2", null ],
     [ "posFromTriEdgeLengths", "namespaceMR.html#adb201ccd9ee730c7d901673288740ce6", null ],
     [ "position", "namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d", null ],
-    [ "positionVertsSmoothly", "namespaceMR.html#a17d3251dd9ab06ec842606a4e4225fb2", null ],
+    [ "positionVertsSmoothly", "namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9", null ],
     [ "positionVertsSmoothlySharpBd", "namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8", null ],
     [ "positionVertsWithSpacing", "namespaceMR.html#a1d34390e42800882d558656d3ea89684", null ],
     [ "preCollapseVertAttribute", "namespaceMR.html#ad9d6f60ebc6c98c7e8ddfc4ad3b46bab", null ],

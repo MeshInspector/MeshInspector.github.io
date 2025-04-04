@@ -1,5 +1,15 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,1,0,1,473,1],
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,2,0,1,457,1],
+"structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[6,0,1,0,1,473,0],
+"structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[6,0,2,0,1,457,0],
+"structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[6,0,1,0,1,473,2],
+"structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[6,0,2,0,1,457,2],
+"structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,1,0,1,474,0],
+"structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,2,0,1,458,0],
+"structMR_1_1PickPointManager_1_1ObjectState.html#a75ec25d887eb5b52814323a6d4f0b012":[6,0,1,0,1,474,0,1],
+"structMR_1_1PickPointManager_1_1ObjectState.html#a75ec25d887eb5b52814323a6d4f0b012":[6,0,2,0,1,458,0,1],
 "structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,1,0,1,474,0,0],
 "structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51":[6,0,2,0,1,458,0,0],
 "structMR_1_1PickPointManager_1_1Params.html":[6,0,1,0,1,474,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,27,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,1,16,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,27,1,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,1,16,1,1],
-"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,1,0,1,499],
-"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,2,0,1,483],
-"structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,1,0,1,499,2],
-"structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,2,0,1,483,2],
-"structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b":[6,0,1,0,1,499,1],
-"structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b":[6,0,2,0,1,483,1],
-"structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f":[6,0,1,0,1,499,0],
-"structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f":[6,0,2,0,1,483,0],
-"structMR_1_1PointsToMeshParameters.html":[6,0,1,0,1,500],
-"structMR_1_1PointsToMeshParameters.html":[6,0,2,0,1,484]
+"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,1,16,1,1]
 };

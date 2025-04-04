@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[6,0,2,0,1,52,3],
+"structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[6,0,1,0,1,68,5],
+"structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[6,0,2,0,1,52,5],
+"structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[6,0,1,0,1,68,2],
+"structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[6,0,2,0,1,52,2],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,1,0,1,68,0],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[6,0,2,0,1,52,0],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,1,0,1,68,0,2],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[6,0,2,0,1,52,0,2],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[6,0,1,0,1,68,0,3],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b":[6,0,2,0,1,52,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[6,0,2,0,1,122,4],
 "structMR_1_1Color.html#a30e8afba2ca683c433ab83718048a41e":[6,0,1,0,1,138,12],
 "structMR_1_1Color.html#a30e8afba2ca683c433ab83718048a41e":[6,0,2,0,1,122,12],
-"structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60":[6,0,1,0,1,138,0],
-"structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60":[6,0,2,0,1,122,0],
-"structMR_1_1Color.html#a3671d8320e6244266951f9a5ea6ef33e":[6,0,1,0,1,138,13],
-"structMR_1_1Color.html#a3671d8320e6244266951f9a5ea6ef33e":[6,0,2,0,1,122,13],
-"structMR_1_1Color.html#a52c442cda61f9c17b52534a4f2358c62":[6,0,1,0,1,138,10],
-"structMR_1_1Color.html#a52c442cda61f9c17b52534a4f2358c62":[6,0,2,0,1,122,10],
-"structMR_1_1Color.html#a697e26b32f883f75d3775f1af77dbdb6":[6,0,1,0,1,138,3],
-"structMR_1_1Color.html#a697e26b32f883f75d3775f1af77dbdb6":[6,0,2,0,1,122,3],
-"structMR_1_1Color.html#a81bd34e112d9fcde01fd52f922966f2f":[6,0,1,0,1,138,7]
+"structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60":[6,0,1,0,1,138,0]
 };

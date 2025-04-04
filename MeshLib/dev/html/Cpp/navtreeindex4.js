@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRLineSegm3_8h_source.html":[6,0,3,0,0,1,4,158],
+"MRLineSegm_8h.html":[6,0,3,0,0,1,4,157],
 "MRLineSegm_8h.html#a3499fd4f69711941f919d6cfc7789d8b":[6,0,3,0,0,1,4,157,1],
 "MRLineSegm_8h.html#abb2813949ff03c0e0f004661d0a7ac69":[6,0,3,0,0,1,4,157,2],
 "MRLineSegm_8h.html#abc57b066e60b9354fd351e2018fe5b7e":[6,0,3,0,0,1,4,157,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRContoursCut_8h.html#ae2dcbe589d041f3807ba77950a567704":[6,0,3,0,0,1,5,7,4],
 "MRMeshC_2MRContoursCut_8h.html#ae7e17b098b068a30b2cfba9878fab8ef":[6,0,3,0,0,1,5,7,3],
 "MRMeshC_2MRContoursCut_8h.html#af582f1017205bcf060516c0522a8d350":[6,0,3,0,0,1,5,7,9],
-"MRMeshC_2MRContoursCut_8h.html#afe7a87c08d755a29c2bdbb3c12f58ffe":[6,0,3,0,0,1,5,7,2],
-"MRMeshC_2MRContoursCut_8h_source.html":[6,0,3,0,0,1,5,7],
-"MRMeshC_2MRConvexHull_8h.html":[6,0,3,0,0,1,5,8]
+"MRMeshC_2MRContoursCut_8h.html#afe7a87c08d755a29c2bdbb3c12f58ffe":[6,0,3,0,0,1,5,7,2]
 };

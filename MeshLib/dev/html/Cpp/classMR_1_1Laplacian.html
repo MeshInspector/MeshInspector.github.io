@@ -172,8 +172,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a701e06f6b7ebb3c08d691ca34ffeab37" id="r_a701e06f6b7ebb3c08d691ca34ffeab37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a701e06f6b7ebb3c08d691ca34ffeab37">Laplacian</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:a701e06f6b7ebb3c08d691ca34ffeab37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4583a70ee721c1a0e5daa7ee3d607039" id="r_a4583a70ee721c1a0e5daa7ee3d607039"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4583a70ee721c1a0e5daa7ee3d607039">init</a> (const VertBitSet &amp;<a class="el" href="#a193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> weights, <a class="el" href="#a67c8dfc7669f41712a92d21d5ec99fed">RememberShape</a> rem=<a class="el" href="#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435">Laplacian::RememberShape::Yes</a>)</td></tr>
-<tr class="separator:a4583a70ee721c1a0e5daa7ee3d607039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9722fea3de00eb2456b5578da15a385a" id="r_a9722fea3de00eb2456b5578da15a385a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9722fea3de00eb2456b5578da15a385a">init</a> (const VertBitSet &amp;<a class="el" href="#a193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> weights, <a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> vmass=<a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a>, <a class="el" href="#a67c8dfc7669f41712a92d21d5ec99fed">RememberShape</a> rem=<a class="el" href="#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435">Laplacian::RememberShape::Yes</a>)</td></tr>
+<tr class="separator:a9722fea3de00eb2456b5578da15a385a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abde407cebf38b19019235ca25c82309e" id="r_abde407cebf38b19019235ca25c82309e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde407cebf38b19019235ca25c82309e">fixVertex</a> (VertId v, bool smooth=true)</td></tr>
 <tr class="separator:abde407cebf38b19019235ca25c82309e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a215e845242a349800e84d63d629cd76f" id="r_a215e845242a349800e84d63d629cd76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a215e845242a349800e84d63d629cd76f">fixVertex</a> (VertId v, const Vector3f &amp;fixedPos, bool smooth=true)</td></tr>
@@ -376,8 +376,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4583a70ee721c1a0e5daa7ee3d607039" name="a4583a70ee721c1a0e5daa7ee3d607039"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4583a70ee721c1a0e5daa7ee3d607039">&#9670;&#160;</a></span>init()</h2>
+<a id="a9722fea3de00eb2456b5578da15a385a" name="a9722fea3de00eb2456b5578da15a385a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9722fea3de00eb2456b5578da15a385a">&#9670;&#160;</a></span>init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -391,6 +391,11 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>weights</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a></td>          <td class="paramname"><span class="paramname"><em>vmass</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

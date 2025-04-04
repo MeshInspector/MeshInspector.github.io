@@ -1,5 +1,12 @@
 var NAVTREEINDEX62 =
 {
+"structMRDecimateSettings.html#a6b5b07423ef64eadeec3662a51a57bba":[6,0,2,0,12,18],
+"structMRDecimateSettings.html#a74c3f1a345b8010234658a32c8f29cb2":[6,0,2,0,12,3],
+"structMRDecimateSettings.html#a772d763e2025022e8ecad5e0df7081ee":[6,0,2,0,12,10],
+"structMRDecimateSettings.html#a868cd45481f4a69102b4ca7467320dde":[6,0,2,0,12,1],
+"structMRDecimateSettings.html#a9b4ec1883fa5a1aa043899f0151b85ea":[6,0,2,0,12,19],
+"structMRDecimateSettings.html#aafb6028ee59303a8ee4ec69083b50f4c":[6,0,2,0,12,4],
+"structMRDecimateSettings.html#ac280387b37c574d825a5dae4e745b550":[6,0,2,0,12,11],
 "structMRDecimateSettings.html#ad1e58750f155e9e45c27770c31ebe6f8":[6,0,2,0,12,14],
 "structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a":[6,0,2,0,12,20],
 "structMRDecimateSettings.html#ad80f5a2ff69a7fe804e27ce7a20ba275":[6,0,2,0,12,15],
@@ -29,6 +36,7 @@ var NAVTREEINDEX62 =
 "structMRFillHoleNicelyParams.html#a22d1689535c4fb329d317ae2895d24fc":[6,0,2,0,18,4],
 "structMRFillHoleNicelyParams.html#a2a722efc00dac0877b5747157757e2ee":[6,0,2,0,18,1],
 "structMRFillHoleNicelyParams.html#a5d6022e8555ac06a276d3b6bd7fdc4f2":[6,0,2,0,18,3],
+"structMRFillHoleNicelyParams.html#a73e4fb69d3a0f04bf2cb22da7f329f99":[6,0,2,0,18,8],
 "structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9":[6,0,2,0,18,5],
 "structMRFillHoleNicelyParams.html#a9537e7209de58668ea79cda8e514d5cf":[6,0,2,0,18,2],
 "structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0":[6,0,2,0,18,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "structMRSubdivideSettings.html#a27a31d53f64821543bd5fb21cd4fab9d":[6,0,2,0,59,9],
 "structMRSubdivideSettings.html#a33ce3b63ebb60313037ea626982cee63":[6,0,2,0,59,1],
 "structMRSubdivideSettings.html#a40d6f0e5fc04584858699368ab9804bc":[6,0,2,0,59,13],
-"structMRSubdivideSettings.html#a4837999f61cc60e7cf30f052dc28f1dd":[6,0,2,0,59,7],
-"structMRSubdivideSettings.html#a5110fcc51f181788ac84bfb5d55c73c2":[6,0,2,0,59,11],
-"structMRSubdivideSettings.html#a55ed7d642c787d8957d3a9497ba51087":[6,0,2,0,59,5],
-"structMRSubdivideSettings.html#a6017bb445dacb13666341b551c1a7e96":[6,0,2,0,59,6],
-"structMRSubdivideSettings.html#a8cd07252f9a939e4ae38e6eeba987e76":[6,0,2,0,59,4],
-"structMRSubdivideSettings.html#a988969d8eecf9f0180bbece45a4048b8":[6,0,2,0,59,12],
-"structMRSubdivideSettings.html#aa28a33eb2158b00f97b177fec21f8b80":[6,0,2,0,59,10],
-"structMRSubdivideSettings.html#adeec58499ab1c16c86c799874f90c8f0":[6,0,2,0,59,3],
-"structMRSubdivideSettings.html#af2102d7a5abd7a59bc9f5214fe35d054":[6,0,2,0,59,2]
+"structMRSubdivideSettings.html#a4837999f61cc60e7cf30f052dc28f1dd":[6,0,2,0,59,7]
 };

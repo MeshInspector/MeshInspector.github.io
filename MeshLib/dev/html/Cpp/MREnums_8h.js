@@ -9,8 +9,7 @@ var MREnums_8h =
     ] ],
     [ "EdgeWeights", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8", [
       [ "Unit", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f", null ],
-      [ "Cotan", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9", null ],
-      [ "CotanWithAreaEqWeight", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8aabeda66621ed8130672ce5e9276fd49e", null ]
+      [ "Cotan", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9", null ]
     ] ],
     [ "OffsetMode", "MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98", [
       [ "Smooth", "MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4", null ],
@@ -30,5 +29,9 @@ var MREnums_8h =
       [ "No", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
       [ "Yes", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435", null ],
       [ "YesIfAlreadyConstructed", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83", null ]
+    ] ],
+    [ "VertexMass", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cd", [
+      [ "Unit", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f", null ],
+      [ "NeiArea", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
     ] ]
 ];

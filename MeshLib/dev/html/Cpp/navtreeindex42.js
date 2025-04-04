@@ -1,5 +1,10 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1SplashWindow.html":[6,0,2,0,1,648],
+"classMR_1_1SplashWindow.html#a017a42c7599e421ba51d913f9c9c0a5c":[6,0,1,0,1,664,2],
+"classMR_1_1SplashWindow.html#a017a42c7599e421ba51d913f9c9c0a5c":[6,0,2,0,1,648,2],
+"classMR_1_1SplashWindow.html#a12f3e91e4d3acf7a279458baf304721a":[6,0,1,0,1,664,4],
+"classMR_1_1SplashWindow.html#a12f3e91e4d3acf7a279458baf304721a":[6,0,2,0,1,648,4],
 "classMR_1_1SplashWindow.html#a302e1b3310c1ee684e3de1d7a239e964":[6,0,1,0,1,664,7],
 "classMR_1_1SplashWindow.html#a302e1b3310c1ee684e3de1d7a239e964":[6,0,2,0,1,648,7],
 "classMR_1_1SplashWindow.html#a339e38c56c4709ed12f877a0b026a659":[6,0,1,0,1,664,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baddcf50c29294d4414f3f7c1bbc892cb5":[6,0,1,0,1,680,1,0],
 "classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057baddcf50c29294d4414f3f7c1bbc892cb5":[6,0,2,0,1,664,1,0],
 "classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,680,1,4],
-"classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,664,1,4],
-"classMR_1_1TaggedBitSet.html":[6,0,0,3,3],
-"classMR_1_1TaggedBitSet.html#a073ac7340b8d2a44161e18ed93ef435d":[6,0,0,3,3,31],
-"classMR_1_1TaggedBitSet.html#a0e1fe7c3b18c5eafb0cfd5fed97cfc43":[6,0,0,3,3,22],
-"classMR_1_1TaggedBitSet.html#a0e2dd799849e2ded19245ed49b89be0d":[6,0,0,3,3,41],
-"classMR_1_1TaggedBitSet.html#a11f6ea19fe4baf68d5e1e97539233490":[6,0,0,3,3,2]
+"classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,664,1,4]
 };

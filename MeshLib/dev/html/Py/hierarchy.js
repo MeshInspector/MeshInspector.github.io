@@ -248,7 +248,6 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.GridSettings.EdgeType", "classmrmeshpy_1_1GridSettings_1_1EdgeType.html", null ],
     [ "mrmeshpy.EdgeWeights", "classmrmeshpy_1_1EdgeWeights.html", null ],
-    [ "mrmeshpy.Laplacian.EdgeWeights", "classmrmeshpy_1_1Laplacian_1_1EdgeWeights.html", null ],
     [ "mrmeshpy.Heap_float_GraphVertId_std_greater_float.Element", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html", null ],
     [ "mrmeshpy.EmbeddedStructureParameters", "classmrmeshpy_1_1EmbeddedStructureParameters.html", null ],
     [ "mrmeshpy.OffsetContoursParams.EndType", "classmrmeshpy_1_1OffsetContoursParams_1_1EndType.html", null ],
@@ -1281,6 +1280,7 @@ var hierarchy =
     [ "mrmeshpy.VertDistance", "classmrmeshpy_1_1VertDistance.html", null ],
     [ "mrmeshpy.MeshBuilder.VertDuplication", "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html", null ],
     [ "mrmeshpy.MeshBuilder.VertexIdentifier", "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html", null ],
+    [ "mrmeshpy.VertexMass", "classmrmeshpy_1_1VertexMass.html", null ],
     [ "mrmeshpy.VertId", "classmrmeshpy_1_1VertId.html", [
       [ "mrmeshpy.NoDefInit_VertId", "classmrmeshpy_1_1NoDefInit__VertId.html", null ]
     ] ],
