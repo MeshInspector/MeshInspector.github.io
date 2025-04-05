@@ -243,8 +243,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4401b9655de3a844caf1234d8f453cf" id="r_gac4401b9655de3a844caf1234d8f453cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac4401b9655de3a844caf1234d8f453cf">MR::MeshComponents::hasFullySelectedComponent</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;selection)</td></tr>
 <tr class="memdesc:gac4401b9655de3a844caf1234d8f453cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all vertices of a mesh connected component are present in selection  <br /></td></tr>
 <tr class="separator:gac4401b9655de3a844caf1234d8f453cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae10aa0366634495e852266e756441a82" id="r_gae10aa0366634495e852266e756441a82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae10aa0366634495e852266e756441a82">MR::MeshComponents::hasFullySelectedComponent</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertBitSet &amp;selection)</td></tr>
+<tr class="separator:gae10aa0366634495e852266e756441a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad556a5b5ed5f6001f378455d5b5a822c" id="r_gad556a5b5ed5f6001f378455d5b5a822c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad556a5b5ed5f6001f378455d5b5a822c">MR::MeshComponents::excludeFullySelectedComponents</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertBitSet &amp;selection)</td></tr>
-<tr class="memdesc:gad556a5b5ed5f6001f378455d5b5a822c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if all vertices of a mesh connected component are present in selection exludes these vertices  <br /></td></tr>
+<tr class="memdesc:gad556a5b5ed5f6001f378455d5b5a822c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if all vertices of a mesh connected component are present in selection, excludes these vertices  <br /></td></tr>
 <tr class="separator:gad556a5b5ed5f6001f378455d5b5a822c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga82ca6f6b48342c871a91a2e8e4585b3a" id="r_ga82ca6f6b48342c871a91a2e8e4585b3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82ca6f6b48342c871a91a2e8e4585b3a">MR::MeshComponents::getUnionFindStructureFaces</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const <a class="el" href="namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a> &amp;isCompBd={})</td></tr>
 <tr class="memdesc:ga82ca6f6b48342c871a91a2e8e4585b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with different options of face-connectivity  <br /></td></tr>
@@ -254,6 +256,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0c25b3e3697cc2efad3f13c664fc87ec" id="r_ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c25b3e3697cc2efad3f13c664fc87ec">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices  <br /></td></tr>
 <tr class="separator:ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga157f0c78514aec4479ff1a3466741381" id="r_ga157f0c78514aec4479ff1a3466741381"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga157f0c78514aec4479ff1a3466741381">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertBitSet *region=nullptr)</td></tr>
+<tr class="separator:ga157f0c78514aec4479ff1a3466741381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03c8c808b4ba34501215afe74c09330f" id="r_ga03c8c808b4ba34501215afe74c09330f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03c8c808b4ba34501215afe74c09330f">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const EdgeBitSet &amp;edges)</td></tr>
 <tr class="memdesc:ga03c8c808b4ba34501215afe74c09330f"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices, considering connections by given edges only  <br /></td></tr>
 <tr class="separator:ga03c8c808b4ba34501215afe74c09330f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -333,7 +337,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>if all vertices of a mesh connected component are present in selection exludes these vertices </p>
+<p>if all vertices of a mesh connected component are present in selection, excludes these vertices </p>
 
 </div>
 </div>
@@ -1327,7 +1331,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thead-safe manner (that left and right face are always processed by one thread) </p>
+<p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) </p>
 
 </div>
 </div>
@@ -1368,7 +1372,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga03c8c808b4ba34501215afe74c09330f" name="ga03c8c808b4ba34501215afe74c09330f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03c8c808b4ba34501215afe74c09330f">&#9670;&#160;</a></span>getUnionFindStructureVerts() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03c8c808b4ba34501215afe74c09330f">&#9670;&#160;</a></span>getUnionFindStructureVerts() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1399,7 +1403,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gaa753927490e5b30c4541fd6c06084f0c" name="gaa753927490e5b30c4541fd6c06084f0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa753927490e5b30c4541fd6c06084f0c">&#9670;&#160;</a></span>getUnionFindStructureVerts() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa753927490e5b30c4541fd6c06084f0c">&#9670;&#160;</a></span>getUnionFindStructureVerts() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1430,7 +1434,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga0c25b3e3697cc2efad3f13c664fc87ec" name="ga0c25b3e3697cc2efad3f13c664fc87ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0c25b3e3697cc2efad3f13c664fc87ec">&#9670;&#160;</a></span>getUnionFindStructureVerts() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0c25b3e3697cc2efad3f13c664fc87ec">&#9670;&#160;</a></span>getUnionFindStructureVerts() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1457,6 +1461,35 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>gets union-find structure for vertices </p>
+
+</div>
+</div>
+<a id="ga157f0c78514aec4479ff1a3466741381" name="ga157f0c78514aec4479ff1a3466741381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga157f0c78514aec4479ff1a3466741381">&#9670;&#160;</a></span>getUnionFindStructureVerts() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1568,7 +1601,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gac4401b9655de3a844caf1234d8f453cf" name="gac4401b9655de3a844caf1234d8f453cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4401b9655de3a844caf1234d8f453cf">&#9670;&#160;</a></span>hasFullySelectedComponent()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4401b9655de3a844caf1234d8f453cf">&#9670;&#160;</a></span>hasFullySelectedComponent() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1595,6 +1628,35 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns true if all vertices of a mesh connected component are present in selection </p>
+
+</div>
+</div>
+<a id="gae10aa0366634495e852266e756441a82" name="gae10aa0366634495e852266e756441a82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae10aa0366634495e852266e756441a82">&#9670;&#160;</a></span>hasFullySelectedComponent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::MeshComponents::hasFullySelectedComponent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>selection</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

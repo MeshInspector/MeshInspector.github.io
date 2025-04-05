@@ -170,8 +170,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a701e06f6b7ebb3c08d691ca34ffeab37" id="r_a701e06f6b7ebb3c08d691ca34ffeab37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a701e06f6b7ebb3c08d691ca34ffeab37">Laplacian</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="separator:a701e06f6b7ebb3c08d691ca34ffeab37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73bfefd11d47ad836834540e5e85f7b3" id="r_a73bfefd11d47ad836834540e5e85f7b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73bfefd11d47ad836834540e5e85f7b3">Laplacian</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:a73bfefd11d47ad836834540e5e85f7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76c6a49784d646ffed8a834c10e927df" id="r_a76c6a49784d646ffed8a834c10e927df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76c6a49784d646ffed8a834c10e927df">Laplacian</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points)</td></tr>
+<tr class="separator:a76c6a49784d646ffed8a834c10e927df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9722fea3de00eb2456b5578da15a385a" id="r_a9722fea3de00eb2456b5578da15a385a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9722fea3de00eb2456b5578da15a385a">init</a> (const VertBitSet &amp;<a class="el" href="#a193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> weights, <a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> vmass=<a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a>, <a class="el" href="#a67c8dfc7669f41712a92d21d5ec99fed">RememberShape</a> rem=<a class="el" href="#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435">Laplacian::RememberShape::Yes</a>)</td></tr>
 <tr class="separator:a9722fea3de00eb2456b5578da15a385a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abde407cebf38b19019235ca25c82309e" id="r_abde407cebf38b19019235ca25c82309e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde407cebf38b19019235ca25c82309e">fixVertex</a> (VertId v, bool smooth=true)</td></tr>
@@ -188,8 +190,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9ad9ba866f86e02979c7ad6b6af3331c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a193dcb7b5ba595a2dad19cf1b4af4ce9" id="r_a193dcb7b5ba595a2dad19cf1b4af4ce9"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a> () const</td></tr>
 <tr class="separator:a193dcb7b5ba595a2dad19cf1b4af4ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d4fc266be531c28644ef344fa8ed3ca" id="r_a0d4fc266be531c28644ef344fa8ed3ca"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d4fc266be531c28644ef344fa8ed3ca">firstLayerFixedVerts</a> () const</td></tr>
-<tr class="separator:a0d4fc266be531c28644ef344fa8ed3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d3cc11b268b8962ef51d56d4946b2a8" id="r_a1d3cc11b268b8962ef51d56d4946b2a8"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d3cc11b268b8962ef51d56d4946b2a8">firstLayerFixedVerts</a> () const</td></tr>
+<tr class="separator:a1d3cc11b268b8962ef51d56d4946b2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9d58ee76f30a0299747d4f18620d3e" id="r_a5a9d58ee76f30a0299747d4f18620d3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a9d58ee76f30a0299747d4f18620d3e">getLeftTriPoints</a> (EdgeId e) const</td></tr>
+<tr class="memdesc:a5a9d58ee76f30a0299747d4f18620d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three points of left face of e: res[0] = orgPnt( e ), res[1] = destPnt( e )  <br /></td></tr>
+<tr class="separator:a5a9d58ee76f30a0299747d4f18620d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105618af8c4ea8f617898da3a0f0c3c8" id="r_a105618af8c4ea8f617898da3a0f0c3c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a105618af8c4ea8f617898da3a0f0c3c8">leftCotan</a> (EdgeId e) const</td></tr>
+<tr class="separator:a105618af8c4ea8f617898da3a0f0c3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a629f56c928709f67f94466c1111e3617" id="r_a629f56c928709f67f94466c1111e3617"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629f56c928709f67f94466c1111e3617">cotan</a> (UndirectedEdgeId ue) const</td></tr>
+<tr class="separator:a629f56c928709f67f94466c1111e3617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a2528fa5078b1c9890f81ad4facb254" id="r_a9a2528fa5078b1c9890f81ad4facb254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a2528fa5078b1c9890f81ad4facb254">dirDblArea</a> (VertId v) const</td></tr>
+<tr class="memdesc:a9a2528fa5078b1c9890f81ad4facb254"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes sum of directed double areas of all triangles around given vertex  <br /></td></tr>
+<tr class="separator:a9a2528fa5078b1c9890f81ad4facb254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfcba3fd23736de89638d3c13932f2c1" id="r_adfcba3fd23736de89638d3c13932f2c1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfcba3fd23736de89638d3c13932f2c1">dblArea</a> (VertId v) const</td></tr>
+<tr class="memdesc:adfcba3fd23736de89638d3c13932f2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of summed directed double areas of all triangles around given vertex  <br /></td></tr>
+<tr class="separator:adfcba3fd23736de89638d3c13932f2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a67c8dfc7669f41712a92d21d5ec99fed" name="a67c8dfc7669f41712a92d21d5ec99fed"></a>
@@ -219,8 +234,33 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a701e06f6b7ebb3c08d691ca34ffeab37" name="a701e06f6b7ebb3c08d691ca34ffeab37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a701e06f6b7ebb3c08d691ca34ffeab37">&#9670;&#160;</a></span>Laplacian()</h2>
+<a id="a73bfefd11d47ad836834540e5e85f7b3" name="a73bfefd11d47ad836834540e5e85f7b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73bfefd11d47ad836834540e5e85f7b3">&#9670;&#160;</a></span>Laplacian() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::Laplacian::Laplacian </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76c6a49784d646ffed8a834c10e927df" name="a76c6a49784d646ffed8a834c10e927df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76c6a49784d646ffed8a834c10e927df">&#9670;&#160;</a></span>Laplacian() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,8 +271,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">MR::Laplacian::Laplacian </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -279,8 +323,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d4fc266be531c28644ef344fa8ed3ca" name="a0d4fc266be531c28644ef344fa8ed3ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d4fc266be531c28644ef344fa8ed3ca">&#9670;&#160;</a></span>firstLayerFixedVerts()</h2>
+<a id="a629f56c928709f67f94466c1111e3617" name="a629f56c928709f67f94466c1111e3617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a629f56c928709f67f94466c1111e3617">&#9670;&#160;</a></span>cotan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,7 +333,87 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">VertBitSet MR::Laplacian::firstLayerFixedVerts </td>
+          <td class="memname">float MR::Laplacian::cotan </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes sum of cotangents of the angle in the left and right triangles opposite to given edge, consider cotangents zero for not existing triangles </p>
+
+</div>
+</div>
+<a id="adfcba3fd23736de89638d3c13932f2c1" name="adfcba3fd23736de89638d3c13932f2c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfcba3fd23736de89638d3c13932f2c1">&#9670;&#160;</a></span>dblArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::Laplacian::dblArea </td>
+          <td>(</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the length of summed directed double areas of all triangles around given vertex </p>
+
+</div>
+</div>
+<a id="a9a2528fa5078b1c9890f81ad4facb254" name="a9a2528fa5078b1c9890f81ad4facb254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a2528fa5078b1c9890f81ad4facb254">&#9670;&#160;</a></span>dirDblArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Laplacian::dirDblArea </td>
+          <td>(</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes sum of directed double areas of all triangles around given vertex </p>
+
+</div>
+</div>
+<a id="a1d3cc11b268b8962ef51d56d4946b2a8" name="a1d3cc11b268b8962ef51d56d4946b2a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d3cc11b268b8962ef51d56d4946b2a8">&#9670;&#160;</a></span>firstLayerFixedVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertBitSet &amp; MR::Laplacian::firstLayerFixedVerts </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -297,7 +421,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -369,10 +493,37 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a9d58ee76f30a0299747d4f18620d3e" name="a5a9d58ee76f30a0299747d4f18620d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9d58ee76f30a0299747d4f18620d3e">&#9670;&#160;</a></span>getLeftTriPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> MR::Laplacian::getLeftTriPoints </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns three points of left face of e: res[0] = orgPnt( e ), res[1] = destPnt( e ) </p>
 
 </div>
 </div>
@@ -407,6 +558,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a105618af8c4ea8f617898da3a0f0c3c8" name="a105618af8c4ea8f617898da3a0f0c3c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a105618af8c4ea8f617898da3a0f0c3c8">&#9670;&#160;</a></span>leftCotan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Laplacian::leftCotan </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes cotangent of the angle in the left( e ) triangle opposite to e, and returns 0 if left face does not exist </p>
+
+</div>
+</div>
 <a id="a9ad9ba866f86e02979c7ad6b6af3331c" name="a9ad9ba866f86e02979c7ad6b6af3331c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9ad9ba866f86e02979c7ad6b6af3331c">&#9670;&#160;</a></span>region()</h2>
 
@@ -425,7 +602,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

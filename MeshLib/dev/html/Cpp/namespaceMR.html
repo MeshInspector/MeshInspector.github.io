@@ -5446,6 +5446,10 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:af848b7a93acc5e03bfea1f8bcc3ffdb7"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af848b7a93acc5e03bfea1f8bcc3ffdb7">dblAreaSq</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;q, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;r)</td></tr>
 <tr class="memdesc:af848b7a93acc5e03bfea1f8bcc3ffdb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the square of double area of given triangle  <br /></td></tr>
 <tr class="separator:af848b7a93acc5e03bfea1f8bcc3ffdb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2609ca5846a4d9851c66bd4df5e7a4f8" id="r_a2609ca5846a4d9851c66bd4df5e7a4f8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2609ca5846a4d9851c66bd4df5e7a4f8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2609ca5846a4d9851c66bd4df5e7a4f8">dblArea</a> (const Triangle3&lt; T &gt; &amp;t)</td></tr>
+<tr class="memdesc:a2609ca5846a4d9851c66bd4df5e7a4f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes twice the area of given triangle  <br /></td></tr>
+<tr class="separator:a2609ca5846a4d9851c66bd4df5e7a4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf43b097e552b51cea5e2fa012eb286" id="r_a8cf43b097e552b51cea5e2fa012eb286"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8cf43b097e552b51cea5e2fa012eb286"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8cf43b097e552b51cea5e2fa012eb286">dblArea</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;q, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;r)</td></tr>
 <tr class="memdesc:a8cf43b097e552b51cea5e2fa012eb286"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes twice the area of given triangle  <br /></td></tr>
@@ -5487,6 +5491,9 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:a58d651ce07dc2f9fd98bdf7366183861" id="r_a58d651ce07dc2f9fd98bdf7366183861"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a58d651ce07dc2f9fd98bdf7366183861"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a58d651ce07dc2f9fd98bdf7366183861">tanSqOfHalfAngle</a> (T a, T b, T c)</td></tr>
 <tr class="separator:a58d651ce07dc2f9fd98bdf7366183861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d02c57a4241c1e57cf96d982bc9cc3" id="r_a35d02c57a4241c1e57cf96d982bc9cc3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a35d02c57a4241c1e57cf96d982bc9cc3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a35d02c57a4241c1e57cf96d982bc9cc3">cotan</a> (const Triangle3&lt; T &gt; &amp;t, T absMaxVal=std::numeric_limits&lt; T &gt;::max())</td></tr>
+<tr class="separator:a35d02c57a4241c1e57cf96d982bc9cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e1bd83c47751c3265e376c45b67b29" id="r_a66e1bd83c47751c3265e376c45b67b29"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a66e1bd83c47751c3265e376c45b67b29"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a66e1bd83c47751c3265e376c45b67b29">cotan</a> (T a, T b, T c)</td></tr>
 <tr class="separator:a66e1bd83c47751c3265e376c45b67b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -13151,8 +13158,40 @@ template&lt;UnitEnum E, typename T &gt; </div>
 
 </div>
 </div>
+<a id="a35d02c57a4241c1e57cf96d982bc9cc3" name="a35d02c57a4241c1e57cf96d982bc9cc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35d02c57a4241c1e57cf96d982bc9cc3">&#9670;&#160;</a></span>cotan() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::cotan </td>
+          <td>(</td>
+          <td class="paramtype">const Triangle3&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>absMaxVal</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;T&gt;::max()</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>given triangle by its three vertices: t[0], t[1], t[2], returns the cotangent of the angle at t[2], but not larger by magnitude than absMaxVal </p>
+
+</div>
+</div>
 <a id="a66e1bd83c47751c3265e376c45b67b29" name="a66e1bd83c47751c3265e376c45b67b29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e1bd83c47751c3265e376c45b67b29">&#9670;&#160;</a></span>cotan()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e1bd83c47751c3265e376c45b67b29">&#9670;&#160;</a></span>cotan() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13432,8 +13471,37 @@ template&lt;typename ObjectType &gt; </div>
 
 </div>
 </div>
+<a id="a2609ca5846a4d9851c66bd4df5e7a4f8" name="a2609ca5846a4d9851c66bd4df5e7a4f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2609ca5846a4d9851c66bd4df5e7a4f8">&#9670;&#160;</a></span>dblArea() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::dblArea </td>
+          <td>(</td>
+          <td class="paramtype">const Triangle3&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes twice the area of given triangle </p>
+
+</div>
+</div>
 <a id="ae3bb1f96cee445baf5867b057f5d6b73" name="ae3bb1f96cee445baf5867b057f5d6b73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3bb1f96cee445baf5867b057f5d6b73">&#9670;&#160;</a></span>dblArea() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3bb1f96cee445baf5867b057f5d6b73">&#9670;&#160;</a></span>dblArea() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13471,7 +13539,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a8cf43b097e552b51cea5e2fa012eb286" name="a8cf43b097e552b51cea5e2fa012eb286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cf43b097e552b51cea5e2fa012eb286">&#9670;&#160;</a></span>dblArea() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf43b097e552b51cea5e2fa012eb286">&#9670;&#160;</a></span>dblArea() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

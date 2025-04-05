@@ -1,5 +1,17 @@
 var NAVTREEINDEX131 =
 {
+"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#aee026c6ea863cea967b9c26e20e7ef31":[6,1,0,0,2,840,10],
+"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#aee026c6ea863cea967b9c26e20e7ef31":[6,1,1,0,1,840,10],
+"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#af2495127e43ee1518698380b8eab179c":[6,1,0,0,2,840,17],
+"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#af2495127e43ee1518698380b8eab179c":[6,1,1,0,1,840,17],
+"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#af2a23bbaed3cb827e32fd09d34268487":[6,1,0,0,2,840,21],
+"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#af2a23bbaed3cb827e32fd09d34268487":[6,1,1,0,1,840,21],
+"classmrmeshpy_1_1std__vector__Line3Mesh__float.html":[6,1,0,0,2,841],
+"classmrmeshpy_1_1std__vector__Line3Mesh__float.html":[6,1,1,0,1,841],
+"classmrmeshpy_1_1std__vector__Line3Mesh__float.html#a06358aa94a7dd4d7c8f355615c3e9548":[6,1,0,0,2,841,6],
+"classmrmeshpy_1_1std__vector__Line3Mesh__float.html#a06358aa94a7dd4d7c8f355615c3e9548":[6,1,1,0,1,841,6],
+"classmrmeshpy_1_1std__vector__Line3Mesh__float.html#a0835d87b2b486e7fae6d226019c856b6":[6,1,0,0,2,841,13],
+"classmrmeshpy_1_1std__vector__Line3Mesh__float.html#a0835d87b2b486e7fae6d226019c856b6":[6,1,1,0,1,841,13],
 "classmrmeshpy_1_1std__vector__Line3Mesh__float.html#a0afb3cb9e583611d1746016ba40623b8":[6,1,0,0,2,841,15],
 "classmrmeshpy_1_1std__vector__Line3Mesh__float.html#a0afb3cb9e583611d1746016ba40623b8":[6,1,1,0,1,841,15],
 "classmrmeshpy_1_1std__vector__Line3Mesh__float.html#a2db0e9902b2233bb64f78204e2741700":[6,1,0,0,2,841,19],
@@ -237,17 +249,5 @@ var NAVTREEINDEX131 =
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a96888bdf9622c6cffaaa74ee9e8327c0":[6,1,0,0,2,846,21],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#a96888bdf9622c6cffaaa74ee9e8327c0":[6,1,1,0,1,846,21],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#aa01490a836dd9313408e8e796a73d96a":[6,1,0,0,2,846,11],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#aa01490a836dd9313408e8e796a73d96a":[6,1,1,0,1,846,11],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ab6c4d26e7e2ccb67564d9bbd5a7c47f4":[6,1,0,0,2,846,15],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ab6c4d26e7e2ccb67564d9bbd5a7c47f4":[6,1,1,0,1,846,15],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ac4c967e312358b96e5f9256498fecf46":[6,1,0,0,2,846,1],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ac4c967e312358b96e5f9256498fecf46":[6,1,1,0,1,846,1],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#acf7b4275fdb24527aacde49f0053e721":[6,1,0,0,2,846,2],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#acf7b4275fdb24527aacde49f0053e721":[6,1,1,0,1,846,2],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#adbf1221a3020610cfbda4e38e7b945ed":[6,1,0,0,2,846,6],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#adbf1221a3020610cfbda4e38e7b945ed":[6,1,1,0,1,846,6],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ade47b9b3ca882633c8778b590a7f1389":[6,1,0,0,2,846,0],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ade47b9b3ca882633c8778b590a7f1389":[6,1,1,0,1,846,0],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ae72d9d28910aa2bfdab65f6a5a1d89c1":[6,1,0,0,2,846,14],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#ae72d9d28910aa2bfdab65f6a5a1d89c1":[6,1,1,0,1,846,14]
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html#aa01490a836dd9313408e8e796a73d96a":[6,1,1,0,1,846,11]
 };
