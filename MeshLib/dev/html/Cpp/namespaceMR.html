@@ -1947,7 +1947,11 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html">WebRequest</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParametersBase.html">WeightedPointsShellParametersBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParametersRegions.html">WeightedPointsShellParametersRegions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6200,14 +6204,20 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a927cb8d59958288a2e8a0dcb52a29055" id="r_a927cb8d59958288a2e8a0dcb52a29055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a927cb8d59958288a2e8a0dcb52a29055">weightedMeshToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedPointsToDistanceVolumeParams.html">WeightedPointsToDistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a927cb8d59958288a2e8a0dcb52a29055"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing minimal distance to mesh with weighted vertices  <br /></td></tr>
 <tr class="separator:a927cb8d59958288a2e8a0dcb52a29055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64da62229d05408efddb068dc1215b62" id="r_a64da62229d05408efddb068dc1215b62"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64da62229d05408efddb068dc1215b62">weightedPointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;params)</td></tr>
-<tr class="separator:a64da62229d05408efddb068dc1215b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4e54921e94cf9e04bfc15208e69e01b" id="r_ad4e54921e94cf9e04bfc15208e69e01b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4e54921e94cf9e04bfc15208e69e01b">weightedPointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const VertScalars &amp;pointWeights, const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;params)</td></tr>
-<tr class="separator:ad4e54921e94cf9e04bfc15208e69e01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab01c07ca729b7ae4a060038881319667" id="r_ab01c07ca729b7ae4a060038881319667"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab01c07ca729b7ae4a060038881319667">weightedMeshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;params)</td></tr>
-<tr class="separator:ab01c07ca729b7ae4a060038881319667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4006acf8aba9755d18c7f8be1de72f41" id="r_a4006acf8aba9755d18c7f8be1de72f41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4006acf8aba9755d18c7f8be1de72f41">weightedMeshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertScalars &amp;vertWeights, const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;params)</td></tr>
-<tr class="separator:a4006acf8aba9755d18c7f8be1de72f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e7e937a6519132a193b377b44b193c" id="r_ab3e7e937a6519132a193b377b44b193c"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3e7e937a6519132a193b377b44b193c">weightedPointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;params)</td></tr>
+<tr class="separator:ab3e7e937a6519132a193b377b44b193c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18fbaa5a4b73a51c82863f484010d82b" id="r_a18fbaa5a4b73a51c82863f484010d82b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18fbaa5a4b73a51c82863f484010d82b">weightedPointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const VertScalars &amp;pointWeights, const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;params)</td></tr>
+<tr class="separator:a18fbaa5a4b73a51c82863f484010d82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7033dc4528718e45e757d0a41a83932c" id="r_a7033dc4528718e45e757d0a41a83932c"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7033dc4528718e45e757d0a41a83932c">weightedMeshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;params)</td></tr>
+<tr class="separator:a7033dc4528718e45e757d0a41a83932c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d67ad4dedbc0e0e7a7846c6af8ad9d" id="r_a79d67ad4dedbc0e0e7a7846c6af8ad9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79d67ad4dedbc0e0e7a7846c6af8ad9d">weightedMeshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertScalars &amp;vertWeights, const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;params)</td></tr>
+<tr class="separator:a79d67ad4dedbc0e0e7a7846c6af8ad9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafe91f7b0308f4c95fcaccf5bbce2ef" id="r_afafe91f7b0308f4c95fcaccf5bbce2ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afafe91f7b0308f4c95fcaccf5bbce2ef">calculateShellWeightsFromRegions</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html">WeightedPointsShellParametersRegions::Region</a> &gt; &amp;regions, float interpolationDist)</td></tr>
+<tr class="memdesc:afafe91f7b0308f4c95fcaccf5bbce2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">interpolate set of regions and assign weight to each vertex of the mesh  <br /></td></tr>
+<tr class="separator:afafe91f7b0308f4c95fcaccf5bbce2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dfe57c4c81de75ac56563df27bf382f" id="r_a3dfe57c4c81de75ac56563df27bf382f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dfe57c4c81de75ac56563df27bf382f">weightedMeshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedPointsShellParametersRegions.html">WeightedPointsShellParametersRegions</a> &amp;params)</td></tr>
+<tr class="memdesc:a3dfe57c4c81de75ac56563df27bf382f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this overload supports linear interpolation between the regions with different weight  <br /></td></tr>
+<tr class="separator:a3dfe57c4c81de75ac56563df27bf382f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:gadd9e6c77ae3fdf22797b82342a1ee1f3" id="r_gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gadd9e6c77ae3fdf22797b82342a1ee1f3">identityMetric</a> ()</td></tr>
 <tr class="memdesc:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">metric returning 1 for every edge  <br /></td></tr>
@@ -12215,6 +12225,34 @@ template&lt;typename GridT &gt; </div>
 </div><div class="memdoc">
 <p>calculate area on screen that is near to open contour given by screen points.</p>
 <p>return the matrix of pixels (in local space of active viewport) belonging selected area </p>
+
+</div>
+</div>
+<a id="afafe91f7b0308f4c95fcaccf5bbce2ef" name="afafe91f7b0308f4c95fcaccf5bbce2ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afafe91f7b0308f4c95fcaccf5bbce2ef">&#9670;&#160;</a></span>calculateShellWeightsFromRegions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> VertScalars MR::calculateShellWeightsFromRegions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html">WeightedPointsShellParametersRegions::Region</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>regions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>interpolationDist</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>interpolate set of regions and assign weight to each vertex of the mesh </p>
 
 </div>
 </div>
@@ -34079,8 +34117,8 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="a4006acf8aba9755d18c7f8be1de72f41" name="a4006acf8aba9755d18c7f8be1de72f41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4006acf8aba9755d18c7f8be1de72f41">&#9670;&#160;</a></span>weightedMeshShell() <span class="overload">[1/2]</span></h2>
+<a id="a79d67ad4dedbc0e0e7a7846c6af8ad9d" name="a79d67ad4dedbc0e0e7a7846c6af8ad9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d67ad4dedbc0e0e7a7846c6af8ad9d">&#9670;&#160;</a></span>weightedMeshShell() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -34101,7 +34139,7 @@ template&lt;typename Volume &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -34114,8 +34152,8 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="ab01c07ca729b7ae4a060038881319667" name="ab01c07ca729b7ae4a060038881319667"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab01c07ca729b7ae4a060038881319667">&#9670;&#160;</a></span>weightedMeshShell() <span class="overload">[2/2]</span></h2>
+<a id="a7033dc4528718e45e757d0a41a83932c" name="a7033dc4528718e45e757d0a41a83932c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7033dc4528718e45e757d0a41a83932c">&#9670;&#160;</a></span>weightedMeshShell() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -34131,7 +34169,7 @@ template&lt;typename Volume &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -34141,6 +34179,37 @@ template&lt;typename Volume &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes </p>
+
+</div>
+</div>
+<a id="a3dfe57c4c81de75ac56563df27bf382f" name="a3dfe57c4c81de75ac56563df27bf382f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dfe57c4c81de75ac56563df27bf382f">&#9670;&#160;</a></span>weightedMeshShell() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::weightedMeshShell </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParametersRegions.html">WeightedPointsShellParametersRegions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this overload supports linear interpolation between the regions with different weight </p>
 
 </div>
 </div>
@@ -34175,8 +34244,8 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="ad4e54921e94cf9e04bfc15208e69e01b" name="ad4e54921e94cf9e04bfc15208e69e01b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4e54921e94cf9e04bfc15208e69e01b">&#9670;&#160;</a></span>weightedPointsShell() <span class="overload">[1/2]</span></h2>
+<a id="a18fbaa5a4b73a51c82863f484010d82b" name="a18fbaa5a4b73a51c82863f484010d82b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18fbaa5a4b73a51c82863f484010d82b">&#9670;&#160;</a></span>weightedPointsShell() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -34197,7 +34266,7 @@ template&lt;typename Volume &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -34210,8 +34279,8 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="a64da62229d05408efddb068dc1215b62" name="a64da62229d05408efddb068dc1215b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64da62229d05408efddb068dc1215b62">&#9670;&#160;</a></span>weightedPointsShell() <span class="overload">[2/2]</span></h2>
+<a id="ab3e7e937a6519132a193b377b44b193c" name="ab3e7e937a6519132a193b377b44b193c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e7e937a6519132a193b377b44b193c">&#9670;&#160;</a></span>weightedPointsShell() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -34227,7 +34296,7 @@ template&lt;typename Volume &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParameters.html">WeightedPointsShellParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1WeightedPointsShellParametersMetric.html">WeightedPointsShellParametersMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

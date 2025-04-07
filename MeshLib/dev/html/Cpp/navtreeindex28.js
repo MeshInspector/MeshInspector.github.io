@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa1211b739708344bd0dba3542ec58a27":[6,0,2,0,1,8,5,3],
+"classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa4fad50a7e105fa74961ca6cc97e2818":[6,0,1,0,1,16,5,2],
 "classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa4fad50a7e105fa74961ca6cc97e2818":[6,0,2,0,1,8,5,2],
 "classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa5e3191cd4ff080dc3f960e8763c0069":[6,0,1,0,1,16,5,1],
 "classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa5e3191cd4ff080dc3f960e8763c0069":[6,0,2,0,1,8,5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1MeshTopologyDiff.html#aad4c78043b91fd4835e71c4d2a281a95":[6,0,0,9,10,3],
 "classMR_1_1MeshTopologyDiff.html#aeb15ef52dc9593c97da084a462456e23":[6,0,0,9,10,2],
 "classMR_1_1MeshTopologyDiff.html#af1195b4bb18db9e8ca21e92db9139406":[6,0,0,9,10,0],
-"classMR_1_1MouseController.html":[6,0,1,0,1,387],
-"classMR_1_1MouseController.html":[6,0,2,0,1,371],
-"classMR_1_1MouseController.html#a24e57a9dc84d98aa47bb153dce49815c":[6,0,1,0,1,387,5]
+"classMR_1_1MouseController.html":[6,0,1,0,1,387]
 };

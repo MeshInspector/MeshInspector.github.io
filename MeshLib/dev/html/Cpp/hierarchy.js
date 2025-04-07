@@ -1025,6 +1025,7 @@ var hierarchy =
       [ "MR::Matrix< T >", "structMR_1_1Matrix.html", null ]
     ] ],
     [ "MR::RefineParameters", "structMR_1_1RefineParameters.html", null ],
+    [ "MR::WeightedPointsShellParametersRegions::Region", "structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html", null ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", null ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", null ],
     [ "MR::RelaxParams", "structMR_1_1RelaxParams.html", [
@@ -1345,7 +1346,10 @@ var hierarchy =
     [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", null ],
     [ "MR::WatershedGraph", "classMR_1_1WatershedGraph.html", null ],
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
-    [ "MR::WeightedPointsShellParameters", "structMR_1_1WeightedPointsShellParameters.html", null ],
+    [ "MR::WeightedPointsShellParametersBase", "structMR_1_1WeightedPointsShellParametersBase.html", [
+      [ "MR::WeightedPointsShellParametersMetric", "structMR_1_1WeightedPointsShellParametersMetric.html", null ],
+      [ "MR::WeightedPointsShellParametersRegions", "structMR_1_1WeightedPointsShellParametersRegions.html", null ]
+    ] ],
     [ "MR::WeightedPointsToDistanceVolumeParams", "structMR_1_1WeightedPointsToDistanceVolumeParams.html", null ],
     [ "MR::WeightedVertex", "structMR_1_1WeightedVertex.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],

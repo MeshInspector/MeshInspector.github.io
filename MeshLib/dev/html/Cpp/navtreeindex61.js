@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[6,0,1,0,1,38,76],
+"namespaceMR_1_1UI.html#a31bf75f2c49957b473bd51d2aeb25ec8":[6,0,1,0,1,38,58],
+"namespaceMR_1_1UI.html#a321f93b24c9b7d723ce8aec45fe75374":[6,0,1,0,1,38,48],
+"namespaceMR_1_1UI.html#a336fa6393e7abeefe2f5d4e8f29d75a6":[6,0,1,0,1,38,27],
 "namespaceMR_1_1UI.html#a44615aed700f9c67acd828fa58ae08c4":[6,0,1,0,1,38,29],
 "namespaceMR_1_1UI.html#a44947bf84615148fe9afb91d1895d231":[6,0,1,0,1,38,69],
 "namespaceMR_1_1UI.html#a50698dfeecb0a68a2ddfc71eae08a0c7":[6,0,1,0,1,38,62],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMRBooleanResultMapper.html":[6,0,2,0,6],
 "structMRBox3f.html":[6,0,2,0,7],
 "structMRBox3f.html#a2a39366e93eb8d6552da01c061b9c909":[6,0,2,0,7,0],
-"structMRBox3f.html#acfef258beb9f0c40476c1f93410fcc5f":[6,0,2,0,7,1],
-"structMRBox3i.html":[6,0,2,0,8],
-"structMRBox3i.html#a1adbe125bcb4e62f38b1a78d9aca7fac":[6,0,2,0,8,1],
-"structMRBox3i.html#a922200412625e7bbc2de30d2c1764984":[6,0,2,0,8,0],
-"structMRColor.html":[6,0,2,0,9]
+"structMRBox3f.html#acfef258beb9f0c40476c1f93410fcc5f":[6,0,2,0,7,1]
 };

@@ -865,6 +865,7 @@ var hierarchy =
       [ "mrmeshpy.Matrix_float", "classmrmeshpy_1_1Matrix__float.html", null ]
     ] ],
     [ "mrmeshpy.RefineParameters", "classmrmeshpy_1_1RefineParameters.html", null ],
+    [ "mrmeshpy.WeightedPointsShellParametersRegions.Region", "classmrmeshpy_1_1WeightedPointsShellParametersRegions_1_1Region.html", null ],
     [ "mrmeshpy.RegionId", "classmrmeshpy_1_1RegionId.html", [
       [ "mrmeshpy.NoDefInit_RegionId", "classmrmeshpy_1_1NoDefInit__RegionId.html", null ]
     ] ],
@@ -1119,6 +1120,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_WatershedGraph_BasinInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html", null ],
     [ "mrmeshpy.std_vector_WatershedGraph_BdInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html", null ],
     [ "mrmeshpy.std_vector_WatershedGraph_OverflowPoint", "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html", null ],
+    [ "mrmeshpy.std_vector_WeightedPointsShellParametersRegions_Region", "classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html", null ],
     [ "mrmeshpy.StitchHolesParams", "classmrmeshpy_1_1StitchHolesParams.html", null ],
     [ "mrmeshpy.SubdivideSettings", "classmrmeshpy_1_1SubdivideSettings.html", null ],
     [ "mrmeshpy.Features.SubfeatureInfo", "classmrmeshpy_1_1Features_1_1SubfeatureInfo.html", null ],
@@ -1334,7 +1336,10 @@ var hierarchy =
     [ "mrmeshpy.VoxelTraits_std_vector_float", "classmrmeshpy_1_1VoxelTraits__std__vector__float.html", null ],
     [ "mrmeshpy.VoxelTraits_std_vector_unsigned_short", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html", null ],
     [ "mrmeshpy.WatershedGraph", "classmrmeshpy_1_1WatershedGraph.html", null ],
-    [ "mrmeshpy.WeightedPointsShellParameters", "classmrmeshpy_1_1WeightedPointsShellParameters.html", null ],
+    [ "mrmeshpy.WeightedPointsShellParametersBase", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html", [
+      [ "mrmeshpy.WeightedPointsShellParametersMetric", "classmrmeshpy_1_1WeightedPointsShellParametersMetric.html", null ],
+      [ "mrmeshpy.WeightedPointsShellParametersRegions", "classmrmeshpy_1_1WeightedPointsShellParametersRegions.html", null ]
+    ] ],
     [ "mrmeshpy.WeightedPointsToDistanceVolumeParams", "classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html", null ],
     [ "mrmeshpy.WeightedVertex", "classmrmeshpy_1_1WeightedVertex.html", null ],
     [ "mrmeshpy.WholeEdgeBMap", "classmrmeshpy_1_1WholeEdgeBMap.html", null ],

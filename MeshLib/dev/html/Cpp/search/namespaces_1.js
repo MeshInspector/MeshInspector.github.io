@@ -94,5 +94,6 @@ var searchData=
   ['mrmeshpy_3a_3avoxelsload_91',['VoxelsLoad',['../../Py/classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3avoxelssave_92',['VoxelsSave',['../../Py/classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3awatershedgraph_93',['WatershedGraph',['../../Py/classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html',1,'mrmeshpy']]],
-  ['mrviewerpy_94',['mrviewerpy',['../../Py/namespacemrviewerpy.html',1,'']]]
+  ['mrmeshpy_3a_3aweightedpointsshellparametersregions_94',['WeightedPointsShellParametersRegions',['../../Py/classmrmeshpy_1_1WeightedPointsShellParametersRegions_1_1Region.html',1,'mrmeshpy']]],
+  ['mrviewerpy_95',['mrviewerpy',['../../Py/namespacemrviewerpy.html',1,'']]]
 ];

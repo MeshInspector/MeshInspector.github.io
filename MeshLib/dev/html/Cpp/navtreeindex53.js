@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"group__SerializerGroup.html#ga5e2004fef2b124e7462276bcee514d6b":[6,0,0,2,15,22],
+"group__SerializerGroup.html#ga60ea0861186c3cd722eaed269571bc6d":[6,0,0,2,15,1],
 "group__SerializerGroup.html#ga61a7230e0fffb1f10c81a359762186d2":[6,0,0,2,15,18],
 "group__SerializerGroup.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad":[6,0,0,2,15,33],
 "group__SerializerGroup.html#ga72e078f3acb1fe95234144b3f7d2aced":[6,0,0,2,15,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "group__VoxelsLoadGroup.html#gab4eb40aeebde5d9880345caadb3a0ae7":[6,0,0,2,17,4],
 "group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb":[6,0,0,2,17,6],
 "group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d":[6,0,0,2,17,8],
-"hierarchy.html":[6,0,2,2],
-"index.html":[],
-"namespaceImGui.html":[6,0,1,0,0]
+"hierarchy.html":[6,0,2,2]
 };
