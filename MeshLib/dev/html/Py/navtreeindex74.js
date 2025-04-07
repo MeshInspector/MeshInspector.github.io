@@ -1,15 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"classmrmeshpy_1_1SpacingSettings.html#aa1e4cca25dde113c2c71c3f2748f8f9a":[6,1,0,0,2,754,10],
-"classmrmeshpy_1_1SpacingSettings.html#aa1e4cca25dde113c2c71c3f2748f8f9a":[6,1,1,0,1,754,10],
-"classmrmeshpy_1_1SpacingSettings.html#ab2ca7af5b9bb132d82d1edbf0c0bdb66":[6,1,0,0,2,754,6],
-"classmrmeshpy_1_1SpacingSettings.html#ab2ca7af5b9bb132d82d1edbf0c0bdb66":[6,1,1,0,1,754,6],
-"classmrmeshpy_1_1SpacingSettings.html#ac71c1719158dae48fe912320375a9912":[6,1,0,0,2,754,8],
-"classmrmeshpy_1_1SpacingSettings.html#ac71c1719158dae48fe912320375a9912":[6,1,1,0,1,754,8],
-"classmrmeshpy_1_1SpacingSettings.html#ae48d07d36cc14b660574ae93b083dd8b":[6,1,0,0,2,754,5],
-"classmrmeshpy_1_1SpacingSettings.html#ae48d07d36cc14b660574ae93b083dd8b":[6,1,1,0,1,754,5],
-"classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[6,1,0,0,2,754,0],
-"classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[6,1,1,0,1,754,0],
 "classmrmeshpy_1_1Sphere2d.html":[6,1,0,0,2,755],
 "classmrmeshpy_1_1Sphere2d.html":[6,1,1,0,1,755],
 "classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[6,1,0,0,2,755,5],
@@ -249,5 +239,15 @@ var NAVTREEINDEX74 =
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a899ecce4a68cb83a247d44e4a0920bba":[6,1,0,0,2,941,3],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a899ecce4a68cb83a247d44e4a0920bba":[6,1,1,0,1,941,3],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a91258a202e454588b189efb3aeb48881":[6,1,0,0,2,941,5],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a91258a202e454588b189efb3aeb48881":[6,1,1,0,1,941,5]
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a91258a202e454588b189efb3aeb48881":[6,1,1,0,1,941,5],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[6,1,0,0,2,941,9],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[6,1,1,0,1,941,9],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ac77e229ecf2592b3bd0bdc0a30cd91dc":[6,1,0,0,2,941,1],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ac77e229ecf2592b3bd0bdc0a30cd91dc":[6,1,1,0,1,941,1],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ae417ef8b41fe1c2574270cbea1646a2a":[6,1,0,0,2,941,0],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ae417ef8b41fe1c2574270cbea1646a2a":[6,1,1,0,1,941,0],
+"classmrmeshpy_1_1SymMatrix2b.html":[6,1,0,0,2,943],
+"classmrmeshpy_1_1SymMatrix2b.html":[6,1,1,0,1,943],
+"classmrmeshpy_1_1SymMatrix2b.html#a0fe4ad0481b538e0c78ecf7e8d7debfe":[6,1,0,0,2,943,4],
+"classmrmeshpy_1_1SymMatrix2b.html#a0fe4ad0481b538e0c78ecf7e8d7debfe":[6,1,1,0,1,943,4]
 };

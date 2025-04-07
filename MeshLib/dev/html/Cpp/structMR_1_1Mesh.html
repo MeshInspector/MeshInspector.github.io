@@ -188,9 +188,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad45947ba454ab92f4c8bacbcd94b17f4" id="r_ad45947ba454ab92f4c8bacbcd94b17f4"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad45947ba454ab92f4c8bacbcd94b17f4">edgeCenter</a> (UndirectedEdgeId e) const</td></tr>
 <tr class="memdesc:ad45947ba454ab92f4c8bacbcd94b17f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the center of given edge  <br /></td></tr>
 <tr class="separator:ad45947ba454ab92f4c8bacbcd94b17f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d51b4057ba3a41c5ef11fba53fa8a3c" id="r_a7d51b4057ba3a41c5ef11fba53fa8a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d51b4057ba3a41c5ef11fba53fa8a3c">getLeftTriPoints</a> (EdgeId e, Vector3f &amp;v0, Vector3f &amp;v1, Vector3f &amp;v2) const</td></tr>
-<tr class="memdesc:a7d51b4057ba3a41c5ef11fba53fa8a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e )  <br /></td></tr>
-<tr class="separator:a7d51b4057ba3a41c5ef11fba53fa8a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587dd9a2bd990d58c6409c01b684553d" id="r_a587dd9a2bd990d58c6409c01b684553d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a587dd9a2bd990d58c6409c01b684553d">getLeftTriPoints</a> (EdgeId e, Vector3f &amp;v0, Vector3f &amp;v1, Vector3f &amp;v2) const</td></tr>
+<tr class="memdesc:a587dd9a2bd990d58c6409c01b684553d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e )  <br /></td></tr>
+<tr class="separator:a587dd9a2bd990d58c6409c01b684553d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c5a975cbd95ff470346d693287bb5d" id="r_af1c5a975cbd95ff470346d693287bb5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1c5a975cbd95ff470346d693287bb5d">getLeftTriPoints</a> (EdgeId e, Vector3f(&amp;v)[3]) const</td></tr>
 <tr class="memdesc:af1c5a975cbd95ff470346d693287bb5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three points of left face of e: v[0] = orgPnt( e ), v[1] = destPnt( e )  <br /></td></tr>
 <tr class="separator:af1c5a975cbd95ff470346d693287bb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,60 +206,60 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a55a31eccbae1dd87a464a0907aad14ce" id="r_a55a31eccbae1dd87a464a0907aad14ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55a31eccbae1dd87a464a0907aad14ce">getTriPoints</a> (FaceId f) const</td></tr>
 <tr class="memdesc:a55a31eccbae1dd87a464a0907aad14ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three points of given face  <br /></td></tr>
 <tr class="separator:a55a31eccbae1dd87a464a0907aad14ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a243ed2368ebb1f7bfaa1d71cef8a3d16" id="r_a243ed2368ebb1f7bfaa1d71cef8a3d16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a243ed2368ebb1f7bfaa1d71cef8a3d16">triPoint</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p) const</td></tr>
-<tr class="memdesc:a243ed2368ebb1f7bfaa1d71cef8a3d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes coordinates of point given as face and barycentric representation  <br /></td></tr>
-<tr class="separator:a243ed2368ebb1f7bfaa1d71cef8a3d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc962b114f068665a1f40c936f26724" id="r_a9fc962b114f068665a1f40c936f26724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fc962b114f068665a1f40c936f26724">triCenter</a> (FaceId f) const</td></tr>
-<tr class="memdesc:a9fc962b114f068665a1f40c936f26724"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the centroid of given triangle  <br /></td></tr>
-<tr class="separator:a9fc962b114f068665a1f40c936f26724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49f7db0c7ecd59955478746c13609ff6" id="r_a49f7db0c7ecd59955478746c13609ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f7db0c7ecd59955478746c13609ff6">triangleAspectRatio</a> (FaceId f) const</td></tr>
-<tr class="memdesc:a49f7db0c7ecd59955478746c13609ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns aspect ratio of given mesh triangle equal to the ratio of the circum-radius to twice its in-radius  <br /></td></tr>
-<tr class="separator:a49f7db0c7ecd59955478746c13609ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a739c01f192fc474add3f5341ade42018" id="r_a739c01f192fc474add3f5341ade42018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a739c01f192fc474add3f5341ade42018">circumcircleDiameterSq</a> (FaceId f) const</td></tr>
-<tr class="memdesc:a739c01f192fc474add3f5341ade42018"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared circumcircle diameter of given mesh triangle  <br /></td></tr>
-<tr class="separator:a739c01f192fc474add3f5341ade42018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c995113408ff1e1911197ea23564987" id="r_a9c995113408ff1e1911197ea23564987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c995113408ff1e1911197ea23564987">circumcircleDiameter</a> (FaceId f) const</td></tr>
-<tr class="memdesc:a9c995113408ff1e1911197ea23564987"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns circumcircle diameter of given mesh triangle  <br /></td></tr>
-<tr class="separator:a9c995113408ff1e1911197ea23564987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c3fed969fd69fc13302e22b2d6fd4ad" id="r_a9c3fed969fd69fc13302e22b2d6fd4ad"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c3fed969fd69fc13302e22b2d6fd4ad">triPoint</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p) const</td></tr>
+<tr class="memdesc:a9c3fed969fd69fc13302e22b2d6fd4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes coordinates of point given as face and barycentric representation  <br /></td></tr>
+<tr class="separator:a9c3fed969fd69fc13302e22b2d6fd4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a985bc1ef62bdb8754e1b4f3da304256b" id="r_a985bc1ef62bdb8754e1b4f3da304256b"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a985bc1ef62bdb8754e1b4f3da304256b">triCenter</a> (FaceId f) const</td></tr>
+<tr class="memdesc:a985bc1ef62bdb8754e1b4f3da304256b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the centroid of given triangle  <br /></td></tr>
+<tr class="separator:a985bc1ef62bdb8754e1b4f3da304256b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63bb9b6214248707f092cca1db05afb2" id="r_a63bb9b6214248707f092cca1db05afb2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63bb9b6214248707f092cca1db05afb2">triangleAspectRatio</a> (FaceId f) const</td></tr>
+<tr class="memdesc:a63bb9b6214248707f092cca1db05afb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns aspect ratio of given mesh triangle equal to the ratio of the circum-radius to twice its in-radius  <br /></td></tr>
+<tr class="separator:a63bb9b6214248707f092cca1db05afb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097d63092885e790e360319635cf3b86" id="r_a097d63092885e790e360319635cf3b86"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a097d63092885e790e360319635cf3b86">circumcircleDiameterSq</a> (FaceId f) const</td></tr>
+<tr class="memdesc:a097d63092885e790e360319635cf3b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared circumcircle diameter of given mesh triangle  <br /></td></tr>
+<tr class="separator:a097d63092885e790e360319635cf3b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdc8a11c22979314254353c064b61025" id="r_acdc8a11c22979314254353c064b61025"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdc8a11c22979314254353c064b61025">circumcircleDiameter</a> (FaceId f) const</td></tr>
+<tr class="memdesc:acdc8a11c22979314254353c064b61025"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns circumcircle diameter of given mesh triangle  <br /></td></tr>
+<tr class="separator:acdc8a11c22979314254353c064b61025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25d99831d2f44ba34b7678c921475088" id="r_a25d99831d2f44ba34b7678c921475088"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25d99831d2f44ba34b7678c921475088">toTriPoint</a> (VertId v) const</td></tr>
 <tr class="memdesc:a25d99831d2f44ba34b7678c921475088"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts vertex into barycentric representation  <br /></td></tr>
 <tr class="separator:a25d99831d2f44ba34b7678c921475088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3275b6e90cf7c761fd228b9bc6fefeb" id="r_ab3275b6e90cf7c761fd228b9bc6fefeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3275b6e90cf7c761fd228b9bc6fefeb">toTriPoint</a> (FaceId f, const Vector3f &amp;p) const</td></tr>
-<tr class="memdesc:ab3275b6e90cf7c761fd228b9bc6fefeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts face id and 3d point into barycentric representation  <br /></td></tr>
-<tr class="separator:ab3275b6e90cf7c761fd228b9bc6fefeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98ce30cba5543afc4736d287bfd3d3bc" id="r_a98ce30cba5543afc4736d287bfd3d3bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98ce30cba5543afc4736d287bfd3d3bc">toTriPoint</a> (const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;p) const</td></tr>
-<tr class="memdesc:a98ce30cba5543afc4736d287bfd3d3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts face id and 3d point into barycentric representation  <br /></td></tr>
-<tr class="separator:a98ce30cba5543afc4736d287bfd3d3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72472fa8eac4aba3ae82bb68995534c7" id="r_a72472fa8eac4aba3ae82bb68995534c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72472fa8eac4aba3ae82bb68995534c7">toTriPoint</a> (FaceId f, const Vector3f &amp;p) const</td></tr>
+<tr class="memdesc:a72472fa8eac4aba3ae82bb68995534c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts face id and 3d point into barycentric representation  <br /></td></tr>
+<tr class="separator:a72472fa8eac4aba3ae82bb68995534c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c6a8e572a6252362c3616d2973c5f7" id="r_af8c6a8e572a6252362c3616d2973c5f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c6a8e572a6252362c3616d2973c5f7">toTriPoint</a> (const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;p) const</td></tr>
+<tr class="memdesc:af8c6a8e572a6252362c3616d2973c5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts face id and 3d point into barycentric representation  <br /></td></tr>
+<tr class="separator:af8c6a8e572a6252362c3616d2973c5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add7ed762df9371522b37dc2b15689234" id="r_add7ed762df9371522b37dc2b15689234"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add7ed762df9371522b37dc2b15689234">toEdgePoint</a> (VertId v) const</td></tr>
 <tr class="memdesc:add7ed762df9371522b37dc2b15689234"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts vertex into edge-point representation  <br /></td></tr>
 <tr class="separator:add7ed762df9371522b37dc2b15689234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa96011e8aa47330e9f075bc4ef3a08e2" id="r_aa96011e8aa47330e9f075bc4ef3a08e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa96011e8aa47330e9f075bc4ef3a08e2">toEdgePoint</a> (EdgeId e, const Vector3f &amp;p) const</td></tr>
-<tr class="memdesc:aa96011e8aa47330e9f075bc4ef3a08e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts edge and 3d point into edge-point representation  <br /></td></tr>
-<tr class="separator:aa96011e8aa47330e9f075bc4ef3a08e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fe5788ff7927b5a1b5f70b157353ab6" id="r_a4fe5788ff7927b5a1b5f70b157353ab6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fe5788ff7927b5a1b5f70b157353ab6">getClosestVertex</a> (const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;p) const</td></tr>
-<tr class="memdesc:a4fe5788ff7927b5a1b5f70b157353ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of three face vertices, closest to given point  <br /></td></tr>
-<tr class="separator:a4fe5788ff7927b5a1b5f70b157353ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf2e3f4d7d5486dcfac998c96935dd3" id="r_adbf2e3f4d7d5486dcfac998c96935dd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf2e3f4d7d5486dcfac998c96935dd3">toEdgePoint</a> (EdgeId e, const Vector3f &amp;p) const</td></tr>
+<tr class="memdesc:adbf2e3f4d7d5486dcfac998c96935dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts edge and 3d point into edge-point representation  <br /></td></tr>
+<tr class="separator:adbf2e3f4d7d5486dcfac998c96935dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad2ec1a3eff2b13c34415c807db69ad" id="r_a2ad2ec1a3eff2b13c34415c807db69ad"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ad2ec1a3eff2b13c34415c807db69ad">getClosestVertex</a> (const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;p) const</td></tr>
+<tr class="memdesc:a2ad2ec1a3eff2b13c34415c807db69ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of three face vertices, closest to given point  <br /></td></tr>
+<tr class="separator:a2ad2ec1a3eff2b13c34415c807db69ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08e825f78e748198301ee280cbb88b9c" id="r_a08e825f78e748198301ee280cbb88b9c"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08e825f78e748198301ee280cbb88b9c">getClosestVertex</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p) const</td></tr>
 <tr class="memdesc:a08e825f78e748198301ee280cbb88b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of three face vertices, closest to given point  <br /></td></tr>
 <tr class="separator:a08e825f78e748198301ee280cbb88b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b6db3be66aadef6658a7692c9181713" id="r_a1b6db3be66aadef6658a7692c9181713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b6db3be66aadef6658a7692c9181713">getClosestEdge</a> (const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;p) const</td></tr>
-<tr class="memdesc:a1b6db3be66aadef6658a7692c9181713"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of three face edges, closest to given point  <br /></td></tr>
-<tr class="separator:a1b6db3be66aadef6658a7692c9181713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a988ce4d0f323cbbccd414f50e899a" id="r_af6a988ce4d0f323cbbccd414f50e899a"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6a988ce4d0f323cbbccd414f50e899a">getClosestEdge</a> (const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;p) const</td></tr>
+<tr class="memdesc:af6a988ce4d0f323cbbccd414f50e899a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of three face edges, closest to given point  <br /></td></tr>
+<tr class="separator:af6a988ce4d0f323cbbccd414f50e899a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c234ebc0fba018fda6c46a072d8089" id="r_a91c234ebc0fba018fda6c46a072d8089"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91c234ebc0fba018fda6c46a072d8089">getClosestEdge</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p) const</td></tr>
 <tr class="memdesc:a91c234ebc0fba018fda6c46a072d8089"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one of three face edges, closest to given point  <br /></td></tr>
 <tr class="separator:a91c234ebc0fba018fda6c46a072d8089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad741164ba566adeb2830a4de3861bfd0" id="r_ad741164ba566adeb2830a4de3861bfd0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad741164ba566adeb2830a4de3861bfd0">edgeLength</a> (UndirectedEdgeId e) const</td></tr>
 <tr class="memdesc:ad741164ba566adeb2830a4de3861bfd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Euclidean length of the edge  <br /></td></tr>
 <tr class="separator:ad741164ba566adeb2830a4de3861bfd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d337f0047c38780bd0b9491f9d57ba" id="r_a67d337f0047c38780bd0b9491f9d57ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d337f0047c38780bd0b9491f9d57ba">edgeLengths</a> () const</td></tr>
-<tr class="memdesc:a67d337f0047c38780bd0b9491f9d57ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes and returns the lengths of all edges in the mesh  <br /></td></tr>
-<tr class="separator:a67d337f0047c38780bd0b9491f9d57ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fc4588bd1f8e778c3934885c793ffbb" id="r_a5fc4588bd1f8e778c3934885c793ffbb"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fc4588bd1f8e778c3934885c793ffbb">edgeLengths</a> () const</td></tr>
+<tr class="memdesc:a5fc4588bd1f8e778c3934885c793ffbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes and returns the lengths of all edges in the mesh  <br /></td></tr>
+<tr class="separator:a5fc4588bd1f8e778c3934885c793ffbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dda7695db1d721bc3cb64bb374c89c4" id="r_a4dda7695db1d721bc3cb64bb374c89c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dda7695db1d721bc3cb64bb374c89c4">edgeLengthSq</a> (UndirectedEdgeId e) const</td></tr>
 <tr class="memdesc:a4dda7695db1d721bc3cb64bb374c89c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared Euclidean length of the edge (faster to compute than length)  <br /></td></tr>
 <tr class="separator:a4dda7695db1d721bc3cb64bb374c89c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfefd886da876ca72f2d96231206ed43" id="r_acfefd886da876ca72f2d96231206ed43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfefd886da876ca72f2d96231206ed43">leftDirDblArea</a> (EdgeId e) const</td></tr>
-<tr class="memdesc:acfefd886da876ca72f2d96231206ed43"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes directed double area of left triangular face of given edge  <br /></td></tr>
-<tr class="separator:acfefd886da876ca72f2d96231206ed43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac0e977c029df6d8bad34161ec50cce" id="r_abac0e977c029df6d8bad34161ec50cce"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abac0e977c029df6d8bad34161ec50cce">leftDirDblArea</a> (EdgeId e) const</td></tr>
+<tr class="memdesc:abac0e977c029df6d8bad34161ec50cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes directed double area of left triangular face of given edge  <br /></td></tr>
+<tr class="separator:abac0e977c029df6d8bad34161ec50cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd3563494ce9b9a0cf5a7e4346606961" id="r_afd3563494ce9b9a0cf5a7e4346606961"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd3563494ce9b9a0cf5a7e4346606961">dirDblArea</a> (FaceId f) const</td></tr>
 <tr class="memdesc:afd3563494ce9b9a0cf5a7e4346606961"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes directed double area for a triangular face from its vertices  <br /></td></tr>
 <tr class="separator:afd3563494ce9b9a0cf5a7e4346606961"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,58 +269,58 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03632276528ce953490a2111a5280c7c" id="r_a03632276528ce953490a2111a5280c7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03632276528ce953490a2111a5280c7c">area</a> (FaceId f) const</td></tr>
 <tr class="memdesc:a03632276528ce953490a2111a5280c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of given face  <br /></td></tr>
 <tr class="separator:a03632276528ce953490a2111a5280c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c83a5a324f80a18969d786febaee653" id="r_a0c83a5a324f80a18969d786febaee653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c83a5a324f80a18969d786febaee653">area</a> (const FaceBitSet &amp;fs) const</td></tr>
-<tr class="memdesc:a0c83a5a324f80a18969d786febaee653"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the area of given face-region  <br /></td></tr>
-<tr class="separator:a0c83a5a324f80a18969d786febaee653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ccb4cf2141efeae32118bb0a4821b3e" id="r_a4ccb4cf2141efeae32118bb0a4821b3e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ccb4cf2141efeae32118bb0a4821b3e">area</a> (const FaceBitSet &amp;fs) const</td></tr>
+<tr class="memdesc:a4ccb4cf2141efeae32118bb0a4821b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the area of given face-region  <br /></td></tr>
+<tr class="separator:a4ccb4cf2141efeae32118bb0a4821b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45cc8a4868a2671492e010d86cb408cd" id="r_a45cc8a4868a2671492e010d86cb408cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45cc8a4868a2671492e010d86cb408cd">area</a> (const FaceBitSet *fs=nullptr) const</td></tr>
 <tr class="memdesc:a45cc8a4868a2671492e010d86cb408cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the area of given face-region (or whole mesh)  <br /></td></tr>
 <tr class="separator:a45cc8a4868a2671492e010d86cb408cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d2049ae64855f1b9d7c6da0d946faa3" id="r_a1d2049ae64855f1b9d7c6da0d946faa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d2049ae64855f1b9d7c6da0d946faa3">dirArea</a> (const FaceBitSet &amp;fs) const</td></tr>
-<tr class="memdesc:a1d2049ae64855f1b9d7c6da0d946faa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of directed areas for faces from given region  <br /></td></tr>
-<tr class="separator:a1d2049ae64855f1b9d7c6da0d946faa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15fe46302ae352c7822987de4ab6d9e3" id="r_a15fe46302ae352c7822987de4ab6d9e3"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15fe46302ae352c7822987de4ab6d9e3">dirArea</a> (const FaceBitSet &amp;fs) const</td></tr>
+<tr class="memdesc:a15fe46302ae352c7822987de4ab6d9e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of directed areas for faces from given region  <br /></td></tr>
+<tr class="separator:a15fe46302ae352c7822987de4ab6d9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a029d8d453e90f13a14ae22b25a71db47" id="r_a029d8d453e90f13a14ae22b25a71db47"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a029d8d453e90f13a14ae22b25a71db47">dirArea</a> (const FaceBitSet *fs=nullptr) const</td></tr>
 <tr class="memdesc:a029d8d453e90f13a14ae22b25a71db47"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of directed areas for faces from given region (or whole mesh)  <br /></td></tr>
 <tr class="separator:a029d8d453e90f13a14ae22b25a71db47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6410490732e1756a5716df6539c55d45" id="r_a6410490732e1756a5716df6539c55d45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6410490732e1756a5716df6539c55d45">projArea</a> (const Vector3f &amp;dir, const FaceBitSet &amp;fs) const</td></tr>
-<tr class="memdesc:a6410490732e1756a5716df6539c55d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of absolute projected area of faces from given region as visible if look from given direction  <br /></td></tr>
-<tr class="separator:a6410490732e1756a5716df6539c55d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac77c3e7c3aec5919f862904c857621" id="r_afac77c3e7c3aec5919f862904c857621"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac77c3e7c3aec5919f862904c857621">projArea</a> (const Vector3f &amp;dir, const FaceBitSet &amp;fs) const</td></tr>
+<tr class="memdesc:afac77c3e7c3aec5919f862904c857621"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of absolute projected area of faces from given region as visible if look from given direction  <br /></td></tr>
+<tr class="separator:afac77c3e7c3aec5919f862904c857621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a7cadb50ed558293082e1da4bb24f2" id="r_af4a7cadb50ed558293082e1da4bb24f2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4a7cadb50ed558293082e1da4bb24f2">projArea</a> (const Vector3f &amp;dir, const FaceBitSet *fs=nullptr) const</td></tr>
 <tr class="memdesc:af4a7cadb50ed558293082e1da4bb24f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of absolute projected area of faces from given region (or whole mesh) as visible if look from given direction  <br /></td></tr>
 <tr class="separator:af4a7cadb50ed558293082e1da4bb24f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952176d5bcd16b91d26dc6fa2a0bdc6c" id="r_a952176d5bcd16b91d26dc6fa2a0bdc6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a952176d5bcd16b91d26dc6fa2a0bdc6c">volume</a> (const FaceBitSet *region=nullptr) const</td></tr>
-<tr class="separator:a952176d5bcd16b91d26dc6fa2a0bdc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3fca747ad4dc619010b3f7dbb857f86" id="r_af3fca747ad4dc619010b3f7dbb857f86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3fca747ad4dc619010b3f7dbb857f86">holePerimiter</a> (EdgeId e) const</td></tr>
-<tr class="memdesc:af3fca747ad4dc619010b3f7dbb857f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the perimeter of the hole specified by one of its edges with no valid left face (left is hole)  <br /></td></tr>
-<tr class="separator:af3fca747ad4dc619010b3f7dbb857f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addb26b3e42dbd2a5418b461add1d9f57" id="r_addb26b3e42dbd2a5418b461add1d9f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb26b3e42dbd2a5418b461add1d9f57">holeDirArea</a> (EdgeId e) const</td></tr>
-<tr class="separator:addb26b3e42dbd2a5418b461add1d9f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dcfe3dea7d2f774031d7751cbba5ef4" id="r_a9dcfe3dea7d2f774031d7751cbba5ef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dcfe3dea7d2f774031d7751cbba5ef4">leftTangent</a> (EdgeId e) const</td></tr>
-<tr class="memdesc:a9dcfe3dea7d2f774031d7751cbba5ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes unit vector that is both orthogonal to given edge and to the normal of its left triangle, the vector is directed inside left triangle  <br /></td></tr>
-<tr class="separator:a9dcfe3dea7d2f774031d7751cbba5ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae844a3412483056be32f892b104dac40" id="r_ae844a3412483056be32f892b104dac40"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae844a3412483056be32f892b104dac40">volume</a> (const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="separator:ae844a3412483056be32f892b104dac40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ae74b982e66d8f996ba56b49cbd39d" id="r_ad4ae74b982e66d8f996ba56b49cbd39d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4ae74b982e66d8f996ba56b49cbd39d">holePerimiter</a> (EdgeId e) const</td></tr>
+<tr class="memdesc:ad4ae74b982e66d8f996ba56b49cbd39d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the perimeter of the hole specified by one of its edges with no valid left face (left is hole)  <br /></td></tr>
+<tr class="separator:ad4ae74b982e66d8f996ba56b49cbd39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5987866b04f9e182594595fadb7cc6e5" id="r_a5987866b04f9e182594595fadb7cc6e5"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5987866b04f9e182594595fadb7cc6e5">holeDirArea</a> (EdgeId e) const</td></tr>
+<tr class="separator:a5987866b04f9e182594595fadb7cc6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8413d6a67149defd54376ec0b8d8ff05" id="r_a8413d6a67149defd54376ec0b8d8ff05"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8413d6a67149defd54376ec0b8d8ff05">leftTangent</a> (EdgeId e) const</td></tr>
+<tr class="memdesc:a8413d6a67149defd54376ec0b8d8ff05"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes unit vector that is both orthogonal to given edge and to the normal of its left triangle, the vector is directed inside left triangle  <br /></td></tr>
+<tr class="separator:a8413d6a67149defd54376ec0b8d8ff05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a797623a41864029eb93103c262fa70d4" id="r_a797623a41864029eb93103c262fa70d4"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a797623a41864029eb93103c262fa70d4">leftNormal</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:a797623a41864029eb93103c262fa70d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes triangular face normal from its vertices  <br /></td></tr>
 <tr class="separator:a797623a41864029eb93103c262fa70d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc0ceb8ed258ca42cf125638c6940594" id="r_acc0ceb8ed258ca42cf125638c6940594"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc0ceb8ed258ca42cf125638c6940594">normal</a> (FaceId f) const</td></tr>
 <tr class="memdesc:acc0ceb8ed258ca42cf125638c6940594"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes triangular face normal from its vertices  <br /></td></tr>
 <tr class="separator:acc0ceb8ed258ca42cf125638c6940594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4237bb2ee8edbc72aa4189bc2307a544" id="r_a4237bb2ee8edbc72aa4189bc2307a544"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4237bb2ee8edbc72aa4189bc2307a544">dirDblArea</a> (VertId v) const</td></tr>
-<tr class="memdesc:a4237bb2ee8edbc72aa4189bc2307a544"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes sum of directed double areas of all triangles around given vertex  <br /></td></tr>
-<tr class="separator:a4237bb2ee8edbc72aa4189bc2307a544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae349efd004dd70f615996b96d1007b7b" id="r_ae349efd004dd70f615996b96d1007b7b"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae349efd004dd70f615996b96d1007b7b">dirDblArea</a> (VertId v) const</td></tr>
+<tr class="memdesc:ae349efd004dd70f615996b96d1007b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes sum of directed double areas of all triangles around given vertex  <br /></td></tr>
+<tr class="separator:ae349efd004dd70f615996b96d1007b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6d39814aa495e12ba8e388c22a6f12e" id="r_ab6d39814aa495e12ba8e388c22a6f12e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d39814aa495e12ba8e388c22a6f12e">dblArea</a> (VertId v) const</td></tr>
 <tr class="memdesc:ab6d39814aa495e12ba8e388c22a6f12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of summed directed double areas of all triangles around given vertex  <br /></td></tr>
 <tr class="separator:ab6d39814aa495e12ba8e388c22a6f12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff330955f978300560fd33b43cd77cdd" id="r_aff330955f978300560fd33b43cd77cdd"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff330955f978300560fd33b43cd77cdd">normal</a> (VertId v) const</td></tr>
 <tr class="memdesc:aff330955f978300560fd33b43cd77cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes normal in a vertex using sum of directed areas of neighboring triangles  <br /></td></tr>
 <tr class="separator:aff330955f978300560fd33b43cd77cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bc20c6104570ee76cffee01e1ea9aa0" id="r_a0bc20c6104570ee76cffee01e1ea9aa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc20c6104570ee76cffee01e1ea9aa0">normal</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p) const</td></tr>
-<tr class="separator:a0bc20c6104570ee76cffee01e1ea9aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f0764fd9acf9f3a4b060a658c656efc" id="r_a3f0764fd9acf9f3a4b060a658c656efc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0764fd9acf9f3a4b060a658c656efc">pseudonormal</a> (VertId v, const FaceBitSet *region=nullptr) const</td></tr>
-<tr class="separator:a3f0764fd9acf9f3a4b060a658c656efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33d264981ad277abb011e94a67cd5e4e" id="r_a33d264981ad277abb011e94a67cd5e4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d264981ad277abb011e94a67cd5e4e">pseudonormal</a> (UndirectedEdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
-<tr class="memdesc:a33d264981ad277abb011e94a67cd5e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes normalized half sum of face normals sharing given edge (only (region) faces will be considered);  <br /></td></tr>
-<tr class="separator:a33d264981ad277abb011e94a67cd5e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada333ee4f3b0edfa859e5f8ee5a1c1f1" id="r_ada333ee4f3b0edfa859e5f8ee5a1c1f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada333ee4f3b0edfa859e5f8ee5a1c1f1">pseudonormal</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p, const FaceBitSet *region=nullptr) const</td></tr>
-<tr class="separator:ada333ee4f3b0edfa859e5f8ee5a1c1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a129593cd8a305c93e60d945df893d20a" id="r_a129593cd8a305c93e60d945df893d20a"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129593cd8a305c93e60d945df893d20a">normal</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p) const</td></tr>
+<tr class="separator:a129593cd8a305c93e60d945df893d20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0362095ba2aeef52de9f42ffa78756a0" id="r_a0362095ba2aeef52de9f42ffa78756a0"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0362095ba2aeef52de9f42ffa78756a0">pseudonormal</a> (VertId v, const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="separator:a0362095ba2aeef52de9f42ffa78756a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd1988e966914fd56fac8cee64c5f49" id="r_acfd1988e966914fd56fac8cee64c5f49"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfd1988e966914fd56fac8cee64c5f49">pseudonormal</a> (UndirectedEdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="memdesc:acfd1988e966914fd56fac8cee64c5f49"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes normalized half sum of face normals sharing given edge (only (region) faces will be considered);  <br /></td></tr>
+<tr class="separator:acfd1988e966914fd56fac8cee64c5f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac48c479f458af1facea8e79e38ed0d63" id="r_ac48c479f458af1facea8e79e38ed0d63"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac48c479f458af1facea8e79e38ed0d63">pseudonormal</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p, const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="separator:ac48c479f458af1facea8e79e38ed0d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0095216b1fbe49128eb4b14d6c9f8a42" id="r_a0095216b1fbe49128eb4b14d6c9f8a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0095216b1fbe49128eb4b14d6c9f8a42">signedDistance</a> (const Vector3f &amp;pt, const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;proj, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="separator:a0095216b1fbe49128eb4b14d6c9f8a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24304bcd9afe5cdb84be4ee761a8fb2f" id="r_a24304bcd9afe5cdb84be4ee761a8fb2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24304bcd9afe5cdb84be4ee761a8fb2f">signedDistance</a> (const Vector3f &amp;pt, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;proj, const FaceBitSet *region=nullptr) const</td></tr>
@@ -335,51 +335,51 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8121a87b4511118c273836888eb18ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fdc9e5969b065b761018ff5cb0a43a5" id="r_a0fdc9e5969b065b761018ff5cb0a43a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fdc9e5969b065b761018ff5cb0a43a5">isOutsideByProjNorm</a> (const Vector3f &amp;pt, const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;proj, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="separator:a0fdc9e5969b065b761018ff5cb0a43a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9168ca386aa3a34b0c1b79ddd7f4faa3" id="r_a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9168ca386aa3a34b0c1b79ddd7f4faa3">sumAngles</a> (VertId v, bool *outBoundaryVert=nullptr) const</td></tr>
-<tr class="memdesc:a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of triangle angles at given vertex; optionally returns whether the vertex is on boundary  <br /></td></tr>
-<tr class="separator:a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63974f1e9e91aec82c60fc776f51ea7b" id="r_a63974f1e9e91aec82c60fc776f51ea7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63974f1e9e91aec82c60fc776f51ea7b">findSpikeVertices</a> (float minSumAngle, const VertBitSet *region=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}) const</td></tr>
-<tr class="memdesc:a63974f1e9e91aec82c60fc776f51ea7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vertices where the sum of triangle angles is below given threshold  <br /></td></tr>
-<tr class="separator:a63974f1e9e91aec82c60fc776f51ea7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08a599e9255943ae4fab5935502d2f21" id="r_a08a599e9255943ae4fab5935502d2f21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a599e9255943ae4fab5935502d2f21">dihedralAngleSin</a> (UndirectedEdgeId e) const</td></tr>
-<tr class="separator:a08a599e9255943ae4fab5935502d2f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbc9fe4f12054a0171667825056fe457" id="r_afbc9fe4f12054a0171667825056fe457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc9fe4f12054a0171667825056fe457">dihedralAngleCos</a> (UndirectedEdgeId e) const</td></tr>
-<tr class="separator:afbc9fe4f12054a0171667825056fe457"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a938d6bd536f16b6f46394ceb91271053" id="r_a938d6bd536f16b6f46394ceb91271053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a938d6bd536f16b6f46394ceb91271053">dihedralAngle</a> (UndirectedEdgeId e) const</td></tr>
-<tr class="separator:a938d6bd536f16b6f46394ceb91271053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab555df576a4de372990fabcac596979f" id="r_ab555df576a4de372990fabcac596979f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab555df576a4de372990fabcac596979f">discreteMeanCurvature</a> (VertId v) const</td></tr>
-<tr class="separator:ab555df576a4de372990fabcac596979f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad85462881d0758cd78deba62d9bbc416" id="r_ad85462881d0758cd78deba62d9bbc416"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad85462881d0758cd78deba62d9bbc416">discreteMeanCurvature</a> (UndirectedEdgeId e) const</td></tr>
-<tr class="separator:ad85462881d0758cd78deba62d9bbc416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45e5bda99bca2001e2b7d947f1b16177" id="r_a45e5bda99bca2001e2b7d947f1b16177"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45e5bda99bca2001e2b7d947f1b16177">sumAngles</a> (VertId v, bool *outBoundaryVert=nullptr) const</td></tr>
+<tr class="memdesc:a45e5bda99bca2001e2b7d947f1b16177"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of triangle angles at given vertex; optionally returns whether the vertex is on boundary  <br /></td></tr>
+<tr class="separator:a45e5bda99bca2001e2b7d947f1b16177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a0775d0410e3ff89ed981468aa016e" id="r_ae4a0775d0410e3ff89ed981468aa016e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4a0775d0410e3ff89ed981468aa016e">findSpikeVertices</a> (float minSumAngle, const VertBitSet *region=nullptr, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}) const</td></tr>
+<tr class="memdesc:ae4a0775d0410e3ff89ed981468aa016e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vertices where the sum of triangle angles is below given threshold  <br /></td></tr>
+<tr class="separator:ae4a0775d0410e3ff89ed981468aa016e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2c210b6e877bde4c37fab15c077a91" id="r_a6b2c210b6e877bde4c37fab15c077a91"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b2c210b6e877bde4c37fab15c077a91">dihedralAngleSin</a> (UndirectedEdgeId e) const</td></tr>
+<tr class="separator:a6b2c210b6e877bde4c37fab15c077a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e4c897582e70d319407854dae664a39" id="r_a0e4c897582e70d319407854dae664a39"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e4c897582e70d319407854dae664a39">dihedralAngleCos</a> (UndirectedEdgeId e) const</td></tr>
+<tr class="separator:a0e4c897582e70d319407854dae664a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71070e988656416b3bc9d2086aab4d1" id="r_ab71070e988656416b3bc9d2086aab4d1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab71070e988656416b3bc9d2086aab4d1">dihedralAngle</a> (UndirectedEdgeId e) const</td></tr>
+<tr class="separator:ab71070e988656416b3bc9d2086aab4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08b8517dc08f3f1509ff3a0deb390e82" id="r_a08b8517dc08f3f1509ff3a0deb390e82"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08b8517dc08f3f1509ff3a0deb390e82">discreteMeanCurvature</a> (VertId v) const</td></tr>
+<tr class="separator:a08b8517dc08f3f1509ff3a0deb390e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a504db229abc4375e45ea9b83ff9b3c6a" id="r_a504db229abc4375e45ea9b83ff9b3c6a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a504db229abc4375e45ea9b83ff9b3c6a">discreteMeanCurvature</a> (UndirectedEdgeId e) const</td></tr>
+<tr class="separator:a504db229abc4375e45ea9b83ff9b3c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18e24b802c039dde02eeb902045cdb20" id="r_a18e24b802c039dde02eeb902045cdb20"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e24b802c039dde02eeb902045cdb20">discreteGaussianCurvature</a> (VertId v, bool *outBoundaryVert=nullptr) const</td></tr>
 <tr class="separator:a18e24b802c039dde02eeb902045cdb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3597555fee6f4964fe1689b0643f7f83" id="r_a3597555fee6f4964fe1689b0643f7f83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3597555fee6f4964fe1689b0643f7f83">findCreaseEdges</a> (float angleFromPlanar) const</td></tr>
-<tr class="memdesc:a3597555fee6f4964fe1689b0643f7f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value  <br /></td></tr>
-<tr class="separator:a3597555fee6f4964fe1689b0643f7f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa347e7c284659d13d5e9ef0df1a52d5e" id="r_aa347e7c284659d13d5e9ef0df1a52d5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa347e7c284659d13d5e9ef0df1a52d5e">leftCotan</a> (EdgeId e) const</td></tr>
-<tr class="separator:aa347e7c284659d13d5e9ef0df1a52d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eda7cca99d50abaa6f9c15d4edefabb" id="r_a1eda7cca99d50abaa6f9c15d4edefabb"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eda7cca99d50abaa6f9c15d4edefabb">findCreaseEdges</a> (float angleFromPlanar) const</td></tr>
+<tr class="memdesc:a1eda7cca99d50abaa6f9c15d4edefabb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value  <br /></td></tr>
+<tr class="separator:a1eda7cca99d50abaa6f9c15d4edefabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76cd30890d96aba180bc7680067a1227" id="r_a76cd30890d96aba180bc7680067a1227"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76cd30890d96aba180bc7680067a1227">leftCotan</a> (EdgeId e) const</td></tr>
+<tr class="separator:a76cd30890d96aba180bc7680067a1227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae3794627367f1c0ae6a497f41542197" id="r_aae3794627367f1c0ae6a497f41542197"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae3794627367f1c0ae6a497f41542197">cotan</a> (UndirectedEdgeId ue) const</td></tr>
 <tr class="separator:aae3794627367f1c0ae6a497f41542197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1991aad0672c28e1d07bd4c24750af8f" id="r_a1991aad0672c28e1d07bd4c24750af8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> QuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1991aad0672c28e1d07bd4c24750af8f">quadraticForm</a> (VertId v, bool angleWeigted, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *creases=nullptr) const</td></tr>
 <tr class="separator:a1991aad0672c28e1d07bd4c24750af8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30783b277e8cd9daed4827c15daede28" id="r_a30783b277e8cd9daed4827c15daede28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
-<tr class="separator:a30783b277e8cd9daed4827c15daede28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9114dc0640fc079b18e83625c3464a" id="r_a6a9114dc0640fc079b18e83625c3464a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a9114dc0640fc079b18e83625c3464a">getBoundingBox</a> () const</td></tr>
 <tr class="separator:a6a9114dc0640fc079b18e83625c3464a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30783b277e8cd9daed4827c15daede28" id="r_a30783b277e8cd9daed4827c15daede28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
+<tr class="separator:a30783b277e8cd9daed4827c15daede28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a091677e4ef6993ac15490326ebcc1c78" id="r_a091677e4ef6993ac15490326ebcc1c78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091677e4ef6993ac15490326ebcc1c78">computeBoundingBox</a> (const FaceBitSet *region, const AffineXf3f *toWorld=nullptr) const</td></tr>
 <tr class="separator:a091677e4ef6993ac15490326ebcc1c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace0fa1663015706fa78dc52fe840b4a9" id="r_ace0fa1663015706fa78dc52fe840b4a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace0fa1663015706fa78dc52fe840b4a9">averageEdgeLength</a> () const</td></tr>
-<tr class="memdesc:ace0fa1663015706fa78dc52fe840b4a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average length of an edge in this mesh  <br /></td></tr>
-<tr class="separator:ace0fa1663015706fa78dc52fe840b4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf526a36b567b3e072c3aa70d628ee2" id="r_a4cf526a36b567b3e072c3aa70d628ee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf526a36b567b3e072c3aa70d628ee2">findCenterFromPoints</a> () const</td></tr>
-<tr class="memdesc:a4cf526a36b567b3e072c3aa70d628ee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average position of all valid mesh vertices  <br /></td></tr>
-<tr class="separator:a4cf526a36b567b3e072c3aa70d628ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1576164a9505c9f8c28e16dc288bcca9" id="r_a1576164a9505c9f8c28e16dc288bcca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1576164a9505c9f8c28e16dc288bcca9">findCenterFromFaces</a> () const</td></tr>
-<tr class="memdesc:a1576164a9505c9f8c28e16dc288bcca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes center of mass considering that density of all triangles is the same  <br /></td></tr>
-<tr class="separator:a1576164a9505c9f8c28e16dc288bcca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ef2784fa43035776fad3e85ac252642" id="r_a7ef2784fa43035776fad3e85ac252642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ef2784fa43035776fad3e85ac252642">findCenterFromBBox</a> () const</td></tr>
-<tr class="memdesc:a7ef2784fa43035776fad3e85ac252642"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes bounding box and returns its center  <br /></td></tr>
-<tr class="separator:a7ef2784fa43035776fad3e85ac252642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d3cfcd12351d9a2dd46dea8ddf9e65" id="r_ab9d3cfcd12351d9a2dd46dea8ddf9e65"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d3cfcd12351d9a2dd46dea8ddf9e65">averageEdgeLength</a> () const</td></tr>
+<tr class="memdesc:ab9d3cfcd12351d9a2dd46dea8ddf9e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average length of an edge in this mesh  <br /></td></tr>
+<tr class="separator:ab9d3cfcd12351d9a2dd46dea8ddf9e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f692f06732a94954fbf3fe28c25a5a" id="r_aa4f692f06732a94954fbf3fe28c25a5a"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4f692f06732a94954fbf3fe28c25a5a">findCenterFromPoints</a> () const</td></tr>
+<tr class="memdesc:aa4f692f06732a94954fbf3fe28c25a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average position of all valid mesh vertices  <br /></td></tr>
+<tr class="separator:aa4f692f06732a94954fbf3fe28c25a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983c07d7b4304575cff85c24523ca8a1" id="r_a983c07d7b4304575cff85c24523ca8a1"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983c07d7b4304575cff85c24523ca8a1">findCenterFromFaces</a> () const</td></tr>
+<tr class="memdesc:a983c07d7b4304575cff85c24523ca8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes center of mass considering that density of all triangles is the same  <br /></td></tr>
+<tr class="separator:a983c07d7b4304575cff85c24523ca8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30bc19abb82dba07bc51836c6fb4218" id="r_ac30bc19abb82dba07bc51836c6fb4218"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac30bc19abb82dba07bc51836c6fb4218">findCenterFromBBox</a> () const</td></tr>
+<tr class="memdesc:ac30bc19abb82dba07bc51836c6fb4218"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes bounding box and returns its center  <br /></td></tr>
+<tr class="separator:ac30bc19abb82dba07bc51836c6fb4218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a540a6eef456f6c54c214766fc0a7c3fb" id="r_a540a6eef456f6c54c214766fc0a7c3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a540a6eef456f6c54c214766fc0a7c3fb">zeroUnusedPoints</a> ()</td></tr>
 <tr class="memdesc:a540a6eef456f6c54c214766fc0a7c3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">for all points not in topology.getValidVerts() sets coordinates to (0,0,0)  <br /></td></tr>
 <tr class="separator:a540a6eef456f6c54c214766fc0a7c3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -890,8 +890,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a0c83a5a324f80a18969d786febaee653" name="a0c83a5a324f80a18969d786febaee653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c83a5a324f80a18969d786febaee653">&#9670;&#160;</a></span>area() <span class="overload">[1/3]</span></h2>
+<a id="a4ccb4cf2141efeae32118bb0a4821b3e" name="a4ccb4cf2141efeae32118bb0a4821b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ccb4cf2141efeae32118bb0a4821b3e">&#9670;&#160;</a></span>area() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -900,7 +900,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::Mesh::area </td>
+          <td class="memname">double MR::Mesh::area </td>
           <td>(</td>
           <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fs</em></span></td><td>)</td>
           <td> const</td>
@@ -908,7 +908,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -998,8 +998,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="ace0fa1663015706fa78dc52fe840b4a9" name="ace0fa1663015706fa78dc52fe840b4a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace0fa1663015706fa78dc52fe840b4a9">&#9670;&#160;</a></span>averageEdgeLength()</h2>
+<a id="ab9d3cfcd12351d9a2dd46dea8ddf9e65" name="ab9d3cfcd12351d9a2dd46dea8ddf9e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d3cfcd12351d9a2dd46dea8ddf9e65">&#9670;&#160;</a></span>averageEdgeLength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1008,7 +1008,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::averageEdgeLength </td>
+          <td class="memname">float MR::Mesh::averageEdgeLength </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1016,7 +1016,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1064,8 +1064,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a9c995113408ff1e1911197ea23564987" name="a9c995113408ff1e1911197ea23564987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c995113408ff1e1911197ea23564987">&#9670;&#160;</a></span>circumcircleDiameter()</h2>
+<a id="acdc8a11c22979314254353c064b61025" name="acdc8a11c22979314254353c064b61025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdc8a11c22979314254353c064b61025">&#9670;&#160;</a></span>circumcircleDiameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1074,7 +1074,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::circumcircleDiameter </td>
+          <td class="memname">float MR::Mesh::circumcircleDiameter </td>
           <td>(</td>
           <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
           <td> const</td>
@@ -1082,7 +1082,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1091,8 +1091,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a739c01f192fc474add3f5341ade42018" name="a739c01f192fc474add3f5341ade42018"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a739c01f192fc474add3f5341ade42018">&#9670;&#160;</a></span>circumcircleDiameterSq()</h2>
+<a id="a097d63092885e790e360319635cf3b86" name="a097d63092885e790e360319635cf3b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097d63092885e790e360319635cf3b86">&#9670;&#160;</a></span>circumcircleDiameterSq()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1101,7 +1101,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::circumcircleDiameterSq </td>
+          <td class="memname">float MR::Mesh::circumcircleDiameterSq </td>
           <td>(</td>
           <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
           <td> const</td>
@@ -1109,7 +1109,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1338,8 +1338,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a938d6bd536f16b6f46394ceb91271053" name="a938d6bd536f16b6f46394ceb91271053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a938d6bd536f16b6f46394ceb91271053">&#9670;&#160;</a></span>dihedralAngle()</h2>
+<a id="ab71070e988656416b3bc9d2086aab4d1" name="ab71070e988656416b3bc9d2086aab4d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71070e988656416b3bc9d2086aab4d1">&#9670;&#160;</a></span>dihedralAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1348,7 +1348,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::dihedralAngle </td>
+          <td class="memname">float MR::Mesh::dihedralAngle </td>
           <td>(</td>
           <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -1356,7 +1356,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1364,8 +1364,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="afbc9fe4f12054a0171667825056fe457" name="afbc9fe4f12054a0171667825056fe457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbc9fe4f12054a0171667825056fe457">&#9670;&#160;</a></span>dihedralAngleCos()</h2>
+<a id="a0e4c897582e70d319407854dae664a39" name="a0e4c897582e70d319407854dae664a39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e4c897582e70d319407854dae664a39">&#9670;&#160;</a></span>dihedralAngleCos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1374,7 +1374,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::dihedralAngleCos </td>
+          <td class="memname">float MR::Mesh::dihedralAngleCos </td>
           <td>(</td>
           <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -1382,7 +1382,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1390,8 +1390,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a08a599e9255943ae4fab5935502d2f21" name="a08a599e9255943ae4fab5935502d2f21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08a599e9255943ae4fab5935502d2f21">&#9670;&#160;</a></span>dihedralAngleSin()</h2>
+<a id="a6b2c210b6e877bde4c37fab15c077a91" name="a6b2c210b6e877bde4c37fab15c077a91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b2c210b6e877bde4c37fab15c077a91">&#9670;&#160;</a></span>dihedralAngleSin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1400,7 +1400,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::dihedralAngleSin </td>
+          <td class="memname">float MR::Mesh::dihedralAngleSin </td>
           <td>(</td>
           <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -1408,7 +1408,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1416,8 +1416,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a1d2049ae64855f1b9d7c6da0d946faa3" name="a1d2049ae64855f1b9d7c6da0d946faa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d2049ae64855f1b9d7c6da0d946faa3">&#9670;&#160;</a></span>dirArea() <span class="overload">[1/2]</span></h2>
+<a id="a15fe46302ae352c7822987de4ab6d9e3" name="a15fe46302ae352c7822987de4ab6d9e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15fe46302ae352c7822987de4ab6d9e3">&#9670;&#160;</a></span>dirArea() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1426,7 +1426,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3d MR::Mesh::dirArea </td>
+          <td class="memname">Vector3d MR::Mesh::dirArea </td>
           <td>(</td>
           <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fs</em></span></td><td>)</td>
           <td> const</td>
@@ -1434,7 +1434,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1497,8 +1497,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a4237bb2ee8edbc72aa4189bc2307a544" name="a4237bb2ee8edbc72aa4189bc2307a544"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4237bb2ee8edbc72aa4189bc2307a544">&#9670;&#160;</a></span>dirDblArea() <span class="overload">[2/2]</span></h2>
+<a id="ae349efd004dd70f615996b96d1007b7b" name="ae349efd004dd70f615996b96d1007b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae349efd004dd70f615996b96d1007b7b">&#9670;&#160;</a></span>dirDblArea() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1507,7 +1507,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::dirDblArea </td>
+          <td class="memname">Vector3f MR::Mesh::dirDblArea </td>
           <td>(</td>
           <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
@@ -1515,7 +1515,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1554,8 +1554,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="ad85462881d0758cd78deba62d9bbc416" name="ad85462881d0758cd78deba62d9bbc416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad85462881d0758cd78deba62d9bbc416">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[1/2]</span></h2>
+<a id="a504db229abc4375e45ea9b83ff9b3c6a" name="a504db229abc4375e45ea9b83ff9b3c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a504db229abc4375e45ea9b83ff9b3c6a">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1564,7 +1564,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::discreteMeanCurvature </td>
+          <td class="memname">float MR::Mesh::discreteMeanCurvature </td>
           <td>(</td>
           <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -1572,7 +1572,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1580,8 +1580,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="ab555df576a4de372990fabcac596979f" name="ab555df576a4de372990fabcac596979f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab555df576a4de372990fabcac596979f">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[2/2]</span></h2>
+<a id="a08b8517dc08f3f1509ff3a0deb390e82" name="a08b8517dc08f3f1509ff3a0deb390e82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08b8517dc08f3f1509ff3a0deb390e82">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1590,7 +1590,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::discreteMeanCurvature </td>
+          <td class="memname">float MR::Mesh::discreteMeanCurvature </td>
           <td>(</td>
           <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
@@ -1598,7 +1598,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1660,8 +1660,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a67d337f0047c38780bd0b9491f9d57ba" name="a67d337f0047c38780bd0b9491f9d57ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67d337f0047c38780bd0b9491f9d57ba">&#9670;&#160;</a></span>edgeLengths()</h2>
+<a id="a5fc4588bd1f8e778c3934885c793ffbb" name="a5fc4588bd1f8e778c3934885c793ffbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fc4588bd1f8e778c3934885c793ffbb">&#9670;&#160;</a></span>edgeLengths()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1670,7 +1670,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeScalars MR::Mesh::edgeLengths </td>
+          <td class="memname">UndirectedEdgeScalars MR::Mesh::edgeLengths </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1678,7 +1678,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1826,8 +1826,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a7ef2784fa43035776fad3e85ac252642" name="a7ef2784fa43035776fad3e85ac252642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ef2784fa43035776fad3e85ac252642">&#9670;&#160;</a></span>findCenterFromBBox()</h2>
+<a id="ac30bc19abb82dba07bc51836c6fb4218" name="ac30bc19abb82dba07bc51836c6fb4218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30bc19abb82dba07bc51836c6fb4218">&#9670;&#160;</a></span>findCenterFromBBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1836,7 +1836,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::findCenterFromBBox </td>
+          <td class="memname">Vector3f MR::Mesh::findCenterFromBBox </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1844,7 +1844,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1853,8 +1853,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a1576164a9505c9f8c28e16dc288bcca9" name="a1576164a9505c9f8c28e16dc288bcca9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1576164a9505c9f8c28e16dc288bcca9">&#9670;&#160;</a></span>findCenterFromFaces()</h2>
+<a id="a983c07d7b4304575cff85c24523ca8a1" name="a983c07d7b4304575cff85c24523ca8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983c07d7b4304575cff85c24523ca8a1">&#9670;&#160;</a></span>findCenterFromFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1863,7 +1863,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::findCenterFromFaces </td>
+          <td class="memname">Vector3f MR::Mesh::findCenterFromFaces </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1871,7 +1871,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1880,8 +1880,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a4cf526a36b567b3e072c3aa70d628ee2" name="a4cf526a36b567b3e072c3aa70d628ee2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cf526a36b567b3e072c3aa70d628ee2">&#9670;&#160;</a></span>findCenterFromPoints()</h2>
+<a id="aa4f692f06732a94954fbf3fe28c25a5a" name="aa4f692f06732a94954fbf3fe28c25a5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4f692f06732a94954fbf3fe28c25a5a">&#9670;&#160;</a></span>findCenterFromPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1890,7 +1890,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::findCenterFromPoints </td>
+          <td class="memname">Vector3f MR::Mesh::findCenterFromPoints </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1898,7 +1898,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1990,8 +1990,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a3597555fee6f4964fe1689b0643f7f83" name="a3597555fee6f4964fe1689b0643f7f83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3597555fee6f4964fe1689b0643f7f83">&#9670;&#160;</a></span>findCreaseEdges()</h2>
+<a id="a1eda7cca99d50abaa6f9c15d4edefabb" name="a1eda7cca99d50abaa6f9c15d4edefabb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eda7cca99d50abaa6f9c15d4edefabb">&#9670;&#160;</a></span>findCreaseEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2000,7 +2000,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet MR::Mesh::findCreaseEdges </td>
+          <td class="memname">UndirectedEdgeBitSet MR::Mesh::findCreaseEdges </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>angleFromPlanar</em></span></td><td>)</td>
           <td> const</td>
@@ -2008,7 +2008,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2017,8 +2017,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a63974f1e9e91aec82c60fc776f51ea7b" name="a63974f1e9e91aec82c60fc776f51ea7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63974f1e9e91aec82c60fc776f51ea7b">&#9670;&#160;</a></span>findSpikeVertices()</h2>
+<a id="ae4a0775d0410e3ff89ed981468aa016e" name="ae4a0775d0410e3ff89ed981468aa016e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4a0775d0410e3ff89ed981468aa016e">&#9670;&#160;</a></span>findSpikeVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2027,7 +2027,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt; MR::Mesh::findSpikeVertices </td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt; MR::Mesh::findSpikeVertices </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSumAngle</em></span>, </td>
         </tr>
@@ -2039,12 +2039,12 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2403,8 +2403,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a1b6db3be66aadef6658a7692c9181713" name="a1b6db3be66aadef6658a7692c9181713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b6db3be66aadef6658a7692c9181713">&#9670;&#160;</a></span>getClosestEdge() <span class="overload">[2/2]</span></h2>
+<a id="af6a988ce4d0f323cbbccd414f50e899a" name="af6a988ce4d0f323cbbccd414f50e899a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6a988ce4d0f323cbbccd414f50e899a">&#9670;&#160;</a></span>getClosestEdge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2413,7 +2413,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeId MR::Mesh::getClosestEdge </td>
+          <td class="memname">UndirectedEdgeId MR::Mesh::getClosestEdge </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
           <td> const</td>
@@ -2421,7 +2421,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2457,8 +2457,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a4fe5788ff7927b5a1b5f70b157353ab6" name="a4fe5788ff7927b5a1b5f70b157353ab6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fe5788ff7927b5a1b5f70b157353ab6">&#9670;&#160;</a></span>getClosestVertex() <span class="overload">[2/2]</span></h2>
+<a id="a2ad2ec1a3eff2b13c34415c807db69ad" name="a2ad2ec1a3eff2b13c34415c807db69ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad2ec1a3eff2b13c34415c807db69ad">&#9670;&#160;</a></span>getClosestVertex() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2467,7 +2467,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::Mesh::getClosestVertex </td>
+          <td class="memname">VertId MR::Mesh::getClosestVertex </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
           <td> const</td>
@@ -2475,7 +2475,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2557,14 +2557,17 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a7d51b4057ba3a41c5ef11fba53fa8a3c" name="a7d51b4057ba3a41c5ef11fba53fa8a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d51b4057ba3a41c5ef11fba53fa8a3c">&#9670;&#160;</a></span>getLeftTriPoints() <span class="overload">[2/3]</span></h2>
+<a id="a587dd9a2bd990d58c6409c01b684553d" name="a587dd9a2bd990d58c6409c01b684553d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587dd9a2bd990d58c6409c01b684553d">&#9670;&#160;</a></span>getLeftTriPoints() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Mesh::getLeftTriPoints </td>
+          <td class="memname">void MR::Mesh::getLeftTriPoints </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
@@ -2584,6 +2587,11 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
           <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>v2</em></span>&#160;) const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e ) </p>
@@ -2745,8 +2753,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="addb26b3e42dbd2a5418b461add1d9f57" name="addb26b3e42dbd2a5418b461add1d9f57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addb26b3e42dbd2a5418b461add1d9f57">&#9670;&#160;</a></span>holeDirArea()</h2>
+<a id="a5987866b04f9e182594595fadb7cc6e5" name="a5987866b04f9e182594595fadb7cc6e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5987866b04f9e182594595fadb7cc6e5">&#9670;&#160;</a></span>holeDirArea()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2755,7 +2763,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3d MR::Mesh::holeDirArea </td>
+          <td class="memname">Vector3d MR::Mesh::holeDirArea </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -2763,7 +2771,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2771,8 +2779,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="af3fca747ad4dc619010b3f7dbb857f86" name="af3fca747ad4dc619010b3f7dbb857f86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3fca747ad4dc619010b3f7dbb857f86">&#9670;&#160;</a></span>holePerimiter()</h2>
+<a id="ad4ae74b982e66d8f996ba56b49cbd39d" name="ad4ae74b982e66d8f996ba56b49cbd39d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4ae74b982e66d8f996ba56b49cbd39d">&#9670;&#160;</a></span>holePerimiter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2781,7 +2789,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::Mesh::holePerimiter </td>
+          <td class="memname">double MR::Mesh::holePerimiter </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -2789,7 +2797,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2896,8 +2904,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="aa347e7c284659d13d5e9ef0df1a52d5e" name="aa347e7c284659d13d5e9ef0df1a52d5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa347e7c284659d13d5e9ef0df1a52d5e">&#9670;&#160;</a></span>leftCotan()</h2>
+<a id="a76cd30890d96aba180bc7680067a1227" name="a76cd30890d96aba180bc7680067a1227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76cd30890d96aba180bc7680067a1227">&#9670;&#160;</a></span>leftCotan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2906,7 +2914,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::leftCotan </td>
+          <td class="memname">float MR::Mesh::leftCotan </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -2914,7 +2922,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2922,8 +2930,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="acfefd886da876ca72f2d96231206ed43" name="acfefd886da876ca72f2d96231206ed43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfefd886da876ca72f2d96231206ed43">&#9670;&#160;</a></span>leftDirDblArea()</h2>
+<a id="abac0e977c029df6d8bad34161ec50cce" name="abac0e977c029df6d8bad34161ec50cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac0e977c029df6d8bad34161ec50cce">&#9670;&#160;</a></span>leftDirDblArea()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2932,7 +2940,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::leftDirDblArea </td>
+          <td class="memname">Vector3f MR::Mesh::leftDirDblArea </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -2940,7 +2948,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2976,8 +2984,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a9dcfe3dea7d2f774031d7751cbba5ef4" name="a9dcfe3dea7d2f774031d7751cbba5ef4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dcfe3dea7d2f774031d7751cbba5ef4">&#9670;&#160;</a></span>leftTangent()</h2>
+<a id="a8413d6a67149defd54376ec0b8d8ff05" name="a8413d6a67149defd54376ec0b8d8ff05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8413d6a67149defd54376ec0b8d8ff05">&#9670;&#160;</a></span>leftTangent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2986,7 +2994,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::leftTangent </td>
+          <td class="memname">Vector3f MR::Mesh::leftTangent </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td> const</td>
@@ -2994,7 +3002,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3022,8 +3030,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a0bc20c6104570ee76cffee01e1ea9aa0" name="a0bc20c6104570ee76cffee01e1ea9aa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bc20c6104570ee76cffee01e1ea9aa0">&#9670;&#160;</a></span>normal() <span class="overload">[1/3]</span></h2>
+<a id="a129593cd8a305c93e60d945df893d20a" name="a129593cd8a305c93e60d945df893d20a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a129593cd8a305c93e60d945df893d20a">&#9670;&#160;</a></span>normal() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3032,7 +3040,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::normal </td>
+          <td class="memname">Vector3f MR::Mesh::normal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
           <td> const</td>
@@ -3040,7 +3048,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3254,8 +3262,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a6410490732e1756a5716df6539c55d45" name="a6410490732e1756a5716df6539c55d45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6410490732e1756a5716df6539c55d45">&#9670;&#160;</a></span>projArea() <span class="overload">[1/2]</span></h2>
+<a id="afac77c3e7c3aec5919f862904c857621" name="afac77c3e7c3aec5919f862904c857621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac77c3e7c3aec5919f862904c857621">&#9670;&#160;</a></span>projArea() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3264,7 +3272,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::Mesh::projArea </td>
+          <td class="memname">double MR::Mesh::projArea </td>
           <td>(</td>
           <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
         </tr>
@@ -3276,7 +3284,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3472,8 +3480,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="ada333ee4f3b0edfa859e5f8ee5a1c1f1" name="ada333ee4f3b0edfa859e5f8ee5a1c1f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada333ee4f3b0edfa859e5f8ee5a1c1f1">&#9670;&#160;</a></span>pseudonormal() <span class="overload">[1/3]</span></h2>
+<a id="ac48c479f458af1facea8e79e38ed0d63" name="ac48c479f458af1facea8e79e38ed0d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac48c479f458af1facea8e79e38ed0d63">&#9670;&#160;</a></span>pseudonormal() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3482,7 +3490,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::pseudonormal </td>
+          <td class="memname">Vector3f MR::Mesh::pseudonormal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
         </tr>
@@ -3494,7 +3502,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3502,8 +3510,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a33d264981ad277abb011e94a67cd5e4e" name="a33d264981ad277abb011e94a67cd5e4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33d264981ad277abb011e94a67cd5e4e">&#9670;&#160;</a></span>pseudonormal() <span class="overload">[2/3]</span></h2>
+<a id="acfd1988e966914fd56fac8cee64c5f49" name="acfd1988e966914fd56fac8cee64c5f49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfd1988e966914fd56fac8cee64c5f49">&#9670;&#160;</a></span>pseudonormal() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3512,7 +3520,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::pseudonormal </td>
+          <td class="memname">Vector3f MR::Mesh::pseudonormal </td>
           <td>(</td>
           <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
@@ -3524,7 +3532,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3533,8 +3541,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a3f0764fd9acf9f3a4b060a658c656efc" name="a3f0764fd9acf9f3a4b060a658c656efc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f0764fd9acf9f3a4b060a658c656efc">&#9670;&#160;</a></span>pseudonormal() <span class="overload">[3/3]</span></h2>
+<a id="a0362095ba2aeef52de9f42ffa78756a0" name="a0362095ba2aeef52de9f42ffa78756a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0362095ba2aeef52de9f42ffa78756a0">&#9670;&#160;</a></span>pseudonormal() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3543,7 +3551,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::pseudonormal </td>
+          <td class="memname">Vector3f MR::Mesh::pseudonormal </td>
           <td>(</td>
           <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
@@ -3555,7 +3563,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3887,8 +3895,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a9168ca386aa3a34b0c1b79ddd7f4faa3" name="a9168ca386aa3a34b0c1b79ddd7f4faa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9168ca386aa3a34b0c1b79ddd7f4faa3">&#9670;&#160;</a></span>sumAngles()</h2>
+<a id="a45e5bda99bca2001e2b7d947f1b16177" name="a45e5bda99bca2001e2b7d947f1b16177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e5bda99bca2001e2b7d947f1b16177">&#9670;&#160;</a></span>sumAngles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3897,7 +3905,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::sumAngles </td>
+          <td class="memname">float MR::Mesh::sumAngles </td>
           <td>(</td>
           <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
@@ -3909,7 +3917,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3918,8 +3926,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="aa96011e8aa47330e9f075bc4ef3a08e2" name="aa96011e8aa47330e9f075bc4ef3a08e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa96011e8aa47330e9f075bc4ef3a08e2">&#9670;&#160;</a></span>toEdgePoint() <span class="overload">[1/2]</span></h2>
+<a id="adbf2e3f4d7d5486dcfac998c96935dd3" name="adbf2e3f4d7d5486dcfac998c96935dd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf2e3f4d7d5486dcfac998c96935dd3">&#9670;&#160;</a></span>toEdgePoint() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3928,7 +3936,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> MR::Mesh::toEdgePoint </td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> MR::Mesh::toEdgePoint </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
@@ -3940,7 +3948,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3976,8 +3984,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a98ce30cba5543afc4736d287bfd3d3bc" name="a98ce30cba5543afc4736d287bfd3d3bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98ce30cba5543afc4736d287bfd3d3bc">&#9670;&#160;</a></span>toTriPoint() <span class="overload">[1/3]</span></h2>
+<a id="af8c6a8e572a6252362c3616d2973c5f7" name="af8c6a8e572a6252362c3616d2973c5f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8c6a8e572a6252362c3616d2973c5f7">&#9670;&#160;</a></span>toTriPoint() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3986,7 +3994,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> MR::Mesh::toTriPoint </td>
+          <td class="memname"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> MR::Mesh::toTriPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
           <td> const</td>
@@ -3994,7 +4002,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -4003,8 +4011,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="ab3275b6e90cf7c761fd228b9bc6fefeb" name="ab3275b6e90cf7c761fd228b9bc6fefeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3275b6e90cf7c761fd228b9bc6fefeb">&#9670;&#160;</a></span>toTriPoint() <span class="overload">[2/3]</span></h2>
+<a id="a72472fa8eac4aba3ae82bb68995534c7" name="a72472fa8eac4aba3ae82bb68995534c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72472fa8eac4aba3ae82bb68995534c7">&#9670;&#160;</a></span>toTriPoint() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4013,7 +4021,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> MR::Mesh::toTriPoint </td>
+          <td class="memname"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> MR::Mesh::toTriPoint </td>
           <td>(</td>
           <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
         </tr>
@@ -4025,7 +4033,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -4083,8 +4091,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a49f7db0c7ecd59955478746c13609ff6" name="a49f7db0c7ecd59955478746c13609ff6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49f7db0c7ecd59955478746c13609ff6">&#9670;&#160;</a></span>triangleAspectRatio()</h2>
+<a id="a63bb9b6214248707f092cca1db05afb2" name="a63bb9b6214248707f092cca1db05afb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63bb9b6214248707f092cca1db05afb2">&#9670;&#160;</a></span>triangleAspectRatio()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4093,7 +4101,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Mesh::triangleAspectRatio </td>
+          <td class="memname">float MR::Mesh::triangleAspectRatio </td>
           <td>(</td>
           <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
           <td> const</td>
@@ -4101,7 +4109,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -4110,8 +4118,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a9fc962b114f068665a1f40c936f26724" name="a9fc962b114f068665a1f40c936f26724"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fc962b114f068665a1f40c936f26724">&#9670;&#160;</a></span>triCenter()</h2>
+<a id="a985bc1ef62bdb8754e1b4f3da304256b" name="a985bc1ef62bdb8754e1b4f3da304256b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a985bc1ef62bdb8754e1b4f3da304256b">&#9670;&#160;</a></span>triCenter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4120,7 +4128,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::triCenter </td>
+          <td class="memname">Vector3f MR::Mesh::triCenter </td>
           <td>(</td>
           <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
           <td> const</td>
@@ -4128,7 +4136,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -4137,8 +4145,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a243ed2368ebb1f7bfaa1d71cef8a3d16" name="a243ed2368ebb1f7bfaa1d71cef8a3d16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a243ed2368ebb1f7bfaa1d71cef8a3d16">&#9670;&#160;</a></span>triPoint()</h2>
+<a id="a9c3fed969fd69fc13302e22b2d6fd4ad" name="a9c3fed969fd69fc13302e22b2d6fd4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c3fed969fd69fc13302e22b2d6fd4ad">&#9670;&#160;</a></span>triPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4147,7 +4155,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Mesh::triPoint </td>
+          <td class="memname">Vector3f MR::Mesh::triPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
           <td> const</td>
@@ -4155,7 +4163,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -4182,8 +4190,8 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
-<a id="a952176d5bcd16b91d26dc6fa2a0bdc6c" name="a952176d5bcd16b91d26dc6fa2a0bdc6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a952176d5bcd16b91d26dc6fa2a0bdc6c">&#9670;&#160;</a></span>volume()</h2>
+<a id="ae844a3412483056be32f892b104dac40" name="ae844a3412483056be32f892b104dac40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae844a3412483056be32f892b104dac40">&#9670;&#160;</a></span>volume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4192,7 +4200,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::Mesh::volume </td>
+          <td class="memname">double MR::Mesh::volume </td>
           <td>(</td>
           <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
@@ -4200,7 +4208,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

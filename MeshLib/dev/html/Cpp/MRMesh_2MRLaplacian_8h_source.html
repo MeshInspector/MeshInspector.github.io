@@ -177,13 +177,6 @@ $(function(){initNavTree('MRMesh_2MRLaplacian_8h_source.html',''); initResizable
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">// Laplacian to smoothly deform a region preserving mesh fine details.</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">// How to use:</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">// 1. Initialize Laplacian for the region being deformed, here region properties are remembered.</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">// 2. Change positions of some vertices within the region and call fixVertex for them.</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">// 3. Optionally call updateSolver()</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">// 4. Call apply() to change the remaining vertices within the region</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">// Then steps 1-4 or 2-4 can be repeated.</span></div>
 <div class="foldopen" id="foldopen00031" data-start="{" data-end="};">
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html">   31</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1Laplacian.html">Laplacian</a></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
@@ -199,150 +192,121 @@ $(function(){initNavTree('MRMesh_2MRLaplacian_8h_source.html',''); initResizable
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a73bfefd11d47ad836834540e5e85f7b3">   40</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">explicit</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a73bfefd11d47ad836834540e5e85f7b3">Laplacian</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh );</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a76c6a49784d646ffed8a834c10e927df">   41</a></span>    <a class="code hl_function" href="classMR_1_1Laplacian.html#a76c6a49784d646ffed8a834c10e927df">Laplacian</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, VertCoords &amp; points ) : topology_( topology ), points_( points ) { }</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="comment">// initialize Laplacian for the region being deformed, here region properties are remembered and precomputed;</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// \param freeVerts must not include all vertices of a mesh connected component</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a9722fea3de00eb2456b5578da15a385a">   45</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a9722fea3de00eb2456b5578da15a385a">init</a>( <span class="keyword">const</span> VertBitSet &amp; <a class="code hl_function" href="classMR_1_1Laplacian.html#a193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, <a class="code hl_enumeration" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> weights, <a class="code hl_enumeration" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> vmass = <a class="code hl_enumvalue" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a>,</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <a class="code hl_enumeration" href="classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed">RememberShape</a> rem = <a class="code hl_enumvalue" href="classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435">Laplacian::RememberShape::Yes</a> );</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">// notify Laplacian that given vertex has changed after init and must be fixed during apply;</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// \param smooth whether to make the surface smooth in this vertex (sharp otherwise)</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#abde407cebf38b19019235ca25c82309e">   50</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#abde407cebf38b19019235ca25c82309e">fixVertex</a>( VertId v, <span class="keywordtype">bool</span> smooth = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="comment">// sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH);</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">// \param smooth whether to make the surface smooth in this vertex (sharp otherwise)</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f">   54</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f">fixVertex</a>( VertId v, <span class="keyword">const</span> Vector3f &amp; fixedPos, <span class="keywordtype">bool</span> smooth = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// if you manually call this method after initialization and fixing vertices then next apply call will be much faster</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226">   57</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226">updateSolver</a>();</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">// given fixed vertices, computes positions of remaining region vertices</span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a1a99ff3fbda2af6c118c5bb00a99d5d1">   60</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a1a99ff3fbda2af6c118c5bb00a99d5d1">apply</a>();</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">// given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices</span></div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#afdf4e4b8b9500077dbd7d806dfc74f54">   63</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#afdf4e4b8b9500077dbd7d806dfc74f54">applyToScalar</a>( VertScalars &amp; scalarField );</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="comment">// return all initially free vertices and the first layer of vertices around them</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a9ad9ba866f86e02979c7ad6b6af3331c">   66</a></span>    [[nodiscard]] <span class="keyword">const</span> VertBitSet &amp; <a class="code hl_function" href="classMR_1_1Laplacian.html#a9ad9ba866f86e02979c7ad6b6af3331c">region</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> region_; }</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="comment">// return currently free vertices</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a193dcb7b5ba595a2dad19cf1b4af4ce9">   69</a></span>    [[nodiscard]] <span class="keyword">const</span> VertBitSet &amp; <a class="code hl_function" href="classMR_1_1Laplacian.html#a193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> freeVerts_; }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="comment">// return fixed vertices from the first layer around free vertices</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a1d3cc11b268b8962ef51d56d4946b2a8">   72</a></span>    [[nodiscard]] <span class="keyword">const</span> VertBitSet &amp; <a class="code hl_function" href="classMR_1_1Laplacian.html#a1d3cc11b268b8962ef51d56d4946b2a8">firstLayerFixedVerts</a>()<span class="keyword"> const </span>{ assert( solverValid_ ); <span class="keywordflow">return</span> firstLayerFixedVerts_; }</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">public</span>: <span class="comment">// Mesh-like functions</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a5a9d58ee76f30a0299747d4f18620d3e">   76</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> <a class="code hl_function" href="classMR_1_1Laplacian.html#a5a9d58ee76f30a0299747d4f18620d3e">getLeftTriPoints</a>( EdgeId e ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="comment">// updates solver_ only</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> updateSolver_();</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a105618af8c4ea8f617898da3a0f0c3c8">   80</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">float</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a105618af8c4ea8f617898da3a0f0c3c8">leftCotan</a>( EdgeId e ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a629f56c928709f67f94466c1111e3617">   84</a></span>    [[nodiscard]] <span class="keywordtype">float</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a629f56c928709f67f94466c1111e3617">cotan</a>( UndirectedEdgeId ue )<span class="keyword"> const </span>{ EdgeId e{ ue }; <span class="keywordflow">return</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a105618af8c4ea8f617898da3a0f0c3c8">leftCotan</a>( e ) + <a class="code hl_function" href="classMR_1_1Laplacian.html#a105618af8c4ea8f617898da3a0f0c3c8">leftCotan</a>( e.sym() ); }</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#a9a2528fa5078b1c9890f81ad4facb254">   87</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="code hl_function" href="classMR_1_1Laplacian.html#a9a2528fa5078b1c9890f81ad4facb254">dirDblArea</a>( VertId v ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classMR_1_1Laplacian.html#adfcba3fd23736de89638d3c13932f2c1">   90</a></span>    [[nodiscard]] <span class="keywordtype">float</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#adfcba3fd23736de89638d3c13932f2c1">dblArea</a>( VertId v )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="classMR_1_1Laplacian.html#a9a2528fa5078b1c9890f81ad4facb254">dirDblArea</a>( v ).length(); }</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="comment">// updates solver_ only</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> updateSolver_();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="comment">// updates rhs_ only</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">void</span> updateRhs_();</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> I, <span class="keyword">typename</span> G, <span class="keyword">typename</span> S&gt;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> prepareRhs_( <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &amp;&amp; iniRhs, G &amp;&amp; g, S &amp;&amp; s );</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology_;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    VertCoords &amp; points_;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="comment">// all initially free vertices and the first layer of vertices around them</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    VertBitSet region_;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="comment">// currently free vertices</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    VertBitSet freeVerts_;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="comment">// fixed vertices where no smoothness is required</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    VertBitSet fixedSharpVertices_;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="comment">// updates rhs_ only</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> updateRhs_();</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="comment">// fixed vertices from the first layer around free vertices</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    VertBitSet firstLayerFixedVerts_;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> I, <span class="keyword">typename</span> G, <span class="keyword">typename</span> S&gt;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">void</span> prepareRhs_( <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &amp;&amp; iniRhs, G &amp;&amp; g, S &amp;&amp; s );</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology_;</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    VertCoords &amp; points_;</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="comment">// all initially free vertices and the first layer of vertices around them</span></div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    VertBitSet region_;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="comment">// for all vertices in the region</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keyword">struct </span>Equation</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    {</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        Vector3d rhs;           <span class="comment">// equation right hand side</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordtype">double</span> centerCoeff = 0; <span class="comment">// coefficient on matrix diagonal</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        <span class="keywordtype">int</span> firstElem = 0;      <span class="comment">// index in nonZeroElements_</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    };</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    std::vector&lt;Equation&gt; equations_;</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="comment">// currently free vertices</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    VertBitSet freeVerts_;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="comment">// fixed vertices where no smoothness is required</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    VertBitSet fixedSharpVertices_;</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="comment">// fixed vertices from the first layer around free vertices</span></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    VertBitSet firstLayerFixedVerts_;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="comment">// for all vertices in the region</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keyword">struct </span>Equation</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    {</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        Vector3d rhs;           <span class="comment">// equation right hand side</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        <span class="keywordtype">double</span> centerCoeff = 0; <span class="comment">// coefficient on matrix diagonal</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        <span class="keywordtype">int</span> firstElem = 0;      <span class="comment">// index in nonZeroElements_</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    };</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    std::vector&lt;Equation&gt; equations_;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keyword">struct </span>Element</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keywordtype">double</span> coeff = 0;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        VertId neiVert;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    };</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    std::vector&lt;Element&gt; nonZeroElements_;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="comment">// map from vertex index to matrix row/col</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    Vector&lt; int, VertId &gt; regionVert2id_;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    Vector&lt; int, VertId &gt; freeVert2id_;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">using </span>SparseMatrix = Eigen::SparseMatrix&lt;double,Eigen::RowMajor&gt;;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    SparseMatrix M_;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// if true then we do not need to recompute solver_ in the apply</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">bool</span> solverValid_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keyword">using </span>SparseMatrixColMajor = Eigen::SparseMatrix&lt;double,Eigen::ColMajor&gt;;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keyword">struct </span>Element</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    {</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keywordtype">double</span> coeff = 0;</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        VertId neiVert;</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    };</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    std::vector&lt;Element&gt; nonZeroElements_;</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="comment">// map from vertex index to matrix row/col</span></div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    Vector&lt; int, VertId &gt; regionVert2id_;</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    Vector&lt; int, VertId &gt; freeVert2id_;</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keyword">using </span>SparseMatrix = Eigen::SparseMatrix&lt;double,Eigen::RowMajor&gt;;</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    SparseMatrix M_;</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="comment">// if true then we do not need to recompute solver_ in the apply</span></div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="keywordtype">bool</span> solverValid_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keyword">using </span>SparseMatrixColMajor = Eigen::SparseMatrix&lt;double,Eigen::ColMajor&gt;;</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="comment">// interface needed to hide implementation headers</span></div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="keyword">class </span>Solver</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    {</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        <span class="keyword">virtual</span> ~Solver() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        <span class="keyword">virtual</span> <span class="keywordtype">void</span> compute( <span class="keyword">const</span> SparseMatrixColMajor&amp; A ) = 0;</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>        <span class="keyword">virtual</span> Eigen::VectorXd solve( <span class="keyword">const</span> Eigen::VectorXd&amp; rhs ) = 0;</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    };</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    std::unique_ptr&lt;Solver&gt; solver_;</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="comment">// if true then we do not need to recompute rhs_ in the apply</span></div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="keywordtype">bool</span> rhsValid_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    Eigen::VectorXd rhs_[3];</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>};</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="comment">// interface needed to hide implementation headers</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keyword">class </span>Solver</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    {</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <span class="keyword">virtual</span> ~Solver() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        <span class="keyword">virtual</span> <span class="keywordtype">void</span> compute( <span class="keyword">const</span> SparseMatrixColMajor&amp; A ) = 0;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <span class="keyword">virtual</span> Eigen::VectorXd solve( <span class="keyword">const</span> Eigen::VectorXd&amp; rhs ) = 0;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    };</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    std::unique_ptr&lt;Solver&gt; solver_;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="comment">// if true then we do not need to recompute rhs_ in the apply</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keywordtype">bool</span> rhsValid_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    Eigen::VectorXd rhs_[3];</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>};</div>
 </div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:79</div></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html"><div class="ttname"><a href="classMR_1_1Laplacian.html">MR::Laplacian</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:32</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a105618af8c4ea8f617898da3a0f0c3c8"><div class="ttname"><a href="classMR_1_1Laplacian.html#a105618af8c4ea8f617898da3a0f0c3c8">MR::Laplacian::leftCotan</a></div><div class="ttdeci">MRMESH_API float leftCotan(EdgeId e) const</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a193dcb7b5ba595a2dad19cf1b4af4ce9"><div class="ttname"><a href="classMR_1_1Laplacian.html#a193dcb7b5ba595a2dad19cf1b4af4ce9">MR::Laplacian::freeVerts</a></div><div class="ttdeci">const VertBitSet &amp; freeVerts() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:69</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a1a99ff3fbda2af6c118c5bb00a99d5d1"><div class="ttname"><a href="classMR_1_1Laplacian.html#a1a99ff3fbda2af6c118c5bb00a99d5d1">MR::Laplacian::apply</a></div><div class="ttdeci">MRMESH_API void apply()</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a1d3cc11b268b8962ef51d56d4946b2a8"><div class="ttname"><a href="classMR_1_1Laplacian.html#a1d3cc11b268b8962ef51d56d4946b2a8">MR::Laplacian::firstLayerFixedVerts</a></div><div class="ttdeci">const VertBitSet &amp; firstLayerFixedVerts() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:72</div></div>
+<div class="ttc" id="aclassMR_1_1Laplacian_html_a193dcb7b5ba595a2dad19cf1b4af4ce9"><div class="ttname"><a href="classMR_1_1Laplacian.html#a193dcb7b5ba595a2dad19cf1b4af4ce9">MR::Laplacian::freeVerts</a></div><div class="ttdeci">const VertBitSet &amp; freeVerts() const</div><div class="ttdoc">return currently free vertices</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:69</div></div>
+<div class="ttc" id="aclassMR_1_1Laplacian_html_a1a99ff3fbda2af6c118c5bb00a99d5d1"><div class="ttname"><a href="classMR_1_1Laplacian.html#a1a99ff3fbda2af6c118c5bb00a99d5d1">MR::Laplacian::apply</a></div><div class="ttdeci">MRMESH_API void apply()</div><div class="ttdoc">given fixed vertices, computes positions of remaining region vertices</div></div>
+<div class="ttc" id="aclassMR_1_1Laplacian_html_a1d3cc11b268b8962ef51d56d4946b2a8"><div class="ttname"><a href="classMR_1_1Laplacian.html#a1d3cc11b268b8962ef51d56d4946b2a8">MR::Laplacian::firstLayerFixedVerts</a></div><div class="ttdeci">const VertBitSet &amp; firstLayerFixedVerts() const</div><div class="ttdoc">return fixed vertices from the first layer around free vertices</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:72</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a215e845242a349800e84d63d629cd76f"><div class="ttname"><a href="classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f">MR::Laplacian::fixVertex</a></div><div class="ttdeci">MRMESH_API void fixVertex(VertId v, const Vector3f &amp;fixedPos, bool smooth=true)</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a3e7bb340acaa3ef81fe7ed9f5eaaf226"><div class="ttname"><a href="classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226">MR::Laplacian::updateSolver</a></div><div class="ttdeci">MRMESH_API void updateSolver()</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a5a9d58ee76f30a0299747d4f18620d3e"><div class="ttname"><a href="classMR_1_1Laplacian.html#a5a9d58ee76f30a0299747d4f18620d3e">MR::Laplacian::getLeftTriPoints</a></div><div class="ttdeci">MRMESH_API Triangle3f getLeftTriPoints(EdgeId e) const</div><div class="ttdoc">returns three points of left face of e: res[0] = orgPnt( e ), res[1] = destPnt( e )</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a629f56c928709f67f94466c1111e3617"><div class="ttname"><a href="classMR_1_1Laplacian.html#a629f56c928709f67f94466c1111e3617">MR::Laplacian::cotan</a></div><div class="ttdeci">float cotan(UndirectedEdgeId ue) const</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:84</div></div>
+<div class="ttc" id="aclassMR_1_1Laplacian_html_a3e7bb340acaa3ef81fe7ed9f5eaaf226"><div class="ttname"><a href="classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226">MR::Laplacian::updateSolver</a></div><div class="ttdeci">MRMESH_API void updateSolver()</div><div class="ttdoc">if you manually call this method after initialization and fixing vertices then next apply call will b...</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a67c8dfc7669f41712a92d21d5ec99fed"><div class="ttname"><a href="classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed">MR::Laplacian::RememberShape</a></div><div class="ttdeci">RememberShape</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:35</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435"><div class="ttname"><a href="classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435">MR::Laplacian::RememberShape::Yes</a></div><div class="ttdeci">@ Yes</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b"><div class="ttname"><a href="classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b">MR::Laplacian::RememberShape::No</a></div><div class="ttdeci">@ No</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a73bfefd11d47ad836834540e5e85f7b3"><div class="ttname"><a href="classMR_1_1Laplacian.html#a73bfefd11d47ad836834540e5e85f7b3">MR::Laplacian::Laplacian</a></div><div class="ttdeci">MRMESH_API Laplacian(Mesh &amp;mesh)</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a76c6a49784d646ffed8a834c10e927df"><div class="ttname"><a href="classMR_1_1Laplacian.html#a76c6a49784d646ffed8a834c10e927df">MR::Laplacian::Laplacian</a></div><div class="ttdeci">Laplacian(const MeshTopology &amp;topology, VertCoords &amp;points)</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:41</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a9722fea3de00eb2456b5578da15a385a"><div class="ttname"><a href="classMR_1_1Laplacian.html#a9722fea3de00eb2456b5578da15a385a">MR::Laplacian::init</a></div><div class="ttdeci">MRMESH_API void init(const VertBitSet &amp;freeVerts, EdgeWeights weights, VertexMass vmass=VertexMass::Unit, RememberShape rem=Laplacian::RememberShape::Yes)</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a9a2528fa5078b1c9890f81ad4facb254"><div class="ttname"><a href="classMR_1_1Laplacian.html#a9a2528fa5078b1c9890f81ad4facb254">MR::Laplacian::dirDblArea</a></div><div class="ttdeci">MRMESH_API Vector3f dirDblArea(VertId v) const</div><div class="ttdoc">computes sum of directed double areas of all triangles around given vertex</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_a9ad9ba866f86e02979c7ad6b6af3331c"><div class="ttname"><a href="classMR_1_1Laplacian.html#a9ad9ba866f86e02979c7ad6b6af3331c">MR::Laplacian::region</a></div><div class="ttdeci">const VertBitSet &amp; region() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:66</div></div>
+<div class="ttc" id="aclassMR_1_1Laplacian_html_a9ad9ba866f86e02979c7ad6b6af3331c"><div class="ttname"><a href="classMR_1_1Laplacian.html#a9ad9ba866f86e02979c7ad6b6af3331c">MR::Laplacian::region</a></div><div class="ttdeci">const VertBitSet &amp; region() const</div><div class="ttdoc">return all initially free vertices and the first layer of vertices around them</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:66</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_abde407cebf38b19019235ca25c82309e"><div class="ttname"><a href="classMR_1_1Laplacian.html#abde407cebf38b19019235ca25c82309e">MR::Laplacian::fixVertex</a></div><div class="ttdeci">MRMESH_API void fixVertex(VertId v, bool smooth=true)</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_adfcba3fd23736de89638d3c13932f2c1"><div class="ttname"><a href="classMR_1_1Laplacian.html#adfcba3fd23736de89638d3c13932f2c1">MR::Laplacian::dblArea</a></div><div class="ttdeci">float dblArea(VertId v) const</div><div class="ttdoc">computes the length of summed directed double areas of all triangles around given vertex</div><div class="ttdef"><b>Definition</b> MRMesh/MRLaplacian.h:90</div></div>
-<div class="ttc" id="aclassMR_1_1Laplacian_html_afdf4e4b8b9500077dbd7d806dfc74f54"><div class="ttname"><a href="classMR_1_1Laplacian.html#afdf4e4b8b9500077dbd7d806dfc74f54">MR::Laplacian::applyToScalar</a></div><div class="ttdeci">MRMESH_API void applyToScalar(VertScalars &amp;scalarField)</div></div>
+<div class="ttc" id="aclassMR_1_1Laplacian_html_afdf4e4b8b9500077dbd7d806dfc74f54"><div class="ttname"><a href="classMR_1_1Laplacian.html#afdf4e4b8b9500077dbd7d806dfc74f54">MR::Laplacian::applyToScalar</a></div><div class="ttdeci">MRMESH_API void applyToScalar(VertScalars &amp;scalarField)</div><div class="ttdoc">given a pre-resized scalar field with set values in fixed vertices, computes the values in free verti...</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:18</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="anamespaceMR_html_a5ac9f08cd2ef48394fa1c77a8ebdd6c8"><div class="ttname"><a href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">MR::EdgeWeights</a></div><div class="ttdeci">EdgeWeights</div><div class="ttdoc">determines the weight of each edge in applications like Laplacian</div><div class="ttdef"><b>Definition</b> MREnums.h:18</div></div>
 <div class="ttc" id="anamespaceMR_html_aae89e209e34f26d7ae6dcc7b5e7d2851"><div class="ttname"><a href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">MR::I</a></div><div class="ttdeci">I</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:121</div></div>
-<div class="ttc" id="anamespaceMR_html_ac3b4f93ff16dbb5975ce8dec6adc39cf"><div class="ttname"><a href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">MR::Triangle3f</a></div><div class="ttdeci">Triangle3&lt; float &gt; Triangle3f</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:391</div></div>
 <div class="ttc" id="anamespaceMR_html_ada281bbc8bccd66b01be1b6d2b99e3cd"><div class="ttname"><a href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">MR::VertexMass</a></div><div class="ttdeci">VertexMass</div><div class="ttdoc">determines the weight or mass of each vertex in applications like Laplacian</div><div class="ttdef"><b>Definition</b> MREnums.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f"><div class="ttname"><a href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">MR::VertexMass::Unit</a></div><div class="ttdeci">@ Unit</div><div class="ttdoc">all vertices have same mass=1</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

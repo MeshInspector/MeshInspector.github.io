@@ -204,6 +204,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshLoad.h", "MRMesh_2MRMeshLoad_8h.html", "MRMesh_2MRMeshLoad_8h" ],
     [ "MRMeshLoadObj.h", "MRMesh_2MRMeshLoadObj_8h.html", "MRMesh_2MRMeshLoadObj_8h" ],
     [ "MRMeshLoadSettings.h", "MRMeshLoadSettings_8h.html", "MRMeshLoadSettings_8h" ],
+    [ "MRMeshMath.h", "MRMeshMath_8h.html", "MRMeshMath_8h" ],
     [ "MRMeshMeshDistance.h", "MRMeshMeshDistance_8h.html", "MRMeshMeshDistance_8h" ],
     [ "MRMeshMetrics.h", "MRMesh_2MRMeshMetrics_8h.html", "MRMesh_2MRMeshMetrics_8h" ],
     [ "MRMeshNormals.h", "MRMesh_2MRMeshNormals_8h.html", "MRMesh_2MRMeshNormals_8h" ],

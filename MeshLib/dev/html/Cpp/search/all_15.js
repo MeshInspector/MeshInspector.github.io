@@ -1332,7 +1332,7 @@ var searchData=
   ['subvoxel_20mesh_20correction_1329',['Subvoxel Mesh Correction',['../group__SubvoxelMeshCorrection.html',1,'']]],
   ['suggestvoxelsize_1330',['suggestVoxelSize',['../../Py/namespacemrmeshpy.html#a567c65d3d0de81cb059f8d156ba9c200',1,'mrmeshpy::suggestVoxelSize()'],['../namespaceMR.html#a346ad7a38921d6822ceffafc1eba769d',1,'MR::suggestVoxelSize()']]],
   ['sum_1331',['sum',['../structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326',1,'MR::NumSum::sum'],['../structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a',1,'MR::QuadraticForm::sum()']]],
-  ['sumangles_1332',['sumAngles',['../../Py/classmrmeshpy_1_1Mesh.html#a6d2427008890a133ab15d2361dd31f83',1,'mrmeshpy::Mesh::sumAngles()'],['../structMR_1_1Mesh.html#a9168ca386aa3a34b0c1b79ddd7f4faa3',1,'MR::Mesh::sumAngles()']]],
+  ['sumangles_1332',['sumAngles',['../../Py/classmrmeshpy_1_1Mesh.html#a6d2427008890a133ab15d2361dd31f83',1,'mrmeshpy::Mesh::sumAngles()'],['../structMR_1_1Mesh.html#a45e5bda99bca2001e2b7d947f1b16177',1,'MR::Mesh::sumAngles()'],['../../Py/namespacemrmeshpy.html#aedf2da44ddc9d20afe3820ea5a940597',1,'mrmeshpy::sumAngles()'],['../namespaceMR.html#af04c9fae0daff536f4098c78b1c10b95',1,'MR::sumAngles()']]],
   ['sumat_1333',['sumAt',['../structMR_1_1QuadraticForm.html#ae2db52d249d73990155ac0aee19ecdf7',1,'MR::QuadraticForm']]],
   ['support_1334',['File Format Support',['../../FileFormatSupport.html',1,'']]],
   ['support_1335',['Numpy support',['../../ExampleNumpy.html',1,'']]],

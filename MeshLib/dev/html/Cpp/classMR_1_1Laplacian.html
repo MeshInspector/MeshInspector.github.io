@@ -181,32 +181,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a215e845242a349800e84d63d629cd76f" id="r_a215e845242a349800e84d63d629cd76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a215e845242a349800e84d63d629cd76f">fixVertex</a> (VertId v, const Vector3f &amp;fixedPos, bool smooth=true)</td></tr>
 <tr class="separator:a215e845242a349800e84d63d629cd76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e7bb340acaa3ef81fe7ed9f5eaaf226" id="r_a3e7bb340acaa3ef81fe7ed9f5eaaf226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e7bb340acaa3ef81fe7ed9f5eaaf226">updateSolver</a> ()</td></tr>
+<tr class="memdesc:a3e7bb340acaa3ef81fe7ed9f5eaaf226"><td class="mdescLeft">&#160;</td><td class="mdescRight">if you manually call this method after initialization and fixing vertices then next apply call will be much faster  <br /></td></tr>
 <tr class="separator:a3e7bb340acaa3ef81fe7ed9f5eaaf226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a99ff3fbda2af6c118c5bb00a99d5d1" id="r_a1a99ff3fbda2af6c118c5bb00a99d5d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a99ff3fbda2af6c118c5bb00a99d5d1">apply</a> ()</td></tr>
+<tr class="memdesc:a1a99ff3fbda2af6c118c5bb00a99d5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">given fixed vertices, computes positions of remaining region vertices  <br /></td></tr>
 <tr class="separator:a1a99ff3fbda2af6c118c5bb00a99d5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdf4e4b8b9500077dbd7d806dfc74f54" id="r_afdf4e4b8b9500077dbd7d806dfc74f54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdf4e4b8b9500077dbd7d806dfc74f54">applyToScalar</a> (VertScalars &amp;scalarField)</td></tr>
+<tr class="memdesc:afdf4e4b8b9500077dbd7d806dfc74f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices  <br /></td></tr>
 <tr class="separator:afdf4e4b8b9500077dbd7d806dfc74f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ad9ba866f86e02979c7ad6b6af3331c" id="r_a9ad9ba866f86e02979c7ad6b6af3331c"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad9ba866f86e02979c7ad6b6af3331c">region</a> () const</td></tr>
+<tr class="memdesc:a9ad9ba866f86e02979c7ad6b6af3331c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all initially free vertices and the first layer of vertices around them  <br /></td></tr>
 <tr class="separator:a9ad9ba866f86e02979c7ad6b6af3331c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a193dcb7b5ba595a2dad19cf1b4af4ce9" id="r_a193dcb7b5ba595a2dad19cf1b4af4ce9"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a> () const</td></tr>
+<tr class="memdesc:a193dcb7b5ba595a2dad19cf1b4af4ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return currently free vertices  <br /></td></tr>
 <tr class="separator:a193dcb7b5ba595a2dad19cf1b4af4ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d3cc11b268b8962ef51d56d4946b2a8" id="r_a1d3cc11b268b8962ef51d56d4946b2a8"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d3cc11b268b8962ef51d56d4946b2a8">firstLayerFixedVerts</a> () const</td></tr>
+<tr class="memdesc:a1d3cc11b268b8962ef51d56d4946b2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return fixed vertices from the first layer around free vertices  <br /></td></tr>
 <tr class="separator:a1d3cc11b268b8962ef51d56d4946b2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a9d58ee76f30a0299747d4f18620d3e" id="r_a5a9d58ee76f30a0299747d4f18620d3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a9d58ee76f30a0299747d4f18620d3e">getLeftTriPoints</a> (EdgeId e) const</td></tr>
-<tr class="memdesc:a5a9d58ee76f30a0299747d4f18620d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three points of left face of e: res[0] = orgPnt( e ), res[1] = destPnt( e )  <br /></td></tr>
-<tr class="separator:a5a9d58ee76f30a0299747d4f18620d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a105618af8c4ea8f617898da3a0f0c3c8" id="r_a105618af8c4ea8f617898da3a0f0c3c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a105618af8c4ea8f617898da3a0f0c3c8">leftCotan</a> (EdgeId e) const</td></tr>
-<tr class="separator:a105618af8c4ea8f617898da3a0f0c3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629f56c928709f67f94466c1111e3617" id="r_a629f56c928709f67f94466c1111e3617"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629f56c928709f67f94466c1111e3617">cotan</a> (UndirectedEdgeId ue) const</td></tr>
-<tr class="separator:a629f56c928709f67f94466c1111e3617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a2528fa5078b1c9890f81ad4facb254" id="r_a9a2528fa5078b1c9890f81ad4facb254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a2528fa5078b1c9890f81ad4facb254">dirDblArea</a> (VertId v) const</td></tr>
-<tr class="memdesc:a9a2528fa5078b1c9890f81ad4facb254"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes sum of directed double areas of all triangles around given vertex  <br /></td></tr>
-<tr class="separator:a9a2528fa5078b1c9890f81ad4facb254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfcba3fd23736de89638d3c13932f2c1" id="r_adfcba3fd23736de89638d3c13932f2c1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfcba3fd23736de89638d3c13932f2c1">dblArea</a> (VertId v) const</td></tr>
-<tr class="memdesc:adfcba3fd23736de89638d3c13932f2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of summed directed double areas of all triangles around given vertex  <br /></td></tr>
-<tr class="separator:adfcba3fd23736de89638d3c13932f2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> to smoothly deform a region preserving mesh fine details. How to use:</p><ol type="1">
+<li>Initialize <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> for the region being deformed, here region properties are remembered.</li>
+<li>Change positions of some vertices within the region and call fixVertex for them.</li>
+<li>Optionally call <a class="el" href="#a3e7bb340acaa3ef81fe7ed9f5eaaf226" title="if you manually call this method after initialization and fixing vertices then next apply call will b...">updateSolver()</a></li>
+<li>Call <a class="el" href="#a1a99ff3fbda2af6c118c5bb00a99d5d1" title="given fixed vertices, computes positions of remaining region vertices">apply()</a> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. </li>
+</ol>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a67c8dfc7669f41712a92d21d5ec99fed" name="a67c8dfc7669f41712a92d21d5ec99fed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67c8dfc7669f41712a92d21d5ec99fed">&#9670;&#160;</a></span>RememberShape</h2>
 
@@ -304,6 +304,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>given fixed vertices, computes positions of remaining region vertices </p>
+
 </div>
 </div>
 <a id="afdf4e4b8b9500077dbd7d806dfc74f54" name="afdf4e4b8b9500077dbd7d806dfc74f54"></a>
@@ -321,85 +323,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a629f56c928709f67f94466c1111e3617" name="a629f56c928709f67f94466c1111e3617"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a629f56c928709f67f94466c1111e3617">&#9670;&#160;</a></span>cotan()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::Laplacian::cotan </td>
-          <td>(</td>
-          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>computes sum of cotangents of the angle in the left and right triangles opposite to given edge, consider cotangents zero for not existing triangles </p>
-
-</div>
-</div>
-<a id="adfcba3fd23736de89638d3c13932f2c1" name="adfcba3fd23736de89638d3c13932f2c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfcba3fd23736de89638d3c13932f2c1">&#9670;&#160;</a></span>dblArea()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::Laplacian::dblArea </td>
-          <td>(</td>
-          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes the length of summed directed double areas of all triangles around given vertex </p>
-
-</div>
-</div>
-<a id="a9a2528fa5078b1c9890f81ad4facb254" name="a9a2528fa5078b1c9890f81ad4facb254"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a2528fa5078b1c9890f81ad4facb254">&#9670;&#160;</a></span>dirDblArea()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::Laplacian::dirDblArea </td>
-          <td>(</td>
-          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes sum of directed double areas of all triangles around given vertex </p>
+<p>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices </p>
 
 </div>
 </div>
@@ -426,6 +350,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return fixed vertices from the first layer around free vertices </p>
+
 </div>
 </div>
 <a id="abde407cebf38b19019235ca25c82309e" name="abde407cebf38b19019235ca25c82309e"></a>
@@ -446,6 +372,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>notify <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> that given vertex has changed after init and must be fixed during apply; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">smooth</td><td>whether to make the surface smooth in this vertex (sharp otherwise) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -472,6 +404,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH); </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">smooth</td><td>whether to make the surface smooth in this vertex (sharp otherwise) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -498,32 +436,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a5a9d58ee76f30a0299747d4f18620d3e" name="a5a9d58ee76f30a0299747d4f18620d3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a9d58ee76f30a0299747d4f18620d3e">&#9670;&#160;</a></span>getLeftTriPoints()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> MR::Laplacian::getLeftTriPoints </td>
-          <td>(</td>
-          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns three points of left face of e: res[0] = orgPnt( e ), res[1] = destPnt( e ) </p>
+<p>return currently free vertices </p>
 
 </div>
 </div>
@@ -555,32 +468,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a105618af8c4ea8f617898da3a0f0c3c8" name="a105618af8c4ea8f617898da3a0f0c3c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a105618af8c4ea8f617898da3a0f0c3c8">&#9670;&#160;</a></span>leftCotan()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Laplacian::leftCotan </td>
-          <td>(</td>
-          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>computes cotangent of the angle in the left( e ) triangle opposite to e, and returns 0 if left face does not exist </p>
+<p>initialize <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> for the region being deformed, here region properties are remembered and precomputed; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -607,6 +500,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return all initially free vertices and the first layer of vertices around them </p>
+
 </div>
 </div>
 <a id="a3e7bb340acaa3ef81fe7ed9f5eaaf226" name="a3e7bb340acaa3ef81fe7ed9f5eaaf226"></a>
@@ -623,6 +518,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>if you manually call this method after initialization and fixing vertices then next apply call will be much faster </p>
 
 </div>
 </div>

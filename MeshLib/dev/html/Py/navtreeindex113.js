@@ -1,15 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#adf726be0394de47fcb966ce872753b05":[6,1,0,0,2,268,3],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#adf726be0394de47fcb966ce872753b05":[6,1,1,0,1,268,3],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#ae08e5c0a6d7928e5a3cce052c4b1c02e":[6,1,0,0,2,268,5],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#ae08e5c0a6d7928e5a3cce052c4b1c02e":[6,1,1,0,1,268,5],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#afa1e3be7c2e141585406bf7e94648c68":[6,1,0,0,2,268,2],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#afa1e3be7c2e141585406bf7e94648c68":[6,1,1,0,1,268,2],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#afad44b583c9197117f853f3fcc305a58":[6,1,0,0,2,268,6],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#afad44b583c9197117f853f3fcc305a58":[6,1,1,0,1,268,6],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float.html":[6,1,0,0,2,269],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float.html":[6,1,1,0,1,269],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float.html#a06939976e591705b9dbce5de938eea18":[6,1,0,0,2,269,7],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float.html#a06939976e591705b9dbce5de938eea18":[6,1,1,0,1,269,7],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float.html#a528910dc879ea74e3f6eff0613e11120":[6,1,0,0,2,269,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX113 =
 "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1472dd1595f80159fc51592bf1523436":[6,1,0,0,2,282,2],
 "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1472dd1595f80159fc51592bf1523436":[6,1,1,0,1,282,2],
 "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1e6e31f0949d37b588ac1601407b6ce4":[6,1,0,0,2,282,0],
-"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1e6e31f0949d37b588ac1601407b6ce4":[6,1,1,0,1,282,0]
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a1e6e31f0949d37b588ac1601407b6ce4":[6,1,1,0,1,282,0],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a60018289315a8b4fb9778116d09b38a9":[6,1,0,0,2,282,1],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a60018289315a8b4fb9778116d09b38a9":[6,1,1,0,1,282,1],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a951f65e42d350fc4389667c5a22b1576":[6,1,0,0,2,282,4],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#a951f65e42d350fc4389667c5a22b1576":[6,1,1,0,1,282,4],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#acc8b92cc5033b52143d2cf326b5aa057":[6,1,0,0,2,282,7],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#acc8b92cc5033b52143d2cf326b5aa057":[6,1,1,0,1,282,7],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#ad4867b60fed0165129cf431aaefe3b5c":[6,1,0,0,2,282,5],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#ad4867b60fed0165129cf431aaefe3b5c":[6,1,1,0,1,282,5],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#aede63fc1e8b45bd00c7e68d34f74aba6":[6,1,0,0,2,282,3],
+"classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html#aede63fc1e8b45bd00c7e68d34f74aba6":[6,1,1,0,1,282,3]
 };
