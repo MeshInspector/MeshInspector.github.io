@@ -1,5 +1,9 @@
 var NAVTREEINDEX15 =
 {
+"MRTupleBindings_8h.html":[6,0,3,0,0,1,4,371],
+"MRTupleBindings_8h.html#a01413673c815bd0bfc3dea53829bb94b":[6,0,3,0,0,1,4,371,10],
+"MRTupleBindings_8h.html#a27575a581409754718e3440d21583420":[6,0,3,0,0,1,4,371,11],
+"MRTupleBindings_8h.html#a28ca9a61313c194fdd1d8bd54eb71cbc":[6,0,3,0,0,1,4,371,5],
 "MRTupleBindings_8h.html#a28e92a7fd124a5ea679bd55bac165135":[6,0,3,0,0,1,4,371,16],
 "MRTupleBindings_8h.html#a3c24ab14380574117e31e10f073688fc":[6,0,3,0,0,1,4,371,6],
 "MRTupleBindings_8h.html#a4bc6e978265e037bdca77110eae89d64":[6,0,3,0,0,1,4,371,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX15 =
 "MRVDBProgressInterrupter_8h_source.html":[6,0,3,0,0,1,11,28],
 "MRVector2_8h.html":[6,0,3,0,0,1,4,381],
 "MRVector2_8h_source.html":[6,0,3,0,0,1,4,381],
-"MRVector4_8h.html":[6,0,3,0,0,1,4,383],
-"MRVector4_8h_source.html":[6,0,3,0,0,1,4,383],
-"MRVertCoordsDiff_8h.html":[6,0,3,0,0,1,4,385],
-"MRVertCoordsDiff_8h_source.html":[6,0,3,0,0,1,4,385],
-"MRVertexAttributeGradient_8h.html":[6,0,3,0,0,1,4,386]
+"MRVector4_8h.html":[6,0,3,0,0,1,4,383]
 };

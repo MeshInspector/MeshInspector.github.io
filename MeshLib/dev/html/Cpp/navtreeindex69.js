@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,1,0,1,6,3,0],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,2,0,1,2,3,0],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,1,0,1,6,3,1],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,2,0,1,2,3,1],
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,1,0,1,6,1,0],
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,2,0,1,2,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,1],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,1],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html#add83e086e536d8cc99b74f9f37fb2672":[6,0,1,0,1,6,1,1,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1FlowAggregator_1_1Flows.html#ace1c7b358cce696bd6d7409cc71984d1":[6,0,1,0,1,244,0,1],
 "structMR_1_1FlowAggregator_1_1Flows.html#ace1c7b358cce696bd6d7409cc71984d1":[6,0,2,0,1,228,0,1],
 "structMR_1_1FlowOrigin.html":[6,0,1,0,1,245],
-"structMR_1_1FlowOrigin.html":[6,0,2,0,1,229],
-"structMR_1_1FlowOrigin.html#a31bfc9564520f8ef69c0c112375278fb":[6,0,1,0,1,245,1],
-"structMR_1_1FlowOrigin.html#a31bfc9564520f8ef69c0c112375278fb":[6,0,2,0,1,229,1],
-"structMR_1_1FlowOrigin.html#a640532564293308f481aa69ef1b94062":[6,0,1,0,1,245,0],
-"structMR_1_1FlowOrigin.html#a640532564293308f481aa69ef1b94062":[6,0,2,0,1,229,0],
-"structMR_1_1GCommand.html":[6,0,1,0,1,254],
-"structMR_1_1GCommand.html":[6,0,2,0,1,238],
-"structMR_1_1GCommand.html#a153e73394a743e67aaeaeefb04deac21":[6,0,1,0,1,254,5],
-"structMR_1_1GCommand.html#a153e73394a743e67aaeaeefb04deac21":[6,0,2,0,1,238,5]
+"structMR_1_1FlowOrigin.html":[6,0,2,0,1,229]
 };

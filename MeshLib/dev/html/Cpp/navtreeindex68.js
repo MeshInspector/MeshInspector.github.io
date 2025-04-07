@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1EdgePoint.html#a9348793c688230e4be403fff5ad98741":[6,0,2,0,1,191,12],
+"structMR_1_1EdgePoint.html#aa0e9261e0dcf014db57e19ce882ddcfb":[6,0,1,0,1,207,17],
+"structMR_1_1EdgePoint.html#aa0e9261e0dcf014db57e19ce882ddcfb":[6,0,2,0,1,191,17],
+"structMR_1_1EdgePoint.html#aa0fb43077718779351b94f5a803498a6":[6,0,1,0,1,207,18],
+"structMR_1_1EdgePoint.html#aa0fb43077718779351b94f5a803498a6":[6,0,2,0,1,191,18],
+"structMR_1_1EdgePoint.html#aad45e724729c2566d956c24d4b0f62ad":[6,0,1,0,1,207,0],
+"structMR_1_1EdgePoint.html#aad45e724729c2566d956c24d4b0f62ad":[6,0,2,0,1,191,0],
+"structMR_1_1EdgePoint.html#ab81774167430d41253fb9bb448ae120d":[6,0,1,0,1,207,3],
 "structMR_1_1EdgePoint.html#ab81774167430d41253fb9bb448ae120d":[6,0,2,0,1,191,3],
 "structMR_1_1EdgePoint.html#acd27d6b536b5412853a94133280b6802":[6,0,1,0,1,207,10],
 "structMR_1_1EdgePoint.html#acd27d6b536b5412853a94133280b6802":[6,0,2,0,1,191,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,1,0,1,6,0,1,4],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,2,0,1,2,0,1,4],
 "structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,1,0,1,6,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,2,0,1,2,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,1,0,1,6,3,0],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,2,0,1,2,3,0],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,1,0,1,6,3,1],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,2,0,1,2,3,1],
-"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,1,0,1,6,1,0],
-"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,2,0,1,2,1,0]
+"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,2,0,1,2,3]
 };

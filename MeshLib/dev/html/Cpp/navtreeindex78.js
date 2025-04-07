@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,0,2,0,1,14,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[6,0,1,0,1,24,1,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[6,0,2,0,1,14,1,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[6,0,1,0,1,24,1,2],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[6,0,2,0,1,14,1,2],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[6,0,1,0,1,24,1,4],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[6,0,2,0,1,14,1,4],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,1,0,1,24,1,0],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,2,0,1,14,1,0],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[6,0,1,0,1,24,1,6],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[6,0,2,0,1,14,1,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1Polyline.html#aa95a33cc56a264a94edd7ef4c0f833bf":[6,0,0,14,0,3],
 "structMR_1_1Polyline.html#aae40d1c6ba0e12c47a855747d44d40ea":[6,0,0,14,0,7],
 "structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[6,0,0,14,0,17],
-"structMR_1_1Polyline.html#ab5ba9b1bd705b2eee1f6faa6e1a1ab29":[6,0,0,14,0,13],
-"structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[6,0,0,14,0,21],
-"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[6,0,0,14,0,15],
-"structMR_1_1Polyline.html#ad1f0bc764cd99c848a21add405261785":[6,0,0,14,0,6],
-"structMR_1_1Polyline.html#adb4149d3e094b89744f9831dac1103dd":[6,0,0,14,0,26],
-"structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[6,0,0,14,0,35],
-"structMR_1_1Polyline.html#adcd9babfa09e9b253e4e80937c08fa6f":[6,0,0,14,0,28],
-"structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b":[6,0,0,14,0,23],
-"structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12":[6,0,0,14,0,20]
+"structMR_1_1Polyline.html#ab5ba9b1bd705b2eee1f6faa6e1a1ab29":[6,0,0,14,0,13]
 };

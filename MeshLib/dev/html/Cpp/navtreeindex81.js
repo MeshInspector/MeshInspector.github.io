@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,1,0,1,592,9],
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,2,0,1,576,9],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,1,0,1,592,1],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,2,0,1,576,1],
+"structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,1,0,1,592,6],
+"structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,2,0,1,576,6],
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,1,0,1,592,5],
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,2,0,1,576,5],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,1,0,1,593,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,2,0,1,577,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[6,0,1,0,1,593,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1ShellVertexInfo.html":[6,0,2,0,1,624],
 "structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,1,0,1,640,1],
 "structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,2,0,1,624,1],
-"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,1,0,1,640,3],
-"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,2,0,1,624,3],
-"structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,1,0,1,640,2],
-"structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,2,0,1,624,2],
-"structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,1,0,1,640,0],
-"structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,2,0,1,624,0],
-"structMR_1_1ShortcutKey.html":[6,0,1,0,1,642],
-"structMR_1_1ShortcutKey.html":[6,0,2,0,1,626],
-"structMR_1_1ShortcutKey.html#a3a4d01661553cca5e961b0ee03e3985f":[6,0,1,0,1,642,1]
+"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,1,0,1,640,3]
 };

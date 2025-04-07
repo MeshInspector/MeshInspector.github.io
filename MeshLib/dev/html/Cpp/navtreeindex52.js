@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"group__IntersectionGroup.html":[6,0,0,0,6],
+"group__IntersectionGroup.html#ga0687cd4a683d6fecc91850b82a02be37":[6,0,0,0,6,3],
+"group__IntersectionGroup.html#ga09243a2c7d047fea71d5b6ee805bb486":[6,0,0,0,6,8],
+"group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3":[6,0,0,0,6,10],
 "group__IntersectionGroup.html#ga174ea372194ccce008006eeca81c9c81":[6,0,0,0,6,2],
 "group__IntersectionGroup.html#ga1ff63020d1319814baf4c97e72dfcc2b":[6,0,0,0,6,7],
 "group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48":[6,0,0,0,6,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "group__MeshSegmentationGroup.html#ga94134d6a12381a36151563fe8472f818":[6,0,0,6,2],
 "group__MeshSubdivideGroup.html":[6,0,0,9,7],
 "group__MeshSubdivideGroup.html#ga59a37b275037ffc76fab5916f13e6ecb":[6,0,0,9,7,1],
-"group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7":[6,0,0,9,7,3],
-"group__MeshSubdivideGroup.html#gaae0359e17d056447a25f6006c825f2f0":[6,0,0,9,7,2],
-"group__MeshSubdivideGroup.html#gaf0f7ef934651257fe2a70de0eb1f9b8b":[6,0,0,9,7,4],
-"group__PlanarPathGroup.html":[6,0,0,16,0],
-"group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe":[6,0,0,16,0,1]
+"group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7":[6,0,0,9,7,3]
 };

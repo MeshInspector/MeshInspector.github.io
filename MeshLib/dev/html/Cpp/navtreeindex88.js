@@ -1,5 +1,13 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,1,0,1,790,2],
+"structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,2,0,1,774,2],
+"structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,1,0,1,790,1],
+"structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,2,0,1,774,1],
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,790,0],
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,774,0],
+"structMR_1_1ZeroOnMove.html":[6,0,1,0,1,792],
+"structMR_1_1ZeroOnMove.html":[6,0,2,0,1,776],
 "structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2":[6,0,1,0,1,792,2],
 "structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2":[6,0,2,0,1,776,2],
 "structMR_1_1ZeroOnMove.html#a2a13927970e03bd552e6ba6241206a15":[6,0,1,0,1,792,5],
