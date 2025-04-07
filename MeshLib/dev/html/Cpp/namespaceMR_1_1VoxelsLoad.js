@@ -15,6 +15,7 @@ var namespaceMR_1_1VoxelsLoad =
       [ "LevelSet", "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e", null ]
     ] ],
     [ "createObjectVoxels", "namespaceMR_1_1VoxelsLoad.html#a4461fa0856c7f24094e4b923f7ddd75f", null ],
+    [ "findDicomFoldersRecursively", "namespaceMR_1_1VoxelsLoad.html#a57c362015058e67cdc805cce6bfec0b8", null ],
     [ "findRawParameters", "group__VoxelsLoadGroup.html#ga36e0b89b1624754a51c853b7254c9223", null ],
     [ "fromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga112e15838444077291559cd2320baedb", null ],
     [ "fromGav", "group__VoxelsLoadGroup.html#ga3a4b1b8a761fbb02df49c120adf8a866", null ],

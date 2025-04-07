@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMRColor.html#a619f04ba5a882494f1459c0d2e2d3dc8":[6,0,2,0,9,1],
+"structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a":[6,0,2,0,9,3],
 "structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
 "structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2],
 "structMRCoordinateConverters.html":[6,0,2,0,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMRResolveMeshDegenSettings.html":[6,0,2,0,55],
 "structMRResolveMeshDegenSettings.html#a40805f081847f33445b8c25f2288f1ca":[6,0,2,0,55,4],
 "structMRResolveMeshDegenSettings.html#a40b2f63f667fbab16bbd7d3496b7f8af":[6,0,2,0,55,0],
-"structMRResolveMeshDegenSettings.html#a8ae976fcf6c01ae956769a1e25746315":[6,0,2,0,55,1],
-"structMRResolveMeshDegenSettings.html#a9b77421321a8654f8bc72f883429a070":[6,0,2,0,55,2],
-"structMRResolveMeshDegenSettings.html#aaca7eab20af75f05a9c80d319d272697":[6,0,2,0,55,3]
+"structMRResolveMeshDegenSettings.html#a8ae976fcf6c01ae956769a1e25746315":[6,0,2,0,55,1]
 };

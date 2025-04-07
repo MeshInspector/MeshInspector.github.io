@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1ToolPathParams.html#a290865e63260a699f02e17210427d220":[6,0,2,0,1,676,7],
+"structMR_1_1ToolPathParams.html#a369d0d2f955fa0ff8c3d1f01c5d78679":[6,0,1,0,1,692,0],
 "structMR_1_1ToolPathParams.html#a369d0d2f955fa0ff8c3d1f01c5d78679":[6,0,2,0,1,676,0],
 "structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,1,0,1,692,10],
 "structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,2,0,1,676,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1TriangleSegmentIntersectResult.html#a44ebc6eac0ba7a7421c713970a69f480":[6,0,2,0,1,696,0],
 "structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8":[6,0,1,0,1,712,2],
 "structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8":[6,0,2,0,1,696,2],
-"structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[6,0,1,0,1,712,1],
-"structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[6,0,2,0,1,696,1],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,0,1,0,1,37,0]
+"structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[6,0,1,0,1,712,1]
 };

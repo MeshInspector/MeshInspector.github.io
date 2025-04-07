@@ -180,6 +180,8 @@ Classes</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a69efed3f38ce0f4014532dc5e1fad178" id="r_a69efed3f38ce0f4014532dc5e1fad178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjectVoxels.html">ObjectVoxels</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69efed3f38ce0f4014532dc5e1fad178">createObjectVoxels</a> (<a class="el" href="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html">VoxelsLoad.DicomVolumeAsVdb</a> dcm, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="separator:a69efed3f38ce0f4014532dc5e1fad178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d17c6e1d9e335e602b4a6873190d79" id="r_a20d17c6e1d9e335e602b4a6873190d79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d17c6e1d9e335e602b4a6873190d79">findDicomFoldersRecursively</a> (os.PathLike|str|bytes path)</td></tr>
+<tr class="separator:a20d17c6e1d9e335e602b4a6873190d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7cbafabb9b0502060f8171e5e12d859" id="r_ab7cbafabb9b0502060f8171e5e12d859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html">VoxelsLoad.RawParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7cbafabb9b0502060f8171e5e12d859">findRawParameters</a> (os.PathLike|str|bytes file)</td></tr>
 <tr class="separator:ab7cbafabb9b0502060f8171e5e12d859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67a60c1b66838a4950d7d848d0f42f2d" id="r_a67a60c1b66838a4950d7d848d0f42f2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid.html">std_vector_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67a60c1b66838a4950d7d848d0f42f2d">fromAnySupportedFormat</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
@@ -249,6 +251,32 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <pre class="fragment">converts DicomVolumeAsVdb in ObjectVoxels
+</pre> 
+</div>
+</div>
+<a id="a20d17c6e1d9e335e602b4a6873190d79" name="a20d17c6e1d9e335e602b4a6873190d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d17c6e1d9e335e602b4a6873190d79">&#9670;&#160;</a></span>findDicomFoldersRecursively()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a> mrmeshpy.VoxelsLoad.findDicomFoldersRecursively </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike | str | bytes</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">returns all the dicom folders in \\p path, searching recursively
 </pre> 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRDistanceMapSave_8h_source.html":[6,0,3,0,0,1,4,84],
 "MRDistanceMap_8h.html":[6,0,3,0,0,1,4,81],
 "MRDistanceMap_8h_source.html":[6,0,3,0,0,1,4,81],
 "MRDistanceMeasurementObject_8h.html":[6,0,3,0,0,1,4,85],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRGcodeLoad_8h_source.html":[6,0,3,0,0,1,4,118],
 "MRGcodeProcessor_8h.html":[6,0,3,0,0,1,4,119],
 "MRGcodeProcessor_8h_source.html":[6,0,3,0,0,1,4,119],
-"MRGeodesicPath_8h.html":[6,0,3,0,0,1,4,120],
-"MRGeodesicPath_8h_source.html":[6,0,3,0,0,1,4,120]
+"MRGeodesicPath_8h.html":[6,0,3,0,0,1,4,120]
 };

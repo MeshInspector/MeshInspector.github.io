@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1Vector4.html#aca06a481c53bf7bef1d1f701851ce9de":[6,0,0,0,12,2,30],
+"structMR_1_1Vector4.html#ad5b1e1a25f8e5ae5cdb4ec10942c8384":[6,0,0,0,12,2,25],
 "structMR_1_1Vector4.html#ae5b8ac0b6c0e0a39fc6983c0fea0a016":[6,0,0,0,12,2,3],
 "structMR_1_1Vector4.html#ae916672b6c36ebf43d945310616d6897":[6,0,0,0,12,2,21],
 "structMR_1_1Vector4.html#aecd18b3e13e9b87796242a04883f0592":[6,0,0,0,12,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html#af8a829af89a52b2fc7092ffa6f36f3e0":[6,0,2,0,1,761,0,0],
 "structMR_1_1VoxelsVolumeMinMax.html":[6,0,1,0,1,779],
 "structMR_1_1VoxelsVolumeMinMax.html":[6,0,2,0,1,763],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html":[6,0,1,0,1,783,0],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html":[6,0,2,0,1,767,0],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a":[6,0,1,0,1,783,0,9]
+"structMR_1_1WatershedGraph_1_1BasinInfo.html":[6,0,1,0,1,783,0]
 };

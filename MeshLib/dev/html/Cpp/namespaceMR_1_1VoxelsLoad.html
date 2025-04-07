@@ -195,6 +195,9 @@ Functions</h2></td></tr>
 <tr class="memitem:adbcdf154c89bce3f54684092bcc3f76e" id="r_adbcdf154c89bce3f54684092bcc3f76e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbcdf154c89bce3f54684092bcc3f76e">isDicomFolder</a> (const std::filesystem::path &amp;dirPath)</td></tr>
 <tr class="memdesc:adbcdf154c89bce3f54684092bcc3f76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if given folder contains at least one DICOM file  <br /></td></tr>
 <tr class="separator:adbcdf154c89bce3f54684092bcc3f76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c362015058e67cdc805cce6bfec0b8" id="r_a57c362015058e67cdc805cce6bfec0b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57c362015058e67cdc805cce6bfec0b8">findDicomFoldersRecursively</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:a57c362015058e67cdc805cce6bfec0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all the dicom folders in <code>path</code>, searching recursively  <br /></td></tr>
+<tr class="separator:a57c362015058e67cdc805cce6bfec0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97daff0d663d2d21303f92b32c475f1d" id="r_a97daff0d663d2d21303f92b32c475f1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97daff0d663d2d21303f92b32c475f1d">loadDicomFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:a97daff0d663d2d21303f92b32c475f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads full volume from single DICOM file (not a slice file) as SimpleVolumeMinMax.  <br /></td></tr>
 <tr class="separator:a97daff0d663d2d21303f92b32c475f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -338,6 +341,25 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>converts DicomVolumeAsVdb in <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> </p>
+
+</div>
+</div>
+<a id="a57c362015058e67cdc805cce6bfec0b8" name="a57c362015058e67cdc805cce6bfec0b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57c362015058e67cdc805cce6bfec0b8">&#9670;&#160;</a></span>findDicomFoldersRecursively()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; std::filesystem::path &gt; MR::VoxelsLoad::findDicomFoldersRecursively </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns all the dicom folders in <code>path</code>, searching recursively </p>
 
 </div>
 </div>

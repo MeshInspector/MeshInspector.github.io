@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,1,0,1,23,0,1],
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,2,0,1,13,0,1],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,1,0,1,23,1],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,2,0,1,13,1],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,1,0,1,23,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[6,0,1,0,1,26,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[6,0,2,0,1,15,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[6,0,1,0,1,26,0,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[6,0,2,0,1,15,0,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[6,0,1,0,1,26,0,2],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[6,0,2,0,1,15,0,2]
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[6,0,2,0,1,15,0,0]
 };
