@@ -165,11 +165,14 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5985046a04f74cccc9f62e82968a5671" id="r_a5985046a04f74cccc9f62e82968a5671"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5985046a04f74cccc9f62e82968a5671">threshold</a> = 0</td></tr>
 <tr class="separator:a5985046a04f74cccc9f62e82968a5671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fe9566d6f97f752f0d434d75a04ea53" id="r_a5fe9566d6f97f752f0d434d75a04ea53"><td class="memItemLeft" align="right" valign="top">const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fe9566d6f97f752f0d434d75a04ea53">region</a> = nullptr</td></tr>
-<tr class="memdesc:a5fe9566d6f97f752f0d434d75a04ea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be processed, it is constant and not updated.  <br /></td></tr>
+<tr class="memdesc:a5fe9566d6f97f752f0d434d75a04ea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only edges with left and right faces in this set can be flipped.  <br /></td></tr>
 <tr class="separator:a5fe9566d6f97f752f0d434d75a04ea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a826d54dbfadee964e4e8d815e3aeda22" id="r_a826d54dbfadee964e4e8d815e3aeda22"><td class="memItemLeft" align="right" valign="top">const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a826d54dbfadee964e4e8d815e3aeda22">notFlippable</a> = nullptr</td></tr>
 <tr class="memdesc:a826d54dbfadee964e4e8d815e3aeda22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <br /></td></tr>
 <tr class="separator:a826d54dbfadee964e4e8d815e3aeda22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fed3ef49b5eeb2b4c7df0c84bbfad79" id="r_a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fed3ef49b5eeb2b4c7df0c84bbfad79">vertRegion</a> = nullptr</td></tr>
+<tr class="memdesc:a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only edges with origin or destination in this set before or after flip can be flipped.  <br /></td></tr>
+<tr class="separator:a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a826d54dbfadee964e4e8d815e3aeda22" name="a826d54dbfadee964e4e8d815e3aeda22"></a>
@@ -200,7 +203,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Region on mesh to be processed, it is constant and not updated. </p>
+<p>Only edges with left and right faces in this set can be flipped. </p>
 
 </div>
 </div>
@@ -216,6 +219,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions </p>
+
+</div>
+</div>
+<a id="a8fed3ef49b5eeb2b4c7df0c84bbfad79" name="a8fed3ef49b5eeb2b4c7df0c84bbfad79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fed3ef49b5eeb2b4c7df0c84bbfad79">&#9670;&#160;</a></span>vertRegion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertBitSet* MR::IntrinsicDeloneSettings::vertRegion = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Only edges with origin or destination in this set before or after flip can be flipped. </p>
 
 </div>
 </div>

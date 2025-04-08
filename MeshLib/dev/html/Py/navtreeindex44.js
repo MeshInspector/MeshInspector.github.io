@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"classmrmeshpy_1_1Mesh.html#a489b1064de59960cd4a7eda54030c428":[6,1,0,0,2,456,83],
+"classmrmeshpy_1_1Mesh.html#a489b1064de59960cd4a7eda54030c428":[6,1,1,0,1,456,83],
+"classmrmeshpy_1_1Mesh.html#a4a5d5878ff2ebbbe2cd753a811433e86":[6,1,0,0,2,456,29],
+"classmrmeshpy_1_1Mesh.html#a4a5d5878ff2ebbbe2cd753a811433e86":[6,1,1,0,1,456,29],
+"classmrmeshpy_1_1Mesh.html#a4c9426034b17147734a7a1b79394afb2":[6,1,0,0,2,456,23],
+"classmrmeshpy_1_1Mesh.html#a4c9426034b17147734a7a1b79394afb2":[6,1,1,0,1,456,23],
+"classmrmeshpy_1_1Mesh.html#a50620cd3a4364a60b1c2af2eb2e464de":[6,1,0,0,2,456,116],
+"classmrmeshpy_1_1Mesh.html#a50620cd3a4364a60b1c2af2eb2e464de":[6,1,1,0,1,456,116],
 "classmrmeshpy_1_1Mesh.html#a50e48fb5a8940f4b9831f8240b0a8bd4":[6,1,0,0,2,456,57],
 "classmrmeshpy_1_1Mesh.html#a50e48fb5a8940f4b9831f8240b0a8bd4":[6,1,1,0,1,456,57],
 "classmrmeshpy_1_1Mesh.html#a515153a20c1b1d69932dcae3d8d38dbe":[6,1,0,0,2,456,101],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#a3781a35cb5cda208f91dddf84a413d95":[6,1,0,0,2,459,3,2],
 "classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#a3781a35cb5cda208f91dddf84a413d95":[6,1,1,0,1,459,3,2],
 "classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[6,1,0,0,2,459,3,0],
-"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[6,1,1,0,1,459,3,0],
-"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[6,1,0,0,2,459,3,3],
-"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[6,1,1,0,1,459,3,3],
-"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html":[6,1,0,0,2,459,4],
-"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html":[6,1,1,0,1,459,4],
-"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a4b8bfb2e9c2e140621b3ae843a76f869":[6,1,0,0,2,459,4,6],
-"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a4b8bfb2e9c2e140621b3ae843a76f869":[6,1,1,0,1,459,4,6],
-"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a59be0c9e4876322fedb862840fbe9b71":[6,1,0,0,2,459,4,2],
-"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a59be0c9e4876322fedb862840fbe9b71":[6,1,1,0,1,459,4,2]
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[6,1,1,0,1,459,3,0]
 };

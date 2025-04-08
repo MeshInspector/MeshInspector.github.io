@@ -1678,7 +1678,7 @@ var namespaceMR =
     [ "calculateSelectedPixelsInsidePolygon", "namespaceMR.html#a42e8e573c0aec9b5d59ac648be980eff", null ],
     [ "calculateSelectedPixelsNearPolygon", "namespaceMR.html#a7dbec46cb811f57b258ac04ea3fcf64a", null ],
     [ "calculateShellWeightsFromRegions", "namespaceMR.html#afafe91f7b0308f4c95fcaccf5bbce2ef", null ],
-    [ "canFlipEdge", "group__MeshDeloneGroup.html#ga5ada00ec4305252e448a7559a867e507", null ],
+    [ "canFlipEdge", "group__MeshDeloneGroup.html#ga17ac0bdda11a0bdfc51faab5936fa9b3", null ],
     [ "canMinimizePolynomial", "namespaceMR.html#a074ffc418d95b187b57843611aef56d6", null ],
     [ "canSolvePolynomial", "namespaceMR.html#a28db3c5e8ff0f5fe41f51c8376480d75", null ],
     [ "ccw", "namespaceMR.html#aadc1b40eb80e70a7e20d00559456217d", null ],

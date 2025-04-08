@@ -7,7 +7,7 @@ var MRMeshDelone_8h =
       [ "Must", "MRMeshDelone_8h.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be", null ]
     ] ],
     [ "bestQuadrangleDiagonal", "MRMeshDelone_8h.html#ga752afc6c65fff0dbc954d78ec58e4f2f", null ],
-    [ "canFlipEdge", "MRMeshDelone_8h.html#ga5ada00ec4305252e448a7559a867e507", null ],
+    [ "canFlipEdge", "MRMeshDelone_8h.html#ga17ac0bdda11a0bdfc51faab5936fa9b3", null ],
     [ "checkDeloneQuadrangle", "MRMeshDelone_8h.html#ga4d58a8dd7b19c7d5a403b4329ce793c7", null ],
     [ "checkDeloneQuadrangle", "MRMeshDelone_8h.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a", null ],
     [ "checkDeloneQuadrangleInMesh", "MRMeshDelone_8h.html#ga2d74fa7fe6b7d35734db515d33ba1f3f", null ],

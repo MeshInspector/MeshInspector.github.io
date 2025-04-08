@@ -80,7 +80,7 @@ var searchData=
   ['canceltooltip_77',['cancelTooltip',['../structMR_1_1UI_1_1SaveChangesPopupSettings.html#abf35d4bb097cddcc6c3ecb5bb79c1398',1,'MR::UI::SaveChangesPopupSettings']]],
   ['canconsumeevent_78',['canConsumeEvent',['../classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a51953f10f06ecbdf36131c6711172452',1,'MR::ImGuiMenu::UiRenderManagerImpl']]],
   ['cancreatevolume_79',['canCreateVolume',['../structMR_1_1PointsToMeshParameters.html#a822cdf3f2f86316327a0960f8057a642',1,'MR::PointsToMeshParameters']]],
-  ['canflipedge_80',['canFlipEdge',['../../Py/namespacemrmeshpy.html#a532f086eea414515a0748f736c43cfbb',1,'mrmeshpy::canFlipEdge()'],['../group__MeshDeloneGroup.html#ga5ada00ec4305252e448a7559a867e507',1,'MR::canFlipEdge()']]],
+  ['canflipedge_80',['canFlipEdge',['../../Py/namespacemrmeshpy.html#a92f0e4551236a81fc35de6013b753eb6',1,'mrmeshpy::canFlipEdge()'],['../group__MeshDeloneGroup.html#ga17ac0bdda11a0bdfc51faab5936fa9b3',1,'MR::canFlipEdge()']]],
   ['canminimizepolynomial_81',['canMinimizePolynomial',['../../Py/namespacemrmeshpy.html#a362cc3e9f026fb0f4a986b215d5b7197',1,'mrmeshpy::canMinimizePolynomial()'],['../namespaceMR.html#a074ffc418d95b187b57843611aef56d6',1,'MR::canMinimizePolynomial()']]],
   ['cannot_82',['Cannot',['../../Py/classmrmeshpy_1_1FlipEdge.html#adc2dd867b38233d2cc2797151550d9db',1,'mrmeshpy::FlipEdge::Cannot'],['../group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95a540db3cc7e3c40ec046c3a290f1523ba',1,'MR::Cannot']]],
   ['canonical_83',['canonical',['../../Py/classmrmeshpy_1_1MeshTriPoint.html#a7659c7ecd22d8d1fc01ab82e891710dc',1,'mrmeshpy::MeshTriPoint::canonical()'],['../structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7',1,'MR::MeshTriPoint::canonical()']]],

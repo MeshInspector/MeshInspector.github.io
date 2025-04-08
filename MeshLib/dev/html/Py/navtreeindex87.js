@@ -1,5 +1,13 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1Vector3f.html#afc4bf3968c106b2bb39bc838d1929292":[6,1,0,0,2,1015,8],
+"classmrmeshpy_1_1Vector3f.html#afc4bf3968c106b2bb39bc838d1929292":[6,1,1,0,1,1015,8],
+"classmrmeshpy_1_1Vector3i.html":[6,1,0,0,2,1016],
+"classmrmeshpy_1_1Vector3i.html":[6,1,1,0,1,1016],
+"classmrmeshpy_1_1Vector3i.html#a14814e0d9f72d76c71dc9f2c2fa5b9b6":[6,1,0,0,2,1016,10],
+"classmrmeshpy_1_1Vector3i.html#a14814e0d9f72d76c71dc9f2c2fa5b9b6":[6,1,1,0,1,1016,10],
+"classmrmeshpy_1_1Vector3i.html#a14d83d52ce712d583d641324d3c8dae7":[6,1,0,0,2,1016,4],
+"classmrmeshpy_1_1Vector3i.html#a14d83d52ce712d583d641324d3c8dae7":[6,1,1,0,1,1016,4],
 "classmrmeshpy_1_1Vector3i.html#a1c6bfef7d818e71e514d378c9194daac":[6,1,0,0,2,1016,20],
 "classmrmeshpy_1_1Vector3i.html#a1c6bfef7d818e71e514d378c9194daac":[6,1,1,0,1,1016,20],
 "classmrmeshpy_1_1Vector3i.html#a38386d1aef16e7a5f29384ae9f11fbed":[6,1,0,0,2,1016,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1Vector4f.html#a88e26254c7d071ae8fdf6ce95b3938e2":[6,1,0,0,2,1020,14],
 "classmrmeshpy_1_1Vector4f.html#a88e26254c7d071ae8fdf6ce95b3938e2":[6,1,1,0,1,1020,14],
 "classmrmeshpy_1_1Vector4f.html#a9383881cc91a869b511891ffb83f4d8d":[6,1,0,0,2,1020,15],
-"classmrmeshpy_1_1Vector4f.html#a9383881cc91a869b511891ffb83f4d8d":[6,1,1,0,1,1020,15],
-"classmrmeshpy_1_1Vector4f.html#a965ae2fef5ef7a28e92e394f2a600293":[6,1,0,0,2,1020,6],
-"classmrmeshpy_1_1Vector4f.html#a965ae2fef5ef7a28e92e394f2a600293":[6,1,0,0,2,1020,7],
-"classmrmeshpy_1_1Vector4f.html#a965ae2fef5ef7a28e92e394f2a600293":[6,1,1,0,1,1020,6],
-"classmrmeshpy_1_1Vector4f.html#a965ae2fef5ef7a28e92e394f2a600293":[6,1,1,0,1,1020,7],
-"classmrmeshpy_1_1Vector4f.html#a9e8556654e4f3383b7c1e827eedefa87":[6,1,0,0,2,1020,22],
-"classmrmeshpy_1_1Vector4f.html#a9e8556654e4f3383b7c1e827eedefa87":[6,1,1,0,1,1020,22],
-"classmrmeshpy_1_1Vector4f.html#aaf5c7abaea506ab9ac8a6811f65453d4":[6,1,0,0,2,1020,8],
-"classmrmeshpy_1_1Vector4f.html#aaf5c7abaea506ab9ac8a6811f65453d4":[6,1,1,0,1,1020,8]
+"classmrmeshpy_1_1Vector4f.html#a9383881cc91a869b511891ffb83f4d8d":[6,1,1,0,1,1020,15]
 };

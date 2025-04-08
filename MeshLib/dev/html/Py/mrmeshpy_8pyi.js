@@ -1338,7 +1338,7 @@ var mrmeshpy_8pyi =
     [ "calcPathLength", "mrmeshpy_8pyi.html#af36f792410e37d781366efa7f10d5371", null ],
     [ "calcPathMetric", "mrmeshpy_8pyi.html#ae271d480982cb3a1fa0aea2475401b32", null ],
     [ "calculateShellWeightsFromRegions", "mrmeshpy_8pyi.html#a6b9c77dd4ee4b444eeb520dc0849327c", null ],
-    [ "canFlipEdge", "mrmeshpy_8pyi.html#a532f086eea414515a0748f736c43cfbb", null ],
+    [ "canFlipEdge", "mrmeshpy_8pyi.html#a92f0e4551236a81fc35de6013b753eb6", null ],
     [ "canMinimizePolynomial", "mrmeshpy_8pyi.html#a362cc3e9f026fb0f4a986b215d5b7197", null ],
     [ "canSolvePolynomial", "mrmeshpy_8pyi.html#a255b18d7e4fcbb8bc774dec9c05e05e5", null ],
     [ "ccw", "mrmeshpy_8pyi.html#a6d82737b94149e43cc65ae695d97300d", null ],

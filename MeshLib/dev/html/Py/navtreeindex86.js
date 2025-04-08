@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1Vector2i.html#abe4f833daadd3bb00f7d8c2e6a7cc4f7":[6,1,0,0,2,1011,6],
+"classmrmeshpy_1_1Vector2i.html#abe4f833daadd3bb00f7d8c2e6a7cc4f7":[6,1,1,0,1,1011,6],
+"classmrmeshpy_1_1Vector2i.html#adeabcb4b9e34341e34db8a8644d6e700":[6,1,0,0,2,1011,17],
+"classmrmeshpy_1_1Vector2i.html#adeabcb4b9e34341e34db8a8644d6e700":[6,1,1,0,1,1011,17],
+"classmrmeshpy_1_1Vector2i.html#ae8297a29809d231bcbe6d6bb8ef90b7c":[6,1,0,0,2,1011,20],
+"classmrmeshpy_1_1Vector2i.html#ae8297a29809d231bcbe6d6bb8ef90b7c":[6,1,1,0,1,1011,20],
+"classmrmeshpy_1_1Vector2ll.html":[6,1,0,0,2,1012],
+"classmrmeshpy_1_1Vector2ll.html":[6,1,1,0,1,1012],
 "classmrmeshpy_1_1Vector2ll.html#a09a16d7b870eef32f2bcba3151b53204":[6,1,0,0,2,1012,17],
 "classmrmeshpy_1_1Vector2ll.html#a09a16d7b870eef32f2bcba3151b53204":[6,1,1,0,1,1012,17],
 "classmrmeshpy_1_1Vector2ll.html#a0c04f7f14cfddc5cff11fd1e4749f8f4":[6,1,0,0,2,1012,22],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1Vector3f.html#af553f967c80b92fcfb285d4e184010cb":[6,1,0,0,2,1015,34],
 "classmrmeshpy_1_1Vector3f.html#af553f967c80b92fcfb285d4e184010cb":[6,1,1,0,1,1015,34],
 "classmrmeshpy_1_1Vector3f.html#af8b9af42d9465039b9575c34b3c83a46":[6,1,0,0,2,1015,14],
-"classmrmeshpy_1_1Vector3f.html#af8b9af42d9465039b9575c34b3c83a46":[6,1,1,0,1,1015,14],
-"classmrmeshpy_1_1Vector3f.html#afc4bf3968c106b2bb39bc838d1929292":[6,1,0,0,2,1015,8],
-"classmrmeshpy_1_1Vector3f.html#afc4bf3968c106b2bb39bc838d1929292":[6,1,1,0,1,1015,8],
-"classmrmeshpy_1_1Vector3i.html":[6,1,0,0,2,1016],
-"classmrmeshpy_1_1Vector3i.html":[6,1,1,0,1,1016],
-"classmrmeshpy_1_1Vector3i.html#a14814e0d9f72d76c71dc9f2c2fa5b9b6":[6,1,0,0,2,1016,10],
-"classmrmeshpy_1_1Vector3i.html#a14814e0d9f72d76c71dc9f2c2fa5b9b6":[6,1,1,0,1,1016,10],
-"classmrmeshpy_1_1Vector3i.html#a14d83d52ce712d583d641324d3c8dae7":[6,1,0,0,2,1016,4],
-"classmrmeshpy_1_1Vector3i.html#a14d83d52ce712d583d641324d3c8dae7":[6,1,1,0,1,1016,4]
+"classmrmeshpy_1_1Vector3f.html#af8b9af42d9465039b9575c34b3c83a46":[6,1,1,0,1,1015,14]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[6,0,2,0,1,703,0],
+"structMR_1_1TypedFlatTree.html":[6,0,1,0,1,720],
+"structMR_1_1TypedFlatTree.html":[6,0,2,0,1,704],
 "structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[6,0,1,0,1,720,1],
 "structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[6,0,2,0,1,704,1],
 "structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[6,0,1,0,1,720,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db":[6,0,2,0,1,717,2],
 "structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[6,0,1,0,1,733,10],
 "structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[6,0,2,0,1,717,10],
-"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[6,0,1,0,1,733,13],
-"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[6,0,2,0,1,717,13],
-"structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19":[6,0,1,0,1,733,1],
-"structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19":[6,0,2,0,1,717,1]
+"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[6,0,1,0,1,733,13]
 };

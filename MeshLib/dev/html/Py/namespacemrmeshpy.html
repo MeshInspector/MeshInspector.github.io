@@ -2628,8 +2628,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae271d480982cb3a1fa0aea2475401b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9c77dd4ee4b444eeb520dc0849327c" id="r_a6b9c77dd4ee4b444eeb520dc0849327c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9c77dd4ee4b444eeb520dc0849327c">calculateShellWeightsFromRegions</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html">std_vector_WeightedPointsShellParametersRegions_Region</a> regions, float interpolationDist)</td></tr>
 <tr class="separator:a6b9c77dd4ee4b444eeb520dc0849327c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a532f086eea414515a0748f736c43cfbb" id="r_a532f086eea414515a0748f736c43cfbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FlipEdge.html">FlipEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a532f086eea414515a0748f736c43cfbb">canFlipEdge</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> edge, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> notFlippable)</td></tr>
-<tr class="separator:a532f086eea414515a0748f736c43cfbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f0e4551236a81fc35de6013b753eb6" id="r_a92f0e4551236a81fc35de6013b753eb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FlipEdge.html">FlipEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f0e4551236a81fc35de6013b753eb6">canFlipEdge</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> edge, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> notFlippable=None, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> vertRegion=None)</td></tr>
+<tr class="separator:a92f0e4551236a81fc35de6013b753eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a362cc3e9f026fb0f4a986b215d5b7197" id="r_a362cc3e9f026fb0f4a986b215d5b7197"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a362cc3e9f026fb0f4a986b215d5b7197">canMinimizePolynomial</a> (int degree)</td></tr>
 <tr class="separator:a362cc3e9f026fb0f4a986b215d5b7197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a255b18d7e4fcbb8bc774dec9c05e05e5" id="r_a255b18d7e4fcbb8bc774dec9c05e05e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255b18d7e4fcbb8bc774dec9c05e05e5">canSolvePolynomial</a> (int degree)</td></tr>
@@ -7926,8 +7926,8 @@ in ccw order from the vector tip
 </pre> 
 </div>
 </div>
-<a id="a532f086eea414515a0748f736c43cfbb" name="a532f086eea414515a0748f736c43cfbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a532f086eea414515a0748f736c43cfbb">&#9670;&#160;</a></span>canFlipEdge()</h2>
+<a id="a92f0e4551236a81fc35de6013b753eb6" name="a92f0e4551236a81fc35de6013b753eb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f0e4551236a81fc35de6013b753eb6">&#9670;&#160;</a></span>canFlipEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7945,12 +7945,17 @@ in ccw order from the vector tip
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>notFlippable</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>notFlippable</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

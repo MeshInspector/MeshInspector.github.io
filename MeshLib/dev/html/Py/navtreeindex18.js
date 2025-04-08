@@ -140,10 +140,14 @@ var NAVTREEINDEX18 =
 "classmrmeshpy_1_1DeloneSettings.html#a90339f6a8aa00ae65e73579898f5499c":[6,1,1,0,1,178,0],
 "classmrmeshpy_1_1DeloneSettings.html#aa08178988f1e7304096ad7e641b0f91d":[6,1,0,0,2,178,6],
 "classmrmeshpy_1_1DeloneSettings.html#aa08178988f1e7304096ad7e641b0f91d":[6,1,1,0,1,178,6],
+"classmrmeshpy_1_1DeloneSettings.html#aa9d70190b18a745faad143325f8392c5":[6,1,0,0,2,178,13],
+"classmrmeshpy_1_1DeloneSettings.html#aa9d70190b18a745faad143325f8392c5":[6,1,1,0,1,178,13],
+"classmrmeshpy_1_1DeloneSettings.html#aadefc9bb5c15a729e4e1fd4a80b72f11":[6,1,0,0,2,178,14],
+"classmrmeshpy_1_1DeloneSettings.html#aadefc9bb5c15a729e4e1fd4a80b72f11":[6,1,1,0,1,178,14],
 "classmrmeshpy_1_1DeloneSettings.html#ae5eec09e4ba1a3a836b8d460a42458d8":[6,1,0,0,2,178,12],
 "classmrmeshpy_1_1DeloneSettings.html#ae5eec09e4ba1a3a836b8d460a42458d8":[6,1,1,0,1,178,12],
-"classmrmeshpy_1_1DeloneSettings.html#aefa34767ed1eccc70cff5e539329d181":[6,1,0,0,2,178,2],
-"classmrmeshpy_1_1DeloneSettings.html#aefa34767ed1eccc70cff5e539329d181":[6,1,1,0,1,178,2],
+"classmrmeshpy_1_1DeloneSettings.html#af8904d9e6a46b4093ed7983f36afe874":[6,1,0,0,2,178,2],
+"classmrmeshpy_1_1DeloneSettings.html#af8904d9e6a46b4093ed7983f36afe874":[6,1,1,0,1,178,2],
 "classmrmeshpy_1_1DenoiseViaNormalsSettings.html":[6,1,0,0,2,179],
 "classmrmeshpy_1_1DenoiseViaNormalsSettings.html":[6,1,1,0,1,179],
 "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a02ca079cf9887b3c412466bdb5b9a92b":[6,1,0,0,2,179,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "classmrmeshpy_1_1DepthFunction.html#a7ddbfc7ec591e66354f88c55639d7f20":[6,1,0,0,2,182,12],
 "classmrmeshpy_1_1DepthFunction.html#a7ddbfc7ec591e66354f88c55639d7f20":[6,1,1,0,1,182,12],
 "classmrmeshpy_1_1DepthFunction.html#a80eb933acbe6565f2182de999588391a":[6,1,0,0,2,182,3],
-"classmrmeshpy_1_1DepthFunction.html#a80eb933acbe6565f2182de999588391a":[6,1,1,0,1,182,3],
-"classmrmeshpy_1_1DepthFunction.html#a8fa22621b4273fbaad57f91a0f6ecf1a":[6,1,0,0,2,182,10],
-"classmrmeshpy_1_1DepthFunction.html#a8fa22621b4273fbaad57f91a0f6ecf1a":[6,1,1,0,1,182,10],
-"classmrmeshpy_1_1DepthFunction.html#a981d93d7ca589681f88570c315a3ed63":[6,1,0,0,2,182,4],
-"classmrmeshpy_1_1DepthFunction.html#a981d93d7ca589681f88570c315a3ed63":[6,1,1,0,1,182,4]
+"classmrmeshpy_1_1DepthFunction.html#a80eb933acbe6565f2182de999588391a":[6,1,1,0,1,182,3]
 };

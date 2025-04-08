@@ -138,7 +138,7 @@ var searchData=
   ['vertpathinfomap_135',['VertPathInfoMap',['../namespacemrmeshpy.html#a55eec62f4b9351f5b5f6fb12331aaa12',1,'mrmeshpy']]],
   ['vertposbuffer_5f_136',['vertPosBuffer_',['../../Cpp/classMR_1_1RenderMeshObject.html#a8f3dc8d13b36124134b86d4e81519767',1,'MR::RenderMeshObject']]],
   ['vertpossize_5f_137',['vertPosSize_',['../../Cpp/classMR_1_1RenderMeshObject.html#ad8c179bd9f2914459146986ba590f4c2',1,'MR::RenderMeshObject']]],
-  ['vertregion_138',['vertRegion',['../../Cpp/structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752',1,'MR::RefineParameters']]],
+  ['vertregion_138',['vertRegion',['../../Cpp/structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8',1,'MR::DeloneSettings::vertRegion'],['../../Cpp/structMR_1_1IntrinsicDeloneSettings.html#a8fed3ef49b5eeb2b4c7df0c84bbfad79',1,'MR::IntrinsicDeloneSettings::vertRegion'],['../../Cpp/structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752',1,'MR::RefineParameters::vertRegion']]],
   ['verts_139',['verts',['../../Cpp/structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a0434ff60661d531d1c6de4e6328c3770',1,'MR::WeightedPointsShellParametersRegions::Region::verts'],['../../Cpp/structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8',1,'MR::UnorientedTriangle::verts']]],
   ['vertscolormap_140',['VertsColorMap',['../classmrmeshpy_1_1ColoringType.html#a9ceaba40388b05761221916a5da06948',1,'mrmeshpy::ColoringType']]],
   ['vertscolormap_5f_141',['vertsColorMap_',['../../Cpp/classMR_1_1ObjectLinesHolder.html#aebf8fd3ebbe9baca5e1890a03da63db7',1,'MR::ObjectLinesHolder::vertsColorMap_'],['../../Cpp/classMR_1_1ObjectPointsHolder.html#a3bea7e24940446fdc81e38da2f8db14c',1,'MR::ObjectPointsHolder::vertsColorMap_']]],
