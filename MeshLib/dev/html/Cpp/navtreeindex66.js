@@ -1,5 +1,8 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,0,2],
+"structMR_1_1Cone3ApproximationParams.html":[6,0,1,0,1,147],
+"structMR_1_1Cone3ApproximationParams.html":[6,0,2,0,1,131],
 "structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,1,0,1,147,2],
 "structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,2,0,1,131,2],
 "structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,1,0,1,147,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[6,0,1,0,1,180,0],
 "structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[6,0,2,0,1,164,0],
 "structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[6,0,1,0,1,180,1],
-"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[6,0,2,0,1,164,1],
-"structMR_1_1DirectoryIterator.html":[6,0,1,0,1,181],
-"structMR_1_1DirectoryIterator.html":[6,0,2,0,1,165],
-"structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[6,0,1,0,1,181,0]
+"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[6,0,2,0,1,164,1]
 };

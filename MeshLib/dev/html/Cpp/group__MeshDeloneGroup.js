@@ -16,7 +16,10 @@ var group__MeshDeloneGroup =
     [ "MR::checkDeloneQuadrangle", "group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7", null ],
     [ "MR::checkDeloneQuadrangle", "group__MeshDeloneGroup.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a", null ],
     [ "MR::checkDeloneQuadrangleInMesh", "group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f", null ],
-    [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#gaf6e41ac9014b981ef9aaeaba29a2c31b", null ],
-    [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#ga1c91382501f42936363363e26c560218", null ],
-    [ "MR::makeDeloneOriginRing", "group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d", null ]
+    [ "MR::checkDeloneQuadrangleInMesh", "group__MeshDeloneGroup.html#ga7f0776ed8d7398131ea482b6ed7d84c6", null ],
+    [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#ga019b5724cb66137386f7769a26dc7292", null ],
+    [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d", null ],
+    [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#ga5ae5dd28b839b5244d2464da8f51fa2b", null ],
+    [ "MR::makeDeloneOriginRing", "group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d", null ],
+    [ "MR::makeDeloneOriginRing", "group__MeshDeloneGroup.html#ga0a9e9023f129516daf5b28bfb921ae73", null ]
 ];

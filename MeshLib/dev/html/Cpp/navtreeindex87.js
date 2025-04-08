@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc":[6,0,1,0,1,761,1],
+"structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc":[6,0,2,0,1,745,1],
+"structMR_1_1ViewportLinesWithColors.html#acc2e27115a832552e0ac1e4768ba83cc":[6,0,1,0,1,761,0],
 "structMR_1_1ViewportLinesWithColors.html#acc2e27115a832552e0ac1e4768ba83cc":[6,0,2,0,1,745,0],
 "structMR_1_1ViewportPointsWithColors.html":[6,0,1,0,1,764],
 "structMR_1_1ViewportPointsWithColors.html":[6,0,2,0,1,748],
@@ -246,8 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a023792341d8f4da39b92ab6ad0b7c90b":[6,0,1,0,1,787,0,1],
 "structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a023792341d8f4da39b92ab6ad0b7c90b":[6,0,2,0,1,771,0,1],
 "structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a0434ff60661d531d1c6de4e6328c3770":[6,0,1,0,1,787,0,0],
-"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a0434ff60661d531d1c6de4e6328c3770":[6,0,2,0,1,771,0,0],
-"structMR_1_1WeightedPointsToDistanceVolumeParams.html":[6,0,1,0,1,788],
-"structMR_1_1WeightedPointsToDistanceVolumeParams.html":[6,0,2,0,1,772],
-"structMR_1_1WeightedPointsToDistanceVolumeParams.html#a02b63d794995c40f155f4567fc3abb40":[6,0,1,0,1,788,0]
+"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a0434ff60661d531d1c6de4e6328c3770":[6,0,2,0,1,771,0,0]
 };

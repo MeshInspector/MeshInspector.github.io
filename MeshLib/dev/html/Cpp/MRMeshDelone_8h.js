@@ -11,7 +11,10 @@ var MRMeshDelone_8h =
     [ "checkDeloneQuadrangle", "MRMeshDelone_8h.html#ga4d58a8dd7b19c7d5a403b4329ce793c7", null ],
     [ "checkDeloneQuadrangle", "MRMeshDelone_8h.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a", null ],
     [ "checkDeloneQuadrangleInMesh", "MRMeshDelone_8h.html#ga2d74fa7fe6b7d35734db515d33ba1f3f", null ],
-    [ "makeDeloneEdgeFlips", "MRMeshDelone_8h.html#gaf6e41ac9014b981ef9aaeaba29a2c31b", null ],
-    [ "makeDeloneEdgeFlips", "MRMeshDelone_8h.html#ga1c91382501f42936363363e26c560218", null ],
-    [ "makeDeloneOriginRing", "MRMeshDelone_8h.html#gabeff8ba7d73b606469f46a5c0248606d", null ]
+    [ "checkDeloneQuadrangleInMesh", "MRMeshDelone_8h.html#ga7f0776ed8d7398131ea482b6ed7d84c6", null ],
+    [ "makeDeloneEdgeFlips", "MRMeshDelone_8h.html#ga019b5724cb66137386f7769a26dc7292", null ],
+    [ "makeDeloneEdgeFlips", "MRMeshDelone_8h.html#gaecb63f47c6fee764f4c89770c62a446d", null ],
+    [ "makeDeloneEdgeFlips", "MRMeshDelone_8h.html#ga5ae5dd28b839b5244d2464da8f51fa2b", null ],
+    [ "makeDeloneOriginRing", "MRMeshDelone_8h.html#gabeff8ba7d73b606469f46a5c0248606d", null ],
+    [ "makeDeloneOriginRing", "MRMeshDelone_8h.html#ga0a9e9023f129516daf5b28bfb921ae73", null ]
 ];

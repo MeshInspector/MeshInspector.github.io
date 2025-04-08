@@ -1,5 +1,8 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1UnitSettings.html#aefbc07263247d17b42b9b520c287901c":[6,0,1,0,1,39,3],
+"namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee":[6,0,1,0,1,39,4],
+"namespaceMR_1_1VoxelsLoad.html":[6,0,1,0,1,40],
 "namespaceMR_1_1VoxelsLoad.html#a279a152a57f0cd1d7f680c48cc341687":[6,0,1,0,1,40,27],
 "namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9":[6,0,1,0,1,40,26],
 "namespaceMR_1_1VoxelsLoad.html#a4461fa0856c7f24094e4b923f7ddd75f":[6,0,1,0,1,40,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX62 =
 "structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[6,0,2,0,21,1],
 "structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[6,0,2,0,21,4],
 "structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[6,0,2,0,21,3],
-"structMRFixSelfIntersectionsSettings.html#a9eabd5534d3638bdf13a009200ffe2eb":[6,0,2,0,21,5],
-"structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[6,0,2,0,21,0],
-"structMRGeneralOffsetParameters.html":[6,0,2,0,22],
-"structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,22,0]
+"structMRFixSelfIntersectionsSettings.html#a9eabd5534d3638bdf13a009200ffe2eb":[6,0,2,0,21,5]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1Quaternion.html#ab2b1ae64873308ff0f9efd8dbcffcde6":[6,0,0,0,20,21],
+"structMR_1_1Quaternion.html#abfbf2dd877c3cf929788c7f24710328b":[6,0,0,0,20,6],
+"structMR_1_1Quaternion.html#ac419a0f315e99dc10b1827824e09cddf":[6,0,0,0,20,15],
 "structMR_1_1Quaternion.html#ac98a801cf03ee64da5665501c8e7b7d8":[6,0,0,0,20,12],
 "structMR_1_1Quaternion.html#ad9b251ccd51dd9ea86e791f559ba00b1":[6,0,0,0,20,14],
 "structMR_1_1Quaternion.html#adb5df4281ceff5b0f0e031a7102a9a9e":[6,0,0,0,20,25],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,1,0,1,580,4],
 "structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,2,0,1,564,4],
 "structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,1,0,1,580,1],
-"structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,2,0,1,564,1],
-"structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2":[6,0,1,0,1,580,3],
-"structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2":[6,0,2,0,1,564,3],
-"structMR_1_1RibbonSchema.html":[6,0,1,0,1,592]
+"structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,2,0,1,564,1]
 };

@@ -185,15 +185,22 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2d74fa7fe6b7d35734db515d33ba1f3f" id="r_ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d74fa7fe6b7d35734db515d33ba1f3f">MR::checkDeloneQuadrangleInMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId edge, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, float *deviationSqAfterFlip=nullptr)</td></tr>
 <tr class="memdesc:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared surface deviation after flip is written here (at least when the function returns false)  <br /></td></tr>
 <tr class="separator:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f0776ed8d7398131ea482b6ed7d84c6" id="r_ga7f0776ed8d7398131ea482b6ed7d84c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f0776ed8d7398131ea482b6ed7d84c6">MR::checkDeloneQuadrangleInMesh</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, EdgeId edge, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, float *deviationSqAfterFlip=nullptr)</td></tr>
+<tr class="memdesc:ga7f0776ed8d7398131ea482b6ed7d84c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared surface deviation after flip is written here (at least when the function returns false)  <br /></td></tr>
+<tr class="separator:ga7f0776ed8d7398131ea482b6ed7d84c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga752afc6c65fff0dbc954d78ec58e4f2f" id="r_ga752afc6c65fff0dbc954d78ec58e4f2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga752afc6c65fff0dbc954d78ec58e4f2f">MR::bestQuadrangleDiagonal</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d)</td></tr>
 <tr class="separator:ga752afc6c65fff0dbc954d78ec58e4f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabeff8ba7d73b606469f46a5c0248606d" id="r_gabeff8ba7d73b606469f46a5c0248606d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabeff8ba7d73b606469f46a5c0248606d">MR::makeDeloneOriginRing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId e, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gabeff8ba7d73b606469f46a5c0248606d"><td class="mdescLeft">&#160;</td><td class="mdescRight">improves mesh triangulation in a ring of vertices with common origin and represented by edge e  <br /></td></tr>
 <tr class="separator:gabeff8ba7d73b606469f46a5c0248606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c91382501f42936363363e26c560218" id="r_ga1c91382501f42936363363e26c560218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c91382501f42936363363e26c560218">MR::makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, int numIters=1, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
-<tr class="separator:ga1c91382501f42936363363e26c560218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf6e41ac9014b981ef9aaeaba29a2c31b" id="r_gaf6e41ac9014b981ef9aaeaba29a2c31b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6e41ac9014b981ef9aaeaba29a2c31b">MR::makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1EdgeLengthMesh.html">EdgeLengthMesh</a> &amp;mesh, const <a class="el" href="structMR_1_1IntrinsicDeloneSettings.html">IntrinsicDeloneSettings</a> &amp;settings={}, int numIters=1, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
-<tr class="separator:gaf6e41ac9014b981ef9aaeaba29a2c31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a9e9023f129516daf5b28bfb921ae73" id="r_ga0a9e9023f129516daf5b28bfb921ae73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a9e9023f129516daf5b28bfb921ae73">MR::makeDeloneOriginRing</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, EdgeId e, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga0a9e9023f129516daf5b28bfb921ae73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaecb63f47c6fee764f4c89770c62a446d" id="r_gaecb63f47c6fee764f4c89770c62a446d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecb63f47c6fee764f4c89770c62a446d">MR::makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, int numIters=1, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCallback={})</td></tr>
+<tr class="separator:gaecb63f47c6fee764f4c89770c62a446d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ae5dd28b839b5244d2464da8f51fa2b" id="r_ga5ae5dd28b839b5244d2464da8f51fa2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ae5dd28b839b5244d2464da8f51fa2b">MR::makeDeloneEdgeFlips</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, int numIters=1, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCallback={})</td></tr>
+<tr class="separator:ga5ae5dd28b839b5244d2464da8f51fa2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga019b5724cb66137386f7769a26dc7292" id="r_ga019b5724cb66137386f7769a26dc7292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga019b5724cb66137386f7769a26dc7292">MR::makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1EdgeLengthMesh.html">EdgeLengthMesh</a> &amp;mesh, const <a class="el" href="structMR_1_1IntrinsicDeloneSettings.html">IntrinsicDeloneSettings</a> &amp;settings={}, int numIters=1, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCallback={})</td></tr>
+<tr class="separator:ga019b5724cb66137386f7769a26dc7292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><a href="https:///en.wikipedia.org/wiki/Boris_Delaunay">https:///en.wikipedia.org/wiki/Boris_Delaunay</a> </p>
@@ -407,7 +414,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga2d74fa7fe6b7d35734db515d33ba1f3f" name="ga2d74fa7fe6b7d35734db515d33ba1f3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2d74fa7fe6b7d35734db515d33ba1f3f">&#9670;&#160;</a></span>checkDeloneQuadrangleInMesh()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d74fa7fe6b7d35734db515d33ba1f3f">&#9670;&#160;</a></span>checkDeloneQuadrangleInMesh() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,8 +455,54 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaf6e41ac9014b981ef9aaeaba29a2c31b" name="gaf6e41ac9014b981ef9aaeaba29a2c31b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf6e41ac9014b981ef9aaeaba29a2c31b">&#9670;&#160;</a></span>makeDeloneEdgeFlips() <span class="overload">[1/2]</span></h2>
+<a id="ga7f0776ed8d7398131ea482b6ed7d84c6" name="ga7f0776ed8d7398131ea482b6ed7d84c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f0776ed8d7398131ea482b6ed7d84c6">&#9670;&#160;</a></span>checkDeloneQuadrangleInMesh() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::checkDeloneQuadrangleInMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>edge</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>deviationSqAfterFlip</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>squared surface deviation after flip is written here (at least when the function returns false) </p>
+
+</div>
+</div>
+<a id="ga019b5724cb66137386f7769a26dc7292" name="ga019b5724cb66137386f7769a26dc7292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga019b5724cb66137386f7769a26dc7292">&#9670;&#160;</a></span>makeDeloneEdgeFlips() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +525,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -487,8 +540,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga1c91382501f42936363363e26c560218" name="ga1c91382501f42936363363e26c560218"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1c91382501f42936363363e26c560218">&#9670;&#160;</a></span>makeDeloneEdgeFlips() <span class="overload">[2/2]</span></h2>
+<a id="gaecb63f47c6fee764f4c89770c62a446d" name="gaecb63f47c6fee764f4c89770c62a446d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaecb63f47c6fee764f4c89770c62a446d">&#9670;&#160;</a></span>makeDeloneEdgeFlips() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,7 +564,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -526,8 +579,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga5ae5dd28b839b5244d2464da8f51fa2b" name="ga5ae5dd28b839b5244d2464da8f51fa2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ae5dd28b839b5244d2464da8f51fa2b">&#9670;&#160;</a></span>makeDeloneEdgeFlips() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::makeDeloneEdgeFlips </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gabeff8ba7d73b606469f46a5c0248606d" name="gabeff8ba7d73b606469f46a5c0248606d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabeff8ba7d73b606469f46a5c0248606d">&#9670;&#160;</a></span>makeDeloneOriginRing()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabeff8ba7d73b606469f46a5c0248606d">&#9670;&#160;</a></span>makeDeloneOriginRing() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -551,6 +640,37 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>improves mesh triangulation in a ring of vertices with common origin and represented by edge e </p>
+
+</div>
+</div>
+<a id="ga0a9e9023f129516daf5b28bfb921ae73" name="ga0a9e9023f129516daf5b28bfb921ae73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a9e9023f129516daf5b28bfb921ae73">&#9670;&#160;</a></span>makeDeloneOriginRing() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::makeDeloneOriginRing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
