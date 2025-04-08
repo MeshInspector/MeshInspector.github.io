@@ -1,5 +1,12 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMeshFixer_8h.html#ab277c96dbcbb480f26f141382fdb07b9":[6,0,3,0,0,1,5,34,2],
+"MRMeshC_2MRMeshFixer_8h.html#adbe79cda5c1b27e8b6611872a6bce03d":[6,0,3,0,0,1,5,34,5],
+"MRMeshC_2MRMeshFixer_8h.html#af73df5e06e4231e61d2a17c0427b46af":[6,0,3,0,0,1,5,34,1],
+"MRMeshC_2MRMeshFixer_8h_source.html":[6,0,3,0,0,1,5,34],
+"MRMeshC_2MRMeshFwd_8h.html":[6,0,3,0,0,1,5,35],
+"MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e":[6,0,3,0,0,1,5,35,0],
+"MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753":[6,0,3,0,0,1,5,35,11],
 "MRMeshC_2MRMeshFwd_8h.html#a1efab8f165542a85e22ea5e2d0aa18b2":[6,0,3,0,0,1,5,35,5],
 "MRMeshC_2MRMeshFwd_8h.html#a4154c318451cdd0d2aff3d2c7686f0ce":[6,0,3,0,0,1,5,35,12],
 "MRMeshC_2MRMeshFwd_8h.html#a466dd32565f9e71946208ad0428aa09d":[6,0,3,0,0,1,5,35,13],
@@ -242,12 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRRegionBoundary_8h_source.html":[6,0,3,0,0,1,5,60],
 "MRMeshC_2MRRelaxParams_8h.html":[6,0,3,0,0,1,5,61],
 "MRMeshC_2MRRelaxParams_8h.html#a0f65d0e2210e1e07f92ab8663eefb2d4":[6,0,3,0,0,1,5,61,2],
-"MRMeshC_2MRRelaxParams_8h.html#ae32cdaa62ff95d92145485d3b72a8cd6":[6,0,3,0,0,1,5,61,1],
-"MRMeshC_2MRRelaxParams_8h_source.html":[6,0,3,0,0,1,5,61],
-"MRMeshC_2MRSaveSettings_8h.html":[6,0,3,0,0,1,5,62],
-"MRMeshC_2MRSaveSettings_8h.html#a30308436301373e2f6bd36193a16931f":[6,0,3,0,0,1,5,62,1],
-"MRMeshC_2MRSaveSettings_8h.html#a756130ec0ffb3b0c1dde997339d1d39e":[6,0,3,0,0,1,5,62,2],
-"MRMeshC_2MRSaveSettings_8h_source.html":[6,0,3,0,0,1,5,62],
-"MRMeshC_2MRSignDetectionMode_8h.html":[6,0,3,0,0,1,5,63],
-"MRMeshC_2MRSignDetectionMode_8h.html#a5c022945bae0b165477f3543a605b77d":[6,0,3,0,0,1,5,63,0]
+"MRMeshC_2MRRelaxParams_8h.html#ae32cdaa62ff95d92145485d3b72a8cd6":[6,0,3,0,0,1,5,61,1]
 };

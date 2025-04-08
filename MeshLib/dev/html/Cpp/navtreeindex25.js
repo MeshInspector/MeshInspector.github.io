@@ -1,5 +1,12 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1IFastWindingNumber.html#a44bf69fbb5b7c37e5a0ff132a6137581":[6,0,1,0,1,283,3],
+"classMR_1_1IFastWindingNumber.html#a44bf69fbb5b7c37e5a0ff132a6137581":[6,0,2,0,1,267,3],
+"classMR_1_1IFastWindingNumber.html#a9a9a27eb86c9d023a286bcf963c03cb3":[6,0,1,0,1,283,4],
+"classMR_1_1IFastWindingNumber.html#a9a9a27eb86c9d023a286bcf963c03cb3":[6,0,2,0,1,267,4],
+"classMR_1_1IFastWindingNumber.html#aeb59990afd6d9382244508e9e250972d":[6,0,1,0,1,283,2],
+"classMR_1_1IFastWindingNumber.html#aeb59990afd6d9382244508e9e250972d":[6,0,2,0,1,267,2],
+"classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547":[6,0,1,0,1,283,0],
 "classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547":[6,0,2,0,1,267,0],
 "classMR_1_1IFastWindingNumberByParts.html":[6,0,1,0,1,284],
 "classMR_1_1IFastWindingNumberByParts.html":[6,0,2,0,1,268],
@@ -242,12 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#abe81f2bc5f5d5d248b672fc040a06273":[6,0,2,0,1,264,10],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac949ab40277168ce00d30192201f081d":[6,0,1,0,1,280,2],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac949ab40277168ce00d30192201f081d":[6,0,2,0,1,264,2],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac9bac36bf4fd46953310f51e4f9d8b93":[6,0,1,0,1,280,15],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac9bac36bf4fd46953310f51e4f9d8b93":[6,0,2,0,1,264,15],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ad5716389b9581ad0d14b34ccc055a1f0":[6,0,1,0,1,280,0],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ad5716389b9581ad0d14b34ccc055a1f0":[6,0,2,0,1,264,0],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ad654b03183f91df76bba60da1d094870":[6,0,1,0,1,280,6],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ad654b03183f91df76bba60da1d094870":[6,0,2,0,1,264,6],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#adfbe95d84a5fe62583e0d45b3d9acf43":[6,0,1,0,1,280,3],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#adfbe95d84a5fe62583e0d45b3d9acf43":[6,0,2,0,1,264,3]
+"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac9bac36bf4fd46953310f51e4f9d8b93":[6,0,1,0,1,280,15]
 };

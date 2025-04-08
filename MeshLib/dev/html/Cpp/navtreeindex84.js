@@ -1,5 +1,15 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[6,0,1,0,1,699,1],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[6,0,2,0,1,683,1],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a60ca4d5085ca1ee78b9390b9f7826bac":[6,0,1,0,1,699,3],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a60ca4d5085ca1ee78b9390b9f7826bac":[6,0,2,0,1,683,3],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[6,0,1,0,1,699,0],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[6,0,2,0,1,683,0],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[6,0,1,0,1,699,2],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[6,0,2,0,1,683,2],
+"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,1,0,1,700],
+"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,2,0,1,684],
 "structMR_1_1TouchpadRotateGestureEndListener.html#a406202fc3e70d82ed4e3f7912881b613":[6,0,1,0,1,700,0],
 "structMR_1_1TouchpadRotateGestureEndListener.html#a406202fc3e70d82ed4e3f7912881b613":[6,0,2,0,1,684,0],
 "structMR_1_1TouchpadRotateGestureEndListener.html#a52f630644781016b0f248164721be298":[6,0,1,0,1,700,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[6,0,1,0,1,719,0],
 "structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[6,0,2,0,1,703,0],
 "structMR_1_1TypedFlatTree.html":[6,0,1,0,1,720],
-"structMR_1_1TypedFlatTree.html":[6,0,2,0,1,704],
-"structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[6,0,1,0,1,720,1],
-"structMR_1_1TypedFlatTree.html#a3d41bfc0c348f8d528cde43bb62dbcde":[6,0,2,0,1,704,1],
-"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[6,0,1,0,1,720,2],
-"structMR_1_1TypedFlatTree.html#a72ce9a6cb00c38cf9a3993cc95fafcb7":[6,0,2,0,1,704,2],
-"structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[6,0,1,0,1,720,0],
-"structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[6,0,2,0,1,704,0],
-"structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,1,0,1,720,3],
-"structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,2,0,1,704,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,1,0,1,38,2],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,2,0,1,23,1]
+"structMR_1_1TypedFlatTree.html":[6,0,2,0,1,704]
 };

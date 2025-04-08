@@ -1,5 +1,15 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,2,0,1,622,0],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,1,0,1,638,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,2,0,1,622,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,1,0,1,638,6],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,2,0,1,622,6],
+"structMR_1_1ShellVertexInfo.html":[6,0,1,0,1,640],
+"structMR_1_1ShellVertexInfo.html":[6,0,2,0,1,624],
+"structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,1,0,1,640,1],
+"structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,2,0,1,624,1],
+"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,1,0,1,640,3],
 "structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,2,0,1,624,3],
 "structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,1,0,1,640,2],
 "structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,2,0,1,624,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1SymMatrix2.html":[6,0,0,0,7,4],
 "structMR_1_1SymMatrix2.html#a00825772702cbd97018eca7af85866ad":[6,0,0,0,7,4,12],
 "structMR_1_1SymMatrix2.html#a0d7b116cb57858e0b068a33b81aed7a7":[6,0,0,0,7,4,1],
-"structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232":[6,0,0,0,7,4,6],
-"structMR_1_1SymMatrix2.html#a2508bdc607f557d33ec49ff959cf1a3d":[6,0,0,0,7,4,0],
-"structMR_1_1SymMatrix2.html#a261caca745c8a5998fe4599fd9031b43":[6,0,0,0,7,4,15],
-"structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01":[6,0,0,0,7,4,20],
-"structMR_1_1SymMatrix2.html#a3f11254bd96f9ca0ab9b93bcb11a7506":[6,0,0,0,7,4,5],
-"structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2":[6,0,0,0,7,4,21],
-"structMR_1_1SymMatrix2.html#a4ec338b96049194a96390245466b6a46":[6,0,0,0,7,4,7],
-"structMR_1_1SymMatrix2.html#a55a77d7f0bbf6b2221a68f1b76439079":[6,0,0,0,7,4,10],
-"structMR_1_1SymMatrix2.html#a60e49e5bc0d3433cc7f57f72dd639257":[6,0,0,0,7,4,4],
-"structMR_1_1SymMatrix2.html#a670c0b0b5468ad0685c66438e965bb2a":[6,0,0,0,7,4,18],
-"structMR_1_1SymMatrix2.html#a7023f18d2ffbf60a3eb3b4cd2fe1ce18":[6,0,0,0,7,4,17]
+"structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232":[6,0,0,0,7,4,6]
 };

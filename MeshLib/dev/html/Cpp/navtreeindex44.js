@@ -1,5 +1,12 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1TouchpadController_1_1Handler.html#af1d038636cfb202e8e3709fc8518b6f2":[6,0,2,0,1,681,0,3],
+"classMR_1_1TransformControls.html":[6,0,1,0,1,709],
+"classMR_1_1TransformControls.html":[6,0,2,0,1,693],
+"classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c":[6,0,1,0,1,709,5],
+"classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c":[6,0,2,0,1,693,5],
+"classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b":[6,0,1,0,1,709,6],
+"classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b":[6,0,2,0,1,693,6],
 "classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae":[6,0,1,0,1,709,8],
 "classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae":[6,0,2,0,1,693,8],
 "classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb":[6,0,1,0,1,709,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620":[6,0,1,0,1,750,214],
 "classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620":[6,0,2,0,1,734,214],
 "classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0":[6,0,1,0,1,750,25],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0":[6,0,2,0,1,734,25],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a0f8baa14654b1f6ef00fed708c7f198a":[6,0,1,0,1,750,25,5],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a0f8baa14654b1f6ef00fed708c7f198a":[6,0,2,0,1,734,25,5],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a4a18f6017ff7015424784e907c933572":[6,0,1,0,1,750,25,6],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a4a18f6017ff7015424784e907c933572":[6,0,2,0,1,734,25,6],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a5c55840fe2a83a886590c780f0aa7031":[6,0,1,0,1,750,25,1],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a5c55840fe2a83a886590c780f0aa7031":[6,0,2,0,1,734,25,1],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0ab4efa1e1d0671dddbd78735a0bd24274":[6,0,1,0,1,750,25,3]
+"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0":[6,0,2,0,1,734,25]
 };

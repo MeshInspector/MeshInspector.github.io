@@ -1,5 +1,12 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712a":[6,0,2,0,1,123,3],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3":[6,0,1,0,1,139,3,0],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3":[6,0,2,0,1,123,3,0],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3":[6,0,1,0,1,139,3,1],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3":[6,0,2,0,1,123,3,1],
+"classMR_1_1ColorMapAggregator.html#ab824efbaafb7860d9d22e8166bb84a80":[6,0,1,0,1,139,9],
+"classMR_1_1ColorMapAggregator.html#ab824efbaafb7860d9d22e8166bb84a80":[6,0,2,0,1,123,9],
 "classMR_1_1ColorMapAggregator.html#ac67f25c8d9133cd6915063fa8e301fd6":[6,0,1,0,1,139,11],
 "classMR_1_1ColorMapAggregator.html#ac67f25c8d9133cd6915063fa8e301fd6":[6,0,2,0,1,123,11],
 "classMR_1_1ColorMapAggregator.html#af72490cd5097c80ebcf4fe9e28821f15":[6,0,1,0,1,139,12],
@@ -242,12 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1Config.html#a3388c3cd27c60f2c4a990ef889f58b70":[6,0,2,0,1,134,19],
 "classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f":[6,0,1,0,1,150,0],
 "classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f":[6,0,2,0,1,134,0],
-"classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3":[6,0,1,0,1,150,16],
-"classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3":[6,0,2,0,1,134,16],
-"classMR_1_1Config.html#a3bf71462e37500b8f9256e88b11c074f":[6,0,1,0,1,150,10],
-"classMR_1_1Config.html#a3bf71462e37500b8f9256e88b11c074f":[6,0,2,0,1,134,10],
-"classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16":[6,0,1,0,1,150,14],
-"classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16":[6,0,2,0,1,134,14],
-"classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca":[6,0,1,0,1,150,23],
-"classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca":[6,0,2,0,1,134,23]
+"classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3":[6,0,1,0,1,150,16]
 };

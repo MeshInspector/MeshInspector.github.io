@@ -1,5 +1,12 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Palette.html#a50944144ea783bb242d09a0601738ace":[6,0,1,0,1,464,20],
+"classMR_1_1Palette.html#a50944144ea783bb242d09a0601738ace":[6,0,2,0,1,448,20],
+"classMR_1_1Palette.html#a6c9a23975c5ee94598c7710c0812415b":[6,0,1,0,1,464,8],
+"classMR_1_1Palette.html#a6c9a23975c5ee94598c7710c0812415b":[6,0,2,0,1,448,8],
+"classMR_1_1Palette.html#a72d1c43c3aad43836eb3c088ae61e428":[6,0,1,0,1,464,24],
+"classMR_1_1Palette.html#a72d1c43c3aad43836eb3c088ae61e428":[6,0,2,0,1,448,24],
+"classMR_1_1Palette.html#a7514ec87eb2c7e744967a88cd20d715d":[6,0,1,0,1,464,14],
 "classMR_1_1Palette.html#a7514ec87eb2c7e744967a88cd20d715d":[6,0,2,0,1,448,14],
 "classMR_1_1Palette.html#a79ec1bbcff59caf42691d6cea60db1b7":[6,0,1,0,1,464,18],
 "classMR_1_1Palette.html#a79ec1bbcff59caf42691d6cea60db1b7":[6,0,2,0,1,448,18],
@@ -242,12 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1PluginUpdateOnChangeMeshPart.html":[6,0,2,0,1,467],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#a5c3907d5d352c381ea77f8c3081e136d":[6,0,1,0,1,483,1],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#a5c3907d5d352c381ea77f8c3081e136d":[6,0,2,0,1,467,1],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#a8966c139b8539e3583cf02308b060484":[6,0,1,0,1,483,0],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#a8966c139b8539e3583cf02308b060484":[6,0,2,0,1,467,0],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888":[6,0,1,0,1,483,2],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888":[6,0,2,0,1,467,2],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#ab8919af457390e1c709327e3828a8c6b":[6,0,1,0,1,483,3],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#ab8919af457390e1c709327e3828a8c6b":[6,0,2,0,1,467,3],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#af80c0adcc1ca6dfd7b24e4d98aed5dcc":[6,0,1,0,1,483,4],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#af80c0adcc1ca6dfd7b24e4d98aed5dcc":[6,0,2,0,1,467,4]
+"classMR_1_1PluginUpdateOnChangeMeshPart.html#a8966c139b8539e3583cf02308b060484":[6,0,1,0,1,483,0]
 };

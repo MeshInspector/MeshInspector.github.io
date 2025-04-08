@@ -191,6 +191,7 @@ var searchData=
   ['mtp_188',['mtp',['.././Cpp/structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2',1,'MR::MeshIntersectionResult::mtp'],['.././Cpp/structMR_1_1MeshPointAndDistance.html#a1a758547372340f32380f76222e7c0b0',1,'MR::MeshPointAndDistance::mtp'],['.././Cpp/structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1',1,'MR::MeshProjectionResult::mtp'],['.././Cpp/structMRMeshProjectionResult.html#af8a095ae9a4ca92d739e8ab15ac46100',1,'MRMeshProjectionResult::mtp'],['.././Cpp/structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41',1,'MR::SignedDistanceToMeshResult::mtp']]],
   ['multiobjssamples_189',['MultiObjsSamples',['.././Py/namespacemrmeshpy.html#abbc0b2f3edee217c8576d79b04f4932b',1,'mrmeshpy']]],
   ['multipleedgesresolvemode_190',['multipleEdgesResolveMode',['.././Cpp/structMRFillHoleParams.html#ad6d00d886b5618cbcb8961f55f2e7aa5',1,'MRFillHoleParams']]],
-  ['must_191',['Must',['.././Py/classmrmeshpy_1_1FlipEdge.html#a51227b5c8aa2841ecfa985044a000cb5',1,'mrmeshpy::FlipEdge']]],
-  ['mutualclosest_192',['mutualClosest',['.././Cpp/structMR_1_1ICPProperties.html#a229d248012276b39cb1c7102f4184f4c',1,'MR::ICPProperties::mutualClosest'],['.././Cpp/structMRICPProperties.html#ae0d73485e14b9caf033279eb35df4670',1,'MRICPProperties::mutualClosest']]]
+  ['multiselect_191',['multiselect',['.././Cpp/structMR_1_1detail_1_1FileDialogParameters.html#a51695476a145bef72ff2020a7995cbbc',1,'MR::detail::FileDialogParameters']]],
+  ['must_192',['Must',['.././Py/classmrmeshpy_1_1FlipEdge.html#a51227b5c8aa2841ecfa985044a000cb5',1,'mrmeshpy::FlipEdge']]],
+  ['mutualclosest_193',['mutualClosest',['.././Cpp/structMR_1_1ICPProperties.html#a229d248012276b39cb1c7102f4184f4c',1,'MR::ICPProperties::mutualClosest'],['.././Cpp/structMRICPProperties.html#ae0d73485e14b9caf033279eb35df4670',1,'MRICPProperties::mutualClosest']]]
 ];

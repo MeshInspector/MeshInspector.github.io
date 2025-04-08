@@ -1,5 +1,15 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[6,0,1,0,1,764,1],
+"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[6,0,2,0,1,748,1],
+"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[6,0,1,0,1,764,0],
+"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[6,0,2,0,1,748,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,1,0,1,757,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,2,0,1,741,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,1,0,1,757,0,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,2,0,1,741,0,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,1,0,1,757,0,1],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,2,0,1,741,0,1],
 "structMR_1_1Viewport_1_1Parameters.html":[6,0,1,0,1,757,1],
 "structMR_1_1Viewport_1_1Parameters.html":[6,0,2,0,1,741,1],
 "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b":[6,0,1,0,1,757,1,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1WeightedPointsToDistanceVolumeParams.html#a02b63d794995c40f155f4567fc3abb40":[6,0,1,0,1,788,0],
 "structMR_1_1WeightedPointsToDistanceVolumeParams.html#a02b63d794995c40f155f4567fc3abb40":[6,0,2,0,1,772,0],
 "structMR_1_1WeightedPointsToDistanceVolumeParams.html#a7c941a2632d373e7a58000dfd10845d8":[6,0,1,0,1,788,2],
-"structMR_1_1WeightedPointsToDistanceVolumeParams.html#a7c941a2632d373e7a58000dfd10845d8":[6,0,2,0,1,772,2],
-"structMR_1_1WeightedPointsToDistanceVolumeParams.html#af4317bb7a95593de716e574be2cfcfb6":[6,0,1,0,1,788,1],
-"structMR_1_1WeightedPointsToDistanceVolumeParams.html#af4317bb7a95593de716e574be2cfcfb6":[6,0,2,0,1,772,1],
-"structMR_1_1WeightedVertex.html":[6,0,1,0,1,789],
-"structMR_1_1WeightedVertex.html":[6,0,2,0,1,773],
-"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,1,0,1,789,1],
-"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,773,1],
-"structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,1,0,1,789,0],
-"structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,2,0,1,773,0],
-"structMR_1_1Writer.html":[6,0,1,0,1,790],
-"structMR_1_1Writer.html":[6,0,2,0,1,774]
+"structMR_1_1WeightedPointsToDistanceVolumeParams.html#a7c941a2632d373e7a58000dfd10845d8":[6,0,2,0,1,772,2]
 };

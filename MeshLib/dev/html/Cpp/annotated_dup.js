@@ -15,6 +15,7 @@ var annotated_dup =
         [ "Units", "namespaceMR_1_1detail_1_1Units.html", [
           [ "Empty", "structMR_1_1detail_1_1Units_1_1Empty.html", null ]
         ] ],
+        [ "FileDialogParameters", "structMR_1_1detail_1_1FileDialogParameters.html", "structMR_1_1detail_1_1FileDialogParameters" ],
         [ "FuncCallHelper", "classMR_1_1detail_1_1FuncCallHelper.html", "classMR_1_1detail_1_1FuncCallHelper" ],
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]

@@ -1,5 +1,12 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1ShortcutManager.html#a4342c4301200e65be8eb010636b8db8e":[6,0,2,0,1,627,15],
+"classMR_1_1ShortcutManager.html#a5e5ccda452d5473a8328af4b7003e4f3":[6,0,1,0,1,643,9],
+"classMR_1_1ShortcutManager.html#a5e5ccda452d5473a8328af4b7003e4f3":[6,0,2,0,1,627,9],
+"classMR_1_1ShortcutManager.html#a608ab9e3afbb9351ea419a3ae0215ab2":[6,0,1,0,1,643,8],
+"classMR_1_1ShortcutManager.html#a608ab9e3afbb9351ea419a3ae0215ab2":[6,0,2,0,1,627,8],
+"classMR_1_1ShortcutManager.html#a70996e2b27f24841fb75376870328103":[6,0,1,0,1,643,16],
+"classMR_1_1ShortcutManager.html#a70996e2b27f24841fb75376870328103":[6,0,2,0,1,627,16],
 "classMR_1_1ShortcutManager.html#a912f0a1bddab02d0a371cdf93d4729f1":[6,0,1,0,1,643,3],
 "classMR_1_1ShortcutManager.html#a912f0a1bddab02d0a371cdf93d4729f1":[6,0,2,0,1,627,3],
 "classMR_1_1ShortcutManager.html#a95af7d1cba13355b957e0dd270166269":[6,0,1,0,1,643,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1SurfacePointWidget.html#a13db908e8da8c97e871385cef92ef43d":[6,0,2,0,1,657,17],
 "classMR_1_1SurfacePointWidget.html#a1636e12784d40c8c0e9fd238fa08b998":[6,0,1,0,1,673,15],
 "classMR_1_1SurfacePointWidget.html#a1636e12784d40c8c0e9fd238fa08b998":[6,0,2,0,1,657,15],
-"classMR_1_1SurfacePointWidget.html#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59":[6,0,1,0,1,673,16],
-"classMR_1_1SurfacePointWidget.html#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59":[6,0,2,0,1,657,16],
-"classMR_1_1SurfacePointWidget.html#a2035a5c0ceddd1f622ce5574dd8c12dc":[6,0,1,0,1,673,23],
-"classMR_1_1SurfacePointWidget.html#a2035a5c0ceddd1f622ce5574dd8c12dc":[6,0,2,0,1,657,23],
-"classMR_1_1SurfacePointWidget.html#a4023f6d9ae5235d692afad4374b6134e":[6,0,1,0,1,673,18],
-"classMR_1_1SurfacePointWidget.html#a4023f6d9ae5235d692afad4374b6134e":[6,0,2,0,1,657,18],
-"classMR_1_1SurfacePointWidget.html#a67378b4ec7b94d338fe63c5d977dd35b":[6,0,1,0,1,673,14],
-"classMR_1_1SurfacePointWidget.html#a67378b4ec7b94d338fe63c5d977dd35b":[6,0,2,0,1,657,14]
+"classMR_1_1SurfacePointWidget.html#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59":[6,0,1,0,1,673,16]
 };

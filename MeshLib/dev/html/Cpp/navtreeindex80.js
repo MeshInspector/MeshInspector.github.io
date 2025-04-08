@@ -1,5 +1,15 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be":[6,0,0,0,20,16],
+"structMR_1_1RangeSize.html":[6,0,1,0,1,541],
+"structMR_1_1RangeSize.html":[6,0,2,0,1,525],
+"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,1,0,1,541,0],
+"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,2,0,1,525,0],
+"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,1,0,1,541,1],
+"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,2,0,1,525,1],
+"structMR_1_1RawTiffOutput.html":[6,0,1,0,1,542],
+"structMR_1_1RawTiffOutput.html":[6,0,2,0,1,526],
+"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,1,0,1,542,0],
 "structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,2,0,1,526,0],
 "structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,1,0,1,542,3],
 "structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,2,0,1,526,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1RibbonSchema.html":[6,0,1,0,1,592],
 "structMR_1_1RibbonSchema.html":[6,0,2,0,1,576],
 "structMR_1_1RibbonSchema.html#a0c1f7b3946e054a392a6a4699ab6c3ec":[6,0,1,0,1,592,2],
-"structMR_1_1RibbonSchema.html#a0c1f7b3946e054a392a6a4699ab6c3ec":[6,0,2,0,1,576,2],
-"structMR_1_1RibbonSchema.html#a0f637361de5a95f82fb2a89a6eb23351":[6,0,1,0,1,592,0],
-"structMR_1_1RibbonSchema.html#a0f637361de5a95f82fb2a89a6eb23351":[6,0,2,0,1,576,0],
-"structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,1,0,1,592,7],
-"structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[6,0,2,0,1,576,7],
-"structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b":[6,0,1,0,1,592,3],
-"structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b":[6,0,2,0,1,576,3],
-"structMR_1_1RibbonSchema.html#a21a3586ebedfeb4b958b58b82d741fb8":[6,0,1,0,1,592,8],
-"structMR_1_1RibbonSchema.html#a21a3586ebedfeb4b958b58b82d741fb8":[6,0,2,0,1,576,8],
-"structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10":[6,0,1,0,1,592,4],
-"structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10":[6,0,2,0,1,576,4]
+"structMR_1_1RibbonSchema.html#a0c1f7b3946e054a392a6a4699ab6c3ec":[6,0,2,0,1,576,2]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRMeshFwd_8h.html#a7581b60d25c8b6509c76ce12a7545c35":[6,0,3,0,0,1,4,199,57],
+"MRMesh_2MRMeshFwd_8h.html#a7798ef4dfda44362083b0aa66a45d6a3":[6,0,3,0,0,1,4,199,58],
+"MRMesh_2MRMeshFwd_8h.html#a78658d7e2559b2c2ecccd1003dc75e04":[6,0,3,0,0,1,4,199,145],
+"MRMesh_2MRMeshFwd_8h.html#a7a097c2851c9c54eef96a938f84750a4":[6,0,3,0,0,1,4,199,73],
+"MRMesh_2MRMeshFwd_8h.html#a7a4a96848eb4b1524be699a7adcd8017":[6,0,3,0,0,1,4,199,156],
+"MRMesh_2MRMeshFwd_8h.html#a7af24c49371748ab1e9eb196bc7d8a6e":[6,0,3,0,0,1,4,199,97],
+"MRMesh_2MRMeshFwd_8h.html#a7d62b7c394a1e0ed5d376fcb130fafb9":[6,0,3,0,0,1,4,199,184],
 "MRMesh_2MRMeshFwd_8h.html#a7eb54b4688d90e090b75bbf0efc2fec5":[6,0,3,0,0,1,4,199,173],
 "MRMesh_2MRMeshFwd_8h.html#a7eef389e2e2dd24fc59576c7ad184eb5":[6,0,3,0,0,1,4,199,44],
 "MRMesh_2MRMeshFwd_8h.html#a7f99523b7310975e806bd54da0533fe5":[6,0,3,0,0,1,4,199,20],
@@ -242,12 +249,5 @@ var NAVTREEINDEX9 =
 "MRMesh_2MRSaveSettings_8h_source.html":[6,0,3,0,0,1,4,326],
 "MRMesh_2MRSignDetectionMode_8h.html":[6,0,3,0,0,1,4,338],
 "MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309":[6,0,3,0,0,1,4,338,0],
-"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9":[6,0,3,0,0,1,4,338,0,1],
-"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a103a84d91e18de34821243d0495258ed":[6,0,3,0,0,1,4,338,0,3],
-"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9":[6,0,3,0,0,1,4,338,0,2],
-"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4":[6,0,3,0,0,1,4,338,0,4],
-"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a":[6,0,3,0,0,1,4,338,0,0],
-"MRMesh_2MRSignDetectionMode_8h.html#a07048ed78d40b323183d7f5479f821d0":[6,0,3,0,0,1,4,338,1],
-"MRMesh_2MRSignDetectionMode_8h.html#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb":[6,0,3,0,0,1,4,338,1,0],
-"MRMesh_2MRSignDetectionMode_8h.html#a07048ed78d40b323183d7f5479f821d0a17670c4544b47c1acf63b776209440a9":[6,0,3,0,0,1,4,338,1,2]
+"MRMesh_2MRSignDetectionMode_8h.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9":[6,0,3,0,0,1,4,338,0,1]
 };

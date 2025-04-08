@@ -1,5 +1,12 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1SurfacePointWidget.html#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59":[6,0,2,0,1,657,16],
+"classMR_1_1SurfacePointWidget.html#a2035a5c0ceddd1f622ce5574dd8c12dc":[6,0,1,0,1,673,23],
+"classMR_1_1SurfacePointWidget.html#a2035a5c0ceddd1f622ce5574dd8c12dc":[6,0,2,0,1,657,23],
+"classMR_1_1SurfacePointWidget.html#a4023f6d9ae5235d692afad4374b6134e":[6,0,1,0,1,673,18],
+"classMR_1_1SurfacePointWidget.html#a4023f6d9ae5235d692afad4374b6134e":[6,0,2,0,1,657,18],
+"classMR_1_1SurfacePointWidget.html#a67378b4ec7b94d338fe63c5d977dd35b":[6,0,1,0,1,673,14],
+"classMR_1_1SurfacePointWidget.html#a67378b4ec7b94d338fe63c5d977dd35b":[6,0,2,0,1,657,14],
 "classMR_1_1SurfacePointWidget.html#a6beef790b7d769b9129087231ce6c11a":[6,0,1,0,1,673,8],
 "classMR_1_1SurfacePointWidget.html#a6beef790b7d769b9129087231ce6c11a":[6,0,2,0,1,657,8],
 "classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552":[6,0,1,0,1,673,20],
@@ -242,12 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1TouchpadController_1_1Handler.html#aa716478caa8b3f52ec82aff6b328c64e":[6,0,2,0,1,681,0,5],
 "classMR_1_1TouchpadController_1_1Handler.html#ac01d9ce7a2cd68d9da9c23a5ee93df0b":[6,0,1,0,1,697,0,1],
 "classMR_1_1TouchpadController_1_1Handler.html#ac01d9ce7a2cd68d9da9c23a5ee93df0b":[6,0,2,0,1,681,0,1],
-"classMR_1_1TouchpadController_1_1Handler.html#af1d038636cfb202e8e3709fc8518b6f2":[6,0,1,0,1,697,0,3],
-"classMR_1_1TouchpadController_1_1Handler.html#af1d038636cfb202e8e3709fc8518b6f2":[6,0,2,0,1,681,0,3],
-"classMR_1_1TransformControls.html":[6,0,1,0,1,709],
-"classMR_1_1TransformControls.html":[6,0,2,0,1,693],
-"classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c":[6,0,1,0,1,709,5],
-"classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c":[6,0,2,0,1,693,5],
-"classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b":[6,0,1,0,1,709,6],
-"classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b":[6,0,2,0,1,693,6]
+"classMR_1_1TouchpadController_1_1Handler.html#af1d038636cfb202e8e3709fc8518b6f2":[6,0,1,0,1,697,0,3]
 };

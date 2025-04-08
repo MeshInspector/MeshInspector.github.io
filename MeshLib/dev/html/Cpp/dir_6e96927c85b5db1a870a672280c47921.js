@@ -19,6 +19,8 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
     [ "MRDirectionWidget.h", "MRDirectionWidget_8h.html", "MRDirectionWidget_8h" ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
+    [ "MRFileDialogCocoa.h", "MRFileDialogCocoa_8h.html", "MRFileDialogCocoa_8h" ],
+    [ "MRFileDialogInternal.h", "MRFileDialogInternal_8h.html", "MRFileDialogInternal_8h" ],
     [ "MRFitData.h", "MRFitData_8h.html", "MRFitData_8h" ],
     [ "MRFrameCounter.h", "MRFrameCounter_8h.html", "MRFrameCounter_8h" ],
     [ "MRFrameRedrawRequest.h", "MRFrameRedrawRequest_8h.html", "MRFrameRedrawRequest_8h" ],

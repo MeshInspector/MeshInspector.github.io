@@ -1,5 +1,15 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72":[6,0,2,0,1,431,3],
+"structMR_1_1OffsetContoursParams.html":[6,0,1,0,1,448],
+"structMR_1_1OffsetContoursParams.html":[6,0,2,0,1,432],
+"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,1,0,1,448,8],
+"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,2,0,1,432,8],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,1,0,1,448,1],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,2,0,1,432,1],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[6,0,1,0,1,448,1,0],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[6,0,2,0,1,432,1,0],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7":[6,0,1,0,1,448,1,1],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7":[6,0,2,0,1,432,1,1],
 "structMR_1_1OffsetContoursParams.html#a52ea8121bcdb1c1f7d2c638a77f9b9d9":[6,0,1,0,1,448,5],
 "structMR_1_1OffsetContoursParams.html#a52ea8121bcdb1c1f7d2c638a77f9b9d9":[6,0,2,0,1,432,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1PickPointManager_1_1Params.html#af2fa5fa03ddcb2645c4f22130a4a50da":[6,0,2,0,1,458,1,0],
 "structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2":[6,0,1,0,1,474,1,12],
 "structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2":[6,0,2,0,1,458,1,12],
-"structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,1,0,1,474,1,3],
-"structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,2,0,1,458,1,3],
-"structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,1,0,1,474,2],
-"structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,2,0,1,458,2],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,1,0,1,24,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,2,0,1,14,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,1,0,1,24,0,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,2,0,1,14,0,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a96cc494dbae32854400a1fc481ea09b4":[6,0,1,0,1,24,0,1],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a96cc494dbae32854400a1fc481ea09b4":[6,0,2,0,1,14,0,1],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,0,1,0,1,24,1]
+"structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,1,0,1,474,1,3]
 };
