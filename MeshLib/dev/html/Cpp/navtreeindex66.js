@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1CompensateRadiusParams.html#adb2072e359a12815d6285187b399591d":[6,0,2,0,1,127,0],
+"structMR_1_1CompensateRadiusParams.html#adee28415a6ac7b943071cce3515545a2":[6,0,1,0,1,143,4],
+"structMR_1_1CompensateRadiusParams.html#adee28415a6ac7b943071cce3515545a2":[6,0,2,0,1,127,4],
+"structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,1,0,1,143,7],
 "structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,2,0,1,127,7],
 "structMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[6,0,0,16,3,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,1,0,1,178,0],
 "structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,2,0,1,162,0],
 "structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,1,0,1,178,1],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,2,0,1,162,1],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,1,0,1,178,3],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,2,0,1,162,3],
-"structMR_1_1Directory.html":[6,0,1,0,1,180],
-"structMR_1_1Directory.html":[6,0,2,0,1,164]
+"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,2,0,1,162,1]
 };
