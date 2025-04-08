@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"MRTriMath_8h.html#af848b7a93acc5e03bfea1f8bcc3ffdb7":[6,0,3,0,0,1,4,367,12],
+"MRTriMath_8h.html#afebaea1321bcf85ccd6401870196c3fd":[6,0,3,0,0,1,4,367,4],
 "MRTriMath_8h_source.html":[6,0,3,0,0,1,4,367],
 "MRTriMesh_8h.html":[6,0,3,0,0,1,4,368],
 "MRTriMesh_8h_source.html":[6,0,3,0,0,1,4,368],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "MRUnits_8h.html#af673fdef7d01a580ce58c29b84ea9beaa18daee01fc6e54aacd7f4c2eef60ff4d":[6,0,3,0,0,1,10,131,21,1],
 "MRUnits_8h.html#af673fdef7d01a580ce58c29b84ea9beaad69186af02738a9b3ced1bc5b652ba55":[6,0,3,0,0,1,10,131,21,2],
 "MRUnits_8h.html#afaef792167a46a382648ec08d36b74e0":[6,0,3,0,0,1,10,131,20],
-"MRUnits_8h_source.html":[6,0,3,0,0,1,10,131],
-"MRUnorientedTriangle_8h.html":[6,0,3,0,0,1,4,378],
-"MRUnorientedTriangle_8h_source.html":[6,0,3,0,0,1,4,378]
+"MRUnits_8h_source.html":[6,0,3,0,0,1,10,131]
 };

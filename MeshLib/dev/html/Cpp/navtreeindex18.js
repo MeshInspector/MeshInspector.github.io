@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1BasinVolumeCalculator.html#a9b99b97f9c008057ea3281d4f9461d89":[6,0,1,0,1,70,0],
+"classMR_1_1BasinVolumeCalculator.html#a9b99b97f9c008057ea3281d4f9461d89":[6,0,2,0,1,54,0],
 "classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,1,0,1,70,1],
 "classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,2,0,1,54,1],
 "classMR_1_1BestFitParabola.html":[6,0,1,0,1,71],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeLinesColorMapAction.html#a55aeaa9aea474f11f11d8cd2d9410499":[6,0,0,4,2,0],
 "classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741":[6,0,0,4,2,5],
 "classMR_1_1ChangeLinesColorMapAction.html#a5c000b7f2ed38d70be031166c9529327":[6,0,0,4,2,4],
-"classMR_1_1ChangeLinesColorMapAction.html#a72f12b1fca7e6ed8731a32ca1796e0b2":[6,0,0,4,2,3],
-"classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92":[6,0,0,4,2,1],
-"classMR_1_1ChangeLinesColorMapAction.html#aa8ddee0413ffd1f5443c24e425457f07":[6,0,0,4,2,2]
+"classMR_1_1ChangeLinesColorMapAction.html#a72f12b1fca7e6ed8731a32ca1796e0b2":[6,0,0,4,2,3]
 };

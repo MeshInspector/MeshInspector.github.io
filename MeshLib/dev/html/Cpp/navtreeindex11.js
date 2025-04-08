@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MROutlierPoints_8h_source.html":[6,0,3,0,0,1,4,254],
 "MROverlappingTris_8h.html":[6,0,3,0,0,1,4,255],
 "MROverlappingTris_8h.html#a6f854d1ee48b4520a2bc23d7c73c648f":[6,0,3,0,0,1,4,255,1],
 "MROverlappingTris_8h_source.html":[6,0,3,0,0,1,4,255],
@@ -154,14 +155,15 @@ var NAVTREEINDEX11 =
 "MRPolyline_8h.html":[6,0,3,0,0,1,4,286],
 "MRPolyline_8h_source.html":[6,0,3,0,0,1,4,286],
 "MRPositionVertsSmoothly_8h.html":[6,0,3,0,0,1,4,299],
-"MRPositionVertsSmoothly_8h.html#a1d34390e42800882d558656d3ea89684":[6,0,3,0,0,1,4,299,9],
-"MRPositionVertsSmoothly_8h.html#a2a95c920b7f5516228030dfcec13b882":[6,0,3,0,0,1,4,299,4],
-"MRPositionVertsSmoothly_8h.html#a346a48132e38e33f42c16f84435f32d0":[6,0,3,0,0,1,4,299,8],
+"MRPositionVertsSmoothly_8h.html#a0ff13a6ee1e4553122efbc84946a0e01":[6,0,3,0,0,1,4,299,4],
+"MRPositionVertsSmoothly_8h.html#a1d34390e42800882d558656d3ea89684":[6,0,3,0,0,1,4,299,10],
+"MRPositionVertsSmoothly_8h.html#a2a95c920b7f5516228030dfcec13b882":[6,0,3,0,0,1,4,299,5],
+"MRPositionVertsSmoothly_8h.html#a346a48132e38e33f42c16f84435f32d0":[6,0,3,0,0,1,4,299,9],
 "MRPositionVertsSmoothly_8h.html#a3d881ee7943c5019e5a61768489f064e":[6,0,3,0,0,1,4,299,3],
-"MRPositionVertsSmoothly_8h.html#a44cdfa0fa0f605b3ff29d5437e8a93d8":[6,0,3,0,0,1,4,299,7],
+"MRPositionVertsSmoothly_8h.html#a44cdfa0fa0f605b3ff29d5437e8a93d8":[6,0,3,0,0,1,4,299,8],
 "MRPositionVertsSmoothly_8h.html#ac4f6d3d03ab782b0a48a3582a8a975a6":[6,0,3,0,0,1,4,299,2],
-"MRPositionVertsSmoothly_8h.html#ae86354c05ad9fa894a5dd8c50099d7a9":[6,0,3,0,0,1,4,299,5],
-"MRPositionVertsSmoothly_8h.html#aee32fa354138e9639ff564f91e9d9c50":[6,0,3,0,0,1,4,299,6],
+"MRPositionVertsSmoothly_8h.html#ae86354c05ad9fa894a5dd8c50099d7a9":[6,0,3,0,0,1,4,299,6],
+"MRPositionVertsSmoothly_8h.html#aee32fa354138e9639ff564f91e9d9c50":[6,0,3,0,0,1,4,299,7],
 "MRPositionVertsSmoothly_8h_source.html":[6,0,3,0,0,1,4,299],
 "MRPositionedText_8h.html":[6,0,3,0,0,1,4,298],
 "MRPositionedText_8h_source.html":[6,0,3,0,0,1,4,298],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "MRPython_8h.html#a01602e407a8f74fb432a16769481688c":[6,0,3,0,0,1,7,1,6],
 "MRPython_8h.html#a061fb85f30303ae23e36fbe5fd7b687c":[6,0,3,0,0,1,7,1,5],
 "MRPython_8h.html#a066f4ba30a78670e5297434557c362db":[6,0,3,0,0,1,7,1,10],
-"MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13":[6,0,3,0,0,1,7,1,4],
-"MRPython_8h.html#a1b144f9ec840f941a158bc9256711732":[6,0,3,0,0,1,7,1,15],
-"MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef":[6,0,3,0,0,1,7,1,18]
+"MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13":[6,0,3,0,0,1,7,1,4]
 };

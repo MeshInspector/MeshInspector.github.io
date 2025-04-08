@@ -18,6 +18,7 @@ var MRMeshMath_8h =
     [ "dirArea", "MRMeshMath_8h.html#aa066b3823c0d189be92f99b46d6d1bb1", null ],
     [ "dirDblArea", "MRMeshMath_8h.html#a60596c8cd5eca043531d0f0c4ece20c0", null ],
     [ "dirDblArea", "MRMeshMath_8h.html#a48b8d23ea7f7dd04366bf343830af62e", null ],
+    [ "dirDblAreas", "MRMeshMath_8h.html#aff94707b83310dd38361b67bf3490f8e", null ],
     [ "discreteGaussianCurvature", "MRMeshMath_8h.html#a065988451e8b7dd6f1686f6e1fdfee06", null ],
     [ "discreteMeanCurvature", "MRMeshMath_8h.html#a9b08c6deef4fc081ff82d6291456dbdd", null ],
     [ "discreteMeanCurvature", "MRMeshMath_8h.html#aa776be59eeaaa3ab4503389cbf4f41c3", null ],

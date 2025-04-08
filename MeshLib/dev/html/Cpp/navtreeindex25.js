@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1IFastWindingNumber.html#a368a1a0534476d08756358a07bcce617":[6,0,1,0,1,283,1],
+"classMR_1_1IFastWindingNumber.html#a368a1a0534476d08756358a07bcce617":[6,0,2,0,1,267,1],
 "classMR_1_1IFastWindingNumber.html#a44bf69fbb5b7c37e5a0ff132a6137581":[6,0,1,0,1,283,3],
 "classMR_1_1IFastWindingNumber.html#a44bf69fbb5b7c37e5a0ff132a6137581":[6,0,2,0,1,267,3],
 "classMR_1_1IFastWindingNumber.html#a9a9a27eb86c9d023a286bcf963c03cb3":[6,0,1,0,1,283,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ab976eab96aa736dde6008558cb1da138":[6,0,2,0,1,264,4],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#abe81f2bc5f5d5d248b672fc040a06273":[6,0,1,0,1,280,10],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#abe81f2bc5f5d5d248b672fc040a06273":[6,0,2,0,1,264,10],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac949ab40277168ce00d30192201f081d":[6,0,1,0,1,280,2],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac949ab40277168ce00d30192201f081d":[6,0,2,0,1,264,2],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac9bac36bf4fd46953310f51e4f9d8b93":[6,0,1,0,1,280,15]
+"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#ac949ab40277168ce00d30192201f081d":[6,0,1,0,1,280,2]
 };

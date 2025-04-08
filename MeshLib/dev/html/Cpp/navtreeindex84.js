@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[6,0,1,0,1,698,0,0],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[6,0,2,0,1,682,0,0],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,698,0,2],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,682,0,2],
 "structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[6,0,1,0,1,698,2],
 "structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[6,0,2,0,1,682,2],
 "structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[6,0,1,0,1,698,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1TrimWithPlaneParams.html":[6,0,1,0,1,717],
 "structMR_1_1TrimWithPlaneParams.html":[6,0,2,0,1,701],
 "structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35":[6,0,1,0,1,717,0],
-"structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35":[6,0,2,0,1,701,0],
-"structMR_1_1TrimWithPlaneParams.html#aad3ace62ca2c0713d844f88dc24df14c":[6,0,1,0,1,717,1],
-"structMR_1_1TrimWithPlaneParams.html#aad3ace62ca2c0713d844f88dc24df14c":[6,0,2,0,1,701,1],
-"structMR_1_1TrimWithPlaneParams.html#ac31ec54e79c7c73e956dd8f91eb4e37c":[6,0,1,0,1,717,2],
-"structMR_1_1TrimWithPlaneParams.html#ac31ec54e79c7c73e956dd8f91eb4e37c":[6,0,2,0,1,701,2]
+"structMR_1_1TrimWithPlaneParams.html#a21fbd4b8bfa38a079a62c8911d914b35":[6,0,2,0,1,701,0]
 };

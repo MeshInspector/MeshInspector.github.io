@@ -4393,6 +4393,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a60596c8cd5eca043531d0f0c4ece20c0" id="r_a60596c8cd5eca043531d0f0c4ece20c0"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60596c8cd5eca043531d0f0c4ece20c0">dirDblArea</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceId f)</td></tr>
 <tr class="memdesc:a60596c8cd5eca043531d0f0c4ece20c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes directed double area for a triangular face from its vertices  <br /></td></tr>
 <tr class="separator:a60596c8cd5eca043531d0f0c4ece20c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff94707b83310dd38361b67bf3490f8e" id="r_aff94707b83310dd38361b67bf3490f8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff94707b83310dd38361b67bf3490f8e">dirDblAreas</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memdesc:aff94707b83310dd38361b67bf3490f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes and returns the directed double area for every (region) vertex in the mesh  <br /></td></tr>
+<tr class="separator:aff94707b83310dd38361b67bf3490f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd3259955c972492f27f1ec056e2fd41" id="r_abd3259955c972492f27f1ec056e2fd41"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd3259955c972492f27f1ec056e2fd41">dblArea</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceId f)</td></tr>
 <tr class="memdesc:abd3259955c972492f27f1ec056e2fd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns twice the area of given face  <br /></td></tr>
 <tr class="separator:abd3259955c972492f27f1ec056e2fd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4975,6 +4978,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3d881ee7943c5019e5a61768489f064e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f6d3d03ab782b0a48a3582a8a975a6" id="r_ac4f6d3d03ab782b0a48a3582a8a975a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4f6d3d03ab782b0a48a3582a8a975a6">inflate</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const VertBitSet &amp;verts, const <a class="el" href="structMR_1_1InflateSettings.html">InflateSettings</a> &amp;settings)</td></tr>
 <tr class="separator:ac4f6d3d03ab782b0a48a3582a8a975a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff13a6ee1e4553122efbc84946a0e01" id="r_a0ff13a6ee1e4553122efbc84946a0e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ff13a6ee1e4553122efbc84946a0e01">inflate1</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const VertBitSet &amp;verts, float pressure)</td></tr>
+<tr class="separator:a0ff13a6ee1e4553122efbc84946a0e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733">vertMapsComposition</a> (VertMap &amp;a2b, const VertMap &amp;b2c)</td></tr>
 <tr class="memdesc:ga4accadafe09c169e3742b72d1e5e5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga4accadafe09c169e3742b72d1e5e5733"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -15091,6 +15096,42 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aff94707b83310dd38361b67bf3490f8e" name="aff94707b83310dd38361b67bf3490f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff94707b83310dd38361b67bf3490f8e">&#9670;&#160;</a></span>dirDblAreas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt; MR::dirDblAreas </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes and returns the directed double area for every (region) vertex in the mesh </p>
+
+</div>
+</div>
 <a id="a065988451e8b7dd6f1686f6e1fdfee06" name="a065988451e8b7dd6f1686f6e1fdfee06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a065988451e8b7dd6f1686f6e1fdfee06">&#9670;&#160;</a></span>discreteGaussianCurvature()</h2>
 
@@ -23279,6 +23320,38 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0ff13a6ee1e4553122efbc84946a0e01" name="a0ff13a6ee1e4553122efbc84946a0e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff13a6ee1e4553122efbc84946a0e01">&#9670;&#160;</a></span>inflate1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::inflate1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pressure</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inflates (in one of two sides) given mesh region, putting given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary; this function makes just 1 iteration of inflation and is used inside inflate(...) </p>
 
 </div>
 </div>

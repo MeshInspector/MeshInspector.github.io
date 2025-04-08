@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[6,0,1,0,1,758,3,1],
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[6,0,2,0,1,742,3,1],
+"structMR_1_1ViewportLinesWithColors.html":[6,0,1,0,1,761],
+"structMR_1_1ViewportLinesWithColors.html":[6,0,2,0,1,745],
 "structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc":[6,0,1,0,1,761,1],
 "structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc":[6,0,2,0,1,745,1],
 "structMR_1_1ViewportLinesWithColors.html#acc2e27115a832552e0ac1e4768ba83cc":[6,0,1,0,1,761,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1WeightedPointsShellParametersRegions.html#aa55cfbdcd7e9bd8660db878f94e585e5":[6,0,1,0,1,787,2],
 "structMR_1_1WeightedPointsShellParametersRegions.html#aa55cfbdcd7e9bd8660db878f94e585e5":[6,0,2,0,1,771,2],
 "structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html":[6,0,1,0,1,787,0],
-"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html":[6,0,2,0,1,771,0],
-"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a023792341d8f4da39b92ab6ad0b7c90b":[6,0,1,0,1,787,0,1],
-"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a023792341d8f4da39b92ab6ad0b7c90b":[6,0,2,0,1,771,0,1],
-"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a0434ff60661d531d1c6de4e6328c3770":[6,0,1,0,1,787,0,0],
-"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html#a0434ff60661d531d1c6de4e6328c3770":[6,0,2,0,1,771,0,0]
+"structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html":[6,0,2,0,1,771,0]
 };
