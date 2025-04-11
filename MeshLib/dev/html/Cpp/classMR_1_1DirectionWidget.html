@@ -199,8 +199,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afcaf7c69225293dcce6ae1d2bb12c2f9" id="r_afcaf7c69225293dcce6ae1d2bb12c2f9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcaf7c69225293dcce6ae1d2bb12c2f9">create</a> (const Vector3f &amp;dir, const Vector3f &amp;base, float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, <a class="el" href="#aa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> onDirectionChanged, <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *parent=nullptr)</td></tr>
-<tr class="separator:afcaf7c69225293dcce6ae1d2bb12c2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca4a443acb52233f6fd572babb9a72d" id="r_a9ca4a443acb52233f6fd572babb9a72d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca4a443acb52233f6fd572babb9a72d">create</a> (const Vector3f &amp;dir, const Vector3f &amp;base, float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, <a class="el" href="#aa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> onDirectionChanged, <a class="el" href="classMR_1_1Object.html">Object</a> *parent=nullptr)</td></tr>
+<tr class="separator:a9ca4a443acb52233f6fd572babb9a72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a2acfb8fd29d43fee23934a66211193" id="r_a5a2acfb8fd29d43fee23934a66211193"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset</a> ()</td></tr>
 <tr class="separator:a5a2acfb8fd29d43fee23934a66211193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67a12d304a83009a1db343a406e4f46e" id="r_a67a12d304a83009a1db343a406e4f46e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67a12d304a83009a1db343a406e4f46e">setOnDirectionChangedCallback</a> (<a class="el" href="#aa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> cb)</td></tr>
@@ -238,9 +238,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a41bd393b48b79941e8901ccceef4639a" id="r_a41bd393b48b79941e8901ccceef4639a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41bd393b48b79941e8901ccceef4639a">getDirection</a> () const</td></tr>
 <tr class="memdesc:a41bd393b48b79941e8901ccceef4639a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of the widget, in world space.  <br /></td></tr>
 <tr class="separator:a41bd393b48b79941e8901ccceef4639a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dc17f76add5e8f606454f6c9fee4aad" id="r_a0dc17f76add5e8f606454f6c9fee4aad"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dc17f76add5e8f606454f6c9fee4aad">getParentPtr</a> () const</td></tr>
-<tr class="memdesc:a0dc17f76add5e8f606454f6c9fee4aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns pointer to parent object.  <br /></td></tr>
-<tr class="separator:a0dc17f76add5e8f606454f6c9fee4aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aba9720112d3e1c3b3b3e824211c962" id="r_a4aba9720112d3e1c3b3b3e824211c962"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1Object.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aba9720112d3e1c3b3b3e824211c962">getParentPtr</a> () const</td></tr>
+<tr class="memdesc:a4aba9720112d3e1c3b3b3e824211c962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns pointer to parent object, always not-null after <a class="el" href="#a9ca4a443acb52233f6fd572babb9a72d">create()</a> and before <a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset()</a>  <br /></td></tr>
+<tr class="separator:a4aba9720112d3e1c3b3b3e824211c962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11e755a24b227cd14672ec94bfcd5028" id="r_a11e755a24b227cd14672ec94bfcd5028"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e755a24b227cd14672ec94bfcd5028">isMouseBlocked</a> () const</td></tr>
 <tr class="memdesc:a11e755a24b227cd14672ec94bfcd5028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block or allow mouse editing (allowed by default)  <br /></td></tr>
 <tr class="separator:a11e755a24b227cd14672ec94bfcd5028"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,8 +274,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afcaf7c69225293dcce6ae1d2bb12c2f9" name="afcaf7c69225293dcce6ae1d2bb12c2f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcaf7c69225293dcce6ae1d2bb12c2f9">&#9670;&#160;</a></span>create()</h2>
+<a id="a9ca4a443acb52233f6fd572babb9a72d" name="a9ca4a443acb52233f6fd572babb9a72d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ca4a443acb52233f6fd572babb9a72d">&#9670;&#160;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +303,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -313,6 +313,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">base</td><td>initial base of the arrow </td></tr>
     <tr><td class="paramname">length</td><td>length of the arrow </td></tr>
     <tr><td class="paramname">onDirectionChanged</td><td>callback for the direction change </td></tr>
+    <tr><td class="paramname">parent</td><td>parent object for the widget, nullptr means scene root </td></tr>
   </table>
   </dd>
 </dl>
@@ -376,14 +377,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0dc17f76add5e8f606454f6c9fee4aad" name="a0dc17f76add5e8f606454f6c9fee4aad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dc17f76add5e8f606454f6c9fee4aad">&#9670;&#160;</a></span>getParentPtr()</h2>
+<a id="a4aba9720112d3e1c3b3b3e824211c962" name="a4aba9720112d3e1c3b3b3e824211c962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aba9720112d3e1c3b3b3e824211c962">&#9670;&#160;</a></span>getParentPtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * MR::DirectionWidget::getParentPtr </td>
+          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1Object.html">Object</a> * MR::DirectionWidget::getParentPtr </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -391,7 +392,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns pointer to parent object. </p>
+<p>Returns pointer to parent object, always not-null after <a class="el" href="#a9ca4a443acb52233f6fd572babb9a72d">create()</a> and before <a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset()</a> </p>
 
 </div>
 </div>
