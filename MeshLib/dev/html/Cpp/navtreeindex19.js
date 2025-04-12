@@ -1,5 +1,13 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ChangeLabelAction.html#a49b7949dc2497e15510dbf8c51c83e61":[6,0,2,0,1,82,3],
+"classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[6,0,1,0,1,98,1],
+"classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[6,0,2,0,1,82,1],
+"classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,4,2],
+"classMR_1_1ChangeLinesColorMapAction.html#a55aeaa9aea474f11f11d8cd2d9410499":[6,0,0,4,2,0],
+"classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741":[6,0,0,4,2,5],
+"classMR_1_1ChangeLinesColorMapAction.html#a5c000b7f2ed38d70be031166c9529327":[6,0,0,4,2,4],
+"classMR_1_1ChangeLinesColorMapAction.html#a72f12b1fca7e6ed8731a32ca1796e0b2":[6,0,0,4,2,3],
 "classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92":[6,0,0,4,2,1],
 "classMR_1_1ChangeLinesColorMapAction.html#aa8ddee0413ffd1f5443c24e425457f07":[6,0,0,4,2,2],
 "classMR_1_1ChangeMeshAction.html":[6,0,0,4,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ColorMapAggregator.html#a46af3a558e1ec5eb32d783b972ad8198":[6,0,2,0,1,123,8],
 "classMR_1_1ColorMapAggregator.html#a5270d3355b43941e705178f4105a9042":[6,0,1,0,1,139,7],
 "classMR_1_1ColorMapAggregator.html#a5270d3355b43941e705178f4105a9042":[6,0,2,0,1,123,7],
-"classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50":[6,0,1,0,1,139,10],
-"classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50":[6,0,2,0,1,123,10],
-"classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194":[6,0,1,0,1,139,6],
-"classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194":[6,0,2,0,1,123,6],
-"classMR_1_1ColorMapAggregator.html#a8013c954cb0c8e15e862f18edd0b01c0":[6,0,1,0,1,139,14],
-"classMR_1_1ColorMapAggregator.html#a8013c954cb0c8e15e862f18edd0b01c0":[6,0,2,0,1,123,14],
-"classMR_1_1ColorMapAggregator.html#a9770717c450d8512e0357f181a6b0b34":[6,0,1,0,1,139,5],
-"classMR_1_1ColorMapAggregator.html#a9770717c450d8512e0357f181a6b0b34":[6,0,2,0,1,123,5],
-"classMR_1_1ColorMapAggregator.html#a9f26415001a0635aeb73a8ff7e00b20c":[6,0,1,0,1,139,4]
+"classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50":[6,0,1,0,1,139,10]
 };

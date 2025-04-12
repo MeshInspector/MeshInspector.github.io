@@ -202,6 +202,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Plane3.html">MR::Plane3&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1QuadraticForm.html">MR::QuadraticForm&lt; V &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Quaternion.html">MR::Quaternion&lt; T &gt;</a></td></tr>
@@ -253,8 +255,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04" id="r_ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga84b1b2dc1c73856fecb9b8617c174b04">MR::dihedralAngle</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;leftNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;rightNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;edgeVec)</td></tr>
 <tr class="separator:ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04b9e51953d898cf85e76c05d426366a" id="r_ga04b9e51953d898cf85e76c05d426366a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga04b9e51953d898cf85e76c05d426366a">MR::ccw</a> (const Vector2i &amp;a, const Vector2i &amp;b)</td></tr>
-<tr class="separator:ga04b9e51953d898cf85e76c05d426366a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf33aff000dfb310f8d4e2b79698c3373" id="r_gaf33aff000dfb310f8d4e2b79698c3373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf33aff000dfb310f8d4e2b79698c3373">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
 <tr class="separator:gaf33aff000dfb310f8d4e2b79698c3373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68" id="r_ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -314,28 +314,6 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga04b9e51953d898cf85e76c05d426366a" name="ga04b9e51953d898cf85e76c05d426366a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga04b9e51953d898cf85e76c05d426366a">&#9670;&#160;</a></span>ccw()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ccw </td>
-          <td>(</td>
-          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>return true if the smallest rotation from vector (a) to vector (b) is in counter-clock-wise direction; uses simulation-of-simplicity to avoid "vectors are collinear" </p>
-
-</div>
-</div>
 <a id="gaba44f8d705d9bc1b98f635bdabe488ae" name="gaba44f8d705d9bc1b98f635bdabe488ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaba44f8d705d9bc1b98f635bdabe488ae">&#9670;&#160;</a></span>circumcircleDiameter()</h2>
 

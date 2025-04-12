@@ -87,6 +87,10 @@ var group__MathGroup =
       [ "d", "structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04", null ],
       [ "n", "structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63", null ]
     ] ],
+    [ "MR::PreciseVertCoord", "structMR_1_1PreciseVertCoord.html", [
+      [ "id", "structMR_1_1PreciseVertCoord.html#a06f1bfc70a05a9294afb6050626e61dd", null ],
+      [ "pt", "structMR_1_1PreciseVertCoord.html#a547304af4a3486eb429f7737c6f9fc3e", null ]
+    ] ],
     [ "MR::QuadraticForm< V >", "structMR_1_1QuadraticForm.html", [
       [ "SM", "structMR_1_1QuadraticForm.html#adea6aa750372ae79cb7d305a5f939f50", null ],
       [ "T", "structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a", null ],
@@ -173,7 +177,6 @@ var group__MathGroup =
       [ "a", "structMR_1_1TriPoint.html#a8b3c5d2f52bedd379a12737883685b69", null ],
       [ "b", "structMR_1_1TriPoint.html#a7ad9a3fd75d2c4414e75599a4eb0d497", null ]
     ] ],
-    [ "MR::ccw", "group__MathGroup.html#ga04b9e51953d898cf85e76c05d426366a", null ],
     [ "MR::circumcircleDiameter", "group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
     [ "MR::circumcircleDiameterSq", "group__MathGroup.html#ga97b0c226492f4561c1a2c13831433bed", null ],
     [ "MR::computeBoundingBox", "group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef", null ],
