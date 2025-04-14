@@ -9,6 +9,7 @@ var classMR_1_1DirectionWidget =
     [ "getBase", "classMR_1_1DirectionWidget.html#ac698fed7416ed6492d2dea7ca16a4274", null ],
     [ "getColor", "classMR_1_1DirectionWidget.html#a167c6b1a7f459b928ff38d1a1136b2cb", null ],
     [ "getDirection", "classMR_1_1DirectionWidget.html#a41bd393b48b79941e8901ccceef4639a", null ],
+    [ "getLocalDirection", "classMR_1_1DirectionWidget.html#af084f5d0be5faa483beedcd8e0efeb60", null ],
     [ "getParentPtr", "classMR_1_1DirectionWidget.html#a4aba9720112d3e1c3b3b3e824211c962", null ],
     [ "isMouseBlocked", "classMR_1_1DirectionWidget.html#a11e755a24b227cd14672ec94bfcd5028", null ],
     [ "isVisible", "classMR_1_1DirectionWidget.html#a46d8141ed9672c79a97e527372067a9d", null ],
@@ -21,5 +22,6 @@ var classMR_1_1DirectionWidget =
     [ "updateArrow", "classMR_1_1DirectionWidget.html#ac5eee310348d931ae6105ec16b3e43f3", null ],
     [ "updateBase", "classMR_1_1DirectionWidget.html#a0b215c94ee35a19ee1fc4beb14824c54", null ],
     [ "updateDirection", "classMR_1_1DirectionWidget.html#a29827ac67baeb7b760b6387c4656a046", null ],
-    [ "updateLength", "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa", null ]
+    [ "updateLength", "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa", null ],
+    [ "updateLocalDirection", "classMR_1_1DirectionWidget.html#a801060d204bb001111c96202a5d9fb2a", null ]
 ];

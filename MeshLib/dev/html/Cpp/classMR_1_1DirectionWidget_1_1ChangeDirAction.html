@@ -158,7 +158,7 @@ $(function(){initNavTree('classMR_1_1DirectionWidget_1_1ChangeDirAction.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>history action for changing the direction. It should be added to the history stack by user code  
+<p>This history action must be created before the change in widget's direction to make it undo-able.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRDirectionWidget_8h_source.html">MRDirectionWidget.h</a>&gt;</code></p>
@@ -179,15 +179,15 @@ $(function(){initNavTree('classMR_1_1DirectionWidget_1_1ChangeDirAction.html',''
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1287bb21d1cdb76fe59fd4dcbf6a6ffd" id="r_a1287bb21d1cdb76fe59fd4dcbf6a6ffd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1287bb21d1cdb76fe59fd4dcbf6a6ffd">ChangeDirAction</a> (<a class="el" href="classMR_1_1DirectionWidget.html">DirectionWidget</a> &amp;widget, const std::string &amp;<a class="el" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a>=&quot;Change Direction&quot;)</td></tr>
 <tr class="separator:a1287bb21d1cdb76fe59fd4dcbf6a6ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0bf0a9e124479d97d58c965fbbdcf8b" id="r_ac0bf0a9e124479d97d58c965fbbdcf8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0bf0a9e124479d97d58c965fbbdcf8b">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a> type) override</td></tr>
-<tr class="memdesc:ac0bf0a9e124479d97d58c965fbbdcf8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
-<tr class="separator:ac0bf0a9e124479d97d58c965fbbdcf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1ChangeXfAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1ChangeXfAction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1ChangeXfAction.html">MR::ChangeXfAction</a></td></tr>
 <tr class="memitem:adc90b8207a85c52060b965692645d95b inherit pub_methods_classMR_1_1ChangeXfAction" id="r_adc90b8207a85c52060b965692645d95b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b">ChangeXfAction</a> (const std::string &amp;<a class="el" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;obj)</td></tr>
 <tr class="memdesc:adc90b8207a85c52060b965692645d95b inherit pub_methods_classMR_1_1ChangeXfAction"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
 <tr class="separator:adc90b8207a85c52060b965692645d95b inherit pub_methods_classMR_1_1ChangeXfAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a677bcbff928530a06249b4aa004556bc inherit pub_methods_classMR_1_1ChangeXfAction" id="r_a677bcbff928530a06249b4aa004556bc"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a> () const override</td></tr>
 <tr class="separator:a677bcbff928530a06249b4aa004556bc inherit pub_methods_classMR_1_1ChangeXfAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0205231d9c1c0389daaa03a05b302e2 inherit pub_methods_classMR_1_1ChangeXfAction" id="r_ae0205231d9c1c0389daaa03a05b302e2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
+<tr class="memdesc:ae0205231d9c1c0389daaa03a05b302e2 inherit pub_methods_classMR_1_1ChangeXfAction"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
+<tr class="separator:ae0205231d9c1c0389daaa03a05b302e2 inherit pub_methods_classMR_1_1ChangeXfAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b9d01bccf043de100f19110630ce24 inherit pub_methods_classMR_1_1ChangeXfAction" id="r_a92b9d01bccf043de100f19110630ce24"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a92b9d01bccf043de100f19110630ce24 inherit pub_methods_classMR_1_1ChangeXfAction"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a92b9d01bccf043de100f19110630ce24 inherit pub_methods_classMR_1_1ChangeXfAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,7 +204,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ac16eb31dd26d35cfc18bac8a05983aa7 inherit pub_types_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>history action for changing the direction. It should be added to the history stack by user code </p>
+<div class="textblock"><p>This history action must be created before the change in widget's direction to make it undo-able. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1287bb21d1cdb76fe59fd4dcbf6a6ffd" name="a1287bb21d1cdb76fe59fd4dcbf6a6ffd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1287bb21d1cdb76fe59fd4dcbf6a6ffd">&#9670;&#160;</a></span>ChangeDirAction()</h2>
@@ -232,36 +232,6 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac0bf0a9e124479d97d58c965fbbdcf8b" name="ac0bf0a9e124479d97d58c965fbbdcf8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0bf0a9e124479d97d58c965fbbdcf8b">&#9670;&#160;</a></span>action()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::DirectionWidget::ChangeDirAction::action </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a></td>          <td class="paramname"><span class="paramname"><em>actionType</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This function is called on history action (undo, redo, etc.) </p>
-
-<p>Reimplemented from <a class="el" href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">MR::ChangeXfAction</a>.</p>
 
 </div>
 </div>
