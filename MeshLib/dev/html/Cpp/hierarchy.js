@@ -449,7 +449,6 @@ var hierarchy =
       [ "MR::ChangeVertsColorMapAction< T >", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
-        [ "MR::DirectionWidget::ChangeBaseAction", "classMR_1_1DirectionWidget_1_1ChangeBaseAction.html", null ],
         [ "MR::DirectionWidget::ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ],
         [ "MR::DirectionWidget::ChangeLengthAction", "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html", null ]
       ] ],

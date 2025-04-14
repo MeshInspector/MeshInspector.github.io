@@ -1,7 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,2,0,1,466],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,1,0,1,482,2],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,2,0,1,466,2],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,1,0,1,482,0],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,2,0,1,466,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX35 =
 "classMR_1_1RadiusMeasurementObject.html#a109a6f41417efadbe9e21c0a2054c9f5":[6,0,1,0,1,537,28],
 "classMR_1_1RadiusMeasurementObject.html#a109a6f41417efadbe9e21c0a2054c9f5":[6,0,2,0,1,521,28],
 "classMR_1_1RadiusMeasurementObject.html#a144d0e6bad6b4589084b64ca9cdb9dea":[6,0,1,0,1,537,30],
-"classMR_1_1RadiusMeasurementObject.html#a144d0e6bad6b4589084b64ca9cdb9dea":[6,0,2,0,1,521,30]
+"classMR_1_1RadiusMeasurementObject.html#a144d0e6bad6b4589084b64ca9cdb9dea":[6,0,2,0,1,521,30],
+"classMR_1_1RadiusMeasurementObject.html#a1b5aa08c8b28e86e8975727bc77f4ace":[6,0,1,0,1,537,16],
+"classMR_1_1RadiusMeasurementObject.html#a1b5aa08c8b28e86e8975727bc77f4ace":[6,0,2,0,1,521,16]
 };

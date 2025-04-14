@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a8e7aa7e5a8d5ad0d936565bfac19539e":[6,0,0,17,1,0,3],
-"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b0d4d2ec2b2868f18da16624979032f":[6,0,0,17,1,0,2],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b3c5026793485f6071bb44a681e1461":[6,0,0,17,1,0,5],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680":[6,0,0,17,1,0,0],
 "structMR_1_1MovementBuildBodyParams.html":[6,0,1,0,1,392],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2":[6,0,0,11,14,0,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd":[6,0,0,11,14,0,0,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255":[6,0,0,11,14,0,0,0],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae":[6,0,0,11,14,0,0,2]
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae":[6,0,0,11,14,0,0,2],
+"structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0],
+"structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[6,0,0,11,4,0,0]
 };

@@ -1,14 +1,14 @@
 var classMR_1_1DirectionWidget =
 [
-    [ "ChangeBaseAction", "classMR_1_1DirectionWidget_1_1ChangeBaseAction.html", "classMR_1_1DirectionWidget_1_1ChangeBaseAction" ],
     [ "ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", "classMR_1_1DirectionWidget_1_1ChangeDirAction" ],
     [ "ChangeLengthAction", "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html", "classMR_1_1DirectionWidget_1_1ChangeLengthAction" ],
     [ "ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction" ],
     [ "OnDirectionChangedCallback", "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275", null ],
     [ "create", "classMR_1_1DirectionWidget.html#a9ca4a443acb52233f6fd572babb9a72d", null ],
-    [ "getBase", "classMR_1_1DirectionWidget.html#ac698fed7416ed6492d2dea7ca16a4274", null ],
+    [ "getBase", "classMR_1_1DirectionWidget.html#adc4086befe1e92d69c93eff26a25ddf0", null ],
     [ "getColor", "classMR_1_1DirectionWidget.html#a167c6b1a7f459b928ff38d1a1136b2cb", null ],
     [ "getDirection", "classMR_1_1DirectionWidget.html#a41bd393b48b79941e8901ccceef4639a", null ],
+    [ "getLocalBase", "classMR_1_1DirectionWidget.html#afc07bd243ff36b48f7763c6ec96932d4", null ],
     [ "getLocalDirection", "classMR_1_1DirectionWidget.html#af084f5d0be5faa483beedcd8e0efeb60", null ],
     [ "getParentPtr", "classMR_1_1DirectionWidget.html#a4aba9720112d3e1c3b3b3e824211c962", null ],
     [ "isMouseBlocked", "classMR_1_1DirectionWidget.html#a11e755a24b227cd14672ec94bfcd5028", null ],
@@ -23,5 +23,6 @@ var classMR_1_1DirectionWidget =
     [ "updateBase", "classMR_1_1DirectionWidget.html#a0b215c94ee35a19ee1fc4beb14824c54", null ],
     [ "updateDirection", "classMR_1_1DirectionWidget.html#a29827ac67baeb7b760b6387c4656a046", null ],
     [ "updateLength", "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa", null ],
+    [ "updateLocalBase", "classMR_1_1DirectionWidget.html#a3ca40bd9656bf70367d8bac77cc29209", null ],
     [ "updateLocalDirection", "classMR_1_1DirectionWidget.html#a801060d204bb001111c96202a5d9fb2a", null ]
 ];
