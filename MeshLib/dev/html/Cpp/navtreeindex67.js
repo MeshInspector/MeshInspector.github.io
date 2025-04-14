@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1],
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,3],
 "structMR_1_1Dipole.html":[6,0,1,0,1,178],
 "structMR_1_1Dipole.html":[6,0,2,0,1,162],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "structMR_1_1EdgeLengthMesh.html#a3b8d293f6ee11394128c078fc11bead8":[6,0,0,7,0,0],
 "structMR_1_1EdgeLengthMesh.html#a73fbab03758bfea01536569e133dd307":[6,0,0,7,0,3],
 "structMR_1_1EdgeLengthMesh.html#a8354d05ed17b358631b7af8e742c2773":[6,0,0,7,0,6],
-"structMR_1_1EdgeLengthMesh.html#abdc61c2dae8f243c3682e0dfc637f536":[6,0,0,7,0,4]
+"structMR_1_1EdgeLengthMesh.html#abdc61c2dae8f243c3682e0dfc637f536":[6,0,0,7,0,4],
+"structMR_1_1EdgeLengthMesh.html#ae600eca420be35f1622258bf5830453c":[6,0,0,7,0,5],
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,1,0,1,206,0]
 };

@@ -50,7 +50,6 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "numSelectedEdges", "classmrmeshpy_1_1ObjectMeshHolder.html#ac226179a47dbb3f0e9ac072552cbcae4", null ],
     [ "numSelectedFaces", "classmrmeshpy_1_1ObjectMeshHolder.html#a6f9876472180438fcfbf7a59f61cc6e1", null ],
     [ "numUndirectedEdges", "classmrmeshpy_1_1ObjectMeshHolder.html#ace0eebcd3a4c4a44bfb6342004b1641e", null ],
-    [ "resetDirtyExeptMask", "classmrmeshpy_1_1ObjectMeshHolder.html#a41cf1fc4001452d40804a8415db0068a", null ],
     [ "saveMeshFormat", "classmrmeshpy_1_1ObjectMeshHolder.html#aaf692b8748cdecff866a329448ef3799", null ],
     [ "selectedArea", "classmrmeshpy_1_1ObjectMeshHolder.html#ab58b403ef79b09798136fb04c5e7a99d", null ],
     [ "selectEdges", "classmrmeshpy_1_1ObjectMeshHolder.html#a47fa588b7d374f9bbbabae7ddab092ce", null ],

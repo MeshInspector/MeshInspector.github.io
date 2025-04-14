@@ -374,9 +374,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa095821c8be332dee208deb420d5c7f8" id="r_aa095821c8be332dee208deb420d5c7f8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa095821c8be332dee208deb420d5c7f8">getRedrawFlag</a> (<a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask) const override</td></tr>
 <tr class="memdesc:aa095821c8be332dee208deb420d5c7f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the object must be redrawn (due to dirty flags) in one of specified viewports  <br /></td></tr>
 <tr class="separator:aa095821c8be332dee208deb420d5c7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88a38468df719c7fd273aa92b2fea426" id="r_a88a38468df719c7fd273aa92b2fea426"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a38468df719c7fd273aa92b2fea426">resetDirtyExeptMask</a> (uint32_t mask) const</td></tr>
-<tr class="memdesc:a88a38468df719c7fd273aa92b2fea426"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset dirty flags without some specific bits (useful for lazy normals update)  <br /></td></tr>
-<tr class="separator:a88a38468df719c7fd273aa92b2fea426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc32b4c9b303a885eadfbde1f3b7eeb0" id="r_adc32b4c9b303a885eadfbde1f3b7eeb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc32b4c9b303a885eadfbde1f3b7eeb0">isMeshClosed</a> () const</td></tr>
 <tr class="memdesc:adc32b4c9b303a885eadfbde1f3b7eeb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information whether the mesh is closed  <br /></td></tr>
 <tr class="separator:adc32b4c9b303a885eadfbde1f3b7eeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -518,6 +515,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30fe82d49e41f2e7830f58113b295cce inherit pub_methods_classMR_1_1VisualObject" id="r_a30fe82d49e41f2e7830f58113b295cce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a30fe82d49e41f2e7830f58113b295cce">resetDirty</a> () const</td></tr>
 <tr class="memdesc:a30fe82d49e41f2e7830f58113b295cce inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets all dirty flags (except for cache flags that will be reset automatically on cache update)  <br /></td></tr>
 <tr class="separator:a30fe82d49e41f2e7830f58113b295cce inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885f987ce58a89d2b12a33cf48e92c6c inherit pub_methods_classMR_1_1VisualObject" id="r_a885f987ce58a89d2b12a33cf48e92c6c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a885f987ce58a89d2b12a33cf48e92c6c">resetDirtyExceptMask</a> (uint32_t mask) const</td></tr>
+<tr class="memdesc:a885f987ce58a89d2b12a33cf48e92c6c inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset dirty flags without some specific bits (useful for lazy normals update)  <br /></td></tr>
+<tr class="separator:a885f987ce58a89d2b12a33cf48e92c6c inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe84b708cf42b2d73b31e77f02fae6a inherit pub_methods_classMR_1_1VisualObject" id="r_a8fe84b708cf42b2d73b31e77f02fae6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a8fe84b708cf42b2d73b31e77f02fae6a">getBoundingBox</a> () const</td></tr>
 <tr class="memdesc:a8fe84b708cf42b2d73b31e77f02fae6a inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached bounding box of this object in local coordinates  <br /></td></tr>
 <tr class="separator:a8fe84b708cf42b2d73b31e77f02fae6a inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -888,8 +888,6 @@ Protected Attributes</h2></td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:ab054b578e5da7a7822d693ec0f61b1e7 inherit pro_attribs_classMR_1_1VisualObject" id="r_ab054b578e5da7a7822d693ec0f61b1e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1UniquePtr.html">UniquePtr</a>&lt; <a class="el" href="classMR_1_1IRenderObject.html">IRenderObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ab054b578e5da7a7822d693ec0f61b1e7">renderObj_</a></td></tr>
 <tr class="separator:ab054b578e5da7a7822d693ec0f61b1e7 inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a64ef900ae33d7bf55fd3474cdcef42 inherit pro_attribs_classMR_1_1VisualObject" id="r_a8a64ef900ae33d7bf55fd3474cdcef42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Dirty.html">Dirty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a8a64ef900ae33d7bf55fd3474cdcef42">dirty_</a></td></tr>
-<tr class="separator:a8a64ef900ae33d7bf55fd3474cdcef42 inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87c9fab3f92c38aba589584b5466a98 inherit pro_attribs_classMR_1_1VisualObject" id="r_ab87c9fab3f92c38aba589584b5466a98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ab87c9fab3f92c38aba589584b5466a98">clipByPlane_</a></td></tr>
 <tr class="separator:ab87c9fab3f92c38aba589584b5466a98 inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12015bd194435eaebc8649573c38bf68 inherit pro_attribs_classMR_1_1VisualObject" id="r_a12015bd194435eaebc8649573c38bf68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a12015bd194435eaebc8649573c38bf68">showLabels_</a></td></tr>
@@ -2478,33 +2476,6 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a88a38468df719c7fd273aa92b2fea426" name="a88a38468df719c7fd273aa92b2fea426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88a38468df719c7fd273aa92b2fea426">&#9670;&#160;</a></span>resetDirtyExeptMask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectMeshHolder::resetDirtyExeptMask </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>reset dirty flags without some specific bits (useful for lazy normals update) </p>
 
 </div>
 </div>

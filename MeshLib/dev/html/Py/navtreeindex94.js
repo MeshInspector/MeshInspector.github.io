@@ -1,7 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#ab918b22c3fa78bfb7e2d63cf4a714446":[6,1,0,0,2,1042,31],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#ab918b22c3fa78bfb7e2d63cf4a714446":[6,1,1,0,1,1042,31],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#abb0ef4890bc8dc082c07435271006edf":[6,1,0,0,2,1042,22],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#abb0ef4890bc8dc082c07435271006edf":[6,1,1,0,1,1042,22],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#abbab698eac67a0e28fd01adc98048cf5":[6,1,0,0,2,1042,28],
@@ -249,5 +247,7 @@ var NAVTREEINDEX94 =
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#afe8cb2b628379574e74c49488b1d8f90":[6,1,0,0,2,1047,16],
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#afe8cb2b628379574e74c49488b1d8f90":[6,1,1,0,1,1047,16],
 "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html":[6,1,0,0,2,1048],
-"classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html":[6,1,1,0,1,1048]
+"classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html":[6,1,1,0,1,1048],
+"classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a049c288adf94d839c0764fb2caa33c03":[6,1,0,0,2,1048,15],
+"classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a049c288adf94d839c0764fb2caa33c03":[6,1,1,0,1,1048,15]
 };

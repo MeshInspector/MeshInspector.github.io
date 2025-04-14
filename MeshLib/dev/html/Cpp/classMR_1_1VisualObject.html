@@ -305,6 +305,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30fe82d49e41f2e7830f58113b295cce" id="r_a30fe82d49e41f2e7830f58113b295cce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30fe82d49e41f2e7830f58113b295cce">resetDirty</a> () const</td></tr>
 <tr class="memdesc:a30fe82d49e41f2e7830f58113b295cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets all dirty flags (except for cache flags that will be reset automatically on cache update)  <br /></td></tr>
 <tr class="separator:a30fe82d49e41f2e7830f58113b295cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885f987ce58a89d2b12a33cf48e92c6c" id="r_a885f987ce58a89d2b12a33cf48e92c6c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a885f987ce58a89d2b12a33cf48e92c6c">resetDirtyExceptMask</a> (uint32_t mask) const</td></tr>
+<tr class="memdesc:a885f987ce58a89d2b12a33cf48e92c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset dirty flags without some specific bits (useful for lazy normals update)  <br /></td></tr>
+<tr class="separator:a885f987ce58a89d2b12a33cf48e92c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe84b708cf42b2d73b31e77f02fae6a" id="r_a8fe84b708cf42b2d73b31e77f02fae6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fe84b708cf42b2d73b31e77f02fae6a">getBoundingBox</a> () const</td></tr>
 <tr class="memdesc:a8fe84b708cf42b2d73b31e77f02fae6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached bounding box of this object in local coordinates  <br /></td></tr>
 <tr class="separator:a8fe84b708cf42b2d73b31e77f02fae6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -600,8 +603,6 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ab054b578e5da7a7822d693ec0f61b1e7" id="r_ab054b578e5da7a7822d693ec0f61b1e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1UniquePtr.html">UniquePtr</a>&lt; <a class="el" href="classMR_1_1IRenderObject.html">IRenderObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab054b578e5da7a7822d693ec0f61b1e7">renderObj_</a></td></tr>
 <tr class="separator:ab054b578e5da7a7822d693ec0f61b1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a64ef900ae33d7bf55fd3474cdcef42" id="r_a8a64ef900ae33d7bf55fd3474cdcef42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Dirty.html">Dirty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a64ef900ae33d7bf55fd3474cdcef42">dirty_</a></td></tr>
-<tr class="separator:a8a64ef900ae33d7bf55fd3474cdcef42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87c9fab3f92c38aba589584b5466a98" id="r_ab87c9fab3f92c38aba589584b5466a98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87c9fab3f92c38aba589584b5466a98">clipByPlane_</a></td></tr>
 <tr class="separator:ab87c9fab3f92c38aba589584b5466a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12015bd194435eaebc8649573c38bf68" id="r_a12015bd194435eaebc8649573c38bf68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12015bd194435eaebc8649573c38bf68">showLabels_</a></td></tr>
@@ -1746,6 +1747,33 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
 
 </div>
 </div>
+<a id="a885f987ce58a89d2b12a33cf48e92c6c" name="a885f987ce58a89d2b12a33cf48e92c6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a885f987ce58a89d2b12a33cf48e92c6c">&#9670;&#160;</a></span>resetDirtyExceptMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::resetDirtyExceptMask </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>reset dirty flags without some specific bits (useful for lazy normals update) </p>
+
+</div>
+</div>
 <a id="aa7e5231f013c0e9e1b528c69759cc60d" name="aa7e5231f013c0e9e1b528c69759cc60d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7e5231f013c0e9e1b528c69759cc60d">&#9670;&#160;</a></span>serializeFields_()</h2>
 
@@ -2848,28 +2876,6 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a64ef900ae33d7bf55fd3474cdcef42" name="a8a64ef900ae33d7bf55fd3474cdcef42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a64ef900ae33d7bf55fd3474cdcef42">&#9670;&#160;</a></span>dirty_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Dirty.html">Dirty</a> MR::VisualObject::dirty_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

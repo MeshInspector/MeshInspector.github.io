@@ -1,7 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"structMR_1_1Quaternion.html#a0267d5aee3f765c24fb3f40ad811f9b4":[6,0,0,0,21,22],
-"structMR_1_1Quaternion.html#a1265e8d1076efd17d1c3b70cb310480e":[6,0,0,0,21,5],
 "structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303":[6,0,0,0,21,30],
 "structMR_1_1Quaternion.html#a2200fc8f1ce0aa43f8fa4b4eb01786e7":[6,0,0,0,21,11],
 "structMR_1_1Quaternion.html#a22a3efafffa70cc53f2d16561d172864":[6,0,0,0,21,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX80 =
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,1,0,1,574,0,1],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,2,0,1,558,0,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,1,0,1,574,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,2,0,1,558,1]
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,2,0,1,558,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,1,0,1,574,1,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,2,0,1,558,1,1]
 };
