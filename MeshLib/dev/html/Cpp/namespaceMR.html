@@ -6951,6 +6951,10 @@ Variables</h2></td></tr>
 <tr class="separator:adebe37534b9bb6c1ccc995df1839c432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc1b40eb80e70a7e20d00559456217d" id="r_aadc1b40eb80e70a7e20d00559456217d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadc1b40eb80e70a7e20d00559456217d">ccw</a> (const <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a> *vs)</td></tr>
 <tr class="separator:aadc1b40eb80e70a7e20d00559456217d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6626f7c315e4aae48380b5c214af0e42" id="r_a6626f7c315e4aae48380b5c214af0e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6626f7c315e4aae48380b5c214af0e42">orientParaboloid3d</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c)</td></tr>
+<tr class="separator:a6626f7c315e4aae48380b5c214af0e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a565f119f21a7b73c4af0da283afb6c30" id="r_a565f119f21a7b73c4af0da283afb6c30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a565f119f21a7b73c4af0da283afb6c30">orientParaboloid3d</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c, const Vector2i &amp;d)</td></tr>
+<tr class="separator:a565f119f21a7b73c4af0da283afb6c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a084e4f0b1325cc3f6db691c8f4a79afb" id="r_a084e4f0b1325cc3f6db691c8f4a79afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a084e4f0b1325cc3f6db691c8f4a79afb">inCircle</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 4 &gt; &amp;vs)</td></tr>
 <tr class="memdesc:a084e4f0b1325cc3f6db691c8f4a79afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if 4th point in array lays inside circumcircle of first 3 points based triangle  <br /></td></tr>
 <tr class="separator:a084e4f0b1325cc3f6db691c8f4a79afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -30591,6 +30595,72 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a6626f7c315e4aae48380b5c214af0e42" name="a6626f7c315e4aae48380b5c214af0e42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6626f7c315e4aae48380b5c214af0e42">&#9670;&#160;</a></span>orientParaboloid3d() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orientParaboloid3d </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>considers 3D points obtained from 2D inputs by moving each point on paraboloid: z = x*x+y*y; returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid "D is exactly on plane" </p>
+
+</div>
+</div>
+<a id="a565f119f21a7b73c4af0da283afb6c30" name="a565f119f21a7b73c4af0da283afb6c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a565f119f21a7b73c4af0da283afb6c30">&#9670;&#160;</a></span>orientParaboloid3d() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::orientParaboloid3d </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

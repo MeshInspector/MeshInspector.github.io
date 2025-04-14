@@ -2685,6 +2685,8 @@ var namespaceMR =
     [ "orientNormals", "group__PointCloudGroup.html#gaa8f205918af032263bddf663cd5e03f0", null ],
     [ "orientNormals", "group__PointCloudGroup.html#ga450ad031ccac1e86e9a4f076d1aabd3a", null ],
     [ "orientNormals", "group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2", null ],
+    [ "orientParaboloid3d", "namespaceMR.html#a6626f7c315e4aae48380b5c214af0e42", null ],
+    [ "orientParaboloid3d", "namespaceMR.html#a565f119f21a7b73c4af0da283afb6c30", null ],
     [ "ovdb", "group__BasicStructuresGroup.html#ga7c6031335bfc2515993437f951485ad1", null ],
     [ "ovdb", "group__BasicStructuresGroup.html#ga12f92e71b639968eb7a4ffb4cbe51291", null ],
     [ "overloaded", "namespaceMR.html#a80e6b953fc44378e5898ba71b21f216a", null ],

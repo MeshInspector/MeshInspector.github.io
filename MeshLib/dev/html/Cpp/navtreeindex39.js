@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a":[6,0,2,0,1,557,6],
+"classMR_1_1RibbonIcons.html":[6,0,1,0,1,574],
 "classMR_1_1RibbonIcons.html":[6,0,2,0,1,558],
 "classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931":[6,0,1,0,1,574,1],
 "classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931":[6,0,2,0,1,558,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1RibbonMenuSearch.html#afcef0eec09d9ab66c4eceebbb8b15d73":[6,0,2,0,1,564,3],
 "classMR_1_1RibbonNotifier.html":[6,0,1,0,1,583],
 "classMR_1_1RibbonNotifier.html":[6,0,2,0,1,567],
-"classMR_1_1RibbonNotifier.html#a08ebfe15ec08fb70c287c3b983e94869":[6,0,1,0,1,583,2],
-"classMR_1_1RibbonNotifier.html#a08ebfe15ec08fb70c287c3b983e94869":[6,0,2,0,1,567,2],
-"classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4":[6,0,1,0,1,583,1]
+"classMR_1_1RibbonNotifier.html#a08ebfe15ec08fb70c287c3b983e94869":[6,0,1,0,1,583,2]
 };
