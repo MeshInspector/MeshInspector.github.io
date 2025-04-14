@@ -2050,7 +2050,7 @@ var namespaceMR =
     [ "findMeshEdgesInBall", "group__AABBTreeGroup.html#ga50911249a881bd7365929503c138d8fa", null ],
     [ "findMultipleEdges", "group__MeshFixerGroup.html#gad29427e41026ca03a451eb1796987043", null ],
     [ "findNClosestPointsPerPoint", "group__AABBTreeGroup.html#ga5ccfb741cd4bcb092c8884f744051203", null ],
-    [ "findNeighborVerts", "namespaceMR.html#a58ed9a10000732a6d443bb16846927b8", null ],
+    [ "findNeighborVerts", "namespaceMR.html#ad803f39e74d5d4e2388cd7b981d606da", null ],
     [ "findNRingVerts", "group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
     [ "findOuterLayer", "namespaceMR.html#a3b1faa32d9a4c0eadfb8a76023c56a0b", null ],
     [ "findOutliers", "namespaceMR.html#a83c915f7d70a05ed28c1dbf2186f4b17", null ],

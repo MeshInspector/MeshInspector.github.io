@@ -3417,8 +3417,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad9e70548933ddf1b51d7e9a33a5b056a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94117671036cf6c2bf6bc33547519d1a" id="r_a94117671036cf6c2bf6bc33547519d1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94117671036cf6c2bf6bc33547519d1a">computeSpaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;start, float range)</td></tr>
 <tr class="separator:a94117671036cf6c2bf6bc33547519d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58ed9a10000732a6d443bb16846927b8" id="r_a58ed9a10000732a6d443bb16846927b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58ed9a10000732a6d443bb16846927b8">findNeighborVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;start, float range)</td></tr>
-<tr class="separator:a58ed9a10000732a6d443bb16846927b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad803f39e74d5d4e2388cd7b981d606da" id="r_ad803f39e74d5d4e2388cd7b981d606da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad803f39e74d5d4e2388cd7b981d606da">findNeighborVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;start, float rangeSq)</td></tr>
+<tr class="separator:ad803f39e74d5d4e2388cd7b981d606da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4490c42061cf2506fdb325f9d281f68" id="r_ab4490c42061cf2506fdb325f9d281f68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4490c42061cf2506fdb325f9d281f68">expand</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, FaceBitSet &amp;region, int hops=1)</td></tr>
 <tr class="memdesc:ab4490c42061cf2506fdb325f9d281f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds to the region all faces within given number of hops (stars) from the initial region boundary  <br /></td></tr>
 <tr class="separator:ab4490c42061cf2506fdb325f9d281f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -13512,7 +13512,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 <p>computes Euclidean 3D distances from given start point to all neighbor vertices within given</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">range</td><td>and to first vertices with the distance more or equal than range </td></tr>
+    <tr><td class="paramname">range</td><td>and to first vertices with the distance more than range </td></tr>
   </table>
   </dd>
 </dl>
@@ -17932,8 +17932,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a58ed9a10000732a6d443bb16846927b8" name="a58ed9a10000732a6d443bb16846927b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58ed9a10000732a6d443bb16846927b8">&#9670;&#160;</a></span>findNeighborVerts()</h2>
+<a id="ad803f39e74d5d4e2388cd7b981d606da" name="ad803f39e74d5d4e2388cd7b981d606da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad803f39e74d5d4e2388cd7b981d606da">&#9670;&#160;</a></span>findNeighborVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -17954,7 +17954,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>range</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>rangeSq</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -17965,7 +17965,8 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 <p>calculates all neighbor vertices within a given</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">range</td><td>and to first vertices with the distance more or equal than range </td></tr>
+    <tr><td class="paramname">range</td><td>and to first vertices with the distance more than range </td></tr>
+    <tr><td class="paramname">rangeSq</td><td>square of range </td></tr>
   </table>
   </dd>
 </dl>

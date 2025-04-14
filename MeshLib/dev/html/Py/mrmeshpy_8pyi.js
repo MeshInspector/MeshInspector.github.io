@@ -1631,7 +1631,7 @@ var mrmeshpy_8pyi =
     [ "findMeshEdgesInBall", "mrmeshpy_8pyi.html#afd76fac334e226e6935b7018dbbb0b7e", null ],
     [ "findMultipleEdges", "mrmeshpy_8pyi.html#af5c5cfbdb620efdf5af41d6e954b67fe", null ],
     [ "findNClosestPointsPerPoint", "mrmeshpy_8pyi.html#a889859ff079c9ada743cb90b91b80194", null ],
-    [ "findNeighborVerts", "mrmeshpy_8pyi.html#aa1bdc88206809d40e7484137116eea35", null ],
+    [ "findNeighborVerts", "mrmeshpy_8pyi.html#a15c66b02597c7d2a7ed987f85689100e", null ],
     [ "findNRingVerts", "mrmeshpy_8pyi.html#a3a11035cfafbb9aa011124879a49df79", null ],
     [ "findOuterLayer", "mrmeshpy_8pyi.html#a992ae659a10ae6102bf15a9c64a316d1", null ],
     [ "findOutliers", "mrmeshpy_8pyi.html#aeec0a22eaa07a78ac23b019cc0c01b39", null ],

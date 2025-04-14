@@ -1510,7 +1510,7 @@ var namespacemrmeshpy =
     [ "findMeshEdgesInBall", "namespacemrmeshpy.html#afd76fac334e226e6935b7018dbbb0b7e", null ],
     [ "findMultipleEdges", "namespacemrmeshpy.html#af5c5cfbdb620efdf5af41d6e954b67fe", null ],
     [ "findNClosestPointsPerPoint", "namespacemrmeshpy.html#a889859ff079c9ada743cb90b91b80194", null ],
-    [ "findNeighborVerts", "namespacemrmeshpy.html#aa1bdc88206809d40e7484137116eea35", null ],
+    [ "findNeighborVerts", "namespacemrmeshpy.html#a15c66b02597c7d2a7ed987f85689100e", null ],
     [ "findNRingVerts", "namespacemrmeshpy.html#a3a11035cfafbb9aa011124879a49df79", null ],
     [ "findOuterLayer", "namespacemrmeshpy.html#a992ae659a10ae6102bf15a9c64a316d1", null ],
     [ "findOutliers", "namespacemrmeshpy.html#aeec0a22eaa07a78ac23b019cc0c01b39", null ],

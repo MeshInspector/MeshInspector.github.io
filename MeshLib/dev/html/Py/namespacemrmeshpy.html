@@ -3216,8 +3216,8 @@ Functions</h2></td></tr>
 <tr class="separator:a889859ff079c9ada743cb90b91b80194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a11035cfafbb9aa011124879a49df79" id="r_a3a11035cfafbb9aa011124879a49df79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a11035cfafbb9aa011124879a49df79">findNRingVerts</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, int n, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="separator:a3a11035cfafbb9aa011124879a49df79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1bdc88206809d40e7484137116eea35" id="r_aa1bdc88206809d40e7484137116eea35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1bdc88206809d40e7484137116eea35">findNeighborVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1PointOnFace.html">PointOnFace</a> start, float range)</td></tr>
-<tr class="separator:aa1bdc88206809d40e7484137116eea35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c66b02597c7d2a7ed987f85689100e" id="r_a15c66b02597c7d2a7ed987f85689100e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15c66b02597c7d2a7ed987f85689100e">findNeighborVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1PointOnFace.html">PointOnFace</a> start, float rangeSq)</td></tr>
+<tr class="separator:a15c66b02597c7d2a7ed987f85689100e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992ae659a10ae6102bf15a9c64a316d1" id="r_a992ae659a10ae6102bf15a9c64a316d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a992ae659a10ae6102bf15a9c64a316d1">findOuterLayer</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh)</td></tr>
 <tr class="separator:a992ae659a10ae6102bf15a9c64a316d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec0a22eaa07a78ac23b019cc0c01b39" id="r_aeec0a22eaa07a78ac23b019cc0c01b39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeec0a22eaa07a78ac23b019cc0c01b39">findOutliers</a> (<a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a> pc, <a class="el" href="classmrmeshpy_1_1FindOutliersParams.html">FindOutliersParams</a> params)</td></tr>
@@ -9132,7 +9132,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
       </table>
 </div><div class="memdoc">
 <pre class="fragment">computes Euclidean 3D distances from given start point to all neighbor vertices within given \\param range
-and to first vertices with the distance more or equal than range
+and to first vertices with the distance more than range
 </pre> 
 </div>
 </div>
@@ -16189,8 +16189,8 @@ every path has region faces on the left, and valid not-region faces on the right
 </pre> 
 </div>
 </div>
-<a id="aa1bdc88206809d40e7484137116eea35" name="aa1bdc88206809d40e7484137116eea35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1bdc88206809d40e7484137116eea35">&#9670;&#160;</a></span>findNeighborVerts()</h2>
+<a id="a15c66b02597c7d2a7ed987f85689100e" name="a15c66b02597c7d2a7ed987f85689100e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15c66b02597c7d2a7ed987f85689100e">&#9670;&#160;</a></span>findNeighborVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16208,12 +16208,13 @@ every path has region faces on the left, and valid not-region faces on the right
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>range</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>rangeSq</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">calculates all neighbor vertices within a given \\param range
-and to first vertices with the distance more or equal than range
+and to first vertices with the distance more than range
+\\param rangeSq square of range
 </pre> 
 </div>
 </div>

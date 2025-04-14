@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,1,0,1,139,0,1],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,1,123,0,1],
+"structMR_1_1CompensateRadiusParams.html":[6,0,1,0,1,143],
+"structMR_1_1CompensateRadiusParams.html":[6,0,2,0,1,127],
 "structMR_1_1CompensateRadiusParams.html#a05af941103d0a3f88ddcf7383bf82c67":[6,0,1,0,1,143,6],
 "structMR_1_1CompensateRadiusParams.html#a05af941103d0a3f88ddcf7383bf82c67":[6,0,2,0,1,127,6],
 "structMR_1_1CompensateRadiusParams.html#a3becc371ebe70ab58e91982390945d41":[6,0,1,0,1,143,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1DenseBox.html#ad18654ddb91781bc8e4d1417ce19a08e":[6,0,0,0,15,1],
 "structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d":[6,0,0,0,15,9],
 "structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802":[6,0,0,0,15,10],
-"structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[6,0,0,0,15,3],
-"structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
-"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,2],
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1]
+"structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[6,0,0,0,15,3]
 };
