@@ -1,13 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9":[6,0,0,0,15,5],
-"structMR_1_1DenseBox.html#aac374ad90e2a96d261ba863c1d6f46e2":[6,0,0,0,15,4],
-"structMR_1_1DenseBox.html#ad18654ddb91781bc8e4d1417ce19a08e":[6,0,0,0,15,1],
-"structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d":[6,0,0,0,15,9],
-"structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802":[6,0,0,0,15,10],
-"structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[6,0,0,0,15,3],
-"structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
-"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,2],
 "structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
 "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1],
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX67 =
 "structMR_1_1DrawSceneUiListener.html#a9ad4165746d1511ad8941854df82f3bd":[6,0,2,0,1,187,2],
 "structMR_1_1DrawSceneUiListener.html#aad0c51cef6318ea0951678fa501a7266":[6,0,1,0,1,203,0],
 "structMR_1_1DrawSceneUiListener.html#aad0c51cef6318ea0951678fa501a7266":[6,0,2,0,1,187,0],
-"structMR_1_1DrawSceneUiListener.html#af990ee45cf72b2f2d40e239500269393":[6,0,1,0,1,203,1]
+"structMR_1_1DrawSceneUiListener.html#af990ee45cf72b2f2d40e239500269393":[6,0,1,0,1,203,1],
+"structMR_1_1DrawSceneUiListener.html#af990ee45cf72b2f2d40e239500269393":[6,0,2,0,1,187,1],
+"structMR_1_1EdgeLengthMesh.html":[6,0,0,7,0],
+"structMR_1_1EdgeLengthMesh.html#a167ce08d19e1c861f1c9a08360456195":[6,0,0,7,0,1],
+"structMR_1_1EdgeLengthMesh.html#a1b96a29808fed26956890232f3996c95":[6,0,0,7,0,2],
+"structMR_1_1EdgeLengthMesh.html#a3b8d293f6ee11394128c078fc11bead8":[6,0,0,7,0,0],
+"structMR_1_1EdgeLengthMesh.html#a73fbab03758bfea01536569e133dd307":[6,0,0,7,0,3],
+"structMR_1_1EdgeLengthMesh.html#a8354d05ed17b358631b7af8e742c2773":[6,0,0,7,0,6],
+"structMR_1_1EdgeLengthMesh.html#abdc61c2dae8f243c3682e0dfc637f536":[6,0,0,7,0,4]
 };

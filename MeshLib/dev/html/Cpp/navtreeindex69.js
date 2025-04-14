@@ -1,13 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[6,0,1,0,1,6,0,0,18],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[6,0,2,0,1,2,0,0,18],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4148dbcf1b8080fed62d67986a18dee1":[6,0,1,0,1,6,0,0,1],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4148dbcf1b8080fed62d67986a18dee1":[6,0,2,0,1,2,0,0,1],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a52d74c8c1581a73964681c4273172f52":[6,0,1,0,1,6,0,0,10],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a52d74c8c1581a73964681c4273172f52":[6,0,2,0,1,2,0,0,10],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a6d82dd73c4e7a2c5455773425fb17871":[6,0,1,0,1,6,0,0,17],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a6d82dd73c4e7a2c5455773425fb17871":[6,0,2,0,1,2,0,0,17],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[6,0,1,0,1,6,0,0,12],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[6,0,2,0,1,2,0,0,12],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f96764db5c4750b318539f5c7ccf9b3":[6,0,1,0,1,6,0,0,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX69 =
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10":[6,0,0,9,4,0,0,1],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a4e891fd0a3fb80f7f59fe0f768d95554":[6,0,0,9,4,0,0,0],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7":[6,0,0,9,4,0,0,2],
-"structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980":[6,0,0,9,4,0,2]
+"structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980":[6,0,0,9,4,0,2],
+"structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e":[6,0,0,9,4,0,8],
+"structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01":[6,0,0,9,4,0,7],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,1,0,1,7,0],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,2,0,1,3,0],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,1,0,1,7,0,0],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,2,0,1,3,0,0],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,0,1,0,1,7,1],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,0,2,0,1,3,1]
 };

@@ -687,7 +687,6 @@ var annotated_dup =
       [ "PreciseVertCoord", "structMR_1_1PreciseVertCoord.html", "structMR_1_1PreciseVertCoord" ],
       [ "PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", "structMR_1_1PreciseVertCoords" ],
       [ "PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", "structMR_1_1PreciseVertCoords2" ],
-      [ "PreciseVertCoordsll", "structMR_1_1PreciseVertCoordsll.html", "structMR_1_1PreciseVertCoordsll" ],
       [ "PreDrawListener", "structMR_1_1PreDrawListener.html", "structMR_1_1PreDrawListener" ],
       [ "PriorityQueue", "classMR_1_1PriorityQueue.html", "classMR_1_1PriorityQueue" ],
       [ "ProgressInterrupter", "structMR_1_1ProgressInterrupter.html", "structMR_1_1ProgressInterrupter" ],

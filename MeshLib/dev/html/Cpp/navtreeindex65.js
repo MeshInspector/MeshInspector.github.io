@@ -1,13 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1BasicUiRenderTask.html#a269508abb07dd29213d99aada7db6d5e":[6,0,1,0,1,69,6],
-"structMR_1_1BasicUiRenderTask.html#a269508abb07dd29213d99aada7db6d5e":[6,0,2,0,1,53,6],
-"structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538":[6,0,1,0,1,69,10],
-"structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538":[6,0,2,0,1,53,10],
-"structMR_1_1BasicUiRenderTask.html#a7a289817074d4a9c546aca337082d21b":[6,0,1,0,1,69,5],
-"structMR_1_1BasicUiRenderTask.html#a7a289817074d4a9c546aca337082d21b":[6,0,2,0,1,53,5],
-"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,1,0,1,69,2],
-"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,2,0,1,53,2],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[6,0,1,0,1,69,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[6,0,2,0,1,53,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[6,0,1,0,1,69,1,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX65 =
 "structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[6,0,1,0,1,138,1],
 "structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[6,0,2,0,1,122,1],
 "structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[6,0,1,0,1,138,5],
-"structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[6,0,2,0,1,122,5]
+"structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[6,0,2,0,1,122,5],
+"structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[6,0,1,0,1,138,8],
+"structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[6,0,2,0,1,122,8],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,1,0,1,139,0],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,2,0,1,123,0],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,139,0,0],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,2,0,1,123,0,0],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,1,0,1,139,0,1],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,1,123,0,1]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[6,0,1,0,1,290,0],
-"structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[6,0,2,0,1,274,0],
-"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,1,0,1,290,2],
-"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,2,0,1,274,2],
-"structMR_1_1InflateSettings.html#a2b56de5e320c04500550d57d852fbb7b":[6,0,1,0,1,290,3],
-"structMR_1_1InflateSettings.html#a2b56de5e320c04500550d57d852fbb7b":[6,0,2,0,1,274,3],
-"structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50":[6,0,1,0,1,290,1],
-"structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50":[6,0,2,0,1,274,1],
 "structMR_1_1InterruptCloseListener.html":[6,0,1,0,1,293],
 "structMR_1_1InterruptCloseListener.html":[6,0,2,0,1,277],
 "structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,1,0,1,293,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX72 =
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d":[6,0,1,0,1,336,0,0],
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d":[6,0,2,0,1,320,0,0],
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,1,336,0,1],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754":[6,0,2,0,1,320,0,1]
+"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754":[6,0,2,0,1,320,0,1],
+"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0":[6,0,1,0,1,336,0,2],
+"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0":[6,0,2,0,1,320,0,2],
+"structMR_1_1MarchingCubesParams.html#ad2aa80147c810b8b84221bd763c2d1bc":[6,0,1,0,1,336,9],
+"structMR_1_1MarchingCubesParams.html#ad2aa80147c810b8b84221bd763c2d1bc":[6,0,2,0,1,320,9],
+"structMR_1_1MarchingCubesParams.html#adaced6444a2abeec7b4469778f8ace75":[6,0,1,0,1,336,2],
+"structMR_1_1MarchingCubesParams.html#adaced6444a2abeec7b4469778f8ace75":[6,0,2,0,1,320,2],
+"structMR_1_1MarchingCubesParams.html#ae07876a5272040c1fd50016127294f07":[6,0,1,0,1,336,5],
+"structMR_1_1MarchingCubesParams.html#ae07876a5272040c1fd50016127294f07":[6,0,2,0,1,320,5]
 };

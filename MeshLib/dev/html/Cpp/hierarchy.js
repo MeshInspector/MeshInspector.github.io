@@ -992,7 +992,6 @@ var hierarchy =
     [ "MR::PreciseVertCoord", "structMR_1_1PreciseVertCoord.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
-    [ "MR::PreciseVertCoordsll", "structMR_1_1PreciseVertCoordsll.html", null ],
     [ "MR::ImGuiMeasurementIndicators::PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", null ],
     [ "MR::PriorityQueue< T, P >", "classMR_1_1PriorityQueue.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor::ProcessResult", "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html", null ],
