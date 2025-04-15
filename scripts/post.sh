@@ -11,6 +11,5 @@ BASE_DIR=$(realpath $(dirname "$0"))
 # Conditionally run update_canonical.sh if TARGET_DIR is not "MeshLib/dev"
 if [ "$TARGET_DIR" == "MeshLib" ]; then
   "$BASE_DIR/update_canonical.sh" "$TARGET_DIR/html" "$URL_PREFIX"
+  "$BASE_DIR/remove_noindex.sh" "$TARGET_DIR/html" "whitelist.txt"
 fi
-
-"$BASE_DIR/remove_noindex.sh" "$TARGET_DIR/html" "whitelist.txt"
