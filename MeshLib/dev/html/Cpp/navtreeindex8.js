@@ -1,5 +1,13 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshThickness_8h.html#afd74f9f75fe9d97b4aa208e3fa498301":[6,0,3,0,0,1,4,220,7],
+"MRMeshThickness_8h_source.html":[6,0,3,0,0,1,4,220],
+"MRMeshToDistanceVolume_8h.html":[6,0,3,0,0,1,11,12],
+"MRMeshToDistanceVolume_8h.html#a150c8492a3dc820bde5db5249c54ba5d":[6,0,3,0,0,1,11,12,2],
+"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[6,0,3,0,0,1,11,12,4],
+"MRMeshToDistanceVolume_8h.html#a7cfd6d2c7fdde75ec5577e2e10511787":[6,0,3,0,0,1,11,12,3],
+"MRMeshToDistanceVolume_8h.html#a8588d03e436a418a22bb66f0f389f1ad":[6,0,3,0,0,1,11,12,5],
+"MRMeshToDistanceVolume_8h_source.html":[6,0,3,0,0,1,11,12],
 "MRMeshTopologyDiff_8h.html":[6,0,3,0,0,1,4,223],
 "MRMeshTopologyDiff_8h_source.html":[6,0,3,0,0,1,4,223],
 "MRMeshTrimWithPlane_8h.html":[6,0,3,0,0,1,4,224],
@@ -241,13 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshFwd_8h.html#a6af0b2fd25ab176b3cee3f22ab92372b":[6,0,3,0,0,1,4,199,120],
 "MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925a":[6,0,3,0,0,1,4,199,74],
 "MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b":[6,0,3,0,0,1,4,199,74,0],
-"MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553":[6,0,3,0,0,1,4,199,74,1],
-"MRMesh_2MRMeshFwd_8h.html#a6e262af332519e310390cebc4a585090":[6,0,3,0,0,1,4,199,42],
-"MRMesh_2MRMeshFwd_8h.html#a6f8b9797e8968735a685a81d8a6064d6":[6,0,3,0,0,1,4,199,68],
-"MRMesh_2MRMeshFwd_8h.html#a70998e19114b7179469682c1c31c77ae":[6,0,3,0,0,1,4,199,167],
-"MRMesh_2MRMeshFwd_8h.html#a71240e31e6360de8747ccbc34908954e":[6,0,3,0,0,1,4,199,129],
-"MRMesh_2MRMeshFwd_8h.html#a712806ee9f8b1b9a53133ddba57f7da7":[6,0,3,0,0,1,4,199,63],
-"MRMesh_2MRMeshFwd_8h.html#a71b68251cbaa5652878bc333c3b32ff3":[6,0,3,0,0,1,4,199,86],
-"MRMesh_2MRMeshFwd_8h.html#a724b5c04f6cc0a7eee3c3311fd378ebc":[6,0,3,0,0,1,4,199,9],
-"MRMesh_2MRMeshFwd_8h.html#a72fe2dac1a657948326edf5b02bde5e1":[6,0,3,0,0,1,4,199,78]
+"MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553":[6,0,3,0,0,1,4,199,74,1]
 };

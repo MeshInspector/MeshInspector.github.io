@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR.html#ae3bb1f96cee445baf5867b057f5d6b73":[6,0,1,0,1,1267],
+"namespaceMR.html#ae3f5900ab5832382ad11410977098452":[6,0,1,0,1,2258],
+"namespaceMR.html#ae404353d24dee8a7548853d3711fecaf":[6,0,1,0,1,2213],
+"namespaceMR.html#ae45bc0307c08b61de1db862894b9affd":[6,0,1,0,1,2367],
+"namespaceMR.html#ae471951bdf73171ae96368056485fe84":[6,0,1,0,1,2442],
+"namespaceMR.html#ae4c04995449710309dc72ed533991d7f":[6,0,1,0,1,963],
+"namespaceMR.html#ae5a23c27bb3bb838f31c354a2569981f":[6,0,1,0,1,1530],
+"namespaceMR.html#ae5dcb820660464b7454985abd2094832":[6,0,1,0,1,1658],
 "namespaceMR.html#ae5e9489254b51988519548546f68914a":[6,0,1,0,1,1891],
 "namespaceMR.html#ae62d8b1a2722dd8c71578f1b4bdcee07":[6,0,1,0,1,2151],
 "namespaceMR.html#ae6305342b0ad612816558b312b777ea4":[6,0,1,0,1,2177],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1ImGuiMath.html#ab2120d83ad46fc54b4a21db479448c46":[6,0,1,0,1,12,9],
 "namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283":[6,0,1,0,1,12,15],
 "namespaceMR_1_1ImGuiMath.html#ae3d880600a263c7ca9020c136c89220f":[6,0,1,0,1,12,18],
-"namespaceMR_1_1ImGuiMath.html#aec12d0bc0e82f7b60da894cd08419255":[6,0,1,0,1,12,10],
-"namespaceMR_1_1ImGuiMath_1_1detail.html":[6,0,1,0,1,12,0],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html":[6,0,1,0,1,13],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a332cd23bae44470d3c2076a7d5a5d0ef":[6,0,1,0,1,13,15],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd":[6,0,1,0,1,13,13],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73de":[6,0,1,0,1,13,9],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8":[6,0,1,0,1,13,9,0],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73dea35f16dc084a53860f5cb3962107d5378":[6,0,1,0,1,13,9,1],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a6029334be476b361570837d6592b4272":[6,0,1,0,1,13,12]
+"namespaceMR_1_1ImGuiMath.html#aec12d0bc0e82f7b60da894cd08419255":[6,0,1,0,1,12,10]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1Viewer.html#ab149079b6cfab119f1d82274c7e54ac6":[6,0,1,0,1,751,92],
+"classMR_1_1Viewer.html#ab149079b6cfab119f1d82274c7e54ac6":[6,0,2,0,1,735,92],
+"classMR_1_1Viewer.html#ab2409f30621eb315fb17072cbc831daf":[6,0,1,0,1,751,184],
+"classMR_1_1Viewer.html#ab2409f30621eb315fb17072cbc831daf":[6,0,2,0,1,735,184],
+"classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0":[6,0,1,0,1,751,159],
+"classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0":[6,0,2,0,1,735,159],
+"classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85":[6,0,1,0,1,751,31],
+"classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85":[6,0,2,0,1,735,31],
 "classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9":[6,0,1,0,1,751,14],
 "classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9":[6,0,2,0,1,735,14],
 "classMR_1_1Viewer.html#ab85b7bf9ec873e3253b2e214ced07544":[6,0,1,0,1,751,93],
@@ -241,13 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html":[6,0,1,0,1,755,0],
 "classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html":[6,0,2,0,1,739,0],
 "classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a2b40b2d1d9febe79a58c0f64f8aaf704":[6,0,1,0,1,755,0,2],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a2b40b2d1d9febe79a58c0f64f8aaf704":[6,0,2,0,1,739,0,2],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a5daa51d87dc540fd02b52303e05cbe20":[6,0,1,0,1,755,0,3],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a5daa51d87dc540fd02b52303e05cbe20":[6,0,2,0,1,739,0,3],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#aaa5d28c1a1167da338240df7e55ed438":[6,0,1,0,1,755,0,1],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#aaa5d28c1a1167da338240df7e55ed438":[6,0,2,0,1,739,0,1],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#ab3fe6a46824654fabde6d6f501eb8141":[6,0,1,0,1,755,0,0],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#ab3fe6a46824654fabde6d6f501eb8141":[6,0,2,0,1,739,0,0],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#aefce61dfeb872bbe04d722fc13f1a0ac":[6,0,1,0,1,755,0,4],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#aefce61dfeb872bbe04d722fc13f1a0ac":[6,0,2,0,1,739,0,4]
+"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a2b40b2d1d9febe79a58c0f64f8aaf704":[6,0,2,0,1,739,0,2]
 };

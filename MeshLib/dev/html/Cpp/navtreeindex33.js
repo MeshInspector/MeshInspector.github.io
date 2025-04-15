@@ -1,5 +1,13 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1ObjectPointsHolder.html#a6d544e708ad4ac5612035941e897ca16":[6,0,1,0,1,433,37],
+"classMR_1_1ObjectPointsHolder.html#a6d544e708ad4ac5612035941e897ca16":[6,0,2,0,1,417,37],
+"classMR_1_1ObjectPointsHolder.html#a6f85a9f56979c1853b75dcb8a1b3b94d":[6,0,1,0,1,433,7],
+"classMR_1_1ObjectPointsHolder.html#a6f85a9f56979c1853b75dcb8a1b3b94d":[6,0,2,0,1,417,7],
+"classMR_1_1ObjectPointsHolder.html#a6fea0837d122988e4317e021db887a42":[6,0,1,0,1,433,58],
+"classMR_1_1ObjectPointsHolder.html#a6fea0837d122988e4317e021db887a42":[6,0,2,0,1,417,58],
+"classMR_1_1ObjectPointsHolder.html#a704442d942ed959e077e867fd13df5ef":[6,0,1,0,1,433,28],
+"classMR_1_1ObjectPointsHolder.html#a704442d942ed959e077e867fd13df5ef":[6,0,2,0,1,417,28],
 "classMR_1_1ObjectPointsHolder.html#a77fbcb94dbd452d3429c4ca2b844bdc0":[6,0,1,0,1,433,20],
 "classMR_1_1ObjectPointsHolder.html#a77fbcb94dbd452d3429c4ca2b844bdc0":[6,0,2,0,1,417,20],
 "classMR_1_1ObjectPointsHolder.html#a78c753d70a86a6fc77e04749d52da72b":[6,0,1,0,1,433,42],
@@ -241,13 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Palette.html#a0e13a80e86634eb20de04d20376ac807":[6,0,1,0,1,464,17],
 "classMR_1_1Palette.html#a0e13a80e86634eb20de04d20376ac807":[6,0,2,0,1,448,17],
 "classMR_1_1Palette.html#a0e327c983c4976ba67d475ce981b76c8":[6,0,1,0,1,464,3],
-"classMR_1_1Palette.html#a0e327c983c4976ba67d475ce981b76c8":[6,0,2,0,1,448,3],
-"classMR_1_1Palette.html#a0f6bd2b1af38efa4b6e8ef7206071a6f":[6,0,1,0,1,464,10],
-"classMR_1_1Palette.html#a0f6bd2b1af38efa4b6e8ef7206071a6f":[6,0,2,0,1,448,10],
-"classMR_1_1Palette.html#a10a9188c6a6137b814291dc2e1d2073a":[6,0,1,0,1,464,6],
-"classMR_1_1Palette.html#a10a9188c6a6137b814291dc2e1d2073a":[6,0,2,0,1,448,6],
-"classMR_1_1Palette.html#a10dfbdae3b19c43baa0235a41667e4a4":[6,0,1,0,1,464,13],
-"classMR_1_1Palette.html#a10dfbdae3b19c43baa0235a41667e4a4":[6,0,2,0,1,448,13],
-"classMR_1_1Palette.html#a16b8a71ea5f75f665b1fa1c24368dba3":[6,0,1,0,1,464,2],
-"classMR_1_1Palette.html#a16b8a71ea5f75f665b1fa1c24368dba3":[6,0,2,0,1,448,2]
+"classMR_1_1Palette.html#a0e327c983c4976ba67d475ce981b76c8":[6,0,2,0,1,448,3]
 };

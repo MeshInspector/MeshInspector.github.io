@@ -247,7 +247,7 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRMeshFillHole_8h.html#adee8ece9f43a7c12aee3c89c140731d3":[6,0,3,0,0,1,5,33,3],
 "MRMeshC_2MRMeshFillHole_8h_source.html":[6,0,3,0,0,1,5,33],
 "MRMeshC_2MRMeshFixer_8h.html":[6,0,3,0,0,1,5,34],
-"MRMeshC_2MRMeshFixer_8h.html#a2cee47946660bc243974efdc6fd84e8e":[6,0,3,0,0,1,5,34,4],
-"MRMeshC_2MRMeshFixer_8h.html#a8037d2af8338ede3c649596c0e314db9":[6,0,3,0,0,1,5,34,3],
-"MRMeshC_2MRMeshFixer_8h.html#a83f178f07d932485ab32a4bd5280eb03":[6,0,3,0,0,1,5,34,6]
+"MRMeshC_2MRMeshFixer_8h.html#a1c2e4540df1f4d0517fe8adf422f5b7f":[6,0,3,0,0,1,5,34,12],
+"MRMeshC_2MRMeshFixer_8h.html#a28684376fcaa5ce88858b91b5488d976":[6,0,3,0,0,1,5,34,5],
+"MRMeshC_2MRMeshFixer_8h.html#a28684376fcaa5ce88858b91b5488d976aabf0306a92f393da88590fd3f5c20f04":[6,0,3,0,0,1,5,34,5,0]
 };

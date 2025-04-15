@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1RadiusMeasurementObject.html#a0be49754a007bf700b3ce5e94f689de0":[6,0,1,0,1,537,17],
+"classMR_1_1RadiusMeasurementObject.html#a0be49754a007bf700b3ce5e94f689de0":[6,0,2,0,1,521,17],
+"classMR_1_1RadiusMeasurementObject.html#a109a6f41417efadbe9e21c0a2054c9f5":[6,0,1,0,1,537,28],
+"classMR_1_1RadiusMeasurementObject.html#a109a6f41417efadbe9e21c0a2054c9f5":[6,0,2,0,1,521,28],
+"classMR_1_1RadiusMeasurementObject.html#a144d0e6bad6b4589084b64ca9cdb9dea":[6,0,1,0,1,537,30],
+"classMR_1_1RadiusMeasurementObject.html#a144d0e6bad6b4589084b64ca9cdb9dea":[6,0,2,0,1,521,30],
+"classMR_1_1RadiusMeasurementObject.html#a1b5aa08c8b28e86e8975727bc77f4ace":[6,0,1,0,1,537,16],
+"classMR_1_1RadiusMeasurementObject.html#a1b5aa08c8b28e86e8975727bc77f4ace":[6,0,2,0,1,521,16],
 "classMR_1_1RadiusMeasurementObject.html#a1ffb3dd2486ce97b6782022fd5302670":[6,0,1,0,1,537,22],
 "classMR_1_1RadiusMeasurementObject.html#a1ffb3dd2486ce97b6782022fd5302670":[6,0,2,0,1,521,22],
 "classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9":[6,0,1,0,1,537,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a44b4da055074668472c0c6167666a668":[6,0,1,0,1,30,5,0],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a44b4da055074668472c0c6167666a668":[6,0,2,0,1,17,5,0],
 "classMR_1_1RenderDistanceObject.html":[6,0,1,0,1,555],
-"classMR_1_1RenderDistanceObject.html":[6,0,2,0,1,539],
-"classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[6,0,1,0,1,555,0],
-"classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[6,0,2,0,1,539,0],
-"classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[6,0,1,0,1,555,1],
-"classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[6,0,2,0,1,539,1],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[6,0,1,0,1,31,1],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[6,0,2,0,1,18,1],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a29c87ece31c42b112098bfd2a019588e":[6,0,1,0,1,31,1,1],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a29c87ece31c42b112098bfd2a019588e":[6,0,2,0,1,18,1,1]
+"classMR_1_1RenderDistanceObject.html":[6,0,2,0,1,539]
 };
