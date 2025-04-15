@@ -1,5 +1,11 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1UI.html#afc1009af05439b78707e8372d21f9a87":[6,0,1,0,1,38,55],
+"namespaceMR_1_1UI.html#afe9bb305085b442bd865e843c59cb03f":[6,0,1,0,1,38,31],
+"namespaceMR_1_1UI.html#affdd9ce8585853bc545f4f60bda2611f":[6,0,1,0,1,38,24],
+"namespaceMR_1_1UI_1_1TestEngine.html":[6,0,1,0,1,38,1],
+"namespaceMR_1_1UI_1_1TestEngine.html#a3732226b2f7a19edeee17322b33fbe10":[6,0,1,0,1,38,1,8],
+"namespaceMR_1_1UI_1_1TestEngine.html#a6288bc5916d47bced805d24207db5942":[6,0,1,0,1,38,1,7],
 "namespaceMR_1_1UI_1_1TestEngine.html#a775aa83cc6e23820b3e00321d7c35da2":[6,0,1,0,1,38,1,6],
 "namespaceMR_1_1UI_1_1TestEngine.html#ab03a8df7be1624e161032bb386f8df62":[6,0,1,0,1,38,1,9],
 "namespaceMR_1_1UI_1_1TestEngine.html#abbf1d490037c289477160fdb25fb30f7":[6,0,1,0,1,38,1,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2":[6,0,2,0,13,4],
 "structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1],
 "structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
-"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
-"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
-"structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
-"structMREdgeId.html":[6,0,2,0,14],
-"structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,14,0],
-"structMREdgeTri.html":[6,0,2,0,15],
-"structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,15,0]
+"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshToDistanceVolume_8h_source.html":[6,0,3,0,0,1,11,12],
 "MRMeshTopologyDiff_8h.html":[6,0,3,0,0,1,4,223],
 "MRMeshTopologyDiff_8h_source.html":[6,0,3,0,0,1,4,223],
 "MRMeshTrimWithPlane_8h.html":[6,0,3,0,0,1,4,224],
@@ -147,6 +148,8 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshBuilder_8h_source.html":[6,0,3,0,0,1,4,182],
 "MRMesh_2MRMeshCollidePrecise_8h.html":[6,0,3,0,0,1,4,185],
 "MRMesh_2MRMeshCollidePrecise_8h_source.html":[6,0,3,0,0,1,4,185],
+"MRMesh_2MRMeshCollide_8h.html":[6,0,3,0,0,1,4,184],
+"MRMesh_2MRMeshCollide_8h_source.html":[6,0,3,0,0,1,4,184],
 "MRMesh_2MRMeshComponents_8h.html":[6,0,3,0,0,1,4,186],
 "MRMesh_2MRMeshComponents_8h_source.html":[6,0,3,0,0,1,4,186],
 "MRMesh_2MRMeshDecimate_8h.html":[6,0,3,0,0,1,4,187],
@@ -246,8 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshFwd_8h.html#a6f8b9797e8968735a685a81d8a6064d6":[6,0,3,0,0,1,4,199,68],
 "MRMesh_2MRMeshFwd_8h.html#a70998e19114b7179469682c1c31c77ae":[6,0,3,0,0,1,4,199,167],
 "MRMesh_2MRMeshFwd_8h.html#a71240e31e6360de8747ccbc34908954e":[6,0,3,0,0,1,4,199,129],
-"MRMesh_2MRMeshFwd_8h.html#a712806ee9f8b1b9a53133ddba57f7da7":[6,0,3,0,0,1,4,199,63],
-"MRMesh_2MRMeshFwd_8h.html#a71b68251cbaa5652878bc333c3b32ff3":[6,0,3,0,0,1,4,199,86],
-"MRMesh_2MRMeshFwd_8h.html#a724b5c04f6cc0a7eee3c3311fd378ebc":[6,0,3,0,0,1,4,199,9],
-"MRMesh_2MRMeshFwd_8h.html#a72fe2dac1a657948326edf5b02bde5e1":[6,0,3,0,0,1,4,199,78]
+"MRMesh_2MRMeshFwd_8h.html#a712806ee9f8b1b9a53133ddba57f7da7":[6,0,3,0,0,1,4,199,63]
 };

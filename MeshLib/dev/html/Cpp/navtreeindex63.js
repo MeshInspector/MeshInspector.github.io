@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
+"structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
+"structMREdgeId.html":[6,0,2,0,14],
+"structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,14,0],
+"structMREdgeTri.html":[6,0,2,0,15],
+"structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,15,0],
 "structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9":[6,0,2,0,15,1],
 "structMRFaceId.html":[6,0,2,0,16],
 "structMRFaceId.html#a204eb026775902b1b2437f81f085f6f9":[6,0,2,0,16,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5":[6,0,2,0,60,1],
 "structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,60,5],
 "structMRUndirectedEdgeId.html":[6,0,2,0,62],
-"structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,62,0],
-"structMRUniformSamplingSettings.html":[6,0,2,0,63],
-"structMRUniformSamplingSettings.html#a3661faaaac79fa783e93507d114aeea6":[6,0,2,0,63,2],
-"structMRUniformSamplingSettings.html#adf1fd2bf0258a6c592623791f771562d":[6,0,2,0,63,1],
-"structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,63,3],
-"structMRUniformSamplingSettings.html#afea94f2de617154b2959a6ba91d5fea2":[6,0,2,0,63,0],
-"structMRVariableEdgeTri.html":[6,0,2,0,64]
+"structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,62,0]
 };

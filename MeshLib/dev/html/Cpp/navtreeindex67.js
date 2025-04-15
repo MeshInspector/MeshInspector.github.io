@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1DenoiseViaNormalsSettings.html#aefcab784c5b10d3504130c0306359d5d":[6,0,1,0,1,174,5],
+"structMR_1_1DenoiseViaNormalsSettings.html#aefcab784c5b10d3504130c0306359d5d":[6,0,2,0,1,158,5],
+"structMR_1_1DenseBox.html":[6,0,0,0,15],
+"structMR_1_1DenseBox.html#a0ea02f370dc76e349984c62b5a3f6557":[6,0,0,0,15,7],
+"structMR_1_1DenseBox.html#a1d968d6262ca4a19b4f5610ef49dfdee":[6,0,0,0,15,6],
+"structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55":[6,0,0,0,15,2],
 "structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582":[6,0,0,0,15,0],
 "structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f":[6,0,0,0,15,8],
 "structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9":[6,0,0,0,15,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332":[6,0,2,0,1,185,7],
 "structMR_1_1DrawListener.html":[6,0,1,0,1,202],
 "structMR_1_1DrawListener.html":[6,0,2,0,1,186],
-"structMR_1_1DrawListener.html#a7761b901894d1b2ee8bf4f413b584755":[6,0,1,0,1,202,2],
-"structMR_1_1DrawListener.html#a7761b901894d1b2ee8bf4f413b584755":[6,0,2,0,1,186,2],
-"structMR_1_1DrawListener.html#a791aa3eda92161dc667525a1a0c826a5":[6,0,1,0,1,202,1],
-"structMR_1_1DrawListener.html#a791aa3eda92161dc667525a1a0c826a5":[6,0,2,0,1,186,1],
-"structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,1,0,1,202,3],
-"structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,2,0,1,186,3],
-"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,1,0,1,202,0]
+"structMR_1_1DrawListener.html#a7761b901894d1b2ee8bf4f413b584755":[6,0,1,0,1,202,2]
 };

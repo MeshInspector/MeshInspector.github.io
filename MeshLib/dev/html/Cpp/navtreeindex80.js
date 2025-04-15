@@ -1,5 +1,11 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1PythonExport_1_1ModuleData.html#a0fe7a81962a7cace96c7ec89855e1064":[6,0,1,0,1,531,0,0],
+"structMR_1_1PythonExport_1_1ModuleData.html#a0fe7a81962a7cace96c7ec89855e1064":[6,0,2,0,1,515,0,0],
+"structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a":[6,0,1,0,1,531,0,1],
+"structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a":[6,0,2,0,1,515,0,1],
+"structMR_1_1PythonFunctionAdder.html":[6,0,1,0,1,532],
+"structMR_1_1PythonFunctionAdder.html":[6,0,2,0,1,516],
 "structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f":[6,0,1,0,1,532,1],
 "structMR_1_1PythonFunctionAdder.html#a2ca843abaee9639fb1bee2abdbba2b2f":[6,0,2,0,1,516,1],
 "structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,1,0,1,532,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[6,0,1,0,1,579,0,1],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[6,0,2,0,1,563,0,1],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,1,0,1,579,0,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,2,0,1,563,0,0],
-"structMR_1_1RibbonMenuUIConfig.html":[6,0,1,0,1,580],
-"structMR_1_1RibbonMenuUIConfig.html":[6,0,2,0,1,564],
-"structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,1,0,1,580,6],
-"structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,2,0,1,564,6],
-"structMR_1_1RibbonMenuUIConfig.html#a6ef8462bce49279a9ec938eb5cc74d8e":[6,0,1,0,1,580,2],
-"structMR_1_1RibbonMenuUIConfig.html#a6ef8462bce49279a9ec938eb5cc74d8e":[6,0,2,0,1,564,2]
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,2,0,1,563,0,0]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Palette.html#a0713134025e93fe779411c27b522ce50":[6,0,1,0,1,464,11],
+"classMR_1_1Palette.html#a0713134025e93fe779411c27b522ce50":[6,0,2,0,1,448,11],
+"classMR_1_1Palette.html#a0e13a80e86634eb20de04d20376ac807":[6,0,1,0,1,464,17],
+"classMR_1_1Palette.html#a0e13a80e86634eb20de04d20376ac807":[6,0,2,0,1,448,17],
+"classMR_1_1Palette.html#a0e327c983c4976ba67d475ce981b76c8":[6,0,1,0,1,464,3],
+"classMR_1_1Palette.html#a0e327c983c4976ba67d475ce981b76c8":[6,0,2,0,1,448,3],
 "classMR_1_1Palette.html#a0f6bd2b1af38efa4b6e8ef7206071a6f":[6,0,1,0,1,464,10],
 "classMR_1_1Palette.html#a0f6bd2b1af38efa4b6e8ef7206071a6f":[6,0,2,0,1,448,10],
 "classMR_1_1Palette.html#a10a9188c6a6137b814291dc2e1d2073a":[6,0,1,0,1,464,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[6,0,2,0,1,463,0],
 "classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,480],
 "classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,2,0,1,464],
-"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,1,0,1,480,1],
-"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,2,0,1,464,1],
-"classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[6,0,1,0,1,480,2],
-"classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[6,0,2,0,1,464,2],
-"classMR_1_1PluginCloseOnChangePointCloud.html#ad910ff2766e17a565cfa33cb6eefc831":[6,0,1,0,1,480,3],
-"classMR_1_1PluginCloseOnChangePointCloud.html#ad910ff2766e17a565cfa33cb6eefc831":[6,0,2,0,1,464,3],
-"classMR_1_1PluginCloseOnChangePointCloud.html#ae215a7b0b1f5259e0bc87855f0b2e740":[6,0,1,0,1,480,0]
+"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,1,0,1,480,1]
 };

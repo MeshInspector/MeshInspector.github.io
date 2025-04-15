@@ -184,7 +184,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshBoundary.h", "MRMeshBoundary_8h.html", "MRMeshBoundary_8h" ],
     [ "MRMeshBuilder.h", "MRMesh_2MRMeshBuilder_8h.html", "MRMesh_2MRMeshBuilder_8h" ],
     [ "MRMeshBuilderTypes.h", "MRMeshBuilderTypes_8h.html", "MRMeshBuilderTypes_8h" ],
-    [ "MRMeshCollide.h", "MRMeshCollide_8h.html", "MRMeshCollide_8h" ],
+    [ "MRMeshCollide.h", "MRMesh_2MRMeshCollide_8h.html", "MRMesh_2MRMeshCollide_8h" ],
     [ "MRMeshCollidePrecise.h", "MRMesh_2MRMeshCollidePrecise_8h.html", "MRMesh_2MRMeshCollidePrecise_8h" ],
     [ "MRMeshComponents.h", "MRMesh_2MRMeshComponents_8h.html", "MRMesh_2MRMeshComponents_8h" ],
     [ "MRMeshDecimate.h", "MRMesh_2MRMeshDecimate_8h.html", "MRMesh_2MRMeshDecimate_8h" ],
