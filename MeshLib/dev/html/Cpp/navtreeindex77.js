@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,11,14,0,2,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300":[6,0,0,11,14,0,2,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9":[6,0,0,11,14,0,10],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a3020a0b0e97313d239308d5d16c7f9f3":[6,0,0,11,14,0,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8":[6,0,2,0,1,455,2],
 "structMR_1_1PdfParameters.html":[6,0,1,0,1,473],
 "structMR_1_1PdfParameters.html":[6,0,2,0,1,457],
-"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,1,0,1,473,1]
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,1,0,1,473,1],
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,2,0,1,457,1]
 };

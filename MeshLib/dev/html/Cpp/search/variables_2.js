@@ -19,7 +19,7 @@ var searchData=
   ['badrelativelocation_16',['badRelativeLocation',['../../Py/classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status.html#a2b474ba260354cbebc262e87be0529a8',1,'mrmeshpy::Features::MeasureResult::Status']]],
   ['badtriangulationmetric_17',['BadTriangulationMetric',['../group__FillHoleGroup.html#gac632bf42924389cba000b725ef53d7bc',1,'MR']]],
   ['bary_18',['bary',['../structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92',1,'MR::MeshTriPoint::bary'],['../structMR_1_1TriIntersectResult.html#afddaa2d62c7a7fcf3af2785e8551c268',1,'MR::TriIntersectResult::bary'],['../structMRMeshTriPoint.html#a54959a13027627d8dd832a55dd6ffe53',1,'MRMeshTriPoint::bary']]],
-  ['base_19',['base',['../../Py/classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a14aa055602082403e34c61d4b034e657',1,'mrmeshpy::TaggedBitSet_ICPElemtTag']]],
+  ['base_19',['base',['../../Py/classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a14aa055602082403e34c61d4b034e657',1,'mrmeshpy::TaggedBitSet_ICPElemtTag::base'],['../structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4',1,'MR::DirectionWidget::Arrow::base']]],
   ['baseaction2f_20',['BaseAction2f',['../../Py/classmrmeshpy_1_1GcodeProcessor.html#a3ffa15c3fb07cd7e6f95fc36dd93e2a7',1,'mrmeshpy::GcodeProcessor']]],
   ['baseaction3f_21',['BaseAction3f',['../../Py/classmrmeshpy_1_1GcodeProcessor.html#a1657cf6c991fc41029eee3630215802b',1,'mrmeshpy::GcodeProcessor']]],
   ['baseanglestep_22',['baseAngleStep',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e',1,'MR::FixUndercuts::ImproveDirectionParameters']]],

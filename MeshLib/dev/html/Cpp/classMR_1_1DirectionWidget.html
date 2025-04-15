@@ -178,11 +178,10 @@ $(function(){initNavTree('classMR_1_1DirectionWidget.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DirectionWidget_1_1ChangeDirAction.html">ChangeDirAction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This history action must be created before the change in widget's direction or base to make them undo-able.  <a href="classMR_1_1DirectionWidget_1_1ChangeDirAction.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DirectionWidget_1_1ChangeLengthAction.html">ChangeLengthAction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">history action for changing the length. It should be added to the history stack by user code  <a href="classMR_1_1DirectionWidget_1_1ChangeLengthAction.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DirectionWidget_1_1ChangeDirAction.html">ChangeDirAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This history action must be created before the change in widget's direction, base or length to make them undo-able.  <a href="classMR_1_1DirectionWidget_1_1ChangeDirAction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html">ChangeVisibleAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">history action for changing the visible. It should be added to the history stack by user code  <a href="classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#details">More...</a><br /></td></tr>
@@ -196,13 +195,21 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9ca4a443acb52233f6fd572babb9a72d" id="r_a9ca4a443acb52233f6fd572babb9a72d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca4a443acb52233f6fd572babb9a72d">create</a> (const Vector3f &amp;dir, const Vector3f &amp;base, float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, <a class="el" href="#aa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> onDirectionChanged, <a class="el" href="classMR_1_1Object.html">Object</a> *parent=nullptr)</td></tr>
-<tr class="separator:a9ca4a443acb52233f6fd572babb9a72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c48300967c5c63844c26bab44fbb2f" id="r_aa7c48300967c5c63844c26bab44fbb2f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7c48300967c5c63844c26bab44fbb2f">create</a> (<a class="el" href="classMR_1_1Object.html">Object</a> *parent=nullptr)</td></tr>
+<tr class="separator:aa7c48300967c5c63844c26bab44fbb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d4351e8ab58f288d52351d11efb325" id="r_a71d4351e8ab58f288d52351d11efb325"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71d4351e8ab58f288d52351d11efb325">create</a> (const Vector3f &amp;worldDir, const Vector3f &amp;worldBase, float worldLength, <a class="el" href="#aa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> onDirectionChanged, <a class="el" href="classMR_1_1Object.html">Object</a> *parent=nullptr)</td></tr>
+<tr class="separator:a71d4351e8ab58f288d52351d11efb325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a2acfb8fd29d43fee23934a66211193" id="r_a5a2acfb8fd29d43fee23934a66211193"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset</a> ()</td></tr>
 <tr class="separator:a5a2acfb8fd29d43fee23934a66211193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67a12d304a83009a1db343a406e4f46e" id="r_a67a12d304a83009a1db343a406e4f46e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67a12d304a83009a1db343a406e4f46e">setOnDirectionChangedCallback</a> (<a class="el" href="#aa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> cb)</td></tr>
 <tr class="memdesc:a67a12d304a83009a1db343a406e4f46e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manually set callback function.  <br /></td></tr>
 <tr class="separator:a67a12d304a83009a1db343a406e4f46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae541308fd431b72330eecbe49bd76a59" id="r_ae541308fd431b72330eecbe49bd76a59"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae541308fd431b72330eecbe49bd76a59">updateArrow</a> (const <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a> &amp;arrow)</td></tr>
+<tr class="memdesc:ae541308fd431b72330eecbe49bd76a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the arrow, in world space.  <br /></td></tr>
+<tr class="separator:ae541308fd431b72330eecbe49bd76a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255140a32cc6331fc4ab0919d6f4ef48" id="r_a255140a32cc6331fc4ab0919d6f4ef48"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255140a32cc6331fc4ab0919d6f4ef48">updateLocalArrow</a> (const <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a> &amp;arrow)</td></tr>
+<tr class="memdesc:a255140a32cc6331fc4ab0919d6f4ef48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the arrow in parent's space.  <br /></td></tr>
+<tr class="separator:a255140a32cc6331fc4ab0919d6f4ef48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29827ac67baeb7b760b6387c4656a046" id="r_a29827ac67baeb7b760b6387c4656a046"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29827ac67baeb7b760b6387c4656a046">updateDirection</a> (const Vector3f &amp;dir)</td></tr>
 <tr class="memdesc:a29827ac67baeb7b760b6387c4656a046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the direction of the arrow, in world space.  <br /></td></tr>
 <tr class="separator:a29827ac67baeb7b760b6387c4656a046"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,14 +223,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3ca40bd9656bf70367d8bac77cc29209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the base of the arrow in parent's space.  <br /></td></tr>
 <tr class="separator:a3ca40bd9656bf70367d8bac77cc29209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a919a4e2843ebcd0667b6572ba9d03caa" id="r_a919a4e2843ebcd0667b6572ba9d03caa"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a919a4e2843ebcd0667b6572ba9d03caa">updateLength</a> (float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>)</td></tr>
-<tr class="memdesc:a919a4e2843ebcd0667b6572ba9d03caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the length of the arrow.  <br /></td></tr>
+<tr class="memdesc:a919a4e2843ebcd0667b6572ba9d03caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the length of the arrow, in world space.  <br /></td></tr>
 <tr class="separator:a919a4e2843ebcd0667b6572ba9d03caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5eee310348d931ae6105ec16b3e43f3" id="r_ac5eee310348d931ae6105ec16b3e43f3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5eee310348d931ae6105ec16b3e43f3">updateArrow</a> (const Vector3f &amp;base, float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>)</td></tr>
-<tr class="memdesc:ac5eee310348d931ae6105ec16b3e43f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the base and the length of the arrow.  <br /></td></tr>
-<tr class="separator:ac5eee310348d931ae6105ec16b3e43f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2696f8f533806a5db94c1af1ebf0200b" id="r_a2696f8f533806a5db94c1af1ebf0200b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2696f8f533806a5db94c1af1ebf0200b">obj</a> () const</td></tr>
-<tr class="memdesc:a2696f8f533806a5db94c1af1ebf0200b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns internal data model object of this widget.  <br /></td></tr>
-<tr class="separator:a2696f8f533806a5db94c1af1ebf0200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf9aef0efe734dfcf237307de21f988" id="r_a8cf9aef0efe734dfcf237307de21f988"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cf9aef0efe734dfcf237307de21f988">updateLocalLength</a> (float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>)</td></tr>
+<tr class="memdesc:a8cf9aef0efe734dfcf237307de21f988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the length of the arrow in parent's space.  <br /></td></tr>
+<tr class="separator:a8cf9aef0efe734dfcf237307de21f988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6740ac9480b8cb2330ae4e01ff0b534" id="r_aa6740ac9480b8cb2330ae4e01ff0b534"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6740ac9480b8cb2330ae4e01ff0b534">obj</a> () const</td></tr>
+<tr class="memdesc:aa6740ac9480b8cb2330ae4e01ff0b534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns internal data model object of this widget.  <br /></td></tr>
+<tr class="separator:aa6740ac9480b8cb2330ae4e01ff0b534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f9a3921002f4bf6b9fccd0e978e48c9" id="r_a2f9a3921002f4bf6b9fccd0e978e48c9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f9a3921002f4bf6b9fccd0e978e48c9">setVisible</a> (bool visible)</td></tr>
 <tr class="memdesc:a2f9a3921002f4bf6b9fccd0e978e48c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the widget.  <br /></td></tr>
 <tr class="separator:a2f9a3921002f4bf6b9fccd0e978e48c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,6 +242,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a167c6b1a7f459b928ff38d1a1136b2cb" id="r_a167c6b1a7f459b928ff38d1a1136b2cb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a167c6b1a7f459b928ff38d1a1136b2cb">getColor</a> () const</td></tr>
 <tr class="memdesc:a167c6b1a7f459b928ff38d1a1136b2cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the color of the widget.  <br /></td></tr>
 <tr class="separator:a167c6b1a7f459b928ff38d1a1136b2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547334a4d09070805be994c2dcb47824" id="r_a547334a4d09070805be994c2dcb47824"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a547334a4d09070805be994c2dcb47824">getArrow</a> () const</td></tr>
+<tr class="memdesc:a547334a4d09070805be994c2dcb47824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arrow's properties, in world space.  <br /></td></tr>
+<tr class="separator:a547334a4d09070805be994c2dcb47824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1457c3dbaa0ebd7923ba303d3d1a98" id="r_a7b1457c3dbaa0ebd7923ba303d3d1a98"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b1457c3dbaa0ebd7923ba303d3d1a98">getLocalArrow</a> () const</td></tr>
+<tr class="memdesc:a7b1457c3dbaa0ebd7923ba303d3d1a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arrow's properties in parent's space.  <br /></td></tr>
+<tr class="separator:a7b1457c3dbaa0ebd7923ba303d3d1a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc4086befe1e92d69c93eff26a25ddf0" id="r_adc4086befe1e92d69c93eff26a25ddf0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc4086befe1e92d69c93eff26a25ddf0">getBase</a> () const</td></tr>
 <tr class="memdesc:adc4086befe1e92d69c93eff26a25ddf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the base of the widget, in world space.  <br /></td></tr>
 <tr class="separator:adc4086befe1e92d69c93eff26a25ddf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,8 +260,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af084f5d0be5faa483beedcd8e0efeb60" id="r_af084f5d0be5faa483beedcd8e0efeb60"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af084f5d0be5faa483beedcd8e0efeb60">getLocalDirection</a> () const</td></tr>
 <tr class="memdesc:af084f5d0be5faa483beedcd8e0efeb60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of the widget in parent's space.  <br /></td></tr>
 <tr class="separator:af084f5d0be5faa483beedcd8e0efeb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0128153cf5d0c06d9fdfd105c8255ba5" id="r_a0128153cf5d0c06d9fdfd105c8255ba5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0128153cf5d0c06d9fdfd105c8255ba5">getLength</a> () const</td></tr>
+<tr class="memdesc:a0128153cf5d0c06d9fdfd105c8255ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the arrow in world space.  <br /></td></tr>
+<tr class="separator:a0128153cf5d0c06d9fdfd105c8255ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda6f36244742f23c84a5e38c2d13d1b" id="r_abda6f36244742f23c84a5e38c2d13d1b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abda6f36244742f23c84a5e38c2d13d1b">getLocalLength</a> () const</td></tr>
+<tr class="memdesc:abda6f36244742f23c84a5e38c2d13d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the arrow in parent's space.  <br /></td></tr>
+<tr class="separator:abda6f36244742f23c84a5e38c2d13d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aba9720112d3e1c3b3b3e824211c962" id="r_a4aba9720112d3e1c3b3b3e824211c962"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1Object.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aba9720112d3e1c3b3b3e824211c962">getParentPtr</a> () const</td></tr>
-<tr class="memdesc:a4aba9720112d3e1c3b3b3e824211c962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns pointer to parent object, always not-null after <a class="el" href="#a9ca4a443acb52233f6fd572babb9a72d">create()</a> and before <a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset()</a>  <br /></td></tr>
+<tr class="memdesc:a4aba9720112d3e1c3b3b3e824211c962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns pointer to parent object, always not-null after <a class="el" href="#aa7c48300967c5c63844c26bab44fbb2f">create()</a> and before <a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset()</a>  <br /></td></tr>
 <tr class="separator:a4aba9720112d3e1c3b3b3e824211c962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11e755a24b227cd14672ec94bfcd5028" id="r_a11e755a24b227cd14672ec94bfcd5028"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e755a24b227cd14672ec94bfcd5028">isMouseBlocked</a> () const</td></tr>
 <tr class="memdesc:a11e755a24b227cd14672ec94bfcd5028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block or allow mouse editing (allowed by default)  <br /></td></tr>
@@ -283,8 +302,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9ca4a443acb52233f6fd572babb9a72d" name="a9ca4a443acb52233f6fd572babb9a72d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ca4a443acb52233f6fd572babb9a72d">&#9670;&#160;</a></span>create()</h2>
+<a id="a71d4351e8ab58f288d52351d11efb325" name="a71d4351e8ab58f288d52351d11efb325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71d4351e8ab58f288d52351d11efb325">&#9670;&#160;</a></span>create() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,17 +311,17 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::DirectionWidget::create </td>
           <td>(</td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>worldDir</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>base</em></span>, </td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>worldBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>length</em></span>, </td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>worldLength</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -318,14 +337,56 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Creates a new widget for visualizing the direction and adds it to scene subscribes to viewer events </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dir</td><td>initial direction </td></tr>
-    <tr><td class="paramname">base</td><td>initial base of the arrow </td></tr>
-    <tr><td class="paramname">length</td><td>length of the arrow </td></tr>
+    <tr><td class="paramname">worldDir</td><td>initial direction, in world space </td></tr>
+    <tr><td class="paramname">worldBase</td><td>initial base of the arrow, in world space </td></tr>
+    <tr><td class="paramname">worldLength</td><td>length of the arrow, in world space </td></tr>
     <tr><td class="paramname">onDirectionChanged</td><td>callback for the direction change </td></tr>
     <tr><td class="paramname">parent</td><td>parent object for the widget, nullptr means scene root </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aa7c48300967c5c63844c26bab44fbb2f" name="aa7c48300967c5c63844c26bab44fbb2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c48300967c5c63844c26bab44fbb2f">&#9670;&#160;</a></span>create() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::DirectionWidget::create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new widget for visualizing the direction and adds it to scene; subscribes to viewer events; intial local direction is (0,0,1), initial local base (0,0,0), the length is 1 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>parent object for the widget, nullptr means scene root </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a547334a4d09070805be994c2dcb47824" name="a547334a4d09070805be994c2dcb47824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a547334a4d09070805be994c2dcb47824">&#9670;&#160;</a></span>getArrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a> MR::DirectionWidget::getArrow </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the arrow's properties, in world space. </p>
 
 </div>
 </div>
@@ -386,6 +447,44 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0128153cf5d0c06d9fdfd105c8255ba5" name="a0128153cf5d0c06d9fdfd105c8255ba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0128153cf5d0c06d9fdfd105c8255ba5">&#9670;&#160;</a></span>getLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API float MR::DirectionWidget::getLength </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the length of the arrow in world space. </p>
+
+</div>
+</div>
+<a id="a7b1457c3dbaa0ebd7923ba303d3d1a98" name="a7b1457c3dbaa0ebd7923ba303d3d1a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b1457c3dbaa0ebd7923ba303d3d1a98">&#9670;&#160;</a></span>getLocalArrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a> MR::DirectionWidget::getLocalArrow </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the arrow's properties in parent's space. </p>
+
+</div>
+</div>
 <a id="afc07bd243ff36b48f7763c6ec96932d4" name="afc07bd243ff36b48f7763c6ec96932d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc07bd243ff36b48f7763c6ec96932d4">&#9670;&#160;</a></span>getLocalBase()</h2>
 
@@ -424,6 +523,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abda6f36244742f23c84a5e38c2d13d1b" name="abda6f36244742f23c84a5e38c2d13d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda6f36244742f23c84a5e38c2d13d1b">&#9670;&#160;</a></span>getLocalLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API float MR::DirectionWidget::getLocalLength </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the length of the arrow in parent's space. </p>
+
+</div>
+</div>
 <a id="a4aba9720112d3e1c3b3b3e824211c962" name="a4aba9720112d3e1c3b3b3e824211c962"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4aba9720112d3e1c3b3b3e824211c962">&#9670;&#160;</a></span>getParentPtr()</h2>
 
@@ -439,7 +557,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns pointer to parent object, always not-null after <a class="el" href="#a9ca4a443acb52233f6fd572babb9a72d">create()</a> and before <a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset()</a> </p>
+<p>Returns pointer to parent object, always not-null after <a class="el" href="#aa7c48300967c5c63844c26bab44fbb2f">create()</a> and before <a class="el" href="#a5a2acfb8fd29d43fee23934a66211193">reset()</a> </p>
 
 </div>
 </div>
@@ -487,8 +605,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2696f8f533806a5db94c1af1ebf0200b" name="a2696f8f533806a5db94c1af1ebf0200b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2696f8f533806a5db94c1af1ebf0200b">&#9670;&#160;</a></span>obj()</h2>
+<a id="aa6740ac9480b8cb2330ae4e01ff0b534" name="aa6740ac9480b8cb2330ae4e01ff0b534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6740ac9480b8cb2330ae4e01ff0b534">&#9670;&#160;</a></span>obj()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +615,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; MR::DirectionWidget::obj </td>
+          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp; MR::DirectionWidget::obj </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -614,8 +732,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac5eee310348d931ae6105ec16b3e43f3" name="ac5eee310348d931ae6105ec16b3e43f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5eee310348d931ae6105ec16b3e43f3">&#9670;&#160;</a></span>updateArrow()</h2>
+<a id="ae541308fd431b72330eecbe49bd76a59" name="ae541308fd431b72330eecbe49bd76a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae541308fd431b72330eecbe49bd76a59">&#9670;&#160;</a></span>updateArrow()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -623,17 +741,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::DirectionWidget::updateArrow </td>
           <td>(</td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>base</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>arrow</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>length</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Updates the base and the length of the arrow. </p>
+<p>Updates the arrow, in world space. </p>
 
 </div>
 </div>
@@ -690,7 +804,26 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Updates the length of the arrow. </p>
+<p>Updates the length of the arrow, in world space. </p>
+
+</div>
+</div>
+<a id="a255140a32cc6331fc4ab0919d6f4ef48" name="a255140a32cc6331fc4ab0919d6f4ef48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a255140a32cc6331fc4ab0919d6f4ef48">&#9670;&#160;</a></span>updateLocalArrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::DirectionWidget::updateLocalArrow </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>arrow</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates the arrow in parent's space. </p>
 
 </div>
 </div>
@@ -729,6 +862,25 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Updates the direction of the arrow in parent's space. </p>
+
+</div>
+</div>
+<a id="a8cf9aef0efe734dfcf237307de21f988" name="a8cf9aef0efe734dfcf237307de21f988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf9aef0efe734dfcf237307de21f988">&#9670;&#160;</a></span>updateLocalLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::DirectionWidget::updateLocalLength </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>length</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates the length of the arrow in parent's space. </p>
 
 </div>
 </div>

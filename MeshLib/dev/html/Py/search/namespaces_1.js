@@ -7,7 +7,7 @@ var searchData=
   ['mr_3a_3acuda_4',['Cuda',['../../Cpp/namespaceMR_1_1Cuda.html',1,'MR']]],
   ['mr_3a_3adetail_5',['detail',['../../Cpp/namespaceMR_1_1detail.html',1,'MR']]],
   ['mr_3a_3adetail_3a_3aunits_6',['Units',['../../Cpp/namespaceMR_1_1detail_1_1Units.html',1,'MR::detail']]],
-  ['mr_3a_3adirectionwidget_7',['DirectionWidget',['../../Cpp/classMR_1_1DirectionWidget_1_1ChangeDirAction.html',1,'MR']]],
+  ['mr_3a_3adirectionwidget_7',['DirectionWidget',['../../Cpp/structMR_1_1DirectionWidget_1_1Arrow.html',1,'MR']]],
   ['mr_3a_3adistancemapload_8',['DistanceMapLoad',['../../Cpp/namespaceMR_1_1DistanceMapLoad.html',1,'MR']]],
   ['mr_3a_3adistancemapsave_9',['DistanceMapSave',['../../Cpp/namespaceMR_1_1DistanceMapSave.html',1,'MR']]],
   ['mr_3a_3aembeddedpython_10',['EmbeddedPython',['../../Cpp/structMR_1_1EmbeddedPython_1_1Config.html',1,'MR']]],

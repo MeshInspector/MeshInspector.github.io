@@ -1,6 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1FixMeshDegeneraciesParams.html":[6,0,0,9,4,0],
 "structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce":[6,0,0,9,4,0,5],
 "structMR_1_1FixMeshDegeneraciesParams.html#a0eff7987d6820ff165e578fac210c66e":[6,0,0,9,4,0,1],
 "structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec":[6,0,0,9,4,0,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX70 =
 "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7":[6,0,2,0,1,262,3],
 "structMR_1_1IConnectable.html":[6,0,1,0,1,273],
 "structMR_1_1IConnectable.html":[6,0,2,0,1,257],
-"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,1,0,1,273,1]
+"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,1,0,1,273,1],
+"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,2,0,1,257,1]
 };

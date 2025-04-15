@@ -23,6 +23,7 @@ var hierarchy =
     [ "MR::RenderDimensions::AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", null ],
     [ "MR::AnyVisualizeMaskEnum", "classMR_1_1AnyVisualizeMaskEnum.html", null ],
     [ "MR::ArcInterpolationParams", "structMR_1_1ArcInterpolationParams.html", null ],
+    [ "MR::DirectionWidget::Arrow", "structMR_1_1DirectionWidget_1_1Arrow.html", null ],
     [ "MR::AsyncRequest", "classMR_1_1AsyncRequest.html", null ],
     [ "MR::AsyncTimer", "classMR_1_1AsyncTimer.html", null ],
     [ "auto_cast_trait< T >", "structauto__cast__trait.html", null ],
@@ -449,8 +450,7 @@ var hierarchy =
       [ "MR::ChangeVertsColorMapAction< T >", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
-        [ "MR::DirectionWidget::ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ],
-        [ "MR::DirectionWidget::ChangeLengthAction", "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html", null ]
+        [ "MR::DirectionWidget::ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ]
       ] ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
       [ "MR::DirectionWidget::ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", null ],
@@ -778,7 +778,6 @@ var hierarchy =
     [ "MRFillHoleNicelyParams", "structMRFillHoleNicelyParams.html", null ],
     [ "MRFillHoleParams", "structMRFillHoleParams.html", null ],
     [ "MRFindProjectionParameters", "structMRFindProjectionParameters.html", null ],
-    [ "MRFixMeshDegeneraciesParams", "structMRFixMeshDegeneraciesParams.html", null ],
     [ "MRFixSelfIntersectionsSettings", "structMRFixSelfIntersectionsSettings.html", null ],
     [ "MRGeneralOffsetParameters", "structMRGeneralOffsetParameters.html", null ],
     [ "MRGridToMeshSettings", "structMRGridToMeshSettings.html", null ],

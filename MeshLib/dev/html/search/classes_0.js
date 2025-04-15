@@ -52,8 +52,9 @@ var searchData=
   ['anyvisualizemaskenum_49',['AnyVisualizeMaskEnum',['.././Cpp/classMR_1_1AnyVisualizeMaskEnum.html',1,'MR::AnyVisualizeMaskEnum'],['.././Py/classmrmeshpy_1_1AnyVisualizeMaskEnum.html',1,'mrmeshpy::AnyVisualizeMaskEnum']]],
   ['arcinterpolationparams_50',['ArcInterpolationParams',['.././Cpp/structMR_1_1ArcInterpolationParams.html',1,'MR::ArcInterpolationParams'],['.././Py/classmrmeshpy_1_1ArcInterpolationParams.html',1,'mrmeshpy::ArcInterpolationParams']]],
   ['arcplane_51',['ArcPlane',['.././Py/classmrmeshpy_1_1ArcPlane.html',1,'mrmeshpy']]],
-  ['asyncrequest_52',['AsyncRequest',['.././Cpp/classMR_1_1AsyncRequest.html',1,'MR']]],
-  ['asynctimer_53',['AsyncTimer',['.././Cpp/classMR_1_1AsyncTimer.html',1,'MR']]],
-  ['auto_5fcast_5ftrait_54',['auto_cast_trait',['.././Cpp/structauto__cast__trait.html',1,'']]],
-  ['axis_55',['Axis',['.././Py/classmrmeshpy_1_1Axis.html',1,'mrmeshpy']]]
+  ['arrow_52',['Arrow',['.././Cpp/structMR_1_1DirectionWidget_1_1Arrow.html',1,'MR::DirectionWidget']]],
+  ['asyncrequest_53',['AsyncRequest',['.././Cpp/classMR_1_1AsyncRequest.html',1,'MR']]],
+  ['asynctimer_54',['AsyncTimer',['.././Cpp/classMR_1_1AsyncTimer.html',1,'MR']]],
+  ['auto_5fcast_5ftrait_55',['auto_cast_trait',['.././Cpp/structauto__cast__trait.html',1,'']]],
+  ['axis_56',['Axis',['.././Py/classmrmeshpy_1_1Axis.html',1,'mrmeshpy']]]
 ];
