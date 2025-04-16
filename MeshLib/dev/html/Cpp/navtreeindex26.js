@@ -1,13 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a2f82246258bdbbc07d22c1a2787a927c":[6,0,2,0,1,264,11],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a4de4580f14ebe2fb5af63fc6741d7628":[6,0,1,0,1,280,25],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a4de4580f14ebe2fb5af63fc6741d7628":[6,0,2,0,1,264,25],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a52e5752eba0a241abaf9ae699871adc9":[6,0,1,0,1,280,18],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a52e5752eba0a241abaf9ae699871adc9":[6,0,2,0,1,264,18],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a6a82ff715bd95b686f0cdef7b3e00cde":[6,0,1,0,1,280,24],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a6a82ff715bd95b686f0cdef7b3e00cde":[6,0,2,0,1,264,24],
-"classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a6bb0eb33d570a996fc88bc08275bfa83":[6,0,1,0,1,280,13],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a6bb0eb33d570a996fc88bc08275bfa83":[6,0,2,0,1,264,13],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a722aba57b9f60f0cce15bbbfee4b1cde":[6,0,1,0,1,280,23],
 "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a722aba57b9f60f0cce15bbbfee4b1cde":[6,0,2,0,1,264,23],
@@ -249,5 +241,13 @@ var NAVTREEINDEX26 =
 "classMR_1_1ImGuiMenu.html#a6a60ab6a3f2d56c380d10b0911d6c7b1":[6,0,2,0,1,272,39],
 "classMR_1_1ImGuiMenu.html#a6afa105ae1f7116d82db1d5068aef0ef":[6,0,1,0,1,288,109],
 "classMR_1_1ImGuiMenu.html#a6afa105ae1f7116d82db1d5068aef0ef":[6,0,2,0,1,272,109],
-"classMR_1_1ImGuiMenu.html#a6b675470dbdebfb5d03efb515c5e8b63":[6,0,1,0,1,288,67]
+"classMR_1_1ImGuiMenu.html#a6b675470dbdebfb5d03efb515c5e8b63":[6,0,1,0,1,288,67],
+"classMR_1_1ImGuiMenu.html#a6b675470dbdebfb5d03efb515c5e8b63":[6,0,2,0,1,272,67],
+"classMR_1_1ImGuiMenu.html#a6e66701283ee97b5ff913eb99b22b975":[6,0,1,0,1,288,99],
+"classMR_1_1ImGuiMenu.html#a6e66701283ee97b5ff913eb99b22b975":[6,0,2,0,1,272,99],
+"classMR_1_1ImGuiMenu.html#a6e83c3a2b5060c5372ee9c2bb1157282":[6,0,1,0,1,288,81],
+"classMR_1_1ImGuiMenu.html#a6e83c3a2b5060c5372ee9c2bb1157282":[6,0,2,0,1,272,81],
+"classMR_1_1ImGuiMenu.html#a6fcea5fac57d33dc003165a9ece2b51b":[6,0,1,0,1,288,73],
+"classMR_1_1ImGuiMenu.html#a6fcea5fac57d33dc003165a9ece2b51b":[6,0,2,0,1,272,73],
+"classMR_1_1ImGuiMenu.html#a70e1b99ed1657729d0a89c8c8bd00e59":[6,0,1,0,1,288,105]
 };

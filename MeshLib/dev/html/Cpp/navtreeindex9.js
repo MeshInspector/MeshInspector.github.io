@@ -1,13 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925a":[6,0,3,0,0,1,4,199,74],
-"MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b":[6,0,3,0,0,1,4,199,74,0],
-"MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553":[6,0,3,0,0,1,4,199,74,1],
-"MRMesh_2MRMeshFwd_8h.html#a6e262af332519e310390cebc4a585090":[6,0,3,0,0,1,4,199,42],
-"MRMesh_2MRMeshFwd_8h.html#a6f8b9797e8968735a685a81d8a6064d6":[6,0,3,0,0,1,4,199,68],
-"MRMesh_2MRMeshFwd_8h.html#a70998e19114b7179469682c1c31c77ae":[6,0,3,0,0,1,4,199,167],
-"MRMesh_2MRMeshFwd_8h.html#a71240e31e6360de8747ccbc34908954e":[6,0,3,0,0,1,4,199,129],
-"MRMesh_2MRMeshFwd_8h.html#a712806ee9f8b1b9a53133ddba57f7da7":[6,0,3,0,0,1,4,199,63],
 "MRMesh_2MRMeshFwd_8h.html#a71b68251cbaa5652878bc333c3b32ff3":[6,0,3,0,0,1,4,199,86],
 "MRMesh_2MRMeshFwd_8h.html#a724b5c04f6cc0a7eee3c3311fd378ebc":[6,0,3,0,0,1,4,199,9],
 "MRMesh_2MRMeshFwd_8h.html#a72fe2dac1a657948326edf5b02bde5e1":[6,0,3,0,0,1,4,199,78],
@@ -249,5 +241,13 @@ var NAVTREEINDEX9 =
 "MRMesh_2MRRelaxParams_8h.html#a6ab288ae813e1aa688312e31c258df71":[6,0,3,0,0,1,4,320,1],
 "MRMesh_2MRRelaxParams_8h.html#a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf":[6,0,3,0,0,1,4,320,1,0],
 "MRMesh_2MRRelaxParams_8h.html#a6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794":[6,0,3,0,0,1,4,320,1,1],
-"MRMesh_2MRRelaxParams_8h.html#ab3c3135929071104083ade4ce59d105d":[6,0,3,0,0,1,4,320,2]
+"MRMesh_2MRRelaxParams_8h.html#ab3c3135929071104083ade4ce59d105d":[6,0,3,0,0,1,4,320,2],
+"MRMesh_2MRRelaxParams_8h_source.html":[6,0,3,0,0,1,4,320],
+"MRMesh_2MRSaveSettings_8h.html":[6,0,3,0,0,1,4,326],
+"MRMesh_2MRSaveSettings_8h.html#a423dfbb3e8fe2d355d3569c58f27881f":[6,0,3,0,0,1,4,326,4],
+"MRMesh_2MRSaveSettings_8h.html#a7aba106487b0adfd357e9232e18a922f":[6,0,3,0,0,1,4,326,2],
+"MRMesh_2MRSaveSettings_8h.html#a7b5f265567104240be13bb0adc6d84f7":[6,0,3,0,0,1,4,326,3],
+"MRMesh_2MRSaveSettings_8h.html#aaaf0654d94eb8f4d35be77facbbf5acc":[6,0,3,0,0,1,4,326,6],
+"MRMesh_2MRSaveSettings_8h.html#abd32e37d07e3aaa58297c5f0168825a4":[6,0,3,0,0,1,4,326,7],
+"MRMesh_2MRSaveSettings_8h.html#acc1d104ed2e275977cf878d68073c9b2":[6,0,3,0,0,1,4,326,5]
 };

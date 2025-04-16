@@ -1,13 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"MRMeshC_2MRRegionBoundary_8h.html#a7fdc708f2761455e26e8e543377b3f07":[6,0,3,0,0,1,5,61,9],
-"MRMeshC_2MRRegionBoundary_8h.html#a8899be933e84f30d5641eb3f6822879a":[6,0,3,0,0,1,5,61,1],
-"MRMeshC_2MRRegionBoundary_8h.html#a9195080a7aded2f4f65baedbd5661cf0":[6,0,3,0,0,1,5,61,14],
-"MRMeshC_2MRRegionBoundary_8h.html#a9270480945bd5de3f120f4a03cdce4df":[6,0,3,0,0,1,5,61,13],
-"MRMeshC_2MRRegionBoundary_8h.html#a9c402f631e91302f4f37e7c6cd754e54":[6,0,3,0,0,1,5,61,11],
-"MRMeshC_2MRRegionBoundary_8h.html#ad08e67c36a7d246c429d47056fb85b6e":[6,0,3,0,0,1,5,61,5],
-"MRMeshC_2MRRegionBoundary_8h.html#ae14b44105f37e53baed3085de87bf0bc":[6,0,3,0,0,1,5,61,0],
-"MRMeshC_2MRRegionBoundary_8h_source.html":[6,0,3,0,0,1,5,61],
 "MRMeshC_2MRRelaxParams_8h.html":[6,0,3,0,0,1,5,62],
 "MRMeshC_2MRRelaxParams_8h.html#a0f65d0e2210e1e07f92ab8663eefb2d4":[6,0,3,0,0,1,5,62,2],
 "MRMeshC_2MRRelaxParams_8h.html#ae32cdaa62ff95d92145485d3b72a8cd6":[6,0,3,0,0,1,5,62,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX7 =
 "MRMeshThickness_8h.html#a3012b3adfc77002b6a98aa0d6d3df46d":[6,0,3,0,0,1,4,220,3],
 "MRMeshThickness_8h.html#a60ac6a54dbd6834e6e53a2b1eefbd033":[6,0,3,0,0,1,4,220,5],
 "MRMeshThickness_8h.html#a62d78e1acb3fb99a57d84e66392cf8a9":[6,0,3,0,0,1,4,220,9],
-"MRMeshThickness_8h.html#a72fc5e2c323877bad4144cd852748496":[6,0,3,0,0,1,4,220,4]
+"MRMeshThickness_8h.html#a72fc5e2c323877bad4144cd852748496":[6,0,3,0,0,1,4,220,4],
+"MRMeshThickness_8h.html#a7b7d6d6c842d2b1470c87e1a28ee7b07":[6,0,3,0,0,1,4,220,8],
+"MRMeshThickness_8h.html#afd74f9f75fe9d97b4aa208e3fa498301":[6,0,3,0,0,1,4,220,7],
+"MRMeshThickness_8h_source.html":[6,0,3,0,0,1,4,220],
+"MRMeshToDistanceVolume_8h.html":[6,0,3,0,0,1,11,12],
+"MRMeshToDistanceVolume_8h.html#a150c8492a3dc820bde5db5249c54ba5d":[6,0,3,0,0,1,11,12,2],
+"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[6,0,3,0,0,1,11,12,4],
+"MRMeshToDistanceVolume_8h.html#a7cfd6d2c7fdde75ec5577e2e10511787":[6,0,3,0,0,1,11,12,3],
+"MRMeshToDistanceVolume_8h.html#a8588d03e436a418a22bb66f0f389f1ad":[6,0,3,0,0,1,11,12,5]
 };

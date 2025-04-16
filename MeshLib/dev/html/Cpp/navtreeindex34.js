@@ -1,13 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classMR_1_1OutliersDetector.html#a6becc4c4034355314a33f130bcba2799":[6,0,1,0,1,460,0],
-"classMR_1_1OutliersDetector.html#a6becc4c4034355314a33f130bcba2799":[6,0,2,0,1,444,0],
-"classMR_1_1OutliersDetector.html#ab7b1de4b899eec78ae6014c69084741f":[6,0,1,0,1,460,5],
-"classMR_1_1OutliersDetector.html#ab7b1de4b899eec78ae6014c69084741f":[6,0,2,0,1,444,5],
-"classMR_1_1OutliersDetector.html#ad6e34a96f5e02bc6136a11a6d65888ff":[6,0,1,0,1,460,3],
-"classMR_1_1OutliersDetector.html#ad6e34a96f5e02bc6136a11a6d65888ff":[6,0,2,0,1,444,3],
-"classMR_1_1Palette.html":[6,0,1,0,1,464],
-"classMR_1_1Palette.html":[6,0,2,0,1,448],
 "classMR_1_1Palette.html#a0713134025e93fe779411c27b522ce50":[6,0,1,0,1,464,11],
 "classMR_1_1Palette.html#a0713134025e93fe779411c27b522ce50":[6,0,2,0,1,448,11],
 "classMR_1_1Palette.html#a0e13a80e86634eb20de04d20376ac807":[6,0,1,0,1,464,17],
@@ -249,5 +241,13 @@ var NAVTREEINDEX34 =
 "classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,2,0,1,463,1],
 "classMR_1_1PluginCloseOnChangeMesh.html#a5790fe8a480493d40913adc3812e1127":[6,0,1,0,1,479,2],
 "classMR_1_1PluginCloseOnChangeMesh.html#a5790fe8a480493d40913adc3812e1127":[6,0,2,0,1,463,2],
-"classMR_1_1PluginCloseOnChangeMesh.html#a7b94773fd2366584812415d8cc83b4c1":[6,0,1,0,1,479,4]
+"classMR_1_1PluginCloseOnChangeMesh.html#a7b94773fd2366584812415d8cc83b4c1":[6,0,1,0,1,479,4],
+"classMR_1_1PluginCloseOnChangeMesh.html#a7b94773fd2366584812415d8cc83b4c1":[6,0,2,0,1,463,4],
+"classMR_1_1PluginCloseOnChangeMesh.html#a8a6dc440df682b00feb1b9fd10eab31a":[6,0,1,0,1,479,3],
+"classMR_1_1PluginCloseOnChangeMesh.html#a8a6dc440df682b00feb1b9fd10eab31a":[6,0,2,0,1,463,3],
+"classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[6,0,1,0,1,479,0],
+"classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[6,0,2,0,1,463,0],
+"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,480],
+"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,2,0,1,464],
+"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,1,0,1,480,1]
 };
