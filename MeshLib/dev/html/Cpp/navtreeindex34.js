@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Palette.html":[6,0,1,0,1,464],
 "classMR_1_1Palette.html":[6,0,2,0,1,448],
 "classMR_1_1Palette.html#a0713134025e93fe779411c27b522ce50":[6,0,1,0,1,464,11],
 "classMR_1_1Palette.html#a0713134025e93fe779411c27b522ce50":[6,0,2,0,1,448,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1PluginCloseOnChangeMesh.html#a8a6dc440df682b00feb1b9fd10eab31a":[6,0,2,0,1,463,3],
 "classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[6,0,1,0,1,479,0],
 "classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[6,0,2,0,1,463,0],
-"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,480],
-"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,2,0,1,464]
+"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,480]
 };

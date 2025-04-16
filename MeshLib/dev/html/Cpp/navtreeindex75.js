@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1MeshPointAndDistance.html":[6,0,1,0,1,366],
+"structMR_1_1MeshPointAndDistance.html":[6,0,2,0,1,350],
 "structMR_1_1MeshPointAndDistance.html#a1a758547372340f32380f76222e7c0b0":[6,0,1,0,1,366,3],
 "structMR_1_1MeshPointAndDistance.html#a1a758547372340f32380f76222e7c0b0":[6,0,2,0,1,350,3],
 "structMR_1_1MeshPointAndDistance.html#a656e490b9dc2a583eca217f757e6a1db":[6,0,1,0,1,366,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1MouseMoveListener.html#a0b7f30726a8c465bca8afc299118b1e4":[6,0,1,0,1,389,0],
 "structMR_1_1MouseMoveListener.html#a0b7f30726a8c465bca8afc299118b1e4":[6,0,2,0,1,373,0],
 "structMR_1_1MouseMoveListener.html#a136930e6436eff60868cc01738648581":[6,0,1,0,1,389,3],
-"structMR_1_1MouseMoveListener.html#a136930e6436eff60868cc01738648581":[6,0,2,0,1,373,3],
-"structMR_1_1MouseMoveListener.html#a2aba30f5014dd6050922481a2fbb85e1":[6,0,1,0,1,389,2],
-"structMR_1_1MouseMoveListener.html#a2aba30f5014dd6050922481a2fbb85e1":[6,0,2,0,1,373,2]
+"structMR_1_1MouseMoveListener.html#a136930e6436eff60868cc01738648581":[6,0,2,0,1,373,3]
 };

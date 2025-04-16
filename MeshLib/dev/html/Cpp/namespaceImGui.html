@@ -245,6 +245,8 @@ Functions</h2></td></tr>
 <tr class="separator:a57a1654a1953301d7dca389a0dba5215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af082cf53c058ecd0adf21f0115b11121" id="r_af082cf53c058ecd0adf21f0115b11121"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af082cf53c058ecd0adf21f0115b11121">Plane</a> (<a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a> &amp;planeWidget, float menuScaling, <a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5">PlaneWidgetFlags</a> flags={})</td></tr>
 <tr class="separator:af082cf53c058ecd0adf21f0115b11121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8258976ae8bdfc2882e10e03831be422" id="r_a8258976ae8bdfc2882e10e03831be422"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8258976ae8bdfc2882e10e03831be422">Direction</a> (<a class="el" href="classMR_1_1DirectionWidget.html">MR::DirectionWidget</a> &amp;dirWidget, bool &amp;editDragging, const std::string &amp;historyName)</td></tr>
+<tr class="separator:a8258976ae8bdfc2882e10e03831be422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35ab4450ec9a2caa24b029e5c5c11ecb" id="r_a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ab4450ec9a2caa24b029e5c5c11ecb">Image</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const <a class="el" href="structMR_1_1Color.html">MR::Color</a> &amp;multColor)</td></tr>
 <tr class="memdesc:a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw image with Y-direction inversed up-down  <br /></td></tr>
 <tr class="separator:a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -514,6 +516,40 @@ template&lt;typename Getter , typename Setter &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8258976ae8bdfc2882e10e03831be422" name="a8258976ae8bdfc2882e10e03831be422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8258976ae8bdfc2882e10e03831be422">&#9670;&#160;</a></span>Direction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool ImGui::Direction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1DirectionWidget.html">MR::DirectionWidget</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dirWidget</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;</td>          <td class="paramname"><span class="paramname"><em>editDragging</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>historyName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shows 3 edit boxes for editing of world direction coordinates; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">editDragging</td><td>must be initialized with zero, used to append only one history action on start dragging; </td></tr>
+    <tr><td class="paramname">historyName</td><td>the name of history action created on start dragging; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the direction was changed inside </dd></dl>
 
 </div>
 </div>

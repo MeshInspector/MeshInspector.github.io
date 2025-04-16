@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1],
+"structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
 "structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
 "structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
 "structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMRTriangulationParameters.html#aabbfe3baa67992675fc7a023186160c3":[6,0,2,0,60,4],
 "structMRTriangulationParameters.html#ab85f0e5badf8970c30123cd74f679dd5":[6,0,2,0,60,6],
 "structMRTriangulationParameters.html#ad1d64fdef721fd0843a1ebdb1b96c472":[6,0,2,0,60,0],
-"structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5":[6,0,2,0,60,1],
-"structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,60,5],
-"structMRUndirectedEdgeId.html":[6,0,2,0,62]
+"structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5":[6,0,2,0,60,1]
 };

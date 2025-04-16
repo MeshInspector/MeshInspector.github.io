@@ -20,6 +20,7 @@ var ImGuiHelpers_8h =
     [ "Checkbox", "ImGuiHelpers_8h.html#a01e8908c9ff42e3510168251a97f1d48", null ],
     [ "Combo", "ImGuiHelpers_8h.html#ad58fef2244057ff2ad7eb1877f3b813a", null ],
     [ "Combo", "ImGuiHelpers_8h.html#a023d8107acf5b52a1594c2b935b824f0", null ],
+    [ "Direction", "ImGuiHelpers_8h.html#a8258976ae8bdfc2882e10e03831be422", null ],
     [ "DragFloatValid", "ImGuiHelpers_8h.html#a28e1c155304849c7d19acd541112fd83", null ],
     [ "DragFloatValid2", "ImGuiHelpers_8h.html#af6cde4f0c7ce90fbd8f1e25123620cca", null ],
     [ "DragFloatValid3", "ImGuiHelpers_8h.html#a1518948fa064c73b105776a73da476dc", null ],

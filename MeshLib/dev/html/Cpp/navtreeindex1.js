@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRCameraOrientationPlugin_8h.html":[6,0,3,0,0,1,0,0,0],
 "MRCameraOrientationPlugin_8h_source.html":[6,0,3,0,0,1,0,0,0],
 "MRCanonicalTypedefs_8h.html":[6,0,3,0,0,1,4,34],
 "MRCanonicalTypedefs_8h.html#a011d44bc0918ffa467a5150bc8a81e03":[6,0,3,0,0,1,4,34,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRDistanceMapLoad_8h.html":[6,0,3,0,0,1,4,82],
 "MRDistanceMapLoad_8h_source.html":[6,0,3,0,0,1,4,82],
 "MRDistanceMapParams_8h.html":[6,0,3,0,0,1,4,83],
-"MRDistanceMapParams_8h_source.html":[6,0,3,0,0,1,4,83],
-"MRDistanceMapSave_8h.html":[6,0,3,0,0,1,4,84]
+"MRDistanceMapParams_8h_source.html":[6,0,3,0,0,1,4,83]
 };

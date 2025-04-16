@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MROutlierPoints_8h.html#ab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584":[6,0,3,0,0,1,4,254,3,3],
 "MROutlierPoints_8h.html#ab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066":[6,0,3,0,0,1,4,254,3,1],
 "MROutlierPoints_8h.html#ab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f":[6,0,3,0,0,1,4,254,3,0],
 "MROutlierPoints_8h.html#ab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40":[6,0,3,0,0,1,4,254,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MRPybind11_8h_source.html":[6,0,3,0,0,1,7,0],
 "MRPythonAppendCommand_8h.html":[6,0,3,0,0,1,10,63],
 "MRPythonAppendCommand_8h.html#a01c442c33cfa7f1e68e1261ab49b71b5":[6,0,3,0,0,1,10,63,2],
-"MRPythonAppendCommand_8h.html#a0f61ad5fbd50836547b99cd10c78763f":[6,0,3,0,0,1,10,63,3],
-"MRPythonAppendCommand_8h.html#a98815b53a5018d4a910654f696d65b57":[6,0,3,0,0,1,10,63,1]
+"MRPythonAppendCommand_8h.html#a0f61ad5fbd50836547b99cd10c78763f":[6,0,3,0,0,1,10,63,3]
 };
