@@ -47,7 +47,7 @@ var NAVTREE =
         [ "Mesh Offset", "../ExampleMeshOffset.html", null ],
         [ "Mesh Fill Hole", "../ExampleMeshFillHole.html", null ],
         [ "Mesh Stitch Holes", "../ExampleMeshStitchHole.html", null ],
-        [ "Mesh Resolve Degenerations", "../ExampleMeshResolveDegenerations.html", null ],
+        [ "Mesh Fix Degeneracies", "../ExampleMeshFixDegeneracies.html", null ],
         [ "Global Registration", "../ExampleGlobalRegistration.html", null ],
         [ "Mesh ICP", "../ExampleMeshICP.html", null ],
         [ "Mesh Extrude", "../ExampleMeshExtrude.html", null ],
