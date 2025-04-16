@@ -1,13 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"classMR_1_1ObjectPointsHolder.html#a56ae0abc43ac144e212830cf2233d413":[6,0,1,0,1,433,49],
-"classMR_1_1ObjectPointsHolder.html#a56ae0abc43ac144e212830cf2233d413":[6,0,2,0,1,417,49],
-"classMR_1_1ObjectPointsHolder.html#a596ddb7a672b67d1d610a62a1e28e55a":[6,0,1,0,1,433,35],
-"classMR_1_1ObjectPointsHolder.html#a596ddb7a672b67d1d610a62a1e28e55a":[6,0,2,0,1,417,35],
-"classMR_1_1ObjectPointsHolder.html#a59f6f730af5ab18d05ad3792be57b210":[6,0,1,0,1,433,16],
-"classMR_1_1ObjectPointsHolder.html#a59f6f730af5ab18d05ad3792be57b210":[6,0,2,0,1,417,16],
-"classMR_1_1ObjectPointsHolder.html#a5bbb21ee63e49be34db52c3c870061a4":[6,0,1,0,1,433,57],
-"classMR_1_1ObjectPointsHolder.html#a5bbb21ee63e49be34db52c3c870061a4":[6,0,2,0,1,417,57],
 "classMR_1_1ObjectPointsHolder.html#a6188f5d044e81a3a0e220618684fa515":[6,0,1,0,1,433,9],
 "classMR_1_1ObjectPointsHolder.html#a6188f5d044e81a3a0e220618684fa515":[6,0,2,0,1,417,9],
 "classMR_1_1ObjectPointsHolder.html#a63b094a393073c94e180aece5eeb0729":[6,0,1,0,1,433,59],
@@ -249,5 +241,13 @@ var NAVTREEINDEX33 =
 "classMR_1_1OutliersDetector.html#a02666077b16515a2f9576574342f72a0":[6,0,1,0,1,460,1],
 "classMR_1_1OutliersDetector.html#a02666077b16515a2f9576574342f72a0":[6,0,2,0,1,444,1],
 "classMR_1_1OutliersDetector.html#a1154a1b3f20843accd3192e14c23769a":[6,0,1,0,1,460,4],
-"classMR_1_1OutliersDetector.html#a1154a1b3f20843accd3192e14c23769a":[6,0,2,0,1,444,4]
+"classMR_1_1OutliersDetector.html#a1154a1b3f20843accd3192e14c23769a":[6,0,2,0,1,444,4],
+"classMR_1_1OutliersDetector.html#a1df5e62392b1ff49fe78e24b80ec1694":[6,0,1,0,1,460,2],
+"classMR_1_1OutliersDetector.html#a1df5e62392b1ff49fe78e24b80ec1694":[6,0,2,0,1,444,2],
+"classMR_1_1OutliersDetector.html#a6becc4c4034355314a33f130bcba2799":[6,0,1,0,1,460,0],
+"classMR_1_1OutliersDetector.html#a6becc4c4034355314a33f130bcba2799":[6,0,2,0,1,444,0],
+"classMR_1_1OutliersDetector.html#ab7b1de4b899eec78ae6014c69084741f":[6,0,1,0,1,460,5],
+"classMR_1_1OutliersDetector.html#ab7b1de4b899eec78ae6014c69084741f":[6,0,2,0,1,444,5],
+"classMR_1_1OutliersDetector.html#ad6e34a96f5e02bc6136a11a6d65888ff":[6,0,1,0,1,460,3],
+"classMR_1_1OutliersDetector.html#ad6e34a96f5e02bc6136a11a6d65888ff":[6,0,2,0,1,444,3]
 };

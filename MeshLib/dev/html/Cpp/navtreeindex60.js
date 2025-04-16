@@ -1,13 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"namespaceMR.html#ae0f25876ce272b7da3ae953cd1469376":[6,0,1,0,1,2549],
-"namespaceMR.html#ae10a86deae3557a2d54360cfdb691313":[6,0,1,0,1,1646],
-"namespaceMR.html#ae11b2e799c8ac0a4a0308bdf021b1600":[6,0,1,0,1,2470],
-"namespaceMR.html#ae14e1033b3de0c30a6bb404e940dc424":[6,0,1,0,1,2615],
-"namespaceMR.html#ae1720596759ae985fe19f03af8b48c36":[6,0,1,0,1,2488],
-"namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435":[6,0,1,0,1,987],
-"namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469":[6,0,1,0,1,987,2],
-"namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,1,987,0],
 "namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435a74c53bcd3dcb2bb79993b2fec37d362a":[6,0,1,0,1,987,1],
 "namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512":[6,0,1,0,1,987,3],
 "namespaceMR.html#ae1e8b4194bf387abeb01e1aab7ca1cdb":[6,0,1,0,1,2319],
@@ -249,5 +241,13 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1FixUndercuts.html#af9e483356d616e2e73d144d845938851":[6,0,1,0,1,7,7],
 "namespaceMR_1_1FloatGridComponents.html":[6,0,1,0,1,8],
 "namespaceMR_1_1GcodeLoad.html":[6,0,1,0,1,9],
-"namespaceMR_1_1ImGuiMath.html":[6,0,1,0,1,12]
+"namespaceMR_1_1ImGuiMath.html":[6,0,1,0,1,12],
+"namespaceMR_1_1ImGuiMath.html#a12ab63056037f694d9ccdffda8ddb013":[6,0,1,0,1,12,14],
+"namespaceMR_1_1ImGuiMath.html#a1b10073d5f904b51b53263f742597596":[6,0,1,0,1,12,16],
+"namespaceMR_1_1ImGuiMath.html#a1ec7b8101f9329b606187e6018ad4728":[6,0,1,0,1,12,20],
+"namespaceMR_1_1ImGuiMath.html#a3efcf38853e709434fc3e781cef13f7a":[6,0,1,0,1,12,17],
+"namespaceMR_1_1ImGuiMath.html#a3f909828dc97dd9d3ebcc2c534d94968":[6,0,1,0,1,12,12],
+"namespaceMR_1_1ImGuiMath.html#a4d9817ccfff189d17647c34d8cb24c49":[6,0,1,0,1,12,5],
+"namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a":[6,0,1,0,1,12,8],
+"namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027":[6,0,1,0,1,12,19]
 };

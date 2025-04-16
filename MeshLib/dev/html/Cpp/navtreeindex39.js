@@ -1,13 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67":[6,0,2,0,1,556,2,0],
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8":[6,0,1,0,1,572,2,3],
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8":[6,0,2,0,1,556,2,3],
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384":[6,0,1,0,1,572,2,7],
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384":[6,0,2,0,1,556,2,7],
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0":[6,0,1,0,1,572,2,6],
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0":[6,0,2,0,1,556,2,6],
-"classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ad491538da818a2ba11a3195ba035cfd3":[6,0,1,0,1,572,2,4],
 "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ad491538da818a2ba11a3195ba035cfd3":[6,0,2,0,1,556,2,4],
 "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,572,2,8],
 "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,556,2,8],
@@ -249,5 +241,13 @@ var NAVTREEINDEX39 =
 "classMR_1_1RibbonMenuSearch.html":[6,0,2,0,1,563],
 "classMR_1_1RibbonMenuSearch.html#a9e21069323068b3d3e37691e3e2bdb09":[6,0,1,0,1,579,7],
 "classMR_1_1RibbonMenuSearch.html#a9e21069323068b3d3e37691e3e2bdb09":[6,0,2,0,1,563,7],
-"classMR_1_1RibbonMenuSearch.html#a9f8e00b4931028438808d8fc56c7a367":[6,0,1,0,1,579,9]
+"classMR_1_1RibbonMenuSearch.html#a9f8e00b4931028438808d8fc56c7a367":[6,0,1,0,1,579,9],
+"classMR_1_1RibbonMenuSearch.html#a9f8e00b4931028438808d8fc56c7a367":[6,0,2,0,1,563,9],
+"classMR_1_1RibbonMenuSearch.html#ab0a9a0a890de308d579a6b1226cdbc6b":[6,0,1,0,1,579,1],
+"classMR_1_1RibbonMenuSearch.html#ab0a9a0a890de308d579a6b1226cdbc6b":[6,0,2,0,1,563,1],
+"classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7":[6,0,1,0,1,579,4],
+"classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7":[6,0,2,0,1,563,4],
+"classMR_1_1RibbonMenuSearch.html#ac091dc76627f29a6d704646a477f55c5":[6,0,1,0,1,579,6],
+"classMR_1_1RibbonMenuSearch.html#ac091dc76627f29a6d704646a477f55c5":[6,0,2,0,1,563,6],
+"classMR_1_1RibbonMenuSearch.html#ac74ec292a21908372b2925b5aa868cf8":[6,0,1,0,1,579,5]
 };
