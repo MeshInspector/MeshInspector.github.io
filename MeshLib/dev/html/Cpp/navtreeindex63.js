@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
 "structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
 "structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
 "structMREdgeId.html":[6,0,2,0,14],
@@ -92,12 +93,12 @@ var NAVTREEINDEX63 =
 "structMRMatrix3f.html#a37136d0dd3e59903d93dce302d67ef80":[6,0,2,0,29,2],
 "structMRMatrix3f.html#a686868c956db1adad2118fb78bdf78a1":[6,0,2,0,29,0],
 "structMRMatrix3f.html#ae16453e4e2accbf33c6a671a6eaaf3f0":[6,0,2,0,29,1],
-"structMRMeshAddPartByMaskParameters.html":[6,0,2,0,30],
-"structMRMeshAddPartByMaskParameters.html#a44d229246d984354c601ed5d5c011ad2":[6,0,2,0,30,1],
-"structMRMeshAddPartByMaskParameters.html#a4abae4fa5c8338675546a7bfa72c835f":[6,0,2,0,30,4],
-"structMRMeshAddPartByMaskParameters.html#a82f29da791e5580c60d0985825060327":[6,0,2,0,30,2],
-"structMRMeshAddPartByMaskParameters.html#abd652b5aec7c21efa6b40cc1e4d72be9":[6,0,2,0,30,3],
-"structMRMeshAddPartByMaskParameters.html#ac49ea6f7631c4b8b6d59a3232b6787a2":[6,0,2,0,30,0],
+"structMRMeshAddMeshPartParameters.html":[6,0,2,0,30],
+"structMRMeshAddMeshPartParameters.html#a5269e1bab6ced8895bdca673d24e1b7c":[6,0,2,0,30,1],
+"structMRMeshAddMeshPartParameters.html#a82a303b8f1ab804167306fb5d9c8cd46":[6,0,2,0,30,3],
+"structMRMeshAddMeshPartParameters.html#a863b4de41ab82f7b51097b0245e014fc":[6,0,2,0,30,4],
+"structMRMeshAddMeshPartParameters.html#add36fe79b1de2d96387c287c602d09bf":[6,0,2,0,30,0],
+"structMRMeshAddMeshPartParameters.html#ade4034c914ba418f873d0415d9c5f618":[6,0,2,0,30,2],
 "structMRMeshComponentsMap.html":[6,0,2,0,31],
 "structMRMeshComponentsMap.html#a0c429d62c5f1e1b3d2b3a7c7e5bc4bb6":[6,0,2,0,31,1],
 "structMRMeshComponentsMap.html#a3467e2d4e586656d221e09cd01416c20":[6,0,2,0,31,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMRTriangulationParameters.html#ad1d64fdef721fd0843a1ebdb1b96c472":[6,0,2,0,60,0],
 "structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5":[6,0,2,0,60,1],
 "structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,60,5],
-"structMRUndirectedEdgeId.html":[6,0,2,0,62],
-"structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,62,0]
+"structMRUndirectedEdgeId.html":[6,0,2,0,62]
 };

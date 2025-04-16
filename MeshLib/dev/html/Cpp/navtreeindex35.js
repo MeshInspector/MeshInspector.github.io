@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,1,0,1,480,1],
 "classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,2,0,1,464,1],
 "classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[6,0,1,0,1,480,2],
 "classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[6,0,2,0,1,464,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[6,0,2,0,1,519,1],
 "classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,1,0,1,535,0],
 "classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,1,519,0],
-"classMR_1_1QuadricApprox.html":[6,0,0,0,14],
-"classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3":[6,0,0,0,14,2]
+"classMR_1_1QuadricApprox.html":[6,0,0,0,14]
 };

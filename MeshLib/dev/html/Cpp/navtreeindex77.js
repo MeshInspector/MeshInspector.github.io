@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1ObjectMeshData.html#aecc56cbf3bf02c4177ba5a773b807776":[6,0,1,0,1,430,6],
 "structMR_1_1ObjectMeshData.html#aecc56cbf3bf02c4177ba5a773b807776":[6,0,2,0,1,414,6],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[6,0,0,11,14,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b2551180d44dd12a9dd8b6f79cbd010":[6,0,0,11,14,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64":[6,0,2,0,1,455,4],
 "structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e":[6,0,1,0,1,471,5],
 "structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e":[6,0,2,0,1,455,5],
-"structMR_1_1PartMapping.html#a93477815f6da158c618e4d0e6cbd4479":[6,0,1,0,1,471,0],
-"structMR_1_1PartMapping.html#a93477815f6da158c618e4d0e6cbd4479":[6,0,2,0,1,455,0]
+"structMR_1_1PartMapping.html#a93477815f6da158c618e4d0e6cbd4479":[6,0,1,0,1,471,0]
 };

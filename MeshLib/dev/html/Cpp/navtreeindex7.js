@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"MRMeshC_2MRRegionBoundary_8h_source.html":[6,0,3,0,0,1,5,61],
 "MRMeshC_2MRRelaxParams_8h.html":[6,0,3,0,0,1,5,62],
 "MRMeshC_2MRRelaxParams_8h.html#a0f65d0e2210e1e07f92ab8663eefb2d4":[6,0,3,0,0,1,5,62,2],
 "MRMeshC_2MRRelaxParams_8h.html#ae32cdaa62ff95d92145485d3b72a8cd6":[6,0,3,0,0,1,5,62,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "MRMeshToDistanceVolume_8h.html":[6,0,3,0,0,1,11,12],
 "MRMeshToDistanceVolume_8h.html#a150c8492a3dc820bde5db5249c54ba5d":[6,0,3,0,0,1,11,12,2],
 "MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[6,0,3,0,0,1,11,12,4],
-"MRMeshToDistanceVolume_8h.html#a7cfd6d2c7fdde75ec5577e2e10511787":[6,0,3,0,0,1,11,12,3],
-"MRMeshToDistanceVolume_8h.html#a8588d03e436a418a22bb66f0f389f1ad":[6,0,3,0,0,1,11,12,5]
+"MRMeshToDistanceVolume_8h.html#a7cfd6d2c7fdde75ec5577e2e10511787":[6,0,3,0,0,1,11,12,3]
 };

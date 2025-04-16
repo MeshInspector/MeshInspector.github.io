@@ -141,7 +141,7 @@ var searchData=
   ['mrmaketorusparameters_138',['MRMakeTorusParameters',['../structMRMakeTorusParameters.html',1,'']]],
   ['mrmakeuvsphereparameters_139',['MRMakeUVSphereParameters',['../structMRMakeUVSphereParameters.html',1,'']]],
   ['mrmatrix3f_140',['MRMatrix3f',['../structMRMatrix3f.html',1,'']]],
-  ['mrmeshaddpartbymaskparameters_141',['MRMeshAddPartByMaskParameters',['../structMRMeshAddPartByMaskParameters.html',1,'']]],
+  ['mrmeshaddmeshpartparameters_141',['MRMeshAddMeshPartParameters',['../structMRMeshAddMeshPartParameters.html',1,'']]],
   ['mrmeshcomponentsmap_142',['MRMeshComponentsMap',['../structMRMeshComponentsMap.html',1,'']]],
   ['mrmeshloadnamedmesh_143',['MRMeshLoadNamedMesh',['../structMRMeshLoadNamedMesh.html',1,'']]],
   ['mrmeshloadobjloadsettings_144',['MRMeshLoadObjLoadSettings',['../structMRMeshLoadObjLoadSettings.html',1,'']]],

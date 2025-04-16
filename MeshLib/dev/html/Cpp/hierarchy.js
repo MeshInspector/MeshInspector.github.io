@@ -787,7 +787,7 @@ var hierarchy =
     [ "MRMakeTorusParameters", "structMRMakeTorusParameters.html", null ],
     [ "MRMakeUVSphereParameters", "structMRMakeUVSphereParameters.html", null ],
     [ "MRMatrix3f", "structMRMatrix3f.html", null ],
-    [ "MRMeshAddPartByMaskParameters", "structMRMeshAddPartByMaskParameters.html", null ],
+    [ "MRMeshAddMeshPartParameters", "structMRMeshAddMeshPartParameters.html", null ],
     [ "MRMeshComponentsMap", "structMRMeshComponentsMap.html", null ],
     [ "MRMeshLoadNamedMesh", "structMRMeshLoadNamedMesh.html", null ],
     [ "MRMeshLoadObjLoadSettings", "structMRMeshLoadObjLoadSettings.html", null ],

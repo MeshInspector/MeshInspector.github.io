@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1PartMapping.html#a93477815f6da158c618e4d0e6cbd4479":[6,0,2,0,1,455,0],
 "structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8":[6,0,1,0,1,471,2],
 "structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8":[6,0,2,0,1,455,2],
 "structMR_1_1PdfParameters.html":[6,0,1,0,1,473],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01":[6,0,2,0,1,16,0,0],
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,1,0,1,27,0,1],
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,2,0,1,16,0,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,1,0,1,27,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,1,16,1]
+"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,1,0,1,27,1]
 };

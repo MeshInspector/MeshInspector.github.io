@@ -10,6 +10,7 @@ var MRMeshC_2MRMeshFwd_8h =
     [ "MREdgeBitSet", "MRMeshC_2MRMeshFwd_8h.html#afe7b5eb2550df2844d90173c210184af", null ],
     [ "MRFaceBitSet", "MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc", null ],
     [ "MRMesh", "MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5", null ],
+    [ "MRMeshPart", "MRMeshC_2MRMeshFwd_8h.html#a877289e7c07441f8026608ae31c04b94", null ],
     [ "MRMeshTopology", "MRMeshC_2MRMeshFwd_8h.html#a7b3a7218b1a3774293f119358ece55c8", null ],
     [ "MRPointCloud", "MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753", null ],
     [ "MRPointsLoadSettings", "MRMeshC_2MRMeshFwd_8h.html#a4154c318451cdd0d2aff3d2c7686f0ce", null ],

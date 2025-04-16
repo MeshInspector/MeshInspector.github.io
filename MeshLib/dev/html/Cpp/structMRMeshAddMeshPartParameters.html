@@ -32,7 +32,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: Member List</title>
+<title>MeshLib C++ Docs: MRMeshAddMeshPartParameters Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -125,7 +125,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('structMRMeshAddPartByMaskParameters.html',''); initResizable(true); });
+$(function(){initNavTree('structMRMeshAddMeshPartParameters.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -151,23 +151,123 @@ $(function(){initNavTree('structMRMeshAddPartByMaskParameters.html',''); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MRMeshAddPartByMaskParameters Member List</div></div>
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structMRMeshAddMeshPartParameters-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MRMeshAddMeshPartParameters Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html#ac49ea6f7631c4b8b6d59a3232b6787a2">flipOrientation</a></td><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html#a44d229246d984354c601ed5d5c011ad2">fromContours</a></td><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html#a82f29da791e5580c60d0985825060327">fromContoursNum</a></td><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html#abd652b5aec7c21efa6b40cc1e4d72be9">thisContours</a></td><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html#a4abae4fa5c8338675546a7bfa72c835f">thisContoursNum</a></td><td class="entry"><a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>optional parameters for <a class="el" href="MRMeshC_2MRMesh_8h.html#aea09f74e545581bf9ae7358cb63ef823">mrMeshAddMeshPart</a>  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="MRMeshC_2MRMesh_8h_source.html">MRMesh.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:add36fe79b1de2d96387c287c602d09bf" id="r_add36fe79b1de2d96387c287c602d09bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add36fe79b1de2d96387c287c602d09bf">flipOrientation</a></td></tr>
+<tr class="memdesc:add36fe79b1de2d96387c287c602d09bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">if flipOrientation then every from triangle is inverted before adding  <br /></td></tr>
+<tr class="separator:add36fe79b1de2d96387c287c602d09bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82a303b8f1ab804167306fb5d9c8cd46" id="r_a82a303b8f1ab804167306fb5d9c8cd46"><td class="memItemLeft" align="right" valign="top">const MREdgePath *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82a303b8f1ab804167306fb5d9c8cd46">thisContours</a></td></tr>
+<tr class="memdesc:a82a303b8f1ab804167306fb5d9c8cd46"><td class="mdescLeft">&#160;</td><td class="mdescRight">contours on this mesh that have to be stitched with  <br /></td></tr>
+<tr class="separator:a82a303b8f1ab804167306fb5d9c8cd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a863b4de41ab82f7b51097b0245e014fc" id="r_a863b4de41ab82f7b51097b0245e014fc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a863b4de41ab82f7b51097b0245e014fc">thisContoursNum</a></td></tr>
+<tr class="separator:a863b4de41ab82f7b51097b0245e014fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5269e1bab6ced8895bdca673d24e1b7c" id="r_a5269e1bab6ced8895bdca673d24e1b7c"><td class="memItemLeft" align="right" valign="top">const MREdgePath *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5269e1bab6ced8895bdca673d24e1b7c">fromContours</a></td></tr>
+<tr class="memdesc:a5269e1bab6ced8895bdca673d24e1b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">contours on from mesh during addition  <br /></td></tr>
+<tr class="separator:a5269e1bab6ced8895bdca673d24e1b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4034c914ba418f873d0415d9c5f618" id="r_ade4034c914ba418f873d0415d9c5f618"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade4034c914ba418f873d0415d9c5f618">fromContoursNum</a></td></tr>
+<tr class="separator:ade4034c914ba418f873d0415d9c5f618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>optional parameters for <a class="el" href="MRMeshC_2MRMesh_8h.html#aea09f74e545581bf9ae7358cb63ef823">mrMeshAddMeshPart</a> </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="add36fe79b1de2d96387c287c602d09bf" name="add36fe79b1de2d96387c287c602d09bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add36fe79b1de2d96387c287c602d09bf">&#9670;&#160;</a></span>flipOrientation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MRMeshAddMeshPartParameters::flipOrientation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if flipOrientation then every from triangle is inverted before adding </p>
+
+</div>
+</div>
+<a id="a5269e1bab6ced8895bdca673d24e1b7c" name="a5269e1bab6ced8895bdca673d24e1b7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5269e1bab6ced8895bdca673d24e1b7c">&#9670;&#160;</a></span>fromContours</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const MREdgePath* MRMeshAddMeshPartParameters::fromContours</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>contours on from mesh during addition </p>
+
+</div>
+</div>
+<a id="ade4034c914ba418f873d0415d9c5f618" name="ade4034c914ba418f873d0415d9c5f618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4034c914ba418f873d0415d9c5f618">&#9670;&#160;</a></span>fromContoursNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MRMeshAddMeshPartParameters::fromContoursNum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82a303b8f1ab804167306fb5d9c8cd46" name="a82a303b8f1ab804167306fb5d9c8cd46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82a303b8f1ab804167306fb5d9c8cd46">&#9670;&#160;</a></span>thisContours</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const MREdgePath* MRMeshAddMeshPartParameters::thisContours</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>contours on this mesh that have to be stitched with </p>
+
+</div>
+</div>
+<a id="a863b4de41ab82f7b51097b0245e014fc" name="a863b4de41ab82f7b51097b0245e014fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a863b4de41ab82f7b51097b0245e014fc">&#9670;&#160;</a></span>thisContoursNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MRMeshAddMeshPartParameters::thisContoursNum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="MRMeshC_2MRMesh_8h_source.html">MRMeshC/MRMesh.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="structMRMeshAddMeshPartParameters.html">MRMeshAddMeshPartParameters</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

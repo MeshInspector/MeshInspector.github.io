@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,1,16,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,27,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,1,16,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,27,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1ProjectAttributeParams.html#a4ed7b5103a09ec50b55cc7d76e2fd9a5":[6,0,2,0,1,514,1],
 "structMR_1_1ProjectAttributeParams.html#af693ac66bc0bd5d4efcd44cde67cfda4":[6,0,1,0,1,530,0],
 "structMR_1_1ProjectAttributeParams.html#af693ac66bc0bd5d4efcd44cde67cfda4":[6,0,2,0,1,514,0],
-"structMR_1_1PythonExport_1_1ModuleData.html":[6,0,1,0,1,531,0],
-"structMR_1_1PythonExport_1_1ModuleData.html":[6,0,2,0,1,515,0]
+"structMR_1_1PythonExport_1_1ModuleData.html":[6,0,1,0,1,531,0]
 };

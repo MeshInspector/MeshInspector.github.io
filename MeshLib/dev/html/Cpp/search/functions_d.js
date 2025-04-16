@@ -455,7 +455,7 @@ var searchData=
   ['mrmcoffsetmesh_452',['mrMcOffsetMesh',['../MRMeshC_2MROffset_8h.html#a6c2edf878c38fb1033deae07ea94d45e',1,'MROffset.h']]],
   ['mrmcshellmeshregion_453',['mrMcShellMeshRegion',['../MRMeshC_2MROffset_8h.html#af70da9adcbba35b3a117eed9dce486a0',1,'MROffset.h']]],
   ['mrmeshaddmesh_454',['mrMeshAddMesh',['../MRMeshC_2MRMesh_8h.html#aedf2b2976695334c71ca14588e470216',1,'MRMesh.h']]],
-  ['mrmeshaddpartbymask_455',['mrMeshAddPartByMask',['../MRMeshC_2MRMesh_8h.html#ac129b6f0419f96dd02286b99fda3c673',1,'MRMesh.h']]],
+  ['mrmeshaddmeshpart_455',['mrMeshAddMeshPart',['../MRMeshC_2MRMesh_8h.html#aea09f74e545581bf9ae7358cb63ef823',1,'MRMesh.h']]],
   ['mrmesharea_456',['mrMeshArea',['../MRMeshC_2MRMesh_8h.html#a01a728db63ccfaeaa7cc8607e462742d',1,'MRMesh.h']]],
   ['mrmeshbuilderuniteclosevertices_457',['mrMeshBuilderUniteCloseVertices',['../MRMeshC_2MRMeshBuilder_8h.html#a40c632422a96198a2220d89219650f04',1,'MRMeshBuilder.h']]],
   ['mrmeshcomponentsallcomponentsmapfree_458',['mrMeshComponentsAllComponentsMapFree',['../MRMeshC_2MRMeshComponents_8h.html#a20f7b355c1dec2490be3ed611ff94dc5',1,'MRMeshComponents.h']]],

@@ -979,7 +979,7 @@ var searchData=
   ['mrmesh_2fmrvector_2eh_976',['MRMesh/MRVector.h',['../../Cpp/MRMesh_2MRVector_8h.html',1,'']]],
   ['mrmesh_2fmrvector3_2eh_977',['MRMesh/MRVector3.h',['../../Cpp/MRMesh_2MRVector3_8h.html',1,'']]],
   ['mrmesh_2fmrvectortraits_2eh_978',['MRMesh/MRVectorTraits.h',['../../Cpp/MRMesh_2MRVectorTraits_8h.html',1,'']]],
-  ['mrmeshaddpartbymaskparameters_979',['MRMeshAddPartByMaskParameters',['../../Cpp/structMRMeshAddPartByMaskParameters.html',1,'']]],
+  ['mrmeshaddmeshpartparameters_979',['MRMeshAddMeshPartParameters',['../../Cpp/structMRMeshAddMeshPartParameters.html',1,'']]],
   ['mrmeshattributestoupdate_2eh_980',['MRMeshAttributesToUpdate.h',['../../Cpp/MRMeshAttributesToUpdate_8h.html',1,'']]],
   ['mrmeshbooleanfacade_2eh_981',['MRMeshBooleanFacade.h',['../../Cpp/MRMeshBooleanFacade_8h.html',1,'']]],
   ['mrmeshboundary_2eh_982',['MRMeshBoundary.h',['../../Cpp/MRMeshBoundary_8h.html',1,'']]],

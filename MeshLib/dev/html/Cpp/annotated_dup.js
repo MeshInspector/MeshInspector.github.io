@@ -983,7 +983,7 @@ var annotated_dup =
     [ "MRMakeTorusParameters", "structMRMakeTorusParameters.html", "structMRMakeTorusParameters" ],
     [ "MRMakeUVSphereParameters", "structMRMakeUVSphereParameters.html", "structMRMakeUVSphereParameters" ],
     [ "MRMatrix3f", "structMRMatrix3f.html", "structMRMatrix3f" ],
-    [ "MRMeshAddPartByMaskParameters", "structMRMeshAddPartByMaskParameters.html", "structMRMeshAddPartByMaskParameters" ],
+    [ "MRMeshAddMeshPartParameters", "structMRMeshAddMeshPartParameters.html", "structMRMeshAddMeshPartParameters" ],
     [ "MRMeshComponentsMap", "structMRMeshComponentsMap.html", "structMRMeshComponentsMap" ],
     [ "MRMeshLoadNamedMesh", "structMRMeshLoadNamedMesh.html", "structMRMeshLoadNamedMesh" ],
     [ "MRMeshLoadObjLoadSettings", "structMRMeshLoadObjLoadSettings.html", "structMRMeshLoadObjLoadSettings" ],

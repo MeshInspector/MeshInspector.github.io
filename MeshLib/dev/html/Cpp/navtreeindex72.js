@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[6,0,2,0,1,275,1],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,1,0,1,291,0],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,2,0,1,275,0],
 "structMR_1_1InSphereSearchSettings.html":[6,0,1,0,1,292],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[6,0,2,0,1,318,0],
 "structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[6,0,1,0,1,334,3],
 "structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[6,0,2,0,1,318,3],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[6,0,1,0,1,334,1],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[6,0,2,0,1,318,1]
+"structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[6,0,1,0,1,334,1]
 };
