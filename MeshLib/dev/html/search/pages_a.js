@@ -5,7 +5,7 @@ var searchData=
   ['mesh_2',['Convert text to mesh',['../ExampleMeshFromText.html',1,'']]],
   ['mesh_20boolean_3',['Mesh Boolean',['../ExampleMeshBoolean.html',1,'']]],
   ['mesh_20decimation_4',['Mesh Decimation',['../ExampleMeshDecimate.html',1,'']]],
-  ['mesh_20degeneration_5',['Resolving Mesh Degeneration',['../ExampleMeshResolveDegenerations.html',1,'']]],
+  ['mesh_20degeneracies_5',['Fixing Mesh Degeneracies',['../ExampleMeshFixDegeneracies.html',1,'']]],
   ['mesh_20export_6',['Mesh export',['../ExampleMeshExport.html',1,'']]],
   ['mesh_20extrude_7',['Mesh extrude',['../ExampleMeshExtrude.html',1,'']]],
   ['mesh_20files_8',['Loading and saving mesh files',['../ExampleMeshLoadSave.html',1,'']]],
