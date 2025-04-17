@@ -1,5 +1,9 @@
 var NAVTREEINDEX54 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[6,1,0,0,2,574],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[6,1,1,0,1,574],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[6,1,0,0,2,574,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[6,1,1,0,1,574,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[6,1,0,0,2,574,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[6,1,0,0,2,574,2],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[6,1,1,0,1,574,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1ObjectDistanceMap.html#a270bf3bb4e1d5ebe595bc72c4b192aa3":[6,1,0,0,2,554,13],
 "classmrmeshpy_1_1ObjectDistanceMap.html#a270bf3bb4e1d5ebe595bc72c4b192aa3":[6,1,1,0,1,554,13],
 "classmrmeshpy_1_1ObjectDistanceMap.html#a34bbc4995ca2e7a029ce01df0773d583":[6,1,0,0,2,554,2],
-"classmrmeshpy_1_1ObjectDistanceMap.html#a34bbc4995ca2e7a029ce01df0773d583":[6,1,1,0,1,554,2],
-"classmrmeshpy_1_1ObjectDistanceMap.html#a4547e044933fcba7f42179b0d72505e5":[6,1,0,0,2,554,11],
-"classmrmeshpy_1_1ObjectDistanceMap.html#a4547e044933fcba7f42179b0d72505e5":[6,1,1,0,1,554,11],
-"classmrmeshpy_1_1ObjectDistanceMap.html#a728f9c3b70bcc06c8995b5e7208958bb":[6,1,0,0,2,554,14],
-"classmrmeshpy_1_1ObjectDistanceMap.html#a728f9c3b70bcc06c8995b5e7208958bb":[6,1,1,0,1,554,14]
+"classmrmeshpy_1_1ObjectDistanceMap.html#a34bbc4995ca2e7a029ce01df0773d583":[6,1,1,0,1,554,2]
 };

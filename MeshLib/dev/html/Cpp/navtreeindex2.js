@@ -1,5 +1,9 @@
 var NAVTREEINDEX2 =
 {
+"MRDistanceMapLoad_8h.html":[6,0,3,0,0,1,4,82],
+"MRDistanceMapLoad_8h_source.html":[6,0,3,0,0,1,4,82],
+"MRDistanceMapParams_8h.html":[6,0,3,0,0,1,4,83],
+"MRDistanceMapParams_8h_source.html":[6,0,3,0,0,1,4,83],
 "MRDistanceMapSave_8h.html":[6,0,3,0,0,1,4,84],
 "MRDistanceMapSave_8h_source.html":[6,0,3,0,0,1,4,84],
 "MRDistanceMap_8h.html":[6,0,3,0,0,1,4,81],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "MRFrameRedrawRequest_8h.html":[6,0,3,0,0,1,10,23],
 "MRFrameRedrawRequest_8h_source.html":[6,0,3,0,0,1,10,23],
 "MRGLMacro_8h.html":[6,0,3,0,0,1,10,26],
-"MRGLMacro_8h.html#ab4347896d8853c18f862de0996dd70e7":[6,0,3,0,0,1,10,26,0],
-"MRGLMacro_8h_source.html":[6,0,3,0,0,1,10,26],
-"MRGLStaticHolder_8h.html":[6,0,3,0,0,1,10,27],
-"MRGLStaticHolder_8h_source.html":[6,0,3,0,0,1,10,27],
-"MRGLTexture_8h.html":[6,0,3,0,0,1,10,28]
+"MRGLMacro_8h.html#ab4347896d8853c18f862de0996dd70e7":[6,0,3,0,0,1,10,26,0]
 };

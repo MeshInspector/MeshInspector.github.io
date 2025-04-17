@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1TextMeshAlignParams.html#a0143426333f9af60f5d1a57c6a9f0379":[6,1,0,0,2,964,2],
+"classmrmeshpy_1_1TextMeshAlignParams.html#a0143426333f9af60f5d1a57c6a9f0379":[6,1,1,0,1,964,2],
+"classmrmeshpy_1_1TextMeshAlignParams.html#a0f482c3cb0a5861dd1399b8493d4d6fe":[6,1,0,0,2,964,6],
+"classmrmeshpy_1_1TextMeshAlignParams.html#a0f482c3cb0a5861dd1399b8493d4d6fe":[6,1,1,0,1,964,6],
 "classmrmeshpy_1_1TextMeshAlignParams.html#a1612e78d055f3a3480de0ceb600025c7":[6,1,0,0,2,964,10],
 "classmrmeshpy_1_1TextMeshAlignParams.html#a1612e78d055f3a3480de0ceb600025c7":[6,1,1,0,1,964,10],
 "classmrmeshpy_1_1TextMeshAlignParams.html#a253a6c2d4ea3ebc89386085636d36ce1":[6,1,0,0,2,964,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1TiffParameters.html":[6,1,0,0,2,968],
 "classmrmeshpy_1_1TiffParameters.html":[6,1,1,0,1,968],
 "classmrmeshpy_1_1TiffParameters.html#a1f45c922ee0e86478df53b1824c96008":[6,1,0,0,2,968,1],
-"classmrmeshpy_1_1TiffParameters.html#a1f45c922ee0e86478df53b1824c96008":[6,1,1,0,1,968,1],
-"classmrmeshpy_1_1TiffParameters.html#a4f2544a1815776aced43a261cfc36680":[6,1,0,0,2,968,3],
-"classmrmeshpy_1_1TiffParameters.html#a4f2544a1815776aced43a261cfc36680":[6,1,1,0,1,968,3],
-"classmrmeshpy_1_1TiffParameters.html#a52b21988e55e57f1a430dee3e185e0b7":[6,1,0,0,2,968,5],
-"classmrmeshpy_1_1TiffParameters.html#a52b21988e55e57f1a430dee3e185e0b7":[6,1,1,0,1,968,5]
+"classmrmeshpy_1_1TiffParameters.html#a1f45c922ee0e86478df53b1824c96008":[6,1,1,0,1,968,1]
 };
