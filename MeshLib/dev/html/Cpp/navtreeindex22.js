@@ -1,13 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,2,0,1,163,2,1],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a":[6,0,1,0,1,179,2,0],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a":[6,0,2,0,1,163,2,0],
-"classMR_1_1DistanceMap.html":[6,0,0,5,0],
-"classMR_1_1DistanceMap.html#a00a3638fd3d285e192befb047bf95db2":[6,0,0,5,0,35],
-"classMR_1_1DistanceMap.html#a05298e5df32c52283b4fbb3ab608f377":[6,0,0,5,0,31],
-"classMR_1_1DistanceMap.html#a101a1b0a998a4c98f3c5fcbae8d9c593":[6,0,0,5,0,7],
-"classMR_1_1DistanceMap.html#a17100c5280ade4c9d1b1008d85178ecc":[6,0,0,5,0,32],
 "classMR_1_1DistanceMap.html#a1eaf3f29a82b7eb2528f578d2f9e8f34":[6,0,0,5,0,24],
 "classMR_1_1DistanceMap.html#a23c283386e8a0156cdf0fbb808e18dcf":[6,0,0,5,0,15],
 "classMR_1_1DistanceMap.html#a315bf78bf746909a99ff29e08319abec":[6,0,0,5,0,14],
@@ -249,5 +241,13 @@ var NAVTREEINDEX22 =
 "classMR_1_1FeatureObject.html#aee2b783554996a1934193cd74d782dbf":[6,0,2,0,1,204,43],
 "classMR_1_1FeatureObject.html#af250eb819d6902646ee5f5ea33d5b679":[6,0,1,0,1,220,22],
 "classMR_1_1FeatureObject.html#af250eb819d6902646ee5f5ea33d5b679":[6,0,2,0,1,204,22],
-"classMR_1_1FeatureObject.html#af90cf28a65ce4f4698111d77e6e39a85":[6,0,1,0,1,220,31]
+"classMR_1_1FeatureObject.html#af90cf28a65ce4f4698111d77e6e39a85":[6,0,1,0,1,220,31],
+"classMR_1_1FeatureObject.html#af90cf28a65ce4f4698111d77e6e39a85":[6,0,2,0,1,204,31],
+"classMR_1_1FeatureObject.html#afa41398b2369e2bbe90b107c3de0bbe6":[6,0,1,0,1,220,5],
+"classMR_1_1FeatureObject.html#afa41398b2369e2bbe90b107c3de0bbe6":[6,0,2,0,1,204,5],
+"classMR_1_1FeatureObject.html#afbc72d3db7d89d7af4ea2a7ac835c15e":[6,0,1,0,1,220,15],
+"classMR_1_1FeatureObject.html#afbc72d3db7d89d7af4ea2a7ac835c15e":[6,0,2,0,1,204,15],
+"classMR_1_1FewSmallest.html":[6,0,1,0,1,223],
+"classMR_1_1FewSmallest.html":[6,0,2,0,1,207],
+"classMR_1_1FewSmallest.html#a0efd17527f2b41be96da3c50f8837c38":[6,0,1,0,1,223,6]
 };

@@ -44,7 +44,7 @@ var menudata={children:[
 {text:"Mesh Offset",url:"../ExampleMeshOffset.html"},
 {text:"Mesh Fill Hole",url:"../ExampleMeshFillHole.html"},
 {text:"Mesh Stitch Holes",url:"../ExampleMeshStitchHole.html"},
-{text:"Mesh Fix Degeneracies",url:"../ExampleMeshFixDegeneracies.html"},
+{text:"Mesh Resolve Degenerations",url:"../ExampleMeshResolveDegenerations.html"},
 {text:"Global Registration",url:"../ExampleGlobalRegistration.html"},
 {text:"Mesh ICP",url:"../ExampleMeshICP.html"},
 {text:"Mesh Extrude",url:"../ExampleMeshExtrude.html"},
