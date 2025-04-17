@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d":[6,0,2,0,1,680,0,1],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,1,0,1,696,0,3],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,2,0,1,680,0,3],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb":[6,0,1,0,1,696,0,0],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb":[6,0,2,0,1,680,0,0],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad":[6,0,1,0,1,696,0,4],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad":[6,0,2,0,1,680,0,4],
+"classMR_1_1TouchpadController.html":[6,0,1,0,1,698],
 "classMR_1_1TouchpadController.html":[6,0,2,0,1,682],
 "classMR_1_1TouchpadController.html#a121e3e4c7338e5a23e70168c51c0063d":[6,0,1,0,1,698,1],
 "classMR_1_1TouchpadController.html#a121e3e4c7338e5a23e70168c51c0063d":[6,0,2,0,1,682,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Viewer.html#a18c86b40dc97e73d26be6d5f21f65093":[6,0,1,0,1,751,5],
 "classMR_1_1Viewer.html#a18c86b40dc97e73d26be6d5f21f65093":[6,0,2,0,1,735,5],
 "classMR_1_1Viewer.html#a19148d138b8620a75f9b3e73441b7955":[6,0,1,0,1,751,70],
-"classMR_1_1Viewer.html#a19148d138b8620a75f9b3e73441b7955":[6,0,2,0,1,735,70],
-"classMR_1_1Viewer.html#a1984b77308668a59ce2f073ed6ae59ad":[6,0,1,0,1,751,98],
-"classMR_1_1Viewer.html#a1984b77308668a59ce2f073ed6ae59ad":[6,0,2,0,1,735,98],
-"classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5":[6,0,1,0,1,751,28],
-"classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5":[6,0,2,0,1,735,28],
-"classMR_1_1Viewer.html#a1ab66cb836861acffdf2c1e4f3397846":[6,0,1,0,1,751,215],
-"classMR_1_1Viewer.html#a1ab66cb836861acffdf2c1e4f3397846":[6,0,2,0,1,735,215],
-"classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a":[6,0,1,0,1,751,10],
-"classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a":[6,0,2,0,1,735,10]
+"classMR_1_1Viewer.html#a19148d138b8620a75f9b3e73441b7955":[6,0,2,0,1,735,70]
 };

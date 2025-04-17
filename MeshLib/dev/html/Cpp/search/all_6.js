@@ -50,7 +50,7 @@ var searchData=
   ['defineplane_47',['definePlane',['../classMR_1_1PlaneWidget.html#a5af9b5613a5158a835792759b5058f58',1,'MR::PlaneWidget']]],
   ['deformation_20example_48',['Free Form Deformation Example',['../../ExampleFreeForm.html',1,'']]],
   ['deformation_20example_49',['Laplacian deformation Example',['../../ExampleLaplacian.html',1,'']]],
-  ['degeneration_50',['Resolving Mesh Degeneration',['../../ExampleMeshResolveDegenerations.html',1,'']]],
+  ['degeneracies_50',['Fixing Mesh Degeneracies',['../../ExampleMeshFixDegeneracies.html',1,'']]],
   ['degree_51',['degree',['../structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680',1,'MR::MoveMeshToVoxelMaxDerivSettings::degree'],['../../Py/classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a84fac9ec6daa82feef3f9813e0edff7a',1,'mrmeshpy::MoveMeshToVoxelMaxDerivSettings::degree(self)'],['../../Py/classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a8e6ba9fe95439697da7005e540904114',1,'mrmeshpy::MoveMeshToVoxelMaxDerivSettings::degree(self, int arg1)']]],
   ['degrees_52',['degrees',['../namespaceMR.html#af673fdef7d01a580ce58c29b84ea9beaa18daee01fc6e54aacd7f4c2eef60ff4d',1,'MR::degrees'],['../namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d',1,'MR::degrees']]],
   ['degreesminutes_53',['degreesMinutes',['../namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b',1,'MR']]],

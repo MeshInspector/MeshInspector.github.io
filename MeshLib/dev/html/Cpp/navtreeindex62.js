@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1UI.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f":[6,0,1,0,1,38,20],
+"namespaceMR_1_1UI.html#aba6c7c72b70351ba42eae4e3a2e0df4b":[6,0,1,0,1,38,34],
+"namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9":[6,0,1,0,1,38,30],
+"namespaceMR_1_1UI.html#acb0c4c1be185e69b6f58108b3471f882":[6,0,1,0,1,38,40],
+"namespaceMR_1_1UI.html#ad13b9be4aa5cae65c61e91ac1ab04ecd":[6,0,1,0,1,38,23],
+"namespaceMR_1_1UI.html#ae14306471133180f84a3a02650ced599":[6,0,1,0,1,38,22],
+"namespaceMR_1_1UI.html#af1937d08c3cb699681eeb7fd4dde005e":[6,0,1,0,1,38,68],
+"namespaceMR_1_1UI.html#af6f24e8f5454ee5851179f720cd07eb4":[6,0,1,0,1,38,65],
 "namespaceMR_1_1UI.html#af81d056e2ca2afaceec0e67e12ed9afb":[6,0,1,0,1,38,54],
 "namespaceMR_1_1UI.html#afadef8b878371dc0bc9aa07df5dec003":[6,0,1,0,1,38,17],
 "namespaceMR_1_1UI.html#afbf63021d04e94c878b093fd86fef43f":[6,0,1,0,1,38,21],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "structMRDecimateSettings.html#ac280387b37c574d825a5dae4e745b550":[6,0,2,0,12,11],
 "structMRDecimateSettings.html#ad1e58750f155e9e45c27770c31ebe6f8":[6,0,2,0,12,14],
 "structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a":[6,0,2,0,12,20],
-"structMRDecimateSettings.html#ad80f5a2ff69a7fe804e27ce7a20ba275":[6,0,2,0,12,15],
-"structMRDecimateSettings.html#af30ab932574161654a545582168d7f23":[6,0,2,0,12,17],
-"structMRDecimateSettings.html#af58a10c0e7e72a5fd0b9159736c8faaa":[6,0,2,0,12,13],
-"structMRDenoiseViaNormalsSettings.html":[6,0,2,0,13],
-"structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e":[6,0,2,0,13,0],
-"structMRDenoiseViaNormalsSettings.html#a61870a5eb66d1e95c15e6d2c945f58d8":[6,0,2,0,13,5],
-"structMRDenoiseViaNormalsSettings.html#a7adbffbe48f999ba44ccc2d6e50d3090":[6,0,2,0,13,6],
-"structMRDenoiseViaNormalsSettings.html#a9c96228a47b139c7c8fecc74f52faeb2":[6,0,2,0,13,3],
-"structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2":[6,0,2,0,13,4]
+"structMRDecimateSettings.html#ad80f5a2ff69a7fe804e27ce7a20ba275":[6,0,2,0,12,15]
 };

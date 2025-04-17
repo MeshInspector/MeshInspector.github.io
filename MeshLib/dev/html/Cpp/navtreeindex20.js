@@ -1,5 +1,13 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1CircleObject.html#af2c5d04b5db14f7ae8cf783c3371ff27":[6,0,0,11,0,0,4],
+"classMR_1_1ColorMapAggregator.html":[6,0,1,0,1,139],
+"classMR_1_1ColorMapAggregator.html":[6,0,2,0,1,123],
+"classMR_1_1ColorMapAggregator.html#a20df43a4a312f6aa3f049476f78584d6":[6,0,1,0,1,139,1],
+"classMR_1_1ColorMapAggregator.html#a20df43a4a312f6aa3f049476f78584d6":[6,0,2,0,1,123,1],
+"classMR_1_1ColorMapAggregator.html#a27373b3b50c97ce0d7c2737e61012ffa":[6,0,1,0,1,139,13],
+"classMR_1_1ColorMapAggregator.html#a27373b3b50c97ce0d7c2737e61012ffa":[6,0,2,0,1,123,13],
+"classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df":[6,0,1,0,1,139,2],
 "classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df":[6,0,2,0,1,123,2],
 "classMR_1_1ColorMapAggregator.html#a46af3a558e1ec5eb32d783b972ad8198":[6,0,1,0,1,139,8],
 "classMR_1_1ColorMapAggregator.html#a46af3a558e1ec5eb32d783b972ad8198":[6,0,2,0,1,123,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ConeObject.html#a907b47dc446af6c29603325828130005":[6,0,0,11,0,1,28],
 "classMR_1_1ConeObject.html#a9ee28bed15c74a1c10cb9c6db8ba8b19":[6,0,0,11,0,1,11],
 "classMR_1_1ConeObject.html#a9f25917be502efa8afcdeb227140fb42":[6,0,0,11,0,1,10],
-"classMR_1_1ConeObject.html#a9f478343ae57720fcf7c3c78f01011c4":[6,0,0,11,0,1,7],
-"classMR_1_1ConeObject.html#aa6ffe65ecb905c4a85d865c70c753d4c":[6,0,0,11,0,1,26],
-"classMR_1_1ConeObject.html#ab66f3e6b0a4c5168078a082dd7320592":[6,0,0,11,0,1,19],
-"classMR_1_1ConeObject.html#acf915767d92ede7e04ca9da619fa3845":[6,0,0,11,0,1,3],
-"classMR_1_1ConeObject.html#ad965c5801e1d4f5272937593d0f81396":[6,0,0,11,0,1,12],
-"classMR_1_1ConeObject.html#adefa5d1e368af74e9c0ea1512970bf69":[6,0,0,11,0,1,1],
-"classMR_1_1ConeObject.html#ae6cc2d16f39a5d0cb5a6cc9535843b84":[6,0,0,11,0,1,17],
-"classMR_1_1ConeObject.html#aed2d23faa5e35c40c16b5ab5550ed022":[6,0,0,11,0,1,16],
-"classMR_1_1ConeObject.html#aee0cce82eb8d15e883bf0d50eaecfd27":[6,0,0,11,0,1,8]
+"classMR_1_1ConeObject.html#a9f478343ae57720fcf7c3c78f01011c4":[6,0,0,11,0,1,7]
 };
