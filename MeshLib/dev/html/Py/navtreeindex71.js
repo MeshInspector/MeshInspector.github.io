@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html":[6,1,0,0,2,721],
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html":[6,1,1,0,1,721],
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0930fa4627b59a5faf89f9f7d55bff90":[6,1,0,0,2,721,4],
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0930fa4627b59a5faf89f9f7d55bff90":[6,1,1,0,1,721,4],
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0efc7b2acff604b5f7fc65d2a0b41001":[6,1,0,0,2,721,0],
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0efc7b2acff604b5f7fc65d2a0b41001":[6,1,1,0,1,721,0],
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2c6e6135f0d8ce3e42b0045cf1346a91":[6,1,0,0,2,721,2],
+"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2c6e6135f0d8ce3e42b0045cf1346a91":[6,1,1,0,1,721,2],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2e070c48a25931bf480dc3dfbc9a73c0":[6,1,0,0,2,721,3],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2e070c48a25931bf480dc3dfbc9a73c0":[6,1,1,0,1,721,3],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#ac71797176508f6b96e6454c8aa9d283e":[6,1,0,0,2,721,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[6,1,0,0,2,729,2,5],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[6,1,1,0,1,729,2,5],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[6,1,0,0,2,729,2,7],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[6,1,1,0,1,729,2,7],
-"classmrmeshpy_1_1SearchPathSettings.html":[6,1,0,0,2,730],
-"classmrmeshpy_1_1SearchPathSettings.html":[6,1,1,0,1,730],
-"classmrmeshpy_1_1SearchPathSettings.html#a0671cb33429d6b816a0831deedfd51c4":[6,1,0,0,2,730,0],
-"classmrmeshpy_1_1SearchPathSettings.html#a0671cb33429d6b816a0831deedfd51c4":[6,1,1,0,1,730,0],
-"classmrmeshpy_1_1SearchPathSettings.html#a1d05f91ff54f0b11630ab3dd0ca7fb26":[6,1,0,0,2,730,2],
-"classmrmeshpy_1_1SearchPathSettings.html#a1d05f91ff54f0b11630ab3dd0ca7fb26":[6,1,1,0,1,730,2],
-"classmrmeshpy_1_1SearchPathSettings.html#a725961fe78cac92cf5601834c523199c":[6,1,0,0,2,730,5],
-"classmrmeshpy_1_1SearchPathSettings.html#a725961fe78cac92cf5601834c523199c":[6,1,1,0,1,730,5]
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[6,1,1,0,1,729,2,7]
 };

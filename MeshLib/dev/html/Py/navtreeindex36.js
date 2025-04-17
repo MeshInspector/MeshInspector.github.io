@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1InflateSettings.html#abb24132e0348fa427bbda2bc6cb1c5fa":[6,1,0,0,2,376,2],
+"classmrmeshpy_1_1InflateSettings.html#abb24132e0348fa427bbda2bc6cb1c5fa":[6,1,1,0,1,376,2],
+"classmrmeshpy_1_1InflateSettings.html#abe3f2f2ec5a01d415142c71b400c52a6":[6,1,0,0,2,376,4],
+"classmrmeshpy_1_1InflateSettings.html#abe3f2f2ec5a01d415142c71b400c52a6":[6,1,1,0,1,376,4],
+"classmrmeshpy_1_1InflateSettings.html#ac035931999853cccf610b9ed73c17154":[6,1,0,0,2,376,6],
+"classmrmeshpy_1_1InflateSettings.html#ac035931999853cccf610b9ed73c17154":[6,1,1,0,1,376,6],
+"classmrmeshpy_1_1IntersectionPrecomputes2__double.html":[6,1,0,0,2,380],
+"classmrmeshpy_1_1IntersectionPrecomputes2__double.html":[6,1,1,0,1,380],
 "classmrmeshpy_1_1IntersectionPrecomputes2__double.html#a12e55879e36eb6b336a5911939caf236":[6,1,0,0,2,380,1],
 "classmrmeshpy_1_1IntersectionPrecomputes2__double.html#a12e55879e36eb6b336a5911939caf236":[6,1,1,0,1,380,1],
 "classmrmeshpy_1_1IntersectionPrecomputes2__double.html#a13569ad0e10e10cf02d72e65f1760554":[6,1,0,0,2,380,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html":[6,1,0,0,2,403],
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html":[6,1,1,0,1,403],
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a2ea60ae84d0dd6f88958f8cf8986d1b3":[6,1,0,0,2,403,0],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a2ea60ae84d0dd6f88958f8cf8986d1b3":[6,1,1,0,1,403,0],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af618390da94dfaee8ff2b2213891b618":[6,1,0,0,2,403,1],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af618390da94dfaee8ff2b2213891b618":[6,1,1,0,1,403,1],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af997dc15b913f88fc4d68c7bc539f2eb":[6,1,0,0,2,403,2],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#af997dc15b913f88fc4d68c7bc539f2eb":[6,1,1,0,1,403,2],
-"classmrmeshpy_1_1LabelVisualizePropertyType.html":[6,1,0,0,2,404],
-"classmrmeshpy_1_1LabelVisualizePropertyType.html":[6,1,1,0,1,404],
-"classmrmeshpy_1_1LabelVisualizePropertyType.html#a1d3537412e432ce854be645e9c2f922d":[6,1,0,0,2,404,3],
-"classmrmeshpy_1_1LabelVisualizePropertyType.html#a1d3537412e432ce854be645e9c2f922d":[6,1,1,0,1,404,3]
+"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a2ea60ae84d0dd6f88958f8cf8986d1b3":[6,1,1,0,1,403,0]
 };

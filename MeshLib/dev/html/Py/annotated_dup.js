@@ -289,7 +289,7 @@ var annotated_dup =
       [ "func_double_from_double_double", "classmrmeshpy_1_1func__double__from__double__double.html", "classmrmeshpy_1_1func__double__from__double__double" ],
       [ "func_double_from_Id_VertTag_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag.html", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag" ],
       [ "func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag" ],
-      [ "func_double_from_TaggedBitSet_FaceTag_Vector3_float", "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html", "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float" ],
+      [ "func_double_from_TaggedBitSet_FaceTag_FixUndercuts_FindParams", "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__FixUndercuts__FindParams.html", "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__FixUndercuts__FindParams" ],
       [ "func_float_from_char_const", "classmrmeshpy_1_1func__float__from__char__const.html", "classmrmeshpy_1_1func__float__from__char__const" ],
       [ "func_float_from_Id_EdgeTag", "classmrmeshpy_1_1func__float__from__Id__EdgeTag.html", "classmrmeshpy_1_1func__float__from__Id__EdgeTag" ],
       [ "func_float_from_Id_UndirectedEdgeTag", "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html", "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" ],

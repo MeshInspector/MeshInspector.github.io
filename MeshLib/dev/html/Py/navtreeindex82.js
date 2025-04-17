@@ -1,5 +1,13 @@
 var NAVTREEINDEX82 =
 {
+"classmrmeshpy_1_1TrimWithPlaneParams.html#a959c64e67690e5e8ffe74cd01ab3f5bd":[6,1,0,0,2,980,0],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#a959c64e67690e5e8ffe74cd01ab3f5bd":[6,1,1,0,1,980,0],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[6,1,0,0,2,980,4],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[6,1,1,0,1,980,4],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,0,0,2,980,8],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,1,0,1,980,8],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,0,0,2,983],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,1,0,1,983],
 "classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,0,0,2,983,0],
 "classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,0,0,2,983,2],
 "classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,1,0,1,983,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX82 =
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#afc967e6b5dd8ce2daccfe8b3906ef231":[6,1,0,0,2,987,12],
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#afc967e6b5dd8ce2daccfe8b3906ef231":[6,1,1,0,1,987,12],
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#affdca8d8a34705b33de3e93f24504807":[6,1,0,0,2,987,18],
-"classmrmeshpy_1_1UndirectedEdgeBitSet.html#affdca8d8a34705b33de3e93f24504807":[6,1,1,0,1,987,18],
-"classmrmeshpy_1_1UndirectedEdgeColors.html":[6,1,0,0,2,989],
-"classmrmeshpy_1_1UndirectedEdgeColors.html":[6,1,1,0,1,989],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#a0058d1414d6a69b6b9d65e50d67025cc":[6,1,0,0,2,989,31],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#a0058d1414d6a69b6b9d65e50d67025cc":[6,1,1,0,1,989,31],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#a07c450ed219071bb8c07a2da5e4fd7dd":[6,1,0,0,2,989,28],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#a07c450ed219071bb8c07a2da5e4fd7dd":[6,1,1,0,1,989,28],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#a0a5e44c672355a6af145aa6d4680413c":[6,1,0,0,2,989,37],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#a0a5e44c672355a6af145aa6d4680413c":[6,1,1,0,1,989,37]
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#affdca8d8a34705b33de3e93f24504807":[6,1,1,0,1,987,18]
 };

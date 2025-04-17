@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,1,0,1,26,0,1],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,2,0,1,15,0,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,1,0,1,26,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,2,0,1,15,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[6,0,1,0,1,26,1,3],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[6,0,2,0,1,15,1,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[6,0,1,0,1,26,1,2],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[6,0,2,0,1,15,1,2],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,1,0,1,26,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1PreciseCollisionResult.html":[6,0,0,1,18],
 "structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f":[6,0,0,1,18,1],
 "structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2":[6,0,0,1,18,0],
-"structMR_1_1PreciseVertCoord.html":[6,0,0,0,19],
-"structMR_1_1PreciseVertCoord.html#a06f1bfc70a05a9294afb6050626e61dd":[6,0,0,0,19,0],
-"structMR_1_1PreciseVertCoord.html#a547304af4a3486eb429f7737c6f9fc3e":[6,0,0,0,19,1],
-"structMR_1_1PreciseVertCoords.html":[6,0,1,0,1,525],
-"structMR_1_1PreciseVertCoords.html":[6,0,2,0,1,509],
-"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[6,0,1,0,1,525,1],
-"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[6,0,2,0,1,509,1]
+"structMR_1_1PreciseVertCoord.html":[6,0,0,0,19]
 };

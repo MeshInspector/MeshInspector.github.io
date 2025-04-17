@@ -1,5 +1,13 @@
 var NAVTREEINDEX75 =
 {
+"classmrmeshpy_1_1SubdivideSettings.html#addb566812b27ef260468bd8ea4b78ab1":[6,1,0,0,2,941,13],
+"classmrmeshpy_1_1SubdivideSettings.html#addb566812b27ef260468bd8ea4b78ab1":[6,1,1,0,1,941,13],
+"classmrmeshpy_1_1SubdivideSettings.html#af47d33901c93698827a6a9229dfa4998":[6,1,0,0,2,941,19],
+"classmrmeshpy_1_1SubdivideSettings.html#af47d33901c93698827a6a9229dfa4998":[6,1,1,0,1,941,19],
+"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,0,0,2,941,23],
+"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,1,0,1,941,23],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,0,0,2,942],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,1,0,1,942],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[6,1,0,0,2,942,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[6,1,1,0,1,942,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[6,1,0,0,2,942,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX75 =
 "classmrmeshpy_1_1SymMatrix3b.html#a7f0e10ac2686a73c928346e62e4fc3a0":[6,1,0,0,2,949,13],
 "classmrmeshpy_1_1SymMatrix3b.html#a7f0e10ac2686a73c928346e62e4fc3a0":[6,1,1,0,1,949,13],
 "classmrmeshpy_1_1SymMatrix3b.html#a863cec6bd07dafd4c572fb2b889bdac3":[6,1,0,0,2,949,22],
-"classmrmeshpy_1_1SymMatrix3b.html#a863cec6bd07dafd4c572fb2b889bdac3":[6,1,1,0,1,949,22],
-"classmrmeshpy_1_1SymMatrix3b.html#a90935b5690e3e124ed3b94fa3c45030f":[6,1,0,0,2,949,1],
-"classmrmeshpy_1_1SymMatrix3b.html#a90935b5690e3e124ed3b94fa3c45030f":[6,1,1,0,1,949,1],
-"classmrmeshpy_1_1SymMatrix3b.html#a911070a0418946f1ba20681625e6f08c":[6,1,0,0,2,949,19],
-"classmrmeshpy_1_1SymMatrix3b.html#a911070a0418946f1ba20681625e6f08c":[6,1,1,0,1,949,19],
-"classmrmeshpy_1_1SymMatrix3b.html#ab38062856df049d1451a3097193b1cd2":[6,1,0,0,2,949,7],
-"classmrmeshpy_1_1SymMatrix3b.html#ab38062856df049d1451a3097193b1cd2":[6,1,1,0,1,949,7],
-"classmrmeshpy_1_1SymMatrix3b.html#aba049942341cecdff301317d5bd8ed33":[6,1,0,0,2,949,20],
-"classmrmeshpy_1_1SymMatrix3b.html#aba049942341cecdff301317d5bd8ed33":[6,1,1,0,1,949,20]
+"classmrmeshpy_1_1SymMatrix3b.html#a863cec6bd07dafd4c572fb2b889bdac3":[6,1,1,0,1,949,22]
 };

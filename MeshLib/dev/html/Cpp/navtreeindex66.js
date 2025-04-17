@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[6,0,1,0,1,138,4],
+"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[6,0,2,0,1,122,4],
 "structMR_1_1Color.html#a30e8afba2ca683c433ab83718048a41e":[6,0,1,0,1,138,12],
 "structMR_1_1Color.html#a30e8afba2ca683c433ab83718048a41e":[6,0,2,0,1,122,12],
 "structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60":[6,0,1,0,1,138,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,172,1],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,2,0,1,156,1],
 "structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,1,0,1,172,3],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,1,156,3],
-"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,172,5],
-"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,1,156,5]
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,1,156,3]
 };

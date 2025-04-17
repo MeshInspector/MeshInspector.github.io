@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a3fe4c9665a94e2143038345808dc1586":[6,0,1,0,1,6,2,0,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a3fe4c9665a94e2143038345808dc1586":[6,0,2,0,1,2,2,0,0],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a625702bc7bbc1dc9e21bd6786bb901ad":[6,0,1,0,1,6,2,0,9],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a625702bc7bbc1dc9e21bd6786bb901ad":[6,0,2,0,1,2,2,0,9],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a6f5eba0221416eca918dea71f64ad70d":[6,0,1,0,1,6,2,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1FindOverhangsSettings.html#ac75bce161a3fcc60e706c3cd85ae4b16":[6,0,1,0,1,234,2],
 "structMR_1_1FindOverhangsSettings.html#ac75bce161a3fcc60e706c3cd85ae4b16":[6,0,2,0,1,218,2],
 "structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b":[6,0,1,0,1,234,1],
-"structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b":[6,0,2,0,1,218,1],
-"structMR_1_1FindOverlappingSettings.html":[6,0,1,0,1,235],
-"structMR_1_1FindOverlappingSettings.html":[6,0,2,0,1,219]
+"structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b":[6,0,2,0,1,218,1]
 };

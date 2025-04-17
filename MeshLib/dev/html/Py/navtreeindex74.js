@@ -1,5 +1,13 @@
 var NAVTREEINDEX74 =
 {
+"classmrmeshpy_1_1SortIntersectionsData.html#af50487008be69cc5e9164694c47ae997":[6,1,0,0,2,754,2],
+"classmrmeshpy_1_1SortIntersectionsData.html#af50487008be69cc5e9164694c47ae997":[6,1,1,0,1,754,2],
+"classmrmeshpy_1_1SpacingSettings.html":[6,1,0,0,2,755],
+"classmrmeshpy_1_1SpacingSettings.html":[6,1,1,0,1,755],
+"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,0,0,2,755,9],
+"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,1,0,1,755,9],
+"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,0,0,2,755,2],
+"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,1,0,1,755,2],
 "classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5":[6,1,0,0,2,755,4],
 "classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5":[6,1,1,0,1,755,4],
 "classmrmeshpy_1_1SpacingSettings.html#a26b2f75bf716a233767585bd638fef05":[6,1,0,0,2,755,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX74 =
 "classmrmeshpy_1_1SubdivideSettings.html#adbf2bbbe25100d93a64c0e7fb9d041cd":[6,1,0,0,2,941,34],
 "classmrmeshpy_1_1SubdivideSettings.html#adbf2bbbe25100d93a64c0e7fb9d041cd":[6,1,1,0,1,941,34],
 "classmrmeshpy_1_1SubdivideSettings.html#adc70cc0f879301813477c216e0f4b538":[6,1,0,0,2,941,26],
-"classmrmeshpy_1_1SubdivideSettings.html#adc70cc0f879301813477c216e0f4b538":[6,1,1,0,1,941,26],
-"classmrmeshpy_1_1SubdivideSettings.html#addb566812b27ef260468bd8ea4b78ab1":[6,1,0,0,2,941,13],
-"classmrmeshpy_1_1SubdivideSettings.html#addb566812b27ef260468bd8ea4b78ab1":[6,1,1,0,1,941,13],
-"classmrmeshpy_1_1SubdivideSettings.html#af47d33901c93698827a6a9229dfa4998":[6,1,0,0,2,941,19],
-"classmrmeshpy_1_1SubdivideSettings.html#af47d33901c93698827a6a9229dfa4998":[6,1,1,0,1,941,19],
-"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,0,0,2,941,23],
-"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,1,0,1,941,23],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,0,0,2,942],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,1,0,1,942]
+"classmrmeshpy_1_1SubdivideSettings.html#adc70cc0f879301813477c216e0f4b538":[6,1,1,0,1,941,26]
 };

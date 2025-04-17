@@ -1,9 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"MRCNCMachineSettings_8h_source.html":[6,0,3,0,0,1,4,58],
-"MRCalcDims_8h.html":[6,0,3,0,0,1,11,2],
-"MRCalcDims_8h.html#af1eec874d8d4e923bb36851ae2456eff":[6,0,3,0,0,1,11,2,1],
-"MRCalcDims_8h_source.html":[6,0,3,0,0,1,11,2],
 "MRCameraOrientationPlugin_8h.html":[6,0,3,0,0,1,0,0,0],
 "MRCameraOrientationPlugin_8h_source.html":[6,0,3,0,0,1,0,0,0],
 "MRCanonicalTypedefs_8h.html":[6,0,3,0,0,1,4,34],
@@ -249,5 +245,9 @@ var NAVTREEINDEX1 =
 "MRDirectory_8h.html#abae985da68516747ebfd8b040b5cefcb":[6,0,3,0,0,1,4,80,7],
 "MRDirectory_8h.html#abbb65999efa5888bba732313759eafa5":[6,0,3,0,0,1,4,80,8],
 "MRDirectory_8h.html#acb74ec61600c1cedc296814bdcedd962":[6,0,3,0,0,1,4,80,5],
-"MRDirectory_8h_source.html":[6,0,3,0,0,1,4,80]
+"MRDirectory_8h_source.html":[6,0,3,0,0,1,4,80],
+"MRDistanceMapLoad_8h.html":[6,0,3,0,0,1,4,82],
+"MRDistanceMapLoad_8h_source.html":[6,0,3,0,0,1,4,82],
+"MRDistanceMapParams_8h.html":[6,0,3,0,0,1,4,83],
+"MRDistanceMapParams_8h_source.html":[6,0,3,0,0,1,4,83]
 };

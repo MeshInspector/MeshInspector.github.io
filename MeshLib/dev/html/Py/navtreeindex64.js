@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1Polyline2.html#a20677894d265c78bcf4eb749deb86fa6":[6,1,0,0,2,656,7],
+"classmrmeshpy_1_1Polyline2.html#a20677894d265c78bcf4eb749deb86fa6":[6,1,1,0,1,656,7],
+"classmrmeshpy_1_1Polyline2.html#a23fdec3d12bd7def125a3b98c925b926":[6,1,0,0,2,656,36],
+"classmrmeshpy_1_1Polyline2.html#a23fdec3d12bd7def125a3b98c925b926":[6,1,1,0,1,656,36],
+"classmrmeshpy_1_1Polyline2.html#a28c6d4168baee6d5be0b3e070e0acaf7":[6,1,0,0,2,656,10],
+"classmrmeshpy_1_1Polyline2.html#a28c6d4168baee6d5be0b3e070e0acaf7":[6,1,1,0,1,656,10],
+"classmrmeshpy_1_1Polyline2.html#a433a7565a167865affb9c5a1ff6cc587":[6,1,0,0,2,656,28],
+"classmrmeshpy_1_1Polyline2.html#a433a7565a167865affb9c5a1ff6cc587":[6,1,1,0,1,656,28],
 "classmrmeshpy_1_1Polyline2.html#a477da321fa40a87930e0fa0a7359fa88":[6,1,0,0,2,656,23],
 "classmrmeshpy_1_1Polyline2.html#a477da321fa40a87930e0fa0a7359fa88":[6,1,1,0,1,656,23],
 "classmrmeshpy_1_1Polyline2.html#a48610fc578225b3981dd40ee8843c5f4":[6,1,0,0,2,656,33],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1PolylineProjectionResult3.html#ac2997db67005679df6e8e54366505fa7":[6,1,0,0,2,663,2],
 "classmrmeshpy_1_1PolylineProjectionResult3.html#ac2997db67005679df6e8e54366505fa7":[6,1,1,0,1,663,2],
 "classmrmeshpy_1_1PolylineProjectionResult3.html#ac4af4117384f7cbf8bb0e31359eabfbb":[6,1,0,0,2,663,3],
-"classmrmeshpy_1_1PolylineProjectionResult3.html#ac4af4117384f7cbf8bb0e31359eabfbb":[6,1,1,0,1,663,3],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html":[6,1,0,0,2,664],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html":[6,1,1,0,1,664],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#a0f1bd542c6a192af7f431d7c77b135da":[6,1,0,0,2,664,5],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#a0f1bd542c6a192af7f431d7c77b135da":[6,1,1,0,1,664,5],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#a262d8c55ee9bdf373b68dbcd12e0b46b":[6,1,0,0,2,664,4],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#a262d8c55ee9bdf373b68dbcd12e0b46b":[6,1,1,0,1,664,4],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#a47e5710a5b96e17a1bdf13addae38e94":[6,1,0,0,2,664,1],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#a47e5710a5b96e17a1bdf13addae38e94":[6,1,1,0,1,664,1]
+"classmrmeshpy_1_1PolylineProjectionResult3.html#ac4af4117384f7cbf8bb0e31359eabfbb":[6,1,1,0,1,663,3]
 };

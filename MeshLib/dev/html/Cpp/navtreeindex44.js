@@ -1,7 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884":[6,0,2,0,1,680,0],
-"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2":[6,0,1,0,1,696,0,2],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2":[6,0,2,0,1,680,0,2],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d":[6,0,1,0,1,696,0,1],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d":[6,0,2,0,1,680,0,1],
@@ -95,8 +93,10 @@ var NAVTREEINDEX44 =
 "classMR_1_1UI_1_1RectAllocator.html#ae453c167334b49a2d08f4bffa76c0fe2":[6,0,2,0,1,23,9,3],
 "classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,1,0,1,38,12],
 "classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,2,0,1,23,11],
-"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,1,0,1,38,12,0],
-"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,2,0,1,23,11,0],
+"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,1,0,1,38,12,1],
+"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,2,0,1,23,11,1],
+"classMR_1_1UI_1_1WindowRectAllocator.html#ae4aa3ae308165ceab5cad3ae36dd1131":[6,0,1,0,1,38,12,0],
+"classMR_1_1UI_1_1WindowRectAllocator.html#ae4aa3ae308165ceab5cad3ae36dd1131":[6,0,2,0,1,23,11,0],
 "classMR_1_1UndirectedEdgeIterator.html":[6,0,1,0,1,724],
 "classMR_1_1UndirectedEdgeIterator.html":[6,0,2,0,1,708],
 "classMR_1_1UndirectedEdgeIterator.html#a14b6e326990c49dd287dac693682485e":[6,0,1,0,1,724,0],

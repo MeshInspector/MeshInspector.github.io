@@ -66,7 +66,7 @@ var searchData=
   ['bordershighlight_63',['BordersHighlight',['.././Py/classmrmeshpy_1_1MeshVisualizePropertyType.html#a0e7356fd2a1fdaa79474036c578cf821',1,'mrmeshpy::MeshVisualizePropertyType']]],
   ['borderssize_5f_64',['bordersSize_',['.././Cpp/classMR_1_1RenderMeshObject.html#ab85b5749a8074358f89fff480448ee5d',1,'MR::RenderMeshObject']]],
   ['bordertexture_5f_65',['borderTexture_',['.././Cpp/classMR_1_1RenderMeshObject.html#ac5dda63e700cfe2742a7b9b1683649e6',1,'MR::RenderMeshObject']]],
-  ['bottomextension_66',['bottomExtension',['.././Cpp/structMR_1_1FixUndercuts_1_1Params.html#ac5304acf3667bf17aa73811c15e33c38',1,'MR::FixUndercuts::Params']]],
+  ['bottomextension_66',['bottomExtension',['.././Cpp/structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27',1,'MR::FixUndercuts::FixParams']]],
   ['boundaryangle_67',['boundaryAngle',['.././Cpp/structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5',1,'MRTriangulationParameters::boundaryAngle'],['.././Cpp/structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa',1,'MR::TriangulationHelpers::Settings::boundaryAngle'],['.././Cpp/structMR_1_1TriangulationParameters.html#a2266345249c3a1483c179688e4dad925',1,'MR::TriangulationParameters::boundaryAngle']]],
   ['box_68',['Box',['.././Cpp/namespaceMR.html#a28ad0ea821b120682bcfbd322884af64',1,'MR']]],
   ['box_69',['box',['.././Cpp/structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0',1,'MR::AABBTreeNode::box'],['.././Cpp/structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5',1,'MR::BoxedLeaf::box'],['.././Cpp/structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3',1,'MR::AABBTreePoints::Node::box']]],

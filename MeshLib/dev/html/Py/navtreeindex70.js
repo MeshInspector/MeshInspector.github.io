@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1RemeshSettings.html#a2b42c777dfe6d22646826dbfb6365a10":[6,1,0,0,2,713,20],
+"classmrmeshpy_1_1RemeshSettings.html#a2b42c777dfe6d22646826dbfb6365a10":[6,1,1,0,1,713,20],
+"classmrmeshpy_1_1RemeshSettings.html#a2e5254b1a9e127a8f16d123684e3bc17":[6,1,0,0,2,713,32],
+"classmrmeshpy_1_1RemeshSettings.html#a2e5254b1a9e127a8f16d123684e3bc17":[6,1,1,0,1,713,32],
+"classmrmeshpy_1_1RemeshSettings.html#a307cbf579c302afe2ec62e341ad35a08":[6,1,0,0,2,713,10],
+"classmrmeshpy_1_1RemeshSettings.html#a307cbf579c302afe2ec62e341ad35a08":[6,1,1,0,1,713,10],
+"classmrmeshpy_1_1RemeshSettings.html#a3908688eff5c630d2c4345b27e529d5b":[6,1,0,0,2,713,1],
+"classmrmeshpy_1_1RemeshSettings.html#a3908688eff5c630d2c4345b27e529d5b":[6,1,1,0,1,713,1],
 "classmrmeshpy_1_1RemeshSettings.html#a4d5801bbac1c769610d582e46234fb2f":[6,1,0,0,2,713,29],
 "classmrmeshpy_1_1RemeshSettings.html#a4d5801bbac1c769610d582e46234fb2f":[6,1,1,0,1,713,29],
 "classmrmeshpy_1_1RemeshSettings.html#a5c2e39c8ea34aa238b6d80d13dab2867":[6,1,0,0,2,713,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1RigidXf3f.html#a94101d095083f1aff95668d433edefa6":[6,1,0,0,2,720,0],
 "classmrmeshpy_1_1RigidXf3f.html#a94101d095083f1aff95668d433edefa6":[6,1,1,0,1,720,0],
 "classmrmeshpy_1_1RigidXf3f.html#aaf06d99be2f70d4b6de370c40e63b1d6":[6,1,0,0,2,720,5],
-"classmrmeshpy_1_1RigidXf3f.html#aaf06d99be2f70d4b6de370c40e63b1d6":[6,1,1,0,1,720,5],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html":[6,1,0,0,2,721],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html":[6,1,1,0,1,721],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0930fa4627b59a5faf89f9f7d55bff90":[6,1,0,0,2,721,4],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0930fa4627b59a5faf89f9f7d55bff90":[6,1,1,0,1,721,4],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0efc7b2acff604b5f7fc65d2a0b41001":[6,1,0,0,2,721,0],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0efc7b2acff604b5f7fc65d2a0b41001":[6,1,1,0,1,721,0],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2c6e6135f0d8ce3e42b0045cf1346a91":[6,1,0,0,2,721,2],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2c6e6135f0d8ce3e42b0045cf1346a91":[6,1,1,0,1,721,2]
+"classmrmeshpy_1_1RigidXf3f.html#aaf06d99be2f70d4b6de370c40e63b1d6":[6,1,1,0,1,720,5]
 };
