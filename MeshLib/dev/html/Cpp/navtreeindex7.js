@@ -1,5 +1,9 @@
 var NAVTREEINDEX7 =
 {
+"MRMeshC_2MRRegionBoundary_8h.html#a5b9dc318cb1f90665f7770fe2f0575ad":[6,0,3,0,0,1,5,61,8],
+"MRMeshC_2MRRegionBoundary_8h.html#a5ba8fd90f6beeffdeee4b3bc207136cc":[6,0,3,0,0,1,5,61,7],
+"MRMeshC_2MRRegionBoundary_8h.html#a6083573f89219e6d74bcfa82efefd4ef":[6,0,3,0,0,1,5,61,10],
+"MRMeshC_2MRRegionBoundary_8h.html#a672d565e63eb4dc61582a232bb6c29dd":[6,0,3,0,0,1,5,61,3],
 "MRMeshC_2MRRegionBoundary_8h.html#a6bf6e4582c1abd205b103a98d6f7e046":[6,0,3,0,0,1,5,61,4],
 "MRMeshC_2MRRegionBoundary_8h.html#a7a37cf8d75508dbdad119e0397388040":[6,0,3,0,0,1,5,61,16],
 "MRMeshC_2MRRegionBoundary_8h.html#a7fdc708f2761455e26e8e543377b3f07":[6,0,3,0,0,1,5,61,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX7 =
 "MRMeshSubdivideCallbacks_8h.html#af16a9bdba708bf6168f9834f841a6d92":[6,0,3,0,0,1,4,218,0],
 "MRMeshSubdivideCallbacks_8h_source.html":[6,0,3,0,0,1,4,218],
 "MRMeshTexture_8h.html":[6,0,3,0,0,1,4,219],
-"MRMeshTexture_8h_source.html":[6,0,3,0,0,1,4,219],
-"MRMeshThickness_8h.html":[6,0,3,0,0,1,4,220],
-"MRMeshThickness_8h.html#a2aa39e0de062699a573432c5b0fb84a7":[6,0,3,0,0,1,4,220,6],
-"MRMeshThickness_8h.html#a3012b3adfc77002b6a98aa0d6d3df46d":[6,0,3,0,0,1,4,220,3],
-"MRMeshThickness_8h.html#a60ac6a54dbd6834e6e53a2b1eefbd033":[6,0,3,0,0,1,4,220,5]
+"MRMeshTexture_8h_source.html":[6,0,3,0,0,1,4,219]
 };

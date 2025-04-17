@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"MRSurfaceLineOffset_8h.html#a8964f9c61140cf585633903f71ced4eb":[6,0,3,0,0,1,4,349,1],
+"MRSurfaceLineOffset_8h_source.html":[6,0,3,0,0,1,4,349],
+"MRSurfaceManipulationWidget_8h.html":[6,0,3,0,0,1,10,116],
+"MRSurfaceManipulationWidget_8h_source.html":[6,0,3,0,0,1,10,116],
 "MRSurfacePath_8h.html":[6,0,3,0,0,1,4,350],
 "MRSurfacePath_8h_source.html":[6,0,3,0,0,1,4,350],
 "MRSurfacePointPicker_8h.html":[6,0,3,0,0,1,10,117],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "MRTriDist_8h.html":[6,0,3,0,0,1,4,366],
 "MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[6,0,3,0,0,1,4,366,1],
 "MRTriDist_8h.html#aaf4d239a6cdece7da03913ad2b3a6efe":[6,0,3,0,0,1,4,366,0],
-"MRTriDist_8h_source.html":[6,0,3,0,0,1,4,366],
-"MRTriMath_8h.html":[6,0,3,0,0,1,4,367],
-"MRTriMath_8h.html#a2609ca5846a4d9851c66bd4df5e7a4f8":[6,0,3,0,0,1,4,367,9],
-"MRTriMath_8h.html#a35d02c57a4241c1e57cf96d982bc9cc3":[6,0,3,0,0,1,4,367,7],
-"MRTriMath_8h.html#a3c69736e96e47e3a27bc8f47ba40c448":[6,0,3,0,0,1,4,367,3]
+"MRTriDist_8h_source.html":[6,0,3,0,0,1,4,366]
 };

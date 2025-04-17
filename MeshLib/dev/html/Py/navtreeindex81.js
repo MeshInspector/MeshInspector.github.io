@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1Triangulation.html#a5e60d1773bdd4b134f31cb53d9796ce6":[6,1,0,0,2,974,41],
+"classmrmeshpy_1_1Triangulation.html#a5e60d1773bdd4b134f31cb53d9796ce6":[6,1,1,0,1,974,41],
+"classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,0,0,2,974,25],
+"classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,0,0,2,974,26],
 "classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,1,0,1,974,25],
 "classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,1,0,1,974,26],
 "classmrmeshpy_1_1Triangulation.html#a6424be3cb7c5cb200b7db2c6065aab12":[6,1,0,0,2,974,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,0,0,2,980,8],
 "classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,1,0,1,980,8],
 "classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,0,0,2,983],
-"classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,1,0,1,983],
-"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,0,0,2,983,0],
-"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,0,0,2,983,2],
-"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,1,0,1,983,0],
-"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,1,0,1,983,2]
+"classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,1,0,1,983]
 };

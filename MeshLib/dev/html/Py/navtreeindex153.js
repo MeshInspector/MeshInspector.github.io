@@ -1,5 +1,9 @@
 var NAVTREEINDEX153 =
 {
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a8ed4a0edcc5ed106936c9757132efbb0":[6,1,0,0,2,918,13],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a8ed4a0edcc5ed106936c9757132efbb0":[6,1,1,0,1,918,13],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#aa106bd4e65281a9b30dff751c461b2a8":[6,1,0,0,2,918,14],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#aa106bd4e65281a9b30dff751c461b2a8":[6,1,1,0,1,918,14],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#aaeb10f95b6aa0d453669e4d5138f937d":[6,1,0,0,2,918,0],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#aaeb10f95b6aa0d453669e4d5138f937d":[6,1,1,0,1,918,0],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#ab01d5a61546289acccc8ade967a8ca91":[6,1,0,0,2,918,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX153 =
 "classmrviewerpy_1_1KeyMod.html#adab125b8b1cce61e0c1c9cb7e3a9d528":[6,1,0,0,3,0,8],
 "classmrviewerpy_1_1KeyMod.html#adab125b8b1cce61e0c1c9cb7e3a9d528":[6,1,1,0,2,0,8],
 "classmrviewerpy_1_1KeyMod.html#ae437999a8b0db98afd6b7f55346611d6":[6,1,0,0,3,0,12],
-"classmrviewerpy_1_1KeyMod.html#ae437999a8b0db98afd6b7f55346611d6":[6,1,1,0,2,0,12],
-"classmrviewerpy_1_1MouseButton.html":[6,1,0,0,3,1],
-"classmrviewerpy_1_1MouseButton.html":[6,1,1,0,2,1],
-"classmrviewerpy_1_1MouseButton.html#a1d4510c10a24c423d2762d2aff22ea05":[6,1,0,0,3,1,7],
-"classmrviewerpy_1_1MouseButton.html#a1d4510c10a24c423d2762d2aff22ea05":[6,1,1,0,2,1,7]
+"classmrviewerpy_1_1KeyMod.html#ae437999a8b0db98afd6b7f55346611d6":[6,1,1,0,2,0,12]
 };
