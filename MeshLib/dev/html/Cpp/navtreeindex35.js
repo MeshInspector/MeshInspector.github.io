@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,1,0,1,479,1],
 "classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,2,0,1,463,1],
 "classMR_1_1PluginCloseOnChangeMesh.html#a5790fe8a480493d40913adc3812e1127":[6,0,1,0,1,479,2],
 "classMR_1_1PluginCloseOnChangeMesh.html#a5790fe8a480493d40913adc3812e1127":[6,0,2,0,1,463,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689":[6,0,2,0,1,515,2,1],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,531,2,2],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,515,2,2],
-"classMR_1_1PythonExport.html#a595ac26b1d2a27a14a95bbc5a1963532":[6,0,1,0,1,531,3],
-"classMR_1_1PythonExport.html#a595ac26b1d2a27a14a95bbc5a1963532":[6,0,2,0,1,515,3]
+"classMR_1_1PythonExport.html#a595ac26b1d2a27a14a95bbc5a1963532":[6,0,1,0,1,531,3]
 };

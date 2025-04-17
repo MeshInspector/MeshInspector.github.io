@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1VoxelsVolumeMinMax.html":[6,0,1,0,1,780],
+"structMR_1_1VoxelsVolumeMinMax.html":[6,0,2,0,1,764],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html":[6,0,1,0,1,784,0],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html":[6,0,2,0,1,768,0],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a":[6,0,1,0,1,784,0,9],

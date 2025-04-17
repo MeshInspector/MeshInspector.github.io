@@ -3994,6 +3994,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga5ae5dd28b839b5244d2464da8f51fa2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga019b5724cb66137386f7769a26dc7292" id="r_ga019b5724cb66137386f7769a26dc7292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga019b5724cb66137386f7769a26dc7292">makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1EdgeLengthMesh.html">EdgeLengthMesh</a> &amp;mesh, const <a class="el" href="structMR_1_1IntrinsicDeloneSettings.html">IntrinsicDeloneSettings</a> &amp;settings={}, int numIters=1, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCallback={})</td></tr>
 <tr class="separator:ga019b5724cb66137386f7769a26dc7292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2daa9a10f45d9e441c9ca23af46a5a22" id="r_a2daa9a10f45d9e441c9ca23af46a5a22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2daa9a10f45d9e441c9ca23af46a5a22">findDirMaxBruteForce</a> (const Vector3f &amp;dir, const MeshPart &amp;mp)</td></tr>
+<tr class="memdesc:a2daa9a10f45d9e441c9ca23af46a5a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex in the mesh part having the largest projection on given direction by traversing all faces  <br /></td></tr>
+<tr class="separator:a2daa9a10f45d9e441c9ca23af46a5a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf49d29fe114a45e7ba44769ed23e07a7" id="r_gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7">findDirMax</a> (const Vector3f &amp;dir, const MeshPart &amp;mp, <a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
 <tr class="separator:gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb20234daa82631954c44c1676424e5f" id="r_gadb20234daa82631954c44c1676424e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f">processCloseTriangles</a> (const MeshPart &amp;mp, const <a class="el" href="#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;t, float rangeSq, const <a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">TriangleCallback</a> &amp;call)</td></tr>
@@ -17486,6 +17489,37 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value </p>
+
+</div>
+</div>
+<a id="a2daa9a10f45d9e441c9ca23af46a5a22" name="a2daa9a10f45d9e441c9ca23af46a5a22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2daa9a10f45d9e441c9ca23af46a5a22">&#9670;&#160;</a></span>findDirMaxBruteForce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::findDirMaxBruteForce </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the vertex in the mesh part having the largest projection on given direction by traversing all faces </p>
 
 </div>
 </div>

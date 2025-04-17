@@ -2023,6 +2023,7 @@ var namespaceMR =
     [ "findCreaseEdges", "namespaceMR.html#a4211e9cc9d627cf077e17c86710226ee", null ],
     [ "findDegenerateFaces", "group__MeshFixerGroup.html#ga2053d608172d2309a6dfc184b3c23b54", null ],
     [ "findDirMax", "group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7", null ],
+    [ "findDirMaxBruteForce", "namespaceMR.html#a2daa9a10f45d9e441c9ca23af46a5a22", null ],
     [ "findDisorientedFaces", "group__MeshFixerGroup.html#ga592c02323f7acefec87d77d23191b0e6", null ],
     [ "findDistance", "group__AABBTreeGroup.html#ga307aef2fadf0a7f062b4fab1daabe6e0", null ],
     [ "findEdgesInBall", "group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788", null ],
