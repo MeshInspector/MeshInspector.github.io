@@ -1,9 +1,5 @@
 var NAVTREEINDEX153 =
 {
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a28f9497ebe648644a3bbdb5bff44a3d6":[6,1,0,0,2,918,3],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a28f9497ebe648644a3bbdb5bff44a3d6":[6,1,1,0,1,918,3],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a399ac46be6a2375aaaed0e1be0e5d6fe":[6,1,0,0,2,918,1],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a399ac46be6a2375aaaed0e1be0e5d6fe":[6,1,1,0,1,918,1],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a5585243e4a9469a815ee2b30c1c2caf9":[6,1,0,0,2,918,8],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a5585243e4a9469a815ee2b30c1c2caf9":[6,1,1,0,1,918,8],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a6b0ecf96c16b023aeb459091f06da2d4":[6,1,0,0,2,918,17],
@@ -249,5 +245,9 @@ var NAVTREEINDEX153 =
 "classmrviewerpy_1_1KeyMod.html#a93a15b3177cc3cd8d1117c1df9a7eb4c":[6,1,0,0,3,0,6],
 "classmrviewerpy_1_1KeyMod.html#a93a15b3177cc3cd8d1117c1df9a7eb4c":[6,1,1,0,2,0,6],
 "classmrviewerpy_1_1KeyMod.html#a9c1b7730d4e622d7dd98b33115d1f9ee":[6,1,0,0,3,0,0],
-"classmrviewerpy_1_1KeyMod.html#a9c1b7730d4e622d7dd98b33115d1f9ee":[6,1,1,0,2,0,0]
+"classmrviewerpy_1_1KeyMod.html#a9c1b7730d4e622d7dd98b33115d1f9ee":[6,1,1,0,2,0,0],
+"classmrviewerpy_1_1KeyMod.html#aaae2c10153bd77ef5b49d9ddc9480b0b":[6,1,0,0,3,0,5],
+"classmrviewerpy_1_1KeyMod.html#aaae2c10153bd77ef5b49d9ddc9480b0b":[6,1,1,0,2,0,5],
+"classmrviewerpy_1_1KeyMod.html#ab0b92320eeb3887ea7913f823787f225":[6,1,0,0,3,0,10],
+"classmrviewerpy_1_1KeyMod.html#ab0b92320eeb3887ea7913f823787f225":[6,1,1,0,2,0,10]
 };

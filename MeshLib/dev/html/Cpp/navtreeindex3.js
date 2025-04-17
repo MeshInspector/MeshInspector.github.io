@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"MRGLMacro_8h_source.html":[6,0,3,0,0,1,10,26],
-"MRGLStaticHolder_8h.html":[6,0,3,0,0,1,10,27],
-"MRGLStaticHolder_8h_source.html":[6,0,3,0,0,1,10,27],
-"MRGLTexture_8h.html":[6,0,3,0,0,1,10,28],
 "MRGLTexture_8h.html#a36f6d95d5a8018c4dd23ab51ba99ab31":[6,0,3,0,0,1,10,28,3],
 "MRGLTexture_8h.html#ab51fca826c7b90369fdc1dc86a01fbad":[6,0,3,0,0,1,10,28,2],
 "MRGLTexture_8h_source.html":[6,0,3,0,0,1,10,28],
@@ -249,5 +245,9 @@ var NAVTREEINDEX3 =
 "MRJpeg_8h.html":[6,0,3,0,0,1,3,6],
 "MRJpeg_8h.html#a38b56fa1d15ca5efa69ac7cfa37ca1a4":[6,0,3,0,0,1,3,6,3],
 "MRJpeg_8h.html#a5cdd31b79d826482bc85d2d5a353bb77":[6,0,3,0,0,1,3,6,1],
-"MRJpeg_8h.html#a609852c259a33cf29095566d9ce1d8e2":[6,0,3,0,0,1,3,6,2]
+"MRJpeg_8h.html#a609852c259a33cf29095566d9ce1d8e2":[6,0,3,0,0,1,3,6,2],
+"MRJpeg_8h.html#ae8821d566f46821f54b6b253e4b0ca45":[6,0,3,0,0,1,3,6,0],
+"MRJpeg_8h_source.html":[6,0,3,0,0,1,3,6],
+"MRLambdaRibbonItem_8h.html":[6,0,3,0,0,1,10,36],
+"MRLambdaRibbonItem_8h_source.html":[6,0,3,0,0,1,10,36]
 };

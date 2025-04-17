@@ -8,6 +8,5 @@ var searchData=
   ['dicom_20files_5',['Open Dicom Files',['../../ExampleDicomFiles.html',1,'']]],
   ['distance_6',['Signed Distance',['../../ExampleSignedDistance.html',1,'']]],
   ['distance_20point_20to_20mesh_7',['Signed Distance Point To Mesh',['../../ExampleSignedDistancePointToMesh.html',1,'']]],
-  ['distances_8',['Signed Distances',['../../ExampleSignedDistances.html',1,'']]],
-  ['double_9',['Float vs Double',['../../FloatVSDouble.html',1,'']]]
+  ['double_8',['Float vs Double',['../../FloatVSDouble.html',1,'']]]
 ];

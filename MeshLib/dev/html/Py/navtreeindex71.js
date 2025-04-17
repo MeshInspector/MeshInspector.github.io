@@ -1,9 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"classmrmeshpy_1_1RigidXf3f.html#a94101d095083f1aff95668d433edefa6":[6,1,0,0,2,720,0],
-"classmrmeshpy_1_1RigidXf3f.html#a94101d095083f1aff95668d433edefa6":[6,1,1,0,1,720,0],
-"classmrmeshpy_1_1RigidXf3f.html#aaf06d99be2f70d4b6de370c40e63b1d6":[6,1,0,0,2,720,5],
-"classmrmeshpy_1_1RigidXf3f.html#aaf06d99be2f70d4b6de370c40e63b1d6":[6,1,1,0,1,720,5],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html":[6,1,0,0,2,721],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html":[6,1,1,0,1,721],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0930fa4627b59a5faf89f9f7d55bff90":[6,1,0,0,2,721,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a6f29614bd74b966006fa64378dbeb3dd":[6,1,0,0,2,729,2,8],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a6f29614bd74b966006fa64378dbeb3dd":[6,1,1,0,1,729,2,8],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a866692d0000f18ef81f8578923787e2c":[6,1,0,0,2,729,2,11],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a866692d0000f18ef81f8578923787e2c":[6,1,1,0,1,729,2,11]
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a866692d0000f18ef81f8578923787e2c":[6,1,1,0,1,729,2,11],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[6,1,0,0,2,729,2,5],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[6,1,1,0,1,729,2,5],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[6,1,0,0,2,729,2,7],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[6,1,1,0,1,729,2,7]
 };

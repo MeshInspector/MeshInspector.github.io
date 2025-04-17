@@ -1,9 +1,5 @@
 var NAVTREEINDEX88 =
 {
-"classmrmeshpy_1_1Vector4f.html#a1761658c30da06611f5ceae3b070b0ed":[6,1,0,0,2,1021,24],
-"classmrmeshpy_1_1Vector4f.html#a1761658c30da06611f5ceae3b070b0ed":[6,1,1,0,1,1021,24],
-"classmrmeshpy_1_1Vector4f.html#a2a68cf3f46282f2ea690e3f40eebbac1":[6,1,0,0,2,1021,13],
-"classmrmeshpy_1_1Vector4f.html#a2a68cf3f46282f2ea690e3f40eebbac1":[6,1,1,0,1,1021,13],
 "classmrmeshpy_1_1Vector4f.html#a31073aaf32b93795c66b66b59d68e26c":[6,1,0,0,2,1021,11],
 "classmrmeshpy_1_1Vector4f.html#a31073aaf32b93795c66b66b59d68e26c":[6,1,1,0,1,1021,11],
 "classmrmeshpy_1_1Vector4f.html#a38a2c48f43a1448160a26c3a9e6f0c2a":[6,1,0,0,2,1021,26],
@@ -249,5 +245,9 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a12559c1dfbaca93b87584d58fe1413c9":[6,1,0,0,2,1025,2],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a12559c1dfbaca93b87584d58fe1413c9":[6,1,1,0,1,1025,2],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a14e266c240a4194e122d4f0b2c5457d0":[6,1,0,0,2,1025,12],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a14e266c240a4194e122d4f0b2c5457d0":[6,1,0,0,2,1025,13]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a14e266c240a4194e122d4f0b2c5457d0":[6,1,0,0,2,1025,13],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a14e266c240a4194e122d4f0b2c5457d0":[6,1,1,0,1,1025,12],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a14e266c240a4194e122d4f0b2c5457d0":[6,1,1,0,1,1025,13],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a2585e2bc41b1cc5159ebcddd30131057":[6,1,0,0,2,1025,17],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a2585e2bc41b1cc5159ebcddd30131057":[6,1,1,0,1,1025,17]
 };

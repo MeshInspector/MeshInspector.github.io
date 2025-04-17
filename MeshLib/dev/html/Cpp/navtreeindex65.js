@@ -1,9 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,1,68,1,0],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,2,0,1,52,1,0],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,1,0,1,68,1,2],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,2,0,1,52,1,2],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,1,0,1,68,1,3],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,2,0,1,52,1,3],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,1,0,1,68,1,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX65 =
 "structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,2,0,1,119,1],
 "structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,1,0,1,135,0],
 "structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,2,0,1,119,0],
-"structMR_1_1CmpOld.html":[6,0,0,4,34]
+"structMR_1_1CmpOld.html":[6,0,0,4,34],
+"structMR_1_1Color.html":[6,0,1,0,1,138],
+"structMR_1_1Color.html":[6,0,2,0,1,122],
+"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[6,0,1,0,1,138,15],
+"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[6,0,2,0,1,122,15]
 };

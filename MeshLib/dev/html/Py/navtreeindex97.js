@@ -1,9 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a03c8411be25e87063457cfe7d50d4441":[6,1,0,0,2,1059,11],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a03c8411be25e87063457cfe7d50d4441":[6,1,1,0,1,1059,11],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0dd65f52c12b9bd55d0b255b39e253bf":[6,1,0,0,2,1059,17],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0dd65f52c12b9bd55d0b255b39e253bf":[6,1,1,0,1,1059,17],
 "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0ebdf98e85da0bccdb5695bdedc2fe7b":[6,1,0,0,2,1059,8],
 "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0ebdf98e85da0bccdb5695bdedc2fe7b":[6,1,1,0,1,1059,8],
 "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a17c66f4d9b8fa0e7adab7e6f3f40ebaf":[6,1,0,0,2,1059,29],
@@ -249,5 +245,9 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a195741ca9748a94a0f3a22e66e54d75b":[6,1,0,0,2,1065,35],
 "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a195741ca9748a94a0f3a22e66e54d75b":[6,1,1,0,1,1065,35],
 "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a1b63ec4463e577aa5b3e5294489cf889":[6,1,0,0,2,1065,36],
-"classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a1b63ec4463e577aa5b3e5294489cf889":[6,1,1,0,1,1065,36]
+"classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a1b63ec4463e577aa5b3e5294489cf889":[6,1,1,0,1,1065,36],
+"classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a2a1f838a6f6c8191896671777f0d98d7":[6,1,0,0,2,1065,39],
+"classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a2a1f838a6f6c8191896671777f0d98d7":[6,1,1,0,1,1065,39],
+"classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a3ab14eb0f105b46d4348ffe9592de2c4":[6,1,0,0,2,1065,29],
+"classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a3ab14eb0f105b46d4348ffe9592de2c4":[6,1,0,0,2,1065,30]
 };

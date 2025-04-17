@@ -342,47 +342,7 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <img src="offset_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Globalization;</div>
-<div class="line"><span class="keyword">using </span>System.Reflection;</div>
-<div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshOffsetExample</div>
-<div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
-<div class="line">    {</div>
-<div class="line">        <span class="keywordflow">if</span> (args.Length != 2)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} MeshOffsetExample OFFSET_VALUE&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
-<div class="line">            <span class="keywordflow">return</span>;</div>
-<div class="line">        }</div>
-<div class="line"> </div>
-<div class="line">        <span class="keywordflow">try</span></div>
-<div class="line">        {</div>
-<div class="line">            <span class="keywordtype">float</span> offsetValue = <span class="keywordtype">float</span>.Parse(args[1],</div>
-<div class="line">                      System.Globalization.NumberStyles.AllowDecimalPoint,</div>
-<div class="line">                      CultureInfo.InvariantCulture);</div>
-<div class="line"> </div>
-<div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            MeshPart mp = <span class="keyword">new</span> MeshPart(MeshLoad.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>));</div>
-<div class="line"> </div>
-<div class="line">            <span class="comment">// Setup parameters</span></div>
-<div class="line">            OffsetParameters op = <span class="keyword">new</span> OffsetParameters();</div>
-<div class="line">            op.voxelSize = Offset.SuggestVoxelSize(mp, 1e6f);</div>
-<div class="line"> </div>
-<div class="line">            <span class="comment">// Make offset mesh</span></div>
-<div class="line">            var result = Offset.OffsetMesh(mp, offsetValue, op);</div>
-<div class="line"> </div>
-<div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            MeshSave.ToAnySupportedFormat(result, <span class="stringliteral">&quot;mesh_offset.stl&quot;</span>);</div>
-<div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
-<div class="line">        }</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
-</div><!-- fragment --> Source mesh <div class="image">
+<li><b class="tab-title">C#</b> <div class="fragment"></div><!-- fragment --> Source mesh <div class="image">
 <img src="offset_before.png" alt=""/>
 </div>
  After offset <div class="image">
