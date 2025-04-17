@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a6fa38fcacd6673398c4b04b6a05d5fe3":[6,1,0,0,2,993,3],
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a6fa38fcacd6673398c4b04b6a05d5fe3":[6,1,1,0,1,993,3],
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a74ece5d4a56a9d03675e1635f8626e88":[6,1,0,0,2,993,33],
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a74ece5d4a56a9d03675e1635f8626e88":[6,1,1,0,1,993,33],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a7699014db182a7a535e174673f98d00f":[6,1,0,0,2,993,0],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a7699014db182a7a535e174673f98d00f":[6,1,1,0,1,993,0],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a795663338b5bb35d824f9481cbc3de67":[6,1,0,0,2,993,34],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "classmrmeshpy_1_1UniteManyMeshesParams.html#af10bfe5869f186fb3092c3ad575afb88":[6,1,0,0,2,1003,14],
 "classmrmeshpy_1_1UniteManyMeshesParams.html#af10bfe5869f186fb3092c3ad575afb88":[6,1,1,0,1,1003,14],
 "classmrmeshpy_1_1UnorientedTriangle.html":[6,1,0,0,2,1004],
-"classmrmeshpy_1_1UnorientedTriangle.html":[6,1,1,0,1,1004],
-"classmrmeshpy_1_1UnorientedTriangle.html#a456b7aa6ca2a994433c3914793c85abe":[6,1,0,0,2,1004,1],
-"classmrmeshpy_1_1UnorientedTriangle.html#a456b7aa6ca2a994433c3914793c85abe":[6,1,1,0,1,1004,1],
-"classmrmeshpy_1_1UnorientedTriangle.html#a7f63766c1b07f99cc9fd15fc66f883f3":[6,1,0,0,2,1004,2],
-"classmrmeshpy_1_1UnorientedTriangle.html#a7f63766c1b07f99cc9fd15fc66f883f3":[6,1,1,0,1,1004,2]
+"classmrmeshpy_1_1UnorientedTriangle.html":[6,1,1,0,1,1004]
 };
