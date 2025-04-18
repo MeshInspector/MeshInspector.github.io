@@ -2261,6 +2261,7 @@ var namespaceMR =
     [ "getMinTriAngleMetric", "group__FillHoleGroup.html#ga338fbef1b80c5730fcdc31a93c980781", null ],
     [ "getMouseModeString", "namespaceMR.html#a338d701994ea7476fe1b7aa25f480a86", null ],
     [ "GetMRVersionString", "namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36", null ],
+    [ "getMSAAPow", "namespaceMR.html#abb07a7e0b755ba23f5898e15db3481e7", null ],
     [ "getNeighborFaces", "namespaceMR.html#aebdf2a05f88c6e14134e0029a8aa0cda", null ],
     [ "getNObjectsLine", "namespaceMR.html#a1aa52aa577955c12272d65be2a25bf5e", null ],
     [ "getNumActivePairs", "namespaceMR.html#a5f3e72229b19af1e43886673711093af", null ],

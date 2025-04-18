@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRStringConvert_8h.html#a893bffc80e40fe77684c61377cd58705":[6,0,3,0,0,1,4,346,12],
 "MRStringConvert_8h.html#aa07a9eebcb6084b3728efa81a3ea4e43":[6,0,3,0,0,1,4,346,6],
 "MRStringConvert_8h_source.html":[6,0,3,0,0,1,4,346],
 "MRSubfeatures_8h.html":[6,0,3,0,0,1,4,347],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRToolbar_8h_source.html":[6,0,3,0,0,1,10,119],
 "MRToolsLibrary_8h.html":[6,0,3,0,0,1,10,120],
 "MRToolsLibrary_8h_source.html":[6,0,3,0,0,1,10,120],
-"MRTouchesController_8h.html":[6,0,3,0,0,1,10,121],
-"MRTouchesController_8h_source.html":[6,0,3,0,0,1,10,121]
+"MRTouchesController_8h.html":[6,0,3,0,0,1,10,121]
 };

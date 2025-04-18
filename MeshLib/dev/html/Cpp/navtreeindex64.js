@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"structMRRelaxParams.html#af3a1a637d046e2e3c41ca9cb10048e53":[6,0,2,0,54,1],
+"structMRRemeshSettings.html":[6,0,2,0,55],
+"structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9":[6,0,2,0,55,7],
+"structMRRemeshSettings.html#a2926173237cdf60eb4ba2053493933c2":[6,0,2,0,55,6],
+"structMRRemeshSettings.html#a2b2343d629b9543f0524ef893cd59aee":[6,0,2,0,55,4],
+"structMRRemeshSettings.html#a3dbe1ebb0443e5828b5a2dd1d645d890":[6,0,2,0,55,3],
+"structMRRemeshSettings.html#a78606d5f61e430e2624dce8df9956316":[6,0,2,0,55,9],
+"structMRRemeshSettings.html#a91f9d8989a2fcdef91d94d8f7adeb0e9":[6,0,2,0,55,1],
+"structMRRemeshSettings.html#aadd944d2ed451a6df6c8a0cf913e4576":[6,0,2,0,55,10],
+"structMRRemeshSettings.html#ab58b49a00c7efe6fe7b4a2f423bfbab3":[6,0,2,0,55,8],
+"structMRRemeshSettings.html#abbafe7fdf1d4baf1a12add0274a6a7db":[6,0,2,0,55,5],
+"structMRRemeshSettings.html#ac8e31341ae62a21b0a026dd78bcb2a12":[6,0,2,0,55,2],
 "structMRRemeshSettings.html#ae1948ca96b6e8e0a5c7777ec08e18a3f":[6,0,2,0,55,0],
 "structMRResolveMeshDegenSettings.html":[6,0,2,0,56],
 "structMRResolveMeshDegenSettings.html#a40805f081847f33445b8c25f2288f1ca":[6,0,2,0,56,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,1,0,1,64,0],
 "structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,2,0,1,48,0],
 "structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd":[6,0,1,0,1,64,1],
-"structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd":[6,0,2,0,1,48,1],
-"structMR_1_1Ball.html#ab893ec6d092032257b91b7fcbcb6a58a":[6,0,1,0,1,64,2],
-"structMR_1_1Ball.html#ab893ec6d092032257b91b7fcbcb6a58a":[6,0,2,0,1,48,2],
-"structMR_1_1Ball.html#ac2c803f24782033284e75272d9eab0dd":[6,0,1,0,1,64,4],
-"structMR_1_1Ball.html#ac2c803f24782033284e75272d9eab0dd":[6,0,2,0,1,48,4],
-"structMR_1_1BaseFitParams.html":[6,0,1,0,1,65],
-"structMR_1_1BaseFitParams.html":[6,0,2,0,1,49],
-"structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab":[6,0,1,0,1,65,1],
-"structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab":[6,0,2,0,1,49,1],
-"structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,1,0,1,65,0],
-"structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,2,0,1,49,0],
-"structMR_1_1BaseRenderParams.html":[6,0,1,0,1,66],
-"structMR_1_1BaseRenderParams.html":[6,0,2,0,1,50]
+"structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd":[6,0,2,0,1,48,1]
 };

@@ -423,6 +423,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeb78cc316a414e397c55a35a9e0fa39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad7ae2b261b453a9a3f957579f27c381" id="r_aad7ae2b261b453a9a3f957579f27c381"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7ae2b261b453a9a3f957579f27c381">bindSceneTexture</a> (bool bind)</td></tr>
 <tr class="separator:aad7ae2b261b453a9a3f957579f27c381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9288bd86d5b22fdacb06b171e7b440c" id="r_af9288bd86d5b22fdacb06b171e7b440c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9288bd86d5b22fdacb06b171e7b440c">isSceneTextureEnabled</a> () const</td></tr>
+<tr class="separator:af9288bd86d5b22fdacb06b171e7b440c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a756fd8c9b5a6009425ad0d381f7a317d" id="r_a756fd8c9b5a6009425ad0d381f7a317d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756fd8c9b5a6009425ad0d381f7a317d">getMSAA</a> () const</td></tr>
+<tr class="separator:a756fd8c9b5a6009425ad0d381f7a317d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ef05675d3c79985fe79d16da3349e4" id="r_ad9ef05675d3c79985fe79d16da3349e4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9ef05675d3c79985fe79d16da3349e4">requestChangeMSAA</a> (int newMSAA)</td></tr>
+<tr class="separator:ad9ef05675d3c79985fe79d16da3349e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c0acdc527e2144c6584a282d58b6c9" id="r_a80c0acdc527e2144c6584a282d58b6c9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80c0acdc527e2144c6584a282d58b6c9">getRequestedMSAA</a> () const</td></tr>
+<tr class="separator:a80c0acdc527e2144c6584a282d58b6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12df9cd9111455d38ad32806075bfec7" id="r_a12df9cd9111455d38ad32806075bfec7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12df9cd9111455d38ad32806075bfec7">setViewportSettingsManager</a> (std::unique_ptr&lt; <a class="el" href="classMR_1_1IViewerSettingsManager.html">IViewerSettingsManager</a> &gt; mng)</td></tr>
 <tr class="separator:a12df9cd9111455d38ad32806075bfec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba07276bca1b1841a90fa8d9fc800507" id="r_aba07276bca1b1841a90fa8d9fc800507"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::unique_ptr&lt; <a class="el" href="classMR_1_1IViewerSettingsManager.html">IViewerSettingsManager</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba07276bca1b1841a90fa8d9fc800507">getViewerSettingsManager</a> () const</td></tr>
@@ -1722,6 +1730,23 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a756fd8c9b5a6009425ad0d381f7a317d" name="a756fd8c9b5a6009425ad0d381f7a317d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a756fd8c9b5a6009425ad0d381f7a317d">&#9670;&#160;</a></span>getMSAA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API int MR::Viewer::getMSAA </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7198c8ad9225c7320c177e932c2ba158" name="a7198c8ad9225c7320c177e932c2ba158"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7198c8ad9225c7320c177e932c2ba158">&#9670;&#160;</a></span>getPixelPointInfo()</h2>
 
@@ -1799,6 +1824,23 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">MRVIEWER_API double MR::Viewer::getPrevFrameDrawTimeMillisec </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80c0acdc527e2144c6584a282d58b6c9" name="a80c0acdc527e2144c6584a282d58b6c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c0acdc527e2144c6584a282d58b6c9">&#9670;&#160;</a></span>getRequestedMSAA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API int MR::Viewer::getRequestedMSAA </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2345,6 +2387,23 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">MRVIEWER_API bool MR::Viewer::isSceneTextureBound </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9288bd86d5b22fdacb06b171e7b440c" name="af9288bd86d5b22fdacb06b171e7b440c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9288bd86d5b22fdacb06b171e7b440c">&#9670;&#160;</a></span>isSceneTextureEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::isSceneTextureEnabled </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -3011,6 +3070,23 @@ template&lt;typename PluginType &gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9ef05675d3c79985fe79d16da3349e4" name="ad9ef05675d3c79985fe79d16da3349e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9ef05675d3c79985fe79d16da3349e4">&#9670;&#160;</a></span>requestChangeMSAA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::requestChangeMSAA </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newMSAA</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

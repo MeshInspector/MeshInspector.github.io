@@ -1,5 +1,17 @@
 var NAVTREEINDEX63 =
 {
+"structMRBooleanResultMapper.html":[6,0,2,0,6],
+"structMRBox3f.html":[6,0,2,0,7],
+"structMRBox3f.html#a2a39366e93eb8d6552da01c061b9c909":[6,0,2,0,7,0],
+"structMRBox3f.html#acfef258beb9f0c40476c1f93410fcc5f":[6,0,2,0,7,1],
+"structMRBox3i.html":[6,0,2,0,8],
+"structMRBox3i.html#a1adbe125bcb4e62f38b1a78d9aca7fac":[6,0,2,0,8,1],
+"structMRBox3i.html#a922200412625e7bbc2de30d2c1764984":[6,0,2,0,8,0],
+"structMRColor.html":[6,0,2,0,9],
+"structMRColor.html#a619f04ba5a882494f1459c0d2e2d3dc8":[6,0,2,0,9,1],
+"structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a":[6,0,2,0,9,3],
+"structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
+"structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2],
 "structMRCoordinateConverters.html":[6,0,2,0,10],
 "structMRCoordinateConverters.html#a045ac7e849ea18d3cb66c7f0b40c6cd6":[6,0,2,0,10,0],
 "structMRCoordinateConverters.html#a56607e99af907574f8b2318d7a4adf44":[6,0,2,0,10,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX63 =
 "structMRRelaxParams.html#a544fe366775e3dabfb86a83f7f7c8911":[6,0,2,0,54,3],
 "structMRRelaxParams.html#a971cde2ee06090007854ed72f340262c":[6,0,2,0,54,0],
 "structMRRelaxParams.html#ab7123951867b1faf2ba67e7c60b2950f":[6,0,2,0,54,4],
-"structMRRelaxParams.html#ad1e83a9511a31c4412a48c8d865fd50a":[6,0,2,0,54,2],
-"structMRRelaxParams.html#af3a1a637d046e2e3c41ca9cb10048e53":[6,0,2,0,54,1],
-"structMRRemeshSettings.html":[6,0,2,0,55],
-"structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9":[6,0,2,0,55,7],
-"structMRRemeshSettings.html#a2926173237cdf60eb4ba2053493933c2":[6,0,2,0,55,6],
-"structMRRemeshSettings.html#a2b2343d629b9543f0524ef893cd59aee":[6,0,2,0,55,4],
-"structMRRemeshSettings.html#a3dbe1ebb0443e5828b5a2dd1d645d890":[6,0,2,0,55,3],
-"structMRRemeshSettings.html#a78606d5f61e430e2624dce8df9956316":[6,0,2,0,55,9],
-"structMRRemeshSettings.html#a91f9d8989a2fcdef91d94d8f7adeb0e9":[6,0,2,0,55,1],
-"structMRRemeshSettings.html#aadd944d2ed451a6df6c8a0cf913e4576":[6,0,2,0,55,10],
-"structMRRemeshSettings.html#ab58b49a00c7efe6fe7b4a2f423bfbab3":[6,0,2,0,55,8],
-"structMRRemeshSettings.html#abbafe7fdf1d4baf1a12add0274a6a7db":[6,0,2,0,55,5],
-"structMRRemeshSettings.html#ac8e31341ae62a21b0a026dd78bcb2a12":[6,0,2,0,55,2]
+"structMRRelaxParams.html#ad1e83a9511a31c4412a48c8d865fd50a":[6,0,2,0,54,2]
 };
