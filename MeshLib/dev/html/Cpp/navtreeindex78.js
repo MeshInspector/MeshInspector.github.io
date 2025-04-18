@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af7f58457a6816a15728067d8fb9ae549":[6,0,1,0,1,467,0,1],
+"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af7f58457a6816a15728067d8fb9ae549":[6,0,2,0,1,451,0,1],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,1,0,1,467,1],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,2,0,1,451,1],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#a276059ffbe521f7edd753194e8ed98e2":[6,0,1,0,1,467,1,1],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#a276059ffbe521f7edd753194e8ed98e2":[6,0,2,0,1,451,1,1],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#ac403be6e3ac709c662c40970228491b6":[6,0,1,0,1,467,1,0],
+"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html#ac403be6e3ac709c662c40970228491b6":[6,0,2,0,1,451,1,0],
 "structMR_1_1Parallel_1_1CallSimply.html":[6,0,1,0,1,23,0],
 "structMR_1_1Parallel_1_1CallSimply.html":[6,0,2,0,1,13,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[6,0,1,0,1,23,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1PointPairs.html#ab99f3e132fe375fd87cd27dafb991537":[6,0,1,0,1,495,0],
 "structMR_1_1PointPairs.html#ab99f3e132fe375fd87cd27dafb991537":[6,0,2,0,1,479,0],
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,1,0,1,495,1],
-"structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,2,0,1,479,1],
-"structMR_1_1PointsLoadSettings.html":[6,0,1,0,1,496],
-"structMR_1_1PointsLoadSettings.html":[6,0,2,0,1,480],
-"structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[6,0,1,0,1,496,1],
-"structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[6,0,2,0,1,480,1],
-"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[6,0,1,0,1,496,2],
-"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[6,0,2,0,1,480,2],
-"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[6,0,1,0,1,496,0],
-"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[6,0,2,0,1,480,0]
+"structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,2,0,1,479,1]
 };

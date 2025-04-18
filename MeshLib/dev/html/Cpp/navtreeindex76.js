@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1ModelRenderParams.html":[6,0,2,0,1,369],
+"structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,1,0,1,385,1],
+"structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,2,0,1,369,1],
+"structMR_1_1ModelRenderParams.html#a272deea0e519d1ef5efaaf5d3da84b88":[6,0,1,0,1,385,3],
+"structMR_1_1ModelRenderParams.html#a272deea0e519d1ef5efaaf5d3da84b88":[6,0,2,0,1,369,3],
+"structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,1,0,1,385,2],
+"structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,2,0,1,369,2],
+"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,1,0,1,385,0],
 "structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,2,0,1,369,0],
 "structMR_1_1MouseClickListener.html":[6,0,1,0,1,386],
 "structMR_1_1MouseClickListener.html":[6,0,2,0,1,370],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,2,0,1,424,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,1,0,1,441],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,2,0,1,425],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,1,0,1,441,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,2,0,1,425,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,1,0,1,442],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,2,0,1,426],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,1,0,1,442,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,2,0,1,426,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,1,0,1,443],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,2,0,1,427],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,1,0,1,443,0]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,1,0,1,441,0]
 };

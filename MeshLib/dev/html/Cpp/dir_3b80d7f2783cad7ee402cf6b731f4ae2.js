@@ -81,6 +81,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRDenseBox.h", "MRDenseBox_8h.html", null ],
     [ "MRDipole.h", "MRDipole_8h.html", "MRDipole_8h" ],
     [ "MRDirectory.h", "MRDirectory_8h.html", "MRDirectory_8h" ],
+    [ "MRDirMaxBruteForce.h", "MRDirMaxBruteForce_8h.html", "MRDirMaxBruteForce_8h" ],
     [ "MRDistanceMap.h", "MRDistanceMap_8h.html", "MRDistanceMap_8h" ],
     [ "MRDistanceMapLoad.h", "MRDistanceMapLoad_8h.html", "MRDistanceMapLoad_8h" ],
     [ "MRDistanceMapParams.h", "MRDistanceMapParams_8h.html", null ],

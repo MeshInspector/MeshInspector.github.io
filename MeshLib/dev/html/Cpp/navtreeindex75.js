@@ -1,5 +1,13 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1MeshMeshDistanceResult.html":[6,0,0,1,23],
+"structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9":[6,0,0,1,23,2],
+"structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4":[6,0,0,1,23,0],
+"structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9":[6,0,0,1,23,1],
+"structMR_1_1MeshMeshSignedDistanceResult.html":[6,0,0,1,24],
+"structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09":[6,0,0,1,24,1],
+"structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb":[6,0,0,1,24,0],
+"structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410":[6,0,0,1,24,2],
 "structMR_1_1MeshNormals.html":[6,0,0,9,5,0],
 "structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5":[6,0,0,9,5,0,0],
 "structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27":[6,0,0,9,5,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1ModelPointsData.html#aac320ceb1458d74eac62997c8d5d85d2":[6,0,2,0,1,368,3],
 "structMR_1_1ModelPointsData.html#ab1ca6825ddb7fe9e1937c74d1bed6625":[6,0,1,0,1,384,0],
 "structMR_1_1ModelPointsData.html#ab1ca6825ddb7fe9e1937c74d1bed6625":[6,0,2,0,1,368,0],
-"structMR_1_1ModelRenderParams.html":[6,0,1,0,1,385],
-"structMR_1_1ModelRenderParams.html":[6,0,2,0,1,369],
-"structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,1,0,1,385,1],
-"structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,2,0,1,369,1],
-"structMR_1_1ModelRenderParams.html#a272deea0e519d1ef5efaaf5d3da84b88":[6,0,1,0,1,385,3],
-"structMR_1_1ModelRenderParams.html#a272deea0e519d1ef5efaaf5d3da84b88":[6,0,2,0,1,369,3],
-"structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,1,0,1,385,2],
-"structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,2,0,1,369,2],
-"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,1,0,1,385,0]
+"structMR_1_1ModelRenderParams.html":[6,0,1,0,1,385]
 };

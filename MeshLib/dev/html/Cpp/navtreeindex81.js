@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,1,568],
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,552],
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,1,0,1,568,1],
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,2,0,1,552,1],
+"structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,1,0,1,568,2],
+"structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,2,0,1,552,2],
+"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,1,0,1,568,4],
+"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,2,0,1,552,4],
 "structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,1,0,1,568,0],
 "structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,2,0,1,552,0],
 "structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[6,0,1,0,1,568,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1SceneReorder.html":[6,0,2,0,1,594],
 "structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1":[6,0,1,0,1,610,0],
 "structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1":[6,0,2,0,1,594,0],
-"structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f":[6,0,1,0,1,610,1],
-"structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f":[6,0,2,0,1,594,1],
-"structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,1,0,1,610,2],
-"structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,2,0,1,594,2],
-"structMR_1_1SearchPathSettings.html":[6,0,1,0,1,626],
-"structMR_1_1SearchPathSettings.html":[6,0,2,0,1,610],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,1,0,1,626,0],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,2,0,1,610,0],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,1,0,1,626,1]
+"structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f":[6,0,1,0,1,610,1]
 };

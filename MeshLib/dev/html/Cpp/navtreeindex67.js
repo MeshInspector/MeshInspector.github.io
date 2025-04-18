@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[6,0,0,10,0,6],
+"structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[6,0,0,10,0,28],
+"structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[6,0,0,10,0,7],
+"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[6,0,0,10,0,27],
+"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[6,0,0,10,0,13],
+"structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[6,0,0,10,0,16],
+"structMR_1_1DeloneSettings.html":[6,0,1,0,1,172],
+"structMR_1_1DeloneSettings.html":[6,0,2,0,1,156],
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,172,4],
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,1,156,4],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,172,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1DragListener.html#a77da80a462f4e2de09870ee273327df2":[6,0,2,0,1,183,3],
 "structMR_1_1DragStartListener.html":[6,0,1,0,1,200],
 "structMR_1_1DragStartListener.html":[6,0,2,0,1,184],
-"structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[6,0,1,0,1,200,0],
-"structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[6,0,2,0,1,184,0],
-"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[6,0,1,0,1,200,1],
-"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[6,0,2,0,1,184,1],
-"structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[6,0,1,0,1,200,2],
-"structMR_1_1DragStartListener.html#ac6a6bacd8b05323ffb25b84889e75752":[6,0,2,0,1,184,2],
-"structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,1,0,1,200,3],
-"structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,2,0,1,184,3],
-"structMR_1_1DrawButtonParams.html":[6,0,1,0,1,201]
+"structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[6,0,1,0,1,200,0]
 };
