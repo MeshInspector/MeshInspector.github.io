@@ -628,6 +628,7 @@ var hierarchy =
     [ "mrmeshpy.MeshVoxelsConverter", "classmrmeshpy_1_1MeshVoxelsConverter.html", null ],
     [ "mrmeshpy.SelfIntersections.Settings.Method", "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html", null ],
     [ "mrmeshpy.MetricToAStarPenalty", "classmrmeshpy_1_1MetricToAStarPenalty.html", null ],
+    [ "mrmeshpy.MinMaxArg_float_VertId", "classmrmeshpy_1_1MinMaxArg__float__VertId.html", null ],
     [ "mrmeshpy.FixMeshDegeneraciesParams.Mode", "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html", null ],
     [ "mrmeshpy.ModelPointsData", "classmrmeshpy_1_1ModelPointsData.html", null ],
     [ "mrviewerpy.MouseButton", "classmrviewerpy_1_1MouseButton.html", null ],

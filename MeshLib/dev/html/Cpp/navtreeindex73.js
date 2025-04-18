@@ -1,5 +1,13 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,2,0,1,311,9],
+"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,1,0,1,14,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,2,0,1,6,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,1,0,1,14,0,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,2,0,1,6,0,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,1,0,1,14,0,1],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,2,0,1,6,0,1],
+"structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,1,0,1,15,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,2,0,1,7,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,1,0,1,15,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,2,0,1,7,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1MenuItemCaptionSize.html#a6c9273ccf3e41bf654cf3667bc985c0e":[6,0,1,0,1,345,1],
 "structMR_1_1MenuItemCaptionSize.html#a6c9273ccf3e41bf654cf3667bc985c0e":[6,0,2,0,1,329,1],
 "structMR_1_1MenuItemCaptionSize.html#aa2ee9d954b2e6fafdc20ad74c59602db":[6,0,1,0,1,345,0],
-"structMR_1_1MenuItemCaptionSize.html#aa2ee9d954b2e6fafdc20ad74c59602db":[6,0,2,0,1,329,0],
-"structMR_1_1MenuItemInfo.html":[6,0,1,0,1,346],
-"structMR_1_1MenuItemInfo.html":[6,0,2,0,1,330],
-"structMR_1_1MenuItemInfo.html#a1a97de0241883ed6ff2ee906e70519b4":[6,0,1,0,1,346,0],
-"structMR_1_1MenuItemInfo.html#a1a97de0241883ed6ff2ee906e70519b4":[6,0,2,0,1,330,0],
-"structMR_1_1MenuItemInfo.html#a4a18cee73e324a82d8e83c0849ee1c16":[6,0,1,0,1,346,2],
-"structMR_1_1MenuItemInfo.html#a4a18cee73e324a82d8e83c0849ee1c16":[6,0,2,0,1,330,2],
-"structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb":[6,0,1,0,1,346,3],
-"structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb":[6,0,2,0,1,330,3]
+"structMR_1_1MenuItemCaptionSize.html#aa2ee9d954b2e6fafdc20ad74c59602db":[6,0,2,0,1,329,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"MRStringConvert_8h.html#aa07a9eebcb6084b3728efa81a3ea4e43":[6,0,3,0,0,1,4,346,6],
+"MRStringConvert_8h_source.html":[6,0,3,0,0,1,4,346],
+"MRSubfeatures_8h.html":[6,0,3,0,0,1,4,347],
+"MRSubfeatures_8h.html#a2f919d193c35478d40f28668b8d2d209":[6,0,3,0,0,1,4,347,1],
 "MRSubfeatures_8h.html#a97570d41ec01a7111b742503bdc2c5dc":[6,0,3,0,0,1,4,347,2],
 "MRSubfeatures_8h_source.html":[6,0,3,0,0,1,4,347],
 "MRSurfaceDistanceBuilder_8h.html":[6,0,3,0,0,1,4,349],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "MRToolsLibrary_8h.html":[6,0,3,0,0,1,10,120],
 "MRToolsLibrary_8h_source.html":[6,0,3,0,0,1,10,120],
 "MRTouchesController_8h.html":[6,0,3,0,0,1,10,121],
-"MRTouchesController_8h_source.html":[6,0,3,0,0,1,10,121],
-"MRTouchpadCocoaHandler_8h.html":[6,0,3,0,0,1,10,122],
-"MRTouchpadCocoaHandler_8h_source.html":[6,0,3,0,0,1,10,122],
-"MRTouchpadController_8h.html":[6,0,3,0,0,1,10,123],
-"MRTouchpadController_8h_source.html":[6,0,3,0,0,1,10,123]
+"MRTouchesController_8h_source.html":[6,0,3,0,0,1,10,121]
 };

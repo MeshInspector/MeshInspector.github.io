@@ -1,5 +1,13 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#afc3d105e08bb742babc648267a6131fe":[6,0,2,0,1,5,6,4],
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#afec3cc836b34cc2be649e89660b5a937":[6,0,1,0,1,13,6,3],
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#afec3cc836b34cc2be649e89660b5a937":[6,0,2,0,1,5,6,3],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html":[6,0,1,0,1,288,0],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html":[6,0,2,0,1,272,0],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,1,0,1,288,0,2],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,2,0,1,272,0,2],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,1,0,1,288,0,0],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,2,0,1,272,0,0],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,1,0,1,288,0,1],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,2,0,1,272,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1LineSegm.html#ac7639a48742e5c77367777128549d36e":[6,0,2,0,1,311,4],
 "structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,1,0,1,327,2],
 "structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,2,0,1,311,2],
-"structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,1,0,1,327,9],
-"structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,2,0,1,311,9],
-"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,1,0,1,14,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,2,0,1,6,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,1,0,1,14,0,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,2,0,1,6,0,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,1,0,1,14,0,1],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,2,0,1,6,0,1],
-"structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,1,0,1,15,0]
+"structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,1,0,1,327,9]
 };

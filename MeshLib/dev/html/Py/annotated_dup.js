@@ -506,6 +506,7 @@ var annotated_dup =
       [ "MeshVisualizePropertyType", "classmrmeshpy_1_1MeshVisualizePropertyType.html", "classmrmeshpy_1_1MeshVisualizePropertyType" ],
       [ "MeshVoxelsConverter", "classmrmeshpy_1_1MeshVoxelsConverter.html", "classmrmeshpy_1_1MeshVoxelsConverter" ],
       [ "MetricToAStarPenalty", "classmrmeshpy_1_1MetricToAStarPenalty.html", "classmrmeshpy_1_1MetricToAStarPenalty" ],
+      [ "MinMaxArg_float_VertId", "classmrmeshpy_1_1MinMaxArg__float__VertId.html", "classmrmeshpy_1_1MinMaxArg__float__VertId" ],
       [ "ModelBaseRenderParams", "classmrmeshpy_1_1ModelBaseRenderParams.html", "classmrmeshpy_1_1ModelBaseRenderParams" ],
       [ "ModelPointsData", "classmrmeshpy_1_1ModelPointsData.html", "classmrmeshpy_1_1ModelPointsData" ],
       [ "ModelRenderParams", "classmrmeshpy_1_1ModelRenderParams.html", "classmrmeshpy_1_1ModelRenderParams" ],

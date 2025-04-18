@@ -158,6 +158,7 @@ $(function(){initNavTree('MRDirMaxBruteForce_8h.html',''); initResizable(true); 
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMinMaxArg_8h_source.html">MRMinMaxArg.h</a>&quot;</code><br />
 </div>
 <p><a href="MRDirMaxBruteForce_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -169,7 +170,7 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2b7b575fdbb2b2e8f9ea6ab14093a27c" id="r_a2b7b575fdbb2b2e8f9ea6ab14093a27c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a> (const Vector3f &amp;dir, const VertCoords &amp;points, const VertBitSet *region=nullptr)</td></tr>
-<tr class="memdesc:a2b7b575fdbb2b2e8f9ea6ab14093a27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the points having the largest projection on given direction by traversing all region points  <br /></td></tr>
+<tr class="memdesc:a2b7b575fdbb2b2e8f9ea6ab14093a27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point having the largest projection on given direction by traversing all region points  <br /></td></tr>
 <tr class="separator:a2b7b575fdbb2b2e8f9ea6ab14093a27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b14fb2e21c9a6674e1bd161d8bc07ee" id="r_a7b14fb2e21c9a6674e1bd161d8bc07ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7b14fb2e21c9a6674e1bd161d8bc07ee">MR::findDirMaxBruteForce</a> (const Vector3f &amp;dir, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud)</td></tr>
 <tr class="memdesc:a7b14fb2e21c9a6674e1bd161d8bc07ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point in the cloud having the largest projection on given direction by traversing all valid points  <br /></td></tr>
@@ -180,6 +181,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a2daa9a10f45d9e441c9ca23af46a5a22" id="r_a2daa9a10f45d9e441c9ca23af46a5a22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2daa9a10f45d9e441c9ca23af46a5a22">MR::findDirMaxBruteForce</a> (const Vector3f &amp;dir, const MeshPart &amp;mp)</td></tr>
 <tr class="memdesc:a2daa9a10f45d9e441c9ca23af46a5a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex in the mesh part having the largest projection on given direction by traversing all (region) faces  <br /></td></tr>
 <tr class="separator:a2daa9a10f45d9e441c9ca23af46a5a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aaf0d283ab2e93a0cd6c758696cba71" id="r_a8aaf0d283ab2e93a0cd6c758696cba71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MinMaxArg.html">MinMaxArg</a>&lt; float, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a> (const Vector3f &amp;dir, const VertCoords &amp;points, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memdesc:a8aaf0d283ab2e93a0cd6c758696cba71"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the points having the smallest and the largest projections on given direction by traversing all region points  <br /></td></tr>
+<tr class="separator:a8aaf0d283ab2e93a0cd6c758696cba71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc6eae716bb424fad108e2b42d4af29" id="r_a9fc6eae716bb424fad108e2b42d4af29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MinMaxArg.html">MinMaxArg</a>&lt; float, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9fc6eae716bb424fad108e2b42d4af29">MR::findDirMinMaxBruteForce</a> (const Vector3f &amp;dir, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud)</td></tr>
+<tr class="memdesc:a9fc6eae716bb424fad108e2b42d4af29"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the points in the cloud having the smallest and the largest projections on given direction by traversing all valid points  <br /></td></tr>
+<tr class="separator:a9fc6eae716bb424fad108e2b42d4af29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa24001667f1b523bf0d355ea7bee701f" id="r_aa24001667f1b523bf0d355ea7bee701f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MinMaxArg.html">MinMaxArg</a>&lt; float, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa24001667f1b523bf0d355ea7bee701f">MR::findDirMinMaxBruteForce</a> (const Vector3f &amp;dir, const Polyline3 &amp;polyline)</td></tr>
+<tr class="memdesc:aa24001667f1b523bf0d355ea7bee701f"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex in the polyline having the smallest and the largest projections on given direction by traversing all valid vertices  <br /></td></tr>
+<tr class="separator:aa24001667f1b523bf0d355ea7bee701f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e60c6fe5ab29024d10ae97a59f03d7f" id="r_a0e60c6fe5ab29024d10ae97a59f03d7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MinMaxArg.html">MinMaxArg</a>&lt; float, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0e60c6fe5ab29024d10ae97a59f03d7f">MR::findDirMinMaxBruteForce</a> (const Vector3f &amp;dir, const MeshPart &amp;mp)</td></tr>
+<tr class="memdesc:a0e60c6fe5ab29024d10ae97a59f03d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertices in the mesh part having the smallest and the largest projections on given direction by traversing all (region) faces  <br /></td></tr>
+<tr class="separator:a0e60c6fe5ab29024d10ae97a59f03d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
