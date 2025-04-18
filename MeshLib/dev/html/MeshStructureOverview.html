@@ -155,33 +155,33 @@ $(function(){initNavTree('MeshStructureOverview.html',''); initResizable(true); 
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md90">MeshLib Mesh Structure and Topology</a><ul><li class="level2"><a href="#autotoc_md91">Mesh</a><ul><li class="level3"><a href="#autotoc_md92">Points</a></li>
-<li class="level3"><a href="#autotoc_md93">Topology</a></li>
+<ul><li class="level1"><a href="#autotoc_md91">MeshLib Mesh Structure and Topology</a><ul><li class="level2"><a href="#autotoc_md92">Mesh</a><ul><li class="level3"><a href="#autotoc_md93">Points</a></li>
+<li class="level3"><a href="#autotoc_md94">Topology</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md94">Mesh Navigation</a><ul><li class="level3"><a href="#autotoc_md95">Iterating over valid vertices</a></li>
-<li class="level3"><a href="#autotoc_md96">Iterating over valid faces</a></li>
-<li class="level3"><a href="#autotoc_md97">Iterating ofer vertex edges ring</a></li>
+<li class="level2"><a href="#autotoc_md95">Mesh Navigation</a><ul><li class="level3"><a href="#autotoc_md96">Iterating over valid vertices</a></li>
+<li class="level3"><a href="#autotoc_md97">Iterating over valid faces</a></li>
+<li class="level3"><a href="#autotoc_md98">Iterating ofer vertex edges ring</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md98">More</a></li>
+<li class="level2"><a href="#autotoc_md99">More</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md90"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md91"></a>
 MeshLib Mesh Structure and Topology</h1>
-<h2><a class="anchor" id="autotoc_md91"></a>
+<h2><a class="anchor" id="autotoc_md92"></a>
 Mesh</h2>
 <p>In MeshLib Mesh structure consists of two major parts:</p><ul>
 <li>Points coordinates (Vertices)</li>
 <li>MeshTopology structure</li>
 <li>AABBTree cache (it is used for some algorithms for faster search in mesh, but it does not represent the mesh itself)</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md92"></a>
+<h3><a class="anchor" id="autotoc_md93"></a>
 Points</h3>
 <p>Is ordered array of (x,y,z) values for each point (vertex) indexed by <code>VertId</code> (integer value that indicates vertex position in the array)</p>
-<h3><a class="anchor" id="autotoc_md93"></a>
+<h3><a class="anchor" id="autotoc_md94"></a>
 Topology</h3>
 <p>Topology in Meshlib is represented as "Half-Edge structure" which means that core primitives are "Half-Edges". <br  />
 "Half-Edges" are called "Half" because a pair of half edges represent one "Oriented Edge" (one for origin vertex and left face, and the other for destination vertex and right face) <br  />
@@ -201,7 +201,7 @@ Topology</h3>
 <div class="image">
 <img src="Half-Edge.png" alt=""/>
 </div>
-<h2><a class="anchor" id="autotoc_md94"></a>
+<h2><a class="anchor" id="autotoc_md95"></a>
 Mesh Navigation</h2>
 <p><code>EdgeId e = ...</code> is unique identifier of an oriented edge in mesh ("Half-Edge").</p>
 <p><code>e.sym()</code> - the same edge with opposite orientation ("The Other Half").</p>
@@ -217,14 +217,14 @@ Mesh Navigation</h2>
 <div class="image">
 <img src="navigation_hole.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md95"></a>
+<h3><a class="anchor" id="autotoc_md96"></a>
 Iterating over valid vertices</h3>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> ( VertId v : mesh.topology.getValidVerts() )</div>
 <div class="line">{</div>
 <div class="line">    std::cout &lt;&lt; mesh.points[v].x &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; mesh.points[v].y &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; mesh.points[v].z &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="comment">//...</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md96"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md97"></a>
 Iterating over valid faces</h3>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> ( FaceId f : mesh.topology.getValidFaces() )</div>
 <div class="line">{</div>
@@ -233,14 +233,14 @@ Iterating over valid faces</h3>
 <div class="line">    std::cout &lt;&lt; vertIds[0] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; vertIds[1] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; vertIds[2] &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="comment">//...</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md97"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md98"></a>
 Iterating ofer vertex edges ring</h3>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> ( EdgeId e : orgRing( mesh.topology, vertId ) )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">//...</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Find more advanced mesh navigation techniques in this <a href="https://github.com/MeshInspector/MeshLib/issues/1377">discussion</a></p>
-<h2><a class="anchor" id="autotoc_md98"></a>
+<h2><a class="anchor" id="autotoc_md99"></a>
 More</h2>
 <p>In general any closed loop of edges may have a single face, but in meshlib we fully support only triangular faces which means that all faces can have strictly 3 edges and 3 vertices incident to it (Mesh structure allows having non-triangular faces but not all algorithms can work with it).</p>
 <p>In this <a href="https://www.cs.cornell.edu/courses/cs4620/2017sp/slides/03trimesh2.pdf">paper</a> one can find commonly used mesh structures including "Half-Edge" structure on 18th slide.</p>
