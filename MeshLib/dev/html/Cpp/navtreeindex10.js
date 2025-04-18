@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"MRMesh_2MRRegionBoundary_8h.html#a4d3bc72716887b5d9dfa102464142635":[6,0,3,0,0,1,4,318,20],
+"MRMesh_2MRRegionBoundary_8h.html#a5dafea3426ba8ddf443b86c99fd1b3e9":[6,0,3,0,0,1,4,318,2],
 "MRMesh_2MRRegionBoundary_8h.html#a6bf6e1fe2f574638b1bdfd1eaafd26cb":[6,0,3,0,0,1,4,318,16],
 "MRMesh_2MRRegionBoundary_8h.html#a6fe46de7cb7885b2707a89d2637bfeb0":[6,0,3,0,0,1,4,318,23],
 "MRMesh_2MRRegionBoundary_8h.html#a882204f54f73e4e57c90a343c302f5c5":[6,0,3,0,0,1,4,318,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "MROffsetContours_8h.html#a3f87a9abf93ab132bc1ea3f939459b37":[6,0,3,0,0,1,4,252,6],
 "MROffsetContours_8h.html#a5603e7e0bf45735134643ec3745b0573":[6,0,3,0,0,1,4,252,10],
 "MROffsetContours_8h.html#aade58963fb6a70bd69db550185bd5af7":[6,0,3,0,0,1,4,252,9],
-"MROffsetContours_8h.html#abbeb6c9515d4865378050cb9687fd180":[6,0,3,0,0,1,4,252,5],
-"MROffsetContours_8h_source.html":[6,0,3,0,0,1,4,252],
-"MROnInit_8h.html":[6,0,3,0,0,1,4,253]
+"MROffsetContours_8h.html#abbeb6c9515d4865378050cb9687fd180":[6,0,3,0,0,1,4,252,5]
 };

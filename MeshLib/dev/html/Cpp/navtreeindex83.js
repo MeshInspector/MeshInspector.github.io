@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,2,0,1,642,0],
+"structMR_1_1SpaceMouseParameters.html":[6,0,1,0,1,659],
 "structMR_1_1SpaceMouseParameters.html":[6,0,2,0,1,643],
 "structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3":[6,0,1,0,1,659,0],
 "structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3":[6,0,2,0,1,643,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1TextMeshAlignParams.html#a2b0fa04ea63d4e6994fb1b7e4ae55ee5":[6,0,2,0,1,671,4],
 "structMR_1_1TextMeshAlignParams.html#a2f2ea74bc141db0ff0a27c42f9115461":[6,0,1,0,1,687,1],
 "structMR_1_1TextMeshAlignParams.html#a2f2ea74bc141db0ff0a27c42f9115461":[6,0,2,0,1,671,1],
-"structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa":[6,0,1,0,1,687,0],
-"structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa":[6,0,2,0,1,671,0],
-"structMR_1_1TextMeshAlignParams.html#aba750f8cdad04940e2d9871e488b5463":[6,0,1,0,1,687,6]
+"structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa":[6,0,1,0,1,687,0]
 };

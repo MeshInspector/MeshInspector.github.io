@@ -4,6 +4,8 @@ var NAVTREEINDEX0 =
 "../BasedApplication.html":[4,0,0],
 "../BasicMathTypesOverview.html":[5,2],
 "../DataModel.html":[5,4],
+"../ExampleCudaOffset.html":[4,1,4],
+"../ExampleDicomFiles.html":[4,1,5],
 "../ExampleFreeForm.html":[4,0,17],
 "../ExampleGlobalRegistration.html":[4,0,14],
 "../ExampleLaplacian.html":[4,0,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "MRBuffer_8h.html#a484bb1d73bd93c876842593fe3441211":[6,0,3,0,0,1,4,33,9],
 "MRBuffer_8h.html#a78839ede3780b97bcce02af755e7e577":[6,0,3,0,0,1,4,33,8],
 "MRBuffer_8h.html#ab5fd6e1a390fa8c05a8ad7006709dbf2":[6,0,3,0,0,1,4,33,7],
-"MRBuffer_8h.html#aff3156c83a0cd4f80c755c47b577c1c9":[6,0,3,0,0,1,4,33,5],
-"MRBuffer_8h_source.html":[6,0,3,0,0,1,4,33],
-"MRCNCMachineSettings_8h.html":[6,0,3,0,0,1,4,58]
+"MRBuffer_8h.html#aff3156c83a0cd4f80c755c47b577c1c9":[6,0,3,0,0,1,4,33,5]
 };

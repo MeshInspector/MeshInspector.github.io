@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,1,0,1,59,23],
+"classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,2,0,1,43,23],
 "classMR_1_1AngleMeasurementObject.html#aed272d8412b35e82e0df272f085f51c3":[6,0,1,0,1,59,16],
 "classMR_1_1AngleMeasurementObject.html#aed272d8412b35e82e0df272f085f51c3":[6,0,2,0,1,43,16],
 "classMR_1_1AnyVisualizeMaskEnum.html":[6,0,0,11,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeColoringType.html#a531d559082c32567d685d888d4602ddf":[6,0,0,4,3,5],
 "classMR_1_1ChangeColoringType.html#a5926f12f23460add64c9ab4b0859f90b":[6,0,0,4,3,2],
 "classMR_1_1ChangeColoringType.html#a6129a4154bb8fde03e2dfc8d0e310ad2":[6,0,0,4,3,1],
-"classMR_1_1ChangeColoringType.html#ae42944016a4f6dd2c76e964cfb353bf4":[6,0,0,4,3,3],
-"classMR_1_1ChangeDualMarchingCubesAction.html":[6,0,0,4,42],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31":[6,0,0,4,42,5]
+"classMR_1_1ChangeColoringType.html#ae42944016a4f6dd2c76e964cfb353bf4":[6,0,0,4,3,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classmrmeshpy_1_1LineObject.html#a00986eb825449578871be005260e69e9":[6,1,0,0,2,413,9],
+"classmrmeshpy_1_1LineObject.html#a00986eb825449578871be005260e69e9":[6,1,1,0,1,413,9],
 "classmrmeshpy_1_1LineObject.html#a0215f1a7e45722ce08dcfb027108b8b9":[6,1,0,0,2,413,4],
 "classmrmeshpy_1_1LineObject.html#a0215f1a7e45722ce08dcfb027108b8b9":[6,1,1,0,1,413,4],
 "classmrmeshpy_1_1LineObject.html#a0a51955f3410656c8857f0147e5a3dec":[6,1,0,0,2,413,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#ae730127e04c2f9b5bd87f7d26fc49e6b":[6,1,0,0,2,428,1],
 "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#ae730127e04c2f9b5bd87f7d26fc49e6b":[6,1,1,0,1,428,1],
 "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#afc4ba455679448436a4ef84ef10ddb6d":[6,1,0,0,2,428,4],
-"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#afc4ba455679448436a4ef84ef10ddb6d":[6,1,1,0,1,428,4],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html":[6,1,0,0,2,429],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html":[6,1,1,0,1,429]
+"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#afc4ba455679448436a4ef84ef10ddb6d":[6,1,1,0,1,428,4]
 };

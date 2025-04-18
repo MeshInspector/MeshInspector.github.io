@@ -5,6 +5,8 @@ var NAVTREEINDEX0 =
 "../BasicMathTypesOverview.html":[5,2],
 "../Cpp/APICppPage.html":[6,0],
 "../DataModel.html":[5,4],
+"../ExampleCudaOffset.html":[4,1,4],
+"../ExampleDicomFiles.html":[4,1,5],
 "../ExampleFreeForm.html":[4,0,17],
 "../ExampleGlobalRegistration.html":[4,0,14],
 "../ExampleLaplacian.html":[4,0,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#adc479202607ec2e69d493f3859e6dd45":[6,1,0,0,2,5,1],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#adc479202607ec2e69d493f3859e6dd45":[6,1,1,0,1,5,1],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ae0be6aa461d1e30e3a2bc4ff911733cd":[6,1,0,0,2,5,6],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ae0be6aa461d1e30e3a2bc4ff911733cd":[6,1,1,0,1,5,6],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#afc6d0b76839f2d10933cf919d2bba70a":[6,1,0,0,2,5,4],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#afc6d0b76839f2d10933cf919d2bba70a":[6,1,1,0,1,5,4]
+"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ae0be6aa461d1e30e3a2bc4ff911733cd":[6,1,1,0,1,5,6]
 };

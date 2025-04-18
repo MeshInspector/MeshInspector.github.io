@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
+"structMR_1_1HoleEdgePoint.html":[6,0,1,0,1,271],
 "structMR_1_1HoleEdgePoint.html":[6,0,2,0,1,255],
 "structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d":[6,0,1,0,1,271,1],
 "structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d":[6,0,2,0,1,255,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0a7ac346932a736977872ac332da5c6c":[6,0,2,0,1,5,6,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0e80e0ea2a367ff6821ecfe250411a29":[6,0,1,0,1,13,6,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0e80e0ea2a367ff6821ecfe250411a29":[6,0,2,0,1,5,6,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a1edd9271c9e8a0dd98313bb5d0b13d10":[6,0,1,0,1,13,6,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a1edd9271c9e8a0dd98313bb5d0b13d10":[6,0,2,0,1,5,6,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a2b6b7bf343a47744fe873034c1fcd36a":[6,0,1,0,1,13,6,6]
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a1edd9271c9e8a0dd98313bb5d0b13d10":[6,0,1,0,1,13,6,2]
 };

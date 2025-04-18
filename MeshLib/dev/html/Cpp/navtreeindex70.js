@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,232],
+"structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,216],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,232,1],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,216,1],
 "structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,232,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,1,0,1,264,2],
 "structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,2,0,1,248,2],
 "structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1],
-"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
-"structMR_1_1HoleEdgePoint.html":[6,0,1,0,1,271]
+"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1]
 };

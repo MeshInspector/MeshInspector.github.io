@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[6,0,1,0,1,222,3],
+"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[6,0,2,0,1,206,3],
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,1,0,1,222,0],
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,2,0,1,206,0],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,1,0,1,222,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[6,0,0,9,3,0,0],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780":[6,0,0,9,3,0,0,1],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,9,3,0,0,0],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[6,0,0,9,3,0,0,2],
-"structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,232],
-"structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,216]
+"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[6,0,0,9,3,0,0,2]
 };

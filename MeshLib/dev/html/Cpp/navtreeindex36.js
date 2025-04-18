@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,2,0,1,512,12],
+"classMR_1_1PythonExport.html":[6,0,1,0,1,531],
 "classMR_1_1PythonExport.html":[6,0,2,0,1,515],
 "classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c":[6,0,1,0,1,531,1],
 "classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c":[6,0,2,0,1,515,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RenderBufferRef.html":[6,0,2,0,1,538],
 "classMR_1_1RenderBufferRef.html#a7a999ec2f9bcbbe78e53db8df8a5adc1":[6,0,1,0,1,554,6],
 "classMR_1_1RenderBufferRef.html#a7a999ec2f9bcbbe78e53db8df8a5adc1":[6,0,2,0,1,538,6],
-"classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927":[6,0,1,0,1,554,2],
-"classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927":[6,0,2,0,1,538,2],
-"classMR_1_1RenderBufferRef.html#a9e1c48f420c1514b02967cc0d7ef9331":[6,0,1,0,1,554,0]
+"classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927":[6,0,1,0,1,554,2]
 };

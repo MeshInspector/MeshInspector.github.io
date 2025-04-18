@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"MRDirMaxBruteForce_8h_source.html":[6,0,3,0,0,1,4,81],
+"MRDirectionWidget_8h.html":[6,0,3,0,0,1,10,17],
 "MRDirectionWidget_8h_source.html":[6,0,3,0,0,1,10,17],
 "MRDirectory_8h.html":[6,0,3,0,0,1,4,80],
 "MRDirectory_8h.html#a039594731b2ed053db57ed622292346d":[6,0,3,0,0,1,4,80,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "MRFixUndercuts_8h.html#af9e483356d616e2e73d144d845938851":[6,0,3,0,0,1,11,8,10],
 "MRFixUndercuts_8h.html#afb7dbf2667211aa9d31565ef2d4ad13d":[6,0,3,0,0,1,11,8,4],
 "MRFixUndercuts_8h_source.html":[6,0,3,0,0,1,11,8],
-"MRFlagOperators_8h.html":[6,0,3,0,0,1,4,117],
-"MRFlagOperators_8h.html#a9f6a28b80b13e71ba9ae42246c99ba1e":[6,0,3,0,0,1,4,117,2],
-"MRFlagOperators_8h.html#abc349ef0c3d9277a9d2a531f89b5cfb8":[6,0,3,0,0,1,4,117,1]
+"MRFlagOperators_8h.html":[6,0,3,0,0,1,4,117]
 };

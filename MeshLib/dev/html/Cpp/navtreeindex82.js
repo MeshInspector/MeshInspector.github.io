@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa79464ccf7da71973c3722b243f7da4c4":[6,0,0,18,2,0,4],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0":[6,0,0,18,2,0,7],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa85606c6e9964bc4f4a6eed6d6739f54e":[6,0,0,18,2,0,20],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa86bffffe1afee0a5c1e6b7630965e06c":[6,0,0,18,2,0,21],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa8eb89f8f0a195b58b0d8da7d499cc55a":[6,0,0,18,2,0,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1SpaceMouseMoveListener.html#a66ccc53a5aad7584a46946801cbc430b":[6,0,2,0,1,642,1],
 "structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,1,0,1,658,3],
 "structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,2,0,1,642,3],
-"structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,1,0,1,658,0],
-"structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,2,0,1,642,0],
-"structMR_1_1SpaceMouseParameters.html":[6,0,1,0,1,659]
+"structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,1,0,1,658,0]
 };

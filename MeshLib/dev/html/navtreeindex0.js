@@ -5,6 +5,8 @@ var NAVTREEINDEX0 =
 "BasicMathTypesOverview.html":[5,2],
 "Cpp/APICppPage.html":[6,0],
 "DataModel.html":[5,4],
+"ExampleCudaOffset.html":[4,1,4],
+"ExampleDicomFiles.html":[4,1,5],
 "ExampleFreeForm.html":[4,0,17],
 "ExampleGlobalRegistration.html":[4,0,14],
 "ExampleLaplacian.html":[4,0,18],

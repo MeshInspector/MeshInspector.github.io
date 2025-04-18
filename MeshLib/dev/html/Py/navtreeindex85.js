@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"classmrmeshpy_1_1UniteManyMeshesParams.html#a6c6b2ef23b8cec74942f4adb9ae42c1c":[6,1,0,0,2,1004,8],
+"classmrmeshpy_1_1UniteManyMeshesParams.html#a6c6b2ef23b8cec74942f4adb9ae42c1c":[6,1,1,0,1,1004,8],
 "classmrmeshpy_1_1UniteManyMeshesParams.html#a79549c3ed005154678ddb4f5fb641021":[6,1,0,0,2,1004,3],
 "classmrmeshpy_1_1UniteManyMeshesParams.html#a79549c3ed005154678ddb4f5fb641021":[6,1,1,0,1,1004,3],
 "classmrmeshpy_1_1UniteManyMeshesParams.html#a867eb68bbfd79c37bd2c7a335b01dcf3":[6,1,0,0,2,1004,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "classmrmeshpy_1_1Vector2f.html#af7752bb62b1eca92302b1c64e61316b5":[6,1,0,0,2,1012,28],
 "classmrmeshpy_1_1Vector2f.html#af7752bb62b1eca92302b1c64e61316b5":[6,1,1,0,1,1012,28],
 "classmrmeshpy_1_1Vector2f.html#afc2803224ed020e65440ee252b2bb76f":[6,1,0,0,2,1012,13],
-"classmrmeshpy_1_1Vector2f.html#afc2803224ed020e65440ee252b2bb76f":[6,1,1,0,1,1012,13],
-"classmrmeshpy_1_1Vector2i.html":[6,1,0,0,2,1013],
-"classmrmeshpy_1_1Vector2i.html":[6,1,1,0,1,1013]
+"classmrmeshpy_1_1Vector2f.html#afc2803224ed020e65440ee252b2bb76f":[6,1,1,0,1,1012,13]
 };

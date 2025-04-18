@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"MRFlagOperators_8h.html#a9f6a28b80b13e71ba9ae42246c99ba1e":[6,0,3,0,0,1,4,117,2],
+"MRFlagOperators_8h.html#abc349ef0c3d9277a9d2a531f89b5cfb8":[6,0,3,0,0,1,4,117,1],
 "MRFlagOperators_8h.html#afbd9348d27fb58bbb0befb3db34fab6a":[6,0,3,0,0,1,4,117,0],
 "MRFlagOperators_8h_source.html":[6,0,3,0,0,1,4,117],
 "MRFloatGridComponents_8h.html":[6,0,3,0,0,1,11,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "MRIntersectionPrecomputes_8h_source.html":[6,0,3,0,0,1,4,143],
 "MRIntersection_8h.html":[6,0,3,0,0,1,4,141],
 "MRIntersection_8h_source.html":[6,0,3,0,0,1,4,141],
-"MRIsNaN_8h.html":[6,0,3,0,0,1,4,150],
-"MRIsNaN_8h.html#a8f3c9f088f6a284e579d9042826fccd6":[6,0,3,0,0,1,4,150,2],
-"MRIsNaN_8h.html#ac50b2a332a59b46a9f98d7dc951dd010":[6,0,3,0,0,1,4,150,1]
+"MRIsNaN_8h.html":[6,0,3,0,0,1,4,150]
 };

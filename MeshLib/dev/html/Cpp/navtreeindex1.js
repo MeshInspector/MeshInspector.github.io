@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRBuffer_8h_source.html":[6,0,3,0,0,1,4,33],
+"MRCNCMachineSettings_8h.html":[6,0,3,0,0,1,4,58],
 "MRCNCMachineSettings_8h_source.html":[6,0,3,0,0,1,4,58],
 "MRCalcDims_8h.html":[6,0,3,0,0,1,11,2],
 "MRCalcDims_8h.html#af1eec874d8d4e923bb36851ae2456eff":[6,0,3,0,0,1,11,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRDirMaxBruteForce_8h.html#a8aaf0d283ab2e93a0cd6c758696cba71":[6,0,3,0,0,1,4,81,7],
 "MRDirMaxBruteForce_8h.html#a9fc6eae716bb424fad108e2b42d4af29":[6,0,3,0,0,1,4,81,5],
 "MRDirMaxBruteForce_8h.html#aa24001667f1b523bf0d355ea7bee701f":[6,0,3,0,0,1,4,81,6],
-"MRDirMaxBruteForce_8h.html#af36e24fb11f2ae3ac7ef7d5c38d62234":[6,0,3,0,0,1,4,81,2],
-"MRDirMaxBruteForce_8h_source.html":[6,0,3,0,0,1,4,81],
-"MRDirectionWidget_8h.html":[6,0,3,0,0,1,10,17]
+"MRDirMaxBruteForce_8h.html#af36e24fb11f2ae3ac7ef7d5c38d62234":[6,0,3,0,0,1,4,81,2]
 };

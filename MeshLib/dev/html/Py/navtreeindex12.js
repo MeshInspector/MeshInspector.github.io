@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,0,0,2,140,10],
+"classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,1,0,1,140,10],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,0,0,2,140,0],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,1,0,1,140,0],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html#a1db33c88bf0f399d96ea1e9040245beb":[6,1,0,0,2,140,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#ad28a4d72e8948a42ae82c19f7dec76c1":[6,1,0,0,2,113,0],
 "classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#ad28a4d72e8948a42ae82c19f7dec76c1":[6,1,1,0,1,113,0],
 "classmrmeshpy_1_1ChangeNameAction.html":[6,1,0,0,2,114],
-"classmrmeshpy_1_1ChangeNameAction.html":[6,1,1,0,1,114],
-"classmrmeshpy_1_1ChangeNameAction.html#a32d9425bcbe02d30fc348fb1fdb77688":[6,1,0,0,2,114,2],
-"classmrmeshpy_1_1ChangeNameAction.html#a32d9425bcbe02d30fc348fb1fdb77688":[6,1,1,0,1,114,2]
+"classmrmeshpy_1_1ChangeNameAction.html":[6,1,1,0,1,114]
 };

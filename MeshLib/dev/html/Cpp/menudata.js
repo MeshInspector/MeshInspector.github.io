@@ -61,7 +61,9 @@ var menudata={children:[
 {text:"Viewer",url:"../ExampleViewer.html"},
 {text:"Plotly Visualization",url:"../ExamplePlotly.html"},
 {text:"Using Numpy",url:"../ExampleNumpy.html"},
-{text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"}]}]},
+{text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"},
+{text:"Offset with Cuda",url:"../ExampleCudaOffset.html"},
+{text:"Open Dicom Files",url:"../ExampleDicomFiles.html"}]}]},
 {text:"Package Overview",url:"../PackageOverview.html",children:[
 {text:"File Format Support",url:"../FileFormatSupport.html"},
 {text:"Mesh Structure",url:"../MeshStructureOverview.html"},

@@ -65,7 +65,9 @@ var NAVTREE =
         [ "Viewer", "ExampleViewer.html", null ],
         [ "Plotly Visualization", "ExamplePlotly.html", null ],
         [ "Using Numpy", "ExampleNumpy.html", null ],
-        [ "Numpy Triangulation", "ExampleNumpyTriangulation.html", null ]
+        [ "Numpy Triangulation", "ExampleNumpyTriangulation.html", null ],
+        [ "Offset with Cuda", "ExampleCudaOffset.html", null ],
+        [ "Open Dicom Files", "ExampleDicomFiles.html", null ]
       ] ]
     ] ],
     [ "Package Overview", "PackageOverview.html", [

@@ -274,6 +274,26 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div></div>
 <div class="ttc" id="astructMRSaveSettings_html"><div class="ttname"><a href="./Cpp/structMRSaveSettings.html">MRSaveSettings</a></div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshLoadSaveExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">try</span></div>
+<div class="line">        {</div>
+<div class="line">            var mesh = MeshLoad.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            MeshSave.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line">        {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
