@@ -164,17 +164,14 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html',''); initResizable(true)
 </li>
 <li class="level2"><a href="#autotoc_md45">Installation from a Downloaded NuGet Package</a></li>
 <li class="level2"><a href="#autotoc_md46">Installation via .NET Command-Line Interface</a></li>
-<li class="level2"><a href="#autotoc_md47">Try MeshLib with C# Examples</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="UsingMeshLibwithCSharp"></a>
 Using MeshLib with C#</h1>
-<p>This instruction will guide you through integrating MeshLib into your C# project using NuGet or the .NET Command-Line Interface.</p>
-<dl class="section note"><dt>Note</dt><dd>We are planning to deliver full C# support in 2025. Until then, only the core features of MeshLib are available in C#, and the API may evolve as we expand functionality. We will strive to minimize disruptions and ensure a smooth transition as these changes are introduced.</dd>
-<dd>
-C# integration is currently supported on Windows x64 and Linux x64. Please note that ARM64 builds are not yet available, so make sure your project is configured accordingly to avoid compatibility issues.</dd></dl>
+<p>This instruction will guide you through integrating MeshLib into your C# project using NuGet or .NET Command-Line Interface.</p>
+<dl class="section note"><dt>Note</dt><dd><b>Important:</b> MeshLib currently supports x64 builds only, so ensure your project configuration aligns to avoid compatibility issues. While .NET and NuGet offer support for macOS and Linux, the MeshLib package lacks native libraries for these platforms. As of now, MeshLib operates exclusively on Windows when used with C#.</dd></dl>
 <h2><a class="anchor" id="autotoc_md40"></a>
 Prerequisites</h2>
 <p>Before installing MeshLib, ensure you have the following tools installed:</p>
@@ -269,16 +266,7 @@ Installation via .NET Command-Line Interface</h2>
  After installing MeshLib, you can build and run your project using: <div class="fragment"><div class="line">dotnet run</div>
 </div><!-- fragment --></li>
 </ol>
-<p>By following these steps, you can integrate MeshLib into your project, giving you more control over the setup process.</p>
-<h2><a class="anchor" id="autotoc_md47"></a>
-Try MeshLib with C# Examples</h2>
-<p>MeshLib provides a collection of C# code samples to help you get started quickly with common mesh processing tasks. These are concise, self-contained examples — perfect for exploring how to use MeshLib’s API in your own projects:</p>
-<ul>
-<li><a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> Demonstrates how to load and export mesh files using the MeshLib API.</li>
-<li><a class="el" href="ExampleMeshBoolean.html">Mesh Boolean Operations</a> Shows how to perform boolean operations like union, intersection, and subtraction between meshes.</li>
-<li><a class="el" href="ExampleMeshDecimate.html">Mesh Simplification</a> Illustrates how to reduce mesh complexity through decimation, preserving overall shape with fewer polygons.</li>
-</ul>
-<p>These samples are a great starting point for integrating MeshLib into C# or .NET-based workflow. </p>
+<p>By following these steps, you can integrate MeshLib into your project, giving you more control over the setup process. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
