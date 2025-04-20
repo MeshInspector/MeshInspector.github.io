@@ -1,10 +1,12 @@
 var NAVTREEINDEX17 =
 {
-"MRWriter_8h_source.html":[6,0,3,0,0,1,4,393],
-"MRXfBasedCache_8h.html":[6,0,3,0,0,1,4,394],
-"MRXfBasedCache_8h_source.html":[6,0,3,0,0,1,4,394],
-"MRZip_8h.html":[6,0,3,0,0,1,4,395],
-"MRZip_8h_source.html":[6,0,3,0,0,1,4,395],
+"MRWriter_8h.html":[6,0,3,0,0,1,4,394],
+"MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060":[6,0,3,0,0,1,4,394,1],
+"MRWriter_8h_source.html":[6,0,3,0,0,1,4,394],
+"MRXfBasedCache_8h.html":[6,0,3,0,0,1,4,395],
+"MRXfBasedCache_8h_source.html":[6,0,3,0,0,1,4,395],
+"MRZip_8h.html":[6,0,3,0,0,1,4,396],
+"MRZip_8h_source.html":[6,0,3,0,0,1,4,396],
 "MRZlib_8h.html":[6,0,3,0,0,1,3,12],
 "MRZlib_8h.html#a3c93ff1b38318770dd195fbdbe3dc45c":[6,0,3,0,0,1,3,12,1],
 "MRZlib_8h.html#ade26a1cffee8e1e012f32d8d7bcc6637":[6,0,3,0,0,1,3,12,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[6,0,1,0,1,59,17],
 "classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[6,0,2,0,1,43,17],
 "classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,1,0,1,59,12],
-"classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,2,0,1,43,12],
-"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,1,0,1,59,2],
-"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,2,0,1,43,2]
+"classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[6,0,2,0,1,43,12]
 };

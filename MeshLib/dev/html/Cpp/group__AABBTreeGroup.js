@@ -57,8 +57,8 @@ var group__AABBTreeGroup =
         [ "leaf", "structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a", null ],
         [ "setLeafPointRange", "structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b", null ],
         [ "box", "structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3", null ],
-        [ "leftOrFirst", "structMR_1_1AABBTreePoints_1_1Node.html#a8421156508934dc148c12b4ca83f9eec", null ],
-        [ "rightOrLast", "structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f", null ]
+        [ "l", "structMR_1_1AABBTreePoints_1_1Node.html#af8f74a9f0dc8b291dca8ff290c8b45a1", null ],
+        [ "r", "structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa", null ]
       ] ],
       [ "Point", "structMR_1_1AABBTreePoints_1_1Point.html", [
         [ "coord", "structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be", null ],
@@ -288,6 +288,8 @@ var group__AABBTreeGroup =
     [ "MR::findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23", null ],
     [ "MR::findCollidingTriangles", "group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6", null ],
     [ "MR::findDirMax", "group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7", null ],
+    [ "MR::findDirMax", "group__AABBTreeGroup.html#ga4408546b67f7074fefeb484589481f97", null ],
+    [ "MR::findDirMax", "group__AABBTreeGroup.html#gaa5ff2fe386af48055096b3eb89f158b6", null ],
     [ "MR::findDistance", "group__AABBTreeGroup.html#ga307aef2fadf0a7f062b4fab1daabe6e0", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],

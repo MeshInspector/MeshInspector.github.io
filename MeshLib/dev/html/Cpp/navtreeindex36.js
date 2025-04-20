@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,2,0,1,512,4],
+"classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,1,0,1,528,12],
 "classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,2,0,1,512,12],
 "classMR_1_1PythonExport.html":[6,0,1,0,1,531],
 "classMR_1_1PythonExport.html":[6,0,2,0,1,515],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RenderAngleObject.html#ad783673b63b5a23dcf35d0bc3ecd7a02":[6,0,2,0,1,537,0],
 "classMR_1_1RenderBufferRef.html":[6,0,1,0,1,554],
 "classMR_1_1RenderBufferRef.html":[6,0,2,0,1,538],
-"classMR_1_1RenderBufferRef.html#a7a999ec2f9bcbbe78e53db8df8a5adc1":[6,0,1,0,1,554,6],
-"classMR_1_1RenderBufferRef.html#a7a999ec2f9bcbbe78e53db8df8a5adc1":[6,0,2,0,1,538,6],
-"classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927":[6,0,1,0,1,554,2]
+"classMR_1_1RenderBufferRef.html#a7a999ec2f9bcbbe78e53db8df8a5adc1":[6,0,1,0,1,554,6]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1VolumeIndexer.html":[6,0,0,17,0,1],
+"classMR_1_1VolumeSegmenter.html":[6,0,0,17,2,1],
 "classMR_1_1VolumeSegmenter.html#a0cc8f6e40de564a414a9929ff63d5f9a":[6,0,0,17,2,1,8],
 "classMR_1_1VolumeSegmenter.html#a1afe2c227ee25b71b24c84a7697afdf6":[6,0,0,17,2,1,4],
 "classMR_1_1VolumeSegmenter.html#a2e6d2f06d40f3437e049a6e4b9846a61":[6,0,0,17,2,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "functions_eval.html":[6,0,2,3,5],
 "functions_f.html":[6,0,2,3,0,6],
 "functions_func.html":[6,0,2,3,1],
-"functions_func.html":[6,0,2,3,1,0],
-"functions_func_b.html":[6,0,2,3,1,1],
-"functions_func_c.html":[6,0,2,3,1,2]
+"functions_func.html":[6,0,2,3,1,0]
 };

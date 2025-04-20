@@ -1486,6 +1486,8 @@ var namespacemrmeshpy =
     [ "findCreaseEdges", "namespacemrmeshpy.html#a2177f65615bb24bc7f5b87d00e9fd6a7", null ],
     [ "findDegenerateFaces", "namespacemrmeshpy.html#a570ddced1db6d6474d1a0699699bf662", null ],
     [ "findDirMax", "namespacemrmeshpy.html#a4bde1932e8919d5e79f55c11324e1f8d", null ],
+    [ "findDirMax", "namespacemrmeshpy.html#af94c6a0a7a36cc5fea0176e121d7751c", null ],
+    [ "findDirMax", "namespacemrmeshpy.html#a7a2e57ada2b8cdebe39d7dd1a1a3368f", null ],
     [ "findDirMaxBruteForce", "namespacemrmeshpy.html#a64981acaac19ba7cde668144652e3728", null ],
     [ "findDirMaxBruteForce", "namespacemrmeshpy.html#ab7ff45a490b83c25b9b176ff9f7a99e2", null ],
     [ "findDirMaxBruteForce", "namespacemrmeshpy.html#a2a4e19512f4d758b4b03e24486adf98a", null ],

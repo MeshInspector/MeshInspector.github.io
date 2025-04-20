@@ -178,10 +178,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2153d4fd7d12b27618511103c9080df3" id="r_a2153d4fd7d12b27618511103c9080df3"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2153d4fd7d12b27618511103c9080df3">box</a></td></tr>
 <tr class="memdesc:a2153d4fd7d12b27618511103c9080df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">bounding box of whole subtree  <br /></td></tr>
 <tr class="separator:a2153d4fd7d12b27618511103c9080df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8421156508934dc148c12b4ca83f9eec" id="r_a8421156508934dc148c12b4ca83f9eec"><td class="memItemLeft" align="right" valign="top">NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8421156508934dc148c12b4ca83f9eec">leftOrFirst</a></td></tr>
-<tr class="separator:a8421156508934dc148c12b4ca83f9eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cf322fb918d8114b9298d36ab60f30f" id="r_a3cf322fb918d8114b9298d36ab60f30f"><td class="memItemLeft" align="right" valign="top">NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cf322fb918d8114b9298d36ab60f30f">rightOrLast</a></td></tr>
-<tr class="separator:a3cf322fb918d8114b9298d36ab60f30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8f74a9f0dc8b291dca8ff290c8b45a1" id="r_af8f74a9f0dc8b291dca8ff290c8b45a1"><td class="memItemLeft" align="right" valign="top">NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8f74a9f0dc8b291dca8ff290c8b45a1">l</a></td></tr>
+<tr class="memdesc:af8f74a9f0dc8b291dca8ff290c8b45a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">left child node for an inner node, or -(l+1) is the index of the first point in a leaf node  <br /></td></tr>
+<tr class="separator:af8f74a9f0dc8b291dca8ff290c8b45a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d207477de6241a5d47a8971c2944aa" id="r_aa7d207477de6241a5d47a8971c2944aa"><td class="memItemLeft" align="right" valign="top">NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7d207477de6241a5d47a8971c2944aa">r</a></td></tr>
+<tr class="separator:aa7d207477de6241a5d47a8971c2944aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4706c948a08613c970dd47e89dfc42b8" name="a4706c948a08613c970dd47e89dfc42b8"></a>
@@ -286,32 +287,34 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8421156508934dc148c12b4ca83f9eec" name="a8421156508934dc148c12b4ca83f9eec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8421156508934dc148c12b4ca83f9eec">&#9670;&#160;</a></span>leftOrFirst</h2>
+<a id="af8f74a9f0dc8b291dca8ff290c8b45a1" name="af8f74a9f0dc8b291dca8ff290c8b45a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8f74a9f0dc8b291dca8ff290c8b45a1">&#9670;&#160;</a></span>l</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">NodeId MR::AABBTreePoints::Node::leftOrFirst</td>
+          <td class="memname">NodeId MR::AABBTreePoints::Node::l</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node </p>
+
 </div>
 </div>
-<a id="a3cf322fb918d8114b9298d36ab60f30f" name="a3cf322fb918d8114b9298d36ab60f30f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cf322fb918d8114b9298d36ab60f30f">&#9670;&#160;</a></span>rightOrLast</h2>
+<a id="aa7d207477de6241a5d47a8971c2944aa" name="aa7d207477de6241a5d47a8971c2944aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d207477de6241a5d47a8971c2944aa">&#9670;&#160;</a></span>r</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">NodeId MR::AABBTreePoints::Node::rightOrLast</td>
+          <td class="memname">NodeId MR::AABBTreePoints::Node::r</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>child nodes indices if &gt;=0, points indices if &lt; 0 </p>
+<p>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node </p>
 
 </div>
 </div>

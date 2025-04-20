@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[6,0,0,9,3,0,0],
+"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780":[6,0,0,9,3,0,0,1],
+"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,9,3,0,0,0],
+"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[6,0,0,9,3,0,0,2],
 "structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,232],
 "structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,216],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,232,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,1,0,1,264,1],
 "structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,248,1],
 "structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,1,0,1,264,6],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,2,0,1,248,6],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,1,0,1,264,2],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,2,0,1,248,2],
-"structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1]
+"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,2,0,1,248,6]
 };

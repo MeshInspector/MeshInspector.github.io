@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,53,0],
+"structMRRelaxParams.html":[6,0,2,0,54],
+"structMRRelaxParams.html#a544fe366775e3dabfb86a83f7f7c8911":[6,0,2,0,54,3],
+"structMRRelaxParams.html#a971cde2ee06090007854ed72f340262c":[6,0,2,0,54,0],
 "structMRRelaxParams.html#ab7123951867b1faf2ba67e7c60b2950f":[6,0,2,0,54,4],
 "structMRRelaxParams.html#ad1e83a9511a31c4412a48c8d865fd50a":[6,0,2,0,54,2],
 "structMRRelaxParams.html#af3a1a637d046e2e3c41ca9cb10048e53":[6,0,2,0,54,1],
@@ -99,10 +103,10 @@ var NAVTREEINDEX64 =
 "structMR_1_1AABBTreePoints_1_1Node.html":[6,0,0,1,7,0],
 "structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b":[6,0,0,1,7,0,2],
 "structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3":[6,0,0,1,7,0,3],
-"structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f":[6,0,0,1,7,0,5],
 "structMR_1_1AABBTreePoints_1_1Node.html#a4706c948a08613c970dd47e89dfc42b8":[6,0,0,1,7,0,0],
 "structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a":[6,0,0,1,7,0,1],
-"structMR_1_1AABBTreePoints_1_1Node.html#a8421156508934dc148c12b4ca83f9eec":[6,0,0,1,7,0,4],
+"structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa":[6,0,0,1,7,0,5],
+"structMR_1_1AABBTreePoints_1_1Node.html#af8f74a9f0dc8b291dca8ff290c8b45a1":[6,0,0,1,7,0,4],
 "structMR_1_1AABBTreePoints_1_1Point.html":[6,0,0,1,7,1],
 "structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be":[6,0,0,1,7,1,0],
 "structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077":[6,0,0,1,7,1,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Ball.html":[6,0,1,0,1,64],
 "structMR_1_1Ball.html":[6,0,2,0,1,48],
 "structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,1,0,1,64,3],
-"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,2,0,1,48,3],
-"structMR_1_1Ball.html#a954cef52a073087f7bfdb9555e9584a3":[6,0,1,0,1,64,5],
-"structMR_1_1Ball.html#a954cef52a073087f7bfdb9555e9584a3":[6,0,2,0,1,48,5],
-"structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,1,0,1,64,0],
-"structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,2,0,1,48,0]
+"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,2,0,1,48,3]
 };
