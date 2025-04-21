@@ -1,5 +1,12 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a":[6,0,1,0,1,606,0],
+"structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a":[6,0,2,0,1,590,0],
+"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,1,0,1,606,6],
+"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,2,0,1,590,6],
+"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,1,0,1,606,7],
+"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,2,0,1,590,7],
+"structMR_1_1SceneColors.html":[6,0,0,18,2],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a":[6,0,0,18,2,0],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa02ea243d26ba88b944774b0dd860cca9":[6,0,0,18,2,0,6],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f":[6,0,0,18,2,0,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[6,0,2,0,1,637,3],
 "structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[6,0,1,0,1,653,2],
 "structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[6,0,2,0,1,637,2],
-"structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,1,0,1,653,4],
-"structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,2,0,1,637,4],
-"structMR_1_1SpaceMouseDownListener.html":[6,0,1,0,1,655],
-"structMR_1_1SpaceMouseDownListener.html":[6,0,2,0,1,639],
-"structMR_1_1SpaceMouseDownListener.html#a05b541f48e7534ed7df5e11043b82bca":[6,0,1,0,1,655,0],
-"structMR_1_1SpaceMouseDownListener.html#a05b541f48e7534ed7df5e11043b82bca":[6,0,2,0,1,639,0],
-"structMR_1_1SpaceMouseDownListener.html#a395df26bbdf613370b0ad0b4af252f1f":[6,0,1,0,1,655,3],
-"structMR_1_1SpaceMouseDownListener.html#a395df26bbdf613370b0ad0b4af252f1f":[6,0,2,0,1,639,3]
+"structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,1,0,1,653,4]
 };
