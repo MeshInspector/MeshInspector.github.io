@@ -2,7 +2,7 @@ var classmrmeshpy_1_1FillHoleNicelySettings =
 [
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ae6ea8ac79fa3e78fc50502640af68e2a", null ],
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ac5e3498c40d977fe9fde7f527d77942b", null ],
-    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a538e6529b3bf6381ac9591daa0e1e80f", null ],
+    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a722066d43db8a1fab0b68cc702674b19", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a50ccd6545e4fb0876ea176d9ef42a5eb", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a163fee0fdff0c18290cae488bb309f83", null ],
     [ "colorMap", "classmrmeshpy_1_1FillHoleNicelySettings.html#a15568bc243eb26da530f3b659b07cf94", null ],
@@ -25,8 +25,8 @@ var classmrmeshpy_1_1FillHoleNicelySettings =
     [ "triangulateOnly", "classmrmeshpy_1_1FillHoleNicelySettings.html#a0742be373854745970a4a67452c921ba", null ],
     [ "triangulateParams", "classmrmeshpy_1_1FillHoleNicelySettings.html#a83a699ace555f0b3b450777d1f59788f", null ],
     [ "triangulateParams", "classmrmeshpy_1_1FillHoleNicelySettings.html#a19d13716844e77567127449b2a17bab8", null ],
-    [ "uvCoords", "classmrmeshpy_1_1FillHoleNicelySettings.html#a848e0465f3a7ea29ca54d752b936bbad", null ],
-    [ "uvCoords", "classmrmeshpy_1_1FillHoleNicelySettings.html#a3537fca03641f6ec38b5d207fb13ef81", null ],
+    [ "uvCoords", "classmrmeshpy_1_1FillHoleNicelySettings.html#a649f69ba4aa89e6ece41acd18a141338", null ],
+    [ "uvCoords", "classmrmeshpy_1_1FillHoleNicelySettings.html#a02303fed26e0d9482f829286352a8bc9", null ],
     [ "vmass", "classmrmeshpy_1_1FillHoleNicelySettings.html#a819b7a5abd8495cff22d5747d59c6fca", null ],
     [ "vmass", "classmrmeshpy_1_1FillHoleNicelySettings.html#ac0576ab29afb6d6f04c1a94a80401c3a", null ]
 ];

@@ -1,5 +1,14 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1Cuda.html#aef610d07cea3f8cabc78d63878b53bc8":[6,0,1,0,1,2,21],
+"namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231":[6,0,1,0,1,2,12],
+"namespaceMR_1_1DistanceMapLoad.html":[6,0,1,0,1,4],
+"namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[6,0,1,0,1,4,0],
+"namespaceMR_1_1DistanceMapSave.html":[6,0,1,0,1,5],
+"namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[6,0,1,0,1,5,0],
+"namespaceMR_1_1Features.html":[6,0,1,0,1,6],
+"namespaceMR_1_1Features.html#a164e47d633f8939134d7f4f05960c4ac":[6,0,1,0,1,6,22],
+"namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2":[6,0,1,0,1,6,13],
 "namespaceMR_1_1Features.html#a2d7396ae23e2d25cae0b7fc52fd0700e":[6,0,1,0,1,6,16],
 "namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[6,0,1,0,1,6,5],
 "namespaceMR_1_1Features.html#a39b347d1c16a0e596d16c09cc7839ded":[6,0,1,0,1,6,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1TriangulationHelpers.html#aaaaea439dd161b8d9bb9fa504ec2c384":[6,0,1,0,1,37,5],
 "namespaceMR_1_1UI.html":[6,0,1,0,1,38],
 "namespaceMR_1_1UI.html#a012d7558b98063f22c4bb9a28299837b":[6,0,1,0,1,38,25],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6":[6,0,1,0,1,38,13],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086":[6,0,1,0,1,38,13,0],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a":[6,0,1,0,1,38,13,1],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5f623490490b088611156df973163f7f":[6,0,1,0,1,38,13,4],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a9a90779dd28ced8bbf08290780e6ea30":[6,0,1,0,1,38,13,3],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,38,13,5],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6aecbe96567baf8cf6569140a80096a953":[6,0,1,0,1,38,13,2],
-"namespaceMR_1_1UI.html#a0c37be14d527eafdf4f327608985ab9e":[6,0,1,0,1,38,37],
-"namespaceMR_1_1UI.html#a0d337a1adf7e16aaa08b683a6b65e886":[6,0,1,0,1,38,51],
-"namespaceMR_1_1UI.html#a0dcca7e7ac30d2cfb193d8b8961fed3f":[6,0,1,0,1,38,18]
+"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6":[6,0,1,0,1,38,13]
 };

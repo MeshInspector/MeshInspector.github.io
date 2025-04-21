@@ -225,6 +225,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a6a4d5024ca9d54536a91c3462e3628aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1da0c42bc8a158fd868fdbfd82cc997e" id="r_a1da0c42bc8a158fd868fdbfd82cc997e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box2ll.html">Box2ll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1da0c42bc8a158fd868fdbfd82cc997e">fromMinAndSize</a> (<a class="el" href="classmrmeshpy_1_1Vector2ll.html">Vector2ll</a> min, <a class="el" href="classmrmeshpy_1_1Vector2ll.html">Vector2ll</a> <a class="el" href="#a09160b52706945aec7652843064d39e2">size</a>)</td></tr>
 <tr class="separator:a1da0c42bc8a158fd868fdbfd82cc997e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdec8da678097f4510491dd29baad170" id="r_acdec8da678097f4510491dd29baad170"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2b.html">Vector2b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdec8da678097f4510491dd29baad170">getMaxBoxCorner</a> (<a class="el" href="classmrmeshpy_1_1Vector2ll.html">Vector2ll</a> n)</td></tr>
+<tr class="separator:acdec8da678097f4510491dd29baad170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea92b961f700c02a9b3e686dcc2c2b42" id="r_aea92b961f700c02a9b3e686dcc2c2b42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2b.html">Vector2b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea92b961f700c02a9b3e686dcc2c2b42">getMinBoxCorner</a> (<a class="el" href="classmrmeshpy_1_1Vector2ll.html">Vector2ll</a> n)</td></tr>
 <tr class="separator:aea92b961f700c02a9b3e686dcc2c2b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -712,6 +714,33 @@ returns zero if the boxes touch or intersect
 </div><div class="memdoc">
 <pre class="fragment">returns squared distance between this box and given point;
 returns zero if the point is inside or on the boundary of the box
+</pre> 
+</div>
+</div>
+<a id="acdec8da678097f4510491dd29baad170" name="acdec8da678097f4510491dd29baad170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdec8da678097f4510491dd29baad170">&#9670;&#160;</a></span>getMaxBoxCorner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector2b.html">Vector2b</a> mrmeshpy.Box2ll.getMaxBoxCorner </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector2ll.html">Vector2ll</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">considering all planes with given normal and arbitrary shift: dot(n,x) = d
+finds the box's corner for which d is maximal
 </pre> 
 </div>
 </div>

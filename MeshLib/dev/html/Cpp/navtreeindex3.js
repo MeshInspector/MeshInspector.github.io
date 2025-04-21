@@ -1,5 +1,9 @@
 var NAVTREEINDEX3 =
 {
+"MRFixUndercuts_8h.html#aecc6cdf126c48d730e18a76748377b81":[6,0,3,0,0,1,11,8,7],
+"MRFixUndercuts_8h.html#af9d879c376da4d6ebd30cc77fa915376":[6,0,3,0,0,1,11,8,12],
+"MRFixUndercuts_8h.html#af9e483356d616e2e73d144d845938851":[6,0,3,0,0,1,11,8,10],
+"MRFixUndercuts_8h.html#afb7dbf2667211aa9d31565ef2d4ad13d":[6,0,3,0,0,1,11,8,4],
 "MRFixUndercuts_8h_source.html":[6,0,3,0,0,1,11,8],
 "MRFlagOperators_8h.html":[6,0,3,0,0,1,4,118],
 "MRFlagOperators_8h.html#a9f6a28b80b13e71ba9ae42246c99ba1e":[6,0,3,0,0,1,4,118,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "MRInnerShell_8h.html#a8c21cd349fa1cdfe46c2c1ee2a00806b":[6,0,3,0,0,1,4,141,4],
 "MRInnerShell_8h.html#abb745ff271bba30db642c45f4a5d6664":[6,0,3,0,0,1,4,141,3],
 "MRInnerShell_8h_source.html":[6,0,3,0,0,1,4,141],
-"MRIntersectionPrecomputes2_8h.html":[6,0,3,0,0,1,4,145],
-"MRIntersectionPrecomputes2_8h_source.html":[6,0,3,0,0,1,4,145],
-"MRIntersectionPrecomputes_8h.html":[6,0,3,0,0,1,4,144],
-"MRIntersectionPrecomputes_8h_source.html":[6,0,3,0,0,1,4,144],
-"MRIntersection_8h.html":[6,0,3,0,0,1,4,142]
+"MRIntersectionPrecomputes2_8h.html":[6,0,3,0,0,1,4,145]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[6,0,1,0,1,196,6],
+"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[6,0,2,0,1,180,6],
+"structMR_1_1DragDropListener.html":[6,0,1,0,1,197],
+"structMR_1_1DragDropListener.html":[6,0,2,0,1,181],
+"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,1,0,1,197,2],
+"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,2,0,1,181,2],
+"structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[6,0,1,0,1,197,1],
+"structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[6,0,2,0,1,181,1],
+"structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[6,0,1,0,1,197,0],
 "structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[6,0,2,0,1,181,0],
 "structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[6,0,1,0,1,197,3],
 "structMR_1_1DragDropListener.html#aa474fef434b1551d773987884fe59e30":[6,0,2,0,1,181,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1FanRecordWithCenter.html#a010e9445541af4e90e90d34acc98220e":[6,0,2,0,1,202,0],
 "structMR_1_1FanRecordWithCenter.html#a066cda1cd4ae46c8b3236007bf1033b1":[6,0,1,0,1,218,2],
 "structMR_1_1FanRecordWithCenter.html#a066cda1cd4ae46c8b3236007bf1033b1":[6,0,2,0,1,202,2],
-"structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[6,0,1,0,1,218,1],
-"structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[6,0,2,0,1,202,1],
-"structMR_1_1FeatureObjectProjectPointResult.html":[6,0,1,0,1,221],
-"structMR_1_1FeatureObjectProjectPointResult.html":[6,0,2,0,1,205],
-"structMR_1_1FeatureObjectProjectPointResult.html#a3d380768a51a070f1546207b51956121":[6,0,1,0,1,221,0],
-"structMR_1_1FeatureObjectProjectPointResult.html#a3d380768a51a070f1546207b51956121":[6,0,2,0,1,205,0],
-"structMR_1_1FeatureObjectProjectPointResult.html#aaadfbfcace0b2432aceeaf49637c711f":[6,0,1,0,1,221,1],
-"structMR_1_1FeatureObjectProjectPointResult.html#aaadfbfcace0b2432aceeaf49637c711f":[6,0,2,0,1,205,1],
-"structMR_1_1FeatureObjectSharedProperty.html":[6,0,1,0,1,222],
-"structMR_1_1FeatureObjectSharedProperty.html":[6,0,2,0,1,206]
+"structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[6,0,1,0,1,218,1]
 };

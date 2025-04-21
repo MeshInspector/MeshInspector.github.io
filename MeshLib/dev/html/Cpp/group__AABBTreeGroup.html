@@ -299,6 +299,8 @@ Functions</h2></td></tr>
 <tr class="separator:gaf49d29fe114a45e7ba44769ed23e07a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa5ff2fe386af48055096b3eb89f158b6" id="r_gaa5ff2fe386af48055096b3eb89f158b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa5ff2fe386af48055096b3eb89f158b6">MR::findDirMax</a> (const Vector3f &amp;dir, const Polyline3 &amp;polyline, <a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
 <tr class="separator:gaa5ff2fe386af48055096b3eb89f158b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga650448329cde9ee6b4e27760630a09a1" id="r_ga650448329cde9ee6b4e27760630a09a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga650448329cde9ee6b4e27760630a09a1">MR::findDirMax</a> (const Vector2f &amp;dir, const Polyline2 &amp;polyline, <a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
+<tr class="separator:ga650448329cde9ee6b4e27760630a09a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4408546b67f7074fefeb484589481f97" id="r_ga4408546b67f7074fefeb484589481f97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4408546b67f7074fefeb484589481f97">MR::findDirMax</a> (const Vector3f &amp;dir, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, <a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
 <tr class="separator:ga4408546b67f7074fefeb484589481f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7fcb33a674ea8b57ac858e40d42e26e3" id="r_ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -1152,8 +1154,43 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="ga650448329cde9ee6b4e27760630a09a1" name="ga650448329cde9ee6b4e27760630a09a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga650448329cde9ee6b4e27760630a09a1">&#9670;&#160;</a></span>findDirMax() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::findDirMax </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2f &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a></td>          <td class="paramname"><span class="paramname"><em>u</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation </p>
+
+</div>
+</div>
 <a id="gaf49d29fe114a45e7ba44769ed23e07a7" name="gaf49d29fe114a45e7ba44769ed23e07a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf49d29fe114a45e7ba44769ed23e07a7">&#9670;&#160;</a></span>findDirMax() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf49d29fe114a45e7ba44769ed23e07a7">&#9670;&#160;</a></span>findDirMax() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1188,7 +1225,7 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <a id="ga4408546b67f7074fefeb484589481f97" name="ga4408546b67f7074fefeb484589481f97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4408546b67f7074fefeb484589481f97">&#9670;&#160;</a></span>findDirMax() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4408546b67f7074fefeb484589481f97">&#9670;&#160;</a></span>findDirMax() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1223,7 +1260,7 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <a id="gaa5ff2fe386af48055096b3eb89f158b6" name="gaa5ff2fe386af48055096b3eb89f158b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa5ff2fe386af48055096b3eb89f158b6">&#9670;&#160;</a></span>findDirMax() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5ff2fe386af48055096b3eb89f158b6">&#9670;&#160;</a></span>findDirMax() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

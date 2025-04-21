@@ -1,5 +1,14 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,1,0,1,381,2],
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,2,0,1,365,2],
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,1,0,1,381,0],
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,2,0,1,365,0],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,1,0,1,381,1],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,2,0,1,365,1],
+"structMR_1_1MinMaxArg.html":[6,0,1,0,1,382],
+"structMR_1_1MinMaxArg.html":[6,0,2,0,1,366],
+"structMR_1_1MinMaxArg.html#a047c4d9c19b1241c1b35ae8a93c724bc":[6,0,1,0,1,382,3],
 "structMR_1_1MinMaxArg.html#a047c4d9c19b1241c1b35ae8a93c724bc":[6,0,2,0,1,366,3],
 "structMR_1_1MinMaxArg.html#a26258462e8f6cb5ad553b6060188c941":[6,0,1,0,1,382,7],
 "structMR_1_1MinMaxArg.html#a26258462e8f6cb5ad553b6060188c941":[6,0,2,0,1,366,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1NotificationTags.html":[6,0,1,0,1,416],
 "structMR_1_1NotificationTags.html":[6,0,2,0,1,400],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,1,0,1,416,0],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,400,0],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f":[6,0,1,0,1,416,0,3],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f":[6,0,2,0,1,400,0,3],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da":[6,0,1,0,1,416,0,1],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da":[6,0,2,0,1,400,0,1],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502":[6,0,1,0,1,416,0,2],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502":[6,0,2,0,1,400,0,2],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3":[6,0,1,0,1,416,0,6],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3":[6,0,2,0,1,400,0,6],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a58bca33d6ad2854d29c6ff020e8b0851":[6,0,1,0,1,416,0,4]
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,400,0]
 };

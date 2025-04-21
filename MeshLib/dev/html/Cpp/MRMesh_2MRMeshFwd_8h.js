@@ -123,7 +123,7 @@ var MRMesh_2MRMeshFwd_8h =
     [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#a8d5c0ea8f3607fd83a13da0934587710", null ],
     [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#af2d502ca1f977281be36281d4e1c6de6", null ],
     [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#a0f4247d5407fb2c5b11f4c4268911362", null ],
-    [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#a41a112b3a69975c9108ef8cc1ab480b2", null ],
+    [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#a3438631b0976f286b9db846783a9ebd0", null ],
     [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#ab0386e7028c5c28dc05374fef2b0717a", null ],
     [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#a25b8519c51156d97c8e543749b003fb1", null ],
     [ "MR_CANONICAL_TYPEDEFS", "MRMesh_2MRMeshFwd_8h.html#ad3dfc5ee7f112dea837a7971cb18bd1d", null ],

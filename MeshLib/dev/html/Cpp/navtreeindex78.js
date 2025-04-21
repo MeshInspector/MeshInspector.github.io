@@ -1,5 +1,14 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,2,0,1,447,1],
+"structMR_1_1Palette_1_1Label.html":[6,0,1,0,1,464,0],
+"structMR_1_1Palette_1_1Label.html":[6,0,2,0,1,448,0],
+"structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f":[6,0,1,0,1,464,0,3],
+"structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f":[6,0,2,0,1,448,0,3],
+"structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb":[6,0,1,0,1,464,0,1],
+"structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb":[6,0,2,0,1,448,0,1],
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,1,0,1,464,0,0],
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,2,0,1,448,0,0],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,1,0,1,464,0,2],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,2,0,1,448,0,2],
 "structMR_1_1Palette_1_1Parameters.html":[6,0,1,0,1,464,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1PointOnFace.html":[6,0,2,0,1,476],
 "structMR_1_1PointOnFace.html#a025f9557286d25c7be1c794fbb8ecafa":[6,0,1,0,1,492,1],
 "structMR_1_1PointOnFace.html#a025f9557286d25c7be1c794fbb8ecafa":[6,0,2,0,1,476,1],
-"structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53":[6,0,1,0,1,492,2],
-"structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53":[6,0,2,0,1,476,2],
-"structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad":[6,0,1,0,1,492,3],
-"structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad":[6,0,2,0,1,476,3],
-"structMR_1_1PointOnFace.html#acabf2c49796ac6c253d2d2031fb688c7":[6,0,1,0,1,492,0],
-"structMR_1_1PointOnFace.html#acabf2c49796ac6c253d2d2031fb688c7":[6,0,2,0,1,476,0],
-"structMR_1_1PointOnObject.html":[6,0,1,0,1,493],
-"structMR_1_1PointOnObject.html":[6,0,2,0,1,477],
-"structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[6,0,1,0,1,493,2],
-"structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[6,0,2,0,1,477,2]
+"structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53":[6,0,1,0,1,492,2]
 };
