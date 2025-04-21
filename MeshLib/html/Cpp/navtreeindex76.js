@@ -1,5 +1,12 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,2,0,1,364,7],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,1,0,1,20,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,2,0,1,12,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,1,0,1,20,0,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,2,0,1,12,0,0],
+"structMR_1_1MetricToAStarPenalty.html":[6,0,1,0,1,381],
+"structMR_1_1MetricToAStarPenalty.html":[6,0,2,0,1,365],
 "structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,1,0,1,381,2],
 "structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,2,0,1,365,2],
 "structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,1,0,1,381,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1NoiseSettings.html":[6,0,2,0,1,397],
 "structMR_1_1NoiseSettings.html#a414f4d6065c24f7db4605e0dac3362b8":[6,0,1,0,1,413,0],
 "structMR_1_1NoiseSettings.html#a414f4d6065c24f7db4605e0dac3362b8":[6,0,2,0,1,397,0],
-"structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,1,0,1,413,2],
-"structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,2,0,1,397,2],
-"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,1,0,1,413,1],
-"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,2,0,1,397,1],
-"structMR_1_1NotificationTags.html":[6,0,1,0,1,416],
-"structMR_1_1NotificationTags.html":[6,0,2,0,1,400],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,1,0,1,416,0],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,400,0]
+"structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,1,0,1,413,2]
 };

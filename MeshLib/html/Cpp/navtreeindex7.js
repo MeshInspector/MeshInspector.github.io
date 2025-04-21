@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"MRMeshC_2MRPointOnFace_8h_source.html":[6,0,3,0,0,1,5,56],
+"MRMeshC_2MRPointsLoadSettings_8h.html":[6,0,3,0,0,1,5,58],
 "MRMeshC_2MRPointsLoadSettings_8h.html#a95e5c9a76c02e98f0bc590e9ea91338f":[6,0,3,0,0,1,5,58,1],
 "MRMeshC_2MRPointsLoadSettings_8h.html#aa182c9c10fb02dd6349b9fd3c763f8ea":[6,0,3,0,0,1,5,58,2],
 "MRMeshC_2MRPointsLoadSettings_8h_source.html":[6,0,3,0,0,1,5,58],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "MRMeshOffset_8h.html#aafe73b288f4416923594b73eb1ff2f68":[6,0,3,0,0,1,9,18,3],
 "MRMeshOffset_8h.html#afcfc7289a343593d0c4b18f0bffe2c32":[6,0,3,0,0,1,9,18,5],
 "MRMeshOffset_8h.html#aff351591973cd62d2128f2064aa2b36f":[6,0,3,0,0,1,9,18,0],
-"MRMeshOffset_8h_source.html":[6,0,3,0,0,1,9,18],
-"MRMeshOrPointsObject_8h.html":[6,0,3,0,0,1,4,211],
-"MRMeshOrPointsObject_8h_source.html":[6,0,3,0,0,1,4,211]
+"MRMeshOffset_8h_source.html":[6,0,3,0,0,1,9,18]
 };
