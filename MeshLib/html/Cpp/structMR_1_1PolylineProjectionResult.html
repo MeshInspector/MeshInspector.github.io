@@ -153,6 +153,7 @@ $(function(){initNavTree('structMR_1_1PolylineProjectionResult.html',''); initRe
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1PolylineProjectionResult-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::PolylineProjectionResult&lt; V &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__AABBTreeGroup.html">AABB Tree overview</a></div></div></div>
@@ -161,10 +162,18 @@ $(function(){initNavTree('structMR_1_1PolylineProjectionResult.html',''); initRe
 
 <p><code>#include &lt;<a class="el" href="MRPolylineProject_8h_source.html">MRPolylineProject.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a7a353323e51db61fabf08080cbe55598" id="r_a7a353323e51db61fabf08080cbe55598"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a353323e51db61fabf08080cbe55598">valid</a> () const</td></tr>
+<tr class="memdesc:a7a353323e51db61fabf08080cbe55598"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise the projection was not found  <br /></td></tr>
+<tr class="separator:a7a353323e51db61fabf08080cbe55598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b3a379e994fdd5dd100ddb4cb1d02c" id="r_a65b3a379e994fdd5dd100ddb4cb1d02c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65b3a379e994fdd5dd100ddb4cb1d02c">operator bool</a> () const</td></tr>
+<tr class="separator:a65b3a379e994fdd5dd100ddb4cb1d02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a575d694a03d4903a8b460aeba47cfe1c" id="r_a575d694a03d4903a8b460aeba47cfe1c"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a575d694a03d4903a8b460aeba47cfe1c">line</a></td></tr>
-<tr class="memdesc:a575d694a03d4903a8b460aeba47cfe1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">closest line id on polyline  <br /></td></tr>
+<tr class="memdesc:a575d694a03d4903a8b460aeba47cfe1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">polyline's edge containing the closest point  <br /></td></tr>
 <tr class="separator:a575d694a03d4903a8b460aeba47cfe1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a954df3a650cf8eeea5e253acae8126bd" id="r_a954df3a650cf8eeea5e253acae8126bd"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a954df3a650cf8eeea5e253acae8126bd">point</a></td></tr>
 <tr class="memdesc:a954df3a650cf8eeea5e253acae8126bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">closest point on polyline, transformed by xf if it is given  <br /></td></tr>
@@ -173,6 +182,63 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a81f4cd1607e7835a737edcf9011740d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance from pt to proj  <br /></td></tr>
 <tr class="separator:a81f4cd1607e7835a737edcf9011740d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a65b3a379e994fdd5dd100ddb4cb1d02c" name="a65b3a379e994fdd5dd100ddb4cb1d02c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b3a379e994fdd5dd100ddb4cb1d02c">&#9670;&#160;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1PolylineProjectionResult.html">MR::PolylineProjectionResult</a>&lt; V &gt;::operator bool </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a353323e51db61fabf08080cbe55598" name="a7a353323e51db61fabf08080cbe55598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a353323e51db61fabf08080cbe55598">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1PolylineProjectionResult.html">MR::PolylineProjectionResult</a>&lt; V &gt;::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check for validity, otherwise the projection was not found </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a81f4cd1607e7835a737edcf9011740d8" name="a81f4cd1607e7835a737edcf9011740d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81f4cd1607e7835a737edcf9011740d8">&#9670;&#160;</a></span>distSq</h2>
@@ -206,7 +272,7 @@ template&lt;typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>closest line id on polyline </p>
+<p>polyline's edge containing the closest point </p>
 
 </div>
 </div>

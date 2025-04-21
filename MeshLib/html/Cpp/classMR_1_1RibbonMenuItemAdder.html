@@ -33,7 +33,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MR::RibbonMenuItemAdder&lt; T &gt; Class Template Reference</title>
+<title>MeshLib C++ Docs: MR::RibbonMenuItemAdder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -155,79 +155,73 @@ $(function(){initNavTree('classMR_1_1RibbonMenuItemAdder.html',''); initResizabl
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1RibbonMenuItemAdder-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::RibbonMenuItemAdder&lt; T &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">MR::RibbonMenuItemAdder Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRRibbonSchema_8h_source.html">MRRibbonSchema.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRRibbonRegisterItem_8h_source.html">MRRibbonRegisterItem.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::RibbonMenuItemAdder:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classMR_1_1RibbonMenuItemAdder.png" usemap="#MR::RibbonMenuItemAdder_map" alt=""/>
+  <map id="MR::RibbonMenuItemAdder_map" name="MR::RibbonMenuItemAdder_map">
+<area href="classMR_1_1RibbonMenuItemAdderT.html" alt="MR::RibbonMenuItemAdderT&lt; T &gt;" shape="rect" coords="0,56,203,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac9c55c92d3f09cbbac3e248c4bd96b44" id="r_ac9c55c92d3f09cbbac3e248c4bd96b44"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:ac9c55c92d3f09cbbac3e248c4bd96b44"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac9c55c92d3f09cbbac3e248c4bd96b44">RibbonMenuItemAdder</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:ac9c55c92d3f09cbbac3e248c4bd96b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3e4b922524d3b2afc9e0cf6241ea66" id="r_acf3e4b922524d3b2afc9e0cf6241ea66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3e4b922524d3b2afc9e0cf6241ea66">~RibbonMenuItemAdder</a> ()</td></tr>
-<tr class="separator:acf3e4b922524d3b2afc9e0cf6241ea66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066247d3ea9deaf7a27cfee6eb61b67a" id="r_a066247d3ea9deaf7a27cfee6eb61b67a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a066247d3ea9deaf7a27cfee6eb61b67a">RibbonMenuItemAdder</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; item)</td></tr>
+<tr class="memdesc:a066247d3ea9deaf7a27cfee6eb61b67a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classMR_1_1RibbonSchemaHolder.html#a28d7c0a6ed492a3e6678588c499d5a29">RibbonSchemaHolder::addItem</a>( item_ = item );  <br /></td></tr>
+<tr class="separator:a066247d3ea9deaf7a27cfee6eb61b67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c339321144b8c626e6564eb83c3b3e" id="r_a32c339321144b8c626e6564eb83c3b3e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32c339321144b8c626e6564eb83c3b3e">~RibbonMenuItemAdder</a> ()</td></tr>
+<tr class="memdesc:a32c339321144b8c626e6564eb83c3b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls RibbonSchemaHolder::delItem( item_ );  <br /></td></tr>
+<tr class="separator:a32c339321144b8c626e6564eb83c3b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac9c55c92d3f09cbbac3e248c4bd96b44" name="ac9c55c92d3f09cbbac3e248c4bd96b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9c55c92d3f09cbbac3e248c4bd96b44">&#9670;&#160;</a></span>RibbonMenuItemAdder()</h2>
+<a id="a066247d3ea9deaf7a27cfee6eb61b67a" name="a066247d3ea9deaf7a27cfee6eb61b67a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066247d3ea9deaf7a27cfee6eb61b67a">&#9670;&#160;</a></span>RibbonMenuItemAdder()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a>&lt; T &gt;::RibbonMenuItemAdder </td>
+          <td class="memname">MRVIEWER_API MR::RibbonMenuItemAdder::RibbonMenuItemAdder </td>
           <td>(</td>
-          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>calls <a class="el" href="classMR_1_1RibbonSchemaHolder.html#a28d7c0a6ed492a3e6678588c499d5a29">RibbonSchemaHolder::addItem</a>( item_ = item ); </p>
 
 </div>
 </div>
-<a id="acf3e4b922524d3b2afc9e0cf6241ea66" name="acf3e4b922524d3b2afc9e0cf6241ea66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf3e4b922524d3b2afc9e0cf6241ea66">&#9670;&#160;</a></span>~RibbonMenuItemAdder()</h2>
+<a id="a32c339321144b8c626e6564eb83c3b3e" name="a32c339321144b8c626e6564eb83c3b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32c339321144b8c626e6564eb83c3b3e">&#9670;&#160;</a></span>~RibbonMenuItemAdder()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a>&lt; T &gt;::~<a class="el" href="classMR_1_1RibbonMenuItemAdder.html">RibbonMenuItemAdder</a> </td>
+          <td class="memname">MRVIEWER_API MR::RibbonMenuItemAdder::~RibbonMenuItemAdder </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>calls RibbonSchemaHolder::delItem( item_ ); </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="MRRibbonSchema_8h_source.html">MRRibbonSchema.h</a></li>
+<li><a class="el" href="MRRibbonRegisterItem_8h_source.html">MRRibbonRegisterItem.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

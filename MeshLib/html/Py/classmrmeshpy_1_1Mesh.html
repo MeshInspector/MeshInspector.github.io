@@ -246,6 +246,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a402590d4144379e3280089f0aaed2b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37e83e4c7e1761195f12e5983b3575bd" id="r_a37e83e4c7e1761195f12e5983b3575bd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37e83e4c7e1761195f12e5983b3575bd">edgeLengthSq</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> e)</td></tr>
 <tr class="separator:a37e83e4c7e1761195f12e5983b3575bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a712b0f6a202b59efe243253fef6f8ccf" id="r_a712b0f6a202b59efe243253fef6f8ccf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a712b0f6a202b59efe243253fef6f8ccf">edgeLengths</a> (self)</td></tr>
+<tr class="separator:a712b0f6a202b59efe243253fef6f8ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bf91c12c38e69b5c7042ae9b74894e3" id="r_a8bf91c12c38e69b5c7042ae9b74894e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bf91c12c38e69b5c7042ae9b74894e3">edgePoint</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e, float f)</td></tr>
 <tr class="separator:a8bf91c12c38e69b5c7042ae9b74894e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3cfb7901b3bff84d4ab90cea9b6ed8" id="r_a8e3cfb7901b3bff84d4ab90cea9b6ed8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e3cfb7901b3bff84d4ab90cea9b6ed8">edgePoint</a> (self, <a class="el" href="classmrmeshpy_1_1EdgePoint.html">EdgePoint</a> ep)</td></tr>
@@ -330,6 +332,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a489b1064de59960cd4a7eda54030c428"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85b0e781c46ca0dd06c64786ab5dd82d" id="r_a85b0e781c46ca0dd06c64786ab5dd82d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85b0e781c46ca0dd06c64786ab5dd82d">pack</a> (self, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> outFmap=None, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outVmap=None, <a class="el" href="classmrmeshpy_1_1WholeEdgeMap.html">WholeEdgeMap</a> outEmap=None, bool rearrangeTriangles=False)</td></tr>
 <tr class="separator:a85b0e781c46ca0dd06c64786ab5dd82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf820e7b2e8ef220b2f6c7971ba9564" id="r_adcf820e7b2e8ef220b2f6c7971ba9564"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf820e7b2e8ef220b2f6c7971ba9564">pack</a> (self, <a class="el" href="classmrmeshpy_1_1PackMapping.html">PackMapping</a> map, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
+<tr class="separator:adcf820e7b2e8ef220b2f6c7971ba9564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23a56fb7c1ca898bf2af6e9feddc37e2" id="r_a23a56fb7c1ca898bf2af6e9feddc37e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a56fb7c1ca898bf2af6e9feddc37e2">packOptimally</a> (self, bool preserveAABBTree=True)</td></tr>
 <tr class="separator:a23a56fb7c1ca898bf2af6e9feddc37e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a182169312595503e29688358d0eff0cc" id="r_a182169312595503e29688358d0eff0cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a182169312595503e29688358d0eff0cc">packOptimally</a> (self, bool preserveAABBTree, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
@@ -1126,7 +1130,7 @@ if toWorld transformation is given then returns minimal bounding box in world sp
       </table>
 </div><div class="memdoc">
 <pre class="fragment">computes sum of cotangents of the angle in the left and right triangles opposite to given edge,
-and returns 0 if left face does not exist
+consider cotangents zero for not existing triangles
 </pre> 
 </div>
 </div>
@@ -1503,6 +1507,24 @@ optionally returns whether the vertex is on boundary
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns Euclidean length of the edge
+</pre> 
+</div>
+</div>
+<a id="a712b0f6a202b59efe243253fef6f8ccf" name="a712b0f6a202b59efe243253fef6f8ccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a712b0f6a202b59efe243253fef6f8ccf">&#9670;&#160;</a></span>edgeLengths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> mrmeshpy.Mesh.edgeLengths </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes and returns the lengths of all edges in the mesh
 </pre> 
 </div>
 </div>
@@ -2234,7 +2256,7 @@ this bounding box is insignificantly bigger that minimal box due to AABB algorit
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns three points of left face of e
+<pre class="fragment">returns three points of left face of e: res[0] = orgPnt( e ), res[1] = destPnt( e )
 </pre> 
 </div>
 </div>
@@ -2271,7 +2293,7 @@ this bounding box is insignificantly bigger that minimal box due to AABB algorit
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns three points of left face of e
+<pre class="fragment">returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e )
 </pre> 
 </div>
 </div>
@@ -2688,7 +2710,7 @@ this is the same normal as in rendering with smooth shading
 </div>
 </div>
 <a id="a85b0e781c46ca0dd06c64786ab5dd82d" name="a85b0e781c46ca0dd06c64786ab5dd82d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b0e781c46ca0dd06c64786ab5dd82d">&#9670;&#160;</a></span>pack()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b0e781c46ca0dd06c64786ab5dd82d">&#9670;&#160;</a></span>pack() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2720,8 +2742,36 @@ this is the same normal as in rendering with smooth shading
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">tightly packs all arrays eliminating lone edges and invalid face, verts and points,
+<pre class="fragment">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points,
 optionally returns mappings: old.id -&gt; new.id
+</pre> 
+</div>
+</div>
+<a id="adcf820e7b2e8ef220b2f6c7971ba9564" name="adcf820e7b2e8ef220b2f6c7971ba9564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf820e7b2e8ef220b2f6c7971ba9564">&#9670;&#160;</a></span>pack() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Mesh.pack </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PackMapping.html">PackMapping</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points,
+reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping
 </pre> 
 </div>
 </div>

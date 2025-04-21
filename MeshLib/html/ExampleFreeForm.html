@@ -296,6 +296,51 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="./Cpp/structMRVector3f.html">MRVector3f</a></div></div>
 <div class="ttc" id="astructMRVector3i_html"><div class="ttname"><a href="./Cpp/structMRVector3i.html">MRVector3i</a></div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>FreeFormDeformationExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">try</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Load mesh</span></div>
+<div class="line">            var mesh = MeshLoad.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Compute mesh bounding box</span></div>
+<div class="line">            var box = mesh.BoundingBox;</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Construct deformer on mesh vertices</span></div>
+<div class="line">            var ffDeformer = <span class="keyword">new</span> FreeFormDeformer(mesh);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
+<div class="line">            ffDeformer.Init(Vector3i.Diagonal(3), box);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Move some control points of the grid to the center</span></div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 1, 0), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 1, 2), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> Vector3i(0, 1, 1), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> Vector3i(2, 1, 1), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 0, 1), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 2, 1), box.Center());</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Apply the deformation to the mesh vertices</span></div>
+<div class="line">            ffDeformer.Apply();</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
+<div class="line">            mesh.InvalidateCaches();</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Save deformed mesh</span></div>
+<div class="line">            MeshSave.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line">        {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

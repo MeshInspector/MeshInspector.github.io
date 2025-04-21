@@ -164,13 +164,19 @@ $(function(){initNavTree('namespaceMR_1_1FixUndercuts.html',''); initResizable(t
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html">DistMapImproveDirectionParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixUndercuts_1_1FindParams.html">FindParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters that is used to find undercuts.  <a href="structMR_1_1FixUndercuts_1_1FindParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixUndercuts_1_1FixParams.html">FixParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix undercuts function paramters.  <a href="structMR_1_1FixUndercuts_1_1FixParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html">ImproveDirectionParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4c856220e6a7071f9952dd0704ee89fa" id="r_a4c856220e6a7071f9952dd0704ee89fa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a> = std::function&lt;double( const FaceBitSet&amp;, const Vector3f&amp; upDir )&gt;</td></tr>
-<tr class="separator:a4c856220e6a7071f9952dd0704ee89fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb7dbf2667211aa9d31565ef2d4ad13d" id="r_afb7dbf2667211aa9d31565ef2d4ad13d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> = std::function&lt;double( const FaceBitSet&amp;, const <a class="el" href="structMR_1_1FixUndercuts_1_1FindParams.html">FindParams</a>&amp; params )&gt;</td></tr>
+<tr class="separator:afb7dbf2667211aa9d31565ef2d4ad13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -178,11 +184,13 @@ Functions</h2></td></tr>
 <tr class="separator:a17b22007ca26335c67c6c939668c8186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9d879c376da4d6ebd30cc77fa915376" id="r_af9d879c376da4d6ebd30cc77fa915376"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9d879c376da4d6ebd30cc77fa915376">fixUndercuts</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;selectedArea, const Vector3f &amp;upDirection, float voxelSize=0.0f, float bottomExtension=0.0f)</td></tr>
 <tr class="separator:af9d879c376da4d6ebd30cc77fa915376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6103a164b0037795960a4ecc185199cc" id="r_a6103a164b0037795960a4ecc185199cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6103a164b0037795960a4ecc185199cc">getUndercutAreaMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a828027410a376eff4887e779d41e2ac7" id="r_a828027410a376eff4887e779d41e2ac7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a828027410a376eff4887e779d41e2ac7">fix</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1FixParams.html">FixParams</a> &amp;params)</td></tr>
+<tr class="separator:a828027410a376eff4887e779d41e2ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6103a164b0037795960a4ecc185199cc" id="r_a6103a164b0037795960a4ecc185199cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6103a164b0037795960a4ecc185199cc">getUndercutAreaMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:a6103a164b0037795960a4ecc185199cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes total area of undercut faces  <br /></td></tr>
 <tr class="separator:a6103a164b0037795960a4ecc185199cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe945577bbd648b8f5dfafd9ebd0361e" id="r_abe945577bbd648b8f5dfafd9ebd0361e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe945577bbd648b8f5dfafd9ebd0361e">getUndercutAreaProjectionMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="memdesc:abe945577bbd648b8f5dfafd9ebd0361e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes summed absolute area of undercut faces as visible if look from upDir  <br /></td></tr>
+<tr class="memitem:abe945577bbd648b8f5dfafd9ebd0361e" id="r_abe945577bbd648b8f5dfafd9ebd0361e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe945577bbd648b8f5dfafd9ebd0361e">getUndercutAreaProjectionMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:abe945577bbd648b8f5dfafd9ebd0361e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes summed absolute projected area of undercut  <br /></td></tr>
 <tr class="separator:abe945577bbd648b8f5dfafd9ebd0361e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a548e7d2578676101f39955b17a6cd7eb" id="r_a548e7d2578676101f39955b17a6cd7eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a548e7d2578676101f39955b17a6cd7eb">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;upDirection, FaceBitSet &amp;outUndercuts)</td></tr>
 <tr class="memdesc:a548e7d2578676101f39955b17a6cd7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds to.  <br /></td></tr>
@@ -190,24 +198,29 @@ Functions</h2></td></tr>
 <tr class="memitem:af9e483356d616e2e73d144d845938851" id="r_af9e483356d616e2e73d144d845938851"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e483356d616e2e73d144d845938851">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;upDirection, VertBitSet &amp;outUndercuts)</td></tr>
 <tr class="memdesc:af9e483356d616e2e73d144d845938851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds to.  <br /></td></tr>
 <tr class="separator:af9e483356d616e2e73d144d845938851"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a770b64a7fb5b4a0d469efea3f736ab7c" id="r_a770b64a7fb5b4a0d469efea3f736ab7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a770b64a7fb5b4a0d469efea3f736ab7c">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;upDirection, FaceBitSet &amp;outUndercuts, const <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a> &amp;metric)</td></tr>
+<tr class="memitem:a770b64a7fb5b4a0d469efea3f736ab7c" id="r_a770b64a7fb5b4a0d469efea3f736ab7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a770b64a7fb5b4a0d469efea3f736ab7c">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;upDirection, FaceBitSet &amp;outUndercuts, const <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> &amp;metric)</td></tr>
 <tr class="separator:a770b64a7fb5b4a0d469efea3f736ab7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7f74dcecd9e3401fed6751e0b70e1a" id="r_aab7f74dcecd9e3401fed6751e0b70e1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab7f74dcecd9e3401fed6751e0b70e1a">find</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1FindParams.html">FindParams</a> &amp;params, FaceBitSet &amp;outUndercuts, const <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> &amp;metric={})</td></tr>
+<tr class="separator:aab7f74dcecd9e3401fed6751e0b70e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc6cdf126c48d730e18a76748377b81" id="r_aecc6cdf126c48d730e18a76748377b81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc6cdf126c48d730e18a76748377b81">find</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1FindParams.html">FindParams</a> &amp;params, VertBitSet &amp;outUndercuts)</td></tr>
+<tr class="memdesc:aecc6cdf126c48d730e18a76748377b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds undercuts to.  <br /></td></tr>
+<tr class="separator:aecc6cdf126c48d730e18a76748377b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1533cdae8a0918d9ee6e83cf92f56280" id="r_a1533cdae8a0918d9ee6e83cf92f56280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1533cdae8a0918d9ee6e83cf92f56280">scoreUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;upDirection, const Vector2i &amp;resolution)</td></tr>
 <tr class="separator:a1533cdae8a0918d9ee6e83cf92f56280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6302d9ddaf5ffbcdafa2451367f8b8e6" id="r_a6302d9ddaf5ffbcdafa2451367f8b8e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6302d9ddaf5ffbcdafa2451367f8b8e6">improveDirection</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html">ImproveDirectionParameters</a> &amp;params, const <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a> &amp;metric)</td></tr>
+<tr class="memitem:a6302d9ddaf5ffbcdafa2451367f8b8e6" id="r_a6302d9ddaf5ffbcdafa2451367f8b8e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6302d9ddaf5ffbcdafa2451367f8b8e6">improveDirection</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html">ImproveDirectionParameters</a> &amp;params, const <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> &amp;metric)</td></tr>
 <tr class="separator:a6302d9ddaf5ffbcdafa2451367f8b8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ce77d6cc1b654cd81c517870a1c840f" id="r_a4ce77d6cc1b654cd81c517870a1c840f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ce77d6cc1b654cd81c517870a1c840f">distMapImproveDirection</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html">DistMapImproveDirectionParameters</a> &amp;params)</td></tr>
 <tr class="separator:a4ce77d6cc1b654cd81c517870a1c840f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a4c856220e6a7071f9952dd0704ee89fa" name="a4c856220e6a7071f9952dd0704ee89fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c856220e6a7071f9952dd0704ee89fa">&#9670;&#160;</a></span>UndercutMetric</h2>
+<a id="afb7dbf2667211aa9d31565ef2d4ad13d" name="afb7dbf2667211aa9d31565ef2d4ad13d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb7dbf2667211aa9d31565ef2d4ad13d">&#9670;&#160;</a></span>UndercutMetric</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">MR::FixUndercuts::UndercutMetric</a> = std::function&lt;double( const FaceBitSet&amp;, const Vector3f&amp; upDir )&gt;</td>
+          <td class="memname">using <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">MR::FixUndercuts::UndercutMetric</a> = std::function&lt;double( const FaceBitSet&amp;, const <a class="el" href="structMR_1_1FixUndercuts_1_1FindParams.html">FindParams</a>&amp; params )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241,6 +254,78 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Score candidates with distance maps, lower resolution -&gt; faster score </p><dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet </dd></dl>
+
+</div>
+</div>
+<a id="aab7f74dcecd9e3401fed6751e0b70e1a" name="aab7f74dcecd9e3401fed6751e0b70e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7f74dcecd9e3401fed6751e0b70e1a">&#9670;&#160;</a></span>find() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> double MR::FixUndercuts::find </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FixUndercuts_1_1FindParams.html">FindParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>outUndercuts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds undercuts to</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outUndercuts</td><td>if metric is set returns metric of found undercuts, otherwise returns DBL_MAX </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aecc6cdf126c48d730e18a76748377b81" name="aecc6cdf126c48d730e18a76748377b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc6cdf126c48d730e18a76748377b81">&#9670;&#160;</a></span>find() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::FixUndercuts::find </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FixUndercuts_1_1FindParams.html">FindParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>outUndercuts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds undercuts to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outUndercuts</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -305,7 +390,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -354,6 +439,28 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a828027410a376eff4887e779d41e2ac7" name="a828027410a376eff4887e779d41e2ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a828027410a376eff4887e779d41e2ac7">&#9670;&#160;</a></span>fix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::FixUndercuts::fix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FixUndercuts_1_1FixParams.html">FixParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fixes undercut areas by building vertical walls under it, algorithm is performed in voxel space, so the mesh is completely rebuilt after this operation </p>
 
 </div>
 </div>
@@ -434,7 +541,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a> MR::FixUndercuts::getUndercutAreaMetric </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> MR::FixUndercuts::getUndercutAreaMetric </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
@@ -461,7 +568,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a> MR::FixUndercuts::getUndercutAreaProjectionMetric </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> MR::FixUndercuts::getUndercutAreaProjectionMetric </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
@@ -474,7 +581,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the metric that computes summed absolute area of undercut faces as visible if look from upDir </p>
+<p>returns the metric that computes summed absolute projected area of undercut </p>
 
 </div>
 </div>
@@ -500,7 +607,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a4c856220e6a7071f9952dd0704ee89fa">UndercutMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -509,6 +616,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet <hr  />
+ Top view: / __/ -----&gt; maximum radial line Side view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |&ndash;|---&mdash;|&ndash;| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg </dd></dl>
 
 </div>
 </div>
@@ -543,6 +652,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Fast score undercuts projected area via distance map with given resolution lower resolution means lower precision, but faster work </p><dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet </dd></dl>
 
 </div>
 </div>

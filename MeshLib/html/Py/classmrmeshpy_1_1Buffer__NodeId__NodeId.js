@@ -2,9 +2,10 @@ var classmrmeshpy_1_1Buffer__NodeId__NodeId =
 [
     [ "__init__", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a935c6979d9229ff71cc19e3b815a661c", null ],
     [ "__init__", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a38093443f53550dd63d36978606d38db", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a5ec25c71ebafbdeaf568c7010b103dec", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a5ec25c71ebafbdeaf568c7010b103dec", null ],
     [ "__iter__", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#aeb8636a9cf88334863770e6c9c66159c", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a4dff6d5d7178098af905ed88cae29cea", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a4dff6d5d7178098af905ed88cae29cea", null ],
+    [ "__setitem__", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a3aaa08eff44c5d4b99b01e0b7a3f5a3d", null ],
     [ "backId", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a082acbca591ffebb14865e18189ed3d9", null ],
     [ "beginId", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#ab02c17fc994d9c29ea86b5eacbd752b2", null ],
     [ "capacity", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html#a3c3aa5a976342725c059da8d163fbb13", null ],

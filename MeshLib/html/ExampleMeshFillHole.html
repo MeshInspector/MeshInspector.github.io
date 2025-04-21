@@ -280,7 +280,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; mrEdgePathSize( holes ); i++ )</div>
 <div class="line">    {</div>
 <div class="line">        <a class="code hl_structRef" href="./Cpp/structMREdgeId.html">MREdgeId</a> e = mrEdgePathData( holes )[i];</div>
-<div class="line">        <a class="code hl_structRef" href="./Cpp/structMRVector3f.html">MRVector3f</a> holeDirArea = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a>( mesh, e );</div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMRVector3f.html">MRVector3f</a> <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a60be74630814c2cd85e524efe462b7f8">holeDirArea</a> = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a>( mesh, e );</div>
 <div class="line">        <span class="keywordflow">if</span> ( mrVector3Length( &amp;holeDirArea ) &gt;= MIN_HOLE_AREA )</div>
 <div class="line">        {</div>
 <div class="line">            <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshFillHole_8h.html#a62a9b8cdd8c95f17540656917d3cf7f6">mrFillHole</a>( mesh, e, &amp;params );</div>
@@ -331,6 +331,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="ttc" id="aMRMeshC_2MRSaveSettings_8h_html_a756130ec0ffb3b0c1dde997339d1d39e"><div class="ttname"><a href="./Cpp/MRMeshC_2MRSaveSettings_8h.html#a756130ec0ffb3b0c1dde997339d1d39e">mrSaveSettingsNew</a></div><div class="ttdeci">MRMESHC_API MRSaveSettings mrSaveSettingsNew(void)</div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a6c06174923fa27502a2633fd5791047d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a></div><div class="ttdeci">MRMESHC_API void mrStringFree(MRString *str)</div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a60be74630814c2cd85e524efe462b7f8"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a60be74630814c2cd85e524efe462b7f8">mrmeshpy::holeDirArea</a></div><div class="ttdeci">Vector3d holeDirArea(MeshTopology topology, VertCoords points, Id_EdgeTag e)</div></div>
 <div class="ttc" id="astructMREdgeId_html"><div class="ttname"><a href="./Cpp/structMREdgeId.html">MREdgeId</a></div></div>
 <div class="ttc" id="astructMRFillHoleMetric_html"><div class="ttname"><a href="./Cpp/structMRFillHoleMetric.html">MRFillHoleMetric</a></div></div>
 <div class="ttc" id="astructMRFillHoleParams_html"><div class="ttname"><a href="./Cpp/structMRFillHoleParams.html">MRFillHoleParams</a></div></div>
@@ -338,6 +339,44 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="ttc" id="astructMRFillHoleParams_html_ad9a62fbf15487b1e3b40f08affb75286"><div class="ttname"><a href="./Cpp/structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286">MRFillHoleParams::metric</a></div><div class="ttdeci">const MRFillHoleMetric * metric</div></div>
 <div class="ttc" id="astructMRSaveSettings_html"><div class="ttname"><a href="./Cpp/structMRSaveSettings.html">MRSaveSettings</a></div></div>
 <div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="./Cpp/structMRVector3f.html">MRVector3f</a></div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
+<div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshFillHoleExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">try</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordflow">if</span> (args.Length != 2 &amp;&amp; args.Length != 3)</div>
+<div class="line">            {</div>
+<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} MeshFillHoleExample INPUT [OUTPUT]&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
+<div class="line">                <span class="keywordflow">return</span>;</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            <span class="keywordtype">string</span> inputFile = args[1];</div>
+<div class="line">            <span class="keywordtype">string</span> outputFile = args.Length == 3 ? args[2] : inputFile;</div>
+<div class="line"> </div>
+<div class="line">            var mesh = MeshLoad.FromAnySupportedFormat(inputFile);</div>
+<div class="line">            var holes = mesh.HoleRepresentiveEdges;</div>
+<div class="line"> </div>
+<div class="line">            var fillHoleParams = <span class="keyword">new</span> FillHoleParams();</div>
+<div class="line">            fillHoleParams.Metric = FillHoleMetric.GetUniversalMetric( mesh );</div>
+<div class="line">            fillHoleParams.OutNewFaces = <span class="keyword">new</span> FaceBitSet();</div>
+<div class="line">            </div>
+<div class="line">            FillHoles(ref mesh, holes.ToList(), fillHoleParams);</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Number of new faces: {0}&quot;</span>, fillHoleParams.OutNewFaces.Count());</div>
+<div class="line"> </div>
+<div class="line">            MeshSave.ToAnySupportedFormat(mesh, outputFile);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line">        {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

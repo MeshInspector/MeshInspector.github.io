@@ -23,6 +23,7 @@ var hierarchy =
     [ "MR::RenderDimensions::AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", null ],
     [ "MR::AnyVisualizeMaskEnum", "classMR_1_1AnyVisualizeMaskEnum.html", null ],
     [ "MR::ArcInterpolationParams", "structMR_1_1ArcInterpolationParams.html", null ],
+    [ "MR::DirectionWidget::Arrow", "structMR_1_1DirectionWidget_1_1Arrow.html", null ],
     [ "MR::AsyncRequest", "classMR_1_1AsyncRequest.html", null ],
     [ "MR::AsyncTimer", "classMR_1_1AsyncTimer.html", null ],
     [ "auto_cast_trait< T >", "structauto__cast__trait.html", null ],
@@ -296,6 +297,11 @@ var hierarchy =
     [ "MR::DirectoryRecursive", "structMR_1_1DirectoryRecursive.html", null ],
     [ "MR::DirectoryRecursiveIterator", "structMR_1_1DirectoryRecursiveIterator.html", null ],
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
+    [ "MR::DistanceFromWeightedPointsParams", "structMR_1_1DistanceFromWeightedPointsParams.html", [
+      [ "MR::DistanceFromWeightedPointsComputeParams", "structMR_1_1DistanceFromWeightedPointsComputeParams.html", null ]
+    ] ],
+    [ "MR::DistanceMapLoadSettings", "structMR_1_1DistanceMapLoadSettings.html", null ],
+    [ "MR::DistanceMapSaveSettings", "structMR_1_1DistanceMapSaveSettings.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", null ],
     [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [
@@ -317,6 +323,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::PointsLoad::E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", null ],
+    [ "MR::EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToAStarPenalty >", "classMR_1_1EdgePathsBuilderT.html", [
       [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", null ]
@@ -353,7 +360,9 @@ var hierarchy =
     [ "MR::File", "classMR_1_1File.html", null ],
     [ "MR::FileDialogSignals", "structMR_1_1FileDialogSignals.html", null ],
     [ "MR::FileLoadOptions", "structMR_1_1FileLoadOptions.html", null ],
-    [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
+    [ "MR::FileParameters", "structMR_1_1FileParameters.html", [
+      [ "MR::detail::FileDialogParameters", "structMR_1_1detail_1_1FileDialogParameters.html", null ]
+    ] ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", null ],
@@ -363,7 +372,10 @@ var hierarchy =
     [ "MR::FindOutliersParams", "structMR_1_1FindOutliersParams.html", null ],
     [ "MR::FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", null ],
     [ "MR::FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", null ],
+    [ "MR::FixUndercuts::FindParams", "structMR_1_1FixUndercuts_1_1FindParams.html", null ],
     [ "MR::FindProjectionOnPointsSettings", "structMR_1_1FindProjectionOnPointsSettings.html", null ],
+    [ "MR::FixMeshDegeneraciesParams", "structMR_1_1FixMeshDegeneraciesParams.html", null ],
+    [ "MR::FixUndercuts::FixParams", "structMR_1_1FixUndercuts_1_1FixParams.html", null ],
     [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
@@ -440,9 +452,7 @@ var hierarchy =
       [ "MR::ChangeVertsColorMapAction< T >", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
-        [ "MR::DirectionWidget::ChangeBaseAction", "classMR_1_1DirectionWidget_1_1ChangeBaseAction.html", null ],
-        [ "MR::DirectionWidget::ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ],
-        [ "MR::DirectionWidget::ChangeLengthAction", "classMR_1_1DirectionWidget_1_1ChangeLengthAction.html", null ]
+        [ "MR::DirectionWidget::ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ]
       ] ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
       [ "MR::DirectionWidget::ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", null ],
@@ -546,6 +556,7 @@ var hierarchy =
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", null ],
     [ "MR::PlanarTriangulation::IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", null ],
     [ "MR::InTreePathBuilder", "classMR_1_1InTreePathBuilder.html", null ],
+    [ "MR::IntrinsicDeloneSettings", "structMR_1_1IntrinsicDeloneSettings.html", null ],
     [ "MR::IOFilter", "structMR_1_1IOFilter.html", null ],
     [ "MR::IPluginUpdate", "classMR_1_1IPluginUpdate.html", [
       [ "MR::PluginCloseOnChangeMesh", "classMR_1_1PluginCloseOnChangeMesh.html", null ],
@@ -687,6 +698,7 @@ var hierarchy =
     [ "MR::LoadedObjects", "structMR_1_1LoadedObjects.html", null ],
     [ "MR::LoadedObjectT< ObjectT >", "structMR_1_1LoadedObjectT.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
+    [ "MR::TbbThreadMutex::LockGuard", "classMR_1_1TbbThreadMutex_1_1LockGuard.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
     [ "MR::MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", null ],
     [ "MR::MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", null ],
@@ -723,6 +735,7 @@ var hierarchy =
     [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
+    [ "MR::MeshPointAndDistance", "structMR_1_1MeshPointAndDistance.html", null ],
     [ "MR::MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", null ],
@@ -740,6 +753,7 @@ var hierarchy =
     [ "MinMax", null, [
       [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]
     ] ],
+    [ "MR::MinMaxArg< T, I >", "structMR_1_1MinMaxArg.html", null ],
     [ "MR::ModelPointsData", "structMR_1_1ModelPointsData.html", null ],
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MouseController::MouseControlKey", "structMR_1_1MouseController_1_1MouseControlKey.html", null ],
@@ -766,6 +780,7 @@ var hierarchy =
     [ "MRFillHoleNicelyParams", "structMRFillHoleNicelyParams.html", null ],
     [ "MRFillHoleParams", "structMRFillHoleParams.html", null ],
     [ "MRFindProjectionParameters", "structMRFindProjectionParameters.html", null ],
+    [ "MRFixMeshDegeneraciesParams", "structMRFixMeshDegeneraciesParams.html", null ],
     [ "MRFixSelfIntersectionsSettings", "structMRFixSelfIntersectionsSettings.html", null ],
     [ "MRGeneralOffsetParameters", "structMRGeneralOffsetParameters.html", null ],
     [ "MRGridToMeshSettings", "structMRGridToMeshSettings.html", null ],
@@ -775,7 +790,7 @@ var hierarchy =
     [ "MRMakeTorusParameters", "structMRMakeTorusParameters.html", null ],
     [ "MRMakeUVSphereParameters", "structMRMakeUVSphereParameters.html", null ],
     [ "MRMatrix3f", "structMRMatrix3f.html", null ],
-    [ "MRMeshAddPartByMaskParameters", "structMRMeshAddPartByMaskParameters.html", null ],
+    [ "MRMeshAddMeshPartParameters", "structMRMeshAddMeshPartParameters.html", null ],
     [ "MRMeshComponentsMap", "structMRMeshComponentsMap.html", null ],
     [ "MRMeshLoadNamedMesh", "structMRMeshLoadNamedMesh.html", null ],
     [ "MRMeshLoadObjLoadSettings", "structMRMeshLoadObjLoadSettings.html", null ],
@@ -833,6 +848,7 @@ var hierarchy =
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor.html", null ],
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
+    [ "MR::NodeNode", "structMR_1_1NodeNode.html", null ],
     [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
     [ "MR::NoiseSettings", "structMR_1_1NoiseSettings.html", null ],
     [ "MR::NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
@@ -946,6 +962,7 @@ var hierarchy =
     [ "MR::ImGuiMenu::PluginsCache", "structMR_1_1ImGuiMenu_1_1PluginsCache.html", null ],
     [ "MR::AABBTreePoints::Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
     [ "MR::PointAccumulator", "classMR_1_1PointAccumulator.html", null ],
+    [ "MR::PointAndDistance", "structMR_1_1PointAndDistance.html", null ],
     [ "MR::PointCloud", "structMR_1_1PointCloud.html", null ],
     [ "MR::PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", null ],
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
@@ -973,6 +990,7 @@ var hierarchy =
     [ "MR::PositionedText", "structMR_1_1PositionedText.html", null ],
     [ "MR::PrecipitationSimulator", "classMR_1_1PrecipitationSimulator.html", null ],
     [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", null ],
+    [ "MR::PreciseVertCoord", "structMR_1_1PreciseVertCoord.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
     [ "MR::ImGuiMeasurementIndicators::PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", null ],
@@ -1011,6 +1029,7 @@ var hierarchy =
       [ "MR::Matrix< T >", "structMR_1_1Matrix.html", null ]
     ] ],
     [ "MR::RefineParameters", "structMR_1_1RefineParameters.html", null ],
+    [ "MR::WeightedPointsShellParametersRegions::Region", "structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html", null ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", null ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", null ],
     [ "MR::RelaxParams", "structMR_1_1RelaxParams.html", [
@@ -1036,7 +1055,9 @@ var hierarchy =
     [ "MR::RibbonConfig", "structMR_1_1RibbonConfig.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
-    [ "MR::RibbonMenuItemAdder< T >", "classMR_1_1RibbonMenuItemAdder.html", null ],
+    [ "MR::RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html", [
+      [ "MR::RibbonMenuItemAdderT< T >", "classMR_1_1RibbonMenuItemAdderT.html", null ]
+    ] ],
     [ "MR::RibbonMenuItemCall< T >", "classMR_1_1RibbonMenuItemCall.html", null ],
     [ "MR::RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", null ],
     [ "MR::RibbonMenuUIConfig", "structMR_1_1RibbonMenuUIConfig.html", null ],
@@ -1159,6 +1180,8 @@ var hierarchy =
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
     [ "MR::ParallelProgressReporter::TaskInfo", "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html", null ],
+    [ "MR::TbbTaskArenaAndGroup", "structMR_1_1TbbTaskArenaAndGroup.html", null ],
+    [ "MR::TbbThreadMutex", "classMR_1_1TbbThreadMutex.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
@@ -1327,6 +1350,11 @@ var hierarchy =
     [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", null ],
     [ "MR::WatershedGraph", "classMR_1_1WatershedGraph.html", null ],
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
+    [ "MR::WeightedPointsShellParametersBase", "structMR_1_1WeightedPointsShellParametersBase.html", [
+      [ "MR::WeightedPointsShellParametersMetric", "structMR_1_1WeightedPointsShellParametersMetric.html", null ],
+      [ "MR::WeightedPointsShellParametersRegions", "structMR_1_1WeightedPointsShellParametersRegions.html", null ]
+    ] ],
+    [ "MR::WeightedPointsToDistanceVolumeParams", "structMR_1_1WeightedPointsToDistanceVolumeParams.html", null ],
     [ "MR::WeightedVertex", "structMR_1_1WeightedVertex.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],

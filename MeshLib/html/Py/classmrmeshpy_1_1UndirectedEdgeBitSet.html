@@ -175,6 +175,8 @@ $(function(){initNavTree('classmrmeshpy_1_1UndirectedEdgeBitSet.html',''); initR
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad19a4140d88bb93c87ac93c7b22bd4c7" id="r_ad19a4140d88bb93c87ac93c7b22bd4c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad19a4140d88bb93c87ac93c7b22bd4c7">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> b)</td></tr>
 <tr class="separator:ad19a4140d88bb93c87ac93c7b22bd4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950133afc470a048d820fa9199e3314c" id="r_a950133afc470a048d820fa9199e3314c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a950133afc470a048d820fa9199e3314c">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> pos)</td></tr>
+<tr class="separator:a950133afc470a048d820fa9199e3314c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa423765dd694f30be60c91370d24b018" id="r_aa423765dd694f30be60c91370d24b018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa423765dd694f30be60c91370d24b018">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> b)</td></tr>
 <tr class="separator:aa423765dd694f30be60c91370d24b018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ccdf2a846553fafc6033d6f24d36a4" id="r_ab9ccdf2a846553fafc6033d6f24d36a4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ccdf2a846553fafc6033d6f24d36a4">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -241,8 +243,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a05c7256465c9b710d85004528f3e1f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecac9cccff05bca9628645a8b5856209" id="r_aecac9cccff05bca9628645a8b5856209"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecac9cccff05bca9628645a8b5856209">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:aecac9cccff05bca9628645a8b5856209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87c9d646903a7ed8a276d11897cbe375" id="r_a87c9d646903a7ed8a276d11897cbe375"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87c9d646903a7ed8a276d11897cbe375">operator</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> pos)</td></tr>
-<tr class="separator:a87c9d646903a7ed8a276d11897cbe375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2f1351025dc64bf5cc04de30aa8db56" id="r_ab2f1351025dc64bf5cc04de30aa8db56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2f1351025dc64bf5cc04de30aa8db56">reset</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> n, int len)</td></tr>
 <tr class="separator:ab2f1351025dc64bf5cc04de30aa8db56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8816283e9e688b1a3e9338b03522bde" id="r_aa8816283e9e688b1a3e9338b03522bde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8816283e9e688b1a3e9338b03522bde">reset</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> n)</td></tr>
@@ -405,6 +405,27 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a5d5a1bb5839863d7c2b6c396ee4d6ec2">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a950133afc470a048d820fa9199e3314c" name="a950133afc470a048d820fa9199e3314c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950133afc470a048d820fa9199e3314c">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.UndirectedEdgeBitSet.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1096,27 +1117,6 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a87c9d646903a7ed8a276d11897cbe375" name="a87c9d646903a7ed8a276d11897cbe375"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87c9d646903a7ed8a276d11897cbe375">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.UndirectedEdgeBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

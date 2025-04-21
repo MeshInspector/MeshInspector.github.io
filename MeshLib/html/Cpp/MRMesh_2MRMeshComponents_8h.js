@@ -36,8 +36,10 @@ var MRMesh_2MRMeshComponents_8h =
     [ "getUnionFindStructureVerts", "MRMesh_2MRMeshComponents_8h.html#ga03c8c808b4ba34501215afe74c09330f", null ],
     [ "getUnionFindStructureVerts", "MRMesh_2MRMeshComponents_8h.html#gaa753927490e5b30c4541fd6c06084f0c", null ],
     [ "getUnionFindStructureVerts", "MRMesh_2MRMeshComponents_8h.html#ga0c25b3e3697cc2efad3f13c664fc87ec", null ],
+    [ "getUnionFindStructureVerts", "MRMesh_2MRMeshComponents_8h.html#ga157f0c78514aec4479ff1a3466741381", null ],
     [ "getUnionFindStructureVertsEx", "MRMesh_2MRMeshComponents_8h.html#gace26e67d5d5067fe90238bc336ac1101", null ],
     [ "getUnionFindStructureVertsSeparatedByPath", "MRMesh_2MRMeshComponents_8h.html#ga397973d9e4d6ee73a9d3ceaeb494102a", null ],
     [ "getUnionFindStructureVertsSeparatedByPaths", "MRMesh_2MRMeshComponents_8h.html#gaeea1d750f9fa547cc54e67ea7ed92bfb", null ],
-    [ "hasFullySelectedComponent", "MRMesh_2MRMeshComponents_8h.html#gac4401b9655de3a844caf1234d8f453cf", null ]
+    [ "hasFullySelectedComponent", "MRMesh_2MRMeshComponents_8h.html#gac4401b9655de3a844caf1234d8f453cf", null ],
+    [ "hasFullySelectedComponent", "MRMesh_2MRMeshComponents_8h.html#gae10aa0366634495e852266e756441a82", null ]
 ];

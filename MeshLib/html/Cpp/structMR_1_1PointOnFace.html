@@ -153,21 +153,90 @@ $(function(){initNavTree('structMR_1_1PointOnFace.html',''); initResizable(true)
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1PointOnFace-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::PointOnFace Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
+<p>a point located on some mesh's face  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRMesh_2MRPointOnFace_8h_source.html">MRPointOnFace.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a025f9557286d25c7be1c794fbb8ecafa" id="r_a025f9557286d25c7be1c794fbb8ecafa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a025f9557286d25c7be1c794fbb8ecafa">valid</a> () const</td></tr>
+<tr class="memdesc:a025f9557286d25c7be1c794fbb8ecafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise the point is not defined  <br /></td></tr>
+<tr class="separator:a025f9557286d25c7be1c794fbb8ecafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acabf2c49796ac6c253d2d2031fb688c7" id="r_acabf2c49796ac6c253d2d2031fb688c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acabf2c49796ac6c253d2d2031fb688c7">operator bool</a> () const</td></tr>
+<tr class="separator:acabf2c49796ac6c253d2d2031fb688c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2ec934aa6c7847dbfbc812bcea286b53" id="r_a2ec934aa6c7847dbfbc812bcea286b53"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec934aa6c7847dbfbc812bcea286b53">face</a></td></tr>
+<tr class="memdesc:a2ec934aa6c7847dbfbc812bcea286b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh's face containing the point  <br /></td></tr>
 <tr class="separator:a2ec934aa6c7847dbfbc812bcea286b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ee455f370bca112fa98cf9f81a2e3ad" id="r_a8ee455f370bca112fa98cf9f81a2e3ad"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ee455f370bca112fa98cf9f81a2e3ad">point</a></td></tr>
+<tr class="memdesc:a8ee455f370bca112fa98cf9f81a2e3ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point of the mesh's face  <br /></td></tr>
 <tr class="separator:a8ee455f370bca112fa98cf9f81a2e3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>a point located on some mesh's face </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="acabf2c49796ac6c253d2d2031fb688c7" name="acabf2c49796ac6c253d2d2031fb688c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acabf2c49796ac6c253d2d2031fb688c7">&#9670;&#160;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PointOnFace::operator bool </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a025f9557286d25c7be1c794fbb8ecafa" name="a025f9557286d25c7be1c794fbb8ecafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a025f9557286d25c7be1c794fbb8ecafa">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::PointOnFace::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check for validity, otherwise the point is not defined </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2ec934aa6c7847dbfbc812bcea286b53" name="a2ec934aa6c7847dbfbc812bcea286b53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ec934aa6c7847dbfbc812bcea286b53">&#9670;&#160;</a></span>face</h2>
@@ -180,6 +249,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>mesh's face containing the point </p>
 
 </div>
 </div>
@@ -194,6 +265,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>a point of the mesh's face </p>
 
 </div>
 </div>

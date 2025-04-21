@@ -203,8 +203,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1a549aec745f16e9336ae7fcf4271d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79ec1bbcff59caf42691d6cea60db1b7" id="r_a79ec1bbcff59caf42691d6cea60db1b7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79ec1bbcff59caf42691d6cea60db1b7">saveCurrentToJson</a> (Json::Value &amp;root) const</td></tr>
 <tr class="separator:a79ec1bbcff59caf42691d6cea60db1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae887bb19c1092abaf6d0f53255355011" id="r_ae887bb19c1092abaf6d0f53255355011"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae887bb19c1092abaf6d0f53255355011">getColor</a> (float val) const</td></tr>
-<tr class="separator:ae887bb19c1092abaf6d0f53255355011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993b22e2c8c190cfe6473013283f6c04" id="r_a993b22e2c8c190cfe6473013283f6c04"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993b22e2c8c190cfe6473013283f6c04">getColor</a> (float relativeValue) const</td></tr>
+<tr class="separator:a993b22e2c8c190cfe6473013283f6c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4429356ab627f21dea626ec383a24fa" id="r_ae4429356ab627f21dea626ec383a24fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4429356ab627f21dea626ec383a24fa">getInvalidColor</a> () const</td></tr>
+<tr class="memdesc:ae4429356ab627f21dea626ec383a24fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">return invalid color  <br /></td></tr>
+<tr class="separator:ae4429356ab627f21dea626ec383a24fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e13a80e86634eb20de04d20376ac807" id="r_a0e13a80e86634eb20de04d20376ac807"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e13a80e86634eb20de04d20376ac807">getVertColors</a> (const VertScalars &amp;values, const VertBitSet &amp;region, const VertBitSet *valids) const</td></tr>
+<tr class="separator:a0e13a80e86634eb20de04d20376ac807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10dfbdae3b19c43baa0235a41667e4a4" id="r_a10dfbdae3b19c43baa0235a41667e4a4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10dfbdae3b19c43baa0235a41667e4a4">getTexture</a> () const</td></tr>
 <tr class="separator:a10dfbdae3b19c43baa0235a41667e4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0713134025e93fe779411c27b522ce50" id="r_a0713134025e93fe779411c27b522ce50"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0713134025e93fe779411c27b522ce50">getRelativePos</a> (float val) const</td></tr>
@@ -331,8 +336,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae887bb19c1092abaf6d0f53255355011" name="ae887bb19c1092abaf6d0f53255355011"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae887bb19c1092abaf6d0f53255355011">&#9670;&#160;</a></span>getColor()</h2>
+<a id="a993b22e2c8c190cfe6473013283f6c04" name="a993b22e2c8c190cfe6473013283f6c04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a993b22e2c8c190cfe6473013283f6c04">&#9670;&#160;</a></span>getColor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,11 +345,44 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1Color.html">Color</a> MR::Palette::getColor </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>relativeValue</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>return color according relative value and setting filter type </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">relativeValue</td><td>- value scaled from ragne [min, max] to [0; 1] Discrete: returns color for given value Linear: get interpolated color from the init vector </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae4429356ab627f21dea626ec383a24fa" name="ae4429356ab627f21dea626ec383a24fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4429356ab627f21dea626ec383a24fa">&#9670;&#160;</a></span>getInvalidColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Color.html">Color</a> MR::Palette::getInvalidColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return invalid color </p>
 
 </div>
 </div>
@@ -615,6 +653,39 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>get UV coordinates in palette for given values </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">region</td><td>only these vertices will be processed </td></tr>
+    <tr><td class="paramname">valids</td><td>if given then defines subregion with valid values, and invalid values will get gray color </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0e13a80e86634eb20de04d20376ac807" name="a0e13a80e86634eb20de04d20376ac807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e13a80e86634eb20de04d20376ac807">&#9670;&#160;</a></span>getVertColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API VertColors MR::Palette::getVertColors </td>
+          <td>(</td>
+          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>valids</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get colors for given vert value </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">region</td><td>only these vertices will be processed </td></tr>
     <tr><td class="paramname">valids</td><td>if given then defines subregion with valid values, and invalid values will get gray color </td></tr>

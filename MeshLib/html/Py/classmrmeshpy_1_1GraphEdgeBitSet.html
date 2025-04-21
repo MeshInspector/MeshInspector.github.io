@@ -175,6 +175,8 @@ $(function(){initNavTree('classmrmeshpy_1_1GraphEdgeBitSet.html',''); initResiza
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e3039c123c28da4a58c4735a6deae81" id="r_a9e3039c123c28da4a58c4735a6deae81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e3039c123c28da4a58c4735a6deae81">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a> b)</td></tr>
 <tr class="separator:a9e3039c123c28da4a58c4735a6deae81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488a1dc43f91716ad8ccbffe135a22cf" id="r_a488a1dc43f91716ad8ccbffe135a22cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a488a1dc43f91716ad8ccbffe135a22cf">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> pos)</td></tr>
+<tr class="separator:a488a1dc43f91716ad8ccbffe135a22cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d14181af650fb07af6e56bb5a0763ec" id="r_a4d14181af650fb07af6e56bb5a0763ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d14181af650fb07af6e56bb5a0763ec">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a> b)</td></tr>
 <tr class="separator:a4d14181af650fb07af6e56bb5a0763ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e9409c1a67cb7aaa68feea527942b31" id="r_a7e9409c1a67cb7aaa68feea527942b31"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9409c1a67cb7aaa68feea527942b31">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -241,8 +243,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b37819366e4c3ab65824621c4a42586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcbe2fadfd69e22a335927a3d44f9112" id="r_abcbe2fadfd69e22a335927a3d44f9112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcbe2fadfd69e22a335927a3d44f9112">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:abcbe2fadfd69e22a335927a3d44f9112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7f82f6da4de85ebe717b4aeeb3a202e" id="r_ab7f82f6da4de85ebe717b4aeeb3a202e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7f82f6da4de85ebe717b4aeeb3a202e">operator</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> pos)</td></tr>
-<tr class="separator:ab7f82f6da4de85ebe717b4aeeb3a202e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a83015d730b71412e72859d31b506d4" id="r_a9a83015d730b71412e72859d31b506d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a83015d730b71412e72859d31b506d4">reset</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> n, int len)</td></tr>
 <tr class="separator:a9a83015d730b71412e72859d31b506d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8d3bd8085cf1e047f460e25f92257a7" id="r_ad8d3bd8085cf1e047f460e25f92257a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8d3bd8085cf1e047f460e25f92257a7">reset</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> n)</td></tr>
@@ -405,6 +405,27 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a5d5a1bb5839863d7c2b6c396ee4d6ec2">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a488a1dc43f91716ad8ccbffe135a22cf" name="a488a1dc43f91716ad8ccbffe135a22cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a488a1dc43f91716ad8ccbffe135a22cf">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.GraphEdgeBitSet.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1096,27 +1117,6 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="ab7f82f6da4de85ebe717b4aeeb3a202e" name="ab7f82f6da4de85ebe717b4aeeb3a202e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7f82f6da4de85ebe717b4aeeb3a202e">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.GraphEdgeBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

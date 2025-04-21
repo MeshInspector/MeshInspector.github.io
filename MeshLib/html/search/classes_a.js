@@ -41,7 +41,8 @@ var searchData=
   ['loadedobjectt_5fobjectpoints_38',['LoadedObjectT_ObjectPoints',['.././Py/classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html',1,'mrmeshpy']]],
   ['loadedobjectt_5fobjectvoxels_39',['LoadedObjectT_ObjectVoxels',['.././Py/classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html',1,'mrmeshpy']]],
   ['loadingtiffsettings_40',['LoadingTiffSettings',['.././Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad::LoadingTiffSettings'],['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'mrmeshpy::VoxelsLoad::LoadingTiffSettings']]],
-  ['logger_41',['Logger',['.././Cpp/classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_42',['LoggingStreambuf',['.././Cpp/classMR_1_1LoggingStreambuf.html',1,'MR']]],
-  ['luttype_43',['LutType',['.././Py/classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html',1,'mrmeshpy::ObjectVoxels::VolumeRenderingParams']]]
+  ['lockguard_41',['LockGuard',['.././Cpp/classMR_1_1TbbThreadMutex_1_1LockGuard.html',1,'MR::TbbThreadMutex']]],
+  ['logger_42',['Logger',['.././Cpp/classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_43',['LoggingStreambuf',['.././Cpp/classMR_1_1LoggingStreambuf.html',1,'MR']]],
+  ['luttype_44',['LutType',['.././Py/classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html',1,'mrmeshpy::ObjectVoxels::VolumeRenderingParams']]]
 ];

@@ -169,6 +169,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ga356b1104c8bddd98afba39fcbe5ee803" id="r_ga356b1104c8bddd98afba39fcbe5ee803"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga356b1104c8bddd98afba39fcbe5ee803"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga356b1104c8bddd98afba39fcbe5ee803">MR::doTrianglesIntersect</a> (<a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; a, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; b, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; c, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; d, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; e, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; f)</td></tr>
 <tr class="separator:ga356b1104c8bddd98afba39fcbe5ee803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12874ed96dd226c86c9f430e0845eae8" id="r_ga12874ed96dd226c86c9f430e0845eae8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga12874ed96dd226c86c9f430e0845eae8"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga12874ed96dd226c86c9f430e0845eae8">MR::isPointInPlane</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
+<tr class="memdesc:ga12874ed96dd226c86c9f430e0845eae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if ABC plane contains point P  <br /></td></tr>
+<tr class="separator:ga12874ed96dd226c86c9f430e0845eae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga746d797c724c3644c060dec600b7a05a" id="r_ga746d797c724c3644c060dec600b7a05a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga746d797c724c3644c060dec600b7a05a"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga746d797c724c3644c060dec600b7a05a">MR::isPointInTriangle</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
+<tr class="memdesc:ga746d797c724c3644c060dec600b7a05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if ABC triangle contains point P  <br /></td></tr>
+<tr class="separator:ga746d797c724c3644c060dec600b7a05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga56e080b75b029cd99c5de48a2ae1c305" id="r_ga56e080b75b029cd99c5de48a2ae1c305"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga56e080b75b029cd99c5de48a2ae1c305"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga56e080b75b029cd99c5de48a2ae1c305">MR::doesEdgeXySeparate</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;x, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;y, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;z, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;u, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;w, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; d)</td></tr>
 <tr class="memdesc:ga56e080b75b029cd99c5de48a2ae1c305"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a plane containing edge XY separates point Z from triangle UVW  <br /></td></tr>
@@ -457,6 +465,76 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>this function input should have intersection </p>
+
+</div>
+</div>
+<a id="ga12874ed96dd226c86c9f430e0845eae8" name="ga12874ed96dd226c86c9f430e0845eae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga12874ed96dd226c86c9f430e0845eae8">&#9670;&#160;</a></span>isPointInPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::isPointInPlane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if ABC plane contains point P </p>
+
+</div>
+</div>
+<a id="ga746d797c724c3644c060dec600b7a05a" name="ga746d797c724c3644c060dec600b7a05a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga746d797c724c3644c060dec600b7a05a">&#9670;&#160;</a></span>isPointInTriangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::isPointInTriangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if ABC triangle contains point P </p>
 
 </div>
 </div>

@@ -45,9 +45,13 @@ var NAVTREE =
         [ "Mesh Boolean", "ExampleMeshBoolean.html", null ],
         [ "Mesh Decimate", "ExampleMeshDecimate.html", null ],
         [ "Mesh Offset", "ExampleMeshOffset.html", null ],
+        [ "Mesh Weighted Offset", "ExampleMeshOffsetWeighted.html", null ],
         [ "Mesh Fill Hole", "ExampleMeshFillHole.html", null ],
         [ "Mesh Stitch Holes", "ExampleMeshStitchHole.html", null ],
-        [ "Mesh Resolve Degenerations", "ExampleMeshResolveDegenerations.html", null ],
+        [ "Mesh Fix Degeneracies", "ExampleMeshFixDegeneracies.html", null ],
+        [ "Signed Distance", "ExampleSignedDistance.html", null ],
+        [ "Signed Distance Point To Mesh", "ExampleSignedDistancePointToMesh.html", null ],
+        [ "Signed Distances", "ExampleSignedDistances.html", null ],
         [ "Global Registration", "ExampleGlobalRegistration.html", null ],
         [ "Mesh ICP", "ExampleMeshICP.html", null ],
         [ "Mesh Extrude", "ExampleMeshExtrude.html", null ],
@@ -61,16 +65,18 @@ var NAVTREE =
         [ "Viewer", "ExampleViewer.html", null ],
         [ "Plotly Visualization", "ExamplePlotly.html", null ],
         [ "Using Numpy", "ExampleNumpy.html", null ],
-        [ "Numpy Triangulation", "ExampleNumpyTriangulation.html", null ]
+        [ "Numpy Triangulation", "ExampleNumpyTriangulation.html", null ],
+        [ "Offset with Cuda", "ExampleCudaOffset.html", null ],
+        [ "Open Dicom Files", "ExampleDicomFiles.html", null ]
       ] ]
     ] ],
     [ "Package Overview", "PackageOverview.html", [
+      [ "File Format Support", "FileFormatSupport.html", null ],
       [ "Mesh Structure", "MeshStructureOverview.html", null ],
       [ "Basic Math Types", "BasicMathTypesOverview.html", null ],
       [ "Float vs Double", "FloatVSDouble.html", null ],
       [ "Data Model Class Hierarchy", "DataModel.html", null ],
       [ "Spaces and Transformations", "SpacesHelp.html", null ],
-      [ "File Format Support", "FileFormatSupport.html", null ],
       [ "How to use С++ Example Plugin", "ExamplePluginOverview.html", null ],
       [ "State Plugins Overview", "StatePluginsHelp.html", null ],
       [ "How to Add Plugin", "HowtoAddPluginOverview.html", null ]

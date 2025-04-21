@@ -327,12 +327,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </td></tr>
 <tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;v, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b" id="r_gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; T, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacefefeac686afa1ccce13566eeaeb68b">MR::parallelMinMax</a> (const std::vector&lt; T &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
-<tr class="separator:gacefefeac686afa1ccce13566eeaeb68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0" id="r_ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </td></tr>
-<tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga838286be4a47d0b585d7ddb373d0abf0">MR::parallelMinMaxArg</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
-<tr class="separator:ga838286be4a47d0b585d7ddb373d0abf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (VertMap &amp;a2b, const VertMap &amp;b2c)</td></tr>
 <tr class="memdesc:ga4accadafe09c169e3742b72d1e5e5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga4accadafe09c169e3742b72d1e5e5733"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1931,64 +1925,6 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 </table>
 </div><div class="memdoc">
 <p>executes given function f for each span element [begin, end) passing e.local() (evaluated once for each sub-range) as the second argument to f; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
-
-</div>
-</div>
-<a id="gacefefeac686afa1ccce13566eeaeb68b" name="gacefefeac686afa1ccce13566eeaeb68b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacefefeac686afa1ccce13566eeaeb68b">&#9670;&#160;</a></span>parallelMinMax()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; T, T &gt; MR::parallelMinMax </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T *</td>          <td class="paramname"><span class="paramname"><em>topExcluding</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>finds minimal and maximal elements in given vector in parallel; </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">topExcluding</td><td>if provided then all values in the array equal or larger by absolute value than it will be ignored </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga838286be4a47d0b585d7ddb373d0abf0" name="ga838286be4a47d0b585d7ddb373d0abf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga838286be4a47d0b585d7ddb373d0abf0">&#9670;&#160;</a></span>parallelMinMaxArg()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto MR::parallelMinMaxArg </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T *</td>          <td class="paramname"><span class="paramname"><em>topExcluding</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>finds minimal and maximal elements and their indices in given vector in parallel; </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">topExcluding</td><td>if provided then all values in the array equal or larger by absolute value than it will be ignored </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

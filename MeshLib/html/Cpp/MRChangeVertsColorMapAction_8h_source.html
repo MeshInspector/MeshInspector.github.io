@@ -157,89 +157,91 @@ $(function(){initNavTree('MRChangeVertsColorMapAction_8h_source.html',''); initR
 <div class="contents">
 <a href="MRChangeVertsColorMapAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1ChangeVertsColorMapAction.html">ChangeVertsColorMapAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77">   14</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77">Obj</a> = T;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448">   17</a></span>    <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448">ChangeVertsColorMapAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;T&gt;&amp; obj ) :</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        obj_{ obj },</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        name_{ <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a> }</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">if</span> ( obj )</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            vertsColorMap_ = obj-&gt;getVertsColorMap();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    }</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVisualObject_8h.html">MRVisualObject.h</a>&quot;</span> <span class="comment">//Color and DIRTY_VERTS_COLORMAP</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1ChangeVertsColorMapAction.html">ChangeVertsColorMapAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77">   15</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77">Obj</a> = T;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448">   18</a></span>    <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448">ChangeVertsColorMapAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;T&gt;&amp; obj ) :</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        obj_{ obj },</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        name_{ <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a> }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">if</span> ( obj )</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            vertsColorMap_ = obj-&gt;getVertsColorMap();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
 </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389">   26</a></span>    <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389">ChangeVertsColorMapAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;T&gt;&amp; obj, VertColors&amp;&amp; newVertsColorMap ) :</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        obj_{ obj },</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        name_{ <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a> }</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    {</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">if</span> ( obj_ )</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            vertsColorMap_ = std::move( newVertsColorMap );</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            obj_-&gt;updateVertsColorMap( vertsColorMap_ );</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        }</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389">   27</a></span>    <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389">ChangeVertsColorMapAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;T&gt;&amp; obj, VertColors&amp;&amp; newVertsColorMap ) :</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        obj_{ obj },</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        name_{ <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a> }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">if</span> ( obj_ )</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            vertsColorMap_ = std::move( newVertsColorMap );</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            obj_-&gt;updateVertsColorMap( vertsColorMap_ );</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
 </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">   37</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">return</span> name_;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">   38</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">name</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> name_;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
 </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43">   42</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> )<span class="keyword"> override</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">if</span> ( !obj_ )</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        obj_-&gt;updateVertsColorMap( vertsColorMap_ );</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43">   43</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> )<span class="keyword"> override</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">if</span> ( !obj_ )</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        obj_-&gt;updateVertsColorMap( vertsColorMap_ );</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    }</div>
 </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#a04ffd020e2d5b28eb09c25b045577fb8">   49</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a04ffd020e2d5b28eb09c25b045577fb8">setObjectDirty</a>( <span class="keyword">const</span> std::shared_ptr&lt;T&gt;&amp; obj )</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordflow">if</span> ( obj )</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            obj-&gt;setDirtyFlags( <a class="code hl_enumvalue" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475">DIRTY_VERTS_COLORMAP</a> );</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#a04ffd020e2d5b28eb09c25b045577fb8">   50</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#a04ffd020e2d5b28eb09c25b045577fb8">setObjectDirty</a>( <span class="keyword">const</span> std::shared_ptr&lt;T&gt;&amp; obj )</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">if</span> ( obj )</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            obj-&gt;setDirtyFlags( <a class="code hl_enumvalue" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475">DIRTY_VERTS_COLORMAP</a> );</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
 </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303">   55</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303">heapBytes</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">return</span> name_.capacity() + vertsColorMap_.capacity();</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303">   56</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303">heapBytes</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">return</span> name_.capacity() + vertsColorMap_.capacity();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
 </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    std::shared_ptr&lt;T&gt; obj_;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    VertColors vertsColorMap_;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    std::string name_;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::shared_ptr&lt;T&gt; obj_;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    VertColors vertsColorMap_;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    std::string name_;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
 </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html">MR::ChangeVertsColorMapAction</a></div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:12</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_a04ffd020e2d5b28eb09c25b045577fb8"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#a04ffd020e2d5b28eb09c25b045577fb8">MR::ChangeVertsColorMapAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; T &gt; &amp;obj)</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:49</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_a3bfeb91b777c884b6154a9e36cc3a389"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389">MR::ChangeVertsColorMapAction::ChangeVertsColorMapAction</a></div><div class="ttdeci">ChangeVertsColorMapAction(const std::string &amp;name, const std::shared_ptr&lt; T &gt; &amp;obj, VertColors &amp;&amp;newVertsColorMap)</div><div class="ttdoc">use this constructor to remember object's vertex colors and immediate set new value</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:26</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_a7463a0c407fe96e44b65aac4e69c16d2"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">MR::ChangeVertsColorMapAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:37</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_ab1b2d8610405057232d3c46e0f326b77"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77">MR::ChangeVertsColorMapAction::Obj</a></div><div class="ttdeci">T Obj</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:14</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_abb19b89e750bb13f1c80ec81118c2303"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303">MR::ChangeVertsColorMapAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:55</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_abf17cf1a549936cc4bf5288dbc286f43"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43">MR::ChangeVertsColorMapAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:42</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_af543ed6ffdbac2a85e27deadaf79f448"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448">MR::ChangeVertsColorMapAction::ChangeVertsColorMapAction</a></div><div class="ttdeci">ChangeVertsColorMapAction(const std::string &amp;name, const std::shared_ptr&lt; T &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember object's vertex colors before making any changes in them</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:17</div></div>
+<div class="ttc" id="aMRVisualObject_8h_html"><div class="ttname"><a href="MRVisualObject_8h.html">MRVisualObject.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html">MR::ChangeVertsColorMapAction</a></div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:13</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_a04ffd020e2d5b28eb09c25b045577fb8"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#a04ffd020e2d5b28eb09c25b045577fb8">MR::ChangeVertsColorMapAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; T &gt; &amp;obj)</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:50</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_a3bfeb91b777c884b6154a9e36cc3a389"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389">MR::ChangeVertsColorMapAction::ChangeVertsColorMapAction</a></div><div class="ttdeci">ChangeVertsColorMapAction(const std::string &amp;name, const std::shared_ptr&lt; T &gt; &amp;obj, VertColors &amp;&amp;newVertsColorMap)</div><div class="ttdoc">use this constructor to remember object's vertex colors and immediate set new value</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:27</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_a7463a0c407fe96e44b65aac4e69c16d2"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">MR::ChangeVertsColorMapAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:38</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_ab1b2d8610405057232d3c46e0f326b77"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77">MR::ChangeVertsColorMapAction::Obj</a></div><div class="ttdeci">T Obj</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:15</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_abb19b89e750bb13f1c80ec81118c2303"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303">MR::ChangeVertsColorMapAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:56</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_abf17cf1a549936cc4bf5288dbc286f43"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43">MR::ChangeVertsColorMapAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:43</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeVertsColorMapAction_html_af543ed6ffdbac2a85e27deadaf79f448"><div class="ttname"><a href="classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448">MR::ChangeVertsColorMapAction::ChangeVertsColorMapAction</a></div><div class="ttdeci">ChangeVertsColorMapAction(const std::string &amp;name, const std::shared_ptr&lt; T &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember object's vertex colors before making any changes in them</div><div class="ttdef"><b>Definition</b> MRChangeVertsColorMapAction.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:19</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475"><div class="ttname"><a href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475">MR::DIRTY_VERTS_COLORMAP</a></div><div class="ttdeci">@ DIRTY_VERTS_COLORMAP</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:90</div></div>

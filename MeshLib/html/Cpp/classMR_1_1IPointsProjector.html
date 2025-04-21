@@ -186,6 +186,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73d0b887b876f110e3fb6554422f9a31" id="r_a73d0b887b876f110e3fb6554422f9a31"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73d0b887b876f110e3fb6554422f9a31">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const <a class="el" href="structMR_1_1FindProjectionOnPointsSettings.html">FindProjectionOnPointsSettings</a> &amp;settings) const =0</td></tr>
 <tr class="memdesc:a73d0b887b876f110e3fb6554422f9a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on point cloud to given points  <br /></td></tr>
 <tr class="separator:a73d0b887b876f110e3fb6554422f9a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4125cb715c028facd258f35767e5c66c" id="r_a4125cb715c028facd258f35767e5c66c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4125cb715c028facd258f35767e5c66c">projectionsHeapBytes</a> (size_t numProjections) const =0</td></tr>
+<tr class="memdesc:a4125cb715c028facd258f35767e5c66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of memory needed to compute projections.  <br /></td></tr>
+<tr class="separator:a4125cb715c028facd258f35767e5c66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>abstract class for computing the closest points of point clouds </p>
@@ -251,6 +254,35 @@ Public Member Functions</h2></td></tr>
 <p>computes the closest points on point cloud to given points </p>
 
 <p>Implemented in <a class="el" href="classMR_1_1PointsProjector.html#a7f6e0c85341469a32a8424abb1a7e25f">MR::PointsProjector</a>.</p>
+
+</div>
+</div>
+<a id="a4125cb715c028facd258f35767e5c66c" name="a4125cb715c028facd258f35767e5c66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4125cb715c028facd258f35767e5c66c">&#9670;&#160;</a></span>projectionsHeapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t MR::IPointsProjector::projectionsHeapBytes </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>numProjections</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns amount of memory needed to compute projections. </p>
+
+<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1PointsProjector.html#acc3b795a692a05aa71390db850bb9ff4">MR::Cuda::PointsProjector</a>, and <a class="el" href="classMR_1_1PointsProjector.html#a2ae04a83d426c8411c3e839482a1f96f">MR::PointsProjector</a>.</p>
 
 </div>
 </div>

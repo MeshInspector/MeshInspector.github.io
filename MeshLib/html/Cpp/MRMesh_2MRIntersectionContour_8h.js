@@ -6,6 +6,7 @@ var MRMesh_2MRIntersectionContour_8h =
     [ "detectLoneContours", "MRMesh_2MRIntersectionContour_8h.html#a33db1bd44d8ce26ccf47409cf59ace33", null ],
     [ "extractIntersectionContours", "MRMesh_2MRIntersectionContour_8h.html#a4d956c62b0c8514d3779ce5076b6b9ec", null ],
     [ "orderIntersectionContours", "MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202", null ],
+    [ "orderSelfIntersectionContours", "MRMesh_2MRIntersectionContour_8h.html#a757e0b5f05e6d5db5ea687114de26bd2", null ],
     [ "removeLoneContours", "MRMesh_2MRIntersectionContour_8h.html#a63f651410ecabb9d18ecefb9abf54753", null ],
     [ "removeLoneDegeneratedContours", "MRMesh_2MRIntersectionContour_8h.html#afac751f311b648116a3a4afcd06a10c7", null ]
 ];

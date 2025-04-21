@@ -41,5 +41,6 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRVoxelsSave.h", "MRVoxels_2MRVoxelsSave_8h.html", "MRVoxels_2MRVoxelsSave_8h" ],
     [ "MRVoxelsVolume.h", "MRVoxelsVolume_8h.html", "MRVoxelsVolume_8h" ],
     [ "MRVoxelsVolumeAccess.h", "MRVoxelsVolumeAccess_8h.html", "MRVoxelsVolumeAccess_8h" ],
-    [ "MRVoxelsVolumeCachingAccessor.h", "MRVoxelsVolumeCachingAccessor_8h.html", "MRVoxelsVolumeCachingAccessor_8h" ]
+    [ "MRVoxelsVolumeCachingAccessor.h", "MRVoxelsVolumeCachingAccessor_8h.html", "MRVoxelsVolumeCachingAccessor_8h" ],
+    [ "MRWeightedPointsShell.h", "MRWeightedPointsShell_8h.html", "MRWeightedPointsShell_8h" ]
 ];

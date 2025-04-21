@@ -163,22 +163,26 @@ $(function(){initNavTree('MRMesh_2MRPointOnFace_8h_source.html',''); initResizab
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// point located on some mesh face</span></div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structMR_1_1PointOnFace.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1PointOnFace.html">PointOnFace</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">   12</a></span>    FaceId <a class="code hl_variable" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">face</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad">   13</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad">point</a>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>};</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">   13</a></span>    FaceId <a class="code hl_variable" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">face</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad">   16</a></span>    Vector3f <a class="code hl_variable" href="structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad">point</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1PointOnFace.html#a025f9557286d25c7be1c794fbb8ecafa">   19</a></span>    [[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="structMR_1_1PointOnFace.html#a025f9557286d25c7be1c794fbb8ecafa">valid</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">face</a>.valid(); }</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1PointOnFace.html#acabf2c49796ac6c253d2d2031fb688c7">   20</a></span>    [[nodiscard]] <span class="keyword">explicit</span> <span class="keyword">operator</span> bool()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">face</a>.valid(); }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
 </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRId_8h_html"><div class="ttname"><a href="MRMesh_2MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div></div>
-<div class="ttc" id="astructMR_1_1PointOnFace_html"><div class="ttname"><a href="structMR_1_1PointOnFace.html">MR::PointOnFace</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:11</div></div>
-<div class="ttc" id="astructMR_1_1PointOnFace_html_a2ec934aa6c7847dbfbc812bcea286b53"><div class="ttname"><a href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">MR::PointOnFace::face</a></div><div class="ttdeci">FaceId face</div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:12</div></div>
-<div class="ttc" id="astructMR_1_1PointOnFace_html_a8ee455f370bca112fa98cf9f81a2e3ad"><div class="ttname"><a href="structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad">MR::PointOnFace::point</a></div><div class="ttdeci">Vector3f point</div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:13</div></div>
+<div class="ttc" id="astructMR_1_1PointOnFace_html"><div class="ttname"><a href="structMR_1_1PointOnFace.html">MR::PointOnFace</a></div><div class="ttdoc">a point located on some mesh's face</div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:11</div></div>
+<div class="ttc" id="astructMR_1_1PointOnFace_html_a025f9557286d25c7be1c794fbb8ecafa"><div class="ttname"><a href="structMR_1_1PointOnFace.html#a025f9557286d25c7be1c794fbb8ecafa">MR::PointOnFace::valid</a></div><div class="ttdeci">bool valid() const</div><div class="ttdoc">check for validity, otherwise the point is not defined</div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:19</div></div>
+<div class="ttc" id="astructMR_1_1PointOnFace_html_a2ec934aa6c7847dbfbc812bcea286b53"><div class="ttname"><a href="structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53">MR::PointOnFace::face</a></div><div class="ttdeci">FaceId face</div><div class="ttdoc">mesh's face containing the point</div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:13</div></div>
+<div class="ttc" id="astructMR_1_1PointOnFace_html_a8ee455f370bca112fa98cf9f81a2e3ad"><div class="ttname"><a href="structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad">MR::PointOnFace::point</a></div><div class="ttdeci">Vector3f point</div><div class="ttdoc">a point of the mesh's face</div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

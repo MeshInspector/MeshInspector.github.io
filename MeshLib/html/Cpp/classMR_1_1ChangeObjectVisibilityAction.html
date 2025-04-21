@@ -187,8 +187,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a479356824a42fb710dc8fd412c4b34b7" id="r_a479356824a42fb710dc8fd412c4b34b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a479356824a42fb710dc8fd412c4b34b7">ChangeObjectVisibilityAction</a> (const std::string &amp;<a class="el" href="#aeb43acff9643bd750856214f6f50b39d">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:a479356824a42fb710dc8fd412c4b34b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
+<tr class="memdesc:a479356824a42fb710dc8fd412c4b34b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's visibility mask before making any changes in it  <br /></td></tr>
 <tr class="separator:a479356824a42fb710dc8fd412c4b34b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4227858b5c82b2cf9ad2aec611a17f65" id="r_a4227858b5c82b2cf9ad2aec611a17f65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4227858b5c82b2cf9ad2aec611a17f65">ChangeObjectVisibilityAction</a> (const std::string &amp;<a class="el" href="#aeb43acff9643bd750856214f6f50b39d">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;obj, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> newVisibilityMask)</td></tr>
+<tr class="memdesc:a4227858b5c82b2cf9ad2aec611a17f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's visibility mask and immediately set new mask  <br /></td></tr>
+<tr class="separator:a4227858b5c82b2cf9ad2aec611a17f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb43acff9643bd750856214f6f50b39d" id="r_aeb43acff9643bd750856214f6f50b39d"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb43acff9643bd750856214f6f50b39d">name</a> () const override</td></tr>
 <tr class="separator:aeb43acff9643bd750856214f6f50b39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2ff1171bd87dd95a3e338f4244fafa6" id="r_ab2ff1171bd87dd95a3e338f4244fafa6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ff1171bd87dd95a3e338f4244fafa6">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -225,7 +228,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a479356824a42fb710dc8fd412c4b34b7" name="a479356824a42fb710dc8fd412c4b34b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a479356824a42fb710dc8fd412c4b34b7">&#9670;&#160;</a></span>ChangeObjectVisibilityAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a479356824a42fb710dc8fd412c4b34b7">&#9670;&#160;</a></span>ChangeObjectVisibilityAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +254,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructed from original obj. </p>
+<p>use this constructor to remember object's visibility mask before making any changes in it </p>
+
+</div>
+</div>
+<a id="a4227858b5c82b2cf9ad2aec611a17f65" name="a4227858b5c82b2cf9ad2aec611a17f65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4227858b5c82b2cf9ad2aec611a17f65">&#9670;&#160;</a></span>ChangeObjectVisibilityAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeObjectVisibilityAction::ChangeObjectVisibilityAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a></td>          <td class="paramname"><span class="paramname"><em>newVisibilityMask</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's visibility mask and immediately set new mask </p>
 
 </div>
 </div>

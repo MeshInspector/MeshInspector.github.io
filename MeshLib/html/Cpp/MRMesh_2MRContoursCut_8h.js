@@ -17,5 +17,6 @@ var MRMesh_2MRContoursCut_8h =
     [ "cutMeshByContour", "MRMesh_2MRContoursCut_8h.html#a634c3caa2efb7688c1bfa187112c6b99", null ],
     [ "extractMeshContours", "MRMesh_2MRContoursCut_8h.html#a4484992ff522ddc03cd8234b7b7be226", null ],
     [ "getOneMeshIntersectionContours", "MRMesh_2MRContoursCut_8h.html#afb5aa7d969d789218ae67365158331cb", null ],
+    [ "getOneMeshSelfIntersectionContours", "MRMesh_2MRContoursCut_8h.html#ae875a7151ea2bd715ce90d183884bb1b", null ],
     [ "subdivideLoneContours", "MRMesh_2MRContoursCut_8h.html#a4123fa411b7305bb9172a398b8cc3c51", null ]
 ];

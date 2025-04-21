@@ -174,6 +174,8 @@ $(function(){initNavTree('classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__Undirec
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af1f654d09269c7a52d7811f6bf7b0384" id="r_af1f654d09269c7a52d7811f6bf7b0384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1f654d09269c7a52d7811f6bf7b0384">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> nid)</td></tr>
+<tr class="separator:af1f654d09269c7a52d7811f6bf7b0384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace51001229290e2e11a102159c2302d5" id="r_ace51001229290e2e11a102159c2302d5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace51001229290e2e11a102159c2302d5">__init__</a> (self)</td></tr>
 <tr class="separator:ace51001229290e2e11a102159c2302d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3506eabcfe69131ee02f6e1a1871bca8" id="r_a3506eabcfe69131ee02f6e1a1871bca8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3506eabcfe69131ee02f6e1a1871bca8">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html">AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f</a> arg0)</td></tr>
@@ -196,8 +198,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a38114ec1d1349a46628324489a602e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3625420152ec57fb23539b356e3601dc" id="r_a3625420152ec57fb23539b356e3601dc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3625420152ec57fb23539b356e3601dc">numLeaves</a> (self)</td></tr>
 <tr class="separator:a3625420152ec57fb23539b356e3601dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebc4c0ed2f7c8ef734cc5f9df2c140a1" id="r_aebc4c0ed2f7c8ef734cc5f9df2c140a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebc4c0ed2f7c8ef734cc5f9df2c140a1">operator</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> nid)</td></tr>
-<tr class="separator:aebc4c0ed2f7c8ef734cc5f9df2c140a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -271,6 +271,28 @@ base class for most AABB-trees (except for AABBTreePoints)
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af1f654d09269c7a52d7811f6bf7b0384" name="af1f654d09269c7a52d7811f6bf7b0384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f654d09269c7a52d7811f6bf7b0384">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f</a> mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a></td>          <td class="paramname"><span class="paramname"><em>nid</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">const-access to any node
+</pre> 
+</div>
+</div>
 <a id="a87ada0d953ea4451f8396dbd40bbe759" name="a87ada0d953ea4451f8396dbd40bbe759"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87ada0d953ea4451f8396dbd40bbe759">&#9670;&#160;</a></span>getBoundingBox()</h2>
 
@@ -452,28 +474,6 @@ buffer in leafMap must be resized before the call, and caller is responsible for
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns the number of leaves in whole tree
-</pre> 
-</div>
-</div>
-<a id="aebc4c0ed2f7c8ef734cc5f9df2c140a1" name="aebc4c0ed2f7c8ef734cc5f9df2c140a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebc4c0ed2f7c8ef734cc5f9df2c140a1">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f</a> mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a></td>          <td class="paramname"><span class="paramname"><em>nid</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">const-access to any node
 </pre> 
 </div>
 </div>

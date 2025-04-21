@@ -10,5 +10,5 @@ var classMR_1_1SetViewportConfigPresetMenuItem =
     ] ],
     [ "SetViewportConfigPresetMenuItem", "classMR_1_1SetViewportConfigPresetMenuItem.html#aa5f3104ebb87b4497658882eaf9511cc", null ],
     [ "action", "classMR_1_1SetViewportConfigPresetMenuItem.html#aab1e4ca9d8717e7092bf07b4ff40434a", null ],
-    [ "setCustomUpdateViewports", "classMR_1_1SetViewportConfigPresetMenuItem.html#aab89c7210fc7948e5599a21d6d9eb5a2", null ]
+    [ "setCustomUpdateViewports", "classMR_1_1SetViewportConfigPresetMenuItem.html#af38a4828a4d0a03c1ff96f685d5bc06f", null ]
 ];

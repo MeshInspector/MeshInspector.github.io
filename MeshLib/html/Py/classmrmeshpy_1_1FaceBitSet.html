@@ -177,6 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9185d70e452093505fdaea723f0f14a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cb1e47c66d2a21cc3730d24bd6f2386" id="r_a9cb1e47c66d2a21cc3730d24bd6f2386"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cb1e47c66d2a21cc3730d24bd6f2386">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> b)</td></tr>
 <tr class="separator:a9cb1e47c66d2a21cc3730d24bd6f2386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0859b9b94ac989c2b0ee64f909717d93" id="r_a0859b9b94ac989c2b0ee64f909717d93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0859b9b94ac989c2b0ee64f909717d93">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> pos)</td></tr>
+<tr class="separator:a0859b9b94ac989c2b0ee64f909717d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e3b6de4e0ed5b37ccbf0b8f934fa5c8" id="r_a2e3b6de4e0ed5b37ccbf0b8f934fa5c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e3b6de4e0ed5b37ccbf0b8f934fa5c8">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> b)</td></tr>
 <tr class="separator:a2e3b6de4e0ed5b37ccbf0b8f934fa5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad588e9f51d281a05ce61e8c3e3e9f5d9" id="r_ad588e9f51d281a05ce61e8c3e3e9f5d9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -243,8 +245,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a60b667616829f078187d290eaab1dc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac575961be449c8ece85d395acab6321a" id="r_ac575961be449c8ece85d395acab6321a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac575961be449c8ece85d395acab6321a">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:ac575961be449c8ece85d395acab6321a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9af12b3cfc18a3fc41a5dc4bbfd0985e" id="r_a9af12b3cfc18a3fc41a5dc4bbfd0985e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9af12b3cfc18a3fc41a5dc4bbfd0985e">operator</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> pos)</td></tr>
-<tr class="separator:a9af12b3cfc18a3fc41a5dc4bbfd0985e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a511adc61f0559df27369d1112257b0" id="r_a6a511adc61f0559df27369d1112257b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a511adc61f0559df27369d1112257b0">reset</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> n, int len)</td></tr>
 <tr class="separator:a6a511adc61f0559df27369d1112257b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad012f1d5442cd8ffbc51f0bc30e044a4" id="r_ad012f1d5442cd8ffbc51f0bc30e044a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad012f1d5442cd8ffbc51f0bc30e044a4">reset</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> n)</td></tr>
@@ -288,7 +288,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::FaceBitSet
-Aliases:  Vector_FaceBitSet_GraphVertId.reference, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, Vector_FaceBitSet_GraphVertId.value_type, Vector_FaceBitSet_GraphVertId.const_reference, ColorMapAggregator_FaceTag_ElementBitSet
+Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, Vector_FaceBitSet_GraphVertId.reference, Vector_FaceBitSet_GraphVertId.const_reference, ColorMapAggregator_FaceTag_ElementBitSet, Vector_FaceBitSet_GraphVertId.value_type
 
 container of bits representing specific indices (faces, verts or edges)
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -429,6 +429,27 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#af06e5b8bd598633ae38015e4ef438a97">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a0859b9b94ac989c2b0ee64f909717d93" name="a0859b9b94ac989c2b0ee64f909717d93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0859b9b94ac989c2b0ee64f909717d93">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.FaceBitSet.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1120,27 +1141,6 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a9af12b3cfc18a3fc41a5dc4bbfd0985e" name="a9af12b3cfc18a3fc41a5dc4bbfd0985e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9af12b3cfc18a3fc41a5dc4bbfd0985e">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.FaceBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

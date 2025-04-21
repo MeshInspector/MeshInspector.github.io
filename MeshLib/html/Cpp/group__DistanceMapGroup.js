@@ -114,6 +114,14 @@ var group__DistanceMapGroup =
       [ "pixelXVec", "structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c", null ],
       [ "pixelYVec", "structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc", null ]
     ] ],
+    [ "MR::DistanceMapLoadSettings", "structMR_1_1DistanceMapLoadSettings.html", [
+      [ "distanceMapToWorld", "structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e", null ],
+      [ "progress", "structMR_1_1DistanceMapLoadSettings.html#ac98a6aecff7b146c598462c9c382a18f", null ]
+    ] ],
+    [ "MR::DistanceMapSaveSettings", "structMR_1_1DistanceMapSaveSettings.html", [
+      [ "progress", "structMR_1_1DistanceMapSaveSettings.html#aec3a1ee780a0e876728e2fcfab35daa2", null ],
+      [ "xf", "structMR_1_1DistanceMapSaveSettings.html#a9f997144e49ed33ed02e13c2f32edbf0", null ]
+    ] ],
     [ "MR::RectIndexer", "classMR_1_1RectIndexer.html", [
       [ "RectIndexer", "classMR_1_1RectIndexer.html#a801b588e260d6fa3432f296855de6f29", null ],
       [ "RectIndexer", "group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d", null ],
@@ -146,7 +154,7 @@ var group__DistanceMapGroup =
     [ "MR::contourSubtract", "group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33", null ],
     [ "MR::contourUnion", "group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],
     [ "MR::convertDistanceMapToImage", "group__DistanceMapGroup.html#gadf85ea3c5943f6cd2cb8864c2991f6f2", null ],
-    [ "MR::convertImageToDistanceMap", "group__DistanceMapGroup.html#gac306fc7afdd585ab977b18b9c0bf0af9", null ],
+    [ "MR::convertImageToDistanceMap", "group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301", null ],
     [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68", null ],
     [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#gaa50c3ffe7a7a332ff5cc4ca19890c47f", null ],
     [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga875406db41d922b9e6b597a1cc589c02", null ],

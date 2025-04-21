@@ -154,7 +154,8 @@ $(function(){initNavTree('namespaceMR_1_1Cuda.html',''); initResizable(true); })
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MR::Cuda Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -204,11 +205,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ab0b0e3af6fadf0842bbaef360071ea8e" id="r_ab0b0e3af6fadf0842bbaef360071ea8e"><td class="memTemplParams" colspan="2">template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename CPUFunc &gt; </td></tr>
 <tr class="memitem:ab0b0e3af6fadf0842bbaef360071ea8e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab0b0e3af6fadf0842bbaef360071ea8e">cudaPipeline</a> (BufferType init, InputIt <a class="el" href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, InputIt <a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, GPUFunc gpuFunc, CPUFunc cpuFunc)</td></tr>
 <tr class="separator:ab0b0e3af6fadf0842bbaef360071ea8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae65f347287f9c0ba39f2cc533c51582e" id="r_ae65f347287f9c0ba39f2cc533c51582e"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::unique_ptr&lt; PointCloudDataHolder &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65f347287f9c0ba39f2cc533c51582e">copyDataFrom</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const std::vector&lt; Vector3f &gt; *normals=nullptr)</td></tr>
+<tr class="memitem:ae65f347287f9c0ba39f2cc533c51582e" id="r_ae65f347287f9c0ba39f2cc533c51582e"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::unique_ptr&lt; <a class="el" href="#a770259831b49f60068c30df5121056c9">PointCloudDataHolder</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65f347287f9c0ba39f2cc533c51582e">copyDataFrom</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const std::vector&lt; Vector3f &gt; *normals=nullptr)</td></tr>
 <tr class="memdesc:ae65f347287f9c0ba39f2cc533c51582e"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy point cloud-related data to the GPU memory  <br /></td></tr>
 <tr class="separator:ae65f347287f9c0ba39f2cc533c51582e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa9aa568ce6f99642f04342760455a3f" id="r_aaa9aa568ce6f99642f04342760455a3f"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa9aa568ce6f99642f04342760455a3f">pointCloudHeapBytes</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const std::vector&lt; Vector3f &gt; *normals=nullptr)</td></tr>
-<tr class="memdesc:aaa9aa568ce6f99642f04342760455a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the amount of GPU memory required for MR::Cuda::PointCloudDataHolder  <br /></td></tr>
+<tr class="memdesc:aaa9aa568ce6f99642f04342760455a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the amount of GPU memory required for <a class="el" href="#a770259831b49f60068c30df5121056c9">MR::Cuda::PointCloudDataHolder</a>  <br /></td></tr>
 <tr class="separator:aaa9aa568ce6f99642f04342760455a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd0eaf7b314f1758bf6e417ad1f3795" id="r_acdd0eaf7b314f1758bf6e417ad1f3795"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd0eaf7b314f1758bf6e417ad1f3795">findProjectionOnPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const std::vector&lt; Vector3f &gt; &amp;points, const <a class="el" href="structMR_1_1FindProjectionOnPointsSettings.html">FindProjectionOnPointsSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:acdd0eaf7b314f1758bf6e417ad1f3795"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on point cloud to given points  <br /></td></tr>
@@ -219,7 +220,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a76d46e2388018a2bca5a72dfaefd30e9" id="r_a76d46e2388018a2bca5a72dfaefd30e9"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; MR::SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76d46e2388018a2bca5a72dfaefd30e9">pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a76d46e2388018a2bca5a72dfaefd30e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
 <tr class="separator:a76d46e2388018a2bca5a72dfaefd30e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca6e42153313ca635d7ea3e12d19bf0" id="r_a2ca6e42153313ca635d7ea3e12d19bf0"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca6e42153313ca635d7ea3e12d19bf0">pointsToDistanceVolumeByParts</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params, std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt; addPart, int layerOverlap)</td></tr>
+<tr class="memitem:a2ca6e42153313ca635d7ea3e12d19bf0" id="r_a2ca6e42153313ca635d7ea3e12d19bf0"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca6e42153313ca635d7ea3e12d19bf0">pointsToDistanceVolumeByParts</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params, std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;<a class="el" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, int zOffset)&gt; addPart, int layerOverlap)</td></tr>
 <tr class="separator:a2ca6e42153313ca635d7ea3e12d19bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5f9490f820c7e7eb708e516e58d6e5a" id="r_ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f9490f820c7e7eb708e516e58d6e5a">computeSkyViewFactor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
 <tr class="separator:ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,6 +230,11 @@ Functions</h2></td></tr>
 <tr class="separator:a07684cc6b916a645e4ed28757498d51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5caa3c21e1c35ac6d6dd2eb125484783" id="r_a5caa3c21e1c35ac6d6dd2eb125484783"><td class="memItemLeft" align="right" valign="top">MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5caa3c21e1c35ac6d6dd2eb125484783">loadMRCudaDll</a> ()</td></tr>
 <tr class="separator:a5caa3c21e1c35ac6d6dd2eb125484783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a770259831b49f60068c30df5121056c9" id="r_a770259831b49f60068c30df5121056c9"><td class="memItemLeft" align="right" valign="top">struct MR_BIND_IGNORE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a770259831b49f60068c30df5121056c9">PointCloudDataHolder</a></td></tr>
+<tr class="separator:a770259831b49f60068c30df5121056c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ae00800a975100101a6b94ad8c6c4c817" name="ae00800a975100101a6b94ad8c6c4c817"></a>
@@ -354,7 +360,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::unique_ptr&lt; PointCloudDataHolder &gt; &gt; MR::Cuda::copyDataFrom </td>
+          <td class="memname">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::unique_ptr&lt; <a class="el" href="#a770259831b49f60068c30df5121056c9">PointCloudDataHolder</a> &gt; &gt; MR::Cuda::copyDataFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pc</em></span>, </td>
         </tr>
@@ -814,7 +820,7 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
       </table>
 </div><div class="memdoc">
 
-<p>return the amount of GPU memory required for MR::Cuda::PointCloudDataHolder </p>
+<p>return the amount of GPU memory required for <a class="el" href="#a770259831b49f60068c30df5121056c9">MR::Cuda::PointCloudDataHolder</a> </p>
 
 </div>
 </div>
@@ -860,7 +866,7 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt;</td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
+          <td class="paramtype">std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const SimpleVolumeMinMax &amp;<a class="el" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, int zOffset)&gt;</td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -870,6 +876,21 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
       </table>
 </div><div class="memdoc">
 <p>makes SimpleVolume filled with signed distances to points with normals populate the volume by parts to the given callback </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a770259831b49f60068c30df5121056c9" name="a770259831b49f60068c30df5121056c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a770259831b49f60068c30df5121056c9">&#9670;&#160;</a></span>PointCloudDataHolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct MR_BIND_IGNORE MR::Cuda::PointCloudDataHolder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

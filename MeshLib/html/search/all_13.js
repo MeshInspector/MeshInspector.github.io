@@ -6,7 +6,7 @@ var searchData=
   ['quad_3',['Quad',['.././Cpp/classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26',1,'MR::ImGuiMenu']]],
   ['quadrangleotherdiagonal_4',['quadrangleOtherDiagonal',['.././Cpp/namespaceMR.html#a5297fdab91151bf439ef0099926fc204',1,'MR']]],
   ['quadraticform_5',['QuadraticForm',['.././Cpp/structMR_1_1QuadraticForm.html',1,'MR']]],
-  ['quadraticform_6',['quadraticForm',['.././Py/classmrmeshpy_1_1Mesh.html#a9252ff73b1d9c80fccfa8b5a8cb55f32',1,'mrmeshpy::Mesh::quadraticForm()'],['.././Cpp/structMR_1_1Mesh.html#a1991aad0672c28e1d07bd4c24750af8f',1,'MR::Mesh::quadraticForm()']]],
+  ['quadraticform_6',['quadraticForm',['.././Py/classmrmeshpy_1_1Mesh.html#a9252ff73b1d9c80fccfa8b5a8cb55f32',1,'mrmeshpy::Mesh::quadraticForm()'],['.././Cpp/structMR_1_1Mesh.html#a1991aad0672c28e1d07bd4c24750af8f',1,'MR::Mesh::quadraticForm()'],['.././Py/namespacemrmeshpy.html#a8462eef0440bdb86f672b0e448e09aa7',1,'mrmeshpy::quadraticForm()'],['.././Cpp/namespaceMR.html#a4a4d2bbcba0c776cdbc5cbda868db9bb',1,'MR::quadraticForm()']]],
   ['quadraticform2d_7',['QuadraticForm2d',['.././Py/classmrmeshpy_1_1QuadraticForm2d.html',1,'mrmeshpy']]],
   ['quadraticform2f_8',['QuadraticForm2f',['.././Py/classmrmeshpy_1_1QuadraticForm2f.html',1,'mrmeshpy']]],
   ['quadraticform3_9',['QuadraticForm3',['.././Cpp/namespaceMR.html#a61604865725cf558b532b5e235334f3f',1,'MR']]],
@@ -25,5 +25,5 @@ var searchData=
   ['quaternionf_22',['Quaternionf',['.././Py/classmrmeshpy_1_1Quaternionf.html',1,'mrmeshpy']]],
   ['quatersmask_23',['quatersMask',['.././Cpp/structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438',1,'MR::VoxelMetricParameters::quatersMask'],['.././Py/classmrmeshpy_1_1VoxelMetricParameters.html#a5820a09f6b2209d897e0381b7d1a22ab',1,'mrmeshpy::VoxelMetricParameters::quatersMask(self)'],['.././Py/classmrmeshpy_1_1VoxelMetricParameters.html#aaafaaa6e8391db85081cf8f65df01f65',1,'mrmeshpy::VoxelMetricParameters::quatersMask(self, QuarterBit arg1)']]],
   ['queue_24',['queue',['.././Cpp/structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95',1,'MR::TriangulationHelpers::TriangulatedFanData']]],
-  ['quick_20integration_20guide_25',['Quick Integration Guide',['../MeshLibCmakeSetupGuide.html#autotoc_md17',1,'']]]
+  ['quick_20integration_20guide_25',['Quick Integration Guide',['../MeshLibCmakeSetupGuide.html#autotoc_md18',1,'']]]
 ];

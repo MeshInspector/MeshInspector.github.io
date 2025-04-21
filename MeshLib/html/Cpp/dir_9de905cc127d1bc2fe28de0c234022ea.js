@@ -29,6 +29,7 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRMeshBoolean.h", "MRMeshC_2MRMeshBoolean_8h.html", "MRMeshC_2MRMeshBoolean_8h" ],
     [ "MRMeshBuilder.h", "MRMeshC_2MRMeshBuilder_8h.html", "MRMeshC_2MRMeshBuilder_8h" ],
     [ "MRMeshC.h", "MRMeshC_8h.html", "MRMeshC_8h" ],
+    [ "MRMeshCollide.h", "MRMeshC_2MRMeshCollide_8h.html", "MRMeshC_2MRMeshCollide_8h" ],
     [ "MRMeshCollidePrecise.h", "MRMeshC_2MRMeshCollidePrecise_8h.html", "MRMeshC_2MRMeshCollidePrecise_8h" ],
     [ "MRMeshComponents.h", "MRMeshC_2MRMeshComponents_8h.html", "MRMeshC_2MRMeshComponents_8h" ],
     [ "MRMeshDecimate.h", "MRMeshC_2MRMeshDecimate_8h.html", "MRMeshC_2MRMeshDecimate_8h" ],

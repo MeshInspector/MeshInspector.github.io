@@ -161,12 +161,16 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshProjectionResult.html',''); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a0afee11ed2fe3995d215996032082fcb" id="r_a0afee11ed2fe3995d215996032082fcb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0afee11ed2fe3995d215996032082fcb">__bool__</a> (self)</td></tr>
+<tr class="separator:a0afee11ed2fe3995d215996032082fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7b9a0614b40db4cb1ee528a45d478d9" id="r_ab7b9a0614b40db4cb1ee528a45d478d9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b9a0614b40db4cb1ee528a45d478d9">__init__</a> (self)</td></tr>
 <tr class="separator:ab7b9a0614b40db4cb1ee528a45d478d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99f50739d2211af3b802bd86eccf1fa1" id="r_a99f50739d2211af3b802bd86eccf1fa1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99f50739d2211af3b802bd86eccf1fa1">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshProjectionResult.html">MeshProjectionResult</a> arg0)</td></tr>
 <tr class="separator:a99f50739d2211af3b802bd86eccf1fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b6db1a3381d0610db1017656c7ccb0" id="r_a61b6db1a3381d0610db1017656c7ccb0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61b6db1a3381d0610db1017656c7ccb0">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1PointOnFace.html">PointOnFace</a> <a class="el" href="#a31e37382f3983df084bf2e5862cf88c9">proj</a>, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> <a class="el" href="#a5760e9fae076087fbad4293cc69de8b9">mtp</a>, float <a class="el" href="#afed50cbee5974f6426e003787573b5c5">distSq</a>)</td></tr>
 <tr class="separator:a61b6db1a3381d0610db1017656c7ccb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d54a63583dab038df0696fdd3a5b8a0" id="r_a7d54a63583dab038df0696fdd3a5b8a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d54a63583dab038df0696fdd3a5b8a0">valid</a> (self)</td></tr>
+<tr class="separator:a7d54a63583dab038df0696fdd3a5b8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afed50cbee5974f6426e003787573b5c5" id="r_afed50cbee5974f6426e003787573b5c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed50cbee5974f6426e003787573b5c5">distSq</a> (self)</td></tr>
 <tr class="separator:afed50cbee5974f6426e003787573b5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d5ce3fe3a33c715aac068cb058af98" id="r_a96d5ce3fe3a33c715aac068cb058af98"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96d5ce3fe3a33c715aac068cb058af98">distSq</a> (self, float arg1)</td></tr>
@@ -259,6 +263,23 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0afee11ed2fe3995d215996032082fcb" name="a0afee11ed2fe3995d215996032082fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0afee11ed2fe3995d215996032082fcb">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.MeshProjectionResult.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afed50cbee5974f6426e003787573b5c5" name="afed50cbee5974f6426e003787573b5c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afed50cbee5974f6426e003787573b5c5">&#9670;&#160;</a></span>distSq() <span class="overload">[1/2]</span></h2>
 
@@ -273,7 +294,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">squared distance from pt to proj
+<pre class="fragment">squared distance from original projected point to proj
 </pre> 
 </div>
 </div>
@@ -374,6 +395,24 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a7d54a63583dab038df0696fdd3a5b8a0" name="a7d54a63583dab038df0696fdd3a5b8a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d54a63583dab038df0696fdd3a5b8a0">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.MeshProjectionResult.valid </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">check for validity, otherwise the projection was not found
+</pre> 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

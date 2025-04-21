@@ -8,6 +8,7 @@ var MRDicom_8h =
       [ "Unsupported", "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f", null ]
     ] ],
     [ "createObjectVoxels", "MRDicom_8h.html#a4461fa0856c7f24094e4b923f7ddd75f", null ],
+    [ "findDicomFoldersRecursively", "MRDicom_8h.html#a57c362015058e67cdc805cce6bfec0b8", null ],
     [ "isDicomFile", "MRDicom_8h.html#acba52d9e4446ab4729498866d500d5c9", null ],
     [ "isDicomFolder", "MRDicom_8h.html#adbcdf154c89bce3f54684092bcc3f76e", null ],
     [ "loadDicomFile", "MRDicom_8h.html#a97daff0d663d2d21303f92b32c475f1d", null ],

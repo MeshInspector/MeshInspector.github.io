@@ -28,6 +28,7 @@ var classmrmeshpy_1_1VisualObject =
     [ "isPickable", "classmrmeshpy_1_1VisualObject.html#a90715c5c04e6a8c2a5d0998877fec7d7", null ],
     [ "renderUi", "classmrmeshpy_1_1VisualObject.html#a5140b7d1eac8c1736d61cc0459a4a83e", null ],
     [ "resetDirty", "classmrmeshpy_1_1VisualObject.html#a6c9e2837535628e814ef5dda5e6f9804", null ],
+    [ "resetDirtyExceptMask", "classmrmeshpy_1_1VisualObject.html#a7878a1ddebce740b0874891ca28193b4", null ],
     [ "setAllVisualizeProperties", "classmrmeshpy_1_1VisualObject.html#a3d1644b7ff803c36884c9296da2bd460", null ],
     [ "setAmbientStrength", "classmrmeshpy_1_1VisualObject.html#a42b4f144aeb3979ad37f0fedfc15e5ef", null ],
     [ "setBackColor", "classmrmeshpy_1_1VisualObject.html#a45a5d00cb08cfb6c1cf9b2adf05391ac", null ],

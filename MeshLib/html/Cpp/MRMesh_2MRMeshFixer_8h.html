@@ -153,6 +153,7 @@ $(function(){initNavTree('MRMesh_2MRMeshFixer_8h.html',''); initResizable(true);
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -161,12 +162,18 @@ $(function(){initNavTree('MRMesh_2MRMeshFixer_8h.html',''); initResizable(true);
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
-<code>#include &lt;cfloat&gt;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRConstants_8h_source.html">MRConstants.h</a>&quot;</code><br />
+<code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MRMesh_2MRMeshFixer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -199,6 +206,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gae03888153d8e72318f46b2d9241d8bea" id="r_gae03888153d8e72318f46b2d9241d8bea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; UndirectedEdgeBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea">MR::findShortEdges</a> (const MeshPart &amp;mp, float criticalLength, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:gae03888153d8e72318f46b2d9241d8bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds edges having length &lt;= criticalLength  <br /></td></tr>
 <tr class="separator:gae03888153d8e72318f46b2d9241d8bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad11bed424b514b2e835eb9ba644dd4eb" id="r_gad11bed424b514b2e835eb9ba644dd4eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb">MR::fixMeshDegeneracies</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a> &amp;params)</td></tr>
+<tr class="memdesc:gad11bed424b514b2e835eb9ba644dd4eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes degenerate faces and short edges in mesh (changes topology)  <br /></td></tr>
+<tr class="separator:gad11bed424b514b2e835eb9ba644dd4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga248c2b6b8c9d3915cc4d7e94a2727734" id="r_ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">MR::findNRingVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, int n, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices in region with complete ring of N edges  <br /></td></tr>
 <tr class="separator:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +233,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga8e2b8d3db10183b66f463f70a7eac5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga464e6b15a1c089223ed826d849cd69cf" id="r_ga464e6b15a1c089223ed826d849cd69cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga464e6b15a1c089223ed826d849cd69cf">MR::findHoleComplicatingFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:ga464e6b15a1c089223ed826d849cd69cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga592c02323f7acefec87d77d23191b0e6" id="r_ga592c02323f7acefec87d77d23191b0e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga592c02323f7acefec87d77d23191b0e6">MR::findDisorientedFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:ga592c02323f7acefec87d77d23191b0e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all faces that are oriented inconsistently, based on number of ray intersections  <br /></td></tr>
+<tr class="separator:ga592c02323f7acefec87d77d23191b0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

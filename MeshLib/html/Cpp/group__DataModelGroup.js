@@ -385,6 +385,7 @@ var group__DataModelGroup =
         [ "None", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a4d3b64c3be4b9df2a9728e5a097c8ad9", null ],
         [ "oneColor", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9", null ],
         [ "Rainbow", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9", null ],
+        [ "samplingStep", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad2b689ae32e79618fd422fa0fa7a80e9", null ],
         [ "volumeFilterType", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa2018932b0f46e90f13ac5b75b7eaed9", null ]
       ] ],
       [ "IsoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#a3ace9713c9d0e39585ccb708a7cadf94", null ],

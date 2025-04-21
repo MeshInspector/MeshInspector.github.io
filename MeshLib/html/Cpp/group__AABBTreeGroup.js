@@ -39,6 +39,10 @@ var group__AABBTreeGroup =
       [ "l", "structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9", null ],
       [ "r", "structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e", null ]
     ] ],
+    [ "MR::NodeNode", "structMR_1_1NodeNode.html", [
+      [ "aNode", "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2", null ],
+      [ "bNode", "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18", null ]
+    ] ],
     [ "MR::AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", [
       [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#aa38c8faf49a02e3d7be46e67ca93605c", null ],
       [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#ac03ebfddd0d44b67e900401b14ab8510", null ],
@@ -53,8 +57,8 @@ var group__AABBTreeGroup =
         [ "leaf", "structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a", null ],
         [ "setLeafPointRange", "structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b", null ],
         [ "box", "structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3", null ],
-        [ "leftOrFirst", "structMR_1_1AABBTreePoints_1_1Node.html#a8421156508934dc148c12b4ca83f9eec", null ],
-        [ "rightOrLast", "structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f", null ]
+        [ "l", "structMR_1_1AABBTreePoints_1_1Node.html#af8f74a9f0dc8b291dca8ff290c8b45a1", null ],
+        [ "r", "structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa", null ]
       ] ],
       [ "Point", "structMR_1_1AABBTreePoints_1_1Point.html", [
         [ "coord", "structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be", null ],
@@ -183,6 +187,8 @@ var group__AABBTreeGroup =
       [ "signedDist", "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410", null ]
     ] ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", [
+      [ "operator bool", "structMR_1_1MeshProjectionResult.html#a460580792489509aafec2325c8b07a2e", null ],
+      [ "valid", "structMR_1_1MeshProjectionResult.html#aad2307485f017b773541d0466cc30e9f", null ],
       [ "distSq", "structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29", null ],
       [ "mtp", "structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1", null ],
       [ "proj", "structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28", null ]
@@ -212,13 +218,17 @@ var group__AABBTreeGroup =
     [ "MR::IPointsProjector", "classMR_1_1IPointsProjector.html", [
       [ "~IPointsProjector", "classMR_1_1IPointsProjector.html#a2c0b970d9a78fe1a93045c851874c718", null ],
       [ "findProjections", "classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31", null ],
+      [ "projectionsHeapBytes", "classMR_1_1IPointsProjector.html#a4125cb715c028facd258f35767e5c66c", null ],
       [ "setPointCloud", "classMR_1_1IPointsProjector.html#ae6ae7b291953d433a794999d25ef10df", null ]
     ] ],
     [ "MR::PointsProjector", "classMR_1_1PointsProjector.html", [
       [ "findProjections", "classMR_1_1PointsProjector.html#a7f6e0c85341469a32a8424abb1a7e25f", null ],
+      [ "projectionsHeapBytes", "classMR_1_1PointsProjector.html#a2ae04a83d426c8411c3e839482a1f96f", null ],
       [ "setPointCloud", "classMR_1_1PointsProjector.html#abbb8bb3a25f447af9b6abe188662181a", null ]
     ] ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [
+      [ "operator bool", "structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c", null ],
+      [ "valid", "structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598", null ],
       [ "distSq", "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8", null ],
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
       [ "point", "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd", null ]
@@ -251,6 +261,7 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::AABBTreeNodeVec", "group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9", null ],
     [ "MR::FaceTreeTraits3", "group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632", null ],
+    [ "MR::FoundBoxedTriCallback", "group__AABBTreeGroup.html#ga4349e23b1c03bbeb120c81f3cbb8b615", null ],
     [ "MR::FoundEdgeCallback", "group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470", null ],
     [ "MR::FoundEdgeCallback2", "group__AABBTreeGroup.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
     [ "MR::FoundEdgeCallback3", "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19", null ],
@@ -267,6 +278,7 @@ var group__AABBTreeGroup =
       [ "MR::ProcessOneResult::ContinueProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
     ] ],
     [ "MR::createProjectionTransforms", "group__AABBTreeGroup.html#ga2574b6170fb044d2038e7fa9c0e2e4c1", null ],
+    [ "MR::findBoxedTrisInBall", "group__AABBTreeGroup.html#ga565cdeaec23b7bd65c3776723571fac0", null ],
     [ "MR::findCollidingEdgePairs", "group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb", null ],
     [ "MR::findCollidingEdges", "group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b", null ],
     [ "MR::findCollidingEdgesBitsets", "group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a", null ],
@@ -275,7 +287,10 @@ var group__AABBTreeGroup =
     [ "MR::findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga11d4ca955f1a62e15ebea578ffa83454", null ],
     [ "MR::findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23", null ],
     [ "MR::findCollidingTriangles", "group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6", null ],
+    [ "MR::findDirMax", "group__AABBTreeGroup.html#ga650448329cde9ee6b4e27760630a09a1", null ],
     [ "MR::findDirMax", "group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7", null ],
+    [ "MR::findDirMax", "group__AABBTreeGroup.html#ga4408546b67f7074fefeb484589481f97", null ],
+    [ "MR::findDirMax", "group__AABBTreeGroup.html#gaa5ff2fe386af48055096b3eb89f158b6", null ],
     [ "MR::findDistance", "group__AABBTreeGroup.html#ga307aef2fadf0a7f062b4fab1daabe6e0", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
@@ -286,9 +301,12 @@ var group__AABBTreeGroup =
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3", null ],
     [ "MR::findMeshEdgesInBall", "group__AABBTreeGroup.html#ga50911249a881bd7365929503c138d8fa", null ],
     [ "MR::findNClosestPointsPerPoint", "group__AABBTreeGroup.html#ga5ccfb741cd4bcb092c8884f744051203", null ],
+    [ "MR::findPointsInBall", "group__AABBTreeGroup.html#ga1e0c1140b01d4055efb5e997a66e3678", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#gaa2d40a2f2b6c7ed32c4e278704bbd55a", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#gaba782034adb2e6c3a4151210538caf0c", null ],
+    [ "MR::findPointsInBall", "group__AABBTreeGroup.html#gaf974a12892d479ea53f98fa7555dbcc5", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#gaa0179ee38f25ea85a546273ad8523cc1", null ],
+    [ "MR::findPointsInBall", "group__AABBTreeGroup.html#ga4f02307f8c1e25c4c6af4fa18f8f2335", null ],
     [ "MR::findPointsInBox", "group__AABBTreeGroup.html#ga835e26690b8579246b5fe66eecd773ac", null ],
     [ "MR::findPointsInBox", "group__AABBTreeGroup.html#ga1ebc24e7d3fa59c325ec9fed80e3f7c1", null ],
     [ "MR::findPointsInBox", "group__AABBTreeGroup.html#ga5fa4e215cb2613c2e801735695f22dd9", null ],
@@ -305,12 +323,13 @@ var group__AABBTreeGroup =
     [ "MR::findSelfCollidingEdgePairs", "group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec", null ],
     [ "MR::findSelfCollidingEdges", "group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841", null ],
     [ "MR::findSelfCollidingEdgesBS", "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165", null ],
-    [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaa8d353c49376729ab03f26747726d3b3", null ],
-    [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaf39d8d5357405a2ab417897d0abb7a8a", null ],
-    [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb", null ],
+    [ "MR::findSelfCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga50f22b9cff7188bb21cc3c7d72ec4a03", null ],
+    [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#ga0ac96d312ea833414d4d74069169cb1b", null ],
+    [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#ga69b56b2d80a7923ebfeed5757d334e4f", null ],
+    [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#gac946d92c431583fc7c4d656445ba1c07", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc", null ],
-    [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga6b8bb4a57a94133b6563903c8c156c3e", null ],
+    [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga354aa28c5105859923d024949d724b5f", null ],
     [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga125d7b99c7b4840e87a3470ef0c64b17", null ],

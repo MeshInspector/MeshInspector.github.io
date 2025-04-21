@@ -175,6 +175,8 @@ $(function(){initNavTree('classmrmeshpy_1_1ObjBitSet.html',''); initResizable(tr
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a93a108d6c963ebe87906c0529b5c3c4f" id="r_a93a108d6c963ebe87906c0529b5c3c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93a108d6c963ebe87906c0529b5c3c4f">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a> b)</td></tr>
 <tr class="separator:a93a108d6c963ebe87906c0529b5c3c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64848da4ff5bd7afba3780217969127" id="r_ad64848da4ff5bd7afba3780217969127"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad64848da4ff5bd7afba3780217969127">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> pos)</td></tr>
+<tr class="separator:ad64848da4ff5bd7afba3780217969127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b36f9deeeaaf8a236a083819a48de7" id="r_a47b36f9deeeaaf8a236a083819a48de7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47b36f9deeeaaf8a236a083819a48de7">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a> b)</td></tr>
 <tr class="separator:a47b36f9deeeaaf8a236a083819a48de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba5eaaa22b5a9f6bd487fc746170fd0f" id="r_aba5eaaa22b5a9f6bd487fc746170fd0f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -241,8 +243,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa948074baf15ea630a11eaf5be305dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57fbd93533ec72ab0f5b846a0f38aa0c" id="r_a57fbd93533ec72ab0f5b846a0f38aa0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57fbd93533ec72ab0f5b846a0f38aa0c">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:a57fbd93533ec72ab0f5b846a0f38aa0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a700ca3c42162047c4ccd77b7bc76af1d" id="r_a700ca3c42162047c4ccd77b7bc76af1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a700ca3c42162047c4ccd77b7bc76af1d">operator</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> pos)</td></tr>
-<tr class="separator:a700ca3c42162047c4ccd77b7bc76af1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a501b9dcb480b761d3f97177baec9c700" id="r_a501b9dcb480b761d3f97177baec9c700"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a501b9dcb480b761d3f97177baec9c700">reset</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> n, int len)</td></tr>
 <tr class="separator:a501b9dcb480b761d3f97177baec9c700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede3a4cdbe78105c01c741099a465817" id="r_aede3a4cdbe78105c01c741099a465817"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aede3a4cdbe78105c01c741099a465817">reset</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> n)</td></tr>
@@ -405,6 +405,27 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a5d5a1bb5839863d7c2b6c396ee4d6ec2">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ad64848da4ff5bd7afba3780217969127" name="ad64848da4ff5bd7afba3780217969127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad64848da4ff5bd7afba3780217969127">&#9670;&#160;</a></span>__getitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.ObjBitSet.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1096,27 +1117,6 @@ container of bits representing specific indices (faces, verts or edges)
 <pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a700ca3c42162047c4ccd77b7bc76af1d" name="a700ca3c42162047c4ccd77b7bc76af1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a700ca3c42162047c4ccd77b7bc76af1d">&#9670;&#160;</a></span>operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.ObjBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

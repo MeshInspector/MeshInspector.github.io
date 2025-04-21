@@ -2,8 +2,8 @@ var classmrmeshpy_1_1Plane3f =
 [
     [ "__init__", "classmrmeshpy_1_1Plane3f.html#ad316beb3790b8a8a87f2251bd783411b", null ],
     [ "__init__", "classmrmeshpy_1_1Plane3f.html#af876418507eb3d8abf0307cf0236f563", null ],
-    [ "__init__", "classmrmeshpy_1_1Plane3f.html#a886e31601b361ef8922e5e695fc06775", null ],
     [ "__init__", "classmrmeshpy_1_1Plane3f.html#a9c5a27806c312ae69526c746ab5d9ab0", null ],
+    [ "__init__", "classmrmeshpy_1_1Plane3f.html#a886e31601b361ef8922e5e695fc06775", null ],
     [ "__init__", "classmrmeshpy_1_1Plane3f.html#ad80f630ec634b4f7eeda0e318860119d", null ],
     [ "__neg__", "classmrmeshpy_1_1Plane3f.html#ae8092e17748fd708e740282c54f2ca25", null ],
     [ "__pos__", "classmrmeshpy_1_1Plane3f.html#aa256114c5a513811c8569697bf2c23fd", null ],

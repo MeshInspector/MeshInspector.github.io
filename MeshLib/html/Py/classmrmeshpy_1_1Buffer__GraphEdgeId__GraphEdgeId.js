@@ -2,9 +2,10 @@ var classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId =
 [
     [ "__init__", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a92dc6df9144423be5441c6ed75f042f7", null ],
     [ "__init__", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a082c8f61da0973546d6853b1b173371d", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a199ec19f9fa0a31ece30718597a912b7", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a199ec19f9fa0a31ece30718597a912b7", null ],
     [ "__iter__", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a8a41d1bbdd768cdc29ba40dcb910eae9", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a910c7bba4cd6dd5fe0c2966f2040d580", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a910c7bba4cd6dd5fe0c2966f2040d580", null ],
+    [ "__setitem__", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#ab9a8a8978f3a3bf60888811de3cb2b40", null ],
     [ "backId", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a7beeded443f1772ce34e92c26cd7aff3", null ],
     [ "beginId", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a80f7b45a89164d4664b4d8bf7b27d5b8", null ],
     [ "capacity", "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a1bc99f24d3b525ed3a0d7ea46e6b046f", null ],

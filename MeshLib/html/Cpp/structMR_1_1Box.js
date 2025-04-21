@@ -10,6 +10,7 @@ var structMR_1_1Box =
     [ "Box", "structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8", null ],
     [ "Box", "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35", null ],
     [ "center", "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e", null ],
+    [ "contains", "structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e", null ],
     [ "contains", "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598", null ],
     [ "corner", "structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9", null ],
     [ "diagonal", "structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144", null ],

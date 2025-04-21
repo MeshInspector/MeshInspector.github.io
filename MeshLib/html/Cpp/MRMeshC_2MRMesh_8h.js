@@ -1,9 +1,9 @@
 var MRMeshC_2MRMesh_8h =
 [
-    [ "MRMeshAddPartByMaskParameters", "structMRMeshAddPartByMaskParameters.html", "structMRMeshAddPartByMaskParameters" ],
-    [ "MRMeshAddPartByMaskParameters", "MRMeshC_2MRMesh_8h.html#ac567fa25d41a1a760199463e0db080d1", null ],
+    [ "MRMeshAddMeshPartParameters", "structMRMeshAddMeshPartParameters.html", "structMRMeshAddMeshPartParameters" ],
+    [ "MRMeshAddMeshPartParameters", "MRMeshC_2MRMesh_8h.html#a00cfce158dd0e474696a303ab46bdf1f", null ],
     [ "mrMeshAddMesh", "MRMeshC_2MRMesh_8h.html#aedf2b2976695334c71ca14588e470216", null ],
-    [ "mrMeshAddPartByMask", "MRMeshC_2MRMesh_8h.html#ac129b6f0419f96dd02286b99fda3c673", null ],
+    [ "mrMeshAddMeshPart", "MRMeshC_2MRMesh_8h.html#aea09f74e545581bf9ae7358cb63ef823", null ],
     [ "mrMeshArea", "MRMeshC_2MRMesh_8h.html#a01a728db63ccfaeaa7cc8607e462742d", null ],
     [ "mrMeshComputeBoundingBox", "MRMeshC_2MRMesh_8h.html#acb9cd8a62b754d8dfc405c983dbd5034", null ],
     [ "mrMeshCopy", "MRMeshC_2MRMesh_8h.html#ada39c7dfb3c3d6beb27986f974e4c4e1", null ],

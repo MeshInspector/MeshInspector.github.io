@@ -7,5 +7,6 @@ var classMR_1_1FramebufferData =
     [ "del", "classMR_1_1FramebufferData.html#afd64093c7c72fb36807eaf3b9baa59e2", null ],
     [ "gen", "classMR_1_1FramebufferData.html#a32347402456cb0f76070a32c159d4e8e", null ],
     [ "getSize", "classMR_1_1FramebufferData.html#a89877d47c22c4dda2ae1bcd9ec9923c5", null ],
-    [ "getTexture", "classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc", null ]
+    [ "getTexture", "classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc", null ],
+    [ "isBound", "classMR_1_1FramebufferData.html#a69af9841e2e06066fbdea51d15b5d1e6", null ]
 ];

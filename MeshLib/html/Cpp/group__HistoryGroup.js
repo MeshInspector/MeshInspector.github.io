@@ -117,6 +117,7 @@ var group__HistoryGroup =
     [ "MR::ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", [
       [ "Obj", "classMR_1_1ChangeObjectSelectedAction.html#a937d04b50120a0a1c237ab976bf7f0d7", null ],
       [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#aa52b1585ac548e84db85dd7223403ca9", null ],
+      [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#a1f6eeb88304ee19cffcc8662646ee76f", null ],
       [ "action", "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26", null ],
       [ "heapBytes", "classMR_1_1ChangeObjectSelectedAction.html#a3755cc9192950a33d25ab548bc24ccc9", null ],
       [ "name", "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30", null ]
@@ -124,6 +125,7 @@ var group__HistoryGroup =
     [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", [
       [ "Obj", "classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d", null ],
       [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7", null ],
+      [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65", null ],
       [ "action", "classMR_1_1ChangeObjectVisibilityAction.html#ab2ff1171bd87dd95a3e338f4244fafa6", null ],
       [ "heapBytes", "classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01", null ],
       [ "name", "classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d", null ]
@@ -295,8 +297,10 @@ var group__HistoryGroup =
       [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410", null ],
       [ "ChangeType", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4", [
         [ "AppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727", null ],
-        [ "Undo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119", null ],
-        [ "Redo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6", null ],
+        [ "PreUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2", null ],
+        [ "PostUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c", null ],
+        [ "PreRedo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1", null ],
+        [ "PostRedo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2", null ],
         [ "Clear", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2", null ],
         [ "PopAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f", null ],
         [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]

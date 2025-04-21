@@ -162,6 +162,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRDistanceMap_8h_source.html">MRDistanceMap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshLoadSettings_8h_source.html">MRMeshLoadSettings.h</a>&quot;</code><br />
@@ -221,6 +222,10 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneSave.html">MR::SceneSave</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapLoad.html">MR::DistanceMapLoad</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapSave.html">MR::DistanceMapSave</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -271,6 +276,14 @@ Macros</h2></td></tr>
 <tr class="separator:a7040732c350b0cca54e1546bd9fe97cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91fa82c0ce46221f41621f5c4457b5ce" id="r_a91fa82c0ce46221f41621f5c4457b5ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91fa82c0ce46221f41621f5c4457b5ce">MR_ADD_SCENE_SAVER_WITH_PRIORITY</a>(filter,  saver,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::SceneSave; setSceneSaver( filter, saver, priority ); };</td></tr>
 <tr class="separator:a91fa82c0ce46221f41621f5c4457b5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8d05ffd9d428b9f115d68f7e4d76fe" id="r_a4e8d05ffd9d428b9f115d68f7e4d76fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8d05ffd9d428b9f115d68f7e4d76fe">MR_ADD_DISTANCE_MAP_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapLoad; setDistanceMapLoader( filter, loader ); };</td></tr>
+<tr class="separator:a4e8d05ffd9d428b9f115d68f7e4d76fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6200d6aa4242fb13a0ddb79efff2ca85" id="r_a6200d6aa4242fb13a0ddb79efff2ca85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6200d6aa4242fb13a0ddb79efff2ca85">MR_ADD_DISTANCE_MAP_LOADER_WITH_PRIORITY</a>(filter,  loader,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapLoad; setDistanceMapLoader( filter, loader, priority ); };</td></tr>
+<tr class="separator:a6200d6aa4242fb13a0ddb79efff2ca85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5412ba1f0e49d191dd1dcb5b8d29cd" id="r_a0c5412ba1f0e49d191dd1dcb5b8d29cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c5412ba1f0e49d191dd1dcb5b8d29cd">MR_ADD_DISTANCE_MAP_SAVER</a>(filter,  saver)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapSave; setDistanceMapSaver( filter, saver ); };</td></tr>
+<tr class="separator:a0c5412ba1f0e49d191dd1dcb5b8d29cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a59586c24df6404def2c4ce27be2c99" id="r_a8a59586c24df6404def2c4ce27be2c99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a59586c24df6404def2c4ce27be2c99">MR_ADD_DISTANCE_MAP_SAVER_WITH_PRIORITY</a>(filter,  saver,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapSave; setDistanceMapSaver( filter, saver, priority ); };</td></tr>
+<tr class="separator:a8a59586c24df6404def2c4ce27be2c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -314,6 +327,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0b87b3918d63624f559f15d25ecb9c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abae0b302d53c60953ecab7559619c2ea" id="r_abae0b302d53c60953ecab7559619c2ea"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneSave.html#abae0b302d53c60953ecab7559619c2ea">MR::SceneSave::SceneSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const <a class="el" href="classMR_1_1Object.html">Object</a>&amp;, const std::filesystem::path&amp;, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> )</td></tr>
 <tr class="separator:abae0b302d53c60953ecab7559619c2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f62813f68011847bea88c8d3bfe7bb" id="r_af1f62813f68011847bea88c8d3bfe7bb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb">MR::DistanceMapLoad::DistanceMapLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&gt;( * )( const std::filesystem::path&amp; path, const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a>&amp; settings )</td></tr>
+<tr class="separator:af1f62813f68011847bea88c8d3bfe7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac7825149eb9a0b19702af74fa42f45e" id="r_aac7825149eb9a0b19702af74fa42f45e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e">MR::DistanceMapSave::DistanceMapSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&amp; distanceMap, const std::filesystem::path&amp; path, const <a class="el" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a>&amp; settings )</td></tr>
+<tr class="separator:aac7825149eb9a0b19702af74fa42f45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -321,6 +338,100 @@ Variables</h2></td></tr>
 <tr class="separator:aa6434e5b84b58ad6cdbaef2ab570f520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a4e8d05ffd9d428b9f115d68f7e4d76fe" name="a4e8d05ffd9d428b9f115d68f7e4d76fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e8d05ffd9d428b9f115d68f7e4d76fe">&#9670;&#160;</a></span>MR_ADD_DISTANCE_MAP_LOADER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_DISTANCE_MAP_LOADER</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>loader</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapLoad; setDistanceMapLoader( filter, loader ); };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6200d6aa4242fb13a0ddb79efff2ca85" name="a6200d6aa4242fb13a0ddb79efff2ca85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6200d6aa4242fb13a0ddb79efff2ca85">&#9670;&#160;</a></span>MR_ADD_DISTANCE_MAP_LOADER_WITH_PRIORITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_DISTANCE_MAP_LOADER_WITH_PRIORITY</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>loader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>priority</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapLoad; setDistanceMapLoader( filter, loader, priority ); };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c5412ba1f0e49d191dd1dcb5b8d29cd" name="a0c5412ba1f0e49d191dd1dcb5b8d29cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c5412ba1f0e49d191dd1dcb5b8d29cd">&#9670;&#160;</a></span>MR_ADD_DISTANCE_MAP_SAVER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_DISTANCE_MAP_SAVER</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapSave; setDistanceMapSaver( filter, saver ); };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a59586c24df6404def2c4ce27be2c99" name="a8a59586c24df6404def2c4ce27be2c99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a59586c24df6404def2c4ce27be2c99">&#9670;&#160;</a></span>MR_ADD_DISTANCE_MAP_SAVER_WITH_PRIORITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_DISTANCE_MAP_SAVER_WITH_PRIORITY</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>priority</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::DistanceMapSave; setDistanceMapSaver( filter, saver, priority ); };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6c227a5fd0daac1b6c0476a487456a29" name="a6c227a5fd0daac1b6c0476a487456a29"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c227a5fd0daac1b6c0476a487456a29">&#9670;&#160;</a></span>MR_ADD_IMAGE_LOADER</h2>
 

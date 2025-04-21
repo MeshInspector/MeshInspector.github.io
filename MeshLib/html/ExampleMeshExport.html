@@ -243,6 +243,36 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 <div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="./Cpp/structMRVector3f.html">MRVector3f</a></div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshExportExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">try</span></div>
+<div class="line">        {</div>
+<div class="line">            var mesh = Mesh.MakeCube( Vector3f.Diagonal(1), Vector3f.Diagonal(-0.5f) );</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Vertices coordinates:&quot;</span>);</div>
+<div class="line">            <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; mesh.Points.Count; ++i )</div>
+<div class="line">            {</div>
+<div class="line">                var p = mesh.Points[i];</div>
+<div class="line">                Console.WriteLine( <span class="stringliteral">&quot;Vertex {0} coordinates: {1}; {2}; {3}&quot;</span>, i, p.X, p.Y, p.Z );</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; mesh.Triangulation.Count; ++i )</div>
+<div class="line">            {</div>
+<div class="line">                var t = mesh.Triangulation[i];</div>
+<div class="line">                Console.WriteLine( <span class="stringliteral">&quot;Triangle {0} vertices: {1}; {2}; {3}&quot;</span>, i, t.v0.Id, t.v1.Id, t.v2.Id );</div>
+<div class="line">            }</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line">        {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

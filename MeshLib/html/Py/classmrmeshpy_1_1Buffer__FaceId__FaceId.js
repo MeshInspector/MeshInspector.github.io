@@ -2,9 +2,10 @@ var classmrmeshpy_1_1Buffer__FaceId__FaceId =
 [
     [ "__init__", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#af9dca9ad274b23b8a3149d359d0165c6", null ],
     [ "__init__", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#a2aa533690adbb61f4f54202f501c7d4b", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#ae44ed584505421c17256757889f37a02", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#ae44ed584505421c17256757889f37a02", null ],
     [ "__iter__", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#ab6ffebb9b99202e69e18e47127600d85", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#a4dfe6699a5c2d5399931f8d4ee83870b", null ],
-    [ "_Subscript", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#a4dfe6699a5c2d5399931f8d4ee83870b", null ],
+    [ "__setitem__", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#a798b76cc10b248f6548b6348586e7f4f", null ],
     [ "backId", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#a946b20d8f79dafcf0408c0ade1487dd3", null ],
     [ "beginId", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#ab15cadaf6f6a9d708bfd027398ddcb85", null ],
     [ "capacity", "classmrmeshpy_1_1Buffer__FaceId__FaceId.html#a306a9f46f0c445f7d62e77b0c837a874", null ],

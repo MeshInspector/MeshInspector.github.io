@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Polyline2 =
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#ae64d607f4c7ced29cebbe131fca04c7c", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#a73c8b8c8310e124dbb61ae9b8a52e373", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#aa1759418785934b042eaf015ab659136", null ],
-    [ "__init__", "classmrmeshpy_1_1Polyline2.html#a7664d799dd3cf3e698d7705d6d220cb1", null ],
+    [ "__init__", "classmrmeshpy_1_1Polyline2.html#afb37419efc075cb740e77dcda5b55022", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#a01b9c524aa90034938a760a70fd6668e", null ],
     [ "addFromEdgePath", "classmrmeshpy_1_1Polyline2.html#ad34e3e8648d1ec0606550aeee0866faf", null ],
     [ "addFromGeneralSurfacePath", "classmrmeshpy_1_1Polyline2.html#a4cdbaaae1240cec444bf41019fa1d343", null ],

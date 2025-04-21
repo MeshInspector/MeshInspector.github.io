@@ -212,8 +212,13 @@ var hierarchy =
     [ "mrmeshpy.SystemPath.Directory", "classmrmeshpy_1_1SystemPath_1_1Directory.html", null ],
     [ "mrmeshpy.Dirty", "classmrmeshpy_1_1Dirty.html", null ],
     [ "mrmeshpy.DirtyFlags", "classmrmeshpy_1_1DirtyFlags.html", null ],
+    [ "mrmeshpy.DistanceFromWeightedPointsParams", "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html", [
+      [ "mrmeshpy.DistanceFromWeightedPointsComputeParams", "classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html", null ]
+    ] ],
     [ "mrmeshpy.DistanceMapLoad", "classmrmeshpy_1_1DistanceMapLoad.html", null ],
+    [ "mrmeshpy.DistanceMapLoadSettings", "classmrmeshpy_1_1DistanceMapLoadSettings.html", null ],
     [ "mrmeshpy.DistanceMapSave", "classmrmeshpy_1_1DistanceMapSave.html", null ],
+    [ "mrmeshpy.DistanceMapSaveSettings", "classmrmeshpy_1_1DistanceMapSaveSettings.html", null ],
     [ "mrmeshpy.DistanceMapToWorld", "classmrmeshpy_1_1DistanceMapToWorld.html", null ],
     [ "mrmeshpy.DistanceToMeshOptions", "classmrmeshpy_1_1DistanceToMeshOptions.html", [
       [ "mrmeshpy.SignedDistanceToMeshOptions", "classmrmeshpy_1_1SignedDistanceToMeshOptions.html", null ]
@@ -223,10 +228,12 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.DividePointCloudOptionalOutput", "classmrmeshpy_1_1DividePointCloudOptionalOutput.html", null ],
     [ "mrmeshpy.DividePolylineParameters", "classmrmeshpy_1_1DividePolylineParameters.html", null ],
+    [ "mrmeshpy.double_output", "classmrmeshpy_1_1double__output.html", null ],
     [ "mrmeshpy.DoubleOffsetSettings", "classmrmeshpy_1_1DoubleOffsetSettings.html", null ],
     [ "mrmeshpy.PointsLoad.E57LoadSettings", "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html", null ],
     [ "mrmeshpy.EdgeBMap", "classmrmeshpy_1_1EdgeBMap.html", null ],
     [ "mrmeshpy.EdgeColors", "classmrmeshpy_1_1EdgeColors.html", null ],
+    [ "mrmeshpy.EdgeLengthMesh", "classmrmeshpy_1_1EdgeLengthMesh.html", null ],
     [ "mrmeshpy.EdgeMap", "classmrmeshpy_1_1EdgeMap.html", null ],
     [ "mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html", [
       [ "mrmeshpy.EdgePathsAStarBuilder", "classmrmeshpy_1_1EdgePathsAStarBuilder.html", null ]
@@ -241,7 +248,6 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.GridSettings.EdgeType", "classmrmeshpy_1_1GridSettings_1_1EdgeType.html", null ],
     [ "mrmeshpy.EdgeWeights", "classmrmeshpy_1_1EdgeWeights.html", null ],
-    [ "mrmeshpy.Laplacian.EdgeWeights", "classmrmeshpy_1_1Laplacian_1_1EdgeWeights.html", null ],
     [ "mrmeshpy.Heap_float_GraphVertId_std_greater_float.Element", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html", null ],
     [ "mrmeshpy.EmbeddedStructureParameters", "classmrmeshpy_1_1EmbeddedStructureParameters.html", null ],
     [ "mrmeshpy.OffsetContoursParams.EndType", "classmrmeshpy_1_1OffsetContoursParams_1_1EndType.html", null ],
@@ -286,8 +292,12 @@ var hierarchy =
     [ "mrmeshpy.FindOutliersParams", "classmrmeshpy_1_1FindOutliersParams.html", null ],
     [ "mrmeshpy.FindOverhangsSettings", "classmrmeshpy_1_1FindOverhangsSettings.html", null ],
     [ "mrmeshpy.FindOverlappingSettings", "classmrmeshpy_1_1FindOverlappingSettings.html", null ],
+    [ "mrmeshpy.FixUndercuts.FindParams", "classmrmeshpy_1_1FixUndercuts_1_1FindParams.html", null ],
     [ "mrmeshpy.FindProjectionOnPointsSettings", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html", null ],
+    [ "mrmeshpy.FixMeshDegeneraciesParams", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html", null ],
+    [ "mrmeshpy.FixUndercuts.FixParams", "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html", null ],
     [ "mrmeshpy.FixUndercuts", "classmrmeshpy_1_1FixUndercuts.html", null ],
+    [ "mrmeshpy.FlipEdge", "classmrmeshpy_1_1FlipEdge.html", null ],
     [ "mrmeshpy.float_output", "classmrmeshpy_1_1float__output.html", null ],
     [ "mrmeshpy.FloatGridComponents", "classmrmeshpy_1_1FloatGridComponents.html", null ],
     [ "mrmeshpy.SceneSettings.FloatType", "classmrmeshpy_1_1SceneSettings_1_1FloatType.html", null ],
@@ -314,7 +324,7 @@ var hierarchy =
     [ "mrmeshpy.func_double_from_double_double", "classmrmeshpy_1_1func__double__from__double__double.html", null ],
     [ "mrmeshpy.func_double_from_Id_VertTag_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag.html", null ],
     [ "mrmeshpy.func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html", null ],
-    [ "mrmeshpy.func_double_from_TaggedBitSet_FaceTag_Vector3_float", "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__Vector3__float.html", null ],
+    [ "mrmeshpy.func_double_from_TaggedBitSet_FaceTag_FixUndercuts_FindParams", "classmrmeshpy_1_1func__double__from__TaggedBitSet__FaceTag__FixUndercuts__FindParams.html", null ],
     [ "mrmeshpy.func_float_from_char_const", "classmrmeshpy_1_1func__float__from__char__const.html", null ],
     [ "mrmeshpy.func_float_from_Id_EdgeTag", "classmrmeshpy_1_1func__float__from__Id__EdgeTag.html", null ],
     [ "mrmeshpy.func_float_from_Id_UndirectedEdgeTag", "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html", null ],
@@ -327,7 +337,11 @@ var hierarchy =
     [ "mrmeshpy.func_float_from_Vector3_int", "classmrmeshpy_1_1func__float__from__Vector3__int.html", null ],
     [ "mrmeshpy.func_MeshOrPoints_ProjectionResult_from_Vector3_float", "classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html", null ],
     [ "mrmeshpy.func_MeshTriPoint_from_unsigned_long", "classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long.html", null ],
+    [ "mrmeshpy.func_Processing_from_EdgePoint_double_double", "classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double.html", null ],
+    [ "mrmeshpy.func_Processing_from_EdgePoint_float_float", "classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float.html", null ],
+    [ "mrmeshpy.func_Processing_from_Id_FaceTag_Ball_Vector3_float", "classmrmeshpy_1_1func__Processing__from__Id__FaceTag__Ball__Vector3__float.html", null ],
     [ "mrmeshpy.func_Processing_from_MeshProjectionResult_Ball_Vector3_float", "classmrmeshpy_1_1func__Processing__from__MeshProjectionResult__Ball__Vector3__float.html", null ],
+    [ "mrmeshpy.func_Processing_from_PointsProjectionResult_Vector3_float_Ball_Vector3_float", "classmrmeshpy_1_1func__Processing__from__PointsProjectionResult__Vector3__float__Ball__Vector3__float.html", null ],
     [ "mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float", "classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html", null ],
     [ "mrmeshpy.func_std_variant_float_Vector3_float_from_FeatureObject_const_ViewportId", "classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ViewportId.html", null ],
     [ "mrmeshpy.func_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane_from_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html", null ],
@@ -481,6 +495,7 @@ var hierarchy =
     [ "mrmeshpy.IntersectionPrecomputes_float", "classmrmeshpy_1_1IntersectionPrecomputes__float.html", null ],
     [ "mrmeshpy.PlanarTriangulation.IntersectionsMap", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html", null ],
     [ "mrmeshpy.InTreePathBuilder", "classmrmeshpy_1_1InTreePathBuilder.html", null ],
+    [ "mrmeshpy.IntrinsicDeloneSettings", "classmrmeshpy_1_1IntrinsicDeloneSettings.html", null ],
     [ "mrmeshpy.IOFilter", "classmrmeshpy_1_1IOFilter.html", null ],
     [ "mrmeshpy.IPointPairs", "classmrmeshpy_1_1IPointPairs.html", [
       [ "mrmeshpy.ICPGroupPairs", "classmrmeshpy_1_1ICPGroupPairs.html", null ],
@@ -596,6 +611,7 @@ var hierarchy =
     [ "mrmeshpy.MeshPart", "classmrmeshpy_1_1MeshPart.html", null ],
     [ "mrmeshpy.MeshBuilder.MeshPiece", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "mrmeshpy.MeshPoint", "classmrmeshpy_1_1MeshPoint.html", null ],
+    [ "mrmeshpy.MeshPointAndDistance", "classmrmeshpy_1_1MeshPointAndDistance.html", null ],
     [ "mrmeshpy.MeshProjectionParameters", "classmrmeshpy_1_1MeshProjectionParameters.html", null ],
     [ "mrmeshpy.MeshProjectionResult", "classmrmeshpy_1_1MeshProjectionResult.html", null ],
     [ "mrmeshpy.MeshProjectionTransforms", "classmrmeshpy_1_1MeshProjectionTransforms.html", null ],
@@ -612,6 +628,8 @@ var hierarchy =
     [ "mrmeshpy.MeshVoxelsConverter", "classmrmeshpy_1_1MeshVoxelsConverter.html", null ],
     [ "mrmeshpy.SelfIntersections.Settings.Method", "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html", null ],
     [ "mrmeshpy.MetricToAStarPenalty", "classmrmeshpy_1_1MetricToAStarPenalty.html", null ],
+    [ "mrmeshpy.MinMaxArg_float_VertId", "classmrmeshpy_1_1MinMaxArg__float__VertId.html", null ],
+    [ "mrmeshpy.FixMeshDegeneraciesParams.Mode", "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html", null ],
     [ "mrmeshpy.ModelPointsData", "classmrmeshpy_1_1ModelPointsData.html", null ],
     [ "mrviewerpy.MouseButton", "classmrviewerpy_1_1MouseButton.html", null ],
     [ "mrmeshpy.GcodeProcessor.MoveAction", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html", null ],
@@ -655,6 +673,7 @@ var hierarchy =
     [ "mrmeshpy.NodeId", "classmrmeshpy_1_1NodeId.html", [
       [ "mrmeshpy.NoDefInit_NodeId", "classmrmeshpy_1_1NoDefInit__NodeId.html", null ]
     ] ],
+    [ "mrmeshpy.NodeNode", "classmrmeshpy_1_1NodeNode.html", null ],
     [ "mrmeshpy.NoInit", "classmrmeshpy_1_1NoInit.html", null ],
     [ "mrmeshpy.NoiseSettings", "classmrmeshpy_1_1NoiseSettings.html", null ],
     [ "mrmeshpy.NormalsToPoints", "classmrmeshpy_1_1NormalsToPoints.html", null ],
@@ -776,6 +795,7 @@ var hierarchy =
     [ "mrmeshpy.PlaneAccumulator", "classmrmeshpy_1_1PlaneAccumulator.html", null ],
     [ "mrmeshpy.AABBTreePoints.Point", "classmrmeshpy_1_1AABBTreePoints_1_1Point.html", null ],
     [ "mrmeshpy.PointAccumulator", "classmrmeshpy_1_1PointAccumulator.html", null ],
+    [ "mrmeshpy.PointAndDistance", "classmrmeshpy_1_1PointAndDistance.html", null ],
     [ "mrmeshpy.PointCloud", "classmrmeshpy_1_1PointCloud.html", null ],
     [ "mrmeshpy.PointCloudComponents", "classmrmeshpy_1_1PointCloudComponents.html", null ],
     [ "mrmeshpy.PointOnFace", "classmrmeshpy_1_1PointOnFace.html", null ],
@@ -821,6 +841,7 @@ var hierarchy =
     [ "mrmeshpy.PositionedText", "classmrmeshpy_1_1PositionedText.html", null ],
     [ "mrmeshpy.PrecipitationSimulator", "classmrmeshpy_1_1PrecipitationSimulator.html", null ],
     [ "mrmeshpy.PreciseCollisionResult", "classmrmeshpy_1_1PreciseCollisionResult.html", null ],
+    [ "mrmeshpy.PreciseVertCoord", "classmrmeshpy_1_1PreciseVertCoord.html", null ],
     [ "mrmeshpy.PreciseVertCoords", "classmrmeshpy_1_1PreciseVertCoords.html", null ],
     [ "mrmeshpy.PreciseVertCoords2", "classmrmeshpy_1_1PreciseVertCoords2.html", null ],
     [ "mrmeshpy.Features.Primitives", "classmrmeshpy_1_1Features_1_1Primitives.html", null ],
@@ -847,6 +868,7 @@ var hierarchy =
       [ "mrmeshpy.Matrix_float", "classmrmeshpy_1_1Matrix__float.html", null ]
     ] ],
     [ "mrmeshpy.RefineParameters", "classmrmeshpy_1_1RefineParameters.html", null ],
+    [ "mrmeshpy.WeightedPointsShellParametersRegions.Region", "classmrmeshpy_1_1WeightedPointsShellParametersRegions_1_1Region.html", null ],
     [ "mrmeshpy.RegionId", "classmrmeshpy_1_1RegionId.html", [
       [ "mrmeshpy.NoDefInit_RegionId", "classmrmeshpy_1_1NoDefInit__RegionId.html", null ]
     ] ],
@@ -1101,6 +1123,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_WatershedGraph_BasinInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html", null ],
     [ "mrmeshpy.std_vector_WatershedGraph_BdInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html", null ],
     [ "mrmeshpy.std_vector_WatershedGraph_OverflowPoint", "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html", null ],
+    [ "mrmeshpy.std_vector_WeightedPointsShellParametersRegions_Region", "classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html", null ],
     [ "mrmeshpy.StitchHolesParams", "classmrmeshpy_1_1StitchHolesParams.html", null ],
     [ "mrmeshpy.SubdivideSettings", "classmrmeshpy_1_1SubdivideSettings.html", null ],
     [ "mrmeshpy.Features.SubfeatureInfo", "classmrmeshpy_1_1Features_1_1SubfeatureInfo.html", null ],
@@ -1259,10 +1282,12 @@ var hierarchy =
     [ "mrmeshpy.VertColorMapAggregator", "classmrmeshpy_1_1VertColorMapAggregator.html", null ],
     [ "mrmeshpy.VertColors", "classmrmeshpy_1_1VertColors.html", null ],
     [ "mrmeshpy.VertCoords", "classmrmeshpy_1_1VertCoords.html", null ],
+    [ "mrmeshpy.VertCoords2", "classmrmeshpy_1_1VertCoords2.html", null ],
     [ "mrmeshpy.VertCoordsDiff", "classmrmeshpy_1_1VertCoordsDiff.html", null ],
     [ "mrmeshpy.VertDistance", "classmrmeshpy_1_1VertDistance.html", null ],
     [ "mrmeshpy.MeshBuilder.VertDuplication", "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html", null ],
     [ "mrmeshpy.MeshBuilder.VertexIdentifier", "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html", null ],
+    [ "mrmeshpy.VertexMass", "classmrmeshpy_1_1VertexMass.html", null ],
     [ "mrmeshpy.VertId", "classmrmeshpy_1_1VertId.html", [
       [ "mrmeshpy.NoDefInit_VertId", "classmrmeshpy_1_1NoDefInit__VertId.html", null ]
     ] ],
@@ -1271,7 +1296,6 @@ var hierarchy =
     [ "mrmeshpy.VertRenumber", "classmrmeshpy_1_1VertRenumber.html", null ],
     [ "mrmeshpy.VertScalars", "classmrmeshpy_1_1VertScalars.html", null ],
     [ "mrmeshpy.MeshBuilder.VertSpan", "classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html", null ],
-    [ "mrmeshpy.VertUVCoords", "classmrmeshpy_1_1VertUVCoords.html", null ],
     [ "mrviewerpy.Viewer", "classmrviewerpy_1_1Viewer.html", null ],
     [ "mrviewerpy.ViewerLaunchParams", "classmrviewerpy_1_1ViewerLaunchParams.html", null ],
     [ "mrviewerpy.ViewerLaunchParamsMode", "classmrviewerpy_1_1ViewerLaunchParamsMode.html", null ],
@@ -1315,6 +1339,11 @@ var hierarchy =
     [ "mrmeshpy.VoxelTraits_std_vector_float", "classmrmeshpy_1_1VoxelTraits__std__vector__float.html", null ],
     [ "mrmeshpy.VoxelTraits_std_vector_unsigned_short", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html", null ],
     [ "mrmeshpy.WatershedGraph", "classmrmeshpy_1_1WatershedGraph.html", null ],
+    [ "mrmeshpy.WeightedPointsShellParametersBase", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html", [
+      [ "mrmeshpy.WeightedPointsShellParametersMetric", "classmrmeshpy_1_1WeightedPointsShellParametersMetric.html", null ],
+      [ "mrmeshpy.WeightedPointsShellParametersRegions", "classmrmeshpy_1_1WeightedPointsShellParametersRegions.html", null ]
+    ] ],
+    [ "mrmeshpy.WeightedPointsToDistanceVolumeParams", "classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html", null ],
     [ "mrmeshpy.WeightedVertex", "classmrmeshpy_1_1WeightedVertex.html", null ],
     [ "mrmeshpy.WholeEdgeBMap", "classmrmeshpy_1_1WholeEdgeBMap.html", null ],
     [ "mrmeshpy.WholeEdgeMap", "classmrmeshpy_1_1WholeEdgeMap.html", null ],

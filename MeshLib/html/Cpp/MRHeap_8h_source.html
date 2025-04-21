@@ -208,7 +208,7 @@ $(function(){initNavTree('MRHeap_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    , id2PosInHeap_( <a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a> )</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    , pred_( pred )</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>{</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_define" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_define" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a>;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordflow">for</span> ( <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i{ size_t( 0 ) }; i &lt; <a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>; ++i )</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        heap_[i].id = i;</div>
@@ -224,7 +224,7 @@ $(function(){initNavTree('MRHeap_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    , id2PosInHeap_( heap_.<a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>() )</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    , pred_( pred )</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_define" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_define" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a>;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    std::make_heap( heap_.begin(), heap_.end(), [<span class="keyword">this</span>]( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Heap_1_1Element.html">Element</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Heap_1_1Element.html">Element</a> &amp; b )</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        {</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            if ( pred_( a.val, b.val ) )</div>
@@ -243,7 +243,7 @@ $(function(){initNavTree('MRHeap_8h_source.html',''); initResizable(true); });
 <div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga1850d4188a12bb75802dc364f7309bd6">   99</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__BasicGroup.html#ga1850d4188a12bb75802dc364f7309bd6">Heap&lt;T, I, P&gt;::resize</a>( <span class="keywordtype">size_t</span> <a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, T def )</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>{</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <a class="code hl_define" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <a class="code hl_define" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a>;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    assert ( heap_.size() == id2PosInHeap_.size() );</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordflow">while</span> ( heap_.size() &lt; <a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a> )</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    {</div>
@@ -366,7 +366,7 @@ $(function(){initNavTree('MRHeap_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aMRTimer_8h_html"><div class="ttname"><a href="MRTimer_8h.html">MRTimer.h</a></div></div>
 <div class="ttc" id="aMRTimer_8h_html_adf7fc408af3ac6d6583cc0ca173120ae"><div class="ttname"><a href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a></div><div class="ttdeci">#define MR_TIMER</div><div class="ttdef"><b>Definition</b> MRTimer.h:53</div></div>
-<div class="ttc" id="aclassMR_1_1Heap_html"><div class="ttname"><a href="classMR_1_1Heap.html">MR::Heap</a></div><div class="ttdoc">stores map from element id in[0, size) to T;</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:526</div></div>
+<div class="ttc" id="aclassMR_1_1Heap_html"><div class="ttname"><a href="classMR_1_1Heap.html">MR::Heap</a></div><div class="ttdoc">stores map from element id in[0, size) to T;</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:528</div></div>
 <div class="ttc" id="aclassMR_1_1Heap_html_a1f246bfe3c0676ad56a521a5b696d195"><div class="ttname"><a href="classMR_1_1Heap.html#a1f246bfe3c0676ad56a521a5b696d195">MR::Heap::setTopValue</a></div><div class="ttdeci">Element setTopValue(const T &amp;newVal)</div><div class="ttdoc">sets new value to the current top element, returning its previous value</div><div class="ttdef"><b>Definition</b> MRHeap.h:50</div></div>
 <div class="ttc" id="aclassMR_1_1Heap_html_a516d00eb9620f9cdb1f5c43c0810f744"><div class="ttname"><a href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">MR::Heap::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdoc">returns the size of the heap</div><div class="ttdef"><b>Definition</b> MRHeap.h:35</div></div>
 <div class="ttc" id="aclassMR_1_1Heap_html_a7d993f1a0fb45abb27e62ceee5a1dbe6"><div class="ttname"><a href="classMR_1_1Heap.html#a7d993f1a0fb45abb27e62ceee5a1dbe6">MR::Heap::top</a></div><div class="ttdeci">const Element &amp; top() const</div><div class="ttdoc">returns the element with the largest value</div><div class="ttdef"><b>Definition</b> MRHeap.h:41</div></div>
