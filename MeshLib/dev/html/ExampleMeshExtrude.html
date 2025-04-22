@@ -219,7 +219,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a05d6a4fb89f478b3c28ff98fba1e0ef0">mrmeshpy.makeDegenerateBandAroundRegion</a>(mesh, faces_to_extrude)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Find vertices that will be moved</span></div>
-<div class="line">verts_for_move = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#abdad18cc68cd66e41cbb8f56499b983b">mrmeshpy.getIncidentVerts</a>(mesh.topology, faces_to_extrude)</div>
+<div class="line">verts_for_move = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac62c12805463b90e4926b15482a7ae92">mrmeshpy.getIncidentVerts</a>(mesh.topology, faces_to_extrude)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Move each vertex</span></div>
 <div class="line"><span class="keywordflow">for</span> v <span class="keywordflow">in</span> range(verts_for_move.size()):</div>
@@ -237,7 +237,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="ttc" id="aclassmrmeshpy_1_1VertId_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1VertId.html">mrmeshpy::VertId</a></div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a05d6a4fb89f478b3c28ff98fba1e0ef0"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a05d6a4fb89f478b3c28ff98fba1e0ef0">mrmeshpy::makeDegenerateBandAroundRegion</a></div><div class="ttdeci">None makeDegenerateBandAroundRegion(Mesh mesh, FaceBitSet region, MakeDegenerateBandAroundRegionParams params='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_abdad18cc68cd66e41cbb8f56499b983b"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#abdad18cc68cd66e41cbb8f56499b983b">mrmeshpy::getIncidentVerts</a></div><div class="ttdeci">VertBitSet getIncidentVerts(MeshTopology topology, UndirectedEdgeBitSet edges)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac62c12805463b90e4926b15482a7ae92"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac62c12805463b90e4926b15482a7ae92">mrmeshpy::getIncidentVerts</a></div><div class="ttdeci">VertBitSet getIncidentVerts(MeshTopology topology, FaceBitSet faces)</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRBitSet.h&gt;</span></div>
@@ -252,7 +252,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[] )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* mesh = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshLoad_8h.html#a704835da8dd3d463cc476961c6d7e5bb">mrMeshLoadFromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* mesh = <a class="code hl_functionRef" href="./Cpp/MRMeshC_8h.html#a0dca33ba529acd17941975d795f14ad8">mrMeshLoadFromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Select faces to extrude</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a>* facesToExtrude = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRBitSet_8h.html#a6c463de59771e69b448f9a5db732aa28">mrFaceBitSetNew</a>( 0, <span class="keyword">false</span> );</div>
@@ -274,7 +274,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#aef136fb43c5c1355894125da908ba183">mrMeshInvalidateCaches</a>( mesh, <span class="keyword">true</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save mesh</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshSave_8h.html#a71b21c5fc445077f0a812d5b3991dd0b">mrMeshSaveToAnySupportedFormat</a>( mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_8h.html#a60c1ce9ed772eb0a4326776c021b33dd">mrMeshSaveToAnySupportedFormat</a>( mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRBitSet_8h.html#a8edd3bbe85ba162bd70a7bd90ae63fd5">mrVertBitSetFree</a>( vertsToMove );</div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRBitSet_8h.html#a2372aa7f8cb4d5dff3e71bc29ac620bf">mrFaceBitSetFree</a>( facesToExtrude );</div>
@@ -291,8 +291,6 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a87ea817dc8204ed7e311d55fd9252cfc"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a></div><div class="ttdeci">struct MRFaceBitSet MRFaceBitSet</div></div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_ad2c8567a61ac1e952ded2abbb02ff204"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#ad2c8567a61ac1e952ded2abbb02ff204">MRBitSet</a></div><div class="ttdeci">struct MRBitSet MRBitSet</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshLoad_8h_html_a704835da8dd3d463cc476961c6d7e5bb"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshLoad_8h.html#a704835da8dd3d463cc476961c6d7e5bb">mrMeshLoadFromAnySupportedFormat</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API MRMesh * mrMeshLoadFromAnySupportedFormat(const char *file, MRString **errorStr)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshSave_8h_html_a71b21c5fc445077f0a812d5b3991dd0b"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshSave_8h.html#a71b21c5fc445077f0a812d5b3991dd0b">mrMeshSaveToAnySupportedFormat</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API void mrMeshSaveToAnySupportedFormat(const MRMesh *mesh, const char *file, const MRSaveSettings *settings, MRString **errorStr)</div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html_a2f5d81f940456a9ae80511fb12f71669"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#a2f5d81f940456a9ae80511fb12f71669">mrMeshTopology</a></div><div class="ttdeci">MRMESHC_API const MRMeshTopology * mrMeshTopology(const MRMesh *mesh)</div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html_a338ca340ee0427b7d5e466b57d585c2e"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#a338ca340ee0427b7d5e466b57d585c2e">mrMeshPointsNum</a></div><div class="ttdeci">MRMESHC_API size_t mrMeshPointsNum(const MRMesh *mesh)</div></div>
 <div class="ttc" id="aMRMeshC_2MRMesh_8h_html_abbd1a9c366f2fd8fbb39374056143b91"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#abbd1a9c366f2fd8fbb39374056143b91">mrMeshPointsRef</a></div><div class="ttdeci">MRMESHC_API MRVector3f * mrMeshPointsRef(MRMesh *mesh)</div></div>
@@ -301,6 +299,8 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="ttc" id="aMRMeshC_2MRRegionBoundary_8h_html_a6083573f89219e6d74bcfa82efefd4ef"><div class="ttname"><a href="./Cpp/MRMeshC_2MRRegionBoundary_8h.html#a6083573f89219e6d74bcfa82efefd4ef">mrGetIncidentVertsFromFaces</a></div><div class="ttdeci">MRMESHC_API MRVertBitSet * mrGetIncidentVertsFromFaces(const MRMeshTopology *topology, const MRFaceBitSet *faces)</div></div>
 <div class="ttc" id="aMRMeshC_2MRVector3_8h_html_a249854d0f317c4bfbb5b3976bcd8d0b7"><div class="ttname"><a href="./Cpp/MRMeshC_2MRVector3_8h.html#a249854d0f317c4bfbb5b3976bcd8d0b7">mrVector3fAdd</a></div><div class="ttdeci">MRMESHC_API MRVector3f mrVector3fAdd(const MRVector3f *a, const MRVector3f *b)</div></div>
 <div class="ttc" id="aMRMeshC_2MRVector3_8h_html_a7b48c0138214953e3422885c1c8afb90"><div class="ttname"><a href="./Cpp/MRMeshC_2MRVector3_8h.html#a7b48c0138214953e3422885c1c8afb90">mrVector3fPlusZ</a></div><div class="ttdeci">MRMESHC_API MRVector3f mrVector3fPlusZ(void)</div></div>
+<div class="ttc" id="aMRMeshC_8h_html_a0dca33ba529acd17941975d795f14ad8"><div class="ttname"><a href="./Cpp/MRMeshC_8h.html#a0dca33ba529acd17941975d795f14ad8">mrMeshLoadFromAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrMeshLoadFromAnySupportedFormat(const char *file, MRString **errorStr)</div></div>
+<div class="ttc" id="aMRMeshC_8h_html_a60c1ce9ed772eb0a4326776c021b33dd"><div class="ttname"><a href="./Cpp/MRMeshC_8h.html#a60c1ce9ed772eb0a4326776c021b33dd">mrMeshSaveToAnySupportedFormat</a></div><div class="ttdeci">MRMESHC_API void mrMeshSaveToAnySupportedFormat(const MRMesh *mesh, const char *file, MRString **errorStr)</div></div>
 <div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="./Cpp/structMRVector3f.html">MRVector3f</a></div></div>
 </div><!-- fragment --></li>
 </ul>
