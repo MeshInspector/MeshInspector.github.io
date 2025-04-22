@@ -200,8 +200,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae034eff48fbb782e571109cd9648b3b2" id="r_ae034eff48fbb782e571109cd9648b3b2"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae034eff48fbb782e571109cd9648b3b2">nameUiPoint</a></td></tr>
-<tr class="memdesc:ae034eff48fbb782e571109cd9648b3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line attachment point in model space.  <br /></td></tr>
+<tr class="memdesc:ae034eff48fbb782e571109cd9648b3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line attachment point.  <br /></td></tr>
 <tr class="separator:ae034eff48fbb782e571109cd9648b3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed964722c0b453ff9abc718690625bc" id="r_a3ed964722c0b453ff9abc718690625bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ed964722c0b453ff9abc718690625bc">nameUiPointIsRelativeToBoundingBoxCenter</a> = true</td></tr>
+<tr class="separator:a3ed964722c0b453ff9abc718690625bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd0fcaa01f1c3f38ba3160e1ea99826" id="r_a4dd0fcaa01f1c3f38ba3160e1ea99826"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dd0fcaa01f1c3f38ba3160e1ea99826">nameUiLocalOffset</a></td></tr>
 <tr class="memdesc:a4dd0fcaa01f1c3f38ba3160e1ea99826"><td class="mdescLeft">&#160;</td><td class="mdescRight">Which way the name is moved relative to the <code>point</code>, in model space. The length is respected.  <br /></td></tr>
 <tr class="separator:a4dd0fcaa01f1c3f38ba3160e1ea99826"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,7 +330,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The line attachment point in model space. </p>
+<p>The line attachment point. </p>
+
+</div>
+</div>
+<a id="a3ed964722c0b453ff9abc718690625bc" name="a3ed964722c0b453ff9abc718690625bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed964722c0b453ff9abc718690625bc">&#9670;&#160;</a></span>nameUiPointIsRelativeToBoundingBoxCenter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RenderNameObject::nameUiPointIsRelativeToBoundingBoxCenter = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true, <code>nameUiPoint</code> is relative to the center of the bounding box. Otherwise it's relative to the origin. Either way it's in model space. </p>
 
 </div>
 </div>

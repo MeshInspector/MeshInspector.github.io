@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1VoxelTraits.html":[6,0,1,0,1,781],
+"structMR_1_1VoxelTraits.html":[6,0,2,0,1,765],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,1,0,1,782],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,2,0,1,766],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,1,0,1,782,0],
