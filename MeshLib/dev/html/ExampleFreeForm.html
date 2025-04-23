@@ -167,11 +167,11 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">    <span class="keyword">auto</span> mesh = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
 <div class="line">    assert( mesh );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Construct deformer on mesh vertices</span></div>
-<div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a> ffDeformer( mesh-&gt;points, mesh-&gt;topology.getValidVerts() );</div>
-<div class="line"> </div>
 <div class="line">    <span class="comment">// Compute mesh bounding box</span></div>
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> box = mesh-&gt;computeBoundingBox();</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Construct deformer on mesh vertices</span></div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a> ffDeformer( mesh-&gt;points, mesh-&gt;topology.getValidVerts() );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
 <div class="line">    ffDeformer.init( MR::Vector3i::diagonal( 3 ), box );</div>

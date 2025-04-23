@@ -233,25 +233,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3f40555a05bfe2e6e231d81811b6baa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class allows you to register two object with similar shape using Iterative Closest Points (<a class="el" href="classMR_1_1ICP.html">ICP</a>) point-to-point or point-to-plane algorithms </p><div class="fragment"><div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">    <span class="keywordtype">float</span> diagonal = meshFixed.<a class="code hl_function" href="structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a">getBoundingBox</a>().diagonal();</div>
-<div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
-<div class="line">    <a class="code hl_struct" href="structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
-<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">distThresholdSq</a> = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a>( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
-<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7">exitVal</a> = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Calculate transformation</span></div>
-<div class="line">    <a class="code hl_class" href="classMR_1_1ICP.html">MR::ICP</a> icp(</div>
-<div class="line">        <a class="code hl_class" href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFloating } },</div>
-<div class="line">        <a class="code hl_class" href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFixed } },</div>
-<div class="line">        MR::AffineXf3f(), MR::AffineXf3f(),</div>
-<div class="line">        icpSamplingVoxelSize );</div>
-<div class="line">    icp.<a class="code hl_function" href="#a432cc96b69c08b035a5c6bf6bf8919da">setParams</a>( icpParams );</div>
-<div class="line">    MR::AffineXf3f xf = icp.calculateTransformation();</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Transform floating mesh</span></div>
-<div class="line">    meshFloating.<a class="code hl_function" href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( xf );</div>
-</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p>This class allows you to register two object with similar shape using Iterative Closest Points (<a class="el" href="classMR_1_1ICP.html">ICP</a>) point-to-point or point-to-plane algorithms </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abf8abfc1336998ff9b7f0baff945f17f" name="abf8abfc1336998ff9b7f0baff945f17f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf8abfc1336998ff9b7f0baff945f17f">&#9670;&#160;</a></span>ICP() <span class="overload">[1/4]</span></h2>
 

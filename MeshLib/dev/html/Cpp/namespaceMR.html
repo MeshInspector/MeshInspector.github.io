@@ -755,7 +755,6 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FreeFormBestFit.html">FreeFormBestFit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FreeFormDeformer.html">FreeFormDeformer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for deforming mesh using Bernstein interpolation.  <a href="classMR_1_1FreeFormDeformer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GcodeProcessor.html">GcodeProcessor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6317,6 +6316,7 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:ac1a0e7e32c8d591b83f66462ad4f89ef" id="r_ac1a0e7e32c8d591b83f66462ad4f89ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1a0e7e32c8d591b83f66462ad4f89ef">sharpOffsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1SharpOffsetParameters.html">SharpOffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:ac1a0e7e32c8d591b83f66462ad4f89ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5edbfcffae3bcdb000d83b7c6cf9e050" id="r_a5edbfcffae3bcdb000d83b7c6cf9e050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edbfcffae3bcdb000d83b7c6cf9e050">generalOffsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;params)</td></tr>
+<tr class="memdesc:a5edbfcffae3bcdb000d83b7c6cf9e050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets mesh by converting it to voxels and back using one of three modes specified in the parameters.  <br /></td></tr>
 <tr class="separator:a5edbfcffae3bcdb000d83b7c6cf9e050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4786362a7faf5309ddb05c773cf3b513" id="r_a4786362a7faf5309ddb05c773cf3b513"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4786362a7faf5309ddb05c773cf3b513">thickenMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float offset, const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a4786362a7faf5309ddb05c773cf3b513"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -19886,17 +19886,9 @@ element fields:<br  />
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to voxels and back using one of three modes specified in the parameters </p><div class="fragment"><div class="line">    <span class="comment">// Setup parameters</span></div>
-<div class="line">    <a class="code hl_struct" href="structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a> params;</div>
-<div class="line">    <span class="comment">// calculate voxel size depending on desired accuracy and/or memory consumption</span></div>
-<div class="line">    params.<a class="code hl_variable" href="structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48">voxelSize</a> = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a567c65d3d0de81cb059f8d156ba9c200">suggestVoxelSize</a>( mesh, 10000000.f );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_function" href="#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a>( mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a> ).empty() )</div>
-<div class="line">        params.<a class="code hl_variable" href="structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26">signDetectionMode</a> = <a class="code hl_enumvalue" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4">MR::SignDetectionMode::HoleWindingRule</a>; <span class="comment">// use if you have holes in mesh</span></div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Make offset mesh</span></div>
-<div class="line">    <span class="keywordtype">float</span> offset = mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a>().diagonal() * 0.1f;</div>
-<div class="line">    <span class="keyword">auto</span> meshRes = <a class="code hl_function" href="#a5edbfcffae3bcdb000d83b7c6cf9e050">MR::generalOffsetMesh</a>( mesh, offset, params );</div>
-</div><!-- fragment --> 
+
+<p>Offsets mesh by converting it to voxels and back using one of three modes specified in the parameters. </p>
+
 </div>
 </div>
 <a id="a8c1f285288de8cd4487966109876601b" name="a8c1f285288de8cd4487966109876601b"></a>

@@ -175,10 +175,9 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// perform boolean operation</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a> result = <a class="code hl_functionRef" href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a>( sphere1, sphere2, <a class="code hl_enumvalueRef" href="./Cpp/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">MR::BooleanOperation::Intersection</a> );</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> resultMesh = *result;</div>
 <div class="line">    <span class="keywordflow">if</span> ( !result.<a class="code hl_functionRef" href="./Cpp/structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289">valid</a>() )</div>
 <div class="line">        std::cerr &lt;&lt; result.<a class="code hl_variableRef" href="./Cpp/structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">errorString</a> &lt;&lt; std::endl;</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> resultMesh = *result;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// save result to STL file</span></div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( resultMesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span> );</div>
