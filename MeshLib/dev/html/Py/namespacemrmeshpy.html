@@ -6850,6 +6850,8 @@ the function is symmetric: angle( a, b ) == angle( b, a )
 
 \\ingroup BooleanGroup
 Makes new mesh - result of boolean operation on mesh `A` and mesh `B`
+\\snippet cpp-examples/MeshBoolean.dox.cpp 0
+
 \\param meshA Input mesh `A`
 \\param meshB Input mesh `B`
 \\param operation CSG operation to perform
@@ -6971,6 +6973,8 @@ Next picture show, how newly generated faces can be smoothed
 \\ref MR::positionVertsSmoothly
 \\ref MR::subdivideMesh
 \\image html fill/stitch_smooth.png "Stitch with smooth" width = 250cm
+
+\\snippet cpp-examples/MeshStitchHole.dox.cpp 0
 
 \\param mesh mesh with hole
 \\param a EdgeId which represents 1st hole (should not have valid left FaceId)
@@ -10678,13 +10682,10 @@ so if you cannot guarantee contours without intersections better make copy of me
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Collapse edges in mesh region according to the settings
  \\ingroup DecimateGroup
- \\details Have version for parallel computing - \\ref decimateParallelMesh
+ \\snippet cpp-examples/MeshDecimate.dox.cpp 0
 
  \\image html decimate/decimate_before.png "Before" width = 350cm
  \\image html decimate/decimate_after.png "After" width = 350cm
-
- \\sa \\ref decimateParallelMesh
- \\sa \\ref resolveMeshDegenerations
 </pre> 
 </div>
 </div>
@@ -19324,6 +19325,7 @@ set minimum value as the background value
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Offsets mesh by converting it to voxels and back using one of three modes specified in the parameters
+\\snippet cpp-examples/MeshOffset.dox.cpp 0
 </pre> 
 </div>
 </div>

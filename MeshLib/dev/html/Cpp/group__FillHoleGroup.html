@@ -433,7 +433,16 @@ After</div></div>
 <img src="stitch_smooth.png" alt="" width="250cm"/>
 <div class="caption">
 Stitch with smooth</div></div>
-<dl class="params"><dt>Parameters</dt><dd>
+<div class="fragment"><div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
+<div class="line">    std::vector&lt;MR::EdgeId&gt; edges = mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_function" href="classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752">findHoleRepresentiveEdges</a>();</div>
+<div class="line">    <span class="keywordflow">if</span> ( edges.size() != 2 )</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Connect two holes</span></div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a> params;</div>
+<div class="line">    params.<a class="code hl_variable" href="structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020">metric</a> = <a class="code hl_function" href="#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a>( mesh );</div>
+<div class="line">    <a class="code hl_function" href="#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>( mesh, edges.front(), edges.back(), params );</div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
     <tr><td class="paramname">a</td><td>EdgeId which represents 1st hole (should not have valid left FaceId) </td></tr>
