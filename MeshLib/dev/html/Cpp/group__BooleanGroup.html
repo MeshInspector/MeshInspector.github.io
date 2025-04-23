@@ -376,7 +376,21 @@ Difference A-B</div></div>
 </div><div class="memdoc">
 
 <p>Performs CSG operation on two meshes. </p>
-<p>Makes new mesh - result of boolean operation on mesh <code>A</code> and mesh <code>B</code> </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Makes new mesh - result of boolean operation on mesh <code>A</code> and mesh <code>B</code> </p><div class="fragment"><div class="line">    <span class="comment">// create first sphere with radius of 1 unit</span></div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> sphere1 = <a class="code hl_function" href="namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a>( 1.0f, 64, 64 );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// create second sphere by cloning the first sphere and moving it in X direction</span></div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> sphere2 = sphere1;</div>
+<div class="line">    MR::AffineXf3f xf = MR::AffineXf3f::translation( MR::Vector3f( 0.7f, 0.0f, 0.0f ) );</div>
+<div class="line">    sphere2.<a class="code hl_function" href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( xf );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// perform boolean operation</span></div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1BooleanResult.html">MR::BooleanResult</a> result = <a class="code hl_function" href="#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a>( sphere1, sphere2, <a class="code hl_enumvalue" href="#gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">MR::BooleanOperation::Intersection</a> );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !result.<a class="code hl_function" href="structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289">valid</a>() )</div>
+<div class="line">        std::cerr &lt;&lt; result.<a class="code hl_variable" href="structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">errorString</a> &lt;&lt; std::endl;</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> resultMesh = *result;</div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">meshA</td><td>Input mesh <code>A</code> </td></tr>
     <tr><td class="paramname">meshB</td><td>Input mesh <code>B</code> </td></tr>
