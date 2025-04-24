@@ -211,9 +211,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7785cb6ce3cab3d064b6c20f07958cf3" id="r_a7785cb6ce3cab3d064b6c20f07958cf3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a517842afda1f1c9d0c1487829fb09fb4">SurfaceContours</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7785cb6ce3cab3d064b6c20f07958cf3">getSurfaceContours</a> () const</td></tr>
 <tr class="memdesc:a7785cb6ce3cab3d064b6c20f07958cf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all contours, i.e. per object unorderd_map of ordered surface points [vector].  <br /></td></tr>
 <tr class="separator:a7785cb6ce3cab3d064b6c20f07958cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead9be191022d11da51d4eb2f8127735" id="r_aead9be191022d11da51d4eb2f8127735"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead9be191022d11da51d4eb2f8127735">isClosedCountour</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj) const</td></tr>
-<tr class="memdesc:aead9be191022d11da51d4eb2f8127735"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the contour is closed for a particular object.  <br /></td></tr>
-<tr class="separator:aead9be191022d11da51d4eb2f8127735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf753ac8d813babfa08dc56142474e65" id="r_abf753ac8d813babfa08dc56142474e65"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf753ac8d813babfa08dc56142474e65">isClosedContour</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj) const</td></tr>
+<tr class="memdesc:abf753ac8d813babfa08dc56142474e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the contour is closed for a particular object.  <br /></td></tr>
+<tr class="separator:abf753ac8d813babfa08dc56142474e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc30aaa3b2d5dea491584b3a5e6bf4c5" id="r_adc30aaa3b2d5dea491584b3a5e6bf4c5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc30aaa3b2d5dea491584b3a5e6bf4c5">numPickPoints</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj) const</td></tr>
 <tr class="memdesc:adc30aaa3b2d5dea491584b3a5e6bf4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the total number of pick points (including extra point if the contour is closed) on given object  <br /></td></tr>
 <tr class="separator:adc30aaa3b2d5dea491584b3a5e6bf4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -642,8 +642,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aead9be191022d11da51d4eb2f8127735" name="aead9be191022d11da51d4eb2f8127735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aead9be191022d11da51d4eb2f8127735">&#9670;&#160;</a></span>isClosedCountour()</h2>
+<a id="abf753ac8d813babfa08dc56142474e65" name="abf753ac8d813babfa08dc56142474e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf753ac8d813babfa08dc56142474e65">&#9670;&#160;</a></span>isClosedContour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -652,7 +652,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API bool MR::PickPointManager::isClosedCountour </td>
+          <td class="memname">MRVIEWER_API bool MR::PickPointManager::isClosedContour </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
           <td> const</td>

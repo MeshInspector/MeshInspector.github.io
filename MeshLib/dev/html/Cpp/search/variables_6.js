@@ -32,7 +32,7 @@ var searchData=
   ['fastindicatorcomputation_29',['fastIndicatorComputation',['../structMR_1_1DenoiseViaNormalsSettings.html#ad6004983564c77dbe469d819de9b1100',1,'MR::DenoiseViaNormalsSettings::fastIndicatorComputation'],['../structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f',1,'MRDenoiseViaNormalsSettings::fastIndicatorComputation']]],
   ['fastlinear_30',['FastLinear',['../../Py/classmrmeshpy_1_1MoveType.html#a62be28fa2de06057258e10b05743e015',1,'mrmeshpy::MoveType']]],
   ['fastmarching_31',['FastMarching',['../../Py/classmrmeshpy_1_1GeodesicPathApprox.html#a3e6aab154d0290c38fa96a41b0cc757c',1,'mrmeshpy::GeodesicPathApprox']]],
-  ['fbswithcountourintersections_32',['fbsWithCountourIntersections',['../structMR_1_1CutMeshResult.html#acc676bb755e4af3c177664745a989954',1,'MR::CutMeshResult']]],
+  ['fbswithcontourintersections_32',['fbsWithContourIntersections',['../structMR_1_1CutMeshResult.html#aca01891e95be4a6f3cb7168e88a33aac',1,'MR::CutMeshResult']]],
   ['featurebackfaces_33',['FeatureBackFaces',['../../Py/classmrmeshpy_1_1SceneColors_1_1Type.html#a0dbc5033c129943a4d3734daabae04af',1,'mrmeshpy::SceneColors::Type']]],
   ['featurelinesalpha_34',['FeatureLinesAlpha',['../../Py/classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a52fcfbbcb8f39301e8f6f1d6df5b6294',1,'mrmeshpy::SceneSettings::FloatType']]],
   ['featurelinewidth_35',['FeatureLineWidth',['../../Py/classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a3f56d3287221fcc4c032015f51a8fd3a',1,'mrmeshpy::SceneSettings::FloatType']]],
