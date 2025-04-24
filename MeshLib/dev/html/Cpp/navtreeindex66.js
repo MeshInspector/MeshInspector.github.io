@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[6,0,0,1,2,1],
+"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[6,0,0,1,2,2],
 "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
 "structMR_1_1CharPressedListener.html":[6,0,1,0,1,131],
 "structMR_1_1CharPressedListener.html":[6,0,2,0,1,115],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400":[6,0,0,8,4,1],
 "structMR_1_1CutMeshResult.html#aca01891e95be4a6f3cb7168e88a33aac":[6,0,0,8,4,0],
 "structMR_1_1DecimatePolylineResult.html":[6,0,1,0,1,167],
-"structMR_1_1DecimatePolylineResult.html":[6,0,2,0,1,151],
-"structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5":[6,0,1,0,1,167,0],
-"structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5":[6,0,2,0,1,151,0]
+"structMR_1_1DecimatePolylineResult.html":[6,0,2,0,1,151]
 };

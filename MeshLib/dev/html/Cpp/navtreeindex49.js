@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1VisualObject.html#ae3a2d142d4abb2283a71caf7395282a4":[6,0,0,11,2,5,76],
 "classMR_1_1VisualObject.html#aeed6d251c7bdbffe0634b0fe96faab35":[6,0,0,11,2,5,93],
 "classMR_1_1VisualObject.html#af119b81d9e37bccd5e0bc121a9797544":[6,0,0,11,2,5,24],
 "classMR_1_1VisualObject.html#af49f84e12ea7e21ec8dc39ae8609bc18":[6,0,0,11,2,5,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "files.html":[6,0,3,0],
 "functions.html":[6,0,2,3,0],
 "functions.html":[6,0,2,3,0,0],
-"functions_a.html":[6,0,2,3,0,1],
-"functions_b.html":[6,0,2,3,0,2]
+"functions_a.html":[6,0,2,3,0,1]
 };

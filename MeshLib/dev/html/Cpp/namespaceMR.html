@@ -2272,8 +2272,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a3f87a9abf93ab132bc1ea3f939459b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19cb89c4b7c5582f2215200a5b0755af" id="r_a19cb89c4b7c5582f2215200a5b0755af"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19cb89c4b7c5582f2215200a5b0755af">ContoursVariableOffset</a> = std::function&lt;float( int, int )&gt;</td></tr>
 <tr class="separator:a19cb89c4b7c5582f2215200a5b0755af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf0c24ba1b9e4f32fd04264018065447" id="r_adf0c24ba1b9e4f32fd04264018065447"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> = std::variant&lt;<a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>, VertId, int&gt;</td></tr>
-<tr class="separator:adf0c24ba1b9e4f32fd04264018065447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6c4a3a98a6d5a53b51d05984395fa3" id="r_a3c6c4a3a98a6d5a53b51d05984395fa3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> = std::variant&lt;std::monostate, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>, VertId&gt;</td></tr>
+<tr class="separator:a3c6c4a3a98a6d5a53b51d05984395fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30cd2d38272cf5fb35c10a421b4d2045" id="r_a30cd2d38272cf5fb35c10a421b4d2045"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> = std::function&lt;void( VertId, const Vector3f&amp; )&gt;</td></tr>
 <tr class="separator:a30cd2d38272cf5fb35c10a421b4d2045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a421af22aea174a88968edea770000bbc" id="r_a421af22aea174a88968edea770000bbc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421af22aea174a88968edea770000bbc">OnPointInBallFound</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &amp; found, const Vector3f &amp; foundXfPos, Ball3f &amp; ball )&gt;</td></tr>
@@ -4888,11 +4888,16 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9d337ad4ab25ed0b9ad75512670ca1df" id="r_ga9d337ad4ab25ed0b9ad75512670ca1df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df">triangulatePointCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="structMR_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
 <tr class="memdesc:ga9d337ad4ab25ed0b9ad75512670ca1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from given point cloud according params Returns empty optional if was interrupted by progress bar.  <br /></td></tr>
 <tr class="separator:ga9d337ad4ab25ed0b9ad75512670ca1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00d9a0feea9e565fe96da4518118cab5" id="r_a00d9a0feea9e565fe96da4518118cab5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00d9a0feea9e565fe96da4518118cab5">pickedPointToVector3</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;point)</td></tr>
-<tr class="separator:a00d9a0feea9e565fe96da4518118cab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89a0d173f619c99ee93c0904af771995" id="r_a89a0d173f619c99ee93c0904af771995"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a0d173f619c99ee93c0904af771995">pointOnObjectToPickedPoint</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
+<tr class="memitem:a89a0d173f619c99ee93c0904af771995" id="r_a89a0d173f619c99ee93c0904af771995"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a0d173f619c99ee93c0904af771995">pointOnObjectToPickedPoint</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
+<tr class="memdesc:a89a0d173f619c99ee93c0904af771995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> coordinates depending on the object type to the PickedPoint variant.  <br /></td></tr>
 <tr class="separator:a89a0d173f619c99ee93c0904af771995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab934b8064ec52ed333c9a247843a8ab3" id="r_ab934b8064ec52ed333c9a247843a8ab3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab934b8064ec52ed333c9a247843a8ab3">isPickedPointValid</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;point)</td></tr>
+<tr class="memitem:aef29f4747473e9f88809ee80f810f06e" id="r_aef29f4747473e9f88809ee80f810f06e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef29f4747473e9f88809ee80f810f06e">getPickedPointPosition</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;object, const <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;point)</td></tr>
+<tr class="separator:aef29f4747473e9f88809ee80f810f06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c4360b6e2c01f2da32c5f51550511b2" id="r_a7c4360b6e2c01f2da32c5f51550511b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c4360b6e2c01f2da32c5f51550511b2">pickedPointToVector3</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;point)</td></tr>
+<tr class="memdesc:a7c4360b6e2c01f2da32c5f51550511b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts pickedPoint into local coordinates of its object.  <br /></td></tr>
+<tr class="separator:a7c4360b6e2c01f2da32c5f51550511b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab934b8064ec52ed333c9a247843a8ab3" id="r_ab934b8064ec52ed333c9a247843a8ab3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab934b8064ec52ed333c9a247843a8ab3">isPickedPointValid</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;point)</td></tr>
+<tr class="memdesc:ab934b8064ec52ed333c9a247843a8ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks that the picked point presents in the object's topology.  <br /></td></tr>
 <tr class="separator:ab934b8064ec52ed333c9a247843a8ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4f02307f8c1e25c4c6af4fa18f8f2335" id="r_ga4f02307f8c1e25c4c6af4fa18f8f2335"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga4f02307f8c1e25c4c6af4fa18f8f2335">findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="#a421af22aea174a88968edea770000bbc">OnPointInBallFound</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="separator:ga4f02307f8c1e25c4c6af4fa18f8f2335"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -8543,14 +8548,14 @@ template&lt;typename T , typename <a class="el" href="#a3e65b1f56010b420ea87dd02
 
 </div>
 </div>
-<a id="adf0c24ba1b9e4f32fd04264018065447" name="adf0c24ba1b9e4f32fd04264018065447"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf0c24ba1b9e4f32fd04264018065447">&#9670;&#160;</a></span>PickedPoint</h2>
+<a id="a3c6c4a3a98a6d5a53b51d05984395fa3" name="a3c6c4a3a98a6d5a53b51d05984395fa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6c4a3a98a6d5a53b51d05984395fa3">&#9670;&#160;</a></span>PickedPoint</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">MR::PickedPoint</a> = std::variant&lt;<a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>, VertId, int&gt;</td>
+          <td class="memname">using <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">MR::PickedPoint</a> = std::variant&lt;std::monostate, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>, VertId&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -22594,6 +22599,28 @@ template&lt;typename ObjectT &gt; </div>
 
 </div>
 </div>
+<a id="aef29f4747473e9f88809ee80f810f06e" name="aef29f4747473e9f88809ee80f810f06e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef29f4747473e9f88809ee80f810f06e">&#9670;&#160;</a></span>getPickedPointPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Vector3f &gt; MR::getPickedPointPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts pickedPoint into local coordinates of its object, returns std::nullopt if object or point is invalid, or if it does not present in the object's topology </p>
+
+</div>
+</div>
 <a id="af91e57bae7626f4e18c5bc1726ab2581" name="af91e57bae7626f4e18c5bc1726ab2581"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af91e57bae7626f4e18c5bc1726ab2581">&#9670;&#160;</a></span>getPickerFragmentShader()</h2>
 
@@ -24132,10 +24159,12 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Checks that the picked point presents in the object's topology. </p>
 
 </div>
 </div>
@@ -31644,24 +31673,26 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a00d9a0feea9e565fe96da4518118cab5" name="a00d9a0feea9e565fe96da4518118cab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00d9a0feea9e565fe96da4518118cab5">&#9670;&#160;</a></span>pickedPointToVector3()</h2>
+<a id="a7c4360b6e2c01f2da32c5f51550511b2" name="a7c4360b6e2c01f2da32c5f51550511b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c4360b6e2c01f2da32c5f51550511b2">&#9670;&#160;</a></span>pickedPointToVector3()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::Vector3f MR::pickedPointToVector3 </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::pickedPointToVector3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts pickedPoint into local coordinates of its object. </p>
 
 </div>
 </div>
@@ -31796,7 +31827,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> MR::pointOnObjectToPickedPoint </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> MR::pointOnObjectToPickedPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
         </tr>
@@ -31807,6 +31838,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> coordinates depending on the object type to the PickedPoint variant. </p>
 
 </div>
 </div>
