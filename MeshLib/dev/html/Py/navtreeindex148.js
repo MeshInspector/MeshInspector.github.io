@@ -1,5 +1,9 @@
 var NAVTREEINDEX148 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#aec3163f64b7abb9dc93d1289de4a4121":[6,1,0,0,2,893,8],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#aec3163f64b7abb9dc93d1289de4a4121":[6,1,1,0,1,893,8],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#af92d39f85630dda1b5a53dd6af591740":[6,1,0,0,2,893,17],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#af92d39f85630dda1b5a53dd6af591740":[6,1,1,0,1,893,17],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectMesh.html":[6,1,0,0,2,894],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectMesh.html":[6,1,1,0,1,894],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectMesh.html#a001ad9d98020912942d34366f4e42f57":[6,1,0,0,2,894,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX148 =
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a007fd1feb6b0b324de88f30ddadbb016":[6,1,0,0,2,898,23],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a007fd1feb6b0b324de88f30ddadbb016":[6,1,1,0,1,898,23],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a00ffbd1f0d1e579a323a1fcdfe51830b":[6,1,0,0,2,898,1],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a00ffbd1f0d1e579a323a1fcdfe51830b":[6,1,1,0,1,898,1],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a15611bb55c173fa6ba346add73d50c1d":[6,1,0,0,2,898,13],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a15611bb55c173fa6ba346add73d50c1d":[6,1,1,0,1,898,13],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a189abf4632531a5ed0483d5a740c6735":[6,1,0,0,2,898,17],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a189abf4632531a5ed0483d5a740c6735":[6,1,1,0,1,898,17]
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a00ffbd1f0d1e579a323a1fcdfe51830b":[6,1,1,0,1,898,1]
 };

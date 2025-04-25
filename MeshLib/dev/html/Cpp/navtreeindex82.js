@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[6,0,1,0,1,601,0],
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[6,0,2,0,1,585,0],
 "structMR_1_1SaveSettings.html":[6,0,1,0,1,606],
 "structMR_1_1SaveSettings.html":[6,0,2,0,1,590],
 "structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f":[6,0,1,0,1,606,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1SomeLocalTriangulations.html#a26d4e93a4bff3856092a522b80bd422e":[6,0,2,0,1,636,0],
 "structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[6,0,1,0,1,652,1],
 "structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[6,0,2,0,1,636,1],
-"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,1,0,1,652,2],
-"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,2,0,1,636,2],
-"structMR_1_1SortIntersectionsData.html":[6,0,1,0,1,653]
+"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,1,0,1,652,2]
 };

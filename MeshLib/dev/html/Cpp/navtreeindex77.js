@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1NoInit.html":[6,0,1,0,1,412],
+"structMR_1_1NoInit.html":[6,0,2,0,1,396],
 "structMR_1_1NoModelCheck.html":[6,0,1,0,1,414],
 "structMR_1_1NoModelCheck.html":[6,0,2,0,1,398],
 "structMR_1_1NoVisualRepresentationCheck.html":[6,0,1,0,1,417],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1OutlierParams.html":[6,0,1,0,1,459],
 "structMR_1_1OutlierParams.html":[6,0,2,0,1,443],
 "structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,1,0,1,459,3],
-"structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,2,0,1,443,3],
-"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,1,0,1,459,2],
-"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,2,0,1,443,2]
+"structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,2,0,1,443,3]
 };

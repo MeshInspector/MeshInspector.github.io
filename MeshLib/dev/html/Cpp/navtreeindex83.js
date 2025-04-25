@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,2,0,1,636,2],
+"structMR_1_1SortIntersectionsData.html":[6,0,1,0,1,653],
 "structMR_1_1SortIntersectionsData.html":[6,0,2,0,1,637],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,653,5],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,2,0,1,637,5],
@@ -82,14 +84,16 @@ var NAVTREEINDEX83 =
 "structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,2,0,1,648,1],
 "structMR_1_1SplineSettings.html":[6,0,1,0,1,666],
 "structMR_1_1SplineSettings.html":[6,0,2,0,1,650],
-"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,1,0,1,666,3],
-"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,2,0,1,650,3],
+"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,1,0,1,666,4],
+"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,2,0,1,650,4],
 "structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,1,0,1,666,0],
 "structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,2,0,1,650,0],
 "structMR_1_1SplineSettings.html#aa8f49a77bae9cc6a69e8bef44cf7afda":[6,0,1,0,1,666,2],
 "structMR_1_1SplineSettings.html#aa8f49a77bae9cc6a69e8bef44cf7afda":[6,0,2,0,1,650,2],
 "structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,1,0,1,666,1],
 "structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,2,0,1,650,1],
+"structMR_1_1SplineSettings.html#af076810565cee0720087fb452c2967f9":[6,0,1,0,1,666,3],
+"structMR_1_1SplineSettings.html#af076810565cee0720087fb452c2967f9":[6,0,2,0,1,650,3],
 "structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
 "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
 "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b":[6,0,2,0,1,660,5],
 "structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b":[6,0,1,0,1,676,0],
 "structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b":[6,0,2,0,1,660,0],
-"structMR_1_1SystemMemory.html":[6,0,1,0,1,680],
-"structMR_1_1SystemMemory.html":[6,0,2,0,1,664],
-"structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,1,0,1,680,1],
-"structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,2,0,1,664,1],
-"structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,1,0,1,680,0]
+"structMR_1_1SystemMemory.html":[6,0,1,0,1,680]
 };

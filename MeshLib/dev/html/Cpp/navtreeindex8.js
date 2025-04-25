@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshOffset_8h_source.html":[6,0,3,0,0,1,9,18],
 "MRMeshOrPointsObject_8h.html":[6,0,3,0,0,1,4,211],
 "MRMeshOrPointsObject_8h_source.html":[6,0,3,0,0,1,4,211],
 "MRMeshOverhangs_8h.html":[6,0,3,0,0,1,4,212],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshFwd_8h.html#a2c2ce7a11febd432cbfcbcd26f3d6103":[6,0,3,0,0,1,4,201,166],
 "MRMesh_2MRMeshFwd_8h.html#a2e8c6699fc6a0f4a5c8cebdd55e46e81":[6,0,3,0,0,1,4,201,14],
 "MRMesh_2MRMeshFwd_8h.html#a32d2679c43468dd98bb8cf90ddd25b77":[6,0,3,0,0,1,4,201,146],
-"MRMesh_2MRMeshFwd_8h.html#a3438631b0976f286b9db846783a9ebd0":[6,0,3,0,0,1,4,201,112],
-"MRMesh_2MRMeshFwd_8h.html#a351402543e235a71a7a1e0ea120a367b":[6,0,3,0,0,1,4,201,102]
+"MRMesh_2MRMeshFwd_8h.html#a3438631b0976f286b9db846783a9ebd0":[6,0,3,0,0,1,4,201,112]
 };

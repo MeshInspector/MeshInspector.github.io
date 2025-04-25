@@ -133,11 +133,12 @@ var NAVTREEINDEX4 =
 "MRMarchingCubes_8h.html#af79e59969dc38af8f99d87b8d80385f2":[6,0,3,0,0,1,11,11,2],
 "MRMarchingCubes_8h_source.html":[6,0,3,0,0,1,11,11],
 "MRMarkedContour_8h.html":[6,0,3,0,0,1,4,172],
-"MRMarkedContour_8h.html#a209bfc652faa16c46df5315c189242b1":[6,0,3,0,0,1,4,172,5],
-"MRMarkedContour_8h.html#a2e5632fff2d66b50a1ed380ebc05183a":[6,0,3,0,0,1,4,172,4],
+"MRMarkedContour_8h.html#a209bfc652faa16c46df5315c189242b1":[6,0,3,0,0,1,4,172,6],
+"MRMarkedContour_8h.html#a658ce22569ca9a5d8cb0d41cbb4c33e3":[6,0,3,0,0,1,4,172,5],
 "MRMarkedContour_8h.html#a7fdb7eb094811ed5d74ac5dbb128319f":[6,0,3,0,0,1,4,172,3],
-"MRMarkedContour_8h.html#abbe4ed3e93ef2ac23bd9eac49139758a":[6,0,3,0,0,1,4,172,6],
-"MRMarkedContour_8h.html#abbeba581eae8db84f0123a17c064c055":[6,0,3,0,0,1,4,172,7],
+"MRMarkedContour_8h.html#aafc7415ee574cd3909c1ba0489b08f15":[6,0,3,0,0,1,4,172,4],
+"MRMarkedContour_8h.html#abbe4ed3e93ef2ac23bd9eac49139758a":[6,0,3,0,0,1,4,172,7],
+"MRMarkedContour_8h.html#abbeba581eae8db84f0123a17c064c055":[6,0,3,0,0,1,4,172,8],
 "MRMarkedContour_8h.html#acd259cc34db34b6aee3060c1baf8822d":[6,0,3,0,0,1,4,172,2],
 "MRMarkedContour_8h_source.html":[6,0,3,0,0,1,4,172],
 "MRMarkedVoxelSlice_8h.html":[6,0,3,0,0,1,10,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRBooleanOperation_8h.html#ae44aeab642672cace48f2d7fc685b996":[6,0,3,0,0,1,5,4,8],
 "MRMeshC_2MRBooleanOperation_8h.html#aed19152d61475195ba2d79dcda07fd4a":[6,0,3,0,0,1,5,4,3],
 "MRMeshC_2MRBooleanOperation_8h.html#af827309aa48f5c4df6927a05fa191c65":[6,0,3,0,0,1,5,4,6],
-"MRMeshC_2MRBooleanOperation_8h_source.html":[6,0,3,0,0,1,5,4],
-"MRMeshC_2MRBox_8h.html":[6,0,3,0,0,1,5,5]
+"MRMeshC_2MRBooleanOperation_8h_source.html":[6,0,3,0,0,1,5,4]
 };

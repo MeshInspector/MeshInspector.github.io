@@ -172,6 +172,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa8f49a77bae9cc6a69e8bef44cf7afda" id="r_aa8f49a77bae9cc6a69e8bef44cf7afda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#add5a74bcec7c4de3a40927cf2956e5e1">Contour3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8f49a77bae9cc6a69e8bef44cf7afda">normals</a> = nullptr</td></tr>
 <tr class="memdesc:aa8f49a77bae9cc6a69e8bef44cf7afda"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional parameter with the normals of input points that will be resampled to become normals of output points  <br /></td></tr>
 <tr class="separator:aa8f49a77bae9cc6a69e8bef44cf7afda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af076810565cee0720087fb452c2967f9" id="r_af076810565cee0720087fb452c2967f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af076810565cee0720087fb452c2967f9">normalsAffectShape</a> = false</td></tr>
+<tr class="memdesc:af076810565cee0720087fb452c2967f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there  <br /></td></tr>
+<tr class="separator:af076810565cee0720087fb452c2967f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f3e029be9ca17a1b73f53ca166fe2ca" name="a7f3e029be9ca17a1b73f53ca166fe2ca"></a>
@@ -218,6 +221,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>optional parameter with the normals of input points that will be resampled to become normals of output points </p>
+
+</div>
+</div>
+<a id="af076810565cee0720087fb452c2967f9" name="af076810565cee0720087fb452c2967f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af076810565cee0720087fb452c2967f9">&#9670;&#160;</a></span>normalsAffectShape</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SplineSettings::normalsAffectShape = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there </p>
 
 </div>
 </div>
