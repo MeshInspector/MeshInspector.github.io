@@ -1,5 +1,13 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1SaveSettings.html":[6,0,1,0,1,606],
+"structMR_1_1SaveSettings.html":[6,0,2,0,1,590],
+"structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f":[6,0,1,0,1,606,4],
+"structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f":[6,0,2,0,1,590,4],
+"structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a":[6,0,1,0,1,606,5],
+"structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a":[6,0,2,0,1,590,5],
+"structMR_1_1SaveSettings.html#a0f2bb31407f2693aa939c47e0052b527":[6,0,1,0,1,606,2],
+"structMR_1_1SaveSettings.html#a0f2bb31407f2693aa939c47e0052b527":[6,0,2,0,1,590,2],
 "structMR_1_1SaveSettings.html#a2d0238b076acd7e381d778f9c92fe873":[6,0,1,0,1,606,3],
 "structMR_1_1SaveSettings.html#a2d0238b076acd7e381d778f9c92fe873":[6,0,2,0,1,590,3],
 "structMR_1_1SaveSettings.html#a3614a6ca71783b2dd64369d4f122ee69":[6,0,1,0,1,606,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[6,0,2,0,1,636,1],
 "structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,1,0,1,652,2],
 "structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,2,0,1,636,2],
-"structMR_1_1SortIntersectionsData.html":[6,0,1,0,1,653],
-"structMR_1_1SortIntersectionsData.html":[6,0,2,0,1,637],
-"structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,653,5],
-"structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,2,0,1,637,5],
-"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,1,0,1,653,0],
-"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,2,0,1,637,0],
-"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,1,0,1,653,1],
-"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,2,0,1,637,1],
-"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[6,0,1,0,1,653,3]
+"structMR_1_1SortIntersectionsData.html":[6,0,1,0,1,653]
 };

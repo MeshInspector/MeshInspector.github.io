@@ -5,14 +5,17 @@ var classMR_1_1SurfacePointWidget =
       [ "Faces", "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af", null ],
       [ "FaceCenters", "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff", null ],
       [ "Edges", "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9", null ],
-      [ "EdgeCeneters", "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5", null ],
+      [ "EdgeCenters", "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2ac0398cfb50d9b356a115e26cca2d4e09", null ],
       [ "Verts", "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8", null ]
     ] ],
     [ "~SurfacePointWidget", "classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462", null ],
     [ "create", "classMR_1_1SurfacePointWidget.html#ac576ca6d2ee3f2e66a4f10dea86ebe4e", null ],
     [ "create", "classMR_1_1SurfacePointWidget.html#a8caf797895b0781cf13598ae376d1941", null ],
+    [ "findCoords", "classMR_1_1SurfacePointWidget.html#a4245a8c7d95d9eed5fa164c5fb3ba261", null ],
+    [ "findNormal", "classMR_1_1SurfacePointWidget.html#a0ebbe2422458ced3c507e3b1720682df", null ],
     [ "getAutoHover", "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b", null ],
     [ "getBaseSurface", "classMR_1_1SurfacePointWidget.html#a97ca2957633a2a8f6425d4f36a8df687", null ],
+    [ "getCoords", "classMR_1_1SurfacePointWidget.html#ace3bc954b8623ec3e305c97cda6bf20c", null ],
     [ "getCurrentPosition", "classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07", null ],
     [ "getCurrentPositionMeshTriPoint", "classMR_1_1SurfacePointWidget.html#a6beef790b7d769b9129087231ce6c11a", null ],
     [ "getParameters", "classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958", null ],
@@ -30,6 +33,6 @@ var classMR_1_1SurfacePointWidget =
     [ "setStartMoveCallback", "classMR_1_1SurfacePointWidget.html#acf861cead782987809b2abb5be8d1c62", null ],
     [ "startDragging", "classMR_1_1SurfacePointWidget.html#a8ad9783712fb3b856b5f4c466bebebb2", null ],
     [ "swapCurrentPosition", "classMR_1_1SurfacePointWidget.html#a2035a5c0ceddd1f622ce5574dd8c12dc", null ],
-    [ "toVector3f", "classMR_1_1SurfacePointWidget.html#afd5f43e81c4b52948c3571465f625f66", null ],
+    [ "toVector3f", "classMR_1_1SurfacePointWidget.html#ad67cc10d46142d987a91f3e113c348c4", null ],
     [ "updateParameters", "classMR_1_1SurfacePointWidget.html#a8d61ebacdd506518179659bb8b8c449b", null ]
 ];

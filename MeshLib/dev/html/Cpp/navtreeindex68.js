@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1DividePolylineParameters.html#aec036aa36c10ac45b9ef07682adb3350":[6,0,2,0,1,179,0],
+"structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,1,0,1,195,4],
+"structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[6,0,2,0,1,179,4],
+"structMR_1_1DoubleOffsetSettings.html":[6,0,1,0,1,196],
+"structMR_1_1DoubleOffsetSettings.html":[6,0,2,0,1,180],
+"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,1,0,1,196,1],
+"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,2,0,1,180,1],
+"structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,1,0,1,196,5],
 "structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,2,0,1,180,5],
 "structMR_1_1DoubleOffsetSettings.html#a53b1276a0dd7d52159b86fe6633c89f4":[6,0,1,0,1,196,3],
 "structMR_1_1DoubleOffsetSettings.html#a53b1276a0dd7d52159b86fe6633c89f4":[6,0,2,0,1,180,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1FaceFace.html":[6,0,0,1,12],
 "structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[6,0,0,1,12,1],
 "structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[6,0,0,1,12,0],
-"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[6,0,0,1,12,2],
-"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[6,0,0,1,12,3],
-"structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc":[6,0,0,1,12,4],
-"structMR_1_1FanRecord.html":[6,0,1,0,1,217],
-"structMR_1_1FanRecord.html":[6,0,2,0,1,201],
-"structMR_1_1FanRecord.html#a27df8546e114728c41355bf45b7f4666":[6,0,1,0,1,217,1],
-"structMR_1_1FanRecord.html#a27df8546e114728c41355bf45b7f4666":[6,0,2,0,1,201,1],
-"structMR_1_1FanRecord.html#ab96acab7dff75b813d869d05ae408ca7":[6,0,1,0,1,217,2],
-"structMR_1_1FanRecord.html#ab96acab7dff75b813d869d05ae408ca7":[6,0,2,0,1,201,2]
+"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[6,0,0,1,12,2]
 };

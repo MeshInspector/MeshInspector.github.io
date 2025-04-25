@@ -1,5 +1,13 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,2,0,1,8,4,0],
+"structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,1,0,1,16,4,1],
+"structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,2,0,1,8,4,1],
+"structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,1,0,1,16,6],
+"structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,2,0,1,8,6],
+"structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1":[6,0,1,0,1,16,6,1],
+"structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1":[6,0,2,0,1,8,6,1],
+"structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,1,0,1,16,6,0],
 "structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,2,0,1,8,6,0],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,1,0,1,16,1],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,1,8,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1MeshVoxelsConverter.html":[6,0,2,0,1,364],
 "structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7":[6,0,1,0,1,380,4],
 "structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7":[6,0,2,0,1,364,4],
-"structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1":[6,0,1,0,1,380,1],
-"structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1":[6,0,2,0,1,364,1],
-"structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596":[6,0,1,0,1,380,6],
-"structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596":[6,0,2,0,1,364,6],
-"structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[6,0,1,0,1,380,3],
-"structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[6,0,2,0,1,364,3],
-"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,1,0,1,380,5],
-"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,2,0,1,364,5],
-"structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,1,0,1,380,0]
+"structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1":[6,0,1,0,1,380,1]
 };

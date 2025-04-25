@@ -1,5 +1,13 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,1,0,1,58,4],
+"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,2,0,1,42,4],
+"structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,1,0,1,58,8],
+"structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,2,0,1,42,8],
+"structMR_1_1AncillaryPoints.html#ac4c339d58512495cb88f10f474fb120e":[6,0,1,0,1,58,12],
+"structMR_1_1AncillaryPoints.html#ac4c339d58512495cb88f10f474fb120e":[6,0,2,0,1,42,12],
+"structMR_1_1AncillaryPoints.html#aecec1c034a47b9b7d102ba9bf6366869":[6,0,1,0,1,58,9],
+"structMR_1_1AncillaryPoints.html#aecec1c034a47b9b7d102ba9bf6366869":[6,0,2,0,1,42,9],
 "structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15":[6,0,1,0,1,58,0],
 "structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15":[6,0,2,0,1,42,0],
 "structMR_1_1ArcInterpolationParams.html":[6,0,1,0,1,61],
@@ -241,13 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda":[6,0,0,0,2,0,32],
 "structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc":[6,0,0,0,2,0,22],
 "structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e":[6,0,0,0,2,0,10],
-"structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[6,0,0,0,2,0,11],
-"structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[6,0,0,0,2,0,21],
-"structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[6,0,0,0,2,0,8],
-"structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[6,0,0,0,2,0,29],
-"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,6],
-"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,7],
-"structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[6,0,0,0,2,0,25],
-"structMR_1_1BoxedLeaf.html":[6,0,0,1,2],
-"structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[6,0,0,1,2,0]
+"structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[6,0,0,0,2,0,11]
 };

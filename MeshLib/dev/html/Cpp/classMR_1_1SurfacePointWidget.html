@@ -185,7 +185,7 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="#ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af">Faces</a>
 , <a class="el" href="#ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff">FaceCenters</a>
 , <a class="el" href="#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9">Edges</a>
-, <a class="el" href="#ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5">EdgeCeneters</a>
+, <a class="el" href="#ad925d10fc0ebaadb952aaa7dd07dc0f2ac0398cfb50d9b356a115e26cca2d4e09">EdgeCenters</a>
 , <br />
 &#160;&#160;<a class="el" href="#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8">Verts</a>
 <br />
@@ -220,9 +220,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4023f6d9ae5235d692afad4374b6134e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf37cc4ca96ed9fd71cd2578f8a46f07" id="r_adf37cc4ca96ed9fd71cd2578f8a46f07"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf37cc4ca96ed9fd71cd2578f8a46f07">getCurrentPosition</a> () const</td></tr>
 <tr class="separator:adf37cc4ca96ed9fd71cd2578f8a46f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd5f43e81c4b52948c3571465f625f66" id="r_afd5f43e81c4b52948c3571465f625f66"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd5f43e81c4b52948c3571465f625f66">toVector3f</a> () const</td></tr>
-<tr class="memdesc:afd5f43e81c4b52948c3571465f625f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">return current position transformed to Vector3f  <br /></td></tr>
-<tr class="separator:afd5f43e81c4b52948c3571465f625f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace3bc954b8623ec3e305c97cda6bf20c" id="r_ace3bc954b8623ec3e305c97cda6bf20c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace3bc954b8623ec3e305c97cda6bf20c">getCoords</a> () const</td></tr>
+<tr class="memdesc:ace3bc954b8623ec3e305c97cda6bf20c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return local object's coordinates at the current position where the center of sphere is located  <br /></td></tr>
+<tr class="separator:ace3bc954b8623ec3e305c97cda6bf20c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad67cc10d46142d987a91f3e113c348c4" id="r_ad67cc10d46142d987a91f3e113c348c4"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad67cc10d46142d987a91f3e113c348c4">toVector3f</a> () const</td></tr>
+<tr class="separator:ad67cc10d46142d987a91f3e113c348c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4245a8c7d95d9eed5fa164c5fb3ba261" id="r_a4245a8c7d95d9eed5fa164c5fb3ba261"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4245a8c7d95d9eed5fa164c5fb3ba261">findCoords</a> () const</td></tr>
+<tr class="memdesc:a4245a8c7d95d9eed5fa164c5fb3ba261"><td class="mdescLeft">&#160;</td><td class="mdescRight">return local object's coordinates at the current position, or std::nullopt if it is invalid  <br /></td></tr>
+<tr class="separator:a4245a8c7d95d9eed5fa164c5fb3ba261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ebbe2422458ced3c507e3b1720682df" id="r_a0ebbe2422458ced3c507e3b1720682df"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ebbe2422458ced3c507e3b1720682df">findNormal</a> () const</td></tr>
+<tr class="memdesc:a0ebbe2422458ced3c507e3b1720682df"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the normal in local object's coordinates at the current position, or std::nullopt if it is invalid or normal is not defined  <br /></td></tr>
+<tr class="separator:a0ebbe2422458ced3c507e3b1720682df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6beef790b7d769b9129087231ce6c11a" id="r_a6beef790b7d769b9129087231ce6c11a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6beef790b7d769b9129087231ce6c11a">getCurrentPositionMeshTriPoint</a> () const</td></tr>
 <tr class="memdesc:a6beef790b7d769b9129087231ce6c11a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns stored position as <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, otherwise returns invalid (default) <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>  <br /></td></tr>
 <tr class="separator:a6beef790b7d769b9129087231ce6c11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,7 +292,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af" name="ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af"></a>Faces&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff" name="ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff"></a>FaceCenters&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9" name="ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9"></a>Edges&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5" name="ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5"></a>EdgeCeneters&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad925d10fc0ebaadb952aaa7dd07dc0f2ac0398cfb50d9b356a115e26cca2d4e09" name="ad925d10fc0ebaadb952aaa7dd07dc0f2ac0398cfb50d9b356a115e26cca2d4e09"></a>EdgeCenters&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8" name="ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8"></a>Verts&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -351,6 +359,60 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4245a8c7d95d9eed5fa164c5fb3ba261" name="a4245a8c7d95d9eed5fa164c5fb3ba261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4245a8c7d95d9eed5fa164c5fb3ba261">&#9670;&#160;</a></span>findCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Vector3f &gt; MR::SurfacePointWidget::findCoords </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return local object's coordinates at the current position, or std::nullopt if it is invalid </p>
+
+</div>
+</div>
+<a id="a0ebbe2422458ced3c507e3b1720682df" name="a0ebbe2422458ced3c507e3b1720682df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ebbe2422458ced3c507e3b1720682df">&#9670;&#160;</a></span>findNormal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Vector3f &gt; MR::SurfacePointWidget::findNormal </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the normal in local object's coordinates at the current position, or std::nullopt if it is invalid or normal is not defined </p>
+
+</div>
+</div>
 <a id="a798cfe4e8403435129f4788dbfe0604b" name="a798cfe4e8403435129f4788dbfe0604b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a798cfe4e8403435129f4788dbfe0604b">&#9670;&#160;</a></span>getAutoHover()</h2>
 
@@ -398,6 +460,25 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace3bc954b8623ec3e305c97cda6bf20c" name="ace3bc954b8623ec3e305c97cda6bf20c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace3bc954b8623ec3e305c97cda6bf20c">&#9670;&#160;</a></span>getCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API Vector3f MR::SurfacePointWidget::getCoords </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return local object's coordinates at the current position where the center of sphere is located </p>
 
 </div>
 </div>
@@ -805,22 +886,28 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afd5f43e81c4b52948c3571465f625f66" name="afd5f43e81c4b52948c3571465f625f66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd5f43e81c4b52948c3571465f625f66">&#9670;&#160;</a></span>toVector3f()</h2>
+<a id="ad67cc10d46142d987a91f3e113c348c4" name="ad67cc10d46142d987a91f3e113c348c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad67cc10d46142d987a91f3e113c348c4">&#9670;&#160;</a></span>toVector3f()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API Vector3f MR::SurfacePointWidget::toVector3f </td>
+          <td class="memname">Vector3f MR::SurfacePointWidget::toVector3f </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>return current position transformed to Vector3f </p>
 
 </div>
 </div>

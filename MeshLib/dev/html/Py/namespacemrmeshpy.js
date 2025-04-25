@@ -1709,6 +1709,7 @@ var namespacemrmeshpy =
     [ "getParallelPlaneFillMetric", "namespacemrmeshpy.html#ac3249512589d296f410c985016b92ed4", null ],
     [ "getPathEdgesInPlane", "namespacemrmeshpy.html#a3f8b8e549307a84b56b51d000a659adc", null ],
     [ "getPathPlaneIntersections", "namespacemrmeshpy.html#a3170fc994d2daeedbc066564e67cb146", null ],
+    [ "getPickedPointNormal", "namespacemrmeshpy.html#ad1744d9f1ca8bb8e75b2ca3683218e5b", null ],
     [ "getPickedPointPosition", "namespacemrmeshpy.html#af81852a41d1037269c6f1a6e5299e963", null ],
     [ "getPlanarHoleFillPlan", "namespacemrmeshpy.html#a82932288ccacafc6244f275a7c99a5f9", null ],
     [ "getPlaneFillMetric", "namespacemrmeshpy.html#aaac24ab819d625ae22d0b98741ec667d", null ],

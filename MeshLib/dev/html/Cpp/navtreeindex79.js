@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,1,0,1,490,7],
+"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,2,0,1,474,7],
+"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,1,0,1,490,0],
+"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,2,0,1,474,0],
+"structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,1,0,1,490,6],
+"structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,2,0,1,474,6],
+"structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,1,0,1,490,5],
+"structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,2,0,1,474,5],
 "structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[6,0,1,0,1,490,2],
 "structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[6,0,2,0,1,474,2],
 "structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[6,0,1,0,1,490,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,1,0,1,516,4],
 "structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,2,0,1,500,4],
 "structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,1,0,1,516,2],
-"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,1,500,2],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,516,3],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,1,500,3],
-"structMR_1_1PositionedText.html":[6,0,1,0,1,517],
-"structMR_1_1PositionedText.html":[6,0,2,0,1,501],
-"structMR_1_1PositionedText.html#a0361f418c9fa0c8257d7148d219fe4c6":[6,0,1,0,1,517,4],
-"structMR_1_1PositionedText.html#a0361f418c9fa0c8257d7148d219fe4c6":[6,0,2,0,1,501,4],
-"structMR_1_1PositionedText.html#a362e71ee7a4c24ff0ca9f4dce5d43fa1":[6,0,1,0,1,517,1],
-"structMR_1_1PositionedText.html#a362e71ee7a4c24ff0ca9f4dce5d43fa1":[6,0,2,0,1,501,1]
+"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,1,500,2]
 };

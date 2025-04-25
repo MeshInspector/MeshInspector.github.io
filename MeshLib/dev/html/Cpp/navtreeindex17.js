@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"MRWeightedPointsShell_8h.html#a3dfe57c4c81de75ac56563df27bf382f":[6,0,3,0,0,1,11,42,8],
 "MRWeightedPointsShell_8h.html#a7033dc4528718e45e757d0a41a83932c":[6,0,3,0,0,1,11,42,7],
 "MRWeightedPointsShell_8h.html#a79d67ad4dedbc0e0e7a7846c6af8ad9d":[6,0,3,0,0,1,11,42,6],
 "MRWeightedPointsShell_8h.html#a927cb8d59958288a2e8a0dcb52a29055":[6,0,3,0,0,1,11,42,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,1,0,1,59,26],
 "classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,2,0,1,43,26],
 "classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,1,0,1,59,22],
-"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,1,43,22],
-"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,59,11]
+"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,1,43,22]
 };

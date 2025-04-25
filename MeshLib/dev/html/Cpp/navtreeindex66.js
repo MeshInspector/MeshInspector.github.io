@@ -1,5 +1,13 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[6,0,0,0,2,0,21],
+"structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[6,0,0,0,2,0,8],
+"structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[6,0,0,0,2,0,29],
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,6],
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,7],
+"structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[6,0,0,0,2,0,25],
+"structMR_1_1BoxedLeaf.html":[6,0,0,1,2],
+"structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[6,0,0,1,2,0],
 "structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[6,0,0,1,2,1],
 "structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[6,0,0,1,2,2],
 "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf":[6,0,0,8,3,3],
 "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9":[6,0,0,8,3,2],
 "structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b":[6,0,0,8,3,1],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33":[6,0,0,8,3,0],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc":[6,0,0,8,3,0,1],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,8,3,0,0],
-"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,0,8,3,0,2],
-"structMR_1_1CutMeshResult.html":[6,0,0,8,4],
-"structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400":[6,0,0,8,4,1],
-"structMR_1_1CutMeshResult.html#aca01891e95be4a6f3cb7168e88a33aac":[6,0,0,8,4,0],
-"structMR_1_1DecimatePolylineResult.html":[6,0,1,0,1,167],
-"structMR_1_1DecimatePolylineResult.html":[6,0,2,0,1,151]
+"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33":[6,0,0,8,3,0]
 };

@@ -2286,6 +2286,7 @@ var namespaceMR =
     [ "getParallelPlaneFillMetric", "group__FillHoleGroup.html#ga9a4b77571e011a0b74c0a419e76ef332", null ],
     [ "getPathEdgesInPlane", "group__SurfacePathGroup.html#ga0fe533dcbd844a89077b18ebd4dda8fe", null ],
     [ "getPathPlaneIntersections", "group__SurfacePathGroup.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd", null ],
+    [ "getPickedPointNormal", "namespaceMR.html#a2c92af53121d8650918b145970fcfda0", null ],
     [ "getPickedPointPosition", "namespaceMR.html#aef29f4747473e9f88809ee80f810f06e", null ],
     [ "getPickerFragmentShader", "namespaceMR.html#af91e57bae7626f4e18c5bc1726ab2581", null ],
     [ "getPlanarHoleFillPlan", "group__FillHoleGroup.html#ga1dbbac5f3d5dfdebbb1790578aed11d8", null ],

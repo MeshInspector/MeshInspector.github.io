@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,1,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,2,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,1,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
+"structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,2,0,0,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "structMRObjVertId.html":[6,0,2,0,46],
 "structMRObjVertId.html#a724bfda98a1cbc88bb90004372d2b844":[6,0,2,0,46,0],
 "structMRObjVertId.html#acd5a62c78cf341d9ec230a2e075f2e28":[6,0,2,0,46,1],
-"structMROffsetParameters.html":[6,0,2,0,47],
-"structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679":[6,0,2,0,47,3],
-"structMROffsetParameters.html#a4fda3dbd0f6df9ed45abc300fee48b17":[6,0,2,0,47,0],
-"structMROffsetParameters.html#a8bb60c7d4c6935ca3167597df90bf149":[6,0,2,0,47,1],
-"structMROffsetParameters.html#ad92c04c267772dc568e590dadf29dffb":[6,0,2,0,47,2],
-"structMROneMeshContour.html":[6,0,2,0,48],
-"structMROneMeshContour.html#a90b936e1e5de7336622a91129c24b832":[6,0,2,0,48,1],
-"structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,48,0],
-"structMROneMeshIntersection.html":[6,0,2,0,49]
+"structMROffsetParameters.html":[6,0,2,0,47]
 };
