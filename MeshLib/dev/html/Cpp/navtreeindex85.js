@@ -1,7 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,1,0,1,708,2],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,2,0,1,692,2],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,1,0,1,708,3],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,2,0,1,692,3],
 "structMR_1_1TransformControls_1_1VisualParams.html":[6,0,1,0,1,710,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX85 =
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html":[6,0,1,0,1,38,9],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html":[6,0,2,0,1,23,8],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c":[6,0,1,0,1,38,9,2],
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c":[6,0,2,0,1,23,8,2]
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c":[6,0,2,0,1,23,8,2],
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[6,0,1,0,1,38,9,1],
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[6,0,2,0,1,23,8,1]
 };

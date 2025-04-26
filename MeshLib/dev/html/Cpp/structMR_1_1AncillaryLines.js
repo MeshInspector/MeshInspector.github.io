@@ -1,8 +1,7 @@
 var structMR_1_1AncillaryLines =
 [
     [ "AncillaryLines", "structMR_1_1AncillaryLines.html#a19beda95a4a3a81962c578366d47ea85", null ],
-    [ "AncillaryLines", "structMR_1_1AncillaryLines.html#a0741643bad69c6ae78b94552aeab041d", null ],
-    [ "AncillaryLines", "structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b", null ],
+    [ "AncillaryLines", "structMR_1_1AncillaryLines.html#a663141ea1eeeab9d4b542f46a84aa82b", null ],
     [ "AncillaryLines", "structMR_1_1AncillaryLines.html#a1ea41e4dbf0c52232b619119eeb10ece", null ],
     [ "~AncillaryLines", "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc", null ],
     [ "make", "structMR_1_1AncillaryLines.html#ae7e316fcba2afcd230ea33c007db5e73", null ],

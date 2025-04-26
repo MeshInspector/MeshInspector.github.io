@@ -1,7 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e":[6,0,0,0,2,0,10],
-"structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[6,0,0,0,2,0,11],
 "structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[6,0,0,0,2,0,21],
 "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[6,0,0,0,2,0,8],
 "structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[6,0,0,0,2,0,29],
@@ -249,5 +247,7 @@ var NAVTREEINDEX66 =
 "structMR_1_1CutMeshParameters.html":[6,0,0,8,3],
 "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f":[6,0,0,8,3,4],
 "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf":[6,0,0,8,3,3],
-"structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9":[6,0,0,8,3,2]
+"structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9":[6,0,0,8,3,2],
+"structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b":[6,0,0,8,3,1],
+"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33":[6,0,0,8,3,0]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,1,0,1,516,2],
-"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,1,500,2],
 "structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,516,3],
 "structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,1,500,3],
 "structMR_1_1PositionedText.html":[6,0,1,0,1,517],
@@ -249,5 +247,7 @@ var NAVTREEINDEX80 =
 "structMR_1_1RemeshSettings.html":[6,0,1,0,1,552],
 "structMR_1_1RemeshSettings.html":[6,0,2,0,1,536],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,1,0,1,552,1],
-"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,2,0,1,536,1]
+"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,2,0,1,536,1],
+"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[6,0,1,0,1,552,6],
+"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[6,0,2,0,1,536,6]
 };

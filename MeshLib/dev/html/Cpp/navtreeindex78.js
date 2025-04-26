@@ -1,7 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,1,0,1,459,2],
-"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,2,0,1,443,2],
 "structMR_1_1OutlierParams.html#a9561ff72aba23dad165d0922967bf343":[6,0,1,0,1,459,1],
 "structMR_1_1OutlierParams.html#a9561ff72aba23dad165d0922967bf343":[6,0,2,0,1,443,1],
 "structMR_1_1OutlierParams.html#ae7fcf0f64db2a7e109689f6722285abd":[6,0,1,0,1,459,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX78 =
 "structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
 "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
 "structMR_1_1PointInAllSpaces.html":[6,0,1,0,1,490],
-"structMR_1_1PointInAllSpaces.html":[6,0,2,0,1,474]
+"structMR_1_1PointInAllSpaces.html":[6,0,2,0,1,474],
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,1,0,1,490,4],
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,2,0,1,474,4]
 };
