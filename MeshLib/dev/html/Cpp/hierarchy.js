@@ -712,6 +712,7 @@ var hierarchy =
     [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", null ],
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
+    [ "MR::MaxArg< T, I >", "structMR_1_1MaxArg.html", null ],
     [ "MR::Features::MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],
@@ -750,6 +751,7 @@ var hierarchy =
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
     [ "MR::MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", null ],
+    [ "MR::MinArg< T, I >", "structMR_1_1MinArg.html", null ],
     [ "MinMax", null, [
       [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]
     ] ],
