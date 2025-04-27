@@ -238,6 +238,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionResult.html">MR::PolylineProjectionResult&lt; V &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionResult3Arg.html">MR::PolylineProjectionResult3Arg</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html">MR::PolylineProjectionWithOffsetResult&lt; V &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SharedThreadSafeOwner.html">MR::SharedThreadSafeOwner&lt; T &gt;</a></td></tr>
@@ -474,6 +476,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5e71a300face382a26ba8596d9b19820" id="r_ga5e71a300face382a26ba8596d9b19820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PolylineProjectionResult3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e71a300face382a26ba8596d9b19820">MR::findProjectionOnPolyline</a> (const Vector3f &amp;pt, const Polyline3 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga5e71a300face382a26ba8596d9b19820"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point  <br /></td></tr>
 <tr class="separator:ga5e71a300face382a26ba8596d9b19820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga491ccc452b2d068da6ce82aaebcd5372" id="r_ga491ccc452b2d068da6ce82aaebcd5372"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult3Arg.html">PolylineProjectionResult3Arg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga491ccc452b2d068da6ce82aaebcd5372">MR::findMaxProjectionOnPolyline</a> (const VertCoords &amp;points, const Polyline3 &amp;polyline, const VertBitSet *pointsRegion=nullptr, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</td></tr>
+<tr class="memdesc:ga491ccc452b2d068da6ce82aaebcd5372"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each of points (pointsRegion) computes the closest point on polyline and returns the point for which maximum distance is reached,  <br /></td></tr>
+<tr class="separator:ga491ccc452b2d068da6ce82aaebcd5372"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa484a0628a7ac3858cd590589687141c" id="r_gaa484a0628a7ac3858cd590589687141c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PolylineProjectionResult3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa484a0628a7ac3858cd590589687141c">MR::findProjectionOnPolyline</a> (const Line3f &amp;ln, const Polyline3 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:gaa484a0628a7ac3858cd590589687141c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given straight line  <br /></td></tr>
 <tr class="separator:gaa484a0628a7ac3858cd590589687141c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1652,6 +1657,51 @@ template&lt;typename V &gt; </div>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
     <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga491ccc452b2d068da6ce82aaebcd5372" name="ga491ccc452b2d068da6ce82aaebcd5372"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga491ccc452b2d068da6ce82aaebcd5372">&#9670;&#160;</a></span>findMaxProjectionOnPolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult3Arg.html">PolylineProjectionResult3Arg</a> MR::findMaxProjectionOnPolyline </td>
+          <td>(</td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Polyline3 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>pointsRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>loDistLimitSq</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>for each of points (pointsRegion) computes the closest point on polyline and returns the point for which maximum distance is reached, </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xf</td><td>polyline-to-point transformation, if not specified then identity transformation is assumed </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
   </table>
   </dd>
 </dl>

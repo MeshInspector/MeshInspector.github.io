@@ -233,6 +233,9 @@ var group__AABBTreeGroup =
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
       [ "point", "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd", null ]
     ] ],
+    [ "MR::PolylineProjectionResult3Arg", "structMR_1_1PolylineProjectionResult3Arg.html", [
+      [ "pointId", "structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e", null ]
+    ] ],
     [ "MR::PolylineProjectionWithOffsetResult< V >", "structMR_1_1PolylineProjectionWithOffsetResult.html", [
       [ "dist", "structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d", null ],
       [ "line", "structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3", null ],
@@ -300,6 +303,7 @@ var group__AABBTreeGroup =
     [ "MR::findFewClosestPoints", "group__AABBTreeGroup.html#ga5b2c2b50e8b1835a53ac746d5da87b54", null ],
     [ "MR::findMaxDistanceSq", "group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02", null ],
     [ "MR::findMaxDistanceSqOneWay", "group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba", null ],
+    [ "MR::findMaxProjectionOnPolyline", "group__AABBTreeGroup.html#ga491ccc452b2d068da6ce82aaebcd5372", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga562052fddd56327be07ffe8c0cc7f7af", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3", null ],
     [ "MR::findMeshEdgesInBall", "group__AABBTreeGroup.html#ga50911249a881bd7365929503c138d8fa", null ],

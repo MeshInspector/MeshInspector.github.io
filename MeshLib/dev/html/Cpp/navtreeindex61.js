@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a":[6,0,1,0,1,2,23],
 "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0":[6,0,1,0,1,2,26],
 "namespaceMR_1_1Cuda.html#a2fed8d0688936d46135f8dad5f3497ee":[6,0,1,0,1,2,17],
 "namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[6,0,1,0,1,2,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,1,36,0],
 "namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[6,0,1,0,1,36,0,0],
 "namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,1,36,1],
-"namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,1,0,1,36,1,0],
-"namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe":[6,0,1,0,1,36,1,1]
+"namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,1,0,1,36,1,0]
 };

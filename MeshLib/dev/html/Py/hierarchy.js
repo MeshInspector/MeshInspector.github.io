@@ -815,7 +815,9 @@ var hierarchy =
     [ "mrmeshpy.PolylineIntersectionResult2", "classmrmeshpy_1_1PolylineIntersectionResult2.html", null ],
     [ "mrmeshpy.PolylineMaker", "classmrmeshpy_1_1PolylineMaker.html", null ],
     [ "mrmeshpy.PolylineProjectionResult2", "classmrmeshpy_1_1PolylineProjectionResult2.html", null ],
-    [ "mrmeshpy.PolylineProjectionResult3", "classmrmeshpy_1_1PolylineProjectionResult3.html", null ],
+    [ "mrmeshpy.PolylineProjectionResult3", "classmrmeshpy_1_1PolylineProjectionResult3.html", [
+      [ "mrmeshpy.PolylineProjectionResult3Arg", "classmrmeshpy_1_1PolylineProjectionResult3Arg.html", null ]
+    ] ],
     [ "mrmeshpy.PolylineProjectionWithOffsetResult3", "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html", null ],
     [ "mrmeshpy.PolylineSubdivideSettings", "classmrmeshpy_1_1PolylineSubdivideSettings.html", null ],
     [ "mrmeshpy.PolylineTopology", "classmrmeshpy_1_1PolylineTopology.html", null ],

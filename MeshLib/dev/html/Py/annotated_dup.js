@@ -672,6 +672,7 @@ var annotated_dup =
       [ "PolylineMaker", "classmrmeshpy_1_1PolylineMaker.html", "classmrmeshpy_1_1PolylineMaker" ],
       [ "PolylineProjectionResult2", "classmrmeshpy_1_1PolylineProjectionResult2.html", "classmrmeshpy_1_1PolylineProjectionResult2" ],
       [ "PolylineProjectionResult3", "classmrmeshpy_1_1PolylineProjectionResult3.html", "classmrmeshpy_1_1PolylineProjectionResult3" ],
+      [ "PolylineProjectionResult3Arg", "classmrmeshpy_1_1PolylineProjectionResult3Arg.html", "classmrmeshpy_1_1PolylineProjectionResult3Arg" ],
       [ "PolylineProjectionWithOffsetResult3", "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html", "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3" ],
       [ "PolylineSubdivideSettings", "classmrmeshpy_1_1PolylineSubdivideSettings.html", "classmrmeshpy_1_1PolylineSubdivideSettings" ],
       [ "PolylineTopology", "classmrmeshpy_1_1PolylineTopology.html", "classmrmeshpy_1_1PolylineTopology" ],

@@ -980,6 +980,9 @@ var hierarchy =
     [ "MR::PolylineIntersectionResult2", "structMR_1_1PolylineIntersectionResult2.html", null ],
     [ "MR::PolylineMaker", "structMR_1_1PolylineMaker.html", null ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", null ],
+    [ "PolylineProjectionResult3", null, [
+      [ "MR::PolylineProjectionResult3Arg", "structMR_1_1PolylineProjectionResult3Arg.html", null ]
+    ] ],
     [ "MR::PolylineProjectionWithOffsetResult< V >", "structMR_1_1PolylineProjectionWithOffsetResult.html", null ],
     [ "MR::PolylineSubdivideSettings", "structMR_1_1PolylineSubdivideSettings.html", null ],
     [ "MR::PolylineTopology", "classMR_1_1PolylineTopology.html", null ],

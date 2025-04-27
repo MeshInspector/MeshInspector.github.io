@@ -671,6 +671,7 @@ var annotated_dup =
       [ "PolylineIntersectionResult2", "structMR_1_1PolylineIntersectionResult2.html", "structMR_1_1PolylineIntersectionResult2" ],
       [ "PolylineMaker", "structMR_1_1PolylineMaker.html", "structMR_1_1PolylineMaker" ],
       [ "PolylineProjectionResult", "structMR_1_1PolylineProjectionResult.html", "structMR_1_1PolylineProjectionResult" ],
+      [ "PolylineProjectionResult3Arg", "structMR_1_1PolylineProjectionResult3Arg.html", "structMR_1_1PolylineProjectionResult3Arg" ],
       [ "PolylineProjectionWithOffsetResult", "structMR_1_1PolylineProjectionWithOffsetResult.html", "structMR_1_1PolylineProjectionWithOffsetResult" ],
       [ "PolylineSubdivideSettings", "structMR_1_1PolylineSubdivideSettings.html", "structMR_1_1PolylineSubdivideSettings" ],
       [ "PolylineTopology", "classMR_1_1PolylineTopology.html", "classMR_1_1PolylineTopology" ],
