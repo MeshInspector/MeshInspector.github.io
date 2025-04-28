@@ -258,6 +258,7 @@ var annotated_dup =
       [ "FillHoleNicelySettings", "classmrmeshpy_1_1FillHoleNicelySettings.html", "classmrmeshpy_1_1FillHoleNicelySettings" ],
       [ "FillHoleParams", "classmrmeshpy_1_1FillHoleParams.html", "classmrmeshpy_1_1FillHoleParams" ],
       [ "FilterType", "classmrmeshpy_1_1FilterType.html", "classmrmeshpy_1_1FilterType" ],
+      [ "FindDisorientationParams", "classmrmeshpy_1_1FindDisorientationParams.html", "classmrmeshpy_1_1FindDisorientationParams" ],
       [ "FindInnerShellSettings", "classmrmeshpy_1_1FindInnerShellSettings.html", "classmrmeshpy_1_1FindInnerShellSettings" ],
       [ "FindOutliersParams", "classmrmeshpy_1_1FindOutliersParams.html", "classmrmeshpy_1_1FindOutliersParams" ],
       [ "FindOverhangsSettings", "classmrmeshpy_1_1FindOverhangsSettings.html", "classmrmeshpy_1_1FindOverhangsSettings" ],

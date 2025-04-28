@@ -393,6 +393,7 @@ var annotated_dup =
       [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
       [ "FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", "structMR_1_1FillHoleNicelySettings" ],
       [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],
+      [ "FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", "structMR_1_1FindDisorientationParams" ],
       [ "FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", "structMR_1_1FindInnerShellSettings" ],
       [ "FindOutliersParams", "structMR_1_1FindOutliersParams.html", "structMR_1_1FindOutliersParams" ],
       [ "FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", "structMR_1_1FindOverhangsSettings" ],

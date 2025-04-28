@@ -16,8 +16,9 @@ var searchData=
   ['bold_13',['Bold',['../classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a114c3050111d8b8ddd830b99ccebd246',1,'MR::SystemPath']]],
   ['bolditalic_14',['BoldItalic',['../classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8a1e8fb6e2ee37a07189ff20a09cb4d6d5',1,'MR::SystemPath']]],
   ['borders_15',['Borders',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476',1,'MR::ColorTheme::Borders'],['../classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476',1,'MR::ColorTheme::Borders']]],
-  ['both_16',['both',['../namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f',1,'MR::ImGuiMeasurementIndicators']]],
-  ['bottom_17',['Bottom',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca2ad9d63b69c4a10a5cc9cad923133bc4',1,'MR::SetViewPresetMenuItem']]],
-  ['button_18',['Button',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0',1,'MR']]],
-  ['buttonwithdrop_19',['ButtonWithDrop',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4',1,'MR']]]
+  ['both_16',['Both',['../structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e',1,'MR::FindDisorientationParams']]],
+  ['both_17',['both',['../namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f',1,'MR::ImGuiMeasurementIndicators']]],
+  ['bottom_18',['Bottom',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca2ad9d63b69c4a10a5cc9cad923133bc4',1,'MR::SetViewPresetMenuItem']]],
+  ['button_19',['Button',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0',1,'MR']]],
+  ['buttonwithdrop_20',['ButtonWithDrop',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4',1,'MR']]]
 ];
