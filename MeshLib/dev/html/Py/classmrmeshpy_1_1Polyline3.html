@@ -162,8 +162,8 @@ $(function(){initNavTree('classmrmeshpy_1_1Polyline3.html',''); initResizable(tr
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c6996e5792732139902540410b69e54" id="r_a5c6996e5792732139902540410b69e54"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c6996e5792732139902540410b69e54">__init__</a> (self)</td></tr>
 <tr class="separator:a5c6996e5792732139902540410b69e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64711ca728e86c4a7487608c7c436fe3" id="r_a64711ca728e86c4a7487608c7c436fe3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64711ca728e86c4a7487608c7c436fe3">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a> <a class="el" href="#a2eca00503ee246c60ad6350ca7d384e7">contours</a>)</td></tr>
-<tr class="separator:a64711ca728e86c4a7487608c7c436fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3144d138f3c1a82e0f97b1ff19b9c69" id="r_ac3144d138f3c1a82e0f97b1ff19b9c69"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3144d138f3c1a82e0f97b1ff19b9c69">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> contour)</td></tr>
+<tr class="separator:ac3144d138f3c1a82e0f97b1ff19b9c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad02f5fff3af1d003804ee81ccadca3d8" id="r_ad02f5fff3af1d003804ee81ccadca3d8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02f5fff3af1d003804ee81ccadca3d8">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector3__float.html">std_vector_std_vector_Vector3_float</a> <a class="el" href="#a2eca00503ee246c60ad6350ca7d384e7">contours</a>)</td></tr>
 <tr class="separator:ad02f5fff3af1d003804ee81ccadca3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44923a6c648ddd37a9f4bdf25c7e6f3e" id="r_a44923a6c648ddd37a9f4bdf25c7e6f3e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44923a6c648ddd37a9f4bdf25c7e6f3e">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> comp2firstVert, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> ps)</td></tr>
@@ -263,8 +263,8 @@ polyline that stores points of type V
 
 </div>
 </div>
-<a id="a64711ca728e86c4a7487608c7c436fe3" name="a64711ca728e86c4a7487608c7c436fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64711ca728e86c4a7487608c7c436fe3">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+<a id="ac3144d138f3c1a82e0f97b1ff19b9c69" name="ac3144d138f3c1a82e0f97b1ff19b9c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3144d138f3c1a82e0f97b1ff19b9c69">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,11 +277,11 @@ polyline that stores points of type V
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a></td>          <td class="paramname"><span class="paramname"><em>contours</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>contour</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">creates polyline from 2D contours, 3D polyline will get zero z-component
+<pre class="fragment">creates polyline from one contour (open or closed)
 </pre> 
 </div>
 </div>
@@ -303,7 +303,7 @@ polyline that stores points of type V
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">creates polyline from 3D contours, 2D polyline will lose z-component
+<pre class="fragment">creates polyline from several contours (each can be open or closed)
 </pre> 
 </div>
 </div>

@@ -2,8 +2,8 @@ var group__PolylineGroup =
 [
     [ "MR::Polyline< V >", "structMR_1_1Polyline.html", [
       [ "Polyline", "structMR_1_1Polyline.html#a5b3f0a6dabe52200adbd05fce503069a", null ],
-      [ "Polyline", "structMR_1_1Polyline.html#af6304c2e704e188b2072b3bfc74d4a9a", null ],
-      [ "Polyline", "structMR_1_1Polyline.html#a45f4e47f567de8900614578bf0becc56", null ],
+      [ "Polyline", "structMR_1_1Polyline.html#a9142ac9cb66c174e62a22937ddb32c24", null ],
+      [ "Polyline", "structMR_1_1Polyline.html#ab6d5abcf7fd7877a16aa2665eee6913e", null ],
       [ "Polyline", "structMR_1_1Polyline.html#aa95a33cc56a264a94edd7ef4c0f833bf", null ],
       [ "addFromEdgePath", "structMR_1_1Polyline.html#a21cfd60868c3fbabcfda71008f98cfa1", null ],
       [ "addFromGeneralSurfacePath", "structMR_1_1Polyline.html#af26b4e6a0cf3287f52bdf51f2eeebd02", null ],
