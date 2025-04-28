@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d":[6,0,0,1,34,0],
+"structMR_1_1PolylineSubdivideSettings.html":[6,0,0,15,0],
 "structMR_1_1PolylineSubdivideSettings.html#a41c3020ba21d66919d363b5e261b2666":[6,0,0,15,0,2],
 "structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f":[6,0,0,15,0,0],
 "structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[6,0,0,15,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1RebuildMeshSettings.html#ab3fd176a4586472f781779fd1126f50c":[6,0,2,0,1,532,5],
 "structMR_1_1RebuildMeshSettings.html#ac305c46895a7bfd2a0af7ccfe1b5cb2e":[6,0,1,0,1,548,9],
 "structMR_1_1RebuildMeshSettings.html#ac305c46895a7bfd2a0af7ccfe1b5cb2e":[6,0,2,0,1,532,9],
-"structMR_1_1RebuildMeshSettings.html#aea6b7ba0f04e938fe48d66bb6f336a79":[6,0,1,0,1,548,2],
-"structMR_1_1RebuildMeshSettings.html#aea6b7ba0f04e938fe48d66bb6f336a79":[6,0,2,0,1,532,2],
-"structMR_1_1RebuildMeshSettings.html#aedf85a579696f897a9cd4c1c719059b8":[6,0,1,0,1,548,6]
+"structMR_1_1RebuildMeshSettings.html#aea6b7ba0f04e938fe48d66bb6f336a79":[6,0,1,0,1,548,2]
 };

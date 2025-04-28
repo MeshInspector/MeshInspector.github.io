@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,1,0,1,488,1],
+"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,2,0,1,472,1],
 "structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,1,0,1,488,2],
 "structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,2,0,1,472,2],
 "structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,1,0,1,488,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[6,0,0,1,33,0],
 "structMR_1_1PolylineProjectionWithOffsetResult.html":[6,0,0,1,34],
 "structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3":[6,0,0,1,34,1],
-"structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d":[6,0,0,1,34,2],
-"structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d":[6,0,0,1,34,0],
-"structMR_1_1PolylineSubdivideSettings.html":[6,0,0,15,0]
+"structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d":[6,0,0,1,34,2]
 };

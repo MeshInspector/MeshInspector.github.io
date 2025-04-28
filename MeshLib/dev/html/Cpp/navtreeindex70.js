@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[6,0,0,9,3,5,0],
+"structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22":[6,0,0,9,3,5,2],
 "structMR_1_1FillHoleNicelySettings.html":[6,0,1,0,1,230],
 "structMR_1_1FillHoleNicelySettings.html":[6,0,2,0,1,214],
 "structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79":[6,0,1,0,1,230,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,2,0,1,246,0,0],
 "structMR_1_1GridSettings.html":[6,0,1,0,1,263],
 "structMR_1_1GridSettings.html":[6,0,2,0,1,247],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[6,0,1,0,1,263,2],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[6,0,2,0,1,247,2],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[6,0,1,0,1,263,0]
+"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[6,0,1,0,1,263,2]
 };

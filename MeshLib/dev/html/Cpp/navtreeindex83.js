@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1SignedDistanceToMeshOptions.html#a0cd9e5d7a7828694eccf3cd8a455f47e":[6,0,1,0,1,649,0],
+"structMR_1_1SignedDistanceToMeshOptions.html#a0cd9e5d7a7828694eccf3cd8a455f47e":[6,0,2,0,1,633,0],
 "structMR_1_1SignedDistanceToMeshResult.html":[6,0,0,1,27],
 "structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[6,0,0,1,27,0],
 "structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec":[6,0,0,1,27,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1SymMatrix3.html#afb6ed3ffe4bdda5d6267cc44ef816e9c":[6,0,0,0,7,5,12],
 "structMR_1_1SymMatrix3.html#afc689ce07450f684b99051e555894ee7":[6,0,0,0,7,5,16],
 "structMR_1_1SymMatrix4.html":[6,0,0,0,7,6],
-"structMR_1_1SymMatrix4.html#a02636edb960785731936c618186131dd":[6,0,0,0,7,6,17],
-"structMR_1_1SymMatrix4.html#a0a5e9e9469df428b50136b463c5350a4":[6,0,0,0,7,6,6],
-"structMR_1_1SymMatrix4.html#a27b6e7fc3e23fc7528ad7a37f8629668":[6,0,0,0,7,6,11]
+"structMR_1_1SymMatrix4.html#a02636edb960785731936c618186131dd":[6,0,0,0,7,6,17]
 };
