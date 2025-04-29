@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1BitSetParallel.html#a8d363b4768efba11f60c43928c542bf1":[6,0,1,0,1,1,3],
+"namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307":[6,0,1,0,1,1,2],
+"namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[6,0,1,0,1,1,1],
+"namespaceMR_1_1Cuda.html":[6,0,1,0,1,2],
+"namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[6,0,1,0,1,2,15],
 "namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a":[6,0,1,0,1,2,23],
 "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0":[6,0,1,0,1,2,26],
 "namespaceMR_1_1Cuda.html#a2fed8d0688936d46135f8dad5f3497ee":[6,0,1,0,1,2,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1SelfIntersections.html":[6,0,1,0,1,35],
 "namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319":[6,0,1,0,1,35,2],
 "namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[6,0,1,0,1,35,1],
-"namespaceMR_1_1StyleConsts.html":[6,0,1,0,1,36],
-"namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[6,0,1,0,1,36,4],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,1,36,0],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[6,0,1,0,1,36,0,0],
-"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,1,36,1],
-"namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,1,0,1,36,1,0]
+"namespaceMR_1_1StyleConsts.html":[6,0,1,0,1,36]
 };

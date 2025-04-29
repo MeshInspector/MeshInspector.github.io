@@ -1,5 +1,10 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,1,0,1,215,2],
+"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,2,0,1,199,2],
+"structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[6,0,1,0,1,215,3],
+"structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[6,0,2,0,1,199,3],
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[6,0,1,0,1,215,0],
 "structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[6,0,2,0,1,199,0],
 "structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,1,0,1,215,0,1],
 "structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[6,0,2,0,1,199,0,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1FileParameters.html#a4712ec5afb78d48f6b26fd4813a720e7":[6,0,1,0,1,227,0],
 "structMR_1_1FileParameters.html#a4712ec5afb78d48f6b26fd4813a720e7":[6,0,2,0,1,211,0],
 "structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,1,0,1,227,2],
-"structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,2,0,1,211,2],
-"structMR_1_1FillHoleItem.html":[6,0,0,9,3,2],
-"structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1],
-"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0],
-"structMR_1_1FillHoleMetric.html":[6,0,0,9,3,5],
-"structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[6,0,0,9,3,5,1]
+"structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,2,0,1,211,2]
 };

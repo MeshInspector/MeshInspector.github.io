@@ -1,5 +1,11 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58aa7e82daa7280af25afbaa076ac16eb1e":[6,0,1,0,1,405,0,0],
+"structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58aa7e82daa7280af25afbaa076ac16eb1e":[6,0,2,0,1,389,0,0],
+"structMR_1_1MultiwayICPSamplingParameters.html#a570e9c958781bc09007f518931ca7b74":[6,0,1,0,1,405,2],
+"structMR_1_1MultiwayICPSamplingParameters.html#a570e9c958781bc09007f518931ca7b74":[6,0,2,0,1,389,2],
+"structMR_1_1MultiwayICPSamplingParameters.html#a8c84a0ef595c5238df9112eb6c6f3e86":[6,0,1,0,1,405,3],
+"structMR_1_1MultiwayICPSamplingParameters.html#a8c84a0ef595c5238df9112eb6c6f3e86":[6,0,2,0,1,389,3],
 "structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6":[6,0,1,0,1,405,4],
 "structMR_1_1MultiwayICPSamplingParameters.html#ab9d86e834ec046c7b72c094142d046c6":[6,0,2,0,1,389,4],
 "structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,1,0,1,405,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1OffsetContoursRestoreZParams.html#a1b3a2ad8c458d6b108bfb101240d3d2c":[6,0,2,0,1,436,0],
 "structMR_1_1OffsetContoursRestoreZParams.html#a438c80b5404a4c86a8a262af5bf56945":[6,0,1,0,1,452,2],
 "structMR_1_1OffsetContoursRestoreZParams.html#a438c80b5404a4c86a8a262af5bf56945":[6,0,2,0,1,436,2],
-"structMR_1_1OffsetContoursRestoreZParams.html#ad56a82055a6779969941251b8ad56f97":[6,0,1,0,1,452,1],
-"structMR_1_1OffsetContoursRestoreZParams.html#ad56a82055a6779969941251b8ad56f97":[6,0,2,0,1,436,1],
-"structMR_1_1OffsetParameters.html":[6,0,1,0,1,453],
-"structMR_1_1OffsetParameters.html":[6,0,2,0,1,437],
-"structMR_1_1OffsetParameters.html#a17a5a45fd3d4de2eba7280f9071ac737":[6,0,1,0,1,453,0],
-"structMR_1_1OffsetParameters.html#a17a5a45fd3d4de2eba7280f9071ac737":[6,0,2,0,1,437,0],
-"structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2":[6,0,1,0,1,453,1]
+"structMR_1_1OffsetContoursRestoreZParams.html#ad56a82055a6779969941251b8ad56f97":[6,0,1,0,1,452,1]
 };

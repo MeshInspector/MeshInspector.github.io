@@ -1142,7 +1142,7 @@ var searchData=
   ['mrmeshpy_3a_3aheap_5ffloat_5fgraphvertid_5fstd_5fgreater_5ffloat_1139',['Heap_float_GraphVertId_std_greater_float',['.././Py/classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3amarchingcubesparams_1140',['MarchingCubesParams',['.././Py/classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3ameshbuilder_1141',['MeshBuilder',['.././Py/classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3ameshcomponents_1142',['MeshComponents',['.././Py/classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3ameshcomponents_1142',['MeshComponents',['.././Py/classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3ameshsave_1143',['MeshSave',['.././Py/classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3amultiwayicpsamplingparameters_1144',['MultiwayICPSamplingParameters',['.././Py/classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3anormalstopoints_1145',['NormalsToPoints',['.././Py/classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html',1,'mrmeshpy']]],

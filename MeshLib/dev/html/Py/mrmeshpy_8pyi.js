@@ -445,6 +445,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.MeshBuilder.VertexIdentifier", "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html", "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier" ],
     [ "mrmeshpy.MeshBuilder.equalVector3f", "classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html", "classmrmeshpy_1_1MeshBuilder_1_1equalVector3f" ],
     [ "mrmeshpy.MeshComponents", "classmrmeshpy_1_1MeshComponents.html", "classmrmeshpy_1_1MeshComponents" ],
+    [ "mrmeshpy.MeshComponents.ExpandToComponentsParams", "classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html", "classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams" ],
     [ "mrmeshpy.MeshComponents.FaceIncidence", "classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html", "classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" ],
     [ "mrmeshpy.MeshComponents.LargeByAreaComponentsSettings", "classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ],
     [ "mrmeshpy.MeshDiff", "classmrmeshpy_1_1MeshDiff.html", "classmrmeshpy_1_1MeshDiff" ],

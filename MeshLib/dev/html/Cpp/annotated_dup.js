@@ -87,6 +87,7 @@ var annotated_dup =
         [ "VertSpan", "structMR_1_1MeshBuilder_1_1VertSpan.html", "structMR_1_1MeshBuilder_1_1VertSpan" ]
       ] ],
       [ "MeshComponents", "namespaceMR_1_1MeshComponents.html", [
+        [ "ExpandToComponentsParams", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
         [ "LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ]
       ] ],
       [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", [

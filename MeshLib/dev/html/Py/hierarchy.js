@@ -256,6 +256,7 @@ var hierarchy =
     [ "mrmeshpy.EnumNeihbourVertices", "classmrmeshpy_1_1EnumNeihbourVertices.html", null ],
     [ "mrmeshpy.MeshBuilder.equalVector3f", "classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "mrmeshpy.PrecipitationSimulator.Event", "classmrmeshpy_1_1PrecipitationSimulator_1_1Event.html", null ],
+    [ "mrmeshpy.MeshComponents.ExpandToComponentsParams", "classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html", null ],
     [ "mrmeshpy.expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid_std_string", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html", null ],
     [ "mrmeshpy.expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_vector_float_std_string", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html", null ],
     [ "mrmeshpy.ExtremeEdgeType", "classmrmeshpy_1_1ExtremeEdgeType.html", null ],

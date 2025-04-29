@@ -161,6 +161,8 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshComponents.html',''); initResizab
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html">ExpandToComponentsParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">FaceIncidence</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html">LargeByAreaComponentsSettings</a></td></tr>
@@ -170,6 +172,8 @@ Classes</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6495beaaac4f66402d568d63a55a8834" id="r_a6495beaaac4f66402d568d63a55a8834"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6495beaaac4f66402d568d63a55a8834">excludeFullySelectedComponents</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> <a class="elRef" href="../Cpp/group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2">selection</a>)</td></tr>
 <tr class="separator:a6495beaaac4f66402d568d63a55a8834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cb9d0765f59b37f553fb44a38377412" id="r_a7cb9d0765f59b37f553fb44a38377412"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cb9d0765f59b37f553fb44a38377412">expandToComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> mp, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> seeds, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html">MeshComponents.ExpandToComponentsParams</a> params='{}')</td></tr>
+<tr class="separator:a7cb9d0765f59b37f553fb44a38377412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac524b0459b0c9af64683aa26519968b3" id="r_ac524b0459b0c9af64683aa26519968b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac524b0459b0c9af64683aa26519968b3">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='<a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html#a658e1aa8fe340b6afcc3bf1b646b95b1">FaceIncidence::PerEdge</a>', <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__UndirectedEdgeTag.html">func_bool_from_Id_UndirectedEdgeTag</a> isCompBd='{}')</td></tr>
 <tr class="separator:ac524b0459b0c9af64683aa26519968b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1581c77ed3de7755808863ffb163b99" id="r_af1581c77ed3de7755808863ffb163b99"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html">std_vector_TaggedBitSet_FaceTag</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1581c77ed3de7755808863ffb163b99">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, int maxComponentCount, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='<a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html#a658e1aa8fe340b6afcc3bf1b646b95b1">FaceIncidence::PerEdge</a>', <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__UndirectedEdgeTag.html">func_bool_from_Id_UndirectedEdgeTag</a> isCompBd='{}')</td></tr>
@@ -275,6 +279,41 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <pre class="fragment">if all vertices of a mesh connected component are present in selection, excludes these vertices
+</pre> 
+</div>
+</div>
+<a id="a7cb9d0765f59b37f553fb44a38377412" name="a7cb9d0765f59b37f553fb44a38377412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb9d0765f59b37f553fb44a38377412">&#9670;&#160;</a></span>expandToComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> mrmeshpy.MeshComponents.expandToComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>seeds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html">MeshComponents.ExpandToComponentsParams</a> </td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">expands given seeds to whole components
 </pre> 
 </div>
 </div>

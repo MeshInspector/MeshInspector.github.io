@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1OffsetContoursRestoreZParams.html#ad56a82055a6779969941251b8ad56f97":[6,0,2,0,1,436,1],
+"structMR_1_1OffsetParameters.html":[6,0,1,0,1,453],
+"structMR_1_1OffsetParameters.html":[6,0,2,0,1,437],
+"structMR_1_1OffsetParameters.html#a17a5a45fd3d4de2eba7280f9071ac737":[6,0,1,0,1,453,0],
+"structMR_1_1OffsetParameters.html#a17a5a45fd3d4de2eba7280f9071ac737":[6,0,2,0,1,437,0],
+"structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2":[6,0,1,0,1,453,1],
 "structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2":[6,0,2,0,1,437,1],
 "structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26":[6,0,1,0,1,453,3],
 "structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26":[6,0,2,0,1,437,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,2,0,1,14,3,1],
 "structMR_1_1Plane3.html":[6,0,0,0,18],
 "structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad":[6,0,0,0,18,0],
-"structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3":[6,0,0,0,18,4],
-"structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5":[6,0,0,0,18,9],
-"structMR_1_1Plane3.html#a3c50c85a67a6ef9fa20e8e11efbd2ac2":[6,0,0,0,18,7],
-"structMR_1_1Plane3.html#a4f9977f7a0aeb3eaba36bc94e95143a9":[6,0,0,0,18,3],
-"structMR_1_1Plane3.html#a6a3380250b17c409373c0969b61f8fe5":[6,0,0,0,18,5],
-"structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63":[6,0,0,0,18,11],
-"structMR_1_1Plane3.html#a739d4610cb98552feee7c78ca3d30878":[6,0,0,0,18,2]
+"structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3":[6,0,0,0,18,4]
 };
