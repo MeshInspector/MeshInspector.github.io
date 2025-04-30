@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMeshComponents_8h.html#a8f5f866ebac2238589128badcd372f09":[6,0,3,0,0,1,5,31,3],
+"MRMeshC_2MRMeshComponents_8h.html#a9f78ddfc346592c9165ac5b95ae4f3d1":[6,0,3,0,0,1,5,31,2],
+"MRMeshC_2MRMeshComponents_8h.html#aa1354281ea011209786e2fabdae08520":[6,0,3,0,0,1,5,31,8],
+"MRMeshC_2MRMeshComponents_8h_source.html":[6,0,3,0,0,1,5,31],
+"MRMeshC_2MRMeshDecimate_8h.html":[6,0,3,0,0,1,5,32],
+"MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1a":[6,0,3,0,0,1,5,32,9],
+"MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1aacd39dfcd6c0f1a6b49d6dd906582d684":[6,0,3,0,0,1,5,32,9,1],
+"MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1aafec0f5b1956d0b99efc97ae9f66abfa2":[6,0,3,0,0,1,5,32,9,0],
 "MRMeshC_2MRMeshDecimate_8h.html#a28ebe613ca2c482fde49670ce5f1dbf2":[6,0,3,0,0,1,5,32,8],
 "MRMeshC_2MRMeshDecimate_8h.html#a34fe1bc0fa3d190d8af42139a6ee7c36":[6,0,3,0,0,1,5,32,4],
 "MRMeshC_2MRMeshDecimate_8h.html#a4bd5dbcf55b5b8178f0d130cdf8902ca":[6,0,3,0,0,1,5,32,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRPointCloud_8h.html#a7f96795562f933949126c2a97f4b1271":[6,0,3,0,0,1,5,54,10],
 "MRMeshC_2MRPointCloud_8h.html#a83b780a11d00fe741ecf46699920debf":[6,0,3,0,0,1,5,54,6],
 "MRMeshC_2MRPointCloud_8h.html#a88b4aa69ad48bdea4d15724f942e7ff5":[6,0,3,0,0,1,5,54,4],
-"MRMeshC_2MRPointCloud_8h.html#a8ab439f4039ec8d144c1ed593c7d5f59":[6,0,3,0,0,1,5,54,2],
-"MRMeshC_2MRPointCloud_8h.html#aaf0e7a0bb881a2b870dbd3612347864c":[6,0,3,0,0,1,5,54,3],
-"MRMeshC_2MRPointCloud_8h.html#ac66eee562b6c817093510de592dddd1a":[6,0,3,0,0,1,5,54,9],
-"MRMeshC_2MRPointCloud_8h.html#acc1dc0b47754967aeed02fcdc0bb6272":[6,0,3,0,0,1,5,54,11],
-"MRMeshC_2MRPointCloud_8h.html#acd0b83abac0a5e1f4ef2d2d63878d20b":[6,0,3,0,0,1,5,54,0],
-"MRMeshC_2MRPointCloud_8h.html#ad9ae4db89a6e2914ef2a0a65779e6333":[6,0,3,0,0,1,5,54,12],
-"MRMeshC_2MRPointCloud_8h.html#ad9f3c3dd86e0d25f7dabbcc1cc26118d":[6,0,3,0,0,1,5,54,7],
-"MRMeshC_2MRPointCloud_8h_source.html":[6,0,3,0,0,1,5,54],
-"MRMeshC_2MRPointOnFace_8h.html":[6,0,3,0,0,1,5,56]
+"MRMeshC_2MRPointCloud_8h.html#a8ab439f4039ec8d144c1ed593c7d5f59":[6,0,3,0,0,1,5,54,2]
 };

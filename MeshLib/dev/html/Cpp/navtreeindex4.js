@@ -1,5 +1,13 @@
 var NAVTREEINDEX4 =
 {
+"MRInTreePathBuilder_8h_source.html":[6,0,3,0,0,1,4,146],
+"MRInnerShell_8h.html":[6,0,3,0,0,1,4,141],
+"MRInnerShell_8h.html#a45eadaaa9f092b26db49fefe2d744845":[6,0,3,0,0,1,4,141,5],
+"MRInnerShell_8h.html#a494f6ca56c512e886474f7209f624c48":[6,0,3,0,0,1,4,141,2],
+"MRInnerShell_8h.html#a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147":[6,0,3,0,0,1,4,141,2,1],
+"MRInnerShell_8h.html#a494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b":[6,0,3,0,0,1,4,141,2,0],
+"MRInnerShell_8h.html#a8c21cd349fa1cdfe46c2c1ee2a00806b":[6,0,3,0,0,1,4,141,4],
+"MRInnerShell_8h.html#abb745ff271bba30db642c45f4a5d6664":[6,0,3,0,0,1,4,141,3],
 "MRInnerShell_8h_source.html":[6,0,3,0,0,1,4,141],
 "MRIntersectionPrecomputes2_8h.html":[6,0,3,0,0,1,4,145],
 "MRIntersectionPrecomputes2_8h_source.html":[6,0,3,0,0,1,4,145],
@@ -241,13 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRBooleanOperation_8h.html#a755f2ee37b0f54fb24695f20ff3baca1a533dbfce92d74ed35a8ff1666e74d7bf":[6,0,3,0,0,1,5,4,5,2],
 "MRMeshC_2MRBooleanOperation_8h.html#a755f2ee37b0f54fb24695f20ff3baca1a84d7bf50effb5fed6bdca496bb33b6a7":[6,0,3,0,0,1,5,4,5,1],
 "MRMeshC_2MRBooleanOperation_8h.html#a7cbd1e994c26aa38ddb5e56a93b042f7":[6,0,3,0,0,1,5,4,15],
-"MRMeshC_2MRBooleanOperation_8h.html#a9885ed963220dd68152f70382e5a070e":[6,0,3,0,0,1,5,4,9],
-"MRMeshC_2MRBooleanOperation_8h.html#aa82b6c9d277aa28feda5f34b0cdd4f40":[6,0,3,0,0,1,5,4,17],
-"MRMeshC_2MRBooleanOperation_8h.html#ac0be103f321feff0a8e65d9216e4d334":[6,0,3,0,0,1,5,4,18],
-"MRMeshC_2MRBooleanOperation_8h.html#ac16fc5c9b1cdc8b8aaee2e6d5149c425":[6,0,3,0,0,1,5,4,7],
-"MRMeshC_2MRBooleanOperation_8h.html#ad8f0ebf41da815f8e44bf234019e6180":[6,0,3,0,0,1,5,4,11],
-"MRMeshC_2MRBooleanOperation_8h.html#ae44aeab642672cace48f2d7fc685b996":[6,0,3,0,0,1,5,4,8],
-"MRMeshC_2MRBooleanOperation_8h.html#aed19152d61475195ba2d79dcda07fd4a":[6,0,3,0,0,1,5,4,3],
-"MRMeshC_2MRBooleanOperation_8h.html#af827309aa48f5c4df6927a05fa191c65":[6,0,3,0,0,1,5,4,6],
-"MRMeshC_2MRBooleanOperation_8h_source.html":[6,0,3,0,0,1,5,4]
+"MRMeshC_2MRBooleanOperation_8h.html#a9885ed963220dd68152f70382e5a070e":[6,0,3,0,0,1,5,4,9]
 };

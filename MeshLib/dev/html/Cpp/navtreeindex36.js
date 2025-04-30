@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PriorityQueue.html#a5f49205aba3f95b0774623effbc87e49":[6,0,1,0,1,532,13],
+"classMR_1_1PriorityQueue.html#a5f49205aba3f95b0774623effbc87e49":[6,0,2,0,1,516,13],
+"classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,1,0,1,532,1],
+"classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,2,0,1,516,1],
+"classMR_1_1PriorityQueue.html#a7bf03b4612ec1dfe18e90b99153030cc":[6,0,1,0,1,532,5],
+"classMR_1_1PriorityQueue.html#a7bf03b4612ec1dfe18e90b99153030cc":[6,0,2,0,1,516,5],
+"classMR_1_1PriorityQueue.html#aae44e735cc86835adbb6d48ff4a446ab":[6,0,1,0,1,532,3],
+"classMR_1_1PriorityQueue.html#aae44e735cc86835adbb6d48ff4a446ab":[6,0,2,0,1,516,3],
 "classMR_1_1PriorityQueue.html#ab6d4bc3f087a1d5b9e3acf5c3334f1af":[6,0,1,0,1,532,11],
 "classMR_1_1PriorityQueue.html#ab6d4bc3f087a1d5b9e3acf5c3334f1af":[6,0,2,0,1,516,11],
 "classMR_1_1PriorityQueue.html#ac59724ac4d832ab0bd70f42d9c2170d1":[6,0,1,0,1,532,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RectIndexer.html#ac517f36a12430a41779b1e7fd847684b":[6,0,0,5,8,5],
 "classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,8,14],
 "classMR_1_1RegisterRenderObjectConstructor.html":[6,0,1,0,1,553],
-"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,2,0,1,537],
-"classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,1,0,1,553,0],
-"classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,2,0,1,537,0],
-"classMR_1_1RegularMapMesher.html":[6,0,0,12,3],
-"classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa":[6,0,0,12,3,1],
-"classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14":[6,0,0,12,3,3],
-"classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739":[6,0,0,12,3,2],
-"classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785":[6,0,0,12,3,4],
-"classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499":[6,0,0,12,3,0]
+"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,2,0,1,537]
 };

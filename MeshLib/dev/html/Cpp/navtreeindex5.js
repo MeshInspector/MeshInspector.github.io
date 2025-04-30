@@ -1,5 +1,13 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRBooleanOperation_8h.html#aa82b6c9d277aa28feda5f34b0cdd4f40":[6,0,3,0,0,1,5,4,17],
+"MRMeshC_2MRBooleanOperation_8h.html#ac0be103f321feff0a8e65d9216e4d334":[6,0,3,0,0,1,5,4,18],
+"MRMeshC_2MRBooleanOperation_8h.html#ac16fc5c9b1cdc8b8aaee2e6d5149c425":[6,0,3,0,0,1,5,4,7],
+"MRMeshC_2MRBooleanOperation_8h.html#ad8f0ebf41da815f8e44bf234019e6180":[6,0,3,0,0,1,5,4,11],
+"MRMeshC_2MRBooleanOperation_8h.html#ae44aeab642672cace48f2d7fc685b996":[6,0,3,0,0,1,5,4,8],
+"MRMeshC_2MRBooleanOperation_8h.html#aed19152d61475195ba2d79dcda07fd4a":[6,0,3,0,0,1,5,4,3],
+"MRMeshC_2MRBooleanOperation_8h.html#af827309aa48f5c4df6927a05fa191c65":[6,0,3,0,0,1,5,4,6],
+"MRMeshC_2MRBooleanOperation_8h_source.html":[6,0,3,0,0,1,5,4],
 "MRMeshC_2MRBox_8h.html":[6,0,3,0,0,1,5,5],
 "MRMeshC_2MRBox_8h.html#a022e4115a8ed5abd897940fe3abf33e1":[6,0,3,0,0,1,5,5,16],
 "MRMeshC_2MRBox_8h.html#a06bc6330d9ff4fcb221988b7281b8240":[6,0,3,0,0,1,5,5,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRMeshComponents_8h.html#a690f5e321942ffef132d18e853c88b9b":[6,0,3,0,0,1,5,31,4],
 "MRMeshC_2MRMeshComponents_8h.html#a6e5928e30f83e59db58196d11924037b":[6,0,3,0,0,1,5,31,9],
 "MRMeshC_2MRMeshComponents_8h.html#a76f39778486a67b5a8c3fe5f6cdaabf2":[6,0,3,0,0,1,5,31,10],
-"MRMeshC_2MRMeshComponents_8h.html#a8d90de4b1779b117b3380804a0d0b3f7":[6,0,3,0,0,1,5,31,11],
-"MRMeshC_2MRMeshComponents_8h.html#a8f5f866ebac2238589128badcd372f09":[6,0,3,0,0,1,5,31,3],
-"MRMeshC_2MRMeshComponents_8h.html#a9f78ddfc346592c9165ac5b95ae4f3d1":[6,0,3,0,0,1,5,31,2],
-"MRMeshC_2MRMeshComponents_8h.html#aa1354281ea011209786e2fabdae08520":[6,0,3,0,0,1,5,31,8],
-"MRMeshC_2MRMeshComponents_8h_source.html":[6,0,3,0,0,1,5,31],
-"MRMeshC_2MRMeshDecimate_8h.html":[6,0,3,0,0,1,5,32],
-"MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1a":[6,0,3,0,0,1,5,32,9],
-"MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1aacd39dfcd6c0f1a6b49d6dd906582d684":[6,0,3,0,0,1,5,32,9,1],
-"MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1aafec0f5b1956d0b99efc97ae9f66abfa2":[6,0,3,0,0,1,5,32,9,0]
+"MRMeshC_2MRMeshComponents_8h.html#a8d90de4b1779b117b3380804a0d0b3f7":[6,0,3,0,0,1,5,31,11]
 };

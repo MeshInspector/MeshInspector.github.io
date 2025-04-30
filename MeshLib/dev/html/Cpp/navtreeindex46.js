@@ -1,5 +1,13 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1Viewer.html#a874ef8410c1288964219fb79289c1d55":[6,0,1,0,1,755,104],
+"classMR_1_1Viewer.html#a874ef8410c1288964219fb79289c1d55":[6,0,2,0,1,739,104],
+"classMR_1_1Viewer.html#a881f953c9d192cce78219319c2cdf0bb":[6,0,1,0,1,755,85],
+"classMR_1_1Viewer.html#a881f953c9d192cce78219319c2cdf0bb":[6,0,2,0,1,739,85],
+"classMR_1_1Viewer.html#a887ec835084d7b161d6f205939c4abab":[6,0,1,0,1,755,158],
+"classMR_1_1Viewer.html#a887ec835084d7b161d6f205939c4abab":[6,0,2,0,1,739,158],
+"classMR_1_1Viewer.html#a8be17247df8805e3856399ff624ea7e5":[6,0,1,0,1,755,109],
+"classMR_1_1Viewer.html#a8be17247df8805e3856399ff624ea7e5":[6,0,2,0,1,739,109],
 "classMR_1_1Viewer.html#a8ccb109914abd8045ab1b63aa01f96ca":[6,0,1,0,1,755,204],
 "classMR_1_1Viewer.html#a8ccb109914abd8045ab1b63aa01f96ca":[6,0,2,0,1,739,204],
 "classMR_1_1Viewer.html#a8d5250e84d2551d0a55d55851ed8904f":[6,0,1,0,1,755,191],
@@ -241,13 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab":[6,0,1,0,1,757,0],
 "classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab":[6,0,2,0,1,741,0],
 "classMR_1_1ViewerSettingsManager.html":[6,0,1,0,1,758],
-"classMR_1_1ViewerSettingsManager.html":[6,0,2,0,1,742],
-"classMR_1_1ViewerSettingsManager.html#a042d3ed32be3a4c2a05955e2ff522edb":[6,0,1,0,1,758,8],
-"classMR_1_1ViewerSettingsManager.html#a042d3ed32be3a4c2a05955e2ff522edb":[6,0,2,0,1,742,8],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76":[6,0,1,0,1,758,0],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76":[6,0,2,0,1,742,0],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0":[6,0,1,0,1,758,0,3],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0":[6,0,2,0,1,742,0,3],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a710fdb6adb881b408116ef95335e1961":[6,0,1,0,1,758,0,0],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a710fdb6adb881b408116ef95335e1961":[6,0,2,0,1,742,0,0]
+"classMR_1_1ViewerSettingsManager.html":[6,0,2,0,1,742]
 };
