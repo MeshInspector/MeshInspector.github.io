@@ -188,8 +188,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aabe16074e6015948907bc5f4c07fbf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eca00503ee246c60ad6350ca7d384e7" id="r_a2eca00503ee246c60ad6350ca7d384e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector3__float.html">std_vector_std_vector_Vector3_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eca00503ee246c60ad6350ca7d384e7">contours</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html">std_vector_std_vector_Id_VertTag</a> vertMap=None)</td></tr>
 <tr class="separator:a2eca00503ee246c60ad6350ca7d384e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a18e142278281227d4fa687c7b9f3fc" id="r_a3a18e142278281227d4fa687c7b9f3fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a18e142278281227d4fa687c7b9f3fc">contours2</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html">std_vector_std_vector_Id_VertTag</a> vertMap=None)</td></tr>
-<tr class="separator:a3a18e142278281227d4fa687c7b9f3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb52433f4300ca62421f3acba706aaab" id="r_adb52433f4300ca62421f3acba706aaab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb52433f4300ca62421f3acba706aaab">destPnt</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e)</td></tr>
 <tr class="separator:adb52433f4300ca62421f3acba706aaab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a172f00d78165b9e55a8facb56b4b7fb3" id="r_a172f00d78165b9e55a8facb56b4b7fb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a172f00d78165b9e55a8facb56b4b7fb3">edgeCenter</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e)</td></tr>
@@ -628,30 +626,6 @@ each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a p
       </table>
 </div><div class="memdoc">
 <pre class="fragment">convert Polyline to simple contour structures with vector of points inside
-\\details if all even edges are consistently oriented, then the output contours will be oriented the same
-\\param vertMap optional output map for for each contour point to corresponding VertId
-</pre> 
-</div>
-</div>
-<a id="a3a18e142278281227d4fa687c7b9f3fc" name="a3a18e142278281227d4fa687c7b9f3fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a18e142278281227d4fa687c7b9f3fc">&#9670;&#160;</a></span>contours2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a> mrmeshpy.Polyline3.contours2 </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html">std_vector_std_vector_Id_VertTag</a> </td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">convert Polyline to simple 2D contour structures with vector of points inside
 \\details if all even edges are consistently oriented, then the output contours will be oriented the same
 \\param vertMap optional output map for for each contour point to corresponding VertId
 </pre> 

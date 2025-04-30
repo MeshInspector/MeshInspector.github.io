@@ -13,7 +13,6 @@ var structMR_1_1Polyline =
     [ "addPartByMask", "structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609", null ],
     [ "computeBoundingBox", "structMR_1_1Polyline.html#af1debf021b9bc68d02c2905e0527ab11", null ],
     [ "contours", "structMR_1_1Polyline.html#a91470a70289b04baf4e278a4b7c4702b", null ],
-    [ "contours2", "structMR_1_1Polyline.html#ab5ba9b1bd705b2eee1f6faa6e1a1ab29", null ],
     [ "destPnt", "structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a", null ],
     [ "edgeCenter", "structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641", null ],
     [ "edgeLength", "structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0", null ],

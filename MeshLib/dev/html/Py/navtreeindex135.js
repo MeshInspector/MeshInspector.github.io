@@ -1,9 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"classmrmeshpy_1_1std__vector__OneMeshContour.html":[6,1,0,0,2,863],
-"classmrmeshpy_1_1std__vector__OneMeshContour.html":[6,1,1,0,1,863],
-"classmrmeshpy_1_1std__vector__OneMeshContour.html#a00e803ceb37abe7ba83822d7f77aaf89":[6,1,0,0,2,863,19],
-"classmrmeshpy_1_1std__vector__OneMeshContour.html#a00e803ceb37abe7ba83822d7f77aaf89":[6,1,1,0,1,863,19],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html#a044cc0b09d4dfa7aa4423fd66db169ce":[6,1,0,0,2,863,18],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html#a044cc0b09d4dfa7aa4423fd66db169ce":[6,1,1,0,1,863,18],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html#a22a22f39c3b78d2de045e39d3f57da59":[6,1,0,0,2,863,10],
@@ -249,5 +245,9 @@ var NAVTREEINDEX135 =
 "classmrmeshpy_1_1std__vector__PointPair.html#afbb4b7979d46291084a8837107760d98":[6,1,0,0,2,867,9],
 "classmrmeshpy_1_1std__vector__PointPair.html#afbb4b7979d46291084a8837107760d98":[6,1,1,0,1,867,9],
 "classmrmeshpy_1_1std__vector__PointPair.html#afe8e67506c18a35b65b71f432576a436":[6,1,0,0,2,867,1],
-"classmrmeshpy_1_1std__vector__PointPair.html#afe8e67506c18a35b65b71f432576a436":[6,1,1,0,1,867,1]
+"classmrmeshpy_1_1std__vector__PointPair.html#afe8e67506c18a35b65b71f432576a436":[6,1,1,0,1,867,1],
+"classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html":[6,1,0,0,2,868],
+"classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html":[6,1,1,0,1,868],
+"classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#a1073b8ebcbe97b722c6e7a153cfd5e29":[6,1,0,0,2,868,15],
+"classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#a1073b8ebcbe97b722c6e7a153cfd5e29":[6,1,1,0,1,868,15]
 };

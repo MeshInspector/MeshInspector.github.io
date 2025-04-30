@@ -14,7 +14,6 @@ var classmrmeshpy_1_1Polyline3 =
     [ "addPartByMask", "classmrmeshpy_1_1Polyline3.html#aa9f8d6d0589d51ffeeb65017ea87e93e", null ],
     [ "computeBoundingBox", "classmrmeshpy_1_1Polyline3.html#aabe16074e6015948907bc5f4c07fbf58", null ],
     [ "contours", "classmrmeshpy_1_1Polyline3.html#a2eca00503ee246c60ad6350ca7d384e7", null ],
-    [ "contours2", "classmrmeshpy_1_1Polyline3.html#a3a18e142278281227d4fa687c7b9f3fc", null ],
     [ "destPnt", "classmrmeshpy_1_1Polyline3.html#adb52433f4300ca62421f3acba706aaab", null ],
     [ "edgeCenter", "classmrmeshpy_1_1Polyline3.html#a172f00d78165b9e55a8facb56b4b7fb3", null ],
     [ "edgeLength", "classmrmeshpy_1_1Polyline3.html#a324b020a187434936d8069ff33c6931e", null ],
