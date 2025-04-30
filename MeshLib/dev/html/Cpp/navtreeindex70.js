@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,2,0,1,209,0],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,1,0,1,225,3],
 "structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,209,3],
 "structMR_1_1FileLoadOptions.html":[6,0,1,0,1,226],
 "structMR_1_1FileLoadOptions.html":[6,0,2,0,1,210],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,240],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,256,1],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,240,1],
-"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,256,0],
-"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,1,240,0],
-"structMR_1_1GlTexture_1_1Settings.html":[6,0,1,0,1,259,0]
+"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,256,0]
 };
