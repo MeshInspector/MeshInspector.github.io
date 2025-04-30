@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,2,0,1,582,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[6,0,1,0,1,598,0,1],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[6,0,2,0,1,582,0,1],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035":[6,0,1,0,1,598,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1ShortcutKey.html":[6,0,1,0,1,647],
 "structMR_1_1ShortcutKey.html":[6,0,2,0,1,631],
 "structMR_1_1ShortcutKey.html#a3a4d01661553cca5e961b0ee03e3985f":[6,0,1,0,1,647,1],
-"structMR_1_1ShortcutKey.html#a3a4d01661553cca5e961b0ee03e3985f":[6,0,2,0,1,631,1],
-"structMR_1_1ShortcutKey.html#abf821c4d4f21815cbd391fa9ae9c6750":[6,0,1,0,1,647,0]
+"structMR_1_1ShortcutKey.html#a3a4d01661553cca5e961b0ee03e3985f":[6,0,2,0,1,631,1]
 };

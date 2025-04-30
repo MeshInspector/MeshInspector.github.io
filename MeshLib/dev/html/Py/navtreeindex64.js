@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#aab248134fcc962602959349b4dad1baa":[6,1,0,0,2,652,4],
+"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#aab248134fcc962602959349b4dad1baa":[6,1,1,0,1,652,4],
+"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#aea6a486974cbd2089d2d755323de720f":[6,1,0,0,2,652,1],
+"classmrmeshpy_1_1PointsToDistanceVolumeParams.html#aea6a486974cbd2089d2d755323de720f":[6,1,1,0,1,652,1],
 "classmrmeshpy_1_1PointsToMeshParameters.html":[6,1,0,0,2,653],
 "classmrmeshpy_1_1PointsToMeshParameters.html":[6,1,1,0,1,653],
 "classmrmeshpy_1_1PointsToMeshParameters.html#a0613b95e78f37f47258e1afcf697fb45":[6,1,0,0,2,653,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1Polyline3.html#aff279aaef2ede055940f6e67e6dec6d8":[6,1,0,0,2,660,35],
 "classmrmeshpy_1_1Polyline3.html#aff279aaef2ede055940f6e67e6dec6d8":[6,1,1,0,1,660,35],
 "classmrmeshpy_1_1PolylineComponents.html":[6,1,0,0,2,661],
-"classmrmeshpy_1_1PolylineComponents.html":[6,1,1,0,1,661],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html":[6,1,0,0,2,662],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html":[6,1,1,0,1,662],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html#a376c6d39f073e73d8ed4e4ddb4e3bcf2":[6,1,0,0,2,662,2],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html#a376c6d39f073e73d8ed4e4ddb4e3bcf2":[6,1,1,0,1,662,2]
+"classmrmeshpy_1_1PolylineComponents.html":[6,1,1,0,1,661]
 };

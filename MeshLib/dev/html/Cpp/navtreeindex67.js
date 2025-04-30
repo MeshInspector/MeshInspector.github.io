@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1CubicBezierCurve.html":[6,0,2,0,1,142],
 "structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06":[6,0,1,0,1,158,3],
 "structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06":[6,0,2,0,1,142,3],
 "structMR_1_1CubicBezierCurve.html#a6b83dc1d69f50bd387ec3bf5392c92c2":[6,0,1,0,1,158,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f":[6,0,1,0,1,192,1],
 "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f":[6,0,2,0,1,176,1],
 "structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,1,0,1,192,0],
-"structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,2,0,1,176,0],
-"structMR_1_1DistanceVolumeParams.html":[6,0,1,0,1,193]
+"structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,2,0,1,176,0]
 };

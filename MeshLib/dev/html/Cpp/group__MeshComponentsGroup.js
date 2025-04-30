@@ -4,7 +4,8 @@ var group__MeshComponentsGroup =
       [ "cb", "group__MeshComponentsGroup.html#gaee9c119e10ee9a63b219e9db0061a578", null ],
       [ "coverRatio", "group__MeshComponentsGroup.html#gabbe32ea54819d615cd13a10a9c99193c", null ],
       [ "incidence", "group__MeshComponentsGroup.html#ga9fa4046abd37f9758ba01336676cf2c1", null ],
-      [ "isCompBd", "group__MeshComponentsGroup.html#ga1ea8faa6b7c4efd6cae93e692130ad04", null ]
+      [ "isCompBd", "group__MeshComponentsGroup.html#ga1ea8faa6b7c4efd6cae93e692130ad04", null ],
+      [ "optOutNumComponents", "group__MeshComponentsGroup.html#gaa6bdb8eb71da275b3fcf70fdeb43199f", null ]
     ] ],
     [ "MR::MeshComponents::LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", [
       [ "isCompBd", "group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6", null ],
@@ -64,5 +65,6 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd", "group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6", null ],
     [ "MR::MeshComponents::LargeByAreaComponentsSettings::maxLargeComponents", "group__MeshComponentsGroup.html#ga37b0bf2cf4c042ffe4a78515e1678539", null ],
     [ "MR::MeshComponents::LargeByAreaComponentsSettings::minArea", "group__MeshComponentsGroup.html#ga636d67f78f166efbfe9ac18cc9d0d530", null ],
-    [ "MR::MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents", "group__MeshComponentsGroup.html#gaeaa75229a5b3cb60dc76ff1032f4c655", null ]
+    [ "MR::MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents", "group__MeshComponentsGroup.html#gaeaa75229a5b3cb60dc76ff1032f4c655", null ],
+    [ "MR::MeshComponents::ExpandToComponentsParams::optOutNumComponents", "group__MeshComponentsGroup.html#gaa6bdb8eb71da275b3fcf70fdeb43199f", null ]
 ];

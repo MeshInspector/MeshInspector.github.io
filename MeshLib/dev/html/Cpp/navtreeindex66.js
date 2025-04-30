@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[6,0,2,0,1,67,0,5],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,1,0,1,83,0,1],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,2,0,1,67,0,1],
 "structMR_1_1Box.html":[6,0,0,0,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,2,0,1,141,0],
 "structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,1,0,1,157,1],
 "structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,2,0,1,141,1],
-"structMR_1_1CubicBezierCurve.html":[6,0,1,0,1,158],
-"structMR_1_1CubicBezierCurve.html":[6,0,2,0,1,142]
+"structMR_1_1CubicBezierCurve.html":[6,0,1,0,1,158]
 };
