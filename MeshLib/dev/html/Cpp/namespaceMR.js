@@ -2440,6 +2440,8 @@ var namespaceMR =
     [ "loadSceneFromAnySupportedFormat", "group__DataModelGroup.html#ga873b67818008b890a9733f438d361235", null ],
     [ "loadStl", "namespaceMR.html#ac6564112e23d53f7ffca39d6df6d10b0", null ],
     [ "loadStl", "namespaceMR.html#a6ad5ce754cee93f2e689cc16272b7043", null ],
+    [ "Localtime", "namespaceMR.html#af512834da94a52f6e752e99c3b362215", null ],
+    [ "LocaltimeOrZero", "namespaceMR.html#a8e82282261ee84105f315c6fb1923545", null ],
     [ "lookAt", "group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da", null ],
     [ "makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
     [ "makeArrow", "namespaceMR.html#abbe2dca6a39a0c9dae0abc3d1a6caac4", null ],
