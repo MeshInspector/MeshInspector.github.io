@@ -183,19 +183,34 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa55cfbdcd7e9bd8660db878f94e585e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a905ac9fe4b1e55d4549101ef9fefc" id="r_aa2a905ac9fe4b1e55d4549101ef9fefc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2a905ac9fe4b1e55d4549101ef9fefc">interpolationDist</a> = 0</td></tr>
 <tr class="separator:aa2a905ac9fe4b1e55d4549101ef9fefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a29cdd0d90533e9db1ae49209214c65" id="r_a0a29cdd0d90533e9db1ae49209214c65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a29cdd0d90533e9db1ae49209214c65">bidirectionalMode</a> = true</td></tr>
+<tr class="separator:a0a29cdd0d90533e9db1ae49209214c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structMR_1_1WeightedPointsShellParametersBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structMR_1_1WeightedPointsShellParametersBase')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1WeightedPointsShellParametersBase.html">MR::WeightedPointsShellParametersBase</a></td></tr>
 <tr class="memitem:a33dd0e62b199f7afc14f319a4128476d inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase" id="r_a33dd0e62b199f7afc14f319a4128476d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParametersBase.html#a33dd0e62b199f7afc14f319a4128476d">offset</a> = 0</td></tr>
 <tr class="memdesc:a33dd0e62b199f7afc14f319a4128476d inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">build iso-surface of minimal distance to points corresponding to this value  <br /></td></tr>
 <tr class="separator:a33dd0e62b199f7afc14f319a4128476d inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a002cda7368a1fa1da5908c8e4d6f0 inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase" id="r_ae8a002cda7368a1fa1da5908c8e4d6f0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParametersBase.html#ae8a002cda7368a1fa1da5908c8e4d6f0">voxelSize</a> = 0</td></tr>
 <tr class="separator:ae8a002cda7368a1fa1da5908c8e4d6f0 inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaff2095184df758f6667d5be5368f6ae inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase" id="r_aaff2095184df758f6667d5be5368f6ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParametersBase.html#aaff2095184df758f6667d5be5368f6ae">signDistanceByNormal</a> = false</td></tr>
-<tr class="separator:aaff2095184df758f6667d5be5368f6ae inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4422f957a7540482111b7e1e9a10514 inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase" id="r_ad4422f957a7540482111b7e1e9a10514"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1WeightedPointsShellParametersBase.html#ad4422f957a7540482111b7e1e9a10514">progress</a></td></tr>
 <tr class="memdesc:ad4422f957a7540482111b7e1e9a10514 inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
 <tr class="separator:ad4422f957a7540482111b7e1e9a10514 inherit pub_attribs_structMR_1_1WeightedPointsShellParametersBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0a29cdd0d90533e9db1ae49209214c65" name="a0a29cdd0d90533e9db1ae49209214c65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a29cdd0d90533e9db1ae49209214c65">&#9670;&#160;</a></span>bidirectionalMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::WeightedPointsShellParametersRegions::bidirectionalMode = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle's normals, and decrease to minus infinity in the opposite direction </p>
+
+</div>
+</div>
 <a id="aa2a905ac9fe4b1e55d4549101ef9fefc" name="aa2a905ac9fe4b1e55d4549101ef9fefc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2a905ac9fe4b1e55d4549101ef9fefc">&#9670;&#160;</a></span>interpolationDist</h2>
 

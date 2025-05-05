@@ -47,7 +47,7 @@ var searchData=
   ['bestfitparabolaf_44',['BestFitParabolaf',['.././Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c',1,'MR']]],
   ['beta_45',['beta',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a',1,'MR::DenoiseViaNormalsSettings::beta'],['.././Cpp/structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e',1,'MRDenoiseViaNormalsSettings::beta']]],
   ['bface_46',['bFace',['.././Cpp/structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc',1,'MR::FaceFace']]],
-  ['bidirectionalmode_47',['bidirectionalMode',['.././Cpp/structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2',1,'MR::DistanceFromWeightedPointsParams']]],
+  ['bidirectionalmode_47',['bidirectionalMode',['.././Cpp/structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2',1,'MR::DistanceFromWeightedPointsParams::bidirectionalMode'],['.././Cpp/structMR_1_1WeightedPointsShellParametersRegions.html#a0a29cdd0d90533e9db1ae49209214c65',1,'MR::WeightedPointsShellParametersRegions::bidirectionalMode']]],
   ['big_48',['Big',['.././Cpp/structMR_1_1DrawButtonParams.html#ad592bb614e9ec6cf631c4eb003a17103',1,'MR::DrawButtonParams']]],
   ['bigtitlepadding_49',['bigTitlePadding',['.././Cpp/namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf',1,'MR::StyleConsts::Modal']]],
   ['bitset_50',['BitSet',['.././Cpp/namespaceMR.html#a0644533afbeab941be3a4178a8feb4fe',1,'MR']]],
