@@ -1,5 +1,9 @@
 var NAVTREEINDEX110 =
 {
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#acf523a35c5d213b0f149b4ae18ee0b35":[6,1,0,0,2,1108,0,1],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#acf523a35c5d213b0f149b4ae18ee0b35":[6,1,1,0,1,1108,0,1],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#aef536f7803eaf3e20c3c543bad08b2d6":[6,1,0,0,2,1108,0,7],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#aef536f7803eaf3e20c3c543bad08b2d6":[6,1,1,0,1,1108,0,7],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html":[6,1,0,0,2,1110],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html":[6,1,1,0,1,1110],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__FunctionVolume.html#a1b4c6ca9b22dc14906d5b0137123e081":[6,1,0,0,2,1110,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX110 =
 "classmrmeshpy_1_1WeightedPointsShellParametersRegions.html":[6,1,0,0,2,1125],
 "classmrmeshpy_1_1WeightedPointsShellParametersRegions.html":[6,1,1,0,1,1125],
 "classmrmeshpy_1_1WeightedPointsShellParametersRegions.html#a083b7b30ac2b842fe9f4c546899f1139":[6,1,0,0,2,1125,3],
-"classmrmeshpy_1_1WeightedPointsShellParametersRegions.html#a083b7b30ac2b842fe9f4c546899f1139":[6,1,1,0,1,1125,3],
-"classmrmeshpy_1_1WeightedPointsShellParametersRegions.html#a16c837516c0e01f6fdce09fe9c2e7800":[6,1,0,0,2,1125,6],
-"classmrmeshpy_1_1WeightedPointsShellParametersRegions.html#a16c837516c0e01f6fdce09fe9c2e7800":[6,1,1,0,1,1125,6],
-"classmrmeshpy_1_1WeightedPointsShellParametersRegions.html#a7a5dc05dfce721d5a3f8d1d8013f87bd":[6,1,0,0,2,1125,5],
-"classmrmeshpy_1_1WeightedPointsShellParametersRegions.html#a7a5dc05dfce721d5a3f8d1d8013f87bd":[6,1,1,0,1,1125,5]
+"classmrmeshpy_1_1WeightedPointsShellParametersRegions.html#a083b7b30ac2b842fe9f4c546899f1139":[6,1,1,0,1,1125,3]
 };

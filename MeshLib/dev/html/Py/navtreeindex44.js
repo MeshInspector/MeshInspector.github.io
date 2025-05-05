@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"classmrmeshpy_1_1Mesh.html#a00b4b3e3b574fd891adb4535ed80de77":[6,1,0,0,2,457,16],
+"classmrmeshpy_1_1Mesh.html#a00b4b3e3b574fd891adb4535ed80de77":[6,1,1,0,1,457,16],
+"classmrmeshpy_1_1Mesh.html#a053fbfc5abbe255ddfdc0cd8a02e49c9":[6,1,0,0,2,457,38],
+"classmrmeshpy_1_1Mesh.html#a053fbfc5abbe255ddfdc0cd8a02e49c9":[6,1,1,0,1,457,38],
 "classmrmeshpy_1_1Mesh.html#a07cd0640e440f64854b0980fadca745e":[6,1,0,0,2,457,47],
 "classmrmeshpy_1_1Mesh.html#a07cd0640e440f64854b0980fadca745e":[6,1,1,0,1,457,47],
 "classmrmeshpy_1_1Mesh.html#a0b518dd05e4e83d264071ebe293c67ef":[6,1,0,0,2,457,103],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "classmrmeshpy_1_1MeshApproxRelaxParams.html#a77d98d4d670d0d2195dfcd014c96321d":[6,1,0,0,2,458,0],
 "classmrmeshpy_1_1MeshApproxRelaxParams.html#a77d98d4d670d0d2195dfcd014c96321d":[6,1,1,0,1,458,0],
 "classmrmeshpy_1_1MeshAttributesToUpdate.html":[6,1,0,0,2,459],
-"classmrmeshpy_1_1MeshAttributesToUpdate.html":[6,1,1,0,1,459],
-"classmrmeshpy_1_1MeshAttributesToUpdate.html#a9c9b14740e3f751058c0142ded64aaae":[6,1,0,0,2,459,2],
-"classmrmeshpy_1_1MeshAttributesToUpdate.html#a9c9b14740e3f751058c0142ded64aaae":[6,1,1,0,1,459,2],
-"classmrmeshpy_1_1MeshAttributesToUpdate.html#ab7f664098ff1179ed37379fb7129143f":[6,1,0,0,2,459,0],
-"classmrmeshpy_1_1MeshAttributesToUpdate.html#ab7f664098ff1179ed37379fb7129143f":[6,1,1,0,1,459,0]
+"classmrmeshpy_1_1MeshAttributesToUpdate.html":[6,1,1,0,1,459]
 };

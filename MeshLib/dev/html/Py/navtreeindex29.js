@@ -1,5 +1,9 @@
 var NAVTREEINDEX29 =
 {
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a72e52ea4b95f57b6395f38dbf4ab3e52":[6,1,0,0,2,248,19],
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a72e52ea4b95f57b6395f38dbf4ab3e52":[6,1,1,0,1,248,19],
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a819b7a5abd8495cff22d5747d59c6fca":[6,1,0,0,2,248,27],
+"classmrmeshpy_1_1FillHoleNicelySettings.html#a819b7a5abd8495cff22d5747d59c6fca":[6,1,1,0,1,248,27],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a83a699ace555f0b3b450777d1f59788f":[6,1,0,0,2,248,23],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a83a699ace555f0b3b450777d1f59788f":[6,1,1,0,1,248,23],
 "classmrmeshpy_1_1FillHoleNicelySettings.html#a84f1d76e26ae5f45c57c734d5119bfa8":[6,1,0,0,2,248,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX29 =
 "classmrmeshpy_1_1FindOverlappingSettings.html#ade4351c4bef00d43e9e0dedacbad574a":[6,1,0,0,2,255,1],
 "classmrmeshpy_1_1FindOverlappingSettings.html#ade4351c4bef00d43e9e0dedacbad574a":[6,1,1,0,1,255,1],
 "classmrmeshpy_1_1FindOverlappingSettings.html#ae320b0126aab51673e54f6d22ab47ac8":[6,1,0,0,2,255,2],
-"classmrmeshpy_1_1FindOverlappingSettings.html#ae320b0126aab51673e54f6d22ab47ac8":[6,1,1,0,1,255,2],
-"classmrmeshpy_1_1FindProjectionOnPointsSettings.html":[6,1,0,0,2,256],
-"classmrmeshpy_1_1FindProjectionOnPointsSettings.html":[6,1,1,0,1,256],
-"classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a22eceeb4fcfce6f49f4e6f6a84bb4175":[6,1,0,0,2,256,0],
-"classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a22eceeb4fcfce6f49f4e6f6a84bb4175":[6,1,1,0,1,256,0]
+"classmrmeshpy_1_1FindOverlappingSettings.html#ae320b0126aab51673e54f6d22ab47ac8":[6,1,1,0,1,255,2]
 };

@@ -180,8 +180,25 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2167c5cb63bc5340893e5ba8381e5de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad08ccac9ccc26dcee3fa49c052003500" id="r_ad08ccac9ccc26dcee3fa49c052003500"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad08ccac9ccc26dcee3fa49c052003500">maxWeightGrad</a> = FLT_MAX</td></tr>
 <tr class="separator:ad08ccac9ccc26dcee3fa49c052003500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443641ce50f2d662bdd033199017d2c2" id="r_a443641ce50f2d662bdd033199017d2c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a443641ce50f2d662bdd033199017d2c2">bidirectionalMode</a> = true</td></tr>
+<tr class="separator:a443641ce50f2d662bdd033199017d2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a443641ce50f2d662bdd033199017d2c2" name="a443641ce50f2d662bdd033199017d2c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443641ce50f2d662bdd033199017d2c2">&#9670;&#160;</a></span>bidirectionalMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DistanceFromWeightedPointsParams::bidirectionalMode = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle's normals, and decrease to minus infinity in the opposite direction </p>
+
+</div>
+</div>
 <a id="a2167c5cb63bc5340893e5ba8381e5de4" name="a2167c5cb63bc5340893e5ba8381e5de4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2167c5cb63bc5340893e5ba8381e5de4">&#9670;&#160;</a></span>maxWeight</h2>
 
