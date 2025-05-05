@@ -12,7 +12,7 @@ var searchData=
   ['rainbow_9',['Rainbow',['../../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9',1,'MR::ObjectVoxels::VolumeRenderingParams::Rainbow'],['../classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#afaf0784210e7bbb6624c46aa51c15d82',1,'mrmeshpy.ObjectVoxels.VolumeRenderingParams.LutType.Rainbow']]],
   ['randomshiftsseed_10',['randomShiftsSeed',['../../Cpp/structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc',1,'MR::UniteManyMeshesParams']]],
   ['ranges_11',['ranges',['../../Cpp/structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9',1,'MR::Palette::Parameters']]],
-  ['rayparams_12',['rayParams',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#a30ea67fa78a1fc789771c27d5d7d4868',1,'MR::MultiRayMeshIntersectResult']]],
+  ['raydistances_12',['rayDistances',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#a9a3654ac0ded1bdf4d07ac43e5c5e085',1,'MR::MultiRayMeshIntersectResult']]],
   ['rays_13',['rays',['../../Cpp/structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0',1,'MR::RenderDimensions::AngleParams']]],
   ['rearrangetriangles_14',['rearrangeTriangles',['../../Cpp/structMRSaveSettings.html#a4df1627285e1943e46ed5844acd7acf8',1,'MRSaveSettings::rearrangeTriangles'],['../../Cpp/structMR_1_1SaveSettings.html#a2d0238b076acd7e381d778f9c92fe873',1,'MR::SaveSettings::rearrangeTriangles']]],
   ['reason_15',['reason',['../../Cpp/structMR_1_1VoxelsLoad_1_1DicomStatus.html#a397021c2f11cc76a8178e525bd2bed86',1,'MR::VoxelsLoad::DicomStatus']]],

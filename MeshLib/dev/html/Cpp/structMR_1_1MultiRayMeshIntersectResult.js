@@ -4,5 +4,5 @@ var structMR_1_1MultiRayMeshIntersectResult =
     [ "isectBary", "structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15", null ],
     [ "isectFaces", "structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc", null ],
     [ "isectPts", "structMR_1_1MultiRayMeshIntersectResult.html#a7455a93722a7e3da39f0baacdfb67c00", null ],
-    [ "rayParams", "structMR_1_1MultiRayMeshIntersectResult.html#a30ea67fa78a1fc789771c27d5d7d4868", null ]
+    [ "rayDistances", "structMR_1_1MultiRayMeshIntersectResult.html#a9a3654ac0ded1bdf4d07ac43e5c5e085", null ]
 ];
