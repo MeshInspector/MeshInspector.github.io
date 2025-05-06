@@ -320,6 +320,7 @@ var group__AABBTreeGroup =
     [ "MR::findProjection", "group__AABBTreeGroup.html#gaa20d785f3f82fad58fb659bc0009563d", null ],
     [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#gaccdf7712b3c2bc175e4b09aae138aa40", null ],
     [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga64c37b9a7a04aa567390955a50891b57", null ],
+    [ "MR::findProjectionOnPoints", "group__AABBTreeGroup.html#gabc2ddddc1d6fae40b8efc80cc28d123a", null ],
     [ "MR::findProjectionOnPoints", "group__AABBTreeGroup.html#ga8a9ede35586c7db2c8ab59c42bcd6b7d", null ],
     [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#gaa484a0628a7ac3858cd590589687141c", null ],
     [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#ga5e71a300face382a26ba8596d9b19820", null ],

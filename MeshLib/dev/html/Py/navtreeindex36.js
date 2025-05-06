@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1InSphereSearchSettings.html#ad611bdd900cdba3a1649947a32aedc87":[6,1,0,0,2,379,10],
+"classmrmeshpy_1_1InSphereSearchSettings.html#ad611bdd900cdba3a1649947a32aedc87":[6,1,1,0,1,379,10],
 "classmrmeshpy_1_1InSphereSearchSettings.html#af9bbe4cee5f7424c133413c36f6b8f3a":[6,1,0,0,2,379,11],
 "classmrmeshpy_1_1InSphereSearchSettings.html#af9bbe4cee5f7424c133413c36f6b8f3a":[6,1,1,0,1,379,11],
 "classmrmeshpy_1_1InTreePathBuilder.html":[6,1,0,0,2,385],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1IteratorRange__ChunkIterator.html#a158f2d1fbadaa686bd403c5d3f6cd689":[6,1,0,0,2,400,2],
 "classmrmeshpy_1_1IteratorRange__ChunkIterator.html#a158f2d1fbadaa686bd403c5d3f6cd689":[6,1,1,0,1,400,2],
 "classmrmeshpy_1_1IteratorRange__ChunkIterator.html#a3e99d67faafe2d5423e1b87712763276":[6,1,0,0,2,400,1],
-"classmrmeshpy_1_1IteratorRange__ChunkIterator.html#a3e99d67faafe2d5423e1b87712763276":[6,1,1,0,1,400,1],
-"classmrmeshpy_1_1IteratorRange__ChunkIterator.html#afd34324a8d67a5298f3a7f723c1cfe48":[6,1,0,0,2,400,0],
-"classmrmeshpy_1_1IteratorRange__ChunkIterator.html#afd34324a8d67a5298f3a7f723c1cfe48":[6,1,1,0,1,400,0]
+"classmrmeshpy_1_1IteratorRange__ChunkIterator.html#a3e99d67faafe2d5423e1b87712763276":[6,1,1,0,1,400,1]
 };

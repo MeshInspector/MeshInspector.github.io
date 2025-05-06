@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"classmrmeshpy_1_1MeshLoadSettings.html#ae35f4ff3195fcee7e188b1fd837abcf2":[6,1,0,0,2,466,7],
+"classmrmeshpy_1_1MeshLoadSettings.html#ae35f4ff3195fcee7e188b1fd837abcf2":[6,1,1,0,1,466,7],
 "classmrmeshpy_1_1MeshLoadSettings.html#ae82f0a790d861cc200889dbddb54352a":[6,1,0,0,2,466,11],
 "classmrmeshpy_1_1MeshLoadSettings.html#ae82f0a790d861cc200889dbddb54352a":[6,1,1,0,1,466,11],
 "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html":[6,1,0,0,2,465,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a5d37cdc8ab4b68a7c4f8c6129c3b0f37":[6,1,0,0,2,472,5],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a5d37cdc8ab4b68a7c4f8c6129c3b0f37":[6,1,1,0,1,472,5],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a831e92bc8ac7e92521459852dc445263":[6,1,0,0,2,472,2],
-"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a831e92bc8ac7e92521459852dc445263":[6,1,1,0,1,472,2],
-"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a9361d0fbe41ebe025f3673becc0cbdb9":[6,1,0,0,2,472,3],
-"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a9361d0fbe41ebe025f3673becc0cbdb9":[6,1,1,0,1,472,3]
+"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a831e92bc8ac7e92521459852dc445263":[6,1,1,0,1,472,2]
 };

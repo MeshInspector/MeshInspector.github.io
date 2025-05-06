@@ -192,8 +192,10 @@ var NAVTREEINDEX22 =
 "classMR_1_1EnumNeihbourFaces.html#a85f07106265d0d9ea1a93a7fd8ba1973":[6,0,2,0,1,197,0],
 "classMR_1_1EnumNeihbourVertices.html":[6,0,1,0,1,214],
 "classMR_1_1EnumNeihbourVertices.html":[6,0,2,0,1,198],
-"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,1,0,1,214,0],
-"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,2,0,1,198,0],
+"classMR_1_1EnumNeihbourVertices.html#a82eaa1eebaf7fc188b2c9ab048fc745a":[6,0,1,0,1,214,0],
+"classMR_1_1EnumNeihbourVertices.html#a82eaa1eebaf7fc188b2c9ab048fc745a":[6,0,2,0,1,198,0],
+"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,1,0,1,214,1],
+"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,2,0,1,198,1],
 "classMR_1_1FastWindingNumber.html":[6,0,0,1,14],
 "classMR_1_1FastWindingNumber.html#a186f894c032c3bdf71d61355cbe9056d":[6,0,0,1,14,1],
 "classMR_1_1FastWindingNumber.html#a67a65bbf1fec70506c8d72c72446d653":[6,0,0,1,14,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1FeatureObject.html#a9156046dada7ff2cd440abcec27fa98b":[6,0,2,0,1,204,4],
 "classMR_1_1FeatureObject.html#a9b258943b501bd224607d6a5a8a5fc8a":[6,0,1,0,1,220,11],
 "classMR_1_1FeatureObject.html#a9b258943b501bd224607d6a5a8a5fc8a":[6,0,2,0,1,204,11],
-"classMR_1_1FeatureObject.html#aa0fe2e6df916bd424a5d77ef19379672":[6,0,1,0,1,220,30],
-"classMR_1_1FeatureObject.html#aa0fe2e6df916bd424a5d77ef19379672":[6,0,2,0,1,204,30],
-"classMR_1_1FeatureObject.html#aa371d414660e743cb7ffe960edbd7f7b":[6,0,1,0,1,220,34]
+"classMR_1_1FeatureObject.html#aa0fe2e6df916bd424a5d77ef19379672":[6,0,1,0,1,220,30]
 };
