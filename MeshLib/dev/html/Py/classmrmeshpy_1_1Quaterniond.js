@@ -11,7 +11,6 @@ var classmrmeshpy_1_1Quaterniond =
     [ "__imatmul__", "classmrmeshpy_1_1Quaterniond.html#a26e4d603fca7035607828065e003a9b6", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Quaterniond.html#aba4eb3b6bb705c1972a1acbb3e2d8df9", null ],
     [ "__neg__", "classmrmeshpy_1_1Quaterniond.html#ab774e57cf796ffea33aadbff524d5ebc", null ],
-    [ "_convert_to_Matrix3_double", "classmrmeshpy_1_1Quaterniond.html#a7f1c3a43f0b652310f66dc2c7fda038e", null ],
     [ "a", "classmrmeshpy_1_1Quaterniond.html#a6328247751a9ffa380c8b43848050579", null ],
     [ "a", "classmrmeshpy_1_1Quaterniond.html#ac8e2ddcfae51d677ab780408691792e0", null ],
     [ "angle", "classmrmeshpy_1_1Quaterniond.html#a9245362695713a4ed47766d2ab8a6301", null ],

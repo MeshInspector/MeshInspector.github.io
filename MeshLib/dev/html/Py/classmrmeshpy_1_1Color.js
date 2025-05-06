@@ -20,8 +20,6 @@ var classmrmeshpy_1_1Color =
     [ "__setitem__", "classmrmeshpy_1_1Color.html#a8b037a0619c092ee939b95d8ae78289f", null ],
     [ "__sub__", "classmrmeshpy_1_1Color.html#a05222ed7aa410ad01f7783d6b216b69e", null ],
     [ "__truediv__", "classmrmeshpy_1_1Color.html#a05e3f3e2a88a44d9cfe774cb82c9570c", null ],
-    [ "_convert_to_Vector4_float", "classmrmeshpy_1_1Color.html#af954d350c3591b3cde8811f2d9c1c726", null ],
-    [ "_convert_to_Vector4_int", "classmrmeshpy_1_1Color.html#a4eb4e39968fa37723d7b715728187820", null ],
     [ "getUInt32", "classmrmeshpy_1_1Color.html#a5d2c4e3c4663a1c82000ae8cb91f2c12", null ],
     [ "scaledAlpha", "classmrmeshpy_1_1Color.html#a5c46e09c1b0b9e2b09b0a1c633958083", null ]
 ];

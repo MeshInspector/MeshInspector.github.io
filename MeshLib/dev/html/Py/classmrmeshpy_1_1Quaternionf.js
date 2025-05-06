@@ -11,7 +11,6 @@ var classmrmeshpy_1_1Quaternionf =
     [ "__imatmul__", "classmrmeshpy_1_1Quaternionf.html#ae56b2abace9f6c367fcb8f31ade35101", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Quaternionf.html#ab0c9225f2e3a5f425f4898a3f4ab5c59", null ],
     [ "__neg__", "classmrmeshpy_1_1Quaternionf.html#ae746b46c19b7b37dcd5861dbac369ec5", null ],
-    [ "_convert_to_Matrix3_float", "classmrmeshpy_1_1Quaternionf.html#a1948efd5ddd34f89b8b42af57e8fcb9a", null ],
     [ "a", "classmrmeshpy_1_1Quaternionf.html#a725a660b7817c6f5cc69f54bbd7c048c", null ],
     [ "a", "classmrmeshpy_1_1Quaternionf.html#a2aaa8739f9695f786308db9dc44e15fe", null ],
     [ "angle", "classmrmeshpy_1_1Quaternionf.html#aeb430e453abd6f0c7ea2e8a4f7116622", null ],

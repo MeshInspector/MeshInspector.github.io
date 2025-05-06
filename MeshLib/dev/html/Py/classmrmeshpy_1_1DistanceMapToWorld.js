@@ -5,7 +5,6 @@ var classmrmeshpy_1_1DistanceMapToWorld =
     [ "__init__", "classmrmeshpy_1_1DistanceMapToWorld.html#a20b934a3ee1c414cb9b2db8929e07b82", null ],
     [ "__init__", "classmrmeshpy_1_1DistanceMapToWorld.html#ad43385fb799f6eda298769af6b5a0069", null ],
     [ "__init__", "classmrmeshpy_1_1DistanceMapToWorld.html#aac1f19447e955ab7637ae4271a3dfff2", null ],
-    [ "_convert_to_AffineXf3f", "classmrmeshpy_1_1DistanceMapToWorld.html#a561bf825d0f2efd081b6a4cea3c19f58", null ],
     [ "direction", "classmrmeshpy_1_1DistanceMapToWorld.html#aa812cd5e303e71fbe7c82ce75268199e", null ],
     [ "direction", "classmrmeshpy_1_1DistanceMapToWorld.html#a0a90107066520cad0a0e45db9f149fc5", null ],
     [ "orgPoint", "classmrmeshpy_1_1DistanceMapToWorld.html#ab68d2a499fd1be26ca6b5ea0e6167cde", null ],

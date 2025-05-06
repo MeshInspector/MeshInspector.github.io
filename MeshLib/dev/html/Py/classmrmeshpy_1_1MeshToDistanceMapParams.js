@@ -9,7 +9,6 @@ var classmrmeshpy_1_1MeshToDistanceMapParams =
     [ "__init__", "classmrmeshpy_1_1MeshToDistanceMapParams.html#a4f581018fad64e690120a8a2f83cf81b", null ],
     [ "__init__", "classmrmeshpy_1_1MeshToDistanceMapParams.html#aee5448436f5e7c6cdfeecf6be26063c4", null ],
     [ "__init__", "classmrmeshpy_1_1MeshToDistanceMapParams.html#a6b3ebc4633bfec2c4b42f33f4b25af06", null ],
-    [ "_convert_to_AffineXf3f", "classmrmeshpy_1_1MeshToDistanceMapParams.html#a2c661d50ea385d42a73a7cce9798ba94", null ],
     [ "allowNegativeValues", "classmrmeshpy_1_1MeshToDistanceMapParams.html#ad8641ff1b4d284e3572fb14bb17f35ea", null ],
     [ "allowNegativeValues", "classmrmeshpy_1_1MeshToDistanceMapParams.html#acbc737c2a972231a06be4454b40ca135", null ],
     [ "direction", "classmrmeshpy_1_1MeshToDistanceMapParams.html#a1b0860e3ede2f0558bca2af4e7f8dd3a", null ],

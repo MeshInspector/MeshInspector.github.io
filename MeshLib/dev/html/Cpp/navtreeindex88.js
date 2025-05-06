@@ -1,11 +1,5 @@
 var NAVTREEINDEX88 =
 {
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,2,0,1,746,0,0],
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,1,0,1,762,0,1],
-"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,2,0,1,746,0,1],
-"structMR_1_1Viewport_1_1Parameters.html":[6,0,1,0,1,762,1],
-"structMR_1_1Viewport_1_1Parameters.html":[6,0,2,0,1,746,1],
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b":[6,0,1,0,1,762,1,1],
 "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b":[6,0,2,0,1,746,1,1],
 "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e":[6,0,1,0,1,762,1,1,1],
 "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e":[6,0,2,0,1,746,1,1,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX88 =
 "structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,778,1],
 "structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,1,0,1,794,0],
 "structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,2,0,1,778,0],
-"structMR_1_1Writer.html":[6,0,1,0,1,795]
+"structMR_1_1Writer.html":[6,0,1,0,1,795],
+"structMR_1_1Writer.html":[6,0,2,0,1,779],
+"structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,1,0,1,795,2],
+"structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,2,0,1,779,2],
+"structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,1,0,1,795,1],
+"structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,2,0,1,779,1],
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,795,0]
 };

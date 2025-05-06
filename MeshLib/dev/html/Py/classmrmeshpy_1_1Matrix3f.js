@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1Matrix3f =
 [
+    [ "__init__", "classmrmeshpy_1_1Matrix3f.html#af65ff0b88a2e187cbcaa71caf9fde98d", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix3f.html#a77536b4ba609bc1a53b65f8948d3c44d", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix3f.html#a51390098ddff9a58ac9678ad8fa46f31", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix3f.html#abea15f364ed4736793313625edcbcc26", null ],

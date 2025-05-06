@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1Vector4f =
 [
+    [ "__init__", "classmrmeshpy_1_1Vector4f.html#a82e77d96ad1b754ce9790cc00779b2f0", null ],
     [ "__init__", "classmrmeshpy_1_1Vector4f.html#a7c733f7dce2935d889678d912d862111", null ],
     [ "__init__", "classmrmeshpy_1_1Vector4f.html#ae2f83704762dbf256ce5189014e0d047", null ],
     [ "__init__", "classmrmeshpy_1_1Vector4f.html#ac95d651f9a98505b6feea2cd7513c454", null ],

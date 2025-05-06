@@ -2381,7 +2381,7 @@ var mrmeshpy_8pyi =
     [ "vertexPosEqualNeiAreas", "mrmeshpy_8pyi.html#a7906f2bd333a6ac75a4f934a5e8887ab", null ],
     [ "vertexPosEqualNeiAreas", "mrmeshpy_8pyi.html#a66bbea20b0ac5e22c49c4d661ca04ae6", null ],
     [ "verticesGridSampling", "mrmeshpy_8pyi.html#a5cb4d1dc4767838653b45ac58752bb3f", null ],
-    [ "vertMapsComposition", "mrmeshpy_8pyi.html#a4bcc4769ecb97463ef399fbd4331a981", null ],
+    [ "vertMapsComposition", "mrmeshpy_8pyi.html#a86483b56a151521b5d2298219b856611", null ],
     [ "volume", "mrmeshpy_8pyi.html#ac48a56ece148639e5c153ef52b3038b7", null ],
     [ "voxelBooleanIntersect", "mrmeshpy_8pyi.html#a259ef5a4b36889014d2d40710429a353", null ],
     [ "voxelBooleanSubtract", "mrmeshpy_8pyi.html#a3893e638c82853b5526b80c4ba49c3dd", null ],

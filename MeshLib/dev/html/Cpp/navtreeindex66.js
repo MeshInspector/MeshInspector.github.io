@@ -1,11 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,2,0,1,67,0,3],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,1,0,1,83,0,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,2,0,1,67,0,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a7cc2969f192dc2c210907527c55accf7":[6,0,1,0,1,83,0,2],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a7cc2969f192dc2c210907527c55accf7":[6,0,2,0,1,67,0,2],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#aa0387cf419695716cd93f6a75a946dcc":[6,0,1,0,1,83,0,4],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#aa0387cf419695716cd93f6a75a946dcc":[6,0,2,0,1,67,0,4],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[6,0,1,0,1,83,0,5],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[6,0,2,0,1,67,0,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX66 =
 "structMR_1_1CoordinateConverters.html":[6,0,2,0,1,140],
 "structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,1,0,1,156,0],
 "structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,2,0,1,140,0],
-"structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,1,0,1,156,1]
+"structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,1,0,1,156,1],
+"structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,2,0,1,140,1],
+"structMR_1_1CoordinateConverters2.html":[6,0,1,0,1,157],
+"structMR_1_1CoordinateConverters2.html":[6,0,2,0,1,141],
+"structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,1,0,1,157,0],
+"structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,2,0,1,141,0],
+"structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,1,0,1,157,1]
 };

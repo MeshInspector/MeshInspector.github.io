@@ -1,5 +1,15 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1CNCMachineSettings.html#a8e36a1917ef1c963af5df577d36df723":[6,1,0,0,2,140,1],
+"classmrmeshpy_1_1CNCMachineSettings.html#a8e36a1917ef1c963af5df577d36df723":[6,1,1,0,1,140,1],
+"classmrmeshpy_1_1CNCMachineSettings.html#a9887638126755af3ff7e31b8702371ea":[6,1,0,0,2,140,3],
+"classmrmeshpy_1_1CNCMachineSettings.html#a9887638126755af3ff7e31b8702371ea":[6,1,1,0,1,140,3],
+"classmrmeshpy_1_1CNCMachineSettings.html#ac1aeb121f646d7b24e7972c8f4506d0a":[6,1,0,0,2,140,4],
+"classmrmeshpy_1_1CNCMachineSettings.html#ac1aeb121f646d7b24e7972c8f4506d0a":[6,1,1,0,1,140,4],
+"classmrmeshpy_1_1CNCMachineSettings.html#ac5374575620111847869517e4114a8b2":[6,1,0,0,2,140,11],
+"classmrmeshpy_1_1CNCMachineSettings.html#ac5374575620111847869517e4114a8b2":[6,1,1,0,1,140,11],
+"classmrmeshpy_1_1CNCMachineSettings.html#afe00915df7f95ba9f5601d083ebbdadb":[6,1,0,0,2,140,13],
+"classmrmeshpy_1_1CNCMachineSettings.html#afe00915df7f95ba9f5601d083ebbdadb":[6,1,1,0,1,140,13],
 "classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,0,0,2,140,10],
 "classmrmeshpy_1_1CNCMachineSettings.html#afea9f208fb65ac8117a30ec46dd0c0ed":[6,1,1,0,1,140,10],
 "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html":[6,1,0,0,2,140,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1ChangeMeshUVCoordsAction.html":[6,1,0,0,2,113],
 "classmrmeshpy_1_1ChangeMeshUVCoordsAction.html":[6,1,1,0,1,113],
 "classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a110e30329a94dfd774529cf8901af056":[6,1,0,0,2,113,1],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a110e30329a94dfd774529cf8901af056":[6,1,1,0,1,113,1],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a93df5811d716bb8582e8719489fe88d6":[6,1,0,0,2,113,2],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a93df5811d716bb8582e8719489fe88d6":[6,1,1,0,1,113,2],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a99b06945e778845f032894667777e3ba":[6,1,0,0,2,113,3],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a99b06945e778845f032894667777e3ba":[6,1,1,0,1,113,3],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#aa3a3d800630b2c1d5205cab9c54d2645":[6,1,0,0,2,113,4],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#aa3a3d800630b2c1d5205cab9c54d2645":[6,1,1,0,1,113,4],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#ad28a4d72e8948a42ae82c19f7dec76c1":[6,1,0,0,2,113,0],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#ad28a4d72e8948a42ae82c19f7dec76c1":[6,1,1,0,1,113,0],
-"classmrmeshpy_1_1ChangeNameAction.html":[6,1,0,0,2,114],
-"classmrmeshpy_1_1ChangeNameAction.html":[6,1,1,0,1,114]
+"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a110e30329a94dfd774529cf8901af056":[6,1,1,0,1,113,1]
 };

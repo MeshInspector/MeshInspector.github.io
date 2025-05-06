@@ -1,11 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,1,0,1,638],
-"classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,2,0,1,622],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,1,0,1,638,0],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,2,0,1,622,0],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[6,0,1,0,1,638,0,2],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[6,0,2,0,1,622,0,2],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e":[6,0,1,0,1,638,0,0],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e":[6,0,2,0,1,622,0,0],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da92640bd72988395b326c888614f8937a":[6,0,1,0,1,638,0,4],
@@ -249,5 +243,11 @@ var NAVTREEINDEX42 =
 "classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d":[6,0,1,0,1,672,0],
 "classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d":[6,0,2,0,1,656,0],
 "classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255":[6,0,1,0,1,672,3],
-"classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255":[6,0,2,0,1,656,3]
+"classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255":[6,0,2,0,1,656,3],
+"classMR_1_1StateListenerPlugin.html#a85268a85190bc88be8cc76981bff5587":[6,0,1,0,1,672,2],
+"classMR_1_1StateListenerPlugin.html#a85268a85190bc88be8cc76981bff5587":[6,0,2,0,1,656,2],
+"classMR_1_1SurfaceDistanceBuilder.html":[6,0,0,16,2,1],
+"classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91":[6,0,0,16,2,1,3],
+"classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967":[6,0,0,16,2,1,7],
+"classMR_1_1SurfaceDistanceBuilder.html#a35fe09c0ed56d9b10178d9099cef9204":[6,0,0,16,2,1,2]
 };

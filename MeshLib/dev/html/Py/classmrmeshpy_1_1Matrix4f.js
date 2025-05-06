@@ -25,7 +25,6 @@ var classmrmeshpy_1_1Matrix4f =
     [ "__setitem__", "classmrmeshpy_1_1Matrix4f.html#ad3f336b04b06e04b4c974ed38926f776", null ],
     [ "__sub__", "classmrmeshpy_1_1Matrix4f.html#af8c9915d7c86645ea208fd8415623b9d", null ],
     [ "__truediv__", "classmrmeshpy_1_1Matrix4f.html#ad9f2553333a88fd323c35491ec0d6712", null ],
-    [ "_convert_to_AffineXf3_float", "classmrmeshpy_1_1Matrix4f.html#af8cb8fd2b6a6e901e30654ce0d57848d", null ],
     [ "col", "classmrmeshpy_1_1Matrix4f.html#a680bc77c64c8e1c2524a784d1b97df95", null ],
     [ "data", "classmrmeshpy_1_1Matrix4f.html#a4fbcd1a56196238de74b6b4dc7592774", null ],
     [ "data", "classmrmeshpy_1_1Matrix4f.html#a4fbcd1a56196238de74b6b4dc7592774", null ],
