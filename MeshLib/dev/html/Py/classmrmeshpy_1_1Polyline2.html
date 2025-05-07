@@ -445,7 +445,7 @@ each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a p
       </table>
 </div><div class="memdoc">
 <pre class="fragment">adds connected line in this, passing progressively via points *[vs, vs+num)
-\\details if vs[0] == vs[num-1] then a closed line is created
+\\details if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created
 \\return the edge from first new to second new vertex
 </pre> 
 </div>
