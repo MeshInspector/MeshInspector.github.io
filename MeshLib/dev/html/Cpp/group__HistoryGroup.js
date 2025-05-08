@@ -145,6 +145,14 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangePointCloudPointsAction.html#ac066d3dab32b1ce9ab3d604be8a48afb", null ],
       [ "name", "classMR_1_1ChangePointCloudPointsAction.html#ab798c8b335a0610698bfa5fdc04b7ac9", null ]
     ] ],
+    [ "MR::ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html", [
+      [ "Obj", "classMR_1_1ChangeOnePointInCloudAction.html#a53daa4ab4948e49bce8cf3efb71982cb", null ],
+      [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a2a95838eed1970b6d1b9fe6009128d7f", null ],
+      [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a6dae80316417b70ee98f67ecf0477677", null ],
+      [ "action", "classMR_1_1ChangeOnePointInCloudAction.html#adbe79dc8bbe3a4158e22e912c78dfcd8", null ],
+      [ "heapBytes", "classMR_1_1ChangeOnePointInCloudAction.html#a90c1e3a545b13734142bde8638b3ee63", null ],
+      [ "name", "classMR_1_1ChangeOnePointInCloudAction.html#a12d6cf9879dfc2c296fa9440b96442e3", null ]
+    ] ],
     [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", [
       [ "Obj", "classMR_1_1ChangePointCloudNormalsAction.html#ab1318bc8719ca89bb19cd901f204ad49", null ],
       [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#aa3fc74b29ef4cc3ed08c0e8f0a5f342e", null ],
@@ -152,6 +160,14 @@ var group__HistoryGroup =
       [ "action", "classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d", null ],
       [ "heapBytes", "classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e", null ],
       [ "name", "classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8", null ]
+    ] ],
+    [ "MR::ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html", [
+      [ "Obj", "classMR_1_1ChangeOneNormalInCloudAction.html#ac4f0cb98bb0490e5bc3bf86995a76ac0", null ],
+      [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#a56b040ed71f05bfbf64a540bf3b4bf3d", null ],
+      [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#aa2642a2de919be105852f8ea69084eac", null ],
+      [ "action", "classMR_1_1ChangeOneNormalInCloudAction.html#aafd6fc62e7b35ee903d98899500b8dc9", null ],
+      [ "heapBytes", "classMR_1_1ChangeOneNormalInCloudAction.html#a67594b68431eb196ebfb45604cedbdb9", null ],
+      [ "name", "classMR_1_1ChangeOneNormalInCloudAction.html#aa922f462c2baab3f1699371f60ca1059", null ]
     ] ],
     [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", [
       [ "Obj", "classMR_1_1ChangePolylineAction.html#aeb94c9f13be0f037086e0296e2beea62", null ],

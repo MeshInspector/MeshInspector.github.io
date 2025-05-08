@@ -427,6 +427,8 @@ var hierarchy =
       [ "mrmeshpy.ChangeObjectColorAction", "classmrmeshpy_1_1ChangeObjectColorAction.html", null ],
       [ "mrmeshpy.ChangeObjectSelectedAction", "classmrmeshpy_1_1ChangeObjectSelectedAction.html", null ],
       [ "mrmeshpy.ChangeObjectVisibilityAction", "classmrmeshpy_1_1ChangeObjectVisibilityAction.html", null ],
+      [ "mrmeshpy.ChangeOneNormalInCloudAction", "classmrmeshpy_1_1ChangeOneNormalInCloudAction.html", null ],
+      [ "mrmeshpy.ChangeOnePointInCloudAction", "classmrmeshpy_1_1ChangeOnePointInCloudAction.html", null ],
       [ "mrmeshpy.ChangePointCloudAction", "classmrmeshpy_1_1ChangePointCloudAction.html", null ],
       [ "mrmeshpy.ChangePointCloudNormalsAction", "classmrmeshpy_1_1ChangePointCloudNormalsAction.html", null ],
       [ "mrmeshpy.ChangePointCloudPointsAction", "classmrmeshpy_1_1ChangePointCloudPointsAction.html", null ],
