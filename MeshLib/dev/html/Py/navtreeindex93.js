@@ -1,5 +1,11 @@
 var NAVTREEINDEX93 =
 {
+"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#af1d2f4eb83d6460d09c6a2b1af60519d":[6,1,0,0,2,1044,31],
+"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#af1d2f4eb83d6460d09c6a2b1af60519d":[6,1,1,0,1,1044,31],
+"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#afbbad23c7ab2d2de4f26f846948d98b0":[6,1,0,0,2,1044,1],
+"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#afbbad23c7ab2d2de4f26f846948d98b0":[6,1,1,0,1,1044,1],
+"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#afe9779e326edb48787bbdcc86a858e59":[6,1,0,0,2,1044,0],
+"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#afe9779e326edb48787bbdcc86a858e59":[6,1,1,0,1,1044,0],
 "classmrmeshpy_1_1Vector__Id__EdgeTag__VertId.html":[6,1,0,0,2,1045],
 "classmrmeshpy_1_1Vector__Id__EdgeTag__VertId.html":[6,1,1,0,1,1045],
 "classmrmeshpy_1_1Vector__Id__EdgeTag__VertId.html#a03f1c85f98d4f84fca0dadd53d4768ff":[6,1,0,0,2,1045,25],
@@ -243,11 +249,5 @@ var NAVTREEINDEX93 =
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#adb01233e3d71a460ce4283ae52f9c929":[6,1,1,0,1,1047,14],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#adb01233e3d71a460ce4283ae52f9c929":[6,1,1,0,1,1047,15],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#ae84f53557664937b4f7be25b028cc3db":[6,1,0,0,2,1047,18],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#ae84f53557664937b4f7be25b028cc3db":[6,1,1,0,1,1047,18],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#af3f368c35fbb94490440a89039577b29":[6,1,0,0,2,1047,27],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#af3f368c35fbb94490440a89039577b29":[6,1,1,0,1,1047,27],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afa262491b0c5f582b4c7a597bbbcfa73":[6,1,0,0,2,1047,24],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afa262491b0c5f582b4c7a597bbbcfa73":[6,1,1,0,1,1047,24],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afc36b579f9486b872374d8f338d5c48a":[6,1,0,0,2,1047,25],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afc36b579f9486b872374d8f338d5c48a":[6,1,0,0,2,1047,26]
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#ae84f53557664937b4f7be25b028cc3db":[6,1,1,0,1,1047,18]
 };

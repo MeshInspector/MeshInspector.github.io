@@ -1,5 +1,11 @@
 var NAVTREEINDEX94 =
 {
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#af3f368c35fbb94490440a89039577b29":[6,1,0,0,2,1047,27],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#af3f368c35fbb94490440a89039577b29":[6,1,1,0,1,1047,27],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afa262491b0c5f582b4c7a597bbbcfa73":[6,1,0,0,2,1047,24],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afa262491b0c5f582b4c7a597bbbcfa73":[6,1,1,0,1,1047,24],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afc36b579f9486b872374d8f338d5c48a":[6,1,0,0,2,1047,25],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afc36b579f9486b872374d8f338d5c48a":[6,1,0,0,2,1047,26],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afc36b579f9486b872374d8f338d5c48a":[6,1,1,0,1,1047,25],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#afc36b579f9486b872374d8f338d5c48a":[6,1,1,0,1,1047,26],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html":[6,1,0,0,2,1048],
@@ -243,11 +249,5 @@ var NAVTREEINDEX94 =
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a1f5b029c5895f579bacc99e7c020bac5":[6,1,0,0,2,1053,22],
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a1f5b029c5895f579bacc99e7c020bac5":[6,1,1,0,1,1053,22],
 "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a2204a7d59c0165556710348a31dddc98":[6,1,0,0,2,1053,7],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a2204a7d59c0165556710348a31dddc98":[6,1,1,0,1,1053,7],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3aea13539290f2ce75f9c79e99c95e99":[6,1,0,0,2,1053,8],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3aea13539290f2ce75f9c79e99c95e99":[6,1,1,0,1,1053,8],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3c20ed263b812e218a449aa03f757f49":[6,1,0,0,2,1053,3],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3c20ed263b812e218a449aa03f757f49":[6,1,1,0,1,1053,3],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3f810c8795bd078f7af0fed58c5251d7":[6,1,0,0,2,1053,2],
-"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3f810c8795bd078f7af0fed58c5251d7":[6,1,1,0,1,1053,2]
+"classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a2204a7d59c0165556710348a31dddc98":[6,1,1,0,1,1053,7]
 };

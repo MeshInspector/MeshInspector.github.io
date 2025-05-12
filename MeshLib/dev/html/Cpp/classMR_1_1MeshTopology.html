@@ -389,23 +389,27 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afacf72825c9fa6fc3c32c4206677608e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a111aab3f0bc10b75bcd5101e4e5e9a1e" id="r_a111aab3f0bc10b75bcd5101e4e5e9a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a111aab3f0bc10b75bcd5101e4e5e9a1e">bdEdgeSameLeft</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="separator:a111aab3f0bc10b75bcd5101e4e5e9a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49277e63a00f948c573cb25b83b90a70" id="r_a49277e63a00f948c573cb25b83b90a70"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49277e63a00f948c573cb25b83b90a70">isBdVertexInLeft</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
-<tr class="memdesc:a49277e63a00f948c573cb25b83b90a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if edge's left is on (region) boundary  <br /></td></tr>
-<tr class="separator:a49277e63a00f948c573cb25b83b90a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67dccfa00720049db09ad580b927ffe3" id="r_a67dccfa00720049db09ad580b927ffe3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67dccfa00720049db09ad580b927ffe3">isLeftBdFace</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="separator:a67dccfa00720049db09ad580b927ffe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cfb908a7643dfeeab18f913e86977ad" id="r_a3cfb908a7643dfeeab18f913e86977ad"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cfb908a7643dfeeab18f913e86977ad">bdEdgeWithLeft</a> (FaceId f, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="separator:a3cfb908a7643dfeeab18f913e86977ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ea5ad3e9385a5a3a4e1f0770395cfc9" id="r_a6ea5ad3e9385a5a3a4e1f0770395cfc9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ea5ad3e9385a5a3a4e1f0770395cfc9">isBdFace</a> (FaceId f, const FaceBitSet *region=nullptr) const</td></tr>
-<tr class="memdesc:a6ea5ad3e9385a5a3a4e1f0770395cfc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given face is on (region) boundary  <br /></td></tr>
+<tr class="memdesc:a6ea5ad3e9385a5a3a4e1f0770395cfc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given face belongs to the region and it has a boundary edge (isBdEdge(e,region) == true)  <br /></td></tr>
 <tr class="separator:a6ea5ad3e9385a5a3a4e1f0770395cfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458d54c9ae782ab1aed5a6dc8ff5d852" id="r_a458d54c9ae782ab1aed5a6dc8ff5d852"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a458d54c9ae782ab1aed5a6dc8ff5d852">findBdFaces</a> (const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="memdesc:a458d54c9ae782ab1aed5a6dc8ff5d852"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all faces for which isBdFace(f, region) is true  <br /></td></tr>
+<tr class="separator:a458d54c9ae782ab1aed5a6dc8ff5d852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26fb1755e53d61c7a438428f27b95f78" id="r_a26fb1755e53d61c7a438428f27b95f78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26fb1755e53d61c7a438428f27b95f78">isLeftInRegion</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="memdesc:a26fb1755e53d61c7a438428f27b95f78"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if left face of given edge belongs to region (or just have valid id if region is nullptr)  <br /></td></tr>
 <tr class="separator:a26fb1755e53d61c7a438428f27b95f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9149621788f57af5be92126cf7e5f24e" id="r_a9149621788f57af5be92126cf7e5f24e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9149621788f57af5be92126cf7e5f24e">isInnerEdge</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="memdesc:a9149621788f57af5be92126cf7e5f24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given edge is inner for given region (or for whole mesh if region is nullptr)  <br /></td></tr>
 <tr class="separator:a9149621788f57af5be92126cf7e5f24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3153a23344cee0bb2abae5328361f9e9" id="r_a3153a23344cee0bb2abae5328361f9e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3153a23344cee0bb2abae5328361f9e9">isBdEdge</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
-<tr class="memdesc:a3153a23344cee0bb2abae5328361f9e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given edge is boundary for given region (or for whole mesh if region is nullptr)  <br /></td></tr>
-<tr class="separator:a3153a23344cee0bb2abae5328361f9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf04500a2b4fbdd3584d89d2ce2f46d6" id="r_abf04500a2b4fbdd3584d89d2ce2f46d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf04500a2b4fbdd3584d89d2ce2f46d6">isBdEdge</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
+<tr class="separator:abf04500a2b4fbdd3584d89d2ce2f46d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe8fdd21322f18b46954123df124fc6" id="r_affe8fdd21322f18b46954123df124fc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe8fdd21322f18b46954123df124fc6">findLeftBdEdges</a> (const FaceBitSet *region=nullptr, const EdgeBitSet *test=nullptr) const</td></tr>
+<tr class="memdesc:affe8fdd21322f18b46954123df124fc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all (test) edges for which left(e) does not belong to the region and isBdEdge(e, region) is true  <br /></td></tr>
+<tr class="separator:affe8fdd21322f18b46954123df124fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6777589fb02426e8b2d40cf6e576e503" id="r_a6777589fb02426e8b2d40cf6e576e503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6777589fb02426e8b2d40cf6e576e503">bdEdgeSameOrigin</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="separator:a6777589fb02426e8b2d40cf6e576e503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4619557230f1c2141ac2e06274d3ba3" id="r_ae4619557230f1c2141ac2e06274d3ba3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4619557230f1c2141ac2e06274d3ba3">isBdVertexInOrg</a> (EdgeId e, const FaceBitSet *region=nullptr) const</td></tr>
@@ -416,6 +420,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae366073a1bcb50b567a89f69a755913d" id="r_ae366073a1bcb50b567a89f69a755913d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae366073a1bcb50b567a89f69a755913d">isBdVertex</a> (VertId v, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="memdesc:ae366073a1bcb50b567a89f69a755913d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given vertex is on (region) boundary  <br /></td></tr>
 <tr class="separator:ae366073a1bcb50b567a89f69a755913d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2513f0e86125d09a7b6d86f1dfa10dad" id="r_a2513f0e86125d09a7b6d86f1dfa10dad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2513f0e86125d09a7b6d86f1dfa10dad">findBdVerts</a> (const FaceBitSet *region=nullptr, const VertBitSet *test=nullptr) const</td></tr>
+<tr class="memdesc:a2513f0e86125d09a7b6d86f1dfa10dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all (test) vertices for which isBdVertex(v, region) is true  <br /></td></tr>
+<tr class="separator:a2513f0e86125d09a7b6d86f1dfa10dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accfc957245f9a8df756ad1a869c8df3d" id="r_accfc957245f9a8df756ad1a869c8df3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accfc957245f9a8df756ad1a869c8df3d">isInnerOrBdVertex</a> (VertId v, const FaceBitSet *region=nullptr) const</td></tr>
 <tr class="memdesc:accfc957245f9a8df756ad1a869c8df3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if one of incident faces of given vertex pertain to given region (or any such face exists if region is nullptr)  <br /></td></tr>
 <tr class="separator:accfc957245f9a8df756ad1a869c8df3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -876,7 +883,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns the first boundary edge (for given region or for whole mesh if region is nullptr) in counter-clockwise order starting from given edge with the same left; returns invalid edge if no boundary edge is found </p>
+<p>returns the first boundary edge (for given region or for whole mesh if region is nullptr) in counter-clockwise order starting from given edge with the same left face or hole; returns invalid edge if no boundary edge is found </p>
 
 </div>
 </div>
@@ -1486,6 +1493,64 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
+<a id="a458d54c9ae782ab1aed5a6dc8ff5d852" name="a458d54c9ae782ab1aed5a6dc8ff5d852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458d54c9ae782ab1aed5a6dc8ff5d852">&#9670;&#160;</a></span>findBdFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet MR::MeshTopology::findBdFaces </td>
+          <td>(</td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns all faces for which isBdFace(f, region) is true </p>
+
+</div>
+</div>
+<a id="a2513f0e86125d09a7b6d86f1dfa10dad" name="a2513f0e86125d09a7b6d86f1dfa10dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2513f0e86125d09a7b6d86f1dfa10dad">&#9670;&#160;</a></span>findBdVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet MR::MeshTopology::findBdVerts </td>
+          <td>(</td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>test</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns all (test) vertices for which isBdVertex(v, region) is true </p>
+
+</div>
+</div>
 <a id="a2a267cf8f994dbe877c1c5db36b9f5c1" name="a2a267cf8f994dbe877c1c5db36b9f5c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a267cf8f994dbe877c1c5db36b9f5c1">&#9670;&#160;</a></span>findBoundaryEdges()</h2>
 
@@ -1629,6 +1694,37 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 </table>
 </div><div class="memdoc">
 <p>returns one edge with no valid left face for every boundary in the mesh; if region is given, then returned edges must have valid right faces from the region </p>
+
+</div>
+</div>
+<a id="affe8fdd21322f18b46954123df124fc6" name="affe8fdd21322f18b46954123df124fc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe8fdd21322f18b46954123df124fc6">&#9670;&#160;</a></span>findLeftBdEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeBitSet MR::MeshTopology::findLeftBdEdges </td>
+          <td>(</td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const EdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>test</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns all (test) edges for which left(e) does not belong to the region and isBdEdge(e, region) is true </p>
 
 </div>
 </div>
@@ -2838,8 +2934,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a3153a23344cee0bb2abae5328361f9e9" name="a3153a23344cee0bb2abae5328361f9e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3153a23344cee0bb2abae5328361f9e9">&#9670;&#160;</a></span>isBdEdge()</h2>
+<a id="abf04500a2b4fbdd3584d89d2ce2f46d6" name="abf04500a2b4fbdd3584d89d2ce2f46d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf04500a2b4fbdd3584d89d2ce2f46d6">&#9670;&#160;</a></span>isBdEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2848,7 +2944,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::MeshTopology::isBdEdge </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::MeshTopology::isBdEdge </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
@@ -2860,12 +2956,11 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>return true if given edge is boundary for given region (or for whole mesh if region is nullptr) </p>
+<p>isBdEdge(e) returns true, if the edge (e) is a boundary edge of the mesh: (e) has a hole from one or both sides. isBdEdge(e, region) returns true, if the edge (e) is a boundary edge of the given region: (e) has a region's face from one side (region.test(f0)==true) and a hole or not-region face from the other side (!f1 || region.test(f1)==false). If the region contains all faces of the mesh then isBdEdge(e) is the union of isBdEdge(e, region) and not-lone edges without both left and right faces. </p>
 
 </div>
 </div>
@@ -2896,7 +2991,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>returns true if given face is on (region) boundary </p>
+<p>returns true if given face belongs to the region and it has a boundary edge (isBdEdge(e,region) == true) </p>
 
 </div>
 </div>
@@ -2928,37 +3023,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if given vertex is on (region) boundary </p>
-
-</div>
-</div>
-<a id="a49277e63a00f948c573cb25b83b90a70" name="a49277e63a00f948c573cb25b83b90a70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49277e63a00f948c573cb25b83b90a70">&#9670;&#160;</a></span>isBdVertexInLeft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::MeshTopology::isBdVertexInLeft </td>
-          <td>(</td>
-          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns true if edge's left is on (region) boundary </p>
 
 </div>
 </div>
@@ -3141,6 +3205,36 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if left face of given edge belongs to given region (if provided) and right face either does not exist or does not belong </p>
+
+</div>
+</div>
+<a id="a67dccfa00720049db09ad580b927ffe3" name="a67dccfa00720049db09ad580b927ffe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67dccfa00720049db09ad580b927ffe3">&#9670;&#160;</a></span>isLeftBdFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshTopology::isLeftBdFace </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns true if left(e) is a valid (region) face, and it has a boundary edge (isBdEdge(e,region) == true) </p>
 
 </div>
 </div>

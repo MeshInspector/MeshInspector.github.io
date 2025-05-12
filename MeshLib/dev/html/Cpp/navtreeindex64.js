@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"structMRMeshLoadObjLoadSettings.html#a9ceea9e8fa9427e7abef4a490a9aa7ee":[6,0,2,0,34,2],
+"structMRMeshLoadObjLoadSettings.html#aa2d150d8bbb8bdf034c0b63da32133de":[6,0,2,0,34,0],
+"structMRMeshNormals.html":[6,0,2,0,35],
 "structMRMeshNormals.html#a58543953950bc092626df8324b68b436":[6,0,2,0,35,1],
 "structMRMeshNormals.html#a7339fd6fc019ca383d4fdf329519ccc4":[6,0,2,0,35,0],
 "structMRMeshPart.html":[6,0,2,0,36],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1AncillaryLines.html#a27df408474d83d9c06b47c4b5f344a76":[6,0,2,0,1,40,3],
 "structMR_1_1AncillaryLines.html#a3521624c0384c6ad11a0c3bdf5f1c1ed":[6,0,1,0,1,56,14],
 "structMR_1_1AncillaryLines.html#a3521624c0384c6ad11a0c3bdf5f1c1ed":[6,0,2,0,1,40,14],
-"structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[6,0,1,0,1,56,9],
-"structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[6,0,2,0,1,40,9],
-"structMR_1_1AncillaryLines.html#a663141ea1eeeab9d4b542f46a84aa82b":[6,0,1,0,1,56,1],
-"structMR_1_1AncillaryLines.html#a663141ea1eeeab9d4b542f46a84aa82b":[6,0,2,0,1,40,1]
+"structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[6,0,1,0,1,56,9]
 };
