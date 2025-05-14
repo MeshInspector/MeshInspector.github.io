@@ -1,9 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f":[6,0,1,0,1,324,7],
-"classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f":[6,0,2,0,1,308,7],
-"classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226":[6,0,1,0,1,324,11],
-"classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226":[6,0,2,0,1,308,11],
 "classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed":[6,0,1,0,1,324,0],
 "classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed":[6,0,2,0,1,308,0],
 "classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435":[6,0,1,0,1,324,0,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX28 =
 "classMR_1_1MeshOrPointsObject.html#a85885b5e86610e53fe93aea07accd2b7":[6,0,2,0,1,351,6],
 "classMR_1_1MeshOrPointsObject.html#a9beccad2400ae701a8c18c40c5447852":[6,0,1,0,1,367,2],
 "classMR_1_1MeshOrPointsObject.html#a9beccad2400ae701a8c18c40c5447852":[6,0,2,0,1,351,2],
-"classMR_1_1MeshOrPointsObject.html#ab22b562641023d5b2592738bf0480984":[6,0,1,0,1,367,1]
+"classMR_1_1MeshOrPointsObject.html#ab22b562641023d5b2592738bf0480984":[6,0,1,0,1,367,1],
+"classMR_1_1MeshOrPointsObject.html#ab22b562641023d5b2592738bf0480984":[6,0,2,0,1,351,1],
+"classMR_1_1MeshOrPointsObject.html#abcbc6506c74c783ee36216d1ce536bed":[6,0,1,0,1,367,10],
+"classMR_1_1MeshOrPointsObject.html#abcbc6506c74c783ee36216d1ce536bed":[6,0,2,0,1,351,10],
+"classMR_1_1MeshOrPointsObject.html#ac8508f73963cbf0f41996e64e54b0024":[6,0,1,0,1,367,0]
 };
