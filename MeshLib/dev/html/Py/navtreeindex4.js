@@ -1,9 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classmrmeshpy_1_1Ball2f.html#ac7dd4632f0e4ad0ee1dbda152b0c1c79":[6,1,0,0,2,33,4],
-"classmrmeshpy_1_1Ball2f.html#ac7dd4632f0e4ad0ee1dbda152b0c1c79":[6,1,1,0,1,33,4],
-"classmrmeshpy_1_1Ball2f.html#ad996cbe4d19ebc52d824fe6168ed6faf":[6,1,0,0,2,33,5],
-"classmrmeshpy_1_1Ball2f.html#ad996cbe4d19ebc52d824fe6168ed6faf":[6,1,1,0,1,33,5],
 "classmrmeshpy_1_1Ball2f.html#ad9b4df1f1ffaac7bc4d94f3320ed831a":[6,1,0,0,2,33,1],
 "classmrmeshpy_1_1Ball2f.html#ad9b4df1f1ffaac7bc4d94f3320ed831a":[6,1,1,0,1,33,1],
 "classmrmeshpy_1_1Ball2f.html#af4d0b452ea3f550e9093c023fb5a3c61":[6,1,0,0,2,33,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BestFitParabolaf.html#ac179f8c45822d2a9c1a0edda9049c74e":[6,1,0,0,2,42,1],
 "classmrmeshpy_1_1BestFitParabolaf.html#ac179f8c45822d2a9c1a0edda9049c74e":[6,1,1,0,1,42,1],
 "classmrmeshpy_1_1BestFitParabolaf.html#af5fa1adb3a338013a8b53b74e2c9a10f":[6,1,0,0,2,42,2],
-"classmrmeshpy_1_1BestFitParabolaf.html#af5fa1adb3a338013a8b53b74e2c9a10f":[6,1,1,0,1,42,2]
+"classmrmeshpy_1_1BestFitParabolaf.html#af5fa1adb3a338013a8b53b74e2c9a10f":[6,1,1,0,1,42,2],
+"classmrmeshpy_1_1BitSet.html":[6,1,0,0,2,43],
+"classmrmeshpy_1_1BitSet.html":[6,1,1,0,1,43],
+"classmrmeshpy_1_1BitSet.html#a02b92f6054c36b6fe27b4b8063e999ed":[6,1,0,0,2,43,9],
+"classmrmeshpy_1_1BitSet.html#a02b92f6054c36b6fe27b4b8063e999ed":[6,1,1,0,1,43,9]
 };

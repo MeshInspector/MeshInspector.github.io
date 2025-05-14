@@ -1,9 +1,5 @@
 var NAVTREEINDEX137 =
 {
-"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html":[6,1,0,0,2,875],
-"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html":[6,1,1,0,1,875],
-"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a0002c9df75aee5b03a6440662fac776a":[6,1,0,0,2,875,16],
-"classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a0002c9df75aee5b03a6440662fac776a":[6,1,1,0,1,875,16],
 "classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a050d12aacb7f73a19a2c31b7b4bfcac0":[6,1,0,0,2,875,7],
 "classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a050d12aacb7f73a19a2c31b7b4bfcac0":[6,1,1,0,1,875,7],
 "classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float.html#a1d0b209b804097b6d506fe76065e1dd1":[6,1,0,0,2,875,14],
@@ -249,5 +245,9 @@ var NAVTREEINDEX137 =
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af6077dbcc9ffc627cd6681d8007ea7c1":[6,1,0,0,2,879,1],
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af6077dbcc9ffc627cd6681d8007ea7c1":[6,1,1,0,1,879,1],
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af922fe362a5edb25895869a1622a96de":[6,1,0,0,2,879,15],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af922fe362a5edb25895869a1622a96de":[6,1,1,0,1,879,15]
+"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af922fe362a5edb25895869a1622a96de":[6,1,1,0,1,879,15],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html":[6,1,0,0,2,918],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html":[6,1,1,0,1,918],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#a10572f2c3078e1e58a97f67f8b7ad0f2":[6,1,0,0,2,918,8],
+"classmrmeshpy_1_1std__vector__TaggedBitSet__EdgeTag.html#a10572f2c3078e1e58a97f67f8b7ad0f2":[6,1,1,0,1,918,8]
 };

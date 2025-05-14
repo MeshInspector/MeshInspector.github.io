@@ -1,9 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"group__MeshComponentsGroup.html#gafde425f262b1f15428664fd79a1f0735":[6,0,0,19,0,7],
-"group__MeshComponentsGroup.html#gaff4e0acd7ba87592d9cbed49b6b62193":[6,0,0,19,0,22],
-"group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c":[6,0,0,19,0,2,1],
-"group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c":[6,0,0,19,0,4],
 "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc":[6,0,0,19,0,2,0],
 "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc":[6,0,0,19,0,3],
 "group__MeshDeleteGroup.html":[6,0,0,9,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX53 =
 "group__SerializerGroup.html#gae2d000bf1be360d4156e421121308d90":[6,0,0,2,15,46],
 "group__SerializerGroup.html#gaeb2e68137af1a456b80b6a8574c03e6e":[6,0,0,2,15,8],
 "group__SerializerGroup.html#gafab977958cb409b72f7584d9f6602a3e":[6,0,0,2,15,14],
-"group__StreamOperatorsGroup.html":[6,0,0,2,16]
+"group__StreamOperatorsGroup.html":[6,0,0,2,16],
+"group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
+"group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2],
+"group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
+"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2]
 };
