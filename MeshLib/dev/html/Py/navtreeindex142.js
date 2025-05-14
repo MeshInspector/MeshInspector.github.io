@@ -1,9 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"classmrmeshpy_1_1std__vector__ViewportMask.html#a5311816d1c7e5226f0d985b957088fec":[6,1,0,0,2,940,18],
-"classmrmeshpy_1_1std__vector__ViewportMask.html#a5311816d1c7e5226f0d985b957088fec":[6,1,1,0,1,940,18],
-"classmrmeshpy_1_1std__vector__ViewportMask.html#a5fafa01a3e0f94f5446e87c37055bd41":[6,1,0,0,2,940,4],
-"classmrmeshpy_1_1std__vector__ViewportMask.html#a5fafa01a3e0f94f5446e87c37055bd41":[6,1,1,0,1,940,4],
 "classmrmeshpy_1_1std__vector__ViewportMask.html#a62e0738119b372d70b14a9a62d375f64":[6,1,0,0,2,940,26],
 "classmrmeshpy_1_1std__vector__ViewportMask.html#a62e0738119b372d70b14a9a62d375f64":[6,1,1,0,1,940,26],
 "classmrmeshpy_1_1std__vector__ViewportMask.html#a6c4e8ca8c7a8444c58d33884eb90530a":[6,1,0,0,2,940,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX142 =
 "classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a004f82b3ed0f1e31ec04f1c0598ff96d":[6,1,0,0,2,945,3],
 "classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a004f82b3ed0f1e31ec04f1c0598ff96d":[6,1,1,0,1,945,3],
 "classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a0ebc571eba0dfaffe9db23b13cd76f62":[6,1,0,0,2,945,5],
-"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a0ebc571eba0dfaffe9db23b13cd76f62":[6,1,1,0,1,945,5]
+"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a0ebc571eba0dfaffe9db23b13cd76f62":[6,1,1,0,1,945,5],
+"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a288ff79ce86c46c38ccf3de83372bc7b":[6,1,0,0,2,945,1],
+"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a288ff79ce86c46c38ccf3de83372bc7b":[6,1,1,0,1,945,1],
+"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a28b4b707f5141e1bfa7836483ddf78d4":[6,1,0,0,2,945,13],
+"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a28b4b707f5141e1bfa7836483ddf78d4":[6,1,1,0,1,945,13]
 };

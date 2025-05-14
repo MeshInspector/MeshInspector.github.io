@@ -1,9 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[6,0,0,5,1,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[6,0,0,5,1,0,1],
-"structMR_1_1ContoursDistanceMapOptions.html":[6,0,0,5,2],
 "structMR_1_1ContoursDistanceMapOptions.html#a37e6ab24d4bd5bee82c4ff4cfded2aec":[6,0,0,5,2,2],
 "structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054":[6,0,0,5,2,4],
 "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6":[6,0,0,5,2,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX67 =
 "structMR_1_1DistanceFromWeightedPointsParams.html#ad08ccac9ccc26dcee3fa49c052003500":[6,0,1,0,1,188,2],
 "structMR_1_1DistanceFromWeightedPointsParams.html#ad08ccac9ccc26dcee3fa49c052003500":[6,0,2,0,1,172,2],
 "structMR_1_1DistanceMapLoadSettings.html":[6,0,0,5,6],
-"structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e":[6,0,0,5,6,0]
+"structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e":[6,0,0,5,6,0],
+"structMR_1_1DistanceMapLoadSettings.html#ac98a6aecff7b146c598462c9c382a18f":[6,0,0,5,6,1],
+"structMR_1_1DistanceMapSaveSettings.html":[6,0,0,5,7],
+"structMR_1_1DistanceMapSaveSettings.html#a9f997144e49ed33ed02e13c2f32edbf0":[6,0,0,5,7,1],
+"structMR_1_1DistanceMapSaveSettings.html#aec3a1ee780a0e876728e2fcfab35daa2":[6,0,0,5,7,0]
 };

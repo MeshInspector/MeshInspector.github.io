@@ -1,9 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"structMR_1_1DistanceMapLoadSettings.html#ac98a6aecff7b146c598462c9c382a18f":[6,0,0,5,6,1],
-"structMR_1_1DistanceMapSaveSettings.html":[6,0,0,5,7],
-"structMR_1_1DistanceMapSaveSettings.html#a9f997144e49ed33ed02e13c2f32edbf0":[6,0,0,5,7,1],
-"structMR_1_1DistanceMapSaveSettings.html#aec3a1ee780a0e876728e2fcfab35daa2":[6,0,0,5,7,0],
 "structMR_1_1DistanceMapToWorld.html":[6,0,0,5,5],
 "structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e":[6,0,0,5,5,6],
 "structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[6,0,0,5,5,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX68 =
 "structMR_1_1EdgeSegment.html#a58bb10eea905d9ba81c91be627dfad8d":[6,0,1,0,1,211,5],
 "structMR_1_1EdgeSegment.html#a58bb10eea905d9ba81c91be627dfad8d":[6,0,2,0,1,195,5],
 "structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,1,0,1,211,8],
-"structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,2,0,1,195,8]
+"structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,2,0,1,195,8],
+"structMR_1_1EdgeSegment.html#aaa89099133adbadcd8e04016b7dfd5ef":[6,0,1,0,1,211,7],
+"structMR_1_1EdgeSegment.html#aaa89099133adbadcd8e04016b7dfd5ef":[6,0,2,0,1,195,7],
+"structMR_1_1EdgeSegment.html#aaed1cd16846104a721ea8ee3f83cb046":[6,0,1,0,1,211,6],
+"structMR_1_1EdgeSegment.html#aaed1cd16846104a721ea8ee3f83cb046":[6,0,2,0,1,195,6]
 };

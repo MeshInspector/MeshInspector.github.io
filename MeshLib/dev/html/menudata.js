@@ -55,10 +55,6 @@ var menudata={children:[
 {text:"Mesh Laplacian Deformation",url:"ExampleLaplacian.html"},
 {text:"Mesh Denoise",url:"ExampleNoiseDenoise.html"},
 {text:"Triangulation",url:"ExampleTriangulation.html"},
-{text:"Points to Mesh",url:"ExamplePointsToMesh.html"},
-{text:"Contour Triangulation",url:"ExampleContourTriangulation.html"},
-{text:"Terrain Triangulation",url:"ExampleTerrainTriangulation.html"},
-{text:"Fusion",url:"@ref ExampleFusion"},
 {text:"Text to Mesh",url:"ExampleMeshFromText.html"}]},
 {text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"ExampleViewer.html"},

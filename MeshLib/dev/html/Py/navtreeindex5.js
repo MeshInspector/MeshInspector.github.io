@@ -1,9 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"classmrmeshpy_1_1BitSet.html":[6,1,0,0,2,43],
-"classmrmeshpy_1_1BitSet.html":[6,1,1,0,1,43],
-"classmrmeshpy_1_1BitSet.html#a02b92f6054c36b6fe27b4b8063e999ed":[6,1,0,0,2,43,9],
-"classmrmeshpy_1_1BitSet.html#a02b92f6054c36b6fe27b4b8063e999ed":[6,1,1,0,1,43,9],
 "classmrmeshpy_1_1BitSet.html#a0416156b4269add8c1fb14d531b3f9e5":[6,1,0,0,2,43,14],
 "classmrmeshpy_1_1BitSet.html#a0416156b4269add8c1fb14d531b3f9e5":[6,1,1,0,1,43,14],
 "classmrmeshpy_1_1BitSet.html#a04fe2114fcc0ece2af5b884855857feb":[6,1,0,0,2,43,11],
@@ -249,5 +245,9 @@ var NAVTREEINDEX5 =
 "classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html#ac57a5fbaa2f3c07d0657cab7621a8498":[6,1,0,0,2,62,0,2],
 "classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html#ac57a5fbaa2f3c07d0657cab7621a8498":[6,1,1,0,1,62,0,2],
 "classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html#ac76b3fbafc5bfc5b116e592260d739cd":[6,1,0,0,2,62,0,8],
-"classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html#ac76b3fbafc5bfc5b116e592260d739cd":[6,1,1,0,1,62,0,8]
+"classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html#ac76b3fbafc5bfc5b116e592260d739cd":[6,1,1,0,1,62,0,8],
+"classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html#ad3fe5ebe00868589e08f8f6af34b03ec":[6,1,0,0,2,62,0,11],
+"classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html#ad3fe5ebe00868589e08f8f6af34b03ec":[6,1,1,0,1,62,0,11],
+"classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html":[6,1,0,0,2,62,1],
+"classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html":[6,1,1,0,1,62,1]
 };

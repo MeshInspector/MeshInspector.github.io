@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"MRFitData_8h.html":[6,0,3,0,0,1,10,21],
-"MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4b":[6,0,3,0,0,1,10,21,3],
-"MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4ba59ebaac912e88dcadf4c1963af0724a1":[6,0,3,0,0,1,10,21,3,2],
-"MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4ba5e6ec7d73c67853669ec7f19208bc4f3":[6,0,3,0,0,1,10,21,3,1],
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070":[6,0,3,0,0,1,10,21,3,3],
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192":[6,0,3,0,0,1,10,21,3,0],
 "MRFitData_8h_source.html":[6,0,3,0,0,1,10,21],
@@ -249,5 +245,9 @@ var NAVTREEINDEX3 =
 "MRImGuiVectorOperators_8h_source.html":[6,0,3,0,0,1,10,34],
 "MRImGui_8h.html":[6,0,3,0,0,1,10,30],
 "MRImGui_8h_source.html":[6,0,3,0,0,1,10,30],
-"MRImageLoad_8h.html":[6,0,3,0,0,1,4,139]
+"MRImageLoad_8h.html":[6,0,3,0,0,1,4,139],
+"MRImageLoad_8h_source.html":[6,0,3,0,0,1,4,139],
+"MRImageSave_8h.html":[6,0,3,0,0,1,4,140],
+"MRImageSave_8h_source.html":[6,0,3,0,0,1,4,140],
+"MRImage_8h.html":[6,0,3,0,0,1,4,138]
 };
