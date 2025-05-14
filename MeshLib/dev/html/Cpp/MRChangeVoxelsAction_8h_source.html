@@ -199,7 +199,7 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordtype">float</span> newIso = objVoxels_-&gt;getIsoValue();</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        objVoxels_-&gt;setIsoValue( storedIso_, {}, false );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        (void)objVoxels_-&gt;setIsoValue( storedIso_, {}, false ); <span class="comment">//TODO: process potential error</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        storedIso_ = newIso;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
 </div>
@@ -231,9 +231,9 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeDualMarchingCubesAction.html#a498f45f8ee86d18bfdbf4350070595fb">   68</a></span>    <span class="keyword">using </span><a class="code hl_class" href="classMR_1_1ObjectVoxels.html">Obj</a> = <a class="code hl_class" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>;</div>
 <div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409">   70</a></span>    <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409">ChangeDualMarchingCubesAction</a>( std::string <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409">   70</a></span>    <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409">ChangeDualMarchingCubesAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        objVoxels_{ obj },</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        name_{ std::move( <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31">name</a> ) }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        name_{ std::move( name ) }</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    {</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        {</div>
@@ -243,10 +243,10 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 </div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
 <div class="foldopen" id="foldopen00081" data-start="{" data-end="}">
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeDualMarchingCubesAction.html#a7866227e57c571b51c2d58432dbe6fc8">   81</a></span>    <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#a7866227e57c571b51c2d58432dbe6fc8">ChangeDualMarchingCubesAction</a>( std::string <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj, <span class="keywordtype">bool</span> storeDual ) :</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeDualMarchingCubesAction.html#a7866227e57c571b51c2d58432dbe6fc8">   81</a></span>    <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#a7866227e57c571b51c2d58432dbe6fc8">ChangeDualMarchingCubesAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj, <span class="keywordtype">bool</span> storeDual ) :</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        objVoxels_{ obj },</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        storedDual_( storeDual ),</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        name_{ std::move( <a class="code hl_function" href="classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31">name</a> ) }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        name_{ std::move( name ) }</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    {</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
 </div>
@@ -298,9 +298,9 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f">  123</a></span>    <span class="keyword">using </span><a class="code hl_class" href="classMR_1_1ObjectVoxels.html">Obj</a> = <a class="code hl_class" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>;</div>
 <div class="foldopen" id="foldopen00125" data-start="{" data-end="}">
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4">  125</a></span>    <a class="code hl_function" href="classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4">ChangeActiveBoxAction</a>( std::string <a class="code hl_function" href="classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4">  125</a></span>    <a class="code hl_function" href="classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4">ChangeActiveBoxAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        objVoxels_{ obj },</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        name_{ std::move( <a class="code hl_function" href="classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34">name</a> ) }</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        name_{ std::move( name ) }</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    {</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        {</div>
@@ -356,9 +356,9 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSurfaceAction.html#aea6aeaec06fc16a8b7114feb5bbe7ca0">  170</a></span>    <span class="keyword">using </span><a class="code hl_class" href="classMR_1_1ObjectVoxels.html">Obj</a> = <a class="code hl_class" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>;</div>
 <div class="foldopen" id="foldopen00172" data-start="{" data-end="}">
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249">  172</a></span>    <a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249">ChangeSurfaceAction</a>( std::string <a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249">  172</a></span>    <a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249">ChangeSurfaceAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        objVoxels_{ obj },</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        name_{ std::move( <a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54">name</a> ) }</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        name_{ std::move( name ) }</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    {</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        {</div>
@@ -415,11 +415,11 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#ad7d5725801275be74a08469ec04b18ca">  218</a></span>    <span class="keyword">using </span><a class="code hl_class" href="classMR_1_1ObjectVoxels.html">Obj</a> = <a class="code hl_class" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>;</div>
 <div class="foldopen" id="foldopen00220" data-start="{" data-end="}">
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba">  220</a></span>    <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba">ChangeGridAction</a>( std::string <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba">  220</a></span>    <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba">ChangeGridAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectVoxels&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    objVoxels_{ obj },    </div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    changeIsoAction_( <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">name</a>, obj ),</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    changeSurfaceAction_(<a class="code hl_function" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">name</a>, obj),</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    name_{ std::move( <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">name</a> ) }</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    changeIsoAction_( name, obj ),</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    changeSurfaceAction_(name, obj),</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    name_{ std::move( name ) }</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    {</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        {</div>
@@ -444,8 +444,8 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        vdbVolume_ = objVoxels_-&gt;updateVdbVolume( std::move( vdbVolume_ ) );</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        histogram_ = objVoxels_-&gt;updateHistogram( std::move( histogram_ ) );</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0">action</a>( obj );</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5">action</a>( obj );</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        changeIsoAction_.action( obj );</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        changeSurfaceAction_.action( obj );</div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    }</div>
 </div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
@@ -460,7 +460,7 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="foldopen" id="foldopen00255" data-start="{" data-end="}">
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">  255</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">heapBytes</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        <span class="keywordflow">return</span> name_.capacity() + histogram_.<a class="code hl_function" href="classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca">heapBytes</a>() + changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018">heapBytes</a>() + changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d">heapBytes</a>() + <a class="code hl_function" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a>( vdbVolume_.data );</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        <span class="keywordflow">return</span> name_.capacity() + histogram_.heapBytes() + changeIsoAction_.heapBytes() + changeSurfaceAction_.heapBytes() + <a class="code hl_function" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a>( vdbVolume_.data );</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    }</div>
 </div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
@@ -515,7 +515,6 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1ChangeSurfaceAction_html_adafc4e60b4cc3b6c7d865aae97618e4b"><div class="ttname"><a href="classMR_1_1ChangeSurfaceAction.html#adafc4e60b4cc3b6c7d865aae97618e4b">MR::ChangeSurfaceAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; Obj &gt; &amp;obj)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:196</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSurfaceAction_html_ae9190bfd7891e5a5cc1229fb42d4efd5"><div class="ttname"><a href="classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5">MR::ChangeSurfaceAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:188</div></div>
 <div class="ttc" id="aclassMR_1_1Histogram_html"><div class="ttname"><a href="classMR_1_1Histogram.html">MR::Histogram</a></div><div class="ttdef"><b>Definition</b> MRHistogram.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1Histogram_html_a4666262b73e1f92125d26cb27d2d5eca"><div class="ttname"><a href="classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca">MR::Histogram::heapBytes</a></div><div class="ttdeci">size_t heapBytes() const</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRHistogram.h:36</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectVoxels_html"><div class="ttname"><a href="classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></div><div class="ttdef"><b>Definition</b> MRObjectVoxels.h:17</div></div>
