@@ -1,9 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,90,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,1,74,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,90,1],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,74,1],
 "classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,48],
 "classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,45],
 "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,45,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11":[6,0,0,4,26,1],
 "classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542":[6,0,0,4,26,0],
 "classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d":[6,0,0,4,26,3],
-"classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50":[6,0,0,4,26,2]
+"classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50":[6,0,0,4,26,2],
+"classMR_1_1ChangeSurfaceAction.html":[6,0,0,4,46],
+"classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54":[6,0,0,4,46,4],
+"classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249":[6,0,0,4,46,1],
+"classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d":[6,0,0,4,46,3]
 };

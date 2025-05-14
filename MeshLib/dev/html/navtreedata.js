@@ -59,10 +59,6 @@ var NAVTREE =
         [ "Mesh Laplacian Deformation", "ExampleLaplacian.html", null ],
         [ "Mesh Denoise", "ExampleNoiseDenoise.html", null ],
         [ "Triangulation", "ExampleTriangulation.html", null ],
-        [ "Points to Mesh", "ExamplePointsToMesh.html", null ],
-        [ "Contour Triangulation", "ExampleContourTriangulation.html", null ],
-        [ "Terrain Triangulation", "ExampleTerrainTriangulation.html", null ],
-        [ "Fusion", "@ref ExampleFusion", null ],
         [ "Text to Mesh", "ExampleMeshFromText.html", null ]
       ] ],
       [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
@@ -95,7 +91,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"@ref ExampleFusion"
+"APIPage.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

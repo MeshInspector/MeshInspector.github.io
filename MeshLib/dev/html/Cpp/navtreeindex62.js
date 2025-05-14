@@ -1,9 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"namespaceMR_1_1PointsSave.html#ae23866fe66a802c4ea607cb75f014d9d":[6,0,1,0,1,27,9],
-"namespaceMR_1_1PolylineComponents.html":[6,0,1,0,1,28],
-"namespaceMR_1_1PolylineComponents.html#a7b49dea5ec0f482893a31e642b0118b6":[6,0,1,0,1,28,4],
-"namespaceMR_1_1ProgressBar.html":[6,0,1,0,1,29],
 "namespaceMR_1_1ProgressBar.html#a01e2c488a5c5dea28c7203cfbfbfd0f1":[6,0,1,0,1,29,11],
 "namespaceMR_1_1ProgressBar.html#a08670326b3d5427ad65c0583c83ff4ee":[6,0,1,0,1,29,3],
 "namespaceMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d":[6,0,1,0,1,29,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX62 =
 "namespacemembers_type.html":[6,0,1,1,3],
 "namespacemembers_u.html":[6,0,1,1,0,17],
 "namespacemembers_v.html":[6,0,1,1,0,18],
-"namespacemembers_vars.html":[6,0,1,1,2]
+"namespacemembers_vars.html":[6,0,1,1,2],
+"namespacemembers_w.html":[6,0,1,1,0,19],
+"namespaces.html":[6,0,1,0],
+"pages.html":[],
+"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0]
 };

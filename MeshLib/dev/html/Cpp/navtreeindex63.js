@@ -1,9 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"namespacemembers_w.html":[6,0,1,1,0,19],
-"namespaces.html":[6,0,1,0],
-"pages.html":[],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,1,0,0,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,2,0,0,0,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX63 =
 "structMRMeshToVolumeSettings.html#ab10a18914d44ee29bbfed783f4910fe8":[6,0,2,0,40,0],
 "structMRMeshToVolumeSettings.html#ad284c56b0cd2dc09209b87192950a104":[6,0,2,0,40,5],
 "structMRMeshToVolumeSettings.html#adfbb3b9385369a7eb23f6ec9261ea748":[6,0,2,0,40,2],
-"structMRMeshTriPoint.html":[6,0,2,0,41]
+"structMRMeshTriPoint.html":[6,0,2,0,41],
+"structMRMeshTriPoint.html#a54959a13027627d8dd832a55dd6ffe53":[6,0,2,0,41,0],
+"structMRMeshTriPoint.html#aaedb582c9f945501bf8d5f37d70cd46b":[6,0,2,0,41,1],
+"structMRMultipleEdge.html":[6,0,2,0,42],
+"structMRMultipleEdge.html#a69133b8cca2a96c744de2f022153b38b":[6,0,2,0,42,0]
 };
