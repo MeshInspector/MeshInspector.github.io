@@ -1,5 +1,9 @@
 var NAVTREEINDEX142 =
 {
+"classmrmeshpy_1_1std__vector__ViewportMask.html#a40eef6c561c84f2a0eb71da311e7c123":[6,1,0,0,2,940,6],
+"classmrmeshpy_1_1std__vector__ViewportMask.html#a40eef6c561c84f2a0eb71da311e7c123":[6,1,1,0,1,940,6],
+"classmrmeshpy_1_1std__vector__ViewportMask.html#a4cb785626370a65193648f97d825fae7":[6,1,0,0,2,940,22],
+"classmrmeshpy_1_1std__vector__ViewportMask.html#a4cb785626370a65193648f97d825fae7":[6,1,1,0,1,940,22],
 "classmrmeshpy_1_1std__vector__ViewportMask.html#a5311816d1c7e5226f0d985b957088fec":[6,1,0,0,2,940,18],
 "classmrmeshpy_1_1std__vector__ViewportMask.html#a5311816d1c7e5226f0d985b957088fec":[6,1,1,0,1,940,18],
 "classmrmeshpy_1_1std__vector__ViewportMask.html#a5fafa01a3e0f94f5446e87c37055bd41":[6,1,0,0,2,940,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX142 =
 "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html#af37cc7477fca39ff1d40dcbf4e3cb0e3":[6,1,0,0,2,944,20],
 "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html#af37cc7477fca39ff1d40dcbf4e3cb0e3":[6,1,1,0,1,944,20],
 "classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html":[6,1,0,0,2,945],
-"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html":[6,1,1,0,1,945],
-"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a004f82b3ed0f1e31ec04f1c0598ff96d":[6,1,0,0,2,945,3],
-"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a004f82b3ed0f1e31ec04f1c0598ff96d":[6,1,1,0,1,945,3],
-"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a0ebc571eba0dfaffe9db23b13cd76f62":[6,1,0,0,2,945,5],
-"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html#a0ebc571eba0dfaffe9db23b13cd76f62":[6,1,1,0,1,945,5]
+"classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html":[6,1,1,0,1,945]
 };
