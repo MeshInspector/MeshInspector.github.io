@@ -12,7 +12,7 @@ var searchData=
   ['uitasklist_9',['UiTaskList',['../../Py/classmrmeshpy_1_1UiRenderParams.html#a5a51970d52b1c57e79332439e1afd676',1,'mrmeshpy::UiRenderParams']]],
   ['underlinefirstletter_10',['underlineFirstLetter',['../structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e',1,'MR::UI::ButtonCustomizationParams']]],
   ['undirectededgehashmap_11',['UndirectedEdgeHashMap',['../../Py/namespacemrmeshpy.html#a3baa02d8d0a11c9cde5f87bc83e843c4',1,'mrmeshpy']]],
-  ['undirectededgetag_12',['UndirectedEdgeTag',['../namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b',1,'MR']]],
+  ['undirectededgetag_12',['UndirectedEdgeTag',['../../namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b',1,'MR']]],
   ['undo_13',['Undo',['../../Py/classmrmeshpy_1_1HistoryAction_1_1Type.html#a0fc40fffeb3070256ebbb05b343753ac',1,'mrmeshpy::HistoryAction::Type']]],
   ['undoprefix_14',['undoPrefix',['../structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761',1,'MR::FileLoadOptions']]],
   ['unicodeminussign_15',['unicodeMinusSign',['../structMR_1_1UnitToStringParams.html#af5c03b75a184cdc31e4591f61fddedf9',1,'MR::UnitToStringParams']]],

@@ -73,8 +73,8 @@ var searchData=
   ['separationpointset_70',['SeparationPointSet',['../../Py/namespacemrmeshpy.html#a38b2a866f352800c6ac3b646e57ef266',1,'mrmeshpy']]],
   ['seqorder_71',['SeqOrder',['../../Py/classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a655418dbcf67c8cec8d94b6973c77f73',1,'mrmeshpy::FaceDistancesSettings::OutputFaceValues']]],
   ['sequential_72',['Sequential',['../../Py/classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#ab8fe2c483cd7a5a72ff1ee3ef79edd5a',1,'mrmeshpy::MultiwayICPSamplingParameters::CascadeMode']]],
-  ['setbititerator_73',['SetBitIterator',['../namespaceMR.html#a80c4a13f8124477a46eb8fef410535eb',1,'MR']]],
-  ['setbititeratort_74',['SetBitIteratorT',['../namespaceMR.html#a3c15c0892ca50a7f2b80a89af02949e4',1,'MR']]],
+  ['setbititerator_73',['SetBitIterator',['../../namespaceMR.html#a80c4a13f8124477a46eb8fef410535eb',1,'MR']]],
+  ['setbititeratort_74',['SetBitIteratorT',['../../namespaceMR.html#a3c15c0892ca50a7f2b80a89af02949e4',1,'MR']]],
   ['setnew_75',['setNew',['../group__HistoryGroup.html#ga66d1f6caeb3fa983f8d823d501d10cc3',1,'MR']]],
   ['setter_76',['setter',['../structMR_1_1FeatureObjectSharedProperty.html#a863b69e9cebfcc8c5f242a7b655083c9',1,'MR::FeatureObjectSharedProperty']]],
   ['shadingenabled_5f_77',['shadingEnabled_',['../classMR_1_1ObjectMeshHolder.html#af0c66d3dd88973f029e2b39f28453178',1,'MR::ObjectMeshHolder']]],
@@ -381,8 +381,8 @@ var searchData=
   ['sy_378',['Sy',['../group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b',1,'MR::IntersectionPrecomputes::Sy'],['../structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de',1,'MR::IntersectionPrecomputes2::Sy']]],
   ['symbolsdistanceadditionaloffset_379',['symbolsDistanceAdditionalOffset',['../structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a',1,'MR::SymbolMeshParams']]],
   ['symbolsthicknessoffsetmodifier_380',['symbolsThicknessOffsetModifier',['../structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307',1,'MR::SymbolMeshParams']]],
-  ['symmatrix3_381',['SymMatrix3',['../namespaceMR.html#a02e90b12bc50d61d8f58ed9cfb45ff75',1,'MR']]],
-  ['symmatrix3b_382',['SymMatrix3b',['../namespaceMR.html#af72956816e655beb855e0c6a777d9be1',1,'MR']]],
+  ['symmatrix3_381',['SymMatrix3',['../../namespaceMR.html#a02e90b12bc50d61d8f58ed9cfb45ff75',1,'MR']]],
+  ['symmatrix3b_382',['SymMatrix3b',['../../namespaceMR.html#af72956816e655beb855e0c6a777d9be1',1,'MR']]],
   ['systemfontpaths_383',['SystemFontPaths',['../../Py/classmrmeshpy_1_1SystemPath.html#a84d866912ceb2c5a7e5c3071df723d9f',1,'mrmeshpy::SystemPath']]],
   ['sz_384',['Sz',['../group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a',1,'MR::IntersectionPrecomputes']]]
 ];

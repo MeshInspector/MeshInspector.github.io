@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i_0',['I',['../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851',1,'MR']]],
+  ['i_0',['I',['../../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851',1,'MR']]],
   ['icon_1',['icon',['../structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a47d1b2e37c17fef7a422edd931130303',1,'MR::ImGuiMeasurementIndicators::StringWithIcon::icon'],['../structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb',1,'MR::MenuItemInfo::icon']]],
   ['iconpos_2',['iconPos',['../structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a8d5ce30b3d371105c0f8fbd06892d19e',1,'MR::ImGuiMeasurementIndicators::StringWithIcon']]],
   ['iconsize_3',['iconSize',['../structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34',1,'MR::DrawButtonParams']]],
