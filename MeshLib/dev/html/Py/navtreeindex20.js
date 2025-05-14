@@ -1,5 +1,9 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#aff19f85195ae8d9353e3cb358e459df5":[6,1,0,0,2,191,0],
+"classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#aff19f85195ae8d9353e3cb358e459df5":[6,1,1,0,1,191,0],
+"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html":[6,1,0,0,2,192],
+"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html":[6,1,1,0,1,192],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a05ed105abc4fe886ca5140c83bb682af":[6,1,0,0,2,192,8],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a05ed105abc4fe886ca5140c83bb682af":[6,1,1,0,1,192,8],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a1010ce447c69992a84c0ee6b628363b8":[6,1,0,0,2,192,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,0,0,2,200],
 "classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,1,0,1,200],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,0,0,2,200,11],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,1,0,1,200,11],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a1a3519767c036b77f65c2f182d35dacb":[6,1,0,0,2,200,5],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a1a3519767c036b77f65c2f182d35dacb":[6,1,1,0,1,200,5],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a248c4d1374a3f13137c3f1a003b34d36":[6,1,0,0,2,200,7],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a248c4d1374a3f13137c3f1a003b34d36":[6,1,1,0,1,200,7]
+"classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,1,0,1,200,11]
 };

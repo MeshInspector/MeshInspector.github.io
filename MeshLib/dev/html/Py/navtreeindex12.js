@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1CNCMachineSettings.html#a5be1d8fa337057eed003d585b1c8290e":[6,1,0,0,2,142,9],
+"classmrmeshpy_1_1CNCMachineSettings.html#a5be1d8fa337057eed003d585b1c8290e":[6,1,1,0,1,142,9],
+"classmrmeshpy_1_1CNCMachineSettings.html#a80ab24ffc766cadaa27ed895b8042195":[6,1,0,0,2,142,7],
+"classmrmeshpy_1_1CNCMachineSettings.html#a80ab24ffc766cadaa27ed895b8042195":[6,1,1,0,1,142,7],
 "classmrmeshpy_1_1CNCMachineSettings.html#a8e36a1917ef1c963af5df577d36df723":[6,1,0,0,2,142,1],
 "classmrmeshpy_1_1CNCMachineSettings.html#a8e36a1917ef1c963af5df577d36df723":[6,1,1,0,1,142,1],
 "classmrmeshpy_1_1CNCMachineSettings.html#a9887638126755af3ff7e31b8702371ea":[6,1,0,0,2,142,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1ChangeMeshTopologyAction.html#acd3832058bce339b6a805b99c831b74c":[6,1,0,0,2,112,4],
 "classmrmeshpy_1_1ChangeMeshTopologyAction.html#acd3832058bce339b6a805b99c831b74c":[6,1,1,0,1,112,4],
 "classmrmeshpy_1_1ChangeMeshTopologyAction.html#ad73efcfdf37e1e80f15b0f4e52c3a00d":[6,1,0,0,2,112,2],
-"classmrmeshpy_1_1ChangeMeshTopologyAction.html#ad73efcfdf37e1e80f15b0f4e52c3a00d":[6,1,1,0,1,112,2],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html":[6,1,0,0,2,113],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html":[6,1,1,0,1,113],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a110e30329a94dfd774529cf8901af056":[6,1,0,0,2,113,1],
-"classmrmeshpy_1_1ChangeMeshUVCoordsAction.html#a110e30329a94dfd774529cf8901af056":[6,1,1,0,1,113,1]
+"classmrmeshpy_1_1ChangeMeshTopologyAction.html#ad73efcfdf37e1e80f15b0f4e52c3a00d":[6,1,1,0,1,112,2]
 };
