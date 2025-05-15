@@ -183,6 +183,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a> ss;</div>
+<div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.vec_.size() == colors.size() )</div>
 <div class="line">    ss.<a class="code hl_variableRef" href="./Cpp/structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a">colors</a> = &amp;colors;</div>
 <div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
@@ -213,7 +214,8 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line">terrain_mesh = mm.terrainTriangulation(pc.points.vec)</div>
 <div class="line"> </div>
 <div class="line">mss = mm.SaveSettings()</div>
-<div class="line">mss.colors = colors</div>
+<div class="line"><span class="keywordflow">if</span> (pc.points.vec.size() == colors.size()):</div>
+<div class="line">    mss.colors = colors</div>
 <div class="line">mm.saveMesh(terrain_mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>,mss)</div>
 </div><!-- fragment --></li>
 </ul>
