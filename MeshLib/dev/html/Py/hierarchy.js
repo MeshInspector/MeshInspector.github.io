@@ -296,6 +296,7 @@ var hierarchy =
     [ "mrmeshpy.FindOverlappingSettings", "classmrmeshpy_1_1FindOverlappingSettings.html", null ],
     [ "mrmeshpy.FixUndercuts.FindParams", "classmrmeshpy_1_1FixUndercuts_1_1FindParams.html", null ],
     [ "mrmeshpy.FindProjectionOnPointsSettings", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html", null ],
+    [ "mrmeshpy.FixCreasesParams", "classmrmeshpy_1_1FixCreasesParams.html", null ],
     [ "mrmeshpy.FixMeshDegeneraciesParams", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html", null ],
     [ "mrmeshpy.FixUndercuts.FixParams", "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html", null ],
     [ "mrmeshpy.FixUndercuts", "classmrmeshpy_1_1FixUndercuts.html", null ],

@@ -266,6 +266,7 @@ var annotated_dup =
       [ "FindOverhangsSettings", "classmrmeshpy_1_1FindOverhangsSettings.html", "classmrmeshpy_1_1FindOverhangsSettings" ],
       [ "FindOverlappingSettings", "classmrmeshpy_1_1FindOverlappingSettings.html", "classmrmeshpy_1_1FindOverlappingSettings" ],
       [ "FindProjectionOnPointsSettings", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html", "classmrmeshpy_1_1FindProjectionOnPointsSettings" ],
+      [ "FixCreasesParams", "classmrmeshpy_1_1FixCreasesParams.html", "classmrmeshpy_1_1FixCreasesParams" ],
       [ "FixMeshDegeneraciesParams", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html", "classmrmeshpy_1_1FixMeshDegeneraciesParams" ],
       [ "FixUndercuts", "classmrmeshpy_1_1FixUndercuts.html", "classmrmeshpy_1_1FixUndercuts" ],
       [ "FlipEdge", "classmrmeshpy_1_1FlipEdge.html", "classmrmeshpy_1_1FlipEdge" ],

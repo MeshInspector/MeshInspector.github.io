@@ -15,6 +15,12 @@ var group__MeshFixerGroup =
       [ "stabilizer", "structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01", null ],
       [ "tinyEdgeLength", "structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e", null ]
     ] ],
+    [ "MR::FixCreasesParams", "structMR_1_1FixCreasesParams.html", [
+      [ "creaseAngle", "structMR_1_1FixCreasesParams.html#a6921929310773c0b26398debbe0ee1f7", null ],
+      [ "criticalTriAspectRatio", "structMR_1_1FixCreasesParams.html#a279d3fb54a0fb0946a220b96b62e06cc", null ],
+      [ "maxIters", "structMR_1_1FixCreasesParams.html#a3c47008ac5a83366788b6b52976b5e4c", null ],
+      [ "planarCritCos", "structMR_1_1FixCreasesParams.html#a699d1743457d082d1b951952ba007ae7", null ]
+    ] ],
     [ "MR::FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", [
       [ "RayMode", "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d", [
         [ "Positive", "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147", null ],
@@ -38,6 +44,7 @@ var group__MeshFixerGroup =
     [ "MR::findNRingVerts", "group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
     [ "MR::findRepeatedVertsOnHoleBd", "group__MeshFixerGroup.html#ga8e2b8d3db10183b66f463f70a7eac5b4", null ],
     [ "MR::findShortEdges", "group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea", null ],
+    [ "MR::fixMeshCreases", "group__MeshFixerGroup.html#gab288e6567def34c11ffd9a7a3ce86db3", null ],
     [ "MR::fixMeshDegeneracies", "group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#ga52390270e3fbf5b7e8766374def17f07", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206", null ],

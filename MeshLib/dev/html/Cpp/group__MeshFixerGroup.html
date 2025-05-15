@@ -163,6 +163,9 @@ $(function(){initNavTree('group__MeshFixerGroup.html',''); initResizable(true); 
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <code>fixMeshCreases</code> function.  <a href="structMR_1_1FixCreasesParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for <code>findDisorientedFaces</code> function.  <a href="structMR_1_1FindDisorientationParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +224,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga8e2b8d3db10183b66f463f70a7eac5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga464e6b15a1c089223ed826d849cd69cf" id="r_ga464e6b15a1c089223ed826d849cd69cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga464e6b15a1c089223ed826d849cd69cf">MR::findHoleComplicatingFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:ga464e6b15a1c089223ed826d849cd69cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab288e6567def34c11ffd9a7a3ce86db3" id="r_gab288e6567def34c11ffd9a7a3ce86db3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab288e6567def34c11ffd9a7a3ce86db3">MR::fixMeshCreases</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixCreasesParams.html">FixCreasesParams</a> &amp;params={})</td></tr>
+<tr class="memdesc:gab288e6567def34c11ffd9a7a3ce86db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds creases edges and re-triangulates planar areas around them, useful to fix double faces.  <br /></td></tr>
+<tr class="separator:gab288e6567def34c11ffd9a7a3ce86db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga538e3992fb17dac0a5e4f140d86defef" id="r_ga538e3992fb17dac0a5e4f140d86defef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga538e3992fb17dac0a5e4f140d86defef">MR::findDisorientedFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FindDisorientationParams.html">FindDisorientationParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:ga538e3992fb17dac0a5e4f140d86defef"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all faces that are oriented inconsistently, based on number of ray intersections  <br /></td></tr>
 <tr class="separator:ga538e3992fb17dac0a5e4f140d86defef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -595,6 +601,29 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>finds edges having length &lt;= criticalLength </p>
+
+</div>
+</div>
+<a id="gab288e6567def34c11ffd9a7a3ce86db3" name="gab288e6567def34c11ffd9a7a3ce86db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab288e6567def34c11ffd9a7a3ce86db3">&#9670;&#160;</a></span>fixMeshCreases()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::fixMeshCreases </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FixCreasesParams.html">FixCreasesParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds creases edges and re-triangulates planar areas around them, useful to fix double faces. </p>
 
 </div>
 </div>

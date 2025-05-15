@@ -376,6 +376,7 @@ var hierarchy =
     [ "MR::FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", null ],
     [ "MR::FixUndercuts::FindParams", "structMR_1_1FixUndercuts_1_1FindParams.html", null ],
     [ "MR::FindProjectionOnPointsSettings", "structMR_1_1FindProjectionOnPointsSettings.html", null ],
+    [ "MR::FixCreasesParams", "structMR_1_1FixCreasesParams.html", null ],
     [ "MR::FixMeshDegeneraciesParams", "structMR_1_1FixMeshDegeneraciesParams.html", null ],
     [ "MR::FixUndercuts::FixParams", "structMR_1_1FixUndercuts_1_1FixParams.html", null ],
     [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
